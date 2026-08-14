@@ -12,23 +12,13 @@ const batch = JSON.parse(fs.readFileSync(batchFile, 'utf8'));
 const CACHE = '/tmp/claude-1000/hocr';
 fs.mkdirSync(CACHE, { recursive: true });
 
-function hocrWords(bsb, page) {
-  const f = `${CACHE}/${bsb}_${page}.html`;
-  if (!fs.existsSync(f) || !fs.statSync(f).size) {
-    execSync(`curl -s "https://api.digitale-sammlungen.de/ocr/${bsb}/${page}" -H 'User-Agent: Mozilla/5.0 schubert-lieder-project' -o ${f}`);
-  }
-  const h = fs.readFileSync(f, 'utf8');
-  return [...h.matchAll(/<span[^>]*ocrx_word[^>]*>([^<]*)<\/span>/g)]
-    .map(m => m[1].trim())
-    .filter(w => w && !/^[\d.,;:!?()*&"'«»„“\-–—=|]+$/.test(w))
-    .filter(w => !/^(cresc|decresc|dim|pp|ppp|ff|fff|fp|mf|sempre|staccato|ligato|legato|ritard|rit|accel|Ped|Serie|Pianoforte|Singstimme|Breitkopf|Härtel|Leipzig|Stich|Druck|von|Werke)$/.test(w) || /^von$/.test(w));
-}
+const { pageBands } = require('./hocr-bands.js');
 
 const items = [];
 for (const b of batch) {
   const pages = [];
   for (let p = b.from; p <= b.to; p++) {
-    try { pages.push({ p, words: hocrWords(b.bsb, p).join(' ') }); }
+    try { pages.push({ p, words: pageBands(b.bsb, p).join(' | ') }); }
     catch (e) { pages.push({ p, words: '' }); }
   }
   items.push({ d: b.d, title: b.title, poet: b.poet, bsb: b.bsb, from: b.from, to: b.to, ocr: pages });
@@ -63,7 +53,7 @@ const guard = (it, r) => {
 
 const mkPrompt = it => \`Собери текст песни Шуберта «\${it.title}» (D \${it.d})\${it.poet?', стихи: '+it.poet:''} из OCR-потока страниц старого издания (Breitkopf 1894–95). OCR содержит: заголовки, технические пометки (Serie, Op., pp, cresc, номера досок F.S., колонтитулы) и ПОДТЕКСТОВКУ — слоги под нотами (разорваны: «fin de» = finde), иногда в конце — печатные дополнительные куплеты строфической песни.
 
-OCR ПО СТРАНИЦАМ:
+OCR ПО СТРАНИЦАМ (строки-полосы подтекстовки в порядке чтения, разделены «|»; слоги разорваны: «fin de» = finde):
 \${it.ocr.map(p=>'[стр.'+p.p+'] '+p.words).join('\\n')}
 
 ЗАДАЧА: восстанови текст ПЕСНИ КАК ПОЁТСЯ: склей слоги в слова, отбрось всё техническое, сохрани повторы, выписанные в подтекстовке; печатные дополнительные куплеты включи в порядке пения (развернув повторы по образцу подтекстованного куплета). Историческую орфографию сохраняй как в OCR (Thore, süssen…; явные ошибки OCR-распознавания исправляй по смыслу стиха). Разбей на строфы из стихотворных строк.\`
