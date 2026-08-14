@@ -4809,5 +4809,648 @@
  {
   "d": "943",
   "error": "not in OCR (100.0%): empty, ocr, does, not, contain, lyric, subtext, only"
+ },
+ {
+  "d": "211",
+  "issues": [
+   "Стих сбивается со стабильной 8-строчной строфы (ABBACCDD) на нерегулярные группы в нескольких местах, что указывает на потерю/смещение строк, а не на особенность оригинала. Пример: 'Fräulein, dich befehl' ich Gott, / dein im Leben und im Tod! / Leiten soll mich dieser Stecken / hin in Zions heiliges Land,' — это всего 4 строки без завершающей рифмующей пары перед следующей темой, тогда как в остальном тексте строфа обычно состоит из двух четверостиший.",
+   "Строфа 'Gold, Gestein und Seide, nimmer / schwört sie fortzulegen, an keiner Zier; / ach, schon weht vom Grabe / deiner Emma Todtenluft; / schon um Zofe darf ihr nah'n, / und kein Knappe, jetzt und nimmer, / schwärmt der Väter Gruft, ahnend, / Käuzlein, Eul' und Rabe.' синтаксически бессвязна и не даёт ясного смысла ('schon um Zofe darf ihr nah'n' и т.п.) — похоже на перепутанный порядок строк или пропуски по сравнению с окружающими правильными строфами.",
+   "Строфа 'Oft bei trautem Mondesschimmer / wallt sie barfuss über Trümmer. / Weh dir, weh! an seinem Stabe / folgt sie willig ihm zum Grabe, / wild verwachsen, steil und rauh, / noch zur hochgelobten Frau, / hin, wo mehr denn Helm und Schild / Liebe, Treu' und Tugend gilt.' содержит логически несвязанные образы ('wild verwachsen, steil und rauh' относится, видимо, к тропе/руинам, но вставлено между несвязанными строками) — вероятна перестановка строк.",
+   "В конце строфы про пожар: 'Für sie gleiten ab von tauben / Ohren that des Hochbedrängten Schrei.' — синтаксис перевёрнут/оборван по сравнению с обычным строем строф; не хватает ясной парной рифмующей строки, характерной для остальных строф."
+  ],
+  "stanzas": [
+   [
+    "Hoch und ehrern schier von Dauer",
+    "ragt ein Ritterschloss empor;",
+    "Bären lagen an dem Thor,",
+    "Beute schnaubend, auf der Lauer;",
+    "Thürme zingelten die Mauer,",
+    "gleich den Riesen; bange Schauer",
+    "wehten brausend, wie ein Meer,",
+    "von den Tannenwipfeln her."
+   ],
+   [
+    "Aber finstrer Kummer nagte,",
+    "muthverzehrend, um und an,",
+    "hier am wackern deutschen Mann,",
+    "dem kein Feind zu trotzen wagte;",
+    "oft, noch eh der Morgen tagte,",
+    "fuhr er auf vom Traum und fragte,",
+    "itzt mit Seufzer, itzt mit Schrei:",
+    "\"Wo sein theurer Letzter sei?\""
+   ],
+   [
+    "\"Vater, rufe nicht dem Lieben!\"",
+    "flüstert einstens Emma drein,",
+    "\"sieh, er schläft im Kämmerlein,",
+    "sanft und stolz, was kann ihn trüben?\""
+   ],
+   [
+    "\"Ich? nicht rufen? sind nicht sieben",
+    "meiner Söhn' im Kampf geblieben?",
+    "Weint ich nicht schon fünfzehn Jahr'",
+    "um das Weib, das euch gebar?\""
+   ],
+   [
+    "Emma hört's und schmiegt, mit Beben",
+    "weinend, sich an seine Brust:",
+    "\"Vater! Sieh dein Kind, ach, früh",
+    "war dein Beifall mein Bestreben!\""
+   ],
+   [
+    "Wie wenn Trosteswort zu geben",
+    "Boten Gottes niederschweben,",
+    "führt der Holden Red' und Blick",
+    "neue Kraft in ihn zurück."
+   ],
+   [
+    "Heiter presst er sie an's Herze:",
+    "\"O vergieb, dass ich vergass,",
+    "welchen Schatz ich noch besass,",
+    "übermannt von meinem Schmerze!"
+   ],
+   [
+    "Aber, sprachst du nicht im Scherze?",
+    "Wohl, dann bei dem Schein der Kerze",
+    "wandle mit mir einen Gang,",
+    "stracks den düstern Weg entlang.\""
+   ],
+   [
+    "Zitternd folgte sie; bald gelangen",
+    "sie zur Halle, graus und tief,",
+    "wo die Schaar der Väter schlief;",
+    "rings im Kreis an Silberspangen"
+   ],
+   [
+    "um ein achtes hergehangen,",
+    "leuchteten mit bleichem, bangen",
+    "Grabesschimmer fort und fort",
+    "sieben Lämplein diesem Ort."
+   ],
+   [
+    "Unter'n Lämplein war's von Steinen,",
+    "traun, erzählen kann ich's nicht,",
+    "war's so traurig zugericht',",
+    "war's so ladend, ach, zum Weinen."
+   ],
+   [
+    "\"Bei den heiligen Gebeinen,",
+    "welchen diese Lampen scheinen,",
+    "ruf' ich laut, beschwör' ich dich,",
+    "traute Tochter, höre mich!"
+   ],
+   [
+    "Mein Geschlecht, seit grauen Zeiten,",
+    "war, wie Rittersmännern ziemt,",
+    "keck, gestreng und fast berühmt;",
+    "in des Grabes Dunkelheit"
+   ],
+   [
+    "sank die Reih' von Biederleuten,",
+    "sanken, die so mich erfreuten,",
+    "bis einst der Posaune Hall",
+    "sie wird wecken allzumal."
+   ],
+   [
+    "Nie vergassen deine Brüder",
+    "dieser grossen Ahnen Werth;",
+    "Reich und Kaiser schätzt ihr Schwert,",
+    "wie ein deckendes Gefieder."
+   ],
+   [
+    "Gieb sie, Tochter, gieb sie wieder",
+    "mir im wackern Bräutigam;",
+    "dir kiest aus Heldenstamm.\""
+   ],
+   [
+    "Aber — Fluch! — und mit dem Worte,",
+    "gleich als schreckt' ihn Nacht und Graus,",
+    "zog er plötzlich sie hinaus",
+    "aus dem schauervollen Orte."
+   ],
+   [
+    "Emma wankte durch die Pforte:",
+    "\"Ende nicht die Schreckensworte,",
+    "denk' an Himmel und Gericht,",
+    "verwirf, verwirf mich nicht!\""
+   ],
+   [
+    "Bleich, wie sie mit bangem Zagen,",
+    "lehnt des Vaters Knappe hier;",
+    "wie dem Sünder wird's ihm schier,",
+    "den die Schrecken Gottes schlagen;"
+   ],
+   [
+    "kaum zu athmen that er wagen,",
+    "kaum die Kerze vorzutragen,",
+    "hatte, matt und fieberhaft,",
+    "seine Rechte noch die Kraft."
+   ],
+   [
+    "Adelwolden bracht' als Waise,",
+    "mit leidsvoll, auf seinem Ross,",
+    "einst der Ritter nach dem Schloss,",
+    "heim von einer fernen Reise;"
+   ],
+   [
+    "pflegte sein mit Trank und Speise,",
+    "that ihn hegen in dem Kreise",
+    "seiner Kinder, oft und viel",
+    "war er tummelnd ihr Gespiel."
+   ],
+   [
+    "Aber Emma, seine ganze",
+    "zarte Seele webt um sie,",
+    "war es frühe Sympathie:",
+    "froh umwand sie seine Lanze"
+   ],
+   [
+    "im Turnier mit einem Kranze,",
+    "schwebte leichter dann im Tanze",
+    "mit dem Knaben, keck und treu,",
+    "als das Lüftchen schwebt im Mai."
+   ],
+   [
+    "Rosig auf zum Jüngling blühte",
+    "bald der Niedre von Geschlecht,",
+    "edler lohnte nie ein Knecht",
+    "seines Pflegers Vatergüte,"
+   ],
+   [
+    "heiss und heisser glühte,",
+    "was zu dämpfen er sich mühte;",
+    "fester knüpft ihn, fester, ach,",
+    "an das Fräulein jeder Tag,"
+   ],
+   [
+    "fest und fester, sie an ihren",
+    "süssen, trauten Adelwold.",
+    "\"Was sind Wappen, Land und Gold,",
+    "sollt' ich, Arme, dich verlieren?"
+   ],
+   [
+    "Was die Flitter, so mich zieren,",
+    "was Bandkette bei Turnieren,",
+    "Wappen, Land, Geschmuck und Gold,",
+    "lohnt ein Traum von Adelwold?\""
+   ],
+   [
+    "So dachte das Fräulein, wenn der Schleier",
+    "grauer Nächte sie umfing.",
+    "Doch mit eins, als Emma heute",
+    "spät noch betet, weint und wacht,"
+   ],
+   [
+    "steht, gehüllt in Pilgertracht,",
+    "Adelwold an ihrer Seite:",
+    "\"Zürne nicht, Gebenedeite,",
+    "denn mich treibt's, mich treibt's in's Weite!"
+   ],
+   [
+    "Fräulein, dich befehl' ich Gott,",
+    "dein im Leben und im Tod!",
+    "Leiten soll mich dieser Stecken",
+    "hin in Zions heiliges Land,"
+   ],
+   [
+    "wo vielleicht ein Häuflein Sand",
+    "bald den Armen wird bedecken;",
+    "meine Seele muss erschrecken,",
+    "durch Verrath sich zu beflecken"
+   ],
+   [
+    "an dem Mann, der mild und gross",
+    "her mich trug in seinen Schoos.",
+    "Selig träumt' ich einst, als Knabe...",
+    "Engel, ach, vergieb es mir,"
+   ],
+   [
+    "denn ein Bettler bin ich schier,",
+    "nur dies Herz ist meine Habe!",
+    "Jüngling, ach, an diesem Stabe",
+    "führst du treulos mich zum Grabe,"
+   ],
+   [
+    "würgest — Gott zeih' es dir —",
+    "die dich liebte für und für!\"",
+    "Und schon wankte der Entzückte,",
+    "als des Fräuleins keuscher Arm,"
+   ],
+   [
+    "ach, so weiss, so weich und warm,",
+    "sanft ihn hin zum Busen drückte;",
+    "aber fürchterlicher blickte,",
+    "was ihm schier ihr Kuss entrückte,"
+   ],
+   [
+    "und vom Herzen, das ihm schlug,",
+    "riss ihn schnell des Vaters Fluch.",
+    "\"Lindre, Vater, meine Wunde,",
+    "keinen Laut aus deinem Munde,"
+   ],
+   [
+    "keine Zähr' in dieser Stunde,",
+    "keine Sonne, die mir blickt,",
+    "keine Nacht, die mich erquickt!\""
+   ],
+   [
+    "Gold, Gestein und Seide, nimmer",
+    "schwört sie fortzulegen, an keiner Zier;",
+    "ach, schon weht vom Grabe",
+    "deiner Emma Todtenluft;",
+    "schon um Zofe darf ihr nah'n,",
+    "und kein Knappe, jetzt und nimmer,",
+    "schwärmt der Väter Gruft, ahnend,",
+    "Käuzlein, Eul' und Rabe."
+   ],
+   [
+    "Oft bei trautem Mondesschimmer",
+    "wallt sie barfuss über Trümmer.",
+    "Weh dir, weh! an seinem Stabe",
+    "folgt sie willig ihm zum Grabe,"
+   ],
+   [
+    "wild verwachsen, steil und rauh,",
+    "noch zur hochgelobten Frau,",
+    "hin, wo mehr denn Helm und Schild",
+    "Liebe, Treu' und Tugend gilt."
+   ],
+   [
+    "Selbst dem Vater that sich senken",
+    "tief und tiefer jetzt das Haupt,",
+    "kaum dass er der Mähr' noch glaubt;",
+    "seufzen that er, itzt, itzt denken,"
+   ],
+   [
+    "was den Jüngling konnte kränken,",
+    "ob ein Spiel von Neid und Ränken?",
+    "Ob, wie ein Gespenst der Nacht,",
+    "schreckt ihn, was er itzt gedacht:"
+   ],
+   [
+    "hergeführt auf schwülen Winden",
+    "muss ein Strahl die Burg entzünden,",
+    "tosend, gleich den Wogen, wallen",
+    "rings die Gluthen, krachend dräuen,",
+    "Säul' und Wölbung, Balk' und Stein,",
+    "stracks in Trümmern zu zerfallen;",
+    "Angstruf und Verzweiflung schallen,",
+    "grausend, durch die weiten Hallen,"
+   ],
+   [
+    "stürmend drängt und athemlos",
+    "Knecht und Junker aus dem Schloss.",
+    "\"Richter, ach, verschone!\" ruft",
+    "der Greis mit starrem Blick:"
+   ],
+   [
+    "\"Gott, mein Kind, es bleibt zurück!",
+    "Rettet, dass euch Gott einst lohne,",
+    "Gold und Silber, Land und Frohne,",
+    "jede Burg, die ich bewohne,"
+   ],
+   [
+    "ihrem Retter zum Gewinn,",
+    "selbst dies Leben geb' ich hin!\"",
+    "Für sie gleiten ab von tauben",
+    "Ohren that des Hochbedrängten Schrei."
+   ],
+   [
+    "Aber plötzlich stürzt herbei,",
+    "der ihr Treue zugeschworen,",
+    "stürzt nach den entflammten Thoren,",
+    "giebt, mit Freuden, sich verloren."
+   ],
+   [
+    "Jeder, staunend, fern und nah,",
+    "wähnt ein Blendwerk, was er sah:",
+    "Gluth an Gluth, und jedes Streben",
+    "schien vergebens; endlich fasst er",
+    "die theure, süsse Last,",
+    "kalt und sonder Spur von Leben,",
+    "doch beginnt ein leises Beben",
+    "Herz und Busen jetzt zu heben,"
+   ],
+   [
+    "und durch Flamme, Dampf und Graus",
+    "trägt er glücklich sie hinaus.",
+    "Purpur kehrt auf ihre Wangen,",
+    "wo der Traute sie geküsst."
+   ],
+   [
+    "\"Jüngling, sage, wer du bist?",
+    "Ich beschwöre dich der Bangen:",
+    "hält ein Engel mich umfangen,",
+    "der, auf seinem Erdenflug,"
+   ],
+   [
+    "meines Lieben Bildniss trug?\"",
+    "Starr zusammenschrickt der Blöde,",
+    "denn der Ritter, noch am Thor,",
+    "lauscht, mit hingewandtem Ohr,"
+   ],
+   [
+    "jedem Laut der süssen Rede.",
+    "Doch den Zweifler that er mannen,",
+    "bald des Ritters Gruss und Kuss,",
+    "dem im süssesten Genuss"
+   ],
+   [
+    "hell der Wonne Zähren rannen:",
+    "\"Du? es du? sag' an, von wannen,",
+    "was dich kommt von mir verbannen?",
+    "Was dich, nimmer lohn' ich's dir,"
+   ],
+   [
+    "Emma wiedergab und mir?",
+    "Deines Fluchs mich zu entlasten",
+    "war es Pflicht, dass ich entwich,",
+    "eilig, wild und fürchterlich"
+   ],
+   [
+    "trieb's mich sonder Ruh' und Rasten,",
+    "dort im Kloster, wo sie prassten,",
+    "labten Thränen mich und Fasten,",
+    "bis der frommen Pilger Schaar",
+    "voll zum Zug versammelt war;",
+    "doch mit unsichtbaren Ketten",
+    "zog mich plötzlich Gottes Hand",
+    "jetzt zurück von Land zu Land,"
+   ],
+   [
+    "her zur Burg mein Theuerstes zu retten.",
+    "Nimm sie, Ritter, nimm, und sprich",
+    "das Urtheil über mich!\""
+   ],
+   [
+    "Emma harrt in düstres Schweigen,",
+    "wie in Mitternacht gehüllt,",
+    "starrer denn ein Marmorbild,",
+    "harren, furchterfüllte Zeugen —"
+   ],
+   [
+    "denn es zweifelten die Feigen,",
+    "ob den Ritterstolz zu beugen",
+    "je vermöcht' ein hoher Muth",
+    "sonder Ahnenglanz und Gut."
+   ],
+   [
+    "\"Dein ist Emma, ewig dein!",
+    "Längst entscheiden that der Himmel,",
+    "rein wie Gold bist du funden,",
+    "Adelwold, gross in Edelmuth und Leiden;"
+   ],
+   [
+    "nimm, ich gebe sie mit Freuden,",
+    "nimm, der Himmel that entscheiden,",
+    "nannte selbst im Donnerlaut",
+    "sie vor Engeln deine Braut."
+   ],
+   [
+    "Nimm sie hin mit Vatersegen!",
+    "Ihn wird, neben meine Schuld,",
+    "ach, mit Langmuth und Geduld,",
+    "der einst kommt Gericht zu hegen,",
+    "auf die Prüfungswage legen,",
+    "mir verzeihn um euretwegen,",
+    "der, von eitlem Stolz befleckt,",
+    "beid' euch schier ins Grab gestreckt!"
+   ],
+   [
+    "Fest umschlungen jetzt von ihnen,",
+    "blickt der Greis zum Himmel auf:",
+    "\"Fröhlich endet sich mein Lauf!\"",
+    "Spuren der Verklärung schienen",
+    "aus des Hochentzückten Mienen,",
+    "und auf dampfenden Ruinen",
+    "fügt er, schweigend, ihre Hand",
+    "in das lang ersehnte Band."
+   ]
+  ]
+ },
+ {
+  "d": "650",
+  "error": "not in OCR (5.5%): zauberlieder, abendglöckleins, himmelwärts, entwöhne, himmelsbetesiegel, leichensteine, auferstehen"
+ },
+ {
+  "d": "708",
+  "issues": [
+   "Строфа 'Fernab hin der Geist, gegen die uns / Locken durch die Wogen' синтаксически не складывается — 'gegen die uns Locken durch die Wogen' не образует осмысленной немецкой конструкции (в отличие от остальных строф, где повторы просто дублируют цельные фразы). Похоже на ошибку при наборе/перестановку слов (например, потерян антецедент 'die' или переставлены члены предложения). Стоит сверить с авторитетным изданием текста Бруххмана/партитуры."
+  ],
+  "stanzas": [
+   [
+    "Windes Rauschen, Gottes Flügel,",
+    "Tief in kühler Waldesnacht,",
+    "Windes Rauschen, Gottes Flügel,",
+    "Tief in kühler Waldesnacht,",
+    "Wie der Held in Rosses Bügel,",
+    "Schwingt sich des Gedankens Macht."
+   ],
+   [
+    "Wie die alten Tannen sausen,",
+    "Hört man Geistes Wogen brausen,",
+    "Wie die alten Tannen sausen,",
+    "Hört man Geistes Wogen brausen,",
+    "Wie der Held in Rosses Bügel,",
+    "Schwingt sich des Gedankens Macht,",
+    "Wie die alten Tannen sausen,",
+    "Hört man Geistes Wogen brausen,",
+    "Wie die alten Tannen sausen,",
+    "Hört man Geistes Wogen brausen."
+   ],
+   [
+    "Herrlich ist der Flamme Leuchten",
+    "In des Morgenglanzes Roth,",
+    "Blitze, die das Feld beleuchten,",
+    "Schwanger oft von Tod,",
+    "Blitze schwanger oft von Tod."
+   ],
+   [
+    "Rasch die Flamme zuckt und lodert,",
+    "Wie zu Gott hinaufgefodert,",
+    "Rasch die Flamme zuckt und lodert,",
+    "Wie zu Gott hinaufgefodert."
+   ],
+   [
+    "Ewig's Rauschen sanfter Quellen",
+    "Zaubert Blumen aus dem Schmerz,",
+    "Ewig's Rauschen sanfter Quellen",
+    "Zaubert Blumen aus dem Schmerz,",
+    "Trauer doch in linden Wellen",
+    "Schlägt uns lockend an das Herz,",
+    "Schlägt uns lockend an das Herz."
+   ],
+   [
+    "Fernab hin der Geist, gegen die uns",
+    "Locken durch die Wogen,",
+    "Fernab hin der Geist, gegen die uns",
+    "Locken durch die Wogen,",
+    "Fernab hin der Geist, gegen die uns",
+    "Locken durch die Wogen."
+   ],
+   [
+    "Drang des Lebens aus der Hülle,",
+    "Kampf der starken Triebe wild,",
+    "Wird zur schönsten Liebesfülle",
+    "Durch des Geistes Hauch gestillt,",
+    "Wird zur schönsten Liebesfülle",
+    "Durch des Geistes Hauch gestillt,",
+    "Drang des Lebens aus der Hülle,",
+    "Kampf der starken Triebe wild,",
+    "Wird zur schönsten Liebesfülle",
+    "Durch des Geistes Hauch gestillt,",
+    "Wird zur schönsten Liebesfülle",
+    "Durch des Geistes Hauch gestillt."
+   ],
+   [
+    "Schöpferischer Lüfte Wehen",
+    "Fühlt man durch die Seele gehen,",
+    "Schöpferischer Lüfte Wehen",
+    "Fühlt man durch die Seele gehen,",
+    "Fühlt man durch die Seele gehen."
+   ],
+   [
+    "Windes Rauschen, Gottes Flügel,",
+    "Tief in dunkler Waldesnacht,",
+    "Windes Rauschen, Gottes Flügel,",
+    "Tief in dunkler Waldesnacht,",
+    "Frei gegeben alle Zügel,",
+    "Schwingt sich des Gedankens Macht,",
+    "Hört in Lüften ohne Grausen",
+    "Den Gesang der Geister brausen,",
+    "Frei gegeben alle Zügel,",
+    "Schwingt sich des Gedankens Macht,",
+    "Hört in Lüften ohne Grausen",
+    "Den Gesang der Geister brausen,",
+    "Hört in Lüften ohne Grausen",
+    "Den Gesang der Geister brausen."
+   ],
+   [
+    "Windes Rauschen, Gottes Flügel,",
+    "Tief in dunkler Waldesnacht."
+   ]
+  ]
+ },
+ {
+  "d": "720",
+  "issues": [
+   "Стих 5 разбит и продублирован неверно: строки «Und so kannst du weiter ziehen, / Diene Freunden und Betrübten.» повторены дважды подряд (как отдельная мини-строфа), а затем идут «Dort, wo hohe Mauern glühen, / Dort find' ich bald den Vielgeliebten.» отдельным двустишием — в оригинале это должна быть цельная строфа: «Und so kannst du weiter ziehen, / Diene Freunden und Betrübten. / Dort, wo hohe Mauern glühen, / Dort find' ich bald den Vielgeliebten.» Разбивка на два блока с повтором первых двух строк выглядит как ошибка сборки текста (потерян порядок строк единой строфы).",
+   "Предпоследняя строфа «Ach, die wahre Herzenskunde...» повторена дважды подряд полностью (4+4 строки), а затем идёт третий, урезанный до 3 строк вариант той же строфы («Ach, die wahre Herzenskunde, Liebeshauch, erfrischtes Leben, Kann mir nur sein Athem geben.» — без строки «Wird mir nur aus seinem Munde»). Тройное повторение с одним урезанным экземпляром выглядит подозрительно — нужно сверить с партитурой/авторитетным изданием, является ли финальное повторение действительно усечённым (это возможно у Шуберта как муз. приём), либо это ошибка транскрипции."
+  ],
+  "stanzas": [
+   [
+    "Was bedeutet die Bewegung?",
+    "Bringt der Ost mir frohe Kunde?",
+    "Seiner Schwingen frische Regung",
+    "Kühlt des Herzens tiefe Wunde."
+   ],
+   [
+    "Seiner Schwingen frische Regung",
+    "Kühlt des Herzens tiefe Wunde."
+   ],
+   [
+    "Kosend spielt er mit dem Staube,",
+    "Jagt ihn auf in leichten Wölkchen,",
+    "Treibt zur sichern Rebenlaube",
+    "Der Insekten frohes Völkchen."
+   ],
+   [
+    "Treibt zur sichern Rebenlaube",
+    "Der Insekten frohes Völkchen."
+   ],
+   [
+    "Lindert sanft der Sonne Glühen,",
+    "Kühlt auch mir die heissen Wangen,",
+    "Küsst die Reben noch im Fliehen,",
+    "Die auf Feld und Hügel prangen."
+   ],
+   [
+    "Küsst die Reben noch im Fliehen,",
+    "Die auf Feld und Hügel prangen."
+   ],
+   [
+    "Und mir bringt sein leises Flüstern",
+    "Von dem Freunde tausend Grüsse;",
+    "Eh noch diese Hügel düstern,",
+    "Grüssen mich wohl tausend Küsse."
+   ],
+   [
+    "Und so kannst du weiter ziehen,",
+    "Diene Freunden und Betrübten."
+   ],
+   [
+    "Und so kannst du weiter ziehen,",
+    "Diene Freunden und Betrübten."
+   ],
+   [
+    "Dort, wo hohe Mauern glühen,",
+    "Dort find' ich bald den Vielgeliebten."
+   ],
+   [
+    "Ach, die wahre Herzenskunde,",
+    "Liebeshauch, erfrischtes Leben,",
+    "Wird mir nur aus seinem Munde,",
+    "Kann mir nur sein Athem geben."
+   ],
+   [
+    "Ach, die wahre Herzenskunde,",
+    "Liebeshauch, erfrischtes Leben,",
+    "Wird mir nur aus seinem Munde,",
+    "Kann mir nur sein Athem geben."
+   ],
+   [
+    "Ach, die wahre Herzenskunde,",
+    "Liebeshauch, erfrischtes Leben,",
+    "Kann mir nur sein Athem geben."
+   ]
+  ]
+ },
+ {
+  "d": "938",
+  "issues": [
+   "Строфы 3 и 4 не разделены (нет пустой строки между 'kommt leise zu mir in's Gemach.' и 'Er kennt mich schon...'), хотя это разные строфы в оригинале Лейтнера — структурно они слиты в один блок, что нарушает деление на строфы."
+  ],
+  "stanzas": [
+   [
+    "Es ist so still, so heimlich um mich,",
+    "die Sonn' ist unter, der Tag entwich.",
+    "Wie schnell nun heran der Abend graut!",
+    "Mir ist es recht, sonst ist mir's zu laut."
+   ],
+   [
+    "Jetzt aber ist's ruhig, es hämmert kein Schmied,",
+    "kein Klempner, das Volk verlief und ist müd,",
+    "und selbst dass nicht rassle der Wagen Lauf,",
+    "zog Decken der Schnee durch die Gassen auf."
+   ],
+   [
+    "Wie thut mir so wohl der selige Frieden!",
+    "Da sitz' ich im Dunkeln, ganz abgeschieden,",
+    "so ganz für mich. Nur der Mondenschein",
+    "kommt leise, kommt leise zu mir in's Gemach.",
+    "Er kennt mich schon und lässt mich schweigen,",
+    "nimmt nur seine Arbeit, die Spindel, das Gold,",
+    "und spinnet stille, webt und lächelt hold,",
+    "und hängt dann sein schimmerndes Schleiertuch",
+    "rings um an Geräth und Wänden aus."
+   ],
+   [
+    "Ist gar ein stiller, ein lieber Besuch,",
+    "macht mir gar keine Unruh im Haus,",
+    "Will er bleiben, so hat er Ort,",
+    "freut's ihn nimmer, so geht er fort, so geht er fort."
+   ],
+   [
+    "Ich sitze dann stumm im Fenster gern,",
+    "und schau' hinauf in Gewölk und Stern,",
+    "denke zurück, ach weit, gar weit,",
+    "in eine schöne, verschwund'ne Zeit,",
+    "denk' an Sie, an das Glück der Minne,",
+    "seufze still und sinne, und sinne,",
+    "seufze still und sinne, denk' an Sie, an das Glück der Minne,",
+    "seufze still und sinne, und sinne,",
+    "seufze still und sinne, und sinne, und sinne."
+   ]
+  ]
  }
 ]

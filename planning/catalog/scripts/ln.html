@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+Search Titles and First Lines | LiederNet
+</title>
+<!--<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />-->
+<meta name="google-site-verification" content="1X0R00VYafsido-bovKUJjyCu4rra_W_9elarBiO8H8" />
+<meta charset="UTF-8">
+<meta name="identifier-url" content="https://www.lieder.net/">
+<meta name="copyright" content="© The LiederNet Archive">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link id="favicon" rel="shortcut icon" href="/favicon/favicon.ico?v=2" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png?v=2">
+<meta name="theme-color" content="#284358">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png?v=2">
+<link rel="manifest" href="favicon/site.webmanifest?v=2">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg?v=2" color="#3b6f96">
+<meta name="description" content="Texts and Translations to Lieder and other classical vocal works in more than a hundred languages">
+<meta name="keywords" content="Lieder, translation, lyrics, art song, poetry, vocal text, kunstlieder, uebersetzungen, gedichte, melodie, traductions, Liederen, canzoni, laulua, piosenki, pisne, letra, cancoe">
+<meta name="robots" content="index,follow">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<style type="text/css">
+  @media print {
+    main { display:none; }
+  }
+</style>
+
+<link rel="preload" as="style" href="/lieder/style/style_sheet.css?v=129" type="text/css">
+
+<link rel="stylesheet" href="/lieder/style/style_sheet.css?v=129" type="text/css">
+
+<link rel="preload" fetchpriority="high" as="image" href="/images/Hirt4transp.png" type="image/png">
+
+<link rel="preload" href="/lieder/fonts/lato-v24-latin-ext-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="/lieder/fonts/lato-v24-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="/lieder/jquery/jquery-3.7.1.min.js" as="script" type="text/javascript">
+<script fetchpriority="high" src="/lieder/jquery/jquery-3.7.1.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+function delete_my_cookie ( cookie_name )
+{
+  var cookie_date = new Date ( );  // current date & time
+  cookie_date.setTime ( cookie_date.getTime() - 1 );
+  document.cookie = cookie_name + "=X;expires=" + cookie_date.toGMTString();
+}
+
+function sign_out() {
+  delete_my_cookie("lieder");
+  location.reload();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const trailingTrimOnly = ['new_text', 'display_text'];
+  
+  // Function to trim an input
+  function trimInput(input) {
+    if (input.tagName === 'TEXTAREA' && trailingTrimOnly.includes(input.id)) {
+      input.value = input.value.replace(/\s+$/g, '');
+    } else if ((input.tagName === 'INPUT' && ['text', 'email', 'search', 'tel', 'url'].includes(input.type)) || 
+               input.tagName === 'TEXTAREA') {
+      input.value = input.value.trim();
+    }
+  }
+  
+  // Attach blur listeners directly to all inputs
+  function attachBlurListeners() {
+    const inputs = document.querySelectorAll('input[type="text"], input[type="email"], input[type="search"], input[type="tel"], input[type="url"], textarea');
+    inputs.forEach(function(input) {
+      input.addEventListener('blur', function() {
+        trimInput(this);
+      });
+    });
+  }
+  
+  // Run initially
+  attachBlurListeners();
+  
+  // Also use MutationObserver to handle dynamically added inputs
+  const observer = new MutationObserver(function(mutations) {
+    attachBlurListeners();
+  });
+  
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+});
+
+</script>
+
+
+
+
+<script async src="/lieder/js/sha3.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("body").show();
+        sf();
+    });
+
+function sf() { 
+    if (document.f) { 
+        if (document.f.username) {
+            document.f.username.focus(); 
+        } else {
+            document.f.submit.focus(); 
+        }
+    }
+}
+
+function hashIt() {
+   var hash = CryptoJS.SHA3($("#password").val(), { outputLength: 224 });
+   $("#password").val(hash);
+   return true;
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+    }
+    return "";
+}
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function readCookie(desc) {
+  var nameEq = desc + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var cArray = decodedCookie.split(';');
+  for(var i = 0; i < cArray.length; i++) {
+    var ck = cArray[i];
+    while (ck.charAt(0) == ' ') {
+      ck = ck.substring(1);
+    }
+    if (ck.indexOf(nameEq) == 0) {
+      return ck.substring(nameEq.length, ck.length);
+    }
+  }
+  return "";
+}
+
+function createCookie(keyName,value,days) {
+    var today = new Date();
+    var expiry = new Date(today.getTime() + (days*24*60*60*1000));
+    document.cookie = keyName + "=" + value + ";expires=" + expiry.toUTCString() + ";path=/";
+}
+
+function updateFastScrollOffset() {
+    var cookieNotice = document.getElementById('cookie-notice');
+    var root = document.documentElement;
+    var offset = 0;
+    var isVisible = false;
+
+    if (cookieNotice) {
+        if (cookieNotice.style.visibility) {
+            isVisible = cookieNotice.style.visibility === 'visible';
+        } else {
+            isVisible = window.getComputedStyle(cookieNotice).visibility === 'visible';
+        }
+    }
+
+    if (isVisible) {
+        offset = cookieNotice.offsetHeight + 16;
+    }
+
+    root.style.setProperty('--cookie-notice-offset', offset + 'px');
+}
+
+function accept() {
+    createCookie('accepts','Y','60');
+    hasAccepted();
+}
+
+function hasAccepted() {
+    var accepted = readCookie('accepts');
+    if (accepted != 'Y') {
+        document.getElementById('cookie-notice').style.visibility='visible';
+        document.getElementById('cookie-notice').style.opacity=1;
+    } else {
+        document.getElementById('cookie-notice').style.visibility='hidden';
+        document.getElementById('cookie-notice').style.opacity=0;
+    }
+
+    updateFastScrollOffset();
+}
+
+document.addEventListener('DOMContentLoaded', hasAccepted);
+window.addEventListener('resize', updateFastScrollOffset);
+
+function toggle(div_id) {
+	var el = document.getElementById(div_id);
+	if ( el.style.display == 'none' ) {	el.style.display = 'block';}
+	else {el.style.display = 'none';}
+}
+
+function toggleMenu() {
+    var menu = document.getElementById('left-nav');
+    if (menu.classList.contains('nav-hidden')) { 
+        openMenu();
+    } else {
+        closeMenu();
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function(e) {
+    var menu = document.getElementById('left-nav');
+    var arrow = document.getElementById('menu-toggle-arrow');
+    var w = window.matchMedia("screen and (min-width: 100rem)");
+    // Snap menu and arrow to correct state on initial page load
+    menu.style.transition = 'none';
+    arrow.style.transition = 'none';
+    autoMenu();
+    requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+            menu.style.transition = '';
+            arrow.style.transition = '';
+        });
+    });
+
+    w.addListener(autoMenu);
+    function autoMenu() {
+        if (w.matches) { 
+            openMenu();
+        } else {
+            closeMenu();
+        }
+    }
+});
+
+window.addEventListener('load', () => {
+    const emails = document.getElementsByClassName('email');
+        Array.from(emails).forEach(function(email) {
+            const decoded = atob(email.name);
+            email.href = "mailto:" + decoded;
+    });
+});
+
+function openMenu() {
+    var menu = document.getElementById('left-nav');
+    var arrow = document.getElementById('menu-toggle-arrow');
+    menu.classList.remove('nav-initial');
+    menu.classList.remove('nav-hidden');
+    menu.classList.add('nav-show');
+    arrow.classList.add('menu-close-arrow');
+    if (window.matchMedia("(min-width: 1600px)").matches) {
+        menu.classList.add('menu-width');
+        document.getElementById('donations-card').classList.add('donations-wide');
+    }
+    document.getElementById('menu-toggle-text').textContent = 'Close Menu';
+}
+
+function closeMenu() {
+    document.getElementById('menu-toggle-text').textContent = 'MENU';
+    var menu = document.getElementById('left-nav');
+    var arrow = document.getElementById('menu-toggle-arrow');
+    menu.classList.remove('nav-initial');
+    arrow.classList.remove('menu-close-arrow');
+    menu.classList.remove('nav-show');
+    menu.classList.add('nav-hidden');
+    menu.classList.remove('menu-width');
+    document.getElementById('donations-card').classList.remove('donations-wide');
+}
+
+document.addEventListener('keyup', function (event) {
+    var key = event.key;
+    if (key === 'Escape' || key === 'Esc' || key === 27)  {
+        if (document.getElementById('left-nav').classList.contains('nav-show')) {
+            closeMenu();
+        }
+    }
+});
+
+window.addEventListener('beforeunload', function() {
+    var spinner = document.querySelector('.loader');
+    spinner.style.visibility = 'visible';
+    spinner.style.opacity = 1;
+    // For browsers without cross-document view transitions
+    if (!CSS.supports('selector(:active-view-transition)')) {
+        document.body.style.visibility = 'hidden';
+    }
+});
+
+// Hide spinner before view-transition snapshot
+window.addEventListener('pageswap', function() {
+    var spinner = document.querySelector('.loader');
+    spinner.style.transition = 'none';
+    spinner.style.visibility = 'hidden';
+    spinner.style.opacity = 0;
+});
+
+window.addEventListener('pageshow', function() {
+    var spinner = document.querySelector('.loader');
+    spinner.style.visibility = 'hidden';
+    spinner.style.opacity = 0;
+    document.body.style.visibility = '';
+});
+
+// During view-transition navigation, snap menu to correct state
+window.addEventListener('pagereveal', function() {
+    var menu = document.getElementById('left-nav');
+    var arrow = document.getElementById('menu-toggle-arrow');
+    menu.style.transition = 'none';
+    arrow.style.transition = 'none';
+    var w = window.matchMedia('screen and (min-width: 100rem)');
+    if (w.matches) {
+        openMenu();
+    } else {
+        closeMenu();
+    }
+    requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+            menu.style.transition = '';
+            arrow.style.transition = '';
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const upBtn = document.getElementById("fast-scroll-up");
+    const downBtn = document.getElementById("fast-scroll-down");
+    const contentSection = document.getElementById("content");
+    const buttonRevealOffset = 300;
+    const topScrollThreshold = 10;
+
+    if (!upBtn || !downBtn || !contentSection) return;
+
+    const motionOk = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const scrollBehavior = motionOk ? 'smooth' : 'auto';
+
+    let ticking = false;
+    let hasScrolled = false;
+
+    function getScrollTop() {
+        return window.scrollY || document.documentElement.scrollTop || 0;
+    }
+
+    function evaluateScrollButtons() {
+        const rect = contentSection.getBoundingClientRect();
+        const viewportHeight = window.innerHeight;
+        const scrollTop = getScrollTop();
+
+        if (rect.top < -buttonRevealOffset) {
+            upBtn.classList.add("show");
+        } else {
+            upBtn.classList.remove("show");
+        }
+
+        if (hasScrolled && scrollTop > topScrollThreshold && rect.bottom > viewportHeight + buttonRevealOffset) {
+            downBtn.classList.add("show");
+        } else {
+            downBtn.classList.remove("show");
+        }
+    }
+
+    function scheduleButtonEvaluation() {
+        if (!ticking) {
+            requestAnimationFrame(function() {
+                evaluateScrollButtons();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }
+
+    function onScroll() {
+        hasScrolled = getScrollTop() > topScrollThreshold;
+        scheduleButtonEvaluation();
+    }
+
+    function onResize() {
+        updateFastScrollOffset();
+        scheduleButtonEvaluation();
+    }
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onResize);
+    setTimeout(function() {
+        updateFastScrollOffset();
+        evaluateScrollButtons();
+    }, 100);
+
+    upBtn.addEventListener("click", function() {
+        contentSection.scrollIntoView({ behavior: scrollBehavior, block: 'start' });
+    });
+
+    downBtn.addEventListener("click", function() {
+        contentSection.scrollIntoView({ behavior: scrollBehavior, block: 'end' });
+    });
+});
+
+</script>
+
+
+
+
+<script>
+<!--
+function sf(){ document.search_form.pat.focus(); }
+// -->
+
+
+function clearSearch() {
+  const input = document.getElementById('pat');
+  input.value = '';
+  input.focus();
+}
+
+function focusEnd() {
+  const input = document.getElementById('pat');
+  const len = input.value.length;
+  input.focus();
+  input.setSelectionRange(len, len);
+}
+
+
+</script>
+
+ <!-- Needed for subdirectories like guest_editors to override -->
+
+<!-- ANALYTICS -->
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/" >
+<link href="https://www.googletagmanager.com/gtag/js?id=UA-34594381-1" rel="preload" as="script">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34594381-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-34594381-1');
+  gtag('config', 'G-TZQ9RWX000');
+</script>
+<!-- /ANALYTICS -->
+
+<!-- GOOGLE ADS -->
+<!-- /GOOGLE ADS -->
+
+</head>
+
+<body 
+onLoad=sf()
+>
+<div class="loader"></div>
+
+
+<!-- FUNDRAISING BANNER -->
+
+
+
+<script>
+function dismiss() {
+    createCookie('new_feature_dismissed','Y','10');
+    hasDismissed();
+}
+
+function hasDismissed() {
+    var dismissed = readCookie('new_feature_dismissed');
+    if (dismissed === 'Y') {
+        var fundraiser = document.getElementById('fundraiser');
+        void fundraiser.offsetWidth;
+        fundraiser.classList.add('hidden');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', hasDismissed);
+</script>
+
+<!-- /FUNDRAISING BANNER -->
+
+<!-- Maintenance window banner -->
+<!-- Maintenance window banner -->
+
+
+<!-- SITE BANNER -->
+<header role="banner" id="site-header" class="site-header">
+    <div class="banner">
+        <div class="banner-background"></div>
+        <div class="logo-box">
+            <a class="logo-home" href="/lieder/">
+<img aria-label="LiederNet Archive logo" class="logo-large" class="logo-large" src="/images/LN_logo_colour.svg" alt="LiederNet logo">
+            </a>
+        </div>    
+
+        <!-- no log-in button for now
+        <a href="/lieder/my_account.html?sign_in=1">
+            <div class="login-button">
+                <p class="login-btn-text">Log in</p>
+            </div>
+        </a>
+        -->
+    </div>
+    
+</header>
+<!-- /SITE BANNER -->
+
+<!-- MAIN -->
+<main id="main" class="main">
+
+<!-- INFO BAR -->
+<div id="info-bar" class="info-bar">
+    <span class="menu-toggle" id="menu-toggle" onclick="toggleMenu()">
+        <span class="arrow-container">
+            <svg height="19" width="19">
+                <polygon id="menu-toggle-arrow" class="menu-arrow" points="4,3 4,19 19,11" />
+            </svg>
+        </span>
+    <span id="menu-toggle-text" class="menu-toggle-text"></span>
+    </span>
+    <span class="user-info">
+
+
+    </span>
+</div>
+<!-- /INFO BAR -->
+<!-- NAVBAR + CONTENT -->
+<div class="nav-and-content">
+<!-- NAVBAR -->
+<nav class="left-nav nav-initial" id="left-nav"><p class="nav-title">CONTENTS</p>
+    <span class="mobile-menu-close" onclick="toggleMenu()">&times;</span>
+    <ul>
+    <li class="nav-item"><a href="/lieder/">Home</a> | <a href="/lieder/intro.html">Introduction</a></li>
+    <li class="nav-item"><a href="/lieder/cindex.html">Composers&nbsp;(21,033)</a></li>
+    <li class="nav-item"><a href="/lieder/pindex.html">Text&nbsp;Authors&nbsp;(21,092)</a></li>
+    <li class="nav-item">
+        <a href="/lieder/random.html?36613">Go&nbsp;to&nbsp;a&nbsp;Random&nbsp;Text</a></li>
+    <li class="nav-item"><a href="/lieder/new.html">What&rsquo;s New</a></li>
+    <li class="nav-item"><a href="/lieder/tour.html">A&nbsp;Small&nbsp;Tour</a></li>
+    <li class="nav-item"><a href="/lieder/faq.html">FAQ & Links</a></li>
+    <li class="nav-item"><a href="/lieder/donors.html">Donors</a></li>
+    </ul>
+    <ul><li class="nav-item donate-page-btn"><a href="/lieder/donate.html">DONATE</a></li></ul>
+    <p class="nav-title">UTILITIES</p>
+    <ul>
+    <li class="nav-item"><a href="/lieder/search.html">Search&nbsp;Everything</a></li>
+    <li class="nav-item"><a href="/lieder/quick_find.html">Search&nbsp;by&nbsp;Surname</a></li>
+    <li class="nav-item"><a href="/lieder/find_titles_and_first_lines.html">Search&nbsp;by&nbsp;Title&nbsp;or&nbsp;First&nbsp;Line</a></li>
+    <li class="nav-item"><a href="/lieder/find_settings_by_date.html">Search&nbsp;by&nbsp;Year</a></li>
+    <li class="nav-item"><a href="/lieder/find_text_compilations.html">Search&nbsp;by&nbsp;Collection</a></li>
+    <!-- <li class="nav-item"><a href="/lieder/random.html?type=sc">Random&nbsp;Song&nbsp;Cycle</a></li> --> 
+    </ul>
+    <p class="nav-title">CREDITS</p>
+    <ul>
+    <li class="nav-item"><a href="/lieder/emily_ezust.html">Emily&nbsp;Ezust</a></li> <!-- New page? -->
+    <li class="nav-item"><a href="/lieder/contrib.html">Contributors&nbsp;(1,134)</a></li>
+    <li class="nav-item"><a href="/lieder/contact.html">Contact Information</a></li>
+    <li class="nav-item"><a href="/lieder/biblio.html">Bibliography</a></li>    
+
+    <li class="nav-item"><hr aria-label="separator"></li>
+
+    <li class="nav-item"><a href="/lieder/copyright.html">Copyright Statement</a></li>
+    <li class="nav-item"><a href="/lieder/privacy_policy.html">Privacy Policy</a></li>
+    
+
+    <li class="nav-item"></li>
+    </ul>
+    <p style="text-align: center; margin: 0.5rem;">
+        <a class="fb-link" href="https://www.facebook.com/TheLiedArtSongAndChoralTextsArchive">Follow us on Facebook</a>
+    </p>
+
+</nav>
+<!-- /NAVBAR -->
+  
+<!-- PRIMARY CONTENT AND ASSOCIATED ELEMENTS -->
+    <section id="content" class="content">
+
+
+
+   
+<div class="prose">
+<h2>Search by Title or First Line</h2>
+
+
+<form name="search_form">
+Search titles and first lines beginning <input id="pat" type="text" name="pat" autocomplete="off" autocorrect="off" size="50" autocapitalize="off" value="" onfocus="focusEnd()">&nbsp;<button type="button" onclick="clearSearch()">Clear</button>&nbsp;<input type="submit" value="Go">
+</form>
+
+
+
+
+<p>Notes:<br>&nbsp;Provide at least three letters so as not to put undue stress on our server.<br>&nbsp;Be sure to include leading articles ("A", "The", "Die", "Der", "Das", "Le", etc.)<br>&nbsp;If you are typing in Russian, you may use Cyrillic or our default transliteration system described <a href="transliteration.html">here</a>.<br>&nbsp;In the results, first lines are <i>italicized</i>.<br>&nbsp;Translations will only appear in the results if they have been set to music.<br></p>
+
+
+<hr>
+<!-- <div id="donations-card" class="donations-card">
+<div class="donations-title">Note</div>
+<p>
+Dear visitors,<br>
+
+This website began in 1995 as a personal project by Emily Ezust, who has
+been working on it full-time without a salary since 2008. Our research has 
+never had any government or institutional funding, so if you
+
+find
+
+the information here useful, please consider making a 
+donation.
+Your help is greatly appreciated!<br>
+&ndash;Emily Ezust, Founder</p>
+<div style="margin-left:auto;margin-right:auto">
+<a class="donate-page-btn" href="/lieder/donate.html">Donate</a>
+</div>
+</div>
+<script>
+function showSometimes() {
+  var rnd = Math.random();
+    if (rnd < .2) {
+      document.getElementById('donations-card').style.display='block';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', showSometimes);
+</script>
+
+
+ -->
+
+
+
+</div>
+
+
+
+
+
+
+    
+    </section>
+<!-- / PRIMARY CONTENT AND ASSOCIATED ELEMENTS -->
+</div>
+<!-- /NAV + CONTENT -->
+</main>
+<!-- /MAIN -->
+<!-- ANYTHING THAT FOLLOWS THE CONTENT -->
+    <aside id="after-the-content">
+<div id="donations-card" class="donations-card">
+<div class="donations-title">Gentle Reminder</div>
+<p>
+
+This website began in 1995 as a personal project by Emily Ezust, who has
+been working on it full-time without a salary since 2008. Our research has 
+never had any government or institutional funding, so if you
+
+found
+
+the information here useful, please consider making a 
+donation.
+Your help is greatly appreciated!<br>
+&ndash;Emily Ezust, Founder</p>
+<div style="margin-left:auto;margin-right:auto">
+<a class="donate-page-btn" href="/lieder/donate.html">Donate</a>
+</div>
+</div>
+<script>
+function showSometimes() {
+  var rnd = Math.random();
+    if (rnd < .2) {
+      document.getElementById('donations-card').style.display='block';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', showSometimes);
+</script>
+
+
+
+    <br>
+    </aside>
+<!-- /ANYTHING THAT FOLLOWS THE CONTENT -->
+
+<div id="fast-scroll-container" class="fast-scroll-container">
+    <button id="fast-scroll-up" class="fast-scroll-btn" aria-label="Scroll to top of content" title="Top of content">
+        <svg width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4l-8 8h5v8h6v-8h5z"/></svg>
+    </button>
+    <button id="fast-scroll-down" class="fast-scroll-btn" aria-label="Scroll to bottom of content" title="Bottom of content">
+        <svg width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 20l8-8h-5v-8h-6v8h-5z"/></svg>
+    </button>
+</div>
+
+<div id="cookie-notice" class="cookie-notice">
+<p class="cookie-msg">We use cookies for internal analytics and to earn much-needed advertising revenue. (Did you know you can help support us by turning off ad-blockers?) To learn more, see our <a href="/lieder/privacy_policy.html">Privacy Policy</a>. To learn how to opt out of cookies, please visit <a href="https://www.cookiesandyou.com/" target="_blank">this site</a>.</p>
+<p class="cookie-btn" onclick="accept()">I acknowledge the use of cookies</p>
+</div> 
+<!-- FOOTER -->
+<footer class="footer">
+    <p><a href="/lieder/contact.html">Contact</a><br>
+    <a href="/lieder/copyright.html">Copyright</a><br>
+    <a href="/lieder/privacy_policy.html">Privacy</a><br></p>
+    <p>Copyright &copy; 2026 The LiederNet Archive</p>
+    <a id="design" href="https://www.thuris.com" target="_blank">Site redesign by Shawn Thuris</a>
+</footer>
+<!-- /FOOTER -->
+</body>
+</html>
+
+ 
+
+
+
+
+
+
