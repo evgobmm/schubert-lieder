@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 
 const props = defineProps({
   songs: Array,
@@ -19,13 +19,43 @@ const groups = computed(() => {
   }
   return [...byId.values()].filter(g => g.songs.length)
 })
+
+const currentSectionId = computed(() => {
+  const song = (props.songs || []).find(s => s.number === props.current)
+  return song ? song.section : null
+})
+
+// Аккордеон: по умолчанию всё свёрнуто, раздел текущей песни раскрывается сам
+const expanded = ref(new Set(currentSectionId.value ? [currentSectionId.value] : []))
+
+watch(currentSectionId, (id) => {
+  if (id && !expanded.value.has(id)) {
+    expanded.value = new Set(expanded.value).add(id)
+  }
+})
+
+function toggle(id) {
+  const next = new Set(expanded.value)
+  if (next.has(id)) next.delete(id)
+  else next.add(id)
+  expanded.value = next
+}
 </script>
 
 <template>
   <nav class="song-list">
     <div v-for="group in groups" :key="group.id" class="song-group">
-      <div v-if="group.title" class="group-title">{{ group.title }}</div>
-      <ul>
+      <button
+        v-if="group.title"
+        class="group-header"
+        :class="{ open: expanded.has(group.id), 'has-active': group.id === currentSectionId }"
+        @click="toggle(group.id)"
+      >
+        <span class="group-chevron" aria-hidden="true">▸</span>
+        <span class="group-name">{{ group.title }}</span>
+        <span class="group-count">{{ group.songs.length }}</span>
+      </button>
+      <ul v-if="!group.title || expanded.has(group.id)">
         <li
           v-for="song in group.songs"
           :key="song.number"
@@ -53,20 +83,61 @@ const groups = computed(() => {
 <style scoped>
 .song-list ul {
   list-style: none;
+  margin: 2px 0 8px;
 }
 
 .song-group {
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
-.group-title {
-  padding: 8px 10px 4px;
+.group-header {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  width: 100%;
+  padding: 7px 10px;
+  border: none;
+  background: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
   font-family: var(--font-sans);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
   color: var(--text-secondary);
+}
+
+.group-header:hover {
+  background: var(--highlight);
+  color: var(--text);
+}
+
+.group-chevron {
+  flex: none;
+  font-size: 0.7rem;
+  transition: transform 0.15s;
+}
+
+.group-header.open .group-chevron {
+  transform: rotate(90deg);
+}
+
+.group-name {
+  flex: 1;
+}
+
+/* Свёрнутый раздел с текущей песней — виден и так */
+.group-header.has-active .group-name {
+  color: var(--accent);
+}
+
+.group-count {
+  flex: none;
+  font-weight: 400;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  opacity: 0.75;
 }
 
 .song-list li {
