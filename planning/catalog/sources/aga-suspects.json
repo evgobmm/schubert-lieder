@@ -2335,5 +2335,74 @@
  {
   "d": "224",
   "error": "not in OCR (2.0%): elend"
+ },
+ {
+  "d": "98",
+  "issues": [
+   "Первая строфа выглядит перепутанной/с пропусками: после «zu deines Namens goldnem Zug» текст обрывается без глагола и резко переходит к «Wildniss glänzt in ungewohnter Helle, von dir erfüllt» — связка утрачена, похоже на выпадение строк набора.",
+   "Фрагмент «weil ich, Grazi, wo du den Hügel hin abgeschwebt, leicht wie ein Rosenblatt, auf Zephyrs flechten die Sterne sich» синтаксически бессвязен и похож на смешение обрывков разных строк/куплетов (обрыв «auf Zephyrs» без продолжения, «Grazi» вместо «Grazie» — вероятно испорченное слово, не просто орфография).",
+   "«die Sterne sich, die Sterne sich» и «malt sich dein Bild, malt sich dein Bild» — похоже не на шубертовский повтор, а на артефакт сбитого/задвоенного набора OCR внутри одной строки, стоит перепроверить по нотам.",
+   "Общая связность первой строфы существенно ниже, чем во второй и третьей строфах — вероятен дефект извлечения (пропущенные или переставленные слова/строки) именно в первой строфе."
+  ],
+  "stanzas": [
+   [
+    "Am Seegestad in lauen Vollmondsnächten",
+    "denk' ich nur dich, zu deines Namens goldnem Zug",
+    "Wildniss glänzt in ungewohnter Helle, von dir erfüllt,",
+    "auf jedes Blatt, in jede Schatten,",
+    "weil ich, Grazi, wo du den Hügel hin",
+    "abgeschwebt, leicht wie ein Rosenblatt, auf Zephyrs",
+    "flechten die Sterne sich, die Sterne sich,",
+    "die Quelle malt sich dein Bild, malt sich dein Bild,",
+    "Gern vorüber bebt, vorüber bebt."
+   ],
+   [
+    "Am Hüttchen dort bekränzt ich dir, umflossen von Abendgluth,",
+    "mit Immergrün und jungen Blüthensprossen den Halmenhut.",
+    "Bei jedem Lichtwurm in den Felsenstücken,",
+    "als ob die Feeen da Tänze webten,",
+    "riefst du voll Entzücken: Wie schön, wie schön, wie schön!"
+   ],
+   [
+    "Wohin ich blick und geh, erblick ich immer den Wiesenplan,",
+    "wo wir der Berge Schnee mit Purpurschimmer beleuchtet sahn.",
+    "Ihr schmelzend Maylied weinte Philomele im Uferhain,",
+    "da fleht ich dir im Blick die ganze Seele: gedenke mein!"
+   ]
+  ]
+ },
+ {
+  "d": "108",
+  "issues": [
+   "Явные обрывы текста, отмеченные многоточиями: «Unter leisem Blattge...» (обрыв слова, неразборчиво), «Flüster... schlummern alle Vögel ein», «Hülle süsse Trauermelodien...», «Und von...» — текст первой строфы обрывается на полуслове/полустрофе, требуется повторная сверка с нотным источником",
+   "Первая строфа выглядит неполной/нарушенной по порядку строк по сравнению с известным текстом Маттиссона (Purpur malt die Tannenhügel... далее логическая связность строк нарушена пропусками)"
+  ],
+  "stanzas": [
+   [
+    "Purpur malt die Tannenhügel,",
+    "Wie in Todtenhallen düster",
+    "Nur dein Abendlied, Grille,",
+    "Nach der Sonne Scheideblick",
+    "Lieblich strahlt des Baches Spiegel,",
+    "Wird's im Pappelweidenhain",
+    "Unter leisem Blattge... [неразборчиво в OCR]",
+    "Tönt noch aus bethautem Grün",
+    "Durch der Dämmerung Zauberspiegel",
+    "Hespers Fackelglanz zurück.",
+    "Flüster... schlummern alle Vögel ein,",
+    "Hülle süsse Trauermelodien...",
+    "Und von..."
+   ],
+   [
+    "Tönst du einst im Abendhauche,",
+    "Grillchen, auf mein frühes Grab,",
+    "Aus der Freundschaft Rosensträuche",
+    "Deinen Klaggesang herab —",
+    "Wird noch stets mein Geist dir lauschen,",
+    "Horchend, wie er jetzt dir lauscht,",
+    "Durch des Hügels Blumenrauschen,",
+    "Wie dies Sommerlüftchen rauscht."
+   ]
+  ]
  }
 ]
