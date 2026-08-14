@@ -1,46 +1,526 @@
 {
  "d": "911/6",
  "title_de": "Wasserflut",
+ "title_ru": "Разлив",
+ "poet_de": "Wilhelm Müller",
+ "poet_ru": "Вильгельм Мюллер",
  "year": "1827",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "source": "перевод: собственный сайт Winterreise автора проекта (CC0)",
  "stanzas": [
   {
    "lines_de": [
-    "Manche Trän’ aus meinen Augen",
-    "ist gefallen in den Schnee;",
-    "seine kalten Flocken saugen",
-    "durstig ein das heisse Weh,",
-    "durstig ein das heisse Weh."
+    "Manche Trän' aus meinen Augen",
+    "Ist gefallen in den Schnee;",
+    "Seine kalten Flocken saugen",
+    "Durstig ein das heiße Weh."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Не одна",
+       "de": "Manche"
+      },
+      {
+       "ru": "слеза",
+       "de": "Trän'"
+      },
+      {
+       "ru": "из",
+       "de": "aus"
+      },
+      {
+       "ru": "моих",
+       "de": "meinen"
+      },
+      {
+       "ru": "глаз",
+       "de": "Augen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Слеза стоит здесь в единственном числе (Manche Trän'), поэтому мы переводим «не одна слеза», а не «много слёз». Аналогичное решение мы приняли и в первой песне: «с не одним букетом цветов» (Mit manchem Blumenstrauß)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Упала",
+       "de": "Ist gefallen"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "снег;",
+       "de": "den Schnee"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Его",
+       "de": "Seine"
+      },
+      {
+       "ru": "холодные",
+       "de": "kalten"
+      },
+      {
+       "ru": "хлопья",
+       "de": "Flocken"
+      },
+      {
+       "ru": "всасывают",
+       "de": "saugen... ein"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "line_span": 2,
+       "text": "Нельзя сказать, что природа благосклонна к герою. Недобр был ветер. Неизвестно, каким другом была липа: возможно, дерево «по-дружески», как в «плясках смерти», предлагало умереть. Здесь же снег не просто впитывает, но с жаждой всасывает горе героя."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "С жаждой",
+       "de": "Durstig"
+      },
+      {
+       "ru": "горячее",
+       "de": "das heiße"
+      },
+      {
+       "ru": "горе.",
+       "de": "Weh"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Wenn die Gräser sprossen wollen,",
-    "weht daher ein lauer Wind,",
-    "und das Eis zerspringt in Schollen",
-    "und der weiche Schnee zerrinnt,",
-    "und der weiche Schnee zerrinnt."
+    "Weht daher ein lauer Wind,",
+    "Und das Eis zerspringt in Schollen,",
+    "Und der weiche Schnee zerrinnt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Если",
+       "de": "Wenn"
+      },
+      {
+       "ru": "травы",
+       "de": "die Gräser"
+      },
+      {
+       "ru": "прорасти",
+       "de": "sprossen"
+      },
+      {
+       "ru": "захотят,",
+       "de": "wollen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Шуберт заменил Wann («когда») на Wenn (здесь: «если»). У поэта было «*Когда* травы прорасти захотят...», Шуберт же добавил оттенок неуверенности — герой точно не знает, придёт ли ещё когда-нибудь для него весна..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Повеет",
+       "de": "Weht"
+      },
+      {
+       "ru": "сюда",
+       "de": "daher"
+      },
+      {
+       "ru": "мягко-тёплый",
+       "de": "ein lauer"
+      },
+      {
+       "ru": "ветер,",
+       "de": "Wind"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "лёд",
+       "de": "das Eis"
+      },
+      {
+       "ru": "расколется",
+       "de": "zerspringt"
+      },
+      {
+       "ru": "на",
+       "de": "in"
+      },
+      {
+       "ru": "льдины,",
+       "de": "Schollen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "мягкий",
+       "de": "der weiche"
+      },
+      {
+       "ru": "снег",
+       "de": "Schnee"
+      },
+      {
+       "ru": "истает.",
+       "de": "zerrinnt"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
-    "Schnee, du weisst von meinem Sehnen,",
-    "sag’, wohin doch geht dein Lauf?",
+    "Schnee, du weißt von meinem Sehnen:",
+    "Sag, wohin doch geht dein Lauf?",
     "Folge nach nur meinen Tränen,",
-    "nimmt dich bald das Bächlein auf,",
-    "nimmt dich bald das Bächlein auf."
+    "Nimmt dich bald das Bächlein auf."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Снег,",
+       "de": "Schnee"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "знаешь",
+       "de": "weißt"
+      },
+      {
+       "ru": "о",
+       "de": "von"
+      },
+      {
+       "ru": "моей",
+       "de": "meinem"
+      },
+      {
+       "ru": "тоске:",
+       "de": "Sehnen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "line_span": 8,
+       "continuation_ranges": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         4
+        ]
+       ],
+       "text": "В прошлых песнях одушевлёнными были ветер, липовое дерево, слёзы. Здесь же герой обращается к снегу. Снег должен обратить внимание на его слёзы (такие у героя «компаньоны»!) и последовать за ними — к дому его возлюбленной. Тут не обходится без противоречия: как снег сможет следовать за слезами, если он вольётся в ручеёк и с этого момента, по идее, вынужден будет следовать туда, куда этот ручеёк; тогда уж герою лучше было бы обращаться к ручейку, не к снегу? Можно резонно парировать, что привычная логика здесь и не должна работать. Но стоит заметить, что герой корректирует план вполне логически: снег (со слезами) вольётся в ручеёк, ручеёк понесёт (растаявший) снег по всем улицам города, и вот когда слёзы запылают — тогда снег и поймёт, что это дом любимой (зачем это знание снегу, правда, не поясняется). Герой, очевидно, не планирует хоть когда-нибудь как-либо приблизиться к любимой, но мечтает, что это удастся хотя бы его слезам..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Скажи,",
+       "de": "Sag"
+      },
+      {
+       "ru": "куда",
+       "de": "wohin"
+      },
+      {
+       "ru": "же",
+       "de": "doch"
+      },
+      {
+       "ru": "идёт",
+       "de": "geht"
+      },
+      {
+       "ru": "твой",
+       "de": "dein"
+      },
+      {
+       "ru": "ход?",
+       "de": "Lauf"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Следуй",
+       "de": "Folge nach"
+      },
+      {
+       "ru": "лишь",
+       "de": "nur"
+      },
+      {
+       "ru": "за",
+       "de": ""
+      },
+      {
+       "ru": "моими",
+       "de": "meinen"
+      },
+      {
+       "ru": "слезами,",
+       "de": "Tränen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Возьмёт",
+       "de": "Nimmt"
+      },
+      {
+       "ru": "тебя",
+       "de": "dich"
+      },
+      {
+       "ru": "скоро",
+       "de": "bald"
+      },
+      {
+       "ru": "ручеёк",
+       "de": "das Bächlein"
+      },
+      {
+       "ru": "в себя.",
+       "de": "auf"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "«Возьмёт в себя» плохо звучит по-русски, но наиболее близко к немецкому оригиналу, а также отражает то, что отделяемая приставка auf (здесь: «в себя»), стоящая в конце строки, уточняет глагол в начале. По смыслу здесь, разумеется, речь о том, что растаявший снег вольётся в ручеёк и станет его частью."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Wirst mit ihm die Stadt durchziehen,",
-    "muntre Strassen ein und aus;",
-    "fühlst du meine Tränen glühen,",
-    "da ist meiner Liebsten Haus,",
-    "da ist meiner Liebsten Haus."
+    "Muntre Straßen ein und aus:",
+    "Fühlst du meine Tränen glühen,",
+    "Da ist meiner Liebsten Haus."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "С",
+       "de": "mit"
+      },
+      {
+       "ru": "ним",
+       "de": "ihm"
+      },
+      {
+       "ru": "город",
+       "de": "die Stadt"
+      },
+      {
+       "ru": "пройдёшь —",
+       "de": "Wirst... durchziehen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Оживлённые",
+       "de": "Muntre"
+      },
+      {
+       "ru": "улицы",
+       "de": "Straßen"
+      },
+      {
+       "ru": "из одной в другую:",
+       "de": "ein und aus"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Ein und aus — буквально «внутрь и наружу»: в немецком подчёркивается, что ручей вливается в улицу и потом вытекает из неё."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Вновь отметим подчёркнутый контраст между миром людей (где есть место «оживлённости») и тем миром, в котором находится герой..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Как",
+       "de": ""
+      },
+      {
+       "ru": "почувствуешь",
+       "de": "Fühlst"
+      },
+      {
+       "ru": "ты,",
+       "de": "du"
+      },
+      {
+       "ru": "что",
+       "de": ""
+      },
+      {
+       "ru": "мои",
+       "de": "meine"
+      },
+      {
+       "ru": "слёзы",
+       "de": "Tränen"
+      },
+      {
+       "ru": "пылают, —",
+       "de": "glühen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        6
+       ],
+       "text": "Навязчивое внимание героя к температуре своих слёз не обошло и эту песню. В третьей песне слёзы «пылающе горячо» (glühend heiß) вырывались из источника в груди, но в итоге оказывались лишь разочаровывающе тепловатыми. Здесь же слёзы «пылают» (glühen — то самое слово!), правда, в воображаемый героем момент: когда они добрались с ручейком до дома любимой."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тут",
+       "de": "Da"
+      },
+      {
+       "ru": "—",
+       "de": "ist"
+      },
+      {
+       "ru": "моей",
+       "de": "meiner"
+      },
+      {
+       "ru": "любимой",
+       "de": "Liebsten"
+      },
+      {
+       "ru": "дом.",
+       "de": "Haus"
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
- ],
- "poet_de": "Wilhelm Müller"
+ ]
 }

@@ -1,61 +1,571 @@
 {
  "d": "911/7",
  "title_de": "Auf dem Flusse",
+ "title_ru": "На речке",
+ "poet_de": "Wilhelm Müller",
+ "poet_ru": "Вильгельм Мюллер",
  "year": "1827",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "source": "перевод: собственный сайт Winterreise автора проекта (CC0)",
  "stanzas": [
   {
    "lines_de": [
     "Der du so lustig rauschtest,",
-    "du heller, wilder Fluss,",
-    "wie still bist du geworden,",
-    "giebst keinen Scheidegruss!"
+    "Du heller, wilder Fluss,",
+    "Wie still bist du geworden,",
+    "Gibst keinen Scheidegruß."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Ты, что",
+       "de": "Der du"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "весело",
+       "de": "lustig"
+      },
+      {
+       "ru": "шумела,",
+       "de": "rauschtest"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "line_span": 2,
+       "text": "Der (здесь: «который») du («ты») — то есть на русском «Ты, который...» (необходимо поменять порядок слов). По-немецки Der Fluss — мужского рода, означает текучую воду вообще, не обязательно большую реку (Fluss, от fließen — «течь»). Мы остановились на слове «речка» по нескольким причинам: в пятой строфе поэт называет этот же водяной поток «ручьём» (Bach), кроме того, он светлый и прозрачный, буйный — всё это приметы того, что вряд ли мы имеем тут дело с большой рекой."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ты,",
+       "de": "Du"
+      },
+      {
+       "ru": "светлая,",
+       "de": "heller"
+      },
+      {
+       "ru": "буйная",
+       "de": "wilder"
+      },
+      {
+       "ru": "речка,",
+       "de": "Fluss"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Как",
+       "de": "Wie"
+      },
+      {
+       "ru": "тиха",
+       "de": "still"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "стала,",
+       "de": "bist... geworden"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "keinen"
+      },
+      {
+       "ru": "даришь",
+       "de": "Gibst"
+      },
+      {
+       "ru": "прощального слова.",
+       "de": "Scheidegruß"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Дословно: «Даёшь (Gibst) никакого (keinen) прощального слова». На русском надо было бы подправить грамматику: «Не даёшь никакого прощального слова». Но тогда появился бы отдельный акцент («никакого»), которого в оригинале нет — там просто нейтрально констатируется: «не даёшь...» (это специфика немецкой грамматики). Кроме того, для большей естественности мы заменили на «не даришь прощального слова»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Scheidegruß — дословно «прощальное приветствие» (Scheide здесь — «разлука», «расставание»; Gruß — «приветствие», «знак внимания»). Немецкое Gruß — не только «привет» при встрече, но любой знак внимания, в том числе при расставании. Мы перевели «прощальное слово», потому что сочетание «прощальное приветствие» в русском языке не работает и противоречиво по своей сути (при этом этого противоречия в немецком нет)."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Mit harter, starrer Rinde",
-    "hast du dich überdeckt,",
-    "liegst kalt und unbeweglich",
-    "im Sande ausgestreckt."
+    "Hast du dich überdeckt,",
+    "Liegst kalt und unbeweglich",
+    "Im Sande ausgestreckt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Твёрдой,",
+       "de": "Mit harter"
+      },
+      {
+       "ru": "застывшей",
+       "de": "starrer"
+      },
+      {
+       "ru": "коркой",
+       "de": "Rinde"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "В этих двух словах сразу две мощные отсылки к предыдущим песням. Starrer («застывшей») — слова с этим корнем играли ключевую роль в песне с соответствующим названием Erstarrung («Оцепенение») и важную роль в песне Gefror'ne Tränen («Замёрзшие слёзы»). Rinde («кора», «корка») встречалось в песне Der Lindenbaum («Липовое дерево»), там герой, как и в этой песне, вырезал на ней важные для него слова."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ты",
+       "de": "du"
+      },
+      {
+       "ru": "себя",
+       "de": "dich"
+      },
+      {
+       "ru": "покрыла,",
+       "de": "Hast... überdeckt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Лежишь",
+       "de": "Liegst"
+      },
+      {
+       "ru": "холодная",
+       "de": "kalt"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "неподвижная",
+       "de": "unbeweglich"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "Im"
+      },
+      {
+       "ru": "песке",
+       "de": "Sande"
+      },
+      {
+       "ru": "распростёртая.",
+       "de": "ausgestreckt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Im Sande («в песке») — имеется в виду «в песчаном русле». Там речка лежит «распростёртая» (ausgestreckt). Можно увидеть здесь уподобление замёрзшей речки трупу. После редактуры своего текста (о которой Шуберт в момент сочинения песни не знал) Мюллер усилил этот аспект: заменив ausgestreckt («распростёртая») на hingestreckt (здесь: «поверженная, убитая») — слово с отчётливой коннотацией насильственной смерти."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "In deine Decke grab' ich",
-    "mit einem spitzen Stein",
-    "den Namen meiner Liebsten",
-    "und Stund’ und Tag hinein:"
+    "Mit einem spitzen Stein",
+    "Den Namen meiner Liebsten",
+    "Und Stund' und Tag hinein:"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In... hinein"
+      },
+      {
+       "ru": "твой",
+       "de": "deine"
+      },
+      {
+       "ru": "покров",
+       "de": "Decke"
+      },
+      {
+       "ru": "врезаю",
+       "de": "grab'"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "line_span": 4,
+       "text": "Строфа начинается с In («в», «внутрь») и заканчивается hinein («внутрь»). Здесь форма в некотором роде повторяет содержание: всё, что герой врезает (имя, час, день), с одной стороны, заключено в рамку застывшей корки, а с другой — заключено в рамку между двумя словами, означающими одно и то же."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Острым",
+       "de": "Mit einem spitzen"
+      },
+      {
+       "ru": "камнем",
+       "de": "Stein"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Имя",
+       "de": "Den Namen"
+      },
+      {
+       "ru": "своей",
+       "de": "meiner"
+      },
+      {
+       "ru": "любимой",
+       "de": "Liebsten"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "час,",
+       "de": "Stund'"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "день:",
+       "de": "Tag"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
-    "Den Tag des ersten Grusses,",
-    "den Tag, an dem ich ging;",
-    "um Nam’ und Zahlen windet",
-    "sich ein zerbroch’ner Ring."
+    "Den Tag des ersten Grußes,",
+    "Den Tag, an dem ich ging,",
+    "Um Nam' und Zahlen windet",
+    "Sich ein zerbrochner Ring."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "День",
+       "de": "Den Tag"
+      },
+      {
+       "ru": "первого",
+       "de": "des ersten"
+      },
+      {
+       "ru": "приветствия,",
+       "de": "Grußes"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "«Первое приветствие» (des ersten Grußes) рифмуется здесь с «прощальным приветствием» (Scheidegruß) из первой строфы (мы были вынуждены перевести: «прощальное слово»). Отметим, что герой, как и замёрзшая речка, прощального слова любимой не сказал. (Разве что написал на воротах Gute Nacht — «Спокойной ночи».)"
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "line_span": 4,
+       "text": "Рамка, кольцевая композиция, кольцо — во второй строфе подряд! Герой, судя по его словам, острым камнем вырезает на льду незамкнутый круг-кольцо вокруг имени любимой и дат. Разбитое кольцо символизирует разрушенную связь, разорванную помолвку. У кольца, как и у бесконечности, нет начала и конца, но если его «разбить» — сделать всего один разрыв — они появляются. Две даты, которые пишет герой — день встречи и день его ухода — это начало и конец. Как и две даты на могиле — рождения и смерти. В песне Der Lindenbaum («Липовое дерево») герой вырезал слова на коре. Здесь же — на ледяной корке. Что может быть недолговечнее... Распад нарастает..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "День,",
+       "de": "Den Tag"
+      },
+      {
+       "ru": "в который",
+       "de": "an dem"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "ушёл,",
+       "de": "ging"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вокруг",
+       "de": "Um"
+      },
+      {
+       "ru": "имени",
+       "de": "Nam'"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "чисел",
+       "de": "Zahlen"
+      },
+      {
+       "ru": "вьётся",
+       "de": "windet Sich"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Разбитое",
+       "de": "ein zerbrochner"
+      },
+      {
+       "ru": "кольцо.",
+       "de": "Ring"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Mein Herz, in diesem Bache",
-    "erkennst du nun dein Bild?",
-    "Ob’s unter seiner Rinde",
-    "wohl auch so reissend schwillt,",
-    "ob’s wohl auch so reissend schwillt?"
-   ]
-  },
-  {
-   "lines_de": [
-    "Mein Herz, in diesem Bache",
-    "erkennst du nun dein Bild?",
-    "Ob’s unter seiner Rinde",
-    "wohl auch so reissend schwillt,",
-    "ob’s wohl auch so reissend schwillt,",
-    "ob’s wohl auch so reissend schwillt?"
+    "Erkennst du nun dein Bild?",
+    "Ob's unter seiner Rinde",
+    "Wohl auch so reißend schwillt?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Моё",
+       "de": "Mein"
+      },
+      {
+       "ru": "сердце,",
+       "de": "Herz"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "этом",
+       "de": "diesem"
+      },
+      {
+       "ru": "ручье",
+       "de": "Bache"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Рифма с прошлой песней: там был Bächlein («ручеёк»), здесь Bach(e) («ручей»). Ещё одно постепенное ухудшение: там он в мыслях героя бежал, здесь лежит, как (будто?) мёртвый."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "line_span": 4,
+       "text": "То, что речка-ручей сравнивается с сердцем, можно было угадать ещё во второй строфе: «корка» речки была «застывшей» (starrer Rinde), как образ любимой в сердце героя (Kalt starrt — «холодным застыл») в четвёртой песне с соответствующим названием «Оцепенение» (Erstarrung) (везде starr!), а сама речка фактически сравнивалась с мертвецом — ещё одна параллель с той же четвёртой песней: «Моё сердце словно угасшее/замёрзшее» (Mein Herz ist wie erstorben/erfroren). В последней строфе сопоставление сердца с ручьём герой делает явно. Ручей оледенелый, неподвижно лежит. Но, может, внутри этот потенциально буйный поток пытается «вырваться»? То же и с сердцем героя? Одни вопросы и никакой уверенности..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Узнаёшь",
+       "de": "Erkennst"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "теперь",
+       "de": "nun"
+      },
+      {
+       "ru": "свой",
+       "de": "dein"
+      },
+      {
+       "ru": "образ?",
+       "de": "Bild"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Уж",
+       "de": "Wohl"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "под",
+       "de": "unter"
+      },
+      {
+       "ru": "его",
+       "de": "seiner"
+      },
+      {
+       "ru": "ли",
+       "de": "Ob"
+      },
+      {
+       "ru": "коркой",
+       "de": "Rinde"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        [
+         0,
+         1
+        ],
+        [
+         4,
+         4
+        ]
+       ],
+       "text": "Ob здесь — аналог русского «ли». Wohl здесь — частица, с помощью которой конструируется рассуждение (вероятностное, полной уверенности нет). Мы передали это конструкцией «уж не... ли» (Wohl в ней — «уж»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тоже",
+       "de": "auch"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "бурно",
+       "de": "reißend"
+      },
+      {
+       "ru": "вздымается?",
+       "de": "'s... schwillt"
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
- ],
- "poet_de": "Wilhelm Müller"
+ ]
 }

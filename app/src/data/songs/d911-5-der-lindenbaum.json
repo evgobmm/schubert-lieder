@@ -1,67 +1,688 @@
 {
  "d": "911/5",
  "title_de": "Der Lindenbaum",
+ "title_ru": "Липовое дерево",
+ "poet_de": "Wilhelm Müller",
+ "poet_ru": "Вильгельм Мюллер",
  "year": "1827",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "source": "перевод: собственный сайт Winterreise автора проекта (CC0)",
  "stanzas": [
   {
    "lines_de": [
-    "Am Brunnen vor dem Thore",
-    "da steht ein Lindenbaum;",
-    "ich träumt’ in seinem Schatten",
-    "so manchen süssen Traum."
+    "Am Brunnen vor dem Tore,",
+    "Da steht ein Lindenbaum:",
+    "Ich träumt' in seinem Schatten",
+    "So manchen süßen Traum."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "У",
+       "de": "Am"
+      },
+      {
+       "ru": "фонтана-источника",
+       "de": "Brunnen"
+      },
+      {
+       "ru": "перед",
+       "de": "vor"
+      },
+      {
+       "ru": "воротами —",
+       "de": "dem Tore"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Brunnen здесь — общественный источник воды у ворот, типичный для немецких городков. Это мог быть проточный фонтан (каменная колонна с трубкой, из которой вода течёт в чашу) или колодец, откуда воду вытягивали. Точного русского перевода для этого слова нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тут",
+       "de": "Da"
+      },
+      {
+       "ru": "стоит",
+       "de": "steht"
+      },
+      {
+       "ru": "липовое дерево:",
+       "de": "ein Lindenbaum"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "По-русски уже давно липу «липовым деревом» не называют. Но мы здесь используем именно это словосочетание — по двум причинам. Во-первых, оно точно соответствует немецкому Lindenbaum (буквально «липовое дерево»). Во-вторых, оно позволяет использовать по отношению к нему слово «его» вместо «её». Это существенно, поскольку в оригинале «дерево» (Baum) именно мужского рода."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мне снилось",
+       "de": "Ich träumt'"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "его",
+       "de": "seinem"
+      },
+      {
+       "ru": "тени",
+       "de": "Schatten"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Дословно — «я грезил»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Столько",
+       "de": "So manchen"
+      },
+      {
+       "ru": "сладких",
+       "de": "süßen"
+      },
+      {
+       "ru": "снов.",
+       "de": "Traum"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Ich schnitt in seine Rinde",
-    "so manches liebe Wort;",
-    "es zog in Freud’ und Leide",
-    "zu ihm mich immer fort."
+    "So manches liebe Wort;",
+    "Es zog in Freud' und Leide",
+    "Zu ihm mich immer fort."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Я",
+       "de": "Ich"
+      },
+      {
+       "ru": "вырезал",
+       "de": "schnitt"
+      },
+      {
+       "ru": "на",
+       "de": "in"
+      },
+      {
+       "ru": "его",
+       "de": "seine"
+      },
+      {
+       "ru": "коре",
+       "de": "Rinde"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Столько",
+       "de": "So manches"
+      },
+      {
+       "ru": "ласковых",
+       "de": "liebe"
+      },
+      {
+       "ru": "слов;",
+       "de": "Wort"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тянуло",
+       "de": "Es zog"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "радости",
+       "de": "Freud'"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "горе",
+       "de": "Leide"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "К",
+       "de": "Zu"
+      },
+      {
+       "ru": "нему",
+       "de": "ihm"
+      },
+      {
+       "ru": "меня",
+       "de": "mich"
+      },
+      {
+       "ru": "постоянно.",
+       "de": "immer fort"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
-    "Ich musst’ auch heute wandern",
-    "vorbei in tiefer Nacht,",
-    "da hab' ich noch im Dunkel",
-    "die Augen zugemacht."
+    "Ich musst' auch heute wandern",
+    "Vorbei in tiefer Nacht,",
+    "Da hab' ich noch im Dunkeln",
+    "Die Augen zugemacht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Я",
+       "de": "Ich"
+      },
+      {
+       "ru": "должен был",
+       "de": "musst'"
+      },
+      {
+       "ru": "и",
+       "de": "auch"
+      },
+      {
+       "ru": "сегодня",
+       "de": "heute"
+      },
+      {
+       "ru": "странствовать",
+       "de": "wandern"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "По-русски не говорят «странствовать мимо» (говорят: «пройти мимо»), но мы выбрали здесь именно слово «странствовать», поскольку хотели подчеркнуть этот оттенок важнейшего для «Зимнего путешествия» глагола wandern («передвигаться пешком», «странствовать»). Кое-что мы всё равно утеряли: в немецком подразумевается, что передвижение осуществляется исключительно пешком. Также напомним, что в первой песне мы перевели существительное Wandern сходным образом: «странствие»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мимо",
+       "de": "Vorbei"
+      },
+      {
+       "ru": "глубокой",
+       "de": "in tiefer"
+      },
+      {
+       "ru": "ночью,",
+       "de": "Nacht"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тут",
+       "de": "Da"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "ещё",
+       "de": "noch"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "темноте",
+       "de": "Dunkeln"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "У noch здесь как минимум два смысла: «даже» (и так темно, а герой ещё и закрывает глаза) и «вдобавок» (ко всему прочему закрыл глаза). Русское «ещё» сохраняет ту же двойственность."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "line_span": 6,
+       "continuation_ranges": [
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         4
+        ]
+       ],
+       "text": "В тексте явная загадка. Зачем герою закрывать глаза? (Это действие ещё и парадоксально усилено тем, что глаза он закрывает в темноте.) Вероятно, герой по каким-то причинам хочет выставить преграду между собой и липовым деревом, между собой и прошлыми грёзами. Замысел героя в очередной раз разваливается: зрение-то он заблокировал, но остаётся слух... Липа обращается к герою через шум ветвей — зазывает к себе. Но здесь есть ещё один парадокс: несмотря на отмеченное противопоставление, и там и там — танатос, влечение к смерти: согласно немецким словарным статьям, die Augen zumachen («закрыть глаза») — эвфемизм смерти, равно как и die ewige Ruhe finden («найти вечный покой»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Глаза",
+       "de": "Die Augen"
+      },
+      {
+       "ru": "закрыл.",
+       "de": "hab'... zugemacht"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Und seine Zweige rauschten,",
-    "als riefen sie mir zu:",
-    "komm her zu mir, Geselle,",
-    "hier find’st du deine Ruh!"
+    "Als riefen sie mir zu:",
+    "Komm her zu mir, Geselle,",
+    "Hier findst du deine Ruh'!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "его",
+       "de": "seine"
+      },
+      {
+       "ru": "ветви",
+       "de": "Zweige"
+      },
+      {
+       "ru": "шумели,",
+       "de": "rauschten"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Словно",
+       "de": "Als"
+      },
+      {
+       "ru": "звали",
+       "de": "riefen... zu"
+      },
+      {
+       "ru": "они",
+       "de": "sie"
+      },
+      {
+       "ru": "меня:",
+       "de": "mir"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Приди",
+       "de": "Komm"
+      },
+      {
+       "ru": "сюда",
+       "de": "her"
+      },
+      {
+       "ru": "ко",
+       "de": "zu"
+      },
+      {
+       "ru": "мне,",
+       "de": "mir"
+      },
+      {
+       "ru": "дружище,",
+       "de": "Geselle"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Здесь",
+       "de": "Hier"
+      },
+      {
+       "ru": "найдёшь",
+       "de": "findst"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "свой",
+       "de": "deine"
+      },
+      {
+       "ru": "покой!",
+       "de": "Ruh'"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Die kalten Winde bliesen",
-    "mir grad’ in’s Angesicht,",
-    "der Hut flog mir vom Kopfe,",
-    "ich wendete mich nicht."
+    "Mir grad' in's Angesicht,",
+    "Der Hut flog mir vom Kopfe,",
+    "Ich wendete mich nicht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Холодные",
+       "de": "Die kalten"
+      },
+      {
+       "ru": "ветры",
+       "de": "Winde"
+      },
+      {
+       "ru": "дули",
+       "de": "bliesen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мне",
+       "de": "Mir"
+      },
+      {
+       "ru": "прямо",
+       "de": "grad'"
+      },
+      {
+       "ru": "в",
+       "de": "in's"
+      },
+      {
+       "ru": "лик,",
+       "de": "Angesicht"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Шляпа",
+       "de": "Der Hut"
+      },
+      {
+       "ru": "слетела",
+       "de": "flog"
+      },
+      {
+       "ru": "у",
+       "de": ""
+      },
+      {
+       "ru": "меня",
+       "de": "mir"
+      },
+      {
+       "ru": "с",
+       "de": "vom"
+      },
+      {
+       "ru": "головы,",
+       "de": "Kopfe"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Я",
+       "de": "Ich"
+      },
+      {
+       "ru": "не",
+       "de": "nicht"
+      },
+      {
+       "ru": "обернулся.",
+       "de": "wendete mich"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Слушатель слышит «Я обернулся» (Ich wendete mich) и лишь с финальным nicht узнаёт, что на самом деле «*не* обернулся»."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Nun bin ich manche Stunde",
-    "entfernt von jenem Ort,",
-    "und immer hör’ ich’s rauschen:",
-    "du fändest Ruhe dort!"
-   ]
-  },
-  {
-   "lines_de": [
-    "Nun bin ich manche Stunde",
-    "entfernt von jenem Ort,",
-    "und immer hör’ ich’s rauschen:",
-    "du fändest Ruhe dort,",
-    "du fändest Ruhe dort!"
+    "Entfernt von jenem Ort,",
+    "Und immer hör' ich's rauschen:",
+    "Du fändest Ruhe dort!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Теперь",
+       "de": "Nun"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "—",
+       "de": "bin"
+      },
+      {
+       "ru": "не на один",
+       "de": "manche"
+      },
+      {
+       "ru": "час",
+       "de": "Stunde"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "line_span": 2,
+       "text": "По-русски так не говорят, но мы не хотели жертвовать немецким строем слов. Имеется в виду, что герой уже довольно далеко ушёл от того места."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Отдалён",
+       "de": "Entfernt"
+      },
+      {
+       "ru": "от",
+       "de": "von"
+      },
+      {
+       "ru": "того",
+       "de": "jenem"
+      },
+      {
+       "ru": "места,",
+       "de": "Ort"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "всё",
+       "de": "immer"
+      },
+      {
+       "ru": "слышу",
+       "de": "hör'"
+      },
+      {
+       "ru": "я,",
+       "de": "ich"
+      },
+      {
+       "ru": "как шумит:",
+       "de": "'s rauschen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "line_span": 2,
+       "text": "В немецкой культуре и истории у липы особая роль. В частности, липа — символ любви (отсчёт можно вести минимум от знаменитого старинного стихотворения «Под липой» — Under der linden (совр. Unter der Linde), ок. 1200 года). А в этой песне липа соединяет в себе любовь и смерть — эрос и танатос. Из-за навязчивых увещеваний липового дерева «найти свой покой», упокоиться может показаться, что в песне сделан акцент исключительно на смерти. С другой стороны, умереть можно где угодно, а с липой, очевидно, связано нечто большее. Песня заканчивается словами «ты нашёл бы покой *там*». Чётко сказано, что этот, очевидно, особый покой можно найти именно у липы, от которой герой ушёл уже далеко... Миры всё более разделяются. Dorflinde («деревенская/городская липа») была и центральным символом (небольшого) города, местом разнообразных сборов. Пространство делится на мир города, он же мир людей, и — иное. Ветры (у ветра ключевая роль во второй песне) набрасываются на героя, он символически теряет шляпу (потеря атрибутов первого мира при переходе в иной?) и не оборачивается... То, что раньше для него было «тут» (da), теперь для него уже «там» (dort)..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ты",
+       "de": "Du"
+      },
+      {
+       "ru": "нашёл бы",
+       "de": "fändest"
+      },
+      {
+       "ru": "покой",
+       "de": "Ruhe"
+      },
+      {
+       "ru": "там!",
+       "de": "dort"
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
- ],
- "poet_de": "Wilhelm Müller"
+ ]
 }

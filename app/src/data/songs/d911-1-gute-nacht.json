@@ -1,75 +1,945 @@
 {
  "d": "911/1",
  "title_de": "Gute Nacht",
+ "title_ru": "Спокойной ночи",
+ "poet_de": "Wilhelm Müller",
+ "poet_ru": "Вильгельм Мюллер",
  "year": "1827",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "source": "перевод: собственный сайт Winterreise автора проекта (CC0)",
  "stanzas": [
   {
    "lines_de": [
     "Fremd bin ich eingezogen,",
-    "fremd zieh ich wieder aus.",
+    "Fremd zieh' ich wieder aus.",
     "Der Mai war mir gewogen",
-    "mit manchem Blumenstrauss.",
+    "Mit manchem Blumenstrauß.",
     "Das Mädchen sprach von Liebe,",
-    "die Mutter gar von Eh',",
-    "das Mädchen sprach von Liebe,",
-    "die Mutter gar von Eh'",
-    "nun ist die Welt so trübe,",
-    "der Weg gehüllt in Schnee,",
-    "nun ist die Welt so trübe,",
-    "der Weg gehüllt in Schnee."
-   ]
-  },
-  {
-   "lines_de": [
-    "Was soll ich länger weilen,",
-    "dass man mich trieb’ hinaus?",
-    "Lass irre Hunde heulen",
-    "vor ihres Herren Haus!",
-    "Die Liebe liebt das Wandern,",
-    "Gott hat sie so gemacht",
-    "von Einem zu dem Andern,",
-    "Gott hat sie so gemacht.",
-    "Die Liebe liebt das Wandern,",
-    "fein Liebchen, gute Nacht!",
-    "Von Einem zu dem Andern,",
-    "fein Liebchen, gute Nacht!"
-   ]
-  },
-  {
-   "lines_de": [
-    "Will dich im Traum nicht stören,",
-    "wär’ Schad' um deine Ruh,",
-    "sollst meinen Tritt nicht hören,",
-    "sacht, sacht die Türe zu!",
-    "Schreib' im Vorübergehen",
-    "an’s Tor dir: gute Nacht,",
-    "damit du mögest sehen,",
-    "an dich hab’ ich gedacht.",
-    "Schreib’ im Vorübergehen",
-    "an’s Tor dir: gute Nacht,",
-    "damit du mögest sehen,",
-    "an dich hab’ ich gedacht,",
-    "an dich hab’ ich gedacht."
+    "Die Mutter gar von Eh' —",
+    "Nun ist die Welt so trübe,",
+    "Der Weg gehüllt in Schnee."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Чужим",
+       "de": "Fremd"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "пришёл,",
+       "de": "bin... eingezogen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Чужим",
+       "de": "Fremd"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "и",
+       "de": "wieder"
+      },
+      {
+       "ru": "ухожу.",
+       "de": "zieh'... aus"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "У немецкого wieder два основных значения: «снова, ещё раз» и «обратно, вспять» (возврат в прежнее состояние). Здесь мы имеем дело со вторым. Но по-русски «обратно ухожу» звучит так, словно герой возвращается в то же место, откуда пришёл (а в цикле это совсем не так: он уходит в путешествие с неясной целью). «Чужим снова ухожу» теоретически могло бы означать то, что в оригинале (если бы было ясно, что «снова» относится именно к «чужим»), но фактически здесь считывается, будто герой уже когда-то уходил (а в оригинале про это ничего нет). Поэтому мы выбрали частицу «и»: как пришёл чужим, так чужим и ухожу."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "В немецком языке приставка может отделяться от глагола и уходить в другую часть предложения. Из-за этого возникает интересный эффект: когда слушатель слышит zieh', он может только догадываться, что в итоге будет означать этот глагол. Само по себе это слово означает «тянусь», но как только прозвучит aus, слушатель поймёт, что на самом деле глагол был zieh' aus — «ухожу».\nЕсли пословно переводить первые две строки, то будет примерно так: «Чужим я втянулся, Чужим тянусь я снова прочь»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Май",
+       "de": "Der Mai"
+      },
+      {
+       "ru": "был",
+       "de": "war"
+      },
+      {
+       "ru": "ко",
+       "de": ""
+      },
+      {
+       "ru": "мне",
+       "de": "mir"
+      },
+      {
+       "ru": "благосклонен",
+       "de": "gewogen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "С",
+       "de": "Mit"
+      },
+      {
+       "ru": "не одним",
+       "de": "manchem"
+      },
+      {
+       "ru": "букетом цветов.",
+       "de": "Blumenstrauß"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Mancher — «некоторый», «иной». «С несколькими букетами» звучало бы по-русски естественнее, но требует (в данном случае от букетов) множественного числа. В оригинале же букет — в единственном числе, поэтому мы и перевели mit manchem Blumenstrauß как «с не одним букетом цветов»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Девушка",
+       "de": "Das Mädchen"
+      },
+      {
+       "ru": "говорила",
+       "de": "sprach"
+      },
+      {
+       "ru": "о",
+       "de": "von"
+      },
+      {
+       "ru": "любви,",
+       "de": "Liebe"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мать",
+       "de": "Die Mutter"
+      },
+      {
+       "ru": "даже",
+       "de": "gar"
+      },
+      {
+       "ru": "о",
+       "de": "von"
+      },
+      {
+       "ru": "браке —",
+       "de": "Eh'"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Теперь",
+       "de": "Nun"
+      },
+      {
+       "ru": "—",
+       "de": "ist"
+      },
+      {
+       "ru": "мир",
+       "de": "die Welt"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "сумрачен,",
+       "de": "trübe"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Путь",
+       "de": "Der Weg"
+      },
+      {
+       "ru": "окутан",
+       "de": "gehüllt"
+      },
+      {
+       "ru": "снегом.",
+       "de": "in Schnee"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Буквально «окутан в снег» (gehüllt in Schnee)."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Ich kann zu meiner Reisen",
-    "nicht wählen mit der Zeit,",
-    "muss selbst den Weg mir weisen",
-    "in dieser Dunkelheit.",
+    "Nicht wählen mit der Zeit:",
+    "Muss selbst den Weg mir weisen",
+    "In dieser Dunkelheit.",
     "Es zieht ein Mondenschatten",
-    "als mein Gefährte mit,",
-    "es zieht ein Mondenschatten",
-    "als mein Gefährte mit,",
-    "und auf den weissen Matten",
-    "such' ich des Wildes Tritt,",
-    "und auf den weissen Matten",
-    "such’ ich des Wildes Tritt."
+    "Als mein Gefährte mit,",
+    "Und auf den weißen Matten",
+    "Such' ich des Wildes Tritt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Я",
+       "de": "Ich"
+      },
+      {
+       "ru": "не могу",
+       "de": "kann... nicht"
+      },
+      {
+       "ru": "для",
+       "de": "zu"
+      },
+      {
+       "ru": "своего",
+       "de": "meiner"
+      },
+      {
+       "ru": "путешествия",
+       "de": "Reisen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "В немецком отрицание nicht может стоять далеко от глагола. Ich kann («я могу») стоит в самом начале строки, и то, что герой на самом деле «*не* может», становится ясно, лишь когда звучит nicht (уже в следующей строке!)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Традиционный перевод на русский названия цикла Winterreise — «Зимний путь». Однако Reise означает «путешествие», а не «путь» («Зимний путь» на немецком был бы Winterweg). В цикле используются три разных слова: Reise («путешествие»), Weg («путь», «дорога») и Wandern («странствие», «скитание»). В подстрочнике мы их различаем."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Выбирать",
+       "de": "wählen"
+      },
+      {
+       "ru": "время:",
+       "de": "mit der Zeit"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Дословно: «выбирать со временем», то есть по смыслу «выбирать сообразно со временем». Здесь поэт использовал необычную конструкцию."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Должен",
+       "de": "Muss"
+      },
+      {
+       "ru": "сам",
+       "de": "selbst"
+      },
+      {
+       "ru": "путь",
+       "de": "den Weg"
+      },
+      {
+       "ru": "себе",
+       "de": "mir"
+      },
+      {
+       "ru": "указать",
+       "de": "weisen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "line_span": 2,
+       "text": "Герою по какой-то причине пришлось уехать именно зимой — подождать весны он, очевидно, не может. Более того, никто его не провожает: ему самому нужно пробираться в темноте, искать путь впотьмах."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "этой",
+       "de": "dieser"
+      },
+      {
+       "ru": "темноте.",
+       "de": "Dunkelheit"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Следует",
+       "de": "Es zieht... mit"
+      },
+      {
+       "ru": "лунная тень",
+       "de": "ein Mondenschatten"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "line_span": 2,
+       "text": "Как мы уже поняли, немецкий устроен так, что последнее слово может уточнить или даже кардинально изменить смысл всей фразы. Слушатель слышит: Es zieht (дословно: «тянется») ein Mondenschatten — «движется лунная тень». Als mein Gefährte («как мой спутник») уже подсказывает, что тень сопровождает героя, но лишь последнее слово mit (здесь: «вместе», «заодно») окончательно превращает zieht («тянуться», «двигаться») в mitziehen (здесь: «следовать за»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Единственный спутник героя — даже не луна, а тень от неё: скорее всего, собственная тень героя. Спутник — не человек, даже не небесное тело, а проекция самого себя. Это первый намёк на мотив двойника, который пройдёт через весь цикл."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Как",
+       "de": "Als"
+      },
+      {
+       "ru": "мой",
+       "de": "mein"
+      },
+      {
+       "ru": "спутник,",
+       "de": "Gefährte"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "на",
+       "de": "auf"
+      },
+      {
+       "ru": "белых",
+       "de": "den weißen"
+      },
+      {
+       "ru": "лугах",
+       "de": "Matten"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ищу",
+       "de": "Such'"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "зверя",
+       "de": "des Wildes"
+      },
+      {
+       "ru": "поступь.",
+       "de": "Tritt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Неслучайно, что герой ищет не человеческую дорогу, тропинку, а звериные следы. С первой же песни он выходит за пределы человеческого мира — ни попутчиков, ни указателей, только «поступь зверя» на «белых лугах»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lines_de": [
+    "Was soll ich länger weilen,",
+    "Dass man mich trieb' hinaus?",
+    "Lass irre Hunde heulen",
+    "Vor ihres Herren Haus!",
+    "Die Liebe liebt das Wandern, —",
+    "Gott hat sie so gemacht —",
+    "Von Einem zu dem Andern —",
+    "Fein Liebchen, gute Nacht!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Зачем",
+       "de": "Was"
+      },
+      {
+       "ru": "мне",
+       "de": "soll ich"
+      },
+      {
+       "ru": "дольше",
+       "de": "länger"
+      },
+      {
+       "ru": "оставаться, —",
+       "de": "weilen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Was soll ich — буквально «что должен я». Soll выражает внешнюю волю: кто-то или что-то (обстоятельства, судьба) хочет или требует, чтобы ты действовал. Герой спрашивает: кто ждёт, чтобы я остался? Ответ подразумевается: никто."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Чтобы",
+       "de": "Dass"
+      },
+      {
+       "ru": "меня",
+       "de": "mich"
+      },
+      {
+       "ru": "прогнали",
+       "de": "man... trieb'"
+      },
+      {
+       "ru": "вон?",
+       "de": "hinaus"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Man trieb' — дословно «кто-то прогнал бы». Это естественная конструкция немецкой грамматики. На русский это естественнее и по смыслу точнее перевести одним словом «прогнали», которое фактически этот man («кто-то») неявно содержит."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Кто прогнал бы? Девушка, её родители, кто-то ещё? В этом цикле неоднозначность и недосказанность играют особую роль, в чём мы неоднократно убедимся."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пусть",
+       "de": "Lass"
+      },
+      {
+       "ru": "безумные-блуждающие",
+       "de": "irre"
+      },
+      {
+       "ru": "псы",
+       "de": "Hunde"
+      },
+      {
+       "ru": "воют",
+       "de": "heulen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Irre соединяет два смысла: «блуждающий» (как в irren — «блуждать») и «безумный» (как в Irrsinn — «безумие»). Псы одновременно и бродят, и обезумели. Герой здесь себя им противопоставляет: пусть это они воют перед домом хозяина, который их не впускает, а он унижаться не будет и просто тихо уйдёт. Но дальше... безумные-блуждающие псы станут одним из отражений героя, он будет делать многое из того, от чего в какие-то моменты отстранялся."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Перед",
+       "de": "Vor"
+      },
+      {
+       "ru": "домом",
+       "de": "Haus"
+      },
+      {
+       "ru": "своего",
+       "de": "ihres"
+      },
+      {
+       "ru": "хозяина!",
+       "de": "Herren"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Буквально: «Перед (Vor) своего (ihres) хозяина (Herren) домом (Haus)». По-русски так лучше не говорить, поэтому порядок слов изменён."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Любовь",
+       "de": "Die Liebe"
+      },
+      {
+       "ru": "любит",
+       "de": "liebt"
+      },
+      {
+       "ru": "странствие, —",
+       "de": "das Wandern"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "line_span": 3,
+       "text": "Явная параллель: любовь странствует подобно тому, как герой путешествует. И то, и то сопряжено со страданиями: «странствие любви» влечёт неверность (один из ключевых мотивов цикла). В этом фрагменте герой снимает ответственность с девушки (любовь странствующей сделал Бог), но таким великодушным герой будет не всегда."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Бог",
+       "de": "Gott"
+      },
+      {
+       "ru": "её",
+       "de": "sie"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "создал —",
+       "de": "hat... gemacht"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "От",
+       "de": "Von"
+      },
+      {
+       "ru": "Одного",
+       "de": "Einem"
+      },
+      {
+       "ru": "к",
+       "de": "zu"
+      },
+      {
+       "ru": "Другому —",
+       "de": "dem Andern"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пригожая",
+       "de": "Fein"
+      },
+      {
+       "ru": "любимая,",
+       "de": "Liebchen"
+      },
+      {
+       "ru": "спокойной",
+       "de": "gute"
+      },
+      {
+       "ru": "ночи!",
+       "de": "Nacht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Fein Liebchen — устойчивая формула немецкой народной песни. Fein означает «пригожая» (фольклорный оттенок), «миловидная». В русском языке более естественно бы звучало просто «Любимая, спокойной ночи», но мы сохраняем оба слова."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lines_de": [
+    "Will dich im Traum nicht stören,",
+    "Wär' Schad' um deine Ruh',",
+    "Sollst meinen Tritt nicht hören —",
+    "Sacht, sacht die Türe zu!",
+    "Schreib' im Vorübergehen",
+    "An's Tor dir gute Nacht,",
+    "Damit du mögest sehen,",
+    "An dich hab' ich gedacht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Хочу",
+       "de": "Will"
+      },
+      {
+       "ru": "тебя",
+       "de": "dich"
+      },
+      {
+       "ru": "во",
+       "de": "im"
+      },
+      {
+       "ru": "сне",
+       "de": "Traum"
+      },
+      {
+       "ru": "не",
+       "de": "nicht"
+      },
+      {
+       "ru": "тревожить,",
+       "de": "stören"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "line_span": 4,
+       "continuation_ranges": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         0,
+         2
+        ]
+       ],
+       "text": "Обратим внимание на противоречивость (но, парадоксально, вместе с тем и целостность) речей и действий героя. Ранее создавалось впечатление, что герой должен был срочно, буквально ночью срываться в путь — с большим негодованием. Здесь же он говорит, что уходит тихо и осторожно, пока спит его любимая..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Было бы",
+       "de": "Wär'"
+      },
+      {
+       "ru": "жаль",
+       "de": "Schad'"
+      },
+      {
+       "ru": "твоего",
+       "de": "um deine"
+      },
+      {
+       "ru": "покоя,",
+       "de": "Ruh'"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Моих",
+       "de": "meinen"
+      },
+      {
+       "ru": "шагов",
+       "de": "Tritt"
+      },
+      {
+       "ru": "не услышишь —",
+       "de": "Sollst... nicht hören"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Дословно: «Должна (Sollst) моих шагов не (nicht) слышать (hören)». Sollst — снова чья-то воля, но здесь это воля самого говорящего: нежное обещание, что он уйдёт тихо. Поэтому вместо «должна не слышать» мы переводим «не услышишь» — заверение, а не приказ."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тихо,",
+       "de": "Sacht"
+      },
+      {
+       "ru": "тихо",
+       "de": "sacht"
+      },
+      {
+       "ru": "дверь",
+       "de": "die Türe"
+      },
+      {
+       "ru": "прикрою!",
+       "de": "zu"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "В немецком тексте этого глагола нет: zu — частица со значением «закрыто» (от zumachen — «закрыть»), поставленная вместо целого глагола. В русском такой эллипсис невозможен, поэтому мы в явном виде дали глагол «прикрою»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Напишу",
+       "de": "Schreib'"
+      },
+      {
+       "ru": "мимоходом",
+       "de": "im Vorübergehen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Vorübergehen — буквально «прохождение мимо» (vorüber — «мимо», gehen — «идти»). «Мимоходом» — почти дословный перевод. В контексте цикла это существенно: герой — странник, и gehen («идти») — ключевой для него глагол. Он пишет прощание не, скажем, «между делом», а буквально проходя мимо дома. Который так и не стал его..."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "На",
+       "de": "An's"
+      },
+      {
+       "ru": "воротах",
+       "de": "Tor"
+      },
+      {
+       "ru": "тебе",
+       "de": "dir"
+      },
+      {
+       "ru": "спокойной",
+       "de": "gute"
+      },
+      {
+       "ru": "ночи,",
+       "de": "Nacht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Tor — «ворота». В немецких городках начала XIX века многие жилые дома имели большие входные ворота с улицы, ведущие во двор. Герой тихо прикрыл домашнюю «дверь» (Türe) и теперь пишет прощание на воротах — на границе между её миром и миром путешествия."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Чтобы",
+       "de": "Damit"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "могла",
+       "de": "mögest"
+      },
+      {
+       "ru": "увидеть,",
+       "de": "sehen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "О",
+       "de": "An"
+      },
+      {
+       "ru": "тебе",
+       "de": "dich"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "думал.",
+       "de": "hab'... gedacht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "В оригинале у Мюллера: Ich hab' an dich gedacht («я о тебе думал»). Шуберт переставил: An dich hab' ich gedacht («о тебе я думал») — и в музыке, в финальных повторениях, за счёт более высоких нот поставил акцент на ich («я»), а не на dich («тебе»). То есть в конце песни подчёркивается: главное для героя всё же не его возлюбленная. Главное — это он сам. Путешествие началось..."
+      }
+     ]
+    }
    ]
   }
- ],
- "poet_de": "Wilhelm Müller"
+ ]
 }

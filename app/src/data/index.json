@@ -76,8 +76,9 @@
   "year": "1812",
   "section": "1810-1814",
   "poet_de": "Friedrich Rochlitz",
+  "file": "d23-klaglied.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 9,
@@ -86,8 +87,9 @@
   "year": "1812",
   "section": "1810-1814",
   "poet_de": "Friedrich Schiller",
+  "file": "d30-der-jungling-am-bache.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 10,
@@ -652,8 +654,9 @@
   "year": "1815",
   "section": "1815-1",
   "poet_de": "Joseph Carl Bernard",
+  "file": "d177-vergebliche-liebe.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 66,
@@ -673,8 +676,9 @@
   "year": "1815",
   "section": "1815-1",
   "poet_de": "Theodor Körner",
+  "file": "d180-sehnsucht-der-liebe.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 68,
@@ -713,8 +717,9 @@
   "year": "1815",
   "section": "1815-1",
   "poet_de": "Friedrich von Matthisson",
+  "file": "d188-naturgenuss.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 72,
@@ -814,8 +819,9 @@
   "year": "1815",
   "section": "1815-1",
   "poet_de": "Ludwig Christoph Heinrich Hölty",
+  "file": "d198-seufzer.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 82,
@@ -844,8 +850,9 @@
   "year": "1815",
   "section": "1815-1",
   "poet_de": "Ludwig Christoph Heinrich Hölty",
+  "file": "d207-der-liebende.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 85,
@@ -1880,8 +1887,9 @@
   "year": "1816",
   "section": "1816-1",
   "poet_de": "James Macpherson, Edmund von Harold",
+  "file": "d150-lodas-gespenst.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 188,
@@ -1970,8 +1978,9 @@
   "year": "1816",
   "section": "1816-1",
   "poet_de": "Johann Wolfgang von Goethe",
+  "file": "d142-geistes-gruss.json",
   "ready": false,
-  "text": false
+  "text": true
  },
  {
   "number": 197,
@@ -5965,8 +5974,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Спокойной ночи",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-1-gute-nacht.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -5976,8 +5987,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Флюгер",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-2-die-wetterfahne.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -5987,8 +6000,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
-  "file": "d911-3-gefrorne-tranen.json",
-  "ready": false,
+  "title_ru": "Замёрзшие слёзы",
+  "poet_ru": "Вильгельм Мюллер",
+  "file": "d911-3-gefrorne-traenen.json",
+  "ready": true,
   "text": true
  },
  {
@@ -5998,8 +6013,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Оцепенение",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-4-erstarrung.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6009,8 +6026,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Липовое дерево",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-5-der-lindenbaum.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6020,8 +6039,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Разлив",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-6-wasserflut.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6031,8 +6052,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "На речке",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-7-auf-dem-flusse.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6042,8 +6065,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
-  "file": "d911-8-ruckblick.json",
-  "ready": false,
+  "title_ru": "Взгляд назад",
+  "poet_ru": "Вильгельм Мюллер",
+  "file": "d911-8-rueckblick.json",
+  "ready": true,
   "text": true
  },
  {
@@ -6053,8 +6078,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Блуждающий огонь",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-9-irrlicht.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6064,8 +6091,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Привал",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-10-rast.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6075,8 +6104,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
-  "file": "d911-11-fruhlingstraum.json",
-  "ready": false,
+  "title_ru": "Весенний сон-мечта",
+  "poet_ru": "Вильгельм Мюллер",
+  "file": "d911-11-fruehlingstraum.json",
+  "ready": true,
   "text": true
  },
  {
@@ -6086,8 +6117,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Одиночество",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-12-einsamkeit.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6097,8 +6130,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Почта",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-13-die-post.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6108,8 +6143,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Седая голова",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-14-der-greise-kopf.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6119,8 +6156,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
-  "file": "d911-15-die-krahe.json",
-  "ready": false,
+  "title_ru": "Ворона",
+  "poet_ru": "Вильгельм Мюллер",
+  "file": "d911-15-die-kraehe.json",
+  "ready": true,
   "text": true
  },
  {
@@ -6130,8 +6169,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Последняя надежда",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-16-letzte-hoffnung.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6141,8 +6182,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "В деревне",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-17-im-dorfe.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6152,8 +6195,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
-  "file": "d911-18-der-sturmische-morgen.json",
-  "ready": false,
+  "title_ru": "Бурное утро",
+  "poet_ru": "Вильгельм Мюллер",
+  "file": "d911-18-der-stuermische-morgen.json",
+  "ready": true,
   "text": true
  },
  {
@@ -6163,8 +6208,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
-  "file": "d911-19-tauschung.json",
-  "ready": false,
+  "title_ru": "Обман-иллюзия",
+  "poet_ru": "Вильгельм Мюллер",
+  "file": "d911-19-taeuschung.json",
+  "ready": true,
   "text": true
  },
  {
@@ -6174,8 +6221,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Путевой указатель",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-20-der-wegweiser.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6185,8 +6234,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Постоялый двор",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-21-das-wirtshaus.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6196,8 +6247,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Удаль-мужество!",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-22-mut.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6207,8 +6260,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Ложные солнца",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-23-die-nebensonnen.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {
@@ -6218,8 +6273,10 @@
   "year": "1827",
   "section": "winterreise",
   "poet_de": "Wilhelm Müller",
+  "title_ru": "Лирник",
+  "poet_ru": "Вильгельм Мюллер",
   "file": "d911-24-der-leiermann.json",
-  "ready": false,
+  "ready": true,
   "text": true
  },
  {

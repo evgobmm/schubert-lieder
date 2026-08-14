@@ -39,6 +39,9 @@ const displayYear = c => {
 const existingIndex = require(path.join(ROOT, 'app/src/data/index.json'));
 const existingByD = {};
 existingIndex.forEach(e => { existingByD[e.d] = e; });
+// Реестр переведённых песен (заполняется конвейером перевода / импортом Winterreise)
+const translatedFile = path.join(ROOT, 'planning/catalog/translated.json');
+const translated = fs.existsSync(translatedFile) ? JSON.parse(fs.readFileSync(translatedFile, 'utf8')) : {};
 
 const outIndex = [];
 const outSections = [];
@@ -60,7 +63,14 @@ for (const sec of sections) {
     };
     const poetDe = displayPoet(c.poet_full || '');
     if (poetDe) entry.poet_de = poetDe;
-    if (prev && prev.ready) {
+    if (translated[d]) {
+      // переведённая песня из реестра конвейера перевода
+      entry.title_ru = translated[d].title_ru;
+      if (translated[d].poet_ru) entry.poet_ru = translated[d].poet_ru;
+      entry.file = translated[d].file;
+      entry.ready = true;
+      entry.text = true;
+    } else if (prev && prev.ready) {
       // полноценная переведённая песня (пилот)
       entry.title_ru = prev.title_ru;
       entry.poet_ru = prev.poet_ru;
