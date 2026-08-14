@@ -1,5 +1,7 @@
 # Schubert Lieder Corpus — Research Report
 
+> ⚠️ **Обновление 2026-08-14:** ключевые рекомендации пересмотрены по итогам проверочного исследования — см. `song-sources.md` (каркас каталога: IMSLP works list + NSA Schubert-Datenbank вместо Википедии; даты: schubert-digital.at; тексты «как поётся»: OpenScore CC0 + слой Растля; скан Дойча-1978 на archive.org — НЕ public domain).
+
 ## 1. Scope and count
 
 **Consensus figure: "over 600" solo Lieder for voice and piano.** Concrete anchor numbers from real editions:
