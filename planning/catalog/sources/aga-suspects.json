@@ -4438,5 +4438,115 @@
     "Bewahrt die flüchtge Blüthe."
    ]
   ]
+ },
+ {
+  "d": "738",
+  "issues": [
+   "Строфа 1: слово «Sonnenstrahlen» повторяется дважды в шести строках (строка 1 и начало строки 4: «...Sonnenstrahlen fallen, ziehn von dannen»), что нетипично для короткой строфы и похоже на ошибку копирования/сдвиг строки, а не на осмысленный повтор-анафору — стоит сверить с оригиналом Брухмана.",
+   "Строфа 2, строки «Uns umblühten und umglühten, / Tilgend aller Qualen Spur» синтаксически оторваны от подлежащего (нет союзного слова «die», связывающего с «Braune, zarte Düfte... Säume»), из-за чего конструкция читается грамматически шероховато — возможно, пропущено слово или строка при наборе текста."
+  ],
+  "stanzas": [
+   [
+    "Sonnenstrahlen durch die Tannen,",
+    "Stilles Sausen lauer Lüfte,",
+    "Wenn nur immer durch dunkle Bäume",
+    "Sonnenstrahlen fallen, ziehn von dannen",
+    "Alle Schmerzen, und im Herzen",
+    "Wohnet reiner Friede nur."
+   ],
+   [
+    "Braune, zarte Düfte,",
+    "Die sich neigen aus den Zweigen,",
+    "Schimmergrüne Säume,",
+    "Uns umblühten und umglühten,",
+    "Tilgend aller Qualen Spur,",
+    "Athmet aus die ganze Flur."
+   ]
+  ]
+ },
+ {
+  "d": "744",
+  "issues": [
+   "Текст выглядит подозрительно кратким для полноценного стихотворения (Иоганн Хризостом Зенн, «Schwanengesang», D 744) — всего 8 строк не по правильной строфике; возможно, текст обрезан/неполон по сравнению с оригиналом.",
+   "Строка 'das erlösend dich, o Geist, anweht' и предыдущая 'das auflösend durch die Glieder rinnt' построены по параллельной схеме, но стоит сверить точную историческую орфографию и полноту строф с надёжным источником (например, изданием стихов Зенна) — в доступной памяти модели нет уверенности в точности этих строк."
+  ],
+  "stanzas": [
+   [
+    "Wie klag ich's aus, das Sterbegefühl,",
+    "das auflösend durch die Glieder rinnt?",
+    "Wie sing ich's aus, das Werdegefühl,",
+    "das erlösend dich, o Geist, anweht?"
+   ],
+   [
+    "Er klagt, er singt,",
+    "vernichtungsbang, verklärungsfroh,",
+    "bis das Leben floh."
+   ],
+   [
+    "Das bedeutet des Schwanen Gesang."
+   ]
+  ]
+ },
+ {
+  "d": "761",
+  "issues": [
+   "Текст обрывается на середине строки: «Du wirst die Müh und Zeit um…» — многоточие указывает на незавершённую расшифровку OCR, а не на завершённое стихотворение. «Schatzgräbers Begehr» (D 761) значительно длиннее — это лишь первая строфа (5 строк) из полного стихотворения Франца фон Шобера, содержащего ещё несколько строф. Полнота текста нарушена — нужно дособрать остальные строфы из источника."
+  ],
+  "stanzas": [
+   [
+    "In tiefster Erde ruht ein alt Gesetz,",
+    "dem treibt mich's rastlos immer nachzuspüren,",
+    "und strebend kann ich andres nichts vollführen.",
+    "Wohl spannt auch mir die Welt ihr goldnes Netz,",
+    "wohl tönt auch mir der Klugheit seicht Geschwätz:",
+    "Du wirst die Müh und Zeit um…"
+   ]
+  ]
+ },
+ {
+  "d": "766",
+  "error": "not in OCR (8.0%): knabe, singt, blüthenzeit, eingeschrieben"
+ },
+ {
+  "d": "805",
+  "issues": [
+   "Строка 'an Edens Früchten, und von Edens Früchten / sich der alte Fluch entwich.' выглядит искажённой: подлинный текст Майрхофера — 'an Edens Früchten, und der alte Fluch / von Edens Früchten wich.' В приведённом варианте фраза 'Edens Früchten' повторена дважды подряд с нарушенным порядком слов и заменой 'wich' на 'entwich', что даёт грамматически странную и, вероятно, ошибочно продублированную строку — похоже на артефакт копирования/OCR, а не историческую орфографию."
+  ],
+  "stanzas": [
+   [
+    "Unbewölktes Leben,",
+    "so rein und tief und klar,",
+    "Uralte Träume schweben",
+    "auf Blumen wunderbar,",
+    "auf Blumen wunderbar."
+   ],
+   [
+    "Der Geist zerbrach die Schranken",
+    "des Körpers träges Blei,",
+    "er waltet groß und frei,",
+    "es laben die Gedanken",
+    "an Edens Früchten, und von Edens Früchten",
+    "sich der alte Fluch entwich."
+   ],
+   [
+    "Was ich auch je gelitten,",
+    "die Palme ist erstritten,",
+    "gestillet mein Verlangen,",
+    "die Musen selber sangen",
+    "die Sphinx in Todesschlaf,",
+    "und meine Hand sie traf."
+   ],
+   [
+    "Unbewölktes Leben,",
+    "so rein und tief und klar,",
+    "Uralte Träume schweben",
+    "auf Blumen wunderbar,",
+    "auf Blumen wunderbar."
+   ]
+  ]
+ },
+ {
+  "d": "806",
+  "error": "not in OCR (7.1%): entfernt, denn, süßes, säe, schaue"
  }
 ]
