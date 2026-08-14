@@ -7,6 +7,7 @@ import PerformancePlayer from './components/PerformancePlayer.vue'
 import PrintMenu from './components/PrintMenu.vue'
 import FeedbackMenu from './components/FeedbackMenu.vue'
 import songsIndex from './data/index.json'
+import sectionsIndex from './data/sections.json'
 
 // Выключатель собственных заходов (задел под статистику): ?stats=off / ?stats=on
 const statsParam = new URLSearchParams(window.location.search).get('stats')
@@ -44,14 +45,38 @@ function quickScrollPlayer() {
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
-const songParam = Number(new URLSearchParams(window.location.search).get('song'))
+// Каноническая форма ссылки — по номеру Дойча: ?song=d118, ?song=d795.1
+// (слэш в D-номере кодируется точкой); старые числовые ?song=N тоже принимаются.
+const defaultSongNumber = (songsIndex.find(s => s.d === '118') || songsIndex[0]).number
+
+function parseSongParam(v) {
+  if (!v) return null
+  const dm = String(v).match(/^d(.+)$/i)
+  if (dm) {
+    const d = dm[1].replace(/\./g, '/').toUpperCase()
+    const s = songsIndex.find(x => x.d.toUpperCase() === d)
+    return s ? s.number : null
+  }
+  const n = Number(v)
+  return songsIndex.some(s => s.number === n) ? n : null
+}
+
 const currentSongNumber = ref(
-  songsIndex.some(s => s.number === songParam) ? songParam : 1
+  parseSongParam(new URLSearchParams(window.location.search).get('song')) ?? defaultSongNumber
 )
+
+// Соседние песни, у которых есть страница (пустые каталожные позиции пропускаем)
+function stepSong(dir) {
+  let i = songsIndex.findIndex(s => s.number === currentSongNumber.value)
+  for (i += dir; i >= 0 && i < songsIndex.length; i += dir) {
+    if (songsIndex[i].file) { currentSongNumber.value = songsIndex[i].number; return }
+  }
+}
 
 watch(currentSongNumber, (n) => {
   const url = new URL(window.location.href)
-  url.searchParams.set('song', String(n))
+  const song = songsIndex.find(s => s.number === n)
+  url.searchParams.set('song', song ? 'd' + song.d.toLowerCase().replace(/\//g, '.') : String(n))
   history.replaceState(null, '', url.pathname + url.search + url.hash)
   updateSeoTags(n)
   if (window.goatcounter && window.goatcounter.count && localStorage.getItem('skipgc') !== 't') {
@@ -66,13 +91,18 @@ watch(currentSongNumber, (n) => {
 function updateSeoTags(n) {
   const base = window.location.origin + window.location.pathname
   const canonical = document.querySelector('link[rel="canonical"]')
-  if (canonical) canonical.href = n === 1 ? base : `${base}?song=${n}`
-  const desc = document.querySelector('meta[name="description"]')
   const song = songsIndex.find(s => s.number === n)
+  const dParam = song ? 'd' + song.d.toLowerCase().replace(/\//g, '.') : String(n)
+  if (canonical) canonical.href = n === defaultSongNumber ? base : `${base}?song=${dParam}`
+  const desc = document.querySelector('meta[name="description"]')
   const hasSongParam = new URLSearchParams(window.location.search).has('song')
-  if (song && (n !== 1 || hasSongParam)) {
-    document.title = `${song.title_de} — ${song.title_ru} | Песни Шуберта`
-    if (desc) desc.content = `«${song.title_de}» («${song.title_ru}», D ${song.d}) Франца Шуберта: немецкий текст, точный семантический перевод, комментарии, избранные исполнения.`
+  if (song && (n !== defaultSongNumber || hasSongParam)) {
+    document.title = song.title_ru
+      ? `${song.title_de} — ${song.title_ru} | Песни Шуберта`
+      : `${song.title_de} (D ${song.d}) | Песни Шуберта`
+    if (desc) desc.content = song.ready
+      ? `«${song.title_de}» («${song.title_ru}», D ${song.d}) Франца Шуберта: немецкий текст, точный семантический перевод, комментарии, избранные исполнения.`
+      : `«${song.title_de}» (D ${song.d}) Франца Шуберта: немецкий текст песни. Пословный перевод готовится.`
   } else {
     document.title = 'Песни Шуберта: точный подстрочный семантический перевод'
     if (desc) desc.content = 'Песни Франца Шуберта: немецкий текст, точный семантический перевод, комментарии, избранные исполнения.'
@@ -98,9 +128,9 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
       <div class="mobile-nav">
         <button
           class="mob-arrow"
-          :disabled="currentSongNumber <= 1"
+          :disabled="!songsIndex.some(s => s.file && s.number < currentSongNumber)"
           aria-label="Предыдущая песня"
-          @click="currentSongNumber--"
+          @click="stepSong(-1)"
         >‹</button>
         <select
           class="mob-select"
@@ -108,15 +138,22 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
           aria-label="Выбор песни"
           @change="currentSongNumber = Number($event.target.value)"
         >
-          <option v-for="s in songsIndex" :key="s.number" :value="s.number">
-            {{ s.title_de }} — {{ s.title_ru }}
-          </option>
+          <optgroup v-for="sec in sectionsIndex" :key="sec.id" :label="sec.title">
+            <option
+              v-for="s in songsIndex.filter(x => x.section === sec.id)"
+              :key="s.number"
+              :value="s.number"
+              :disabled="!s.file"
+            >
+              {{ s.title_de }}{{ s.title_ru ? ' — ' + s.title_ru : '' }}
+            </option>
+          </optgroup>
         </select>
         <button
           class="mob-arrow"
-          :disabled="currentSongNumber >= songsIndex.length"
+          :disabled="!songsIndex.some(s => s.file && s.number > currentSongNumber)"
           aria-label="Следующая песня"
-          @click="currentSongNumber++"
+          @click="stepSong(1)"
         >›</button>
       </div>
       <div class="mobile-controls">
@@ -138,6 +175,7 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
       <div class="sidebar-title">Песни</div>
       <SongList
         :songs="songsIndex"
+        :sections="sectionsIndex"
         :current="currentSongNumber"
         @select="currentSongNumber = $event"
       />

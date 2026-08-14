@@ -21,11 +21,14 @@
 Сборка: `cd app && npm run build`. Деплой: GitHub Actions → Pages (`.github/workflows/deploy.yml`), base `/schubert-lieder/`.
 
 Модель данных песни (`app/src/data/songs/<slug>.json`) — как в референсе, плюс поля:
-- `"d"` — номер по Дойчу (строка, канонический ID; slug файла `d118-gretchen-am-spinnrade.json`);
+- `"d"` — номер по Дойчу (строка, канонический ID; slug файла `d118-gretchen-am-spinnrade.json`, слэш в D — дефисом: `d795-1-...`);
 - `"poet_de"` / `"poet_ru"`, `"year"` — метаданные (строка под заголовком);
-- `"about"` — массив секций `{title, text}` раздела «О песне» (текст: `*курсив*`, абзацы через `\n`).
+- `"about"` — массив секций `{title, text}` раздела «О песне» (текст: `*курсив*`, абзацы через `\n`);
+- `"text_only": true` — режим «только немецкий текст» (перевода нет): `stanzas` содержат только `lines_de`, рендер без подстрочника с пометкой «перевод готовится»; `"source"` — происхождение текста.
 
-`app/src/data/index.json`: `{number, d, title_de, title_ru, poet_ru, file, ready}` (number — порядковый номер в списке сайта).
+`app/src/data/index.json`: `{number, d, title_de, [title_ru], [poet_de], [poet_ru], year, section, [file], ready, text}` — все ~628 песен; `number` — сквозной номер по порядку разделов; `section` — id раздела; `file` есть только у песен со страницей; `ready` — полный перевод; `text` — есть немецкий текст. `app/src/data/sections.json`: `[{id, title, count}]` — разделы по порядку (16 хронологических + 3 цикла). **Генерация обоих + песенных файлов «только текст»: `node planning/catalog/scripts/build-app-data.js`** (из каталога `planning/catalog/`); руками эти файлы не редактировать (кроме переведённых песен — их записи генератор сохраняет).
+
+Deep-link: канонично `?song=d118` / `?song=d795.1` (D-номер, слэш → точка); старые числовые `?song=N` принимаются.
 
 `app/src/data/performances.json`: `{"<d>": [{videoId, name, year}, ...]}` — до 5 записей в порядке ранжирования, первая — главная.
 

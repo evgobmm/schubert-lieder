@@ -589,6 +589,14 @@ function getLineDeParts(stanza, lineIndex) {
   margin-bottom: 28px;
 }
 
+/* Режим «только текст» */
+.text-only-note {
+  margin-bottom: 26px;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
 .line-pair {
   display: flex;
   gap: 40px;

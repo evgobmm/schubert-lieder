@@ -26,8 +26,11 @@ function toggleSong(n) {
   selected.value = next
 }
 
+// Печатаются только песни, у которых есть страница (файл с текстом/переводом)
+const printableSongs = songsIndex.filter(s => s.file)
+
 function selectAll() {
-  selected.value = new Set(songsIndex.map(s => s.number))
+  selected.value = new Set(printableSongs.map(s => s.number))
 }
 
 function clearAll() {
@@ -303,7 +306,7 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
 
         <div class="print-song-list">
           <label
-            v-for="s in songsIndex"
+            v-for="s in printableSongs"
             :key="s.number"
             class="print-song-item"
           >

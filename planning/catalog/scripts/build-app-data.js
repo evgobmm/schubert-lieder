@@ -8,7 +8,9 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '../../..');
 const catalog = require(path.join(ROOT, 'planning/catalog/catalog.json'));
 const { sections } = require(path.join(ROOT, 'planning/catalog/sections.json'));
-const formatted = require(path.join(ROOT, 'planning/catalog/sources/openscore-lyrics-formatted.json'));
+// Публикуются только тексты, прошедшие проверку тождественности и связности
+// (сборка: verify-lyrics / repair-lyrics; карантин — openscore-quarantine.json)
+const formatted = require(path.join(ROOT, 'planning/catalog/sources/texts-published.json'));
 
 const byD = {};
 catalog.forEach(r => { byD[r.d] = r; });
