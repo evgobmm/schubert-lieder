@@ -2551,5 +2551,426 @@
     "und von... [ОБРЫВ — недостаточно OCR-данных для продолжения]"
    ]
   ]
+ },
+ {
+  "d": "285",
+  "issues": [
+   "Текст выглядит фрагментарным/сокращённым по сравнению с известной одой Клопштока «Furcht der Geliebten»: всего одно предложение из 6 строк, тогда как оригинал длиннее (несколько строф с обращениями к Cidli). Возможен пропуск строф/строк.",
+   "Антецедент местоимения «ihn» в «ihn umschattend decket» грамматически неоднозначен: ближайшее существительное мужского рода — «der Weg», но по смыслу (ночь скрывает нечто над водой) вероятно имеется в виду «der Strom», упомянутый только в следующей части предложения — тоже указывает на возможный пропуск текста между строками.",
+   "Два глагола первого лица подряд без союза — «gleit' ich, ... decket; über den Strom ... schlummr' ich sicher» — образуют стилистически подозрительный скачок (два независимых главных предложения впритык через точку с запятой), что нетипично для гладкой оды Клопштока и может указывать на утерянный связующий материал.",
+   "Рекомендуется сверить с каноническим источником текста Клопштока (например, historisch-kritische Ausgabe) для проверки полноты и порядка строк, так как совпадающая по конвейеру «сначала факт» проверка требует верифицированного файла-источника."
+  ],
+  "stanzas": [
+   [
+    "Cidli, du weinest, und ich schlummre sicher,",
+    "wo im Sande der Weg verzogen fortschleicht,",
+    "wo er sich endet, wo ein Strom das Meer wird,",
+    "gleit' ich, auch wenn stille Nacht ihn umschattend decket;",
+    "über den Strom, der sanfter aufschwillt, schlummr' ich sicher,",
+    "denn der mich begleitet, der Gott gebot's ihm: weine nicht, Cidli!"
+   ]
+  ]
+ },
+ {
+  "d": "286",
+  "issues": [
+   "Текст содержит явные пропуски, помеченные многоточием в квадратных скобках (\"[...]ber in dunkler Nacht...\" и \"[...]schwebst in täuschender dunkler Nacht...\") — это не историческая орфография и не повтор Шуберта, а буквально утраченные/необработанные фрагменты OCR. Строки в этих местах начинаются с оборванного слова без заглавной буквы и без ясного смысла (\"...ber in dunkler Nacht ersteigst du Felsen\" — не хватает начала слова/фразы, вероятно 'Aber' или похожее; аналогично во второй строфе), что означает текст неполон и не готов к публикации.",
+   "Из-за пропусков нарушается грамматическая и смысловая связность строф: первая содержит структуру 'Weine du nicht... [...]ber in dunkler Nacht ersteigst du Felsen, dass ein trauriger Tag von dir mich scheidet' — подчинительная связка 'dass' повисает без ясного главного предложения из-за утраченного фрагмента.",
+   "Нужно свериться с полным источником (например, известной публикацией текста Клопштока/автографа Шуберта D 286) и восполнить утраченные слова перед добавлением в базу — иначе текст песни будет опубликован в заведомо неполном виде."
+  ],
+  "stanzas": [
+   [
+    "Weine du nicht, die ich innig liebe,",
+    "[...]ber in dunkler Nacht ersteigst du Felsen,",
+    "dass ein trauriger Tag von dir mich scheidet."
+   ],
+   [
+    "Wenn nun wieder Hesperus dir dort lächelt,",
+    "komm ich glücklicher wieder."
+   ],
+   [
+    "[...]schwebst in täuschender dunkler Nacht auf Wassern,",
+    "theilt ich nun mit dir die Gefahr zu sterben,",
+    "würd ich glückliche weinen."
+   ]
+  ]
+ },
+ {
+  "d": "302",
+  "error": "not in OCR (5.1%): umgeschwebt, warmem, sprachlos, melodien"
+ },
+ {
+  "d": "303",
+  "issues": [
+   "Вторая строфа: строка 'Nun ich sie im Kuss empfange' и её повтор 'Nun ich sie so im Kuss empfange' различаются — в повторе появляется слово 'so', отсутствующее в первом вхождении. В известном тексте Штоля здесь читается 'Nun ich sie süß im Kuss empfange' (в обоих случаях одинаково). Похоже на пропуск слова при OCR в первом вхождении и искажение (süß→so) в повторе — надо сверить с факсимиле нот."
+  ],
+  "stanzas": [
+   [
+    "O dass ich dir vom stillen Auge",
+    "In seinem liebevollen Schein",
+    "Die Thräne von der Wange sauge,",
+    "Eh sie die Erde trinket ein!",
+    "Die Thräne von der Wange sauge,",
+    "Eh sie die Erde trinket ein!"
+   ],
+   [
+    "Wohl hält sie zögernd auf der Wange,",
+    "Und will sich heiss der Treue weihn,",
+    "Nun ich sie im Kuss empfange,",
+    "Nun sind auch deine Schmerzen mein!",
+    "Nun ich sie so im Kuss empfange,",
+    "Nun sind auch deine Schmerzen mein!"
+   ]
+  ]
+ },
+ {
+  "d": "306",
+  "error": "not in OCR (5.3%): zerfliesst, mädchenlippen, doch"
+ },
+ {
+  "d": "308",
+  "issues": [
+   "Строки перепутаны/склеены неверно. По AGA/Naxos изданию (Kalchberg/Schubert D308) текст состоит из двух четверостиший: 1) «Überall wohin mein Auge blicket, / Herrschet Liebe, find' ich ihre Spur; / Jedem Strauch und Blümchen auf der Flur / Hat sie tief ihr Siegel eingedrücket.» 2) «Sie erfüllt, durchglüht, verjüngt und schmücket / Alles Lebende in der Natur; / Erd' und Himmel, jede Kreatur, / Leben nur durch sie, von ihr beglücket.» В проверяемом тексте строка «Herrschet Liebe; ... find' ich ihre Spur» разорвана надвое и внутрь вставлены строки из второй строфы («Sie erfüllt, durchglüht, verjüngt und schmücket / Alles Leben.»), из-за чего первая строфа искажена.",
+   "Вторая строфа тоже искажена: вместо «Erd' und Himmel, jede Kreatur, / Leben nur durch sie, von ihr beglücket» дан гибрид «Erd' und Himmel, jede Creatur / Leben nur durch's Siegel eingedrücket, Sie von ihr beglücket» — ошибочно повторено «Siegel eingedrücket» из первой строфы вместо «Leben nur durch sie»."
+  ],
+  "stanzas": [
+   [
+    "Überall, wohin mein Auge blicket,",
+    "Herrschet Liebe;",
+    "Sie erfüllt, durchglüht, verjüngt und schmücket",
+    "Alles Leben."
+   ],
+   [
+    "Find' ich ihre Spur:",
+    "Jedem Strauch und Blümchen auf der Flur",
+    "Hat sie tief ihr Siegel eingedrücket;",
+    "Erd' und Himmel, jede Creatur",
+    "Leben nur durch's Siegel eingedrücket,",
+    "Sie von ihr beglücket."
+   ]
+  ]
+ },
+ {
+  "d": "315",
+  "issues": [
+   "Последняя строфа выглядит оборванной/повреждённой: «Könnte nimmer für dich schlagen mein fühlend Herz, / Hätt' ein Schooss uns geboren, / Hätt' uns einerlei Brust gesäugt, / An mein schlagendes Bruderherz!» — грамматически незавершённое условное предложение (könnte... hätt'... hätt'...) без ожидаемого следствия, и заканчивается повторением рефрена из предыдущей строфы вместо самостоятельного завершения. Похоже на пропуск строк при копировании текста; стоит сверить с оригиналом Косегартена / Neue Schubert-Ausgabe."
+  ],
+  "stanzas": [
+   [
+    "Warum bist du nicht hier, meine Geliebte,",
+    "Dass mich gürte dein Arm,",
+    "Dass mich dein Händedruck labe,",
+    "Dass du mich pressest an dein schlagendes Schwesterherz,",
+    "An dein schlagendes Schwesterherz!"
+   ],
+   [
+    "Rosa, bist du mir hold, Rosa, so hold wie ich?",
+    "Matte labet der Quell, Müde der Abendstern,",
+    "War dir keiner und wird keiner dir wieder sein,",
+    "Irre Wandrer der Mond, Kranke das Morgenroth,",
+    "Von den Söhnen der Erde.",
+    "Mich erlabet, Geliebte,",
+    "Von den Söhnen Elysiums",
+    "Dein Umfangen am kräftigsten,",
+    "Wärmer, Rosa, fürwahr, wärmer und zärtlicher."
+   ],
+   [
+    "Warum bist du nicht hier, meine Vertrauteste,",
+    "Dass dich gürte mein Arm,",
+    "Dass ich dir süssen Gruss lispl',",
+    "Und feurig dich drücke an mein schlagendes Bruderherz,",
+    "An mein schlagendes Bruderherz!"
+   ],
+   [
+    "Könnte nimmer für dich schlagen mein fühlend Herz,",
+    "Hätt' ein Schooss uns geboren,",
+    "Hätt' uns einerlei Brust gesäugt,",
+    "An mein schlagendes Bruderherz!"
+   ]
+  ]
+ },
+ {
+  "d": "316",
+  "issues": [
+   "Строфа 2 обрывается фрагментом «Mir klingt süsser der Flötenton als das Säuseln im Tannenhain. Schöpfte freieren Odem, klomm heroischer felsenan» — фраза «schöpfte freieren Odem» здесь без подлежащего и контекста, при этом дословно повторяется в строфе 3 («wenn ich an deiner Brust deiner klagenden Stimme schöpfte freieren Odem»), где она осмысленна. Похоже на артефакт дублирования/смещения текста, а не на намеренный повтор.",
+   "Строфа 3 заканчивается строкой «Ihre Urne nie blumenleer» (её урна пусть никогда не будет без цветов) — образ погребальной урны резко противоречит обращению к Розе как к живой в строфе 1 («Rosa, wärest du hier...»). Стоит проверить по авторитетному изданию (Kosegarten/Schubert), не перепутана ли строфа или не относится ли текст к другой песне цикла."
+  ],
+  "stanzas": [
+   [
+    "Rosa, denkst du an mich? Innig gedenk ich dein!",
+    "Rosa, wärest du hier, säh ich in's Abendroth",
+    "durch den grünlichen Wald schimmern, indeß die Wipfel der Tannen regt das Säuseln des Abendwindes, das Säuseln des Abendwindes,",
+    "deine Wangen getaucht säh ich vom Abendhauch,",
+    "deine Locken geringelt, edle Seele, mir wäre wohl, edle Seele mir wäre wohl!"
+   ],
+   [
+    "Lieber lehn ich an dir als an der Einsamkeit trautem Busen;",
+    "jedes leisere Weh, jedes verschwieg'ne Ach, das den Busen mir presst, haucht ich dir öfter aus,",
+    "Mir klingt süsser der Flötenton",
+    "als das Säuseln im Tannenhain. Schöpfte freieren Odem, klomm heroischer felsenan."
+   ],
+   [
+    "Oft umfingest du mich, meine Holdselige, mit vertraulichem Arm,",
+    "wenn ich an deiner Brust deiner klagenden Stimme schöpfte freieren Odem.",
+    "Nie soll darum ein Freund meiner Holdseligen, Rosa, mangeln,",
+    "und nie Milderung ihrem Gram, melancholischen Frieden, nie sei trostlos ihr Leiden.",
+    "Ihre Urne nie blumenleer."
+   ]
+  ]
+ },
+ {
+  "d": "319",
+  "issues": [
+   "Строфа «Luisa liebt nur Einen, / Nur Einen kann sie meinen, / Nur Einen nie vergessen,» обрывается на 3 строках (все прочие строфы состоят из 7–8 строк с рифмовкой и завершением на «...Nimmer / Vergisst Luisa dich» либо аналогичным). Сразу после неё без всякой связи идёт «Wie könnt ich dein vergessen, / Die Töne je verlernen, / Worin bis zu den Sternen ...» — похоже, что часть строфы (продолжение с рифмой на «meinen/vergessen» и её завершение) пропущена или строфы слиты при копировании; смысловой разрыв между 3-й и 4-й строкой явный дефект, а не архаика/повтор."
+  ],
+  "stanzas": [
+   [
+    "Wohl weinen Gottes Engel,",
+    "wenn Liebende sich trennen,",
+    "wie werd ich leben!",
+    "Wie könnt ich dein vergessen?",
+    "Wohin ich, Freund, mich wende,",
+    "wohin den Blick nur sende,",
+    "umstrahlt dein Bildniss mich;",
+    "Gestorben allen Freuden",
+    "leb ich fortan, den Leiden;",
+    "mit trunkenem Entzücken",
+    "seh ich es auf mich blicken.",
+    "Nein, nimmer, Wilhelm, nimmer vergisst Luisa dich,",
+    "und nimmer, Wilhelm, nimmer vergisst Luisa dich,",
+    "nein, nimmer, Wilhelm, nimmer vergisst Luisa dich."
+   ],
+   [
+    "Wie könnt ich dein vergessen,",
+    "Wie könnt ich dein vergessen,",
+    "Ich kann dich nicht vergessen,",
+    "Geröthet von Verlangen,",
+    "Wie flammten deine Wangen",
+    "Von Inbrunst heiss um mich",
+    "Im Wiederschein der Deinen",
+    "Wie leuchteten die Meinen",
+    "Nein, nimmer, Wilhelm, nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Vergessen jeder Fragen,",
+    "Die du in schönern Tagen",
+    "Ohn Ende fragtest: Sprich,",
+    "Luisa, bist du meine?",
+    "Ja, Trauter, ja, die Deine!",
+    "Bin ich auf ewig. Nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Des Nachts auf meinem Bette",
+    "Gemahnt mich's oft, als hätte",
+    "Dein Arm umschlungen mich,",
+    "Des Pendels Schwingung weckt mich,",
+    "Das Horn des Wächters schreckt mich,",
+    "Allein bin ich im Dunkel",
+    "Und weine still um dich."
+   ],
+   [
+    "Wie könnt ich dein vergessen,",
+    "Wie könnt ich dein vergessen,",
+    "Ich kann dich nicht vergessen,",
+    "Vergessen wie die Blöde",
+    "In Blick und Nick und Rede",
+    "Die Liebe süss beschlich,"
+   ],
+   [
+    "Vergessen jeder Schauer",
+    "Von Seligkeit und Trauer,",
+    "Die allgewaltig mich",
+    "Dein zartes Liebesflehen",
+    "Mein stammelndes Gestehen",
+    "Sollt ich vergessen. Nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Nicht fremde Huldigungen",
+    "Nicht Sclavenanbetungen",
+    "O Freund, verdrängen dich.",
+    "An deiner Brust durchzückten,",
+    "Aus deinem Arm entrückten,",
+    "Zu höhern Sphären. Nimmer",
+    "Vergessen nimmer dich."
+   ],
+   [
+    "Luisa liebt nur Einen,",
+    "Nur Einen kann sie meinen,",
+    "Nur Einen nie vergessen,"
+   ],
+   [
+    "Wie könnt ich dein vergessen,",
+    "Die Töne je verlernen,",
+    "Worin bis zu den Sternen",
+    "Du mich erhobest mich,",
+    "Ach unauslöschlich klingen",
+    "Sie mir in Ohren singen,",
+    "Sie mir im Herzen. Nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Wie könnt ich dein vergessen,",
+    "Vergessen jeder Qualen",
+    "Womit aus goldnen Schalen",
+    "Die Liebe tränkte mich,",
+    "Was ich um dich gelitten,",
+    "Was ich um dich gestritten,",
+    "Sollt ich vergessen. Nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Luisa liebt nur Einen,",
+    "Verschmäht des Stutzers Schmeicheln,",
+    "Verhöhnt sein süsslich Heucheln,",
+    "Gedenkt, o Wilhelm, dein,",
+    "Denkt deines Geistes Adel,",
+    "Dein Lieben sonder Tadel,",
+    "Dein Herz so treu, so bieder,",
+    "Und brennt für dich allein."
+   ],
+   [
+    "Wie könnt ich dein vergessen,",
+    "Vergessen deiner Briefe",
+    "Voll zarter treuer Liebe",
+    "Voll herben Grams um mich,",
+    "Ich will sie sorgsam wahren,",
+    "Für meinen Sarg sie sparen,",
+    "Geliebter, nimmer, nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Ich kann dich nicht vergessen,",
+    "Auf jedem meiner Tritte",
+    "In meiner Lieben Mitte",
+    "Umschwebt dein Bildniss mich,",
+    "Auf meiner Leinwand schimmert's,",
+    "An meinem Vorhang flimmert's,",
+    "Geliebter, nimmer, nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Für dich nur mag ich brennen,",
+    "Für dich, für dich nur fühlen,",
+    "Dies Feuer in mir kühlen,",
+    "Mag Zeit, mag Ferne nicht",
+    "Von dir, von dir mich scheiden,",
+    "Mag Freude nicht, nicht Leiden",
+    "Mag nicht die Hand des Todes",
+    "Selbst dein Vergessen nicht."
+   ],
+   [
+    "Wie könnt ich dein vergessen,",
+    "Vergessen jener Stunden",
+    "Wo ich von dir umwunden,",
+    "Umflechtend innigst dich,",
+    "An deine Brust mich lehnte,",
+    "Ganz dein zu sein mich sehnte,",
+    "Geliebter, nimmer, nimmer",
+    "Vergisst Luisa dich."
+   ],
+   [
+    "Ich kann dich nicht vergessen,",
+    "Mit jedem goldnen Morgen",
+    "Erwacht mein zärtlich Sorgen,",
+    "Mein Seufzen, ach, um dich,",
+    "Wo weilst du itzt, du Einer?",
+    "Was denkst du itzt, du Meiner?",
+    "Denkst du auch an Luisen?",
+    "Luisa denkt an dich."
+   ],
+   [
+    "Selbst wenn du falsch und treulos",
+    "An fremde Brust dich schmiegtest,",
+    "In fremdem Arm dich wiegtest,",
+    "Vergessend Schwur und Pflicht,",
+    "In fremden Flammen brenntest,",
+    "Luisen gar verkenntest,",
+    "Luisen gar vergässest,",
+    "Ich, ach, vergäss dich nicht."
+   ],
+   [
+    "Verachtet und vergessen,",
+    "Verloren und verlassen,",
+    "Könnt ich dich doch nicht hassen,",
+    "Still grämen würd ich mich,",
+    "Bis Tod sich mein erbarmte,",
+    "Das Grab mich kühl umarmte,",
+    "Doch auch im Grab, im Himmel,",
+    "O Wilhelm, liebt ich dich."
+   ],
+   [
+    "In mildem Engelglanze",
+    "Würd ich dein Bett umschimmern",
+    "Und zärtlich dich umwimmern,",
+    "Ich bin Luisa, ich!",
+    "Luisa kann nicht hassen,",
+    "Luisa dich nicht lassen,",
+    "Luisa kommt zu segnen,",
+    "Und liebt auch droben dich."
+   ]
+  ]
+ },
+ {
+  "d": "329",
+  "issues": [
+   "Текст обрывается на полуслове: последняя строфа заканчивается \"schaut jedes Antlitz ...\" — предложение не закончено, отсутствует остаток строфы (и, вероятно, финал песни). Это похоже на техническое усечение текста, а не на художественный обрыв."
+  ],
+  "stanzas": [
+   [
+    "Der König sass beim frohen Mahle,",
+    "die Frau'n und Ritter um ihn her,",
+    "es kreisten fröhlich die Pokale",
+    "und manches Becken trank man leer."
+   ],
+   [
+    "Da tönte Klang von goldnen Saiten,",
+    "der süsser labt als goldner Wein,",
+    "und sieh, drei fremde Sänger schreiten",
+    "sich neigend in den Saal hinein."
+   ],
+   [
+    "Seid mir gegrüsst, ihr Liedersöhne,",
+    "beginnt der König wohlgemuth,",
+    "in deren Brust das Reich der Töne",
+    "und des Gesangs Geheimniss ruht.",
+    "Wollt ihr den edlen Wettstreit wagen,",
+    "so soll es höchlich uns erfreu'n,",
+    "und wer den Sieg davon getragen,",
+    "mag unsres Hofes Zierde sein."
+   ],
+   [
+    "Er sprichts. Der erste rührt die Saiten,",
+    "die Vorwelt öffnet er dem Blick,",
+    "zum grauen Anfang aller Zeiten",
+    "lenkt er der Hörer Blick zurück.",
+    "Er meldet, wie sich neu geboren",
+    "die Welt dem Chaos einst entwand;",
+    "sein Lied behagt den meisten Ohren,",
+    "und willig folgt ihm der Verstand."
+   ],
+   [
+    "Drauf, mehr die Hörer zu ergetzen,",
+    "erklingt des zweiten lust'ge Mähr",
+    "von Gnomen fein und ihren Schätzen",
+    "und von der grünen Zwerge Heer;",
+    "er singt von manchen Wunderdingen,",
+    "von manchem Schwanke schlau erdacht,",
+    "da regt der Scherz die losen Schwingen,",
+    "und jeder Mund im Saale lacht.",
+    "Da regt der Scherz die losen Schwingen,",
+    "und jeder Mund im Saale lacht."
+   ],
+   [
+    "Und an den dritten kommt die Reih'.",
+    "Und sanft aus tief bewegter Brust",
+    "haucht er ein Lied von Lieb' und Treu'",
+    "und von der Sehnsucht Schmerz und Lust.",
+    "Und kaum dass seine Saiten klingen,",
+    "schaut jedes Antlitz ..."
+   ]
+  ]
  }
 ]
