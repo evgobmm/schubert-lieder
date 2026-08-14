@@ -8,6 +8,7 @@ import PrintMenu from './components/PrintMenu.vue'
 import FeedbackMenu from './components/FeedbackMenu.vue'
 import songsIndex from './data/index.json'
 import sectionsIndex from './data/sections.json'
+import { searchSongs } from './utils/searchIndex.js'
 
 // Выключатель собственных заходов (задел под статистику): ?stats=off / ?stats=on
 const statsParam = new URLSearchParams(window.location.search).get('stats')
@@ -48,6 +49,21 @@ function quickScrollPlayer() {
 // Каноническая форма ссылки — по номеру Дойча: ?song=d118, ?song=d795.1
 // (слэш в D-номере кодируется точкой); старые числовые ?song=N тоже принимаются.
 const defaultSongNumber = (songsIndex.find(s => s.d === '118') || songsIndex[0]).number
+
+// Мобильный поиск (движок общий с сайдбаром)
+const mobSearch = ref('')
+const mobResult = ref({ mode: null, hits: [] })
+let mobTimer = null
+watch(mobSearch, (q) => {
+  clearTimeout(mobTimer)
+  mobTimer = setTimeout(() => { mobResult.value = searchSongs(songsIndex, q) }, 300)
+})
+const mobSearching = computed(() => mobSearch.value.trim().length >= 2)
+function mobGoTo(hit) {
+  currentSongNumber.value = hit.song.number
+  mobSearch.value = ''
+  mobResult.value = { mode: null, hits: [] }
+}
 
 function parseSongParam(v) {
   if (!v) return null
@@ -155,6 +171,34 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
           aria-label="Следующая песня"
           @click="stepSong(1)"
         >›</button>
+      </div>
+      <div class="mob-search">
+        <svg class="mob-search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <line x1="16.5" y1="16.5" x2="21" y2="21" />
+        </svg>
+        <input
+          v-model="mobSearch"
+          class="mob-search-input"
+          type="search"
+          placeholder="Поиск"
+          aria-label="Поиск по песням"
+        />
+        <div v-if="mobSearching" class="mob-search-results">
+          <p v-if="!mobResult.hits.length" class="mob-search-note">Ничего не найдено</p>
+          <p v-else-if="mobResult.mode === 'text'" class="mob-search-note">В названиях нет — найдено в тексте песен:</p>
+          <button
+            v-for="hit in mobResult.hits"
+            :key="hit.song.number"
+            class="mob-search-hit"
+            :disabled="!hit.song.file"
+            @click="mobGoTo(hit)"
+          >
+            <span class="mob-hit-title">{{ hit.song.title_de }}<template v-if="hit.song.title_ru"> — {{ hit.song.title_ru }}</template></span>
+            <span v-if="hit.line" class="mob-hit-line">{{ hit.line }}</span>
+            <span v-else-if="!hit.song.file" class="mob-hit-line">страница готовится</span>
+          </button>
+        </div>
       </div>
       <div class="mobile-controls">
         <label class="mob-check">

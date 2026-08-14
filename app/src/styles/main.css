@@ -543,6 +543,82 @@ body {
     border-radius: 6px;
   }
 
+  /* Мобильный поиск */
+  .mob-search {
+    position: relative;
+    margin-top: 8px;
+  }
+
+  .mob-search-icon {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    color: var(--text-secondary);
+    pointer-events: none;
+  }
+
+  .mob-search-input {
+    width: 100%;
+    padding: 8px 10px 8px 30px;
+    font-size: 16px; /* не меньше 16px — иначе iOS зумит при фокусе */
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .mob-search-results {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 60;
+    max-height: 55vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .mob-search-note {
+    padding: 8px 12px 4px;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+  }
+
+  .mob-search-hit {
+    display: block;
+    width: 100%;
+    padding: 9px 12px;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    background: none;
+    text-align: left;
+    color: var(--text);
+    font-size: 0.92rem;
+    cursor: pointer;
+  }
+
+  .mob-search-hit:disabled {
+    opacity: 0.45;
+    cursor: default;
+  }
+
+  .mob-hit-title {
+    display: block;
+  }
+
+  .mob-hit-line {
+    display: block;
+    margin-top: 1px;
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--text-secondary);
+  }
+
   .mobile-controls {
     display: flex;
     align-items: center;
