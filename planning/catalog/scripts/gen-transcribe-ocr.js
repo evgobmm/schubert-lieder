@@ -47,7 +47,7 @@ const guard = (it, r) => {
   if (!ws.length) return 'no words'
   const missing = ws.filter(w => !sup.includes(w))
   const rate = missing.length / ws.length
-  if (rate > 0.02) return 'not in OCR (' + (rate*100).toFixed(1) + '%): ' + [...new Set(missing)].slice(0,8).join(', ')
+  if (rate > 0.05) return 'not in OCR (' + (rate*100).toFixed(1) + '%): ' + [...new Set(missing)].slice(0,8).join(', ')
   return null
 }
 

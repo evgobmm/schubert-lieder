@@ -1824,5 +1824,516 @@
     "Süsser Friede, komm, ach komm in meine Brust!"
    ]
   ]
+ },
+ {
+  "d": "50",
+  "error": "not in OCR (3.4%): unvergressliche, buche, zerschmettert"
+ },
+ {
+  "d": "52",
+  "error": "not in OCR (3.5%): diesen, beglückt, ewig, harmonien, töne, dazwischen"
+ },
+ {
+  "d": "73",
+  "error": "not in OCR (2.6%): geliebt, verbunden, wiederfinden, kindischem"
+ },
+ {
+  "d": "83",
+  "issues": [
+   "Предоставленный текст обрывается после первой строки («...und...») — переданы не все строфы песни, проверить полноту, порядок строф и осмысленность по такому фрагменту невозможно. Нужно прислать полный текст (все строфы, собранные из OCR) для проверки."
+  ],
+  "stanzas": [
+   [
+    "Des Phöbus Strahlen sind dem Aug entschwunden,",
+    "hinweg vom Horizont, hinweg vom Horizont, und..."
+   ]
+  ]
+ },
+ {
+  "d": "93/2",
+  "issues": [
+   "Строфа «Bin ein Mohrenkönig, glühend / In der Liebe Gluthen, gross an / Macht und reich an Schätzen, / Sonder Gleich an tapfrem Muth.» разбита на строки не по смыслу и не соответствует метру остальных строф (везде чёткие законченные 4-строчные катрены с ясным синтаксисом на конец строки, здесь перенос «gross an» посреди фразы и рассинхронизация — похоже на ошибку транскрипции/переноса строк, надо сверить с оригиналом Фуке/партитурой).",
+   "В последней строке «Losch das Wort ihr aus im Munde... Ohnmacht.» слово «Ohnmacht» присоединено через многоточие прямо к строке текста, что выглядит как ремарка (обморок), а не часть стихотворной строки — нужно проверить, действительно ли это часть текста песни или ремарка, ошибочно слитая со строкой."
+  ],
+  "stanzas": [
+   [
+    "Nächtens klang die süsse Laute,",
+    "Wo sie oft zu Nacht geklungen,",
+    "Nächtens sang der schöne Sänger,",
+    "Wo er oft zu Nacht gesungen."
+   ],
+   [
+    "Und das Fenster klirrte wieder,",
+    "Donna Clara schaut herunter,",
+    "Aber furchtsam ihre Blicke",
+    "Schweifend durch das thau'ge Dunkel."
+   ],
+   [
+    "Und statt süsser Minnelieder,",
+    "Statt der Schmeichelworte Kunde,",
+    "Hub sie an ein streng Beschwören:",
+    "Sag, wer bist du, finstrer Buhle?"
+   ],
+   [
+    "Sag, bei dein' und meiner Liebe,",
+    "Sag, bei deiner Seele Ruhe:",
+    "Bist ein Christ du, bist ein Spanier,",
+    "Stehst du in der Kirche Bunde?"
+   ],
+   [
+    "Herrin, hoch hast du beschworen,",
+    "Herrin, ja, du sollst's erkunden:",
+    "Herrin, ach! ich bin kein Spanier,",
+    "Nicht in deiner Kirche Bunde."
+   ],
+   [
+    "Bin ein Mohrenkönig, glühend",
+    "In der Liebe Gluthen, gross an",
+    "Macht und reich an Schätzen,",
+    "Sonder Gleich an tapfrem Muth."
+   ],
+   [
+    "Röthlich blühn Granada's Gärten,",
+    "Golden stehn Alhambra's Burgen,",
+    "Mohren harren ihrer Königin,",
+    "Fleuch mit mir durch's thau'ge Dunkel!"
+   ],
+   [
+    "Fort, du falscher Seelenräuber!",
+    "Fort, du Feind! Sie wollte's rufen,",
+    "Doch bevor sie Feind gesprochen,",
+    "Losch das Wort ihr aus im Munde... Ohnmacht."
+   ]
+  ]
+ },
+ {
+  "d": "93/3",
+  "error": "not in OCR (2.9%): morgenhimmel, mohrenkönig, aufgelöst, unwandelbar"
+ },
+ {
+  "d": "97",
+  "error": "not in OCR (2.5%): triumphgesange, gefährten"
+ },
+ {
+  "d": "98",
+  "error": "not in OCR (4.3%): abendgluth, entzücken, wiesenplan, purpurschimmer, maylied, uferhain"
+ },
+ {
+  "d": "100",
+  "error": "not in OCR (5.8%): dämmerung, abendgolde, freunde, bebend, abendhauch, wiedersehn, säuselt"
+ },
+ {
+  "d": "101",
+  "issues": [
+   "Строфа 1, строка 2: «der bendnebel schwillt» — явный OCR-дефект, отсутствует начальная буква слова (ожидается «Abendnebel», с заглавной буквы как существительное); в текущем виде строка бессмысленна.",
+   "Строфа 2, строка 3: «wo meines Jugendlieblings sche» — слово обрублено/испорчено OCR («sche» не является немецким словом ни в исторической, ни в современной орфографии), из-за чего строка не образует законченного смысла и синтаксически не вяжется с следующей строкой «unter den trauernden Weiden schlummert» (не хватает существительного или причастия перед ним, скорее всего форма Genitiv на месте пропавшего слова).",
+   "Строфа 3, строка 1: «Ihm Thränen, fern werd ich beim Blätterfall» — синтаксис нарушен (порядок слов и пунктуация не складываются в осмысленное предложение на немецком), похоже на ошибку OCR/пропуск слова, требует сверки с оригиналом Маттиссона."
+  ],
+  "stanzas": [
+   [
+    "Kein Rosenschimmer leuchtet dem Tag zur Ruh,",
+    "der bendnebel schwillt am Gestad empor.",
+    "Wo durch verdorrte Felsengräser",
+    "sterbender Lüfte Gesäusel wandelt,",
+    "wo durch verdorrte Felsengräser",
+    "sterbender Lüfte Gesäusel wandelt."
+   ],
+   [
+    "Nicht schwermutsvoller bebte des Herbstes Wehn",
+    "durchs todte Gras am sinkenden Rasenmahl,",
+    "wo meines Jugendlieblings sche",
+    "unter den trauernden Weiden schlummert."
+   ],
+   [
+    "Ihm Thränen, fern werd ich beim Blätterfall,",
+    "ihm, wenn das Mailaub wieder den Hain umrauscht,",
+    "bis mir vom schönern Stern die Erde",
+    "freundlich im Reigen der Welten schimmert,",
+    "bis mir vom schönern Stern die Erde",
+    "freundlich im Reigen der Welten schimmert,",
+    "freundlich im Reigen der Welten schimmert."
+   ]
+  ]
+ },
+ {
+  "d": "104",
+  "issues": [
+   "Строка «der Wiedererwecker der tamitpferen Preussen» содержит бессмысленное слово «tamitpferen» — явная ошибка OCR, не существующее немецкое слово. Вероятный правильный вариант: «der tapfern Preussen» (храбрых пруссаков) — «tapfern» могло быть искажено OCR в «tamitpferen». Требуется сверка с оригиналом нот."
+  ],
+  "stanzas": [
+   [
+    "Sie sind in Paris,",
+    "die Helden Europas, Befreier,",
+    "der Vater von Ostreich,",
+    "der Herrscher der Reussen,",
+    "der Wiedererwecker der tamitpferen Preussen.",
+    "Das Glück ihrer Völker, es war ihnen theuer,",
+    "sie sind in Paris, sie sind in Paris.",
+    "Nun ist uns der Friede gewiss,",
+    "nun ist uns der Friede gewiss."
+   ]
+  ]
+ },
+ {
+  "d": "107",
+  "error": "not in OCR (5.0%): gestalt, vorüberwallt, verheisst, cytisus, kämmerlein, ewig"
+ },
+ {
+  "d": "108",
+  "error": "not in OCR (4.5%): abendlied, ocr, zauberspiegel, rosensträuche"
+ },
+ {
+  "d": "109",
+  "issues": [
+   "Строфа 2: «zu einem lysischen Schatten hervor» — «lysischen» бессмысленно; явная OCR-ошибка, пропущена буква «E»: должно быть «elysischen» (elysisch = элизийский, ср. упоминание Олимпа/богов далее в тексте). Требует сверки с оригиналом нот и исправления."
+  ],
+  "stanzas": [
+   [
+    "Durch Fichten am Hügel, durch Rosengesträuche, den Erlen am Bach,",
+    "folgt immer dein Bildniss, du Traute, mir nach.",
+    "Es schwebt aus der Berge purpurtem Flor gleich, im freundlichen Schimmer des Mondes mir zu,",
+    "aus des Gartens entwallendem Glanze der Frühe die holde Gestalt,",
+    "sie lächelt bald Liebe, es lächelt bald Ruh, zu einem lysischen Schatten hervor."
+   ],
+   [
+    "Oft hab ich im Traume als schönste der Feen auf goldenem Throne dich strahlen gesehn,",
+    "Mir hallt aus den Tiefen, mir hallt von den Höhn dein himmlischer Name wie Sphärengetön.",
+    "Oft hab ich zum hohen Olympus entzückt als Hebe dich unter den Göttern erblickt,",
+    "Ich wähne den Hauch, der die Blüthen umwebt, von deiner melodischen Stimme durchbebt."
+   ],
+   [
+    "In heiliger Mitternachtsstunde durchkreist des Athers Gefilde mein ahnender Geist,",
+    "Geliebte, dort winkt uns ein Land, wo der Freund auf ewig der Freundin sich wieder vereint."
+   ],
+   [
+    "Die Freude, sie schwindet, es dauert kein Leid, die Jahre verrauschen im Strome der Zeit,",
+    "die Sonne wird sterben, die Erde vergehn, doch Liebe muss ewig und ewig bestehn."
+   ]
+  ]
+ },
+ {
+  "d": "114",
+  "issues": [
+   "Строфа перед пометкой 'Recit.' повреждена/неполна: 'Doch noch ihr Herz die Macht der süssen Minne empfand, er, und von...' — не является связной строкой стиха (лишний 'er, und von...' обрывается на полуслове), явно дефект OCR или пропуск текста, требует сверки с оригиналом издания текста Маттиссона/партитуры Шуберта."
+  ],
+  "stanzas": [
+   [
+    "Ein Fräulein klagt im finstern Thurm,",
+    "am Seegestad erbaut;",
+    "es rauscht und heult Wog' und Sturm",
+    "in ihres Jammers Laut."
+   ],
+   [
+    "Rosalia von Montanvert",
+    "hiess manchem Troubadour",
+    "und einem ganzen Terheer",
+    "die Krone der Natur."
+   ],
+   [
+    "Doch noch ihr Herz die Macht der süssen Minne empfand,",
+    "er, und von..."
+   ],
+   [
+    "Recit.",
+    "lag der Vater in der Schlacht am Sarazenenstrand,",
+    "der Ohm, ein Ritter Manfry, ward",
+    "zum Schirmvogt ihr bestellt,",
+    "dem lacht's in's Herz wie Felsen hart",
+    "des Fräuleins Gut und Geld."
+   ],
+   [
+    "Bald überall im Lande ging",
+    "die Trauerkund umher:",
+    "des Todes kalte Nacht umfing",
+    "die Rose Montanvert."
+   ],
+   [
+    "Ein schwarzes Todtenfähnlein wallt",
+    "hoch auf des Fräuleins Burg,",
+    "die dumpfe Leichenglocke schallt",
+    "drei Tag und Nächt hindurch."
+   ],
+   [
+    "Auf ewig hin, auf ewig todt,",
+    "o Rose Montanvert!",
+    "Nun milderst du der Wittwe Noth,",
+    "der Waise Schmerz nicht mehr."
+   ],
+   [
+    "So klagt einmüthig Alt und Jung,",
+    "den Blick von Thränen schwer,",
+    "vom Frühroth bis zur Dämmerung,",
+    "die Rose Montanvert."
+   ],
+   [
+    "Langsam.",
+    "Der Ohm in einem Thurm sie barg,",
+    "erfüllt mit Moderduft;",
+    "drauf senkte man den leeren Sarg",
+    "wohl in der Väter Gruft."
+   ],
+   [
+    "Das Fräulein horchte still und bang",
+    "der Priester Litaney'n;",
+    "trüb in des Kerkers Gitter drang",
+    "der Fackeln rother Schein."
+   ],
+   [
+    "Sie ahnte schaudernd ihr Geschick,",
+    "ihr ward so dumpf, ihr ward so schwer;",
+    "in Todesnacht erstarb ihr Blick,",
+    "sie sank und war nicht mehr."
+   ],
+   [
+    "Des Thurms Ruinen an der See",
+    "sind heute noch zu schau'n;",
+    "den Wandrer fasst in ihrer Näh",
+    "ein wundersames Graun."
+   ],
+   [
+    "Auch mancher Hirt verkündet euch,",
+    "dass er bei Nacht allda",
+    "oft einer Silberwolke gleich",
+    "das Fräulein schweben sah."
+   ]
+  ]
+ },
+ {
+  "d": "115",
+  "error": "not in OCR (4.7%): andachtsgluth, flehn, vorgefühl, übergangs, engelmelodien, begrüsst"
+ },
+ {
+  "d": "116",
+  "issues": [
+   "Строка «Und flieh'n an den Gattern des Kirchhofs vor.» обрезана — в оригинале «vorbei» («fliehn ... vorbei»); «vor.» без «bei» бессмысленно/не рифмуется с «Abtei».",
+   "Строфа «Was winseln die Hunde... / Sie wittern die Runde...» и «Die Raben entflattern... / Und flieh'n an den Gattern...» в оригинале — одна четырёхстрочная строфа, здесь разбита на две отдельные (лишний разрыв абзаца), что искажает структуру.",
+   "Финальная строка «Wir Glücklichen flüstern dir fröhlich de...» дважды обрывается на «de...» — явный обрыв OCR, слово/строка не дописаны, бессмысленный фрагмент."
+  ],
+  "stanzas": [
+   [
+    "Die bretterne Kammer der Todten erbebt,",
+    "Wenn zwölfmal den Hammer die Mitternacht hebt;",
+    "Rasch tanzen um Gräber und morsches Gebein",
+    "Wir luftigen Schweber den sausenden Reihn."
+   ],
+   [
+    "Was winseln die Hunde beim schlafenden Herrn?",
+    "Sie wittern die Runde der Geister von fern."
+   ],
+   [
+    "Die Raben entflattern der wüsten Abtei",
+    "Und flieh'n an den Gattern des Kirchhofs vor."
+   ],
+   [
+    "Wir gaukeln und scherzen hinab und empor,",
+    "Gleich irrenden Kerzen im dunstigen Moor.",
+    "Herz, dessen Zauber zur Marter uns ward,",
+    "Du ruhst nun in tauber Verdumpfung erstarrt."
+   ],
+   [
+    "Tief bargst du im düstern Gemach unser Weh,",
+    "Wir Glücklichen flüstern dir fröhlich de...",
+    "Tief bargst du im düstern Gemach unser Weh,",
+    "Wir Glücklichen flüstern dir fröhlich de..."
+   ]
+  ]
+ },
+ {
+  "d": "117",
+  "issues": [
+   "Строфа 6, строка 3: «der Gabe beste» — в стандартном тексте Шиллера/Шуберта это «der Gaben beste» (родительный падеж множественного числа, «лучший из даров»); возможна ошибка OCR (Gabe вместо Gaben)."
+  ],
+  "stanzas": [
+   [
+    "In einem Thal bei armen Hirten",
+    "erschien mit jedem jungen Jahr,",
+    "sobald die ersten Lerchen schwirrten,",
+    "ein Mädchen schön und wunderbar."
+   ],
+   [
+    "Sie war nicht in dem Thal geboren,",
+    "man wusste nicht, woher sie kam,",
+    "doch schnell war ihre Spur verloren,",
+    "sobald das Mädchen Abschied nahm."
+   ],
+   [
+    "Beseligend war ihre Nähe,",
+    "und alle Herzen wurden weit,",
+    "doch eine Würde, eine Höhe",
+    "entfernte die Vertraulichkeit."
+   ],
+   [
+    "Sie brachte Blumen mit und Früchte,",
+    "gereift auf einer andern Flur,",
+    "in einem andern Sonnenlichte,",
+    "in einer glücklichern Natur."
+   ],
+   [
+    "Und theilte jedem eine Gabe,",
+    "dem Früchte, jenem Blumen aus,",
+    "der Jüngling und der Greis am Stabe,",
+    "ein jeder ging beschenkt nach Haus."
+   ],
+   [
+    "Willkommen waren alle Gäste,",
+    "doch nahte sich ein liebend Paar,",
+    "dem reichte sie der Gabe beste,",
+    "der Blumen allerschönste dar."
+   ]
+  ]
+ },
+ {
+  "d": "121",
+  "issues": [
+   "Строфа 3, строки 1-2: «Da stehet von schönen Blumen, / Da steht die ganze Wiese so voll» — повтор «Da steht» ломает синтаксис оригинала Гёте. Канонический текст: «Da stehet von schönen Blumen / Die ganze Wiese so voll» (единое предложение: «Там стоит, полная прекрасных цветов, вся поляна»). В данном варианте два «Da steht» подряд создают бессмысленное дублирование — похоже на ошибку OCR (замена «Die» на «Da steht»).",
+   "Строфа 5, строка 3: «Sie ist fortgezogen» — в каноническом тексте Гёте «Sie aber ist fortgezogen» (частица «aber» присутствует и важна по смыслу — противопоставление радуге). Возможно, утрата слова при OCR; стоит сверить с конкретным изданием нот Шуберта."
+  ],
+  "stanzas": [
+   [
+    "Da droben auf jenem Berge,",
+    "Da steh ich tausendmal,",
+    "An meinem Stabe hingebogen,",
+    "Und schaue hinab in das Thal."
+   ],
+   [
+    "Dann folg ich der weidenden Heerde,",
+    "Mein Hündchen bewahret mir sie.",
+    "Ich bin herunter gekommen",
+    "Und weiss doch selber nicht wie."
+   ],
+   [
+    "Da stehet von schönen Blumen,",
+    "Da steht die ganze Wiese so voll,",
+    "Ich breche sie, ohne zu wissen,",
+    "Wem ich sie geben soll."
+   ],
+   [
+    "Und Regen, Sturm und Gewitter",
+    "Verpass ich unter dem Baum.",
+    "Die Thüre dort bleibet verschlossen,",
+    "Doch alles ist leider ein Traum."
+   ],
+   [
+    "Es stehet ein Regenbogen",
+    "Wohl über jenem Haus!",
+    "Sie ist fortgezogen",
+    "Und weit in das Land hinaus."
+   ],
+   [
+    "Hinaus in das Land und weiter,",
+    "Vielleicht gar über die See.",
+    "Vorüber, ihr Schafe, nur vorüber!",
+    "Dem Schäfer ist gar so weh."
+   ],
+   [
+    "Vorüber, ihr Schafe, nur vorüber!",
+    "Dem Schäfer ist gar so weh."
+   ]
+  ]
+ },
+ {
+  "d": "123",
+  "error": "not in OCR (4.1%): hinaus, verziehn, möcht, geselliger, geschehen, entlang"
+ },
+ {
+  "d": "126",
+  "error": "not in OCR (2.8%): hinüberschlief, herüber, aschenruh, flammenqualen, athem, inultum"
+ },
+ {
+  "d": "218",
+  "issues": [
+   "Строфа 3, строка 2: «so wunschreich einst auf Blumen ein» — предложение без глагола (в отличие от параллельной по конструкции строки строфы 2 «schlug wild ein tödtend Blei hinein», где глагол «schlug» есть). Похоже на пропущенное слово/повреждённый текст, а не архаичную орфографию."
+  ],
+  "stanzas": [
+   [
+    "Er fiel den Tod fürs Vaterland,",
+    "den süssen, der Befreiungsschlacht,",
+    "wir graben ihm mit treuer Hand",
+    "tief, tief den schwarzen Ruheschacht."
+   ],
+   [
+    "Da schlaf, zerhauenes Gebein,",
+    "wo Schmerzen einst gewühlt und Lust,",
+    "schlug wild ein tödtend Blei hinein",
+    "und brach den Trotz der Heldenbrust."
+   ],
+   [
+    "Da schlaf gestillt, zerriss'nes Herz,",
+    "so wunschreich einst auf Blumen ein,",
+    "die wir im veilchenvollen März",
+    "dir in die kühle Grube streun."
+   ],
+   [
+    "Ein Hügel hebt sich über dir,",
+    "den drückt kein Mal von Marmelstein,",
+    "von Rosmarin nur pflanzen wir",
+    "ein Pflänzchen auf dem Hügel ein."
+   ],
+   [
+    "Das sprosst und grünt so traurig schön,",
+    "von deinem treuen Blut gedüngt,",
+    "man sieht zu Grab ein Mädchen gehn,",
+    "das leise Minnelieder singt."
+   ],
+   [
+    "Die kennt das Grab nicht, weiss es nicht,",
+    "wie der sie still und fest geliebt,",
+    "der ihr zum Kranz, den sie sich flicht,",
+    "den Rosmarin als Brautschmuck giebt."
+   ]
+  ]
+ },
+ {
+  "d": "222",
+  "issues": [
+   "Строфа 3 текста, судя по всему, представляет собой перепутанный монтаж двух отдельных строф оригинала (3-й и 4-й). По независимым источникам (LiederNet, Oxford Song с переводом Wigmore, поисковые фрагменты) строфа 3 у Штадлера — это 'Liebchen sitzt im stillen Harme, / sieht die goldnen Sternlein ziehn; / und der Mond schaut auf die Arme / mitleidsvollen Blickes hin' (плюс, по-видимому, продолжение про 'Horch, da wehen aus den Höhen...'), а строка 'und viel tausend Blümchen steigen / freundlich aus dem Grab' herauf' относится к отдельной, следующей строфе (начинающейся именно с этих строк и заканчивающейся 'findet ihren Wilhelm wieder'). В проверяемом тексте эти строки склеены в одну строфу и идут в другом порядке (строки про Blümchen/Grab вставлены между 'sieht die goldnen Sternlein ziehn' и 'Und der Mond schaut auf die Arme'), что нарушает логику образов (упоминание цветов из могилы до того, как она вообще садится на это место) и, по всей видимости, означает потерю границы между 3-й и 4-й строфами (источник LiederNet упоминает 4 строфы у оригинала, в проверяемом тексте — фактически 3 блока). Рекомендуется сверить с оригинальной публикацией текста (Stadler, 'Lieb Minna. Romanze') и восстановить корректный порядок и разбиение строф, отдельно проверив, не потеряны ли строки на стыке."
+  ],
+  "stanzas": [
+   [
+    "Schwüler Hauch weht mir herüber,",
+    "welkt die Blum' an meiner Brust;",
+    "ach, wo weilst du, Wilhelm, Lieber",
+    "meiner Seele süsse Lust?",
+    "[e]wig Weinen, nie Erscheinen,",
+    "schläfst du wohl schon im kühlen Schoosse,",
+    "denkst auch mein noch unterm Moose?"
+   ],
+   [
+    "Minna weinet, es verflogen",
+    "mählig Wang' und Lippen Roth;",
+    "Minna eilt im Mondenflimmer,",
+    "bleich und ahnend durch die Flur.",
+    "Wilhelm war hinausgezogen",
+    "mit den Reihn zum Schlachtentod;",
+    "findet ihren Wilhelm nimmer,",
+    "findet seinen Hügel nur.",
+    "Von der Stunde keine Kunde:",
+    "schläfst wohl längst im kühlen Schoosse?",
+    "Bin bald drüben bei dir, Lieben,",
+    "sagst mir aus dem kühlen Schoosse.",
+    "Denkt dein Minna unterm Moose...",
+    "Denk' dein Minna unterm Moose..."
+   ],
+   [
+    "Liebchen sitzt im stillen Harme,",
+    "sieht die goldnen Sternlein ziehn;",
+    "und viel tausend Blümchen steigen",
+    "freundlich aus dem Grab' herauf.",
+    "Und der Mond schaut auf die Arme",
+    "mitleidsvollen Blickes hin;",
+    "Minna kennt die Liebeszeugen,",
+    "bettet sich ein Plätzchen drauf.",
+    "Horch, da wehen aus den Höhen",
+    "[a]bendlüftchen ihr herüber;",
+    "dort am Felsen harrt dein Lieber,",
+    "bin gleich drüben bei dir, Lieben,",
+    "legt sich auf die Blümchen nieder,",
+    "findet ihren Wilhelm wieder."
+   ]
+  ]
+ },
+ {
+  "d": "224",
+  "error": "not in OCR (2.0%): elend"
  }
 ]
