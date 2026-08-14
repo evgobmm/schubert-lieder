@@ -87,7 +87,7 @@ const Y = y => byYear[y] || [];
 const sections = [];
 function addSec(id, title, arr) { sections.push({ id, title, songs: arr.map(s => s.c.d), count: arr.length }); arr.forEach(s => s.c.section = id); }
 
-addSec('1810-1814', 'Начало (1810–1814)', [1810, 1811, 1812, 1813, 1814].flatMap(Y));
+addSec('1810-1814', '1810–1814', [1810, 1811, 1812, 1813, 1814].flatMap(Y));
 const p1815 = splitYear(Y(1815), 4);
 p1815.forEach((p, i) => addSec(`1815-${i + 1}`, `1815 · ${monRange(p)}`, p));
 const p1816 = splitYear(Y(1816), 3);

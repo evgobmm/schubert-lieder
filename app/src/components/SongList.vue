@@ -1,5 +1,6 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
+import { searchSongs } from '../utils/searchIndex.js'
 
 const props = defineProps({
   songs: Array,
@@ -8,6 +9,20 @@ const props = defineProps({
 })
 
 defineEmits(['select'])
+
+// Поиск: срабатывает сам с задержкой 300 мс; сначала названия, затем текст песен
+const searchInput = ref('')
+const searchResult = ref({ mode: null, hits: [] })
+let searchTimer = null
+
+watch(searchInput, (q) => {
+  clearTimeout(searchTimer)
+  searchTimer = setTimeout(() => {
+    searchResult.value = searchSongs(props.songs, q)
+  }, 300)
+})
+
+const searching = computed(() => searchInput.value.trim().length >= 2)
 
 // Песни, сгруппированные по разделам (порядок разделов — из sections.json)
 const groups = computed(() => {
@@ -36,7 +51,48 @@ function toggle(id) {
 
 <template>
   <nav class="song-list">
-    <div v-for="group in groups" :key="group.id" class="song-group">
+    <div class="search-box">
+      <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <line x1="16.5" y1="16.5" x2="21" y2="21" />
+      </svg>
+      <input
+        v-model="searchInput"
+        class="search-input"
+        type="search"
+        placeholder="Поиск"
+        aria-label="Поиск по песням"
+      />
+    </div>
+
+    <!-- Результаты поиска (вместо оглавления, пока введён запрос) -->
+    <div v-if="searching" class="search-results">
+      <p v-if="!searchResult.hits.length" class="search-empty">Ничего не найдено</p>
+      <p v-else-if="searchResult.mode === 'text'" class="search-note">В названиях нет — найдено в тексте песен:</p>
+      <ul>
+        <li
+          v-for="hit in searchResult.hits"
+          :key="hit.song.number"
+          :class="{ active: hit.song.number === current, disabled: !hit.song.file }"
+        >
+          <a
+            v-if="hit.song.file"
+            class="song-link search-hit"
+            :href="`?song=${hit.song.number}`"
+            @click.exact.prevent="$emit('select', hit.song.number)"
+          >
+            <span class="song-title">{{ hit.song.title_de }}<template v-if="hit.song.title_ru"> — {{ hit.song.title_ru }}</template></span>
+            <span v-if="hit.line" class="hit-line">{{ hit.line }}</span>
+          </a>
+          <span v-else class="song-link search-hit">
+            <span class="song-title">{{ hit.song.title_de }}</span>
+            <span class="hit-line">страница готовится</span>
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <div v-for="group in groups" v-show="!searching" :key="group.id" class="song-group">
       <button
         v-if="group.title"
         class="group-header"
@@ -76,6 +132,66 @@ function toggle(id) {
 .song-list ul {
   list-style: none;
   margin: 2px 0 8px;
+}
+
+/* Строка поиска */
+.search-box {
+  position: relative;
+  margin: 0 0 10px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-secondary);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 7px 10px 7px 32px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.search-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+/* Результаты поиска */
+.search-empty,
+.search-note {
+  padding: 4px 10px 8px;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.search-hit {
+  flex-direction: column;
+  gap: 1px;
+}
+
+.hit-line {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.search-results li.active .hit-line {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .song-group {
