@@ -1,0 +1,84 @@
+:root {
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  /* Немецкий оригинал (курсив): отдельный, более читаемый сериф */
+  --font-de: 'Bitter', 'Source Serif 4', Georgia, serif;
+
+  --bg: #faf8f5;
+  --sidebar-bg: #f0ede8;
+  --text: #2c2c2c;
+  --text-secondary: #6b6b6b;
+  --border: #d4d0c8;
+  --accent: #8b4513;
+  --accent-hover: #743a12;
+  --highlight: #fff3cd;
+  --link: #5a3a1a;
+  --de-text: #888;
+  --annotation-bg: #f5f0e8;
+  --color-lang: #2e6da4;
+  --color-meaning: #8b4513;
+  --highlight-lang: #e8f0fa;
+  --highlight-meaning: #fff3cd;
+  --snow: rgba(120, 145, 180, 0.6);
+}
+
+[data-theme="dark"] {
+  --bg: #1a1a1a;
+  --sidebar-bg: #222;
+  --text: #d4d0c8;
+  --text-secondary: #888;
+  --border: #444;
+  --accent: #c4915e;
+  --accent-hover: #a3743f;
+  --highlight: #3a3520;
+  --link: #c4915e;
+  --de-text: #777;
+  --annotation-bg: #2a2520;
+  --color-lang: #6aaddf;
+  --color-meaning: #c4915e;
+  --highlight-lang: #1a2a3a;
+  --highlight-meaning: #3a3520;
+  --snow: rgba(255, 255, 255, 0.8);
+}
+
+/* Режим «Зима» — холодная палитра поверх светлой базы */
+[data-season="winter"] {
+  --bg: #e3edf8;
+  --sidebar-bg: #d3e1f0;
+  --text: #243340;
+  --text-secondary: #5a7082;
+  --border: #bfd1e1;
+  --highlight: #cfe3f6;
+  --de-text: #6d8597;
+  --annotation-bg: #dbe8f4;
+  --snow: rgba(130, 158, 190, 0.72);
+  /* «Язык» уводим из синего в хвойно-зелёный, чтобы не сливался с морозным фоном */
+  --color-lang: #2c6a4d;
+  --highlight-lang: #d8ece0;
+}
+
+/* «Зима» в тёмной теме — морозная ночь */
+[data-theme="dark"][data-season="winter"] {
+  --bg: #0e1a28;
+  --sidebar-bg: #13212f;
+  --text: #c6d6e4;
+  --text-secondary: #7c92a7;
+  --border: #28394b;
+  --highlight: #1b3047;
+  --de-text: #6a8094;
+  --annotation-bg: #15232f;
+  --snow: rgba(255, 255, 255, 0.88);
+  /* «Язык» — светлый мятно-зелёный поверх морозной ночи */
+  --color-lang: #72c19e;
+  --highlight-lang: #15302a;
+}
+
+/* Небо-градиент: морозно-голубое поле под снегом */
+html[data-season="winter"] body {
+  background: linear-gradient(180deg, #d6e4f3 0%, #e3edf8 100%);
+}
+
+html[data-theme="dark"][data-season="winter"] body {
+  background: linear-gradient(180deg, #0c1622 0%, #0a1018 100%);
+}

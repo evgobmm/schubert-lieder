@@ -1,0 +1,662 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-serif);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Интерфейс (навигация, настройки) — гротеск */
+.sidebar,
+.settings {
+  font-family: var(--font-sans);
+}
+
+/* Содержание (оригинал, перевод, глоссы, аннотации) — сериф */
+.content {
+  font-family: var(--font-serif);
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 260px 1fr 340px;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  min-width: 260px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  padding: 24px 16px;
+  overflow-y: auto;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+/* Заголовок списка песен: на уровне названия песни в центре;
+   первая песня — примерно на уровне первой строки поэтического текста */
+.sidebar-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 11px 10px 26px;
+  color: var(--text);
+}
+
+/* Титульный блок в правой колонке */
+.masthead {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.masthead-title {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.masthead-subtitle {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+/* Голос издания (не Шуберта и не Мюллера) — гротеск, без курсива */
+.masthead-tagline {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  margin-top: 12px;
+}
+
+.content {
+  padding: 32px 48px;
+  max-width: 1120px;
+  position: relative;
+}
+
+.placeholder {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 48px;
+}
+
+.settings {
+  padding: 28px 20px;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.credit {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.settings-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.theme-slot {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.annotations-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.annotations-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.annotations-checkbox input {
+  cursor: pointer;
+  accent-color: var(--text-secondary);
+}
+
+.annotations-sub {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 24px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.annotations-sub input {
+  cursor: pointer;
+}
+
+.meaning-check input {
+  accent-color: var(--color-meaning);
+}
+
+.lang-check input {
+  accent-color: var(--color-lang);
+}
+
+.annotations-sub.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.annotations-sub.disabled input {
+  cursor: default;
+}
+
+.meaning-check {
+  color: var(--color-meaning);
+}
+
+.lang-check {
+  color: var(--color-lang);
+}
+
+/* Кнопка печати — прямоугольник в пару к «Исполнениям»: слева станок, справа подпись */
+.press-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--sidebar-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.press-btn:hover {
+  background: var(--highlight);
+}
+
+.press-icon {
+  display: flex;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.press-label {
+  flex: 1;
+  text-align: left;
+}
+
+/* Письмо — кружок (как ☾/❅) ниже «Печати», по вертикали под снежинкой.
+   flex-end + padding-right совмещает центр кружка с центром снежинки при любой
+   ширине окна (settings-колонка фиксирована, снежинка на постоянном смещении). */
+.feedback-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.letter-btn {
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: none;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.letter-btn:hover {
+  background: var(--highlight);
+}
+
+@media print {
+  /* Титульный блок печатаем, элементы управления — нет */
+  .settings > :not(.masthead) {
+    display: none;
+  }
+  .settings {
+    position: static;
+  }
+
+  /* Печать из меню печати: виден только печатный лист с выбранными песнями */
+  body.printing-songs .app {
+    display: none !important;
+  }
+
+  /* ===== Печать из меню печати ===== */
+  @page {
+    /* Жёстко A4: вся модель разбивки на страницы считает в этой геометрии;
+       на другой бумаге браузер масштабирует лист пропорционально — у всех
+       выходит одна и та же разбивка. Поля просторные со всех сторон. */
+    size: A4;
+    margin: 24mm 16mm 20mm;
+
+    /* Собственные номера страниц — браузерные колонтитулы не нужны */
+    @bottom-center {
+      content: counter(page);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 9.5pt;
+      color: #777;
+    }
+  }
+
+  /* Бумага всегда белая, палитра всегда светлая — независимо от темы экрана.
+     html:root — специфичность выше, чем у :root в theme.css (он в бандле позже) */
+  html:root,
+  html:root[data-theme="dark"] {
+    --bg: #fff;
+    --sidebar-bg: #fff;
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --border: #bbb;
+    --de-text: #666;
+    --annotation-bg: #fff;
+    /* Цвета типов: насыщенные тёмные — в цветной печати различимы явно,
+       в ч/б ложатся тёмно-серым, близким к чёрному (полного совпадения с
+       чёрным при видимом цвете не существует физически) — поэтому
+       нумерация в печати всё равно сквозная */
+    --color-lang: #1c3a7e;
+    --color-meaning: #5e2710;
+  }
+
+  /* На печати лист встаёт в поток (на экране он спрятан за краем — см. ниже) */
+  .print-sheet {
+    position: static !important;
+    left: auto !important;
+    width: auto !important;
+    visibility: visible !important;
+  }
+}
+
+/* ===== Печатный лист: вёрстка как на сайте (две колонки) =====
+   Правила действуют и на экране, и на печати: на экране лист спрятан за краем
+   (visibility:hidden) и служит «линейкой» — на нём до печати измеряются высоты
+   песен для автоподбора кегля пояснений. Ширина = полезной ширине листа A4. */
+.print-sheet {
+  position: fixed;
+  left: -300vw;
+  top: 0;
+  /* = ширине содержимого A4 при боковых полях 16мм */
+  width: 178mm;
+  visibility: hidden;
+  background: #fff;
+}
+
+.print-sheet .print-song {
+  /* Собственный боковой отступ: страховка полей, даже если @page проигнорирован */
+  padding: 0 5mm;
+  /* База масштабирования (все кегли листа в em): печатный кегль компактнее
+     экранного — на страницу помещается больше при книжной читабельности */
+  font-size: 0.9rem;
+}
+
+/* Кегли в em — ужимаются ступенями вместе с контейнером */
+.print-sheet .print-song .song-header h2 { font-size: 1.5em; }
+.print-sheet .print-song .line-de { font-size: 1em; }
+.print-sheet .print-song .ru-word { font-size: 1em; }
+.print-sheet .print-song .variant-ru { font-size: 1em; }
+.print-sheet .print-song .de-gloss { font-size: 0.75em; }
+.print-sheet .print-song .annotations-panel h3 { font-size: 1em; }
+.print-sheet .print-song .annotation-item { font-size: 0.9em; }
+
+/* Печать оставляем на основном серифе: её постраничная вёрстка тонко настроена.
+   Экранный немецкий стих переведён на отдельный шрифт (--font-de), печать — отдельно. */
+.print-sheet .print-song .col-de h2,
+.print-sheet .print-song .line-de {
+  font-family: var(--font-serif);
+}
+
+/* Текстовая часть — во всю ширину листа; колонки в em: немецкая сжимается
+   вместе с кеглем, освобождая русскому подстрочнику всё больше места */
+.print-sheet .print-song .song-header,
+.print-sheet .print-song .song-body {
+  width: 100%;
+}
+
+/* Шапка песни — две колонки, как на сайте; не отрывается от первой строфы */
+.print-sheet .print-song .song-header {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  margin-bottom: 24px;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.print-sheet .print-song .song-header .col-de {
+  flex: 0 0 22em;
+}
+
+/* Пара строк: DE слева (как на сайте), RU с глоссами справа; не рвать по страницам */
+.print-sheet .print-song .line-pair {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6em;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.print-sheet .print-song .line-pair .col-de {
+  flex: 0 0 22em;
+}
+
+.print-sheet .print-song .line-pair .col-ru {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Мобильные паддинги вариантных строк (они действуют и в печати из-за ширины
+   листа <900px) печатному листу не нужны: вёрстка тут десктопная, варианты
+   не наезжают. Без нейтрализации экранный замер расходится с печатью. */
+.print-sheet .print-song .line-pair.with-variant .line-de {
+  padding-top: 0;
+}
+
+.print-sheet .print-song .line-pair.with-variant .col-ru {
+  padding-top: 0;
+}
+
+/* Варианты (Wegen/Straßen, путях/дорогах): надстройка над словом в печати
+   работает плохо — выводим в строку через косую черту */
+.print-sheet .print-song .de-variant-word {
+  position: static;
+  white-space: normal;
+}
+
+.print-sheet .print-song .de-variant-word::after {
+  content: " / ";
+}
+
+.print-sheet .print-song .variant-ru {
+  position: static;
+  white-space: normal;
+}
+
+.print-sheet .print-song .variant-ru::after {
+  content: " / ";
+}
+
+/* Строфа никогда не разбивается между страницами */
+.print-sheet .print-song .stanza {
+  margin-bottom: 26px;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Комментарии: всегда с новой страницы (поэтому без линии-отбивки),
+   друг под другом во всю ширину; пункты целиком, заголовок не отрывается */
+.print-sheet .print-song .annotations-columns {
+  display: block;
+  break-before: page;
+  page-break-before: always;
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.print-sheet .print-song .annotations-columns > * + * {
+  margin-top: 22px;
+}
+
+/* Пункты комментариев МОЖНО рвать между страницами (прозу — можно,
+   в отличие от строф) — страницы заполняются без «сирот»-пунктов */
+
+/* Принудительный перенос разрыва (ставит rebalance*, когда ужатие
+   не убирает «огрызок»: последняя страница получает ~полстраницы) */
+.print-sheet .print-song .annotation-item.print-break-before,
+.print-sheet .print-song .line-pair.print-break-before {
+  break-before: page;
+  page-break-before: always;
+}
+
+.print-sheet .print-song .annotations-panel h3 {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* Ступени автоужатия (выставляет autoFitPrint перед печатью):
+   у текста лестница длиннее — для запрета переносов поэтических строк */
+.print-song[data-compact-text="1"] .song-header,
+.print-song[data-compact-text="1"] .song-body { font-size: 0.97em; }
+.print-song[data-compact-text="2"] .song-header,
+.print-song[data-compact-text="2"] .song-body { font-size: 0.94em; }
+.print-song[data-compact-text="3"] .song-header,
+.print-song[data-compact-text="3"] .song-body { font-size: 0.91em; }
+.print-song[data-compact-text="4"] .song-header,
+.print-song[data-compact-text="4"] .song-body { font-size: 0.88em; }
+.print-song[data-compact-text="5"] .song-header,
+.print-song[data-compact-text="5"] .song-body { font-size: 0.85em; }
+.print-song[data-compact-text="6"] .song-header,
+.print-song[data-compact-text="6"] .song-body { font-size: 0.82em; }
+.print-song[data-compact-text="7"] .song-header,
+.print-song[data-compact-text="7"] .song-body { font-size: 0.79em; }
+.print-song[data-compact-text="8"] .song-header,
+.print-song[data-compact-text="8"] .song-body { font-size: 0.76em; }
+
+.print-song[data-compact-notes="1"] .annotations-columns { font-size: 0.95em; }
+.print-song[data-compact-notes="2"] .annotations-columns { font-size: 0.9em; }
+.print-song[data-compact-notes="3"] .annotations-columns { font-size: 0.85em; }
+
+/* ============ Мобильная раскладка (≤900px) ============
+   На десктопе (>900px) ни одно из правил ниже не действует;
+   единственное «десктопное» правило — спрятать мобильную шапку. */
+.mobile-head {
+  display: none;
+}
+
+.quick-nav {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .app {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  /* Шапка: бренд, навигация по песням, управление */
+  .mobile-head {
+    display: block;
+    padding: 12px 16px 10px;
+    background: var(--sidebar-bg);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .mobile-brand {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 10px;
+  }
+
+  .mobile-nav {
+    display: flex;
+    gap: 8px;
+  }
+
+  .mob-arrow {
+    flex: 0 0 44px;
+    height: 42px;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .mob-arrow:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+
+  .mob-select {
+    flex: 1;
+    min-width: 0;
+    height: 42px;
+    padding: 0 8px;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .mobile-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin-top: 10px;
+    font-family: var(--font-sans);
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+  }
+
+  .mob-check {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+
+  .mob-check input {
+    accent-color: var(--text-secondary);
+  }
+
+  .mob-meaning {
+    color: var(--color-meaning);
+  }
+
+  .mob-meaning input {
+    accent-color: var(--color-meaning);
+  }
+
+  .mob-lang {
+    color: var(--color-lang);
+  }
+
+  .mob-lang input {
+    accent-color: var(--color-lang);
+  }
+
+  .mob-check.disabled {
+    opacity: 0.4;
+  }
+
+  .mob-toggles {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+  }
+
+  /* Кружки темы/зимы компактнее (важность — для перевеса scoped-стилей компонентов) */
+  .mob-toggles .theme-toggle,
+  .mob-toggles .snow-toggle {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 1.1rem !important;
+  }
+
+  /* Контент и нижний колофон */
+  .content {
+    padding: 20px 16px 8px;
+    max-width: none;
+  }
+
+  .settings {
+    position: static;
+    height: auto;
+    padding: 4px 16px 36px;
+    border-top: 1px solid var(--border);
+    margin-top: 24px;
+    gap: 18px;
+  }
+
+  /* Переключатели уже в шапке — внизу остаются титул-колофон и «Исполнения» */
+  .settings-controls {
+    display: none;
+  }
+
+  /* Печать — функция только компьютерной версии */
+  .print-row {
+    display: none;
+  }
+
+  /* Плавающие кнопки: полупрозрачные, справа; видимы 3 с после касания */
+  .quick-nav {
+    display: flex;
+    position: fixed;
+    right: 10px;
+    top: 40%;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 80;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .quick-nav.qn-visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .qn-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--bg) 70%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+
+}
