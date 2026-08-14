@@ -31,4 +31,4 @@
 
 ## Окружение
 
-Devcontainer без Node по умолчанию — Node 20 в `~/.local/node` (симлинки в `~/.local/bin`). GitHub: fine-grained token только на этот репозиторий (gh auth). Папка root-owned → git требует `safe.directory`. Контейнер небольшой (7,5 ГБ RAM) — не перегружать параллельными агентами.
+Devcontainer без Node по умолчанию — Node 20 в `~/.local/node` (симлинки в `~/.local/bin`). GitHub: fine-grained token только на этот репозиторий (gh auth). Папка root-owned → git требует `safe.directory`. Параллельных агентов не ограничивать (качество важнее экономии); за нагрузкой контейнера периодически следить.
