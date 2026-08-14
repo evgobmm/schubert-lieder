@@ -78,7 +78,29 @@ const results = await pipeline(
 ТЕКСТ:
 \${r.stanzas.map(st=>st.join('\\n')).join('\\n\\n')}\`,
       { label:'chk:D'+it.d, phase:'Check', schema: VERDICT, model:'sonnet', effort:'low' })
-    return { ...r, verdict: v ? v.verdict : 'suspect', issues: v ? v.issues : ['check failed'] }
+    let cur = { ...r, verdict: v ? v.verdict : 'suspect', issues: v ? v.issues : ['check failed'] }
+    if (cur.verdict === 'suspect' && cur.stanzas) {
+      const rep = await agent(\`Почини текст песни Шуберта «\${it.title}» (D \${it.d}) — исправь ТОЛЬКО перечисленные дефекты, сверяясь с OCR-полосами; больше ничего не менять (повторы и историческая орфография — норма).
+
+ДЕФЕКТЫ:
+\${cur.issues.map((x,i)=>(i+1)+'. '+x).join('\\n')}
+
+OCR-ПОЛОСЫ:
+\${it.ocr.map(p=>'[стр.'+p.p+'] '+p.words).join('\\n')}
+
+ТЕКУЩИЙ ТЕКСТ (JSON строф):
+\${JSON.stringify(cur.stanzas)}\`,
+        { label:'fix:D'+it.d, phase:'Check', schema: OUT, model:'sonnet', effort:'medium' })
+      if (rep && rep.stanzas && !guard(it, rep)) {
+        const v2 = await agent(\`Проверь текст песни Шуберта «\${it.title}» (D \${it.d}): осмысленность строк, порядок строф, полнота (повторы и историческая орфография — норма). verdict='suspect' при реальном дефекте.
+
+ТЕКСТ:
+\${rep.stanzas.map(st=>st.join('\\n')).join('\\n\\n')}\`,
+          { label:'chk2:D'+it.d, phase:'Check', schema: VERDICT, model:'sonnet', effort:'low' })
+        if (v2) cur = { d: it.d, stanzas: rep.stanzas, verdict: v2.verdict, issues: v2.issues, repaired: true }
+      }
+    }
+    return cur
   }
 )
 const out = results.filter(Boolean)
