@@ -1,0 +1,11 @@
+﻿{
+  "name": "schubert-lieder",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "remoteUser": "vscode",
+
+  "postCreateCommand": "mkdir -p /home/vscode/.local/bin /home/vscode/.claude /home/vscode/.codex && curl -fsSL https://claude.ai/install.sh | bash && curl -fsSL https://chatgpt.com/codex/install.sh | sh",
+
+  "remoteEnv": {
+    "PATH": "/home/vscode/.local/bin:${containerEnv:PATH}"
+  }
+}
