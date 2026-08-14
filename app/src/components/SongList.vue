@@ -1,41 +1,72 @@
 <script setup>
-defineProps({
+import { computed } from 'vue'
+
+const props = defineProps({
   songs: Array,
+  sections: Array,
   current: Number
 })
 
 defineEmits(['select'])
+
+// Песни, сгруппированные по разделам (порядок разделов — из sections.json)
+const groups = computed(() => {
+  if (!props.sections || !props.sections.length) return [{ id: '_', title: null, songs: props.songs }]
+  const byId = new Map(props.sections.map(s => [s.id, { ...s, songs: [] }]))
+  for (const song of props.songs) {
+    const g = byId.get(song.section)
+    if (g) g.songs.push(song)
+  }
+  return [...byId.values()].filter(g => g.songs.length)
+})
 </script>
 
 <template>
   <nav class="song-list">
-    <ul>
-      <li
-        v-for="song in songs"
-        :key="song.number"
-        :class="{ active: song.number === current, disabled: !song.ready }"
-      >
-        <a
-          v-if="song.ready"
-          class="song-link"
-          :href="`?song=${song.number}`"
-          @click.exact.prevent="$emit('select', song.number)"
+    <div v-for="group in groups" :key="group.id" class="song-group">
+      <div v-if="group.title" class="group-title">{{ group.title }}</div>
+      <ul>
+        <li
+          v-for="song in group.songs"
+          :key="song.number"
+          :class="{ active: song.number === current, disabled: !song.file }"
         >
-          <span class="song-number">{{ song.number }}.</span>
-          <span class="song-title">{{ song.title_de }}</span>
-        </a>
-        <span v-else class="song-link">
-          <span class="song-number">{{ song.number }}.</span>
-          <span class="song-title">{{ song.title_de }}</span>
-        </span>
-      </li>
-    </ul>
+          <a
+            v-if="song.file"
+            class="song-link"
+            :href="`?song=${song.number}`"
+            @click.exact.prevent="$emit('select', song.number)"
+          >
+            <span class="song-number">{{ song.number }}.</span>
+            <span class="song-title">{{ song.title_de }}</span>
+          </a>
+          <span v-else class="song-link">
+            <span class="song-number">{{ song.number }}.</span>
+            <span class="song-title">{{ song.title_de }}</span>
+          </span>
+        </li>
+      </ul>
+    </div>
   </nav>
 </template>
 
 <style scoped>
 .song-list ul {
   list-style: none;
+}
+
+.song-group {
+  margin-bottom: 10px;
+}
+
+.group-title {
+  padding: 8px 10px 4px;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
 }
 
 .song-list li {
@@ -72,7 +103,7 @@ defineEmits(['select'])
 }
 
 .song-number {
-  min-width: 22px;
+  min-width: 30px;
   text-align: right;
   color: var(--text-secondary);
 }

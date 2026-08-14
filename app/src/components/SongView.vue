@@ -30,7 +30,7 @@ const song = computed(() => {
 
 // Build a global map: "stanzaIdx-lineIdx-annIdx" -> display number, sorted by footnote position
 const annNumberMap = computed(() => {
-  if (!song.value) return new Map()
+  if (!song.value || song.value.text_only) return new Map()
   const byType = { lang: [], meaning: [] }
   const titleAnns = song.value.title_annotations || []
   for (let a = 0; a < titleAnns.length; a++) {
@@ -81,7 +81,7 @@ const annNumberMap = computed(() => {
 })
 
 function collectAnnotations(type) {
-  if (!song.value) return []
+  if (!song.value || song.value.text_only) return []
   const items = []
   const titleAnns = song.value.title_annotations || []
   for (let a = 0; a < titleAnns.length; a++) {
@@ -194,7 +194,7 @@ onUnmounted(() => {
 
 const annDataByKey = computed(() => {
   const map = new Map()
-  if (!song.value) return map
+  if (!song.value || song.value.text_only) return map
   const titleAnns = song.value.title_annotations || []
   for (let a = 0; a < titleAnns.length; a++) {
     const ann = titleAnns[a]
@@ -414,7 +414,7 @@ function getLineDeParts(stanza, lineIndex) {
           }"
         >{{ (number ? number + '. ' : '') + song.title_de }}</h2>
       </div>
-      <div class="col-ru">
+      <div v-if="song.title_ru" class="col-ru">
         <h2
           class="title-ru"
           :class="{
@@ -434,11 +434,23 @@ function getLineDeParts(stanza, lineIndex) {
       </div>
     </header>
 
-    <p v-if="song.d || song.poet_ru" class="song-meta">
-      <template v-if="song.d">D {{ song.d }}</template><template v-if="song.d && song.poet_ru"> · </template><template v-if="song.poet_ru">стихи — {{ song.poet_ru }}</template><template v-if="song.year"> · {{ song.year }}</template>
+    <p v-if="song.d || song.poet_ru || song.poet_de" class="song-meta">
+      <template v-if="song.d">D {{ song.d }}</template><template v-if="song.d && (song.poet_ru || song.poet_de)"> · </template><template v-if="song.poet_ru || song.poet_de">стихи — {{ song.poet_ru || song.poet_de }}</template><template v-if="song.year"> · {{ song.year }}</template>
     </p>
 
-    <div class="song-body">
+    <!-- Режим «только текст»: немецкий текст без перевода (переводы добавляются постепенно) -->
+    <div v-if="song.text_only" class="song-body text-only-body">
+      <p class="text-only-note">Пословный перевод готовится. Пока — немецкий текст, как он поётся.</p>
+      <div
+        v-for="(stanza, si) in song.stanzas"
+        :key="si"
+        class="stanza"
+      >
+        <p v-for="(line, li) in stanza.lines_de" :key="li" class="line-de">{{ line }}</p>
+      </div>
+    </div>
+
+    <div v-else class="song-body">
       <div
         v-for="(stanza, si) in song.stanzas"
         :key="si"
