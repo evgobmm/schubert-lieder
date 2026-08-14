@@ -4135,5 +4135,308 @@
  {
   "d": "634",
   "error": "not in OCR (6.0%): gehoben, besiegen, gedrungen, felsen, hangen, hohem"
+ },
+ {
+  "d": "639",
+  "issues": [
+   "Строка 8 (последняя строка 2-й строфы) искажена: в тексте «Treuer, er sie nie gemalt», тогда как в оригинале Шлехты (версия «Harrt ein Fischer auf der Brücke», IMSLP) эта строка звучит «Treuer nie gemalt.» — без слов «er sie». Это не историческая орфография, а лишние/ошибочные слова, разрушающие смысл и размер строки."
+  ],
+  "stanzas": [
+   [
+    "Harrt ein Fischer auf der Brücke,",
+    "Die Geliebte säumt;",
+    "Schmollend taucht er seine Blicke",
+    "In den Bach und träumt."
+   ],
+   [
+    "Doch die lauscht im nahen Flieder,",
+    "Und ihr Bildchen strahlt",
+    "Jetzt aus klaren Wellen wieder,",
+    "Treuer, er sie nie gemalt."
+   ],
+   [
+    "Und er sieht's, und er kennt die Bänder,",
+    "Kennt den süssen Schein,",
+    "Und er hält sich am Geländer,",
+    "Sonst zieht's ihn hinein."
+   ]
+  ]
+ },
+ {
+  "d": "669",
+  "issues": [
+   "Возможная замена слова: в проверяемом тексте дважды встречается «zum traulichen Bette» («к уютной постели»), тогда как независимый источник (oxfordsong.org, текст Майрхофера к D 669) даёт «zum tauigen Bette» («к росистой постели») — «traulich» и «tauig» разные слова по смыслу, это не вариант исторической орфографии. Стоит перепроверить по факсимиле/авторитетному изданию (NSA/AGA), какое чтение верное, прежде чем публиковать.",
+   "Остальное — порядок строк, состав строф (3 строфы) и повторы (характерные для музыкальной строфы Шуберта: удвоение первой строки, перестановка «Stätte/Bette» во втором проведении, повтор «dann wilde Bewegung» и «verschlingen die Träume») — подтверждено сопоставлением с независимым источником и выглядит осмысленно и полно."
+  ],
+  "stanzas": [
+   [
+    "Es träumen die Wolken, die Sterne, der Mond,",
+    "es träumen die Wolken, die Sterne, der Mond,",
+    "die Bäume, die Vögel, die Blumen, der Strom,",
+    "sie wiegen und schmiegen sich tiefer zurück",
+    "zur ruhigen Stätte, zum traulichen Bette,",
+    "zum heimlichen Glück,",
+    "sie wiegen und schmiegen sich tiefer zurück",
+    "zum traulichen Bette, zur ruhigen Stätte,",
+    "zum heimlichen Glück, zum heimlichen Glück."
+   ],
+   [
+    "Doch Blättergesäusel und Wellengekräusel",
+    "verkünden Erwachen, denn ewig geschwinde,",
+    "unruhige Winde, sie stöhnen, sie fachen:",
+    "erst schmeichelnde Regung,",
+    "dann wilde Bewegung, dann wilde Bewegung,",
+    "und dehnende Räume",
+    "verschlingen die Träume, verschlingen die Träume."
+   ],
+   [
+    "Im Busen, im reinen bewahre die Deinen,",
+    "im Busen, im reinen bewahre die Deinen,",
+    "es ströme dein Blut vor rasenden Stürmen",
+    "besonnen zu schirmen die heilige Glut,",
+    "zu schirmen die heilige Glut."
+   ]
+  ]
+ },
+ {
+  "d": "682",
+  "issues": [
+   "Текст выглядит неполным: название песни — «Über allen Zauber Liebe», но приведённый текст заканчивается строкой «Über allen Zauber Frühling!» — рефрен с словом «Frühling», а не «Liebe». В оригинальном стихотворении Лейтнера рефрен через строфы меняется (Frühling → ... → Liebe), и финальная строфа должна заканчиваться словом, давшим название песне («Liebe»), а не «Frühling». Судя по всему, отсутствуют дальнейшие строфы, ведущие к финальному «Über allen Zauber Liebe»."
+  ],
+  "stanzas": [
+   [
+    "Sie hüpfte mit mir auf grünem Plan",
+    "Und sah die falbenden Linden an",
+    "Mit trauernden Kindesaugen,",
+    "Mit trauernden Kindesaugen."
+   ],
+   [
+    "Die stillen Lauben sind entlaubt,",
+    "Die Blumen hat der Herbst geraubt,",
+    "Der Herbst will gar nichts taugen.",
+    "Ach, ach, du bist ein schönes Ding, Frühling, Frühling!",
+    "Ach, du bist ein schönes Ding, Frühling, Frühling!",
+    "Über allen Zauber Frühling!"
+   ]
+  ]
+ },
+ {
+  "d": "685",
+  "issues": [
+   "Строфа 1, строка 2: «voran fährt mit dem leuchtenden Speer» — грамматически неполна, отсутствует подлежащее (ожидается «sie» = die Sonne перед «voran»), из-за чего фраза не читается как законченное предложение; похоже на пропуск слова, а не на нормальную архаичную инверсию.",
+   "Строфа 3, строка 5: «der Mond allein, der liebliche Wiederschein der Sonne, uns in der Dunkelheit nie verlässt» — синтаксис перегружен (два подлежащих через запятую без союза: «der Mond allein» и «der liebliche Wiederschein der Sonne»), возможно пропущено соединительное слово или знак препинания, из-за чего теряется ясность, кто именно не покидает птиц в темноте."
+  ],
+  "stanzas": [
+   [
+    "Eh die Sonne früh aufersteht,",
+    "voran fährt mit dem leuchtenden Speer,",
+    "wenn aus dem dampfenden Meer herauf",
+    "und herunter das Morgenroth weht,",
+    "flattern Vöglein da hin und da her,",
+    "singen fröhlich die Kreuz und die Quer",
+    "ein Lied, ein jubelndes Lied,",
+    "ein Lied, ein jubelndes Lied."
+   ],
+   [
+    "Was freut ihr Vöglein euch all zumal",
+    "so herzig im wärmenden Sonnenstrahl?",
+    "Wir freu'n uns dass wir leben und sind,",
+    "und dass wir luftge Gesellen sind,",
+    "nach löblichem Brauch durchflattern wir fröhlich den Strauch,",
+    "umweht vom lieblichen Morgenwind",
+    "ergötzet die Sonne sich auch,",
+    "ergötzet die Sonne sich auch."
+   ],
+   [
+    "Was sitzt ihr Vöglein so stumm und geduckt",
+    "am Dach im moosigen Nest?",
+    "Wir sitzen, weil uns die Sonn' nicht beguckt,",
+    "schon hat sie die Nacht in die Wellen geduckt;",
+    "der Mond allein, der liebliche Wiederschein der Sonne,",
+    "uns in der Dunkelheit nie verlässt,",
+    "darob wir im Stillen uns freun,",
+    "darob wir im Stillen uns freu'n."
+   ],
+   [
+    "Jugendkühlige Morgenzeit,",
+    "wo wir die Herzen geöffnet und weit,",
+    "mit raschem und erwachendem Sinn",
+    "der Lebensfrische uns erfreut,",
+    "wohl flohst du dahin, dahin!",
+    "Wir Alten sitzen geduckt im Nest,",
+    "allein der liebliche Wiederschein",
+    "der Jugendzeit, wo wir im Frühroth uns erfreut,",
+    "uns auch im Alter nie verlässt",
+    "die stille sinnige Fröhlichkeit,",
+    "die stille sinnige Fröhlichkeit."
+   ]
+  ]
+ },
+ {
+  "d": "688/1",
+  "error": "not in OCR (12.5%): ossa, ricuso, giacinti"
+ },
+ {
+  "d": "688/2",
+  "issues": [
+   "Строка 'Tu mai non me sa...' обрывается многоточием посреди слова/мысли — похоже на повреждённый или неполный текст, а не на историческую особенность.",
+   "Финал 'questi risponde, rispondere così, risponde, rispondere così' синтаксически не складывается в осмысленную итальянскую фразу (странное сочетание личной формы 'risponde' с инфинитивом 'rispondere' и обрывом смысла) — похоже на искажение исходного текста.",
+   "Вторая строфа рвётся по смыслу: после 'sospirando, che gemiti son questi, che dolci pianti son questi' сразу следует не связанный логически обрыв 'Tu mai non me sa...', что указывает на пропуск или порчу строки перед этим местом."
+  ],
+  "stanzas": [
+   [
+    "Guarda che bianca luna, guarda che notte azzura,",
+    "un'aura non sussurra, nò,",
+    "ella, ch'ei sente pena, vien di fronda in fronda,",
+    "pare che gli dica: non piangere, son qui, non piangere, son qui,",
+    "non tremola un stel, non tremola un stel."
+   ],
+   [
+    "L'usignoletto solo va dalla siepe allor,",
+    "va dalla siepe allor, sospirando,",
+    "che gemiti son questi, che dolci pianti son questi.",
+    "Tu mai non me sa...",
+    "torno, chiama la sua, la sua fedel, chiama la sua, la sua fedel:",
+    "questi risponde, rispondere così, risponde, rispondere così."
+   ]
+  ]
+ },
+ {
+  "d": "688/3",
+  "issues": [
+   "Строка 2 «a sospirando amore» грамматически некорректна: предлог «a» перед герундием «sospirando» не сочетается (итал. норма требует инфинитив «a sospirar(e)» или чистый герундий «sospirando» без «a»). Похоже на смешение с фразой «sospirando amore» из строки 5 — вероятная ошибка транскрипции, а не историческая орфография.",
+   "Строка 7 «m'alletta piace» (без «e») расходится со строкой 4 «solo m'alletta e piace» (с «e») при том что это, судя по контексту, повтор той же фразы — пропуск союза «e» выглядит как опечатка, а не вариация."
+  ],
+  "stanzas": [
+   [
+    "Da quel sembiante appresi",
+    "a sospirando amore,",
+    "face cui m'accesi,",
+    "solo m'alletta e piace,",
+    "sospirando amore",
+    "per quel sembiante solo",
+    "m'alletta piace,",
+    "è fredda ogn'altra face",
+    "per riscaldarmi il cuore."
+   ],
+   [
+    "Sospirerò d'amore sempre",
+    "per quel sembiante,",
+    "sospirerò d'amore,",
+    "a riscaldarmi il cuore,",
+    "è fredda ogn'altra face",
+    "per riscaldarmi il",
+    "cuore,",
+    "amore."
+   ]
+  ]
+ },
+ {
+  "d": "688/4",
+  "error": "not in OCR (9.1%): amano, anima"
+ },
+ {
+  "d": "690",
+  "issues": [
+   "Строфа 2 обрывается синтаксически: после придаточного «Der die Seele zart berühret, / Wenn die Sinne selig trunken,» идёт список без сказуемого — «Kleine Vögel, ferne Menschen, / Berge himmelan geschwungen» — эти три существительных ни грамматически, ни по смыслу не связаны с предыдущими строками и друг с другом (нет глагола, к которому они могли бы относиться). Похоже на пропуск строк или нарушение порядка/полноты текста, а не на историческую орфографию.",
+   "Стык строф 2→3 тоже подозрителен: строфа 2 не имеет завершающей мысли (обрывается на «Berge himmelan geschwungen»), а строфа 3 начинается с «Und der große Silberstrom» — переход резкий, будто выпал фрагмент текста, соединяющий образы птиц/людей/гор со строфой о реке и поэте."
+  ],
+  "stanzas": [
+   [
+    "Tiefer sinket schon die Sonne,",
+    "Und es athmet alles Ruhe,",
+    "Tages Arbeit ist vollendet,",
+    "Und die Kinder scherzen munter,",
+    "Grüner glänzt die grüne Erde,",
+    "Eh die Sonne ganz versunken."
+   ],
+   [
+    "Nun die Blumen,",
+    "Milden Balsam hauchen leise",
+    "In die Lüfte,",
+    "Der die Seele zart berühret,",
+    "Wenn die Sinne selig trunken,",
+    "Kleine Vögel, ferne Menschen,",
+    "Berge himmelan geschwungen."
+   ],
+   [
+    "Und der große Silberstrom,",
+    "Der im Thale schlank gewunden,",
+    "Alles scheint dem Dichter redend,",
+    "Denn er hat den Sinn gefunden."
+   ],
+   [
+    "Und das All ein einzig Chor,",
+    "Manches Lied aus einem Munde,",
+    "Und das All ein einzig Chor,",
+    "Manches Lied aus einem Munde."
+   ]
+  ]
+ },
+ {
+  "d": "691",
+  "issues": [
+   "Строка «Sie können nicht fliegen,» повторена дважды подряд — похоже на утрату/замену соседней строки (в оригинале Шлегеля между «Die Menschen sind thöricht,» и «Sie können nicht fliegen,» должна идти отдельная строка вида «Sie hemmet der Boden,»), а не на осмысленный повтор.",
+   "Строка «Wir flattern gen Himmel,» также повторена дважды подряд — вместо второй строки, которая в оригинале иная (что-то вроде «Wir flattern und singen,»), стоит дубликат первой.",
+   "Такой характер повторов (точное дублирование соседней строки вместо разных строк) отличается от типичных сознательных повторов Шуберта (обычно повторяется целая строфа или рефрен, а не одна строка дважды подряд с заменой другой) — похоже на технический дефект набора текста, а не на аутентичную особенность."
+  ],
+  "stanzas": [
+   [
+    "Wie lieblich und fröhlich,",
+    "Zu schweben, zu singen,",
+    "Von glänzender Höhe",
+    "Zur Erde zu blicken!",
+    "Die Menschen sind thöricht,",
+    "Sie können nicht fliegen,",
+    "Sie können nicht fliegen,",
+    "Sie jammern in Nöthen,",
+    "Wir flattern gen Himmel,",
+    "Wir flattern gen Himmel."
+   ],
+   [
+    "Der Jäger will tödten,",
+    "Denn Früchte wir pickten,",
+    "Wir müssen ihn höhnen",
+    "Und Beute gewinnen."
+   ]
+  ]
+ },
+ {
+  "d": "693",
+  "issues": [
+   "Синтаксис первой строфы разорван: «Wenn selbst sich wiederfindet, / Der Sonne trunkne Augen abwärts lauschen» — подлежащее и сказуемое не согласуются, фраза не складывается в осмысленное предложение (кто/что «wiederfindet», и как «Augen lauschen abwärts» связано с придаточным «Wenn»).",
+   "Стык строф выглядит разорванным по смыслу: строфа 1 обрывается на «Aus blauer Tiefe steigen,» (глагол без ясного подлежащего в этой позиции), а строфа 2 начинается с деепричастного оборота «Weisen tauschend, dass neu entzückt die Hörer ewig,» без предшествующего главного предложения — похоже на нарушенный порядок строк/строф.",
+   "«So fliesset mir gediegen / So schimmern alle Wesen,» — два «so»-предложения подряд без связующего элемента, второе не может логически продолжать первое (разные подлежащие/образы сведены встык), что похоже на перестановку строк.",
+   "«Durch Umriss nach im kindlichen Gemüthe,» — предложная группа «durch Umriss nach» синтаксически не оформлена (нет управляемого существительного при «nach», странный порядок слов), похоже на искажённую/переставленную строку."
+  ],
+  "stanzas": [
+   [
+    "Wie rein Gesang sich windet",
+    "Durch wunderbarer Saitenspiele Rauschen,",
+    "Wenn selbst sich wiederfindet,",
+    "Der Sonne trunkne Augen abwärts lauschen,",
+    "Wo Hügel sich so gerne",
+    "Wie auch die fernsten, matten Sterne",
+    "Und helle Wolken leise schwankend neigen,",
+    "Aus blauer Tiefe steigen,"
+   ],
+   [
+    "Weisen tauschend, dass neu entzückt die Hörer ewig,",
+    "So fliesset mir gediegen",
+    "So schimmern alle Wesen,",
+    "Die Silbermasse schlangengleich gewunden",
+    "Durch Umriss nach im kindlichen Gemüthe,"
+   ],
+   [
+    "Büsche, die sich wiegen",
+    "Vom Zauber süss gebunden,",
+    "Das zur Schönheit reifen",
+    "Durch milder Götter Güte,",
+    "Weil sie im Spiegel neu sich selbst gefunden,",
+    "Neu sich selbst gefunden,",
+    "In dem Krystall bewahrt die flüchtge Blüthe,",
+    "Bewahrt die flüchtge Blüthe."
+   ]
+  ]
  }
 ]
