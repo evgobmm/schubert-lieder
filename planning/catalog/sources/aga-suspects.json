@@ -4743,5 +4743,71 @@
     "Ach, dass auch sie mein Schmerz betrübt."
    ]
   ]
+ },
+ {
+  "d": "931",
+  "issues": [
+   "Вторая строфа выглядит испорченной/смонтированной из кусков первой: строка «der Krug hat tiefe Wunden, doch» — точное повторение фразы из первой строфы («der Krug hat tiefe Wunden»), вставленное без грамматической связи с окружающим текстом (шлем, а не кубок, только что упоминался как «Pickelhaube»).",
+   "Строка «der hält er noch den deutschen Wein» грамматически бессмысленна («der» вместо «doch», как в аналогичной строке первой строфы «doch hält er noch den deutschen Wein») — похоже на испорченную копию строки первой строфы, а не оригинальный текст второй строфы.",
+   "В целом вторая строфа не имеет рефрена «Schenkt ein...», присутствующего в первой, и её последовательность образов (шлем как кубок и подушка → шведский противник умирает → фраза про немецкое вино) выглядит как склейка разных фрагментов, а не связный текст — стоит сверить с авторитетным изданием текста."
+  ],
+  "stanzas": [
+   [
+    "Her, schenket mir im Helme ein,",
+    "der ist des Knappen Becher;",
+    "er ist nicht seicht und traun nicht klein,",
+    "der Krug hat tiefe Wunden,",
+    "doch hält er noch den deutschen Wein",
+    "und freut den wackern Zecher.",
+    "Er schützte mich zu tausend Mal",
+    "vor tödtlichen Wunden,",
+    "doch kam's nicht so — ich danke dir,",
+    "du sollst mir oft noch munden.",
+    "Schenkt ein, schenkt ein, schenkt ein, mein Krug!"
+   ],
+   [
+    "Vor Kolben, Schwert und Spiessen",
+    "schützte mich die brave Pickelhaube,",
+    "der Krug hat tiefe Wunden, doch",
+    "dient mir jetzt als Trinkpokal",
+    "und in der Nacht als Kissen.",
+    "Der Schwede büsste bald dafür",
+    "und röchelte im Staube,",
+    "der hält er noch den deutschen Wein",
+    "und soll mir oft noch munden."
+   ]
+  ]
+ },
+ {
+  "d": "933",
+  "issues": [
+   "Строка «Es gaukelt wie Irrlicht und schaukelt sich leise ... sein Stübchen herunter» выглядит подозрительно: слово «Stübchen» повторяется в этой строке и в следующей («Fein Liebchen schleicht traulich vom Stübchen herunter»), при этом подлежащее первой строки (огонёк/блуждающий огонь, местоимение «sein») плохо согласуется с «Stübchen» — похоже на контаминацию двух разных строк (возможно, в оригинале у Лейтнера в первой строке было другое слово, не «Stübchen»). Рекомендую сверить с авторитетным изданием текста (например, LiederNet/Emily Ezust archive) перед публикацией.",
+   "Строка «Winde uns wieder seewärts vom Flieder des Ufers hindann sputet sich munter zu mir in das Boot» синтаксически неясна — не считывается субъект действия «sputet sich» (кто спешит в лодку), возможна утраченная пунктуация или граница строк по сравнению с оригиналом; стоит сверить с первоисточником.",
+   "Не удалось независимо проверить полный текст по внешнему источнику (веб-поиск в этой сессии недоступен — исчерпан лимit), поэтому оценка структуры и полноты строф основана только на внутренней логике текста, а не на сверке с каноническим изданием."
+  ],
+  "stanzas": [
+   [
+    "Dort blinket durch Weiden und winket ein Schimmer blaßstrahlig vom Zimmer der Holden mir zu.",
+    "Und springe zum Ruder und schwinge den Nachen dahin auf dem flachen kristallenen Weg.",
+    "Die blassen Nachtnebel umfassen mit Hüllen vor Spähern den stillen unschuldigen Scherz.",
+    "So schweben wir selig umgeben vom Dunkel hoch überm Gefunkel der Sterne einher."
+   ],
+   [
+    "Es gaukelt wie Irrlicht und schaukelt sich leise es gaukelt wie Irrlicht und schaukelt sich leise sein Stübchen herunter.",
+    "Fein Liebchen schleicht traulich vom Stübchen herunter, fein Liebchen schleicht traulich vom Stübchen herunter.",
+    "Und rauschen die Wellen und tauschen wir Küsse, so rauschen die Wellen im schuldigen Scherz.",
+    "So schweben wir selig umgeben vom Dunkel, so schweben wir selig umgeben vom Dunkel hoch überm Gefunkel der Sterne einher."
+   ],
+   [
+    "Abglanz im Kreise des schwankenden See's, ich schaue mit Sehnen in's Blaue der Wellen und grüsse den hellen gespiegelten Strahl.",
+    "Winde uns wieder seewärts vom Flieder des Ufers hindann sputet sich munter zu mir in das Boot.",
+    "Gelinde dann treiben die, Sinken und Schwellen den Horchern zum Trotz, nur Sterne belauschen uns ferne, und baden tief unter den Pfaden des gleitenden Kahns.",
+    "Überm Gefunkel der Sterne einher, und weinen und lächeln und meinen enthoben der Erde schon oben, schon drüben zu sein."
+   ]
+  ]
+ },
+ {
+  "d": "943",
+  "error": "not in OCR (100.0%): empty, ocr, does, not, contain, lyric, subtext, only"
  }
 ]
