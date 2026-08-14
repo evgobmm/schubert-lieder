@@ -4548,5 +4548,200 @@
  {
   "d": "806",
   "error": "not in OCR (7.1%): entfernt, denn, süßes, säe, schaue"
+ },
+ {
+  "d": "828",
+  "error": "not in OCR (6.3%): so, ewigen, getraut, erlöse, alleluja"
+ },
+ {
+  "d": "854",
+  "issues": [
+   "Строфа «In Liebeswogen wallet der Geist, / bis fortgezogen die Brust zerreisst.» состоит всего из двух строк — заметно короче остальных строф (6–10 строк) и выглядит как фрагмент с пропущенными строками; стоит сверить с оригиналом Шлегеля/автографом.",
+   "Строка «Hier noch befeuchtet der Blick sich, / und wenn mich umleuchtet dies Himmelskind.» синтаксически странная: «wenn» без главного предложения обрывает мысль — возможен пропуск связки со следующей строкой «Ein Zauber waltet…», нужно перепроверить разбиение на строки по первоисточнику."
+  ],
+  "stanzas": [
+   [
+    "Streben theilt mir das Herz,",
+    "bis alles Leben sich löst in Schmerz.",
+    "In Liedern wachte der junge Sinn,",
+    "und Liebe brachte zum Ziel mich hin.",
+    "Ihr edle Flammen, wecktet mich auf,",
+    "es ging mitsammen zu Gott der Lauf,",
+    "es ging mitsammen zu Gott der Lauf."
+   ],
+   [
+    "Ein Feuer war es, das alles treibt,",
+    "ein starkes, klares, das ewig bleibt.",
+    "Was wir anstrebten war treu gemeint,",
+    "was wir durchlebten bleibt tief vereint.",
+    "Da trat ein Scheiden mir in die Brust,",
+    "das tiefe Leiden der Liebeslust.",
+    "Im Seelengrunde wohnt mir ein Bild,",
+    "die Todeswunde ward nie gestillt.",
+    "Viel tausend Thränen flossen hin,",
+    "es blieb ein ewig Sehnen zu ihr in's Grab,",
+    "ein ewig Sehnen zu ihr in's Grab."
+   ],
+   [
+    "In Liebeswogen wallet der Geist,",
+    "bis fortgezogen die Brust zerreisst."
+   ],
+   [
+    "Ein Stern erschien mir vom Paradies,",
+    "und dahin fliehn wir vereint gewiss,",
+    "und dahin fliehn wir vereint gewiss.",
+    "Hier noch befeuchtet der Blick sich,",
+    "und wenn mich umleuchtet dies Himmelskind.",
+    "Ein Zauber waltet jetzt über mich,"
+   ],
+   [
+    "und der gestaltet dies all nach sich,",
+    "als ob uns vermähle Geistesgewalt,",
+    "wo Seel' in Seele hinüber wallt.",
+    "Ob auch zerspalten mir ist das Herz,",
+    "selig doch halten will ich den Schmerz,",
+    "ob auch zerspalten mir ist das Herz,",
+    "selig doch halten will ich den Schmerz,",
+    "ob auch zerspalten mir ist das Herz,",
+    "selig doch halten will ich den Schmerz,",
+    "selig doch halten will ich den Schmerz."
+   ]
+  ]
+ },
+ {
+  "d": "857/2",
+  "issues": [
+   "Текст выглядит подозрительно неполным: содержит фактически лишь одну содержательную строку («Ach, was soll ich beginnen vor Liebe, ach, wie sie innig durchdringet mein Innres») плюс её повтор — тогда как «Lied des Florio» подразумевает более развёрнутый текст песни. Вероятно, при OCR-сборе пропущены дальнейшие строки/строфы после первого повтора; стоит сверить с оригинальными нотами на предмет полноты."
+  ],
+  "stanzas": [
+   [
+    "Ach, was soll ich beginnen vor Liebe,",
+    "ach, wie sie innig durchdringet mein Innres,",
+    "ach, wie sie innig durchdringet mein Innres!"
+   ]
+  ]
+ },
+ {
+  "d": "862",
+  "issues": [
+   "Строфа 6, строки 3-4: «Und im Herzen droben sich / Der Himmel aufgethan hat» синтаксически бессвязны — порядок слов не складывается в осмысленное немецкое предложение (буквально «И в сердце наверху себе небо открыто имеет»). Похоже на искажение/ошибку OCR при наборе текста; стоит сверить с оригиналом стихотворения Рюккерта или авторитетным изданием партитуры Шуберта."
+  ],
+  "stanzas": [
+   [
+    "Keine Stimme hör' ich schallen,",
+    "Keinen Schritt auf dunkler Bahn,",
+    "Selbst der Himmel hat die schönen",
+    "Hellen Äuglein zugethan,",
+    "Hat die Äuglein zugethan.",
+    "",
+    "Ich nur wache; süsses Leben",
+    "Schau' ich sehnend in die Nacht,",
+    "Bis dein Stern in der Ferne",
+    "Lieblich leuchtend mir erwacht,",
+    "Lieblich leuchtend mir erwacht."
+   ],
+   [
+    "Ach, nur einmal, nur verstohlen",
+    "Dein geliebtes Bild zu sehn,",
+    "Wollt' ich gern in Sturm und Wetter",
+    "Bis zum späten Morgen stehn,",
+    "Bis zum späten Morgen stehn.",
+    "",
+    "Süsses Wort, geliebte Stimme,",
+    "Der mein Herz entgegenschlägt,",
+    "Tausend selge Liebesbilder",
+    "Hat dein Hauch mir aufgeregt,",
+    "Hat dein Hauch mir aufgeregt."
+   ],
+   [
+    "Seh ich's nicht von ferne leuchten,",
+    "Naht es nicht schon nach und nach?",
+    "Ach, und freundlich hör' ich's flüstern:",
+    "Sieh, der Freund ist auch noch wach!",
+    "Sieh, der Freund ist auch noch wach!",
+    "",
+    "Alle Sterne seh' ich glänzen",
+    "Auf der dunkeln, blauen Bahn,",
+    "Und im Herzen droben sich",
+    "Der Himmel aufgethan hat,",
+    "Der Himmel aufgethan hat."
+   ],
+   [
+    "Holder Nachhall, wie gefreundlich",
+    "Sinkt jetzt mein Haupt in milde Ruh',",
+    "Und noch oft ihr Träume lispelt",
+    "Ihr geliebtes Wort mir zu,",
+    "Lispelt oft ihr Wort mir zu."
+   ]
+  ]
+ },
+ {
+  "d": "866/1",
+  "issues": [
+   "Каждая строфа обрывается на середине слова/фразы («ver…», «und…») — текст явно неполный: не хватает окончания последней (четвёртой) строки в каждой из строф, это не историческая орфография и не осмысленный повтор, а обрыв текста при вводе/копировании.",
+   "Из-за обрыва строк неясно, есть ли рефрен (композиция D 866/1 «Die Unterscheidung» подразумевает повторяющуюся концовку строф) — без полных строк невозможно подтвердить ни осмысленность, ни правильный порядок строф."
+  ],
+  "stanzas": [
+   [
+    "Die Mutter hat mich jüngst gescholten",
+    "Und vor der Liebe streng gewarnt;",
+    "Noch jede, sprach sie, hat's entgolten, ver…"
+   ],
+   [
+    "Vor Allem, Hans, vergiss mir nimmer,",
+    "Dass du nur mich zu lieben hast!",
+    "Mein Lächeln sei dir Lust nur immer, und…"
+   ],
+   [
+    "Bei jedem Feste, das wir haben,",
+    "Soll's meine grösste Wonne sein:",
+    "Flicht deine Hand des Frühlings Gaben zum…"
+   ],
+   [
+    "Und sinkt der Abend kühl hernieder,",
+    "Und ruhn wir dann recht mild bewegt,",
+    "Halt immer mir die Hand ans Mieder, und…"
+   ]
+  ]
+ },
+ {
+  "d": "876",
+  "issues": [
+   "Строфа 3, строки 3–4: «Nie will die falsche Hoffnung weichen, / Nie mit der Hoffnung, Furcht und Müh',» — вторая строка не образует законченного предложения (нет сказуемого при «Nie mit der Hoffnung, Furcht und Müh'»), похоже на испорченный/неверно перенесённый текст. Это не историческая орфография и не намеренный повтор, а грамматически бессвязный фрагмент — требует сверки с надёжным изданием (NSA/тексты Mayrhofer)."
+  ],
+  "stanzas": [
+   [
+    "Ich bin von aller Ruh geschieden,",
+    "Und treib umher auf wilder Fluth;",
+    "Wie die Träume spurlos schweben,",
+    "Und einer schnell den andern treibt,",
+    "Weck' ich sie mit meinen Schritten",
+    "In ihrer dunklen Einsamkeit."
+   ],
+   [
+    "Einem Ort nur find' ich Frieden,",
+    "Das ist der Ort, wo alles ruht;",
+    "Mit sich selbst das irre Leben,",
+    "Und jeder naht und keines bleibt,",
+    "Wissen nicht, was ich gelitten,",
+    "Und keinen stört mein tiefes Leid."
+   ],
+   [
+    "Dort, wenn die Wind' auch schaurig sausen",
+    "Und kalt der Regen nieder fällt,",
+    "Nie will die falsche Hoffnung weichen,",
+    "Nie mit der Hoffnung, Furcht und Müh',",
+    "Nicht kann die Seele freier klagen",
+    "Bei jener, die ich treu, treu geliebt."
+   ],
+   [
+    "Doch will ich dort viel lieber hausen,",
+    "Als in der unbeständgen Welt.",
+    "Die ewig stummen, ewig bleichen",
+    "Verheissen und versagen nie:",
+    "Nicht wird der kalte Stein mir sagen,",
+    "Ach, dass auch sie mein Schmerz betrübt."
+   ]
+  ]
  }
 ]
