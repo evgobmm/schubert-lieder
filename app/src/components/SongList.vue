@@ -8,7 +8,7 @@ const props = defineProps({
   current: Number
 })
 
-defineEmits(['select'])
+const emit = defineEmits(['select'])
 
 // Поиск: срабатывает сам с задержкой 300 мс; сначала названия, затем текст песен
 const searchInput = ref('')
@@ -23,6 +23,14 @@ watch(searchInput, (q) => {
 })
 
 const searching = computed(() => searchInput.value.trim().length >= 2)
+
+// Переход из поиска: открыть песню, раскрыть её раздел, сбросить поиск
+function goToHit(hit) {
+  emit('select', hit.song.number)
+  expanded.value = hit.song.section
+  searchInput.value = ''
+  searchResult.value = { mode: null, hits: [] }
+}
 
 // Песни, сгруппированные по разделам (порядок разделов — из sections.json)
 const groups = computed(() => {
@@ -79,7 +87,7 @@ function toggle(id) {
             v-if="hit.song.file"
             class="song-link search-hit"
             :href="`?song=${hit.song.number}`"
-            @click.exact.prevent="$emit('select', hit.song.number)"
+            @click.exact.prevent="goToHit(hit)"
           >
             <span class="song-title">{{ hit.song.title_de }}<template v-if="hit.song.title_ru"> — {{ hit.song.title_ru }}</template></span>
             <span v-if="hit.line" class="hit-line">{{ hit.line }}</span>
