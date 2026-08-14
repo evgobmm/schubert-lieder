@@ -2972,5 +2972,489 @@
     "schaut jedes Antlitz ..."
    ]
   ]
+ },
+ {
+  "d": "362",
+  "issues": [
+   "Строфа 2, строки 2-3: «des Glück, wie hieß er doch, der, als er Herr war von der Welt...» — грамматически и по смыслу разорвано: «des Glück» стоит не в родительном падеже (нужно «des Glücks») и отсутствует опорное существительное для местоимения «der» (в оригинале Миллера здесь имеется в виду «Sohn» — сын Фортуны, т.е. Александр Македонский: «des Glückes Sohn, wie hieß er doch, der...»). Похоже, из текста выпало слово (вероятно «Sohn»), из-за чего фраза не строится синтаксически."
+  ],
+  "stanzas": [
+   [
+    "Ich bin vergnügt im Siegeston,",
+    "verkünd es mein Gedicht,",
+    "und mancher Mann mit seiner Kron",
+    "und Scepter ist es nicht.",
+    "Und wär er's auch, nun immerhin,",
+    "mag er's doch, so ist er, was ich bin."
+   ],
+   [
+    "Des Sultans Pracht, des Mogols Geld,",
+    "des Glück, wie hieß er doch,",
+    "der, als er Herr war von der Welt,",
+    "zum Mond hinauf sah noch,",
+    "ich wünsche nichts von alledem,",
+    "zu lächeln drob fällt mir bequem."
+   ]
+  ]
+ },
+ {
+  "d": "371",
+  "error": "not in OCR (6.7%): streben, gefühlen, schwülen, weilen"
+ },
+ {
+  "d": "388",
+  "issues": [
+   "Первая строфа выглядит неполной/испорченной: «Wenn dein Finger durch die Saiten meistert, Laura, itzt zur Statue entgeistert, itzt entkörpert steh ich da» — в известном тексте Шиллера здесь есть ещё строка со смыслом «in ein Meer von Melodie» между обращением к Лауре и «entgeistert»; без неё пропадает рифма и синтаксическая связность (непонятно, к чему относится «itzt zur Statue entgeistert» — нет главного предложения с сохранённым смыслом). Стоит сверить с оригиналом Шиллера/партитурой Шуберта на пропущенную строку.",
+   "Строфа «Du gebietest über Tod und Leben... fordert Philadelphia» — слово «Philadelphia» выглядит как испорченное/ошибочно распознанное слово (в оригинале, по-видимому, «Philadelphia» не подходит по смыслу к рассуждению о душах и нервах — похоже на артефакт OCR/транскрипции, а не оригинальный текст Шиллера)."
+  ],
+  "stanzas": [
+   [
+    "Wenn dein Finger durch die Saiten meistert,",
+    "Laura, itzt zur Statue entgeistert,",
+    "itzt entkörpert steh ich da,"
+   ],
+   [
+    "Du gebietest über Tod und Leben,",
+    "mächtig, wie von tausend Nerv geweben Seelen,",
+    "fordert Philadelphia;",
+    "Ehrerbietig leiser rauschen dann die Lüfte,",
+    "dir zu lauschen hingeschmiedet zum Gesang,",
+    "steh'n im ew'gen Wirbelgang,",
+    "einzuziehn die Wonnefülle",
+    "lauschende Naturen,"
+   ],
+   [
+    "stille Zauberin, mit Tonen wie mich mit Blicken zwingst du sie,",
+    "Seelenvolle Harmonien",
+    "wimmeln ein wollüstig Ungestüm aus ihren Saiten,",
+    "wie aus ihren Himmeln neugeborne Seraphim,",
+    "wie des Chaos Riesenarm entronnen,",
+    "aufgejagt vom"
+   ],
+   [
+    "Schöpfungssturm, die Sonnen funkelnd fuhren aus der Nacht,",
+    "strömt der Töne Zaubermacht.",
+    "Lieblich itzt, wie über glatten Kieseln silberhelle Fluthen rieseln,",
+    "majestätisch, prächtig, nun wie des Donners Orgelton",
+    "stürmend von hinnen,",
+    "itzt, wie sich von Felsen rauschende schaumende Giessbache wälzen,"
+   ],
+   [
+    "holdes Gesäusel, bald schmeichlerisch linde,",
+    "wie durch den Espenwald buhlende Winde;",
+    "schwerer nun und melancholisch düster,",
+    "wie durch todter Wüsten Schauernacht Geflüster,",
+    "wo verlornes Heulen schweift,",
+    "Thränenwellen der Cocytus schleift.",
+    "Mädchen, sprich! Ich"
+   ],
+   [
+    "frage: gib mir Kunde!",
+    "Stehst mit höhern Geistern du im Bunde?",
+    "Ist's die Sprache, lüg mir nicht,",
+    "die man in Elysen spricht?"
+   ]
+  ]
+ },
+ {
+  "d": "394",
+  "issues": [
+   "Первые две 10-строчные строфы (с повтором последней строки) грамматически целостны и связны, но начиная со строфы «Des Vergangnen Traumgebilde» текст распадается на короткие 4-строчные фрагменты, которые не складываются в связный синтаксис ни внутри катрена, ни между соседними катренами — похоже на перепутанный порядок строк/строф (возможно, несколько параллельных строф были «расчёсаны» построчно вперемешку).",
+   "Явный пример разрушенного согласования наклонений в конце текста: «Heb mit Schwanensang empor / Kennt die Sprache mehr die Worte / Löse sanft des Lebens Bande, / Und vernimmt der Seelen Ton, / Mildre Kampf und Agonie.» — императивы (Heb, Löse, Mildre) перемежаются с изъявительным наклонением 3 л. ед.ч. (Kennt, vernimmt) без общего подлежащего; предложения не строятся.",
+   "Пример разрыва клаузы посреди строфы: «Hefte auf die lichtern Stellen, / Unsrer Bahn der Schwermuth Blick / Trag den Geist auf Wohllautswellen / In ein Friedensland zurück.» — «Hefte» (повелительное накл., прямое дополнение «Blick») отделено от своего дополнения последующей независимой фразой «Trag den Geist…», из-за чего первое предложение не завершается синтаксически (нет знака препинания, разрывающего его от следующего предложения) и структура выглядит перепутанной, а не просто анжамбманной.",
+   "Последняя треть текста (примерно от «Stimm aus jenen lichtern Sphären» до конца) состоит из череды коротких фраз без ясных подлежащих/связок («Heb…», «Kennt…», «Löse…», «Und vernimmt…», «Mildre…», «Wähnt sich…», «Und empfang…», «Uns, o Seraph Harmonie!») — совокупность выглядит как обрывки нескольких строф, сведённые в одну, а не связная финальная строфа."
+  ],
+  "stanzas": [
+   [
+    "Schöpferin beseelter Töne,",
+    "Nachklang, dem Olymp enthallt,",
+    "Holde körperlose Schöne,",
+    "Sanfte geistige Gewalt,",
+    "Die das Herz der Erdensöhne",
+    "Kühn erhebt und mild umwallt,",
+    "Die in inn'rer Stürme Drange",
+    "Labt mit stillen der Magie,",
+    "Komm mit deinem Sühngesange,",
+    "Himmelstochter Harmonie!",
+    "Himmelstochter Harmonie!"
+   ],
+   [
+    "Seufzer, die das Herz erstickte,",
+    "Das mißkannt sich endlich schloss,",
+    "Thränen, die das Aug zerdrückte,",
+    "Das einst viel umsonst vergoss,",
+    "Dankt dir wieder der Entzückte,",
+    "Den dein Labequell umfloss;",
+    "Der Empfindung zarte Blume,",
+    "Die manch frostger Blick versengt,",
+    "Blüht erquickt im Heiligthume",
+    "Einer Brust, die du getränkt!",
+    "Einer Brust, die du getränkt!"
+   ],
+   [
+    "Des Vergangnen Traumgebilde",
+    "Amors Morgenphantasien",
+    "Heisst dein Ruf so still wie milde",
+    "Mondesschatten uns umziehn,"
+   ],
+   [
+    "Hefte auf die lichtern Stellen,",
+    "Unsrer Bahn der Schwermuth Blick",
+    "Trag den Geist auf Wohllautswellen",
+    "In ein Friedensland zurück."
+   ],
+   [
+    "Engel, den zum Seelenkranken",
+    "Sanftes Mitleid niederträgt,",
+    "Der erquickende Gedanken",
+    "In der Töne Hülle legt."
+   ],
+   [
+    "Auf des Lebens Herbstgefilde",
+    "Längst verwelkte Veilchen blühn.",
+    "Süsser Täuschung Zauberblüthe",
+    "Die Erfahrung knickt und rafft,"
+   ],
+   [
+    "Solch ein Leben zu erhellen",
+    "Braucht man Täuschung und Musik.",
+    "Wo der Sturm des Zeitenganges",
+    "Meist der Bessern Plan zerreisst,"
+   ],
+   [
+    "Lindernd statt der Dornenranken",
+    "Seinen Fittig um ihn schlägt.",
+    "Dem kein Erdentrost geblieben",
+    "Seiner stummen Schwermuth treu,"
+   ],
+   [
+    "Weckt im ödesten Gemüthe",
+    "Deines Wohllauts Schöpfungskraft.",
+    "Holder nun ein süsses Wähnen",
+    "Kehrt das Bild verflossner Zeit;"
+   ],
+   [
+    "Träuflt Balsam des Gesanges",
+    "Hoffnung in der Edlen Geist.",
+    "Komm, Momente zu verschönen,",
+    "Dem der nicht der Zukunft traut,"
+   ],
+   [
+    "Lehr ihn weinen, lehr ihn lieben,",
+    "Und sein Leben blüht ihm neu.",
+    "Gabe Sterblichen verliehen,",
+    "Zart Gefühltes scheu verhehlt:"
+   ],
+   [
+    "Zarter strebt der Liebe Sehnen,",
+    "Milder glüht die Innigkeit,",
+    "Wenn dein Chor den Trauerscenen",
+    "Höhern Trost und Anmuth leiht,"
+   ],
+   [
+    "Schleuss den Blick mit Schlummertönen,",
+    "Der zu starr ins Dunkel schaut.",
+    "Wie den Säugling beim Entwöhnen",
+    "Eines Wiegenliedes Laut,"
+   ],
+   [
+    "Zu vertraun an Melodien",
+    "Süsse Macht, die nie verfehlt.",
+    "Seel an Seele hinzuziehen,",
+    "Was beseligt, was uns quält,"
+   ],
+   [
+    "Giebt, wo Worte nichts vermögen,",
+    "Labsal dem zerstörten Geist;",
+    "Der Ergebung stillen Segen,",
+    "Wo die Thrän erschöpfend fleusst,"
+   ],
+   [
+    "Lull auch uns in goldne Träume,",
+    "Einer bessern innern Welt,",
+    "Bis ein sanftres Licht die Räume",
+    "Unsres Kerkers still erhellt."
+   ],
+   [
+    "Was mit Worten auszudrücken",
+    "Keiner Sprache Kraft gelang,",
+    "Sehnsucht, Schauer und Entzücken",
+    "Zu ergiessen im Gesang."
+   ],
+   [
+    "Stimm aus jenen lichtern Sphären",
+    "Tön in leisen Sterbechören",
+    "Sprach aus Psyche's Vaterland",
+    "Durch des Todes Nacht uns vor,",
+    "Mit des Himmels süssen Zähren",
+    "Bei des äussern Sinns Zerstören",
+    "Hier im fremden Thal erkannt,",
+    "Weile in des Geistes Ohr."
+   ],
+   [
+    "Ach, sie fühlt noch ihr Begehren,",
+    "Die der Erde nicht gehören,",
+    "Höhern Zonen zugewandt.",
+    "Heb mit Schwanensang empor",
+    "Kennt die Sprache mehr die Worte",
+    "Löse sanft des Lebens Bande,",
+    "Und vernimmt der Seelen Ton,",
+    "Mildre Kampf und Agonie."
+   ],
+   [
+    "Wähnt sich an des Himmels Pforte,",
+    "Und empfang im Seelenlande",
+    "Der Verbannung Kluft entflohn",
+    "Uns, o Seraph Harmonie!"
+   ]
+  ]
+ },
+ {
+  "d": "395",
+  "issues": [
+   "Der Schwan, строфа 1: «Ich begleiche Kreise, die verschweben» — «begleiche» (от begleichen, «оплачивать, погашать») бессмысленно в контексте «я оплачиваю круги, которые растворяются»; похоже на OCR-искажение (ожидаемо что-то вроде «beschreibe» — «я описываю круги»), стоит сверить с оригиналом издания.",
+   "Der Adler, строфа 1: «Ich röthe weich befiedert wie gemeine Brust» синтаксически не собирается даже как фрагмент («röthe» — глагол «краснею/крашу», рядом бессвязно «wie gemeine Brust» — «как обычная грудь»); полнее, чем просто «неразборчиво», — похоже на смешение двух строк OCR. Отмечено как нераспознанное, но стоит явно исключить из текста, а не оставлять как рабочую строку, если издание не сверено.",
+   "Der Adler: строфа 1 (10 строк) сразу за собой содержит помеченный «повтор в подтекстовке» тех же 8 строк — если это действительно куплетный повтор текста под музыку (Strophenlied), стоит явно указать источник этого решения (нотное издание) в поле \"source\", а не оставлять как предположение в комментарии OCR."
+  ],
+  "stanzas": [
+   [
+    "=== DER SCHWAN ==="
+   ],
+   [
+    "Auf den Wassern wohnt mein stilles Leben,",
+    "Mich erquickt das Blau der heitern Lüfte,",
+    "Ich begleiche Kreise, die verschweben,",
+    "Und mir schwindet nie im feuchten Rauschen",
+    "Süss des Kalmus Düfte, wenn ich in dem Glanz der Abend… [конец строки утрачен — в OCR-полосе (стр. 76) текст обрывается на этом месте, далее сразу идёт заголовок «Der Adler»]"
+   ],
+   [
+    "Von Apollos Winken eingeladen,",
+    "Darf ich mich in Wohllautströmen baden,",
+    "Ihm geschmiegt zu Füssen, wenn die Lieder",
+    "Tönend wehn in Tempe's Mai hinab."
+   ],
+   [
+    "Ahndevoll betracht' ich oft die Sterne,",
+    "In der Fluth die tiefgewölbte Ferne,",
+    "Und mich zieht ein innig rührend Sehnen",
+    "Aus der Heimath in ein himmlisch Land."
+   ],
+   [
+    "So gebar sie freundliche Naturen,",
+    "Helena und euch, ihr Dioskuren,",
+    "Milde Sterne, deren Brüdertugend",
+    "Wechselnd Schattenwelt und Himmel theilt."
+   ],
+   [
+    "Von der selgen Götterkraft durchdrungen,",
+    "Hab' ich mich um Leda's Schooss geschlungen,",
+    "Schmeichelnd drückten mich die zarten Hände,",
+    "Als ihr Sinn in Wonne sich verlor."
+   ],
+   [
+    "Willig weicht dem Tod ein sanftes Leben,",
+    "Wenn sich meiner Glieder Band entweben,",
+    "Löst die Zunge sich melodisch, feiert",
+    "Jeder Hauch den heilgen Augenblick."
+   ],
+   [
+    "=== DER ADLER ==="
+   ],
+   [
+    "Spiegel der gebogne Hals und die Gestalt [фрагмент неразборчив в OCR-полосе, стр. 76; синтаксис не восстанавливается — сверка с изданием не проведена],",
+    "Ich röthe weich befiedert wie gemeine Brust [фрагмент неразборчив в OCR-полосе],",
+    "Ich haus' in den felsigen Klüften,",
+    "Ich braus' in den stürmenden Lüften,",
+    "Verjauchze daher in Gewittern,",
+    "Wenn unten den Wald sie zersplittern,",
+    "Ich trauend dem schlagenden Flügel",
+    "Bei Jagd und Kampf und Gewalt.",
+    "Ich frage den Blitz, ob er tödte,",
+    "Mit fröhlich vernichtender Lust."
+   ],
+   [
+    "(повтор в подтекстовке:)",
+    "Ich haus' in den felsigen Klüften,",
+    "Ich braus' in den stürmenden Lüften,",
+    "Verjauchze daher in Gewittern,",
+    "Wenn unten den Wald sie zersplittern,",
+    "Ich trauend dem schlagenden Flügel",
+    "Bei Jagd und Kampf und Gewalt,",
+    "Ich frage den Blitz, ob er tödte,",
+    "Mit fröhlich vernichtender Lust."
+   ],
+   [
+    "Ich kam aus den Wolken geschossen,",
+    "Entriss ihr den blöden Genossen,",
+    "Ich trug in den Klauen behende",
+    "Zum Olymp Ganymeden empor."
+   ],
+   [
+    "Ich throne bei Jupiters Sitze,",
+    "Er winkt und ich hol' ihm die Blitze,",
+    "Dann senk' ich im Schlaf das Gefieder",
+    "Auf seinen gebietenden Stab."
+   ],
+   [
+    "Ich wandte die Flüge mit Wonne",
+    "Schon früh zur unsterblichen Sonne,",
+    "Kann nie an den Staub mich gewöhnen,",
+    "Ich bin mit den Göttern verwandt."
+   ],
+   [
+    "Nun tränkt aus nektarischem Becher",
+    "Der Jüngling, die ewigen Zecher,",
+    "Nie bräunt sich die Wange der Jugend,",
+    "Wie endlos die Zeit auch enteilt."
+   ],
+   [
+    "Die Fackel der Todten verjünget,",
+    "Ein blühender Phönix entschwinget",
+    "Die Seele sich frei und entschleiert",
+    "Und grüsset ihr göttliches Glück."
+   ],
+   [
+    "=== DIE TAUBEN ==="
+   ],
+   [
+    "In der Myrthen Schatten,",
+    "Gatte treu dem Gatten,",
+    "Flattern wir und tauschen manchen langen Kuss;",
+    "Suchen und irren, finden und girren,",
+    "Schmachten und lauschen Wunsch und Genuss.",
+    "Schmachten und lauschen Wunsch und Genuss."
+   ],
+   [
+    "Venus Wagen ziehen,",
+    "Schnäbelnd wir im Fliehen,",
+    "Uns're blauen Schwingen säumt der Sonne Gold;",
+    "Wie es fächelt, wenn sie uns lächelt,",
+    "Leichtes Gelingen, lieblicher Sold.",
+    "Leichtes Gelingen, lieblicher Sold."
+   ],
+   [
+    "Wende dem — die Stürme,",
+    "Schöne Göttin, schirme",
+    "Bei bescheidner Freude deiner Tauben Paar;",
+    "Lass uns beisammen — oder in Flammen",
+    "Opfre uns beide deinem Altar.",
+    "Opfre uns beide deinem Altar."
+   ]
+  ]
+ },
+ {
+  "d": "403",
+  "issues": [
+   "Строфа 2, строки 3–6 синтаксически не складываются в осмысленную немецкую фразу: «Für die Veredlung / Zarte Morgenträume, / Der schönen Seelen / Künftigen Daseins Pfand.» «Für die Veredlung» требует родительного дополнения — «der schönen Seelen» (Veredlung der schönen Seelen = «облагораживание прекрасных душ»), а «Zarte Morgenträume ... Künftigen Daseins Pfand» — отдельная синтагма («нежные утренние грёзы, залог будущего бытия»). В данном порядке строки перемешаны попарно (3↔5, 4↔6), из-за чего фраза не читается как связное предложение — похоже на нарушение порядка строк внутри строфы, а не на историческую орфографию или повтор."
+  ],
+  "stanzas": [
+   [
+    "Ins stille Land!",
+    "Wer leitet uns hinüber?",
+    "Wer leitet uns hinüber?",
+    "Schon wölkt sich uns der Abendhimmel trüber,",
+    "Und immer trümmervoller wird der Strand.",
+    "Wer leitet uns mit sanfter Hand",
+    "Hinüber, ach hinüber,",
+    "In's stille Land?",
+    "In's stille Land!"
+   ],
+   [
+    "In's stille Land!",
+    "Zu euch, ihr freien Räume,",
+    "Für die Veredlung",
+    "Zarte Morgenträume,",
+    "Der schönen Seelen",
+    "Künftigen Daseins Pfand.",
+    "Wer treu des Lebens Kampf bestand,",
+    "Trägt seiner Hoffnung Keime",
+    "In's stille Land."
+   ],
+   [
+    "Ach Land, ach Land!",
+    "Für alle Sturmbedrohten,",
+    "Der mildeste von unsers Schicksals Boten,",
+    "Winkt uns die Fackel umgewandt,",
+    "Und leitet uns mit sanfter Hand",
+    "In's Land der grossen Todten,",
+    "In's stille Land!"
+   ]
+  ]
+ },
+ {
+  "d": "406",
+  "issues": [
+   "Первый блок текста нарушает строфическую структуру: строфы 2–4 чётко разбиты на 6 строк каждая (жизненные периоды: юность, лето жизни, вечер жизни), а первый блок вместо двух параллельных 6-строчных строф (утро жизни/детство) слеплен в один абзац из 6 «сдвоенных» строк без разбивки — строки 2 и 6 фактически содержат по 2–3 стихотворные строки, склеенные в одну. Это выглядит как утеря разбивки на строфы/строки при наборе текста, а не как особенность оригинала, и её стоит сверить с академическим изданием (NSA/Peters) перед публикацией."
+  ],
+  "stanzas": [
+   [
+    "Noch einmal tön, Harfe, die nur Gefühle tönt,",
+    "Verhalle zart und leise noch",
+    "jene Schwanenweise, die auf der Fluth des Lebens uns mit der Noth versöhnt.",
+    "Im Morgenschein des Lebens erklangst du rein und hell,",
+    "Wer kann den Klang verwahren?",
+    "Durch Forschen und Erfahren verhallet und versiegte",
+    "des Liedes reiner Quell."
+   ],
+   [
+    "In spätern Jugendjahren",
+    "Hallt es schon zart und bang,",
+    "Wie Finkenschlag im Märze,",
+    "Mit des Entknospens Schmerze",
+    "Erbeben Herz und Saiten",
+    "Voll Liebe und Gesang."
+   ],
+   [
+    "Am Sommertag des Lebens",
+    "Verstummt das Saitenspiel,",
+    "Aus sehnsuchtsvoller Seele",
+    "Lockt's noch wie Philomele,",
+    "Schon seltner, aber rührend,",
+    "Nur Schwermuth und Gefühl."
+   ],
+   [
+    "O schlag' im dunklen Busen,",
+    "Der ernsten Abendzeit,",
+    "Will um das öde Leben",
+    "Des Schicksals Nacht sich weben,",
+    "Dann schlag und wecke Sehnsucht",
+    "Nach der Unsterblichkeit."
+   ]
+  ]
+ },
+ {
+  "d": "414",
+  "issues": [
+   "Строфы 1 и 2 заканчиваются повтором последней строки (x2), но строфы 3 и 4 — нет; при этом строфа 3 (\"Im Hain, wo Blatt an Blatt sich schliesst\") не имеет рифмующегося завершения (ожидается ещё пара строк, рифмующихся с strebt/bebt или fliesst/schliesst), что указывает на возможный пропуск строк/строфы.",
+   "Строфа 4 обрывается на двух строках без парного повтора, как в строфах 1-2 — нарушение структурной симметрии текста, стоит сверить с оригиналом (полный текст должен содержать больше строк в 3-й и/или 4-й строфе)."
+  ],
+  "stanzas": [
+   [
+    "Der Abend schleiert Flur und Hain",
+    "In traulich holde Dämmrung ein;",
+    "Hell flimmt, wo goldne Wölkchen ziehn,",
+    "Der Stern der Liebeskönigin,",
+    "Der Stern der Liebeskönigin."
+   ],
+   [
+    "Die Wogenfluth hallt Schlummerklang,",
+    "Die Bäume lispeln Abendsang,",
+    "Der Wiese Gras umgaukelt lind",
+    "Mit Sylphenkuss der Frühlingswind,",
+    "Mit Sylphenkuss der Frühlingswind."
+   ],
+   [
+    "Der Geist der Liebe wirkt und strebt,",
+    "Wo nur ein Puls der Schöpfung bebt;",
+    "Im Strom, wo Woge an Woge fliesst,",
+    "Im Hain, wo Blatt an Blatt sich schliesst,"
+   ],
+   [
+    "O Geist der Liebe, führe du",
+    "Dem Jüngling die Erkorne zu!",
+    "Ein Minneblick der Trauten hellt,",
+    "Mit Himmelsglanz die Erdenwelt."
+   ]
+  ]
  }
 ]
