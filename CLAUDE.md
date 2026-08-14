@@ -1,28 +1,34 @@
 # Schubert Lieder — все песни Шуберта с пословным русским переводом
 
-Референс проекта: https://github.com/evgobmm/Winterreise (CC0). Копия исходников и свода правил перевода — в `planning/winterreise-reference/` (его CLAUDE.md — действующий свод правил перевода и для этого проекта, пока не выделен собственный).
+**Статус: пилотная фаза.** Пилот — «Gretchen am Spinnrade» (D 118): подстрочник, пояснения, «О песне», топ-5 исполнений; без синхронизации слов с записью.
 
-**Статус: пилотная фаза.** Пилотная песня — **«Gretchen am Spinnrade» (D 118)**. Синхронизацию слов с записью пока не делаем; на пилоте — подстрочник, пояснения, раздел «О песне», топ-5 исполнений.
+## ⚠️ Обязательный процесс
 
-## Обязательные правила
+- **Каждое указание пользователя из чата немедленно фиксируется в `docs/rules/`** (реестр — `docs/rules/index.md`). Противоречие с записанным → переписать правило и **явно сообщить пользователю, что переписано** (было → стало); неясно — спросить. Подробности: `docs/rules/workflow.md`.
+- Перевод — по правилам референса: `planning/winterreise-reference/CLAUDE.md` (действующий свод, пока не выделен собственный).
+- Отбор исполнений: `docs/rules/youtube-performances.md`. Проверка фактов: `docs/rules/verification-protocol.md`.
+- Агенты/скрипты не пишут временные файлы в репозиторий — только в scratchpad.
 
-- Перевод — по правилам референса (`planning/winterreise-reference/CLAUDE.md`): пословная сегментация, аннотации `lang`/`meaning`, словари эпохи, ё, «ёлочки», типографика.
-- Отбор исполнений: `docs/rules/youtube-performances.md`.
-- Проверка фактов: `docs/rules/verification-protocol.md` — каждое утверждение с источником и цитатой; файлы фактов в `planning/research/<песня>-facts.md`.
+## Структура репозитория
 
-## Приложение
+- `docs/rules/` — правила (живые, источник истины по процессу и требованиям);
+- `planning/` — исследования (`research/`) и копия референса (`winterreise-reference/`, CC0);
+- `app/` — всё приложение (Vue 3 + Vite, адаптация референса без «снега»);
+- корень — только CLAUDE.md, README.md и служебные каталоги.
 
-Vue 3 + Vite (адаптация референса, без «снега»): `src/`. Сборка `npm run build`, деплой — GitHub Actions → Pages (`.github/workflows/deploy.yml`), base `/schubert-lieder/`.
+## Приложение (`app/`)
 
-Модель данных песни (`src/data/songs/<slug>.json`) — как в референсе, плюс поля:
+Сборка: `cd app && npm run build`. Деплой: GitHub Actions → Pages (`.github/workflows/deploy.yml`), base `/schubert-lieder/`.
+
+Модель данных песни (`app/src/data/songs/<slug>.json`) — как в референсе, плюс поля:
 - `"d"` — номер по Дойчу (строка, канонический ID; slug файла `d118-gretchen-am-spinnrade.json`);
 - `"poet_de"` / `"poet_ru"`, `"year"` — метаданные (строка под заголовком);
 - `"about"` — массив секций `{title, text}` раздела «О песне» (текст: `*курсив*`, абзацы через `\n`).
 
-`src/data/index.json`: `{number, d, title_de, title_ru, poet_ru, file, ready}` (number — порядковый номер в списке сайта).
+`app/src/data/index.json`: `{number, d, title_de, title_ru, poet_ru, file, ready}` (number — порядковый номер в списке сайта).
 
-`src/data/performances.json`: `{"<d>": [{videoId, name, year}, ...]}` — до 5 записей в порядке ранжирования, первая — главная.
+`app/src/data/performances.json`: `{"<d>": [{videoId, name, year}, ...]}` — до 5 записей в порядке ранжирования, первая — главная.
 
 ## Окружение
 
-Devcontainer без Node по умолчанию — Node 20 ставится бинарником в `~/.local/node` (симлинки в `~/.local/bin`). GitHub: fine-grained token только на этот репозиторий (gh auth). Папка root-owned → git требует `safe.directory`.
+Devcontainer без Node по умолчанию — Node 20 в `~/.local/node` (симлинки в `~/.local/bin`). GitHub: fine-grained token только на этот репозиторий (gh auth). Папка root-owned → git требует `safe.directory`. Контейнер небольшой (7,5 ГБ RAM) — не перегружать параллельными агентами.
