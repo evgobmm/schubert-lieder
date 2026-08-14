@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed } from 'vue'
 
 const props = defineProps({
   songs: Array,
@@ -25,20 +25,12 @@ const currentSectionId = computed(() => {
   return song ? song.section : null
 })
 
-// Аккордеон: по умолчанию всё свёрнуто, раздел текущей песни раскрывается сам
-const expanded = ref(new Set(currentSectionId.value ? [currentSectionId.value] : []))
-
-watch(currentSectionId, (id) => {
-  if (id && !expanded.value.has(id)) {
-    expanded.value = new Set(expanded.value).add(id)
-  }
-})
+// Аккордеон: по умолчанию всё закрыто; раскрыт максимум один раздел —
+// открытие раздела закрывает предыдущий (правило: docs/rules/project.md)
+const expanded = ref(null)
 
 function toggle(id) {
-  const next = new Set(expanded.value)
-  if (next.has(id)) next.delete(id)
-  else next.add(id)
-  expanded.value = next
+  expanded.value = expanded.value === id ? null : id
 }
 </script>
 
@@ -48,14 +40,14 @@ function toggle(id) {
       <button
         v-if="group.title"
         class="group-header"
-        :class="{ open: expanded.has(group.id), 'has-active': group.id === currentSectionId }"
+        :class="{ open: expanded === group.id, 'has-active': group.id === currentSectionId }"
         @click="toggle(group.id)"
       >
         <span class="group-chevron" aria-hidden="true">▸</span>
         <span class="group-name">{{ group.title }}</span>
         <span class="group-count">{{ group.songs.length }}</span>
       </button>
-      <ul v-if="!group.title || expanded.has(group.id)">
+      <ul v-if="!group.title || expanded === group.id">
         <li
           v-for="song in group.songs"
           :key="song.number"

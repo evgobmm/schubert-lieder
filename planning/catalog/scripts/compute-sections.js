@@ -99,10 +99,10 @@ addSec('1820-1821', '1820–1821', [1820, 1821].flatMap(Y));
 addSec('1822-1823', '1822–1823', [1822, 1823].flatMap(Y));
 addSec('1824-1825', '1824–1825', [1824, 1825].flatMap(Y));
 addSec('1826-1827', '1826–1827', [1826, 1827].flatMap(Y));
-addSec('1828', 'Последний год (1828)', Y(1828));
-addSec('muellerin', 'Прекрасная мельничиха (D 795, 1823)', cycleSongs.muellerin);
-addSec('winterreise', 'Зимний путь (D 911, 1827)', cycleSongs.winterreise);
-addSec('schwanengesang', 'Лебединая песня (D 957 + D 965A, 1828)', cycleSongs.schwanengesang);
+addSec('1828', '1828', Y(1828));
+addSec('muellerin', 'Die schöne Müllerin (D 795, 1823)', cycleSongs.muellerin);
+addSec('winterreise', 'Winterreise (D 911, 1827)', cycleSongs.winterreise);
+addSec('schwanengesang', 'Schwanengesang (D 957 + D 965A, 1828)', cycleSongs.schwanengesang);
 
 fs.writeFileSync('/workspaces/schubert-lieder/planning/catalog/sections.json', JSON.stringify({ generated: '2026-08-14', sections, excluded }, null, 1));
 fs.writeFileSync(CAT, JSON.stringify(catalog, null, 1));
