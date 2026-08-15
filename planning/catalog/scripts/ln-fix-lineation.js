@@ -7,6 +7,7 @@ const path = require('path');
 const { norm, extractPre, sim, align, eqTok } = require('./ln-lib');
 const PAGES = process.argv[2];
 const APPLY = process.argv.includes('--apply');
+const FORCE = process.argv.includes('--force');
 const TP = path.join(__dirname, '../sources/texts-published.json');
 const tp = JSON.parse(fs.readFileSync(TP, 'utf8'));
 const { map } = require('../sources/liedernet-map.json');
@@ -58,7 +59,7 @@ for (const d of Object.keys(keyByD)) {
   const { ourState, ourToLn, splitGroup } = align(lnLines, ourLines);
   // построить новые строки с приписанной LN-строкой
   const out = []; // {text, lnIdx|null, origStart}
-  let bad = null;
+  let bad = null, forced = false;
   for (let j = 0; j < ourLines.length && !bad; j++) {
     const st = ourState[j];
     if (st === 'extra') { out.push({ text: ourLines[j], lnIdx: null, origStart: ourStanzaStart[j] }); continue; }
@@ -72,12 +73,25 @@ for (const d of Object.keys(keyByD)) {
     const [i0, i1] = ourToLn[j];
     if (i1 - i0 === 1) { out.push({ text: ourLines[j], lnIdx: i0 }); continue; }
     const lnNorms = lnLines.slice(i0, i1).map(norm);
-    const segs = splitTokens(ourLines[j].split(/\s+/), lnNorms);
-    if (!segs) { bad = 'split-fail@' + j; break; }
-    for (let t = 0; t < segs.length; t++) {
-      if (sim(norm(segs[t]), lnNorms[t]) < 0.6) { bad = 'seg-sim@' + j; break; }
-      out.push({ text: segs[t], lnIdx: i0 + t });
+    let segs = splitTokens(ourLines[j].split(/\s+/), lnNorms);
+    let okSegs = !!segs;
+    if (okSegs) for (let t = 0; t < segs.length; t++) if (sim(norm(segs[t]), lnNorms[t]) < 0.6) okSegs = false;
+    if (!okSegs) {
+      if (!FORCE) { bad = segs ? 'seg-sim@' + j : 'split-fail@' + j; break; }
+      // аварийный разрез: пропорционально числу слов эталонных строк
+      const toks = ourLines[j].split(/\s+/);
+      const counts = lnNorms.map(l => l.split(' ').length);
+      const total = counts.reduce((a, b) => a + b, 0);
+      segs = []; let pos = 0;
+      for (let t = 0; t < counts.length; t++) {
+        const take = t === counts.length - 1 ? toks.length - pos : Math.max(1, Math.round(toks.length * counts[t] / total));
+        segs.push(toks.slice(pos, Math.min(pos + take, toks.length)).join(' '));
+        pos += take;
+      }
+      if (segs.some(s => !s)) { bad = 'force-fail@' + j; break; }
+      forced = true;
     }
+    for (let t = 0; t < segs.length; t++) out.push({ text: segs[t], lnIdx: i0 + t });
   }
   if (bad) { stats.skipped.push([d, bad]); continue; }
   // сгруппировать в строфы: сопоставленные строки — по границам эталона;
@@ -100,10 +114,10 @@ for (const d of Object.keys(keyByD)) {
   const bag = ls => ls.join(' ').split(/\s+/).filter(Boolean).sort().join('|');
   if (bag(ourLines) !== bag(stanzas.flat())) { stats.skipped.push([d, 'token-guard']); continue; }
   const newShape = stanzas.map(s => s.length);
-  stats.fixed.push([d, JSON.stringify(r.ourShape) + '→' + JSON.stringify(newShape)]);
+  stats.fixed.push([d, JSON.stringify(r.ourShape) + '→' + JSON.stringify(newShape) + (forced ? ' FORCED' : '')]);
   if (APPLY) {
     entry.stanzas = stanzas;
-    entry.lineation = 'ln-reference';
+    entry.lineation = forced ? 'ln-reference-forced' : 'ln-reference';
   }
 }
 if (APPLY) fs.writeFileSync(TP, JSON.stringify(tp, null, 1));
