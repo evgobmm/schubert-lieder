@@ -13,7 +13,8 @@ function extractPre(html) {
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
     .replace(/\r/g, '');
-  return t.split(/\n\s*\n+/).map(st => st.split('\n').map(l => l.trim()).filter(Boolean)).filter(st => st.length);
+  // строки без букв («…» — заполнители невошедших мест) выбрасываем
+  return t.split(/\n\s*\n+/).map(st => st.split('\n').map(l => l.trim()).filter(l => /[A-Za-zÄÖÜäöüß]/.test(l))).filter(st => st.length);
 }
 
 // токены равны: точно, либо редакционная вариация в 1 символ у слов от 4 букв (Spaden/Spaten, giebt/gibt)

@@ -6,7 +6,7 @@
   "wholeMissing": 0,
   "partialMissing": 3,
   "lnShape": [
-   4,
+   3,
    4,
    4,
    3,
@@ -45,15 +45,15 @@
    2,
    3
   ],
-  "lnLines": 74,
+  "lnLines": 73,
   "ourLinesN": 48,
-  "merged": 57,
+  "merged": 56,
   "splitOur": 0,
   "missing": 3,
   "missingIdx": [
-   11,
-   30,
-   40
+   10,
+   29,
+   39
   ],
   "extraOur": 7,
   "boundMiss": [
@@ -975,20 +975,19 @@
   "ourShape": [
    7,
    4,
-   10,
+   4,
+   4,
+   4,
    2
   ],
   "lnLines": 20,
-  "ourLinesN": 23,
-  "merged": 4,
+  "ourLinesN": 25,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 5,
-  "boundMiss": [
-   3,
-   4
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "109": {
@@ -1377,7 +1376,7 @@
    5,
    4,
    6,
-   5,
+   4,
    1
   ],
   "ourShape": [
@@ -1394,17 +1393,17 @@
    5,
    2
   ],
-  "lnLines": 75,
+  "lnLines": 74,
   "ourLinesN": 59,
-  "merged": 25,
+  "merged": 24,
   "splitOur": 0,
   "missing": 5,
   "missingIdx": [
    0,
    1,
    50,
-   73,
-   74
+   72,
+   73
   ],
   "extraOur": 3,
   "boundMiss": [
@@ -1412,7 +1411,7 @@
    4,
    9
   ],
-  "coverage": 0.933
+  "coverage": 0.932
  },
  "134": {
   "status": "ok",
@@ -1569,7 +1568,7 @@
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
-   4
+   3
   ],
   "ourShape": [
    5,
@@ -1586,9 +1585,9 @@
    5,
    5
   ],
-  "lnLines": 4,
+  "lnLines": 3,
   "ourLinesN": 65,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
@@ -1794,13 +1793,12 @@
  "155": {
   "status": "ok",
   "sungText": true,
-  "shapeSame": false,
+  "shapeSame": true,
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    8,
    8,
-   1,
    8
   ],
   "ourShape": [
@@ -1808,16 +1806,14 @@
    8,
    8
   ],
-  "lnLines": 25,
+  "lnLines": 24,
   "ourLinesN": 24,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 0,
-  "boundMiss": [
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "159": {
@@ -1987,7 +1983,7 @@
   "status": "ok",
   "sungText": false,
   "shapeSame": false,
-  "wholeMissing": 2,
+  "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    8,
@@ -1995,29 +1991,19 @@
    8
   ],
   "ourShape": [
-   4,
-   5
+   9,
+   8,
+   8
   ],
   "lnLines": 24,
-  "ourLinesN": 9,
+  "ourLinesN": 25,
   "merged": 0,
   "splitOur": 0,
-  "missing": 16,
-  "missingIdx": [
-   8,
-   9,
-   10,
-   11,
-   12,
-   13,
-   14,
-   15,
-   16,
-   17
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 1,
   "boundMiss": [],
-  "coverage": 0.333
+  "coverage": 1
  },
  "165": {
   "status": "ok",
@@ -2259,8 +2245,7 @@
    8
   ],
   "ourShape": [
-   4,
-   5,
+   9,
    8,
    8
   ],
@@ -3067,7 +3052,7 @@
   "sungText": true,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    4,
    4,
@@ -3077,23 +3062,19 @@
   "ourShape": [
    4,
    4,
-   4
+   7
   ],
   "lnLines": 16,
-  "ourLinesN": 12,
+  "ourLinesN": 15,
   "merged": 2,
   "splitOur": 0,
-  "missing": 3,
-  "missingIdx": [
-   8,
-   9,
-   10
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 0,
   "boundMiss": [
    3
   ],
-  "coverage": 0.813
+  "coverage": 1
  },
  "216": {
   "status": "ok",
@@ -3541,7 +3522,8 @@
    6
   ],
   "ourShape": [
-   16,
+   6,
+   11,
    8,
    8,
    8,
@@ -3550,15 +3532,13 @@
    3
   ],
   "lnLines": 42,
-  "ourLinesN": 59,
-  "merged": 2,
+  "ourLinesN": 60,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 18,
-  "boundMiss": [
-   1
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "233": {
@@ -4266,7 +4246,6 @@
    4,
    4,
    4,
-   1,
    4,
    4,
    4,
@@ -4283,16 +4262,14 @@
    4,
    4
   ],
-  "lnLines": 33,
+  "lnLines": 32,
   "ourLinesN": 36,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 4,
-  "boundMiss": [
-   5
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "260": {
@@ -4896,23 +4873,22 @@
    4
   ],
   "ourShape": [
-   10,
-   10,
-   2,
+   4,
+   6,
+   4,
+   6,
+   4,
    3,
    4
   ],
   "lnLines": 20,
-  "ourLinesN": 29,
-  "merged": 4,
+  "ourLinesN": 31,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 11,
-  "boundMiss": [
-   1,
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "284": {
@@ -5542,30 +5518,28 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 1,
+  "wholeMissing": 0,
   "partialMissing": 1,
   "lnShape": [
    4,
-   4,
-   1
+   4
   ],
   "ourShape": [
    3,
    8
   ],
-  "lnLines": 9,
+  "lnLines": 8,
   "ourLinesN": 11,
   "merged": 2,
   "splitOur": 0,
-  "missing": 3,
+  "missing": 2,
   "missingIdx": [
    4,
-   5,
-   8
+   5
   ],
   "extraOur": 6,
   "boundMiss": [],
-  "coverage": 0.667
+  "coverage": 0.75
  },
  "309": {
   "status": "ok",
@@ -5787,25 +5761,25 @@
    2,
    2,
    3,
-   4,
-   2
+   5,
+   2,
+   3
   ],
   "lnLines": 24,
-  "ourLinesN": 27,
+  "ourLinesN": 31,
   "merged": 8,
   "splitOur": 2,
-  "missing": 4,
+  "missing": 3,
   "missingIdx": [
    4,
    16,
-   17,
-   18
+   17
   ],
-  "extraOur": 10,
+  "extraOur": 13,
   "boundMiss": [
    5
   ],
-  "coverage": 0.833
+  "coverage": 0.875
  },
  "317": {
   "status": "ok",
@@ -5908,8 +5882,8 @@
   "status": "ok",
   "sungText": false,
   "shapeSame": false,
-  "wholeMissing": 4,
-  "partialMissing": 6,
+  "wholeMissing": 3,
+  "partialMissing": 7,
   "lnShape": [
    8,
    8,
@@ -5942,7 +5916,7 @@
    8,
    8,
    8,
-   8,
+   10,
    8,
    8,
    8,
@@ -5952,10 +5926,10 @@
    8
   ],
   "lnLines": 152,
-  "ourLinesN": 150,
+  "ourLinesN": 152,
   "merged": 12,
   "splitOur": 0,
-  "missing": 65,
+  "missing": 63,
   "missingIdx": [
    3,
    4,
@@ -5974,7 +5948,7 @@
    10,
    16
   ],
-  "coverage": 0.572
+  "coverage": 0.586
  },
  "320": {
   "status": "ok",
@@ -6073,9 +6047,9 @@
  "323": {
   "status": "ok",
   "sungText": false,
-  "shapeSame": true,
+  "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    12,
    12,
@@ -6095,7 +6069,7 @@
    12,
    12,
    12,
-   12,
+   13,
    12,
    12,
    12,
@@ -6103,16 +6077,14 @@
    12
   ],
   "lnLines": 132,
-  "ourLinesN": 132,
+  "ourLinesN": 133,
   "merged": 0,
   "splitOur": 0,
-  "missing": 1,
-  "missingIdx": [
-   63
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 1,
   "boundMiss": [],
-  "coverage": 0.992
+  "coverage": 1
  },
  "325": {
   "status": "ok",
@@ -6252,46 +6224,42 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 1,
-  "partialMissing": 4,
+  "wholeMissing": 0,
+  "partialMissing": 3,
   "lnShape": [
    7,
    7,
-   1,
    7,
-   1,
    7
   ],
   "ourShape": [
+   5,
    4,
-   4,
-   4,
-   4
-  ],
-  "lnLines": 30,
-  "ourLinesN": 16,
-  "merged": 9,
-  "splitOur": 0,
-  "missing": 15,
-  "missingIdx": [
-   0,
-   1,
-   2,
-   3,
-   4,
-   12,
-   13,
-   14,
-   20,
-   24
-  ],
-  "extraOur": 7,
-  "boundMiss": [
-   1,
+   5,
+   5,
    4,
    5
   ],
-  "coverage": 0.5
+  "lnLines": 28,
+  "ourLinesN": 28,
+  "merged": 10,
+  "splitOur": 0,
+  "missing": 6,
+  "missingIdx": [
+   0,
+   1,
+   3,
+   4,
+   12,
+   22
+  ],
+  "extraOur": 12,
+  "boundMiss": [
+   1,
+   2,
+   3
+  ],
+  "coverage": 0.786
  },
  "343": {
   "status": "ok",
@@ -6301,9 +6269,7 @@
   "partialMissing": 0,
   "lnShape": [
    6,
-   1,
    6,
-   1,
    6
   ],
   "ourShape": [
@@ -6317,17 +6283,14 @@
    6,
    6
   ],
-  "lnLines": 20,
+  "lnLines": 18,
   "ourLinesN": 54,
-  "merged": 4,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 36,
-  "boundMiss": [
-   1,
-   4
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "344": {
@@ -6438,7 +6401,7 @@
   "sungText": false,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    4,
    4,
@@ -6447,24 +6410,21 @@
   ],
   "ourShape": [
    5,
-   5,
+   8,
    5
   ],
   "lnLines": 16,
-  "ourLinesN": 15,
+  "ourLinesN": 18,
   "merged": 4,
   "splitOur": 0,
-  "missing": 3,
-  "missingIdx": [
-   5,
-   6,
-   7
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 4,
   "boundMiss": [
-   1
+   1,
+   2
   ],
-  "coverage": 0.813
+  "coverage": 1
  },
  "359": {
   "status": "ok",
@@ -6584,42 +6544,28 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 4,
+  "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
+   6,
+   6,
+   6
+  ],
+  "ourShape": [
    6,
    1,
    6,
    6
   ],
-  "ourShape": [
-   4,
-   4,
-   4,
-   4,
-   4,
-   4
-  ],
-  "lnLines": 19,
-  "ourLinesN": 24,
+  "lnLines": 18,
+  "ourLinesN": 19,
   "merged": 0,
   "splitOur": 0,
-  "missing": 19,
-  "missingIdx": [
-   0,
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9
-  ],
-  "extraOur": 24,
+  "missing": 0,
+  "missingIdx": [],
+  "extraOur": 1,
   "boundMiss": [],
-  "coverage": 0
+  "coverage": 1
  },
  "367": {
   "status": "ok",
@@ -6656,13 +6602,12 @@
  "368": {
   "status": "ok",
   "sungText": true,
-  "shapeSame": false,
+  "shapeSame": true,
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    4,
    4,
-   1,
    4
   ],
   "ourShape": [
@@ -6670,16 +6615,14 @@
    4,
    4
   ],
-  "lnLines": 13,
+  "lnLines": 12,
   "ourLinesN": 12,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 0,
-  "boundMiss": [
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "369": {
@@ -6981,8 +6924,8 @@
   "status": "ok",
   "sungText": false,
   "shapeSame": false,
-  "wholeMissing": 2,
-  "partialMissing": 0,
+  "wholeMissing": 0,
+  "partialMissing": 1,
   "lnShape": [
    7,
    7,
@@ -6991,28 +6934,22 @@
   ],
   "ourShape": [
    5,
-   5
+   5,
+   6,
+   4
   ],
   "lnLines": 28,
-  "ourLinesN": 10,
-  "merged": 8,
+  "ourLinesN": 20,
+  "merged": 14,
   "splitOur": 0,
-  "missing": 14,
+  "missing": 2,
   "missingIdx": [
-   14,
-   15,
-   16,
-   17,
-   18,
-   19,
-   20,
-   21,
-   22,
-   23
+   23,
+   24
   ],
-  "extraOur": 0,
+  "extraOur": 1,
   "boundMiss": [],
-  "coverage": 0.5
+  "coverage": 0.929
  },
  "390": {
   "status": "ok",
@@ -7553,12 +7490,11 @@
   "lnShape": [
    8,
    8,
-   8,
-   1
+   8
   ],
   "ourShape": [
    5,
-   4,
+   7,
    4,
    4,
    4,
@@ -7571,26 +7507,20 @@
    4,
    4
   ],
-  "lnLines": 25,
-  "ourLinesN": 53,
-  "merged": 12,
+  "lnLines": 24,
+  "ourLinesN": 56,
+  "merged": 14,
   "splitOur": 0,
-  "missing": 7,
+  "missing": 2,
   "missingIdx": [
-   8,
-   9,
    10,
-   11,
-   12,
-   13,
-   14
+   11
   ],
   "extraOur": 41,
   "boundMiss": [
-   2,
-   3
+   2
   ],
-  "coverage": 0.72
+  "coverage": 0.917
  },
  "405": {
   "status": "ok",
@@ -7687,26 +7617,23 @@
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
-   10,
-   1
+   10
   ],
   "ourShape": [
    4,
-   7,
+   11,
    10,
    10,
    10
   ],
-  "lnLines": 11,
-  "ourLinesN": 41,
-  "merged": 10,
+  "lnLines": 10,
+  "ourLinesN": 45,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 35,
-  "boundMiss": [
-   1
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "411": {
@@ -7828,39 +7755,32 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 3,
-  "partialMissing": 0,
+  "wholeMissing": 0,
+  "partialMissing": 1,
   "lnShape": [
    4,
    4,
    4,
-   4,
-   1
+   4
   ],
   "ourShape": [
    6,
    4,
+   4,
+   3,
    4
   ],
-  "lnLines": 17,
-  "ourLinesN": 14,
+  "lnLines": 16,
+  "ourLinesN": 21,
   "merged": 0,
   "splitOur": 0,
-  "missing": 9,
+  "missing": 1,
   "missingIdx": [
-   8,
-   9,
-   10,
-   11,
-   12,
-   13,
-   14,
-   15,
-   16
+   10
   ],
   "extraOur": 6,
   "boundMiss": [],
-  "coverage": 0.471
+  "coverage": 0.938
  },
  "416": {
   "status": "ok",
@@ -7893,29 +7813,26 @@
   "sungText": false,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 2,
+  "partialMissing": 0,
   "lnShape": [
    6,
    6,
    6
   ],
   "ourShape": [
-   4,
-   6
+   7,
+   6,
+   7
   ],
   "lnLines": 18,
-  "ourLinesN": 10,
-  "merged": 13,
+  "ourLinesN": 20,
+  "merged": 0,
   "splitOur": 0,
-  "missing": 3,
-  "missingIdx": [
-   10,
-   11,
-   12
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 2,
   "boundMiss": [],
-  "coverage": 0.833
+  "coverage": 1
  },
  "419": {
   "status": "ok",
@@ -7982,8 +7899,7 @@
    4,
    4,
    4,
-   4,
-   1
+   4
   ],
   "ourShape": [
    5,
@@ -7992,16 +7908,14 @@
    4,
    4
   ],
-  "lnLines": 17,
+  "lnLines": 16,
   "ourLinesN": 22,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 6,
-  "boundMiss": [
-   4
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "431": {
@@ -8098,25 +8012,23 @@
    2,
    2,
    3,
-   3,
+   5,
    5
   ],
   "lnLines": 30,
-  "ourLinesN": 19,
+  "ourLinesN": 21,
   "merged": 15,
   "splitOur": 0,
-  "missing": 4,
+  "missing": 2,
   "missingIdx": [
    7,
-   18,
-   19,
    20
   ],
   "extraOur": 3,
   "boundMiss": [
    1
   ],
-  "coverage": 0.867
+  "coverage": 0.933
  },
  "436": {
   "status": "ok",
@@ -8148,7 +8060,7 @@
  "442": {
   "status": "ok",
   "sungText": true,
-  "shapeSame": false,
+  "shapeSame": true,
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
@@ -8156,26 +8068,23 @@
    4,
    4,
    4,
-   1,
    4
   ],
   "ourShape": [
    4,
    4,
    4,
-   5,
+   4,
    4
   ],
-  "lnLines": 21,
-  "ourLinesN": 21,
-  "merged": 2,
-  "splitOur": 2,
+  "lnLines": 20,
+  "ourLinesN": 20,
+  "merged": 0,
+  "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 0,
-  "boundMiss": [
-   5
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "443": {
@@ -8379,9 +8288,9 @@
  "448": {
   "status": "ok",
   "sungText": false,
-  "shapeSame": true,
-  "wholeMissing": 2,
-  "partialMissing": 0,
+  "shapeSame": false,
+  "wholeMissing": 1,
+  "partialMissing": 1,
   "lnShape": [
    6,
    6,
@@ -8395,19 +8304,17 @@
    6,
    6,
    6,
-   6,
+   8,
    6,
    6,
    6
   ],
   "lnLines": 42,
-  "ourLinesN": 42,
+  "ourLinesN": 44,
   "merged": 0,
   "splitOur": 0,
-  "missing": 12,
+  "missing": 10,
   "missingIdx": [
-   18,
-   19,
    20,
    21,
    22,
@@ -8415,11 +8322,13 @@
    24,
    25,
    26,
-   27
+   27,
+   28,
+   29
   ],
   "extraOur": 12,
   "boundMiss": [],
-  "coverage": 0.714
+  "coverage": 0.762
  },
  "449": {
   "status": "ok",
@@ -8432,26 +8341,23 @@
    4,
    4,
    4,
-   1,
    4
   ],
   "ourShape": [
-   9,
-   8,
+   5,
+   4,
+   4,
+   4,
    5
   ],
-  "lnLines": 21,
+  "lnLines": 20,
   "ourLinesN": 22,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 2,
-  "boundMiss": [
-   1,
-   3,
-   5
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "450": {
@@ -8599,35 +8505,31 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 1,
+  "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    3,
    9,
    3,
    9,
-   3,
-   1
+   3
   ],
   "ourShape": [
-   2,
-   7,
-   2,
-   5,
    3,
-   2
+   9,
+   3,
+   10,
+   3
   ],
-  "lnLines": 28,
-  "ourLinesN": 21,
-  "merged": 13,
+  "lnLines": 27,
+  "ourLinesN": 28,
+  "merged": 0,
   "splitOur": 0,
-  "missing": 1,
-  "missingIdx": [
-   27
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 1,
   "boundMiss": [],
-  "coverage": 0.964
+  "coverage": 1
  },
  "458": {
   "status": "ok",
@@ -8636,22 +8538,19 @@
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
-   5,
-   1
-  ],
-  "ourShape": [
    5
   ],
-  "lnLines": 6,
-  "ourLinesN": 5,
-  "merged": 4,
+  "ourShape": [
+   6
+  ],
+  "lnLines": 5,
+  "ourLinesN": 6,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 1,
-  "boundMiss": [
-   1
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "462": {
@@ -8766,7 +8665,7 @@
  "465": {
   "status": "ok",
   "sungText": false,
-  "shapeSame": true,
+  "shapeSame": false,
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
@@ -8777,15 +8676,17 @@
   "ourShape": [
    8,
    8,
-   8
+   8,
+   2,
+   4
   ],
   "lnLines": 24,
-  "ourLinesN": 24,
+  "ourLinesN": 30,
   "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
-  "extraOur": 0,
+  "extraOur": 6,
   "boundMiss": [],
   "coverage": 1
  },
@@ -8899,8 +8800,8 @@
  "469": {
   "status": "ok",
   "sungText": false,
-  "shapeSame": false,
-  "wholeMissing": 4,
+  "shapeSame": true,
+  "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    4,
@@ -8909,30 +8810,20 @@
    4
   ],
   "ourShape": [
-   7,
-   7,
-   7
+   4,
+   4,
+   4,
+   4
   ],
   "lnLines": 16,
-  "ourLinesN": 21,
+  "ourLinesN": 16,
   "merged": 0,
   "splitOur": 0,
-  "missing": 16,
-  "missingIdx": [
-   0,
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9
-  ],
-  "extraOur": 21,
+  "missing": 0,
+  "missingIdx": [],
+  "extraOur": 0,
   "boundMiss": [],
-  "coverage": 0
+  "coverage": 1
  },
  "473": {
   "status": "ok",
@@ -9391,8 +9282,8 @@
   "status": "ok",
   "sungText": false,
   "shapeSame": false,
-  "wholeMissing": 1,
-  "partialMissing": 2,
+  "wholeMissing": 0,
+  "partialMissing": 1,
   "lnShape": [
    4,
    4,
@@ -9402,30 +9293,27 @@
   "ourShape": [
    2,
    2,
-   6,
+   9,
    3,
    4,
+   2,
    2,
    2
   ],
   "lnLines": 16,
-  "ourLinesN": 21,
-  "merged": 0,
+  "ourLinesN": 26,
+  "merged": 4,
   "splitOur": 0,
-  "missing": 6,
+  "missing": 1,
   "missingIdx": [
-   4,
-   5,
-   6,
-   7,
-   8,
    13
   ],
-  "extraOur": 11,
+  "extraOur": 13,
   "boundMiss": [
+   2,
    3
   ],
-  "coverage": 0.625
+  "coverage": 0.938
  },
  "497": {
   "status": "ok",
@@ -9478,7 +9366,7 @@
  "499": {
   "status": "ok",
   "sungText": true,
-  "shapeSame": false,
+  "shapeSame": true,
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
@@ -9486,8 +9374,7 @@
    6,
    6,
    6,
-   6,
-   1
+   6
   ],
   "ourShape": [
    6,
@@ -9496,16 +9383,14 @@
    6,
    6
   ],
-  "lnLines": 31,
+  "lnLines": 30,
   "ourLinesN": 30,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 0,
-  "boundMiss": [
-   5
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "500": {
@@ -9561,8 +9446,8 @@
  "501": {
   "status": "ok",
   "sungText": true,
-  "shapeSame": false,
-  "wholeMissing": 1,
+  "shapeSame": true,
+  "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    6,
@@ -9577,24 +9462,18 @@
    6,
    6,
    6,
+   6,
    6
   ],
   "lnLines": 36,
-  "ourLinesN": 30,
+  "ourLinesN": 36,
   "merged": 0,
   "splitOur": 0,
-  "missing": 6,
-  "missingIdx": [
-   6,
-   7,
-   8,
-   9,
-   10,
-   11
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 0,
   "boundMiss": [],
-  "coverage": 0.833
+  "coverage": 1
  },
  "502": {
   "status": "ok",
@@ -9630,7 +9509,7 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": true,
-  "wholeMissing": 4,
+  "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    6,
@@ -9648,22 +9527,11 @@
   "ourLinesN": 24,
   "merged": 0,
   "splitOur": 0,
-  "missing": 24,
-  "missingIdx": [
-   0,
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9
-  ],
-  "extraOur": 24,
+  "missing": 0,
+  "missingIdx": [],
+  "extraOur": 0,
   "boundMiss": [],
-  "coverage": 0
+  "coverage": 1
  },
  "504": {
   "status": "ok",
@@ -9983,27 +9851,21 @@
   "lnShape": [
    6,
    6,
-   6,
-   1
+   6
   ],
   "ourShape": [
-   4,
-   3,
-   4,
-   3,
-   4,
-   3
+   7,
+   7,
+   7
   ],
-  "lnLines": 19,
+  "lnLines": 18,
   "ourLinesN": 21,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 3,
-  "boundMiss": [
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "520": {
@@ -10203,28 +10065,27 @@
   "sungText": true,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    4,
    4,
    4
   ],
   "ourShape": [
+   6,
    5,
    5,
-   5
+   2
   ],
   "lnLines": 12,
-  "ourLinesN": 15,
+  "ourLinesN": 18,
   "merged": 2,
   "splitOur": 0,
-  "missing": 1,
-  "missingIdx": [
-   1
-  ],
-  "extraOur": 5,
+  "missing": 0,
+  "missingIdx": [],
+  "extraOur": 7,
   "boundMiss": [],
-  "coverage": 0.917
+  "coverage": 1
  },
  "528": {
   "status": "ok",
@@ -10308,8 +10169,7 @@
   "lnShape": [
    4,
    4,
-   4,
-   1
+   4
   ],
   "ourShape": [
    7,
@@ -10327,9 +10187,9 @@
    4,
    4
   ],
-  "lnLines": 13,
+  "lnLines": 12,
   "ourLinesN": 59,
-  "merged": 6,
+  "merged": 4,
   "splitOur": 0,
   "missing": 1,
   "missingIdx": [
@@ -10337,10 +10197,9 @@
   ],
   "extraOur": 50,
   "boundMiss": [
-   1,
-   3
+   1
   ],
-  "coverage": 0.923
+  "coverage": 0.917
  },
  "533": {
   "status": "ok",
@@ -10351,18 +10210,16 @@
   "lnShape": [
    4,
    4,
-   1,
    4,
-   1,
    4
   ],
   "ourShape": [
    8,
    8
   ],
-  "lnLines": 18,
+  "lnLines": 16,
   "ourLinesN": 16,
-  "merged": 6,
+  "merged": 2,
   "splitOur": 0,
   "missing": 1,
   "missingIdx": [
@@ -10371,11 +10228,9 @@
   "extraOur": 2,
   "boundMiss": [
    1,
-   3,
-   4,
-   5
+   3
   ],
-  "coverage": 0.944
+  "coverage": 0.938
  },
  "534": {
   "status": "ok",
@@ -10386,7 +10241,6 @@
   "lnShape": [
    4,
    21,
-   1,
    12,
    4,
    11,
@@ -10430,9 +10284,9 @@
    6,
    6
   ],
-  "lnLines": 204,
+  "lnLines": 203,
   "ourLinesN": 99,
-  "merged": 12,
+  "merged": 10,
   "splitOur": 0,
   "missing": 146,
   "missingIdx": [
@@ -10443,16 +10297,15 @@
    7,
    8,
    14,
-   37,
-   39,
-   43
+   36,
+   38,
+   42
   ],
   "extraOur": 47,
   "boundMiss": [
-   2,
-   5
+   4
   ],
-  "coverage": 0.284
+  "coverage": 0.281
  },
  "535": {
   "status": "ok",
@@ -10842,24 +10695,21 @@
   "lnShape": [
    8,
    8,
-   8,
-   1
+   8
   ],
   "ourShape": [
    10,
    10,
    10
   ],
-  "lnLines": 25,
+  "lnLines": 24,
   "ourLinesN": 30,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 6,
-  "boundMiss": [
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "551": {
@@ -10870,27 +10720,22 @@
   "partialMissing": 0,
   "lnShape": [
    8,
-   1,
    8,
-   8,
-   1
+   8
   ],
   "ourShape": [
    9,
    9,
    9
   ],
-  "lnLines": 26,
+  "lnLines": 24,
   "ourLinesN": 27,
-  "merged": 4,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 3,
-  "boundMiss": [
-   2,
-   4
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "552": {
@@ -10898,7 +10743,7 @@
   "sungText": false,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    6,
    6,
@@ -10906,26 +10751,22 @@
    6
   ],
   "ourShape": [
-   5,
-   5,
-   5,
-   5
+   6,
+   6,
+   6,
+   6,
+   2,
+   2
   ],
   "lnLines": 24,
-  "ourLinesN": 20,
-  "merged": 6,
+  "ourLinesN": 28,
+  "merged": 0,
   "splitOur": 0,
-  "missing": 1,
-  "missingIdx": [
-   0
-  ],
-  "extraOur": 0,
-  "boundMiss": [
-   1,
-   2,
-   3
-  ],
-  "coverage": 0.958
+  "missing": 0,
+  "missingIdx": [],
+  "extraOur": 4,
+  "boundMiss": [],
+  "coverage": 1
  },
  "553": {
   "status": "ok",
@@ -11042,7 +10883,6 @@
    6,
    6,
    6,
-   1,
    6
   ],
   "ourShape": [
@@ -11056,16 +10896,14 @@
    6,
    6
   ],
-  "lnLines": 25,
+  "lnLines": 24,
   "ourLinesN": 58,
-  "merged": 4,
+  "merged": 2,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 35,
-  "boundMiss": [
-   4
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "559": {
@@ -11104,7 +10942,6 @@
   "partialMissing": 0,
   "lnShape": [
    4,
-   1,
    4,
    4,
    4,
@@ -11119,22 +10956,20 @@
    4,
    4
   ],
-  "lnLines": 21,
+  "lnLines": 20,
   "ourLinesN": 28,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 4,
   "missingIdx": [
+   8,
    9,
    10,
-   11,
-   12
+   11
   ],
   "extraOur": 12,
-  "boundMiss": [
-   2
-  ],
-  "coverage": 0.81
+  "boundMiss": [],
+  "coverage": 0.8
  },
  "561": {
   "status": "ok",
@@ -11170,8 +11005,8 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 1,
-  "partialMissing": 1,
+  "wholeMissing": 0,
+  "partialMissing": 0,
   "lnShape": [
    8,
    8,
@@ -11190,30 +11025,24 @@
    5,
    5,
    5,
-   5
+   20,
+   8,
+   8,
+   8,
+   8
   ],
   "lnLines": 64,
-  "ourLinesN": 40,
-  "merged": 49,
+  "ourLinesN": 87,
+  "merged": 42,
   "splitOur": 0,
-  "missing": 15,
-  "missingIdx": [
-   40,
-   41,
-   42,
-   43,
-   44,
-   45,
-   46,
-   47,
-   48,
-   49
-  ],
-  "extraOur": 16,
+  "missing": 0,
+  "missingIdx": [],
+  "extraOur": 44,
   "boundMiss": [
+   6,
    7
   ],
-  "coverage": 0.766
+  "coverage": 1
  },
  "563": {
   "status": "ok",
@@ -11571,24 +11400,23 @@
   "partialMissing": 0,
   "lnShape": [
    8,
-   1,
    6
   ],
   "ourShape": [
-   8,
+   1,
    10,
+   5,
+   7,
    2
   ],
-  "lnLines": 15,
-  "ourLinesN": 20,
-  "merged": 12,
+  "lnLines": 14,
+  "ourLinesN": 25,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
-  "extraOur": 12,
-  "boundMiss": [
-   2
-  ],
+  "extraOur": 11,
+  "boundMiss": [],
   "coverage": 1
  },
  "587": {
@@ -11908,7 +11736,6 @@
   "lnShape": [
    4,
    4,
-   1,
    4,
    4
   ],
@@ -11918,16 +11745,14 @@
    4,
    5
   ],
-  "lnLines": 17,
+  "lnLines": 16,
   "ourLinesN": 18,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 2,
-  "boundMiss": [
-   2
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "623": {
@@ -12325,9 +12150,9 @@
  "645": {
   "status": "ok",
   "sungText": false,
-  "shapeSame": false,
-  "wholeMissing": 3,
-  "partialMissing": 1,
+  "shapeSame": true,
+  "wholeMissing": 0,
+  "partialMissing": 0,
   "lnShape": [
    4,
    7,
@@ -12340,30 +12165,21 @@
   "ourShape": [
    4,
    7,
-   8
+   6,
+   6,
+   16,
+   5,
+   9
   ],
   "lnLines": 53,
-  "ourLinesN": 19,
+  "ourLinesN": 53,
   "merged": 0,
   "splitOur": 0,
-  "missing": 34,
-  "missingIdx": [
-   19,
-   20,
-   21,
-   22,
-   23,
-   24,
-   25,
-   26,
-   27,
-   28
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 0,
-  "boundMiss": [
-   3
-  ],
-  "coverage": 0.358
+  "boundMiss": [],
+  "coverage": 1
  },
  "646": {
   "status": "ok",
@@ -12713,16 +12529,16 @@
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
-   16
+   14
   ],
   "ourShape": [
    5,
    5,
    4
   ],
-  "lnLines": 16,
+  "lnLines": 14,
   "ourLinesN": 14,
-  "merged": 6,
+  "merged": 2,
   "splitOur": 2,
   "missing": 0,
   "missingIdx": [],
@@ -12908,25 +12724,21 @@
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
-   1,
    8
   ],
   "ourShape": [
    3,
-   4,
-   5,
+   9,
    4
   ],
-  "lnLines": 9,
+  "lnLines": 8,
   "ourLinesN": 16,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 8,
-  "boundMiss": [
-   1
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "682": {
@@ -13233,12 +13045,10 @@
   "partialMissing": 2,
   "lnShape": [
    4,
-   1,
    4,
    4,
    4,
    4,
-   1,
    4,
    4,
    4
@@ -13253,22 +13063,19 @@
    4,
    6
   ],
-  "lnLines": 34,
+  "lnLines": 32,
   "ourLinesN": 36,
-  "merged": 6,
+  "merged": 2,
   "splitOur": 0,
   "missing": 3,
   "missingIdx": [
    2,
    3,
-   14
+   13
   ],
   "extraOur": 8,
-  "boundMiss": [
-   2,
-   6
-  ],
-  "coverage": 0.912
+  "boundMiss": [],
+  "coverage": 0.906
  },
  "699": {
   "status": "ok",
@@ -13533,16 +13340,15 @@
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
-   15
+   13
   ],
   "ourShape": [
-   6,
-   7,
+   13,
    1
   ],
-  "lnLines": 15,
+  "lnLines": 13,
   "ourLinesN": 14,
-  "merged": 4,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
@@ -14155,26 +13961,23 @@
   "lnShape": [
    4,
    4,
-   3,
-   3
+   2,
+   2
   ],
   "ourShape": [
-   1,
+   5,
    4,
-   4,
-   6
+   2,
+   4
   ],
-  "lnLines": 14,
+  "lnLines": 12,
   "ourLinesN": 15,
-  "merged": 4,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 3,
-  "boundMiss": [
-   2,
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "753": {
@@ -14709,29 +14512,26 @@
    4,
    4,
    4,
-   4,
-   1
-  ],
-  "ourShape": [
-   2,
-   2,
-   2,
-   3,
-   2,
-   2,
-   2,
    4
   ],
-  "lnLines": 33,
-  "ourLinesN": 19,
-  "merged": 33,
+  "ourShape": [
+   4,
+   4,
+   4,
+   5,
+   4,
+   4,
+   4,
+   5
+  ],
+  "lnLines": 32,
+  "ourLinesN": 34,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
-  "extraOur": 3,
-  "boundMiss": [
-   8
-  ],
+  "extraOur": 2,
+  "boundMiss": [],
   "coverage": 1
  },
  "785": {
@@ -14920,10 +14720,8 @@
    4,
    4,
    4,
-   1,
    4,
    4,
-   1,
    4
   ],
   "ourShape": [
@@ -14941,9 +14739,9 @@
    2,
    5
   ],
-  "lnLines": 82,
+  "lnLines": 80,
   "ourLinesN": 56,
-  "merged": 66,
+  "merged": 64,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
@@ -14956,9 +14754,7 @@
    9,
    11,
    13,
-   18,
-   20,
-   21
+   19
   ],
   "coverage": 1
  },
@@ -15765,39 +15561,31 @@
  "856": {
   "status": "ok",
   "sungText": true,
-  "shapeSame": false,
+  "shapeSame": true,
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    8,
    8,
-   1,
    8,
    8,
    8
   ],
   "ourShape": [
-   4,
-   4,
-   4,
-   4,
-   4,
-   4,
-   4,
-   4,
-   4,
-   4
+   8,
+   8,
+   8,
+   8,
+   8
   ],
-  "lnLines": 41,
+  "lnLines": 40,
   "ourLinesN": 40,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 0,
-  "boundMiss": [
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "860": {
@@ -15865,7 +15653,7 @@
   "sungText": true,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 2,
+  "partialMissing": 1,
   "lnShape": [
    4,
    4,
@@ -15879,27 +15667,23 @@
    5,
    5,
    9,
-   9,
+   13,
    5
   ],
   "lnLines": 28,
-  "ourLinesN": 33,
+  "ourLinesN": 37,
   "merged": 2,
   "splitOur": 0,
-  "missing": 6,
+  "missing": 2,
   "missingIdx": [
    17,
-   18,
-   19,
-   20,
-   21,
-   22
+   19
   ],
   "extraOur": 12,
   "boundMiss": [
    4
   ],
-  "coverage": 0.786
+  "coverage": 0.929
  },
  "867": {
   "status": "ok",
@@ -16037,8 +15821,7 @@
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
-   9,
-   1
+   9
   ],
   "ourShape": [
    8,
@@ -16046,16 +15829,14 @@
    8,
    8
   ],
-  "lnLines": 10,
+  "lnLines": 9,
   "ourLinesN": 32,
-  "merged": 4,
+  "merged": 2,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 24,
-  "boundMiss": [
-   1
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "876": {
@@ -16188,7 +15969,6 @@
    4,
    4,
    4,
-   1,
    4,
    4
   ],
@@ -16203,19 +15983,17 @@
    5,
    4
   ],
-  "lnLines": 25,
+  "lnLines": 24,
   "ourLinesN": 44,
-  "merged": 2,
+  "merged": 0,
   "splitOur": 0,
   "missing": 1,
   "missingIdx": [
-   23
+   22
   ],
   "extraOur": 21,
-  "boundMiss": [
-   5
-  ],
-  "coverage": 0.96
+  "boundMiss": [],
+  "coverage": 0.958
  },
  "882": {
   "status": "ok",
@@ -16580,15 +16358,20 @@
    10,
    10,
    10,
-   10
+   10,
+   4,
+   4,
+   3,
+   4,
+   3
   ],
   "lnLines": 40,
-  "ourLinesN": 50,
+  "ourLinesN": 68,
   "merged": 0,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
-  "extraOur": 10,
+  "extraOur": 28,
   "boundMiss": [],
   "coverage": 1
  },
@@ -16698,8 +16481,8 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 4,
-  "partialMissing": 0,
+  "wholeMissing": 0,
+  "partialMissing": 1,
   "lnShape": [
    6,
    6,
@@ -16708,28 +16491,21 @@
   ],
   "ourShape": [
    5,
-   5
+   6,
+   6,
+   6
   ],
   "lnLines": 24,
-  "ourLinesN": 10,
+  "ourLinesN": 23,
   "merged": 0,
   "splitOur": 0,
-  "missing": 24,
+  "missing": 1,
   "missingIdx": [
-   0,
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9
+   4
   ],
-  "extraOur": 10,
+  "extraOur": 0,
   "boundMiss": [],
-  "coverage": 0
+  "coverage": 0.958
  },
  "922": {
   "status": "ok",
@@ -16880,7 +16656,7 @@
   "sungText": true,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    4,
    4,
@@ -16889,23 +16665,21 @@
    4
   ],
   "ourShape": [
-   9,
-   10,
+   4,
+   6,
+   4,
+   6,
    10
   ],
   "lnLines": 20,
-  "ourLinesN": 29,
+  "ourLinesN": 30,
   "merged": 0,
   "splitOur": 0,
-  "missing": 1,
-  "missingIdx": [
-   4
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 10,
-  "boundMiss": [
-   3
-  ],
-  "coverage": 0.95
+  "boundMiss": [],
+  "coverage": 1
  },
  "932": {
   "status": "ok",
@@ -17146,7 +16920,7 @@
   "sungText": true,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 3,
+  "partialMissing": 2,
   "lnShape": [
    4,
    6,
@@ -17156,29 +16930,27 @@
   ],
   "ourShape": [
    5,
-   6,
-   6,
+   7,
+   7,
    6,
    4,
    5
   ],
   "lnLines": 26,
-  "ourLinesN": 32,
+  "ourLinesN": 34,
   "merged": 2,
   "splitOur": 0,
-  "missing": 7,
+  "missing": 5,
   "missingIdx": [
-   6,
    7,
    8,
    9,
-   15,
    16,
    17
   ],
   "extraOur": 14,
   "boundMiss": [],
-  "coverage": 0.731
+  "coverage": 0.808
  },
  "965": {
   "status": "no-reference"
@@ -17511,90 +17283,76 @@
  "513A": {
   "status": "ok",
   "sungText": true,
-  "shapeSame": false,
+  "shapeSame": true,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    13
   ],
   "ourShape": [
-   7
+   13
   ],
   "lnLines": 13,
-  "ourLinesN": 7,
+  "ourLinesN": 13,
   "merged": 0,
-  "splitOur": 2,
-  "missing": 7,
-  "missingIdx": [
-   6,
-   7,
-   8,
-   9,
-   10,
-   11,
-   12
-  ],
+  "splitOur": 0,
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 0,
   "boundMiss": [],
-  "coverage": 0.462
+  "coverage": 1
  },
  "579A": {
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 1,
-  "partialMissing": 0,
-  "lnShape": [
-   4,
-   4,
-   4,
-   1
-  ],
-  "ourShape": [
-   4,
-   4,
-   4,
-   4
-  ],
-  "lnLines": 13,
-  "ourLinesN": 16,
-  "merged": 0,
-  "splitOur": 0,
-  "missing": 1,
-  "missingIdx": [
-   12
-  ],
-  "extraOur": 4,
-  "boundMiss": [],
-  "coverage": 0.923
- },
- "579B": {
-  "status": "ok",
-  "sungText": true,
-  "shapeSame": false,
   "wholeMissing": 0,
   "partialMissing": 0,
   "lnShape": [
    4,
    4,
+   4
+  ],
+  "ourShape": [
    4,
-   1
+   4,
+   4,
+   4
+  ],
+  "lnLines": 12,
+  "ourLinesN": 16,
+  "merged": 0,
+  "splitOur": 0,
+  "missing": 0,
+  "missingIdx": [],
+  "extraOur": 4,
+  "boundMiss": [],
+  "coverage": 1
+ },
+ "579B": {
+  "status": "ok",
+  "sungText": true,
+  "shapeSame": true,
+  "wholeMissing": 0,
+  "partialMissing": 0,
+  "lnShape": [
+   4,
+   4,
+   4
   ],
   "ourShape": [
    4,
    4,
    4
   ],
-  "lnLines": 13,
+  "lnLines": 12,
   "ourLinesN": 12,
-  "merged": 4,
+  "merged": 2,
   "splitOur": 0,
   "missing": 0,
   "missingIdx": [],
   "extraOur": 1,
-  "boundMiss": [
-   3
-  ],
+  "boundMiss": [],
   "coverage": 1
  },
  "688/1": {
@@ -17920,7 +17678,7 @@
   "sungText": true,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 3,
+  "partialMissing": 1,
   "lnShape": [
    6,
    6,
@@ -17930,22 +17688,23 @@
   "ourShape": [
    7,
    5,
-   5,
-   5
+   6,
+   6
   ],
   "lnLines": 24,
-  "ourLinesN": 22,
+  "ourLinesN": 24,
   "merged": 0,
   "splitOur": 0,
-  "missing": 3,
+  "missing": 1,
   "missingIdx": [
-   11,
-   17,
    23
   ],
   "extraOur": 1,
-  "boundMiss": [],
-  "coverage": 0.875
+  "boundMiss": [
+   2,
+   3
+  ],
+  "coverage": 0.958
  },
  "795/8": {
   "status": "ok",
@@ -18461,32 +18220,31 @@
   ],
   "ourShape": [
    10,
-   14
+   15
   ],
   "lnLines": 24,
-  "ourLinesN": 24,
+  "ourLinesN": 25,
   "merged": 0,
   "splitOur": 0,
-  "missing": 7,
+  "missing": 6,
   "missingIdx": [
    0,
    15,
    16,
    17,
    18,
-   19,
-   22
+   19
   ],
   "extraOur": 7,
   "boundMiss": [],
-  "coverage": 0.708
+  "coverage": 0.75
  },
  "866/4": {
   "status": "ok",
   "sungText": false,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    8,
    8,
@@ -18497,20 +18255,17 @@
    9,
    9,
    9,
-   9
+   11
   ],
   "lnLines": 32,
-  "ourLinesN": 36,
+  "ourLinesN": 38,
   "merged": 0,
   "splitOur": 0,
-  "missing": 2,
-  "missingIdx": [
-   28,
-   29
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 6,
   "boundMiss": [],
-  "coverage": 0.938
+  "coverage": 1
  },
  "877/2": {
   "status": "ok",
@@ -18721,17 +18476,15 @@
   "status": "ok",
   "sungText": true,
   "shapeSame": false,
-  "wholeMissing": 1,
+  "wholeMissing": 0,
   "partialMissing": 3,
   "lnShape": [
-   1,
    4,
    4,
    4,
    6,
    4,
-   4,
-   1
+   4
   ],
   "ourShape": [
    4,
@@ -18743,23 +18496,21 @@
    2,
    2
   ],
-  "lnLines": 28,
+  "lnLines": 26,
   "ourLinesN": 30,
-  "merged": 18,
+  "merged": 17,
   "splitOur": 0,
-  "missing": 4,
+  "missing": 3,
   "missingIdx": [
-   0,
-   2,
-   7,
-   18
+   1,
+   6,
+   17
   ],
   "extraOur": 16,
   "boundMiss": [
-   3,
-   7
+   2
   ],
-  "coverage": 0.857
+  "coverage": 0.885
  },
  "957/1": {
   "status": "ok",
@@ -19290,30 +19041,25 @@
   "sungText": true,
   "shapeSame": false,
   "wholeMissing": 0,
-  "partialMissing": 1,
+  "partialMissing": 0,
   "lnShape": [
    6,
    4
   ],
   "ourShape": [
    4,
-   4
+   4,
+   3
   ],
   "lnLines": 10,
-  "ourLinesN": 8,
-  "merged": 7,
+  "ourLinesN": 11,
+  "merged": 8,
   "splitOur": 0,
-  "missing": 3,
-  "missingIdx": [
-   7,
-   8,
-   9
-  ],
+  "missing": 0,
+  "missingIdx": [],
   "extraOur": 5,
-  "boundMiss": [
-   1
-  ],
-  "coverage": 0.7
+  "boundMiss": [],
+  "coverage": 1
  },
  "990F": {
   "status": "ok",
