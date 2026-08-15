@@ -32,7 +32,7 @@ for (const c of catalog) {
   if (PARENTS.has(dN)) { c.role = 'group'; continue; }
   if (/deest/i.test(c.d)) { excluded.push({ d: c.d, title: c.title, why: 'D deest (утеряно/фрагмент/импровизация)' }); c.excluded = 'deest'; continue; }
   if (/Text nicht erhalten/i.test(c.comment || '')) { excluded.push({ d: c.d, title: c.title, why: 'текст не сохранился' }); c.excluded = 'no-text'; continue; }
-  if (['204A','311','555','863','916A','990B','990D'].includes(dN)) { excluded.push({ d: c.d, title: c.title, why: 'утрачена целиком (verschollen) либо эскиз без слов (ohne Text) — петь/записывать нечего' }); c.excluded = 'no-song'; continue; }
+  if (['204A','311','555','863','916A','990B','990D','177A','864'].includes(dN)) { excluded.push({ d: c.d, title: c.title, why: 'утрачена целиком (verschollen) либо эскиз без слов (ohne Text) — петь/записывать нечего' }); c.excluded = 'no-song'; continue; }
   const date = parseDate(c);
   if (!date) { excluded.push({ d: c.d, title: c.title, why: 'нет даты' }); c.excluded = 'no-date'; continue; }
   songs.push({ c, dN, date });
