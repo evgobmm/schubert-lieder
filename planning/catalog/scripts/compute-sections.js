@@ -47,7 +47,23 @@ const dnum = d => parseFloat(d.replace(/[^\d.]/g, '').replace('/', '.')) || 0;
 // classify rows
 const songs = [];
 const excluded = [];
+// NSA даёт некоторые песни двумя строками (серия III хоровая + серия IV песенная,
+// «auch in …») — на песню оставляем одну строку, предпочитая песенную серию IV
+const seenD = new Map();
 for (const c of catalog) {
+  const dN0 = c.d.replace(/\s+/g, '');
+  if (!/deest/i.test(c.d)) {
+    const prev = seenD.get(dN0);
+    if (prev) {
+      const keep = /^IV\b/.test(c.nga || '') && !/^IV\b/.test(prev.nga || '') ? c : prev;
+      const drop = keep === c ? prev : c;
+      drop.excluded = 'duplicate-row';
+      if (keep === c) seenD.set(dN0, c); else continue;
+    } else seenD.set(dN0, c);
+  }
+}
+for (const c of catalog) {
+  if (c.excluded === 'duplicate-row') continue;
   const dN = c.d.replace(/\s+/g, '');
   if (PARENTS.has(dN)) { c.role = 'group'; continue; }
   if (/deest/i.test(c.d)) { excluded.push({ d: c.d, title: c.title, why: 'D deest (утеряно/фрагмент/импровизация)' }); c.excluded = 'deest'; continue; }
