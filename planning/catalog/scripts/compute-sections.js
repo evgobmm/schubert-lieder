@@ -9,14 +9,27 @@ const CYCLES = { '795': 'muellerin', '911': 'winterreise', '957': 'schwanengesan
 
 function parseDate(c) {
   const s = c.date_sd || '';
-  // take the START of any range ("A bis B" -> A)
-  const start = s.split(/\s+bis\s+/)[0];
-  let m;
-  if ((m = start.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/))) return { y: +m[3], mo: +m[2], d: +m[1], src: 'day' };
-  if ((m = start.match(/(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(\d{4})/))) return { y: +m[2], mo: MONTHS[m[1]], d: null, src: 'month' };
-  if ((m = start.match(/Quartal\s+(\d),\s*(\d{4})/))) return { y: +m[2], mo: (+m[1] - 1) * 3 + 2, d: null, src: 'quarter' };
-  if ((m = start.match(/(\d{4})/))) return { y: +m[1], mo: null, d: null, src: 'year' };
-  // fallback to NSA year
+  // диапазон «A bis B» сортируем по СЕРЕДИНЕ (как хронология Hyperion: неточно
+  // датированное — позже точных ранних дат), одиночные даты — как есть
+  const parts = s.split(/\s+bis\s+/);
+  const one = (str) => {
+    let m;
+    if ((m = str.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/))) return { y: +m[3], mo: +m[2], d: +m[1] };
+    if ((m = str.match(/(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(\d{4})/))) return { y: +m[2], mo: MONTHS[m[1]], d: null };
+    if ((m = str.match(/Quartal\s+(\d),\s*(\d{4})/))) return { y: +m[2], mo: (+m[1] - 1) * 3 + 2, d: null };
+    if ((m = str.match(/(\d{4})/))) return { y: +m[1], mo: null, d: null };
+    return null;
+  };
+  const a = one(parts[0]);
+  const b = parts[1] ? one(parts[1]) : null;
+  if (a && b) {
+    const va = a.y + ((a.mo ?? 6.5) - 1) / 12, vb = b.y + ((b.mo ?? 6.5) - 1) / 12;
+    const mid = (va + vb) / 2;
+    const my = Math.floor(mid);
+    const mmo = Math.min(12, Math.max(1, Math.round((mid - my) * 12 + 1)));
+    return { y: my, mo: mmo, d: null, src: 'range-mid' };
+  }
+  if (a) return { ...a, src: 'single' };
   const yn = (c.year_nsa || '').match(/(\d{4})/);
   if (yn) return { y: +yn[1], mo: null, d: null, src: 'nsa-year' };
   return null;
