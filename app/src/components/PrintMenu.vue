@@ -315,7 +315,7 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
               :checked="selected.has(s.number)"
               @change="toggleSong(s.number)"
             />
-            {{ s.number }}. {{ s.title_de }}
+            {{ s.title_de }}
           </label>
         </div>
 

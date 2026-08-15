@@ -123,11 +123,9 @@ function toggle(id) {
             :href="`?song=${song.number}`"
             @click.exact.prevent="$emit('select', song.number)"
           >
-            <span class="song-number">{{ song.number }}.</span>
             <span class="song-title">{{ song.title_de }}</span>
           </a>
           <span v-else class="song-link">
-            <span class="song-number">{{ song.number }}.</span>
             <span class="song-title">{{ song.title_de }}</span>
           </span>
         </li>
@@ -289,13 +287,4 @@ function toggle(id) {
   cursor: default;
 }
 
-.song-number {
-  min-width: 30px;
-  text-align: right;
-  color: var(--text-secondary);
-}
-
-.song-list li.active .song-number {
-  color: rgba(255, 255, 255, 0.7);
-}
 </style>
