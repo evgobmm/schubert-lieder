@@ -20,6 +20,13 @@ function parseDate(c) {
     if ((m = str.match(/(\d{4})/))) return { y: +m[1], mo: null, d: null };
     return null;
   };
+  // «vor X» — только верхняя граница; лучшее знание — оценка NSA (Chrono),
+  // если она заметно раньше границы (иначе песня уезжает к самой границе)
+  if (/^vor\s/.test(s)) {
+    const bound = one(parts[0]);
+    const yn0 = (c.year_nsa || '').match(/(\d{4})/);
+    if (yn0 && bound && +yn0[1] < bound.y) return { y: +yn0[1], mo: null, d: null, src: 'nsa-year-vor' };
+  }
   const a = one(parts[0]);
   const b = parts[1] ? one(parts[1]) : null;
   if (a && b) {
