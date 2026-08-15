@@ -106,7 +106,7 @@ for (const [d, r] of Object.entries(report)) {
     } else if (sA >= 0.7 && sA - sB >= 0.05) {
       stats.kept++;
       (keptBySong[d] = keptBySong[d] || []).push(job.wa[job.t] + '≠' + job.wb[job.t]);
-    } else stats.unclear.push([d, job.wa[job.t], job.wb[job.t], sA.toFixed(2) + '/' + sB.toFixed(2)]);
+    } else stats.unclear.push([d, job.wa[job.t], job.wb[job.t], sA.toFixed(2) + '/' + sB.toFixed(2), ourLines[job.j]]);
   }
 }
 if (APPLY) {
