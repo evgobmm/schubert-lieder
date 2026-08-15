@@ -1,5 +1,6 @@
 // Общий код сверки с эталоном Растля: извлечение <pre>, нормализация, DP-выравнивание.
 const norm = l => l.toLowerCase().replace(/['’]/g, '').replace(/ß/g, 'ss').replace(/[^a-zäöü ]+/g, ' ')
+  .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
   .replace(/ey/g, 'ei').replace(/ay/g, 'ai').replace(/th/g, 't').replace(/dt/g, 't')
   .replace(/\s+/g, ' ').trim();
 
