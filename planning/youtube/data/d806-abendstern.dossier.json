@@ -76,20 +76,21 @@
     {
       "singer": "Anne Sofie von Otter (меццо-сопрано)",
       "pianist": "Bengt Forsberg",
-      "rec_year": "июнь 1996 (издание 1997)",
-      "year_source": "planning/youtube/albums.md: «Anne Sofie von Otter — DG Schubert: Lieder — запись июнь 1996, Concertgebouw Nijmegen; издание 1997» (запись подтверждена для D799/D839 того же альбома; принадлежность D806 к этой же сессии не переподтверждена отдельно, помечено ниже)",
+      "rec_year": "запись июнь 1996; издание альбома «Lieder» — 1 октября 1997",
+      "year_source": "ПОДТВЕРЖДЕНО: MusicBrainz recording d8e8c956-35d6-4f54-80e2-d11b1632f8fd («Abendstern, D. 806 (Johann Mayrhofer)», von Otter/Forsberg) — трек 15/18 релиза «Lieder» (DG, Германия, дата релиза 1997-10-01); согласуется с planning/youtube/albums.md (запись июнь 1996, Concertgebouw Nijmegen, издание 1997)",
       "album": "Schubert: Lieder",
       "label": "Deutsche Grammophon",
       "age_voice": "фон Оттер (р. 1955) — 41 год в 1996, вокальный пик по дайджесту (~1988–2010)",
-      "reputation": "Форсберг высоко оценён как аккомпаниатор в общем реестре альбомов; отдельного отзыва по Abendstern не найдено (лимит WebSearch исчерпан)",
+      "reputation": "Форсберг высоко оценён как аккомпаниатор в общем реестре альбомов; отдельного отзыва по Abendstern не найдено (WebSearch недоступен в текущей сессии)",
       "sources": [
         "planning/youtube/data/d806-abendstern.mb.json",
-        "planning/youtube/albums.md"
+        "planning/youtube/albums.md",
+        "MusicBrainz release 94a1948d-3b0b-4d43-bcef-2f8c5edc04b9 (\"Lieder\", DG, 1997-10-01, трек 15/18)"
       ],
       "youtube": [
         {"videoId": "q3TH3XeJ1vM", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Год 1996 взят по аналогии с другими песнями того же альбома в реестре — трек-принадлежность самой Abendstern к июньской сессии 1996 отдельно документом не подтверждена."
+      "note": "Ранее принадлежность D806 к сессии 1996 г. не была переподтверждена отдельно — теперь подтверждена напрямую по MusicBrainz (трек того же релиза «Lieder», 1997)."
     },
     {
       "singer": "Matthias Goerne (баритон)",
@@ -112,20 +113,21 @@
     {
       "singer": "Christian Gerhaher (баритон)",
       "pianist": "Gerold Huber",
-      "rec_year": "не установлен",
-      "year_source": "Только credit-пара из MusicBrainz («Christian Gerhaher, Gerold Huber», work 66bbe1bc…); дуэт записал несколько шубертовских альбомов (Arte Nova ~1999–2003, RCA Müllerin 2003, RCA Abendbilder 2006, Sony Nachtviolen 2014) — какой именно содержит Abendstern, не идентифицировано в рамках доступного поиска",
-      "album": "не идентифицирован (кандидаты: Arte Nova / RCA / Sony по дайджесту)",
-      "label": "не идентифицирован",
-      "age_voice": "Герхер (р. 1969) — пик по дайджесту ~2000–наст. время; точный возраст на записи не определим без даты",
-      "reputation": "Пресса называет его «высшим текстовиком современности» (по дайджесту — фильтровать по правилу о скепсисе к пиару)",
+      "rec_year": "издание альбома «Nachtviolen» — 2014",
+      "year_source": "ПОДТВЕРЖДЕНО: MusicBrainz recording 5707cd3e-b71d-4e47-8434-73f77b4fda21 («Abendstern, D 806», Gerhaher/Huber) — трек 10/24 релиза «Nachtviolen: Schubert Lieder» (Sony Classical 88883712172, Германия, дата релиза 2014); дублируется отдельным MB-recording той же пары на промо-компиляции «AUDIOphile Pearls, Volume 8» (2014, тр. 15/17) — независимое подтверждение года",
+      "album": "Nachtviolen: Schubert Lieder",
+      "label": "Sony Classical (RCA Red Seal)",
+      "age_voice": "Герхер (р. 1969) — 44–45 лет в 2014, в пределах пика по дайджесту (~2000–наст.)",
+      "reputation": "Пресса называет его «высшим текстовиком современности» (по дайджесту — фильтровать по правилу о скепсисе к пиару); отдельного сравнительного отзыва по Abendstern не найдено",
       "sources": [
         "planning/youtube/data/d806-abendstern.mb.json",
-        "planning/research/singers-digest.md (карточка Gerhaher)"
+        "planning/research/singers-digest.md (карточка Gerhaher)",
+        "MusicBrainz release d7186df9-25f5-4b4e-89ae-2ad43885d214 (\"Nachtviolen: Schubert Lieder\", Sony Classical, 2014, трек 10/24)"
       ],
       "youtube": [
         {"videoId": "hIF1UiObWYQ", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Год и альбом требуют доп. верификации (не выполнена из-за исчерпания лимита WebSearch в сессии)."
+      "note": "Год и альбом теперь подтверждены напрямую по MusicBrainz (ранее не были установлены)."
     },
     {
       "singer": "Ian Bostridge (тенор)",
@@ -150,20 +152,21 @@
     {
       "singer": "Florian Boesch (бас-баритон)",
       "pianist": "Malcolm Martineau",
-      "rec_year": "ок. 2014",
-      "year_source": "planning/youtube/albums.md: «Florian Boesch — Schubert: Der Wanderer & other songs — Hyperion CDA68010; издание примерно 2014, пианист Roger Vignoles» — ВНИМАНИЕ: пианист в реестре указан как Vignoles, но MusicBrainz для Abendstern даёт пару Boesch/Martineau — расхождение не разрешено",
-      "album": "Schubert: Der Wanderer & other songs (Hyperion CDA68010) — под вопросом (см. note)",
-      "label": "Hyperion",
-      "age_voice": "Бёш (р. 1971) — ок. 43 года ок. 2014, в пределах пика по дайджесту (~2010–наст.)",
+      "rec_year": "издание альбома «Lieder Recital» — 2016",
+      "year_source": "ПОДТВЕРЖДЕНО: MusicBrainz recording d146edcd-9892-4c2a-b27e-eb753766cecc («Abendstern, D. 806», Boesch/Martineau) — трек 20/24 релиза «Lieder Recital» (Onyx Classics ONYX 4149, Великобритания, дата релиза 2016). РАСХОЖДЕНИЕ РАЗРЕШЕНО: Abendstern принадлежит не диску Hyperion CDA68010 «Der Wanderer & other songs» (Boesch/Vignoles, ~2014, указан в реестре albums.md по D768), а отдельному, более позднему альбому «Lieder Recital» на Onyx с другим пианистом — Martineau",
+      "album": "Lieder Recital",
+      "label": "Onyx Classics",
+      "age_voice": "Бёш (р. 1971) — 44–45 лет в 2016, в пределах пика по дайджесту (~2010–наст.)",
       "reputation": "Дайджест характеризует Бёша как «рассказчика венской школы»; отдельного отзыва по Abendstern не найдено",
       "sources": [
         "planning/youtube/data/d806-abendstern.mb.json",
-        "planning/youtube/albums.md"
+        "planning/youtube/albums.md",
+        "MusicBrainz release e1d99ed4-1b84-4714-8759-193a041c0ca3 (\"Lieder Recital\", Onyx ONYX 4149, 2016, трек 20/24)"
       ],
       "youtube": [
         {"videoId": "g6Gmwf0Sd8c", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "РАСХОЖДЕНИЕ ПИАНИСТА: реестр альбомов называет для диска Hyperion CDA68010 пианиста Roger Vignoles (по записи D768), а MusicBrainz для Abendstern указывает Malcolm Martineau как партнёра Бёша. Возможно, это два разных альбома/два разных пианиста в разное время — требует отдельной проверки перед публикацией. Год не подтверждён напрямую для Abendstern."
+      "note": "Прежнее расхождение пианиста снято: Abendstern — не с диска Hyperion CDA68010, а с отдельного Onyx-альбома «Lieder Recital» (2016). albums.md следует дополнить этой строкой отдельно от записи Hyperion."
     },
     {
       "singer": "Samuel Hasselhorn (баритон)",
