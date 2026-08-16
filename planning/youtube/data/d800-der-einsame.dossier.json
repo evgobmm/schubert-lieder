@@ -1,0 +1,606 @@
+{
+  "d": "800",
+  "title": "Der Einsame (Wann meine Grillen schwirren), D 800",
+  "tier": "famous",
+  "research_date": "2026-08-16",
+  "method_note": "Пул собран из MusicBrainz (35 записей работы), generic-поиска YouTube, страницы песни на hyperion-records.co.uk, дискографии Wunderlich (andreas-praefcke.de), каталогов Naxos/Orfeo/Challenge/harmonia mundi и Discogs/AllMusic-выжимок. Годы записи взяты ТОЛЬКО из дискографических источников; поля release_year в метаданных YouTube-Topic — это год РЕЛИЗА альбома, а не год записи, и использованы лишь для идентификации альбома. Там, где точная дата сессии не установлена, это прямо сказано в year_source.",
+  "candidates": [
+    {
+      "singer": "Fritz Wunderlich (тенор)",
+      "pianist": "Hubert Giesen",
+      "rec_year": "2–5 июля 1966",
+      "year_source": "Дискография Wunderlich (Andreas Praefcke), страница сессии «Schubert — Die schöne Müllerin a.o. / Giesen 1966»: сессии 2–5 июля 1966, Akademie der Wissenschaften, Мюнхен; в перечне треков прямо указан «Der Einsame op. 41 D 800b» — http://www.andreas-praefcke.de/wunderlich/discography/muell66.htm",
+      "album": "Die schöne Müllerin + Lieder (DG); Der Einsame переиздан в сборниках «Fritz Wunderlich — Ich liebe dich», «Fritz Wunderlich sings»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "35 лет; вершина и одновременно последние студийные сессии — Вундерлих погиб 17 сентября 1966. Спада нет по определению: дайджест певцов — «только пик: погиб в 35»; цикл июля 1966 с Гизеном считается эталоном тенорового Шуберта.",
+      "reputation": "Комплект «Die schöne Müllerin + Lieder» (Giesen, 1966) — по дайджесту фонда «эталон тенорового цикла»; DG держит его в каталоге как флагманскую запись Вундерлиха. Для Der Einsame — светлый, улыбчивый, без сентиментальности тон, ближайший к бидермайерскому характеру песни.",
+      "sources": [
+        "http://www.andreas-praefcke.de/wunderlich/discography/muell66.htm",
+        "https://www.deutschegrammophon.com/de/katalog/produkte/schubert-die-schoene-muellerin-wunderlich-giesen-6098",
+        "planning/research/singers-digest.md (карточка Wunderlich)"
+      ],
+      "youtube": [
+        {"videoId": "Z8dBmI9QHdU", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true, "note": "альбом «Fritz Wunderlich - Ich liebe dich», 261 с, 2109 просмотров — самая заметная загрузка студийной версии"},
+        {"videoId": "XXcq0UpDDpY", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true, "note": "альбом «Fritz Wunderlich sings», 258 с — та же студийная запись в другом сборнике"}
+      ],
+      "note": "Главный кандидат яруса «старые мастера». Осторожно: у Вундерлиха три разных Der Einsame (студия 1966 + два лайва) — не смешивать."
+    },
+    {
+      "singer": "Fritz Wunderlich (тенор) — лайв, последний вечер",
+      "pianist": "Hubert Giesen",
+      "rec_year": "4 сентября 1966 (лайв)",
+      "year_source": "Дискография Wunderlich (Andreas Praefcke), страница «Collections — Edinburgh Recital / Giesen 1966»: Usher Hall, Эдинбург, 4 сентября 1966; программа включает «Der Einsame op. 41 D 800b» — http://www.andreas-praefcke.de/wunderlich/discography/edinb66.htm",
+      "album": "«Der letzte Liederabend / The Last Recital» (Эдинбург 1966); переиздания DG",
+      "label": "Deutsche Grammophon",
+      "age_voice": "35 лет; последний публичный сольный вечер — за 13 дней до гибели. Голос в полной форме.",
+      "reputation": "Запись имеет статус документа-легенды («последний концерт Вундерлиха»), многократно переиздавалась DG. Живая подача свободнее студийной, но акустика Usher Hall и концертный шум — минус против студии июля 1966.",
+      "sources": [
+        "http://www.andreas-praefcke.de/wunderlich/discography/edinb66.htm",
+        "https://www.hmv.co.jp/en/artist_Tenor-Collection_000000000293861/item_Fritz-Wunderlich-The-Last-Recital-New-Edition-1966-Edinburgh_5220222"
+      ],
+      "youtube": [
+        {"videoId": "f4opWwTvoZg", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true, "note": "альбом «Beethoven, Brahms, Schubert & Others: Lieder», 253 с — лайв-версия (сборник 2018 г. издания)"}
+      ],
+      "note": "Есть и третий Вундерлих: сольный вечер в Моцартеуме, Зальцбург, 19 августа 1965 (Giesen), где Der Einsame тоже звучал — http://www.andreas-praefcke.de/wunderlich/discography/salzburg.htm. Какая именно из двух лайв-версий на f4opWwTvoZg, по метаданным не устанавливается."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1955 (по атрибуции загрузчика); студийная EMI/HMV, точная дата сессии не верифицирована",
+      "year_source": "Атрибуция «1955» — только из названия фан-загрузки (incontrario motu), это НЕ дискографический источник. Дискографически подтверждено лишь то, что Фишер-Дискау начал записывать Lieder с Муром в студии EMI Abbey Road в 1951 г. и что Der Einsame входит в EMI-альбом «Schubert: Lieder Vol. 1» (FiDi/Moore). Точную сессию по буклету EMI Signature Series установить не удалось (audaud.com отдаёт 403).",
+      "album": "EMI/HMV «Schubert: Lieder Vol. 1» (в переизданиях — EMI Classics Signature Series «Schubert Lieder», Moore & Engel, 4 CD)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "ок. 30 лет; самый ранний из его Der Einsame. По дайджесту пик Фишера-Дискау — ~1951–1972; середина 1950-х — свежайший тембр, до позднейшей сухости.",
+      "reputation": "Ранние EMI-записи FiDi/Moore — классика жанра. Gramophone характеризует прочтение Фишера-Дискау этой песни как «мягко комический портрет бюргерского благодушия» (мнение, от которого рецензент отталкивался, сравнивая с современным исполнением).",
+      "sources": [
+        "https://www.audaud.com/schubert-lieder-dietrich-fischer-dieskau-baritone-gerald-moore-karl-engel-p-emi-classics-signature-series-monostereo-four-discs/ (403 при обращении; известен по выдаче поиска)",
+        "https://schubert.org/artist-archive/dietrich-fischer-dieskau-and-gerald-moore/",
+        "https://www.gramophone.co.uk/reviews/schubert-der-einsame (403 при обращении; цитата — по сниппету поисковой выдачи)"
+      ],
+      "youtube": [
+        {"videoId": "F714qOJ_VxE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "альбом «Schubert: Lieder Vol. 1», 271 с — совпадает по длительности с фан-загрузкой, помеченной «1955»"},
+        {"videoId": "SlpgmXJl2jM", "channel": "incontrario motu", "official": false, "oembed_ok": true, "note": "271 с, 10 134 просмотра; подпись «Fischer-Dieskau / Moore 1955» — год НЕ верифицирован"}
+      ],
+      "note": "Если год критичен для подписи — брать DG-версию (ниже) или указывать без года."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "сессии полного свода DG 1966–1972 (для Der Einsame точный год не установлен; фан-загрузка называет 1967 — не источник)",
+      "year_source": "DG «Schubert: Lieder» (FiDi/Moore) — часть свода «Sämtliche Lieder», записанного в 1966–1972 (дайджест фонда, карточка Fischer-Dieskau; каталог DG подтверждает состав диска с Der Einsame) — https://www.deutschegrammophon.com/en/catalogue/products/schubert-lieder-fischer-dieskau-8756",
+      "album": "DG «Schubert: Lieder» / полный свод «Sämtliche Lieder» (21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет; поздний пик — тембр ещё полный, техника абсолютная; по дайджесту сухость приходит только с середины 1970-х.",
+      "reputation": "Свод DG 1966–72 — до сих пор базовая точка отсчёта для любой мужской песни Шуберта; именно эта версия чаще всего цитируется как «стандарт» Der Einsame.",
+      "sources": [
+        "https://www.deutschegrammophon.com/en/catalogue/products/schubert-lieder-fischer-dieskau-8756",
+        "planning/research/singers-digest.md (сквозные издания: DG «Sämtliche Lieder» 1966–72)"
+      ],
+      "youtube": [
+        {"videoId": "9fN5wDg0jrw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "альбом «Schubert: Lieder», 255 с, 10 637 просмотров — самая просматриваемая официальная загрузка песни вообще"},
+        {"videoId": "ZjHbaIoE0Po", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "256 с, дубль в другом сборнике"}
+      ],
+      "note": "Из всех FiDi — самая устойчивая ссылка (максимум просмотров, Topic-канал)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон) — лайв",
+      "pianist": "Sviatoslav Richter",
+      "rec_year": "29 августа 1977 (лайв)",
+      "year_source": "Запись ORF из Kleines Festspielhaus, Зальцбург, 29 августа 1977; в программе — Der Einsame op. 41 (описание издания, воспроизведённое в поисковой выдаче по Discogs-релизу «Schubert — Fischer-Dieskau, Richter: Lieder»)",
+      "album": "«Schubert: Lieder» — зальцбургский вечер FiDi/Richter",
+      "label": "EMI (ORF-запись)",
+      "age_voice": "52 года; тон уже за пиком (источник издания прямо говорит: «past the peak of his tone… still at the height of his interpretive depths»).",
+      "reputation": "Один из самых знаменитых Lieder-вечеров XX века — из-за Рихтера за роялем; интерпретационно ценится очень высоко, вокально — компромисс.",
+      "sources": [
+        "https://www.discogs.com/release/6858616-Franz-Schubert-Dietrich-Fischer-Dieskau-Sviatoslav-Richter-Lieder",
+        "https://nyfos.org/schubert-lieder-fischer-dieskau-richter/"
+      ],
+      "youtube": [
+        {"videoId": "3Ka5ui7U0BI", "channel": "incontrario motu", "official": false, "oembed_ok": true, "note": "полный вечер, 4606 с — отдельного трека Der Einsame нет; для топ-5 не годится (нужен трек, а не 77-минутная загрузка)"}
+      ],
+      "note": "Отдельной официальной загрузки трека Der Einsame из этого вечера не найдено (в поиске Topic-канала FiDi по запросу Richter выдаётся версия с Хартмутом Хёллем, а не с Рихтером)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Alfred Brendel",
+      "rec_year": "август 1982 (альбом издан Philips в 1983)",
+      "year_source": "Discogs/AllMusic по Philips-альбому FiDi/Brendel «Songs · Lieder»: треки записаны в Берлине — июль 1985 и август 1982; выпуски 1986 и 1983 соответственно. Topic-метаданные ставят альбом Der Einsame на релиз 1983 → сессии августа 1982. Точный трек-лист сессии по буклету не проверен.",
+      "album": "Philips «Schubert: Lieder / Songs» (FiDi–Brendel)",
+      "label": "Philips",
+      "age_voice": "57 лет; голос заметно суше и уже, интерпретация — максимально детализированная.",
+      "reputation": "Дуэт с Бренделем ценится за фортепианную сторону; вокально это поздний Фишер-Дискау, слабее и EMI-, и DG-версий.",
+      "sources": [
+        "https://www.discogs.com/master/1506909-Schubert-Dietrich-Fischer-Dieskau-Alfred-Brendel-Songs-Lieder",
+        "https://www.allmusic.com/album/schubert-lieder-mw0001825993"
+      ],
+      "youtube": [
+        {"videoId": "i5Vg_0WoYhE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "252 с, 8031 просмотр"}
+      ],
+      "note": "Есть ещё поздняя версия FiDi с Хартмутом Хёллем (v5ePkJYdcPM, Topic, 248 с) и лайв из «Homage to Gerald Moore» с Муром (2mZWXr6a5JA, Topic, 248 с) — обе слабее по вокалу/значимости, в топ не претендуют."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf (сопрано)",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен точно: студийная EMI-запись (продюсер Walter Legge) из массива сессий 1948–1954 гг.; отдельно существует зальцбургский лайв с Муром из набора Orfeo (1953–1963)",
+      "year_source": "Topic-метаданные трека дают альбом «Schubert, Schumann & Strauss: Lieder» с указанием продюсера Walter Legge (EMI). Компиляция известна как «Lieder of Schubert, Schumann & Strauss, Recordings 1948–1954». В наксосовском описании Orfeo C826103D (зальцбургские рециталы Шварцкопф, 1953–1963) Der Einsame стоит на диске 3, трек 6, с Джеральдом Муром (4:22). Naxos 8.111287 (Schwarzkopf, Schubert Lieder 1952–1954) Der Einsame НЕ содержит — проверено по трек-листу.",
+      "album": "EMI-рецитал (в переизданиях «Schubert, Schumann & Strauss: Lieder»); отдельно — Orfeo C826103 «Elisabeth Schwarzkopf sings Lieder by Schubert & Wolf» (Зальцбург, лайв)",
+      "label": "EMI / Warner Classics; Orfeo d'Or",
+      "age_voice": "33–39 лет в студийный период — по дайджесту это ровно её пик (1948–1964).",
+      "reputation": "Топ-1 среди женщин по правилам проекта; зальцбургские вечера с Муром — образцовые. Конкретной сравнительной оценки именно Der Einsame в найденных обзорах нет.",
+      "sources": [
+        "https://www.naxos.com/CatalogueDetail/?id=C826103D",
+        "https://www.naxos.com/CatalogueDetail/?id=8.111287",
+        "https://tsaraslondon.com/2019/05/30/elisabeth-schwarzkopf-the-complete-recitals-1952-1974/",
+        "https://classical.music.apple.com/us/recording/franz-schubert-1797-pp984-1526579413"
+      ],
+      "youtube": [
+        {"videoId": "jLa5YQulZnA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "note": "альбом «Schubert, Schumann & Strauss: Lieder», исполнители — Schwarzkopf/Moore, продюсер Walter Legge; 274 с"}
+      ],
+      "note": "MusicBrainz даёт у Шварцкопф ДВА Der Einsame: с Муром и с Джеффри Парсонсом (последняя — из сессий 1970/1973 гг. альбома «Songs I Love»). Официальной загрузки версии с Парсонсом не найдено. Существует также лайв-издание Archipel («Schubert, Strauss & Others: Art Songs (Live)», 4:31) — год концерта не верифицирован."
+    },
+    {
+      "singer": "Elisabeth Schumann (сопрано)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1937 (по метаданным переиздания EMI «Icon»); дискографическая сверка по матрицам НЕ проведена",
+      "year_source": "Naxos Historical 8.110731 «Elisabeth Schumann: Schubert Lieder (1927–1945)» содержит Der Einsame D 800 (трек 23, Moore, 3:55) — то есть запись попадает внутрь диапазона 1927–1945. Год «1937» берётся из метаданных EMI-сборника «Icon: Elisabeth Schumann» и из фан-загрузки incontrario motu «Schumann / Moore 1937». Правило проекта требует сверки по матрицам сессии — она не выполнена, прецедент с ложной датой у этой же певицы уже был.",
+      "album": "HMV 78 об/мин; переиздания: Naxos Historical 8.110731, EMI «Icon: Elisabeth Schumann»",
+      "label": "HMV / EMI; Naxos Historical",
+      "age_voice": "если 1937 — 49 лет, конец её пика (по дайджесту пик — 1920-е — сер. 1930-х); стиль эталонный, голос ещё светлый.",
+      "reputation": "Элизабет Шуман — канон довоенного шубертовского пения; её лёгкая, «разговорная» подача особенно идёт бидермайерскому характеру Der Einsame.",
+      "sources": [
+        "https://www.naxos.com/CatalogueDetail/?id=8.110731",
+        "planning/research/singers-digest.md (карточка Schumann; предупреждение о датах по матрицам)"
+      ],
+      "youtube": [
+        {"videoId": "oFwQ53rRKLk", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "note": "альбом «Icon: Elisabeth Schumann», 234 с"},
+        {"videoId": "KPBxjAmw6-o", "channel": "nadaniente115a", "official": false, "oembed_ok": null, "note": "243 с, 1066 просмотров — фан-перенос с 78"}
+      ],
+      "note": "Перед публикацией года — обязательна сверка по матрицам (правило верификации, §«даты по матрицам, не по метаданным»)."
+    },
+    {
+      "singer": "Peter Anders (тенор)",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1943–1947 (радиозапись берлинского Rundfunk; точная дата не установлена)",
+      "year_source": "Издание «Peter Anders, Vol. 10 (1943–1947)» содержит Der Einsame op. 41 D 800 с Раухайзеном; сам Раухайзен с 1940 возглавлял отдел песни и камерной музыки берлинского радио. Точная сессия по каталогу Lied-Edition Раухайзена не проверена.",
+      "album": "Раухайзеновская «Lied-Edition» берлинского радио; переиздания (в т. ч. сборник «Schubert: Art Songs»)",
+      "label": "RRG/Berlin Classics и производные переиздания",
+      "age_voice": "35–39 лет — ровно пик Андерса (по дайджесту 1940-е, спада нет: погиб в 1954 в 45 лет).",
+      "reputation": "Один из приоритетных певцов по правилам проекта; его связка с Раухайзеном — эталон немецкой военной/послевоенной радиошколы. Звук — радиоплёнка 1940-х, узкий диапазон.",
+      "sources": [
+        "https://classicselectworld.com/products/ein-heller-stern-in-dunkler-zeit",
+        "https://en.wikipedia.org/wiki/Michael_Raucheisen",
+        "planning/research/singers-digest.md (карточка Anders)"
+      ],
+      "youtube": [
+        {"videoId": "VlY8N8YF4RU", "channel": "Peter Anders - Topic", "official": true, "oembed_ok": true, "note": "альбом «Schubert: Art Songs», 259 с"},
+        {"videoId": "qSJn_X41h94", "channel": "Michael Raucheisen - Topic", "official": true, "oembed_ok": true, "note": "262 с — та же запись со стороны Raucheisen-Edition"}
+      ],
+      "note": "Приоритетный певец из списка правил — записал песню, кандидат сильный."
+    },
+    {
+      "singer": "Lucia Popp (сопрано)",
+      "pianist": "Irwin Gage",
+      "rec_year": "1–6 ноября 1983 (Abbey Road, Лондон); LP издан в 1984",
+      "year_source": "Данные издания EMI (продюсер John Mordler, баланс-инженер Mark Vigars), приведённые на Discogs-релизе LP «Schubert Lieder» (Popp/Gage, 1984)",
+      "album": "«Schubert Lieder» (EMI, 1984); переиздания «Icon: Lucia Popp»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "44 года — середина её пика (~1970–1988); голос в полной форме, серебристый, без признаков износа (умерла в 54, позднего спада практически нет).",
+      "reputation": "Один из самых любимых шубертовских рециталов 1980-х; Попп входит в список приоритетных певцов проекта. Der Einsame у неё — светлое, улыбчивое прочтение.",
+      "sources": [
+        "https://www.discogs.com/release/4516443-Franz-Schubert-Lucia-Popp-Irwin-Gage-Schubert-Lieder",
+        "planning/research/singers-digest.md (карточка Popp)"
+      ],
+      "youtube": [
+        {"videoId": "zhV5PpMDELw", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true, "note": "альбом «Icon: Lucia Popp», 252 с — студийная версия 1983"},
+        {"videoId": "17YmupNlH4A", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true, "note": "альбом «Lucia Popp Irwin Gage Lieder», 274 с — вероятно лайв, идентификация не подтверждена"},
+        {"videoId": "AITMi1LHRRk", "channel": "incontrario motu", "official": false, "oembed_ok": true, "note": "266 с, 4216 просмотров, подписано «Popp / Gage live»"}
+      ],
+      "note": "Есть два документированных лайва Попп/Гейджа с этой песней: Эдинбург, 30 августа 1983, и Мюнхенский оперный фестиваль 1984 (Cuvilliés-Theater, Orfeo). Какая версия на каком видео — не установлено; для публикации надёжнее студийная zhV5PpMDELw."
+    },
+    {
+      "singer": "Peter Pears (тенор)",
+      "pianist": "Benjamin Britten",
+      "rec_year": "три разные версии: 1954, 1959, 1972",
+      "year_source": "Официальные Topic-загрузки прямо помечены «(1954 Version)», «(1959 Version)», «(1972 Version)»; издание — серия «Britten the Performer» (записи BBC/Aldeburgh, издаваемые Britten–Pears Foundation/Decca)",
+      "album": "«Britten the Performer»",
+      "label": "BBC / Britten–Pears Foundation (дистрибуция Decca)",
+      "age_voice": "44 / 49 / 62 года. По дайджесту пик Пирса — 1950-е–1960-е; версия 1954 — самая свежая, 1972 — заметно суше.",
+      "reputation": "Пирс–Бриттен — одна из великих шубертовских связок (их Winterreise 1963 в дайджесте назван «среди величайших»). Тембр Пирса специфичен и делит слушателей.",
+      "sources": [
+        "https://open.spotify.com/track/2uRYiDlokQiYUdnK6bqfPT",
+        "planning/research/singers-digest.md (карточка Pears)"
+      ],
+      "youtube": [
+        {"videoId": "Kq_Qc_Pf_g0", "channel": "Release - Topic", "official": true, "oembed_ok": true, "note": "версия 1954, 260 с"},
+        {"videoId": "isN9cbV-5Pc", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true, "note": "версия 1959, 254 с"},
+        {"videoId": "-Jv5OFfGQL4", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true, "note": "версия 1972, 268 с"}
+      ],
+      "note": "По правилу «при прочих равных — более ранняя» предпочтительна версия 1954."
+    },
+    {
+      "singer": "Hermann Prey (баритон)",
+      "pianist": "Karl Engel",
+      "rec_year": "не установлен точно; альбом «Lieder von Franz Schubert — Lied-Edition Vol. 2» (релиз 1974 по метаданным Topic)",
+      "year_source": "Метаданные официального Topic-трека (альбом, исполнители, год релиза 1974). Дискографическая сверка сессии не проведена.",
+      "album": "«Lieder von Franz Schubert — Lied-Edition Vol. 2»",
+      "label": "EMI Electrola (переиздания Warner)",
+      "age_voice": "~45 лет, если релиз соответствует сессиям начала 1970-х — это середина его пика (~1960–1980).",
+      "reputation": "Прай — главный «лирический» соперник Фишера-Дискау и основатель Шубертиады в Хоэнемсе; тёплая, народно-окрашенная манера идёт этой песне.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Prey)"
+      ],
+      "youtube": [
+        {"videoId": "-GxHb51s4is", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "note": "248 с, 911 просмотров"}
+      ],
+      "note": "Прая нет в MusicBrainz-каркасе по этой работе — найден только через generic-поиск YouTube."
+    },
+    {
+      "singer": "Elly Ameling (сопрано)",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1973 (альбом Philips «Schubert: Lieder» выпущен в январе 1974)",
+      "year_source": "Каталожные данные Philips/Universal по альбому «Schubert: Lieder» (Ameling/Baldwin): релиз 8 января 1974; в описаниях переизданий запись датируется 1973. Точная сессия по буклету не проверена.",
+      "album": "Philips «Schubert: Lieder» (переиздания «Schubert: Lieder — Ave Maria», Pentatone PTC5186132)",
+      "label": "Philips / Universal (Pentatone)",
+      "age_voice": "~40 лет — самый центр её пика (~1965–1985).",
+      "reputation": "Амелинг — самая записываемая шубертианка своего поколения; её филипсовская серия с Болдуином — репертуарный стандарт 1970-х.",
+      "sources": [
+        "https://music.apple.com/us/album/schubert-lieder/1452252498",
+        "http://www.arkivmusic.com/classical/album.jsp?album_id=90165",
+        "planning/research/singers-digest.md (карточка Ameling)"
+      ],
+      "youtube": [
+        {"videoId": "rvyzHQ3TrAQ", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "note": "235 с"},
+        {"videoId": "ZD-P1zN9Do0", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "note": "235 с, 2784 просмотра — дубль"},
+        {"videoId": "XJ3JxACweVA", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "note": "альбом «Elly Ameling Sings Schubert», пианист Rudolf Jansen — ДРУГАЯ, более поздняя запись, 249 с"}
+      ],
+      "note": "У Амелинг две записи песни (Baldwin и Jansen); при прочих равных — более ранняя с Болдуином."
+    },
+    {
+      "singer": "Brigitte Fassbaender (меццо)",
+      "pianist": "Erik Werba",
+      "rec_year": "1974 (издание EMI Electrola, продюсер Christfried Bickenbach)",
+      "year_source": "Discogs, LP «Brigitte Fassbaender, Erik Werba — Lieder von Franz Schubert» (1974, EMI Electrola): содержит Der Einsame D 800, 4:30",
+      "album": "«Lieder von Franz Schubert» (EMI Electrola); переиздание «Lieder Vol. 2 (Schubert & Wolf)»",
+      "label": "EMI Electrola / Warner",
+      "age_voice": "35 лет — начало её пика (~1975–1992); голос свежий, ещё не тот тёмный «Winterreise-1988».",
+      "reputation": "Фассбендер — первая великая женская Winterreise (1988); её ранний шубертовский рецитал с Вербой ценится ниже поздних работ, но это фирменное «мужское» женское чтение.",
+      "sources": [
+        "https://www.discogs.com/Brigitte-Fassbaender-Erik-Werba-Lieder-von-Franz-Schubert/release/10873310",
+        "planning/research/singers-digest.md (карточка Fassbaender)"
+      ],
+      "youtube": [
+        {"videoId": "R3LhV7eifE8", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true, "note": "270 с"}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Barbara Hendricks (сопрано)",
+      "pianist": "Radu Lupu",
+      "rec_year": "25, 28, 29, 30 ноября 1985 (Salle Wagram, Париж) — если трек из тома 1; том 2 записан позже (1993)",
+      "year_source": "Данные EMI по альбому «Schubert: Lieder» (Hendricks/Lupu): Париж, Salle Wagram, 25/28/29/30 ноября 1985. Topic-метаданные ставят трек в «Schubert: Lieder, Vol. 1» → сессии 1985. Трек-лист по буклету не проверен.",
+      "album": "EMI «Schubert: Lieder, Vol. 1»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "37 лет — пик (1980-е–1990-е).",
+      "reputation": "Редкий случай, когда за роялем великий сольный пианист (Раду Лупу) — главный интерес записи. Голос Хендрикс лёгкий, стилистически не немецкий.",
+      "sources": [
+        "https://www.discogs.com/release/8185345-Schubert-Barbara-Hendricks-Radu-Lupu-Lieder",
+        "https://www.allmusic.com/album/schubert-lieder-mw0001331812",
+        "planning/research/singers-digest.md (карточка Hendricks)"
+      ],
+      "youtube": [
+        {"videoId": "9qBZ1O-zJi4", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true, "note": "244 с, 44 276 просмотров — рекорд просмотров среди официальных загрузок песни"}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Richard Jackson (баритон)",
+      "pianist": "Graham Johnson",
+      "rec_year": "февраль 1996 (Rosslyn Hill Unitarian Chapel, Hampstead, Лондон)",
+      "year_source": "Hyperion Records, страница CDJ33026 «The Hyperion Schubert Edition, Vol. 26»: запись февраль 1996, релиз сентябрь 1996",
+      "album": "Hyperion Schubert Edition, Vol. 26 — «An 1826 Schubertiad» (Der Einsame открывает диск)",
+      "label": "Hyperion",
+      "age_voice": "данных о возрасте певца не найдено; Джексон — участник эдиции, не звезда.",
+      "reputation": "Том получил Gramophone Editor's Choice и Classic CD «Song Record of the Year»; один из отзывов — «a wondrous addition to this unique venture». Ценность прежде всего научная: заметки Грэма Джонсона о песне (мотив сверчка, «Шуберт мягко упрекает искушённых слушателей, полагающих, что жизнь „маленьких людей“ лишена богатства»; отсылка к Диккенсу; ссылка на Эйнштейна: в Der Einsame Шуберт «и изобразил, и идеализировал филистерство бидермайера»).",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
+        "https://www.hyperion-records.co.uk/dw.asp?dc=W1905_GBAJY9502601"
+      ],
+      "youtube": [
+        {"videoId": "5Ivasq-Eio0", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "note": "283 с — самая медленная из найденных версий"}
+      ],
+      "note": "Вокально не топ; берётся во внимание как «научный эталон» издания."
+    },
+    {
+      "singer": "Matthias Goerne (баритон)",
+      "pianist": "Eric Schneider",
+      "rec_year": "не установлен точно; том эдиции записан в диапазоне 2007–2012",
+      "year_source": "Matthias Goerne Schubert Edition (harmonia mundi, 12 томов, 2008–2014); Der Einsame — в томе 8 «Wanderers Nachtlied»; сессии свода датируются 2007–2012 (jpc/allmusic по эдиции). Точная сессия тома 8 не проверена.",
+      "album": "Goerne Schubert Edition Vol. 8 «Wanderers Nachtlied»",
+      "label": "harmonia mundi",
+      "age_voice": "~40–45 лет — внутри его пика (~1997–2015).",
+      "reputation": "Крупнейший сольный шубертовский свод последних десятилетий; Гёрне — самый записываемый Schubert-баритон поколения. Манера тёмная и медленная — спорна именно для этой светлой песни (правило скепсиса к пиару современных применимо).",
+      "sources": [
+        "https://www.jpc.de/jpcng/classic/detail/-/art/Wanderers-Nachtlied/hnum/4015674",
+        "planning/research/singers-digest.md (карточка Goerne; сквозные издания)"
+      ],
+      "youtube": [
+        {"videoId": "zdRyh6DRzbA", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "note": "250 с, 617 просмотров"}
+      ],
+      "note": "Кандидат на слот «не ранее 1990»."
+    },
+    {
+      "singer": "Werner Güra (тенор)",
+      "pianist": "Christoph Berner",
+      "rec_year": "не установлен точно; альбом «Willkommen und Abschied» (harmonia mundi, релиз 2012)",
+      "year_source": "Метаданные официального Topic-трека (альбом «Schubert: Willkommen und Abschied», релиз 2012). Дискографическая сверка сессии не проведена.",
+      "album": "«Schubert: Willkommen und Abschied»",
+      "label": "harmonia mundi",
+      "age_voice": "~47 лет — внутри пика (~1998–2015); Бернер играет на историческом инструменте в других своих шубертовских записях.",
+      "reputation": "Гюра — один из немногих современных теноров с настоящей немецкой школой Lied; его шубертовская серия на HM хорошо принята.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Güra)"
+      ],
+      "youtube": [
+        {"videoId": "hogoOFsbyEo", "channel": "Werner Güra - Topic", "official": true, "oembed_ok": true, "note": "257 с"},
+        {"videoId": "ZRMBhaa4HGo", "channel": "mutewoman2", "official": false, "oembed_ok": null, "note": "259 с, 2190 просмотров"}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Benjamin Appl (баритон)",
+      "pianist": "James Baillieu",
+      "rec_year": "не установлен точно; альбом «Heimat» (Sony Classical, релиз март 2017)",
+      "year_source": "Метаданные официального Topic-трека (альбом «Heimat», релиз 2017); дайджест фонда подтверждает «Heimat (Sony 2017, Baillieu)». Дата сессии не проверена.",
+      "album": "«Heimat»",
+      "label": "Sony Classical",
+      "age_voice": "~34 года; начало зрелости, ранний пик (~2016–наст.).",
+      "reputation": "Аппль — последний частный ученик Фишера-Дискау, «Heimat» — его громкий дебютный концепт-альбом на Sony. Правило скепсиса к пиару современных применимо в полной мере.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Appl)"
+      ],
+      "youtube": [
+        {"videoId": "Fo_A6lCqKmE", "channel": "Benjamin Appl - Topic", "official": true, "oembed_ok": true, "note": "261 с, 2240 просмотров"}
+      ],
+      "note": "Кандидат на слот «не ранее 2015»."
+    },
+    {
+      "singer": "Samuel Hasselhorn (баритон)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "март 2024 (студия B-Sharp, Берлин)",
+      "year_source": "harmonia mundi, альбом «Schubert: Licht und Schatten» — запись март 2024, B-Sharp, Берлин; релиз 2025; в трек-листе Der Einsame D 800 (4'11)",
+      "album": "«Licht und Schatten» — второй том проекта «Schubert 200», песни 1824–1826 гг.",
+      "label": "harmonia mundi",
+      "age_voice": "~34 года; ранняя зрелость.",
+      "reputation": "Проект «Schubert 200» уже отмечен: Müllerin (2023) — Diapason d'or года, «Licht und Schatten» — Preis der deutschen Schallplattenkritik. ResMusica вышла с рецензией «Schubert au sommet». Оценки прессы — свежие и рекламно окрашенные; по правилу — фильтровать.",
+      "sources": [
+        "https://www.harmoniamundi.com/en/albums/schubert-licht-hasselhorn/",
+        "https://www.resmusica.com/2025/04/12/samuel-hasselhorn-et-ammiel-bushakewitz-schubert-au-sommet-harmonia-mundi/",
+        "https://www.resmusica.com/2025/03/09/samuel-hasselhorn-et-ammiel-bushakevitz-revelent-lunivers-de-lumiere-et-dombres-de-schubert/",
+        "planning/research/singers-digest.md (карточка Hasselhorn)"
+      ],
+      "youtube": [
+        {"videoId": "QduApCXrzEw", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true, "note": "251 с"}
+      ],
+      "note": "Главный кандидат на слот «не ранее 2015»: альбом покрывает почти весь пилотный раздел 1824–1825."
+    },
+    {
+      "singer": "Ilker Arcayürek (тенор)",
+      "pianist": "Simon Lepper",
+      "rec_year": "не установлен точно; альбом «Der Einsame» (Champs Hill Records, релиз 2017)",
+      "year_source": "Метаданные официального Topic-трека (альбом «Schubert: Der Einsame», 2017); дайджест фонда: «Der Einsame» (Champs Hill 2017, Lepper). Дата сессии не проверена.",
+      "album": "«Der Einsame» — дебютный сольный альбом, названный по этой песне",
+      "label": "Champs Hill Records",
+      "age_voice": "~33 года; дебютный альбом.",
+      "reputation": "Альбом отрецензирован Gramophone (страница «SCHUBERT Der Einsame»); рецензент противопоставляет его прочтение версии Фишера-Дискау, названной «мягко комическим портретом бюргерского благодушия». Полный текст рецензии за пейволлом (403).",
+      "sources": [
+        "https://www.gramophone.co.uk/reviews/schubert-der-einsame",
+        "https://music.apple.com/us/album/schubert-der-einsame/1258227822",
+        "planning/research/singers-digest.md (карточка Arcayürek)"
+      ],
+      "youtube": [
+        {"videoId": "NtOFdgDSm_Y", "channel": "Ilker Arcayürek - Topic", "official": true, "oembed_ok": true, "note": "242 с"},
+        {"videoId": "7-Fy9XHTmKU", "channel": "ilkertenor", "official": false, "oembed_ok": null, "note": "making-of дебютного альбома, 297 с, 5852 просмотра"}
+      ],
+      "note": "Единственная запись, где эта песня — заглавная для целого альбома."
+    },
+    {
+      "singer": "Christoph Prégardien (тенор)",
+      "pianist": "Michael Gees",
+      "rec_year": "не установлен",
+      "year_source": "Официальный Topic-трек указывает альбом «Schubert: Lieder von Abschied und Reise» (Prégardien/Gees). Год записи по каталогу Challenge Classics не установлен.",
+      "album": "«Schubert: Lieder von Abschied und Reise»",
+      "label": "Challenge Classics",
+      "age_voice": "по дайджесту пик Прегардьена ~1990–2012; без даты сессии состояние голоса не оценить.",
+      "reputation": "Прегардьен — один из ведущих Lieder-теноров поколения; его Müllerin с Гизом получила Gramophone Editor's Choice и MIDEM Record of the Year 2009.",
+      "sources": [
+        "https://www.challengerecords.com/artists/1203010792",
+        "planning/research/singers-digest.md (карточка Prégardien)"
+      ],
+      "youtube": [
+        {"videoId": "sD-Qun6r3_o", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true, "note": "241 с"},
+        {"videoId": "s0xULLk66rM", "channel": "Julius Drake", "official": true, "oembed_ok": null, "note": "ДРУГОЙ пианист — Julius Drake; 266 с, канал самого пианиста"}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Ernst Haefliger (тенор)",
+      "pianist": "Jörg Ewald Dähler (хаммерклавир)",
+      "rec_year": "не установлен точно; альбом «Franz Schubert: 23 ausgewählte Lieder» (релиз 1987)",
+      "year_source": "Метаданные официального Topic-трека (альбом, исполнители, релиз 1987). Дискографическая сверка не проведена; серия Хефлигера/Делера на Claves записывалась в 1980-е.",
+      "album": "«Franz Schubert: 23 ausgewählte Lieder»",
+      "label": "Claves",
+      "age_voice": "~65–68 лет — далеко за вокальным пиком (1950-е–1960-е); по дайджесту тон уже сухой, ценность — стиль и исторический инструмент.",
+      "reputation": "Периодная (хаммерклавирная) линия; интерпретационно скрупулёзно, вокально — компромисс.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Haefliger)"
+      ],
+      "youtube": [
+        {"videoId": "PXRqPhYQOeU", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true, "note": "247 с"}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Karl Erb (тенор)",
+      "pianist": "Bruno Seidler-Winkler",
+      "rec_year": "не установлен точно; ок. 1935–1951 (стороны HMV/Electrola)",
+      "year_source": "Дайджест фонда: стороны HMV/Electrola с Seidler-Winkler ~1935–1951; официальный Topic-трек указывает антологию «Lieder von Franz Schubert in historischen Aufnahmen» (переиздание 2006). Точная дата сессии не установлена.",
+      "album": "«Lieder von Franz Schubert in historischen Aufnahmen»",
+      "label": "HMV/Electrola; переиздания (Preiser и др.)",
+      "age_voice": "58–74 года — далеко за вокальным пиком (~1905–1930); ценность как документ довоенного немецкого стиля.",
+      "reputation": "Эрб — легенда довоенного пения (первый Palestrina Пфицнера); шубертовские стороны — образец старой немецкой декламации, но голос уже изношен.",
+      "sources": [
+        "https://searchworks.stanford.edu/view/9157610",
+        "planning/research/singers-digest.md (карточка Erb)"
+      ],
+      "youtube": [
+        {"videoId": "jWqeOlj6dtA", "channel": "Karl Erb - Topic", "official": true, "oembed_ok": true, "note": "257 с, 31 просмотр"}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Ian Bostridge (тенор)",
+      "pianist": "Julius Drake",
+      "rec_year": "лайв Wigmore Hall; альбом «Schubert 3 — Wigmore Hall Live» (релиз 2017 по метаданным Topic); дата концерта не установлена",
+      "year_source": "Метаданные официального Topic-трека (альбом «Schubert 3 - Wigmore Hall Live»). Дата концерта по каталогу Wigmore Hall Live не проверена.",
+      "album": "«Schubert 3 — Wigmore Hall Live»",
+      "label": "Wigmore Hall Live",
+      "age_voice": "по дайджесту пик Бостриджа ~1995–2010, позже манернее и суше; без даты концерта оценка невозможна.",
+      "reputation": "Интеллектуальный шубертианец, автор книги о Winterreise; манера намеренно нервная — для бидермайерской идиллии Der Einsame спорна.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Bostridge)"
+      ],
+      "youtube": [
+        {"videoId": "mqcW5RH01Ys", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "note": "279 с"}
+      ],
+      "note": "Найден только через generic-поиск YouTube; в MusicBrainz-каркасе отсутствует."
+    },
+    {
+      "singer": "Sarah Walker (меццо)",
+      "pianist": "Roger Vignoles",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz (каркас дискографии D 800) фиксирует запись Sarah Walker / Roger Vignoles; альбом и год по каталогу Hyperion не подтверждены.",
+      "album": "не установлен (вероятно рецитал Hyperion)",
+      "label": "вероятно Hyperion",
+      "age_voice": "не установлено",
+      "reputation": "Данных нет.",
+      "sources": [
+        "planning/youtube/data/d800-der-einsame.mb.json"
+      ],
+      "youtube": [],
+      "note": "Загрузки на YouTube не найдено; кандидат маргинальный."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff Thomas": "НЕ записывал. Дискография Квастхоффа закрыта в 2012 и состоит ровно из 6 Schubert-альбомов (Goethe-Lieder RCA 1993/95, Winterreise RCA 1998, Schwanengesang DG 2001, Lieder с оркестром DG 2003, Müllerin DG 2005, Winterreise-фильм DG 2005) — Der Einsame (текст Лаппе, вне гётевского корпуса) ни в один не входит. Подтверждение: singers-digest.md (карточка Quasthoff); в каркасе MusicBrainz по D 800 (35 записей) Квастхоффа нет; целевой веб-поиск «Quasthoff Der Einsame D 800» не дал ни одной записи.",
+    "Fischer-Dieskau Dietrich": "ЗАПИСЫВАЛ, минимум пять раз: EMI с Муром (ранняя, «Schubert: Lieder Vol. 1»), DG-свод с Муром (сессии 1966–72), лайв «Homage to Gerald Moore» с Муром, зальцбургский лайв с Рихтером 29.08.1977, Philips с Бренделем (сессии авг. 1982), поздняя с Хартмутом Хёллем. Источники: MusicBrainz (6 отдельных записей), каталог DG, Discogs (FiDi/Richter, FiDi/Brendel), Topic-каналы.",
+    "Schwarzkopf Elisabeth": "ЗАПИСЫВАЛА, дважды по MusicBrainz — с Джеральдом Муром и с Джеффри Парсонсом. Студийный трек с Муром (продюсер Walter Legge) есть на официальном Topic-канале; зальцбургский лайв с Муром — Orfeo C826103D, диск 3, трек 6 (набор рециталов 1953–1963). В наксосовском сборнике 8.111287 (1952–1954) песни нет. Источники: naxos.com C826103D и 8.111287, MusicBrainz, Topic-метаданные.",
+    "Hotter Hans": "НЕ найдено ни одной записи. В каркасе MusicBrainz по D 800 Хоттера нет; целевой веб-поиск «Hans Hotter Der Einsame D 800» не дал ни одного релиза. Отрицательный результат (отсутствие в источниках), а не доказанное отсутствие.",
+    "Anders Peter": "ЗАПИСЫВАЛ — с Михаэлем Раухайзеном, берлинская радиозапись из массива 1943–1947; трек есть и на Topic-канале Anders, и на Topic-канале Raucheisen. Источники: MusicBrainz, издание «Peter Anders, Vol. 10 (1943–1947)».",
+    "Schumann Elisabeth": "ЗАПИСЫВАЛА — с Джеральдом Муром (HMV, 78 об/мин). Подтверждено трек-листом Naxos Historical 8.110731 «Schubert Lieder (1927–1945)», трек 23. Год «1937» из метаданных EMI «Icon» и фан-загрузок НЕ верифицирован по матрицам — требуется сверка (прецедент ложной даты у этой же певицы).",
+    "Ludwig Christa": "НЕ найдено. В каркасе MusicBrainz по D 800 Людвиг нет; целевой веб-поиск её дискографии по этой песне результата не дал (её шубертовские треки в выдаче — Lachen und Weinen, Fischerweise, Die Allmacht, Erlkönig). Отрицательный результат по источникам.",
+    "Popp Lucia": "ЗАПИСЫВАЛА — студия EMI с Ирвином Гейджем, Abbey Road, 1–6 ноября 1983 (LP 1984); плюс минимум два лайва с Гейджем: Эдинбург 30.08.1983 и Мюнхенский оперный фестиваль 1984 (Cuvilliés-Theater, Orfeo). Источники: Discogs (LP EMI 1984), описания Orfeo/HMV."
+  },
+  "albums_facts": [
+    {
+      "album": "Die schöne Müllerin + Lieder (Wunderlich/Giesen)",
+      "singer": "Fritz Wunderlich",
+      "year": "сессии 2–5 июля 1966, Akademie der Wissenschaften, Мюнхен",
+      "label": "Deutsche Grammophon",
+      "facts": "Последние студийные сессии Вундерлиха (погиб 17.09.1966). Помимо цикла содержит An die Musik, An Silvia, Der Einsame D 800b, Frühlingsglaube, Heidenröslein, Liebhaber in allen Gestalten, Ständchen. Дискография Praefcke — надёжный сессионный источник.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "«Der letzte Liederabend» — Эдинбург, Usher Hall, 4 сентября 1966",
+      "singer": "Fritz Wunderlich",
+      "year": "1966",
+      "label": "Deutsche Grammophon",
+      "facts": "Последний сольный вечер Вундерлиха с Гизеном; в программе Бетховен, Шуман (Dichterliebe), Шуберт, включая Der Einsame op. 41 D 800b. Родственная запись — Моцартеум, Зальцбург, 19 августа 1965, с той же песней.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "DG «Schubert: Sämtliche Lieder» (Fischer-Dieskau/Moore), 21 CD",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессии 1966–1972",
+      "label": "Deutsche Grammophon",
+      "facts": "Полный свод всех «мужских» песен Шуберта; базовая точка отсчёта для любой мужской песни проекта. Женские песни (в т. ч. D 118) сознательно исключены. Покрывает практически весь пилотный раздел 1824–1825.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (CDJ33026)",
+      "singer": "Christine Schäfer, John Mark Ainsley, Richard Jackson",
+      "year": "запись февраль 1996, Rosslyn Hill Unitarian Chapel, Hampstead; релиз сентябрь 1996",
+      "label": "Hyperion",
+      "facts": "Реконструкция шубертиады 1826 года; Der Einsame открывает диск (Richard Jackson / Graham Johnson). Gramophone Editor's Choice, Classic CD «Song Record of the Year». Заметки Джонсона к Der Einsame — важный содержательный источник (мотив сверчка; Эйнштейн о «филистерстве бидермайера»; в примечании упомянуто, что песню играли Софи Мюллер 7 марта 1825).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "«Schubert Lieder» (Popp/Gage), EMI",
+      "singer": "Lucia Popp",
+      "year": "запись 1–6 ноября 1983, Abbey Road; LP 1984",
+      "label": "EMI",
+      "facts": "Продюсер John Mordler, баланс-инженер Mark Vigars. Один из самых известных женских шубертовских рециталов 1980-х; переиздан в «Icon: Lucia Popp». Содержит и другие песни пилотного раздела (в т. ч. An mein Herz — по параллельным лайв-загрузкам того же дуэта).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "«Schubert: Licht und Schatten» (Hasselhorn/Bushakevitz) — «Schubert 200», том 2",
+      "singer": "Samuel Hasselhorn",
+      "year": "запись март 2024, B-Sharp, Берлин; релиз 2025",
+      "label": "harmonia mundi",
+      "facts": "Программа целиком из песен 1824–1826 — прямо совпадает с пилотным разделом: Die junge Nonne D 828, Auflösung D 807, Die Allmacht D 852, Der Einsame D 800, Abendstern D 806, Normans Gesang D 846, Das Heimweh D 851, Fülle der Liebe, Des Sängers Habe и др. Preis der deutschen Schallplattenkritik. Первый том проекта (Müllerin, 2023) — Diapason d'or года.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "«Lieder von Franz Schubert» (Fassbaender/Werba)",
+      "singer": "Brigitte Fassbaender",
+      "year": "1974",
+      "label": "EMI Electrola",
+      "facts": "Продюсер Christfried Bickenbach. Der Einsame — 4:30. Переиздан как «Lieder Vol. 2 (Schubert & Wolf)».",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "«Schubert: Lieder» (Hendricks/Lupu), Vol. 1",
+      "singer": "Barbara Hendricks",
+      "year": "запись 25, 28, 29, 30 ноября 1985, Salle Wagram, Париж",
+      "label": "EMI",
+      "facts": "Редкий случай великого сольного пианиста (Раду Лупу) в роли аккомпаниатора. Есть второй том (1993).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "«Der Einsame» (Arcayürek/Lepper)",
+      "singer": "Ilker Arcayürek",
+      "year": "релиз 2017 (дата сессии не установлена)",
+      "label": "Champs Hill Records",
+      "facts": "Дебютный сольный альбом, названный по этой песне; отрецензирован Gramophone (рецензент сопоставляет прочтение с версией Фишера-Дискау).",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    {
+      "source": "Hyperion Records — страница песни Der Einsame D800 (заметки Graham Johnson к CDJ33026)",
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W1905_GBAJY9502601",
+      "what": "Развёрнутый аналитический комментарий (мотив сверчка в вокальной линии, отсылка к Диккенсу, цитата Эйнштейна о «филистерстве бидермайера»). Не сравнительный обзор записей, но авторитетный содержательный источник."
+    },
+    {
+      "source": "Gramophone — рецензия «SCHUBERT Der Einsame» (альбом Arcayürek/Lepper, Champs Hill)",
+      "url": "https://www.gramophone.co.uk/reviews/schubert-der-einsame",
+      "what": "Единственная найденная рецензия, прямо сопоставляющая прочтения песни: версия Фишера-Дискау охарактеризована как «мягко комический портрет бюргерского благодушия». Полный текст за пейволлом (403 при обращении)."
+    },
+    {
+      "source": "Presto Music — каталог записей Der Einsame D800",
+      "url": "https://www.prestomusic.com/classical/works/63032--schubert-der-einsame-d800/browse",
+      "what": "6 страниц изданий с этой песней — полезный перечень, но сайт отдаёт 403 при программном обращении; содержимое не извлечено."
+    }
+  ],
+  "negatives": [
+    "klassik-prisma.de: отдельной страницы-сравнения (Vergleich) для Der Einsame D 800 НЕТ. Сайт покрывает только избранные песни (Gretchen am Spinnrade, Erlkönig, Nacht und Träume, Auf dem Wasser zu singen, Der Hirt auf dem Felsen) и крупные циклы. Проверено поиском по домену.",
+    "Сравнительных обзоров/слепых тестов именно по Der Einsame не найдено ни в Gramophone (кроме рецензии на альбом Арджаюрека), ни в MusicWeb, ни в BBC Music Magazine.",
+    "Thomas Quasthoff — записи песни не существует (дискография закрыта, 6 альбомов, песни там нет).",
+    "Hans Hotter — записи не найдено ни в MusicBrainz, ни в веб-поиске.",
+    "Christa Ludwig — записи не найдено ни в MusicBrainz, ни в веб-поиске.",
+    "Наксосовский сборник Schwarzkopf 8.111287 (Schubert Lieder 1952–1954) Der Einsame НЕ содержит — версия с Муром происходит из другого массива сессий.",
+    "Sarah Walker / Roger Vignoles (есть в MusicBrainz) — загрузки на YouTube не найдено, альбом и год не установлены.",
+    "Mischa Maisky / Daria Hovora (kFafVp_8b8o, Topic) — виолончельная транскрипция, не вокальное исполнение; для топ-5 песни не подходит.",
+    "Прегардьен/Гиз, Гюра/Бернер, Прай/Энгель, Хефлигер/Делер, Арджаюрек/Леппер, Аппль/Байё, Бостридж/Дрейк: точные даты сессий по буклетам/каталогам лейблов НЕ установлены — в досье указан только год релиза с явной пометкой.",
+    "Все проверенные videoId живы и встраиваемы (yt-check, oEmbed 200): Z8dBmI9QHdU, XXcq0UpDDpY, f4opWwTvoZg, 9fN5wDg0jrw, ZjHbaIoE0Po, F714qOJ_VxE, SlpgmXJl2jM, 2mZWXr6a5JA, i5Vg_0WoYhE, v5ePkJYdcPM, jLa5YQulZnA, oFwQ53rRKLk, VlY8N8YF4RU, qSJn_X41h94, 17YmupNlH4A, zhV5PpMDELw, AITMi1LHRRk, rvyzHQ3TrAQ, XJ3JxACweVA, -GxHb51s4is, isN9cbV-5Pc, Kq_Qc_Pf_g0, -Jv5OFfGQL4, R3LhV7eifE8, 9qBZ1O-zJi4, zdRyh6DRzbA, QduApCXrzEw, Fo_A6lCqKmE, hogoOFsbyEo, sD-Qun6r3_o, 5Ivasq-Eio0, NtOFdgDSm_Y, PXRqPhYQOeU, jWqeOlj6dtA, mqcW5RH01Ys, 3Ka5ui7U0BI."
+  ]
+}

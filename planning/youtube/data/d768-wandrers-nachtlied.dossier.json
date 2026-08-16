@@ -1,0 +1,614 @@
+{
+  "d": "768",
+  "title": "Wandrers Nachtlied II («Über allen Gipfeln ist Ruh»), D 768",
+  "tier": "famous",
+  "compiled": "2026-08-16",
+  "method_note": "Пул собран из каркаса MusicBrainz (54 записи работы), страницы работы Hyperion (W1774), поиска по YouTube (yt-dlp) и веб-исследования. Годы записи взяты ТОЛЬКО из дискографических источников (буклеты, каталоги лейблов, Discogs/Naxos/Qobuz-метаданные лейбла); поля release_year из метаданных YouTube-Topic использованы лишь для АТРИБУЦИИ АЛЬБОМА, а не как дата записи — это явно помечено в note каждого кандидата.",
+  "candidates": [
+    {
+      "singer": "Hans Hotter (бас-баритон, 1909–2003)",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1942–1945 (точный день не установлен)",
+      "year_source": "Альбом-переиздание, из которого взят трек, назван «In Memoriam Hans Hotter (1942-1945)» (метаданные лейбла на официальном Topic-канале, videoId wmT9G4nCwhM); каталог Stanford SearchWorks на Acanta 43 126 «Hans Hotter singt Lieder» (Hotter/Raucheisen) даёт диапазон сессий «Recorded 1942-1950» и явно перечисляет «Wandrers Nachtlied II: op. 96, Nr. 3, D 769 [i.e. 768]»",
+      "album": "Записи берлинского радио (Raucheisen-Edition); переиздания: Acanta 43 126 «Hans Hotter singt Lieder»; «In Memoriam Hans Hotter (1942-1945)»",
+      "label": "Reichsrundfunk / Acanta, Membran (переиздания)",
+      "age_voice": "33–36 лет; ровно пик Хоттера (~1942–1955 по дайджесту) — голос ещё лёгок и подвижен, при полном тёмном объёме",
+      "reputation": "Хоттер по дайджесту — эталон тёмного низкого голоса в Шуберте; военные радиозаписи с Раухайзеном ценятся как документ его самой свежей формы. Отдельных рецензий именно на D 768 из этой серии не найдено.",
+      "sources": [
+        "https://searchworks.stanford.edu/view/13341050",
+        "MusicBrainz work c8b6fe29-b3bb-3f46-ac85-5193f2116e6f (recording: Hans Hotter, Michael Raucheisen, 139 s)"
+      ],
+      "youtube": [
+        {"videoId": "wmT9G4nCwhM", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность 137 с совпадает с MB-записью Hotter/Raucheisen (139 с). Точный год внутри 1942–45 НЕ установлен — при публикации указывать диапазон либо уточнять по Raucheisen-Edition."
+    },
+    {
+      "singer": "Hans Hotter (бас-баритон, 1909–2003)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1949 (сессии 1–2 октября 1949, Abbey Road, Studio No. 3, Лондон)",
+      "year_source": "Аннотация переиздания «Dokumente einer Sängerkarriere – Hans Hotter» (Preiser): материал EMI «recorded at the tail end of the 78 era between 1949 and 1951»; тракты 15–18 и 23–24 — 1–2 октября 1949, Abbey Road Studio No. 3, издано 1950; в тексте рецензии прямо назван «the 1949 Schubert Wandrers Nachtlied (‘Über allen Gipfeln ist Ruh’)»",
+      "album": "78-об. сторона HMV/Electrola (Wanderers Nachtlied / Am Bach im Frühling); переиздания: EMI «Schubert: Lieder» (Hotter/Moore), Preiser «Dokumente einer Sängerkarriere»",
+      "label": "EMI (HMV/Electrola); Preiser, Testament (переиздания)",
+      "age_voice": "40 лет; в середине пика, голос ещё гибкий, дыхание очень длинное",
+      "reputation": "Аннотация Qobuz/AllMusic к переизданию: эта запись «almost seems to suspend time as Hotter's gentle voice and Moore's careful pacing draw the piece to its conclusion» — прямая похвала именно D 768. Пара Хоттер—Мур в Шуберте (в т. ч. Winterreise EMI 1954) — устоявшийся эталон.",
+      "sources": [
+        "https://www.qobuz.com/gb-en/album/dokumente-einer-sangerkarriere-hans-hotter-hans-hotter/0717281934398",
+        "https://www.allmusic.com/album/dokumente-einer-s%C3%A4ngerkarriere-hans-hotter-mw0001381993",
+        "https://www.discogs.com/release/15682605-Hans-Hotter-Gerald-Moore-Wanderers-Nachtlied-Am-Bach-Im-Fruhling"
+      ],
+      "youtube": [
+        {"videoId": "1KgMidA4-yU", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "KFpfWFGn870", "channel": "Gerald Moore - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "nfEcVkO9bHo", "channel": "saiserieht (фан)", "official": false, "oembed_ok": true}
+      ],
+      "note": "1KgMidA4-yU: метаданные лейбла — «Hans Hotter, Gerald Moore / Schubert: Lieder»; KFpfWFGn870 — тот же трек с диска Preiser «Dokumente einer Sängerkarriere» (release_year 2006 = год ПЕРЕИЗДАНИЯ, не записи). Фан-загрузка nfEcVkO9bHo (124 тыс. просмотров) — та же запись, но канал неофициальный."
+    },
+    {
+      "singer": "Hans Hotter (бас-баритон, 1909–2003)",
+      "pianist": "Hans Dokoupil",
+      "rec_year": "1968 — НЕ ВЕРИФИЦИРОВАНО",
+      "year_source": "Год взят только из названия фан-загрузки YouTube; дискографического подтверждения не найдено. По правилам такие даты источником не считаются.",
+      "album": "не установлен (вероятно поздний концертный рецитал; MB: «Wandrers Nachtlied, Op. 96 No. 3, D 768», 123 s)",
+      "label": "не установлен",
+      "age_voice": "если 1968 — 59 лет: далеко за пиком (по дайджесту уже к 1961 голос тяжелее и менее гибкий)",
+      "reputation": "Рецензий не найдено. Кандидат заведомо слабее двух ранних Хоттеров.",
+      "sources": [
+        "MusicBrainz work c8b6fe29-b3bb-3f46-ac85-5193f2116e6f (recording: Hans Hotter, Hans Dokoupil)"
+      ],
+      "youtube": [
+        {"videoId": "AmEkLEoP1RI", "channel": "vicmanu (фан)", "official": false, "oembed_ok": true}
+      ],
+      "note": "Для топ-5 не рекомендуется: нет ни официальной загрузки, ни верифицированной даты, ни вокального преимущества."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон, 1925–2012)",
+      "pianist": "Jörg Demus",
+      "rec_year": "1959 (сентябрь 1959, Берлин, Studio Lankwitz)",
+      "year_source": "Дискография DG: LP «Goethe-Lieder» SLPM 138 117 (треки 1–14) — записано в сентябре 1959 в берлинской Studio Lankwitz, издано 1960; переиздание в серии DG «The Originals» 457 747-2",
+      "album": "Schubert: Goethe-Lieder (DG SLPM 138 117, 1960; DG Originals 457 747-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года — самый центр пика (~1951–1972); голос свеж, легато и пиано на пределе возможного",
+      "reputation": "DG держит этот рецитал в серии «The Originals» («Legendary Recordings from the Deutsche Grammophon Catalogue»); в аннотациях к переизданию сессия 1959 г. прямо описывается как сделанная на вокальном пике певца.",
+      "sources": [
+        "https://www.discogs.com/master/2684645-Schubert-Goethe-Dietrich-Fischer-Dieskau-J%C3%B6rg-Demus-Gerald-Moore-Schubert-Goethe-Lieder",
+        "http://www.arkivmusic.com/classical/album.jsp?album_id=7171",
+        "https://musicbrainz.org/release/22767313-21d1-4967-a138-b07dfeb6e3bc"
+      ],
+      "youtube": [
+        {"videoId": "uPZdeAHXAQM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ZO9LIHmc130", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "uPZdeAHXAQM: метаданные лейбла — альбом «Schubert: Goethe Lieder», release_year 1960 (год издания LP; запись — сент. 1959). ZO9LIHmc130 — та же запись под французским названием «Récital Schubert et Goethe (Stereo Version)», 1960."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон, 1925–2012)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1969 (трек в составе полного свода; ℗ 1969)",
+      "year_source": "Метаданные лейбла DG на Qobuz для трека «Schubert: Wandrers Nachtlied II, D. 768» (Fischer-Dieskau/Moore): «℗ 1969 Deutsche Grammophon GmbH, Berlin»; сессии свода — Ufa-Ton-Studio, Берлин, декабрь 1966 – март 1969 (Goethe-Lieder), издания 1969/1970/1972",
+      "album": "Schubert: Lieder (DG); часть «Sämtliche Lieder» / «Complete Songs», 21 CD, зап. 1966–1972",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~41–44 года; ещё в пике, но тон плотнее и «взрослее», чем в 1959",
+      "reputation": "Свод DG 1966–72 — общепризнанная опорная точка всей мужской шубертианы; при этом правило проекта («при прочих равных — более ранняя запись») говорит в пользу версии 1959 г. с Демусом.",
+      "sources": [
+        "https://www.qobuz.com/us-en/album/schubert-lieder-dietrich-fischer-dieskau-gerald-moore/0002894741732",
+        "https://www.deutschegrammophon.com/en/catalogue/products/schubert-saemtl-lieder-fischer-dieskau-10322"
+      ],
+      "youtube": [
+        {"videoId": "ZkcUlvP5KXE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "BtTNJBiATTk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ZkcUlvP5KXE — самый просматриваемый ролик песни на YouTube (132 тыс.). Оба ролика помечены лейблом как альбом «Schubert: Lieder», release_year 1969."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон, 1925–2012)",
+      "pianist": "Günther Weissenborn",
+      "rec_year": "не установлен (ранние 1950-е?)",
+      "year_source": "нет; запись известна только по каркасу MusicBrainz",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "если начало 1950-х — 26–30 лет, ранний пик",
+      "reputation": "нет данных",
+      "sources": [
+        "MusicBrainz work c8b6fe29-b3bb-3f46-ac85-5193f2116e6f (recording: Dietrich Fischer-Dieskau, Günther Weißenborn, 151 s)"
+      ],
+      "youtube": [],
+      "note": "Ролик на YouTube не идентифицирован; для топ-5 не годится без дискографической верификации."
+    },
+    {
+      "singer": "Heinrich Schlusnus (баритон, 1888–1952)",
+      "pianist": "Sebastian Peschko",
+      "rec_year": "1941",
+      "year_source": "Название трека в метаданных лейбла на официальном Topic-канале: «Wandrers Nachtlied, D. 768 (Recorded 1941)» (переиздание Preiser «Heinrich Schlusnus in Schubert Lieder»); согласуется с дискографией Polydor/DG 1940-х годов (дайджест)",
+      "album": "Polydor/DG 78-об.; переиздание Preiser «Heinrich Schlusnus in Schubert Lieder»",
+      "label": "Polydor / Deutsche Grammophon; Preiser (переиздание)",
+      "age_voice": "53 года; по дайджесту Шлуснус держал ровность и в 1940-е — легендарное bel-canto-легато немецкого баритона",
+      "reputation": "Шлуснус — эталон «поющего» немецкого баритона довоенной школы; конкретных рецензий на этот трек не найдено.",
+      "sources": [
+        "Метаданные лейбла на «Heinrich Schlusnus - Topic» (videoId Avvvf6BGrb8), альбом «Heinrich Schlusnus in Schubert Lieder»",
+        "planning/research/singers-digest.md (Schlusnus: сотни сторон Polydor/DG 1920–40-х с Rupp и Peschko)"
+      ],
+      "youtube": [
+        {"videoId": "Avvvf6BGrb8", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "lDaVJb1XJ3A", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Год «1941» стоит в самом названии трека, проставленном правообладателем переиздания, — это дискографическая, а не пользовательская метка; всё же желательно сверить с каталогом Polydor."
+    },
+    {
+      "singer": "Karl Schmitt-Walter (баритон, 1900–1985)",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "не позднее 1952 (сборник охватывает 1935–1952); вероятно берлинские радиозаписи 1940-х",
+      "year_source": "Метаданные лейбла: альбом «Voices of the Century: Karl Schmitt-Walter Sings Songs by Franz Schubert, Robert Schumann, Johannes Brahms and Hugo Wolf (Recorded 1935-1952)»; трек также включён в антологию Preiser «Lieder von Franz Schubert in historischen Aufnahmen» (Muziekweb DAX2599, тр. 18, 1:59)",
+      "album": "Raucheisen-Edition (берлинское радио); Preiser «Lieder von Franz Schubert in historischen Aufnahmen» (1997)",
+      "label": "Preiser / Membran",
+      "age_voice": "если 1940-е — 40–45 лет, пик; лирический, светлый немецкий баритон",
+      "reputation": "Включение именно этой записи в отборную историческую антологию Preiser — косвенный знак её статуса. Прямых рецензий не найдено.",
+      "sources": [
+        "https://www.muziekweb.nl/en/Link/DAX2599/Lieder-von-Franz-Schubert-in-historischen-Aufnahmen",
+        "Метаданные лейбла на «Karl Schmitt-Walter - Topic» (videoId 8H0QtY56ksQ)"
+      ],
+      "youtube": [
+        {"videoId": "8H0QtY56ksQ", "channel": "Karl Schmitt-Walter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Точный год не установлен — для публикации потребуется уточнение по Raucheisen-Edition."
+    },
+    {
+      "singer": "Jussi Björling (тенор, 1911–1960)",
+      "pianist": "Frederick Schauwecker",
+      "rec_year": "1952",
+      "year_source": "Naxos Historical 8.110789 «Björling Collection, Vol. 5: Lieder and Songs (1939-1952)»: сборник содержит «the wonderful song recital that RCA published in 1952 as ‘Jussi Björling in Song’»; аккомпаниатор в этом рецитале — Frederick Schauwecker",
+      "album": "«Jussi Björling in Song» (RCA Victor, 1952); переиздание Naxos Historical 8.110789 (тр. 16, 2:44)",
+      "label": "RCA Victor; Naxos Historical (переиздание)",
+      "age_voice": "41 год; голос в полной силе, знаменитая ровность и «серебро» тембра сохранны",
+      "reputation": "MusicWeb International рецензировал том 5 коллекции (обзор J. Warrack, май 2005). Бьёрлинг — не германский Lied-стилист по школе, но тембр и легато делают эту версию заметной альтернативой баритональной традиции.",
+      "sources": [
+        "https://www.naxos.com/CatalogueDetail/?id=8.110789",
+        "http://www.musicweb-international.com/classrev/2005/may05/bjorling_collection5JW_8110789.htm"
+      ],
+      "youtube": [
+        {"videoId": "xaV_Cy0tW1A", "channel": "Jussi Björling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "uVCggfpVTtg", "channel": "Jussi Björling - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "xaV_Cy0tW1A — из наксосовского переиздания (диапазон 1939–1952); uVCggfpVTtg помечен альбомом «Jussi Björling in Song» (та же RCA-сессия 1952)."
+    },
+    {
+      "singer": "Kirsten Flagstad (сопрано, 1895–1962)",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен точно (EMI, 1950-е)",
+      "year_source": "Прямой дискографической даты найти не удалось. Трек фигурирует в EMI-переизданиях (в т. ч. «Icon: Kirsten Flagstad» и антологии EMI c пометкой «1997 - Remaster») вместе с Die Allmacht D 852 и Frühlingsglaube D 686.",
+      "album": "EMI-рецитал Шуберта; переиздания «Icon: Kirsten Flagstad» (EMI Classics, 2010), EMI-антология (ремастер 1997)",
+      "label": "EMI",
+      "age_voice": "в 1950-е — 55–61 год; манера монументальная, оперная, не камерная (см. дайджест: «Шуберт вторичен»)",
+      "reputation": "Дайджест проекта отмечает, что Шуберт у Флагстад — периферия репертуара, а стиль монументален. Специальных похвал именно D 768 не найдено.",
+      "sources": [
+        "MusicBrainz work c8b6fe29-b3bb-3f46-ac85-5193f2116e6f (recording: Kirsten Flagstad, Gerald Moore, 155 s, «1997 - Remaster»)",
+        "Метаданные лейбла на «Gerald Moore - Topic» (videoId hxQn3M6Xofw), альбом «Icon: Kirsten Flagstad»",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "hxQn3M6Xofw", "channel": "Gerald Moore - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год записи НЕ верифицирован — без этого в топ-5 брать нельзя."
+    },
+    {
+      "singer": "Christa Ludwig (меццо, 1928–2021)",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "не позднее 1968 (LP «Schubert Lieder» выпущен в 1968)",
+      "year_source": "Discogs: Christa Ludwig / Geoffrey Parsons, «Schubert Lieder», LP, стерео, 1968 (EMI/Electrola). Трек включён в бокс Warner «The Complete Recitals on Warner Classics» (2018)",
+      "album": "Schubert Lieder (EMI/Electrola LP, 1968); «Schubert: 15 Lieder» (EMI GROC, 2004); Warner «Complete Recitals» (2018)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "~40 лет; ровно в пике (~1957–1975) — тёмное, но подвижное меццо, идеальная опора",
+      "reputation": "Рецитал Людвиг/Парсонс переиздан EMI в серии «Great Recordings of the Century» — институциональный знак статуса. Людвиг — приоритетная певица по правилам проекта.",
+      "sources": [
+        "https://www.discogs.com/release/5255409-Schubert-Christa-Ludwig-Geoffrey-Parsons-Schubert-Lieder",
+        "https://www.amazon.com/Schubert-15-Lieder-Christa-Ludwig/dp/B0002VEPPI",
+        "Метаданные лейбла на «Christa Ludwig - Topic» (videoId BWzlxIevxsE)"
+      ],
+      "youtube": [
+        {"videoId": "BWzlxIevxsE", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год издания LP (1968) — верхняя граница; точная дата сессии не найдена, при публикации указывать «1968» с оговоркой либо уточнить по буклету GROC."
+    },
+    {
+      "singer": "Hermann Prey (баритон, 1929–1998)",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен (EMI/Electrola, вероятно 1960-е)",
+      "year_source": "нет дискографической даты; альбом-носитель на Topic — «Singers of the Century: Hermann Prey Sings Beethoven & Schubert (Remastered 2014)» (2014 — год ремастера, не записи)",
+      "album": "переиздание «Singers of the Century» (Membran); оригинал — рецитал EMI/Electrola с Муром",
+      "label": "EMI/Electrola; Membran (переиздание)",
+      "age_voice": "если 1960-е — 31–40 лет, пик (~1960–1980)",
+      "reputation": "Прей — крупный шубертианец поколения; конкретных оценок этой версии не найдено.",
+      "sources": [
+        "Метаданные лейбла на «Hermann Prey - Topic» (videoId xBO0Pk0lOQA)",
+        "MusicBrainz work (отдельная запись Hermann Prey / Helmut Deutsch, 149 s — иная, вероятно с LP «Schubert–Goethe: Lieder und Balladen», 1982)"
+      ],
+      "youtube": [
+        {"videoId": "xBO0Pk0lOQA", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВНИМАНИЕ: у Прея как минимум две записи D 768 — с Муром (ролик выше, 102 с) и с Хельмутом Дойчем (MB, 149 с; вероятно LP Philips «Schubert–Goethe: Lieder und Balladen», Discogs r9555165, 1982). Ни для одной точный год записи не установлен."
+    },
+    {
+      "singer": "Peter Schreier (тенор, 1935–2019)",
+      "pianist": "Walter Olbertz",
+      "rec_year": "1965 — по подписи фан-загрузки (не верифицировано)",
+      "year_source": "Только название фан-ролика («Peter Schreier, Walter Olbertz, 1965 - MHS 3380»); MHS 3380 — американский лицензионный номер Musical Heritage Society для записи Eterna. Дискографического подтверждения года не получено.",
+      "album": "Eterna (VEB Deutsche Schallplatten); лицензия MHS 3380",
+      "label": "Eterna / Berlin Classics",
+      "age_voice": "если 1965 — 30 лет, начало пика (~1965–1990); светлый, идеально артикулированный тенор",
+      "reputation": "Шрайер — один из главных Lied-теноров второй половины XX века; в MB есть также его версия с Андрашем Шиффом (Decca, ~1989–91).",
+      "sources": [
+        "MusicBrainz work c8b6fe29-b3bb-3f46-ac85-5193f2116e6f (recordings: Peter Schreier / András Schiff; Peter Schreier / Helmut Deutsch)",
+        "planning/research/singers-digest.md (Schreier: Eterna-циклы 1970-х с Olbertz; три цикла с Schiff, Decca ~1989–91)"
+      ],
+      "youtube": [
+        {"videoId": "i69pcn023O0", "channel": "davidhertzberg (фан)", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной загрузки версии с Ольбертцем не найдено. Версия с Шиффом на YouTube не идентифицирована. Кандидат требует доработки перед включением в топ-5."
+    },
+    {
+      "singer": "Barbara Hendricks (сопрано, р. 1948)",
+      "pianist": "Radu Lupu",
+      "rec_year": "1985 (том 1 серии EMI)",
+      "year_source": "Дайджест проекта: два тома EMI с Раду Лупу — 1985 и 1993; трек помечен лейблом как «Schubert: Lieder, Vol. 1»",
+      "album": "Schubert: Lieder, Vol. 1 (EMI)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "~37 лет, в пике (1980-е–1990-е)",
+      "reputation": "Ценность прежде всего в редком случае: за роялем — великий пианист-солист Раду Лупу. Специальных оценок D 768 не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md (Hendricks: два тома EMI с Radu Lupu, 1985 и 1993)",
+        "Метаданные лейбла на «Barbara Hendricks - Topic» (videoId NWH9pM4tPSc)",
+        "MusicBrainz work (recording: Barbara Hendricks, Radu Lupu, 126 s)"
+      ],
+      "youtube": [
+        {"videoId": "NWH9pM4tPSc", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год 1985 взят из дайджеста (том 1); прямой буклетной сверки не проводилось."
+    },
+    {
+      "singer": "Bryn Terfel (бас-баритон, р. 1965)",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994 (февраль 1994, Гамбург-Харбург, Friedrich-Ebert-Halle)",
+      "year_source": "Дискография DG/Discogs альбома «An die Musik – Favourite Schubert Songs»: записано в феврале 1994, Friedrich-Ebert-Halle, Hamburg-Harburg",
+      "album": "An die Musik – Favourite Schubert Songs (DG, 1994; 23 песни)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28–29 лет; молодой голос в свежей форме, начало пика (~1992–2005)",
+      "reputation": "Диск — бестселлер DG и до сих пор самый популярный «входной» шубертовский рецитал Терфеля. Оценки специалистов скорее уважительные, чем эталонные: Терфель не циклист-шубертианец (дайджест).",
+      "sources": [
+        "https://www.discogs.com/master/1215349-Bryn-Terfel-Malcolm-Martineau-An-Die-Musik-Favorite-Schubert-Songs",
+        "https://www.deutschegrammophon.com/en/catalogue/products/schubert-lieder-bryn-terfel-3990"
+      ],
+      "youtube": [
+        {"videoId": "L-cQCzNsDYY", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Подходит на роль «записи не ранее 1990 года»."
+    },
+    {
+      "singer": "Ian Bostridge (тенор, р. 1964)",
+      "pianist": "Julius Drake",
+      "rec_year": "1996 (февраль–март 1996, Abbey Road, Studio No. 1, Лондон)",
+      "year_source": "Дискография EMI альбома «Schubert Lieder» (Bostridge/Drake): записано в феврале и марте 1996 в Studio No. 1, Abbey Road; издано 1998 (Discogs r5286765)",
+      "album": "Schubert: Lieder (Vol. 1) (EMI, изд. 1998); также «Schubert: 25 Lieder»",
+      "label": "EMI Classics / Warner Classics",
+      "age_voice": "31–32 года; ранний Бострид — самая свежая и наименее манерная фаза (пик ~1995–2010)",
+      "reputation": "Дебютный шубертовский рецитал Бострида на EMI считается его сильнейшей студийной работой раннего периода. По правилу проекта пресса о современных певцах фильтруется; вокальный аргумент здесь — именно ранняя дата.",
+      "sources": [
+        "https://www.discogs.com/release/5286765-Schubert-Ian-Bostridge-Julius-Drake-Schubert-Lieder",
+        "https://www.juliusdrake.com/project/schubert-lieder-vol-1/"
+      ],
+      "youtube": [
+        {"videoId": "8i27VDT7M60", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть также поздние видеоверсии Бострида (с Vignoles, wocomoMUSIC f9E0QsbuaqM; h1QFQWHvAjc) — они не студийные и хуже вокально."
+    },
+    {
+      "singer": "Christopher Maltman (баритон, р. 1970)",
+      "pianist": "Graham Johnson",
+      "rec_year": "в интервале 1991–1999 (издано январь 2000)",
+      "year_source": "Presto/Hyperion: CDJ33034 «The Hyperion Schubert Edition, Vol. 34 — Schubert 1817-1821» записан «on various dates in 1991, 1993, 1995, 1997, 1998 and 1999», выпуск — январь 2000. Трек-конкретной даты в источнике нет.",
+      "album": "The Hyperion Schubert Edition, Vol. 34 (CDJ33034); также в боксе «Schubert: The Complete Songs» CDS44201/40, CD 29 тр. 6",
+      "label": "Hyperion",
+      "age_voice": "~28–29 лет, ранний Малтмен, свежий лирический баритон",
+      "reputation": "Издание Hyperion под редакцией Грэма Джонсона — научный эталон свода. Сам Джонсон в комментарии к песне называет её «a conjunction of the purest genius», «one of the greatest single pages of music, only fourteen bars long but perfect in every way»; ценность записи прежде всего в аккомпанементе и контексте издания.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/tw.asp?w=W1774",
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33034",
+        "https://www.prestomusic.com/classical/products/7945177--the-hyperion-schubert-edition-complete-songs-volume-34"
+      ],
+      "youtube": [
+        {"videoId": "SYdA5lpn36U", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Точный год записи не установлен — это осложняет публикацию (в performances.json нужен год)."
+    },
+    {
+      "singer": "Matthias Goerne (баритон, р. 1967)",
+      "pianist": "Eric Schneider",
+      "rec_year": "не позднее 2013 (альбом выпущен 10 февраля 2014)",
+      "year_source": "harmonia mundi: «Matthias Goerne Schubert Edition, Vol. 8 — Wanderers Nachtlied», HMC 902109/10, релиз 10.02.2014; точная дата сессии в найденных источниках не указана",
+      "album": "Schubert: Wanderers Nachtlied — Matthias Goerne Schubert Edition Vol. 8 (2 CD)",
+      "label": "harmonia mundi",
+      "age_voice": "~46 лет; конец пика (~1997–2015), тембр густой, дыхание длинное",
+      "reputation": "Гёрне — самый записываемый Schubert-баритон поколения (дайджест); том назван по этой самой песне, т. е. лейбл выделил её как смысловой центр альбома. Классическая критика (classical-music.com/BBC Music Magazine) рецензировала диск в июне 2014.",
+      "sources": [
+        "https://www.harmoniamundi.com/en/albums/schubert-lieder-m-goerne/",
+        "https://www.prestomusic.com/classical/products/8037507--schubert-lieder-volume-8-wanderers-nachtlied",
+        "https://www.classical-music.com/schubert-wanderers-nachtlied-jun-14"
+      ],
+      "youtube": [
+        {"videoId": "SBTUcVxqEEA", "channel": "harmonia mundi music (официальный канал лейбла)", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальное видео лейбла, 76 тыс. просмотров — лучшая современная официальная загрузка песни."
+    },
+    {
+      "singer": "Florian Boesch (бас-баритон, р. 1971)",
+      "pianist": "Roger Vignoles",
+      "rec_year": "не позднее 2014 (альбом Hyperion CDA68010)",
+      "year_source": "Страница работы Hyperion W1774: CDA68010 «Schubert: Der Wanderer & other songs», тр. 13 (2'02); метаданные лейбла на Topic — альбом «Schubert: Der Wanderer & 18 Other Songs», 2014. Точная дата сессии не найдена.",
+      "album": "Schubert: Der Wanderer & other songs (Hyperion CDA68010)",
+      "label": "Hyperion",
+      "age_voice": "~42 года, в пике (~2010–наст.); венская школа рассказчика",
+      "reputation": "Hyperion выпустил рекламный ролик альбома на официальном канале (UTDr8VWVO4o). Специальных оценок именно D 768 не найдено; по правилу проекта пресса о современных фильтруется.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/tw.asp?w=W1774",
+        "Метаданные лейбла на «Roger Vignoles - Topic» (videoId q67yqclaJJ0)"
+      ],
+      "youtube": [
+        {"videoId": "q67yqclaJJ0", "channel": "Roger Vignoles - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Загрузка идёт на Topic-канале пианиста, не певца — для карточки это не проблема, но имя в подписи должно быть «Бош — Виньолес»."
+    },
+    {
+      "singer": "Alice Coote (меццо, р. 1968)",
+      "pianist": "Julius Drake",
+      "rec_year": "2017 (декабрь 2017, All Saints' Church, East Finchley, Лондон)",
+      "year_source": "Hyperion, страница альбома CDA68169 «Schubert: 21 Songs»: запись — декабрь 2017, All Saints' Church, East Finchley; релиз — май 2022. Наличие D 768 подтверждено страницей работы Hyperion W1774 (CDA68169, тр. 45, 2'18)",
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "label": "Hyperion",
+      "age_voice": "~49 лет, зрелый пик (~2005–наст.)",
+      "reputation": "BBC Music Magazine об альбоме: «Every note is delivered with white-hot sincerity in Coote's rich-toned voice … Drake's piano similarly glows».",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68169",
+        "https://www.hyperion-records.co.uk/tw.asp?w=W1774"
+      ],
+      "youtube": [
+        {"videoId": "XtwkHDGuw4I", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный сильный кандидат «не ранее 2015» с верифицированной датой сессии и рецензией в крупном журнале."
+    },
+    {
+      "singer": "Jonas Kaufmann (тенор, р. 1969)",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2020 (16–19 апреля 2020, Мюнхен)",
+      "year_source": "Дискография альбома Sony «Selige Stunde» (19439783262): записано 16–19 апреля 2020 в Мюнхене; D 768 — трек 25",
+      "album": "Selige Stunde (Sony Classical, 2020)",
+      "label": "Sony Classical",
+      "age_voice": "~50 лет; по дайджесту после ~2016 отмечались вокальные проблемы [неподтверждено]; тембр потемневший, много полутонов, но не «шубертовская» лёгкость",
+      "reputation": "Presto Music сделал диск «Recording of the Week» — типичный пример пиар-усиленной прессы о современном исполнителе; по правилу проекта такую похвалу следует дисконтировать. Специалисты в Lied ставят выше других теноров поколения.",
+      "sources": [
+        "https://www.prestomusic.com/classical/products/8798086--selige-stunde",
+        "https://www.prestomusic.com/classical/articles/3489--recording-of-the-week-jonas-kaufmann-helmut-deutsch-selige-stunde",
+        "https://jonaskaufmann.com/en/werke/selige-stunde/"
+      ],
+      "youtube": [
+        {"videoId": "581dCEqWK_8", "channel": "Jonas Kaufmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Формально закрывает пункт «не ранее 2015», но по правилу скепсиса к пиару уступает Coote/Drake."
+    },
+    {
+      "singer": "Andrè Schuen (баритон, р. 1984)",
+      "pianist": "Daniel Heide",
+      "rec_year": "не позднее 2023 (сингл выпущен 17 марта 2023)",
+      "year_source": "Deutsche Grammophon / Apple Music / Deezer: сингл «Schubert: Wandrers Nachtlied, D. 768 (Musical Moments)», релиз 17.03.2023. Дата сессии не опубликована.",
+      "album": "Musical Moments (DG, сингл, 2023)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~38–39 лет, в пике (~2018–наст.)",
+      "reputation": "Флагманский молодой Schubert-баритон DG (дайджест). Прессы именно по этому синглу нет — только промо DG; по правилу скепсиса к пиару.",
+      "sources": [
+        "https://www.deutschegrammophon.com/en/catalogue/products/schubert-wandrers-nachtlied-andre-schuen-12944",
+        "https://music.apple.com/us/album/schubert-wandrers-nachtlied-d-768-musical-moments-single/1675402295"
+      ],
+      "youtube": [
+        {"videoId": "4AMCHT64nXI", "channel": "Andrè Schuen - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год записи не установлен, только дата релиза."
+    },
+    {
+      "singer": "Samuel Hasselhorn (баритон, р. 1990)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "не установлен (альбом «Licht und Schatten», HMM 902747)",
+      "year_source": "harmonia mundi / Europadisc: альбом «Schubert: Licht und Schatten – Lieder & Dances», HMM902747, D 768 — трек 17. Дата сессии в найденных источниках не указана.",
+      "album": "Schubert: Licht und Schatten (harmonia mundi HMM902747), проект «Schubert 200»",
+      "label": "harmonia mundi",
+      "age_voice": "~33–34 года, начало пика",
+      "reputation": "Первые два альбома проекта «Schubert 200» получили Diapason d'or de l'année и Preis der deutschen Schallplattenkritik — серьёзные, не маркетинговые награды.",
+      "sources": [
+        "https://www.harmoniamundi.com/en/albums/schubert-licht-hasselhorn/",
+        "https://www.europadisc.co.uk/classical/243835/Schubert_-_Licht_und_Schatten:_Lieder_and_Dances.htm",
+        "https://www.schubert200.com/"
+      ],
+      "youtube": [
+        {"videoId": "39gy0fcg0Y4", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Метаданные Topic дают release_year 2025 — это год стриминг-релиза, не записи; дату сессии нужно уточнять по буклету."
+    },
+    {
+      "singer": "Elly Ameling (сопрано, р. 1933)",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "не установлен (серия Philips, конец 1960-х – 1980-е)",
+      "year_source": "нет дискографической даты; запись известна по каркасу MusicBrainz (154 s)",
+      "album": "не установлен (рецитал Philips)",
+      "label": "Philips / Eloquence (переиздания)",
+      "age_voice": "в пике (~1965–1985) — самая записываемая шубертианка поколения",
+      "reputation": "Общий статус Амелинг очень высок, но конкретных оценок этой записи не найдено.",
+      "sources": [
+        "MusicBrainz work c8b6fe29-b3bb-3f46-ac85-5193f2116e6f (recording: Elly Ameling, Dalton Baldwin)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [],
+      "note": "На YouTube ролик именно с D 768 не найден (проверено поиском yt-dlp). Без ролика в топ-5 не проходит."
+    },
+    {
+      "singer": "Dawn Upshaw (сопрано, р. 1960)",
+      "pianist": "Richard Goode",
+      "rec_year": "не установлен (Nonesuch, 1990-е)",
+      "year_source": "нет; запись известна по каркасу MusicBrainz и Topic-загрузке",
+      "album": "не установлен (рецитал Nonesuch с Ричардом Гудом)",
+      "label": "Nonesuch",
+      "age_voice": "в 1990-е — 30-е годы, пик",
+      "reputation": "Ценность прежде всего в пианисте (Ричард Гуд). Оценок не найдено.",
+      "sources": [
+        "MusicBrainz work c8b6fe29-b3bb-3f46-ac85-5193f2116e6f (recording: Dawn Upshaw, Richard Goode, 127 s)"
+      ],
+      "youtube": [
+        {"videoId": "wPDAAVYYgJ0", "channel": "Dawn Upshaw - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Периферийный кандидат; американская школа, не германский стиль."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ записи D 768. Его дискография Шуберта закрыта и состоит ровно из 6 альбомов (дайджест: Goethe-Lieder RCA 1993/95; Winterreise RCA 1998; Schwanengesang DG 2001; Lieder с оркестром DG 2003; Müllerin DG 2005; Winterreise-фильм DG 2005). В треклисте Goethe-Lieder (Quasthoff/Spencer, RCA 1995, Discogs r8778752) D 768 нет: Der Sänger, Gesänge des Harfners, Prometheus, Ganymed, Grenzen der Menschheit, Erlkönig, Szene aus Faust, Der Zwerg, Auf dem Wasser zu singen, Liedesend. В списке из 54 записей работы в MusicBrainz Квастхофа нет.",
+    "Dietrich Fischer-Dieskau": "ДА, минимум три студийные записи: с Йоргом Демусом (DG «Goethe-Lieder», сент. 1959, Studio Lankwitz Berlin, LP SLPM 138 117, 1960); с Джеральдом Муром (DG «Sämtliche Lieder», ℗1969); с Гюнтером Вайссенборном (MB, дата не установлена). Плюс концертная версия на Topic-канале (-YIp3tkuzwg, «Live»).",
+    "Elisabeth Schwarzkopf": "НЕ НАЙДЕНО записи D 768. Певицы нет среди 54 записей работы в MusicBrainz; целевой веб-поиск по её дискографии результата не дал. Отрицательный результат (отсутствие свидетельств), а не доказанное отсутствие.",
+    "Hans Hotter": "ДА, минимум три записи: с Михаэлем Раухайзеном (берлинское радио, 1942–45; переиздания Acanta 43 126 «Hans Hotter singt Lieder», «In Memoriam Hans Hotter (1942-1945)»); с Джеральдом Муром (EMI, сессии 1–2 окт. 1949, Abbey Road St. 3); с Хансом Докоупилом (MB; фан-загрузка датирует 1968, не верифицировано).",
+    "Peter Anders": "НЕ НАЙДЕНО. Андерса нет среди 54 записей работы в MusicBrainz. В Raucheisen-Edition песню поют Шмитт-Вальтер и Хоттер, не Андерс (Preiser «Lieder von Franz Schubert in historischen Aufnahmen», Muziekweb DAX2599: тр. 18 — Karl Schmitt-Walter / Michael Raucheisen). Отрицательный результат.",
+    "Elisabeth Schumann": "НЕ НАЙДЕНО. Её нет среди 54 записей работы в MusicBrainz; целевой поиск результата не дал. Согласуется с дайджестом (её шубертовский корпус ~28 песен HMV 1927–49, D 768 в нём не значится).",
+    "Christa Ludwig": "ДА. С Джеффри Парсонсом; LP «Schubert Lieder» (EMI/Electrola) выпущен в 1968 (Discogs r5255409); переиздания — EMI «Schubert: 15 Lieder» (Great Recordings of the Century, 2004) и Warner «The Complete Recitals» (2018). Официальный Topic-ролик BWzlxIevxsE.",
+    "Lucia Popp": "НЕ НАЙДЕНО. Её нет среди 54 записей работы в MusicBrainz; целевой поиск (Popp + D 768) результата не дал. Отрицательный результат."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (DG SLPM 138 117 / DG Originals 457 747-2)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "запись сент. 1959, издание 1960",
+      "label": "Deutsche Grammophon",
+      "facts": "14 гётевских песен с Йоргом Демусом, записаны в берлинской Studio Lankwitz; переиздано в серии «The Originals». В более поздние CD-издания добавлены гётевские песни с Джеральдом Муром из свода 1969/1970.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder / Complete Songs (21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессии 1966–1972 (Ufa-Ton-Studio, Берлин); издания 1969, 1970, 1972",
+      "label": "Deutsche Grammophon",
+      "facts": "Полный свод мужских песен с Джеральдом Муром; D 768 помечен ℗1969. Сквозной ресурс для всего пилота.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 34 — Schubert 1817-1821 (CDJ33034)",
+      "singer": "Christopher Maltman и др.",
+      "year": "сессии 1991, 1993, 1995, 1997, 1998, 1999; релиз январь 2000",
+      "label": "Hyperion",
+      "facts": "Научное издание Грэма Джонсона с развёрнутыми комментариями; D 768 — тр. 19 (1'55). Также входит в бокс CDS44201/40 (CD 29, тр. 6).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Der Wanderer & other songs (CDA68010)",
+      "singer": "Florian Boesch",
+      "year": "изд. 2014",
+      "label": "Hyperion",
+      "facts": "Рецитал Бош/Виньолес; D 768 — тр. 13 (2'02). Официальный промо-ролик Hyperion — UTDr8VWVO4o.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 21 Songs (CDA68169)",
+      "singer": "Alice Coote",
+      "year": "запись декабрь 2017, All Saints' Church, East Finchley; релиз май 2022",
+      "label": "Hyperion",
+      "facts": "Coote/Drake. BBC Music Magazine: «Every note is delivered with white-hot sincerity in Coote's rich-toned voice … Drake's piano similarly glows». D 768 — тр. 45 (2'18).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Matthias Goerne Schubert Edition, Vol. 8: «Wanderers Nachtlied» (HMC 902109/10, 2 CD)",
+      "singer": "Matthias Goerne",
+      "year": "релиз 10 февраля 2014",
+      "label": "harmonia mundi",
+      "facts": "Том назван по этой песне; пианисты — Helmut Deutsch и Eric Schneider (D 768 — со Шнайдером). Рецензия classical-music.com (BBC Music Magazine), июнь 2014.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "An die Musik – Favourite Schubert Songs",
+      "singer": "Bryn Terfel",
+      "year": "запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg",
+      "label": "Deutsche Grammophon",
+      "facts": "23 песни с Малкольмом Мартино; бестселлер каталога DG.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Vol. 1)",
+      "singer": "Ian Bostridge",
+      "year": "запись февраль–март 1996, Abbey Road Studio No. 1; издание 1998",
+      "label": "EMI Classics",
+      "facts": "Дебютный шубертовский рецитал с Джулиусом Дрейком.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Selige Stunde",
+      "singer": "Jonas Kaufmann",
+      "year": "запись 16–19 апреля 2020, Мюнхен",
+      "label": "Sony Classical",
+      "facts": "27 романтических песен с Хельмутом Дойчем; D 768 — тр. 25. Presto Music — «Recording of the Week» (учитывать правило о пиаре).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Licht und Schatten – Lieder & Dances (HMM 902747), проект «Schubert 200»",
+      "singer": "Samuel Hasselhorn",
+      "year": "дата сессии не установлена; альбом входит в серию 2023–2028",
+      "label": "harmonia mundi",
+      "facts": "С Аммиэлем Бушакевицем; D 768 — тр. 17. Первые альбомы серии отмечены Diapason d'or de l'année и Preis der deutschen Schallplattenkritik.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Björling Collection, Vol. 5: Lieder and Songs (1939-1952) (Naxos Historical 8.110789)",
+      "singer": "Jussi Björling",
+      "year": "содержит рецитал RCA «Jussi Björling in Song» (1952)",
+      "label": "RCA Victor (оригинал) / Naxos Historical",
+      "facts": "21 песня 12 композиторов на 5 языках, из них 7 шубертовских (в т. ч. An Sylvia, Die Allmacht, Wandrers Nachtlied, Die Forelle). Аккомпаниатор — Frederick Schauwecker. Рецензия MusicWeb International, май 2005.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder von Franz Schubert in historischen Aufnahmen (Preiser, 1997, 2 CD)",
+      "singer": "антология (Tauber, Schmitt-Walter, Ferrier, Fuchs и др.)",
+      "year": "материал 1927–1947",
+      "label": "Preiser",
+      "facts": "D 768 представлен записью Karl Schmitt-Walter / Michael Raucheisen (тр. 18, 1:59). Полезный ориентир для всех «исторических» песен пилота.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "title": "Hyperion Records — страница работы Wandrers Nachtlied II, D768 (перечень всех записей Hyperion + заметки Грэма Джонсона)",
+      "url": "https://www.hyperion-records.co.uk/tw.asp?w=W1774",
+      "note": "Единственный найденный «редакторский» разбор именно этой песни: Джонсон называет её «a conjunction of the purest genius» и «one of the greatest single pages of music, only fourteen bars long but perfect in every way», ставя шубертовскую версию выше настроек Цельтера, Лёве, Шумана и Листа."
+    },
+    {
+      "title": "MusicWeb International — рецензия на Björling Collection Vol. 5 (Naxos 8.110789)",
+      "url": "http://www.musicweb-international.com/classrev/2005/may05/bjorling_collection5JW_8110789.htm",
+      "note": "Рецензия на сборник, содержащий D 768."
+    },
+    {
+      "title": "BBC Music Magazine / classical-music.com — рецензия на Goerne «Wanderers Nachtlied» (Schubert Edition Vol. 8), июнь 2014",
+      "url": "https://www.classical-music.com/schubert-wanderers-nachtlied-jun-14",
+      "note": "Рецензия на альбом, названный по этой песне."
+    },
+    {
+      "title": "Presto Music — Recording of the Week: Kaufmann/Deutsch «Selige Stunde»",
+      "url": "https://www.prestomusic.com/classical/articles/3489--recording-of-the-week-jonas-kaufmann-helmut-deutsch-selige-stunde",
+      "note": "Пример прессы о современном исполнителе; по правилу проекта дисконтируется."
+    },
+    {
+      "title": "schubertlied.de — страница песни",
+      "url": "https://www.schubertlied.de/die-lieder/wandrers-nachtlied-ueber-allen-gipfeln-ist-ruh-d768",
+      "note": "Дискографии/рейтингов не содержит: только текстовая и композиционная история плюс собственная запись проекта (Peter Schöne / Holger Berndsen, Мюнхен, 07.09.2015)."
+    }
+  ],
+  "negatives": [
+    "klassik-prisma.de: страницы сравнения (Vergleich) по D 768 найти не удалось — целевые поиски результата не дали. Для этой песни, в отличие от D 118, звёздных оценок klassik-prisma нет.",
+    "Сравнительных обзоров (Gramophone «Building a Library», BBC Music Magazine survey, слепые тесты) именно по D 768 не найдено — песня слишком короткая для формата сравнительных обзоров.",
+    "Presto Music (агрегатор с 9 страницами релизов песни) и Discogs отдают WebFetch 403 — детальные треклисты и даты сессий оттуда получить не удалось.",
+    "Quasthoff, Schwarzkopf, Anders, E. Schumann, Popp — записей D 768 не найдено (подробности в priority_singers_checked).",
+    "Elly Ameling / Dalton Baldwin: запись существует (MusicBrainz), но ролика на YouTube не найдено.",
+    "Fischer-Dieskau / Weissenborn и Prey / Helmut Deutsch: записи существуют (MusicBrainz), но ни года, ни ролика установить не удалось.",
+    "У Хоттера с Дейкоупилом и у Шрайера с Ольбертцем годы (1968, 1965) взяты ТОЛЬКО из названий фан-загрузок и потому не считаются верифицированными.",
+    "Флагстад/Мур, Малтмен/Джонсон, Бош/Виньолес, Шуэн/Хайде, Хассельхорн/Бушакевиц, Гёрне/Шнайдер, Амелинг, Апшоу — точная дата СЕССИИ не установлена, известен лишь год издания/релиза. Перед публикацией год нужно либо уточнить по буклету, либо помечать как год издания.",
+    "Прочие записи из каркаса MusicBrainz, не разобранные отдельно (маргинальны для топ-5): Adrian Eröd, Egidius Kwartet/Zomer/Schoonderwoerd, Ernst Haefliger/Dähler, Georg Nigl/Pashchenko, Kim Borg/Altmann, Robert Holl/Lutz, Sandrine Piau/Quatuor Psophos (версия с квартетом), Sarah Walker/Vignoles, Tamara Takács/Jandó, Thierry Félix/Badura-Skoda, Ulf Bästlein/Laux, Julien Van Mellaerts/Colquhoun, Mauro Peter/Deutsch, Christoph Prégardien/Gees, Brigitte Fassbaender/Garben (ролик D 768 на YouTube не найден — на её Topic-канале есть только листовская «Über allen Gipfeln ist Ruh» S. 306).",
+    "Транскрипции и не-вокальные версии в пул не включались (Kian Soltani, виолончель, DG; хоровые версии University of Notre Dame Chorale)."
+  ]
+}

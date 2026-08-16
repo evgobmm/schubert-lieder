@@ -1,0 +1,523 @@
+{
+  "d": "839",
+  "title": "Ellens Gesang III (Hymne an die Jungfrau / Ave Maria)",
+  "tier": "famous",
+  "method_note": "Пул собран из MB-каркаса (116 записей работы; отфильтрованы аранжировки, кроссовер и оркестровые попсовые версии — Bocelli, Pavarotti, Il Divo, Domingo/Bolton, Jaroussky, Zamfir, Evancho, Diana Ross и т. п.) плюс веб-исследование. Для этой песни отдельной сравнительной статьи klassik-prisma НЕТ (проверено, см. negatives), поэтому опора — дискографические источники (DAHR, буклеты/Discogs, страницы лейблов) и отдельные рецензии.",
+  "candidates": [
+    {
+      "singer": "Elisabeth Schumann (сопрано, 1888–1952)",
+      "pianist": "оркестр под упр. Leo Rosenek (не фортепиано)",
+      "rec_year": "1934 (23 июня, Вена)",
+      "year_source": "Discogs, шеллак HMV/Electrola DB 2291 (= Victor 8423), матрица 2WX 766-2, дата записи 23.06.1934, Вена — https://www.discogs.com/Elisabeth-Schumann-Leo-Rosenek-Ave-Maria-Bist-Du-Bei-Mir/release/13472891 (сверено с поисковой выдачей по релизу; НЕ по метаданным archive.org)",
+      "album": "78 об/мин HMV DB 2291 (обратная сторона — Bach/Schemelli «Bist du bei mir»); переиздания в антологиях Naxos/EMI",
+      "label": "HMV / Electrola (Victor в США)",
+      "age_voice": "46 лет; по дайджесту пик Э. Шуман — 1920-е — середина 1930-х, т. е. запись сделана ещё в форме (в отличие от её же Gretchen 1945 г., где голос постаревший)",
+      "reputation": "Приоритетная певица по правилам (п. 4 списка). Эталон венского стиля Lieder-пения; конкретных рецензий именно на этот сайд не найдено. Существенная оговорка: аккомпанемент оркестровый, а не фортепианный — отклонение от авторского текста.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Schumann Elisabeth)",
+        "https://www.discogs.com/Elisabeth-Schumann-Leo-Rosenek-Ave-Maria-Bist-Du-Bei-Mir/release/13472891"
+      ],
+      "youtube": [
+        {"videoId": "sphL7Ah9Ar0", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "duration_s": 278, "note": "совпадает с длительностью записи в MB (277–278 с)"},
+        {"videoId": "nECEjtou6iA", "channel": "CLASSIC&OPERA", "official": false, "oembed_ok": null, "duration_s": 278}
+      ],
+      "note": "Приоритетная певица; но версия с оркестром, а не с роялем — учесть при ранжировании."
+    },
+    {
+      "singer": "Marian Anderson (контральто, 1897–1993)",
+      "pianist": "Kosti Vehanen",
+      "rec_year": "1936 (4 февраля, Нью-Йорк)",
+      "year_source": "DAHR (Discography of American Historical Recordings), Victor 14210: матрица CS-98638 take 2, дата 2/4/1936; оборотная сторона CS-98639 «Aufenthalt» — 1/14/1936, Victor Studio 3, Нью-Йорк; релиз 7/1937 — https://adp.library.ucsb.edu/index.php/objects/detail/7697/Victor_14210",
+      "album": "Victor 14210 (12'' Red Seal); переиздано в «Marian Anderson: Beyond the Music — Her Complete RCA Victor Recordings» (Sony, 15 CD, 2021)",
+      "label": "RCA Victor / Sony",
+      "age_voice": "38–39 лет; по дайджесту пик Андерсон — 1930-е–1940-е, т. е. запись прямо на пике",
+      "reputation": "Ave Maria — фирменный номер Андерсон (звучал и на легендарном концерте у Мемориала Линкольна 09.04.1939). В дайджесте: «сильно» на YouTube, Sony official + фан-миллионники. Голос уникального тембра, немецкий текст.",
+      "sources": [
+        "https://adp.library.ucsb.edu/index.php/objects/detail/7697/Victor_14210",
+        "planning/research/singers-digest.md (карточка Anderson Marian)"
+      ],
+      "youtube": [
+        {"videoId": "09hBH9anXKo", "channel": "Kosti Vehanen - Topic", "official": true, "oembed_ok": true, "duration_s": 292},
+        {"videoId": "UFW6kWT0RNs", "channel": "Kosti Vehanen - Topic", "official": true, "oembed_ok": true, "duration_s": 293},
+        {"videoId": "a29Mh986G5g", "channel": "Kurt Boehme", "official": false, "oembed_ok": null, "duration_s": 290}
+      ],
+      "note": "Дата 07.07.1936 из метаданных archive.org — НЕВЕРНА (см. negatives): DAHR даёт 04.02.1936."
+    },
+    {
+      "singer": "Christa Ludwig (меццо, 1928–2021) — запись I",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961–62 (сессии 28–30 ноября 1961, Abbey Road; часть материала — февраль 1962)",
+      "year_source": "Discogs / буклет EMI «Schubert: 15 Lieder» (Great Recordings of the Century, 724356289628): сессии 28–30.11.1961 Abbey Road Studios, London; сводка сессий 1957–69 — planning/research/singers-digest.md",
+      "album": "EMI «Schubert: 15 Lieder» (с Parsons, Moore, Gervase de Peyer); в боксе Warner «Christa Ludwig — Complete Recitals» (11 CD)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "33 года — самый пик (по дайджесту ~1957–1975)",
+      "reputation": "Приоритетная певица по правилам. Тот же альбом дал 5-звёздную по klassik-prisma «Gretchen» (~1961, Parsons) — знак общего уровня сессий. Темп очень широкий (443–447 с в MB и на Topic).",
+      "sources": [
+        "https://www.discogs.com/release/10605082-Schubert-Christa-Ludwig-Geoffrey-Parsons-2-Gerald-Moore-Gervase-de-Peyer-15-Lieder",
+        "planning/research/singers-digest.md (карточка Ludwig Christa)"
+      ],
+      "youtube": [
+        {"videoId": "-e-qFm47M9U", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 447}
+      ],
+      "note": "Точную дату именно трека D 839 внутри сессий 1957–69 подтвердить не удалось — фиксировать как «1961/62 (?)» до сверки с буклетом."
+    },
+    {
+      "singer": "Christa Ludwig (меццо) — запись II",
+      "pianist": "Irwin Gage",
+      "rec_year": "1973 (июнь, Вена, Tonstudio Rosenhügel)",
+      "year_source": "Discogs / данные релиза DG 2530 404 «Schubert-Lieder» (изд. 1974): сессии — Wien, Tonstudio Rosenhügel, июнь 1973 — https://www.discogs.com/master/815849-Christa-Ludwig-Irwin-Gage-Schubert-Lieder",
+      "album": "DG 2530 404 «Schubert-Lieder»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "45 лет; ещё в пределах пика (~1957–1975), но голос темнее и плотнее, чем в 1961",
+      "reputation": "Ремейк той же программы через 12 лет; по общему правилу проекта при прочих равных предпочтительна более ранняя запись. Темп заметно быстрее (366–371 с против ~445 с у EMI).",
+      "sources": [
+        "https://www.discogs.com/master/815849-Christa-Ludwig-Irwin-Gage-Schubert-Lieder",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "cQz4NIU07K0", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 367},
+        {"videoId": "oXk2GQIa10I", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": null, "duration_s": 371}
+      ],
+      "note": "Дубль к записи I — в топ-5 обе брать нельзя."
+    },
+    {
+      "singer": "Janet Baker (меццо, р. 1933)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1970 (август, сентябрь и декабрь, Abbey Road Studio 1, London; ℗1971)",
+      "year_source": "Discogs, EMI 2-LP «Schubert: Lieder» (Baker/Moore/Parsons): «No. 1 Studio, Abbey Road, London, August, September and December 1970» — https://www.discogs.com/master/1607505-Franz-Schubert-Janet-Baker-Gerald-Moore-Geoffrey-Parsons-Lieder",
+      "album": "EMI 2-LP «Schubert Lieder» (открывается Gretchen); переиздание Warner «The Great EMI Recordings — German Lieder»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "37 лет — в самом пике (по дайджесту ~1965–1982)",
+      "reputation": "Классика каталога; по обзору форумных и справочных источников — рекомендация Penguin Guide именно на запись Baker/Moore (обсуждение на talkclassical со ссылкой на Penguin Guide). Дуэт с Муром — эталонный аккомпанемент.",
+      "sources": [
+        "https://www.discogs.com/master/1607505-Franz-Schubert-Janet-Baker-Gerald-Moore-Geoffrey-Parsons-Lieder",
+        "https://www.talkclassical.com/threads/im-looking-for-the-best-rendition-of-ave-maria-schubert.84316/",
+        "planning/research/singers-digest.md (карточка Baker Janet)"
+      ],
+      "youtube": [
+        {"videoId": "xU5ta3vJmiI", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "duration_s": 405},
+        {"videoId": "KZu8vmZf9DY", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "duration_s": 405, "note": "1996 Remastered Version"}
+      ],
+      "note": "Рекомендация Penguin Guide взята из вторичного источника (форум) — при финальном отборе желательно подтвердить по самому справочнику."
+    },
+    {
+      "singer": "Elly Ameling (сопрано, р. 1933)",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1970-е (Амстердам; сессии альбома-компиляции — июнь 1972, август 1973, август 1975; трек D 839 предположительно из программы «Songs for Gretchen, Ellen & Suleika», изд. 1974)",
+      "year_source": "Discogs, Philips «Ave Maria — Schubert Lieder» (компиляция 1990): сессии Amsterdam 06.1972 / 08.1973 / 08.1975 и London 07.1982 — https://www.discogs.com/master/2597081; программа «Schubert: Lieder — Songs for Gretchen, Ellen & Suleika» (Elly Ameling — The Philips Recitals, Vol. 12)",
+      "album": "Philips, «Songs for Gretchen, Ellen & Suleika» (с Baldwin); также ранняя версия с Jörg Demus (~1965) и версия с Sawallisch — три разные записи в MB",
+      "label": "Philips / Universal (Eloquence)",
+      "age_voice": "около 40 лет — пик (по дайджесту ~1965–1985); «самая записываемая шубертианка поколения»",
+      "reputation": "Ameling/Baldwin регулярно называют одной из двух любимых версий у слушателей-специалистов (talkclassical). Ameling — лауреат Grand Prix du Disque и Preis der deutschen Schallplattenkritik.",
+      "sources": [
+        "https://www.discogs.com/master/2597081-Schubert-Elly-Ameling-Dalton-Baldwin-Ave-Maria-Schubert-Lieder",
+        "https://www.talkclassical.com/threads/im-looking-for-the-best-rendition-of-ave-maria-schubert.84316/",
+        "planning/research/singers-digest.md (карточка Ameling Elly)"
+      ],
+      "youtube": [
+        {"videoId": "ZTQtBIGzE1Q", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 343},
+        {"videoId": "6wY1Y0HwlII", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": null, "duration_s": 343},
+        {"videoId": "mF3g2Dr_iFg", "channel": "incontrario motu", "official": false, "oembed_ok": null, "duration_s": 340, "note": "заявлено Ameling/Demus — другая (ранняя) запись"}
+      ],
+      "note": "У Ameling минимум три записи D 839 (Baldwin, Demus, Sawallisch). Перед публикацией сверить, какому релизу принадлежит выбранный Topic-трек (343 с)."
+    },
+    {
+      "singer": "Gundula Janowitz (сопрано, р. 1937)",
+      "pianist": "Irwin Gage",
+      "rec_year": "1976–77 (Берлин, Studio Lankwitz: сентябрь–октябрь 1976 и сентябрь/декабрь 1977)",
+      "year_source": "Discogs / данные LP DG 2530 858 «Schubert: Lieder» (Janowitz/Gage): Berlin, Studio Lankwitz, IX–X.1976 и IX & XII.1977 — https://www.discogs.com/master/669922-Schubert-Gundula-Janowitz-Irwin-Gage-Lieder ; archive.org-скан обложки dg-2530-858 (только для идентификации релиза, не как источник даты)",
+      "album": "DG 2-LP Schubert-Lieder (Janowitz/Gage), вкл. Ellens Gesang I–III",
+      "label": "Deutsche Grammophon",
+      "age_voice": "39–40 лет — пик (по дайджесту ~1965–1980); её Gretchen с той же серии — 5 звёзд klassik-prisma",
+      "reputation": "Серия Schubert-Lieder Яновиц дважды отмечена Deutscher Schallplattenpreis. Трактовка очень медленная и «пышная» (470 с) — часть критиков считает её слишком инструментальной, часть — эталоном «ангельского» тона.",
+      "sources": [
+        "https://www.discogs.com/master/669922-Schubert-Gundula-Janowitz-Irwin-Gage-Lieder",
+        "https://en.wikipedia.org/wiki/Gundula_Janowitz",
+        "planning/research/singers-digest.md (карточка Janowitz Gundula)"
+      ],
+      "youtube": [
+        {"videoId": "qyeFVKHA6Is", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 470},
+        {"videoId": "ttisTvEa0Oo", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": null, "duration_s": 470},
+        {"videoId": "4jh2hx1NQPI", "channel": "manymanero", "official": false, "oembed_ok": true, "duration_s": 463}
+      ],
+      "note": "Тот же альбом содержит Ellens Gesang I (D 837) — покрывает другие песни пилота."
+    },
+    {
+      "singer": "Barbara Hendricks (сопрано, р. 1948)",
+      "pianist": "Radu Lupu",
+      "rec_year": "1985 (25, 28, 29, 30 ноября, Salle Wagram, Париж)",
+      "year_source": "Discogs / буклет EMI France «Schubert: Lieder» (Hendricks/Lupu): Paris, Salle Wagram, 25/28/29/30.11.1985 — https://www.discogs.com/release/11550443-Schubert-Barbara-Hendricks-Radu-Lupu-Lieder ; MusicBrainz release 907b91e8-3812-4335-8fd0-c7fd812c7021",
+      "album": "EMI «Schubert: Lieder» (том 1; вкл. Gretchen)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "37 лет — пик (по дайджесту 1980-е–1990-е)",
+      "reputation": "Редкий случай, когда за роялем великий солист-пианист (Раду Лупу) — главный аргумент записи. Специализированных рецензий именно на D 839 не найдено. У Hendricks есть и вторая, оркестрово-органная версия (с Erik Lundkvist, Stockholm CO / Ericson) — она вне рамок Lied.",
+      "sources": [
+        "https://www.discogs.com/release/11550443-Schubert-Barbara-Hendricks-Radu-Lupu-Lieder",
+        "planning/research/singers-digest.md (карточка Hendricks Barbara)"
+      ],
+      "youtube": [
+        {"videoId": "GqxzB2U9k_Q", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true, "duration_s": 369},
+        {"videoId": "R997fqB_VLQ", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": null, "duration_s": 379, "note": "Orch. Challan — оркестровая аранжировка, НЕ фортепианная версия"}
+      ],
+      "note": "Различать фортепианную (Lupu) и оркестровую (Challan) версии — на Topic лежат обе."
+    },
+    {
+      "singer": "Marie McLaughlin (сопрано, р. 1954)",
+      "pianist": "Graham Johnson",
+      "rec_year": "1990 (16–18 декабря)",
+      "year_source": "Hyperion, The Hyperion Schubert Edition Vol. 13 (CDJ33013): «Marie McLaughlin came into the studio at the end of 1990»; сессии 16–18.12.1990 (дуэты — 26–27.08.1991) — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33013",
+      "album": "The Hyperion Schubert Edition, Vol. 13 — «Lieder Sacred & Profane» (Goethe и Walter Scott)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "около 36 лет — зрелая форма",
+      "reputation": "«Научный эталон» издания: полный комментарий Грэма Джонсона, оригинальная тональность и контекст цикла Op. 52. Отзыв: «There's some prime Schubert in this 13th volume»; «A lovely program, all the way through». Как вокал — не самое яркое имя пула.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33013",
+        "planning/research/singers-digest.md (карточка McLaughlin Marie; Hyperion Schubert Edition)"
+      ],
+      "youtube": [
+        {"videoId": "qC7rqfUSeuY", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "duration_s": 375}
+      ],
+      "note": "Единственный кандидат с полноценным научным комментарием издания."
+    },
+    {
+      "singer": "Barbara Bonney (сопрано, р. 1956)",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1994 (апрель, Teldec Studio, Берлин)",
+      "year_source": "Discogs / буклет Teldec «Schubert: Lieder» (Bonney/Parsons), запись — Teldec Studio Berlin, апрель 1994 — https://www.discogs.com/release/8429121-Barbara-Bonney-Geoffrey-Parsons-2-Schubert-Lieder ; совпадает с дайджестом (рецитал Teldec, зап. апр. 1994)",
+      "album": "Teldec «Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder»",
+      "label": "Teldec / Warner Classics",
+      "age_voice": "37–38 лет — пик (1990-е — нач. 2000-х)",
+      "reputation": "Рецензия (AllMusic/Qobuz): чистота тона не теряется ни при какой экспрессии — «голос незапятнанной невинности перед лицом скорби, стыда и даже смерти»; «Ellens Gesang (D 839)» назван среди самых трогательных номеров диска. На YouTube — самый популярный «серьёзный» ролик песни (Topic, >9 млн просмотров).",
+      "sources": [
+        "https://www.discogs.com/release/8429121-Barbara-Bonney-Geoffrey-Parsons-2-Schubert-Lieder",
+        "https://www.qobuz.com/us-en/album/schubert-ave-maria-die-forelle-heidenroslein-other-lieder-barbara-bonney/0809274674166",
+        "planning/research/singers-digest.md (карточка Bonney Barbara)"
+      ],
+      "youtube": [
+        {"videoId": "tDQj7j-xogM", "channel": "Barbara Bonney - Topic", "official": true, "oembed_ok": true, "duration_s": 380, "views": 9199311}
+      ],
+      "note": "Сильнейший кандидат на «запись не ранее 1990»."
+    },
+    {
+      "singer": "Anne Sofie von Otter (меццо, р. 1955)",
+      "pianist": "Bengt Forsberg",
+      "rec_year": "1996 (июнь, Concertgebouw, Неймеген)",
+      "year_source": "Presto Music / буклет DG 453 481-2 «Schubert: Lieder» (von Otter/Forsberg): запись июнь 1996, Concertgebouw Nijmegen; издание 1997 — https://www.prestomusic.com/classical/products/7924240--schubert-lieder",
+      "album": "DG «Schubert: Lieder» (von Otter/Forsberg)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41 год — пик (~1988–2010)",
+      "reputation": "Отзывы: «Ave Maria» из этого альбома «заставляет опуститься на колени в молитве»; Форсберг претендует на место среди самых чутких аккомпаниаторов вообще; фон Оттер вкладывает характер и текстовое понимание в каждую песню. Скепсис по правилу о современном пиаре — оценки вторичных агрегаторов, отдельной рецензии Gramophone найти не удалось.",
+      "sources": [
+        "https://www.prestomusic.com/classical/products/7924240--schubert-lieder",
+        "https://www.allmusic.com/album/schubert-lieder-mw0001822769",
+        "planning/research/singers-digest.md (карточка von Otter Anne Sofie)"
+      ],
+      "youtube": [
+        {"videoId": "UXu_nUWN0NQ", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true, "duration_s": 292},
+        {"videoId": "S0h2sSaT0ro", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": null, "duration_s": 294}
+      ],
+      "note": "Тот же альбом содержит Im Abendrot D 799 — пересечение с пилотом."
+    },
+    {
+      "singer": "Ruth Ziesak (сопрано, р. 1963)",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "около 2001 (релиз — февраль 2002)",
+      "year_source": "Naxos, каталожная страница 8.554795 «Schubert: Lied Edition 7 — European Poets, Vol. 1» (релиз 02.2002) — https://www.naxos.com/catalogue/item.asp?item_code=8.554795 ; точная дата сессии по каталогу не опубликована",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1» (песни на Вальтера Скотта и др.)",
+      "label": "Naxos",
+      "age_voice": "около 38 лет — зрелая форма",
+      "reputation": "Полное издание — ценность прежде всего контекстная (весь блок Scott-песен). В дайджесте отмечена похвала klassik-prisma её Gretchen в т. 13. Ролик Naxos на YouTube — один из самых просматриваемых «академических» (376 тыс.).",
+      "sources": [
+        "https://www.naxos.com/catalogue/item.asp?item_code=8.554795",
+        "planning/research/singers-digest.md (карточка Ziesak Ruth; Naxos DSLE)"
+      ],
+      "youtube": [
+        {"videoId": "QfqvOhcstvI", "channel": "Ruth Ziesak - Topic", "official": true, "oembed_ok": true, "duration_s": 346},
+        {"videoId": "0EbmRCDm_QI", "channel": "Naxos", "official": true, "oembed_ok": null, "duration_s": 346, "views": 376110},
+        {"videoId": "owB_JqqhKjg", "channel": "Naxos", "official": true, "oembed_ok": null, "duration_s": 346}
+      ],
+      "note": "Год записи не подтверждён дискографически (только дата релиза) — фиксировать как «изд. 2002»."
+    },
+    {
+      "singer": "Johannette Zomer (сопрано)",
+      "pianist": "Arthur Schoonderwoerd (хаммерклавир — реплика инструмента ок. 1800, Tuinman/Poletti)",
+      "rec_year": "2003 (год издания; дата сессии по доступным источникам не установлена)",
+      "year_source": "Discogs, Alpha «Kennst du das Land?» (Zomer/Schoonderwoerd), CD 2003 — https://www.discogs.com/release/10236037",
+      "album": "Alpha «Kennst du das Land?» — все три Ellens Gesänge (D 837, 838, 839), Gretchen, Suleika, песни Миньоны + фортепианные пьесы",
+      "label": "Alpha",
+      "age_voice": "зрелая форма; барочно-классическая школа, лёгкий прямой тон",
+      "reputation": "AllMusic: «a stunning Schubert recital»; Schoonderwoerd — «wonderful pianofortist with an elegant technique, a flexible sense of rhythm, and a subtle way of supporting the singer». По дайджесту её Gretchen с этого диска — 5 звёзд klassik-prisma, «периодный эталон».",
+      "sources": [
+        "https://www.allmusic.com/album/franz-schubert-kennst-du-das-land-mw0001423182",
+        "https://www.discogs.com/release/10236037-Franz-Schubert-Johannette-Zomer-Arthur-Schoonderwoerd-Kennst-Du-Das-Land-",
+        "planning/research/singers-digest.md (карточка Zomer Johannette)"
+      ],
+      "youtube": [
+        {"videoId": "2n7d8Met-pU", "channel": "Operazaile operazaile", "official": false, "oembed_ok": true, "duration_s": 407}
+      ],
+      "note": "Единственная историческая (хаммерклавирная) версия в пуле. Официальной загрузки не найдено — только фан-канал; риск удаления."
+    },
+    {
+      "singer": "Carolyn Sampson (сопрано, р. 1974)",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2017 (август)",
+      "year_source": "BIS, «A Soprano's Schubertiade» BIS-2343, запись август 2017 — https://bis.se/composer/schubert-franz/carolyn-sampson-a-sopranos-schubertiade ; https://www.prestomusic.com/classical/products/8403127",
+      "album": "BIS «A Soprano's Schubertiade» (SACD) — включает Ellens Gesänge и Gretchen",
+      "label": "BIS",
+      "age_voice": "43 года — пик (~2010–наст.)",
+      "reputation": "Программа выстроена самими исполнителями (Скотт, Гёте, Миньона, Гретхен). Опираться на пиар не следует (правило о современных); объективный плюс — свежая запись, полный блок Ellens Gesänge, лёгкий чистый тон.",
+      "sources": [
+        "https://bis.se/composer/schubert-franz/carolyn-sampson-a-sopranos-schubertiade",
+        "planning/research/singers-digest.md (карточка Sampson Carolyn)"
+      ],
+      "youtube": [
+        {"videoId": "XGmkmGthl94", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true, "duration_s": 400}
+      ],
+      "note": "Кандидат на слот «не ранее 2015»."
+    },
+    {
+      "singer": "Anna Lucia Richter (меццо, р. 1990)",
+      "pianist": "Gerold Huber",
+      "rec_year": "2018–19 (альбом издан 2019)",
+      "year_source": "Pentatone, «Heimweh — Schubert Lieder» PTC5186839 (2019) — https://www.pentatonemusic.com/heimweh-schubert-lieder-anna-lucia-richter-huber-schorn ; Discogs r14745746 (SACD, 2019). Точная дата сессии в открытых источниках не указана.",
+      "album": "Pentatone «Heimweh» — заявлено исполнение оригинальной немецкой версии Ave Maria; в программе также Ellens Gesang I и II, Der Zwerg, Viola, Der Hirt auf dem Felsen",
+      "label": "Pentatone",
+      "age_voice": "28–29 лет — ранний расцвет; с ~2020 перешла из сопрано в меццо",
+      "reputation": "Рецензия (HighResAudio): голос отлично выучен, «светлый интеллект», песни создаются индивидуально и с большой энергией; о самом Ave Maria — «so perfectly floated that we can't quite believe it — can any voice stay so flawlessly suspended for so long?». Скепсис: это дебютный альбом, отзывы во многом промо-ориентированы.",
+      "sources": [
+        "https://www.highresaudio.com/en/review/anna-lucia-richter-gerold-huber-matthias-schorn-heimweh-schubert-lieder",
+        "https://www.pentatonemusic.com/heimweh-schubert-lieder-anna-lucia-richter-huber-schorn",
+        "planning/research/singers-digest.md (карточка Richter Anna Lucia)"
+      ],
+      "youtube": [
+        {"videoId": "4mpnQExdKyA", "channel": "Anna Lucia Richter - Topic", "official": true, "oembed_ok": true, "duration_s": 364}
+      ],
+      "note": "Второй кандидат на слот «не ранее 2015»; в дайджесте карточка Richter указывала «Gretchen нет» — но D 839 у неё есть (подтверждено MB + Topic + релизом)."
+    },
+    {
+      "singer": "Kirsten Flagstad (сопрано, 1895–1962)",
+      "pianist": "Edwin McArthur",
+      "rec_year": "1956 (21–23 января)",
+      "year_source": "Дискография Флагстад (Warwick University, K. Lockley) / Discogs, Decca LXT 5263 «Lieder Recital» — https://warwick.ac.uk/fac/arts/cas/staff/lockley/flagstad/ ; https://www.discogs.com/release/10725617",
+      "album": "Decca «Lieder Recital: Schubert / Schumann»",
+      "label": "Decca",
+      "age_voice": "60 лет — далеко за пиком; крупный вагнеровский голос, манера монументальная, не камерная",
+      "reputation": "По дайджесту: «Шуберт вторичен, манера монументальная, не камерная». Историческая ценность есть, но как Lied — слабее пула.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Flagstad Kirsten)",
+        "https://warwick.ac.uk/fac/arts/cas/staff/lockley/flagstad/"
+      ],
+      "youtube": [
+        {"videoId": "xVaPsPisB-Q", "channel": "Kirsten Flagstad - Topic", "official": true, "oembed_ok": true, "duration_s": 419},
+        {"videoId": "EuF9bXzOh98", "channel": "Kirsten Flagstad - Topic", "official": true, "oembed_ok": null, "duration_s": 419}
+      ],
+      "note": "Периферийный кандидат."
+    },
+    {
+      "singer": "Karl Erb (тенор, 1877–1958)",
+      "pianist": "Bruno Seidler-Winkler",
+      "rec_year": "около 1935–36 (не верифицировано дискографически)",
+      "year_source": "Дата 1936 встречается только в метаданных стриминга (Spotify) и archive.org — по правилам проекта это НЕ источник. Дайджест даёт диапазон сторон Erb/Seidler-Winkler: ~1935–51 (Electrola/HMV; переизд. Preiser).",
+      "album": "78 об/мин HMV/Electrola; переиздания Preiser",
+      "label": "Electrola / HMV; Preiser",
+      "age_voice": "около 58–59 лет — далеко за вокальным пиком (~1905–1930); ценность как документ довоенного стиля",
+      "reputation": "Редкий мужской (теноровый) вариант на немецком языке, сильно сокращённый (175 с — вероятно одна-две строфы, формат одной стороны 78 об.). Специализированных рецензий не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Erb Karl)"
+      ],
+      "youtube": [
+        {"videoId": "n3VmFeJmVD8", "channel": "Bruno Seidler-Winkler - Topic", "official": true, "oembed_ok": true, "duration_s": 175, "note": "длительность совпадает с MB-записью Karl Erb (175 с)"}
+      ],
+      "note": "Год записи не установлен — до верификации в топ-5 брать рискованно."
+    },
+    {
+      "singer": "Elisabeth Rethberg (сопрано, 1894–1976)",
+      "pianist": "Frederic Persson (ф-но), Max Rosen (скрипка obbligato)",
+      "rec_year": "1924 (Brunswick; в части источников 1929)",
+      "year_source": "Marston / антология «Elisabeth Rethberg: The Complete Brunswick Recordings 1924–29»; Brunswick A 62668, матрица E 19436/19437 — https://www.marstonrecords.com/products/rethberg . Расхождение: фан-загрузка датирует 1929 — сверить по Marston-буклету.",
+      "album": "Brunswick 78; переиздание Marston «The Complete Brunswick Recordings 1924–29»",
+      "label": "Brunswick / Marston",
+      "age_voice": "около 30 лет — вокальный расцвет",
+      "reputation": "Голос легендарной ровности (Тосканини называл её «идеальным сопрано» — по общим биографиям). Но версия с добавленной скрипкой и сильно сокращена (157–167 с).",
+      "sources": [
+        "https://www.marstonrecords.com/products/rethberg",
+        "https://en.wikipedia.org/wiki/Elisabeth_Rethberg"
+      ],
+      "youtube": [
+        {"videoId": "QyZTiLNiXGw", "channel": "Elisabeth Rethberg - Topic", "official": true, "oembed_ok": true, "duration_s": 157},
+        {"videoId": "kJiVaFwHmyk", "channel": "CurzonRoad", "official": false, "oembed_ok": null, "duration_s": 163}
+      ],
+      "note": "Периферийный: сокращение и скрипичное obbligato — не авторский текст."
+    },
+    {
+      "singer": "John McCormack (тенор, 1884–1945)",
+      "pianist": "Vincent O'Brien (ф-но), Fritz Kreisler (скрипка obbligato)",
+      "rec_year": "1914 (25 марта, Нью-Йорк)",
+      "year_source": "DAHR, Victor matrix C-14633, 3/25/1914, New York; изд. Victor 88484 / 89107 / Gramophone 02543 — https://adp.library.ucsb.edu/index.php/matrix/detail/200014933/C-14633-Ave_Maria",
+      "album": "Victor 78; многочисленные переиздания",
+      "label": "Victor / RCA",
+      "age_voice": "30 лет — вокальный пик Маккормака",
+      "reputation": "Легендарный дуэт с Крейслером; но по DAHR язык записи — АНГЛИЙСКИЙ (перевод Скотта), т. е. не немецкий текст Шторка, который переводит проект. Для сайта это дисквалифицирующий недостаток.",
+      "sources": [
+        "https://adp.library.ucsb.edu/index.php/matrix/detail/200014933/C-14633-Ave_Maria"
+      ],
+      "youtube": [
+        {"videoId": "9r5AUfQmAME", "channel": "Michael McGrail", "official": false, "oembed_ok": true, "duration_s": 293},
+        {"videoId": "8yCGPw7oodg", "channel": "mabuo16", "official": false, "oembed_ok": null, "duration_s": 278}
+      ],
+      "note": "Исключить из топ-5 из-за английского текста (источник: DAHR, поле Language: English)."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Записи D 839 не найдено. Дискография закрыта в 2012 и состоит из 6 Schubert-альбомов (Goethe-Lieder, Winterreise, Schwanengesang, Lieder с оркестром, Müllerin, Winterreise-фильм) — D 839 нет ни в одном; в MB-каркасе (116 записей) Квастхофф отсутствует. Источники: planning/research/singers-digest.md; страница дискографии DG https://www.deutschegrammophon.com/en/artists/thomasquasthoff/discography; d839...mb.json",
+    "Dietrich Fischer-Dieskau": "НЕТ. В MB-каркасе отсутствует. Полный свод DG «Sämtliche Lieder» (1966–72, Moore) сознательно исключал женские песни; Ellens Gesang III — песня Эллен Дуглас, женская роль. Источники: planning/research/singers-digest.md (карточка Fischer-Dieskau и раздел «Сквозные издания»); d839...mb.json",
+    "Elisabeth Schwarzkopf": "СПОРНО / не верифицировано. В MB-каркасе D 839 у Шварцкопф нет. В стриминге есть трек «Ave Maria, Op. 52 No. 6, D. 839 (Live)» (Schwarzkopf / Giorgio Favoretto) и указание на запись 17.01.1951, Нью-Йорк, с оркестром Нормана Лейдена — оба сведения происходят из метаданных стриминга/форумов, дискографического подтверждения (каталог лейбла, буклет) найти не удалось. По правилам проекта такие даты источником не считаются. Вывод: студийной шубертовской (фортепианной) записи D 839 у Шварцкопф не подтверждено. Источники: d839...mb.json; https://www.talkclassical.com/threads/first-xmas-contest-schuberts-ave-maria-pavarotti-vaughan-schwarzkopf.82656/",
+    "Hans Hotter": "НЕТ. Записи не найдено ни в MB-каркасе, ни в веб-поиске; репертуар Хоттера в Шуберте — мужские циклы (Winterreise 1942/1954/1961, Schwanengesang). Источник: planning/research/singers-digest.md; d839...mb.json",
+    "Peter Anders": "НЕТ. Записи не найдено (MB-каркас + веб-поиск). Его шубертовское наследие — Winterreise (1945) и Müllerin (1945/1948). Источник: planning/research/singers-digest.md; d839...mb.json",
+    "Elisabeth Schumann": "ДА. HMV/Electrola DB 2291, запись 23.06.1934, Вена, с оркестром под упр. Leo Rosenek (матрица 2WX 766-2). См. кандидата. Источник: https://www.discogs.com/Elisabeth-Schumann-Leo-Rosenek-Ave-Maria-Bist-Du-Bei-Mir/release/13472891; MB-каркас (две записи Э. Шуман)",
+    "Christa Ludwig": "ДА, дважды. (1) EMI с Geoffrey Parsons (сессии Abbey Road, 28–30.11.1961 и далее до 1969) — «15 Lieder»; (2) DG 2530 404 с Irwin Gage, Вена, Tonstudio Rosenhügel, июнь 1973. См. кандидатов. Источники: Discogs r10605082 и master 815849; MB-каркас",
+    "Lucia Popp": "НЕТ. В MB-каркасе отсутствует; целевой веб-поиск записи D 839 не выявил. Её шубертовский рецитал EMI 1983 (Gage) включает Gretchen и Auf dem Wasser zu singen, но не Ave Maria (по дайджесту). Источник: planning/research/singers-digest.md; d839...mb.json"
+  },
+  "albums_facts": [
+    {
+      "album": "EMI «Schubert: 15 Lieder» / рециталы Christa Ludwig",
+      "singer": "Christa Ludwig",
+      "year": "сессии 1957–1969 (Ave Maria — Abbey Road, 28–30.11.1961 и далее)",
+      "label": "EMI / Warner",
+      "facts": "Пианисты — Parsons, Moore; кларнет — Gervase de Peyer (Hirt auf dem Felsen). Тот же корпус дал 5-звёздную Gretchen по klassik-prisma. Переиздан в Warner «Complete Recitals» (11 CD).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "EMI 2-LP «Schubert Lieder» (Baker / Moore / Parsons)",
+      "singer": "Janet Baker",
+      "year": "1970 (август, сентябрь, декабрь; Abbey Road Studio 1)",
+      "label": "EMI / Warner",
+      "facts": "Открывается Gretchen am Spinnrade; включает Die junge Nonne и Ellens Gesang III. Классика каталога, рекомендация Penguin Guide (по вторичному источнику).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Philips «Songs for Gretchen, Ellen & Suleika» (Elly Ameling — The Philips Recitals, Vol. 12)",
+      "singer": "Elly Ameling",
+      "year": "1970-е (сессии Амстердам 06.1972 / 08.1973 / 08.1975)",
+      "label": "Philips / Eloquence",
+      "facts": "Программа прямо посвящена трём героиням, включая Эллен — покрывает D 837, 838, 839. Пианист — Dalton Baldwin.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG 2-LP «Schubert: Lieder» 2530 858 (Janowitz / Gage)",
+      "singer": "Gundula Janowitz",
+      "year": "1976–77 (Берлин, Studio Lankwitz)",
+      "label": "Deutsche Grammophon",
+      "facts": "Серия дважды удостоена Deutscher Schallplattenpreis; включает Ellens Gesang I и III, Gretchen (5 звёзд klassik-prisma). Очень медленные темпы.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 13 «Lieder Sacred & Profane» (CDJ33013)",
+      "singer": "Marie McLaughlin",
+      "year": "1990 (16–18 декабря; дуэты 26–27.08.1991)",
+      "label": "Hyperion / Universal",
+      "facts": "Гёте и Вальтер Скотт; комментарии Грэма Джонсона — научный эталон. С 2023 доступно как official audio.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Teldec «Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder»",
+      "singer": "Barbara Bonney",
+      "year": "1994 (апрель, Teldec Studio Berlin)",
+      "label": "Teldec / Warner",
+      "facts": "Пианист Geoffrey Parsons. Одна из самых слушаемых официальных загрузок песни на YouTube (>9 млн).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG «Schubert: Lieder» (von Otter / Forsberg)",
+      "singer": "Anne Sofie von Otter",
+      "year": "1996 (июнь, Concertgebouw Nijmegen; изд. 1997)",
+      "label": "Deutsche Grammophon",
+      "facts": "Включает Im Abendrot D 799 и Ave Maria; Форсберг высоко оценён как аккомпаниатор.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1» (8.554795)",
+      "singer": "Ruth Ziesak",
+      "year": "релиз февраль 2002",
+      "label": "Naxos",
+      "facts": "Пианист Ulrich Eisenlohr; блок песен на европейских поэтов, в т. ч. Вальтера Скотта — покрывает многие песни пилотного раздела 1824–25.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Alpha «Kennst du das Land?»",
+      "singer": "Johannette Zomer",
+      "year": "2003 (издание)",
+      "label": "Alpha",
+      "facts": "Хаммерклавир (реплика инструмента ок. 1800). Все три Ellens Gesänge, Gretchen, Suleika, песни Миньоны; AllMusic — «a stunning Schubert recital».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "BIS «A Soprano's Schubertiade» (BIS-2343)",
+      "singer": "Carolyn Sampson",
+      "year": "2017 (август)",
+      "label": "BIS",
+      "facts": "Пианист Joseph Middleton; программа со Скоттом и Гёте, включает Ellens Gesänge, Gretchen, Gretchens Bitte.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Pentatone «Heimweh — Schubert Lieder» (PTC5186839)",
+      "singer": "Anna Lucia Richter",
+      "year": "2019 (издание)",
+      "label": "Pentatone",
+      "facts": "Пианист Gerold Huber, кларнет Matthias Schorn (Hirt auf dem Felsen). Заявлена оригинальная немецкая версия Ave Maria; включает Ellens Gesang I и II, Der Zwerg, Viola.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "EMI «Schubert: Lieder» (Hendricks / Lupu)",
+      "singer": "Barbara Hendricks",
+      "year": "1985 (25/28/29/30 ноября, Salle Wagram, Париж)",
+      "label": "EMI / Warner",
+      "facts": "За роялем Раду Лупу — редкий случай пианиста-солиста первого ряда в Lieder-рецитале; включает Gretchen.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "name": "klassik-prisma.de — раздел Шуберта",
+      "url": "http://www.klassik-prisma.de/Schubert.htm",
+      "finding": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ: отдельной сравнительной страницы (Vergleich) для Ave Maria / Ellens Gesang III D 839 на сайте НЕТ. Есть страницы по Gretchen am Spinnrade, Die junge Nonne, Nacht und Träume, Erlkönig, Auf dem Wasser zu singen, Gruppe aus dem Tartarus, Der Hirt auf dem Felsen и трём циклам."
+    },
+    {
+      "name": "Gramophone — «Schubert: the 50 greatest recordings»",
+      "url": "https://www.gramophone.co.uk/features/article/schubert-the-50-greatest-recordings",
+      "finding": "Обзор общешубертовский; отдельной рекомендации по D 839 в доступной части не обнаружено."
+    },
+    {
+      "name": "TalkClassical — «I'm looking for the best rendition of Ave Maria (Schubert)»",
+      "url": "https://www.talkclassical.com/threads/im-looking-for-the-best-rendition-of-ave-maria-schubert.84316/",
+      "finding": "Неформальный опрос знатоков: чаще всего называют Janet Baker / Gerald Moore (со ссылкой на рекомендацию Penguin Guide) и Elly Ameling / Dalton Baldwin; Janowitz — «очень хорошо, но голос не лёгкий, темпы медленные и пышные»."
+    },
+    {
+      "name": "TalkClassical — «200 Years Ave Maria by Franz Schubert»",
+      "url": "https://www.talkclassical.com/threads/200-years-ave-maria-by-franz-schubert.91881/",
+      "finding": "Юбилейное обсуждение записей 2025 г.; полезно как перечень имён, не как авторитет."
+    },
+    {
+      "name": "Hyperion Records — The Hyperion Schubert Edition, Vol. 13",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33013",
+      "finding": "Единственная запись D 839 в издании Hyperion — McLaughlin/Johnson, сессии 16–18.12.1990; там же комментарии Грэма Джонсона."
+    },
+    {
+      "name": "Wikipedia — Ave Maria (Schubert)",
+      "url": "https://en.wikipedia.org/wiki/Ave_Maria_(Schubert)",
+      "finding": "Список примечательных записей отсутствует; статья фиксирует контекст (Op. 52 № 6, перевод Шторка, премьера у графини Софи Вайсенвольф в Штайрегге) и позднейшие аранжировки (Лист, Стоковский для «Фантазии» 1940)."
+    }
+  ],
+  "negatives": [
+    "klassik-prisma НЕ имеет сравнительной страницы по D 839 (проверено по указателю раздела Шуберта) — для этой песни главный обычный ориентир проекта недоступен.",
+    "Дата записи Marian Anderson «07.07.1936», гуляющая по archive.org и агрегаторам, НЕВЕРНА: DAHR (Victor blue history card, ledgers) даёт 04.02.1936 (матрица CS-98638 take 2), релиз — 07.1937. Ещё один прецедент к правилу «метаданные архивов — не источник».",
+    "Fischer-Dieskau, Quasthoff, Hotter, Anders, Popp — записей D 839 не обнаружено; Schwarzkopf — дискографически не подтверждена (только метаданные стриминга о live 1951 с оркестром Н. Лейдена и о live с Дж. Фаворетто).",
+    "MB-каркас песни (116 записей) на 2/3 состоит из кроссовера, инструментальных аранжировок и оркестрово-хоровых версий (Bocelli, Pavarotti, Carreras, Il Divo, Diana Ross, Jaroussky, Zamfir, Grumiaux, Maisky, Wiener/Zürcher Sängerknaben, Дея-релаксы). Для проекта релевантны только версии «голос + фортепиано» на немецком тексте Шторка.",
+    "John McCormack / Kreisler (Victor, 25.03.1914) поёт по-АНГЛИЙСКИ (поле Language в DAHR) — исключить, несмотря на легендарность.",
+    "Elisabeth Schumann (1934), Jessye Norman «Sacred Songs» (Gibson/RPO), Barbara Hendricks (Orch. Challan), Rethberg (со скрипкой), Leontyne Price (хор), Anneliese Rothenberger (оркестр Graunke) — все с оркестром/хором/скрипкой, а не с роялем; Rethberg и Erb к тому же сильно сокращены (157–175 с при полной длине 340–470 с).",
+    "Год записи не установлен дискографически у: Karl Erb (~1935–36), Ruth Ziesak (известен только релиз 02.2002), Johannette Zomer (релиз 2003), Anna Lucia Richter (релиз 2019). При публикации указывать год издания с оговоркой либо доверифицировать по буклетам.",
+    "Точная сессионная дата трека D 839 внутри многосессионных компиляций не подтверждена у Ludwig/Parsons (EMI 1957–69) и Ameling/Baldwin (1972/73/75) — требуется сверка с буклетом перед фиксацией года в performances.json.",
+    "У Elly Ameling минимум три разные записи D 839 (с Baldwin, с Demus, с Sawallisch) — Topic-треки 340/343/345/347 с надо развести по релизам, иначе есть риск подписать не тот год.",
+    "Jessye Norman: в MB есть «Norman / Geoffrey Parsons — Ave Maria D 839» (428 с), но альбом и год этой записи установить не удалось; известный Philips-рецитал Шуберта 1985 г. — с Phillip Moll. Кандидат оставлен вне списка до уточнения."
+  ]
+}
