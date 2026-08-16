@@ -27,22 +27,22 @@ yt-dlp установлен standalone (см. `docs/rules/workflow.md` → «О�
 | 853 | Auf der Bruck | famous | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 806 | Abendstern | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 807 | Auflösung | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 808 | Gondelfahrer | medium | ✓ | — | — | — | — |
-| 833 | Der blinde Knabe | medium | ✓ | — | — | — | — |
-| 834 | Im Walde | medium | ✓ | — | — | — | — |
-| 837 | Ellens Gesang I | medium | ✓ | — | — | — | — |
-| 838 | Ellens Gesang II | medium | ✓ | — | — | — | — |
-| 851 | Das Heimweh | medium | ✓ | — | — | — | — |
-| 862 | Um Mitternacht | medium | ✓ | — | — | — | — |
+| 808 | Gondelfahrer | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 833 | Der blinde Knabe | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 834 | Im Walde | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 837 | Ellens Gesang I | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 838 | Ellens Gesang II | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 851 | Das Heimweh | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 862 | Um Mitternacht | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 805 | Der Sieg | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 830 | Lied der Anne Lyle | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 831 | Gesang der Norna | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 832 | Des Sängers Habe | rare | ✓ | — | — | — | — |
+| 832 | Des Sängers Habe | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 843 | Lied des gefangenen Jägers | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 846 | Normans Gesang | rare | ✓ | — | — | — | — |
+| 846 | Normans Gesang | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 854 | Fülle der Liebe | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 855 | Wiedersehn | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 856 | Abendlied für die Entfernte | rare | ✓ | — | — | — | — |
+| 856 | Abendlied für die Entfernte | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 857/1 | Lied der Delphine | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 857/2 | Lied des Florio | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 860 | An mein Herz | rare | ✓ | ✓ | ✓ | ✓ | ✓ |
