@@ -5,8 +5,8 @@
     {
       "singer": "Dietrich Fischer-Dieskau (баритон)",
       "pianist": "Gerald Moore",
-      "rec_year": "1966–1972 (точная дата сессии для этой песни не установлена)",
-      "year_source": "Diapason/DG: полный свод DG «Sämtliche Lieder» (21 CD), сессии Ufa-Ton-Studio Berlin 1966–1972 — общая дата издания, используемая в реестре planning/youtube/albums.md; MusicBrainz подтверждает пару FD/Moore для Abendstern D806 (work id 66bbe1bc…), но без даты сессии",
+      "rec_year": "сессии 1966–1972 (свод); трек документирован на компиляции «Lieder, Volume II» (DG, релиз 1992-10-01) — точная дата исходной сессии для этой песни не установлена",
+      "year_source": "Diapason/DG: полный свод DG «Sämtliche Lieder» (21 CD), сессии Ufa-Ton-Studio Berlin 1966–1972 — общая дата издания, используемая в реестре planning/youtube/albums.md; MusicBrainz подтверждает пару FD/Moore для Abendstern D806 (recording 71d2f08d-04bb-4873-a020-af28a2e3478d) на релизах «Lieder» и «Lieder, Volume II» (DG, Германия, 1992-10-01) и на боксе «Complete Lieder Recordings on Deutsche Grammophon» (2022-10-28) — без даты исходной студийной сессии",
       "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
       "label": "Deutsche Grammophon",
       "age_voice": "Фишер-Дискау (р. 1925) — 41–47 лет в годы записи, в пределах вокального пика по дайджесту (~1951–1972), до наступления «суше» тона сер. 1970-х",
@@ -190,37 +190,39 @@
       "singer": "Andrè Schuen (баритон)",
       "pianist": "не установлен (вероятно Daniel Heide, по аналогии с другими релизами артиста)",
       "rec_year": "не установлен",
-      "year_source": "Только официальная загрузка YouTube «Andrè Schuen - Topic»; конкретный альбом/сингл и год не идентифицированы (WebSearch исчерпан, WebFetch на deutschegrammophon.com дал 404)",
+      "year_source": "Только официальная загрузка YouTube «Andrè Schuen - Topic»; конкретный альбом/сингл и год не идентифицированы. Повторный целевой запрос к MusicBrainz (recording:Abendstern AND artist:\"Andrè Schuen\") в этой сессии дал 0 результатов — подтверждает, что запись отсутствует и в MusicBrainz, не только в его 34-строчной выборке по D806",
       "album": "не идентифицирован",
       "label": "предположительно Deutsche Grammophon (по официальному Topic-каналу и профилю артиста)",
       "age_voice": "Шуэн (р. 1984) — пик по дайджесту ~2018–наст.; точный возраст на записи не определим без даты",
       "reputation": "не оценена — недостаточно данных",
       "sources": [
         "yt-dlp поиск + yt-check.js (канал Andrè Schuen - Topic)",
-        "planning/research/singers-digest.md (карточка Schuen — флагманский молодой Schubert-баритон DG)"
+        "planning/research/singers-digest.md (карточка Schuen — флагманский молодой Schubert-баритон DG)",
+        "MusicBrainz recording-запрос (0 результатов, проверено повторно)"
       ],
       "youtube": [
         {"videoId": "SwgQGLGJ4f4", "channel": "Andrè Schuen - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Не в MusicBrainz-выдаче (34 записи). Значимость как кандидата опирается только на статус официального DG-артиста и Topic-загрузку; требует дополнительной верификации альбома/года перед включением в топ-5."
+      "note": "Альбом/год НЕ подтверждены ни одним источником, доступным в этой сессии (MB пусто, WebSearch недоступен). До отдельной верификации (например, через страницу артиста на deutschegrammophon.com или буклет) НЕ должен включаться в топ-5 — недостаточно фактов для оценки состояния голоса и происхождения записи."
     },
     {
       "singer": "Anna Prohaska (сопрано)",
       "pianist": "Julius Drake",
-      "rec_year": "не установлен",
-      "year_source": "MusicBrainz credit-пара «Anna Prohaska, Julius Drake»; WebFetch статьи Wikipedia об Anna Prohaska не подтвердил альбом с Julius Drake (в её дискографии 2009–2015 указаны альбомы с Eric Schneider, не Drake) — вероятно, более поздний, там не отражённый релиз",
-      "album": "не идентифицирован",
-      "label": "не идентифицирован",
-      "age_voice": "Прохаска (р. 1983) — точный возраст на записи не определим без даты",
-      "reputation": "не оценена — недостаточно данных",
+      "rec_year": "издание альбома «Paradise Lost» — 10 апреля 2020",
+      "year_source": "ПОДТВЕРЖДЕНО: MusicBrainz recording fad2866b-347e-4f89-83a2-ad11b611057b («Abendstern, D. 806», Prohaska/Drake) — трек 19/26 релиза «Paradise Lost» (дата релиза 2020-04-10, Франция/мировой релиз)",
+      "album": "Paradise Lost",
+      "label": "Alpha Classics",
+      "age_voice": "Прохаска (р. 1983) — 36–37 лет в 2020",
+      "reputation": "не оценена — отдельного сравнительного отзыва по Abendstern не найдено; альбом концептуальный (тема грехопадения/утраты рая), Julius Drake — один из ведущих аккомпаниаторов поколения",
       "sources": [
         "planning/youtube/data/d806-abendstern.mb.json",
-        "WebFetch: https://en.wikipedia.org/wiki/Anna_Prohaska (отрицательный результат по пианисту Drake)"
+        "WebFetch: https://en.wikipedia.org/wiki/Anna_Prohaska (не помог для этого альбома — её страница не покрывает релиз 2020 г. с Drake)",
+        "MusicBrainz release 297343ca-e667-479e-8d17-91cfb066375c (\"Paradise Lost\", Alpha Classics, 2020-04-10, трек 19/26)"
       ],
       "youtube": [
         {"videoId": "Ed7CvBAxCks", "channel": "Anna Prohaska - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Официальная Topic-загрузка есть, но альбом и год не подтверждены; включена как потенциальный современный кандидат до доп. верификации."
+      "note": "Альбом и год теперь подтверждены напрямую по MusicBrainz (ранее не были установлены)."
     }
   ],
   "priority_singers_checked": {
@@ -265,14 +267,47 @@
       "label": "harmonia mundi",
       "facts": "Второй том проекта «Schubert 200» (Ammiel Bushakevitz, ф-но); альбом посвящён песням 1824–1826, явно включает Abendstern D806 наряду с Die junge Nonne D828, Der Einsame D800 и др.; Diapason d'or de l'année, Bestenliste Preis der deutschen Schallplattenkritik 2/2025",
       "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Nachtviolen: Schubert Lieder",
+      "singer": "Christian Gerhaher",
+      "year": "2014",
+      "label": "Sony Classical (RCA Red Seal), кат. 88883712172",
+      "facts": "MusicBrainz release d7186df9-25f5-4b4e-89ae-2ad43885d214; Abendstern — трек 10/24; пианист Gerold Huber; дата релиза подтверждена также независимой промо-компиляцией «AUDIOphile Pearls, Volume 8» (2014)",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Lieder Recital",
+      "singer": "Florian Boesch",
+      "year": "2016",
+      "label": "Onyx Classics, кат. ONYX 4149",
+      "facts": "MusicBrainz release e1d99ed4-1b84-4714-8759-193a041c0ca3; Abendstern — трек 20/24; пианист Malcolm Martineau (не Vignoles — отдельный от Hyperion CDA68010 альбом)",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Paradise Lost",
+      "singer": "Anna Prohaska",
+      "year": "2020",
+      "label": "Alpha Classics",
+      "facts": "MusicBrainz release 297343ca-e667-479e-8d17-91cfb066375c, дата релиза 2020-04-10; Abendstern — трек 19/26; пианист Julius Drake; концептуальная программа о грехопадении/утрате рая",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder (von Otter/Forsberg)",
+      "singer": "Anne Sofie von Otter",
+      "year": "1996 (запись) / 1997-10-01 (релиз)",
+      "label": "Deutsche Grammophon",
+      "facts": "MusicBrainz release 94a1948d-3b0b-4d43-bcef-2f8c5edc04b9; Abendstern — трек 15/18; пианист Bengt Forsberg; принадлежность к альбому подтверждена напрямую (ранее была только по аналогии)",
+      "covers_more_pilot_songs": true
     }
   ],
   "surveys": [],
   "negatives": [
     "klassik-prisma.de: целевого сравнительного обзора («Vergleich») по Abendstern D806 не найдено в рамках доступного поиска (WebSearch и WebFetch, включая прямые попытки на klassik-prisma.de).",
     "Gramophone/MusicWeb/BBC Music Magazine: отдельного слепого теста или сравнительного обзора по этой конкретной песне не найдено (только общие рецензии на альбомы, где она — один из треков).",
-    "Расхождение по Florian Boesch: реестр planning/youtube/albums.md указывает для Hyperion CDA68010 пианиста Roger Vignoles, а MusicBrainz для Abendstern — Malcolm Martineau. Не устранено, зафиксировано в карточке кандидата.",
+    "Расхождение по Florian Boesch РАЗРЕШЕНО (уточняющий проход по MusicBrainz release-lookup): его Abendstern — трек альбома «Lieder Recital» (Onyx ONYX 4149, 2016, с Malcolm Martineau), а не диска Hyperion CDA68010 «Der Wanderer & other songs» (с Roger Vignoles, ~2014), указанного в реестре planning/youtube/albums.md по другой песне (D768) того же артиста. Реестр альбомов стоит дополнить отдельной строкой для «Lieder Recital».",
     "WebSearch (инструмент) в ходе работы выдал неподтверждённые утверждения о записях Hotter (окт. 1957, Moore) и Schwarzkopf (авг. 1965, Moore) — источник первичного документа отследить не удалось, в дossier эти утверждения НЕ внесены как факты, только как непроверенные зацепки в priority_singers_checked.",
-    "Сессия WebSearch была исчерпана (лимит 200 вызовов) в середине исследования — часть уточнений (годы для Gerhaher/Huber, Boesch/Martineau, альбомы Schuen и Prohaska) выполнена только через WebFetch на прямых URL и осталась неполной."
+    "WebSearch был недоступен на протяжении большей части этой сессии (лимит исчерпан на уровне сессии/аккаунта, не только этого агента). Уточнения года/альбома для Gerhaher, Boesch, Prohaska и von Otter получены не через WebSearch, а напрямую через MusicBrainz recording+release lookup (curl), что дало точные, документированные факты (лейбл, каталожный номер, номер трека, дата релиза) — метод оказался надёжнее WebSearch для этой задачи.",
+    "Andrè Schuen: альбом/год записи Abendstern НЕ найдены ни в MusicBrainz (0 результатов при целевом запросе), ни через доступные веб-инструменты — кандидат остаётся неверифицированным и не должен включаться в топ-5 без отдельного подтверждения."
   ]
 }

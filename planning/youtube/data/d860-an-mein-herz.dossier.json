@@ -1,0 +1,291 @@
+{
+  "d": "860",
+  "title": "An mein Herz (Ernst Schulze)",
+  "tier_note": "Медиум-ярус: пул значительных записей 14 (MusicBrainz) + подтверждения через YouTube; сравнительных обзоров (klassik-prisma, Gramophone, MusicWeb, hyperion-records.co.uk) в рамках доступных инструментов сессии найти не удалось — WebSearch исчерпан (бюджет сессии), поисковые системы через WebFetch блокировали запросы (CAPTCHA/403/404), MusicBrainz API отдавал anti-bot challenge при прямом curl. Досье построено на MB-каркасе, дайджесте певцов, реестре альбомов и данных YouTube (yt-dlp + label-метаданные Content ID, не архивных/фанатских).",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (сессии в рамках цикла DG 1966–72)",
+      "year_source": "YouTube Content ID (Provided to YouTube by Universal Music Group): альбом «Schubert: Lieder (Vol. 2)», ℗ 1969 Deutsche Grammophon; согласуется с фактом из planning/youtube/albums.md — DG «Sämtliche Lieder» (21 CD), сессии 1966–1972, Ufa-Ton-Studio Berlin, весь свод мужских песен. Дата не сверена по буклету/матрицам напрямую (WebSearch недоступен в сессии) — рекомендуется дополнительная сверка на этапе топ-5.",
+      "album": "Schubert: Lieder, Vol. 2 (в составе DG «Sämtliche Lieder», 21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~44 года на момент записи (р. 1925); по дайджесту — вокальный пик певца ~1951–1972, т.е. запись сделана на самом излёте пика.",
+      "reputation": "Отдельных критических цитат по этой конкретной песне не найдено (обзоры недоступны в сессии); общая репутация свода DG «Sämtliche Lieder» как эталонного корпуса мужских песен Шуберта устоялась (см. singers-digest.md, albums.md).",
+      "sources": ["planning/research/singers-digest.md", "planning/youtube/albums.md", "YouTube Content ID metadata (см. videoId ниже)"],
+      "youtube": [
+        {"videoId": "wX-qXiLi6CY", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "PNkIi7VkhUU", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "BVJZISx2FJA", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три отдельных Topic-загрузки одной и той же записи (разные переиздания/сборники: «Vol. 2», «Vol. 2 + циклы», «Schubert: Lieder») — одна и та же сессия 1969 г. Приоритетный певец №2 по правилам."
+    },
+    {
+      "singer": "Lucia Popp (сопрано)",
+      "pianist": "Irwin Gage",
+      "rec_year": "10.08.1983 (live, Зальцбургский фестиваль)",
+      "year_source": "Косвенно: фан-загрузка «F. Schubert An mein Herz, D 860, Ernst Schulze — Lucia Popp & Irwin Gage, 1983» (канал Sadanori Kobinata) + подтверждённая дата другого номера того же концерта в поиске YouTube: «Lucia Popp Schubert Der Jüngling an der Quelle Salzbourg 10 08 1983» (канал Allons à l'Opéra); официальная Topic-загрузка на альбоме Orfeo ℗ 2016 не даёт даты сессии, только год переиздания. Не сверено по буклету Orfeo — сессионная дата требует подтверждения на этапе топ-5.",
+      "album": "Lucia Popp / Irwin Gage — Lieder (live, Зальцбург; изд. Orfeo)",
+      "label": "Orfeo (издание 2016; запись, по косвенным данным, live 1983)",
+      "age_voice": "~35 лет (р. 1939), в рамках пика ~1970–1988 по дайджесту.",
+      "reputation": "Отдельных критических оценок именно этой песни не найдено в сессии; общая репутация Попп как одной из ведущих шубертовских сопрано 1970–80-х устоялась (её основной студийный рецитал EMI 1983 — 5 звёзд klassik-prisma по D 118/D 828/D 854, см. albums.md); эта запись — другой (концертный, Orfeo) корпус, отдельно от EMI-рецитала.",
+      "sources": ["planning/research/singers-digest.md", "planning/youtube/albums.md", "YouTube search/Content ID"],
+      "youtube": [
+        {"videoId": "QnI9oRr-5Wo", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "QHidlTBkX78", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Приоритетная певица по правилам (топ-1 среди женщин по общему списку — впрочем, сама Попп не входит в основную пятёрку приоритетов, но названа как звезда прошлого). Три MB-записи Popp/Gage с разной длительностью (191/200/201 с) — вероятно, студийная/концертная версии либо дубли каталога; не разобраны окончательно."
+    },
+    {
+      "singer": "Samuel Hasselhorn (баритон)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "издание 28.02.2025",
+      "year_source": "YouTube Content ID (Provided to YouTube by PIAS): альбом «Schubert: Licht und Schatten», Released on 2025-02-28; полностью согласуется с planning/youtube/albums.md — проект «Schubert 200» т. 2, harmonia mundi HMM902747, издание 28 февраля 2025, Diapason d'or de l'année 2025 и Bestenliste Preis der deutschen Schallplattenkritik.",
+      "album": "Schubert: Licht und Schatten (проект «Schubert 200», т. 2)",
+      "label": "harmonia mundi",
+      "age_voice": "~35 лет (р. 1990); пик по дайджесту ~2019–наст.",
+      "reputation": "Альбом отмечен Diapason d'or de l'année 2025 и Preis der deutschen Schallplattenkritik (Bestenliste 2/2025) — см. albums.md; отдельной рецензии на именно эту песню не найдено в сессии.",
+      "sources": ["planning/youtube/albums.md", "YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "_y6dK9ZYOBI", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая свежая значительная запись песни в пуле (2025) — кандидат для условия «≥1 запись не ранее 2015» при отборе топ-5."
+    },
+    {
+      "singer": "Anna Lucia Richter (меццо/сопрано)",
+      "pianist": "Gerold Huber",
+      "rec_year": "издание 01.02.2019",
+      "year_source": "YouTube Content ID (Provided to YouTube by NAXOS of America): альбом «Heimweh: Schubert Lieder», ℗ 2019 PENTATONE, Released on 2019-02-01; согласуется с singers-digest.md («Heimweh», Pentatone 2019, Huber).",
+      "album": "Heimweh: Schubert Lieder",
+      "label": "Pentatone",
+      "age_voice": "~28–29 лет (р. 1990); пик по дайджесту не указан явно, альбом относится к раннему зрелому периоду; ~2020 г. певица перешла из сопрано в меццо.",
+      "reputation": "Не найдено конкретных обзоров этой песни в сессии; альбом «Heimweh» задокументирован в singers-digest как значимая работа этого периода (Hirt auf dem Felsen с Schorn и т.д.).",
+      "sources": ["planning/research/singers-digest.md", "YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "2Wty6NweIDU", "channel": "Anna Lucia Richter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат для «современной» части возрастной структуры топ-5."
+    },
+    {
+      "singer": "Florian Boesch (бас-баритон)",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "издание 20.05.2016",
+      "year_source": "YouTube Content ID (Provided to YouTube by The Orchard Enterprises): альбом «Florian Boesch & Malcolm Martineau: Schubert Lieder Recital», ℗ 2016 PM Classics Ltd, Released on 2016-05-20. Не сверено по буклету/дискографии лейбла — этот альбом не входит в реестр planning/youtube/albums.md.",
+      "album": "Schubert Lieder Recital",
+      "label": "PM Classics",
+      "age_voice": "~45 лет (р. 1971); пик по дайджесту ~2010–наст.",
+      "reputation": "Не найдено конкретных обзоров в сессии; Бёш в дайджесте характеризуется как «рассказчик венской школы», известен трилогией Onyx (Winterreise/Müllerin/Schwanengesang с Martineau/Vignoles).",
+      "sources": ["planning/research/singers-digest.md", "YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "S6tJIuiXBug", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Альбом не в реестре albums.md — новая находка, стоит добавить в реестр при дальнейшей работе."
+    },
+    {
+      "singer": "Vesselina Kasarova (меццо-сопрано)",
+      "pianist": "Friedrich Haider",
+      "rec_year": "издание 05.04.1999",
+      "year_source": "YouTube Content ID (Provided to YouTube by RCA Red Seal): альбом «Lieder von Schubert, Brahms, Schumann», ℗ 1999 BMG Entertainment, Released on 1999-04-05.",
+      "album": "Lieder von Schubert, Brahms, Schumann",
+      "label": "RCA Red Seal / BMG",
+      "age_voice": "~35 лет (р. 1965).",
+      "reputation": "Касарова — оперная звезда (Россини/Моцарт), не шубертианка по основному профилю; отдельных критических оценок этой записи не найдено в сессии — требует скептической проверки при отборе (правило о скепсисе к современным).",
+      "sources": ["YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "fq529wpaZJg", "channel": "Vesselina Kasarova - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Полное название по MB/YT: «An mein Herz (Nachlaß, Lfg. 18) D 860 (O Herz, sei endlich stille!)»."
+    },
+    {
+      "singer": "Christoph Prégardien (тенор)",
+      "pianist": "Julius Drake",
+      "rec_year": "издание 09.10.2015",
+      "year_source": "YouTube Content ID (Provided to YouTube by The Orchard Enterprises): альбом «Poetisches Tagebuch», ℗ 2015 Challenge Classics, Released on 2015-10-09. Не в реестре albums.md и не в основной карточке Прегардьена в singers-digest.md (там перечислены другие циклы) — новая находка.",
+      "album": "Poetisches Tagebuch",
+      "label": "Challenge Classics",
+      "age_voice": "~59 лет (р. 1956); пик по дайджесту ~1990–2012, т.е. запись сделана после заявленного пика.",
+      "reputation": "Не найдено конкретных обзоров в сессии.",
+      "sources": ["planning/research/singers-digest.md", "YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "kuGOeWsb-ek", "channel": "Julius Drake - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Загрузка на канале пианиста («Julius Drake - Topic»), не певца — идентифицирован по описанию Content ID."
+    },
+    {
+      "singer": "Hanno Müller-Brachmann (бас-баритон)",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "издание 21.03.2003",
+      "year_source": "YouTube Content ID (Provided to YouTube by NAXOS of America): альбом «Schubert: Lied Edition 11 — North German Poets», ℗ 2003 Naxos, Released on 2003-03-21.",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 11 «North German Poets»",
+      "label": "Naxos",
+      "age_voice": "не установлен (год рождения певца не проверен в сессии).",
+      "reputation": "Часть полного немецкоязычного издания Naxos (Eisenlohr); том не упомянут в реестре albums.md (там только т. 1 и т. 13) — стоит добавить.",
+      "sources": ["planning/youtube/albums.md (реестр Naxos DSLE, общий факт)", "YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "6mrn_yG5JgQ", "channel": "Hanno Müller-Brachmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Не входит в MB-каркас (14 записей) — найден только через YouTube; часть полного издания Naxos DSLE, упомянутого в правилах как обязательный источник пула."
+    },
+    {
+      "singer": "Olle Persson (баритон)",
+      "pianist": "Mats Jansson",
+      "rec_year": "издание 2003",
+      "year_source": "YouTube Content ID (Provided to YouTube by NAXOS of America): альбом «Schubert: Lieder», ℗ 2003 Naxos, Released on 2003-01-01.",
+      "album": "Schubert: Lieder",
+      "label": "Naxos",
+      "age_voice": "не установлен.",
+      "reputation": "Не найдено критических оценок в сессии; шведский баритон, не входит ни в дайджест, ни в реестр альбомов — маргинальный кандидат по узнаваемости.",
+      "sources": ["YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "zbPYHO3JmqU", "channel": "Olle Persson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Не входит в MB-каркас; слабый кандидат — скорее для полноты пула, чем для топ-5."
+    },
+    {
+      "singer": "Paul Armin Edelmann (баритон)",
+      "pianist": "Charles Spencer",
+      "rec_year": "издание 05.01.2018 (переиздание; сессия не установлена)",
+      "year_source": "YouTube Content ID (Provided to YouTube by NAXOS of America): альбом «The Schubert Album», ℗ 2018 CapriccioNR, Released on 2018-01-05 — это дата переиздания на Naxos-дистрибуции, не обязательно дата записи (лейбл Capriccio активен с 1980-х).",
+      "album": "The Schubert Album",
+      "label": "Capriccio",
+      "age_voice": "не установлен.",
+      "reputation": "Не найдено критических оценок в сессии.",
+      "sources": ["YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "ki55XS6KWpI", "channel": "Paul Armin Edelmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дата 2018 — вероятно переиздание; исходная сессия не найдена в сессии исследования."
+    },
+    {
+      "singer": "Jan DeGaetani (меццо-сопрано)",
+      "pianist": "Gilbert Kalish",
+      "rec_year": "издание 1992 (певица умерла в 1989 — запись сделана раньше, точная сессия не установлена)",
+      "year_source": "YouTube Content ID (Provided to YouTube by Nonesuch): альбом «Franz Schubert: Songs — Hugo Wolf: Songs From The Spanisches Liederbuch», ℗ 1992 Nonesuch Records. Дата явно относится к изданию/переизданию, не к сессии — ДеГаэтани умерла в сентябре 1989 г., реальная запись сделана раньше и требует дополнительной проверки по дискографии Nonesuch.",
+      "album": "Franz Schubert: Songs / Hugo Wolf: Songs from the Spanisches Liederbuch",
+      "label": "Nonesuch",
+      "age_voice": "не установлен (сессия не датирована).",
+      "reputation": "ДеГаэтани — известная американская исполнительница новой музыки и Lieder; отдельных оценок этой записи не найдено в сессии.",
+      "sources": ["YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "QazI4jmxiyk", "channel": "Jan De Gaetani/Gilbert Kalish/et al. - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВАЖНО: год ℗ 1992 на Content ID — не факт года записи (певица умерла в 1989); необходима дополнительная сверка на этапе топ-5 (аналогично прецеденту Э. Шуман 1945 vs 1936 в правилах)."
+    },
+    {
+      "singer": "Äneas Humm (баритон)",
+      "pianist": "Doriana Tchakarova",
+      "rec_year": "издание 28.03.2025",
+      "year_source": "YouTube Content ID (Provided to YouTube by Kontor New Media GmbH): альбом «Libertas», Released on 2025-03-28, Rondeau Production GmbH.",
+      "album": "Libertas",
+      "label": "Rondeau Production",
+      "age_voice": "молодой швейцарский баритон (р. предположительно 1990-е — год рождения не проверен в сессии).",
+      "reputation": "Не найдено критических оценок в сессии; современная запись, требует скепсиса к пиару по общему правилу.",
+      "sources": ["YouTube Content ID metadata"],
+      "youtube": [
+        {"videoId": "0TprWfW_NHk", "channel": "Äneas Humm - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая свежая по дате издания запись в пуле (март 2025) наряду с Hasselhorn (февраль 2025)."
+    },
+    {
+      "singer": "Matthias Goerne (баритон)",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "не установлен",
+      "year_source": "Найден официальный ролик на канале «harmonia mundi music» (не Topic, лейбловый канал), без даты сессии в описании. Гёрне записывал 12-томный Schubert Edition (2008–2014, в основном с Eschenbach), но версия с Deutsch на другом пианисте — вероятно, отдельный/более поздний проект; конкретный альбом не идентифицирован в сессии (WebSearch недоступен).",
+      "album": "не установлен (не совпадает с известным томом «Wanderers Nachtlied», где Гёрне записан с Eric Schneider)",
+      "label": "harmonia mundi",
+      "age_voice": "не установлен без даты записи.",
+      "reputation": "Гёрне — самый записываемый шубертовский баритон поколения по дайджесту; отдельной оценки этой записи не найдено.",
+      "sources": ["planning/research/singers-digest.md", "planning/youtube/albums.md"],
+      "youtube": [
+        {"videoId": "dKCnf-4XjhM", "channel": "harmonia mundi music", "official": true, "oembed_ok": true}
+      ],
+      "note": "ТРЕБУЕТ ДОРАБОТКИ: год записи/альбом не установлены в этой сессии — необходим дополнительный веб-поиск (WebSearch был исчерпан) для идентификации конкретного тома/сессии перед включением в топ-5."
+    },
+    {
+      "singer": "Peter Schreier (тенор)",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен",
+      "year_source": "Только запись в MB-каркасе (An Mein Herz, D. 860, 217 с); соответствует тому Hyperion Schubert Edition, где Джонсон аккомпанирует Шрайеру (какой именно том — не установлен). На YouTube не найдено (ни через generic-поиск, ни через целевой поиск в этой сессии) — возможно, ещё не оцифровано на Topic-каналах Universal или не найдено из-за формулировки запроса.",
+      "album": "Hyperion Schubert Edition (том не идентифицирован)",
+      "label": "Hyperion",
+      "age_voice": "не установлен без года.",
+      "reputation": "Шрайер — один из главных шубертовских теноров второй половины XX века (см. singers-digest.md); участие в научном своде Hyperion Джонсона.",
+      "sources": ["planning/youtube/data/d860-an-mein-herz.mb.json", "planning/research/singers-digest.md"],
+      "youtube": [],
+      "note": "YouTube-ролик НЕ НАЙДЕН в этой сессии — требует дополнительного поиска (возможно, иное написание, или запись пока не выложена на Topic)."
+    },
+    {
+      "singer": "Harriet Burns (сопрано)",
+      "pianist": "Ian Tindale",
+      "rec_year": "не установлен",
+      "year_source": "Только запись в MB-каркасе (190 с). Молодой британский дуэт; альбом/лейбл не идентифицированы в этой сессии.",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "не установлен.",
+      "reputation": "Не найдено в этой сессии.",
+      "sources": ["planning/youtube/data/d860-an-mein-herz.mb.json"],
+      "youtube": [],
+      "note": "YouTube-ролик НЕ НАЙДЕН; ни в generic yt.json, ни в целевом поиске этой сессии. Слабо документированный кандидат — низкий приоритет для топ-5 без дальнейшего исследования."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. В MB-каркасе (14 записей) отсутствует; целевой поиск YouTube «Thomas Quasthoff An mein Herz Schubert D 860» не дал совпадений (только чужие записи и его несвязанные треки Schwanengesang/Müllerin — Topic). Согласуется с singers-digest.md: ровно 6 Schubert-альбомов Квасthoffа (Goethe-Lieder, Winterreise, Schwanengesang, Lieder с оркестром, Müllerin, Winterreise-фильм) — ни один не охватывает эту песню (не входит ни в один из этих циклов/сборников).",
+    "Dietrich Fischer-Dieskau": "ЗАПИСАЛ. DG «Sämtliche Lieder», Vol. 2, ℗ 1969, с Gerald Moore. Источник: YouTube Content ID + planning/youtube/albums.md (свод 1966–72).",
+    "Elisabeth Schwarzkopf": "НЕ записывала (по доступным в сессии данным). Целевой поиск YouTube «Schwarzkopf An mein Herz Schubert D 860» не дал совпадений с её именем; в MB-каркасе отсутствует. Отрицательный результат не абсолютен — обзоры (klassik-prisma, Hyperion notes) не были доступны в этой сессии для перепроверки.",
+    "Hans Hotter": "НЕ записывал (по доступным в сессии данным). Целевой поиск YouTube не дал совпадений; в MB-каркасе отсутствует.",
+    "Peter Anders": "НЕ записывал (по доступным в сессии данным). Целевой поиск YouTube не дал совпадений (нашёлся только его Winterreise 1948, не эта песня); в MB-каркасе отсутствует.",
+    "Elisabeth Schumann": "НЕ записывала (по доступным в сессии данным). Целевой поиск YouTube не дал совпадений с её именем; в MB-каркасе отсутствует.",
+    "Christa Ludwig": "НЕ записывала (по доступным в сессии данным). Целевой поиск YouTube не дал совпадений (нашлись только другие её песни — Lied der Anne Lyle D830, Das irdische Leben, Um Mitternacht D862); в MB-каркасе отсутствует.",
+    "Lucia Popp": "ЗАПИСАЛА. С Irwin Gage; live, вероятно Зальцбург 10.08.1983 (по косвенным данным), изд. Orfeo (Content ID: ℗ 2016). Источник: MB-каркас + YouTube Content ID + косвенное подтверждение даты через соседний номер того же концерта."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (21 CD), Fischer-Dieskau/Moore",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–1972 (сессии); D 860 — альбом Vol. 2, ℗ 1969",
+      "label": "Deutsche Grammophon",
+      "facts": "Уже задокументирован в planning/youtube/albums.md как базовая точка отсчёта для мужских песен пилота; факт использован без повторного исследования.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Licht und Schatten (Schubert 200, т. 2)",
+      "singer": "Samuel Hasselhorn",
+      "year": "2025 (изд. 28.02.2025)",
+      "label": "harmonia mundi",
+      "facts": "Уже задокументирован в planning/youtube/albums.md; Diapason d'or de l'année 2025, Preis der deutschen Schallplattenkritik (Bestenliste 2/2025); песни 1824–1826.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Heimweh: Schubert Lieder",
+      "singer": "Anna Lucia Richter",
+      "year": "2019",
+      "label": "Pentatone",
+      "facts": "Уже задокументирован в singers-digest.md (пианист Gerold Huber, кларнет Matthias Schorn для Hirt auf dem Felsen).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Florian Boesch & Malcolm Martineau: Schubert Lieder Recital",
+      "singer": "Florian Boesch",
+      "year": "2016 (изд. 20.05.2016)",
+      "label": "PM Classics",
+      "facts": "НОВАЯ находка этой сессии — не в реестре albums.md; рекомендуется добавить при дальнейшей работе, т.к. может покрывать другие песни пилота.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 11 «North German Poets»",
+      "singer": "Hanno Müller-Brachmann",
+      "year": "2003 (изд. 21.03.2003)",
+      "label": "Naxos",
+      "facts": "НОВАЯ находка — том не упомянут в реестре albums.md (там только т. 1/Trekel и т. 13/Ziesak). Пианист Ulrich Eisenlohr — тот же, что и во всём издании.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [],
+  "negatives": [
+    "Сравнительные обзоры (klassik-prisma.de Vergleich, Gramophone, MusicWeb, BBC Music Magazine, hyperion-records.co.uk с заметками Грэма Джонсона) для этой песни в этой сессии НЕ НАЙДЕНЫ: WebSearch исчерпал лимит сессии (200/200 вызовов, вероятно общий на все параллельные потоки волны), а прямой доступ через WebFetch к Google/Bing/DuckDuckGo/Marginalia/Hyperion-поиску блокировался (consent-редиректы, CAPTCHA, 404/403). Прямой запрос к MusicBrainz API через curl вернул anti-bot JS-challenge (не обойдён).",
+    "Приоритетные певицы/певцы Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг — отрицательный результат основан ТОЛЬКО на отсутствии в MB-каркасе (14 записей) и на целевых, но ограниченных YouTube-поисках; это не равносильно исчерпывающей проверке по их полным дискографиям (обзоров/дискографий по каждому певцу для этой конкретной редкой песни не проверялось из-за недоступности WebSearch).",
+    "Peter Schreier/Graham Johnson (Hyperion) и Harriet Burns/Ian Tindale — есть в MB-каркасе, но НЕ НАЙДЕНЫ на YouTube в этой сессии; возможно, ещё не оцифрованы на Topic-каналах или требуют иной формулировки поиска.",
+    "Matthias Goerne/Helmut Deutsch — ролик найден и жив, но альбом/год записи НЕ идентифицированы (не совпадает с известным томом Goerne Schubert Edition «Wanderers Nachtlied», где пианист — Eric Schneider); нужна доследование на этапе топ-5.",
+    "Три MB-записи Popp/Gage с разными длительностями (191/200/201 с) не разведены окончательно на дубли каталога vs. разные исполнения — нужна сверка по буклету Orfeo."
+  ]
+}

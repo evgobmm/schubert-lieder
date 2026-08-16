@@ -1,0 +1,169 @@
+{
+ "d": "851",
+ "title": "Das Heimweh (Pyrker), op. 79 no. 1",
+ "note_general": "Ярус «rare»: работа в MusicBrainz (58db792b-e0c9-47cb-a78c-6f8979dfc774) фиксирует всего 4 записи — крайне редкая песня (поздний текст Ladislaus Pyrker «Ach, der Gebirgssohn», почти не программируется). ВАЖНО: не путать с одноимённой песней «Das Heimweh» D 456 (текст K. G. von Leitner, другая музыка) и с «Totengräbers Heimweh» D 842 — на YouTube много ложных срабатываний под всеми тремя названиями; ниже отфильтровано. Ограничение сессии: бюджет WebSearch (200/200) был исчерпан ДО начала работы над этой песней (общий лимит воркфлоу, вероятно израсходован параллельными потоками волны); часть сайтов (prestomusic.com, harmoniamundi.com, allmusic.com — 403; musicbrainz.org — сетевая ошибка при повторных попытках; google/bing/duckduckgo — органическая выдача недоступна) не отдавала контент через WebFetch/curl в течение сессии. Из-за этого отдельных сравнительных обзоров/рецензий именно на D 851 не найдено (ожидаемо для настолько редкой песни) и не подтверждены до конца два факта (том Hyperion для Schreier/Johnson; пианист во второй записи Goerne) — оба помечены в note соответствующих кандидатов.",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (точная дата сессии внутри цикла не установлена)",
+   "year_source": "MusicBrainz, work 58db792b-e0c9-47cb-a78c-6f8979dfc774, recording «Das Heimweh, D. 851: \"Ach, der Gebirgssohn\"», 431 с, исполнители Dietrich Fischer-Dieskau / Gerald Moore (planning/youtube/data/d851-das-heimweh.mb.json); альбом идентифицирован по реестру planning/youtube/albums.md — DG «Sämtliche Lieder» (21 CD), сессии 1966–1972, Ufa-Ton-Studio Berlin.",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "41–47 лет на момент записи; целиком в пределах его вокального пика ~1951–1972 (singers-digest.md) — до заметного посуше́ния тона с сер. 1970-х.",
+   "reputation": "Часть полного свода всех мужских песен Шуберта с Gerald Moore — базовая точка отсчёта для любой мужской песни Шуберта в проекте (planning/youtube/albums.md). Отдельной критики именно на эту редкую песню не найдено (поисковый бюджет исчерпан; см. note_general).",
+   "sources": [
+    "planning/youtube/data/d851-das-heimweh.mb.json (MusicBrainz work 58db792b-e0c9-47cb-a78c-6f8979dfc774)",
+    "planning/youtube/albums.md (запись DG «Sämtliche Lieder», 1966–1972)",
+    "planning/research/singers-digest.md (пик формы Fischer-Dieskau)"
+   ],
+   "youtube": [
+    {"videoId": "gNh8_S-b924", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "vqTUoY8lk18", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Два дубля на официальном Topic-канале, оба 431 с — совпадает с длительностью в MB (431 с), что подтверждает идентификацию. gNh8_S-b924 — с заметно большим числом просмотров (2181 против 1821), предпочтителен как основной."
+  },
+  {
+   "singer": "Peter Schreier",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен точно; в пределах существования Hyperion Schubert Edition (1987–2000)",
+   "year_source": "MusicBrainz, recording «Das Heimweh, D. 851», Peter Schreier / Graham Johnson, 453 с (d851-das-heimweh.mb.json). Graham Johnson — бессменный пианист-редактор Hyperion Schubert Edition (planning/research/singers-digest.md), что делает эту запись почти наверняка частью издания; конкретный том, дата сессии и точный альбом НЕ подтверждены — доступ к каталогу hyperion-records.co.uk (JS-driven поиск) не дал результата в рамках сессии (см. note_general).",
+   "album": "предположительно один из томов Hyperion Schubert Edition (Graham Johnson, 1987–2000) — конкретный том не подтверждён",
+   "label": "Hyperion (с 2023 — Universal)",
+   "age_voice": "неизвестен точно: если запись сделана в пределах окна издания (1987–2000), Шрайеру было 52–65 лет — уже после пика ~1965–1990 по дайджесту (\"поздний — суше?\").",
+   "reputation": "Один из ведущих Lieder-теноров 2-й половины XX века (singers-digest.md); специализировался также на Бахе. Отдельной рецензии именно на эту песню не найдено.",
+   "sources": [
+    "planning/youtube/data/d851-das-heimweh.mb.json",
+    "YouTube oEmbed: канал «Peter Schreier - Topic», длительность ролика 454 с — совпадает с MB (453 с) с точностью до округления",
+    "planning/research/singers-digest.md (карточка Schreier)"
+   ],
+   "youtube": [
+    {"videoId": "B4lyi3tUNBo", "channel": "Peter Schreier - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "ТРЕБУЕТ ДОПРОВЕРКИ: точный том Hyperion Schubert Edition и год сессии не подтверждены. Найден побочный факт (YouTube ytsearch: канал ScoreMan, ролик «Schubert, \"Blumenlied\", D.431 (Peter Schreier, Graham Johnson)») — подтверждает, что пара Schreier/Johnson существует как минимум ещё в одном номере, что косвенно усиливает атрибуцию к изданию Hyperion, но не заменяет прямую проверку по каталогу."
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "не подтверждён документально (вероятно Alexander Schmalcz или Eric Schneider — оба пианисты Matthias Goerne Schubert Edition; неверифицировано)",
+   "rec_year": "2008–2014 (в пределах записи 12-томного свода)",
+   "year_source": "planning/research/singers-digest.md («Matthias Goerne Schubert Edition — harmonia mundi, 2008–2014, 12 томов, бокс 2016»); точная сессия и том для именно этой песни не подтверждены — доступ к harmoniamundi.com дал 403 в рамках сессии.",
+   "album": "Matthias Goerne Schubert Edition (harmonia mundi, бокс 2016)",
+   "label": "harmonia mundi",
+   "age_voice": "41–47 лет — в пределах пика по дайджесту (~1997–2015).",
+   "reputation": "«Самый записываемый шубертовский баритон поколения» (singers-digest.md). Отдельной рецензии на эту песню не найдено.",
+   "sources": [
+    "planning/research/singers-digest.md (карточка Goerne, карточка сквозного издания)",
+    "YouTube oEmbed: канал «Matthias Goerne - Topic»"
+   ],
+   "youtube": [
+    {"videoId": "gL4_EG7M7RU", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Пианист не подтверждён напрямую — эта запись НЕ входит в 4 записи MusicBrainz (там для Goerne есть только запись с Ingo Metzmacher, см. отдельный пункт ниже); идентифицирована только по официальному YouTube Topic-каналу и совпадению с шубертовским сводом Goerne по дайджесту."
+  },
+  {
+   "singer": "Matthias Goerne (оркестровая версия — не основной формат для топ-5, справочно)",
+   "pianist": "—",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz, recording «Das Heimweh, D. 851», Matthias Goerne / Ingo Metzmacher (d851-das-heimweh.mb.json); YouTube-заголовок уточняет: «Arr. Schmalcz for Baritone and Chamber Orchestra».",
+   "album": "не установлен (вероятно, оркестровый Schubert-проект Гёрне; Ingo Metzmacher — дирижёр, не пианист)",
+   "label": "не установлен",
+   "age_voice": "не установлен (зависит от года)",
+   "reputation": "Не найдено. Формат (голос + камерный оркестр в обработке Schmalcz, дирижёр Metzmacher) отличается от стандартного дуэта голос+рояль — низкий приоритет для топ-5 по формату, но факт существования зафиксирован.",
+   "sources": [
+    "planning/youtube/data/d851-das-heimweh.mb.json",
+    "YouTube oEmbed: канал «Matthias Goerne - Topic»"
+   ],
+   "youtube": [
+    {"videoId": "JiktGcnJapQ", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Единственная запись Гёрне, зафиксированная в MusicBrainz для этой песни (4 записи всего). Оркестровая версия — справочно, вероятный кандидат на исключение из топ-5 в пользу фортепианной версии того же певца (см. предыдущий пункт) или других кандидатов."
+  },
+  {
+   "singer": "Samuel Hasselhorn",
+   "pianist": "Ammiel Bushakevitz",
+   "rec_year": "запись 2023–2024 (точная дата сессии не установлена); издание 28.02.2025",
+   "year_source": "planning/youtube/albums.md (реестр альбомов, строка Hasselhorn «Licht und Schatten»); planning/research/singers-digest.md.",
+   "album": "Schubert: Licht und Schatten – Lieder & Dances (harmonia mundi HMM902747, проект «Schubert 200», том 2)",
+   "label": "harmonia mundi",
+   "age_voice": "~33–34 года (р. 1990) — восходящая звезда, начало зрелой карьеры; спада формы не зафиксировано.",
+   "reputation": "Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik — по реестру planning/youtube/albums.md. Альбом целиком посвящён песням 1824–1826 годов и прямо включает D 851. Правило скепсиса к пиару современных: премии зафиксированы по реестру (не по маркетинговым материалам), но независимого сравнительного обзора конкретно на D 851 не найдено — редкость песни делает отдельные рецензии на неё маловероятными в принципе.",
+   "sources": [
+    "planning/youtube/albums.md (строка Hasselhorn «Licht und Schatten», раздел D 799 — «Песни пилота: … D 851 …»)",
+    "planning/research/singers-digest.md (карточка Hasselhorn, карточка проекта «Schubert 200»)",
+    "planning/youtube/data/d851-das-heimweh.mb.json (recording Hasselhorn/Bushakevitz, 477 с)"
+   ],
+   "youtube": [
+    {"videoId": "56xJsYVtvnE", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Самая новая и лучше всего документированная запись в пуле — единственная с прямым подтверждением критических наград по уже верифицированному реестру альбомов."
+  },
+  {
+   "singer": "Daniel Johannsen",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не найден — происхождение ролика (концертная запись/альбом) не подтверждено.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "не установлен",
+   "reputation": "Австрийский тенор, специализируется на камерном пении (по названию канала); не упоминается в singers-digest.md; не приоритетный и не звёздный исполнитель по правилам проекта. Репутация не установлена независимыми источниками в рамках сессии.",
+   "sources": [
+    "planning/youtube/data/d851-das-heimweh.yt.json (generic-поиск)"
+   ],
+   "youtube": [
+    {"videoId": "lhJeTOZCz-k", "channel": "Daniel Johannsen · Tenor", "official": false, "oembed_ok": true}
+   ],
+   "note": "Личный авторский канал исполнителя, не Topic и не лейбл. Длительность 442 с (близко к диапазону остальных версий), но происхождение записи (студия/концерт/альбом) не подтверждено. Вероятный кандидат на исключение из топ-5 при итоговом отборе — включён в пул для полноты, поскольку значительный корпус кандидатов на эту редкую песню и так предельно мал (4 записи по MusicBrainz)."
+  }
+ ],
+ "priority_singers_checked": {
+  "Quasthoff": "Не найдено — отрицательный результат. Среди 6 шубертовских альбомов Квасthoffа (Goethe-Lieder, Winterreise, Schwanengesang, Lieder с оркестром, Müllerin, Winterreise-фильм — singers-digest.md) Das Heimweh D 851 не значится; в MusicBrainz-дискографии песни (4 записи, d851-das-heimweh.mb.json) Квасthoff отсутствует.",
+  "Fischer-Dieskau": "Да, записал — DG «Sämtliche Lieder» с Gerald Moore, 1966–1972 (MusicBrainz work 58db792b-e0c9-47cb-a78c-6f8979dfc774; planning/youtube/albums.md).",
+  "Schwarzkopf": "Не найдено — отрицательный результат. Отсутствует в MusicBrainz-дискографии песни (4 записи); в singers-digest.md её репертуар не упоминает D 851. Единственный найденный YouTube-ролик с её именем рядом со словом «Heimweh»-тематикой относится к ДРУГОЙ песне (D 800 «Der Einsame»), не к D 851.",
+  "Hotter": "Не найдено — отрицательный результат. Отсутствует в MusicBrainz-дискографии песни и в singers-digest.md.",
+  "Anders": "Не найдено — отрицательный результат. Аналогично отсутствует в дискографии и дайджесте.",
+  "E. Schumann": "Не найдено для D 851 — отрицательный результат. Единственный найденный ролик с её именем и словом «Heimweh» относится к ДРУГОЙ песне — D 456 (текст Leitner), не к D 851 (текст Pyrker); подтверждает необходимость строго различать одноимённые песни.",
+  "Ludwig": "Не найдено — отрицательный результат. Отсутствует в MusicBrainz-дискографии песни и в singers-digest.md.",
+  "Popp": "Не найдено — отрицательный результат. Отсутствует в MusicBrainz-дискографии песни и в singers-digest.md."
+ },
+ "albums_facts": [
+  {
+   "album": "Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD)",
+   "singer": "Dietrich Fischer-Dieskau",
+   "year": "1966–1972",
+   "label": "Deutsche Grammophon",
+   "facts": "Сессии 1966–1972, Ufa-Ton-Studio Berlin; пианист Gerald Moore; полный свод мужских песен Шуберта (женские, включая Gretchen D 118, сознательно исключены). Уже задокументирован в planning/youtube/albums.md как базовый источник для любой мужской песни пилота.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Samuel Hasselhorn — Schubert: Licht und Schatten (harmonia mundi HMM902747)",
+   "singer": "Samuel Hasselhorn",
+   "year": "запись 2023–2024, издание 28.02.2025",
+   "label": "harmonia mundi",
+   "facts": "Проект «Schubert 200», том 2; пианист Ammiel Bushakevitz. Альбом посвящён песням 1824–1826 годов — покрывает почти весь пилотный раздел, включая D 851 напрямую. Награды: Diapason d'or de l'année 2025, Bestenliste 2/2025 Preis der deutschen Schallplattenkritik. Уже задокументирован в planning/youtube/albums.md (раздел D 799).",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Matthias Goerne Schubert Edition (harmonia mundi, 12 томов, бокс 2016)",
+   "singer": "Matthias Goerne",
+   "year": "2008–2014",
+   "label": "harmonia mundi",
+   "facts": "Крупнейший сольный шубертовский свод последних десятилетий; несколько пианистов внутри свода (Eschenbach, Leonskaja и др. — по singers-digest.md). Для D 851 конкретный том и пианист НЕ подтверждены в рамках сессии (см. note кандидата Goerne выше) — при следующей проверке уточнить и, если факт подтвердится, добавить строку в planning/youtube/albums.md.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Hyperion Schubert Edition (Graham Johnson), 1987–2000, 40 томов",
+   "singer": "разные певцы, в т. ч., по-видимому, Peter Schreier",
+   "year": "1987–2000 (том для Schreier не идентифицирован)",
+   "label": "Hyperion (с 2023 — Universal)",
+   "facts": "Уже задокументирован в planning/youtube/albums.md как сквозной научный эталон издания, охватывающий весь пилот. Появление Peter Schreier в этой серии как гостя-тенора — новый факт для реестра, требует подтверждения тома/года при следующей проверке.",
+   "covers_more_pilot_songs": true
+  }
+ ],
+ "surveys": [],
+ "negatives": [
+  "Ни одного сравнительного обзора (Vergleich, слепой тест, Gramophone/MusicWeb/BBC Music Magazine) конкретно на D 851 не найдено — ожидаемо для песни с 4 записями в MusicBrainz.",
+  "На YouTube много ложных срабатываний под похожими названиями, относящихся к ДРУГИМ песням — отфильтрованы: Elisabeth Schumann/Leo Rosenek (WWkWhu-pWPo, D 456), Fischer-Dieskau (p0PFQkhBqww и OLU8y2YLwTg, оба D 456), Fischer-Dieskau/Richter «Totengräbers Heimweh» (Y1DurECWjv8, D 842), Fischer-Dieskau-Topic «Totengräbers Heimweh» (7JfhKadLxqQ, D 842), Goerne/van der Waals «Totengräbers Heimweh» (ERjzaF0iZ5Y, D 842), von Otter-Topic «Totengräbers Heimweh» (P2DlscMF1_k, D 842), Hotter/Raucheisen «Totengräbers Heimweh» (6SyIlDPnBuo, D 842), Gerhaher-Topic «Totengräbers Heimweh» (vlQgCapiieM, D 842), Barron/Lahiry «Totengräbers Heimweh» (aWhw1-15pOM, D 842).",
+  "Среди 8 приоритетных исполнителей проекта только Fischer-Dieskau записал D 851; остальные семь (Quasthoff, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp) — отрицательный результат (см. priority_singers_checked).",
+  "Техническое ограничение сессии: бюджет WebSearch (200/200) был исчерпан до начала работы над этой песней; повторные обращения к musicbrainz.org напрямую (curl и WebFetch) заканчивались сетевой ошибкой; prestomusic.com, harmoniamundi.com, allmusic.com отдавали 403; органическая выдача google.com/bing.com/duckduckgo.com была недоступна (редиректы на consent/CAPTCHA, пустая выдача). Это ограничило независимую проверку тома Hyperion для Schreier/Johnson и пианиста во второй записи Goerne — оба факта помечены как неподтверждённые в соответствующих note."
+ ]
+}

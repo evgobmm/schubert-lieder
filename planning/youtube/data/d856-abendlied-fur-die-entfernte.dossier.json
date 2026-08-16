@@ -1,0 +1,184 @@
+{
+  "d": "856",
+  "title": "Abendlied für die Entfernte",
+  "tier": "rare",
+  "pool_note": "Полный фонд значительных записей исчерпан по MusicBrainz (3 recordings) + подтверждён кросс-проверкой YouTube (яndex generic-поиск и целевые yt-dlp запросы): всего 6 реально найденных исполнений. Слепых тестов, klassik-prisma Vergleich и других сравнительных обзоров по этой редкой песне НЕ найдено (см. surveys/negatives) — поисковый бюджет WebSearch сессии исчерпан (200/200) до начала работы над этим досье, доступ к обычным поисковикам через WebFetch заблокирован (CAPTCHA/consent-редиректы), прямой сетевой доступ к musicbrainz.org и части профильных сайтов (Discogs, PrestoMusic, JPC, Naxos-каталог) из песочницы недоступен (fetch failed / 403); использованы WebFetch на конкретные страницы, которые оказались доступны (Hyperion CDJ33006, de.wikipedia.org), и метаданные описаний YouTube-Topic-загрузок (поле 'Provided to YouTube by...' — это официальные лейбловые метаданные дистрибьютора, не архивные/фанатские, поэтому расценены как приемлемый источник альбома/лейбла, но НЕ года записи).",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (точная сессия не установлена; входит в общий свод)",
+      "year_source": "planning/youtube/albums.md: DG «Sämtliche Lieder» (21 CD) — сессии 1966–1972, Ufa-Ton-Studio Berlin, эдиции 1969/1970/1972. YouTube-описание видео (Universal Music Group) подтверждает альбомный контекст: «Schubert: Lieder; Die schöne Müllerin, D.795; Winterreise, D.911; Schwanengesang, D.957» — то есть трек из большого свода DG, не из отдельного тематического релиза.",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "В диапазоне 1966–1972 ФД — 41–47 лет; по дайджесту пик ФД ~1951–1972, т.е. запись сделана на самом излёте пика/пограничье («с сер. 1970-х тон суше» — данная запись раньше этого рубежа).",
+      "reputation": "Отдельных рецензий на конкретно эту песню не найдено (не входит в число «хитов» цикла, обзоров/слепых тестов по ней нет). Общая репутация свода ФД/Мур как эталонного корпуса мужских песен Шуберта устоялась (см. дайджест: «лучший охват среди всех», база отсчёта для любой мужской песни пилота).",
+      "sources": [
+        "planning/youtube/albums.md (раздел «Основные издания»)",
+        "planning/research/singers-digest.md (карточка Fischer-Dieskau)",
+        "YouTube-описание видео m-rtd_g6Gw8 (метаданные Universal Music Group)"
+      ],
+      "youtube": [
+        {"videoId": "m-rtd_g6Gw8", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "UuD0UN9hxWQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "MyTlpL8mXTc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный приоритетный певец (из списка правил), для которого запись этой песни подтверждена. Три videoId идентичны по длительности (334с) и, вероятно, являются дублями одной студийной записи, залитыми на канал в разное время (разные view_count: 350/629/2355) — оставлен один для практического выбора, остальные для полноты."
+    },
+    {
+      "singer": "Christian Gerhaher (баритон, р. 1969)",
+      "pianist": "Gerold Huber",
+      "rec_year": "не установлена; альбом издан в 2014",
+      "year_source": "de.wikipedia.org/wiki/Christian_Gerhaher: альбом «Nachtviolen» (Schubert, смешанные песни), Sony Classical, релиз 2014, Gramophone Award 2015. YouTube-описание (Sony Classical) подтверждает альбом «Nachtviolen — Schubert: Lieder».",
+      "album": "Nachtviolen — Schubert: Lieder",
+      "label": "Sony Classical / RCA Red Seal",
+      "age_voice": "В 2014 Герхаэру ~44–45 лет — середина заявленного в дайджесте пика (~2000–наст.).",
+      "reputation": "Gramophone Award 2015 (награда всему альбому, не конкретно этой песне). Пресса называет Герхаэра «высшим текстовиком современности» — правило проекта требует скепсиса к такому пиару; отдельной оценки именно этой песни не найдено.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Christian_Gerhaher (проверено WebFetch)",
+        "YouTube-описание видео wEPnYiGqOx8 (метаданные Sony Classical)"
+      ],
+      "youtube": [
+        {"videoId": "wEPnYiGqOx8", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Современный кандидат; единственный на роль «недавняя запись» (не ранее 2015) в составе топ-5 при этом НЕ подходит по году (2014) — на грани, требует решения на этапе ранжирования."
+    },
+    {
+      "singer": "Anthony Rolfe Johnson (тенор, 1940–2010)",
+      "pianist": "Graham Johnson",
+      "rec_year": "сентябрь 1989",
+      "year_source": "hyperion-records.co.uk, страница CDJ33006 (проверено WebFetch): «Recorded: September 1989, Rosslyn Hill Unitarian Chapel, Hampstead, London»; релиз декабрь 1990.",
+      "album": "The Hyperion Schubert Edition, Vol. 6 — Schubert & the Nocturne, Vol. 1 (все колыбельные и баркаролы)",
+      "label": "Hyperion (с 2023 — Universal/Topic)",
+      "age_voice": "В сентябре 1989 Роулф Джонсону 49 лет. Певец не входит в дайджест фонда (не в числе разобранных карточек) — состояние голоса в этом возрасте отдельно не верифицировано; общеизвестно как один из ведущих британских тенор-лидеров того времени (Britten-школа), без признаков резкого спада к 1989.",
+      "reputation": "Часть научно-эталонного свода Грэма Джонсона (по дайджесту — «научный эталон» издания в целом); отдельных рецензий/сравнений именно на эту песню не найдено.",
+      "sources": [
+        "http://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33006 (проверено WebFetch)",
+        "YouTube-описание видео 3eqJ1wO9fdo (метаданные Universal Music Group)"
+      ],
+      "youtube": [
+        {"videoId": "3eqJ1wO9fdo", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Часть Hyperion Complete Songs — крупнейшего научного свода; тематически альбом («Шуберт и ноктюрн») прямо подходит вечерней песне D 856."
+    },
+    {
+      "singer": "Markus Schäfer (тенор)",
+      "pianist": "предположительно Ulrich Eisenlohr (не подтверждено индивидуально для этого тома)",
+      "rec_year": "не установлена (не удалось найти дискографический источник в доступных условиях)",
+      "year_source": "не найдена точная дата; известно только по YouTube-описанию (NAXOS of America): альбом «Schubert: Lied Edition 25 — Romantic Poets, Vol. 2».",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2»",
+      "label": "Naxos",
+      "age_voice": "не верифицировано (певец отсутствует в singers-digest; попытки достать биографическую страницу через WebFetch не дали результата — 404/недоступно)",
+      "reputation": "Не найдено отдельных рецензий на эту запись/певца в доступных условиях (наxos-каталог, jpc, prestomusic — недоступны из песочницы: 403/404/ошибки).",
+      "sources": [
+        "YouTube-описание видео ljSagbgobnw (метаданные NAXOS of America)",
+        "planning/youtube/albums.md — по аналогии: пианист серии Naxos DSLE обычно Ulrich Eisenlohr (не подтверждено для конкретно этого тома)"
+      ],
+      "youtube": [
+        {"videoId": "ljSagbgobnw", "channel": "Markus Schäfer - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Слабо verified кандидат — включён для полноты пула, но фактической базы для топ-5 недостаточно без дополнительного исследования (год записи, пианист, критика не найдены)."
+    },
+    {
+      "singer": "Jasper Schweppe (баритон)",
+      "pianist": "Riko Fukuda (фортепиано/хаммерклавир)",
+      "rec_year": "не установлена",
+      "year_source": "не найдена; только YouTube-описание (дистрибьютор 'The-Source'): альбом «Schubert: Lieder, Vol. 7: Op. 87-95» (издание по опусам, историческое фортепиано).",
+      "album": "Schubert: Lieder, Vol. 7: Op. 87–95",
+      "label": "не установлен (дистрибьютор YouTube-загрузки — 'The-Source'; не факт, что это сам лейбл)",
+      "age_voice": "не верифицировано; певец и пианистка отсутствуют в singers-digest",
+      "reputation": "Не найдено (нишевый проект полного издания по опус-номерам на историческом инструменте; самый низкий охват на YouTube среди кандидатов — 39 просмотров)",
+      "sources": [
+        "YouTube-описание видео ASpkGDHj4XE"
+      ],
+      "youtube": [
+        {"videoId": "ASpkGDHj4XE", "channel": "Riko Fukuda - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Минимально verified; слабейший кандидат пула по доступным данным — практически без критической репутации и почти без охвата."
+    },
+    {
+      "singer": "Georg Poplutz (тенор)",
+      "pianist": "Hilko Dumno",
+      "rec_year": "2017 (год издания; точная сессия не установлена)",
+      "year_source": "de.wikipedia.org/wiki/Georg_Poplutz (проверено WebFetch): «Georg Poplutz (Tenor), Hilko Dumno (Klavier). Spektral, 2017» — альбом «Lieder an die Entfernte» (Beethoven, Schubert, Schumann).",
+      "album": "Schubert, Beethoven & Schumann: Lieder an die Entfernte",
+      "label": "Spektral (дистрибуция на YouTube — The Orchard Enterprises)",
+      "age_voice": "не верифицировано (год рождения певца не установлен точно — немецкая Википедия указывает только место рождения Arnsberg; певец отсутствует в singers-digest)",
+      "reputation": "Не найдено отдельных рецензий/сравнений; тематически альбом прямо посвящён циклу песен об «удалённой возлюбленной» (Beethoven An die ferne Geliebte + шубертовские «Entfernte»-песни), что делает его тематически цельным, но не гарантирует исполнительский уровень топ-5.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Georg_Poplutz (проверено WebFetch)",
+        "YouTube-описание видео FiFAbou_6sg (метаданные The Orchard Enterprises)"
+      ],
+      "youtube": [
+        {"videoId": "FiFAbou_6sg", "channel": "Georg Poplutz - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Современный тематический альбом (2017); критической репутации не найдено — кандидат слабо подтверждён."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "НЕ записывал — не найдено ни в MusicBrainz (3 recordings, ни один не его), ни в singers-digest (карточка не упоминает эту песню), ни целевым yt-dlp поиском «Quasthoff Abendlied für die Entfernte» (ничего его канала в топ-5 выдачи).",
+    "Fischer-Dieskau": "Записал — Gerald Moore, входит в DG «Sämtliche Lieder» (1966–1972). См. carto candidates[0].",
+    "Schwarzkopf": "НЕ записывал(а) — не найдено в MB, singers-digest, целевом поиске; единственное совпадение по имени в generic YT-поиске (zHOqJwk3L7E, «Der Musensohn Op. 92/D 856») — ошибка метаданных загрузки (Musensohn на самом деле D 764, не D 856), релевантным исполнением не является.",
+    "Hotter": "НЕ записывал — не найдено в MB, singers-digest, целевом поиске.",
+    "Anders": "НЕ записывал — не найдено в MB, singers-digest, целевом поиске (выдача — другие его записи, An die Entfernte D 765 и Jägers Abendlied, но не D 856).",
+    "E. Schumann (Elisabeth Schumann)": "НЕ записывал(а) — не найдено в MB, singers-digest, целевом поиске.",
+    "Ludwig (Christa Ludwig)": "НЕ записывал(а) — не найдено в MB, singers-digest, целевом поиске.",
+    "Popp (Lucia Popp)": "НЕ записывал(а) — не найдено в MB, singers-digest, целевом поиске."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–1972 (сессии)",
+      "label": "Deutsche Grammophon",
+      "facts": "Уже в реестре planning/youtube/albums.md как основное издание. Полный свод мужских песен Шуберта с Gerald Moore.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Nachtviolen — Schubert: Lieder",
+      "singer": "Christian Gerhaher",
+      "year": "издание 2014",
+      "label": "Sony Classical",
+      "facts": "Gramophone Award 2015. Уже упомянут в singers-digest (карточка Gerhaher: «Nachtviolen (Sony 2014)»); НЕ было в реестре albums.md — стоит добавить отдельной строкой для песен раздела 1824–25, если он покрывает другие песни пилота (не проверено).",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 6 — Schubert & the Nocturne, Vol. 1",
+      "singer": "Anthony Rolfe Johnson",
+      "year": "сентябрь 1989 (сессия), декабрь 1990 (релиз)",
+      "label": "Hyperion",
+      "facts": "Rosslyn Hill Unitarian Chapel, Hampstead, London. Тематический том — все колыбельные и баркаролы Шуберта. НЕ в реестре albums.md (там упомянуты только другие тома Hyperion — Baker т.1, Ameling т.7, Auger т.9 и т.д.). Новый том для реестра, если покрывает другие песни пилота (не проверено).",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2»",
+      "singer": "Markus Schäfer",
+      "year": "не установлен",
+      "label": "Naxos",
+      "facts": "Минимально подтверждено; не удалось получить страницу каталога Naxos (403/недоступно) для деталей.",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "Schubert: Lieder, Vol. 7: Op. 87–95",
+      "singer": "Jasper Schweppe / Riko Fukuda",
+      "year": "не установлен",
+      "label": "не установлен (дистрибьютор 'The-Source')",
+      "facts": "Нишевый проект полного издания по опусам на историческом фортепиано; минимум данных.",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "Schubert, Beethoven & Schumann: Lieder an die Entfernte",
+      "singer": "Georg Poplutz",
+      "year": "2017",
+      "label": "Spektral",
+      "facts": "Тематическая программа вокруг мотива «удалённой возлюбленной» у трёх композиторов.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [],
+  "negatives": [
+    "Слепых тестов/сравнительных обзоров (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC Music Magazine) по этой конкретной песне НЕ найдено — обычный для 'rare'-яруса результат, но также следствие того, что WebSearch-бюджет сессии был исчерпан (200/200) ДО начала работы над этим досье, а обычные поисковики (Google/Bing/DuckDuckGo/Marginalia) через WebFetch либо блокируют выдачу (consent-редиректы, CAPTCHA), либо возвращают нерелевантные локализованные результаты. Это ограничивает полноту дайджеста критики для 4 из 6 кандидатов (Schäfer, Fukuda/Schweppe, Poplutz — почти нет данных; Rolfe Johnson и Gerhaher — только альбомный контекст, не построчная критика).",
+    "Прямой сетевой доступ (curl/node fetch) к musicbrainz.org, discogs.com, jpc.de (частично), prestomusic.com, naxos.com/CatalogueDetail из песочницы систематически не работает (fetch failed / 403) — данные о годах записи для Schäfer, Fukuda/Schweppe получены НЕ из полноценной дискографии, а только из метаданных YouTube-Topic описаний (альбом+лейбл), что ниже стандарта верификации правил (§ 'Верификация данных о записях'). Требуется дополнительная попытка при следующем заходе (другая сессия/среда) или явное решение исключить эти 2 кандидатов из топ-5 как недостаточно verified.",
+    "Приоритетные певцы, кроме Фишер-Дискау, песню НЕ записывали (см. priority_singers_checked) — подтверждено по MB + singers-digest + целевым yt-dlp запросам."
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "d": "843",
+  "title": "Lied des gefangenen Jägers (Mein Roß so müd), D 843 — Op. 52 No. 7, из цикла «7 Gesänge aus Walter Scotts Fräulein vom See»",
+  "tier": "rare",
+  "research_date": "2026-08-16",
+  "method_note": "Пул собран из MusicBrainz (work 091e4470-feaa-4dd0-a992-e53b43e167ae, 8 recordings / 5 различных пар исполнителей), generic YouTube-поиска, дополнительного точечного поиска по недостающим исполнителям (Hasselhorn, Hampson), официальных YouTube-Topic-описаний («Provided to YouTube») для идентификации альбома/лейбла/℗-года и страницы hyperion-records.co.uk (том 14 = Hampson/Johnson, том 7 Naxos = Trekel/Eisenlohr — подтверждено датой сессии на самой странице Hyperion). ВАЖНО: сессия — WebSearch исчерпал квоту (200/200) в начале работы; поисковые движки (Google/Bing/DuckDuckGo/Marginalia) блокировали автоматический доступ через WebFetch (капча/JS/403). Из-за этого часть фактов (точная дата live-записи Bostridge, происхождение указания «1958» у EMI-записи FiDi) подтверждена только официальными label-метаданными YouTube (Provided to YouTube/Warner/Universal — это метаданные лейбла, размещающего запись, не случайная фан-атрибуция) и одной независимой фан-подписью с точными датами сессии, а не буклетом/CHARM/Discogs напрямую — это явно помечено в year_source каждой записи. Год ℗ на официальном Topic-канале обычно совпадает с годом первого издания альбома лейблом (не путать со случайными архивными аплоадами, которые правила прямо запрещают как источник).",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "23–25 мая 1958, студия, Берлин",
+      "year_source": "Точные даты сессии (23–25.V.1958, Берлин) указаны в подписи фан-канала «incontrario motu» — это не источник по правилам, НО совпадает с ℗-годом (1958) на официальном альбоме «Schubert: Lieder Vol. 4», отданном тем же продюсером Christfried Bickenbach (Warner Classics/Parlophone, метаданные YouTube-Topic-канала «Dietrich Fischer-Dieskau - Topic», видео vW_QloDbMvU: «℗ A Warner Classics release, ℗ 1958, 2011 Parlophone Records Limited», Producer: Christfried Bickenbach). Совпадение независимых указаний года (label ℗ + подпись фан-канала) даёт разумную уверенность, но буклет/CHARM не проверены напрямую.",
+      "album": "Schubert: Lieder Vol. 4 (серия EMI/HMV сольных Lieder-альбомов Fischer-Dieskau/Moore рубежа 1950-х; переиздана Warner Classics)",
+      "label": "EMI (Electrola/HMV), переиздание Warner Classics",
+      "age_voice": "33 года. По дайджесту фонда пик Фишера-Дискау — ~1951–1972, сухость появляется только с середины 1970-х; 1958 год — свежий, ранний период пика, тот же продюсер Bickenbach, что и на альбомах Hotter EMI начала 1950-х (реестр albums.md).",
+      "reputation": "Отдельная критика именно на эту редкую песню не найдена (поисковые системы недоступны в сессии); общая репутация серии EMI Lieder Vol. 1–4 Fischer-Dieskau/Moore как эталонной для мужской Lied-классики общеизвестна и подтверждается статусом переиздания в каталоге Warner Classics.",
+      "sources": [
+        "planning/youtube/data/d843-lied-des-gefangenen-jagers.mb.json (MusicBrainz: работа 091e4470-feaa-4dd0-a992-e53b43e167ae, recording Fischer-Dieskau/Moore)",
+        "YouTube официальные метаданные (yt-dlp), видео vW_QloDbMvU, канал «Dietrich Fischer-Dieskau - Topic»: альбом «Schubert: Lieder Vol. 4», ℗ 1958/2011, Producer Christfried Bickenbach",
+        "YouTube, видео DhUJvPmSS6s, канал «incontrario motu»: подпись «Studio recording, Berlin, 23-25.V.1958» (не дискографический источник, приведено для сверки)",
+        "planning/research/singers-digest.md (карточка Fischer-Dieskau)"
+      ],
+      "youtube": [
+        {"videoId": "vW_QloDbMvU", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "официальная загрузка альбома Vol. 4, 173 с"},
+        {"videoId": "DhUJvPmSS6s", "channel": "incontrario motu", "official": false, "oembed_ok": true, "note": "173 с, 6089 просмотров; та же запись (совпадение длительности), полезна как независимая датировка сессии"}
+      ],
+      "note": "Ранняя из двух версий FiDi/Moore — приоритет по правилу «при прочих равных предпочитать более раннюю»."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "сессии свода DG «Sämtliche Lieder» 1966–1972; конкретно этот трек — на альбоме «Schubert: Lieder (Vol. 2)», ℗ 1969",
+      "year_source": "Метаданные официального YouTube-Topic-канала (yt-dlp, видео 48t-soztDQc): «Provided to YouTube by Universal Music Group», альбом «Schubert: Lieder (Vol. 2)», «℗ 1969 Deutsche Grammophon GmbH, Berlin», продюсер Rainer Brock; согласуется с диапазоном сессий полного свода DG 1966–1972, документированным в реестре planning/youtube/albums.md.",
+      "album": "Schubert: Lieder (Vol. 2) — часть DG «Sämtliche Lieder» (21 CD, сессии 1966–1972, Ufa-Ton-Studio Berlin)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "ок. 44 лет (при выходе Vol. 2 в 1969). По дайджесту — ещё поздний пик, сухость тона начинается лишь с середины 1970-х.",
+      "reputation": "Свод DG 1966–72 общепризнан как базовая точка отсчёта для любой мужской песни Шуберта (планing/youtube/albums.md, планing/research/singers-digest.md) — на нём держится авторитет самой полной мужской Lieder-дискографии.",
+      "sources": [
+        "planning/youtube/data/d843-lied-des-gefangenen-jagers.mb.json",
+        "YouTube официальные метаданные (yt-dlp), видео 48t-soztDQc, канал «Dietrich Fischer-Dieskau - Topic»: альбом «Schubert: Lieder (Vol. 2)», ℗ 1969 DG",
+        "planning/youtube/albums.md (запись про DG «Sämtliche Lieder», сессии 1966–1972, Ufa-Ton-Studio Berlin)"
+      ],
+      "youtube": [
+        {"videoId": "48t-soztDQc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "175 с, альбом Schubert: Lieder Vol. 2"},
+        {"videoId": "kcjkE94Ot-M", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "175 с, дубль-загрузка того же трека (другое издание/сборник)"},
+        {"videoId": "CRn5h2hdSQU", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "169 с — версия из более позднего цифрового сборника «7 Gesänge aus Walter Scotts...»"}
+      ],
+      "note": "Более поздняя из двух версий FiDi/Moore, но всё ещё в пределах пика; часть монументального полного свода — может служить резервным/альтернативным выбором к записи 1958 года."
+    },
+    {
+      "singer": "Thomas Hampson (баритон)",
+      "pianist": "Graham Johnson",
+      "rec_year": "октябрь 1991",
+      "year_source": "Страница альбома на hyperion-records.co.uk (dc.asp?dc=D_CDJ33014): «Recording Details: Date: October 1991, Venue: Rosslyn Hill Unitarian Chapel, Hampstead, London, Pianist: Graham Johnson» — совпадает с исполнительским составом Hampson/Johnson по MusicBrainz для этой работы; том 14 в перечне серии на dc.asp?dc=D_CDS44201/40 подписан именно как «Thomas Hampson».",
+      "album": "The Hyperion Schubert Edition, Vol. 14",
+      "label": "Hyperion (переиздание Universal Music, официально на YouTube с 2023)",
+      "age_voice": "36 лет. Карточки Хэмпсона нет в singers-digest.md (не входит в число ранее исследованных певцов); общеизвестно, что начало 1990-х — период его сольной оперно-концертной зрелости.",
+      "reputation": "Gramophone о томе 14: «The readings, with Johnson's piano at its probing best, are constantly enlightening and carry the absorbed listener into a rarefied world of word and music» (цитата с общей страницы альбома, не привязана к конкретному треку). CDReview: «Many of the songs here, as on all the discs, are masterpieces, and wonder and gratitude are unabated» (тоже общая оценка тома, не песни).",
+      "sources": [
+        "http://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33014 (дата и место сессии, цитаты критиков)",
+        "http://www.hyperion-records.co.uk/dc.asp?dc=D_CDS44201/40 (перечень 37 томов серии: Vol. 14 = Thomas Hampson)",
+        "planning/youtube/data/d843-lied-des-gefangenen-jagers.mb.json (MusicBrainz: recording Hampson/Johnson)"
+      ],
+      "youtube": [
+        {"videoId": "GJGcPHEU5t8", "channel": "Thomas Hampson - Topic", "official": true, "oembed_ok": true, "note": "211 с; official audio с 2023 (Universal)"}
+      ],
+      "note": "Часть научного эталонного свода Джонсона (комментированное издание); Гэмпсон — не в реестре приоритетных певцов проекта, но том специально посвящён этой части репертуара (мужские баллады/баритон)."
+    },
+    {
+      "singer": "Christoph Prégardien (тенор)",
+      "pianist": "Michael Gees",
+      "rec_year": "℗ 1996 (сессии — Hartwig Paulsen, звукоинженер; точная дата сессии не найдена)",
+      "year_source": "Метаданные официального YouTube-Topic-канала (yt-dlp, видео myLDYEhEnSQ): «Provided to YouTube by Warner Classics… Schubert: Lieder von Abschied und Reise… ℗ A Warner Classics release, ℗ 1996 Warner Music Group Germany Holding GmbH», Producer Gerd Berg, Engineer Hartwig Paulsen. Согласуется с albums.md, где та же пара Prégardien/Gees и тот же альбом уже упомянуты (там год записи был отмечен как неустановленный — теперь уточнён ℗-годом 1996).",
+      "album": "Schubert: Lieder von Abschied und Reise",
+      "label": "Challenge Classics/Warner (издание переиздано Warner Classics)",
+      "age_voice": "ок. 40 лет. По дайджесту пик Прегардьена — ~1990–2012; 1996 год — уверенно внутри пика.",
+      "reputation": "Прегардьен — один из ведущих Lieder-теноров своего поколения (дайджест: его Müllerin получила Gramophone Editor's Choice и MIDEM Record of the Year 2009); этот конкретный альбом посвящён теме прощания и странствия — тематически близок к «песне пленного охотника».",
+      "sources": [
+        "YouTube официальные метаданные (yt-dlp), видео myLDYEhEnSQ, канал «Christoph Prégardien - Topic»",
+        "planning/youtube/albums.md (запись про альбом «Schubert: Lieder von Abschied und Reise», Prégardien/Gees, Challenge Classics)",
+        "planning/youtube/data/d843-lied-des-gefangenen-jagers.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "myLDYEhEnSQ", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true, "note": "168 с, official audio"}
+      ],
+      "note": "Единственный теноровый кандидат в пуле — расширяет тембровый состав пятёрки."
+    },
+    {
+      "singer": "Roman Trekel (баритон)",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "℗ 2002 (издание 14 февраля 2002)",
+      "year_source": "Метаданные официального YouTube-Topic-канала (yt-dlp, видео JBpZXs9-zyo): «Provided to YouTube by NAXOS of America… Schubert: Lied Edition 7 - European Poets, Vol. 1… ℗ 2002 Naxos… Released on: 2002-02-14», Producer Pauline Heister, Engineer Wolfgang Karreth. Совпадает с уже задокументированным в albums.md томом 7 Naxos Deutsche Schubert-Lied-Edition (там же — версия Ziesak для D 839).",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1» (8.554…, точный номер по albums.md не указан)",
+      "label": "Naxos",
+      "age_voice": "39 лет. По дайджесту пик Трекеля — 1990-е–2000-е; 2002 — внутри пика.",
+      "reputation": "Часть немецкоязычного полного свода Naxos под руководством Eisenlohr — систематический, дискографически полный охват репертуара, включая редкие песни за пределами исполнительского канона; отдельных рецензий на конкретный трек не найдено (поисковые системы недоступны).",
+      "sources": [
+        "YouTube официальные метаданные (yt-dlp), видео JBpZXs9-zyo, канал «Roman Trekel - Topic»",
+        "planning/youtube/albums.md (том 7 Naxos, февраль 2002, для D 839/Ziesak — тот же выпуск серии)",
+        "planning/youtube/data/d843-lied-des-gefangenen-jagers.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "JBpZXs9-zyo", "channel": "Roman Trekel - Topic", "official": true, "oembed_ok": true, "note": "179 с, official audio"}
+      ],
+      "note": "Немецкоязычная «научная» линия издания — альтернатива Hyperion-подходу Джонсона."
+    },
+    {
+      "singer": "Samuel Hasselhorn (баритон)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "издание 28 февраля 2025 (проект «Schubert 200», т. 2 «Licht und Schatten»); точная дата сессии не найдена",
+      "year_source": "Метаданные официального YouTube-Topic-канала (yt-dlp, видео lW5jMmnZEw8): «Provided to YouTube by PIAS… Schubert: Licht und Schatten… ℗ harmonia mundi… Released on: 2025-02-28». Совпадает с albums.md, где этот альбом уже задокументирован как том 2 проекта «Schubert 200» с песнями 1824–1826 годов; D 843 (1825) прямо укладывается в заявленный охват альбома.",
+      "album": "Schubert: Licht und Schatten (HMM902747) — проект «Schubert 200», том 2",
+      "label": "harmonia mundi",
+      "age_voice": "34–35 лет, текущий вокальный пик молодого поколения. По дайджесту: премии Diapason d'or de l'année 2025 и Preis der deutschen Schallplattenkritik (Bestenliste 2/2025) за альбомы серии.",
+      "reputation": "Свежайший значительный релиз песни (2025), приуроченный ровно к 200-летию сочинения (1825). Учитывать правило скепсиса к пиару современных исполнителей: премии престижны, но самостоятельная критика именно этого трека не найдена (поисковые системы недоступны в сессии).",
+      "sources": [
+        "YouTube официальные метаданные (yt-dlp), видео lW5jMmnZEw8, канал «Samuel Hasselhorn - Topic»",
+        "planning/youtube/albums.md (описание альбома «Licht und Schatten», проект «Schubert 200», премии)",
+        "planning/youtube/data/d843-lied-des-gefangenen-jagers.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "lW5jMmnZEw8", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true, "note": "190 с, official audio"}
+      ],
+      "note": "Единственный кандидат «не ранее 2015 года» в пуле — обязателен к рассмотрению для возрастной структуры топ-5, если качество не уступает."
+    },
+    {
+      "singer": "Ian Bostridge (тенор)",
+      "pianist": "Julius Drake",
+      "rec_year": "live, Wigmore Hall; альбом издан 2017 (точная дата концерта не найдена)",
+      "year_source": "Метаданные официального YouTube-канала артиста (yt-dlp, видео QX-ZK0Po1EY): «Provided to YouTube by The Orchard Enterprises… Schubert 3 - Wigmore Hall Live… ℗ 2017 The Wigmore Hall Trust… Released on: 2017-06-23». Это единственный источник даты — сайт Wigmore Hall и профильные обзорные издания (Gramophone, MusicWeb, Discogs) оказались недоступны для WebFetch (403/404) в этой сессии; WebSearch исчерпан. Дату сессии концерта считать НЕподтверждённой дискографически.",
+      "album": "Schubert 3 — Wigmore Hall Live",
+      "label": "Wigmore Hall Live (дистрибуция The Orchard)",
+      "age_voice": "по дайджесту не установлен точно, но не ранее 2017 → Бостридж ок. 52–53 лет; дайджест отмечает по его позднему периоду: «интеллектуально, но манернее/суше» (не привязано к конкретному году).",
+      "reputation": "Не найдена — поисковые системы недоступны в сессии; сам факт наличия записи в серии «Wigmore Hall Live» указывает на статус концертного документа лондонского Lieder-центра, но самостоятельной критической оценки трека не собрано.",
+      "sources": [
+        "YouTube официальные метаданные (yt-dlp), видео QX-ZK0Po1EY, канал «Ian Bostridge - Topic» / «Ian Bostridge»",
+        "planning/youtube/data/d843-lied-des-gefangenen-jagers.yt.json"
+      ],
+      "youtube": [
+        {"videoId": "QX-ZK0Po1EY", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "note": "181 с, official audio"}
+      ],
+      "note": "Слабее задокументирован, чем остальные кандидаты (дата и критика не верифицированы из-за недоступности поисковых систем в этой сессии); включён в пул для полноты, но не должен ранжироваться выше кандидатов с подтверждённой репутацией без дополнительной проверки в будущей сессии."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. Дайджест фонда (singers-digest.md) перечисляет ровно 6 закрытых Schubert-альбомов Квастхофа (Goethe-Lieder RCA 1993/95, Winterreise RCA 1998, Schwanengesang DG 2001, Lieder с оркестром DG 2003, Müllerin DG 2005, фильм Winterreise DVD 2005) — ни один не относится к циклу «Fräulein vom See» Op. 52; в MusicBrainz-дискографии работы (8 recordings) Квастхоф отсутствует.",
+    "Dietrich Fischer-Dieskau": "Записывал дважды: EMI/Moore 1958 (Vol. 4) и DG/Moore ~1969 (Vol. 2 свода Sämtliche Lieder). См. кандидатов 1 и 2.",
+    "Elisabeth Schwarzkopf": "НЕ записывала. Песня написана от мужского лица («пленный охотник», голос диапазона баритон/тенор для мужского персонажа); в MusicBrainz-дискографии работы певица отсутствует; в дайджесте фонда её карточка не упоминает Walter-Scott-цикл Op. 52.",
+    "Hans Hotter": "НЕ найдено. В дайджесте фонда его карточка перечисляет Winterreise (1942/1954/1961) и Schwanengesang + Lieder начала 1950-х, но не Op. 52 Walter-Scott-цикл; в MusicBrainz-дискографии работы отсутствует.",
+    "Peter Anders": "НЕ найдено. В дайджесте — Winterreise (радио 1945) и Müllerin (1945/1948); Op. 52 не упомянут; в MusicBrainz-дискографии работы отсутствует.",
+    "Elisabeth Schumann": "НЕ записывала. Песня мужская по тексту; в дайджесте её карточка (~28 песен HMV 1927–49) цикл Fräulein vom See не упоминает; в MusicBrainz-дискографии работы отсутствует.",
+    "Christa Ludwig": "НЕ найдено. В дайджесте её шубертовские рецитали EMI/DG (Ave Maria, Der Einsame и др.) не включают Op. 52 No. 7; в MusicBrainz-дискографии работы отсутствует.",
+    "Lucia Popp": "НЕ найдено. Основной шубертовский рецитал Попп (EMI 1983, Gage) по реестру albums.md включает Gretchen, Auf dem Wasser zu singen, Fülle der Liebe, Fischerweise — не эту песню; в MusicBrainz-дискографии работы отсутствует."
+  },
+  "albums_facts": [
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 14 (Thomas Hampson / Graham Johnson)",
+      "singer": "Thomas Hampson",
+      "year": "октябрь 1991",
+      "label": "Hyperion",
+      "facts": "Сессия — Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; продолжительность диска 79'23\"; Gramophone и CDReview дали положительные общие отзывы о томе (цитаты в карточке кандидата). Источник: http://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33014",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1» (Roman Trekel / Ulrich Eisenlohr)",
+      "singer": "Roman Trekel",
+      "year": "издание 14.02.2002",
+      "label": "Naxos",
+      "facts": "Тот же том уже задокументирован в albums.md применительно к другой песне (там указан для D 839/Ziesak, но в MusicBrainz данной работы фигурирует Trekel — то есть том включает песни разных певцов немецкоязычного свода). ℗ 2002 подтверждено YouTube-метаданными лейбла Naxos.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Licht und Schatten (Samuel Hasselhorn / Ammiel Bushakevitz), harmonia mundi HMM902747",
+      "singer": "Samuel Hasselhorn",
+      "year": "издание 28.02.2025",
+      "label": "harmonia mundi",
+      "facts": "Проект «Schubert 200», том 2, посвящён песням 1824–1826 гг.; уже подробно задокументирован в albums.md для D 828/D 799/D 800/D 807/D 806/D 846/D 851/D 852/D 854 — теперь подтверждено, что D 843 тоже входит в альбом (по YouTube-метаданным Topic-канала). Премии: Diapason d'or de l'année 2025, Preis der deutschen Schallplattenkritik (Bestenliste 2/2025).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder von Abschied und Reise (Christoph Prégardien / Michael Gees)",
+      "singer": "Christoph Prégardien",
+      "year": "℗ 1996",
+      "label": "Challenge Classics / Warner Classics",
+      "facts": "Уже упомянут в albums.md (раздел D 800) с пометкой «год записи не установлен» — теперь уточнён по ℗-году официального переиздания Warner (1996). Продюсер Gerd Berg, звукоинженер Hartwig Paulsen.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Vol. 4 (Dietrich Fischer-Dieskau / Gerald Moore), EMI",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессия 23–25 мая 1958 (Берлин; дата — по фан-подписи, согласуется с ℗-годом переиздания)",
+      "label": "EMI / Warner Classics",
+      "facts": "Продюсер Christfried Bickenbach — тот же продюсер, что и на альбомах Hans Hotter в EMI начала 1950-х (см. albums.md). Часть довоенной-послевоенной серии сольных Lieder-альбомов FiDi/Moore (Vol. 1–4), предшествовавшей полному своду DG 1966–72.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder (Vol. 2) — DG Sämtliche Lieder (Dietrich Fischer-Dieskau / Gerald Moore)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "℗ 1969 (в рамках сессий свода 1966–1972)",
+      "label": "Deutsche Grammophon",
+      "facts": "Уже подробно задокументирован в albums.md как базовая точка отсчёта для любой мужской песни пилота; сессии — Ufa-Ton-Studio Berlin.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "Сравнительные обзоры (klassik-prisma.de Vergleich, Gramophone Collection, MusicWeb, BBC Music Magazine) для этой конкретной редкой песни НЕ найдены — все поисковые системы (Google, Bing, DuckDuckGo, Marginalia) отказали в автоматическом доступе через WebFetch (капча/JS-редирект/403) в течение сессии, а встроенный WebSearch исчерпал квоту (200/200) до начала целевого поиска по этой песне. Единственные найденные критические цитаты — общие отзывы Gramophone/CDReview о томе 14 Hyperion (Хэмпсон), не привязанные к конкретному треку."
+  ],
+  "negatives": [
+    "Отрицательные результаты по 7 из 8 приоритетных певцов (все, кроме Fischer-Dieskau) — см. priority_singers_checked; наиболее вероятная причина для женских голосов — текст песни написан от мужского лица («пленный охотник»), это не типичный репертуар для сопрано/меццо/контральто.",
+    "Прямого доступа к странице hyperion-records.co.uk конкретно для работы D 843 (через строку поиска сайта) добиться не удалось — сайт сильно завязан на JavaScript и отдаёт статический контент только для части URL-паттернов (dc.asp с явным кодом альбома); подтверждение через связку «MusicBrainz-исполнитель + страница конкретного тома альбома» сочтено достаточным.",
+    "Discogs, Presto Music, Wigmore Hall официальный сайт — недоступны для WebFetch (403) в этой сессии; для записи Bostridge/Drake точная дата концерта осталась неподтверждённой."
+  ]
+}

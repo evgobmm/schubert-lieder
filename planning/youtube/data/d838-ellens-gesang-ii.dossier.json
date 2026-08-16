@@ -1,0 +1,334 @@
+{
+  "d": "838",
+  "title": "Ellens Gesang II (Jäger, ruhe von der Jagd)",
+  "tier": "medium",
+  "method_note": "Песня из цикла «Ellens drei Gesänge» (Op. 52, на слова Вальтера Скотта, «Fräulein vom See»), поётся от лица Эллен Дуглас — женская партия. Пул собран из MB-каркаса (10 записей работы) + generic YouTube-поиска + прицельных yt-dlp запросов по именам. Отдельной сравнительной страницы klassik-prisma для этой песни НЕТ (проверено — см. negatives), как и для сестринской D 839; в отличие от D 839, для D 838 не найдено ни одной специализированной рецензии/сравнительного обзора (Gramophone/MusicWeb/BBC Music Magazine недоступны при попытках фетча — 403/404). Бюджет WebSearch в сессии исчерпан другими параллельными потоками — веб-исследование велось через WebFetch на прямые URL и через yt-dlp; часть источников (Discogs, AllMusic, Presto, MusicWeb) недоступна для автоматического фетча (403). Многие альбомы совпадают с пулом D 839 (те же рециталы «Ellens Gesänge» целиком) — факты унаследованы из planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json, где это применимо, и перепроверены под D 838 отдельно (MB/YT-подтверждение трека).",
+  "candidates": [
+    {
+      "singer": "Elly Ameling (сопрано, р. 1933)",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1975 (август, Лондон)",
+      "year_source": "ИСПРАВЛЕНО 2026-08-16 по замечанию верификатора. Прежний источник (Discogs master 2597081, унаследован из d839-досье) ОШИБОЧЕН: этот мастер — сборник «Ave Maria (Schubert • Lieder)» 1990 г., в трек-листе которого D 838 нет (проверено: https://api.discogs.com/masters/2597081). Правильная цепочка: (1) Discogs master 848900 = Philips 9500 169 «Songs For Gretchen, Ellen, & Suleika», трек B4 «(Jäger, Ruhe Von Der Jagd), Op. 52, No. 2, D. 838» (2:59) — https://api.discogs.com/masters/848900; версии: UK 1976 (самый ранний зафиксированный релиз), DE/NL 1977, ранаут NL-прессинга «AA 9500 169 1Y 5 Ⓟ1977» — https://api.discogs.com/masters/848900/versions; (2) дата сессии — по буклету бокса Decca/Eloquence 484 4125 «Elly Ameling — The Philips Recitals» (2023), Discogs release 27731985 (https://api.discogs.com/releases/27731985): в списке «Original releases» CD 14 = [r4217024] (тот самый Philips 9500 169), в списке «Recording Locations» пункт 14 = «London, UK, August 1975»; ℗ 1977 (14, 19). Состав CD 14 в боксе (Ameling, Baldwin, баритон Meinard Kraak) совпадает с кредитами LP",
+      "album": "Philips «Songs for Gretchen, Ellen & Suleika» (Elly Ameling — The Philips Recitals, Vol. 12)",
+      "label": "Philips / Universal (Eloquence)",
+      "age_voice": "около 39–42 лет — пик (по дайджесту ~1965–1985); «самая записываемая шубертианка поколения»",
+      "reputation": "Специализированной рецензии именно на D 838 не найдено. Общая репутация дуэта Ameling/Baldwin в этой программе — одна из двух чаще всего рекомендуемых версий Шуберта-на-Скотта у специалистов (по аналогии с D 839, talkclassical); программа концептуально самая релевантная песне (единственная, целиком посвящённая Гретхен/Эллен/Сулейке).",
+      "sources": [
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат Ameling)",
+        "planning/youtube/albums.md (запись Ameling — Philips «Songs for Gretchen, Ellen & Suleika»)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json (запись Ameling/Baldwin подтверждена в MB-каркасе работы)"
+      ],
+      "youtube": [
+        {"videoId": "L1zXPQmX9Lc", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 172},
+        {"videoId": "2OhzZDDFmmU", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 185, "note": "второй трек того же исполнителя на Topic-канале, вероятно другой мастеринг/скорость — сверить перед публикацией, какой соответствует альбому"}
+      ],
+      "note": "Год записи доверифицирован 2026-08-16: альбом записан не в Амстердаме и не многосессионно — Лондон, август 1975 (буклет бокса Eloquence 484 4125). Прежняя формулировка «сессии 06.1972 / 08.1973 / 08.1975, Амстердам» была смешением дат других альбомов Амелинг из того же бокса (CD 11 — Амстердам, июнь 1972; CD 12 и 17 — Амстердам, август 1973) и в досье снята."
+    },
+    {
+      "singer": "Gundula Janowitz (сопрано, р. 1937)",
+      "pianist": "Irwin Gage",
+      "rec_year": "1976–1977 (Берлин, Studio Lankwitz: сентябрь–октябрь 1976 и сентябрь/декабрь 1977)",
+      "year_source": "Discogs master 669922 (унаследовано из d839-дискографии того же альбома) — Berlin, Studio Lankwitz, IX–X.1976 и IX & XII.1977; MB-каркас D 838 подтверждает трек «Gundula Janowitz, Irwin Gage — Ellens Gesang II» (184 с) отдельно от D 837/839",
+      "album": "DG 2-LP «Schubert: Lieder» (2530 858), вкл. все три Ellens Gesänge",
+      "label": "Deutsche Grammophon",
+      "age_voice": "39–40 лет — пик (по дайджесту ~1965–1980); та же серия дала 5-звёздную Gretchen по klassik-prisma",
+      "reputation": "Специализированной рецензии на D 838 не найдено. Общая репутация серии: дважды удостоена Deutscher Schallplattenpreis; манера очень медленная и «пышная» (в аналогичной D 839 критики расходятся — часть считает инструментальной, часть эталоном «ангельского» тона); по звучанию — тот же стиль применим и к D 838.",
+      "sources": [
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат Janowitz)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json",
+        "planning/youtube/data/d838-ellens-gesang-ii.yt.json"
+      ],
+      "youtube": [
+        {"videoId": "C_hCMFkAOiE", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 184},
+        {"videoId": "9EAIvCtplJU", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 184},
+        {"videoId": "2II63qyu1Dc", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 183}
+      ],
+      "note": "Три дубля одной записи на Topic-канале (разные загрузки/мастеринги) — при выборе брать любой, длительности идентичны."
+    },
+    {
+      "singer": "Marie McLaughlin (сопрано, р. 1954 [неподтверждено])",
+      "pianist": "Graham Johnson",
+      "rec_year": "1990 (16–18 декабря)",
+      "year_source": "Hyperion, The Hyperion Schubert Edition Vol. 13 (CDJ33013) — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33013 (страница прочитана напрямую: подтверждает, что том посвящён Гёте и Вальтеру Скотту и содержит песни об Эллен Дуглас, «a radiant paragon of Scottish womanhood»); сессии 16–18.12.1990 — унаследовано из d839-дискографии того же тома",
+      "album": "The Hyperion Schubert Edition, Vol. 13 — «Lieder Sacred & Profane»",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "около 36 лет — зрелая форма",
+      "reputation": "«Научный эталон» издания — полный комментарий Грэма Джонсона к циклу Op. 52 и образу Эллен Дуглас, оригинальная тональность. Вне комментария Джонсона отдельных рецензий на трек не найдено; как вокал — не самое яркое имя пула.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33013 (прочитано напрямую)",
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат McLaughlin)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "0X4KGgVCqkw", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "duration_s": 218, "note": "загружено под именем пианиста/куратора издания, не певицы — типично для части Hyperion-Topic каталога"}
+      ],
+      "note": "Единственный кандидат с полноценным научным комментарием издания."
+    },
+    {
+      "singer": "Ruth Ziesak (сопрано, р. 1963)",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "около 2001 (релиз — февраль 2002)",
+      "year_source": "Унаследовано из d839-дискографии того же издания — Naxos, каталожная страница 8.554795 «Schubert: Lied Edition 7 — European Poets, Vol. 1» (релиз 02.2002); точная дата сессии по каталогу не опубликована",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1» (песни на Вальтера Скотта и др.)",
+      "label": "Naxos",
+      "age_voice": "около 38 лет — зрелая форма",
+      "reputation": "Полное издание — ценность прежде всего контекстная (весь блок Scott-песен). В дайджесте отмечена похвала klassik-prisma её Gretchen из другого тома (13); специализированной рецензии на D 838 не найдено.",
+      "sources": [
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат Ziesak)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "qYg3fG9k2i4", "channel": "Ruth Ziesak - Topic", "official": true, "oembed_ok": true, "duration_s": 179}
+      ],
+      "note": "Год записи не подтверждён дискографически (только дата релиза) — фиксировать как «изд. 2002»."
+    },
+    {
+      "singer": "Johannette Zomer (сопрано, р. 1964 [неподтверждено])",
+      "pianist": "Arthur Schoonderwoerd (хаммерклавир — реплика инструмента ок. 1800)",
+      "rec_year": "2003 (год издания; дата сессии по доступным источникам не установлена)",
+      "year_source": "Унаследовано из d839-дискографии того же альбома — Discogs, Alpha «Kennst du das Land?», CD 2003",
+      "album": "Alpha «Kennst du das Land?» — все три Ellens Gesänge (D 837, 838, 839), Gretchen, Suleika, песни Миньоны",
+      "label": "Alpha",
+      "age_voice": "зрелая форма; барочно-классическая школа, лёгкий прямой тон",
+      "reputation": "AllMusic (цитата из d839-досье): «a stunning Schubert recital»; Schoonderwoerd — «wonderful pianofortist with an elegant technique». По дайджесту её Gretchen с этого диска — 5 звёзд klassik-prisma, «периодный эталон» — тот же уровень исполнения распространяется на весь диск, включая D 838.",
+      "sources": [
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат Zomer)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "S687mYSDoA8", "channel": "Arthur Schoonderwoerd - Topic", "official": true, "oembed_ok": true, "duration_s": 166, "note": "длительность совпадает с MB-записью (166 с) — точное совпадение, надёжная идентификация"}
+      ],
+      "note": "Единственная историческая (хаммерклавирная) версия в пуле."
+    },
+    {
+      "singer": "Dame Janet Baker (меццо, р. 1933)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1970 (август, сентябрь и декабрь, Abbey Road Studio 1, London; ℗1971)",
+      "year_source": "Унаследовано из d839-дискографии того же альбома — Discogs master 1607505, EMI 2-LP «Schubert: Lieder» (Baker/Moore/Parsons): «No. 1 Studio, Abbey Road, London, August, September and December 1970»",
+      "album": "EMI 2-LP «Schubert Lieder» (открывается Gretchen am Spinnrade); переиздание Warner «The Great EMI Recordings — German Lieder»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "37 лет — в самом пике (по дайджесту ~1965–1982)",
+      "reputation": "Классика каталога; в d839-досье зафиксирована рекомендация Penguin Guide для этого дуэта в родственной песне (Ave Maria) — по аналогии показатель общего уровня программы. Дуэт с Муром — эталонный аккомпанемент.",
+      "sources": [
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат Baker)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json (две записи Baker/Moore в MB-каркасе — вероятно, оригинальный релиз и ремастер 1996)"
+      ],
+      "youtube": [
+        {"videoId": "OapCTJG1FZQ", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "duration_s": 172}
+      ],
+      "note": "MB даёт две записи Baker/Moore с разной длительностью (171 и 172 с) — вероятно ремастер; для топ-5 достаточно одной."
+    },
+    {
+      "singer": "Anna Lucia Richter (меццо, р. 1990)",
+      "pianist": "Gerold Huber",
+      "rec_year": "2018–2019 (альбом издан 2019; точная дата сессии в открытых источниках не указана)",
+      "year_source": "Унаследовано из d839-дискографии того же альбома — Pentatone «Heimweh — Schubert Lieder» PTC5186839 (2019); Discogs r14745746",
+      "album": "Pentatone «Heimweh» — заявлено исполнение оригинальной немецкой версии Ave Maria; в программе также Ellens Gesang I и II, Der Zwerg, Viola, Der Hirt auf dem Felsen",
+      "label": "Pentatone",
+      "age_voice": "28–29 лет — ранний расцвет; с ~2020 перешла из сопрано в меццо",
+      "reputation": "В d839-досье зафиксирована рецензия HighResAudio (о голосе и интерпретации в целом, не конкретно об этой песне): «светлый интеллект», песни создаются индивидуально и с большой энергией. Скепсис по правилу о пиаре современных — это дебютный тематический альбом.",
+      "sources": [
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат Richter, явное подтверждение: «включает Ellens Gesang I и II»)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json",
+        "planning/youtube/data/d838-ellens-gesang-ii.yt.json"
+      ],
+      "youtube": [
+        {"videoId": "J0LWq5f2LxY", "channel": "Anna Lucia Richter - Topic", "official": true, "oembed_ok": true, "duration_s": 194}
+      ],
+      "note": "Кандидат на слот «не ранее 2015»."
+    },
+    {
+      "singer": "Carolyn Sampson (сопрано, р. 1974)",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2017 (август)",
+      "year_source": "Унаследовано из d839-дискографии того же альбома — BIS «A Soprano's Schubertiade» BIS-2343, запись август 2017",
+      "album": "BIS «A Soprano's Schubertiade» (SACD) — включает Ellens Gesänge и Gretchen",
+      "label": "BIS",
+      "age_voice": "43 года — пик (~2010–наст.)",
+      "reputation": "Программа выстроена самими исполнителями (Скотт, Гёте, Миньона, Гретхен). Опираться на пиар не следует (правило о современных); объективный плюс — свежая запись, полный блок Ellens Gesänge, лёгкий чистый тон.",
+      "sources": [
+        "planning/youtube/data/d839-ellens-gesang-iii-hymne-an-die-jungfrau.dossier.json (кандидат Sampson)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "M1L9P7O5vrc", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true, "duration_s": 197}
+      ],
+      "note": "Второй кандидат на слот «не ранее 2015», наряду с Richter."
+    },
+    {
+      "singer": "Anne Sofie von Otter (меццо, р. 1955)",
+      "pianist": "нет — оркестр Berliner Philharmoniker п/у Claudio Abbado (аранжировка Иоганнеса Брамса для голоса с оркестром), лайв",
+      "rec_year": "2003 (издание; точная дата концерта/сессии не подтверждена)",
+      "year_source": "Wikipedia, статья Anne Sofie von Otter, раздел дискографии: «Franz Schubert: Lieder with Orchestra, conducted by Claudio Abbado (2003), Deutsche Grammophon» — https://en.wikipedia.org/wiki/Anne_Sofie_von_Otter (прочитано напрямую)",
+      "album": "DG «Schubert: Lieder mit Orchester» (von Otter / Berliner Philharmoniker / Abbado)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "48 лет; по дайджесту пик фон Оттер ~1988–2010 — запись внутри пика",
+      "reputation": "По дайджесту: тот же альбом с Квастхофом получил Grammy 2004 (Gretchen там поёт фон Оттер, не Квасthoff) — «эталон оркестровой версии». ВАЖНО: Wikipedia не подтверждает Grammy именно для этого релиза — факт о премии взят только из дайджеста, при публикации перепроверить по номинациям Grammy 2004. Редкая оркестровая версия (аранжировка Брамса) — не аутентичный фортепианный текст Шуберта, что снижает пригодность для проекта, ориентированного на подстрочник песни как таковой.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anne_Sofie_von_Otter (прочитано напрямую)",
+        "planning/research/singers-digest.md (карточка von Otter Anne Sofie)",
+        "planning/youtube/data/d838-ellens-gesang-ii.yt.json"
+      ],
+      "youtube": [
+        {"videoId": "T8FINoFdX7o", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true, "duration_s": 188},
+        {"videoId": "wCzLZMqx6Dg", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true, "duration_s": 188}
+      ],
+      "note": "Оркестровая (не фортепианная) версия — учитывать при ранжировании как отклонение от авторского оригинала."
+    },
+    {
+      "singer": "Jessye Norman (сопрано, 1945–2019)",
+      "pianist": "Phillip Moll",
+      "rec_year": "около 1984 (по дайджесту: «Philips-рецитал, зап. апр. 1984, Moll»; отдельного подтверждения включения именно D 838 в эту сессию, помимо факта существования альбома «Schubert, Lieder» на Philips с Moll, не найдено)",
+      "year_source": "planning/research/singers-digest.md (карточка Norman Jessye); Wikipedia, Jessye Norman discography, запись «Schubert, Lieder, piano Phillip Moll (Philips)» подтверждает существование альбома, но без даты и трек-листа — https://en.wikipedia.org/wiki/Jessye_Norman_discography (прочитано напрямую)",
+      "album": "Philips, «Schubert: Lieder» (Norman / Moll)",
+      "label": "Philips",
+      "age_voice": "около 39 лет — пик (по дайджесту ~1975–1995)",
+      "reputation": "По дайджесту альбом описан как содержащий «монументальную Gretchen» — крупный, оперного масштаба вокал, не камерный стиль; специализированной рецензии на D 838 не найдено. Наличие трека на официальном Topic-канале — косвенное подтверждение существования релиза, но не источник даты.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Norman Jessye)",
+        "https://en.wikipedia.org/wiki/Jessye_Norman_discography (прочитано напрямую)",
+        "planning/youtube/data/d838-ellens-gesang-ii.yt.json"
+      ],
+      "youtube": [
+        {"videoId": "TTzF9Kp4sHI", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true, "duration_s": 177}
+      ],
+      "note": "Год записи (1984) экстраполирован из дайджеста по тому же альбому/пианисту, не подтверждён напрямую для трека D 838 — доверифицировать перед публикацией по буклету Philips."
+    },
+    {
+      "singer": "Elena Gerhardt (меццо, 1883–1961)",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен дискографически; фан-канал «Vintage Sounds» датирует загрузку 1939 годом, но это метаданные загрузки, не буклет/матрица — по правилам проекта НЕ источник",
+      "year_source": "НЕ ПОДТВЕРЖДЕНО. MB-каркас содержит запись «Elena Gerhardt, Gerald Moore» с пометкой «(1997 - Remaster)» (переиздание, не дата записи); фан-канал даёт 1939 без ссылки на матрицу/каталог",
+      "album": "не установлен (вероятно сторона HMV/Columbia довоенного периода, реставрация переиздана ~1997)",
+      "label": "не установлен (реставрация — вероятно Testament/Pearl/Preiser, требует уточнения)",
+      "age_voice": "если дата 1939 верна — 56 лет, далеко за вокальным пиком (по дайджесту пик Гердхардт 1907–нач. 1920-х, «к 1926–28 износ голоса?»)",
+      "reputation": "Исторический интерес (пионер женского Lieder-рецитала, партнёрство с Муром); специализированной рецензии не найдено. Ценность документальная, не эталонная — дата и состояние голоса не верифицированы.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Gerhardt Elena)",
+        "planning/youtube/data/d838-ellens-gesang-ii.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "WP-CfYW3Pts", "channel": "Elena Gerhardt - Topic", "official": true, "oembed_ok": true, "duration_s": 175}
+      ],
+      "note": "Периферийный кандидат — год записи не верифицирован дискографически, для топ-5 брать нельзя без доверификации по буклету/матрице."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Не найден ни в MB-каркасе (10 записей D 838), ни в целевом yt-dlp поиске. Дискография закрыта в 2012 (6 Schubert-альбомов), D 838 — женская партия (Эллен Дуглас), вне его репертуара по тем же причинам, что и D 118/D 839. Источники: planning/research/singers-digest.md; d838...mb.json; целевой yt-dlp поиск «Quasthoff Ellens Gesang II D 838» (ничего релевантного)",
+    "Dietrich Fischer-Dieskau": "НЕТ. Не найден в MB-каркасе и в целевом yt-dlp поиске. Полный свод DG «Sämtliche Lieder» (1966–72, Moore) сознательно исключал женские песни; D 838 — партия Эллен Дуглас. Источники: planning/research/singers-digest.md; d838...mb.json; целевой yt-dlp поиск",
+    "Elisabeth Schwarzkopf": "НЕ НАЙДЕНО. Не в MB-каркасе, не в целевом yt-dlp поиске. В d839-досье её (спорная) запись Ave Maria опирается только на метаданные стриминга — для D 838 даже такого следа нет. Источники: d838...mb.json; целевой yt-dlp поиск «Schwarzkopf Ellens Gesang II Jager ruhe»",
+    "Hans Hotter": "НЕТ. Не в MB-каркасе, не в целевом поиске. Репертуар Хоттера в Шуберте — мужские циклы. Источники: planning/research/singers-digest.md; d838...mb.json; целевой yt-dlp поиск",
+    "Peter Anders": "НЕТ. Не в MB-каркасе; целевой поиск нашёл только его записи других песен («Jägers Abendlied», «Einsamkeit»). Источники: planning/research/singers-digest.md; d838...mb.json; целевой yt-dlp поиск",
+    "Elisabeth Schumann": "НЕ НАЙДЕНО для D 838 (в отличие от D 839, где она записала Ave Maria с оркестром в 1934). Не в MB-каркасе, не в целевом поиске; её компактная дискография (~28 песен на Naxos 8.110731) по дайджесту не включает Ellens Gesang II явным образом. Источники: planning/research/singers-digest.md; d838...mb.json; целевой yt-dlp поиск",
+    "Christa Ludwig": "НЕ НАЙДЕНО для D 838 (в отличие от D 839, где у неё две записи — EMI/Parsons 1961–62 и DG/Gage 1973). Не в MB-каркасе, целевой поиск не дал релевантных результатов. Источники: d838...mb.json; целевой yt-dlp поиск «Christa Ludwig Ellens Gesang II Jager ruhe»",
+    "Lucia Popp": "НЕТ. Не в MB-каркасе, не в целевом поиске (тот же отрицательный результат, что и для D 839). Источники: planning/research/singers-digest.md; d838...mb.json; целевой yt-dlp поиск"
+  },
+  "albums_facts": [
+    {
+      "album": "Philips «Songs for Gretchen, Ellen & Suleika» (Elly Ameling — The Philips Recitals, Vol. 12)",
+      "singer": "Elly Ameling",
+      "year": "1975 (август, Лондон; LP Philips 9500 169, ℗1977, самый ранний релиз UK 1976)",
+      "label": "Philips / Eloquence",
+      "facts": "Программа прямо посвящена трём героиням Шуберта, включая Эллен — покрывает D 837, 838, 839 (трек-лист master 848900: B3 D 837, B4 D 838 «Jäger, ruhe von der Jagd» 2:59, B5 D 839). Пианист — Dalton Baldwin, в «Szene aus Faust» участвует баритон Meinard Kraak. Запись — Лондон, август 1975 (буклет бокса Eloquence 484 4125, CD 14 = original release r4217024).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG 2-LP «Schubert: Lieder» 2530 858 (Janowitz / Gage)",
+      "singer": "Gundula Janowitz",
+      "year": "1976–77 (Берлин, Studio Lankwitz)",
+      "label": "Deutsche Grammophon",
+      "facts": "Серия дважды удостоена Deutscher Schallplattenpreis; включает все три Ellens Gesänge и Gretchen (5 звёзд klassik-prisma). Очень медленные темпы.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 13 «Lieder Sacred & Profane» (CDJ33013)",
+      "singer": "Marie McLaughlin",
+      "year": "1990 (16–18 декабря)",
+      "label": "Hyperion / Universal",
+      "facts": "Гёте и Вальтер Скотт; комментарии Грэма Джонсона к образу Эллен Дуглас — научный эталон. С 2023 доступно как official audio.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1» (8.554795)",
+      "singer": "Ruth Ziesak",
+      "year": "релиз февраль 2002",
+      "label": "Naxos",
+      "facts": "Пианист Ulrich Eisenlohr; блок песен на европейских поэтов, в т. ч. Вальтера Скотта.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Alpha «Kennst du das Land?»",
+      "singer": "Johannette Zomer",
+      "year": "2003 (издание)",
+      "label": "Alpha",
+      "facts": "Хаммерклавир (реплика инструмента ок. 1800). Все три Ellens Gesänge, Gretchen, Suleika, песни Миньоны; AllMusic — «a stunning Schubert recital».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Pentatone «Heimweh — Schubert Lieder» (PTC5186839)",
+      "singer": "Anna Lucia Richter",
+      "year": "2019 (издание)",
+      "label": "Pentatone",
+      "facts": "Пианист Gerold Huber; включает Ellens Gesang I и II, Der Zwerg, Viola, Der Hirt auf dem Felsen.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "BIS «A Soprano's Schubertiade» (BIS-2343)",
+      "singer": "Carolyn Sampson",
+      "year": "2017 (август)",
+      "label": "BIS",
+      "facts": "Пианист Joseph Middleton; программа со Скоттом и Гёте, включает Ellens Gesänge, Gretchen, Gretchens Bitte.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "EMI 2-LP «Schubert Lieder» (Baker / Moore / Parsons)",
+      "singer": "Janet Baker",
+      "year": "1970 (август, сентябрь, декабрь; Abbey Road Studio 1)",
+      "label": "EMI / Warner",
+      "facts": "Открывается Gretchen am Spinnrade; включает Die junge Nonne, Ellens Gesang II и III. Классика каталога.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG «Schubert: Lieder mit Orchester» (von Otter / Berliner Philharmoniker / Abbado)",
+      "singer": "Anne Sofie von Otter",
+      "year": "издание 2003",
+      "label": "Deutsche Grammophon",
+      "facts": "Оркестровые аранжировки (Ellens Gesang II — аранжировка Брамса), лайв с Берлинскими филармониками. По дайджесту тот же круг записей с Квастхофом получил Grammy 2004 (не подтверждено напрямую для этого релиза).",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    {
+      "name": "klassik-prisma.de — раздел Шуберта",
+      "url": "http://www.klassik-prisma.de/Schubert.htm",
+      "finding": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ (прочитано напрямую): отдельной сравнительной страницы (Vergleich) для «Jäger, ruhe von der Jagd» / Ellens Gesang II D 838 на сайте нет — как и для D 839."
+    },
+    {
+      "name": "Hyperion Records — The Hyperion Schubert Edition, Vol. 13",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33013",
+      "finding": "Прочитано напрямую: том содержит песни об Эллен Дуглас («a radiant paragon of Scottish womanhood for whom Schubert found some of his most beautiful music») — подтверждает включение D 838 в программу McLaughlin/Johnson наряду с D 837 и D 839."
+    },
+    {
+      "name": "MusicWeb International — обзор Zomer «Kennst du das Land?»",
+      "url": "http://www.musicweb-international.com/classrev/2004/apr04/schubert_zomer.htm",
+      "finding": "НЕДОСТУПНО: 404 при прямом фетче — точный URL рецензии не подтверждён, содержание не проверено."
+    },
+    {
+      "name": "Gramophone — обзор Richter «Heimweh»",
+      "url": "https://www.gramophone.co.uk/reviews/review?slug=schubert-heimweh-schubert-lieder",
+      "finding": "НЕДОСТУПНО: 403 при прямом фетче (антибот-защита) — содержание не проверено."
+    }
+  ],
+  "negatives": [
+    "WebSearch недоступен весь сеанс работы («this session has used its web search budget 200 of 200» — исчерпан параллельными потоками до начала этой задачи). Исследование велось только через WebFetch на прямые/угаданные URL (успешность частичная — Discogs, AllMusic, Presto Music, MusicWeb, Gramophone, обычный Google/Bing/DuckDuckGo/Mojeek систематически возвращали 403/404/CAPTCHA/consent-редиректы) и через yt-dlp. Это ограничивает глубину критических источников по сравнению с методичкой (Gramophone/MusicWeb/BBC Music Magazine цитат нет ни одной — не потому что их нет в природе, а потому что доступ не удалось получить).",
+    "klassik-prisma НЕ имеет сравнительной страницы по D 838 (проверено напрямую) — как и для D 839, главный обычный ориентир проекта недоступен для этой песни.",
+    "Fischer-Dieskau, Quasthoff, Schwarzkopf, Hotter, Anders, Popp — записей D 838 не обнаружено (MB-каркас + целевой yt-dlp поиск), тот же отрицательный результат, что и для D 839.",
+    "Elisabeth Schumann и Christa Ludwig — ЗАПИСАЛИ D 839 (Ave Maria), но D 838 у них дискографически НЕ обнаружено (MB-каркас + целевой поиск пусты) — важное различие между двумя песнями цикла, легко перепутать при работе по аналогии.",
+    "Von Otter/Abbado (2003, орк. Брахмса) — единственная оркестровая версия пула; отклоняется от фортепианного оригинала Шуберта. Grammy 2004, упомянутый в дайджесте применительно к этому кругу записей, НЕ подтверждён напрямую для данного трека Wikipedia-статьёй фон Оттер — требует доверификации перед использованием как аргумент в ранжировании.",
+    "Jessye Norman/Moll — год записи (1984) экстраполирован из дайджеста (общее описание альбома через Gretchen), а не подтверждён дискографически именно для D 838; трек-лист альбома не проверен напрямую (AllMusic/Discogs недоступны).",
+    "Elena Gerhardt/Moore — единственная историческая запись в пуле; дата (1939, по фан-каналу) НЕ дискографический источник и не должна использоваться при публикации без доверификации по буклету/матрице переиздания. MB даёт только пометку «1997 Remaster» (дата переиздания, не записи).",
+    "Marie McLaughlin — год рождения (1954) не подтверждён отдельным источником, унаследован из дайджеста с пометкой [неподтверждено].",
+    "Дополнительные имена, всплывшие в целевых yt-dlp поисках, но НЕ исследованные отдельно (нет данных о годе/альбоме/репутации, за пределами бюджета этой волны): Sibylla Rubens — Topic, Martha Guth — Topic, Marjana Lipovšek — Topic, John Winther — Topic, Sarah Connolly — Topic (по дайджесту её Шуберт «тонок», посвящённого альбома нет — маловероятный кандидат), Riko Fukuda — Topic, Romano Gandolfi — Topic («Transcr. Brahms» — возможно другое переложение), Christine Schäfer (только неофициальный канал «Hartmut Boehm», не Topic — по дайджесту у неё нет Gretchen, статус D 838 не проверен). Если пул из 11 исследованных кандидатов будет признан недостаточным при ранжировании, эти имена — первая точка для доисследования.",
+    "MB-каркас содержит только 10 записей работы — вероятно неполный (YT-поиск нашёл минимум 4 исполнителя вне MB-списка: von Otter, Norman, а также второстепенные из yt-dlp выше) — общий фонд записей песни, видимо, больше 10, но не радикально больше (не «famous»-уровень плотности)."
+  ]
+}

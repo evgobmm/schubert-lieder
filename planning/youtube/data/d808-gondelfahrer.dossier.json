@@ -1,0 +1,327 @@
+{
+  "d": "808",
+  "title": "Gondelfahrer",
+  "tier_note": "Песня редко записываемого разряда «medium»: текст Иоганна Майрхофера, ~2 минуты, венецианская гондольерская тема. MusicBrainz даёт лишь 9 записей (заведомо неполно для классики), но веб-исследование через официальные YouTube Topic-каналы нашло независимое подтверждение по меньшей мере 13 записей значительных исполнителей — пул соответствует ярусу «medium» (6–10) и даже превосходит его.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "сессии в рамках DG «Sämtliche Lieder» 1966–1972; альбом «Schubert: Lieder (Vol. 2)», ℗ 1969",
+      "year_source": "Официальные метаданные лейбла на YouTube Topic-канале (Universal Music Group): альбом «Schubert: Lieder (Vol. 2)», ℗ 1969 Deutsche Grammophon, Producer Rainer Brock, Executive Producer Otto Gerdes; согласуется с реестром `planning/youtube/albums.md` (DG «Sämtliche Lieder», сессии 1966–1972, Ufa-Ton-Studio Berlin)",
+      "album": "Schubert: Lieder (Vol. 2) — часть свода Sämtliche Lieder (21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Пик Фишера-Дискау по дайджесту — ~1951–1972; запись 1969 г. приходится на пик/конец пика, голос ещё в отличной форме (сухость тона отмечается дайджестом позже, с середины 1970-х)",
+      "reputation": "Часть эталонного полного свода мужских песен Шуберта с Muром — базовая точка отсчёта проекта для любой мужской песни (см. `albums.md`); отдельных критических цитат по конкретно Gondelfahrer не найдено, но сам свод общепризнан как одна из вершин Lieder-дискографии",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Dietrich Fischer-Dieskau - Topic, videoId sNAFA12JQ5Q/VthN6gxjI3I/Me8w4cgRB94)",
+        "planning/youtube/albums.md (запись реестра DG Sämtliche Lieder)"
+      ],
+      "youtube": [
+        {"videoId": "sNAFA12JQ5Q", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "VthN6gxjI3I", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Me8w4cgRB94", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритетный певец №2 по правилам проекта. Три разных загрузки одной записи (разные переиздания альбома: Vol.2 1969, сборник 2005, сборник 2010) — использовать самую качественную/популярную загрузку в топ-5."
+    },
+    {
+      "singer": "Janet Baker (меццо-сопрано)",
+      "pianist": "Gerald Moore",
+      "rec_year": "℗ 1968 (переиздания ℗1994, ℗1996), альбом «Janet Baker - Song Recital» / «Schubert: Lieder»",
+      "year_source": "Официальные метаданные лейбла на YouTube Topic-канале (Warner Classics/Parlophone): ℗ 1968, 1994/1996 Parlophone Records; ТРЕБУЕТ СВЕРКИ — реестр `albums.md` фиксирует другой альбом Бейкер/Мура «Schubert: Lieder» (2 LP, 30 песен) с сессиями август/сентябрь/декабрь 1970, Abbey Road — не совпадает по году с этим ℗1968. Возможны два разных альбома Baker/Moore, либо ошибка ℗-года на YouTube; факт года записи НЕ верифицирован дискографией и не должен использоваться без дополнительной проверки перед топ-5",
+      "album": "Janet Baker - Song Recital (он же переиздан как «Schubert: Lieder»)",
+      "label": "EMI/Parlophone (ныне Warner Classics)",
+      "age_voice": "Пик Бейкер по дайджесту ~1965–1982; и 1968, и 1970 — уверенно внутри пика",
+      "reputation": "Дайджест характеризует 2-LP альбом Baker/Moore как «классику жанра», открывается Gretchen am Spinnrade; статус самого Gondelfahrer в критике отдельно не найден",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Janet Baker - Topic, videoId 1mjTn4i6VKw; Release - Topic, videoId hrwmmKVMD-c)",
+        "planning/youtube/albums.md (запись реестра Janet Baker — Schubert: Lieder, сессии 1970)"
+      ],
+      "youtube": [
+        {"videoId": "1mjTn4i6VKw", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "hrwmmKVMD-c", "channel": "Release - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВАЖНО: год записи неопределённый (см. year_source) — при отборе топ-5 нужна дополнительная дискографическая сверка (буклет EMI/Warner или дискография Бейкер), прежде чем использовать конкретный год. MusicBrainz отдельно даёт ещё одну запись Baker с Graham Johnson (Hyperion) — на YouTube не найдена, см. negatives."
+    },
+    {
+      "singer": "Margaret Price (сопрано)",
+      "pianist": "Graham Johnson",
+      "rec_year": "сессия октябрь 1991, издание октябрь 1992",
+      "year_source": "Официальные метаданные лейбла на YouTube Topic-канале (Universal Music Group / Hyperion): альбом «Schubert: Hyperion Song Edition 15 – Schubert & the Nocturne, Vol. 3», ℗ 1992; ПОЛНОСТЬЮ СОГЛАСУЕТСЯ с уже верифицированной записью реестра `albums.md` (Margaret Price — Hyperion Vol. 15 «Schubert & the Nocturne», сессия октябрь 1991, Rosslyn Hill Unitarian Chapel, издание октябрь 1992) — кросс-источниковое подтверждение, высокая надёжность",
+      "album": "Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne»",
+      "label": "Hyperion",
+      "age_voice": "Пик Price по дайджесту ~1970–1990; запись 1991 г. — уже на самом излёте пика/чуть позже, но Hyperion-том общего высокого качества",
+      "reputation": "Дайджест цитирует по этому тому: комментарий Джонсона к Die junge Nonne — «сцена шекспировских масштабов»; научный эталон издания (Грэм Джонсон — фортепиано и комментарии)",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Graham Johnson - Topic, videoId bzjEOl86OVo)",
+        "planning/youtube/albums.md (запись реестра Margaret Price — Hyperion Vol. 15)"
+      ],
+      "youtube": [
+        {"videoId": "bzjEOl86OVo", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный кандидат с полностью независимо подтверждённой (двумя источниками) датой записи."
+    },
+    {
+      "singer": "Anthony Rolfe Johnson (тенор)",
+      "pianist": "Graham Johnson",
+      "rec_year": "℗ 1987",
+      "year_source": "Официальные метаданные лейбла на YouTube Topic-канале (Universal Music Group / Hyperion): альбом «Souvenirs de Venise – Songs of Venice», ℗ 1987 Hyperion Records — год издания, точная дата сессии не установлена",
+      "album": "Souvenirs de Venise — Songs of Venice",
+      "label": "Hyperion",
+      "age_voice": "Дайджест не содержит карточки на Rolfe Johnson (певец вне основного фонда певцов проекта, упомянут лишь в резерве без деталей); возраст/состояние голоса не верифицированы",
+      "reputation": "Тематический альбом Hyperion о венецианских песнях (естественный дом для Gondelfahrer — гондольерская тема); отдельных критических цитат не найдено",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Anthony Rolfe Johnson - Topic, videoId xZwTUGumpLI)"
+      ],
+      "youtube": [
+        {"videoId": "xZwTUGumpLI", "channel": "Anthony Rolfe Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Певец не входит в основной фонд singers-digest — требуется отдельная проверка репутации/состояния голоса перед включением в топ-5."
+    },
+    {
+      "singer": "Christoph Prégardien (тенор)",
+      "pianist": "Andreas Staier (фортепиано эпохи/фортепьяно historique)",
+      "rec_year": "℗ 2001",
+      "year_source": "Официальные метаданные лейбла на YouTube Topic-канале (Warner Classics International/Teldec): альбом «Schubert: Lieder after Mayrhofer», ℗ 2001",
+      "album": "Schubert: Lieder after Mayrhofer",
+      "label": "Teldec / Warner Classics",
+      "age_voice": "Пик Прегардьена по дайджесту ~1990–2012; 2001 г. — уверенно внутри пика",
+      "reputation": "Тематическая программа полностью на стихи Мейрхофера (поэта Gondelfahrer) со Штайером на историческом инструменте — концептуально самый «прицельный» кандидат для этой песни; отдельных критических цитат по конкретному треку не найдено",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Christoph Prégardien - Topic, videoId 0dzQOpsejug)"
+      ],
+      "youtube": [
+        {"videoId": "0dzQOpsejug", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дайджест не даёт этот конкретный альбом в карточке Прегардьена (перечислены другие) — новый факт, добавленный сверх дайджеста."
+    },
+    {
+      "singer": "Ian Bostridge (тенор)",
+      "pianist": "Julius Drake",
+      "rec_year": "live-запись, издано 07.04.2014",
+      "year_source": "Официальные метаданные лейбла на YouTube (The Orchard Enterprises / The Wigmore Hall Trust): альбом «Schubert - Wigmore Hall Live», ℗ 2014, Released on 2014-04-07",
+      "album": "Schubert — Wigmore Hall Live",
+      "label": "Wigmore Hall Live",
+      "age_voice": "Дайджест: пик Бостриджа ~1995–2010, позже — «интеллектуально, но манернее/суше?»; запись 2014 г. приходится на период после заявленного пика",
+      "reputation": "Живая концертная запись Wigmore Hall; отдельных критических цитат по этому конкретному треку не найдено",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Ian Bostridge - Topic, videoId d7qEIvPdEPk)"
+      ],
+      "youtube": [
+        {"videoId": "d7qEIvPdEPk", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Christopher Maltman (баритон)",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "℗ 2016, Released on 2016-05-19",
+      "year_source": "Официальные метаданные лейбла на YouTube (The state51 Conspiracy): альбом «Decades - A Century of Song, volume 2», ℗ 2016 Vivat Music Foundation",
+      "album": "Decades — A Century of Song, volume 2",
+      "label": "Vivat Music Foundation",
+      "age_voice": "Мальтман не входит в singers-digest (вне основного фонда); возраст/состояние голоса не верифицированы",
+      "reputation": "Мальтман — заметный современный британский баритон; отдельных критических цитат по этой записи не найдено",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Christopher Maltman - Topic, videoId u3m5kegvRac)"
+      ],
+      "youtube": [
+        {"videoId": "u3m5kegvRac", "channel": "Christopher Maltman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Певец не в singers-digest — требуется скепсис к пиару современных по общим принципам отбора."
+    },
+    {
+      "singer": "Simon Keenlyside (баритон)",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "℗ 1994, альбом «Schubert - Lieder Recital»",
+      "year_source": "Официальные метаданные лейбла на YouTube (Warner Classics/Parlophone): ℗ 1994",
+      "album": "Schubert — Lieder Recital",
+      "label": "EMI/Parlophone (ныне Warner Classics)",
+      "age_voice": "Дайджест: у Кинлисайда «студийного Winterreise НЕТ» и упомянут лишь рецитал EMI 1994 (Martineau) — это и есть данная запись; год согласуется",
+      "reputation": "Единственный студийный шубертовский рецитал Кинлисайда по дайджесту; отдельных критических цитат по треку не найдено",
+      "sources": [
+        "YouTube oEmbed/label-metadata (Simon Keenlyside - Topic, videoId EsjVWyzcOxk)",
+        "planning/research/singers-digest.md (карточка Keenlyside)"
+      ],
+      "youtube": [
+        {"videoId": "EsjVWyzcOxk", "channel": "Simon Keenlyside - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год записи согласуется с дайджестом фонда певцов — хорошая надёжность."
+    },
+    {
+      "singer": "Matthias Goerne (баритон)",
+      "pianist": "Eric Schneider (по данным MusicBrainz)",
+      "rec_year": "не установлен — часть Matthias Goerne Schubert Edition (harmonia mundi, 2008–2014)",
+      "year_source": "MusicBrainz work-каталог (recording: Matthias Goerne / Eric Schneider, work D.808); точный том/дата НЕ подтверждены на YouTube — попытка найти видео на официальном канале Goerne не дала результата в рамках проведённого поиска",
+      "album": "предположительно Matthias Goerne Schubert Edition (не подтверждено, какой том)",
+      "label": "harmonia mundi",
+      "age_voice": "Пик Гёрне по дайджесту ~1997–2015 — крупнейший сольный шубертовский свод последних десятилетий",
+      "reputation": "Не верифицирована для конкретно этой песни",
+      "sources": [
+        "MusicBrainz (planning/youtube/data/d808-gondelfahrer.mb.json)"
+      ],
+      "youtube": [],
+      "note": "ВИДЕО НЕ НАЙДЕНО на YouTube в рамках поиска — MB подтверждает существование записи, но встраиваемая ссылка отсутствует. Если понадобится для топ-5, нужен отдельный целевой поиск на канале Matthias Goerne - Topic."
+    },
+    {
+      "singer": "Wolfgang Holzmair (баритон)",
+      "pianist": "Gérard Wyss",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz (recording: Wolfgang Holzmair / Gérard Wyss) + видео на официальном Topic-канале, но год издания/сессии не извлечён из доступных метаданных при данном проходе исследования",
+      "album": "не установлен (вероятно один из Philips-рециталов Хольцмайра, боксы Eloquence 13 CD, 2022)",
+      "label": "предположительно Philips/Eloquence — не подтверждено для конкретно этого трека",
+      "age_voice": "Пик Хольцмайра по дайджесту — 1990-е",
+      "reputation": "Не верифицирована для конкретно этой песни",
+      "sources": [
+        "MusicBrainz (planning/youtube/data/d808-gondelfahrer.mb.json)",
+        "YouTube oEmbed (Wolfgang Holzmair - Topic, videoId ZOpYtLdkWeo) — только подтверждает наличие/встраиваемость, не альбом/год"
+      ],
+      "youtube": [
+        {"videoId": "ZOpYtLdkWeo", "channel": "Wolfgang Holzmair - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Видео живо и встраиваемо, но альбом/точный год не подтверждены — нужен доп. запрос полных метаданных (yt-dlp был временно заблокирован YouTube по анти-бот лимиту в ходе этой сессии)."
+    },
+    {
+      "singer": "Siegfried Lorenz (баритон)",
+      "pianist": "Norman Shetler",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz (recording: Siegfried Lorenz / Norman Shetler) + видео на официальном Topic-канале; год не извлечён при данном проходе (см. note)",
+      "album": "не установлен",
+      "label": "предположительно Berlin Classics/Eterna (певец из круга ГДР) — не подтверждено для конкретно этого трека",
+      "age_voice": "Лоренц вне singers-digest — не верифицировано",
+      "reputation": "Не верифицирована для конкретно этой песни",
+      "sources": [
+        "MusicBrainz (planning/youtube/data/d808-gondelfahrer.mb.json)",
+        "YouTube oEmbed (Siegfried Lorenz - Topic, videoId BLPVUhJh98I)"
+      ],
+      "youtube": [
+        {"videoId": "BLPVUhJh98I", "channel": "Siegfried Lorenz - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Видео живо и встраиваемо; тот же Topic-канал содержит и другие песни пилота (Geisternahe D.100, An die Freunde D.654 и др.) — похоже на полный/почти полный сольный свод Лоренца, альбом не идентифицирован в рамках этого прохода."
+    },
+    {
+      "singer": "Elly Ameling (сопрано)",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz (recording: Elly Ameling / Dalton Baldwin, work D.808 «Gondelfahrer I»); прямого видео на YouTube в рамках поиска НЕ найдено",
+      "album": "вероятно один из Philips-рециталов Амелинг с Болдуином (albums.md: «Songs for Gretchen, Ellen & Suleika», сессии 1972–75 — не подтверждено, что Gondelfahrer входит именно в этот альбом)",
+      "label": "Philips",
+      "age_voice": "Пик Амелинг по дайджесту ~1965–1985",
+      "reputation": "Не верифицирована для конкретно этой песни",
+      "sources": [
+        "MusicBrainz (planning/youtube/data/d808-gondelfahrer.mb.json)"
+      ],
+      "youtube": [],
+      "note": "ВИДЕО НЕ НАЙДЕНО на YouTube при выполненных запросах (искали среди топ выдачи Topic-канала Ameling) — запись существует по MB, но не подтверждена на YouTube в рамках этого прохода."
+    },
+    {
+      "singer": "Cornelius Hauptmann (бас)",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "Только YouTube oEmbed (заголовок и канал); полные метаданные лейбла получить не удалось — yt-dlp был заблокирован YouTube по анти-бот лимиту (HTTP 429 / «Sign in to confirm you're not a bot») в ходе этой сессии",
+      "album": "не установлен — вероятно Naxos Deutsche Schubert-Lied-Edition (Хауптманн и Эрик Шнайдер регулярно связаны с этим сводом)",
+      "label": "не установлен, предположительно Naxos",
+      "age_voice": "Хауптманн вне singers-digest — не верифицировано",
+      "reputation": "Не верифицирована",
+      "sources": [
+        "YouTube oEmbed (Cornelius Hauptmann - Topic, videoId 8MswFSxJ9DM)"
+      ],
+      "youtube": [
+        {"videoId": "8MswFSxJ9DM", "channel": "Cornelius Hauptmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "НЕ добирался до альбома/года из-за технического сбоя (rate limit yt-dlp) — при возврате к песне нужно повторить попытку получения полных метаданных видео."
+    },
+    {
+      "singer": "неопределённый исполнитель на канале «Eric Schneider - Topic»",
+      "pianist": "Eric Schneider (пианист; певец на этом видео не идентифицирован)",
+      "rec_year": "не установлен",
+      "year_source": "Только YouTube oEmbed; описание получить не удалось (см. note у Hauptmann)",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "не применимо (певец не идентифицирован)",
+      "reputation": "не применимо",
+      "sources": [
+        "YouTube oEmbed (Eric Schneider - Topic, videoId sfA4kjizIfA)"
+      ],
+      "youtube": [
+        {"videoId": "sfA4kjizIfA", "channel": "Eric Schneider - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность (127 с) отличается от записи Хауптманна (102 с) на его собственном Topic-канале — вероятно ДРУГАЯ запись/другой певец с тем же пианистом (Eric Schneider работал с несколькими певцами в Naxos DSLE и в Goerne Schubert Edition). НЕ включать в топ-5 без идентификации певца."
+    },
+    {
+      "singer": "Mihoko Fujimura (меццо-сопрано)",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "Только YouTube oEmbed (японская локализация заголовка); полные метаданные не получены",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "Фуджимура вне singers-digest — не верифицировано",
+      "reputation": "Не верифицирована",
+      "sources": [
+        "YouTube oEmbed (Mihoko Fujimura - Topic, videoId kMSo9SbqaUM)"
+      ],
+      "youtube": [
+        {"videoId": "kMSo9SbqaUM", "channel": "Mihoko Fujimura - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Периферийный кандидат, найден случайно при поиске по Ameling — требует отдельной проверки при желании включить в пул."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff Thomas": "НЕ записывал — MB (9 записей) не содержит его; целевой YouTube-поиск «Quasthoff Gondelfahrer Schubert» вернул только хоровую версию D.809 и посторонние результаты. Согласуется с дайджестом: его 6 альбомов (Goethe-Lieder, Winterreise, Schwanengesang, Lieder с оркестром, Müllerin, Winterreise-фильм) не включают эту песню.",
+    "Fischer-Dieskau Dietrich": "ЗАПИСАЛ — Gerald Moore, DG «Sämtliche Lieder», альбом «Schubert: Lieder (Vol. 2)» ℗1969. Источник: MusicBrainz + официальный YouTube Topic-канал.",
+    "Schwarzkopf Elisabeth": "НЕ найдена — MB (9 записей) не содержит её; целевой YouTube-поиск вернул только хоровые версии D.809 и посторонние результаты.",
+    "Hotter Hans": "НЕ найден — MB не содержит его; целевой поиск вернул только хоровые версии D.809 и постороннее (Du bist die Ruh).",
+    "Anders Peter": "НЕ найден — MB не содержит его; целевой поиск вернул только Der greise Kopf и хоровые версии D.809.",
+    "Schumann Elisabeth": "НЕ найдена — MB не содержит её; целевой поиск вернул другие песни с её именем (Der Jüngling und der Tod, Das sie hier gewesen, Die Vögel), но не Gondelfahrer.",
+    "Ludwig Christa": "НЕ найдена — MB не содержит её; целевой поиск вернул Der Hirt auf dem Felsen, Fischerweise и хоровые версии D.809, но не Gondelfahrer.",
+    "Popp Lucia": "НЕ найдена — MB не содержит её; целевой поиск вернул Der Fluß, Der Knabe (с Irwin Gage) и хоровые версии D.809, но не Gondelfahrer."
+  },
+  "albums_facts": [
+    {
+      "album": "Margaret Price — Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne, Vol. 3»",
+      "singer": "Margaret Price",
+      "year": "сессия октябрь 1991, издание октябрь 1992",
+      "label": "Hyperion",
+      "facts": "Уже в реестре `albums.md` для D 828 (Die junge Nonne); теперь подтверждено, что том включает и Gondelfahrer D 808 — кросс-источниковая сверка YouTube-метаданных с реестром прошла чисто.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Dietrich Fischer-Dieskau / Gerald Moore — DG «Schubert: Sämtliche Lieder», альбом «Vol. 2»",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "℗ 1969 (в рамках сессий свода 1966–1972)",
+      "label": "Deutsche Grammophon",
+      "facts": "Базовая точка отсчёта проекта для мужских песен (уже в реестре albums.md); подтверждён конкретный подтом «Vol. 2» с этой песней.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Anthony Rolfe Johnson / Graham Johnson — Hyperion «Souvenirs de Venise – Songs of Venice»",
+      "singer": "Anthony Rolfe Johnson",
+      "year": "℗ 1987",
+      "label": "Hyperion",
+      "facts": "НОВЫЙ факт, не в реестре albums.md. Тематический альбом о венецианских песнях (в котором Gondelfahrer на стихи Мейрхофера — естественный номер программы). Точная дата сессии не установлена.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Christoph Prégardien / Andreas Staier — «Schubert: Lieder after Mayrhofer»",
+      "singer": "Christoph Prégardien",
+      "year": "℗ 2001",
+      "label": "Teldec / Warner Classics",
+      "facts": "НОВЫЙ факт, не в реестре albums.md и не в карточке Прегардьена в singers-digest.md (там перечислены другие альбомы — Müllerin с DHM, Winterreise Teldec 1997, Müllerin/Schwanengesang Challenge). Программа целиком на стихи Мейрхофера — концептуально самая точная привязка к Gondelfahrer. Штайер играет на историческом инструменте.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Christopher Maltman / Malcolm Martineau — «Decades - A Century of Song, volume 2»",
+      "singer": "Christopher Maltman",
+      "year": "℗ 2016",
+      "label": "Vivat Music Foundation",
+      "facts": "НОВЫЙ факт. Антологический проект песен по десятилетиям; Мальтман вне singers-digest, деталей об альбоме дополнительно не собрано.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [],
+  "negatives": [
+    "Janet Baker / Graham Johnson (Hyperion) — MusicBrainz даёт отдельную запись (work D.808, «Gondelfahrer, D. 808», исполнители Dame Janet Baker + Graham Johnson), но на YouTube в рамках поиска не найдена (только запись Baker/Moore). Возможно дубликат в MB или запись пока не оцифрована на Topic-канале.",
+    "Elly Ameling / Dalton Baldwin — MB подтверждает существование записи (Philips), видео на YouTube не найдено в рамках поиска.",
+    "Matthias Goerne / Eric Schneider — MB подтверждает существование записи, видео на YouTube не найдено (возможно не издано отдельным треком на Topic до текущего момента, либо не проиндексировано поиском).",
+    "Поиск по сравнительным обзорам (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC Music Magazine) НЕ ВЫПОЛНЕН в этом проходе — WebSearch исчерпал сессионный лимит (200/200) сразу после первых двух запросов, а WebFetch на поисковые системы (Google/Bing/DuckDuckGo) систематически возвращал страницы согласия на cookie/капчу вместо результатов. Страница hyperion-records.co.uk по конкретно Gondelfahrer тоже не была открыта напрямую: форма поиска сайта (`/find.asp?f=...`) на серверном рендере возвращает только приветственную панель для нового посетителя без результатов (похоже, результаты подгружаются JS-запросом, недоступным через curl/WebFetch). ТРЕБУЕТСЯ повторная попытка в отдельной сессии (свежий лимит WebSearch) прежде чем считать досье по критическим обзорам полным.",
+    "yt-dlp полные метаданные (описание/альбом/год) для части кандидатов (Holzmair, Lorenz, Hauptmann, «Eric Schneider»-видео) НЕ получены — YouTube временно заблокировал yt-dlp по анти-бот лимиту (HTTP 429 → «Sign in to confirm you're not a bot») в середине сессии; удалось получить только oEmbed (заголовок/канал/встраиваемость), без album/label/год. Повторить полный запрос метаданных в следующем проходе."
+  ]
+}

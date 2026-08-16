@@ -22,11 +22,11 @@ yt-dlp установлен standalone (см. `docs/rules/workflow.md` → «О�
 | 800 | Der Einsame | famous | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 828 | Die junge Nonne | famous | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 839 | Ellens Gesang III (Ave Maria) | famous | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 842 | Totengräbers Heimwehe | famous | ✓ | — | — | — | — |
-| 852 | Die Allmacht | famous | ✓ | — | — | — | — |
-| 853 | Auf der Bruck | famous | ✓ | — | — | — | — |
-| 806 | Abendstern | medium | ✓ | — | — | — | — |
-| 807 | Auflösung | medium | ✓ | — | — | — | — |
+| 842 | Totengräbers Heimwehe | famous | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 852 | Die Allmacht | famous | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 853 | Auf der Bruck | famous | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 806 | Abendstern | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 807 | Auflösung | medium | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 808 | Gondelfahrer | medium | ✓ | — | — | — | — |
 | 833 | Der blinde Knabe | medium | ✓ | — | — | — | — |
 | 834 | Im Walde | medium | ✓ | — | — | — | — |

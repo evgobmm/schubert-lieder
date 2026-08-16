@@ -1,0 +1,159 @@
+{
+ "d": "832",
+ "title": "Des Sängers Habe",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1969-03",
+   "year_source": "MusicBrainz work-relation (recording b63c04da-cd78-49a0-b986-f296c542c040, работа 45e9b788-11db-430e-ba0a-0bee83bce752): begin/end 1969-03; длительность 186 с совпадает с MB-карточкой записи Fischer-Dieskau/Moore. Сессия входит в общий свод DG «Sämtliche Lieder» (1966–72, Ufa-Ton-Studio Berlin) — см. planning/youtube/albums.md, раздел «Основные издания».",
+   "album": "Schubert: Sämtliche Lieder (21 CD) — часть свода всех мужских песен",
+   "label": "Deutsche Grammophon",
+   "age_voice": "44 года; вокальный пик певца по дайджесту (~1951–1972), т.е. запись сделана в период расцвета, до огрубления тона с середины 1970-х.",
+   "reputation": "Отдельных обзоров/сравнительных тестов именно этой редкой песни не найдено в рамках сессии (WebSearch исчерпан, внешние поисковики (Bing/DuckDuckGo/Discogs) недоступны из песочницы). Общая репутация свода DG Fischer-Dieskau/Moore как эталонного корпуса мужских песен Шуберта — по singers-digest.md («лучший охват среди всех», «пик формы»).",
+   "sources": [
+    "planning/youtube/data/d832-des-sangers-habe.mb.json",
+    "MusicBrainz API: work 45e9b788-11db-430e-ba0a-0bee83bce752 (inc=recording-rels), запрошено 2026-08-16",
+    "planning/youtube/albums.md — запись «Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD)»",
+    "planning/research/singers-digest.md — карточка Fischer-Dieskau"
+   ],
+   "youtube": [
+    {"videoId": "zxZ1XvpRZcM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность видео (186 с) точно совпадает с MB-длиной записи Moore-версии. На том же канале есть дубли (ZjJDXB368N4, iiTscPuQdXg, lSJNANGkZrs) — вероятно, повторные загрузки того же трека из разных бокс-сетов дистрибьютора; взят один representative ID."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Sviatoslav Richter",
+   "rec_year": "1977 (live; сессии 2–4 июля 1977 и 29 августа 1977 — два разных концертных исполнения)",
+   "year_source": "MusicBrainz work-relation: recording bef41f16-d567-4514-9fef-c80ddb4cff67 (дизамбигуация «Schlagt mein ganzes Glück in Splitter», 198 с, атрибут live) — begin 1977-07-02, end 1977-07-04; recording f29b9541-72c7-4e18-88c8-94ee636010e6 (193 с, live) — begin/end 1977-08-29. Обе даты — из MB work→recording relations (не из метаданных YouTube/archive.org).",
+   "album": "Live-рецитал Fischer-Dieskau/Richter (Шуберт), издан DG; точное название/номер каталога не верифицированы в рамках сессии (MB releases для этих recording ID не удалось дозапросить — API стал недоступен по сети в середине работы).",
+   "label": "Deutsche Grammophon (по косвенному подтверждению — фан-канал «incontrario motu» с плейлистом «Fischer-Dieskau / Richter Salzburg 1977», содержащий десятки песен той же программы; отдельный канал «Vladivostok 1969» датирует альбом 1978 годом релиза — это НЕ дискографический источник, только ориентир для дальнейшей проверки)",
+   "age_voice": "52 года. По дайджесту: «с сер. 1970-х тон суше» — запись сделана уже после вокального пика (~1951–1972), но Рихтер как партнёр и статус записи как одной из знаменитых поздних живых Schubert-программ ФД — сильный контраргумент против списания записи по одному лишь возрасту.",
+   "reputation": "Дуэт Fischer-Dieskau/Richter в Зальцбурге 1977 широко известен как одна из знаковых поздних лидер-программ певца; отдельных рецензий по конкретно этой песне не найдено (см. общее ограничение по WebSearch выше).",
+   "sources": [
+    "planning/youtube/data/d832-des-sangers-habe.mb.json",
+    "MusicBrainz API: work 45e9b788-11db-430e-ba0a-0bee83bce752 (inc=recording-rels), запрошено 2026-08-16",
+    "planning/research/singers-digest.md — карточка Fischer-Dieskau (состояние голоса по годам)"
+   ],
+   "youtube": [
+    {"videoId": "ORTr08OpPmU", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность видео (198 с) совпадает с июльской (2–4.07.1977) записью. Отдельного видео с длительностью 193 с (августовская запись 29.08.1977) в результатах поиска не найдено — возможно, не выложена отдельно или продублирована под тем же ID. Требуется доп. проверка каталожного номера DG перед публикацией."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Hartmut Höll",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz: recording 8c0cfcb7-c5b4-4735-a849-18706c777909 (178 с) числится в работе, но не имеет прикреплённой work-relation с датой и не имеет releases (пустой список при последнем успешном запросе до сетевого сбоя). Дата не подтверждена ни одним источником — не выдумывается.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "Хёлль сопровождал Фишера-Дискау в его поздние годы; найдено косвенное свидетельство активного партнёрства в 1988 году (YouTube-видео «Schumann Lieder — Dietrich Fischer-Dieskau, Hartmut Höll, Baden-Baden, 1988», не дискографический источник, только ориентир для датировки). Если запись действительно из этого периода — певцу ок. 62–66 лет, поздний период (тон суше по дайджесту), ближе к завершению карьеры (публичный уход со сцены в дек. 1992).",
+   "reputation": "Не найдена в рамках сессии.",
+   "sources": [
+    "planning/youtube/data/d832-des-sangers-habe.mb.json",
+    "MusicBrainz API: work 45e9b788-11db-430e-ba0a-0bee83bce752, запрошено 2026-08-16 (частично: releases для этого recording ID не удалось дозапросить из-за сетевого сбоя)"
+   ],
+   "youtube": [],
+   "note": "Видео с этой конкретной записью (178 с) на YouTube не найдено — все совпадающие по названию ролики на канале «Dietrich Fischer-Dieskau - Topic» имеют другую длительность (185–186 и 198 с). Кандидат неполный: год, альбом, лейбл и доступность на YouTube требуют доисследования (в идеале — повторный запрос MB releases и целевой веб-поиск, недоступные в этой сессии)."
+  },
+  {
+   "singer": "Richard Jackson",
+   "pianist": "Graham Johnson",
+   "rec_year": "февраль 1996",
+   "year_source": "planning/youtube/albums.md, раздел D 800 — «Richard Jackson — The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad»» — запись февраль 1996, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание сентябрь 1996; сверено с MusicBrainz — recording cf2f8170-afdb-4797-9fc8-a2df5bb09105 (184 с, артисты «Richard Jackson, Graham Johnson») входит в тот же том свода.",
+   "album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad»",
+   "label": "Hyperion / Universal (Topic-канал с 2023)",
+   "age_voice": "Данных о состоянии голоса Джексона в дайджесте нет (певец вне основного фонда приоритетов и звёзд прошлого) — не оценивается.",
+   "reputation": "По albums.md том получил Gramophone Editor's Choice и Classic CD «Song Record of the Year» (за программу в целом, реконструкцию шубертиады 1826 года); отдельно по этой песне рецензий не найдено.",
+   "sources": [
+    "planning/youtube/albums.md, раздел «D 800 (Der Einsame)»",
+    "planning/youtube/data/d832-des-sangers-habe.mb.json"
+   ],
+   "youtube": [
+    {"videoId": "6A-YKWYxf4Q", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Научный эталон издания (комментарии Грэма Джонсона); Джексон — не звезда прошлого и не входит в список приоритетов, но это единственная запись песни в полном своде Hyperion."
+  },
+  {
+   "singer": "Samuel Hasselhorn",
+   "pianist": "Ammiel Bushakevitz",
+   "rec_year": "сессии до 2024; издание 28 февраля 2025",
+   "year_source": "planning/youtube/albums.md, раздел D 799 и D 768 — «Samuel Hasselhorn — Schubert: Licht und Schatten (HMM902747)», проект «Schubert 200», том 2, издание 28.02.2025, harmonia mundi, песни 1824–1826; сверено с MusicBrainz — recording 00abd38a-4431-4b1a-b3a8-e037a140e82d (214986 мс ≈ 215 с) совпадает по длительности с MB-карточкой Hasselhorn/Bushakevitz.",
+   "album": "Schubert: Licht und Schatten (HMM902747, «Schubert 200», том 2)",
+   "label": "harmonia mundi",
+   "age_voice": "р. 1990, на момент записи ок. 33–34 лет; текущий вокальный расцвет по дайджесту (проект «Schubert 200» — специально к 200-летию сочинения песен 1824–26).",
+   "reputation": "По albums.md альбом получил Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik (за альбом в целом, не за конкретно эту песню). Правило скепсиса к пиару современных исполнителей — учитывать при ранжировании.",
+   "sources": [
+    "planning/youtube/albums.md, разделы D 799 и D 768",
+    "planning/youtube/data/d832-des-sangers-habe.mb.json"
+   ],
+   "youtube": [
+    {"videoId": "0p0dvptKAjs", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "На том же канале есть ещё один ролик (fmRggm8zDWE, 190 с) с тем же названием, но с другой длительностью — не совпадает с MB-длиной (215 с) этой записи; вероятно другая версия/обрезка или ошибочный матч по названию, взят видео с точным совпадением длительности."
+  },
+  {
+   "singer": "Siegfried Lorenz",
+   "pianist": "Norman Shetler",
+   "rec_year": "октябрь 1976",
+   "year_source": "MusicBrainz work-relation: recording 31966af5-f048-4eed-b080-0457f8dbc134 (216 с, артисты «Siegfried Lorenz, Norman Shetler») — begin/end 1976-10.",
+   "album": "не установлен точно; по дайджесту у Лоренца обширный каталог Schubert-песен на лейбле Eterna (ГДР), распространяемый на YouTube через официальный «Siegfried Lorenz - Topic» (подтверждено: на канале найдены отдельные песни из Winterreise, Die schöne Müllerin и др. отдельными треками).",
+   "label": "Eterna (предположительно, по аналогии с остальным Schubert-каталогом певца на Topic-канале; не подтверждено для конкретно этого трека)",
+   "age_voice": "Лоренц (баритон, ГДР) не входит в фонд singers-digest.md — карточки нет, состояние голоса не оценивается.",
+   "reputation": "Не найдена в рамках сессии.",
+   "sources": [
+    "planning/youtube/data/d832-des-sangers-habe.mb.json",
+    "MusicBrainz API: work 45e9b788-11db-430e-ba0a-0bee83bce752, запрошено 2026-08-16",
+    "yt-dlp ytsearch по каналу «Siegfried Lorenz - Topic» — подтверждает существование обширного официального Schubert-каталога певца, но конкретно D 832 в выдаче не найден"
+   ],
+   "youtube": [],
+   "note": "Целенаправленный поиск (несколько запросов yt-dlp) не нашёл видео именно этой песни на канале «Siegfried Lorenz - Topic», хотя канал явно содержит официальный Schubert-каталог певца (Winterreise, Müllerin и др. отдельными треками). Кандидат подтверждён по MB (дата, партнёр), но доступность на YouTube не подтверждена — требуется доп. проверка (возможно иной поисковый запрос или просмотр канала целиком)."
+  }
+ ],
+ "priority_singers_checked": {
+  "Quasthoff Thomas": "Не записывал. В MusicBrainz-дискографии работы D 832 (7 записей) не значится; в singers-digest.md среди 6 Schubert-альбомов Квастхофа (Goethe-Lieder RCA, Winterreise RCA, Schwanengesang DG, Lieder с оркестром DG, Müllerin DG, Winterreise-фильм DG) эта песня не упомянута.",
+  "Fischer-Dieskau Dietrich": "ДА, записывал — трижды: с Gerald Moore (март 1969, DG Sämtliche Lieder), с Sviatoslav Richter (live, июль и авг. 1977), с Hartmut Höll (дата не установлена). См. кандидатов выше.",
+  "Schwarzkopf Elisabeth": "Не записывала. В MB-дискографии D 832 не значится; песня мужская по тексту/тесситуре (Uhland, «странствующий певец») — не входит в типичный женский рецитальный репертуар, что согласуется с отсутствием записи.",
+  "Hotter Hans": "Не записывал. В MB-дискографии D 832 не значится; в singers-digest.md среди перечисленных записей Хоттера (Winterreise DG/EMI, Schwanengesang+Lieder EMI) эта песня не упомянута.",
+  "Anders Peter": "Не записывал. В MB-дискографии D 832 не значится; в singers-digest.md среди записей Андерса (Winterreise 1945, Müllerin 1945/1948) эта песня не упомянута.",
+  "Schumann Elisabeth": "Не записывала. В MB-дискографии D 832 не значится; песня мужская по тексту — не входит в типичный женский репертуар.",
+  "Ludwig Christa": "Не записывала. В MB-дискографии D 832 не значится.",
+  "Popp Lucia": "Не записывала. В MB-дискографии D 832 не значится."
+ },
+ "albums_facts": [
+  {
+   "album": "Dietrich Fischer-Dieskau / Gerald Moore — Schubert: Sämtliche Lieder (21 CD)",
+   "singer": "Dietrich Fischer-Dieskau",
+   "year": "1966–1972 (сессия D 832 — март 1969)",
+   "label": "Deutsche Grammophon",
+   "facts": "Полный свод всех мужских песен Шуберта; женские песни (вкл. Gretchen am Spinnrade D 118) сознательно исключены. См. planning/youtube/albums.md.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (Richard Jackson, Graham Johnson)",
+   "singer": "Richard Jackson",
+   "year": "запись февраль 1996; издание сентябрь 1996",
+   "label": "Hyperion / Universal",
+   "facts": "Реконструкция шубертиады 1826 года; Der Einsame D 800 открывает диск. Gramophone Editor's Choice, Classic CD «Song Record of the Year». Des Sängers Habe D 832 подтверждена в этом же томе через MusicBrainz.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Samuel Hasselhorn / Ammiel Bushakevitz — Schubert: Licht und Schatten (harmonia mundi HMM902747, «Schubert 200» том 2)",
+   "singer": "Samuel Hasselhorn",
+   "year": "издание 28 февраля 2025",
+   "label": "harmonia mundi",
+   "facts": "Проект «Schubert 200» — песни ровно через 200 лет после сочинения; альбом посвящён песням 1824–1826 (весь пилотный раздел). Diapason d'or de l'année 2025, Bestenliste 2/2025 Preis der deutschen Schallplattenkritik.",
+   "covers_more_pilot_songs": true
+  }
+ ],
+ "surveys": [
+  "Сравнительные обзоры (klassik-prisma.de Vergleich, Gramophone, MusicWeb, BBC Music Magazine) для конкретно D 832 не найдены — сессия WebSearch исчерпала лимит (200/200) в начале работы над этой песней; последующие попытки через WebFetch на Bing/DuckDuckGo/Google/Discogs/Hyperion-поиск не дали релевантного контента (геолокация на nl-домены, капчи, 403). Рекомендация: доисследовать в отдельной сессии/после сброса лимита WebSearch, прежде чем публиковать топ-5."
+ ],
+ "negatives": [
+  "Приоритетные исполнители Quasthoff, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp — ни один не записал Des Sängers Habe D 832 (см. priority_singers_checked); подтверждено отсутствием в полной MB-дискографии работы (7 записей) и отсутствием упоминаний в singers-digest.md.",
+  "Найдены дополнительные YouTube-ролики этой песни, НЕ подтверждённые ни одним дискографическим источником (MB, albums.md, singers-digest.md) — исполнители Rainer Trost (тенор, канал «Rainer Trost - Topic», videoId jCXIZRI7NtM, 172 с) и Tomasz Wija / David Santos (канал «Tomasz Wija, David Santos - Topic», videoId O7k8CsIGqHM, 204 с). Оба отсутствуют в MB-дискографии работы (7 recordings). Trost — легитимный официальный Topic-канал с полноценным каталогом (Fischerweise, Harfenspieler II и др.), т.е. запись, вероятно, реальна, но год/альбом/лейбл не верифицированы ни одним источником в этой сессии — исключены из формальных кандидатов до доисследования.",
+  "Прочие найденные в generic-поиске ролики (id: s59EqQYecr8 «I am what I am», 2w85rvR5hG4 «bert muzieklexicon», dYPi6uLwm6E «Schliessmuskel - Topic», vXqKWVxzSOI «LSTLSUS») — не значимые/любительские загрузки без опознаваемых исполнителей, не рассматривались как кандидаты.",
+  "MusicBrainz API стал недоступен по сети (TLS-сбой) в середине сессии сразу после первого успешного запроса (work→recording-rels) — не удалось дозапросить releases (каталожные номера, точные названия альбомов) для записей Fischer-Dieskau/Richter, Fischer-Dieskau/Höll и Siegfried Lorenz/Shetler. Даты сессий для этих трёх записей взяты из уже полученного (до сбоя) ответа work-relations и не выдуманы, но альбом/лейбл для Höll и Lorenz остаются неполными."
+ ]
+}

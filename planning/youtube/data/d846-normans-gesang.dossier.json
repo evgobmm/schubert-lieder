@@ -1,0 +1,182 @@
+{
+  "d": "846",
+  "title": "Normans Gesang",
+  "research_note": "Сессия столкнулась с отказом почти всей веб-поисковой инфраструктуры: лимит WebSearch исчерпан ДО начала работы над этой песней (0 из 200 доступно); DuckDuckGo (lite и html) отдавал только CAPTCHA; Google — consent-редирект без результатов; Bing — редиректил на не относящиеся к запросу результаты (лотереи, рестораны) независимо от текста запроса; Discogs и Presto Music — HTTP 403; MusicBrainz — недоступен и по API (curl/node fetch), и по веб (WebFetch, 'Socket is closed'), несмотря на то что каркас .mb.json уже существовал (создан ранее, до этого сбоя). Единственные стабильно работавшие каналы: hyperion-records.co.uk и klassik-prisma.de (WebFetch), а также yt-dlp/YouTube (полнотекстовый поиск через ytsearch работал; извлечение метаданных конкретных видео — блокировано anti-bot). Из-за этого часть фактов (пианисты/годы/альбомы Souzay, Bostridge, Goerne, Trekel, Hampson) не подтверждена дискографическим источником в этой сессии и помечена '?'; сравнительные обзоры (Gramophone/MusicWeb/BBC Music Magazine) не были и не могли быть проверены — это пробел поиска, а не установленное отсутствие обзоров.",
+  "tier": "medium (мужская песня из Op. 52 на слова В. Скотта; MusicBrainz даёт неполное покрытие работы — Souzay и Bostridge найдены только через YouTube, не через MB)",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (сессии DG «Sämtliche Lieder», 21 CD — по дайджесту фонда певцов); в MusicBrainz также фигурирует релиз с пометкой «2011 Digital Remaster» (переиздание той же записи)",
+      "year_source": "planning/research/singers-digest.md (полный свод ~400+ мужских песен, DG 1966–72, Moore, 21 CD) — точная сессионная дата именно D 846 внутри этого свода дискографически не сверена в этой сессии (веб-поиск недоступен)",
+      "album": "Schubert: Sämtliche Lieder (DG, Moore); переиздание содержит пометку «2011 Digital Remaster»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "В границах вокального пика по дайджесту (~1951–1972); если сессия — во второй половине 1966–72, голос уже в фазе некоторой суше по общей характеристике певца в этот период",
+      "reputation": "Не оценена индивидуально в этой сессии (обзоры недоступны); статус — часть эталонного полного свода мужских песен Шуберта, стандартная референсная точка проекта для любой мужской песни",
+      "sources": [
+        "planning/youtube/data/d846-normans-gesang.mb.json (3 записи FiDi/Moore: 184s, 191s, 185s-remaster)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "Aku-ubz7bjk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "DMWTtp8SJ4s", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "RwpoVX_IvP4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "CPM5mPXmIZQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "iwdwf__8Fwk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "5 разных videoId на официальном Topic-канале — вероятно дубликаты по территориальным/дистрибьюторским загрузкам одной-двух мастер-записей (191s и 185s-remaster), не 5 разных исполнений. Фан-загрузка 'YueP39GiQJw' озаглавлена «Fischer-Dieskau / Moore 1958» — ЭТА ДАТА НЕ ПРИНЯТА как факт: по правилам проекта метаданные YouTube-загрузок не источник дат; если существует отдельная более ранняя сессия FiDi/Moore для этой песни (до 21-CD свода), это требует отдельной проверки по дискографии."
+    },
+    {
+      "singer": "Thomas Hampson",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен в этой сессии (веб-поиск недоступен)",
+      "year_source": "не подтверждено — только вывод по составу исполнителей",
+      "album": "почти наверняка один из томов Hyperion Schubert Edition (Johnson — эксклюзивный пианист-музыковед этого издания; ни в одном другом контексте пара Hampson/Johnson не встречается) — номер тома не установлен",
+      "label": "Hyperion",
+      "age_voice": "не определить без года записи",
+      "reputation": "не оценена индивидуально в этой сессии; статус издания — научный эталон (Hyperion Schubert Edition), общий критерий проекта",
+      "sources": [
+        "planning/youtube/data/d846-normans-gesang.mb.json",
+        "planning/youtube/data/d846-normans-gesang.yt.json"
+      ],
+      "youtube": [
+        {"videoId": "GvvC4dcmL14", "channel": "Thomas Hampson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Требует дозаверки: номер тома Hyperion Schubert Edition и год сессии. Не удалось получить через hyperion-records.co.uk (сайт-поиск по названию недоступен без прямого URL страницы трека, а URL для этой песни найти не удалось из-за отказа поисковых систем)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "не установлен в этой сессии",
+      "year_source": "не подтверждено",
+      "album": "не установлен; ВАЖНО: это НЕ том его 12-томного Matthias Goerne Schubert Edition (harmonia mundi, 2008–2014) — там пианисты для основной массы записей Eschenbach/Schneider по дайджесту, не Haefliger. Вероятно, ранняя (1990-е) запись отдельного рецитала, но не подтверждено",
+      "label": "не установлен",
+      "age_voice": "не определить без года",
+      "reputation": "не оценена в этой сессии",
+      "sources": [
+        "planning/youtube/data/d846-normans-gesang.mb.json",
+        "planning/research/singers-digest.md (для проверки несовпадения с известными томами Goerne Edition)"
+      ],
+      "youtube": [
+        {"videoId": "cEU8tyvu04I", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Название альбома/год требуют отдельной дискографической проверки в следующей сессии с доступным веб-поиском."
+    },
+    {
+      "singer": "Roman Trekel",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "не установлен в этой сессии",
+      "year_source": "не подтверждено — вывод по составу исполнителей",
+      "album": "весьма вероятно один из томов Naxos Deutsche Schubert-Lied-Edition (Eisenlohr — штатный пианист всего издания; Трекель уже фигурирует в издании как исполнитель Winterreise, т. 1, 8.554471) — конкретный том не установлен",
+      "label": "Naxos",
+      "age_voice": "не определить без года",
+      "reputation": "не оценена индивидуально; общий критерий издания — научная полнота, немецкоязычные певцы",
+      "sources": [
+        "planning/youtube/data/d846-normans-gesang.mb.json",
+        "planning/research/singers-digest.md (Trekel: Naxos DSLE т. 1, 8.554471, ~1999, Eisenlohr — для Winterreise)"
+      ],
+      "youtube": [
+        {"videoId": "dkzIQmxMk7Y", "channel": "Roman Trekel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Том и год для конкретно D 846 требуют дозаверки."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "запись не позднее издания 28 февраля 2025",
+      "year_source": "planning/youtube/albums.md (строка Hasselhorn — Schubert: Licht und Schatten)",
+      "album": "Schubert: Licht und Schatten (HMM902747) — проект «Schubert 200», том 2; песни 1824–1826 годов, ровно раздел пилота",
+      "label": "harmonia mundi",
+      "age_voice": "Хассельхорн р. 1990 → на момент записи ~34 года; пик по дайджесту начался ~2019 и продолжается",
+      "reputation": "Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik (по albums.md) — но эти премии относятся к альбому в целом; индивидуальная критика конкретно D 846 не найдена в этой сессии. Применять правило скепсиса к пиару современных исполнителей при финальном отборе.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "planning/youtube/data/d846-normans-gesang.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "HPEx2BCYfOE", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный кандидат с полностью верифицированным годом/лейблом/наградами в этой сессии — за счёт уже существующей записи в albums.md."
+    },
+    {
+      "singer": "Erwin Belakowitsch",
+      "pianist": "Christoph Berner",
+      "rec_year": "не установлен",
+      "year_source": "не подтверждено",
+      "album": "не установлен; официальный Topic-канал существует (значит, есть легальный дистрибутируемый релиз), но по остальному контенту его каналов (мюзикл «Anatevka», «Griessner Stadl», шоу-номера) — не специализированный Lied-певец академической традиции",
+      "label": "не установлен",
+      "age_voice": "не определить",
+      "reputation": "Низкий профиль по сравнению с остальными кандидатами; нет свидетельств критического внимания (обзоров, премий) — вероятный кандидат на исключение из топ-5 при прочих сильных претендентах",
+      "sources": [
+        "planning/youtube/data/d846-normans-gesang.mb.json",
+        "yt-dlp ytsearch по каналу Erwin Belakowitsch - Topic (обнаружены записи Die schöne Müllerin и др., но не выявлен профиль академического лидер-специалиста)"
+      ],
+      "youtube": [],
+      "note": "videoId конкретно для Normans Gesang на его канале не найден целевым поиском в этой сессии (найден только в MB-каркасе как факт существования записи); для топ-5 не хватает и репутационных, и технических данных — низкий приоритет."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "не установлен в этой сессии (типичный партнёр Souzay в шубертовском репертуаре по дайджесту — Dalton Baldwin, но для этой конкретной записи не подтверждено)",
+      "rec_year": "не установлен",
+      "year_source": "не подтверждено",
+      "album": "не установлен; ЗАПИСЬ ОТСУТСТВУЕТ в списке MusicBrainz для этой работы (найдена только через YouTube) — само существование записи подтверждено официальным Topic-каналом",
+      "label": "не установлен",
+      "age_voice": "Souzay пик ~1950-е–сер.1960-х по дайджесту; с ~1970 голос заметно сохнет — важно для датировки при дозаверке",
+      "reputation": "не оценена индивидуально в этой сессии",
+      "sources": [
+        "planning/youtube/data/d846-normans-gesang.yt.json",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "KXWUgu4vFzc", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Крупный исторический баритон — сильный потенциальный кандидат, но пианист/год/альбом требуют дозаверки прежде включения в топ-5."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "не установлен в этой сессии",
+      "rec_year": "не установлен",
+      "year_source": "не подтверждено",
+      "album": "не установлен; ЗАПИСЬ ОТСУТСТВУЕТ в списке MusicBrainz для этой работы (найдена только через YouTube); ни один из известных по дайджесту альбомов Бостриджа (Hyperion Müllerin 1996, EMI Winterreise 2004, EMI Müllerin 2005, EMI Schwanengesang 2009, Pentatone Winterreise 2019) не упоминает Walter-Scott-песни — возможно, отдельный рецитал или бонус-трек",
+      "label": "не установлен",
+      "age_voice": "не определить без года",
+      "reputation": "не оценена в этой сессии",
+      "sources": [
+        "planning/youtube/data/d846-normans-gesang.yt.json",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "a4t5ZOsPDbA", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальный Topic-канал подтверждает легальный релиз, но происхождение (альбом) не идентифицировано — дозаверка нужна перед включением в топ-5."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. По дайджесту его дискография (Goethe-Lieder 1993/95, Winterreise 1998, Schwanengesang 2001, оркестровые Lieder 2003, Müllerin 2005, фильм Winterreise 2005 — 6 альбомов) не включает Op. 52 (Walter-Scott-песни). Целевой поиск yt-dlp ('Quasthoff Normans Gesang Schubert') не дал совпадений. Источник: planning/research/singers-digest.md + yt-dlp.",
+    "Dietrich Fischer-Dieskau": "Записывал — DG «Sämtliche Lieder» (Moore). См. кандидата выше.",
+    "Elisabeth Schwarzkopf": "НЕ записывала. Песня — партия мужского персонажа (Норман, слуга-охотник) из цикла на слова В. Скотта; не встречается в её дискографии по дайджесту. Прямых указаний на запись не найдено.",
+    "Hans Hotter": "НЕ найдено свидетельств записи. В дайджесте его шубертовская дискография (Winterreise DG 1942/EMI 1954/DG 1961, Schwanengesang + Lieder нач. 1950-х) не упоминает эту песню; целевой поиск yt-dlp ('Hotter Normans Gesang Schubert') совпадений не дал.",
+    "Peter Anders": "НЕ найдено свидетельств записи. В дайджесте — только Winterreise (1945) и Müllerin (1945/1948); целевой поиск по его официальному Topic-каналу дал только треки Winterreise, ни одного Normans Gesang.",
+    "Elisabeth Schumann": "НЕ записывала. Песня — мужская партия; не входит в её ~28-песенную антологию (Naxos 8.110731) по дайджесту.",
+    "Christa Ludwig": "НЕ записывала. Песня — мужская партия; не упомянута ни в одном из перечисленных в дайджесте её шубертовских рециталов.",
+    "Lucia Popp": "НЕ записывала. Песня — мужская партия; не входит в её основной шубертовский рецитал (EMI 1983) или другие записи по дайджесту."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Licht und Schatten (HMM902747)",
+      "singer": "Samuel Hasselhorn",
+      "year": "2025 (издание 28.02.2025)",
+      "label": "harmonia mundi",
+      "facts": "Проект «Schubert 200», том 2; песни 1824–1826; премии Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik; пианист Ammiel Bushakevitz. Уже задокументировано в planning/youtube/albums.md.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [],
+  "surveys_note": "Ни одного сравнительного обзора (Gramophone, MusicWeb International, BBC Music Magazine, слепые тесты) для D 846 не найдено в этой сессии — но это пробел инструментов (WebSearch исчерпан, поисковые системы через WebFetch не отдавали релевантных результатов), а не подтверждённое отсутствие таких обзоров. klassik-prisma.de проверен напрямую (полный список Schubert.htm) — 'Normans Gesang' / D. 846 в перечне НЕТ, т.е. на этом конкретном сайте сравнительной статьи по песне точно нет.",
+  "negatives": [
+    "klassik-prisma.de: страницы сравнения (Vergleich) для D 846 не существует — проверено напрямую по полному списку Schubert.htm (перечислены только D.774, D.965, D.828, D.328, D.118, D.583, D.827, D.795, D.911).",
+    "MusicBrainz work-linked recordings (9 штук) не включают записи Souzay и Bostridge — обе найдены только через прямой YouTube-поиск; значит каркас MB для этой редкой песни неполон, и итоговый пул кандидатов не следует ограничивать только MB-списком.",
+    "Erwin Belakowitsch — по совокупности его YouTube-контента (мюзикл, шоу-номера) выглядит как невысокопрофильный/региональный исполнитель, а не признанный лидер-специалист; для топ-5 нужны более веские основания включения, чем сам факт существования записи.",
+    "Ни Quasthoff, ни Hotter, ни Anders, ни четыре приоритетные женщины (Schwarzkopf, E. Schumann, Ludwig, Popp) эту песню не записывали (см. priority_singers_checked) — ожидаемо для мужской партии внутри женского цикла на слова В. Скотта, но каждый случай проверен целевым поиском, а не просто предположением по полу."
+  ]
+}

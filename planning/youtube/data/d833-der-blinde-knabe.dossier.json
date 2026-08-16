@@ -1,0 +1,238 @@
+{
+  "d": "833",
+  "title": "Der blinde Knabe",
+  "tier_note": "Ярус «medium»; MusicBrainz даёт 10 закаталогизированных записей work (work id dffd37bf-8aec-4453-8a67-48edc039da03) + 1 доп. запись (Goerne) найдена только через официальный YouTube-Topic-канал, не через MB. Итоговый пул — 11 кандидатов.",
+  "candidates": [
+    {
+      "singer": "Barbara Hendricks",
+      "pianist": "Radu Lupu",
+      "rec_year": "1985 (сессии 25, 28, 29, 30 ноября)",
+      "year_source": "MusicBrainz work-relations (recording id 1ebdf49a-aca3-404e-8d2a-5b31c180e8fd, begin/end 1985-11) + albums.md: та же сессия (Salle Wagram, Париж) документирована по D 118/D 768/D 800/D 839 — точные даты сессии оттуда, песня D 833 в реестре явно не перечислена (пробел реестра, стоит дополнить)",
+      "album": "EMI/Warner «Schubert: Lieder» (Hendricks / Lupu), Salle Wagram, Париж",
+      "label": "EMI / Warner Classics",
+      "age_voice": "Хендрикс р. 1948 → 37 лет в 1985; пик по дайджесту ~1980-е–1990-е — запись в пределах пика. Редкий случай пианиста-солиста первого ряда (Раду Лупу) в аккомпанементе.",
+      "reputation": "Специальных обзоров именно на эту песню не найдено (см. ограничения поиска в surveys). Общая репутация цикла Hendricks/Lupu — один из самых известных женских шубертовских рециталов 1980-х (singers-digest).",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, begin/end 1985-11)",
+        "planning/youtube/albums.md (запись Hendricks/Lupu, сессии 25/28/29/30.11.1985, Salle Wagram)"
+      ],
+      "youtube": [
+        {"videoId": "nFrgSGgi1xg", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "RJrgJLClX1o", "channel": "D887andD887", "official": false, "oembed_ok": null}
+      ],
+      "note": "Официальная запись доступна и встраиваема (Topic). Фан-канал D887andD887 имеет заметно больше просмотров (14 тыс. vs 2 тыс.), но не официален — по правилам гигиены ссылок предпочтителен Topic."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "март 1969",
+      "year_source": "MusicBrainz work-relations (recording id d7f7e769-6b50-4e62-b5b2-4b5dd8de3409, begin/end 1969-03); попадает в диапазон сессий DG «Sämtliche Lieder» 1966–1972",
+      "album": "Deutsche Grammophon «Schubert: Sämtliche Lieder» (21 CD), Ufa-Ton-Studio, Берлин",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Фишер-Дискау р. 1925 → 43–44 года; пик по дайджесту ~1951–1972 — запись внутри пика, до огрубения тона середины 1970-х.",
+      "reputation": "Приоритетный певец №2 по правилам проекта. Часть базового полного свода мужских песен Шуберта — опорная точка для любой мужской песни. Отдельного сравнительного обзора конкретно на D 833 не найдено в рамках сессии (см. ограничения).",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, begin/end 1969-03)",
+        "planning/research/singers-digest.md (запись «полный свод ~400+ мужских песен, DG 1966–72, Moore, 21 CD»)"
+      ],
+      "youtube": [
+        {"videoId": "t_TSxwz-wZs", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "99Km99jQsuk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ZB04l9EsAeo", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три отдельных официальных Topic-загрузки одной и той же записи (161 c) — вероятно региональные дубли одного трека; для топ-5 использовать с наибольшим числом просмотров (99Km99jQsuk, 2860)."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Paul Hamburger",
+      "rec_year": "25 апреля 1968",
+      "year_source": "MusicBrainz work-relations (recording id ceec6c17-6e47-4cbe-b234-094d0fd5bb8a, begin/end 1968-04-25)",
+      "album": "не идентифицирован (это НЕ известный 2-LP EMI-рецитал с Gerald Moore 1970 года из albums.md — другой пианист, другой год)",
+      "label": "не установлен",
+      "age_voice": "Бейкер р. 1933 → 35 лет; пик по дайджесту ~1965–1982 — запись внутри пика, за 2 года до знаменитого рецитала с Муром.",
+      "reputation": "Не идентифицирован источник/издание; критической оценки конкретно этой записи не найдено. Сама Бейкер — одна из «звёзд прошлого» по правилам приоритета.",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, begin/end 1968-04-25)"
+      ],
+      "youtube": [
+        {"videoId": "C7klBcs1dnI", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "ВАЖНО: не путать с альбомом Baker/Moore 1970 (EMI, известен по D 118/D 828/D 839 в albums.md) — это отдельная, более ранняя запись с другим пианистом (Hamburger), происхождение не установлено. Только фан-загрузка на YouTube, не официальный канал."
+    },
+    {
+      "singer": "Mitsuko Shirai",
+      "pianist": "Hartmut Höll",
+      "rec_year": "май 1988",
+      "year_source": "MusicBrainz work-relations (recording id 31d2e148-403c-4ee6-89ba-ec1c372dd6fc, begin/end 1988-05); подзаголовок записи «O sagt, ihr Lieben», D. 833, op. posth. 101/2",
+      "album": "не идентифицирован (Shirai/Höль — известный шубертовский дуэт, специализирующийся в т.ч. на редких песнях; альбом не подтверждён в рамках сессии)",
+      "label": "не установлен",
+      "age_voice": "Ширай р. 1949 → 39 лет. Данных о вокальном пике в дайджесте нет (певица не входит в фонд singers-digest.md).",
+      "reputation": "Не найдено в рамках сессии; дуэт Shirai/Höll имеет устойчивую репутацию исполнителей-исследователей редкого немецкого Lied-репертуара.",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, begin/end 1988-05)"
+      ],
+      "youtube": [
+        {"videoId": "K4m6qlhkA0U", "channel": "Mitsuko Shirai - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальная Topic-загрузка, встраиваема."
+    },
+    {
+      "singer": "Margaret Price",
+      "pianist": "Graham Johnson",
+      "rec_year": "9–10 октября 1991",
+      "year_source": "MusicBrainz work-relations (recording id 0ea28de9-b40f-482a-be0c-4a8f2a324860, begin 1991-10-09, end 1991-10-10) + albums.md: «Margaret Price — The Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne» — запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон» — даты совпадают",
+      "album": "Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne»",
+      "label": "Hyperion (с 2023 — Universal, official audio на Topic)",
+      "age_voice": "Прайс р. 1941 → 50 лет; пик по дайджесту ~1970–1990 — запись сделана уже ПОСЛЕ заявленного пика, на его исходе.",
+      "reputation": "Часть научного эталонного издания Грэма Джонсона (комментарии в буклете самого тома, не проверены в рамках сессии).",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, begin 1991-10-09/end 1991-10-10)",
+        "planning/youtube/albums.md (запись Margaret Price, Hyperion Vol. 15, октябрь 1991)"
+      ],
+      "youtube": [
+        {"videoId": "xvWOZlFYluU", "channel": "Margaret Price - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Двойная сверка даты (MB + albums.md) — высокая надёжность атрибуции этой записи именно к Hyperion Vol. 15."
+    },
+    {
+      "singer": "Margaret Price",
+      "pianist": "James Lockhart",
+      "rec_year": "не установлен точно; переиздание маркировано «1998 - Remaster» — оригинальная сессия старше (Локхарт — пианист её раннего периода карьеры, предположительно 1970-е; не подтверждено)",
+      "year_source": "MusicBrainz work-relations (recording id 91eff788-36d9-4030-8bcf-24eecd947a1e; дата begin/end отсутствует в relations, только пометка «1998 - Remaster» в названии записи)",
+      "album": "не идентифицирован",
+      "label": "не установлен",
+      "age_voice": "Если запись из раннего периода (Локхарт был её постоянным партнёром в начале карьеры) — вероятно 1970-е, певица в пике или близко к нему (пик по дайджесту 1970–1990); точный возраст не вычислим без даты.",
+      "reputation": "Не найдено.",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, id 91eff788-36d9-4030-8bcf-24eecd947a1e, только пометка «1998 - Remaster», без begin/end)"
+      ],
+      "youtube": [
+        {"videoId": "1klc9Vl_LeE", "channel": "Margaret Price - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВНИМАНИЕ: длительность на YouTube (242 c) не совпадает точно с длительностью MB-записи (222 c) — соответствие видео этой записи не стопроцентно подтверждено, требует дополнительной проверки перед включением в топ-5. Это ДРУГОЙ официальный Topic-канал «Margaret Price», чем у записи с Johnson (иной channel_url) — подтверждает, что это отдельный релиз/лейбл."
+    },
+    {
+      "singer": "Maya Boog",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "17–21 июня 2002",
+      "year_source": "MusicBrainz work-relations (recording id d0f30856-4ca1-4473-b72c-b4f32a84442e, begin 2002-06-17, end 2002-06-21)",
+      "album": "предположительно Naxos Deutsche Schubert-Lied-Edition (пианист и продюсер серии — Ulrich Eisenlohr, см. singers-digest); конкретный том не подтверждён в рамках сессии",
+      "label": "Naxos (вероятно)",
+      "age_voice": "Данных о певице в дайджесте нет (не входит в фонд singers-digest.md); швейцарское сопрано.",
+      "reputation": "Не найдено в рамках сессии.",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, begin 2002-06-17/end 2002-06-21)",
+        "planning/research/singers-digest.md (справочно: Eisenlohr — продюсер и пианист Naxos Deutsche Schubert-Lied-Edition)"
+      ],
+      "youtube": [
+        {"videoId": "JXQn0lQD6ck", "channel": "Maya Boog - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Атрибуция к серии Naxos DSLE — по совпадению пианиста с известным продюсером серии, не по прямому подтверждению номера тома; трактовать как вероятную, не точную."
+    },
+    {
+      "singer": "Gundula Janowitz",
+      "pianist": "Charles Spencer",
+      "rec_year": "не установлен — не удалось получить дату сессии из MusicBrainz из-за сетевого сбоя (см. ограничения); запись подтверждена как существующая",
+      "year_source": "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 подтверждает наличие recording с этими исполнителями (частичные данные получены при первом успешном запросе к API до обрыва соединения); begin/end дата не извлечена",
+      "album": "не идентифицирован; ТОЧНО НЕ тот же альбом, что известная DG-запись Janowitz/Irwin Gage 1976–77 (другой пианист)",
+      "label": "не установлен",
+      "age_voice": "Яновиц р. 1937; пик по дайджесту ~1965–1980 — без даты сессии возраст на записи не вычислим.",
+      "reputation": "Не найдено.",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels — партиальное чтение)",
+        "planning/youtube/data/d833-der-blinde-knabe.mb.json (каркас: Gundula Janowitz, Charles Spencer)"
+      ],
+      "youtube": [
+        {"videoId": "eo_ANjprPBA", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Um42Cqyuqq8", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Обнаружены ДВЕ разные официальные Topic-записи: студийная (214 c, с пометкой «Charles Spencer» в MB) и отдельная live-версия (286 c, помечена «(Live)» в заголовке YouTube) — не путать между собой при отборе. Ни та ни другая не пересекаются с известным DG-альбомом Janowitz/Gage 1976–77 из singers-digest."
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz work-relations: recording id 0cec4005-290f-4b13-9c90-e8132178e93a присутствует, но begin/end/length все пустые (ended: false) — дата и длительность не задокументированы в MB",
+      "album": "не идентифицирован",
+      "label": "не установлен",
+      "age_voice": "Пирс р. 1910, ум. 1986; Бриттен — его постоянный аккомпаниатор. Без даты возраст не вычислим.",
+      "reputation": "Дуэт Pears/Britten по дайджесту — «одна из великих шубертовских связок»; их Winterreise 1963 названа «среди величайших». Отдельной оценки на D 833 не найдено.",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, recording id 0cec4005-290f-4b13-9c90-e8132178e93a, без дат)"
+      ],
+      "youtube": [],
+      "note": "Видео на YouTube не найдено ни через generic-поиск (yt.json), ни через целевой yt-dlp-запрос — запись, вероятно, недоступна на платформе или не издана широко (возможно, архивная/эфирная запись)."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Joseph Middleton",
+      "rec_year": "апрель 2021",
+      "year_source": "MusicBrainz work-relations (recording id 2024e57f-3037-47c0-8d2b-d6ad780d48e1, begin/end 2021-04)",
+      "album": "не идентифицирован; ТОЧНО НЕ альбом «Licht und Schatten» (проект «Schubert 200», harmonia mundi 2025, пианист Bushakevitz) — другой пианист и период",
+      "label": "не установлен",
+      "age_voice": "Хассельхорн р. 1990 → 30–31 год; пик по дайджесту ~2019–наст. время — запись внутри его раннего зрелого периода.",
+      "reputation": "Не найдено конкретно на эту запись. Хассельхорн в целом — восходящая звезда со сдержанной, некоммерческой репутацией (Diapason d'or, Preis der deutschen Schallplattenkritik за смежные релизы).",
+      "sources": [
+        "MusicBrainz work dffd37bf-8aec-4453-8a67-48edc039da03 (recording-rels, begin/end 2021-04)"
+      ],
+      "youtube": [
+        {"videoId": "8tMuQXWVQJY", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "На YouTube есть ОТДЕЛЬНАЯ живая запись этой песни с ДРУГИМ пианистом — Ammiel Bushakevitz (канал «Schubertíada», видео yAkyDiMgtR0, вероятно фестивальный концерт Schubertíada Vilabertran) — не смешивать со студийной записью с Middleton выше."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "не подтверждён (сессия завершена без верификации из-за сетевых ограничений на запрос метаданных YouTube)",
+      "rec_year": "не установлен",
+      "year_source": "Официальная загрузка на канале «Matthias Goerne - Topic» подтверждает существование студийной записи; точная дата/альбом/пианист не извлечены (yt-dlp вернул 429 Too Many Requests при попытке получить полные метаданные видео)",
+      "album": "вероятно один из 12 томов harmonia mundi «Matthias Goerne Schubert Edition» (2008–2014) — крупнейший сольный шубертовский свод современности (см. singers-digest), конкретный том не подтверждён",
+      "label": "harmonia mundi (предположительно)",
+      "age_voice": "Гёрне р. 1967; пик по дайджесту ~1997–2015. Без даты сессии точный возраст не вычислим.",
+      "reputation": "Не найдено конкретно на эту запись; Goerne Schubert Edition в целом — «крупнейший сольный шубертовский свод последних десятилетий» (singers-digest).",
+      "sources": [
+        "planning/youtube/data/d833-der-blinde-knabe.yt.json (генерик-поиск, видео 5MeXoOuN6oQ, канал «Matthias Goerne»)",
+        "node yt-check.js подтвердил официальный статус канала «Matthias Goerne - Topic»"
+      ],
+      "youtube": [
+        {"videoId": "5MeXoOuN6oQ", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат НЕ входит в 10 записей MusicBrainz work-relations — найден только через YouTube. Требует отдельной верификации пианиста/тома/года перед использованием в топ-5 (эффект приоритета не касается Гёрне напрямую, но качество и происхождение должны быть подтверждены)."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff Thomas": "НЕ записывал. Не найден в 10 MB work-relations; отсутствует в перечне его 6 Schubert-альбомов в singers-digest.md (закрытая дискография с 2012); целевой yt-dlp-поиск «Quasthoff blinde Knabe Schubert» вернул только записи других певцов (Fischer-Dieskau, Hendricks) — совпадений с его именем нет.",
+    "Fischer-Dieskau Dietrich": "ЗАПИСАЛ. С Gerald Moore, март 1969, DG «Sämtliche Lieder». Источник: MusicBrainz work-relations (recording id d7f7e769-6b50-4e62-b5b2-4b5dd8de3409, begin/end 1969-03); YouTube официально доступна (Dietrich Fischer-Dieskau - Topic).",
+    "Schwarzkopf Elisabeth": "НЕ записывала (не установлено). Отсутствует в 10 MB work-relations; не упомянута в singers-digest.md среди её записей; целевой yt-dlp-поиск «Schwarzkopf blinde Knabe Schubert» совпадений не дал.",
+    "Hotter Hans": "НЕ записывал (не установлено). Отсутствует в MB work-relations; не упомянут в singers-digest.md; целевой поиск совпадений не дал.",
+    "Anders Peter": "НЕ записывал (не установлено). Отсутствует в MB work-relations; не упомянут в singers-digest.md (его шубертовский корпус ограничен Winterreise 1945 и Müllerin 1945/1948); целевой поиск дал только его запись «Wasserflut» (другая песня).",
+    "Schumann Elisabeth": "НЕ записывала (не установлено). Отсутствует в MB work-relations; не упомянута в singers-digest.md среди её ~28 записанных песен HMV 1927–1949; целевой поиск дал только другие её песни (Das Heimweh, Schweizerlied).",
+    "Ludwig Christa": "НЕ записывала (не установлено). Отсутствует в MB work-relations; не упомянута в singers-digest.md; целевой поиск дал только другие её песни (Bertas Lied, Frühlingsglaube, Ständchen, Am Bach im Frühling).",
+    "Popp Lucia": "НЕ записывала (не установлено). Отсутствует в MB work-relations; в её основном шубертовском рецитале EMI 1983 (albums.md) песня не значится; целевой поиск дал только «Der Knabe» D 692 (другая песня со сходным названием) и «Der Fluß» — не D 833."
+  },
+  "albums_facts": [
+    {
+      "album": "EMI/Warner «Schubert: Lieder» (Hendricks / Lupu)",
+      "singer": "Barbara Hendricks",
+      "year": "1985 (сессии 25/28/29/30 ноября, Salle Wagram, Париж)",
+      "label": "EMI / Warner Classics",
+      "facts": "Уже задокументирован в albums.md по песням D 118, D 768, D 800, D 839; MusicBrainz подтверждает, что тот же альбом (совпадение месяца сессии) содержит и D 833 — реестр albums.md стоит дополнить этой песней при следующей правке.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne» (Margaret Price / Graham Johnson)",
+      "singer": "Margaret Price",
+      "year": "октябрь 1991",
+      "label": "Hyperion",
+      "facts": "Уже задокументирован в albums.md по песне D 828; MusicBrainz подтверждает совпадающую дату сессии (9–10.10.1991) для D 833 — та же сессия/том, реестр можно дополнить.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [],
+  "surveys_note": "В рамках этой сессии не удалось получить сравнительные обзоры (klassik-prisma.de, Gramophone, MusicWeb, BBC Music Magazine, hyperion-records.co.uk) — инструмент WebSearch исчерпал лимит сессии (200/200) в самом начале работы над этой песней, а WebFetch к профильным доменам (hyperion-records.co.uk find.asp, klassik-prisma.de, musicbrainz.org через WebFetch, google/bing/duckduckgo через WebFetch) либо возвращал 404/CAPTCHA/нерелевантные результаты, либо не проходил из-за сетевых ограничений песочницы (TLS-сброс на musicbrainz.org для прямых curl/node-запросов, кроме одного частично успешного вызова). Раздел оставлен пустым, чтобы не выдумывать факты; при повторном проходе с доступным поиском рекомендуется обязательно проверить klassik-prisma.de (Vergleich) и hyperion-records.co.uk (заметки Джонсона к Vol. 15) — правила требуют этого явно.",
+  "negatives": [
+    "Приоритетные певцы Quasthoff, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp — эту песню, по всем доступным источникам, не записывали (см. priority_singers_checked); список кандидатов, соответственно, не возглавляется приоритетным певцом №1 или №3 — только Фишер-Дискау (приоритет №2) обеспечивает высшую позицию.",
+    "Не удалось верифицировать полностью происхождение (альбом/лейбл) для 6 из 11 кандидатов: Baker/Hamburger 1968, Shirai/Höll 1988, Price/Lockhart, Janowitz/Spencer, Pears/Britten, Hasselhorn/Middleton 2021, Goerne — из-за исчерпания веб-поиска в этой сессии. Это ограничивает уверенность в разделе «репутация» для этих записей и требует дополнительного прохода перед составлением топ-5.",
+    "MusicBrainz work-relations запрос выполнить полностью не удалось: сеть песочницы сбрасывала TLS-соединение к musicbrainz.org почти во всех попытках (кроме одной частично успешной, давшей 9 из 10 дат); критично сделать повторный запрос в следующей сессии для проверки записи Janowitz/Spencer.",
+    "Видеозапись Price/Lockhart (1klc9Vl_LeE) имеет длительность 242 c на YouTube против 222 c по MB — соответствие не стопроцентно подтверждено."
+  ]
+}

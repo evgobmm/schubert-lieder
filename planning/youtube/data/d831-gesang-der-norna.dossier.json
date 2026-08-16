@@ -1,0 +1,158 @@
+{
+  "d": "831",
+  "title": "Gesang der Norna",
+  "tier": "rare",
+  "pool_note": "Пул из 5 значимых записей — фактически исчерпывающий (MusicBrainz: 4 записи, включая дубль Janowitz; веб/YT-поиск добавил 2 записи 2023 года). Ни одного дополнительного значимого исполнения (историческая эпоха, 78s, другие полные издания) не найдено. Причина скудости фонда: редкая, малоизвестная песня (текст — «заклинание» норны Ульлы Тройл из романа Вальтера Скотта «Пират», строфическая, диапазон меццо/контральто по описанию Грэма Джонсона), отсутствует в большинстве сольных рециталов и в своде Fischer-Dieskau/Moore (тот сознательно исключал женские песни).",
+  "candidates": [
+    {
+      "singer": "Gundula Janowitz (сопрано)",
+      "pianist": "Irwin Gage",
+      "rec_year": "1976–1977 (сессии IX–X.1976 и IX, XII.1977, Studio Lankwitz, Берлин)",
+      "year_source": "planning/youtube/data/albums.md, запись «Gundula Janowitz — Schubert: Lieder (DG 2530 858)» (издание 1977, продюсер Cord Garben); YouTube-загрузка (Universal Music Group, «The Gundula Janowitz Edition») даёт copyright ℗ 1978 — расхождение с датой сессии/первого издания не редкость (переиздание получает год копирайта переиздающего бокса); за основную дату принята сессионная по альбомному реестру, не по метаданным YouTube.",
+      "album": "Schubert: Lieder (DG 2530 858); переиздано в боксе «The Gundula Janowitz Edition» (2017)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Яновиц (р. 1937) — 39–40 лет на момент записи, точно в пределах указанного в дайджесте пика (~1965–1980); тот же альбом отдельно отмечен в реестре альбомов как 5-звёздный по klassik-prisma (в отношении Gretchen am Spinnrade, входящей в тот же диск) — свидетельство общей высокой формы голоса в этих сессиях.",
+      "reputation": "Прямых рецензий именно на эту песню не найдено (веб-поиск в сессии исчерпан после начальных запросов); альбом в целом дважды удостоен Deutscher Schallplattenpreis (по данным реестра альбомов) и получил 5 звёзд klassik-prisma за Gretchen am Spinnrade из того же цикла сессий — косвенное свидетельство качества всего диска.",
+      "sources": [
+        "planning/youtube/data/albums.md (запись Janowitz/Gage, DG 2530 858)",
+        "YouTube 'Provided to YouTube by Universal Music Group' — метаданные загрузки (только для проверки существования/канала, не как источник даты)"
+      ],
+      "youtube": [
+        {"videoId": "VXrwq-XwksM", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "MSxmKUMyUyA", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "note": "дубль того же трека на том же официальном канале, меньше просмотров — резервный ID"}
+      ],
+      "note": "Единственный дубль в пуле: два разных videoId с одинаковой длительностью (216 c) на одном Topic-канале — вероятно, повторная заливка при переиздании каталога. Основной ID — VXrwq-XwksM (больше просмотров)."
+    },
+    {
+      "singer": "Marie McLaughlin (сопрано)",
+      "pianist": "Graham Johnson",
+      "rec_year": "16–18 декабря 1990 (по общей практике сессий Hyperion Schubert Edition; точная дата этого трека в буклете не выделена отдельно) — издание 1 февраля 1992",
+      "year_source": "hyperion-records.co.uk, страница CDJ33013 (WebFetch): венue Rosslyn Hill Unitarian Chapel, Hampstead, London; release date February 1992; PDF-буклет (notes/33013-B.pdf, извлечён pdftotext) подтверждает присутствие «Gesang der Norna» D831 (текст песни и эссе Грэма Джонсона на стр. 25–26 буклета) на этом диске; planning/research/singers-digest.md и albums.md указывают на дек. 1990 / февр. 1992 как типовые даты сессий/релиза этого тома.",
+      "album": "The Hyperion Schubert Edition, Vol. 13 — Lieder Sacred & Profane (CDJ33013)",
+      "label": "Hyperion Records (Universal Music с 2023 — official audio на YouTube)",
+      "age_voice": "Возраст Маклафлин на момент записи не установлен точно (год рождения не подтверждён источником, singers-digest помечает «р. 1954 [неподтверждено]»); дайджест характеризует её запись в этом томе как «научный эталон издания» (общая оценка тома, не именно этой песни).",
+      "reputation": "Прямая критика записи песни не найдена; однако есть первичный источник высочайшего качества — собственное эссе Грэма Джонсона (пианист записи) в буклете CDJ33013: подробный музыковедческий разбор («As befits an incantation, it is strophic except for the vocal line at 'ihr Schein verlischt'…», «The bottom-heavy accompaniment opaquely hugs the vocal line and suggests darkness and the smoke of the flickering lamp»); song context — сцена из романа Вальтера Скотта «Пират» (гл. XIX), партия «в меццо или контральтовом диапазоне» по описанию сна Бренды в романе. Hyperion Schubert Edition в целом — общепризнанный научный эталон свода (см. singers-digest).",
+      "sources": [
+        "http://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33013 (WebFetch, дата релиза, венue)",
+        "http://www.hyperion-records.co.uk/notes/33013-B.pdf (буклет, извлечён pdftotext локально — эссе Грэма Джонсона о D831, текст песни, атрибуция Spiker/Scott)",
+        "planning/youtube/albums.md, запись «Marie McLaughlin — Hyperion Vol. 13»"
+      ],
+      "youtube": [
+        {"videoId": "2uCtBefwJ7A", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Пианист (Джонсон) — одновременно автор буклета; редкий случай, когда критический источник и исполнитель совпадают. Издание 2023 (Universal) вывело весь Hyperion-каталог на YouTube как official audio."
+    },
+    {
+      "singer": "Ruth Ziesak (сопрано)",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "точная дата сессии не верифицирована по дискографии; релиз — 14 февраля 2002",
+      "year_source": "Официальная YouTube-загрузка «Provided to YouTube by NAXOS of America» (content-ID лейбла) указывает ℗ 2002, Released on 2002-02-14 — используется здесь только как ОРИЕНТИР (по правилу метаданные загрузок не источник дат сами по себе); попытки найти страницу каталога Naxos (naxos.com/CatalogueDetail) с точным номером и датой сессии не увенчались успехом (сайт возвращал 404/ошибки при подборе номера); независимая верификация по буклету НЕ выполнена.",
+      "album": "Schubert Lied Edition 7 — European Poets, Vol. 1 (Naxos Deutsche Schubert-Lied-Edition)",
+      "label": "Naxos",
+      "age_voice": "Циcек (р. 1963) — ок. 39 лет на момент выхода записи; отдельной характеристики голоса Циcек на 2002 год в дайджесте фонда певцов нет (в дайджесте она упомянута только в связи с другим томом — Gretchen в т. 13 'Goethe-Lieder 2', 2003, где отмечена похвала klassik-prisma).",
+      "reputation": "Прямых рецензий на конкретно эту песню/том не найдено (поиск ограничен исчерпанным лимитом WebSearch и блокировками поисковых систем через WebFetch в этой сессии). Общая репутация серии: часть последовательного немецкоязычного полного свода песен Шуберта (Ulrich Eisenlohr) — по albums.md том 13 этой серии получил похвалу klassik-prisma за другую песню.",
+      "sources": [
+        "YouTube 'Provided to YouTube by NAXOS of America' — content-ID лейбла (только как ориентир даты, не как окончательный источник)",
+        "planning/research/singers-digest.md, статья «Naxos Deutsche Schubert-Lied-Edition»"
+      ],
+      "youtube": [
+        {"videoId": "d-8JuF4HkRk", "channel": "Ruth Ziesak - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Требуется дальнейшая верификация точной даты сессии по буклету Naxos, если песня попадёт в топ-5 — сейчас дата релиза (не сессии) взята из содержимого, предоставленного самим лейблом на YouTube, что ослабленный, но не полностью недопустимый источник (это не пользовательская/архивная перезаливка, а прямая публикация правообладателя)."
+    },
+    {
+      "singer": "Katharina Konradi (сопрано)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "запись не датирована отдельно; релиз альбома 28 апреля 2023",
+      "year_source": "Официальная YouTube-загрузка «Provided to YouTube by Kontor New Media GmbH» (лейбл Berlin Classics) — ℗ Berlin Classics, Released on 2023-04-28. Независимая дискография/буклет не найдены (поиск ограничен).",
+      "album": "Insomnia",
+      "label": "Berlin Classics (Edel Music & Entertainment)",
+      "age_voice": "Конради (р. 1988) — 34–35 лет на момент выхода альбома; дайджест фонда певцов отмечает её как восходящую звезду с хорошим охватом на YouTube, но не даёт отдельной оценки состояния голоса на 2023 год для этой конкретной песни.",
+      "reputation": "Рецензий на эту запись/песню не найдено в доступных источниках этой сессии. Правило скепсиса к пиару современных исполнителей применено: без независимой критической оценки эта запись не может считаться автоматически сильной — включение в топ-5 потребовало бы либо независимой рецензии, либо явного сравнительного прослушивания, которых на этом этапе не проводилось.",
+      "sources": [
+        "YouTube 'Provided to YouTube by Kontor New Media GmbH' (Berlin Classics content-ID)"
+      ],
+      "youtube": [
+        {"videoId": "VPRn1eLeMIg", "channel": "Katharina Konradi - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "singers-digest уже фиксировал альбом «Insomnia» (2023, Bushakevitz, CAvi?) с пометкой «весь альбом Шуберт»; здесь подтверждается фактический лейбл — Berlin Classics, не CAvi (расхождение с ранее непроверенным пунктом дайджеста — стоит поправить дайджест при случае)."
+    },
+    {
+      "singer": "Jasper Schweppe (баритон)",
+      "pianist": "Riko Fukuda",
+      "rec_year": "запись не датирована отдельно; релиз альбома 31 мая 2023",
+      "year_source": "Официальная YouTube-загрузка «Provided to YouTube by The-Source» (Etcetera Records) — ℗ 2023 Etcetera Records, Released on 2023-05-31.",
+      "album": "Schubert: Lieder, Vol. 6: Op. 68–86",
+      "label": "Etcetera Records",
+      "age_voice": "Ни Швеппе, ни Фукуда не входят в дайджест фонда певцов/пианистов проекта — оба относятся к нидерландской камерной школе (объединение «Stichting Schubertiade», подтверждено отдельными их совместными выступлениями на YouTube: Erlkönig, Litanei, Viola). Возраст/состояние голоса не установлены.",
+      "reputation": "Рецензий не найдено. Существен сам факт: это редчайшее известное мужское (баритональное) исполнение песни, написанной для женского голоса (норна — персонаж-женщина; по эссе Грэма Джонсона партия рассчитана на меццо/контральто). Часть систематического нидерландского полного свода песен Шуберта на Etcetera (аналог Naxos DSLE), не разделяющего песни по полу персонажа/певца при распределении по томам.",
+      "sources": [
+        "YouTube 'Provided to YouTube by The-Source' (Etcetera Records content-ID)",
+        "yt-dlp поиск 'Jasper Schweppe baritone Schubert' — подтверждение баритонового голоса певца через другие видео (Viola, Erlkönig, Litanei с Riko Fukuda)"
+      ],
+      "youtube": [
+        {"videoId": "cD4vAlYnvMg", "channel": "Riko Fukuda - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат сомнителен для топ-5 по духу правил (нетипичный для персонажа голос, отсутствие критической репутации), но включён в досье как часть полного пула — решение по включению принимается на этапе ранжирования."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. В MusicBrainz-дискографии песни (4 записи) и в веб/YouTube-поиске имя не встречается; в его закрытой (с 2012) дискографии из 6 альбомов (singers-digest) 'Gesang der Norna' не значится. Дополнительно: песня написана для женского персонажа (меццо/контральто по Джонсону) — нехарактерный репертуар для баса-баритона.",
+    "Dietrich Fischer-Dieskau": "НЕ записывал. Подтверждено дайджестом: Fischer-Dieskau сознательно исключал женские песни из свода DG 1966–72 (21 CD); 'Gesang der Norna' написана от лица женского персонажа романа Скотта — ожидаемо отсутствует в его дискографии; в MB/YT-поиске подтверждений записи не найдено.",
+    "Elisabeth Schwarzkopf": "НЕ найдено записи. В MusicBrainz-дискографии песни, YouTube-поиске и её карточке в singers-digest (перечислены основные рециталы EMI/Warner, зальцбургские лайвы, 'Songs I Love') 'Gesang der Norna' не упоминается.",
+    "Hans Hotter": "НЕ найдено записи. В MB/YT-поиске и карточке дайджеста (Winterreise DG/EMI/DG, Schwanengesang + Lieder нач. 1950-х) песня не упоминается; как и у других басов/баритонов, нехарактерный женский персонаж текста снижает вероятность.",
+    "Peter Anders": "НЕ найдено записи. В карточке дайджеста (Winterreise 1945, Müllerin 1945/1948, всё с Raucheisen/Weissenborn) песня не упоминается; в MB/YT-поиске подтверждений нет.",
+    "Elisabeth Schumann": "НЕ найдено записи. Карточка дайджеста перечисляет ~28 песен HMV 1927–49 без упоминания D831; в MB/YT-поиске подтверждений нет.",
+    "Christa Ludwig": "НЕ найдено записи. Карточка дайджеста подробно перечисляет её шубертовские сессии (EMI 1957–69, DG-ремейк ~1973, Winterreise DG 1986) — D831 не значится; в MB/YT-поиске подтверждений нет. (Примечательно: Ludwig — меццо, тесситура песни ей вокально подходила бы, но записи не обнаружено.)",
+    "Lucia Popp": "НЕ найдено записи. Карточка дайджеста перечисляет рецитал EMI 1983 (Gage) и BBC Legends live 1982 (Parsons) без упоминания D831; в MB/YT-поиске подтверждений нет."
+  },
+  "albums_facts": [
+    {
+      "album": "Gundula Janowitz — Schubert: Lieder (DG 2530 858)",
+      "singer": "Gundula Janowitz",
+      "year": "сессии IX–X.1976 и IX, XII.1977, издание 1977 (переиздание-бокс 'The Gundula Janowitz Edition', 2017, копирайт-год на YouTube-загрузке ℗1978)",
+      "label": "Deutsche Grammophon",
+      "facts": "Уже в реестре альбомов (planning/youtube/albums.md) как источник для D118/D828/D839/D837/D799; продюсер Cord Garben; серия дважды удостоена Deutscher Schallplattenpreis. Настоящим исследованием подтверждено, что альбом также содержит D831 'Gesang der Norna'.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 13 — Lieder Sacred & Profane (CDJ33013)",
+      "singer": "Marie McLaughlin",
+      "year": "сессии дек. 1990 (дуэты авг. 1991), издание февраль 1992",
+      "label": "Hyperion Records",
+      "facts": "Уже в реестре как источник для D839 (Marie McLaughlin, том 13). Настоящим исследованием подтверждено через сам сайт hyperion-records.co.uk и PDF-буклет (33013-B.pdf), что том также содержит D831 'Gesang der Norna' с развёрнутым эссе Грэма Джонсона (текст песни, контекст романа Скотта 'Пират', гл. XIX, музыкальный анализ строфической формы и 'заклинательного' характера).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lied Edition 7 — European Poets, Vol. 1 (Naxos Deutsche Schubert-Lied-Edition)",
+      "singer": "Ruth Ziesak",
+      "year": "релиз 14 февраля 2002 (дата сессии не верифицирована)",
+      "label": "Naxos",
+      "facts": "Новая находка для реестра — ранее в albums.md/singers-digest фигурировал только том 13 этой серии ('Goethe-Lieder 2', 2003, с Циcек же, для Gretchen). Пианист тот же — Ulrich Eisenlohr.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Insomnia",
+      "singer": "Katharina Konradi",
+      "year": "релиз 28 апреля 2023",
+      "label": "Berlin Classics (Edel / Kontor New Media)",
+      "facts": "Уточняет запись singers-digest про Конради ('Insomnia — весь альбом Шуберт (2023, Bushakevitz; CAvi?)') — лейбл фактически Berlin Classics, не CAvi; пометку в дайджесте стоит поправить отдельным изменением.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder, Vol. 6: Op. 68–86",
+      "singer": "Jasper Schweppe",
+      "year": "релиз 31 мая 2023",
+      "label": "Etcetera Records",
+      "facts": "Новое издание, отсутствующее в реестре/дайджесте — нидерландский многотомный свод песен Шуберта (нумерация по опусам), пианист Riko Fukuda, оба связаны со 'Stichting Schubertiade'. Ни певец, ни пианист прежде не встречались в фонде проекта.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [],
+  "negatives": [
+    "Сравнительные обзоры (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC Music Magazine) не найдены для этой песни — WebSearch исчерпал лимит сессии (200/200) в самом начале работы над досье, а альтернативные поисковые системы через WebFetch (Google, Bing, DuckDuckGo, Ecosia) были заблокированы CAPTCHA/consent-экранами или возвращали нерелевантные результаты. Это ограничение сессии, а не свидетельство отсутствия обзоров в природе — при следующей попытке (с доступным лимитом WebSearch) стоит повторить целевой поиск.",
+      "Ни один из 8 приоритетных певцов проекта (Quasthoff, Fischer-Dieskau, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp) эту песню не записывал — см. priority_singers_checked.",
+      "Исторических записей (до 1970 года) не найдено ни в MusicBrainz, ни в веб-поиске, ни в дайджесте фонда певцов — самая ранняя найденная запись 1976–77 (Janowitz).",
+    "Наиболее полные шубертовские своды с мужским голосом — Fischer-Dieskau/Moore (DG) — не содержат песню в принципе (женские песни сознательно исключены составителем)."
+  ]
+}

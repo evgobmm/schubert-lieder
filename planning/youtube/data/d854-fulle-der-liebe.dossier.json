@@ -1,0 +1,209 @@
+{
+  "d": "854",
+  "title": "Fülle der Liebe",
+  "tier": "rare",
+  "pool_note": "Полный фонд по MusicBrainz — 8 записей (одна дублирована с опечаткой D.894 = Popp/Gage, тот же рецитал). Плюс одна запись (Büchner/Shetler) без установленной YouTube-загрузки. Итого 7 уникальных кандидатов на YouTube. WebSearch исчерпан в рамках сессии (лимит 200/200) — сравнительные обзоры (klassik-prisma, Gramophone, MusicWeb, hyperion-records трек-ноты) собраны частично через WebFetch по прямым URL; там, где обзор не найден, это отмечено явно, а не выдумано.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "YouTube official audio (UMG/DG «Topic»), ℗-метка «1969 Deutsche Grammophon GmbH, Berlin», альбом «Schubert: Lieder (Vol. 2)» — часть свода Fischer-Dieskau/Moore DG Sämtliche Lieder, сессии 1966–1972 (см. planning/youtube/albums.md); точная дата сессии внутри 1969 г. не установлена, нужна сверка по буклету 21-CD издания.",
+      "album": "Schubert: Lieder (Vol. 2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 1925); внутри вокального пика по дайджесту (~1951–1972), до огрубения тона сер. 1970-х.",
+      "reputation": "Отдельного обзора именно этой песни не найдено (WebSearch недоступен). Общая репутация свода DG Sämtliche Lieder — эталонная (базовая точка отсчёта для мужских песен Шуберта, см. albums.md); Fülle der Liebe входит как одна из ~400+ песен полного мужского свода.",
+      "sources": [
+        "YouTube official audio metadata (DG/UMG, Topic-канал) — album/год выпуска пластинки, не дата сессии",
+        "planning/youtube/albums.md (запись про DG Sämtliche Lieder)"
+      ],
+      "youtube": [
+        {"videoId": "aSPGa25ZcCM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Q51sv1u7tGA", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "e7JWcthROFQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три идентичных официальных загрузки (дубли на Topic-канале) — можно брать любую, все живые."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": "1983 (сессии 1–6 ноября, Abbey Road, Лондон); издание 1984",
+      "year_source": "planning/youtube/albums.md (запись «Lucia Popp — Schubert Lieder (EMI)», где Fülle der Liebe прямо названа в составе альбома); дата сессии там уже верифицирована ранее (не по метаданным YouTube).",
+      "album": "Schubert Lieder (EMI); переиздан как «Icon: Lucia Popp» (Warner Classics, ℗1984)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "44 года (р. 1939); внутри вокального пика по дайджесту (~1970–1988).",
+      "reputation": "Основной шубертовский рецитал Попп с Ирвином Гейджем — уже отмечен в albums.md как значимый (один из самых известных женских шубертовских рециталов 1980-х). Отдельного критического обзора именно Fülle der Liebe не найдено (WebSearch недоступен).",
+      "sources": [
+        "planning/youtube/albums.md",
+        "YouTube official audio metadata (Warner Classics, Topic-канал, ℗1984)"
+      ],
+      "youtube": [
+        {"videoId": "IFJsnlHXxp4", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "8fN5FTV_gKc", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритетная по правилам (входит в топ-8 приоритетных исполнителей). Два дубля на Topic, оба живые."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Rudolf Jansen",
+      "rec_year": "1986 (по ℗-метке YouTube-official аудио; НЕ подтверждено дискографией)",
+      "year_source": "ТОЛЬКО YouTube official audio metadata (UMG, Topic-канал): «℗ 1986 Universal International Music B.V.», продюсер Wilhelm Hellweg, звукорежиссёр Willem van Leeuwen, альбом «Schubert: Lieder» / «Schubert Lieder». Discogs и AllMusic заблокировали доступ (403) — независимая дискографическая проверка НЕ выполнена. Это ДРУГАЯ запись, чем Ameling/Baldwin «Songs for Gretchen, Ellen & Suleika» (Philips, сессии 1972–75), уже описанная в albums.md — там пианист Dalton Baldwin, здесь Rudolf Jansen.",
+      "album": "Schubert: Lieder (предположительно голландское/Philips-аффилированное издание, переиздано Universal)",
+      "label": "Universal (лейбл релиза не установлен точно — вероятно Philips/Ariola-Eurodisc-круг по именам продюсера/звукорежиссёра)",
+      "age_voice": "53 года (р. 1933) в 1986 г., если год верен; это уже ЗА пределами пика по дайджесту (~1965–1985) — состояние голоса под вопросом, требует прослушивания.",
+      "reputation": "Не найдено (WebSearch недоступен). Note: в дайджесте Амелинг не упомянута отдельная запись с Jansen — это НОВЫЙ факт сверх дайджеста, певица дважды записывала Шуберта с разными пианистами.",
+      "sources": [
+        "YouTube official audio metadata (только источник; не дискография — соответствует предупреждению правил о ненадёжности таких дат)"
+      ],
+      "youtube": [
+        {"videoId": "4p6psqa3Jnc", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "bL3VUHPmMbY", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ГОД НЕ ВЕРИФИЦИРОВАН по дискографии — включать в топ-5 с осторожностью либо после дополнительной проверки; певица уже на закате пика по дайджесту, что снижает приоритет по сравнению с записями внутри чётко установленного пика."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Leif Ove Andsnes",
+      "rec_year": "2003 (по ℗-метке YouTube-official аудио)",
+      "year_source": "YouTube official audio metadata (Warner Classics/Parlophone, канал LeifOveAndsnesTV — официальный канал пианиста): «℗ 2003 Parlophone Records Limited», альбом «Schubert: Piano Sonata, Op. 53, D. 850 & Lieder». AllMusic заблокировал доступ (403), независимая дискографическая проверка НЕ выполнена.",
+      "album": "Schubert: Piano Sonata, Op. 53, D. 850 & Lieder",
+      "label": "EMI/Warner Classics (Parlophone)",
+      "age_voice": "39 лет (р. 1964) в 2003 г.; внутри вокального пика по дайджесту (~1995–2010).",
+      "reputation": "Не найдено (WebSearch недоступен). Альбом не значится в кратком списке шубертовских релизов Bostridge в дайджесте (там перечислены Müllerin/Winterreise/Schwanengesang-циклы, не этот рецитал с сонатой) — новый факт сверх дайджеста.",
+      "sources": [
+        "YouTube official audio metadata (официальный канал пианиста, не фан-загрузка, но метаданные видео — не дискографический источник по правилам проекта)"
+      ],
+      "youtube": [
+        {"videoId": "c8z5NMKhjJk", "channel": "Leif Ove Andsnes - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственная теноровая современная запись в пуле; редкий дуэт с пианистом-солистом первого ряда (параллель с Hendricks/Lupu из albums.md)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Graham Johnson",
+      "rec_year": "март 1995 (сессия); издание ноябрь 1996",
+      "year_source": "hyperion-records.co.uk, страница альбома CDJ33027 (WebFetch подтвердил напрямую): recording date March 1995, Rosslyn Hill Unitarian Chapel, Hampstead, London; release date November 1996. Совпадает с ℗-меткой YouTube (Hyperion, «Released on: 1996-11-01»).",
+      "album": "The Hyperion Schubert Edition, Vol. 27 «Schubert and the Schlegels» (CDJ33027)",
+      "label": "Hyperion",
+      "age_voice": "27 лет (р. 1969 по дайджесту) в 1995 г. — ДО начала пика по дайджесту (~1997–2015) и до его фирменного 12-томного свода harmonia mundi (2008–2014); ранняя, но, возможно, многообещающая запись — не тот же корпус, что основной Goerne-Шуберт.",
+      "reputation": "Не найдено прямого обзора именно трека (WebSearch недоступен); Hyperion Schubert Edition в целом — научный эталон издания (Грэм Джонсон, комментарии), уже закреплено в дайджесте и albums.md как общий факт серии.",
+      "sources": [
+        "hyperion-records.co.uk/dc.asp?dc=D_CDJ33027 (WebFetch, дата и место сессии — из текста страницы издателя)",
+        "YouTube official audio metadata (Hyperion/UMG, Topic-канал Graham Johnson)"
+      ],
+      "youtube": [
+        {"videoId": "wl_jOrC2C10", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Показательно, что тематический том назван по кругу поэтов Шлегелей — автор текста Fülle der Liebe (Friedrich von Schlegel) прямо в заглавии альбома."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Burkhard Kehring",
+      "rec_year": "2008 (по ℗-метке YouTube-official аудио: «℗ 2008 Naxos», «Released on: 2008-07-29»)",
+      "year_source": "ТОЛЬКО YouTube official audio metadata (Naxos, Topic-канал). AllMusic и Naxos.com прямые страницы недоступны (403/ошибка приложения) — независимая дискографическая проверка НЕ выполнена.",
+      "album": "Schubert: Lied Edition Vol. 27 «Romantic Poets, Vol. 4» (Naxos Deutsche Schubert-Lied-Edition, Ulrich Eisenlohr — сквозной свод)",
+      "label": "Naxos",
+      "age_voice": "37 лет (р. 1971) в 2008 г.; НЕСКОЛЬКО РАНЬШЕ заявленного в дайджесте пика (~2010–наст.), т.е. ранняя запись певца, до его флагманской трилогии Onyx (2011–2015) и до фирменного Hyperion-альбома с Vignoles (CDA68010, ~2014, где также есть D 768, см. albums.md).",
+      "reputation": "Не найдено (WebSearch недоступен). Важно: это ДРУГАЯ, более ранняя запись Boesch, чем Hyperion CDA68010/Vignoles, уже отмеченная в дайджесте/albums.md — новый факт сверх реестра.",
+      "sources": [
+        "YouTube official audio metadata (не дискографический источник по правилам — год условный)"
+      ],
+      "youtube": [
+        {"videoId": "MzpHZnnU9_s", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Часть немецкоязычного свода Naxos Eisenlohr — параллель с Ziesak/Trekel из общего реестра альбомов (Naxos Deutsche Schubert-Lied-Edition)."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "издание 28 февраля 2025 (сессия не установлена точно)",
+      "year_source": "planning/youtube/albums.md (запись «Samuel Hasselhorn — Schubert: Licht und Schatten (HMM902747)», проект «Schubert 200», том 2, издание 28.02.2025); совпадает с ℗-меткой YouTube (harmonia mundi/PIAS, «Released on: 2025-02-28»).",
+      "album": "Schubert: Licht und Schatten – Lieder & Dances (HMM902747)",
+      "label": "harmonia mundi",
+      "age_voice": "34–35 лет (р. 1990); внутри пика по дайджесту (~2019–наст.).",
+      "reputation": "Уже задокументировано в albums.md: «Первые альбомы серии отмечены Diapason d'or de l'année и Preis der deutschen Schallplattenkritik» — премии относятся к проекту «Schubert 200» в целом (первый том — Müllerin, Diapason d'or года; второй том, содержащий Fülle der Liebe, отмечен Bestenliste 2/2025 Preis der deutschen Schallplattenkritik). Прямого обзора конкретно этой песни не найдено.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "YouTube official audio metadata (harmonia mundi/PIAS, Topic-канал)"
+      ],
+      "youtube": [
+        {"videoId": "GWTw-9hbaGU", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный кандидат «≥2015 года» из желательного возрастного состава топ-5; альбом посвящён именно песням 1824–1826 (пилотный раздел)."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff Thomas": "НЕ записывал. MusicBrainz-дискография песни (8 записей) не содержит его имени; его закрытая дискография (6 Schubert-альбомов, см. singers-digest.md) не включает Fülle der Liebe.",
+    "Fischer-Dieskau Dietrich": "ЗАПИСАЛ. DG «Schubert: Lieder (Vol. 2)», сессия 1969 (в рамках свода Sämtliche Lieder 1966–72, с Gerald Moore). Источник: MusicBrainz + YouTube official audio (DG/UMG).",
+    "Schwarzkopf Elisabeth": "НЕ записывала (не найдена в MusicBrainz-дискографии песни; в дайджесте её шубертовский корпус не упоминает эту песню).",
+    "Hotter Hans": "НЕ записывал (аналогично — отсутствует в дискографии песни и в дайджесте).",
+    "Anders Peter": "НЕ записывал (отсутствует в дискографии песни и в дайджесте).",
+    "Schumann Elisabeth": "НЕ записывала (отсутствует в дискографии песни и в дайджесте).",
+    "Ludwig Christa": "НЕ записывала (отсутствует в дискографии песни и в дайджесте).",
+    "Popp Lucia": "ЗАПИСАЛА. EMI, сессии 1–6.11.1983 (с Irwin Gage), альбом «Schubert Lieder» / «Icon: Lucia Popp». Источник: planning/youtube/albums.md + MusicBrainz + YouTube official audio (Warner)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Lieder (Vol. 2) — DG Sämtliche Lieder, сессии 1966–72",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1969 (том конкретно)",
+      "label": "Deutsche Grammophon",
+      "facts": "Часть 21-CD свода всех мужских песен Шуберта с Gerald Moore; базовая точка отсчёта для любой мужской песни пилота (уже в albums.md). Fülle der Liebe — трек этого тома по данным YouTube official audio.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (EMI, 1983/84) / Icon: Lucia Popp",
+      "singer": "Lucia Popp",
+      "year": "1983 (сессии)/1984 (издание)",
+      "label": "EMI / Warner Classics",
+      "facts": "Уже в albums.md: пианист Irwin Gage, включает Gretchen am Spinnrade, Auf dem Wasser zu singen, Fülle der Liebe, Fischerweise. Переиздано как «Icon: Lucia Popp» (Warner, ℗1984).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 27 «Schubert and the Schlegels» (CDJ33027)",
+      "singer": "Matthias Goerne (и другие исполнители тома — не все установлены)",
+      "year": "март 1995 (сессия), ноябрь 1996 (издание)",
+      "label": "Hyperion",
+      "facts": "НОВЫЙ факт для реестра (ранее не документирован в albums.md). Записано в Rosslyn Hill Unitarian Chapel, Hampstead, London — та же студия, что и многие другие тома Hyperion Schubert Edition (см. Margaret Price/Vol.15, Richard Jackson/Vol.26 в albums.md). Тематический том по кругу поэтов братьев Шлегель — прямая связь с автором текста Fülle der Liebe (Friedrich von Schlegel).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 27 «Romantic Poets, Vol. 4»",
+      "singer": "Florian Boesch",
+      "year": "2008 (по YouTube ℗-метке, не подтверждено дискографией)",
+      "label": "Naxos",
+      "facts": "НОВЫЙ факт для реестра. Пианист Burkhard Kehring (не Vignoles — это отдельная, более ранняя запись Boesch, чем Hyperion CDA68010, уже упомянутая в albums.md/дайджесте под D768). Часть сквозного свода Ulrich Eisenlohr (см. Ziesak/Trekel в albums.md/дайджесте).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Piano Sonata, Op. 53, D. 850 & Lieder",
+      "singer": "Ian Bostridge",
+      "year": "2003 (по YouTube ℗-метке, не подтверждено дискографией)",
+      "label": "EMI/Warner Classics (Parlophone)",
+      "facts": "НОВЫЙ факт для реестра — не значится в кратком перечне шубертовских релизов Bostridge в singers-digest.md (там только циклы Müllerin/Winterreise/Schwanengesang). Пианист — Leif Ove Andsnes, крупный солист-пианист (не постоянный аккомпаниатор), редкое сочетание для этого проекта.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Licht und Schatten – Lieder & Dances (HMM902747)",
+      "singer": "Samuel Hasselhorn",
+      "year": "издание 28.02.2025",
+      "label": "harmonia mundi",
+      "facts": "Уже в albums.md (проект «Schubert 200», том 2, покрывает песни 1824–1826). Fülle der Liebe входит в этот том по данным YouTube official audio (что дополняет уже задокументированный список песен тома).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Elly Ameling / Rudolf Jansen)",
+      "singer": "Elly Ameling",
+      "year": "1986 (по YouTube ℗-метке, НЕ подтверждено дискографией)",
+      "label": "Universal (вероятно Philips-круг)",
+      "facts": "НОВЫЙ факт: ОТЛИЧАЕТСЯ от документированного в albums.md альбома «Songs for Gretchen, Ellen & Suleika» (Philips, Baldwin, 1972–75). Пианист другой — Rudolf Jansen. Требует дискографической проверки (Discogs/AllMusic были недоступны при исследовании — 403).",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [],
+  "negatives": [
+    "Eberhard Büchner / Norman Shetler (Eterna, ГДР) — есть в MusicBrainz (8 записей всего для песни), НЕ найден на YouTube ни один трек именно с Fülle der Liebe (проверены поиск по имени певца, по связке Büchner+Shetler, официальный Topic-канал «Eberhard Büchner - Topic» содержит другие песни Шуберта — Der Hirt auf dem Felsen, Auf dem Strom, — но не эту; также найдена фан-компиляция «Eberhard Büchner; LIEDER; Franz Schubert» на канале «Lieder & Opera Greats», 20 мин, но её описание перечисляет только Auf dem Strom и Der Hirt auf dem Felsen, без Fülle der Liebe). Кандидат исключён из пула по недоступности на YouTube.",
+    "Приоритетные певцы Quasthoff, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig — все НЕ записывали эту песню (см. priority_singers_checked); подтверждено отсутствием в MusicBrainz-дискографии (8 записей всего для песни) и в дайджесте фонда певцов.",
+    "WebSearch исчерпан на уровне сессии (200/200) до начала полноценного веб-исследования сравнительных обзоров (klassik-prisma, Gramophone, MusicWeb, BBC Music Magazine, слепые тесты) — эти источники НЕ проверены для данной песни; попытки заменить их через WebFetch на Google/Bing/DuckDuckGo результатов не дали (боты блокируются или редиректятся), кроме прямого попадания на hyperion-records.co.uk по угаданному URL альбома Goerne. AllMusic и Discogs отдают 403 на все запросы. Naxos.com отдаёт ошибку приложения на прямые ссылки. Это существенное ограничение полноты дайджеста для данной песни — при появлении бюджета WebSearch в новой сессии рекомендуется дозаполнить критическую репутацию каждой записи."
+  ]
+}

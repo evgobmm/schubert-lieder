@@ -1,0 +1,217 @@
+{
+ "d": "861",
+ "title": "Der liebliche Stern",
+ "tier_note": "Редкая песня (Ernst Schulze, 1825). MusicBrainz-каркас работы отдаёт 8 записей; реальный YouTube-поиск нашёл ещё несколько official-Topic-загрузок, не попавших в MB-выборку (Ameling, Müller-Brachmann, отдельная Bostridge-live). Полный конвейер применён к каждому найденному кандидату; для части алоьбомов (Janowitz/Spencer, Schreier/Johnson, Goerne/Quatuor Ébène) год и происхождение не удалось верифицировать по дискографии — поисковые системы (Google/Bing/DuckDuckGo/Marginalia) в этой сессии были недоступны (капча/403/исчерпан лимит WebSearch), а yt-dlp встал под HTTP 429 после первых удачных вызовов. Это отражено honestly в каждом candidate.sources.",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (точная дата сессии внутри цикла не установлена)",
+   "year_source": "planning/youtube/albums.md: 'Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD)', сессии 1966–1972, DG — базовый свод всех мужских песен Шуберта.",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "41–47 лет; по дайджесту (planning/research/singers-digest.md) пик Фишера-Дискау — ~1951–1972, т.е. запись сделана на самом излёте вокального пика или сразу после него; голос ещё в полной силе, тон ещё не 'высох' (сушь датируется дайджестом с сер. 1970-х).",
+   "reputation": "Отдельного сравнительного обзора именно этой редкой песни не найдено (поисковые системы недоступны в сессии). Общая репутация записи опирается на статус самого свода: единственный полный охват всех мужских песен Шуберта одним исполнителем — стандартная точка отсчёта для любой редкой мужской песни (см. albums.md).",
+   "sources": [
+    "planning/youtube/albums.md, раздел 'Основные издания'",
+    "planning/research/singers-digest.md, карточка Fischer-Dieskau Dietrich"
+   ],
+   "youtube": [
+    {"videoId": "PjRcowJpHUw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "yMdffduyDIo", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "9DoJ4tZUd4c", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Три videoId — дубликаты одной и той же записи (одинаковая длительность 157s = MB-запись Fischer-Dieskau/Moore), разные переиздания/загрузки на один и тот же официальный Topic-канал. Приоритетный певец №2 по правилам — записал."
+  },
+  {
+   "singer": "Felicity Lott",
+   "pianist": "Graham Johnson",
+   "rec_year": "издано 1993-11-01",
+   "year_source": "YouTube official metadata (Universal/Hyperion, 'Provided to YouTube by Universal Music Group', ℗ 1993 Hyperion Records Limited, альбом 'Schubert: Hyperion Song Edition 19 – Songs of Flowers & Nature', released 1993-11-01) — это лейбловые данные, распространяемые через Universal как правообладателя каталога Hyperion, а не произвольная метка архива/фаната, так что используется как год издания тома; точная дата СЕССИИ не найдена (сайт hyperion-records.co.uk несколько раз возвращал 403/ошибки поиска в этой сессии).",
+   "album": "Hyperion Schubert Edition, том 19 «Songs of Flowers & Nature»",
+   "label": "Hyperion",
+   "age_voice": "Лотт (р. 1947) — в 1993 г. 45–46 лет, на пике зрелой карьеры (расцвет ~1975–2000); голос ещё полностью на месте.",
+   "reputation": "Не проверено сравнительными обзорами (поиск недоступен в сессии). Косвенный аргумент качества: том входит в научный эталон серии Джонсона (см. albums.md: 'Hyperion Schubert Edition… научный эталон').",
+   "sources": [
+    "YouTube official-audio описание видео N4ykEA-bJ_8 (Graham Johnson - Topic; лейбловые метаданные Universal/Hyperion)",
+    "planning/research/singers-digest.md, раздел 'Сквозные издания' — общая характеристика серии"
+   ],
+   "youtube": [
+    {"videoId": "N4ykEA-bJ_8", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Лотт не входит в список карточек singers-digest.md (только упомянута в 'резерве' других песен нет) — это первая её проверенная запись в рамках потока по D861."
+  },
+  {
+   "singer": "Gundula Janowitz",
+   "pianist": "Charles Spencer",
+   "rec_year": "не установлен",
+   "year_source": "НЕ верифицировано. Это НЕ основной шубертовский альбом Яновиц из реестра (DG 2530 858, зап. 1976–77, пианист Cord Garben/... — см. albums.md, там указан другой пианист и там нет данных о D861). Charles Spencer — пианист, активный с 1980-х; вероятна отдельная, более поздняя запись (рецитал/лайв), происхождение и год не найдены — поисковые системы (Google/Bing/DuckDuckGo/Marginalia) были недоступны в этой сессии (капча/403/исчерпан лимит WebSearch), hyperion/discogs/allmusic отвечали 403.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "Не оценено — год записи неизвестен, невозможно сопоставить с фазами голоса по дайджесту (пик Яновиц ~1965–1980 по singers-digest.md).",
+   "reputation": "Не проверено — обзоров не найдено.",
+   "sources": [
+    "MusicBrainz work-каркас (planning/youtube/data/d861-der-liebliche-stern.mb.json) — пара 'Gundula Janowitz, Charles Spencer', length_s=151",
+    "YouTube: официальный Topic-канал 'Gundula Janowitz - Topic' (VTGtO4VBVGQ, 151s — совпадает по длительности с MB-записью, подтверждает существование записи, но не её происхождение/год)"
+   ],
+   "youtube": [
+    {"videoId": "VTGtO4VBVGQ", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "zgL79EjXE5w", "channel": "CLASSIC&OPERA (фан-канал)", "official": false, "oembed_ok": true},
+    {"videoId": "z5xL96xzm1g", "channel": "bert muzieklexicon (фан-канал)", "official": false, "oembed_ok": true}
+   ],
+   "note": "Кандидат требует дальнейшей проверки альбома/года в следующей сессии с доступным поиском, прежде чем ставить в топ-5 наравне с датированными записями (правило верификации данных о записях)."
+  },
+  {
+   "singer": "Ian Bostridge",
+   "pianist": "Leif Ove Andsnes",
+   "rec_year": "~2004 (не подтверждено точной сессионной датой)",
+   "year_source": "planning/research/singers-digest.md, карточка Bostridge Ian: 'Winterreise (EMI 2004, Andsnes)' — предположительно та же сессия/издание дала и внецикловые песни (MB даёт для этой пары ДВЕ версии D861 — 166s и 169s, что похоже на студийную + концертную/альтернативную дорожку одного релиза), но прямого подтверждения бонус-трека в этом альбоме не найдено (allmusic/discogs отвечали 403 в этой сессии).",
+   "album": "предположительно тот же релиз, что и Winterreise 2004 (EMI) — не подтверждено",
+   "label": "EMI (Warner Classics)",
+   "age_voice": "Bostridge р. 1964 → в 2004 г. 39–40 лет, пик карьеры по дайджесту ~1995–2010.",
+   "reputation": "Не проверено обзорами.",
+   "sources": [
+    "planning/research/singers-digest.md, карточка Bostridge Ian",
+    "MusicBrainz work-каркас — 2 записи пары Bostridge/Andsnes (166s, 169s)"
+   ],
+   "youtube": [
+    {"videoId": "PJ8x6hMIXZ0", "channel": "Leif Ove Andsnes - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Есть и третья, отдельная загрузка на канале 'Ian Bostridge - Topic' (E8BoJQUnMEk, 181s — длительность НЕ совпадает ни с одной из двух MB-записей пары с Andsnes), это, вероятно, ещё одна, отдельная запись Бостриджа с неустановленным пианистом — не включена как отдельный кандидат из-за нехватки данных, см. negatives."
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "— (аранжировка для голоса, струнного квартета и контрабаса)",
+   "rec_year": "не установлен точно (по общим сведениям — альбом Erato/Warner середины 2010-х)",
+   "year_source": "НЕ верифицировано по дискографии в этой сессии (поиск недоступен). Состав исполнителей (Matthias Goerne, Quatuor Ébène, контрабасистка Laurène Durantel) известен по MB work-каркасу и по названию YouTube-видео 'Der liebliche Stern, D. 861 (Arr. Merlin for Voice and String Quartet)' — указывает на альбом-проект переложений песен Шуберта для голоса и струнного квартета (в духе квартета 'Der Tod und das Mädchen'); фамилия аранжировщика 'Merlin' взята из названия видео, не подтверждена независимым источником.",
+   "album": "не установлен (переложение для голоса, квартета и контрабаса)",
+   "label": "не установлен (вероятно Erato/Warner, судя по составу Quatuor Ébène)",
+   "age_voice": "Не оценено — год не установлен.",
+   "reputation": "Не проверено.",
+   "sources": [
+    "MusicBrainz work-каркас — 'Matthias Goerne, Laurène Durantel, Quatuor Ébène', length_s=167",
+    "YouTube-заголовок видео H9buj9P6338 (канал 'Quatuor Ébène - Topic')"
+   ],
+   "youtube": [
+    {"videoId": "H9buj9P6338", "channel": "Quatuor Ébène - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "8t8GzhiCW50", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "8t8GzhiCW50 (182s) и H9buj9P6338 (168s) имеют РАЗНУЮ длительность — вероятно, две разные записи Гёрне этой песни (аранжировка для квартета и, отдельно, обычная фортепианная версия из его 12-томного Schubert Edition, harmonia mundi, — см. albums.md 'Matthias Goerne Schubert Edition, 2008–2014'). Пианист второй версии не установлен."
+  },
+  {
+   "singer": "Peter Schreier",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "НЕ верифицировано. Собственный канал 'Peter Schreier - Topic' (не 'Graham Johnson - Topic', в отличие от Lott) — это отличает запись от чисто-Hyperion-паттерна Lott/Johnson выше; происхождение (Hyperion-том или иной проект) и год не подтверждены — hyperion-records.co.uk в этой сессии стабильно отдавал 403/ошибки поиска.",
+   "album": "не установлен",
+   "label": "не установлен (вероятно Hyperion, судя по пианисту Johnson)",
+   "age_voice": "Не оценено.",
+   "reputation": "Не проверено.",
+   "sources": [
+    "MusicBrainz work-каркас — 'Peter Schreier, Graham Johnson', length_s=170",
+    "YouTube: 'Peter Schreier - Topic' (6Nr4hGO0FtA, 171s — совпадает по длительности)"
+   ],
+   "youtube": [
+    {"videoId": "6Nr4hGO0FtA", "channel": "Peter Schreier - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Требует уточнения альбома/года в следующей сессии перед включением в топ-5."
+  },
+  {
+   "singer": "Carolyn Sampson",
+   "pianist": "Joseph Middleton",
+   "rec_year": "запись август 2017; издание BIS-2343",
+   "year_source": "planning/youtube/albums.md, раздел D839: 'Carolyn Sampson — BIS «A Soprano's Schubertiade» — запись август 2017; издание BIS-2343'.",
+   "album": "A Soprano's Schubertiade",
+   "label": "BIS",
+   "age_voice": "Sampson р. 1974 → в 2017 г. 42–43 года; пик по дайджесту ~2010–наст.; голос в полной форме.",
+   "reputation": "Отдельного обзора именно этого трека не найдено; общий альбом — тематическая программа по Скотту/Гёте (Ellens Gesänge, Gretchen, Gretchens Bitte).",
+   "sources": [
+    "planning/youtube/albums.md",
+    "MusicBrainz work-каркас — 'Carolyn Sampson, Joseph Middleton', length_s=187"
+   ],
+   "youtube": [],
+   "note": "В свежем generic YouTube-поиске (d861-der-liebliche-stern.yt.json) videoId для этой пары не всплыл среди топ-результатов — нужен отдельный точечный поиск ('Carolyn Sampson Der liebliche Stern') в следующей сессии, прежде чем включать в топ-5."
+  },
+  {
+   "singer": "Elly Ameling",
+   "pianist": "не установлен (вероятно Dalton Baldwin — её основной дуэтный партнёр по Philips)",
+   "rec_year": "не установлен",
+   "year_source": "НЕ верифицировано. Эта запись НЕ входит в тематический альбом реестра 'Songs for Gretchen, Ellen & Suleika' (Philips, 1972–75) — та программа посвящена героиням Гретхен/Эллен/Сулейке, D861 (Шульце, о звезде) тематически туда не вписывается; вероятно другой, более широкий Philips-рецитал Амелинг. Поиск по дискографии недоступен в этой сессии.",
+   "album": "не установлен",
+   "label": "не установлен (вероятно Philips/Eloquence, судя по официальному Topic-каналу, унаследованному Universal)",
+   "age_voice": "Не оценено — год неизвестен; пик Амелинг по дайджесту ~1965–1985.",
+   "reputation": "Не проверено.",
+   "sources": [
+    "YouTube generic-поиск (d861-der-liebliche-stern.yt.json) — 'Elly Ameling - Topic', videoId -oq7KNR9pW4 и S1u-gyOXIg8, оба 168s (два разных загрузки одной и той же записи, либо переиздание)"
+   ],
+   "youtube": [
+    {"videoId": "-oq7KNR9pW4", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "S1u-gyOXIg8", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Не входит в MB-каркас 8 записей (MB-скрипт, видимо, не нашёл эту запись в своей выборке) — найдена только через generic YouTube-поиск. Требует отдельного исследования дискографии Амелинг в следующей сессии."
+  },
+  {
+   "singer": "Hanno Müller-Brachmann",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "НЕ верифицировано. Не входит в MB work-каркас (8 записей). Найден только через точечный YouTube-поиск по имени певца в этой сессии.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "Müller-Brachmann р. 1972 (бас-баритон); возраст на момент записи не оценён.",
+   "reputation": "Не проверено; певец не входит в карточки singers-digest.md.",
+   "sources": [
+    "YouTube: 'Hanno Müller-Brachmann - Topic', videoId 4uxAH2okPbs, 180s (в контексте с другими его Topic-загрузками Шуберта — Im Walde D834, Lebensmut D883, Klaglied D23, Über Wildemann D884 — похоже на фрагмент широкого свода/сборника его записей Шуберта)"
+   ],
+   "youtube": [
+    {"videoId": "4uxAH2okPbs", "channel": "Hanno Müller-Brachmann - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Второстепенный кандидат; требует дальнейшего исследования альбома, если понадобится расширить пул."
+  }
+ ],
+ "priority_singers_checked": {
+  "Quasthoff Thomas": "Не найдено. В MB work-каркасе (8 записей) отсутствует; digest фиксирует ровно 6 закрытых Schubert-альбомов Квастхофа (Goethe-Lieder, Winterreise, Schwanengesang, Lieder с оркестром, Müllerin, Winterreise-фильм) — 'Der liebliche Stern' (Schulze) ни в один явно не входит. Источник: planning/research/singers-digest.md, карточка Quasthoff.",
+  "Fischer-Dieskau Dietrich": "ДА, записал — Schubert: Sämtliche Lieder (DG, 1966–1972). См. кандидата выше.",
+  "Schwarzkopf Elisabeth": "Не найдено. Отсутствует в MB work-каркасе; не встречена в generic YouTube-поиске. Её основные шубертовские своды (рецитал с Э. Фишером 1952, Warner 'Complete Recitals 1952–1974') по дайджесту не документируют эту редкую песню.",
+  "Hotter Hans": "Не найдено. Мужской бас-баритональный репертуар Хоттера в дайджесте сфокусирован на циклах и известных Lieder; 'Der liebliche Stern' не упомянута ни в MB, ни в albums.md.",
+  "Anders Peter": "Не найдено. Основные записи Андерса (Winterreise 1945, Müllerin 1945/1948, Raucheisen) не относятся к этой песне; в MB и YouTube-поиске не встречена.",
+  "Schumann Elisabeth": "Не найдено. Свод HMV 1927–1949 (Naxos 8.110731, ~28 песен) — 'Der liebliche Stern' не значится среди известных треков по дайджесту; в MB/YouTube-поиске не встречена.",
+  "Ludwig Christa": "Не найдено. Женский шубертовский свод Людвиг (EMI 1957–69, DG 1973) в дайджесте не упоминает эту песню; в MB/YouTube-поиске не встречена.",
+  "Popp Lucia": "Не найдено. Основной рецитал Попп (EMI 1983, Gage) документирован в albums.md с конкретным списком песен (Gretchen, Auf dem Wasser zu singen, Fülle der Liebe, Fischerweise) — 'Der liebliche Stern' туда не входит; в MB/YouTube-поиске не встречена."
+ },
+ "albums_facts": [
+  {
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "singer": "Dietrich Fischer-Dieskau",
+   "year": "1966–1972",
+   "label": "Deutsche Grammophon",
+   "facts": "Полный свод всех мужских песен Шуберта с Gerald Moore; см. planning/youtube/albums.md.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Hyperion Schubert Edition, том 19 «Songs of Flowers & Nature»",
+   "singer": "Felicity Lott",
+   "year": "издание 1993-11-01 (по лейбловым метаданным Universal/Hyperion на YouTube)",
+   "label": "Hyperion",
+   "facts": "Новый для проекта том серии (ранее в albums.md фигурировали только тома 7, 9, 13, 15, 21, 25, 26, 30, 31, 34, 36 — том 19 добавлен этим исследованием). Программа объединена темой цветов и природы, к которой подходит образ 'звезды' у Шульце лишь косвенно — не подтверждено содержание всего тома.",
+   "covers_more_pilot_songs": false
+  },
+  {
+   "album": "A Soprano's Schubertiade (BIS-2343)",
+   "singer": "Carolyn Sampson / Joseph Middleton",
+   "year": "запись август 2017",
+   "label": "BIS",
+   "facts": "Уже в реестре albums.md (раздел D839) — покрывает несколько песен пилота (Ellens Gesänge, Gretchen, Gretchens Bitte) плюс, судя по MB, и D861.",
+   "covers_more_pilot_songs": true
+  }
+ ],
+ "surveys": [
+  "Сравнительные обзоры (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC Music Magazine) для этой редкой песни НЕ найдены — поисковые системы были недоступны в этой сессии (WebSearch: лимит 200/200 исчерпан на старте задачи; Google/Bing/DuckDuckGo/Marginalia через WebFetch отдавали капчу, 403 или нерелевантные результаты). hyperion-records.co.uk стабильно отдавал ошибки поиска (сервис недоступен для запросов с произвольным title). Рекомендация: повторить попытку в отдельной сессии, где квота WebSearch не исчерпана заранее другими агентами."
+ ],
+ "negatives": [
+  "Wikipedia (en/ru) — отдельной статьи о песне 'Der liebliche Stern' D 861 не существует (проверено прямым fetch, 404).",
+  "LiederNet Archive — точная страница песни не найдена стандартными URL-паттернами в этой сессии (нужен доступ к их search-движку, не найден рабочий endpoint).",
+  "Discogs, AllMusic, Presto Music, Wigmore Hall — все возвращали HTTP 403 на прямые запросы в этой сессии (антибот-защита), поэтому не использованы как источники.",
+  "Julius Drake — Topic (videoId 1qY5cKB-pX8, 171s) и Ian Bostridge — Topic (E8BoJQUnMEk, 181s, отдельно от пары с Andsnes) — обнаружены, но НЕ включены как отдельные кандидаты: не удалось получить исполнителя/альбом (yt-dlp упёрся в HTTP 429 после первых успешных вызовов, WebFetch на YouTube — в капчу Google). Если понадобится расширить пул, начать со следующей сессии именно с этих двух videoId.",
+  "Lionel Rogg — Topic (Wmd5sia5Dxs) — по-видимому, ошибочная/нетипичная атрибуция (Rogg — швейцарский органист, специалист по Баху), не годится как значимый кандидат без дополнительной проверки; не включён."
+ ]
+}

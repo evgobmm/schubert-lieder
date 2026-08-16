@@ -1,0 +1,229 @@
+{
+ "d": "855",
+ "title": "Wiedersehn",
+ "tier_assessment": "rare — по MusicBrainz (work id 9225adaf-a586-4d6b-8577-e0be478d0c6c) существует всего 6 учтённых записей; generic YouTube-поиск и целевые проверки альбомов добавили ещё 3 значительные записи (Appl, Schäfer, Burns/Tindale) и один неверифицированный след (Vollestad). Поэт — August Wilhelm von Schlegel; сочинена в сентябре 1825 (источник: IMSLP), что соответствует пилотному разделу 1824–1825.",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (точная дата сессии для этой песни не установлена; окно сессий всего свода)",
+   "year_source": "planning/research/singers-digest.md (Fischer-Dieskau: DG Sämtliche Lieder, сессии 1966–72, Moore, 21 CD); подтверждено MusicBrainz work-страницей D 855 (recording: Fischer-Dieskau/Moore)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "41–47 лет в годы сессий; по дайджесту вокальный пик певца — ~1951–1972, т.е. запись сделана в конце пика/на грани начала сужения тона (\"с сер. 1970-х тон суше\" — сессии всего свода закончились до этого спада)",
+   "reputation": "Отдельных рецензий именно на эту редкую песню не найдено (поиск в открытых источниках не дал результата — see negatives); общая репутация свода как эталонного корпуса мужских песен Шуберта устойчива и не оспаривается (первый приоритетный певец по правилам проекта)",
+   "sources": [
+    "planning/research/singers-digest.md",
+    "planning/youtube/data/d855-wiedersehn.mb.json (MusicBrainz work page, recording_count=6)"
+   ],
+   "youtube": [
+    {"videoId": "InDoSW1bt2U", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "Y0-tpowWct0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "3jjR1UW7De0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Три дубля загрузки на одном официальном Topic-канале, длительность у всех 146 с, совпадает с MusicBrainz (146 с). Рекомендуется videoId с наибольшим числом просмотров — InDoSW1bt2U (1044 против 639 и 95)."
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "Graham Johnson",
+   "rec_year": "1996 (точная дата сессии не установлена; релиз тома — ноябрь 1996)",
+   "year_source": "Qobuz, страница альбома (сверено WebFetch) — Hyperion Song Edition 27 'Schubert & the Schlegels', release date 1996-11-01",
+   "album": "The Hyperion Schubert Edition, Vol. 27 — Schubert & the Schlegels (тематический том, несколько певцов: Christine Schäfer, Matthias Goerne и др.)",
+   "label": "Hyperion (с 2023 — Universal, Topic-канал)",
+   "age_voice": "Гёрне р. 1967 → ~29 лет на момент записи; ранний период карьеры, до основания собственного цикла с harmonia mundi (2008–2014); по дайджесту его вокальный пик начинается ~1997 — запись сделана непосредственно перед/на пороге пика",
+   "reputation": "Отдельной критики именно на этот трек не найдено; сам том построен научно (комментарии Грэма Джонсона) и посвящён специально поэту песни (А. В. Шлегель) — редкий случай прямого тематического попадания издания в конкретную песню",
+   "sources": [
+    "planning/youtube/data/d855-wiedersehn.mb.json",
+    "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-hyperion-song-edition-27-schubert-the-schlegels-christine-schafer-graham-johnson-matthias-goerne/iyw1p9bj06txb — трек 4, исполнитель Matthias Goerne / Graham Johnson, текст А. В. Шлегеля, длительность 2:44"
+   ],
+   "youtube": [
+    {"videoId": "jARS6Felfj0", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube 165 с ≈ 2:44 (164 с) на Qobuz/MB — совпадает с точностью до секунды округления."
+  },
+  {
+   "singer": "Ian Bostridge",
+   "pianist": "Leif Ove Andsnes",
+   "rec_year": "2002–2003 (точная дата сессии не установлена; альбом выпущен 15 апреля 2003)",
+   "year_source": "Qobuz, страница альбома (WebFetch) — release date 2003-04-15",
+   "album": "Schubert: Piano Sonata, D. 850 & Lieder (сопряжение сонаты и 9 песен на стихи Э. Шульце, Ф. и А. В. Шлегеля)",
+   "label": "EMI Classics (ныне Warner Classics/Parlophone)",
+   "age_voice": "Бостридж р. 1964 → ~38–39 лет; период его сильного среднего этапа карьеры (до более поздней, суше звучащей манеры 2010-х)",
+   "reputation": "Отдельной рецензии на трек не найдено; общая репутация партнёрства Бостридж/Андснес в их серии 'соната + Lieder' (2002–2007, 5 дисков) устойчиво высокая — Андснес ценится как редкий пианист-солист мирового ранга в роли аккомпаниатора",
+   "sources": [
+    "planning/youtube/data/d855-wiedersehn.mb.json",
+    "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-piano-sonata-op-53-d-850-lieder-leif-ove-andsnes-ian-bostridge/0724355750952 — трек 10 'Wiedersehen, D. 855'",
+    "en.wikipedia.org/wiki/Leif_Ove_Andsnes (WebFetch) — подтверждает серию совместных Schubert-релизов с Бостриджем"
+   ],
+   "youtube": [
+    {"videoId": "Ba7EYXrWKgg", "channel": "Leif Ove Andsnes - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность видео 145 с точно совпадает с MusicBrainz (145 с)."
+  },
+  {
+   "singer": "Samuel Hasselhorn",
+   "pianist": "Ammiel Bushakevitz",
+   "rec_year": "не позднее 2024 (точная дата сессии не установлена; студия b-sharp, Берлин; релиз 28.02.2025)",
+   "year_source": "Qobuz, страница альбома (WebFetch) — venue 'b-sharp studio in Berlin', release date 2025-02-28; альбом также описан в planning/youtube/albums.md как том 2 проекта 'Schubert 200'",
+   "album": "Schubert: Licht und Schatten (HMM902747) — проект 'Schubert 200', песни 1824–1826",
+   "label": "harmonia mundi",
+   "age_voice": "Хассельхорн р. 1990 → ~34 года; заявленный пик карьеры по дайджесту с ~2019 — запись сделана в разгаре пика",
+   "reputation": "Альбом отмечен Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik (planning/youtube/albums.md); при этом действует общее правило проекта о скепсисе к пиару современных исполнителей — премии учтены, но не заменяют сравнение самой записи",
+   "sources": [
+    "planning/youtube/data/d855-wiedersehn.mb.json",
+    "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-licht-und-schatten-samuel-hasselhorn-ammiel-bushakevitz/ibmr50j9vncyc — трек 18 'Wiedersehn, D. 855'",
+    "planning/youtube/albums.md (запись о Hasselhorn 'Licht und Schatten')"
+   ],
+   "youtube": [
+    {"videoId": "v8XO6DmWSaU", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность 186 с ≈ MB 185 с — совпадает."
+  },
+  {
+   "singer": "Philippe Jaroussky",
+   "pianist": "Jérôme Ducros",
+   "rec_year": "февраль 2020 (запись); релиз 1 ноября 2024",
+   "year_source": "Qobuz, страница альбома (WebFetch) — recording date 'February 2020', release 2024-11-01",
+   "album": "Schubert: Lieder",
+   "label": "Erato / Warner Classics",
+   "age_voice": "Жарусски — контратенор (р. 1978), не в перечне фонда дайджеста; редкий/нетипичный выбор голоса для мужских Lieder Шуберта, задуманных для баритона/тенора — сама эта транспозиция регистра является предметом критической дискуссии, отдельных рецензий на трек не найдено",
+   "reputation": "Не найдено предметных рецензий именно на эту запись; общий факт — контратеноровое прочтение баритональной песни необычно и не является исторически устоявшейся практикой; оценивать с осторожностью (правило скепсиса к пиару современных)",
+   "sources": [
+    "planning/youtube/data/d855-wiedersehn.mb.json",
+    "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-lieder-philippe-jaroussky-jerome-ducros/crpyt6fr8d44a — трек 4, recording February 2020"
+   ],
+   "youtube": [
+    {"videoId": "dm_63S77FV0", "channel": "Philippe Jaroussky - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность 200 с ≈ MB 199 с — совпадает. Голосовой тип (контратенор) — существенный фактор для решения об отборе, не только качество."
+  },
+  {
+   "singer": "Markus Schäfer",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не позднее 2007 (точная дата сессии не установлена; релиз 14.11.2007)",
+   "year_source": "Qobuz, страница альбома (WebFetch) — release date 2007-11-14, label Naxos",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2»",
+   "label": "Naxos",
+   "age_voice": "Не в перечне фонда дайджеста (тенор специализируется на немецкоязычном научном своде Naxos, а не на широкой концертной карьере) — данных о состоянии голоса нет",
+   "reputation": "Не найдено предметных рецензий на трек; общий факт — часть систематического немецкоязычного научного свода (Eisenlohr), упомянутого в дайджесте как справочный ориентир, но не как образец интерпретационной глубины",
+   "sources": [
+    "planning/youtube/data/d855-wiedersehn.yt.json (generic YouTube-поиск, videoId=uL_2JQX2mV0)",
+    "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-lied-edition-25-romantic-poets-vol-2-markus-schafer/t2x1i16e0mm7b — трек 18, пианист Ulrich Eisenlohr, текст А. В. Шлегеля, длительность 4:03"
+   ],
+   "youtube": [
+    {"videoId": "uL_2JQX2mV0", "channel": "Markus Schäfer - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность видео 244 с и альбома 4:03 (243 с) совпадают почти точно. НЕ входит в дискографию MusicBrainz work-страницы D 855 — найдено через generic YouTube-поиск и подтверждено отдельно."
+  },
+  {
+   "singer": "Benjamin Appl",
+   "pianist": "Graham Johnson",
+   "rec_year": "2016 (концертная запись, дата сессии не уточнена; релиз 29.04.2016)",
+   "year_source": "Qobuz, страница альбома (WebFetch) — release date 2016-04-29, label Wigmore Hall",
+   "album": "Schubert (Wigmore Hall Live)",
+   "label": "Wigmore Hall Live",
+   "age_voice": "Аппл р. 1982 → ~33–34 года; ранний период карьеры (последний частный ученик Фишера-Дискау, по дайджесту пик ~2016–наст.) — запись сделана на старте его признанного пика",
+   "reputation": "Не найдено предметных рецензий на конкретный трек; общая репутация серии концертных записей Wigmore Hall Live устойчиво высокая как документ живого лидерского исполнительства; примечательно, что пианист здесь — тот же Грэм Джонсон, что и у Гёрне (см. выше), то есть у обоих ключевых мужских кандидатов этой песни — общий аккомпаниатор",
+   "sources": [
+    "planning/youtube/data/d855-wiedersehn.yt.json (generic YouTube-поиск, videoId=B1IGxf7bt64)",
+    "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-wigmore-hall-live-benjamin-appl-and-graham-johnson/tf8vzbiae8klc — трек 17 'Wiedersehn, D. 855 – 3:32'"
+   ],
+   "youtube": [
+    {"videoId": "B1IGxf7bt64", "channel": "Benjamin Appl - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность видео 213 с = 3:32 (212 с) на Qobuz — совпадает. НЕ входит в MusicBrainz work-страницу D 855; проверено отдельно, что это не альбом 'Forbidden Fruit' (2023) и не 'Lines of Life' (2025) — оба проверены и НЕ содержат эту песню (см. negatives)."
+  },
+  {
+   "singer": "Harriet Burns",
+   "pianist": "Ian Tindale",
+   "rec_year": "2022–2023 (сессия 8–10 февраля 2023, St Mary's, Хаддингтон; релиз 26 января 2023 — порядок дат в источнике выглядит противоречиво, требует перепроверки при включении в топ-5)",
+   "year_source": "Delphian Records, страница альбома (WebFetch): recording '8-10 February 2023, St Mary's Haddington', release date '26 January 2023'",
+   "album": "Schubert Lieder: Love's Lasting Power (DCD34251)",
+   "label": "Delphian Records",
+   "age_voice": "Не в перечне фонда дайджеста (молодая современная сопрано); данных о состоянии голоса по годам нет — единственный известный шубертовский рецитал",
+   "reputation": "Рецензии на альбом (не на конкретный трек): Gramophone — «a very fine disc indeed»; MusicWeb International — «there is a great deal to celebrate here»; Classical Music Daily — «a fabulous and unique recital»; отдельно про Wiedersehn — рецензент отмечает, что «эмоция… довольно сдержанная (civilised), но есть и намёк на уязвимость» (источник рецензии не идентифицирован по имени/изданию из фрагмента страницы)",
+   "sources": [
+    "Delphian Records album page (WebFetch, 2026-08-16): https://www.delphianrecords.com/products/schubert-lieder-love-s-lasting-power"
+   ],
+   "youtube": [],
+   "note": "ВАЖНО: отдельный видеоролик именно с треком Wiedersehn D.855 на YouTube НЕ найден (проверены каналы 'Harriet Burns - Topic' и 'Delphian Records' — там другие немецкие Lieder Шумана/Мендельсон, конкретно эта песня не обнаружена в выдаче). Кандидат сохранён в досье по фактам записи, но без подтверждённого videoId — требует дополнительной проверки перед включением в топ-5."
+  }
+ ],
+ "priority_singers_checked": {
+  "Thomas Quasthoff": "НЕ записывал — не найден ни в MusicBrainz work-странице D 855 (6 записей), ни в его дискографии по дайджесту (6 шубертовских альбомов, ни один явно не содержит эту редкую песню; полный список репертуара по трекам не проверялся построчно из-за отсутствия работающего полнотекстового поиска — см. общее примечание в конце файла)",
+  "Dietrich Fischer-Dieskau": "ЗАПИСАЛ — DG Sämtliche Lieder (1966–72, Moore); см. candidates[0]",
+  "Elisabeth Schwarzkopf": "НЕ найдена в MusicBrainz work-странице D 855; целевой построчный поиск по её сольным альбомам не проводился (ограничения поисковых инструментов, см. ниже) — считать отрицательный результат предварительным",
+  "Hans Hotter": "НЕ найден в MusicBrainz work-странице D 855; целевой построчный поиск по его альбомам не проводился — предварительный отрицательный результат",
+  "Peter Anders": "НЕ найден в MusicBrainz work-странице D 855; целевой построчный поиск не проводился — предварительный отрицательный результат",
+  "Elisabeth Schumann": "НЕ найдена в MusicBrainz work-странице D 855; целевой построчный поиск не проводился — предварительный отрицательный результат",
+  "Christa Ludwig": "НЕ найдена в MusicBrainz work-странице D 855; целевой построчный поиск не проводился — предварительный отрицательный результат",
+  "Lucia Popp": "НЕ найдена в MusicBrainz work-странице D 855; целевой построчный поиск не проводился — предварительный отрицательный результат"
+ },
+ "albums_facts": [
+  {
+   "album": "Schubert: Piano Sonata, Op. 53, D. 850 & Lieder (Bostridge/Andsnes)",
+   "singer": "Ian Bostridge",
+   "year": "2003 (релиз)",
+   "label": "EMI Classics",
+   "facts": "Одна из пяти пластинок серии 'соната + Lieder' (2002–2007), где Андснес сочетает сольную сонату Шуберта с несколькими песнями; трек 10 — Wiedersehn D.855. Источник: Qobuz.",
+   "covers_more_pilot_songs": false
+  },
+  {
+   "album": "The Hyperion Schubert Edition, Vol. 27 — Schubert & the Schlegels",
+   "singer": "Matthias Goerne (и др.: Christine Schäfer)",
+   "year": "1996",
+   "label": "Hyperion",
+   "facts": "Тематический том, целиком построенный вокруг стихов братьев Шлегель — прямое попадание в поэтическую основу D 855 (поэт — А. В. Шлегель). Несколько певцов на одном диске; трек с Wiedersehn закреплён за Гёрне и Джонсоном по MusicBrainz.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert: Licht und Schatten (Hasselhorn/Bushakevitz)",
+   "singer": "Samuel Hasselhorn",
+   "year": "2025 (релиз 28.02.2025)",
+   "label": "harmonia mundi",
+   "facts": "Уже описан в planning/youtube/albums.md как том 2 проекта 'Schubert 200', песни 1824–1826 — покрывает весь пилотный раздел. Подтверждено по Qobuz: трек 18 — Wiedersehn D.855.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert (Wigmore Hall Live) — Appl/Johnson",
+   "singer": "Benjamin Appl",
+   "year": "2016 (релиз 29.04.2016)",
+   "label": "Wigmore Hall Live",
+   "facts": "18-трековый концертный альбом лидер-вечера в Wigmore Hall; трек 17 — Wiedersehn D.855 (3:32). Не входил ранее в реестр альбомов проекта — добавлен впервые этим досье.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2» — Schäfer/Eisenlohr",
+   "singer": "Markus Schäfer",
+   "year": "2007 (релиз 14.11.2007)",
+   "label": "Naxos",
+   "facts": "Часть большого немецкоязычного научного свода Eisenlohr (упомянут в дайджесте пунктиром); трек 18 — Wiedersehn D.855 (4:03). Не входил ранее в реестр альбомов проекта — добавлен впервые этим досье.",
+   "covers_more_pilot_songs": false
+  },
+  {
+   "album": "Schubert Lieder: Love's Lasting Power (DCD34251) — Burns/Tindale",
+   "singer": "Harriet Burns",
+   "year": "2023",
+   "label": "Delphian Records",
+   "facts": "Современный сольный рецитал молодой сопрано; отмечен Gramophone и MusicWeb International. Видео на YouTube для конкретного трека не подтверждено (см. candidates note).",
+   "covers_more_pilot_songs": false
+  },
+  {
+   "album": "Schubert: Lieder (Jaroussky/Ducros)",
+   "singer": "Philippe Jaroussky",
+   "year": "2024 (запись февраль 2020)",
+   "label": "Erato / Warner Classics",
+   "facts": "Контратеноровое прочтение мужских Lieder Шуберта — редкий выбор регистра; трек 4 — Wiedersehn D.855.",
+   "covers_more_pilot_songs": false
+  }
+ ],
+ "surveys": [],
+ "negatives": [
+  "Приоритетные певицы/певцы Quasthoff, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp — не найдены ни в MusicBrainz work-странице D 855 (6 записей на момент составления досье), ни в кратких карточках дайджеста фонда певцов. Это ПРЕДВАРИТЕЛЬНЫЙ отрицательный результат: полнотекстовый построчный поиск по трек-листам ВСЕХ их альбомов не проводился из-за отказа основных поисковых систем в течение сессии (см. техническое примечание ниже) — при необходимости более строгой уверенности перед публикацией стоит донаправленно проверить трек-листы их главных Lieder-сборников (особенно у Ludwig и Popp, чьи рецитал-программы наиболее обширны).",
+  "Benjamin Appl — альбомы 'Forbidden Fruit' (Alpha, 2023) и 'Lines of Life: Schubert & Kurtág' (Alpha, 2025) ПРОВЕРЕНЫ по трек-листу через Qobuz и НЕ содержат Wiedersehn D.855 — песня найдена в другом его альбоме, 'Schubert (Wigmore Hall Live)' (2016).",
+  "Per Vollestad (пианист, Норвегия, р. 1959) — на YouTube существует запись 'Wiedersehen' с длительностью 155 с на канале 'Per Vollestad - Topic', вероятно из альбома 'Franz Schubert: Lieder' (Simax, 1991, трек 18 'Wiedersehen'). ИМЯ ПЕВЦА НЕ УСТАНОВЛЕНО: ни Qobuz, ни MusicBrainz не дали ясной атрибуции вокалиста отдельно от пианиста-исполнителя альбома; попытки через Discogs и Naxos.com заблокированы (403/500). Кандидат НЕ включён в основной список из-за неполной атрибуции — при необходимости для полноты пула требуется отдельная проверка обложки/буклета Simax."
+ ],
+ "technical_notes": [
+  "В ходе этой сессии WebSearch исчерпал лимит (200/200) с самого начала работы — весь дальнейший веб-поиск шёл через WebFetch по прямым URL и через альтернативные поисковики (Google/Bing/DuckDuckGo/Brave/Startpage/Ecosia/Marginalia) — все они либо блокировали автоматические запросы (капча, 403, 429), либо не возвращали релевантных результатов. Рабочей заменой стали: WebFetch по конкретным страницам (IMSLP, Wikipedia, Qobuz, Delphian Records, HYPERION при точных ID) и прямые запросы к MusicBrainz API. Из-за этого сравнительные обзоры (klassik-prisma, Gramophone обзорные статьи, слепые тесты, hyperion-records.co.uk напрямую — сайт использует JS-рендеринг, недоступный WebFetch) для этой песни системно не просматривались; критическая репутация по большинству кандидатов НЕ подтверждена предметными цитатами, кроме альбома Burns/Tindale (отзывы найдены на странице Delphian) и наградного статуса Hasselhorn (из уже существующего реестра альбомов проекта)."
+ ]
+}

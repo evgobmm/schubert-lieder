@@ -1,0 +1,186 @@
+{
+ "d": "862",
+ "title": "Um Mitternacht",
+ "tier_note": "В `docs/rules/youtube-performances.md`/`state.md` песня отнесена к ярусу «medium» (не «rare», как указано в формулировке задания); ориентир пула medium — 6–10 значительных записей. Найдено 6 подтверждённых значительных записей + 1 сомнительного происхождения.",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "pianist": "Gerald Moore",
+   "rec_year": "~1966–1969 (уточнить точную сессию не удалось; трек на «Platte 643 557» в составе Vol. 1, изданного в 1970)",
+   "year_source": "Discogs release 3366698 «Franz Schubert, Dietrich Fischer-Dieskau, Gerald Moore — Lieder Volume 1» (DG, 1970), трек «Um Mitternacht» на пластинке 643 557; общий диапазон сессий свода (1966–1972) — по факту в реестре `planning/youtube/albums.md`",
+   "album": "Schubert: Sämtliche Lieder (21 CD), сессии 1966–1972, Ufa-Ton-Studio Berlin",
+   "label": "Deutsche Grammophon",
+   "age_voice": "ФД — приоритет №2 по правилам; в 1966–1969 (41–44 года) — центр его вокального пика (~1951–1972 по дайджесту), тон ещё не «подсох» (это наступает с сер. 1970-х)",
+   "reputation": "Часть базового 21-CD свода мужских песен Шуберта DG — эталонная точка отсчёта для любой мужской песни Шуберта; отдельных рецензий на конкретно эту песню не найдено (обзоры/слепые тесты по D 862 в открытом доступе не встретились)",
+   "sources": [
+    "https://api.discogs.com/releases/3366698 (Discogs, тракклист подтверждает наличие «Um Mitternacht»)",
+    "planning/youtube/data/d862-um-mitternacht.mb.json (MusicBrainz: Fischer-Dieskau/Moore — Um Mitternacht D.862)",
+    "planning/youtube/albums.md (факт о своде FiDi/Moore, сессии 1966–1972)"
+   ],
+   "youtube": [
+    {"videoId": "mfPkN36WFq8", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "CDOoqwVic_0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "5z6UHxGOxdA", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Три разных videoId с одного и того же официального Topic-канала и той же длительностью (207 с) — вероятно разные дистрибьюторские загрузки одного трека (разные переиздания свода); для публикации достаточно одного videoId."
+  },
+  {
+   "singer": "Peter Schreier (тенор)",
+   "pianist": "Graham Johnson",
+   "rec_year": "1993 (издание)",
+   "year_source": "Discogs release 14807626 «Franz Schubert, Peter Schreier, Graham Johnson — Schubert & The Strophic Song», Hyperion CDJ33018, серия The Hyperion Schubert Edition № 18, 1993",
+   "album": "The Hyperion Schubert Edition, Vol. 18 «Schubert & the Strophic Song»",
+   "label": "Hyperion",
+   "age_voice": "Шрайер р. 1935 → в 1993 ему 58 лет; по дайджесту пик ~1965–1990, пел до 2005 — запись сделана уже за пределами главного пика, тон предположительно суше, но интерпретационно зрелый (не верифицировано отдельным обзором)",
+   "reputation": "Том посвящён строфической песне Шуберта — тематически прямое попадание в форму D 862 (строфический лид); комментарии Грэма Джонсона к изданию — научный эталон серии; отдельного рейтинга/обзора именно на «Um Mitternacht» не найдено",
+   "sources": [
+    "https://api.discogs.com/releases/14807626 (тракклист подтверждает «Um Mitternacht D862»)",
+    "planning/youtube/data/d862-um-mitternacht.mb.json (MusicBrainz: Schreier/Johnson — Um Mitternacht D.862, 368 с)"
+   ],
+   "youtube": [
+    {"videoId": "DsWvUuQP_eo", "channel": "Peter Schreier - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Тот же альбом покрывает и другие песни Шульце из пилота (D 851, D 853, D 860, D 861, D 876, D 834, D 882, D 883, D 884) — кандидат для реестра альбомов."
+  },
+  {
+   "singer": "Samuel Hasselhorn (баритон)",
+   "pianist": "Ammiel Bushakevitz",
+   "rec_year": "издание 28.02.2025 (проект «Schubert 200», том 2)",
+   "year_source": "Факт уже в реестре `planning/youtube/albums.md`: «Samuel Hasselhorn — Schubert: Licht und Schatten (HMM902747)», harmonia mundi, издание 28 февраля 2025",
+   "album": "Schubert: Licht und Schatten (проект «Schubert 200», том 2)",
+   "label": "harmonia mundi",
+   "age_voice": "Хассельхорн р. 1990 → в 2025 ему 34–35 лет; по дайджесту пик ~2019–наст.; современный, признанный молодой баритон (Diapason d'or года и Preis der deutschen Schallplattenkritik за смежные релизы серии)",
+   "reputation": "Серия «Schubert 200» уже отмечена Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkритик (за альбом в целом, не персонально за D 862); скепсис к пиару современных — награды за альбом, не подтверждение выдающегося исполнения именно этой песни",
+   "sources": [
+    "planning/youtube/albums.md (запись об альбоме, уже верифицированная)",
+    "planning/youtube/data/d862-um-mitternacht.mb.json (MusicBrainz: Hasselhorn/Bushakevitz — Um Mitternacht D.862: No. 3, 226 с)"
+   ],
+   "youtube": [
+    {"videoId": "Pf1hR4opaJk", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Кандидат на роль «современной» записи (2 требования состава: не ранее 1990 и не ранее 2015 — здесь оба условия выполняются одной записью)."
+  },
+  {
+   "singer": "Hanno Müller-Brachmann (бас-баритон)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "издание 2003",
+   "year_source": "Discogs release 23924660 «Schubert, Hanno Müller-Brachmann, Ulrich Eisenlohr — North German Poets», Naxos 8.555780, серия Deutsche Schubert-Lied-Edition № 11, 2003",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 11 «North German Poets»",
+   "label": "Naxos",
+   "age_voice": "Мюллер-Брахманн р. 1969 → в 2003 ему 33–34 года, ранняя зрелая карьера (солист Berliner Philharmoniker/Simon Rattle с 2000-х); отдельного факта о состоянии голоса в проекте нет — не в дайджесте певцов",
+   "reputation": "Часть полного немецкоязычного свода Naxos DSLE, ориентированного на филологическую точность (поэт Шульце — уроженец Целле, «северогерманский поэт», тематически точное попадание тома); отдельных критических цитат по этому треку не найдено",
+   "sources": [
+    "https://api.discogs.com/releases/23924660 (тракклист подтверждает «Um Mitternacht, D862»)",
+    "https://www.youtube.com/watch?v=Y6tIgCBdBy4 (описание видео: «Provided to YouTube by NAXOS of America»)"
+   ],
+   "youtube": [
+    {"videoId": "Y6tIgCBdBy4", "channel": "Hanno Müller-Brachmann - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Тот же том также покрывает D 799, D 800, D 834, D 853, D 860, D 861, D 876, D 882, D 883, D 884 — сильный кандидат для реестра альбомов (много песен пилота)."
+  },
+  {
+   "singer": "Christoph Prégardien (тенор)",
+   "pianist": "Julius Drake",
+   "rec_year": "издание 2015",
+   "year_source": "Discogs release 31691477 «Franz Schubert, Christoph Prégardien, Julius Drake — Poetisches Tagebuch, The Schulze Settings and Other Favourite Songs», Challenge Classics, 2015",
+   "album": "Poetisches Tagebuch — The Schulze Settings and Other Favourite Songs",
+   "label": "Challenge Classics",
+   "age_voice": "Прегардьен р. 1956 → в 2015 ему 58–59 лет; по дайджесту пик ~1990–2012 — запись сделана уже после заявленного пика (голос предположительно более зрелый/суше, отдельно не подтверждено)",
+   "reputation": "Единственный найденный альбом, целиком посвящённый ДЕВЯТИ песням Шуберта на стихи Шульце (ровно тот корпус, к которому относится D 862) — тематически самый точный диск в пуле; отдельных рейтингов по конкретному треку не найдено",
+   "sources": [
+    "https://api.discogs.com/releases/31691477 (тракклист: «Nine Songs To Poems Of Ernst Schulze» — Auf der Bruck D853, Der liebliche Stern D861, Im Walde D834, Um Mitternacht D862, Lebensmuth D883, Im Frühling D882, An mein Herz D860, Im Jänner 1817 D876, Über Wildemann D884)",
+    "https://www.youtube.com/watch?v=qegSh4a5fpk (описание: «Provided to YouTube by The Orchard Enterprises… Julius Drake · Christoph Prégardien · Franz Schubert»)"
+   ],
+   "youtube": [
+    {"videoId": "qegSh4a5fpk", "channel": "Julius Drake - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "ВАЖНАЯ находка для всего пилота: альбом целиком посвящён девяти песням Шульце — покрывает D834, D853, D860, D861, D876, D882, D883, D884 плюс D862. Добавить в `planning/youtube/albums.md`."
+  },
+  {
+   "singer": "Günther Leib (баритон)",
+   "pianist": "Walter Olbertz",
+   "rec_year": "1971 (LP)",
+   "year_source": "Из описания загрузки на YouTube (канал-любитель Roland Hergert), со ссылкой на буклет/данные LP: «Die LP „Winterreise“ und „9 Lieder nach Schulze“ wurde 1971 bei „Eterna“ aufgenommen»; независимого дискографического подтверждения (буклет/каталог Eterna) не найдено — источник менее надёжен, чем обычно требуется правилами (описание загрузки), помечаю как непроверенный до дискографического источника",
+   "album": "9 Lieder nach Schulze (LP, вместе с Winterreise)",
+   "label": "Eterna (ГДР); позднейшего CD-переиздания не найдено",
+   "age_voice": "Лейб р. 12.04.1927, ум. 05.03.2024 (баритон) → в 1971 ему 44 года; по немецкой Википедии карьерный пик — 1950-е–1970-е (Дрезденская опера 1957, Берлинская гос. опера 1961, Met 1976); в 1971 получил Robert-Schumann-Preis города Цвиккау — независимое подтверждение, что 1971 год пришёлся на признанный период карьеры",
+   "reputation": "Известен прежде всего как оперный баритон (Бекмессер, Гульельмо), в де-Википедии отмечен и как «Konzert- und Liedsänger»; специализированных рецензий на этот Lieder-релиз не найдено — историческая ценность (редкий восточногерманский полный корпус 9 песен на Шульце) выше подтверждённой критической репутации",
+   "sources": [
+    "https://de.wikipedia.org/wiki/G%C3%BCnther_Leib (биография, даты, пик карьеры, премия 1971 года)",
+    "https://www.youtube.com/watch?v=9yXe6buyV6M (описание загрузки — источник года записи, не дискографический)"
+   ],
+   "youtube": [
+    {"videoId": "9yXe6buyV6M", "channel": "Roland Hergert (личный канал, не официальный)", "official": false, "oembed_ok": true}
+   ],
+   "note": "Единственный источник видео — личный (не Topic/лейбл) канал; год 1971 взят из описания загрузки, что правилами не считается надёжным источником дат — включаю кандидатом, но год требует независимой перепроверки перед публикацией."
+  }
+ ],
+ "uncertain_or_minor": [
+  {
+   "singer": "Jasper Schweppe (баритон) / Riko Fukuda (фортепиано, историческое)",
+   "note": "Канал «Riko Fukuda - Topic» (лейбл «The-Source»), длительность 298 с, videoId OznSbenMK9M, oembed_ok. НЕ найдено на Discogs (проверены их известные альбомы «Die schöne Müllerin», Etcetera 2019, и «Winterreise», Etcetera 2015/Quintessence — «Um Mitternacht» в тракклисты этих двух циклов не входит). Происхождение конкретного трека не установлено — возможен цифровой сингл/сборник вне основной дискографии дуэта. Не включён в основной пул кандидатов из-за неустановленного альбома/года."
+  },
+  {
+   "singer": "Angelika Kirchschlager (меццо) с оркестром Deutsche Radiophilharmonie Saarbrücken-Kaiserslautern",
+   "note": "videoId wotzBuZi_sw, канал «Viennapal» (не официальный), длительность 390 с — заметно длиннее прочих (207–368 с), похоже на оркестровую версию (аранжировка не установлена; певица по дайджесту студийного сольного Шуберта не имеет). Вероятно живая радиотрансляция. Не рассматриваю как студийный кандидат уровня топ-5 — не в дайджесте, происхождение не подтверждено."
+  },
+  {
+   "singer": "Прочие YouTube-совпадения по запросу «Um Mitternacht D. 862», не относящиеся к этой песне Шуберта",
+   "note": "Несколько результатов generic-поиска — это одноимённая, но ДРУГАЯ песня: Zelter/Гёте «Um Mitternacht» (Fischer-Dieskau, Graham Johnson — Topic), и Малер «Um Mitternacht» из Rückert-Lieder (Fischer-Dieskau/Mahler — Diapasondoro; Katarina Karneus; Christa Ludwig — Topic). Также трек «Brigitte Fassbaender - Topic, videoId o35NqiOVr-Y» подписан «Um Mitternacht (D 862)», но первая строка в названии — «Gelassen stieg die Nacht ans Land» — это первая строка ДРУГОЙ песни, «Um Mitternacht» Гуго Вольфа на стихи Мёрике, а не Шуберта D 862 (у Шуберта первая строка «Keine Stimme hör ich schallen»). Все эти видео исключены из пула как относящиеся не к D 862 Шуберта."
+  }
+ ],
+ "priority_singers_checked": {
+  "Thomas Quasthoff": "Не записывал. Discogs-поиск «Quasthoff Um Mitternacht Schubert» даёт только сборники DG/Philips, где трек «Um Mitternacht» относится не к нему (сериальные совпадения по названию сборника). В дайджесте певцов у Квастхофа 6 закрытых Schubert-альбомов, D 862 среди них не значится.",
+  "Dietrich Fischer-Dieskau": "Записал — см. кандидата №1 (Sämtliche Lieder, DG, ~1966–1969).",
+  "Elisabeth Schwarzkopf": "Не найдено значительных данных о записи D 862; Discogs-поиск «Schwarzkopf Um Mitternacht Schubert» не даёт релевантных релизов певицы с этим треком (совпадения — Christa Ludwig, Klemperer). Отрицательный результат не абсолютен — точной дискографии Шварцкопф по этой конкретной песне не проверял (нет специализированного источника, аналогичного `schubert-singers.md`, под рукой).",
+  "Hans Hotter": "Не найдено. Discogs-поиск релевантных релизов Hotter с этим треком Шуберта не дал (совпадения нерелевантны — Fassbaender, Decca-сборники).",
+  "Peter Anders": "Не найдено. Discogs-поиск не дал релевантных релизов Anders с этим треком Шуберта.",
+  "Elisabeth Schumann": "Не найдено. Discogs-поиск дал только нерелевантные совпадения (сборники Форрестер/Клуст/Раухайзен, Фассбендер).",
+  "Christa Ludwig": "Не записывала песню Шуберта D 862. У Людвиг есть запись «Um Mitternacht» — но это песня МАЛЕРА (Rückert-Lieder, videoId T_ul_8tmCpA, канал «Christa Ludwig - Topic»), не Шуберта; в MusicBrainz-каркасе (3 записи) её тоже нет.",
+  "Lucia Popp": "Не найдено прямого подтверждения записи D 862; Discogs-поиск не дал релевантного релиза с этим треком у Попп (совпадение — сборный The Complete Songs с другим исполнителем)."
+ },
+ "albums_facts": [
+  {
+   "album": "Franz Schubert, Peter Schreier, Graham Johnson — Schubert & The Strophic Song (The Hyperion Schubert Edition, Vol. 18, CDJ33018)",
+   "singer": "Peter Schreier",
+   "year": 1993,
+   "label": "Hyperion",
+   "facts": "Тематический том, посвящённый строфической песне; включает Um Mitternacht D862 и ещё 8 песен Шуберта на стихи Шульце из пилотного раздела (D 834, D 851 — нет, проверить; фактически по тракклисту: D 851 отсутствует в этом релизе, песни на Шульце здесь: D853, D862, D861, D876, D834, D882, D883, D884, D860). Источник: Discogs release 14807626.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert, Hanno Müller-Brachmann, Ulrich Eisenlohr — North German Poets (Naxos Deutsche Schubert-Lied-Edition, т. 11, 8.555780)",
+   "singer": "Hanno Müller-Brachmann",
+   "year": 2003,
+   "label": "Naxos",
+   "facts": "Тракклист включает Um Mitternacht D862 и другие песни пилота 1824–1825: D799, D800, D834, D853, D860, D861, D876, D882, D883, D884. Источник: Discogs release 23924660.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Franz Schubert, Christoph Prégardien, Julius Drake — Poetisches Tagebuch, The Schulze Settings and Other Favourite Songs",
+   "singer": "Christoph Prégardien",
+   "year": 2015,
+   "label": "Challenge Classics",
+   "facts": "Первая часть альбома («Nine Songs To Poems Of Ernst Schulze») — это все девять песен Шуберта на стихи Эрнста Шульце: Auf der Bruck D853, Der liebliche Stern D861, Im Walde D834, Um Mitternacht D862, Lebensmuth D883, Im Frühling D882, An mein Herz D860, Im Jänner 1817 (Tiefes Leid) D876, Über Wildemann D884 — то есть покрывает 8 песен пилотного раздела 1824–1825 разом. НЕ БЫЛ в реестре `planning/youtube/albums.md` — рекомендуется добавить. Источник: Discogs release 31691477.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Dietrich Fischer-Dieskau / Gerald Moore — Schubert: Sämtliche Lieder (21 CD), Vol. 1 включает «Um Mitternacht» на «Platte 643 557»",
+   "singer": "Dietrich Fischer-Dieskau",
+   "year": 1970,
+   "label": "Deutsche Grammophon",
+   "facts": "Уже в реестре albums.md как базовый свод; уточнение — конкретно D 862 входит в первый релиз-том (Lieder Volume 1, 1970). Источник: Discogs release 3366698.",
+   "covers_more_pilot_songs": true
+  }
+ ],
+ "surveys": [
+  "Целевой поиск сравнительных обзоров (klassik-prisma.de, Gramophone, MusicWeb, BBC Music Magazine, hyperion-records.co.uk) по этой конкретной песне НЕ УДАЛСЯ технически: в рамках сессии исчерпан бюджет WebSearch («this session has used its web search budget (200 of 200 WebSearch calls)»), а WebFetch по прямым URL klassik-prisma.de и hyperion-records.co.uk вернул 404 (структура URL этих сайтов требует точного пути/кода произведения, который не подобрать без поисковика); попытки через Google/Bing/DuckDuckGo (включая прокси r.jina.ai) блокировались CAPTCHA или консент-редиректами. MusicBrainz (musicbrainz.org) также недоступен на сетевом уровне из этой среды (TLS/DNS сбой и на curl, и на node fetch) — использован только заранее подготовленный каркас `d862-um-mitternacht.mb.json`. Как рабочая замена для поиска релизов/трактлистов использован Discogs API (api.discogs.com), который оказался доступен и дал точные тракклисты и годы изданий.",
+  "Следствие: набор источников по репутации/критике конкретно D 862 в этом досье ограничен — оценки состояния голоса и критическая репутация опираются на общий дайджест певцов (`singers-digest.md`) и биографические источники, а не на прямые рецензии/слепые тесты по этой песне. При ранжировании топ-5 это ограничение нужно учитывать явно."
+ ],
+ "negatives": [
+  "MusicBrainz-каркас (`d862-um-mitternacht.mb.json`) содержит только 3 записи (Fischer-Dieskau/Moore, Schreier/Johnson, Hasselhorn/Bushakevitz) — заметно неполон: Discogs нашёл ещё минимум 3 значительные записи (Müller-Brachmann/Eisenlohr, Prégardien/Drake, Leib/Olbertz), не связанные в MusicBrainz с этим work. При построении досье для последующих песен не полагаться на MB-каркас как на исчерпывающий список.",
+  "Несколько generic YouTube-результатов с точным совпадением «Um Mitternacht D. 862» в названии на самом деле относятся к ДРУГИМ произведениям (Zelter, Малер, Гуго Вольф) — см. раздел `uncertain_or_minor`; при отборе топ-5 обязательно перепроверять первую строку текста, а не только заголовок ролика.",
+  "Год записи Günther Leib/Walter Olbertz (1971) взят только из описания YouTube-загрузки любительского канала — по правилам это НЕ дискографический источник; для публикации требуется независимое подтверждение (буклет Eterna, каталог лейбла) либо исключение кандидата.",
+  "Riko Fukuda/Jasper Schweppe: точный альбом/год записи трека «Um Mitternacht Op. 88 3, D. 862» не установлен — их два верифицированных релиза (Winterreise 2015, Die schöne Müllerin 2019) этот номер не содержат по тракклистам Discogs."
+ ]
+}
