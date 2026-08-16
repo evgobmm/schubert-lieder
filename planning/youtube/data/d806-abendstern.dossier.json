@@ -1,0 +1,275 @@
+{
+  "d": "806",
+  "title": "Abendstern",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (точная дата сессии для этой песни не установлена)",
+      "year_source": "Diapason/DG: полный свод DG «Sämtliche Lieder» (21 CD), сессии Ufa-Ton-Studio Berlin 1966–1972 — общая дата издания, используемая в реестре planning/youtube/albums.md; MusicBrainz подтверждает пару FD/Moore для Abendstern D806 (work id 66bbe1bc…), но без даты сессии",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Фишер-Дискау (р. 1925) — 41–47 лет в годы записи, в пределах вокального пика по дайджесту (~1951–1972), до наступления «суше» тона сер. 1970-х",
+      "reputation": "Приоритетный певец №2 по правилам проекта (docs/rules/youtube-performances.md). Общая репутация свода DG 1966–72 как эталонного корпуса мужской Lieder-дискографии Шуберта общеизвестна; отдельного сравнительного отзыва именно на Abendstern не найдено (WebSearch по теме исчерпал лимит сессии)",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json (MusicBrainz work 66bbe1bc-b4e0-4d25-b4d7-09f24f203ee3)",
+        "planning/youtube/albums.md (запись Fischer-Dieskau/Moore DG Sämtliche Lieder)",
+        "planning/research/singers-digest.md (карточка Fischer-Dieskau)"
+      ],
+      "youtube": [
+        {"videoId": "JAPIIWpWGn4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "У Фишер-Дискау в MusicBrainz также значатся версии с Jörg Demus, Karl Engel и Hartmut Höll — годы этих трёх сессий НЕ подтверждены надёжным источником (см. negatives); не включены отдельными кандидатами до верификации."
+    },
+    {
+      "singer": "Janet Baker (меццо-сопрано)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1970 (сессии август, сентябрь, декабрь 1970)",
+      "year_source": "planning/youtube/albums.md: «Janet Baker — Schubert: Lieder (2 LP, 30 песен с Муром)» — сессии август/сентябрь/декабрь 1970, Abbey Road Studio 1, Лондон, EMI/Warner",
+      "album": "Schubert: Lieder (2 LP, 30 songs)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "Бейкер (р. 1933) — 37 лет в 1970, разгар вокального пика по дайджесту (~1965–1982)",
+      "reputation": "Альбом описан в реестре как «классика жанра»; открывается Gretchen am Spinnrade. Отдельного сравнительного отзыва по Abendstern не найдено в рамках лимита поиска",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "planning/youtube/albums.md",
+        "planning/research/singers-digest.md (карточка Baker Janet — вне приоритетного списка, но в общем фонде)"
+      ],
+      "youtube": [
+        {"videoId": "eIPdxlKLqDM", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ZpAx3NvdDJE", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Две записи Janet Baker/Moore на её Topic-канале с разной длительностью (159 и 160 с) — вероятно дубликат метаданных одной сессии; MusicBrainz также содержит два почти идентичных описания той же пары исполнителей."
+    },
+    {
+      "singer": "Janet Baker (меццо-сопрано)",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "не установлен",
+      "year_source": "Только credit-пара из MusicBrainz («Janet Baker, Geoffrey Parsons», work 66bbe1bc…); альбом и дата сессии не идентифицированы в рамках доступного поиска",
+      "album": "не идентифицирован",
+      "label": "не идентифицирован",
+      "age_voice": "не оценено (год записи неизвестен)",
+      "reputation": "не оценена — недостаточно данных",
+      "sources": ["planning/youtube/data/d806-abendstern.mb.json"],
+      "youtube": [],
+      "note": "Второй, отдельный от версии с Муром, вариант Бейкер по MusicBrainz. Видео на YouTube не идентифицировано (поиск по «Janet Baker Geoffrey Parsons Abendstern» не дал совпадения по этой песне). Кандидат низкого приоритета до дополнительной верификации."
+    },
+    {
+      "singer": "Anthony Rolfe Johnson (тенор)",
+      "pianist": "Graham Johnson",
+      "rec_year": "сентябрь 1989 (издание декабрь 1990)",
+      "year_source": "WebFetch страницы hyperion-records.co.uk (dc.asp?dc=D_CDJ33006): «Recording Details: September 1989, Rosslyn Hill Unitarian Chapel, Hampstead, London»; «Release date: December 1990»",
+      "album": "The Hyperion Schubert Edition, Vol. 6",
+      "label": "Hyperion (с 2023 — Universal, official audio)",
+      "age_voice": "Роулф Джонсон (р. 1940) — 49 лет на момент записи; том серии, комментарии Джонсона относят Abendstern к переходному периоду Шуберта перед Winterreise",
+      "reputation": "Часть научного эталонного свода Грэма Джонсона (Complete Songs); заметки к тому характеризуют песню как «pre-echo of Der Leiermann» — предвестие Winterreise",
+      "sources": [
+        "WebFetch: https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33006",
+        "WebFetch: https://www.hyperion-records.co.uk/dw.asp?dc=W2271_GBAJY9000604 (заметки Джонсона к D806)",
+        "planning/youtube/data/d806-abendstern.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "bVlCZQ9Vkfg", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальная загрузка числится на канале «Graham Johnson - Topic», а не на канале певца."
+    },
+    {
+      "singer": "Anne Sofie von Otter (меццо-сопрано)",
+      "pianist": "Bengt Forsberg",
+      "rec_year": "июнь 1996 (издание 1997)",
+      "year_source": "planning/youtube/albums.md: «Anne Sofie von Otter — DG Schubert: Lieder — запись июнь 1996, Concertgebouw Nijmegen; издание 1997» (запись подтверждена для D799/D839 того же альбома; принадлежность D806 к этой же сессии не переподтверждена отдельно, помечено ниже)",
+      "album": "Schubert: Lieder",
+      "label": "Deutsche Grammophon",
+      "age_voice": "фон Оттер (р. 1955) — 41 год в 1996, вокальный пик по дайджесту (~1988–2010)",
+      "reputation": "Форсберг высоко оценён как аккомпаниатор в общем реестре альбомов; отдельного отзыва по Abendstern не найдено (лимит WebSearch исчерпан)",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "planning/youtube/albums.md"
+      ],
+      "youtube": [
+        {"videoId": "q3TH3XeJ1vM", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год 1996 взят по аналогии с другими песнями того же альбома в реестре — трек-принадлежность самой Abendstern к июньской сессии 1996 отдельно документом не подтверждена."
+    },
+    {
+      "singer": "Matthias Goerne (баритон)",
+      "pianist": "Eric Schneider",
+      "rec_year": "не позднее 2013 (том издан ок. 2013–2014)",
+      "year_source": "planning/youtube/albums.md: «Matthias Goerne — Schubert Edition Vol. 8 «Wanderers Nachtlied» — том издан ок. 2013 (сессии свода 2007–2012), harmonia mundi, пианист Eric Schneider (для D799)»; точная сессионная дата для D806 отдельно не подтверждена",
+      "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied» (HMC 902109/10)",
+      "label": "harmonia mundi",
+      "age_voice": "Гёрне (р. 1967) — ориентировочно 40–46 лет в период сессий свода (2007–2012), в пределах пика по дайджесту (~1997–2015)",
+      "reputation": "Крупнейший сольный шубертовский свод последних десятилетий; рецензия classical-music.com/BBC Music Magazine на том (июнь 2014) — общая, не по отдельной песне",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "planning/youtube/albums.md"
+      ],
+      "youtube": [
+        {"videoId": "VQtVlEOlTxI", "channel": "Eric Schneider - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть также оркестровая аранжировка Шмальца (Goerne, канал «Matthias Goerne», 208 с) — не тот же тип записи, что оригинал для голоса и ф-но; в кандидаты не включена."
+    },
+    {
+      "singer": "Christian Gerhaher (баритон)",
+      "pianist": "Gerold Huber",
+      "rec_year": "не установлен",
+      "year_source": "Только credit-пара из MusicBrainz («Christian Gerhaher, Gerold Huber», work 66bbe1bc…); дуэт записал несколько шубертовских альбомов (Arte Nova ~1999–2003, RCA Müllerin 2003, RCA Abendbilder 2006, Sony Nachtviolen 2014) — какой именно содержит Abendstern, не идентифицировано в рамках доступного поиска",
+      "album": "не идентифицирован (кандидаты: Arte Nova / RCA / Sony по дайджесту)",
+      "label": "не идентифицирован",
+      "age_voice": "Герхер (р. 1969) — пик по дайджесту ~2000–наст. время; точный возраст на записи не определим без даты",
+      "reputation": "Пресса называет его «высшим текстовиком современности» (по дайджесту — фильтровать по правилу о скепсисе к пиару)",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "planning/research/singers-digest.md (карточка Gerhaher)"
+      ],
+      "youtube": [
+        {"videoId": "hIF1UiObWYQ", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год и альбом требуют доп. верификации (не выполнена из-за исчерпания лимита WebSearch в сессии)."
+    },
+    {
+      "singer": "Ian Bostridge (тенор)",
+      "pianist": "Julius Drake",
+      "rec_year": "февраль–март 1996 (издание 1998)",
+      "year_source": "planning/youtube/albums.md: «Ian Bostridge — Schubert: Lieder (Vol. 1) — запись февраль–март 1996, Abbey Road Studio No. 1, Лондон; издание 1998, EMI Classics/Warner Classics, пианист Julius Drake»; принадлежность D806 к этой же сессии по аналогии с D768/D800 того же альбома",
+      "album": "Schubert: Lieder, Vol. 1",
+      "label": "EMI Classics / Warner Classics",
+      "age_voice": "Бостридж (р. 1964) — 31–32 года в 1996; дебютный рецитал, считающийся его сильнейшей ранней студийной работой (по дайджесту)",
+      "reputation": "Дебютный шубертовский рецитал, отмечается как сильнейшая ранняя студийная работа певца (общая оценка по дайджесту, без отдельной цитаты по Abendstern)",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "planning/youtube/albums.md",
+        "planning/research/singers-digest.md (карточка Bostridge)"
+      ],
+      "youtube": [
+        {"videoId": "zfs2fSnLLq8", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "VEF5JepJg2s", "channel": "Ian Bostridge", "official": true, "oembed_ok": true}
+      ],
+      "note": "Два ролика: официальный Topic-канал (zfs2fSnLLq8) и авторизованный артистический канал «Ian Bostridge» (VEF5JepJg2s, короче на 8 с — возможно другой мастеринг/live)."
+    },
+    {
+      "singer": "Florian Boesch (бас-баритон)",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "ок. 2014",
+      "year_source": "planning/youtube/albums.md: «Florian Boesch — Schubert: Der Wanderer & other songs — Hyperion CDA68010; издание примерно 2014, пианист Roger Vignoles» — ВНИМАНИЕ: пианист в реестре указан как Vignoles, но MusicBrainz для Abendstern даёт пару Boesch/Martineau — расхождение не разрешено",
+      "album": "Schubert: Der Wanderer & other songs (Hyperion CDA68010) — под вопросом (см. note)",
+      "label": "Hyperion",
+      "age_voice": "Бёш (р. 1971) — ок. 43 года ок. 2014, в пределах пика по дайджесту (~2010–наст.)",
+      "reputation": "Дайджест характеризует Бёша как «рассказчика венской школы»; отдельного отзыва по Abendstern не найдено",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "planning/youtube/albums.md"
+      ],
+      "youtube": [
+        {"videoId": "g6Gmwf0Sd8c", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "РАСХОЖДЕНИЕ ПИАНИСТА: реестр альбомов называет для диска Hyperion CDA68010 пианиста Roger Vignoles (по записи D768), а MusicBrainz для Abendstern указывает Malcolm Martineau как партнёра Бёша. Возможно, это два разных альбома/два разных пианиста в разное время — требует отдельной проверки перед публикацией. Год не подтверждён напрямую для Abendstern."
+    },
+    {
+      "singer": "Samuel Hasselhorn (баритон)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "издание 28 февраля 2025",
+      "year_source": "planning/youtube/albums.md: «Samuel Hasselhorn — Schubert: Licht und Schatten (HMM902747) — проект «Schubert 200», том 2; издание 28 февраля 2025, harmonia mundi; альбом посвящён песням 1824–1826, содержит Abendstern D806 явно в перечне песен пилота»",
+      "album": "Schubert: Licht und Schatten – Lieder & Dances (HMM902747)",
+      "label": "harmonia mundi",
+      "age_voice": "Хассельхорн (р. 1990) — 34–35 лет на момент издания, в пределах пика по дайджесту (~2019–наст.)",
+      "reputation": "Diapason d'or de l'année и Bestenliste Preis der deutschen Schallplattenkritik (2/2025) для альбомов серии «Schubert 200» (общая оценка серии; см. правило скепсиса к пиару современных — премии отраслевые, не рекламные)",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "planning/youtube/albums.md"
+      ],
+      "youtube": [
+        {"videoId": "PH7ZkKzStwI", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самый современный (2015+) кандидат с надёжно документированным годом и явным подтверждением включения именно этой песни в альбом по реестру planning/youtube/albums.md."
+    },
+    {
+      "singer": "Andrè Schuen (баритон)",
+      "pianist": "не установлен (вероятно Daniel Heide, по аналогии с другими релизами артиста)",
+      "rec_year": "не установлен",
+      "year_source": "Только официальная загрузка YouTube «Andrè Schuen - Topic»; конкретный альбом/сингл и год не идентифицированы (WebSearch исчерпан, WebFetch на deutschegrammophon.com дал 404)",
+      "album": "не идентифицирован",
+      "label": "предположительно Deutsche Grammophon (по официальному Topic-каналу и профилю артиста)",
+      "age_voice": "Шуэн (р. 1984) — пик по дайджесту ~2018–наст.; точный возраст на записи не определим без даты",
+      "reputation": "не оценена — недостаточно данных",
+      "sources": [
+        "yt-dlp поиск + yt-check.js (канал Andrè Schuen - Topic)",
+        "planning/research/singers-digest.md (карточка Schuen — флагманский молодой Schubert-баритон DG)"
+      ],
+      "youtube": [
+        {"videoId": "SwgQGLGJ4f4", "channel": "Andrè Schuen - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Не в MusicBrainz-выдаче (34 записи). Значимость как кандидата опирается только на статус официального DG-артиста и Topic-загрузку; требует дополнительной верификации альбома/года перед включением в топ-5."
+    },
+    {
+      "singer": "Anna Prohaska (сопрано)",
+      "pianist": "Julius Drake",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz credit-пара «Anna Prohaska, Julius Drake»; WebFetch статьи Wikipedia об Anna Prohaska не подтвердил альбом с Julius Drake (в её дискографии 2009–2015 указаны альбомы с Eric Schneider, не Drake) — вероятно, более поздний, там не отражённый релиз",
+      "album": "не идентифицирован",
+      "label": "не идентифицирован",
+      "age_voice": "Прохаска (р. 1983) — точный возраст на записи не определим без даты",
+      "reputation": "не оценена — недостаточно данных",
+      "sources": [
+        "planning/youtube/data/d806-abendstern.mb.json",
+        "WebFetch: https://en.wikipedia.org/wiki/Anna_Prohaska (отрицательный результат по пианисту Drake)"
+      ],
+      "youtube": [
+        {"videoId": "Ed7CvBAxCks", "channel": "Anna Prohaska - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальная Topic-загрузка есть, но альбом и год не подтверждены; включена как потенциальный современный кандидат до доп. верификации."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. По дайджесту (planning/research/singers-digest.md) дискография Квастхофа закрыта (ушёл из классического пения в янв. 2012) и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95, Winterreise RCA 1998, Schwanengesang DG 2001, Lieder с оркестром DG 2003, Müllerin DG 2005, Winterreise-фильм DG DVD 2005) — ни один не содержит песни на стихи Майргофера из группы марта 1824 г.; в MusicBrainz (34 записи) Квастхоф не значится.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ, минимум 4 раза: с Gerald Moore, Jörg Demus, Karl Engel, Hartmut Höll (MusicBrainz). Точно датирован и включён в дossier только вариант с Moore (свод DG Sämtliche Lieder 1966–1972); три остальных требуют доп. верификации года.",
+    "Elisabeth Schwarzkopf": "Записи НЕ ПОДТВЕРЖДЕНА. В MusicBrainz (34 записи, наиболее полный доступный список) Шварцкопф не значится. Ни в реестре planning/youtube/albums.md, ни в дайджесте её карточка не упоминает Abendstern среди записанных песен. WebSearch-инструмент в ходе исследования выдал неподтверждённое утверждение о сессии «август 1965, Берлин, Moore» — источник этого утверждения не удалось отследить до первичного документа (дискографии/буклета), поэтому по правилу «никогда не выдумывать факты» оно НЕ включено как факт и требует отдельной верификации в будущем.",
+    "Hans Hotter": "Записи НЕ ПОДТВЕРЖДЕНА. В MusicBrainz (34 записи) Хоттер не значится. WebSearch-инструмент выдал неподтверждённое утверждение о сессии «3–4 октября 1957, Лондон, Moore» (та же дата, что и известная сессия Im Abendrot D799 по реестру альбомов) — совпадение дат подозрительно (может быть эффектом обобщения на уровне сессии, а не фактом о конкретной песне); источник не удалось отследить до буклета/дискографии, поэтому НЕ включено как факт.",
+    "Peter Anders": "Записи не найдено. Ни в MusicBrainz, ни в дайджесте, ни в реестре альбомов Abendstern не упоминается среди его радиозаписей 1943–1947 с Raucheisen.",
+    "Elisabeth Schumann": "Записи не найдено. Её основной свод (Naxos Historical 8.110731, 28 песен 1927–1945) по реестру альбомов не включает Abendstern; в MusicBrainz не значится.",
+    "Christa Ludwig": "Записи не найдено. В MusicBrainz (34 записи) не значится; ни в дайджесте, ни в реестре альбомов Abendstern не упомянута среди её шубертовских треков (Ave Maria, Im Abendrot, Wandrers Nachtlied и др.).",
+    "Lucia Popp": "Записи не найдено. В MusicBrainz не значится; её основной рецитал EMI 1983 (Gage) по реестру альбомов содержит Gretchen, Auf dem Wasser zu singen, Fülle der Liebe, Fischerweise — не Abendstern."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–1972",
+      "label": "Deutsche Grammophon",
+      "facts": "Сессии Ufa-Ton-Studio Berlin; пианист Gerald Moore; полный свод мужских песен Шуберта, базовая точка отсчёта для любой мужской песни пилота",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (2 LP, 30 songs)",
+      "singer": "Janet Baker",
+      "year": "1970",
+      "label": "EMI / Warner Classics",
+      "facts": "Сессии август/сентябрь/декабрь 1970, Abbey Road Studio 1, Лондон; пианист Gerald Moore; открывается Gretchen am Spinnrade",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 6",
+      "singer": "Anthony Rolfe Johnson",
+      "year": "1989/1990",
+      "label": "Hyperion",
+      "facts": "Записано сентябрь 1989, Rosslyn Hill Unitarian Chapel, Hampstead; издано декабрь 1990; пианист и автор комментариев — Graham Johnson; заметки к Abendstern называют её предвестием Der Leiermann",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Licht und Schatten – Lieder & Dances (HMM902747)",
+      "singer": "Samuel Hasselhorn",
+      "year": "2025",
+      "label": "harmonia mundi",
+      "facts": "Второй том проекта «Schubert 200» (Ammiel Bushakevitz, ф-но); альбом посвящён песням 1824–1826, явно включает Abendstern D806 наряду с Die junge Nonne D828, Der Einsame D800 и др.; Diapason d'or de l'année, Bestenliste Preis der deutschen Schallplattenkritik 2/2025",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [],
+  "negatives": [
+    "klassik-prisma.de: целевого сравнительного обзора («Vergleich») по Abendstern D806 не найдено в рамках доступного поиска (WebSearch и WebFetch, включая прямые попытки на klassik-prisma.de).",
+    "Gramophone/MusicWeb/BBC Music Magazine: отдельного слепого теста или сравнительного обзора по этой конкретной песне не найдено (только общие рецензии на альбомы, где она — один из треков).",
+    "Расхождение по Florian Boesch: реестр planning/youtube/albums.md указывает для Hyperion CDA68010 пианиста Roger Vignoles, а MusicBrainz для Abendstern — Malcolm Martineau. Не устранено, зафиксировано в карточке кандидата.",
+    "WebSearch (инструмент) в ходе работы выдал неподтверждённые утверждения о записях Hotter (окт. 1957, Moore) и Schwarzkopf (авг. 1965, Moore) — источник первичного документа отследить не удалось, в дossier эти утверждения НЕ внесены как факты, только как непроверенные зацепки в priority_singers_checked.",
+    "Сессия WebSearch была исчерпана (лимит 200 вызовов) в середине исследования — часть уточнений (годы для Gerhaher/Huber, Boesch/Martineau, альбомы Schuen и Prohaska) выполнена только через WebFetch на прямых URL и осталась неполной."
+  ]
+}

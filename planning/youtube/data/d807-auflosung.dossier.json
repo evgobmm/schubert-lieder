@@ -1,0 +1,262 @@
+{
+ "d": "807",
+ "title": "Auflösung",
+ "tier_note": "Ярус «medium»: связная, но не сверхпопулярная песня Майрхофера (март 1824). MusicBrainz даёт 27 записей от 20 разных дуэтов — фонд достаточен для полноценного топ-5, приоритетные исполнители по большей части песню НЕ записывали (см. priority_singers_checked).",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (сессии свода)",
+   "year_source": "planning/youtube/albums.md: DG «Sämtliche Lieder» (21 CD) — сессии 1966–1972, Ufa-Ton-Studio Berlin; свод охватывает все мужские песни, Auflösung под гендерные ограничения (в отличие от Gretchen) не подпадает. MB подтверждает пары Fischer-Dieskau/Moore (3 записи в дискографии, длительности 150/162/151 с) и отдельно Fischer-Dieskau/Brendel.",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "41–47 лет — вокальный пик певца (пик по дайджесту ~1951–1972).",
+   "reputation": "Базовая точка отсчёта дискографии песни — полный мужской свод DG, эталон стиля; отдельных обзорных цитат по конкретно этой песне не найдено.",
+   "sources": [
+    "planning/youtube/albums.md (запись реестра альбомов)",
+    "planning/youtube/data/d807-auflosung.mb.json (MusicBrainz)"
+   ],
+   "youtube": [
+    {"videoId": "ZPnUbmKfhRc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "На Topic-канале несколько загрузок Auflösung (ZPnUbmKfhRc, M3q0gyg2Dcw, FGR-PFfqe9A, B3Yvs2L4Fxw, -egRly4tn_E, GPBRdBrA-M4) — вероятно, разные издания свода 1966–72 плюс отдельная запись с Brendel; какая именно соответствует какому году НЕ разобрана поштучно (не источник — метаданные YouTube). Фан-загрузка «Brisefer»/«incontrario motu» датирует одну из версий 1955 годом — это НЕ дискографический источник (правило запрещает опираться на метаданные загрузок), проверить по буклету DG/EMI не удалось в рамках сессии — использовать с осторожностью или как отдельную (неверифицированную по году) раннюю запись EMI."
+  },
+  {
+   "singer": "Dame Janet Baker (меццо-сопрано)",
+   "pianist": "Gerald Moore",
+   "rec_year": "1970 (август, сентябрь, декабрь)",
+   "year_source": "planning/youtube/albums.md: «Janet Baker — Schubert: Lieder (2 LP, 30 песен с Муром)» — сессии авг./сент./дек. 1970, Abbey Road Studio 1, Лондон; EMI/Warner Classics.",
+   "album": "Schubert: Lieder (2 LP)",
+   "label": "EMI / Warner Classics",
+   "age_voice": "37 лет — середина вокального пика (дайджест: пик ~1965–1982).",
+   "reputation": "Классика жанра; альбом открывается Gretchen am Spinnrade и получил высокие оценки в обзорах пилотных песен (klassik-prisma). Отдельной цитаты по Auflösung не найдено.",
+   "sources": ["planning/youtube/albums.md", "planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "KtTlzxV5kts", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "MB также содержит пару Janet Baker / Geoffrey Parsons (140 с) — более ранняя/другая запись, не привязанная к альбому из реестра; на Topic-канале есть вторая загрузка (Wgoax7_yyo0, 170 с),ливая и встраиваемая, но её соответствие Moore- или Parsons-версии по длительности не установлено однозначно (KtTlzxV5kts=165с, MB Moore=167/169с, MB Parsons=140с — ни одна не совпадает точно; вероятнее обе — варианты записи с Moore)."
+  },
+  {
+   "singer": "Sir Peter Pears (тенор)",
+   "pianist": "Benjamin Britten",
+   "rec_year": "одна из трёх сессий: 1954 / 1959 / 1972 (какая именно — не установлено)",
+   "year_source": "planning/youtube/albums.md (со ссылкой на дайджест): «Peter Pears — Britten the Performer — три версии: 1954, 1959, 1972. BBC / Britten–Pears Foundation (дистрибуция Decca)». MB подтверждает МИНИМУМ 4 отдельные записи Auflösung у пары Pears/Britten (длительности 129, 142, 135, 114 с) — больше, чем 3 задокументированные в дайджесте сессии; возможно, часть — концертные/эфирные варианты.",
+   "album": "Britten the Performer (сборник BBC/Britten–Pears Foundation)",
+   "label": "BBC / Decca (дистрибуция)",
+   "age_voice": "На разных сессиях певцу было 44, 49 или 62 года; пик Пирса по дайджесту — 1950-е–1960-е, к 1972 году манера более специфична/суше.",
+   "reputation": "Дуэт Пирс–Бриттен — по дайджесту, «одна из великих шубертовских связок» (их Winterreise 1963 названа «среди величайших»); специальной цитаты по Auflösung не найдено.",
+   "sources": ["planning/youtube/albums.md", "planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "VG1_SclGs7o", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "-vzapa0KGhU", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "На Topic-канале как минимум две разные загрузки (136 с и 115 с — вторая близка к MB-записи 114 с). Год каждой конкретной загрузки НЕ верифицирован (в отличие от параллельных треков Der Einsame/Sprache der Liebe, где в заголовке явно указано «(1959 Version)» / «(1972 Version)», у Auflösung такой пометки нет) — при выборе в топ-5 требуется дополнительная проверка по дискографии Britten–Pears Foundation."
+  },
+  {
+   "singer": "Brigitte Fassbaender (меццо-сопрано)",
+   "pianist": "Graham Johnson",
+   "rec_year": "июнь 1990",
+   "year_source": "Hyperion Records, страница записи (CDJ33011): дата сессии июнь 1990, Rosslyn Hill Unitarian Chapel, Хэмпстед, Лондон; издание май 1991.",
+   "album": "Hyperion Schubert Edition, том (CDJ33011)",
+   "label": "Hyperion",
+   "age_voice": "Дайджест: пик Фассбендер ~1975–1992 — запись сделана в середине этого периода (52 года).",
+   "reputation": "Комментарий Грэма Джонсона к самой песне (не к конкретному исполнению): «a grand song, a mighty utterance on a majestic scale» с «Wagnerian audacity laced with the implacable classical rigour of Gluck»; научный эталон издания.",
+   "sources": ["https://www.hyperion-records.co.uk/dw.asp?dc=W2200_GBAJY9101111"],
+   "youtube": [
+    {"videoId": "CAV_6VSxYmk", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (153 с) практически совпадает с MB (152 с) — хорошее подтверждение идентичности записи."
+  },
+  {
+   "singer": "Ian Bostridge (тенор)",
+   "pianist": "Julius Drake",
+   "rec_year": "февраль–март 1996",
+   "year_source": "planning/youtube/albums.md: «Ian Bostridge — Schubert: Lieder (Vol. 1)» — запись февраль–март 1996, Abbey Road Studio No. 1, Лондон; издание 1998, EMI Classics/Warner Classics.",
+   "album": "Schubert: Lieder, Vol. 1",
+   "label": "EMI Classics / Warner Classics",
+   "age_voice": "31–32 года; дебютный шубертовский рецитал, считается сильнейшей студийной работой раннего периода певца (по дайджесту).",
+   "reputation": "Дебютный рецитал Бостриджа/Дрейка получил широкое признание как одна из сильнейших его студийных работ; отдельной цитаты по Auflösung не найдено.",
+   "sources": ["planning/youtube/albums.md", "planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "JPbvm2zJYzQ", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (166 с) практически совпадает с MB (165 с)."
+  },
+  {
+   "singer": "Jessye Norman (сопрано)",
+   "pianist": "Phillip Moll (предположительно) или Irwin Gage — не разграничено окончательно",
+   "rec_year": "апрель 1984 (Philips-рецитал с Moll) — для пары с Gage год не установлен",
+   "year_source": "planning/research/singers-digest.md: «Norman Jessye ... Philips-рецитал (зап. апр. 1984, Moll; монументальная Gretchen)». Является ли Auflösung частью того же рецитала — не подтверждено явно (дайджест упоминает только Gretchen как трек этого альбома), поэтому привязка условна.",
+   "album": "Philips-рецитал (апрель 1984, предположительно)",
+   "label": "Philips",
+   "age_voice": "38 лет в 1984 — середина пика (дайджест: пик ~1975–1995), голос уже монументальный/зрелый.",
+   "reputation": "Дайджест характеризует рецитал в целом как «монументальный»; отдельной оценки Auflösung нет.",
+   "sources": ["planning/research/singers-digest.md", "planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "AyY0XVIinvo", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "AAn09TxK46U", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "ДВЕ разные записи в MB (Irwin Gage — 160 с; Phillip Moll — 137 с) и ДВЕ разные загрузки на Topic-канале (133 с каждая, идентичны друг другу по длительности) — неясно, какая из двух MB-пар соответствует загруженным видео (133 с не совпадает точно ни с 160, ни с 137); нужна дополнительная проверка перед включением в топ-5."
+  },
+  {
+   "singer": "Ernst Haefliger (тенор)",
+   "pianist": "Jörg Ewald Dähler (хаммерклавир ок. 1820)",
+   "rec_year": "запись не датирована точно; альбом издан 1987",
+   "year_source": "planning/youtube/albums.md: «Ernst Haefliger — Franz Schubert: 23 ausgewählte Lieder» — альбом (Claves), релиз 1987.",
+   "album": "Franz Schubert: 23 ausgewählte Lieder",
+   "label": "Claves",
+   "age_voice": "~66–68 лет (р. 1919) на момент выхода альбома — дайджест отмечает, что шубертовские циклы Хефлигера записаны «скрупулёзно, голос уже сухой».",
+   "reputation": "Ценность — исторический инструмент (хаммерклавир) и скрупулёзность стиля; дайджест прямо оговаривает вокальный компромисс к этому периоду.",
+   "sources": ["planning/youtube/albums.md", "planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "FtTiVLWcyWQ", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (168 с) совпадает с MB (168 с) — точное подтверждение записи."
+  },
+  {
+   "singer": "Matthias Goerne (баритон)",
+   "pianist": "Eric Schneider",
+   "rec_year": "сессии свода 2007–2012, том издан ок. 2013",
+   "year_source": "planning/youtube/albums.md: «Matthias Goerne — Schubert Edition Vol. 8 «Wanderers Nachtlied»» — том издан ок. 2013 (сессии свода 2007–2012), harmonia mundi, пианист Eric Schneider (для D 799). Явного упоминания D 807 в этой записи реестра нет — привязка к тому же тому по совпадению пары певец/пианист, требует уточнения.",
+   "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied»",
+   "label": "harmonia mundi",
+   "age_voice": "~40–45 лет — пик певца по дайджесту ~1997–2015.",
+   "reputation": "Крупнейший сольный шубертовский свод последних десятилетий (12 томов, HM 2008–2014); отдельной цитаты по Auflösung не найдено.",
+   "sources": ["planning/youtube/albums.md", "planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "OLXqjT-5B08", "channel": "Eric Schneider - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Официальная загрузка числится на канале «Eric Schneider - Topic», а не «Matthias Goerne - Topic» — необычно, но встраиваема и жива; длительность (152 с) практически совпадает с MB (151 с)."
+  },
+  {
+   "singer": "Samuel Hasselhorn (баритон)",
+   "pianist": "Ammiel Bushakevitz",
+   "rec_year": "издание 28 февраля 2025",
+   "year_source": "planning/youtube/albums.md: «Samuel Hasselhorn — Schubert: Licht und Schatten (HMM902747)» — проект «Schubert 200», том 2; издание 28.02.2025, harmonia mundi; D 807 прямо перечислена среди песен альбома («Песни пилота: ... D 807 ...»).",
+   "album": "Licht und Schatten",
+   "label": "harmonia mundi",
+   "age_voice": "~34–35 лет (р. 1990) — пик по дайджесту ~2019–наст.",
+   "reputation": "Альбом отмечен Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik (по реестру альбомов) — важно учитывать общее правило скепсиса к пиару современных исполнителей.",
+   "sources": ["planning/youtube/albums.md"],
+   "youtube": [
+    {"videoId": "Nh1TTCbVZkY", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (146 с) совпадает с MB (146 с). Также существует лайв-видео с фестиваля Schubertíada (канал «Schubertíada», -NEMosU0_E0, официальная площадка фестиваля) — не проверялось на встраиваемость, длительность 456 с включает вступление/аплодисменты, не является чистой студийной альтернативой."
+  },
+  {
+   "singer": "Mary Bevan (сопрано)",
+   "pianist": "Joseph Middleton",
+   "rec_year": "сентябрь 2024 (запись); октябрь 2025 (издание)",
+   "year_source": "Hyperion Records, страница записи (SIGCD939): запись сентябрь 2024, All Saints' Church, East Finchley, Лондон; релиз октябрь 2025.",
+   "album": "SIGCD939",
+   "label": "Signum Classics (страница на hyperion-records.co.uk, но каталожный номер и продюсер — Signum)",
+   "age_voice": "Совсем свежая запись, певица в текущей вокальной форме — самая новая запись в пуле.",
+   "reputation": "Не найдено критических обзоров конкретно этого трека (издание слишком свежее); учитывать правило скепсиса к пиару современных исполнителей до появления устоявшейся репутации.",
+   "sources": ["https://www.hyperion-records.co.uk/dw.asp?dc=W2200_GBLLH2593904"],
+   "youtube": [
+    {"videoId": "hNlAAKYQ_O8", "channel": "Mary Bevan - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (146 с) совпадает с длительностью, указанной на Hyperion (2:26 = 146 с) — точное подтверждение. NB: каталожный номер SIGCD указывает на лейбл Signum Classics, не собственно Hyperion — уточнить лейбл при публикации."
+  },
+  {
+   "singer": "Dame Felicity Lott (сопрано)",
+   "pianist": "Graham Johnson (Songmakers' Almanac)",
+   "rec_year": "ноябрь 1983",
+   "year_source": "Hyperion Records, страница записи (CDD22010): запись ноябрь 1983, St Barnabas's Church, North Finchley, Лондон; переиздание март 1997.",
+   "album": "Songmakers' Almanac (переиздание, CDD22010)",
+   "label": "Hyperion",
+   "age_voice": "~37 лет — ранний период карьеры, объединение вокруг ансамбля Songmakers' Almanac Грэма Джонсона.",
+   "reputation": "BBC Music Magazine об общей коллекции: «Impossible to imagine anyone not deriving enormous pleasure from this collection»; The Singer о серии Джонсона: «set a new standard for the presentation of song».",
+   "sources": ["https://www.hyperion-records.co.uk/dw.asp?dc=W2200_GBAJY8413107"],
+   "youtube": [],
+   "note": "YouTube-загрузка НЕ найдена на официальном Topic-канале Felicity Lott (проверены несколько запросов) — возможно, эта конкретная запись пока не выложена как official audio. Требует отдельного точечного поиска перед включением в топ-5; кандидат остаётся в досье как документированный, но без подтверждённой YouTube-ссылки."
+  },
+  {
+   "singer": "Anna Prohaska (сопрано)",
+   "pianist": "Julius Drake",
+   "rec_year": "не установлен",
+   "year_source": "Только MB (пара Prohaska/Drake, 131 с); в albums.md и в дайджесте певцов пары Prohaska/Drake для этой песни не описаны — год не верифицирован.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "не установлено",
+   "reputation": "не установлено",
+   "sources": ["planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "y65d1FC0Q88", "channel": "Anna Prohaska - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (132 с) практически совпадает с MB (131 с) — запись реальна и жива, но альбом/год/лейбл не установлены в рамках этой сессии; для включения в топ-5 нужна дополнительная дискографическая проверка."
+  },
+  {
+   "singer": "Christianne Stotijn (меццо-сопрано)",
+   "pianist": "Joseph Breinl",
+   "rec_year": "не установлен",
+   "year_source": "Только MB (пара Stotijn/Breinl, 147 с); ни в albums.md, ни в дайджесте певцов не описана — год не верифицирован.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "не установлено",
+   "reputation": "не установлено",
+   "sources": ["planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "21seO5jP2wQ", "channel": "Christianne Stotijn - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (148 с) практически совпадает с MB (147 с) — запись реальна и жива, но происхождение (альбом/лейбл/год) не установлено в рамках этой сессии."
+  },
+  {
+   "singer": "Judith Raskin (сопрано)",
+   "pianist": "George Schick",
+   "rec_year": "не установлен",
+   "year_source": "Только MB (пара Raskin/Schick, 142 с); Раскин (1928–1984) — американское сопрано середины XX века; альбом/год не найдены в рамках этой сессии.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "не установлено",
+   "reputation": "не установлено",
+   "sources": ["planning/youtube/data/d807-auflosung.mb.json"],
+   "youtube": [
+    {"videoId": "yAyV_h1E58o", "channel": "Judith Raskin - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Длительность на YouTube (138 с) близка к MB (142 с). Историческая запись 1960–70-х (певица активна до середины 1970-х, умерла 1984) — год и альбом не подтверждены."
+  },
+  {
+   "singer": "Elly Ameling (сопрано)",
+   "pianist": "Dalton Baldwin",
+   "rec_year": "сессии 1972–1975 (Амстердам) — по аналогии с альбомом «Songs for Gretchen, Ellen & Suleika», принадлежность Auflösung к этому же альбому НЕ подтверждена",
+   "year_source": "planning/youtube/albums.md описывает альбом Ameling/Baldwin «Songs for Gretchen, Ellen & Suleika» (Philips, сессии 1972–74) для песен D 118, D 828, D 799, D 837, D 838, D 839, D 854 — Auflösung (D 807) в этом перечне НЕ упомянута.",
+   "album": "не установлен для D 807",
+   "label": "не установлен",
+   "age_voice": "не установлено",
+   "reputation": "не установлено",
+   "sources": ["planning/youtube/albums.md"],
+   "youtube": [],
+   "note": "На официальном Topic-канале Elly Ameling конкретная запись Auflösung НЕ найдена (проверено несколькими запросами; найдены только соседние песни того же периода). Есть фан-загрузка живого выступления 1982 года («RARE! LIVE FROM HOLLAND — 1982», канал maestrojimbo) — не official, не проверялась на встраиваемость. Кандидат отклоняется до появления подтверждённого источника."
+  }
+ ],
+ "priority_singers_checked": {
+  "Thomas Quasthoff": "НЕ найдено. Ни в его 6 задокументированных Schubert-альбомах (Goethe-Lieder, Winterreise, Schwanengesang, Lieder с оркестром, Müllerin, Winterreise-фильм — дайджест певцов), ни на его официальном Topic-канале запись Auflösung не обнаружена (проверено запросом «Thomas Quasthoff Auflösung Schubert» — выдало только Schwanengesang и посторонние результаты).",
+  "Dietrich Fischer-Dieskau": "ДА, записывал — см. карточку кандидата выше (DG «Sämtliche Lieder», Moore; также пара с Brendel по MB). Единственный из приоритетного списка, кто точно записал эту песню.",
+  "Elisabeth Schwarzkopf": "НЕ найдено. Поиск «Elisabeth Schwarzkopf Auflösung Schubert» не выявил ни одной релевантной записи (только другие песни того же альбома с Parsons/Moore на её Topic-канале). В albums.md и дайджесте певцов Auflösung в числе её записей не значится.",
+  "Hans Hotter": "НЕ найдено. Поиск на его официальном Topic-канале и в вебе (запросы «Hans Hotter Auflösung Schubert») не выявил записи; на канале присутствуют Winterreise, Schwanengesang, отдельные Lieder, но не D 807.",
+  "Peter Anders": "НЕ найдено. Официальный Topic-канал Peter Anders содержит обширный Winterreise 1945 (Raucheisen) и отдельные песни, но Auflösung среди них не обнаружена.",
+  "Elisabeth Schumann": "НЕ найдено. Поиск не выявил записи Auflösung у Э. Шуман; на её материалах (HMV 1927–1949, антология Naxos 8.110731) эта песня, судя по дайджесту (28 песен перечислены пофамильно без Auflösung) и вебу, отсутствует.",
+  "Christa Ludwig": "НЕ найдено. Официальный Topic-канал Christa Ludwig обширен (Winterreise, отдельные Lieder), но конкретно Auflösung в выдаче не появилась ни разу при целевом поиске.",
+  "Lucia Popp": "НЕ найдено. Официальный Topic-канал Lucia Popp содержит много отдельных песен Шуберта (Die Rose, Der Knabe, Fülle der Liebe и др. — часть найдена также через связанный канал Graham Johnson - Topic), но Auflösung среди них нет."
+ },
+ "albums_facts": [
+  {"album": "Schubert: Sämtliche Lieder (DG, 21 CD, Fischer-Dieskau/Moore)", "singer": "Dietrich Fischer-Dieskau", "year": "1966–1972", "label": "Deutsche Grammophon", "facts": "Полный свод мужских песен; уже описан в реестре альбомов пилота (planning/youtube/albums.md).", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Lieder (2 LP), Janet Baker / Gerald Moore", "singer": "Janet Baker", "year": "1970", "label": "EMI / Warner Classics", "facts": "Открывается Gretchen am Spinnrade (D 118); уже в реестре альбомов пилота как источник для D 118, D 828, D 839.", "covers_more_pilot_songs": true},
+  {"album": "Schubert Licht und Schatten (Hasselhorn/Bushakevitz), harmonia mundi HMM902747", "singer": "Samuel Hasselhorn", "year": "2025", "label": "harmonia mundi", "facts": "Проект «Schubert 200», том о песнях 1824–1826 — прямо покрывает раздел пилота (D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854 и др.); уже в реестре альбомов.", "covers_more_pilot_songs": true},
+  {"album": "Hyperion Schubert Edition, том с Brigitte Fassbaender (CDJ33011)", "singer": "Brigitte Fassbaender", "year": "1990/1991", "label": "Hyperion", "facts": "Записано июнь 1990, издано май 1991; комментарии Грэма Джонсона к Auflösung: «a grand song, a mighty utterance on a majestic scale», «Wagnerian audacity laced with... rigour of Gluck».", "covers_more_pilot_songs": false},
+  {"album": "Songmakers' Almanac / Felicity Lott (CDD22010)", "singer": "Felicity Lott", "year": "1983/1997 (переиздание)", "label": "Hyperion", "facts": "Записано ноябрь 1983; переиздано март 1997 в рамках дуо-серии Songmakers' Almanac под руководством Грэма Джонсона.", "covers_more_pilot_songs": false},
+  {"album": "Mary Bevan / Joseph Middleton (SIGCD939)", "singer": "Mary Bevan", "year": "2024/2025", "label": "Signum Classics (описана на странице hyperion-records.co.uk)", "facts": "Записано сентябрь 2024, All Saints' Church, East Finchley; издано октябрь 2025 — самая свежая запись в пуле.", "covers_more_pilot_songs": false}
+ ],
+ "surveys": [
+  "Hyperion Records, комментарий Грэма Джонсона к D 807 (общий, не привязан к конкретному исполнителю): https://www.hyperion-records.co.uk/dw.asp?dc=W2200_GBAJY9101111 — «Auflösung is by far the biggest of the four songs written in March 1824 which mark both a return and farewell to the poetry of Mayrhofer»; «Wagnerian audacity laced with the implacable classical rigour of Gluck»; интерпретация — музыка выражает не столько бахвальство, сколько безнадёжность видения поэта.",
+  "Целевой поиск klassik-prisma.de («Auflösung D807 Vergleich») результата НЕ дал — сравнительного обзора именно этой песни на сайте (в отличие от D 118/D 828 из прежних дайджестов) обнаружить не удалось в рамках доступного бюджета WebSearch.",
+  "Presto Music, страница работы (список записей, доступ к полному списку заблокирован HTTP 403 при попытке WebFetch): https://www.prestomusic.com/classical/works/4991--schubert-auflosung-d807/browse",
+  "Oxford Song, страница текста/перевода (без специального обзора записей): https://oxfordsong.org/song/aufl%C3%B6sung — перевод Ричарда Уигмора, впервые опубликован Gollancz и переиздан в Hyperion Schubert Song Edition."
+ ],
+ "negatives": [
+  "Из восьми приоритетных исполнителей по правилам (`docs/rules/youtube-performances.md`) Auflösung записал только Fischer-Dieskau — Quasthoff, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig и Popp эту песню, судя по доступным дискографическим источникам и официальным YouTube-каталогам, НЕ записывали.",
+  "Целевой поиск сравнительного обзора klassik-prisma.de по этой песне результата не дал (в отличие от других песен пилота) — бюджет WebSearch сессии был исчерпан (200/200) до завершения более широкого веб-исследования; часть кандидатов (Christiane Iven/Kehring, Paul Armin Edelmann/Spencer, Mitsuko Shirai/Höll, Ria Ginster/Moore, Christoph Prégardien, Barry McDaniel, Philippe Sly) осталась вне таблицы candidates — они присутствуют в MB/YouTube (см. .mb.json и .yt.json), но не были исследованы по всем обязательным пунктам (год, альбом, репутация) из-за исчерпания поискового бюджета; при необходимости расширения пула эти имена — первые кандидаты на доисследование в следующей сессии.",
+  "Elly Ameling/Baldwin и Felicity Lott/Johnson — задокументированы частично (пианист, общий период по смежным альбомам), но точная официальная YouTube-ссылка НЕ найдена в рамках сессии; не включать в топ-5 без дополнительной проверки."
+ ]
+}
