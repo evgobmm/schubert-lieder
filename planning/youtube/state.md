@@ -58,6 +58,12 @@ yt-dlp установлен standalone (см. `docs/rules/workflow.md` → «О�
 - Волна 4 (rare, 10 песен): 805, 830, 831, 843, 854, 855, 857/1, 857/2, 860, 861
 - Волны 3 и 4 — параллельно (2 воркфлоу, потолок 14 агентов каждый)
 
+## Точка восстановления (обновлять при каждом запуске волн)
+
+При обрыве сессии (лимиты, перезагрузка): состояние = app/src/data/performances.json (опубликовано) + triage.json + make-waves.js status. Новая сессия: (1) git pull; (2) node planning/youtube/scripts/make-waves.js status; (3) если по журналам в ~/.claude/projects/.../subagents/workflows/<runId>/ видны завершённые, но неопубликованные волны — извлечь результаты из journal.jsonl (строки type:result) и опубликовать publish.js; (4) иначе — сгенерировать следующую волну make-waves.js и запустить batch-wave.js/wave.js заново: готовые досье лежат в planning/youtube/data/*.dossier.json и переиспользуются, платный повтор минимален.
+
+Активные на 2026-08-17 ~14:10 UTC: famous-4 добивка runId wf_175387a2-30b (D 777, 881, 939 из кэша); волна G runId wf_d105eb66-1d5 (40 rare, D 399…474).
+
 ## Общие ресурсы
 
 - `planning/research/singers-digest.md` — дайджест фонда певцов (строится агентом)
