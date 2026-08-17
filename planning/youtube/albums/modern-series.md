@@ -10,7 +10,7 @@
 
 Проект **«Schubert 200»** (harmonia mundi, с Ammiel Bushakevitz, до 2028): песни ровно через 200 лет после сочинения; Winterreise ожидается к 2027 (digest). Сайт певца подтверждает три вышедших тома (samuelhasselhorn.com). YT: хорошо, HM official/Topic (digest).
 
-- **Hasselhorn — Glaube, Hoffnung, Liebe (harmonia mundi HMM 902689, зап. 2021?, изд. 06.05.2022)** — Joseph Middleton; предшествует «Schubert 200»; вкл. Totengräbers Heimweh D 842 (albums.md); критика: без установленных премий?; YT: HM Topic.
+- **Hasselhorn — Glaube, Hoffnung, Liebe (harmonia mundi HMM 902689, зап. IV.2021 [MB recording-relations], изд. 06.05.2022; год в проекте: 2021)** — Joseph Middleton; предшествует «Schubert 200»; вкл. Totengräbers Heimweh D 842 (albums.md); критика: без установленных премий?; YT: HM Topic.
 - **Hasselhorn — Schubert 200, т. 1: Die schöne Müllerin (harmonia mundi HMM 902720, зап. 2023?, изд. 22.09.2023 [MB])** — Bushakevitz; Diapason d'Or октября 2023 (сэмплер Discogs DIAP 338 «Les Plus Beaux CD Du Mois — Octobre 2023»), Diapason d'or de l'année (digest); YT: HM official/Topic.
 - **Hasselhorn — Schubert 200, т. 2: Licht und Schatten (harmonia mundi HMM 902747, зап. ?, изд. 28.02.2025 [MB/albums.md])** — Bushakevitz; песни 1824–1826 (весь пилотный раздел); Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik (albums.md); YT: HM official/Topic.
 - **Hasselhorn — Schubert 200, т. 3: Hoffnung (1826) (harmonia mundi HMM 902779, зап. ?, изд. 17.04.2026 [MB/Discogs])** — Bushakevitz; песни 1826 года, TT 71'35, буклет 60 стр. (Discogs); премии: ещё нет?; YT: HM Topic?.
