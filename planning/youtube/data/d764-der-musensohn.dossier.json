@@ -1,0 +1,594 @@
+{
+  "d": "764",
+  "title": "Der Musensohn",
+  "tier": "famous",
+  "generated": "2026-08-17",
+  "method": "MB-каркас + скриптовые кандидаты + дискография Майкла Грея (classical-discography.org, поиск по work=Musensohn — 32 позиции) + Discogs API (треклисты) + реестр альбомов проекта. WebSearch в сессии исчерпан; веб-исследование велось через WebFetch/curl по прямым URL.",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Charles Spencer",
+      "rec_year": "1993",
+      "year_source": "Discogs release 8778752 (RCA Victor Red Seal 09026 618642), примечания издания: «Recorded May 25-26 and May 28-29, 1993 at Reitsaddel, Neumarkt», ℗1995. Полный трек-лист из 13 номеров зафиксирован в реестре проекта; Der Musensohn — в списке.",
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642), Historischer Reitstadel, Ноймаркт; изд. 1995",
+      "label": "RCA Victor Red Seal / BMG",
+      "age_voice": "34 года; ровно в начале пика по дайджесту (~1993–2007). Первый из шести шубертовских альбомов; голос свежий, дикция и легато на уровне.",
+      "reputation": "Альбом — опорная точка гётевского репертуара Квастхофа. klassik-prisma по Erlkönig с этого диска — 4 балла с замечанием о шершавом нижнем регистре (карточка реестра). Отдельного разбора Der Musensohn в найденных обзорах нет.",
+      "sources": [
+        "https://api.discogs.com/releases/8778752",
+        "planning/youtube/albums.md (карточка Quasthoff — Goethe-Lieder)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "xt66jGlzydk", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Метаданные Topic-загрузки (yt-dlp): album «Schubert: Goethe-Lieder», artists Quasthoff/Spencer, release_year 1993 — привязка к альбому 1993 г. подтверждена. Длительность 116–117 с — самая быстрая трактовка в пуле. Высший приоритет по правилам."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция проекта; сессии свода 1966–1972)",
+      "year_source": "Реестр проекта (albums.md, albums/complete-editions.md): DG «Sämtliche Lieder», 21 CD, Ufa-Ton-Studio Berlin, сессии 1966–1972; гётевский блок — LP DG 2530 229. В дискографии Грея сессия именно D 764 не зафиксирована (в выдаче по work=Musensohn записей Ф.-Д. нет).",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD) / LP «Lieder nach Texten von Goethe» DG 2530 229",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет; свод сделан на верхней границе пика (~1951–1972), до сухости середины 1970-х.",
+      "reputation": "Базовая точка отсчёта корпуса: полный свод всех «мужских» песен с Муром, эталон дикции и ритмической пружины. Отдельных сравнительных оценок именно D 764 в найденных обзорах нет.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "planning/youtube/albums/complete-editions.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "QzTh5zAxPro", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Метаданные загрузки: album «Schubert: Lieder», artists Fischer-Dieskau/Moore, release_year 1969, 132 с — соответствует своду DG. Самая просматриваемая официальная загрузка песни (34 тыс.)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": "1959",
+      "year_source": "Реестр проекта: DG SLPM 138 117 «Ein Schubert-Goethe-Liederabend», запись 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960 (карточка albums.md, переизд. «The Originals» 457 747-2).",
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117); переизд. DG «The Originals» 457 747-2",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года — вокальный пик; тон светлее и свободнее, чем в своде 1966–72.",
+      "reputation": "Полностью гётевская программа на пике певца; переиздана в престижной серии «The Originals» — маркер каноничности. Прямых сравнительных рецензий по D 764 не найдено.",
+      "sources": ["planning/youtube/albums.md"],
+      "youtube": [
+        {"videoId": "su-bwNkIbd8", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Метаданные загрузки: album «Récital Schubert et Goethe (Stereo Version)», artists «Fischer-Dieskau, Jörg Demus», release_year 1960, 120–121 с — французское переиздание сессии сентября 1959."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Edwin Fischer",
+      "rec_year": "1952",
+      "year_source": "Дискография Майкла Грея, запись id 58271: «1952 October 6, London, EMI Studio No. 1A, Abbey Road, Columbia 33CX1040, Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano». Совпадает с карточкой реестра (сессии диска 4–7 октября 1952).",
+      "album": "Schubert: Lieder (Columbia 33CX 1040); переизд. Naxos Historical 8.111287, Warner «Complete Recitals 1952–1974»",
+      "label": "Columbia (EMI) / Warner; Naxos Historical",
+      "age_voice": "37 лет — центр пика (1948–1964); голос полный, без поздней сухости 1970-х.",
+      "reputation": "Рецитал с Эдвином Фишером — общепризнанный эталон шубертовского пения; в дайджесте назван «эталоном», Gretchen с этого диска — со-победитель слепого теста 2020. Отдельной сравнительной оценки D 764 не найдено (страницы Vergleich для этой песни на klassik-prisma нет).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=58271",
+        "planning/youtube/albums.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "jDemvVj-7nI", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "9oJiEbQLn5Y", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "HfIBE9njAhg", "channel": "davidhertzberg", "official": false, "oembed_ok": true}
+      ],
+      "note": "Оба Topic-ролика (126 с) по метаданным — версия с Эдвином Фишером (jDemvVj-7nI: album «Shwarzkopf Sings Schubert Lieder», artists Schwarzkopf/Edwin Fischer; 9oJiEbQLn5Y: «The Very Best of Elisabeth Schwarzkopf», artists «Schwarzkopf/Edwin Fischer»). Есть также фан-загрузка лайва Турин 1954 (Y1nCowpzgvQ, oembed ok) — с Фишером, но год концерта проверен только по описанию загрузки, то есть источником не является."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": "1951",
+      "year_source": "Дискография Грея, id 25746: «1951 December 2, London, EMI Studio No. 1, Abbey Road, Columbia LB118, matrix CA 21996».",
+      "album": "Columbia LB 118 (78 об.); материал 78-х 1948–54 переиздан на Naxos Historical 8.111287",
+      "label": "Columbia (EMI)",
+      "age_voice": "36 лет, пик.",
+      "reputation": "Ранняя 78-оборотная версия за год до рецитала с Фишером; отдельных рецензий не найдено.",
+      "sources": ["https://www.classical-discography.org/modalcontent.php?id=25746"],
+      "youtube": [],
+      "note": "ОТРИЦАТЕЛЬНЫЙ по YouTube: отдельной загрузки версии с Муром не найдено — оба Topic-ролика Шварцкопф по метаданным относятся к версии с Эдвином Фишером. Для плеера использовать версию 1952 г."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "1936",
+      "year_source": "Дискография Грея, id 62870: «1936 November 26, London, EMI Studio No. 3, Abbey Road, HMV DA1545, matrix 0EA 4487, take 1». Пианист у Грея не напечатан; Мур подтверждается контекстом сессии (в тот же день, матрица 0EA 4491-1, записана её Gretchen D 118 с Муром — дайджест) и кредитами Topic-канала «Elisabeth Schumann & Gerald Moore».",
+      "album": "HMV DA 1545 (78 об.); переизд. Naxos Historical 8.110731, Warner «Icon», «The Art of Schubert Lieder»",
+      "label": "HMV (EMI) / Naxos Historical",
+      "age_voice": "48 лет; голос уже за пиком 1920-х – сер. 1930-х, но стиль и дикция — эталон венской школы.",
+      "reputation": "Её шубертовские 78-е — канон исторической дискографии (антология EMI «Schubert Lieder on Record»); прямой сравнительной оценки D 764 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=62870",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "c0YPIjJ29os", "channel": "Elisabeth Schumann & Gerald Moore - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "2cSf-T21V0M", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВНИМАНИЕ по правилу дат: метаданные Topic («Opera Classics» 2012, «The Art of Schubert Lieder» 2008) — годы переизданий, не записи. Год записи только по матрице 0EA 4487 (26.11.1936)."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961",
+      "year_source": "Дискография Грея, id 55246: «1961 November 28, London, EMI Studio No. 1, Abbey Road, Columbia SAX 5272 / Angel S36462, Christa Ludwig, mezzo-soprano; Geoffrey Parsons, piano». Уточняет карточку реестра, где корпус датирован диапазоном 1957–1969.",
+      "album": "Schubert: 15 Lieder (Columbia SAX 5272 / Angel S 36462); в Warner-боксе «The Complete Recitals on Warner Classics»",
+      "label": "Columbia (EMI) / Warner Classics",
+      "age_voice": "33 года — центр пика (~1957–1975); голос ровный, без позднего утяжеления (сравн. Winterreise 1986).",
+      "reputation": "Тот же корпус сессий дал 5-звёздную по klassik-prisma Gretchen; альбом «15 Lieder» — опорный шубертовский рецитал Людвиг.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=55246",
+        "planning/youtube/albums.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "MJXX8LYdDPs", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "FhwHVTHNXZk", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "MJXX8LYdDPs — album «The Complete Recitals on Warner Classics» (метаданные: Ludwig/Parsons, ℗-год 1967 — год издания, не записи); FhwHVTHNXZk — album «Schubert: 15 Lieder». Обе загрузки одной фонограммы (144–146 с); год в плеере — 1961 по Грею."
+    },
+    {
+      "singer": "Peter Anders",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1943",
+      "year_source": "Дискография Грея, id 214177: «1943 April 17, Berlin, Radiophon R185/45, Peter Anders, tenor; Michael Raucheisen, piano» — радиофонд RRG.",
+      "album": "Радиозапись RRG Берлин; переиздания Eterna/DG/Heliodor и антологии Raucheisen-фонда",
+      "label": "Radiophon / RRG; позднейшие переиздания",
+      "age_voice": "34–35 лет — пик; спада у Андерса не было (погиб в 1954), 1940-е — его лучшая форма.",
+      "reputation": "Эталон немецкой радиошколы 1940-х (дайджест); отдельных сравнительных рецензий по D 764 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=214177",
+        "planning/youtube/albums/male-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "jOvlO_GwIOc", "channel": "Peter Anders - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность Topic-загрузки 152 с. Принадлежность именно к сессии 17.04.1943 не доказана документально (метаданные загрузки источником не являются); у Андерса известен единственный документированный Musensohn — эта радиозапись, поэтому привязка вероятна, но помечена как непроверенная."
+    },
+    {
+      "singer": "Kathleen Ferrier",
+      "pianist": "Phyllis Spurr",
+      "rec_year": "1949",
+      "year_source": "Дискография Грея, id 33380: «1949 February 14, London, Decca West Hampstead Studios, Decca M652, matrix DR 13234». Совпадает с карточкой реестра (albums/female-recitalists.md: Decca 78s M 652 — Der Musensohn + An die Musik).",
+      "album": "Decca M 652 (78 об.); переизд. «Kathleen Ferrier — A Tribute», «Kathleen Ferrier Remembered», Decca Centenary Edition",
+      "label": "Decca",
+      "age_voice": "36 лет — пик; умерла в 41, позднего спада нет.",
+      "reputation": "Контральтовая классика Decca; тембр и дикция Ферриер в шубертовских 78-х — общепризнанный документ. Отдельных сравнительных оценок D 764 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=33380",
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        {"videoId": "7GVmAGxHtW0", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "cXYdoyJ8Gno", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "На Topic-канале не менее пяти параллельных загрузок одной фонограммы (134–139 с) в разных сборниках; release_year в метаданных («1950») — год издания сборника, не сессии."
+    },
+    {
+      "singer": "Fritz Wunderlich",
+      "pianist": "Hubert Giesen",
+      "rec_year": "1965",
+      "year_source": "Дискография Грея, id 75714: «1965 October 31 – November 3, München, Hochschule für Musik, Deutsche Grammophon 139125». Это ДРУГАЯ сессия, чем DG 139 220 (Müllerin + Lieder, 2–5 июля 1966) из реестра.",
+      "album": "Schubert-Lieder (DG 139 125), Мюнхен, Hochschule für Musik",
+      "label": "Deutsche Grammophon",
+      "age_voice": "35 лет; у Вундерлиха только пик — погиб 17.09.1966, спада нет.",
+      "reputation": "Дуэт с Гизеном — эталон теноровой шубертианы 1960-х (Müllerin 1966 — канон). Прямой сравнительной оценки D 764 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=75714",
+        "planning/youtube/albums.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "ybIf82kBjnY", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "EGpakcbOIjA", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Обе Topic-загрузки 131–133 с — соответствуют студийной версии. Отдельно существует зальцбургский лайв 19.08.1965, Mozarteum, с Гизеном (MB-дисамбигуация; Orfeo d'Or C 432 961 B / Acanta 43 529): длительности 170–178 с; на YouTube ему, по-видимому, соответствует 3evvgRxSPUU (156 с, Topic) — привязка не доказана."
+    },
+    {
+      "singer": "Gerhard Hüsch",
+      "pianist": "Hanns Udo Müller",
+      "rec_year": "1934",
+      "year_source": "Дискография Грея, id 55358: «1934 November 12, Berlin, Electrola Studios, Electrola EG3201, matrix 0RA 141, take 2».",
+      "album": "Electrola EG 3201 (78 об.); переизд. Preiser «Lebendige Vergangenheit», антологии EMI «Schubert Lieder on Record»",
+      "label": "Electrola (HMV) / Preiser",
+      "age_voice": "33 года — пик 1930-х; тот же дуэт, что записал эталонные Winterreise (1933) и Müllerin (1934/35).",
+      "reputation": "klassik-prisma ставит Хюша 5 баллов и первой строкой мужской таблицы (карточка реестра по другой песне); связка Hüsch/H. U. Müller — исторический эталон обоих циклов.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=55358",
+        "planning/youtube/albums.md"
+      ],
+      "youtube": [
+        {"videoId": "vjRNbSL3_tQ", "channel": "Lieder & Opera Greats", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной (Topic) загрузки не найдено — только фан-канал (142 с, 71 просмотр). Риск удаления выше среднего."
+    },
+    {
+      "singer": "Thérèse Behr-Schnabel",
+      "pianist": "Artur Schnabel",
+      "rec_year": "1932",
+      "year_source": "Дискография Грея, id 39498: «1932 November 18, London, EMI Studio No. 3, Abbey Road, HMV DB1836, matrix 2B 4523».",
+      "album": "HMV DB 1836 (78 об.); переизд. в исторических антологиях (MB: «1997 Remaster»)",
+      "label": "HMV",
+      "age_voice": "56 лет; голос заметно на излёте — ценность записи прежде всего в том, что за роялем Артур Шнабель.",
+      "reputation": "Исторический курьёз-документ высшего разряда (Шнабель-аккомпаниатор), но вокально не конкурент. Оценок в современных обзорах не найдено.",
+      "sources": ["https://www.classical-discography.org/modalcontent.php?id=39498"],
+      "youtube": [],
+      "note": "Живой загрузки не искал целенаправленно/не подтверждена — для топ-5 кандидат маргинальный."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Michael Raucheisen (1930) / Sebastian Peschko (1937, 1948) / Otto Braun (1951)",
+      "rec_year": "1930; 1937; 1948; 1951",
+      "year_source": "Дискография Грея: id 240231 — 1930, Berlin, Polydor 62623, Raucheisen, матрица bh 2313; id 26417 — 1937 June 10, Berlin, Polydor 30029, Peschko, матрица gr 7166; id 256641 — 1948 July, Geneva, Decca M38102, Peschko, матрица SDR 46; id 1925 — 1951 April 12, Hannover, Beethovensaal, DG 62880, Otto Braun, матрица wh 2555.",
+      "album": "Polydor 62623 / Polydor 30029 / Decca M 38102 / DG 62880 (78 об.); переизд. Preiser",
+      "label": "Polydor (DG) / Decca",
+      "age_voice": "42 / 49 / 60 / 63 года. Пик — 1920–30-е; ровность держал и в 1940-е (дайджест), но версии 1948 и 1951 — уже поздние.",
+      "reputation": "Один из самых записываемых немецких баритонов эпохи; четыре студийных подхода к песне — маркер её концертной значимости. Отдельных сравнительных рецензий не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=240231",
+        "https://www.classical-discography.org/modalcontent.php?id=26417",
+        "https://www.classical-discography.org/modalcontent.php?id=256641",
+        "https://www.classical-discography.org/modalcontent.php?id=1925"
+      ],
+      "youtube": [
+        {"videoId": "OMxFWOV_FSs", "channel": "NoeckesHarfenschall", "official": false, "oembed_ok": true}
+      ],
+      "note": "Загрузки только фан-каналами, и какая из четырёх сессий звучит — не установлено (описание «1925» у второго ролика GYF1yhYPH6g противоречит Грею и метаданными источником не является)."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Gerald Moore (Electrola); Leonard Hokanson (Philips 1971); Karl Engel (Philips Goethe-Lieder)",
+      "rec_year": "1971 (версия с Хоконсоном — документирована); версия с Муром — год сессии не установлен",
+      "year_source": "Грей, id 176428: «1971 October 27 – 30, München, Philips 6747 059, Hermann Prey, baritone; Leonard Hokanson, piano». Версия с Муром документирована только по треклистам компиляций Electrola: Discogs 4513405 «Weltstars singen Franz Schubert» (HÖR ZU/Electrola, изд. 1970), трек B1 «Der Musensohn D. 764» — Prey/Moore; тот же трек на Discogs 9408383 (World Record Club, 1973).",
+      "album": "Weltstars singen Franz Schubert (Electrola/HÖR ZU) — с Муром; Philips 6747 059 — с Хоконсоном",
+      "label": "Electrola (EMI) / Philips",
+      "age_voice": "с Муром — вероятно 1960-е (пик ~1960–1980); с Хоконсоном — 42 года, ещё в форме.",
+      "reputation": "Прай — один из двух главных баритонов-шубертианцев поколения; конкретных рецензий на его D 764 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=176428",
+        "https://api.discogs.com/releases/4513405",
+        "https://api.discogs.com/releases/9408383"
+      ],
+      "youtube": [
+        {"videoId": "rZ_JHAadyCM", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Topic-загрузка 116 с; к какой из версий относится — не установлено. Есть также Topic-ролик T2DeQ-_PICw «Der Musensohn, D. 764b (Live)» (144 с) и pGg2gsIy8fE (127 с) — разные фонограммы Прая."
+    },
+    {
+      "singer": "Peter Schreier",
+      "pianist": "Walter Olbertz (студия) / Peter Rösel (лайв 1984)",
+      "rec_year": "1974 (Eterna, Olbertz); 1984 (лайв, Rösel)",
+      "year_source": "Грей, id 199397: «1974, Eterna 826408, Peter Schreier, tenor; Walter Olbertz, piano»; id 306820: «1984 October 1, Berlin, Schauspielhaus, Eterna 827785, Schreier / Peter Rösel».",
+      "album": "Eterna 826408 (Schubert-Lieder-Edition ГДР); Eterna 827785 (лайв Шаушпильхаус)",
+      "label": "Eterna (Berlin Classics)",
+      "age_voice": "39 и 49 лет — в пределах пика (~1965–1990).",
+      "reputation": "Eterna-циклы Шрайера/Ольбертца — главный «старый» фонд редких песен наряду с Fischer-Dieskau/DG и Hyperion (реестр). Сравнительных оценок D 764 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=199397",
+        "https://www.classical-discography.org/modalcontent.php?id=306820",
+        "planning/youtube/albums/complete-editions.md"
+      ],
+      "youtube": [
+        {"videoId": "iFmp0ncvzz8", "channel": "davidhertzberg", "official": false, "oembed_ok": false}
+      ],
+      "note": "Единственная найденная загрузка — фан-канал, и oEmbed вернул 500 (проверить повторно). Её описание («1965, MHS 3380») противоречит датировке Грея (1974) и источником не является: MHS — американская лицензионная перепечатка Eterna."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1987 (концерт, июнь)",
+      "year_source": "Карточка реестра проекта: Philips 422 048-1/-2 «Händel · Schubert · Schumann — Recorded Live», живая запись Шубертиады (Хоэнемс/Фельдкирх), 6/1987, издание 1988; шубертовский блок прямо включает Der Musensohn (примечания Discogs).",
+      "album": "Händel · Schubert · Schumann — Recorded Live (Philips 422 048)",
+      "label": "Philips / Universal",
+      "age_voice": "41–42 года — центр пика (~1975–1995).",
+      "reputation": "Норман — крупная величина в Lieder 1980-х (Erlkönig — 5 баллов klassik-prisma по студийному диску 1984 с Моллем). Манера монументальная — для скерцозного «Der Musensohn» это спорный плюс.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Jessye Norman — Händel · Schubert · Schumann)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "v-PLTUcixdY", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "M2IMJHn711o", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "bM4KyMw0GOE", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три параллельные Topic-загрузки (118–121 с). MB знает две связки Норман — с Parsons и с Phillip Moll (Philips, зап. апрель 1984): какая из них на каком videoId, не разведено — перед публикацией требуется привязка."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1996",
+      "year_source": "Discogs release 5286765 (EMI Classics «Schubert Lieder», 1998), примечания: «Recorded: II. & III.1996, No.1 Studio, Abbey Road, London»; треклист содержит Der Musensohn.",
+      "album": "Schubert Lieder (EMI 7243 5 56347 2 6), изд. 1998",
+      "label": "EMI Classics / Warner",
+      "age_voice": "31–32 года; дебютный студийный рецитал, по реестру — сильнейшая ранняя работа, до поздней манерности.",
+      "reputation": "Реестр проекта отмечает диск как сильнейшую раннюю работу Бостриджа; при этом действует правило скепсиса к прессе о современных.",
+      "sources": [
+        "https://api.discogs.com/releases/5286765",
+        "planning/youtube/albums/male-recitalists.md"
+      ],
+      "youtube": [
+        {"videoId": "DmwfJPv4reg", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "122 с; совпадает с MB (Bostridge/Drake, 122 с)."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (хаммерклавир)",
+      "rec_year": "1994",
+      "year_source": "Карточка реестра: DHM 05472 77342 2 «Schubert: Songs to Poems by Goethe», запись 10–13 октября 1994, Studio Stollberger Str., WDR Кёльн, копродукция WDR; изд. 1995. Инструмент — копия Johann Fritz (Вена, ок. 1815) работы Christopher Clarke (Париж, 1981).",
+      "album": "Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2)",
+      "label": "Deutsche Harmonia Mundi (BMG)",
+      "age_voice": "30 лет; в начале пика (~1990–2012), тенор лёгкий и подвижный.",
+      "reputation": "Периодный эталон гётевского блока; программа целиком гётевская. Отдельной оценки D 764 не найдено.",
+      "sources": ["planning/youtube/albums.md"],
+      "youtube": [
+        {"videoId": "7KrQ61Jk_3Y", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "119 с — совпадает с MB для связки Prégardien/Staier (118 с). Вторая Topic-загрузка wzswTAovrQQ (140 с) соответствует связке Prégardien/Gees (MB: 139 с) — другой альбом («Lieder von Abschied und Reise»)."
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": "2005",
+      "year_source": "Discogs release 14806339 (RCA Red Seal «Abendbilder»), примечания: «Recording Dates: 18.–21.09.2005, Hochschule für Musik und Theater München, Großer Konzertsaal»; треклист содержит Der Musensohn (трек 14).",
+      "album": "Abendbilder — Lieder von Franz Schubert (RCA Red Seal 82876777162)",
+      "label": "RCA Red Seal / Sony",
+      "age_voice": "36 лет — начало зрелого пика.",
+      "reputation": "Альбом получил Gramophone Award 2006 (solo vocal) и Preis der deutschen Schallplattenkritik 2006 (карточки реестра). Пресса называет Герхаэра высшим текстовиком современности — по правилу проекта такие оценки фильтруются как отчасти пиар.",
+      "sources": [
+        "https://api.discogs.com/releases/14806339",
+        "planning/youtube/albums/male-recitalists.md"
+      ],
+      "youtube": [
+        {"videoId": "9PEskHtMkbw", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "130 с; совпадает с MB (Gerhaher/Huber, 130 с). Проверено отдельно: на «Nachtviolen» (Sony 2014) и на HM-«Erlkönig» Гёрне песни нет."
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "не установлен (серия BBC охватывает 1954–1972)",
+      "year_source": "Карточка реестра по BBC Music BBCB 8015-2 «Britten the Performer»: дата конкретного номера не документирована. В дискографии Грея записей Пирса по D 764 нет.",
+      "album": "Britten the Performer (BBC Music), радиозаписи BBC",
+      "label": "BBC Music",
+      "age_voice": "пик Пирса — 1950-е–1960-е; без точной даты состояние голоса не определить.",
+      "reputation": "Дуэт Пирс/Бриттен — один из великих в шубертовском репертуаре (Winterreise Decca 1963). Конкретной оценки D 764 не найдено.",
+      "sources": ["planning/youtube/albums.md"],
+      "youtube": [
+        {"videoId": "p32_HAX0se0", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "lZOPJNxeuSQ", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Две Topic-загрузки (125 и 128 с) — вероятно разные трансляции; MB знает три записи Pears/Britten этой песни (125, 127, 157 с). Год потребует целевого доисследования по буклету BBC, либо в плеере ставится диапазон со знаком вопроса."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "не установлен",
+      "year_source": "В дискографии Грея записей Бейкер по D 764 нет. Реестр знает два вероятных источника: HMV SLS 812, 2 LP (сессии 29.08 + 12–13.09 + 16–20.12.1970, Abbey Road 1, пианист Gerald Moore) и BBC Legends BBCL 4070-2 (лайвы 1970/1977/1980, пианисты Parsons, Johnson, Isepp).",
+      "album": "«Schubert: Lieder» (Warner) по метаданным Topic; конкретное издание не привязано",
+      "label": "EMI / Warner Classics",
+      "age_voice": "если 1970 — 37 лет, центр пика (~1965–1982).",
+      "reputation": "2-LP 1970 г. — классика жанра (дайджест). Оценок D 764 не найдено.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "E9FVF-N9OSY", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "MB знает у Бейкер две связки — с Parsons (136–138 с) и с Martin Isepp (119 с, вероятно Saga ~1965). Без привязки года кандидат идёт с оговоркой."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Jörg Demus (ранняя версия) / Rudolf Jansen (поздняя)",
+      "rec_year": "не установлен окончательно",
+      "year_source": "У Грея записей Амелинг по D 764 нет. Реестр даёт кандидатов на связку с Демусом: Harmonia Mundi HM 17 050 (сессия IX.1964, Palais Schönburg, Вена) и EMI Electrola 1C 063-29 025 (10–13.01.1970, Берлин-Целендорф); связку с Янсеном — лайв Tanglewood 02.07.1987 (Omega OCD 1001) и «Schubert: Lieder» ℗1986.",
+      "album": "не привязан",
+      "label": "Harmonia Mundi / EMI / Philips (Universal)",
+      "age_voice": "31 год (1964) или 37 (1970) — в обоих случаях внутри пика (~1965–1985).",
+      "reputation": "Самая записываемая шубертианка поколения (дайджест). Оценок D 764 не найдено.",
+      "sources": ["planning/youtube/albums/female-recitalists.md"],
+      "youtube": [
+        {"videoId": "3VDRcmlgTWk", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "pT_bQJzXGTY", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Ui8_EyL9dQo", "channel": "davidhertzberg", "official": false, "oembed_ok": true}
+      ],
+      "note": "Фан-загрузка Ui8_EyL9dQo заявляет «1963, RCA VICS-1405» — метаданными загрузки, то есть НЕ источником; расходится с реестровыми датами. Кандидат требует доисследования при попадании в пятёрку."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994",
+      "year_source": "Карточка реестра: DG 445 294-2 «An die Musik – Favourite Schubert Songs», сессии февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; издание 04.09.1994. MB подтверждает связку Terfel/Martineau по D 764.",
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2), 23 песни",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28–29 лет, начало пика (~1992–2005); голос свежий и крупный.",
+      "reputation": "Бестселлер каталога DG; klassik-prisma даёт диску 4–5 баллов за Erlkönig (карточка реестра). Тервел — не циклист, шубертовский стиль спорен.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "planning/youtube/data/d764-der-musensohn.mb.json"
+      ],
+      "youtube": [],
+      "note": "Официальная загрузка именно D 764 в проведённых поисках не выделена — требует отдельного поиска, если кандидат нужен."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "ЕСТЬ. «Schubert: Goethe-Lieder» (RCA Victor Red Seal 09026 618642, сессии 25–26 и 28–29 мая 1993, Reitstadel Ноймаркт, Charles Spencer; изд. 1995) — Der Musensohn входит в 13-трековую программу [https://api.discogs.com/releases/8778752]. YouTube: xt66jGlzydk (Thomas Quasthoff - Topic, oEmbed 200, метаданные album «Schubert: Goethe-Lieder», 1993).",
+    "Fischer-Dieskau": "ЕСТЬ, минимум три версии. (1) DG «Sämtliche Lieder» с Gerald Moore, сессии свода 1966–72, гётевский LP DG 2530 229 — YouTube QzTh5zAxPro (Topic, album «Schubert: Lieder», 1969). (2) DG SLPM 138 117 «Ein Schubert-Goethe-Liederabend» с Jörg Demus, 13–14 сентября 1959 — YouTube su-bwNkIbd8 (Topic, album «Récital Schubert et Goethe», 1960). (3) MB фиксирует также связку с Karl Engel (вероятно EMI/Electrola либо стокгольмский лайв Orfeo 1970). Источники: albums.md, mb.json. В дискографии Грея по D 764 записей Ф.-Д. нет — сессионная дата свода берётся по реестру.",
+    "Schwarzkopf": "ЕСТЬ, две студийные. (1) С Edwin Fischer — 6 октября 1952, Abbey Road Studio 1A, Columbia 33CX 1040 [Грей id 58271]; на YouTube jDemvVj-7nI и 9oJiEbQLn5Y (оба Topic, по метаданным именно версия с Фишером) + фан HfIBE9njAhg. (2) С Gerald Moore — 2 декабря 1951, Abbey Road No. 1, Columbia LB 118, матрица CA 21996 [Грей id 25746]; отдельной загрузки не найдено. Есть также фан-лайв «Турин 1954» (Y1nCowpzgvQ) — год только по описанию загрузки, не подтверждён.",
+    "Hotter": "НЕ ПОДТВЕРЖДЕНО дискографически. В дискографии Грея по work=Musensohn (32 позиции) Хоттера нет; в MB для D 764 его нет; треклисты его шубертовских рециталов, проверенные по Discogs, песни не содержат: «Lieder Recital No. 1» (Columbia, 1959, Moore, релиз 13124632), «Lieder Recital No. 2» (Columbia, 1959, релиз 13951326), «The Art of Hans Hotter» (Decca 1974, Parsons, релиз 6655914), Decca-рецитал 1987 (релиз 20289274), «All-Schubert Lieder Recital» (Raucheisen, релиз 24695477), «18 Lieder» (Grammofono 2000, зап. 1944, релиз 27318492), DG «Lieder and Opera Scenes 1942–1973» (релиз 14572585). При этом на YouTube есть фан-загрузки: fczb6Blcx88 «Hans Hotter sings Schubert - Der Musensohn - 1959» (oEmbed 200) и bupJS5zMaEo «…at age 78!» (oEmbed 401 — недоступен). Датировки в их описаниях источником не являются; для включения нужна дискографическая привязка.",
+    "Anders": "ЕСТЬ. 17 апреля 1943, Берлин, радиофонд RRG, Radiophon R185/45, пианист Michael Raucheisen [Грей id 214177]. YouTube: jOvlO_GwIOc (Peter Anders - Topic, 152 с, oEmbed 200); принадлежность загрузки именно этой сессии не доказана.",
+    "E. Schumann": "ЕСТЬ. 26 ноября 1936, London, Abbey Road Studio 3, HMV DA 1545, матрица 0EA 4487, дубль 1 [Грей id 62870]. Пианист у Грея не указан; Gerald Moore подтверждается контекстом той же сессии (Gretchen D 118, матрица 0EA 4491-1) и кредитами Topic-канала «Elisabeth Schumann & Gerald Moore». YouTube: c0YPIjJ29os, 2cSf-T21V0M (оба Topic, oEmbed 200).",
+    "Ludwig": "ЕСТЬ. 28 ноября 1961, London, Abbey Road No. 1, Columbia SAX 5272 / Angel S 36462 («Schubert: 15 Lieder»), пианист Geoffrey Parsons [Грей id 55246]. YouTube: MJXX8LYdDPs, FhwHVTHNXZk (оба Topic, oEmbed 200).",
+    "Popp": "НЕ НАЙДЕНО. В дискографии Грея по work=Musensohn Попп отсутствует; в MusicBrainz среди 80 записей произведения её нет; в реестре альбомов её шубертовские позиции (EMI-рецитал 1983 с Gage, BBC-лайв 1982 с Parsons, RCA Rosamunde 1966/67) Der Musensohn не содержат. Отрицательный результат."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+      "singer": "Thomas Quasthoff",
+      "year": "1993 (сессии 25–26 и 28–29 мая), изд. 1995",
+      "label": "RCA Victor Red Seal / BMG",
+      "facts": "Historischer Reitstadel, Ноймаркт; пианист Charles Spencer; 13 номеров, общее время 61:42; Der Musensohn — в программе. Карточка уже в реестре проекта, здесь подтверждается для D 764.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD) / LP «Lieder nach Texten von Goethe» DG 2530 229",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–1972 (конвенция проекта — 1969)",
+      "label": "Deutsche Grammophon",
+      "facts": "Gerald Moore, Ufa-Ton-Studio Берлин; полный свод «мужских» песен. Сессия именно D 764 у Грея не документирована.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1959 (13–14 сентября), изд. 1960",
+      "label": "Deutsche Grammophon",
+      "facts": "Jörg Demus, Studio Lankwitz Берлин; полностью гётевская программа; переизд. «The Originals» 457 747-2. Der Musensohn присутствует (Topic-загрузка su-bwNkIbd8 из «Récital Schubert et Goethe»).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "1952 (D 764 — 6 октября; сессии диска 4–7 октября)",
+      "label": "Columbia (EMI) / Naxos Historical",
+      "facts": "Edwin Fischer, Abbey Road Studio 1A. НОВОЕ для реестра: конкретная дата номера D 764 — 6 октября 1952 (Грей id 58271).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Columbia LB 118 (78 об.)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "1951 (2 декабря)",
+      "label": "Columbia (EMI)",
+      "facts": "Gerald Moore, Abbey Road No. 1, матрица CA 21996. НОВОЕ для реестра: содержание пластинки по D 764 (в реестре карточка LB 118 была без репертуара).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "HMV DA 1545 (78 об.)",
+      "singer": "Elisabeth Schumann",
+      "year": "1936 (26 ноября)",
+      "label": "HMV (EMI); переизд. Naxos Historical 8.110731",
+      "facts": "Abbey Road Studio 3, матрица 0EA 4487-1. Та же сессия, что дала её Gretchen D 118 (0EA 4491-1) с Gerald Moore. НОВОЕ для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 15 Lieder (Columbia SAX 5272 / Angel S 36462)",
+      "singer": "Christa Ludwig",
+      "year": "1961 (28 ноября)",
+      "label": "Columbia (EMI) / Warner",
+      "facts": "Geoffrey Parsons, Abbey Road No. 1. УТОЧНЕНИЕ к реестру: у корпуса Людвиг там стоял диапазон 1957–1969 и «хвост» по треклистам SAX 5274 — теперь для D 764 дата точная (Грей id 55246), и номер пластинки — SAX 5272.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Decca M 652 (78 об.)",
+      "singer": "Kathleen Ferrier",
+      "year": "1949 (14 февраля)",
+      "label": "Decca",
+      "facts": "Phyllis Spurr, Decca West Hampstead, матрица DR 13234; на пластинке Der Musensohn + An die Musik. Карточка уже была в albums/female-recitalists.md — подтверждена независимой сверкой по Грею (id 33380).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert-Lieder (DG 139 125)",
+      "singer": "Fritz Wunderlich",
+      "year": "1965 (31 октября – 3 ноября)",
+      "label": "Deutsche Grammophon",
+      "facts": "Hubert Giesen, Мюнхен, Hochschule für Musik. НОВОЕ для реестра: это отдельная сессия, не совпадающая с DG 139 220 (Müllerin + Lieder, 2–5 июля 1966), которая до сих пор была единственной вундерлиховской карточкой пилота.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Electrola EG 3201 (78 об.)",
+      "singer": "Gerhard Hüsch",
+      "year": "1934 (12 ноября)",
+      "label": "Electrola (HMV); переизд. Preiser",
+      "facts": "Hanns Udo Müller, Electrola-Studios Берлин, матрица 0RA 141-2. НОВОЕ для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DB 1836 (78 об.)",
+      "singer": "Thérèse Behr-Schnabel",
+      "year": "1932 (18 ноября)",
+      "label": "HMV",
+      "facts": "Artur Schnabel за роялем, Abbey Road Studio 3, матрица 2B 4523. НОВОЕ для реестра.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Abendbilder — Lieder von Franz Schubert (RCA Red Seal 82876777162)",
+      "singer": "Christian Gerhaher",
+      "year": "2005 (18–21 сентября)",
+      "label": "RCA Red Seal / Sony",
+      "facts": "Gerold Huber, HfMT München, Großer Konzertsaal; общее время 70:02; Der Musensohn — трек 14 (Discogs 14806339). Карточка была в albums/male-recitalists.md — теперь подтверждено вхождение D 764.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (EMI 7243 5 56347 2 6)",
+      "singer": "Ian Bostridge",
+      "year": "1996 (февраль–март), изд. 1998",
+      "label": "EMI Classics / Warner",
+      "facts": "Julius Drake, Abbey Road Studio No. 1; общее время 69:28; треклист содержит Der Musensohn (Discogs 5286765).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Weltstars singen Franz Schubert (HÖR ZU/Electrola) — изд. 1970; австралийский аналог World Record Club (1973)",
+      "singer": "сборный (трек B1 — Hermann Prey с Gerald Moore)",
+      "year": "1970 (издание; год сессии не установлен)",
+      "label": "Electrola (EMI)",
+      "facts": "Discogs 4513405 и 9408383: трек B1 «Der Musensohn D. 764» — Prey/Moore. НОВОЕ для реестра: подтверждает существование связки Prey/Moore по этой песне, но не датирует сессию.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Philips 6747 059",
+      "singer": "Hermann Prey",
+      "year": "1971 (27–30 октября)",
+      "label": "Philips",
+      "facts": "Leonard Hokanson, Мюнхен (Грей id 176428). НОВОЕ для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Eterna 826408 (студия) и Eterna 827785 (лайв)",
+      "singer": "Peter Schreier",
+      "year": "1974 и 1984 (1 октября)",
+      "label": "Eterna / Berlin Classics",
+      "facts": "Студия — Walter Olbertz (Грей id 199397); лайв — Peter Rösel, Берлин, Schauspielhaus (Грей id 306820). НОВОЕ для реестра: два раздельных источника Шрайера по D 764.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Händel · Schubert · Schumann — Recorded Live (Philips 422 048)",
+      "singer": "Jessye Norman",
+      "year": "1987 (концерт, июнь), изд. 1988",
+      "label": "Philips / Universal",
+      "facts": "Geoffrey Parsons; Шубертиада, Хоэнемс/Фельдкирх; шубертовский блок прямо включает Der Musensohn. Карточка уже в реестре.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Songs to Poems by Goethe (DHM 05472 77342 2)",
+      "singer": "Christoph Prégardien",
+      "year": "1994 (10–13 октября), изд. 1995",
+      "label": "Deutsche Harmonia Mundi (BMG)",
+      "facts": "Andreas Staier, хаммерклавир — копия Johann Fritz (Вена, ок. 1815) работы Christopher Clarke; WDR Кёльн. Гётевская программа целиком, поэтому D 764 входит по определению; MB подтверждает связку.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительной страницы (Vergleich) по «Der Musensohn» D 764 НЕТ: индекс шубертовских разборов (https://www.klassik-prisma.de/Schubert.htm) песню не содержит (проверено WebFetch). Для этой песни привычного 5-балльного ориентира klassik-prisma не существует.",
+    "Дискография Майкла Грея (classical-discography.org), поиск composer=Schubert + work=Musensohn — 32 сессионные позиции 1914–1984 с датами, местами, лейблами и матрицами: главный фактический источник этого досье (https://www.classical-discography.org/search.php, карточки modalcontent.php?id=...).",
+    "EMI/HMV «Schubert Lieder on Record 1898–1952» (Discogs 10772230) и том II 1929–1952 (Discogs 24874340) — историческая антология-маркер канона; вхождение D 764 не проверялось потрековно.",
+    "Diapason «22 Lieder» (Les Indispensables de Diapason, сентябрь 2023; Discogs 30791559) — редакционный отбор исторических шубертовских записей (Anders, Ferrier, Fischer-Dieskau, Grümmer, Hotter, Hüsch, Lehmann, Ludwig, Schlusnus, E. Schumann, Schwarzkopf, Seefried); полезен как быстрый тест каноничности.",
+    "Hyperion Schubert Edition (hyperion-records.co.uk) — MB фиксирует по D 764 записи Christine Schäfer / Graham Johnson и Felicity Lott / Graham Johnson; страницу произведения на сайте Hyperion получить не удалось (поиск сайта отдаёт пустую выдачу без JS), заметки Джонсона по этой песне не извлечены. Alice Coote / Julius Drake — «Schubert: 21 Songs» (CDA68169, запись декабрь 2017, All Saints' Church, East Finchley) — подтверждено на странице диска.",
+    "WebSearch в сессии был исчерпан до начала работы (200/200), поэтому обзоры Gramophone / MusicWeb / BBC Music Magazine и слепые тесты именно по D 764 не прочёсывались — это главный пробел досье."
+  ],
+  "negatives": [
+    "Hans Hotter: ни Грей, ни MusicBrainz, ни проверенные треклисты семи его шубертовских изданий (Discogs 13124632, 13951326, 6655914, 20289274, 24695477, 27318492, 14572585) не дают Der Musensohn. Существующие YouTube-ролики (fczb6Blcx88, bupJS5zMaEo) остаются дискографически не привязанными; bupJS5zMaEo к тому же мёртв (oEmbed 401).",
+    "Lucia Popp: записи песни не найдено ни в MB (80 записей произведения), ни у Грея, ни в реестре альбомов.",
+    "Elisabeth Schwarzkopf с Gerald Moore (1951): запись документирована, но отдельной загрузки на YouTube нет — обе Topic-версии по метаданным относятся к рециталу с Эдвином Фишером.",
+    "Gerhaher: Der Musensohn НЕ входит в «Nachtviolen» (Sony 2014, Discogs 11001479) — единственный источник у него «Abendbilder» 2005.",
+    "Goerne: песни нет на HM-томе «Erlkönig» (Discogs 8332698, зап. I.2012); MB даёт у Гёрне две связки (с Haefliger и с Eric Schneider), альбом не привязан — Topic-ролик ooHziIuOxeQ (oEmbed 200) без установленного издания.",
+    "Fischer-Dieskau: в дискографии Грея нет НИ ОДНОЙ его сессии по D 764 — даты берутся только из реестра/буклетов DG, точная сессия свода 1966–72 для этой песни не установлена.",
+    "Дискография Грея показывает, что песня была репертуарным шлягером 78-оборотной эпохи: помимо перечисленных, документированы Karl Erb (Odéon O-6445, 1914), Elena Gerhardt (Vocalion B-3112, 29.05.1924, Craxton; HMV D1461, 11.05.1928, Bos), Heinrich Rehkemper (Polydor 90022, дата не указана), Oskar Köhler (Polydor, 27.06.1935), Karl Schmitt-Walter (Telefunken A10190, 17.06.1940, Raucheisen), Charles Kullman (Columbia, 21.02.1940), Franz Völker (Polydor 62837, 28.10.1941), Paul Schöffler (Masterseal MW-43, 26.01.1951, Schulhof), Petre Munteanu (Westminster XWN18006, июнь 1954, Holetschek), Margot Rödin (HMV Sweden, 1963), Jan DeGaetani (Nonesuch H-71320, 17–21.11.1974, Kalish), Jiří Bar (Supraphon, февраль 1977, Petr Eben), Rei Nishiuchi (DG, дата не указана). Для топ-5 они не конкуренты, но фиксируются как часть фонда.",
+    "Фан-загрузка Шрайера iFmp0ncvzz8 вернула oEmbed 500 — по правилу технической гигиены такой ролик в плеер не берётся без повторной проверки."
+  ]
+}

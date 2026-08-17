@@ -1,0 +1,755 @@
+{
+  "d": "547",
+  "title": "An die Musik",
+  "tier": "famous",
+  "research_note": "Бюджет WebSearch сессии был исчерпан до начала работы (200/200) — поиск по прессе (Gramophone, MusicWeb, BBC MM, слепые тесты) выполнить не удалось; вместо него опора на дискографию Майкла Грея (POST-поиск classical-discography.org, 48 записей D 547), MusicBrainz API, Hyperion (страница CDJ33021), реестр альбомов проекта planning/youtube/albums.md + albums/*.md и дайджест певцов. Все даты — дискографические, метаданные YouTube в качестве источника дат не использованы. Поля reputation, где источника нет, помечены явно.",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "без фортепиано: Chamber Orchestra of Europe, дир. Claudio Abbado (оркестровка Max Reger)",
+      "rec_year": "2002 (live)",
+      "year_source": "MusicBrainz: рекординг «An die Musik, D 547» — Quasthoff / Chamber Orchestra of Europe / Abbado, релиз «Lieder with Orchestra» с датой 2003-04-08 (https://musicbrainz.org/ws/2/recording/?query=recording:%22An+die+Musik%22+AND+artist:Quasthoff). Место и год сессии — по соседнему треку того же альбома на официальном Topic-канале: «Schubert: Greisengesang D. 778 (Orch. Reger) (Live at Cité de la musique, Paris, 2002)» (videoId Xoa0CsyZRJI, Thomas Quasthoff - Topic). Год записи 2002, издание 2003.",
+      "album": "Schubert: Lieder with Orchestra (с Anne Sofie von Otter)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "43 года (р. 1959). Ровно в пике по дайджесту (~1993–2007); бас-баритон в полной силе, до ухода из классического пения (2012).",
+      "reputation": "Альбом — Grammy 2004 (дайджест певцов, карточка Quasthoff). Оговорка: An die Musik здесь звучит в оркестровке Макса Регера и в концертной записи — это не фортепианный оригинал, что для песни-«кредо» может считаться минусом при отборе. Отдельных рецензий именно на этот номер найти не удалось (бюджет веб-поиска исчерпан).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/?query=recording:%22An+die+Musik%22+AND+artist:Quasthoff&fmt=json",
+        "planning/research/singers-digest.md — карточка Quasthoff (DG 2003, Abbado, Grammy 2004)",
+        "YouTube Topic-канал Thomas Quasthoff, трек Xoa0CsyZRJI (указание «Live at Cité de la musique, Paris, 2002» для соседнего трека альбома)"
+      ],
+      "youtube": [
+        {"videoId": "F3J0JcrwYCI", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "znR7xA3ugB0", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Два Topic-ID — один и тот же исполнительский дубль, разные релизы (альбом 2003 и бокс «The Complete Recordings on DG & Decca», 2023). Длительности 146 и 145 с. Для публикации брать F3J0JcrwYCI (больше просмотров). Имя в плеере по правилу о непианистическом сопровождении: «Quasthoff — Abbado»."
+    },
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "András Schiff",
+      "rec_year": "2001 (live, Wigmore Hall)",
+      "year_source": "MusicBrainz: рекординг «An die Musik» — Thomas Quasthoff, András Schiff; единственный релиз «BBC Music, Volume 9, Number 10: Wigmore Hall Centenary CD», дата 2001-06. Столетие Wigmore Hall отмечалось в 2001 г.",
+      "album": "BBC Music Magazine cover CD «Wigmore Hall Centenary», Vol. 9 No. 10",
+      "label": "BBC Music Magazine (обложечный диск)",
+      "age_voice": "42 года (р. 1959) — пик формы.",
+      "reputation": "Рецензий не найдено (обложечный диск журнала, вне обычного рецензионного оборота). Ценность — фортепианный оригинал с большим пианистом, в отличие от оркестровой версии с Аббадо.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/?query=recording:%22An+die+Musik%22+AND+artist:Quasthoff&fmt=json"
+      ],
+      "youtube": [],
+      "note": "На YouTube в официальном виде НЕ найдено. Фан-загрузка «Thomas Quasthoff sings An die Musik, D 547 (London, 1997)» (EY9v36HuVnE, канал kadoguy) — oEmbed НЕ проходит (видео недоступно), и заявленный там год 1997 не подтверждён дискографически, к этой записи не отнесён. Кандидат остаётся на бумаге."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (свод; конвенция проекта — 1969)",
+      "year_source": "MusicBrainz: три рекординга Fischer-Dieskau / Moore для D 547 (в т.ч. «An die Musik, D. 547b» — вторая редакция). Полный свод «Schubert: Sämtliche Lieder» (DG, 21 CD), сессии 1966–1972, Ufa-Ton-Studio Berlin — по карточкам planning/youtube/albums.md и planning/youtube/albums/complete-editions.md.",
+      "album": "Schubert: Sämtliche Lieder (21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет (р. 1925). Верхняя граница пика по дайджесту (~1951–1972); голос ещё полный, но суше ранних 1950-х.",
+      "reputation": "Свод — опорное издание всего корпуса мужских песен Шуберта (дайджест; реестр альбомов проекта). Отдельная критика на D 547 не найдена.",
+      "sources": [
+        "planning/youtube/data/d547-an-die-musik.mb.json (записи Fischer-Dieskau / Moore, включая D 547b)",
+        "planning/youtube/albums/complete-editions.md — «Fischer-Dieskau / Moore — Schubert: Sämtliche Lieder (DG, зап. 1966–1972)»"
+      ],
+      "youtube": [
+        {"videoId": "wLw5hl44viw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "8x_9YhNh0z0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "T6fmST30N-U", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВНИМАНИЕ: привязка конкретного Topic-ID к конкретной сессии не завершена — per-video метаданные yt-dlp в этот прогон недоступны (HTTP 429 / «Sign in to confirm you're not a bot»). Длительности: wLw5hl44viw и 8x_9YhNh0z0 — 158 с, T6fmST30N-U — 153 с; в MB длительности Fischer-Dieskau/Moore — 153 и 157 с. Перед публикацией ID требует доразведки (album-тег на Topic)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1957?",
+      "year_source": "НЕ ВЕРИФИЦИРОВАНО дискографически. Год 1957 стоит только в названии фан-загрузки (канал «incontrario motu»); в дискографии Майкла Грея записи Fischer-Dieskau для D 547 нет вовсе (48 записей D 547, преимущественно 78-е и ранние LP). Реестр проекта фиксирует серию EMI/Electrola «Schubert: Lieder Vol. 1–4» с Муром (том 4 — сессии 23–25.05.1958), но трек-лист по D 547 не проверен.",
+      "album": "предположительно серия EMI/Electrola «Schubert: Lieder» (Vol. 1–4) с Муром",
+      "label": "EMI / Electrola",
+      "age_voice": "32 года (р. 1925) — вокальный пик (по дайджесту ~1951–1972, ранняя часть).",
+      "reputation": "Не установлена.",
+      "sources": [
+        "planning/youtube/albums.md — карточки «Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 1 (EMI/Electrola)» и «Vol. 4 (Electrola E90921), сессии 23–24/25 мая 1958»"
+      ],
+      "youtube": [
+        {"videoId": "mg1JaKJfTvY", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "Ранний Ф.-Д. в этой песне ценнее позднего свода, но и год, и альбом требуют доисследования по буклету/дискографии EMI. Правило о неустановленном годе допускает публикацию с диапазоном «1957?»."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Günther Weißenborn",
+      "rec_year": "1954 (радиозапись WDR Köln)",
+      "year_source": "planning/youtube/albums.md: «Dietrich Fischer-Dieskau — Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583), 1954 (радиозапись WDR Köln; издание 2007)»; состав по MusicBrainz. В MB рекординг «An die Musik (Du holde Kunst), D. 547», Fischer-Dieskau / Weißenborn, 174 с.",
+      "album": "Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583)",
+      "label": "Audite (оригинал — WDR)",
+      "age_voice": "29 лет (р. 1925) — ранний пик, самый свежий тембр.",
+      "reputation": "Издание Audite ценится как документ раннего Ф.-Д.; конкретных рецензий на D 547 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Audite 95.583",
+        "planning/youtube/data/d547-an-die-musik.mb.json"
+      ],
+      "youtube": [],
+      "note": "Официального Topic-ролика именно этой версии не идентифицировано (Topic-каналы Audite не проверены поштучно). Длительность 174 с отличает её от всех прочих версий Ф.-Д. (153–158 с) — годится как маркер при доразведке."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore (видеозапись)",
+      "rec_year": "не установлен",
+      "year_source": "Не установлен. Ролик medici.tv — официальный канал лейбла/платформы, но год ни в названии, ни в проверенных источниках не подтверждён; метаданные загрузки источником даты не считаются.",
+      "album": "телевизионная/концертная съёмка (издание не идентифицировано)",
+      "label": "medici.tv",
+      "age_voice": "не определено без даты.",
+      "reputation": "1,06 млн просмотров — самая популярная версия песни на YouTube в исполнении Ф.-Д.; критической оценки нет.",
+      "sources": [],
+      "youtube": [
+        {"videoId": "bZZqZTKoFcM", "channel": "medici.tv", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат только при условии установления года; иначе — по правилу «год со знаком вопроса», но и диапазона пока нет."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Edwin Fischer",
+      "rec_year": "1952 (сессия 4–5 октября)",
+      "year_source": "Дискография Майкла Грея, запись id 58269: Schubert, An die Musik D547 op. 88 no. 4 — Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano; 1952 October 4–5; London, EMI Studio No. 1A, Abbey Road; Columbia (UK) 33CX 1040 (https://www.classical-discography.org/modalcontent.php?id=58269). Совпадает с карточкой реестра «Columbia 33CX 1040 / Naxos Historical 8.111287, сессии 4–7 октября 1952».",
+      "album": "Schubert: Lieder (Columbia 33CX 1040); переизд. Naxos Historical 8.111287, Warner «Complete Recitals 1952–1974»",
+      "label": "Columbia (EMI) / Warner; Naxos Historical",
+      "age_voice": "37 лет (р. 1915) — ядро пика (1948–1964); сессия с Эдвином Фишером считается её эталонным шубертовским рециталом.",
+      "reputation": "Дайджест певцов: рецитал с Эдвином Фишером (EMI, окт. 1952) — «эталон»; Gretchen с этой сессии — со-победитель слепого теста 2020. Отдельного сравнительного обзора именно D 547 найти не удалось.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=58269",
+        "planning/youtube/albums.md — карточка «Elisabeth Schwarzkopf — Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287»",
+        "planning/research/singers-digest.md — карточка Schwarzkopf"
+      ],
+      "youtube": [
+        {"videoId": "h3DSt4LVaf4", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "UqVFTD1Fz3s", "channel": "Sadanori Kobinata", "official": false, "oembed_ok": true},
+        {"videoId": "lnkiHzDkIM8", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "tf7L4IzUuTg", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "У Шварцкопф на Topic не менее семи разных загрузок D 547 (h3DSt4LVaf4 161 с; lnkiHzDkIM8 165 с; tf7L4IzUuTg 163 с; tERuv4_mYTM 158 с; OnuPAg9J9kw 158 с; e355Kqrn3uI 162 с; YzvnP9er6WU 143 с; nlaXfl2Kdg4 156 с) — это разные её записи и переиздания. MusicBrainz даёт для пары Schwarzkopf/Edwin Fischer длительность 161 с → наиболее вероятен h3DSt4LVaf4, но привязка НЕ подтверждена (per-video метаданные недоступны из-за 429). Гарантированно правильная по атрибуции, но неофициальная загрузка — UqVFTD1Fz3s («Schwarzkopf & Edwin Fischer, 1952», 19 тыс. просмотров). Перед публикацией — обязательная доразведка Topic-ID."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен (live)",
+      "year_source": "planning/youtube/albums.md: «Elisabeth Schwarzkopf — Schubert & Wolf: Lieder (Live) (Orfeo, ℗ 2019, год концерта не установлен)» — на Topic-канале в программе указана An die Musik. В Discogs/MusicBrainz релиз не найден; дату сессии нужно устанавливать по буклету Orfeo.",
+      "album": "Schubert & Wolf: Lieder (Live)",
+      "label": "Orfeo",
+      "age_voice": "не определено без даты.",
+      "reputation": "Не установлена.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Orfeo ℗2019"
+      ],
+      "youtube": [],
+      "note": "Вероятно, один из зальцбургских лайвов с Муром (дайджест: с 1957, Orfeo C826103). Кандидат второго ряда — при отборе уступает студийной 1952."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Gerald Moore",
+      "rec_year": "1949 (сессия 2 октября)",
+      "year_source": "Дискография Майкла Грея, id 76165: An die Musik D547 — Hans Hotter, bass-baritone; 1949 October 2; Columbia (UK) LX 1305; матрица CAX 10621 (https://www.classical-discography.org/modalcontent.php?id=76165). Пианист и место — по карточке реестра: «Hans Hotter — Schubert: Lieder, сессии EMI/HMV 1–2 октября 1949, Gerald Moore, Abbey Road; группа 1949 года: An die Musik D 547, Meeresstille D 216, Im Frühling D 882, Am Bach im Frühling D 361, Gruppe aus dem Tartarus D 583, обе Wandrers Nachtlied» (переизд. EMI References CDH 5 65196 2).",
+      "album": "Schubert: Lieder — сессии EMI/HMV 1949; переизд. EMI References CDH 5 65196 2, Warner 50999 9 93726 2 0",
+      "label": "Columbia (UK) / EMI / Warner Classics",
+      "age_voice": "40 лет (р. 1909) — центр пика (~1942–1955); самый полный, ещё гибкий тёмный бас-баритон.",
+      "reputation": "Дайджест: связка Хоттер/Мур в Шуберте — «эталон тёмного низкого голоса» (сказано о Winterreise EMI 1954, той же паре). Отдельной критики на D 547 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=76165",
+        "planning/youtube/albums.md — карточка «Hans Hotter — сессии EMI/HMV 1–2 октября 1949» (прямо перечисляет An die Musik D 547)",
+        "planning/research/singers-digest.md — карточка Hotter"
+      ],
+      "youtube": [
+        {"videoId": "WPK5C0jSWxI", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "tl3VkWGHsvU", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "x3qzfzMGpeo", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "Два Topic-ID (169 и 170 с) — вероятно 1949 и 1957 в разных переизданиях; MB даёт для Hotter/Moore длительности 169 и 166 с. Разведение ID по сессиям не завершено."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Gerald Moore",
+      "rec_year": "1957 (сессии 3–6 октября)",
+      "year_source": "planning/youtube/albums/male-recitalists.md: «Hotter — Lieder Recital No. 1 / No. 2 (Columbia 33CX 1626 / 33CX 1661), зап. 19–21 и 31.05.1956 + 3–6.10 и 13/16/18.11.1957, Abbey Road Studio 1; Gerald Moore; Schubert-группа: An die Musik, Ständchen, Abschied, Im Frühling, Der Lindenbaum, Wanderers Nachtlied II; изд. 1959; сессии — по нотам переиздания Testament SBT 1198 (2000)».",
+      "album": "Lieder Recital (Columbia 33CX 1626); переизд. Testament SBT 1198, EMI References CDH 5 65196 2",
+      "label": "Columbia (UK) / EMI; Testament",
+      "age_voice": "48 лет (р. 1909) — за пиком; по дайджесту к 1961 голос тяжелее и менее гибкий, 1957 — переходная точка. Последние студийные Lieder-записи «большого» Хоттера.",
+      "reputation": "Реестр отмечает эти сессии как последние студийные Lieder-записи Хоттера в полной форме; конкретных рецензий на D 547 не найдено.",
+      "sources": [
+        "planning/youtube/albums/male-recitalists.md, строка 73"
+      ],
+      "youtube": [],
+      "note": "По правилу «при прочих равных — более ранняя» уступает версии 1949 г."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961 (сессия 29 ноября)",
+      "year_source": "Дискография Майкла Грея, id 175955: An die Musik D547 — Christa Ludwig, mezzo-soprano; Geoffrey Parsons, piano; 1961 November 29; London, EMI Studio No. 1, Abbey Road; Columbia (UK) SAX 5272 / Angel S36462 (https://www.classical-discography.org/modalcontent.php?id=175955).",
+      "album": "Schubert: 15 Lieder (EMI); переизд. «The Complete Recitals on Warner Classics» (11 CD, 2018)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "33 года (р. 1928) — ровно в пике (~1957–1975); тот же корпус сессий, что и её Gretchen ~1961 (5 звёзд klassik-prisma по дайджесту).",
+      "reputation": "Дайджест: сессии 1957–69 с Муром/Парсонсом — её главный шубертовский свод; Gretchen из этого корпуса — 5 звёзд klassik-prisma. По D 547 отдельной оценки не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=175955",
+        "planning/research/singers-digest.md — карточка Ludwig",
+        "planning/youtube/albums.md — карточка «Christa Ludwig — Schubert: 15 Lieder / The Complete Recitals on Warner Classics»"
+      ],
+      "youtube": [
+        {"videoId": "7LKGBeQJ1FE", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "TazPxNevDoQ", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "7LKGBeQJ1FE — 166 с, 96 тыс. просмотров, совпадает с длительностью MB для Ludwig/Parsons (159 с — расхождение 7 с, в пределах различий мастерингов). Главный женский кандидат старой школы."
+    },
+    {
+      "singer": "Fritz Wunderlich",
+      "pianist": "Hubert Giesen",
+      "rec_year": "1966 (сессии 2–5 июля)",
+      "year_source": "Дискография Майкла Грея, id 2065: An die Musik D547 — Fritz Wunderlich, tenor; Hubert Giesen [в базе опечатка «Hubert Green»], piano; 1966 July 2–5; München, Akademie der Wissenschaft; Deutsche Grammophon 139220 (https://www.classical-discography.org/modalcontent.php?id=2065). Совпадает с карточкой реестра: «Fritz Wunderlich — Die schöne Müllerin + Lieder (DG 139 220), сессии 2–5 июля 1966».",
+      "album": "Die schöne Müllerin + Lieder (DG 139 220)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "36 лет (р. 1930) — только пик, спада не было: последние студийные сессии, погиб 17.09.1966.",
+      "reputation": "Дайджест: DG-сессии ноябрь 1965 / июль 1966 с Гизеном — «эталон тенорового цикла». Отдельной критики на D 547 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=2065",
+        "planning/youtube/albums.md — карточка DG 139 220",
+        "planning/research/singers-digest.md — карточка Wunderlich"
+      ],
+      "youtube": [
+        {"videoId": "G6Cc5c0tkNw", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "G6Cc5c0tkNw — 140 с, 42,7 тыс. просмотров; на Topic есть ещё PS3gc0S_AlI и NNp2YDZgfa0 той же длительности (разные переиздания того же дубля). Сильнейший теноровый кандидат."
+    },
+    {
+      "singer": "Fritz Wunderlich",
+      "pianist": "Hubert Giesen",
+      "rec_year": "1966 (концерт 4 сентября, Эдинбург)",
+      "year_source": "MusicBrainz: рекординги «An die Musik» Wunderlich/Giesen на релизах «Fritz Wunderlich's last concert» (1989) и «Fritz Wunderlich – Der letzte Liederabend» (2003). Дата концерта 4 сентября 1966 указана в названии фан-загрузки (s-xHNwO9Vx8, «Edinburgh: 9/4/66») — как дискографический источник НЕ засчитывается, требует сверки по буклету DG/SWR.",
+      "album": "Der letzte Liederabend / Fritz Wunderlich's last concert",
+      "label": "DG (посмертное издание)",
+      "age_voice": "36 лет — последний публичный вечер, за 13 дней до гибели (дата смерти 17.09.1966 — дайджест).",
+      "reputation": "Документ исключительной биографической силы; критической оценки в проверенных источниках нет.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/?query=recording:%22An+die+Musik%22+AND+artist:%22Fritz+Wunderlich%22&fmt=json",
+        "planning/research/singers-digest.md — карточка Wunderlich"
+      ],
+      "youtube": [
+        {"videoId": "s-xHNwO9Vx8", "channel": "Donald Collup", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официального Topic-ролика этого лайва не идентифицировано; при прочих равных студийная версия июля 1966 предпочтительнее (правило о более ранней/лучше документированной)."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "1936 (сессия 7 сентября)",
+      "year_source": "Дискография Майкла Грея, id 62855: An die Musik D547 — Elisabeth Schumann, soprano; 1936 September 7; London, EMI Studio No. 3, Abbey Road; HMV DA 1525; матрица 0EA 3760, дубль 1 (https://www.classical-discography.org/modalcontent.php?id=62855). Пианист Gerald Moore — по MusicBrainz (рекординг «An die Musik, D. 547», Elisabeth Schumann / Gerald Moore, 180 с) и по planning/youtube/albums/female-recitalists.md (сессия 07.09.1936, DA 1521/1525/1526).",
+      "album": "HMV DA 1525; переизд. Naxos Historical 8.110731 «Der Hirt auf dem Felsen & 48 Lieder», Warner «Icon»",
+      "label": "HMV / EMI; Naxos Historical",
+      "age_voice": "48 лет (р. 1888). Формально на исходе пика (1920-е — сер. 1930-х), но 1936 — ещё до заметного возрастного спада (по дайджесту он относится к записям 1945–49); стиль эталонный.",
+      "reputation": "Дайджест: у Э. Шуман «стиль эталонный»; проект уже имеет прецедент проверки её дат по матрицам (ошибка «1945» вместо 1936 в метаданных archive.org) — здесь дата взята по матрице 0EA 3760, а не по загрузке.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=62855",
+        "planning/youtube/albums/female-recitalists.md, строка 19",
+        "planning/research/singers-digest.md — карточка Schumann"
+      ],
+      "youtube": [
+        {"videoId": "iEVK8NM1uTE", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "xflRu1mGJZg", "channel": "CLASSIC&OPERA", "official": false, "oembed_ok": true}
+      ],
+      "note": "iEVK8NM1uTE — 183 с, совпадает с длительностью MB (180 с). Приоритетная певица по правилам, запись в хорошей форме."
+    },
+    {
+      "singer": "Kathleen Ferrier",
+      "pianist": "Phyllis Spurr",
+      "rec_year": "1949 (сессия 14 февраля)",
+      "year_source": "Дискография Майкла Грея, id 33381: An die Musik D547 — Kathleen Ferrier, contralto; Phyllis Spurr, piano; 1949 February 14; London, Decca West Hampstead Studios; Decca M 652; матрица DR 13235 (https://www.classical-discography.org/modalcontent.php?id=33381). Совпадает с planning/youtube/albums/female-recitalists.md: «Ferrier — Decca 78s (M 652, зап. 14.02.1949) — Der Musensohn + An die Musik, с Phyllis Spurr».",
+      "album": "Decca 78 M 652; переизд. в Decca/UMG сводах Ферриер",
+      "label": "Decca",
+      "age_voice": "36 лет (р. 1912) — на пике; умерла в 41, возрастного спада нет.",
+      "reputation": "Дайджест: «умерла в 41 на пике»; её Decca-78-е 1947–49 гг. — ядро наследия. Отдельной критики на D 547 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=33381",
+        "planning/youtube/albums/female-recitalists.md, строка 52",
+        "planning/research/singers-digest.md — карточка Ferrier"
+      ],
+      "youtube": [
+        {"videoId": "yTGHIwHUwbY", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "На Topic несколько ID (yTGHIwHUwbY 187 с, CYDv8TnXTk8 192 с, vrnHmuQXVLc 184 с, 0vRtWC1TNcc 190 с) — разные переиздания. Внимание: фан-загрузки датируют её то 1950, то 1951 г. — дискографически подтверждён 14.02.1949."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1980–81 (издание 1981)",
+      "year_source": "MusicBrainz: рекординг «An die Musik, D 547» — Dame Janet Baker / Geoffrey Parsons, релиз «Dame Janet Baker Sings Popular Schubert Songs», 1981. Год сессии по дискографии НЕ установлен (в базе Грея записи Бейкер для D 547 нет). Важно: это НЕ её знаменитый 2-LP EMI 1970 с Джералдом Муром — там партнёр и год другие.",
+      "album": "Dame Janet Baker Sings Popular Schubert Songs",
+      "label": "EMI / HMV",
+      "age_voice": "47–48 лет (р. 1933) — конец пика по дайджесту (~1965–1982); голос ещё в форме, но уже не ранний.",
+      "reputation": "Не установлена по проверенным источникам. Фан-загрузка Pt19nrxdVb4 — 422 тыс. просмотров (популярность, не критика).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/?query=recording:%22An+die+Musik%22+AND+artist:%22Janet+Baker%22&fmt=json",
+        "planning/research/singers-digest.md — карточка Baker"
+      ],
+      "youtube": [
+        {"videoId": "Pt19nrxdVb4", "channel": "Gabba02", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официального Topic-ID не найдено в этом прогоне. Год требует уточнения (сессии EMI 1980 или 1981)."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Franz Rupp",
+      "rec_year": "1928 (осень)",
+      "year_source": "Дискография Майкла Грея, id 240162: An die Musik D547 — Heinrich Schlusnus, baritone; Franz Rupp, piano; 1928 Autumn; Berlin; Polydor 62644; матрица bk 1604½ (https://www.classical-discography.org/modalcontent.php?id=240162).",
+      "album": "Polydor 62644 (78 об.); переизд. Preiser",
+      "label": "Polydor / DG; Preiser",
+      "age_voice": "40 лет (р. 1888) — центр пика (1920-е–1930-е), лучший период его ровного лирического баритона.",
+      "reputation": "Дайджест: «ровность держал и в 1940-е», сотни сторон Polydor. Отдельной критики на D 547 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=240162",
+        "planning/research/singers-digest.md — карточка Schlusnus"
+      ],
+      "youtube": [
+        {"videoId": "X2pjLZOMV2o", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Название Topic-ролика прямо указывает «Recorded 1928», что совпадает с Греем. Сильный кандидат «старого мастера»."
+    },
+    {
+      "singer": "Gerhard Hüsch",
+      "pianist": "Hanns Udo Müller",
+      "rec_year": "1938 (сессия 3 марта)",
+      "year_source": "Дискография Майкла Грея, id 55617: An die Musik D547 — Gerhard Hüsch, baritone; Hanns Udo Müller, piano; 1938 March 3; Electrola DA 4445; матрица 0RA 2708 (https://www.classical-discography.org/modalcontent.php?id=55617).",
+      "album": "Electrola DA 4445 (78 об.); переизд. Preiser/Pristine",
+      "label": "Electrola (HMV)",
+      "age_voice": "36–37 лет (р. 1901) — пик (1930-е), та же пара, что записала эталонные Winterreise 1933 и Müllerin 1934/35.",
+      "reputation": "Дайджест: связка Hüsch / H. U. Müller — «исторический эталон обоих циклов». Отдельной критики на D 547 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=55617",
+        "planning/research/singers-digest.md — карточка Hüsch"
+      ],
+      "youtube": [
+        {"videoId": "_-nt5YOvwKA", "channel": "Gerhard Hüsch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "177 с. Один из немногих довоенных вариантов с бесспорным стилистическим авторитетом."
+    },
+    {
+      "singer": "Lotte Lehmann",
+      "pianist": "Paul Ulanowsky",
+      "rec_year": "1947 (сессия 26 июня)",
+      "year_source": "Дискография Майкла Грея, id 62860: An die Musik D547 — Lotte Lehmann, soprano; Paul Ulanowsky, piano; 1947 June 26; Victor 10-1448 / HMV DA 1919; матрица D7-RB 567 (https://www.classical-discography.org/modalcontent.php?id=62860). Совпадает с planning/youtube/albums/female-recitalists.md, строка 36 (поздние Victor-стороны 26–27.06 и 11.07.1947, An die Musik в списке).",
+      "album": "Victor 10-1448 / HMV DA 1919",
+      "label": "RCA Victor / HMV",
+      "age_voice": "59 лет (р. 1888) — заметно за пиком (кон. 1930-х); по дайджесту в поздних записях «голос за пиком, выразительность эталонная».",
+      "reputation": "Не установлена по D 547.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=62860",
+        "planning/youtube/albums/female-recitalists.md, строка 36"
+      ],
+      "youtube": [
+        {"videoId": "yD40HtoaG7M", "channel": "Lotte Lehmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть и более ранняя, оркестровая версия: Odéon O-8724, 6 декабря 1927, дир. Manfred Gurlitt (Грей id 111188) — не фортепианный оригинал. По вокальному состоянию 1927 г. предпочтительнее, но сопровождение нарушает жанр песни."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994 (сессии февраль)",
+      "year_source": "planning/youtube/albums.md: «Bryn Terfel — An die Musik – Favourite Schubert Songs (DG 445 294-2), запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; издание 04.09.1994; пианист Malcolm Martineau; 23 песни». Карточка уже верифицирована в проекте по D 216, D 257, D 328, D 768, D 853.",
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28 лет (р. 1965) — начало пика (~1992–2005), самый свежий период голоса.",
+      "reputation": "Реестр: бестселлер каталога DG; klassik-prisma даёт 4–5 баллов за Erlkönig с этого диска. Скепсис по правилу к современным: диск задуман как популярный сборник, песня — титульная. Специальной критики на D 547 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md, карточки Terfel (строки 20–22)"
+      ],
+      "youtube": [
+        {"videoId": "vFkC0Aa3nMs", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Титульная песня альбома — очевидный современный кандидат категории «не ранее 1990»."
+    },
+    {
+      "singer": "Edith Mathis",
+      "pianist": "Graham Johnson",
+      "rec_year": "1992 (сессии октябрь)",
+      "year_source": "Hyperion, страница издания CDJ33021 (The Hyperion Schubert Edition, Vol. 21): запись октябрь 1992, издание июнь 1994; An die Musik D 547 в трек-листе; певица Edith Mathis, пианист и автор комментариев Graham Johnson (https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021).",
+      "album": "The Hyperion Schubert Edition, Vol. 21 (CDJ33021)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "54 года (р. 1938) — пик по дайджесту 1970-е–1980-е, к 1992 уже поздняя фаза.",
+      "reputation": "Издание Джонсона — научный эталон свода (дайджест, реестр). В комментарии Джонсона к тому песня названа «универсально принятой как программная песня композитора, эмблема его отношения к собственному искусству» (пересказ по странице Hyperion).",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021",
+        "planning/youtube/albums/complete-editions.md — Hyperion Schubert Edition"
+      ],
+      "youtube": [
+        {"videoId": "G_pi6EKni-Q", "channel": "Edith Mathis - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат «не ранее 1990» с сильной научной репутацией издания."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "не позднее 1983 (℗ 1983)",
+      "year_source": "planning/youtube/albums.md: «Elly Ameling — An die Musik — Schubert Lieder (Philips 410 037-2), цифровая запись, ℗ 1983; пианист Далтон Болдуин; 13 номеров». Год сессии не установлен. MusicBrainz подтверждает пару Ameling/Baldwin для D 547 (177 с). Есть и вторая её версия: CBS Masterworks 76976 «An die Musik / Lieder с духовыми», зап. 1979, пианист Irwin Gage (albums/female-recitalists.md, строка 120) — какая из двух на Topic, не разведено.",
+      "album": "An die Musik — Schubert Lieder (Philips 410 037-2)",
+      "label": "Philips (Universal)",
+      "age_voice": "ок. 49–50 лет (р. 1933) — конец пика (~1965–1985).",
+      "reputation": "Дайджест: «самая записываемая шубертианка поколения». Отдельной критики на D 547 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Philips 410 037-2",
+        "planning/youtube/albums/female-recitalists.md, строка 120",
+        "planning/youtube/data/d547-an-die-musik.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "GwZYiZdPMqk", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "PPRXPVzqx9I", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Не менее четырёх Topic-ID (GwZYiZdPMqk 176 с, PPRXPVzqx9I 175 с, cK5e3H97CTw 175 с, 9M6aiGJUogg 177 с) — минимум две разные её записи плюс переиздания. Требует разведения перед публикацией."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Erik Werba",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: «Ausgewählte Lieder: An die Musik, op. 88/4 (D 547) „Du holde Kunst“» — Brigitte Fassbaender, Erik Werba (146 с). Год сессии по дискографии не установлен; в базе Грея записи Фассбендер для D 547 нет. Дайджест относит её рециталы с Вербой к 1970–80-м без точных дат.",
+      "album": "Ausgewählte Lieder (DG/Eterna? — издание не идентифицировано)",
+      "label": "не установлен",
+      "age_voice": "не определено без даты; пик по дайджесту ~1975–1992.",
+      "reputation": "Не установлена по D 547.",
+      "sources": [
+        "planning/youtube/data/d547-an-die-musik.mb.json",
+        "planning/research/singers-digest.md — карточка Fassbaender"
+      ],
+      "youtube": [
+        {"videoId": "hGN65Nyuj6c", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат второго ряда: год не установлен, приоритетность ниже, чем у Людвиг."
+    },
+    {
+      "singer": "Bernarda Fink",
+      "pianist": "Gerold Huber",
+      "rec_year": "2007",
+      "year_source": "planning/research/singers-digest.md, карточка Fink: рецитал harmonia mundi, запись 2007, пианист Gerold Huber. MusicBrainz подтверждает пару Fink/Huber для D 547 (124 с).",
+      "album": "Schubert: Lieder (harmonia mundi)",
+      "label": "harmonia mundi",
+      "age_voice": "52 года (р. 1955) — в пике (~1995–2015).",
+      "reputation": "Дайджест: её Gretchen с этого альбома — со-победитель слепого теста 2020 наряду со Schwarzkopf/Fischer. Прямой оценки D 547 нет; по правилу о пиаре современных — принимать без завышения.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Fink",
+        "planning/youtube/data/d547-an-die-musik.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "aXuVlrAs1H4", "channel": "Bernarda Fink - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Сильный современный кандидат (не ранее 1990). Темп заметно быстрее прочих (124 с)."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1996?",
+      "year_source": "НЕ ВЕРИФИЦИРОВАНО. MusicBrainz даёт две разные пары для Bostridge (с Drake, 162 и 166 с; с Andsnes, 152 с; с гитаристом Xuefei Yang, 140 с). Год 1996 стоит только в названии фан-загрузки FVk2xwzOzeA; дискографического подтверждения нет.",
+      "album": "не идентифицирован (вероятно ранний EMI-рецитал с Drake)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "ок. 32 лет (р. 1964), если год верен — начало пика (~1995–2010).",
+      "reputation": "Не установлена по D 547.",
+      "sources": [
+        "planning/youtube/data/d547-an-die-musik.mb.json",
+        "planning/research/singers-digest.md — карточка Bostridge"
+      ],
+      "youtube": [
+        {"videoId": "tmc4BYLhH0c", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три разные его версии песни (Drake, Andsnes, гитара) — при включении требуется точное разведение."
+    },
+    {
+      "singer": "Benjamin Appl",
+      "pianist": "James Baillieu",
+      "rec_year": "не установлен",
+      "year_source": "Не установлен. Ролик на официальном канале Alpha Classics; MusicBrainz подтверждает пару Appl/Baillieu для D 547 (170 с), но релиз в выдаче не указан. Дайджест перечисляет его альбомы Alpha: Winterreise (февр. 2022) и «Forbidden Fruit» (2023) — принадлежность D 547 к конкретному не проверена.",
+      "album": "не идентифицирован (Alpha Classics)",
+      "label": "Alpha Classics",
+      "age_voice": "не определено без даты; пик по дайджесту ~2016–наст.",
+      "reputation": "Дайджест: последний частный ученик Фишера-Дискау. Прямой критики на D 547 нет; по правилу о пиаре современных — без завышения.",
+      "sources": [
+        "planning/youtube/data/d547-an-die-musik.mb.json",
+        "planning/research/singers-digest.md — карточка Appl"
+      ],
+      "youtube": [
+        {"videoId": "RE6r7sc4wZQ", "channel": "Alpha Classics", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный проверенный кандидат категории «не ранее 2015», если год подтвердится (2022 или 2023)."
+    },
+    {
+      "singer": "Andrè Schuen",
+      "pianist": "Daniel Heide",
+      "rec_year": "не установлен",
+      "year_source": "Не установлен. MusicBrainz: пара Schuen/Heide для D 547 (155 с). Название Topic-ролика указывает альбом «Musical Moments»; год сессии по дискографии не проверен. Дайджест фиксирует его трилогию DG с Хайде (2021–2024) и ранний «Wanderer» (Avi-Music, зап. окт. 2016) — D 547 ни к одному не привязана.",
+      "album": "Musical Moments (по названию Topic-трека)",
+      "label": "Deutsche Grammophon (предположительно)",
+      "age_voice": "не определено без даты; пик по дайджесту ~2018–наст.",
+      "reputation": "Не установлена по D 547; по правилу — скепсис к пиару флагманского молодого баритона DG.",
+      "sources": [
+        "planning/youtube/data/d547-an-die-musik.mb.json",
+        "planning/research/singers-digest.md — карточка Schuen"
+      ],
+      "youtube": [
+        {"videoId": "1xPK0dG0rAk", "channel": "Andrè Schuen - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат категории «не ранее 2015» при подтверждении года."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "не установлен",
+      "year_source": "Не установлен. MusicBrainz: пара Goerne/Deutsch для D 547 (145 с). В дайджесте Гёрне записан с Эшенбахом, Джонсоном, Брендлем, Шнайдером — Дойч не назван, то есть речь о неучтённом в дайджесте издании; требуется доисследование.",
+      "album": "не идентифицирован",
+      "label": "не установлен",
+      "age_voice": "не определено без даты; пик по дайджесту ~1997–2015.",
+      "reputation": "Не установлена по D 547.",
+      "sources": [
+        "planning/youtube/data/d547-an-die-musik.mb.json",
+        "planning/research/singers-digest.md — карточка Goerne"
+      ],
+      "youtube": [
+        {"videoId": "k3vSJ6t5tE0", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Канал «Matthias Goerne» (не «- Topic»), но в выдаче yt-check определяется как Topic-канал певца — при публикации перепроверить."
+    },
+    {
+      "singer": "Peter Schreier",
+      "pianist": "Peter Rösel",
+      "rec_year": "1984 (концерт 1 октября)",
+      "year_source": "Дискография Майкла Грея, id 306821: An die Musik D547 — Peter Schreier, tenor; Peter Rösel, piano; 1984 October 1; Berlin, Schauspielhaus; Eterna 827785 (https://www.classical-discography.org/modalcontent.php?id=306821).",
+      "album": "Eterna 827785 (концертная запись)",
+      "label": "Eterna (Berlin Classics)",
+      "age_voice": "49 лет (р. 1935) — в пике (~1965–1990).",
+      "reputation": "Не установлена по D 547.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=306821",
+        "planning/research/singers-digest.md — карточка Schreier"
+      ],
+      "youtube": [],
+      "note": "Официальный ролик не найден в этом прогоне (Berlin Classics Topic не прочёсан). Кандидат резерва."
+    },
+    {
+      "singer": "Josef Greindl",
+      "pianist": "Hertha Klust",
+      "rec_year": "1957 (сессии 3 и 9 марта)",
+      "year_source": "Дискография Майкла Грея, id 162891: An die Musik D547 — Josef Greindl, bass; Hertha Klust, piano; 1957 March 3 + 9; Hannover, Beethovensaal; Deutsche Grammophon LPEM 19094 (https://www.classical-discography.org/modalcontent.php?id=162891).",
+      "album": "DG LPEM 19094",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44–45 лет (р. 1912) — та же пара и тот же период, что его Winterreise DG 1957.",
+      "reputation": "Дайджест: Winterreise DG 1957 с Клуст — «редкий настоящий бас 1950-х». Прямой критики на D 547 нет.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=162891",
+        "planning/research/singers-digest.md — карточка Greindl"
+      ],
+      "youtube": [],
+      "note": "Официальный ролик не искал отдельно; кандидат резерва (редкий басовый вариант)."
+    },
+    {
+      "singer": "Elena Gerhardt",
+      "pianist": "Harold Craxton",
+      "rec_year": "1924 (сессия 29 мая)",
+      "year_source": "Дискография Майкла Грея, id 230348: An die Musik D547 — Elena Gerhardt; Harold Craxton, piano; 1924 May 29; London; Aeolian-Vocalion A-0220; матрица 03545, дубль 2 (https://www.classical-discography.org/modalcontent.php?id=230348). ВНИМАНИЕ: MusicBrainz приписывает песню паре Gerhardt / Artúr Nikisch — это была бы запись не позднее 1922 (год смерти Никиша); две разные записи, у Грея никишевская для D 547 не значится.",
+      "album": "Aeolian-Vocalion A-0220 (78 об.)",
+      "label": "Aeolian-Vocalion",
+      "age_voice": "41 год (р. 1883) — уже за пиком (1907 – нач. 1920-х); по дайджесту к 1926–28 износ голоса.",
+      "reputation": "Дайджест: пионер женского Lieder-рецитала. Прямой критики на D 547 нет.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=230348",
+        "planning/youtube/data/d547-an-die-musik.mb.json",
+        "planning/research/singers-digest.md — карточка Gerhardt"
+      ],
+      "youtube": [],
+      "note": "Историческая ценность высока, вокальное состояние — нет. Кандидат резерва."
+    },
+    {
+      "singer": "Karl Schmitt-Walter",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1940 (сессия 17 июня)",
+      "year_source": "Дискография Майкла Грея, id 27883: An die Musik D547 — Karl Schmitt-Walter; Michael Raucheisen, piano; 1940 June 17; Telefunken A 1885; матрица 21034 (https://www.classical-discography.org/modalcontent.php?id=27883).",
+      "album": "Telefunken A 1885 (78 об.)",
+      "label": "Telefunken",
+      "age_voice": "не сверено с дайджестом (Schmitt-Walter значится только в резерве дайджеста, карточки нет).",
+      "reputation": "Не установлена.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=27883"
+      ],
+      "youtube": [],
+      "note": "Ценен пианистом (Раухайзен — по правилам «пианист часто решает выбор»). Кандидат резерва."
+    },
+    {
+      "singer": "Victoria de los Ángeles",
+      "pianist": "Gerald Moore",
+      "rec_year": "1957?",
+      "year_source": "НЕ ВЕРИФИЦИРОВАНО. MusicBrainz подтверждает пару de los Ángeles / Moore для D 547 (183 с); год 1957 указан только в названии фан-загрузки (e-E7IicGOfQ, канал «Analogon Edizioni»); у Грея этой записи нет. Дайджест относит её шубертовские группы к EMI-рециталам 1950–60-х без дат.",
+      "album": "не идентифицирован (EMI-рецитал)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "ок. 34 лет (р. 1923), если год верен — пик (1950-е – нач. 1960-х).",
+      "reputation": "Дайджест: «тёплый стилист, не специалист».",
+      "sources": [
+        "planning/youtube/data/d547-an-die-musik.mb.json",
+        "planning/research/singers-digest.md — карточка de los Angeles"
+      ],
+      "youtube": [
+        {"videoId": "e-E7IicGOfQ", "channel": "Analogon Edizioni", "official": false, "oembed_ok": true}
+      ],
+      "note": "Кандидат резерва."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "ДА, две записи. (1) Оркестровая версия в аранжировке Регера с Chamber Orchestra of Europe / Abbado, альбом DG «Schubert: Lieder with Orchestra» (MB-релиз 2003-04-08); сессия — концерт в Cité de la musique, Париж, 2002 (по помете официального Topic-канала на соседнем треке того же альбома, Xoa0CsyZRJI). Альбом — Grammy 2004 (singers-digest.md). YouTube: F3J0JcrwYCI / znR7xA3ugB0, Topic, oEmbed ok. (2) Живая запись с Андрашем Шиффом на обложечном CD BBC Music Magazine «Wigmore Hall Centenary», Vol. 9 No. 10 (2001-06) — MusicBrainz; на YouTube официально не найдена. Источники: MusicBrainz recording search; planning/research/singers-digest.md.",
+    "Fischer-Dieskau": "ДА, минимум три разные записи. MusicBrainz даёт три рекординга с Джералдом Муром (в т.ч. отдельно помеченный «An die Musik, D. 547b» — вторая редакция песни) и один с Гюнтером Вайсенборном (радиозапись WDR Köln 1954, изд. Audite 95.583 — карточка planning/youtube/albums.md). Песня входит в полный свод DG «Sämtliche Lieder» (сессии 1966–1972, Ufa-Ton-Studio Berlin) — planning/youtube/albums/complete-editions.md. В дискографии Майкла Грея записей Ф.-Д. для D 547 нет (база покрывает в основном 78-е и ранние LP), поэтому точные даты сессий EMI требуют доисследования.",
+    "Schwarzkopf": "ДА. Columbia (UK) 33CX 1040 с Эдвином Фишером за роялем, сессия 4–5 октября 1952, London, EMI Studio No. 1A, Abbey Road — дискография Майкла Грея, id 58269 (https://www.classical-discography.org/modalcontent.php?id=58269). Подтверждается карточкой реестра (сессии диска 4–7 октября 1952) и MusicBrainz («Elisabeth Schwarzkopf, Edwin Fischer — An die Musik, D 547»). Дополнительно: концертное издание Orfeo «Schubert & Wolf: Lieder (Live)» с Джералдом Муром содержит An die Musik, год концерта не установлен (planning/youtube/albums.md).",
+    "Hotter": "ДА, две студийные записи с Джералдом Муром. (1) Columbia (UK) LX 1305, сессия 2 октября 1949, матрица CAX 10621 — Грей id 76165; карточка реестра прямо перечисляет An die Musik D 547 среди сессий EMI/HMV 1–2 октября 1949 (Abbey Road, Мур; переизд. EMI References CDH 5 65196 2). (2) Lieder Recital, Columbia 33CX 1626, сессии 3–6 октября 1957, Abbey Road Studio 1, Мур — planning/youtube/albums/male-recitalists.md, строка 73 (Schubert-группа прямо включает An die Musik).",
+    "Anders": "НЕТ. Отрицательный результат. (1) Поиск MusicBrainz «recording:\"An die Musik\" AND artist:\"Peter Anders\"» — count 0. (2) В дискографии Майкла Грея среди 48 записей D 547 (POST-поиск classical-discography.org по composer=Schubert, work=An die Musik) Петер Андерс не значится. Его шубертовское наследие по дайджесту — Winterreise и Müllerin с Раухайзеном/Вайсенборном 1945–48, отдельных песен op. 88 не зафиксировано.",
+    "E. Schumann": "ДА. HMV DA 1525, сессия 7 сентября 1936, London, EMI Studio No. 3, Abbey Road; матрица 0EA 3760, дубль 1 — дискография Майкла Грея, id 62855 (https://www.classical-discography.org/modalcontent.php?id=62855). Пианист Джералд Мур — по MusicBrainz и planning/youtube/albums/female-recitalists.md (строка 19: сессия 07.09.1936, диски DA 1521/1525/1526, An die Musik в списке). Переиздания: Naxos Historical 8.110731, Warner «Icon». YouTube: iEVK8NM1uTE (Elisabeth Schumann - Topic), oEmbed ok.",
+    "Ludwig": "ДА. Columbia (UK) SAX 5272 / Angel S 36462, сессия 29 ноября 1961, London, EMI Studio No. 1, Abbey Road; Geoffrey Parsons, фортепиано — дискография Майкла Грея, id 175955 (https://www.classical-discography.org/modalcontent.php?id=175955). Тот же корпус сессий, что и её Gretchen ~1961 (5 звёзд klassik-prisma по дайджесту). Переиздание: Warner «The Complete Recitals», 11 CD. YouTube: 7LKGBeQJ1FE (Christa Ludwig - Topic), oEmbed ok.",
+    "Popp": "НЕТ. Отрицательный результат. (1) Поиск MusicBrainz «recording:\"An die Musik\" AND artist:\"Lucia Popp\"» — count 0. (2) В дискографии Майкла Грея среди 48 записей D 547 Попп отсутствует. (3) Её том в Hyperion Schubert Edition — Vol. 17 «Schubert in 1816» (CDJ33017, зап. IV.1992, planning/youtube/albums/complete-editions.md), а An die Musik сочинена в марте 1817 г. (Hyperion, эссе Грэма Джонсона к CDJ33021), то есть в этот том по определению не входит."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Lieder with Orchestra (Deutsche Grammophon)",
+      "singer": "Thomas Quasthoff (и Anne Sofie von Otter)",
+      "year": "запись 2002 (live, Cité de la musique, Париж), издание 2003",
+      "label": "Deutsche Grammophon",
+      "facts": "Chamber Orchestra of Europe, дир. Клаудио Аббадо; песни в оркестровках, An die Musik — в аранжировке Макса Регера. Grammy 2004 (дайджест). Год/место сессии подтверждаются пометой официального Topic-канала на соседнем треке того же альбома («Greisengesang D. 778 (Orch. Reger) (Live at Cité de la musique, Paris, 2002)»). Дайджест уже фиксирует альбом (Gretchen с него поёт фон Оттер).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "1952 (D 547 — сессия 4–5 октября; сессии диска 4–7 октября)",
+      "label": "Columbia (EMI) / Warner; переизд. Naxos Historical",
+      "facts": "Эдвин Фишер за роялем; London, EMI Studio No. 1A, Abbey Road. Уточнение к реестру: карточка albums.md фиксировала для D 162 дату 5 октября; для D 547 Грей даёт 4–5 октября — то есть сессия D 547 захватывает и 4-е число. Входит в Warner-бокс «Complete Recitals 1952–1974».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder — сессии EMI/HMV 1–2 октября 1949 (переизд. EMI References CDH 5 65196 2)",
+      "singer": "Hans Hotter",
+      "year": "1949 (D 547 — 2 октября)",
+      "label": "Columbia (UK) / EMI / Warner Classics",
+      "facts": "Джералд Мур, Abbey Road. Карточка реестра уже перечисляет An die Musik D 547 в составе группы 1949 года; Грей уточняет конкретно для D 547: 2 октября 1949, Columbia LX 1305, матрица CAX 10621.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder Recital No. 1 / No. 2 (Columbia 33CX 1626 / 33CX 1661)",
+      "singer": "Hans Hotter",
+      "year": "1956–1957 (Schubert-группа — сессии 3–6 октября 1957)",
+      "label": "Columbia (UK) / EMI; переизд. Testament SBT 1198",
+      "facts": "Джералд Мур, Abbey Road Studio 1; смешанные программы; Schubert-группа включает An die Musik. Последние студийные Lieder-записи Хоттера в «большой» форме (planning/youtube/albums/male-recitalists.md).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 15 Lieder (EMI, Columbia SAX 5272 / Angel S36462)",
+      "singer": "Christa Ludwig",
+      "year": "1961 (D 547 — 29 ноября)",
+      "label": "EMI / Warner Classics",
+      "facts": "Geoffrey Parsons; London, EMI Studio No. 1, Abbey Road. УТОЧНЕНИЕ к реестру: карточка albums.md датировала корпус «сессии 1957–69, ℗ 1967» — Грей даёт для D 547 точную дату 29.11.1961, ту же, к которой дайджест относит её Gretchen.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Die schöne Müllerin + Lieder (DG 139 220)",
+      "singer": "Fritz Wunderlich",
+      "year": "1966 (сессии 2–5 июля)",
+      "label": "Deutsche Grammophon",
+      "facts": "Hubert Giesen; München, Akademie der Wissenschaften. Подтверждено дважды: карточка albums.md и Грей id 2065 (в базе Грея опечатка в имени пианиста — «Hubert Green»). Последние студийные сессии Вундерлиха.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DA 1525 (78 об.) / Naxos Historical 8.110731 / Warner «Icon»",
+      "singer": "Elisabeth Schumann",
+      "year": "1936 (7 сентября)",
+      "label": "HMV / EMI; Naxos Historical",
+      "facts": "Джералд Мур; Abbey Road Studio 3; матрица 0EA 3760, дубль 1. Сессия 07.09.1936 дала также Geheimes, Der Jüngling an der Quelle, Ständchen D 889, Auf dem Wasser zu singen (диски DA 1521/1525/1526) — planning/youtube/albums/female-recitalists.md.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Decca M 652 (78 об.)",
+      "singer": "Kathleen Ferrier",
+      "year": "1949 (14 февраля)",
+      "label": "Decca",
+      "facts": "Phyllis Spurr; Decca West Hampstead Studios; матрица DR 13235. На той же стороне-паре — Der Musensohn. Подтверждено Греем (id 33381) и planning/youtube/albums/female-recitalists.md.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2)",
+      "singer": "Bryn Terfel",
+      "year": "1994 (сессии февраль; издание 04.09.1994)",
+      "label": "Deutsche Grammophon",
+      "facts": "Malcolm Martineau; Friedrich-Ebert-Halle, Hamburg-Harburg; 23 песни; бестселлер каталога DG. Карточка уже верифицирована в проекте по D 216, D 257, D 328, D 768, D 853; D 547 — титульная песня альбома.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 21 (CDJ33021)",
+      "singer": "Edith Mathis",
+      "year": "запись октябрь 1992, издание июнь 1994",
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Graham Johnson — фортепиано и комментарии; An die Musik D 547 в трек-листе. В эссе Джонсона песня охарактеризована как универсально признанная «программная песня» Шуберта, эмблема его отношения к собственному искусству; текст Франца фон Шобера, март 1817.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "An die Musik — Schubert Lieder (Philips 410 037-2)",
+      "singer": "Elly Ameling",
+      "year": "℗ 1983 (год сессии не установлен)",
+      "label": "Philips (Universal)",
+      "facts": "Dalton Baldwin; цифровая запись; 13 номеров; титульная песня — D 547. Отдельно существует вторая её версия: CBS Masterworks 76976 «An die Musik / Lieder с духовыми», зап. 1979, пианист Irwin Gage (albums/female-recitalists.md).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Polydor 62644 (78 об.)",
+      "singer": "Heinrich Schlusnus",
+      "year": "1928 (осень)",
+      "label": "Polydor / DG; переизд. Preiser",
+      "facts": "Franz Rupp; Берлин; матрица bk 1604½ (Грей id 240162). Дата подтверждается и названием официального Topic-ролика («Recorded 1928»).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Electrola DA 4445 (78 об.)",
+      "singer": "Gerhard Hüsch",
+      "year": "1938 (3 марта)",
+      "label": "Electrola (HMV)",
+      "facts": "Hanns Udo Müller; матрица 0RA 2708 (Грей id 55617). Та же пара, что записала эталонные Winterreise (1933) и Müllerin (1934/35).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Victor 10-1448 / HMV DA 1919 (78 об.)",
+      "singer": "Lotte Lehmann",
+      "year": "1947 (26 июня)",
+      "label": "RCA Victor / HMV",
+      "facts": "Paul Ulanowsky; матрица D7-RB 567 (Грей id 62860). Ранее у неё была оркестровая версия: Odéon O-8724, 6 декабря 1927, дир. Manfred Gurlitt, матрица xxB 7873 (Грей id 111188).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG LPEM 19094",
+      "singer": "Josef Greindl",
+      "year": "1957 (сессии 3 и 9 марта)",
+      "label": "Deutsche Grammophon",
+      "facts": "Hertha Klust; Hannover, Beethovensaal (Грей id 162891). Тот же год и та же пара, что его Winterreise DG 1957.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Eterna 827785 (концертная запись)",
+      "singer": "Peter Schreier",
+      "year": "1984 (концерт 1 октября)",
+      "label": "Eterna / Berlin Classics",
+      "facts": "Peter Rösel; Berlin, Schauspielhaus (Грей id 306821).",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительного обзора (Vergleich) по An die Musik D 547 НЕТ: индекс шубертовских работ (http://www.klassik-prisma.de/Schubert.htm) ссылки на эту песню не содержит; прямой URL по шаблону других песен даёт 404.",
+    "Hyperion Records, страница издания The Hyperion Schubert Edition Vol. 21 (CDJ33021) с эссе Грэма Джонсона: https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021 — не сравнительный обзор, но авторитетный комментарий к песне (текст Шобера, март 1817; песня как «программная» для Шуберта). Отдельная песенная страница Hyperion (dw.asp) в этот прогон не открылась.",
+    "Дискография Майкла Грея (A Classical Discography, https://www.classical-discography.org/search.php, POST search2.php, composer=Schubert, work=An die Musik) — 48 записей D 547 с матрицами, датами и местами; главный использованный дискографический источник.",
+    "Gramophone / MusicWeb / BBC Music Magazine и слепые тесты — НЕ проверены: бюджет WebSearch сессии исчерпан (200/200) до начала работы; целевые URL без поиска подобрать не удалось. Это главный пробел досье."
+  ],
+  "negatives": [
+    "Peter Anders — записи D 547 не найдено (MusicBrainz count 0; отсутствует среди 48 записей D 547 у Майкла Грея).",
+    "Lucia Popp — записи D 547 не найдено (MusicBrainz count 0; отсутствует у Грея; её том Hyperion — Vol. 17 «Schubert in 1816», а песня сочинена в марте 1817).",
+    "klassik-prisma не имеет сравнительной страницы по этой песне — типовой для проекта источник рейтингов здесь недоступен.",
+    "Фан-загрузка Quasthoff «An die Musik, D 547 (London, 1997)» (EY9v36HuVnE) — oEmbed НЕ проходит (видео недоступно); заявленный в названии год 1997 дискографически не подтверждён и в досье не принят.",
+    "Per-video метаданные yt-dlp (album/release_year/track) в этот прогон недоступны: HTTP 429 и «Sign in to confirm you're not a bot». Поэтому Topic-ID у певцов с несколькими записями (Fischer-Dieskau, Schwarzkopf, Hotter, Ameling, Ferrier, Wunderlich) НЕ разведены по сессиям — обязательная доразведка перед публикацией.",
+    "Discogs API без токена на запросы /database/search возвращает пустой результат — как источник в этот прогон не использовался.",
+    "Расхождение источников по Елене Герхардт: MusicBrainz приписывает D 547 паре Gerhardt / Artúr Nikisch, дискография Грея даёт для D 547 только запись с Harold Craxton (29.05.1924, Aeolian-Vocalion A-0220). Никишевская версия D 547 у Грея не подтверждена.",
+    "Ролик medici.tv с Фишером-Дискау (bZZqZTKoFcM, 1,06 млн просмотров) — официальный, но год записи не установлен ни по одному дискографическому источнику; без года публиковать нельзя даже с диапазоном (диапазона нет).",
+    "Опечатка в базе Грея: для DG 139220 пианист Вундерлиха назван «Hubert Green» — верное имя Hubert Giesen (реестр альбомов, дайджест).",
+    "Оркестровые/хоровые версии, исключённые как не относящиеся к жанру сольной песни с фортепиано: Mormon Tabernacle Choir / Ormandy (Columbia, 3+5 ноября 1958), Wiener Sängerknaben, Lehmann / Odéon с оркестром Гурлитта (1927), Bäckman с кантеле (Odéon, 1929), Daniel Hope (скрипка, DG), Mischa Maisky (виолончель), Jaroussky, а также фортепианная транскрипция Джералда Мура (HMV B 9936, 9 ноября 1949, Грей id 66667)."
+  ]
+}

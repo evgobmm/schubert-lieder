@@ -1,0 +1,681 @@
+{
+  "d": "776",
+  "title": "Du bist die Ruh",
+  "tier": "famous",
+  "method_note": "WebSearch-бюджет сессии был исчерпан до начала работы (200/200), поэтому сравнительные обзоры (Gramophone, MusicWeb, BBC MM, слепые тесты) через поисковую выдачу получить не удалось; веб-исследование велось прямыми обращениями: дискография Майкла Грея (classical-discography.org, POST-поиск), Discogs API (в т.ч. поиск по полю track), MusicBrainz API, индекс klassik-prisma. Все даты — из дискографий/кредитов изданий, не из метаданных YouTube.",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "без фортепиано: Chamber Orchestra of Europe, дир. Claudio Abbado (оркестровка Антона Веберна)",
+      "rec_year": "2002",
+      "year_source": "Discogs release 2713287 (DG 471 586-2, «Schubert: Lieder with Orchestra»), примечание издания: «Recorded live at Cité de la musique, Paris in May 2002»; то же в примечаниях бокса DG 479 4645 (Discogs 16134477): «CD 8 — Cité de la musique, Paris, 5/2002; ℗ 2003».",
+      "album": "Schubert: Lieder with Orchestra (von Otter / Quasthoff / COE / Abbado)",
+      "label": "Deutsche Grammophon 471 586-2 (℗ 2003)",
+      "age_voice": "43 года (р. 1959); ровно внутри пика ~1993–2007 по дайджесту; за 10 лет до ухода из классического пения (2012).",
+      "reputation": "Альбом — Grammy 2004 (дайджест певцов, карточка Quasthoff). Отдельных рецензий именно на этот номер найти не удалось. Особенность: не фортепианная версия, а оркестровка Веберна — по правилам name должен быть «Quasthoff — Abbado» (сопровождение непианистическое).",
+      "sources": [
+        "https://api.discogs.com/releases/2713287",
+        "https://api.discogs.com/releases/16134477",
+        "planning/research/singers-digest.md (карточка Quasthoff)"
+      ],
+      "youtube": [
+        {
+          "videoId": "p9IZkxAouqc",
+          "channel": "Thomas Quasthoff - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "x_w5Z8NQMsM",
+          "channel": "Thomas Quasthoff - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "ГЛАВНАЯ находка досье: Квастхоф эту песню ЗАПИСАЛ — но только в веберновской оркестровке, живьём. Ни в одном из шести его сольных Schubert-альбомов D 776 нет (проверено по трек-листам Goethe-Lieder 1993/95, Winterreise 1998, Schwanengesang 2001, Müllerin 2005, «Widmung» 2003 — Discogs 8778752, 8752021, 1097040, 4640997, 9880429: совпадений нет)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1951 (7 октября)",
+      "year_source": "Дискография Майкла Грея (classical-discography.org, поиск composer=Schubert, work=«Du bist die Ruh»): «1951 October 7 | Dietrich Fischer-Dieskau, baritone; Gerald Moore, piano | HMV DB21349 | London»; сама пластинка — Discogs 13610080 (HMV, шеллак 12\", «Du Bist Die Ruh / Ständchen»).",
+      "album": "78 об/мин HMV DB 21349 (сторона «Du bist die Ruh»)",
+      "label": "HMV / EMI",
+      "age_voice": "26 лет (р. 1925); самое начало пика (~1951–1972) — голос свежайший, ещё до студийных циклов.",
+      "reputation": "Ранняя сторона с Муром; отдельных сравнительных оценок именно этой стороны найти не удалось. Историческая ценность — первое коммерческое прочтение будущего эталонного шубертианца.",
+      "sources": [
+        "https://www.classical-discography.org/ (search2.php: Schubert / Du bist die Ruh)",
+        "https://api.discogs.com/releases/13610080"
+      ],
+      "youtube": [
+        {
+          "videoId": "ZwIWeuMLIBA",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "n81N6Nrm6Y4",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "ВНИМАНИЕ: соответствие конкретного Topic-videoId именно записи 1951 года НЕ верифицировано. На «Dietrich Fischer-Dieskau - Topic» три разных загрузки D 776 (253 с, 258 с, 276 с) — они принадлежат разным сессиям (HMV 1951 / Electrola-LP / DG-свод). Нужно доисследование привязки ID→сессия перед публикацией."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (точный год сессии для D 776 не установлен)",
+      "year_source": "Общий диапазон сессий свода DG «Sämtliche Lieder» (21 CD) — planning/research/singers-digest.md, карточка Fischer-Dieskau; MusicBrainz recording 6b07ea93-674c-45db-8c94-37959a3c9171 (первое издание 1992-10-01, DG «Lieder»; входит в «Complete Lieder Recordings on Deutsche Grammophon», 2022-10-28). Подискового года именно D 776 ни в MB, ни у Грея, ни в буклетных примечаниях Discogs найти не удалось.",
+      "album": "Schubert: Lieder (свод «Sämtliche Lieder», 21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет; поздний пик, ещё до сухости середины 1970-х (дайджест).",
+      "reputation": "Свод DG — опорное издание корпуса (реестр planning/youtube/albums.md, карточки Fischer-Dieskau). Отдельных рецензий на номер не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md",
+        "https://musicbrainz.org/recording/6b07ea93-674c-45db-8c94-37959a3c9171"
+      ],
+      "youtube": [
+        {
+          "videoId": "HvbXjtIxtIY",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Самая слушаемая загрузка песни на Topic-каналах (≈184 тыс. просмотров). Требует целевого доисследования года сессии (правило: хорошая запись приоритетного певца не блокируется неустановленным годом — допустим формат «1966–72?»)."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": "1955–1964 (точный год сессии не установлен)",
+      "year_source": "Discogs 15237021 — Testament SBT 1206 «Elisabeth Schwarzkopf: The Unpublished EMI Recordings 1955–1964, Lieder & Songs», трек A5 «Du bist die Ruh»; пианист по кредитам релиза — Gerald Moore. У Грея эта сессия отсутствует (в его выдаче по D 776 из 59 позиций Шварцкопф нет).",
+      "album": "The Unpublished EMI Recordings 1955–1964",
+      "label": "Testament SBT 1206 (изд. 2000)",
+      "age_voice": "40–49 лет — внутри пика 1948–1964 (дайджест).",
+      "reputation": "Издание Testament — образцовая реставрационная серия неопубликованных сессий EMI. Отдельных сравнительных оценок номера найти не удалось.",
+      "sources": [
+        "https://api.discogs.com/releases/15237021"
+      ],
+      "youtube": [
+        {
+          "videoId": "DsE-_CT2CmY",
+          "channel": "ELISABETH SCHWARZKOPF - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Отвечает на обязательный вопрос по приоритетному певцу: Шварцкопф песню ЗАПИСАЛА (и студийно, и живьём). Для публикации нужен год: буклет Testament SBT 1206 содержит подате́чные сведения по каждой сессии — целевое доисследование."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "не установлен по кредитам релиза (вероятно Gerald Moore — постоянный партнёр её рециталов тех лет; НЕ подтверждено)",
+      "rec_year": "1960 (15 июня)",
+      "year_source": "Discogs 14764245 — Le Chant du Monde / INA LDC 278 899 «Festival de Strasbourg 1960», примечание издания: «Festival de Musique de Strasbourg, Palais des Fêtes, 15 Juin 1960, Mono recording, ℗ 1988»; трек 8 — «Du bist die Ruh».",
+      "album": "Festival de Strasbourg 1960 (концертная запись INA)",
+      "label": "Le Chant du Monde / INA (изд. 1988)",
+      "age_voice": "44 года; пик формы (1948–1964).",
+      "reputation": "Живой рецитал французского радиоархива; критических разборов номера не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/14764245"
+      ],
+      "youtube": [
+        {
+          "videoId": "mOaOPMZBk4U",
+          "channel": "ELISABETH SCHWARZKOPF - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Единственная запись Шварцкопф в песне с точной документированной датой. Topic-заголовок помечен «(Live)» — согласуется с концертным (INA) происхождением."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Karl Alwin",
+      "rec_year": "1927 (сессии с Alwin; точная дата стороны D 776 не установлена — соседние стороны с Alwin датированы 14 ноября 1927)",
+      "year_source": "Discogs 11108635 (HMV EX 29 0359 3 «Elisabeth Schumann Sings Favourite Schubert Lieder»): трек A3 «Du bist die Ruh', D.776», пианист Karl Alwin, сгруппирован с прочими Alwin-сторонами (A1a–A4b); Discogs 8793357 (Angel GR-2151~2) датирует свод «Recorded in 1927~49». Дискография Грея даёт для Alwin-сторон Э. Шуман только 14.11.1927 (HMV D1411 / Victor 6837: Im Abendrot D 799, Die Vögel D 691) — сторона D 776 у Грея отсутствует.",
+      "album": "HMV-стороны 1927 (переизд. HMV EX 29 0359 3; Angel GR-2151~2; Naxos Historical)",
+      "label": "HMV / EMI",
+      "age_voice": "39 лет (1888–1952); пик карьеры (1920-е — сер. 1930-х), задолго до постаревших сессий 1945–49.",
+      "reputation": "СИЛЬНЕЙШЕЕ критическое свидетельство в досье: именно эту запись редакция Diapason выбрала как эталонное прочтение D 776 для антологии «22 Lieder» (Les Indispensables de Diapason № 160, сентябрь 2023) — трек 20, кредиты: Elisabeth Schumann, soprano; Karl Alwin, piano (Discogs 30791559).",
+      "sources": [
+        "https://api.discogs.com/releases/11108635",
+        "https://api.discogs.com/releases/8793357",
+        "https://api.discogs.com/releases/30791559",
+        "https://www.classical-discography.org/ (search2.php: artists=Elisabeth Schumann)"
+      ],
+      "youtube": [
+        {
+          "videoId": "MwxympFVDec",
+          "channel": "Elisabeth Schumann - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "44nbx4i6G9A",
+          "channel": "Elisabeth Schumann - Topic",
+          "official": true,
+          "oembed_ok": null
+        },
+        {
+          "videoId": "HxsVOm-95Gw",
+          "channel": "Elisabeth Schumann - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "Приоритетный певец + внешнее редакционное признание. Год требует уточнения по буклету (Naxos 8.110731 / EMI References), но диапазон надёжен."
+    },
+    {
+      "singer": "Kathleen Ferrier",
+      "pianist": "Bruno Walter (за роялем)",
+      "rec_year": "1949 (Эдинбургский фестиваль)",
+      "year_source": "MusicBrainz recording b47a639d-c962-406e-b082-68ca3f497fe0 (артисты: Kathleen Ferrier + Bruno Walter); реестр проекта planning/youtube/albums/female-recitalists.md: «Ferrier — Эдинбург-1949, live с Bruno Walter за роялем» (Decca Centenary Edition). У Грея эта позиция отсутствует (концертная запись).",
+      "album": "Эдинбургский фестиваль 1949 (Decca; переизд. Ferrier Centenary Edition)",
+      "label": "Decca",
+      "age_voice": "37 лет (1912–1953); полный расцвет, за 4 года до смерти.",
+      "reputation": "Эдинбургский вечер с Вальтером — один из самых знаменитых Lieder-концертов XX века (реестр female-recitalists.md). Отдельных рецензий номера не найдено.",
+      "sources": [
+        "https://musicbrainz.org/recording/b47a639d-c962-406e-b082-68ca3f497fe0",
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "PzLP77s6Vi8",
+          "channel": "Kathleen Ferrier - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "V5IcijBXE8U",
+          "channel": "Kathleen Ferrier - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "XZ3ctB1iQ8M",
+          "channel": "Kathleen Ferrier - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "На Topic-канале Ферье не менее четырёх загрузок D 776 разной длительности (265/283/287/288 с) — то есть у неё несколько прочтений (студийные Decca + эдинбургский лайв). Привязка videoId→сессия НЕ верифицирована; нужно доисследование."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1970",
+      "year_source": "planning/research/singers-digest.md (карточка Baker: «2-LP EMI 1970, Moore/Parsons»); издание — Discogs 7746202 / 12322818 / 28072015 «Popular Schubert Songs», Baker + Geoffrey Parsons (HMV/Seraphim/Angel), в трек-листе есть «Du bist die Ruh». MusicBrainz: три разных записи Baker + Parsons.",
+      "album": "Popular Schubert Songs (EMI/HMV; переизд. Seraphim, Angel; «The Great EMI Recordings», Warner 2013)",
+      "label": "EMI / HMV",
+      "age_voice": "37 лет (р. 1933); внутри пика ~1965–1982.",
+      "reputation": "Классика английской шубертианы; конкретных оценок номера не найдено (WebSearch недоступен).",
+      "sources": [
+        "planning/research/singers-digest.md",
+        "https://api.discogs.com/database/search?track=Du+bist+die+Ruh&artist=Janet+Baker"
+      ],
+      "youtube": [
+        {
+          "videoId": "3IapqLFNiDA",
+          "channel": "Janet Baker - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "В MusicBrainz три записи Baker/Parsons с близкой длительностью (268/271/268 с) — вероятны переиздания одной сессии, но не исключены и разные."
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "1954 и 1959 — две разные версии",
+      "year_source": "Метаданные официальных Decca-загрузок различают «(1954 Version)» и «(1959 Version)»; издания: Discogs 13614954 «Peter Pears — Recital» (Decca, 1960) и 13319772 «Das Lied, Folge 2» (Decca). Дискография Грея этих сессий не содержит. ВНИМАНИЕ: годы взяты из label-метаданных переизданий, а не из буклета — требуется подтверждение по дискографии Decca.",
+      "album": "Decca-рециталы Pears/Britten",
+      "label": "Decca",
+      "age_voice": "44 и 49 лет (р. 1910); пик 1950-е–1960-е.",
+      "reputation": "Дуэт Pears/Britten — один из эталонных в шубертовской камерной традиции (дайджест: Winterreise 1963 «среди величайших»).",
+      "sources": [
+        "https://api.discogs.com/database/search?track=Du+bist+die+Ruh&artist=Peter+Pears",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "U-F5jRzea5M",
+          "channel": "Peter Pears - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "-o1n9el1Nek",
+          "channel": "Peter Pears - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "При прочих равных правило требует более раннюю (1954)."
+    },
+    {
+      "singer": "Gundula Janowitz",
+      "pianist": "Irwin Gage",
+      "rec_year": "1976–1977",
+      "year_source": "planning/youtube/albums/female-recitalists.md: «Janowitz — Schubert: Lieder, 4-LP свод (DG 2713 012 + 2530 858), сессии 28.09–01.10.1976 и IX + 1–4.12.1977, Studio Lankwitz, Берлин; пианист Irwin Gage» (источник карточки — дискография Грея). MusicBrainz подтверждает связку Janowitz + Gage для D 776.",
+      "album": "Schubert: Lieder (4-LP свод DG)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "39–40 лет (р. 1937); пик ~1965–1980.",
+      "reputation": "Серия дважды удостоена Deutscher Schallplattenpreis (реестр). Прочтение крайне медленное (345 с — самое протяжённое в пуле), что для этой песни может быть и достоинством, и уязвимостью — нужен слуховой контроль при ранжировании.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "Unzu0rU_RQw",
+          "channel": "Gundula Janowitz - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "nRzWZzItNQQ",
+          "channel": "Gundula Janowitz - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1976 (10–14 сентября)",
+      "year_source": "Дискография Майкла Грея: «1976 September 10 - 14 | Elly Ameling, soprano | Philips 9500 350 | Amsterdam» (выдача по D 776). Совпадает с карточкой planning/youtube/albums/female-recitalists.md (серия Philips с Dalton Baldwin, 9500 350, зап. 10–14.09.1976, Concertgebouw).",
+      "album": "Philips 9500 350 (серия шубертовских рециталов с Болдуином)",
+      "label": "Philips / Universal",
+      "age_voice": "43 года (р. 1933); внутри пика ~1965–1985.",
+      "reputation": "Самая записываемая шубертианка поколения (дайджест). Фан-загрузка Ameling/Baldwin — одна из самых слушаемых версий песни на YouTube (≈169 тыс.), но предпочтителен Topic.",
+      "sources": [
+        "https://www.classical-discography.org/",
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "qI9NsM9Irdg",
+          "channel": "Elly Ameling - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "QzYJ4nDhpRs",
+          "channel": "Tom Westbrook (фан)",
+          "official": false,
+          "oembed_ok": null
+        }
+      ],
+      "note": "Год у Грея точный (сессии, не издание) — редкая надёжность для LP-эпохи."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1955 (год издания LP; год сессии не установлен)",
+      "year_source": "Discogs 7048775 «Schubert Recital No. 2» (Decca, Souzay/Baldwin, 1955), в трек-листе — «Du bist die Ruh»; прочие издания той же программы: 14191228, 18874945, 14707968, 13403755. У Грея сессия отсутствует.",
+      "album": "Schubert Recital No. 2 (Decca); переизд. Testament «Souzay: Schubert Lieder» (Discogs 29682211, 2003)",
+      "label": "Decca; переизд. Testament",
+      "age_voice": "36–37 лет (р. 1918); внутри пика 1950-е — сер. 1960-х, задолго до сухости с ~1970.",
+      "reputation": "Ранний Сузе с Болдуином — классика французской школы Lieder. Отдельных оценок номера не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/7048775"
+      ],
+      "youtube": [
+        {
+          "videoId": "ZxrCvGLj5Oo",
+          "channel": "Gérard Souzay - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "5sh8HFVwc-I",
+          "channel": "Gérard Souzay - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Две Topic-загрузки почти одинаковой длительности (283 с) — вероятно, дубли переизданий одной записи."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Leonard Hokanson",
+      "rec_year": "1971 (27–30 октября)",
+      "year_source": "Дискография Майкла Грея: «1971 October 27 - 30 | Hermann Prey, baritone; Leonard Hokanson, piano | Philips 6747 059 | München» (выдача по D 776). КОНФЛИКТ: фан-загрузка F0pDtSutsGM заявляет «Hermann Prey, 1969 — Philips 6573 010» — метаданные загрузки источником не являются; при отборе опираться на Грея.",
+      "album": "Philips 6747 059 (шубертовский свод Прая начала 1970-х)",
+      "label": "Philips",
+      "age_voice": "42 года (р. 1929); внутри пика ~1960–1980.",
+      "reputation": "Основатель Шубертиады в Хоэнемсе; голос тёплый, менее аналитичный, чем у Фишера-Дискау.",
+      "sources": [
+        "https://www.classical-discography.org/"
+      ],
+      "youtube": [
+        {
+          "videoId": "AYYemm056aY",
+          "channel": "Hermann Prey - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Длительность Topic-загрузки (241 с) заметно меньше фан-переноса LP (257 с) — возможно, это разные сессии Прая; привязка не верифицирована."
+    },
+    {
+      "singer": "Barbara Bonney",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1994 (апрель)",
+      "year_source": "Реестр альбомов planning/youtube/albums.md: «Barbara Bonney — Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2), запись апрель 1994, Teldec Studio Berlin; Geoffrey Parsons»; MusicBrainz подтверждает связку Bonney + Parsons для D 776.",
+      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder",
+      "label": "Teldec / Warner 4509-90873-2",
+      "age_voice": "37–38 лет (р. 1956); начало пика 1990-х.",
+      "reputation": "Самый слушаемый вариант песни в фан-сегменте YouTube (≈276 тыс. на загрузке TheSockPuppet). Пресса о Бонни в шубертовском репертуаре — тёплая, но по правилу о пиаре современных нужен слуховой контроль.",
+      "sources": [
+        "planning/youtube/albums.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "MX2IL46rTGs",
+          "channel": "Barbara Bonney - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "mkvDiSnBxtg",
+          "channel": "TheSockPuppet (фан)",
+          "official": false,
+          "oembed_ok": null
+        }
+      ],
+      "note": "Кандидат на «слот не ранее 1990»."
+    },
+    {
+      "singer": "Barbara Hendricks",
+      "pianist": "Radu Lupu",
+      "rec_year": "1985",
+      "year_source": "planning/research/singers-digest.md (карточка Hendricks: «два тома EMI с Radu Lupu, 1985 и 1993»); MusicBrainz подтверждает связку Hendricks + Lupu для D 776. Точный месяц сессии не установлен; у Грея запись отсутствует.",
+      "album": "Schubert: Lieder (EMI, том 1)",
+      "label": "EMI / Warner",
+      "age_voice": "36–37 лет (р. 1948); пик 1980-е–1990-е.",
+      "reputation": "Редкий случай, когда за роялем великий солист (Раду Лупу) — это и есть главный интерес записи (дайджест).",
+      "sources": [
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "9JMQM-L3kZQ",
+          "channel": "Barbara Hendricks - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Самая протяжённая из «нормальных» трактовок пула (297 с)."
+    },
+    {
+      "singer": "Lynne Dawson",
+      "pianist": "Graham Johnson",
+      "rec_year": "1998 (январь)",
+      "year_source": "planning/youtube/albums/complete-editions.md: «Vol. 35 “Schubert 1822–1825” (CDJ33035, зап. I.1998, изд. IV.2000)»; трек-лист тома с «Du Bist Die Ruh» — Discogs 17543902; исполнительница именно этого номера — по MusicBrainz (Lynne Dawson + Graham Johnson).",
+      "album": "The Hyperion Schubert Edition, Vol. 35 «Schubert 1822–1825»",
+      "label": "Hyperion CDJ33035",
+      "age_voice": "41–42 года (р. 1956).",
+      "reputation": "Научный эталон издания (комментарии Грэма Джонсона); пресса о томе 35: BBC Music Magazine «illuminating», The Guardian «Revelatory» (карточка реестра). Оценок именно вокала в этом номере не найдено.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md",
+        "https://api.discogs.com/releases/17543902"
+      ],
+      "youtube": [
+        {
+          "videoId": "isONslmOv4c",
+          "channel": "Graham Johnson - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Topic-канал оформлен на пианиста, а не на певицу — при публикации обязательна проверка соответствия канала (скрипт-гейт)."
+    },
+    {
+      "singer": "Bernarda Fink",
+      "pianist": "Gerold Huber",
+      "rec_year": "2007",
+      "year_source": "planning/research/singers-digest.md (карточка Fink: рецитал harmonia mundi, зап. 2007, Huber); MusicBrainz подтверждает связку Fink + Huber для D 776.",
+      "album": "Schubert: Lieder (harmonia mundi)",
+      "label": "harmonia mundi",
+      "age_voice": "51–52 года (р. 1955); внутри пика ~1995–2015.",
+      "reputation": "Тот же альбом дал со-победителя слепого теста 2020 по Gretchen am Spinnrade (наряду со Шварцкопф/Фишером) — сильный внешний сигнал качества серии (дайджест).",
+      "sources": [
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "O3d2YhhqDbU",
+          "channel": "Bernarda Fink - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Сильнейший «современный» кандидат по внешним свидетельствам, но 2007 не закрывает слот «не ранее 2015»."
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": "не установлен (вероятно «Nachtviolen», Sony 2014 — НЕ подтверждено)",
+      "year_source": "MusicBrainz: Christian Gerhaher + Gerold Huber, D 776 (290 с). Альбом по дискографии не привязан; дайджест перечисляет Abendbilder (RCA 2006?), Nachtviolen (Sony 2014) — какой из них содержит D 776, установить не удалось.",
+      "album": "не установлен",
+      "label": "Sony / RCA",
+      "age_voice": "зависит от альбома (р. 1969): 2006 — 37 лет, 2014 — 45 лет; в обоих случаях внутри пика.",
+      "reputation": "Пресса называет высшим текстовиком современности — по правилу о пиаре современных требует фильтрации и слухового контроля.",
+      "sources": [
+        "https://musicbrainz.org/recording/45537b23-4f8c-4e67-87aa-89fa656d8bf3",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "3Vx6Tu-lR_M",
+          "channel": "Christian Gerhaher - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Требует доисследования альбома и года перед включением в пятёрку."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Matthias Goerne + Helmut Deutsch, D 776 (338 с). В дайджесте связка Goerne–Deutsch не описана (там Eschenbach, Leonskaja, Johnson, Schneider, Brendel) — альбом требует установления.",
+      "album": "не установлен",
+      "label": "harmonia mundi (?)",
+      "age_voice": "р. 1967; пик ~1997–2015.",
+      "reputation": "Самый записываемый Schubert-баритон поколения (дайджест). Трактовка крайне медленная (338 с).",
+      "sources": [
+        "https://musicbrainz.org/recording/c5c4bd39-6902-48b5-bf6d-f21f5c6fc53e"
+      ],
+      "youtube": [
+        {
+          "videoId": "nl48s2K6nko",
+          "channel": "Matthias Goerne (official)",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Без года и альбома в пятёрку не берётся без доисследования."
+    },
+    {
+      "singer": "Carolyn Sampson",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2017",
+      "year_source": "planning/research/singers-digest.md (карточка Sampson: «A Soprano's Schubertiade», BIS, зап. 2017, Middleton); MusicBrainz подтверждает связку Sampson + Middleton для D 776.",
+      "album": "A Soprano's Schubertiade",
+      "label": "BIS",
+      "age_voice": "42–43 года (р. 1974); внутри пика ~2010–наст.",
+      "reputation": "Единственный найденный достойный кандидат под слот «не ранее 2015». По правилу о скепсисе к прессе о современных — нужен слуховой контроль.",
+      "sources": [
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "SnhHEzR2lo8",
+          "channel": "Carolyn Sampson - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Ключевой кандидат для возрастной структуры пятёрки."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "не установлен (трилогия Onyx с Martineau — 2011–2015)",
+      "year_source": "MusicBrainz: Florian Boesch + Malcolm Martineau, D 776 (230 с); дайджест датирует их трилогию Onyx 2011–2014/15, но D 776 в циклы не входит — вероятен отдельный рецитал; альбом не установлен.",
+      "album": "не установлен",
+      "label": "Onyx (?)",
+      "age_voice": "р. 1971; пик ~2010–наст.",
+      "reputation": "Рассказчик венской школы (дайджест). Отдельно существует оркестровая версия с Concentus Musicus Wien (Aparté, videoId QxfoT8Gx3Vc) — это ДРУГАЯ запись.",
+      "sources": [
+        "https://musicbrainz.org/recording/a062a3b0-ba12-4e82-aa8b-881ec1d561f3"
+      ],
+      "youtube": [
+        {
+          "videoId": "CX00mDThuBg",
+          "channel": "Florian Boesch - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Самая быстрая трактовка пула (230 с)."
+    },
+    {
+      "singer": "Lotte Lehmann",
+      "pianist": "не указан в дискографии (дирижёр сессии — Manfred Gurlitt)",
+      "rec_year": "1927 (6 декабря)",
+      "year_source": "Дискография Майкла Грея: «1927 December 6 | Lotte Lehmann, soprano | Odéon O-8724 | conductor Gurlitt, Manfred | 78 prefix xxB, matrix 7875».",
+      "album": "78 об/мин Odéon O-8724",
+      "label": "Odéon",
+      "age_voice": "39 лет (1888–1976); пик (сер. 1910-х — кон. 1930-х).",
+      "reputation": "Леман — эталон выразительности Lieder-эпохи (дайджест). Сопровождение оркестровое/ансамблевое (указан дирижёр) — при публикации name строится не как «— пианист».",
+      "sources": [
+        "https://www.classical-discography.org/"
+      ],
+      "youtube": [
+        {
+          "videoId": "mVni961hxWs",
+          "channel": "Lotte Lehmann - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Резервный исторический кандидат."
+    },
+    {
+      "singer": "Elena Gerhardt",
+      "pianist": "Arthur Nikisch",
+      "rec_year": "1911 (Лондон)",
+      "year_source": "Discogs 10772230 — HMV RLS 766 «Schubert Lieder on Record 1898–1952», сторона D4: «Du Bist Die Ruh», Elena Gerhardt, Arthur Nikisch (piano); датировка «Berlin 1907 & London 1911» — по заголовку сводной загрузки и карточке дайджеста (Nikisch за роялем, 1907 и 1911). У Грея позиция отсутствует.",
+      "album": "Schubert Lieder on Record 1898–1952 (антология HMV RLS 766, 1982)",
+      "label": "HMV / EMI",
+      "age_voice": "≈28 лет (1883–1961); пик 1907 — нач. 1920-х.",
+      "reputation": "Историческая уникальность: за роялем Артур Никиш. Включена в эталонную антологию EMI из 64 великих певцов.",
+      "sources": [
+        "https://api.discogs.com/releases/10772230",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [],
+      "note": "Отдельного videoId именно этой стороны не найдено (на Gerhardt-Topic — только Winterreise). Ценность архивная; для топ-5 неперспективна из-за качества звука 1911 г."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "ДА, записал — но не с фортепиано: «Du bist die Ruh», оркестровка Веберна, Chamber Orchestra of Europe / Abbado, живая запись Cité de la musique, Париж, май 2002; DG 471 586-2 (℗2003), трек 13. Источник: Discogs 2713287 (примечание издания) и бокс DG 479 4645 (Discogs 16134477, «CD 8 — Cité de la musique, Paris, 5/2002»). ОТРИЦАТЕЛЬНО: ни в одном из шести сольных Schubert-альбомов и в «Widmung» (DG 2003) песни нет — проверены трек-листы Discogs 8778752 (Goethe-Lieder), 8752021 (Winterreise), 1097040 (Schwanengesang), 4640997 (Müllerin), 9880429 (Widmung).",
+    "Fischer-Dieskau": "ДА, минимум трижды. (1) HMV DB 21349, Лондон, 7 октября 1951, Gerald Moore — дискография Майкла Грея; сама пластинка Discogs 13610080. (2) Свод DG «Sämtliche Lieder» с Муром (сессии 1966–72) — MusicBrainz 6b07ea93. (3) Электрола/EMI-рециталы («The Trout and Other Songs», Angel; «Singt Lieder von Franz Schubert», Electrola) — Discogs-поиск по треку. Всего на Topic-канале три разные загрузки D 776 (253/258/276 с).",
+    "Schwarzkopf": "ДА, дважды. (1) Студийная EMI-сессия 1955–1964 с Джеральдом Муром, издана только в 2000 г.: Testament SBT 1206 «The Unpublished EMI Recordings 1955–1964», трек A5 — Discogs 15237021. (2) Живая: Festival de Musique de Strasbourg, Palais des Fêtes, 15 июня 1960 — Le Chant du Monde / INA LDC 278 899 (℗1988), трек 8 — Discogs 14764245. В дискографии Грея по D 776 (59 позиций) Шварцкопф отсутствует, т.е. коммерческих сессий 78/LP-эпохи у неё по этой песне не было.",
+    "Hotter": "НЕ ПОДТВЕРЖДЕНО, скорее нет. В выдаче Грея по D 776 Хоттера нет; в его шубертовских изданиях, проверенных по трек-листам (Discogs 6655914 «The Art of Hans Hotter», 6127029 «Lieder von Schubert, Brahms, Loewe und Wolf», 20289274, 14572585 «Lieder and Opera Scenes 1942–1973», 24695477 «All-Schubert Lieder Recital» с Раухайзеном, 13964615 Preiser PR 3145 с Гансом Альтманом) «Du bist die Ruh» отсутствует. В антологии Diapason «22 Lieder» (2023) Хоттер представлен другими песнями (Am Bach im Frühling D 361). Есть фан-загрузка «Schubert - Du Bist Die Ruh - Hans Hotter» (Rv_WkfK2TaE, 308 с) — атрибуция НЕ верифицирована ни по одной дискографии; использовать нельзя без подтверждения.",
+    "Anders": "НЕТ (по доступным источникам). В выдаче Грея по D 776 Андерса нет; проверены трек-листы его шубертовских изданий (Discogs 7840253, 14356187, 11164832, 9391351, 11164516, 13465594, 9112662, 8972883, 14296209 «Zur Erinnerung an Peter Anders», DG LPE 17 204) — совпадений нет (в 14296209 есть только «Kriegers Ahnung (In tiefer Ruh')» — другая песня, D 957/2). В антологии Diapason «22 Lieder» Андерс поёт Im Frühling D 882, не D 776.",
+    "E. Schumann": "ДА. HMV-сторона с Карлом Альвином за роялем: Discogs 11108635 (HMV EX 29 0359 3), трек A3 «Du bist die Ruh', D.776», кредит «Karl Alwin — Piano»; свод датирован «Recorded in 1927~49» (Discogs 8793357). Сессии с Альвином у Грея датированы 14 ноября 1927 (HMV D1411 / Victor 6837), но сама сторона D 776 у Грея отсутствует — точная дата требует буклета (Naxos 8.110731 / EMI References). Запись выбрана редакцией Diapason как представляющая D 776 в антологии «22 Lieder» (Discogs 30791559, трек 20).",
+    "Ludwig": "НЕТ (по доступным источникам). В выдаче Грея по D 776 Людвиг нет; поиск Discogs по треку «Du bist die Ruh» + артист Christa Ludwig даёт только «The Christa Ludwig Edition» (DG, 12062006) и баховские/вагнеровские релизы — прямого подтверждения шубертовского номера не получено; на канале «Christa Ludwig - Topic» D 776 в выдаче YouTube отсутствует (есть Bertas Lied, An die Musik, Auf dem Wasser zu singen).",
+    "Popp": "НЕТ. В выдаче Грея по D 776 Попп нет; поиск Discogs по треку + артист Lucia Popp даёт только Орфа и Баха; на YouTube шубертовского D 776 в её исполнении не найдено. Её EMI-рецитал 1983 (Gage) и зальцбургский лайв 1983 песню не содержат по доступным описаниям (реестр planning/youtube/albums/female-recitalists.md)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Lieder with Orchestra — von Otter / Quasthoff / Chamber Orchestra of Europe / Abbado",
+      "singer": "Thomas Quasthoff, Anne Sofie von Otter",
+      "year": "2002 (концерт, Cité de la musique, Париж, май); DG 471 586-2, ℗ 2003",
+      "label": "Deutsche Grammophon",
+      "facts": "Живая запись; оркестровки Веберна, Регера, Брамса, Берлиоза, Листа, Оффенбаха. Grammy 2004 (дайджест). Квастхофу принадлежат треки 11–19 и 21, в т.ч. D 776 в оркестровке Веберна. Переиздан в боксе DG 479 4645 (2015) как CD 8. Реестр albums.md эту карточку НЕ содержит — новая позиция, полезная всему корпусу (закрывает вопрос «есть ли у Квастхофа песня X» вне шести его Schubert-альбомов).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Les Indispensables de Diapason № 160 — «22 Lieder» (Schubert)",
+      "singer": "антология (Anders, Ferrier, Fischer-Dieskau, Grümmer, Hotter, Hüsch, Lehmann, Ludwig, Schlusnus, E. Schumann, Schwarzkopf, Seefried)",
+      "year": "2023 (переиздание; выпуск с журналом Diapason, сентябрь 2023)",
+      "label": "Diapason",
+      "facts": "Уже есть в реестре albums.md. Для D 776 редакционный выбор — Elisabeth Schumann / Karl Alwin (трек 20, 4'26\"). Это самый весомый найденный внешний критический сигнал по данной песне.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Testament SBT 1206 — Elisabeth Schwarzkopf: The Unpublished EMI Recordings 1955–1964 (Lieder & Songs)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "сессии 1955–1964; издание 2000",
+      "label": "Testament",
+      "facts": "Пианист Джеральд Мур. 24-страничный буклет содержит тексты и подсессионные технические сведения — то есть точная дата D 776 там есть, но онлайн недоступна. НОВАЯ карточка для реестра: издание закрывает вопрос «пела ли Шварцкопф песню X» для песен вне её опубликованных рециталов.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Festival de Strasbourg 1960 — Elisabeth Schwarzkopf",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "концерт 15 июня 1960, Palais des Fêtes, Страсбург; ℗ 1988",
+      "label": "Le Chant du Monde / INA LDC 278 899",
+      "facts": "Моно; 40-страничный буклет. Программа Schubert / Strauss / Wolf. НОВАЯ карточка для реестра — единственный источник Шварцкопф с точной датой по этой песне.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV RLS 766 — «Schubert Lieder on Record 1898–1952»",
+      "singer": "антология из 64 певцов",
+      "year": "1982 (переиздание; записи 1898–1952)",
+      "label": "HMV / EMI",
+      "facts": "Три версии D 776 в одном издании: Lilli Lehmann (B2), Elena Gerhardt с Артуром Никишем за роялем (D4), John McCormack (F1). Ценнейший быстрый тест «кто из старых мастеров записал песню X» и источник отрицательных результатов. НОВАЯ карточка для реестра (в albums.md упоминается родственная антология EMI/Warner «Schubert Lieder on Record», но без каталожного номера и содержания).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 35 «Schubert 1822–1825» (CDJ33035)",
+      "singer": "сборный том; D 776 поёт Lynne Dawson",
+      "year": "запись январь 1998, издание апрель 2000",
+      "label": "Hyperion",
+      "facts": "Карточка уже есть в planning/youtube/albums/complete-editions.md; уточнение — исполнительница D 776 именно Dawson (MusicBrainz), трек 8 (Discogs 17543902).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Philips 9500 350 — Elly Ameling / Dalton Baldwin",
+      "singer": "Elly Ameling",
+      "year": "сессии 10–14 сентября 1976, Амстердам (Concertgebouw)",
+      "label": "Philips",
+      "facts": "Точная дата подтверждена дискографией Грея прямо по позиции D 776 — редкий случай сессионной точности для LP-эпохи. Карточка уже в albums/female-recitalists.md.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV EX 29 0359 3 — «Elisabeth Schumann Sings Favourite Schubert Lieder»",
+      "singer": "Elisabeth Schumann",
+      "year": "записи 1927–1949 (D 776 — из группы сессий с Карлом Альвином, 1927); LP 1986",
+      "label": "HMV / EMI",
+      "facts": "Программа сгруппирована по пианистам: Alwin (стороны A1a–A4b, включая D 776), затем Reeves, Moore, Coleman, Rosenek. Полезно для датировки любой шубертовской стороны Э. Шуман. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сводная страница Шуберта (https://www.klassik-prisma.de/Schubert.htm) проверена целиком: сравнительной страницы (Vergleich) по «Du bist die Ruh» D 776 НЕТ. Из песен там разобраны только D 774, D 965, D 828, D 328, D 118, D 583, D 827 и три цикла. То есть привычного для пилота источника оценок по этой песне не существует.",
+    "Les Indispensables de Diapason № 160 «22 Lieder» (сентябрь 2023) — редакционный отбор исторических шубертовских записей; для D 776 выбрана Elisabeth Schumann / Karl Alwin (Discogs 30791559). Функционально это и есть найденный «обзор с вердиктом» по данной песне.",
+    "HMV RLS 766 «Schubert Lieder on Record 1898–1952» (EMI, 1982) — историческая антология-обзор; включает сразу три прочтения D 776 (Lilli Lehmann, Gerhardt/Nikisch, McCormack), т.е. фиксирует канон ранних версий.",
+    "НЕ ПОЛУЧЕНО: Gramophone, MusicWeb International, BBC Music Magazine, слепые тесты — WebSearch-бюджет сессии был исчерпан (200/200) ещё до начала работы, прямые URL этих обзоров по D 776 неизвестны. Поиск через bash (DuckDuckGo, Mojeek) заблокирован сетевой политикой контейнера.",
+    "НЕ ПОЛУЧЕНО: страница песни на hyperion-records.co.uk с заметками Грэма Джонсона — поиск сайта (find.asp) отдаёт результаты только через JS, а прямой адрес dc.asp?dc=D_D776 возвращает пустую страницу. Работа с Hyperion велась через каталожный том CDJ33035."
+  ],
+  "negatives": [
+    "klassik-prisma не публиковала сравнение по D 776 — оценок в баллах, привычных для пилотных песен, по этой песне не существует.",
+    "Peter Anders «Du bist die Ruh» не записывал (Грей + трек-листы девяти его шубертовских изданий).",
+    "Lucia Popp «Du bist die Ruh» не записывала (Грей, Discogs track-поиск, YouTube).",
+    "Christa Ludwig — записи не найдено ни у Грея, ни в Discogs track-поиске, ни на Topic-канале.",
+    "Hans Hotter — записи не найдено ни у Грея, ни в шести проверенных его шубертовских изданиях; существующая фан-загрузка с его именем не имеет дискографического подтверждения и как источник не годится.",
+    "Fischer-Dieskau: свод DG сессионного года именно для D 776 не раскрывает — ни MusicBrainz, ни примечания Discogs-изданий; нужен буклет 21-CD бокса.",
+    "Kirsten Flagstad ЗАПИСАЛА песню (Грей: 28 апреля 1952, HMV DB 21596, Gerald Moore) — вопреки карточке дайджеста, где её шубертовское наследие сведено к четырём песням в RCA-рециталах 1950–52. Это уточнение к дайджесту, а не к правилам.",
+    "Ещё ряд документированных у Грея старых записей, не вошедших в пул как менее значимые или недоступные на YouTube: Irmgard Seefried / Wilhelm Schmidt (Вена, 25.10.1946), Herbert Janssen (Columbia, 17.09.1945, НЕ издана), Elsa Cavelti / Gerald Moore (15.12.1949, НЕ издана), Roland Hayes (Columbia, 1939 и 1942, обе НЕ изданы), Karl Erb / Seidler-Winkler (18.02.1936), Karl Schmitt-Walter / Raucheisen (05.12.1936), Sigrid Onegin (Victor, 11.01.1929), John McCormack / Edwin Schneider (HMV DB 766, 04.09.1924), Erika Köth / Gerald Moore (12–14.05.1963), Anna Moffo / Gerald Moore (Зальцбург, 2–5.09.1971).",
+    "Полностью нефортепианные версии (виолончель Maisky/Hovora — DG; Soltani/Pilsan — DG; альт, саксофон, оркестр, хоры) в пул кандидатов не включались: это транскрипции без пения."
+  ]
+}

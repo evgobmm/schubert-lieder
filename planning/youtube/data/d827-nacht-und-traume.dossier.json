@@ -1,0 +1,656 @@
+{
+  "d": "827",
+  "title": "Nacht und Träume",
+  "tier": "famous",
+  "research_note": "Ярус famous. Ключевой источник — большой сравнительный обзор klassik-prisma (Bernd Stremmel, «mehr als 20 Aufnahmen», выложен 29.08.2010): он даёт и оценки, и связки «певец — пианист — лейбл — год — хронометраж». Второй слой — реестр альбомов проекта (planning/youtube/albums.md, albums/*.md; даты по дискографии Майкла Грея и матрицам), третий — MusicBrainz (work 20cbe08a-94cb-4181-92ab-86c41634e079, 65 записей) и Discogs API. Важное свойство песни (по klassik-prisma): низкие голоса её в основном избегают, песня написана для высокой тесситуры (H-dur), меццо и баритоны транспонируют в A/As-dur; это объясняет отрицательные результаты по Хоттеру, Квастхофу и др. басам. WebSearch в сессии был исчерпан — веб-исследование велось прямыми WebFetch/curl по klassik-prisma, Discogs API, MusicBrainz API; страницу hyperion-records по D 827 открыть не удалось (404/шаблон), Hyperion-тома выведены из MusicBrainz + реестра.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1951",
+      "year_source": "klassik-prisma, таблица D 827: «Fischer-Dieskau B / Moore / EMI / 1951 / 3'20 / 5» (http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm). Отдельной дискографической сверкой (Грей/буклет) НЕ подтверждено — год пометить как требующий доисследования.",
+      "album": "ранняя EMI/HMV-запись песни (конкретный LP/78 не установлен)",
+      "label": "EMI (HMV/Electrola)",
+      "age_voice": "26 лет (р. 28.05.1925). Самое начало пика по дайджесту (~1951–1972): голос свежий, лёгкий, ещё без позднейшей декламационности.",
+      "reputation": "Высшая оценка klassik-prisma (5): «ungekünstelt, jedoch genau kalkuliert, insgesamt leise, nur bei „rufen, wenn der Tag erwacht“ etwas lauter»; там же отмечено, что во всех своих записях Фи-Ди объединяет двукратное «die belauschen sie mit Lust» (тт. 15–19) в одну большую фразу. Из четырёх его версий эта — единственная с полными пятью баллами.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/research/singers-digest.md (пик 1951–1972)"
+      ],
+      "youtube": [
+        {"videoId": "P8d8kqUllEg", "channel": "Graham Rankin", "official": false, "oembed_ok": true}
+      ],
+      "note": "Хронометраж загрузки 201 с точно ложится на 3'20 из таблицы klassik-prisma — вероятная идентификация именно версии 1951. Официальной (Warner Topic) загрузки этой версии найти не удалось; на Topic-канале Фишера-Дискау лежат версии 1969 (DG) и 1983 (Philips/Brendel)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "klassik-prisma: «Fischer-Dieskau B / Moore / DGG / 1969 / 3'23 / 4-5». Совпадает с метаданными официальной Topic-загрузки (album «Schubert: Lieder (Vol. 2)», artist Fischer-Dieskau/Moore, release_year 1969) и с рамками свода DG «Sämtliche Lieder», сессии 1966–72 (planning/research/singers-digest.md).",
+      "album": "DG «Franz Schubert: Lieder» / «Sämtliche Lieder» (21 CD), сессии 1966–72",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года. Ещё внутри пика, но klassik-prisma фиксирует характерный сдвиг: «natürliches Singen weicht dem deklamatorischen».",
+      "reputation": "klassik-prisma 4-5: выправляется по ходу исполнения, богато нюансами, но зафиксирована текстовая ошибка в т. 21 — поёт «holde» вместо «heil'ge». То есть каноническая «полная» версия свода уступает ранней 1951 г.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "yt-dlp метаданные Topic-загрузки TKpAJcME5_E (album/artist/release_year)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "TKpAJcME5_E", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "uGAxAM5p0Qs", "channel": "FiDiTanzer528", "official": false, "oembed_ok": true},
+        {"videoId": "otXVgpvumFs", "channel": "Melvin Udall", "official": false, "oembed_ok": null}
+      ],
+      "note": "Самая доступная версия Фишера-Дискау: официальный Topic + фан-загрузка с 373 тыс. просмотров. Год Topic-метаданных (1969) здесь совпадает с независимым источником klassik-prisma — редкий случай, когда метаданные подтверждаются."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1963",
+      "year_source": "klassik-prisma: «Fischer-Dieskau B / Moore / Orfeo / 1963 / 3'28 / 4-5 / live».",
+      "album": "концертная запись (издание Orfeo d'Or; конкретный номер не установлен, вероятно зальцбургский лайв)",
+      "label": "Orfeo d'Or",
+      "age_voice": "38 лет, середина пика; klassik-prisma отмечает более тяжёлый и широкий звук и декламацию в начале.",
+      "reputation": "klassik-prisma 4-5; помеха — аплодисменты, врезающиеся в заключительный аккорд.",
+      "sources": ["http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"],
+      "youtube": [],
+      "note": "На YouTube отдельным треком не найдена. Для топ-5 неконкурентна (лайв с аплодисментами в конце)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Alfred Brendel",
+      "rec_year": "1983?",
+      "year_source": "метаданные официальной Topic-загрузки VcV8aSDKaa0 (album «Schubert: Lieder», artist Fischer-Dieskau/Brendel, release_year 1983) — это ГОД ИЗДАНИЯ по правообладателю, дискографически не сверен. MusicBrainz подтверждает существование записи дуэта (Nacht und Träume, D 827 (von Collin), 247 с).",
+      "album": "Schubert: Lieder (Philips)",
+      "label": "Philips",
+      "age_voice": "~58 лет. По дайджесту с сер. 1970-х тон суше; дуэт с Бренделем — поздний слой дискографии.",
+      "reputation": "В обзоре klassik-prisma эта версия НЕ рассматривается. Косвенный ориентир: последнюю позднюю версию (1987, Höll) обзор оценивает в 4 балла со словами «klingt wie eine Erinnerung, wie ein Abschied». Пиара нет, но и признания как эталона нет.",
+      "sources": [
+        "planning/youtube/data/d827-nacht-und-traume.mb.json (Fischer-Dieskau / Brendel)",
+        "yt-dlp метаданные VcV8aSDKaa0"
+      ],
+      "youtube": [
+        {"videoId": "VcV8aSDKaa0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год требует доисследования (буклет Philips), если запись пойдёт в топ-5."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Hartmut Höll",
+      "rec_year": "1987",
+      "year_source": "klassik-prisma: «Fischer-Dieskau B / Höll / Claves/Brilliant / 1987 / 3'42 / 4».",
+      "album": "Schubert-Lieder (Claves; переизд. Brilliant Classics)",
+      "label": "Claves / Brilliant Classics",
+      "age_voice": "62 года, голос далеко за пиком.",
+      "reputation": "klassik-prisma 4: «klingt wie eine Erinnerung, wie ein Abschied», рояль «etwas einförmig und unflexibel». Самая слабая из версий Фи-Ди.",
+      "sources": ["http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"],
+      "youtube": [],
+      "note": "Отдельной загрузки не искал целенаправленно — кандидат заведомо непроходной."
+    },
+    {
+      "singer": "Peter Anders",
+      "pianist": "Hubert Giesen",
+      "rec_year": "1947",
+      "year_source": "klassik-prisma: «Anders T / Giesen / Telefunken / 1947 / 3'14 / 5». Косвенно подтверждается заголовком официальной Topic-загрузки «Nacht und Träume, D. 827 (1947)».",
+      "album": "Telefunken-сессия 1947 г. (конкретный номер пластинки не установлен; переиздания на Topic-канале «Peter Anders»)",
+      "label": "Telefunken",
+      "age_voice": "39 лет (1908–1954), в самом пике: дайджест фиксирует у Андерса отсутствие спада — карьера оборвалась гибелью в 45 лет.",
+      "reputation": "Пять баллов klassik-prisma: «wie ein inbrünstig gesungenes Gebet», длинные ноты держатся с неизменной интенсивностью, «überzeugend»; из минусов — «zeitbedingte Portamenti». В сопроводительном тексте обзора Андерс отнесён к тем, кто трактует песню концертно (наряду с Erb, Berger, Bumbry, Hendricks), в отличие от «камерных» Seefried/Pears/Souzay/Prégardien/Fontana.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/research/singers-digest.md (Anders: пик 1940-е, спада нет)"
+      ],
+      "youtube": [
+        {"videoId": "4wtyTUVwdnU", "channel": "Peter Anders - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "9igzJnB7Oos", "channel": "Peter Anders - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "1_L6IFf37Sk", "channel": "Lieder Greats", "official": false, "oembed_ok": null}
+      ],
+      "note": "Приоритетный певец правил (№4-группа) с пятизвёздной записью и официальным Topic-каналом — сильнейший кандидат старой школы. Два Topic-ролика (191 с и 201 с) могут быть разными трансферами одной сессии либо разными дублями; 4wtyTUVwdnU прямо помечен «(1947)»."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Gerald Moore",
+      "rec_year": "1948",
+      "year_source": "planning/youtube/albums/female-recitalists.md по дискографии Майкла Грея: «Auf dem Wasser zu singen + Nacht und Träume (19.04.1948, Gerald Moore, LB 106)» — точная дата сессии Columbia. klassik-prisma независимо даёт «EMI 1948».",
+      "album": "Columbia LB 106 (78 об/мин), Лондон",
+      "label": "Columbia (EMI)",
+      "age_voice": "28–29 лет (р. 09.10.1919), ранний пик (по дайджесту пик — конец 1940-х – начало 1960-х): голос молодой, лёгкий, без позднейшего спада.",
+      "reputation": "Пять баллов klassik-prisma и фактически возглавляет женский список: «schlicht, etwas scheu, fast wie zerbrechlich, jedoch sehr konzentriert und eindringlich, introvertiert». В сопроводительном тексте Зеефрид названа первой среди тех, кто понимает песню как музыку для узкого домашнего круга.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md (Gray: 19.04.1948, LB 106)",
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"
+      ],
+      "youtube": [
+        {"videoId": "Gw8lhPCyUO8", "channel": "Graham Rankin", "official": false, "oembed_ok": true},
+        {"videoId": "FIKCBiGZLXM", "channel": "Franz Schubert - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВНИМАНИЕ: FIKCBiGZLXM лежит на обезличенном канале «Franz Schubert - Topic» (193 с) — принадлежность Зеефрид НЕ подтверждена, требуется отдельная проверка перед публикацией. Надёжно идентифицирован только фан-ролик Graham Rankin (223 с), что на 11 с длиннее хронометража 3'32 из klassik-prisma — возможно, с обрамляющей тишиной."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "1937",
+      "year_source": "planning/youtube/albums.md: HMV DB 3184, «1937 (ок. 5–15 марта, по матрицам 2EA 4849/4850)»; пластинка содержит 4 песни, включая Nacht und Träume. klassik-prisma независимо: «Schumann, Elisabeth S / Moore / EMI / 1937 / 2'57 / 4».",
+      "album": "HMV DB 3184 (78 об/мин); переизд. Naxos Historical 8.110731, Warner «Icon»",
+      "label": "HMV / EMI (переизд. Naxos Historical, Warner)",
+      "age_voice": "48–49 лет (1888–1952). По дайджесту пик — 1920-е – середина 1930-х, то есть запись сделана на самой границе пика; стиль эталонный, голос уже не первой свежести.",
+      "reputation": "klassik-prisma 4 балла — заметно ниже пятёрок: темп Andante, «schlicht», первая нота не сразу отзывается, много промежуточных вдохов, рвущих фразы, и подчёркивание первой ноты каждой фразы. То есть у приоритетной певицы правил запись есть, но она квалификационно слабее лидеров.",
+      "sources": [
+        "planning/youtube/albums.md (матрицы 2EA 4849/4850, HMV DB 3184)",
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"
+      ],
+      "youtube": [
+        {"videoId": "EnuNdg7ZdT8", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "3-qr29JA7Kc", "channel": "Analogon Edizioni", "official": false, "oembed_ok": true},
+        {"videoId": "1807wXbp62M", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": null},
+        {"videoId": "xeCXPa3KC1w", "channel": "Edmund StAustell", "official": false, "oembed_ok": null}
+      ],
+      "note": "Приоритетная певица правил. Несколько параллельных Topic-загрузок разных переизданий (184–188 с) — при публикации брать одну, предпочтительно с наиболее полными кредитами."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1961",
+      "year_source": "klassik-prisma: «Souzay B / Baldwin / Philips / 1961 / 3'53 / 5»; подтверждено метаданными официальной Topic-загрузки (album «Schubert: Lieder», artist Souzay/Baldwin, release_year 1961) и заголовком фан-ролика W2ydDVrz_rg («Souzay, Baldwin, 1961»).",
+      "album": "Schubert: Lieder (Philips)",
+      "label": "Philips (Universal)",
+      "age_voice": "43 года (р. 1918); дайджест: пик 1950-е – середина 1960-х, сохнуть голос начнёт лишь с ~1970. Форма отличная.",
+      "reputation": "Пять баллов klassik-prisma: «ruhig und innig, mit großer Konzentration und Intensität, partnerschaftliche Begleitung»; замечание — тт. 21–24 здесь прочерчены менее ясно, чем в более ранней версии с Бонно.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "yt-dlp метаданные lMrlUVW76dY"
+      ],
+      "youtube": [
+        {"videoId": "lMrlUVW76dY", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "W2ydDVrz_rg", "channel": "Michael Lavocah", "official": false, "oembed_ok": true},
+        {"videoId": "tOHICjKHIcw", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "На Topic-канале Сузе лежит несколько разных записей песни (191/197/238/244 с) — версии с Бонно и Болдуином вперемешку; идентифицированная по метаданным именно как Baldwin/1961 — lMrlUVW76dY."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Jacqueline Bonneau",
+      "rec_year": "1950 или 1954 (klassik-prisma: «~1955»)",
+      "year_source": "ПРОТИВОРЕЧИЕ ИСТОЧНИКОВ. klassik-prisma: «Souzay B / Bonneau / Decca / ~1955». Реестр проекта по дискографии Грея: Decca LXT 2543 / London LLP 245 — сессии 22 и 24.05.1950 с Бонно (Decca West Hampstead, продюсер Culshaw), а сессии 26–27 и 29.04.1954 (Decca LL 1148) — уже с Болдуином. Требуется доисследование трек-листов.",
+      "album": "Decca LXT 2543 / London LLP 245 (?)",
+      "label": "Decca",
+      "age_voice": "32 года (если 1950) — ранний пик, самый свежий тембр; klassik-prisma, впрочем, слышит здесь звук «nicht so frisch», чем в 1961 — аргумент в пользу более поздней даты либо худшего трансфера.",
+      "reputation": "Пять баллов klassik-prisma наравне с версией 1961; отдельно похвалено, что Сузе убедительно собирает тт. 21–24 в одну фразу (то, чего не хватает в версии с Болдуином).",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/youtube/albums/complete-editions.md (Gray: Souzay/Bonneau, 22+24.05.1950)",
+        "planning/youtube/data/d827-nacht-und-traume.mb.json (Souzay/Bonneau, 237 с)"
+      ],
+      "youtube": [
+        {"videoId": "USnAPoFulos", "channel": "Vladimir Stasov", "official": false, "oembed_ok": true}
+      ],
+      "note": "Год не установлен однозначно — по правилам это не блокирует публикацию (допустим формат «1950–55?»), но требует целевого доисследования."
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "℗ 1975 (год сессии не установлен)",
+      "year_source": "klassik-prisma: «Pears T / Britten / Decca / P 1975 / 4'04 / 5» — сам обзор помечает 1975 как год ℗, а не сессии.",
+      "album": "Schubert-рецитал Pears/Britten (Decca)",
+      "label": "Decca",
+      "age_voice": "~64–65 лет (р. 1910). По дайджесту пик — 1950-е–1960-е; klassik-prisma слышит «etwas näselnde Stimme» — характерный поздний признак.",
+      "reputation": "Пять баллов klassik-prisma: «inspirierter Vortrag», громкость с т. 23 спадает, но не интенсивность, «Sänger und Begleiter in bester Partnerschaft». Бриттен за роялем — самостоятельная ценность записи (дайджест: пианист часто решает выбор). Пирс также назван среди тех, кто трактует песню как камерную, приватную.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/research/singers-digest.md (Pears: пик 1950–60-е)"
+      ],
+      "youtube": [
+        {"videoId": "wvK8hh1MplE", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "bNlYuBdh-jU", "channel": "Lieder & Opera Greats", "official": false, "oembed_ok": null},
+        {"videoId": "AZYKXLwL-VY", "channel": "kadoguy", "official": false, "oembed_ok": false}
+      ],
+      "note": "Официальный Topic есть (246 с, близко к 4'04 из обзора). Год сессии требует доисследования по буклету Decca; в плеер по правилам пойдёт «1975» (год издания) либо уточнённый год сессии. Фан-ролик AZYKXLwL-VY даёт oEmbed 401 — не использовать."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Michael Gees",
+      "rec_year": "1992",
+      "year_source": "klassik-prisma: «Prégardien T / Gees / EMI / 1992 / 3'43 / 5». Реестр проекта (planning/youtube/albums.md) содержит карточку «Schubert: Lieder von Abschied und Reise», EMI Electrola/Warner, «1992 по klassik-prisma; ℗ 1996 Warner» — год сессии по буклету не сверен.",
+      "album": "Schubert: Lieder von Abschied und Reise (EMI 7243 5 55007 2; переизд. Virgin 2001, 2006)",
+      "label": "EMI Classics / Warner Classics",
+      "age_voice": "36 лет (р. 1956), внутри пика (~1990–2012); теноровый тембр в оригинальной тональности H-dur — по klassik-prisma именно высокие голоса поют песню без транспозиции.",
+      "reputation": "Пять баллов klassik-prisma и явный фаворит среди современных: «facettenreiches Singen, sehr ruhig und natürlich, Spannung vom ersten bis zum letzten Ton, äußerste stimmliche Disziplin, partnerschaftliche Klavierbegleitung». В реестре проекта этот же альбом отмечен как «единственная современная запись с 5 баллами klassik-prisma» (по D 328). Это оценка независимого рецензента, а не лейбловый пиар.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/youtube/albums.md (карточка Prégardien/Gees, EMI)"
+      ],
+      "youtube": [
+        {"videoId": "uKTdOkd1rWc", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "VC3WtmRF20s", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "uKTdOkd1rWc (230 с) — вероятная сольная версия 1992/EMI (обзор даёт 3'43 = 223 с); VC3WtmRF20s — ДРУГАЯ запись: дуэт отца и сына «Father & Son» (2014, с Julian Prégardien), для топ-5 не подходит. Есть также версия с гитарой (Hoppstock, Signum 1998, klassik-prisma 5) — экзотика, вне фортепианного формата."
+    },
+    {
+      "singer": "Soile Isokoski",
+      "pianist": "Marita Viitasalo",
+      "rec_year": "1993",
+      "year_source": "klassik-prisma: «Isokoski S / Viitasalo / Finlandia/Elatus / 1993 / 3'48 / 5». Discogs API: релиз 8081848 «Soile Isokoski, Franz Schubert — Schubert Lieder», Finlandia Records, 1993, записан в Järvenpää Hall.",
+      "album": "Schubert Lieder (Finlandia; переизд. Elatus/Warner 2003)",
+      "label": "Finlandia Records (позже Warner)",
+      "age_voice": "36 лет (р. 1957), пик 1990-х–2000-х.",
+      "reputation": "Пять баллов klassik-prisma: «helle, perfekt eingesetzte Stimme, sehr konzentriert, aufmerksame Klavierbegleitung». Дайджест отмечает у неё сильные оценки klassik-prisma и по Gretchen.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "Discogs API, release 8081848",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "mXvL9ZUam08", "channel": "Soile Isokoski - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "vH3OlnQe2z8", "channel": "Soile Isokoski - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Дайджест предупреждал, что Finlandia официально на YouTube представлена слабо, — по D 827 это опровергнуто: Topic-канал певицы есть, дубль-загрузка тоже (235 с)."
+    },
+    {
+      "singer": "Edda Moser",
+      "pianist": "Leonard Hokanson",
+      "rec_year": "1983",
+      "year_source": "klassik-prisma: «Moser S / Hokanson / EMI / 1983 / 3'53 / 5».",
+      "album": "Schubert-рецитал EMI (конкретный номер не установлен)",
+      "label": "EMI",
+      "age_voice": "45 лет (р. 1938); зрелая форма, вне лёгкого сопранового амплуа.",
+      "reputation": "Пять баллов klassik-prisma: «sehr ruhig und eindringlich, konzentriert, weniger introvertiert, sehr aufmerksame Begleitung».",
+      "sources": ["http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"],
+      "youtube": [
+        {"videoId": "L0tSakBxqwo", "channel": "Edda Moser - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "В дайджесте певцов карточки Мозер нет — фонд по ней не исследован; при включении в топ-5 нужна отдельная карточка альбома."
+    },
+    {
+      "singer": "Gabriele Fontana",
+      "pianist": "György Fischer",
+      "rec_year": "1982",
+      "year_source": "klassik-prisma: «Fontana S / Fischer, György / Decca / 1982 / 4'12 / 5».",
+      "album": "Schubert-рецитал Decca (конкретный номер не установлен)",
+      "label": "Decca",
+      "age_voice": "Год рождения по дайджесту неизвестен (певицы в фонде нет); на 1982 г. — начало карьеры, свежий голос [не подтверждено источником].",
+      "reputation": "Пять баллов klassik-prisma: «innig, ein langsames Gehen vom ersten bis zum letzten Ton, trotz des langsamen Tempos keine Einbuße an Spannung»; отнесена к «камерной» партии интерпретаторов.",
+      "sources": ["http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"],
+      "youtube": [
+        {"videoId": "QJh-AezBfrI", "channel": "Gabriele Fontana - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Малоизвестное имя вне фонда проекта: высокая оценка одного рецензента без второго независимого подтверждения — включать в топ-5 с осторожностью."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961–62",
+      "year_source": "planning/youtube/albums/female-recitalists.md по Грею: «Ludwig — Schubert Lieder (Columbia SAX 5272 / Angel S 36462, зап. 28–30.11.1961 + 20.02.1962, Abbey Road Studio 1)», пианист Geoffrey Parsons. MusicBrainz подтверждает пару Ludwig/Parsons в D 827; Topic-загрузка идёт по боксу «The Complete Recitals on Warner Classics».",
+      "album": "Schubert Lieder (Columbia SAX 5272) / бокс «The Complete Recitals on Warner Classics»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "33 года (р. 1928), середина пика (~1957–1975) — тот же круг сессий, что дал 5-звёздную Gretchen по klassik-prisma.",
+      "reputation": "В обзоре klassik-prisma по D 827 Людвиг НЕ рассматривается — прямой критической оценки именно этой записи нет. Косвенно: обзор отмечает, что меццо транспонируют песню в A/As-dur, что снижает её эффект («wenn es zu tief transponiert wird, verliert es einen Teil seiner Wirkung»).",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md (Gray: 28–30.11.1961 + 20.02.1962)",
+        "planning/youtube/data/d827-nacht-und-traume.mb.json",
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"
+      ],
+      "youtube": [
+        {"videoId": "SX7aCAzR_ZU", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритетная певица правил, запись существует, официальный Topic есть — но подтверждающей критики по этой песне нет."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1980",
+      "year_source": "klassik-prisma: «Baker M / Parsons / EMI / 1980 / 4'22 / 4». MusicBrainz: три записи Baker/Parsons, D 827, 272–274 с.",
+      "album": "Schubert-рецитал EMI (номер не установлен)",
+      "label": "EMI",
+      "age_voice": "47 лет (р. 1933), поздний пик (по дайджесту ~1965–1982).",
+      "reputation": "klassik-prisma 4: «introvertiert, immer zurückgenommene, teilweise verschattete Stimme», при ещё более медленном темпе песня бы рассыпалась; звук рояля «leicht mulmig».",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/youtube/data/d827-nacht-und-traume.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "YZzbF1OWgjI", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "YyylH11WpUE", "channel": "Donald Collup", "official": false, "oembed_ok": true}
+      ],
+      "note": "Отдельно существует телевизионная запись BBC от 10.03.1965 (фан-загрузка YyylH11WpUE, пианист не указан) — Бейкер в 32 года, на подъёме; дата взята из заголовка загрузки и дискографически НЕ подтверждена."
+    },
+    {
+      "singer": "Karl Erb",
+      "pianist": "Bruno Seidler-Winkler",
+      "rec_year": "1936",
+      "year_source": "klassik-prisma: «Erb T / Seidler-Winkler / EMI / 1936 / 3'03 / 4-5». Согласуется с дайджестом (стороны HMV/Electrola с Seidler-Winkler ~1935–51).",
+      "album": "сторона HMV/Electrola; переизд. Preiser",
+      "label": "HMV / Electrola (EMI)",
+      "age_voice": "59 лет (1877–1958). Далеко за вокальным пиком (~1905–1930) — ценность как документ довоенного стиля (дайджест).",
+      "reputation": "klassik-prisma 4-5: «ungekünstelt bringt Erb das Kleinod zum Vortrag», длинные ноты в концах фраз слегка укорочены, мелкие темповые модификации, рояль «etwas unruhig», смена тональности в тт. 14/15 недоосвещена. Отнесён к «концертной» партии интерпретаторов.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "djOwDRK88ew", "channel": "Karl Erb - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "QvXuUqREQ-8", "channel": "Karl Erb - Topic", "official": true, "oembed_ok": null},
+        {"videoId": "q89Jq20SJSg", "channel": "Ilja Livschakoff", "official": false, "oembed_ok": null}
+      ],
+      "note": "ОСТОРОЖНО с датами фан-загрузок: ролики q89Jq20SJSg и JxODyH7_dOA озаглавлены «1911», что противоречит и klassik-prisma (1936), и дайджесту (записи Эрба с Зайдлер-Винклером ~1935–51). Метаданные загрузок — не источник."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Sebastian Peschko",
+      "rec_year": "1939",
+      "year_source": "klassik-prisma: «Schlusnus B / Peschko / DG/Preiser / 1939 / 3'19 / 4-5». Согласуется с дайджестом (сотни сторон Polydor/DG 1920–40-х с Rupp и Peschko).",
+      "album": "сторона Polydor/DG; переизд. Preiser",
+      "label": "Deutsche Grammophon/Polydor (переизд. Preiser)",
+      "age_voice": "51 год (1888–1952); по дайджесту ровность голоса он держал и в 1940-е.",
+      "reputation": "klassik-prisma 4-5: «ungekünstelt und schlicht, jedoch keineswegs belanglos, stimmliche Disziplin», минус — частые вдохи посреди фраз.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "YuVBO3ZkrJQ", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "AcWBQdwp9aM", "channel": "Lieder Greats", "official": false, "oembed_ok": null}
+      ],
+      "note": "Баритон, поющий песню в транспозиции (по klassik-prisma баритоны идут в A/As-dur)."
+    },
+    {
+      "singer": "Erna Berger",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1949",
+      "year_source": "klassik-prisma: «Berger S / Raucheisen / Membran / 1949 / 3'19 / 4-5» (Membran — переиздание, год относится к записи).",
+      "album": "немецкие радиозаписи с Раухайзеном; переизд. Membran",
+      "label": "Membran (переиздание)",
+      "age_voice": "49 лет (1900–1990) [возраст рассчитан от общеизвестного года рождения, отдельным источником в проекте не подтверждён].",
+      "reputation": "klassik-prisma 4-5: «glockenhelle Stimme, schlicht und eindringlich», вибрато ещё терпимое, портаменто по моде времени. ВАЖНО: рецензент отдельно ругает CD-трансфер («mangelhafte Übertragung auf CD mit ständigen Vorechos!!»), оговаривая, что в оценку это не вошло, — то есть звук доступных изданий плохой.",
+      "sources": ["http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"],
+      "youtube": [
+        {"videoId": "2W5843bRllg", "channel": "Klaus-St. 4", "official": false, "oembed_ok": null}
+      ],
+      "note": "Официальной загрузки песни на «Erna Berger - Topic» не найдено, только фан-ролик с 3 просмотрами. Плюс проблема качества переноса — кандидат слабый по технической части."
+    },
+    {
+      "singer": "Arleen Augér",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1987 (концерт)",
+      "year_source": "klassik-prisma: «Augér S / Baldwin / BBCL / 1987 / 3'58 / 4-5 / live» (BBCL = BBC Legends). MusicBrainz также фиксирует запись Augér/Baldwin, 245 с.",
+      "album": "BBC Legends (концертная запись)",
+      "label": "BBC Legends",
+      "age_voice": "48 лет (1939–1993), внутри позднего пика (1980-е–1991).",
+      "reputation": "klassik-prisma 4-5: хорошая дыхательная техника позволяет длинные фразы, сосредоточенная подача, очень хорошая понятность текста, ясный звук рояля.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/youtube/data/d827-nacht-und-traume.mb.json"
+      ],
+      "youtube": [],
+      "note": "Отдельной загрузки песни на YouTube не найдено (поиск по «Arleen Auger Nacht und Träume» даёт только другие песни)."
+    },
+    {
+      "singer": "Anne Sofie von Otter",
+      "pianist": "Chamber Orchestra of Europe, дир. Claudio Abbado (оркестровка Макса Регера)",
+      "rec_year": "2002 (концерт)",
+      "year_source": "klassik-prisma, отдельный «Nachtrag» к обзору: «von Otter M / Chamber Orchestra of Europe / Abbado / DGG / 2002 / 3'43 / 4-5 / live». Дайджест относит этот проект к DG-альбому 2003 (Grammy 2004) — то есть 2002 = год концерта, 2003 = издание.",
+      "album": "Schubert: Lieder mit Orchester (DG), live",
+      "label": "Deutsche Grammophon",
+      "age_voice": "47 лет (р. 1955), внутри пика (~1988–2010).",
+      "reputation": "klassik-prisma 4-5. Дайджест называет её оркестровую Gretchen (Регер) «эталоном оркестровой версии» из того же проекта.",
+      "sources": [
+        "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "2wHoPUEU6-w", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "KhDMhCvbOp8", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": null},
+        {"videoId": "O6m9x8Hnvxo", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Не фортепианная версия: по правилам name был бы «von Otter — Abbado». Ставит вопрос о жанровой однородности пятёрки — для интимной ночной песни оркестровая версия Регера концептуально спорна."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2022 (год издания; сессия не установлена)",
+      "year_source": "MusicBrainz: «Samuel Hasselhorn, Joseph Middleton — Nacht und Träume, D. 827» (246 с). Discogs API: релиз 31433147 «Schubert / Samuel Hasselhorn / Joseph Middleton — Glaube, Hoffnung, Liebe», Harmonia Mundi, 2022. Хронометраж Topic-загрузки (246 с) и видео harmonia mundi (247 с) совпадает с MB.",
+      "album": "Glaube, Hoffnung, Liebe (harmonia mundi)",
+      "label": "harmonia mundi",
+      "age_voice": "32 года (р. 1990), ранняя зрелость.",
+      "reputation": "Оценок именно этой записи в найденных обзорах нет (klassik-prisma обновлялся в 2010 г.). Певец в целом отмечен премиями за проект «Schubert 200» (Diapason d'or года за Müllerin 2023, Preis der deutschen Schallplattenkritik за «Licht und Schatten» 2024) — но это не оценка данной записи, и по правилу о скепсисе к пиару современных её нельзя переносить.",
+      "sources": [
+        "planning/youtube/data/d827-nacht-und-traume.mb.json",
+        "Discogs API, release 31433147",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "zd8a4l-mUWs", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "0y2oXWoz4IQ", "channel": "harmonia mundi music", "official": true, "oembed_ok": true}
+      ],
+      "note": "Лучший кандидат на слот «не ранее 2015 года»: официальное видео лейбла, официальный Topic, документированный альбом. ВНИМАНИЕ на пианиста: у «Schubert 200» пианист Ammiel Bushakevitz, а здесь по MB и Discogs — Joseph Middleton (альбом 2022 г., вне серии)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Alexander Schmalcz",
+      "rec_year": "не установлен (изд. 2011)",
+      "year_source": "planning/youtube/albums/complete-editions.md: «Goerne — Vol. 5 „Nacht und Träume“ (HMC 902063, зап. IX.2008? (заметка Discogs совпадает с т. 3 — возможен перенос, сверить по буклету); изд. 2011)», пианист Alexander Schmalcz (Discogs).",
+      "album": "Matthias Goerne Schubert Edition, Vol. 5 «Nacht und Träume» (HMC 902063)",
+      "label": "harmonia mundi",
+      "age_voice": "~41–44 года (р. 1967), внутри пика (~1997–2015).",
+      "reputation": "Отдельных критических оценок этой записи не найдено; klassik-prisma её не рассматривает. Дайджест: самый записываемый Schubert-баритон поколения — но это охват, а не оценка.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md",
+        "planning/youtube/data/d827-nacht-und-traume.yt.json"
+      ],
+      "youtube": [
+        {"videoId": "-tRALVUrqy8", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Z0i9zo9ovDs", "channel": "Figg the Northman", "official": false, "oembed_ok": null}
+      ],
+      "note": "Песня дала название целому тому его свода — то есть внутри проекта Гёрне это программный номер. Год записи требует сверки по буклету."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1996 (сессии февраль–март)",
+      "year_source": "planning/youtube/albums.md: «Schubert: Lieder (Vol. 1) — Bostridge/Drake, EMI Classics, запись II–III.1996, Abbey Road Studio No. 1, издание 1998». MusicBrainz подтверждает пару Bostridge/Drake, D 827, 217 с (совпадает с длительностью загрузки 218 с).",
+      "album": "Schubert: Lieder (Vol. 1) — EMI Classics",
+      "label": "EMI Classics / Warner",
+      "age_voice": "32 года (р. 1964), начало пика (~1995–2010) — до позднейшей манерности, отмеченной в дайджесте.",
+      "reputation": "klassik-prisma эту запись не рассматривает. Дебютный шубертовский рецитал Бостриджа — исторически заметный релиз, но конкретных оценок по D 827 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "planning/youtube/data/d827-nacht-und-traume.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "IRDB_69Wu-Q", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "gQxIUlCHBwk", "channel": "wocomoMUSIC", "official": false, "oembed_ok": null}
+      ],
+      "note": "Есть также джазовая переработка с Brad Mehldau (MB: «Nacht & Träume», 227 с) — вне формата проекта."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1974 (по метаданным Topic — год издания/℗)",
+      "year_source": "yt-dlp метаданные обеих Topic-загрузок: album «Schubert: Lieder», artist Ameling/Baldwin, release_year 1974. Дискографически (Грей/буклет) не сверено; реестр проекта знает у пары Ameling/Baldwin альбом «Songs for Gretchen, Ellen & Suleika» (сессии 1972–75) — вероятная привязка, но НЕ доказана.",
+      "album": "Philips-серия Ameling/Baldwin (вероятно «Songs for Gretchen, Ellen & Suleika», 1974)",
+      "label": "Philips (Universal)",
+      "age_voice": "41 год (р. 1933), внутри пика (~1965–1985); дайджест — самая записываемая шубертианка поколения.",
+      "reputation": "В обзоре klassik-prisma по D 827 Амелинг отсутствует — критической оценки именно этой записи нет.",
+      "sources": [
+        "yt-dlp метаданные xqSTKHDqefI / iM6VHc9B3_Y",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "xqSTKHDqefI", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "iM6VHc9B3_Y", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Две параллельные Topic-загрузки одного трека (231 и 232 с) — при публикации взять одну."
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2017 (сессии 18–21 декабря)",
+      "year_source": "planning/youtube/albums.md: «Alice Coote — Schubert: 21 Songs (Hyperion CDA68169), запись 18–21 декабря 2017, издание май 2022», All Saints' Church, East Finchley.",
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "label": "Hyperion",
+      "age_voice": "49 лет (р. 1968), зрелый пик (~2005–наст.).",
+      "reputation": "Пресса об альбоме в целом (реестр): Gramophone — «with an underlying tension», «doesn't sugar-coat anything»; BBC Music Magazine — «every note is delivered with white-hot sincerity». Отдельной оценки D 827 нет.",
+      "sources": ["planning/youtube/albums.md", "planning/youtube/data/d827-nacht-und-traume.mb.json"],
+      "youtube": [],
+      "note": "ПРОБЛЕМА ФОРМАТА: в издании Hyperion песня разбита на ДВА трека по строфам (MusicBrainz: 133 с и 108 с) — для плеера непригодно без склейки. Отдельной загрузки не найдено."
+    },
+    {
+      "singer": "Carolyn Sampson",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2017",
+      "year_source": "planning/research/singers-digest.md: «A Soprano's Schubertiade» (BIS, зап. 2017, Middleton). MusicBrainz подтверждает пару Sampson/Middleton, D 827, 265 с.",
+      "album": "A Soprano's Schubertiade (BIS)",
+      "label": "BIS",
+      "age_voice": "43 года (р. 1974), внутри пика (~2010–наст.).",
+      "reputation": "Оценок именно D 827 не найдено; klassik-prisma альбом не покрывает (обзор 2010 г.).",
+      "sources": ["planning/research/singers-digest.md", "planning/youtube/data/d827-nacht-und-traume.mb.json"],
+      "youtube": [],
+      "note": "Резервный современный кандидат; ID не искал прицельно."
+    },
+    {
+      "singer": "Barbara Hendricks",
+      "pianist": "Radu Lupu",
+      "rec_year": "1985",
+      "year_source": "klassik-prisma: «Hendricks S / Lupu / EMI / 1985 / 3'11 / 3-4». Согласуется с дайджестом (два тома EMI с Раду Лупу, 1985 и 1993).",
+      "album": "Schubert-рецитал EMI, том 1",
+      "label": "EMI / Warner",
+      "age_voice": "37 лет (р. 1948), внутри пика.",
+      "reputation": "Самая низкая оценка обзора (3-4): голос меньшего калибра, искусственно увеличенный вибрато и реверберацией, на длинных нотах «flattert die Stimme», произношение неидиоматичное; хвалят только аккомпанемент.",
+      "sources": ["http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"],
+      "youtube": [],
+      "note": "Прецедент «слабая запись у известного имени» — в топ-5 не годится, зафиксировано как отрицательный результат."
+    },
+    {
+      "singer": "прочие учтённые, но непроходные (одной строкой)",
+      "pianist": "—",
+      "rec_year": "—",
+      "year_source": "все данные — klassik-prisma, таблица D 827",
+      "album": "—",
+      "label": "—",
+      "age_voice": "—",
+      "reputation": "Grace Bumbry / Sebastian Peschko (DGG 1962) — 4, «mehr an der Oberfläche des Textes»; Vesselina Kasarova / Friedrich Haider (RCA 1999) — 4, слишком много вдохов посреди фраз, пианист не отрабатывает смену тональности тт. 14/15, поёт в G-dur; Wolfgang Holzmair / Wyss (Tudor, ℗1991) — 4, «kernige Stimme, etwas schwer», меньшее напряжение, рояль «etwas brav», B-dur; Christoph Prégardien / Tilman Hoppstock (Signum 1998) — 5, но с ГИТАРОЙ, вне фортепианного формата проекта.",
+      "sources": ["http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm"],
+      "youtube": [],
+      "note": "Сводная строка, чтобы зафиксировать полный охват обзора klassik-prisma."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "НЕТ. (1) MusicBrainz: в работе D 827 (id 20cbe08a-94cb-4181-92ab-86c41634e079, 65 записей) Квастхофа нет; целевой запрос recording:\"Nacht und Träume\" AND artist:Quasthoff → count 0. (2) Discogs API, релиз 9880429 «Widmung — Romantische Lieder» (DG, 2004) — главный источник его шубертовских номеров вне циклов: полный трек-лист получен, D 827 в нём нет (Frühlingsglaube D 686, Heidenröslein D 257, Die Forelle D 550, Im Frühling D 882, Auf der Bruck D 853, Im Abendrot D 799, Ungeduld). (3) Реестр проекта: Goethe-Lieder RCA 1993 — гётевская программа, Collin в неё не входит по определению; остальные его шубертовские альбомы — три цикла и оркестровый диск с Аббадо, где эту песню поёт von Otter (klassik-prisma). (4) klassik-prisma в обзоре из «более чем 20 записей» Квастхофа не упоминает. Косвенное объяснение — там же: песню в основном избегают низкие голоса.",
+    "Fischer-Dieskau": "ДА, минимум четыре версии. EMI/Moore 1951 (klassik-prisma 5), Orfeo/Moore live 1963 (4-5), DG/Moore 1969 (4-5, с текстовой ошибкой «holde» вместо «heil'ge» в т. 21), Claves/Höll 1987 (4); плюс не рассмотренная обзором Philips/Brendel (Topic-метаданные: 1983) и упомянутая в MusicBrainz запись с Рихтером (181 с). Источники: http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm; d827-nacht-und-traume.mb.json.",
+    "Schwarzkopf": "НЕ НАЙДЕНО. В обзоре klassik-prisma (>20 записей, включая почти всех её современниц — Seefried, Berger, E. Schumann) Шварцкопф отсутствует; в MusicBrainz среди 65 записей работы её нет. Проверены карточки её альбомов в реестре проекта (Columbia 33CX 1040 с Эдвином Фишером 4–7.10.1952; Song Book Vol. 1 и Vol. 2 с Муром и Парсонсом; «Songs I Love» 1970–73; Orfeo-лайв с Муром) — D 827 ни в одной из зафиксированных программ не значится. Вывод отрицательный, но не абсолютный: полные трек-листы Warner-бокса «Complete Recitals 1952–1974» построчно не сверялись.",
+    "Hotter": "НЕ НАЙДЕНО. В klassik-prisma и MusicBrainz отсутствует. Реестр проекта содержит подробные трек-листы его шубертовских слоёв (радио с Раухайзеном 1942–45; EMI/Moore 1–2.10.1949; Schwanengesang 1954; сессии 3–6.10.1957; Lieder Recital No. 1/No. 2 — Schubert-группа: An die Musik, Ständchen, Abschied, Im Frühling, Der Lindenbaum, Wanderers Nachtlied II) — D 827 нигде. Прямое объяснение в klassik-prisma: «manche ausgewiesenen Liedersänger machen einen Bogen um diese wunderbare Komposition, vor allem solche mit tiefer Stimmlage».",
+    "Anders": "ДА. Telefunken 1947, пианист Hubert Giesen, klassik-prisma — 5 баллов («wie ein inbrünstig gesungenes Gebet»). Официальный Topic-канал «Peter Anders» содержит трек, помеченный «(1947)» (videoId 4wtyTUVwdnU), и второй трансфер (9igzJnB7Oos). Источник: http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm.",
+    "E. Schumann": "ДА. HMV DB 3184 (78 об/мин) с Джеральдом Муром, 1937 — по реестру проекта дата установлена по матрицам 2EA 4849/4850 (ок. 5–15 марта 1937); на пластинке 4 песни, включая Nacht und Träume. klassik-prisma независимо датирует 1937 и ставит 4 балла (много промежуточных вдохов, первая нота не сразу отзывается). Переиздания: Naxos Historical 8.110731, Warner «Icon». Источники: planning/youtube/albums.md; http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm.",
+    "Ludwig": "ДА. MusicBrainz: Christa Ludwig / Geoffrey Parsons, D 827; официальный Topic-трек SX7aCAzR_ZU идёт по боксу «The Complete Recitals on Warner Classics». Год — по дискографии Грея (реестр проекта): сессии Schubert-Lieder Ludwig/Parsons 28–30.11.1961 + 20.02.1962, Abbey Road Studio 1. Критической оценки именно этой записи не найдено: klassik-prisma её не рассматривает.",
+    "Popp": "НЕ НАЙДЕНО. В klassik-prisma отсутствует; среди 65 записей работы в MusicBrainz её нет. Её шубертовский фонд по дайджесту — рецитал EMI 1983 (Gage) и лайв BBC Legends 1982 (Parsons); подтверждения наличия D 827 в этих программах не найдено. Отрицательный результат зафиксирован, абсолютным не считается (полные трек-листы не сверялись)."
+  },
+  "albums_facts": [
+    {
+      "album": "Columbia LB 106 (78 об/мин) — Seefried/Moore",
+      "singer": "Irmgard Seefried",
+      "year": "19.04.1948 (сессия)",
+      "label": "Columbia (EMI)",
+      "facts": "Точная дата сессии — по дискографии Майкла Грея (зафиксирована в planning/youtube/albums/female-recitalists.md): на той же сессии с Муром записана Auf dem Wasser zu singen. Ранний пик певицы. klassik-prisma ставит записи высший балл и открывает ею женский список.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DB 3184 / Naxos Historical 8.110731 / Warner «Icon» — E. Schumann/Moore",
+      "singer": "Elisabeth Schumann",
+      "year": "1937 (ок. 5–15 марта, по матрицам 2EA 4849/4850)",
+      "label": "HMV / EMI",
+      "facts": "Карточка уже есть в реестре (по D 162): четыре песни на пластинке — Nähe des Geliebten, Lachen und Weinen, Nacht und Träume, Seligkeit. Настоящая песня добавляется к покрытию карточки.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Telefunken-сессия 1947 — Anders/Giesen",
+      "singer": "Peter Anders",
+      "year": "1947",
+      "label": "Telefunken",
+      "facts": "НОВАЯ позиция для реестра. Пианист Hubert Giesen (не Раухайзен и не Вайссенборн, известные по циклам Андерса, — то есть отдельный слой его дискографии). Год — klassik-prisma; подтверждается заголовком официальной Topic-загрузки. Дискографический номер пластинки требует установления.",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "Schubert: Lieder (Philips) — Souzay/Baldwin",
+      "singer": "Gérard Souzay",
+      "year": "1961",
+      "label": "Philips (Universal)",
+      "facts": "НОВАЯ позиция: в реестре у пары Souzay/Baldwin числились Decca 1954, Philips «Der Musensohn» 1967 и Philips ℗1967, но не альбом 1961 года. Год подтверждён двумя независимо: klassik-prisma и метаданные Topic (release_year 1961), плюс заголовок фан-ролика.",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "Schubert Lieder (Finlandia Records) — Isokoski/Viitasalo",
+      "singer": "Soile Isokoski",
+      "year": "1993",
+      "label": "Finlandia Records (переизд. Elatus/Warner, 2003)",
+      "facts": "Discogs API, релиз 8081848: Finlandia Records / Fazer Music, 1993, записан в Järvenpää Hall. Переиздание — Elatus 2003 (Discogs 14727603). klassik-prisma — 5 баллов. Вопреки дайджесту, официальный Topic-канал певицы на YouTube есть.",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "Schubert: Lieder von Abschied und Reise (EMI) — Prégardien/Gees",
+      "singer": "Christoph Prégardien",
+      "year": "1992 (по klassik-prisma); ℗ 1996 Warner",
+      "label": "EMI Classics / Warner",
+      "facts": "Карточка уже в реестре (по D 328, D 224): «единственная современная запись с 5 баллами klassik-prisma». D 827 добавляется к её покрытию. Год сессии по буклету по-прежнему не сверен.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Matthias Goerne Schubert Edition, Vol. 5 «Nacht und Träume» (HMC 902063)",
+      "singer": "Matthias Goerne",
+      "year": "изд. 2011 (сессия IX.2008? — заметка Discogs подозрительно совпадает с т. 3)",
+      "label": "harmonia mundi",
+      "facts": "Пианист Alexander Schmalcz. Песня дала название тому. Уже есть в albums/complete-editions.md; год записи требует сверки по буклету.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Glaube, Hoffnung, Liebe (harmonia mundi) — Hasselhorn/Middleton",
+      "singer": "Samuel Hasselhorn",
+      "year": "2022 (издание)",
+      "label": "harmonia mundi",
+      "facts": "НОВАЯ карточка. Discogs 31433147 (Harmonia Mundi, 2022), пианист Joseph Middleton; MusicBrainz подтверждает пару в D 827. Отличать от серии «Schubert 200» того же певца, где пианист Ammiel Bushakevitz (Müllerin 2023, «Licht und Schatten» 2024, «Hoffnung 1826» — Discogs 37546023, 2026).",
+      "covers_more_pilot_songs": null
+    },
+    {
+      "album": "Schubert: 21 Songs (Hyperion CDA68169) — Coote/Drake",
+      "singer": "Alice Coote",
+      "year": "18–21.12.2017 (сессии), изд. V.2022",
+      "label": "Hyperion",
+      "facts": "Карточка в реестре. Особенность издания — дробление песен на строфные треки: у D 827 в MusicBrainz два трека (133 с и 108 с), как и у D 259. Для плеера непригодно без склейки.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Hyperion Schubert Edition (Graham Johnson) — тома с D 827",
+      "singer": "Ann Murray (Vol. 3?), Felicity Lott (Vol. 19?)",
+      "year": "XI.1988 (Vol. 3) / VII.1992 (Vol. 19)",
+      "label": "Hyperion",
+      "facts": "MusicBrainz даёт по D 827 записи «Ann Murray, Graham Johnson» (286 с) и «Felicity Lott, Graham Johnson» (259 с). По albums/complete-editions.md Murray поёт в Vol. 3 «Schubert & his Friends I» (CDJ33003, зап. XI.1988), Lott — в Vol. 19 «Songs about flowers & nature» (CDJ33019, зап. VII.1992). Привязка именно D 827 к этим томам ВЫВЕДЕНА, а не подтверждена (страницу hyperion-records по D 827 открыть не удалось). Отдельно MusicBrainz даёт Sarah Walker / Roger Vignoles (244 с) — это НЕ Hyperion-издание (там пианист Джонсон), хотя Walker пела в Vol. 8 «Schubert & the Nocturne II» (зап. V.1989) — тематически самом подходящем для этой песни томе.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition — Brigitte Geller / Ulrich Eisenlohr",
+      "singer": "Brigitte Geller",
+      "year": "не установлен",
+      "label": "Naxos",
+      "facts": "MusicBrainz: «Brigitte Geller, Ulrich Eisenlohr — Night and Dreams» (222 с) — том DSLE, покрывающий D 827. Том и год не установлены. Значение — полнота свода, не художественный ориентир.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "http://www.klassik-prisma.de/Nacht%20und%20Traeume.htm — Bernd Stremmel, сравнительный обзор D 827 («mehr als 20 Aufnahmen»), выложен 29.08.2010: таблица «певец / голос / пианист / лейбл / год / хронометраж / балл» с развёрнутым комментарием по каждой записи + аналитическое послесловие (тональность H-dur, средний сдвиг в G-dur; транспозиции меццо и баритонов в A/As-dur, Kasarova в G-dur, Holzmair в B-dur; разделение интерпретаторов на «камерных» — Seefried, Pears, Souzay, Prégardien, Fontana — и «концертных» — Erb, Anders, Berger, Bumbry, Hendricks; отдельный Nachtrag об оркестровой версии Регера у von Otter/Abbado).",
+    "http://www.klassik-prisma.de/Schubert.htm — индекс шубертовских обзоров того же автора (точка входа).",
+    "Gramophone / BBC Music Magazine — прямых обзоров D 827 не найдено; цитаты об альбоме Coote/Drake (Hyperion CDA68169) взяты из карточки реестра проекта (planning/youtube/albums.md).",
+    "hyperion-records.co.uk — страницу песни D 827 и заметки Грэма Джонсона получить не удалось (dc.asp и search.asp вернули шаблон/404); Hyperion-тома реконструированы по MusicBrainz + albums/complete-editions.md."
+  ],
+  "negatives": [
+    "Квастхоф песню не записывал: MusicBrainz count 0; трек-лист DG «Widmung — Romantische Lieder» (Discogs 9880429, 2004) получен полностью — D 827 отсутствует. Значит, слот №1 иерархии приоритетов в этой песне пуст.",
+    "Шварцкопф: записи не найдено ни в klassik-prisma (обзор покрывает её современниц), ни в MusicBrainz, ни в карточках её альбомов в реестре. Слот №3 иерархии, вероятно, тоже пуст.",
+    "Хоттер: записи не найдено; klassik-prisma прямо пишет, что песню обходят стороной прежде всего низкие голоса.",
+    "Попп: записи не найдено ни в klassik-prisma, ни в MusicBrainz.",
+    "Ludwig, Ameling, Bostridge, Goerne, Hasselhorn, Sampson, Fleming, Te Kanawa, Battle, Horne, Price, Gedda, Jaroussky, Garanča, Konradi — записи существуют, но НИ ОДНОЙ критической оценки именно этих исполнений D 827 в найденных источниках нет (обзор klassik-prisma закрыт 2010 годом и их не покрывает). По правилу о скепсисе к пиару современных их нельзя продвигать на репутации альбомов в целом.",
+    "Hendricks/Lupu (EMI 1985) — 3-4 балла, самая низкая оценка обзора: прецедент отсева известного имени по качеству.",
+    "Erna Berger (1949): оценка 4-5, но рецензент фиксирует брак CD-переноса («ständige Vorechos»); официальной загрузки не найдено.",
+    "Метаданные YouTube по Карлу Эрбу врут: фан-загрузки датируют его запись 1911 годом, тогда как klassik-prisma даёт 1936, а дайджест — сессии с Зайдлер-Винклером ~1935–51.",
+    "Записи Augér/Baldwin (BBC Legends 1987), Fischer-Dieskau/Moore live 1963 (Orfeo), Fischer-Dieskau/Höll 1987, Coote/Drake (Hyperion, разбита на два трека), Sampson/Middleton (BIS 2017) на YouTube отдельным треком не найдены.",
+    "Souzay/Bonneau: год не установлен — klassik-prisma «~1955» против дискографии Грея (сессии с Бонно 22+24.05.1950; в 1954 г. пианистом уже был Болдуин). Требуется целевое доисследование.",
+    "Fischer-Dieskau/Moore 1951 — год взят только из таблицы klassik-prisma, дискографически не сверен; официальной загрузки этой версии нет, только фан-канал.",
+    "Существуют инструментальные переложения (виолончель: Maisky/Hovora, Soltani/Pilsan, Queyras/Tharaud, Harrell/Canino; хор: Accentus/Equilbey; ансамбль: Piau/Ensemble Contraste) и джазовая версия Bostridge/Mehldau — все вне формата «голос + фортепиано» и в кандидаты не берутся, хотя по просмотрам на YouTube они конкурентны."
+  ]
+}

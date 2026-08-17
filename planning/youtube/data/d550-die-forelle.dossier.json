@@ -1,0 +1,691 @@
+{
+  "d": "550",
+  "title": "Die Forelle",
+  "tier": "famous",
+  "method_note": "WebSearch в этой сессии был исчерпан (200/200) до начала работы; исследование велось через WebFetch (klassik-prisma, hyperion-records), Discogs API (curl), MusicBrainz work cb37b29c-a975-3431-813f-9eea6519652d (114 записей), реестр альбомов проекта (planning/youtube/albums.md, albums/*.md), дайджест певцов и метаданные официальных Topic/лейбловых загрузок (℗-строки и кредиты). Поиск по classical-discography.org (Michael Gray) в этот раз недоступен: форма search2.php отдаёт HTTP 500 на GET и POST (проверено с cookie-jar и Referer) — исторические даты, где не было опоры в реестре проекта, оставлены с явной пометкой неустановленности. yt-dlp: поиск (ytsearch) работал, покадровая выгрузка метаданных к концу сессии стала отдавать 429 / «Sign in to confirm you're not a bot», поэтому часть карточек не имеет ℗-строки.",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Justus Zeyen",
+      "rec_year": "2003",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md): «Widmung – Romantische Lieder / A Romantic Songbook», сессии ноябрь 2003, Bavaria Musikstudios, Мюнхен; DG 0289 474 5002. Подтверждается ℗-строкой официального Topic-трека bHyLGvZsLmY: «℗ 2004 Deutsche Grammophon GmbH, Berlin», альбом «Thomas Quasthoff - A Romantic Songbook», продюсер Christopher Alder, тонмейстер Oliver Rogalla von Heyden.",
+      "album": "Widmung – Romantische Lieder / A Romantic Songbook (DG 474 500-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 1959). По дайджесту пик Квастхофа ~1993–2007 — запись сделана в середине пика, за 8 лет до ухода из классического пения (2012). Голос в полной силе, нижний регистр ровнее, чем на раннем RCA-цикле 1993 (где klassik-prisma отмечал шершавость низа).",
+      "reputation": "Прямых сравнительных рецензий именно на D 550 в проверенных источниках не найдено (см. negatives). Альбом — единственный источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов; в проекте уже используется по D 799, D 853, D 257. Это ЕДИНСТВЕННАЯ известная студийная Die Forelle Квастхофа — по правилам он высший приоритет.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Thomas Quasthoff — Widmung – Romantische Lieder / A Romantic Songbook (DG, 2003 сессии / 2004 издание)»",
+        "Метаданные официального Topic-трека bHyLGvZsLmY (Universal Music Group, ℗ 2004 DG)",
+        "MusicBrainz work cb37b29c-a975-3431-813f-9eea6519652d: запись «Thomas Quasthoff, Justus Zeyen — Die Forelle, D 550», 131 с"
+      ],
+      "youtube": [
+        {"videoId": "bHyLGvZsLmY", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритет №1 по правилам. Год записи документирован реестром проекта (сессии XI.2003), поэтому в плеер — 2003, а не ℗-2004."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "DG «Sämtliche Lieder», сессии 1966–1972, Ufa-Ton-Studio Berlin; в проекте принята сквозная конвенция года 1969 для всех песен свода (planning/youtube/albums/complete-editions.md). Подтверждается ℗-строкой Topic-трека JDmfCE57R7Q: «℗ 1969 Deutsche Grammophon GmbH, Berlin», продюсеры Otto Gerdes / Rainer Brock / Hans Ritter.",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD; LP-своды 2720 006 / 2720 022 / 2720 059)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 1925). Конец большого пика (по дайджесту ~1951–1972): тон ещё полный, техника на максимуме; сухость появится с середины 1970-х.",
+      "reputation": "Свод DG/Moore — базовая точка отсчёта для любой мужской песни Шуберта (реестр проекта). Сравнительного обзора именно D 550 не найдено.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md — «Fischer-Dieskau / Moore — Schubert: Sämtliche Lieder (DG, зап. 1966–1972)», конвенция года 1969",
+        "Метаданные Topic-трека JDmfCE57R7Q (℗ 1969 DG)",
+        "MusicBrainz: несколько записей «Dietrich Fischer-Dieskau, Gerald Moore — Die Forelle»"
+      ],
+      "youtube": [
+        {"videoId": "JDmfCE57R7Q", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритет №2. У ФД по D 550 минимум две студийные версии — DG-свод и более ранняя EMI/Electrola (см. следующую карточку); по правилу «при прочих равных — более ранняя» EMI-версия имеет фору."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1965 (℗)",
+      "year_source": "℗-строка официального Topic-трека CdOQN0cNjmM (Warner Classics): «℗ A Warner Classics release, ℗ 1965, 1990 Parlophone Records Limited»; продюсеры Christfried Bickenbach и Gerd Berg (кредиты EMI Electrola). Дата сессии в дискографиях не проверена (Gray недоступен) — год взят по ℗.",
+      "album": "серия Electrola «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert»; на YouTube — сборник Warner «Die Forelle: Die schönsten Schubert-Lieder»",
+      "label": "EMI Electrola / Warner Classics",
+      "age_voice": "≈40 лет (р. 1925). Самая сердцевина пика; голос свежее и легче, чем в своде DG.",
+      "reputation": "Самая слушаемая версия песни на YouTube вообще: фан-загрузка NF9DrUXowBo (канал FiDiTanzer528) — 5,7 млн просмотров; официальная Warner-загрузка CdOQN0cNjmM — 363 тыс. Прямых сравнительных рецензий на D 550 не найдено.",
+      "sources": [
+        "Метаданные Topic-трека CdOQN0cNjmM (Warner Classics, ℗ 1965/1990 Parlophone)",
+        "Discogs: серия Electrola «Dietrich Fischer-Dieskau Singt Lieder Von Franz Schubert, 2./8./9. Folge» (SME 91 418, SME 91419, 1C 063-00 292 и др.)"
+      ],
+      "youtube": [
+        {"videoId": "CdOQN0cNjmM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "NF9DrUXowBo", "channel": "FiDiTanzer528", "official": false, "oembed_ok": true}
+      ],
+      "note": "Точный год сессии не установлен (только ℗ 1965). Для плеера при выборе этой версии корректно ставить «1965»."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966 (издание; сессии, вероятно, 1965)",
+      "year_source": "Discogs release 7538580: «Elisabeth Schwarzkopf, Gerald Moore — The Elisabeth Schwarzkopf Song Book», Columbia SAX 5268, 1966; в треклисте A3 — Die Forelle. ℗-строки Topic-треков: «℗ A Warner Classics release, ℗ 1966, 1990/2004/2015 Parlophone Records Limited». Фан-загрузка датирует сессию 1965 годом (lhRFtev-iTA) — дискографически НЕ подтверждено, метаданные загрузок источником не считаются.",
+      "album": "The Elisabeth Schwarzkopf Song Book (Columbia SAX 5268; переизд. «Schubert, Schumann & Strauss: Lieder», «Schubert: Lieder», EMI/Warner)",
+      "label": "Columbia (EMI) / Warner Classics",
+      "age_voice": "50–51 год (р. 1915). По дайджесту пик 1948–1964 — запись на самой границе пика: инструмент ещё полностью управляем, характерная детализация фразы на максимуме, но свежести ранних 78-х уже нет.",
+      "reputation": "Топ-1 среди женщин по правилам проекта. Сравнительного обзора D 550 нет; косвенно — Song Book входит в Warner-бокс «Complete Recitals 1952–1974», опорный для проекта.",
+      "sources": [
+        "Discogs release 7538580 (Columbia SAX 5268, 1966; треклист с Die Forelle)",
+        "Метаданные Topic-треков OxcGwzrf2Aw, bROzHU9WKVU, 4XoPpUtFmrM (℗ 1966 Parlophone)",
+        "planning/research/singers-digest.md — карточка Schwarzkopf"
+      ],
+      "youtube": [
+        {"videoId": "OxcGwzrf2Aw", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "bROzHU9WKVU", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "4XoPpUtFmrM", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритет №3. Три Topic-загрузки — один и тот же мастер под разными сборниками; предпочтительна OxcGwzrf2Aw (наибольшее число просмотров среди официальных)."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Karl Hudez",
+      "rec_year": "не установлен",
+      "year_source": "Только вторичные переиздания Regis: Topic-треки v7Rh7MVE-Dk («Elisabeth Schwarzkopf Sings Lieder», ℗ 2010 Regis) и zWIULK1-l4c («Shwarzkopf Sings Schubert Lieder», ℗ 2013 Regis). Первичная дискографическая дата НЕ установлена (Gray недоступен). Венские сессии Шварцкопф с Худецем относятся к концу 1940-х, но конкретной сессии D 550 в проверенных источниках нет.",
+      "album": "переиздания Regis (Elisabeth Schwarzkopf Sings Lieder / Schwarzkopf Sings Schubert Lieder)",
+      "label": "Regis (переиздание; первичный лейбл не установлен)",
+      "age_voice": "Если сессия конца 1940-х — 32–34 года, начало пика: голос заметно свежее и легче, чем в 1966.",
+      "reputation": "Оценок не найдено. Годится как более ранняя альтернатива Song Book при условии доисследования даты.",
+      "sources": [
+        "Метаданные Topic-треков v7Rh7MVE-Dk, zWIULK1-l4c (℗ Regis 2010/2013)"
+      ],
+      "youtube": [
+        {"videoId": "v7Rh7MVE-Dk", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": null},
+        {"videoId": "zWIULK1-l4c", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Требует целевого доисследования даты (правило «хорошая запись приоритетного исполнителя не блокируется неустановленным годом»). При включении — year вида «1946–49?»."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "1945",
+      "year_source": "Реестр проекта (planning/youtube/albums/female-recitalists.md, по дискографии Майкла Грея): поздние HMV-сессии — «Der Vollmond strahlt + Die Forelle, 26.11.1945, DA 1854, пианист Gerald Moore». Подтверждается ℗-строкой Topic-трека ub2IaACiZbc: «℗ 1946 Warner Classics… ремастеринг ℗ 1989», альбом «Icon: Elisabeth Schumann», кредит «Piano: Gerald Moore».",
+      "album": "HMV DA 1854 (78 об.); переизд. «Icon: Elisabeth Schumann» (Warner)",
+      "label": "HMV / Warner Classics",
+      "age_voice": "57 лет (р. 1888). По дайджесту пик — 1920-е–середина 1930-х; в 1945–49 голос постаревший, но стиль эталонный: фразировка, лёгкость, «улыбка» в тоне сохранены.",
+      "reputation": "Шуман — приоритетный исполнитель по правилам и классический эталон именно этого репертуара. Прямых оценок D 550 не найдено. ВАЖНО: у Шуман есть прецедент вранья метаданных архивов (в проекте — «1945» вместо 1936 по Gretchen); здесь дата взята из дискографии Грея через реестр проекта, а не из описания загрузки.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md — «Schumann — поздние HMV-сессии 1945–46 (DA 1852/1854/1864)», источник [Gray]",
+        "Метаданные Topic-трека ub2IaACiZbc (℗ 1946 Warner, Piano: Gerald Moore)"
+      ],
+      "youtube": [
+        {"videoId": "ub2IaACiZbc", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритетная певица. Самая надёжно датированная историческая запись песни в пуле."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "George Reeves",
+      "rec_year": "не установлен (в диапазоне 1927–1938)",
+      "year_source": "Topic-трек CYtcDXNqDWo — альбом Naxos Historical «Schumann, Elisabeth: Schubert Lieder (1927-1945)» (℗ 2002 Naxos), т.е. запись внутри диапазона 1927–1945; Reeves аккомпанировал ей в довоенных HMV-сессиях. Отдельная сессия D 550 с Reeves дискографически НЕ подтверждена. Дополнительно есть загрузка -SUhOEHNk2g («Schubert: Mélodies», Believe Digital / The Restoration Project) — «серый» агрегатор, кредитам и датам не доверять.",
+      "album": "Naxos Historical 8.110731 «Elisabeth Schumann: Schubert Lieder (1927–1945)»",
+      "label": "HMV (оригинал) / Naxos Historical",
+      "age_voice": "При датировке 1930-х — 40–50 лет, вокальный пик: голос свежее, чем в 1945.",
+      "reputation": "Отдельных оценок не найдено; серия Naxos Historical — надёжное переиздание (в отличие от Believe Digital).",
+      "sources": [
+        "Метаданные Topic-трека CYtcDXNqDWo (Naxos, ℗ 2002; название альбома с датировкой 1927–1945)",
+        "MusicBrainz: две записи «Elisabeth Schumann, George Reeves — Die Forelle, D. 550» (109 и 110 с)"
+      ],
+      "youtube": [
+        {"videoId": "CYtcDXNqDWo", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год не установлен — при использовании нужен диапазон со знаком вопроса. Версия с Муром (1945) документирована лучше."
+    },
+    {
+      "singer": "Fritz Wunderlich",
+      "pianist": "Hubert Giesen",
+      "rec_year": "1966 (℗)",
+      "year_source": "℗-строки Topic-треков adtHnlP0Mzo, BcgoTOLnWZU, DPqoz1Kj3mg: «℗ 1966 Deutsche Grammophon GmbH, Berlin»; альбом adtHnlP0Mzo — «Schubert: Die schöne Müllerin; 3 Lieder», т.е. Die Forelle входит в те самые «3 Lieder», прикомплектованные к циклу. По дайджесту сессии свода: ноябрь 1965 / июль 1966 (Giesen).",
+      "album": "Schubert: Die schöne Müllerin; 3 Lieder (DG); переиздания «Fritz Wunderlich sings», «Ich liebe dich»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "35–36 лет (р. 1930), погиб в сентябре 1966. Только пик, спада не было; это одна из последних студийных сессий певца.",
+      "reputation": "Цикл Müllerin с Гизеном — эталон тенорового Шуберта по дайджесту фонда; прилагаемые Lieder наследуют статус издания. Прямых сравнительных рецензий на D 550 не найдено.",
+      "sources": [
+        "Метаданные Topic-треков adtHnlP0Mzo, BcgoTOLnWZU, DPqoz1Kj3mg (℗ 1966 DG)",
+        "planning/research/singers-digest.md — карточка Wunderlich (Müllerin + Lieder, DG, нояб. 1965 / июль 1966, Giesen)"
+      ],
+      "youtube": [
+        {"videoId": "adtHnlP0Mzo", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "DPqoz1Kj3mg", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "BcgoTOLnWZU", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три Topic-загрузки различаются длительностью (145 / 135 / 134 с) — вероятно, разные мастеринги и/или разные дубли; предпочтительна adtHnlP0Mzo как трек с оригинального DG-альбома."
+    },
+    {
+      "singer": "Fritz Wunderlich",
+      "pianist": "Hubert Giesen",
+      "rec_year": "1966 (4 сентября, live)",
+      "year_source": "Discogs release 8944487 «Fritz Wunderlich — The Last Recital / Der Letzte Liederabend» (2003), примечание издания: «A BBC Recording of September 4, 1966». Это последний концерт певца (Эдинбургский фестиваль), за 13 дней до гибели. Topic-трек IO1maxZZvXg помечен «(Live)», ℗ 2003 Universal.",
+      "album": "Fritz Wunderlich — Der letzte Liederabend / The Last Recital (Universal/DG, изд. 2003)",
+      "label": "Universal Music Classics & Jazz (запись BBC)",
+      "age_voice": "35 лет; голос в абсолютной форме, живой концерт — свободнее и рискованнее студии.",
+      "reputation": "Издание с самостоятельной легендой (последний вечер Вундерлиха). Прямых рецензий на D 550 не найдено.",
+      "sources": [
+        "Discogs release 8944487 (примечание: BBC recording of September 4, 1966)",
+        "Метаданные Topic-трека IO1maxZZvXg (℗ 2003 Universal, помета Live)"
+      ],
+      "youtube": [
+        {"videoId": "IO1maxZZvXg", "channel": "Fritz Wunderlich - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственная запись песни в пуле с точной документированной датой сессии (4.09.1966)."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1967 (℗)",
+      "year_source": "℗-строки Topic-треков 0wDbpf3Y6Y4 («The Complete Recitals on Warner Classics», ℗ 1967 Parlophone, ремастер 2018) и N4CeRkU8Nj0 («Schubert: 15 Lieder», ℗ 1967/2004 Parlophone). По реестру проекта корпус EMI-сессий Людвиг/Парсонс — 1957–1969, ℗ 1967.",
+      "album": "Schubert: 15 Lieder (EMI); бокс «Christa Ludwig — The Complete Recitals on Warner Classics» (11 CD)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "≈39 лет (р. 1928). Сердцевина пика (~1957–1975): меццо тёмное, ровное, без поздней тяжести Winterreise-1986.",
+      "reputation": "Тот же круг сессий дал 5-звёздную по klassik-prisma Gretchen am Spinnrade — косвенный маркер уровня. Прямых оценок D 550 нет.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Christa Ludwig — Schubert: 15 Lieder / The Complete Recitals on Warner Classics»",
+        "Метаданные Topic-треков 0wDbpf3Y6Y4, N4CeRkU8Nj0 (℗ 1967 Parlophone)",
+        "MusicBrainz: «Christa Ludwig, Geoffrey Parsons — Die Forelle, D. 550», 116 с"
+      ],
+      "youtube": [
+        {"videoId": "0wDbpf3Y6Y4", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "N4CeRkU8Nj0", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритетная певица по правилам (группа «прочие звёзды прошлого»)."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": "1983",
+      "year_source": "Дайджест: рецитал EMI 1983 с Gage. ℗-строка Topic-трека 1u-RIQEEyag: «℗ 1984 Parlophone Records Limited» (альбом-компиляция «The Very Best of Lucia Popp»), кредит «Piano: Irwin Gage». Фан-загрузки последовательно датируют исполнение 1983 годом (Vpe253nlj9w — 129 тыс. просмотров), что согласуется с ℗ 1984.",
+      "album": "рецитал EMI (Schubert-Lieder, 1983); на YouTube — через сборник «The Very Best of Lucia Popp»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "44 года (р. 1939). В пике (~1970–1988); умерла в 54, позднего спада практически нет.",
+      "reputation": "Прямых оценок D 550 нет. Осторожность: в проекте уже есть прецедент отсева Попп по качеству (Gretchen) — включение только после прослушивания.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Popp (рецитал EMI 1983, Gage)",
+        "Метаданные Topic-трека 1u-RIQEEyag (℗ 1984 Parlophone, Piano: Irwin Gage)",
+        "MusicBrainz: «Lucia Popp, Irwin Gage — Die Forelle, D.550», 134 с"
+      ],
+      "youtube": [
+        {"videoId": "1u-RIQEEyag", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритетная певица; квалификационный фильтр качества применять строго."
+    },
+    {
+      "singer": "Gundula Janowitz",
+      "pianist": "Irwin Gage",
+      "rec_year": "1977 (℗)",
+      "year_source": "℗-строка Topic-трека P3-SJXKDU5U: «℗ 1977 Deutsche Grammophon GmbH, Berlin», продюсер Cord Garben, тонмейстер Karl-August Naegler. Дайджест: 2-LP DG с Gage, сессии 1976–77.",
+      "album": "2-LP DG Schubert-Lieder (Janowitz/Gage); на YouTube — через сборник «Best of Schubert»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "≈39–40 лет (р. 1937). Пик ~1965–1980: серебристое, инструментальное сопрано в лучшей форме.",
+      "reputation": "Gretchen из этого же свода — 5 звёзд по klassik-prisma (дайджест), косвенный маркер уровня всего комплекта. Прямых оценок D 550 нет.",
+      "sources": [
+        "Метаданные Topic-трека P3-SJXKDU5U (℗ 1977 DG, продюсер Cord Garben)",
+        "planning/research/singers-digest.md — карточка Janowitz"
+      ],
+      "youtube": [
+        {"videoId": "P3-SJXKDU5U", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальная загрузка малопросматриваемая (≈1 тыс.), но это Topic — стабильность ссылки высокая."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Leonard Hokanson",
+      "rec_year": "1974 (℗)",
+      "year_source": "℗-строка Topic-трека lO_R7S8qjI4: «℗ 1974 Deutsche Grammophon GmbH, Berlin», альбом «Lieder von Franz Schubert — Lied-Edition Vol. 2». ВНИМАНИЕ (реестр проекта, albums/male-recitalists.md): в пилотном реестре этот том приписан DG, тогда как по Discogs серия Lied-Edition — Philips; при публикации лейбл перепроверить.",
+      "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2",
+      "label": "DG (по ℗-строке) / Philips (по Discogs) — расхождение не разрешено",
+      "age_voice": "45 лет (р. 1929). Пик ~1960–1980; голос ещё светлый и подвижный, до отяжеления поздних циклов 1980-х.",
+      "reputation": "Прей — «народный» шубертианец, основатель Шубертиады в Хоэнемсе (1976); Die Forelle — его концертный конёк. Прямых рецензий на эту дорожку не найдено. В MB есть и вторая запись Прея/Хокансона длительностью 196 с — вероятно, концертная с повтором/конферансом.",
+      "sources": [
+        "Метаданные Topic-трека lO_R7S8qjI4 (℗ 1974 DG)",
+        "planning/youtube/albums/male-recitalists.md — карточка «Prey — Philips Lied-Edition», с оговоркой о лейбле",
+        "MusicBrainz: две записи «Hermann Prey, Leonard Hokanson — Die Forelle» (128 и 196 с)"
+      ],
+      "youtube": [
+        {"videoId": "lO_R7S8qjI4", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Лейбл требует уточнения перед публикацией."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Rudolf Jansen",
+      "rec_year": "1986 (℗)",
+      "year_source": "℗-строка Topic-трека mtHc3P2z5bA: «℗ 1986 Universal International Music B.V.», альбом-компиляция «The Artistry of Elly Ameling», продюсер Wilhelm Hellweg, тонмейстер Willem van Leeuwen (команда Philips).",
+      "album": "Philips-рецитал с Rudolf Jansen; на YouTube — через «The Artistry of Elly Ameling»",
+      "label": "Philips / Universal",
+      "age_voice": "≈52–53 года (р. 1933). Конец пика (~1965–1985): тон ещё чистый, но это уже поздний Амелинг.",
+      "reputation": "Амелинг — самая записываемая шубертианка своего поколения (дайджест). Прямых оценок D 550 нет. У неё в MB две записи D 550 с Jansen (134 и 135 с) — возможно, один мастер в двух изданиях.",
+      "sources": [
+        "Метаданные Topic-трека mtHc3P2z5bA (℗ 1986 Universal International, продюсер Wilhelm Hellweg)",
+        "MusicBrainz: «Elly Ameling, Rudolf Jansen — Die Forelle op. 32 D 550»"
+      ],
+      "youtube": [
+        {"videoId": "mtHc3P2z5bA", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть также широко разошедшаяся фан-загрузка Mmm_hcGvQ8k (269 с — с разговором/бисом), для плеера непригодна."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1970 (не верифицировано отдельно)",
+      "year_source": "Дайджест: 2-LP EMI 1970 (Moore/Parsons). ℗-строку Topic-трека wslHGqfks1g получить не удалось (yt-dlp к концу сессии отдавал 429/бот-проверку). MusicBrainz даёт шесть параллельных записей «Dame Janet Baker, Geoffrey Parsons — Die Forelle» (117–126 с) — это переиздания одного мастера.",
+      "album": "EMI 2-LP Schubert-Lieder (Baker/Parsons)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "≈37 лет (р. 1933). Сердцевина пика (~1965–1982).",
+      "reputation": "Диск открывается Gretchen и считается классикой (дайджест). Отдельно на D 550 оценок не найдено. Есть также видеокурьёз yE4-0W8DPmA (Baker с Jacqueline du Pré) — не студийная запись песни.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Baker (2-LP EMI 1970)",
+        "MusicBrainz: шесть записей Baker/Parsons D 550",
+        "oEmbed-проверка wslHGqfks1g (Janet Baker - Topic)"
+      ],
+      "youtube": [
+        {"videoId": "wslHGqfks1g", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год 1970 взят из дайджеста и требует подтверждения буклетом перед публикацией."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Erik Werba",
+      "rec_year": "не установлен (LP DG 136 009 SLPEM; издания Discogs 1958–1969)",
+      "year_source": "Discogs: «Irmgard Seefried Singt Lieder Von Franz Schubert», DG 136 009 SLPEM — карточки с годами 1958, 1964, 1968; плюс «Franz Schubert — Lieder» LPEM 19 164 (1960) и «Lieder von Schubert–Schumann–Brahms» LPEM 19 372 (1962). Какой из этих LP содержит D 550, по треклистам не выверено. Дайджест: Schubert с Werba, DG, середина 1950-х–1962.",
+      "album": "DG-рециталы Seefried/Werba (136 009 SLPEM и др.)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "При датировке конца 1950-х — ≈38–40 лет, пик (конец 1940-х–начало 1960-х).",
+      "reputation": "Фан-загрузка gjNQ3vMQOTI собрала 42 тыс. просмотров — самая слушаемая версия Зефрид. Критических оценок именно D 550 не найдено.",
+      "sources": [
+        "Discogs search: DG 136 009 SLPEM, LPEM 19 164, LPEM 19 372",
+        "planning/research/singers-digest.md — карточка Seefried",
+        "MusicBrainz: «Irmgard Seefried, Erik Werba — Die Forelle D 550», 118 с"
+      ],
+      "youtube": [
+        {"videoId": "TNvAY7I3Zjk", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "KtanQ5Lxd1k", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Две Topic-загрузки разной длительности (118 и 129 с) — возможно, две разные сессии. Требуется доисследование перед публикацией."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Sebastian Peschko",
+      "rec_year": "1943 (по метаданным издания, не по дискографии)",
+      "year_source": "Заголовок официального Topic-трека CzEI-ebGR98: «Die Forelle, D. 550 (Recorded 1943)» — датировка переиздания, дискографически (Gray) НЕ подтверждена в этой сессии. Согласуется с дайджестом: сотни сторон Polydor/DG 1920–40-х с Rupp и Peschko, ровность голоса держалась и в 1940-е.",
+      "album": "78-е Polydor; переизд. Preiser",
+      "label": "Polydor / Preiser",
+      "age_voice": "≈55 лет (р. 1888). За пиком (1920–30-е), но легато и ровность, по дайджесту, сохранялись.",
+      "reputation": "Шлуснус — эталон немецкого лирического баритона довоенной школы. Прямых оценок D 550 не найдено. В MB — две записи Schlusnus/Peschko (155 и 158 с), заметно медленнее всех прочих версий (у большинства 115–140 с).",
+      "sources": [
+        "Заголовок и канал Topic-трека CzEI-ebGR98 (Heinrich Schlusnus - Topic)",
+        "planning/research/singers-digest.md — карточка Schlusnus",
+        "MusicBrainz: две записи Schlusnus/Peschko D 550"
+      ],
+      "youtube": [
+        {"videoId": "CzEI-ebGR98", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "OZA9Y80l6F4", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Год — из метаданных переиздания; по правилам это слабый источник, при публикации ставить «1943?» или доисследовать."
+    },
+    {
+      "singer": "Marian Anderson",
+      "pianist": "Kosti Vehanen",
+      "rec_year": "1936 (по метаданным издания, не по дискографии)",
+      "year_source": "Заголовок официального Topic-трека neCv-aVvB5c: «Die Forelle, D. 550 (Recorded 1936)». Согласуется с дайджестом (ранние версии 1930-х с Vehanen). Дискографически (Gray/RCA-каталог) в этой сессии НЕ подтверждено. Есть и ремастеры 2021 (-vtArk0-BkI, PkiKb-5Pbyk, Ll0MMliEotw) — из свода Sony «Beyond the Music» (15 CD, 2021).",
+      "album": "78-е RCA Victor; свод Sony «Marian Anderson: Beyond the Music» (2021)",
+      "label": "RCA Victor / Sony Classical",
+      "age_voice": "≈39 лет (р. 1897). Пик 1930-х–1940-х: контральто в полной силе.",
+      "reputation": "Фан-загрузка 0VIigoKOvr0 — 24 тыс. просмотров. Отдельных оценок D 550 не найдено; свод Sony 2021 — надёжный источник кредитов.",
+      "sources": [
+        "Заголовки Topic-треков neCv-aVvB5c, -vtArk0-BkI, PkiKb-5Pbyk (Marian Anderson - Topic)",
+        "planning/research/singers-digest.md — карточка Anderson",
+        "MusicBrainz: две записи «Marian Anderson, Kosti Vehanen — Die Forelle»"
+      ],
+      "youtube": [
+        {"videoId": "neCv-aVvB5c", "channel": "Marian Anderson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Редкий тембр (контральто) в этом репертуаре; год требует подтверждения по каталогу Victor."
+    },
+    {
+      "singer": "Elisabeth Grümmer",
+      "pianist": "Gerald Moore",
+      "rec_year": "1958 (не верифицировано отдельно)",
+      "year_source": "Дайджест: LP Schubert/Brahms с Moore, Electrola 1958. ℗-строку Topic-трека O5wbTnGWBT4 получить не удалось (бот-проверка YouTube). MusicBrainz подтверждает состав: «Elisabeth Grümmer, Gerald Moore — Die Forelle, D 550», 136 с.",
+      "album": "Electrola-LP Schubert/Brahms (Grümmer/Moore)",
+      "label": "Electrola (EMI)",
+      "age_voice": "≈47 лет (р. 1911). Конец пика (конец 1940-х–1950-е); тон ещё чистый, светлый.",
+      "reputation": "Lieder-дискография Грюммер компактна, этот LP — её главный шубертовский документ. Оценок D 550 не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Grümmer",
+        "MusicBrainz: «Elisabeth Grümmer, Gerald Moore — Die Forelle, D 550»",
+        "oEmbed-проверка O5wbTnGWBT4"
+      ],
+      "youtube": [
+        {"videoId": "O5wbTnGWBT4", "channel": "Elisabeth Grümmer - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальная загрузка почти без просмотров (108) — но канал Topic, ссылка стабильна."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin / Jacqueline Bonneau (две разные записи)",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz даёт две разные связки: «Gérard Souzay, Dalton Baldwin — Die Forelle, op. 32» (122 с) и «Gérard Souzay, Jacqueline Bonneau — Die Forelle» (118 с). Годы дискографически не установлены; по дайджесту Bonneau — ранние Decca/Philips 1950-х, Baldwin — Philips 1960-х. Метаданные Topic-треков в этой сессии недоступны (429).",
+      "album": "не установлен (Decca/Philips рециталы)",
+      "label": "Decca / Philips",
+      "age_voice": "р. 1918; пик 1950-е–середина 1960-х. Версия с Bonneau (1950-е) — более ранняя и, по правилу «при прочих равных — более ранняя», предпочтительнее.",
+      "reputation": "Сузе — классик французской школы немецкой песни; оценок именно D 550 не найдено.",
+      "sources": [
+        "MusicBrainz work cb37b29c: записи Souzay/Baldwin и Souzay/Bonneau",
+        "planning/research/singers-digest.md — карточка Souzay",
+        "oEmbed-проверка t9SqNAVhyns, 4PmBI6NE5qw (Gérard Souzay - Topic)"
+      ],
+      "youtube": [
+        {"videoId": "t9SqNAVhyns", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "4PmBI6NE5qw", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "На канале Souzay - Topic пять параллельных загрузок D 550 (t9SqNAVhyns, 4PmBI6NE5qw, J0zk6Ij8cas, 1f2sQ5rCb54, 1_KVAqTwGv4) — какая к какой сессии относится, не разобрано."
+    },
+    {
+      "singer": "Jussi Björling",
+      "pianist": "Frederick Schauwecker",
+      "rec_year": "не установлен (1950-е)",
+      "year_source": "MusicBrainz: четыре записи «Jussi Björling, Frederick Schauwecker — Die Forelle» (112–121 с) плюс «Die Forelle (live)». Шаувеккер был его постоянным концертным аккомпаниатором в США в 1950-е. Дискографической даты в этой сессии не установлено.",
+      "album": "не установлен (RCA-рециталы / концертные записи)",
+      "label": "RCA Victor",
+      "age_voice": "р. 1911, ум. 1960. При датировке 1950-ми — 40–49 лет, поздний, но ещё блистательный период.",
+      "reputation": "Бьёрлинг — не шубертианец по призванию; Die Forelle у него — концертный номер. Оценок не найдено. Шесть параллельных Topic-загрузок.",
+      "sources": [
+        "MusicBrainz work cb37b29c: записи Björling/Schauwecker",
+        "oEmbed-проверка i57JMvL_3Ls, i0KMaHAhngU (Jussi Björling - Topic)"
+      ],
+      "youtube": [
+        {"videoId": "i57JMvL_3Ls", "channel": "Jussi Björling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "i0KMaHAhngU", "channel": "Jussi Björling - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Скорее исторический курьёз, чем стилевой эталон; включать только при явном превосходстве на слух."
+    },
+    {
+      "singer": "Edith Mathis",
+      "pianist": "Graham Johnson",
+      "rec_year": "1992 (октябрь)",
+      "year_source": "hyperion-records.co.uk, страница The Hyperion Schubert Edition Vol. 21 (CDJ33021): запись октябрь 1992, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; Die Forelle D 550 входит в программу. Дайджест относит том 21 к 1990-м. MusicBrainz подтверждает связку «Edith Mathis, Graham Johnson — Die Forelle, D. 550» (135 с) — совпадает с длительностью Topic-трека Phlri31djxc (136 с).",
+      "album": "The Hyperion Schubert Edition, Vol. 21 (CDJ33021)",
+      "label": "Hyperion",
+      "age_voice": "≈54 года (р. 1938). Поздний пик; голос суше, чем в 1970-е, но стилистическая выучка максимальная.",
+      "reputation": "Gramophone о диске: «a profoundly satisfying» рецитал, «the musical marriage of the performers seems one made in heaven»; Penguin Guide — «a delectable group of 24 songs written in 1817/18, including a high proportion of charmers»; Classic CD — «a source of endless delight» (цитаты со страницы Hyperion). Единственный кандидат с аннотациями Грэма Джонсона.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021 — даты/место записи, треклист, цитаты Gramophone, Penguin Guide, Classic CD",
+        "MusicBrainz: «Edith Mathis, Graham Johnson — Die Forelle, D. 550»",
+        "oEmbed-проверка Phlri31djxc (Edith Mathis - Topic)"
+      ],
+      "youtube": [
+        {"videoId": "Phlri31djxc", "channel": "Edith Mathis - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "У Матис есть и вторая версия — с Karl Engel (MB, 144 с) и трек «The Trout» (144 с); Topic-трек Phlri31djxc по длительности соответствует версии с Джонсоном (вероятно, но по ℗-строке не подтверждено из-за бот-проверки YouTube)."
+    },
+    {
+      "singer": "Barbara Bonney",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1994 (апрель)",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md и albums/female-recitalists.md): запись апрель 1994, Teldec Studio Berlin; Teldec 4509-90873-2; звукорежиссёр Ulrich Ruscher, продюсер Martin Fouqué. ℗-строка Topic-трека ZNHHeGwwC3Y: «℗ 1994 Warner Music UK Limited».",
+      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)",
+      "label": "Teldec / Warner Classics",
+      "age_voice": "≈38 лет (р. 1956). Начало пика (1990-е–начало 2000-х): светлое, инструментально чистое сопрано.",
+      "reputation": "D 550 вынесена прямо в заглавие альбома — маркер программной значимости песни для издания (замечание реестра проекта). Скепсис к прессе 1990-х применять по правилам; независимых сравнительных оценок D 550 не найдено. Официальная загрузка — 93 тыс. просмотров.",
+      "sources": [
+        "planning/youtube/albums.md — карточка альбома Bonney (запись IV.1994, Teldec Studio Berlin)",
+        "Метаданные Topic-трека ZNHHeGwwC3Y (℗ 1994 Warner Music UK)",
+        "MusicBrainz: «Barbara Bonney, Geoffrey Parsons — Die Forelle, D550, op. 32»"
+      ],
+      "youtube": [
+        {"videoId": "ZNHHeGwwC3Y", "channel": "Barbara Bonney - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Сильнейший кандидат на слот «не ранее 1990». У Бонни есть и вторая, ансамблевая версия с Emanuel Ax / Yo-Yo Ma / Pamela Frank (MB, «The Trout» в трёх частях) — из проекта вокруг Форельного квинтета."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994 (февраль)",
+      "year_source": "Дайджест: «An die Musik» (DG, запись февраль 1994, Martineau; 23 песни). ℗-строку Topic-трека Twp9_JKtKmI получить не удалось (бот-проверка). MusicBrainz подтверждает связку (две записи по 123 с).",
+      "album": "An die Musik (DG)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "≈29 лет (р. 1965). Ранний пик (~1992–2005): голос молодой, крупный, свежий.",
+      "reputation": "Диск — бестселлер (дайджест); Терфель не циклист, репутация в Lieder ниже, чем в опере. Скепсис к пиару 1990-х применять. Оценок D 550 не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Terfel",
+        "MusicBrainz: две записи «Bryn Terfel, Malcolm Martineau — Die Forelle»",
+        "oEmbed-проверка Twp9_JKtKmI"
+      ],
+      "youtube": [
+        {"videoId": "Twp9_JKtKmI", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Альтернатива Бонни на «не ранее 1990» в мужском варианте."
+    },
+    {
+      "singer": "Renée Fleming",
+      "pianist": "Christoph Eschenbach",
+      "rec_year": "1996 (сессии) / 1997 (℗)",
+      "year_source": "Дайджест: The Schubert Album (Decca, запись 1996, Eschenbach). ℗-строка официального трека j8Gno1Gvgwc: «℗ 1997 Decca Music Group Limited», продюсер Michael Haas, тонмейстер John Dunkerley.",
+      "album": "The Schubert Album (Decca) — на YouTube под названием «Schubert: Lieder — Ave Maria; Die Forelle; Heidenröslein; Gretchen am Spinnrade; Der Tod und das Mädchen»",
+      "label": "Decca",
+      "age_voice": "≈37 лет (р. 1959). Начало пика (~1995–2010).",
+      "reputation": "Lieder у Флеминг вторичны относительно оперы (дайджест); пресса 1990-х пиар-нагружена — по правилам применять скепсис. Оценок D 550 не найдено. 40 тыс. просмотров официальной загрузки.",
+      "sources": [
+        "Метаданные официального трека j8Gno1Gvgwc (℗ 1997 Decca, продюсер Michael Haas)",
+        "planning/research/singers-digest.md — карточка Fleming"
+      ],
+      "youtube": [
+        {"videoId": "j8Gno1Gvgwc", "channel": "Renée Fleming - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат второго эшелона среди современных."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1998 (℗)",
+      "year_source": "℗-строка официального трека pznaAzzB_xg: «℗ A Warner Classics release, ℗ 1998 Parlophone Records Limited», альбом «Schubert: Lieder», продюсер John Fraser, инженер Jonathan Allen. Точная дата сессии не установлена.",
+      "album": "Schubert: Lieder (EMI Classics)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "≈34 года (р. 1964). Начало пика (~1995–2010) — до поздней манерности, о которой предупреждает дайджест.",
+      "reputation": "Бостридж — интеллектуальный, «литературный» тип шубертианца; критики расходятся по поводу тембра. Прямых оценок D 550 нет. 67 тыс. просмотров.",
+      "sources": [
+        "Метаданные официального трека pznaAzzB_xg (℗ 1998 Parlophone)",
+        "planning/research/singers-digest.md — карточка Bostridge",
+        "MusicBrainz: две записи Bostridge/Drake (одна с опечаткой «D. 771»)"
+      ],
+      "youtube": [
+        {"videoId": "pznaAzzB_xg", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "2013",
+      "year_source": "Метаданные официального трека z9Hf-O-JHts: альбом «Schubert: Erlkönig», ℗ harmonia mundi, релиз 25.02.2013, пианист Andreas Haefliger. Это том Goerne Schubert Edition (harmonia mundi, 2008–2014). Точная дата сессии не установлена.",
+      "album": "Erlkönig — Goerne Schubert Edition (harmonia mundi)",
+      "label": "harmonia mundi",
+      "age_voice": "≈44 года (р. 1967). Конец основного пика (~1997–2015): тембр густой, тёмный, ровный.",
+      "reputation": "Гёрне — самый записываемый Schubert-баритон поколения (дайджест); Goerne Schubert Edition — крупнейший сольный свод последних десятилетий. Оценок именно D 550 не найдено. Официальная загрузка малопросматриваемая (1,6 тыс.).",
+      "sources": [
+        "Метаданные официального трека z9Hf-O-JHts (harmonia mundi, релиз 2013-02-25)",
+        "MusicBrainz: «Matthias Goerne, Andreas Haefliger — Die Forelle, D. 550», 114 с",
+        "planning/research/singers-digest.md — карточка Goerne"
+      ],
+      "youtube": [
+        {"videoId": "z9Hf-O-JHts", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат на слот «не ранее 2015»? Нет — 2013; ближайшего кандидата 2015+ в пуле не найдено (см. negatives)."
+    },
+    {
+      "singer": "Jonas Kaufmann",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: «Jonas Kaufmann, Helmut Deutsch — Die Forelle, D. 550», 135 с. Альбом и год из метаданных официального канала в этой сессии получить не удалось (бот-проверка YouTube). Дайджест: Kaufmann/Deutsch — линия Lieder-записей певца, Müllerin (Decca 2009), Winterreise (Sony 2014).",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "р. 1969; пик ~2006–2015.",
+      "reputation": "Дайджест прямо предупреждает: специалисты ставят других выше Кауфмана в Шуберте, охват на YouTube максимальный из-за звёздности — классический случай для правила о скепсисе к пиару. 91 тыс. просмотров.",
+      "sources": [
+        "MusicBrainz: запись Kaufmann/Deutsch D 550",
+        "planning/research/singers-digest.md — карточка Kaufmann",
+        "oEmbed-проверка DpZrFaIqr0Y (Jonas Kaufmann - Topic)"
+      ],
+      "youtube": [
+        {"videoId": "DpZrFaIqr0Y", "channel": "Jonas Kaufmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Включать только при реальном превосходстве; год не установлен."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "ДА. «Die Forelle, D. 550» с Justus Zeyen — альбом «Widmung – Romantische Lieder / A Romantic Songbook» (DG 474 500-2), сессии ноябрь 2003, Bavaria Musikstudios, Мюнхен; ℗ 2004 DG. Источники: реестр альбомов проекта (planning/youtube/albums.md), MusicBrainz work cb37b29c, официальный Topic-трек bHyLGvZsLmY (℗ 2004 DG, продюсер Christopher Alder). Единственная известная студийная запись песни у Квастхофа.",
+    "Dietrich Fischer-Dieskau": "ДА, минимум две студийные версии, обе с Gerald Moore: (1) DG «Sämtliche Lieder», ℗ 1969 (Topic-трек JDmfCE57R7Q, продюсеры Otto Gerdes/Rainer Brock/Hans Ritter; конвенция года проекта — 1969); (2) EMI/Electrola, ℗ 1965 (Topic-трек CdOQN0cNjmM, Warner Classics, продюсеры Christfried Bickenbach/Gerd Berg). MusicBrainz даёт шесть параллельных записей ФД/Мура по этой песне. Самая слушаемая версия песни на YouTube вообще — фан-загрузка NF9DrUXowBo (5,7 млн просмотров).",
+    "Elisabeth Schwarzkopf": "ДА, минимум две: (1) с Gerald Moore — «The Elisabeth Schwarzkopf Song Book», Columbia SAX 5268, 1966, Die Forelle трек A3 (Discogs release 7538580; ℗ 1966 Parlophone по Topic-трекам OxcGwzrf2Aw / bROzHU9WKVU / 4XoPpUtFmrM); (2) с Karl Hudez — ранняя венская запись, переиздана Regis (Topic-треки v7Rh7MVE-Dk, zWIULK1-l4c), первичная дата НЕ установлена. MusicBrainz фиксирует связку Schwarzkopf/Moore.",
+    "Hans Hotter": "НЕТ данных о записи. В MusicBrainz work cb37b29c (114 записей) Хоттера нет; целевой поиск по YouTube (yt-dlp «Hotter Forelle», «Hans Hotter Die Forelle Schubert») даёт только его записи ДРУГИХ песен (In der Ferne, Wanderers Nachtlied, Greisengesang, Winterreise с Raucheisen) и посторонние результаты. Согласуется с дайджестом: шубертовское наследие Хоттера — циклы и тёмные Lieder, не жанровая лирика. Отрицательный результат.",
+    "Peter Anders": "НЕТ данных о записи. В MusicBrainz work cb37b29c Андерса нет; поиск по YouTube («Peter Anders Die Forelle Schubert», «Peter Anders Forelle 1943») даёт только Die Post, Frühlingstraum, Rast, Irrlicht, Die Taubenpost, Kriegers Ahnung, Ständchen — то есть циклы и радиозаписи RRG, но не D 550. Отрицательный результат.",
+    "Elisabeth Schumann": "ДА, минимум две: (1) с Gerald Moore — HMV, сессия 26 ноября 1945, диск DA 1854 (дискография Майкла Грея через реестр проекта, planning/youtube/albums/female-recitalists.md); ℗ 1946 Warner, Topic-трек ub2IaACiZbc; (2) с George Reeves — довоенная HMV-сторона, переиздана Naxos Historical «Schubert Lieder (1927–1945)» (Topic-трек CYtcDXNqDWo, ℗ 2002 Naxos), точный год НЕ установлен. Кроме того, реестр фиксирует у неё самую раннюю шубертовскую сторону — Odéon XX 76749, июнь 1919, но это другая песня-позиция и с D 550 не отождествлена.",
+    "Christa Ludwig": "ДА. С Geoffrey Parsons, EMI «Schubert: 15 Lieder», ℗ 1967 (корпус сессий 1957–1969). Источники: MusicBrainz («Christa Ludwig, Geoffrey Parsons — Die Forelle, D. 550», 116 с), Topic-треки 0wDbpf3Y6Y4 (бокс «The Complete Recitals on Warner Classics», ℗ 1967 Parlophone, ремастер 2018) и N4CeRkU8Nj0 (℗ 1967/2004), реестр альбомов проекта.",
+    "Lucia Popp": "ДА. С Irwin Gage, рецитал EMI 1983 (дайджест), ℗ 1984 Parlophone — Topic-трек 1u-RIQEEyag (кредит «Piano: Irwin Gage»); MusicBrainz: «Lucia Popp, Irwin Gage — Die Forelle, D.550», 134 с. Многочисленные фан-загрузки (Vpe253nlj9w, 129 тыс. просмотров) датируют исполнение 1983 годом."
+  },
+  "albums_facts": [
+    {
+      "album": "Widmung – Romantische Lieder / A Romantic Songbook (DG 0289 474 5002)",
+      "singer": "Thomas Quasthoff",
+      "year": "сессии ноябрь 2003, издание 2004",
+      "label": "Deutsche Grammophon",
+      "facts": "Bavaria Musikstudios, Мюнхен; пианист Justus Zeyen; продюсер Christopher Alder, тонмейстер Oliver Rogalla von Heyden, монтаж Dagmar Birwe. Сборный романтический рецитал — главный источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов. Уже в реестре проекта (D 799, D 853, D 257).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессии 1966–1972; конвенция проекта — 1969",
+      "label": "Deutsche Grammophon",
+      "facts": "Gerald Moore; Ufa-Ton-Studio Berlin; все ~400+ «мужских» песен, женские сознательно исключены. LP-своды 2720 006 / 2720 022 / 2720 059. Базовая точка отсчёта для любой мужской песни Шуберта.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Электрола-серия «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert» (на YouTube — сборник «Die Forelle: Die schönsten Schubert-Lieder»)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "℗ 1965",
+      "label": "EMI Electrola / Warner Classics",
+      "facts": "Gerald Moore; продюсеры Christfried Bickenbach и Gerd Berg. Более ранний, чем DG-свод, слой шубертовских записей ФД. На Discogs фиксируются тома «2., 8., 9. Folge» (WALP 532, E 90021, SME 91 418, SME 91419, 1C 063-00 292). Сборник Warner назван прямо по этой песне.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Elisabeth Schwarzkopf Song Book (Columbia SAX 5268)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "издание 1966 (℗ 1966)",
+      "label": "Columbia (EMI) / Warner Classics",
+      "facts": "Gerald Moore; программа Schubert/Schumann/Wolf/Debussy/Rachmaninov + семь номеров из «Italienisches Liederbuch» Вольфа-Феррари; Die Forelle — трек A3. Вкладыш с текстами и переводами. Переиздано как «Schubert, Schumann & Strauss: Lieder», «Schubert: Lieder», «The Elisabeth Schwarzkopf Songbook» (EMI 7243 5 65860 2 4, 1995); входит в Warner-бокс «Complete Recitals 1952–1974». Discogs release 7538580.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DA 1854 (78 об.) / «Icon: Elisabeth Schumann» (Warner)",
+      "singer": "Elisabeth Schumann",
+      "year": "сессия 26 ноября 1945",
+      "label": "HMV / Warner Classics",
+      "facts": "Gerald Moore; та же сессия дала Der Vollmond strahlt. Датировка — по дискографии Майкла Грея через реестр проекта, НЕ по метаданным загрузок (в проекте есть прецедент ошибки метаданных archive.org по этой же певице). ℗ 1946, ремастеринг ℗ 1989.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Die schöne Müllerin; 3 Lieder (DG)",
+      "singer": "Fritz Wunderlich",
+      "year": "℗ 1966 (сессии по дайджесту — ноябрь 1965 / июль 1966)",
+      "label": "Deutsche Grammophon",
+      "facts": "Hubert Giesen; Die Forelle входит в те самые «3 Lieder», приложенные к циклу. Эталон тенорового Шуберта; последние студийные сессии певца (погиб 17 сентября 1966). Переиздания: «Fritz Wunderlich sings», «Ich liebe dich».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Fritz Wunderlich — Der letzte Liederabend / The Last Recital (изд. 2003)",
+      "singer": "Fritz Wunderlich",
+      "year": "концерт 4 сентября 1966",
+      "label": "Universal Music Classics & Jazz (запись BBC)",
+      "facts": "Hubert Giesen; примечание издания Discogs (release 8944487): «A BBC Recording of September 4, 1966», буклет 14 страниц; каталожный номер 9806790. Последний концерт певца, за 13 дней до гибели. Единственная запись песни в пуле с точной документированной датой.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 15 Lieder (EMI) / The Complete Recitals on Warner Classics (11 CD)",
+      "singer": "Christa Ludwig",
+      "year": "℗ 1967 (корпус сессий 1957–1969)",
+      "label": "EMI / Warner Classics",
+      "facts": "Geoffrey Parsons; ремастеринг ℗ 2018 Parlophone. Тот же круг сессий дал 5-звёздную по klassik-prisma Gretchen am Spinnrade. Уже в реестре проекта (D 118, D 839, D 799, D 328).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 21 (CDJ33021)",
+      "singer": "Edith Mathis",
+      "year": "запись октябрь 1992",
+      "label": "Hyperion",
+      "facts": "Graham Johnson; Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; 24 песни 1817/18 годов, включая Die Forelle. Отзывы: Gramophone — «a profoundly satisfying», «the musical marriage of the performers seems one made in heaven»; Penguin Guide — «a delectable group of 24 songs… including a high proportion of charmers»; Classic CD — «a source of endless delight». Единственный кандидат с научными аннотациями Джонсона.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)",
+      "singer": "Barbara Bonney",
+      "year": "запись апрель 1994, Teldec Studio Berlin",
+      "label": "Teldec / Warner Classics",
+      "facts": "Geoffrey Parsons; звукорежиссёр Ulrich Ruscher, продюсер Martin Fouqué; ℗ 1994 Warner Music UK. D 550 вынесена прямо в заглавие альбома. Уже в реестре проекта (D 839, D 257, D 162).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2",
+      "singer": "Hermann Prey",
+      "year": "℗ 1974",
+      "label": "DG по ℗-строке / Philips по Discogs — расхождение не разрешено",
+      "facts": "Leonard Hokanson; продюсеры Christian Lange и Hans Gerhard Lichthorn, инженер Karl-August Naegler. Реестр проекта (albums/male-recitalists.md) прямо предупреждает о расхождении лейбла между пилотным реестром (DG) и Discogs (Philips).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "2-LP DG Schubert-Lieder (Janowitz/Gage); на YouTube — «Best of Schubert»",
+      "singer": "Gundula Janowitz",
+      "year": "℗ 1977 (сессии 1976–77 по дайджесту)",
+      "label": "Deutsche Grammophon",
+      "facts": "Irwin Gage; продюсер Cord Garben, тонмейстер Karl-August Naegler. Gretchen из этого свода — 5 звёзд klassik-prisma.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Schubert Album (Decca)",
+      "singer": "Renée Fleming",
+      "year": "сессии 1996, ℗ 1997",
+      "label": "Decca",
+      "facts": "Christoph Eschenbach; продюсер Michael Haas, тонмейстер John Dunkerley. Программа: Ave Maria, Die Forelle, Heidenröslein, Gretchen am Spinnrade, Der Tod und das Mädchen и др.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (EMI Classics)",
+      "singer": "Ian Bostridge",
+      "year": "℗ 1998",
+      "label": "EMI / Warner Classics",
+      "facts": "Julius Drake; продюсер John Fraser, инженер Jonathan Allen.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Erlkönig — Goerne Schubert Edition (harmonia mundi)",
+      "singer": "Matthias Goerne",
+      "year": "релиз 25 февраля 2013",
+      "label": "harmonia mundi",
+      "facts": "Andreas Haefliger; том 12-частной Goerne Schubert Edition (2008–2014, бокс 2016).",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительного обзора (Vergleich) именно Die Forelle D 550 НЕТ: на индексной странице https://www.klassik-prisma.de/Schubert.htm из вокального Шуберта представлены только D 774, D 965, D 828, D 328, D 118, D 583, D 827 и циклы; из «форельного» — только Forellenquintett D 667 (инструментальный). Проверено WebFetch.",
+    "hyperion-records.co.uk — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021 : The Hyperion Schubert Edition Vol. 21 (Mathis/Johnson, окт. 1992) — единственный найденный источник с редакционными заметками и цитатами прессы (Gramophone, Penguin Guide, Classic CD) по изданию, содержащему D 550.",
+    "Discogs API — https://api.discogs.com/releases/7538580 (Schwarzkopf Song Book, Columbia SAX 5268, 1966, треклист с Die Forelle) и https://api.discogs.com/releases/8944487 (Wunderlich, The Last Recital: «A BBC Recording of September 4, 1966»).",
+    "MusicBrainz work cb37b29c-a975-3431-813f-9eea6519652d «Die Forelle, D. 550» — 114 записей; основной каркас пула исполнителей."
+  ],
+  "negatives": [
+    "WebSearch в сессии был исчерпан до начала работы (200/200), поэтому целенаправленный поиск сравнительных обзоров Gramophone / MusicWeb / BBC Music Magazine / слепых тестов по D 550 провести не удалось. Найденное по прямым URL: сравнительного обзора песни нет на klassik-prisma; иных survey по D 550 не обнаружено.",
+    "Hans Hotter — записи Die Forelle не найдено (MusicBrainz work cb37b29c; целевые поиски yt-dlp). Отрицательный результат.",
+    "Peter Anders — записи Die Forelle не найдено (MusicBrainz; целевые поиски yt-dlp: находятся только другие его шубертовские номера). Отрицательный результат.",
+    "Peter Schreier — записи Die Forelle с Helmut Deutsch в MusicBrainz есть (длительность не указана), но найти её на YouTube целевым поиском не удалось: выдача заполняется чужими версиями. Кандидат без проверенной ссылки.",
+    "Christoph Prégardien — Topic-трек PbxZKgKDuZ8 подписан «Die Forelle, Op. 32, D. 530» (ошибка номера в метаданных: правильный D 550); MusicBrainz даёт связку Prégardien/Katsaris. Ссылка живая, но метаданные издания ошибочны — при использовании перепроверить.",
+    "Записей D 550 позднее 2015 года среди значительных кандидатов не найдено: самая свежая — Goerne/Haefliger (2013). Из MusicBrainz видны Ashley Riches / Joseph Middleton, Carolyn Sampson / Joseph Middleton (BIS), Georg Nigl / Olga Pashchenko — по ним не проведено ни датировки, ни проверки YouTube; при необходимости слота «не ранее 2015» их нужно доисследовать.",
+    "classical-discography.org (дискография Майкла Грея) в этой сессии недоступна для поиска: search2.php возвращает HTTP 500 и на GET, и на POST (проверено с cookie-jar и Referer). Из-за этого не удалось верифицировать по матрицам даты для Schlusnus (1943?), Marian Anderson (1936?), Björling, Souzay, Seefried, Schwarzkopf/Hudez.",
+    "yt-dlp к концу сессии перешёл в режим бот-проверки (HTTP 429 → «Sign in to confirm you're not a bot»), поэтому ℗-строки не получены для Souzay, Seefried, Schlusnus, Björling, Baker, Grümmer, Terfel, Kaufmann, Mathis. Живость и канал всех ID подтверждены независимо через oEmbed (yt-check.js).",
+    "Discogs API без токена жёстко троттлится («You are making requests too quickly») — глубокая сверка треклистов LP (в частности, какой именно DG-LP Зефрид содержит D 550) не доведена до конца.",
+    "Прочие записи из MusicBrainz, не проработанные как кандидаты (для полноты картины): Anneliese Rothenberger/Weissenborn (Topic 8Yppagimb3s), Arleen Augér/Lambert Orkis, Barbara Hendricks/Radu Lupu, Karita Mattila/Ilmo Ranta, Nancy Argenta/Melvyn Tan, John Mark Ainsley/Steven Lubin, Siegfried Lorenz/Norman Shetler, Felicity Lott/Graham Johnson, Kirsten Flagstad/Edwin McArthur (HMV-сессия 28.06.1937, DB 3306/DA 1586 — по реестру проекта, [Gray]), Erna Sack/Michael Raucheisen (Topic e_wfGQJA634), Lotte Schöne, Leopold Demuth, Ernestine Schumann-Heink, Vanni Marcoux/Piero Coppola, Suzanne Danco (1956), Daniel Behle/Sveinung Bjelland, Philippe Jaroussky/Jérôme Ducros, Waltraud Meier.",
+    "Инструментальные транскрипции (Maisky/Hovora, Jan Vogler, Gastinel/Désert) и «Форельный квинтет» D 667 из пула исключены — это не исполнения песни."
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "d": "343",
+  "title": "Am Tage Aller Seelen (Litanei auf das Fest Aller Seelen)",
+  "tier": "famous",
+  "research_date": "2026-08-17",
+  "method_note": "Опорный дискографический источник — дискография Майкла Грея (classical-discography.org): POST-поиск composer=Schubert / work=Litanei дал 49 сессионных карточек по D 343, все прочитаны поштучно (modalcontent.php?id=...). Даты сессий и матрицы ниже — оттуда. Даты изданий/буклетные примечания — Discogs API (api.discogs.com). Метаданные YouTube-загрузок использовались ТОЛЬКО для идентификации альбома и длительности, не как источник даты. ОГРАНИЧЕНИЕ СЕССИИ: бюджет WebSearch был исчерпан до начала работы (200/200), внешние поисковики (DuckDuckGo, Mojeek) и веб-интерфейсы Discogs/45cat/Presto отдают 403 — поэтому часть современных альбомных атрибуций осталась неверифицированной и помечена \"?\"; они не влияют на верхнюю часть пула.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1965",
+      "year_source": "Буклет EMI CDM 7 69503 2 «Schubert: Dietrich Fischer-Dieskau — 21 Lieder» (Discogs release 6124629, поле notes): «Recorded: Berlin, Zehlendorf Studio, 24, 25, 28 February & 1 March 1965: track 1-20»; Litanei auf das Fest Aller Seelen, D.343 — трек 14, 3:36; ℗1965 (треки 1–20).",
+      "album": "EMI/Electrola-сессии февраля–марта 1965, Berlin, Zehlendorf Studio; сводное CD-издание «21 Lieder» (EMI CDM 7 69503 2, 1988); MB привязывает эту фонограмму (214 с) к релизам «21 Lieder» (1988, GB), «The Great EMI Recordings» (2010), «The Collector's Edition» (2007)",
+      "label": "EMI / Electrola (ныне Warner Classics)",
+      "age_voice": "40 лет (р. 1925). Ровно середина зафиксированного дайджестом пика ~1951–1972: голос ещё полнокровен, легато не пересушено (сухость тона — с середины 1970-х). Один из самых выигрышных периодов ФД в Шуберте.",
+      "reputation": "Запись входит в канонический EMI-корпус ФД/Мура 1960-х, переиздавалась EMI/Warner многократно («21 Lieder», «The Great EMI Recordings», «The Collector's Edition») — сам факт непрерывного переиздания более 35 лет и есть устоявшаяся репутация. Отдельного печатного разбора именно этого номера в доступных источниках не найдено (сравнительного обзора D 343 не существует — см. negatives).",
+      "sources": [
+        "https://api.discogs.com/releases/6124629 (notes, tracklist)",
+        "https://musicbrainz.org/ws/2/recording/28f4d3ea-d4ac-4b79-a035-a7f2290634a9?inc=releases",
+        "planning/research/singers-digest.md (строка Fischer-Dieskau: пик ~1951–1972)"
+      ],
+      "youtube": [
+        {"videoId": "RMCiryLYqNU", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 217, "note": "длительность совпадает с буклетными 3:36 → это EMI-1965, не DG"},
+        {"videoId": "Vakl0WwvrhQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 215},
+        {"videoId": "2zwn-fpvNzo", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 218},
+        {"videoId": "NrqIEwQhRMo", "channel": "FiDiTanzer528", "official": false, "oembed_ok": true, "duration_s": 217, "note": "фан-загрузка той же фонограммы, 319 тыс. просмотров — самый популярный ролик песни на YouTube"}
+      ],
+      "note": "Приоритет №2 по правилам (после Квастхофа, которого здесь нет) → фактически главный кандидат. Из двух записей ФД эта — более ранняя и более компактная по темпу (3:37 против 3:49); правило «при прочих равных предпочитать более раннюю» работает в её пользу."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969?",
+      "year_source": "Сессионная дата не документирована ни у Грея (в его 49 карточках по D 343 записи ФД отсутствуют вовсе), ни в буклетных примечаниях, доступных через Discogs API. Известно: свод DG «Schubert: Sämtliche Lieder» (21 CD) записывался 1966–1972 в Ufa-Ton-Studio Berlin с Муром (реестр: planning/youtube/albums.md). Официальная DG-загрузка на Topic-канале даёт release_year 1969 — это год издания тома, не подтверждённая дата сессии.",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD; на YouTube выложен как «Schubert: Lieder» / «Lieder (Vol. 2)»); MB привязывает фонограмму (229 с) к DG-релизам «Lieder» (1992-10-01), «Lieder, Volume II» (1992-10-01), «Complete Lieder Recordings on Deutsche Grammophon» (2022)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет (в зависимости от года сессии в диапазоне 1966–72). Поздняя часть пика; в DG-своде ФД уже заметно «отчётнее», аналитичнее, чем на EMI-1965, тон суше.",
+      "reputation": "Часть полного свода мужских песен Шуберта — эталонного справочного издания, но именно как справочное оно и оценивается: отдельные номера свода регулярно уступают более ранним рециталам того же певца (в реестре проекта тот же эффект зафиксирован по D 328). Самая просматриваемая официальная загрузка песни (117 тыс.).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/5964e969-f3bc-4e3a-aae2-9bc20e419af9?inc=releases",
+        "planning/youtube/albums.md (карточка «Schubert: Sämtliche Lieder (21 CD)», сессии 1966–1972, Ufa-Ton-Studio Berlin, Gerald Moore)"
+      ],
+      "youtube": [
+        {"videoId": "mDJHjltvrDI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 229},
+        {"videoId": "URuY7yQvA6k", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 229},
+        {"videoId": "xjgrbKth6sg", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 229}
+      ],
+      "note": "Дублирует певца из позиции №1. В топ-5 берётся только одна запись ФД; при равенстве качества правило требует более раннюю (EMI-1965)."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": "1952–54?",
+      "year_source": "Дискография Грея (id 25499): Schwarzkopf/Moore, «Am Tage Aller Seelen — Litanei, D343», 11 сентября 1952, London, EMI Studio No. 1A, Abbey Road, Columbia-UK, матрица CAX 11748 — карточка помечена UNISSUED (в тот же день с Муром записаны Die Forelle и Ungeduld, тоже unissued). Изданная фонограмма длится 5:33–5:37, что превышает ёмкость 12-дюймовой стороны 78 об., то есть либо это LP-мастер той же сессии, либо более поздняя переделка. Официальная Warner-загрузка приписывает её к LP «A Lieder Recital» (Columbia 33CX 1044) с release_year 1954; Discogs даёт для 33CX 1044 год издания 1954 (release 6257908). Точный год сессии издания подтвердить не удалось — Грей карточки на 33CX 1044 без даты (id 203471), Discogs API на общем IP отдавал 429.",
+      "album": "«A Lieder Recital» (Columbia 33CX 1044); переиздания Warner: «Icon: Elisabeth Schwarzkopf» (2004 remaster), «The Ultimate Collection», «24 Lieder», «Perfect Prima Donna»; входит в бокс «The Complete Recitals 1952–1974» (Warner 825646026050, 2015)",
+      "label": "Columbia (EMI) → Warner Classics",
+      "age_voice": "37–39 лет. Дайджест: пик 1948–1964 — то есть это самое начало лучшего десятилетия, голос свежий, ровный, с полным контролем pianissimo; связка с Муром именно этих лет (78-е 1948–54) — фундамент её шубертовской репутации.",
+      "reputation": "Правила проекта ставят Шварцкопф топ-1 среди женщин. Её шубертовские записи начала 1950-х — эталон по klassik-prisma в других песнях (рецитал с Эдвином Фишером, окт. 1952 — 5 звёзд и со-победитель слепого теста 2020 по D 118). Прямой критики именно D 343 нет: сравнительного обзора этой песни не существует.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=25499 (Gray: 1952-09-11, CAX 11748, unissued)",
+        "https://www.classical-discography.org/modalcontent.php?id=203471 (Gray: 33CX1044, Schwarzkopf/Moore, без даты)",
+        "https://api.discogs.com/database/search?q=Schwarzkopf+A+Lieder+Recital (release 6257908, 33CX 1044, 1954)",
+        "planning/research/singers-digest.md (Schwarzkopf: пик 1948–1964; 78-е с Муром 1948–54)"
+      ],
+      "youtube": [
+        {"videoId": "BWg5xhJj5N0", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 337, "album_meta": "Icon: Elisabeth Schwarzkopf (2004 Remastered Version)"},
+        {"videoId": "9QQPC-ecxqU", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 335, "album_meta": "A Lieder Recital"},
+        {"videoId": "MhDzDh1Lziw", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 334, "album_meta": "The Ultimate Collection"}
+      ],
+      "note": "Приоритет №3 по правилам. Год не установлен точно — по правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» публикуется с диапазоном «1952–54?». Предпочтительный ролик — 9QQPC-ecxqU (альбом-первоисточник «A Lieder Recital»)."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "не установлен (вероятно Michael Raucheisen — берлинские радиозаписи RRG тех лет он аккомпанировал; НЕ подтверждено)",
+      "rec_year": "1942–45?",
+      "year_source": "Диапазон взят из названия официального Topic-альбома «In Memoriam Hans Hotter (1942-1945)» — это указание на военные берлинские радиозаписи. Дискографического подтверждения нет: у Грея среди 49 карточек по D 343 записи Хоттера отсутствуют; в MusicBrainz работа D 343 (46 записей) Хоттера не содержит; релиз с таким названием в MB не найден. Источник — агрегаторский Topic-релиз, что правила прямо называют ненадёжным для кредитов.",
+      "album": "In Memoriam Hans Hotter (1942-1945) — сборник военных радиозаписей (лейбл-агрегатор, официальность спорна)",
+      "age_voice": "33–36 лет. Дайджест: пик ~1942–1955 — то есть это самая ранняя и самая свежая часть его лучшего периода (той же поры, что Winterreise DG 1942 с Раухайзеном); голос ещё подвижен, до утяжеления начала 1960-х далеко.",
+      "reputation": "Хоттер — приоритетный исполнитель по правилам (позиция 4). Военные берлинские записи Хоттера/Раухайзена ценятся как эталон тёмного низкого голоса в Шуберте (ср. дайджест по Winterreise 1942). Конкретно D 343 в критике не разбиралась.",
+      "sources": [
+        "yt-dlp metadata видео IvnXg0f3I78 (album: «In Memoriam Hans Hotter (1942-1945)»; метаданные — только для идентификации альбома, не как источник даты)",
+        "planning/research/singers-digest.md (Hotter: пик ~1942–1955; Winterreise DG 1942, Raucheisen)",
+        "https://www.classical-discography.org/ (поиск composer=Schubert / work=Litanei — Хоттера нет; отрицательный результат)"
+      ],
+      "youtube": [
+        {"videoId": "IvnXg0f3I78", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true, "duration_s": 326}
+      ],
+      "note": "Приоритетный певец с живой официальной загрузкой — сильный кандидат в пятёрку, но год требует доисследования (публиковать как «1942–45?»). Пианист в плеере не указывать до подтверждения."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "1936",
+      "year_source": "Дискография Грея (id 62830): 26 ноября 1936, London, EMI Studio No. 3, Abbey Road; HMV DA 1546; матрица 0EA 4488, take 1. Тот же сессионный блок 25–26.11.1936 зафиксирован в реестре проекта (planning/youtube/albums/female-recitalists.md) с указанием Litanei D 343 и пианиста Gerald Moore. Прецедент правила: метаданные archive.org по этим сессиям врут («1945» вместо 1936).",
+      "album": "HMV DA 1546 (78 об.); переиздания — Naxos Historical (серия «Elisabeth Schumann: Schubert Lieder»), HMV Treasury «Schubert Lieder on Record 1898–1952» (RLS 766)",
+      "age_voice": "48 лет. Дайджест: пик 1920-е — середина 1930-х, то есть 1936-й — самый край пика; голос ещё серебрист и ровен (заметное старение — в записях 1945–49). Сессии ноября 1936 с Муром дали и её знаменитую Gretchen D 118.",
+      "reputation": "Э. Шуман — приоритетный исполнитель по правилам (позиция 4). Её шубертовские HMV-стороны 1930-х — классика жанра, вошли в главную ретроспективную антологию EMI «Schubert Lieder on Record 1898–1952». Темп самый быстрый в пуле (3:13) — довоенная лёгкая, «песенная» трактовка, противоположная медленным послевоенным.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=62830 (Gray: 1936-11-26, DA1546, 0EA 4488-1)",
+        "planning/youtube/albums/female-recitalists.md (сессии 25–26.11.1936, DA 1541/1545/1546/1547, пианист Gerald Moore)",
+        "https://musicbrainz.org/ws/2/recording/1242ed21-0539-4889-8031-888f94d2f04a (Elisabeth Schumann, Gerald Moore, 192 с)"
+      ],
+      "youtube": [
+        {"videoId": "n8qH3zkJuzw", "channel": "CLASSIC&OPERA", "official": false, "oembed_ok": true, "duration_s": 197, "note": "фан-канал, но с корректной атрибуцией (Schumann/Moore); официальной Naxos-Topic загрузки именно D 343 в выдаче не найдено"}
+      ],
+      "note": "Приоритетный певец; единственная слабость — нет официальной загрузки, только фан-канал."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961",
+      "year_source": "Дискография Грея (id 175954): 28 ноября 1961, London, EMI Studio No. 1, Abbey Road; издание Columbia SAX 5272 / Angel S 36462. Совпадает с реестром проекта (female-recitalists.md: сессии 28–30.11.1961 + 20.02.1962, Parsons). Метаданные Topic-загрузки дают 1967 — это ℗ LP-компиляции, не дата сессии.",
+      "album": "Columbia SAX 5272 / Angel S 36462 «Schubert Lieder»; на YouTube — как «Schubert: 15 Lieder» и «The Complete Recitals on Warner Classics»",
+      "age_voice": "33 года (р. 1928). Дайджест: пик ~1957–1975 — ранняя, самая свежая его часть; тот же круг сессий (Ludwig/Parsons ~1961) дал Gretchen am Spinnrade с 5 звёздами klassik-prisma.",
+      "reputation": "Людвиг — приоритетный исполнитель по правилам (позиция 4). Её EMI-корпус 1957–1969 с Муром и Парсонсом — референсный меццо-Шуберт поколения; по D 118 из того же корпуса klassik-prisma ставит высшую оценку. Темп очень широкий (5:55) — самая «литургическая» из старых версий.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=175954 (Gray: 1961-11-28, Abbey Road Studio 1, SAX5272/Angel S36462)",
+        "planning/youtube/albums/female-recitalists.md (Ludwig — Schubert Lieder, сессии 28–30.11.1961 + 20.02.1962, Parsons)",
+        "planning/research/singers-digest.md (Ludwig: пик ~1957–1975; Gretchen ~1961 с Parsons — 5 звёзд klassik-prisma)"
+      ],
+      "youtube": [
+        {"videoId": "Msne4moAxXM", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 355, "album_meta": "The Complete Recitals on Warner Classics"},
+        {"videoId": "MpTTka8_pJc", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 355, "album_meta": "Schubert: 15 Lieder"}
+      ],
+      "note": "Одна из самых надёжных позиций пула: приоритетный певец + точная дата по Грею + официальная загрузка."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Graham Johnson",
+      "rec_year": "1992",
+      "year_source": "Страница Hyperion CDJ33017 (The Hyperion Schubert Edition, Vol. 17 «Schubert in 1816»): recording date — April 1992, Rosslyn Hill Unitarian Chapel, Hampstead, London; release date — April 1993; продюсер Martin Compton, инженер Antony Howell. Реестр проекта (albums/complete-editions.md) даёт ту же дату. Метаданные официальной загрузки дают 1993 — это год издания.",
+      "album": "The Hyperion Schubert Edition, Vol. 17 — «Schubert in 1816» (CDJ33017)",
+      "age_voice": "52 года (р. 1939). Дайджест: пик ~1970–1988; апрель 1992 — за полтора года до смерти (ноябрь 1993), один из последних студийных рециталов. Голос уже не в лучшей форме, но у Попп позднего обвала практически нет.",
+      "reputation": "Приоритетный исполнитель по правилам (позиция 4). Пресса о томе (цитаты со страницы Hyperion): Gramophone — «Piano-playing, notes and recording all enhance the virtues of this rewarding disc, which will surely be a thing of joy for many years to come»; The Sunday Times — «A moving and fitting memorial to one of the loveliest and most beloved singers»; Hi-Fi News — «Another triumph». Оценки относятся к диску в целом. ВАЖЕН прецедент: слабая запись приоритетного певца отсеивается (случай Попп в D 118) — эту нужно оценивать на слух, не по имени.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33017 (recording details + press quotes; в аннотации Джонсона Litanei D 343 названа «one of the better known Lieder in this collection» — сборнике для Терезы Гроб, ноябрь 1816)",
+        "planning/youtube/albums/complete-editions.md (Vol. 17, CDJ33017, зап. IV.1992, изд. IV.1993)",
+        "https://musicbrainz.org/ws/2/recording/1bd3350b-9c40-4118-aaae-262e2d54f186 (Lucia Popp, Graham Johnson, 284 с)"
+      ],
+      "youtube": [
+        {"videoId": "P17HItYcGeM", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "duration_s": 288, "album_meta": "Schubert: Hyperion Song Edition 17 – Schubert in 1816", "artist_meta": "Graham Johnson, Lucia Popp", "note": "залито на Topic-канал пианиста, не певицы — при публикации name всё равно «Popp — Johnson»"}
+      ],
+      "note": "Единственный кандидат в пуле, закрывающий возрастную квоту «не ранее 1990» из старых мастеров."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Leonard Hokanson",
+      "rec_year": "1971",
+      "year_source": "Дискография Грея (id 176423): 27–30 октября 1971, München, Philips, издание 6747 059.",
+      "album": "Philips 6747 059 (шубертовский свод Прая начала 1970-х)",
+      "age_voice": "42 года (р. 1929). Дайджест: пик ~1960–1980 — самая середина; голос полный, тёплый, ещё без утяжеления поздних 1980-х.",
+      "reputation": "Прай — старая школа второго эшелона приоритетов («другие звёзды прошлого»); его шубертовские своды Philips начала 1970-х — прямой конкурент DG-своду ФД тех же лет, обычно ценятся за более «народную», менее аналитическую подачу. Отдельных оценок D 343 не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=176423 (Gray: 1971-10-27–30, München, Philips 6747 059, Prey/Hokanson)",
+        "planning/research/singers-digest.md (Prey: пик ~1960–1980; ремейки Philips нач. 1970-х)"
+      ],
+      "youtube": [
+        {"videoId": "iqC4BDNG64o", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 323}
+      ],
+      "note": "Длительность Topic-ролика (5:23) заметно больше, чем можно было бы ждать; альбомная привязка ролика к сессии 1971 не подтверждена буклетом — при отборе сверить."
+    },
+    {
+      "singer": "Karl Erb",
+      "pianist": "Bruno Seidler-Winkler",
+      "rec_year": "1934",
+      "year_source": "Дискография Грея (id 55364): 30 октября 1934, Berlin, Electrola EG 3184, матрица 0RA 169, take 1.",
+      "album": "Electrola EG 3184 (78 об.); переиздания Preiser",
+      "age_voice": "57 лет (р. 1877). Дайджест прямо оговаривает: шубертовские записи Эрба сделаны в 58–74 года, это не вокальный пик, а документ довоенного стиля — узкий, «инструментальный» тенор, дикция и фразировка как главная ценность.",
+      "reputation": "Эрб — легенда немецкой Lied-школы межвоенных лет (первый Палестрина Пфицнера); его Шуберт ценится историками исполнительства, но как стилевой документ, а не как вокальный образец. В пул входит по исторической значимости.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=55364 (Gray: 1934-10-30, Berlin, EG3184, 0RA 169-1)",
+        "planning/research/singers-digest.md (Erb: Schubert-записи в 58–74 года, переизд. Preiser)"
+      ],
+      "youtube": [
+        {"videoId": "T08nZilOy1o", "channel": "Graham Rankin", "official": false, "oembed_ok": true, "duration_s": 196}
+      ],
+      "note": "Только фан-загрузка; вокально уступает Шуман/Шварцкопф/ФД — вероятный резерв, не пятёрка."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1980–81?",
+      "year_source": "Год сессии не документирован: у Грея по D 343 записи Бейкер нет, а его карточки по Бейкер/Шуберту доходят только до Philips 9500 307 (1976) и EMI SLS 812 (1970, с Муром). Discogs: HMV ASD 4054 «Popular Schubert Songs», Dame Janet Baker / Geoffrey Parsons, год издания 1981 (release 7746202), Litanei D.343 — сторона B, трек 3. MB привязывает 333-секундную версию к «Dame Janet Baker Sings Popular Schubert Songs» (GB, 1981).",
+      "album": "HMV ASD 4054 «Popular Schubert Songs»; CD-переиздания EMI «Schubert: Lieder» (7243 5 86251 2, 2004; 7243 5 69389 2 2, 1996) — там она соседствует с более ранними записями Бейкер/Мура 1970 г.",
+      "age_voice": "~47 лет (р. 1933). Дайджест: пик ~1965–1982 — поздняя, но ещё полноценная часть; голос тёмный, ровный, но уже с большей вибрацией, чем на 2-LP EMI 1970 с Муром.",
+      "reputation": "Бейкер — крупнейшая английская меццо-шубертианка поколения; её 2-LP EMI 1970 с Муром дайджест называет классикой жанра. Диск 1981 г. — популярная программа, репутационно ниже свода 1970 г. Отдельных оценок D 343 нет.",
+      "sources": [
+        "https://api.discogs.com/database/search?q=Janet+Baker+Schubert+Parsons (release 7746202: HMV ASD 4054, 1981, tracklist B3 «Litanei D.343»)",
+        "https://musicbrainz.org/ws/2/recording/fbf6218c-a446-4be3-91a9-a10cf58bc628?inc=releases",
+        "planning/youtube/albums/female-recitalists.md (Baker: SLS 812 с Муром 1970 — Gray; ASD 4054 в реестре отсутствует)"
+      ],
+      "youtube": [
+        {"videoId": "kCgIjiSy7ac", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "duration_s": 331, "album_meta": "Schubert: Lieder", "artist_meta": "Janet Baker, Geoffrey Parsons"}
+      ],
+      "note": "Год требует доисследования (буклет EMI 7243 5 86251 2). Если понадобится место — конкурирует с Людвиг за «женское меццо-старой школы», и Людвиг выигрывает по датировке, возрасту и приоритету."
+    },
+    {
+      "singer": "Felicity Lott",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Felicity Lott / Graham Johnson, «Litanei», 296 с (recording e2749cc8-2ada-4687-a651-4f2d11cbac34). Том Hyperion Schubert Edition, к которому относится, не установлен: Лотт пела Vol. 19 «Songs about flowers & nature» (CDJ33019, зап. VII.1992), но D 343 тематически принадлежит Vol. 17 (Попп). Возможен сборный том или отдельный рецитал.",
+      "album": "Hyperion (том не установлен) — требует сверки трек-листов",
+      "age_voice": "~45 лет, если это сессии 1992-го (р. 1947). Не проверено.",
+      "reputation": "Лотт — крепкая, но не первого ряда шубертианка; в топ-5 при наличии Шварцкопф, Шуман, Людвиг и Попп не проходит.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits",
+        "planning/youtube/albums/complete-editions.md (Vol. 19, CDJ33019, Felicity Lott, зап. VII.1992)"
+      ],
+      "youtube": [
+        {"videoId": "9eUPVDPkdHM", "channel": "Operazaile operazaile", "official": false, "oembed_ok": null, "duration_s": 297, "note": "не проверялся yt-check — кандидат заведомо вне пятёрки"}
+      ],
+      "note": "В пул включена для полноты hyperion-фонда; в отбор не идёт."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Matthias Goerne / Helmut Deutsch, «Litanei», 474 с. К какому тому Goerne Schubert Edition (harmonia mundi, 2008–2014) или отдельному диску относится — не подтверждено; в реестре проекта тома Гёрне числятся с другими пианистами (Metzmacher, Haefliger, Eschenbach). Метаданные официальной загрузки альбом не раскрыли (YouTube начал блокировать запросы).",
+      "album": "не установлен (harmonia mundi?)",
+      "age_voice": "если 2008–2014 — 41–47 лет, внутри пика ~1997–2015 (дайджест).",
+      "reputation": "Гёрне — самый записываемый Schubert-баритон поколения, но темп здесь экстремальный: 7:54 против 3:37 у ФД и 3:13 у Шуман — более чем вдвое медленнее. Такая растяжка — характерная примета современной «медитативной» манеры, к которой правила предписывают скепсис.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits",
+        "planning/research/singers-digest.md (Goerne: пик ~1997–2015)"
+      ],
+      "youtube": [
+        {"videoId": "l2LDLMJamWU", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "duration_s": 475}
+      ],
+      "note": "Современный кандидат с официальной загрузкой; темп — главный аргумент против."
+    },
+    {
+      "singer": "Andrè Schuen",
+      "pianist": "Daniel Heide",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Andrè Schuen / Daniel Heide, «Litanei auf das Fest Allerseelen, D. 343», 375 с. Альбом не подтверждён: реестр знает его «Wanderer» (Avi-Music 8553373, зап. октябрь 2016, изд. 2018) и DG-трилогию циклов 2021–2024, но принадлежность D 343 конкретному диску не проверена.",
+      "album": "не установлен (Avi-Music «Wanderer», 2016? / DG?)",
+      "age_voice": "если 2016 — 32 года; дайджест даёт пик ~2018–наст.",
+      "reputation": "Флагманский молодой Schubert-баритон DG (OPUS Klassik 2023 за Schwanengesang). Правила требуют скепсиса к прессе о современных: похвалы во многом маркетинговые. Темп 6:15.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits",
+        "planning/youtube/albums.md (Schuen — «Wanderer», Avi-Music 8553373, запись октябрь 2016, издание 2018)",
+        "planning/research/singers-digest.md (Schuen: пик ~2018–наст.)"
+      ],
+      "youtube": [
+        {"videoId": "svZaicN9DD0", "channel": "Andrè Schuen - Topic", "official": true, "oembed_ok": true, "duration_s": 375}
+      ],
+      "note": "Основной претендент на квоту «не ранее 2015», если год удастся установить."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau (студия) / Llŷr Williams (лайв)",
+      "rec_year": "1994 (студия)",
+      "year_source": "Реестр проекта: «An die Musik – Favourite Schubert Songs» (DG 445 294-2) — запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg, Malcolm Martineau, 23 песни, издание 04.09.1994. MB содержит две терфелевские записи D 343 с Мартино (208 и 209 с) и одну с Llŷr Williams (219 с) — последняя и лежит на Topic-канале с пометкой «(Live)».",
+      "album": "DG «An die Musik – Favourite Schubert Songs» (445 294-2) — студия 1994; отдельный лайв с Llŷr Williams — альбом не установлен",
+      "age_voice": "29 лет в 1994-м (р. 1965). Дайджест: пик ~1992–2005 — самое начало, голос свежий и большой.",
+      "reputation": "«An die Musik» — бестселлер каталога DG; по D 328 klassik-prisma даёт 4–5 баллов. Терфель — оперный бас-баритон, в Lied его иногда упрекают в избыточной звучности.",
+      "sources": [
+        "planning/youtube/albums.md (Terfel — «An die Musik», DG 445 294-2, сессии февраль 1994, Martineau)",
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits",
+        "planning/research/singers-digest.md (Terfel: пик ~1992–2005)"
+      ],
+      "youtube": [
+        {"videoId": "fl-wPeLfjE8", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true, "duration_s": 219, "note": "это ЛАЙВ с Llŷr Williams, а не студийная запись 1994 с Мартино; videoId студийной версии не найден"}
+      ],
+      "note": "Кандидат на квоту «не ранее 1990» — но доступный на YouTube ролик не соответствует документированному альбому; нужен отдельный поиск студийного трека."
+    },
+    {
+      "singer": "Carolyn Sampson",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2017?",
+      "year_source": "Дайджест: «A Soprano's Schubertiade» (BIS, зап. 2017, Middleton). Присутствие D 343 именно на этом диске не подтверждено буклетом; MB даёт пару Sampson/Middleton с длительностью 298 с.",
+      "album": "BIS «A Soprano's Schubertiade» (?)",
+      "age_voice": "43 года (р. 1974), внутри пика ~2010–наст.",
+      "reputation": "Сэмпсон — барочно-выученное сопрано с чистой линией; для Шуберта репутация крепкая, но не эталонная. Скепсис к пиару современных обязателен.",
+      "sources": [
+        "planning/research/singers-digest.md (Sampson: «A Soprano's Schubertiade», BIS, зап. 2017, Middleton)",
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits"
+      ],
+      "youtube": [
+        {"videoId": "B51NbeiVReE", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true, "duration_s": 298}
+      ],
+      "note": "Кандидат на квоту «не ранее 2015» при подтверждении года."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Joseph Middleton",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Samuel Hasselhorn / Joseph Middleton, 320 с. Дайджест знает его проект «Schubert 200» с Bushakevitz (2023–2028), но Middleton — другой партнёр (вероятно дебютный диск harmonia mundi), связь с D 343 не подтверждена.",
+      "album": "не установлен (harmonia mundi?)",
+      "age_voice": "р. 1990; молодой голос, карьера с 2018 (победа на Queen Elisabeth 2018).",
+      "reputation": "Молодой баритон с наградами (Diapason d'or года за Müllerin 2023, Preis der dt. Schallplattenkritik за «Licht und Schatten» 2024) — но это премии за другие диски; к прессе о современных правила предписывают скепсис.",
+      "sources": [
+        "planning/research/singers-digest.md (Hasselhorn: проект «Schubert 200», Bushakevitz)",
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits"
+      ],
+      "youtube": [
+        {"videoId": "iSKZknkeu5s", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true, "duration_s": 321},
+        {"videoId": "QAutjpi8NV8", "channel": "Samuel Hasselhorn", "official": false, "oembed_ok": null, "duration_s": 227, "note": "другая, более быстрая версия с Renate Rohlfing"}
+      ],
+      "note": "Резерв современных."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Florian Boesch / Malcolm Martineau, «Am Tage aller Seelen, D. 343», 282 с. Дайджест даёт их трилогию Onyx (Winterreise 2011, Müllerin 2013/14, Schwanengesang 2014/15) — D 343 в циклы не входит, значит это отдельный рецитал; альбом не установлен.",
+      "album": "не установлен (Onyx?)",
+      "age_voice": "р. 1971; пик ~2010–наст.",
+      "reputation": "Бёш — рассказчик венской школы, сильная репутация в циклах; для отдельной песни данных нет.",
+      "sources": [
+        "planning/research/singers-digest.md (Boesch: трилогия Onyx с Martineau)",
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits"
+      ],
+      "youtube": [
+        {"videoId": "rxWtauCO5QI", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true, "duration_s": 282}
+      ],
+      "note": "Резерв современных."
+    },
+    {
+      "singer": "Magdalena Kožená",
+      "pianist": "Christian Schmitt (ОРГАН, не рояль)",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Magdalena Kožená / Christian Schmitt, 281 с. Christian Schmitt — органист, то есть это версия с органным сопровождением (для D 343, «литании на день всех усопших», ход осмысленный, но нестандартный).",
+      "album": "не установлен",
+      "age_voice": "р. 1973; данных о годе нет.",
+      "reputation": "Крупное имя, но нестандартный состав. По правилам такие записи получают name «Kožená — Ensemble/Schmitt», а не «— пианист».",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits"
+      ],
+      "youtube": [
+        {"videoId": "RPlxctN9X0o", "channel": "Magdalena Kožená - Topic", "official": true, "oembed_ok": true, "duration_s": 281}
+      ],
+      "note": "Курьёз/резерв; в пятёрку не идёт."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz: Ian Bostridge / Julius Drake, 299 с. Альбом не подтверждён (пара Bostridge/Drake работала и на Hyperion, и на EMI в 1996–2005).",
+      "album": "не установлен",
+      "age_voice": "если конец 1990-х — начало 2000-х: 32–40 лет, внутри пика ~1995–2010.",
+      "reputation": "Дайджест: «позже интеллектуально, но манернее/суше». Самая просматриваемая современная версия песни (150 тыс. на фан-канале).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e&inc=artist-credits",
+        "planning/research/singers-digest.md (Bostridge)"
+      ],
+      "youtube": [
+        {"videoId": "fngyZ6HiaSk", "channel": "karenpat85", "official": false, "oembed_ok": true, "duration_s": 300}
+      ],
+      "note": "Только фан-загрузка; официальной не найдено."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. Дискография Квастхофа закрыта в январе 2012 и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95; Winterreise RCA 1998; Schwanengesang DG 2001; Lieder с оркестром DG 2003; Müllerin DG 2005; Winterreise-фильм DG 2005) — D 343 нет ни в одном [planning/research/singers-digest.md]. Подтверждено ещё двумя независимыми проверками: среди 46 записей работы D 343 в MusicBrainz Квастхофа нет; yt-dlp-поиск «Quasthoff Schubert Litanei» не дал ни одного его ролика.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ ДВАЖДЫ, оба раза с Джералдом Муром. (1) EMI/Electrola, Berlin, Zehlendorf Studio, 24, 25, 28 февраля и 1 марта 1965 — источник: буклет EMI CDM 7 69503 2 «21 Lieder», трек 14, 3:36 (api.discogs.com/releases/6124629). (2) DG «Sämtliche Lieder», сессии свода 1966–1972, Ufa-Ton-Studio Berlin (planning/youtube/albums.md); официальная DG-загрузка помечена 1969 — год издания.",
+    "Elisabeth Schwarzkopf": "ЗАПИСЫВАЛА, с Джералдом Муром. Дискография Грея фиксирует сессию 11.09.1952, Abbey Road Studio 1A, Columbia, матрица CAX 11748, с пометкой UNISSUED (classical-discography.org id 25499). Изданная версия (5:33–5:37) выходила на LP «A Lieder Recital» Columbia 33CX 1044 (Discogs: год издания 1954) и в переизданиях Warner («Icon», «The Ultimate Collection», «24 Lieder», бокс «The Complete Recitals 1952–1974»). Точный год сессии изданной версии установить не удалось.",
+    "Hans Hotter": "ЗАПИСЫВАЛ — есть живая официальная Topic-загрузка (IvnXg0f3I78, 5:26) с альбома «In Memoriam Hans Hotter (1942-1945)», то есть берлинские военные радиозаписи. Дискографического подтверждения НЕТ: у Грея среди 49 карточек по D 343 Хоттера нет, в MusicBrainz работа D 343 его записи не содержит. Пианист (предположительно Michael Raucheisen) не подтверждён. Год — «1942–45?».",
+    "Peter Anders": "НЕ записывал (отрицательный результат). Среди 49 сессионных карточек Грея по D 343 Андерса нет; в MusicBrainz среди 46 записей работы его нет; yt-dlp-поиск «Peter Anders Schubert Litanei» дал только Winterreise-треки и Strauss «Allerseelen» (другое сочинение — типичная путаница по названию).",
+    "Elisabeth Schumann": "ЗАПИСЫВАЛА, с Джералдом Муром: 26 ноября 1936, London, EMI Studio No. 3, Abbey Road, HMV DA 1546, матрица 0EA 4488 take 1 (classical-discography.org id 62830); сессионный блок 25–26.11.1936 c Муром зафиксирован в planning/youtube/albums/female-recitalists.md.",
+    "Christa Ludwig": "ЗАПИСЫВАЛА, с Джеффри Парсонсом: 28 ноября 1961, London, EMI Studio No. 1, Abbey Road, Columbia SAX 5272 / Angel S 36462 (classical-discography.org id 175954).",
+    "Lucia Popp": "ЗАПИСЫВАЛА, с Грэмом Джонсоном: The Hyperion Schubert Edition Vol. 17 «Schubert in 1816» (CDJ33017), запись апрель 1992, Rosslyn Hill Unitarian Chapel, Hampstead; издание апрель 1993 (hyperion-records.co.uk, страница CDJ33017)."
+  },
+  "albums_facts": [
+    {
+      "album": "EMI/Electrola-сессии 24, 25, 28.II и 1.III.1965, Berlin, Zehlendorf Studio → CD «Schubert: Dietrich Fischer-Dieskau — 21 Lieder» (EMI CDM 7 69503 2, 1988)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1965",
+      "label": "EMI / Electrola",
+      "facts": "Буклет CD прямо называет студию и четыре сессионных дня; ℗1965 на треки 1–20 (трек 21, Erlkönig, — отдельная сессия 23–24 мая 1958, ℗1958). Litanei auf das Fest Aller Seelen D.343 — трек 14, 3:36. Пианист Gerald Moore. Total time 69:07. НОВАЯ карточка для реестра: диск покрывает 21 песню корпуса, включая D 765, D 774, D 536, D 649, D 314, D 871, D 545, D 456, D 917, D 531, D 938, D 785, D 565, D 343, D 741, D 776, D 257, D 889, D 300, D 550, D 328.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 17 «Schubert in 1816» (CDJ33017)",
+      "singer": "Lucia Popp",
+      "year": "1992 (сессии апрель), издание апрель 1993",
+      "label": "Hyperion",
+      "facts": "Rosslyn Hill Unitarian Chapel, Hampstead, London; продюсер Martin Compton, инженер Antony Howell; 68'44. Пианист и автор комментариев — Graham Johnson. Один из последних студийных рециталов Попп (ум. 1993). Пресса: Gramophone («a thing of joy for many years to come»), The Sunday Times («A moving and fitting memorial to one of the loveliest and most beloved singers»), Hi-Fi News («Another triumph»). Джонсон в аннотации относит D 343 к альбому, составленному Шубертом для Терезы Гроб (ноябрь 1816), и называет её «one of the better known Lieder in this collection». Позиция уже есть в planning/youtube/albums/complete-editions.md — здесь уточнены зал, продюсер и цитаты.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Columbia SAX 5272 / Angel S 36462 «Schubert Lieder»",
+      "singer": "Christa Ludwig",
+      "year": "1961 (сессия D 343 — 28 ноября)",
+      "label": "Columbia (EMI) → Warner Classics",
+      "facts": "London, EMI Studio No. 1, Abbey Road; пианист Geoffrey Parsons. Сессионный блок по Грею — 28–30.11.1961 + 20.02.1962. Ядро корпуса, известного на CD как «Schubert: 15 Lieder» и вошедшего в бокс «The Complete Recitals on Warner Classics». Позиция есть в planning/youtube/albums/female-recitalists.md — здесь добавлена точная дата сессии D 343.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DA 1546 (78 об.)",
+      "singer": "Elisabeth Schumann",
+      "year": "1936 (26 ноября)",
+      "label": "HMV",
+      "facts": "London, EMI Studio No. 3, Abbey Road; матрица 0EA 4488, take 1. Сессии 25–26.11.1936 с Джералдом Муром дали также Liebesbotschaft, Fischerweise, Gretchen am Spinnrade D 118 и Der Musensohn — блок уже описан в реестре; здесь подтверждена сессионная карточка именно D 343 (Gray id 62830, DA1546, take 1).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV ASD 4054 «Popular Schubert Songs»",
+      "singer": "Janet Baker",
+      "year": "1981 (издание; год сессии не установлен)",
+      "label": "HMV / EMI",
+      "facts": "Пианист Geoffrey Parsons; 14 песен, D 343 — сторона B, трек 3. Программа: D 550, D 138, D 774, D 531, D 547, D 828, D 686, D 764, D 891, D 118, D 343, D 257, D 827, D 776. Отсутствует и у Грея, и в реестре проекта — НОВАЯ карточка. CD-переиздания: EMI 7243 5 69389 2 2 (1996) и 7243 5 86251 2 (2004), где диск соединён с записями Бейкер/Мура 1970 г.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Philips 6747 059",
+      "singer": "Hermann Prey",
+      "year": "1971 (сессии 27–30 октября)",
+      "label": "Philips",
+      "facts": "München; пианист Leonard Hokanson. Шубертовский свод Прая начала 1970-х — прямой конкурент DG-своду Фишера-Дискау. НОВАЯ карточка для реестра (в albums.md Прай представлен только Columbia/EMI-позициями 1952–1965).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Electrola EG 3184 (78 об.)",
+      "singer": "Karl Erb",
+      "year": "1934 (30 октября)",
+      "label": "Electrola",
+      "facts": "Berlin; пианист Bruno Seidler-Winkler; матрица 0RA 169, take 1. Уточняет расплывчатую строку дайджеста «стороны HMV/Electrola с Seidler-Winkler ~1935–51».",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Eterna 827140",
+      "singer": "Siegfried Lorenz",
+      "year": "1977 (сессии 21–23 марта)",
+      "label": "Eterna (ГДР)",
+      "facts": "Dresden, Lukaskirche. Пианист по Грею не указан; MusicBrainz даёт Norman Shetler. Гэй ошибочно помечает Лоренца тенором (он баритон). На YouTube версия D 343 не найдена. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG «An die Musik – Favourite Schubert Songs» (445 294-2)",
+      "singer": "Bryn Terfel",
+      "year": "1994 (сессии февраль)",
+      "label": "Deutsche Grammophon",
+      "facts": "Friedrich-Ebert-Halle, Hamburg-Harburg; Malcolm Martineau; 23 песни. Позиция уже в реестре (D 216, D 257, D 328, D 768, D 853) — год унифицирован. ВНИМАНИЕ: доступный на Topic-канале ролик D 343 — не с этого диска, а лайв с Llŷr Williams.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "source": "Das Klassik-Prisma (Bernd Stremmel), klassik-prisma.de",
+      "url": "http://www.klassik-prisma.de/Schubert.htm",
+      "finding": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ: сравнительного обзора D 343 не существует. Индекс шубертовской страницы сайта прочитан целиком (33 ссылки); из песен там разобраны только Erlkönig, Gretchen am Spinnrade, Die junge Nonne, Nacht und Träume, Auf dem Wasser zu singen, Der Hirt auf dem Felsen, Gruppe aus dem Tartarus плюс циклы. Прямые попытки угадать URL (Litanei.htm, «Litanei auf das Fest Aller Seelen.htm», «Am Tage Aller Seelen.htm») дали 404."
+    },
+    {
+      "source": "Hyperion Records — страница The Hyperion Schubert Edition Vol. 17 (CDJ33017) с аннотацией Грэма Джонсона и цитатами прессы",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33017",
+      "finding": "Даты записи (апрель 1992) и издания (апрель 1993), зал, продюсер; цитаты Gramophone, The Sunday Times, Hi-Fi News; замечание Джонсона о месте D 343 в альбоме для Терезы Гроб."
+    },
+    {
+      "source": "A Classical Discography (Michael Gray), classical-discography.org",
+      "url": "https://www.classical-discography.org/search.php",
+      "finding": "49 сессионных карточек по D 343 (POST-поиск composer=Schubert, work=Litanei), все прочитаны. Это не обзор, а первичная дискография — главный источник дат в этом досье. Из них вокальных исторических: Marie Goetze (Odéon, 1905–06), Anna Eder (Fonotipia, V–VII.1906), Theodor Bertram (Fonotipia, 10.05.1906), Alexander Heinemann/Friedrich Kark (Odéon, 1908), Paula Weinbaum (Anker, 1913), Margarethe Parbs-Krause (Odéon, 1917), Paul Hansen/Eduard Mörike (Parlophon, 20.04.1920), Theodor Schdiel (Polydor, 1924), Elena Gerhardt/Paula Hegner + скрипка Marjorie Hayward (HMV DB917, 16.02.1926), Elsa Alsen/Celius Docherty (Columbia, 17.11.1927), Fritz Steiner/Michael Raucheisen (Parlophone, 19.12.1927), Jo Vincent (Columbia, 04.07.1928), Ebba Wilton/Helge Bonnén (HMV Дания, 30.04.1928), Elma von Haynal/Bruno Seidler-Winkler (Tri-Ergon, XII.1928), Edvin Bäckman (Odéon, 1929), Emmy Sack (Odeon, II–III.1931), Karl Erb/Seidler-Winkler (Electrola, 30.10.1934), Elisabeth Schumann (HMV, 26.11.1936), Martha Angelici (Lumen, 16.03.1942), Elsa Sigfuss (Odéon, датск., 01.10.1942), Irène Joachim (Boîte à Musique, 12.10.1947), Leo Schützendorf/Heinrich Steiner (Christschall, б/д), Gerda Fleischer/Niels Prahl (Philips, 10.05.1954), Jean-Paul Jeannotte/Jeanne Landry (Select, 1961–62), Schwarzkopf/Moore (11.09.1952, unissued), Ludwig/Parsons (28.11.1961), Prey/Hokanson (27–30.X.1971), Lorenz (21–23.III.1977). Инструментальные/хоровые: Cortot (фп., транскрипции Листа/собственная — 19.05.1937, 19.04.1948, 09.05.1953), E. Power Biggs (орган, 25.05.1951), William Primrose/Vernon de Tar (альт+орган, 12.10.1945), Váša Příhoda (скр., 04.12.1935), Siegfried Borries (скр., X.1939), Lashanska/Elman/Feuermann/Serkin (ансамбль, 14.01.1939), Irmler-Madrigal-Chor (12.01.1925) и др."
+    },
+    {
+      "source": "MusicBrainz — работа «Am Tage aller Seelen (Litanei), D. 343» (eaae6f48-b53c-3099-aa37-8c38963c995e)",
+      "url": "https://musicbrainz.org/ws/2/recording?work=eaae6f48-b53c-3099-aa37-8c38963c995e",
+      "finding": "46 записей; каркас современного фонда (Coote/Drake, Schuen/Heide, Terfel×3, Tilling/Rivinius, Sampson/Middleton, Behle/Bjelland, Boesch/Martineau, Bostridge/Drake, Schweppe/Fukuda, Kožená/Schmitt (орган), Goerne/Deutsch, Jaroussky/Ducros, Hasselhorn/Middleton, Carty/Ware, Lott/Johnson) плюс инструментальные переложения (Cortot, Maisky/Hovora, Gastinel/Désert, Wieder-Atherton/Cooper, Accentus/Equilbey)."
+    }
+  ],
+  "negatives": [
+    "Сравнительного обзора D 343 не существует ни у klassik-prisma (индекс шубертовской страницы прочитан целиком), ни, по доступным данным, в форме слепого теста. Ярус «famous» здесь означает большой фонд записей, а не наличие критического консенсуса по конкретным версиям.",
+    "Квастхоф песню не записывал — значит место №1 в иерархии приоритетов свободно и переходит к Фишеру-Дискау.",
+    "Петер Андерс песню не записывал (проверено по Грею, MusicBrainz и YouTube). Осторожно: поисковая выдача подсовывает «Allerseelen» Рихарда Штрауса — другое сочинение.",
+    "Записи Шварцкопф/Мура от 11.09.1952 (Litanei, Die Forelle, Ungeduld) помечены у Грея как UNISSUED — то есть на 78 об. не выходили; изданная фонограмма Litanei длиннее ёмкости стороны 78, поэтому её точный год остаётся неустановленным (диапазон «1952–54?»).",
+    "Дата записи Хоттера не подтверждена ни одним дискографическим источником — только названием Topic-альбома, а правила прямо запрещают считать метаданные загрузок источником дат. Нужен буклет официального переиздания военных берлинских записей (Preiser / DG / Membran-Raucheisen-Edition).",
+    "Год сессии диска Бейкер/Парсонса (HMV ASD 4054) не документирован: у Грея карточки нет, Discogs даёт только год издания 1981. Нужен буклет EMI 7243 5 86251 2 (2004).",
+    "Точная дата сессии D 343 в DG-своде Фишера-Дискау (1966–72) не установлена; официальная загрузка даёт 1969 как год издания.",
+    "Discogs API на общем IP контейнера непрерывно отдавал HTTP 429 (лимит 25 запросов/мин, x-discogs-ratelimit-used доходил до 28 при одном моём запросе — IP делится с параллельными агентами). Из-за этого не получены трек-листы и буклетные даты для: Schwarzkopf «A Lieder Recital» (33CX 1044), Schwarzkopf «Complete Recitals 1952–1974» (30485594), альбомов Гёрне/Шуэна/Хассельхорна/Бёша.",
+    "Бюджет WebSearch сессии был исчерпан ДО начала работы (200/200), а прямые обращения к DuckDuckGo, Mojeek, 45cat, Presto Music и веб-Discogs блокируются (403/капча). Обзоры Gramophone, MusicWeb и BBC Music Magazine по этой песне поэтому не проверены — пробел для доисследования.",
+    "Многие позиции MusicBrainz по D 343 — не песня, а инструментальные переложения: транскрипции Листа и Кортo для фортепиано (Cortot, Yekwon Sunwoo — Cliburn 2017), виолончельные версии (Maisky/Hovora, Gastinel/Désert, Wieder-Atherton/Cooper, Krijgh), органные (E. Power Biggs), хоровые (Accentus/Equilbey, NDR Vokalensemble/Stok). В топ-5 песни они не годятся.",
+    "Запись Терфеля на его Topic-канале (fl-wPeLfjE8) — лайв с Llŷr Williams, а НЕ студийная «An die Musik» (DG, февраль 1994, Martineau); videoId студийной версии найти не удалось.",
+    "yt-dlp к концу сессии начал отдавать «Sign in to confirm you're not a bot» на запросы метаданных отдельных видео — альбомные метаданные для части современных кандидатов (Goerne, Schuen, Terfel, Kožená, Bostridge) получить не удалось; идентификация фонограмм ФД EMI-1965 против DG выполнена по длительности (216 с против 229 с), сверенной с буклетными 3:36."
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "d": "544",
+  "title": "Ganymed",
+  "tier": "famous",
+  "method_note": "WebSearch в сессии был исчерпан (200/200) до начала работы; исследование велось через прямые обращения к базам: дискография Майкла Грея (classical-discography.org, POST /search2.php + modalcontent.php?id=N), Discogs API (api.discogs.com), MusicBrainz API, метаданные официальных Topic-загрузок (yt-dlp), реестр альбомов проекта. Даты записей взяты только из дискографий/буклетов; ℗-метки Topic использованы как вторичное подтверждение и помечены как таковые.",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Charles Spencer",
+      "rec_year": "1993",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md): сессии 25–26 и 28–29 мая 1993, Historischer Reitstadel, Ноймаркт; кат. RCA Victor Red Seal 09026 618642, издание 1995 (Discogs 8778752). Подтверждение: ℗ 1993 BMG Music в метаданных официальной Topic-загрузки T6mE6LdYlq4.",
+      "album": "Schubert: Goethe-Lieder",
+      "label": "RCA Victor Red Seal / BMG",
+      "age_voice": "34 года; ровно в пике формы по дайджесту (пик ~1993–2007). Первый из шести шубертовских альбомов Квастхофа; дискография закрыта в 2012.",
+      "reputation": "Альбом — опорная гётевская запись Квастхофа; klassik-prisma по Erlkönig с этого диска даёт 4 балла с замечанием о шершавом нижнем регистре (карточка реестра). Отдельного разбора Ganymed в проверенных источниках нет. Ganymed присутствует в полном 13-трековом списке диска (зафиксирован в досье D 768: «Der Sänger, Gesänge des Harfners, Prometheus, Ganymed, Grenzen der Menschheit, Erlkönig, Szene aus Faust, Der Zwerg, Auf dem Wasser zu singen, Liedesend», Discogs 8778752).",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Thomas Quasthoff — Goethe-Lieder (RCA 09026 618642)»",
+        "planning/youtube/data/d768-*.dossier.json — полный трек-лист RCA-диска (Discogs 8778752)",
+        "метаданные Topic-трека T6mE6LdYlq4 (℗ 1993 BMG Music, RCA Red Seal)"
+      ],
+      "youtube": [
+        {"videoId": "T6mE6LdYlq4", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true, "duration_s": 248}
+      ],
+      "note": "Высший приоритет по правилам. Единственная студийная версия песни у Квастхофа."
+    },
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Evgeny Kissin",
+      "rec_year": "не установлен (концерт в Вербье; альбом ℗ 2023)",
+      "year_source": "Метаданные официальной Topic-загрузки aRDd-lqVavM: альбом «Thomas Quasthoff in Verbier», Universal Music Group, ℗ 2023 Verbier Festival Gold. Год самого концерта установить не удалось: релиз отсутствует и в MusicBrainz (поиск release «Thomas Quasthoff in Verbier» — 0), и в Discogs (поиск Quasthoff+Verbier — 0). Метаданные загрузки датой записи не являются.",
+      "album": "Thomas Quasthoff in Verbier",
+      "label": "Verbier Festival Gold / UMG",
+      "age_voice": "Не определяемо без года концерта; концертная карьера Квастхофа в классике завершена в январе 2012, значит запись — не позднее 2011.",
+      "reputation": "Критических откликов не найдено (релиз архивной серии фестиваля). Уникальность — Евгений Кисин за роялем.",
+      "sources": [
+        "метаданные Topic-трека aRDd-lqVavM (℗ 2023 Verbier Festival Gold, UMG)",
+        "MusicBrainz release search «Thomas Quasthoff in Verbier» — 0 результатов",
+        "Discogs search «Thomas Quasthoff Verbier» — 0 результатов"
+      ],
+      "youtube": [
+        {"videoId": "aRDd-lqVavM", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true, "duration_s": 255}
+      ],
+      "note": "Запасной вариант для приоритета №1, если студийная версия по качеству проиграет. Требует целевого доисследования года концерта (по правилу — допустим диапазон со знаком вопроса)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": "1959",
+      "year_source": "Реестр альбомов проекта: DG SLPM 138 117 «Ein Schubert-Goethe-Liederabend», сессии 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960; переизд. DG «The Originals» 457 747-2. Подтверждение: ℗ 1960 Deutsche Grammophon в метаданных Topic-трека T34nu7_fd9s.",
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117) / Schubert: Goethe Lieder",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года — самая середина пика (~1951–1972). Голос полный, ровный, без сухости поздних лет.",
+      "reputation": "Диск переиздан в престижной серии DG «The Originals» и в боксе «Complete Lieder Recordings on DG» (4862073, 2022) — маркер канонического статуса. Отдельных рецензий именно на Ganymed в проверенных источниках нет.",
+      "sources": [
+        "planning/youtube/albums.md — карточки «Ein Schubert-Goethe-Liederabend (DG SLPM 138 117)»",
+        "метаданные Topic-трека T34nu7_fd9s (℗ 1960 DG, альбом «Schubert: Goethe Lieder», Demus)"
+      ],
+      "youtube": [
+        {"videoId": "T34nu7_fd9s", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 282}
+      ],
+      "note": "Самая широкая по темпу из трёх версий Ф.-Д. (282 с против 253 с у своды с Муром)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция проекта для свода; сессии свода 1966–1972; трек ℗ 1970)",
+      "year_source": "DG «Sämtliche Lieder» (21 CD), Ufa-Ton-Studio Берлин, сессии 1966–1972 — реестр альбомов проекта. ВАЖНО: в дискографии Грея Ganymed на гётевском LP DG 2530 229 ОТСУТСТВУЕТ (полный список 17 позиций этого LP выгружен: D 119, 149, 162, 225, 216, 257, 259, 224, 138, 296, 328, 478b, 479, 480, 121b — Ganymed нет), значит трек стоит на другом томе свода, конкретная сессия по Грею не найдена. Вторичное подтверждение года издания — ℗ 1970 Deutsche Grammophon в метаданных Topic-треков.",
+      "album": "Schubert: Sämtliche Lieder (21 CD) / Schubert: Lieder (Vol. 1)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–45 лет; поздняя часть пика, голос ещё полный, но уже суше, чем в 1959.",
+      "reputation": "Базовая точка отсчёта корпуса — единственный полный свод мужских песен Шуберта одним певцом; постоянно переиздаётся. Разбора именно Ganymed не найдено.",
+      "sources": [
+        "planning/youtube/albums.md и albums/complete-editions.md §3 — карточки свода",
+        "classical-discography.org (Michael Gray), POST-поиск composer=Schubert & number=2530 229 — 17 записей, Ganymed не значится",
+        "метаданные Topic-треков qMbUoeue3hk и NrorcsZ9LVw (℗ 1970 DG, Moore)"
+      ],
+      "youtube": [
+        {"videoId": "qMbUoeue3hk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 253},
+        {"videoId": "NrorcsZ9LVw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 253}
+      ],
+      "note": "Две Topic-загрузки — одна фонограмма, разные релизы («Schubert: Lieder» и «Schubert: Lieder (Vol. 1)»); при публикации брать одну."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Günther Weißenborn",
+      "rec_year": "1954",
+      "year_source": "Реестр альбомов проекта: Audite 95.583 «Schubert: Lieder Collection — WDR The Cologne Broadcasts», радиозапись WDR Кёльн, примечание релиза «Recorded cologne, 1954»; издание 2007. ℗-метка Topic-трека xxfpGaaacAQ — 2007 (Kontor New Media), то есть год издания, не записи.",
+      "album": "Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583)",
+      "label": "Audite (радиофонд WDR)",
+      "age_voice": "29 лет — ранний пик, самый свежий и светлый тон из трёх версий Ф.-Д.",
+      "reputation": "Серия радиозаписей Audite ценится за документальную точность реставрации (ремастеринг Ludger Böckenhoff); критических откликов именно на Ganymed не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Audite 95.583",
+        "метаданные Topic-трека xxfpGaaacAQ (Fischer-Dieskau & Günther Weißenborn)"
+      ],
+      "youtube": [
+        {"videoId": "xxfpGaaacAQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 259}
+      ],
+      "note": "Загрузка идёт через Kontor New Media (агрегатор Audite), а не через мейджор — формально Topic-канал певца, официальность подтверждена."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Edwin Fischer",
+      "rec_year": "1952",
+      "year_source": "Дискография Майкла Грея, запись id 58273: «Ganymed, D544, op. 19, no. 3 — 1952 October 7 — London, EMI Studio No. 1A, Abbey Road — Columbia UK 33CX 1040 — Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano». Сессии диска — 4–7 октября 1952 (реестр проекта). Подтверждение: ℗ 1953 Parlophone в метаданных Warner-загрузки ogucYo-tD28.",
+      "album": "Schubert: Lieder (Columbia 33CX 1040); переизд. Naxos Historical 8.111287, Warner «The Complete Recitals 1952–1974»",
+      "label": "Columbia (EMI) / Warner Classics",
+      "age_voice": "36 лет; пик 1948–1964. Рецитал с Эдвином Фишером в дайджесте назван эталоном её шубертовского пения.",
+      "reputation": "Эталонная позиция всего проекта: этот же диск дал со-победителя слепого теста 2020 по Gretchen; в антологии Diapason «22 Lieder» (2023) с него отобраны три номера (An Sylvia, Die junge Nonne, Nähe des Geliebten). Отдельного разбора Ganymed нет — сравнительной страницы по D 544 на klassik-prisma не существует.",
+      "sources": [
+        "classical-discography.org (Michael Gray), modalcontent.php?id=58273",
+        "planning/youtube/albums.md — карточка Columbia 33CX 1040 / Naxos 8.111287",
+        "Discogs 30791559 — трек-лист Diapason «22 Lieder»",
+        "метаданные Topic-трека ogucYo-tD28 (Warner Classics, ℗ 1953, 2000 Parlophone)"
+      ],
+      "youtube": [
+        {"videoId": "ogucYo-tD28", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 292, "release": "Warner Classics «Schubert: Lieder», ℗ 1953/2000"},
+        {"videoId": "ZENoHJ2rXCI", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 284, "release": "Naxos Historical «Schubert: Lieder (Schwarzkopf) (1952-1954)», ℗ 2008 — та же фонограмма, другая реставрация"},
+        {"videoId": "tb4Kd_-2e2E", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": false, "oembed_ok": true, "duration_s": 289, "release": "Urania ℗ 2007 — «серый» переиздатель, не брать"}
+      ],
+      "note": "ЛОВУШКА: Topic-загрузка hsIp0p2hHTA («Ganymed, D.544», 292 с) — НЕ фортепианная версия: это оркестровка с Otto Ackermann и Philharmonia Orchestra (метаданные The Orchard, ℗ 2015). Не путать. Для плеера — ogucYo-tD28 (Warner, официальный правообладатель)."
+    },
+    {
+      "singer": "Kathleen Ferrier",
+      "pianist": "Benjamin Britten",
+      "rec_year": "1952",
+      "year_source": "Официальная загрузка Decca/UMG y1qjWnTPCgY с диска «Kathleen Ferrier Vol. 4 — Schumann / Schubert / Brahms» помечена «(1952 Version)»; тот же материал на Decca-релизе «Schumann • Brahms • Schubert» (Discogs 12132126, трек 17 «Ganymed, D 544»; в кредитах релиза Benjamin Britten, piano). ОГОВОРКА: точная дата сессии по дискографии Грея не найдена — в его базе шубертовской сессии Ферриер с Бриттеном нет (проверены все 14 записей Ferrier/1952 и полный перечень по работе Ganymed).",
+      "album": "Kathleen Ferrier Vol. 4 — Schumann / Schubert / Brahms (Decca); Centenary Edition — The Complete Decca Recordings",
+      "label": "Decca / UMG",
+      "age_voice": "40 лет; последний год работы — умерла 8 октября 1953. Дайджест: умерла на пике; в 1952-м уже больна, но голос и выразительность на высоте.",
+      "reputation": "Записи Ферриер с Бриттеном за роялем — легендарная часть её наследия и её последние студийные сессии. Diapason в антологии «22 Lieder» (2023) взял с этого круга An die Musik и Der Tod und das Mädchen. Отдельного разбора Ganymed нет.",
+      "sources": [
+        "Discogs 12132126 (Decca «Schumann • Brahms • Schubert», трек 17 Ganymed D 544; extraartists: Benjamin Britten — Piano)",
+        "метаданные Topic-трека y1qjWnTPCgY (Decca/UMG, «(1952 Version)»)",
+        "classical-discography.org — отрицательный результат по сессии"
+      ],
+      "youtube": [
+        {"videoId": "y1qjWnTPCgY", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true, "duration_s": 260},
+        {"videoId": "5kku23cDmGE", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true, "duration_s": 262, "release": "та же фонограмма на компиляции «Sleep: 111 Pieces…» — не брать"}
+      ],
+      "note": "Сильнейший кандидат из «звёзд прошлого» по составу (контральто + Бриттен). Год в плеере — 1952."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961",
+      "year_source": "Дискография Грея, id 175956: «Ganymed, D544 — 1961 November 29 — London, EMI Studio No. 1, Abbey Road — Columbia UK SAX 5272 / Angel S 36462 — Christa Ludwig, mezzo-soprano; Geoffrey Parsons, piano». (℗-метка Topic — 1967 Parlophone, то есть год издания LP «15 Lieder», не сессии.)",
+      "album": "Schubert Lieder (Columbia SAX 5272 / Angel S 36462); «15 Lieder» / Warner «The Complete Recitals»",
+      "label": "Columbia (EMI) / Warner Classics",
+      "age_voice": "33 года; ядро пика (~1957–1975). Тот же корпус сессий дал 5-звёздную по klassik-prisma Gretchen.",
+      "reputation": "Круг записей Ludwig/Parsons 1961–62 — самая ценимая её шубертовская серия (по пилоту D 118, D 828). Fischerweise с этого корпуса взят Diapason в антологию «22 Lieder». Разбора Ganymed нет.",
+      "sources": [
+        "classical-discography.org, modalcontent.php?id=175956",
+        "planning/youtube/albums/female-recitalists.md — карточка Columbia SAX 5272",
+        "метаданные Topic-трека uMf2IqQu09s (Warner, ℗ 1967 Parlophone)"
+      ],
+      "youtube": [
+        {"videoId": "uMf2IqQu09s", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 258}
+      ],
+      "note": "Приоритетная певица по правилам (группа «прочие звёзды прошлого»). Год в плеере — 1961 (сессия по Грею), а не 1967."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Erik Werba",
+      "rec_year": "1957",
+      "year_source": "Метаданные официальной DG/UMG-загрузки ByGkmfjyQLs: альбом «The Art Of Irmgard Seefried – Volume 4: Lieder», ℗ 1957 Deutsche Grammophon. Совпадает с карточкой реестра «Seefried — Lieder nach Gedichten von Goethe (DG), 1957 (℗), пианист Erik Werba». ОГОВОРКА: отношение этой сессии к LP DG 136 009 (сессии 30.05 + 3, 7–8.06.1958 по Грею) в реестре помечено как неустановленное.",
+      "album": "Lieder nach Gedichten von Goethe (DG) / The Art of Irmgard Seefried Vol. 4",
+      "label": "Deutsche Grammophon",
+      "age_voice": "37–38 лет; пик (кон. 1940-х — нач. 1960-х), спад начался только с середины 1960-х.",
+      "reputation": "ГЛАВНЫЙ маркер канона по этой песне: именно Ganymed Зефрид/Вербы редакция Diapason выбрала в антологию «22 Lieder» (Les Indispensables de Diapason, сентябрь 2023) — единственный Ganymed на всём диске, отобранном из исторических шубертовских записей Андерса, Ферриер, Фишера-Дискау, Грюммер, Хоттера, Хюша, Леман, Людвиг, Шлюснуса, Э. Шуман, Шварцкопф и Зефрид.",
+      "sources": [
+        "Discogs 30791559 — трек-лист Diapason «22 Lieder», трек 16: «Ganymed D544 — Erik Werba (Piano); Irmgard Seefried (Soprano Vocals)»",
+        "planning/youtube/albums.md — карточка «Seefried — Lieder nach Gedichten von Goethe (DG), 1957»",
+        "метаданные Topic-трека ByGkmfjyQLs (℗ 1957 DG)"
+      ],
+      "youtube": [
+        {"videoId": "ByGkmfjyQLs", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true, "duration_s": 223},
+        {"videoId": "Y1mUyiRmWcU", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true, "duration_s": 239, "release": "Orfeo «Irmgard Seefried (Recorded in 1944-1967)», ℗ 2016 — другая (вероятно концертная) версия; год конкретного трека не установлен"}
+      ],
+      "note": "Есть ещё несколько Topic-версий Зефрид (piDc_60Rpz4 231 с, Sgdaob33LIc 200 с, _fq3TCMJ2kI «(Live)» 228 с, S4hSUDHlSMk 225 с) — сборники/лайвы Orfeo и агрегаторов; для плеера брать ByGkmfjyQLs (DG, ℗ 1957)."
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "1968",
+      "year_source": "Дискография Грея, id 4310: «Lieder — Decca OS 26430 — 1968 December 10–13 — Snape, The Maltings — Peter Pears, tenor; Benjamin Britten, piano». Совпадает с пометкой «(1968 Version)» в официальной Decca/UMG-загрузке XktI8PZkrR4.",
+      "album": "Schubert Lieder (Decca OS 26430); переизд. «Britten The Performer» (Decca, 2010)",
+      "label": "Decca / UMG",
+      "age_voice": "58 лет; поздний пик — тембр специфический, суховатый, но интерпретаторски на высоте (дайджест: пик 1950-е–1960-е).",
+      "reputation": "Дуэт Пирс/Бриттен — одна из самых признанных шубертовских связок (их Winterreise 1963 дайджест относит к величайшим). Отдельного разбора Ganymed нет.",
+      "sources": [
+        "classical-discography.org, modalcontent.php?id=4310",
+        "метаданные Topic-трека XktI8PZkrR4 (Decca, «Britten The Performer», ℗ 2010; трек помечен «(1968 Version)»)"
+      ],
+      "youtube": [
+        {"videoId": "XktI8PZkrR4", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true, "duration_s": 255},
+        {"videoId": "T9Yxyh8mifU", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true, "duration_s": 259, "release": "дубль той же фонограммы на другом релизе"}
+      ],
+      "note": "Вторая по важности «бриттеновская» версия песни после Ферриер."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": "1973",
+      "year_source": "Дискография Грея, id 188049: «Ganymed, D544 — 1973 March 2–18 — München — Philips 6500 515 — Hermann Prey, baritone; Karl Engel, piano» (LP «Goethe-Lieder», разделённый с Elly Ameling). Подтверждение: ℗ 1973 в метаданных Topic-трека r-aarnJEZlw (альбом «Schubert: Goethe-Lieder»).",
+      "album": "Schubert: Goethe-Lieder (Philips 6500 515)",
+      "label": "Philips / Universal",
+      "age_voice": "43 года; пик ~1960–1980, голос ещё гибкий и светлый.",
+      "reputation": "Прей — основатель Шубертиады в Хоэнемсе (1976) и один из двух главных немецких Lied-баритонов эпохи; отдельных рецензий на его Ganymed не найдено.",
+      "sources": [
+        "classical-discography.org, modalcontent.php?id=188049 (и id=176427 — параллельная версия с Hokanson)",
+        "метаданные Topic-треков r-aarnJEZlw (℗ 1973) и As92-qqN0a4 (℗ 1974, «Lied-Edition Vol. 2», тоже Engel)"
+      ],
+      "youtube": [
+        {"videoId": "r-aarnJEZlw", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 257},
+        {"videoId": "As92-qqN0a4", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 255, "release": "«Lieder von Franz Schubert – Lied-Edition Vol. 2», ℗ 1974, Engel"},
+        {"videoId": "teMpyoVRH-w", "channel": "davidhertzberg", "official": false, "oembed_ok": null, "release": "фан-перенос LP Philips 6573 010, в заголовке «1969» — метаданным загрузки не верить"}
+      ],
+      "note": "У Прея по Грею ДВЕ разные сессии Ganymed: с Hokanson (Philips 6747 059, 27–30 октября 1971, Мюнхен) и с Engel (6500 515, 2–18 марта 1973). Заголовок фан-загрузки «1969» противоречит обеим и источником не является."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Jacqueline Bonneau",
+      "rec_year": "не установлен (начало 1950-х)",
+      "year_source": "MusicBrainz указывает состав Souzay/Bonneau. Дуэт с Бонно у Сузе относится к Decca-периоду: LXT 2543 / London LLP 245, сессии 22 и 24 мая 1950, West Hampstead (Грей, реестр albums/complete-editions.md), и 10-дюймовые рециталы Decca LW 50108/50168 с недатированными сессиями. Привязать Ganymed к конкретной сессии не удалось: в перечне Грея по работе Ganymed записей Сузе нет вовсе.",
+      "album": "Decca-рециталы начала 1950-х; на YouTube — переиздания «Gérard Souzay Vol. 3» (M.A.T. Music Theme Licensing / Kontor New Media)",
+      "label": "Decca (оригинал); Topic-загрузки — через агрегаторов",
+      "age_voice": "около 32 лет, если сессия 1950-го — ранний «шёлковый» период, лучшая форма (пик 1950-е — сер. 1960-х).",
+      "reputation": "Сузе — эталон французской школы в немецкой песне; конкретных отзывов о его Ganymed не найдено.",
+      "sources": [
+        "MusicBrainz work e264c420-baad-3a04-a3ce-daa248764e8a (recording «Ganymed» — Gérard Souzay, Jacqueline Bonneau)",
+        "planning/youtube/albums/complete-editions.md §Souzay (Decca LXT 2543, зап. 22 + 24.05.1950, Bonneau)",
+        "метаданные Topic-треков _PrA3buyOEY (℗ 2011 M.A.T.) и 9KtSsFhdD-4 (℗ Kontor New Media)"
+      ],
+      "youtube": [
+        {"videoId": "_PrA3buyOEY", "channel": "Gérard Souzay - Topic", "official": false, "oembed_ok": true, "duration_s": 236},
+        {"videoId": "9KtSsFhdD-4", "channel": "Gérard Souzay - Topic", "official": false, "oembed_ok": true, "duration_s": 236},
+        {"videoId": "y5BzAzieREU", "channel": "Gérard Souzay - Topic", "official": false, "oembed_ok": null, "duration_s": 296, "release": "другая, более медленная версия — вероятно Philips/Baldwin; не отождествлена"}
+      ],
+      "note": "Загрузки идут через «серые» лейблы-агрегаторы (M.A.T., Kontor), а не через правообладателя Universal — риск снятия выше. Год не установлен: по правилу допустима публикация с диапазоном «1950–54?», но только если запись пройдёт качественный фильтр."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Phillip Moll",
+      "rec_year": "1984",
+      "year_source": "Реестр альбомов проекта: «Jessye Norman — Schubert: Lieder (Philips)», запись апрель 1984, ℗ 1985, релиз 24.09.1985. Подтверждение: ℗ 1985 Universal в метаданных Topic-трека UC6DbwsF1GM.",
+      "album": "Schubert: Lieder (Philips)",
+      "label": "Philips / Universal",
+      "age_voice": "38 лет; пик ~1975–1995. Дайджест характеризует её шубертовскую манеру как монументальную.",
+      "reputation": "Диск в реестре проекта отмечен как обладатель единственной женской пятёрки klassik-prisma по Erlkönig. Ganymed отдельно не разбирался; специфический риск — оперная монументальность в песне утренней лёгкости.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Jessye Norman — Schubert: Lieder (Philips)»",
+        "метаданные Topic-трека UC6DbwsF1GM (℗ 1985 Universal International)"
+      ],
+      "youtube": [
+        {"videoId": "UC6DbwsF1GM", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true, "duration_s": 267},
+        {"videoId": "UEthwIQvRW8", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": null, "duration_s": 267, "release": "дубль"}
+      ],
+      "note": "У Норман есть и живой шубертовский вечер с Parsons (Хоэнемс, июнь 1987, Philips 422 048) — вхождение туда Ganymed не проверено."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Rudolf Jansen",
+      "rec_year": "1986 (год ℗; сессия не установлена)",
+      "year_source": "Метаданные официальной Universal-загрузки WupiHd5lHHM: альбом «Schubert: Lieder», ℗ 1986 Universal International. В реестре проекта карточка «Ameling — Schubert: Lieder (℗ 1986, Rudolf Jansen)» помечена как требующая дискографической проверки; в перечне Грея по работе Ganymed записей Амелинг нет.",
+      "album": "Schubert: Lieder (Philips)",
+      "label": "Philips / Universal",
+      "age_voice": "53 года; конец пика (~1965–1985) — самая записываемая шубертианка поколения, стиль безупречен, тембр уже не юный.",
+      "reputation": "Амелинг — эталон «светлого» женского Шуберта своего поколения; отдельных отзывов на Ganymed не найдено.",
+      "sources": [
+        "метаданные Topic-треков WupiHd5lHHM (℗ 1986) и 78g7U5jQ0Ak (℗ 1986, дубль)",
+        "planning/youtube/albums/female-recitalists.md — карточка «Ameling — Schubert: Lieder (℗ 1986, Rudolf Jansen)»"
+      ],
+      "youtube": [
+        {"videoId": "WupiHd5lHHM", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 298},
+        {"videoId": "78g7U5jQ0Ak", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": null, "duration_s": 296},
+        {"videoId": "BtybfO4YpdY", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": null, "duration_s": 283, "release": "лайв Tanglewood 2.07.1987 — отдельная версия"},
+        {"videoId": "TfmYOzACz9E", "channel": "Elly Ameling - Topic", "official": false, "oembed_ok": true, "duration_s": 284, "release": "Brilliant Classics — «серое» переиздание"}
+      ],
+      "note": "Самая протяжённая трактовка пула (≈5 минут)."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994",
+      "year_source": "Реестр альбомов проекта: DG 445 294-2 «An die Musik – Favourite Schubert Songs», запись февраль 1994, Friedrich-Ebert-Halle, Гамбург-Харбург; издание 04.09.1994. Подтверждение: ℗ 1994 DG в метаданных Topic-трека Vj1FCA-6pZU.",
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28 лет; ранний пик (~1992–2005), голос свежий и мощный.",
+      "reputation": "Бестселлер каталога DG; klassik-prisma по Erlkönig с этого диска — 4–5 баллов (реестр). Скепсис по правилу: коммерческий успех диска не равен интерпретаторскому первенству, разбора Ganymed нет.",
+      "sources": [
+        "planning/youtube/albums.md — карточка DG 445 294-2",
+        "метаданные Topic-трека Vj1FCA-6pZU (℗ 1994 DG)"
+      ],
+      "youtube": [
+        {"videoId": "Vj1FCA-6pZU", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true, "duration_s": 237}
+      ],
+      "note": "Самая быстрая трактовка пула (3'57\") — заметно быстрее старых мастеров."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "1997 (по метаданным релиза; сессия не установлена)",
+      "year_source": "Метаданные официальной Universal-загрузки bI_r6OCwCUA: альбом «Schubert: Goethe Lieder», release_year 1997. Дискографического подтверждения сессии (буклет Decca) в этой сессии получить не удалось; в перечне Грея записей Гёрне нет (база ограничена ~1950–1980-ми).",
+      "album": "Schubert: Goethe Lieder (Decca)",
+      "label": "Decca / Universal",
+      "age_voice": "30 лет; начало пика (~1997–2015), голос тёмный и ровный.",
+      "reputation": "Гёрне — самый записываемый Schubert-баритон поколения; по правилу о скепсисе к прессе о современных исполнителях требует сравнения с мастерами, а не опоры на маркетинг.",
+      "sources": [
+        "MusicBrainz work e264c420 — recording «Ganymed» (Matthias Goerne, Andreas Haefliger, 279 с)",
+        "метаданные Topic-трека bI_r6OCwCUA (Universal, «Schubert: Goethe Lieder»)"
+      ],
+      "youtube": [
+        {"videoId": "bI_r6OCwCUA", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "duration_s": 281}
+      ],
+      "note": "Ранняя из двух версий Гёрне; по правилу «при прочих равных — более раннюю» имеет преимущество перед HM-версией 2011/12."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2011–2012",
+      "year_source": "Реестр альбомов проекта (albums/complete-editions.md §4): Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied» (HMC 902109.10, 2 CD), сессии II и IV.2011 (CD 1), VI.2011 и II.2012 (CD 2), студия Teldex; издание II.2014. Подтверждение: harmonia mundi в метаданных Topic-трека WOPyjE1hgTY.",
+      "album": "Schubert: Wanderers Nachtlied — Goerne Schubert Edition Vol. 8 (HMC 902109.10)",
+      "label": "harmonia mundi",
+      "age_voice": "44 года; поздняя часть пика, тембр плотнее и темнее, чем в 1997.",
+      "reputation": "Крупнейший сольный шубертовский свод последних десятилетий (12 томов, 2008–2014). Отдельного разбора Ganymed нет.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md §4, Vol. 8",
+        "метаданные Topic-трека WOPyjE1hgTY (harmonia mundi, «Schubert: Wanderers Nachtlied», Goerne & Helmut Deutsch)"
+      ],
+      "youtube": [
+        {"videoId": "WOPyjE1hgTY", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "duration_s": 261}
+      ],
+      "note": "Есть также камерно-оркестровая аранжировка Шмальца (vXKjFx8At6s) — не фортепианная версия."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1996",
+      "year_source": "Реестр albums/modern-series.md: «Bostridge — Schubert Lieder [Vol. 1] (EMI 7243 5 56347 2 6), зап. февраль–март 1996, Abbey Road Studio 1, изд. 1998». Topic-загрузка (Warner Classics) года записи не указывает.",
+      "album": "Schubert Lieder [Vol. 1] (EMI)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "31 год; начало пика (~1995–2010) — дебютный студийный рецитал, по реестру считается сильнейшей его ранней работой.",
+      "reputation": "Реестр: дебютный диск — сильнейшая ранняя работа Бостриджа. Дайджест предупреждает, что поздний Бостридж манернее и суше; ранняя запись этого недостатка лишена.",
+      "sources": [
+        "planning/youtube/albums/modern-series.md §Bostridge",
+        "метаданные Topic-трека FnFanYWjfO0 (Warner Classics, «Schubert: Lieder»)"
+      ],
+      "youtube": [
+        {"videoId": "FnFanYWjfO0", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "duration_s": 238}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (хаммерклавир)",
+      "rec_year": "1994",
+      "year_source": "Реестр альбомов проекта: DHM 05472 77342 2 «Schubert: Songs to Poems by Johann Wolfgang Goethe», запись 10–13 октября 1994, студия Stollberger Str., WDR Кёльн, копродукция с WDR; издание 1995. Метаданные Topic-трека SI5L56pvk_w дают release_year 1995 (год издания).",
+      "album": "Schubert: Songs to Poems by Goethe (DHM 05472 77342 2)",
+      "label": "Deutsche Harmonia Mundi (BMG)",
+      "age_voice": "38 лет; пик ~1990–2012, светлый лирический тенор в лучшей форме.",
+      "reputation": "Периодный эталон гётевского блока: хаммерклавир — копия венского инструмента Johann Fritz ок. 1815 работы Christopher Clarke (Париж, 1981), то есть инструмент времени сочинения песни (1817).",
+      "sources": [
+        "planning/youtube/albums.md — карточки DHM 05472 77342 2",
+        "метаданные Topic-трека SI5L56pvk_w (Deutsche Harmonia Mundi)"
+      ],
+      "youtube": [
+        {"videoId": "SI5L56pvk_w", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true, "duration_s": 246}
+      ],
+      "note": "Единственный периодно-инструментальный кандидат пула."
+    },
+    {
+      "singer": "Bernarda Fink",
+      "pianist": "Gerold Huber",
+      "rec_year": "2007",
+      "year_source": "Дайджест певцов: рецитал harmonia mundi, запись 2007, пианист Huber. Метаданные Topic-трека 5tbYJRkdXWw: harmonia mundi, «Schubert: Lieder», released on 2008-09-02 (дата издания).",
+      "album": "Schubert: Lieder (harmonia mundi)",
+      "label": "harmonia mundi",
+      "age_voice": "52 года; пик ~1995–2015, тёплое зрелое меццо.",
+      "reputation": "Этот диск дал со-победителя слепого теста 2020 по Gretchen наряду со Шварцкопф/Фишером (дайджест) — самый сильный «современный» результат в фонде проекта.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Fink",
+        "метаданные Topic-трека 5tbYJRkdXWw (harmonia mundi, изд. 02.09.2008)"
+      ],
+      "youtube": [
+        {"videoId": "5tbYJRkdXWw", "channel": "Bernarda Fink - Topic", "official": true, "oembed_ok": true, "duration_s": 249}
+      ],
+      "note": "Лучший кандидат на «современное» место пятёрки среди женщин."
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2017",
+      "year_source": "Реестр альбомов проекта: Hyperion CDA68169 «Schubert: 21 Songs», запись 18–21 декабря 2017, All Saints' Church, East Finchley, Лондон; издание май 2022. Подтверждение: ℗ 2022 Hyperion в метаданных Topic-трека w2Lg17RlxRE.",
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "label": "Hyperion",
+      "age_voice": "49 лет; зрелый пик (~2005–наст.).",
+      "reputation": "Пресса по альбому (реестр): Gramophone — «with an underlying tension», «doesn't sugar-coat anything»; BBC Music Magazine — «every note is delivered with white-hot sincerity». Оценки относятся к диску в целом, не к Ganymed.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Hyperion CDA68169",
+        "метаданные Topic-трека w2Lg17RlxRE (℗ 2022 Hyperion Records Limited, UMG)"
+      ],
+      "youtube": [
+        {"videoId": "w2Lg17RlxRE", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": true, "duration_s": 269}
+      ],
+      "note": "Кандидат на позицию «не ранее 2015» по возрастной структуре пятёрки."
+    },
+    {
+      "singer": "Carolyn Sampson",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2020",
+      "year_source": "Реестр альбомов проекта: BIS «Elysium — A Schubert Recital», запись 21–23 сентября 2020, Potton Hall, Саксмандем, Суффолк; выпуск 03.03.2023. Подтверждение: ℗ 2023 BIS в метаданных Topic-трека DWcIUlLitcw.",
+      "album": "Elysium — A Schubert Recital (BIS)",
+      "label": "BIS",
+      "age_voice": "46 лет; пик (~2010–наст.), лёгкое чистое сопрано барочной выучки.",
+      "reputation": "Отзывов именно на Ganymed не найдено; линия Sampson/Middleton в проекте уже представлена («A Soprano's Schubertiade», 2017).",
+      "sources": [
+        "planning/youtube/albums.md — карточка BIS «Elysium»",
+        "метаданные Topic-трека DWcIUlLitcw (℗ 2023 BIS, PLATOON)"
+      ],
+      "youtube": [
+        {"videoId": "DWcIUlLitcw", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true, "duration_s": 242}
+      ],
+      "note": "Альтернатива Coote на «свежее» место пятёрки."
+    },
+    {
+      "singer": "Barbara Bonney",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1994",
+      "year_source": "Реестр альбомов проекта: Teldec 4509-90873-2, запись апрель 1994, Teldec Studio Berlin; продюсер Martin Fouqué, звукорежиссёр Ulrich Ruscher.",
+      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)",
+      "label": "Teldec / Warner",
+      "age_voice": "38 лет; пик 1990-х.",
+      "reputation": "Диск в реестре проекта используется как опорный женский рецитал 1990-х; отзывов на Ganymed нет.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Teldec 4509-90873-2",
+        "MusicBrainz: recording «Ganymed, D544, op. 19/3» — Barbara Bonney, Geoffrey Parsons (260 с)"
+      ],
+      "youtube": [
+        {"videoId": "eo0FmxIK3dU", "channel": "acatalano2641", "official": false, "oembed_ok": false, "note": "oEmbed 401 — встраивание запрещено, для плеера непригоден"},
+        {"videoId": "iqOLoWiNbTI", "channel": "QUEEN CURE MARINESNOW", "official": false, "oembed_ok": null, "duration_s": 262}
+      ],
+      "note": "ОГРАНИЧЕНИЕ: официальной (Warner/Topic) загрузки Ganymed у Бонни не найдено — только фан-переносы, главный из которых не встраивается. Практически непригодна для плеера."
+    },
+    {
+      "singer": "Benjamin Appl",
+      "pianist": "нет — оркестр (аранжировка Kurt Gillmann)",
+      "rec_year": "не установлен",
+      "year_source": "Метаданные Topic-трека XC1B51nUzoc (Benjamin Appl – Topic). По MusicBrainz существуют две оркестровые версии Appl: с BBC Scottish Symphony Orchestra / John Wilson и с Münchner Rundfunkorchester / Oscar Jockel. Дискографической даты не установлено.",
+      "album": "оркестровые аранжировки песен Шуберта",
+      "label": "не установлен",
+      "age_voice": "не определено",
+      "reputation": "Не оценивалась.",
+      "sources": [
+        "MusicBrainz work e264c420 — две записи Appl с оркестром",
+        "метаданные Topic-трека XC1B51nUzoc"
+      ],
+      "youtube": [
+        {"videoId": "XC1B51nUzoc", "channel": "Benjamin Appl - Topic", "official": true, "oembed_ok": true, "duration_s": 263}
+      ],
+      "note": "ИСКЛЮЧИТЬ из основного отбора: не фортепианная версия, а оркестровая аранжировка Курта Гильмана."
+    },
+    {
+      "singer": "Herbert Janssen",
+      "pianist": "по MusicBrainz — Gerald Moore (в записи Грея пианист не указан)",
+      "rec_year": "1938",
+      "year_source": "Дискография Грея, id 56706: «Ganymed, D544 — 1938 March 22 — London, EMI Studio No. 3, Abbey Road — HMV — Herbert Janssen, baritone — префикс 2EA, матрица 6153 — Number: unissued». Пресс-факсимиле неизданной стороны: Historic Masters HMB 157 (2004; Discogs) — «Ganymed / Kriegers Ahnung».",
+      "album": "неизданная сторона HMV; факсимиле Historic Masters HMB 157 (2004); переизд. Marston/Pristine",
+      "label": "HMV / Historic Masters",
+      "age_voice": "46 лет; пик 1930-х — лучшая пора его лирического баритона (после переезда в США с ~1945 голос вянет, по дайджесту).",
+      "reputation": "Реестр отмечает Ganymed Янссена как его образцовую шубертовскую сторону; ключевые его треки входят в антологии EMI «Schubert Lieder on Record 1898–1952» (RLS 766) и «The Record of Singing Vol. 3» — маркер канонического статуса.",
+      "sources": [
+        "classical-discography.org, modalcontent.php?id=56706",
+        "planning/youtube/albums/male-recitalists.md §Janssen (Historic Masters HMB 157)",
+        "MusicBrainz: recording «Ganymed D. 544 (1997 Remastered Version)» — Herbert Janssen, Gerald Moore"
+      ],
+      "youtube": [],
+      "note": "НЕПРИГОДНА: на YouTube не найдена. Прицельный поиск (yt-dlp «Herbert Janssen Ganymed Schubert Gerald Moore», 8 результатов) Ganymed не дал — на Topic-канале Янссена только Брамс и Вольф."
+    },
+    {
+      "singer": "Karl Erb",
+      "pianist": "не указан",
+      "rec_year": "1912",
+      "year_source": "Дискография Грея, id 47854: «Ganymed, D544 — 1912 July — Odéon — Karl Erb, tenor — префикс xxB, матрица 5739».",
+      "album": "сторона Odéon (78 об.)",
+      "label": "Odéon",
+      "age_voice": "35 лет; пик (~1905–1930) — редкий случай, когда шубертовская запись Эрба сделана НЕ в старости (обычные его Schubert-стороны 1935–51 годов сделаны в 58–74 года).",
+      "reputation": "Исторический документ довоенного стиля; охват на YouTube у Эрба, по дайджесту, только фан/78 и archive.org.",
+      "sources": ["classical-discography.org, modalcontent.php?id=47854"],
+      "youtube": [],
+      "note": "Самая ранняя известная запись песни. На YouTube не найдена; в отбор не годится."
+    },
+    {
+      "singer": "Bruce Boyce",
+      "pianist": "Gerald Moore",
+      "rec_year": "1949",
+      "year_source": "Дискография Грея, id 66520: «Ganymed, D544 — 1949 March 23 — HMV C3900 — Bruce Boyce, baritone; Gerald Moore, piano — префикс 2EA, матрица 13751».",
+      "album": "сторона HMV C3900",
+      "label": "HMV",
+      "age_voice": "не исследовано (певец вне фонда проекта).",
+      "reputation": "Второстепенная фигура; в дайджесте фонда отсутствует.",
+      "sources": ["classical-discography.org, modalcontent.php?id=66520"],
+      "youtube": [],
+      "note": "Справочно, для полноты дискографической картины."
+    },
+    {
+      "singer": "Jan DeGaetani",
+      "pianist": "Gilbert Kalish",
+      "rec_year": "1974",
+      "year_source": "Дискография Грея, id 227998: «Ganymed, D544 — 1974 November 17–18 + 21 — New York, Rutgers Presbyterian Church — Nonesuch H-71320 — Jan DeGaetani, mezzo-soprano; Gilbert Kalish, piano».",
+      "album": "Nonesuch H-71320",
+      "label": "Nonesuch",
+      "age_voice": "не исследовано (певица вне фонда проекта); ДеГаэтани — американская величина в песенном репертуаре XX века.",
+      "reputation": "Дуэт ДеГаэтани/Калиш — признанная американская Lied-связка 1970-х; немецких оценок по Шуберту не найдено. Самая протяжённая версия по MusicBrainz (318 с).",
+      "sources": [
+        "classical-discography.org, modalcontent.php?id=227998",
+        "MusicBrainz work e264c420"
+      ],
+      "youtube": [],
+      "note": "Официальной загрузки не искали прицельно; для пятёрки маловероятна."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "ЗАПИСАЛ, две версии. (1) Студийная: RCA «Schubert: Goethe-Lieder» с Charles Spencer, сессии 25–29 мая 1993, Ноймаркт — Ganymed входит в полный 13-трековый список диска (Discogs 8778752, зафиксирован в досье D 768); официальный Topic-трек T6mE6LdYlq4 (℗ 1993 BMG, RCA Red Seal). (2) Концертная: «Thomas Quasthoff in Verbier» с Евгением Кисиным, ℗ 2023 Verbier Festival Gold/UMG, Topic-трек aRDd-lqVavM; год концерта не установлен (релиз отсутствует в MusicBrainz и Discogs). MusicBrainz подтверждает связку Quasthoff/Spencer по этой работе.",
+    "Fischer-Dieskau": "ЗАПИСАЛ, три версии (все три подтверждены MusicBrainz work e264c420 и метаданными Topic-загрузок): с Günther Weißenborn — радиозапись WDR Кёльн 1954 (Audite 95.583, изд. 2007), Topic xxfpGaaacAQ; с Jörg Demus — DG SLPM 138 117, сессии 13–14 сентября 1959, Studio Lankwitz Берлин, ℗ 1960, Topic T34nu7_fd9s; с Gerald Moore — DG «Sämtliche Lieder», трек ℗ 1970, Topic qMbUoeue3hk / NrorcsZ9LVw. Уточнение: на гётевском LP свода DG 2530 229 Ganymed НЕТ (проверены все 17 позиций LP в дискографии Грея) — трек стоит на другом томе.",
+    "Schwarzkopf": "ЗАПИСАЛА. Дискография Грея (id 58273): 7 октября 1952, Abbey Road Studio 1A, Columbia 33CX 1040, с Эдвином Фишером за роялем. Официальная Warner-загрузка ogucYo-tD28 (℗ 1953, 2000 Parlophone); та же фонограмма в реставрации Naxos Historical (ZENoHJ2rXCI). ОТДЕЛЬНО: под её именем на Topic есть ОРКЕСТРОВАЯ версия Ganymed с Otto Ackermann и Philharmonia (hsIp0p2hHTA, ℗ 2015 The Orchard) — иная запись, не путать. Реестр упоминает также концертный релиз Orfeo «Schubert & Wolf: Lieder (Live)» с Джеральдом Муром, где на Topic-канале значится Ganymed; год концерта не установлен.",
+    "Hotter": "НЕ НАЙДЕНО. (а) В MusicBrainz work e264c420 (60 записей) Хоттера нет. (б) Поиск Discogs API по треку: artist=Hans Hotter & track=Ganymed — 1 результат, и это антология Diapason «22 Lieder» (2023), где Ganymed поёт Зефрид, а Хоттеру принадлежат Am Bach im Frühling D 361 и Sei mir gegrüßt D 741 (Discogs 30791559). Отрицательный результат.",
+    "Anders": "НЕ НАЙДЕНО. Поиск Discogs API artist=Peter Anders & track=Ganymed дал 7 релизов, ни один не содержит Ganymed Андерса: единственное реальное совпадение — та же антология Diapason «22 Lieder», где Андерсу принадлежит Im Frühling D 882 (с Раухайзеном), а Ganymed поёт Зефрид. В MusicBrainz по работе Андерса нет. Отрицательный результат.",
+    "E. Schumann": "НЕ НАЙДЕНО. Поиск Discogs API artist=Elisabeth Schumann & track=Ganymed — 1 результат, снова антология Diapason «22 Lieder», где ей принадлежат Du bist die Ruh D 776 и Der Musensohn D 764. В MusicBrainz по работе её нет. Отрицательный результат.",
+    "Ludwig": "ЗАПИСАЛА. Дискография Грея (id 175956): 29 ноября 1961, Abbey Road Studio No. 1, Columbia SAX 5272 / Angel S 36462, пианист Geoffrey Parsons. Официальная Warner-загрузка uMf2IqQu09s (бокс «The Complete Recitals on Warner Classics», ℗ 1967 Parlophone — год издания LP). Полноценный кандидат в пятёрку.",
+    "Popp": "ЗАПИСАЛА, но только концертно и на «пиратском» лейбле: Discogs API (artist=Lucia Popp & track=Ganymed) даёт единственный релиз — «Recital Covent Garden 1975» (Gala, изд. 1998, Discogs 23917319), где Ganymed — предпоследний номер шубертовского блока. Пианист в кредитах релиза не указан. Студийной записи не найдено ни в MusicBrainz, ни в Discogs. Официальной YouTube-загрузки нет; для отбора практически непригодна."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+      "singer": "Thomas Quasthoff",
+      "year": "1993 (сессии 25–26 и 28–29 мая), издание 1995",
+      "label": "RCA Victor Red Seal / BMG",
+      "facts": "Historischer Reitstadel, Ноймаркт; пианист Charles Spencer; 13 номеров, 61:42. Ganymed — в трек-листе. Уже в реестре albums.md.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1959 (сессии 13–14 сентября), издание 1960",
+      "label": "Deutsche Grammophon",
+      "facts": "Studio Lankwitz, Берлин; пианист Jörg Demus; полностью гётевская программа; переизд. «The Originals» 457 747-2 и бокс 4862073 (2022). Уже в реестре.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1954 (радиозапись WDR Кёльн), издание 2007",
+      "label": "Audite",
+      "facts": "Пианист Günther Weißenborn; ремастеринг Ludger Böckenhoff. Уже в реестре (по D 162); подтверждено вхождение Ganymed.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Columbia 33CX 1040)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "1952 (сессии 4–7 октября; Ganymed — 7 октября)",
+      "label": "Columbia (EMI) / Warner Classics",
+      "facts": "Abbey Road Studio No. 1A; Edwin Fischer за роялем. НОВЫЙ ФАКТ для реестра: дискография Грея (id 58273) даёт точную дату записи именно Ganymed — 7 октября 1952. Переизд. Naxos Historical 8.111287, Warner «Complete Recitals 1952–1974».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (Columbia SAX 5272 / Angel S 36462)",
+      "singer": "Christa Ludwig",
+      "year": "1961 (Ganymed — 29 ноября; сессии LP 28–30.11.1961 + 20.02.1962)",
+      "label": "Columbia (EMI) / Warner",
+      "facts": "Abbey Road Studio No. 1; Geoffrey Parsons. НОВЫЙ ФАКТ: точная дата сессии Ganymed — 29 ноября 1961 (Грей, id 175956). ℗-метка Topic (1967) — год издания, не записи.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder nach Gedichten von Goethe (DG) / The Art of Irmgard Seefried Vol. 4",
+      "singer": "Irmgard Seefried",
+      "year": "1957 (℗)",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Erik Werba. НОВЫЙ ФАКТ для реестра: именно Ganymed с этого круга отобран редакцией Diapason в антологию «22 Lieder» (2023) — единственный Ganymed на диске исторических записей. Соотношение сессии с LP DG 136 009 (30.05 + 3, 7–8.06.1958 по Грею) по-прежнему не установлено.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (Decca OS 26430)",
+      "singer": "Peter Pears",
+      "year": "1968 (сессии 10–13 декабря)",
+      "label": "Decca / UMG",
+      "facts": "НОВАЯ КАРТОЧКА для реестра: Snape, The Maltings; Benjamin Britten за роялем (Грей, id 4310). Закрывает вопрос о дате всех песен этого рецитала; переизд. в «Britten The Performer» (Decca, 2010).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Goethe-Lieder (Philips 6500 515)",
+      "singer": "Hermann Prey (диск разделён с Elly Ameling)",
+      "year": "1973 (сессии 2–18 марта, Мюнхен)",
+      "label": "Philips / Universal",
+      "facts": "НОВАЯ КАРТОЧКА: пианист Karl Engel (Грей, id 188049). Параллельно у Грея (id 176427) значится ДРУГАЯ сессия Ganymed того же певца — Philips 6747 059, 27–30 октября 1971, Мюнхен, пианист Leonard Hokanson. Две разные записи, не путать.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Kathleen Ferrier Vol. 4 — Schumann / Schubert / Brahms (Decca)",
+      "singer": "Kathleen Ferrier",
+      "year": "1952",
+      "label": "Decca / UMG",
+      "facts": "НОВАЯ КАРТОЧКА: пианист Benjamin Britten (Discogs 12132126 — трек 17 «Ganymed, D 544», в кредитах релиза Britten — Piano; официальный Decca-трек помечен «(1952 Version)»). В дискографии Грея эта сессия отсутствует — точная дата не установлена. Последний год жизни певицы.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Goethe Lieder (Decca)",
+      "singer": "Matthias Goerne",
+      "year": "1997 (по метаданным официального релиза; сессия не подтверждена буклетом)",
+      "label": "Decca / Universal",
+      "facts": "НОВАЯ КАРТОЧКА для реестра: пианист Andreas Haefliger. В реестре modern-series/complete-editions у Гёрне эта ранняя Decca-программа отсутствовала (значились Hyperion т. 27/30 и HM-свод 2008–2014).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Les Indispensables de Diapason — «22 Lieder» (сентябрь 2023)",
+      "singer": "антология (Anders, Ferrier, Fischer-Dieskau, Grümmer, Hotter, Hüsch, Lehmann, Ludwig, Schlusnus, E. Schumann, Schwarzkopf, Seefried)",
+      "year": "2023 (переиздание)",
+      "label": "Les Indispensables de Diapason",
+      "facts": "Полный трек-лист выгружен (Discogs 30791559). Для D 544 даёт двойной результат: положительный — Ganymed представлен записью Seefried/Werba; отрицательные — у Хоттера, Андерса и Э. Шуман редакция взяла другие песни, что косвенно подтверждает отсутствие у них Ganymed.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительной страницы по Ganymed D 544 НЕТ: индекс шубертовских песен сайта (https://www.klassik-prisma.de/Schubert.htm) содержит только D 774, D 965, D 828, D 328, D 118, D 583, D 827 и циклы (зафиксировано в нескольких досье проекта; проверка https://www.klassik-prisma.de/Schubert/Ganymed.htm — 404).",
+    "Les Indispensables de Diapason, «22 Lieder» (2023) — редакционный отбор эталонных исторических шубертовских записей; для Ganymed выбрана запись Seefried/Werba (Discogs 30791559). Ближайший к сравнительному обзору источник, найденный по этой песне.",
+    "hyperion-records.co.uk — страницу песни и заметки Грэма Джонсона получить не удалось: поиск сайта (advsearch.asp?searchtext=Ganymed) отдаёт 302 на страницу ошибки, прямые URL дают 404. Косвенно по MusicBrainz известно, что в Hyperion Schubert Edition Ganymed записан минимум трижды с Джонсоном за роялем — Christine Schäfer, Elizabeth Connell, Felicity Lott; номера томов не установлены.",
+    "Gramophone / MusicWeb / BBC Music Magazine — отдельных сравнительных обзоров Ganymed найти не удалось: лимит WebSearch в сессии был исчерпан (200/200) до начала работы, прямой доступ к поисковым системам через curl (Google, DuckDuckGo HTML) результатов не дал."
+  ],
+  "negatives": [
+    "Hotter, Anders, E. Schumann — Ganymed не записывали (двойная проверка: MusicBrainz work e264c420 из 60 записей + поиск Discogs API по треку; в антологии Diapason «22 Lieder», где все трое присутствуют, за ними закреплены другие песни).",
+    "Popp — только концертная запись на пиратском лейбле (Gala «Recital Covent Garden 1975», 1998), пианист не указан, официальной загрузки нет.",
+    "Bonney/Parsons (Teldec, апрель 1994) — официальной Topic-загрузки Ganymed НЕТ; главный фан-перенос eo0FmxIK3dU не встраивается (oEmbed 401). Практически непригодна для плеера.",
+    "Janssen (HMV, 22 марта 1938, матрица 2EA 6153, сторона осталась неизданной; факсимиле Historic Masters HMB 157, 2004) — на YouTube не найдена, прицельный поиск дал только его Брамса и Вольфа.",
+    "Karl Erb (Odéon, июль 1912, матрица 5739) и Bruce Boyce/Moore (HMV C3900, 23 марта 1949) — на YouTube не найдены.",
+    "Fischer-Dieskau / Moore: Ganymed НЕ входит в гётевский LP свода DG 2530 229 — проверены все 17 позиций LP в дискографии Грея; конкретную сессию трека установить не удалось, год берётся по конвенции проекта для свода.",
+    "Quasthoff/Kissin (Verbier): год концерта не установлен — релиза нет ни в MusicBrainz, ни в Discogs; ℗ 2023 относится к изданию.",
+    "Souzay: в перечне Грея по работе Ganymed записей Сузе нет; год сессии не установлен, обе Topic-загрузки идут через агрегаторов (M.A.T. Music Theme Licensing, Kontor New Media), а не через Universal.",
+    "Schwarzkopf: Topic-трек hsIp0p2hHTA — НЕ фортепианная версия (оркестр Philharmonia, дир. Otto Ackermann); tb4Kd_-2e2E — «серое» переиздание Urania. Для плеера годен только ogucYo-tD28 (Warner).",
+    "Appl (XC1B51nUzoc) — оркестровая аранжировка Kurt Gillmann, не фортепианная версия; из основного отбора исключается.",
+    "Записи из MusicBrainz, не проработанные (второй эшелон, вне пула значительных): Andreas Burkhart/Murakami, Arleen Augér/Orkis, Barbara Hendricks/Radu Lupu, Daniel Behle/Bjelland, Dawn Upshaw/Richard Goode, Elizabeth Connell/Johnson, Felicity Lott/Johnson, Christine Schäfer/Johnson (три тома Hyperion), Jasper Schweppe/Fukuda, Katharina Persicke/Tukiainen, Lauris Elms/Winther, Mary Bevan/Middleton, Mauro Peter/Deutsch, Miah Persson/Vignoles, Monica Groop/Jansen, Natalie Dessay/Cassard, Peter Schreier/Schiff, Sandrine Piau/Quatuor Psophos (струнный квартет), Sarah Walker/Vignoles, Sharon Carty/Ware, Thierry Félix/Badura-Skoda, Ulf Bästlein/Laux, Valérie Gabail/Restier, Yeree Suh/van Immerseel, Brigitte Fassbaender/Garben (Sony 1992/93 — по реестру на YouTube по-трековно не выложен).",
+    "Schreier/Schiff: MusicBrainz даёт запись «Goethe Lieder: Ganymed» (Decca, ~1989–91), но официальной Topic-загрузки прицельный поиск не нашёл — только фан-канал «파워놀 놀부» (8MufWWsSN3Y, 264 с)."
+  ]
+}

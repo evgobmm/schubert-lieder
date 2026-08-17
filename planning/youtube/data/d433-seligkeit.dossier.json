@@ -1,0 +1,549 @@
+{
+  "d": "433",
+  "title": "Seligkeit",
+  "research_limits": [
+    "Бюджет WebSearch сессии был исчерпан до начала работы (200/200) — сравнительные обзоры адресно найти не удалось; работал через WebFetch по известным URL, Discogs API, MusicBrainz API, iTunes Search API, yt-dlp.",
+    "База Майкла Грея (classical-discography.org) в этой сессии отдавала HTTP 500 на search2.php (и POST, и GET, с куками и Referer) — матричные сверки делались по уже верифицированным карточкам реестра проекта (planning/youtube/albums.md, albums/female-recitalists.md) и по примечаниям Discogs.",
+    "yt-dlp по одиночным видео блокировался («Sign in to confirm you're not a bot»); рабочий обход — `yt-dlp --extractor-args \"youtube:player_client=ios\" --skip-download --ignore-no-formats-error --print \"%(album)s || %(artists)s || %(release_year)s\"`, он и дал привязку Topic-загрузок к альбомам. Поле release_year Topic-загрузки — это ℗/год издания фонограммы, не дата сессии; как источник даты не использовалось, только как указатель на альбом."
+  ],
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Evgeny Kissin",
+      "rec_year": "≤2011 (концерт Verbier Festival; год не установлен) — ℗2023",
+      "year_source": "Издание: «Thomas Quasthoff in Verbier, Vol. II (Live)», Verbier Festival Gold, релиз 01.12.2023, ℗ 2023 [iTunes Search API, collectionId 1714461154; Qobuz xb65ad9rk5grc — трек 5 «Schubert: Seligkeit, D. 433», Quasthoff / Kissin, 2:10]. Дату самого концерта ни Qobuz (кредиты без сессионных дат), ни Apple Music, ни Discogs (релиза нет), ни MusicBrainz (0 записей Quasthoff/Seligkeit) не документируют. Верхняя граница выводится строго: Квастхоф ушёл из классического пения в январе 2012 (дайджест певцов), значит концерт не позднее 2011.",
+      "album": "Thomas Quasthoff in Verbier, Vol. II (Live) — архивный концертный релиз фестиваля в Вербье (партнёры на диске: Kissin, Argerich, Ax, Levine); Seligkeit — трек 5, дуэт с Евгением Кисиным",
+      "label": "Verbier Festival Gold",
+      "age_voice": "Если концерт попадает в вербьевские годы Квастхофа (2000-е), ему было ~41–48 — внутри пика (~1993–2007 по дайджесту) или сразу за ним. Живая запись: полное дыхание фразы, но акустика зала и публика.",
+      "reputation": "Отдельных рецензий на этот трек не найдено (см. research_limits). Самостоятельная ценность высока по двум причинам: (1) это единственная известная запись песни у певца высшего приоритета правил и (2) редчайший случай, когда за роялем в Lied — Евгений Кисин. Скепсиса к пиару здесь не требуется: релиз архивный, не промо-новинка.",
+      "sources": [
+        "https://itunes.apple.com/search?term=Kissin+Quasthoff&media=music&entity=album",
+        "https://www.qobuz.com/us-en/album/thomas-quasthoff-in-verbier-emanuel-ax-martha-argerich-james-levine-evgeny-kissin-thomas-quasthoff/xb65ad9rk5grc",
+        "planning/research/singers-digest.md (уход из классического пения — янв. 2012)"
+      ],
+      "youtube": [
+        { "videoId": "mfZOq8Mb5Mc", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Длительность ролика 130 с совпадает с 2:10 в кредитах Qobuz — привязка к альбому надёжна. Год для плеера по правилу «не блокировать приоритетного певца неустановленным годом»: строкой с вопросом, напр. «2000-е?» или «2023 (изд.)». Требуется целевое доисследование даты концерта (архив Verbier Festival, буклет релиза)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция проекта для свода; сессии 1966–1972)",
+      "year_source": "DG «Schubert: Sämtliche Lieder» (21 CD), Ufa-Ton-Studio Berlin, сессии 1966–1972 — карточка реестра проекта (planning/youtube/albums.md; albums/complete-editions.md §3). Topic-загрузка привязана к альбому «Schubert: Lieder» / «Schubert: Lieder (Vol. 1)», артисты Fischer-Dieskau + Moore, ℗-год фонограммы 1970 [yt-dlp ios-client metadata] — это те же две параллельные DG-выкладки свода, что уже описаны в проекте по D 328.",
+      "album": "Schubert: Sämtliche Lieder (полный свод «мужских» песен; на YouTube — двумя параллельными релизами «Schubert: Lieder» и «Schubert: Lieder (Vol. 1)» с идентичной фонограммой)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет (р. 28.05.1925) — сердцевина пика (~1951–1972 по дайджесту): тон ещё полон, но уже с полной аналитической оснасткой.",
+      "reputation": "Свод 1966–72 — базовая точка отсчёта корпуса и опорная позиция реестра проекта. По самой Seligkeit отдельных рецензий добыть не удалось (research_limits). Существует и более ранняя студийная версия: HMV/Electrola ASD 2263 «Dietrich Fischer-Dieskau Sings Popular Schubert Songs» (1965, Мур) — трек B1 «Seligkeit D. 433» [Discogs 7983912]; отдельной Topic-загрузки именно этой версии выделить не удалось.",
+      "sources": [
+        "https://api.discogs.com/releases/7983912",
+        "planning/youtube/albums.md (карточки DG «Sämtliche Lieder»)",
+        "planning/youtube/data/d433-seligkeit.mb.json (MB: две записи «Dietrich Fischer-Dieskau, Gerald Moore», 120 и 110 с)"
+      ],
+      "youtube": [
+        { "videoId": "HDYmHZkkzcI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "4hiQIDQxGkI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "NmzaYDvCe0I", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "HDYmHZkkzcI (113 с) — основной; 4hiQIDQxGkI (110 с) — дубль-выкладка того же свода; NmzaYDvCe0I (120 с) — DG-компиляция «Die Forelle: Die schönsten Schubert-Lieder», ℗-год не отдан метаданными (возможно, это перенос версии EMI 1965 — не подтверждено, для публикации не брать без сверки)."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Karl Hudez",
+      "rec_year": "1946",
+      "year_source": "Columbia LB 77 («Seligkeit» / «Die Forelle»), примечание пластинки: «Both tracks recorded in the Brahmssaal, Vienna, Austria, October 26, 1946» [https://api.discogs.com/releases/15899359]. Совпадает с карточкой реестра проекта: «Schwarzkopf — ранние Columbia 78s, Вена 26–27.10.1946 (LB 77), пианист Karl Hudez [Gray]» (planning/youtube/albums/female-recitalists.md).",
+      "album": "Columbia 78 об. LB 77 (Вена); в цифре ходит под серыми заголовками вроде «Shwarzkopf Sings Schubert Lieder»; MB знает её как «Seligkeit D. 433 (1997 - Remaster)», артисты Schwarzkopf / Hudez",
+      "label": "Columbia (Вена) → EMI/Warner; на YouTube — через агрегатора",
+      "age_voice": "30 лет (р. 09.12.1915) — самый ранний послевоенный документ, голос лёгкий и свежий, до эмишной стилизации 1950-х; пик по дайджесту начинается с 1948, эта запись — на его пороге.",
+      "reputation": "Тот факт, что Seligkeit была выбрана стороной А её раннего венского 78-оборотника (оборот — Die Forelle), сам по себе маркер: песня входила в её визитные номера и осталась в репертуаре до прощального рецитала (Амстердам, 1977 — фан-съёмка финального биса). Отдельных печатных сравнительных оценок не добыто (research_limits); скепсиса к пиару здесь не требуется — материал исторический.",
+      "sources": [
+        "https://api.discogs.com/releases/15899359",
+        "https://api.discogs.com/releases/22249657",
+        "planning/youtube/albums/female-recitalists.md (сессия 26–27.10.1946, Hudez [Gray])"
+      ],
+      "youtube": [
+        { "videoId": "K_OrUbtqUGs", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Привязка ролика: yt-dlp-метаданные дают артистов «Franz Schubert, Elisabeth Schwarzkopf, Karl Hudez», альбом-агрегатор 2013 г.; длительность 142 с совпадает с MB-записью Schwarzkopf/Hudez (144 с). Канал — «Topic», но лейбл серый: кредиты брать с оригинала (Columbia LB 77), не с обложки агрегатора."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966 (год издания LP; сессия не установлена)",
+      "year_source": "«The Elisabeth Schwarzkopf Song Book», Columbia SAX 5268, изд. 1966 [https://api.discogs.com/releases/7538580; трек B11 «Seligkeit»]. Topic-метаданные ролика: альбом «The Elisabeth Schwarzkopf Song Book, Vol. 1», артисты Schwarzkopf/Moore, ℗-год 1966. В компиляции EMI GROC «24 Lieder» (7243 5 62754 2 3) Seligkeit числится за Муром, 2:01 [https://api.discogs.com/releases/22721141] — это подтверждает, что «муровская» версия одна.",
+      "album": "The Elisabeth Schwarzkopf Song Book (Columbia SAX 5268); переиздания — EMI/Warner «24 Lieder» (GROC), бокс «Complete Recitals 1952–1974»",
+      "label": "Columbia / EMI → Warner Classics",
+      "age_voice": "50 лет — поздний пик: тембр суше раннего, зато отделка фразы и дикция на максимуме; по дайджесту пик 1948–1964, то есть запись стоит сразу за его границей.",
+      "reputation": "Реестр проекта фиксирует по соседнему тому серии («An Elisabeth Schwarzkopf Song Book, Vol. 2», Parsons) оценку klassik-prisma 4–5 баллов; на саму Seligkeit отдельных оценок не найдено. Отдельной страницы Seligkeit у klassik-prisma нет (проверено, см. negatives).",
+      "sources": [
+        "https://api.discogs.com/releases/7538580",
+        "https://api.discogs.com/releases/22721141",
+        "planning/youtube/albums.md (карточка Song Book Vol. 2)"
+      ],
+      "youtube": [
+        { "videoId": "dAWswqsFAgI", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Есть и третья её дорожка на YouTube — oyMAhJka43g (134 с), альбом-компиляция «Elisabeth Schwarzkopf live in Strasbourg, Vienna and Hannover» (2011), то есть лайв неустановленного года; плюс фан-съёмки финального биса амстердамского рецитала 1977 (X7N56YgRYX4, WE_iiCPHHZc) — исторически знаменитые, но голос в 61 год уже на сходе, и загрузки неофициальные."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "1937",
+      "year_source": "HMV DB 3184 — карточка реестра проекта: «зап. 1937 (ок. 5–15 марта, по матрицам 2EA 4849/4850)»; на пластинке четыре песни: Nähe des Geliebten, Lachen und Weinen, Nacht und Träume, Seligkeit (planning/youtube/albums.md). Диск существует и в Discogs [https://api.discogs.com/releases/17687890 — сторона B2 «Seligkeit»]. Пианист подтверждён каталогом Naxos: трек 20 «Seligkeit D. 433», Schumann (soprano), Moore (piano), 1:30 [https://www.naxos.com/catalogue/item.asp?item_code=8.110731].",
+      "album": "HMV DB 3184 (78 об.); в цифре — Naxos Historical 8.110731 «Schubert Lieder (1927–1945)», трек 20 (1:27)",
+      "label": "HMV / EMI; переиздание Naxos Historical, также Warner «Icon»",
+      "age_voice": "48–49 лет (р. 1888): пик (1920-е — сер. 1930-х) только что позади, верх уже не такой невесомый, но стиль — эталон венской школы; ровно тот случай, ради которого правила держат старых мастеров впереди.",
+      "reputation": "Прямых рецензий на трек не добыто. Косвенно: диапазоновская антология «22 Lieder» (Diapason, сентябрь 2023) взяла Э. Шуман в двух номерах (Du bist die Ruh с Альвином, Der Musensohn с Муром) — её шубертовский корпус держится редакциями как классика [https://api.discogs.com/releases/30791559].",
+      "sources": [
+        "planning/youtube/albums.md (карточка HMV DB 3184, матрицы 2EA 4849/4850)",
+        "https://api.discogs.com/releases/17687890",
+        "https://api.discogs.com/releases/11587345",
+        "https://www.naxos.com/catalogue/item.asp?item_code=8.110731"
+      ],
+      "youtube": [
+        { "videoId": "Z9SEam2Pqqs", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "3VbKQygRS4A", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "uSD0XCMEzk0", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Z9SEam2Pqqs (90 с) — именно наксосовский трансфер 8.110731 (1:27 в буклете): предпочтительный. 3VbKQygRS4A (90 с) — тот же трансфер под серой компиляцией. uSD0XCMEzk0 (99 с) — другой (более медленный) трансфер, «The Art of Schubert Lieder» 2008; MB тоже знает 90 и 99 с — почти наверняка одна сессия, разная скорость переноса, а не две записи."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Erik Werba",
+      "rec_year": "1958",
+      "year_source": "DG-бокс «Irmgard Seefried — Lieder» (477 6514) в примечаниях расписывает сессии по трекам: «Tracks 2-13 to 2-18 Recording: Vienna, Musikverein, Brahms-Saal, 30 May – 8 June 1958 • LP 136009 • STEREO», а Seligkeit там — трек 2-16 (2:13) [https://api.discogs.com/releases/16085329]. Совпадает с карточкой реестра: «Seefried — Schubert-Lieder LP (DG 136 009, зап. 30.05 + 3, 7–8.06.1958), Werba [Gray]».",
+      "album": "Schubert-Lieder, DG LP 136 009 (Вена, Brahms-Saal); ℗1959; в цифре — «Irmgard Seefried – Lieder» (DG 477 6514)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "39 лет (р. 1919) — точно в пике (кон. 1940-х — нач. 1960-х по дайджесту): голос свежий, тон тёплый, дикция без нажима.",
+      "reputation": "Сильнейший внешний маркер по этой песне из всех найденных: составляя антологию «22 Lieder» (Les Indispensables de Diapason, сентябрь 2023) из истории шубертовской звукозаписи, редакция Diapason выбрала Seligkeit именно в исполнении Seefried / Werba — трек 15, 2:14 [https://api.discogs.com/releases/30791559]. Хронометраж 2:14 указывает на версию 1958 г. (2:13 в DG-боксе), а не на 78-оборотную 1952 г.",
+      "sources": [
+        "https://api.discogs.com/releases/16085329",
+        "https://api.discogs.com/releases/30791559",
+        "https://api.discogs.com/releases/5698615",
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        { "videoId": "NV4xgzFXKOo", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "vZzTy_wx2cM", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "nPoaX23tdi4", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "NV4xgzFXKOo (133 с, альбом «Irmgard Seefried - Lieder», ℗1959) — версия 1958 г., предпочтительная. vZzTy_wx2cM (135 с) — та же фонограмма в диапазоновском переиздании 2023 г. nPoaX23tdi4 (130 с) — «Schubert: Lieder (Stereo Version)», ℗1959, тот же круг."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Erik Werba",
+      "rec_year": "1952",
+      "year_source": "Карточка реестра проекта: «Seefried — DG 78/EP-стороны 1952 (DG 36109, 30128 EPL): Ave Maria (11.01.1952), Seligkeit, Der Vollmond strahlt (09.04.1952); пианист Erik Werba [Gray]» (planning/youtube/albums/female-recitalists.md).",
+      "album": "DG 78 об. / EP (DG 36109, 30128 EPL); в цифре — «The Art Of Irmgard Seefried – Volume 4: Lieder»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "33 года — ранний пик, голос ещё более серебристый, чем в 1958 г.; темп заметно быстрее (122 с против 133 с).",
+      "reputation": "Отдельных оценок не найдено. Ценность — как более ранняя из двух её версий (правило «при прочих равных предпочитать более раннюю»), но Diapason-выбор пал на позднюю, и стерео-1958 звучит лучше технически.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/youtube/data/d433-seligkeit.mb.json (три записи Seefried/Werba: 133, 123, 134 с)"
+      ],
+      "youtube": [
+        { "videoId": "5vKhPS3fTsY", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Метаданные ролика: альбом «The Art Of Irmgard Seefried – Volume 4: Lieder», ℗-год 1953, длительность 122 с — согласуется с 78-оборотной сессией 09.04.1952. Есть и фан-загрузка того же исполнения с подписью «Seefried / Werba 1952» (Ckv2JXkBNEg, канал incontrario motu) — не источник даты, но независимое подтверждение атрибуции."
+    },
+    {
+      "singer": "Rita Streich",
+      "pianist": "Erik Werba",
+      "rec_year": "1960",
+      "year_source": "DG-компиляция «Leise flehen meine Lieder» (2535 656) в примечаниях даёт ℗ по трекам: «℗ 1960 (A4, B2)», где B2 — «Seligkeit (D. 433 \"Freuden sonder Zahl\")», Rita Streich, Erik Werba [https://api.discogs.com/releases/2684405]. Соответствует дайджесту («…singt Lieder von Franz Schubert», DG 1960, Werba); LP 138 047 SLPM / LPM 18585 [https://api.discogs.com/releases/30202247 — сторона B6 «Seligkeit»].",
+      "album": "Rita Streich singt Lieder von Franz Schubert (DG 138 047 SLPM / LPM 18585)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "40 лет (р. 1920) — пик (1950-е — нач. 1960-х): «венский соловей» в лучшей форме, лёгкое сопрано точно по типу песни.",
+      "reputation": "Отдельных рецензий не добыто. Косвенный маркер востребованности: DG десятилетиями ставила именно её Seligkeit в свои сборники «лучших песен Шуберта» (2535 656 и наследники) — то есть внутри каталога DG это была референсная версия песни, при том что у лейбла были и Seefried, и Фишер-Дискау.",
+      "sources": [
+        "https://api.discogs.com/releases/2684405",
+        "https://api.discogs.com/releases/30202247",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        { "videoId": "DeA1pu84DaU", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "3tlriZiGc_0", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Оба ролика — 125 с, ℗-год 1960; DeA1pu84DaU идёт под «The Viennese Nightingale», 3tlriZiGc_0 — под «Rita Streich singt Lieder von Franz Schubert (Mono Version)». Фонограмма одна."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": "1983",
+      "year_source": "Карточка реестра проекта: «Popp — Schubert Lieder (EMI, зап. 1–6.11.1983, Abbey Road; изд. 1984), пианист Irwin Gage» (planning/youtube/albums/female-recitalists.md; та же связка в пилотном реестре по D 118, D 800, D 828, D 854). Издания 1984 г.: Angel CDC 7 49633 2 — трек 16 «Seligkeit, D.433» [https://api.discogs.com/releases/21899704]; HMV Digital EL 27 0067 4 и др.",
+      "album": "Schubert Lieder (EMI/HMV Digital 27 0067; CD Angel CDC 7 49633 2); в цифре также в компиляции «Icon: Lucia Popp»",
+      "label": "EMI → Warner Classics",
+      "age_voice": "44 года (р. 1939) — внутри пика (~1970–1988); голос ещё серебристый, но уже с полнотой середины, набранной в 1970-е.",
+      "reputation": "Этот рецитал — её опорный шубертовский диск и сквозная позиция реестра проекта. Оговорка правил про Попп (прецедент отсева в Gretchen) относится к качеству конкретного трека, а не к диску целиком: здесь песня короткая, светлая и лежит точно в её типе.",
+      "sources": [
+        "https://api.discogs.com/releases/21899704",
+        "https://api.discogs.com/releases/34904219",
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        { "videoId": "LkOwXTwgpqg", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "LkOwXTwgpqg — 127 с, метаданные: альбом «Icon: Lucia Popp», артисты «Lucia Popp/Irwin Gage», ℗-год 1984 (совпадает с годом издания EMI-рецитала). Есть и фан-загрузки той же студийной версии (nagDittWBjI, 127 с; oOAqjPJIQx0)."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": "1984 (лайв, 25 июля)",
+      "year_source": "Orfeo D'Or C 789 101 B: «Lucia Popp, Irwin Gage / Schubert, Schönberg, Strauss — Lieder / Live recording, 25. Juli 1984», изд. 2010 [https://api.discogs.com/database/search — release 19898809]. В реестре проекта у Попп значится и зальцбургский лайв 10.08.1983 (Orfeo, ℗2016) — по D 860; какой из двух лайвов лёг на Topic, по метаданным (альбом «Lucia Popp Irwin Gage Lieder», ℗2016) однозначно не решается.",
+      "album": "Orfeo D'Or — концертный рецитал (Зальцбург)",
+      "label": "Orfeo",
+      "age_voice": "44–45 лет — та же форма, что на студийном диске, плюс концертная свобода и публика.",
+      "reputation": "Отдельных рецензий не добыто. Лайв на 153 с заметно медленнее студийного (127 с) — другой характер, скорее лирический, чем «щебечущий».",
+      "sources": [
+        "https://api.discogs.com/releases/19898809",
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        { "videoId": "UIq58KXzg74", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Перед публикацией требуется развести два орфеевских лайва (25.07.1984 vs 10.08.1983) по буклету — иначе год ставить со знаком вопроса."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Jörg Demus (хаммерфлюгель Joseph Schrimpf, Wien 1843)",
+      "rec_year": "1964",
+      "year_source": "Harmonia Mundi HM 17 050, примечание пластинки: «Recorded: September 1964, Wien, Palais Schönburg»; в кредитах — «Jörg Demus, Fortepiano [Joseph Schrimpf, Wien 1843]»; Seligkeit вынесена прямо в заглавие стороны диска и стоит треком B3 [https://api.discogs.com/releases/6170444]. Совпадает с карточкой реестра (planning/youtube/albums/female-recitalists.md).",
+      "album": "Die Gebüsche • Die Forelle • Blumensprache • Mein • Seligkeit (Harmonia Mundi HM 17 050) — её самая ранняя шубертовская пластинка, отмечена нидерландской премией Edison",
+      "label": "Harmonia Mundi (нем.)",
+      "age_voice": "31 год (р. 1933) — до наступления её пика (~1965–1985), голос юный и лёгкий; периодный инструмент 1843 г. даёт песне характерную сухую прозрачность.",
+      "reputation": "Отдельных рецензий на трек не найдено; ценность позиции — периодный вариант (хаммерфлюгель) и то, что Seligkeit вынесена в заголовок диска, то есть считалась его лицом.",
+      "sources": [
+        "https://api.discogs.com/releases/6170444",
+        "planning/youtube/albums/female-recitalists.md"
+      ],
+      "youtube": [
+        { "videoId": "RpSehaIB4OE", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "RpSehaIB4OE (121 с, «Schubert/Schumann: Lieder», ℗-год 1965) — соответствует сессии IX.1964 (MB: «Elly Ameling, Jörg Demus», 122 с). Дубль-выкладка — RSjgNH6G8g4."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1973",
+      "year_source": "Карточка реестра: «Ameling — Philips-серия с Dalton Baldwin: … \"Schubert Lieder\" 6500 704 (зап. 21–26.08.1973) [Gray; Discogs]» (planning/youtube/albums/female-recitalists.md). Topic-метаданные ролика дают альбом «Schubert: Lieder», артистов Ameling/Baldwin и ℗-год 1974 — год издания Philips 6500 704.",
+      "album": "Schubert Lieder (Philips 6500 704); переиздания Pentatone PTC 5186 132, Philips Dutch Masters",
+      "label": "Philips → Universal / Pentatone",
+      "age_voice": "40 лет — сердцевина пика (~1965–1985): самая записываемая шубертианка поколения в лучшей форме.",
+      "reputation": "Отдельных рецензий по этой песне не добыто. Косвенно о статусе версии говорит охват YouTube: фан-загрузка её Seligkeit (9rXqpLWWa-Q) — 70 тыс. просмотров, официальная Topic-выкладка (Mb6VCPXzPTU) — 45 тыс., это лучший показатель среди всех записей песни.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md",
+        "https://api.discogs.com/releases/33441989",
+        "planning/youtube/data/d433-seligkeit.mb.json (MB: «Elly Ameling, Dalton Baldwin», 113 с)"
+      ],
+      "youtube": [
+        { "videoId": "Mb6VCPXzPTU", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "Yn_3IGXmUFs", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "rsBL2l_X1ps", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "Все три ролика подписаны Ameling/Baldwin с ℗-годом 1974; длительности 110/113/110 — одна фонограмма в разных мастерингах (Mb6VCPXzPTU — самая просматриваемая)."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1958? (год издания мономастера; сессия не установлена)",
+      "year_source": "Decca LXT 5023 «Recital Schubert N° 2», кредиты: Souzay (baritone), Baldwin (piano), сторона B5 «Seligkeit» — год выпуска в карточке Discogs не проставлен [https://api.discogs.com/releases/14707968]. Topic-выкладка идёт под «Récital Schubert no. 2 (Mono Version)» с ℗-годом 1958 (метаданные загрузки — указатель на релиз, не дискографический источник даты).",
+      "album": "Récital Schubert n° 2 (Decca LXT 5023); переиздания — Decca «Grandi Voci» 417 453-1, серые сборники «Gérard Souzay Vol. 3»",
+      "label": "Decca",
+      "age_voice": "около 40 лет (р. 1918) — пик (1950-е — сер. 1960-х), тембр ещё бархатный, без сухости 1970-х.",
+      "reputation": "Отдельных рецензий не добыто. Значимость — как одна из немногих мужских версий песни, и притом от главного французского лидиста эпохи; MB фиксирует связку Souzay/Baldwin (126 с).",
+      "sources": [
+        "https://api.discogs.com/releases/14707968",
+        "https://api.discogs.com/releases/9159968",
+        "planning/youtube/data/d433-seligkeit.mb.json"
+      ],
+      "youtube": [
+        { "videoId": "jCHWMh0Q6sQ", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "Zquxpzx3SEU", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true },
+        { "videoId": "337jBs7YRRk", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "jCHWMh0Q6sQ (127 с) — под оригинальным заголовком «Récital Schubert no. 2 (Mono Version)», предпочтителен; Zquxpzx3SEU / 337jBs7YRRk (130 с) — серые сборники «Gérard Souzay Vol. 3» (2010/2011). Год требует доисследования по каталогу Decca."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Erik Werba",
+      "rec_year": "1974",
+      "year_source": "Карточка реестра проекта: «Brigitte Fassbaender — Lieder von Franz Schubert (EMI Electrola 1C 065-28 969), 1974 (сессии 16–18 мая, Мюнхен, Bürgerbräukeller), пианист Erik Werba, продюсер Christfried Bickenbach» (planning/youtube/albums.md). Topic-метаданные ролика: альбом «Lieder Vol.2 (Schubert & Wolf)», артисты «Brigitte Fassbaender/Erik Werba».",
+      "album": "Lieder von Franz Schubert / «Lieder Vol. 2 (Schubert & Wolf)» (EMI Electrola 1C 065-28 969)",
+      "label": "EMI Electrola → Warner Classics",
+      "age_voice": "35 лет (р. 1939) — начало её пика (~1975–1992); тёмное меццо, для этой светлой песни — нестандартный, но убедительный тембр.",
+      "reputation": "Диск — сквозная позиция реестра проекта (проходит по D 800, D 226, D 162). Отдельных оценок Seligkeit не добыто.",
+      "sources": [
+        "planning/youtube/albums.md (карточка EMI Electrola 1974)",
+        "planning/youtube/data/d433-seligkeit.mb.json"
+      ],
+      "youtube": [
+        { "videoId": "D-QWkdOx3z8", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "120 с; ℗-год метаданными не отдан — привязка сделана по паре «альбом + пианист»."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Graham Johnson",
+      "rec_year": "1990",
+      "year_source": "Hyperion CDJ33011, том 11 «The Hyperion Schubert Edition»: страница лейбла указывает запись в июне 1990, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон [https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33011]; примечание пластинки Discogs уточняет: «Recorded June 7-10 1990», трек 19 «Seligkeit, D433» [https://api.discogs.com/releases/14558921]. Издание — 1991.",
+      "album": "The Hyperion Schubert Edition 11 — «Schubert and Death» (CDJ33011); Seligkeit — финальный, 19-й номер программы",
+      "label": "Hyperion",
+      "age_voice": "51 год — верхняя граница пика (~1975–1992): голос ещё полный, интерпретация на пике зрелости.",
+      "reputation": "Единственная найденная содержательная критическая рефлексия именно об этой песне — заметки Грэма Джонсона к тому 11: Seligkeit поставлена финалом программы о смерти как её опровержение, «I would sooner stay here», в паре с «Der Tod und das Mädchen» — «death-defying sentiments», замыкающие рецитал в кольцо [страница Hyperion CDJ33011]. Hyperion-издание Джонсона — научный эталон корпуса (дайджест).",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33011",
+        "https://api.discogs.com/releases/14558921",
+        "https://api.discogs.com/releases/16188713"
+      ],
+      "youtube": [
+        { "videoId": "cVryMnu4oaY", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "123 с; метаданные ролика: «Schubert: Hyperion Song Edition 11 - Schubert & Death», Fassbaender/Johnson, ℗-год 1991 — привязка однозначна."
+    },
+    {
+      "singer": "Arleen Augér",
+      "pianist": "Lambert Orkis (хаммерклавир)",
+      "rec_year": "1990–91 (℗1991)",
+      "year_source": "Virgin Classics VC 7 91195-2 «Lieder», кредиты: Arleen Auger (soprano), Lambert Orkis (fortepiano); трек 14 «Seligkeit»; год издания 1991 [https://api.discogs.com/releases/11678028]. Совпадает с карточкой реестра (planning/youtube/albums.md: «Virgin Classics 5614572, ℗ ~1990–91, Orkis, хаммерклавир; диск разделён с Thomas Allen»). Точная дата сессии не установлена.",
+      "album": "Schubert: Lieder (Virgin Classics VC 7 91195-2 / 5614572); в цифре — «Schubert - Lieder/Winterreise»",
+      "label": "Virgin Classics → Warner (EMI)",
+      "age_voice": "51–52 года (1939–1993) — её пик пришёлся на 1980-е и оборвался болезнью; здесь голос ещё ровный и светлый, но это уже поздний период.",
+      "reputation": "Отдельных рецензий не добыто. Позиция ценна периодным инструментом (Orkis на хаммерклавире) и как современная запись «не ранее 1990» для возрастной структуры пятёрки.",
+      "sources": [
+        "https://api.discogs.com/releases/11678028",
+        "planning/youtube/albums.md (карточка Augér — Virgin, Orkis)"
+      ],
+      "youtube": [
+        { "videoId": "CoUz5QblJxE", "channel": "Arleen Augér - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "CoUz5QblJxE — 120 с, метаданные «Schubert - Lieder/Winterreise», Augér/Orkis (совпадает с MB: 120 с). ВНИМАНИЕ: на том же канале есть 3D6RGJ46ZIQ (155 с, сборник 2016 г.) — это другая, заметно более медленная запись Аугер (вероятно, Eterna/Olbertz, ср. карточку реестра о трёх её версиях D 257); их нельзя путать."
+    },
+    {
+      "singer": "Kathleen Battle",
+      "pianist": "James Levine",
+      "rec_year": "1988 (℗; сессия не установлена)",
+      "year_source": "DG 419 237, «Schubert · Lieder», Kathleen Battle (soprano) / James Levine (piano), трек 5 «Seligkeit D 433», 1:53; издание 1988 [https://api.discogs.com/releases/11114512]. iTunes: «℗ 1988 Deutsche Grammophon GmbH, Berlin».",
+      "album": "Schubert: Lieder (DG 419 237); позднее — «Kathleen Battle Edition, Vol. 9»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~39–40 лет (р. 1948) — вокальный пик; лёгкое, очень светлое сопрано, тембрально песне подходит.",
+      "reputation": "Отдельных оценок не добыто. Оговорка правил о скепсисе к пиару здесь уместна: диск продавался как звёздный дуэт с дирижёром за роялем, и специалисты Lied обычно ставят выше немецких стилисток того же поколения.",
+      "sources": [
+        "https://api.discogs.com/releases/11114512",
+        "https://itunes.apple.com/search?term=Kathleen+Battle+Schubert+Lieder+Levine&entity=album"
+      ],
+      "youtube": [
+        { "videoId": "WCq4GxX-EIc", "channel": "Kathleen Battle - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "117–118 с; метаданные: «Schubert: Lieder», Battle/Levine, ℗1988."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1998 (℗; сессия не установлена)",
+      "year_source": "EMI Classics 7243 5 56347 2 6 «Schubert Lieder», кредиты: Bostridge (tenor), Drake (piano), продюсер John Fraser, аннотации Richard Wigmore; трек 21 «Seligkeit», 2:01; изд. 1998 [https://api.discogs.com/releases/6374871]. iTunes: релиз 01.05.1998, «℗ 1998 Parlophone Records Limited».",
+      "album": "Schubert Lieder (EMI, 1998); переиздание «Schubert — 25 Lieder» (2001/2005)",
+      "label": "EMI → Warner Classics",
+      "age_voice": "33–34 года (р. 1964) — начало его пика (~1995–2010), до позднейшей манерности, о которой предупреждает дайджест.",
+      "reputation": "Отдельных рецензий на трек не добыто; общий скепсис правил к прессе о современных исполнителях применим.",
+      "sources": [
+        "https://api.discogs.com/releases/6374871",
+        "https://itunes.apple.com/search?term=Bostridge+Schubert+Lieder+Drake&entity=album"
+      ],
+      "youtube": [
+        { "videoId": "PzzSKvhGwkI", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "121–122 с. Канал в yt-выдаче показывается как «Ian Bostridge»; oEmbed отдаёт «Ian Bostridge - Topic» — это автоматический канал, official."
+    },
+    {
+      "singer": "Benjamin Appl",
+      "pianist": "James Baillieu",
+      "rec_year": "2016–17 (℗2017; сессия не установлена)",
+      "year_source": "Sony Classical 88985393032 «Heimat», Benjamin Appl (baritone) / James Baillieu (piano); Seligkeit — трек 1, 1:54 [https://api.discogs.com/releases/28047810]. iTunes: релиз 10.03.2017, «℗ 2017 Sony Music Entertainment Germany GmbH».",
+      "album": "Heimat (Sony Classical, 2017) — дебютный сольный диск на мейджоре; Seligkeit открывает программу",
+      "label": "Sony Classical",
+      "age_voice": "34 года (р. 1982) — молодой голос в начале зрелого периода (пик ~2016–наст.); последний частный ученик Фишера-Дискау.",
+      "reputation": "Отдельных рецензий именно на трек не добыто. По правилу о скепсисе к пиару современных: Аппль — активно продвигаемый артист, и медийность («Heimat» широко раскручивалась) не должна засчитываться как художественный аргумент. Ставить в пятёрку — только если нужна позиция «не ранее 2015» и трек выдержит сравнение со старыми мастерами.",
+      "sources": [
+        "https://api.discogs.com/releases/28047810",
+        "https://itunes.apple.com/search?term=Benjamin+Appl+Heimat&entity=album",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        { "videoId": "rkSvHbgxv3Q", "channel": "Benjamin Appl - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "114 с, метаданные: альбом «Heimat», Appl/Baillieu, ℗2017. Есть также промо-ролик канала IMGArtists (kTLi9kQ-gwo, 123 с, 28 тыс. просмотров) — не Topic, для публикации хуже."
+    },
+    {
+      "singer": "Michael Schade",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "2015–16 (℗2016; сессия не установлена)",
+      "year_source": "«Decades – A Century of Song, volume 1 (1810–1820)», Vivat Music Foundation; iTunes: релиз 20.05.2016, «℗ 2016 Vivat Music Foundation»; артисты диска — Schade, Lorna Anderson, Sylvia Schwartz, Ann Murray, Florian Boesch, Malcolm Martineau. Topic-метаданные ролика дают тот же альбом и связку Schade/Martineau.",
+      "album": "Decades – A Century of Song, vol. 1 (1810–1820) — антологический проект Мартино по десятилетиям",
+      "label": "Vivat",
+      "age_voice": "~50 лет (р. 1965) — зрелый лирический тенор; в дайджесте фонда карточки нет, состояние голоса на 2016 г. отдельно не исследовано.",
+      "reputation": "Отдельных оценок не добыто; позиция интересна прежде всего контекстом издания (песня внутри десятилетия её сочинения).",
+      "sources": [
+        "https://itunes.apple.com/search?term=Michael+Schade+Decades+Century+of+Song+1810&entity=album",
+        "planning/youtube/data/d433-seligkeit.yt.json"
+      ],
+      "youtube": [
+        { "videoId": "aZp0P0qDMGI", "channel": "Michael Schade - Topic", "official": true, "oembed_ok": true }
+      ],
+      "note": "116–117 с; просмотров у ролика крайне мало (десятки) — на живость это не влияет (oEmbed 200)."
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2017 (18–21 декабря)",
+      "year_source": "Карточка реестра проекта: «Alice Coote — Schubert: 21 Songs (Hyperion CDA68169), запись 18–21 декабря 2017, издание май 2022; All Saints' Church, East Finchley; пианист Julius Drake» (planning/youtube/albums.md).",
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "label": "Hyperion",
+      "age_voice": "~54 года (р. 1968) — зрелое меццо; по дайджесту её пик — с ~2005 и далее.",
+      "reputation": "Пресса по диску в целом (из карточки реестра): Gramophone — «with an underlying tension», «doesn't sugar-coat anything»; BBC Music Magazine — «every note is delivered with white-hot sincerity». Оценок конкретно Seligkeit нет.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Coote — CDA68169)",
+        "planning/youtube/data/d433-seligkeit.mb.json (три трека-строфы)"
+      ],
+      "youtube": [
+        { "videoId": "pvfYQFmcrps", "channel": "Julius Drake - Topic", "official": true, "oembed_ok": false },
+        { "videoId": "RmxTNRI30y8", "channel": "Julius Drake - Topic", "official": true, "oembed_ok": false },
+        { "videoId": "IjfvYcJEIo4", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": false }
+      ],
+      "note": "НЕПРИГОДНА ДЛЯ ПЛЕЕРА: издание разбивает песню на три отдельных трека по строфам (v1 «Freuden sonder Zahl» 38 с, v2 «Jedem lächelt traut» 37 с, v3 «Lieber bleib' ich hier» 47 с) — цельного ролика с песней нет; oEmbed по этим ID не проверялся (в топ-5 не идут). Та же особенность издания уже отмечена в реестре по D 259."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "ЗАПИСАЛ — и это главное открытие досье. Живая запись с ЕВГЕНИЕМ КИСИНЫМ за роялем: «Thomas Quasthoff in Verbier, Vol. II (Live)», Verbier Festival Gold, релиз 01.12.2023, ℗2023, трек 5 «Schubert: Seligkeit, D. 433» (2:10) [iTunes Search API, collectionId 1714461154; https://www.qobuz.com/us-en/album/thomas-quasthoff-in-verbier-emanuel-ax-martha-argerich-james-levine-evgeny-kissin-thomas-quasthoff/xb65ad9rk5grc]. На YouTube — официальная Topic-выкладка mfZOq8Mb5Mc (130 с, oEmbed 200), метаданные: артисты Quasthoff/Kissin, год 2023. Важно: в Discogs (track-search «Seligkeit» + artist=Quasthoff → 0) и в MusicBrainz (0 записей; в каркасе песни его нет) релиза НЕТ — досье, опирающееся только на них, дало бы ложный отрицательный ответ. Год концерта не документирован (см. карточку кандидата).",
+    "Dietrich Fischer-Dieskau": "ЗАПИСАЛ, дважды с Джеральдом Муром: (а) EMI/HMV ASD 2263 «Dietrich Fischer-Dieskau Sings Popular Schubert Songs», 1965, сторона B1 «Seligkeit D. 433» [https://api.discogs.com/releases/7983912]; (б) DG «Schubert: Sämtliche Lieder», сессии 1966–1972 — на YouTube Topic-выкладки HDYmHZkkzcI и 4hiQIDQxGkI (℗-год фонограммы 1970). MB знает две записи связки (120 и 110 с). Discogs track-search «Seligkeit» + Fischer-Dieskau — 88 релизов.",
+    "Elisabeth Schwarzkopf": "ЗАПИСЫВАЛА, как минимум дважды в студии плюс лайвы. (а) Columbia LB 77 (78 об.), Вена, Брамс-зал, 26.10.1946, пианист Karl Hudez — Seligkeit на стороне А, Die Forelle на обороте [https://api.discogs.com/releases/15899359; реестр проекта, [Gray]]; Topic — K_OrUbtqUGs. (б) «The Elisabeth Schwarzkopf Song Book», Columbia SAX 5268, изд. 1966, Gerald Moore [https://api.discogs.com/releases/7538580]; в компиляции EMI GROC «24 Lieder» Seligkeit числится за Муром, 2:01 [https://api.discogs.com/releases/22721141]; Topic — dAWswqsFAgI. (в) Лайвы: компиляция «Elisabeth Schwarzkopf live in Strasbourg, Vienna and Hannover» (oyMAhJka43g, 134 с) и знаменитый финальный бис амстердамского рецитала 1977 (фан-съёмки X7N56YgRYX4, WE_iiCPHHZc; ср. Discogs 25344775 «Farewell Recital Amsterdam», BellaVoce, изд. 1998). MB дополнительно приписывает ей версии с Geoffrey Parsons (142 и 138 с) — конкретный альбом установить не удалось.",
+    "Hans Hotter": "ЗАПИСИ НЕ НАЙДЕНО. Discogs track-search «Seligkeit» + artist=Hotter — 3 результата, и во всех трёх Seligkeit поёт не он: в антологии Diapason «22 Lieder» (2023) Хоттер представлен Am Bach im Frühling и Sei mir gegrüßt с Муром, а Seligkeit — Зеефрид/Верба [https://api.discogs.com/releases/30791559]; в DG-сборнике «Am Brunnen vor dem Tore» и в «Leise flehen meine Lieder ...» он тоже в составе, но не в этом номере. В MB-каркасе песни (38 записей) его нет; yt-dlp «Hans Hotter Seligkeit Schubert» его исполнения не выдаёт.",
+    "Peter Anders": "ЗАПИСИ НЕ НАЙДЕНО. Discogs track-search «Seligkeit» + artist=«Peter Anders» — 5 результатов, четыре из них — «Сказки Гофмана» Оффенбаха (совпадение по слову), пятый — Diapason «22 Lieder», где Андерс поёт Im Frühling с Раухайзеном, а Seligkeit — Зеефрид [https://api.discogs.com/releases/30791559]. В MB-каркасе песни его нет; yt-dlp выдаёт только другие его шубертовские номера.",
+    "Elisabeth Schumann": "ЗАПИСЫВАЛА. HMV DB 3184 (78 об.), 1937 (ок. 5–15 марта по матрицам 2EA 4849/4850), пианист Gerald Moore; на пластинке четыре песни, Seligkeit — одна из них [карточка реестра проекта planning/youtube/albums.md; https://api.discogs.com/releases/17687890 — сторона B2 «Seligkeit»]. Пианист независимо подтверждён каталогом Naxos для переиздания 8.110731 (трек 20, Schumann/Moore, 1:30) [https://www.naxos.com/catalogue/item.asp?item_code=8.110731]. Topic: Z9SEam2Pqqs (наксосовский трансфер), 3VbKQygRS4A, uSD0XCMEzk0.",
+    "Christa Ludwig": "ЗАПИСИ НЕ НАЙДЕНО. Discogs track-search «Seligkeit» + artist=Ludwig — 11 результатов, но ни в одном Seligkeit не за ней: в DG-сборниках «Leise flehen meine Lieder» (2535 656 и родня) этот номер поёт Rita Streich с Эриком Вербой, что прямо расписано в кредитах трека B2 [https://api.discogs.com/releases/2684405]; в Diapason «22 Lieder» Людвиг поёт Fischerweise [https://api.discogs.com/releases/30791559]. В MB-каркасе песни её нет; yt-dlp «Christa Ludwig Seligkeit» выдаёт чужие исполнения.",
+    "Lucia Popp": "ЗАПИСЫВАЛА, дважды. (а) Студия: EMI «Schubert Lieder» с Irwin Gage, сессии 1–6.11.1983, Abbey Road, изд. 1984 — трек 16 «Seligkeit, D.433» на CD Angel CDC 7 49633 2 [https://api.discogs.com/releases/21899704; реестр проекта]; Topic — LkOwXTwgpqg (127 с). (б) Концерт: Orfeo D'Or C 789 101 B, «Live recording, 25. Juli 1984», с тем же Гейджем [https://api.discogs.com/releases/19898809]; Topic — UIq58KXzg74 (153 с). MB фиксирует связку Popp/Gage (126 с)."
+  },
+  "albums_facts": [
+    {
+      "album": "Thomas Quasthoff in Verbier, Vol. II (Live)",
+      "singer": "Thomas Quasthoff",
+      "year": "℗2023 (релиз 01.12.2023); год концерта не установлен, не позднее 2011",
+      "label": "Verbier Festival Gold",
+      "facts": "Архивный концертный релиз фестиваля в Вербье; партнёры по диску — Kissin, Argerich, Ax, Levine; 43 трека, 2 ч 27 мин. Seligkeit — трек 5, дуэт с Евгением Кисиным (2:10). Продюсер Martin T:son Engstroem. В Discogs и MusicBrainz релиза нет — источники: iTunes Search API и Qobuz. НОВАЯ карточка для реестра альбомов: закрывает пробел по высшему приоритету правил (у Квастхофа, по дайджесту, «ровно 6 шубертовских альбомов» — этот концертный свод в счёт не входил).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Elisabeth Schwarzkopf Song Book (Columbia SAX 5268)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "1966 (издание)",
+      "label": "Columbia / EMI → Warner",
+      "facts": "Сборный рецитал с Джеральдом Муром: Шуберт, Шуман, Вольф, Дебюсси, Рахманинов + 7 номеров из «Итальянской книги песен» Вольфа-Феррари; Seligkeit — B11. В компиляции EMI GROC «24 Lieder» (7243 5 62754 2 3) распределение по пианистам расписано потрековно: №№ 1–2 и 15–22 — Мур (в т. ч. Seligkeit, 2:01), №№ 3–14 — Эдвин Фишер (сессии 4–7.10.1952), №№ 23–24 — Джеффри Парсонс. НОВАЯ карточка (в реестре значился только Song Book Vol. 2 с Парсонсом).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Columbia LB 77 (78 об.): Seligkeit / Die Forelle",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "1946 (запись 26 октября)",
+      "label": "Columbia (Вена)",
+      "facts": "Примечание пластинки: обе стороны записаны в Брамс-зале Вены 26.10.1946; пианист Karl Hudez (реестр, [Gray]). Seligkeit — сторона А. Дополняет карточку реестра «ранние Columbia 78s, Вена 26–27.10.1946» конкретным содержанием сторон.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Irmgard Seefried — Schubert-Lieder (DG LP 136 009)",
+      "singer": "Irmgard Seefried",
+      "year": "1958 (сессии 30 мая – 8 июня), ℗1959",
+      "label": "Deutsche Grammophon",
+      "facts": "Вена, Musikverein, Brahms-Saal; пианист Эрик Верба. Сессионная роспись — в примечаниях DG-бокса «Irmgard Seefried – Lieder» (477 6514): треки 2-13…2-18 = LP 136009, 30.05–08.06.1958, стерео; Seligkeit — 2-16 (2:13). Именно эта версия отобрана Diapason в антологию «22 Lieder» (2023). Уточняет карточку реестра (там сессия дана как «30.05 + 3, 7–8.06.1958»).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Les Indispensables de Diapason — «22 Lieder» (N° 160)",
+      "singer": "антология (Anders, Ferrier, Fischer-Dieskau, Grümmer, Hotter, Hüsch, Lehmann, Ludwig, Schlusnus, Schumann, Schwarzkopf, Seefried)",
+      "year": "2023 (сентябрь; приложение к журналу Diapason)",
+      "label": "Diapason",
+      "facts": "Редакционный отбор классики шубертовской звукозаписи. Для D 433: трек 15 «Seligkeit D433» — Irmgard Seefried / Erik Werba, 2:14. Позиция уже в обороте проекта (использовалась по D 138), здесь добавляется атрибуция трека Seligkeit.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition 11 — «Schubert and Death» (CDJ33011)",
+      "singer": "Brigitte Fassbaender",
+      "year": "1990 (запись 7–10 июня), издание 1991",
+      "label": "Hyperion",
+      "facts": "Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; пианист и автор аннотаций Graham Johnson. Программа выстроена вокруг темы смерти; Seligkeit поставлена финальным, 19-м номером как её опровержение — Джонсон рифмует её с «Der Tod und das Mädchen» как «death-defying sentiments», замыкая рецитал в кольцо. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Elly Ameling / Jörg Demus — Harmonia Mundi HM 17 050",
+      "singer": "Elly Ameling",
+      "year": "1964 (сентябрь)",
+      "label": "Harmonia Mundi (нем.)",
+      "facts": "Вена, Palais Schönburg; Демус играет на хаммерфлюгеле Joseph Schrimpf (Вена, 1843); запись Heinz Jansen / Südwest-Tonstudio, супервайзер Dr. Alfred Krings. Seligkeit вынесена в заглавие пластинки (наряду с Die Gebüsche, Die Forelle, Blumensprache, Mein) и стоит треком B3. Диск отмечен нидерландской премией Edison. Уточняет карточку реестра (там значилась дата IX.1964 без инструмента и без содержания).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Benjamin Appl — Heimat (Sony Classical 88985393032)",
+      "singer": "Benjamin Appl",
+      "year": "℗2017 (релиз 10.03.2017)",
+      "label": "Sony Classical",
+      "facts": "Пианист James Baillieu; общее время 66:54. Seligkeit — открывающий трек альбома (1:54). НОВАЯ карточка (в реестре Аппль присутствовал по Alpha «Forbidden Fruit» 2023).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Kathleen Battle / James Levine — Schubert: Lieder (DG 419 237)",
+      "singer": "Kathleen Battle",
+      "year": "℗1988",
+      "label": "Deutsche Grammophon",
+      "facts": "Левайн за роялем; Seligkeit — трек 5 (1:53). Позднее переиздан как «Kathleen Battle Edition, Vol. 9». НОВАЯ карточка.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ian Bostridge / Julius Drake — Schubert Lieder (EMI 7243 5 56347 2 6)",
+      "singer": "Ian Bostridge",
+      "year": "℗1998 (релиз 01.05.1998)",
+      "label": "EMI Classics → Warner",
+      "facts": "Продюсер John Fraser, баланс-инженер Jonathan Allen, аннотации Richard Wigmore; Seligkeit — трек 21 (2:01). Переиздавался как «Schubert — 25 Lieder» (2001, 2005). НОВАЯ карточка.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Arleen Augér / Lambert Orkis — Schubert: Lieder (Virgin VC 7 91195-2)",
+      "singer": "Arleen Augér",
+      "year": "1991 (издание; ℗ ~1990–91)",
+      "label": "Virgin Classics → Warner",
+      "facts": "Оркис — на хаммерклавире; Seligkeit — трек 14. Диск разделён с Томасом Алленом (Roger Vignoles). Позиция уже в реестре (по D 257) — здесь подтверждается содержанием. Осторожно: у Аугер на YouTube есть вторая, заметно более медленная Seligkeit (155 с) на серой компиляции 2016 г. — вероятно, Eterna с Ольбертцем; привязка обязательна перед публикацией.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Decades – A Century of Song, vol. 1 (1810–1820)",
+      "singer": "Michael Schade (и др.)",
+      "year": "℗2016 (релиз 20.05.2016)",
+      "label": "Vivat Music Foundation",
+      "facts": "Антологический проект Малкольма Мартино по десятилетиям; певцы тома — Michael Schade, Lorna Anderson, Sylvia Schwartz, Ann Murray, Florian Boesch. Seligkeit (1816) попадает ровно в своё десятилетие. НОВАЯ карточка для реестра: том 1810–1820 покрывает большой пласт ранних песен корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Gérard Souzay / Dalton Baldwin — Récital Schubert n° 2 (Decca LXT 5023)",
+      "singer": "Gérard Souzay",
+      "year": "не установлен (Topic-мастер помечен ℗1958)",
+      "label": "Decca",
+      "facts": "Seligkeit — сторона B5. Переиздания: Decca «Grandi Voci» 417 453-1 (1988), серые сборники «Gérard Souzay Vol. 3». Год сессии требует доисследования по каталогу Decca (база Грея в этой сессии не работала). НОВАЯ карточка.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "Сравнительных обзоров по D 433 в этой сессии добыть не удалось. klassik-prisma.de: страницы Seligkeit НЕТ — индекс https://www.klassik-prisma.de/Schubert.htm содержит только шесть песенных разборов (Auf dem Wasser zu singen D 774, Der Hirt auf dem Felsen D 965, Die junge Nonne D 828, Erlkönig D 328, Gretchen am Spinnrade D 118, Gruppe aus dem Tartarus D 583, Nacht und Träume D 827) плюс три цикла; прямой запрос /Seligkeit.htm — 404. Gramophone / MusicWeb / BBC Music Magazine без поисковой выдачи адресно не открыть (бюджет WebSearch исчерпан).",
+    "Замена обзору №1 — редакционный отбор Diapason: «22 Lieder» (Les Indispensables de Diapason, N° 160, сентябрь 2023) из всей истории записи песни выбрал Irmgard Seefried / Erik Werba (трек 15, 2:14 — версия DG 1958). URL: https://api.discogs.com/releases/30791559",
+    "Замена обзору №2 — заметки Грэма Джонсона к Hyperion Schubert Edition 11 (единственная найденная содержательная трактовка песни в критическом источнике): Seligkeit как финал программы о смерти, «I would sooner stay here», парная к «Der Tod und das Mädchen», «death-defying sentiments». URL: https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33011",
+    "Косвенный маркер каталожной референсности — DG десятилетиями ставила в свои антологии «лучших песен Шуберта» («Leise flehen meine Lieder», 2535 656) именно Seligkeit в исполнении Rita Streich / Erik Werba, ℗1960. URL: https://api.discogs.com/releases/2684405",
+    "Опорные факты об альбомах и певцах взяты из уже верифицированных активов проекта: planning/youtube/albums.md, planning/youtube/albums/female-recitalists.md, planning/youtube/albums/complete-editions.md, planning/research/singers-digest.md"
+  ],
+  "negatives": [
+    "Hans Hotter, Peter Anders, Christa Ludwig — записи Seligkeit не найдено ни в Discogs (track-search), ни в MB-каркасе песни, ни в выдаче yt-dlp. Все три имени всплывают только в сборниках, где эту песню поёт кто-то другой (чаще всего Зеефрид или Штрайх) — типовая ловушка track-search по компиляциям.",
+    "Ловушка наоборот: Quasthoff по Discogs и MusicBrainz даёт чистый ноль, а запись у него ЕСТЬ (Verbier/Kissin, ℗2023) — найдена только через yt-dlp и подтверждена iTunes/Qobuz. Вывод для конвейера: отрицательный вердикт по приоритетному певцу нельзя выносить по одним лишь Discogs+MB.",
+    "klassik-prisma.de страницы по этой песне не имеет (404) — по D 433 привычного пятибалльного ориентира нет.",
+    "Запись Alice Coote / Julius Drake (Hyperion CDA68169) на YouTube существует только в виде трёх отдельных треков-строф — цельного ролика нет, для плеера непригодна.",
+    "MusicBrainz приписывает Шварцкопф версии с Geoffrey Parsons (142 и 138 с), но конкретный альбом установить не удалось; при этом Topic-ролик на 142 с по метаданным атрибутирован Карлу Худецу (то есть венской сессии 1946 г.). Расхождение не разрешено — перед публикацией нужна сверка по буклету.",
+    "Elisabeth Schumann: MB даёт две длительности (90 и 99 с), Naxos — 1:30, Discogs-переиздание — 1:27. Почти наверняка это один трансфер сессии 1937 г. на разных скоростях, а не две записи; отдельной второй сессии Seligkeit в реестре по [Gray] не значится.",
+    "База Майкла Грея (classical-discography.org) в этой сессии недоступна: search2.php отдаёт HTTP 500 на POST и GET, с cookie-jar и Referer. Матричные проверки, которых требуют правила для 78-х, выполнены только опосредованно — через уже верифицированные карточки реестра проекта и примечания Discogs.",
+    "Не исследованы (в пул значительных не включены за отсутствием критических аргументов, но присутствуют в MB): Elisabeth Söderström / Martin Isepp, Felicity Lott / Graham Johnson (IMP Classics, 1988), Judith Raskin / George Schick, Monica Groop / Rudolf Jansen, Harriet Burns / Ian Tindale, Lynda Russell / Peter Hill, Wiener Sängerknaben (Harrer), эстонская версия Jaan Õun («Õndsus»), аранжировка The Erlkings."
+  ]
+}

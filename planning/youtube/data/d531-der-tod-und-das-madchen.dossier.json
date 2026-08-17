@@ -1,0 +1,677 @@
+{
+  "d": "531",
+  "title": "Der Tod und das Mädchen",
+  "tier": "famous",
+  "research_date": "2026-08-17",
+  "method_note": "Веб-поиск (WebSearch) в этой сессии был исчерпан до начала работы; исследование велось по дискографическим базам напрямую: полный список записей произведения из базы Майкла Грея (classical-discography.org, POST search2.php, composer=Schubert, work='Tod und das' — 28 позиций с сессионными датами и матрицами), MusicBrainz API (work 184e1531-93a4-34e9-903e-14504261f533 + точечные recording-запросы по певцам), страница Hyperion CDJ33011 (заметки Грэма Джонсона), сайт klassik-prisma.de, реестры альбомов проекта. yt-dlp использован для поиска роликов; получение album-метаданных yt-dlp частично оборвалось на HTTP 429 (помечено в note соответствующих кандидатов). Живость/встраиваемость всех перечисленных videoId проверена yt-check.js (oEmbed 200).",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "Сквозная конвенция проекта для DG «Sämtliche Lieder» (сессии 1966–1972, Ufa-Ton-Studio Berlin): planning/youtube/albums/complete-editions.md, разд. «DG Sämtliche Lieder с Джеральдом Муром», п. 2 итогов («конвенция FD DG Sämtliche Lieder — 1969»). Точная сессия именно D 531 внутри интеграла не установлена. Косвенно: Topic-загрузка 4HqvO74m3sQ несёт album «Schubert: Lieder (Vol. 1)», release_year 1970 (метаданные yt-dlp).",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD; на YouTube — как «Schubert: Lieder, Vol. 1»)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 1925). Ровно внутри пика ~1951–1972 по дайджесту; интеграл с Муром — вершина его студийной работы, до «сухого» тона середины 1970-х.",
+      "reputation": "Свод DG 1966–72 — базовая референсная запись всего мужского корпуса Шуберта; в дайджесте и реестре альбомов проходит как «сквозное издание, кандидат для любой песни». Собственной сравнительно-обзорной оценки именно D 531 не найдено (klassik-prisma страницы для этой песни не имеет).",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md (карточка «Fischer-Dieskau / Moore — Schubert: Sämtliche Lieder (DG, зап. 1966–1972)»)",
+        "planning/research/singers-digest.md, карточка Fischer-Dieskau",
+        "MusicBrainz work 184e1531-93a4-34e9-903e-14504261f533: пять записей Fischer-Dieskau/Moore (149–151 с)"
+      ],
+      "youtube": [
+        {"videoId": "4HqvO74m3sQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "HnMH63ElnzU", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Lld3hJzEju4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "На Topic-канале FD как минимум четыре разные загрузки D 531 (149/150/150/152 с) — интеграл DG и более ранние EMI/Electrola-стороны. По album-метаданным yt-dlp: 4HqvO74m3sQ = «Schubert: Lieder (Vol. 1)», release_year 1970 → DG-интеграл (рекомендуемый ID); HnMH63ElnzU = «Schubert: 21 Lieder» (год NA); Lld3hJzEju4 = «Schubert: Lieder» (2016, переиздание); c9jYpOlNt-Q = «Die Forelle: Die schönsten Schubert-Lieder», release_year 1965, «1990 Remastered Version» — почти наверняка отдельная, более ранняя запись (EMI/Electrola), а не DG-интеграл; перед публикацией желательно доразвести эти два источника по буклетам."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1965?",
+      "year_source": "Метаданные Topic-загрузки c9jYpOlNt-Q: album «Die Forelle: Die schönsten Schubert-Lieder», release_year 1965 (yt-dlp). ЭТО НЕ ДИСКОГРАФИЧЕСКИЙ ИСТОЧНИК — год не подтверждён; по правилу проекта метаданные загрузок датой не считаются. Требуется сверка по буклету EMI/Electrola.",
+      "album": "Die Forelle: Die schönsten Schubert-Lieder (сборник; «1990 Remastered Version»)",
+      "label": "EMI Electrola / Warner (?)",
+      "age_voice": "~40 лет, если год верен — пик формы.",
+      "reputation": "Отдельной критической оценки не найдено; позиция включена в пул как вторая, вероятно более ранняя запись того же дуэта (правило «при прочих равных — более ранняя»).",
+      "sources": [
+        "MusicBrainz: пять разных recording-записей Fischer-Dieskau/Moore для D 531 — значит записей больше одной",
+        "yt-dlp метаданные c9jYpOlNt-Q (не источник даты)"
+      ],
+      "youtube": [
+        {"videoId": "c9jYpOlNt-Q", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Позиция-хвост: если доисследование по буклетам подтвердит раннюю (кон. 1950-х – сер. 1960-х) EMI-запись, она конкурирует с DG-интегралом по правилу «более ранняя при прочих равных». Пока год не установлен — публиковать только с диапазоном со знаком вопроса."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961",
+      "year_source": "База Майкла Грея (classical-discography.org): «Der Tod und das Mädchen, D531, op. 7, no. 3 — Number SAX5272. Angel S36462 — Date 1961 November 28 — Place London, EMI Studio No. 1, Abbey Road — Label Columbia-UK — Artists Christa Ludwig, mezzo-soprano; Geoffrey Parsons, piano». Совпадает с карточкой реестра (planning/youtube/albums/female-recitalists.md: Columbia SAX 5272 / Angel S 36462, сессии 28–30.11.1961 + 20.02.1962).",
+      "album": "Schubert Lieder (Columbia SAX 5272 / Angel S 36462); ядро корпуса «15 Lieder» и Warner «The Complete Recitals»",
+      "label": "Columbia (EMI) / Warner Classics",
+      "age_voice": "33 года (р. 1928). Внутри пика ~1957–1975; та же сессионная связка, что дала её Gretchen (5 звёзд klassik-prisma).",
+      "reputation": "Корпус Ludwig/Parsons 1961–62 в проекте уже проходил как эталонный (D 118: пятизвёздная оценка klassik-prisma именно за эту серию сессий). Для D 531 отдельного сравнительного обзора не найдено.",
+      "sources": [
+        "classical-discography.org (Michael Gray), запись id-модалка по SAX5272",
+        "planning/youtube/albums/female-recitalists.md, карточка Ludwig",
+        "planning/research/singers-digest.md, карточка Ludwig"
+      ],
+      "youtube": [
+        {"videoId": "HC7TURBMleA", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Сопоставление по длительности: MB даёт Ludwig/Parsons 165 с, Ludwig/Gage 144 и 140 с. HC7TURBMleA — 168 с, то есть версия с Parsons (1961). Album-метаданные yt-dlp по этому ID получить не удалось (HTTP 429) — перед публикацией подтвердить."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Irwin Gage",
+      "rec_year": "1973",
+      "year_source": "База Грея: «Ludwig — Schubert: Lieder (DG 2530 404), зап. 21–24.06.1973, Вена, Rosenhügel» (planning/youtube/albums/female-recitalists.md, цитирующая [Gray]; совпадает с пилотным реестром). Метаданные Topic-загрузок дают release_year 1974 = год издания LP.",
+      "album": "Schubert: Lieder (DG 2530 404)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "45 лет. Ещё внутри пика (~1957–1975), но по правилу «при прочих равных — более ранняя» уступает версии 1961 г.",
+      "reputation": "Ремейк программы 1961–62 гг.; в проекте (D 118) ремейк с Gage последовательно оценивался ниже EMI-оригинала.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md (Ludwig, DG 2530 404, [Gray])",
+        "planning/research/singers-digest.md, карточка Ludwig",
+        "MusicBrainz: две записи Ludwig/Gage для D 531 (144 и 140 с)"
+      ],
+      "youtube": [
+        {"videoId": "c1-dFWfmFwQ", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "gZCoGv8-6sg", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "c1-dFWfmFwQ (144 с, album «Christa Ludwig – The Essentials», release_year 1974) и gZCoGv8-6sg (141 с, album «Schubert: Lieder», 1974) — обе версии Gage; вероятно, одна и та же запись в двух мастерах. Есть также широко разошедшаяся фан-загрузка vKh4JsWvsPw (195 с, 357 тыс. просмотров) — по длительности не совпадает ни с одной студийной, вероятно лайв; и UD9QInZVlnE «Ludwig; Gerald Moore (Londra, BBC)» 195 с — тоже лайв, для публикации не годится."
+    },
+    {
+      "singer": "Kathleen Ferrier",
+      "pianist": "Bruno Walter",
+      "rec_year": "1949",
+      "year_source": "Живой рецитал Ferrier/Walter на Эдинбургском фестивале, 1949 — установлено ранее в проекте по изданию Decca «Centenary Edition — The Complete Decca Recordings» (planning/research/d828-die-junge-nonne-top5.md, п. 3). В базе Грея студийной сессии D 531 у Ferrier нет (её шубертовские студийные — 14.03.1947 и 14.02.1949 с Phyllis Spurr, другие песни), что подтверждает концертное происхождение.",
+      "album": "Kathleen Ferrier Vol. 9 – Schubert / Brahms / Schumann; Centenary Edition – The Complete Decca Recordings",
+      "label": "Decca",
+      "age_voice": "37 лет. Пик — спада у неё не было вовсе (умерла в 41). Уникальная связка: за роялем дирижёр Бруно Вальтер.",
+      "reputation": "Эдинбургский рецитал 1949 г. — один из самых чтимых документов Ferrier; в проекте уже отобран в топ-5 для D 828 («Die junge Nonne»).",
+      "sources": [
+        "planning/research/d828-die-junge-nonne-top5.md",
+        "planning/youtube/albums/female-recitalists.md, карточка Ferrier",
+        "classical-discography.org (Gray): Ferrier + Schubert — 4 позиции, D 531 отсутствует (значит не студия)"
+      ],
+      "youtube": [
+        {"videoId": "GXXsFdgtJY4", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "xqbKK_IokoA", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "fNWAxTbBH14", "channel": "Kathleen Ferrier - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "GXXsFdgtJY4 — album «Kathleen Ferrier Centenary Edition – The Complete Decca Recordings» (yt-dlp), предпочтительный ID. xqbKK_IokoA = «Kathleen Ferrier Edition»; fNWAxTbBH14 = «Mahler: Kindertotenlieder – Schubert, Schumann, Brahms: Lieder» (154 с, кредит включает Edinburgh Festival Orchestra — вероятно, тот же рецитал). Все три с Bruno Walter в кредитах. MB-запись «Ferrier, Phyllis Spurr» (159 с) с той же длительностью — почти наверняка ошибочная атрибуция того же трека."
+    },
+    {
+      "singer": "Marian Anderson",
+      "pianist": "Franz Rupp",
+      "rec_year": "1946",
+      "year_source": "База Грея: «Number LM-98, 78/45 issue 10-1327 — Date 1946 May 10 — Place New York, Victor Studio No. 2 — Label Victor — Artists Marian Anderson, contralto; Franz Rupp, piano — 78 Prefix D5-RB, Matrix 203».",
+      "album": "Victor LM-98 / 78 об. 10-1327; свод Sony «Beyond the Music» (15 CD, 2021)",
+      "label": "RCA Victor / Sony",
+      "age_voice": "49 лет (р. 1897). Внутри пика 1930-х–1940-х; контральто ещё полное, ровное.",
+      "reputation": "Дайджест фонда: у Андерсон эта песня — одна из считанных названных шубертовских записей («Der Tod und das Mädchen (1946, Rupp)»), т. е. её фирменный номер. YouTube-охват огромный (фан-загрузки — сотни тысяч просмотров).",
+      "sources": [
+        "classical-discography.org (Gray), Victor LM-98",
+        "planning/research/singers-digest.md, карточка Anderson"
+      ],
+      "youtube": [
+        {"videoId": "FbH1w_c_rxo", "channel": "Marian Anderson - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "jWeMVJmd_QU", "channel": "Marian Anderson - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "NwhkzS1F3r4", "channel": "Marian Anderson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "FbH1w_c_rxo прямо озаглавлен «(Recorded 1946)» — совпадает с Греем. jWeMVJmd_QU — «2021 Remastered Version» (167 с) из свода Sony. Фан-загрузка YDMdNXut8Yc (171 с, 118 тыс.) и rBIXkLFtv3o — не официальные."
+    },
+    {
+      "singer": "Marian Anderson",
+      "pianist": "Kosti Vehanen",
+      "rec_year": "1936",
+      "year_source": "База Грея: «Number DA1550. Victor 1862 — Date 1936 November 13 — Place Paris, Studio Albert — Label HMV — Artists Marian Anderson, contralto; Kosti Vehanen, piano — Prefix 0LA, Matrix 1025 — Producer Cailly»; там же неизданный дубль тех же исполнителей от 1936 April 7 (та же матрица 0LA 1025, Studio Albert).",
+      "album": "HMV DA 1550 / Victor 1862 (78 об.)",
+      "label": "HMV / Victor",
+      "age_voice": "39 лет — вершина формы, за год до легендарных европейских турне; голос свежее, чем в 1946 г.",
+      "reputation": "Ранняя парижская сторона; отдельного сравнительного обзора не найдено. По правилу «при прочих равных — более ранняя» конкурирует с версией 1946 г.",
+      "sources": [
+        "classical-discography.org (Gray), HMV DA1550 и неизданный дубль 07.04.1936"
+      ],
+      "youtube": [
+        {"videoId": "cmFsn7B_Sps", "channel": "Kosti Vehanen - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Официальный Topic-канал по пианисту (Kosti Vehanen - Topic) — вероятная переиздательская загрузка версии 1936 г.; ID найден yt-dlp-поиском, но через yt-check не прогонялся (добавить проверку перед публикацией). Есть также фан-загрузка zQ4lb5R974k, прямо помеченная «Recorded Aug. 1936» — дата в описании расходится с Греем (13.11.1936), пример того, почему метаданные загрузок не источник."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Graham Johnson",
+      "rec_year": "1990",
+      "year_source": "Страница Hyperion CDJ33011 (The Hyperion Schubert Edition, Vol. 11 – Brigitte Fassbaender): «Recording date: June 1990»; издание V.1991. Совпадает с planning/youtube/albums/complete-editions.md.",
+      "album": "The Hyperion Schubert Edition, Vol. 11 «Schubert & Death» (CDJ33011)",
+      "label": "Hyperion",
+      "age_voice": "51 год (р. 1939). Внутри пика ~1975–1992; за два года до этого — её знаменитая Winterreise с Раймоном (1988).",
+      "reputation": "Том — тематический: «Schubert & Death», D 531 в нём смысловой центр. Комментарий Грэма Джонсона к тому: стихотворение Клаудиуса (1775) «выражает ужас перед смертью, чтобы предложить утешение», а в песне «дева тщетно сопротивляется домогательствам тирана» — в противопоставлении с «Der Jüngling und der Tod» Шпауна, где юноша смерть призывает. Classic CD о томе: «19 tracks devoted to some of the greatest songs ever written».",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33011",
+        "planning/youtube/albums/complete-editions.md (Vol. 11, CDJ33011, зап. VI.1990, изд. V.1991)",
+        "planning/research/singers-digest.md, карточка Fassbaender"
+      ],
+      "youtube": [
+        {"videoId": "w1DKeFcbk-g", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "MB даёт Fassbaender/Johnson 159 с; Topic-загрузка 160 с — совпадает. Сильнейший кандидат в «квоту записей не ранее 1990 года»: научный эталон издания + приоритетная возрастная зона певицы. Fassbaender записывала Шуберта и с Werba (EMI 1974), и с Garben (Sony 1992/93) — присутствие D 531 в тех программах не проверено."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Phillip Moll",
+      "rec_year": "1984",
+      "year_source": "planning/youtube/albums/female-recitalists.md: «Norman — Schubert: Lieder (Philips 412 623-2, зап. IV.1984)», пианист Phillip Moll; совпадает с дайджестом (Philips-рецитал, зап. апрель 1984). MB подтверждает пару Norman/Moll для D 531 (149 с).",
+      "album": "Schubert: Lieder (Philips 412 623-2)",
+      "label": "Philips / Universal",
+      "age_voice": "39 лет (р. 1945). Внутри пика ~1975–1995; голос в полном объёме.",
+      "reputation": "Диск в проекте уже проходил (D 852, D 118): монументальная Gretchen, «Die Allmacht». Манера крупная, оперная — для миниатюры Клаудиуса это может быть и достоинством, и перебором; отдельного обзора D 531 не найдено.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md, карточка Norman",
+        "planning/research/singers-digest.md, карточка Norman",
+        "MusicBrainz work 184e1531: «Jessye Norman, Phillip Moll — Der Tod und das Mädchen, op. 7 no. 3, D. 531» (149 с)"
+      ],
+      "youtube": [
+        {"videoId": "j4lDuVgo9t8", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "eNygJNCRqCE", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Обе загрузки 145 с — студийная версия с Moll. Отдельно Gd7ga6LGWtM (177 с) соответствует MB-паре Norman/Parsons (177 с) — живая Шубертиада, см. следующую позицию."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1987",
+      "year_source": "planning/youtube/albums.md, карточка «Jessye Norman — Händel · Schubert · Schumann — Recorded Live (Philips 422 048-1 / 422 048-2), 1987 (концерт, июнь), издание 1988»: живая запись Шубертиады, фестиваль Хоэнемс/Фельдкирх, Австрия, 6/1987 (примечания Discogs); в шубертовском блоке прямо назван «Der Tod und das Mädchen».",
+      "album": "Händel · Schubert · Schumann — Recorded Live (Philips 422 048)",
+      "label": "Philips / Universal",
+      "age_voice": "42 года — пик.",
+      "reputation": "Концертный документ; трек-лист карточки реестра прямо включает D 531. Отдельных рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums.md, карточка Norman/Parsons (Discogs-примечания)",
+        "MusicBrainz work 184e1531: «Jessye Norman, Geoffrey Parsons» (177 с)"
+      ],
+      "youtube": [
+        {"videoId": "Gd7ga6LGWtM", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дублирует певицу; при прочих равных студийная 1984 г. предпочтительнее."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1980?",
+      "year_source": "НЕ УСТАНОВЛЕН. MB даёт пару «Dame Janet Baker, Geoffrey Parsons» (147–148 с) с релизами-компиляциями EMI: «Dame Janet Baker Sings Popular Schubert Songs» [1981] и «Lieder» [1996/2005/2006]. В базе Грея (покрытие LP до ~1979) записи D 531 у Бейкер нет вовсе, а её шубертовские сессии там — только с Gerald Moore (2-LP HMV SLS 812, 29.08 + 12–13.09 + 16–20.12.1970). Отсюда рабочая гипотеза: сессия рубежа 1979–80 гг., изданная LP 1981 г.",
+      "album": "Dame Janet Baker Sings Popular Schubert Songs (EMI); переизд. «Lieder» (EMI Classics)",
+      "label": "EMI / Warner",
+      "age_voice": "~47 лет (р. 1933). Поздняя часть пика ~1965–1982; со сцены ушла к концу 1980-х.",
+      "reputation": "Бейкер — классик жанра (2-LP EMI 1970 с Муром считается образцовым). Конкретных оценок D 531 не найдено.",
+      "sources": [
+        "MusicBrainz: recording «Dame Janet Baker, Geoffrey Parsons — Der Tod und das Mädchen» + релизы EMI",
+        "planning/youtube/albums/female-recitalists.md, карточка Baker",
+        "classical-discography.org (Gray): в списке 28 записей D 531 Бейкер отсутствует"
+      ],
+      "youtube": [
+        {"videoId": "L03COXg8q4U", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год требует целевого доисследования по буклету EMI/Warner. По правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» — при отборе допустима публикация с year «1980?»."
+    },
+    {
+      "singer": "Kurt Moll",
+      "pianist": "Cord Garben",
+      "rec_year": "1982?",
+      "year_source": "planning/youtube/albums/male-recitalists.md: «Moll — Schubert: Lieder for Bass (Orfeo S 021821 A, изд. 1982)», пианист Cord Garben. MB даёт релиз «Lieder für Baß» с датой 1987-04-06 (вероятно CD-переиздание). Год сессии по буклету Orfeo не сверялся — отсюда «?».",
+      "album": "Schubert: Lieder für Baß (Orfeo S 021821 A)",
+      "label": "Orfeo",
+      "age_voice": "~44 года (р. 1938). Пик басовой формы; редкий настоящий чёрный бас в этом репертуаре.",
+      "reputation": "Реестр (по статье Wikipedia о Kurt Moll) фиксирует, что запись «set a new standard for these songs» — то есть за басовым шубертовским репертуаром признан новый стандарт. Ниша прямо релевантна D 531: реплика Смерти написана в нижнем регистре.",
+      "sources": [
+        "planning/youtube/albums/male-recitalists.md, карточка Moll (Orfeo S 021821 A) и итог разд. («Moll/Orfeo — новый стандарт по Wikipedia»)",
+        "MusicBrainz: «Kurt Moll, Cord Garben — Der Tod und das Mädchen, D. 531» (184 с), релиз «Lieder für Baß»"
+      ],
+      "youtube": [
+        {"videoId": "yRv7vh_iYS8", "channel": "Kurt Moll - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Внимание: у Молля на Topic есть ВТОРАЯ загрузка LEJsUXphiuY — «Arr. for Voice & Orchestra by Felix Motti» (150 с), это оркестровая аранжировка, не фортепианный оригинал; для публикации годится только yRv7vh_iYS8 (185 с, совпадает с MB 184 с). Есть также лайв Ludwigsburg 05.09.1986 (WDkwnPUmiEE, фан-канал) — дуэт Moll/Harald Stamm."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994",
+      "year_source": "planning/youtube/albums.md: «Bryn Terfel — An die Musik – Favourite Schubert Songs (DG 445 294-2), запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; издание 04.09.1994». MB подтверждает трек на «An die Musik: Favorite Schubert Songs» [1994-09-04].",
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2), 23 песни",
+      "label": "Deutsche Grammophon",
+      "age_voice": "29 лет (р. 1965). Ранний пик ~1992–2005; голос молодой, объёмный.",
+      "reputation": "Бестселлер каталога DG; klassik-prisma — 4–5 баллов за Erlkönig с этого диска (реестр). Терфель не циклист, диск — «избранное», но именно баллады/драматические миниатюры на нём удаются.",
+      "sources": [
+        "planning/youtube/albums.md, три карточки Terfel «An die Musik»",
+        "planning/research/singers-digest.md, карточка Terfel",
+        "MusicBrainz: «Bryn Terfel, Malcolm Martineau — Der Tod und das Mädchen, D 531» (154 с)"
+      ],
+      "youtube": [
+        {"videoId": "KiDXx7nZOMo", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат на «квоту не ранее 1990 года»."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2011",
+      "year_source": "MB: трек с релиза «Wanderers Nachtlied» [2014-02-10] = Goerne Schubert Edition Vol. 8 (HMC 902109.10, 2 CD). Реестр: «зап. II и IV.2011 (CD 1), VI.2011 и II.2012 (CD 2), Teldex; изд. II.2014», пианисты Helmut Deutsch (CD 1) и Eric Schneider (CD 2) — по кредиту MB (Deutsch) трек с CD 1, т. е. сессии февраля/апреля 2011.",
+      "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied» (HMC 902109.10)",
+      "label": "harmonia mundi",
+      "age_voice": "44 года (р. 1967). Внутри пика ~1997–2015.",
+      "reputation": "12-томный свод Гёрне — «крупнейший сольный свод последних десятилетий» (реестр). Правило проекта требует скепсиса к прессе о современных: конкретных оценок именно D 531 не найдено.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md, Goerne Vol. 8",
+        "MusicBrainz: «Matthias Goerne, Helmut Deutsch — Der Tod und das Mädchen» (144 с), релиз «Wanderers Nachtlied»"
+      ],
+      "youtube": [
+        {"videoId": "MUJMzau-15c", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть также вторая версия Гёрне — с контрабасом и Quatuor Ébène (релиз «String Quintet / Lieder», 2016; MB 124 с): аранжировка, не фортепианный оригинал; для публикации не годится."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "2016?",
+      "year_source": "MB: трек с релиза «Lieder Recital» [2016]; реестр: «Boesch — Lieder Recital (Onyx Classics ONYX4149, изд. 20.05.2016 [MB])» — это дата ИЗДАНИЯ; год сессии не установлен.",
+      "album": "Lieder Recital (Onyx ONYX4149)",
+      "label": "Onyx Classics",
+      "age_voice": "~45 лет (р. 1971). Внутри пика ~2010–наст.; «рассказчик венской школы» (дайджест).",
+      "reputation": "Единственный кандидат, попадающий в квоту «не ранее 2015 года». Пресса о Бёше в проекте фильтруется по правилу о пиаре; конкретных оценок D 531 не найдено.",
+      "sources": [
+        "planning/youtube/albums/modern-series.md, карточка Boesch (ONYX4149)",
+        "MusicBrainz: «Florian Boesch, Malcolm Martineau — Der Tod und das Mädchen, D. 531» (156 с)"
+      ],
+      "youtube": [
+        {"videoId": "XmsOW2O5C8o", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный найденный кандидат «не ранее 2015». Внимание: у ансамбля Franui есть аранжировка D 531 (GsmDGCrAoak) — не фортепианный оригинал."
+    },
+    {
+      "singer": "Nathalie Stutzmann",
+      "pianist": "Inger Södergren",
+      "rec_year": "2005",
+      "year_source": "MB: трек с релиза «Schwanengesang» [2008] и бокса «Winterreise / Die schöne Müllerin / Schwanengesang» [2014]. Дайджест: Schwanengesang с Södergren записан в 2005 (Calliope; издание 2008), бокс Erato 2014.",
+      "album": "Schwanengesang (Calliope; бокс трёх циклов, Erato 2014) — D 531 как дополнение к циклу",
+      "label": "Calliope / Erato (Warner)",
+      "age_voice": "~40 лет (р. 1965). Внутри пика ~1995–2010; редкое настоящее контральто.",
+      "reputation": "Редкий случай контральто во всех трёх циклах (дайджест). Тесситура контральто прямо подходит к реплике Смерти. Отдельных обзоров D 531 не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md, карточка Stutzmann",
+        "MusicBrainz: две записи Stutzmann/Södergren (166 с) с релизами Calliope/Erato"
+      ],
+      "youtube": [
+        {"videoId": "vVOYjaMvVvM", "channel": "Nathalie Stutzmann", "official": true, "oembed_ok": true}
+      ],
+      "note": "vVOYjaMvVvM — официальный авторский канал певицы (167 с, 84 тыс. просмотров), не Topic, но официальный. Год записи 2005 взят из дайджеста; при отборе желательна сверка по буклету Calliope."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Leif Ove Andsnes",
+      "rec_year": "2002–2005?",
+      "year_source": "НЕ УСТАНОВЛЕН. MB: трек с релиза «The Wanderer: Lieder & Fragments» [2008-07-14] (EMI) — это компиляция серии. Реестр: «Bostridge — серия с Leif Ove Andsnes (EMI): Соната D 959 + Lieder (2002); D 850 + 9 Lieder (2003); Winterreise (2004); D 960 + Viola/Der Winterabend (2005); D 958 + Lieder». Конкретный том с D 531 не идентифицирован.",
+      "album": "Серия EMI Schubert с Leif Ove Andsnes; трек также на компиляции «The Wanderer: Lieder & Fragments» (2008)",
+      "label": "EMI / Warner",
+      "age_voice": "~38–41 год (р. 1964). Внутри пика ~1995–2010; после ~2010 дайджест отмечает более манерную и суховатую манеру.",
+      "reputation": "Дуэт с крупным солистом-пианистом (как Hendricks/Lupu) — сам по себе редкость. Правило скепсиса к современной прессе применимо; конкретных оценок D 531 не найдено.",
+      "sources": [
+        "planning/youtube/albums/modern-series.md, карточка Bostridge (серия с Andsnes)",
+        "MusicBrainz: «Ian Bostridge, Leif Ove Andsnes — Der Tod und das Mädchen, D. 531» (148 с)"
+      ],
+      "youtube": [
+        {"videoId": "KqgIuTeetKw", "channel": "Leif Ove Andsnes - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальная загрузка идёт по Topic-каналу пианиста, а не певца — при формировании name учесть формат «Bostridge — Andsnes»."
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": "2001?",
+      "year_source": "MB recording-поиск: единственная запись Gerhaher для D 531 — на релизе «Arte Nova Voices – Lieder: Schubert, Brahms, Martin». Реестр: этот диск издан 26.07.2002, при этом «Gesänge des Harfners зап. 4–6.12.2001 [Discogs]» — значит сессии диска приходятся на 2001 г.; отнесение именно трека D 531 к этим сессиям не подтверждено.",
+      "album": "Arte Nova Voices – Lieder: Schubert, Brahms, Martin",
+      "label": "Arte Nova (BMG/Sony)",
+      "age_voice": "~32 года (р. 1969). Начало пика ~2000–наст.; ранний, ещё «арте-нова»-период.",
+      "reputation": "Пресса называет Герхаэра высшим текстовиком современности — по правилу проекта эта оценка фильтруется как пиар-подверженная. Ранний диск Arte Nova в реестре без наград (в отличие от Abendbilder 2005 и Nachtviolen 2014).",
+      "sources": [
+        "MusicBrainz recording-запрос artist:Gerhaher + «Der Tod und das Mädchen»",
+        "planning/youtube/albums/modern-series.md, карточка Gerhaher (Arte Nova Voices, изд. 26.07.2002)"
+      ],
+      "youtube": [
+        {"videoId": "hVyj2_PHdBA", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Метаданные yt-dlp по ID получить не удалось (HTTP 429); идентификация альбома — по MB."
+    },
+    {
+      "singer": "Renée Fleming",
+      "pianist": "Christoph Eschenbach",
+      "rec_year": "1996",
+      "year_source": "planning/research/singers-digest.md, карточка Fleming: «The Schubert Album (Decca, зап. 1996, Eschenbach)». MB подтверждает пару Fleming/Eschenbach для D 531 (185 с). Фан-загрузка wJcmVY3xk6I прямо помечена «Rec. 1996» (не источник).",
+      "album": "The Schubert Album (Decca)",
+      "label": "Decca / Universal",
+      "age_voice": "37 лет (р. 1959). Внутри пика ~1995–2010, но Lieder у неё вторичны (дайджест).",
+      "reputation": "Дайджест прямо отмечает вторичность Lieder в её дискографии; кандидат резервный.",
+      "sources": [
+        "planning/research/singers-digest.md, карточка Fleming",
+        "MusicBrainz: «Renée Fleming, Christoph Eschenbach — Der Tod und das Mädchen» (185 с)"
+      ],
+      "youtube": [
+        {"videoId": "ITJtPBtUSa4", "channel": "Renée Fleming - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Резерв; по правилу приоритета старых мастеров уступает Ferrier/Anderson/Ludwig."
+    },
+    {
+      "singer": "Wolfgang Holzmair",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "2005?",
+      "year_source": "MB: трек на релизе «Lied Edition 20 – Poets of Sensibility, Vol. 3» [2005-12-13] (Naxos Deutsche Schubert-Lied-Edition) и на боксе «Franz Schubert: The Complete Lieder» [2011-11]. По конвенции проекта для Naxos DSLE берётся год издания (planning/youtube/albums/complete-editions.md, п. 1 итогов).",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 20 «Poets of Sensibility, Vol. 3»",
+      "label": "Naxos",
+      "age_voice": "~53 года (р. 1952). За пиком 1990-х; светлый, теноровый баритон.",
+      "reputation": "Позиция полного издания — гарантия наличия, не гарантия качества. Отдельных оценок не найдено.",
+      "sources": [
+        "MusicBrainz recording-запрос artist:Eisenlohr + «Der Tod und das Mädchen»",
+        "planning/research/singers-digest.md, карточка Holzmair",
+        "planning/youtube/albums/complete-editions.md (конвенция года для Naxos DSLE)"
+      ],
+      "youtube": [],
+      "note": "Отдельная загрузка D 531 на YouTube не найдена (yt-dlp-поиск выдаёт другие треки Holzmair - Topic). Кандидат в пул для полноты, не для публикации."
+    },
+    {
+      "singer": "Josef Greindl",
+      "pianist": "Hertha Klust",
+      "rec_year": "1957",
+      "year_source": "База Грея: «Number LPEM19094 — Date 1957 March 3 + 9 — Place Hannover, Beethovensaal — Label Deutsche Grammophon — Artists Josef Greindl, bass; Hertha Klust, piano».",
+      "album": "DG LPEM 19094",
+      "label": "Deutsche Grammophon",
+      "age_voice": "45 лет (р. 1912). «Железный» байройтский бас; тот же дуэт, что дал его Winterreise 1957 г. — редкий настоящий бас 1950-х (дайджест).",
+      "reputation": "Дайджест: Winterreise Greindl/Klust 1957 — «редкий настоящий бас 1950-х»; прочего Шуберта у него мало. Для D 531 басовая краска стилистически ценна.",
+      "sources": [
+        "classical-discography.org (Gray), DG LPEM19094",
+        "planning/research/singers-digest.md, карточка Greindl"
+      ],
+      "youtube": [],
+      "note": "Загрузка именно D 531 на YouTube не найдена (yt-dlp-поиск даёт другие песни с фан-канала NoeckesHarfenschall). Кандидат пула без YouTube-позиции."
+    },
+    {
+      "singer": "Lotte Lehmann",
+      "pianist": "оркестр под упр. Manfred Gurlitt (не фортепиано)",
+      "rec_year": "1927",
+      "year_source": "База Грея: «Number O-4800 — Date 1927 December 6 — Label Odéon — Conductor Gurlitt, Manfred — Artists Lotte Lehmann, soprano — Prefix Be, Matrix 6397». Совпадает с planning/youtube/albums/female-recitalists.md (Odéon-стороны 06.12.1927, в списке прямо назван Der Tod und das Mädchen).",
+      "album": "Odéon O-4800 (78 об.)",
+      "label": "Odéon",
+      "age_voice": "39 лет (р. 1888) — внутри пика сер. 1910-х–кон. 1930-х, голос в лучшей форме.",
+      "reputation": "Историческая ценность высокая; но сопровождение оркестровое (дирижёр Гурлитт), а не фортепианное — по правилам проекта такая запись публикуется с name «Lehmann — Ensemble/Gurlitt» и стилистически отходит от песенного оригинала.",
+      "sources": [
+        "classical-discography.org (Gray), Odéon O-4800",
+        "planning/youtube/albums/female-recitalists.md, карточка Lehmann"
+      ],
+      "youtube": [
+        {"videoId": "Q8NJK1G8KPk", "channel": "Lotte Lehmann - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "5Cd9eR89USE", "channel": "Lotte Lehmann - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Две Topic-загрузки (174 и 179 с) — вероятно, разные мастера одной стороны. 5Cd9eR89USE через yt-check не прогонялся."
+    },
+    {
+      "singer": "Feodor Chaliapin",
+      "pianist": "оркестр под упр. Eugene Goossens (не фортепиано)",
+      "rec_year": "1928",
+      "year_source": "База Грея: «Number DB1184. Victor 7116 — Date 1928 June 30 — Label HMV — Conductor Goossens, Sir Eugene — Artists Feodor Chaliapin, bass — Prefix Cc, Matrix 13898».",
+      "album": "HMV DB 1184 / Victor 7116 (78 об.); переизд. «1997 – Remaster» (MB)",
+      "label": "HMV / Victor",
+      "age_voice": "55 лет (р. 1873); поздняя, но ещё внушительная фаза.",
+      "reputation": "Легендарный документ басового прочтения; сопровождение оркестровое. Стилистически — оперная, а не камерная манера.",
+      "sources": [
+        "classical-discography.org (Gray), HMV DB1184",
+        "MusicBrainz work 184e1531: «Feodor Chaliapin, Sir Eugene Goossens» (124 с)"
+      ],
+      "youtube": [
+        {"videoId": "JX8pVf7St5U", "channel": "Ksenia Vorobieva", "official": false, "oembed_ok": true}
+      ],
+      "note": "Найдена только фан-загрузка (133 с) — официального Topic-варианта не обнаружено."
+    },
+    {
+      "singer": "Julia Culp",
+      "pianist": "не указан (Gray); MB даёт Fritz Lindemann",
+      "rec_year": "1926",
+      "year_source": "База Грея: «Number EJ41 — Date 1926 July 29 — Label HMV — Artists Julia Culp, mezzo-soprano — Prefix CW, Matrix 154, Take 1». MB отдельно фиксирует «Julia Culp, Fritz Lindemann» (166 с, ремастер 1997) — возможна вторая, более ранняя сторона (у MB также запись с началом 1926-08-21 по work-relations).",
+      "album": "HMV EJ 41 (78 об.); переизд. Marston",
+      "label": "HMV",
+      "age_voice": "46 лет (р. 1880). Пик 1901–1919 уже позади (после 1919 почти не выступала) — запись сделана на возвращении.",
+      "reputation": "Дайджест прямо называет её «Der Tod und das Mädchen» среди её шубертовских записей — то есть номер известный. Охват на YouTube слабый (фан/архив).",
+      "sources": [
+        "classical-discography.org (Gray), HMV EJ41",
+        "planning/research/singers-digest.md, карточка Culp",
+        "MusicBrainz work 184e1531: две записи Culp"
+      ],
+      "youtube": [
+        {"videoId": "Wz8Cpwj74ZQ", "channel": "Mac NOMURA", "official": false, "oembed_ok": true}
+      ],
+      "note": "Только фан-загрузка 78-оборотного оригинала."
+    },
+    {
+      "singer": "Ernestine Schumann-Heink",
+      "pianist": "не указан",
+      "rec_year": "1923",
+      "year_source": "База Грея: «Number 87386. HMV DA607 — Date 1923 October 4 — Label Victor — Artists Ernestine Schumann-Heink, contralto — Prefix B, Matrix 4703, Take 2».",
+      "album": "Victor 87386 / HMV DA 607 (78 об.)",
+      "label": "Victor / HMV",
+      "age_voice": "62 года (р. 1861) — глубоко поздняя фаза.",
+      "reputation": "Историко-документальная ценность (одна из старейших записей песни); вокально не эталон.",
+      "sources": [
+        "classical-discography.org (Gray), Victor 87386",
+        "MusicBrainz work 184e1531: «Ernestine Schumann-Heink» (177 с)"
+      ],
+      "youtube": [],
+      "note": "Отдельная официальная загрузка не найдена; вероятно, среди агрегаторных Topic-каналов («Franz Schubert - Topic», DFU4vp0B4GE, 177 с — длительность совпадает с MB-записью Schumann-Heink; идентификация не подтверждена)."
+    },
+    {
+      "singer": "Elena Gerhardt",
+      "pianist": "Ivor Newton",
+      "rec_year": "1923",
+      "year_source": "База Грея: «Number B-3107 — Date 1923 March 23 — Place London — Label Vocalion-UK — Artists Elena Gerhardt, soprano; Ivor Newton, piano — Matrix 03202».",
+      "album": "Vocalion B-3107 (78 об.)",
+      "label": "Vocalion (UK)",
+      "age_voice": "40 лет (р. 1883). Пик 1907–нач. 1920-х — запись на его излёте; к 1926–28 дайджест отмечает износ голоса.",
+      "reputation": "Пионер женского Lieder-рецитала; ценность прежде всего стилистическая.",
+      "sources": [
+        "classical-discography.org (Gray), Vocalion B-3107",
+        "planning/research/singers-digest.md, карточка Gerhardt"
+      ],
+      "youtube": [],
+      "note": "Загрузка не найдена."
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2017",
+      "year_source": "planning/youtube/albums.md: «Alice Coote — Schubert: 21 Songs (Hyperion CDA68169), запись 18–21 декабря 2017, издание май 2022», All Saints' Church, East Finchley.",
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "label": "Hyperion",
+      "age_voice": "49 лет (р. 1968). Внутри зрелого пика ~2005–наст.",
+      "reputation": "Пресса по альбому (реестр): Gramophone — «with an underlying tension», «doesn't sugar-coat anything»; BBC Music Magazine — «every note is delivered with white-hot sincerity».",
+      "sources": [
+        "planning/youtube/albums.md, две карточки Coote (CDA68169)",
+        "MusicBrainz work 184e1531: два трека Coote/Drake — «Vorüber, ach, vorüber!» (55 с) и «Gib deine Hand…» (113 с)"
+      ],
+      "youtube": [
+        {"videoId": "SJHp5gx3Fis", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "iRSobtGbR1s", "channel": "Julius Drake - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ДИСКВАЛИФИКАЦИЯ ДЛЯ ПЛЕЕРА: на Hyperion песня разбита на два трека (реплика девушки и реплика Смерти) и на YouTube загружена двумя отдельными роликами по 56 и 114 с — цельного исполнения одним ID нет. Кандидат остаётся в пуле как значительная запись, но публиковать нечего."
+    },
+    {
+      "singer": "Victoria de los Ángeles",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен",
+      "year_source": "НЕ УСТАНОВЛЕН. MB: «Victoria de los Ángeles, Gerald Moore — Der Tod und das Mädchen, D. 531» (167 с). В базе Грея среди 28 записей D 531 её нет. Дайджест: шубертовские группы в EMI-рециталах с Муром 1950-х–60-х.",
+      "album": "EMI-рецитал (том не идентифицирован)",
+      "label": "EMI / Warner",
+      "age_voice": "предположительно 1950-е–нач. 1960-х = пик (р. 1923).",
+      "reputation": "Дайджест: «тёплый стилист, не специалист» по немецкой песне.",
+      "sources": [
+        "MusicBrainz work 184e1531",
+        "planning/research/singers-digest.md, карточка de los Ángeles"
+      ],
+      "youtube": [
+        {"videoId": "ey7TcS1mooY", "channel": "José Navarro-Forcada", "official": false, "oembed_ok": null}
+      ],
+      "note": "Только фан-загрузка (168 с); год не установлен. Кандидат пула, не приоритетный."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ ЗАПИСЫВАЛ. (1) MusicBrainz work 184e1531-93a4-34e9-903e-14504261f533 — 56 записей произведения, Квастхофа среди них нет; (2) точечный recording-запрос MB (recording:\"Der Tod und das Mädchen\" AND artist:Quasthoff) — 0 результатов; (3) yt-dlp ytsearch10 по запросу «Quasthoff Der Tod und das Mädchen Schubert» — ни одного его ролика с этой песней; (4) дискография закрыта: ровно 6 шубертовских альбомов (Goethe-Lieder 1993/95, Winterreise 1998, Schwanengesang 2001, Lieder с оркестром 2003, Müllerin 2005, Winterreise-фильм 2005), D 531 не входит ни в один — planning/research/singers-digest.md.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ, минимум дважды. MusicBrainz work 184e1531 даёт пять recording-позиций Fischer-Dieskau/Moore (149–151 с); на Topic-канале четыре разные загрузки, включая DG-интеграл «Sämtliche Lieder» (1966–72) и более раннюю EMI/Electrola-версию. См. две карточки кандидатов.",
+    "Elisabeth Schwarzkopf": "НЕ ЗАПИСЫВАЛА. (1) Полный список записей произведения в базе Майкла Грея (28 позиций, включая всю эпоху 78-х и LP до конца 1970-х) её не содержит; (2) MB recording-запрос artist:Schwarzkopf — 0; (3) yt-dlp-поиск не даёт ни одного её ролика с D 531. Её шубертовский корпус в реестре (Columbia 78s 1946–51, рецитал с Эдвином Фишером 1952, зальцбургские лайвы, «Songs I Love» 1970–73) D 531 не включает.",
+    "Hans Hotter": "НЕ ЗАПИСЫВАЛ. (1) Отсутствует в полном списке Грея по произведению; (2) MB recording-запрос artist:Hotter — 0; (3) yt-dlp-поиск — 0. Реестр (planning/youtube/albums/male-recitalists.md) перечисляет его шубертовские сессии (RRG 1942–45 с Raucheisen, EMI 01–02.10.1949, Schwanengesang 1954, Lieder 1957, Columbia 33CX 1626/1661 1956–57, Decca «The Art of Hans Hotter» 1974) — D 531 в них не значится. Отрицательный результат стоит перепроверить по трек-листам радиозаписей Raucheisen, если появится доступ.",
+    "Peter Anders": "НЕ ЗАПИСЫВАЛ. MB recording-запрос artist:\"Peter Anders\" — 0; в списке Грея по произведению отсутствует; его шубертовское наследие — оба цикла с Raucheisen/Weissenborn (дайджест), D 531 туда не входит.",
+    "Elisabeth Schumann": "НЕ ЗАПИСЫВАЛА. MB recording-запрос — 0; в списке Грея по произведению отсутствует; полный перечень её 32 шубертовских сессий по Грею (planning/youtube/albums/female-recitalists.md, 1919–1946) D 531 не содержит.",
+    "Christa Ludwig": "ЗАПИСЫВАЛА ДВАЖДЫ. (1) С Geoffrey Parsons — 28.11.1961, Abbey Road Studio No. 1, Columbia SAX 5272 / Angel S 36462 (база Грея); (2) с Irwin Gage — DG 2530 404, сессии 21–24.06.1973, Вена, Rosenhügel (Gray через planning/youtube/albums/female-recitalists.md). Обе доступны на Topic-канале.",
+    "Lucia Popp": "НЕ ЗАПИСЫВАЛА. MB recording-запрос artist:Popp — 0; отсутствует в списке Грея по произведению; её шубертовский корпус (рецитал EMI 1983 с Gage, BBC Legends live 1982 с Parsons) D 531 не включает (дайджест)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–1972 (конвенция проекта — 1969)",
+      "label": "Deutsche Grammophon",
+      "facts": "Полный свод «мужских» песен Шуберта с Джеральдом Муром, сессии в Ufa-Ton-Studio Berlin; женские песни сознательно исключены. Сквозное издание — кандидат для любой мужской песни корпуса. Конвенция года зафиксирована в planning/youtube/albums/complete-editions.md.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 11 «Schubert & Death» (CDJ33011)",
+      "singer": "Brigitte Fassbaender",
+      "year": "1990 (запись июнь), издание май 1991",
+      "label": "Hyperion",
+      "facts": "Пианист и автор комментария — Graham Johnson. Тематический том: 19 песен о смерти, D 531 — его смысловой центр. Джонсон в аннотации: стихотворение Клаудиуса 1775 г. «выражает ужас перед смертью, чтобы предложить утешение», в песне «дева тщетно сопротивляется домогательствам тирана», в паре с «Der Jüngling und der Tod» Шпауна, где юноша смерть призывает. Classic CD о томе: «19 tracks devoted to some of the greatest songs ever written». Источник: https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33011",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (Columbia SAX 5272 / Angel S 36462)",
+      "singer": "Christa Ludwig",
+      "year": "1961 (сессии 28–30.11.1961 + 20.02.1962)",
+      "label": "Columbia (EMI) / Warner",
+      "facts": "Abbey Road Studio No. 1, пианист Geoffrey Parsons. D 531 записан 28.11.1961 (база Грея). Ядро корпуса «15 Lieder» и Warner «The Complete Recitals»; та же серия сессий дала её пятизвёздную Gretchen по klassik-prisma.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (DG 2530 404)",
+      "singer": "Christa Ludwig",
+      "year": "1973 (сессии 21–24.06.1973), издание 1974",
+      "label": "Deutsche Grammophon",
+      "facts": "Вена, Rosenhügel; пианист Irwin Gage. Ремейк программы EMI 1961–62.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Kathleen Ferrier / Bruno Walter — Эдинбургский фестиваль, живой рецитал",
+      "singer": "Kathleen Ferrier",
+      "year": "1949",
+      "label": "Decca",
+      "facts": "За роялем дирижёр Бруно Вальтер. Издания: «Kathleen Ferrier Vol. 9 – Schubert / Brahms / Schumann», «Centenary Edition – The Complete Decca Recordings» (2012). В проекте уже использован для D 828.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Victor LM-98 / 78 об. 10-1327",
+      "singer": "Marian Anderson",
+      "year": "1946 (сессия 10 мая)",
+      "label": "RCA Victor",
+      "facts": "New York, Victor Studio No. 2; пианист Franz Rupp; матрица D5-RB 203 (база Грея). Вошло в свод Sony «Beyond the Music» (15 CD, 2021; ремастер 2021 на Topic).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DA 1550 / Victor 1862",
+      "singer": "Marian Anderson",
+      "year": "1936 (сессия 13 ноября; неизданный дубль 7 апреля 1936)",
+      "label": "HMV",
+      "facts": "Paris, Studio Albert; пианист Kosti Vehanen; матрица 0LA 1025, продюсер Cailly (база Грея). Фан-загрузки в сети датируют её «Aug. 1936» — расхождение с дискографией, метаданные загрузок ненадёжны.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2)",
+      "singer": "Bryn Terfel",
+      "year": "1994 (запись февраль), издание 04.09.1994",
+      "label": "Deutsche Grammophon",
+      "facts": "Friedrich-Ebert-Halle, Hamburg-Harburg; пианист Malcolm Martineau; 23 песни; бестселлер каталога DG.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied» (HMC 902109.10)",
+      "singer": "Matthias Goerne",
+      "year": "2011 (CD 1 — сессии II и IV.2011, Teldex), издание II.2014",
+      "label": "harmonia mundi",
+      "facts": "Пианисты Helmut Deutsch (CD 1) и Eric Schneider (CD 2); D 531 с кредитом Deutsch, т. е. CD 1.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder Recital (Onyx ONYX4149)",
+      "singer": "Florian Boesch",
+      "year": "издание 20.05.2016 (год сессии не установлен)",
+      "label": "Onyx Classics",
+      "facts": "Пианист Malcolm Martineau. Единственный найденный кандидат, попадающий в квоту «не ранее 2015 года».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder für Baß (Orfeo S 021821 A)",
+      "singer": "Kurt Moll",
+      "year": "издание 1982 (год сессии не установлен)",
+      "label": "Orfeo",
+      "facts": "Пианист Cord Garben. По статье Wikipedia о Kurt Moll запись «set a new standard for these songs». На Topic-канале рядом лежит оркестровая аранжировка Феликса Мотля — не путать.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "singer": "Alice Coote",
+      "year": "2017 (запись 18–21 декабря), издание май 2022",
+      "label": "Hyperion",
+      "facts": "All Saints' Church, East Finchley; пианист Julius Drake. Пресса: Gramophone — «with an underlying tension», «doesn't sugar-coat anything»; BBC Music Magazine — «every note is delivered with white-hot sincerity». D 531 разбит на два трека — на YouTube выложен двумя отдельными роликами.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 20 «Poets of Sensibility, Vol. 3»",
+      "singer": "Wolfgang Holzmair",
+      "year": "издание 13.12.2005",
+      "label": "Naxos",
+      "facts": "Пианист Ulrich Eisenlohr. Позиция полного издания; отдельной YouTube-загрузки D 531 не найдено.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG LPEM 19094",
+      "singer": "Josef Greindl",
+      "year": "1957 (сессии 3 и 9 марта)",
+      "label": "Deutsche Grammophon",
+      "facts": "Hannover, Beethovensaal; пианистка Hertha Klust — тот же дуэт, что записал Winterreise 1957 г.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "source": "klassik-prisma.de",
+      "url": "https://www.klassik-prisma.de/Schubert.htm",
+      "finding": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ: у klassik-prisma нет страницы-Vergleich для песни D 531. Индекс раздела «Schubert» содержит страницы по Erlkönig, Gretchen am Spinnrade, Die junge Nonne, Nacht und Träume, Auf dem Wasser zu singen, циклам и инструментальным сочинениям, а по «Der Tod und das Mädchen» — только страница струнного квартета D 810 (Schub. D.810.htm). Сравнительного рейтинга исполнений песни у этого источника нет."
+    },
+    {
+      "source": "Hyperion Records — The Hyperion Schubert Edition, Vol. 11 «Schubert & Death»",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33011",
+      "finding": "Аннотация Грэма Джонсона к тому — главный найденный аналитический источник по D 531: контекст стихотворения Клаудиуса (1775), «дева тщетно сопротивляется домогательствам тирана», парность с «Der Jüngling und der Tod» Шпауна. Плюс цитата Classic CD о томе."
+    },
+    {
+      "source": "A Classical Discography (Michael Gray), classical-discography.org",
+      "url": "https://www.classical-discography.org/search.php",
+      "finding": "Не обзор, а дискографический свод: POST-запрос composer=Schubert, work=«Tod und das» даёт 28 позиций произведения с сессионными датами, местами, матрицами и составами — от Gerhardt (1923) и Schumann-Heink (1923) до Ludwig/Parsons (1961) и Greindl/Klust (1957). Это опорный источник дат по всем историческим кандидатам досье."
+    }
+  ],
+  "negatives": [
+    "Квастхоф эту песню не записывал — верхний приоритет правил в топ-5 по D 531 не может быть занят (проверено тремя независимыми способами, см. priority_singers_checked).",
+    "Шварцкопф, Хоттер, Андерс, Э. Шуман, Попп эту песню не записывали — из восьми приоритетных певцов правил представлены только Фишер-Дискау и Людвиг.",
+    "klassik-prisma не имеет сравнительной страницы по D 531 (только по квартету D 810) — опорного рейтингового обзора для этой песни в привычном для проекта источнике НЕТ.",
+    "Запись Alice Coote / Julius Drake (Hyperion 2017) технически непригодна для плеера: на диске и на YouTube песня разбита на два отдельных трека/ролика (56 и 114 с).",
+    "Записи Lehmann (Odéon 1927, дирижёр Manfred Gurlitt) и Chaliapin (HMV 1928, дирижёр Eugene Goossens) — С ОРКЕСТРОМ, а не с фортепиано; по правилам проекта им положен формат name «Фамилия — Ensemble/дирижёр», и стилистически они отходят от песенного оригинала.",
+    "У Kurt Moll на Topic-канале две загрузки D 531; LEJsUXphiuY — оркестровая аранжировка Felix Motti(l), НЕ фортепианный оригинал. Аналогично у Goerne есть версия с Quatuor Ébène и контрабасом (аранжировка), а у Boesch — версия с ансамблем Franui.",
+    "Записи Greindl/Klust (DG 1957), Gerhardt (Vocalion 1923), Schumann-Heink (Victor 1923) и Holzmair/Eisenlohr (Naxos DSLE 2005) отдельных YouTube-загрузок не имеют — в топ-5 попасть не могут.",
+    "Год записи не установлен у четырёх кандидатов: Baker/Parsons (гипотеза 1979–80 по релизу EMI 1981), Bostridge/Andsnes (серия EMI 2002–2005), Boesch (издание 2016), Moll (издание Orfeo 1982), а также у ранней EMI-версии Fischer-Dieskau (метаданные загрузки указывают 1965 — НЕ источник).",
+    "WebSearch в этой сессии был исчерпан (200/200) до начала работы; обзоры Gramophone, MusicWeb и BBC Music Magazine по отдельным записям D 531 напрямую не проверялись — доступные цитаты взяты из реестра альбомов проекта (Coote/Hyperion) и со страницы Hyperion. Это открытый хвост для доисследования.",
+    "yt-dlp-запросы album-метаданных упёрлись в HTTP 429 после первых ~12 роликов; идентификация альбомов для Baker, Fassbaender, Moll, Norman, Terfel, Boesch, Goerne, Stutzmann, Bostridge, Gerhaher сделана по MusicBrainz и реестру, а не по метаданным загрузок (что и правильнее по правилам), но соответствие «ID ↔ конкретная запись» проверено только по совпадению длительности и каналу."
+  ]
+}

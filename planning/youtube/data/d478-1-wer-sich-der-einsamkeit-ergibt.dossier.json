@@ -1,0 +1,468 @@
+{
+  "d": "478/1",
+  "title": "Wer sich der Einsamkeit ergibt (Harfenspieler I / Gesänge des Harfners, op. 12 Nr. 1)",
+  "tier": "famous",
+  "research_note": "Бюджет WebSearch сессии был исчерпан до начала работы — веб-исследование велось прямыми запросами (curl/WebFetch) к MusicBrainz API, Discogs API, hyperion-records.co.uk, klassik-prisma.de и метаданным официальных Topic-загрузок (yt-dlp). Дискография Майкла Грея (classical-discography.org) в момент работы отдавала HTTP 500 на любой POST-поиск — сессионные даты по ней получить не удалось. Каждая дата ниже помечена источником; где источника нет — прямо сказано «не установлен».",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Charles Spencer",
+      "rec_year": "1993",
+      "year_source": "Discogs release 8778752 (RCA Victor Red Seal 09026 618642), примечания буклета: «Recorded May 25-26 and May 28-29, 1993 at Reitsaddel [Reitstadel], Neumarkt»; издание 1995 (© / ℗ 1995 BMG Music). MusicBrainz: релиз «Goethe-Lieder» 1995-03-31.",
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642); треки 2–4 — все три Gesänge des Harfners op. 12; переиздание — «Thomas Quasthoff: The Complete RCA Recordings» (2018)",
+      "label": "RCA Victor Red Seal / BMG",
+      "age_voice": "34 года (р. 1959). Дайджест певцов: пик Квастхофа ~1993–2007 — это самое начало пика, первый его сольный шубертовский диск. Голос в полной силе.",
+      "reputation": "Высший приоритет по правилам проекта. Отдельных критических цитат по этому диску в доступных из контейнера источниках найти не удалось (Gramophone за Cloudflare 403, Presto 403); klassik-prisma сравнительной страницы по D 478 не ведёт. Ценность записи документирована самим фактом: гётевская программа целиком, все три песни Арфиста подряд, записана на пике формы.",
+      "sources": [
+        "https://api.discogs.com/releases/8778752",
+        "https://musicbrainz.org/ws/2/recording/?work=a43bbca2-8e06-38f2-b908-de95ef095de9 (recording 35b8c934-8181-40c0-84af-211415c2638b)",
+        "planning/research/singers-digest.md (карточка Quasthoff)"
+      ],
+      "youtube": [
+        {"videoId": "nGm3fGXztSA", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true, "duration_s": 225, "album_meta": "Schubert: Goethe-Lieder, release_year 1993 (yt-dlp)"}
+      ],
+      "note": "Кандидат №1 по иерархии приоритетов. Год сессии документирован буклетом — редкая точность для современной записи."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": "1959",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md): «Ein Schubert-Goethe-Liederabend» (DG SLPM 138 117), запись 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960. MusicBrainz: recording 1fabd2ef-…, релиз DG «Goethe-Lieder» (1999) и «Complete Lieder Recordings on DG» (2022). Метаданные Topic-загрузки дают release_year 1960 (год издания).",
+      "album": "Ein Schubert-Goethe-Liederabend / Schubert: Goethe-Lieder (DG SLPM 138 117; переизд. «The Originals» 457 747-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года (р. 28.05.1925). Дайджест: пик ~1951–1972 — середина пика; та же сессия признана в реестре проекта «записанной на вокальном пике певца».",
+      "reputation": "Приоритет №2 по правилам. Самая ранняя из трёх его студийных версий песни; при равном уровне правила проекта предписывают предпочитать более раннюю.",
+      "sources": [
+        "planning/youtube/albums.md (карточки DG SLPM 138 117)",
+        "https://musicbrainz.org/ws/2/release/?recording=1fabd2ef-77b7-4187-88cf-891f9cba7e74"
+      ],
+      "youtube": [
+        {"videoId": "IkK2ne6J7Ro", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 268, "album_meta": "Schubert: Goethe Lieder, Demus, release_year 1960"},
+        {"videoId": "tW1tawud-JI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 269, "album_meta": "Fischer-Dieskau Lieder A-Z: Schubert, Demus, 1960 — та же фонограмма"},
+        {"videoId": "5elzDJ-_QQw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 264, "album_meta": "Récital Schubert-Goethe (Mono Version), Demus, 1960 — моно-вариант той же сессии"}
+      ],
+      "note": "Три параллельные Topic-загрузки одной сессии; для публикации предпочтителен IkK2ne6J7Ro (альбом назван канонически)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (конвенция проекта — 1969)",
+      "year_source": "Полный свод DG «Sämtliche Lieder» (21 CD), сессии 1966–1972, Ufa-Ton-Studio Berlin — реестр альбомов проекта (planning/youtube/albums.md, albums/complete-editions.md). Конкретная сессия именно для D 478 не установлена: дискография Грея в момент работы недоступна (HTTP 500). Метаданные Topic — ℗ 1970.",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD) / на YouTube выложен двумя параллельными релизами «Schubert: Lieder» и «Schubert: Lieder (Vol. 1)»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет. Дайджест: пик ~1951–1972 — поздняя часть пика; голос ещё полный, с максимальной артикуляционной зрелостью.",
+      "reputation": "Базовая точка отсчёта корпуса: полный свод всех «мужских» песен Шуберта с Муром. Отдельных рецензий именно на трек D 478/1 в доступных источниках не найдено.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "planning/youtube/albums/complete-editions.md",
+        "https://musicbrainz.org/ws/2/recording/?work=a43bbca2-8e06-38f2-b908-de95ef095de9 (recording afb23380-…)"
+      ],
+      "youtube": [
+        {"videoId": "nxzfYexnq2s", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 265, "album_meta": "Schubert: Lieder, Moore, release_year 1970"},
+        {"videoId": "IR2MGqpnxUA", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 265, "album_meta": "Schubert: Lieder (Vol. 1), Moore, 1970 — та же фонограмма"}
+      ],
+      "note": "Дубль-фонограмма на двух Topic-релизах; при публикации брать один videoId."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Alfred Brendel",
+      "rec_year": "изд. 1983 (год сессии не установлен)",
+      "year_source": "Discogs release 5655989 (Philips 6514 384, 1983) — треклист прямо содержит «Gesänge Des Harfners Op. 12 D. 478»; примечания буклета даты сессии не приводят. MusicBrainz: recording 0b9db459-…, релизы «Songs» (1990), «Complete Philips Recordings» (2016). Topic-метаданные — release_year 1983.",
+      "album": "Schubert: Songs · Lieder (Philips 6514 384 / 411 421-2)",
+      "label": "Philips",
+      "age_voice": "около 58 лет (р. 1925). Дайджест: «с сер. 1970-х тон суше» — запись заведомо за вокальным пиком; ценность — партнёрство с Бренделем и позднее прочтение.",
+      "reputation": "Слабейшая из трёх его версий по вокальному состоянию (по возрастной логике правил проекта); критических оценок именно этой дорожки в доступных источниках не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/5655989",
+        "https://musicbrainz.org/ws/2/release/?recording=0b9db459-5076-444b-b199-b8557d00c0c7"
+      ],
+      "youtube": [
+        {"videoId": "JNyt3DUAa2M", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 277, "album_meta": "Schubert: Lieder, Brendel, release_year 1983"},
+        {"videoId": "9_-5MVNEqQw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 277, "album_meta": "Fischer-Dieskau Lieder A-Z: Schubert, Brendel, 1983"}
+      ],
+      "note": "Третья студийная версия ФД. При выборе одного ФД в пятёрку — не она."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен (Topic-релиз «Icon» указывает 1961 как год издания)",
+      "year_source": "Реестр альбомов проекта: Prey/Moore, «Lieder von Franz Schubert nach Gedichten von Schiller und Goethe» (Columbia C 80 584 / 33 WSX 560), год сессии требует буклета Warner «Icon: Hermann Prey». Topic-метаданные: альбом «Icon: Hermann Prey», release_year 1961. MusicBrainz: recording 270964af-…, релиз «Hermann Prey: A Life in Song» (EMI Classics, 2011).",
+      "album": "Columbia C 80 584 / 33 WSX 560; переизд. «Icon: Hermann Prey», «Hermann Prey: A Life in Song» (EMI/Warner)",
+      "label": "Columbia (EMI) / Warner Classics",
+      "age_voice": "около 31–32 лет, если сессия ~1961 (р. 11.07.1929). Дайджест: пик ~1960–1980 — самое начало пика, светлый, свежий баритон.",
+      "reputation": "Одна из самых известных «старомастерских» версий песни на YouTube (фан-загрузка Prey/Moore набрала ~6,9 тыс. просмотров при том, что песня редко исполняется). Формальных рецензий не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Prey/Moore, Columbia C 80 584)",
+        "https://musicbrainz.org/ws/2/release/?recording=270964af-2c26-474f-a4e8-84674d3e13c9"
+      ],
+      "youtube": [
+        {"videoId": "2x7wZI6U_uc", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 253, "album_meta": "Icon: Hermann Prey, Moore, release_year 1961"},
+        {"videoId": "1e_buvMpDWU", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 248, "album_meta": "Schubert: Lieder, Moore, release_year 2016 (переиздание)"},
+        {"videoId": "JJX_vfu6Ss4", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 249},
+        {"videoId": "oCIyZAjlXYc", "channel": "incontrario motu", "official": false, "oembed_ok": true, "duration_s": 253, "note": "фан-загрузка той же записи"}
+      ],
+      "note": "Три Topic-загрузки одной фонограммы разных мастерингов; для плеера брать 2x7wZI6U_uc."
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "1960?",
+      "year_source": "Год НЕ подтверждён дискографически. Discogs release 11416609 («Britten — The Performer: Complete Decca Recordings», Decca 478 5672, 2013): трек 26-9 «\"Wer Sich Der Einsamkeit Ergibt\", (Harfenspieler I) D478», 4:11, Pears — тенор, Britten — рояль; примечания бокса дают даты только для CD1–CD2. Topic-метаданные: альбом «Britten The Performer», release_year 1960. MusicBrainz: recording 06d292fd-…, релизы «The Performer: Complete Decca Recordings» (2013) и «Britten the Performer» (2013).",
+      "album": "Decca-рецитал Pears/Britten; ныне в боксе «Britten — The Performer: Complete Decca Recordings» (478 5672)",
+      "label": "Decca",
+      "age_voice": "около 50 лет, если 1960 (р. 1910). Дайджест: пик 1950-х–1960-х — форма отличная (те же годы, что декковская «Die schöne Müllerin» 1958–59).",
+      "reputation": "Дуэт Pears/Britten — по дайджесту среди величайших в шубертовском песенном репертуаре (Winterreise 1963 — «среди величайших»). По самой D 478/1 рецензий не найдено. Тенор в партии старика-Арфиста — спорное распределение тесситуры, но исторически значимое прочтение.",
+      "sources": [
+        "https://api.discogs.com/releases/11416609",
+        "https://musicbrainz.org/ws/2/release/?recording=06d292fd-7b9f-4e3d-9cde-32bdab7506d0",
+        "planning/research/singers-digest.md (карточка Pears)"
+      ],
+      "youtube": [
+        {"videoId": "o9yy38z1zWY", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true, "duration_s": 251}
+      ],
+      "note": "Если попадает в пятёрку — year публиковать как «1960?» по правилу о неустановленной дате."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Jacqueline Bonneau",
+      "rec_year": "1950",
+      "year_source": "Год вынесен в само название официального Topic-релиза: «Vocal Recital: Souzay, Gerard — Schubert, F. / Fauré (1950)» (yt-dlp, канал «Gérard Souzay - Topic»). MusicBrainz: recording a96c2201-…, релиз «Schubert: Lieder / Schumann: Dichterliebe» (1994, переиздание). Буклетное подтверждение сессии не получено.",
+      "album": "ранний рецитал Souzay/Bonneau (Decca/London), переизд. на исторических сборниках",
+      "label": "Decca / London; переиздания исторических лейблов",
+      "age_voice": "32 года (р. 1918). Дайджест: пик 1950-х–сер. 1960-х — самое начало пика; тембр ещё юношески свежий.",
+      "reputation": "Самая ранняя из найденных значительных записей песни. Критических оценок именно этой дорожки не найдено; репутация дуэта Souzay/Bonneau как эталона французской школы Lieder-исполнения зафиксирована в дайджесте косвенно (Souzay — «пик 1950-е»).",
+      "sources": [
+        "yt-dlp метаданные видео 7QCg2GvxsHU (официальный Topic-релиз)",
+        "https://musicbrainz.org/ws/2/release/?recording=a96c2201-a874-4f8c-971d-61ff5c902fa2"
+      ],
+      "youtube": [
+        {"videoId": "7QCg2GvxsHU", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true, "duration_s": 269}
+      ],
+      "note": "Название релиза — не описание загрузчика, а каталожное название официального цифрового издания; всё же датировка второго уровня надёжности."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Graham Johnson",
+      "rec_year": "1994",
+      "year_source": "Страница альбома на hyperion-records.co.uk (CDJ33023): «Recording details: September 1994», «Release date: May 1995», «Total duration: 75 minutes 55 seconds». MusicBrainz: recording 285e8aaf-…, релиз «The Hyperion Schubert Edition, Volume 23: Songs of 1816», Hyperion, 1995-05.",
+      "album": "The Hyperion Schubert Edition, Vol. 23 «Songs of 1816» (CDJ33023)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "38 лет (р. 1956). Дайджест: пик ~1990–2012 — начало пика.",
+      "reputation": "GRAMOPHONE CRITICS' CHOICE. Цитата с официальной страницы Hyperion: «When the Hyperion Schubert Edition is finally completed I am certain that this wondrous offering will rank among its most precious jewels … Prégardien is a prince among tenors» (Gramophone). Издание Джонсона — научный эталон свода (реестр проекта).",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33023",
+        "https://musicbrainz.org/ws/2/release/?recording=285e8aaf-cc60-4299-813d-8d7a3ffbb4ac"
+      ],
+      "youtube": [
+        {"videoId": "4LgduHvS4Bo", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "duration_s": 232, "note": "Topic-канал оформлен на пианиста — обычная практика Hyperion/Universal"}
+      ],
+      "note": "Единственная в пуле запись с прямой хвалебной цитатой Gramophone на альбом."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (хаммерклавир — копия Johann Fritz, Вена ок. 1815, работы Christopher Clarke, Париж 1981)",
+      "rec_year": "1994",
+      "year_source": "Реестр альбомов проекта: сессии 10–13 октября 1994, Studio Stollberger Str., WDR Кёльн, копродукция с WDR; издание 1995 (DHM 05472 77342 2). MusicBrainz: recording 4c653960-…, релиз «Lieder nach Gedichten von Johann Wolfgang von Goethe», Deutsche Harmonia Mundi, 1994-10.",
+      "album": "Schubert: Songs to Poems by Goethe (DHM 05472 77342 2)",
+      "label": "Deutsche Harmonia Mundi (BMG)",
+      "age_voice": "38 лет — тот же год, что и хайпериновская версия; сравнение двух прочтений одного певца за один сезон.",
+      "reputation": "Периодный эталон гётевского блока (инструмент времени сочинения). Отдельных рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (несколько карточек DHM 05472 77342 2)",
+        "https://musicbrainz.org/ws/2/release/?recording=4c653960-aca7-4ad4-9e2e-466825ac80c0"
+      ],
+      "youtube": [
+        {"videoId": "yc2bcEJ2bjY", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true, "duration_s": 254, "album_meta": "Schubert: Songs to Poems by Goethe, release_year 1995"}
+      ],
+      "note": "Две версии Прегардьена 1994 года — в пятёрку может идти только одна."
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": "2001",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums/modern-series.md): «Arte Nova Voices – Lieder: Schubert, Brahms, Martin», Gesänge des Harfners записаны 4–6 декабря 2001 [Discogs]; издание 26.07.2002 [MusicBrainz]. Topic-метаданные: release_year 2002.",
+      "album": "Arte Nova Voices – Lieder: Schubert, Brahms, Martin",
+      "label": "Arte Nova (Sony/BMG)",
+      "age_voice": "32 года (р. 1969). Дайджест: пик ~2000–наст. — самое начало; ранняя запись до его славы.",
+      "reputation": "Пресса называет Герхаэра высшим текстовиком современности — правила проекта требуют фильтровать такие оценки как пиар. Объективно проверяемое: за соседний ранний цикл с Хубером (Winterreise, Arte Nova) дуэт получил Echo 2002 (дайджест).",
+      "sources": [
+        "planning/youtube/albums/modern-series.md",
+        "planning/research/singers-digest.md (карточка Gerhaher)"
+      ],
+      "youtube": [
+        {"videoId": "lsT3NoBZrao", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true, "duration_s": 243, "album_meta": "Arte Nova Voices – Lieder, release_year 2002"}
+      ],
+      "note": "У Герхаэра есть и запись шумановского «Wer sich der Einsamkeit ergibt» op. 98a — не путать (видео vANQT3DmHqM, 3kNFB__wsR4)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "1996",
+      "year_source": "Реестр альбомов проекта: буклет Decca 452 917-2 (Discogs 13052206) — запись Reitstadel, Neumarkt, май 1996; ℗/© 1997 Decca; TT 72'10. ВАЖНО (зафиксировано в реестре): Topic-метаданные дают 1997 — это год издания, не сессии.",
+      "album": "Schubert Lieder – Goethe (Decca 452 917-2)",
+      "label": "Decca",
+      "age_voice": "28–29 лет (р. 1967). Дайджест: пик ~1997–2015 — запись прямо перед пиком, молодой голос.",
+      "reputation": "Ранний рецитал Гёрне до его 12-томного свода на harmonia mundi; аннотации Richard Wigmore. Рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточки Decca 452 917-2)",
+        "yt-dlp метаданные видео p4B2yt7re4w"
+      ],
+      "youtube": [
+        {"videoId": "p4B2yt7re4w", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "duration_s": 297, "album_meta": "Schubert: Goethe Lieder, Haefliger, release_year 1997"}
+      ],
+      "note": "Самое протяжённое прочтение в пуле (4'57). У Гёрне есть и вторая версия — с Eric Schneider (harmonia mundi, «An mein Herz», 2008-10, MusicBrainz recording e41afbbd-…), а также оркестровая аранжировка Schmalcz (видео R-1SySgNo10) — она не фортепианная и для проекта не подходит."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Leif Ove Andsnes",
+      "rec_year": "изд. 2007 (год сессии не установлен)",
+      "year_source": "Discogs release 10141318: EMI 0946 3 84321 2 8, 2007, «Schubert — Piano Sonata D958; Lieder; Gesänge Des Harfners, Totengräbers Heimweh; Fragments»; примечаний с датой сессии в записи Discogs нет. MusicBrainz: recording b8b9c6c6-…, релиз «Piano Sonata D. 958 / Lieder», EMI Classics, 2007-03-05; вторая версия того же дуэта — «The Wanderer: Lieder & Fragments», EMI, 2008-07-14 (recording b97ce732-…).",
+      "album": "Schubert: Piano Sonata D 958, Gesänge des Harfners, Totengräbers Heimweh & Fragments (EMI)",
+      "label": "EMI Classics / Warner",
+      "age_voice": "около 42 лет (р. 1964). Дайджест: пик ~1995–2010; далее «интеллектуально, но манернее/суше».",
+      "reputation": "Правило скепсиса к прессе о современных исполнителях применимо в полной мере: подтверждённых рецензий не найдено. Программная логика диска (все три песни Арфиста + соната D 958) — сильный аргумент за осмысленность прочтения.",
+      "sources": [
+        "https://api.discogs.com/releases/10141318",
+        "https://musicbrainz.org/ws/2/release/?recording=b8b9c6c6-f542-45d6-97f3-2f9b6fa5b188"
+      ],
+      "youtube": [
+        {"videoId": "SGVgMZGIbrM", "channel": "Leif Ove Andsnes - Topic", "official": true, "oembed_ok": true, "duration_s": 232, "album_meta": "Schubert: Piano Sonata No. 19 D. 958, Gesänge des Harfners… (yt-dlp)"}
+      ],
+      "note": "Отдельно существует третья запись Бостриджа — с Aron Goldin, альбом «Homelands» (2023, видео ivvlFT5QUf4, Topic, жив): более позднее и более сухое пение."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Aron Goldin",
+      "rec_year": "изд. 2023 (год сессии не установлен)",
+      "year_source": "yt-dlp метаданные видео ivvlFT5QUf4: альбом «Homelands», release_year 2023, исполнители Ian Bostridge, Aron Goldin. MusicBrainz: recording b8a39016-… (релизов не привязано).",
+      "album": "Homelands",
+      "label": "не установлен",
+      "age_voice": "около 58–59 лет (р. 1964) — заведомо за пиком по дайджесту.",
+      "reputation": "Кандидат «не ранее 2015» по возрастной структуре топ-5, но вокальное состояние против него. Рецензий не найдено.",
+      "sources": ["yt-dlp метаданные видео ivvlFT5QUf4"],
+      "youtube": [
+        {"videoId": "ivvlFT5QUf4", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "duration_s": 236}
+      ],
+      "note": "Учитывать только как запасной вариант для квоты «не ранее 2015»."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "изд. 2014 (год сессии не установлен)",
+      "year_source": "yt-dlp метаданные видео 4C7_HE6aH18: альбом «Schubert: Schwanengesang», release_year 2014, исполнители Boesch/Martineau/Schubert. Дайджест: трилогия Onyx с Мартино — Schwanengesang 2014/15. MusicBrainz: recording a3cccfc6-… (релизов не привязано).",
+      "album": "Schubert: Schwanengesang (Onyx) — Gesänge des Harfners как дополнение к циклу",
+      "label": "Onyx Classics",
+      "age_voice": "около 43 лет (р. 1971). Дайджест: пик ~2010–наст. — в форме; «рассказчик венской школы».",
+      "reputation": "Дуэт Бёша с Мартино и Виньолесом получал восторженную прессу (Gramophone, The Guardian, IRR, The Sunday Times — цитаты в реестре проекта по альбому Hyperion CDA68010, другой диск). Прямых рецензий на эту дорожку нет.",
+      "sources": [
+        "yt-dlp метаданные видео 4C7_HE6aH18",
+        "planning/research/singers-digest.md (карточка Boesch)"
+      ],
+      "youtube": [
+        {"videoId": "4C7_HE6aH18", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true, "duration_s": 211}
+      ],
+      "note": "Самое сжатое прочтение среди мужчин (3'31) — трактовка заметно быстрее старой школы."
+    },
+    {
+      "singer": "Mauro Peter",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2015 (год издания; сессия не установлена)",
+      "year_source": "Реестр альбомов проекта: Sony Classical 88875083882, издание 14.08.2015. MusicBrainz: recording 714df6a2-…, релиз «Goethe Lieder», Sony Classical, 2015-08-14.",
+      "album": "Schubert: Goethe Lieder (Sony Classical 88875083882)",
+      "label": "Sony Classical",
+      "age_voice": "28 лет (р. 1987) — молодой голос; дебютный сольный шубертовский диск.",
+      "reputation": "В реестре проекта фигурирует как «единственный найденный кандидат “не ранее 2015” с official-загрузкой» для песен пилота. Критических оценок нет; правило скепсиса к пиару применимо.",
+      "sources": [
+        "planning/youtube/albums.md (карточки Sony 88875083882)",
+        "https://musicbrainz.org/ws/2/release/?recording=714df6a2-d6f5-4b80-9fc9-61e3ffca2a8e"
+      ],
+      "youtube": [
+        {"videoId": "pVkPu4jdYCM", "channel": "Mauro Peter - Topic", "official": true, "oembed_ok": true, "duration_s": 212, "album_meta": "Schubert: Goethe Lieder, release_year 2015"}
+      ],
+      "note": "Основной претендент на квоту «не ранее 2015», если качество удовлетворит."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Cord Garben",
+      "rec_year": "1992",
+      "year_source": "Реестр альбомов проекта: сессии 5–8 июля 1992, Siemens-Villa, Берлин-Ланквиц; издание 1993 (Sony Classical SK 53104). MusicBrainz: recording 1b6f80a2-…, релиз «Lieder nach Gedichten von Goethe», Sony Classical, 1993.",
+      "album": "Schubert: Lieder nach Gedichten von Goethe (Sony Classical SK 53104)",
+      "label": "Sony Classical",
+      "age_voice": "53 года (р. 1939). Дайджест: пик ~1975–1992 — самый конец пика.",
+      "reputation": "Редкое женское прочтение мужской роли Арфиста от певицы, чья Winterreise 1988 названа в дайджесте «первой великой женской». Прямых рецензий на трек нет.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Sony SK 53104)",
+        "https://musicbrainz.org/ws/2/release/?recording=1b6f80a2-a37a-458a-991b-29723e3cd2fc"
+      ],
+      "youtube": [],
+      "note": "ОТСЕВ ПО ДОСТУПНОСТИ: на YouTube трек не найден — Sony-каталог этого альбома по-трековно не выложен (совпадает с замечанием реестра). В топ-5 включить нельзя."
+    },
+    {
+      "singer": "Peter Schreier",
+      "pianist": "András Schiff",
+      "rec_year": "изд. 1991 (год сессии не установлен)",
+      "year_source": "MusicBrainz: recording 8749098b-…, релиз «Schubert Songs», 1991-07-01. Дайджест: три цикла Шрайера с Шиффом на Decca ~1989–91.",
+      "album": "Schubert Songs (Decca)",
+      "label": "Decca",
+      "age_voice": "около 55–56 лет (р. 1935). Дайджест: пик ~1965–1990; поздний Шрайер — суше.",
+      "reputation": "Значительный шубертианец, но запись на самой границе пика. Рецензий на трек не найдено.",
+      "sources": ["https://musicbrainz.org/ws/2/release/?recording=8749098b-f156-477e-8d88-4e43ba447ae4"],
+      "youtube": [],
+      "note": "ОТСЕВ ПО ДОСТУПНОСТИ: официальной загрузки D 478/1 Шрайера на YouTube найти не удалось (два прицельных поиска yt-dlp)."
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "David Lutz",
+      "rec_year": "не установлен (цифровое издание 2021)",
+      "year_source": "yt-dlp метаданные видео Qrk7f6QZOHc: альбом «Robert Holl singt Schubert Lieder mit Texten von Johann Wolfgang von Goethe», release_year 2021 — это дата цифрового релиза, не сессии. MusicBrainz: recording b8fd2c35-… без привязанных релизов; в Discogs альбом не найден.",
+      "album": "Robert Holl singt Schubert Lieder mit Texten von Goethe",
+      "label": "не установлен (вероятно Preiser — по дайджесту Холл записывался на Preiser)",
+      "age_voice": "не определим без года сессии (р. 1947; пик по дайджесту ~1980–2005).",
+      "reputation": "Патриарх Шубертиады Хоэнемс, «гранитная» бас-баритоновая манера — фактура голоса идеально ложится на Арфиста. Но год не установлен, и рецензий нет.",
+      "sources": [
+        "yt-dlp метаданные видео Qrk7f6QZOHc",
+        "planning/research/singers-digest.md (карточка Holl)"
+      ],
+      "youtube": [
+        {"videoId": "Qrk7f6QZOHc", "channel": "Robert Holl - Topic", "official": true, "oembed_ok": true, "duration_s": 257},
+        {"videoId": "9dg_ANRR9hQ", "channel": "David Lutz - Topic", "official": true, "oembed_ok": true, "duration_s": 254, "note": "тот же материал на Topic-канале пианиста"}
+      ],
+      "note": "Требуется доисследование даты, если запись претендует на пятёрку."
+    },
+    {
+      "singer": "Markus Schäfer",
+      "pianist": "Zvi Meniker (хаммерклавир)",
+      "rec_year": "2021 (издание 21.05.2021; год сессии не установлен)",
+      "year_source": "Реестр альбомов проекта: «Schubert: The Small Song Cycles», издание 21.05.2021, хаммерклавир Zvi Meniker. MusicBrainz: recording c399a590-…, релиз «The Small Song Cycles», Passacaille, 2021-05-21.",
+      "album": "Schubert: The Small Song Cycles (Passacaille)",
+      "label": "Passacaille",
+      "age_voice": "не сверен с дайджестом — карточки Markus Schäfer в дайджесте нет (он попал в реестр через альбом по D 225).",
+      "reputation": "Периодный инструмент, программа «малых циклов» — D 478 как цикл из трёх песен. Рецензий не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Passacaille «The Small Song Cycles»)",
+        "https://musicbrainz.org/ws/2/release/?recording=c399a590-a6ea-4ff9-8b26-0c6267e9899b"
+      ],
+      "youtube": [
+        {"videoId": "xITU3C5ZCEU", "channel": "Release - Topic", "official": true, "oembed_ok": true, "duration_s": 236, "note": "Topic-канал безымянный («Release - Topic») — минус к прослеживаемости"}
+      ],
+      "note": "Кандидат на квоту «не ранее 2015», но канал загрузки анонимный."
+    },
+    {
+      "singer": "Anna Prohaska",
+      "pianist": "Marie-Pierre Langlamet (АРФА, не фортепиано)",
+      "rec_year": "2014 (год издания; сессия не установлена)",
+      "year_source": "MusicBrainz: recording c3f7dc4b-…, релиз «Schubert», Ancalagon, 2014. Topic-метаданные: альбом «Schubert», release_year 2014.",
+      "album": "Schubert (Ancalagon)",
+      "label": "Ancalagon",
+      "age_voice": "около 31 года (р. 1983).",
+      "reputation": "Концептуальная идея: песни Арфиста — с настоящей арфой (Ланглями — солистка Берлинского филармонического). Рецензий не найдено.",
+      "sources": ["https://musicbrainz.org/ws/2/release/?recording=c3f7dc4b-c71c-4903-83d0-41abfb27ad2b"],
+      "youtube": [
+        {"videoId": "ECRQs02-tWM", "channel": "Anna Prohaska - Topic", "official": true, "oembed_ok": true, "duration_s": 197}
+      ],
+      "note": "Сопрано в партии старика-Арфиста плюс замена рояля арфой — курьёзно-интересно, но как основное прочтение песни не годится. По правилам name был бы «Prohaska — Langlamet»."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "ЗАПИСАЛ. Schubert: Goethe-Lieder, Charles Spencer, RCA Victor Red Seal 09026 618642, сессии 25–26 и 28–29 мая 1993, Historischer Reitstadel, Neumarkt (Discogs release 8778752), издание 1995. YouTube: nGm3fGXztSA (Thomas Quasthoff - Topic, жив).",
+    "Dietrich Fischer-Dieskau": "ЗАПИСАЛ ТРИЖДЫ. (1) с Jörg Demus, DG SLPM 138 117, сессии 13–14.09.1959 (реестр альбомов проекта; MB recording 1fabd2ef-…); (2) с Gerald Moore, DG «Sämtliche Lieder», сессии свода 1966–1972 (MB recording afb23380-…); (3) с Alfred Brendel, Philips 6514 384, издание 1983, треклист Discogs 5655989 содержит «Gesänge Des Harfners Op. 12 D. 478». Все три — на Topic-каналах.",
+    "Elisabeth Schwarzkopf": "НЕ ЗАПИСЫВАЛА. В полном списке из 28 записей работы MusicBrainz (work a43bbca2-8e06-38f2-b908-de95ef095de9) её нет; дайджест певцов (planning/research/singers-digest.md) её шубертовский корпус описывает как рециталы 1948–1974 без песен Арфиста. Прицельный поиск по YouTube тоже ничего не дал. Логично: песня — монолог старика из «Вильгельма Мейстера».",
+    "Hans Hotter": "НЕ ЗАПИСЫВАЛ ШУБЕРТОВСКУЮ ВЕРСИЮ. Ловушка: на канале «Hans Hotter - Topic» есть трек «Goethe-Lieder, No.1: Wer sich der Einsamkeit» (видео lENrr1CJs28, альбом «Icon: Hans Hotter», с Gerald Moore) — это ГУГО ВОЛЬФ, а не Шуберт. Подтверждение: Discogs release 25091812 («Hans Hotter — The Great Bass-Baritone…», EMI 2009), CD5 трек 14 назван «Wer Sich Der Einsamkeit (Harfenspieler I – No. 1 Of Goethe-Lieder, 1888–89)» — датировка 1888–89 однозначно указывает на цикл Вольфа. В MusicBrainz-списке записей шубертовской работы Хоттера нет.",
+    "Peter Anders": "НЕ ЗАПИСЫВАЛ (по доступным данным). Отсутствует в списке 28 записей MusicBrainz; прицельный поиск yt-dlp «Peter Anders Schubert Harfenspieler» дал только чужие записи. В дайджесте его шубертовский корпус — Winterreise 1945, Müllerin 1945/1948, песни Раухайзен-эдиции; D 478 не значится.",
+    "Elisabeth Schumann": "НЕ ЗАПИСЫВАЛА. Отсутствует в MusicBrainz-списке записей работы; её корпус по дайджесту — ~28 песен HMV 1927–49, лирико-сопрановый репертуар. Мужской монолог Арфиста вне её круга.",
+    "Christa Ludwig": "НЕ ЗАПИСЫВАЛА. Отсутствует в MusicBrainz-списке записей работы; в дайджесте её шубертовский корпус — «15 Lieder» EMI (сессии 1957–69), DG-ремейк, Winterreise 1986; D 478 не значится.",
+    "Lucia Popp": "НЕ ЗАПИСЫВАЛА. Отсутствует в MusicBrainz-списке записей работы. Косвенно: в Hyperion-своде Джонсона Попп пела том 17, а песни 1816 года (включая D 478) отданы Прегардьену в томе 23 — см. страницу CDJ33023 на hyperion-records.co.uk, где Джонсон прямо ссылается на «the disc by the late Lucia Popp (Volume 17)» как на предыдущий диск песен 1816 года."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+      "singer": "Thomas Quasthoff",
+      "year": "сессии 25–26 и 28–29 мая 1993, Historischer Reitstadel, Neumarkt; издание 1995",
+      "label": "RCA Victor Red Seal / BMG",
+      "facts": "Пианист Charles Spencer. 13 треков, общее время 61:42; треки 2–4 — все три Gesänge des Harfners op. 12. Первый сольный шубертовский диск Квастхофа; переиздан в «The Complete RCA Recordings» (2018). Тот же зал (Reitstadel, Neumarkt), что и у раннего гётевского диска Гёрне 1996 г.",
+      "covers_more_pilot_songs": true,
+      "source": "https://api.discogs.com/releases/8778752"
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 23 «Songs of 1816» (CDJ33023)",
+      "singer": "Christoph Prégardien",
+      "year": "запись сентябрь 1994, издание май 1995",
+      "label": "Hyperion (с 2023 Universal)",
+      "facts": "Пианист и комментатор Graham Johnson; общее время 75'55\". GRAMOPHONE CRITICS' CHOICE; цитата Gramophone: «…this wondrous offering will rank among its most precious jewels … Prégardien is a prince among tenors». Джонсон в аннотации связывает диск с предыдущим томом песен 1816 года — томом 17 Лючии Попп. НОВАЯ карточка для реестра: покрывает весь блок песен 1816 года (D 449–D 500-е), включая D 478.",
+      "covers_more_pilot_songs": true,
+      "source": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33023"
+    },
+    {
+      "album": "Schubert: Songs · Lieder (Philips 6514 384 / 411 421-2)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "издание 1983 (год сессии не установлен)",
+      "label": "Philips",
+      "facts": "Пианист Alfred Brendel. 12 позиций; «Gesänge Des Harfners Op. 12 D. 478» — одна позиция целиком (все три песни). Прочие номера: D 807, D 890, D 800, D 583, D 945, D 827, D 672, D 799, D 493, D 884, D 870. Примечание Discogs фиксирует ошибку атрибуции текста на A2. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true,
+      "source": "https://api.discogs.com/releases/5655989"
+    },
+    {
+      "album": "Britten — The Performer: Complete Decca Recordings (Decca 478 5672, бокс 2013)",
+      "singer": "Peter Pears",
+      "year": "оригинал не датирован в примечаниях бокса; Topic-метаданные указывают 1960",
+      "label": "Decca",
+      "facts": "CD 26, трек 9: «\"Wer Sich Der Einsamkeit Ergibt\", (Harfenspieler I) D478», 4:11; кредиты трека — Pears (тенор), Britten (рояль). Примечания бокса (68-страничный буклет) дают даты сессий только для CD1–CD2 (Maltings, Snape, 2–8 апреля 1971). НОВАЯ карточка для реестра; дата требует доисследования по буклету.",
+      "covers_more_pilot_songs": true,
+      "source": "https://api.discogs.com/releases/11416609"
+    },
+    {
+      "album": "Schubert: Piano Sonata D 958; Lieder; Gesänge des Harfners, Totengräbers Heimweh & Fragments (EMI 0946 3 84321 2 8)",
+      "singer": "Ian Bostridge",
+      "year": "издание 2007 (год сессии не установлен)",
+      "label": "EMI Classics / Warner",
+      "facts": "Пианист Leif Ove Andsnes (он же играет сонату D 958). Все три песни Арфиста в одной программе с поздней сонатой — концептуальный диск. Второй релиз того же дуэта — «The Wanderer: Lieder & Fragments» (EMI, 14.07.2008) — по MusicBrainz содержит другую запись той же песни. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true,
+      "source": "https://api.discogs.com/releases/10141318"
+    },
+    {
+      "album": "Hans Hotter — The Great Bass-Baritone Sings Bach · Brahms · Schubert · Schumann · Loewe · R. Strauss · Wagner · Wolf (EMI 50999 2 64901 2 0, 6 CD, 2009)",
+      "singer": "Hans Hotter",
+      "year": "материал 1947–1957",
+      "label": "EMI",
+      "facts": "ВАЖНО ДЛЯ РЕЕСТРА (антиловушка): «Wer sich der Einsamkeit» у Хоттера — на CD5, в блоке Гуго Вольфа, и подписано «(Harfenspieler I – No. 1 Of Goethe-Lieder, 1888–89)». Шубертовской D 478/1 у Хоттера нет. Примечания бокса содержат подробную сетку сессий 1947–1957 (Abbey Road, Kingsway Hall, Musikvereinssaal, Rheingau-Schule Berlin) — полезный источник дат для других песен корпуса.",
+      "covers_more_pilot_songs": true,
+      "source": "https://api.discogs.com/releases/25091812"
+    },
+    {
+      "album": "Schubert: Lieder nach Gedichten von Goethe (Sony Classical SK 53104)",
+      "singer": "Brigitte Fassbaender",
+      "year": "сессии 5–8 июля 1992, Siemens-Villa, Берлин-Ланквиц; издание 1993",
+      "label": "Sony Classical",
+      "facts": "Пианист Cord Garben. Подтверждено включение D 478/1 (MusicBrainz recording 1b6f80a2-…). На YouTube по-трековно НЕ выложен — подтверждает уже зафиксированное в реестре наблюдение о Sony-каталоге Фассбендер.",
+      "covers_more_pilot_songs": true,
+      "source": "https://musicbrainz.org/ws/2/release/?recording=1b6f80a2-a37a-458a-991b-29723e3cd2fc"
+    }
+  ],
+  "surveys": [
+    {
+      "name": "klassik-prisma.de — сравнительные обзоры Шуберта",
+      "url": "https://www.klassik-prisma.de/Schubert.htm",
+      "result": "ОТРИЦАТЕЛЬНЫЙ: страницы сравнения по D 478 / Gesänge des Harfners НЕТ. Индекс шубертовских страниц содержит только Erlkönig, Gretchen am Spinnrade, Auf dem Wasser zu singen, Nacht und Träume, Junge Nonne, Hirt auf dem Felsen, Gruppe aus dem Tartarus, циклы и инструментальные сочинения."
+    },
+    {
+      "name": "Hyperion Records — страница тома 23 «Songs of 1816» (Прегардьен/Джонсон)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33023",
+      "result": "ПОЛОЖИТЕЛЬНЫЙ: даты записи (сентябрь 1994) и издания (май 1995), общее время, аннотации Грэма Джонсона о песнях 1816 года, отметка GRAMOPHONE CRITICS' CHOICE и цитата Gramophone."
+    },
+    {
+      "name": "MusicBrainz — полный список записей работы",
+      "url": "https://musicbrainz.org/work/a43bbca2-8e06-38f2-b908-de95ef095de9",
+      "result": "28 записей — использовано как каркас пула. ВАЖНО: скриптовый файл .mb.json для этой песни указывает на ДРУГУЮ работу (c4668309-…, романс Johann Friedrich la Trobe на тот же текст Гёте, 1 запись Camerata Tallinn / Leili Tammel) — то есть каркас дискографии по D 478/1 был ошибочным и здесь заменён."
+    }
+  ],
+  "negatives": [
+    "Hотter: трек «Wer sich der Einsamkeit» на его Topic-канале — Гуго Вольф (Goethe-Lieder, 1888–89), НЕ Шуберт (Discogs 25091812, CD5).",
+    "Schwarzkopf, Anders, E. Schumann, Ludwig, Popp — записей D 478/1 не найдено ни в MusicBrainz, ни прицельным поиском YouTube.",
+    "klassik-prisma не ведёт сравнительной страницы по этой песне.",
+    "Fassbaender (Sony 1992) и Schreier/Schiff (Decca 1991) — записи существуют, но официальных YouTube-загрузок трека нет: в топ-5 не проходят по доступности.",
+    "Скриптовый .mb.json песни построен по НЕВЕРНОМУ MusicBrainz-work (c4668309-… — сочинение Johann Friedrich la Trobe, а не Шуберта); в generic-выдаче .yt.json также присутствуют посторонние сочинения на тот же текст: Шуман op. 98a (Прай, Герхаэр, Холл), Вольф Goethe-Lieder (Фишер-Дискау, Хоттер), Шуберт D 325 (ранняя отдельная песня на тот же текст, Hyperion/Джонсон) и аранжировка для голоса, гитары и баритона (Xavier Díaz-Latorre). При отборе не смешивать.",
+    "Дискография Майкла Грея (classical-discography.org) в момент работы отвечала HTTP 500 на любой POST-поиск — сессионные даты для FD/Moore (DG-свод), Prey/Moore, Pears/Britten по ней получить не удалось.",
+    "Gramophone.co.uk и prestomusic.com отдают 403 (Cloudflare) — критические цитаты по большинству современных записей недоступны; правило скепсиса к пиару соблюдено, оценки не выдуманы.",
+    "Прочие записи из MusicBrainz, не проработанные как кандидаты (нет значимости и/или официальных загрузок): Daniel Lichti / Arlene Shrut; Thierry Félix / Paul Badura-Skoda; Jasper Schweppe / Riko Fukuda; Ulf Bästlein / Stefan Laux; Adrien Fournaison / Natallia Yeliseyeva; Toby Spence / Graham Johnson & Julian Milford (обложечный диск BBC Music Magazine, 2022); Ralph Herbert (фан-загрузка ItXdruKCl7I, канал kadoguy)."
+  ]
+}

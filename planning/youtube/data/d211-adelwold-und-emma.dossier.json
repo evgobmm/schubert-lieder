@@ -1,39 +1,52 @@
 {
  "d": "211",
  "title": "Adelwold und Emma",
+ "verified": "2026-08-16 (глубокая верификация отфлагованной песни волны)",
  "candidates": [
   {
-   "singer": "Martyn Hill",
-   "pianist": "Graham Johnson",
-   "rec_year": "не установлен",
-   "year_source": "не установлен (том Hyperion Schubert Edition не идентифицирован; текст — не Гёте/Шиллер, так что карточки Vol.1 «Goethe & Schiller Settings» из registry_hits — ЛОЖНОЕ совпадение по фамилии певца)",
-   "album": "The Hyperion Schubert Edition (том не установлен)",
-   "label": "Hyperion (с 2023 — Universal)",
-   "voice_note": "не исследовано отдельно",
-   "reputation": "общая репутация серии",
-   "videoId": "qdOKPGbHINs",
-   "channel": "Martyn Hill - Topic",
-   "official": true,
-   "note": "Огромная баллада (~28 мин) разбита на Topic-канале на 4 трека по диапазонам тактов (bars 1-193, 194-383, 383-572, 573-630) — типичный приём Hyperion для длинных номеров при индексации CD; videoId остальных частей: aP1XCp7xqq4, 3JWu4TjU3Tw, kReCpadIUBE."
-  },
-  {
    "singer": "Ferdinand von Bothmer",
-   "pianist": "не установлен",
-   "rec_year": "не установлен",
-   "year_source": "не установлен",
-   "album": "не установлен",
-   "label": "не установлен (собственный официальный Topic-канал певца, единая фонограмма без разбивки, 25:56)",
-   "voice_note": "не исследовано",
-   "reputation": "не установлена — заметен факт наличия у певца ПОЛНОГО отдельного официального релиза этой редкой баллады целиком (единым треком), что необычно для такого редкого сочинения",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2007 (сессии 29.XI–3.XII.2007)",
+   "year_source": "Discogs, релиз 16989423 (примечания издания: «Recorded 29th November to 3rd December, 2007»); изд. 12/2008 — реестр проекта complete-editions.md, т. 29, и Discogs (year 2008). В плеере пока 2008 ради сквозной унификации с D 10 и D 152; перевод всего тома на 2007 — в followups.md",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 29 «Settings of Various Poets» (8.570838), трек 5 «Adelwold und Emma, D. 211», 25:55",
+   "label": "Naxos",
+   "voice_note": "тенор; том серии DSLE под руководством Eisenlohr, немецкоязычный состав",
+   "reputation": "часть полного свода Naxos DSLE; отдельной критики на эту балладу не найдено. Единственная фонограмма, доступная на YouTube одним непрерывным роликом",
    "videoId": "6LhAB2vWaAw",
    "channel": "Bothmer, Ferdinand von - Topic",
    "official": true,
-   "note": "Требует доисследования: кто такой Ferdinand von Bothmer, на каком лейбле и когда вышел релиз — не найдено ни в реестре, ни в дайджесте."
+   "oembed": "200 (проверено 16.08.2026)",
+   "note": "Прежняя пометка «происхождение не установлено» снята: том, пианист и лейбл подтверждены реестром проекта и Discogs."
+  },
+  {
+   "singer": "Martyn Hill",
+   "pianist": "Graham Johnson",
+   "rec_year": "1990 (сессия — май 1990, Rosslyn Hill Unitarian Chapel, Hampstead, London)",
+   "year_source": "hyperion-records.co.uk, dc=D_CDJ33010 (дата и место сессии; изд. II.1991 — MusicBrainz, релиз 3575b0be-f0b7-4630-bc5d-4ec8606b3fc3); реестр проекта complete-editions.md, т. 10",
+   "album": "The Hyperion Schubert Edition, Vol. 10 «Schubert in 1815 II» (CDJ33010), треки 10–13 = «Adelwold und Emma, D. 211: Part 1–4»",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "тенор в зрелой форме; Gramophone о его работе в этом томе — ставит его в ряд теноров-шубертианцев от Эрба и Патцака через Шрайера к Ролфу Джонсону, «little short of ideal» по легато, тону и пониманию",
+   "reputation": "мировая премьера сочинения на диске — Джонсон во вступлении к тому: «This disc offers a first recording of Adelwold und Emma». По чистоте интерпретации — сильнейшее прочтение баллады",
+   "videoId": "qdOKPGbHINs",
+   "channel": "Martyn Hill - Topic",
+   "official": true,
+   "oembed": "200 (все четыре части, проверено 16.08.2026)",
+   "segmented": {
+    "parts": [
+     {"videoId": "qdOKPGbHINs", "bars": "1–193", "length": "8:51"},
+     {"videoId": "aP1XCp7xqq4", "bars": "194–383", "length": "6:53"},
+     {"videoId": "3JWu4TjU3Tw", "bars": "383–572", "length": "9:07"},
+     {"videoId": "kReCpadIUBE", "bars": "573–630", "length": "3:10"}
+    ],
+    "total": "28:01 (длительности треков — MusicBrainz, релиз 3575b0be…)",
+    "decision": "публикуются все четыре части, позиции 2–5, с номером части в name; часть I одна давала бы меньше трети сочинения без пометки (поля для пометки в модели данных нет)"
+   },
+   "note": "Разбивка по диапазонам тактов — индексация Hyperion для длинных номеров, воспроизведена Topic-каналом четырьмя роликами."
   }
  ],
  "priority_check": {
   "Quasthoff": "не найдено",
-  "Fischer-Dieskau": "не найдено (эта баллада не входит в его известную дискографию по имеющимся источникам)",
+  "Fischer-Dieskau": "не найдено (баллада не входит в его дискографию по имеющимся источникам)",
   "Schwarzkopf": "не найдено",
   "Hotter": "не найдено",
   "Anders": "не найдено",
@@ -42,5 +55,5 @@
   "Popp": "не найдено"
  },
  "new_albums": [],
- "note_general": "Крайне редкая ранняя баллада (~630 тактов, ~25-28 минут) — фонд записей на YouTube минимален, всего 2 официальных исполнителя (Hill/Johnson — Hyperion, и Bothmer — происхождение не установлено). Топ-5 в обычном виде недостижим; уместен топ-2 с явной пометкой тонкости фонда. Весь остальной результат скрипта нерелевантен (задет общим поиском по каналу FiDi/другим Schubert-заголовкам: Liebeständelei D206, Die Sterbende D186, Das Dörfchen D598, Schwestergruss D762, Lieb Minna D222, Menuett D335, Der Weiberfreund D271, Delphine D857, Die Spinnerin D247, Wehmut D772, Die junge Nonne D828, An die Apfelbäume D197, Der Liedler D209 — все другие сочинения)."
+ "note_general": "Крайне редкая ранняя баллада, самая длинная песня Шуберта (~26–28 мин). Фонд исчерпан: два официальных исполнения, на YouTube ровно пять роликов (Bothmer — один непрерывный; Hill/Johnson — четыре части). Пятёрка = эти пять роликов; порядок: Bothmer (целостность, главная позиция) → четыре части Hill/Johnson подряд. Расхождение счёта тактов (608 у Naxos против 630 у Hyperion) — разница редакций, на полноту фонограмм не влияет. Остальная выдача скрипта нерелевантна (D 206, D 186, D 598, D 762, D 222, D 335, D 271, D 857, D 247, D 772, D 828, D 197, D 209 — другие сочинения); registry_hits на Hyperion Vol. 1 «Goethe & Schiller Settings» — ложные (текст не Гёте и не Шиллер)."
 }

@@ -1,0 +1,549 @@
+{
+  "d": "674",
+  "title": "Prometheus",
+  "tier": "famous (мужская декламационная ода на Гёте, 1819; репертуар баритонов/басов)",
+  "research_limits": "WebSearch недоступен (исчерпан бюджет сессии: 200/200); Discogs API и все поисковики (DDG/Mojeek/Ecosia/Presto) в этой сессии отдавали 403/CAPTCHA/rate-limit; yt-dlp отдавал 429 на метаданные отдельных роликов (поиск работал). Поэтому даты взяты из MusicBrainz (даты сессий и релизов), реестра альбомов проекта, страниц Hyperion и Wikipedia; там, где источника нет, стоит знак вопроса и это отмечено в note.",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Charles Spencer",
+      "rec_year": "1993–95?",
+      "year_source": "MusicBrainz: релиз RCA «Goethe-Lieder» 1995-03-31 (release 06704220-2596-474b-b094-6b26da356af0), запись в MB без даты сессии; дайджест проекта: «Goethe-Lieder (RCA 1993/95, Spencer)» (planning/research/singers-digest.md). Точный год сессии дискографически не подтверждён.",
+      "album": "Schubert: Goethe-Lieder (переизд. в «Thomas Quasthoff: The Complete RCA Recordings», 2018)",
+      "label": "RCA Red Seal",
+      "age_voice": "34–36 лет (р. 1959), внутри пика формы ~1993–2007 по дайджесту; бас-баритон в полном ресурсе, до ухода из классического пения (2012)",
+      "reputation": "Певец №1 по правилам проекта. Wikipedia (англ., ст. Thomas Quasthoff) о его Lieder: исполнение ценили «for its detail, directness and his vocal range and colour». Отдельного разбора именно этого трека найти не удалось (поиск недоступен).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording (запись «Prometheus, Nachlass Lfg. 47», Quasthoff + Spencer, 334 s; релизы Goethe-Lieder 1995, The Complete RCA Recordings 2018)",
+        "https://en.wikipedia.org/wiki/Thomas_Quasthoff",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "dUIygMjsg2M", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Главный кандидат №1 по иерархии приоритетов. Есть ещё ролик ecE3bxzlcJs («Prometheus, D. 674 (Live)», 345 s, тот же Topic-канал) — источник не идентифицирован (лайв; альбом не установлен), брать не рекомендую без доисследования."
+    },
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Chamber Orchestra of Europe, дир. Claudio Abbado (оркестровка Макса Регера, не фортепиано)",
+      "rec_year": "2002",
+      "year_source": "MusicBrainz: дата записи 2002-05 у recording «Prometheus, D 674» (work bf296eb2 — «orchestrated by Reger»); релиз DG «Lieder with Orchestra» 2003-04-08",
+      "album": "Schubert: Lieder with Orchestra (с Anne Sofie von Otter)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "42–43 года, поздний пик; голос полный, запись лайв",
+      "reputation": "Альбом — обладатель Grammy 2004 (дайджест проекта); эталон оркестровой версии шубертовских песен у критики того времени (по дайджесту — применительно к альбому в целом).",
+      "sources": [
+        "MusicBrainz work bf296eb2-563d-341b-b76a-455afb90779a (Prometheus, orchestrated by Reger) → recording Quasthoff/COE/Abbado, 2002-05",
+        "planning/research/singers-digest.md (Grammy 2004)"
+      ],
+      "youtube": [
+        {"videoId": "27Oz6A-hWNw", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Не фортепианная версия — по правилам name был бы «Quasthoff — Abbado». Резерв: сильная запись, но песня в оригинале фортепианная; при выборе одной записи Квастхофа предпочтительна RCA-1995 с Спенсером."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "MusicBrainz: дата записи 1969-03 (recording 328 s; релизы «Lieder»/«Complete Lieder Recordings on Deutsche Grammophon»)",
+      "album": "DG «Schubert: Sämtliche Lieder» (полный свод мужских песен, сессии 1966–72)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "43–44 года; по дайджесту пик ~1951–1972 — запись внутри пика, голос ещё свежий, техника на вершине",
+      "reputation": "Часть 21-CD свода, признанного стандартным справочным изданием песен Шуберта (дайджест, раздел «Сквозные издания»). Отдельной сравнительной рецензии на трек в этой сессии добыть не удалось.",
+      "sources": [
+        "MusicBrainz work 6b500210-f158-387f-af48-89d4a1f35955 → recording FD + Moore, 1969-03",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "jIzRJVcUb48", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "NfIwx3FSZwA", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "vGizbS1C5YI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Идентификация роликов по длительности (328 s ровно совпадает с MB-хронометражем записи 1969) + описание NfIwx3FSZwA («Schubert: Lieder; Die schöne Müllerin…, Winterreise…, Schwanengesang» — DG-бокс). Наибольший охват у jIzRJVcUb48 (6367 просмотров)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": "1959",
+      "year_source": "MusicBrainz: дата записи 1959-09; реестр альбомов проекта (planning/youtube/albums.md): «Ein Schubert-Goethe-Liederabend» DG SLPM 138 117, запись 13–14 сентября 1959, Studio Lankwitz, Берлин, издание 1960; в описании ролика frcN_4H_g90 — «℗ 1960 Deutsche Grammophon»",
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117; переизд. «Goethe-Lieder», 1999, и The Originals)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года — самая свежая крупная студийная фаза; голос молодой, звонкий верх",
+      "reputation": "Целиком гётевская программа, классика раннего стерео-периода Фишера-Дискау (реестр альбомов проекта). Сравнительных рецензий именно на Prometheus добыть не удалось.",
+      "sources": [
+        "MusicBrainz recording FD + Demus, 1959-09, 334 s",
+        "planning/youtube/albums.md — карточка «Ein Schubert-Goethe-Liederabend»"
+      ],
+      "youtube": [
+        {"videoId": "Rhx0HIGYspY", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "frcN_4H_g90", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Оба ролика — одна и та же запись (334/335 s), Rhx0HIGYspY заметно популярнее (3083 просмотра). При прочих равных правило «предпочитать более раннюю» играет за 1959 против 1969."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Hertha Klust",
+      "rec_year": "1954",
+      "year_source": "MusicBrainz: дата записи 1954 (recording 354 s), релиз «Lieder Collection: Erlkönig / Schwanengesang / Wandrers Nachtlied (Cologne, 1954)», изд. 2007-02-14",
+      "album": "Радиозапись, Кёльн, 1954 (переиздание 2007)",
+      "label": "переиздание архивных радиозаписей (лейбл не установлен)",
+      "age_voice": "29 лет — юношеская фаза, голос лёгкий и подвижный",
+      "reputation": "Исторический документ раннего Фишера-Дискау; критической литературы по треку не найдено (поиск недоступен).",
+      "sources": ["MusicBrainz recording FD + Klust, 1954"],
+      "youtube": [
+        {"videoId": "-7Dok2I8brg", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Идентификация ролика по длительности (355 s ≈ MB 354 s) — вероятная, не доказанная."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1957",
+      "year_source": "MusicBrainz: дата записи 1957-08-05 (лайв), релиз Orfeo «Die Salzburger Liederabende, 1956–1965» (2005)",
+      "album": "Die Salzburger Liederabende 1956–1965 (лайв, Зальцбург)",
+      "label": "Orfeo d'Or",
+      "age_voice": "32 года, пик; лайв со всей концертной отдачей",
+      "reputation": "Зальцбургские вечера Фишера-Дискау с Муром — регулярно называемая вершина его концертного наследия (реестр альбомов проекта по родственным карточкам Orfeo).",
+      "sources": ["MusicBrainz recording FD + Moore, 1957-08-05, live, 349 s"],
+      "youtube": [
+        {"videoId": "2CDRhzeZVZI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Ролик помечен «(Live)», 359 s против MB 349 s — привязка вероятная (возможна и аплодисментная надбавка), требует подтверждения перед публикацией."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Benjamin Britten",
+      "rec_year": "1972",
+      "year_source": "MusicBrainz: дата записи 1972-06-08 (лайв), релизы «Lieder» (1999) и «Brahms: Die schöne Magelone / Schubert: Lieder» (2009)",
+      "album": "Олдборо, лайв 8 июня 1972 (изд. Decca «Lieder», 1999)",
+      "label": "Decca (BBC/Aldeburgh архив)",
+      "age_voice": "47 лет — конец пика по дайджесту (~1951–1972); тон ещё полный",
+      "reputation": "Знаменитый дуэт с Бриттеном за роялем; фан-загрузка ролика собрала >20 тыс. просмотров — самый популярный ролик песни среди «старых» записей.",
+      "sources": ["MusicBrainz recording FD + Britten, 1972-06-08, 322 s"],
+      "youtube": [
+        {"videoId": "7Kcro67jSUM", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "Только фан-канал (326 s ≈ MB 322 s); официальной/Topic-загрузки этой записи не найдено — риск удаления."
+    },
+    {
+      "singer": "Kurt Moll",
+      "pianist": "Cord Garben",
+      "rec_year": "1982?",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums/male-recitalists.md): Orfeo S 021821 A, изд. 1982; MusicBrainz: CD-издание «Lieder für Baß» Orfeo C 021 821 A, 1987-04-06. Дата сессии дискографически не установлена.",
+      "album": "Schubert: Lieder für Baß",
+      "label": "Orfeo",
+      "age_voice": "≈44 года (р. 1938) — расцвет; редчайший случай настоящего чёрного баса в этом репертуаре",
+      "reputation": "Wikipedia (англ., ст. Kurt Moll): «His recording for the Orfeo label of Schubert's philosophical Lieder für Bass set a new standard for these songs». Специализированный басовый шубертовский рецитал, прямо включающий Prometheus.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kurt_Moll",
+        "MusicBrainz recording Moll + Garben, 359 s, релиз «Lieder für Baß» (Orfeo C 021 821 A)",
+        "planning/youtube/albums/male-recitalists.md"
+      ],
+      "youtube": [
+        {"videoId": "CgH9yaky0H0", "channel": "Kurt Moll - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Сильнейший «басовый» кандидат: 2745 просмотров, Topic-канал; в метаданных ролика значится Cord Garben (подтверждает связку). Год перед публикацией желательно уточнить по буклету Orfeo."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": "1974",
+      "year_source": "MusicBrainz: дата записи 1974-03 (recording 348 s; релиз-компиляция «Hermann Prey: A Life in Song», 2011)",
+      "album": "сессии Philips-эпохи (переизд. в «A Life in Song»; также в антологии «Lieder on Record 1898–2012»)",
+      "label": "Philips (переизд. Sony/EMI-антологии)",
+      "age_voice": "45 лет — внутри пика ~1960–1980 (дайджест); тёплый, ровный баритон",
+      "reputation": "Prey — центральный баритон-шубертианец поколения после Фишера-Дискау, основатель Шубертиады в Хоэнемсе (дайджест). Специальных отзывов о треке не найдено.",
+      "sources": [
+        "MusicBrainz recording Prey + Engel, 1974-03",
+        "planning/research/singers-digest.md",
+        "planning/youtube/albums/male-recitalists.md (Philips-эпоха Прая с Энгелем)"
+      ],
+      "youtube": [
+        {"videoId": "qHzGrJHbPCQ", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность ролика 349 s точно совпадает с MB-хронометражем записи 1974 г."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "1982",
+      "year_source": "MusicBrainz: релиз «Lieder und Balladen» (1982), recording 366 s",
+      "album": "Schubert: Lieder und Balladen",
+      "label": "Denon/Capriccio-эпоха (лейбл по MB не уточнён)",
+      "age_voice": "53 года; по дайджесту поздние циклы Прая — «голос тяжелее»",
+      "reputation": "Позднее прочтение, уступает версии 1974 г. по свежести голоса (правило проекта о возрасте).",
+      "sources": ["MusicBrainz recording Prey + Deutsch, релиз 1982"],
+      "youtube": [],
+      "note": "Отдельного ролика на Topic-канале не искал прицельно; кандидат резервный (есть более ранняя запись того же певца)."
+    },
+    {
+      "singer": "Siegfried Lorenz",
+      "pianist": "Norman Shetler",
+      "rec_year": "1974",
+      "year_source": "MusicBrainz: дата записи 1974-09 (recording 362 s); реестр проекта: Eterna «Lieder nach Goethe 2» (8 26 704, изд. 1975)",
+      "album": "Eterna Schubert-Lieder-Edition, «Lieder nach Goethe 2» (переизд. Berlin Classics «Lieder»)",
+      "label": "Eterna / Berlin Classics",
+      "age_voice": "≈29 лет (р. 1945) — молодой светлый баритон",
+      "reputation": "Восточногерманский систематический свод редких песен (реестр альбомов: главный «старый» фонд помимо DG-Фишера-Дискау и Hyperion); собственных рецензий на трек не найдено.",
+      "sources": [
+        "MusicBrainz recording Lorenz + Shetler, 1974-09",
+        "planning/youtube/albums/male-recitalists.md (Eterna-серия Лоренца с Шетлером)"
+      ],
+      "youtube": [
+        {"videoId": "UxCW9FhFRbk", "channel": "Siegfried Lorenz - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "UgauBGSe6R0", "channel": "FredusFerkulus", "official": false, "oembed_ok": null}
+      ],
+      "note": "Длительности 362 s (Topic) и 362 s (фан) совпадают с MB — одна и та же запись."
+    },
+    {
+      "singer": "Simon Keenlyside",
+      "pianist": "Graham Johnson",
+      "rec_year": "1999",
+      "year_source": "Hyperion (страница CDJ33034): запись — январь 1999, Rosslyn Hill Unitarian Chapel, Хэмпстед, Лондон; MusicBrainz: recording Keenlyside + Johnson, релиз «The Hyperion Schubert Edition, Volume 34: Schubert 1817-1821» (2000-01)",
+      "album": "The Hyperion Schubert Edition, Vol. 34 «Schubert 1817–1821»",
+      "label": "Hyperion",
+      "age_voice": "≈39 лет (р. 1959) — расцвет; ясный, гибкий лирический баритон",
+      "reputation": "Пресса о томе (страница Hyperion): Gramophone — «A feast of finely wrought, intelligent interpretations … the readings make an indelible impression»; BBC Music Magazine — «a must for any serious Schubert collector, its pleasures enhanced by Graham Johnson's observant accompaniments»; International Record Review — «Excellent».",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33034",
+        "MusicBrainz recording Keenlyside + Johnson, 340 s"
+      ],
+      "youtube": [
+        {"videoId": "NldAUCKgxJA", "channel": "Simon Keenlyside - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Страница Hyperion не печатает потреково исполнителей — приписка Кинлисайда взята из MusicBrainz и подтверждается Topic-каналом певца (341 s ≈ 340 s). Существует и вторая запись Кинлисайда с Martineau (398 s, антология «Lieder on Record 1898–2012»)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "1996",
+      "year_source": "Реестр альбомов проекта (буклет по Discogs 13052206): запись — Reitstadel, Neumarkt, май 1996; MusicBrainz: релиз Decca 452 917-2 «Lieder - Goethe», 1997-03-31",
+      "album": "Schubert: Lieder – Goethe (Decca 452 917-2)",
+      "label": "Decca",
+      "age_voice": "29 лет — ранний Гёрне, до его пика ~1997–2015 (дайджест); голос свежий, ещё без позднейшей вязкости",
+      "reputation": "Ранний сольный шубертовский диск самого записываемого Schubert-баритона поколения (дайджест). Отдельных отзывов о треке не добыто.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Matthias Goerne — Schubert Lieder – Goethe (Decca 452 917-2)»",
+        "MusicBrainz recording Goerne + A. Haefliger, 361 s"
+      ],
+      "youtube": [
+        {"videoId": "7xn4OtEK7AQ", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Ролик 358 s ≈ MB 361 s. Возможна и вторая запись Гёрне (Goerne Schubert Edition, harmonia mundi) — по MB не подтверждена."
+    },
+    {
+      "singer": "Konstantin Krimmel",
+      "pianist": "Doriana Tchakarova",
+      "rec_year": "2019",
+      "year_source": "MusicBrainz: дата записи 2019-03; релиз Alpha Classics ALPHA 549 «Saga», 2019-09-20",
+      "album": "Saga (баллады Шуберта, Лёве, Шумана)",
+      "label": "Alpha Classics",
+      "age_voice": "26 лет (р. 1993) — начало пика ~2019–наст. (дайджест); свежий тёмный баритон",
+      "reputation": "Дебютный альбом-баллады, отмеченный прессой как прорыв молодого баритона (дайджест: «Saga» — баллады, Alpha 2019). Конкретных цитат добыть не удалось; к пиару современных певцов — скепсис по правилам.",
+      "sources": [
+        "MusicBrainz recording Krimmel + Tchakarova, 2019-03; release ALPHA 549",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "whxqZT3TvvA", "channel": "Konstantin Krimmel - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "lVRAHtY6szs", "channel": "Dolcefarniente", "official": false, "oembed_ok": true}
+      ],
+      "note": "Главный кандидат на слот «не ранее 2015 года»: официальный Topic-ролик 342 s ≈ MB 341 s."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "2014?",
+      "year_source": "MusicBrainz: релиз «Schwanengesang» 2014-11-10 (дата сессии в MB отсутствует); дайджест: трилогия Onyx с Martineau, Schwanengesang 2014/15",
+      "album": "Schubert: Schwanengesang (+ дополнения)",
+      "label": "Onyx Classics",
+      "age_voice": "≈43 года (р. 1971), внутри пика ~2010–наст.; рассказчик венской школы",
+      "reputation": "Трилогия Boesch/Martineau — заметная современная серия (дайджест). Пресса не проверена; по правилу — скепсис к пиару.",
+      "sources": ["MusicBrainz recording Boesch + Martineau, 296 s, релиз 2014-11-10", "planning/research/singers-digest.md"],
+      "youtube": [
+        {"videoId": "NyicrbGP2aE", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая быстрая версия в пуле (296–297 s)."
+    },
+    {
+      "singer": "Ulf Bästlein",
+      "pianist": "Stefan Laux",
+      "rec_year": "1999?",
+      "year_source": "MusicBrainz: релиз Naxos «Schubert-Lieder-Edition, Volume 3: Goethe-Lieder, Volume 1» 1999-11-22 (8.554665); дата сессии не установлена",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 3 «Goethe-Lieder, Vol. 1»",
+      "label": "Naxos",
+      "age_voice": "зрелый баритон; данных о состоянии голоса в дайджесте нет (певец в фонде только через издание Naxos)",
+      "reputation": "Значение прежде всего справочное: полное издание Naxos под редакцией Ульриха Айзенлора (реестр проекта, complete-editions.md).",
+      "sources": ["MusicBrainz recording Bästlein + Laux, 299 s", "planning/youtube/albums/complete-editions.md"],
+      "youtube": [
+        {"videoId": "eY3W-GD1KZA", "channel": "Ulf Bästlein - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат «полноты издания», не художественный фаворит."
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "David Lutz",
+      "rec_year": "не установлен (релиз 2021)",
+      "year_source": "MusicBrainz: релиз Preiser Records «Robert Holl singt Schubert Lieder mit Texten von Johann Wolfgang von Goethe», 2021-06-04; дата сессии отсутствует (у Холла с Lutz — вероятно записи 1990-х, не подтверждено)",
+      "album": "Robert Holl singt Schubert-Lieder mit Texten von Goethe",
+      "label": "Preiser Records",
+      "age_voice": "не установлено без года сессии; пик Холла ~1980–2005 (дайджест), «гранитная» басовая манера, патриарх Шубертиады",
+      "reputation": "Холл — один из немногих настоящих басов-шубертианцев (дайджест); рецензий на диск в этой сессии не добыто.",
+      "sources": ["MusicBrainz recording Holl + Lutz, 364 s; release 7ff71e59-23c3-4e5b-80f7-7396c5514e39", "planning/research/singers-digest.md"],
+      "youtube": [
+        {"videoId": "O6Y7huC8H1o", "channel": "Robert Holl - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Без установленного года сессии — по правилу можно публиковать с диапазоном со знаком вопроса, но сначала нужно целевое доисследование."
+    },
+    {
+      "singer": "Kim Borg",
+      "pianist": "Erik Werba",
+      "rec_year": "не установлен (1960-е?)",
+      "year_source": "MusicBrainz: recording Borg + Werba, 434 s; релиз-компиляция «Kim Borg: Essentials» (Deutsche Grammophon, 2019-07-19) — переиздание; дата оригинальной сессии не установлена",
+      "album": "оригинальный DG-рецитал не идентифицирован (переизд. «Kim Borg: Essentials»)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "финский бас (1919–2000), в 1960-е — расцвет; данных в дайджесте нет (в резерве значился как «Kim Borg?»)",
+      "reputation": "Историческая басовая версия, самая медленная в пуле (7:15); критических оценок не добыто.",
+      "sources": ["MusicBrainz recording Borg + Werba", "planning/research/singers-digest.md (резерв)"],
+      "youtube": [
+        {"videoId": "Jid46vNi5Qg", "channel": "Kim Borg - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть и параллельный Topic-ролик на канале пианиста (HWhXi5Nlcpo, «Erik Werba - Topic», 437 s) — та же запись."
+    },
+    {
+      "singer": "Paul Armin Edelmann",
+      "pianist": "Charles Spencer",
+      "rec_year": "2015",
+      "year_source": "MusicBrainz: дата записи 2015-10-15; релиз «The Schubert Album», 2018-01",
+      "album": "The Schubert Album",
+      "label": "не установлен (по MB — релиз 2018-01)",
+      "age_voice": "австрийский баритон (р. 1968), ~47 лет",
+      "reputation": "Периферийный кандидат; критической репутации уровня пятёрки не выявлено.",
+      "sources": ["MusicBrainz recording Edelmann + Spencer, 2015-10-15, 310 s"],
+      "youtube": [
+        {"videoId": "eqVu_qQetQw", "channel": "Paul Armin Edelmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Найденный Topic-ролик — оркестровая версия (arr. Reger, 305 s), не фортепианная."
+    },
+    {
+      "singer": "Franz-Josef Selig",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "нет источника (в MusicBrainz записи нет; Topic-канал без доступных метаданных из-за 429 у yt-dlp)",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "немецкий бас (р. 1962), заметный шубертианец 2000-х",
+      "reputation": "Не исследована в этой сессии.",
+      "sources": ["YouTube: Topic-канал певца (найдено поиском yt-dlp)"],
+      "youtube": [
+        {"videoId": "zMyLQ4kiAww", "channel": "Franz-Josef Selig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Пробел: нужен альбом и год. Потенциально сильный басовый кандидат."
+    },
+    {
+      "singer": "Bo Skovhus",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "нет источника (в MusicBrainz нет; метаданные ролика недоступны — 429)",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "датский баритон (р. 1962), пик — 1990-е (дайджест)",
+      "reputation": "Не исследована; по дайджесту — крепкий, но не эталонный шубертианец.",
+      "sources": ["YouTube: «Bo Skovhus - Topic» (312 s)", "planning/research/singers-digest.md"],
+      "youtube": [
+        {"videoId": "1FApTtgjsUw", "channel": "Bo Skovhus - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "В метаданных ролика видно «Baritone: Bo Skovhus» — подтверждает певца, но не альбом/год."
+    },
+    {
+      "singer": "Benjamin Appl",
+      "pianist": "оркестровые версии: BBC Scottish SO / John Wilson (2017); Jenaer Philharmonie / Simon Gaudenz (изд. 2022); Münchner Rundfunkorchester / Oscar Jockel (изд. 2023)",
+      "rec_year": "2017 (BBC-версия)",
+      "year_source": "MusicBrainz: дата записи 2017-03-16 (BBC Music, Vol. 26 No. 5, 2018-01-23); прочие — только даты релизов",
+      "album": "BBC Music Magazine covermount (2018); «Orchesterlieder/Penthesilea» (2022); «Lieder with Orchestra» (2023)",
+      "label": "BBC Music Magazine / прочие",
+      "age_voice": "≈33 года (р. 1982), внутри пика ~2016–наст.; последний частный ученик Фишера-Дискау (дайджест)",
+      "reputation": "Фортепианной студийной версии Prometheus у Аппля по MB нет — только оркестровки Регера; для песенной страницы менее уместно.",
+      "sources": ["MusicBrainz work bf296eb2 (Reger-оркестровка) → три записи Appl", "planning/research/singers-digest.md"],
+      "youtube": [
+        {"videoId": "NVTg8-G444w", "channel": "Lieder Greats", "official": false, "oembed_ok": null}
+      ],
+      "note": "Резерв. Найденный ролик — фан-канал, происхождение не установлено."
+    },
+    {
+      "singer": "René Pape",
+      "pianist": "Dresdner Festspielorchester, дир. Ivor Bolton (оркестровая версия)",
+      "rec_year": "не установлен",
+      "year_source": "нет дискографического источника; только видео DW Classical Music (метаданные загрузки — не источник даты по правилам)",
+      "album": "концертная трансляция (Dresdner Musikfestspiele)",
+      "label": "—",
+      "age_voice": "бас (р. 1964); состояние голоса зависит от неустановленного года",
+      "reputation": "Не исследована.",
+      "sources": ["YouTube: канал DW Classical Music (Prq2o6RgCNc, 380 s)"],
+      "youtube": [
+        {"videoId": "Prq2o6RgCNc", "channel": "DW Classical Music", "official": true, "oembed_ok": true}
+      ],
+      "note": "Оркестровая, год неизвестен — в пятёрку не годится без доисследования."
+    },
+    {
+      "singer": "Bernhard Sönnerstedt",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен (78 об., 1940-е?)",
+      "year_source": "MusicBrainz: recording «Prometheus D. 674 (1997 Remastered Version)», 278 s, релиз-антология «Lieder on Record 1898–2012» (2012); дата сессии не установлена",
+      "album": "антология EMI/Warner «Lieder on Record 1898–2012»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "шведский баритон (1911–1993); без года сессии не оценить",
+      "reputation": "Исторический раритет; попадание в престижную антологию — косвенный знак статуса.",
+      "sources": ["MusicBrainz recording Sönnerstedt + Moore", "planning/research/singers-digest.md (антология Lieder on Record упомянута в реестре)"],
+      "youtube": [],
+      "note": "Ролика на YouTube не искал прицельно; год не установлен — кандидат резервный."
+    },
+    {
+      "singer": "Margaret Ritchie",
+      "pianist": "не указан в MB",
+      "rec_year": "1949",
+      "year_source": "MusicBrainz: дата записи 1949 (recording 276 s; релиз «„Leise flehen meine Lieder…“ — The Art of Schubert Lieder»)",
+      "album": "«Leise flehen meine Lieder…» — The Art of Schubert Lieder",
+      "label": "не установлен",
+      "age_voice": "английское сопрано (1903–1969), 46 лет",
+      "reputation": "Курьёз: женское исполнение мужской оды; художественной репутации в этом репертуаре нет.",
+      "sources": ["MusicBrainz recording Margaret Ritchie, 1949"],
+      "youtube": [],
+      "note": "Только для полноты дискографической картины."
+    },
+    {
+      "singer": "Thierry Félix",
+      "pianist": "Paul Badura-Skoda",
+      "rec_year": "не установлен (релиз 1995)",
+      "year_source": "MusicBrainz: релиз «Goethe-Lieder» (1995), recording 315 s",
+      "album": "Goethe-Lieder",
+      "label": "не установлен (вероятно Valois/Auvidis — не подтверждено)",
+      "age_voice": "французский баритон; данных нет",
+      "reputation": "Не исследована; интерес — исторический рояль/партнёрство с Бадурой-Скодой.",
+      "sources": ["MusicBrainz recording Félix + Badura-Skoda"],
+      "youtube": [],
+      "note": "Периферийный кандидат."
+    },
+    {
+      "singer": "Alex Rosen",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "нет источника (только видео WQXR; метаданные загрузки не источник)",
+      "album": "студийное/концертное видео WQXR",
+      "label": "—",
+      "age_voice": "молодой американский бас; данных нет",
+      "reputation": "Не исследована.",
+      "sources": ["YouTube: канал WQXR (UeCEDOELSW8, 329 s, 5027 просмотров)"],
+      "youtube": [
+        {"videoId": "UeCEDOELSW8", "channel": "WQXR", "official": true, "oembed_ok": true}
+      ],
+      "note": "Периферийный кандидат; уровень пятёрки не обоснован."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "ЗАПИСАЛ, дважды. (1) с Charles Spencer, ф-но — RCA «Goethe-Lieder» (MusicBrainz: recording «Prometheus, Nachlass Lfg. 47», релиз 1995-03-31; дайджест: RCA 1993/95). (2) с Chamber Orchestra of Europe/Abbado в оркестровке Регера, запись 2002-05, DG «Lieder with Orchestra» (MusicBrainz work bf296eb2). YouTube: dUIygMjsg2M и 27Oz6A-hWNw (оба Topic, oEmbed OK).",
+    "Fischer-Dieskau": "ЗАПИСАЛ, не менее шести раз (MusicBrainz work 6b500210): 1954 с Hertha Klust (Кёльн, радио); 1957-08-05 с Gerald Moore (лайв, Зальцбург, Orfeo); 1959-09 с Jörg Demus (DG «Ein Schubert-Goethe-Liederabend», реестр альбомов: 13–14.09.1959); 1969-03 с Gerald Moore (DG-свод); 1972-06-08 с Benjamin Britten (лайв); 1979-07-30 с Jörg Demus.",
+    "Schwarzkopf": "НЕ записывала. В MusicBrainz среди 26 записей произведения её нет; поиск по YouTube («Schwarzkopf Prometheus Schubert») не дал ни одного релевантного ролика. Репертуарно объяснимо: Prometheus — мужская декламационная ода; в дайджесте её шубертовская дискография (EMI 1952 с Э. Фишером, 78s с Муром, Зальцбург с 1957, Parsons 1970–73) Prometheus не содержит.",
+    "Hotter": "НЕ подтверждено ни одной записи Шубертова D 674. В MusicBrainz записей Хоттера у этого произведения нет; на его Topic-канале ролики «Prometheus» — это Prometheus Гуго Вольфа («Goethe-Lieder, No. 49», 509 s) и ещё один 416 s, по длительности также вольфовский. Отдельный открытый вопрос: ролик eLaXLCluBRw «Prometheus (Schubertlied, D. 674)» на канале «Hans Altmann - Topic» (333 s) — Альтман был мюнхенским радиопианистом 1940-х, аккомпанировавшим в том числе Хоттеру; певец в метаданных не виден (yt-dlp отдаёт 429), связь с Хоттером НЕ доказана.",
+    "Anders": "НЕ найдено. В MusicBrainz среди записей произведения Петера Андерса нет; в дайджесте его шубертовское наследие — Winterreise 1945 и Müllerin 1945/1948, Prometheus не значится. Репертуарно песня — не теноровая.",
+    "E. Schumann": "НЕ записывала. В MusicBrainz нет; в дайджесте её шубертовский свод (~28 песен HMV 1927–49) Prometheus не содержит; репертуарно исключено (мужская ода).",
+    "Ludwig": "НЕ найдено. В MusicBrainz нет; поиск по YouTube («Christa Ludwig Prometheus Schubert») выдал только другие её шубертовские треки (Gretchen, Nacht und Träume и т. п.).",
+    "Popp": "НЕ найдено. В MusicBrainz нет; в дайджесте её шубертовская дискография (EMI 1983 с Gage, BBC Legends 1982) Prometheus не включает."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (RCA Red Seal)",
+      "singer": "Thomas Quasthoff",
+      "year": "релиз 1995-03-31; сессии 1993–95?",
+      "label": "RCA Red Seal",
+      "facts": "Пианист Charles Spencer. Переиздан в боксе «Thomas Quasthoff: The Complete RCA Recordings» (2018). Дата сессии дискографически не подтверждена (MusicBrainz даёт только дату релиза; дайджест — «1993/95»).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder with Orchestra (DG)",
+      "singer": "Thomas Quasthoff / Anne Sofie von Otter",
+      "year": "запись 2002-05, релиз 2003-04-08",
+      "label": "Deutsche Grammophon",
+      "facts": "Chamber Orchestra of Europe, дир. Claudio Abbado; оркестровки Регера/Веберна и др.; Grammy 2004 (дайджест). Prometheus — в оркестровке Макса Регера.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "13–14 сентября 1959 (Studio Lankwitz, Берлин), издание 1960",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Jörg Demus; целиком гётевская программа; переиздания — «The Originals» и CD «Goethe-Lieder» (1999). Карточка уже была в реестре проекта; Prometheus подтверждён MusicBrainz (запись 1959-09).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG «Schubert: Sämtliche Lieder» (21 CD, сессии 1966–72)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "трек Prometheus — март 1969",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Gerald Moore; полный свод мужских песен, справочное издание корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder für Baß (Orfeo)",
+      "singer": "Kurt Moll",
+      "year": "издание 1982 (LP S 021821 A); CD 1987 (C 021 821 A)",
+      "label": "Orfeo",
+      "facts": "Пианист Cord Garben; специализированный рецитал «философских» басовых песен; Wikipedia: запись «set a new standard for these songs». Дата сессии не установлена.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 34 «Schubert 1817–1821» (CDJ33034)",
+      "singer": "Simon Keenlyside (и др.)",
+      "year": "запись январь 1999, релиз 2000-01",
+      "label": "Hyperion",
+      "facts": "Пианист и автор комментариев Graham Johnson; Rosslyn Hill Unitarian Chapel, Хэмпстед; инженеры Antony Howell и Julian Millard; 77'49\". Пресса: Gramophone «A feast of finely wrought, intelligent interpretations…», BBC Music Magazine «a must for any serious Schubert collector», IRR «Excellent».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder – Goethe (Decca 452 917-2)",
+      "singer": "Matthias Goerne",
+      "year": "запись май 1996 (Reitstadel, Neumarkt), релиз 1997-03-31",
+      "label": "Decca",
+      "facts": "Пианист Andreas Haefliger. Карточка уже в реестре проекта (источник — буклет по Discogs 13052206).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Saga (Alpha Classics ALPHA 549)",
+      "singer": "Konstantin Krimmel",
+      "year": "запись март 2019, релиз 2019-09-20",
+      "label": "Alpha Classics",
+      "facts": "Пианистка Doriana Tchakarova; программа баллад (Шуберт, Лёве, Шуман); дебютный сольный альбом.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Eterna Schubert-Lieder-Edition, «Lieder nach Goethe 2» (8 26 704)",
+      "singer": "Siegfried Lorenz",
+      "year": "запись сентябрь 1974, издание 1975",
+      "label": "Eterna (переизд. Berlin Classics)",
+      "facts": "Пианист Norman Shetler; часть систематического восточногерманского свода редких песен (реестр проекта).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 3 «Goethe-Lieder, Vol. 1» (8.554665)",
+      "singer": "Ulf Bästlein",
+      "year": "релиз 1999-11-22",
+      "label": "Naxos",
+      "facts": "Пианист Stefan Laux; редактор издания Ulrich Eisenlohr. Дата сессии не установлена.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33034 — страница тома 34 Hyperion Schubert Edition с эссе Грэма Джонсона (Prometheus D674 упоминается в контексте 1819 г.) и подборкой рецензий (Gramophone, BBC Music Magazine, International Record Review)",
+    "https://en.wikipedia.org/wiki/Kurt_Moll — оценка орфеевского баса-рецитала («set a new standard for these songs»)",
+    "https://en.wikipedia.org/wiki/Thomas_Quasthoff — общая оценка его Lieder-исполнительства",
+    "НЕ ПОЛУЧЕНО: klassik-prisma.de (Vergleich), Gramophone, MusicWeb, BBC Music Magazine — в этой сессии исчерпан бюджет WebSearch (200/200), а прямые поисковики (DuckDuckGo html/lite, Mojeek, Ecosia) отдавали CAPTCHA/403. Сравнительный обзор именно по D 674 не найден — это открытый пробел для доисследования."
+  ],
+  "negatives": [
+    "Schwarzkopf, Hotter (Шуберт), Anders, E. Schumann, Ludwig, Popp — записей D 674 не обнаружено ни в MusicBrainz (26 записей произведения), ни в YouTube-поиске; см. priority_singers_checked.",
+    "Каркас дискографии planning/youtube/data/d674-prometheus.mb.json оказался ложным: скрипт нашёл work «Prometheus» рок-групп (Saltatio Mortis, ASP), а не шубертовский. Верный MusicBrainz work — 6b500210-f158-387f-af48-89d4a1f35955 (фортепианная версия, 26 записей) и bf296eb2-563d-341b-b76a-455afb90779a (оркестровка Регера, 4 записи). Файл mb.json стоит перегенерировать.",
+    "Christian Gerhaher, Thomas Hampson, Gérard Souzay, Martti Talvela, Bryn Terfel, Wolfgang Holzmair, Heinrich Schlusnus — записей D 674 не найдено (MusicBrainz artistname-поиск + yt-dlp).",
+    "Benjamin Appl: фортепианной студийной записи нет — только три оркестровые (Reger) версии.",
+    "Дискографические базы, обычно рабочие в проекте, в этой сессии не отвечали: Discogs API (api.discogs.com) — «You are making requests too quickly» на все запросы; prestomusic.com — 403; поисковики — CAPTCHA/403.",
+    "Метаданные отдельных YouTube-роликов через yt-dlp недоступны (HTTP 429 / бот-проверка), поэтому альбомы ряда Topic-роликов (Skovhus, Selig, «Hans Altmann - Topic», «walter martin - Topic», часть роликов Фишера-Дискау gOyPUFAaKuQ и D_r_fW7EDBw) не идентифицированы; привязки сделаны по совпадению длительности с MusicBrainz и отмечены как вероятные."
+  ]
+}
