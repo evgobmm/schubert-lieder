@@ -112,6 +112,15 @@ for (const e of index) {
   }
 }
 
+// приоритетная иерархия (Квастхоф №1, затем Фишер-Дискау), кроме утверждённого пользователем Winterreise
+for (const [d, arr] of Object.entries(perf)) {
+  if (/^911\//.test(d)) continue; // авторский порядок референса
+  const qi = arr.findIndex((v) => /Quasthoff/i.test(v.name));
+  const fi = arr.findIndex((v) => /Fischer-Dieskau/i.test(v.name));
+  if (qi > 0) add('WARN', `performances[${d}]`, 'Quasthoff не на позиции 0: ' + qi);
+  if (fi >= 0 && fi > (qi >= 0 ? 1 : 0)) add('WARN', `performances[${d}]`, 'Fischer-Dieskau ниже ожидаемой позиции: ' + fi);
+}
+
 // ---------- итог ----------
 const errs = findings.filter((f) => f.level === 'ERROR');
 const warns = findings.filter((f) => f.level === 'WARN');
