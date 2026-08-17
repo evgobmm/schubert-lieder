@@ -1,0 +1,57 @@
+{
+ "d": "445",
+ "title": "Edone",
+ "candidates": [
+  {
+   "singer": "Christoph Prégardien",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists candidates.json)",
+   "album": "предположительно Hyperion Schubert Edition (гостевой том Джонсона)",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не исследован отдельно",
+   "reputation": "подтверждено MusicBrainz как реальная студийная пара; конкретный том свода не идентифицирован — доисследование не проводилось (лимит WebSearch исчерпан)",
+   "videoId": "_VNH2a-XqvQ",
+   "channel": "Christoph Prégardien - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не подтверждено MusicBrainz-выдачей — только совпадение по фамилии в реестре (albums.md, complete-editions.md, modern-series.md)",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не исследован",
+   "reputation": "тройное совпадение в реестре (та же комбинация файлов, что и в D 444) наводит на отдельный шубертовский альбом Хольцмайра — возможно, программа именно из редких Клопштоковых од; происхождение не подтверждено (бюджет WebSearch исчерпан)",
+   "videoId": "NRMf3a_vemY",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Dorothee Jansen",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не подтверждено MusicBrainz-выдачей — только совпадение в реестре female-recitalists.md",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не исследован",
+   "reputation": "малоизвестная исполнительница, происхождение записи не проверено",
+   "videoId": "rkqqdAIs2n0",
+   "channel": "Dorothee Jansen - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "не найдено",
+  "fischer_dieskau": "не найдено — ни MusicBrainz, ни реестр не дают записи FiDi для D 445 (в выдаче по этому слагу нет ни одного FiDi-кандидата вовсе)",
+  "schwarzkopf": "не найдено",
+  "hotter": "не найдено",
+  "anders": "не найдено",
+  "e_schumann": "не найдено",
+  "ludwig": "не найдено",
+  "popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Одна из самых редких песен пилота — даже Fischer-Dieskau, судя по доступным данным, её не записывал. Пул слабый: 1 верифицированный кандидат (Prégardien по MusicBrainz) + 2 непроверенных. При полном конвейере эта песня — первый кандидат на доисследование Holzmair (совпадение с D 444 намекает на общий альбом Клопштоковых од)."
+}

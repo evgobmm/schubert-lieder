@@ -1,0 +1,44 @@
+{
+ "d": "363",
+ "title": "An Chloen (фрагмент)",
+ "candidates": [
+  {
+   "singer": "Christoph Prégardien",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists candidates.json)",
+   "album": "предположительно Hyperion Schubert Edition (гостевой том Джонсона)",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не исследован отдельно",
+   "reputation": "подтверждено MusicBrainz как реальная студийная пара; конкретный том свода не идентифицирован — доисследование не проводилось (лимит WebSearch исчерпан в сессии)",
+   "videoId": "EZFw9KeWHwE",
+   "channel": "Christoph Prégardien - Topic",
+   "official": true
+  },
+  {
+   "singer": "Jan Kobow",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не установлен",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos, т. 30 «Poets of Sensibility, Vol. 6»)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 30",
+   "label": "Naxos",
+   "voice_note": "не исследован отдельно",
+   "reputation": "часть систематического немецкоязычного свода; не в mb_artists — совпадение по фамилии в реестре, не независимо подтверждено",
+   "videoId": "ie1uQpjFAsk",
+   "channel": "Jan Kobow - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "не найдено",
+  "fischer_dieskau": "не найдено — MusicBrainz не даёт Fischer-Dieskau/Moore для D 363; кандидат «uQH8hSBOT8Y» в исходной выдаче назван D 363, но по заголовку на деле D 462 (другая «An Chloen») — ложное совпадение, отброшено",
+  "schwarzkopf": "не найдено",
+  "hotter": "не найдено",
+  "anders": "не найдено",
+  "e_schumann": "не найдено",
+  "ludwig": "не найдено",
+  "popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Фрагмент (Hoorickx-редакция). Пул очень узкий — 2 значительных кандидата, оба Topic. Важная находка триажа: заголовок «An Chloen» на YouTube двусмысленен — есть Schubert D 363 (Jacobi, 1816, фрагмент) и Schubert D 462 (Uz, 1816) под тем же немецким названием; кандидаты FiDi в исходной выдаче относятся к D 462, не к D 363."
+}

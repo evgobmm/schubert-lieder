@@ -1,0 +1,72 @@
+{
+ "d": "447",
+ "title": "An den Schlaf",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, DG, 21 CD); подтверждено MusicBrainz",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен; высший приоритет №2 по правилам потока",
+   "videoId": "ROu1acvKYNA",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубли того же трека: yd7c0FLKHD4, 3cAqbzFpg2A"
+  },
+  {
+   "singer": "Peter Schreier",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists candidates.json)",
+   "album": "предположительно Hyperion Schubert Edition (гостевой том Джонсона)",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "по singers-digest: пик ~1965–1990",
+   "reputation": "подтверждено MusicBrainz как реальная студийная пара; конкретный том не идентифицирован — доисследование не проводилось (лимит WebSearch исчерпан); в candidates.json для этого слага нет отдельного видео Шрайера — только совпадение через MusicBrainz",
+   "videoId": null,
+   "channel": null,
+   "official": null,
+   "note": "кандидат условный — ролик на Topic-канале Шрайера скрипт не нашёл, требует целевого поиска"
+  },
+  {
+   "singer": "Jan Kobow",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не установлен",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos, т. 30 «Poets of Sensibility, Vol. 6»)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 30",
+   "label": "Naxos",
+   "voice_note": "не исследован отдельно",
+   "reputation": "не в mb_artists — совпадение по фамилии в реестре",
+   "videoId": "IZ8Jeh0R4Ac",
+   "channel": "Jan Kobow - Topic",
+   "official": true
+  },
+  {
+   "singer": "René Jacobs",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не подтверждено — только Topic-канал",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не исследован; Jacobs — контратенор, специализация барокко, не типичный шубертианец",
+   "reputation": "происхождение и подлинность не проверены (бюджет WebSearch исчерпан)",
+   "videoId": "x51d-xGZUts",
+   "channel": "René Jacobs - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "не найдено",
+  "fischer_dieskau": "есть — Sämtliche Lieder (DG), включён в кандидаты",
+  "schwarzkopf": "не найдено",
+  "hotter": "не найдено",
+  "anders": "не найдено",
+  "e_schumann": "не найдено",
+  "ludwig": "не найдено",
+  "popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Как и в D 446, MusicBrainz знает пару Schreier/Johnson, но соответствующий ролик в выдаче скрипта не найден — нужен целевой поиск при полном конвейере. Kobow/Naxos т. 30 — сквозной альбом для нескольких песен этой волны (D 358, D 363, D 446, D 447), стоит проверить как единый том."
+}

@@ -1,0 +1,59 @@
+{
+ "d": "442",
+ "title": "Das große Halleluja",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, DG, 21 CD); подтверждено MusicBrainz",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен; высший приоритет №2 по правилам потока",
+   "videoId": "W_8DMtNsXKE",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубль того же трека: rxI5SvEH5Bk, jKFtcbWCdZ8"
+  },
+  {
+   "singer": "Daniel Norman, Toby Spence, Christopher Maltman, Stephan Loges, Neal Davies (ансамбль)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists candidates.json)",
+   "album": "предположительно Hyperion Schubert Edition, гостевой ансамблевый том Джонсона",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не исследован отдельно",
+   "reputation": "подтверждено MusicBrainz как реальный ансамблевый состав для этой песни (вокальный квартет/квинтет с ф-но); конкретный том не идентифицирован — доисследование не проводилось (лимит WebSearch исчерпан)",
+   "videoId": "voEmpW-gOgs",
+   "channel": "Christopher Maltman - Topic",
+   "official": true,
+   "note": "на YouTube трек приписан только Мальтману (Topic-канал одного участника ансамбля); реальный состав — весь перечисленный квинтет по MusicBrainz"
+  },
+  {
+   "singer": "Arnold Schoenberg Chor",
+   "pianist": null,
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists candidates.json); дирижёр Erwin Ortner",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "хоровая версия, не сольная",
+   "reputation": "хоровое прочтение — вне основного формата топ-5 (голос+рояль); кандидат резервный",
+   "videoId": "ZrxycsOSsEQ",
+   "channel": "Arnold Schoenberg Chor - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "не найдено",
+  "fischer_dieskau": "есть — Sämtliche Lieder (DG), включён в кандидаты",
+  "schwarzkopf": "не найдено",
+  "hotter": "не найдено",
+  "anders": "не найдено",
+  "e_schumann": "не найдено",
+  "ludwig": "не найдено",
+  "popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Кандидат «Detlef Roth — Topic» (dlzfNz5yNT8, «version A») не подтверждён MusicBrainz-данными в выдаче — реальность и происхождение записи не проверены (бюджет WebSearch исчерпан в сессии); в пул не включён без дополнительной проверки."
+}

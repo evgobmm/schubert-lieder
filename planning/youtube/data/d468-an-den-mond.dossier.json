@@ -1,0 +1,53 @@
+{
+ "d": "468",
+ "title": "An den Mond (D 468, Хёльти)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–72 (свод; точная сессия не установлена)",
+   "year_source": "MusicBrainz work-recording (Fischer-Dieskau/Moore) + дайджест: DG Sämtliche Lieder 1966–1972",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "вокальный пик/близко к нему",
+   "reputation": "приоритетный исполнитель №2; базовая запись",
+   "videoId": "ZRhF09wumhY",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Lucia Popp",
+   "pianist": "Graham Johnson",
+   "rec_year": "1992–93?",
+   "year_source": "Discogs: The Hyperion Schubert Edition No. 17 (CDJ33017), Hyperion, изд. 1993",
+   "album": "The Hyperion Schubert Edition, Vol. 17",
+   "label": "Hyperion",
+   "voice_note": "Попп в поздний период карьеры (умерла в 1993) — часть научного свода",
+   "reputation": "приоритетный исполнитель",
+   "videoId": null,
+   "channel": null,
+   "official": null
+  },
+  {
+   "singer": "Birgid Steinberger или Wolfgang Holzmair (не установлено, чей трек)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2005–06?",
+   "year_source": "Discogs: Naxos Deutsche Schubert-Lied-Edition т. 21 «Poets of Sensibility, Vol. 4» (8.557569), изд. март 2006; дуэтный том, привязка конкретного трека к певцу не подтверждена",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, Vol. 21 «Poets of Sensibility, Vol. 4»",
+   "label": "Naxos",
+   "voice_note": "неизвестно без прослушивания трека",
+   "reputation": "третий кандидат; требует уточнения перед включением в топ-5",
+   "videoId": "7yvC5KUG9E0",
+   "channel": "Birgid Steinberger - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "note": "Фишер-Дискау — есть (DG). Лючия Попп — есть (Hyperion, MusicBrainz подтверждает). Квасthoff, Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг — не найдены."
+ },
+ "new_albums": [
+  "Hyperion Schubert Edition Vol. 17 (CDJ33017, 1993) — новая карточка (певица Lucia Popp).",
+  "Naxos Deutsche Schubert-Lied-Edition Vol. 21 «Poets of Sensibility, Vol. 4» (8.557569, 2006) — новая карточка."
+ ],
+ "notes": "ВАЖНО: не путать с двумя другими шубертовскими песнями «An den Mond» на стихи Гёте — D 259 (более известная, много записей: Hermann Prey/Philips 1969, Andrè Schuen/Avi 2016, Anna Lucia Richter, Christianne Stotijn и др.) и D 296 (вторая гётевская редакция, много записей FiDi/Goerne/Bostridge) — оба исключены из этого пула как другие произведения. VideoId для Lucia Popp/Hyperion не найден в исходной выдаче candidates.json — нужен целевой поиск по Topic-каналу Graham Johnson перед публикацией."
+}

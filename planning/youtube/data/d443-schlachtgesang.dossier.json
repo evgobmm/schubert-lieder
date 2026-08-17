@@ -1,0 +1,58 @@
+{
+ "d": "443",
+ "title": "Schlachtgesang",
+ "candidates": [
+  {
+   "singer": "John Mark Ainsley + The London Schubert Chorale",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен (по соседним томам свода — сер. 1990-х)",
+   "year_source": "MusicBrainz (mb_artists candidates.json); дирижёр хора Stephen Layton",
+   "album": "предположительно Hyperion Schubert Edition, т. 20 «An 1815 Schubertiad I» (CDJ33020) — в этом томе фигурирует The London Schubert Chorale по реестру complete-editions.md",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не исследован отдельно",
+   "reputation": "подтверждено MusicBrainz как реальный состав; привязка к конкретному тому (т. 20) вероятна по совпадению хора в реестре, но не подтверждена напрямую — доисследование не проводилось (лимит WebSearch исчерпан)",
+   "videoId": "SyX45a_Onyc",
+   "channel": "The London Schubert Chorale - Topic",
+   "official": true
+  },
+  {
+   "singer": "Camerata Musica Limburg",
+   "pianist": null,
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists candidates.json)",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "хоровая версия для мужского хора (a cappella), не сольная",
+   "reputation": "подтверждено MusicBrainz; хоровое прочтение — вне основного формата топ-5",
+   "videoId": "3h66EZD08dY",
+   "channel": "Camerata Musica Limburg - Topic",
+   "official": true,
+   "note": "видео озаглавлено «version for male choir»; на том же канале есть парная запись под старым номером D 912 (UwTSvdXlTEk) — тот же опус, дореформенная нумерация Дойча"
+  },
+  {
+   "singer": "Detlef Roth",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не подтверждено MusicBrainz-выдачей — только совпадение по фамилии в реестре",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не исследован",
+   "reputation": "видео озаглавлено «version for solo voice» — Шуберт писал и хоровую, и сольную редакции этой песни, так что кандидат правдоподобен, но происхождение записи не проверено (бюджет WebSearch исчерпан)",
+   "videoId": "ILTHGuOsyi4",
+   "channel": "Detlef Roth - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "не найдено",
+  "fischer_dieskau": "не найдено — MusicBrainz и реестр не дают записи FiDi для D 443",
+  "schwarzkopf": "не найдено",
+  "hotter": "не найдено",
+  "anders": "не найдено",
+  "e_schumann": "не найдено",
+  "ludwig": "не найдено",
+  "popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Песня существует в хоровой (мужской хор) и сольной версиях — оба варианта присутствуют среди кандидатов, что важно учесть при выборе (плеер обычно ожидает голос+рояль). Arnold Schoenberg Chor (-8EVZfdcm48, под старым номером D 912) — ещё один хоровой кандидат, не проверен отдельно."
+}

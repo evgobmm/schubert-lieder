@@ -1,0 +1,71 @@
+{
+ "d": "444",
+ "title": "Die Gestirne",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, DG, 21 CD); подтверждено MusicBrainz",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен; высший приоритет №2 по правилам потока",
+   "videoId": "3r3NJlHZZF8",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубли того же трека: 11gwPNq0dZ0, cKy9HQKykXI"
+  },
+  {
+   "singer": "Christine Brewer",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists candidates.json); реестр complete-editions.md подтверждает участие певицы в своде",
+   "album": "предположительно Hyperion Schubert Edition, гостевой том Джонсона",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не исследован отдельно",
+   "reputation": "подтверждено MusicBrainz как реальная студийная пара; конкретный том не идентифицирован — доисследование не проводилось (лимит WebSearch исчерпан)",
+   "videoId": "ayPTjGKMkD0",
+   "channel": "Christine Brewer - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не подтверждено MusicBrainz-выдачей — только совпадение по фамилии в реестре (albums.md, complete-editions.md, modern-series.md)",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не исследован",
+   "reputation": "тройное совпадение в реестре наводит на отдельный шубертовский альбом Хольцмайра, но происхождение записи D 444 не подтверждено (бюджет WebSearch исчерпан)",
+   "videoId": "hpm134fodmk",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Thomas E. Bauer",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не подтверждено MusicBrainz-выдачей — только совпадение в реестре complete-editions.md",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не исследован",
+   "reputation": "происхождение не проверено (бюджет WebSearch исчерпан)",
+   "videoId": "DTcOHN3GiWw",
+   "channel": "Thomas E. Bauer - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "не найдено",
+  "fischer_dieskau": "есть — Sämtliche Lieder (DG), включён в кандидаты",
+  "schwarzkopf": "не найдено",
+  "hotter": "не найдено",
+  "anders": "не найдено",
+  "e_schumann": "не найдено",
+  "ludwig": "не найдено",
+  "popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Самая короткая песня пилота (51 с у FiDi). Пул из 4 кандидатов, только FiDi верифицирован по году/альбому; Brewer подтверждена MusicBrainz, но не по альбому; Holzmair и Bauer — только по совпадению фамилии в реестре, требуют доисследования при полном конвейере."
+}

@@ -1,0 +1,39 @@
+{
+ "d": "462",
+ "title": "An Chloen (D 462, Якоби)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–72 (свод; точная сессия не установлена)",
+   "year_source": "MusicBrainz work-recording (Fischer-Dieskau/Moore) + дайджест: DG Sämtliche Lieder 1966–1972",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "вокальный пик/близко к нему",
+   "reputation": "приоритетный исполнитель №2; базовая запись",
+   "videoId": "r7pxaLS2-bU",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Sarah Walker",
+   "pianist": "Graham Johnson",
+   "rec_year": "1989–90?",
+   "year_source": "MusicBrainz work-recording (Sarah Walker/Graham Johnson) + Discogs: The Hyperion Schubert Edition No. 8 «Schubert & the Nocturne II» (CDJ33008), Hyperion, изд. 1990 (реестр проекта уже фиксирует том по D 259 — сессия V.1989)",
+   "album": "The Hyperion Schubert Edition, Vol. 8 «Schubert & the Nocturne II»",
+   "label": "Hyperion",
+   "voice_note": "Уокер (меццо) — часть научного свода, том с ноктюрновой тематикой",
+   "reputation": "часть научного свода",
+   "videoId": null,
+   "channel": null,
+   "official": null
+  }
+ ],
+ "priority_check": {
+  "note": "Фишер-Дискау — есть (DG). Квасthoff, Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг, Попп — не найдены."
+ },
+ "new_albums": [
+  "Hyperion Schubert Edition Vol. 8 «Schubert & the Nocturne II» (CDJ33008, 1990) — том уже зафиксирован в реестре по D 259 (Sarah Walker), теперь дополняется D 462."
+ ],
+ "notes": "ВНИМАНИЕ: два кандидата из исходной выдачи оказались ДРУГИМИ песнями с совпадающими фамилиями/ключевыми словами и исключены: (1) «Schafers Klagelied» (Stephan Genz - Topic) — регистри-хит ссылался на другого певца (Christoph Genz, Naxos т. 10) и другую песню (D 121b), не An Chloen; (2) «An Chloen, D. 363 (Compl. Hoorickx)» (Jan Kobow - Topic) — это отдельная, более ранняя песня Шуберта на близкий, но иной текст (D 363), НЕ D 462. VideoId для Sarah Walker/Hyperion не найден в выдаче candidates.json — нужен целевой поиск по Topic-каналу Graham Johnson перед публикацией."
+}

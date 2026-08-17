@@ -1,0 +1,83 @@
+{
+ "d": "450",
+ "title": "Fragment aus dem Aeschylus",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (сессии свода)",
+   "year_source": "реестр (albums.md / singers-digest.md — DG Sämtliche Lieder)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "приоритетный исполнитель №2; голос в расцвете",
+   "reputation": "эталонный полный свод; несколько дублирующих videoId на Topic (одна запись, включая помеченный «D. 450b» вариант)",
+   "videoId": "UU7YcXboXD8",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "не установлен (запись помечена «2nd Version»)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен — вероятно один из 1816-томов Hyperion",
+   "year_source": "не подтверждено: track-листинг hyperion-records.co.uk не отдал состав через WebFetch (JS-контент); вероятные тома — Vol. 17 «Schubert in 1816» (Popp), Vol. 23 «Songs of 1816» (Prégardien) или сборный Vol. 32 «An 1816 Schubertiad» (зап. XII.1998, изд. III.1999) — год D 450 (1816) соответствует всем трём",
+   "album": "Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено",
+   "reputation": "часть научного полного свода Джонсона; для точной идентификации певца нужен буклет/track-лист на будущем шаге ранжирования",
+   "videoId": "AFGaw_FJaF4",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Christoph Prégardien (тенор)",
+   "pianist": "Graham Johnson (предположительно, Hyperion Vol. 23) — не подтверждено",
+   "rec_year": "IX.1994, изд. V.1995 (если это Vol. 23)",
+   "year_source": "реестр (albums/complete-editions.md — Hyperion Vol. 23 «Songs of 1816»); привязка конкретно D 450 к этому тому не подтверждена track-листингом",
+   "album": "Hyperion Schubert Edition, Vol. 23 «Songs of 1816» (CDJ33023) — предположительно",
+   "label": "Hyperion/Universal",
+   "voice_note": "пик Прегардьена ~1990–2012 (дайджест) — на этой записи в самом начале пика",
+   "reputation": "не установлена отдельно для этого трека",
+   "videoId": "0sys2pOWZAQ",
+   "channel": "Christoph Prégardien - Topic",
+   "official": true
+  },
+  {
+   "singer": "Maureen Forrester (контральто)",
+   "pianist": "Michael Raucheisen",
+   "rec_year": "1955 (по названию загрузки) — НЕ верифицировано",
+   "year_source": "НЕ верифицировано по дискографии (правило запрещает опираться на метаданные/названия загрузок); WebSearch недоступен в этой сессии (лимит исчерпан)",
+   "album": "не установлен (вероятно немецкая радиозапись эпохи Raucheisen-Edition, по аналогии с материалами Hotter/Kipnis того же круга в реестре)",
+   "label": "не установлен",
+   "voice_note": "Форрестер — канадское контральто, но эта ранняя немецкая радиозапись 1950-х (если дата верна) — редкий ранний период карьеры; требует отдельной проверки",
+   "reputation": "не установлена; загрузка на не-Topic канале (57 просмотров), низкая значимость по охвату",
+   "videoId": "fqZEnI_W52g",
+   "channel": "Sadanori Kobinata",
+   "official": false
+  },
+  {
+   "singer": "Fischer-Dieskau / Jörg Demus — альтернативная (более ранняя?) запись, не DG-свод",
+   "pianist": "Jörg Demus",
+   "rec_year": "не установлен",
+   "year_source": "НЕ верифицировано: канал «incontrario motu» — фанатский агрегатор старых записей ФД, происхождение не документировано в реестре; Demus — пианист FD в основном в гётевских программах (Ein Schubert-Goethe-Liederabend, DG 1959) и в ряде ранних Electrola/DG сессий, но «Fragment aus dem Aeschylus» (текст Мейрхофера, не Гёте) в известных карточках Demus-программ не числится",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не установлено",
+   "reputation": "не установлена; низкий охват (524 просмотра), не-Topic канал",
+   "videoId": "3NmnK8UXFbg",
+   "channel": "incontrario motu",
+   "official": false
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "да — включён (DG Sämtliche Lieder; возможна вторая, неатрибутированная запись с Demus)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет — возможно как неподтверждённая Hyperion Vol. 17"
+ },
+ "new_albums": [],
+ "notes": "Текст — не Гёте (у Прегардьена в его гётевских альбомах DHM/Staier этой песни нет — верно исключены из пула). José Navarro-Forcada, Liedersoundarchive, Despina Panayiotou, Christos Marinos, MPyC TV — любительские/учебные/фестивальные каналы без значимости, исключены."
+}
