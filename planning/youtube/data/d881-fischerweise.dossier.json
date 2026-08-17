@@ -1,0 +1,560 @@
+{
+  "d": "881",
+  "title": "Fischerweise",
+  "meta": {
+    "poet": "Franz Xaver von Schlechta",
+    "opus": "op. 96 Nr. 4",
+    "mb_work": "8ed894c8-848e-4872-b35a-17625cc6e661",
+    "mb_recording_count": 36,
+    "tier": "famous (репертуарный шлягер мужского и женского рецитала; пул кандидатов — 15+)",
+    "research_limitation": "Бюджет WebSearch сессии был исчерпан до начала работы (200/200), поэтому сравнительные обзоры искались только адресными WebFetch по известным URL. Основа дат — recording-relations MusicBrainz (сессионные диапазоны с площадками и продюсерами), реестр альбомов проекта (planning/youtube/albums.md, albums/*.md, там — дискография Майкла Грея и Discogs) и метаданные официальных Topic-загрузок (только как подтверждение лейбла/℗, не как источник даты записи)."
+  },
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "MusicBrainz recording 3f64ee3e-ae4e-4049-a389-44fa06922062, recording-relations: vocal/instrument 1969-03 – 1969-03; продюсеры Otto Gerdes, Rainer Brock, звук Hans-Peter Schweigmann. Подтверждение лейбла: Topic-загрузка RJgqFP5HPNc «℗ 1969 Deutsche Grammophon GmbH, Berlin».",
+      "album": "Schubert: Lieder (том полного свода DG «Sämtliche Lieder», 1966–72, 21 CD); переиздания: «Lieder, Volume II» (1992), «Complete Lieder Recordings on DG» (2022)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "43–44 года; самая сердцевина пика (дайджест: пик ~1951–1972). Голос в полной силе, свод с Муром — эталонный корпус мужских песен.",
+      "reputation": "Часть DG-свода «Sämtliche Lieder» (Moore, 1966–72) — по дайджесту и реестру полных изданий это опорный свод всех ~400 мужских песен Шуберта, к которому проект обращается по умолчанию для любой мужской песни.",
+      "sources": [
+        "MusicBrainz recording 3f64ee3e-ae4e-4049-a389-44fa06922062 (artist-rels с датами)",
+        "planning/research/singers-digest.md — «Fischer-Dieskau / Moore — DG Sämtliche Lieder, зап. 1966–72 (21 CD)»",
+        "YouTube Topic RJgqFP5HPNc (описание UMG: ℗ 1969 DG)"
+      ],
+      "youtube": [
+        { "videoId": "RJgqFP5HPNc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 193, "note": "альбом «Schubert: Lieder», ℗1969 DG — основной вариант" },
+        { "videoId": "14M375wNPsY", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": false, "duration_s": 193, "note": "тот же мастер, альбом «Schubert: Lieder (Vol. 2)»; oembed не проверялся отдельно" },
+        { "videoId": "mKgBeynPdLM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": false, "duration_s": 193, "note": "тот же мастер в бокс-компиляции" }
+      ],
+      "note": "Главный мужской кандидат по иерархии приоритетов (после отсутствующего Квастхофа). Три Topic-дубля одного и того же мастера — брать RJgqFP5HPNc (больше просмотров, чистое название альбома)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1965,
+      "year_source": "MusicBrainz recording a4dda6f1-2e91-4ef4-b003-40bb11109054, recording-relations: 1965-02-24 – 1965-03-01. Совпадает с карточкой реестра «Dietrich Fischer-Dieskau — Schubert: 21 Lieder (EMI/Electrola; переизд. Warner), 1965 (℗; сессия не установлена)» — то есть MB уточняет сессию этой EMI-позиции.",
+      "album": "Schubert: 21 Lieder (EMI/Electrola); переизд. «The Great EMI Recordings» (2010), «Die Forelle: Die schönsten Schubert-Lieder» (2012)",
+      "label": "EMI / Electrola (ныне Warner Classics)",
+      "age_voice": "39 лет; пик, голос свежее и лиричнее, чем в DG-своде 1969.",
+      "reputation": "Реестр альбомов проекта фиксирует позицию как отдельный EMI-рецитал 1965 г.; конкретных рецензий именно на этот трек в доступных источниках не найдено.",
+      "sources": [
+        "MusicBrainz recording a4dda6f1-2e91-4ef4-b003-40bb11109054",
+        "planning/youtube/albums.md — карточка «Dietrich Fischer-Dieskau — Schubert: 21 Lieder (EMI/Electrola)»"
+      ],
+      "youtube": [],
+      "note": "Официальной Topic-загрузки именно этого мастера (201 с) в выдаче не обнаружено; найденные Warner-Topic ролики FiD — либо DG-мастера, либо поздний вариант с Хёллем. Если публиковать FiD/Moore — практично брать DG-1969."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Benjamin Britten",
+      "rec_year": 1972,
+      "year_source": "MusicBrainz recording 2213b1b6-9c18-455b-af2e-60a12a45e318: vocal/instrument 1972-06-08, «recorded at Snape Maltings», продюсер Richard Butt (запись BBC). Та же дата в описании фан-загрузки («Live recording, Snape Maltings, 8.VI.1972») — совпадение независимое, но метаданные загрузки не считаются источником.",
+      "album": "Schubert: Lieder (Decca/BBC, изд. 1999); также «Brahms: Die schöne Magelone / Schubert: Lieder» (2009)",
+      "label": "Decca / BBC (Aldeburgh)",
+      "age_voice": "47 лет; конец пика по дайджесту (пик ~1951–1972), голос ещё полон, живое исполнение с большей свободой темпа (229 с против 193 в студии).",
+      "reputation": "Уникальный дуэт с Бриттеном за роялем на Олдебургском фестивале — историческая ценность независимо от «рейтингов»; печатных сравнительных оценок именно этого номера не найдено.",
+      "sources": [
+        "MusicBrainz recording 2213b1b6-9c18-455b-af2e-60a12a45e318 (place-rel Snape Maltings, дата)",
+        "MusicBrainz releases: «Lieder» (1999), «Brahms: Die schöne Magelone / Schubert: Lieder» (2009-06-02)"
+      ],
+      "youtube": [
+        { "videoId": "jdfVuzSqfw8", "channel": "incontrario motu", "official": false, "oembed_ok": true, "duration_s": 229 }
+      ],
+      "note": "Официальной загрузки нет — только уважаемый фан-канал incontrario motu. Риск удаления выше, чем у Topic."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Sviatoslav Richter",
+      "rec_year": 1977,
+      "year_source": "MusicBrainz recording fa6b8978-d61f-4b7c-9ac6-39a79914cc17: 1977-07-02 – 1977-07-04, «recorded at Grand Théâtre de Tours»; продюсер Cord Garben, звук Heinz Wildhagen. Topic-загрузка Bc1zGqRYKsc подтверждает лейбл: «℗ 1978 Deutsche Grammophon».",
+      "album": "Schubert: Lieder (DG, ℗1978); переизд. «Complete Decca, Philips & DG Recordings» (2015), «Complete Lieder Recordings on DG» (2022)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "52 года; по дайджесту с середины 1970-х тон суше — голос уже за пиком, ставка на слово и на партнёрство с Рихтером.",
+      "reputation": "Знаменитый турский цикл FiD/Рихтер — одна из самых обсуждаемых Lieder-встреч двух величин; конкретных печатных оценок номера в доступных источниках не найдено.",
+      "sources": [
+        "MusicBrainz recording fa6b8978-d61f-4b7c-9ac6-39a79914cc17",
+        "YouTube Topic Bc1zGqRYKsc (UMG, ℗ 1978 DG)"
+      ],
+      "youtube": [
+        { "videoId": "Bc1zGqRYKsc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 178 }
+      ],
+      "note": "Осторожно: в корпусе YouTube ходит популярная фан-нарезка IpteIfoeDTs «Fischer-Dieskau & Richter (1978)» — это год издания, а не записи."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Sviatoslav Richter",
+      "rec_year": 1977,
+      "year_source": "MusicBrainz recording a04b6c73-944b-45af-8ed7-b7f50323de05: 1977-08-29, «recorded at Haus für Mozart» (Зальцбург) — отдельный концерт того же лета, издан в 1993 г.",
+      "album": "Schubert: Lieder (изд. 1993)",
+      "label": "не установлен по MB (зальцбургский лайв; вероятная линия Orfeo/DG — не подтверждено)",
+      "age_voice": "52 года; см. выше.",
+      "reputation": "Дублирует турскую программу; самостоятельной критической репутации не найдено.",
+      "sources": [
+        "MusicBrainz recording a04b6c73-944b-45af-8ed7-b7f50323de05"
+      ],
+      "youtube": [],
+      "note": "Отдельного видео не найдено. В топ-5 не нужен — дубль турского исполнения."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Hartmut Höll",
+      "rec_year": null,
+      "year_source": "Год записи НЕ установлен. Topic-загрузка Yxah11Wukio: «A Warner Classics/Erato Disques release, ℗ 1995» — это фонограммный год издания, не сессия. Сотрудничество FiD/Хёлль относится к концу карьеры певца (уход со сцены — 31.12.1992), поэтому сессия ориентировочно рубеж 1980–90-х [не подтверждено].",
+      "album": "Schubert: Lieder (Warner Classics/Erato)",
+      "label": "Warner Classics / Erato",
+      "age_voice": "65+; далеко за пиком, дайджест: «с сер. 1970-х тон суше».",
+      "reputation": "Поздний FiD; в проекте по правилу «при прочих равных — более ранняя запись» уступает и DG-1969, и EMI-1965.",
+      "sources": [
+        "YouTube Topic Yxah11Wukio (метаданные Warner; год — только ℗)"
+      ],
+      "youtube": [
+        { "videoId": "Yxah11Wukio", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 183 }
+      ],
+      "note": "Отклонить: поздний голос + неустановленный год при наличии двух пиковых версий того же певца."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": 1936,
+      "year_source": "Реестр альбомов проекта: «Schumann — HMV-сессии 25–26.11.1936 (DA 1541/1545/1546/1547) — Liebesbotschaft, Litanei D 343, Fischerweise, Gretchen am Spinnrade D 118 … [дискография Майкла Грея]». Независимо совпадает с MusicBrainz recording a77ff07a-969f-44f6-979b-ce47670c1f6b: 1936-11-26.",
+      "album": "HMV DA-серия 1936; переизд. Naxos Historical 8.110731 «Schubert Lieder (1927–1945)», Warner «Icon», «The Art of Schubert Lieder»",
+      "label": "HMV (EMI); переизд. Naxos Historical",
+      "age_voice": "48 лет; по дайджесту пик — 1920-е — сер. 1930-х, т.е. самый край пика: голос ещё светлый и подвижный, стиль эталонный.",
+      "reputation": "Дайджест характеризует её как эталон стиля; проект уже опирается на эту же сессию по D 118. Внимание: у переизданий этого корпуса задокументирован прецедент вранья метаданных («1945» вместо 1936) — год брать только по матрицам/Грею.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Schumann — HMV-сессии 25–26.11.1936», источник Gray",
+        "MusicBrainz recording a77ff07a-969f-44f6-979b-ce47670c1f6b",
+        "planning/research/singers-digest.md — Schumann Elisabeth",
+        "docs/rules/youtube-performances.md, §«Верификация данных о записях» (прецедент метаданных 1945/1936)"
+      ],
+      "youtube": [
+        { "videoId": "fQvrsxTz33Y", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "duration_s": 180, "note": "альбом Naxos Historical «Schubert Lieder (1927-1945)»" },
+        { "videoId": "gGnhbRHqjRQ", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "duration_s": 178, "note": "альбом «The Art of Schubert Lieder»" },
+        { "videoId": "wo6ss1gSq0M", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": false, "duration_s": 175, "note": "«Lieder von Franz Schubert in historischen Aufnahmen», кредит Moore прямо в метаданных" }
+      ],
+      "note": "Приоритетная певица по правилам, запись подтверждена — сильный кандидат на женское место в пятёрке."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Gerald Moore",
+      "rec_year": 1957,
+      "year_source": "MusicBrainz recording 5008ce8c-92b5-4eb9-a8cd-f52af4525784: vocal/instrument 1957-11-11 – 1957-11-20, «recorded at Abbey Road Studios: Studio 1», продюсер Walter Legge, звукорежиссёры Harold Davidson и Douglas Larter. Реестр проекта относит корпус «15 Lieder» к сессиям 1957–1969, что согласуется.",
+      "album": "Schubert: 15 Lieder (EMI); в «The Complete Recitals on Warner Classics» (11 CD, 2018); также «Les Introuvables de Christa Ludwig» (1991)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "29 лет; ранний расцвет (пик по дайджесту ~1957–1975) — тёмный, ровный, очень свежий меццо.",
+      "reputation": "Тот же круг сессий EMI с Муром/Парсонсом дал у klassik-prisma 5-звёздную Gretchen; Людвиг — приоритетная певица по правилам проекта. Отдельной рецензии на трек не найдено.",
+      "sources": [
+        "MusicBrainz recording 5008ce8c-92b5-4eb9-a8cd-f52af4525784",
+        "planning/youtube/albums.md — карточка «Christa Ludwig — Schubert: 15 Lieder / The Complete Recitals on Warner Classics»",
+        "planning/research/singers-digest.md — Ludwig Christa"
+      ],
+      "youtube": [
+        { "videoId": "jth3K9brloo", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 236, "note": "«The Complete Recitals on Warner Classics»" },
+        { "videoId": "Q1CguxptfJU", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 236, "note": "«Schubert: 15 Lieder» — тот же мастер" }
+      ],
+      "note": "Заметно медленнее всех (3:56 против типичных 3:00–3:15) — при ранжировании стоит взвесить, не тяжелит ли темп подчёркнуто лёгкую «рыбацкую» песню."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": 1983,
+      "year_source": "Реестр альбомов: «Popp — Schubert Lieder (EMI, зап. 1–6.11.1983, Abbey Road; изд. 1984)»; в проекте этот альбом уже опубликован с годом 1983 (performances.json: «Popp — Gage», 1983). Topic-загрузка XVduDHmLwuY (сборник «Icon: Lucia Popp», ℗1984) — подтверждение лейбла, не даты.",
+      "album": "Schubert Lieder (EMI, 1984); переизд. «Icon: Lucia Popp»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "44 года; пик по дайджесту ~1970–1988 — голос в полном порядке, серебристый.",
+      "reputation": "Приоритетная певица по правилам; альбом — её главный сольный шубертовский рецитал. Прецедент проекта: у Попп качество проверяется отдельно (в D 118 её запись отсеяна несмотря на приоритет).",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Popp — Schubert Lieder (EMI, зап. 1–6.11.1983)»",
+        "planning/research/singers-digest.md — Popp Lucia",
+        "app/src/data/performances.json — сквозной год альбома 1983"
+      ],
+      "youtube": [
+        { "videoId": "XVduDHmLwuY", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true, "duration_s": 203 }
+      ],
+      "note": "Год унифицирован с уже опубликованными песнями того же альбома."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Erik Werba",
+      "rec_year": 1958,
+      "year_source": "MusicBrainz recording 3dd016d5-0f0f-4a29-8707-7b071b42753f: 1958-05-30 – 1958-06-08, «recorded at Brahms-Saal» (Вена). Совпадает с карточкой реестра «Seefried — Schubert-Lieder LP (DG 136 009, зап. 30.05 + 3, 7–8.06.1958)», источник — дискография Грея.",
+      "album": "Schubert-Lieder (DG 136 009); переизд. «Irmgard Seefried — Lieder» (2007), Eloquence",
+      "label": "Deutsche Grammophon",
+      "age_voice": "39 лет; пик по дайджесту — конец 1940-х — начало 1960-х. Голос тёплый, дикция и характер — её сильная сторона.",
+      "reputation": "Опорный шубертовский LP Зеефрид; проект уже использует эти сессии в других песнях с годом 1958.",
+      "sources": [
+        "MusicBrainz recording 3dd016d5-0f0f-4a29-8707-7b071b42753f",
+        "planning/youtube/albums.md — карточка «Seefried — Schubert-Lieder LP (DG 136 009)» [Gray]",
+        "app/src/data/performances.json — «Seefried — Werba», 1958"
+      ],
+      "youtube": [
+        { "videoId": "w7GFQypxqbw", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true, "duration_s": 206 }
+      ],
+      "note": "На канале Seefried-Topic есть ещё варианты 196/205/221 с — разные переиздания/дубли; сверять по длительности 206 с (совпадает с MB)."
+    },
+    {
+      "singer": "Gundula Janowitz",
+      "pianist": "Irwin Gage",
+      "rec_year": 1977,
+      "year_source": "Реестр альбомов: «Janowitz — Schubert: Lieder, 4-LP свод (DG 2713 012 + 2530 858), сессии 28.09–01.10.1976 и IX + 1–4.12.1977, Studio Lankwitz, Берлин» [Gray], продюсер Cord Garben; сквозной год альбома в проекте — 1977 (performances.json). Topic-загрузка Qo83D2TOFVE: «Schubert: Lieder», ℗1978 — подтверждение лейбла.",
+      "album": "Schubert: Lieder, 4-LP свод DG 2713 012 / 2530 858; CD-переизд. DG 453 082-2",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~39–40 лет; пик по дайджесту ~1965–1980 — инструментально ровное, «серебряное» сопрано.",
+      "reputation": "Серия дважды удостоена Deutscher Schallplattenpreis (реестр проекта); Gretchen из этого же свода — 5 звёзд klassik-prisma (дайджест).",
+      "sources": [
+        "planning/youtube/albums.md — карточка свода Janowitz/Gage [Gray]",
+        "planning/research/singers-digest.md — Janowitz Gundula",
+        "MusicBrainz recording 352feb7d-784c-4d14-a1c1-1709a85eaf87 (без дат)"
+      ],
+      "youtube": [
+        { "videoId": "Qo83D2TOFVE", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 205 }
+      ],
+      "note": "Сильнейший женский «мейнстрим»-кандидат наряду с Людвиг и Попп."
+    },
+    {
+      "singer": "Gundula Janowitz",
+      "pianist": "Charles Spencer",
+      "rec_year": 1989,
+      "year_source": "MusicBrainz recording 3144b28c-5b9b-43f7-9da6-109197064ad8: vocal/instrument 1989. Реестр проекта: «Gundula Janowitz — Schubert: 15 Lieder (Nuova Era 6860), издание 1990, дата сессии не документирована» — MB даёт 1989, но без площадки; считать ориентиром.",
+      "album": "Schubert: 15 Lieder (Nuova Era 6860, изд. 1990); переизд. Brilliant «The Masterworks» (2004)",
+      "label": "Nuova Era",
+      "age_voice": "~52 года; конец карьеры (со сцены ушла в начале 1990-х), голос суше свода 1976–77.",
+      "reputation": "Позднее переосмысление; критической репутации уровня DG-свода не имеет.",
+      "sources": [
+        "MusicBrainz recording 3144b28c-5b9b-43f7-9da6-109197064ad8",
+        "planning/youtube/albums.md — карточка Nuova Era 6860"
+      ],
+      "youtube": [
+        { "videoId": "1umK7_VVEmc", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 212, "note": "ВНИМАНИЕ: это иная позиция — «The Last Recital: In Memoriam Maria Callas (Live)» (изд. 2017), т.е. третья, концертная версия Яновиц; к Nuova Era отношения не имеет" }
+      ],
+      "note": "По правилу «при прочих равных — более ранняя» уступает своду 1977. Живой вариант 2017 г. издания — отдельная запись с неустановленной датой концерта."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": 1973,
+      "year_source": "MusicBrainz recording 2f522e51-818f-449e-ba11-324c4d839802: vocal/instrument 1973-08, «recorded at Concertgebouw», продюсер Wilhelm Hellweg. Topic-загрузка 0teEeUsHq58 — альбом «Schumann, Schubert: Lieder», ℗1974 (подтверждение лейбла и года издания).",
+      "album": "Philips-рецитал с Baldwin (изд. 1974); переизд. «Schubert: Lieder — Ave Maria», «Philips Classics: The Stereo Years» (2016), Eloquence «The Philips Recitals»",
+      "label": "Philips (Universal)",
+      "age_voice": "40 лет; пик по дайджесту ~1965–1985 — самая записываемая шубертианка поколения, ровная техника, светлый тон.",
+      "reputation": "Серия Philips с Болдуином — референсный женский шубертовский корпус 1970-х (дайджест). Отдельных рецензий на номер не найдено.",
+      "sources": [
+        "MusicBrainz recording 2f522e51-818f-449e-ba11-324c4d839802",
+        "planning/research/singers-digest.md — Ameling Elly",
+        "YouTube Topic 0teEeUsHq58 (℗1974 Philips)"
+      ],
+      "youtube": [
+        { "videoId": "0teEeUsHq58", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 190 },
+        { "videoId": "lKxYSSXv3tw", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": false, "duration_s": 188, "note": "тот же мастер на переиздании «Ave Maria»" }
+      ],
+      "note": "Кандидат второго ряда среди женщин — уступает приоритетным (Schumann, Ludwig, Popp), но качественно очень ровен."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Jacqueline Bonneau",
+      "rec_year": 1950,
+      "year_source": "MusicBrainz recording 72528eae-6049-409e-94a9-98454318e1e2: instrument «Jacqueline Robin» (= Bonneau) 1950-07. Реестр проекта по этому рециталу: «Souzay — Recital (Schubert/Fauré) (Decca LXT 2543 / London LLP 245, зап. ~1950)», US-изд. 1951; в performances.json альбом опубликован с осторожным годом «1950–52?».",
+      "album": "Recital: Schubert / Fauré (Decca LXT 2543 / London LLP 245); переизд. Naxos «Vocal Recital: Souzay — Schubert, Fauré (1950)», «Schubert: Lieder / Schumann: Dichterliebe» (1994)",
+      "label": "Decca; переизд. Naxos Historical",
+      "age_voice": "~32 года; ранний «шёлковый» период (пик по дайджесту 1950-е — сер. 1960-х), голос самый свежий.",
+      "reputation": "Ранний Сузе ценится за красоту тона; печатных оценок номера не найдено.",
+      "sources": [
+        "MusicBrainz recording 72528eae-6049-409e-94a9-98454318e1e2",
+        "planning/youtube/albums.md — карточка «Souzay — Recital (Schubert/Fauré), Decca LXT 2543»",
+        "app/src/data/performances.json — действующий сквозной год «1950–52?»"
+      ],
+      "youtube": [
+        { "videoId": "gsYd20PnauM", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true, "duration_s": 180 },
+        { "videoId": "R3DjQmL4UtU", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": false, "duration_s": 180, "note": "дубль того же мастера" }
+      ],
+      "note": "ЗАДАЧА НА СВЕРКУ ГОДА: MB даёт точное 1950-07 для этой самой записи, тогда как в корпусе альбом идёт как «1950–52?». Либо уточнять весь альбом до 1950, либо сохранить действующую сквозную форму — решать на этапе публикации, не в этой песне в одиночку."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": 1996,
+      "year_source": "MusicBrainz recording 31dfe28d-ccf7-487c-bd20-db472839f413: 1996-02 – 1996-03, «recorded at Abbey Road Studios: Studio 1», продюсер John Fraser. Совпадает с карточкой реестра «Bostridge — Schubert Lieder [Vol. 1] (EMI 7243 5 56347 2 6, зап. февр.–март 1996, Abbey Road Studio 1, изд. 1998)».",
+      "album": "Schubert Lieder, Vol. 1 (EMI, изд. 1998); переизд. «Schubert: 25 Lieder» (2005)",
+      "label": "EMI Classics / Warner Classics",
+      "age_voice": "31–32 года; ранний Бостридж — по дайджесту сильнейшая ранняя работа, до поздней «манерности».",
+      "reputation": "Реестр проекта: дебютный студийный рецитал, «считается сильнейшей ранней работой». По правилу скепсиса к прессе о современных — конкретных цитат с независимой оценкой номера не найдено.",
+      "sources": [
+        "MusicBrainz recording 31dfe28d-ccf7-487c-bd20-db472839f413",
+        "planning/youtube/albums/*.md — карточка «Bostridge — Schubert Lieder [Vol. 1]»",
+        "planning/research/singers-digest.md — Bostridge Ian"
+      ],
+      "youtube": [
+        { "videoId": "WySaKDAob24", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "duration_s": 193 }
+      ],
+      "note": "Один из немногих кандидатов «не ранее 1990» с солидной репутацией."
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": 2005,
+      "year_source": "Реестр альбомов: «Gerhaher — Abendbilder (RCA Red Seal 82876777162, зап. 18–21.09.2005, HfMT München, изд. 2005/2006)». MusicBrainz recording 2ba9f99d-25a5-4fbb-af35-f5201f57ffbb — релиз «Abendbilder» 20.01.2006, дат сессии нет. Topic-загрузка FfqBEYh_zLk: альбом «Schubert: Abendbilder», ℗2006.",
+      "album": "Abendbilder — Lieder von Franz Schubert (RCA Red Seal)",
+      "label": "RCA Red Seal / Sony",
+      "age_voice": "36 лет; начало зрелого пика (~2000–наст.), баритон светлый, дикция — его визитная карточка.",
+      "reputation": "Альбом отмечен Gramophone Award 2006 (Solo vocal) и Preis der deutschen Schallplattenkritik 2006 (реестр альбомов проекта). Дайджест предупреждает: пресса называет Герхаэра «высшим текстовиком современности» — фильтровать по правилу о пиаре.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Gerhaher — Abendbilder»",
+        "MusicBrainz recording 2ba9f99d-25a5-4fbb-af35-f5201f57ffbb",
+        "planning/research/singers-digest.md — Gerhaher Christian"
+      ],
+      "youtube": [
+        { "videoId": "FfqBEYh_zLk", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true, "duration_s": 172 }
+      ],
+      "note": "Самый быстрый из всех прочтений (2:52) — трактовка подчёркнуто лёгкая, «на ходу»."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": 2012,
+      "year_source": "Реестр альбомов: «Matthias Goerne — Schubert: Erlkönig — Goerne Schubert Edition, Vol. 7 (HMC 902141), запись январь 2012, Teldex Studio Берлин, издание 25.02.2013; продюсер Martin Sauer, инженер René Möller». MusicBrainz recording c36fa8ad-83cc-4dac-b477-02e16450aad3 подтверждает релиз 11.02.2013.",
+      "album": "Matthias Goerne Schubert Edition, Vol. 7 «Erlkönig» (HMC 902141)",
+      "label": "harmonia mundi",
+      "age_voice": "44–45 лет; пик по дайджесту ~1997–2015, голос тёмный и плотный.",
+      "reputation": "12-томный свод Гёрне — крупнейший сольный шубертовский корпус последних десятилетий (дайджест). Отдельной оценки номера не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточки тома 7 «Erlkönig»",
+        "MusicBrainz recording c36fa8ad-83cc-4dac-b477-02e16450aad3",
+        "planning/research/singers-digest.md — Goerne Matthias"
+      ],
+      "youtube": [
+        { "videoId": "XDHi8uE6e4c", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "duration_s": 178 }
+      ],
+      "note": "Кандидат «не ранее 1990»; вопрос при ранжировании — не слишком ли тяжёл его тембр для жанровой лёгкости песни."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": null,
+      "year_source": "Год сессии НЕ установлен. MusicBrainz recording 02724753-d0a1-4aca-bf03-f8c31528b4e3 — только релиз «Lieder Recital» 2016; реестр проекта: «Boesch — Lieder Recital (Onyx Classics ONYX4149, изд. 20.05.2016 [MB])» — тоже дата издания. В проекте альбом уже используется по D 225, D 257, D 805, D 806 с годом 2016 (год издания).",
+      "album": "Schubert: Lieder Recital (ONYX 4149), 24 песни",
+      "label": "Onyx Classics",
+      "age_voice": "~44–45 лет; пик по дайджесту ~2010–наст.; «рассказчик венской школы».",
+      "reputation": "Дайджест: венская повествовательная манера; независимых оценок номера не найдено, к пиару современных — скепсис по правилам.",
+      "sources": [
+        "MusicBrainz recording 02724753-d0a1-4aca-bf03-f8c31528b4e3",
+        "planning/youtube/albums.md — карточка «Florian Boesch — Schubert: Lieder Recital (ONYX 4149)»",
+        "planning/research/singers-digest.md — Boesch Florian"
+      ],
+      "youtube": [
+        { "videoId": "LiLcvllMi5Q", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true, "duration_s": 177 }
+      ],
+      "note": "Год в плеере — 2016 (издание), сквозная унификация с уже опубликованными песнями этого альбома."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": 2025,
+      "year_source": "MusicBrainz recording 647e8a3c-492f-4077-ac7f-28c5e1bbda51: vocal/instrument 2025-03-25 – 2025-03-29, «recorded at b-sharp» (Берлин), продюсер/звук/сведение Philipp Nedel; релиз «Hoffnung» 17.04.2026. Совпадает с карточкой реестра «Hasselhorn — Schubert 200, т. 3: Hoffnung (1826) (HMM 902779), изд. 17.04.2026».",
+      "album": "Schubert 200, том 3: «Hoffnung» — песни 1826 года (harmonia mundi HMM 902779)",
+      "label": "harmonia mundi",
+      "age_voice": "34–35 лет; молодой пик, свежий лирический баритон.",
+      "reputation": "Серия «Schubert 200» уже отмечена: том 1 (Müllerin, 2023) — Diapason d'or года, том 2 «Licht und Schatten» — Preis der deutschen Schallplattenkritik (дайджест). Тома 3 отзывов пока нет; по правилу скепсиса к современному пиару — не переоценивать.",
+      "sources": [
+        "MusicBrainz recording 647e8a3c-492f-4077-ac7f-28c5e1bbda51",
+        "planning/youtube/albums/*.md — карточка «Hasselhorn — Schubert 200, т. 3: Hoffnung (1826)»",
+        "planning/research/singers-digest.md — Hasselhorn Samuel"
+      ],
+      "youtube": [
+        { "videoId": "MDfbpGjkYMo", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true, "duration_s": 180 }
+      ],
+      "note": "Единственный реальный кандидат на слот «не ранее 2015»: D 881 сочинена в 1826 — ровно репертуар этого тома. Качество требует прослушивания, не пресс-релиза."
+    },
+    {
+      "singer": "Georg Nigl",
+      "pianist": "Olga Pashchenko (хаммерклавир)",
+      "rec_year": 2020,
+      "year_source": "MusicBrainz recording a8ab1c7f-6f07-4b9e-9e87-3e8a051bf4e9: vocal/instrument 2020-02, «recorded at Temple Manin», продюсер/монтаж Franck Jaffrès; релиз «Vanitas» 13.11.2020.",
+      "album": "Vanitas (Schubert / Beethoven и др.)",
+      "label": "Alpha Classics",
+      "age_voice": "зрелый период (год рождения по доступным источникам не подтверждён; в дайджесте карточки нет — Nigl числится в «резерве»).",
+      "reputation": "Историческое фортепиано + декламационная манера Нигля; независимых оценок номера не найдено.",
+      "sources": [
+        "MusicBrainz recording a8ab1c7f-6f07-4b9e-9e87-3e8a051bf4e9",
+        "planning/research/singers-digest.md — раздел «Резерв» (Nigl упомянут без карточки)"
+      ],
+      "youtube": [
+        { "videoId": "2q4D6QN2Kgo", "channel": "Georg Nigl - Topic", "official": true, "oembed_ok": true, "duration_s": 178 }
+      ],
+      "note": "Периодная альтернатива; в пятёрку попадёт только при явном художественном превосходстве."
+    },
+    {
+      "singer": "Stephen Varcoe",
+      "pianist": "Graham Johnson",
+      "rec_year": 1987,
+      "year_source": "MusicBrainz recording 77e3a1ec-aef1-4bfa-a4bb-b237a630001d: 1987-10-17 – 1987-10-18, продюсер Mark Brown, звук Antony Howell; релиз «The Hyperion Schubert Edition, Volume 2: Schubert's Water Songs» — XII.1988. Hyperion (dc.asp?dc=D_CDJ33002) подтверждает сессии октября 1987 (Seldon Hall) и издание декабря 1988.",
+      "album": "The Hyperion Schubert Edition, Vol. 2: Schubert's Water Songs (CDJ33002)",
+      "label": "Hyperion",
+      "age_voice": "зрелый Варко; в дайджесте карточки нет (певец издания, не звезда фонда).",
+      "reputation": "Издание Хайпериона — «научный эталон» с комментариями Грэма Джонсона (дайджест, раздел сквозных изданий). Художественно Варко считается певцом издания, а не рекордсменом.",
+      "sources": [
+        "MusicBrainz recording 77e3a1ec-aef1-4bfa-a4bb-b237a630001d",
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33002 (сессии X.1987, Seldon Hall; изд. XII.1988)",
+        "planning/research/singers-digest.md — Hyperion Schubert Edition"
+      ],
+      "youtube": [
+        { "videoId": "7q7ZEXCPlNc", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "duration_s": 212, "note": "official audio опубликован под каналом пианиста, не певца" }
+      ],
+      "note": "Ценность прежде всего справочная (комментарий Джонсона); в топ-5 — только если пятёрка не наберётся сильными именами."
+    },
+    {
+      "singer": "Ernst Haefliger",
+      "pianist": "Jörg Ewald Dähler (хаммерклавир ок. 1820)",
+      "rec_year": 1986,
+      "year_source": "MusicBrainz recording 52bbdba1-7e85-4c86-879a-4ce230e17439: 1986-07, «recorded at Kirche Wohlen bei Bern». Совпадает с реестром: «Ernst Haefliger — Schubert: 23 ausgewählte Lieder (Claves CD 50-8611), июль 1986, издание 1987».",
+      "album": "Schubert: 23 ausgewählte Lieder (Claves CD 50-8611)",
+      "label": "Claves",
+      "age_voice": "66–67 лет; далеко за пиком (пик 1950–60-е) — дайджест прямо отмечает «голос уже сухой», ценность — скрупулёзность и периодный инструмент.",
+      "reputation": "Позднее прочтение мастера баховской школы; критической репутации уровня студийных классиков не имеет.",
+      "sources": [
+        "MusicBrainz recording 52bbdba1-7e85-4c86-879a-4ce230e17439",
+        "planning/youtube/albums.md — карточка «Ernst Haefliger — Schubert: 23 ausgewählte Lieder (Claves CD 50-8611)»",
+        "planning/research/singers-digest.md — Haefliger Ernst"
+      ],
+      "youtube": [
+        { "videoId": "e9RBm_klCqA", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true, "duration_s": 177 }
+      ],
+      "note": "Возраст голоса — главный аргумент против включения."
+    },
+    {
+      "singer": "Nathalie Stutzmann",
+      "pianist": "Inger Södergren",
+      "rec_year": 2005,
+      "year_source": "MusicBrainz recording c0f8f524-cd52-4d05-8329-e181b45530a8: 2005-06, «recorded at Salle de Musique»; издано в составе «Schwanengesang» (Calliope, 2008) и бокса трёх циклов (Erato, 2014).",
+      "album": "Schwanengesang и добавленные песни (Calliope); бокс трёх циклов (Erato, 2014)",
+      "label": "Calliope / Erato",
+      "age_voice": "~40 лет; пик по дайджесту ~1995–2010, редкое настоящее контральто.",
+      "reputation": "Редкий случай контральто во всём шубертовском корпусе (дайджест); отдельных оценок номера не найдено.",
+      "sources": [
+        "MusicBrainz recording c0f8f524-cd52-4d05-8329-e181b45530a8",
+        "planning/research/singers-digest.md — Stutzmann Nathalie"
+      ],
+      "youtube": [
+        { "videoId": "zYse2T2W2v0", "channel": "Nathalie Stutzmann - Topic", "official": true, "oembed_ok": true, "duration_s": 191 }
+      ],
+      "note": "Тембровая экзотика; в пятёрке конкурирует с более сильными женскими именами."
+    },
+    {
+      "singer": "Siegfried Lorenz",
+      "pianist": "Norman Shetler",
+      "rec_year": 1976,
+      "year_source": "MusicBrainz recording a4932e03-9cc5-4c08-a8e5-00711de99832: 1976-10, «recorded at Lukaskirche» (Дрезден). Уточняет реестр, где для Eterna-серии Лоренца/Шетлера год «не установлен (соседние тома серии 1978–1983)».",
+      "album": "Eterna-серия Lieder (переизд. Berlin Classics, 2007)",
+      "label": "Eterna / Berlin Classics",
+      "age_voice": "молодой Лоренц (карточки в дайджесте нет).",
+      "reputation": "Восточногерманская школа, добротно; международной критической репутации не выявлено.",
+      "sources": [
+        "MusicBrainz recording a4932e03-9cc5-4c08-a8e5-00711de99832",
+        "planning/youtube/albums.md — карточка «Siegfried Lorenz — Schubert: Lieder nach Goethe 2 (Eterna)»"
+      ],
+      "youtube": [],
+      "note": "Отдельного ролика именно Fischerweise на Topic-канале Лоренца в выдаче не найдено."
+    },
+    {
+      "singer": "Vesselina Kasarova",
+      "pianist": "Friedrich Haider",
+      "rec_year": null,
+      "year_source": "Год сессии не установлен; MusicBrainz recording 6819b88a-de15-4501-8d4c-569c3a1e88b3 даёт только релиз 09.11.1999.",
+      "album": "Schubert: Lieder (изд. 1999)",
+      "label": "RCA Red Seal (по метаданным Topic-загрузки — требует проверки)",
+      "age_voice": "конец 1990-х — пик Касаровой (карточки в дайджесте нет).",
+      "reputation": "Оперная манера в Lieder; критической репутации в шубертовском контексте не выявлено.",
+      "sources": [
+        "MusicBrainz recording 6819b88a-de15-4501-8d4c-569c3a1e88b3",
+        "planning/youtube/data/d881-fischerweise.yt.json — ролик sSxpRwMylOw на «Vesselina Kasarova - Topic»"
+      ],
+      "youtube": [
+        { "videoId": "sSxpRwMylOw", "channel": "Vesselina Kasarova - Topic", "official": true, "oembed_ok": false, "duration_s": 169 }
+      ],
+      "note": "Периферийный кандидат."
+    },
+    {
+      "singer": "Monica Groop",
+      "pianist": "Rudolf Jansen",
+      "rec_year": 1996,
+      "year_source": "MusicBrainz recording 97596428-4c71-424c-b389-0c0d4882b50b: 1996-08, «recorded at Järvenpää-talo: Sibelius-sali», продюсеры Reijo Kiilunen, Seppo Siirala (характерный состав Ondine).",
+      "album": "Schubert: Lieder (изд. 1996)",
+      "label": "Ondine (по составу продюсеров; в MB лейбл не указан)",
+      "age_voice": "не исследовано (в дайджесте карточки нет).",
+      "reputation": "Не выявлена.",
+      "sources": [
+        "MusicBrainz recording 97596428-4c71-424c-b389-0c0d4882b50b"
+      ],
+      "youtube": [],
+      "note": "Периферия; ролика не искал целенаправленно."
+    },
+    {
+      "singer": "Sophie Rennert",
+      "pianist": "Graham Johnson",
+      "rec_year": null,
+      "year_source": "Не установлен — видео на собственном канале певицы, дискографической привязки нет.",
+      "album": "—",
+      "label": "—",
+      "age_voice": "не исследовано.",
+      "reputation": "Не выявлена.",
+      "sources": [
+        "planning/youtube/data/d881-fischerweise.yt.json — Rb96imk_izc"
+      ],
+      "youtube": [
+        { "videoId": "Rb96imk_izc", "channel": "Sophie Rennert", "official": true, "oembed_ok": false, "duration_s": 208 }
+      ],
+      "note": "Концертное видео без дискографии — по правилам проекта в топ-5 не годится."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. MusicBrainz-поиск recording:Fischerweise AND artist:Quasthoff — 0 результатов; в списке 36 записей произведения (MB work 8ed894c8) его нет. Косвенно: дайджест перечисляет всю его закрытую шубертовскую дискографию (6 альбомов — Goethe-Lieder RCA 1993/95, Winterreise 1998, Schwanengesang 2001, Lieder с оркестром 2003, Müllerin 2005, Winterreise-фильм 2005); D 881 (Шлехта, вне циклов и вне Гёте) ни в один из них не входит.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ, минимум пять раз: с Муром — EMI, сессия 24.02–01.03.1965 (MB a4dda6f1) и DG-свод, март 1969 (MB 3f64ee3e); с Бриттеном — лайв Snape Maltings 08.06.1972 (MB 2213b1b6); с Рихтером — Тур, 2–4.07.1977 (MB fa6b8978) и Зальцбург, 29.08.1977 (MB a04b6c73); поздняя версия с Хартмутом Хёллем (Warner/Erato, ℗1995, год сессии не установлен — Topic Yxah11Wukio).",
+    "Elisabeth Schwarzkopf": "НЕ найдено. MusicBrainz-поиск recording:Fischerweise AND artist:Schwarzkopf — 0 результатов; в 36 записях произведения её нет. В реестре альбомов её шубертовские позиции (рецитал с Эдвином Фишером 1952, 78-е с Муром 1948–54, зальцбургские лайвы) Fischerweise не содержат — но содержание Columbia 33CX 1044 / SAX 5268 в реестре помечено «?», так что полной уверенности нет.",
+    "Hans Hotter": "НЕ найдено. MusicBrainz-поиск — 0 результатов. Реестр альбомов расписывает шубертовский срез его Columbia-рециталов 1956/57 (An die Musik, Ständchen, Abschied, Im Frühling, Der Lindenbaum, Wanderers Nachtlied II) и военные радиозаписи с Раухайзеном — Fischerweise нигде не значится.",
+    "Peter Anders": "НЕ найдено. MusicBrainz-поиск — 0 результатов. По дайджесту его шубертовское наследие — Winterreise (RRG 1945) и две Müllerin (1945, 1948); отдельных песен уровня D 881 не задокументировано.",
+    "Elisabeth Schumann": "ЗАПИСЫВАЛА: HMV, сессия 25–26.11.1936 с Джеральдом Муром (реестр альбомов проекта по дискографии Майкла Грея — Fischerweise прямо в списке сторон сессии; MB a77ff07a даёт 1936-11-26). Та же сессия, что её Gretchen D 118.",
+    "Christa Ludwig": "ЗАПИСЫВАЛА: EMI, Abbey Road Studio 1, 11–20.11.1957, Джеральд Мур, продюсер Уолтер Легге (MB 5008ce8c); альбом «Schubert: 15 Lieder», ныне в боксе «The Complete Recitals on Warner Classics».",
+    "Lucia Popp": "ЗАПИСЫВАЛА: EMI, Abbey Road, сессии 1–6.11.1983, Ирвин Гейдж (реестр альбомов проекта; альбом изд. 1984, переизд. «Icon: Lucia Popp»). MB (5b19af36) подтверждает состав, без даты."
+  },
+  "albums_facts": [
+    { "album": "Schubert: Lieder — DG «Sämtliche Lieder» (свод 1966–72, 21 CD)", "singer": "Dietrich Fischer-Dieskau", "year": 1969, "label": "Deutsche Grammophon", "facts": "Сессия Fischerweise — март 1969 (MB recording-rels); продюсеры Otto Gerdes и Rainer Brock, звук Hans-Peter Schweigmann; ℗1969 DG. Свод покрывает все ~400 мужских песен — сквозной кандидат для любой мужской песни корпуса.", "covers_more_pilot_songs": true },
+    { "album": "Schubert: 21 Lieder (EMI/Electrola)", "singer": "Dietrich Fischer-Dieskau", "year": 1965, "label": "EMI / Electrola", "facts": "MB уточняет сессию до 24.02–01.03.1965 — в реестре проекта у этой карточки сессия значилась как «не установлена». Это находка, которую стоит внести в albums.md.", "covers_more_pilot_songs": true },
+    { "album": "Schubert: Lieder — лайв Snape Maltings (Decca/BBC, изд. 1999)", "singer": "Dietrich Fischer-Dieskau", "year": 1972, "label": "Decca / BBC", "facts": "Концерт Олдебургского фестиваля 08.06.1972, за роялем Бенджамин Бриттен, продюсер BBC Richard Butt. НОВАЯ позиция для реестра альбомов.", "covers_more_pilot_songs": true },
+    { "album": "Schubert: Lieder — лайв Тур (DG, ℗1978)", "singer": "Dietrich Fischer-Dieskau", "year": 1977, "label": "Deutsche Grammophon", "facts": "Grand Théâtre de Tours, 2–4.07.1977; Святослав Рихтер, продюсер Cord Garben, звук Heinz Wildhagen. Отдельно существует зальцбургский концерт того же лета — Haus für Mozart, 29.08.1977 (изд. 1993). НОВАЯ позиция для реестра.", "covers_more_pilot_songs": true },
+    { "album": "HMV-сессии 25–26.11.1936 (DA 1541/1545/1546/1547)", "singer": "Elisabeth Schumann", "year": 1936, "label": "HMV; переизд. Naxos Historical 8.110731, Warner «Icon»", "facts": "Fischerweise прямо в перечне сторон сессии (реестр по дискографии Грея), пианист Gerald Moore; та же сессия дала Gretchen D 118. Прецедент проекта: даты этого корпуса врут в метаданных переизданий — проверять по матрицам.", "covers_more_pilot_songs": true },
+    { "album": "Schubert: 15 Lieder / The Complete Recitals on Warner Classics", "singer": "Christa Ludwig", "year": 1957, "label": "EMI / Warner Classics", "facts": "Сессия Fischerweise — 11–20.11.1957, Abbey Road Studio 1, Gerald Moore, продюсер Walter Legge, звук Harold Davidson и Douglas Larter (MB). Уточняет реестр, где корпус датирован широко «1957–1969».", "covers_more_pilot_songs": true },
+    { "album": "Schubert Lieder (EMI, изд. 1984; переизд. «Icon»)", "singer": "Lucia Popp", "year": 1983, "label": "EMI / Warner Classics", "facts": "Сессии 1–6.11.1983, Abbey Road, Irwin Gage; альбом уже в реестре и опубликован в корпусе с годом 1983.", "covers_more_pilot_songs": true },
+    { "album": "Schubert-Lieder LP (DG 136 009)", "singer": "Irmgard Seefried", "year": 1958, "label": "Deutsche Grammophon", "facts": "MB даёт сессионный диапазон 30.05–08.06.1958 и площадку Brahms-Saal (Вена) — совпадает с реестром (30.05 + 3, 7–8.06.1958 по Грею) и уточняет зал.", "covers_more_pilot_songs": true },
+    { "album": "Schubert: Lieder, 4-LP свод DG 2713 012 / 2530 858", "singer": "Gundula Janowitz", "year": 1977, "label": "Deutsche Grammophon", "facts": "Сессии 28.09–01.10.1976 и IX + 1–4.12.1977, Studio Lankwitz, Берлин; Irwin Gage, продюсер Cord Garben; серия дважды получала Deutscher Schallplattenpreis. Сквозной год в корпусе — 1977.", "covers_more_pilot_songs": true },
+    { "album": "Philips-рецитал Ameling/Baldwin (изд. 1974)", "singer": "Elly Ameling", "year": 1973, "label": "Philips (Universal)", "facts": "Сессия — август 1973, Concertgebouw, продюсер Wilhelm Hellweg (MB); ℗1974. Уточнение к общей карточке «Ameling — Philips-серия с Dalton Baldwin».", "covers_more_pilot_songs": true },
+    { "album": "Recital: Schubert / Fauré (Decca LXT 2543 / London LLP 245)", "singer": "Gérard Souzay", "year": 1950, "label": "Decca; переизд. Naxos Historical", "facts": "MB даёт для Fischerweise точную сессию июль 1950 (пианистка указана девичьей фамилией Jacqueline Robin = Bonneau). В корпусе альбом пока идёт под осторожным «1950–52?» — кандидат на сквозное уточнение.", "covers_more_pilot_songs": true },
+    { "album": "The Hyperion Schubert Edition, Vol. 2: Schubert's Water Songs (CDJ33002)", "singer": "Stephen Varcoe", "year": 1987, "label": "Hyperion", "facts": "Сессии 17–18.10.1987 (MB), Seldon Hall, издание декабрь 1988 (страница Hyperion); продюсер Mark Brown, звук Antony Howell, за роялем Graham Johnson. Fischerweise логично входит в «водную» подборку тома.", "covers_more_pilot_songs": true },
+    { "album": "Schubert Lieder, Vol. 1 (EMI 7243 5 56347 2 6)", "singer": "Ian Bostridge", "year": 1996, "label": "EMI Classics / Warner", "facts": "Февраль–март 1996, Abbey Road Studio 1, Julius Drake, продюсер John Fraser, баланс Jonathan Allen; изд. 1998. Альбом уже в реестре по D 224, D 257, D 768, D 800, D 806, D 807.", "covers_more_pilot_songs": true },
+    { "album": "Abendbilder (RCA Red Seal 82876777162)", "singer": "Christian Gerhaher", "year": 2005, "label": "RCA Red Seal / Sony", "facts": "Сессии 18–21.09.2005, HfMT München; Gerold Huber; Gramophone Award 2006 (Solo vocal) и Preis der deutschen Schallplattenkritik 2006.", "covers_more_pilot_songs": true },
+    { "album": "Goerne Schubert Edition, Vol. 7 «Erlkönig» (HMC 902141)", "singer": "Matthias Goerne", "year": 2012, "label": "harmonia mundi", "facts": "Январь 2012, Teldex Studio Берлин; Andreas Haefliger; продюсер Martin Sauer, инженер René Möller; издание 25.02.2013.", "covers_more_pilot_songs": true },
+    { "album": "Schubert: Lieder Recital (ONYX 4149)", "singer": "Florian Boesch", "year": 2016, "label": "Onyx Classics", "facts": "24 песни с Malcolm Martineau; издание 20.05.2016, год сессии не документирован — в проекте применяется год издания.", "covers_more_pilot_songs": true },
+    { "album": "Schubert 200, том 3: «Hoffnung» (песни 1826) — HMM 902779", "singer": "Samuel Hasselhorn", "year": 2025, "label": "harmonia mundi", "facts": "Сессии 25–29.03.2025, студия b-sharp (Берлин); продюсер/звук/сведение Philipp Nedel, монтаж он же; издание 17.04.2026. НОВОЕ уточнение: в реестре дата сессии стояла как «?».", "covers_more_pilot_songs": true },
+    { "album": "Vanitas (Alpha Classics)", "singer": "Georg Nigl", "year": 2020, "label": "Alpha Classics", "facts": "Февраль 2020, Temple Manin; Ольга Пащенко, историческое фортепиано; продюсер и монтаж Franck Jaffrès; издание 13.11.2020. НОВАЯ позиция для реестра.", "covers_more_pilot_songs": false },
+    { "album": "Schubert: 23 ausgewählte Lieder (Claves CD 50-8611)", "singer": "Ernst Haefliger", "year": 1986, "label": "Claves", "facts": "Июль 1986, Kirche Wohlen bei Bern; Jörg Ewald Dähler, хаммерклавир ок. 1820; издание 1987 — совпадает с реестром.", "covers_more_pilot_songs": true },
+    { "album": "Eterna-серия Lieder (переизд. Berlin Classics 2007)", "singer": "Siegfried Lorenz", "year": 1976, "label": "Eterna / Berlin Classics", "facts": "Октябрь 1976, Lukaskirche (Дрезден), Norman Shetler (MB). УТОЧНЯЕТ реестр, где год серии значился «не установлен (1976–1987)».", "covers_more_pilot_songs": true },
+    { "album": "Schwanengesang + песни (Calliope; бокс трёх циклов Erato 2014)", "singer": "Nathalie Stutzmann", "year": 2005, "label": "Calliope / Erato", "facts": "Июнь 2005, Salle de Musique; Inger Södergren.", "covers_more_pilot_songs": false },
+    { "album": "Schubert: Lieder (Ondine, изд. 1996)", "singer": "Monica Groop", "year": 1996, "label": "Ondine (по составу продюсеров)", "facts": "Август 1996, Järvenpää-talo, Sibelius-sali; Rudolf Jansen; продюсеры Reijo Kiilunen и Seppo Siirala.", "covers_more_pilot_songs": false }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительной страницы по Fischerweise НЕТ: индекс https://www.klassik-prisma.de/Schubert.htm перечисляет симфонии, камерную музыку и отдельные страницы песен (Erlkönig, Auf dem Wasser zu singen, Junge Nonne, Hirt auf dem Felsen, Tartarus, Nacht und Träume), но страницы D 881 в списке нет (проверено WebFetch).",
+    "hyperion-records.co.uk/dc.asp?dc=D_CDJ33002 — страница тома 2 Hyperion Schubert Edition «Schubert's Water Songs» (сессии X.1987, Seldon Hall, изд. XII.1988). Потрековых заметок Грэма Джонсона именно по Fischerweise со страницы извлечь не удалось; страницу произведения на hyperion (tw.asp?w=…) найти без веб-поиска не получилось.",
+    "Gramophone / MusicWeb / BBC Music Magazine — целевых сравнительных обзоров по D 881 в этой сессии найти не удалось: бюджет WebSearch был исчерпан (200/200) до начала работы, а адресные URL этих обзоров неизвестны. ОТКРЫТЫЙ ХВОСТ для доисследования при наличии веб-поиска."
+  ],
+  "negatives": [
+    "Квастхоф, Шварцкопф, Хоттер, Андерс — записей D 881 не найдено (MusicBrainz-поиск по recording+artist даёт 0; ни одного из четверых нет среди 36 записей произведения). Для Шварцкопф оговорка: содержание её сборных Columbia 33CX 1044 / SAX 5268 в реестре проекта помечено «?».",
+    "У Fischer-Dieskau/Moore EMI-1965 (201 с) официальной Topic-загрузки не найдено — на канале FiD-Topic лежат только DG-мастера (193 и 178 с) и поздний вариант с Хёллем (183 с).",
+    "Поздняя версия Fischer-Dieskau с Хартмутом Хёллем (Warner/Erato ℗1995) — год записи дискографически НЕ установлен; по правилу «при прочих равных — более ранняя» уступает 1965 и 1969.",
+    "Ролик Viennapal sBNRO-YLYdI — самый популярный по просмотрам (≈293 тыс.) результат generic-поиска — не имеет установленных исполнителей и не может использоваться.",
+    "Фан-загрузка IpteIfoeDTs подписана «Fischer-Dieskau & Richter (1978)» — 1978 это ℗-год DG, а концерт был в июле 1977 (Тур). Метаданные загрузок как источник даты не годятся (правило проекта).",
+    "У Janowitz три разные записи песни (свод DG 1976–77 с Gage; Nuova Era 1989 с Spencer; концертный «The Last Recital: In Memoriam Maria Callas», изд. 2017) — Topic-ролики легко перепутать; различать по длительности 205 / — / 212 с.",
+    "У Seefried на Topic-канале минимум четыре ролика Fischerweise с разной длительностью (196, 205, 206, 221 с) — сессии 1958 соответствует 206 с (MB).",
+    "Сквозной год альбома Souzay/Bonneau: в корпусе стоит «1950–52?», MB для этой записи даёт июль 1950 — расхождение нужно закрывать по всему альбому, а не в одной песне."
+  ]
+}

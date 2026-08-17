@@ -2,465 +2,463 @@
   "d": "917",
   "title": "Das Lied im Grünen",
   "tier": "famous",
-  "research_note": "Бюджет WebSearch сессии был исчерпан до начала работы (200/200), поисковые системы из контейнера недоступны (DuckDuckGo/Brave/Mojeek — 403/429/пусто). Поэтому дискографический каркас построен на: (а) MusicBrainz work-relations (у связей work↔recording проставлены ДАТЫ СЕССИЙ — begin/end), (б) Discogs API (release notes с датами сессий и кредитами), (в) страница альбома Hyperion, (г) каталог Naxos, (д) дайджест певцов. Метаданные YouTube-Topic использованы ТОЛЬКО для идентификации альбома/состава, не как источник дат (прямой прецедент: Topic для записи Э. Шуман даёт 1928, тогда как MusicBrainz-сессия — 07.11.1932). Сравнительных обзоров именно по D 917 найти не удалось (см. surveys/negatives).",
+  "method_note": "Опорного сравнительного обзора именно по D 917 не существует: индекс шубертовских Vergleich-страниц klassik-prisma (https://www.klassik-prisma.de/Schubert.htm) содержит 9 позиций (D 774, D 965, D 828, D 328, D 118, D 583, D 827, D 795, D 911) — D 917 среди них нет; klassik-prisma.de/Schubert/lied_im_gruenen.htm отдаёт 404. Поэтому пул собран из трёх независимых слоёв: (1) каркас MusicBrainz по work 6529005c-1b6d-3d0f-ade8-9f287ae04be0 (22 записи); (2) дискография Майкла Грея (classical-discography.org, POST-поиск composer=Schubert, work='Lied im Gr%' — 6 позиций с точными сессиями и матрицами, плюс адресные запросы по исполнителям и номерам LP); (3) целевой поиск YouTube через yt-dlp с чтением метаданных официальных Topic-загрузок (состав и лейбл — да, годы — нет). Даты сессий взяты ТОЛЬКО из Грея, буклетов (Discogs notes) и страниц Hyperion; ℗-годы и release_date в YouTube-метаданных как источник дат не использовались. Бюджет WebSearch сессии был исчерпан до начала работы — поэтому пресс-обзоры (Gramophone/MusicWeb/BBC MM) добыты через прямые фетчи страниц Hyperion, а не через поисковую выдачу; это ограничение честно отражено в поле reputation тех кандидатов, по которым отдельной критики найти не удалось.",
   "candidates": [
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Edwin Fischer",
+      "rec_year": 1952,
+      "year_source": "Дискография Майкла Грея, запись id 58917: «Das Lied im Grünen, D917 — 1952 October 5 — London, EMI Studio No. 1A, Abbey Road — Columbia (UK) — 33CX1040 — Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano». Совпадает с карточкой реестра проекта (albums.md: сессии диска 4–7 октября 1952, D 162 — 5 октября). LP 33CX 1040 выпущен в 1954 (Discogs 11120503), поэтому год издания и год сессии различать обязательно.",
+      "album": "Schubert Song Recital (Columbia 33CX 1040); переизд. EMI CDH 7 64026 2, Naxos Historical 8.111287 (реставрация Mark Obert-Thorn), Warner «Complete Recitals 1952–1974»",
+      "label": "Columbia (UK) / EMI → Warner Classics; Naxos Historical",
+      "age_voice": "37 лет; по дайджесту проекта пик Шварцкопф — 1948–1964, то есть запись сделана в самой сердцевине формы: голос ещё полнокровный, но уже с полностью сложившейся Lieder-техникой. Партнёр — Эдвин Фишер, один из великих пианистов века, для которого это единственный студийный шубертовский рецитальный диск с певицей.",
+      "reputation": "Дайджест фонда проекта (planning/research/singers-digest.md) прямо называет рецитал с Эдвином Фишером (EMI, окт. 1952) «эталоном» и отмечает, что номер из этого же диска стал со-победителем слепого теста 2020 по D 118. Отдельной критики именно по D 917 найти не удалось (см. method_note об исчерпанном бюджете поиска), поэтому репутация зафиксирована на уровне альбома, а не трека. Длительность 4'34 против 5'05–5'25 у большинства — темп подвижнее среднего.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=58917",
+        "https://api.discogs.com/database/search?catno=33CX+1040&type=release (release 11120503, 1954)",
+        "/workspaces/schubert-lieder/planning/youtube/albums.md (карточка Schwarzkopf/Fischer, сессии 4–7.10.1952)",
+        "/workspaces/schubert-lieder/planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "PB3aLP1j_QA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "86z3G5RcNlA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "3yggL-Lh5Bc", "channel": "davidhertzberg", "official": false, "oembed_ok": true}
+      ],
+      "note": "Обе Topic-загрузки (альбомы «Schubert: Lieder» и «Schubert: 12 Lieder & 6 Moments musicaux») содержат одну и ту же фонограмму 1952 г. с Эдвином Фишером (кредиты в метаданных: Elisabeth Schwarzkopf, Edwin Fischer); 86z3G5RcNlA привязан к альбому, прямо соответствующему LP 33CX 1040 («12 Lieder»). В MusicBrainz есть ещё две записи Шварцкопф без указания пианиста (4d76633f — «The Very Best of…», 66adeb6b — Documents): по длительности (276/273 с) это почти наверняка та же сессия 1952 г. на компиляциях, а не отдельная запись. Второй, поздней записи D 917 (напр. с Parsons 1970–73) в дискографии не обнаружено."
+    },
     {
       "singer": "Dietrich Fischer-Dieskau",
       "pianist": "Gerald Moore",
       "rec_year": 1965,
-      "year_source": "MusicBrainz work-relation D 917 ↔ recording (305 s): сессия 24.02.1965–01.03.1965; релизы этой записи — EMI «21 Lieder» (1988), «The Great EMI Recordings» (2010), «Die Forelle: Die schönsten Schubert-Lieder» (2012). Topic-метаданные видео EiMS5GRbl1M («100 Best Schubert») независимо дают 1965.",
-      "album": "EMI-рецитал Шуберта с Джеральдом Муром (переиздания: 21 Lieder; The Great EMI Recordings; Die Forelle)",
-      "label": "EMI / Warner Classics",
-      "age_voice": "40 лет; самый центр пика (дайджест: пик ~1951–1972), голос ещё лёгкий и подвижный — важно для скерцандного, почти вальсового движения песни",
-      "reputation": "Записи Фишера-Дискау с Муром 1960-х — общепризнанный референс мужского Lied; отдельных критических оценок именно D 917 в доступных источниках не найдено (поиск ограничен, см. research_note). Скепсиса к пиару не требуется — репутация историческая.",
+      "year_source": "Буклет EMI CDM 7 69503 2 «21 Lieder» (Discogs 6124629, поле notes): «Recorded: Berlin, Zehlendorf Studio, 24, 25, 28 February & 1 March 1965: track 1–20», где трек 9 — «Das Lied Im Grünen, D.917» (5:04). Полностью совпадает с дискографией Грея: id 173733 (Electrola SME91419, «1965 February 24 - 25 + 28 & March 1, Berlin-Zehlendorf, Evangelisches Gemeindehaus, Fischer-Dieskau/Moore») и id 202735/202736 (HMV ASD2263/ASD2273, те же даты).",
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, 9. Folge (Electrola SME 91419 / HMV ASD 2263); CD-переизд. EMI «21 Lieder» CDM 7 69503 2 (1988)",
+      "label": "Electrola / HMV / EMI → Warner Classics",
+      "age_voice": "40 лет; по дайджесту пик Фишера-Дискау — 1951–1972, то есть это ровно середина лучшего периода: голос ещё свеж, но артикуляция и владение фразой уже полностью зрелые. Записано за полтора года до начала работы над полным сводом DG.",
+      "reputation": "Собственной прессы по треку найти не удалось (см. method_note). Косвенный маркер значимости: EMI отобрала эту запись в компиляцию-«лучшее» (CDM 7 69503 2, 21 песня, ремастеринг 1988) и позднее в «The Great EMI Recordings» / «The Collector's Edition». Скепсис по правилу к пиару здесь не требуется — источник репутации исторический, не маркетинговый.",
       "sources": [
-        "MusicBrainz work 6529005c-1b6d-3d0f-ade8-9f287ae04be0 (recording-rels, begin 1965-02-24, end 1965-03-01)",
-        "planning/research/singers-digest.md (Fischer-Dieskau: пик ~1951–1972)"
+        "https://api.discogs.com/releases/6124629 (notes с датами сессий и треклистом)",
+        "https://www.classical-discography.org/modalcontent.php?id=173733",
+        "https://www.classical-discography.org/modalcontent.php?id=202735"
       ],
       "youtube": [
-        {"videoId": "eTFwSwxuutE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "EiMS5GRbl1M", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "FtRb1TZkDxw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+        {"videoId": "fxMs9N--PPI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Хронологически ПЕРВАЯ из двух студийных записей ФД (EMI 1965), длительность 305–306 с. Правило «при прочих равных — более ранняя» работает в её пользу против DG-1969."
+      "note": "fxMs9N--PPI привязан именно к альбому «Schubert: 21 Lieder» (то есть к EMI-сессии 1965), длительность 306 с ≈ 5:04 из буклета. Это первая из двух студийных записей D 917 у Фишера-Дискау; вторая — DG-свод (см. следующего кандидата). По правилу «при прочих равных предпочитать более раннюю» EMI-1965 имеет преимущество перед DG."
     },
     {
       "singer": "Dietrich Fischer-Dieskau",
       "pianist": "Gerald Moore",
       "rec_year": 1969,
-      "year_source": "MusicBrainz work-relation D 917 ↔ recording (307 s): сессия 1969-03; релизы — DG «Lieder» (1992), «Lieder, Volume II», «Complete Lieder Recordings on Deutsche Grammophon» (2022). Вторая связанная запись (304 s, релиз «An die Musik») — та же сессия 1969-03.",
-      "album": "DG «Schubert: Sämtliche Lieder» (свод 1966–72, 21 CD); также в компиляции «An die Musik»",
+      "year_source": "Конвенция проекта для полного свода DG «Sämtliche Lieder» (albums.md: сессии 1966–1972, Ufa-Ton-Studio Berlin, эдиции 1969/1970/1972). Точную сессию именно D 917 установить не удалось: у Грея документирован только том Vol. 2 (DG 2720 022 — песни 1811–1817, id 8247: 10–11 и 13–14 декабря 1966, 6 января и 17–19 июня 1967, 21–29 февраля 1968), а D 917 (1827) относится к парному тому Vol. 1 (2720 006), запись которого в базе Грея отсутствует (поиск по number=2720 006 — 0 результатов).",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD; CD-эдиция 437 214-2 / «Lieder, Volume II» 437 225-2; бокс «Complete Lieder Recordings on DG» 4862073, 2022)",
       "label": "Deutsche Grammophon",
-      "age_voice": "44 года; ещё в пике по дайджесту (пик ~1951–1972), но на 4 года позже EMI-версии",
-      "reputation": "Часть свода DG 1966–72 — эталонного полного собрания мужских песен Шуберта (дайджест, раздел «Сквозные издания»); критики традиционно считают его нормативным изданием. Отдельных рецензий на D 917 не найдено.",
+      "age_voice": "около 44 лет; конец пика по дайджесту (пик до ~1972). Свод делался конвейерно, и в поздних томах голос уже суше, чем в EMI-сессии 1965 г.",
+      "reputation": "Базовая точка отсчёта корпуса: единственный полный свод мужских песен Шуберта. Отдельной критики по D 917 нет. По правилу «с возрастом голос, как правило, ухудшается» и «при прочих равных предпочитать более раннюю» эта версия уступает EMI-1965 того же дуэта.",
       "sources": [
-        "MusicBrainz work-relation (begin/end 1969-03)",
-        "planning/research/singers-digest.md (DG «Sämtliche Lieder», зап. 1966–72, 21 CD)"
+        "/workspaces/schubert-lieder/planning/youtube/albums.md (карточки DG Sämtliche Lieder)",
+        "https://www.classical-discography.org/modalcontent.php?id=8247",
+        "MusicBrainz recording af2fd4c9-5303-4b3e-af1e-5bef727b6b49 (релизы DG 437 214-2, 437 225-2, 4862073)"
       ],
       "youtube": [
         {"videoId": "vMu-2Tv_lWs", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
         {"videoId": "gFRDfn_np0Q", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
         {"videoId": "UTvlVsSpfwk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "vMu-2Tv_lWs — самый просматриваемый ролик песни на YouTube (≈8,9 тыс.). Дубль внутри дискографии ФД: выбирать одну из двух его записей, не обе."
-    },
-    {
-      "singer": "Elisabeth Schwarzkopf",
-      "pianist": "Edwin Fischer",
-      "rec_year": 1952,
-      "year_source": "MusicBrainz work-relation: сессия 04.10.1952–07.10.1952; первый релиз — EMI «12 Lieder» (сентябрь 1953). Совпадает с дайджестом («рецитал с Edwin Fischer, EMI, окт. 1952»).",
-      "album": "Schubert: 12 Lieder (с Эдвином Фишером); переиздания «Schubert: 12 Lieder & 6 Moments musicaux», Warner «Complete Recitals 1952–1974»",
-      "label": "EMI / Warner Classics",
-      "age_voice": "37 лет; центр пика (дайджест: пик 1948–1964); голос в лучшей форме, дикция и линия — эталон",
-      "reputation": "Рецитал с Эдвином Фишером назван в дайджесте проекта «эталоном» шубертовского рецитала; тот же альбом — со-победитель слепого теста 2020 по Gretchen. Именно D 917 в отдельных сравнениях не разбиралась (обзора нет).",
-      "sources": [
-        "MusicBrainz work-relation (1952-10-04 — 1952-10-07; релиз «12 Lieder», 1953-09)",
-        "planning/research/singers-digest.md (Schwarzkopf: EMI окт. 1952 с Э. Фишером — эталон)"
-      ],
-      "youtube": [
-        {"videoId": "86z3G5RcNlA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "PB3aLP1j_QA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "4GyEs48DuuA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "xGZBSbkUunk", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "3yggL-Lh5Bc", "channel": "davidhertzberg (фан)", "official": false, "oembed_ok": true}
-      ],
-      "note": "Топ-1 среди женщин по правилам, и запись — её лучших лет с великим пианистом. Многочисленные Topic-дубли (273–277 с) — один и тот же дубль 1952 г. в разных ремастерах/компиляциях; для публикации брать 86z3G5RcNlA (альбом «Schubert: 12 Lieder & 6 Moments musicaux» — ближайший к оригинальному изданию)."
-    },
-    {
-      "singer": "Elisabeth Schwarzkopf",
-      "pianist": "не установлен (вероятно Gerald Moore — зальцбургские лайвы)",
-      "rec_year": null,
-      "year_source": "НЕ УСТАНОВЛЕН. Topic-альбом «Schubert & Wolf: Lieder (Live)» (метка 2019 — год издания/загрузки, не сессии). MusicBrainz эту живую версию не содержит.",
-      "album": "Schubert & Wolf: Lieder (Live)",
-      "label": "не установлен (вероятно лайв-издание)",
-      "age_voice": "не определяется без даты",
-      "reputation": "Не исследована; длительность 183 с резко короче студийной (274 с) — вероятно исполнение с сокращением строф либо иная концепция темпа. Требует доисследования, если рассматривается всерьёз.",
-      "sources": ["yt-dlp metadata видео GqcJihpQMP4 (Topic)"],
-      "youtube": [
-        {"videoId": "GqcJihpQMP4", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Второстепенный вариант при наличии студийного 1952 г.; в пятёрку не нужен."
+      "note": "На Topic-канале Фишера-Дискау D 917 продублирован минимум пятью загрузками разных компиляций (307/307/306/305/304 с). vMu-2Tv_lWs («Schubert: Lieder (Vol. 2)», 8.9 тыс. просмотров) — самая заметная; UTvlVsSpfwk привязан к DG-компиляции «An die Musik», eTFwSwxuutE/FtRb1TZkDxw — к прочим сборникам. При публикации брать один ID и не смешивать с EMI-версией."
     },
     {
       "singer": "Elisabeth Schumann",
-      "pianist": "Karl Alwin (1891–1945, MusicBrainz)",
-      "rec_year": 1932,
-      "year_source": "MusicBrainz work-relation: сессия 07.11.1932. ВНИМАНИЕ: Topic-метаданные того же трека дают «1928» — это метаданные загрузки, по правилам не источник. Матрицы HMV не проверены (classical-discography.org отдаёт только JS-оболочку) — дату держать как «1932, требует сверки по матрицам».",
-      "album": "Naxos Historical «Der Hirt auf dem Felsen & 48 Lieder» / Naxos 8.110731 (трек 7: «Das Lied im Grünen, Op. 115, No. 1, D. 917», Schumann — Alwin); также в компиляции «Icon: Elisabeth Schumann» (Warner)",
-      "label": "HMV (ориг.) / Naxos Historical, Warner (переизд.)",
-      "age_voice": "44 года; конец пика (дайджест: пик 1920-е — сер. 1930-х), голос ещё свеж — это НЕ поздние записи 1945–49, где слышна усталость",
-      "reputation": "Э. Шуман — приоритетный исполнитель по правилам, её шубертовский стиль в дайджесте назван эталонным. Запись сильно сокращена по времени (152 с против 300+ у полных версий) — по-видимому, исполняются не все строфы, что типично для формата 78 об./мин; это фактор при отборе.",
+      "pianist": "Karl Alwin",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. У Грея по Э. Шуман с Альвином найдены только две шубертовские стороны (Im Abendrot D 799 и Die Vögel D 691, HMV D1411 / Victor 6837, id 82504/82608) — D 917 среди них нет; поиск work='Lied im Gr%' у Грея записи Шуман не даёт вовсе. Каталожная страница Naxos 8.110731 подтверждает состав (Schumann/Alwin) и хронометраж 2:35, но дат и матриц не публикует. Метаданные Topic-загрузки дают «1928» — по правилу проекта это НЕ источник (прецедент с ошибкой archive.org по её же записи 1936 г.). Осторожная рамка по партнёрству с Альвином: конец 1920-х — первая половина 1930-х.",
+      "album": "Der Hirt auf dem Felsen & 48 Lieder (EMI CHS 7 63040 2, 1989) — D 917 трек 1-7, 2:32; Naxos Historical 8.110731 «Schubert Lieder (1927–1945)» — трек 7, 2:35; Warner «Icon: Elisabeth Schumann»",
+      "label": "HMV / EMI → Warner; Naxos Historical",
+      "age_voice": "по дайджесту пик Шуман — 1920-е — середина 1930-х; если запись сделана в партнёрстве с Альвином, певица находится в лучшей форме, а стиль — эталонный «венский» лиризм.",
+      "reputation": "Э. Шуман — приоритетный исполнитель по правилам, и её шубертовское наследие считается стилевым эталоном (дайджест). Критический минус конкретно этой записи объективен и виден из хронометража: 2:32 против 5:00+ у полных версий — песня спета в сокращении (78-об. формат), то есть как документ она первоклассна, а как исполнение целого — неполна.",
       "sources": [
-        "MusicBrainz work-relation (1932-11-07)",
-        "naxos.com CatalogueDetail 8.110731 (трек-лист, состав)",
-        "planning/research/singers-digest.md (Schumann: ~28 песен HMV 1927–49; даты сверять по матрицам)"
+        "https://api.discogs.com/releases/23215766 (EMI CHS 7 63040 2, трек 1-7 «Das Lied Im Grünen, D. 917», 2:32)",
+        "https://www.naxos.com/CatalogueDetail/?id=8.110731 (трек 7, Schumann/Alwin, 2:35)",
+        "https://www.classical-discography.org/modalcontent.php?id=82504",
+        "MusicBrainz recording 4b016aaa-435c-4ee0-b300-28f71b515d02"
       ],
       "youtube": [
+        {"videoId": "q3OW2FLqRU4", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true},
         {"videoId": "525UEljnQHE", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Приоритетный певец (правило 4) + историческая ценность. Минус — купюры строф."
-    },
-    {
-      "singer": "Sigrid Onegin",
-      "pianist": "Clemens Schmalstich (1880–1960, MusicBrainz)",
-      "rec_year": 1930,
-      "year_source": "MusicBrainz work-relation: сессия 31.10.1930; переиздание — EMI/Warner антология «Lieder on Record 1898–2012» (2012).",
-      "album": "Lieder on Record 1898–2012 (антология); также «Lieder von Franz Schubert in historischen Aufnahmen»",
-      "label": "оригинал — вероятно Electrola/Polydor (не верифицировано); переизд. EMI/Warner, Preiser",
-      "age_voice": "41 год (1889–1943, MusicBrainz); зрелый контральтовый пик",
-      "reputation": "Онегин — знаменитое контральто межвоенных лет; включение записи в кураторскую антологию EMI «Lieder on Record» — знак канонического статуса. Отдельных рецензий не найдено.",
-      "sources": [
-        "MusicBrainz work-relation (1930-10-31)",
-        "MusicBrainz artist Sigrid Onegin (1889-06-01 — 1943-06-16)"
-      ],
-      "youtube": [
-        {"videoId": "SAVSVYVJfu8", "channel": "Sigrid Onegin - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "zweEGa1YiTs", "channel": "Sigrid Onegin - Topic", "official": true, "oembed_ok": null},
-        {"videoId": "5BloFZJE7L0", "channel": "Release - Topic (агрегатор)", "official": false, "oembed_ok": null}
-      ],
-      "note": "Тоже сокращённая версия (218–231 с)."
+      "note": "q3OW2FLqRU4 — Naxos Historical («Schubert Lieder 1927–1945»), 155 с; 525UEljnQHE — Warner «Icon», 152 с. Одна и та же фонограмма. Если запись войдёт в топ-5, год придётся ставить диапазоном со знаком вопроса по правилу о неустановленной дате — предварительно «1927–30?»; перед публикацией нужен матричный доисследовательский проход (HMV-матрицы Шуман/Альвин)."
     },
     {
       "singer": "Karl Erb",
       "pianist": "Bruno Seidler-Winkler",
-      "rec_year": null,
-      "year_source": "MusicBrainz work-relation даёт диапазон 1934–1939 (begin 1934, end 1939) — точная сессия не установлена. Пианист по Topic-альбому «Liederalbum» (канал «Bruno Seidler-Winkler - Topic») и по дайджесту (стороны HMV/Electrola с Seidler-Winkler ~1935–51).",
-      "album": "«Leise flehen meine Lieder…» — The Art of Schubert Lieder (историческая антология); «Liederalbum»",
-      "label": "Electrola/HMV (ориг.), переизд. Preiser",
-      "age_voice": "57–62 года — далеко за вокальным пиком (дайджест: пик ~1905–1930); ценность документальная, стиль довоенной школы",
-      "reputation": "В дайджесте прямо: шубертовские записи Эрба сделаны в 58–74 года, «не вокальный пик, документ довоенного стиля».",
+      "rec_year": 1937,
+      "year_source": "Дискография Майкла Грея, id 55548: «Das Lied im Grünen, D917 — 1937 January 25 — Berlin — Electrola — DA4420 — префикс 0RA, матрица 1765 — Karl Erb, tenor; Bruno Seidler-Winkler, piano».",
+      "album": "Electrola DA 4420 (78 об.); переизд. History/Documents «Leise flehen meine Lieder… — The Art of Schubert Lieder» (231056)",
+      "label": "Electrola (HMV) → переиздания Documents/History",
+      "age_voice": "60 лет: по дайджесту пик Эрба — 1905–1930, то есть шубертовские стороны сделаны уже за пиком. Ценность — документ довоенного немецкого стиля пения и дикции, а не вокальная роскошь.",
+      "reputation": "Отдельных рецензий по треку не найдено. Значимость подтверждается тем, что запись попала в антологические переиздания шубертовского пения (History/Documents 231056) наравне с Онегин.",
       "sources": [
-        "MusicBrainz work-relation (1934..1939)",
-        "planning/research/singers-digest.md (Erb Karl)"
+        "https://www.classical-discography.org/modalcontent.php?id=55548",
+        "MusicBrainz recording 51c6dad4-e734-4115-a09a-b71961769653 (релизы History / Documents 231056)"
       ],
       "youtube": [
         {"videoId": "0yJwMaQQ-ZA", "channel": "Karl Erb - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "tQIjthFeDxM", "channel": "Bruno Seidler-Winkler - Topic", "official": true, "oembed_ok": null}
+        {"videoId": "tQIjthFeDxM", "channel": "Bruno Seidler-Winkler - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Год неточен (диапазон), голос не в форме — в пятёрку скорее не проходит."
+      "note": "Обе Topic-загрузки — одна фонограмма (по 194 с), просто привязаны к разным «артистам» в метаданных агрегатора. 193–194 с ≈ 3:14 — тоже сокращённая 78-оборотная версия."
+    },
+    {
+      "singer": "Sigrid Onegin",
+      "pianist": "Clemens Schmalstich",
+      "rec_year": 1930,
+      "year_source": "Дискография Майкла Грея, id 71627: «Das Lied im Grünen, D917 — 1930 October 31 — HMV — DB1484 — префикс CD, матрица 9217 — Sigrid Onegin, contralto; Clemens Schmalstich, piano».",
+      "album": "HMV DB 1484 (78 об.); переизд. «Lieder von Franz Schubert in historischen Aufnahmen», History/Documents 231056, EMI «Lieder on Record 1898–2012» (50999 3 27575 2 1)",
+      "label": "HMV / Electrola → Documents, EMI",
+      "age_voice": "41 год (р. 1889); контральто в полной силе. Редчайший тембровый вариант этой песни — настоящее низкое женское.",
+      "reputation": "Косвенный, но весомый маркер: трек отобран редакцией EMI в антологию «Lieder on Record 1898–2012» — то есть входит в редакционный канон исторических шубертовских записей. Собственной развёрнутой критики не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=71627",
+        "MusicBrainz recording 8ae155fb-6147-4db2-951c-6247824ee4ec (EMI Classics «Lieder on Record 1898–2012», 2012)"
+      ],
+      "youtube": [
+        {"videoId": "SAVSVYVJfu8", "channel": "Sigrid Onegin - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "qAFaS7ioosk", "channel": "Public Classical Music", "official": false, "oembed_ok": true}
+      ],
+      "note": "230 с ≈ 3:50 — снова сокращение под сторону пластинки. На Topic-канале Онегин есть две загрузки-дубля (SAVSVYVJfu8 231 с и zweEGa1YiTs 223 с) с разных переизданий."
     },
     {
       "singer": "Elena Gerhardt",
-      "pianist": "не установлен",
-      "rec_year": null,
-      "year_source": "НЕ УСТАНОВЛЕН по дискографии. Единственное указание — «1925» в названии фан-загрузки (Vintage Sounds), а метаданные загрузок по правилам не источник. MusicBrainz этой записи не содержит.",
-      "album": "не установлен (сторона 78 об., вероятно HMV)",
-      "label": "вероятно HMV",
-      "age_voice": "если 1925 — 42 года (1883–1961, дайджест); дайджест отмечает износ голоса к 1926–28",
-      "reputation": "Герхардт — пионер женского Lieder-рецитала (дайджест). Запись именно D 917 в дискографиях проекта не подтверждена.",
-      "sources": ["yt-dlp: видео 6Tik9GvdKM0 «Elena Gerhardt … (1925)», канал Vintage Sounds (не источник даты)", "planning/research/singers-digest.md (Gerhardt Elena)"],
-      "youtube": [
-        {"videoId": "6Tik9GvdKM0", "channel": "Vintage Sounds (фан)", "official": false, "oembed_ok": true}
+      "pianist": "не указан у Грея",
+      "rec_year": 1925,
+      "year_source": "Дискография Майкла Грея, id 60734: «Das Lied im Grünen, D917 — 1925 March 24 — HMV — DA706 — префикс Bb, матрица 5930, take 1 — Elena Gerhardt, mezzo-soprano». Пианист в записи Грея не назван.",
+      "album": "HMV DA 706 (78 об.)",
+      "label": "HMV",
+      "age_voice": "42 года; по дайджесту пик Герхардт — 1907 — начало 1920-х, то есть запись сделана уже на излёте формы, но до заметного износа конца 1920-х.",
+      "reputation": "Историческая ценность: Герхардт — пионер женского Lieder-рецитала. Современной критики по этой стороне нет; переизданий в широком доступе не обнаружено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=60734",
+        "/workspaces/schubert-lieder/planning/research/singers-digest.md"
       ],
-      "note": "Кандидат только для полноты пула; без дискографической даты и без официальной загрузки."
+      "youtube": [],
+      "note": "На YouTube не найдено (целевые запросы yt-dlp по «Das Lied im Grünen Gerhardt» результата не дали). Кандидат непубликуемый — фиксируется как полнота дискографического слоя."
     },
     {
       "singer": "Julius Patzak",
-      "pianist": "Hermann von Nordberg (1907–1998, MusicBrainz)",
+      "pianist": "Hermann von Nordberg",
       "rec_year": 1947,
-      "year_source": "MusicBrainz work-relation: сессия 05.12.1947; переиздание — антология «Lieder on Record 1898–2012» (EMI/Warner, 2012), ремастер 1997.",
-      "album": "Lieder on Record 1898–2012 (антология; оригинал — сторона 78 об., лейбл не верифицирован)",
-      "label": "не верифицирован (переизд. EMI/Warner)",
-      "age_voice": "49 лет; по дайджесту пик Патцака — 1930-е–1950-е; голос всегда скромный, суть — слово и фразировка",
-      "reputation": "Патцак — эталон «словесного» пения (дайджест). Включение в антологию EMI «Lieder on Record» — признак канонического отбора. Версия сокращённая (160 с).",
+      "year_source": "Дискография Майкла Грея, id 19931: «Das Lied im Grünen, D917 — 1947 December 5 — Wien, Musikverein, Brahms-Saal — Columbia — UNISSUED — префикс CHA, матрица 984 — Julius Patzak, tenor». Пианист в записи Грея не назван; MusicBrainz и EMI-антология атрибутируют аккомпанемент Герману фон Нордбергу — он же документирован Греем как пианист венских Columbia-сессий того же периода (напр. сессия Зеефрид 21.11.1947, Brahms-Saal, матрица 978). Оригинал остался неизданным; трек вышел на переизданиях (пометка «1997 Remaster» в MusicBrainz).",
+      "album": "Columbia (венские сессии 1947, изначально неиздано); переизд. — EMI «Lieder on Record 1898–2012» (50999 3 27575 2 1, 2012)",
+      "label": "Columbia → EMI",
+      "age_voice": "49 лет; по дайджесту пик Патцака — 1930-е–1950-е. Голос по природе скромный, суть его искусства — слово и фразировка, что для этой разговорно-строфической песни особенно уместно.",
+      "reputation": "Отбор в антологию EMI «Lieder on Record 1898–2012» — тот же редакционный канон, что и у Онегин. Развёрнутой критики нет.",
       "sources": [
-        "MusicBrainz work-relation (1947-12-05)",
-        "planning/research/singers-digest.md (Patzak Julius)"
+        "https://www.classical-discography.org/modalcontent.php?id=19931",
+        "https://www.classical-discography.org/modalcontent.php?id=217165",
+        "MusicBrainz recording efc47116-eb07-44f4-9a32-b66902f9e100"
       ],
       "youtube": [
-        {"videoId": "A45lOKEXwNs", "channel": "Public Classical Music (фан)", "official": false, "oembed_ok": true}
+        {"videoId": "A45lOKEXwNs", "channel": "Public Classical Music", "official": false, "oembed_ok": true}
       ],
-      "note": "Официальной загрузки (Topic) для этого трека не найдено — только фан-канал; техническая гигиена ссылок против."
+      "note": "Официальной (Topic/лейбловой) загрузки нет — только фан-канал, переносящий антологию «Lieder on Record» (159 с ≈ 2:39, то есть версия сильно сокращена). Слабое место кандидата — именно неофициальность ссылки."
     },
     {
       "singer": "Irmgard Seefried",
       "pianist": "Erik Werba",
       "rec_year": 1958,
-      "year_source": "MusicBrainz work-relation: сессия 30.05.1958–08.06.1958 (DG). Topic-метаданные дают 1959 — год издания, не сессии.",
-      "album": "Irmgard Seefried — Lieder (DG; переизд. 2007, Eloquence)",
+      "year_source": "Дискография Майкла Грея, id 4263: LP Deutsche Grammophon 136009 «Lieder», сессии 30 мая и 3, 7–8 июня 1958, Wien, Musikverein, Brahms-Saal, Seefried/Werba. Реестр проекта (albums.md) фиксирует ту же связку и отмечает, что DG-позиция «Lieder nach Gedichten von Goethe (℗1957)» с ней не отождествлена. Метаданные Topic дают «1959» — год издания/℗, не сессия.",
+      "album": "Schubert: Lieder (DG LPM/SLPM 136009); переизд. «Irmgard Seefried — Lieder» (DG 477 6514, 2007)",
       "label": "Deutsche Grammophon",
-      "age_voice": "39 лет; пик по дайджесту — кон. 1940-х — нач. 1960-х, то есть запись в форме",
-      "reputation": "Зеефрид — одна из главных венских шубертианок 1950-х (дайджест). Отдельных рецензий на D 917 не найдено. Версия сокращённая (142–157 с в разных изданиях).",
+      "age_voice": "39 лет; по дайджесту пик Зеефрид — конец 1940-х — начало 1960-х, спад с середины 1960-х. То есть запись в форме.",
+      "reputation": "Собственной критики по треку не найдено. Зеефрид/Верба — одна из опорных венских Lieder-пар DG 1950-х; альбом переиздавался DG в серии сольных сводов.",
       "sources": [
-        "MusicBrainz work-relation (1958-05-30 — 1958-06-08)",
-        "planning/research/singers-digest.md (Seefried Irmgard)"
+        "https://www.classical-discography.org/modalcontent.php?id=4263",
+        "/workspaces/schubert-lieder/planning/youtube/albums.md",
+        "MusicBrainz recording 530a2eb9-32d4-4d2a-86fa-dc83dcb3b317 (DG 477 6514)"
       ],
       "youtube": [
-        {"videoId": "fKxiq2mqUOU", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "w1aIT-MJJ9A", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": null},
-        {"videoId": "uXEBlVaCoos", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": null}
+        {"videoId": "fKxiq2mqUOU", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Несколько Topic-дублей одной записи в разных сборниках."
+      "note": "Хронометраж 157 с (2:37) — Зеефрид тоже поёт сокращённую редакцию, хотя запись стереоэпохи. Это существенный минус при сравнении с полными версиями (5 мин). На Topic минимум четыре дубля (149–157 с) с разных компиляций."
     },
     {
       "singer": "Rita Streich",
       "pianist": "Erik Werba",
-      "rec_year": 1960,
-      "year_source": "Topic-альбом «Rita Streich — The Viennese Nightingale» указывает 1960 (не первичный источник). Дискографически: DG LP «Rita Streich singt Lieder von Franz Schubert», кат. 138 047 SLPM / LPM 18585 (Discogs 5698657, 7578154; кредиты: Erik Werba, ф-но). Дайджест независимо датирует альбом 1960 г. Точная сессия не установлена.",
-      "album": "Rita Streich singt Lieder von Franz Schubert (DG 138 047 SLPM / LPM 18585)",
+      "rec_year": 1959,
+      "year_source": "Дискография Майкла Грея, id 4269: DG 138047 «Lieder», сессии 1–4 апреля 1959, Berlin, Jesus-Christus-Kirche; Rita Streich, soprano; Erik Werba, piano; Heinrich Geuser, clarinet (последний — для D 965). ВАЖНО для реестра: карточка albums.md по этому же диску (LPM 18585) датирует его «1960 (℗; LP отпечатан 4/62)» — это год издания; сессия по Грею — апрель 1959. Годы одного альбома должны быть унифицированы по корпусу.",
+      "album": "Rita Streich singt Lieder von Franz Schubert (DG LPM 18585 / SLPM 138047); переизд. «Rita Streich — The Viennese Nightingale» (DG)",
       "label": "Deutsche Grammophon",
-      "age_voice": "40 лет; пик по дайджесту — 1950-е — нач. 1960-х",
-      "reputation": "«Венский соловей», лёгкое колоратурное сопрано; для лёгкой, прогулочной D 917 тембр уместен. Критических оценок именно этой песни не найдено. Версия сокращённая (203 с).",
+      "age_voice": "39 лет; по дайджесту пик Штрайх — 1950-е — начало 1960-х. Лёгкое, серебристое сопрано, техника безупречна.",
+      "reputation": "Развёрнутой критики по треку нет. Диск — один из опорных женских шубертовских LP DG рубежа 1950–60-х.",
       "sources": [
-        "Discogs release 5698657 / 7578154 (DG 138 047 SLPM, LPM 18585; Piano: Erik Werba)",
-        "planning/research/singers-digest.md (Streich Rita: DG 1960, Werba)"
+        "https://www.classical-discography.org/modalcontent.php?id=4269",
+        "/workspaces/schubert-lieder/planning/youtube/albums.md (карточка DG LPM 18585)"
       ],
       "youtube": [
         {"videoId": "JO-1F-OceQQ", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Хороший «старый» кандидат с официальной загрузкой."
+      "note": "Записи Штрайх нет в каркасе MusicBrainz по этому work — она найдена только целевым поиском YouTube и подтверждена Греем. 204 с (3:24) — снова сокращённая редакция."
     },
     {
       "singer": "Elly Ameling",
       "pianist": "Dalton Baldwin",
-      "rec_year": 1973,
-      "year_source": "MusicBrainz work-relation: сессия 1973-08; первый релиз — Philips «Frauenliebe und -leben / Lieder» (1974). Topic-метаданные дают 1974 — год издания.",
-      "album": "Philips-рецитал (переизд.: «The Artistry of Elly Ameling», «Schubert: Lieder — Ave Maria», «Philips Classics: The Stereo Years»)",
-      "label": "Philips / Decca (Universal)",
-      "age_voice": "40 лет; центр пика (дайджест: ~1965–1985); Амелинг — самая записываемая шубертианка поколения",
-      "reputation": "Дайджест: «самая записываемая шубертианка поколения», серия Philips с Болдуином — её главный свод. Полная версия песни (308–312 с) без купюр. Отдельных рецензий на D 917 не найдено.",
+      "rec_year": 1974,
+      "year_source": "Год ИЗДАНИЯ LP Philips 6500 706 «Frauenliebe und -leben / Lieder» (Discogs 12495990, 1974; D 917 — трек B1, 5:06). Сессия конкретно этого диска у Грея отсутствует (поиск number=6500 706 — 0 результатов); документирован соседний шубертовский диск того же дуэта Philips 6500 704 — сессии 21–26 августа 1973 (Грей id 59917), с которым 6500 706 вероятно делит блок сессий, но доказательства этому нет. По правилу «иначе год издания» ставится 1974.",
+      "album": "Schumann/Schubert: Frauenliebe und -leben / Lieder (Philips 6500 706); переизд. «Schubert: Lieder — Ave Maria» (Philips 420 870-2), «The Artistry of Elly Ameling», «Philips Classics: The Stereo Years»",
+      "label": "Philips → Universal",
+      "age_voice": "41 год; по дайджесту пик Амелинг — ~1965–1985, самая записываемая шубертианка поколения. Форма отличная, дикция и лёгкость — её фирменные качества, идеально ложащиеся на эту песню.",
+      "reputation": "Отдельной критики по треку не найдено. Косвенно: запись многократно переиздавалась Universal (включая антологию «The Stereo Years») — то есть считается репрезентативной для дуэта Амелинг/Болдуин.",
       "sources": [
-        "MusicBrainz work-relation (1973-08; релиз 1974)",
-        "planning/research/singers-digest.md (Ameling Elly)"
+        "https://api.discogs.com/releases/12495990 (Philips 6500 706, 1974, трек B1 5:06)",
+        "https://www.classical-discography.org/modalcontent.php?id=59917 (соседний Philips 6500 704, сессии 21–26.08.1973)",
+        "MusicBrainz recording ffe205e9-9aca-4296-a6db-e5cfee7b8fc9"
       ],
       "youtube": [
+        {"videoId": "o_HXCHWclpg", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
         {"videoId": "2MxpYTEJm6c", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "1ifPyuSOU88", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "o_HXCHWclpg", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+        {"videoId": "1ifPyuSOU88", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Сильный женский кандидат «до 1990» с официальными загрузками; три Topic-дубля одной сессии."
+      "note": "Одна из немногих ПОЛНЫХ версий среди старых мастеров (308–312 с). 2MxpYTEJm6c («The Artistry of Elly Ameling», 4.2 тыс. просмотров) — самая заметная загрузка. Дублей на Topic минимум три; все — одна фонограмма 1974 г."
     },
     {
       "singer": "Margaret Price",
       "pianist": "Wolfgang Sawallisch",
       "rec_year": 1981,
-      "year_source": "Discogs release 5600726 (Orfeo S 001 811 A), примечания буклета: «Recorded 9.–11. September 1981, at Festsaal, Kloster Seeon», ℗ 1981; кредиты — Piano: Wolfgang Sawallisch, Clarinet: Hans Schöneberger (в D 965). CD-переиздание C 001811 A датируется 1984 — это издание, не сессия. Уточняет дайджест («зап. ~1980, изд. 1984»).",
-      "album": "Franz Schubert: Ausgewählte Lieder / Lieder (Orfeo, первый релиз лейбла)",
+      "year_source": "Реестр альбомов проекта (albums.md, карточка Orfeo S 001 811 A): «Записано 9–11 сентября 1981, Festsaal, Kloster Seeon; цифровая запись, продюсер Dieter Sinn, инженер Wolfgang Götz, совместно с Bayerischer Rundfunk; CD C 001811 A (1984) — переиздание». MusicBrainz даёт first-release-date 1984-01-12 (это издание). Метаданные Topic-загрузки («℗ 2016 Orfeo») к дате сессии отношения не имеют.",
+      "album": "Franz Schubert: Ausgewählte Lieder (Orfeo S 001 811 A / C 001811 A)",
       "label": "Orfeo",
-      "age_voice": "40 лет; пик по дайджесту — ~1970–1990; крупное лирическое сопрано в лучшей форме",
-      "reputation": "Легендарный дуэт с Заваллишем за роялем; альбом — один из первых релизов Orfeo. Отдельных рецензий на D 917 не найдено. Самая длинная из старых версий (318 с) — без купюр.",
+      "age_voice": "40 лет; по дайджесту пик Прайс — ~1970–1990. За роялем — Вольфганг Заваллиш, то есть редкий случай дирижёра первого ряда в роли аккомпаниатора; диск был первым релизом лейбла Orfeo.",
+      "reputation": "Развёрнутой критики по треку не найдено. Историческая значимость диска зафиксирована в реестре проекта (дебютный релиз Orfeo, совместная продукция с BR).",
       "sources": [
-        "Discogs release 5600726 (Orfeo S 001 811 A, notes: recorded 9–11 September 1981, Festsaal Kloster Seeon)",
-        "planning/research/singers-digest.md (Price Margaret)"
+        "/workspaces/schubert-lieder/planning/youtube/albums.md (карточка Orfeo S 001 811 A)",
+        "MusicBrainz recording 05fd86c0-c113-4ee3-b8b9-73e456435e65"
       ],
       "youtube": [
         {"videoId": "wWAEBBXMiCk", "channel": "Margaret Price - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Точная документированная дата сессии — редкость для этой песни; сильный кандидат."
+      "note": "318 с — полная версия, самый неспешный темп в пуле после Гёрне и Бостриджа. Тот же альбом уже используется корпусом по D 965 — год обязан совпадать (1981)."
     },
     {
       "singer": "Elizabeth Connell",
       "pianist": "Graham Johnson",
       "rec_year": 1988,
-      "year_source": "MusicBrainz work-relation: сессия 01.09.1988–03.09.1988; страница альбома hyperion-records.co.uk (CDJ33005): «Recording: September 1988, Release: December 1989».",
-      "album": "The Hyperion Schubert Edition, Vol. 5: Schubert and the Countryside (CDJ33005)",
-      "label": "Hyperion",
-      "age_voice": "41 год (1946–2012, MusicBrainz); зрелое драматическое сопрано в форме",
-      "reputation": "Пресса по альбому (hyperion-records.co.uk): Gramophone — «Once more Graham Johnson puts us in his debt by his considered juxtaposition of apposite songs»; American Record Guide — «A must for all Schubertians»; The Guardian — «I have never heard Elizabeth Connell's voice more beautifully caught on disc than in this Schubert series»; The Times — «14 of Schubert's most verdant Lieder, presented with a purity of voice which matches their purity of heart». Издание Джонсона — научный эталон (дайджест).",
+      "year_source": "Страница альбома на hyperion-records.co.uk (CDJ33005): запись — сентябрь 1988, Kimpton Parish Church, Hertfordshire; продюсер Mark Brown, инженер Antony Howell; издание — декабрь 1989. MusicBrainz даёт дату релиза 1989-12; метаданные официальной загрузки UMG — ℗ 1989. То есть 1988 — сессия, 1989 — издание.",
+      "album": "The Hyperion Schubert Edition, Vol. 5 — Schubert & the Countryside (Hyperion CDJ33005)",
+      "label": "Hyperion (с 2023 — в составе Universal)",
+      "age_voice": "42 года (р. 1946); драматическое сопрано вагнеровского профиля в редкой для себя камерной роли. Аккомпанирует Грэм Джонсон — автор комментариев всего 37-томного свода, «научный эталон» издания по дайджесту проекта.",
+      "reputation": "Пресса по тому 5 (цитаты со страницы Hyperion): Gramophone Critics' Choice; Gramophone — «Once more Graham Johnson puts us in his debt by his considered juxtaposition of apposite songs»; American Record Guide — «A must for all Schubertians»; The Guardian — «I have never heard Elizabeth Connell's voice more beautifully caught on disc than in this Schubert series». Оценки относятся к диску в целом, не к треку.",
       "sources": [
         "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33005",
-        "MusicBrainz work-relation (1988-09-01 — 1988-09-03)"
+        "MusicBrainz recording 497aaccd-39c8-4c19-9123-484a0830296e (Hyperion CDJ33005, 1989-12)"
       ],
       "youtube": [
         {"videoId": "rdgmEr2ToGI", "channel": "Elizabeth Connell - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Тематически «родной» том: D 917 — заглавная «зелёная» песня в томе «Schubert and the Countryside». Единственные найденные прямые критические цитаты по альбому с этой записью."
+      "note": "Официальный UMG-аудиотрек (304 с, полная версия). Тематически том 5 «Schubert & the Countryside» — «домашний» для этой песни: именно тут её место в замысле издания Джонсона."
     },
     {
       "singer": "Gundula Janowitz",
       "pianist": "Charles Spencer",
       "rec_year": null,
-      "year_source": "Сессия НЕ УСТАНОВЛЕНА. Издание: Nuova Era 6860 «15 Lieder», 1990 (Discogs 22165180 / 37460796; кредиты: Gundula Janowitz, Charles Spencer). Topic даёт 2009 (переиздание). Год для плеера — 1990 (год издания) либо «1989–90?».",
-      "album": "Schubert: 15 Lieder (Nuova Era 6860)",
-      "label": "Nuova Era (переизд. Brilliant «The Masterworks»)",
-      "age_voice": "около 52–53 лет (р. 1937); пик по дайджесту ~1965–1980 — запись уже позднее пика",
-      "reputation": "Яновиц — знаменитая шубертианка (2-LP DG с Гейджем 1976–77 высоко оценены klassik-prisma), но Nuova Era-диск 1990 г. — позднее, второстепенное издание; критики его практически не разбирали. Быстрая версия (248 с).",
+      "year_source": "НЕ УСТАНОВЛЕН. Реестр проекта (albums.md): «Nuova Era 6860, издание 1990, сделано в Японии; дата сессии не документирована; переиздание — Brilliant “The Masterworks” (2004)». Discogs 37460796/22165180 подтверждают год издания 1990 и общее время 56'28, дат сессии не дают. Метаданные Topic («2009») — год очередного переиздания. Рабочее значение для плеера — «1990?» (год издания).",
+      "album": "Schubert: 15 Lieder (Nuova Era 6860); переизд. Brilliant Classics 99443 / 92394",
+      "label": "Nuova Era / Brilliant Classics",
+      "age_voice": "около 53 лет (р. 1937), если запись сделана к изданию 1990 г.: по дайджесту пик Яновиц — ~1965–1980, то есть это уже поздний период. Голос сохраняет фирменную «инструментальную» чистоту, но свежести раннего DG-цикла с Гейджем (1976–77) уже нет.",
+      "reputation": "Критики по диску не найдено; Nuova Era — малый итальянский лейбл, широкой прессы у релиза нет. Это ослабляет кандидата независимо от вокальных достоинств.",
       "sources": [
-        "Discogs search: Nuova Era 6860, 1990, Janowitz/Spencer",
-        "planning/research/singers-digest.md (Janowitz Gundula)"
+        "/workspaces/schubert-lieder/planning/youtube/albums.md (карточка Nuova Era 6860)",
+        "https://api.discogs.com/releases/37460796",
+        "MusicBrainz recording 21d72b10-219d-4def-85b8-cfba5aae7462"
       ],
       "youtube": [
         {"videoId": "qNKM7fx1pGo", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "P_c-3b_cK3o", "channel": "CLASSIC&OPERA (фан)", "official": false, "oembed_ok": null}
+        {"videoId": "P_c-3b_cK3o", "channel": "CLASSIC&OPERA", "official": false, "oembed_ok": true}
       ],
-      "note": "Формально «не ранее 1990», но качественно спорно (поздний голос, малый лейбл)."
-    },
-    {
-      "singer": "Cheryl Studer",
-      "pianist": "Irwin Gage",
-      "rec_year": null,
-      "year_source": "Сессия НЕ УСТАНОВЛЕНА. Издание: DG 431 773-2 «Schubert: Lieder», 1991/1992 (Discogs 16605750, 34997282).",
-      "album": "Schubert: Lieder (DG 431 773-2)",
-      "label": "Deutsche Grammophon",
-      "age_voice": "около 35–36 лет (р. 24.10.1955, MusicBrainz) — вокальный расцвет",
-      "reputation": "Не исследована (обзоров не найдено); Штудер в дайджесте проекта отсутствует — как шубертианка она маргинальна, слава оперная.",
-      "sources": [
-        "MusicBrainz recording (Studer/Gage, релиз «Lieder» 1992)",
-        "Discogs releases 16605750 / 34997282 (DG 431 773-2, 1991–92)"
-      ],
-      "youtube": [],
-      "note": "На YouTube ролик этой записи не найден (yt-dlp, 5 запросов) — без видео кандидат нерелевантен."
-    },
-    {
-      "singer": "Felicity Lott",
-      "pianist": "Graham Johnson",
-      "rec_year": null,
-      "year_source": "Сессия и том издания НЕ УСТАНОВЛЕНЫ. MusicBrainz связывает запись (265 с) только со сборником «Spring Classics» (2007-04); принадлежность к конкретному тому Hyperion Schubert Edition не подтверждена.",
-      "album": "не установлен (сборник «Spring Classics»; вероятно происходит из Hyperion Schubert Edition)",
-      "label": "Hyperion (вероятно)",
-      "age_voice": "не определяется без даты (р. 08.05.1947, ум. 15.05.2026, MusicBrainz)",
-      "reputation": "Лотт — известная шубертианка круга Джонсона; конкретной критики по этой записи не найдено.",
-      "sources": ["MusicBrainz recording Felicity Lott / Graham Johnson, «Das Lied im Grünen, op. 115, no. 1, D. 917»"],
-      "youtube": [],
-      "note": "На YouTube отдельного ролика не найдено. Требуется доисследование тома Hyperion, если запись понадобится."
+      "note": "248 с — версия сокращена относительно полных пятиминутных прочтений."
     },
     {
       "singer": "Daniela Sindram",
       "pianist": "Ulrich Eisenlohr",
       "rec_year": null,
-      "year_source": "Сессия НЕ УСТАНОВЛЕНА. Издание: Naxos Deutsche Schubert-Lied-Edition, том 23 «Austrian Contemporaries, Vol. 3», релиз 27.03.2007 (MusicBrainz; Topic-альбом то же).",
-      "album": "Schubert: Lied Edition 23 — Austrian Contemporaries, Vol. 3 (Naxos DSLE)",
+      "year_source": "НЕ УСТАНОВЛЕН (дата сессии). Документировано только издание: Naxos, Deutsche Schubert-Lied-Edition, том 23 «Austrian Contemporaries, Vol. 3», релиз 27.03.2007 (MusicBrainz release 1996e96a-1e98-4554-897a-8ac318ddae1a, D 917 — трек 8; ℗ 2007 в кредитах официальной загрузки Naxos of America, продюсер Pauline Heister, инженер Wolfgang Karreth). Для плеера — 2007 (год издания).",
+      "album": "Schubert: Lied Edition 23 — Austrian Contemporaries, Vol. 3 (Naxos)",
       "label": "Naxos",
-      "age_voice": "не установлен (дата рождения в MusicBrainz отсутствует); карьерный расцвет — 2000-е",
-      "reputation": "Полное издание Naxos (DSLE) — справочный, а не эталонный ресурс: певцы среднего ряда, ценность — полнота репертуара (дайджест, «Сквозные издания»).",
+      "age_voice": "меццо-сопрано, карточки в дайджесте проекта нет — Зиндрам приходит в фонд через это издание. На 2007 г. — в активной середине карьеры.",
+      "reputation": "Значимость — не индивидуальная, а системная: это единственная полная запись песни в рамках Naxos DSLE, одного из трёх сквозных полных изданий корпуса (наряду с DG Fischer-Dieskau и Hyperion). Прессы по треку не найдено; правило скепсиса к пиару современных исполнителей здесь применимо в полной мере.",
       "sources": [
-        "MusicBrainz recording (Sindram/Eisenlohr, Lied Edition 23, 2007-03-27)",
-        "planning/research/singers-digest.md (Naxos DSLE)"
+        "MusicBrainz release 1996e96a-1e98-4554-897a-8ac318ddae1a (Naxos, Lied Edition 23, 2007-03-27, трек 8)",
+        "Кредиты официальной загрузки Naxos of America (yt-dlp, видео 5IFMXcEoKS4): Daniela Sindram, Ulrich Eisenlohr, ℗ 2007 Naxos"
       ],
       "youtube": [
         {"videoId": "5IFMXcEoKS4", "channel": "Daniela Sindram - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Резерв полноты; для топ-5 слабее конкурентов."
+      "note": "281 с. Каталожный номер тома установить не удалось (страницы Naxos по угаданным номерам 8.570480/8.570483 относятся к другим дискам, поиск на naxos.com отдаёт ошибку приложения)."
     },
     {
       "singer": "Matthias Goerne",
       "pianist": "Helmut Deutsch",
       "rec_year": 2007,
-      "year_source": "Discogs release 15096186 (harmonia mundi HMC902004.05), примечания буклета: «Enregistrement octobre 2007 (CD 1) & janvier 2008 (CD 2), Teldex Studio Berlin»; релиз 2008. Какой из двух дисков содержит D 917, по буклету не разведено — год держать как «2007–08» либо уточнить.",
-      "album": "Schubert: An mein Herz (том 2 «Matthias Goerne Schubert Edition», harmonia mundi HMC902004.05)",
+      "year_source": "Буклет harmonia mundi HMC 902004.05 «An mein Herz» (Discogs 15096186, поле notes, цитата из буклета): «Enregistrement octobre 20017 (CD 1) & janvier 2008 (CD 2), Telldex Studio Berlin» — в тексте буклета опечатка «20017» вместо 2007. D 917 — трек 1-2, то есть CD 1 → октябрь 2007, Teldex Studio Berlin. Издание — октябрь 2008 (MusicBrainz).",
+      "album": "An mein Herz (Matthias Goerne Schubert Edition, vol. 2; harmonia mundi HMC 902004.05, 2 CD)",
       "label": "harmonia mundi",
-      "age_voice": "40 лет; центр пика (дайджест: ~1997–2015); самый записываемый Schubert-баритон поколения",
-      "reputation": "Свод Гёрне на HM (2008–14, 12 томов) — «крупнейший сольный свод последних десятилетий» (дайджест). К прессе о современных исполнителях правила требуют скепсиса; независимых сравнительных оценок по D 917 не найдено. Самая медленная версия (323–324 с).",
+      "age_voice": "40 лет; по дайджесту пик Гёрне — ~1997–2015, то есть запись сделана в лучшей поре. Он — самый записываемый шубертовский баритон поколения; 12-томный свод HM 2008–2014 — крупнейший сольный корпус последних десятилетий.",
+      "reputation": "Развёрнутых рецензий по треку добыть не удалось (бюджет поиска исчерпан). По правилу проекта похвалы прессы современным исполнителям фильтруются как потенциально пиарные; объективный факт — темп самый медленный в пуле (324 с), что для этой лёгкой прогулочной песни спорно и требует прослушивания перед включением в пятёрку.",
       "sources": [
-        "Discogs release 15096186 (HM HMC902004.05, notes: octobre 2007 / janvier 2008, Teldex Studio Berlin)",
-        "planning/research/singers-digest.md (Goerne Matthias)"
+        "https://api.discogs.com/releases/15096186 (notes с датами сессий, трек 1-2)",
+        "MusicBrainz recording 2f9f2876-07ae-4e33-b4aa-18ac58837458 (harmonia mundi HMC902004.05, 2008-10)"
       ],
       "youtube": [
-        {"videoId": "CwzFU0aqpxg", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "1-R-taML_Gs", "channel": "Arnold van der Waals (фан, иная запись — 337 с)", "official": false, "oembed_ok": true}
+        {"videoId": "CwzFU0aqpxg", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Сильнейший кандидат на слот «не ранее 1990» среди мужчин."
+      "note": "Единственный современный мужской кандидат со студийной записью на крупном лейбле. Тот же альбом — сквозной для корпуса (Goerne Schubert Edition)."
     },
     {
       "singer": "Benjamin Appl",
       "pianist": "Graham Johnson",
-      "rec_year": 2015,
-      "year_source": "Discogs release 20004631 (Wigmore Hall Live WHLive0082), примечания: «Recorded live on 27 March 2015»; кредиты — Benjamin Appl (баритон), Graham Johnson (ф-но); релиз 2016.",
-      "album": "Schubert — Wigmore Hall Live (WHLive0082)",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Кредиты официальной загрузки (The Orchard / Wigmore Hall Trust): альбом «Schubert — Wigmore Hall Live», ℗ 2016 The Wigmore Hall Trust, релиз 29.04.2016. Дата самого концерта в метаданных не указана; страница Wigmore Hall Live недоступна (HTTP 403). Для плеера — «2016?» (год издания живой записи).",
+      "album": "Schubert — Wigmore Hall Live (Wigmore Hall Live)",
       "label": "Wigmore Hall Live",
-      "age_voice": "32–33 года; ранний расцвет (дайджест: пик ~2016–наст.); последний частный ученик Фишера-Дискау",
-      "reputation": "Живой рецитал в Wigmore Hall с Грэмом Джонсоном за роялем — сильная институциональная рекомендация; но прессу о современных исполнителях правила велят фильтровать, независимых сравнительных оценок не найдено. Самая протяжённая версия (333 с).",
+      "age_voice": "около 34 лет (р. 1982); по дайджесту пик Аппля — с ~2016. Последний частный ученик Фишера-Дискау; за роялем — Грэм Джонсон, то есть прямая линия к Hyperion-своду.",
+      "reputation": "Живая запись из зала с сильнейшей Lieder-репутацией и с Джонсоном за роялем — сильный контекст. Собственной критики по треку не найдено; к прессе о молодых певцах применяется правило скепсиса.",
       "sources": [
-        "Discogs release 20004631 (WHLive0082, recorded live 27 March 2015)",
-        "planning/research/singers-digest.md (Appl Benjamin)"
+        "Кредиты официальной загрузки (yt-dlp, видео nK1WaE-JpH4): Benjamin Appl · Graham Johnson, «Schubert — Wigmore Hall Live», ℗ 2016 The Wigmore Hall Trust"
       ],
       "youtube": [
         {"videoId": "nK1WaE-JpH4", "channel": "Benjamin Appl - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Единственный кандидат «не ранее 2015» с документированной датой сессии — закрывает возрастное требование состава."
+      "note": "333 с, полная версия, живой звук. Кандидат на позицию «не ранее 2015 года» в возрастной структуре топ-5."
     },
     {
       "singer": "Ian Bostridge",
       "pianist": "Julius Drake",
       "rec_year": null,
-      "year_source": "Сессия НЕ УСТАНОВЛЕНА (в примечаниях Discogs release 11739460 дат нет). Издание: Wigmore Hall Live WHLive0088 «Songs by Schubert ~ 3», 2017 — живой рецитал, дата вечера не документирована в доступных источниках. Серия: WHLive0067 (2014), WHLive0077 (2015), WHLive0088 (2017), WHLive0091 (2018).",
-      "album": "Songs by Schubert ~ 3 (Wigmore Hall Live WHLive0088)",
+      "year_source": "НЕ УСТАНОВЛЕН. Кредиты официальной загрузки: альбом «Schubert 3 — Wigmore Hall Live», ℗ 2017 The Wigmore Hall Trust, релиз 23.06.2017. Дата концерта не документирована; страница Wigmore Hall недоступна (403). Для плеера — «2017?».",
+      "album": "Schubert 3 — Wigmore Hall Live (Wigmore Hall Live)",
       "label": "Wigmore Hall Live",
-      "age_voice": "около 52 лет (р. 1964), то есть после пика (дайджест: пик ~1995–2010; позже «интеллектуально, но манернее/суше»)",
-      "reputation": "Бостридж — крупная фигура, но дайджест фиксирует поздний спад; независимых оценок по D 917 не найдено. Версия 354 с — самая медленная в пуле.",
+      "age_voice": "около 53 лет (р. 1964); по дайджесту пик Бостриджа — ~1995–2010, далее «интеллектуально, но манернее/суше» (помечено в дайджесте как неподтверждённое суждение). То есть запись за пиком.",
+      "reputation": "Отдельной критики по треку нет. Темп самый растянутый среди теноров (355 с), что при известной манерности позднего Бостриджа — риск.",
       "sources": [
-        "Discogs release 11739460 (WHLive0088, 2017; Piano: Julius Drake)",
-        "planning/research/singers-digest.md (Bostridge Ian)"
+        "Кредиты официальной загрузки (yt-dlp, видео HEwvLiCy0QM): Ian Bostridge · Julius Drake, «Schubert 3 — Wigmore Hall Live», ℗ 2017 The Wigmore Hall Trust"
       ],
       "youtube": [
         {"videoId": "HEwvLiCy0QM", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Год для плеера пришлось бы ставить как «2017» (год издания) или «2016–17?»."
+      "note": "Загрузка живёт и на личном канале, и на «Ian Bostridge - Topic» (oEmbed отдаёт Topic — значит канал официальный)."
     },
     {
-      "singer": "Peter Pears",
-      "pianist": "Benjamin Britten",
+      "singer": "Felicity Lott",
+      "pianist": "Graham Johnson",
       "rec_year": null,
-      "year_source": "Сессия НЕ УСТАНОВЛЕНА. Единственный след — MusicBrainz-запись на диске «Songs by Schubert and Wolf: a personal selection by Sir Peter Pears from his recordings in the BBC Sound Archives» (1981), то есть радиозапись BBC неустановленных лет.",
-      "album": "Songs by Schubert and Wolf — from the BBC Sound Archives (1981)",
-      "label": "BBC",
-      "age_voice": "не определяется без даты; пик Пирса по дайджесту — 1950-е–1960-е",
-      "reputation": "Дуэт Пирс — Бриттен принадлежит к величайшим в шубертовском репертуаре (дайджест: Winterreise 1963 — «среди величайших»). Конкретно D 917 критикой не разбиралась.",
+      "year_source": "НЕ УСТАНОВЛЕН, и происхождение записи тоже. MusicBrainz (recording f7104aa8-ab23-47a9-ae53-1274a7695f2b) знает её только по компиляции Classic FM «Spring Classics» (CFMAGCD149, апрель 2007), 265 с. Проверены и ИСКЛЮЧЕНЫ два очевидных кандидата-источника: «Felicity Lott Sings Schubert» (Pickwick PCD 898, запись Лондон 6–7 февраля 1988) — в треклисте 17 песен, D 917 нет (Discogs 14784314); Hyperion Schubert Edition Vol. 19 «Songs about Flowers & Nature» (CDJ33019, запись 30 июня — 2 июля 1992, Rosslyn Hill Chapel) — треклист из 18 номеров, D 917 нет (MusicBrainz release b20482ec).",
+      "album": "не установлен (возможные направления доисследования: Hyperion CDD22010 «The Songmakers' Almanac Schubertiade», сборники Pickwick/Carlton)",
+      "label": "не установлен",
+      "age_voice": "не определяется до установления года записи; пик Лотт — 1980-е–1990-е.",
+      "reputation": "Отдельной критики нет.",
       "sources": [
-        "MusicBrainz recording Peter Pears / Benjamin Britten «Das Lied Im Grunes» (релиз 1981, BBC Sound Archives)",
-        "planning/research/singers-digest.md (Pears Peter)"
+        "MusicBrainz recording f7104aa8-ab23-47a9-ae53-1274a7695f2b",
+        "https://api.discogs.com/releases/14784314 (Pickwick PCD 898 — треклист без D 917)",
+        "MusicBrainz release b20482ec-382c-46ab-8678-41eec2d88149 (Hyperion CDJ33019 — треклист без D 917)"
       ],
       "youtube": [],
-      "note": "На YouTube не найдено (yt-dlp, целевой запрос). Потенциально ценнейшая историческая запись — кандидат на доисследование."
+      "note": "На YouTube целевым поиском не найдено. Кандидат нижнего эшелона: без установленного альбома и без ссылки к публикации непригоден."
     },
     {
       "singer": "Thomas Meglioranza",
       "pianist": "Reiko Uchida",
       "rec_year": null,
-      "year_source": "Сессия НЕ УСТАНОВЛЕНА; Topic-альбом «Schubert Songs» с меткой 2007 (год издания по метаданным, не первичный источник).",
-      "album": "Schubert Songs (независимое издание)",
-      "label": "независимый",
-      "age_voice": "не установлен",
-      "reputation": "Независимый американский баритон; в дайджесте фонда отсутствует, критической репутации в источниках проекта нет.",
-      "sources": ["yt-dlp metadata (Topic-канал «Thomas Meglioranza and Reiko Uchida»)"],
-      "youtube": [
-        {"videoId": "hgK8FUCIIB4", "channel": "Thomas Meglioranza and Reiko Uchida - Topic", "official": true, "oembed_ok": null},
-        {"videoId": "LzWGONaYWYA", "channel": "Thomas Meglioranza (собственный)", "official": true, "oembed_ok": null}
+      "year_source": "НЕ УСТАНОВЛЕН. Кредиты официальной загрузки (CDBaby): альбом «Schubert Songs», ℗ 2007 Thomas Meglioranza, релиз 01.01.2007. Дата сессии не документирована.",
+      "album": "Schubert Songs (собственный релиз певца)",
+      "label": "самиздат (дистрибуция CDBaby)",
+      "age_voice": "американский баритон; карточки в дайджесте проекта нет.",
+      "reputation": "Критической репутации сопоставимого уровня нет; релиз внелейбловый. Включён в пул для полноты, не как реальный претендент на пятёрку.",
+      "sources": [
+        "Кредиты официальной загрузки (yt-dlp, видео hgK8FUCIIB4)"
       ],
-      "note": "Полнота пула; для топ-5 не рассматривается."
+      "youtube": [
+        {"videoId": "hgK8FUCIIB4", "channel": "Thomas Meglioranza and Reiko Uchida - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "296 с, полная версия; на канале певца есть также концертный дубль LzWGONaYWYA."
+    },
+    {
+      "singer": "Herta Glaz",
+      "pianist": "Leo Müller",
+      "rec_year": 1954,
+      "year_source": "Дискография Майкла Грея, id 218787: «Das Lied im Grünen, D917 — 1954 — MGM — E3055 — Herta Glaz, mezzo-soprano; Leo Müller, piano». Точная дата сессии у Грея не указана (только год).",
+      "album": "MGM E3055",
+      "label": "MGM",
+      "age_voice": "около 46 лет (р. 1908); австро-американское меццо, певица Met 1940–50-х. Карточки в дайджесте проекта нет.",
+      "reputation": "Критической репутации не обнаружено; запись раритетная.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=218787"
+      ],
+      "youtube": [],
+      "note": "На YouTube не найдено. Фиксируется как полнота дискографического слоя."
     }
   ],
   "priority_singers_checked": {
-    "Thomas Quasthoff": "НЕ ЗАПИСЫВАЛ. Отсутствует среди 22 recordings, связанных с work D 917 в MusicBrainz; целевой поиск yt-dlp («Quasthoff Schubert Das Lied im Grünen D 917») даёт только его «Mit dem grünen Lautenbande» из Die schöne Müllerin. Дискография Квастхофа закрыта в 2012 и состоит ровно из 6 шубертовских альбомов (дайджест), среди которых песни этого типа нет.",
-    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ ДВАЖДЫ. (1) EMI с Г. Муром, сессия 24.02–01.03.1965; (2) DG с Г. Муром, сессия 03.1969, в составе свода «Sämtliche Lieder» 1966–72. Источник: MusicBrainz work-relations D 917; обе на официальных Topic-каналах.",
-    "Elisabeth Schwarzkopf": "ЗАПИСЫВАЛА. EMI с Эдвином Фишером, сессия 04–07.10.1952, первый релиз «12 Lieder» (сентябрь 1953). Плюс живая версия неустановленного года («Schubert & Wolf: Lieder (Live)», Topic). Источник: MusicBrainz work-relations; дайджест.",
-    "Hans Hotter": "НЕ НАЙДЕНО. Отсутствует в work-relations MusicBrainz; целевой поиск yt-dlp по «Hotter Das Lied im Grünen» даёт только другие песни (Im Frühling, Abschied, Alinde). Отрицательный результат.",
-    "Peter Anders": "НЕ НАЙДЕНО. Отсутствует в MusicBrainz work-relations; целевой поиск yt-dlp результатов с Андерсом не дал. Отрицательный результат.",
-    "Elisabeth Schumann": "ЗАПИСЫВАЛА. С Карлом Альвином, сессия 07.11.1932 (MusicBrainz work-relation); переиздание Naxos Historical 8.110731, трек 7 (naxos.com — состав подтверждён). Версия сокращённая (152 с). Метка «1928» на Topic — метаданные загрузки, не источник.",
-    "Christa Ludwig": "НЕ НАЙДЕНО. Отсутствует в MusicBrainz work-relations; целевой поиск yt-dlp результатов с Людвиг не дал. Отрицательный результат.",
-    "Lucia Popp": "НЕ НАЙДЕНО. Отсутствует в MusicBrainz work-relations; целевой поиск yt-dlp результатов с Попп не дал. Отрицательный результат."
+    "Quasthoff Thomas": "НЕ ЗАПИСЫВАЛ. В каркасе MusicBrainz по work 6529005c (22 записи) Квастхофа нет; целевые поиски YouTube по D 917 его не дают. Дискография Квастхофа закрыта в 2012 г. и состоит ровно из 6 шубертовских альбомов (дайджест проекта): Goethe-Lieder (RCA 1993/95), Winterreise (RCA 1998), Schwanengesang (DG 2001), Lieder с оркестром (DG 2003), Müllerin (DG 2005), Winterreise-фильм (DG 2005). D 917 — на текст Фридриха Райля, вне гётевской программы, и вне всех трёх циклов, то есть попасть ему было некуда.",
+    "Fischer-Dieskau Dietrich": "ЗАПИСЫВАЛ, дважды. (1) EMI/Electrola с Джералдом Муром, Берлин-Целендорф, 24, 25, 28 февраля и 1 марта 1965 — буклет EMI CDM 7 69503 2 (Discogs 6124629) + Грей id 173733/202735. (2) DG «Sämtliche Lieder» с Муром (сессии свода 1966–1972; конвенция проекта — 1969), релизы DG 437 214-2 / 437 225-2 / 4862073. Обе доступны на «Dietrich Fischer-Dieskau - Topic».",
+    "Schwarzkopf Elisabeth": "ЗАПИСЫВАЛА. С Эдвином Фишером, 5 октября 1952, Abbey Road Studio 1A, Columbia 33CX 1040 — дискография Грея id 58917. Доступна официально (Warner Topic, PB3aLP1j_QA / 86z3G5RcNlA).",
+    "Hotter Hans": "НЕ ЗАПИСЫВАЛ. Поиск у Грея (composer=Schubert, artists=Hotter%) даёт 56 шубертовских позиций — Winterreise (несколько комплектов), Schwanengesang, отдельные песни (D 493, D 768, D 361, D 882, D 547, D 216, D 583, D 957 и др.); Das Lied im Grünen среди них отсутствует. В MusicBrainz по этому work Хоттера тоже нет.",
+    "Anders Peter": "НЕ ЗАПИСЫВАЛ. Поиск у Грея (composer=Schubert, work='Lied im%', artists=Anders%) — «No entries found»; в каркасе MusicBrainz по work отсутствует; целевой поиск YouTube результата не даёт.",
+    "Schumann Elisabeth": "ЗАПИСЫВАЛА. Подтверждено каталогом Naxos 8.110731 (трек 7, Schumann/Alwin, 2:35) и треклистом EMI CHS 7 63040 2 (Discogs 23215766, трек 1-7, 2:32); MusicBrainz recording 4b016aaa. Дата сессии не установлена ни у Грея, ни в буклетах — см. кандидата. Версия сильно сокращена (2:32 против 5 мин).",
+    "Ludwig Christa": "НЕ ЗАПИСЫВАЛА. Поиск у Грея (composer=Schubert, work='Lied%', artists='Ludwig, Christa%') — «No entries found»; в MusicBrainz по work отсутствует; целевой поиск YouTube ничего не даёт.",
+    "Popp Lucia": "НЕ ЗАПИСЫВАЛА. В каркасе MusicBrainz по work отсутствует; в дайджесте её шубертовская дискография расписана поимённо (рецитал EMI 1983 с Gage; BBC Legends BBCL 4025-2 — D 688, D 775, D 260, D 891; BBCL 4148-2 — D 860, D 300, D 368, D 800) — D 917 нет ни в одной позиции; целевой поиск YouTube результата не даёт."
   },
   "albums_facts": [
     {
-      "album": "Schubert: 12 Lieder (EMI; Schwarzkopf — Edwin Fischer)",
+      "album": "Schubert Song Recital (Columbia 33CX 1040)",
       "singer": "Elisabeth Schwarzkopf",
       "year": 1952,
-      "label": "EMI / Warner Classics",
-      "facts": "Сессия 04–07.10.1952 (MusicBrainz work-relation); первый релиз — сентябрь 1953. Эталонный рецитал: великий пианист-солист за роялем. Входит в Warner-бокс «Complete Recitals 1952–1974».",
+      "label": "Columbia (UK) / EMI",
+      "facts": "Сессии 4–7 октября 1952, Abbey Road Studio 1A; D 917 записана 5 октября (Грей id 58917). Пианист — Эдвин Фишер. LP выпущен в 1954 (Discogs 11120503). Переиздания: EMI CDH 7 64026 2, Naxos Historical 8.111287 (реставрация Mark Obert-Thorn), Warner «Complete Recitals 1952–1974». Карточка уже есть в albums.md (по D 828 и D 162) — дополняется D 917.",
       "covers_more_pilot_songs": true
     },
     {
-      "album": "DG «Schubert: Sämtliche Lieder» (Fischer-Dieskau — Moore, 1966–72, 21 CD)",
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, 9. Folge (Electrola SME 91419 / HMV ASD 2263) → CD «21 Lieder» EMI CDM 7 69503 2",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1965,
+      "label": "Electrola / HMV / EMI",
+      "facts": "НОВАЯ карточка для реестра. Сессии 24, 25, 28 февраля и 1 марта 1965, Berlin-Zehlendorf, Evangelisches Gemeindehaus; пианист Gerald Moore (Грей id 173733, 202735, 202736; буклет CDM 7 69503 2 — Discogs 6124629). CD-компиляция 1988 г. содержит 20 треков из этой сессии плюс Erlkönig из сессии 23–24 мая 1958. Важно: этот EMI-слой — отдельная запись, не путать с DG-сводом.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
       "singer": "Dietrich Fischer-Dieskau",
       "year": 1969,
       "label": "Deutsche Grammophon",
-      "facts": "D 917 записана в марте 1969 (MusicBrainz work-relation). Свод охватывает все ~400+ мужских песен — сквозной кандидат для любой песни корпуса.",
+      "facts": "Уже в реестре. Сессии свода 1966–1972, Ufa-Ton-Studio Berlin, Gerald Moore; конвенция проекта — 1969. Сессия именно D 917 не документирована: у Грея есть только том Vol. 2 (2720 022, песни 1811–1817), а D 917 (1827) относится к тому Vol. 1 (2720 006), которого в базе Грея нет.",
       "covers_more_pilot_songs": true
     },
     {
-      "album": "EMI-рецитал Fischer-Dieskau — Moore (переизд. «21 Lieder», «The Great EMI Recordings»)",
-      "singer": "Dietrich Fischer-Dieskau",
-      "year": 1965,
-      "label": "EMI / Warner Classics",
-      "facts": "Сессия 24.02–01.03.1965 (MusicBrainz work-relation). Отдельная от DG-свода линия записей ФД с тем же пианистом, на 4 года раньше.",
+      "album": "Elisabeth Schumann — Schubert Lieder (HMV 78s) → EMI CHS 7 63040 2 / Naxos Historical 8.110731 / Warner «Icon»",
+      "singer": "Elisabeth Schumann",
+      "year": null,
+      "label": "HMV / EMI / Naxos Historical",
+      "facts": "Пианист Karl Alwin; D 917 в сокращении (2:32–2:35). Дата сессии не документирована ни у Грея (по Шуман/Альвину у него только D 799 и D 691, HMV D1411 / Victor 6837), ни в буклетных данных Discogs, ни на каталожной странице Naxos. Требуется матричный поиск по HMV-сессиям Шуман/Альвина (правило дат по матрицам). Дополняет существующие карточки Шуман в albums.md.",
       "covers_more_pilot_songs": true
     },
     {
-      "album": "The Hyperion Schubert Edition, Vol. 5: Schubert and the Countryside (CDJ33005)",
-      "singer": "Elizabeth Connell",
-      "year": 1988,
-      "label": "Hyperion",
-      "facts": "Запись — сентябрь 1988, издание — декабрь 1989 (hyperion-records.co.uk). Пианист и составитель — Graham Johnson. 14 «зелёных» песен Шуберта. Пресса: Gramophone, ARG («A must for all Schubertians»), The Guardian, The Times (цитаты в карточке кандидата).",
+      "album": "Rita Streich singt Lieder von Franz Schubert (DG LPM 18585 / SLPM 138047)",
+      "singer": "Rita Streich",
+      "year": 1959,
+      "label": "Deutsche Grammophon",
+      "facts": "УТОЧНЕНИЕ К РЕЕСТРУ: карточка albums.md датирует диск «1960 (℗; LP отпечатан 4/62)», тогда как дискография Грея (id 4269) документирует сессии 1–4 апреля 1959, Berlin, Jesus-Christus-Kirche; Rita Streich, soprano; Erik Werba, piano; Heinrich Geuser, clarinet (для D 965). По правилу «год сессии, если документирован» диск должен получить 1959 сквозным образом.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (DG LPM/SLPM 136009) → «Irmgard Seefried — Lieder» (DG 477 6514)",
+      "singer": "Irmgard Seefried",
+      "year": 1958,
+      "label": "Deutsche Grammophon",
+      "facts": "Сессии 30 мая и 3, 7–8 июня 1958, Wien, Musikverein, Brahms-Saal; пианист Erik Werba (Грей id 4263). D 917 — в сокращённой редакции (157 с). Существует также венский концертный диск Seefried/Werba (Concert Hall SMS-2600, 1968, Wien, Konzerthaus — Грей id 217165), содержание которого по D 917 не проверено.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Frauenliebe und -leben / Lieder (Philips 6500 706)",
+      "singer": "Elly Ameling",
+      "year": 1974,
+      "label": "Philips / Universal",
+      "facts": "НОВАЯ карточка. Пианист Dalton Baldwin; D 917 — трек B1 (5:06), одна из немногих полных версий у старых мастеров. Год издания 1974 (Discogs 12495990); дата сессии не документирована — у Грея этого номера нет. Соседний шубертовский диск дуэта Philips 6500 704 записан 21–26 августа 1973 (Грей id 59917), но перенос даты на 6500 706 недоказуем. Переиздания: Philips 420 870-2, «The Artistry of Elly Ameling», «Philips Classics: The Stereo Years» (478 8977).",
       "covers_more_pilot_songs": true
     },
     {
@@ -468,102 +466,65 @@
       "singer": "Margaret Price",
       "year": 1981,
       "label": "Orfeo",
-      "facts": "Записано 9–11 сентября 1981, Festsaal, Kloster Seeon; цифровая запись, продюсер Dieter Sinn, инженер Wolfgang Götz, в сотрудничестве с Bayerischer Rundfunk; кларнет Hans Schöneberger (в D 965); ℗1981 (буклет, Discogs 5600726). CD C 001811 A (1984) — переиздание. Уточняет датировку дайджеста («~1980, изд. 1984»).",
+      "facts": "Уже в реестре (albums.md, по D 917 и D 965): запись 9–11 сентября 1981, Festsaal, Kloster Seeon; продюсер Dieter Sinn, инженер Wolfgang Götz, совместно с Bayerischer Rundfunk; за роялем Вольфганг Заваллиш; CD C 001811 A (1984) — переиздание. Год 1981 должен быть единым во всех песнях корпуса с этого диска.",
       "covers_more_pilot_songs": true
     },
     {
-      "album": "Schubert: An mein Herz (harmonia mundi HMC902004.05) — том 2 Matthias Goerne Schubert Edition",
-      "singer": "Matthias Goerne",
-      "year": 2007,
-      "label": "harmonia mundi",
-      "facts": "Запись: октябрь 2007 (CD 1) и январь 2008 (CD 2), Teldex Studio Berlin; пианисты — Helmut Deutsch и Eric Schneider; инженеры Ansgar Wempe, Tobias Lehmann; монтаж René Möller; 92-страничный буклет; TT 2:04:13 (буклет, Discogs 15096186). D 917 — с Хельмутом Дойчем (MusicBrainz).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Schubert — Wigmore Hall Live (WHLive0082)",
-      "singer": "Benjamin Appl",
-      "year": 2015,
-      "label": "Wigmore Hall Live",
-      "facts": "Живой рецитал 27 марта 2015, Wigmore Hall; ф-но — Graham Johnson; продюсер Jeremy Hayes, инженер Steve Portnoi; TT 72:19; издание 2016 (Discogs 20004631).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Songs by Schubert ~ 3 (Wigmore Hall Live WHLive0088)",
-      "singer": "Ian Bostridge",
-      "year": 2017,
-      "label": "Wigmore Hall Live",
-      "facts": "Издание 2017; ф-но Julius Drake, аннотации Richard Stokes, продюсер Jeremy Hayes. Дата концерта в примечаниях издания отсутствует — год записи не установлен. Серия из четырёх дисков: WHLive0067 (2014), 0077 (2015), 0088 (2017), 0091 (2018).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Rita Streich singt Lieder von Franz Schubert (DG 138 047 SLPM / LPM 18585)",
-      "singer": "Rita Streich",
-      "year": 1960,
-      "label": "Deutsche Grammophon",
-      "facts": "Кредиты Discogs (5698657): Rita Streich (сопрано), Erik Werba (ф-но). Дайджест датирует альбом 1960 г. (включает Hirt auf dem Felsen с кларнетистом Geuser). Точная сессия не документирована в доступных источниках.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Irmgard Seefried — Lieder (DG; переизд. Eloquence 2007)",
-      "singer": "Irmgard Seefried",
-      "year": 1958,
-      "label": "Deutsche Grammophon",
-      "facts": "Сессия D 917: 30.05–08.06.1958 (MusicBrainz work-relation); пианист Erik Werba. Topic-метка 1959 — год издания.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Philips-рецитал Elly Ameling — Dalton Baldwin (первый релиз «Frauenliebe und -leben / Lieder», 1974)",
-      "singer": "Elly Ameling",
-      "year": 1973,
-      "label": "Philips (Universal)",
-      "facts": "Сессия D 917: август 1973 (MusicBrainz work-relation), релиз 1974. Переиздания: «The Artistry of Elly Ameling», «Schubert: Lieder — Ave Maria», «Philips Classics: The Stereo Years» (2016).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Naxos Historical 8.110731 (Elisabeth Schumann)",
-      "singer": "Elisabeth Schumann",
-      "year": 1932,
-      "label": "HMV (ориг.) / Naxos Historical",
-      "facts": "Трек 7 — «Das Lied im Grünen, Op. 115, No. 1, D. 917», Schumann/Alwin (naxos.com, каталожная страница; релиз переиздания 11/2002). Дата сессии 07.11.1932 — по MusicBrainz work-relation; по матрицам HMV не сверено (classical-discography.org недоступен без JS).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Lieder on Record 1898–2012 (EMI/Warner, антология, 2012)",
-      "singer": "Sigrid Onegin; Julius Patzak (и др.)",
-      "year": 2012,
-      "label": "EMI / Warner Classics",
-      "facts": "Кураторская историческая антология; из неё взяты D 917 Онегин (сессия 31.10.1930, ф-но Clemens Schmalstich) и Патцака (сессия 05.12.1947, ф-но Hermann von Nordberg) — даты по MusicBrainz work-relations, ремастеры 1997.",
+      "album": "The Hyperion Schubert Edition, Vol. 5 — Schubert & the Countryside (Hyperion CDJ33005)",
+      "singer": "Elizabeth Connell",
+      "year": 1988,
+      "label": "Hyperion",
+      "facts": "НОВАЯ карточка. Запись сентябрь 1988, Kimpton Parish Church, Hertfordshire; пианист и автор комментариев Graham Johnson; продюсер Mark Brown, инженер Antony Howell; издание декабрь 1989, 60'45. Пресса (страница Hyperion): Gramophone Critics' Choice; American Record Guide — «A must for all Schubertians»; The Guardian — «I have never heard Elizabeth Connell's voice more beautifully caught on disc than in this Schubert series». Том тематически посвящён «деревенским» песням — естественный дом для D 917.",
       "covers_more_pilot_songs": true
     },
     {
       "album": "Schubert: 15 Lieder (Nuova Era 6860)",
       "singer": "Gundula Janowitz",
-      "year": 1990,
-      "label": "Nuova Era",
-      "facts": "Издание 1990, сделано в Японии; TT 56:28; ф-но Charles Spencer (Discogs 22165180). Дата сессии не документирована. Переиздание — Brilliant «The Masterworks» (2004).",
+      "year": null,
+      "label": "Nuova Era / Brilliant Classics",
+      "facts": "Уже в реестре (по D 917): издание 1990, отпечатано в Японии; пианист Charles Spencer; общее время 56'28; дата сессии не документирована; переиздания Brilliant 99443 (1999) и «The Masterworks» 92394 (2004).",
       "covers_more_pilot_songs": true
     },
     {
-      "album": "Naxos Deutsche Schubert-Lied-Edition, том 23: Austrian Contemporaries Vol. 3",
+      "album": "Schubert: Lied Edition 23 — Austrian Contemporaries, Vol. 3 (Naxos, Deutsche Schubert-Lied-Edition)",
       "singer": "Daniela Sindram",
       "year": 2007,
       "label": "Naxos",
-      "facts": "Релиз 27.03.2007; пианист Ulrich Eisenlohr. Часть полного издания песен Шуберта (DSLE), сквозной кандидат для редких песен корпуса.",
+      "facts": "НОВАЯ карточка. Релиз 27 марта 2007; D 917 — трек 8; пианист Ulrich Eisenlohr (руководитель издания), продюсер Pauline Heister, инженер Wolfgang Karreth. Дата сессии не документирована; каталожный номер тома установить не удалось. Издание — одно из трёх сквозных полных сводов корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "An mein Herz (Matthias Goerne Schubert Edition; harmonia mundi HMC 902004.05)",
+      "singer": "Matthias Goerne",
+      "year": 2007,
+      "label": "harmonia mundi",
+      "facts": "НОВАЯ карточка. Буклет: запись CD 1 — октябрь 2007, CD 2 — январь 2008, Teldex Studio Berlin (в буклете опечатка «20017»); издание октябрь 2008; общее время 2h04'13. Пианисты: Helmut Deutsch (CD 1, включая D 917 — трек 1-2) и Eric Schneider (CD 2). Часть 12-томного свода HM 2008–2014.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert — Wigmore Hall Live (℗ 2016) и Schubert 3 — Wigmore Hall Live (℗ 2017)",
+      "singer": "Benjamin Appl / Ian Bostridge",
+      "year": null,
+      "label": "Wigmore Hall Live",
+      "facts": "НОВЫЕ карточки. Живые записи из Wigmore Hall: Appl с Graham Johnson (релиз 29.04.2016) и Bostridge с Julius Drake (релиз 23.06.2017). Даты самих концертов не документированы — сайт Wigmore Hall отдаёт HTTP 403, в кредитах загрузок дат нет. Дистрибуция на YouTube — The Orchard, каналы «— Topic» официальные.",
       "covers_more_pilot_songs": true
     }
   ],
   "surveys": [
-    "klassik-prisma.de — сравнения (Vergleich) именно по D 917 НЕТ: индекс шубертовских песен сайта (https://www.klassik-prisma.de/Schubert.htm) содержит только D 774, D 965, D 828, D 328, D 118, D 583, D 827, D 795, D 911.",
-    "hyperion-records.co.uk, страница альбома CDJ33005 «Schubert and the Countryside» (https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33005) — не сравнительный обзор, но единственный найденный источник прямых критических цитат (Gramophone, American Record Guide, The Guardian, The Times) по диску, содержащему D 917."
+    "https://www.klassik-prisma.de/Schubert.htm — индекс шубертовских сравнительных обзоров Бернда Штреммеля; ОТРИЦАТЕЛЬНЫЙ результат: страницы по D 917 нет (есть только D 774, D 965, D 828, D 328, D 118, D 583, D 827, D 795, D 911); прямой адрес klassik-prisma.de/Schubert/lied_im_gruenen.htm отдаёт 404",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33005 — страница тома 5 Hyperion Schubert Edition с датами сессии и подборкой прессы (Gramophone Critics' Choice, American Record Guide, The Guardian)",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33019 — страница тома 19 (проверена и исключена как источник записи Лотт)",
+    "https://www.classical-discography.org/ — дискография Майкла Грея; POST-поиск search2.php (composer=Schubert, work='Lied im Gr%') даёт 6 документированных сессий D 917: Gerhardt 1925, Onegin 1930, Erb 1937, Patzak 1947, Schwarzkopf 1952, Glaz 1954"
   ],
   "negatives": [
-    "Сравнительного обзора (Vergleich / blind test / Gramophone Collection) именно по «Das Lied im Grünen» не найдено — песня известная, но не «конкурсная»; ранжирование придётся строить на репутации исполнителей и альбомов.",
-    "Quasthoff, Hotter, Anders, Ludwig, Popp — записей D 917 не обнаружено (MusicBrainz work-relations + целевые поиски yt-dlp). Из приоритетных певцов песню пели только Фишер-Дискау (дважды), Шварцкопф и Э. Шуман.",
-    "Cheryl Studer / Irwin Gage (DG 431 773-2, 1991/92) и Felicity Lott / Graham Johnson существуют дискографически, но роликов на YouTube найти не удалось.",
-    "Peter Pears / Benjamin Britten — запись существует только в архиве BBC (диск 1981 г.); на YouTube отсутствует; дата не установлена.",
-    "Исторические версии (Onegin 1930, Schumann 1932, Erb 1934–39, Patzak 1947, Seefried 1958, Streich 1960) идут 142–231 с против 300–333 с у полных — то есть поют не все строфы (формат 78 об./мин и его инерция). Это существенный отборочный фактор: подстрочник на сайте покрывает полный текст.",
-    "Даты сессий у Janowitz (Nuova Era 1990), Bostridge (WHLive0088, 2017), Studer (DG 1992), Lott, Pears, Erb, Gerhardt не документированы в доступных источниках; по правилу о неустановленном годе для них пришлось бы ставить год издания или диапазон со знаком вопроса.",
-    "Бюджет WebSearch исчерпан (200/200) до начала задачи; поисковые системы из контейнера недоступны (403/429) — Gramophone, MusicWeb, BBC Music Magazine напрямую не проверены. Presto Music отдаёт 403. Это ограничение исследования, а не отсутствие материала.",
-    "classical-discography.org (дискография Майкла Грея) отдаёт только JS-оболочку без поисковой формы — сверка матриц HMV для записи Э. Шуман 1932 г. не выполнена."
+    "Сравнительного обзора (Vergleich) именно по D 917 у klassik-prisma не существует — проверено по индексу шубертовских страниц лейбла. Ранжирование придётся строить без опорного рейтинга, на дискографических фактах и репутации альбомов.",
+    "Квастхоф, Хоттер, Андерс, Людвиг и Попп эту песню не записывали (детали и способы проверки — в priority_singers_checked). Значит, места 1 и 4-й группы иерархии приоритетов частично пусты, и порядок топ-5 фактически начинается с Фишера-Дискау и Шварцкопф.",
+    "Странность фонда: подавляющее большинство исторических записей — сокращённые (78-оборотный формат либо редакторские купюры): Э. Шуман 2:32, Патцак 2:39, Эрб 3:14, Штрайх 3:24, Онегин 3:50, Зеефрид 2:37, Яновиц 4:08. Полные пятиминутные версии дают Фишер-Дискау (обе), Амелинг, Прайс, Коннелл, Зиндрам, Гёрне, Аппль, Бостридж, Мельоранца. Шварцкопф — 4:34, промежуточный случай. Это самостоятельный критерий отбора: сокращённая версия ломает форму песни.",
+    "Дата записи Элизабет Шуман (приоритетный исполнитель) НЕ УСТАНОВЛЕНА: у Грея её D 917 нет, буклетные данные Discogs и каталог Naxos дат не публикуют. Метаданные Topic («1928») по правилу проекта источником не являются. Требуется отдельный матричный проход, либо публикация с диапазоном «1927–30?».",
+    "Дата сессии Ameling (Philips 6500 706), Janowitz (Nuova Era 6860), Sindram (Naxos DSLE 23), Appl и Bostridge (Wigmore Hall Live) не документирована — во всех случаях доступен только год издания.",
+    "Происхождение записи Felicity Lott / Graham Johnson не установлено: два очевидных кандидата-альбома проверены по треклистам и исключены (Pickwick PCD 898 и Hyperion CDJ33019). На YouTube записи нет.",
+    "Elena Gerhardt (HMV DA 706, 24.03.1925) и Herta Glaz (MGM E3055, 1954) на YouTube не найдены — дискографически существуют, но непубликуемы.",
+    "Бюджет WebSearch сессии был исчерпан (200/200) до начала работы; Bing и DuckDuckGo через WebFetch отдают мусор либо CAPTCHA. Поэтому пресс-обзоры Gramophone/MusicWeb/BBC Music Magazine по отдельным записям D 917 собрать не удалось — репутация большинства кандидатов зафиксирована на уровне альбома/издания, а не трека. Это ограничение, а не вывод об отсутствии таких рецензий.",
+    "Discogs API жёстко ограничивает частоту (HTTP 429): запросы приходилось разносить на 20–90 с. Веб-интерфейс Discogs и prestomusic.com отдают 403."
   ]
 }

@@ -4,39 +4,59 @@
  "candidates": [
   {
    "singer": "Dietrich Fischer-Dieskau (баритон)",
-   "pianist": "Gerald Moore (предположительно)",
-   "rec_year": "не установлен для конкретной версии — минимум две разные записи на Topic (D. 516 «Der Lerche…» и «Vier Lieder, Op. 8: No. 2, Sehnsucht»)",
-   "year_source": "реестр даёт общую DG Sämtliche Lieder (1966–72); опусная группировка «Op. 8» указывает на вероятную более раннюю запись (додевовская или ранняя DG/HMV эпоха, опусные группы типичны для записей 1950-х), НЕ подтверждено отдельно",
-   "album": "Schubert: Sämtliche Lieder (DG, 21 CD) и/или более ранняя запись по Op. 8 — требует уточнения",
-   "label": "Deutsche Grammophon (и/или более ранний лейбл — не установлен)",
-   "voice_note": "приоритетный исполнитель №2; при наличии двух разных записей для ранжирования нужно выбрать по стандартному правилу «более ранняя при сходном уровне» после уточнения дат",
-   "reputation": "эталонный полный свод; дублирующиеся videoId (несколько записей одной песни на канале) указывают на возможность двух разных исполнений в карьере",
+   "pianist": "Gerald Moore",
+   "rec_year": "1969",
+   "year_source": "кредиты official audio: альбом «Schubert: Lieder (Vol. 2)», ℗ 1969 Deutsche Grammophon GmbH, Berlin, продюсер Rainer Brock — том цикла DG «Sämtliche Lieder» (2720 022); корпусная конвенция года для этого свода — 1969. Гипотеза досье о ранней записи «по группировке Op. 8» опровергнута",
+   "album": "Schubert: Lieder (Vol. 2) — DG «Sämtliche Lieder» (2720 022)",
+   "label": "Deutsche Grammophon",
+   "duration_sec": 191,
+   "voice_note": "приоритетный исполнитель №2; 1969 — центр его лидерной формы",
+   "reputation": "эталонный полный свод",
    "videoId": "gaxdWmVNoZM",
    "channel": "Dietrich Fischer-Dieskau - Topic",
-   "official": true
+   "official": true,
+   "duplicates": ["7pZ74UqlwH8", "Qn1CZ_Efxag"]
   },
   {
    "singer": "Elly Ameling (сопрано)",
-   "pianist": "не установлен",
-   "rec_year": "не установлен для этой конкретной песни",
-   "year_source": "реестр даёт общий диапазон карьеры (singers-digest.md); D 516 к конкретному альбому не привязан",
-   "album": "не установлен",
-   "label": "Philips/Universal — предположительно",
-   "voice_note": "Амелинг на пике ~1965–1985 (дайджест)",
-   "reputation": "не установлена отдельно для этого трека; два разных videoId на Topic",
+   "pianist": "Rudolf Jansen",
+   "rec_year": "1984 (сессия: Утрехт, август 1984)",
+   "year_source": "два независимых печатных источника: (1) конверт/буклет оригинального издания Philips 416 294 — «Recorded: Utrecht, The Netherlands, 8/1984» (Discogs 7457003, LP 416 294-1; Discogs 14910498, CD 416 294-2; там же ℗ 1986, тексты © 1987, изд. 1987); (2) буклет бокса Decca/Eloquence «Elly Ameling — The Philips Recitals» (484 4125, 2023): Recording Locations «15. Utrecht, The Netherlands, August 1984», Original releases «15. r7457003» — прямое отождествление диска 15 с Philips 416 294-1; диск помечен DDD. ℗-метка YouTube «1986» источником даты не считается. РАНЕЕ В ДОСЬЕ И TOP5 СТОЯЛ 1986 — исправлено",
+   "album": "Schubert: Lieder (Philips 416 294-1 / -2), 15 песен: D 544, 677, 764, 854, 410, 744, 518, 550, 361, 774, 694, 765, 516, 457, 690; переизд. Philips Dutch Masters 464 334-2 (1999, диск 4) и Eloquence 484 4125 (2023)",
+   "label": "Philips (Universal International Music B.V.); продюсер Wilhelm Hellweg, инженер Willem van Leeuwen",
+   "duration_sec": 246,
+   "voice_note": "Амелинг на пике ~1965–1985; сессия 1984 — внутри пика (ей 51)",
+   "reputation": "поздние цифровые рециталы Амелинг на Philips получали столь же высокие оценки, что и аналоговые предшественники, и стали коллекционной редкостью — часть из них впервые переиздана лишь в боксе Eloquence 2023 (аннотация бокса, Discogs 27731985)",
    "videoId": "Lo5Ei-3h-L8",
    "channel": "Elly Ameling - Topic",
+   "official": true,
+   "duplicates": ["hJAyG_Estls"],
+   "qa_flag_resolved": "Флаг QA (длительность 246 с против 177–191 с у остальных) закрыт: (1) в кредитах official audio лирик — Johann Mayrhofer, а из девяти «Sehnsucht» корпуса на Мейрхофера положена только D 516; (2) печатные трек-листы дают ту же длительность одной песни: Philips 416 294 — «Sehnsucht D. 516 — 3:59», Dutch Masters 464 334-2 (диск 4, трек 13) — «Sehnsucht, D.516 (Mayrhofer) — 4:01»; склейка исключена арифметически (любая пара соседних треков альбома ≥ 6 мин); (3) причина длительности — заметно более медленный темп певицы (её D 361 на том же альбоме 3:51–3:54 против 3:32 у ФД). Прослушивание из контейнера технически невозможно: загрузка аудио с YouTube даёт HTTP 403 при всех player-клиентах yt-dlp, а единственный ffmpeg (playwright-сборка) собран без аудиодекодеров"
+  },
+  {
+   "singer": "Siegfried Lorenz (баритон)",
+   "pianist": "Norman Shetler",
+   "rec_year": "1983",
+   "year_source": "Eterna 8 27 141 «Lieder nach Mayrhofer» (1983); альбом назван в кредитах official audio («Franz Schubert: Lieder nach Mayrhofer (Lorenz, Shetler)», ℗ VEB Deutsche Schallplatten; цифровой релиз Kontor New Media 26.01.2009 — дата релиза, не сессии). Год 1983 совпадает с корпусными D 525 и D 754",
+   "album": "Franz Schubert: Lieder nach Mayrhofer (Eterna 8 27 141)",
+   "label": "Eterna / VEB Deutsche Schallplatten Berlin",
+   "duration_sec": 188,
+   "voice_note": "лирический баритон берлинской школы в лучшей форме",
+   "reputation": "тематически родной том для майрхоферовской песни; сам певец в фонде рангом ниже приоритетных",
+   "videoId": "CCv9ZWX9oLY",
+   "channel": "Siegfried Lorenz - Topic",
    "official": true
   },
   {
-   "singer": "Lucia Popp (сопрано) — не подтверждено",
+   "singer": "Edith Mathis (сопрано) — НЕ Лючия Попп (гипотеза досье опровергнута)",
    "pianist": "Graham Johnson",
-   "rec_year": "IV.1992, изд. IV.1993 — если это Vol. 17",
-   "year_source": "НЕ подтверждено track-листингом (JS-контент hyperion-records.co.uk недоступен через WebFetch), но по году песни (1816) и названию тома («Schubert in 1816») — сильное предположение",
-   "album": "предположительно Hyperion Schubert Edition, Vol. 17 «Schubert in 1816» (CDJ33017)",
-   "label": "Hyperion/Universal — предположительно",
-   "voice_note": "приоритетный исполнитель (группа №4); Vol. 17 — «один из последних студийных рециталов Попп» (ум. 1993, дайджест) — документ поздней, но ещё сохранной формы",
-   "reputation": "требует подтверждения track-листинга перед включением в топ-5, но как гипотеза — самый ценный кандидат пула (приоритетная певица + точное совпадение года темы тома)",
+   "rec_year": "X.1992 (изд. VI.1994)",
+   "year_source": "кредиты official audio: «Graham Johnson · Edith Mathis», альбом «Schubert: Hyperion Song Edition 21 — Schubert in 1817 & 1818» (CDJ33021), ℗ 1994 Hyperion Records, релиз 01.06.1994; сессия X.1992 по дискографии Hyperion. Контрпроверка: полный трек-лист Vol. 17 (Discogs 12711683) — D 516 в нём отсутствует, значит это не запись Попп",
+   "album": "The Hyperion Schubert Edition, Vol. 21 «Schubert in 1817 & 1818» (CDJ33021)",
+   "label": "Hyperion",
+   "duration_sec": 177,
+   "voice_note": "Матис в 1992 — поздняя, но сохранная форма; опытная лидер-певица серии Джонсона",
+   "reputation": "том серии Hyperion Schubert Edition — эталонный академический свод с комментариями Джонсона",
    "videoId": "AvLQCid-Uqo",
    "channel": "Graham Johnson - Topic",
    "official": true
@@ -44,14 +64,21 @@
  ],
  "priority_check": {
   "Quasthoff": "нет",
-  "Fischer-Dieskau": "да — включён",
+  "Fischer-Dieskau": "да — включён (№1)",
   "Schwarzkopf": "нет данных",
   "Hotter": "нет",
   "Anders": "нет",
   "E. Schumann": "нет",
   "Ludwig": "нет данных",
-  "Popp": "да, предположительно (Hyperion Vol. 17 «Schubert in 1816») — ТРЕБУЕТ подтверждения track-листинга перед публикацией"
+  "Popp": "НЕТ — гипотеза досье опровергнута: запись с канала Graham Johnson поёт Эдит Матис (Hyperion Vol. 21), D 516 в Vol. 17 отсутствует"
  },
- "new_albums": [],
- "notes": "ВАЖНО: D 516 «Sehnsucht» (Mayrhofer, «Der Lerche wolkennahe Lieder») — одна из минимум пяти разных песен Шуберта под названием «Sehnsucht» в корпусе (D 52, D 123, D 310, D 359, D 481, D 636, D 879 и др.). В выдаче кандидатов много ложных совпадений по каналу/названию, исключены: Brigitte Fassbaender-Topic «D.879», Hermann Prey-Topic и FiDi-Topic «D. 52», incontrario motu «D.636» (Fischer-Dieskau/Engel и Prey/Moore), LOFTmusic «D. 636» (Prey/Deutsch), Elly Ameling-Topic «D. 310», Graham Johnson-Topic «D. 310», Piano4Songs «Op 39» (не тот опус). Также вне пула: Marc Hantaï-Topic (переложение для голоса, флейты и гитары — другой формат аккомпанемента), Виктория Заболоцкая (современная, не в реестре, дважды загружено — низкая значимость, без дополнительных данных), Donata Cucinotta (нет данных)."
+ "new_albums": [
+  "Ameling — Schubert: Lieder (Philips 416 294-1 / 416 294-2): сессия Утрехт, август 1984; ℗ 1986; изд. 1987; Rudolf Jansen; 15 песен (D 544, 677, 764, 854, 410, 744, 518, 550, 361, 774, 694, 765, 516, 457, 690); переизд. Dutch Masters 464 334-2 (1999) и Eloquence 484 4125 (2023, диск 15). Корпусный год — 1984. Источники: Discogs 7457003, 14910498, 37972650, 27731985"
+ ],
+ "corpus_actions": [
+  "Сквозная унификация года альбома Philips 416 294: D 744 (r5Bl6oGnee0) 1986 → 1984; D 765 (6k_qkoH6uSc) 1987 → 1984; D 854 (4p6psqa3Jnc) 1987 → 1984; D 516 (Lo5Ei-3h-L8) публикуется как 1984",
+  "Правка обоснований: d765-an-die-entfernte-top5.md («сессия дискографически не установлена» — устарело), d361-am-bach-im-fruhlinge-top5.md (резерв «Ameling — Jansen, 1986»), d744-schwanengesang-top5.md, d544-ganymed-top5.md (упоминание «℗ 1986»)",
+  "НЕ трогать записи Ameling — Jansen с концерта в Тэнглвуде 2.07.1987 (D 259 boN-CmO7NOc, D 922 KVXRMqrW0FQ; Omega OCD 1001 / Brilliant Classics 95107) — другой альбом, 1987 верен"
+ ],
+ "notes": "ВАЖНО: D 516 «Sehnsucht» (Mayrhofer, «Der Lerche wolkennahe Lieder») — одна из девяти песен корпуса с этим заголовком (D 52, D 123, D 310, D 359, D 481, D 636, D 879, D 180 «Sehnsucht der Liebe»); единственная на текст Мейрхофера — это надёжный различитель по кредитам official audio. В выдаче кандидатов много ложных совпадений по каналу/названию, исключены: Brigitte Fassbaender-Topic «D.879», Hermann Prey-Topic и FiDi-Topic «D. 52», incontrario motu «D.636» (Fischer-Dieskau/Engel и Prey/Moore), LOFTmusic «D. 636» (Prey/Deutsch), Elly Ameling-Topic «D. 310», Graham Johnson-Topic «D. 310», Piano4Songs «Op 39» (не тот опус). Также вне пула: Marc Hantaï-Topic (переложение для голоса, флейты и гитары — другой формат аккомпанемента), Виктория Заболоцкая (современная, не в реестре, дважды загружено — низкая значимость, без дополнительных данных), Donata Cucinotta (нет данных). Резерв: Christian Elsner (VQhWg5w268o, дубль nX4deT6Y1hs) — пианист не установлен. Все пять ID проверены на живость (yt-check, 200 OK) 2026-08-17."
 }

@@ -44,14 +44,15 @@
     {
       "singer": "Dietrich Fischer-Dieskau",
       "pianist": "Gerald Moore",
-      "rec_year": "1958 (℗; сессия не установлена, вероятно 1957–58)",
-      "year_source": "Метаданные официального Topic-трека (Warner Classics): album «Schubert: Lieder Vol. 2», «℗ A Warner Classics release, ℗ 1958, 2011 Parlophone Records Limited». Фан-загрузка того же тайминга (Ub7UEmoo52o, 5:11) подписана «1957» — метаданные загрузок источником не являются. Поиск в дискографии Майкла Грея (classical-discography.org) из контейнера результатов не дал (форма search2.php возвращает пустой ответ). В реестре проекта серия EMI Vol. 1–4 датирована: Vol. 4 — 23–25 мая 1958, Vol. 1 — «1955–57?»; том 2 не выверен.",
+      "rec_year": "1959 (год издания по Discogs; сессия не установлена, вероятно 1957–58)",
+      "year_source": "Discogs, master 1114227 «Schubert Lieder Recital (No. 2)» (проверен по API 2026-08-17): все четыре датированные карточки оригинального британского LP His Master's Voice ALP 1677 — releases 8172281 (main), 13800392, 15903406, 35697595 — дают year=1959; немецкий оригинал «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert · 2. Folge» (Electrola WALP 532/E 90021, releases 11609991, 8380994) принадлежит тому же мастеру; Der Zwerg — трек A6 («The Dwarf, D.771»). Метаданные Warner-Topic («℗ 1958») и фан-загрузка «1957» (Ub7UEmoo52o) по правилам источником дат не являются. Поиск в дискографии Майкла Грея (classical-discography.org) из контейнера результатов не дал (форма search2.php возвращает пустой ответ). В реестре проекта серия EMI Vol. 1–4 датирована: Vol. 4 — 23–25 мая 1958, Vol. 1 — «1955–57?»; сессия тома 2 не выверена.",
       "album": "Schubert: Lieder Vol. 2 (EMI/Electrola; переизд. Warner)",
       "label": "EMI Electrola / Warner Classics",
       "age_voice": "32–33 года (р. 1925). Самая сердцевина пика (~1951–1972): голос свежий, дикция и легато на высшем уровне.",
       "reputation": "Прямых рецензий именно на этот трек добыть не удалось (Gramophone/Presto из контейнера — 403). Косвенно: EMI-серия с Муром второй половины 1950-х считается вершиной раннего Фишера-Дискау; klassik-prisma в других песнях (Erlkönig) даёт EMI-1958 с Муром высший балл 5, выше его же DG-свода.",
       "sources": [
-        "yt-dlp метаданные Topic-трека JbKdazcFvLs (Warner Classics, ℗ 1958)",
+        "Discogs API: master 1114227 + releases 8172281, 13800392, 15903406, 35697595 (ALP 1677, все year=1959; WALP 532 в том же мастере)",
+        "yt-dlp метаданные Topic-трека JbKdazcFvLs (Warner Classics, ℗ 1958 — не источник даты)",
         "planning/youtube/albums.md (карточки серии EMI Vol. 1 и Vol. 4)",
         "klassik-prisma.de/Erlkoenig.htm (оценка 5 для Fischer-Dieskau / Moore / EMI 1958 — как ориентир по серии)"
       ],
@@ -380,7 +381,7 @@
   ],
   "priority_singers_checked": {
     "Thomas Quasthoff": "ЗАПИСАЛ, две версии. (1) Студия: RCA «Schubert: Goethe-Lieder» с Charles Spencer, сессии 25–26 и 28–29 мая 1993 (реестр альбомов проекта; ℗ 1993 BMG в метаданных официального Topic-трека WeKeLRGR0Yc; MusicBrainz: релиз «Goethe-Lieder», 1995-03-31, и бокс «The Complete RCA Recordings»). (2) Лайв: «Thomas Quasthoff in Verbier» с Евгением Кисиным, ℗ 2023 Verbier Festival Gold (Topic nBVO6jcEY3s); год концерта не установлен, верхняя граница — 2011.",
-    "Dietrich Fischer-Dieskau": "ЗАПИСАЛ, четыре версии (MusicBrainz recording search + Topic-метаданные): EMI/Moore, ℗ 1958 («Schubert: Lieder Vol. 2», Warner-переизд., JbKdazcFvLs); DG Sämtliche Lieder/Moore, ℗ 1969 (OPDWAbfvmM0); лайв Зальцбург, 1. Liederabend 1957, Moore (Orfeo «Die Salzburger Liederabende 1956–1965», MB c8177b05…, диск 2 трек 11; Topic QhYn8XJuRA4); ранняя запись с Klaus Billing (Discogs 30791559 — Diapason «22 Lieder», трек 10, 5:40; год не установлен).",
+    "Dietrich Fischer-Dieskau": "ЗАПИСАЛ, четыре версии (MusicBrainz recording search + Topic-метаданные): EMI/Moore, изд. 1959 по Discogs (Electrola «2. Folge» WALP 532 / HMV ALP 1677, master 1114227; Warner-переизд., JbKdazcFvLs); DG Sämtliche Lieder/Moore, ℗ 1969 (OPDWAbfvmM0); лайв Зальцбург, 1. Liederabend 1957, Moore (Orfeo «Die Salzburger Liederabende 1956–1965», MB c8177b05…, диск 2 трек 11; Topic QhYn8XJuRA4); ранняя запись с Klaus Billing (Discogs 30791559 — Diapason «22 Lieder», трек 10, 5:40; год не установлен).",
     "Elisabeth Schwarzkopf": "НЕ ЗАПИСЫВАЛА (по доступным источникам). MusicBrainz: recording:\"Der Zwerg\" AND artist:Schwarzkopf — 0 результатов; в дайджесте певцов её шубертовский корпус (рецитал с Э. Фишером 1952, 78-е с Муром 1948–54, зальцбургские лайвы, «Songs I Love» 1970–73) D 771 не содержит; целевой поиск YouTube её версии не даёт.",
     "Hans Hotter": "НЕ ЗАПИСЫВАЛ (по доступным источникам). MusicBrainz — 0 результатов; целевой поиск yt-dlp «Hotter Der Zwerg Schubert» выдаёт только чужие исполнения. Песня op. 22/1 в его известную дискографию (Winterreise 1942/1954/1961, Schwanengesang и Lieder начала 1950-х) не входит.",
     "Peter Anders": "НЕ ЗАПИСЫВАЛ (по доступным источникам). MusicBrainz — 0 результатов. Его шубертовское наследие — циклы с Раухайзеном/Вайссенборном 1945–48; D 771 не зафиксирована.",
@@ -400,9 +401,9 @@
     {
       "album": "Schubert: Lieder Vol. 2 (EMI/Electrola; переизд. Warner Classics)",
       "singer": "Dietrich Fischer-Dieskau",
-      "year": "℗ 1958 (сессия не установлена)",
+      "year": "1959 (год издания: Discogs master 1114227, ALP 1677 / WALP 532; сессия не установлена, вероятно 1957–58; ℗ 1958 Warner-Topic — не источник)",
       "label": "EMI Electrola / Warner Classics",
-      "facts": "Пианист Gerald Moore. Часть EMI-серии рециталов 1955–1965; в реестре проекта датированы только Vol. 1 («1955–57?») и Vol. 4 (23–25 мая 1958). Требуется доисследование сессии тома 2 (дискография Майкла Грея из контейнера сейчас не отвечает).",
+      "facts": "Пианист Gerald Moore. Оригиналы: Electrola «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert · 2. Folge» (WALP 532/E 90021) и HMV ALP 1677 «Schubert Lieder Recital (No. 2)» — один мастер Discogs 1114227; все датированные карточки ALP 1677 дают 1959. Часть EMI-серии рециталов 1955–1965; в реестре проекта датированы только Vol. 1 («1955–57?») и Vol. 4 (23–25 мая 1958). Требуется доисследование сессии тома 2 (дискография Майкла Грея из контейнера сейчас не отвечает).",
       "covers_more_pilot_songs": true
     },
     {
@@ -536,7 +537,7 @@
   "negatives": [
     "Приоритетные певцы БЕЗ записи D 771: Schwarzkopf, Hotter, Anders, E. Schumann, Popp (MusicBrainz recording-search — 0 результатов по каждому; целевые yt-dlp-поиски также ничего не дают).",
     "Старых мастеров до ~1950 в дискографии песни практически нет: MusicBrainz-поиски по Schlusnus, Hüsch, Souzay, Janet Baker, Fassbaender, Waltraud Meier (как студийная запись) — 0 результатов. Самая ранняя найденная запись — Fischer-Dieskau / Klaus Billing (рубеж 1940–50-х, дата не установлена). Это редкий для «знаменитой» песни случай: фонд D 771 фактически начинается с Фишера-Дискау.",
-    "Год записи НЕ установлен и требует доисследования: (а) сессия EMI-тома 2 Ф.-Д. (℗ 1958); (б) запись Ф.-Д. / Billing; (в) концерт Квастхоф / Кисин в Вербье (℗ 2023); (г) сессия альбома Людвиг / Гейдж (℗ 1975); (д) сессии современных дисков Gerhaher, Goerne, Boesch, Krimmel, Coote, Said (известны только годы изданий).",
+    "Год записи НЕ установлен и требует доисследования: (а) сессия EMI-тома 2 Ф.-Д. (издание 1959 по Discogs, master 1114227; сессия вероятно 1957–58); (б) запись Ф.-Д. / Billing; (в) концерт Квастхоф / Кисин в Вербье (℗ 2023); (г) сессия альбома Людвиг / Гейдж (℗ 1975); (д) сессии современных дисков Gerhaher, Goerne, Boesch, Krimmel, Coote, Said (известны только годы изданий).",
     "Дискография Майкла Грея (classical-discography.org) в этой сессии не отвечает на запросы: форма search2.php возвращает пустой документ и по GET, и по POST — проверить сессии EMI/DG Ф.-Д. не удалось.",
     "Discogs API отвечал с 429 (перегружен параллельными агентами); успешный запрос удался только после ~45 с паузы, поэтому по большинству альбомов буклетные данные не вскрывались.",
     "Загрузки без официального статуса, в топ-5 не годятся, но зафиксированы как существующие: Waltraud Meier (sOfOhcfcfmY, фан-канал rosen88kavalier, полный рецитал по номерам), Sarah Walker / Roger Vignoles (только фан-загрузка целого диска «19 Lieder», LKZVUfwFrKg), Christoph Prégardien / Kirill Gerstein — Verbier 2010 на medici.tv (FBEHKerNMJA, 2:50 — фрагмент, не вся песня).",

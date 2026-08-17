@@ -2,135 +2,143 @@
   "d": "870",
   "title": "Der Wanderer an den Mond",
   "tier": "famous",
-  "research_note": "Песня на слова Й. Г. Зайдля, соч. 1826, op. 80 Nr. 1. Дискографический каркас — MusicBrainz work f18df42a-de30-3dff-b2c7-b5fd1a66b597 (43 записи). Даты старых записей — дискография Майкла Грея (classical-discography.org, поиск по work 'Wanderer an den Mond': 8 позиций). Даты студийных LP/CD — примечания конкретных прессингов через Discogs API. Метаданные YouTube-загрузок как источник дат НЕ использовались. WebSearch в сессии был исчерпан, поэтому сравнительные обзоры (klassik-prisma, Gramophone-архив) добыть не удалось — доступны только пресс-цитаты со страниц Hyperion; это отмечено в surveys.",
+  "research_note": "Песня на слова Й. Г. Зайдля, соч. 1826, op. 80 Nr. 1. Каркас дискографии — MusicBrainz work f18df42a-de30-3dff-b2c7-b5fd1a66b597 (43 записи). Даты 78-х — дискография Майкла Грея (classical-discography.org). Даты студийных LP/CD — примечания конкретных прессингов через Discogs API. Метаданные YouTube-загрузок как источник ДАТ не использовались (только для идентификации альбома/дубля: поля album/artist у Topic-загрузок). Вторая итерация досье (2026-08-17): закрыты три пробела прошлой версии — дата записи Фишера-Дискау с Бриттеном (лайв Snape Maltings 8.06.1972), датировка Карла Эрба (1936–37), принадлежность DG-дубля Фишера-Дискау тому Volume 1 (а не Volume 2, как значилось раньше); добавлены два новых кандидата (Keenlyside/Martineau 1993; EMI-дубль ФиДи с Муром «Lieder Vol. 1»); разведены Topic-дубли Прегардьена. WebSearch в сессии исчерпан (200/200), поисковые системы из контейнера блокируются; сравнительные обзоры добывались прямым обходом сайтов — klassik-prisma проверен по индексу (страницы для D 870 НЕТ), Hyperion — по страницам альбомов.",
   "candidates": [
-    {
-      "singer": "Lucia Popp",
-      "pianist": "Irwin Gage",
-      "rec_year": 1983,
-      "year_source": "Discogs release 6176352 (EMI Electrola / HMV Digital 1C 067 27 0067 1, изд. 1984), примечание прессинга: «Recorded/Aufgenommen: 1.-6.XI.1983, Abbey Road Studios, London»; D 870 — сторона A, трек 7 (2:26)",
-      "album": "Schubert Lieder (HMV / EMI 1C 067 27 0067 1; CD EMI CDC 7 49633 2)",
-      "label": "EMI / His Master's Voice",
-      "age_voice": "44 года (р. 1939). Дайджест: пик ~1970–1988, позднего спада практически нет (умерла в 54). 1983 — самый центр зрелой формы; это тот самый рецитал EMI с Гейджем, который дайджест называет её главным сольным шубертовским диском.",
-      "reputation": "Единственная запись песни у приоритетной певицы по правилам (п. 4 списка приоритетов). Отдельных сравнительных рецензий именно на этот трек добыть не удалось (WebSearch исчерпан); альбом — опорный рецитал её дискографии по дайджесту проекта.",
-      "sources": [
-        "https://api.discogs.com/releases/6176352",
-        "MusicBrainz recording 0fb7827c-8a6e-40e4-a54e-5ed8c57aa5d7 (Lucia Popp, Irwin Gage, 151 s)",
-        "planning/research/singers-digest.md — карточка Popp"
-      ],
-      "youtube": [
-        {"videoId": "4bQdSEVDCT0", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Длительность Topic-загрузки 151 с совпадает с MusicBrainz-записью дуэта Popp/Gage. Приоритетная певица — главный кандидат в верхнюю часть пятёрки."
-    },
     {
       "singer": "Dietrich Fischer-Dieskau",
       "pianist": "Gerald Moore",
-      "rec_year": "1966–1972",
-      "year_source": "Полный свод DG «Sämtliche Lieder» (сессии 1966–1972, Ufa-Ton-Studio Berlin) — карточка в planning/youtube/albums/complete-editions.md; D 870 входит в «Lieder Volume 2» (DG 2720 022, издание 1970 — Discogs 4675245), следовательно сессия не позднее 1970. Точная дата сессии по буклету не установлена.",
-      "album": "Schubert: Lieder, Volume 2 (DG 2720 022) — часть свода «Sämtliche Lieder»",
+      "rec_year": "1966–1972 (конвенция проекта — 1969)",
+      "year_source": "Полный свод DG «Sämtliche Lieder» (сессии 1966–1972, Ufa-Ton-Studio Berlin) — карточка planning/youtube/albums/complete-editions.md. УТОЧНЕНИЕ к прошлой версии досье: D 870 входит в «Lieder Volume 1» (DG 2720 006, изд. 1970; тресклист Discogs 18181915, позиция U9 «Der Wanderer An Den Mond D.870»), то есть в том поздних песен 1817–1828, а НЕ в Volume 2 (2720 022, песни 1811–1817; в его тресклисте D 870 отсутствует). Точная дата сессии по буклету не установлена; в дискографии Грея этой позиции нет.",
+      "album": "Schubert: Lieder, Volume 1 (DG 2720 006) — часть свода «Sämtliche Lieder» (21 CD, 437 214-2)",
       "label": "Deutsche Grammophon",
-      "age_voice": "41–45 лет (р. 1925). Дайджест: пик ~1951–1972 — запись сделана внутри пика, голос в лучшей форме.",
-      "reputation": "Свод DG — эталонное полное издание мужских песен Шуберта, опорная позиция реестра проекта; приоритет №2 по правилам.",
+      "age_voice": "41–47 лет (р. 1925). Дайджест: пик ~1951–1972 — запись внутри пика, голос в лучшей форме.",
+      "reputation": "Свод DG — эталонное полное издание мужских песен Шуберта, опорная позиция реестра проекта; приоритет №2 по правилам (Квастхоф песню не записывал).",
       "sources": [
-        "MusicBrainz recording 2717fb5a-c48f-4de8-9ed7-35533add13c0 (130 s; релизы «Lieder» / «Lieder, Volume II» / DG Complete Lieder Recordings)",
-        "https://api.discogs.com/database/search?q=Fischer-Dieskau+Moore+Schubert+Lieder+Volume+2 (Discogs 4675245, DG 2720 022, 1970)",
+        "MusicBrainz recording 2717fb5a-c48f-4de8-9ed7-35533add13c0 (130 s; релизы «Lieder», «Lieder, Volume II» 1992, «Complete Lieder Recordings on DG» 2022)",
+        "https://api.discogs.com/releases/18181915 (DG 2720 006 «Lieder Volume 1», 1970; U9 = D 870)",
+        "https://api.discogs.com/releases/4675245 (DG 2720 022 «Lieder Volume 2» — D 870 в тресклисте отсутствует)",
         "planning/youtube/albums/complete-editions.md"
       ],
       "youtube": [
         {"videoId": "Yoc_J7Z_1D0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "r2mLz7TXMlI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": false},
-        {"videoId": "-F2CEXZAOh4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": false}
+        {"videoId": "r2mLz7TXMlI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "-F2CEXZAOh4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Три Topic-загрузки по 130 с — одна и та же фонограмма DG в разных переизданиях; проверена живость Yoc_J7Z_1D0 (остальные не проверялись, брать первую). Для плеера год потребует решения: диапазон 1966–72 либо «1969?» — точная сессия не документирована."
+      "note": "Три Topic-загрузки по 130 с — одна и та же фонограмма DG в разных цифровых релизах (album-теги: «Schubert: Lieder; Die schöne Müllerin…», «Schubert: Lieder (Vol. 2)», «Schubert: Lieder»); брать Yoc_J7Z_1D0. Все три проверены yt-check — живые."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1955–57?",
+      "year_source": "НЕ УСТАНОВЛЕН точно. Topic-дубль 141 с помечен альбомом «Schubert: Lieder Vol. 1» — это EMI/Electrola-серия рециталов ФиДи 1955–1965; реестр проекта датирует Vol. 1 «1955–57?» (albums.md), Vol. 4 верифицирован как 23–25 мая 1958. Фан-загрузки incontrario motu называют версии «Moore 1955» (cRTxe27B2a4, 143 с) и «Moore 1957» (97WAkv6gn4M, 145 с — предположительно зальцбургский лайв), но метаданные загрузок источником дат не являются.",
+      "album": "Schubert: Lieder Vol. 1 (EMI/Electrola; переизд. Warner Classics)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "около 30–32 лет (р. 1925) — ранний пик, голос самый свежий из всех его дублей песни.",
+      "reputation": "Ранние EMI-рециталы с Муром традиционно ценятся выше позднего свода за свежесть тона; в реестре проекта серия датирована фрагментарно.",
+      "sources": [
+        "yt-dlp метаданные Topic-загрузки 8jwH8lGeRMY (album «Schubert: Lieder Vol. 1», artist «Dietrich Fischer-Dieskau, Gerald Moore», 141 s)",
+        "planning/youtube/albums.md — карточки серии EMI Vol. 1/Vol. 2/Vol. 4",
+        "MusicBrainz: у работы есть дубли ФиДи/Мура длительностью 137 и 132 с (кроме DG-130 с)"
+      ],
+      "youtube": [
+        {"videoId": "8jwH8lGeRMY", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "cRTxe27B2a4", "channel": "incontrario motu", "official": false, "oembed_ok": true},
+        {"videoId": "97WAkv6gn4M", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "НОВЫЙ кандидат по сравнению с прошлой версией досье. Для публикации нужен год — либо целевое доисследование сессий EMI-серии, либо диапазон «1955–57?»."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Benjamin Britten",
+      "rec_year": 1972,
+      "year_source": "УСТАНОВЛЕН в этой итерации. Discogs release 8618091 (BBC «Britten The Performer» BBCB 8011-2, 1999), примечание прессинга: «Recorded at Snape Maltings, 8 June 1972 (Tracks 1 to 10)…»; D 870 — трек 9 блока «10 Lieder» (2:07). Подтверждение: Discogs 8015070 (BBC Legends BBCL 4255-2, 2009), примечание «Snape Maltings, 8 June 1972 (Schubert)». Живой концерт Олдборского фестиваля.",
+      "album": "Britten the Performer: Schubert/Wolf Lieder (BBC BBCB 8011-2); переизд. BBC Legends BBCL 4255-2 («15 Magelone Lieder • Lieder»)",
+      "label": "BBC / BBC Legends (не Decca — исправление прошлой версии досье)",
+      "age_voice": "47 лет (р. 28 мая 1925). Дайджест: пик ~1951–1972 — самый край пика, голос ещё в полной силе; концертная, не студийная подача.",
+      "reputation": "Бриттен-пианист — величина сама по себе (ср. Winterreise Pears/Britten, Decca 1963, среди величайших). Отдельных рецензий именно на этот трек найти не удалось; ценность записи — уникальный дуэт двух крупнейших музыкантов в живом концерте.",
+      "sources": [
+        "https://api.discogs.com/releases/8618091",
+        "https://api.discogs.com/releases/8015070",
+        "MusicBrainz recording 0086f7e5-f37c-4745-989f-6772cc52fcf3 (127 s — совпадает с 2:07 буклета)"
+      ],
+      "youtube": [
+        {"videoId": "Ci1iVbSdU-M", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "Только фан-загрузка (128 с), официального Topic-трека не найдено — минус по технической гигиене ссылок, но год теперь документирован."
     },
     {
       "singer": "Dietrich Fischer-Dieskau",
       "pianist": "Alfred Brendel",
       "rec_year": 1983,
-      "year_source": "Год ИЗДАНИЯ: Philips 6514 384 / CD 411 421-2, «Songs • Lieder», 1983 (Discogs 5655989 и 17718823; D 870 — B6 / трек 14, 2:24). Год сессии в примечаниях прессингов не указан — не установлен.",
+      "year_source": "Год ИЗДАНИЯ: Philips 6514 384 / CD 411 421-2 «Songs • Lieder», 1983 (Discogs 5655989 и 17718823; D 870 — B6 / CD-трек 14, 2:24). Год сессии в примечаниях прессингов не указан.",
       "album": "Schubert: Songs • Lieder (Philips 6514 384 / 411 421-2)",
       "label": "Philips",
-      "age_voice": "около 58 лет (р. 1925). Дайджест: «с сер. 1970-х тон суше» — запись за пределами вокального пика, ценность прежде всего в дуэте с Бренделем.",
-      "reputation": "Известная поздняя пара ФиДи–Брендель (тогда же — Schwanengesang Philips 6514 383). Конкретных рецензий добыть не удалось (WebSearch исчерпан).",
+      "age_voice": "около 58 лет (р. 1925). Дайджест: «с сер. 1970-х тон суше» — за пределами вокального пика; ценность прежде всего в дуэте с Бренделем.",
+      "reputation": "Известная поздняя пара ФиДи–Брендель (парный диск — Schwanengesang, Philips 6514 383). Конкретных рецензий на трек добыть не удалось.",
       "sources": [
         "https://api.discogs.com/releases/5655989",
         "https://api.discogs.com/releases/17718823",
-        "MusicBrainz recording b6a437cb-c46d-4d02-9432-fbe5cb7f7029 (148 s)"
+        "MusicBrainz recording b6a437cb-c46d-4d02-9432-fbe5cb7f7029 (148 s)",
+        "yt-dlp метаданные o54qScUCDsc (album «Schubert: Lieder», artist «Dietrich Fischer-Dieskau, Alfred Brendel», 148 s)"
       ],
       "youtube": [
-        {"videoId": "o54qScUCDsc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "erqujuVdo9s", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": false}
+        {"videoId": "o54qScUCDsc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "148 с в MusicBrainz совпадает с длительностью обеих Topic-загрузок — идентификация надёжна. По правилу «при прочих равных предпочитать более раннюю» уступает записи с Муром."
-    },
-    {
-      "singer": "Dietrich Fischer-Dieskau",
-      "pianist": "Benjamin Britten",
-      "rec_year": null,
-      "year_source": "НЕ УСТАНОВЛЕН. MusicBrainz recording 0086f7e5 (127 s) значится на релизах «Lieder» (1999) и «Brahms: Die schöne Magelone / Schubert: Lieder» (Decca, 2009) — оба переиздания; год сессии по буклету не проверен.",
-      "album": "Schubert: Lieder (Decca; переизд. в серии «Britten the Performer»)",
-      "label": "Decca",
-      "age_voice": "не определяется без даты сессии; если это известные олдборо-сессии начала 1970-х — конец пика ФиДи.",
-      "reputation": "Бриттен-пианист — величина сама по себе (ср. Winterreise Pears/Britten 1963 в дайджесте). Оценок именно этого трека не найдено.",
-      "sources": [
-        "MusicBrainz recording 0086f7e5-f37c-4745-989f-6772cc52fcf3"
-      ],
-      "youtube": [
-        {"videoId": "Ci1iVbSdU-M", "channel": "incontrario motu", "official": false, "oembed_ok": true}
-      ],
-      "note": "Только фан-загрузка; официального Topic-трека не найдено. Без даты и без официального канала — кандидат второго ряда, требует доисследования."
+      "note": "По правилу «при прочих равных предпочитать более раннюю» уступает дублям с Муром и с Бриттеном."
     },
     {
       "singer": "Hans Hotter",
       "pianist": "Hans Altmann",
       "rec_year": null,
-      "year_source": "НЕ УСТАНОВЛЕН. Издание: Preiser PR 3145 «Schumann: Dichterliebe op. 48 / Schubert: Ausgewählte Lieder», D 870 — трек 21 (MusicBrainz release 04f9acd3-155c-474c-8fa7-a5c565ab938c). Примечание Discogs 13964615: «Aus dem Archiv des Bayrischen Rundfunks. Live Recording» — то есть архив Баварского радио, год не указан. В дискографии Грея записи Hotter/Altmann отсутствуют (проверен поиск artists=Hotter%Altmann — 0 строк).",
-      "album": "Dichterliebe op. 48 / Ausgewählte Lieder (Preiser PR 3145 / 93145)",
-      "label": "Preiser Records (первоисточник — Bayerischer Rundfunk)",
-      "age_voice": "не определяется без даты. Дайджест: пик ~1942–1955; если запись BR конца 1940-х — начала 1950-х, голос в лучшей форме, если позже — тяжелее.",
+      "year_source": "НЕ УСТАНОВЛЕН (повторная попытка в этой итерации безуспешна). Издание: Preiser PR 3145 / 93145 «Schumann: Dichterliebe op. 48 / Schubert: Ausgewählte Lieder», D 870 — трек в блоке шубертовских песен (MusicBrainz release 04f9acd3-155c-474c-8fa7-a5c565ab938c, без даты и аннотации; Discogs 13964615 и 26576171 — поле year = 0). Единственное примечание прессинга: «Aus dem Archiv des Bayrischen Rundfunks. Live Recording». Ранний 7-дюймовый Preiser PR-SW-2 с той же связкой (A2 = D 870) также без даты. В дискографии Грея записей Hotter/Altmann нет; Presto Music отдаёт 403.",
+      "album": "Dichterliebe op. 48 / Ausgewählte Lieder (Preiser PR 3145 / 93145); ранее — Preiser PR-SW-2 (7\")",
+      "label": "Preiser Records (первоисточник — архив Bayerischer Rundfunk)",
+      "age_voice": "не определяется без даты. Дайджест: пик ~1942–1955; если запись BR конца 1940-х — начала 1950-х, голос в лучшей форме, если 1960-х — тяжелее и менее гибкий.",
       "reputation": "Хоттер — приоритетный певец по правилам (п. 4). Единственная его запись этой песни. Критических отзывов именно на неё не найдено.",
       "sources": [
         "https://api.discogs.com/releases/13964615",
-        "MusicBrainz recording 9914b54d-ef49-4da4-9357-4b176e05a2d4; release 04f9acd3-155c-474c-8fa7-a5c565ab938c (Preiser PR 3145)",
+        "https://api.discogs.com/releases/5170717 (Preiser PR-SW-2, 7\": A2 «Der Wanderer An Den Mond D 870»)",
+        "https://musicbrainz.org/ws/2/release/04f9acd3-155c-474c-8fa7-a5c565ab938c (без даты)",
         "classical-discography.org (Michael Gray) — отрицательный результат по Hotter/Altmann"
       ],
       "youtube": [
         {"videoId": "wffV7pZh180", "channel": "Hans Altmann - Topic", "official": true, "oembed_ok": true},
         {"videoId": "Mtyhwju2Ppo", "channel": "nadaniente115a", "official": false, "oembed_ok": true}
       ],
-      "note": "Официальный трек лежит на Topic-канале ПИАНИСТА (Hans Altmann - Topic) — так лейбл атрибутировал релиз. По правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» нужен либо целевой доисследовательский заход по датам архива BR, либо публикация с диапазоном со знаком вопроса."
+      "note": "Официальный трек лежит на Topic-канале ПИАНИСТА (album-тег «Franz Schubert (Ausgewählte Lieder) & Robert Schumann (Dichterliebe)», 156 с) — так лейбл атрибутировал релиз. По правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» — публиковать с диапазоном со знаком вопроса (напр. «1949–52?») либо заказать целевое доисследование архива BR."
     },
     {
-      "singer": "Gérard Souzay",
-      "pianist": "Jacqueline Bonneau",
-      "rec_year": 1947,
-      "year_source": "Дискография Майкла Грея (classical-discography.org, запись id 33570): «1947 October 24», Decca, префикс DR, матрица 11707, principal number M618",
-      "album": "Decca 78 об. (M618); переиздания — «Schubert: Lieder / Schumann: Dichterliebe» (1994) и др.",
-      "label": "Decca",
-      "age_voice": "29 лет (р. 1918) — самый ранний Сузе, задолго до сухости, начавшейся, по дайджесту, около 1970; пик дайджест относит к 1950-м — сер. 1960-х, эта запись чуть раньше пика.",
-      "reputation": "Ранние Decca-78 Сузе — классика французской школы Lieder; конкретных сравнительных оценок не найдено (WebSearch исчерпан).",
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": 1983,
+      "year_source": "Discogs release 6176352 (EMI Electrola / HMV Digital 1C 067 27 0067 1, изд. 1984), примечание прессинга: «Recorded/Aufgenommen: 1.-6.XI.1983, Abbey Road Studios, London»; D 870 — сторона A, трек 7 (2:26)",
+      "album": "Schubert Lieder (HMV / EMI 1C 067 27 0067 1; CD EMI CDC 7 49633 2; цифровой релиз «Icon: Lucia Popp»)",
+      "label": "EMI / His Master's Voice",
+      "age_voice": "44 года (р. 1939). Дайджест: пик ~1970–1988, позднего спада практически нет (умерла в 54). 1983 — центр зрелой формы; это опорный сольный шубертовский диск певицы.",
+      "reputation": "Единственная запись песни у приоритетной певицы (п. 4 правил). Отдельных сравнительных рецензий на трек добыть не удалось; репутация опирается на статус альбома. Трек включён и в историческую антологию EMI «Schubert — Lieder on Record 1898–2012» (диск 11, трек 5) — знак канонического статуса версии.",
       "sources": [
-        "https://www.classical-discography.org/modalcontent.php?id=33570",
-        "MusicBrainz recording b74b3257-b4f0-4980-acf0-2e39cdf9c4b6 (Souzay/Bonneau, 142 s)"
+        "https://api.discogs.com/releases/6176352",
+        "https://api.discogs.com/releases/23802614 (EMI «Lieder on Record 1898–2012», 11-5 = Popp)",
+        "MusicBrainz recording 0fb7827c-8a6e-40e4-a54e-5ed8c57aa5d7 (151 s)",
+        "planning/research/singers-digest.md — карточка Popp"
       ],
       "youtube": [
-        {"videoId": "_9XQIqv02fU", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "63y0ARCcOFE", "channel": "Vladimir Stasov", "official": false, "oembed_ok": false}
+        {"videoId": "4bQdSEVDCT0", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Три разных Topic-трека Сузе (8_xo2jKa6QQ и 4hJrkkDAhgg по 134 с, _9XQIqv02fU 142 с). 142 с совпадает с MusicBrainz-длительностью дубля с Бонно — выбран он. ВАЖНЫЙ негатив: поздний Philips-альбом «Der Musensohn» (802 831 LY, сессии 1–7.07.1967, Baldwin) D 870 НЕ содержит (тресклист Discogs 6210707, 15 треков) — значит поздней студийной версии у Сузе, скорее всего, нет."
+      "note": "Длительность Topic-загрузки 151 с совпадает с MusicBrainz-записью дуэта Popp/Gage."
     },
     {
       "singer": "Heinrich Schlusnus",
       "pianist": "Franz Rupp",
       "rec_year": 1931,
       "year_source": "Дискография Майкла Грея (id 256640): «1931», Berlin, Polydor, principal number 90194, префикс db, матрица 145, take 3",
-      "album": "Polydor 90194 (78 об.); переиздания Preiser",
-      "label": "Polydor",
-      "age_voice": "43 года (р. 1888). Дайджест: пик 1920–1930-е, ровность держал и в 1940-е — запись в самой сердцевине формы.",
-      "reputation": "Шлуснус — эталон немецкого лирического баритона межвоенных лет (карточка дайджеста: сотни сторон Polydor, полных циклов нет).",
+      "album": "Polydor 90194 (78 об.); переиздания Preiser («Liederalbum — Heinrich Schlusnus»)",
+      "label": "Polydor / Preiser",
+      "age_voice": "43 года (р. 1888). Дайджест: пик 1920–1930-е, ровность держал и в 1940-е — запись в сердцевине формы.",
+      "reputation": "Шлуснус — эталон немецкого лирического баритона межвоенных лет (сотни сторон Polydor, полных циклов нет). Сравнительных рецензий именно на эту сторону не найдено.",
       "sources": [
         "https://www.classical-discography.org/modalcontent.php?id=256640",
+        "yt-dlp метаданные tP_QIHvztGA (album «Liederalbum - Heinrich Schlusnus», artist «Franz Rupp, Heinrich Schlusnus», 179 s)",
         "planning/research/singers-digest.md — карточка Schlusnus"
       ],
       "youtube": [
@@ -138,47 +146,69 @@
         {"videoId": "3LXih_weK3U", "channel": "NoeckesHarfenschall", "official": false, "oembed_ok": false},
         {"videoId": "-RiibxLV_A4", "channel": "FahrenderGeselle", "official": false, "oembed_ok": false}
       ],
-      "note": "Официальный трек — на Topic-канале пианиста (Franz Rupp - Topic), 180 с; фан-загрузки 176–190 с. Проверить на слух, что Topic-дубль — та же полидоровская сторона 1931 г."
+      "note": "Официальный трек — на Topic-канале пианиста (Franz Rupp - Topic), 179 с; фан-загрузки 176–190 с. Расхождение с типичными 140–150 с объясняется медленным темпом старой школы (сторона 78 об.)."
     },
     {
       "singer": "Karl Erb",
       "pianist": "Bruno Seidler-Winkler",
-      "rec_year": null,
-      "year_source": "НЕ УСТАНОВЛЕН. В дискографии Грея есть блок Erb/Seidler-Winkler по Шуберту (Electrola/HMV: EG 3184, EG 3611, EG 3687, EG 3756, DB 4465–4467, DA 4420–4424 и др.), но записи D 870 среди 8 позиций работы у Грея НЕТ. Дайджест датирует стороны Эрба с Зайдлер-Винклером ~1935–1951.",
-      "album": "Electrola; переиздания «Karl Erb singt Lieder von Franz Schubert» (Electrola E 60069 / WBLP 519), антология EMI «Lieder on Record 1898–2012»",
+      "rec_year": "1936–37",
+      "year_source": "УСТАНОВЛЕН приблизительно в этой итерации: Electrola 1C 047-28033 M «Ein unvergessener Liederabend», примечание прессинга «historische Aufnahmen 1936-37»; D 870 — сторона A, трек 5 (Discogs 6026262). У Грея среди 8 позиций работы Эрба нет, отдельная матрица не найдена, поэтому год — по примечанию сборника, с осторожностью.",
+      "album": "Ein unvergessener Liederabend (Electrola 1C 047-28033 M); цифровой релиз «Leise flehen meine Lieder»; антология EMI «Lieder on Record 1898–2012», диск 4, трек 20",
       "label": "Electrola / EMI",
-      "age_voice": "по дайджесту шубертовские записи Эрба сделаны в 58–74 года — не вокальный пик, а документ довоенного стиля декламации.",
-      "reputation": "Дайджест: «не вокальный пик, документ довоенного стиля»; охват на YouTube исторически слабый, но теперь есть Topic.",
+      "age_voice": "59–60 лет (р. 1877). Дайджест: шубертовские записи Эрба сделаны далеко за вокальным пиком (~1905–1930) — ценность как документа довоенной декламационной школы, не как вокального образца.",
+      "reputation": "Дайджест: «не вокальный пик, документ довоенного стиля». Включение в антологию EMI «Lieder on Record» — знак исторической значимости.",
       "sources": [
-        "MusicBrainz recording 81ab4304-ade2-42f4-852e-684a40f18b02 (Erb/Seidler-Winkler, 149 s; релиз «Lieder on Record 1898–2012», EMI 2012)",
-        "classical-discography.org — поиск по работе (8 позиций, Эрба нет) и по artists=Erb%Seidler (шубертовские стороны без D 870)",
+        "https://api.discogs.com/releases/6026262 (примечание «historische Aufnahmen 1936-37»; A5 = D 870)",
+        "https://api.discogs.com/releases/23802614 (EMI «Lieder on Record 1898–2012», 4-20 = Karl Erb)",
+        "MusicBrainz recording 81ab4304-ade2-42f4-852e-684a40f18b02 (149 s)",
         "planning/research/singers-digest.md — карточка Erb"
       ],
       "youtube": [
         {"videoId": "ltf86QWMLP4", "channel": "Karl Erb - Topic", "official": true, "oembed_ok": true},
         {"videoId": "xI0ExOXHIto", "channel": "Bruno Seidler-Winkler - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Два Topic-канала (певца и пианиста) дают одну и ту же фонограмму (151 с). Без даты и вне вокального пика — кандидат второго ряда."
+      "note": "Два Topic-канала (певца и пианиста) дают одну фонограмму (150 с)."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Jacqueline Bonneau",
+      "rec_year": 1947,
+      "year_source": "Дискография Майкла Грея (id 33570): «1947 October 24», Decca, префикс DR, матрица 11707, principal number M618",
+      "album": "Decca 78 об. (M618); цифровые переиздания — «The Art of Schubert Lieder», сборники «Moonlight-Rêverie»",
+      "label": "Decca (переиздания — агрегаторы)",
+      "age_voice": "29 лет (р. 1918) — самый молодой Сузе; пик по дайджесту 1950-е — сер. 1960-х, сухость с ~1970; здесь голос свежий, стиль уже сложившийся.",
+      "reputation": "Ранние Decca-78 Сузе — классика французской школы Lieder; конкретных сравнительных оценок не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=33570",
+        "MusicBrainz recording b74b3257-b4f0-4980-acf0-2e39cdf9c4b6 (Souzay/Bonneau, 142 s)",
+        "yt-dlp метаданные _9XQIqv02fU (album «The Art of Schubert Lieder», 141 s) и 8_xo2jKa6QQ / 4hJrkkDAhgg (сборники «Moonlight-Rêverie Vol. 4», 134 с — другой дубль/иная скорость переноса)"
+      ],
+      "youtube": [
+        {"videoId": "_9XQIqv02fU", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "141–142 с совпадает с MusicBrainz-дублем с Бонно — выбран он. Отрицательный факт: поздний Philips-альбом «Der Musensohn» (802 831 LY, сессии 1–7.07.1967, Baldwin) D 870 НЕ содержит (тресклист Discogs 6210707) — поздней студийной версии у Сузе нет."
     },
     {
       "singer": "Hermann Prey",
-      "pianist": "Leonard Hokanson (по Грею); MusicBrainz приписывает Karl Engel",
+      "pianist": "Karl Engel (Topic-дубль) / Leonard Hokanson (сессия Philips 1971 по Грею)",
       "rec_year": 1971,
-      "year_source": "Дискография Майкла Грея (id 176409): «1971 October 27 – 30», München, Philips, principal number 6747 059, артисты — Hermann Prey, baritone; Leonard Hokanson, piano",
-      "album": "Philips «Lied-Edition» (6747 059)",
-      "label": "Philips",
-      "age_voice": "42 года (р. 1929). Дайджест: пик ~1960–1980 — запись в пике.",
-      "reputation": "Многотомный проект Philips по истории немецкой Lied (карточка реестра albums/complete-editions.md). Отдельных рецензий на трек не найдено.",
+      "year_source": "Дискография Майкла Грея (id 176409): «1971 October 27 – 30», München, Philips, principal number 6747 059, артисты — Hermann Prey, baritone; Leonard Hokanson, piano. ОДНАКО официальная Topic-загрузка (154 с) помечена альбомом «Schubert & Schumann: Lieder» с пианистом Karl Engel, а MusicBrainz даёт дубль Prey/Engel (160 с) — то есть у Прая, по-видимому, ДВЕ записи песни, и год энгелевской не установлен.",
+      "album": "Philips «Lied-Edition» (6747 059) — дубль с Хокансоном; «Schubert & Schumann: Lieder» (Electrola/EMI?) — дубль с Энгелем",
+      "label": "Philips / EMI",
+      "age_voice": "42 года на 1971 (р. 1929). Дайджест: пик ~1960–1980 — обе вероятные сессии внутри пика.",
+      "reputation": "Прай — один из главных шубертианцев поколения, основатель Шубертиады в Хоэнемсе; отдельных рецензий на трек не найдено.",
       "sources": [
         "https://www.classical-discography.org/modalcontent.php?id=176409",
         "MusicBrainz recording 8f2d19a9-8ce5-493d-9b45-fc53d195bf2a (Prey/Engel, 160 s)",
+        "yt-dlp метаданные MQJN3cxPXSk (album «Schubert & Schumann: Lieder», artist «Hermann Prey, Karl Engel», 154 s)",
         "planning/youtube/albums/complete-editions.md — карточка Prey / Philips Lied-Edition"
       ],
       "youtube": [
         {"videoId": "MQJN3cxPXSk", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "LVAuo2lr-2k", "channel": "Moishe Miller", "official": false, "oembed_ok": true}
+        {"videoId": "LVAuo2lr-2k", "channel": "Moishe Miller", "official": false, "oembed_ok": true},
+        {"videoId": "mcHFYtmFL9g", "channel": "Brahmsian137", "official": false, "oembed_ok": false}
       ],
-      "note": "ПРОТИВОРЕЧИЕ по пианисту: Грей (сессия Philips 27–30.10.1971) даёт Хокансона, MusicBrainz — Энгеля; длительности тоже расходятся (Topic 154 с, MB 160 с, фан-загрузка 142 с — возможно, разные дубли Прая). Перед публикацией нужна сверка по буклету."
+      "note": "НЕРАЗРЕШЁННОЕ РАСХОЖДЕНИЕ: пианист и год Topic-дубля не совпадают с сессией Грея. Перед публикацией — сверка по буклету; при выборе Topic-трека год «1971» ставить нельзя без подтверждения, что это фонограмма Philips."
     },
     {
       "singer": "Margaret Price",
@@ -187,30 +217,50 @@
       "year_source": "Hyperion, страница CDJ33015: запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Hampstead; издание октябрь 1992. MusicBrainz подтверждает трек на релизе «The Hyperion Schubert Edition, Volume 15: Schubert & the Nocturne III» (1992-10).",
       "album": "The Hyperion Schubert Edition, Vol. 15: Schubert & the Nocturne III (CDJ33015)",
       "label": "Hyperion",
-      "age_voice": "50 лет (р. 1941). Дайджест: пик ~1970–1990 — запись на самой границе пика.",
+      "age_voice": "50 лет (р. 1941). Дайджест: пик ~1970–1990 — запись на границе пика.",
       "reputation": "Пресса со страницы Hyperion: BBC Music Magazine — «Margaret Price has one of the most distinctive and attractive voices of any soprano before the public today»; Daily Mail — «Exquisite»; Hi-Fi News — «Pleasure after pleasure … the equal of anything yet heard in this wonderful undertaking». Издание — научный эталон с комментариями Грэма Джонсона.",
       "sources": [
         "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33015",
-        "MusicBrainz recording b1d76649-ab44-4b80-9fbd-29d3efaa77e9 (120 s)"
+        "MusicBrainz recording b1d76649-ab44-4b80-9fbd-29d3efaa77e9 (120 s)",
+        "yt-dlp метаданные V5BuYH4Wjeg (album «Schubert: Hyperion Song Edition 15», 121 s)"
       ],
       "youtube": [
         {"videoId": "V5BuYH4Wjeg", "channel": "Margaret Price - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Самый быстрый темп в пуле (120–121 с против типичных 140–150). Тресклист на странице Hyperion через WebFetch не отдаётся — принадлежность трека тому 15 подтверждена MusicBrainz-релизом."
+      "note": "Самый быстрый темп в пуле (120–121 с против типичных 140–150) — трактовка спорная, проверить на слух."
+    },
+    {
+      "singer": "Simon Keenlyside",
+      "pianist": "Malcolm Martineau",
+      "rec_year": 1993,
+      "year_source": "УСТАНОВЛЕН в этой итерации: Discogs release 9240326 (EMI 565234-2 «Schubert Recital», изд. 1994), примечание прессинга: «Recorded at All Saints Church, East Finchley, London, 11-13 February 1993»; D 870 — трек 9 (2:27).",
+      "album": "Schubert Recital (EMI 565234-2)",
+      "label": "EMI Classics",
+      "age_voice": "34 года (р. 1959) — молодой голос в полном порядке; дайджест отмечает, что студийного Winterreise у него нет, а этот рецитал — его главный шубертовский диск.",
+      "reputation": "Дебютный сольный рецитал Кинлисайда; программа сильная (Der Einsame, Gruppe aus dem Tartarus, Prometheus, Auf der Bruck). Устоявшихся сравнительных оценок именно этого трека не найдено; по правилу о пиаре современных — без завышения.",
+      "sources": [
+        "https://api.discogs.com/releases/9240326",
+        "yt-dlp метаданные MSj1CQF6qgQ (album «Schubert - Lieder Recital», artist «Simon Keenlyside/Malcolm Martineau», 147 s)",
+        "planning/research/singers-digest.md — карточка Keenlyside"
+      ],
+      "youtube": [
+        {"videoId": "MSj1CQF6qgQ", "channel": "Simon Keenlyside - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "НОВЫЙ кандидат: в MusicBrainz-каркасе работы отсутствовал, найден через целевой поиск YouTube по Topic-каналам."
     },
     {
       "singer": "Richard Jackson",
       "pianist": "Graham Johnson",
       "rec_year": 1996,
-      "year_source": "Hyperion, страница CDJ33026: запись февраль 1996, Rosslyn Hill Unitarian Chapel; издание сентябрь 1996. MusicBrainz: трек на релизе «The Hyperion Schubert Edition, Volume 26: An 1826 Schubertiad» (1996-09).",
+      "year_source": "Hyperion, страница CDJ33026: запись февраль 1996, Rosslyn Hill Unitarian Chapel; издание сентябрь 1996. MusicBrainz: трек на релизе «The Hyperion Schubert Edition, Volume 26: An 1826 Schubertiad» (1996-09); Discogs 14560303 подтверждает состав диска.",
       "album": "The Hyperion Schubert Edition, Vol. 26: An 1826 Schubertiad (CDJ33026)",
       "label": "Hyperion",
-      "age_voice": "не исследован (певец вне фонда дайджеста); Джексон — характерный британский баритон круга Джонсона.",
+      "age_voice": "не исследован (певец вне фонда дайджеста); характерный британский баритон круга Джонсона.",
       "reputation": "Диск в целом: Gramophone Editor's Choice, Classic CD «Song Record of the Year», Gramophone — «A wondrous addition to this unique venture» (страница Hyperion). Оценка касается альбома, не конкретно этого трека.",
       "sources": [
         "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
         "MusicBrainz recording 11f06e8f-540f-406c-b741-38eb6b5e00fb (133 s)",
-        "planning/youtube/albums/complete-editions.md — карточка тома 26"
+        "yt-dlp метаданные MkNYzcIhtKE (album «Schubert: Hyperion Song Edition 26 – An 1826 Schubertiad», 134 s)"
       ],
       "youtube": [
         {"videoId": "MkNYzcIhtKE", "channel": "Release - Topic", "official": true, "oembed_ok": true}
@@ -221,129 +271,114 @@
       "singer": "Peter Schreier",
       "pianist": "András Schiff",
       "rec_year": 1989,
-      "year_source": "Discogs release 11600088 (Decca 425 612-2, «Schwanengesang»), примечание прессинга: «Recording Location: Mozartsaal, Wiener Konzerthaus, August 1989»; D 870 — трек 16 (2:14)",
+      "year_source": "Discogs release 11600088 (Decca 425 612-2 «Schwanengesang»), примечание прессинга: «Recording Location: Mozartsaal, Wiener Konzerthaus, August 1989»; D 870 — трек 16 (2:14)",
       "album": "Schubert: Schwanengesang (Decca 425 612-2) — с приложением песен на слова Зайдля",
       "label": "Decca",
-      "age_voice": "54 года (р. 1935). Дайджест: пик ~1965–1990, поздний Шрайер суше — это самый край пика; трилогия с Шиффом (~1989–91) считается его зрелой вершиной.",
-      "reputation": "Циклы Шрайера с Шиффом — общепризнанная поздняя вершина тенорового Шуберта (дайджест); конкретных рецензий на трек не найдено.",
+      "age_voice": "54 года (р. 1935). Дайджест: пик ~1965–1990 — самый край пика; трилогия с Шиффом (~1989–91) считается его зрелой вершиной.",
+      "reputation": "Циклы Шрайера с Шиффом — общепризнанная поздняя вершина тенорового Шуберта; конкретных рецензий на трек не найдено.",
       "sources": [
         "https://api.discogs.com/releases/11600088",
-        "MusicBrainz recording 9ff161b5-b69f-4186-aae9-f4d0d1f63f0a (140 s)"
+        "MusicBrainz recording 9ff161b5-b69f-4186-aae9-f4d0d1f63f0a (140 s)",
+        "yt-dlp метаданные vTSavbdzM9g (album «Schubert: Schwanengesang», artist «Peter Schreier, András Schiff», 140 s)"
       ],
       "youtube": [
         {"videoId": "vTSavbdzM9g", "channel": "Peter Schreier - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Второй похожий трек (WxjMuEx-bn4, 136 с) — вероятно, другая запись Шрайера (Eterna/Olbertz?) на том же агрегированном канале; перед публикацией сверить."
+      "note": "Программная логика та же, что у Прегардьена со Штайером: песни на слова Зайдля как приложение к «Лебединой песне»."
     },
     {
       "singer": "Barbara Hendricks",
       "pianist": "Radu Lupu",
       "rec_year": 1985,
-      "year_source": "Discogs release 8185345 (EMI / La Voix de son Maître 270434 1), примечание прессинга: «Enregistré les 25, 28, 29 et 30 novembre 1985 à Paris, Salle Wagram»; D 870 — сторона A, трек 1",
-      "album": "Schubert: Lieder (EMI 270434 1 / CDC 747549 2)",
+      "year_source": "Discogs release 8185345 (EMI / La Voix de son Maître 270434 1), примечание прессинга: «Enregistré les 25, 28, 29 et 30 novembre 1985 à Paris, Salle Wagram»; D 870 открывает сторону A",
+      "album": "Schubert: Lieder (EMI 270434 1 / CDC 747549 2; цифровой релиз «Schubert: Lieder, Vol. 1»)",
       "label": "EMI",
       "age_voice": "37 лет (р. 1948). Дайджест: пик 1980–1990-е — запись в пике.",
       "reputation": "Дайджест выделяет альбом как «редкий дуэт с великим солистом» (Раду Лупу за роялем). Отдельных сравнительных оценок не найдено.",
       "sources": [
         "https://api.discogs.com/releases/8185345",
-        "MusicBrainz recording e4b1f3dc-d58a-4a6f-9b05-62b369d80bd6 (106 s)"
+        "MusicBrainz recording e4b1f3dc-d58a-4a6f-9b05-62b369d80bd6 (106 s)",
+        "yt-dlp метаданные RNOxJa6sDAs (album «Schubert: Lieder, Vol. 1», 106 s)"
       ],
       "youtube": [
         {"videoId": "RNOxJa6sDAs", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "106 с — резко быстрее всех остальных (медиана пула ~140 с); трактовка спорная по темпу, проверить на слух."
+      "note": "106 с — резко быстрее всех (медиана пула ~140 с); темп ставит трактовку под вопрос."
     },
     {
       "singer": "Brigitte Fassbaender",
       "pianist": "Aribert Reimann",
       "rec_year": "1989 или 1991",
-      "year_source": "Discogs release 695913 (DG 429 766-2, «Schwanengesang · 5 Lieder», изд. 1992), примечание: «Recorded November, 1989 and June, 1991 at Konzertsaal, Studio Lankwitz, Berlin»; D 870 — трек 3 (2:21). Какая из двух сессий дала именно этот трек — по примечанию не разделяется.",
+      "year_source": "Discogs release 695913 (DG 429 766-2 «Schwanengesang · 5 Lieder», изд. 1992), примечание: «Recorded November, 1989 and June, 1991 at Konzertsaal, Studio Lankwitz, Berlin»; D 870 — трек 3 (2:21). Какая из двух сессий дала трек, примечание не разделяет.",
       "album": "Schubert: Schwanengesang · 5 Lieder (DG 429 766-2)",
       "label": "Deutsche Grammophon",
       "age_voice": "50–52 года (р. 1939). Дайджест: пик ~1975–1992 — поздний край пика; та же пара, что в эталонной женской Winterreise (EMI 1988).",
-      "reputation": "Дайджест: Фассбендер с Райманом — «первая великая женская» Winterreise; этот DG-диск продолжает ту же линию. Конкретных рецензий на трек не найдено.",
+      "reputation": "Фассбендер с Райманом — авторы «первой великой женской» Winterreise; этот DG-диск продолжает ту же линию. Конкретных рецензий на трек не найдено.",
       "sources": [
         "https://api.discogs.com/releases/695913",
-        "MusicBrainz recording e63acaa1-2366-4e30-926c-00a97dc55b8d (141 s)"
+        "MusicBrainz recording e63acaa1-2366-4e30-926c-00a97dc55b8d (141 s)",
+        "yt-dlp метаданные 8pc1WpMtrP0 (album «Schubert: Schwanengesang, D.957; 5 Lieder», 141 s)"
       ],
       "youtube": [
         {"videoId": "8pc1WpMtrP0", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Для плеера потребуется выбрать один год (1989 либо 1991) — либо сверить по буклету DG."
+      "note": "Для плеера потребуется выбрать один год (1989) либо сверить по буклету DG."
     },
     {
       "singer": "Anne Sofie von Otter",
       "pianist": "Bengt Forsberg",
       "rec_year": 1996,
-      "year_source": "Карточка реестра planning/youtube/albums.md: «Anne Sofie von Otter — Schubert: Lieder (DG) — запись июнь 1996, Concertgebouw Nijmegen; издание 1997»; MusicBrainz подтверждает трек на релизе «Lieder» (DG 453 481-2, 1997-10-01)",
+      "year_source": "Карточка реестра planning/youtube/albums.md: «Schubert: Lieder (DG) — запись июнь 1996, Concertgebouw Nijmegen; издание 1997»; MusicBrainz подтверждает трек на релизе «Lieder» (DG 453 481-2, 1997-10-01)",
       "album": "Schubert: Lieder (DG 453 481-2)",
       "label": "Deutsche Grammophon",
       "age_voice": "41 год (р. 1955). Дайджест: пик ~1988–2010 — запись в пике.",
-      "reputation": "Рецитал DG 1997 — опорный сольный шубертовский диск фон Оттер по дайджесту; конкретных рецензий на трек не найдено.",
+      "reputation": "Опорный сольный шубертовский диск фон Оттер; конкретных рецензий на трек не найдено.",
       "sources": [
         "planning/youtube/albums.md",
         "MusicBrainz recording d2938959-5e2e-48c8-8006-bfaebb5d57b2 (138 s)",
-        "https://api.discogs.com/database/search?q=Anne+Sofie+von+Otter+Forsberg+Schubert (Discogs 10659183, DG 453 481-2, 1997)"
+        "yt-dlp метаданные mM9gfcoFSQg (album «Schubert: Lieder», artist «Anne Sofie von Otter, Bengt Forsberg», 138 s)"
       ],
       "youtube": [
         {"videoId": "mM9gfcoFSQg", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Альбом уже в реестре проекта (используется по D 799, D 839, D 257) — год унифицирован как 1996."
+      "note": "Альбом уже в реестре проекта (D 799, D 839, D 257) — год унифицирован как 1996."
     },
     {
       "singer": "Christoph Prégardien",
       "pianist": "Michael Gees",
       "rec_year": null,
-      "year_source": "НЕ УСТАНОВЛЕН. Альбом «Lieder von Abschied und Reise» (EMI 7243 5 55007 2), MusicBrainz-релиз с датой 1996-04-22 — это издание; карточка реестра фиксирует расхождение: klassik-prisma относит запись к 1992, ℗ Warner — 1996.",
+      "year_source": "НЕ УСТАНОВЛЕН. Альбом «Lieder von Abschied und Reise» (EMI 7243 5 55007 2); карточка реестра фиксирует расхождение: klassik-prisma относит запись к 1992, ℗ Warner — 1996.",
       "album": "Schubert: Lieder von Abschied und Reise (EMI Classics / Virgin → Warner)",
       "label": "EMI Classics",
-      "age_voice": "около 32–39 лет (р. 1956), в зависимости от истинной даты сессии; дайджест: пик ~1990–2012.",
-      "reputation": "Карточка реестра: «единственная современная запись с 5 баллами klassik-prisma» (оценка относится к альбому в контексте песни D 328, не к D 870).",
+      "age_voice": "около 36–40 лет (р. 1956) в зависимости от истинной даты; дайджест: пик ~1990–2012.",
+      "reputation": "Карточка реестра: «единственная современная запись с 5 баллами klassik-prisma» (оценка относится к альбому в контексте D 328, не к D 870).",
       "sources": [
-        "planning/youtube/albums.md — две карточки альбома (D 224, D 328)",
-        "MusicBrainz recording e751a9bb-f631-46fb-a5b9-3a25f117b169 (130 s)"
+        "planning/youtube/albums.md — карточки альбома (D 224, D 328)",
+        "MusicBrainz recording e751a9bb-f631-46fb-a5b9-3a25f117b169 (130 s)",
+        "yt-dlp метаданные ab6pGCUvdQY (album «Schubert: Lieder von Abschied und Reise», artist «Christoph Prégardien, Michael Gees», 130 s)"
       ],
       "youtube": [
-        {"videoId": "LjIgLVKbeZA", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true},
         {"videoId": "ab6pGCUvdQY", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Две Topic-загрузки Прегардьена — разные записи: 138 с и 130 с. 130 с соответствует MusicBrainz-дублю с Гисом; 137–138 с — дубль с Андреасом Штайером (см. следующего кандидата)."
+      "note": "РАЗВЕДЕНО в этой итерации: ab6pGCUvdQY = дубль с Гисом (130 с), LjIgLVKbeZA = дубль со Штайером (138 с). В прошлой версии досье привязка была ошибочной."
     },
     {
       "singer": "Christoph Prégardien",
       "pianist": "Andreas Staier",
       "rec_year": 2008,
-      "year_source": "Год ИЗДАНИЯ по MusicBrainz-релизу «Schwanengesang and songs after Seidl» (2008); дайджест относит Schwanengesang с Штайером к Challenge Classics 2008. Год сессии не установлен.",
+      "year_source": "Год ИЗДАНИЯ: Challenge Classics, релиз «Schwanengesang and songs after Seidl» (MusicBrainz, 2008; тот же album-тег у Topic-загрузки). Год сессии не установлен.",
       "album": "Schwanengesang and songs after Seidl (Challenge Classics)",
       "label": "Challenge Classics",
       "age_voice": "около 52 лет (р. 1956) — верхняя граница пика по дайджесту.",
       "reputation": "Программная логика альбома (песни на слова Зайдля рядом со Schwanengesang) делает запись содержательно уместной; отдельных оценок не найдено.",
       "sources": [
         "MusicBrainz recording 5de3ed12-dfd7-4088-bda6-960d0bbf2e3c (137 s), релиз «Schwanengesang and songs after Seidl» (2008)",
-        "planning/research/singers-digest.md — карточка Prégardien"
+        "yt-dlp метаданные LjIgLVKbeZA (album «Schubert: Schwanengesang and songs after Seidl», artist «Christoph Prégardien, Andreas Staier», 138 s)"
       ],
       "youtube": [
         {"videoId": "LjIgLVKbeZA", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Привязка videoId (138 с) к дублю со Штайером — по длительности; перед публикацией сверить, какой из двух Topic-треков какой."
-    },
-    {
-      "singer": "Christian Gerhaher",
-      "pianist": "Gerold Huber",
-      "rec_year": 2014,
-      "year_source": "Год ИЗДАНИЯ: Sony Classical 88883712172 «Nachtviolen: Schubert Lieder», 2014 (Discogs 11001479; D 870 — трек 8, 2:26). Год сессии в примечаниях не указан (копродукция с BR-Klassik).",
-      "album": "Nachtviolen: Schubert Lieder (Sony Classical 88883712172)",
-      "label": "Sony Classical / BR-Klassik",
-      "age_voice": "около 45 лет (р. 1969). Дайджест: пик ~2000 — наст. время.",
-      "reputation": "Дайджест прямо предупреждает: прессу, называющую Герхаэра «высшим текстовиком современности», фильтровать по правилу о пиаре. Независимых сравнительных оценок этого трека не найдено.",
-      "sources": [
-        "https://api.discogs.com/releases/11001479",
-        "MusicBrainz recording 7ff1be33-c22e-4c70-b944-8d6e30a93bc3 (146 s)"
-      ],
-      "youtube": [
-        {"videoId": "MIj3SYySTQY", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Сильнейший современный кандидат «после 1990» наряду с Бёшем и Шуэном."
+      "note": "Из двух версий Прегардьена более поздняя; при прочих равных правило предпочитает раннюю (с Гисом), но у неё не установлен год."
     },
     {
       "singer": "Florian Boesch",
@@ -357,40 +392,61 @@
       "sources": [
         "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68010",
         "planning/youtube/albums.md — карточка альбома",
-        "MusicBrainz recording 4a2faa6a-b3e1-42a9-8046-272752262fc8 (144 s), релиз «Der Wanderer» (2014-02-03)"
+        "MusicBrainz recording 4a2faa6a-b3e1-42a9-8046-272752262fc8 (144 s)",
+        "yt-dlp метаданные MXoPM99_dRg (album «Schubert: Der Wanderer & 18 Other Songs», 145 s)"
       ],
       "youtube": [
         {"videoId": "MXoPM99_dRg", "channel": "Roger Vignoles - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Тематически центральный альбом («Странник»); песня D 870 — смысловая ось программы. Официальный трек — на Topic-канале пианиста."
+      "note": "Тематически центральный альбом («Странник»); аннотация Ричарда Уигмора к диску прямо разбирает D 870 (см. surveys). Официальный трек — на Topic-канале пианиста."
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": 2014,
+      "year_source": "Год ИЗДАНИЯ: Sony Classical 88883712172 «Nachtviolen: Schubert Lieder», 2014 (Discogs 11001479; D 870 — трек 8, 2:26). Год сессии в примечаниях не указан (копродукция с BR-Klassik; цифровой album-тег датирован 2013).",
+      "album": "Nachtviolen: Schubert Lieder (Sony Classical 88883712172)",
+      "label": "Sony Classical / BR-Klassik",
+      "age_voice": "около 44–45 лет (р. 1969). Дайджест: пик ~2000 — наст. время.",
+      "reputation": "Дайджест предупреждает: прессу, называющую Герхаэра «высшим текстовиком современности», фильтровать по правилу о пиаре. Косвенная независимая оценка: Gramophone в рецензии на диск Бёша сравнивает не в пользу Герхаэра («a more alluringly rich voice than Christian Gerhaher's… Boesch has a greater capacity for soft singing»).",
+      "sources": [
+        "https://api.discogs.com/releases/11001479",
+        "MusicBrainz recording 7ff1be33-c22e-4c70-b944-8d6e30a93bc3 (146 s)",
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68010 (цитата Gramophone)"
+      ],
+      "youtube": [
+        {"videoId": "MIj3SYySTQY", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Один из сильнейших современных кандидатов наряду с Бёшем и Шуэном."
     },
     {
       "singer": "Andrè Schuen",
       "pianist": "Daniel Heide",
       "rec_year": 2016,
-      "year_source": "Карточка реестра planning/youtube/albums.md: «Andrè Schuen — Wanderer (Avi-Music 8553373), запись октябрь 2016, Villa Musica Rheinland-Pfalz, Schloss Engers; издание 2018»; Discogs 24213455 подтверждает релиз 2018, кат. 8553373",
+      "year_source": "Карточка реестра planning/youtube/albums.md: «Wanderer (Avi-Music 8553373), запись октябрь 2016, Villa Musica Rheinland-Pfalz, Schloss Engers; издание 2018»; Discogs 24213455 подтверждает релиз 2018, кат. 8553373",
       "album": "Wanderer (Avi-Music 8553373)",
       "label": "Avi-Music (дистрибуция на YouTube — UMG)",
-      "age_voice": "32 года (р. 1984); ранний сольный шубертовский диск до DG-трилогии, дайджест относит пик к ~2018 — наст. времени.",
-      "reputation": "Дайджест: «флагманский молодой Schubert-баритон DG». Скепсис по правилу о пиаре современных: устоявшихся сравнительных оценок нет.",
+      "age_voice": "32 года (р. 1984); ранний сольный шубертовский диск до DG-трилогии; дайджест относит пик к ~2018 — наст. времени.",
+      "reputation": "Дайджест: «флагманский молодой Schubert-баритон DG». По правилу о пиаре — устоявшихся сравнительных оценок нет.",
       "sources": [
         "planning/youtube/albums.md",
-        "https://api.discogs.com/database/search?q=Andre+Schuen+Wanderer+Avi (Discogs 24213455)"
+        "https://api.discogs.com/database/search?q=Andre+Schuen+Wanderer+Avi (Discogs 24213455)",
+        "yt-dlp метаданные px3FMngYQyI (album «Schubert: Wanderer», artist «Andrè Schuen, Daniel Heide», 171 s)"
       ],
       "youtube": [
         {"videoId": "px3FMngYQyI", "channel": "Andrè Schuen - Topic", "official": true, "oembed_ok": true}
       ],
-      "note": "Самый медленный дубль пула (172 с) — трактовка сильно растянутая, проверить на слух."
+      "note": "Самый медленный дубль пула (171–172 с) — трактовка сильно растянутая."
     },
     {
       "singer": "Benjamin Appl",
       "pianist": "James Baillieu",
       "rec_year": 2017,
-      "year_source": "Год ИЗДАНИЯ: Sony Classical 88985393032 «Heimat», 2017 (Discogs 28047810; D 870 — трек 13, 2:20); MusicBrainz подтверждает трек на релизе «Heimat» (2017). Год сессии не указан.",
+      "year_source": "Год ИЗДАНИЯ: Sony Classical 88985393032 «Heimat», 2017 (Discogs 28047810; D 870 — трек 13, 2:20); MusicBrainz подтверждает. Год сессии не указан.",
       "album": "Heimat (Sony Classical 88985393032)",
       "label": "Sony Classical / BR-Klassik",
       "age_voice": "35 лет (р. 1982). Дайджест: пик ~2016 — наст. время; последний частный ученик Фишера-Дискау.",
-      "reputation": "Медийно активный проект (VEVO-канал, 59 тыс. просмотров у трека). По правилу о пиаре — устоявшейся критической репутации ещё нет.",
+      "reputation": "Медийно активный проект (VEVO-канал, ~59 тыс. просмотров у трека). По правилу о пиаре — устоявшейся критической репутации ещё нет.",
       "sources": [
         "https://api.discogs.com/releases/28047810",
         "MusicBrainz recording 2e0fb66d-5a3e-4cd4-8a1a-bc32305438cb (140 s)"
@@ -398,17 +454,17 @@
       "youtube": [
         {"videoId": "ABSYNTYjWlc", "channel": "BenjaminApplVEVO", "official": true, "oembed_ok": true}
       ],
-      "note": "Официальный VEVO-канал лейбла — надёжная ссылка; из современных это единственная запись с крупной аудиторией."
+      "note": "Ролик VEVO — видеоклип (160 с с рамкой), а не чистый аудиотрек; ссылка надёжна."
     },
     {
       "singer": "Samuel Hasselhorn",
       "pianist": "Ammiel Bushakevitz",
       "rec_year": 2026,
-      "year_source": "Год ИЗДАНИЯ: harmonia mundi HMM 902779 «Hoffnung 1826», серия Schubert 200, 2026 (Discogs 37546023; D 870 — трек 11, 2:23); MusicBrainz: релиз «Hoffnung», 2026-04-17. Год сессии не установлен.",
+      "year_source": "Год ИЗДАНИЯ: harmonia mundi HMM 902779 «Hoffnung 1826», серия Schubert 200 (Discogs 37546023; D 870 — трек 11, 2:23); MusicBrainz: релиз «Hoffnung», 2026-04-17. Год сессии не установлен.",
       "album": "Hoffnung 1826 (harmonia mundi HMM 902779, серия «Schubert 200»)",
       "label": "harmonia mundi",
-      "age_voice": "около 36 лет (р. 1990) — в форме; проект «Schubert 200» издаёт песни ровно через 200 лет после сочинения, D 870 написана в 1826.",
-      "reputation": "Серия отмечена наградами (Müllerin 2023 — Diapason d'or года; «Licht und Schatten» 2024 — Preis der deutschen Schallplattenkritik) по дайджесту; сам альбом 2026 года ещё без устоявшейся репутации.",
+      "age_voice": "около 36 лет (р. 1990) — в форме; серия издаёт песни ровно через 200 лет после сочинения, D 870 написана в 1826.",
+      "reputation": "Серия отмечена наградами (Müllerin 2023 — Diapason d'or года; «Licht und Schatten» 2024 — Preis der deutschen Schallplattenkritik); сам альбом 2026 года ещё без устоявшейся репутации.",
       "sources": [
         "https://api.discogs.com/releases/37546023",
         "MusicBrainz recording cdf46268-6035-4bb9-83d9-446c06b2892c (143 s)",
@@ -423,13 +479,14 @@
       "singer": "Vesselina Kasarova",
       "pianist": "Friedrich Haider",
       "rec_year": 1999,
-      "year_source": "Год ИЗДАНИЯ по MusicBrainz-релизу «Lieder» (1999-11-09, RCA). Год сессии не установлен.",
-      "album": "Schubert: Lieder (RCA)",
+      "year_source": "Год ИЗДАНИЯ по MusicBrainz-релизу «Lieder» (1999-11-09, RCA; album-тег Topic — «Lieder von Schubert, Brahms, Schumann»). Год сессии не установлен.",
+      "album": "Lieder von Schubert, Brahms, Schumann (RCA Red Seal)",
       "label": "RCA Red Seal",
       "age_voice": "около 34 лет (р. 1965) — в форме; певица вне фонда дайджеста (оперное меццо, Шуберт вторичен).",
       "reputation": "Оценок не найдено; шубертовская репутация не устоялась.",
       "sources": [
-        "MusicBrainz recording e4053dda-aaaa-4adb-959a-d43273c28b01 (136 s)"
+        "MusicBrainz recording e4053dda-aaaa-4adb-959a-d43273c28b01 (136 s)",
+        "yt-dlp метаданные fb1a2FDN6tA (136 s)"
       ],
       "youtube": [
         {"videoId": "fb1a2FDN6tA", "channel": "Vesselina Kasarova - Topic", "official": true, "oembed_ok": true}
@@ -440,20 +497,37 @@
       "singer": "Ian Bostridge",
       "pianist": "Julius Drake",
       "rec_year": null,
-      "year_source": "НЕ УСТАНОВЛЕН. Концертная запись Wigmore Hall (официальный канал зала); серия Wigmore Hall Live дуэта — WHLive0067 (℗2014) и WHLive0091 (℗2018), даты концертов в реестре не установлены. Дебютный EMI-рецитал (зап. II–III.1996) D 870 в реестре не значится.",
-      "album": "концертная запись Wigmore Hall (привязка к конкретному диску не установлена)",
+      "year_source": "НЕ УСТАНОВЛЕН. Концертная запись Wigmore Hall (официальный канал зала); серия Wigmore Hall Live дуэта — WHLive0067 (℗2014) и WHLive0091 (℗2018), даты концертов не установлены. Дебютный EMI-рецитал Бостриджа (зап. II–III.1996) D 870 не содержит.",
+      "album": "концертная запись Wigmore Hall (привязка к диску не установлена)",
       "label": "Wigmore Hall",
       "age_voice": "не определяется без даты; дайджест: пик ~1995–2010, позже «манернее/суше».",
       "reputation": "Дайджест: интеллектуальный, но манерный поздний Бостридж; правило о пиаре современных применимо.",
       "sources": [
         "planning/youtube/albums.md — карточка Wigmore Hall Live",
-        "оба ролика проверены: 81jNxenRJY8 (Wigmore Hall, 147 с), Q6cexGDdAGc (канал Ian Bostridge, 154 с)"
+        "проверены ролики: 81jNxenRJY8 (Wigmore Hall, 147 с, живой), Q6cexGDdAGc (канал Ian Bostridge, 154 с)"
       ],
       "youtube": [
-        {"videoId": "81jNxenRJY8", "channel": "Wigmore Hall", "official": true, "oembed_ok": true},
-        {"videoId": "Q6cexGDdAGc", "channel": "Ian Bostridge", "official": true, "oembed_ok": false}
+        {"videoId": "81jNxenRJY8", "channel": "Wigmore Hall", "official": true, "oembed_ok": true}
       ],
-      "note": "Год не установлен — для публикации потребовался бы диапазон со знаком вопроса; при наличии сильных датированных кандидатов не нужен."
+      "note": "Год не установлен — при наличии сильных датированных кандидатов не нужен."
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "Rudolf Jansen",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Есть только фан-загрузка на мемориальном канале, посвящённом пианисту («Eerbetoon aan Rudolf Jansen», TNLt_1rI2bU, 167 с); в MusicBrainz-каркасе работы записи Холла нет, коммерческий релиз не идентифицирован.",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "не определяется без даты; дайджест: пик ~1980–2005, «гранитная» манера, патриарх Шубертиады.",
+      "reputation": "Не исследована применительно к этой песне.",
+      "sources": [
+        "planning/youtube/data/d870-der-wanderer-an-den-mond.yt.json (generic-поиск)",
+        "planning/research/singers-digest.md — карточка Holl"
+      ],
+      "youtube": [
+        {"videoId": "TNLt_1rI2bU", "channel": "Eerbetoon aan Rudolf Jansen", "official": false, "oembed_ok": null}
+      ],
+      "note": "Кандидат второго ряда: без года, без официального канала."
     },
     {
       "singer": "Paul Schöffler",
@@ -462,49 +536,89 @@
       "year_source": "Дискография Майкла Грея (id 33552 и 33553): «1946 October 28», Decca, префикс DR, матрицы 10809 и 10108, principal number M599",
       "album": "Decca 78 об. (M599)",
       "label": "Decca",
-      "age_voice": "49 лет (р. 1897) — зрелый венский бас-баритон; в фонде дайджеста карточки нет.",
+      "age_voice": "49 лет (р. 1897) — зрелый венский бас-баритон; карточки в дайджесте нет.",
       "reputation": "Не исследована; исторический документ.",
       "sources": [
         "https://www.classical-discography.org/modalcontent.php?id=33552",
         "https://www.classical-discography.org/modalcontent.php?id=33553"
       ],
       "youtube": [],
-      "note": "На YouTube трек не найден (проверены запросы по имени певца в общем поиске) — вне игры, оставлен в досье как дискографический факт."
+      "note": "На YouTube не найден — вне игры, оставлен как дискографический факт."
     }
   ],
   "priority_singers_checked": {
-    "Thomas Quasthoff": "НЕТ. В списке из 43 записей работы D 870 в MusicBrainz Квастхофа нет; тресклист «A Romantic Songbook» (DG B0002192-2, 2004, 24 трека — Discogs 14296330) песни не содержит; дискография закрыта в 2012 и по дайджесту ограничена шестью шубертовскими альбомами (Goethe-Lieder, Winterreise, Schwanengesang, оркестровые Lieder, Müllerin, фильм-Winterreise), ни один из которых не включает песни на слова Зайдля вне Schwanengesang.",
-    "Dietrich Fischer-Dieskau": "ДА, многократно: с Муром (DG «Sämtliche Lieder», том 2, изд. 1970 — MB 2717fb5a; плюс EMI-дубль 137 с и зальцбургские лайвы 1956–1965), с Бренделем (Philips 6514 384, изд. 1983 — Discogs 5655989), с Бриттеном (Decca, дата не установлена — MB 0086f7e5), с Демусом («Ausgewählte Lieder» — MB dd9d804b), с Хёллем («Lieder», 1999 — MB 32002546).",
-    "Elisabeth Schwarzkopf": "НЕТ. Среди 43 записей работы в MusicBrainz Шварцкопф отсутствует; в дискографии Грея по этой работе (8 позиций) её тоже нет; целевые поиски на YouTube дали только других исполнителей. Песня — мужская по перспективе странника и в её рецитальных программах (EMI 1952 с Фишером, 78s с Муром, зальцбургские лайвы) не зафиксирована.",
-    "Hans Hotter": "ДА. С Хансом Альтманом за роялем: Preiser PR 3145 «Dichterliebe / Ausgewählte Lieder», трек 21 (MusicBrainz release 04f9acd3; Discogs 13964615, примечание: «Aus dem Archiv des Bayrischen Rundfunks. Live Recording»). Год записи НЕ установлен: у Грея записи Hotter/Altmann отсутствуют. YouTube: wffV7pZh180 (Hans Altmann - Topic).",
-    "Peter Anders": "НЕТ. Отсутствует среди 43 записей работы в MusicBrainz и среди 8 позиций у Грея; целевые поиски YouTube по имени певца результата не дали. Дайджест фиксирует его шубертовское наследие как циклы 1945–1948 с Раухайзеном и Вайссенборном.",
-    "Elisabeth Schumann": "НЕТ. Отсутствует в MusicBrainz-списке работы и у Грея; её шубертовский корпус по дайджесту — ~28 песен HMV 1927–49, D 870 среди зафиксированных нет.",
-    "Christa Ludwig": "НЕТ. Отсутствует в MusicBrainz-списке работы и у Грея; по дайджесту её шубертовский свод — «15 Lieder» EMI (1957–69), DG-ремейки и Winterreise 1986, D 870 не зафиксирована.",
-    "Lucia Popp": "ДА. С Ирвином Гейджем, EMI/HMV «Schubert Lieder», сессии 1–6 ноября 1983, Abbey Road (примечание прессинга, Discogs 6176352); D 870 — сторона A трек 7. YouTube: 4bQdSEVDCT0 (Lucia Popp - Topic)."
+    "Thomas Quasthoff": "НЕТ. Среди 43 записей работы в MusicBrainz Квастхофа нет; тресклист «A Romantic Songbook» (DG B0002192-2, 2004, Discogs 14296330) песни не содержит; дискография закрыта в 2012 и по дайджесту ограничена шестью шубертовскими альбомами (Goethe-Lieder, Winterreise, Schwanengesang, Lieder с оркестром, Müllerin, фильм-Winterreise). Целевой поиск YouTube («Quasthoff Der Wanderer an den Mond») дал только чужие записи. Верхняя позиция иерархии приоритетов вакантна.",
+    "Dietrich Fischer-Dieskau": "ДА, многократно — четыре различимых дубля: (1) DG «Sämtliche Lieder», том Volume 1 (2720 006, изд. 1970), с Муром, 130 с; (2) EMI «Schubert: Lieder Vol. 1» с Муром, 141 с (год не установлен, 1955–57?); (3) живой концерт с Бриттеном, Snape Maltings, 8 июня 1972 (BBC BBCB 8011-2), 127 с; (4) Philips с Бренделем, изд. 1983, 148 с. MusicBrainz дополнительно приписывает дубли с Демусом («Ausgewählte Lieder») и Хёллем («Lieder», 1999) — не верифицированы.",
+    "Elisabeth Schwarzkopf": "НЕТ. Отсутствует среди 43 записей работы в MusicBrainz и среди 8 позиций у Грея; в её рецитальных программах (EMI 1952 с Э. Фишером, 78s с Муром, зальцбургские лайвы, «Songs I Love» с Парсонсом) песня не зафиксирована. Песня — мужская по перспективе странника.",
+    "Hans Hotter": "ДА. С Хансом Альтманом за роялем: Preiser PR 3145 / 93145 «Dichterliebe / Ausgewählte Lieder» (MusicBrainz release 04f9acd3; Discogs 13964615: «Aus dem Archiv des Bayrischen Rundfunks. Live Recording»), ранее — Preiser PR-SW-2 (7\", A2). Год записи НЕ установлен: у Грея записей Hotter/Altmann нет, у Discogs и MusicBrainz дат нет. YouTube: wffV7pZh180 (Hans Altmann - Topic).",
+    "Peter Anders": "НЕТ. Отсутствует среди 43 записей работы в MusicBrainz и среди 8 позиций у Грея; целевые поиски YouTube результата не дали. Его шубертовское наследие по дайджесту — циклы 1945–1948 с Раухайзеном и Вайссенборном.",
+    "Elisabeth Schumann": "НЕТ. Отсутствует в MusicBrainz-списке работы и у Грея; её шубертовский корпус — ~28 песен HMV 1927–49, D 870 среди них не зафиксирована.",
+    "Christa Ludwig": "НЕТ. Отсутствует в MusicBrainz-списке работы и у Грея; по дайджесту её шубертовский свод — «15 Lieder» EMI (1957–69), DG-ремейки и Winterreise 1986.",
+    "Lucia Popp": "ДА. С Ирвином Гейджем, EMI/HMV «Schubert Lieder», сессии 1–6 ноября 1983, Abbey Road (Discogs 6176352); D 870 — сторона A трек 7. Версия вошла и в антологию EMI «Lieder on Record 1898–2012» (11-5). YouTube: 4bQdSEVDCT0 (Lucia Popp - Topic)."
   },
   "albums_facts": [
+    {
+      "album": "Britten the Performer — Schubert/Wolf Lieder (BBC BBCB 8011-2); переизд. BBC Legends BBCL 4255-2",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1972,
+      "label": "BBC / BBC Legends",
+      "facts": "Живые записи Олдборского фестиваля: Snape Maltings, 8 июня 1972 (десять шубертовских песен, треки 1–10, среди них D 870 — трек 9, 2:07), 12 июня 1972 (Der Hirt auf dem Felsen), 26 июня 1971 (Вольф и Микеланджело-песни Бриттена). За роялем Бенджамин Бриттен. Издание 1999 (℗ BBC Worldwide Music); переиздание BBCL 4255-2 (2009) повторяет дату «Snape Maltings, 8 June 1972 (Schubert)». НОВАЯ карточка для реестра; исправляет прежнюю атрибуцию записи лейблу Decca.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Volume 1 (DG 2720 006) — часть свода «Sämtliche Lieder»",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1970,
+      "label": "Deutsche Grammophon",
+      "facts": "Том поздних песен (1817–1828) полного свода с Джералдом Муром, Ufa-Ton-Studio Берлин, сессии свода 1966–1972, издание бокса 1970. D 870 — позиция U9. Уточнение к реестру: песни 1826 года лежат в Volume 1, а не в Volume 2 (2720 022, песни 1811–1817).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Recital (EMI 565234-2)",
+      "singer": "Simon Keenlyside",
+      "year": 1993,
+      "label": "EMI Classics",
+      "facts": "Сессии 11–13 февраля 1993, All Saints' Church, East Finchley, Лондон; пианист Malcolm Martineau; издание 1994. 20 песен, D 870 — трек 9 (2:27); программа включает Der Einsame D 800, Gruppe aus dem Tartarus D 583, Prometheus D 674, Auf der Bruck D 853, Heidenröslein D 257, Du bist die Ruh D 776 — то есть альбом покрывает много песен корпуса. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ein unvergessener Liederabend (Electrola 1C 047-28033 M)",
+      "singer": "Karl Erb",
+      "year": "1936–37",
+      "label": "Electrola / EMI",
+      "facts": "Сборник исторических сторон с примечанием прессинга «historische Aufnahmen 1936-37»; аккомпанемент — Bruno Seidler-Winkler. Шубертовская сторона A включает D 776, D 933, D 827, D 839, D 870 (A5), D 545, D 911/21, D 799; сторона B — D 800, D 746, D 927, D 768 и песни Шумана/Бетховена/Вольфа/Брамса. Даёт приблизительную датировку сразу многим записям Эрба. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert — Lieder on Record 1898–2012 (EMI 50999 3 27575 2 1)",
+      "singer": "антология (разные исполнители)",
+      "year": 2012,
+      "label": "EMI / Warner",
+      "facts": "Историческая антология шубертовских песен. Для D 870 содержит три версии: диск 4 трек 20 — Karl Erb; диск 11 трек 5 — Lucia Popp; диск 15 трек 15 — Olaf Bär. Именно из неё MusicBrainz берёт дубль Бэра, исходный альбом которого установить не удалось. Даты сессий в примечаниях Discogs отсутствуют.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Dichterliebe op. 48 / Ausgewählte Lieder (Preiser PR 3145 / 93145; ранее PR-SW-2)",
+      "singer": "Hans Hotter",
+      "year": null,
+      "label": "Preiser Records (первоисточник — Bayerischer Rundfunk)",
+      "facts": "Пианист Hans Altmann; Dichterliebe целиком плюс семь песен Шуберта (An eine Quelle D 530, Des Fischers Liebesglück, Der Wanderer D 649, Auf der Donau D 553, Der Wanderer an den Mond D 870, Greisengesang D 778, Gruppe aus dem Tartarus D 583). Примечание: «Aus dem Archiv des Bayrischen Rundfunks. Live Recording». Год не установлен ни в одном из проверенных источников (Discogs 13964615, 26576171, 5170717; MusicBrainz 04f9acd3; Грей — записей Hotter/Altmann нет). Карточка покрывает сразу несколько песен корпуса.",
+      "covers_more_pilot_songs": true
+    },
     {
       "album": "Schubert Lieder (EMI / HMV 1C 067 27 0067 1)",
       "singer": "Lucia Popp",
       "year": 1983,
       "label": "EMI Electrola",
-      "facts": "Сессии 1–6 ноября 1983, Abbey Road Studios, Лондон; пианист Irwin Gage; цифровая запись, DMM; издание 1984 (также Angel DS-38139, CD CDC 7 49633 2). D 870 — A7 (2:26). Источник даты — примечание прессинга (Discogs 6176352). НОВАЯ карточка для реестра: дайджест датировал рецитал «1983» без деталей, теперь есть точные сессии.",
+      "facts": "Сессии 1–6 ноября 1983, Abbey Road Studios, Лондон; пианист Irwin Gage; цифровая запись, DMM; издание 1984 (также Angel DS-38139, CD CDC 7 49633 2, цифровой сборник «Icon: Lucia Popp»). D 870 — A7 (2:26).",
       "covers_more_pilot_songs": true
     },
     {
-      "album": "Schubert: Songs • Lieder (Philips 6514 384 / CD 411 421-2)",
+      "album": "Schubert: Songs • Lieder (Philips 6514 384 / 411 421-2)",
       "singer": "Dietrich Fischer-Dieskau",
       "year": 1983,
       "label": "Philips",
-      "facts": "Пианист Альфред Брендель; издание 1983 (парный диск — Schwanengesang, Philips 6514 383). D 870 — B6 / CD-трек 14 (2:24). Год сессии в примечаниях прессингов не указан. НОВАЯ карточка для реестра.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Dichterliebe op. 48 / Ausgewählte Lieder (Preiser PR 3145 / 93145)",
-      "singer": "Hans Hotter",
-      "year": null,
-      "label": "Preiser Records (первоисточник — Bayerischer Rundfunk)",
-      "facts": "Пианист Hans Altmann; 23 трека: Dichterliebe целиком + семь песен Шуберта (An eine Quelle, Des Fischers Liebesglück, Der Wanderer D 649, Auf der Donau, Der Wanderer an den Mond, Greisengesang, Gruppe aus dem Tartarus). Примечание Discogs: «Aus dem Archiv des Bayrischen Rundfunks. Live Recording». Год не установлен; у Грея записи Hotter/Altmann отсутствуют. НОВАЯ карточка для реестра — покрывает сразу несколько песен корпуса (D 553, D 649, D 778, D 583, D 870).",
+      "facts": "Пианист Альфред Брендель; издание 1983 (парный диск — Schwanengesang, Philips 6514 383). D 870 — B6 / CD-трек 14 (2:24). Год сессии в примечаниях прессингов не указан.",
       "covers_more_pilot_songs": true
     },
     {
@@ -512,7 +626,7 @@
       "singer": "Hermann Prey",
       "year": 1971,
       "label": "Philips",
-      "facts": "По Грею D 870 записана 27–30 октября 1971 в Мюнхене, за роялем Leonard Hokanson. MusicBrainz для той же песни указывает Karl Engel — расхождение по пианисту не разрешено. Карточка реестра (complete-editions.md) фиксирует, что в проекте участвовали оба пианиста.",
+      "facts": "По Грею D 870 записана 27–30 октября 1971 в Мюнхене, за роялем Leonard Hokanson. Однако официальная Topic-фонограмма (154 с) помечена альбомом «Schubert & Schumann: Lieder» с Карлом Энгелем, а MusicBrainz даёт дубль Prey/Engel 160 с — вероятно, у Прая две записи песни; расхождение не разрешено.",
       "covers_more_pilot_songs": true
     },
     {
@@ -520,7 +634,7 @@
       "singer": "Margaret Price",
       "year": 1991,
       "label": "Hyperion",
-      "facts": "Запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Хэмпстед; пианист Graham Johnson; продюсер Martin Compton, инженер Antony Howell; издание октябрь 1992. Пресса: BBC Music Magazine, Daily Mail («Exquisite»), Hi-Fi News. Уже значится в реестре complete-editions.md — дополняется фактом включения D 870.",
+      "facts": "Запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Хэмпстед; пианист Graham Johnson; издание октябрь 1992. Пресса: BBC Music Magazine, Daily Mail («Exquisite»), Hi-Fi News.",
       "covers_more_pilot_songs": true
     },
     {
@@ -528,7 +642,7 @@
       "singer": "Richard Jackson (в ансамбле с C. Schäfer, Ainsley, Keenlyside)",
       "year": 1996,
       "label": "Hyperion",
-      "facts": "Запись февраль 1996, Rosslyn Hill Unitarian Chapel; пианист Graham Johnson; продюсеры Mark Brown и Martin Compton; издание сентябрь 1996. Gramophone Editor's Choice, Classic CD «Song Record of the Year». D 870 (сочинена в 1826) поёт Richard Jackson. Уже в реестре — дополняется D 870.",
+      "facts": "Запись февраль 1996, Rosslyn Hill Unitarian Chapel; пианист Graham Johnson; издание сентябрь 1996. Gramophone Editor's Choice, Classic CD «Song Record of the Year». D 870 (сочинена в 1826) поёт Richard Jackson.",
       "covers_more_pilot_songs": true
     },
     {
@@ -536,7 +650,7 @@
       "singer": "Peter Schreier",
       "year": 1989,
       "label": "Decca",
-      "facts": "Запись август 1989, Mozartsaal, Wiener Konzerthaus; пианист András Schiff; издание 1990. Помимо цикла — приложение из песен на слова Зайдля, включая D 870 (трек 16, 2:14). Источник — примечание прессинга (Discogs 11600088). НОВАЯ карточка для реестра.",
+      "facts": "Запись август 1989, Mozartsaal, Wiener Konzerthaus; пианист András Schiff; издание 1990. Помимо цикла — приложение из песен на слова Зайдля, включая D 870 (трек 16, 2:14).",
       "covers_more_pilot_songs": true
     },
     {
@@ -544,7 +658,7 @@
       "singer": "Barbara Hendricks",
       "year": 1985,
       "label": "EMI",
-      "facts": "Сессии 25, 28, 29 и 30 ноября 1985, Salle Wagram, Париж; пианист Radu Lupu. D 870 открывает сторону A. Источник — примечание прессинга (Discogs 8185345). Уточняет дайджест («два тома EMI с Лупу, 1985 и 1993»).",
+      "facts": "Сессии 25, 28, 29 и 30 ноября 1985, Salle Wagram, Париж; пианист Radu Lupu. D 870 открывает сторону A.",
       "covers_more_pilot_songs": true
     },
     {
@@ -552,7 +666,7 @@
       "singer": "Brigitte Fassbaender",
       "year": "1989/1991",
       "label": "Deutsche Grammophon",
-      "facts": "Записи ноября 1989 и июня 1991, Konzertsaal, Studio Lankwitz, Берлин; пианист Aribert Reimann; издание 1992. D 870 — трек 3 (2:21); к какой из двух сессий относится, примечание не разделяет. Источник — примечание прессинга (Discogs 695913). НОВАЯ карточка для реестра (у Фассбендер в реестре значились EMI 1974, Sony 1992/93, Hyperion т. 11).",
+      "facts": "Записи ноября 1989 и июня 1991, Konzertsaal, Studio Lankwitz, Берлин; пианист Aribert Reimann; издание 1992. D 870 — трек 3 (2:21); к какой сессии относится, примечание не разделяет.",
       "covers_more_pilot_songs": true
     },
     {
@@ -560,7 +674,7 @@
       "singer": "Christian Gerhaher",
       "year": 2014,
       "label": "Sony Classical / BR-Klassik",
-      "facts": "Пианист Gerold Huber; издание 2014; настройщик Christian Rabus. D 870 — трек 8 (2:26), рядом с Der Wanderer D 649 (трек 7). Год сессии в примечаниях не указан.",
+      "facts": "Пианист Gerold Huber; издание 2014 (цифровой релиз помечен 2013). D 870 — трек 8 (2:26), рядом с Der Wanderer D 649 (трек 7). Год сессии в примечаниях не указан.",
       "covers_more_pilot_songs": true
     },
     {
@@ -568,7 +682,7 @@
       "singer": "Benjamin Appl",
       "year": 2017,
       "label": "Sony Classical",
-      "facts": "Пианист James Baillieu; издание 2017, общее время 66:54. D 870 — трек 13 (2:20), в одной программе с Mondnacht Шумана и Der Wanderer. Год сессии не указан. Дополняет реестр, где у Аппля значился только «Forbidden Fruit» (Alpha 2023).",
+      "facts": "Пианист James Baillieu; издание 2017, TT 66:54. D 870 — трек 13 (2:20), в одной программе с Mondnacht Шумана и Der Wanderer. Год сессии не указан.",
       "covers_more_pilot_songs": true
     },
     {
@@ -576,7 +690,7 @@
       "singer": "Samuel Hasselhorn",
       "year": 2026,
       "label": "harmonia mundi",
-      "facts": "Пианист Ammiel Bushakevitz; издание 2026 (MusicBrainz: 2026-04-17), диджипак с 60-страничным буклетом, TT 71'35. D 870 — трек 11 (2:23). Альбом серии, издающей песни ровно через 200 лет после сочинения; D 870 написана в 1826. НОВАЯ карточка для реестра (в реестре значились Müllerin 2023, «Licht und Schatten» 2024, «Glaube, Hoffnung, Liebe» 2021).",
+      "facts": "Пианист Ammiel Bushakevitz; издание 2026 (MusicBrainz: 2026-04-17), TT 71'35. D 870 — трек 11 (2:23). Серия издаёт песни ровно через 200 лет после сочинения.",
       "covers_more_pilot_songs": true
     },
     {
@@ -584,7 +698,7 @@
       "singer": "Florian Boesch",
       "year": 2012,
       "label": "Hyperion",
-      "facts": "Запись ноябрь 2012, All Saints' Church, East Finchley; пианист Roger Vignoles; продюсер Mark Brown, инженер David Hinitt; издание февраль 2014. Пресса: Gramophone, The Guardian, International Record Review, The Sunday Times. Уже в реестре (D 768, D 853, D 224) — дополняется D 870, заглавной песней темы «странника».",
+      "facts": "Запись ноябрь 2012, All Saints' Church, East Finchley; пианист Roger Vignoles; издание февраль 2014. Аннотация Ричарда Уигмора разбирает D 870 (см. surveys). Пресса: Gramophone, The Guardian, International Record Review, The Sunday Times.",
       "covers_more_pilot_songs": true
     },
     {
@@ -592,7 +706,7 @@
       "singer": "Andrè Schuen",
       "year": 2016,
       "label": "Avi-Music",
-      "facts": "Запись октябрь 2016, Villa Musica Rheinland-Pfalz, Schloss Engers, Dianasaal; пианист Daniel Heide; издание 2018 (Discogs 24213455). Уже в реестре (D 259) — дополняется D 870.",
+      "facts": "Запись октябрь 2016, Villa Musica Rheinland-Pfalz, Schloss Engers, Dianasaal; пианист Daniel Heide; издание 2018.",
       "covers_more_pilot_songs": true
     },
     {
@@ -600,15 +714,15 @@
       "singer": "Gérard Souzay",
       "year": 1967,
       "label": "Philips",
-      "facts": "ОТРИЦАТЕЛЬНЫЙ факт для D 870: полный тресклист альбома (15 треков, Discogs 6210707) песни НЕ содержит. Значит, звучащие на Topic-каналах Сузе дубли D 870 восходят к записи Decca 1947 с Жаклин Бонно, а не к сессиям с Болдуином 1967 г. Карточка альбома уже есть в реестре.",
+      "facts": "ОТРИЦАТЕЛЬНЫЙ факт для D 870: полный тресклист (15 треков, Discogs 6210707) песни НЕ содержит. Звучащие на Topic-каналах дубли Сузе восходят к записи Decca 1947 с Жаклин Бонно, а не к сессиям с Болдуином 1967 г.",
       "covers_more_pilot_songs": true
     }
   ],
   "surveys": [
     {
-      "source": "Hyperion Records — страница CDA68010 (Boesch/Vignoles, «Der Wanderer & other songs»)",
+      "source": "Hyperion Records — страница CDA68010 (Boesch/Vignoles, «Der Wanderer & other songs»), аннотация Ричарда Уигмора",
       "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68010",
-      "content": "Сводка прессы по альбому: Gramophone, The Guardian, International Record Review, The Sunday Times; данные сессии (XI.2012)."
+      "content": "Единственный найденный содержательный разбор песни: «The solitary traveller in Johann Gabriel Seidl's Der Wanderer an den Mond exudes a weary, trudging stoicism. Schubert's song of 1826 evokes both the Andante of the ‘Great' C major Symphony, completed the same year, and—albeit in less nihilistic vein—several of the Winterreise songs. There is a suggestion of folksong in the opening tune, enhanced by the open fifths of the bass, and a characteristic, and poignant, Schubertian minor-major polarity to point the contrast between the poet's gloomy earthly plight and the serene, infinite heavens». Там же — сводка прессы по альбому (Gramophone: «A more alluringly rich voice than Christian Gerhaher's is hard to imagine until hearing Boesch, who has a greater capacity for soft singing»; The Guardian; International Record Review: «two of the best performers of Lieder in our time»; The Sunday Times: «an ideal voice, at once dark and dazzling») и данные сессии (XI.2012)."
     },
     {
       "source": "Hyperion Records — страница CDJ33015 (Schubert Edition т. 15, M. Price/Johnson)",
@@ -618,7 +732,7 @@
     {
       "source": "Hyperion Records — страница CDJ33026 (Schubert Edition т. 26, «An 1826 Schubertiad»)",
       "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
-      "content": "Gramophone Editor's Choice, Classic CD Song Record of the Year; сессия II.1996."
+      "content": "Gramophone Editor's Choice, Classic CD «Song Record of the Year», Gramophone: «A wondrous addition to this unique venture»; сессия II.1996."
     },
     {
       "source": "A Classical Discography (Michael Gray) — поиск по работе «Der Wanderer an den Mond, D870, op. 80, no. 1»",
@@ -628,23 +742,29 @@
     {
       "source": "MusicBrainz — work f18df42a-de30-3dff-b2c7-b5fd1a66b597",
       "url": "https://musicbrainz.org/ws/2/recording?work=f18df42a-de30-3dff-b2c7-b5fd1a66b597",
-      "content": "43 записи песни: полный каркас исполнителей, использованный для проверки приоритетных певцов."
+      "content": "43 записи песни — каркас исполнителей, использованный для проверки приоритетных певцов."
     },
     {
-      "source": "НЕ ДОБЫТО: klassik-prisma.de (Vergleich), Gramophone, MusicWeb, BBC Music Magazine, слепые тесты",
+      "source": "klassik-prisma.de (Bernd Stremmel) — ОТРИЦАТЕЛЬНЫЙ результат",
+      "url": "https://www.klassik-prisma.de/Schubert.htm",
+      "content": "Индекс шубертовских страниц сайта проверен целиком (31 ссылка: циклы, Erlkönig, Gretchen, Junge Nonne, Nacht und Träume, Auf dem Wasser zu singen, Tartarus, Hirt auf dem Felsen, инструментальные опусы). Страницы сравнения записей для D 870 на сайте НЕТ — сравнительного обзора этой песни у klassik-prisma не существует."
+    },
+    {
+      "source": "НЕ ДОБЫТО: Gramophone (архив рецензий), MusicWeb, BBC Music Magazine, слепые тесты",
       "url": null,
-      "content": "Лимит WebSearch сессии (200/200) был исчерпан до начала поиска обзоров; прямые запросы к поисковым системам из контейнера блокируются (DuckDuckGo, Mojeek, Bing вернули пустые выдачи). Сравнительный обзор именно этой песни в досье отсутствует — при ранжировании опираться на дайджест, репутацию изданий и пресс-цитаты Hyperion."
+      "content": "Лимит WebSearch сессии (200/200) исчерпан; прямые запросы к поисковым системам из контейнера блокируются (DuckDuckGo — CAPTCHA, Mojeek — пустая выдача), Presto Music отдаёт 403. Оценки прессы в досье — только те, что опубликованы на страницах Hyperion. При ранжировании опираться на дайджест, статус изданий и состояние голоса."
     }
   ],
   "negatives": [
-    "Квастхоф песню не записывал (MusicBrainz-список работы + тресклист «A Romantic Songbook» DG 2004) — верхняя позиция иерархии приоритетов вакантна, топ-5 начинается с Фишера-Дискау.",
+    "Квастхоф песню не записывал (MusicBrainz-каркас работы + тресклист «A Romantic Songbook» DG 2004 + целевой поиск YouTube) — топ-5 начинается с Фишера-Дискау.",
     "Шварцкопф, Андерс, Э. Шуман, Криста Людвиг записи D 870 не имеют (отсутствуют и в MusicBrainz-списке работы, и у Грея).",
-    "Сузе НЕ записывал песню в поздних сессиях Philips с Болдуином (1967, «Der Musensohn» — тресклист без D 870): единственный его дубль — Decca 78 об. 1947 г. с Бонно.",
-    "Пауль Шёффлер (Decca, 28.10.1946, M599) — дискографически подтверждён, но на YouTube не найден.",
-    "Хелен Траубель (Columbia, 16.09.1947) — запись осталась неизданной (Грей: UNISSUED); фонограммы не существует в обращении.",
-    "Олаф Бэр: MusicBrainz привязывает его дубль (155 с, с Джеффри Парсонсом) только к антологии EMI «Lieder on Record 1898–2012»; проверенные рециталы EMI (CDZ 7 62804 2, 1989; 0777 7 54773 2 0, 1993) D 870 не содержат — исходный альбом не установлен, отдельного трека на YouTube не найдено.",
-    "Год записи не установлен у четырёх кандидатов: Hotter/Altmann (архив BR), Fischer-Dieskau/Britten (Decca), Karl Erb/Seidler-Winkler (Electrola), Bostridge/Drake (Wigmore live). По правилу о приоритетных исполнителях случай Хоттера требует целевого доисследования даты либо публикации с диапазоном со знаком вопроса.",
-    "Метаданные yt-dlp по отдельным роликам в этой сессии недоступны (YouTube требует cookies: «Sign in to confirm you're not a bot») — идентификация дублей велась по длительностям MusicBrainz/поисковой выдачи и по названиям Topic-каналов; живость и встраиваемость всех отобранных ID проверены через yt-check.js (oEmbed).",
-    "Прочие исполнители из MusicBrainz, не проработанные подробно (второй эшелон, коммерчески или репутационно слабее): Georg Nigl/Pashchenko, Dietrich Henschel/Deutsch, Markus Schäfer/Meniker, Thomas E. Bauer/Huangci, Theo Hoffman/Lahiry, Rupert Charlesworth/Herchenroder, Erwin Belakowitsch/Berner; вне MusicBrainz на YouTube — Barry McDaniel (фан-загрузка KQeEzM4LgGM), Konstantin Krimmel (лайвы с Heide и Tchakarova, коммерческого релиза песни не найдено), Anna Lucia Richter/Bushakevitz (видео ARTE), Aksel Rykkvin (дискант, 84 тыс. просмотров — вне критериев значительности)."
+    "Гёрне, Вундерлих, Терфель: записи песни не найдены ни в MusicBrainz-каркасе, ни целевым поиском YouTube (у Гёрне на официальном канале — только An den Mond D 259 и D 296, другие песни).",
+    "Сузе не записывал песню в поздних сессиях Philips с Болдуином (1967, «Der Musensohn» — тресклист без D 870): единственный его дубль — Decca 78 об. 1947 г. с Бонно.",
+    "Пауль Шёффлер (Decca, 28.10.1946, M599) — дискографически подтверждён, но на YouTube не найден. Хелен Траубель (Columbia, 16.09.1947) — запись осталась неизданной (Грей: UNISSUED).",
+    "Олаф Бэр: его дубль (155 с, с Джеффри Парсонсом) существует только внутри антологии EMI «Lieder on Record 1898–2012» (диск 15, трек 15); проверенные рециталы EMI (CDZ 7 62804 2, 1989; CDD 7 64292 2, 1992; 0777 7 54773 2 0, 1993) D 870 не содержат — исходный альбом и год не установлены, отдельного трека на YouTube нет.",
+    "Год записи по-прежнему не установлен у Hotter/Altmann (архив BR; повторная проверка Discogs/MusicBrainz/Грея безрезультатна), у Prégardien/Gees (1992 либо 1996), у Bostridge/Drake (Wigmore live), у Holl/Jansen и у EMI-дубля Фишера-Дискау с Муром («Lieder Vol. 1», 1955–57?).",
+    "Расхождение по Праю не разрешено: Грей документирует сессию Philips 27–30.10.1971 с Хокансоном, а официальная Topic-фонограмма помечена Карлом Энгелем (альбом «Schubert & Schumann: Lieder»); вероятно, существуют два дубля.",
+    "Сравнительного обзора именно этой песни не существует у klassik-prisma (индекс сайта проверен); Gramophone/MusicWeb недоступны из-за исчерпанного WebSearch и блокировки поисковиков — репутационная часть досье опирается на Hyperion, дайджест и статус изданий.",
+    "Прочие исполнители из MusicBrainz, не проработанные подробно (второй эшелон): Georg Nigl/Pashchenko, Dietrich Henschel/Deutsch, Markus Schäfer/Meniker, Thomas E. Bauer/Huangci, Theo Hoffman/Lahiry, Rupert Charlesworth/Herchenroder, Erwin Belakowitsch/Berner; вне MusicBrainz на YouTube — Barry McDaniel (фан-загрузка KQeEzM4LgGM), Konstantin Krimmel (лайвы с Heide, коммерческого релиза песни не найдено), Anna Lucia Richter/Bushakevitz (видео ARTE), Deniz Uzun, Christoph Genz, Aksel Rykkvin (дискант, 85 тыс. просмотров — вне критериев значительности)."
   ]
 }

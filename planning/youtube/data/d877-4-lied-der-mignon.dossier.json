@@ -2,90 +2,248 @@
   "d": "877/4",
   "title": "Lied der Mignon (Nur wer die Sehnsucht kennt), D 877/4",
   "tier": "famous",
-  "method_note": "ВАЖНО по нумерации: Op. 62 = D 877; No. 1 — дуэт «Mignon und der Harfner» (D 877/1), No. 2 «Heiß mich nicht reden» (D 877/2, «Lied der Mignon I»), No. 3 «So laßt mich scheinen» (D 877/3, «Lied der Mignon II»), No. 4 «Nur wer die Sehnsucht kennt» (D 877/4, «Lied der Mignon III»). Заголовки Topic-каналов вида «No. 4, Lied der Mignon III» относятся ИМЕННО к этой песне (в отличие от путаницы, зафиксированной в досье D 877/2 и D 877/3). Отдельно: текст «Nur wer die Sehnsucht kennt» Шуберт положил на музыку шесть раз (D 310a/b, D 359, D 481, D 656 квинтет, D 877/1 дуэт, D 877/4) — многие YouTube-треки с этим названием относятся к ДРУГИМ D-номерам, а также к Чайковскому (op. 6 № 6), Шуману (op. 98a) и Вольфу; каждый кандидат проверялся по D-номеру.\nОГРАНИЧЕНИЯ СЕССИИ: лимит WebSearch исчерпан до начала работы, MusicBrainz API из контейнера не отвечал (TLS eof), поисковики (DDG/Bing/Mojeek) блокируют. Рабочие источники этой сессии: дискография Майкла Грея (classical-discography.org, POST /search2.php), Discogs API, прямые страницы hyperion-records.co.uk, внутрикорпусный реестр альбомов и дайджест певцов, yt-dlp/oEmbed. Поэтому сравнительные обзоры (klassik-prisma Vergleich, Gramophone, MusicWeb) в этот раз получить не удалось — раздел surveys пуст, это дефицит, а не вывод об их отсутствии.",
+  "method_note": "Редакция 2 (обновление досье). ВАЖНО по нумерации: Op. 62 = D 877; No. 1 — дуэт «Mignon und der Harfner», No. 2 «Heiß mich nicht reden» («Lied der Mignon I»), No. 3 «So laßt mich scheinen» («Lied der Mignon II»), No. 4 «Nur wer die Sehnsucht kennt» («Lied der Mignon III»). Заголовки Topic вида «No. 4, Lied der Mignon III» относятся именно к этой песне. Текст «Nur wer die Sehnsucht kennt» Шуберт положил на музыку шесть раз (D 310a/b, D 359, D 481, D 656 квинтет, D 877/1 дуэт, D 877/4); множество YouTube-треков с этим названием — другие D-номера либо Чайковский (op. 6 № 6), Шуман (op. 98a), Вольф. Каждый кандидат проверялся по D-номеру и по кредитам загрузки.\nОГРАНИЧЕНИЯ СЕССИИ: бюджет WebSearch исчерпан (200/200) до начала работы; поисковые системы из контейнера отдают CAPTCHA/JS (DDG, Brave, Mojeek, Startpage, Ecosia); Discogs API к концу сессии — 429. Рабочие источники: klassik-prisma.de (прямые страницы), hyperion-records.co.uk (прямые страницы), classical-discography.org (Michael Gray, POST search2.php с searchset=on), Discogs API (частично), yt-dlp (кредиты официальных Topic-загрузок), oEmbed-проверка yt-check.js, внутрикорпусные реестр альбомов и дайджест певцов.\nЧТО ЗАКРЫТО В ЭТОЙ РЕДАКЦИИ по сравнению с первой: атрибуция Ameling (Philips 1972, а не Hyperion), Augér (Eterna 1976), Sampson (BIS, зап. 2017), Röschmann (Sony «Portraits» 2014); установлено отсутствие klassik-prisma-обзора; добавлены шесть новых кандидатов (Streich, Raskin, Lipovšek, Fink, Rubens, Lott, плюс Jaroussky и Piau как пограничные); Price переведён в непригодные (серый агрегатор).",
   "candidates": [
-    {
-      "singer": "Elisabeth Schumann",
-      "pianist": "Gerald Moore",
-      "rec_year": "не установлен (предположительно 1936–1946?)",
-      "year_source": "НЕ УСТАНОВЛЕН. Дискография Грея по Э. Шуман даёт 32 шубертовские позиции с точными датами сессий, но «Lied der Mignon D877» среди них нет (запрос composer=Schubert, work=%Mignon%/%Sehnsucht%, artists=Schumann, Elisabeth — 0 записей); в переиздании Naxos Historical 8.110731 «Schubert Lieder (1927–1945)» этой песни в треклисте тоже нет (Discogs release 11587345). Диапазон 1936–1946 — предположение по единственному твёрдому факту: на Warner-переиздании трек кредитован паре «Elisabeth Schumann / Gerald Moore», а с Муром певица записывалась на HMV с сентября–ноября 1936 по июнь 1946 (реестр, по Грею). Требуется целевое доисследование даты; по правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» — публикуема с year-строкой со знаком вопроса.",
-      "album": "переиздания: «Icon: Elisabeth Schumann» (Warner/EMI); отдельная Naxos-антология (не 8.110731)",
-      "label": "HMV (ориг.); Warner Classics / Naxos Historical (переизд.)",
-      "age_voice": "Приоритетный исполнитель (правило §Приоритетные, п. 4). Р. 1888. Пик — 1920-е–сер. 1930-х; записи 1945–49 — голос постаревший при эталонном стиле (дайджест). Если запись 1936 — это ещё конец пика (48 лет); если 1945–46 — поздняя (57–58 лет). Разброс критичен для ранжирования, отсюда важность доисследования даты.",
-      "reputation": "Эталон венского Lied-стиля межвоенных лет; отдельных рецензий именно на этот трек в доступных сессии источниках не найдено.",
-      "sources": [
-        "planning/youtube/albums/female-recitalists.md — раздел «Schumann Elisabeth», полный перечень сессий по Грею",
-        "https://api.discogs.com/releases/11587345 — Naxos 8.110731, треклист без D 877/4",
-        "https://www.classical-discography.org/search2.php (POST, composer=Schubert, work=%Mignon%) — 6 позиций, Э. Шуман отсутствует"
-      ],
-      "youtube": [
-        {"videoId": "pdPSzUx15uQ", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "note": "альбом «Icon: Elisabeth Schumann», кредит «Elisabeth Schumann/Gerald Moore», Warner Classics; 201 с."},
-        {"videoId": "Si10XQteSno", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "note": "дистрибуция NAXOS of America; 180 с. — иная длительность, возможно другая сессия/тэйк или иная реставрация"},
-        {"videoId": "ypkWJR1BQws", "channel": "Elisabeth Schumann & Gerald Moore - Topic", "official": false, "oembed_ok": true, "note": "агрегатор Music Video Distributors («Opera Classics») — серый лейбл, по правилу кредиты с таких каналов не берутся"}
-      ],
-      "note": "Главная находка по приоритетным певцам: Э. Шуман эту песню ЗАПИСАЛА (в отличие от Шварцкопф, Попп, Ферриер). Открытый вопрос — год."
-    },
     {
       "singer": "Christa Ludwig",
       "pianist": "Irwin Gage",
       "rec_year": "1973",
-      "year_source": "Дискография Грея: DG 2530 404, сессии 21–24.06.1973, Вена, Rosenhügel (зафиксировано в planning/youtube/albums/female-recitalists.md, раздел Ludwig). Discogs release 3089946: LP «Schubert-Lieder», DG 2530 404, ℗ 1974, сторона A6 — «Mignon D. 877,4». Для D 877/2 и D 877/3 у неё другой LP — DG 2530 528 (сессии 28.06–01.07.1974), где в треклисте A5/A6 (Discogs 7569118).",
+      "year_source": "Дискография Майкла Грея: DG 2530 404, сессии 21–24.06.1973, Вена, Rosenhügel (зафиксировано в planning/youtube/albums/female-recitalists.md, раздел Ludwig). Discogs release 3089946: LP «Schubert-Lieder», DG 2530 404, ℗ 1974, сторона A6 — «Mignon D. 877,4». D 877/2 и D 877/3 у неё на следующем LP — DG 2530 528 (сессии 28.06–01.07.1974, Discogs 7569118).",
       "album": "Schubert-Lieder (DG 2530 404)",
       "label": "Deutsche Grammophon",
-      "age_voice": "Приоритетный исполнитель (правило §Приоритетные, п. 4). Р. 1928 → 45 лет в 1973. Пик ~1957–1975 (дайджест) — запись сделана внутри пика, но это уже поздний ремейк её EMI-программ 1957–66 с Муром/Парсонсом.",
-      "reputation": "Дайджест: круг записей Людвиг с Парсонсом дал 5-звёздную по klassik-prisma Gretchen; DG-ремейк с Гейджем в дайджесте отмечен как отдельная позиция без оценки. Конкретных рецензий на трек в доступных источниках не найдено.",
+      "age_voice": "Приоритетный исполнитель (правило §Приоритетные, п. 4). Р. 1928 → 45 лет. Пик ~1957–1975 (дайджест): запись внутри пика, но это поздний ремейк её EMI-программ 1957–66 с Муром/Парсонсом.",
+      "reputation": "Дайджест: круг записей Людвиг с Парсонсом дал 5-звёздную по klassik-prisma Gretchen; DG-ремейк с Гейджем отмечен как отдельная позиция без оценки. Рецензий именно на этот трек в доступных сессии источниках нет (klassik-prisma страницы по D 877/4 не имеет — проверено).",
       "sources": [
         "planning/youtube/albums/female-recitalists.md — «Ludwig — Schubert: Lieder (DG 2530 404, зап. 21–24.06.1973, Вена, Rosenhügel)» [Gray]",
         "https://api.discogs.com/releases/3089946",
         "https://api.discogs.com/releases/7569118"
       ],
       "youtube": [
-        {"videoId": "F_NdaYIpd9U", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "note": "альбом «Schubert: Lieder», артисты «Christa Ludwig, Irwin Gage»; 182 с."}
+        {
+          "videoId": "F_NdaYIpd9U",
+          "channel": "Christa Ludwig - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "альбом «Schubert: Lieder», артисты «Christa Ludwig, Irwin Gage»; 182 с."
+        }
       ],
-      "note": "Единственный приоритетный исполнитель списка с полностью документированным годом. Кандидат №1 по иерархии приоритетов (Квастхофа, Фишера-Дискау и Шварцкопф в этой песне нет)."
+      "note": "Единственный приоритетный исполнитель с полностью документированным годом. Кандидат №1 по иерархии приоритетов (Квастхофа, Фишера-Дискау и Шварцкопф в этой песне нет)."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен (диапазон-гипотеза «1936–46?»)",
+      "year_source": "НЕ УСТАНОВЛЕН. Кредиты официального переиздания Warner (описание Topic-загрузки pdPSzUx15uQ): «Soprano Vocals: Elisabeth Schumann / Piano: Gerald Moore / Producer: Walter Legge», ℗ 1986 Warner Classics (ремастеринг 1989) — то есть оригинал HMV с Легге-продюсером. В дискографии Грея позиции «Lied der Mignon D877» за Э. Шуман нет (POST search2.php, composer=Schubert, work=%Mignon% — 6 позиций, её среди них нет); в Naxos Historical 8.110731 «Schubert Lieder (1927–1945)» трека тоже нет (Discogs 11587345). Диапазон 1936–1946 — по годам её работы с Муром на HMV (реестр по Грею). Правило §«Хорошая запись приоритетного исполнителя не блокируется неустановленным годом» → публикуема со строкой-диапазоном.",
+      "album": "переиздание «Icon: Elisabeth Schumann» (Warner Classics)",
+      "label": "HMV (ориг.) / Warner Classics (переизд.)",
+      "age_voice": "Приоритетный исполнитель (правило §Приоритетные, п. 4). Р. 1888. Пик — 1920-е–сер. 1930-х; записи 1945–49 — голос постаревший при эталонном стиле (дайджест). При дате 1936 — конец пика (48 лет), при 1945–46 — поздняя (57–58).",
+      "reputation": "Эталон венского Lied-стиля межвоенных лет (дайджест). Отдельных рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md — раздел «Schumann Elisabeth» (сессии по Грею)",
+        "https://api.discogs.com/releases/11587345 — Naxos 8.110731, треклист без D 877/4",
+        "https://www.classical-discography.org/search2.php (POST searchset=on&composer=Schubert&work=%Mignon%) — 6 позиций, Э. Шуман отсутствует",
+        "описание Topic-загрузки pdPSzUx15uQ — кредиты Warner (Moore, продюсер Legge)"
+      ],
+      "youtube": [
+        {
+          "videoId": "pdPSzUx15uQ",
+          "channel": "Elisabeth Schumann - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "Warner Classics, «Icon: Elisabeth Schumann», кредит Schumann/Moore, продюсер Walter Legge; 200 с."
+        },
+        {
+          "videoId": "Si10XQteSno",
+          "channel": "Elisabeth Schumann - Topic",
+          "official": false,
+          "oembed_ok": true,
+          "note": "ВНИМАНИЕ: дистрибуция NAXOS of America, ℗ 2011 Symposium; в кредитах вторым артистом указан НЕ Мур, а Бруно Вальтер, длительность 180 с. — то есть, вероятно, ДРУГАЯ (более ранняя) запись либо ошибка метаданных исторического лейбла. Как источник кредитов не используется."
+        }
+      ],
+      "note": "Главная находка по приоритетным певцам: Э. Шуман эту песню записала (в отличие от Шварцкопф, Попп, Ферриер). Открытый вопрос — год; вдобавок открыт вопрос, одна это запись или две (Мур vs Вальтер)."
     },
     {
       "singer": "Irmgard Seefried",
       "pianist": "Erik Werba",
       "rec_year": "1958",
-      "year_source": "Дискография Грея: LP DG 136 009, сессии 30.05 + 3, 7–8.06.1958 (planning/youtube/albums/female-recitalists.md, раздел Seefried). Discogs release 9264874 (DG 136 009 SLPEM): группа «Lieder der Mignon», трек B1 — «Nur wer die Sehnsucht kennt». ВНИМАНИЕ: Discogs у разных прессингов того же каталожного номера ставит 1958/1964/1968 — это даты изданий, год записи берём по Грею.",
+      "year_source": "Дискография Грея: LP DG 136 009 SLPEM, сессии 30.05 + 3, 7–8.06.1958 (planning/youtube/albums/female-recitalists.md). Discogs 9264874: группа «Lieder der Mignon», трек B1 — «Nur wer die Sehnsucht kennt». Прессинги того же каталожного номера Discogs датирует 1958/1964/1968 — это даты изданий; год записи берём по Грею.",
       "album": "Irmgard Seefried singt Lieder von Franz Schubert (DG 136 009 SLPEM)",
       "label": "Deutsche Grammophon",
-      "age_voice": "Р. 1919 → 39 лет. Пик кон. 1940-х – нач. 1960-х (дайджест) — самая середина формы.",
-      "reputation": "Дайджест: «пик кон. 1940-х–нач. 1960-х», охват YouTube хороший; отдельных рецензий на трек в доступных сессии источниках нет.",
+      "age_voice": "Р. 1919 → 39 лет. Пик кон. 1940-х – нач. 1960-х (дайджест) — середина формы.",
+      "reputation": "Признанная венская шубертианка своего поколения (дайджест); отдельных рецензий на трек нет.",
       "sources": [
-        "planning/youtube/albums/female-recitalists.md — «Seefried — Schubert-Lieder LP (DG 136 009, зап. 30.05 + 3, 7–8.06.1958)» [Gray]",
+        "planning/youtube/albums/female-recitalists.md — раздел Seefried [Gray]",
         "https://api.discogs.com/releases/9264874"
       ],
       "youtube": [
-        {"videoId": "iLD_epGlgBY", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true, "note": "160 с. — заметно быстрее прочих (типично для её манеры)"}
+        {
+          "videoId": "iLD_epGlgBY",
+          "channel": "Irmgard Seefried - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "160 с. — заметно быстрее прочих"
+        }
       ],
       "note": "Сильнейший «старый» кандидат с твёрдой датой."
+    },
+    {
+      "singer": "Rita Streich",
+      "pianist": "Erik Werba",
+      "rec_year": "1960 (по реестру DG-LP; на загрузке — компиляция Diapason)",
+      "year_source": "Кредиты официальной загрузки (14D8arnUmyI): «Rita Streich · Erik Werba», сборник «La discothèque idéale de Diapason, Vol. 29» (лицензия IDOL). Источник трека — её DG-LP «Rita Streich singt Lieder von Franz Schubert» (реестр/дайджест: DG 1960, Werba; Discogs-прессинги 138 047 SLPM / LPM 18585 датируются 1962–64 как издания). Точная дата сессии по Грею в этой сессии не проверена — год указан по реестру, не по метаданным загрузки.",
+      "album": "Rita Streich singt Lieder von Franz Schubert (DG); переизд. в серии Diapason",
+      "label": "Deutsche Grammophon (ориг.)",
+      "age_voice": "Р. 1920 → ~40 лет. Пик 1950-е–нач. 1960-х (дайджест) — в форме, «венский соловей» с прозрачной линией.",
+      "reputation": "Диск включён в «идеальную дискотеку» журнала Diapason (сам факт включения — редакционный отбор, не рекламная аннотация).",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Streich (DG 1960, Werba)",
+        "описание Topic-загрузки 14D8arnUmyI (кредиты и сборник)",
+        "https://api.discogs.com/database/search?q=Rita+Streich+Schubert+Lieder (138 047 SLPM, LPM 18585)"
+      ],
+      "youtube": [
+        {
+          "videoId": "14D8arnUmyI",
+          "channel": "Rita Streich - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "209 с."
+        },
+        {
+          "videoId": "VGOcapAnXd4",
+          "channel": "BearJune Selection",
+          "official": false,
+          "oembed_ok": null,
+          "note": "фан-загрузка той же записи, 211 с."
+        }
+      ],
+      "note": "Новый кандидат этой сессии (в прежнем досье отсутствовал): старая школа + пианист Верба, та же связка, что у Зеефрид."
+    },
+    {
+      "singer": "Judith Raskin",
+      "pianist": "George Schick",
+      "rec_year": "1966 (первое издание; дата сессии не установлена)",
+      "year_source": "Кредиты официальной загрузки Sony Classical (grHPNgHRbr8): «Judith Raskin · George Schick», сборник «Essential Classics: Lieder», ℗ «Originally released 1966 Sony Music Entertainment Inc.» — то есть оригинал Columbia 1966. Дата самой сессии по дискографии не проверена (в базе Грея позиция не найдена).",
+      "album": "ориг. Columbia (1966); переизд. «Essential Classics: Lieder» (Sony, 1996)",
+      "label": "Columbia / Sony Classical",
+      "age_voice": "Раскин (1928–1984) → ~38 лет; на пике американской карьеры (Метрополитен, моцартовское сопрано).",
+      "reputation": "Оценок именно этого трека в доступных источниках нет; певица в дайджесте фонда отсутствует — второй эшелон по значимости.",
+      "sources": [
+        "описание Topic-загрузки grHPNgHRbr8 (Sony Classical, ℗ 1966)"
+      ],
+      "youtube": [
+        {
+          "videoId": "grHPNgHRbr8",
+          "channel": "Judith Raskin - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "172 с."
+        }
+      ],
+      "note": "Новый кандидат этой сессии; американская линия 1960-х."
     },
     {
       "singer": "Janet Baker",
       "pianist": "Gerald Moore",
       "rec_year": "1970",
-      "year_source": "Дискография Грея: HMV SLS 812, 2 LP, сессии 29.08 + 12–13.09 + 16–20.12.1970, Abbey Road Studio 1 (planning/youtube/albums/female-recitalists.md, раздел Baker; та же позиция верифицирована реестром по D 118, D 828, D 839). Метаданные Topic-загрузки подтверждают состав: альбом «Schubert: Lieder», артисты «Janet Baker, Gerald Moore».",
+      "year_source": "Дискография Грея: HMV SLS 812 (2 LP), сессии 29.08 + 12–13.09 + 16–20.12.1970, Abbey Road Studio 1 (planning/youtube/albums/female-recitalists.md; та же позиция верифицирована по D 118, D 828, D 839). Метаданные Topic подтверждают состав «Janet Baker, Gerald Moore».",
       "album": "Schubert: Lieder, 2 LP (HMV SLS 812) / The Great EMI Recordings",
       "label": "EMI / Warner Classics",
       "age_voice": "Р. 1933 → 37 лет. Пик ~1965–1982 (дайджест) — ядро формы.",
-      "reputation": "Альбом — классика жанра, открывается Gretchen am Spinnrade (дайджест; реестр).",
+      "reputation": "Альбом — классика жанра (открывается Gretchen am Spinnrade); дайджест и реестр.",
       "sources": [
         "planning/youtube/albums/female-recitalists.md — раздел Baker [Gray]",
         "planning/youtube/albums.md — карточка Janet Baker / EMI 1970"
       ],
       "youtube": [
-        {"videoId": "lPWRj2zOScE", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "note": "192 с."}
+        {
+          "videoId": "lPWRj2zOScE",
+          "channel": "Janet Baker - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "192 с."
+        }
       ],
-      "note": "У Бейкер есть и вторая линия (Hyperion Vol. 1, 1987), но D 877 в Hyperion поёт не она — см. Schäfer."
+      "note": "На том же Topic-канале есть и дуэт D 877/1 (-zvD3-BzsJQ, 238 с.) — не путать."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1972 (20–21 июня; ℗ 1973)",
+      "year_source": "РАЗРЕШЁННОЕ ПРОТИВОРЕЧИЕ прежнего досье. Кредиты официальной загрузки UMG (feir3drzV8g): «Elly Ameling · Dalton Baldwin», альбом «Schubert: Goethe-Lieder», ℗ 1973 Universal International Music B.V., продюсер Wilhelm Hellweg — это LP Philips 6500 515 «Goethe-Lieder» (Discogs 5810274, 1973; на диске также Prey/Engel). Дискография Грея по этому же каталожному номеру 6500 515 (запись id 3086) даёт сессии 20–21 июня 1972, Амстердам, Concertgebouw, Grote Zaal, состав «Elly Ameling, soprano; Dalton Baldwin, piano». То есть трек НЕ из Hyperion Vol. 7 (там D 310b и D 321, а не D 877/4) — прежняя гипотеза о ложной атрибуции снята.",
+      "album": "Goethe-Lieder (Philips 6500 515)",
+      "label": "Philips / Universal",
+      "age_voice": "Р. 1933 → 39 лет. Пик ~1965–1985 (дайджест) — самая середина; самая записываемая шубертианка поколения.",
+      "reputation": "Серия Ameling/Baldwin на Philips — опорная запись поколения (дайджест); рецензий на трек не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=3086 — Philips 6500 515, 1972 June 20–21, Amsterdam Concertgebouw, Ameling/Baldwin",
+        "https://api.discogs.com/database/search?q=Elly+Ameling+Schubert+Goethe-Lieder — release 5810274, Philips 6500 515, 1973",
+        "описание Topic-загрузки feir3drzV8g (UMG, ℗ 1973, продюсер Hellweg)",
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33007 — том Ameling в Hyperion (август 1989) содержит другие редакции"
+      ],
+      "youtube": [
+        {
+          "videoId": "feir3drzV8g",
+          "channel": "Elly Ameling - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "216 с."
+        }
+      ],
+      "note": "Крупная поправка к прежнему досье: кандидат из «негодных к публикации» переходит в число полностью документированных."
+    },
+    {
+      "singer": "Jan DeGaetani",
+      "pianist": "Gilbert Kalish",
+      "rec_year": "1974 (17–18 + 21 ноября)",
+      "year_source": "Дискография Грея, запись id 227996: Schubert, «Lied der Mignon, D877», номер H-71320, «1974 November 17 - 18 + 21», New York, Rutgers Presbyterian Church, лейбл Nonesuch, «Jan DeGaetani, mezzo-soprano; Gilbert Kalish, piano».",
+      "album": "Nonesuch H-71320",
+      "label": "Nonesuch",
+      "age_voice": "ДеГаэтани (1933–1989) → 41 год, в форме; знаменитый дуэт с Кэлишем.",
+      "reputation": "Пара DeGaetani/Kalish — признанный камерный дуэт своего поколения; рецензий на трек не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=227996"
+      ],
+      "youtube": [
+        {
+          "videoId": "VClU7B2Lhq0",
+          "channel": "Jan De Gaetani/Gilbert Kalish/et al. - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "228 с. — заметно медленнее прочих; перед публикацией желательно прослушать на соответствие D 877/4"
+        }
+      ],
+      "note": "Позиция найдена только через дискографию Грея, в generic-выдаче YouTube отсутствует."
+    },
+    {
+      "singer": "Arleen Augér",
+      "pianist": "Walter Olbertz",
+      "rec_year": "1976 (19–22 октября, Дрезден)",
+      "year_source": "РАЗРЕШЕНО в этой сессии. Кредиты официальной загрузки (V8MxvMge78k, дистрибуция Kontor New Media, ℗ edel): альбом «SCHUBERT, F.: Goethe-Lieder (Auger, Olbertz)» — то есть рецитал Eterna с Вальтером Ольбертцем, а не Delos/Hyperion/Virgin. Реестр (по Грею) даёт сессии этого рецитала: 19–22.10.1976, Дрезден.",
+      "album": "Lieder nach Goethe (Eterna); переизд. edel/Berlin Classics",
+      "label": "Eterna / Berlin Classics",
+      "age_voice": "Р. 1939 → 37 лет; ранний период (её пик по дайджесту 1980-е–1991), голос свежий, техника уже зрелая.",
+      "reputation": "Оценок именно этого трека не найдено.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md — раздел Auger (сессии Eterna 19–22.10.1976, Ольбертц)",
+        "описание Topic-загрузки V8MxvMge78k (альбом и состав)"
+      ],
+      "youtube": [
+        {
+          "videoId": "V8MxvMge78k",
+          "channel": "Arleen Augér - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "215 с."
+        }
+      ],
+      "note": "Прежнее «издание не установлено» закрыто: это гётевский рецитал Eterna 1976."
     },
     {
       "singer": "Gundula Janowitz",
       "pianist": "Irwin Gage",
-      "rec_year": "1976–77 (уточнить сессию тома)",
-      "year_source": "Реестр по Грею: 4-LP свод DG 2713 012 + 2530 858, сессии 28.09–01.10.1976 и IX + 1–4.12.1977, Studio Lankwitz, Берлин; продюсер Cord Garben. Какая из двух сессий дала именно D 877/4 — не установлено. Метаданные Topic дают release_year 1978 (дата издания, не сессии; по правилу метаданные загрузок источником даты не являются).",
-      "album": "Schubert: Lieder (DG, 4-LP свод); переизд. DG 453 082-2 (2 CD, 1997); «The Gundula Janowitz Edition»",
+      "rec_year": "1976–77 (какая из двух сессий — не установлено)",
+      "year_source": "Реестр по Грею: 4-LP свод DG 2713 012 + 2530 858, сессии 28.09–01.10.1976 и IX + 1–4.12.1977, Studio Lankwitz, Берлин, продюсер Cord Garben. Привязка именно D 877/4 к одной из сессий не установлена. Метаданные Topic дают release_year 1978 — дата издания, источником даты записи не является.",
+      "album": "Schubert: Lieder (DG, 4-LP свод); переизд. DG 453 082-2; «The Gundula Janowitz Edition»",
       "label": "Deutsche Grammophon",
       "age_voice": "Р. 1937 → 39–40 лет. Пик ~1965–1980 (дайджест) — поздняя часть пика.",
       "reputation": "Серия дважды удостоена Deutscher Schallplattenpreis (реестр); Gretchen из этого свода — 5 звёзд klassik-prisma (дайджест).",
@@ -93,264 +251,459 @@
         "planning/youtube/albums/female-recitalists.md — раздел Janowitz [Gray, MB]"
       ],
       "youtube": [
-        {"videoId": "bc9m9RdTlaQ", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "note": "альбом «Schubert: Lieder», 209 с."},
-        {"videoId": "Lia8H4uOigQ", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "note": "тот же трек в «The Gundula Janowitz Edition» (UMG); при публикации брать один ID, дубли по корпусу отслеживает gate.js"}
+        {
+          "videoId": "bc9m9RdTlaQ",
+          "channel": "Gundula Janowitz - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "альбом «Schubert: Lieder», 209 с."
+        },
+        {
+          "videoId": "Lia8H4uOigQ",
+          "channel": "Gundula Janowitz - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "тот же трек в «The Gundula Janowitz Edition» (UMG) — при публикации брать ОДИН ID"
+        }
       ],
-      "note": "Два официальных ID одной и той же записи — выбирать один."
+      "note": "Два официальных ID одной записи — выбирать один (дубли по корпусу ловит gate.js)."
     },
     {
       "singer": "Barbara Hendricks",
       "pianist": "Radu Lupu",
-      "rec_year": "1985",
+      "rec_year": "1985 (25–30 ноября, Salle Wagram, Париж)",
       "year_source": "Реестр: «Hendricks — Schubert: Lieder, Vol. 1 (EMI, зап. 25–30.11.1985, Salle Wagram, Париж)»; метаданные Topic подтверждают альбом «Schubert: Lieder, Vol. 1» и пару Hendricks/Lupu.",
       "album": "Schubert: Lieder, Vol. 1",
       "label": "EMI / Warner Classics",
-      "age_voice": "Р. 1948 → 37 лет. Пик 1980-е–1990-е (дайджест) — в форме.",
-      "reputation": "Дайджест: «редкий дуэт с великим солистом» (Лупу за роялем) — главный интерес записи.",
+      "age_voice": "Р. 1948 → 37 лет. Пик 1980-е–1990-е (дайджест).",
+      "reputation": "Главный интерес — пианист: Раду Лупу, солист первого ряда за роялем (дайджест: «редкий дуэт с великим солистом»).",
       "sources": [
         "planning/youtube/albums/female-recitalists.md — раздел Hendricks"
       ],
       "youtube": [
-        {"videoId": "BEQhwo2sVhg", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true, "note": "198 с."}
+        {
+          "videoId": "BEQhwo2sVhg",
+          "channel": "Barbara Hendricks - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "198 с."
+        }
       ],
-      "note": "ВНИМАНИЕ: этот же videoId по ошибке попал в candidates-файл D 877/3 (зафиксировано в досье D 877/3) — он относится к D 877/4."
+      "note": "Этот же videoId по ошибке попал в candidates-файл D 877/3 — он относится к D 877/4."
+    },
+    {
+      "singer": "Marjana Lipovšek",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1988 (год издания Orfeo; дата сессии не проверена)",
+      "year_source": "Discogs search: «Franz Schubert, Marjana Lipovšek, Geoffrey Parsons — Lieder», Orfeo S 159871 A, 1988 (release 8090318). Кредиты официальной загрузки (MS0wBeBv6PI, дистрибуция NAXOS of America, ℗ 2016 Orfeo — переиздание): «Marjana Lipovšek, Geoffrey Parsons». Дата сессии по буклету не проверена (Discogs API в конце сессии отдавал 429).",
+      "album": "Schubert: Lieder (Orfeo S 159871 A)",
+      "label": "Orfeo",
+      "age_voice": "Р. 1946 → ~42 года; сильное драматическое меццо, в дайджесте карточки нет (за пределами обследованного фонда).",
+      "reputation": "Пианист Джеффри Парсонс — аккомпаниатор первого ряда (Шварцкопф, Людвиг, Попп). Рецензий на трек не найдено.",
+      "sources": [
+        "https://api.discogs.com/database/search?q=Lipovsek+Schubert+Lieder+Orfeo — release 8090318, Orfeo S 159871 A, 1988",
+        "описание Topic-загрузки MS0wBeBv6PI"
+      ],
+      "youtube": [
+        {
+          "videoId": "MS0wBeBv6PI",
+          "channel": "Marjana Lipovšek - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "201 с."
+        }
+      ],
+      "note": "Новый кандидат этой сессии."
     },
     {
       "singer": "Barbara Bonney",
       "pianist": "Geoffrey Parsons",
-      "rec_year": "1994",
-      "year_source": "Реестр (двойная карточка): Teldec 4509-90873-2, запись апрель 1994, Teldec Studio Berlin; продюсер Martin Fouqué, звукорежиссёр Ulrich Ruscher. Метаданные Topic: альбом «Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder», артисты «Barbara Bonney, Geoffrey Parsons».",
-      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder",
+      "rec_year": "1994 (апрель)",
+      "year_source": "Реестр: Teldec 4509-90873-2, запись апрель 1994, Teldec Studio Berlin; продюсер Martin Fouqué, звукорежиссёр Ulrich Ruscher. Метаданные Topic: альбом «Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder», Bonney/Parsons.",
+      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)",
       "label": "Teldec / Warner",
       "age_voice": "Р. 1956 → 38 лет. Пик 1990-е–нач. 2000-х (дайджест) — начало пика.",
-      "reputation": "Одна из самых слушаемых официальных загрузок серии (Ave Maria с этого диска >9 млн); собственно этот трек — 92 тыс. просмотров, лучший показатель среди официальных загрузок песни.",
+      "reputation": "Один из самых слушаемых официальных дисков серии; этот трек — 92 тыс. просмотров, лучший показатель среди официальных загрузок песни. Пресса о современных фильтруется правилом §Скепсис.",
       "sources": [
-        "planning/youtube/albums.md — две карточки Bonney/Teldec",
+        "planning/youtube/albums.md — карточки Bonney/Teldec",
         "planning/youtube/albums/female-recitalists.md — раздел Bonney"
       ],
       "youtube": [
-        {"videoId": "cFv6U1Zm-Us", "channel": "Barbara Bonney - Topic", "official": true, "oembed_ok": true, "note": "208 с.; 92 тыс. просмотров"}
+        {
+          "videoId": "cFv6U1Zm-Us",
+          "channel": "Barbara Bonney - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "208 с.; 92 тыс. просмотров"
+        }
       ],
-      "note": "Сильный кандидат на «запись не ранее 1990» по возрастной структуре топ-5."
-    },
-    {
-      "singer": "Christine Schäfer",
-      "pianist": "Graham Johnson",
-      "rec_year": "1996",
-      "year_source": "Страница издателя: Hyperion CDJ33026, «Recording details: February 1996»; аннотация тома прямо говорит: «The four settings D877 … are given complete; the first is a duet sung by Christine Schäfer and John Mark Ainsley, the other three Mignon songs by Christine Schäfer alone» — то есть D 877/4 поёт Шефер соло. Реестр: изд. IX.1996.",
-      "album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (CDJ33026)",
-      "label": "Hyperion (с 2023 — Universal)",
-      "age_voice": "Р. 1965 → 31 год. Пик ~1995–2010 (дайджест) — самое начало пика, свежий голос.",
-      "reputation": "Том отмечен Gramophone Editor's Choice и «Song Record of the Year» журнала Classic CD (реестр, complete-editions.md). Издание Джонсона — научный эталон свода с его комментариями.",
-      "sources": [
-        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
-        "planning/youtube/albums/complete-editions.md — карточка Vol. 26"
-      ],
-      "youtube": [
-        {"videoId": "q8xO02nDmEc", "channel": "Christine Schäfer - Topic", "official": true, "oembed_ok": true, "note": "180 с."}
-      ],
-      "note": "Опорная «научная» версия песни; для D 877 это профильный том всего свода Hyperion."
-    },
-    {
-      "singer": "Matthias Goerne",
-      "pianist": "Eric Schneider",
-      "rec_year": "2008 (январь)",
-      "year_source": "Реестр (по Discogs и буклету): «Goerne — Vol. 2 «An mein Herz» (HMC 902004.05, 2 CD, зап. X.2007 (CD 1) и I.2008 (CD 2), Teldex; изд. X.2008) — пианисты Helmut Deutsch (CD 1) и Eric Schneider (CD 2)». Загрузка кредитована Эрику Шнайдеру → CD 2 → сессия января 2008.",
-      "album": "Schubert: An mein Herz (Matthias Goerne Schubert Edition, Vol. 2)",
-      "label": "harmonia mundi",
-      "age_voice": "Р. 1967 → 40 лет. Пик ~1997–2015 (дайджест) — в форме.",
-      "reputation": "Самый записываемый Schubert-баритон поколения (дайджест); к прессе о современных исполнителях правило предписывает скепсис. Отдельная особенность: мужской голос в женской партии Миньоны — интерпретаторски спорный выбор.",
-      "sources": [
-        "planning/youtube/albums/complete-editions.md — карточка «An mein Herz»"
-      ],
-      "youtube": [
-        {"videoId": "uJhLexLLOUo", "channel": "Eric Schneider - Topic", "official": true, "oembed_ok": true, "note": "Topic оформлен на пианиста; артисты «Eric Schneider, Matthias Goerne»; 207 с."}
-      ],
-      "note": "Единственный мужской кандидат с полностью документированной записью."
+      "note": "Сильный кандидат на позицию «не ранее 1990» возрастной структуры топ-5."
     },
     {
       "singer": "Dawn Upshaw",
       "pianist": "Richard Goode",
       "rec_year": "1994 (издание; год сессии не установлен)",
-      "year_source": "Discogs: «Richard Goode, Dawn Upshaw — Goethe-Lieder», Nonesuch 9 79317-2 / 7559-79317-2, 1994 (releases 17182381, 23452289). Год сессии по буклету не проверен — доступен только год издания.",
-      "album": "Goethe-Lieder",
+      "year_source": "Discogs: «Richard Goode, Dawn Upshaw — Goethe-Lieder», Nonesuch 9 79317-2 / 7559-79317-2, 1994 (releases 17182381, 23452289). Метаданные Topic: альбом «Goethe Lieder», release_year 1994. Год сессии по буклету не проверен.",
+      "album": "Goethe-Lieder (Nonesuch 9 79317-2)",
       "label": "Nonesuch",
-      "age_voice": "Р. 1960 → ~34 года; в дайджесте карточки нет (упомянута только в резерве по D 118 как непроверенная). Ценность записи — в пианисте: Ричард Гуд, шубертианец-солист первого ряда.",
-      "reputation": "Оценок в доступных сессии источниках не найдено.",
+      "age_voice": "Р. 1960 → ~34 года; в дайджесте карточки нет. Ценность — пианист: Ричард Гуд, шубертианец-солист первого ряда.",
+      "reputation": "Оценок не найдено.",
       "sources": [
-        "https://api.discogs.com/database/search?q=Dawn+Upshaw+Goethe+Lieder (releases 17182381, 23452289)"
+        "https://api.discogs.com/database/search?q=Dawn+Upshaw+Goethe+Lieder (releases 17182381, 23452289)",
+        "метаданные Topic-загрузки j2KgH5DR0fs (альбом и состав)"
       ],
       "youtube": [
-        {"videoId": "j2KgH5DR0fs", "channel": "Dawn Upshaw - Topic", "official": true, "oembed_ok": true, "note": "альбом «Goethe Lieder», 201 с."}
+        {
+          "videoId": "j2KgH5DR0fs",
+          "channel": "Dawn Upshaw - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "201 с."
+        }
       ],
-      "note": "Пианист-солист уровня Гуда — тот же аргумент, что у пары Hendricks/Lupu."
+      "note": "Тот же аргумент, что у пары Hendricks/Lupu: пианист-солист высшего ряда."
+    },
+    {
+      "singer": "Christine Schäfer",
+      "pianist": "Graham Johnson",
+      "rec_year": "1996 (февраль)",
+      "year_source": "Страница издателя: Hyperion CDJ33026, «Recording details: February 1996»; аннотация тома: «The four settings D877 … are given complete; the first is a duet sung by Christine Schäfer and John Mark Ainsley, the other three Mignon songs by Christine Schäfer alone».",
+      "album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (CDJ33026)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "Р. 1965 → 31 год. Пик ~1995–2010 (дайджест) — начало пика, свежий голос.",
+      "reputation": "Том отмечен Gramophone Editor's Choice и «Song Record of the Year» журнала Classic CD (реестр, complete-editions.md). Издание Джонсона — научный эталон свода.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
+        "planning/youtube/albums/complete-editions.md — карточка Vol. 26"
+      ],
+      "youtube": [
+        {
+          "videoId": "q8xO02nDmEc",
+          "channel": "Christine Schäfer - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "180 с."
+        }
+      ],
+      "note": "Опорная «научная» версия: для D 877 это профильный том всего свода Hyperion."
+    },
+    {
+      "singer": "Sibylla Rubens",
+      "pianist": "Irwin Gage",
+      "rec_year": "2000 (издание SWR; дата сессии не установлена)",
+      "year_source": "Кредиты официальной загрузки (yhON3qm01yg, дистрибуция NAXOS of America): альбом «Mozart / Schubert / Huttenbrenner: Lieder», ℗ 2000 SWR Classic, артисты «Sibylla Rubens, Irwin Gage». ВАЖНО: это НЕ Naxos Deutsche Schubert-Lied-Edition (Naxos здесь только дистрибутор), поэтому открытый вопрос «кто поёт D 877/4 в DSLE» остаётся.",
+      "album": "Mozart / Schubert / Hüttenbrenner: Lieder",
+      "label": "SWR Classic (дистр. Naxos)",
+      "age_voice": "Р. 1970 → ~30 лет; в дайджесте отдельной карточки нет (упомянута как исполнительница D 877/2 в серии Naxos).",
+      "reputation": "Оценок не найдено; правило §Скепсис к современным.",
+      "sources": [
+        "описание Topic-загрузки yhON3qm01yg"
+      ],
+      "youtube": [
+        {
+          "videoId": "yhON3qm01yg",
+          "channel": "Sibylla Rubens - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "197 с."
+        }
+      ],
+      "note": "Новый кандидат этой сессии; второй эшелон."
     },
     {
       "singer": "Waltraud Meier",
       "pianist": "Gerhard Oppitz",
-      "rec_year": "1998? (по метаданным загрузки — не дискографический источник)",
-      "year_source": "НЕ ПОДТВЕРЖДЁН дискографией. Единственный ориентир — release_year 1998 в метаданных Topic-загрузки RCA Red Seal, альбом «Brahms, Schubert, Schumann: Lieder», артисты «Waltraud Meier, Gerhard Oppitz». По правилу метаданные загрузок источником даты не являются — требуется сверка по буклету/каталогу RCA.",
+      "rec_year": "1998? (только по метаданным издания)",
+      "year_source": "НЕ ПОДТВЕРЖДЁН дискографией. Кредиты Topic-загрузки RCA Red Seal (D73OXZ72HU8): альбом «Brahms, Schubert, Schumann: Lieder», «Waltraud Meier, Gerhard Oppitz», release_date 1998-02-01. По правилу метаданные загрузок источником даты не являются — нужна сверка по буклету/каталогу RCA.",
       "album": "Brahms, Schubert, Schumann: Lieder",
       "label": "RCA Red Seal",
-      "age_voice": "Р. 1956 → ~42 года. В дайджесте карточки нет; вагнеровское меццо, песня — побочная линия репертуара.",
-      "reputation": "Оценок в доступных сессии источниках не найдено.",
-      "sources": ["метаданные Topic-загрузки D73OXZ72HU8 (только для идентификации альбома и состава, не для года)"],
+      "age_voice": "Р. 1956 → ~42 года; вагнеровское меццо, песня — побочная линия репертуара; в дайджесте карточки нет.",
+      "reputation": "Оценок не найдено.",
+      "sources": [
+        "метаданные Topic-загрузки D73OXZ72HU8 (идентификация альбома и состава, не года)"
+      ],
       "youtube": [
-        {"videoId": "D73OXZ72HU8", "channel": "Waltraud Meier - Topic", "official": true, "oembed_ok": true, "note": "189 с."}
+        {
+          "videoId": "D73OXZ72HU8",
+          "channel": "Waltraud Meier - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "188 с."
+        }
       ],
       "note": "Второй эшелон: включать только при нехватке проверенных кандидатов."
     },
     {
-      "singer": "Nina Dorliak",
-      "pianist": "Sviatoslav Richter",
-      "rec_year": "1956",
-      "year_source": "Дискография Грея, запись id 16517: Schubert, «Lied der Mignon, D877», номер D 26457/8, дата 1956, место Moscow, лейбл Melodiya, артисты «Nina Dorliak, soprano; Sviatoslav Richter, piano»; CD-переиздание Cascavelle VEL3041.",
-      "album": "Melodiya D 26457/8; переизд. Cascavelle VEL3041",
-      "label": "Мелодия / Cascavelle",
-      "age_voice": "Дорлиак р. 1908 → 48 лет; Рихтер (1915–1997) — 41 год, начало его камерно-аккомпаниаторской линии с Дорлиак.",
-      "reputation": "Ценность прежде всего в пианисте: Рихтер — один из немногих пианистов-солистов первого ряда в шубертовской песне (ср. его Winterreise со Шрайером, 1985).",
+      "singer": "Bernarda Fink",
+      "pianist": "Gerold Huber",
+      "rec_year": "2007 (сессия по дайджесту; ℗ 2008)",
+      "year_source": "Кредиты официальной загрузки harmonia mundi (LoKkJkaJ0HY): «Bernarda Fink · Gerold Huber», альбом «Schubert: Lieder», ℗ harmonia mundi, released 2008-09-02; Discogs release 15824096 — HMC 901991, 2008. Дайджест: рецитал harmonia mundi, запись 2007, Huber. ВНИМАНИЕ: заголовок трека на Topic ошибочно указывает «D.64/4» — D 64 это танец/другое сочинение; по длительности (208 с.), альбому и порядку это D 877/4; перед публикацией желательно сверить с треклистом HMC 901991.",
+      "album": "Schubert: Lieder (HMC 901991)",
+      "label": "harmonia mundi",
+      "age_voice": "Р. 1955 → ~52 года. Пик ~1995–2015 (дайджест) — в форме.",
+      "reputation": "Её Gretchen с этого же альбома — со-победитель слепого теста 2020 наряду со Шварцкопф/Фишером (дайджест). Это самая весомая современная репутация в пуле.",
       "sources": [
-        "https://www.classical-discography.org/modalcontent.php?id=16517"
+        "planning/research/singers-digest.md — карточка Fink (harmonia mundi, зап. 2007, Huber)",
+        "описание Topic-загрузки LoKkJkaJ0HY",
+        "https://api.discogs.com/database/search?q=Bernarda+Fink+Schubert — release 15824096, HMC 901991"
       ],
       "youtube": [
-        {"videoId": "rpMMi3VDGkQ", "channel": "Nina Dorliak - Topic", "official": true, "oembed_ok": true, "note": "173 с.; заголовок Topic: «(Sung in Russian) (Live)»"}
+        {
+          "videoId": "LoKkJkaJ0HY",
+          "channel": "Bernarda Fink - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "208 с.; в заголовке ошибочный D-номер «D.64/4»"
+        }
       ],
-      "note": "СЕРЬЁЗНОЕ ОГРАНИЧЕНИЕ для проекта: поётся по-русски — для сайта с пословным немецким подстрочником запись не подходит по существу. Кроме того Topic помечает трек как live, а Грей — как студийную позицию Мелодии 1956; расхождение не разрешено."
+      "note": "Новый кандидат этой сессии и, по репутации альбома, сильнейший из современных."
     },
     {
-      "singer": "Jan DeGaetani",
-      "pianist": "Gilbert Kalish",
-      "rec_year": "1974",
-      "year_source": "Дискография Грея, запись id 227996: Schubert, «Lied der Mignon, D877», номер H-71320, дата «1974 November 17 - 18 + 21», место New York, Rutgers Presbyterian Church, лейбл Nonesuch, артисты «Jan DeGaetani, mezzo-soprano; Gilbert Kalish, piano».",
-      "album": "Nonesuch H-71320",
-      "label": "Nonesuch",
-      "age_voice": "ДеГаэтани (1933–1989) → 41 год, в форме; американская школа, знаменитый дуэт с Кэлишем.",
-      "reputation": "Оценок в доступных сессии источниках не найдено; пара DeGaetani/Kalish — признанный камерный дуэт своего поколения.",
+      "singer": "Matthias Goerne",
+      "pianist": "Eric Schneider",
+      "rec_year": "2008 (январь)",
+      "year_source": "Реестр (по Discogs и буклету): «Goerne — Vol. 2 «An mein Herz» (HMC 902004.05, 2 CD, зап. X.2007 (CD 1) и I.2008 (CD 2), Teldex; изд. X.2008)», пианисты Helmut Deutsch (CD 1) и Eric Schneider (CD 2). Загрузка кредитована Шнайдеру → CD 2 → сессия января 2008.",
+      "album": "Schubert: An mein Herz (Goerne Schubert Edition, Vol. 2)",
+      "label": "harmonia mundi",
+      "age_voice": "Р. 1967 → 40 лет. Пик ~1997–2015 (дайджест).",
+      "reputation": "Самый записываемый Schubert-баритон поколения (дайджест); правило §Скепсис к прессе о современных. Особо: мужской голос в партии Миньоны — интерпретаторски спорный выбор.",
       "sources": [
-        "https://www.classical-discography.org/modalcontent.php?id=227996"
+        "planning/youtube/albums/complete-editions.md — карточка «An mein Herz»"
       ],
       "youtube": [
-        {"videoId": "VClU7B2Lhq0", "channel": "Jan De Gaetani/Gilbert Kalish/et al. - Topic", "official": true, "oembed_ok": true, "note": "228 с. — заметно медленнее прочих; требуется прослушивание на предмет соответствия именно D 877/4"}
+        {
+          "videoId": "uJhLexLLOUo",
+          "channel": "Eric Schneider - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "Topic оформлен на пианиста; артисты «Eric Schneider, Matthias Goerne»; 207 с."
+        }
       ],
-      "note": "Находка сессии: в YouTube-выдаче generic-поиска отсутствовала, обнаружена через дискографию Грея."
-    },
-    {
-      "singer": "Cheryl Studer",
-      "pianist": "Irwin Gage",
-      "rec_year": "1992 (август, лайв)",
-      "year_source": "Только описание загрузки: «Live performance, August 1992, Salzburg, Mozarteum, Großer Saal, Irwin Gage (piano)». Дискографического подтверждения нет; по правилу это НЕ источник даты. Официального издания не найдено.",
-      "album": "не издано (концертная запись)",
-      "label": "—",
-      "age_voice": "Р. 1955 → 37 лет; на момент записи Штудер на вершине международной карьеры (до вокального кризиса конца 1990-х).",
-      "reputation": "Загрузка — 95 тыс. просмотров, наибольшая среди неофициальных; оценок прессы в доступных источниках нет.",
-      "sources": ["описание видео KB5TyY4BRDY (не дискографический источник)"],
-      "youtube": [
-        {"videoId": "KB5TyY4BRDY", "channel": "doGreatartistsgrowontrees?", "official": false, "oembed_ok": true, "note": "193 с.; фан-канал, риск удаления"}
-      ],
-      "note": "Неофициальная загрузка + недокументированная дата → по технической гигиене ссылок низкий приоритет."
+      "note": "Единственный мужской кандидат с полностью документированной записью."
     },
     {
       "singer": "Dorothea Röschmann",
-      "pianist": "не установлен (вероятно Malcolm Martineau)",
-      "rec_year": "не установлен (вероятно 2014)",
-      "year_source": "НЕ УСТАНОВЛЕН. Дайджест даёт единственный её шубертовский альбом — «Portraits» (Sony 2014, Martineau); привязка Topic-трека к этому изданию не проверена (yt-dlp -J был заблокирован лимитом YouTube). На её Topic-канале ДВА разных трека с этим названием: 6SrivGqpC9s (180 с., «Nur wer die Sehnsucht kennt, D. 877/4») и VCNsG8M2Glo (117 с., подписан «Mignon II» — вероятно другой D-номер или ошибка метаданных).",
-      "album": "предположительно «Portraits» (Sony Classical)",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "2014 (издание 14.11.2014; дата сессии не установлена)",
+      "year_source": "РАЗРЕШЕНО в этой сессии. Метаданные официальной Topic-загрузки (6SrivGqpC9s): альбом «Portraits», артисты «Dorothea Röschmann, Malcolm Martineau», release_date 2014-11-14. Соответствует дайджесту («Portraits», Sony 2014, Martineau). Дата сессии по буклету не проверена — по правилу в плеер шёл бы год издания.",
+      "album": "Portraits",
       "label": "Sony Classical",
-      "age_voice": "Р. 1967 → ~47 лет в 2014. Пик ~2000–2018 (дайджест).",
-      "reputation": "Оценок в доступных сессии источниках не найдено; правило предписывает скепсис к пиару современных.",
-      "sources": ["planning/research/singers-digest.md — карточка Röschmann"],
-      "youtube": [
-        {"videoId": "6SrivGqpC9s", "channel": "Dorothea Röschmann - Topic", "official": true, "oembed_ok": true, "note": "180 с."}
+      "age_voice": "Р. 1967 → ~47 лет. Пик ~2000–2018 (дайджест).",
+      "reputation": "Оценок трека не найдено; правило §Скепсис к пиару современных.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Röschmann",
+        "метаданные Topic-загрузки 6SrivGqpC9s"
       ],
-      "note": "Перед публикацией обязательна привязка videoId к конкретному изданию и году."
+      "youtube": [
+        {
+          "videoId": "6SrivGqpC9s",
+          "channel": "Dorothea Röschmann - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "180 с."
+        },
+        {
+          "videoId": "VCNsG8M2Glo",
+          "channel": "Dorothea Röschmann - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "117 с., подписан «Mignon II» — ДРУГАЯ песня, не брать"
+        }
+      ],
+      "note": "Прежний открытый вопрос об альбоме закрыт."
     },
     {
       "singer": "Carolyn Sampson",
-      "pianist": "Joseph Middleton (по всем её шубертовским альбомам)",
-      "rec_year": "не установлен (2017 или 2024–25)",
-      "year_source": "НЕ УСТАНОВЛЕН. У Sampson три шубертовских альбома BIS: «A Soprano's Schubertiade» (зап. авг. 2017), «Elysium» (сессии 2020 и 2021, изд. 2023 — по-трековая разбивка в реестре) и «Schubert's Four Seasons» (изд. 04.04.2025). В каком из них D 877/4 — не проверено; в реестровых треклистах первых двух этой песни нет, что косвенно указывает на альбом 2025 года.",
-      "album": "не установлен (вероятно «Schubert's Four Seasons», BIS, изд. 2025)",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2017 (август; ℗ 2018)",
+      "year_source": "РАЗРЕШЕНО в этой сессии. Кредиты официальной загрузки (SRgxz--MQrI, дистрибуция PLATOON): «Carolyn Sampson · Joseph Middleton», альбом «A Soprano's Schubertiade», ℗ 2018 BIS, released 2018-05-11. Реестр (planning/youtube/albums/modern-series.md) даёт сессии этого альбома: август 2017. Прежнее предположение о «Schubert's Four Seasons» (2025) снято.",
+      "album": "A Soprano's Schubertiade (BIS)",
       "label": "BIS",
-      "age_voice": "Р. 1974 → 43 года (2017) или ~50 (2024–25). Пик ~2010–наст. (дайджест).",
-      "reputation": "Оценок конкретно этого трека не найдено.",
+      "age_voice": "Р. 1974 → 43 года. Пик ~2010–наст. (дайджест).",
+      "reputation": "Оценок трека не найдено; правило §Скепсис.",
       "sources": [
-        "planning/youtube/albums/modern-series.md — раздел Sampson (три альбома с датами сессий)",
-        "planning/youtube/albums.md — карточки Sampson"
+        "planning/youtube/albums/modern-series.md — раздел Sampson",
+        "описание Topic-загрузки SRgxz--MQrI"
       ],
       "youtube": [
-        {"videoId": "SRgxz--MQrI", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true, "note": "187 с., всего 54 просмотра — свежая загрузка, косвенный признак альбома 2025"}
+        {
+          "videoId": "SRgxz--MQrI",
+          "channel": "Carolyn Sampson - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "186 с."
+        }
       ],
-      "note": "Единственный реальный кандидат на позицию «не ранее 2015» из возрастной структуры топ-5 — при условии, что альбом и год будут установлены."
-    },
-    {
-      "singer": "Margaret Price",
-      "pianist": "не установлен",
-      "rec_year": "не установлен",
-      "year_source": "НЕ УСТАНОВЛЕН. Topic-трек 52gGbFLd_Hw «Lied der Mignon No. 4 in A minor, D. 877 No. 4». Известные шубертовские позиции Прайс: рецитал Orfeo с Заваллишем за роялем (зап. ~1980, изд. 1984) и Hyperion Vol. 15 «Schubert & the Nocturne III» (CDJ33015, зап. X.1991) — но D 877 в Hyperion поёт Шефер (Vol. 26), значит источник иной.",
-      "album": "не установлен",
-      "label": "не установлен",
-      "age_voice": "Р. 1941; пик ~1970–1990 (дайджест).",
-      "reputation": "Оценок не найдено.",
-      "sources": [
-        "planning/research/singers-digest.md — карточка Price",
-        "planning/youtube/albums/complete-editions.md — Price, Hyperion Vol. 15"
-      ],
-      "youtube": [
-        {"videoId": "52gGbFLd_Hw", "channel": "Margaret Price - Topic", "official": true, "oembed_ok": true, "note": "181 с."}
-      ],
-      "note": "Требует дознания альбома."
-    },
-    {
-      "singer": "Arleen Augér",
-      "pianist": "не установлен (Olbertz / Baldwin / Orkis — три разные линии)",
-      "rec_year": "не установлен",
-      "year_source": "НЕ УСТАНОВЛЕН. Topic-трек V8MxvMge78k. У Аугер минимум четыре шубертовские позиции: Eterna «Lieder nach Goethe» (сессии 19–22.10.1976, Дрезден, Olbertz — гётевский рецитал, наиболее вероятный источник), Delos «Love Songs» (1988, Baldwin), Hyperion Vol. 9 (зап. X.1989, Johnson), Virgin 5614572 (~1990–91, Orkis, хаммерклавир). Реестр прямо предупреждает: «перед публикацией обязательна привязка videoId к изданию».",
-      "album": "не установлен (вероятно Eterna «Lieder nach Goethe», 1976)",
-      "label": "не установлен",
-      "age_voice": "Р. 1939; в 1976 — 37 лет; пик по дайджесту 1980-е–1991.",
-      "reputation": "Оценок не найдено.",
-      "sources": [
-        "planning/youtube/albums/female-recitalists.md — раздел Auger",
-        "planning/youtube/albums.md — карточка Augér / Virgin"
-      ],
-      "youtube": [
-        {"videoId": "V8MxvMge78k", "channel": "Arleen Augér - Topic", "official": true, "oembed_ok": true, "note": "215 с."}
-      ],
-      "note": "Требует дознания издания."
+      "note": "Реальный кандидат на позицию «не ранее 2015» возрастной структуры топ-5 — теперь с документированным альбомом."
     },
     {
       "singer": "Raquel Camarinha",
       "pianist": "Yoan Héreau",
       "rec_year": "не установлен (издание 2020)",
-      "year_source": "Метаданные Topic: альбом «Chopin: Mélodies - Schubert: Mignon», harmonia mundi, release_year 2020. Год сессии не проверен.",
+      "year_source": "Метаданные Topic: альбом «Chopin: Mélodies — Schubert: Mignon», harmonia mundi, release_year 2020. Год сессии не проверен.",
       "album": "Chopin: Mélodies — Schubert: Mignon",
       "label": "harmonia mundi",
-      "age_voice": "В дайджесте певицы нет — молодая португальская сопрано, за пределами устоявшегося фонда.",
-      "reputation": "Оценок не найдено; по правилу скепсиса к современному пиару — низкий приоритет.",
-      "sources": ["метаданные Topic-загрузки _8PJUO7Pghk"],
+      "age_voice": "В дайджесте отсутствует — молодая португальская сопрано, вне устоявшегося фонда.",
+      "reputation": "Оценок не найдено; правило §Скепсис.",
+      "sources": [
+        "метаданные Topic-загрузки _8PJUO7Pghk"
+      ],
       "youtube": [
-        {"videoId": "_8PJUO7Pghk", "channel": "Release - Topic", "official": true, "oembed_ok": true, "note": "174 с."},
-        {"videoId": "vX71Ox3qh8M", "channel": "France Musique concerts", "official": true, "oembed_ok": true, "note": "лайв-версия той же пары, 160 с."}
+        {
+          "videoId": "_8PJUO7Pghk",
+          "channel": "Release - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "174 с."
+        },
+        {
+          "videoId": "vX71Ox3qh8M",
+          "channel": "France Musique concerts",
+          "official": true,
+          "oembed_ok": null,
+          "note": "концертная версия той же пары, 160 с."
+        }
       ],
       "note": "Кандидат «не ранее 2015» второго ряда."
     },
     {
-      "singer": "Elly Ameling",
-      "pianist": "не установлен",
-      "rec_year": "не установлен — атрибуция под вопросом",
-      "year_source": "ПРОТИВОРЕЧИЕ. Topic-трек feir3drzV8g подписан «Schubert: Nur wer die Sehnsucht kennt, D. 877 No. 4 (4th Version)», но в треклисте её тома Hyperion Vol. 7 (CDJ33007, зап. август 1989) стоят D 310b и Kennst du das Land D 321 — D 877/4 там НЕТ (Discogs release 9529413, треки 22–24; аннотация Hyperion к тому: «We hear the first two attempts at Nur wer die Sehnsucht kennt on this recording»). Значит либо трек взят с её филипсовской серии с Далтоном Болдуином, либо метаданные загрузки перепутали редакцию. До разрешения — кандидат не годен к публикации.",
-      "album": "не установлен",
-      "label": "не установлен",
-      "age_voice": "Р. 1933; пик ~1965–1985 (дайджест); самая записываемая шубертианка поколения.",
-      "reputation": "Оценок именно этого трека нет.",
+      "singer": "Philippe Jaroussky (контратенор)",
+      "pianist": "Jérôme Ducros",
+      "rec_year": "не установлен (издание 2024)",
+      "year_source": "Кредиты официальной загрузки Warner/Erato (Yi-xwG8g9vc): «Philippe Jaroussky · Jérôme Ducros», альбом «Schubert: Lieder», ℗ 2024 Parlophone Records. Год сессии по буклету не проверен.",
+      "album": "Schubert: Lieder",
+      "label": "Erato / Warner Classics",
+      "age_voice": "Р. 1978 → ~45 лет; контратенор, в дайджесте отсутствует.",
+      "reputation": "Оценок трека не найдено; правило §Скепсис к пиару современных.",
       "sources": [
-        "https://api.discogs.com/releases/9529413 — треклист Hyperion Vol. 7",
-        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33007 — «Recording details: August 1989»"
+        "описание Topic-загрузки Yi-xwG8g9vc"
       ],
       "youtube": [
-        {"videoId": "feir3drzV8g", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "note": "216 с."}
+        {
+          "videoId": "Yi-xwG8g9vc",
+          "channel": "Philippe Jaroussky - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "182 с."
+        }
       ],
-      "note": "Типичный случай ложной атрибуции по метаданным — держать вне пятёрки до проверки."
+      "note": "Тембровая экзотика (контратенор в женской партии); для базовой пятёрки не профильный кандидат, но формально свежайший официальный релиз."
+    },
+    {
+      "singer": "Cheryl Studer",
+      "pianist": "Irwin Gage",
+      "rec_year": "1992? (август, лайв — только по описанию загрузки)",
+      "year_source": "Только описание загрузки: «Live performance, August 1992, Salzburg, Mozarteum, Großer Saal, Irwin Gage (piano)». Дискографического подтверждения нет; по правилу это НЕ источник даты. Официального издания не найдено.",
+      "album": "не издано (концертная запись)",
+      "label": "—",
+      "age_voice": "Р. 1955 → 37 лет; на вершине карьеры (до вокального кризиса конца 1990-х).",
+      "reputation": "95 тыс. просмотров — наибольший показатель среди неофициальных загрузок песни; прессы нет.",
+      "sources": [
+        "описание видео KB5TyY4BRDY (не дискографический источник)"
+      ],
+      "youtube": [
+        {
+          "videoId": "KB5TyY4BRDY",
+          "channel": "doGreatartistsgrowontrees?",
+          "official": false,
+          "oembed_ok": true,
+          "note": "193 с.; фан-канал, риск удаления"
+        }
+      ],
+      "note": "Неофициальная загрузка + недокументированная дата → по §Технической гигиене низкий приоритет."
+    },
+    {
+      "singer": "Maria Stader",
+      "pianist": "William Kapell",
+      "rec_year": "1953? (только по описанию загрузки)",
+      "year_source": "НЕ ПОДТВЕРЖДЁН. Фан-загрузка UerMAGh_6WM: «Maria Stader & William Kapell / rec. 1953». Дискографического подтверждения нет; в базе Грея позиция не найдена. Капелл погиб 29.10.1953 — верхняя граница даты правдоподобна, но это не источник.",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "Штадер (1911–1999) → ~42 года, в форме; Капелл (1922–1953) — пианист-солист первого ряда, редчайшее сочетание.",
+      "reputation": "Оценок не найдено; интерес прежде всего исторический (последний год Капелла).",
+      "sources": [
+        "описание видео UerMAGh_6WM (не дискографический источник)"
+      ],
+      "youtube": [
+        {
+          "videoId": "UerMAGh_6WM",
+          "channel": "Patryk Sulivanh",
+          "official": false,
+          "oembed_ok": true,
+          "note": "211 с.; 276 просмотров, фан-канал"
+        }
+      ],
+      "note": "Требует дискографического дознания (лейбл, происхождение); при подтверждении — очень интересная историческая позиция."
+    },
+    {
+      "singer": "Nina Dorliak",
+      "pianist": "Sviatoslav Richter",
+      "rec_year": "1956",
+      "year_source": "Дискография Грея, id 16517: Schubert, «Lied der Mignon, D877», номер D 26457/8, 1956, Moscow, Мелодия, «Nina Dorliak, soprano; Sviatoslav Richter, piano»; CD-переизд. Cascavelle VEL3041.",
+      "album": "Melodiya D 26457/8; переизд. Cascavelle VEL3041",
+      "label": "Мелодия / Cascavelle",
+      "age_voice": "Дорлиак р. 1908 → 48 лет; Рихтер (1915–1997) — 41 год.",
+      "reputation": "Ценность прежде всего в пианисте (ср. его Winterreise со Шрайером, 1985).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=16517"
+      ],
+      "youtube": [
+        {
+          "videoId": "rpMMi3VDGkQ",
+          "channel": "Nina Dorliak - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "173 с.; Topic: «(Sung in Russian) (Live)»"
+        }
+      ],
+      "note": "ИСКЛЮЧАЮЩЕЕ ОГРАНИЧЕНИЕ: поётся по-русски — для сайта с немецким подстрочником не подходит. Плюс расхождение «live» (Topic) vs студия (Грей)."
+    },
+    {
+      "singer": "Margaret Price",
+      "pianist": "Graham Johnson (по кредиту загрузки — не подтверждено)",
+      "rec_year": "не установлен",
+      "year_source": "НЕ УСТАНОВЛЕН, атрибуция сомнительна. Topic-трек 52gGbFLd_Hw поставлен агрегатором The Orchard, ℗ 2005 «Classical World Ltd.» — серый лейбл, по правилу §Верификация кредиты с таких каналов не берутся. Её том Hyperion Vol. 15 (CDJ33015, «Recording details: October 1991», Price/Johnson) в треклисте D 877 НЕ содержит — проверено на странице издателя.",
+      "album": "не установлен",
+      "label": "не установлен (агрегатор Classical World Ltd.)",
+      "age_voice": "Р. 1941; пик ~1970–1990 (дайджест).",
+      "reputation": "Оценок не найдено.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33015 — том Прайс, октябрь 1991, без D 877",
+        "описание Topic-загрузки 52gGbFLd_Hw (℗ 2005 Classical World Ltd., The Orchard)"
+      ],
+      "youtube": [
+        {
+          "videoId": "52gGbFLd_Hw",
+          "channel": "Margaret Price - Topic",
+          "official": false,
+          "oembed_ok": true,
+          "note": "181 с.; серый агрегатор"
+        }
+      ],
+      "note": "К публикации не годен до установления происхождения записи."
+    },
+    {
+      "singer": "Felicity Lott",
+      "pianist": "Graham Johnson (по кредиту загрузки)",
+      "rec_year": "не установлен (издание сборника 2010)",
+      "year_source": "НЕ УСТАНОВЛЕН. Загрузка rfKmZSbBIJc: «Felicity Lott · Graham Johnson», сборник «Felicity Lott sings Schubert Favourites», ℗ 2010 Musical Concepts — лицензионный сборник-переиздание, не первичный источник даты. Первичное издание (вероятно Chandos/Forlane 1980–90-х) не установлено.",
+      "album": "Felicity Lott sings Schubert Favourites (сборник)",
+      "label": "Musical Concepts (переизд.)",
+      "age_voice": "Р. 1947; в дайджесте — в резерве без карточки. При датировке 1980–90-ми — пик формы.",
+      "reputation": "Оценок не найдено.",
+      "sources": [
+        "описание Topic-загрузки rfKmZSbBIJc"
+      ],
+      "youtube": [
+        {
+          "videoId": "rfKmZSbBIJc",
+          "channel": "Felicity Lott - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "197 с."
+        }
+      ],
+      "note": "Новый кандидат этой сессии; требует дознания первоисточника и года."
     },
     {
       "singer": "Mischa Maisky (виолончель, без голоса)",
@@ -361,58 +714,296 @@
       "label": "Deutsche Grammophon",
       "age_voice": "неприменимо",
       "reputation": "—",
-      "sources": ["метаданные Topic-загрузки fAU2T3ZaN1c"],
-      "youtube": [
-        {"videoId": "fAU2T3ZaN1c", "channel": "Mischa Maisky - Topic", "official": true, "oembed_ok": true}
+      "sources": [
+        "метаданные Topic-загрузки fAU2T3ZaN1c"
       ],
-      "note": "ИСКЛЮЧИТЬ из отбора: инструментальная транскрипция без пения, для сайта с подстрочником непригодна. Документируется, чтобы скрипт-конвейер не подобрал её повторно (12,5 тыс. просмотров, высоко в generic-выдаче)."
+      "youtube": [
+        {
+          "videoId": "fAU2T3ZaN1c",
+          "channel": "Mischa Maisky - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "ИСКЛЮЧИТЬ: инструментальная транскрипция без пения. Документируется, чтобы скриптовый конвейер не подобрал её повторно (12,5 тыс. просмотров, высоко в generic-выдаче)."
+    },
+    {
+      "singer": "Sandrine Piau (с квартетом, аранжировка)",
+      "pianist": "— (Quatuor Psophos, аранж. Jacques Gandard)",
+      "rec_year": "не установлен (издание 05.09.2025)",
+      "year_source": "Кредиты загрузки zmLJ6QYsjTg: «Sandrine Piau · Quatuor Psophos», альбом «Schubert: Quintette imaginaire», Alpha Classics/Outhere, released 2025-09-05, «Arr. for Soprano and String Quartet by Jacques Gandard».",
+      "album": "Schubert: Quintette imaginaire",
+      "label": "Alpha Classics",
+      "age_voice": "Р. 1965; аранжировка, не оригинал.",
+      "reputation": "—",
+      "sources": [
+        "описание Topic-загрузки zmLJ6QYsjTg"
+      ],
+      "youtube": [
+        {
+          "videoId": "zmLJ6QYsjTg",
+          "channel": "Sandrine Piau - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "196 с."
+        }
+      ],
+      "note": "ИСКЛЮЧИТЬ из основного отбора: не фортепианный оригинал, а аранжировка для голоса и струнного квартета."
     }
   ],
   "priority_singers_checked": {
-    "Quasthoff": "НЕТ. Дискография Квастхофа закрыта в 2012 и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95, Winterreise 1998, Schwanengesang 2001, Lieder с оркестром 2003, Müllerin 2005, Winterreise-фильм 2005) — песни Миньоны, женская партия из «Вильгельма Мейстера», в них не входят; поиск по YouTube (yt-dlp, 4 запроса) не дал ни одной его записи D 877/4. Источник: planning/research/singers-digest.md, карточка Quasthoff.",
-    "Fischer-Dieskau": "НЕТ (важный отрицательный результат с ловушкой). Единственная его точка соприкосновения с D 877 — ДУЭТ D 877/1 «Mignon und der Harfner» с Викторией де лос Анхелес и Джеральдом Муром, LP «Duets» (Angel 35963 / HMV ASD 459, 1962). Полный треклист этого LP (Discogs release 6483661) содержит только «Mignon und der Harfner» — сольного D 877/4 на нём нет. При этом на Topic-канале де лос Анхелес трек pFrq3pvYa7I подписан «Op. 62, D. 877: No. 4, Nur wer die Sehnsucht kennt» и кредитован обоим певцам — это ошибка метаданных переиздания (длительность 252 с. совпадает с дуэтом; параллельно существует 2eNHyyHzP2E «No. 1, Mignon und der Harfner», 246 с.). Кроме того его полный свод DG 1966–72 сознательно исключал женские песни (дайджест). Вывод: D 877/4 Фишер-Дискау не записывал.",
-    "Schwarzkopf": "НЕТ. Прицельный поиск (yt-dlp) по её имени + названию даёт только Чайковского — «6 Romances, Op. 6: No. 6, Nur wer die Sehnsucht kennt» (три разные загрузки на её Topic-канале: G2FvwHySEqo, pILUqRQy2VI, gHCjqz1vLfk, все ~227–234 с.) и запись, прямо подписанную «Schwarzkopf sings Nur wer die Sehnsucht kennt by Tchaikovsky» (1oEGOCEi37w). Шубертовского D 877/4 у неё в доступных источниках не обнаружено. Отрицательный результат частичный: полный Warner-бокс «Complete Recitals 1952–1974» потрековым списком в этой сессии проверить не удалось (WebSearch исчерпан).",
-    "Hotter": "НЕТ. Мужской бас-баритон, песни Миньоны в его дискографии (Winterreise 1942/1954/1961, Schwanengesang и Lieder нач. 1950-х — дайджест) отсутствуют; поиском не найдено.",
+    "Quasthoff": "НЕТ. Дискография закрыта в 2012 и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95, Winterreise 1998, Schwanengesang 2001, Lieder с оркестром 2003, Müllerin 2005, Winterreise-фильм 2005); песни Миньоны — женская партия из «Вильгельма Мейстера» — в них не входят. Прицельный поиск по YouTube (yt-dlp) не дал ни одной его записи D 877/4. Источник: planning/research/singers-digest.md, карточка Quasthoff.",
+    "Fischer-Dieskau": "НЕТ (с ловушкой). Единственная его точка соприкосновения с D 877 — ДУЭТ D 877/1 «Mignon und der Harfner» с Викторией де лос Анхелес и Джеральдом Муром, LP «Duets» (Angel 35963 / HMV ASD 459, 1962); полный треклист (Discogs 6483661) сольного D 877/4 не содержит. Topic-трек pFrq3pvYa7I де лос Анхелес, подписанный «No. 4, Nur wer die Sehnsucht kennt» и кредитованный обоим певцам, — ошибка метаданных переиздания (длительность 252 с. совпадает с дуэтом; параллельно есть 2eNHyyHzP2E «No. 1», 246 с.). Кроме того его свод DG 1966–72 сознательно исключал женские песни (дайджест).",
+    "Schwarzkopf": "НЕТ. Прицельный поиск (yt-dlp) даёт у неё только одноимённый романс ЧАЙКОВСКОГО, op. 6 № 6 (G2FvwHySEqo, pILUqRQy2VI, gHCjqz1vLfk, ~227–234 с.; плюс прямо подписанная загрузка 1oEGOCEi37w «by Tchaikovsky»). Шубертовского D 877/4 не обнаружено. Ограничение: полный Warner-бокс «Complete Recitals 1952–1974» потрековым списком не проверен (WebSearch в сессии исчерпан, Discogs API отдавал 429).",
+    "Hotter": "НЕТ. Песни Миньоны в его дискографии (Winterreise 1942/1954/1961, Schwanengesang и Lieder нач. 1950-х — дайджест) отсутствуют; поиском не найдено.",
     "Anders": "НЕТ. Его шубертовское наследие — Winterreise (1945) и Müllerin (1945, 1948) с Раухайзеном/Вайссенборном (дайджест); D 877/4 не найден.",
-    "E. Schumann": "ДА — записала. Два независимых официальных переиздания на её Topic-каналах: Warner «Icon: Elisabeth Schumann» (pdPSzUx15uQ, кредит «Elisabeth Schumann/Gerald Moore») и Naxos-антология (Si10XQteSno). Год НЕ установлен: в дискографии Грея этой позиции нет, в Naxos Historical 8.110731 «Schubert Lieder (1927–1945)» её нет в треклисте (Discogs 11587345). Диапазон-гипотеза 1936–1946 — по годам её работы с Муром.",
-    "Ludwig": "ДА, с полностью документированной датой: DG 2530 404, сессии 21–24.06.1973, Вена, Rosenhügel, пианист Irwin Gage; трек A6 «Mignon D. 877,4» (Gray через реестр + Discogs 3089946). Она же поёт D 877/2 и D 877/3, но на СЛЕДУЮЩЕМ LP — DG 2530 528 (сессии 28.06–01.07.1974). Это закрывает открытый вопрос из досье D 877/2 и D 877/3 («альбом не подтверждён»).",
-    "Popp": "НЕТ. Прицельный поиск (yt-dlp, запрос с её именем + Gage + 1983) не дал ни одного трека D 877/4; на её Topic-канале шубертовские треки есть (D 854, D 633, D 693), песен Миньоны из D 877 нет. Отрицательный результат по доступным источникам; полный треклист рецитала EMI 1983 (Gage) и двух дисков BBC Legends потрековым списком не перепроверялся."
+    "E. Schumann": "ДА — записала. Официальное переиздание Warner Classics «Icon: Elisabeth Schumann» (Topic pdPSzUx15uQ) с кредитами «Elisabeth Schumann / Gerald Moore, продюсер Walter Legge». Год НЕ установлен: в дискографии Грея позиции нет, в Naxos Historical 8.110731 (Discogs 11587345) трека нет. Диапазон-гипотеза «1936–46?» — по годам её работы с Муром. Дополнительная неясность: вторая официальная загрузка (Si10XQteSno, ℗ 2011 Symposium) кредитует не Мура, а Бруно Вальтера.",
+    "Ludwig": "ДА, с полностью документированной датой: DG 2530 404, сессии 21–24.06.1973, Вена, Rosenhügel, пианист Irwin Gage; трек A6 «Mignon D. 877,4» (Gray через реестр + Discogs 3089946). D 877/2 и D 877/3 она поёт на следующем LP — DG 2530 528 (сессии 28.06–01.07.1974).",
+    "Popp": "НЕТ. Прицельный поиск (yt-dlp) не дал ни одного трека D 877/4; на её Topic-канале есть шубертовские треки (D 854, D 633, D 693), песен Миньоны из D 877 нет. Ограничение: полные треклисты рецитала EMI 1983 (Gage) и двух дисков BBC Legends потрековым списком не перепроверялись."
   },
   "albums_facts": [
-    {"album": "Schubert-Lieder (DG 2530 404)", "singer": "Christa Ludwig", "year": "сессии 21–24.06.1973, Вена, Rosenhügel; ℗ 1974", "label": "Deutsche Grammophon", "facts": "Пианист Irwin Gage. Трек A6 — «Mignon D. 877,4». Парный LP DG 2530 528 (сессии 28.06–01.07.1974) несёт D 877/2 (A5) и D 877/3 (A6). Источники: Gray через planning/youtube/albums/female-recitalists.md; Discogs 3089946 и 7569118.", "covers_more_pilot_songs": true},
-    {"album": "Irmgard Seefried singt Lieder von Franz Schubert (DG 136 009 SLPEM)", "singer": "Irmgard Seefried", "year": "сессии 30.05 + 3, 7–8.06.1958", "label": "Deutsche Grammophon", "facts": "Пианист Erik Werba. На стороне B — группа «Lieder der Mignon» из четырёх номеров: Nur wer die Sehnsucht kennt (B1), Heiss mich nicht reden (B2), So lasst mich scheinen (B3), Kennst du das Land (B4). Прессинги того же каталожного номера Discogs датирует 1958/1964/1968 — это издания, не сессии. Источники: Gray через реестр; Discogs 9264874.", "covers_more_pilot_songs": true},
-    {"album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (CDJ33026)", "singer": "Christine Schäfer / John Mark Ainsley / Richard Jackson", "year": "запись февраль 1996, издание сентябрь 1996", "label": "Hyperion (с 2023 — Universal)", "facts": "Пианист и автор комментариев Graham Johnson. Профильный том для всего D 877: «четыре редакции D877 даны полностью — первая (дуэт) поётся Шефер и Эйнсли, остальные три песни Миньоны — Шефер соло». Gramophone Editor's Choice; Classic CD «Song Record of the Year». Источники: страница издателя dc.asp?dc=D_CDJ33026; planning/youtube/albums/complete-editions.md.", "covers_more_pilot_songs": true},
-    {"album": "Duets (Angel 35963 / HMV ASD 459 / ALP 1891)", "singer": "Victoria de los Ángeles + Dietrich Fischer-Dieskau", "year": "1962 (издание; переиздание 1968, S/4390)", "label": "EMI / Angel", "facts": "Пианист Gerald Moore. Полный треклист (Discogs 6483661) содержит из D 877 только «Mignon und der Harfner» (B1) = D 877/1. Служит источником ОТРИЦАТЕЛЬНОГО результата по Фишеру-Дискау в D 877/4 и объясняет ошибочную атрибуцию Topic-трека pFrq3pvYa7I.", "covers_more_pilot_songs": false},
-    {"album": "The Hyperion Schubert Edition, Vol. 7 (CDJ33007)", "singer": "Elly Ameling", "year": "запись август 1989, издание 1990", "label": "Hyperion", "facts": "Пианист Graham Johnson. Треклист (Discogs 9529413) в части песен Миньоны содержит D 321 и D 310b — D 877/4 в томе НЕТ; аннотация Hyperion подтверждает: на диске звучат «первые две попытки» положить этот текст на музыку. Отрицательный источник для атрибуции Topic-трека Амелинг.", "covers_more_pilot_songs": true},
-    {"album": "Goethe-Lieder (Nonesuch 9 79317-2)", "singer": "Dawn Upshaw", "year": "1994 (издание)", "label": "Nonesuch", "facts": "Пианист Richard Goode. Новая для реестра позиция: гётевский рецитал с пианистом-солистом первого ряда. Discogs releases 17182381, 23452289. Год сессии по буклету не проверен.", "covers_more_pilot_songs": true},
-    {"album": "Nonesuch H-71320", "singer": "Jan DeGaetani", "year": "сессии 17–18 + 21 ноября 1974, Нью-Йорк, Rutgers Presbyterian Church", "label": "Nonesuch", "facts": "Пианист Gilbert Kalish. Позиция найдена только через дискографию Грея (id 227996), в generic-выдаче YouTube отсутствовала. Новая для реестра.", "covers_more_pilot_songs": false},
-    {"album": "Мелодия D 26457/8 (переизд. Cascavelle VEL3041)", "singer": "Нина Дорлиак", "year": "1956, Москва", "label": "Мелодия / Cascavelle", "facts": "За роялем Святослав Рихтер. Поётся ПО-РУССКИ (по заголовку Topic-загрузки), Topic помечает трек как live — расхождение со студийной атрибуцией Грея не разрешено. Новая для реестра. Источник: classical-discography.org, id 16517.", "covers_more_pilot_songs": false},
-    {"album": "Schubert: An mein Herz (HMC 902004.05), Goerne Schubert Edition Vol. 2", "singer": "Matthias Goerne", "year": "CD 1 — октябрь 2007, CD 2 — январь 2008, Teldex; издание октябрь 2008", "label": "harmonia mundi", "facts": "Пианисты Helmut Deutsch (CD 1) и Eric Schneider (CD 2); трек D 877/4 идёт с Шнайдером → сессия января 2008. В буклете опечатка «octobre 20017». Позиция уже была в реестре (complete-editions.md).", "covers_more_pilot_songs": true},
-    {"album": "Brahms, Schubert, Schumann: Lieder", "singer": "Waltraud Meier", "year": "1998? (только по метаданным загрузки — требует сверки)", "label": "RCA Red Seal", "facts": "Пианист Gerhard Oppitz. Новая для реестра позиция; год не верифицирован дискографически.", "covers_more_pilot_songs": false},
-    {"album": "Chopin: Mélodies — Schubert: Mignon", "singer": "Raquel Camarinha", "year": "2020 (издание)", "label": "harmonia mundi", "facts": "Пианист Yoan Héreau; концептуальная программа вокруг образа Миньоны. Есть также концертная версия на официальном канале France Musique. Новая для реестра.", "covers_more_pilot_songs": false}
+    {
+      "album": "Schubert-Lieder (DG 2530 404)",
+      "singer": "Christa Ludwig",
+      "year": "сессии 21–24.06.1973, Вена, Rosenhügel; ℗ 1974",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Irwin Gage. Трек A6 — «Mignon D. 877,4». Парный LP DG 2530 528 (сессии 28.06–01.07.1974) несёт D 877/2 (A5) и D 877/3 (A6). Источники: Gray через planning/youtube/albums/female-recitalists.md; Discogs 3089946 и 7569118.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Irmgard Seefried singt Lieder von Franz Schubert (DG 136 009 SLPEM)",
+      "singer": "Irmgard Seefried",
+      "year": "сессии 30.05 + 3, 7–8.06.1958",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Erik Werba. На стороне B — группа «Lieder der Mignon» из четырёх номеров, D 877/4 первым (B1). Прессинги того же каталожного номера Discogs датирует 1958/1964/1968 — это издания, не сессии. Источники: Gray через реестр; Discogs 9264874.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Goethe-Lieder (Philips 6500 515)",
+      "singer": "Elly Ameling (+ Hermann Prey на других треках)",
+      "year": "сессии 20–21 июня 1972, Амстердам, Concertgebouw, Grote Zaal; ℗ 1973",
+      "label": "Philips / Universal",
+      "facts": "Пианист Dalton Baldwin (у Прая — Karl Engel); продюсер Wilhelm Hellweg, звукорежиссёр Willem van Leeuwen. НОВОЕ для реестра: именно этот LP — источник Topic-трека Амелинг с D 877/4 (прежняя гипотеза о Hyperion Vol. 7 опровергнута). Источники: Gray id 3086; Discogs 5810274; кредиты загрузки feir3drzV8g.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder nach Goethe (Eterna; переизд. edel/Berlin Classics)",
+      "singer": "Arleen Augér",
+      "year": "сессии 19–22.10.1976, Дрезден",
+      "label": "Eterna / Berlin Classics",
+      "facts": "Пианист Walter Olbertz. НОВОЕ: атрибуция Topic-трека Аугер закрыта — это гётевский рецитал Eterna, а не Delos/Hyperion/Virgin. Источники: реестр female-recitalists.md; кредиты загрузки V8MxvMge78k.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Rita Streich singt Lieder von Franz Schubert (DG)",
+      "singer": "Rita Streich",
+      "year": "1960 (по реестру/дайджесту; прессинги 138 047 SLPM и LPM 18585 датируются 1962–64 как издания)",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Erik Werba. Трек доступен через официальный сборник «La discothèque idéale de Diapason, Vol. 29». НОВОЕ для реестра по этой песне. Источники: дайджест; кредиты загрузки 14D8arnUmyI; Discogs search.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Columbia (1966); переизд. «Essential Classics: Lieder» (Sony)",
+      "singer": "Judith Raskin",
+      "year": "первое издание 1966 (дата сессии не установлена)",
+      "label": "Columbia / Sony Classical",
+      "facts": "Пианист George Schick. НОВОЕ для реестра. Источник: кредиты загрузки grHPNgHRbr8 («Originally released 1966 Sony Music Entertainment Inc.»).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Nonesuch H-71320",
+      "singer": "Jan DeGaetani",
+      "year": "сессии 17–18 + 21 ноября 1974, Нью-Йорк, Rutgers Presbyterian Church",
+      "label": "Nonesuch",
+      "facts": "Пианист Gilbert Kalish. Позиция найдена только через дискографию Грея (id 227996). Источник: classical-discography.org.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder (Orfeo S 159871 A)",
+      "singer": "Marjana Lipovšek",
+      "year": "1988 (год издания; сессия не проверена)",
+      "label": "Orfeo",
+      "facts": "Пианист Geoffrey Parsons. НОВОЕ для реестра. Источники: Discogs release 8090318; кредиты загрузки MS0wBeBv6PI (переизд. ℗ 2016 Orfeo).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Goethe-Lieder (Nonesuch 9 79317-2)",
+      "singer": "Dawn Upshaw",
+      "year": "1994 (издание)",
+      "label": "Nonesuch",
+      "facts": "Пианист Richard Goode. Discogs releases 17182381, 23452289. Год сессии по буклету не проверен.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (CDJ33026)",
+      "singer": "Christine Schäfer / John Mark Ainsley / Richard Jackson",
+      "year": "запись февраль 1996, издание сентябрь 1996",
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Пианист и автор комментариев Graham Johnson. Профильный том для всего D 877: четыре редакции даны полностью, дуэт поют Шефер и Эйнсли, три песни Миньоны — Шефер соло. Gramophone Editor's Choice; Classic CD «Song Record of the Year».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 15 (CDJ33015)",
+      "singer": "Margaret Price",
+      "year": "запись октябрь 1991",
+      "label": "Hyperion",
+      "facts": "ОТРИЦАТЕЛЬНЫЙ источник: том Прайс с Джонсоном («ночные песни», третий из ночных дисков) НЕ содержит D 877 — значит Topic-трек Прайс с этой песней происходит из неустановленного источника (агрегатор Classical World Ltd.). Проверено на странице издателя.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 7 (CDJ33007)",
+      "singer": "Elly Ameling",
+      "year": "запись август 1989, издание 1990",
+      "label": "Hyperion",
+      "facts": "Пианист Graham Johnson. Треклист (Discogs 9529413) содержит D 310b и D 321, но не D 877/4 — служит отрицательным источником, подтвердившим филипсовское (1972) происхождение трека Амелинг.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Duets (Angel 35963 / HMV ASD 459 / ALP 1891)",
+      "singer": "Victoria de los Ángeles + Dietrich Fischer-Dieskau",
+      "year": "1962 (издание)",
+      "label": "EMI / Angel",
+      "facts": "Пианист Gerald Moore. Из D 877 содержит только дуэт «Mignon und der Harfner» (D 877/1). Источник отрицательного результата по Фишеру-Дискау и объяснение ошибочной атрибуции Topic-трека pFrq3pvYa7I. Discogs 6483661.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder, Vol. 1 (EMI)",
+      "singer": "Barbara Hendricks",
+      "year": "сессии 25–30.11.1985, Salle Wagram, Париж",
+      "label": "EMI / Warner Classics",
+      "facts": "Пианист Radu Lupu.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)",
+      "singer": "Barbara Bonney",
+      "year": "запись апрель 1994, Teldec Studio Berlin",
+      "label": "Teldec / Warner",
+      "facts": "Пианист Geoffrey Parsons; продюсер Martin Fouqué, звукорежиссёр Ulrich Ruscher.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (HMC 901991)",
+      "singer": "Bernarda Fink",
+      "year": "запись 2007 (дайджест), ℗ 2008",
+      "label": "harmonia mundi",
+      "facts": "Пианист Gerold Huber. Альбом, чья Gretchen — со-победитель слепого теста 2020. НОВОЕ для этой песни: трек существует, но на Topic подписан ошибочным D-номером «D.64/4». Discogs 15824096.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Mozart / Schubert / Hüttenbrenner: Lieder",
+      "singer": "Sibylla Rubens",
+      "year": "℗ 2000 SWR Classic",
+      "label": "SWR Classic (дистр. Naxos of America)",
+      "facts": "Пианист Irwin Gage. ВАЖНО: это не Naxos Deutsche Schubert-Lied-Edition — Naxos здесь только дистрибутор, поэтому вопрос об исполнителе D 877/4 в DSLE остаётся открытым. НОВОЕ для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: An mein Herz (HMC 902004.05), Goerne Schubert Edition Vol. 2",
+      "singer": "Matthias Goerne",
+      "year": "CD 1 — октябрь 2007, CD 2 — январь 2008, Teldex; издание октябрь 2008",
+      "label": "harmonia mundi",
+      "facts": "Пианисты Helmut Deutsch (CD 1) и Eric Schneider (CD 2); D 877/4 идёт со Шнайдером → сессия января 2008.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Portraits",
+      "singer": "Dorothea Röschmann",
+      "year": "издание 14.11.2014 (сессия не проверена)",
+      "label": "Sony Classical",
+      "facts": "Пианист Malcolm Martineau. Атрибуция трека закрыта в этой сессии по метаданным официальной загрузки.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "A Soprano's Schubertiade (BIS)",
+      "singer": "Carolyn Sampson",
+      "year": "сессии август 2017, ℗ 2018",
+      "label": "BIS",
+      "facts": "Пианист Joseph Middleton. Атрибуция закрыта: D 877/4 входит именно в этот альбом (прежняя гипотеза о «Schubert's Four Seasons» 2025 снята).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Brahms, Schubert, Schumann: Lieder",
+      "singer": "Waltraud Meier",
+      "year": "1998? (только метаданные загрузки)",
+      "label": "RCA Red Seal",
+      "facts": "Пианист Gerhard Oppitz. Год не верифицирован дискографически.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder (Erato)",
+      "singer": "Philippe Jaroussky (контратенор)",
+      "year": "℗ 2024",
+      "label": "Erato / Warner Classics",
+      "facts": "Пианист Jérôme Ducros. НОВОЕ для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Chopin: Mélodies — Schubert: Mignon",
+      "singer": "Raquel Camarinha",
+      "year": "2020 (издание)",
+      "label": "harmonia mundi",
+      "facts": "Пианист Yoan Héreau; концептуальная программа вокруг образа Миньоны; есть концертная версия на канале France Musique.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Мелодия D 26457/8 (переизд. Cascavelle VEL3041)",
+      "singer": "Нина Дорлиак",
+      "year": "1956, Москва",
+      "label": "Мелодия / Cascavelle",
+      "facts": "За роялем Святослав Рихтер. Поётся по-русски; Topic помечает трек как live, Грей — как студийную позицию. Источник: Gray id 16517.",
+      "covers_more_pilot_songs": false
+    }
   ],
   "surveys": [
-    {"note": "Сравнительных обзоров именно по D 877/4 в этой сессии получить не удалось: лимит WebSearch был исчерпан до начала работы, klassik-prisma/Gramophone/MusicWeb без поисковика не адресуются, MusicBrainz API из контейнера не отвечал. Это пробел досье, требующий отдельного прохода."},
-    {"source": "Hyperion Records, страница CDJ33026", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026", "finding": "аннотация Грэма Джонсона к тому «An 1826 Schubertiad» — атрибуция всех четырёх номеров D 877; награды тома"},
-    {"source": "A Classical Discography (Michael Gray)", "url": "https://www.classical-discography.org/search2.php", "finding": "по запросу composer=Schubert, work=%Mignon% — 6 позиций, из них 4 на «Lied der Mignon, D877»: Ilona Durigo (Columbia, 8 августа 1930, матрица WZX 153), Genevieve Warner (Columbia, 12 октября 1950, XCO 43620), Дорлиак/Рихтер (Мелодия, 1956), DeGaetani/Kalish (Nonesuch, ноябрь 1974)"}
+    {
+      "source": "klassik-prisma.de (Bernd Stremmel), раздел Schubert",
+      "url": "https://www.klassik-prisma.de/Schubert.htm",
+      "finding": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ, проверено напрямую: сравнительных обзоров (Vergleich) по D 877/4 на сайте НЕТ. Из песен Шуберта на klassik-prisma есть только Gretchen am Spinnrade, Erlkönig, Die junge Nonne, Nacht und Träume, Auf dem Wasser zu singen, Der Hirt auf dem Felsen плюс оба больших цикла. Значит 5-звёздных ориентиров, какими проект пользовался в D 118, по этой песне не существует."
+    },
+    {
+      "source": "Hyperion Records, страница CDJ33026 («An 1826 Schubertiad»)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
+      "finding": "Аннотация Грэма Джонсона: все четыре номера D 877 даны полностью, D 877/1 — дуэт Шефер/Эйнсли, остальные три — Шефер соло; том отмечен Gramophone Editor's Choice и Classic CD «Song Record of the Year»."
+    },
+    {
+      "source": "Hyperion Records, страница CDJ33015 (том Маргарет Прайс)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33015",
+      "finding": "«Recording details: October 1991»; цитата BBC Music Magazine Top 1000 CDs Guide о Прайс; D 877 в томе отсутствует — отрицательный источник для атрибуции её Topic-трека."
+    },
+    {
+      "source": "A Classical Discography (Michael Gray)",
+      "url": "https://www.classical-discography.org/search.php",
+      "finding": "POST searchset=on&composer=Schubert&work=%Mignon%&sortby=composer — 6 позиций; из них на «Lied der Mignon, D877» четыре: Ilona Durigo (Columbia, 8 августа 1930, матрица WZX 153; id 18823), Genevieve Warner (Columbia, 12 октября 1950, XCO 43620, в альбоме MM-977; id 31127), Дорлиак/Рихтер (Мелодия D 26457/8, 1956; id 16517), DeGaetani/Kalish (Nonesuch H-71320, ноябрь 1974; id 227996). Плюс две позиции D 321: Ameling/Baldwin (Philips 6500 515, 20–21.06.1972; id 3086) и Mary O'Brien (Townhall, 1977; id 301207)."
+    },
+    {
+      "source": "ОГРАНИЧЕНИЕ СЕССИИ",
+      "url": null,
+      "finding": "Gramophone, MusicWeb, BBC Music Magazine и слепые тесты в этот раз не адресованы: бюджет WebSearch сессии был исчерпан (200/200) до начала работы, а поисковые системы из контейнера отдают CAPTCHA/JS-заглушки (DuckDuckGo, Brave, Mojeek, Startpage, Ecosia). Прямые сайты (klassik-prisma, Hyperion, classical-discography.org, Discogs API до 429, yt-dlp/oEmbed) работали."
+    }
   ],
   "negatives": [
-    "Fischer-Dieskau НЕ записывал D 877/4: на LP «Duets» (1962) из D 877 присутствует только дуэт D 877/1; Topic-трек pFrq3pvYa7I с подписью «No. 4» — ошибка метаданных переиздания (Discogs 6483661).",
-    "Schwarzkopf: найдены только записи одноимённого романса Чайковского (op. 6 № 6), шубертовского D 877/4 нет.",
-    "Popp, Ferrier, Norman, von Otter, Fassbaender, Marian Anderson: прицельный поиск по каждой не дал D 877/4 (у Форрестер и Прайс находятся шумановские Op. 98a, у Фассбендер — Лёве op. 9).",
+    "klassik-prisma не имеет страницы сравнения по D 877/4 (проверено по индексу Schubert.htm) — эталонных «5 звёзд» по этой песне нет ни у кого.",
+    "Fischer-Dieskau НЕ записывал D 877/4: на LP «Duets» (1962) из D 877 только дуэт D 877/1; Topic-трек pFrq3pvYa7I с подписью «No. 4» — ошибка метаданных (Discogs 6483661).",
+    "Schwarzkopf: найдены только записи одноимённого романса Чайковского (op. 6 № 6); шубертовского D 877/4 нет.",
+    "Popp, Ferrier, Lehmann, Norman, von Otter, Fassbaender, Marian Anderson: прицельный поиск по каждой не дал D 877/4 (у Форрестер — шумановский op. 98a, у Липовшек есть отдельно Чайковский op. 6 № 6 live).",
     "Quasthoff, Hotter, Anders: записей нет (женская партия Миньоны вне их репертуара).",
-    "Elly Ameling: Hyperion Vol. 7 (её том) содержит D 310b и D 321, но НЕ D 877/4 — атрибуция её Topic-трека ошибочна или указывает на другое издание (Discogs 9529413).",
-    "Naxos Historical 8.110731 «Elisabeth Schumann — Schubert Lieder (1927–1945)»: D 877/4 в треклисте отсутствует, значит её запись песни издана в другой антологии, и дата остаётся неустановленной.",
-    "MusicBrainz-каркас (mb.json) по этой песне бесполезен: единственная «recording» — джазовая композиция Jasper van 't Hof / Charlie Mariano / Steve Swallow, к Шуберту отношения не имеющая.",
-    "Мischa Maisky (DG «Songs without Words», 1996) — виолончельная транскрипция без пения: технически валидный, но содержательно негодный кандидат; должен быть явно исключён, иначе скриптовый конвейер подберёт его снова.",
+    "Elly Ameling — прежняя версия «ложной атрибуции» ОПРОВЕРГНУТА: трек происходит из Philips 6500 515 «Goethe-Lieder» (сессии 20–21.06.1972, Baldwin), а не из Hyperion Vol. 7.",
+    "Margaret Price: Hyperion Vol. 15 (её том, октябрь 1991) D 877 не содержит; Topic-трек поставлен серым агрегатором Classical World Ltd. — происхождение и год неизвестны, к публикации не годен.",
+    "Naxos Deutsche Schubert-Lied-Edition: исполнитель D 877/4 в серии по-прежнему не установлен — трек Sibylla Rubens оказался релизом SWR Classic (℗ 2000), Naxos лишь дистрибутор.",
+    "MusicBrainz-каркас (mb.json) по этой песне бесполезен: единственная «recording» — джазовая пьеса Jasper van 't Hof / Charlie Mariano / Steve Swallow.",
+    "Mischa Maisky (DG «Songs without Words», 1996) — виолончельная транскрипция без пения; Sandrine Piau (Alpha 2025) — аранжировка для голоса и струнного квартета: обе технически валидны для скрипта, но содержательно негодны и должны исключаться явно.",
     "Дорлиак/Рихтер (1956) поют по-русски — для сайта с немецким подстрочником не подходит, несмотря на значимость пианиста.",
-    "Не проверены потрековыми списками: Warner-бокс Schwarzkopf «Complete Recitals 1952–1974», рецитал Popp EMI 1983, оба диска Popp BBC Legends, поздние тома Naxos DSLE (Sibylla Rubens поёт D 877/2 — значит D 877/4 в этой серии тоже существует и не найден)."
+    "Ilona Durigo (Columbia, 8.08.1930) и Genevieve Warner (Columbia, 12.10.1950) — исторически задокументированные записи песни, но переизданий на YouTube в этой сессии не найдено.",
+    "Discogs API в конце сессии перешёл в устойчивый 429 — часть треклистов (Lipovšek Orfeo, Fink HMC 901991, бокс Schwarzkopf) потрековым списком не проверена."
   ],
   "open_questions": [
-    "Год записи Э. Шуман (приоритетный певец) — целевое доисследование; при неудаче публиковать со строкой-диапазоном «1936–46?» по правилу §Хорошая запись приоритетного исполнителя.",
-    "Альбом и год у Röschmann, Sampson, Price, Augér; год сессии у Upshaw; дискографическое подтверждение года у Meier.",
+    "Год записи Э. Шуман (приоритетный певец) — целевое доисследование; при неудаче публиковать со строкой «1936–46?» по правилу §Хорошая запись приоритетного исполнителя. Дополнительно: одна ли это запись (Мур) или их две (вторая с Бруно Вальтером по кредитам Symposium).",
     "Какая из двух сессий свода Janowitz (1976 или 1977) дала D 877/4.",
-    "Кто поёт D 877/4 в Naxos Deutsche Schubert-Lied-Edition (в серии есть D 877/2 у Sibylla Rubens).",
-    "Сравнительные обзоры (klassik-prisma Vergleich, Gramophone, MusicWeb) — отдельный проход при доступном WebSearch."
+    "Дискографическое подтверждение года у Meier (RCA), Lipovšek (Orfeo), Upshaw (Nonesuch), Röschmann (Sony) — пока известен только год издания.",
+    "Первоисточник и год записи Felicity Lott (сборник Musical Concepts 2010) и Margaret Price (агрегатор Classical World).",
+    "Подлинность даты «1953» у Maria Stader / William Kapell — нужен лейбл и дискографическая привязка.",
+    "Кто поёт D 877/4 в Naxos Deutsche Schubert-Lied-Edition.",
+    "Сравнительные обзоры Gramophone/MusicWeb/BBC MM — отдельный проход при доступном WebSearch (в этой сессии бюджет исчерпан)."
   ]
 }

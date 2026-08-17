@@ -1,707 +1,1251 @@
 {
-  "d": "882",
-  "title": "Im Frühling",
-  "tier": "famous",
-  "research_notes": "Сессия 2026-08-17. Инструментальные ограничения: бюджет WebSearch исчерпан до начала работы (200/200), Bing и DuckDuckGo из контейнера пусты, Discogs API отдаёт 429 («making requests too quickly») весь сеанс, MusicBrainz search-API игнорирует поле wid. Рабочие источники: дискография Майкла Грея (classical-discography.org, POST search2.php по composer=schubert & work='Im Fr') — дала точные даты сессий по 19 позициям; каркас MusicBrainz (d882-im-fruhling.mb.json, 58 записей); реестр альбомов проекта (planning/youtube/albums.md, albums/*.md); дайджест певцов; yt-dlp (поиск и — пока не включилась бот-защита — метаданные album/artist Topic-загрузок); yt-check.js (oEmbed). Все videoId ниже проверены oEmbed 2026-08-17 — живы.",
-  "candidates": [
+ "d": "882",
+ "title": "Im Frühling",
+ "tier": "famous",
+ "research_notes": "Сессия 2026-08-17. Инструментальные ограничения: бюджет WebSearch исчерпан до начала работы (200/200), Bing и DuckDuckGo из контейнера пусты, Discogs API отдаёт 429 («making requests too quickly») весь сеанс, MusicBrainz search-API игнорирует поле wid. Рабочие источники: дискография Майкла Грея (classical-discography.org, POST search2.php по composer=schubert & work='Im Fr') — дала точные даты сессий по 19 позициям; каркас MusicBrainz (d882-im-fruhling.mb.json, 58 записей); реестр альбомов проекта (planning/youtube/albums.md, albums/*.md); дайджест певцов; yt-dlp (поиск и — пока не включилась бот-защита — метаданные album/artist Topic-загрузок); yt-check.js (oEmbed). Все videoId ниже проверены oEmbed 2026-08-17 — живы. || ДОПОЛНЕНИЕ, сессия 2026-08-17 (второй проход). WebSearch снова недоступен (бюджет 200/200 исчерпан до начала), но заработали yt-dlp (метаданные album/artist/release_year Topic-загрузок) и Discogs API (с жёстким лимитом 25 запросов/мин — работать с паузами ≥20 с). MusicBrainz WS отвечает «server is currently busy» — browse по work недоступен. hyperion-records.co.uk по-прежнему отдаёт только JS-оболочку (WebFetch возвращает шапку сайта вместо страницы работы). Закрыто в этом проходе: год Goerne (2011, Discogs 20022025), альбом+сессия Sampson (BIS-2703, зап. 25–28.02.2024), альбом Hasselhorn (Hoffnung 1826, HMM 902779, 2026 — прежняя гипотеза «Licht und Schatten» опровергнута), альбом+год Schuen (Wanderer, Avi-Music, зап. X.2016), дата Gerhaher (Wigmore Autumn Series, сентябрь 2021), год Isokoski (1993), природа загрузки Lott (компиляция 2010, не год сессии). Добавлено 6 кандидатов: Schreier/Johnson (Hyperion т. 18), Coote/Drake (Hyperion CDA68169), Tilling/Rivinius, Müller-Brachmann (Naxos DSLE т. 11), Mühlemann/Korsunskaya, Stader/Kapell. Исправлена атрибуция ролика xTLtzUL47u0 (Schreier: не Eterna-1971, а Hyperion-1993).",
+ "candidates": [
+  {
+   "singer": "Thomas Quasthoff",
+   "pianist": "Justus Zeyen",
+   "rec_year": "2004 (год издания; год сессии не документирован)",
+   "year_source": "Метаданные Topic-загрузки дают album='Thomas Quasthoff - A Romantic Songbook', release_year 2004 (yt-dlp, E7tjdawU4Dc). Карточка реестра albums.md по этому альбому: издание 2004-04-01 (MusicBrainz release 50bda699-8911-4c9e-816e-a4a83449a3d8; Discogs 9880429), DG 474 501-2; сессионные данные в буклете не вскрыты, IDAGIO/Apple Classical дают взаимно противоречивые даты — по правилу «иначе год издания» год в плеере 2004. ВНИМАНИЕ: в performances.json тот же альбом по D 257/550/799/853 стоит с 2003 — требуется сквозная унификация.",
+   "album": "Widmung – Romantische Lieder / A Romantic Songbook (DG 474 501-2)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "45 лет (р. 1959). По дайджесту пик Квастхофа ~1993–2007 — запись внутри пика, но у его верхней границы; характерное замечание критики к его нижнему регистру («шершавый») зафиксировано по klassik-prisma в карточке Goethe-Lieder.",
+   "reputation": "Прямых рецензий именно на этот трек в доступных в сессии источниках не найдено. Общая репутация альбома — сборный романтический рецитал, главный источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов (albums.md).",
+   "sources": [
+    "planning/youtube/albums.md — карточка «Thomas Quasthoff — Widmung – Romantische Lieder / A Romantic Songbook»",
+    "planning/youtube/data/d882-im-fruhling.mb.json — recording «Thomas Quasthoff, Justus Zeyen — Im Frühling, D 882», 289 с",
+    "yt-dlp metadata E7tjdawU4Dc (album/release_year)"
+   ],
+   "youtube": [
     {
-      "singer": "Thomas Quasthoff",
-      "pianist": "Justus Zeyen",
-      "rec_year": "2004 (год издания; год сессии не документирован)",
-      "year_source": "Метаданные Topic-загрузки дают album='Thomas Quasthoff - A Romantic Songbook', release_year 2004 (yt-dlp, E7tjdawU4Dc). Карточка реестра albums.md по этому альбому: издание 2004-04-01 (MusicBrainz release 50bda699-8911-4c9e-816e-a4a83449a3d8; Discogs 9880429), DG 474 501-2; сессионные данные в буклете не вскрыты, IDAGIO/Apple Classical дают взаимно противоречивые даты — по правилу «иначе год издания» год в плеере 2004. ВНИМАНИЕ: в performances.json тот же альбом по D 257/550/799/853 стоит с 2003 — требуется сквозная унификация.",
-      "album": "Widmung – Romantische Lieder / A Romantic Songbook (DG 474 501-2)",
-      "label": "Deutsche Grammophon",
-      "age_voice": "45 лет (р. 1959). По дайджесту пик Квастхофа ~1993–2007 — запись внутри пика, но у его верхней границы; характерное замечание критики к его нижнему регистру («шершавый») зафиксировано по klassik-prisma в карточке Goethe-Lieder.",
-      "reputation": "Прямых рецензий именно на этот трек в доступных в сессии источниках не найдено. Общая репутация альбома — сборный романтический рецитал, главный источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов (albums.md).",
-      "sources": [
-        "planning/youtube/albums.md — карточка «Thomas Quasthoff — Widmung – Romantische Lieder / A Romantic Songbook»",
-        "planning/youtube/data/d882-im-fruhling.mb.json — recording «Thomas Quasthoff, Justus Zeyen — Im Frühling, D 882», 289 с",
-        "yt-dlp metadata E7tjdawU4Dc (album/release_year)"
-      ],
-      "youtube": [
-        {"videoId": "E7tjdawU4Dc", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Высший приоритет по правилам. Запись есть — ключевой положительный результат исследования; нужен буклет DG для года сессии."
-    },
-    {
-      "singer": "Dietrich Fischer-Dieskau",
-      "pianist": "Sviatoslav Richter",
-      "rec_year": "1977",
-      "year_source": "Дискография Майкла Грея (classical-discography.org): «Im Frühling, D882, op. 101, no. 1 | Number: 2530 988 | Date: 1977 July 2 + 4 | Place: Tours, Grange de Meslay, Besnardière | Label: Deutsche Grammophon | CD: DG 445 717-2».",
-      "album": "Schubert-Lieder, live из Grange de Meslay (Tours), DG 2530 988; CD-переиздание DG 445 717-2",
-      "label": "Deutsche Grammophon",
-      "age_voice": "52 года (р. 1925). По дайджесту пик ~1951–1972, «с сер. 1970-х тон суше» — запись за пиком по голосу, но с Рихтером за роялем: ценность прежде всего ансамблевая.",
-      "reputation": "Знаменитый дуэт ФД–Рихтер (концерты в Туре, 1977); в доступных в сессии источниках прямых оценок именно этого номера нет — рецензии на диск не проверены (нет WebSearch).",
-      "sources": [
-        "classical-discography.org (Michael Gray), запись DG 2530 988",
-        "planning/youtube/data/d882-im-fruhling.mb.json — «Dietrich Fischer-Dieskau, Sviatoslav Richter — Im Frühling D 882»"
-      ],
-      "youtube": [
-        {"videoId": "PAi7G1LBm5M", "channel": "incontrario motu", "official": false, "oembed_ok": true},
-        {"videoId": "mLsOCxaEbR4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Единственная запись песни у ФД, датированная дискографически. Topic-загрузка mLsOCxaEbR4 помечена «(Live)» и по длительности (257 с) близка к варианту с Рихтером — соответствие не подтверждено oEmbed-ом в этой сессии, требует проверки перед публикацией."
-    },
-    {
-      "singer": "Dietrich Fischer-Dieskau",
-      "pianist": "Gerald Moore",
-      "rec_year": "1957? (не установлен дискографически)",
-      "year_source": "Дискография Грея эту запись НЕ содержит (поиск по work='Im Fr' дал только версию с Рихтером). Год 1957 фигурирует только в заголовке фан-загрузки (incontrario motu, b_Vj4HZVIQg) — по правилам проекта метаданные загрузок не источник даты. Topic-альбом — «Schubert: Lieder Vol. 2» (Warner), длительность 260 с совпадает с фан-загрузкой и с записью в MusicBrainz (260 с).",
-      "album": "Schubert: Lieder Vol. 2 (EMI/Electrola → Warner Classics)",
-      "label": "EMI / Warner Classics",
-      "age_voice": "~32 года, если 1957 верен — самая середина пика (по дайджесту ~1951–1972), голос свежий и гибкий.",
-      "reputation": "Оценок в доступных источниках не найдено.",
-      "sources": [
-        "planning/youtube/data/d882-im-fruhling.mb.json — «Dietrich Fischer-Dieskau, Gerald Moore — Im Frühling, D. 882», 260 с",
-        "classical-discography.org — отрицательный результат по этой позиции"
-      ],
-      "youtube": [
-        {"videoId": "96J30-mUiIE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "b_Vj4HZVIQg", "channel": "incontrario motu", "official": false, "oembed_ok": true}
-      ],
-      "note": "Требуется доисследование года по буклету EMI/Warner. По правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» может публиковаться с диапазоном со знаком вопроса."
-    },
-    {
-      "singer": "Dietrich Fischer-Dieskau",
-      "pianist": "Gerald Moore",
-      "rec_year": "1969? (год издания по метаданным Topic; сессия внутри свода DG 1966–72)",
-      "year_source": "Метаданные Topic-загрузок: album='Schubert: Lieder', release_year 1969 (TgEH-J3Whmk) и album='Schubert: Lieder (Vol. 2)' (O4Kj7xbhpgI), длительность 248 с. Дайджест: полный свод мужских песен DG, сессии 1966–72, 21 CD. Точная дата сессии по буклету не вскрыта; метаданные загрузок — не источник даты.",
-      "album": "Schubert: Sämtliche Lieder (DG, 21 CD, сессии 1966–72)",
-      "label": "Deutsche Grammophon",
-      "age_voice": "~44 года при сессии конца 1960-х — поздний пик, звук плотнее и темнее раннего.",
-      "reputation": "Свод DG — опорное издание корпуса; отдельных оценок номера не найдено.",
-      "sources": [
-        "planning/research/singers-digest.md — «полный свод ~400+ мужских песен (DG 1966–72, Moore, 21 CD)»",
-        "yt-dlp metadata TgEH-J3Whmk, O4Kj7xbhpgI"
-      ],
-      "youtube": [
-        {"videoId": "TgEH-J3Whmk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "O4Kj7xbhpgI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "iYS4WokLsDc", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Три Topic-загрузки длительностью 248 с — очевидные дубли одного мастера свода DG. Для публикации выбирать одну."
-    },
-    {
-      "singer": "Dietrich Fischer-Dieskau",
-      "pianist": "Hartmut Höll",
-      "rec_year": "не установлен",
-      "year_source": "Только MusicBrainz (пара ФД/Хёлль, 237 с). В дискографии Грея отсутствует; альбом не идентифицирован.",
-      "album": "не установлен",
-      "label": "не установлен",
-      "age_voice": "Хёлль работал с ФД в 1980-е — если так, певцу за 60, тон заметно суше (дайджест).",
-      "reputation": "нет данных",
-      "sources": ["planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [],
-      "note": "Позднейшая версия ФД; по правилу «при прочих равных предпочитать более раннюю» — заведомо ниже приоритета. YouTube-загрузка не идентифицирована."
-    },
-    {
-      "singer": "Elisabeth Schwarzkopf",
-      "pianist": "Edwin Fischer",
-      "rec_year": "1952",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 33CX1040 | Date: 1952 October 7 | Place: London, EMI Studio No. 1A, Abbey Road | Label: Columbia - UK | Artists: Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano». Совпадает с карточкой albums.md (сессии диска 4–7 октября 1952, Abbey Road Studio 1A, переизд. Naxos Historical 8.111287, реставрация Mark Obert-Thorn).",
-      "album": "Schubert: Lieder (Columbia 33CX 1040); переизд. Naxos Historical 8.111287; Warner-бокс «The Complete Recitals 1952–1974»",
-      "label": "Columbia (EMI) / Warner Classics; переизд. Naxos Historical",
-      "age_voice": "37 лет (р. 1915) — середина пика (1948–1964), голос в полной форме.",
-      "reputation": "Диск с Эдвином Фишером в проектном дайджесте назван эталоном рецитального Шуберта; тот же круг сессий дал со-победителя слепого теста 2020 по Gretchen. Отдельной рецензии на этот номер в доступных источниках нет.",
-      "sources": [
-        "classical-discography.org — Columbia 33CX1040, 7.10.1952",
-        "planning/youtube/albums.md — карточка «Elisabeth Schwarzkopf — Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287»",
-        "planning/research/singers-digest.md"
-      ],
-      "youtube": [
-        {"videoId": "bL9iUv2Iqfc", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "-AgWdkr21yA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": null},
-        {"videoId": "gNQqzb961NU", "channel": "Trebonis", "official": false, "oembed_ok": null}
-      ],
-      "note": "Топ-1 среди женщин по правилам; год и место записи документированы жёстко."
-    },
-    {
-      "singer": "Elisabeth Schwarzkopf",
-      "pianist": "Edwin Fischer",
-      "rec_year": "1954? (концерт в Турине — по заголовку фан-загрузки)",
-      "year_source": "Только заголовок фан-загрузки (incontrario motu, tVQ6T5B7_ns, «Turin 1954»). Дискографического подтверждения не найдено.",
-      "album": "концертная запись (издание не идентифицировано)",
-      "label": "не установлен",
-      "age_voice": "39 лет — пик.",
-      "reputation": "нет данных",
-      "sources": ["yt-dlp search"],
-      "youtube": [{"videoId": "tVQ6T5B7_ns", "channel": "incontrario motu", "official": false, "oembed_ok": true}],
-      "note": "Альтернатива студийной 1952-го; при равенстве качества правило требует более раннюю — то есть студийную."
-    },
-    {
-      "singer": "Hans Hotter",
-      "pianist": "Gerald Moore",
-      "rec_year": "1949",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: LX1305 | Date: 1949 October 2 | Label: Columbia - UK | Artists: Hans Hotter, bass-baritone | 78 Matrix: 10623» (соседняя матрица 10622 — Am Bach im Frühling D 361, LX1261). Совпадает с карточкой albums.md: сессии EMI/HMV 1–2 октября 1949, No. 1 Studio, Abbey Road, пианист Gerald Moore; группа сессии включает Im Frühling D 882.",
-      "album": "78-е Columbia LX1305; переизд. EMI References CDH 5 65196 2 / Warner 50999 9 93726 2 0",
-      "label": "Columbia (EMI) / Warner Classics",
-      "age_voice": "40 лет (р. 1909) — внутри пика ~1942–1955; тёмный, ещё гибкий голос (дайджест).",
-      "reputation": "Слой Hotter/Moore 1949–57 — опорный для песенного Хоттера (albums/male-recitalists.md). Отдельной рецензии на номер не найдено.",
-      "sources": [
-        "classical-discography.org — Columbia LX1305, матрица 10623, 2.10.1949",
-        "planning/youtube/albums.md — карточка «Hans Hotter — Schubert: Lieder — сессии EMI/HMV 1–2 октября 1949»"
-      ],
-      "youtube": [
-        {"videoId": "oSHWEL4DPK0", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "-_DUXADnsgw", "channel": "incontrario motu", "official": false, "oembed_ok": true},
-        {"videoId": "KZicx3SUEoQ", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": null},
-        {"videoId": "ucun1cCDHXI", "channel": "Gerald Moore - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Двойное подтверждение даты (Грей + буклет Warner через реестр) — самая надёжно датированная историческая позиция пула. Загрузки 249 с (Topic) соответствуют матрице 1949 г.; отдельные Topic-треки 257/261 с (M70GL49hrSg, Wi8mp-ACS_o) могут быть поздним слоем Хоттера (сессии 3–6 октября 1957, Columbia 33CX1626) — не разведено."
-    },
-    {
-      "singer": "Peter Anders",
-      "pianist": "Michael Raucheisen",
-      "rec_year": "1940-е (радиофонд RRG); точная дата не установлена",
-      "year_source": "Дискография Грея даёт «Number: 720069 | Date: 1959 August | Label: Eterna» — это заведомо не дата сессии: Андерс умер 10 сентября 1954 г.; 1959 — выпуск Eterna. MusicBrainz фиксирует пару Anders/Raucheisen. Реестр (albums/male-recitalists.md): «Anders — Schubert-радиофонд RRG с Raucheisen, зап. 1943–47», переиздания Eterna/DG/Heliodor 1959–66.",
-      "album": "Берлинский радиофонд RRG (Raucheisen-Edition); LP Eterna 720069 и др. переиздания",
-      "label": "RRG → Eterna / DG / Heliodor; Raucheisen-Edition",
-      "age_voice": "~35–39 лет — пик 1940-х; спада у Андерса нет вовсе (погиб в 45).",
-      "reputation": "Дайджест: эталон немецкой радиошколы; связка Anders/Raucheisen — опорная для военного радиокорпуса.",
-      "sources": [
-        "classical-discography.org — Eterna 720069 (дата издания, не сессии)",
-        "planning/youtube/albums/male-recitalists.md — карточка радиофонда RRG",
-        "planning/research/singers-digest.md"
-      ],
-      "youtube": [
-        {"videoId": "ffE3bLacZZg", "channel": "Peter Anders - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "4sh-TS06hko", "channel": "Michael Raucheisen - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "7eEbPFHu6NQ", "channel": "incontrario motu", "official": false, "oembed_ok": true},
-        {"videoId": "-HKfVb0_1bY", "channel": "Peter Anders - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Приоритетный певец, запись есть. Год требует целевого доисследования (буклет Raucheisen-Edition); по правилам публикуется с диапазоном со знаком вопроса, напр. \"1943–45?\"."
-    },
-    {
-      "singer": "Christa Ludwig",
-      "pianist": "Gerald Moore",
-      "rec_year": "1957",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 35461 | Date: 1957 November 17 - 18 | Place: London | Label: Angel | Artists: Christa Ludwig, mezzo-soprano; Gerald Moore, piano». Согласуется с карточкой albums.md по корпусу Людвиг (сессии EMI 1957–1969).",
-      "album": "Angel 35461 (EMI) — Schubert-рецитал; входит в Warner-бокс «Christa Ludwig — The Complete Recitals»",
-      "label": "EMI / Angel → Warner Classics",
-      "age_voice": "29 лет (р. 1928). Пик по дайджесту ~1957–1975 — самое его начало: голос молодой, свежий, ровный.",
-      "reputation": "Тот же круг сессий (Ludwig/Moore–Parsons) дал 5-звёздную по klassik-prisma Gretchen — устойчиво высокая репутация корпуса. Прямой оценки номера нет.",
-      "sources": [
-        "classical-discography.org — Angel 35461, 17–18.11.1957",
-        "planning/youtube/albums.md — карточка «Christa Ludwig — Schubert: 15 Lieder / The Complete Recitals»",
-        "planning/research/singers-digest.md"
-      ],
-      "youtube": [
-        {"videoId": "Y60QY9ujp2c", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Приоритетный певец (п. 4 иерархии); дата документирована точно."
-    },
-    {
-      "singer": "Peter Pears",
-      "pianist": "Benjamin Britten",
-      "rec_year": "1950",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: DB21423 | Date: 1950 September 29 | Place: London, EMI Studio No. 3, Abbey Road | Label: HMV | 78 Matrix: 15067».",
-      "album": "78-е HMV DB21423 (переиздания — антологии EMI/Warner)",
-      "label": "HMV (EMI)",
-      "age_voice": "40 лет (р. 1910) — начало пика 1950-х–1960-х; голос свежее, чем в поздних Decca-циклах.",
-      "reputation": "Дуэт Pears/Britten — среди величайших в песенном Шуберте (дайджест: Winterreise Decca 1963 «среди величайших»). По номеру оценок не найдено.",
-      "sources": ["classical-discography.org — HMV DB21423, матрица 15067, 29.09.1950"],
-      "youtube": [
-        {"videoId": "rqDEsf4SntQ", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "qoKZvibmi2I", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "zbiJcOL_eyU", "channel": "Public Classical Music", "official": false, "oembed_ok": true}
-      ],
-      "note": "У пары есть минимум две версии (MusicBrainz: 283 с и 300 с «1997 Remaster»); Topic-загрузки — 284 с и 262 с. Какая из них соответствует 78-й 1950 г. (≈4 мин), не разведено: 262-секундная (qoKZvibmi2I) вероятнее. Позднюю версию (Decca/BBC, дата не установлена) отдельно не датировали. Загрузка zbiJcOL_eyU — из антологии «Schubert Lieder on Record»."
-    },
-    {
-      "singer": "Heinrich Schlusnus",
-      "pianist": "Sebastian Peschko",
-      "rec_year": "1940",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 67740 | Date: 1940 May 24 | Place: Berlin, Raum IX (Alte Jacobstrasse 31/32) | Label: Polydor | 78 Matrix: 1465». Topic-переиздание прямо помечает трек «(Recorded 1940)» — совпадает.",
-      "album": "78-я Polydor 67740; переизд. Preiser «Heinrich Schlusnus in Schubert Lieder»",
-      "label": "Polydor → Preiser",
-      "age_voice": "52 года (р. 1888). По дайджесту пик 1920-е–1930-е, «ровность держал и в 1940-е» — голос ещё в форме.",
-      "reputation": "Шлуснус — эталон немецкой баритоновой кантилены межвоенных лет (дайджест). Оценок номера нет.",
-      "sources": [
-        "classical-discography.org — Polydor 67740, матрица 1465, 24.05.1940",
-        "planning/youtube/albums.md — карточка «Heinrich Schlusnus in Schubert Lieder» (Preiser)"
-      ],
-      "youtube": [
-        {"videoId": "99h_XEvaF4U", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "hE4qEVPKgrs", "channel": "Sebastian Peschko - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Внимание: карточка реестра по другой песне датирует сессию Шлуснуса/Пешко 17.03.1941 — для D 882 Грей даёт 24.05.1940; годы разных сессий одного цикла записей не путать."
-    },
-    {
-      "singer": "Elena Gerhardt",
-      "pianist": "не установлен (Грей пианиста не называет)",
-      "rec_year": "1928",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: D1461 | Date: 1928 May 11 | Label: HMV | 78 Matrix: 12972».",
-      "album": "78-я HMV D1461",
-      "label": "HMV",
-      "age_voice": "45 лет (р. 1883). По дайджесту пик 1907–нач. 1920-х; к 1926–28 износ голоса — запись за пиком, ценность историко-стилевая.",
-      "reputation": "Герхардт — пионер женского Lieder-рецитала (дайджест). Оценок номера нет.",
-      "sources": ["classical-discography.org — HMV D1461, матрица 12972, 11.05.1928"],
-      "youtube": [],
-      "note": "Загрузки на YouTube не найдено. Кандидат исторический, для топ-5 вряд ли."
-    },
-    {
-      "singer": "Irmgard Seefried",
-      "pianist": "Erik Werba",
-      "rec_year": "студийная — не установлен; лайв — 1957? (Зальцбург, по заголовку фан-загрузки)",
-      "year_source": "Дискография Грея записей Зеефрид по этой песне не содержит (поиск artists=Seefried дал 0). Лайв датируется только заголовком загрузки incontrario motu «Salzburg 1957». Дайджест: Schubert с Werba (DG, сер. 1950-х–1962), зальцбургские лайвы на Orfeo.",
-      "album": "DG-рецитал (сер. 1950-х–1962) и/или зальцбургский лайв (Orfeo)",
-      "label": "Deutsche Grammophon / Orfeo",
-      "age_voice": "~36–43 года (р. 1919) — внутри пика (кон. 1940-х–нач. 1960-х).",
-      "reputation": "нет прямых оценок в доступных источниках",
-      "sources": [
-        "planning/research/singers-digest.md — карточка Seefried",
-        "yt-dlp search (Topic-загрузки 226/221/234 с + лайв 232 с)"
-      ],
-      "youtube": [
-        {"videoId": "K1p-EJq_jVQ", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "V5TiYVo0K3c", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "Xq6lGJeO0nk", "channel": "incontrario motu", "official": false, "oembed_ok": null}
-      ],
-      "note": "Не менее трёх разных мастеров на Topic (221/226/234 с) — без буклетов не развести; год не документирован."
-    },
-    {
-      "singer": "Lisa della Casa",
-      "pianist": "Karl Hudez (MusicBrainz) / «Sandor» по заголовку фан-загрузки",
-      "rec_year": "не установлен (кон. 1950-х?)",
-      "year_source": "Дискография Грея по della Casa эту песню не содержит. MusicBrainz: «Karl Hudez, Lisa della Casa — Im Frühling, D882», 275 с. Дайджест: единственный Decca-рецитал с Худецем, кон. 1950-х, переизд. Eloquence.",
-      "album": "Decca-рецитал (переизд. Eloquence)",
-      "label": "Decca",
-      "age_voice": "~38–40 лет (р. 1919) — пик 1950-х.",
-      "reputation": "Дайджест: Lieder-наследие мало, чистый стиль; прямых оценок номера нет.",
-      "sources": ["planning/youtube/data/d882-im-fruhling.mb.json", "planning/research/singers-digest.md"],
-      "youtube": [
-        {"videoId": "ctBqbQ8Vd58", "channel": "incontrario motu", "official": false, "oembed_ok": true},
-        {"videoId": "tDitPoFMPJY", "channel": "Operazaile operazaile", "official": false, "oembed_ok": null}
-      ],
-      "note": "Расхождение по пианисту (Hudez vs «Sandor» в заголовке фан-загрузки) не разрешено — вероятно два разных источника."
-    },
-    {
-      "singer": "Peter Schreier",
-      "pianist": "Walter Olbertz",
-      "rec_year": "1971",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 827227 | Date: 1971 February 4 - 5 & March 1 - 7 | Place: Dresden, Lukaskirche | Label: Eterna | Artists: Peter Schreier, tenor; Walter Olbertz, piano».",
-      "album": "Eterna 827227 (Schubert-Lieder, Дрезден, Лукаскирхе)",
-      "label": "VEB Deutsche Schallplatten Eterna → Berlin Classics",
-      "age_voice": "35–36 лет (р. 1935) — начало пика (~1965–1990), тенор в лучшей форме.",
-      "reputation": "Eterna-циклы 1970-х со Ольбертцем — опорный слой шубертовского Шрайера (albums.md). Прямых оценок номера нет.",
-      "sources": ["classical-discography.org — Eterna 827227, февраль–март 1971", "planning/youtube/albums.md — карточки Schreier/Olbertz"],
-      "youtube": [
-        {"videoId": "xTLtzUL47u0", "channel": "파워놀 놀부", "official": false, "oembed_ok": null}
-      ],
-      "note": "MusicBrainz дополнительно фиксирует пару «Peter Schreier, Graham Johnson» (Hyperion Schubert Edition) — вторая, более поздняя версия; том и год не установлены (сайт Hyperion в этой сессии отдаёт только JS-оболочку). Официальная Topic-загрузка Eterna-версии не найдена."
-    },
-    {
-      "singer": "Hermann Prey",
-      "pianist": "Leonard Hokanson",
-      "rec_year": "1971",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 6747 059 | Date: 1971 October 27 - 30 | Place: München | Label: Philips | Artists: Hermann Prey, baritone; Leonard Hokanson, piano».",
-      "album": "Philips 6747 059 (Schubert-Lieder, Мюнхен)",
-      "label": "Philips",
-      "age_voice": "42 года (р. 1929) — середина пика ~1960–1980.",
-      "reputation": "Прямых оценок номера нет; Прей — основатель Шубертиады в Хоэнемсе (дайджест).",
-      "sources": ["classical-discography.org — Philips 6747 059, 27–30.10.1971"],
-      "youtube": [],
-      "note": "Загрузка не найдена в этой сессии."
-    },
-    {
-      "singer": "Günther Leib",
-      "pianist": "Walter Olbertz",
-      "rec_year": "1971",
-      "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 826256 | Date: 1971 November 15 - 17 | Place: Dresden, Lukaskirche | Label: Eterna».",
-      "album": "Eterna 826256",
-      "label": "Eterna",
-      "age_voice": "~44 года (р. 1927) — зрелая форма; в проектном фонде певец не значится.",
-      "reputation": "нет данных",
-      "sources": ["classical-discography.org — Eterna 826256"],
-      "youtube": [],
-      "note": "Периферийный кандидат; включён для полноты дискографической картины."
-    },
-    {
-      "singer": "Gundula Janowitz",
-      "pianist": "Irwin Gage",
-      "rec_year": "1976–77 (по дайджесту)",
-      "year_source": "planning/research/singers-digest.md: «2-LP DG с Gage (зап. 1976–77)». Грей эту позицию не содержит. MusicBrainz фиксирует пару (275 с; в MB номер ошибочно записан как D881b).",
-      "album": "Schubert-Lieder, 2-LP (DG)",
-      "label": "Deutsche Grammophon",
-      "age_voice": "~39–40 лет (р. 1937) — внутри пика ~1965–1980, серебристое сопрано в полной форме.",
-      "reputation": "Тот же альбом дал 5-звёздную по klassik-prisma Gretchen (дайджест) — сильная косвенная рекомендация.",
-      "sources": ["planning/research/singers-digest.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "650TRutGLOI", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Сильнейший женский кандидат «второго ряда» после Шварцкопф и Людвиг."
-    },
-    {
-      "singer": "Elly Ameling",
-      "pianist": "Jörg Demus (ранняя версия) / Rudolf Jansen (Tanglewood)",
-      "rec_year": "1965? (Demus) и 1987 (Tanglewood, Jansen)",
-      "year_source": "MusicBrainz фиксирует обе пары (Ameling/Demus 271 с; Ameling/Jansen 273 с). Год 1965 для версии с Демусом — только из заголовка фан-загрузки (ZUmSvP9-kAs) и дайджеста («ранние с Demus, ~1965»). Tanglewood: albums.md — концерт 2 июля 1987, Theatre-Concert Hall, пианист Rudolf Jansen (Omega OCD 1001, переизд. Brilliant 95107). Метаданные Topic-загрузки qXhvwKacPWg («Icon: Elly Ameling», release_year 1972) — это компиляция, год недостоверен.",
-      "album": "ранний рецитал с Демусом (лейбл не установлен) / «Elly Ameling Sings Schubert At Tanglewood» (Omega OCD 1001)",
-      "label": "не установлен / Omega Record Classics (переизд. Brilliant Classics)",
-      "age_voice": "~32 года в 1965 и 54 года в 1987 (р. 1933). Пик ~1965–1985 — Tanglewood уже у верхней границы.",
-      "reputation": "Дайджест: самая записываемая шубертианка поколения. Прямых оценок номера нет.",
-      "sources": [
-        "planning/youtube/data/d882-im-fruhling.mb.json",
-        "planning/youtube/albums.md — карточка «Elly Ameling Sings Schubert At Tanglewood»",
-        "planning/research/singers-digest.md"
-      ],
-      "youtube": [
-        {"videoId": "qXhvwKacPWg", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "Orrvo7BKLsI", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "QushhJiXfj8", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Минимум три разных мастера на Topic (284/267/267 с) — соответствие «мастер ↔ пианист ↔ год» без буклетов не установлено."
-    },
-    {
-      "singer": "Barbara Hendricks",
-      "pianist": "Radu Lupu",
-      "rec_year": "1985 (том 1 серии EMI, по дайджесту)",
-      "year_source": "planning/research/singers-digest.md: «два тома EMI с Radu Lupu (1985 — вкл. Gretchen; 1993)». Какой из двух томов содержит D 882, дискографически не установлено. MusicBrainz фиксирует пару (267 с).",
-      "album": "Schubert-Lieder с Раду Лупу (EMI), т. 1 или т. 2",
-      "label": "EMI → Warner Classics",
-      "age_voice": "~37 или 45 лет (р. 1948) — пик 1980-х–1990-х.",
-      "reputation": "Дайджест отмечает редкость дуэта с великим солистом-пианистом (Лупу). Есть студийный видеодокумент записи (SchuSchuSchu, GRAbu3eJA2A) — «Radu Lupu and Barbara Hendricks Recording Schubert's Im Frühling».",
-      "sources": ["planning/research/singers-digest.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "RJ7gTKEY02c", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "GRAbu3eJA2A", "channel": "SchuSchuSchu", "official": false, "oembed_ok": null}
-      ],
-      "note": "Ценность прежде всего в пианисте; год требует уточнения (1985 vs 1993)."
-    },
-    {
-      "singer": "Anne Sofie von Otter",
-      "pianist": "Bengt Forsberg",
-      "rec_year": "1996",
-      "year_source": "planning/youtube/albums.md, карточка «Anne Sofie von Otter — Schubert: Lieder (DG)»: запись июнь 1996, Concertgebouw Nijmegen; издание 1997. Длительность MB (227 с) совпадает с Topic-загрузкой (227 с).",
-      "album": "Schubert: Lieder (Deutsche Grammophon)",
-      "label": "Deutsche Grammophon",
-      "age_voice": "41 год (р. 1955) — начало пика ~1988–2010.",
-      "reputation": "Прямых оценок номера нет; альбом уже используется проектом (D 799, D 839).",
-      "sources": ["planning/youtube/albums.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "2ulwsji27oU", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Самая быстрая трактовка пула (227 с) — на 30–60 с короче большинства."
-    },
-    {
-      "singer": "Ian Bostridge",
-      "pianist": "Julius Drake",
-      "rec_year": "1996",
-      "year_source": "planning/youtube/albums.md, карточка «Ian Bostridge — Schubert: Lieder (Vol. 1)»: запись февраль–март 1996, Abbey Road Studio No. 1, издание 1998. Длительность MB (284 с) совпадает с Topic-загрузкой 34RVZE2zpEM (283 с); фан-загрузка kPxSgOqkIRY также датирует 1996.",
-      "album": "Schubert: Lieder (Vol. 1) — EMI Classics",
-      "label": "EMI Classics → Warner Classics",
-      "age_voice": "32 года (р. 1964) — вход в пик ~1995–2010, светлый тенор, ещё без поздней манерности (дайджест).",
-      "reputation": "Дебютный шубертовский рецитал Бостриджа; правило проекта требует скепсиса к прессе о современных — конкретных рецензий на номер в этой сессии не добыто.",
-      "sources": ["planning/youtube/albums.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "34RVZE2zpEM", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "MNcLQdMKw0I", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Вторая Topic-загрузка (287 с) — вероятно концертный диск Wigmore Hall Live (WHLive0067/0091, даты концертов не установлены)."
-    },
-    {
-      "singer": "Bernarda Fink",
-      "pianist": "Gerold Huber",
-      "rec_year": "2007",
-      "year_source": "Реестр альбомов проекта: harmonia mundi HMC 901991 «Schubert: Lieder», запись сентябрь 2007, Teldex Studio Berlin, издание 2008 (зафиксировано в planning/research/d138-rastlose-liebe-top5.md со ссылкой на реестр). MB: пара Fink/Huber, 245 с; Topic — 246 с.",
-      "album": "Schubert: Lieder (harmonia mundi HMC 901991)",
-      "label": "harmonia mundi",
-      "age_voice": "52 года (р. 1955) — верхняя граница пика ~1995–2015; тёплое ровное меццо.",
-      "reputation": "Сильнейшая документированная репутация среди современных: тот же альбом — единственная современная запись D 828 с 5 звёздами klassik-prisma; дуэт Fink/Huber — со-победитель слепого теста 2020 по Gretchen наряду со Шварцкопф/Фишером (реестр альбомов, дайджест).",
-      "sources": [
-        "planning/research/d138-rastlose-liebe-top5.md (со ссылкой на planning/youtube/albums.md)",
-        "planning/research/singers-digest.md",
-        "planning/youtube/data/d882-im-fruhling.mb.json"
-      ],
-      "youtube": [
-        {"videoId": "emrpMX9Lr5A", "channel": "Bernarda Fink - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Главный претендент на слот «не ранее 1990»."
-    },
-    {
-      "singer": "Matthias Goerne",
-      "pianist": "Helmut Deutsch",
-      "rec_year": "не установлен",
-      "year_source": "MusicBrainz: пара Goerne/Deutsch, 258 с. В 12-томном своде Goerne Schubert Edition (harmonia mundi 2008–2014) Гёрне работал с Eschenbach, Metzmacher, A. Haefliger, Schneider, Leonskaja; том с Хельмутом Дойчем в реестре проекта не зафиксирован — альбом требует идентификации. Официальное видео размещено на канале harmonia mundi music.",
-      "album": "не установлен (том Matthias Goerne Schubert Edition, harmonia mundi)",
-      "label": "harmonia mundi",
-      "age_voice": "если 2008–2014, то 41–47 лет (р. 1967) — внутри пика ~1997–2015.",
-      "reputation": "Дайджест: самый записываемый Schubert-баритон поколения; правило о скепсисе к пиару современных применимо.",
-      "sources": ["planning/youtube/data/d882-im-fruhling.mb.json", "yt-check J7Xqla9yvUQ (канал harmonia mundi music)"],
-      "youtube": [
-        {"videoId": "J7Xqla9yvUQ", "channel": "harmonia mundi music", "official": true, "oembed_ok": true}
-      ],
-      "note": "Официальная лейбловая загрузка (не Topic) — техническая гигиена в порядке; год обязателен к доисследованию."
-    },
-    {
-      "singer": "Florian Boesch",
-      "pianist": "Malcolm Martineau",
-      "rec_year": "2016 (год издания; сессия не установлена)",
-      "year_source": "planning/youtube/albums.md, карточка «Florian Boesch — Schubert: Lieder Recital (ONYX 4149), Onyx Classics, 2016» (24 песни, Martineau; альбом уже используется проектом по D 805, D 806). MB: пара Boesch/Martineau, 267 с; Topic — 267 с.",
-      "album": "Schubert: Lieder Recital (ONYX 4149)",
-      "label": "Onyx Classics",
-      "age_voice": "45 лет (р. 1971) — внутри пика ~2010–наст.; рассказчик венской школы.",
-      "reputation": "По другому альбому (Hyperion CDA68010) пресса — Gramophone, The Guardian, IRR, Sunday Times — восторженна; рецензий именно на Onyx 4149 в этой сессии не добыто.",
-      "sources": ["planning/youtube/albums.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "mbGOuMZfVnc", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Кандидат на мужской современный слот."
-    },
-    {
-      "singer": "Samuel Hasselhorn",
-      "pianist": "Ammiel Bushakevitz",
-      "rec_year": "2024? (не подтверждён)",
-      "year_source": "Гипотеза по реестру: «Licht und Schatten», песни 1824–26 (harmonia mundi, 2024, проект «Schubert 200» — песни ровно через 200 лет после сочинения). D 882 сочинена в марте 1826 — попадает в диапазон альбома. MusicBrainz даёт пару Hasselhorn/Bushakevitz (280 с) без указания релиза; Discogs в этой сессии недоступен (429) — принадлежность треку альбома НЕ верифицирована.",
-      "album": "Licht und Schatten (harmonia mundi) — гипотеза, требует подтверждения по буклету",
-      "label": "harmonia mundi",
-      "age_voice": "~34 года (р. 1990) — молодая зрелость.",
-      "reputation": "Дайджест: «Licht und Schatten» получил Preis der deutschen Schallplattenkritik; предыдущий том проекта (Müllerin, 2023) — Diapason d'or года. Правило о скепсисе к современному пиару применимо, но премии — устойчивые маркеры.",
-      "sources": ["planning/research/singers-digest.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "FjKDZFo0J40", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Единственный реальный претендент на слот «не ранее 2015» с документированной наградной репутацией — но год и альбом нужно подтвердить."
-    },
-    {
-      "singer": "Carolyn Sampson",
-      "pianist": "Joseph Middleton",
-      "rec_year": "не установлен (2017 / 2020–21 / 2025 — три возможных альбома)",
-      "year_source": "MB: пара Sampson/Middleton, 263 с. У дуэта в реестре три шубертовских альбома BIS: «A Soprano's Schubertiade» (зап. 2017), «Elysium» (сессии 21–23.09.2020 и 06–08.07.2021, изд. 2023) и «Schubert's Four Seasons» (изд. 04.04.2025). D 882 — весенняя песня, что делает вероятным «Four Seasons», но трек-лист не проверен (Discogs 429).",
-      "album": "не установлен (BIS)",
-      "label": "BIS",
-      "age_voice": "43 / 46–47 / 51 год (р. 1974) — во всех вариантах внутри пика ~2010–наст.",
-      "reputation": "Прямых оценок номера нет.",
-      "sources": ["planning/youtube/albums.md — карточки Sampson/Middleton", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "vxntkQspueU", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Если подтвердится «Four Seasons» (2025) — второй кандидат на слот «не ранее 2015»."
-    },
-    {
-      "singer": "Andrè Schuen",
-      "pianist": "не установлен (вероятно Daniel Heide)",
-      "rec_year": "не установлен",
-      "year_source": "Только Topic-загрузка (xhqa79GGJjc, 316 с) — самая протяжённая трактовка пула. В MusicBrainz-каркасе песни Шуэна нет; альбом не идентифицирован (три его шубертовских альбома DG — циклы Müllerin 2021, Schwanengesang 2022, Winterreise 2024 — D 882 не содержат).",
-      "album": "не установлен",
-      "label": "Deutsche Grammophon (предположительно)",
-      "age_voice": "~40 лет (р. 1984) — пик ~2018–наст.",
-      "reputation": "Дайджест: флагманский молодой Schubert-баритон DG (OPUS Klassik 2023 за Schwanengesang). Скепсис к пиару обязателен.",
-      "sources": ["yt-dlp search", "planning/research/singers-digest.md"],
-      "youtube": [
-        {"videoId": "xhqa79GGJjc", "channel": "Andrè Schuen - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Резервный кандидат на слот «не ранее 2015»; без установленного альбома и года публиковать нельзя без доисследования."
-    },
-    {
-      "singer": "Christian Gerhaher",
-      "pianist": "Gerold Huber",
-      "rec_year": "не установлен (концерт Wigmore Hall)",
-      "year_source": "Официальный канал Wigmore Hall (SBk2I5ZjnuU, 248 с); дата концерта в этой сессии не установлена (метаданные YouTube недоступны из-за бот-защиты, и по правилам они всё равно не источник даты).",
-      "album": "концертная запись Wigmore Hall (издание не установлено)",
-      "label": "—",
-      "age_voice": "р. 1969; пик ~2000–наст.",
-      "reputation": "Пресса называет высшим текстовиком современности — по правилам проекта фильтруется как пиар; независимых сравнительных оценок по этой песне нет.",
-      "sources": ["yt-check SBk2I5ZjnuU (канал Wigmore Hall)", "planning/research/singers-digest.md"],
-      "youtube": [
-        {"videoId": "SBk2I5ZjnuU", "channel": "Wigmore Hall", "official": true, "oembed_ok": true}
-      ],
-      "note": "Самая просматриваемая «серьёзная» загрузка песни (≈40 тыс.); но год не документирован."
-    },
-    {
-      "singer": "Soile Isokoski",
-      "pianist": "Marita Viitasalo",
-      "rec_year": "1993? (по дайджесту — рецитал Finlandia, зап. 1993)",
-      "year_source": "planning/research/singers-digest.md: «рецитал Finlandia (зап. 1993, Viitasalo)». MB: пара Isokoski/Viitasalo, 272 с; Topic-загрузки 273 и 277 с. Принадлежность трека именно этому диску не верифицирована.",
-      "album": "Schubert-рецитал (Finlandia; лейбл поглощён Warner)",
-      "label": "Finlandia / Warner",
-      "age_voice": "~36 лет (р. 1957) — пик 1990-х–2000-х.",
-      "reputation": "Дайджест: сильные оценки klassik-prisma по Gretchen с того же диска.",
-      "sources": ["planning/research/singers-digest.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "CMZ-Ye-v7bY", "channel": "Soile Isokoski - Topic", "official": true, "oembed_ok": true},
-        {"videoId": "YIwEunJ_ae8", "channel": "Soile Isokoski - Topic", "official": true, "oembed_ok": null}
-      ],
-      "note": "Две Topic-загрузки разной длительности — вероятно два разных мастера/издания."
-    },
-    {
-      "singer": "Felicity Lott",
-      "pianist": "Graham Johnson",
-      "rec_year": "не установлен (Hyperion Schubert Edition, 1987–2000)",
-      "year_source": "MusicBrainz: «Felicity Lott, Graham Johnson — Im Fruehling», 270 с. Номер тома и дата сессии не установлены: сайт hyperion-records.co.uk в этой сессии отдаёт только JS-оболочку (страница работы «Im Frühling, D882» существует — подтверждается тегом <title>, но содержимое не рендерится), Discogs недоступен.",
-      "album": "The Hyperion Schubert Edition (том не установлен)",
-      "label": "Hyperion",
-      "age_voice": "р. 1947; на протяжении издания (1987–2000) — 40–53 года, зрелая форма.",
-      "reputation": "Издание Джонсона — «научный эталон» с развёрнутыми комментариями (дайджест, albums/complete-editions.md).",
-      "sources": ["planning/youtube/data/d882-im-fruhling.mb.json", "planning/youtube/albums/complete-editions.md"],
-      "youtube": [
-        {"videoId": "vHXOy4PNnSE", "channel": "Felicity Lott - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Позиция полного издания Hyperion — обязательна к учёту; требует установления тома и года."
-    },
-    {
-      "singer": "Renée Fleming",
-      "pianist": "Christoph Eschenbach",
-      "rec_year": "1996",
-      "year_source": "planning/research/singers-digest.md: «The Schubert Album (Decca, зап. 1996, Eschenbach)». Фан-загрузка (xcJY2AWgDKk) независимо указывает «Rec. 1996». MB: 321 с — самая медленная студийная трактовка пула.",
-      "album": "The Schubert Album (Decca)",
-      "label": "Decca",
-      "age_voice": "37 лет (р. 1959) — начало пика ~1995–2010; Lieder у неё вторичны (дайджест).",
-      "reputation": "Дайджест прямо отмечает вторичность песенного репертуара для Флеминг — против включения при наличии специалистов.",
-      "sources": ["planning/research/singers-digest.md", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "WznXekr0nWU", "channel": "Renée Fleming - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Коммерчески заметная, но стилистически спорная запись."
-    },
-    {
-      "singer": "прочие зафиксированные записи (пул полноты)",
-      "pianist": "разные",
-      "rec_year": "разные",
-      "year_source": "Дискография Грея: Genevieve Warner / Franz Rupp — Columbia ML-4365, 11 октября 1950, матрица 43616; Else Brems / Kjell Olsson — Columbia Denmark KC4, 5 сентября 1955, Копенгаген; Norman Foster / Walter Klien — Opera OP1062, 1956; Jean-Paul Jeannotte / Jeanne Landry — Select M-298.046, 1961–62; Akira Aoki (флейта) / Yukie Yoda — Fontec RFO-1047, 26–27 октября 1978 (инструментальное переложение). MusicBrainz дополнительно: Alice Coote / Julius Drake (по строфам, вероятно лекция-концерт), Christine Schäfer / Irwin Gage, Vesselina Kasarova / Friedrich Haider, Natalie Dessay / Philippe Cassard, Philippe Jaroussky / Jérôme Ducros, Regula Mühlemann / Tatiana Korsunskaya, Camilla Tilling / Paul Rivinius, Judith Raskin / George Schick, Lynda Russell / Peter Hill, Tamara Takács / Jenő Jandó, Paul Armin Edelmann / Charles Spencer, Erwin Belakowitsch / Christoph Berner, Theo Hoffman / Kunal Lahiry, Hanno Müller-Brachmann.",
-      "album": "разные",
-      "label": "разные",
-      "age_voice": "—",
-      "reputation": "Ни по одной из этих позиций устойчивой критической репутации в доступных источниках не найдено.",
-      "sources": ["classical-discography.org", "planning/youtube/data/d882-im-fruhling.mb.json"],
-      "youtube": [
-        {"videoId": "kazGhSnDoIg", "channel": "Vesselina Kasarova - Topic", "official": true, "oembed_ok": true}
-      ],
-      "note": "Служебная сводная карточка: показывает, что пул значительных записей исчерпан выше, а остальное — периферия."
+     "videoId": "E7tjdawU4Dc",
+     "channel": "Thomas Quasthoff - Topic",
+     "official": true,
+     "oembed_ok": true
     }
-  ],
-  "priority_singers_checked": {
-    "Quasthoff": "ЗАПИСАЛ. «Widmung – Romantische Lieder / A Romantic Songbook» (DG 474 501-2, изд. 2004), пианист Justus Zeyen. Источники: метаданные Topic-загрузки E7tjdawU4Dc (album='Thomas Quasthoff - A Romantic Songbook', release_year 2004, yt-dlp); MusicBrainz (пара Quasthoff/Zeyen, 289 с); карточка альбома в planning/youtube/albums.md. Проверено и отвергнуто: на «Schwanengesang / Vier ernste Gesänge» (DG 471 030-2, зап. декабрь 2000, Bavaria Musikstudios) песни НЕТ — полный трек-лист получен через Discogs API (release 1097040): 14 номеров Schwanengesang + 4 Brahms.",
-    "Fischer-Dieskau": "ЗАПИСАЛ, минимум три раза. (1) со Святославом Рихтером — DG 2530 988, 2 и 4 июля 1977, Grange de Meslay, Tours (дискография Майкла Грея; CD-переиздание DG 445 717-2); (2) с Джеральдом Муром — версия 260 с, Topic-альбом «Schubert: Lieder Vol. 2» (EMI/Warner), год не документирован (у Грея отсутствует; «1957» — только из заголовка фан-загрузки); (3) с Джеральдом Муром — версия 248 с из свода DG «Sämtliche Lieder» (сессии 1966–72; метаданные Topic дают release_year 1969). MusicBrainz фиксирует также версию с Hartmut Höll (237 с), альбом и год не установлены.",
-    "Schwarzkopf": "ЗАПИСАЛА. Студия: 7 октября 1952, Abbey Road Studio No. 1A, с Эдвином Фишером, Columbia 33CX 1040 (дискография Грея; переизд. Naxos Historical 8.111287, Warner-бокс «Complete Recitals 1952–1974»). Дополнительно есть концертная версия с Фишером, датируемая фан-загрузкой как Турин 1954 (дискографически не подтверждена).",
-    "Hotter": "ЗАПИСАЛ. 2 октября 1949, с Джеральдом Муром, Columbia LX1305, матрица 10623 (дискография Грея); подтверждено независимо буклетом переиздания EMI References CDH 5 65196 2 / Warner через карточку planning/youtube/albums.md (сессии 1–2 октября 1949, No. 1 Studio, Abbey Road; в группу сессии входит Im Frühling D 882).",
-    "Anders": "ЗАПИСАЛ. С Михаэлем Раухайзеном (берлинский радиофонд RRG; MusicBrainz — две записи пары, 269 и 274 с; Topic-загрузки и на канале певца, и на канале Раухайзена). Дискография Грея даёт по этой песне только Eterna 720069 с датой «1959 August» — это дата издания, а не сессии: Андерс умер 10 сентября 1954 г. Точная дата сессии не установлена; реестр датирует шубертовский радиофонд Андерса 1943–47.",
-    "E. Schumann": "НЕ ЗАПИСЫВАЛА (отрицательный результат). В каркасе MusicBrainz по работе (58 записей) её нет; целевой поиск по YouTube («Schubert Im Frühling Elisabeth Schumann») не дал ни одной её загрузки этой песни; в дискографии Грея по work='Im Fr' её нет. Её шубертовский свод — ~28 песен HMV 1927–49 (Naxos 8.110731) — D 882 не включает.",
-    "Ludwig": "ЗАПИСАЛА. 17–18 ноября 1957, Лондон, с Джеральдом Муром, Angel 35461 (дискография Грея). Согласуется с карточкой реестра по её корпусу EMI (сессии 1957–1969).",
-    "Popp": "НЕ ЗАПИСЫВАЛА (отрицательный результат). В каркасе MusicBrainz по работе её нет; целевой поиск по YouTube («Schubert Im Frühling D 882 Lucia Popp») дал только её «Frühling» Р. Штрауса и чужие записи песни; в дискографии Грея по work='Im Fr' её нет. Её шубертовские позиции по дайджесту (EMI 1983 с Gage; BBC Legends 4025-2 и 4148-2) D 882 не содержат."
+   ],
+   "note": "Высший приоритет по правилам. Запись есть — ключевой положительный результат исследования; нужен буклет DG для года сессии."
   },
-  "albums_facts": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Sviatoslav Richter",
+   "rec_year": "1977",
+   "year_source": "Дискография Майкла Грея (classical-discography.org): «Im Frühling, D882, op. 101, no. 1 | Number: 2530 988 | Date: 1977 July 2 + 4 | Place: Tours, Grange de Meslay, Besnardière | Label: Deutsche Grammophon | CD: DG 445 717-2».",
+   "album": "Schubert-Lieder, live из Grange de Meslay (Tours), DG 2530 988; CD-переиздание DG 445 717-2",
+   "label": "Deutsche Grammophon",
+   "age_voice": "52 года (р. 1925). По дайджесту пик ~1951–1972, «с сер. 1970-х тон суше» — запись за пиком по голосу, но с Рихтером за роялем: ценность прежде всего ансамблевая.",
+   "reputation": "Знаменитый дуэт ФД–Рихтер (концерты в Туре, 1977); в доступных в сессии источниках прямых оценок именно этого номера нет — рецензии на диск не проверены (нет WebSearch).",
+   "sources": [
+    "classical-discography.org (Michael Gray), запись DG 2530 988",
+    "planning/youtube/data/d882-im-fruhling.mb.json — «Dietrich Fischer-Dieskau, Sviatoslav Richter — Im Frühling D 882»"
+   ],
+   "youtube": [
     {
-      "album": "Widmung – Romantische Lieder / A Romantic Songbook (DG 474 501-2)",
-      "singer": "Thomas Quasthoff",
-      "year": "изд. 2004; год сессии не документирован",
-      "label": "Deutsche Grammophon",
-      "facts": "Сборный романтический рецитал (Schubert, Schumann, Mendelssohn, Wolf, Loewe, Strauss), пианист Justus Zeyen. Главный источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов. В performances.json по D 257/550/799/853 стоит с годом 2003 — расхождение с 2004, требуется сквозная унификация.",
-      "covers_more_pilot_songs": true
+     "videoId": "PAi7G1LBm5M",
+     "channel": "incontrario motu",
+     "official": false,
+     "oembed_ok": true
     },
     {
-      "album": "Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287",
-      "singer": "Elisabeth Schwarzkopf",
-      "year": 1952,
-      "label": "Columbia (EMI) / Warner; переизд. Naxos Historical",
-      "facts": "Сессии 4–7 октября 1952, Abbey Road Studio 1A, пианист Edwin Fischer; Im Frühling записана 7 октября (Грей). Реставрация переиздания — Mark Obert-Thorn. Эталонный рецитал по дайджесту проекта.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Сессии EMI/HMV 1–2 октября 1949 (переизд. EMI References CDH 5 65196 2 / Warner)",
-      "singer": "Hans Hotter",
-      "year": 1949,
-      "label": "Columbia (EMI) / Warner Classics",
-      "facts": "Пианист Gerald Moore, No. 1 Studio, Abbey Road. Группа сессии: An die Musik D 547, Meeresstille D 216, Im Frühling D 882 (LX1305, матрица 10623), Am Bach im Frühling D 361 (LX1261, матрица 10622), Gruppe aus dem Tartarus D 583, обе Wandrers Nachtlied. На том же переиздании — Schwanengesang (май 1954) и группа 3–4 октября 1957.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Angel 35461 — Schubert-рецитал",
-      "singer": "Christa Ludwig",
-      "year": 1957,
-      "label": "EMI / Angel → Warner Classics",
-      "facts": "Сессии 17–18 ноября 1957, Лондон, пианист Gerald Moore (Грей). Часть корпуса EMI 1957–1969, вошедшего в Warner-бокс «The Complete Recitals»; тот же круг дал 5-звёздную по klassik-prisma Gretchen.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Полидоровские 78-е Берлин, 1940",
-      "singer": "Heinrich Schlusnus",
-      "year": 1940,
-      "label": "Polydor → Preiser",
-      "facts": "Сессия 24 мая 1940, Berlin, Raum IX (Alte Jacobstrasse 31/32), пианист Sebastian Peschko, Polydor 67740, матрица 1465 (Грей). Отличается от сессии 17 марта 1941, зафиксированной в реестре по другой песне — годы разных сессий не унифицировать.",
-      "covers_more_pilot_songs": false
-    },
-    {
-      "album": "78-я HMV DB21423",
-      "singer": "Peter Pears",
-      "year": 1950,
-      "label": "HMV (EMI)",
-      "facts": "Сессия 29 сентября 1950, EMI Studio No. 3, Abbey Road, пианист Benjamin Britten, матрица 15067 (Грей). Ранний слой дуэта Pears/Britten, за 13 лет до их Winterreise на Decca.",
-      "covers_more_pilot_songs": false
-    },
-    {
-      "album": "DG 2530 988 (live, Grange de Meslay)",
-      "singer": "Dietrich Fischer-Dieskau",
-      "year": 1977,
-      "label": "Deutsche Grammophon",
-      "facts": "Концерты 2 и 4 июля 1977, Tours, Grange de Meslay, Besnardière; пианист Святослав Рихтер; CD-переиздание DG 445 717-2 (Грей).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Eterna 827227",
-      "singer": "Peter Schreier",
-      "year": 1971,
-      "label": "Eterna / VEB Deutsche Schallplatten",
-      "facts": "Сессии 4–5 февраля и 1–7 марта 1971, Dresden, Lukaskirche, пианист Walter Olbertz (Грей). Отличается от его гётевских Eterna-дисков (декабрь 1970 и 1972), уже занесённых в реестр.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Philips 6747 059",
-      "singer": "Hermann Prey",
-      "year": 1971,
-      "label": "Philips",
-      "facts": "Сессии 27–30 октября 1971, Мюнхен, пианист Leonard Hokanson (Грей). Новая позиция для реестра.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Schubert: Lieder (harmonia mundi HMC 901991)",
-      "singer": "Bernarda Fink",
-      "year": 2007,
-      "label": "harmonia mundi",
-      "facts": "Запись сентябрь 2007, Teldex Studio Berlin, издание 2008, пианист Gerold Huber. Позиция уже в реестре проекта; лучшая документированная репутация среди современных (5 звёзд klassik-prisma по D 828; со-победа в слепом тесте 2020 по Gretchen).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Schubert: Lieder Recital (ONYX 4149)",
-      "singer": "Florian Boesch",
-      "year": 2016,
-      "label": "Onyx Classics",
-      "facts": "24 песни, пианист Malcolm Martineau; альбом уже используется проектом по D 805, D 806, D 225, D 257.",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Schubert: Lieder (Vol. 1), EMI Classics",
-      "singer": "Ian Bostridge",
-      "year": 1996,
-      "label": "EMI Classics → Warner Classics",
-      "facts": "Запись февраль–март 1996, Abbey Road Studio No. 1, пианист Julius Drake, издание 1998. Позиция уже в реестре (D 768, D 800, D 806, D 807, D 224, D 257).",
-      "covers_more_pilot_songs": true
-    },
-    {
-      "album": "Schubert: Lieder (DG)",
-      "singer": "Anne Sofie von Otter",
-      "year": 1996,
-      "label": "Deutsche Grammophon",
-      "facts": "Запись июнь 1996, Concertgebouw Nijmegen, пианист Bengt Forsberg, издание 1997. Уже в реестре (D 799, D 839, D 257).",
-      "covers_more_pilot_songs": true
+     "videoId": "mLsOCxaEbR4",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": null
     }
-  ],
-  "surveys": [
-    "klassik-prisma.de (Bernd Stremmel) — ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ: в шубертовском индексе сайта песни «Im Frühling D 882» нет (индекс перечисляет только Auf dem Wasser zu singen D 774, Der Hirt auf dem Felsen D 965, Die junge Nonne D 828, Erlkönig D 328, Gretchen am Spinnrade D 118, Gruppe aus dem Tartarus D 583, Nacht und Träume D 827 и три цикла) — привычного для проекта 5-звёздного ориентира по этой песне не существует",
-    "Carnegie Hall, «The Song Continues 2018: Graham Johnson Master Class: Schubert's \"Im Frühling\", D. 882» — https://www.youtube.com/watch?v=zka-QQaZqq0 (8:19; официальный канал Carnegie Hall). Не сравнительный обзор записей, но авторитетный интерпретационный разбор именно этой песни от редактора полного издания Hyperion",
-    "Gramophone, MusicWeb International, BBC Music Magazine, слепые тесты — В ЭТОЙ СЕССИИ НЕ ПРОВЕРЕНЫ: бюджет WebSearch исчерпан (200/200) до начала работы, Bing и DuckDuckGo из контейнера возвращают пустую выдачу. Требуется отдельный проход при восстановлении поиска",
-    "hyperion-records.co.uk — страница работы «Im Frühling, D882» существует (подтверждено тегом <title> при запросе find.asp?f=Im%20Fr%C3%BChling%2C%20D882), но контент отдаётся только через JS и из контейнера не рендерится; список записей Hyperion и заметки Грэма Джонсона получить не удалось"
-  ],
-  "negatives": [
-    "Elisabeth Schumann — записи D 882 не существует (проверено: MusicBrainz, дискография Грея, целевой поиск YouTube)",
-    "Lucia Popp — записи D 882 не найдено (проверено: MusicBrainz, дискография Грея, целевой поиск YouTube)",
-    "Thomas Quasthoff — песни НЕТ на альбоме «Schwanengesang / Vier ernste Gesänge» (DG 471 030-2, декабрь 2000): полный трек-лист получен через Discogs API (release 1097040). Его версия — на «A Romantic Songbook» (2004)",
-    "klassik-prisma не рассматривает эту песню — сравнительного рейтинга по D 882 у проекта нет",
-    "Дискография Майкла Грея НЕ содержит студийных версий Fischer-Dieskau/Moore этой песни (ни EMI, ни DG) — только версию с Рихтером 1977; годы обеих студийных версий ФД остаются недокументированными",
-    "Peter Anders: датировка «1959 August» в дискографии Грея (Eterna 720069) — дата издания, а не сессии (певец умер в 1954); это прямой прецедент правила «метаданные и каталожные даты переизданий не источник даты записи»",
-    "Discogs API весь сеанс отвечает 429 («You are making requests too quickly») — трек-листы альбомов Hasselhorn «Licht und Schatten», Sampson «Schubert's Four Seasons», тома Hyperion с Felicity Lott и альбома Goerne/Deutsch проверить не удалось",
-    "MusicBrainz search-API игнорирует поле wid (возвращает нерелевантную выдачу на 21 818 позиций); browse-API не принимает inc=releases — сопоставить записи с релизами через MB в этой сессии не удалось",
-    "yt-dlp с середины сессии получает от YouTube «Sign in to confirm you're not a bot» — метаданные album/release_year удалось снять только для части Topic-загрузок (Quasthoff, Schwarzkopf, Fischer-Dieskau ×3, Ameling); проверка живости через oEmbed (yt-check.js) работает без ограничений",
-    "Записи Hermann Prey (Philips 1971), Günther Leib (Eterna 1971) и Elena Gerhardt (HMV 1928) на YouTube в этой сессии не найдены"
-  ]
+   ],
+   "note": "Единственная запись песни у ФД, датированная дискографически. Topic-загрузка mLsOCxaEbR4 помечена «(Live)» и по длительности (257 с) близка к варианту с Рихтером — соответствие не подтверждено oEmbed-ом в этой сессии, требует проверки перед публикацией."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1957? (не установлен дискографически)",
+   "year_source": "Дискография Грея эту запись НЕ содержит (поиск по work='Im Fr' дал только версию с Рихтером). Год 1957 фигурирует только в заголовке фан-загрузки (incontrario motu, b_Vj4HZVIQg) — по правилам проекта метаданные загрузок не источник даты. Topic-альбом — «Schubert: Lieder Vol. 2» (Warner), длительность 260 с совпадает с фан-загрузкой и с записью в MusicBrainz (260 с).",
+   "album": "Schubert: Lieder Vol. 2 (EMI/Electrola → Warner Classics)",
+   "label": "EMI / Warner Classics",
+   "age_voice": "~32 года, если 1957 верен — самая середина пика (по дайджесту ~1951–1972), голос свежий и гибкий.",
+   "reputation": "Оценок в доступных источниках не найдено.",
+   "sources": [
+    "planning/youtube/data/d882-im-fruhling.mb.json — «Dietrich Fischer-Dieskau, Gerald Moore — Im Frühling, D. 882», 260 с",
+    "classical-discography.org — отрицательный результат по этой позиции"
+   ],
+   "youtube": [
+    {
+     "videoId": "96J30-mUiIE",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "b_Vj4HZVIQg",
+     "channel": "incontrario motu",
+     "official": false,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Требуется доисследование года по буклету EMI/Warner. По правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» может публиковаться с диапазоном со знаком вопроса."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1969? (год издания по метаданным Topic; сессия внутри свода DG 1966–72)",
+   "year_source": "Метаданные Topic-загрузок: album='Schubert: Lieder', release_year 1969 (TgEH-J3Whmk) и album='Schubert: Lieder (Vol. 2)' (O4Kj7xbhpgI), длительность 248 с. Дайджест: полный свод мужских песен DG, сессии 1966–72, 21 CD. Точная дата сессии по буклету не вскрыта; метаданные загрузок — не источник даты.",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD, сессии 1966–72)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "~44 года при сессии конца 1960-х — поздний пик, звук плотнее и темнее раннего.",
+   "reputation": "Свод DG — опорное издание корпуса; отдельных оценок номера не найдено.",
+   "sources": [
+    "planning/research/singers-digest.md — «полный свод ~400+ мужских песен (DG 1966–72, Moore, 21 CD)»",
+    "yt-dlp metadata TgEH-J3Whmk, O4Kj7xbhpgI"
+   ],
+   "youtube": [
+    {
+     "videoId": "TgEH-J3Whmk",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "O4Kj7xbhpgI",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "iYS4WokLsDc",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Три Topic-загрузки длительностью 248 с — очевидные дубли одного мастера свода DG. Для публикации выбирать одну."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Hartmut Höll",
+   "rec_year": "не установлен",
+   "year_source": "Только MusicBrainz (пара ФД/Хёлль, 237 с). В дискографии Грея отсутствует; альбом не идентифицирован.",
+   "album": "не установлен",
+   "label": "не установлен",
+   "age_voice": "Хёлль работал с ФД в 1980-е — если так, певцу за 60, тон заметно суше (дайджест).",
+   "reputation": "нет данных",
+   "sources": [
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [],
+   "note": "Позднейшая версия ФД; по правилу «при прочих равных предпочитать более раннюю» — заведомо ниже приоритета. YouTube-загрузка не идентифицирована."
+  },
+  {
+   "singer": "Elisabeth Schwarzkopf",
+   "pianist": "Edwin Fischer",
+   "rec_year": "1952",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 33CX1040 | Date: 1952 October 7 | Place: London, EMI Studio No. 1A, Abbey Road | Label: Columbia - UK | Artists: Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano». Совпадает с карточкой albums.md (сессии диска 4–7 октября 1952, Abbey Road Studio 1A, переизд. Naxos Historical 8.111287, реставрация Mark Obert-Thorn).",
+   "album": "Schubert: Lieder (Columbia 33CX 1040); переизд. Naxos Historical 8.111287; Warner-бокс «The Complete Recitals 1952–1974»",
+   "label": "Columbia (EMI) / Warner Classics; переизд. Naxos Historical",
+   "age_voice": "37 лет (р. 1915) — середина пика (1948–1964), голос в полной форме.",
+   "reputation": "Диск с Эдвином Фишером в проектном дайджесте назван эталоном рецитального Шуберта; тот же круг сессий дал со-победителя слепого теста 2020 по Gretchen. Отдельной рецензии на этот номер в доступных источниках нет.",
+   "sources": [
+    "classical-discography.org — Columbia 33CX1040, 7.10.1952",
+    "planning/youtube/albums.md — карточка «Elisabeth Schwarzkopf — Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287»",
+    "planning/research/singers-digest.md"
+   ],
+   "youtube": [
+    {
+     "videoId": "bL9iUv2Iqfc",
+     "channel": "ELISABETH SCHWARZKOPF - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "-AgWdkr21yA",
+     "channel": "ELISABETH SCHWARZKOPF - Topic",
+     "official": true,
+     "oembed_ok": null
+    },
+    {
+     "videoId": "gNQqzb961NU",
+     "channel": "Trebonis",
+     "official": false,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Топ-1 среди женщин по правилам; год и место записи документированы жёстко."
+  },
+  {
+   "singer": "Elisabeth Schwarzkopf",
+   "pianist": "Edwin Fischer",
+   "rec_year": "1954? (концерт в Турине — по заголовку фан-загрузки)",
+   "year_source": "Только заголовок фан-загрузки (incontrario motu, tVQ6T5B7_ns, «Turin 1954»). Дискографического подтверждения не найдено.",
+   "album": "концертная запись (издание не идентифицировано)",
+   "label": "не установлен",
+   "age_voice": "39 лет — пик.",
+   "reputation": "нет данных",
+   "sources": [
+    "yt-dlp search"
+   ],
+   "youtube": [
+    {
+     "videoId": "tVQ6T5B7_ns",
+     "channel": "incontrario motu",
+     "official": false,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Альтернатива студийной 1952-го; при равенстве качества правило требует более раннюю — то есть студийную."
+  },
+  {
+   "singer": "Hans Hotter",
+   "pianist": "Gerald Moore",
+   "rec_year": "1949",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: LX1305 | Date: 1949 October 2 | Label: Columbia - UK | Artists: Hans Hotter, bass-baritone | 78 Matrix: 10623» (соседняя матрица 10622 — Am Bach im Frühling D 361, LX1261). Совпадает с карточкой albums.md: сессии EMI/HMV 1–2 октября 1949, No. 1 Studio, Abbey Road, пианист Gerald Moore; группа сессии включает Im Frühling D 882.",
+   "album": "78-е Columbia LX1305; переизд. EMI References CDH 5 65196 2 / Warner 50999 9 93726 2 0",
+   "label": "Columbia (EMI) / Warner Classics",
+   "age_voice": "40 лет (р. 1909) — внутри пика ~1942–1955; тёмный, ещё гибкий голос (дайджест).",
+   "reputation": "Слой Hotter/Moore 1949–57 — опорный для песенного Хоттера (albums/male-recitalists.md). Отдельной рецензии на номер не найдено.",
+   "sources": [
+    "classical-discography.org — Columbia LX1305, матрица 10623, 2.10.1949",
+    "planning/youtube/albums.md — карточка «Hans Hotter — Schubert: Lieder — сессии EMI/HMV 1–2 октября 1949»"
+   ],
+   "youtube": [
+    {
+     "videoId": "oSHWEL4DPK0",
+     "channel": "Hans Hotter - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "-_DUXADnsgw",
+     "channel": "incontrario motu",
+     "official": false,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "KZicx3SUEoQ",
+     "channel": "Hans Hotter - Topic",
+     "official": true,
+     "oembed_ok": null
+    },
+    {
+     "videoId": "ucun1cCDHXI",
+     "channel": "Gerald Moore - Topic",
+     "official": true,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Двойное подтверждение даты (Грей + буклет Warner через реестр) — самая надёжно датированная историческая позиция пула. Загрузки 249 с (Topic) соответствуют матрице 1949 г.; отдельные Topic-треки 257/261 с (M70GL49hrSg, Wi8mp-ACS_o) могут быть поздним слоем Хоттера (сессии 3–6 октября 1957, Columbia 33CX1626) — не разведено."
+  },
+  {
+   "singer": "Peter Anders",
+   "pianist": "Michael Raucheisen",
+   "rec_year": "1940-е (радиофонд RRG); точная дата не установлена",
+   "year_source": "Дискография Грея даёт «Number: 720069 | Date: 1959 August | Label: Eterna» — это заведомо не дата сессии: Андерс умер 10 сентября 1954 г.; 1959 — выпуск Eterna. MusicBrainz фиксирует пару Anders/Raucheisen. Реестр (albums/male-recitalists.md): «Anders — Schubert-радиофонд RRG с Raucheisen, зап. 1943–47», переиздания Eterna/DG/Heliodor 1959–66. Topic-загрузка ffE3bLacZZg — со сборника «Schubert: Lieder (Les indispensables de Diapason)», release_year 2023 (год переиздания, не сессии).",
+   "album": "Берлинский радиофонд RRG (Raucheisen-Edition); LP Eterna 720069 и др. переиздания",
+   "label": "RRG → Eterna / DG / Heliodor; Raucheisen-Edition",
+   "age_voice": "~35–39 лет — пик 1940-х; спада у Андерса нет вовсе (погиб в 45).",
+   "reputation": "Дайджест: эталон немецкой радиошколы; связка Anders/Raucheisen — опорная для военного радиокорпуса.",
+   "sources": [
+    "classical-discography.org — Eterna 720069 (дата издания, не сессии)",
+    "planning/youtube/albums/male-recitalists.md — карточка радиофонда RRG",
+    "planning/research/singers-digest.md"
+   ],
+   "youtube": [
+    {
+     "videoId": "ffE3bLacZZg",
+     "channel": "Peter Anders - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "4sh-TS06hko",
+     "channel": "Michael Raucheisen - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "7eEbPFHu6NQ",
+     "channel": "incontrario motu",
+     "official": false,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "-HKfVb0_1bY",
+     "channel": "Peter Anders - Topic",
+     "official": true,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Приоритетный певец, запись есть. Год требует целевого доисследования (буклет Raucheisen-Edition); по правилам публикуется с диапазоном со знаком вопроса, напр. \"1943–45?\"."
+  },
+  {
+   "singer": "Christa Ludwig",
+   "pianist": "Gerald Moore",
+   "rec_year": "1957",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 35461 | Date: 1957 November 17 - 18 | Place: London | Label: Angel | Artists: Christa Ludwig, mezzo-soprano; Gerald Moore, piano». Согласуется с карточкой albums.md по корпусу Людвиг (сессии EMI 1957–1969). Topic-загрузка Y60QY9ujp2c идёт с бокса «The Complete Recitals on Warner Classics» (yt-dlp, release_year 2018 — год бокса, не сессии).",
+   "album": "Angel 35461 (EMI) — Schubert-рецитал; входит в Warner-бокс «Christa Ludwig — The Complete Recitals»",
+   "label": "EMI / Angel → Warner Classics",
+   "age_voice": "29 лет (р. 1928). Пик по дайджесту ~1957–1975 — самое его начало: голос молодой, свежий, ровный.",
+   "reputation": "Тот же круг сессий (Ludwig/Moore–Parsons) дал 5-звёздную по klassik-prisma Gretchen — устойчиво высокая репутация корпуса. Прямой оценки номера нет.",
+   "sources": [
+    "classical-discography.org — Angel 35461, 17–18.11.1957",
+    "planning/youtube/albums.md — карточка «Christa Ludwig — Schubert: 15 Lieder / The Complete Recitals»",
+    "planning/research/singers-digest.md"
+   ],
+   "youtube": [
+    {
+     "videoId": "Y60QY9ujp2c",
+     "channel": "Christa Ludwig - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Приоритетный певец (п. 4 иерархии); дата документирована точно."
+  },
+  {
+   "singer": "Peter Pears",
+   "pianist": "Benjamin Britten",
+   "rec_year": "1950",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: DB21423 | Date: 1950 September 29 | Place: London, EMI Studio No. 3, Abbey Road | Label: HMV | 78 Matrix: 15067». Topic-загрузка rqDEsf4SntQ — с антологии «Britten The Performer» (yt-dlp, release_year 1975: год переиздания, не сессии; сессия 29.09.1950 по Грею).",
+   "album": "78-е HMV DB21423 (переиздания — антологии EMI/Warner)",
+   "label": "HMV (EMI)",
+   "age_voice": "40 лет (р. 1910) — начало пика 1950-х–1960-х; голос свежее, чем в поздних Decca-циклах.",
+   "reputation": "Дуэт Pears/Britten — среди величайших в песенном Шуберте (дайджест: Winterreise Decca 1963 «среди величайших»). По номеру оценок не найдено.",
+   "sources": [
+    "classical-discography.org — HMV DB21423, матрица 15067, 29.09.1950"
+   ],
+   "youtube": [
+    {
+     "videoId": "rqDEsf4SntQ",
+     "channel": "Peter Pears - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "qoKZvibmi2I",
+     "channel": "Peter Pears - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "zbiJcOL_eyU",
+     "channel": "Public Classical Music",
+     "official": false,
+     "oembed_ok": true
+    }
+   ],
+   "note": "У пары есть минимум две версии (MusicBrainz: 283 с и 300 с «1997 Remaster»); Topic-загрузки — 284 с и 262 с. Какая из них соответствует 78-й 1950 г. (≈4 мин), не разведено: 262-секундная (qoKZvibmi2I) вероятнее. Позднюю версию (Decca/BBC, дата не установлена) отдельно не датировали. Загрузка zbiJcOL_eyU — из антологии «Schubert Lieder on Record»."
+  },
+  {
+   "singer": "Heinrich Schlusnus",
+   "pianist": "Sebastian Peschko",
+   "rec_year": "1940",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 67740 | Date: 1940 May 24 | Place: Berlin, Raum IX (Alte Jacobstrasse 31/32) | Label: Polydor | 78 Matrix: 1465». Topic-переиздание прямо помечает трек «(Recorded 1940)» — совпадает. Topic-загрузка 99h_XEvaF4U — с переиздания Preiser «Heinrich Schlusnus in Schubert Lieder» (yt-dlp, release_year 1997: год CD, не сессии).",
+   "album": "78-я Polydor 67740; переизд. Preiser «Heinrich Schlusnus in Schubert Lieder»",
+   "label": "Polydor → Preiser",
+   "age_voice": "52 года (р. 1888). По дайджесту пик 1920-е–1930-е, «ровность держал и в 1940-е» — голос ещё в форме.",
+   "reputation": "Шлуснус — эталон немецкой баритоновой кантилены межвоенных лет (дайджест). Оценок номера нет.",
+   "sources": [
+    "classical-discography.org — Polydor 67740, матрица 1465, 24.05.1940",
+    "planning/youtube/albums.md — карточка «Heinrich Schlusnus in Schubert Lieder» (Preiser)"
+   ],
+   "youtube": [
+    {
+     "videoId": "99h_XEvaF4U",
+     "channel": "Heinrich Schlusnus - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "hE4qEVPKgrs",
+     "channel": "Sebastian Peschko - Topic",
+     "official": true,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Внимание: карточка реестра по другой песне датирует сессию Шлуснуса/Пешко 17.03.1941 — для D 882 Грей даёт 24.05.1940; годы разных сессий одного цикла записей не путать."
+  },
+  {
+   "singer": "Elena Gerhardt",
+   "pianist": "не установлен (Грей пианиста не называет)",
+   "rec_year": "1928",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: D1461 | Date: 1928 May 11 | Label: HMV | 78 Matrix: 12972».",
+   "album": "78-я HMV D1461",
+   "label": "HMV",
+   "age_voice": "45 лет (р. 1883). По дайджесту пик 1907–нач. 1920-х; к 1926–28 износ голоса — запись за пиком, ценность историко-стилевая.",
+   "reputation": "Герхардт — пионер женского Lieder-рецитала (дайджест). Оценок номера нет.",
+   "sources": [
+    "classical-discography.org — HMV D1461, матрица 12972, 11.05.1928"
+   ],
+   "youtube": [],
+   "note": "Загрузки на YouTube не найдено. Кандидат исторический, для топ-5 вряд ли."
+  },
+  {
+   "singer": "Irmgard Seefried",
+   "pianist": "Erik Werba",
+   "rec_year": "студийная — не позднее 1959 (издание); лайв — 1957? (Зальцбург, по заголовку фан-загрузки)",
+   "year_source": "Метаданные Topic-загрузки K1p-EJq_jVQ (yt-dlp): album='The Art Of Irmgard Seefried – Volume 5', artist='Irmgard Seefried, Erik Werba', release_year 1959 — верхняя граница для студийной версии (DG, 1950-е). Дискография Грея записей Зеефрид по этой песне не содержит. Лайв датируется только заголовком загрузки incontrario motu «Salzburg 1957».",
+   "album": "DG-рецитал (сер. 1950-х–1962) и/или зальцбургский лайв (Orfeo)",
+   "label": "Deutsche Grammophon / Orfeo",
+   "age_voice": "~36–43 года (р. 1919) — внутри пика (кон. 1940-х–нач. 1960-х).",
+   "reputation": "нет прямых оценок в доступных источниках",
+   "sources": [
+    "planning/research/singers-digest.md — карточка Seefried",
+    "yt-dlp search (Topic-загрузки 226/221/234 с + лайв 232 с)",
+    "yt-dlp метаданные K1p-EJq_jVQ"
+   ],
+   "youtube": [
+    {
+     "videoId": "K1p-EJq_jVQ",
+     "channel": "Irmgard Seefried - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "V5TiYVo0K3c",
+     "channel": "Irmgard Seefried - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "Xq6lGJeO0nk",
+     "channel": "incontrario motu",
+     "official": false,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Не менее трёх разных мастеров на Topic (221/226/234 с) — без буклетов не развести; год не документирован."
+  },
+  {
+   "singer": "Lisa della Casa",
+   "pianist": "Karl Hudez (MusicBrainz) / «Sandor» по заголовку фан-загрузки",
+   "rec_year": "не установлен (кон. 1950-х?)",
+   "year_source": "Дискография Грея по della Casa эту песню не содержит. MusicBrainz: «Karl Hudez, Lisa della Casa — Im Frühling, D882», 275 с. Дайджест: единственный Decca-рецитал с Худецем, кон. 1950-х, переизд. Eloquence.",
+   "album": "Decca-рецитал (переизд. Eloquence)",
+   "label": "Decca",
+   "age_voice": "~38–40 лет (р. 1919) — пик 1950-х.",
+   "reputation": "Дайджест: Lieder-наследие мало, чистый стиль; прямых оценок номера нет.",
+   "sources": [
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "planning/research/singers-digest.md"
+   ],
+   "youtube": [
+    {
+     "videoId": "ctBqbQ8Vd58",
+     "channel": "incontrario motu",
+     "official": false,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "tDitPoFMPJY",
+     "channel": "Operazaile operazaile",
+     "official": false,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Расхождение по пианисту (Hudez vs «Sandor» в заголовке фан-загрузки) не разрешено — вероятно два разных источника."
+  },
+  {
+   "singer": "Peter Schreier",
+   "pianist": "Walter Olbertz",
+   "rec_year": "1971",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 827227 | Date: 1971 February 4 - 5 & March 1 - 7 | Place: Dresden, Lukaskirche | Label: Eterna | Artists: Peter Schreier, tenor; Walter Olbertz, piano».",
+   "album": "Eterna 827227 (Schubert-Lieder, Дрезден, Лукаскирхе)",
+   "label": "VEB Deutsche Schallplatten Eterna → Berlin Classics",
+   "age_voice": "35–36 лет (р. 1935) — начало пика (~1965–1990), тенор в лучшей форме.",
+   "reputation": "Eterna-циклы 1970-х со Ольбертцем — опорный слой шубертовского Шрайера (albums.md). Прямых оценок номера нет.",
+   "sources": [
+    "classical-discography.org — Eterna 827227, февраль–март 1971",
+    "planning/youtube/albums.md — карточки Schreier/Olbertz"
+   ],
+   "youtube": [],
+   "note": "MusicBrainz дополнительно фиксирует пару «Peter Schreier, Graham Johnson» (Hyperion Schubert Edition) — вторая, более поздняя версия; том и год не установлены (сайт Hyperion в этой сессии отдаёт только JS-оболочку). Официальная Topic-загрузка Eterna-версии не найдена. ИСПРАВЛЕНИЕ прошлой сессии: видео xTLtzUL47u0 приписывалось этой (Eterna-1971) записи ошибочно — метаданные фонограммы (yt-dlp) дают album='Schubert: Hyperion Song Edition 18 – Schubert & the Strophic Song', Schreier/Graham Johnson, 1993; это другая запись (см. отдельного кандидата). Записи Eterna 1971 на YouTube не найдено."
+  },
+  {
+   "singer": "Hermann Prey",
+   "pianist": "Leonard Hokanson",
+   "rec_year": "1971",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 6747 059 | Date: 1971 October 27 - 30 | Place: München | Label: Philips | Artists: Hermann Prey, baritone; Leonard Hokanson, piano».",
+   "album": "Philips 6747 059 (Schubert-Lieder, Мюнхен)",
+   "label": "Philips",
+   "age_voice": "42 года (р. 1929) — середина пика ~1960–1980.",
+   "reputation": "Прямых оценок номера нет; Прей — основатель Шубертиады в Хоэнемсе (дайджест).",
+   "sources": [
+    "classical-discography.org — Philips 6747 059, 27–30.10.1971"
+   ],
+   "youtube": [],
+   "note": "Загрузка не найдена в этой сессии."
+  },
+  {
+   "singer": "Günther Leib",
+   "pianist": "Walter Olbertz",
+   "rec_year": "1971",
+   "year_source": "Дискография Грея: «Im Frühling, D882 | Number: 826256 | Date: 1971 November 15 - 17 | Place: Dresden, Lukaskirche | Label: Eterna».",
+   "album": "Eterna 826256",
+   "label": "Eterna",
+   "age_voice": "~44 года (р. 1927) — зрелая форма; в проектном фонде певец не значится.",
+   "reputation": "нет данных",
+   "sources": [
+    "classical-discography.org — Eterna 826256"
+   ],
+   "youtube": [],
+   "note": "Периферийный кандидат; включён для полноты дискографической картины."
+  },
+  {
+   "singer": "Gundula Janowitz",
+   "pianist": "Irwin Gage",
+   "rec_year": "1976–77 (сессии по дайджесту); издание 1978",
+   "year_source": "Дайджест: 2-LP DG с Irwin Gage, зап. 1976–77. Метаданные Topic-загрузки 650TRutGLOI (yt-dlp): album='Schubert: Lieder', artist='Gundula Janowitz, Irwin Gage', release_year 1978 — год издания, согласуется с сессиями 1976–77.",
+   "album": "Schubert-Lieder, 2-LP (DG)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "~39–40 лет (р. 1937) — внутри пика ~1965–1980, серебристое сопрано в полной форме.",
+   "reputation": "Тот же альбом дал 5-звёздную по klassik-prisma Gretchen (дайджест) — сильная косвенная рекомендация.",
+   "sources": [
+    "planning/research/singers-digest.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "yt-dlp метаданные 650TRutGLOI"
+   ],
+   "youtube": [
+    {
+     "videoId": "650TRutGLOI",
+     "channel": "Gundula Janowitz - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Сильнейший женский кандидат «второго ряда» после Шварцкопф и Людвиг."
+  },
+  {
+   "singer": "Elly Ameling",
+   "pianist": "Jörg Demus (ранняя версия) / Rudolf Jansen (Tanglewood)",
+   "rec_year": "1965? (с Демусом) и 2 июля 1987 (Tanglewood, Jansen)",
+   "year_source": "Метаданные Topic-загрузки Orrvo7BKLsI (yt-dlp): album='Schubert/Schumann: Lieder', artist='Elly Ameling', release_year 1965 — совпадает с дайджестом («ранние с Demus, ~1965»). Загрузка qXhvwKacPWg — с компиляции «Icon: Elly Ameling» (метаданные дают 1972; для компиляции год недостоверен). Tanglewood: albums.md — концерт 2 июля 1987, Theatre-Concert Hall, Rudolf Jansen (Omega OCD 1001, переизд. Brilliant 95107).",
+   "album": "ранний рецитал с Демусом (лейбл не установлен) / «Elly Ameling Sings Schubert At Tanglewood» (Omega OCD 1001)",
+   "label": "не установлен / Omega Record Classics (переизд. Brilliant Classics)",
+   "age_voice": "~32 года в 1965 и 54 года в 1987 (р. 1933). Пик ~1965–1985 — Tanglewood уже у верхней границы.",
+   "reputation": "Дайджест: самая записываемая шубертианка поколения. Прямых оценок номера нет.",
+   "sources": [
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "planning/youtube/albums.md — карточка «Elly Ameling Sings Schubert At Tanglewood»",
+    "planning/research/singers-digest.md",
+    "yt-dlp метаданные Orrvo7BKLsI и qXhvwKacPWg"
+   ],
+   "youtube": [
+    {
+     "videoId": "qXhvwKacPWg",
+     "channel": "Elly Ameling - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "Orrvo7BKLsI",
+     "channel": "Elly Ameling - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "QushhJiXfj8",
+     "channel": "Elly Ameling - Topic",
+     "official": true,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Минимум три разных мастера на Topic (284/267/267 с) — соответствие «мастер ↔ пианист ↔ год» без буклетов не установлено."
+  },
+  {
+   "singer": "Barbara Hendricks",
+   "pianist": "Radu Lupu",
+   "rec_year": "1985 (том 1 серии EMI, по дайджесту)",
+   "year_source": "planning/research/singers-digest.md: «два тома EMI с Radu Lupu (1985 — вкл. Gretchen; 1993)». Какой из двух томов содержит D 882, дискографически не установлено. MusicBrainz фиксирует пару (267 с).",
+   "album": "Schubert-Lieder с Раду Лупу (EMI), т. 1 или т. 2",
+   "label": "EMI → Warner Classics",
+   "age_voice": "~37 или 45 лет (р. 1948) — пик 1980-х–1990-х.",
+   "reputation": "Дайджест отмечает редкость дуэта с великим солистом-пианистом (Лупу). Есть студийный видеодокумент записи (SchuSchuSchu, GRAbu3eJA2A) — «Radu Lupu and Barbara Hendricks Recording Schubert's Im Frühling».",
+   "sources": [
+    "planning/research/singers-digest.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "RJ7gTKEY02c",
+     "channel": "Barbara Hendricks - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "GRAbu3eJA2A",
+     "channel": "SchuSchuSchu",
+     "official": false,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Ценность прежде всего в пианисте; год требует уточнения (1985 vs 1993)."
+  },
+  {
+   "singer": "Anne Sofie von Otter",
+   "pianist": "Bengt Forsberg",
+   "rec_year": "1996",
+   "year_source": "planning/youtube/albums.md, карточка «Anne Sofie von Otter — Schubert: Lieder (DG)»: запись июнь 1996, Concertgebouw Nijmegen; издание 1997. Длительность MB (227 с) совпадает с Topic-загрузкой (227 с). Метаданные Topic-загрузки 2ulwsji27oU (yt-dlp): release_year 1997 — год издания, согласуется с сессией июня 1996.",
+   "album": "Schubert: Lieder (Deutsche Grammophon)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "41 год (р. 1955) — начало пика ~1988–2010.",
+   "reputation": "Прямых оценок номера нет; альбом уже используется проектом (D 799, D 839).",
+   "sources": [
+    "planning/youtube/albums.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "2ulwsji27oU",
+     "channel": "Anne Sofie von Otter - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Самая быстрая трактовка пула (227 с) — на 30–60 с короче большинства."
+  },
+  {
+   "singer": "Ian Bostridge",
+   "pianist": "Julius Drake",
+   "rec_year": "1996",
+   "year_source": "planning/youtube/albums.md, карточка «Ian Bostridge — Schubert: Lieder (Vol. 1)»: запись февраль–март 1996, Abbey Road Studio No. 1, издание 1998. Длительность MB (284 с) совпадает с Topic-загрузкой 34RVZE2zpEM (283 с); фан-загрузка kPxSgOqkIRY также датирует 1996.",
+   "album": "Schubert: Lieder (Vol. 1) — EMI Classics",
+   "label": "EMI Classics → Warner Classics",
+   "age_voice": "32 года (р. 1964) — вход в пик ~1995–2010, светлый тенор, ещё без поздней манерности (дайджест).",
+   "reputation": "Дебютный шубертовский рецитал Бостриджа; правило проекта требует скепсиса к прессе о современных — конкретных рецензий на номер в этой сессии не добыто.",
+   "sources": [
+    "planning/youtube/albums.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "34RVZE2zpEM",
+     "channel": "Ian Bostridge - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "MNcLQdMKw0I",
+     "channel": "Ian Bostridge - Topic",
+     "official": true,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Вторая Topic-загрузка (287 с) — вероятно концертный диск Wigmore Hall Live (WHLive0067/0091, даты концертов не установлены)."
+  },
+  {
+   "singer": "Bernarda Fink",
+   "pianist": "Gerold Huber",
+   "rec_year": "2007",
+   "year_source": "Реестр альбомов проекта: harmonia mundi HMC 901991 «Schubert: Lieder», запись сентябрь 2007, Teldex Studio Berlin, издание 2008 (зафиксировано в planning/research/d138-rastlose-liebe-top5.md со ссылкой на реестр). MB: пара Fink/Huber, 245 с; Topic — 246 с. Метаданные Topic-загрузки emrpMX9Lr5A (yt-dlp): album='Schubert: Lieder', release_year 2008 — год издания, согласуется с сессией сентября 2007.",
+   "album": "Schubert: Lieder (harmonia mundi HMC 901991)",
+   "label": "harmonia mundi",
+   "age_voice": "52 года (р. 1955) — верхняя граница пика ~1995–2015; тёплое ровное меццо.",
+   "reputation": "Сильнейшая документированная репутация среди современных: тот же альбом — единственная современная запись D 828 с 5 звёздами klassik-prisma; дуэт Fink/Huber — со-победитель слепого теста 2020 по Gretchen наряду со Шварцкопф/Фишером (реестр альбомов, дайджест).",
+   "sources": [
+    "planning/research/d138-rastlose-liebe-top5.md (со ссылкой на planning/youtube/albums.md)",
+    "planning/research/singers-digest.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "emrpMX9Lr5A",
+     "channel": "Bernarda Fink - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Главный претендент на слот «не ранее 1990»."
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "Helmut Deutsch",
+   "rec_year": "февраль и апрель 2011 (сессии CD1); издание 2014",
+   "year_source": "Discogs release 20022025 — Matthias Goerne Schubert Edition, «Wanderers Nachtlied» (harmonia mundi HMC 902109-10, 2 CD, изд. 2014); в примечаниях релиза: «Recorded II. & IV.2011 (cd1) & VI.2011 & II.2012 (cd2) at Teldex Studio, Berlin». D 882 — трек 1-10 (в трек-листе Discogs с опечаткой «Im Früling D 882»), т.е. CD1 → сессии февраль/апрель 2011. Пианист CD1 — Helmut Deutsch (кредиты релиза: Helmut Deutsch и Eric Schneider, piano; MusicBrainz атрибутирует эту запись паре Goerne/Deutsch).",
+   "album": "Wanderers Nachtlied — Matthias Goerne Schubert Edition (harmonia mundi HMC 902109-10)",
+   "label": "harmonia mundi",
+   "age_voice": "43–44 года (р. 1967) — внутри пика ~1997–2015.",
+   "reputation": "Дайджест: самый записываемый Schubert-баритон поколения; правило о скепсисе к пиару современных применимо.",
+   "sources": [
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "yt-check J7Xqla9yvUQ (канал harmonia mundi music)",
+    "Discogs API, release 20022025 (тираж-примечания и трек-лист)"
+   ],
+   "youtube": [
+    {
+     "videoId": "J7Xqla9yvUQ",
+     "channel": "harmonia mundi music",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Официальная лейбловая загрузка (не Topic; harmonia mundi music, залита 20.02.2014 — совпадает с выходом альбома). Год записи установлен в этой сессии: 2011."
+  },
+  {
+   "singer": "Florian Boesch",
+   "pianist": "Malcolm Martineau",
+   "rec_year": "2016 (год издания; сессия не установлена)",
+   "year_source": "planning/youtube/albums.md, карточка «Florian Boesch — Schubert: Lieder Recital (ONYX 4149), Onyx Classics, 2016» (24 песни, Martineau; альбом уже используется проектом по D 805, D 806). MB: пара Boesch/Martineau, 267 с; Topic — 267 с.",
+   "album": "Schubert: Lieder Recital (ONYX 4149)",
+   "label": "Onyx Classics",
+   "age_voice": "45 лет (р. 1971) — внутри пика ~2010–наст.; рассказчик венской школы.",
+   "reputation": "По другому альбому (Hyperion CDA68010) пресса — Gramophone, The Guardian, IRR, Sunday Times — восторженна; рецензий именно на Onyx 4149 в этой сессии не добыто.",
+   "sources": [
+    "planning/youtube/albums.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "mbGOuMZfVnc",
+     "channel": "Florian Boesch - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Кандидат на мужской современный слот."
+  },
+  {
+   "singer": "Samuel Hasselhorn",
+   "pianist": "Ammiel Bushakevitz",
+   "rec_year": "2026 (издание; дата сессии в доступных данных не указана)",
+   "year_source": "Discogs release 37546023 — «Hoffnung 1826» (harmonia mundi HMM 902779, серия «Schubert 200», 2026): в трек-листе — «Im Frühling D. 882 (Op.Posth. 101, No 1)»; кредиты: Samuel Hasselhorn (baritone), Ammiel Bushakevitz (piano), инженер/продюсер Philipp Nedel, аннотации Roman Hinke. Метаданные Topic-загрузки FjKDZFo0J40 дают album='Schubert: Hoffnung', release_year 2026 — согласуются. ГИПОТЕЗА прошлой сессии о «Licht und Schatten» (2024) ОПРОВЕРГНУТА: песня — на следующем томе серии.",
+   "album": "Hoffnung 1826 (harmonia mundi HMM 902779, серия «Schubert 200»)",
+   "label": "harmonia mundi",
+   "age_voice": "~36 лет (р. 1990).",
+   "reputation": "Дайджест: «Licht und Schatten» получил Preis der deutschen Schallplattenkritik; предыдущий том проекта (Müllerin, 2023) — Diapason d'or года. Правило о скепсисе к современному пиару применимо, но премии — устойчивые маркеры.",
+   "sources": [
+    "planning/research/singers-digest.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "Discogs API, release 37546023"
+   ],
+   "youtube": [
+    {
+     "videoId": "FjKDZFo0J40",
+     "channel": "Samuel Hasselhorn - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Самая свежая запись пула; логика серии «Schubert 200» (песни ровно через 200 лет после сочинения) точно совпадает с D 882 — сочинена в марте 1826. Репутации именно этого тома пока нет (издание 2026 года) — по правилу о скепсисе к пиару современных не переоценивать."
+  },
+  {
+   "singer": "Carolyn Sampson",
+   "pianist": "Joseph Middleton",
+   "rec_year": "25–28 февраля 2024 (сессия); издание 2025",
+   "year_source": "Discogs release 34201693 — «Schubert's Four Seasons» (BIS-2703, 2025), в примечаниях: «Recorded February 25-28, 2024»; трек-лист содержит «Im Frühling, D 882». Метаданные Topic-загрузки vxntkQspueU дают release_year 2025 — согласуются. Аннотации диска — шубертовед Susan Youens; пианист Joseph Middleton, кларнет Michael Collins (в других номерах).",
+   "album": "Schubert's Four Seasons (BIS-2703)",
+   "label": "BIS",
+   "age_voice": "49–50 лет (р. 1974) — внутри пика ~2010–наст.",
+   "reputation": "Прямых оценок номера нет.",
+   "sources": [
+    "planning/youtube/albums.md — карточки Sampson/Middleton",
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "Discogs API, release 34201693"
+   ],
+   "youtube": [
+    {
+     "videoId": "vxntkQspueU",
+     "channel": "Carolyn Sampson - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Подтверждено: песня на «Schubert's Four Seasons» (сессия 2024, изд. 2025) — реальный кандидат на слот «не ранее 2015»."
+  },
+  {
+   "singer": "Andrè Schuen",
+   "pianist": "Daniel Heide",
+   "rec_year": "октябрь 2016 (сессия); издание 2018",
+   "year_source": "Метаданные Topic-загрузки xhqa79GGJjc (yt-dlp): album='Schubert: Wanderer', artist='Andrè Schuen, Daniel Heide', release_year 2016. Совпадает с карточкой реестра planning/youtube/albums.md: «Andrè Schuen — Wanderer (Avi-Music 8553373), запись октябрь 2016, издание 2018; Villa Musica Rheinland-Pfalz, Schloss Engers, Dianasaal; продюсер Christoph Martin Frommen; пианист Daniel Heide».",
+   "album": "Wanderer (Avi-Music 8553373)",
+   "label": "Avi-Music (на YouTube — дистрибуция UMG)",
+   "age_voice": "32 года (р. 1984) — ранний сольный шубертовский диск, до трилогии DG.",
+   "reputation": "Дайджест: флагманский молодой Schubert-баритон DG (OPUS Klassik 2023 за Schwanengesang). Скепсис к пиару обязателен.",
+   "sources": [
+    "yt-dlp search",
+    "planning/research/singers-digest.md",
+    "planning/youtube/albums.md — карточка «Andrè Schuen — Wanderer»",
+    "yt-dlp метаданные Topic-загрузки xhqa79GGJjc"
+   ],
+   "youtube": [
+    {
+     "videoId": "xhqa79GGJjc",
+     "channel": "Andrè Schuen - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Год и альбом установлены в этой сессии. Кандидат на слот «не ранее 2015»."
+  },
+  {
+   "singer": "Christian Gerhaher",
+   "pianist": "Gerold Huber",
+   "rec_year": "осень 2021 (концерт Wigmore Hall Autumn Series; лайв-стрим)",
+   "year_source": "Описание официальной загрузки Wigmore Hall (SBk2I5ZjnuU): «This concert was live-streamed as part of the Wigmore Hall Autumn Series»; дата публикации 17.09.2021. Осенняя серия Wigmore 2021 — сентябрь 2021; коммерческого издания у записи нет.",
+   "album": "концерт Wigmore Hall (Autumn Series 2021), лайв-стрим; коммерческого издания нет",
+   "label": "—",
+   "age_voice": "52 года (р. 1969).",
+   "reputation": "Пресса называет высшим текстовиком современности — по правилам проекта фильтруется как пиар; независимых сравнительных оценок по этой песне нет.",
+   "sources": [
+    "yt-check SBk2I5ZjnuU (канал Wigmore Hall)",
+    "planning/research/singers-digest.md",
+    "yt-dlp описание SBk2I5ZjnuU (официальный канал Wigmore Hall)"
+   ],
+   "youtube": [
+    {
+     "videoId": "SBk2I5ZjnuU",
+     "channel": "Wigmore Hall",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Самая просматриваемая «серьёзная» загрузка песни (≈40 тыс.); но год не документирован."
+  },
+  {
+   "singer": "Soile Isokoski",
+   "pianist": "Marita Viitasalo",
+   "rec_year": "1993",
+   "year_source": "Метаданные Topic-загрузки CMZ-Ye-v7bY (yt-dlp): artist='Soile Isokoski, Marita Viitasalo', release_year 1993 (сама загрузка — с компиляции «40 Most Beautiful Spring Classics», но год фонограммы 1993 совпадает с дайджестом: «рецитал Finlandia, зап. 1993, Viitasalo»). Двойное независимое совпадение дайджеста и метаданных фонограммы.",
+   "album": "Schubert-рецитал (Finlandia; лейбл поглощён Warner)",
+   "label": "Finlandia / Warner",
+   "age_voice": "~36 лет (р. 1957) — пик 1990-х–2000-х.",
+   "reputation": "Дайджест: сильные оценки klassik-prisma по Gretchen с того же диска.",
+   "sources": [
+    "planning/research/singers-digest.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "yt-dlp метаданные CMZ-Ye-v7bY"
+   ],
+   "youtube": [
+    {
+     "videoId": "CMZ-Ye-v7bY",
+     "channel": "Soile Isokoski - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "YIwEunJ_ae8",
+     "channel": "Soile Isokoski - Topic",
+     "official": true,
+     "oembed_ok": null
+    }
+   ],
+   "note": "Две Topic-загрузки разной длительности — вероятно два разных мастера/издания."
+  },
+  {
+   "singer": "Felicity Lott",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен (запись из Hyperion Schubert Edition, 1987–2000; переиздание-компиляция 2010)",
+   "year_source": "Метаданные Topic-загрузки vHXOy4PNnSE (yt-dlp): album='Felicity Lott sings Schubert Favourites', artist='Felicity Lott, Graham Johnson', release_year 2010 — это компиляция Hyperion из ранее записанных томов полного издания, поэтому 2010 НЕ год сессии. Том оригинального издания и дату сессии установить не удалось (hyperion-records.co.uk отдаёт только JS-оболочку и через WebFetch не рендерится).",
+   "album": "Felicity Lott sings Schubert Favourites (Hyperion, компиляция 2010) — материал из Hyperion Schubert Edition",
+   "label": "Hyperion",
+   "age_voice": "р. 1947; на протяжении издания (1987–2000) — 40–53 года, зрелая форма.",
+   "reputation": "Издание Джонсона — «научный эталон» с развёрнутыми комментариями (дайджест, albums/complete-editions.md).",
+   "sources": [
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "planning/youtube/albums/complete-editions.md",
+    "yt-dlp метаданные vHXOy4PNnSE"
+   ],
+   "youtube": [
+    {
+     "videoId": "vHXOy4PNnSE",
+     "channel": "Felicity Lott - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Позиция полного издания Hyperion — обязательна к учёту; требует установления тома и года."
+  },
+  {
+   "singer": "Renée Fleming",
+   "pianist": "Christoph Eschenbach",
+   "rec_year": "1996",
+   "year_source": "planning/research/singers-digest.md: «The Schubert Album (Decca, зап. 1996, Eschenbach)». Фан-загрузка (xcJY2AWgDKk) независимо указывает «Rec. 1996». MB: 321 с — самая медленная студийная трактовка пула. Метаданные Topic-загрузки WznXekr0nWU (yt-dlp): release_year 1997 — год издания диска, согласуется с сессией 1996.",
+   "album": "The Schubert Album (Decca)",
+   "label": "Decca",
+   "age_voice": "37 лет (р. 1959) — начало пика ~1995–2010; Lieder у неё вторичны (дайджест).",
+   "reputation": "Дайджест прямо отмечает вторичность песенного репертуара для Флеминг — против включения при наличии специалистов.",
+   "sources": [
+    "planning/research/singers-digest.md",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "WznXekr0nWU",
+     "channel": "Renée Fleming - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Коммерчески заметная, но стилистически спорная запись."
+  },
+  {
+   "singer": "Peter Schreier",
+   "pianist": "Graham Johnson",
+   "rec_year": "1993 (год фонограммы/издания тома Hyperion)",
+   "year_source": "Метаданные официальной фонограммы (yt-dlp, xTLtzUL47u0): album='Schubert: Hyperion Song Edition 18 – Schubert & the Strophic Song', artist='Peter Schreier, Graham Johnson', release_year 1993. Канал по oEmbed — «Peter Schreier - Topic» (проверено yt-check 2026-08-17). MusicBrainz независимо фиксирует пару Schreier/Johnson по этой работе (269 с). Точная дата сессии по буклету не вскрыта.",
+   "album": "The Hyperion Schubert Edition, Vol. 18 — «Schubert & the Strophic Song» (Hyperion CDJ33018)",
+   "label": "Hyperion",
+   "age_voice": "~58 лет (р. 1935) — верхняя часть пика ~1965–1990; тон уже суше, но декламация и слово на высшем уровне.",
+   "reputation": "Том полного издания Джонсона — «научный эталон» с развёрнутыми комментариями редактора (дайджест, albums/complete-editions.md); прямых сравнительных оценок этого номера не найдено.",
+   "sources": [
+    "yt-dlp метаданные xTLtzUL47u0",
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "planning/youtube/albums/complete-editions.md"
+   ],
+   "youtube": [
+    {
+     "videoId": "xTLtzUL47u0",
+     "channel": "Peter Schreier - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "НОВЫЙ кандидат этой сессии (прошлая сессия числила этот ролик за Eterna-1971). Серьёзный претендент: немецкий тенор-шубертианец + редактор полного издания за роялем."
+  },
+  {
+   "singer": "Alice Coote",
+   "pianist": "Julius Drake",
+   "rec_year": "18–21 декабря 2017 (сессия); издание май 2022",
+   "year_source": "planning/youtube/albums.md, карточка «Alice Coote — Schubert: 21 Songs (Hyperion CDA68169), запись 18–21 декабря 2017, издание май 2022; All Saints' Church, East Finchley; продюсер Mark Brown, инженер Andrew Mellor; аннотации Richard Wigmore». Метаданные Topic-загрузок (yt-dlp): album='Schubert: 21 Songs', release_year 2022.",
+   "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+   "label": "Hyperion",
+   "age_voice": "49 лет (р. 1968) — внутри пика ~2005–наст.",
+   "reputation": "По альбому в целом: Gramophone («with an underlying tension», «doesn't sugar-coat anything»), BBC Music Magazine («every note is delivered with white-hot sincerity») — цитаты из карточки реестра. Правило скепсиса к пиару учитывать, но оценки принадлежат профильным изданиям.",
+   "sources": [
+    "planning/youtube/albums.md — карточка Coote/Hyperion CDA68169",
+    "planning/youtube/data/d882-im-fruhling.mb.json",
+    "yt-dlp метаданные VXUpBadQqok"
+   ],
+   "youtube": [
+    {
+     "videoId": "VXUpBadQqok",
+     "channel": "Alice Coote - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "McHekagEtgk",
+     "channel": "Julius Drake - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "ВАЖНОЕ ОГРАНИЧЕНИЕ: издание разбивает D 882 на ЧЕТЫРЕ отдельных трека по строфам (79 + 75 + 48 + 80 с; так же, как D 259 на этом же диске) — цельного ролика на песню нет, поэтому для плеера кандидат непригоден."
+  },
+  {
+   "singer": "Camilla Tilling",
+   "pianist": "Paul Rivinius",
+   "rec_year": "2012 (год фонограммы/издания)",
+   "year_source": "Метаданные Topic-загрузки L8qQ3kKP6v0 (yt-dlp): album='Bei dir allein! - Schubert Songs', artist='Camilla Tilling, Paul Rivinius', release_year 2012. MusicBrainz независимо фиксирует пару Tilling/Rivinius (256 с). Дата сессии не вскрыта.",
+   "album": "Bei dir allein! — Schubert Songs",
+   "label": "BIS",
+   "age_voice": "шведское лирическое сопрано (р. 1971) — ~41 год, зрелая форма.",
+   "reputation": "Прямых сравнительных оценок не найдено; в дайджесте проекта певица не карточкована (значится в резерве).",
+   "sources": [
+    "yt-dlp метаданные L8qQ3kKP6v0",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "L8qQ3kKP6v0",
+     "channel": "Camilla Tilling - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "НОВЫЙ кандидат этой сессии; второй эшелон."
+  },
+  {
+   "singer": "Hanno Müller-Brachmann",
+   "pianist": "не установлен (по серии Naxos DSLE — вероятно Ulrich Eisenlohr)",
+   "rec_year": "2003 (год фонограммы/издания тома)",
+   "year_source": "Метаданные Topic-загрузки CkGS5NHPPs4 (yt-dlp): album='Schubert: Lied Edition 11 - North German Poets', artist='Hanno Muller-Brachmann', release_year 2003. Эрнст Шульце — северогерманский поэт, что объясняет попадание D 882 в этот том. Дата сессии по буклету не вскрыта; пианист в метаданных не указан.",
+   "album": "Deutsche Schubert-Lied-Edition, Vol. 11 — «North German Poets» (Naxos)",
+   "label": "Naxos",
+   "age_voice": "бас-баритон (р. 1970) — ~33 года.",
+   "reputation": "Полное издание Naxos (Eisenlohr) — систематический свод немецкоязычных певцов; отдельных наград и сравнительных оценок по этому тому не найдено.",
+   "sources": [
+    "yt-dlp метаданные CkGS5NHPPs4",
+    "planning/youtube/albums/complete-editions.md"
+   ],
+   "youtube": [
+    {
+     "videoId": "CkGS5NHPPs4",
+     "channel": "Hanno Müller-Brachmann - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "НОВЫЙ кандидат этой сессии — позиция полного издания Naxos DSLE (в прошлой сессии издание по этой песне не было идентифицировано)."
+  },
+  {
+   "singer": "Regula Mühlemann",
+   "pianist": "Tatiana Korsunskaya",
+   "rec_year": "2019 (год фонограммы/издания)",
+   "year_source": "Метаданные официальной загрузки CbDdEAvktVI (yt-dlp): artist='Regula Mühlemann, Franz Schubert, Tatiana Korsunskaya', release_year 2019. MusicBrainz независимо фиксирует пару Mühlemann/Korsunskaya (262 с). Альбом в метаданных не назван; вероятен её шубертовский рецитал Sony — не верифицировано.",
+   "album": "не установлен (вероятно рецитал Sony Classical)",
+   "label": "не установлен",
+   "age_voice": "швейцарское лирико-колоратурное сопрано (р. 1986) — ~33 года.",
+   "reputation": "Сравнительных оценок нет; по правилу о скепсисе к пиару современных — без внешнего подтверждения не переоценивать.",
+   "sources": [
+    "yt-dlp метаданные CbDdEAvktVI",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "CbDdEAvktVI",
+     "channel": "Regula Mühlemann",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "НОВЫЙ кандидат этой сессии; альбом требует подтверждения."
+  },
+  {
+   "singer": "Maria Stader",
+   "pianist": "William Kapell",
+   "rec_year": "1953? (только по описанию фан-загрузки — НЕ дискографический источник)",
+   "year_source": "Единственное свидетельство — описание фан-загрузки (-vElf9Rlq-w, канал «Patryk Sulivanh»): «rec. 1953». По правилам проекта метаданные и описания загрузок датой не считаются. Косвенная граница: Уильям Капелл погиб в авиакатастрофе 29 октября 1953 г., значит запись не позднее 1953; в MusicBrainz-каркасе работы этой пары нет, у Грея не найдена.",
+   "album": "не установлен (вероятно концертная/радиозапись)",
+   "label": "не установлен",
+   "age_voice": "Мария Штадер (1911–1999) — ~42 года, внутри её лучшего периода; Капелл — великий американский пианист, погиб в 31 год.",
+   "reputation": "Историческая редкость: аккомпанемент Капелла — исключительный случай в песенной дискографии. Сравнительных оценок нет.",
+   "sources": [
+    "yt-check -vElf9Rlq-w (загрузка жива)",
+    "yt-dlp описание загрузки"
+   ],
+   "youtube": [
+    {
+     "videoId": "-vElf9Rlq-w",
+     "channel": "Patryk Sulivanh",
+     "official": false,
+     "oembed_ok": true
+    }
+   ],
+   "note": "НОВЫЙ кандидат этой сессии. Только фан-загрузка, год не документирован — для публикации потребовалось бы целевое доисследование; ценность прежде всего кураторская/историческая."
+  },
+  {
+   "singer": "прочие зафиксированные записи (пул полноты)",
+   "pianist": "разные",
+   "rec_year": "разные",
+   "year_source": "Дискография Грея: Genevieve Warner / Franz Rupp — Columbia ML-4365, 11 октября 1950, матрица 43616; Else Brems / Kjell Olsson — Columbia Denmark KC4, 5 сентября 1955, Копенгаген; Norman Foster / Walter Klien — Opera OP1062, 1956; Jean-Paul Jeannotte / Jeanne Landry — Select M-298.046, 1961–62; Akira Aoki (флейта) / Yukie Yoda — Fontec RFO-1047, 26–27 октября 1978 (инструментальное переложение). MusicBrainz дополнительно: Alice Coote / Julius Drake (по строфам, вероятно лекция-концерт), Christine Schäfer / Irwin Gage, Vesselina Kasarova / Friedrich Haider, Natalie Dessay / Philippe Cassard, Philippe Jaroussky / Jérôme Ducros, Regula Mühlemann / Tatiana Korsunskaya, Camilla Tilling / Paul Rivinius, Judith Raskin / George Schick, Lynda Russell / Peter Hill, Tamara Takács / Jenő Jandó, Paul Armin Edelmann / Charles Spencer, Erwin Belakowitsch / Christoph Berner, Theo Hoffman / Kunal Lahiry, Hanno Müller-Brachmann.",
+   "album": "разные",
+   "label": "разные",
+   "age_voice": "—",
+   "reputation": "Ни по одной из этих позиций устойчивой критической репутации в доступных источниках не найдено.",
+   "sources": [
+    "classical-discography.org",
+    "planning/youtube/data/d882-im-fruhling.mb.json"
+   ],
+   "youtube": [
+    {
+     "videoId": "kazGhSnDoIg",
+     "channel": "Vesselina Kasarova - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
+   ],
+   "note": "Служебная сводная карточка: показывает, что пул значительных записей исчерпан выше, а остальное — периферия."
+  }
+ ],
+ "priority_singers_checked": {
+  "Quasthoff": "ЗАПИСАЛ. «Widmung – Romantische Lieder / A Romantic Songbook» (DG 474 501-2, изд. 2004), пианист Justus Zeyen. Источники: метаданные Topic-загрузки E7tjdawU4Dc (album='Thomas Quasthoff - A Romantic Songbook', release_year 2004, yt-dlp); MusicBrainz (пара Quasthoff/Zeyen, 289 с); карточка альбома в planning/youtube/albums.md. Проверено и отвергнуто: на «Schwanengesang / Vier ernste Gesänge» (DG 471 030-2, зап. декабрь 2000, Bavaria Musikstudios) песни НЕТ — полный трек-лист получен через Discogs API (release 1097040): 14 номеров Schwanengesang + 4 Brahms.",
+  "Fischer-Dieskau": "ЗАПИСАЛ, минимум три раза. (1) со Святославом Рихтером — DG 2530 988, 2 и 4 июля 1977, Grange de Meslay, Tours (дискография Майкла Грея; CD-переиздание DG 445 717-2); (2) с Джеральдом Муром — версия 260 с, Topic-альбом «Schubert: Lieder Vol. 2» (EMI/Warner), год не документирован (у Грея отсутствует; «1957» — только из заголовка фан-загрузки); (3) с Джеральдом Муром — версия 248 с из свода DG «Sämtliche Lieder» (сессии 1966–72; метаданные Topic дают release_year 1969). MusicBrainz фиксирует также версию с Hartmut Höll (237 с), альбом и год не установлены.",
+  "Schwarzkopf": "ЗАПИСАЛА. Студия: 7 октября 1952, Abbey Road Studio No. 1A, с Эдвином Фишером, Columbia 33CX 1040 (дискография Грея; переизд. Naxos Historical 8.111287, Warner-бокс «Complete Recitals 1952–1974»). Дополнительно есть концертная версия с Фишером, датируемая фан-загрузкой как Турин 1954 (дискографически не подтверждена).",
+  "Hotter": "ЗАПИСАЛ. 2 октября 1949, с Джеральдом Муром, Columbia LX1305, матрица 10623 (дискография Грея); подтверждено независимо буклетом переиздания EMI References CDH 5 65196 2 / Warner через карточку planning/youtube/albums.md (сессии 1–2 октября 1949, No. 1 Studio, Abbey Road; в группу сессии входит Im Frühling D 882).",
+  "Anders": "ЗАПИСАЛ. С Михаэлем Раухайзеном (берлинский радиофонд RRG; MusicBrainz — две записи пары, 269 и 274 с; Topic-загрузки и на канале певца, и на канале Раухайзена). Дискография Грея даёт по этой песне только Eterna 720069 с датой «1959 August» — это дата издания, а не сессии: Андерс умер 10 сентября 1954 г. Точная дата сессии не установлена; реестр датирует шубертовский радиофонд Андерса 1943–47.",
+  "E. Schumann": "НЕ ЗАПИСЫВАЛА (отрицательный результат). В каркасе MusicBrainz по работе (58 записей) её нет; целевой поиск по YouTube («Schubert Im Frühling Elisabeth Schumann») не дал ни одной её загрузки этой песни; в дискографии Грея по work='Im Fr' её нет. Её шубертовский свод — ~28 песен HMV 1927–49 (Naxos 8.110731) — D 882 не включает.",
+  "Ludwig": "ЗАПИСАЛА. 17–18 ноября 1957, Лондон, с Джеральдом Муром, Angel 35461 (дискография Грея). Согласуется с карточкой реестра по её корпусу EMI (сессии 1957–1969).",
+  "Popp": "НЕ ЗАПИСЫВАЛА (отрицательный результат). В каркасе MusicBrainz по работе её нет; целевой поиск по YouTube («Schubert Im Frühling D 882 Lucia Popp») дал только её «Frühling» Р. Штрауса и чужие записи песни; в дискографии Грея по work='Im Fr' её нет. Её шубертовские позиции по дайджесту (EMI 1983 с Gage; BBC Legends 4025-2 и 4148-2) D 882 не содержат."
+ },
+ "albums_facts": [
+  {
+   "album": "Widmung – Romantische Lieder / A Romantic Songbook (DG 474 501-2)",
+   "singer": "Thomas Quasthoff",
+   "year": "изд. 2004; год сессии не документирован",
+   "label": "Deutsche Grammophon",
+   "facts": "Сборный романтический рецитал (Schubert, Schumann, Mendelssohn, Wolf, Loewe, Strauss), пианист Justus Zeyen. Главный источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов. В performances.json по D 257/550/799/853 стоит с годом 2003 — расхождение с 2004, требуется сквозная унификация.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287",
+   "singer": "Elisabeth Schwarzkopf",
+   "year": 1952,
+   "label": "Columbia (EMI) / Warner; переизд. Naxos Historical",
+   "facts": "Сессии 4–7 октября 1952, Abbey Road Studio 1A, пианист Edwin Fischer; Im Frühling записана 7 октября (Грей). Реставрация переиздания — Mark Obert-Thorn. Эталонный рецитал по дайджесту проекта.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Сессии EMI/HMV 1–2 октября 1949 (переизд. EMI References CDH 5 65196 2 / Warner)",
+   "singer": "Hans Hotter",
+   "year": 1949,
+   "label": "Columbia (EMI) / Warner Classics",
+   "facts": "Пианист Gerald Moore, No. 1 Studio, Abbey Road. Группа сессии: An die Musik D 547, Meeresstille D 216, Im Frühling D 882 (LX1305, матрица 10623), Am Bach im Frühling D 361 (LX1261, матрица 10622), Gruppe aus dem Tartarus D 583, обе Wandrers Nachtlied. На том же переиздании — Schwanengesang (май 1954) и группа 3–4 октября 1957.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Angel 35461 — Schubert-рецитал",
+   "singer": "Christa Ludwig",
+   "year": 1957,
+   "label": "EMI / Angel → Warner Classics",
+   "facts": "Сессии 17–18 ноября 1957, Лондон, пианист Gerald Moore (Грей). Часть корпуса EMI 1957–1969, вошедшего в Warner-бокс «The Complete Recitals»; тот же круг дал 5-звёздную по klassik-prisma Gretchen.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Полидоровские 78-е Берлин, 1940",
+   "singer": "Heinrich Schlusnus",
+   "year": 1940,
+   "label": "Polydor → Preiser",
+   "facts": "Сессия 24 мая 1940, Berlin, Raum IX (Alte Jacobstrasse 31/32), пианист Sebastian Peschko, Polydor 67740, матрица 1465 (Грей). Отличается от сессии 17 марта 1941, зафиксированной в реестре по другой песне — годы разных сессий не унифицировать.",
+   "covers_more_pilot_songs": false
+  },
+  {
+   "album": "78-я HMV DB21423",
+   "singer": "Peter Pears",
+   "year": 1950,
+   "label": "HMV (EMI)",
+   "facts": "Сессия 29 сентября 1950, EMI Studio No. 3, Abbey Road, пианист Benjamin Britten, матрица 15067 (Грей). Ранний слой дуэта Pears/Britten, за 13 лет до их Winterreise на Decca.",
+   "covers_more_pilot_songs": false
+  },
+  {
+   "album": "DG 2530 988 (live, Grange de Meslay)",
+   "singer": "Dietrich Fischer-Dieskau",
+   "year": 1977,
+   "label": "Deutsche Grammophon",
+   "facts": "Концерты 2 и 4 июля 1977, Tours, Grange de Meslay, Besnardière; пианист Святослав Рихтер; CD-переиздание DG 445 717-2 (Грей).",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Eterna 827227",
+   "singer": "Peter Schreier",
+   "year": 1971,
+   "label": "Eterna / VEB Deutsche Schallplatten",
+   "facts": "Сессии 4–5 февраля и 1–7 марта 1971, Dresden, Lukaskirche, пианист Walter Olbertz (Грей). Отличается от его гётевских Eterna-дисков (декабрь 1970 и 1972), уже занесённых в реестр.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Philips 6747 059",
+   "singer": "Hermann Prey",
+   "year": 1971,
+   "label": "Philips",
+   "facts": "Сессии 27–30 октября 1971, Мюнхен, пианист Leonard Hokanson (Грей). Новая позиция для реестра.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert: Lieder (harmonia mundi HMC 901991)",
+   "singer": "Bernarda Fink",
+   "year": 2007,
+   "label": "harmonia mundi",
+   "facts": "Запись сентябрь 2007, Teldex Studio Berlin, издание 2008, пианист Gerold Huber. Позиция уже в реестре проекта; лучшая документированная репутация среди современных (5 звёзд klassik-prisma по D 828; со-победа в слепом тесте 2020 по Gretchen).",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert: Lieder Recital (ONYX 4149)",
+   "singer": "Florian Boesch",
+   "year": 2016,
+   "label": "Onyx Classics",
+   "facts": "24 песни, пианист Malcolm Martineau; альбом уже используется проектом по D 805, D 806, D 225, D 257.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert: Lieder (Vol. 1), EMI Classics",
+   "singer": "Ian Bostridge",
+   "year": 1996,
+   "label": "EMI Classics → Warner Classics",
+   "facts": "Запись февраль–март 1996, Abbey Road Studio No. 1, пианист Julius Drake, издание 1998. Позиция уже в реестре (D 768, D 800, D 806, D 807, D 224, D 257).",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert: Lieder (DG)",
+   "singer": "Anne Sofie von Otter",
+   "year": 1996,
+   "label": "Deutsche Grammophon",
+   "facts": "Запись июнь 1996, Concertgebouw Nijmegen, пианист Bengt Forsberg, издание 1997. Уже в реестре (D 799, D 839, D 257).",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Wanderers Nachtlied — Matthias Goerne Schubert Edition (harmonia mundi HMC 902109-10, 2 CD)",
+   "singer": "Matthias Goerne",
+   "year": "сессии II и IV.2011 (CD1), VI.2011 и II.2012 (CD2); издание 2014",
+   "label": "harmonia mundi",
+   "facts": "Teldex Studio, Berlin; пианисты Helmut Deutsch и Eric Schneider; продюсер Martin Sauer, монтаж/звук René Möller; аннотации Christophe Ghristi. D 882 — трек 1-10 (CD1, значит сессии февраль/апрель 2011), пара Goerne/Deutsch по MusicBrainz. Диск включает много песен пилота: D 774, D 771, D 800, D 775, D 786, D 765, D 866/2, D 768, D 257, D 259.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert's Four Seasons (BIS-2703)",
+   "singer": "Carolyn Sampson",
+   "year": "сессия 25–28 февраля 2024; издание 2025",
+   "label": "BIS",
+   "facts": "Wyastone Concert Hall; пианист Joseph Middleton, кларнет Michael Collins (в отдельных номерах); аннотации шубертоведа Susan Youens (Discogs отмечает «succinct discussion of every Lied»); продюсер/инженер Jens Braun. Программа по временам года, D 882 — в весеннем блоке рядом с Frühlingsglaube D 686.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Hoffnung 1826 (harmonia mundi HMM 902779, серия «Schubert 200»)",
+   "singer": "Samuel Hasselhorn",
+   "year": "издание 2026 (дата сессии в доступных данных не указана)",
+   "label": "harmonia mundi",
+   "facts": "Пианист Ammiel Bushakevitz; инженер и продюсер Philipp Nedel, мастеринг Martin Kistner, аннотации Roman Hinke; дигипак с 60-страничным буклетом, TT 71'35. Серия «Schubert 200» издаёт песни ровно через 200 лет после сочинения — том 1826 года прямо соответствует D 882 (март 1826).",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "The Hyperion Schubert Edition, Vol. 18 — «Schubert & the Strophic Song» (CDJ33018)",
+   "singer": "Peter Schreier",
+   "year": "1993 (год фонограммы по метаданным официальной загрузки)",
+   "label": "Hyperion",
+   "facts": "Пианист и редактор издания Graham Johnson. Том полного издания Джонсона, тематически посвящённый строфической песне — D 882 (строфическая по форме) в него входит логично. Новая позиция для реестра альбомов.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+   "singer": "Alice Coote",
+   "year": "запись 18–21 декабря 2017; издание май 2022",
+   "label": "Hyperion",
+   "facts": "All Saints' Church, East Finchley; пианист Julius Drake; продюсер Mark Brown, инженер Andrew Mellor, аннотации Richard Wigmore. Особенность издания: длинные строфические песни (D 259, D 882) разбиты на отдельные треки по строфам — цельного трека на D 882 нет.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Deutsche Schubert-Lied-Edition, Vol. 11 — «North German Poets» (Naxos)",
+   "singer": "Hanno Müller-Brachmann",
+   "year": "2003 (год фонограммы/издания по метаданным официальной загрузки)",
+   "label": "Naxos",
+   "facts": "Том полного издания Naxos под руководством Ulrich Eisenlohr; Эрнст Шульце как северогерманский поэт даёт D 882 место в этом томе. Пианист в метаданных не назван (по серии — вероятно Eisenlohr), требует подтверждения по буклету.",
+   "covers_more_pilot_songs": true
+  },
+  {
+   "album": "Bei dir allein! — Schubert Songs (BIS)",
+   "singer": "Camilla Tilling",
+   "year": "2012 (год фонограммы/издания)",
+   "label": "BIS",
+   "facts": "Пианист Paul Rivinius. Новая позиция для реестра; дата сессии не вскрыта.",
+   "covers_more_pilot_songs": false
+  }
+ ],
+ "surveys": [
+  "klassik-prisma.de (Bernd Stremmel) — ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ: в шубертовском индексе сайта песни «Im Frühling D 882» нет (индекс перечисляет только Auf dem Wasser zu singen D 774, Der Hirt auf dem Felsen D 965, Die junge Nonne D 828, Erlkönig D 328, Gretchen am Spinnrade D 118, Gruppe aus dem Tartarus D 583, Nacht und Träume D 827 и три цикла) — привычного для проекта 5-звёздного ориентира по этой песне не существует",
+  "Carnegie Hall, «The Song Continues 2018: Graham Johnson Master Class: Schubert's \"Im Frühling\", D. 882» — https://www.youtube.com/watch?v=zka-QQaZqq0 (8:19; официальный канал Carnegie Hall). Не сравнительный обзор записей, но авторитетный интерпретационный разбор именно этой песни от редактора полного издания Hyperion",
+  "Gramophone, MusicWeb International, BBC Music Magazine, слепые тесты — В ЭТОЙ СЕССИИ НЕ ПРОВЕРЕНЫ: бюджет WebSearch исчерпан (200/200) до начала работы, Bing и DuckDuckGo из контейнера возвращают пустую выдачу. Требуется отдельный проход при восстановлении поиска",
+  "hyperion-records.co.uk — страница работы «Im Frühling, D882» существует (подтверждено тегом <title> при запросе find.asp?f=Im%20Fr%C3%BChling%2C%20D882), но контент отдаётся только через JS и из контейнера не рендерится; список записей Hyperion и заметки Грэма Джонсона получить не удалось",
+  "hyperion-records.co.uk — ПОВТОРНАЯ ПОПЫТКА в этой сессии (WebFetch по find.asp и dw.asp): сайт отдаёт только навигационную оболочку, содержимое страницы работы и заметки Грэма Джонсона получить по-прежнему нельзя. Косвенно: издание Джонсона представлено по этой песне двумя позициями — Schreier (т. 18, «Schubert & the Strophic Song», 1993) и Felicity Lott (том не установлен)",
+  "Susan Youens — аннотации к диску Carolyn Sampson «Schubert's Four Seasons» (BIS-2703, 2025) содержат разбор каждой песни, включая D 882 (по описанию релиза на Discogs 34201693); это авторитетный музыковедческий, а не сравнительно-дискографический источник",
+  "Gramophone / MusicWeb / BBC Music Magazine / слепые тесты — НЕ ПРОВЕРЕНЫ И ВО ВТОРОМ ПРОХОДЕ: WebSearch недоступен (бюджет исчерпан), поиск по этим сайтам без него не воспроизводится. Остаётся открытой задачей отдельного прохода"
+ ],
+ "negatives": [
+  "Elisabeth Schumann — записи D 882 не существует (проверено: MusicBrainz, дискография Грея, целевой поиск YouTube)",
+  "Lucia Popp — записи D 882 не найдено (проверено: MusicBrainz, дискография Грея, целевой поиск YouTube)",
+  "Thomas Quasthoff — песни НЕТ на альбоме «Schwanengesang / Vier ernste Gesänge» (DG 471 030-2, декабрь 2000): полный трек-лист получен через Discogs API (release 1097040). Его версия — на «A Romantic Songbook» (2004)",
+  "klassik-prisma не рассматривает эту песню — сравнительного рейтинга по D 882 у проекта нет",
+  "Дискография Майкла Грея НЕ содержит студийных версий Fischer-Dieskau/Moore этой песни (ни EMI, ни DG) — только версию с Рихтером 1977; годы обеих студийных версий ФД остаются недокументированными",
+  "Peter Anders: датировка «1959 August» в дискографии Грея (Eterna 720069) — дата издания, а не сессии (певец умер в 1954); это прямой прецедент правила «метаданные и каталожные даты переизданий не источник даты записи»",
+  "Discogs API весь сеанс отвечает 429 («You are making requests too quickly») — трек-листы альбомов Hasselhorn «Licht und Schatten», Sampson «Schubert's Four Seasons», тома Hyperion с Felicity Lott и альбома Goerne/Deutsch проверить не удалось",
+  "MusicBrainz search-API игнорирует поле wid (возвращает нерелевантную выдачу на 21 818 позиций); browse-API не принимает inc=releases — сопоставить записи с релизами через MB в этой сессии не удалось",
+  "yt-dlp с середины сессии получает от YouTube «Sign in to confirm you're not a bot» — метаданные album/release_year удалось снять только для части Topic-загрузок (Quasthoff, Schwarzkopf, Fischer-Dieskau ×3, Ameling); проверка живости через oEmbed (yt-check.js) работает без ограничений",
+  "Записи Hermann Prey (Philips 1971), Günther Leib (Eterna 1971) и Elena Gerhardt (HMV 1928) на YouTube в этой сессии не найдены",
+  "ОПРОВЕРГНУТО: гипотеза прошлой сессии, что запись Hasselhorn — на «Licht und Schatten» (2024). По трек-листу Discogs (release 37546023) D 882 входит в следующий том серии «Schubert 200» — «Hoffnung 1826» (HMM 902779, 2026)",
+  "ИСПРАВЛЕНО: ролик xTLtzUL47u0 в прошлой сессии числился за Schreier/Olbertz (Eterna 1971); метаданные фонограммы дают Hyperion Song Edition 18 (Schreier/Johnson, 1993). Записи Schreier/Olbertz (Eterna 827227, 1971) на YouTube по-прежнему не найдено",
+  "Goerne «An mein Herz» (harmonia mundi, 2008) — D 882 на этом диске НЕТ (проверено по трек-листу Discogs 15096186: есть Am Bach im Frühling D 361, но не Im Frühling D 882); его версия — на «Wanderers Nachtlied» (2014)",
+  "Alice Coote (Hyperion CDA68169) — записала, но издание разбивает D 882 на четыре трека по строфам; цельного ролика нет, поэтому запись непригодна для плеера",
+  "MusicBrainz WS весь второй проход отвечает «The MusicBrainz web server is currently busy» — browse recording?work=… недоступен; работали по сохранённому каркасу mb.json",
+  "Discogs API работает, но с жёстким лимитом 25 запросов/мин; при превышении отдаёт пустое тело (не JSON) — нужны паузы ≥20 с между запросами",
+  "Записи Hermann Prey (Philips 6747 059, 1971), Günther Leib (Eterna 826256, 1971) и Elena Gerhardt (HMV D1461, 1928) на YouTube не найдены и во втором проходе",
+  "Годы студийных версий Fischer-Dieskau с Муром (EMI «Lieder Vol. 2» и свод DG) закрыть не удалось: у Грея их нет, метаданные Topic по EMI-версии пусты, по DG-версии дают только release_year 1969 (год издания внутри свода 1966–72)"
+ ]
 }

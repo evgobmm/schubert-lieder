@@ -1,0 +1,827 @@
+{
+  "d": "777",
+  "title": "Lachen und Weinen",
+  "tier": "famous",
+  "method_note": "WebSearch-бюджет сессии исчерпан (200/200) до начала работы, поэтому сравнительные обзоры (Gramophone, MusicWeb, BBC Music Magazine, слепые тесты) через поисковую выдачу получить не удалось; веб-исследование велось прямыми обращениями: дискография Майкла Грея (classical-discography.org, POST search2.php + modalcontent.php — полная выдача по работе, 15 позиций), Discogs API (release/track-поиск; во второй половине сессии API начал отдавать пустые ответы — часть проверок оборвана), MusicBrainz API (work 61ed4156-3a91-3835-8486-3a7a6b17e374, 39 записей), Википедия (дискография Ферье), naxos.com. Даты записи — только из дискографий и кредитов официальных изданий. Отдельно фиксирую: строки «℗ <год> <лейбл>» в описаниях официальных Topic-загрузок Universal/Warner/harmonia mundi — это лейблные кредиты фонограммы (год издания фонограммы), а НЕ дата сессии; там, где нет дискографического подтверждения сессии, это помечено в year_source.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1962 (сессия 7–8 мая)",
+      "year_source": "Реестр альбомов проекта, planning/youtube/albums.md, карточка «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VII. Folge: Gedichte von Heine, Rückert und Schlegel» (Electrola E/STE 91 204): «сессия 7–8 мая 1962, Берлин-Целендорф, Evangelisches Gemeindehaus», сторона B — Lachen und Weinen op. 59/4, Daß sie hier gewesen, Sei mir gegrüßt, Du bist die Ruh, Waldesnacht. Карточка составлена в потоке по D 741/775/776/777.",
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VII. Folge (Heine, Rückert, Schlegel); переизд. «Schubert: 21 Lieder»",
+      "label": "Electrola / EMI → Warner Classics",
+      "age_voice": "37 лет (р. 1925); середина пика ~1951–1972, до сухости середины 1970-х (дайджест певцов).",
+      "reputation": "Опорная позиция реестра для всего рюккертовского блока корпуса. Отдельных сравнительных рецензий именно этого номера получить не удалось (WebSearch недоступен).",
+      "sources": [
+        "planning/youtube/albums.md (карточка Electrola E/STE 91 204)",
+        "planning/research/singers-digest.md (карточка Fischer-Dieskau)"
+      ],
+      "youtube": [
+        {
+          "videoId": "lJcjXG1tOww",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": false,
+          "oembed_ok": true
+        }
+      ],
+      "note": "ВАЖНО: официальные Topic-загрузки Universal у Фишера-Дискау в этой песне — все три из DG-свода (℗ 1969), а не из EMI-сессии 1962. Единственная загрузка, похожая на EMI-версию (lJcjXG1tOww, 107 с), поставлена агрегатором «The Golden Legacy of Music» — серый лейбл, атрибуция к сессии 1962 НЕ верифицирована, для публикации в таком виде не годится."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1969 (сессия свода; ℗ 1969)",
+      "year_source": "Кредиты официальной загрузки Universal (Topic): альбом «Schubert: Lieder», «℗ 1969 Deutsche Grammophon GmbH, Berlin», продюсеры Otto Gerdes и Rainer Brock, тонмейстер Hans-Peter Schweigmann. Диапазон сессий свода DG «Sämtliche Lieder» 1966–72 — planning/research/singers-digest.md. Подискового года именно D 777 ни у Грея (в его выдаче по работе Фишера-Дискау нет вовсе — база покрывает LP 1950–79 выборочно), ни в MusicBrainz нет; нужен буклет 21-CD бокса.",
+      "album": "Schubert: Lieder (свод DG «Sämtliche Lieder», 21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–44 года; поздний пик, тон ещё полный.",
+      "reputation": "Свод DG — опорное издание мужского корпуса песен (реестр albums.md; дайджест). Самая слушаемая загрузка песни вообще: ZUB-AfeFXEY ≈ 47,5 тыс. просмотров — больше, чем у любой другой официальной записи D 777.",
+      "sources": [
+        "planning/research/singers-digest.md",
+        "https://musicbrainz.org/work/61ed4156-3a91-3835-8486-3a7a6b17e374 (4 записи Fischer-Dieskau/Moore)",
+        "кредиты Topic-загрузок ZUB-AfeFXEY / yQLTxJrl5VU / APl6NFFbDS8"
+      ],
+      "youtube": [
+        {
+          "videoId": "ZUB-AfeFXEY",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "yQLTxJrl5VU",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "APl6NFFbDS8",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Три Topic-ID — один и тот же трек на разных изданиях свода (106/108/108 с, все ℗ 1969). Для публикации брать ZUB-AfeFXEY. Год в плеере: при отсутствии буклетной даты допустим формат «1969» (год фонограммы) или «1966–69?» по правилу о неустановленном годе."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": "1955–1964 (точный год сессии не установлен)",
+      "year_source": "Discogs release 15237021 — Testament SBT 1206 «Elisabeth Schwarzkopf: The Unpublished EMI Recordings 1955–1964, Lieder & Songs», трек A2 «Lachen und Weinen» (композитор Schubert, слова Rückert); пианист по кредитам релиза — Gerald Moore. Примечание релиза: 24-страничный буклет содержит сведения о каждой сессии — точную дату даст только он. У Грея по этой работе Шварцкопф отсутствует (все 15 позиций проверены).",
+      "album": "The Unpublished EMI Recordings 1955–1964, Lieder & Songs",
+      "label": "Testament SBT 1206 (изд. 2000)",
+      "age_voice": "40–49 лет — внутри пика 1948–1964 (дайджест).",
+      "reputation": "Testament — образцовая реставрационная серия неопубликованных сессий EMI; сам факт, что EMI держала запись в архиве, говорит о том, что это не «отвергнутый брак», а невыпущенный материал рецитальных сессий с Муром.",
+      "sources": [
+        "https://api.discogs.com/releases/15237021"
+      ],
+      "youtube": [],
+      "note": "ОТВЕТ ПО ПРИОРИТЕТНОМУ ПЕВЦУ: Шварцкопф песню ЗАПИСАЛА. НО на YouTube её нет: четыре целевых поиска (yt-dlp, в т.ч. по её Topic-каналу «ELISABETH SCHWARZKOPF - Topic») не дали ни одной загрузки D 777. Для топ-5 непригодна, пока не появится официальная загрузка."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": "1937 (ок. 5–15 марта, по матрицам 2EA 4849/4850)",
+      "year_source": "planning/youtube/albums.md, карточка «Elisabeth Schumann — HMV DB 3184 (78 об/мин) / Naxos Historical 8.110731 / Warner Icon»: пианист Gerald Moore, на пластинке 4 песни — Nähe des Geliebten, Lachen und Weinen, Nacht und Träume, Seligkeit; датировка по матрицам 2EA 4849/4850. Согласуется с лейблным кредитом официальной загрузки Warner «℗ 1937 Warner Classics… цифровой ремастеринг ℗ 1989». Naxos-каталог (8.110731, трек 22) подтверждает пару Schumann/Moore.",
+      "album": "HMV DB 3184; переизд. Naxos Historical 8.110731 «Schubert Lieder (1927–1945)», Warner «Icon: Elisabeth Schumann»",
+      "label": "HMV / EMI → Warner Classics; Naxos Historical",
+      "age_voice": "48–49 лет (1888–1952); конец большого пика (1920-е — сер. 1930-х), голос ещё свеж, стиль эталонный (дайджест).",
+      "reputation": "Классика шубертовской дискографии 78-х; в антологиях EMI/Naxos она представляет довоенный венский стиль. Специальных рецензий на номер не найдено.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "planning/youtube/albums/female-recitalists.md (сессии Э. Шуман по Грею)",
+        "https://www.naxos.com/CatalogueDetail/?id=8.110731 (трек 22: Schumann/Moore, 1:39)"
+      ],
+      "youtube": [
+        {
+          "videoId": "J-CO4dWV5pU",
+          "channel": "Elisabeth Schumann - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "0KK4TrNfthM",
+          "channel": "Elisabeth Schumann - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "CtazwvTPYHI",
+          "channel": "Elisabeth Schumann & Gerald Moore - Topic",
+          "official": false,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Приоритетный певец, запись есть и официально доступна (J-CO4dWV5pU — Warner «Icon», ℗ 1937, кредит «Piano: Gerald Moore»). РАСХОЖДЕНИЕ: кредиты Naxos-загрузки 0KK4TrNfthM называют пианистом George Reeves, тогда как каталожная страница Naxos и Warner дают Moore — перед публикацией брать Warner-версию и указывать Moore. CtazwvTPYHI — агрегатор «Classique Perfecto», не использовать."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Erik Werba",
+      "rec_year": "1958 (сессии 30 мая, 3, 7–8 июня; ℗ 1959)",
+      "year_source": "Дискография Майкла Грея через реестр проекта: «Seefried — Schubert-Lieder LP (DG 136 009, зап. 30.05 + 3, 7–8.06.1958)», пианист Erik Werba (planning/youtube/albums/female-recitalists.md). Кредиты официальной загрузки Universal: альбом «The Art Of Irmgard Seefried – Volume 5», «℗ 1959 Deutsche Grammophon», «Released on: 1958-01-01», продюсер Hans Ritter, тонмейстер Heinz Wildhagen — сходится с сессиями 1958 г.",
+      "album": "Schubert-Lieder (DG 136 009); переизд. «The Art of Irmgard Seefried, Vol. 5», DG «Am Brunnen vor dem Tore», Diapason «22 Lieder»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "39 лет (1919–1988); внутри пика (кон. 1940-х — нач. 1960-х), до спада с середины 1960-х (дайджест).",
+      "reputation": "СИЛЬНЕЙШЕЕ внешнее свидетельство в досье: именно эту запись редакция журнала Diapason выбрала как эталонное прочтение D 777 для антологии «22 Lieder» (Les Indispensables de Diapason № 160, сентябрь 2023) — трек 14, кредиты «Irmgard Seefried, soprano; Erik Werba, piano» (Discogs 30791559). Функционально это и есть найденный «обзор с вердиктом» по данной песне. Кроме того, DG выбрала её же для витринной антологии «Am Brunnen vor dem Tore» (Discogs 26549036, трек A3).",
+      "sources": [
+        "https://api.discogs.com/releases/30791559",
+        "https://api.discogs.com/releases/26549036",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/youtube/albums.md (карточка антологии Diapason «22 Lieder»)"
+      ],
+      "youtube": [
+        {
+          "videoId": "yE7e4TfWPXc",
+          "channel": "Irmgard Seefried - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "nZodVqX56fI",
+          "channel": "Irmgard Seefried - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "VVWjvPcPjkQ",
+          "channel": "Irmgard Seefried - Topic",
+          "official": true,
+          "oembed_ok": null
+        },
+        {
+          "videoId": "Wwh83Bwk6Z8",
+          "channel": "Irmgard Seefried - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "Главный кандидат «старой школы» по внешнему признанию. yE7e4TfWPXc — Universal («The Art of Irmgard Seefried, Vol. 5», ℗ 1959, 97 с); nZodVqX56fI — та же запись в диапазоновском переиздании (IDOL, 104 с). На Topic-канале не менее 7 загрузок D 777 разной длительности (94–133 с): это студийная DG-версия, её переиздания и отдельный лайв 1957 — привязка каждого ID к сессии до публикации требует сверки длительностей."
+    },
+    {
+      "singer": "Irmgard Seefried",
+      "pianist": "Erik Werba",
+      "rec_year": "1957 (концерт; ℗ 1957 — BNF Collection 2016)",
+      "year_source": "Кредиты официальной загрузки (Believe SAS): альбом «Liederabend Irmgard Seefried (Live Recording, Mono Version)», «℗ 1957 - BNF Collection 2016», «Released on: 1957-01-01». Дискографического подтверждения даты концерта (буклет/каталог) не получено — год считать предварительным.",
+      "album": "Liederabend Irmgard Seefried (live, mono)",
+      "label": "BNF Collection (Believe)",
+      "age_voice": "38 лет; пик.",
+      "reputation": "Концертный документ того же периода, что и студийная DG-версия; отдельных оценок нет.",
+      "sources": [
+        "кредиты Topic-загрузки Jqcu3vQydFA",
+        "https://musicbrainz.org/recording/ff35a8ad-aa71-447f-bdde-e555a739e24b (издание «Liederabend», 2004-02-02)"
+      ],
+      "youtube": [
+        {
+          "videoId": "Jqcu3vQydFA",
+          "channel": "Irmgard Seefried - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Заметно медленнее студийной (133 с против 97). Резервный вариант; при прочих равных студийная 1958 предпочтительнее (документированная дата, лучше звук)."
+    },
+    {
+      "singer": "Kathleen Ferrier",
+      "pianist": "Benjamin Britten",
+      "rec_year": "1952 (4 февраля)",
+      "year_source": "Дискография Кэтлин Ферье (англ. Википедия, «Kathleen Ferrier discography»): сессия 4 февраля 1952, Лондон, Maida Vale; три шубертовские песни с Бриттеном — Ganymed op. 19/3, Du liebst mich nicht op. 59/1, Lachen und Weinen op. 59/4; примечание: «часть рецитала, переданного в эфир 13 мая 1952»; издано в Kathleen Ferrier Edition, том 4.",
+      "album": "Kathleen Ferrier Edition, Vol. 4 (Schumann / Schubert / Brahms); также в «Centenary Edition — The Complete Decca Recordings» (2012) и «Britten the Performer»",
+      "label": "Decca",
+      "age_voice": "39 лет (1912–1953); последний полный год работы, за полтора года до смерти; голос ещё в силе.",
+      "reputation": "Дуэт Ферье/Бриттен — одна из самых почитаемых страниц английской камерной традиции. Конкретных рецензий на номер получить не удалось.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kathleen_Ferrier_discography",
+        "https://musicbrainz.org/recording/3bd380b8-a228-4e8f-8c5e-cb59af87bd73",
+        "кредиты Topic-загрузок (Decca/UMG)"
+      ],
+      "youtube": [
+        {
+          "videoId": "ce40p6EOjA8",
+          "channel": "Kathleen Ferrier - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "aNwec0SO6BU",
+          "channel": "Kathleen Ferrier - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "324heaQp35U",
+          "channel": "Kathleen Ferrier - Topic",
+          "official": true,
+          "oembed_ok": null
+        },
+        {
+          "videoId": "6hj8BMY-s0o",
+          "channel": "Kathleen Ferrier - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "Все четыре Topic-загрузки — одна и та же запись на четырёх изданиях Decca (117–121 с): «Kathleen Ferrier Edition», «Vol. 4», «Centenary Edition», «Britten the Performer». Пятая загрузка iNDXNouDjao — агрегатор «Classical Moments» с ложной рамкой «Recordings 1945–1951», не использовать."
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "не установлен (издание Decca «Britten the Performer», ℗ 1975)",
+      "year_source": "Кредиты официальной загрузки Universal: альбом «Britten The Performer», «℗ 1975 Decca Music Group Limited», продюсер Michael Woolcock, звукорежиссёр John Dunkerley. Это год фонограммы/издания, НЕ сессии. Ни у Грея (в выдаче по работе Пирса нет), ни в MusicBrainz (две записи Pears/Britten, first-release-date 2013) даты сессии нет.",
+      "album": "Britten the Performer (Decca; The Performer: Complete Decca Recordings, 2013)",
+      "label": "Decca",
+      "age_voice": "если сессия начала 1970-х — ок. 60–65 лет, заметно позже пика (1950-е–1960-е); если это перенос более раннего рецитала — иначе. Именно поэтому дату надо установить до публикации.",
+      "reputation": "Дуэт Pears/Britten — эталонная линия английской шубертианы (Winterreise 1963 «среди величайших» — дайджест). Оценок номера не найдено.",
+      "sources": [
+        "https://musicbrainz.org/recording/0ae9b62c-ff5d-482f-94ec-f5f107d3090b",
+        "https://musicbrainz.org/recording/0c799c70-b822-4466-95d0-469ed4e6c3e3",
+        "кредиты Topic-загрузки gQY-vImjw74"
+      ],
+      "youtube": [
+        {
+          "videoId": "gQY-vImjw74",
+          "channel": "Peter Pears - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "MusicBrainz знает ДВЕ записи Pears/Britten этой песни (107 и 111 с) — как и в D 776, где официальные метаданные Decca различали версии 1954 и 1959 г. Здесь года в метаданных нет. Требуется целевое доисследование по дискографии Decca/Britten-Pears перед публикацией."
+    },
+    {
+      "singer": "Kirsten Flagstad",
+      "pianist": "Edwin McArthur",
+      "rec_year": "1937 (28 июня)",
+      "year_source": "Дискография Майкла Грея (classical-discography.org, запись id 60877): «Lachen und Weinen, D777, op. 59, no. 4 | HMV DA1586 | 1937 June 28 | London, EMI Studio No. 1, Abbey Road | Kirsten Flagstad, soprano; Edwin MacArthur, piano | префикс 0EA, матрица 5280». Совпадает с реестром проекта (albums/female-recitalists.md: «Flagstad — HMV-сессия 28.06.1937: Im Abendrot, Die Forelle, Lachen und Weinen»).",
+      "album": "78 об/мин HMV DA 1586; переизд. Simax «Kirsten Flagstad, Volume 1: The Early Recordings 1914–1941»",
+      "label": "HMV / EMI; переизд. Simax Classics",
+      "age_voice": "41–42 года (1895–1962); вершина мировой славы (годы Метрополитен), голос в полном расцвете.",
+      "reputation": "Дайджест прямо предупреждает: у Флагстад Шуберт вторичен, манера монументальная, не камерная. Для короткой, лёгкой, почти скерцозной песни это скорее минус — оценивать по звучанию, не по имени.",
+      "sources": [
+        "https://www.classical-discography.org/ (search2.php: Schubert / Lachen und Weinen; modalcontent id=60877)",
+        "planning/youtube/albums/female-recitalists.md",
+        "кредиты Topic-загрузки Ba86ouOGnNw (Simax, The Orchard)"
+      ],
+      "youtube": [
+        {
+          "videoId": "Ba86ouOGnNw",
+          "channel": "Kirsten Flagstad - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Дата документирована матрицей — редкая роскошь для 78-х. Topic-канал через Simax/The Orchard (лейбл-правообладатель переиздания), не «серый» агрегатор."
+    },
+    {
+      "singer": "Erna Berger",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1942–1945 (берлинские радиозаписи; издание Urania ℗ 1952)",
+      "year_source": "Дискография Майкла Грея (id 229146): «Lachen und Weinen, D777, op. 59, no. 4 | Urania URLP7060 | Date: 1942 - 1945 | Erna Berger, soprano; Michael Raucheisen, piano». Кредиты Topic-загрузки: «Erna Berger Recital», «℗ 1952 @ Urania Records» — год пластинки, не сессии.",
+      "album": "Erna Berger Recital (Urania URLP 7060); материал Raucheisen-Edition (RRG Берлин)",
+      "label": "Urania; переизд. в серии радиозаписей Раухайзена",
+      "age_voice": "42–45 лет (р. 1900, ум. 1990); зрелый пик лёгкого лирико-колоратурного сопрано.",
+      "reputation": "Берлинские военные радиозаписи с Раухайзеном — тот же корпус, что даёт документ формы Хоттера и Андерса (реестр albums.md). Специальных оценок номера не найдено; певица в дайджесте отсутствует (карточки нет) — её форма в эти годы отдельно не верифицировалась.",
+      "sources": [
+        "https://www.classical-discography.org/ (modalcontent id=229146)",
+        "кредиты Topic-загрузок ekU6FRzo3fg / 28bACyJ-cIU / rig2w6cm3OM"
+      ],
+      "youtube": [
+        {
+          "videoId": "ekU6FRzo3fg",
+          "channel": "Erna Berger - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "28bACyJ-cIU",
+          "channel": "Erna Berger - Topic",
+          "official": true,
+          "oembed_ok": null
+        },
+        {
+          "videoId": "rig2w6cm3OM",
+          "channel": "Michael Raucheisen - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "Год — только диапазон (у Грея так и записано). По правилу о неустановленном годе допустим формат «1942–45?», если запись войдёт в пятёрку."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961 (28–30 ноября)",
+      "year_source": "Дискография Майкла Грея (id 175961): «Lachen und Weinen, D777, op. 59, no. 4 | Columbia SAX5272 / Angel S36462 | 1961 November 28 - 30 | London, EMI Studio No. 1, Abbey Road | Christa Ludwig, mezzo-soprano; Geoffrey Parsons, piano». Совпадает с реестром (albums/female-recitalists.md: SAX 5272, сессии 28–30.11.1961 + 20.02.1962).",
+      "album": "Schubert Lieder (Columbia SAX 5272 / Angel S 36462); ядро корпуса EMI «15 Lieder», Warner «Complete Recitals»",
+      "label": "Columbia (UK) / EMI → Warner Classics",
+      "age_voice": "33 года (1928–2021); ранний пик ~1957–1975, голос в лучшей форме.",
+      "reputation": "Это тот же сессионный круг, который дал 5-звёздную по klassik-prisma «Gretchen am Spinnrade» (дайджест, реестр). Приоритетная певица по правилам.",
+      "sources": [
+        "https://www.classical-discography.org/ (modalcontent id=175961)",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [],
+      "note": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ ПО YouTube: на «Christa Ludwig - Topic» есть только DG-версия с Гейджем (℗ 1974). Целевые поиски версии 1961 г. с Парсонсом (yt-dlp, 2 запроса) загрузок не дали. Лучшая по возрасту запись приоритетной певицы недоступна — это ограничение, а не отсутствие записи."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Irwin Gage",
+      "rec_year": "не позднее 1974 (℗ 1974 DG; точная дата сессии не установлена)",
+      "year_source": "Кредиты официальной загрузки Universal: альбом «Schubert: Lieder», «℗ 1974 Deutsche Grammophon GmbH, Berlin», продюсер Cord Garben, тонмейстер Günter Hermanns. Дайджест датирует DG-ремейк с Гейджем «~1973». У Грея этой сессии нет.",
+      "album": "Schubert: Lieder (DG)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "ок. 45 лет; ещё внутри пика (~1957–1975), но на десять лет позже версии с Парсонсом — по правилу «при прочих равных предпочитать более раннюю» уступает ей.",
+      "reputation": "Второй, более поздний взгляд той же певицы; отдельных сравнительных оценок не найдено.",
+      "sources": [
+        "кредиты Topic-загрузки GiFBiZyJTpc",
+        "planning/research/singers-digest.md (карточка Ludwig: DG-ремейк с Gage ~1973)",
+        "https://musicbrainz.org/work/61ed4156-3a91-3835-8486-3a7a6b17e374 (две записи Ludwig/Gage)"
+      ],
+      "youtube": [
+        {
+          "videoId": "GiFBiZyJTpc",
+          "channel": "Christa Ludwig - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Единственная доступная на YouTube запись приоритетной певицы в этой песне. Год для плеера: «1974» (год фонограммы) — сессия документально не подтверждена."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Jörg Demus",
+      "rec_year": "не позднее 1970 (℗ 1970; сессия не документирована)",
+      "year_source": "Кредиты официальной загрузки Warner: альбом «Icon: Elly Ameling», «℗ 1970 Original… правообладатель EMI Music Germany», продюсер Gerd Berg, тонмейстер Johann-Nikolaus Matthes. Дайджест относит записи Амелинг с Демусом к «~1965». У Грея этой сессии нет. Расхождение 1965 / ℗ 1970 не разрешено.",
+      "album": "Icon: Elly Ameling (материал Electrola/EMI)",
+      "label": "EMI Electrola → Warner Classics",
+      "age_voice": "ок. 37 лет (р. 1933) при датировке 1970; самое начало пика ~1965–1985; голос свежий, дикция образцовая.",
+      "reputation": "Амелинг — самая записываемая шубертианка своего поколения (дайджест). Оценок номера не найдено.",
+      "sources": [
+        "кредиты Topic-загрузки Z6t8jDRkhmo",
+        "planning/research/singers-digest.md (карточка Ameling)",
+        "planning/youtube/albums.md (карточки Ameling)"
+      ],
+      "youtube": [
+        {
+          "videoId": "Z6t8jDRkhmo",
+          "channel": "Elly Ameling - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "16,4 тыс. просмотров — вторая по слушаемости официальная загрузка песни после DG-версии Фишера-Дискау. Перед публикацией нужно снять расхождение года (1965 vs ℗ 1970)."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Leonard Hokanson",
+      "rec_year": "1971 (27–30 октября, Мюнхен) — по Грею; лейблные кредиты дают ℗ 1974",
+      "year_source": "Дискография Майкла Грея (id 176407): «Lachen und Weinen, D777, op. 59, no. 4 | Philips 6747 059 | 1971 October 27 - 30 | München | Hermann Prey, baritone; Leonard Hokanson, piano». Кредиты официальной Topic-загрузки: альбом «Lieder von Franz Schubert — Lied-Edition Vol. 2», «℗ 1974 Deutsche Grammophon», продюсер Christian Lange. РАСХОЖДЕНИЕ лейбла (Philips у Грея / DG в метаданных Universal) не разрешено: возможно, это одна и та же фонограмма под другим лейблом группы Universal, а возможно — другая сессия.",
+      "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2 (у Грея: Philips 6747 059)",
+      "label": "Philips / Deutsche Grammophon (Universal)",
+      "age_voice": "42 года (1929–1998); внутри пика ~1960–1980, до тяжеловесных поздних циклов 1980-х.",
+      "reputation": "Прай — один из двух главных немецких баритонов-лидертистов эпохи; его шубертовский свод начала 1970-х принято считать лучшей его студийной полосой (дайджест). Отдельных рецензий номера не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/ (modalcontent id=176407)",
+        "кредиты Topic-загрузки H2PT9yVT7dE",
+        "planning/research/singers-digest.md (карточка Prey)"
+      ],
+      "youtube": [
+        {
+          "videoId": "H2PT9yVT7dE",
+          "channel": "Hermann Prey - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "Nv3B8uX4R88",
+          "channel": "Hermann Prey - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "Две Topic-загрузки одинаковой длительности (95 с) — переиздания одной записи. Самое быстрое прочтение в пуле."
+    },
+    {
+      "singer": "Peter Schreier",
+      "pianist": "Walter Olbertz",
+      "rec_year": "1974",
+      "year_source": "Дискография Майкла Грея (id 199402): «Lachen und Weinen, D777, op. 59, no. 4 | Eterna 826408 | 1974 | Peter Schreier, tenor; Walter Olbertz, piano».",
+      "album": "Schubert-Lieder (Eterna 826408)",
+      "label": "Eterna (VEB Deutsche Schallplatten) → Berlin Classics",
+      "age_voice": "39 лет (1935–2019); внутри пика ~1965–1990.",
+      "reputation": "Этерновские циклы Шрайера 1970-х — опорный слой восточногерманской шубертианы (дайджест). Оценок номера не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/ (modalcontent id=199402)",
+        "planning/research/singers-digest.md (карточка Schreier)"
+      ],
+      "youtube": [],
+      "note": "ОТРИЦАТЕЛЬНО по YouTube: целевой поиск (yt-dlp «Lachen und Weinen Schreier Olbertz») официальной загрузки не дал; на Berlin Classics Topic песня не найдена."
+    },
+    {
+      "singer": "Erika Köth",
+      "pianist": "Gerald Moore",
+      "rec_year": "1963 (12–14 мая)",
+      "year_source": "Дискография Майкла Грея (id 177755): «Lachen und Weinen, D777, op. 59, no. 4 | Eurodisc 72120 | 1963 May 12 - 14 | Berlin, Meistersaal | Erika Köth, soprano; Gerald Moore, piano». Совпадает с карточкой реестра (albums.md: «Erika Köth singt Lieder…», Ariola-Eurodisc, сессии 12–14 мая 1963).",
+      "album": "Erika Köth singt Lieder von Mozart, Schubert, Schumann, Brahms… (Eurodisc 72120)",
+      "label": "Ariola-Eurodisc",
+      "age_voice": "не верифицировано (певицы нет в дайджесте); 1963 — годы её главной оперной славы.",
+      "reputation": "Ценность прежде всего в аккомпанементе Джеральда Мура. Оценок номера не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/ (modalcontent id=177755)",
+        "planning/youtube/albums.md (карточка Eurodisc 72120)"
+      ],
+      "youtube": [],
+      "note": "На YouTube не найдено (карточка реестра фиксирует то же самое по другим песням диска)."
+    },
+    {
+      "singer": "Barbara Hendricks",
+      "pianist": "Radu Lupu",
+      "rec_year": "не позднее 1993 (℗ 1993; сессия не документирована)",
+      "year_source": "Кредиты официальной загрузки Warner: «Schubert: Lieder, Vol. II», «℗ 1993 Warner Music France», продюсер Etienne Collard, инженер Daniel Michel, фортепиано Radu Lupu. Реестр (albums/female-recitalists.md) даёт для тома I точные сессии 25–30.11.1985, Salle Wagram; по тому II — только ℗ 1993.",
+      "album": "Schubert: Lieder, Vol. II",
+      "label": "EMI → Warner Classics/Erato",
+      "age_voice": "ок. 45 лет (р. 1948); внутри пика 1980-х–1990-х.",
+      "reputation": "Редкий случай, когда за роялем великий солист-пианист (Лупу), а не штатный аккомпаниатор — это и есть главный аргумент дуэта (дайджест).",
+      "sources": [
+        "кредиты Topic-загрузки 3agsMEurX0E",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md (карточка Hendricks)"
+      ],
+      "youtube": [
+        {
+          "videoId": "3agsMEurX0E",
+          "channel": "Barbara Hendricks - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Кандидат на «современную» квоту (1990+)."
+    },
+    {
+      "singer": "Kathleen Battle",
+      "pianist": "James Levine",
+      "rec_year": "не позднее 1988 (℗ 1988; сессия не документирована)",
+      "year_source": "Кредиты официальной загрузки Universal: «Schubert: Lieder», «℗ 1988 Deutsche Grammophon», продюсер Cord Garben. Карточка реестра (albums.md): DG 419 237-2, «1988 (издание; сессия не документирована)», 17 треков, переизд. Eloquence 2009 «Nähe des Geliebten».",
+      "album": "Schubert: Lieder (DG 419 237-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "не верифицировано (певицы нет в дайджесте); конец 1980-х — годы её наибольшей известности.",
+      "reputation": "Диск с дирижёром за роялем; в дайджесте певица отсутствует, устоявшейся репутации в Lieder у неё нет — применять правило скепсиса к «звёздным» рецита́лам. Оценок номера не найдено.",
+      "sources": [
+        "кредиты Topic-загрузки vo3g57lk4_Y",
+        "planning/youtube/albums.md (карточка DG 419 237-2)"
+      ],
+      "youtube": [
+        {
+          "videoId": "vo3g57lk4_Y",
+          "channel": "Kathleen Battle - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Есть и фан-загрузка T-Mz6s9yCb8 (13,6 тыс. просмотров) — та же запись, использовать официальную."
+    },
+    {
+      "singer": "Arleen Augér",
+      "pianist": "Lambert Orkis (хаммерклавир/фортепиано периода)",
+      "rec_year": "не позднее 1991 (℗ 1991; сессия ~1990–91)",
+      "year_source": "Кредиты официальной загрузки (Parlophone/Warner): «Schubert – Lieder/Winterreise», «℗ 1991 Parlophone Records Limited», продюсер Clive Bennett, «Fortepiano: Lambert Orkis». Карточка реестра (albums.md): Virgin Classics 5614572, «℗ 1991 (~1990–91)», диск разделён с Томасом Алленом.",
+      "album": "Schubert Lieder (Virgin Classics 5614572)",
+      "label": "Virgin Classics → Warner/Parlophone",
+      "age_voice": "ок. 51–52 года (1939–1993); поздний пик 1980-х–1991, за два года до ранней смерти.",
+      "reputation": "Аугер конца 1980-х — одна из самых уважаемых шубертианок своего поколения (дайджест). Особенность записи — исторический инструмент.",
+      "sources": [
+        "кредиты Topic-загрузки pxtRa_887Tg",
+        "planning/youtube/albums.md (карточка Virgin 5614572)",
+        "planning/research/singers-digest.md (карточка Auger)"
+      ],
+      "youtube": [
+        {
+          "videoId": "pxtRa_887Tg",
+          "channel": "Arleen Augér - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Кандидат на «современную» квоту (1990+)."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994 (сессии февраля)",
+      "year_source": "Карточка реестра albums.md: «Bryn Terfel — An die Musik – Favourite Schubert Songs (DG 445 294-2), запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; издание 04.09.1994»; год унифицирован по корпусу (D 216, D 257, D 328, D 768, D 853). Кредиты Topic-загрузки: «Schubert: An die Musik», «℗ 1994 Deutsche Grammophon».",
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2), 23 песни",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28–29 лет (р. 1965); начало пика ~1992–2005, голос молодой и мощный.",
+      "reputation": "Бестселлер каталога DG; klassik-prisma даёт диску 4–5 баллов за Erlkönig (реестр albums.md). Терфель не циклист, но именно этот диск — его самая признанная песенная работа.",
+      "sources": [
+        "planning/youtube/albums.md (три сходящиеся карточки альбома)",
+        "planning/research/singers-digest.md (карточка Terfel)",
+        "кредиты Topic-загрузки vDK0s0ZyZh0"
+      ],
+      "youtube": [
+        {
+          "videoId": "vDK0s0ZyZh0",
+          "channel": "Bryn Terfel - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Год записи документирован реестром и сквозно унифицирован — сильный кандидат на квоту 1990+."
+    },
+    {
+      "singer": "Geraldine McGreevy",
+      "pianist": "Graham Johnson",
+      "rec_year": "не позднее 2000 (℗ 2000; издание апрель 2000)",
+      "year_source": "MusicBrainz: запись 097ea38c-7678-4564-9b7e-0dca82b95585 издана на «The Hyperion Schubert Edition, Volume 35: Schubert 1822–1825», дата издания 2000-04. Кредиты официальной загрузки: «Schubert: Hyperion Song Edition 35 – Schubert 1822-1825», «℗ 2000 Hyperion Records Limited», «Released on: 2000-04-01». Даты сессий (страница Hyperion) получить не удалось.",
+      "album": "The Hyperion Schubert Edition, Vol. 35: Schubert 1822–1825 (CDJ33035)",
+      "label": "Hyperion (с 2023 — official audio через Universal)",
+      "age_voice": "не верифицировано (певицы нет в дайджесте); на 2000 г. — начало карьеры.",
+      "reputation": "Научный эталон издания: комментарии Грэма Джонсона к каждой песне (дайджест, реестр complete-editions.md). Ценность позиции — прежде всего как «издательской нормы», а не как вокального события.",
+      "sources": [
+        "https://musicbrainz.org/recording/097ea38c-7678-4564-9b7e-0dca82b95585",
+        "planning/youtube/albums/complete-editions.md",
+        "кредиты Topic-загрузки tJASH3Hn_Mg"
+      ],
+      "youtube": [
+        {
+          "videoId": "tJASH3Hn_Mg",
+          "channel": "Geraldine McGreevy - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Именно том 35 «Schubert 1822–1825» — «домашний» том этой песни в Hyperion Edition; страницу песни на hyperion-records.co.uk с заметками Джонсона получить не удалось (см. surveys)."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Leif Ove Andsnes",
+      "rec_year": "не позднее 2008 (℗ 2008; сессия не документирована)",
+      "year_source": "Кредиты официальной загрузки Warner: «Schubert: The Wanderer – Lieder & Fragments», «℗ 2008 Parlophone Records Limited», продюсер John Fraser, «Piano: Leif Ove Andsnes», «Tenor Vocals: Ian Bostridge». Реестр (albums/modern-series.md) описывает серию Бостридж/Андснес (EMI, «соната + Lieder», 2002–2007) — этот альбом в реестре не карточкой, только серией.",
+      "album": "Schubert: The Wanderer – Lieder & Fragments",
+      "label": "EMI Classics → Warner/Parlophone",
+      "age_voice": "ок. 43–44 года (р. 1964); конец пика ~1995–2010, до поздней манерности.",
+      "reputation": "Дайджест прямо предупреждает о позднейшей «манерности/сухости» Бостриджа; серия с Андснесом ценится за пианиста. Отдельных оценок номера нет.",
+      "sources": [
+        "кредиты Topic-загрузки bK0g_mZHCRo",
+        "planning/youtube/albums/modern-series.md (серия Bostridge/Andsnes)",
+        "planning/research/singers-digest.md (карточка Bostridge)"
+      ],
+      "youtube": [
+        {
+          "videoId": "bK0g_mZHCRo",
+          "channel": "Leif Ove Andsnes - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Загрузка живёт на Topic-канале ПИАНИСТА (Andsnes), не певца — для гейта «соответствие канала певцу» это нештатный, но легитимный официальный случай."
+    },
+    {
+      "singer": "Bernarda Fink",
+      "pianist": "Gerold Huber",
+      "rec_year": "2007 (издание 2008-09-02)",
+      "year_source": "Дайджест певцов: «рецитал harmonia mundi (зап. 2007, Huber)». Кредиты официальной загрузки harmonia mundi: альбом «Schubert: Lieder», «Released on: 2008-09-02». MusicBrainz: запись a426c6b5 на релизе «Lieder», 2008-08-28.",
+      "album": "Schubert: Lieder (harmonia mundi)",
+      "label": "harmonia mundi",
+      "age_voice": "ок. 52 года (р. 1955); внутри пика ~1995–2015.",
+      "reputation": "Тот же альбом дал со-победителя слепого теста 2020 по «Gretchen am Spinnrade» (наряду со Шварцкопф/Фишером) — единственный современный диск в пуле с таким внешним подтверждением (дайджест, карточка Fink).",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Fink)",
+        "https://musicbrainz.org/recording/a426c6b5-4da9-4346-9059-f217221d079e",
+        "кредиты Topic-загрузки rx7jYdf2uz0"
+      ],
+      "youtube": [
+        {
+          "videoId": "rx7jYdf2uz0",
+          "channel": "Bernarda Fink - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Сильнейший современный кандидат по внешнему признанию; 5,9 тыс. просмотров — заметно для этой песни."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Eric Schneider",
+      "rec_year": "не позднее 2014 (издание 2014-02-10; сессия не документирована)",
+      "year_source": "Кредиты официальной загрузки harmonia mundi: «Schubert: Wanderers Nachtlied», «Released on: 2014-02-10». MusicBrainz: запись a5524546 на релизе «Wanderers Nachtlied», 2014-02-10. Это том Goerne Schubert Edition (HM, 2008–2014) — дайджест, реестр.",
+      "album": "Wanderers Nachtlied (Matthias Goerne Schubert Edition, HM)",
+      "label": "harmonia mundi",
+      "age_voice": "ок. 46–47 лет (р. 1967); конец пика ~1997–2015.",
+      "reputation": "Самый записываемый Schubert-баритон поколения; 12-томный свод — крупнейший сольный корпус последних десятилетий (дайджест). Правило скепсиса к прессе о современных применяется.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Goerne)",
+        "https://musicbrainz.org/recording/a5524546-10f1-4a85-a771-3b3daa6ef2e1",
+        "кредиты Topic-загрузки HX8xpOzhsaE"
+      ],
+      "youtube": [
+        {
+          "videoId": "HX8xpOzhsaE",
+          "channel": "Matthias Goerne - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Кандидат на квоту «не ранее 2015» не подходит (2014), но закрывает квоту 1990+."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "не позднее 2016 (℗ 2016; издание 20.05.2016)",
+      "year_source": "Кредиты официальной загрузки: «Florian Boesch & Malcolm Martineau: Schubert Lieder Recital», «℗ 2016 PM Classics Ltd», «Released on: 2016-05-20». Реестр (albums.md, albums/modern-series.md): Onyx Classics ONYX 4149, изд. 20.05.2016, 24 песни, Martineau.",
+      "album": "Schubert: Lieder Recital (Onyx 4149)",
+      "label": "Onyx Classics",
+      "age_voice": "ок. 45 лет (р. 1971); внутри пика ~2010–наст.",
+      "reputation": "Бёш — рассказчик венской школы (дайджест); альбом уже используется проектом по D 805 и D 806. Рецензий именно на номер не найдено; правило скепсиса к современным применяется.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Onyx 4149)",
+        "planning/youtube/albums/modern-series.md",
+        "кредиты Topic-загрузки 4iGtxRJM-cg"
+      ],
+      "youtube": [
+        {
+          "videoId": "4iGtxRJM-cg",
+          "channel": "Florian Boesch - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Единственный кандидат пула с датой «не ранее 2015» (кроме издания Coote 2022, непригодного по форме треков) — важен для возрастной структуры пятёрки."
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2017 (запись 18–21 декабря; издание май 2022)",
+      "year_source": "Карточка реестра albums.md: «Alice Coote — Schubert: 21 Songs (Hyperion CDA68169), запись 18–21 декабря 2017, издание май 2022, All Saints' Church, East Finchley; продюсер Mark Brown, инженер Andrew Mellor». Кредиты загрузок: «Schubert: 21 Songs», «℗ 2022 Hyperion Records Limited», «Released on: 2022-05-06».",
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "label": "Hyperion (official audio через Universal)",
+      "age_voice": "ок. 49 лет (р. 1968); зрелая форма.",
+      "reputation": "Пресса по альбому: Gramophone («with an underlying tension», «doesn't sugar-coat anything»), BBC Music Magazine («every note is delivered with white-hot sincerity») — реестр albums.md. Это оценки диска в целом, не номера.",
+      "sources": [
+        "planning/youtube/albums.md (две карточки альбома)",
+        "https://musicbrainz.org/work/61ed4156-3a91-3835-8486-3a7a6b17e374 (две записи Coote/Drake: 52 и 63 с)",
+        "кредиты Topic-загрузок VAiA6q7LlMs / WvKqj0eUF88"
+      ],
+      "youtube": [
+        {
+          "videoId": "VAiA6q7LlMs",
+          "channel": "Alice Coote - Topic",
+          "official": true,
+          "oembed_ok": null
+        },
+        {
+          "videoId": "WvKqj0eUF88",
+          "channel": "Alice Coote - Topic",
+          "official": true,
+          "oembed_ok": null
+        }
+      ],
+      "note": "ДИСКВАЛИФИЦИРУЮЩАЯ ОСОБЕННОСТЬ: Hyperion разбил D 777 на ДВА трека (a. «Lachen und Weinen zu jeglicher Stunde», 52 с; b. «Weinen und Lachen…», 63 с) — как и D 259 на том же диске. Целой песни одним роликом нет, для плеера топ-5 запись непригодна."
+    },
+    {
+      "singer": "Edith Mathis",
+      "pianist": "Karl Engel",
+      "rec_year": "1988 (сессии июня) — по дайджесту",
+      "year_source": "planning/research/singers-digest.md, карточка Mathis: «рецитал DG (зап. июнь 1988, Engel)». Дискографического подтверждения именно для D 777 не получено (Discogs API к этому моменту сессии отдавал пустые ответы); MusicBrainz подтверждает существование записи Mathis/Engel этой песни (e1f63318).",
+      "album": "Schubert-рецитал DG",
+      "label": "Deutsche Grammophon",
+      "age_voice": "ок. 50 лет (р. 1938); внутри пика 1970-х–1980-х.",
+      "reputation": "Оценок номера не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Mathis)",
+        "https://musicbrainz.org/recording/e1f63318-fd44-4ac1-aa64-b28bc6da3f51"
+      ],
+      "youtube": [],
+      "note": "На YouTube официальной загрузки не найдено (целевой поиск yt-dlp дал только однофамильные шлягеры и Эдит Винс)."
+    },
+    {
+      "singer": "Vanni Marcoux",
+      "pianist": "Piero Coppola",
+      "rec_year": "1928 (25 июня)",
+      "year_source": "Дискография Майкла Грея (id 62866): «Lachen und Weinen, D777, op. 59, no. 4 [French] | HMV DA989 | 1928 June 25 | Jean-Émile Vanni Marcoux, bass-baritone; Piero Coppola, piano | префикс BT, матрица 4150, дубль 2».",
+      "album": "78 об/мин HMV DA 989; переизд. в исторических антологиях (MB: «1997 - Remaster»)",
+      "label": "HMV",
+      "age_voice": "ок. 50 лет (1877–1962); поздний период карьеры французского оперного баса-баритона.",
+      "reputation": "Историческая диковина: песня спета ПО-ФРАНЦУЗСКИ (у Грея прямо помечено «[French]»), за роялем дирижёр Пьеро Коппола. Для проекта — не кандидат в пятёрку, а свидетельство ранней рецепции.",
+      "sources": [
+        "https://www.classical-discography.org/ (modalcontent id=62866)",
+        "https://musicbrainz.org/recording/c4647e07-ec39-44d9-99c0-99e0ace86565"
+      ],
+      "youtube": [],
+      "note": "Не искал ID: французский перевод исключает запись из пула по существу (проект — немецкий текст)."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "НЕТ. MusicBrainz: запрос recording:\"Lachen und Weinen\" AND artist:Quasthoff — 0 совпадений. Discogs track-поиск (track=Lachen und Weinen, artist=Thomas Quasthoff) — 0 результатов. Трек-лист «Widmung – Romantische Lieder» (DG, изд. 2004; Discogs 9880429) проверен целиком: из Шуберта там D 686, D 257, D 550, D 882, D 853, D 799, D 795/7 — D 777 нет. Остальные его шубертовские альбомы — Goethe-Lieder (Рюккерт по определению вне программы), три цикла и «Lieder with Orchestra» — песню не содержат. Дискография закрыта в 2012, т.е. запись уже не появится.",
+    "Fischer-Dieskau": "ДА, дважды. (1) EMI/Electrola, сессия 7–8 мая 1962, Берлин-Целендорф, Gerald Moore — LP «…singt Lieder von Franz Schubert, VII. Folge: Heine, Rückert, Schlegel» (Electrola E/STE 91 204), сторона B открывается Lachen und Weinen op. 59/4 (карточка реестра planning/youtube/albums.md). (2) Свод DG «Sämtliche Lieder» с Муром, ℗ 1969 (кредиты официальных Topic-загрузок Universal; сессии свода 1966–72). MusicBrainz знает 4 записи Fischer-Dieskau/Moore этой песни (101–108 с) — это две сессии в разных изданиях. На YouTube официально доступна только DG-версия.",
+    "Schwarzkopf": "ДА, но не издавалась при жизни и НЕТ на YouTube. Студийная сессия EMI из корпуса 1955–1964 с Джеральдом Муром, выпущена только в 2000: Testament SBT 1206 «The Unpublished EMI Recordings 1955–1964, Lieder & Songs», трек A2 «Lachen und Weinen» (Discogs 15237021, кредит Gerald Moore, буклет 24 с. со сведениями по сессиям). У Грея по этой работе Шварцкопф отсутствует. Четыре целевых поиска на YouTube (включая её Topic-канал) загрузок не нашли.",
+    "Hotter": "НЕТ (по доступным источникам). В полной выдаче Грея по работе (15 позиций) Хоттера нет. Discogs track-поиск (track=Lachen und Weinen, artist=Hans Hotter) даёт только сборники, где Хоттер — один из многих участников: DG «Am Brunnen vor dem Tore» (26549036 — там D 777 поёт Зеефрид), Diapason «22 Lieder» (30791559 — там D 777 поёт Зеефрид), «Leise flehen meine Lieder…» (13270485, сборный бокс). Собственной записи не выявлено.",
+    "Anders": "НЕТ (по доступным источникам). В выдаче Грея по работе Андерса нет. Discogs track-поиск даёт единственное совпадение — антологию Diapason «22 Lieder», где D 777 принадлежит Зеефрид, а Андерс представлен другой песней. Собственной записи не выявлено.",
+    "E. Schumann": "ДА. HMV DB 3184 с Джеральдом Муром, ок. 5–15 марта 1937 (датировка по матрицам 2EA 4849/4850; карточка реестра planning/youtube/albums.md, где перечислен состав пластинки: Nähe des Geliebten, Lachen und Weinen, Nacht und Träume, Seligkeit). Переиздания: Naxos Historical 8.110731 (трек 22 — каталожная страница Naxos подтверждает пару Schumann/Moore, 1:39) и Warner «Icon» (официальная загрузка J-CO4dWV5pU, «℗ 1937», кредит «Piano: Gerald Moore»). Расхождение: метаданные Naxos-загрузки называют пианистом George Reeves.",
+    "Ludwig": "ДА, дважды. (1) Columbia SAX 5272 / Angel S 36462, сессии 28–30 ноября 1961, Abbey Road Studio 1, Geoffrey Parsons — дискография Майкла Грея (id 175961). (2) DG, Irwin Gage, ℗ 1974 (кредиты официальной Topic-загрузки GiFBiZyJTpc; дайджест датирует ремейк ~1973). MusicBrainz подтверждает обе пары (по две записи на каждую). На YouTube доступна только поздняя версия с Гейджем.",
+    "Popp": "ДА, но только живьём и НЕ на YouTube. Discogs track-поиск даёт единственное совпадение: «Lucia Popp — Recital Covent Garden 1975» (Gala, изд. 1998; Discogs 23917319), трек 17 «Lachen und Weinen». Пианист в кредитах релиза не указан; студийного варианта нет — её EMI-рецитал 1983 (Gage) и оба BBC Legends-вечера песни не содержат (planning/youtube/albums/female-recitalists.md). Целевой поиск на YouTube загрузок концерта 1975 не дал."
+  },
+  "albums_facts": [
+    {
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VII. Folge: Gedichte von Heine, Rückert und Schlegel (Electrola E/STE 91 204)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1962 (сессия 7–8 мая, Берлин-Целендорф, Evangelisches Gemeindehaus)",
+      "label": "Electrola / EMI → Warner Classics",
+      "facts": "Пианист Gerald Moore; продюсеры Christfried Bickenbach и Fritz Ganss. Сторона A — блок из «Лебединой песни» (Гейне), сторона B — Рюккерт и Шлегель: Lachen und Weinen op. 59/4, Daß sie hier gewesen op. 59/2, Sei mir gegrüßt op. 20/1, Du bist die Ruh op. 59/3, Waldesnacht. Карточка уже в реестре (D 741, D 775, D 776, D 777).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder — свод DG «Sämtliche Lieder» (21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "℗ 1969 (сессии свода 1966–72)",
+      "label": "Deutsche Grammophon",
+      "facts": "Продюсеры Otto Gerdes и Rainer Brock, тонмейстер Hans-Peter Schweigmann, инженеры Helmut Najda и Wolfgang Werner (кредиты официальных загрузок). Полный свод мужских песен; женские сознательно исключены. Сквозное издание для всего корпуса — годы отдельных песен требуют буклета бокса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert-Lieder (DG 136 009) / «The Art of Irmgard Seefried, Vol. 5»",
+      "singer": "Irmgard Seefried",
+      "year": "1958 (сессии 30 мая, 3, 7–8 июня; ℗ 1959)",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Erik Werba; продюсер Hans Ritter, тонмейстер Heinz Wildhagen. Даты сессий — дискография Грея через реестр проекта. Отсюда D 777 попала в две витринные антологии: DG «Am Brunnen vor dem Tore» (Discogs 26549036, A3) и Diapason «22 Lieder» (Discogs 30791559, трек 14).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Les Indispensables de Diapason № 160 «22 Lieder» (сентябрь 2023)",
+      "singer": "антология (Anders, Ferrier, Fischer-Dieskau, Grümmer, Hotter, Hüsch, Lehmann, Ludwig, Schlusnus, E. Schumann, Schwarzkopf, Seefried)",
+      "year": "2023 (переиздание)",
+      "label": "Les Indispensables de Diapason",
+      "facts": "Редакционный отбор Diapason из исторических шубертовских записей с покомандными кредитами. Для D 777 выбрана Ирмгард Зеефрид с Эриком Вербой (трек 14) — это единственный найденный внешний вердикт по данной песне. Карточка уже в реестре проекта.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Kathleen Ferrier Edition, Vol. 4 (Schumann / Schubert / Brahms)",
+      "singer": "Kathleen Ferrier",
+      "year": "1952 (сессия 4 февраля, Лондон, Maida Vale; эфир 13 мая 1952)",
+      "label": "Decca",
+      "facts": "Пианист Бенджамин Бриттен; в ту сессию записаны три песни Шуберта — Ganymed op. 19/3, Du liebst mich nicht op. 59/1, Lachen und Weinen op. 59/4. Материал переиздавался в «Centenary Edition — The Complete Decca Recordings» (2012) и в «Britten the Performer».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DB 3184 (78 об/мин) / Naxos Historical 8.110731 / Warner «Icon»",
+      "singer": "Elisabeth Schumann",
+      "year": "1937 (ок. 5–15 марта, по матрицам 2EA 4849/4850)",
+      "label": "HMV / EMI; Naxos Historical",
+      "facts": "Пианист Gerald Moore; на пластинке 4 песни: Nähe des Geliebten, Lachen und Weinen, Nacht und Träume, Seligkeit. Карточка уже в реестре (D 162). Расхождение: метаданные Naxos-загрузки D 777 указывают пианистом George Reeves.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Erika Köth singt Lieder von Mozart, Schubert, Schumann, Brahms… (Eurodisc 72120)",
+      "singer": "Erika Köth",
+      "year": "1963 (сессии 12–14 мая, Berlin, Meistersaal)",
+      "label": "Ariola-Eurodisc",
+      "facts": "Пианист Gerald Moore; дата — дискография Грея (id 177755, подтверждает карточку реестра, где та же сессия зафиксирована по id 177757). На YouTube диск не найден.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2 (у Грея: Philips 6747 059)",
+      "singer": "Hermann Prey",
+      "year": "1971 (27–30 октября, Мюнхен) по Грею; ℗ 1974 по кредитам Universal",
+      "label": "Philips / Deutsche Grammophon",
+      "facts": "Пианист Leonard Hokanson; продюсеры Christian Lange и Hans Gerhard Lichthorn (кредиты загрузки). НОВАЯ позиция для реестра с нерешённым расхождением лейбла/года — полезна всему шубертовскому корпусу 1970-х.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 35: Schubert 1822–1825 (CDJ33035)",
+      "singer": "Geraldine McGreevy (пианист Graham Johnson)",
+      "year": "℗ 2000 (издание апрель 2000)",
+      "label": "Hyperion",
+      "facts": "«Домашний» том Hyperion-издания для песен 1822–1825 — то есть для значительной части пилотного раздела; комментарии Грэма Джонсона. С 2023 — official audio через Universal.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "singer": "Alice Coote (пианист Julius Drake)",
+      "year": "2017 (запись 18–21 декабря), издание май 2022",
+      "label": "Hyperion",
+      "facts": "All Saints' Church, East Finchley; продюсер Mark Brown, инженер Andrew Mellor, аннотации Richard Wigmore. Особенность издания, важная для всего корпуса: некоторые песни разбиты на треки по строфам — D 259 на четыре, D 777 на два (a/b). Такие треки непригодны для плеера топ-5.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сводная страница Шуберта (https://www.klassik-prisma.de/Schubert.htm) проверена: сравнительной страницы (Vergleich) по «Lachen und Weinen» D 777 НЕТ. Привычного для пилота источника балльных оценок по этой песне не существует.",
+    "Les Indispensables de Diapason № 160 «22 Lieder» (сентябрь 2023) — редакционный отбор исторических шубертовских записей; для D 777 выбрана Irmgard Seefried / Erik Werba (Discogs 30791559, трек 14). Функционально это единственный найденный «обзор с вердиктом» по данной песне.",
+    "DG «Am Brunnen vor dem Tore. Eine Auswahl schönster Schubert-Lieder» (Discogs 26549036) — витринная антология лейбла с отбором «лучших» прочтений из собственного каталога; D 777 представлена той же записью Зеефрид/Верба (A3). Косвенное подтверждение статуса этой записи.",
+    "НЕ ПОЛУЧЕНО: Gramophone, MusicWeb International, BBC Music Magazine, слепые тесты — WebSearch-бюджет сессии исчерпан (200/200) до начала работы; прямые URL обзоров по D 777 неизвестны.",
+    "НЕ ПОЛУЧЕНО: страница песни на hyperion-records.co.uk с заметками Грэма Джонсона — адрес dc.asp?dc=D_D777 отдаёт только навигационный шаблон, поиск сайта работает через JS. Издание Hyperion учтено через том 35 (CDJ33035)."
+  ],
+  "negatives": [
+    "Квастхоф «Lachen und Weinen» не записывал — проверено по MusicBrainz, Discogs track-поиску и трек-листу «Widmung» (2004); его дискография закрыта в 2012.",
+    "Хоттер и Андерс: собственных записей песни не выявлено (полная выдача Грея по работе + Discogs track-поиск). Их имена всплывают только в сборниках, где D 777 поёт Зеефрид.",
+    "Шварцкопф песню записала (Testament SBT 1206, EMI 1955–64, Мур), но на YouTube её нет ни в каком виде — для пятёрки недоступна.",
+    "Попп записала песню только живьём (Covent Garden, 1975; Gala 1998) — на YouTube не найдено.",
+    "Людвиг: лучшая по возрасту версия (Parsons, 28–30.11.1961) на YouTube отсутствует; доступна только поздняя DG с Гейджем (℗ 1974).",
+    "Фишер-Дискау: EMI-версия 1962 г. официально на YouTube не выложена; единственная похожая загрузка — от серого агрегатора «The Golden Legacy of Music» (lJcjXG1tOww), атрибуция не подтверждена. Официально доступна только DG-версия ℗ 1969.",
+    "Alice Coote / Hyperion 2022: песня издана двумя отдельными треками (52 с + 63 с) — целого ролика нет, запись непригодна для плеера.",
+    "Peter Schreier / Olbertz (Eterna, 1974), Erika Köth / Moore (1963), Edith Mathis / Engel (1988) — записи документированы, но официальных загрузок на YouTube не найдено.",
+    "Vanni Marcoux / Coppola (HMV DA 989, 25.06.1928) поёт песню ПО-ФРАНЦУЗСКИ (пометка «[French]» у Грея) — вне пула по существу.",
+    "Прочие документированные у Грея, но малозначимые или недоступные записи: Sir George Henschel, баритон с собственным аккомпанементом (Columbia D1658, 03.11.1928); Sonja Schöner/Schlöner — Felix Schröder (Eterna, 1950, две матрицы); Ellabelle Davis — Hubert Greenslade (Decca, 08.02.1950, West Hampstead); Tii Niemela — Pentti Koskimies (WCFM, апрель 1951, Вашингтон); Else Brems — Kjell Olsson (Columbia Denmark, 05.09.1955); Teresa Stich-Randall — Jacqueline Bonneau (Club français du disque, 20.01.1961, Париж); Jean-Paul Jeannotte — Jeanne Landry (Select, 1961–62).",
+    "Прочие записи из MusicBrainz, не взятые в пул как непроверяемые/маргинальные: Judith Raskin — George Schick; Monica Groop — Rudolf Jansen; Markus Schäfer — Zvi Meniker; Harriet Burns — Ian Tindale; Laura Ward (аккомпанементный проект Hal Leonard); Chor-Farmer (японский любительский коллектив).",
+    "Discogs API во второй половине сессии перестал отдавать ответы (сначала «making requests too quickly», затем пустые тела) — часть проверок по трек-листам (E. Schumann HMV Treasury, EMI References; Mathis; Bostridge) осталась незавершённой.",
+    "Отдельная веха для реестра: дискография Майкла Грея по этой работе даёт всего 15 позиций и НЕ содержит ни Фишера-Дискау, ни Шварцкопф, ни Э. Шуман — покрытие базы по 78-м и EMI-LP выборочно, отсутствие в ней не равно отсутствию записи."
+  ]
+}
