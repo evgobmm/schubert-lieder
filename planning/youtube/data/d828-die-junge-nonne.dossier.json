@@ -196,23 +196,26 @@
     },
     {
       "singer": "Elisabeth Schumann (сопрано)",
-      "pianist": "Gerald Moore (по MusicBrainz и Topic-каналу) / «Beckett» (по klassik-prisma)",
-      "rec_year": "1945 (Лондон)",
-      "year_source": "klassik-prisma датирует 1945; MusicBrainz и Topic-канал «Elisabeth Schumann & Gerald Moore» указывают Мура. ВНИМАНИЕ: диск Naxos 8.110731 «Schumann: Schubert Lieder 1927–1945» этой песни НЕ содержит — точная сессия и матрица не установлены; пианист под вопросом",
-      "album": "HMV 78 об/мин, Лондон, 1945; переиздания-компиляции",
-      "label": "HMV / EMI",
-      "age_voice": "около 57 лет (р. 13.06.1888). Значительно за пиком (пик — 1920-е — сер. 1930-х); голос постаревший, но стиль остаётся эталонным (дайджест)",
-      "reputation": "klassik-prisma: 4–5 звёзд — «große Bögen» (большие фразировочные дуги), с оговоркой на шум шеллачной пластинки",
+      "pianist": "Gerald Moore (разрешено доисследованием 2026-08-17; «Beckett» у klassik-prisma — звукоинженер Robert Beckett, принятый за пианиста)",
+      "rec_year": "1945 (27 ноября 1945, Лондон; матрица HMV 2EA 10780, на 78 об/мин не издана)",
+      "year_source": "Michael Gray, «A Classical Discography» (classical-discography.org, запись id 56942): Die junge Nonne D828 — 1945 November 27, HMV, матрица 2EA 10780, unissued, Elisabeth Schumann/Gerald Moore. Сессионный контекст там же бьётся по матрицам: 29–30.08.1945 — 0EA 10576–10582 (Вольф, Гайдн, Моцарт, Dass sie hier gewesen D 775), 26.11.1945 — 0EA 10776–10778 (Der Vollmond strahlt, Die Forelle, Вольф). Кредиты официальных переизданий EMI/Warner (Références CHS 7 63040 2, Discogs release 23215766; Warner-метаданные «Icon» на Topic-канале): piano Gerald Moore, balance engineer Robert Beckett (треки 2-18/2-19), producer Walter Legge. Независимое подтверждение даты: описание загрузки incontrario motu — «Studio recording, London, 27.XI.1945»; klassik-prisma даёт 1945",
+      "album": "Сторона не издана на 78 (Gray: unissued) — потому её нет ни в WERM, ни на шеллаках Discogs, ни на Naxos 8.110731. Первые публикации — LP-компиляции EMI: World Record Club R-02626/7 (1976), HMV Treasury EX 29 0359 3 «Sings Favourite Schubert Lieder» (1986), EMI Références CHS 7 63040 2 «Der Hirt auf dem Felsen & 48 Lieder» (1989, трансферы Keith Hardwick, буклет Alan Blyth); цифровое переиздание — Warner «Icon: Elisabeth Schumann» (2011)",
+      "label": "HMV / EMI / Warner Classics",
+      "age_voice": "57 лет (р. 13.06.1888). Значительно за пиком (пик — 1920-е — сер. 1930-х); голос постаревший, но стиль остаётся эталонным (дайджест)",
+      "reputation": "klassik-prisma: 4–5 звёзд — «große Bögen» (большие фразировочные дуги), с оговоркой на шум шеллачной пластинки. Дополнительный штрих: сторону сама HMV оставила неизданной — публикация лишь в ретроспективах с 1976 года",
       "sources": [
+        "https://www.classical-discography.org/ (search: Schubert, Die junge Nonne, Schumann; entry id 56942)",
+        "https://www.discogs.com/release/23215766 (EMI Références CHS 7 63040 2, per-track credits)",
+        "https://www.youtube.com/watch?v=hasA4UAPwjw (Warner «Icon», кредиты Moore/Beckett/Legge)",
         "http://www.klassik-prisma.de/Junge%20Nonne.htm",
-        "https://www.naxos.com/CatalogueDetail/?id=8.110731",
-        "/workspaces/schubert-lieder/planning/research/singers-digest.md"
+        "https://www.naxos.com/CatalogueDetail/?id=8.110731"
       ],
       "youtube": [
-        {"videoId": "5SOfj0gY6Zo", "channel": "Elisabeth Schumann & Gerald Moore - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "hasA4UAPwjw", "channel": "Elisabeth Schumann - Topic (Warner Classics, «Icon»)", "official": true, "oembed_ok": true},
+        {"videoId": "5SOfj0gY6Zo", "channel": "Elisabeth Schumann & Gerald Moore - Topic (серый лейбл «Classique Perfecto», 2012 — кредитам не доверять)", "official": false, "oembed_ok": true},
         {"videoId": "W3kXVD1ojc0", "channel": "CLASSIC&OPERA (фан)", "official": false, "oembed_ok": true}
       ],
-      "note": "Приоритетная певица по правилам. Расхождение по пианисту (Moore vs Beckett) требует разрешения по 78-об дискографии перед публикацией; по правилу о датах 1945 подтверждён только вторичным источником (klassik-prisma)."
+      "note": "Приоритетная певица по правилам; пианист и дата полностью разрешены (см. year_source) — блокер верификации снят. В топ-5 не введена по качеству/составу: внутри группы «прочих звёзд прошлого» порядок по качеству — её 4–5 звёзд при голосе в 57 (значительно за пиком) не перевешивают Baker/Moore (5 звёзд) и Ferrier/Walter 1949 (те же 4–5, но голос на пике, связка с Вальтером); даже Seefried (4–5, единственная «по-настоящему юная» монахиня) — лишь первый резерв. Современные слоты (Fink, Sampson) защищены правилом состава. Документированный исторический резерв; использовать официальную Warner-загрузку hasA4UAPwjw."
     },
     {
       "singer": "Margaret Price (сопрано)",
@@ -432,7 +435,7 @@
     "Elisabeth Schwarzkopf": "ДА. Запись с Эдвином Фишером, EMI, сессии 4–7 октября 1952, Abbey Road Studio 1; в MusicBrainz — три позиции (Schwarzkopf соло и дважды с Фишером). klassik-prisma: 4–5 звёзд. Источники: http://www.klassik-prisma.de/Junge%20Nonne.htm; https://www.naxos.com/CatalogueDetail/?id=8.111287",
     "Hans Hotter": "НЕТ. Записи не обнаружено: отсутствует в MusicBrainz-дискографии работы (42 записи), в сравнении klassik-prisma и в блайнд-тесте; песня — женская роль для высокого голоса, вне его репертуара (бас-баритон). Источники: planning/youtube/data/d828-die-junge-nonne.mb.json; http://www.klassik-prisma.de/Junge%20Nonne.htm",
     "Peter Anders": "НЕТ. Записи не обнаружено: отсутствует в MusicBrainz-дискографии работы и во всех найденных сравнительных обзорах; его сохранившийся шубертовский корпус — циклы с Раухайзеном/Вайссенборном. Источники: planning/youtube/data/d828-die-junge-nonne.mb.json; planning/research/singers-digest.md",
-    "Elisabeth Schumann": "ДА. Запись 1945 года (Лондон), пианист по MusicBrainz и Topic-каналу — Джеральд Мур, по klassik-prisma — «Beckett»; klassik-prisma: 4–5 звёзд («große Bögen»). Внимание: на диске Naxos 8.110731 «Schubert Lieder 1927–1945» этой песни НЕТ, точная сессия/матрица не установлена. Источники: http://www.klassik-prisma.de/Junge%20Nonne.htm; https://www.naxos.com/CatalogueDetail/?id=8.110731",
+    "Elisabeth Schumann": "ДА. Единственная запись: 27 ноября 1945, Лондон, HMV, матрица 2EA 10780, пианист — Джеральд Мур; на 78 не издана (unissued), первые публикации — EMI-компиляции 1976/1986/1989. «Beckett» из klassik-prisma — звукоинженер Robert Beckett (кредиты EMI Références/Warner Icon; продюсер Walter Legge). klassik-prisma: 4–5 звёзд («große Bögen»). Источники: https://www.classical-discography.org/ (id 56942); https://www.discogs.com/release/23215766; http://www.klassik-prisma.de/Junge%20Nonne.htm",
     "Christa Ludwig": "ДА, минимум одна: с Ирвином Гейджем (DG, 1973 по klassik-prisma / 1974 по «table d'écoute»), оценка klassik-prisma — 4 звезды с упрёком «zu viel des Guten». Есть также трек с Джеффри Парсонсом в боксе «The Complete Recitals on Warner Classics» (год не установлен; EMI-LP Ludwig/Parsons 1968 эту песню не содержит). Источники: http://www.klassik-prisma.de/Junge%20Nonne.htm; https://tablecoute.blogspot.com/2020/04/f-schubert-die-junge-nonne-d-828.html; https://www.discogs.com/release/5255409-Schubert-Christa-Ludwig-Geoffrey-Parsons-Schubert-Lieder",
     "Lucia Popp": "ДА. С Ирвином Гейджем, EMI, сессии 1–6 ноября 1983, Abbey Road; издание 1984. klassik-prisma: 4 звезды с упрёками (тремоло, шепелявость). Источники: http://www.klassik-prisma.de/Junge%20Nonne.htm; https://www.discogs.com/release/4516443-Franz-Schubert-Lucia-Popp-Irwin-Gage-Schubert-Lieder"
   },
@@ -515,7 +518,7 @@
     "Jessye Norman — записи D 828 не обнаружено (нет ни в MusicBrainz-дискографии работы, ни в поиске YouTube, ни в обзорах).",
     "Lotte Lehmann — в обзорах klassik-prisma и «table d'écoute» не фигурирует; упомянута лишь как пример у Leech-Wilkinson, конкретное издание/дата не установлены — как кандидат не подтверждена.",
     "Kirsten Flagstad, Marian Anderson, Anne Sofie von Otter (в шубертовском оригинале), Dorothea Röschmann, Diana Damrau, Christian Gerhaher — записей D 828 в собранных источниках не найдено. У фон Оттер есть лайв ЛИСТОВСКОЙ транскрипции (S. 375/1), а не песни.",
-    "Naxos 8.110731 «Elisabeth Schumann: Schubert Lieder 1927–1945» НЕ содержит Die junge Nonne — источник её записи 1945 года требует отдельной сверки по 78-об дискографии; пианист спорен (Moore по MB/Topic, «Beckett» по klassik-prisma).",
+    "Naxos 8.110731 «Elisabeth Schumann: Schubert Lieder 1927–1945» НЕ содержит Die junge Nonne — объяснено доисследованием 2026-08-17: сторона 27.11.1945 (2EA 10780) осталась на 78 неизданной (Gray: unissued) и публиковалась только в LP/CD-ретроспективах EMI; пианист разрешён — Gerald Moore, «Beckett» klassik-prisma — инженер Robert Beckett. Вопрос закрыт.",
     "Ljuba Welitsch: год «1952» на загрузках не подтверждён дискографией (её студийный свод Columbia датируется 1949) — до сверки не публиковать.",
     "Kathleen Battle/Levine: подтверждён только год ИЗДАНИЯ (DG, 1988), год сессии не найден.",
     "Barbara Hendricks/Lupu: противоречие источников по году (klassik-prisma — 1985, том I; Discogs и слепой тест — 1993, том II) и резкое противоречие оценок (3–4 звезды у klassik-prisma против победы в слепом тесте).",

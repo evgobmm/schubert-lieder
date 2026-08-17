@@ -487,7 +487,7 @@ KEY SOURCES: naxos.com (8.111287, 8.110731, Orfeo C826103/C001811), prestomusic.
 - **Lotte Lehmann** / Ernö Balogh — 1937, RCA Victor 1856 / HMV DA 1603 (rec. 16 Mar 1937)
   Classic pre-war Victor recording by one of the most beloved Lieder singers of the century; entry 274 in the Lotte Lehmann League discography, which supplied the exact date and matrix (BS 06664-1).
   - YouTube: Fan upload verified: youtube.com/watch?v=Y0bvTeWxgf8
-- **Elisabeth Schumann** / Gerald Moore — 1945, HMV (rec. 26 Nov 1945, matrix 0EA 4491-1; Naxos Historical 8.110731 reissue)
+- **Elisabeth Schumann** / Gerald Moore — 1936, HMV (rec. 26 Nov 1936, matrix 0EA 4491-1; Naxos Historical 8.110731 reissue; год «1945» — опечатка метаданных archive.org, вскрыта по матрицам — см. gretchen-top5.md)
   Widely described as a classic recording; Schumann's silvery, intimate Gretchen with the young Gerald Moore closes her HMV Schubert legacy (CHARM transfer on archive.org gives full disc data).
   - YouTube: Fan upload verified: youtube.com/watch?v=rvGQYOkkeSQ; also archive.org/details/78_gretchen-am-spinnrade_schumann-elisabeth-moore-gerald
 - **Kathleen Ferrier** / Phyllis Spurr — 1947, Decca (rec. London, 14 Mar 1947)
