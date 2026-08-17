@@ -1,0 +1,600 @@
+{
+  "d": "138",
+  "title": "Rastlose Liebe",
+  "tier": "famous",
+  "research_limits": {
+    "websearch": "Бюджет WebSearch сессии исчерпан (200/200) до начала работы — сравнительные обзоры (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC MM) через поисковую выдачу собрать не удалось.",
+    "hyperion": "hyperion-records.co.uk отдаёт только оболочку страницы (поиск на JS); страница песни D 138 и заметки Грэма Джонсона в этой сессии не получены.",
+    "klassik_prisma": "klassik-prisma.de открывается (HTTP 200), но индекс — Word-HTML без извлекаемых ссылок; страница сравнения по D 138 не найдена.",
+    "musicbrainz": "MusicBrainz API после нескольких запросов начал отдавать сетевую ошибку (HTTP 000); использован заранее собранный каркас d138-rastlose-liebe.mb.json + один успешный ответ поиска.",
+    "worked": "Discogs API (curl, без токена; с паузами из-за 429), yt-dlp (поиск + метаданные Topic-загрузок), yt-check.js (oEmbed), локальный реестр альбомов planning/youtube/albums*."
+  },
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Klaus Billing",
+      "rec_year": "1948",
+      "year_source": "Discogs release 11359476 (Myto Historical Line, «Der Schwanengesang (Berlin 1948)») и Discogs release 9172331 (Verona, «Schwanengesang / 7 Lieder (Berlin, 1948)») — в примечаниях обоих: «High Quality Radio Recording Berlin, 19-25.1.1948»; трек 16 обоих изданий — Rastlose Liebe D 138.",
+      "album": "Радиозапись Берлин (RIAS), 19–25.01.1948; издавалась как «Schwanengesang / 7 Lieder (Berlin 1948)»; отобрана в антологию Diapason «22 Lieder» (2023)",
+      "label": "RIAS (радио) → Myto / Verona / Archipel; Les Indispensables de Diapason",
+      "age_voice": "22 года (р. 28.05.1925) — самые первые записи певца, за три года до вокального пика (~1951–1972 по дайджесту); голос юный, свежий, ещё без позднейшей аналитической манеры.",
+      "reputation": "Косвенный, но весомый маркер: французский Diapason, составляя в сентябре 2023 антологию «22 Lieder» из классики шубертовской звукозаписи (Шварцкопф/Фишер, Ферриер/Вальтер, Хоттер/Мур, Андерс/Раухайзен, Э. Шуман, Шлюснус, Хюш, Леман), взял в неё именно Rastlose Liebe в исполнении Фишера-Дискау с Биллингом (Discogs 30791559, трек 9). Отдельных рецензий именно на этот трек в сессии не найдено (см. research_limits).",
+      "sources": [
+        "https://api.discogs.com/releases/11359476",
+        "https://api.discogs.com/releases/9172331",
+        "https://api.discogs.com/releases/30791559",
+        "planning/youtube/data/d138-rastlose-liebe.mb.json (MB: «Dietrich Fischer-Dieskau, Klaus Billing», 76 s)"
+      ],
+      "youtube": [],
+      "note": "На YouTube отдельной загрузки этой записи найти не удалось (yt-dlp «Fischer-Dieskau Billing 1948 Rastlose Liebe» — 0 релевантных результатов). Историческая ценность высокая, но без ролика в топ-5 не попадает."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1955–57?",
+      "year_source": "Год НЕ установлен дискографически. Topic-загрузка (Warner Classics) даёт альбом «Schubert: Lieder Vol. 1» без release_year. Фан-загрузки датируют 1955 (vX2jI83ox0o, «incontrario motu») и 1956 (9Td9YvDOwl8, davidhertzberg) — метаданные загрузок источником не являются. Косвенно: в реестре зафиксирована серия EMI «Schubert: Lieder Vol. 4» — сессии 23–25.05.1958 (planning/youtube/albums.md), то есть тома 1–3 старше.",
+      "album": "Schubert: Lieder Vol. 1 (EMI/Electrola)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "~30–32 года; ядро вокального пика (пик ~1951–1972 по дайджесту), голос свежий и полностью подвластный — период первой Müllerin (1951) и первой Winterreise (1955).",
+      "reputation": "Ранние EMI-рециталы Фишера-Дискау с Муром — общепризнанная вершина его дискографии до полного свода DG; конкретных рецензий именно на этот трек в сессии не добыто (см. research_limits).",
+      "sources": [
+        "yt-dlp метаданные UG5SH-0mY-w: «Provided to YouTube by Warner Classics», album «Schubert: Lieder Vol. 1», Dietrich Fischer-Dieskau · Gerald Moore",
+        "planning/youtube/albums.md (карточка «Fischer-Dieskau — Schubert: Lieder Vol. 4», зап. 23–25.05.1958)"
+      ],
+      "youtube": [
+        {"videoId": "UG5SH-0mY-w", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "vX2jI83ox0o", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "Сильнейший кандидат по правилу «при прочих равных — более ранняя запись приоритетного певца». Требуется целевое доисследование года по дискографии Майкла Грея (classical-discography.org); до этого year — «1955–57?»."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "Сессии полного свода DG «Sämtliche Lieder» — 1966–1972, Ufa-Ton-Studio Berlin; проектная конвенция года для всех песен свода — 1969 (planning/youtube/albums/complete-editions.md). Topic-метаданные показывают ℗-год 1970.",
+      "album": "Schubert: Sämtliche Lieder (21 CD; на Topic — «Schubert: Lieder (Vol. 1)» / «Schubert: Lieder»)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~44 года; поздняя часть пика, голос ещё полный, но интерпретация уже более аналитическая, чем в 1950-е.",
+      "reputation": "Базовая точка отсчёта для любой мужской песни Шуберта — единственный полный свод мужских песен одним певцом (реестр альбомов; дайджест).",
+      "sources": [
+        "planning/youtube/albums.md, planning/youtube/albums/complete-editions.md (карточки свода DG)",
+        "yt-dlp метаданные SorXIDqmafg / m3-GMCceSb4 (UMG, album «Schubert: Lieder (Vol. 1)» / «Schubert: Lieder», release_year 1970)"
+      ],
+      "youtube": [
+        {"videoId": "SorXIDqmafg", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "m3-GMCceSb4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Две Topic-загрузки одного и того же свода (83 с и 86 с) — при публикации брать одну; по правилу «при прочих равных — более ранняя» уступает EMI-версии 1950-х."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1967",
+      "year_source": "Дискография Майкла Грея: «Souzay — Der Musensohn, 15 песен (Philips 802 831 LY, зап. 1–7.07.1967), Концертгебау» (planning/youtube/albums/male-recitalists.md); совпадает с release_year 1967 в Topic-метаданных.",
+      "album": "Der Musensohn: 15 ausgesuchte Schubert-Lieder (Philips 802 831 LY)",
+      "label": "Philips / Universal",
+      "age_voice": "49 лет; излёт пика (пик 1950-е — сер. 1960-х; с ~1970 голос заметно сохнет — дайджест). Тембр ещё «шёлковый», но уже не ранний Decca.",
+      "reputation": "Souzay/Baldwin — эталонный французский дуэт в немецком Lied; конкретных оценок этого трека в сессии не добыто.",
+      "sources": [
+        "planning/youtube/albums/male-recitalists.md (Gray: Philips 802 831 LY, 1–7.07.1967)",
+        "yt-dlp метаданные qAupZoOwy94 (UMG, album «Schubert: Lieder», release_year 1967)"
+      ],
+      "youtube": [
+        {"videoId": "qAupZoOwy94", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Очень мало просмотров (76) — загрузка свежая (2024), но канал официальный (UMG)."
+    },
+    {
+      "singer": "Elisabeth Grümmer",
+      "pianist": "Gerald Moore",
+      "rec_year": "1958",
+      "year_source": "Discogs release 11189867 (Testament, «Lieder», 1996), примечания: «Recorded: 11 November, Gemeindehaus, Berlin-Zehlendorf (Schubert, Brahms)», ℗ 1959; исходный LP — Electrola/Odeon 1958 (Discogs 14907951, 7315852). Трек 4 Testament-CD — Rastlose Liebe D 138.",
+      "album": "Elisabeth Grümmer singt Lieder von Schubert und Brahms (Electrola, 1958; переизд. Testament 1996; на Topic — Naxos-сборник «Elisabeth Grümmer Sings Mozart, Schubert, Brahms & Wolf»)",
+      "label": "Electrola / EMI → Testament; Topic-выкладка через Naxos of America",
+      "age_voice": "47 лет; конец пика (пик кон. 1940-х — 1950-е по дайджесту), голос ещё серебристый и ровный.",
+      "reputation": "Грюммер включена в антологию Diapason «22 Lieder» (2023) двумя треками (Die Forelle, Auf dem Wasser zu singen — с тем же Муром), что маркирует эту сессию как эталонную; отдельной оценки D 138 не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/11189867",
+        "https://api.discogs.com/releases/30791559",
+        "yt-dlp метаданные bsn8hbmFtbM (NAXOS of America)"
+      ],
+      "youtube": [
+        {"videoId": "bsn8hbmFtbM", "channel": "Elisabeth Grümmer - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год сессии — 11 ноября; год «1958» взят по дате исходного LP (Electrola 1958) при ℗ 1959 на Testament; при расхождении уточнить по Грею."
+    },
+    {
+      "singer": "Ernst Haefliger",
+      "pianist": "Hertha Klust",
+      "rec_year": "1957",
+      "year_source": "Topic-метаданные (UMG): album «The Ernst Haefliger Edition», release_year 1957; совпадает с карточкой реестра «Haefliger — singt Lieder von Schubert und Brahms (DG LPEM 19 096, изд. 1957)», пианист Hertha Klust (Discogs) — planning/youtube/albums/male-recitalists.md.",
+      "album": "Ernst Haefliger singt Lieder von Schubert und Brahms (DG LPEM 19 096); переизд. «The Ernst Haefliger Edition»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "38 лет; вокальный пик (1950-е–1960-е), задолго до сухих поздних циклов Claves 1980-х.",
+      "reputation": "Ранний DG-рецитал Хефлигера в реестре помечен как «рецитал пика»; дата сессии по дискографии не выверена (в реестре стоит «?»).",
+      "sources": [
+        "planning/youtube/albums/male-recitalists.md",
+        "yt-dlp метаданные d2n2T0Psn2s (UMG, «The Ernst Haefliger Edition», 1957, Ernst Haefliger · Hertha Klust)"
+      ],
+      "youtube": [
+        {"videoId": "d2n2T0Psn2s", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год «1957» — год издания LP, не подтверждённая дата сессии."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": "1965?",
+      "year_source": "Не установлен надёжно. Topic-метаданные (UMG) дают release_year 1965 для двух разных альбомов с одним и тем же треком («Schubert & Schumann: Lieder» и «Schubert: Schwanengesang»); реестр относит рецитал Prey/Engel «Schubert & Schumann: Lieder» (EMI Electrola) к 1962 году издания; фан-загрузка AjI7gKcHA6M называет Philips 6573 010, 1969. Три версии противоречат друг другу.",
+      "album": "Schubert & Schumann: Lieder (Philips/UMG-выкладка) — конкретное издание не установлено",
+      "label": "Philips / Universal (Topic); в реестре также EMI Electrola",
+      "age_voice": "~36 лет (р. 1929) — центр пика (~1960–1980), голос светлый, бархатный, без позднейшей тяжести Denon-ремейков 1980-х.",
+      "reputation": "Prey — один из двух главных баритонов эпохи наряду с Фишером-Дискау; конкретных оценок этого трека не добыто.",
+      "sources": [
+        "yt-dlp метаданные OnvIv1d3_b0 и b86JmZZXuV8 (UMG, Hermann Prey · Karl Engel, release_year 1965)",
+        "planning/youtube/albums/male-recitalists.md, planning/youtube/albums.md (карточки Prey/Engel)"
+      ],
+      "youtube": [
+        {"videoId": "OnvIv1d3_b0", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "b86JmZZXuV8", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": false}
+      ],
+      "note": "Внимание: OnvIv1d3_b0 (77 с) и b86JmZZXuV8 (74 с) — разные тайминги, возможно разные дубли/сессии. MB знает ещё Prey/Helmut Deutsch. Перед публикацией требуется доисследование года."
+    },
+    {
+      "singer": "Peter Schreier",
+      "pianist": "Walter Olbertz",
+      "rec_year": "1965?",
+      "year_source": "Только метаданные фан-загрузки (davidhertzberg: «Peter Schreier, Walter Olbertz, 1965 — MHS 3380»); дискографического подтверждения в этой сессии нет. MB знает также Schreier/András Schiff («Goethe Lieder»).",
+      "album": "LP Musical Heritage Society MHS 3380 (лицензия Eterna)",
+      "label": "Eterna / MHS",
+      "age_voice": "~30 лет (р. 1935) — начало пика (~1965–1990), голос в лучшем состоянии.",
+      "reputation": "Эterna-циклы Шрайера с Ольбертцем 1970-х — систематический свод ГДР (реестр); оценок трека не добыто.",
+      "sources": [
+        "yt-dlp метаданные e41N_wIkDE4",
+        "planning/youtube/albums/male-recitalists.md (Eterna-серия Schreier/Olbertz)"
+      ],
+      "youtube": [
+        {"videoId": "e41N_wIkDE4", "channel": "davidhertzberg", "official": false, "oembed_ok": true}
+      ],
+      "note": "Только фан-канал (перенос с LP); официальной выкладки не найдено. Год не верифицирован."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1970-е?",
+      "year_source": "Не установлен. Topic-метаданные (Warner) — album «Schubert: Lieder», без release_year. По реестру её знаменитый 2-LP (HMV SLS 812) записан 29.08 + 12–13.09 + 16–20.12.1970 с Джералдом Муром; двойник EMI «Schubert: Lieder» (Discogs 14136174, 2004) кредитует и Мура, и Парсонса, без разбивки по трекам. MB даёт две записи Baker/Parsons.",
+      "album": "Schubert: Lieder (EMI/Warner; конкретное издание не разделено по пианистам)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "если 1970-е — 37–46 лет, ядро пика (~1965–1982 по дайджесту).",
+      "reputation": "Её шубертовский свод EMI — «классика жанра» (дайджест, реестр); по D 828 из того же корпуса — 5 звёзд klassik-prisma (albums.md).",
+      "sources": [
+        "https://api.discogs.com/releases/14136174",
+        "planning/youtube/albums/female-recitalists.md (Gray: HMV SLS 812, сессии 1970)",
+        "yt-dlp метаданные JjhfEEUd414"
+      ],
+      "youtube": [
+        {"videoId": "JjhfEEUd414", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год требует целевого доисследования (Грей / буклет EMI): пианист Парсонс не совпадает с сессиями 1970 года, где играл Мур."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Erik Werba",
+      "rec_year": "1974",
+      "year_source": "Дискография Майкла Грея + Discogs: «Fassbaender — Lieder von Franz Schubert (EMI Electrola 1C 065-28 969, зап. 16–18.05.1974, Мюнхен, Bürgerbräukeller)», пианист Erik Werba (planning/youtube/albums/female-recitalists.md). Topic-загрузка — переиздание «Lieder Vol. 2 (Schubert & Wolf)», Warner Classics.",
+      "album": "Lieder von Franz Schubert (EMI Electrola 1C 065-28 969); переизд. «Lieder Vol. 2 (Schubert & Wolf)»",
+      "label": "EMI Electrola / Warner Classics",
+      "age_voice": "35 лет (р. 1939) — вход в пик (~1975–1992); голос свежий, характерная мужественная меццовая подача.",
+      "reputation": "Фассбендер — автор первой великой женской Winterreise (EMI 1988); её ранний шубертовский рецитал — часть основного корпуса. Оценок трека не добыто.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md",
+        "yt-dlp метаданные 8RhHt4wbKYA (Warner Classics)"
+      ],
+      "youtube": [
+        {"videoId": "8RhHt4wbKYA", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "MB приписывает запись паре «Fassbaender / Cord Garben» — Гарбен был продюсером; пианист по Topic и Грею — Werba."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Phillip Moll",
+      "rec_year": "1984",
+      "year_source": "Дискографическая карточка реестра: «Norman — Schubert: Lieder (Philips 412 623-2, зап. IV.1984)» (planning/youtube/albums/female-recitalists.md; albums.md: ℗ 1985, релиз 24.09.1985). Topic-метаданные — release_year 1985.",
+      "album": "Schubert: Lieder (Philips 412 623-2)",
+      "label": "Philips / Universal",
+      "age_voice": "39 лет (р. 1945) — середина пика (~1975–1995); голос крупный, тёмный, монументальный.",
+      "reputation": "Тот же альбом — источник её «монументальной» Gretchen (albums.md, дайджест); голос отвечает требованию Джонсона о «large and sumptuous voice». Скепсис уместен к масштабу: для короткой стремительной песни крупное сопрано — риск тяжеловесности (оценка не подтверждена рецензией).",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/youtube/albums.md",
+        "yt-dlp метаданные -2cQyuQCKis (UMG, 1985)"
+      ],
+      "youtube": [
+        {"videoId": "-2cQyuQCKis", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "gH3_HfY2HrE", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "02RejL4dj_g", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три дублирующие Topic-загрузки одного трека (79 с); брать самую просматриваемую (-2cQyuQCKis, ≈8,8 тыс.)."
+    },
+    {
+      "singer": "Barbara Hendricks",
+      "pianist": "Radu Lupu",
+      "rec_year": "1985",
+      "year_source": "Реестр: «Hendricks — Schubert: Lieder, Vol. 1 (EMI, зап. 25–30.11.1985, Salle Wagram, Париж)» (planning/youtube/albums/female-recitalists.md; albums.md — 25/28/29/30.11.1985).",
+      "album": "Schubert: Lieder, Vol. 1",
+      "label": "EMI / Warner Classics",
+      "age_voice": "37 лет (р. 1948) — начало пика (1980-е–1990-е); лёгкое, светлое сопрано.",
+      "reputation": "Ценность прежде всего в пианисте: Раду Лупу — редкий случай солиста первого ряда в Lieder-рецитале (реестр, дайджест).",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/youtube/albums.md",
+        "yt-dlp метаданные sboijxr197Y (Warner)"
+      ],
+      "youtube": [
+        {"videoId": "sboijxr197Y", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Kathleen Battle",
+      "pianist": "James Levine",
+      "rec_year": "1988",
+      "year_source": "Карточка реестра: «Kathleen Battle — Schubert: Lieder — издание 1 января 1988; точная дата сессии не найдена» (planning/youtube/albums.md); Topic-метаданные — release_year 1988.",
+      "album": "Schubert: Lieder",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~40 лет — вокальный пик лёгкого сопрано.",
+      "reputation": "Коммерчески успешный альбом; в шубертовской критике не относится к эталонным. Оценок трека не добыто; относиться сдержанно.",
+      "sources": [
+        "planning/youtube/albums.md",
+        "yt-dlp метаданные 8mJ5_UPCIs4 (UMG, 1988)"
+      ],
+      "youtube": [
+        {"videoId": "8mJ5_UPCIs4", "channel": "Kathleen Battle - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год — год издания, не сессии."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994",
+      "year_source": "Дайджест певцов: «An die Musik» (DG, зап. февраль 1994, Martineau; 23 песни); Topic-метаданные — album «Schubert: An die Musik», release_year 1994.",
+      "album": "Schubert: An die Musik",
+      "label": "Deutsche Grammophon",
+      "age_voice": "29 лет (р. 1965) — начало пика (~1992–2005), голос свежий и мощный.",
+      "reputation": "Альбом-бестселлер (дайджест); Терфель — не циклист, песня для него побочная линия. Похвалы прессы 1990-х фильтровать по правилу о пиаре.",
+      "sources": [
+        "planning/research/singers-digest.md",
+        "yt-dlp метаданные qE16vofoi9U (UMG, 1994)"
+      ],
+      "youtube": [
+        {"videoId": "qE16vofoi9U", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Dawn Upshaw",
+      "pianist": "Richard Goode",
+      "rec_year": "1994",
+      "year_source": "Topic-метаданные (Nonesuch/Warner Records): album «Goethe Lieder», release_year 1994; MB — «Dawn Upshaw, Richard Goode». Дата сессии не установлена.",
+      "album": "Goethe Lieder",
+      "label": "Nonesuch",
+      "age_voice": "~34 года — пик лёгкого лирического сопрано.",
+      "reputation": "Дуэт с Ричардом Гудом — пианист-солист первого ряда, редкость для Lied. В дайджесте Апшо числится в резерве («D 118 по Википедии, не верифицировано»). Критических оценок не добыто.",
+      "sources": [
+        "yt-dlp метаданные jvpN48Vf5MU",
+        "planning/youtube/data/d138-rastlose-liebe.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "jvpN48Vf5MU", "channel": "Dawn Upshaw - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год — год издания."
+    },
+    {
+      "singer": "John Mark Ainsley",
+      "pianist": "Graham Johnson",
+      "rec_year": "1994",
+      "year_source": "Реестр полных изданий: «C. Schäfer / Ainsley / Keenlyside / George — Vol. 24 “A Goethe Schubertiad” (CDJ33024, зап. IX.1994, изд. X.1995)» (planning/youtube/albums/complete-editions.md; певцы — Discogs). Topic-метаданные (UMG) дают release_year 1995 и явно называют альбом «Hyperion Song Edition 24 – A Goethe Schubertiad», исполнители — Graham Johnson · John Mark Ainsley.",
+      "album": "The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» (CDJ33024)",
+      "label": "Hyperion / Universal (official audio с 2023)",
+      "age_voice": "~31 год (р. 1963) — ранний пик английского лирического тенора.",
+      "reputation": "Том научного эталона — 37-томного свода Грэма Джонсона с его комментариями (правила, дайджест, реестр). Именно этот том — тематическая гётевская программа, то есть песня записана в «своём» контексте.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md",
+        "yt-dlp метаданные Oz-ejNk65Jc (UMG)"
+      ],
+      "youtube": [
+        {"videoId": "Oz-ejNk65Jc", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Канал Topic оформлен на пианиста (Graham Johnson), не на певца — в поле name при публикации указывать «Ainsley — Johnson»."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (хаммерклавир)",
+      "rec_year": "1995",
+      "year_source": "Topic-метаданные (Deutsche Harmonia Mundi): album «Schubert: Songs to Poems by Goethe», release_year 1995. Дата сессии не установлена.",
+      "album": "Schubert: Songs to Poems by Goethe",
+      "label": "Deutsche Harmonia Mundi",
+      "age_voice": "31 год (р. 1964) — начало пика (~1998–2015 по дайджесту), голос лёгкий и подвижный, идеален для стремительного темпа песни.",
+      "reputation": "Прегардьен/Штайер — ведущий «исторический» дуэт 1990-х (Müllerin на хаммерклавире, DHM). Конкретных оценок трека не добыто.",
+      "sources": [
+        "yt-dlp метаданные r2OPrlY9too",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "r2OPrlY9too", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "MB знает и вторую версию — Prégardien/Michael Gees (Challenge)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "1996",
+      "year_source": "Discogs release 13052206 (Decca 452 917-2, «Schubert Lieder – Goethe», 1997), примечания буклета: «Recording location: Reitstadel, Neumarkt, Germany, May 1996»; ℗ 1997 Decca.",
+      "album": "Schubert Lieder – Goethe (Decca 452 917-2)",
+      "label": "Decca",
+      "age_voice": "29 лет (р. 1967) — самое начало пика (~1997–2015); голос ещё лёгкий, до позднейшей «густоты» свода harmonia mundi.",
+      "reputation": "Гёрне — самый записываемый шубертовский баритон поколения (дайджест); ранний Decca-рецитал сделан до 12-томного свода HM. Пресса о нём обильна — фильтровать по правилу о пиаре; конкретных рецензий на трек не добыто.",
+      "sources": [
+        "https://api.discogs.com/releases/13052206",
+        "yt-dlp метаданные TxlW-lBoWkY (UMG, album «Schubert: Goethe Lieder», release_year 1997)"
+      ],
+      "youtube": [
+        {"videoId": "TxlW-lBoWkY", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Topic-год (1997) — год издания; год сессии по буклету — май 1996. MB знает и вторую версию Goerne/Eric Schneider."
+    },
+    {
+      "singer": "Ruth Ziesak",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "2003",
+      "year_source": "Реестр полных изданий: «Ruth Ziesak / Christian Elsner — т. 13 “Goethe, Vol. 2” (Naxos 8.554666, изд. 05/2003)», пианист Eisenlohr (planning/youtube/albums/complete-editions.md); Topic-метаданные — album «Schubert: Lied Edition 13 - Goethe, Vol. 2», release_year 2003. По правилам для Naxos DSLE годом ставится год издания.",
+      "album": "Deutsche Schubert-Lied-Edition, т. 13 «Goethe, Vol. 2» (Naxos 8.554666)",
+      "label": "Naxos",
+      "age_voice": "40 лет (р. 1963) — зрелое лёгкое сопрано.",
+      "reputation": "По Gretchen из того же тома klassik-prisma хвалит Цизак (дайджест); DSLE — полное издание немецкоязычных певцов, ценность прежде всего справочная.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md",
+        "planning/research/singers-digest.md",
+        "yt-dlp метаданные cRB7qZEw2zQ (NAXOS of America)"
+      ],
+      "youtube": [
+        {"videoId": "cRB7qZEw2zQ", "channel": "Ruth Ziesak - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Bernarda Fink",
+      "pianist": "Gerold Huber",
+      "rec_year": "2007",
+      "year_source": "Реестр: «Fink — Schubert: Lieder (harmonia mundi HMC 901991, зап. сент. 2007, Teldex Studio Berlin, изд. 28.08.2008)» (planning/youtube/albums/female-recitalists.md, albums.md). Topic-метаданные — release_year 2008.",
+      "album": "Schubert: Lieder (harmonia mundi HMC 901991)",
+      "label": "harmonia mundi",
+      "age_voice": "52 года (р. 1955) — верхняя граница пика (~1995–2015); тёплое ровное меццо.",
+      "reputation": "Сильнейший современный кандидат по документированной репутации: тот же альбом — единственная современная запись D 828 с 5 звёздами klassik-prisma, а дуэт Fink/Huber — со-победитель слепого теста 2020 по Gretchen am Spinnrade наряду со Шварцкопф/Фишером (albums.md, дайджест).",
+      "sources": [
+        "planning/youtube/albums.md",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md",
+        "yt-dlp метаданные 67G8Tz8mNJ4 (harmonia mundi)"
+      ],
+      "youtube": [
+        {"videoId": "67G8Tz8mNJ4", "channel": "Bernarda Fink - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая просматриваемая официальная выкладка среди современных (≈5,8 тыс.)."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "2014?",
+      "year_source": "Topic-метаданные (The Orchard/Wigmore Hall Live): album «Schubert – Wigmore Hall Live», release_year 2014; реестр: «Bostridge — Songs by Schubert 1–4 (Wigmore Hall Live: WHLive0067, 2014; …)», Julius Drake (planning/youtube/albums/male-recitalists.md). Дата самого концерта не установлена.",
+      "album": "Songs by Schubert, vol. 1 (Wigmore Hall Live WHLive0067)",
+      "label": "Wigmore Hall Live",
+      "age_voice": "~50 лет (р. 1964) — после пика (~1995–2010); по дайджесту поздний Бостридж «интеллектуально, но манернее/суше».",
+      "reputation": "Живой концертный документ ведущего английского шубертианца; по правилу о скепсисе к современным и по возрасту — не первый выбор.",
+      "sources": [
+        "planning/youtube/albums/male-recitalists.md",
+        "yt-dlp метаданные wsBcCpPLmMU"
+      ],
+      "youtube": [
+        {"videoId": "wsBcCpPLmMU", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год — год издания концертного диска; дату вечера нужно доисследовать по буклету WHLive0067."
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2022",
+      "year_source": "Topic-метаданные (UMG): album «Schubert: 21 Songs», release_year 2022; MB — «Alice Coote, Julius Drake». Дата сессии не установлена.",
+      "album": "Schubert: 21 Songs",
+      "label": "Universal (Topic-выкладка)",
+      "age_voice": "~54 года (р. 1968) — зрелое меццо, пик по дайджесту «~2005–наст.».",
+      "reputation": "Кут — автор вехи женских прочтений Winterreise (Wigmore Hall Live, янв. 2012, Drake) — дайджест. Оценок этого альбома не добыто; просмотров у ролика 29 — реального резонанса нет.",
+      "sources": [
+        "planning/research/singers-digest.md",
+        "yt-dlp метаданные UrH8cjGBVxM"
+      ],
+      "youtube": [
+        {"videoId": "UrH8cjGBVxM", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный найденный кандидат «не ранее 2015» наряду с Хассельхорном."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2022",
+      "year_source": "Реестр: «Hasselhorn — Glaube, Hoffnung, Liebe (harmonia mundi HMM 902689, зап. 2021?, изд. 06.05.2022)», пианист Joseph Middleton (planning/youtube/albums/male-recitalists.md); Topic-метаданные — album «Schubert: Glaube, Hoffnung, Liebe. Lieder», release_year 2022, загрузка 07.05.2022.",
+      "album": "Schubert: Glaube, Hoffnung, Liebe (harmonia mundi HMM 902689)",
+      "label": "harmonia mundi",
+      "age_voice": "32 года (р. 1990) — ранний пик (~2019–наст.); молодой упругий баритон.",
+      "reputation": "Хассельхорн — обладатель Diapason d'or de l'année за «Schubert 200» (Müllerin 2023) и Preis der deutschen Schallplattenkritik за «Licht und Schatten» (2024) — но это другие альбомы. По самому «Glaube, Hoffnung, Liebe» установленных премий в реестре нет («без установленных премий?»). Оценки прессы о молодых фильтровать по правилу о пиаре.",
+      "sources": [
+        "planning/youtube/albums/male-recitalists.md",
+        "planning/research/singers-digest.md",
+        "yt-dlp метаданные oEPLND-5Cyk (harmonia mundi)"
+      ],
+      "youtube": [
+        {"videoId": "oEPLND-5Cyk", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год сессии в реестре стоит со знаком вопроса (2021?); год издания — 2022."
+    },
+    {
+      "singer": "Kiri Te Kanawa",
+      "pianist": "Richard Amner",
+      "rec_year": "не установлен (EMI-рецитал, ~1985–90?)",
+      "year_source": "Дайджест: «Te Kanawa — запись Gretchen в EMI-рецитале ~1985–90? (Amner)»; MB — две записи «Kiri Te Kanawa, Richard Amner». Дискографического подтверждения года в этой сессии нет.",
+      "album": "EMI Schubert-рецитал (издание не установлено)",
+      "label": "EMI",
+      "age_voice": "если ~1985–90 — 41–46 лет, зрелое лирическое сопрано.",
+      "reputation": "По дайджесту оценки смешанные («невыразительна» по части форумов) — форумные мнения источником качества не считаем, но и оснований для включения нет.",
+      "sources": [
+        "planning/research/singers-digest.md",
+        "planning/youtube/data/d138-rastlose-liebe.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "XVVYrJEn6H8", "channel": "KiriOnLine - Dame Kiri Te Kanawa", "official": false, "oembed_ok": true},
+        {"videoId": "gc9nB_HogPU", "channel": "civileso", "official": false, "oembed_ok": true}
+      ],
+      "note": "Самая просматриваемая загрузка песни на YouTube (≈202 тыс. у civileso) — популярность не критерий отбора; официального Topic-ролика не найдено."
+    },
+    {
+      "singer": "Marko Rothmüller",
+      "pianist": "не установлен (в проекте участвовали Раухайзен, Пешко, Гир)",
+      "rec_year": "1943 или 1947",
+      "year_source": "Discogs release 13235027, Hamburger Archiv für Gesangskunst, «Franz Schubert — Lied-Edition 7 (1943/1947)», трек 16 «Rastlose Liebe D 138», исполнитель трека — Marko Rothmuller; пианисты издания в целом — Gerald Moore, Michael Raucheisen, Sebastian Peschko, Suzanne Gyr (без разбивки по трекам).",
+      "album": "Lied-Edition 7 (1943/1947) — немецкие радиозаписи",
+      "label": "Hamburger Archiv für Gesangskunst",
+      "age_voice": "Ротмюллер (1908–1993) — 35–39 лет, пик.",
+      "reputation": "Историко-документальная ценность (радиокорпус Раухайзена); в фонде проекта певец не числится ни в приоритетных, ни в резерве.",
+      "sources": [
+        "https://api.discogs.com/releases/13235027"
+      ],
+      "youtube": [],
+      "note": "Загрузки на YouTube не найдено; кандидат справочный."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. (1) Дискография закрыта в 2012, ровно 6 шубертовских альбомов (дайджест). (2) Единственный релевантный — «Goethe-Lieder» (RCA 09026 618642, зап. 25–26 и 28–29 мая 1993, Reitsaddel Neumarkt, изд. 1995, Charles Spencer): полный трек-лист из 13 номеров (Der Sänger, 3 Gesänge des Harfners, Prometheus, Ganymed, Grenzen der Menschheit, Erlkönig, Szene aus Faust, Der Zwerg, Auf dem Wasser zu singen, Liedesend, Der Musensohn) — Rastlose Liebe отсутствует [https://api.discogs.com/releases/8778752]. (3) Discogs track-search «Rastlose Liebe» + artist=Quasthoff — 0 результатов. (4) MB-каркас песни (45 записей) Квастхофа не содержит. (5) yt-dlp «Quasthoff Rastlose Liebe» — ни одного ролика с ним.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ, минимум трижды: (а) с Klaus Billing — радио Берлин, 19–25.01.1948 [Discogs 11359476, 9172331; отобрано в антологию Diapason «22 Lieder» 2023, Discogs 30791559]; (б) с Gerald Moore — EMI «Schubert: Lieder Vol. 1», год не установлен (1955–57?) [Topic/Warner UG5SH-0mY-w]; (в) с Gerald Moore — DG «Sämtliche Lieder», сессии 1966–72 [SorXIDqmafg, m3-GMCceSb4]. MB знает также версии с Jörg Demus и живую со Святославом Рихтером (MB-поиск по work 1299c104-d660-3b8e-8d7f-1b470fabb5ba).",
+    "Elisabeth Schwarzkopf": "Записи НЕ найдено. Discogs track-search «Rastlose Liebe» + artist=Schwarzkopf даёт только два сборника, где её треки — другие песни (в антологии Diapason «22 Lieder» она поёт An Sylvia, Die junge Nonne, Nähe des Geliebten с Эдвином Фишером; Rastlose Liebe там — Фишер-Дискау/Биллинг) [https://api.discogs.com/releases/30791559]. В MB-каркасе песни её нет; yt-dlp по запросу «Schwarzkopf Rastlose Liebe» её роликов не выдаёт. Отрицательный результат по имеющимся источникам.",
+    "Hans Hotter": "Записи НЕ найдено. Discogs track-search + artist=Hotter даёт два сборника, где Хоттер поёт другое (в Diapason «22 Lieder» — Am Bach im Frühling и Sei mir gegrüßt с Муром; в «Lied-Edition 7 (1943/1947)» Хоттер есть в составе, но Rastlose Liebe там поёт Marko Rothmüller — трек 16) [https://api.discogs.com/releases/30791559, https://api.discogs.com/releases/13235027]. В MB-каркасе песни его нет.",
+    "Peter Anders": "Записи НЕ найдено. Те же два сборника: в Diapason «22 Lieder» Андерс поёт Im Frühling с Раухайзеном; в радиоиздании «Lied-Edition 7 (1943/1947)» он в составе, но D 138 исполняет Ротмюллер [https://api.discogs.com/releases/30791559, https://api.discogs.com/releases/13235027]. В MB-каркасе песни его нет; yt-dlp роликов не находит.",
+    "Elisabeth Schumann": "Записи НЕ найдено. Discogs track-search + artist «Elisabeth Schumann» — 1 результат, антология Diapason «22 Lieder», где её треки — Du bist die Ruh (с Alwin) и Der Musensohn (с Муром) [https://api.discogs.com/releases/30791559]. В MB-каркасе песни её нет.",
+    "Christa Ludwig": "Записи НЕ найдено. Discogs track-search + artist=Ludwig даёт 9 результатов, но ни в одном Rastlose Liebe не за ней (в Diapason «22 Lieder» она поёт Fischerweise; прочие совпадения — однофамильцы/другие исполнители: Heather Harper, Peter Schreier и др.) [https://api.discogs.com/releases/30791559]. В MB-каркасе песни её нет.",
+    "Lucia Popp": "НЕ записывала. Discogs track-search «Rastlose Liebe» + artist=Popp — 0 результатов; в MB-каркасе песни её нет; yt-dlp «Lucia Popp Rastlose Liebe» её исполнения не выдаёт. Её основной шубертовский рецитал (EMI, сессии 1–6.11.1983, Gage) в реестре описан по трек-листу без этой песни (planning/youtube/albums.md)."
+  },
+  "albums_facts": [
+    {
+      "album": "Радиозаписи Берлин 19–25.01.1948 (изд. «Schwanengesang / 7 Lieder»)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1948",
+      "label": "RIAS → Myto / Verona / Archipel",
+      "facts": "Дата сессии прямо указана в примечаниях двух независимых изданий Discogs (11359476, 9172331): «High Quality Radio Recording Berlin, 19-25.1.1948»; общий тайминг 75'02\"; Rastlose Liebe — трек 16. Дебютные записи 22-летнего певца. Трек включён в антологию Diapason «22 Lieder» (сентябрь 2023).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1969 (конвенция проекта; сессии 1966–1972)",
+      "label": "Deutsche Grammophon",
+      "facts": "Уже в реестре (planning/youtube/albums.md, albums/complete-editions.md): Ufa-Ton-Studio Berlin, эдиции 1969/1970/1972; все ~400+ мужских песен; женские исключены. Для D 138 — две Topic-загрузки разной длительности.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Vol. 1 (EMI/Electrola)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1955–57?",
+      "label": "EMI / Warner Classics",
+      "facts": "НОВАЯ карточка для реестра. Серия EMI Vol. 1–4 с Муром; том 4 записан 23–25.05.1958 (реестр), значит том 1 — вторая половина 1950-х. Точная дата сессии не установлена; фан-загрузки указывают 1955 и 1956 (не источник).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Der Musensohn: 15 ausgesuchte Schubert-Lieder (Philips 802 831 LY)",
+      "singer": "Gérard Souzay",
+      "year": "1967",
+      "label": "Philips / Universal",
+      "facts": "Уже в реестре по Грею: сессии 1–7.07.1967, Концертгебау, пианист Dalton Baldwin. Подтверждается release_year 1967 в Topic-метаданных. Теперь известно, что альбом содержит D 138.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Elisabeth Grümmer singt Lieder von Schubert und Brahms (Electrola)",
+      "singer": "Elisabeth Grümmer",
+      "year": "1958",
+      "label": "Electrola / EMI; переизд. Testament SBT 1086 (1996; Discogs 11189867), Topic — через Naxos",
+      "facts": "НОВАЯ карточка (Грюммер в реестре альбомов отсутствовала). Примечания Testament-переиздания: «Recorded: 11 November, Gemeindehaus, Berlin-Zehlendorf (Schubert, Brahms)», ℗ 1959; исходный LP Electrola/Odeon датирован 1958 (Discogs 14907951, 7315852). Пианист — Gerald Moore. Rastlose Liebe — трек 4 CD Testament.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Ernst Haefliger singt Lieder von Schubert und Brahms (DG LPEM 19 096) / The Ernst Haefliger Edition",
+      "singer": "Ernst Haefliger",
+      "year": "1957 (год издания)",
+      "label": "Deutsche Grammophon",
+      "facts": "Карточка в реестре уже была со знаком вопроса по дате сессии; теперь подтверждено (Topic/UMG), что пианист — Hertha Klust и что альбом содержит D 138.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» (CDJ33024)",
+      "singer": "John Mark Ainsley (в томе также C. Schäfer, Keenlyside, George)",
+      "year": "1994 (сессии IX.1994; изд. X.1995)",
+      "label": "Hyperion / Universal",
+      "facts": "Карточка уже в albums/complete-editions.md. Теперь установлено: D 138 в этом томе поёт Ainsley; Topic-канал оформлен на пианиста Graham Johnson.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert Lieder – Goethe (Decca 452 917-2)",
+      "singer": "Matthias Goerne",
+      "year": "1996",
+      "label": "Decca",
+      "facts": "НОВАЯ карточка. Буклет (Discogs 13052206): запись — Reitstadel, Neumarkt, май 1996; ℗/© 1997 Decca; TT 72'10; пианист Andreas Haefliger. Важно: Topic-метаданные дают 1997 — это год издания, не сессии.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Goethe-Lieder (RCA 09026 618642)",
+      "singer": "Thomas Quasthoff",
+      "year": "1993 (сессии 25–26 и 28–29 мая 1993; изд. 1995)",
+      "label": "RCA Victor Red Seal",
+      "facts": "НОВАЯ карточка, важная для всего корпуса: полный трек-лист из 13 номеров зафиксирован (см. priority_singers_checked). Место записи — Historischer Reitstadel, Neumarkt. Этот альбом закрывает вопрос «есть ли у Квастхофа песня X» для гётевских песен.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Glaube, Hoffnung, Liebe (harmonia mundi HMM 902689)",
+      "singer": "Samuel Hasselhorn",
+      "year": "2022 (изд. 06.05.2022; сессия 2021?)",
+      "label": "harmonia mundi",
+      "facts": "Карточка уже в albums/male-recitalists.md; теперь установлено, что альбом содержит D 138 (Topic-загрузка от 07.05.2022).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Diapason «22 Lieder» (Les Indispensables de Diapason, сентябрь 2023)",
+      "singer": "антология (Anders, Ferrier, Fischer-Dieskau, Grümmer, Hotter, Hüsch, Lehmann, Ludwig, Schlusnus, E. Schumann, Schwarzkopf, Seefried)",
+      "year": "2023 (переиздание)",
+      "label": "Les Indispensables de Diapason",
+      "facts": "НОВАЯ карточка, полезная всему корпусу: редакционный отбор Diapason из исторических шубертовских записей, с полными покомандными кредитами по каждому треку (Discogs 30791559). Служит быстрым тестом «кто из старых мастеров считается эталонным в песне X» и одновременно источником отрицательных результатов.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Franz Schubert — Lied-Edition 7 (1943/1947)",
+      "singer": "антология немецких радиозаписей (Lemnitz, Anders, Berger, Hann, Greindl, Hotter, Schlusnus, Klose, Schmitt-Walter, Rothmüller)",
+      "year": "1943/1947",
+      "label": "Hamburger Archiv für Gesangskunst",
+      "facts": "НОВАЯ карточка: серия переизданий радиокорпуса (пианисты Moore, Raucheisen, Peschko, Gyr). D 138 — трек 16, поёт Marko Rothmüller. Полезна для проверки отрицательных результатов по старым немецким мастерам.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "Сравнительных обзоров по D 138 в этой сессии добыть НЕ удалось: бюджет WebSearch исчерпан до начала работы; klassik-prisma.de отдаёт индекс без извлекаемых ссылок; hyperion-records.co.uk (страница песни + заметки Грэма Джонсона, список записей Hyperion) отдаёт только оболочку страницы. Gramophone/MusicWeb/BBC Music Magazine без поисковой выдачи адресно не открыть.",
+    "Косвенный редакционный отбор вместо обзора: Diapason, «22 Lieder» (Les Indispensables de Diapason, сентябрь 2023) — из всей истории записи песни редакция выбрала Fischer-Dieskau / Klaus Billing (Берлин, 1948). URL: https://api.discogs.com/releases/30791559",
+    "Опорные факты о репутации альбомов взяты из уже верифицированных карточек проекта: planning/youtube/albums.md, planning/youtube/albums/complete-editions.md, planning/youtube/albums/male-recitalists.md, planning/youtube/albums/female-recitalists.md, planning/research/singers-digest.md"
+  ],
+  "negatives": [
+    "Квастхоф песню не записывал — подтверждено трек-листом его единственного гётевского альбома (RCA, зап. 1993) и нулевым результатом Discogs track-search.",
+    "Из восьми приоритетных певцов песню записал только Фишер-Дискау; Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг, Попп — отрицательный результат по Discogs track-search, MB-каркасу, антологии Diapason и yt-dlp.",
+    "Лучшая по историческому статусу запись (Fischer-Dieskau / Billing, 1948) на YouTube отсутствует — в топ-5 включить нельзя.",
+    "Точный год EMI-записи Фишера-Дискау с Муром («Schubert: Lieder Vol. 1») дискографически не установлен; по правилу о неустановленном годе допустима публикация со значением вида «1955–57?», но сначала нужно доисследование по дискографии Майкла Грея.",
+    "Год записи Джанет Бейкер с Парсонсом не установлен: её документированные сессии 1970 года шли с Муром, а Topic-трек кредитован Парсонсу.",
+    "Prey: три взаимно противоречащих указания года (Topic — 1965 для двух разных альбомов, реестр — издание 1962 на EMI, фан-загрузка — Philips 6573 010, 1969) и две Topic-загрузки разной длительности; без доисследования публиковать нельзя. Одна из них (b86JmZZXuV8) oEmbed-проверку не прошла.",
+    "Schreier / Olbertz есть только на фан-канале (перенос с LP MHS 3380), год — из описания загрузки, то есть не источник.",
+    "Самый популярный ролик песни на YouTube (Kiri Te Kanawa, ≈202 тыс. просмотров) — фан-загрузка без установленного года и со смешанной репутацией исполнения; популярность критерием отбора не является.",
+    "Кандидатов «не ранее 2015» всего два — Coote/Drake (2022) и Hasselhorn/Middleton (2022), оба без добытых критических оценок именно этой записи.",
+    "Записи, известные по MB, но без найденных официальных роликов и/или без данных: Fischer-Dieskau/Demus, Fischer-Dieskau/Рихтер (лайв), Goerne/Eric Schneider, Prégardien/Gees, Baker (вторая версия), Norman/Parsons (лайв), Augér/Orkis, Mathis/Engel, Sarah Walker/Vignoles, Miah Persson/Vignoles, Kate Royal/Martineau, Markus Schäfer/Meniker, Mauro Peter/Deutsch, Dessay/Cassard, Gedda/Werba, Edelmann/Spencer, Schweppe/Fukuda, DeGaetani/Kalish (только фан-загрузка), Krimmel/Bushakevitz, Kožená/Schmitt, Henschel/Deutsch, Tilling/Rivinius, Maltman/Johnson, von Otter/Forsberg."
+  ]
+}

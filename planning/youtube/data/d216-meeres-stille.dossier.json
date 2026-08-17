@@ -1,0 +1,564 @@
+{
+  "d": "216",
+  "title": "Meeres Stille",
+  "tier": "famous",
+  "research_note": "WebSearch в сессии исчерпан (200/200) — исследование велось через WebFetch (hyperion-records.co.uk, klassik-prisma.de), MusicBrainz WS/2, Discogs API (api.discogs.com, с длинными паузами из-за rate-limit), дискографию Майкла Грея (classical-discography.org, POST /search2.php) и yt-dlp/oEmbed. Метаданные YouTube-загрузок использованы ТОЛЬКО для идентификации альбома-источника трека, НЕ как источник дат.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": "1959",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md): «Schubert: Goethe-Lieder» — запись сентябрь 1959, Studio Lankwitz, Берлин; издание 1960 (DG SLPM 138 117; переиздание DG Originals 457 747-2). MusicBrainz: recording e7e50843-9aea-4058-88c6-d14450a3abbb (FiDi/Demus, «Meeres Stille, D 216») числится на релизе DG «Goethe-Lieder» 457 747-2 (1999, The Originals) и в боксе «Complete Lieder Recordings on DG» 4862073 (2022).",
+      "album": "Schubert: Goethe-Lieder (DG SLPM 138 117; переизд. DG «The Originals» 457 747-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года (р. 28.05.1925). Ровно в пике по дайджесту (пик ~1951–1972); голос свежий, лёгкий, ещё без сухости поздних 1970-х. Дайджест прямо отмечает: гётевский альбом с Демусом «записан на вокальном пике певца».",
+      "reputation": "Альбом переиздан DG в престижной серии «The Originals» (маркер канонического статуса каталога) и включён в бокс полного собрания песенных записей FiDi на DG (4862073, 2022). Fischer-Dieskau — приоритет №2 по правилам проекта. Скепсиса к пиару не требуется: репутация устоявшаяся, не маркетинговая.",
+      "sources": [
+        "planning/youtube/albums.md (карточка «Dietrich Fischer-Dieskau — Schubert: Goethe-Lieder»)",
+        "https://musicbrainz.org/ws/2/release?recording=e7e50843-9aea-4058-88c6-d14450a3abbb (DG 457 747-2, 1999; DG 479 6018 «The Originals Vol. 2», 2016; DG 4862073, 2022)"
+      ],
+      "youtube": [
+        {"videoId": "EA6KKwtw7Lo", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "FEuepkiuPgE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "EA6KKwtw7Lo — самая просматриваемая загрузка песни вообще (≈13,8 тыс.). Альбом-тег загрузки — «Schubert: Goethe Lieder», исполнители FiDi/Demus; это подтверждает происхождение, но год берётся из дискографии, не из тега. Дубль FEuepkiuPgE — тот же трек под вывеской компиляции «Fischer-Dieskau Lieder A-Z». Отдельная запись FiDi/Demus в MB (1ab7a819, 152 с) релизами не подтверждена; на канале Jörg Demus - Topic есть eZWCuML6bjQ (139 с, альбом «Schubert: Liederabend») — вероятно иной, концертный источник, год не установлен."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–68",
+      "year_source": "Discogs, релиз 17653324 (DG 437 215-2, «Lieder Volume I», цифровая эдиция 1985) — примечания издания: «Recordings: Berlin Ufa-Ton-Studio, December 1966, January & June 1967 and February 1968»; «Meeres Stille D. 216» — CD 4, трек 4 того же тома. Discogs, релиз 11250746 (DG 437 214-2, сводный бокс): «Meeres Stille, D. 216 (Op. 3/2)» — 04.04, 2:25; ℗ 1969/1970/1972.",
+      "album": "Schubert: Sämtliche Lieder, Vol. I (DG 437 215-2 / бокс 437 214-2, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–43 года (р. 28.05.1925). Всё ещё в пике (~1951–1972), но на 7–9 лет позже версии с Демусом; тон плотнее и «взрослее».",
+      "reputation": "Полный свод всех мужских песен Шуберта с Джеральдом Муром — базовая точка отсчёта для любой мужской песни корпуса (реестр альбомов проекта). Канонический статус, не пиар.",
+      "sources": [
+        "https://api.discogs.com/releases/17653324 (примечания: сессии Ufa-Ton-Studio Berlin, XII.1966, I и VI.1967, II.1968)",
+        "https://api.discogs.com/releases/11250746 (позиция трека и хронометраж)",
+        "planning/youtube/albums.md (карточка «Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD)»)"
+      ],
+      "youtube": [
+        {"videoId": "dALdySiJxWU", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "6RuVdSEUQxM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Два Topic-дубля одного трека (145 с) под вывесками «Schubert: Lieder» и «Schubert: Lieder (Vol. 1)». Точную сессию именно D 216 внутри окна XII.1966–II.1968 буклет тома по-трековно не расписывает — отсюда диапазон."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Karl Engel",
+      "rec_year": "1970",
+      "year_source": "Discogs, релиз 14765571 (Orfeo d'Or C 389 951 B, изд. 1995) — примечания: «Live Recording: Stockholm 1970».",
+      "album": "Goethe-Lieder (Zelter, Reichardt, Beethoven, Schubert, Schumann, Brahms, Schoeck, Wolf) — лайв, Стокгольм",
+      "label": "Orfeo d'Or",
+      "age_voice": "45 лет (р. 28.05.1925); поздний край пика, живой концерт.",
+      "reputation": "Концертный документ Orfeo d'Or (архивная серия); критических разборов именно этого диска не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/14765571",
+        "MusicBrainz recording ac0f4760-07e6-4223-90f5-53117a135d42 (FiDi/Karl Engel, «Meeresstille, D 216», 156 с)"
+      ],
+      "youtube": [
+        {"videoId": "ZoqpexAep4k", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Тег загрузки: «Goethe-Lieder: Dietrich Fischer-Dieskau & Karl Engel (Live)». Третий по счёту вариант FiDi; при равенстве качества правила требуют предпочесть более раннюю (1959)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1956–65?",
+      "year_source": "MusicBrainz: recording 4659f2f6-0ed4-4aa7-8f9e-cae55816f2e7 (FiDi/Moore, «Meeresstille, D 216», 129 с) — единственный релиз Orfeo C 339 050 T «Die Salzburger Liederabende, 1956–1965» (изд. 2005). Конкретный вечер по доступным источникам не установлен.",
+      "album": "Die Salzburger Liederabende, 1956–1965",
+      "label": "Orfeo d'Or",
+      "age_voice": "31–40 лет — самая свежая форма, но год конкретного вечера не установлен.",
+      "reputation": "Зальцбургские лайвы FiDi/Moore — признанная архивная серия Orfeo; отдельных разборов D 216 не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=4659f2f6-0ed4-4aa7-8f9e-cae55816f2e7"
+      ],
+      "youtube": [],
+      "note": "Отдельной загрузки этого трека на YouTube не найдено — для публикации непригоден без дальнейшего поиска."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1970–73?",
+      "year_source": "Точный год НЕ установлен. Известно: трек входит в LP «Songs I Love» (EMI/HMV ASD 3124), Discogs 5425558 — «Meeres Stille» = сторона A, трек 2; дата выпуска ноябрь 1975 (по коду печатника «7511 PL»); аккомпанемент на конверте — Geoffrey Parsons & Gerald Moore. Дайджест певцов проекта датирует парсонсовские сессии Шварцкопф 1970–73. Дискография Майкла Грея (classical-discography.org, запрос artists=Schwarzkopf & composer=Schubert, 21 позиция) шубертовских записей Шварцкопф после 1952 г. вообще не содержит и «Meeres Stille» не знает — то есть запись НЕ относится к её сессиям 1946–1954 с Муром.",
+      "album": "Songs I Love (Schubert / Schumann / Wolf), EMI/HMV ASD 3124; переизд. в EMI «Lieder» CDM 7 63656 2 и в Warner-боксе «The Complete Recitals 1952–1974»",
+      "label": "EMI / Warner Classics",
+      "age_voice": "54–57 лет (р. 09.12.1915). После пика (1948–1964): по дайджесту поздние записи с Парсонсом — голос легче и суше, но интерпретаторски высшего класса (её поздняя Gretchen-1973 получила 5 звёзд klassik-prisma).",
+      "reputation": "Приоритет №3 по правилам (топ-1 среди женщин). Отдельного критического разбора D 216 не найдено; репутация переносится с рецитала и с боксовых переизданий Warner.",
+      "sources": [
+        "https://api.discogs.com/releases/5425558 (трек-лист ASD 3124, дата выпуска XI.1975)",
+        "https://api.discogs.com/releases/8571834 (EMI CDM 7 63656 2, 1990: ℗ various 1954–1982; студии — Abbey Road и Berlin, Ev. Gemeindehaus Zehlendorf)",
+        "https://www.classical-discography.org/search2.php (POST artists=Schwarzkopf, composer=Schubert — отрицательный результат по Meeres Stille)",
+        "MusicBrainz recording 356477a0-4b19-48a9-99d3-0ee85e6456f5 (Schwarzkopf/Parsons, 121 с)"
+      ],
+      "youtube": [
+        {"videoId": "xKb14_cEpk4", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "9Y2nCs04KjA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "A7PZv4akj1E", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "xKb14_cEpk4 помечен альбомом «Songs I Love» — наиболее чистая привязка. A7PZv4akj1E приписан компиляции «Recordings 1948-1954»: это ЛОЖНАЯ атрибуция серого агрегатора (Грей не знает такой записи в сессиях 1946–54, а пианист — Парсонс, работавший с ней с конца 1960-х). Публиковать следует xKb14_cEpk4 или 9Y2nCs04KjA. По правилу о неустановленном годе допустимо year = \"1970–73?\"."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Gerald Moore",
+      "rec_year": "1949",
+      "year_source": "Discogs, релиз 9699609 (Warner/EMI 50999 9 93726 2 0 «Winterreise • Schwanengesang • Lieder», 2013) — примечания: «Tracks 1-15 to 1-19 and 1-23 to 1-24 recorded 1-2 October 1949»; в трек-листе «Meeresstille D216» = трек 1-16 (1:59). Место: No. 1 Studio, Abbey Road, London. Совпадает с карточкой реестра проекта о сессиях Hotter/Moore 1–2 октября 1949 (78-об. сторона Wanderers Nachtlied / Am Bach im Frühling).",
+      "album": "Schubert: Lieder (EMI/HMV 78s 1949); переизд. EMI References CDH 5 65196 2 «Schwanengesang & Lieder» и Warner «Winterreise · Schwanengesang · Lieder»",
+      "label": "EMI / Warner Classics (ориг. HMV/Electrola)",
+      "age_voice": "40 лет (р. 19.01.1909) — самая середина пика (~1942–1955): тёмный, ровный, ещё абсолютно свободный бас-баритон.",
+      "reputation": "Приоритет №4 по правилам. Аннотация переиздания сессий 1949 г. (карточка реестра по D 768) отмечает, что запись «almost seems to suspend time» — формулировка, буквально описывающая штиль Гёте. Хоттер/Мур 1949 — эталон медленного низкого шубертовского пения. Кроме того, трек включён EMI в историческую антологию «Schubert Lieder on Record 1898–2012» (50999 3 27575 2 1) — прямой маркер канона.",
+      "sources": [
+        "https://api.discogs.com/releases/9699609 (сессионные даты по группам треков + позиция Meeresstille D216)",
+        "planning/youtube/albums.md (карточки Hotter: сессии 1–2.10.1949, Abbey Road Studio No. 3, и EMI References CDH 5 65196 2)",
+        "https://musicbrainz.org/ws/2/release?recording=5f0ef5a6-8493-45ab-94f7-f415fedbb5d7 (антология EMI «Lieder on Record 1898–2012»)"
+      ],
+      "youtube": [
+        {"videoId": "NOvz-Yh2g_I", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ktFxamQpHoY", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "9bIJUO-sCOQ", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три Topic-дубля одного трека (121–122 с). NOvz-Yh2g_I идёт под альбомом «Schubert: Lieder» (наиболее чистая привязка), ktFxamQpHoY — под «Schwanengesang D. 957» (сцепка переиздания EMI), 9bIJUO-sCOQ — под серой антологией «Lieder nach Texten von Goethe Vol. 6». Расхождение примечаний реестра (Studio No. 3) и буклета Warner (No. 1 Studio) по студии — несущественно для года."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Graham Johnson",
+      "rec_year": "1987",
+      "year_source": "Hyperion Records, страница альбома CDJ33001: «Recording details: February 1987, Elstree, United Kingdom»; «Release date: December 1987». MusicBrainz: recording e6a4a199-92cd-4a6e-bfe2-611448c70485 (Baker/Johnson, «Meeres Stille, D. 216») — релиз Hyperion CDJ33001, 1987-12.",
+      "album": "The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001)",
+      "label": "Hyperion",
+      "age_voice": "53 года (р. 21.08.1933). По дайджесту пик ~1965–1982 — то есть запись на позднем краю пика; со сцены Бейкер ушла к концу 1980-х. Пресса того момента прямо фиксирует форму: «Dame Janet is in glorious voice».",
+      "reputation": "Самый титулованный кандидат: GRAMOPHONE AWARD WINNER; BBC Music Magazine — № 1 в «Top Ten Discs of the Decade». Отзывы: «Dame Janet is in glorious voice» (The Penguin Guide to Compact Discs); «One of the loveliest records even Dame Janet has made» (The Guardian); «A generous and revelatory recital of Goethe and Schiller settings. Janet Baker breaks the champagne bottle over one of the most important recording projects of the half century» (The Times). Издание — научный эталон (комментарии Грэма Джонсона).",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001 (дата и место записи, награды, цитаты рецензий)",
+        "https://musicbrainz.org/ws/2/release?recording=e6a4a199-92cd-4a6e-bfe2-611448c70485"
+      ],
+      "youtube": [
+        {"videoId": "t8G4Ecru1gE", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "С 2023 (Universal купил Hyperion) каталог доступен как official audio через Topic-каналы. На том же издании есть и ПЕРВАЯ редакция песни, D 215a (YouTube IZTAT3RKHXw, канал «Graham Johnson - Topic», 190 с) — не путать с D 216."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1987",
+      "year_source": "Discogs, релиз 6768318 (Philips 422 048-1, 1988) — примечания: «Live recording Schubertiade, Hohenems Festival, Feldkirch, Austria, 6/1987»; в трек-листе «Meeres Stille» = A11 (2:36). MusicBrainz: recording d913069f-f2e5-47b2-9ef1-c29dcb42008e — релиз Philips Digital Classics 422 048-2 «Händel / Schubert / Schumann» (1988).",
+      "album": "Händel · Schubert · Schumann — Recorded Live (Schubertiade Hohenems, июнь 1987)",
+      "label": "Philips / Universal",
+      "age_voice": "41 год (р. 15.09.1945). Пик по дайджесту ~1975–1995 — самая середина; голос крупный, «монументальный» (как и в её студийном шубертовском рецитале 1984 с Moll).",
+      "reputation": "Живой рецитал на Шубертиаде в Хоэнемсе — площадка высшего профиля для этого репертуара. Отдельного критического разбора D 216 не найдено; по дайджесту манера Норман в Шуберте монументальная — для двухминутного штиля это может быть и достоинством (тяжёлая неподвижность), и перегрузом.",
+      "sources": [
+        "https://api.discogs.com/releases/6768318 (место, дата концерта, позиция трека)",
+        "https://musicbrainz.org/ws/2/release?recording=d913069f-f2e5-47b2-9ef1-c29dcb42008e"
+      ],
+      "youtube": [
+        {"videoId": "zeU8Q9-aOjk", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая медленная из значительных версий (162 с против 120–150 у остальных). Тег загрузки — «Jessye Norman Live At Hohenems», что подтверждает происхождение."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md): «An die Musik – Favourite Schubert Songs» — запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; издание 04.09.1994 (DG 445 294-2). MusicBrainz: recording 4d48c88c-a936-4979-ab53-779819d7ad13 — релиз DG 445-294-2, 1994-09-04.",
+      "album": "An die Musik – Favourite Schubert Songs (23 песни)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28 лет (р. 09.11.1965). Ранний, свежий голос; по дайджесту пик ~1992–2005 — запись в самом его начале.",
+      "reputation": "Бестселлер каталога DG (реестр). При этом Терфель по дайджесту «не циклист» — Шуберт у него побочная линия; к громкости репутации применимо правило скепсиса к пиару современных.",
+      "sources": [
+        "planning/youtube/albums.md (карточка «An die Musik – Favourite Schubert Songs»)",
+        "https://musicbrainz.org/ws/2/release?recording=4d48c88c-a936-4979-ab53-779819d7ad13"
+      ],
+      "youtube": [
+        {"videoId": "Nw2uKcJfNcc", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дата уже унифицирована в проекте по D 768 и D 853 — тот же альбом, тот же год 1994."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (историческое фортепиано)",
+      "rec_year": "1994",
+      "year_source": "MusicBrainz: recording 82087d2c-033e-47ab-a229-08e627daac01 (Prégardien/Staier) — релиз Deutsche Harmonia Mundi 77342 «Lieder nach Gedichten von Johann Wolfgang von Goethe», дата 1994-10. (Год издания; отдельной сессионной даты в доступных источниках не найдено.)",
+      "album": "Schubert: Lieder nach Gedichten von Goethe (DHM 77342)",
+      "label": "Deutsche Harmonia Mundi",
+      "age_voice": "38 лет (р. 18.01.1956). По дайджесту пик ~1990–2012 — начало пика; светлый, ровный лирический тенор.",
+      "reputation": "Один из ведущих Lieder-теноров поколения (реестр проекта; его «Die schöne Müllerin» — Gramophone Editor's Choice и MIDEM Record of the Year 2009). Программа целиком гётевская и на историческом инструменте — периодная аутентичность; отдельного разбора D 216 не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=82087d2c-033e-47ab-a229-08e627daac01",
+        "planning/youtube/albums.md (карточки Prégardien; связка со Staier на историческом фортепиано)"
+      ],
+      "youtube": [
+        {"videoId": "tfTU17cPxV4", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Отдельно существует поздняя семейная версия дуэтом с сыном Юлианом и Михаэлем Гизом («Father & Son», ℗ 2014) — YouTube EpBd9c2XCwY (Michael Gees - Topic) и SFPJxF-aTKY; для отбора это иной жанр (два тенора), а не сольная песня."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "1997?",
+      "year_source": "MusicBrainz: recording fa3c9fed-503f-4a3d-9109-23fd05c23fcf — релиз Decca 452 917-2 «Lieder - Goethe», дата 1997-03-31; Discogs 13052206 (тот же кат. номер, год 1997). Дата сессии отдельно не документирована — вероятен 1996 г.",
+      "album": "Schubert: Lieder — Goethe (Decca 452 917-2)",
+      "label": "Decca",
+      "age_voice": "29–30 лет (р. 31.03.1967). Начало пика (~1997–2015); ранний Гёрне, голос ещё лёгкий, без позднего «мутноватого» веса.",
+      "reputation": "Гёрне — самый записываемый Schubert-баритон поколения (дайджест). Этот ранний Decca-диск предшествует его 12-томному своду на harmonia mundi. Отдельного разбора D 216 не найдено; применимо правило скепсиса к прессе о современных.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=fa3c9fed-503f-4a3d-9109-23fd05c23fcf",
+        "https://api.discogs.com/database/search?q=Goerne+Haefliger+Schubert+Goethe+Decca (Discogs 13052206, 452 917-2, 1997)"
+      ],
+      "youtube": [
+        {"videoId": "Qw8wuA_SXro", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Не путать со второй записью Гёрне (см. следующую карточку) — разные пианисты, разные годы, обе на канале «Matthias Goerne - Topic»."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Ingo Metzmacher",
+      "rec_year": "2009",
+      "year_source": "MusicBrainz: recording b3968b36-f284-4b59-a552-ce5e5a6259e4 («Meeres Stille (second version), D. 216») — релиз harmonia mundi HMC 902035 «Heliopolis», дата 2009-11-09. Дата сессии отдельно не документирована.",
+      "album": "Heliopolis — Matthias Goerne Schubert Edition, Vol. 1 (HMC 902035)",
+      "label": "harmonia mundi",
+      "age_voice": "42 года (р. 31.03.1967) — середина пика (~1997–2015); голос заметно плотнее и темнее, чем в 1997.",
+      "reputation": "Первый том крупнейшего сольного шубертовского свода последних десятилетий (12 томов, HM 2008–2014; бокс 2016) — см. реестр альбомов проекта. Отдельного критического разбора D 216 не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=b3968b36-f284-4b59-a552-ce5e5a6259e4",
+        "planning/youtube/albums.md (карточки Goerne Schubert Edition)"
+      ],
+      "youtube": [
+        {"videoId": "VpfOAfoZNBs", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая протяжённая мужская версия (163 с). Правило «при прочих равных — более ранняя» указывает на версию 1997 с Хефлигером."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Roger Vignoles",
+      "rec_year": "2012",
+      "year_source": "Hyperion Records, страница альбома CDA68010: «Recording details: November 2012, All Saints' Church, East Finchley, London»; «Release date: February 2014». MusicBrainz: recording 33bf1dd0-a78f-4cc9-9f01-bf79842f2f03 — релиз Hyperion CDA68010, 2014-02-03. Совпадает с реестром проекта (D 768, D 853).",
+      "album": "Schubert: Der Wanderer & other songs (Hyperion CDA68010)",
+      "label": "Hyperion",
+      "age_voice": "41 год (р. 1971). Пик по дайджесту ~2010 — наст. время; полный, тёмный бас-баритон, рассказчик венской школы.",
+      "reputation": "Лучше всех современных кандидатов документирован критикой. Gramophone: «A more alluringly rich voice than Christian Gerhaher's is hard to imagine until hearing Boesch, who has a greater capacity for soft singing, maintaining an interpretatively interesting tone even in pianissimos». The Guardian: «Boesch's singing is faultless… Vignoles, playing some of Schubert's most taxing accompaniments, tirelessly matches his every emotional shift. Very fine». International Record Review: «two of the best performers of Lieder in our time». The Sunday Times: «an ideal voice, at once dark and dazzling». Способность к pianissimo, отмеченная Gramophone, прямо релевантна штилю D 216.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68010 (дата/место записи и цитаты Gramophone, The Guardian, IRR, The Sunday Times)",
+        "https://musicbrainz.org/ws/2/release?recording=33bf1dd0-a78f-4cc9-9f01-bf79842f2f03",
+        "planning/youtube/albums.md (карточка «Florian Boesch — Schubert: Der Wanderer & other songs»)"
+      ],
+      "youtube": [
+        {"videoId": "vLoXnw1iZlg", "channel": "Roger Vignoles - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственная найденная official-загрузка трека висит на Topic-канале ПИАНИСТА (Roger Vignoles - Topic), не певца — учесть при проверке гейтом «соответствие канала певцу». Официальный промо-ролик альбома на канале Hyperion Records — UTDr8VWVO4o (сборный, не отдельная песня)."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "1982",
+      "year_source": "Discogs, релиз 9555165 (Intercord 26 838-3, 2LP «Lieder und Balladen», 1982) — трек A4 «Meeres Stille D 216 / Calm Sea», 3:09; запись классифицирована как DMM. MusicBrainz: recording 111fa3dd-9cf3-4e8b-bac0-4f74b0c787af — релизы Intercord 180.852 / 26 838-3 (1982) и INT 860.952.",
+      "album": "Schubert — Goethe: Lieder und Balladen (2LP, Intercord)",
+      "label": "Intercord",
+      "age_voice": "53 года (р. 11.07.1929). Дайджест: пик ~1960–1980 — то есть запись на самом краю пика, до «утяжеления» поздних 1980-х.",
+      "reputation": "Прай — основатель Шубертиады в Хоэнемсе (1976); гётевский двойной альбом с Хельмутом Дойчем — цельная программа. Отдельных крупных рецензий не найдено (лейбл Intercord, ограниченное переиздание).",
+      "sources": [
+        "https://api.discogs.com/releases/9555165 (трек-лист и год)",
+        "https://musicbrainz.org/ws/2/release?recording=111fa3dd-9cf3-4e8b-bac0-4f74b0c787af"
+      ],
+      "youtube": [],
+      "note": "Отдельной загрузки D 216 в исполнении Прая на YouTube НЕ найдено (поиск yt-dlp по «Hermann Prey Meeres Stille» и «…D 216 Schubert Goethe» дал только чужие записи и длинные сборники). Самая медленная версия из всех (3:09). Непригоден к публикации без ссылки."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Cord Garben",
+      "rec_year": "1993?",
+      "year_source": "MusicBrainz: recording 15263a0c-3668-43c7-ad9c-da6403aa3db5 — релиз Sony Classical «Lieder nach Gedichten von Goethe», 1993 (год издания; сессионная дата не установлена).",
+      "album": "Schubert: Lieder nach Gedichten von Goethe (Sony Classical)",
+      "label": "Sony Classical",
+      "age_voice": "54 года (р. 03.07.1939). Верхний край пика по дайджесту (~1975–1992) — практически на его исходе; голос тёмный, сильно окрашенный.",
+      "reputation": "Фассбендер — автор первой великой женской «Winterreise» (EMI 1988, Reimann). По D 216 отдельного разбора не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=15263a0c-3668-43c7-ad9c-da6403aa3db5",
+        "planning/youtube/albums/female-recitalists.md (карточки Fassbaender)"
+      ],
+      "youtube": [],
+      "note": "Отдельной загрузки D 216 не найдено (поиск по «Brigitte Fassbaender Meeres Stille D 216» дал только чужие треки и длинные лайв-сборники). Непригодна к публикации без ссылки."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "не установлен",
+      "year_source": "Источник трека — «Schubert 4 — Wigmore Hall Live» (лайв Wigmore Hall с Джулиусом Дрейком). Дискографической даты концерта по доступным источникам установить не удалось; в MusicBrainz эта запись отсутствует.",
+      "album": "Schubert 4 — Wigmore Hall Live",
+      "label": "Wigmore Hall Live",
+      "age_voice": "не установлен (р. 1964). По дайджесту пик ~1995–2010; позже — интеллектуально, но манернее и суше.",
+      "reputation": "Бостридж по дайджесту — крупный шубертианец (Hyperion т. 25; циклы EMI/Pentatone), но именно к нему применимо предостережение о манерности позднего периода. Разбора D 216 не найдено.",
+      "sources": [
+        "yt-dlp метаданные загрузки 9opRjeizp18 (альбом-тег «Schubert 4 - Wigmore Hall Live», исполнители Bostridge/Drake) — только для идентификации источника, не для датировки"
+      ],
+      "youtube": [
+        {"videoId": "9opRjeizp18", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год не установлен — по правилам не блокирует публикацию только для приоритетных певцов; Бостридж к ним не относится."
+    },
+    {
+      "singer": "Mauro Peter",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2015?",
+      "year_source": "MusicBrainz: recording 1d82c3ac-63ec-4e77-bb01-e21d1330a50e — релиз Sony Classical 88875083882 «Goethe Lieder», 2015-08-14 (год издания; сессионная дата не установлена).",
+      "album": "Schubert: Goethe Lieder (Sony Classical 88875083882)",
+      "label": "Sony Classical",
+      "age_voice": "28 лет (р. 1987) — молодой лирический тенор, ранний этап карьеры.",
+      "reputation": "Дайджест фиксирует Петера как перспективного, но с тонкой дискографией (Wigmore Hall Live «Müllerin» 2014, рецитал Sony). Единственный кандидат «не ранее 2015» с official-загрузкой; к прессе применимо правило скепсиса.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=1d82c3ac-63ec-4e77-bb01-e21d1330a50e",
+        "planning/research/singers-digest.md (карточка Peter Mauro)"
+      ],
+      "youtube": [
+        {"videoId": "zl-GeXrmZ-c", "channel": "Mauro Peter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Пианист — Хельмут Дойч, тот же, что у Прая в 1982; полезная связка для аннотации."
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "David Lutz",
+      "rec_year": "2021?",
+      "year_source": "MusicBrainz: recording bbb1d5c7-4af5-4057-8b95-f05b6f3d5b80 — релиз Preiser Records «Robert Holl singt Schubert Lieder mit Texten von Johann Wolfgang von Goethe», 2021-06-04 (дата ИЗДАНИЯ; сессии могут быть заметно раньше — Preiser часто издаёт архив, у Холла связка с Лутцем идёт с 1980–90-х). Год записи НЕ установлен.",
+      "album": "Robert Holl singt Schubert-Lieder auf Texte von Goethe (Preiser)",
+      "label": "Preiser Records",
+      "age_voice": "не установлен: если сессии 2020–21, певцу 73–74 (р. 10.03.1947) — далеко за пиком (~1980–2005); если это архив 1980–90-х — в пике.",
+      "reputation": "Холл — патриарх Шубертиады, «гранитная» манера, редкий настоящий низкий голос (дайджест и реестр). Отдельного разбора D 216 не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=bbb1d5c7-4af5-4057-8b95-f05b6f3d5b80",
+        "planning/research/singers-digest.md (карточка Holl Robert)"
+      ],
+      "youtube": [
+        {"videoId": "Oo9VRg7jn10", "channel": "Robert Holl - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Неустановленный год записи — существенный риск: без него нельзя оценить состояние голоса. Требует доисследования, если попадёт в пятёрку."
+    },
+    {
+      "singer": "Mitsuko Shirai",
+      "pianist": "не подтверждён (вероятно Hartmut Höll)",
+      "rec_year": "не установлен (издание 1997?)",
+      "year_source": "Только альбом-тег official-загрузки: Capriccio «Schubert, F.: Lieder, Vol. 1 — Opp. 1-24» (1997). Дискографической даты не найдено; в MusicBrainz по работе эта запись отсутствует.",
+      "album": "Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio)",
+      "label": "Capriccio",
+      "age_voice": "не установлен (р. 1947).",
+      "reputation": "Ширай в фонде проекта отсутствует; репутация в шубертовском репертуаре не документирована доступными источниками.",
+      "sources": [
+        "yt-dlp метаданные загрузки RYyXkR6Z_SQ (канал «Mitsuko Shirai - Topic»)"
+      ],
+      "youtube": [
+        {"videoId": "RYyXkR6Z_SQ", "channel": "Mitsuko Shirai - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Периферийный кандидат; включён только для полноты пула."
+    },
+    {
+      "singer": "Elisabeth Söderström",
+      "pianist": "Paul Badura-Skoda",
+      "rec_year": "не установлен (издание 1991?)",
+      "year_source": "Только альбом-тег official-загрузки: «Schubert: Goethe Lieder» (1991). Дискографической даты сессии не найдено; в MusicBrainz по работе эта запись отсутствует.",
+      "album": "Schubert: Goethe Lieder",
+      "label": "не установлен",
+      "age_voice": "не установлен (р. 1927); если сессии рубежа 1980–90-х — далеко за пиком.",
+      "reputation": "Сёдерстрём в фонде проекта отсутствует; шубертовская репутация доступными источниками не документирована.",
+      "sources": [
+        "yt-dlp метаданные загрузки VkImAXvIH2A (канал «Elisabeth Söderström - Topic»)"
+      ],
+      "youtube": [
+        {"videoId": "VkImAXvIH2A", "channel": "Elisabeth Söderström - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая быстрая версия из найденных (106 с). Тег ошибочно называет песню «Op. 5 No. 2» (верно — op. 3 no. 2) — признак невнимательных метаданных. Периферийный кандидат."
+    },
+    {
+      "singer": "Kim Borg",
+      "pianist": "Hans Altmann",
+      "rec_year": "1952–54",
+      "year_source": "MusicBrainz: recording 05ee7413-b981-488e-badb-42331ee2733d — релиз Fuga 9210 «Immortal Recordings 1952-1954» (изд. 2005). Точный год внутри окна не установлен.",
+      "album": "Kim Borg: Immortal Recordings 1952–1954 (Fuga 9210)",
+      "label": "Fuga",
+      "age_voice": "33–35 лет (р. 1919) — ранний период, свежий бас.",
+      "reputation": "Борг числится в резерве фонда проекта («упомянут в источнике без карточки»); критической репутации по этой записи не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release?recording=05ee7413-b981-488e-badb-42331ee2733d",
+        "planning/research/singers-digest.md (раздел «Резерв»: Kim Borg?)"
+      ],
+      "youtube": [
+        {"videoId": "GJV-rs3W5Dw", "channel": "Release - Topic", "official": false, "oembed_ok": true}
+      ],
+      "note": "Найденная загрузка (117 с) висит на безымянном агрегаторском канале «Release - Topic» — не подтверждает певца. Требует проверки перед любым использованием; по гигиене ссылок лучше не публиковать."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Единственный сольный гётевский альбом Квастхофа — «Goethe-Lieder» (RCA Victor Red Seal 09026 618642, с Charles Spencer): полный трек-лист по Discogs (release 8778752, примечания «Recorded May 25-26 and May 28-29, 1993 at Reitsaddel, Neumarkt», ℗1995) — 13 треков (Der Sänger, три Gesänge des Harfners, Prometheus, Ganymed, Grenzen der Menschheit, Erlkönig, Szene aus Faust, Der Zwerg, Auf dem Wasser zu singen, Liedesend, Der Musensohn); «Meeres Stille» ОТСУТСТВУЕТ. Прочие 5 его шубертовских альбомов — три цикла, Lieder с оркестром (D 216 не оркестрован) и фильм-Winterreise; в MusicBrainz среди 31 записи работы Квастхофа нет; поиск yt-dlp «Meeres Stille Schubert Quasthoff» результатов не дал. Источники: https://api.discogs.com/releases/8778752; planning/research/singers-digest.md.",
+    "Dietrich Fischer-Dieskau": "ДА, минимум четыре разные записи: с Jörg Demus (DG Goethe-Lieder, сессии сентябрь 1959); с Gerald Moore (DG «Sämtliche Lieder» Vol. I, сессии XII.1966–II.1968, Ufa-Ton-Studio Berlin — Discogs 17653324); с Karl Engel (лайв, Стокгольм 1970, Orfeo C 389 951 B — Discogs 14765571); с Gerald Moore (зальцбургский лайв из серии «Die Salzburger Liederabende 1956–1965», Orfeo C 339 050 T — MusicBrainz 4659f2f6).",
+    "Elisabeth Schwarzkopf": "ДА, с Geoffrey Parsons. LP «Songs I Love» (EMI/HMV ASD 3124), «Meeres Stille» = A2; выпуск ноябрь 1975 (Discogs 5425558). Год сессии не установлен: дайджест относит парсонсовские сессии к 1970–73; дискография Майкла Грея шубертовских записей Шварцкопф после 1952 не содержит, что исключает происхождение из сессий с Муром 1946–54.",
+    "Hans Hotter": "ДА, с Gerald Moore. «Meeresstille D216» — трек 1-16 в группе 1-15…1-19, записанной 1–2 октября 1949, No. 1 Studio Abbey Road (Discogs 9699609, буклетные примечания Warner 50999 9 93726 2 0). Хоттеру 40 лет — самый пик. Трек включён и в антологию EMI «Schubert Lieder on Record 1898–2012».",
+    "Peter Anders": "НЕТ (записи не обнаружено). Среди 31 записи работы в MusicBrainz Андерса нет; целевой поиск yt-dlp «Meeres Stille Schubert Peter Anders» дал только чужие исполнения. Дайджест перечисляет его шубертовские записи (Winterreise 1945, Müllerin 1945 и 1948) — отдельных гётевских песен там нет.",
+    "Elisabeth Schumann": "НЕТ (записи не обнаружено). В MusicBrainz отсутствует; целевой поиск yt-dlp «Meeres Stille Schubert Elisabeth Schumann» дал только Шварцкопф и Сёдерстрём. По дайджесту её шубертовский корпус — ~28 песен HMV 1927–49 (Naxos 8.110731); D 216 в найденных источниках не значится.",
+    "Christa Ludwig": "НЕТ (записи не обнаружено). В MusicBrainz среди 31 записи отсутствует; целевой поиск yt-dlp «Meeres Stille Schubert Christa Ludwig» вернул только другие её песни (Fischerweise, Die Liebe, Der Tod und das Mädchen) и чужие Meeres Stille.",
+    "Lucia Popp": "НЕТ (записи не обнаружено). В MusicBrainz отсутствует; целевой поиск yt-dlp «Meeres Stille Schubert Lucia Popp» вернул только другие её песни (Fischerweise D 881, An mein Herz D 860)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (DG SLPM 138 117; переизд. «The Originals» 457 747-2)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1959 (сессии сентябрь), издание 1960",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Jörg Demus; Studio Lankwitz, Берлин. 14 гётевских песен, записаны на вокальном пике певца (34 года). Переиздано в серии «The Originals» и в боксе «Complete Lieder Recordings on DG» (4862073, 2022). Карточка уже есть в реестре проекта (по D 768).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder, Vol. I (DG 437 215-2; сводный бокс 437 214-2, 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–68 (сессии тома I), ℗ 1969/1970/1972",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Gerald Moore. Сессии тома I: Berlin, Ufa-Ton-Studio — декабрь 1966, январь и июнь 1967, февраль 1968 (примечания Discogs 17653324). «Meeres Stille D. 216» — CD 4, трек 4 (2:25). Полный свод всех мужских песен Шуберта; базовая точка отсчёта корпуса. ВАЖНО для реестра: трек-листы Vol. 1 и Vol. 2 в виниловой (1970) и цифровой (1985) эдициях поменяны местами.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Goethe-Lieder — лайв, Стокгольм (Orfeo d'Or C 389 951 B)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1970 (концерт), издание 1995",
+      "label": "Orfeo d'Or",
+      "facts": "Пианист Karl Engel. Смешанная гётевская программа (Zelter, Reichardt, Beethoven, Schubert, Schumann, Brahms, Schoeck, Wolf), общее время 71'31\". Примечание Discogs: «Live Recording: Stockholm 1970». НОВАЯ находка для реестра.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Songs I Love (EMI/HMV ASD 3124)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "сессии 1970–73?, выпуск ноябрь 1975",
+      "label": "EMI / Warner Classics",
+      "facts": "Аккомпанемент: Geoffrey Parsons и Gerald Moore (на конверте). Программа Schubert/Schumann/Wolf; «Meeres Stille» — A2, «Gretchen am Spinnrade» — A5. Переиздано в EMI «Lieder» CDM 7 63656 2 (1990; студии — Abbey Road и Berlin, Ev. Gemeindehaus Zehlendorf; ℗ различные, 1954–1982) и в Warner-боксе «The Complete Recitals 1952–1974». НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder — сессии EMI/HMV 1–2 октября 1949 (переизд. EMI References CDH 5 65196 2; Warner 50999 9 93726 2 0)",
+      "singer": "Hans Hotter",
+      "year": "1949",
+      "label": "EMI / Warner Classics",
+      "facts": "Пианист Gerald Moore; No. 1 Studio, Abbey Road. Группа 1949 года: An die Musik D 547, Meeresstille D 216, Im Frühling D 882, Am Bach im Frühling D 361, Gruppe aus dem Tartarus D 583, обе Wandrers Nachtlied. Уточнение к реестру: карточка по D 768 датирует те же сессии 1–2.10.1949, но называет Studio No. 3 — буклет Warner указывает No. 1 Studio. Отдельно на том же переиздании: Schwanengesang — 24–27 и 29 мая 1954; Geheimes D 719, Sei mir gegrüßt D 741, Im Abendrot D 799 — 3–4 октября 1957.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001)",
+      "singer": "Janet Baker",
+      "year": "1987 (запись февраль), издание декабрь 1987",
+      "label": "Hyperion",
+      "facts": "Пианист Graham Johnson; Elstree, Великобритания; продюсер Martin Compton, звукорежиссёр Antony Howell; 67'57\". Награды: Gramophone Award; № 1 в «Top Ten Discs of the Decade» BBC Music Magazine. Первый том полного 37-томного свода Джонсона (научный эталон). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Händel · Schubert · Schumann — Recorded Live (Philips 422 048-1 / 422 048-2)",
+      "singer": "Jessye Norman",
+      "year": "1987 (концерт, июнь), издание 1988",
+      "label": "Philips / Universal",
+      "facts": "Пианист Geoffrey Parsons. Живая запись Шубертиады, фестиваль Хоэнемс, Фельдкирх, Австрия, 6/1987 (примечания Discogs). Шубертовский блок: Der Musensohn, Auf dem See, Meeres Stille, Ave Maria, An die Natur, Rastlose Liebe, Gretchen am Spinnrade, Die Liebe hat gelogen, Der Tod und das Mädchen, Erlkönig. НОВАЯ карточка: закрывает «?» по году альбома Norman/Parsons, зафиксированный в planning/youtube/albums/female-recitalists.md.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "An die Musik – Favourite Schubert Songs (DG 445 294-2)",
+      "singer": "Bryn Terfel",
+      "year": "1994 (запись февраль), издание 04.09.1994",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Malcolm Martineau; Friedrich-Ebert-Halle, Hamburg-Harburg; 23 песни, бестселлер каталога DG. Карточка уже в реестре (D 768, D 853) — год унифицирован.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder nach Gedichten von Goethe (Deutsche Harmonia Mundi 77342)",
+      "singer": "Christoph Prégardien",
+      "year": "1994 (издание, октябрь)",
+      "label": "Deutsche Harmonia Mundi",
+      "facts": "Пианист Andreas Staier, историческое фортепиано. Гётевская программа целиком. НОВАЯ карточка (в реестре Prégardien/Staier значился по «Lieder after Mayrhofer» ℗2001 и «Lieder von Abschied und Reise»).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder — Goethe (Decca 452 917-2)",
+      "singer": "Matthias Goerne",
+      "year": "1997 (издание 31.03.1997; сессия вероятно 1996)",
+      "label": "Decca",
+      "facts": "Пианист Andreas Haefliger. Ранний гётевский рецитал Гёрне, за 11 лет до его свода на harmonia mundi. Существует и «Highlights» (Decca 455 699-2, 1997). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Heliopolis — Matthias Goerne Schubert Edition, Vol. 1 (harmonia mundi HMC 902035)",
+      "singer": "Matthias Goerne",
+      "year": "2009 (издание 09.11.2009)",
+      "label": "harmonia mundi",
+      "facts": "Пианист Ingo Metzmacher. Первый том 12-томного свода Гёрне (2008–2014, бокс 2016). Здесь D 216 назван «second version». НОВАЯ карточка (в реестре свод Гёрне представлен томами 7, 8, 12).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Der Wanderer & other songs (Hyperion CDA68010)",
+      "singer": "Florian Boesch",
+      "year": "2012 (запись ноябрь), издание февраль 2014",
+      "label": "Hyperion",
+      "facts": "Пианист Roger Vignoles; All Saints' Church, East Finchley, Лондон; продюсер Mark Brown, звукорежиссёр David Hinitt; 64'45\"; обложка — «Странник над морем тумана» К. Д. Фридриха. Восторженные отзывы Gramophone, The Guardian, IRR, The Sunday Times (цитаты — в карточке кандидата). Карточка уже в реестре (D 768, D 853); теперь подтверждена и точная дата/место с сайта Hyperion.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert — Goethe: Lieder und Balladen (Intercord 26 838-3, 2LP)",
+      "singer": "Hermann Prey",
+      "year": "1982",
+      "label": "Intercord",
+      "facts": "Пианист Helmut Deutsch; DMM. 25 гётевских песен, «Meeres Stille D 216» — A4 (3:09). Переиздания: INT 830.837 (1987), 860.952 (1984). НОВАЯ карточка для реестра. На YouTube по-трековно не выложен.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder nach Gedichten von Goethe (Sony Classical)",
+      "singer": "Brigitte Fassbaender",
+      "year": "1993 (издание)",
+      "label": "Sony Classical",
+      "facts": "Пианист Cord Garben. НОВАЯ карточка (в female-recitalists.md у Фассбендер значились EMI 1974, EMI 1988, DG нач. 1990-х — этот Sony-альбом там отсутствует). На YouTube по-трековно не выложен.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Goethe Lieder (Sony Classical 88875083882)",
+      "singer": "Mauro Peter",
+      "year": "2015 (издание 14.08.2015)",
+      "label": "Sony Classical",
+      "facts": "Пианист Helmut Deutsch. Единственный найденный кандидат «не ранее 2015» с official-загрузкой. НОВАЯ карточка для реестра (в дайджесте рецитал Sony значился как «~2015–16?» — год издания теперь подтверждён).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Robert Holl singt Schubert-Lieder auf Texte von Goethe (Preiser Records)",
+      "singer": "Robert Holl",
+      "year": "издание 04.06.2021; год записи не установлен",
+      "label": "Preiser Records",
+      "facts": "Пианист David Lutz. Preiser часто издаёт архивные ленты — сессии могут быть заметно раньше даты релиза. НОВАЯ карточка; требует доисследования даты.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, Vol. 3: Goethe-Lieder, Vol. 1 (8.554665)",
+      "singer": "Ulf Bästlein",
+      "year": "1999 (издание 22.11.1999)",
+      "label": "Naxos",
+      "facts": "Пианист Stefan Laux. Том сквозного свода Ulrich Eisenlohr; входит и в бокс «Franz Schubert: The Complete Lieder» (8.503801, 2011). Содержит D 216 — полезно для всех гётевских песен корпуса. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "source": "hyperion-records.co.uk — страница альбома CDJ33001 (Hyperion Schubert Edition, Vol. 1)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001",
+      "value": "Даты/место записи, награды (Gramophone Award; № 1 в «Top Ten Discs of the Decade» BBC Music Magazine), цитаты The Penguin Guide, The Guardian, The Times. Полный по-трековый список и заметки Грэма Джонсона по D 216 из HTML не извлекаются (грузятся динамически) — доступны в PDF-буклете издания."
+    },
+    {
+      "source": "hyperion-records.co.uk — страница альбома CDA68010 (Boesch / Vignoles)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68010",
+      "value": "Дата/место записи и четыре развёрнутые рецензии (Gramophone, The Guardian, International Record Review, The Sunday Times) — единственный современный кандидат с плотной критической документацией."
+    },
+    {
+      "source": "Michael Gray, A Classical Discography (classical-discography.org)",
+      "url": "https://www.classical-discography.org/search.php",
+      "value": "Работает POST-формой на /search2.php (поля composer, work, artists, lp_number, label и др.). По Шварцкопф/Шуберту — 21 позиция, все не позднее ~1952 (33CX1040, LB77, LB118, RLS766, unissued); «Meeres Stille» отсутствует. Использовано как отрицательное доказательство против датировки её записи 1948–54 гг."
+    }
+  ],
+  "negatives": [
+    "klassik-prisma.de: страницы сравнения записей для «Meeres Stille» НЕ существует. Проверено по указателю https://www.klassik-prisma.de/Schubert.htm — из песен там только Erlkönig, Gretchen am Spinnrade, Die junge Nonne, Nacht und Träume, Auf dem Wasser zu singen, Gruppe aus dem Tartarus, Der Hirt auf dem Felsen и циклы. Сравнительного обзора именно D 216 в проверенных источниках нет вообще.",
+    "Quasthoff НЕ записывал D 216 (полный трек-лист его «Goethe-Lieder», RCA, сессии 25–29 мая 1993 — Discogs 8778752). Правило «Квастхоф всегда №1» для этой песни неприменимо: топ-5 начинается с Фишера-Дискау.",
+    "Peter Anders, Elisabeth Schumann, Christa Ludwig, Lucia Popp — записей D 216 не обнаружено ни в MusicBrainz (31 запись работы), ни целевым поиском yt-dlp по каждому имени.",
+    "Hermann Prey (Intercord 1982) и Brigitte Fassbaender (Sony 1993) записи ИМЕЮТ, но отдельных по-трековых загрузок на YouTube для них не найдено — к публикации непригодны без ссылки.",
+    "Фишер-Дискау/Мур из зальцбургской серии Orfeo (1956–1965) на YouTube отдельным треком не выложен.",
+    "Загрузка A7PZv4akj1E (Schwarzkopf) приписана компиляции «Lieder of Schubert, Schumann & Strauss, Recordings 1948-1954» — атрибуция ложная (пианист Парсонс; дискография Грея не знает такой записи в сессиях 1946–54). Использовать xKb14_cEpk4 («Songs I Love») или 9Y2nCs04KjA.",
+    "Загрузка GJV-rs3W5Dw (Kim Borg) висит на безымянном агрегаторском канале «Release - Topic» — исполнитель ссылкой не подтверждается.",
+    "IZTAT3RKHXw («Schubert: Meeres Stille, D. 215a», Graham Johnson - Topic, 190 с) — это ПЕРВАЯ, другая редакция песни (D 215a), а не D 216. Не смешивать в топ-5.",
+    "MusicBrainz и Discogs в ходе работы жёстко ограничивали частоту запросов (пустые TLS-ответы и «You are making requests too quickly») — все обращения делались с паузами 5–32 с; при повторной работе по песне это надо закладывать в темп.",
+    "WebSearch в сессии исчерпан (200/200), а поисковые движки через WebFetch недоступны (DuckDuckGo — CAPTCHA, Mojeek — 403). Поэтому НЕ проверены: рецензии Gramophone/MusicWeb/BBC Music Magazine на альбомы Terfel, Goerne (оба), Prégardien/Staier, Mauro Peter, Fassbaender, Prey; слепые тесты по D 216; точный год сессии Шварцкопф; год концерта Bostridge (Wigmore) и год записи Holl."
+  ]
+}

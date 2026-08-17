@@ -1,0 +1,544 @@
+{
+  "d": "225",
+  "title": "Der Fischer",
+  "research_limits": "Лимит WebSearch сессии был исчерпан до начала работы (200/200), поэтому сравнительные обзоры (klassik-prisma, Gramophone, MusicWeb, BBC MM) через поиск не добывались; поисковые прокси (DuckDuckGo html/lite) блокируют запросы из контейнера («anomaly»). Источники фактов: MusicBrainz API (work 38e92a3c-07d8-4746-86f7-4a98fb8c5689, 23 записи), Discogs API (примечания и треклисты конкретных изданий), страница альбома hyperion-records.co.uk, yt-dlp (идентификация загрузок), yt-check.js (живость). Годы записи взяты ТОЛЬКО из дискографических источников (примечания изданий на Discogs, страница Hyperion); метаданные YouTube-загрузок использованы лишь для идентификации альбома, не как источник года — такие места помечены.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1970 (издание LP-бокса; сессии свода 1966–1972)",
+      "year_source": "Discogs release 18181915/4675245: DG «Franz Schubert — Lieder Volume 2», 13 LP, кат. 2720 006/2720 022, год 1970; треклист бокса Vol. 2 содержит позицию J5 «Der Fisher D. 225» (опечатка каталогизатора); бокс Vol. 2 объявлен на обложке как «The Lieder composed from 1811 to 1817» — D 225 (1815) относится именно к нему. Реестр альбомов проекта (planning/youtube/albums.md): сессии свода 1966–1972, Ufa-Ton-Studio Berlin. Точная дата сессии именно этой песни не установлена; ℗ 1970 на официальной загрузке UMG (метаданные — не источник даты, приведены как совпадающее подтверждение).",
+      "album": "Schubert: Sämtliche Lieder / Lieder Volume 2 (2720 022), позднее CD-серия «Schubert: Lieder (Vol. 1)»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "р. 28.05.1925 → ок. 45 лет в 1970. Пик по дайджесту фонда — ~1951–1972; сушь тона отмечается только с середины 1970-х, то есть запись сделана внутри пикового периода, в конце его (singers-digest.md).",
+      "reputation": "Базовая точка отсчёта для любой мужской песни Шуберта: единственный полный свод всех мужских песен (~400+), 21 CD, с Джеральдом Муром. Отдельных критических оценок именно трека D 225 в доступных источниках не найдено (см. research_limits).",
+      "sources": [
+        "https://api.discogs.com/releases/18181915",
+        "https://api.discogs.com/releases/9246781",
+        "https://api.discogs.com/releases/4675245",
+        "MusicBrainz recording c781aaae-3ce1-41c6-89ad-3db2692fac48 (Fischer-Dieskau / Moore, 152 s)",
+        "planning/youtube/albums.md — карточка «Sämtliche Lieder (21 CD)»",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "3D4fLxvnzVs", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "1UQo4UXZlII", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Два Topic-ролика — одна и та же запись (обе 152 с, обе «Provided to YouTube by Universal Music Group», альбомы «Schubert: Lieder» и «Schubert: Lieder (Vol. 1)»). Публиковать один; 3D4fLxvnzVs старше и просмотрен больше (8049 против 5742)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Karl Engel",
+      "rec_year": "1959",
+      "year_source": "Discogs releases 10918516 и 12668802 (Electrola «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, V. Folge: Balladen», STE 91 023 / E 91 023), примечание издания: «Aufgenommen 1959 in Berlin»; треклист: B1 «Der Fischer op. 5 Nr. 3».",
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, V. Folge: Balladen (STE 91 023); на YouTube выложено как «Schubert: Lieder, Vol. 5 (Stereo Version)»",
+      "label": "Electrola / EMI (HMV-серия «Schubert Lieder Recital»)",
+      "age_voice": "р. 1925 → 34 года; самый центр вокального пика (~1951–1972 по дайджесту), голос свежее и легче, чем в DG-своде 1966–72.",
+      "reputation": "Ранняя балладная программа Фишера-Дискау с Карлом Энгелем; отдельных критических оценок трека не найдено (см. research_limits). Ценность — возраст голоса и балладный контекст (Der Sänger, Die Bürgschaft, Der Fischer, Die Einsamkeit).",
+      "sources": [
+        "https://api.discogs.com/releases/10918516",
+        "https://api.discogs.com/releases/12668802",
+        "MusicBrainz recording 6365c480-c9be-497d-90bb-da539e86d861 (Fischer-Dieskau / Karl Engel, 164 s)"
+      ],
+      "youtube": [
+        {"videoId": "sRqR0xhAFSs", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Осторожно: этот Topic-трек поставлен агрегатором Believe SAS (не Warner/UMG) и подписан «℗ 1962» — типичный «серый» релиз старой Electrola-плёнки. Год записи брать по Discogs (1959), не по загрузке. Просмотров всего 43 — ролик свежий/маргинальный, но живой."
+    },
+    {
+      "singer": "Peter Schreier",
+      "pianist": "Walter Olbertz",
+      "rec_year": "1972 (издание 1973); версия загрузчика «1965» не подтверждена",
+      "year_source": "Discogs release 12697639 (Eterna 8 26 329 «Schubert: Lieder nach Goethe», чёрные этикетки, 1973), примечание издания: «Aufgenommen 1972»; треклист B1 «Der Fischer op. 5 Nr. 3 D 225». Переиздания Eterna 1974, 1978 (Discogs 15095690, 6575049). Загрузка davidhertzberg подписана «1965 — MHS 3380» (американская лицензия Musical Heritage Society) — метаданные загрузки источником даты не являются и с дискографией расходятся.",
+      "album": "Lieder nach Goethe (Eterna 8 26 329); в США — MHS 3380",
+      "label": "Eterna (VEB Deutsche Schallplatten) / Musical Heritage Society",
+      "age_voice": "р. 1935 → 37 лет в 1972. Пик по дайджесту ~1965–1990: запись внутри пика, лирический тенор в лучшей форме.",
+      "reputation": "Шрайер — центральная фигура немецкой песенной школы ГДР; сквозные шубертовские серии с Ольбертцом (Eterna, 1970-е) — его основной студийный корпус. Критических оценок именно D 225 не найдено (см. research_limits).",
+      "sources": [
+        "https://api.discogs.com/releases/12697639",
+        "https://api.discogs.com/releases/6575049",
+        "https://api.discogs.com/database/search?q=Peter+Schreier+Olbertz+Schubert+Goethe+Lieder+Eterna"
+      ],
+      "youtube": [
+        {"videoId": "GCbw3Ck94VQ", "channel": "davidhertzberg", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной загрузки (Berlin Classics Topic) для этого трека не найдено — только перенос с LP на канале davidhertzberg (2099 просмотров). При публикации год ставить 1972, не 1965."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": "не установлен; ℗ 1974 (Philips)",
+      "year_source": "Philips LP 6573 010 «Schubert — Lieder — Hermann Prey» (Discogs 6483908 и 13327943; исполнители: Hermann Prey, Karl Engel, Leonard Hokanson), треклист B6 «Der Fischer D 225»; год на обоих пресcингах Discogs отсутствует. Официальная загрузка UMG (Hermann Prey - Topic) относит трек к альбому «Schwanengesang D.957 / Der Wanderer D.493 / Der Fischer D.225 / Erlkönig D.328» с ℗ 1974 — это указание на год издания фонограммы, не на сессию.",
+      "album": "Schubert: Lieder (Philips 6573 010) / Schwanengesang & Lieder",
+      "label": "Philips (ныне Universal)",
+      "age_voice": "р. 1929 → ок. 45 лет к 1974. Пик по дайджесту ~1960–1980, то есть внутри пика; утяжеление тона отмечается только в поздних циклах 1980-х.",
+      "reputation": "Прай — один из двух главных немецких баритонов эпохи, основатель Шубертиады в Хоэнемсе. Оценок трека не найдено (см. research_limits).",
+      "sources": [
+        "https://api.discogs.com/releases/6483908",
+        "https://api.discogs.com/releases/13327943",
+        "yt-dlp метаданные ролика wHE-MtYvu1I (идентификация альбома, не даты)"
+      ],
+      "youtube": [
+        {"videoId": "wHE-MtYvu1I", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "hSuHWQeHgiI", "channel": "davidhertzberg", "official": false, "oembed_ok": true}
+      ],
+      "note": "Длительности расходятся: Topic-трек 163 с, перенос LP 6573 010 у davidhertzberg — 181 с (подписан «Hermann Prey, 1969»). Возможно, это две разные фонограммы Прая (Philips) либо разная скорость переноса; при отборе брать официальный Topic и год ставить с вопросом («1974?»), пока сессия не датирована."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "1982 (год издания; запись DMM, Bibliothekssaal Polling)",
+      "year_source": "Discogs release 9555165: Intercord 26 838-3 «Schubert/Goethe — Lieder und Balladen», год 1982, Германия, место записи в кредитах издания — Bibliothekssaal, Polling; треклист B1 «Der Fischer D 225» (3:16). Переиздания 1984 (Klassik-Auslese 860.952) и 1987 (Saphir INT 830.837).",
+      "album": "Lieder und Balladen (Schubert nach Goethe)",
+      "label": "Intercord",
+      "age_voice": "р. 1929 → 53 года. Конец пика по дайджесту (~1960–1980); голос темнее и тяжелее, чем в Philips-версии.",
+      "reputation": "Программа целиком гётевская, с Хельмутом Дойчем. Оценок не найдено (см. research_limits).",
+      "sources": [
+        "https://api.discogs.com/releases/9555165",
+        "MusicBrainz recording d6f5d21e-6a41-45bb-aad2-ff1d9064be18 (Prey / Deutsch, 196 s)"
+      ],
+      "youtube": [],
+      "note": "Официальной загрузки не найдено. По правилу «при прочих равных — более ранняя запись» версия с Энгелем предпочтительнее этой."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Graham Johnson",
+      "rec_year": "1987 (сессии февраль 1987, Elstree; издание декабрь 1987)",
+      "year_source": "hyperion-records.co.uk, страница диска CDJ33001: «Recording details: February 1987, Elstree, United Kingdom; Release date: December 1987». MusicBrainz recording a14ce21d-85c1-487a-8360-9e061e711ee5 (Baker / Johnson, 133 s) на релизе «The Hyperion Schubert Edition, Volume 1: Goethe & Schiller Settings», 1987-12.",
+      "album": "The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001)",
+      "label": "Hyperion (с 2023 — Universal, official audio на Topic)",
+      "age_voice": "р. 1933 → 53–54 года. Пик по дайджесту ~1965–1982, со сцены ушла к концу 1980-х: запись сделана на самом исходе карьеры, но именно её пресса называла «в великолепном голосе».",
+      "reputation": "Диск — открывающий том научного свода Джонсона: Gramophone Award; BBC Music Magazine поставил его №1 в «Top Ten Discs of the Decade»; The Times: «щедрый и раскрывающий рецитал гётевских и шиллеровских песен… Джанет Бейкер разбивает бутылку шампанского о борт одного из важнейших звукозаписывающих проектов полувека»; The Guardian: «одна из самых прекрасных пластинок, какие вообще делала Дама Джанет»; Penguin Guide: «Дама Джанет в великолепном голосе». (Цитаты — с официальной страницы Hyperion, то есть подборка лейбла; сами издания первичны, но подборка отобрана лейблом.)",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001",
+        "MusicBrainz recording a14ce21d-85c1-487a-8360-9e061e711ee5"
+      ],
+      "youtube": [
+        {"videoId": "BotGi-2-jGE", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая быстрая версия в пуле (133–134 с) — Джонсон трактует балладу подвижно. Женское исполнение мужской баллады (рассказчик), что для D 225 нормально: у Гёте текст ведёт повествователь."
+    },
+    {
+      "singer": "Brigitte Fassbaender",
+      "pianist": "Cord Garben",
+      "rec_year": "1993 (год издания; сессия не установлена)",
+      "year_source": "MusicBrainz recording 3c524e81-3cfe-48d2-b8ac-86105641418b на релизе «Lieder nach Gedichten von Goethe», дата 1993, лейбл Sony Classical. В Discogs издание не найдено; примечаний с датой сессии нет.",
+      "album": "Schubert: Lieder nach Gedichten von Goethe",
+      "label": "Sony Classical",
+      "age_voice": "р. 1939 → ок. 54 лет. Пик по дайджесту ~1975–1992: запись сделана на самой границе пика, вскоре после её знаменитой Winterreise (EMI 1988).",
+      "reputation": "Фассбендер — автор первой великой женской Winterreise; её гётевский диск редко обсуждается. Оценок не найдено (см. research_limits).",
+      "sources": [
+        "MusicBrainz recording 3c524e81-3cfe-48d2-b8ac-86105641418b",
+        "MusicBrainz release «Lieder nach Gedichten von Goethe» (Sony Classical, 1993)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [],
+      "note": "Ни Topic-, ни фан-загрузки этого трека найти не удалось (проверено yt-dlp: на канале «Brigitte Fassbaender - Topic» есть Der König in Thule D 367, но не D 225). Без ссылки в топ-5 не попадает."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (хаммерклавир по Johann Fritz, Вена ок. 1815; копия Christopher Clarke, Париж 1981)",
+      "rec_year": "1994 (сессии 10–13 октября 1994, студия на Stollberger Str., WDR Кёльн; издание 1995)",
+      "year_source": "Discogs release 9124690, примечание издания: «Recorded: 10-13 October 1994, Studio Stollberger Str., WDR Köln. A co-production with Westdeutscher Rundfunk, Köln. Fortepiano after Johann Fritz, Vienna circa 1815 by Christopher Clarke, Paris 1981»; треклист №11 «Der Fischer» (2:36). DHM 05472 77342 2.",
+      "album": "Schubert: Songs to Poems by Johann Wolfgang Goethe",
+      "label": "Deutsche Harmonia Mundi (BMG)",
+      "age_voice": "р. 1956 → 38 лет. Пик по дайджесту ~1990–2012: запись в начале пика.",
+      "reputation": "Единственная в пуле версия на инструменте эпохи (копия венского фортепиано ок. 1815 — ровно годы сочинения песни), сделанная как копродукция с WDR. Критических оценок трека не найдено (см. research_limits).",
+      "sources": [
+        "https://api.discogs.com/releases/9124690",
+        "MusicBrainz recording 6b88aade-3967-4bfb-b1c9-c330de81869c (Prégardien / Staier, 156 s)"
+      ],
+      "youtube": [
+        {"videoId": "Suw8TGhbGpk", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Заглавие трека на Topic — «Lieder, Op. 5: III. Der Fischer, D. 225: Das Wasser rauscht»."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "1996 (сессии май 1996, Historischer Reitstadel, Ноймаркт; издание 1997)",
+      "year_source": "Discogs release 13052206, примечание издания: «Recording location: Reitstadel, Neumarkt, Germany, May 1996»; ℗ 1997 Decca; Decca 452 917-2; треклист №19 «Der Fischer, D 225» (2:34).",
+      "album": "Schubert: Lieder — Goethe (Decca 452 917-2)",
+      "label": "Decca",
+      "age_voice": "р. 1967 → 29 лет. Ранняя студийная работа, до 12-томного свода harmonia mundi; пик по дайджесту ~1997–2015 — запись у самого его начала, голос свежий.",
+      "reputation": "Гёрне — самый записываемый шубертовский баритон поколения (дайджест). Оценок именно этого трека не найдено (см. research_limits); к прессе о современных исполнителях правила требуют скепсиса.",
+      "sources": [
+        "https://api.discogs.com/releases/13052206",
+        "MusicBrainz recording 783c9667-3d52-4c24-8f82-cf83982dd503 (Goerne / Haefliger, 159 s)"
+      ],
+      "youtube": [
+        {"videoId": "NIpz0fBQLpY", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Ролик отдан UMG на канал артиста (oEmbed отдаёт «Matthias Goerne - Topic»)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Eric Schneider",
+      "rec_year": "2008 (издание; сессия не установлена)",
+      "year_source": "MusicBrainz recording 02ecfd81-a523-4b6b-8e33-4c463c9eaf51 на релизе «An mein Herz / Lieder», дата 2008-10, harmonia mundi, кат. HMC902004.05.",
+      "album": "An mein Herz (Matthias Goerne Schubert Edition)",
+      "label": "harmonia mundi",
+      "age_voice": "р. 1967 → 41 год; середина пика.",
+      "reputation": "Том 12-томного свода Гёрне (HM 2008–2014). Оценок трека не найдено.",
+      "sources": [
+        "MusicBrainz recording 02ecfd81-a523-4b6b-8e33-4c463c9eaf51"
+      ],
+      "youtube": [],
+      "note": "Отдельной загрузки D 225 из этого тома найти не удалось; для Гёрне на YouTube доступна только версия 1996 года с Хефлигером."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1996 (сессии февраль–март 1996, Abbey Road Studio 1; издание 1998)",
+      "year_source": "Реестр альбомов проекта planning/youtube/albums.md, карточка «Ian Bostridge — Schubert: Lieder (Vol. 1)»: запись февраль–март 1996, Abbey Road Studio No. 1, издание 1998, EMI Classics, пианист Julius Drake. MusicBrainz recording 466343ee-d7a3-4f09-9e7f-929eb1eeb7cf на релизе «Lieder», 1998-04-27 (GB).",
+      "album": "Schubert: Lieder (EMI, «Schubert: 25 Lieder» в переиздании 2005)",
+      "label": "EMI Classics / Warner Classics",
+      "age_voice": "р. 1964 → 32 года. Дебютный шубертовский рецитал; по дайджесту пик ~1995–2010, манерность и сухость приписывают более поздним годам.",
+      "reputation": "По реестру проекта — сильнейшая студийная работа его раннего периода. Внешних рецензий на трек не найдено (см. research_limits).",
+      "sources": [
+        "planning/youtube/albums.md — карточка Bostridge, Schubert: Lieder (Vol. 1)",
+        "MusicBrainz recording 466343ee-d7a3-4f09-9e7f-929eb1eeb7cf"
+      ],
+      "youtube": [
+        {"videoId": "douNOFVtnEc", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "atIGL5qi9Lg", "channel": "whiteocean78", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальная загрузка Warner Classics (douNOFVtnEc, 3518 просмотров) предпочтительнее фан-переноса atIGL5qi9Lg (31 307 просмотров)."
+    },
+    {
+      "singer": "Werner Güra",
+      "pianist": "Christoph Berner",
+      "rec_year": "не установлен; ℗ 2012",
+      "year_source": "Официальная загрузка (Werner Güra - Topic, дистрибуция PIAS для harmonia mundi): альбом «Schubert: Willkommen und Abschied», ℗-год 2012 — это год фонограммы/издания, не документированная сессия. Дискографического подтверждения сессии найти не удалось.",
+      "album": "Schubert: Willkommen und Abschied",
+      "label": "harmonia mundi",
+      "age_voice": "р. 1964 → ок. 48 лет. Пик по дайджесту ~1998–2015.",
+      "reputation": "Гюра/Бернер — устойчивый дуэт HM (Winterreise 2010 на Rönisch 1872). Оценок трека не найдено.",
+      "sources": [
+        "yt-dlp метаданные ролика rzR6rv4bNZQ (идентификация альбома и лейбла)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "rzR6rv4bNZQ", "channel": "Werner Güra - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "xsHV33O-0QE", "channel": "mutewoman2", "official": false, "oembed_ok": null}
+      ],
+      "note": "Год для плеера пришлось бы ставить как «2012?» — дискографический источник по сессии не найден."
+    },
+    {
+      "singer": "Mauro Peter",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2015 (год издания; сессия не установлена)",
+      "year_source": "Discogs release 7932283: Sony Classical 88875083882 «Schubert — Goethe Lieder», Mauro Peter / Helmut Deutsch, год 2015. MusicBrainz recording 5cd562a9-c6c4-483f-919c-7377e3980287 на релизе «Goethe Lieder», 2015-08-14.",
+      "album": "Schubert: Goethe Lieder",
+      "label": "Sony Classical",
+      "age_voice": "р. 1987 → 28 лет; молодой лирический тенор в начале карьеры (дебютный сольный диск).",
+      "reputation": "Единственный кандидат «не ранее 2015» с полноценным официальным аудио, кроме Бёша (2016). Пресса о нём — типичный случай, к которому правила предписывают скепсис; независимых оценок трека не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/7932283",
+        "MusicBrainz recording 5cd562a9-c6c4-483f-919c-7377e3980287"
+      ],
+      "youtube": [
+        {"videoId": "Tc72oXyz3Ns", "channel": "Mauro Peter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая медленная из «нормальных» версий (187 с) — заметно неспешное прочтение."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "2016 (год издания; сессия не установлена)",
+      "year_source": "Discogs release 24257300: ONYX 4149 «Lieder Recital», 2016. MusicBrainz recording 745854fd-5165-4f0d-a592-3e31b1c0278b на релизе «Lieder Recital», 2016 (GB). Реестр проекта (albums.md): издание 20 мая 2016, Onyx Classics ONYX4149, пианист Martineau.",
+      "album": "Schubert: Lieder Recital (ONYX 4149)",
+      "label": "Onyx Classics",
+      "age_voice": "р. 1971 → 45 лет; пик по дайджесту ~2010–наст., рассказчик венской школы — балладный репертуар его сильная сторона.",
+      "reputation": "Уже используется проектом по D 805/D 806. Внешних оценок трека не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/24257300",
+        "MusicBrainz recording 745854fd-5165-4f0d-a592-3e31b1c0278b",
+        "planning/youtube/albums.md — карточки Boesch/Onyx 4149"
+      ],
+      "youtube": [
+        {"videoId": "jLAbvBwQ4Us", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат на слот «не ранее 2015»."
+    },
+    {
+      "singer": "Anna Prohaska",
+      "pianist": "Eric Schneider",
+      "rec_year": "2011 (год издания; сессия не установлена)",
+      "year_source": "Discogs release 13675024: Deutsche Grammophon 477 9463 «Sirène», 2011. Официальная загрузка UMG относит трек к альбому «Sirène» (℗-год на загрузке 2010 — метаданные, источником даты не служат).",
+      "album": "Sirène",
+      "label": "Deutsche Grammophon",
+      "age_voice": "р. 1983 → ок. 27–28 лет; дебютный сольный альбом, лёгкое сопрано.",
+      "reputation": "Концептуальная программа о водной стихии и сиренах — D 225 попадает в неё тематически. Оценок трека не найдено; в фонде проекта Прохаска не значится как шубертианка.",
+      "sources": [
+        "https://api.discogs.com/releases/13675024",
+        "MusicBrainz: recording Anna Prohaska / Eric Schneider «Der Fischer», 131 s (work 38e92a3c)"
+      ],
+      "youtube": [
+        {"videoId": "-0NDV2jWJDo", "channel": "Anna Prohaska - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая короткая версия пула (129 с)."
+    },
+    {
+      "singer": "Ian Partridge",
+      "pianist": "Jennifer Partridge",
+      "rec_year": "1999 (год издания; сессия не установлена)",
+      "year_source": "Discogs release 36371866: Meridian CDE 84395 «Spirit of Love — Favourite Songs by Schubert», Ian Partridge / Jennifer Partridge, 1999. Официальная загрузка (Ian Partridge - Topic, The Orchard) — тот же альбом, ℗-год 1999.",
+      "album": "Spirit of Love — Ian Partridge Sings Favourite Songs by Schubert",
+      "label": "Meridian",
+      "age_voice": "р. 1938 → ок. 61 года на момент издания, если сессия близка к нему; Партридж — тенор английской школы, известный чистотой линии. Карточки в дайджесте фонда нет — состояние голоса по источникам не установлено.",
+      "reputation": "Записи Партриджа для Meridian ценятся у собирателей английской вокальной школы, но в сравнительных обзорах Шуберта он редок. Оценок трека не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/36371866"
+      ],
+      "youtube": [
+        {"videoId": "EAC55TaRu-4", "channel": "Ian Partridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Возможно, переиздание более ранних сессий Meridian — датировка сессии не подтверждена."
+    },
+    {
+      "singer": "Mitsuko Shirai",
+      "pianist": "Hartmut Höll (по составу серии; на загрузке пианист не указан)",
+      "rec_year": "не установлен (издание Capriccio 10 171; ℗-год загрузки 1997)",
+      "year_source": "Официальная загрузка Naxos of America: альбом «Schubert, F.: Lieder, Vol. 1 — Opp. 1–24», ℗ 1997. Discogs release 22405735 — Capriccio «Franz Schubert — Lieder», кат. 10 171, год пресcинга 2004. Точная сессия не установлена; ℗-год и год пресcинга расходятся.",
+      "album": "Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio 10 171)",
+      "label": "Capriccio (дистрибуция Naxos)",
+      "age_voice": "р. 1947; при сессии начала-середины 1990-х — ок. 45–50 лет. Карточки в дайджесте фонда нет.",
+      "reputation": "Дуэт Ширай/Хёлль — заметная пара немецкой Lied-сцены 1980–90-х. Оценок трека не найдено.",
+      "sources": [
+        "yt-dlp метаданные ролика nbGYfyXjMic (идентификация альбома и лейбла)",
+        "https://api.discogs.com/database/search?q=Mitsuko+Shirai+Hartmut+H%C3%B6ll+Schubert+Lieder+Capriccio"
+      ],
+      "youtube": [
+        {"videoId": "nbGYfyXjMic", "channel": "Mitsuko Shirai - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Пианист требует проверки по буклету перед публикацией."
+    },
+    {
+      "singer": "Ulf Bästlein",
+      "pianist": "Stefan Laux",
+      "rec_year": "1999 (издание 22.11.1999)",
+      "year_source": "MusicBrainz recording f2cb5bfb-d89a-46e2-93e3-40871272b5b9 на релизе «Schubert-Lieder-Edition, Volume 3: Goethe-Lieder, Volume 1», 1999-11-22; также на «Franz Schubert: The Complete Lieder» (2011-11). Официальная загрузка Naxos of America: альбом «Schubert: Lied Edition 3 — Goethe, Vol. 1».",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 3: Goethe-Lieder, Vol. 1",
+      "label": "Naxos",
+      "age_voice": "р. 1961 → ок. 38 лет. Карточки в дайджесте фонда нет.",
+      "reputation": "Полное издание Naxos (Ulrich Eisenlohr как куратор) — справочный, а не эталонный уровень: ценность в полноте охвата.",
+      "sources": [
+        "MusicBrainz recording f2cb5bfb-d89a-46e2-93e3-40871272b5b9",
+        "yt-dlp метаданные ролика 2YmaadOyz-M"
+      ],
+      "youtube": [
+        {"videoId": "2YmaadOyz-M", "channel": "Ulf Bästlein - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "На загрузке в поле artist ошибочно стоит пианист (Stefan Laux); в MusicBrainz состав корректный."
+    },
+    {
+      "singer": "Markus Schäfer",
+      "pianist": "Zvi Meniker (хаммерклавир)",
+      "rec_year": "2021 (издание 21.05.2021)",
+      "year_source": "MusicBrainz recording 16f3264e-26d1-475d-8209-1c58b09bbb77 на релизе «Schubert: The Small Song Cycles», 2021-05-21 (XW). Официальная загрузка (The Orchard) — тот же альбом.",
+      "album": "Schubert: The Small Song Cycles",
+      "label": "(дистрибуция The Orchard; лейбл по буклету не установлен)",
+      "age_voice": "р. 1961 → ок. 60 лет. Карточки в дайджесте нет; однофамильцев различать как «M. Schäfer».",
+      "reputation": "Значение — источниковедческое: это ВТОРАЯ редакция D 225 («Second Version», из «5 Lieder» op. 5), редко записываемая; длительность 211–212 с, заметно иной темп.",
+      "sources": [
+        "MusicBrainz recording 16f3264e-26d1-475d-8209-1c58b09bbb77",
+        "yt-dlp метаданные ролика 4VFMPkjG2hE"
+      ],
+      "youtube": [
+        {"videoId": "4VFMPkjG2hE", "channel": "Release - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Загрузка на безымянном канале «Release - Topic» — формально официальная (The Orchard), но канал не привязан к артисту; для плеера это минус."
+    },
+    {
+      "singer": "Sarah Walker",
+      "pianist": "Roger Vignoles",
+      "rec_year": "не установлен (издание Brilliant Classics 1999)",
+      "year_source": "MusicBrainz recording ba256e9d-83db-4632-b6e6-152154f6463c на релизах «Lieder» (Brilliant Classics 99443, 1999) и «The Masterworks» (Brilliant Classics 92394, 2004). Оригинальная сессия (вероятно лицензия CRD 1980-х) не подтверждена.",
+      "album": "Schubert: Lieder (Brilliant Classics 99443)",
+      "label": "Brilliant Classics (лицензия)",
+      "age_voice": "р. 1943; при сессии 1980-х — ок. 40 лет. Карточки в дайджесте нет.",
+      "reputation": "Бюджетное переиздание; в сравнительных обзорах не фигурирует.",
+      "sources": [
+        "MusicBrainz recording ba256e9d-83db-4632-b6e6-152154f6463c"
+      ],
+      "youtube": [],
+      "note": "Загрузок не найдено; кандидат резервный."
+    },
+    {
+      "singer": "Christiane Iven",
+      "pianist": "Thomas Grubmüller",
+      "rec_year": "не установлен",
+      "year_source": "Только MusicBrainz (запись в списке work 38e92a3c, 149 s); релиз и дата не прослежены.",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "не установлено",
+      "reputation": "Данных нет.",
+      "sources": ["MusicBrainz work 38e92a3c-07d8-4746-86f7-4a98fb8c5689 (список записей)"],
+      "youtube": [],
+      "note": "Отмечена для полноты пула; не кандидат."
+    },
+    {
+      "singer": "Jasper Schweppe",
+      "pianist": "Riko Fukuda",
+      "rec_year": "2020 (издание 01.08.2020)",
+      "year_source": "MusicBrainz recording fd0143fd-3297-4279-a1f8-746683beaf11 на релизе «Lieder, Volume 1», 2020-08-01 (XW).",
+      "album": "Schubert: Lieder, Volume 1",
+      "label": "не установлен",
+      "age_voice": "не установлено (нидерландский баритон, вне фонда проекта)",
+      "reputation": "Данных нет; на YouTube трек выложен на канале пианистки («Riko Fukuda - Topic», _LokRV6-XVY, 150 s).",
+      "sources": ["MusicBrainz recording fd0143fd-3297-4279-a1f8-746683beaf11"],
+      "youtube": [
+        {"videoId": "_LokRV6-XVY", "channel": "Riko Fukuda - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Периферийный кандидат; живость ролика не проверялась."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Его гётевский альбом «Schubert: Goethe-Lieder» (RCA Victor Red Seal 09026 618642, сессии 25–26 и 28–29 мая 1993, Reitsaddel Neumarkt, издание 1995, пианист Charles Spencer) содержит 13 номеров — Der Sänger, три песни Арфиста, Prometheus, Ganymed, Grenzen der Menschheit, Erlkönig, Szene aus Faust, Der Zwerg, Auf dem Wasser zu singen, Liedesend, Der Musensohn — Der Fischer в нём нет (треклист издания: https://api.discogs.com/releases/8778752). Дискография Квастхофа закрыта в 2012 (singers-digest.md), в MusicBrainz по work 38e92a3c его записи нет, поиск yt-dlp «Quasthoff Der Fischer Schubert» дал только Winterreise/Müllerin. Вывод: записи D 225 не существует.",
+    "Dietrich Fischer-Dieskau": "ДА, две студийные версии. (1) с Karl Engel, Electrola «V. Folge: Balladen» STE 91 023, «Aufgenommen 1959 in Berlin» (https://api.discogs.com/releases/10918516). (2) с Gerald Moore, DG «Sämtliche Lieder», LP-бокс Vol. 2 (2720 022, позиция J5 «Der Fisher D. 225»), издание 1970 (https://api.discogs.com/releases/9246781, https://api.discogs.com/releases/4675245).",
+    "Elisabeth Schwarzkopf": "НЕТ. Ни в MusicBrainz (23 записи work 38e92a3c — её нет), ни в выдаче yt-dlp «Schwarzkopf Der Fischer Schubert» (только рецитал с Эдвином Фишером 1952: An Sylvia, Ganymed, Wehmut, Nachtviolen, An die Musik). D 225 — мужская повествовательная баллада, вне её шубертовского репертуара по дайджесту (singers-digest.md).",
+    "Hans Hotter": "НЕТ. В MusicBrainz по work 38e92a3c отсутствует; поиск yt-dlp «Hans Hotter Der Fischer Schubert» дал только Winterreise (Raucheisen 1942), Schwanengesang и рециталы с Муром. Известный корпус Хоттера (Winterreise ×3, Schwanengesang + Lieder начала 1950-х) по дайджесту D 225 не включает.",
+    "Peter Anders": "НЕТ. В MusicBrainz отсутствует; yt-dlp по «Peter Anders Der Fischer Schubert D225» выдал только «Das Fischermädchen» (1943) — другую песню (D 957/10). Наследие Андерса — Winterreise 1945 и Müllerin 1945/1948 (singers-digest.md).",
+    "Elisabeth Schumann": "НЕТ. В MusicBrainz отсутствует; yt-dlp «Elisabeth Schumann Der Fischer Schubert» даёт только «Des Fischers Liebesglück» D 933 и «Fischerweise» D 881 — другие песни. Её свод HMV 1927–49 (Naxos 8.110731, 28 песен) D 225 не содержит.",
+    "Christa Ludwig": "НЕТ. В MusicBrainz отсутствует; поиск yt-dlp результатов по D 225 не дал. Её шубертовский корпус (EMI 1957–69, DG 1973, Winterreise 1986) по дайджесту D 225 не включает.",
+    "Lucia Popp": "НЕТ. В MusicBrainz отсутствует; yt-dlp «Lucia Popp Der Fischer Schubert» дал Der Fluß D 693, Der Jüngling an der Quelle, An die Musik — но не D 225. Её основной рецитал (EMI, сессии 1–6 ноября 1983, Gage) D 225 не содержит (карточка альбома в planning/youtube/albums.md)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder / Lieder Volume 2 (DG 2720 022, 13 LP)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1970 (издание бокса; сессии свода 1966–1972, Ufa-Ton-Studio Berlin)",
+      "label": "Deutsche Grammophon",
+      "facts": "Бокс объявлен как «The Lieder composed from 1811 to 1817 on 13 records»; в треклисте позиция J5 «Der Fisher D. 225». Парный бокс Vol. 1 (2720 006, 12 LP) охватывает 1817–1828 и D 225 не содержит. Пианист — Gerald Moore.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, V. Folge: Balladen (Electrola STE 91 023 / E 91 023)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1959",
+      "label": "Electrola / EMI",
+      "facts": "Примечание издания: «Aufgenommen 1959 in Berlin». Четыре баллады: Der Sänger op. 117, Die Bürgschaft, Der Fischer op. 5 Nr. 3, Die Einsamkeit. Пианист — Karl Engel. Британский аналог серии — HMV «Schubert Lieder Recital».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder nach Goethe (Eterna 8 26 329)",
+      "singer": "Peter Schreier",
+      "year": "1972 (запись), 1973 (издание)",
+      "label": "Eterna / VEB Deutsche Schallplatten; в США MHS 3380",
+      "facts": "Примечание пресcинга 1973 года: «Aufgenommen 1972». 17 треков, B1 — Der Fischer op. 5 Nr. 3 D 225. Пианист — Walter Olbertz. Переиздания 1974 и 1978.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert/Goethe: Lieder und Balladen (Intercord 26 838-3)",
+      "singer": "Hermann Prey",
+      "year": "1982",
+      "label": "Intercord",
+      "facts": "Целиком гётевская программа; запись DMM, место — Bibliothekssaal, Polling. B1 — Der Fischer D 225 (3:16). Пианист — Helmut Deutsch. Переиздания 1984 (860.952) и 1987 (Saphir INT 830.837).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Philips 6573 010)",
+      "singer": "Hermann Prey",
+      "year": "не установлен (℗ 1974 на официальной загрузке)",
+      "label": "Philips",
+      "facts": "Исполнители по Discogs: Hermann Prey, Karl Engel, Leonard Hokanson; B6 — Der Fischer D 225. Год на пресcингах Discogs отсутствует. На Topic-канале трек привязан к альбому со Schwanengesang, Der Wanderer D 493 и Erlkönig.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001)",
+      "singer": "Janet Baker",
+      "year": "1987 (сессии февраль 1987, Elstree; издание декабрь 1987)",
+      "label": "Hyperion (с 2023 Universal)",
+      "facts": "Открывающий том 37-томного свода Грэма Джонсона (фортепиано и комментарии). Gramophone Award; №1 в «Top Ten Discs of the Decade» по BBC Music Magazine; отзывы The Times, The Guardian, Penguin Guide (подборка на странице лейбла). Входит в 40-CD комплект CDS44201/40.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2)",
+      "singer": "Christoph Prégardien",
+      "year": "1994 (10–13 октября 1994), издание 1995",
+      "label": "Deutsche Harmonia Mundi",
+      "facts": "Запись в студии на Stollberger Str., WDR Кёльн, копродукция с WDR. Хаммерклавир Андреаса Штайера — копия венского инструмента Johann Fritz ок. 1815 работы Christopher Clarke (Париж, 1981). Der Fischer — трек 11 (2:36).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder — Goethe (Decca 452 917-2)",
+      "singer": "Matthias Goerne",
+      "year": "1996 (май 1996), издание 1997",
+      "label": "Decca",
+      "facts": "Место записи по буклету: Reitstadel, Neumarkt, Germany, May 1996; ℗ 1997. Общее время 72:10; Der Fischer — трек 19 (2:34). Пианист — Andreas Haefliger. Есть диск-хайлайтс 455 699-2.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+      "singer": "Thomas Quasthoff",
+      "year": "1993 (25–26 и 28–29 мая 1993), издание 1995",
+      "label": "RCA Victor Red Seal / BMG",
+      "facts": "Пианист Charles Spencer; место записи Reitsaddel (Reitstadel), Ноймаркт; общее время 61:42; 13 номеров. Der Fischer в программу НЕ входит — ключевой отрицательный факт для песни D 225.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Goethe Lieder (Sony Classical 88875083882)",
+      "singer": "Mauro Peter",
+      "year": "2015",
+      "label": "Sony Classical",
+      "facts": "Дебютный сольный диск тенора с Хельмутом Дойчем; гётевская программа. Der Fischer — 187 с (самое неспешное прочтение в пуле).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Recital (ONYX 4149)",
+      "singer": "Florian Boesch",
+      "year": "2016",
+      "label": "Onyx Classics",
+      "facts": "24 песни, пианист Malcolm Martineau; альбом уже используется проектом по D 805 и D 806 (карточки в albums.md).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Sirène (DG 477 9463)",
+      "singer": "Anna Prohaska",
+      "year": "2011",
+      "label": "Deutsche Grammophon",
+      "facts": "Концептуальная программа о воде и сиренах; пианист Eric Schneider. Der Fischer — 129–131 с.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 3: Goethe-Lieder, Vol. 1",
+      "singer": "Ulf Bästlein",
+      "year": "1999 (издание 22.11.1999)",
+      "label": "Naxos",
+      "facts": "Том сквозного полного издания (куратор Ulrich Eisenlohr); пианист Stefan Laux. Тот же трек включён в бокс «Franz Schubert: The Complete Lieder» (2011).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: The Small Song Cycles",
+      "singer": "Markus Schäfer",
+      "year": "2021 (издание 21.05.2021)",
+      "label": "дистрибуция The Orchard (лейбл по буклету не установлен)",
+      "facts": "Содержит ВТОРУЮ редакцию D 225 («Second Version», из «5 Lieder» op. 5) — редкость; хаммерклавир Zvi Meniker; 211–212 с.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Spirit of Love — Favourite Songs by Schubert (Meridian CDE 84395)",
+      "singer": "Ian Partridge",
+      "year": "1999 (издание)",
+      "label": "Meridian",
+      "facts": "Пианистка — Jennifer Partridge (сестра певца). Der Fischer — 143 с.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001 — страница Hyperion Schubert Edition Vol. 1 (Baker/Johnson): даты сессий, отзывы Gramophone/The Times/The Guardian/Penguin Guide, статус «№1 в Top Ten Discs of the Decade» по BBC Music Magazine",
+    "НЕ ПОЛУЧЕНО: klassik-prisma.de (Vergleich), Gramophone, MusicWeb International, BBC Music Magazine, слепые тесты — лимит WebSearch сессии исчерпан (200/200) до начала работы, а поисковые прокси (html.duckduckgo.com, lite.duckduckgo.com) отвечают блокировкой «anomaly». Сравнительные обзоры по D 225 в этом досье отсутствуют и должны быть добавлены отдельным проходом при доступном поиске."
+  ],
+  "negatives": [
+    "Quasthoff: D 225 нет ни на одном его диске — гётевский альбом RCA 1993/95 с полным треклистом проверен (13 номеров, Der Fischer отсутствует); дискография закрыта в 2012.",
+    "Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp: записей D 225 не найдено ни в MusicBrainz (23 записи произведения), ни в поиске YouTube — по каждому проверено отдельно (подробности в priority_singers_checked).",
+    "Ни одной ИСТОРИЧЕСКОЙ записи (78 об/мин, до 1950) песни найти не удалось: проверены Schlusnus, Hüsch, а также общие запросы «Der Fischer D 225» — старые мастера в выдаче не появляются. Самая ранняя документированная запись пула — Фишер-Дискау/Энгель, 1959. Это ограничивает возрастную структуру топ-5: «минимум 3 очень хорошие записи ранее 1990» покрываются диапазоном 1959–1987.",
+    "Fassbaender / Cord Garben (Sony Classical, 1993) — запись существует (MusicBrainz), но ни официальной, ни фан-загрузки D 225 на YouTube нет; в топ-5 включить нельзя.",
+    "Goerne / Eric Schneider («An mein Herz», harmonia mundi, 2008) — запись существует, загрузки D 225 нет; доступна только его версия 1996 года с Хефлигером.",
+    "Prey / Helmut Deutsch (Intercord 1982) и Sarah Walker / Vignoles (Brilliant 1999) — загрузок не найдено.",
+    "Расхождение дат по Шрайеру: загрузка davidhertzberg утверждает «1965, MHS 3380», дискографическое примечание пресcинга Eterna 8 26 329 — «Aufgenommen 1972». По правилам верификации приоритет у дискографии: 1972.",
+    "Расхождение по Фишеру-Дискау/Энгелю: Topic-загрузка (агрегатор Believe SAS) подписана «℗ 1962», Discogs-примечание оригинального Electrola-издания — «Aufgenommen 1959 in Berlin». Принят 1959.",
+    "Точные даты сессий не установлены для: FiDi/Moore (внутри 1966–72), Prey/Engel (Philips), Güra/Berner (℗ 2012), Shirai/Höll (Capriccio 10 171), Fassbaender/Garben, Partridge, Prohaska, Boesch, Mauro Peter — для этих записей в плеере придётся ставить год издания либо год со знаком вопроса."
+  ]
+}

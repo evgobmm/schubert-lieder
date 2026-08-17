@@ -1,0 +1,89 @@
+{
+ "d": "52",
+ "title": "Sehnsucht (Ach, aus dieses Thales Gründen)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, 21 CD); ℗ 1970 DG по кредитам official audio; конвенция проекта для свода — 1969",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен",
+   "videoId": "-kik1PLMxAQ",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "verify": "D 52 подтверждена: 251 с = MB для DFD/Moore D 52; D 636 у той же пары — отдельный трек 260 с (kkunVYKoleQ)"
+  },
+  {
+   "singer": "Thomas Allen",
+   "pianist": "Graham Johnson",
+   "rec_year": "1992 (зап. V.1992, изд. I.1993)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Hyperion Vol. 16 «Schiller Settings», CDJ33016)",
+   "album": "The Hyperion Schubert Edition, Vol. 16 «Schiller Settings»",
+   "label": "Hyperion",
+   "voice_note": "в хорошей форме, середина карьеры",
+   "reputation": "часть научного эталонного свода Джонсона",
+   "videoId": "hZbDzIHXRUk",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "verify": "271 с = MB для Allen/Johnson D 52"
+  },
+  {
+   "singer": "Christoph Homberger",
+   "pianist": "Ulrich Koella",
+   "rec_year": "1994 (℗ 1994, изд. 1994-01-01)",
+   "year_source": "кредиты official audio (Claves Records)",
+   "album": "Schubert: Early Lieder",
+   "label": "Claves Records",
+   "voice_note": "не установлено",
+   "reputation": "швейцарский тенор; альбом ранних песен",
+   "videoId": "F96SMhcAvLw",
+   "channel": "Christoph Homberger - Topic",
+   "official": true,
+   "verify": "программа альбома — ранние песни, D 636 (1821) в неё не входит; 251 с"
+  },
+  {
+   "singer": "Regina Jakobi",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2002 (℗ 2002 Naxos, released 2002-08-18)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos DSLE т. 8 «Schiller, Vol. 2», 8.554741, изд. 03/2002) + кредиты official audio",
+   "album": "Schubert: Lied Edition 8 — Schiller, Vol. 2",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть полного научного свода Naxos",
+   "videoId": "5zD1BgiqbmA",
+   "channel": "Regina Jakobi - Topic",
+   "official": true,
+   "verify": "237 с = MB для Jakobi/Eisenlohr D 52; D 636 у неё же — отдельный трек 269 с (WWYKApyontY)",
+   "added": "глубокая верификация 2026-08-17: добавлена взамен снятой записи Prey"
+  }
+ ],
+ "rejected": [
+  {
+   "singer": "Hermann Prey",
+   "pianist": "Gerald Moore",
+   "videoId": "R8-nUKyAFU8",
+   "channel": "Hermann Prey - Topic",
+   "reason": "НЕ D 52, а D 636. Оригинал — Columbia C 80 584, трек A4 «Sehnsucht op. 39» (Discogs 6820641); op. 39 = D 636 (IMSLP). «D 52» идёт только из редакторского слоя EMI: CD «Hermann Prey Lieder Vol. I» (EMI 5 68432 2, 1995) печатает самопротиворечивое «Sehnsucht (Op. 39) D.52» → бокс Icon (2011) → Warner-Topic → MusicBrainz. Та же ошибка EMI повторена на DFD/Engel (VDYIiHZ6bXg «D. 52» = D 636 у incontrario idlY1ytShmU). Независимая атрибуция: incontrario motu 17P-2I6Ght8 «Sehnsucht D.636 — Prey/Moore, Berlin-Zehlendorf, 16–18.I.1960» (место сессии совпадает с кредитами Icon). D 52 впервые издана в 1868 в Gesamtausgabe, опуса не имеет — в опусно-хитовую программу Electrola 1960 г. попасть не могла."
+  },
+  {
+   "videoId": "6S2JejCMh9M",
+   "channel": "Hermann Prey - Topic",
+   "reason": "та же фонограмма Prey/Moore в бюджетном переиздании Membran (℗ 2014), D-номер не указан; серый агрегатор"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено (её «Sehnsucht» lYem9ywqpQc — D 636)",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "ВАЖНО: у Шуберта несколько разных песен под названием «Sehnsucht» (Гёте D 310/481/656/877, Шиллер D 52 и D 636, Майргофер D 879, Шиллер D 516), причём D 52 и D 636 — две редакции ОДНОГО текста Шиллера, различимые только документально (длительности перекрываются: D 52 237–271 с, D 636 238–302 с по MB). Каталог EMI/Warner системно помечает op. 39 (= D 636) как «D. 52» — при отборе доверять номерам Topic-каналов EMI/Warner для этой песни нельзя."
+}

@@ -1,0 +1,86 @@
+{
+ "d": "59",
+ "title": "Verklärung",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, 21 CD)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен",
+   "videoId": "o3V87DhBZms",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Brigitte Fassbaender",
+   "pianist": "Graham Johnson",
+   "rec_year": "1990",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Hyperion, Vol. 11 «Schubert & Death», CDJ33011, зап. VI.1990, изд. V.1991) — сопоставлено через registry_hits кандидата",
+   "album": "The Hyperion Schubert Edition, Vol. 11 «Schubert & Death»",
+   "label": "Hyperion",
+   "voice_note": "пик по дайджесту ~1975–1992",
+   "reputation": "часть научного эталонного свода Джонсона; тематически подходящий том (песня о преображении/смерти)",
+   "videoId": "g5m-lFQUGB4",
+   "channel": "Brigitte Fassbaender - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elly Ameling",
+   "pianist": "Irwin Gage",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (mb_artists) даёт пианиста Irwin Gage — не совпадает ни с одним из документированных альбомов Амелинг в реестре (Baldwin, Jansen); вероятно недокументированная запись/сборник",
+   "album": "не идентифицирован — новая находка, требует отдельной проверки",
+   "label": "не установлен",
+   "voice_note": "пик по дайджесту ~1965–1985",
+   "reputation": "не установлено для этой конкретной записи",
+   "videoId": "-bQqkUQN0Fk",
+   "channel": "Elly Ameling - Topic",
+   "official": true
+  },
+  {
+   "singer": "Christian Gerhaher",
+   "pianist": "Gerold Huber (предположительно)",
+   "rec_year": "не установлен — не сопоставлено ни с одним из трёх его альбомов в реестре (Abendbilder 2005, Nachtviolen 2014, Art of Song 1999/2013)",
+   "year_source": "нет прямого совпадения в реестре",
+   "album": "не идентифицирован",
+   "label": "Sony Classical / RCA Red Seal (по остальным его альбомам)",
+   "voice_note": "пик по репутации пресса ~2000–наст. (см. правило скепсиса к пиару современных)",
+   "reputation": "не установлено для этой конкретной записи",
+   "videoId": "2LHZkXQvKO8",
+   "channel": "Christian Gerhaher - Topic",
+   "official": true
+  },
+  {
+   "singer": "Benjamin Appl",
+   "pianist": "не установлен",
+   "rec_year": "не установлен — возможно «Forbidden Fruit» (Alpha, 2023), но не подтверждено",
+   "year_source": "предположение по singers-digest (Appl — Forbidden Fruit, Alpha 2023, вкл. редкие мужские записи женских/редких песен), не верифицировано напрямую",
+   "album": "не идентифицирован (возможно Forbidden Fruit, Alpha 2023)",
+   "label": "Alpha (предположительно)",
+   "voice_note": "пик ~2016–наст.",
+   "reputation": "не установлено для этой конкретной записи",
+   "videoId": "WLXF2dW6WjI",
+   "channel": "Benjamin Appl - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [
+  "Elly Ameling / Irwin Gage — альбом не идентифицирован, отличается от документированных в реестре (Baldwin, Jansen); требует отдельной дискографической проверки, если песня пойдёт в топ-5.",
+  "Benjamin Appl — возможно «Forbidden Fruit» (Alpha, 2023) содержит и D 59, не только D 118 — не подтверждено."
+ ],
+ "note": "У этой песни необычно широкий пул кандидатов для редкой песни (Simon Keenlyside J2yxyOVshvs тоже в выдаче, но ни один из его 4 томов Hyperion в реестре тематически/годами не подтверждён под D 59 — исключён как неидентифицированный). Ian Partridge, Baroque Concentus, bert muzieklexicon и др. — без данных о певце/непрофильные, исключены."
+}

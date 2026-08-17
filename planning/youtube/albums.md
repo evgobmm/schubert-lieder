@@ -1,435 +1,149 @@
 # Реестр сквозных альбомов и изданий (пилот 1824–1825)
 
-Альбом исследуется один раз; факты переиспользуются всеми песнями, на которые распространяется его содержание. Если альбом уже в реестре, при необходимости дополняется его строка (песни пилота).
+Альбом исследуется один раз, и факты переиспользуются всеми песнями, где он встречается.
+
+- **Alexander Kipnis — Columbia LX 665 (78 об.) / Alexander Kipnis in Opera and Lieder (Nimbus) (Columbia (UK) / Nimbus, 1936)** — Сессия 20 октября 1936, матрица 7868, Gerald Moore за роялем (дискография Майкла Грея). Уточнение к дайджесту, где Lieder Кипниса с Муром 1936 г. отнесены к HMV. Единственная запись D 258-подобного репертуара Кипниса, где голос настоящего баса даёт песне непривычный вес.; песни пилота: D 257
+- **Alice Coote — Schubert: 21 Songs (Hyperion CDA68169) (Hyperion, запись 18–21 декабря 2017, издание май 2022)** — All Saints' Church, East Finchley; продюсер Mark Brown, инженер Andrew Mellor; аннотации Richard Wigmore. Пресса: Gramophone («with an underlying tension», «doesn't sugar-coat anything»), BBC Music Magazine («every note is delivered with white-hot sincerity»), Crescendo. Особенность издания: D 259 разбита на четыре трека по строфам.; песни пилота: D 259
+- **Alice Coote — Schubert: 21 Songs (Hyperion CDA68169) (Hyperion, запись XII.2017, релиз V.2022)** — All Saints' Church, East Finchley, Лондон; пианист Julius Drake. BBC Music Magazine хвалит «white-hot sincerity». Уже в реестре проекта по D 768.; песни пилота: D 224
+- **Andrè Schuen — Wanderer (Avi-Music 8553373) (Avi-Music (на YouTube — дистрибуция UMG), запись октябрь 2016, издание 2018)** — Villa Musica Rheinland-Pfalz, Schloss Engers, Dianasaal; продюсер Christoph Martin Frommen; пианист Daniel Heide. Ранний сольный шубертовский диск Шуэна до его DG-трилогии.; песни пилота: D 259
+- **Anna Lucia Richter — Heimweh — Schubert Lieder (Pentatone PTC 5186 722) (Pentatone, запись май 2018, издание 2019)** — MCO Hilversum, Studio 1; пианист Gerold Huber, кларнет Matthias Schorn (Hirt auf dem Felsen). D 259 — открывающий трек альбома. Позиция уже есть в albums.md (по D 837/838/839) — дополняется D 259.; песни пилота: D 259
+- **Anna Prohaska — Sirène (DG 477 9463) (Deutsche Grammophon, 2011)** — Концептуальная программа о воде и сиренах; пианист Eric Schneider. Der Fischer — 129–131 с.; песни пилота: D 225
+- **Anne Sofie von Otter — Schubert: Lieder (DG) (Deutsche Grammophon, 1996)** — Запись июнь 1996, Concertgebouw Nijmegen; Bengt Forsberg; издание 1997. Уже в реестре по D 799 и D 839.; песни пилота: D 257
+- **Arleen Augér — Schubert Lieder (Virgin Classics 5614572) (Virgin Classics / Warner, 1991 (℗; ~1990–91))** — Пианист Lambert Orkis (хаммерклавир). Диск разделён с Thomas Allen (Roger Vignoles). У Аугер минимум три разные записи D 257 — с Olbertz (Eterna, сессии 19–22.10.1976 по Грею), с Baldwin и с Orkis; перед публикацией обязательна привязка videoId к изданию.; песни пилота: D 257
+- **Barbara Bonney — Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec / Warner, 1994)** — Запись апрель 1994, Teldec Studio Berlin; Geoffrey Parsons. D 257 вынесен прямо в заглавие альбома — редкий маркер программной значимости песни. Уже в реестре по D 839.; песни пилота: D 257
+- **Barbara Bonney — Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2) (Teldec / Warner, 1994 (апрель, Teldec Studio Berlin))** — Пианист Geoffrey Parsons; звукорежиссёр Ulrich Ruscher, продюсер Martin Fouqué. Уже в реестре (по D 839).; песни пилота: D 162
+- **Benjamin Appl — Forbidden Fruit (Alpha Classics, 2023)** — Пианист James Baillieu; релиз 23.06.2023. Тот же альбом содержит редчайшую мужскую запись Gretchen am Spinnrade D 118 (дайджест).; песни пилота: D 257
+- **Brigitte Fassbaender — Lieder von Franz Schubert (EMI Electrola 1C 065-28 969) (EMI Electrola / Warner, 1974 (сессии 16–18 мая, Мюнхен, Bürgerbräukeller))** — Пианист Erik Werba; продюсер Christfried Bickenbach. Уже в реестре (по D 800).; песни пилота: D 162
+- **Brigitte Fassbaender — Lieder von Franz Schubert / «Lieder Vol. 2 (Schubert & Wolf)» (EMI Electrola / Warner Classics, ℗ 1974)** — Пианист Эрик Верба, продюсер Christfried Bickenbach, инженер Johann-Nikolaus Matthes (кредиты в официальной Warner-загрузке). Уже в реестре по D 800 — теперь подтверждено включение D 226.; песни пилота: D 226
+- **Brigitte Fassbaender — Schubert · Lieder (Sony Classical SK 53104) (Sony Classical, запись 5–8 июля 1992, издание 1993)** — Siemens-Villa, Берлин-Ланквиц; пианист Cord Garben (штатный продюсер DG). На YouTube каталог не выложен — для плеера недоступен.; песни пилота: D 259
+- **Brigitte Fassbaender — Schubert: Lieder nach Gedichten von Goethe (Sony Classical) (Sony Classical, 1993 (издание))** — Пианист Cord Garben. НОВАЯ карточка (в female-recitalists.md у Фассбендер значились EMI 1974, EMI 1988, DG нач. 1990-х — этот Sony-альбом там отсутствует). На YouTube по-трековно не выложен.; песни пилота: D 216
+- **Bryn Terfel — An die Musik – Favourite Schubert Songs (Deutsche Grammophon, 1994)** — Запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; Malcolm Martineau; 23 песни; бестселлер каталога DG. Уже в реестре по D 768 и D 853.; песни пилота: D 257
+- **Bryn Terfel — An die Musik – Favourite Schubert Songs (DG 445 294-2) (Deutsche Grammophon, 1994 (запись февраль), издание 04.09.1994)** — Пианист Malcolm Martineau; Friedrich-Ebert-Halle, Hamburg-Harburg; 23 песни, бестселлер каталога DG. Карточка уже в реестре (D 768, D 853) — год унифицирован.; песни пилота: D 216
+- **Bryn Terfel — Schubert: An die Musik (23 песни) (Deutsche Grammophon, сессии февраль 1994; ℗ 1994)** — Пианист Malcolm Martineau. Бестселлер; klassik-prisma — 4–5 баллов за Erlkönig.; песни пилота: D 328
+- **Carolyn Sampson — Elysium — A Schubert Recital (BIS) (BIS, запись 21–23 сентября 2020, выпуск 03.03.2023)** — Potton Hall, Саксмандем, Суффолк; пианист Joseph Middleton. Позиция уже в albums.md (по D 828) — дополняется D 259.; песни пилота: D 259
+- **Carolyn Sampson — Schubert's Four Seasons (BIS, 2025)** — Пианист Joseph Middleton; релиз 04.04.2025. Новейший значительный релиз с этой песней; продолжение линии Sampson/Middleton (в реестре — «A Soprano's Schubertiade» 2017 и «Elysium» 2020/2023).; песни пилота: D 257
+- **Christa Ludwig — Schubert: 15 Lieder / The Complete Recitals on Warner Classics (EMI / Warner Classics, Erlkönig — 1961 (klassik-prisma); ℗ 1967)** — Пианист Geoffrey Parsons. Уже в реестре пилота (D 118, D 839, D 799): сессии корпуса 1957–1969, тот же круг дал 5-звёздную Gretchen по klassik-prisma.; песни пилота: D 328
+- **Christiane Oelze — Goethe-Lieder — Vocal Recital (Berlin Classics / edel) (Berlin Classics (edel), релиз 09.02.2009)** — Пианист Эрик Шнайдер; программа гётевских песен Шуберта, Шумана, Веберна, Эйслера, Цемлинского, Вольфа. НОВАЯ КАРТОЧКА для реестра.; песни пилота: D 226
+- **Christoph Prégardien — Schubert: Lieder nach Gedichten von Goethe (Deutsche Harmonia Mundi 77342) (Deutsche Harmonia Mundi, 1994 (издание, октябрь))** — Пианист Andreas Staier, историческое фортепиано. Гётевская программа целиком. НОВАЯ карточка (в реестре Prégardien/Staier значился по «Lieder after Mayrhofer» ℗2001 и «Lieder von Abschied und Reise»).; песни пилота: D 216
+- **Christoph Prégardien — Schubert: Lieder von Abschied und Reise (EMI 7243 5 55007 2) (EMI Classics / Virgin → Warner, изд. 1996 (год сессии не установлен))** — Пианист Michael Gees; переиздания Virgin Classics 2001 и 2006.; песни пилота: D 224
+- **Christoph Prégardien — Schubert: Lieder von Abschied und Reise (EMI Electrola / Warner Classics, 1992 по klassik-prisma; ℗ 1996 Warner)** — Пианист Michael Gees. Единственная современная запись с 5 баллами klassik-prisma; трек продублирован на Topic-канале пианиста.; песни пилота: D 328
+- **Christoph Prégardien — Schubert: Songs to Poems by Goethe (Deutsche Harmonia Mundi) (Deutsche Harmonia Mundi, запись 1994?; ℗ 1995 BMG Entertainment)** — Пианист Андреас Штайер (историческое фортепиано). Периодный вариант песни; первая публикация записи по MusicBrainz — октябрь 1994.; песни пилота: D 226
+- **Christoph Prégardien — Schubert: Songs to Poems by Goethe (DHM 05472 77342 2) (Deutsche Harmonia Mundi (BMG), запись 10–13 октября 1994, издание 1995)** — Studio Stollberger Str., WDR Кёльн; копродукция с WDR. Хаммерклавир по Johann Fritz (Вена, ок. 1815), копия Christopher Clarke, Париж 1981 — периодный инструмент времени сочинения песни. НОВАЯ позиция для реестра: покрывает гётевский блок корпуса.; песни пилота: D 259
+- **Christoph Prégardien — Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2) (Deutsche Harmonia Mundi, 1994 (10–13 октября 1994), издание 1995)** — Запись в студии на Stollberger Str., WDR Кёльн, копродукция с WDR. Хаммерклавир Андреаса Штайера — копия венского инструмента Johann Fritz ок. 1815 работы Christopher Clarke (Париж, 1981). Der Fischer — трек 11 (2:36).; песни пилота: D 225
+- **Christoph Prégardien — Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2) (Deutsche Harmonia Mundi, 1994 (10–13 октября, Studio Stollberger Str., WDR Köln; изд. 1995))** — Andreas Staier, хаммерклавир — копия инструмента Johann Fritz (Вена, ок. 1815) работы Christopher Clarke (Париж, 1981); копродукция с WDR. Новая карточка для реестра; гётевская программа — сквозная.; песни пилота: D 162
+- **Dietrich Fischer-Dieskau — Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, V. Folge: Balladen (Electrola STE 91 023 / E 91 023) (Electrola / EMI, 1959)** — Примечание издания: «Aufgenommen 1959 in Berlin». Четыре баллады: Der Sänger op. 117, Die Bürgschaft, Der Fischer op. 5 Nr. 3, Die Einsamkeit. Пианист — Karl Engel. Британский аналог серии — HMV «Schubert Lieder Recital».; песни пилота: D 225
+- **Dietrich Fischer-Dieskau — Ein Schubert-Goethe-Liederabend (DG SLPM 138 117) (Deutsche Grammophon, запись 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960)** — Полностью гётевская программа (12 номеров), пианист Йорг Демус; переиздано в серии DG «The Originals» (457 747-2) и на CD-компиляции «Goethe-Lieder» (Discogs 5708490 / 23678009). Erster Verlust — сторона B, трек 4. Уже в реестре проекта по D 768.; песни пилота: D 226
+- **Dietrich Fischer-Dieskau — Goethe-Lieder — лайв, Стокгольм (Orfeo d'Or C 389 951 B) (Orfeo d'Or, 1970 (концерт), издание 1995)** — Пианист Karl Engel. Смешанная гётевская программа (Zelter, Reichardt, Beethoven, Schubert, Schumann, Brahms, Schoeck, Wolf), общее время 71'31". Примечание Discogs: «Live Recording: Stockholm 1970». НОВАЯ находка для реестра.; песни пилота: D 216
+- **Dietrich Fischer-Dieskau — Goethe-Lieder (live, Стокгольм) — Orfeo C 389 951 B (Orfeo, 1970 (концерт), издание 1995, переизд. Orfeo 2016)** — Программа целиком гётевская: Zelter, Reichardt, Beethoven, Schubert, Schumann, Brahms, Schoeck, Wolf. За роялем Карл Энгель. Общее время 71'31". Источник даты — примечания издателя (Discogs 14765571). НОВАЯ позиция для реестра: покрывает потенциально все гётевские песни корпуса.; песни пилота: D 259
+- **Dietrich Fischer-Dieskau — Schubert: 21 Lieder (EMI/Electrola; переизд. Warner) (EMI / Warner Classics, 1965 (℗; сессия не установлена))** — Продюсер Christfried Bickenbach — тот же, что у верифицированного «Schubert: Lieder Vol. 4» (23–25.05.1958). Часть EMI-серии рециталов Ф.-Д. 1955–1965; датировка по томам в реестре не выверена.; песни пилота: D 257
+- **Dietrich Fischer-Dieskau — Schubert: Goethe-Lieder (DG SLPM 138 117; «The Originals» 457 747-2) (Deutsche Grammophon, запись IX.1959, изд. 1960)** — 14 гётевских песен с Jörg Demus, Studio Lankwitz, Берлин; записан на вокальном пике певца; переиздан в серии «The Originals». Уже в реестре проекта по D 768.; песни пилота: D 224
+- **Dietrich Fischer-Dieskau — Schubert: Goethe-Lieder (DG SLPM 138 117; переизд. «The Originals» 457 747-2) (Deutsche Grammophon, 1959 (сессии сентябрь), издание 1960)** — Пианист Jörg Demus; Studio Lankwitz, Берлин. 14 гётевских песен, записаны на вокальном пике певца (34 года). Переиздано в серии «The Originals» и в боксе «Complete Lieder Recordings on DG» (4862073, 2022). Карточка уже есть в реестре проекта (по D 768).; песни пилота: D 216
+- **Dietrich Fischer-Dieskau — Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583) (Audite, 1954 (радиозапись WDR Köln; издание 2007))** — Пианист Günther Weißenborn (по MusicBrainz); ремастеринг Ludger Böckenhoff; примечание релиза: «Recorded cologne, 1954». Новая карточка для реестра альбомов.; песни пилота: D 162
+- **Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 1 (EMI/Electrola) (EMI / Warner Classics, 1955–57?)** — НОВАЯ карточка для реестра. Серия EMI Vol. 1–4 с Муром; том 4 записан 23–25.05.1958 (реестр), значит том 1 — вторая половина 1950-х. Точная дата сессии не установлена; фан-загрузки указывают 1955 и 1956 (не источник).; песни пилота: D 138
+- **Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 4 (Electrola E90921) (EMI Electrola / Warner, 1958 (сессии 23–24/25 мая, Берлин-Целендорф, Evangelisches Gemeindehaus))** — Пианист Gerald Moore; продюсер Christfried Bickenbach; ранняя из двух студийных версий связки. Дата подтверждена дискографией Грея (id 199091) и карточкой реестра.; песни пилота: D 162
+- **Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 4 (EMI) (EMI / Warner Classics, сессии 23–25 мая 1958, Берлин)** — Пианист Gerald Moore, продюсер Christfried Bickenbach. Источник версии Erlkönig, которую klassik-prisma называет лучшей из всех записей Фишера-Дискау (5 баллов). Альбом уже в реестре по D 805.; песни пилота: D 328
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD) (Deutsche Grammophon, 1969 (конвенция проекта; сессии 1966–1972))** — Уже в реестре (planning/youtube/albums.md, albums/complete-editions.md): Ufa-Ton-Studio Berlin, эдиции 1969/1970/1972; все ~400+ мужских песен; женские исключены. Для D 138 — две Topic-загрузки разной длительности.; песни пилота: D 138
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD) (Deutsche Grammophon, сессии 1966–1972; Erlkönig по klassik-prisma — 1968, ℗ 1970)** — Ufa-Ton-Studio Berlin, Gerald Moore. Полный свод мужских песен; на YouTube выложен двумя параллельными релизами («Schubert: Lieder» и «Schubert: Lieder (Vol. 1)») с идентичной фонограммой.; песни пилота: D 328
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD) / LP «Lieder nach Texten von Goethe» DG 2530 229 (Deutsche Grammophon, сессии 1966–1972 (для гётевского блока — Ufa-Ton-Studio Берлин, 12.1966–03.1969); ℗ 1970; LP изд. 1972)** — Полный свод всех мужских песен Шуберта с Гералдом Муром; продюсер Rainer Brock, исп. продюсер Otto Gerdes. Женские песни сознательно исключены. Базовая точка отсчёта корпуса; уже в реестре albums.md и albums/complete-editions.md §3.; песни пилота: D 259
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD) / LP DG 2530 229 «Goethe-Lieder» (Deutsche Grammophon, сессии по D 257: 16–17.12.1966 и 2–10.01.1967 (конвенция проекта — 1969))** — Berlin, UFA Studio; Gerald Moore. Полный свод всех «мужских» песен Шуберта (1966–1972), женские сознательно исключены. По дискографии Майкла Грея сессия D 257 приходится на декабрь 1966 – январь 1967. Базовая точка отсчёта для любой мужской песни корпуса.; песни пилота: D 257
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD), том гётевских песен (Deutsche Grammophon, сессии свода 1966–1972 (Ufa-Ton-Studio Berlin); альбом с D 226 — ℗ 1970)** — Пианист Джералд Мур. Соседний том у Грея («Lieder, Vol. 2», DG 2720 022) документирован как декабрь 1966 — февраль 1968; том с D 226 у Грея отсутствует, точную сессию установить не удалось. Базовая точка отсчёта для любой мужской песни.; песни пилота: D 226
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (DG, 21 CD; LP 2530 229) (Deutsche Grammophon, сессии 16–17.12.1966 и 2–10.01.1967 (для D 224); свод в целом 1966–1972)** — Полный свод всех мужских песен Шуберта с Gerald Moore, UFA Studio Берлин. Дискография Грея документирует конкретные сессии LP 2530 229, куда входит D 224.; песни пилота: D 224
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder / Lieder Volume 2 (DG 2720 022, 13 LP) (Deutsche Grammophon, 1970 (издание бокса; сессии свода 1966–1972, Ufa-Ton-Studio Berlin))** — Бокс объявлен как «The Lieder composed from 1811 to 1817 on 13 records»; в треклисте позиция J5 «Der Fisher D. 225». Парный бокс Vol. 1 (2720 006, 12 LP) охватывает 1817–1828 и D 225 не содержит. Пианист — Gerald Moore.; песни пилота: D 225
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder, 21 CD (Deutsche Grammophon, 1966–1972 (трек ℗1970))** — Пианист Gerald Moore; полный свод мужских песен; уже в реестре albums.md.; песни пилота: D 162
+- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder, Vol. I (DG 437 215-2; сводный бокс 437 214-2, 21 CD) (Deutsche Grammophon, 1966–68 (сессии тома I), ℗ 1969/1970/1972)** — Пианист Gerald Moore. Сессии тома I: Berlin, Ufa-Ton-Studio — декабрь 1966, январь и июнь 1967, февраль 1968 (примечания Discogs 17653324). «Meeres Stille D. 216» — CD 4, трек 4 (2:25). Полный свод всех мужских песен Шуберта; базовая точка отсчёта корпуса. ВАЖНО для реестра: трек-листы Vol. 1 и Vol. 2 в виниловой (1970) и цифровой (1985) эдициях поменяны местами.; песни пилота: D 216
+- **Dietrich Fischer-Dieskau — Радиозаписи Берлин 19–25.01.1948 (изд. «Schwanengesang / 7 Lieder») (RIAS → Myto / Verona / Archipel, 1948)** — Дата сессии прямо указана в примечаниях двух независимых изданий Discogs (11359476, 9172331): «High Quality Radio Recording Berlin, 19-25.1.1948»; общий тайминг 75'02"; Rastlose Liebe — трек 16. Дебютные записи 22-летнего певца. Трек включён в антологию Diapason «22 Lieder» (сентябрь 2023).; песни пилота: D 138
+- **Elisabeth Grümmer — Elisabeth Grümmer singt Lieder von Schubert und Brahms (Electrola) (Electrola / EMI; переизд. Testament SBT 1086 (1996; Discogs 11189867), Topic — через Naxos, 1958)** — НОВАЯ карточка (Грюммер в реестре альбомов отсутствовала). Примечания Testament-переиздания: «Recorded: 11 November, Gemeindehaus, Berlin-Zehlendorf (Schubert, Brahms)», ℗ 1959; исходный LP Electrola/Odeon датирован 1958 (Discogs 14907951, 7315852). Пианист — Gerald Moore. Rastlose Liebe — трек 4 CD Testament.; песни пилота: D 138
+- **Elisabeth Schumann — HMV DB 3184 (78 об/мин) / Naxos Historical 8.110731 / Warner «Icon» (HMV / EMI; переизд. Naxos Historical, Warner, 1937 (ок. 5–15 марта, по матрицам 2EA 4849/4850))** — Пианист Gerald Moore; на пластинке 4 песни (Nähe des Geliebten, Lachen und Weinen, Nacht und Träume, Seligkeit). Уточняет карточку реестра «Schubert Lieder 1927–1945».; песни пилота: D 162
+- **Elisabeth Schumann — Icon: Elisabeth Schumann (материал HMV 1920-х) (HMV / Warner Classics, 1928 (℗ оригинала))** — Пианист Karl Alwin. Реестр фиксирует её HMV-сессию с Альвином 14.11.1927 (Victor 6837 / HMV D 1411, матрицы 12011/12013), но D 257 в ней не значится — привязка не доказана. Требуется матричный поиск (правило дат по матрицам).; песни пилота: D 257
+- **Elisabeth Schwarzkopf — An Elisabeth Schwarzkopf Song Book, Vol. 2 (HMV/Angel (EMI) / Warner Classics, запись 1966 (klassik-prisma); ℗ 1968, LP изд. 1968–69)** — Пианист Geoffrey Parsons. Входит в Warner-бокс «Complete Recitals 1952–1974» и в сборник «Icon: Elisabeth Schwarzkopf». klassik-prisma — 4–5 баллов.; песни пилота: D 328
+- **Elisabeth Schwarzkopf — Schubert & Wolf: Lieder (Live) (Orfeo, ℗ 2019 (год концерта не установлен))** — Концертный релиз с Джеральдом Муром; программа Шуберта и Вольфа (на Topic-канале — Heidenröslein, Ganymed, Nähe des Geliebten, An die Musik, Seligkeit, Wiegenlied, Mörike- и Italienisches Liederbuch Вольфа). В Discogs/MusicBrainz релиз не найден; дату сессии нужно устанавливать по буклету Orfeo.; песни пилота: D 224
+- **Elisabeth Schwarzkopf — Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287 (Columbia / EMI / Warner; переизд. Naxos Historical, 1952 (D 162 — 5 октября; сессии диска 4–7 октября))** — Пианист Edwin Fischer; Abbey Road Studio 1A; продюсер и реставратор переиздания — Mark Obert-Thorn. Уже в реестре albums.md (по D 828).; песни пилота: D 162
+- **Elisabeth Schwarzkopf — Songs I Love (EMI/HMV ASD 3124) (EMI / Warner Classics, сессии 1970–73?, выпуск ноябрь 1975)** — Аккомпанемент: Geoffrey Parsons и Gerald Moore (на конверте). Программа Schubert/Schumann/Wolf; «Meeres Stille» — A2, «Gretchen am Spinnrade» — A5. Переиздано в EMI «Lieder» CDM 7 63656 2 (1990; студии — Abbey Road и Berlin, Ev. Gemeindehaus Zehlendorf; ℗ различные, 1954–1982) и в Warner-боксе «The Complete Recitals 1952–1974». НОВАЯ карточка для реестра.; песни пилота: D 216
+- **Elisabeth Schwarzkopf — The Elisabeth Schwarzkopf Song Book, Vol. 1 / Schubert, Schumann & Strauss: Lieder / Icon (Columbia (EMI) / Warner Classics, 1966 (℗; сессия не установлена, не позднее ~1964 по уходу Legge из EMI))** — Пианист Gerald Moore, продюсер Walter Legge. В реестре проекта соответствующие сборные LP (Columbia 33CX 1044, SAX 5268) числятся с годами сессий «?» — этот альбом закрывает часть хвоста, но год по-прежнему требует доисследования. Трактовка 130–132 с — самая протяжённая в пуле.; песни пилота: D 257
+- **Elly Ameling — An die Musik — Schubert Lieder (Philips 410 037-2) (Philips (Universal), цифровая запись, ℗ 1983)** — Пианист Далтон Болдуин; 13 номеров, Erster Verlust D 226 — трек 8 (Discogs 8005277). Отличается от документированного в реестре альбома «Songs for Gretchen, Ellen & Suleika» (сессии 1972–75). НОВАЯ КАРТОЧКА для реестра.; песни пилота: D 226
+- **Elly Ameling — Elly Ameling Sings Schubert At Tanglewood (Omega OCD 1001; переизд. Brilliant Classics 95107) (Omega Record Classics / Brilliant Classics, концерт 2 июля 1987, издание 1988; переиздание 2014)** — Tanglewood, Theatre-Concert Hall; общее время 69'59"; пианист Rudolf Jansen. Программа включает обе «лунные» песни — D 259 и D 193 подряд.; песни пилота: D 259
+- **Elly Ameling — Philips 6500 515 (Philips / Universal, 1972)** — Сессии 20–21 июня 1972, Concertgebouw; пианист Dalton Baldwin (дискография Грея; совпадает с albums/female-recitalists.md). Переиздано как «Schubert: Goethe-Lieder» (2023) и «The Artistry of Elly Ameling».; песни пилота: D 257
+- **Elly Ameling (сторона A) / Hermann Prey (сторона B) — Schubert: Goethe-Lieder (Philips 6500 515) (Philips / Universal, 1972 (сессии 20–21 июня; LP изд. 1973))** — Пианисты Dalton Baldwin (A1–A8) и Karl Engel (B1–B6). Дата — Грей (id 178842). Гётевская программа — сквозная для корпуса.; песни пилота: D 162
+- **Erika Köth — Erika Köth singt Lieder von Mozart, Schubert, Schumann, Brahms… (Eurodisc 72120) (Ariola-Eurodisc, 1963 (сессии 12–14 мая, Berlin, Meistersaal))** — Пианист Gerald Moore. Дата — дискография Грея (id 177757). На YouTube не найдено.; песни пилота: D 162
+- **Ernst Haefliger — Ernst Haefliger singt Lieder von Schubert und Brahms (DG LPEM 19 096) / The Ernst Haefliger Edition (Deutsche Grammophon, 1957 (год издания))** — Карточка в реестре уже была со знаком вопроса по дате сессии; теперь подтверждено (Topic/UMG), что пианист — Hertha Klust и что альбом содержит D 138.; песни пилота: D 138
+- **Florian Boesch — Schubert: Der Wanderer & other songs (Hyperion CDA68010) (Hyperion, 2012 (запись ноябрь), издание февраль 2014)** — Пианист Roger Vignoles; All Saints' Church, East Finchley, Лондон; продюсер Mark Brown, звукорежиссёр David Hinitt; 64'45"; обложка — «Странник над морем тумана» К. Д. Фридриха. Восторженные отзывы Gramophone, The Guardian, IRR, The Sunday Times (цитаты — в карточке кандидата). Карточка уже в реестре (D 768, D 853); теперь подтверждена и точная дата/место с сайта Hyperion.; песни пилота: D 216
+- **Florian Boesch — Schubert: Der Wanderer & other songs (Hyperion CDA68010) (Hyperion, запись XI.2012, изд. II.2014)** — Пианист Roger Vignoles; пресса выделяла именно аккомпанемент. Уже в реестре проекта по D 768 и D 853.; песни пилота: D 224
+- **Florian Boesch — Schubert: Lieder Recital (ONYX 4149) (Onyx Classics, 2016)** — 24 песни, пианист Malcolm Martineau; альбом уже используется проектом по D 805 и D 806 (карточки в albums.md).; песни пилота: D 225, D 257
+- **Fritz Wunderlich — Die schöne Müllerin + Lieder (DG 139 220) (Deutsche Grammophon, 1966)** — Сессии 2–5 июля 1966, Akademie der Wissenschaften, Мюнхен; Hubert Giesen. Последние студийные сессии Вундерлиха (погиб 17.09.1966). Дата подтверждена дважды: реестр проекта (карточка D 800) и дискография Грея. У Грея пианист напечатан как «Hubert Green» — очевидная опечатка.; песни пилота: D 257
+- **Gérard Souzay — Der Musensohn: 15 ausgesuchte Schubert-Lieder (Philips 802 831 LY) (Philips / Universal, 1967)** — Уже в реестре по Грею: сессии 1–7.07.1967, Концертгебау, пианист Dalton Baldwin. Подтверждается release_year 1967 в Topic-метаданных. Теперь известно, что альбом содержит D 138.; песни пилота: D 138
+- **Gérard Souzay — Schubert: Lieder (Philips) (Philips (Universal), ℗ 1967)** — Пианист Далтон Болдуин. Год — по ℗-метке правообладателя в официальной Topic-загрузке; сессия по буклету не проверена. Отдельно в MusicBrainz есть более ранняя версия с Жаклин Бонно (год не установлен).; песни пилота: D 226
+- **Gerhard Hüsch — Lebendige Vergangenheit — Gerhard Hüsch (Preiser) (Electrola (HMV) / Preiser Records, оригинал 1939; переизд. Preiser 2006)** — Пианист Hanns Udo Müller — тот же дуэт, что записал эталонные Winterreise 1933 и Müllerin 1934/35. klassik-prisma — 5 баллов, первая строка мужской таблицы.; песни пилота: D 328
+- **Hans Hotter — In Memoriam Hans Hotter (1942–1945) (Reichsrundfunk → Acanta / Membran, 1942–1945)** — Берлинские радиозаписи с Михаэлем Раухайзеном (Raucheisen-Edition); документ самой свежей формы Хоттера. Уже в реестре проекта по D 768.; песни пилота: D 224
+- **Hans Hotter — Schubert: Lieder — сессии EMI/HMV 1–2 октября 1949 (переизд. EMI References CDH 5 65196 2; Warner 50999 9 93726 2 0) (EMI / Warner Classics, 1949)** — Пианист Gerald Moore; No. 1 Studio, Abbey Road. Группа 1949 года: An die Musik D 547, Meeresstille D 216, Im Frühling D 882, Am Bach im Frühling D 361, Gruppe aus dem Tartarus D 583, обе Wandrers Nachtlied. Уточнение к реестру: карточка по D 768 датирует те же сессии 1–2.10.1949, но называет Studio No. 3 — буклет Warner указывает No. 1 Studio. Отдельно на том же переиздании: Schwanengesang — 24–27 и 29 мая 1954; Geheimes D 719, Sei mir gegrüßt D 741, Im Abendrot D 799 — 3–4 октября 1957.; песни пилота: D 216
+- **Hans Hotter — Schubert: Lieder (Columbia 33CX1626) — Hotter/Moore (Columbia (UK) / EMI; переизд. EMI References CDH 5 65196 2, Preiser, сессии 3–6 октября 1957, Лондон)** — LP «Songs» с Джеральдом Муром; по реестру проекта из этого же круга сессий (3–4.10.1957, Abbey Road Studio No. 3) взят Im Abendrot D 799. Источник большинства «поздних» шубертовских треков Хоттера на Topic-каналах.; песни пилота: D 224
+- **Harriet Burns — Schubert Lieder: Love's Lasting Power (Delphian) (Delphian Records, сессия 8–10 февраля 2023, St Mary's, Хаддингтон; релиз 26 января 2023 (по реестру))** — Пианист Иэн Тиндейл; MusicBrainz подтверждает наличие D 226 на альбоме. На YouTube соответствующий трек НЕ найден: единственный «Erster Verlust» на её Topic-канале (JX5QymfXDhs) — op. 36 № 2 Роберта Франца, другое сочинение. Уже в реестре по D 855.; песни пилота: D 226
+- **Heinrich Schlusnus — Heinrich Schlusnus in Schubert Lieder (Preiser / The Orchard) (Polydor → Preiser, оригинал 1941 (сессия Polydor 17.03.1941 по Грею))** — Пианист Sebastian Peschko. Переиздание прямо помечает трек «(Recorded 1941)».; песни пилота: D 224
+- **Hermann Prey — Columbia DW 5271 (78 об.) (Columbia (Германия), 1952)** — Осень 1952, матрица 1178; пианист Michael Raucheisen. Дебютные немецкие 78-е Прая в 23 года. Новая для реестра позиция. На YouTube не найдена.; песни пилота: D 257
+- **Hermann Prey — Goethe Lieder / Schubert & Schumann: Lieder (Philips (ныне Decca/Universal), 1965 (℗/релиз))** — Пианист Karl Engel. ВНИМАНИЕ: расхождение с реестром — в planning/youtube/albums.md (D 799) альбом Prey/Engel назван EMI Electrola с изданием 1962, а в albums/complete-editions.md уже отмечено, что лейбл Prey/Engel требует перепроверки. Здесь ℗-строка официальной загрузки прямо указывает Decca (Philips-каталог), MusicBrainz — релиз «Goethe Lieder», 1965. Рекомендуется правка реестра.; песни пилота: D 257
+- **Hermann Prey — Lieder von Franz Schubert nach Gedichten von Schiller und Goethe (Columbia C 80 584 / 33 WSX 560) (Columbia / EMI → Warner, не установлен (Topic-релиз «Icon» указывает 1961 как год издания))** — 12 треков; D 224 — сторона B, трек 6 («Wandrers Nachtlied op. 4 Nr. 3»). Пианист Gerald Moore. Год сессии требует буклета Warner «Icon: Hermann Prey».; песни пилота: D 224
+- **Hermann Prey — Philips 6747 059 (Lied-Edition) (Philips, 1971)** — Сессии 27–30 октября 1971, Мюнхен; пианист Leonard Hokanson (дискография Грея). Подтверждает запись albums/complete-editions.md §Prey о версии с Хоканссоном тех же дней, что и Winterreise с Заваллишем.; песни пилота: D 257
+- **Hermann Prey — Schubert — Goethe: Lieder und Balladen (Intercord 26 838-3, 2LP) (Intercord, 1982)** — Пианист Helmut Deutsch; DMM. 25 гётевских песен, «Meeres Stille D 216» — A4 (3:09). Переиздания: INT 830.837 (1987), 860.952 (1984). НОВАЯ карточка для реестра. На YouTube по-трековно не выложен.; песни пилота: D 216
+- **Hermann Prey — Schubert — Lieder (Philips 6573 010) (Philips, не установлен)** — Кредиты диска: Prey (баритон), Karl Engel и Leonard Hokanson (ф-но, без разбивки по трекам); сторона B — сплошной гётевский блок, D 259 — трек B8. Отдельно существует DG-запись Прая с Энгелем (℗ 1974).; песни пилота: D 259
+- **Hermann Prey — Schubert: Goethe-Lieder (London/Decca OS25927) (Decca / London (ныне Universal), запись 14–15 и 17–18 февраля 1964, London, Decca West Hampstead Studio No. 3; продюсер/инженер Minshull/Parry)** — Пианист Карл Энгель. НОВЫЙ ФАКТ ДЛЯ РЕЕСТРА: карточка «Hermann Prey — Schubert & Schumann: Lieder, EMI (Electrola), сессии начала 1960-х, издание 1962» в albums.md, по-видимому, описывает другой альбом — Topic-загрузки D 226 идут через Universal и соответствуют декковской сессии 1964 г. по дискографии Грея. На Topic материал разложен по двум сборникам («Schubert & Schumann: Lieder», «Schubert: Schwanengesang»).; песни пилота: D 226
+- **Hermann Prey — Schubert: Lieder (Philips 6573 010) (Philips, не установлен (℗ 1974 на официальной загрузке))** — Исполнители по Discogs: Hermann Prey, Karl Engel, Leonard Hokanson; B6 — Der Fischer D 225. Год на пресcингах Discogs отсутствует. На Topic-канале трек привязан к альбому со Schwanengesang, Der Wanderer D 493 и Erlkönig.; песни пилота: D 225
+- **Hermann Prey — Schubert/Goethe: Lieder und Balladen (Intercord 26 838-3) (Intercord, 1982)** — Целиком гётевская программа; запись DMM, место — Bibliothekssaal, Polling. B1 — Der Fischer D 225 (3:16). Пианист — Helmut Deutsch. Переиздания 1984 (860.952) и 1987 (Saphir INT 830.837).; песни пилота: D 225
+- **Ian Bostridge — Schubert: Lieder (Vol. 1) — Bostridge/Drake (EMI Classics → Warner, запись II–III.1996, изд. 1998)** — Abbey Road Studio No. 1; дебютный шубертовский рецитал. Уже в реестре проекта по D 768, D 800, D 806, D 807.; песни пилота: D 224
+- **Ian Bostridge — Schubert: Lieder (Vol. 1) (EMI Classics / Warner Classics, 1996)** — Запись февраль–март 1996, Abbey Road Studio No. 1; Julius Drake; издание 1998. Уже в реестре по D 768, D 800, D 806, D 807.; песни пилота: D 257
+- **Ian Bostridge — Songs by Schubert — Wigmore Hall Live (WHLive0067) и Schubert 4 (WHLive0091) (Wigmore Hall Live, ℗ 2014 и ℗ 2018 (даты концертов не установлены))** — Серия концертных записей дуэта Бостридж/Дрейк в Wigmore Hall; в WHLive0067 D 259 и D 296 идут в одной программе (треки 17 и 19).; песни пилота: D 259
+- **Ian Partridge — Spirit of Love — Favourite Songs by Schubert (Meridian CDE 84395) (Meridian, 1999 (издание))** — Пианистка — Jennifer Partridge (сестра певца). Der Fischer — 143 с.; песни пилота: D 225
+- **Irmgard Seefried — Columbia LB 78 (78 об.), венские сессии 1946–48 (Columbia, 1947)** — 21 ноября 1947, Wien, Musikverein, Brahms-Saal; матрица 978; пианист Hermann von Nordberg. На той же стороне — Wiegenlied D 498. Уже зафиксировано в albums/female-recitalists.md по данным Грея.; песни пилота: D 257
+- **Irmgard Seefried — Lieder nach Gedichten von Goethe (DG) (Deutsche Grammophon, 1957 (℗))** — Пианист Erik Werba. Новая для реестра позиция: не отождествлена ни с DG-сторонами 1952, ни с LP DG 136 009 (сессии 30.05 + 3, 7–8.06.1958). Требует уточнения.; песни пилота: D 257
+- **Janet Baker — Schubert: Lieder (2 LP, 30 песен) / The Great EMI Recordings (EMI / Warner Classics, 1970)** — Сессии август, сентябрь, декабрь 1970, Abbey Road Studio 1; Gerald Moore. Альбом уже верифицирован в реестре по D 118, D 828, D 839. Есть вторая, более поздняя версия Бейкер с Geoffrey Parsons (℗ 1981).; песни пилота: D 257
+- **Janet Baker — The Hyperion Schubert Edition, Vol. 1 — Goethe & Schiller Settings (CDJ33001) (Hyperion (с 2023 — Universal), запись февраль 1987, Elstree; издание декабрь 1987)** — Пианист и автор комментариев Грэм Джонсон; продюсер Martin Compton, инженер Antony Howell; общая длительность 67'57. Награды: Gramophone Award; BBC Music Magazine — № 1 в «Top Ten Discs of the Decade». Пресса: The Times («Janet Baker breaks the champagne bottle over one of the most important recording projects of the half century»), The Guardian («One of the loveliest records even Dame Janet has made»), Penguin Guide («Dame Janet is in glorious voice»). По комментарию Джонсона в томе 7 песня написана 5 июля 1815 вместе с первым Wandrers Nachtlied и Der Fischer.; песни пилота: D 226
+- **Janet Baker — The Hyperion Schubert Edition, Vol. 1 «Goethe and Schiller Settings» (CDJ33001) (Hyperion (с 2023 — Universal), запись II.1987, изд. XII.1987)** — Первый том 37-томного научного свода Грэма Джонсона. The Times: «A generous and revelatory recital of Goethe and Schiller settings…». Уже в мега-реестре полных изданий.; песни пилота: D 224
+- **Janet Baker — The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001) (Hyperion (с 2023 Universal), 1987 (сессии февраль 1987, Elstree; издание декабрь 1987))** — Открывающий том 37-томного свода Грэма Джонсона (фортепиано и комментарии). Gramophone Award; №1 в «Top Ten Discs of the Decade» по BBC Music Magazine; отзывы The Times, The Guardian, Penguin Guide (подборка на странице лейбла). Входит в 40-CD комплект CDS44201/40.; песни пилота: D 225
+- **Janet Baker — The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001) (Hyperion / Universal, 1987 (запись — февраль, Elstree; издание — декабрь 1987))** — Пианист и комментатор Graham Johnson. Пресса: Penguin Guide, The Guardian, The Times (цитаты на странице Hyperion). Открывает 37-томный свод — сквозной ресурс для всего корпуса.; песни пилота: D 162
+- **Janet Baker — The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001) (Hyperion, 1987 (запись февраль), издание декабрь 1987)** — Пианист Graham Johnson; Elstree, Великобритания; продюсер Martin Compton, звукорежиссёр Antony Howell; 67'57". Награды: Gramophone Award; № 1 в «Top Ten Discs of the Decade» BBC Music Magazine. Первый том полного 37-томного свода Джонсона (научный эталон). НОВАЯ карточка для реестра.; песни пилота: D 216
+- **Jessye Norman — Händel · Schubert · Schumann — Recorded Live (Philips 422 048-1 / 422 048-2) (Philips / Universal, 1987 (концерт, июнь), издание 1988)** — Пианист Geoffrey Parsons. Живая запись Шубертиады, фестиваль Хоэнемс, Фельдкирх, Австрия, 6/1987 (примечания Discogs). Шубертовский блок: Der Musensohn, Auf dem See, Meeres Stille, Ave Maria, An die Natur, Rastlose Liebe, Gretchen am Spinnrade, Die Liebe hat gelogen, Der Tod und das Mädchen, Erlkönig. НОВАЯ карточка: закрывает «?» по году альбома Norman/Parsons, зафиксированный в planning/youtube/albums/female-recitalists.md.; песни пилота: D 216
+- **Jessye Norman — Schubert: Lieder (Philips) (Philips / Universal, запись апрель 1984; ℗ 1985, релиз 24.09.1985)** — Пианист Phillip Moll. Уже в реестре альбомов пилота (D 852, D 118). Erlkönig — 5 баллов klassik-prisma, единственная пятёрка среди женщин.; песни пилота: D 328
+- **John Mark Ainsley (в томе также C. Schäfer, Keenlyside, George) — The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» (CDJ33024) (Hyperion / Universal, 1994 (сессии IX.1994; изд. X.1995))** — Карточка уже в albums/complete-editions.md. Теперь установлено: D 138 в этом томе поёт Ainsley; Topic-канал оформлен на пианиста Graham Johnson.; песни пилота: D 138
+- **Julia Culp — Victor 64396 / HMV DA 533 (Victor / HMV, 1914)** — Сессия 4 марта 1914, матрица 14536 (дискография Грея). Акустическая запись; старейшая значительная версия песни. Аккомпаниатор в каталоге не атрибутирован.; песни пилота: D 257
+- **Kathleen Battle — Schubert: Lieder (DG 419 237-2) (Deutsche Grammophon, 1988 (издание; сессия не документирована))** — Пианист James Levine; 17 треков. Переиздание Eloquence 2009 названо «Nähe des Geliebten — Ausgewählte Lieder». Уже в реестре (по D 857/1).; песни пилота: D 162
+- **Konstantin Krimmel — Mythos (Schubert & Loewe) (Alpha Classics, издание июль 2024; год сессии не установлен)** — Пианист Ammiel Bushakevitz. Балладная программа (Шуберт и Лёве) — прямое продолжение его дебютного балладного альбома «Saga» (Alpha 2019). Официальное видео на канале лейбла.; песни пилота: D 328
+- **Markus Schäfer — Schubert: The Small Song Cycles (дистрибуция The Orchard (лейбл по буклету не установлен), 2021 (издание 21.05.2021))** — Содержит ВТОРУЮ редакцию D 225 («Second Version», из «5 Lieder» op. 5) — редкость; хаммерклавир Zvi Meniker; 211–212 с.; песни пилота: D 225
+- **Matthias Goerne — Heliopolis — Matthias Goerne Schubert Edition, Vol. 1 (harmonia mundi HMC 902035) (harmonia mundi, 2009 (издание 09.11.2009))** — Пианист Ingo Metzmacher. Первый том 12-томного свода Гёрне (2008–2014, бокс 2016). Здесь D 216 назван «second version». НОВАЯ карточка (в реестре свод Гёрне представлен томами 7, 8, 12).; песни пилота: D 216
+- **Matthias Goerne — Matthias Goerne Schubert Edition, Vol. 4 «Heliopolis» (HMC 902035) (harmonia mundi, сессии X–XI.2008 и II.2009, Teldex; изд. 2009)** — Пианист Ingo Metzmacher. Часть 12-томного свода 2008–2014 (бокс 2016). Уже в мега-реестре полных изданий.; песни пилота: D 224
+- **Matthias Goerne — Matthias Goerne Schubert Edition, Vol. 7 «Erlkönig» (HMC 902141) (harmonia mundi, сессии январь 2012, Teldex; издание февраль 2013)** — Пианист Andreas Haefliger. Уже в реестре (D 768, D 799, D 853). Заглавный номер тома. Более ранняя версия того же дуэта (Decca 1996) получила у klassik-prisma 4 балла.; песни пилота: D 328
+- **Matthias Goerne — Schubert Lieder – Goethe (Decca 452 917-2) (Decca, 1996)** — НОВАЯ карточка. Буклет (Discogs 13052206): запись — Reitstadel, Neumarkt, май 1996; ℗/© 1997 Decca; TT 72'10; пианист Andreas Haefliger. Важно: Topic-метаданные дают 1997 — это год издания, не сессии.; песни пилота: D 138
+- **Matthias Goerne — Schubert Lieder – Goethe (Decca 452 917-2) (Decca, изд. 1997 (год сессии не установлен))** — Пианист Andreas Haefliger; место записи по Discogs — Historischer Reitstadel, Neumarkt.; песни пилота: D 224
+- **Matthias Goerne — Schubert Lieder — Goethe (Decca 452 917-2) (Decca, 1996 (май, Reitstadel, Neumarkt; ℗1997))** — Пианист Andreas Haefliger; аннотации Richard Wigmore. Ранний рецитал Гёрне вне его свода harmonia mundi. Новая карточка для реестра.; песни пилота: D 162
+- **Matthias Goerne — Schubert: Erlkönig — Goerne Schubert Edition (HMC 902141) (harmonia mundi, запись январь 2012, издание 25.02.2013)** — Teldex Studio, Берлин; продюсер Martin Sauer, инженер René Möller; пианист Andreas Haefliger; общее время 67'54". Том 12-томного свода HM 2008–2014.; песни пилота: D 259
+- **Matthias Goerne — Schubert: Goethe Lieder (Decca) (Decca, 1997 (℗/релиз))** — Пианист Andreas Haefliger. Ранний Гёрне до его 12-томного свода на harmonia mundi. Вторая версия певца — Goerne Schubert Edition Vol. 8 «Wanderers Nachtlied» (HM, 10.02.2014, Eric Schneider), уже в реестре по D 768 и D 799.; песни пилота: D 257
+- **Matthias Goerne — Schubert: Lieder — Goethe (Decca 452 917-2) (Decca, 1996 (май 1996), издание 1997)** — Место записи по буклету: Reitstadel, Neumarkt, Germany, May 1996; ℗ 1997. Общее время 72:10; Der Fischer — трек 19 (2:34). Пианист — Andreas Haefliger. Есть диск-хайлайтс 455 699-2.; песни пилота: D 225
+- **Matthias Goerne — Schubert: Lieder — Goethe (Decca 452 917-2) (Decca, 1997 (издание 31.03.1997; сессия вероятно 1996))** — Пианист Andreas Haefliger. Ранний гётевский рецитал Гёрне, за 11 лет до его свода на harmonia mundi. Существует и «Highlights» (Decca 455 699-2, 1997). НОВАЯ карточка для реестра.; песни пилота: D 216
+- **Mauro Peter — Schubert: Goethe Lieder (Sony Classical 88875083882) (Sony Classical, 2015 (издание 14.08.2015))** — Пианист Helmut Deutsch. Единственный найденный кандидат «не ранее 2015» с official-загрузкой. НОВАЯ карточка для реестра (в дайджесте рецитал Sony значился как «~2015–16?» — год издания теперь подтверждён).; песни пилота: D 216
+- **Mauro Peter — Schubert: Goethe Lieder (Sony Classical 88875083882) (Sony Classical, 2015)** — Дебютный сольный диск тенора с Хельмутом Дойчем; гётевская программа. Der Fischer — 187 с (самое неспешное прочтение в пуле).; песни пилота: D 225
+- **Mauro Peter — Schubert: Goethe-Lieder (Sony Classical) (Sony Classical, ℗ 2015)** — Пианист Хельмут Дойч. Дебютный сольный шубертовский альбом; MusicBrainz — первая публикация 14.08.2015.; песни пилота: D 226
+- **Michael George / Sarah Walker — The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» / Vol. 8 «Schubert & the Nocturne, Vol. 2» (Hyperion / Universal, ℗ 1995 / ℗ 1990)** — Пианист и комментатор Graham Johnson. Полный свод песен Шуберта содержит Erlkönig дважды. С 2023 (Universal) доступен как official audio на Topic-каналах.; песни пилота: D 328
+- **Mitsuko Shirai — Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio) (Capriccio, ℗ 1997)** — Пианист Хартмут Хёлль. Издание по опусам; D 226 = op. 5 № 4. НОВАЯ КАРТОЧКА для реестра.; песни пилота: D 226
+- **Peter Pears — Britten the Performer: Lieder / On This Island / Mörike Lieder (BBC Music BBCB 8015-2) (BBC Music, не установлен (серия охватывает 1954–1972))** — Пианист Benjamin Britten; D 162 — трек 5. Дата конкретного номера не документирована; на YouTube номер не найден.; песни пилота: D 162
+- **Peter Schreier — Franz Schubert: Lieder nach Goethe (Eterna 827568 / 8 26 329) (VEB Deutsche Schallplatten Eterna, 1970 (декабрь, Dresden, Lukaskirche; LP изд. 1974))** — Пианист Walter Olbertz; научный консультант Harry Goldschmidt. Дата — Грей (id 79990). Гётевская программа покрывает многие песни корпуса.; песни пилота: D 162
+- **Peter Schreier — Schubert: Lieder nach Goethe (Eterna 8 26 329) (Eterna / VEB Deutsche Schallplatten; в США MHS 3380, 1972 (запись), 1973 (издание))** — Примечание пресcинга 1973 года: «Aufgenommen 1972». 17 треков, B1 — Der Fischer op. 5 Nr. 3 D 225. Пианист — Walter Olbertz. Переиздания 1974 и 1978.; песни пилота: D 225
+- **Philippe Jaroussky — Schubert: Lieder (Erato) (Erato / Warner Classics, запись февраль 2020; издание 1 ноября 2024)** — Пианист Жером Дюкро. Уже в реестре по D 855; теперь подтверждено включение D 226. Контратеноровое прочтение.; песни пилота: D 226
+- **Rita Streich — Rita Streich singt Lieder von Franz Schubert (DG LPM 18585) (Deutsche Grammophon, 1960 (℗; LP отпечатан 4/62))** — Пианист Erik Werba; кларнет Heinrich Geuser (Der Hirt auf dem Felsen). Новая карточка для реестра.; песни пилота: D 162
+- **Robert Holl — Robert Holl singt Schubert-Lieder auf Texte von Goethe (Preiser Records) (Preiser Records, издание 04.06.2021; год записи не установлен)** — Пианист David Lutz. Preiser часто издаёт архивные ленты — сессии могут быть заметно раньше даты релиза. НОВАЯ карточка; требует доисследования даты.; песни пилота: D 216
+- **Robert Holl — Robert Holl singt Schubert-Lieder nach Goethe (Preiser) (Preiser Records, ℗/релиз 2021)** — Пианист Давид Лутц. И на Topic, и в MusicBrainz номер указан с опечаткой «D 266».; песни пилота: D 226
+- **Ruth Ziesak (с участием Christian Elsner) — Naxos Deutsche Schubert-Lied-Edition, т. 13 «Goethe, Vol. 2» (8.554666) (Naxos, 2003 (релиз — май))** — Пианист Ulrich Eisenlohr; D 162 — трек 3, 3:21. Том полного издания — сквозной ресурс для гётевских песен корпуса.; песни пилота: D 162
+- **Samuel Hasselhorn — Schubert: Glaube, Hoffnung, Liebe (harmonia mundi HMM 902689) (harmonia mundi, 2022 (изд. 06.05.2022; сессия 2021?))** — Карточка уже в albums/male-recitalists.md; теперь установлено, что альбом содержит D 138 (Topic-загрузка от 07.05.2022).; песни пилота: D 138
+- **Sarah Walker — The Hyperion Schubert Edition, Vol. 8 «Schubert & the Nocturne II» (CDJ33008) (Hyperion, запись май 1989, издание декабрь 1990)** — Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; 71'12". Graham Johnson — ф-но и научные комментарии. Пресса: The Daily Telegraph о «hair-raising account of Erlkönig», закрывающем «long and profoundly satisfying recital». С 2023 (Universal) — official audio на Topic.; песни пилота: D 259
+- **Siegfried Lorenz — Schubert: Lieder nach Goethe 2 (Eterna 8 26 704) (Eterna → Berlin Classics (0184142BC, 2007), не установлен (соседние тома серии с тем же дуэтом — 1978–1983))** — 14 треков; D 224 — A3, 1:55. Пианист Norman Shetler. Серия восточногерманских тематических LP по поэтам.; песни пилота: D 224
+- **Siegfried Lorenz — Schubert: Lieder nach Goethe 2 (Eterna 8 26 704) / переизд. Berlin Classics-edel 2009 (Eterna / Berlin Classics, не установлен (серия 1978–1987))** — Пианист Norman Shetler; систематическая серия Eterna по поэтам (Гёте, Шиллер, Майрхофер, круг друзей). Даты отдельных томов серии в Discogs: 1978, 1978, 1983, 1987.; песни пилота: D 259
+- **Thomas Quasthoff — Goethe-Lieder (RCA 09026 618642) (RCA Victor Red Seal, 1993 (сессии 25–26 и 28–29 мая 1993; изд. 1995))** — НОВАЯ карточка, важная для всего корпуса: полный трек-лист из 13 номеров зафиксирован (см. priority_singers_checked). Место записи — Historischer Reitstadel, Neumarkt. Этот альбом закрывает вопрос «есть ли у Квастхофа песня X» для гётевских песен.; песни пилота: D 138
+- **Thomas Quasthoff — Schubert: Goethe-Lieder (RCA Red Seal / BMG, 1993 (℗); релиз 24.01.1994)** — Пианист Charles Spencer. Первый из шести шубертовских альбомов Квастхофа; дайджест датирует серию Goethe-Lieder 1993/95. По klassik-prisma — 4 балла за Erlkönig, замечание о шершавом нижнем регистре.; песни пилота: D 328
+- **Thomas Quasthoff — Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642) (RCA Victor Red Seal / BMG, 1993 (25–26 и 28–29 мая 1993), издание 1995)** — Пианист Charles Spencer; место записи Reitsaddel (Reitstadel), Ноймаркт; общее время 61:42; 13 номеров. Der Fischer в программу НЕ входит — ключевой отрицательный факт для песни D 225.; песни пилота: D 225
+- **Thomas Quasthoff — Widmung – Romantische Lieder / A Romantic Songbook (Deutsche Grammophon, 2003 (сессии) / 2004 (издание))** — Запись ноябрь 2003, Bavaria Musikstudios, Мюнхен; DG 0289 474 5002. Пианист Justus Zeyen. Сборный романтический рецитал — главный источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов. Уже в реестре проекта по D 799 и D 853.; песни пилота: D 257
+- **Tiana Lemnitz — Lieder nach Texten von Goethe (радиозаписи Михаэля Раухайзена) (Reichsrundfunk (оригинал) / M.A.T.–Membran (переиздание), 1943–45? (НЕ ВЕРИФИЦИРОВАНО))** — Раухайзен руководил группой «Musikalische Solisten» Рейхсрундфунка с 1942 г.; его корпус радиозаписей Lied — 1942–1945 (переиздания «Lied der Welt»: LP 1984–1988, бокс 66 CD в 2005). Конкретная дата сессии Лемниц не найдена — нужна сверка по буклету Raucheisen-Edition.; песни пилота: D 226
+- **Ulf Bästlein — Deutsche Schubert-Lied-Edition, т. 3 «Goethe, Vol. 1» (Naxos 8.554665) (Naxos, изд. 11/1999)** — Пианист Stefan Laux; том полного немецкоязычного свода Naxos под руководством Ulrich Eisenlohr. Уже в мега-реестре полных изданий.; песни пилота: D 224
+- **Ulf Bästlein — Naxos Deutsche Schubert-Lied-Edition, Vol. 3: Goethe-Lieder, Vol. 1 (8.554665) (Naxos, 1999 (издание 22.11.1999))** — Пианист Stefan Laux. Том сквозного свода Ulrich Eisenlohr; входит и в бокс «Franz Schubert: The Complete Lieder» (8.503801, 2011). Содержит D 216 — полезно для всех гётевских песен корпуса. НОВАЯ карточка для реестра.; песни пилота: D 216
+- **Ulf Bästlein — Naxos Deutsche Schubert-Lied-Edition, т. 3 «Goethe, Vol. 1» (8.554665) (Naxos, издание 11/1999)** — Пианист Stefan Laux; гётевский блок полного издания. Позиция уже в albums/complete-editions.md §2.; песни пилота: D 259
+- **Ulf Bästlein — Naxos Deutsche Schubert-Lied-Edition, т. 3: Goethe-Lieder, Vol. 1 (Naxos, 1999 (издание 22.11.1999))** — Том сквозного полного издания (куратор Ulrich Eisenlohr); пианист Stefan Laux. Тот же трек включён в бокс «Franz Schubert: The Complete Lieder» (2011).; песни пилота: D 225
+- **Werner Güra — Schubert: Schwanengesang (harmonia mundi HMC 901931) (harmonia mundi, издание 06.11.2007 (дата сессии не установлена))** — Пианист Christoph Berner. Кроме цикла — блок отдельных песен, включая D 259.; песни пилота: D 259
+- **Wolfgang Holzmair — Schubert: Lieder, Vol. 3 (Tudor) (Tudor, ℗ 1993)** — Пианист Жерар Висс (Gérard Wyss) — не Имоджен Купер; ранняя серия Хольцмайра до его циклов Philips. НОВАЯ КАРТОЧКА для реестра.; песни пилота: D 226
+- **антология (Anders, Ferrier, Fischer-Dieskau, Grümmer, Hotter, Hüsch, Lehmann, Ludwig, Schlusnus, E. Schumann, Schwarzkopf, Seefried) — Diapason «22 Lieder» (Les Indispensables de Diapason, сентябрь 2023) (Les Indispensables de Diapason, 2023 (переиздание))** — НОВАЯ карточка, полезная всему корпусу: редакционный отбор Diapason из исторических шубертовских записей, с полными покомандными кредитами по каждому треку (Discogs 30791559). Служит быстрым тестом «кто из старых мастеров считается эталонным в песне X» и одновременно источником отрицательных результатов.; песни пилота: D 138
+- **антология немецких радиозаписей (Lemnitz, Anders, Berger, Hann, Greindl, Hotter, Schlusnus, Klose, Schmitt-Walter, Rothmüller) — Franz Schubert — Lied-Edition 7 (1943/1947) (Hamburger Archiv für Gesangskunst, 1943/1947)** — НОВАЯ карточка: серия переизданий радиокорпуса (пианисты Moore, Raucheisen, Peschko, Gyr). D 138 — трек 16, поёт Marko Rothmüller. Полезна для проверки отрицательных результатов по старым немецким мастерам.; песни пилота: D 138
 
-## Основные издания
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD)** — сессии 1966–1972, Ufa-Ton-Studio Berlin; эдиции 1969, 1970, 1972. Deutsche Grammophon. Полный свод всех мужских песен Шуберта с Gerald Moore; базовая точка отсчёта для любой мужской песни пилота. Песни пилота: D 799, D 800, D 768 и др.
-
-- **Hyperion Schubert Edition, The Complete Songs (40 CD, CDS44201/40)** — многотомный свод 1987–2000, Грэм Джонсон (фортепиано и комментарии); научный эталон. Переиздан Universal (2023) на Topic-каналах. Охватывает весь пилот 1824–1825.
-
-## Произведение за произведением
-
-### D 828 (Die junge Nonne)
-
-- **Elisabeth Schwarzkopf — Schubert: Lieder (с Эдвином Фишером)** — сессии 4–7 октября 1952, Abbey Road Studio 1, Лондон. EMI / Warner (переизд. Naxos Historical 8.111287). Эталонный лидер-рецитал: за роялем — великий пианист Эдвин Фишер. Входит в Warner-бокс «Complete Recitals 1952–1974». Содержит также Gretchen am Spinnrade (со-победитель слепого теста 2020 по D 118); песни пилота: D 828.
-
-- **Janet Baker — Schubert: Lieder (2 LP, 30 песен с Муром)** — сессии август, сентябрь, декабрь 1970, Abbey Road Studio 1, Лондон. EMI / Warner Classics. Классика жанра; открывается Gretchen am Spinnrade. По D 828 — высшая оценка klassik-prisma (5 звёзд). Песни пилота: D 118, D 828, D 839.
-
-- **Bernarda Fink — Schubert: Lieder (harmonia mundi HMC901991)** — запись сентябрь 2007, Teldex Studio, Берлин; издание 2008. harmonia mundi. Единственная современная запись D 828 с 5 звёздами klassik-prisma. Тот же дуэт Fink/Huber — со-победитель слепого теста по Gretchen am Spinnrade. Песни пилота: D 118, D 828, D 839.
-
-- **Margaret Price — The Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne»** — запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание октябрь 1992. Hyperion. Том научного свода Грэма Джонсона с комментариями; с 2023 (Universal) доступен как official audio. Комментарий к D 828: сцена «шекспировских масштабов» в предельно сжатой форме. Песни пилота: D 828.
-
-- **Lucia Popp — Schubert Lieder (EMI)** — сессии 1–6 ноября 1983, Abbey Road, Лондон; издание 1984. EMI / Warner Classics. Основной шубертовский рецитал Попп с Ирвином Гейджем; включает Gretchen am Spinnrade, Auf dem Wasser zu singen, Fülle der Liebe (D 854 — тоже в пилотном разделе), Fischerweise. Песни пилота: D 118, D 828, D 854.
-
-- **Gundula Janowitz — Schubert: Lieder (DG 2530 858)** — сессии IX–X.1976 и IX, XII.1977, Studio Lankwitz, Берлин; издание 1977. Deutsche Grammophon. Продюсер Cord Garben; тот же альбом содержит Gretchen am Spinnrade (5 звёзд klassik-prisma). Серия дважды удостоена Deutscher Schallplattenpreis. Песни пилота: D 118, D 828, D 839, D 837, D 799.
-
-- **Carolyn Sampson — Elysium — A Schubert Recital** — запись 21–23 сентября 2020, Potton Hall, Саксмандем, Суффолк; выпуск 03.03.2023. BIS. Программа выстроена вокруг темы загробного блаженства; включает Die junge Nonne и Du bist die Ruh. Свежайший значительный релиз с этой песней. Песни пилота: D 828.
-
-- **Kathleen Ferrier — Kathleen Ferrier Centenary Edition — The Complete Decca Recordings** — переиздание 2012; исходные записи 1947 (с Phyllis Spurr, Лондон, 14.03.1947) и 1949 (с Bruno Walter, Эдинбургский фестиваль, live). Decca. Единый источник для обеих версий Ферриер на Topic-канале; позволяет надёжно различать записи по длительности. Песни пилота: D 828.
-
-### D 839 (Ellens Gesang III, Ave Maria)
-
-- **Christa Ludwig — EMI «Schubert: 15 Lieder» / рециталы** — сессии 1957–1969 (Ave Maria — Abbey Road, 28–30.11.1961 и далее). EMI / Warner. Пианисты — Parsons, Moore. Кларнет — Gervase de Peyer (для Hirt auf dem Felsen). Тот же корпус дал 5-звёздную Gretchen по klassik-prisma. Переиздан в Warner «Complete Recitals» (11 CD). Песни пилота: D 118, D 839.
-
-- **Elly Ameling — Philips «Songs for Gretchen, Ellen & Suleika»** — сессии Амстердам 06.1972 / 08.1973 / 08.1975. Philips / Eloquence. Программа прямо посвящена трём героиням, включая Эллен — покрывает D 837, 838, 839. Пианист — Dalton Baldwin. Песни пилота: D 118, D 837, D 838, D 839, D 854.
-
-- **Marie McLaughlin — The Hyperion Schubert Edition, Vol. 13 «Lieder Sacred & Profane»** — сессии 16–18 декабря 1990 (дуэты 26–27.08.1991). Hyperion / Universal. Гёте и Вальтер Скотт; комментарии Грэма Джонсона — научный эталон. С 2023 доступно как official audio. Песни пилота: D 839.
-
-- **Barbara Bonney — Teldec «Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder»** — запись апрель 1994, Teldec Studio Berlin. Teldec / Warner. Пианист Geoffrey Parsons. Одна из самых слушаемых официальных загрузок песни на YouTube (>9 млн). Песни пилота: D 839.
-
-- **Anne Sofie von Otter — DG «Schubert: Lieder»** — запись июнь 1996, Concertgebouw Nijmegen; издание 1997. Deutsche Grammophon. Включает Im Abendrot D 799 и Ave Maria; Форсберг высоко оценён как аккомпаниатор. Песни пилота: D 799, D 839.
-
-- **Ruth Ziesak — Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1»** — релиз февраль 2002. Naxos. Пианист Ulrich Eisenlohr; блок песен на европейских поэтов, в т. ч. Вальтера Скотта — покрывает многие песни пилотного раздела 1824–25. Песни пилота: D 837, D 839 и др.
-
-- **Johannette Zomer — Alpha «Kennst du das Land?»** — издание 2003. Alpha. Хаммерклавир (реплика инструмента ок. 1800). Все три Ellens Gesänge, Gretchen, Suleika, песни Миньоны; AllMusic — «a stunning Schubert recital». Пианист Arthur Schoonderwoerd. Песни пилота: D 837, D 838, D 839, D 118.
-
-- **Carolyn Sampson — BIS «A Soprano's Schubertiade»** — запись август 2017; издание BIS-2343. BIS. Программа со Скоттом и Гёте, включает Ellens Gesänge, Gretchen, Gretchens Bitte. Пианист Joseph Middleton. Песни пилота: D 837, D 838, D 839, D 118.
-
-- **Anna Lucia Richter — Pentatone «Heimweh — Schubert Lieder»** — издание 2019 (дата сессии не установлена). Pentatone. Пианист Gerold Huber, кларнет Matthias Schorn (Hirt auf dem Felsen). Заявлена оригинальная немецкая версия Ave Maria; включает Ellens Gesang I и II, Der Zwerg, Viola. Песни пилота: D 837, D 838, D 839.
-
-- **Barbara Hendricks — EMI «Schubert: Lieder» (Hendricks / Lupu)** — запись 25/28/29/30 ноября 1985, Salle Wagram, Париж. EMI / Warner. За роялем Раду Лупу — редкий случай пианиста-солиста первого ряда в Lieder-рецитале; включает Gretchen. Песни пилота: D 118, D 839.
-
-### D 799 (Im Abendrot)
-
-- **Fritz Wunderlich — Dichterliebe u. a. Lieder / DG Centenary Collection 1965** — запись 31 октября – 3 ноября 1965, Hochschule für Musik, Мюнхен. Deutsche Grammophon. Сессия под руководством Hans Weber; программа: Dichterliebe op. 48 (16 №№), 4 песни Бетховена, 5 песен Шуберта, включая Im Abendrot D 799. Последняя студийная Lieder-сессия Вундерлиха. Пианист Hubert Giesen. Песни пилота: D 799.
-
-- **Fritz Wunderlich — Salzburger Liederabend, 19 августа 1965** — Mozarteum, 6-й Liederabend Зальцбургского фестиваля. Orfeo d'Or C432 961B (также Acanta, ARTS). Программа: Бетховен, Шуберт (Der Einsame, Nachtstück, An die Laute, и др., включая Im Abendrot), Шуман. ВАЖНО для пилота: Der Einsame D 800 — тоже песня раздела 1824–1825. Пианист Hubert Giesen. Песни пилота: D 799, D 800.
-
-- **Hans Hotter — Schubert: Schwanengesang & Lieder (EMI References CDH 5 65196 2)** — Schwanengesang 28–30 мая 1954; дополнительные Lieder (вкл. Im Abendrot) 3–4 октября 1957, Studio No. 3, Abbey Road, Лондон. EMI / Warner Classics. Пианист Gerald Moore. Есть также сводное переиздание Warner «Winterreise, Schwanengesang & Lieder» и бокс «Icon: Hans Hotter». Песни пилота: D 799.
-
-- **Elisabeth Schumann — Schubert Lieder (1927–1945), Naxos Historical 8.110731** — 28 песен, записи 1927–1945; большинство (23 из 28) — сессии 1932–1937. HMV; переизд. Naxos Historical. Im Abendrot — трек 3, пианист Karl Alwin (треки 1–7), 3:29. Alwin был вторым мужем певицы (1920–1938). Песни пилота: D 799, D 800.
-
-- **Lotte Lehmann — Lieder Recordings, Vol. 1 (1935–1937), Naxos Historical 8.111093** — сессии RCA Victor 1935–1937; Im Abendrot — 17 октября 1935, матрица BS 95614. RCA Victor; переизд. Naxos Historical. Пианист Ernö Balogh. Дискографию ведёт Lotte Lehmann League (в т. ч. раздел сравнения записей). Песни пилота: D 799.
-
-- **Christa Ludwig — Schubert Lieder (EMI/Electrola LP 1968); The Complete Recitals on Warner** — не позднее 1968 (LP издан). EMI / Warner. Пианист Geoffrey Parsons. Переиздан в Warner-боксе «The Complete Recitals on Warner Classics» (11 CD, 2018). Кроме D 799, входит и D 839. Песни пилота: D 799, D 839.
-
-- **Christa Ludwig — Schubert: Lieder (DG)** — июнь 1973, Tonstudio Rosenhügel, Вена; издание 1974. Deutsche Grammophon. Пианист Irwin Gage. Ремейк программы через 12 лет после версии с Parsons. Песни пилота: D 799, D 830.
-
-- **Hermann Prey — Schubert & Schumann: Lieder** — альбом EMI (Electrola), сессии начала 1960-х; издание 1962. EMI Electrola. Пианист Karl Engel. Песни пилота: D 799.
-
-- **Elly Ameling — Schubert: Lieder – Songs for Gretchen, Ellen & Suleika** — сессии 1973–74, Амстердам. Philips / Universal (Eloquence, Pentatone PTC5186132). Пианист Dalton Baldwin. Программа — женские образы Шуберта; перекрывает сразу несколько песен пилота 1824–1825. Песни пилота: D 118, D 828, D 799, D 837, D 838, D 839, D 854.
-
-- **Margaret Price — Schubert-рецитал (Orfeo)** — запись ~1980, издание 1984. Orfeo. Пианист Wolfgang Sawallisch. Редкий случай, когда за роялем — крупный дирижёр; диск открывал каталог Orfeo. Песни пилота: D 799.
-
-- **Christine Brewer — The Hyperion Schubert Edition, vol. 31 «Schubert & Religion»** — запись июль 1996, Henry Wood Hall, Лондон; издание июль 1998. Hyperion. Пианист Graham Johnson (ф-но + комментарии). Том тематический — «Шуберт и религия»; научный эталон издания. Входит в 40-CD Hyperion Complete Songs. С 2023 доступен как official audio. Песни пилота: D 799.
-
-- **Thomas Quasthoff — A Romantic Songbook** — запись ноябрь 2003, Bavaria Musikstudios, Мюнхен; издание 2004 (DG 0289 474 5002 / «Widmung – Romantische Lieder»). Deutsche Grammophon. Пианист Justus Zeyen. Сборный романтический рецитал (не только Шуберт) — источник шубертовских номеров Квастхофа вне его шести Schubert-альбомов. Песни пилота: D 799.
-
-- **Christian Gerhaher — Abendbilder – Lieder von Franz Schubert** — запись 18–21 сентября 2005, Hochschule für Musik und Theater München (Großer Konzertsaal); издание 2005. RCA Red Seal (Sony). Пианист Gerold Huber. Preis der deutschen Schallplattenkritik 2006. Заглавие альбома отсылает к вечерней теме, к которой принадлежит и D 799. Песни пилота: D 799.
-
-- **Bernarda Fink — Schubert: Lieder (harmonia mundi)** — запись 2007, Teldex Studio, Берлин; издание 2008. harmonia mundi. Пианист Gerold Huber. По дайджесту — её Gretchen с этого круга записей стала со-победителем слепого теста 2020. Песни пилота: D 118, D 828, D 799.
-
-- **Matthias Goerne — Schubert Edition Vol. 8 «Wanderers Nachtlied»** — том издан ок. 2013 (сессии свода 2007–2012). harmonia mundi. Пианист Eric Schneider (для D 799). Крупнейший сольный шубертовский свод последних десятилетий. Песни пилота: D 768, D 799, D 800.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten (HMM902747)** — проект «Schubert 200», том 2; издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Альбом посвящён песням 1824–1826 — ровно раздел пилота. Премии: Diapason d'or de l'année 2025 и Bestenliste 2/2025 Preis der deutschen Schallplattenkritik. Содержит также Die junge Nonne D 828, Der Einsame D 800 и др. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854 и др.
-
-### D 800 (Der Einsame)
-
-- **Fritz Wunderlich — Die schöne Müllerin + Lieder** — запись 2–5 июля 1966, Akademie der Wissenschaften, Мюнхен. Deutsche Grammophon. Пианист Hubert Giesen. Последние студийные сессии Вундерлиха (погиб 17.09.1966). Помимо цикла содержит An die Musik, An Silvia, Der Einsame D 800b, и др. Дискография Praefcke — надёжный сессионный источник. Песни пилота: D 800.
-
-- **Elisabeth Schwarzkopf — Schubert, Schumann & Strauss: Lieder** — студийная EMI-запись (продюсер Walter Legge) из массива 1948–1954 гг.; также Orfeo C826103D «Elisabeth Schwarzkopf sings Lieder by Schubert & Wolf» (Зальцбург, лайв, 1953–1963). EMI / Warner Classics; Orfeo d'Or. Пианист Gerald Moore. Топ-1 среди женщин по правилам проекта. Песни пилота: D 800.
-
-- **Peter Anders — Schubert: Art Songs** — радиозапись берлинского Rundfunk, 1943–1947. RRG/Berlin Classics и переиздания. Пианист Michael Raucheisen. Один из приоритетных певцов по правилам; его связка с Раухайзеном — эталон немецкой военной/послевоенной радиошколы. Песни пилота: D 800.
-
-- **Lucia Popp — Schubert Lieder (EMI)** — сессии 1–6 ноября 1983, Abbey Road, Лондон; издание 1984. EMI / Warner Classics. Пианист Irwin Gage. Один из самых известных женских шубертовских рециталов 1980-х; переиздан в «Icon: Lucia Popp». Содержит и другие песни пилотного раздела. Песни пилота: D 118, D 828, D 800.
-
-- **Peter Pears — Britten the Performer** — три версии: 1954, 1959, 1972. BBC / Britten–Pears Foundation (дистрибуция Decca). Пианист Benjamin Britten. Пирс–Бриттен — одна из великих шубертовских связок (их Winterreise 1963 назван в дайджесте «среди величайших»). Песни пилота: D 800.
-
-- **Barbara Hendricks — Schubert: Lieder, Vol. 1** — запись 25/28/29/30 ноября 1985, Salle Wagram, Париж. EMI / Warner Classics. Пианист Radu Lupu — редкий случай пианиста-солиста первого ряда. Включает Gretchen. Песни пилота: D 118, D 800.
-
-- **Richard Jackson — The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad»** — запись февраль 1996, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание сентябрь 1996. Hyperion. Пианист Graham Johnson. Реконструкция шубертиады 1826 года; Der Einsame открывает диск. Gramophone Editor's Choice, Classic CD «Song Record of the Year». Песни пилота: D 800.
-
-- **Brigitte Fassbaender — Lieder von Franz Schubert** — запись и издание 1974. EMI Electrola. Пианист Erik Werba. Продюсер Christfried Bickenbach. Переиздано как «Lieder Vol. 2 (Schubert & Wolf)». Песни пилота: D 800.
-
-- **Ian Bostridge — Schubert: Lieder (Vol. 1)** — запись февраль–март 1996, Abbey Road Studio No. 1, Лондон; издание 1998. EMI Classics / Warner Classics. Пианист Julius Drake. Дебютный шубертовский рецитал, считается его сильнейшей студийной работой раннего периода. Песни пилота: D 768, D 800.
-
-- **Ilker Arcayürek — Der Einsame** — дебютный сольный альбом (Champs Hill Records), названный по этой песне; издание 2017. Champs Hill Records. Пианист Simon Lepper. Единственная запись, где эта песня — заглавная для целого альбома. Рецензирован Gramophone. Песни пилота: D 800.
-
-- **Christoph Prégardien — Schubert: Lieder von Abschied und Reise** — альбом (Challenge Classics), год записи не установлен. Challenge Classics. Пианист Michael Gees. Один из ведущих Lieder-теноров поколения; его Müllerin получила Gramophone Editor's Choice и MIDEM Record of the Year 2009. Песни пилота: D 800.
-
-- **Ernst Haefliger — Franz Schubert: 23 ausgewählte Lieder** — альбом (Claves), релиз 1987. Claves. Пианист Jörg Ewald Dähler (хаммерклавир ок. 1820). Ценность — исторический инструмент и скрупулёзность стиля; вокально — компромисс. Песни пилота: D 800.
-
-- **Karl Erb — Lieder von Franz Schubert in historischen Aufnahmen** — материал Polydor/Electrola, 1920–30-е; антология переиздания 2006. Preiser / Membran. Пианист Bruno Seidler-Winkler. Эрб — легенда довоенного пения; шубертовские стороны — образец старой немецкой декламации. Песни пилота: D 800.
-
-### D 768 (Wandrers Nachtlied II, «Über allen Gipfeln ist Ruh»)
-
-- **Dietrich Fischer-Dieskau — Schubert: Goethe-Lieder** — запись сентябрь 1959, Studio Lankwitz, Берлин; издание 1960 (DG SLPM 138 117; переиздание DG Originals 457 747-2). Deutsche Grammophon. Пианист Jörg Demus. 14 гётевских песен; записаны на вокальном пике певца. Переиздано в серии «The Originals». Песни пилота: D 768.
-
-- **Hans Hotter — In Memoriam Hans Hotter (1942-1945)** — альбом-переиздание из берлинского радио (Raucheisen-Edition). Reichsrundfunk / Acanta, Membran. Пианист Michael Raucheisen. Военные радиозаписи с Раухайзеном ценятся как документ его самой свежей формы. Также переиздано как Acanta 43 126 «Hans Hotter singt Lieder». Песни пилота: D 768.
-
-- **Hans Hotter — Schubert: Lieder (EMI)** — сессии 1–2 октября 1949, Abbey Road Studio No. 3, Лондон; издано 1950. EMI (HMV/Electrola); переиздания: Testament, Preiser «Dokumente einer Sängerkarriere». Пианист Gerald Moore. 78-об. сторона (Wanderers Nachtlied / Am Bach im Frühling). Аннотация переиздания отмечает, что эта запись «almost seems to suspend time». Песни пилота: D 768.
-
-- **Jussi Björling — Björling Collection, Vol. 5: Lieder and Songs (1939-1952)** — содержит рецитал RCA «Jussi Björling in Song» (1952). RCA Victor (оригинал) / Naxos Historical 8.110789. Пианист Frederick Schauwecker. 21 песня 12 композиторов на 5 языках, из них 7 шубертовских (в т. ч. An Silvia, Die Allmacht, Wandrers Nachtlied, Die Forelle). Рецензия MusicWeb International, май 2005. Песни пилота: D 768.
-
-- **Christa Ludwig — Schubert Lieder (EMI/Electrola LP 1968); The Complete Recitals on Warner** — LP издан 1968. EMI / Warner. Пианист Geoffrey Parsons. Переиздан в серии «Great Recordings of the Century» и в Warner-боксе «The Complete Recitals on Warner Classics» (2018). Переиздан также EMI как «Schubert: 15 Lieder» (2004). Песни пилота: D 768, D 839.
-
-- **Christopher Maltman — The Hyperion Schubert Edition, Vol. 34 — Schubert 1817-1821** — сессии на разных датах в 1991, 1993, 1995, 1997, 1998 и 1999; релиз январь 2000 (CDJ33034). Hyperion. Пианист Graham Johnson (ф-но + комментарии). D 768 — тр. 19 (1'55). Также входит в бокс CDS44201/40 (CD 29, тр. 6). Заметки Джонсона называют песню «a conjunction of the purest genius». Песни пилота: D 768.
-
-- **Bryn Terfel — An die Musik – Favourite Schubert Songs** — запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg. Deutsche Grammophon, 1994. Пианист Malcolm Martineau. 23 песни; бестселлер каталога DG. Песни пилота: D 768.
-
-- **Ian Bostridge — Schubert: Lieder (Vol. 1)** — запись февраль–март 1996, Abbey Road Studio No. 1, Лондон; издание 1998. EMI Classics / Warner Classics. Пианист Julius Drake. Дебютный шубертовский рецитал с Джулиусом Дрейком. Есть также в боксе «Schubert: 25 Lieder». Песни пилота: D 768, D 800.
-
-- **Peter Schreier — Eterna / Musical Heritage Society** — альбом (Eterna; лицензия MHS 3380), год записи не верифицирован (1965 по названию фан-загрузки). Eterna / Berlin Classics. Пианист Walter Olbertz. Один из главных Lied-теноров второй половины XX века; в MB есть также его версия с Андрашем Шиффом (Decca, ~1989–91). Песни пилота: D 768.
-
-- **Barbara Hendricks — Schubert: Lieder, Vol. 1** — запись 25/28/29/30 ноября 1985, Salle Wagram, Париж. EMI / Warner Classics. Пианист Radu Lupu. Есть второй том (1993). Включает Gretchen и другие песни пилота. Песни пилота: D 118, D 768, D 839, D 800.
-
-- **Florian Boesch — Schubert: Der Wanderer & other songs** — Hyperion CDA68010; издание примерно 2014. Hyperion. Пианист Roger Vignoles. D 768 — тр. 13 (2'02). Венская школа рассказчика. Официальный промо-ролик Hyperion — UTDr8VWVO4o. Песни пилота: D 768.
-
-- **Alice Coote — Schubert: 21 Songs** — запись декабрь 2017, All Saints' Church, East Finchley, Лондон; релиз май 2022 (Hyperion CDA68169). Hyperion. Пианист Julius Drake. BBC Music Magazine: «Every note is delivered with white-hot sincerity in Coote's rich-toned voice … Drake's piano similarly glows». D 768 — тр. 45 (2'18). Песни пилота: D 768.
-
-- **Matthias Goerne — Matthias Goerne Schubert Edition, Vol. 8: «Wanderers Nachtlied»** — том издан 10 февраля 2014 (HMC 902109/10, 2 CD). harmonia mundi. Пианист Eric Schneider. Том назван по этой песне — лейбл выделил её как смысловой центр альбома. Рецензия classical-music.com (BBC Music Magazine), июнь 2014. Песни пилота: D 768, D 799.
-
-- **Jonas Kaufmann — Selige Stunde** — запись 16–19 апреля 2020, Мюнхен; издание 2020. Sony Classical. Пианист Helmut Deutsch. 27 романтических песен; D 768 — тр. 25. Presto Music — «Recording of the Week» (учитывать правило скепсиса к пиару современных). Песни пилота: D 768.
-
-- **Andrè Schuen — Musical Moments (сингл)** — сингл выпущен 17 марта 2023 (DG). Deutsche Grammophon. Пианист Daniel Heide. Флагманский молодой Schubert-баритон DG. Не путать с DG-циклами Шуэна (2021–2024). Песни пилота: D 768.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten – Lieder & Dances** — альбом (harmonia mundi HMM902747), проект «Schubert 200», том 2; издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Альбом посвящён песням 1824–1826; покрывает весь пилот. Первые альбомы серии отмечены Diapason d'or de l'année и Preis der deutschen Schallplattenkritik. D 768 — тр. 17. Песни пилота: D 828, D 768, D 800, D 807, D 806, D 846, D 851, D 852, D 854 и др.
-
-- **Lieder von Franz Schubert in historischen Aufnahmen (Preiser, 1997, 2 CD)** — антология (Tauber, Schmitt-Walter, Ferrier, Fuchs и др.), материал 1927–1947. Preiser. D 768 представлен записью Karl Schmitt-Walter / Michael Raucheisen (тр. 18, 1:59). Полезный ориентир для всех «исторических» песен пилота. Песни пилота: D 768.
-
-### D 806 (Abendstern)
-
-- **Anthony Rolfe Johnson — The Hyperion Schubert Edition, Vol. 6** — запись сентябрь 1989, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание декабрь 1990. Hyperion. Пианист Graham Johnson (ф-но + комментарии). Заметки Джонсона называют Abendstern предвестием Der Leiermann. Научный эталон издания. Песни пилота: D 806.
-
-- **Christian Gerhaher — Nachtviolen: Schubert Lieder** — запись 2014, издание февраль 2014. Sony Classical (RCA Red Seal). Пианист Gerold Huber. MusicBrainz-подтверждение: трек 10/24. Заглавие отсылает к тематике Abendstern. Песни пилота: D 806.
-
-- **Florian Boesch — Lieder Recital** — запись и издание 2016 (Onyx Classics ONYX 4149). Onyx Classics. Пианист Malcolm Martineau (отдельный альбом от Hyperion CDA68010). Abendstern — трек 20/24. Песни пилота: D 806.
-
-- **Anna Prohaska — Paradise Lost** — запись и издание 10 апреля 2020. Alpha Classics. Пианист Julius Drake. Концептуальная программа о грехопадении; Abendstern — трек 19/26. Песни пилота: D 806.
-
-### D 807 (Auflösung)
-
-- **Ian Bostridge — Schubert: Lieder (Vol. 1)** — запись февраль–март 1996, Abbey Road Studio No. 1, Лондон; издание 1998. EMI Classics / Warner Classics. Пианист Julius Drake. Дебютный шубертовский рецитал, считается его сильнейшей ранней студийной работой. Песни пилота: D 768, D 800, D 807, D 806.
-
-- **Ernst Haefliger — Franz Schubert: 23 ausgewählte Lieder** — релиз 1987. Claves. Пианист Jörg Ewald Dähler (хаммерклавир ок. 1820). Ценность — исторический инструмент и скрупулёзность стиля; вокально — компромисс. Песни пилота: D 800, D 807.
-
-### D 842 (Totengräbers Heimweh)
-
-- **The Hyperion Schubert Edition, Vol. 35: Schubert 1822–1825 (CDJ33035)** — запись январь 1998, St Paul's Church, New Southgate, London; издание апрель 2000. Hyperion. Певец Christopher Maltman, пианист Graham Johnson. Комментарии Джонсона: песня «has always been a favourite among male singers». Отзывы BBC Music Magazine («illuminating»), The Guardian («Revelatory»). Песни пилота: D 842.
-
-- **Schubert: Nacht und Träume (Matthias Goerne Schubert Edition)** — издание 04.01.2011. harmonia mundi. Пианист Alexander Schmalcz. Том 12-томного свода Гёрне (HMM 2008–2014) — крупнейший сольный шубертовский корпус последних десятилетий. Песни пилота: D 842.
-
-- **Christian Gerhaher — The Art of Song** — радиозапись Bayerischer Rundfunk 1999, издание 2013. Sony Classical / BR. Пианист Gerold Huber. Ранняя версия перед основными студийными альбомами. Песни пилота: D 842.
-
-- **Schubert: Piano Sonata D 958 / Lieder** — издание 05.03.2007. EMI Classics / Warner Classics. Певец Ian Bostridge, пианист Leif Ove Andsnes. Песня вынесена в заголовок альбома; переиздания: «The Wanderer: Lieder & Fragments» (2008), антология EMI «Lieder on Record 1898–2012» (2012), бокс «The Warner Classics Edition 1990–2010» (2023). Песни пилота: D 842.
-
-- **Schubert: Glaube, Hoffnung, Liebe. Lieder** — издание 06.05.2022. harmonia mundi. Певец Samuel Hasselhorn, пианист Joseph Middleton. Альбом предшествует проекту «Schubert 200». Песни пилота: D 842.
-
-- **Mythos: Schubert & Loewe** — издание 05.07.2024. Alpha Classics / BR-Klassik. Певец Konstantin Krimmel, пианист Ammiel Bushakevitz. Копродукция с BR-Klassik; программа баллад и повествовательных песен — жанрово родственна D 842. Песни пилота: D 842.
-
-- **Schubert: Wanderer** — издание 13.07.2018 (℗ 2016). Deutsche Grammophon. Певец Andrè Schuen, пианист Daniel Heide. Ранний шубертовский альбом Шуэна до его DG-циклов 2021–2024. Песни пилота: D 842.
-
-- **Heimweh — Schubert Lieder** — издание 01.02.2019. Pentatone. Певец Anna Lucia Richter, пианист Gerold Huber. Программа выстроена вокруг темы тоски по дому; D 842 — тематический центр альбома. Уже в реестре по D 837, D 838, D 839. Песни пилота: D 837, D 838, D 839, D 842.
-
-- **Schubert im Freundeskreis** — издание 03.05.2007. Challenge Classics. Певец Robert Holl, пианист Rudolf Jansen. Редкий настоящий низкий голос в этой песне. Песни пилота: D 842.
-
-- **Poetisches Tagebuch** — издание 09.10.2015. Challenge Classics. Певец Christoph Prégardien, пианист Julius Drake. Поздний рецитал Прегардьена. Один из ведущих Lieder-теноров поколения (Müllerin — Gramophone Editor's Choice, MIDEM 2009). Песни пилота: D 842.
-
-- **Bei dir allein! — Schubert Songs** — ℗ 2012, релиз 06.03.2012. BIS. Певец Camilla Tilling, пианист Paul Rivinius. Женский шубертовский рецитал BIS. Песни пилота: D 842.
-
-- **Prayer — Voice & Organ** — ℗ 2014, релиз 07.04.2014. Deutsche Grammophon. Певец Magdalena Kožená, орган Christian Schmitt. Фортепианная партия переложена для органа — не аутентичная версия. Песни пилота: D 842.
-
-### D 852 (Die Allmacht)
-
-- **The Hyperion Schubert Edition, Vol. 5 «Schubert and the Countryside» (CDJ33005)** — запись сентябрь 1988, Kimpton Parish Church, Хартфордшир; издание декабрь 1989. Hyperion. Певец Elizabeth Connell, пианист Graham Johnson. Комментарий Джонсона (©1989): песня требует «a large and sumptuous voice». Пресса: Gramophone («Elizabeth Connell is at her very best here»), American Record Guide («A must for all Schubertians»). Входит в 40-CD Complete Songs. Песни пилота: D 852.
-
-- **Björling Collection, Vol. 5: Lieder and Songs (1939–1952)** — оригинал RCA «Jussi Björling in Song» (1952); переизд. Naxos Historical 8.110789. RCA Victor / Naxos Historical. Пианист Frederick Schauwecker. Рецитал из 21 песни на 5 языках, 7 шубертовских номеров. Рецензия MusicWeb International, май 2005. Песни пилота: D 852.
-
-- **Jussi Björling at Carnegie Hall, New York City, March 2, 1958** — живая запись 2 марта 1958; ℗ 1991 Sony. RCA / Sony Classical. Пианист Frederick Schauwecker. Знаменитый концертный рецитал; дата вынесена в заглавие издания лейбла. Песни пилота: D 852.
-
-- **Shirley Verrett at Carnegie Hall, New York City, January 30, 1965** — живая запись 30 января 1965; ℗ 1965 Sony/RCA. RCA / Sony Classical. Пианист Charles Wadsworth. Дебютный нью-йоркский рецитал; продюсер Joseph Habig. Песни пилота: D 852.
-
-- **Kirsten Flagstad — 78 об. HMV (DB 21596) / Warner «Icon: Kirsten Flagstad»** — сессия 28 апреля 1952; ℗ 1953, ремастер 1997. HMV / EMI / Warner Classics. Пианист Gerald Moore. Флагстад — эталон вагнеровского сопрано; её шубертовские записи входят в антологию EMI «Schubert Lieder on Record». Песни пилота: D 852.
-
-- **Jessye Norman — Schubert: Lieder** — запись апрель 1984; ℗ 1985, релиз 24.09.1985. Philips / Universal. Пианист Phillip Moll. Тот же альбом — источник её монументальной Gretchen. Голос отвечает требованию Джонсона о «large and sumptuous voice». Самая просматриваемая официальная загрузка песни (≈13 тыс. просмотров). Песни пилота: D 852.
-
-- **Hermann Prey — Lieder von Franz Schubert, Lied-Edition Vol. 2** — ℗ 1974. Deutsche Grammophon. Пианист Karl Engel. Часть DG-серии песенных изданий Прая 1970-х. Один из главных немецких баритонов эпохи и основатель Шубертиады в Хоэнемсе. Песни пилота: D 852.
-
-### D 853 (Auf der Bruck)
-
-- **Widmung – Romantische Lieder / A Romantic Songbook** — запись ноябрь 2003, Bavaria Musikstudios, Мюнхен; издание 2004. Deutsche Grammophon. Певец Thomas Quasthoff, пианист Justus Zeyen. Сборный романтический рецитал — источник шубертовских номеров вне его шести Schubert-альбомов. Уже в реестре по D 799. Песни пилота: D 799, D 853.
-
-- **The Hyperion Schubert Edition, Vol. 18: Schubert & the Strophic Song** — запись август 1992, St George's, Brandon Hill, United Kingdom; издание июнь 1993. Hyperion. Певец Peter Schreier, пианист Graham Johnson. Пресса: Gramophone («Superlative»), BBC Music Magazine («An outstanding disc»), The Observer, Fanfare («One of the glories of the series»). ВАЖНО: песня исполнена в транспозиции A (оригинал G); Джонсон включил её в реконструированный «цикл» на стихи Э. Шульце. Комментарии Джонсона — самый подробный найденный разбор. Песни пилота: D 853.
-
-- **An die Musik – Favourite Schubert Songs** — запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; издание 04.09.1994. Deutsche Grammophon. Певец Bryn Terfel, пианист Malcolm Martineau. 23 песни; бестселлер каталога DG. Уже в реестре по D 768. Песни пилота: D 768, D 853.
-
-- **Abendbilder – Lieder von Franz Schubert** — запись 18–21 сентября 2005, Hochschule für Musik und Theater München; издание 2005. RCA Red Seal (Sony). Певец Christian Gerhaher, пианист Gerold Huber. Preis der deutschen Schallplattenkritik 2006. Уже в реестре по D 799. Песни пилота: D 799, D 853.
-
-- **Matthias Goerne Schubert Edition, Vol. 7: Erlkönig** — издание 11.02.2013 (сессии свода 2007–2012). harmonia mundi. Пианист Andreas Haefliger. Крупнейший сольный шубертовский свод последних десятилетий. Том назван по другой песне, но D 853 также входит. Уже в реестре по D 768, D 799. Песни пилота: D 768, D 799, D 853.
-
-- **Schubert: Der Wanderer & other songs** — запись ноябрь 2012, издание февраль 2014 (Hyperion CDA68010). Hyperion. Певец Florian Boesch, пианист Roger Vignoles. D 853 входит в группу с особенно трудным аккомпанементом. Гранфон, The Guardian, International Record Review высоко оценили именно пианиста в этих аккомпанементах. Уже в реестре по D 768. Песни пилота: D 768, D 853.
-
-- **Britten & Pears: The Early HMV Recordings** — оригинальные HMV-сессии (год не установлен); переиздания ℗2012 и ℗2015. HMV / Heritage Records. Певец Peter Pears, пианист Benjamin Britten. Та же запись включена в кураторскую антологию EMI «Lieder on Record 1898–2012». Пирс–Бриттен — одна из великих шубертовских связок. Уже в реестре по D 800. Песни пилота: D 800, D 853.
-
-- **EMI/Warner «Lieder on Record 1898–2012»** — издание 02.07.2012. EMI / Warner Classics. Историческая антология с версиями Пирса–Бриттена и Бостриджа–Андснеса; косвенный маркер канонического статуса. Уже в реестре по D 768, D 800. Песни пилота: D 768, D 800, D 853.
-
-### D 805 (Der Sieg)
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 4** — запись 23–25 мая 1958, Берлин; издание 1958. EMI / Warner Classics. Пианист Gerald Moore. Продюсер Christfried Bickenbach. Ранняя из двух версий Fischer-Dieskau/Moore. Песни пилота: D 805.
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder (Vol. 2)** — часть DG Sämtliche Lieder, сессии 1966–1972; данный трек ℗ 1969. Deutsche Grammophon. Пианист Gerald Moore. Более поздняя из двух версий Fischer-Dieskau/Moore в полном своде. Песни пилота: D 805.
-
-- **Thomas Hampson — The Hyperion Schubert Edition, Vol. 14** — запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание 1991/1992. Hyperion. Пианист Graham Johnson (ф-но + комментарии). Научный эталон издания. Песни пилота: D 805.
-
-- **Christoph Prégardien — Schubert: Lieder von Abschied und Reise** — ℗ 1996. Challenge Classics / Warner Classics. Пианист Michael Gees. Один из ведущих Lieder-теноров поколения. Песни пилота: D 805.
-
-- **Roman Trekel — Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1»** — издание 14 февраля 2002. Naxos. Пианист Ulrich Eisenlohr. Часть полного немецкоязычного свода Eisenlohr. Песни пилота: D 805.
-
-- **Florian Boesch — Schubert: Lieder Recital** — издание 20 мая 2016. Onyx Classics (ONYX4149). Пианист Malcolm Martineau. Der Sieg — программно значимая финальная, 24-я песня рецитала. Песни пилота: D 805, D 806.
-
-### D 830 (Lied der Anne Lyle)
-
-- **Christa Ludwig — Schubert: Lieder (DG)** — июнь 1973, Tonstudio Rosenhügel, Вена; издание 1974. Deutsche Grammophon. Пианист Irwin Gage. Единственная запись приоритетной певицы по правилам. Песни пилота: D 799, D 830.
-
-- **Gundula Janowitz — Schubert: Lieder (DG 2530 858)** — сессии IX–X.1976, IX–XII.1977, Studio Lankwitz, Берлин; издание 1977. Deutsche Grammophon. Пианист Irwin Gage. Продюсер Cord Garben. Серия дважды удостоена Deutscher Schallplattenpreis. Песни пилота: D 118, D 828, D 839, D 837, D 799, D 830, D 831.
-
-- **Marie McLaughlin — The Hyperion Schubert Edition, Vol. 13 «Lieder Sacred & Profane»** — сессии 16–18.12.1990 (дуэты 26–27.08.1991). Hyperion / Universal. Пианист Graham Johnson (ф-но + комментарии). Научный эталон издания. С 2023 доступно как official audio. Песни пилота: D 839, D 830, D 831.
-
-- **Ruth Ziesak — Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1»** — релиз февраль 2002. Naxos. Пианист Ulrich Eisenlohr. Блок Вальтера Скотта (Ossians Lied, Shilric und Vinvela, Cronnan, Lodas Gespenst, Kolmas Klage, Das Mädchen von Inistore, Ellens Gesänge I–III, Normans Gesang, Lied des gefangenen Jägers, Lied der Anne Lyle, Romanze des Richard Löwenherz, Gesang der Norna). Покрывает 6 песен пилота из группы «Scott». Песни пилота: D 837, D 838, D 839, D 830, D 831, D 843.
-
-- **Sibylla Rubens — Mozart / Schubert / Hüttenbrenner: Lieder** — ℗ 2000. SWR Classic (переиздано NAXOS of America). Пианист Irwin Gage. Год по ℗-метке, не дата сессии. Песни пилота: D 830.
-
-- **Elisabeth Speiser — Franz Schubert: Lieder «Schöne Welt, wo bist du…?»** — запись 1975. Jecklin (Швейцария). Пианист John Buttrick. Швейцарская лидер-певица. Песни пилота: D 830.
-
-- **Katharina Konradi — Insomnia** — релиз 28 апреля 2023. Berlin Classics (Edel Music & Entertainment). Пианист Ammiel Bushakevitz. Самая свежая студийная запись песни в пуле. По правилам: скепсис к пиару современных; альбом — весь Шуберт. Песни пилота: D 830, D 831.
-
-- **Nienke Oostenrijk — Ladies Only** — ℗ 2016, релиз 15 сентября 2016. Cobra Records (Нидерланды). Пианист Marianne Boer. Тематический альбом на нишевом голландском лейбле. Биография певицы не верифицирована. Песни пилота: D 830.
-
-- **Jasper Schweppe — Schubert: Lieder, Vol. 6: Op. 68–86** — ℗/релиз 31 мая 2023. Etcetera Records. Пианист Riko Fukuda. Часть текущего нидерландского полного свода (Stichting Schubertiade). Мужское исполнение женской по тексту песни. Песни пилота: D 830, D 831.
-
-### D 831 (Gesang der Norna)
-
-### D 843 (Lied des gefangenen Jägers)
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 4** — запись 23–25 мая 1958, Берлин; издание 1958. EMI / Warner Classics. Пианист Gerald Moore. Ранняя из двух версий. Песни пилота: D 805, D 843.
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder (Vol. 2)** — ℗ 1969. Deutsche Grammophon. Пианист Gerald Moore. Часть DG Sämtliche Lieder. Песни пилота: D 843.
-
-- **Thomas Hampson — The Hyperion Schubert Edition, Vol. 14** — октябрь 1991, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание 1991/1992. Hyperion. Пианист Graham Johnson. Gramophone и CDReview дали положительные общие отзывы о томе. Песни пилота: D 843.
-
-- **Christoph Prégardien — Schubert: Lieder von Abschied und Reise** — ℗ 1996. Challenge Classics / Warner Classics. Пианист Michael Gees. Один из ведущих Lieder-теноров. Песни пилота: D 800, D 843.
-
-- **Roman Trekel — Naxos Deutsche Schubert-Lied-Edition, т. 7 «European Poets, Vol. 1»** — издание 14 февраля 2002. Naxos. Пианист Ulrich Eisenlohr. То же издание, что и для D 830, входит в него блок Вальтера Скотта. Песни пилота: D 837, D 838, D 839, D 830, D 831, D 843.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten (HMM902747)** — проект «Schubert 200», том 2; издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Diapason d'or de l'année 2025, Preis der deutschen Schallplattenkritik (Bestenliste 2/2025). D 843 входит в альбом. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854, D 843 и др.
-
-### D 854 (Fülle der Liebe)
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder (Vol. 2)** — ℗ 1969. Deutsche Grammophon. Пианист Gerald Moore. Часть DG Sämtliche Lieder. Песни пилота: D 854.
-
-- **Lucia Popp — Schubert Lieder (EMI)** — сессии 1–6 ноября 1983, Abbey Road, Лондон; издание 1984. EMI / Warner Classics. Пианист Irwin Gage. Уже в реестре. Песни пилота: D 118, D 828, D 854.
-
-- **Matthias Goerne — The Hyperion Schubert Edition, Vol. 27 «Schubert and the Schlegels»** — запись март 1995, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание ноябрь 1996. Hyperion. Пианист Graham Johnson. Тематический том, прямо посвящён поэту Fülle der Liebe (Friedrich von Schlegel). Песни пилота: D 854.
-
-- **Florian Boesch — Naxos Deutsche Schubert-Lied-Edition, т. 27 «Romantic Poets, Vol. 4»** — издание 29 июля 2008. Naxos. Пианист Burkhard Kehring. Часть сквозного свода Ulrich Eisenlohr. Новая находка (отличается от Hyperion CDA68010 с Vignoles). Песни пилота: D 854.
-
-- **Ian Bostridge — Schubert: Piano Sonata, Op. 53, D. 850 & Lieder** — издание 2003. EMI Classics / Warner Classics. Пианист Leif Ove Andsnes. Редкий дуэт с пианистом-солистом первого ряда. Песни пилота: D 854, D 855.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten** — издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Проект «Schubert 200», том 2. Диапазон песен 1824–1826. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854 и др.
-
-- **Elly Ameling — Schubert: Lieder** — ℗ 1986. Universal (вероятно Philips-круг). Пианист Rudolf Jansen. Отличается от документированного альбома «Songs for Gretchen, Ellen & Suleika». Новая находка, требует дискографической проверки. Песни пилота: D 854.
-
-### D 855 (Wiedersehn)
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии 1966–1972. Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 855.
-
-- **Matthias Goerne — The Hyperion Schubert Edition, Vol. 27 «Schubert and the Schlegels»** — запись март 1995, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание ноябрь 1996. Hyperion. Пианист Graham Johnson. Тематический том по поэтам Шлегель; А. В. Шлегель — поэт D 855. Песни пилота: D 854, D 855.
-
-- **Ian Bostridge — Schubert: Piano Sonata, Op. 53, D. 850 & Lieder** — издание 15 апреля 2003. EMI Classics / Warner Classics. Пианист Leif Ove Andsnes. Трек 10 — Wiedersehen D 855. Песни пилота: D 854, D 855.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten** — издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Проект «Schubert 200», том 2. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854, D 855 и др.
-
-- **Philippe Jaroussky — Schubert: Lieder** — запись февраль 2020, издание 1 ноября 2024. Erato / Warner Classics. Пианист Jérôme Ducros. Контратеноровое прочтение баритональной песни — редкий и нетипичный выбор регистра. Песни пилота: D 855.
-
-- **Markus Schäfer — Naxos Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2»** — издание 14 ноября 2007. Naxos. Пианист Ulrich Eisenlohr. Часть полного свода. Песни пилота: D 855.
-
-- **Benjamin Appl — Schubert (Wigmore Hall Live)** — запись 29 апреля 2016. Wigmore Hall Live. Пианист Graham Johnson. Концертная запись; тот же Джонсон и у Гёрне (выше). Песни пилота: D 855.
-
-- **Harriet Burns — Schubert Lieder: Love's Lasting Power** — сессия 8–10 февраля 2023, St Mary's, Хаддингтон; релиз 26 января 2023. Delphian Records. Пианист Ian Tindale. Рецензии: Gramophone, MusicWeb International. Современный рецитал молодой сопрано. Видео конкретно этого трека на YouTube не подтверждено. Песни пилота: D 855.
-
-### D 857/1 (Lied der Delphine)
-
-- **Arleen Augér — The Hyperion Schubert Edition, т. 9 «Schubert and the Theatre»** — запись октябрь 1989, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание январь 1991. Hyperion. Пианист Graham Johnson (ф-но + комментарии). Том тематически посвящён театральной музыке Шуберта; прямо соответствует происхождению D 857 (пьеса Lacrimas). Научный эталон издания. Песни пилота: D 857/1.
-
-- **Kathleen Battle — Schubert: Lieder** — издание 1 января 1988. Deutsche Grammophon. Пианист James Levine. 17 треков; Lied der Delphine — трек 16. Точная дата сессии не найдена. Песни пилота: D 857/1.
-
-- **Barbara Hendricks — Schubert: Lieder** — диск 2, ℗ 1993. EMI / Warner Classics. Пианист Radu Lupu. Лид der Delphine — трек 15 диска 2. Редкий случай дуэта с крупным пианистом-солистом. Песни пилота: D 857/1.
-
-- **Sibylla Rubens — Naxos Deutsche Schubert-Lied-Edition, т. 26 «Romantic Poets, Vol. 3»** — издание 12 апреля 2008. Naxos. Пианист Ulrich Eisenlohr. Часть полного свода. Песни пилота: D 857/1.
-
-- **Marlis Petersen — Schubert: Lieder & Vocal Quartets** — издание 2013. harmonia mundi. Пианист Christoph Berner. Сборный диск с несколькими солистами; Lied der Delphine — трек 4, соло Marlis Petersen. Песни пилота: D 857/1.
-
-### D 857/2 (Lied des Florio)
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder (Vol. 2)** — ℗ 1969. Deutsche Grammophon. Пианист Gerald Moore. Часть DG Sämtliche Lieder. Песни пилота: D 857/2.
-
-- **Richard Jackson — The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad»** — запись февраль 1996, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание сентябрь 1996. Hyperion. Пианист Graham Johnson. Реконструкция шубертиады 1826 года. Gramophone Editor's Choice. Песни пилота: D 800, D 857/2.
-
-- **Markus Schäfer — Naxos Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2»** — издание 27 ноября 2007. Naxos. Пианист Ulrich Eisenlohr. Часть полного свода. Песни пилота: D 855, D 857/2.
-
-### D 860 (An mein Herz)
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder (Vol. 2)** — ℗ 1969. Deutsche Grammophon. Пианист Gerald Moore. Часть DG Sämtliche Lieder, сессии 1966–1972. Песни пилота: D 860.
-
-- **Lucia Popp — Lieder (live, Зальцбург; Orfeo)** — live 10 августа 1983, Зальцбургский фестиваль; издание Orfeo, ℗ 2016. Orfeo. Пианист Irwin Gage. Концертная, а не студийная версия (отличается от EMI 1983 студийного рецитала). Песни пилота: D 860.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten** — издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Проект «Schubert 200», том 2. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854, D 860 и др.
-
-- **Anna Lucia Richter — Heimweh: Schubert Lieder** — издание 1 февраля 2019. Pentatone. Пианист Gerold Huber. Уже в реестре; теперь подтверждено включение D 860. Песни пилота: D 837, D 838, D 839, D 860.
-
-- **Florian Boesch — Florian Boesch & Malcolm Martineau: Schubert Lieder Recital** — издание 20 мая 2016. PM Classics. Пианист Malcolm Martineau. Новая находка для реестра; не входила ранее в albums.md. Песни пилота: D 805, D 806, D 860.
-
-- **Vesselina Kasarova — Lieder von Schubert, Brahms, Schumann** — издание 5 апреля 1999. RCA Red Seal / BMG. Пианист Friedrich Haider. Опера специалистка (Россини/Моцарт), не шубертианка по основному профилю. Правило скепсиса к современным. Песни пилота: D 860.
-
-- **Christoph Prégardien — Poetisches Tagebuch** — издание 9 октября 2015. Challenge Classics. Пианист Julius Drake. Поздний рецитал (после пика), один из ведущих Lieder-теноров. Песни пилота: D 842, D 860.
-
-- **Hanno Müller-Brachmann — Naxos Deutsche Schubert-Lied-Edition, т. 11 «North German Poets»** — издание 21 марта 2003. Naxos. Пианист Ulrich Eisenlohr. Часть полного свода. Новая находка для реестра. Песни пилота: D 860.
-
-### D 861 (Der liebliche Stern)
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии 1966–1972. Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 861.
-
-- **Felicity Lott — The Hyperion Schubert Edition, том 19 «Songs of Flowers & Nature»** — издание 1 ноября 1993. Hyperion. Пианист Graham Johnson. Научный эталон издания. Песни пилота: D 861.
-
-- **Carolyn Sampson — A Soprano's Schubertiade** — запись август 2017; издание BIS-2343. BIS. Пианист Joseph Middleton. Уже в реестре; теперь подтверждено включение D 861. Песни пилота: D 837, D 838, D 839, D 118, D 861.
-
-### D 808 (Gondelfahrer)
-
-- **Margaret Price — The Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne, Vol. 3»** — запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание октябрь 1992. Hyperion. Пианист Graham Johnson. Научный эталон издания. Песни пилота: D 808, D 828.
-
-- **Dietrich Fischer-Dieskau — Schubert: Lieder (Vol. 2)** — ℗ 1969, сессии 1966–1972. Deutsche Grammophon. Пианист Gerald Moore. Часть DG Sämtliche Lieder. Песни пилота: D 808.
-
-- **Anthony Rolfe Johnson — Hyperion «Souvenirs de Venise – Songs of Venice»** — ℗ 1987. Hyperion. Пианист Graham Johnson. Тематический альбом о венецианских песнях — естественный дом для Gondelfahrer на текст Мейрхофера. Песни пилота: D 808.
-
-- **Christoph Prégardien — Schubert: Lieder after Mayrhofer** — ℗ 2001. Teldec / Warner Classics. Пианист Andreas Staier (историческое фортепиано). Программа целиком на стихи Мейрхофера — концептуально самая точная привязка к Gondelfahrer. Песни пилота: D 808.
-
-- **Christopher Maltman — Decades - A Century of Song, volume 2** — ℗ 2016, релиз 19 мая 2016. Vivat Music Foundation. Пианист Malcolm Martineau. Антологический проект песен по десятилетиям. Песни пилота: D 808.
-
-### D 832 (Des Sängers Habe)
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии 1966–1972, сессия D 832 март 1969. Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 832.
-
-- **Richard Jackson — The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad»** — запись февраль 1996, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание сентябрь 1996. Hyperion. Пианист Graham Johnson. Реконструкция шубертиады 1826 года; Gramophone Editor's Choice, Classic CD «Song Record of the Year». Песни пилота: D 800, D 832.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten** — проект «Schubert 200», том 2; издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Диапазон песен 1824–1826 — весь пилотный раздел. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854, D 832 и др.
-
-### D 833 (Der blinde Knabe)
-
-- **Barbara Hendricks — Schubert: Lieder** — запись 25/28/29/30 ноября 1985, Salle Wagram, Париж. EMI / Warner Classics. Пианист Radu Lupu — редкий случай пианиста-солиста первого ряда в аккомпанементе. Включает Gretchen. Песни пилота: D 118, D 833, D 839.
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии март 1969. Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 833.
-
-- **Margaret Price — The Hyperion Schubert Edition, Vol. 15 «Schubert & the Nocturne»** — запись октябрь 1991, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание октябрь 1992. Hyperion. Пианист Graham Johnson. Научный эталон издания. Песни пилота: D 828, D 833.
-
-### D 834 (Im Walde)
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии 1966–1972. Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 834 и др.
-
-- **Matthias Goerne — Matthias Goerne Schubert Edition** — сессии 2008–2014, издание бокса 2016. harmonia mundi. Крупнейший сольный шубертовский свод последних десятилетий. Диапason d'Or по завершении. Песни пилота: D 834 и др.
-
-- **Christian Gerhaher — Abendbilder – Lieder von Franz Schubert** — запись 18–21 сентября 2005, Hochschule für Musik und Theater München; издание 2005. RCA Red Seal (Sony). Пианист Gerold Huber. Preis der deutschen Schallplattenkritik 2006. Песни пилота: D 799, D 834.
-
-- **Hanno Müller-Brachmann — Naxos Deutsche Schubert-Lied-Edition, Vol. 11 «Norddeutsche Dichter»** — запись 2001, издание 10 февраля 2003. Naxos. Пианист Ulrich Eisenlohr. Полный блок песен Шульце: Auf der Bruck D853a, An mein Herz D860, Im Walde D834, Über Wildemann D884; также Der Einsame D800 и Im Abendrot D799 — оба в пилотном разделе. Песни пилота: D 799, D 800, D 834, D 853, D 860, D 861, D 876, D 882, D 883, D 884.
-
-- **Äneas Humm — Libertas** — запись ~2024 (не подтверждено буклетом), издание 1 апреля 2025. Rondeau Production. Пианист Doriana Tchakarova. Программа: Beethoven, Schubert (Im Walde D834), Amy Beach, Joseph Marx — тематическая программа о свободе/страннике, не специализированный шубертовский рецитал. Песни пилота: D 834.
-
-- **Christoph Prégardien — Poetisches Tagebuch — The Schulze Settings and Other Favourite Songs** — запись 2014, издание 9 октября 2015 / 20 ноября 2015. Challenge Classics (CC72670). Пианист Julius Drake. Первая часть альбома — девять песен Шульце: Auf der Bruck D853, Der liebliche Stern D861, Im Walde D834, Um Mitternacht D862, Lebensmuth D883, Im Frühling D882, An mein Herz D860, Im Jänner 1817 D876, Über Wildemann D884. Единственный альбом, целиком посвящённый корпусу Шульце. Песни пилота: D 834, D 853, D 860, D 861, D 876, D 882, D 883, D 884, D 862.
-
-### D 846 (Normans Gesang)
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten** — проект «Schubert 200», том 2; издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Альбом посвящён песням 1824–1826 — весь пилотный раздел. Диapason d'or de l'année 2025, Bestenliste 2/2025 Preis der deutschen Schallplattenkritik. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854, D 843 и др.
-
-### D 851 (Das Heimweh)
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии 1966–1972, Ufa-Ton-Studio Berlin. Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 851 и др.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten** — проект «Schubert 200», том 2; издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Альбом посвящён песням 1824–1826. Диапason d'or de l'année 2025, Preis der deutschen Schallplattenkritik. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854 и др.
-
-- **Matthias Goerne — Matthias Goerne Schubert Edition** — сессии 2008–2014, издание бокса 2016. harmonia mundi. Крупнейший сольный шубертовский свод. Пианисты свода: Leonskaja, Eschenbach, Schneider, Deutsch и др. Песни пилота: D 851 и др.
-
-### D 862 (Um Mitternacht)
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии 1966–1972, в томе Vol. 1 (Platte 643 557). Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 862.
-
-- **Peter Schreier — The Hyperion Schubert Edition, Vol. 18 «Schubert & The Strophic Song»** — запись август 1992, St George's, Brandon Hill, United Kingdom; издание июнь 1993 (CDJ33018). Hyperion. Пианист Graham Johnson. Том посвящён строфической песне Шуберта — тематически прямое попадание в форму D 862. Комментарии Джонсона — научный эталон. Песни пилота: D 834, D 853, D 862, D 861, D 876, D 834, D 882, D 883, D 884, D 860.
-
-- **Samuel Hasselhorn — Schubert: Licht und Schatten** — проект «Schubert 200», том 2; издание 28 февраля 2025. harmonia mundi. Пианист Ammiel Bushakevitz. Альбом посвящён песням 1824–1826. Диapason d'or de l'année 2025, Bestenliste 2/2025 Preis der deutschen Schallplattenkritik. Песни пилота: D 828, D 799, D 800, D 807, D 806, D 846, D 851, D 852, D 854, D 862 и др.
-
-- **Hanno Müller-Brachmann — Naxos Deutsche Schubert-Lied-Edition, т. 11 «North German Poets»** — издание 21 марта 2003. Naxos. Пианист Ulrich Eisenlohr. Тракклист включает D 862 и другие песни пилота 1824–1825. Полный немецкоязычный свод. Песни пилота: D 799, D 800, D 834, D 853, D 860, D 861, D 862, D 876, D 882, D 883, D 884.
-
-- **Christoph Prégardien — Poetisches Tagebuch — The Schulze Settings and Other Favourite Songs** — запись 2014, издание 9 октября 2015. Challenge Classics (CC72670). Пианист Julius Drake. Первая часть альбома — девять песен Шульце, включая D 862. Единственный альбом, целиком посвящённый корпусу Шульце. Песни пилота: D 834, D 853, D 860, D 861, D 876, D 882, D 883, D 884, D 862.
-
-### D 856 (Abendlied für die Entfernte)
-
-- **Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder** — сессии 1966–1972. Deutsche Grammophon. Пианист Gerald Moore. Базовая точка отсчёта для мужских песен. Песни пилота: D 856.
-
-- **Christian Gerhaher — Nachtviolen: Schubert Lieder** — запись 2014, издание февраль 2014. Sony Classical (RCA Red Seal). Пианист Gerold Huber. Gramophone Award 2015. Заглавие отсылает к вечерней тематике песни. Песни пилота: D 806, D 856.
-
-- **Anthony Rolfe Johnson — The Hyperion Schubert Edition, Vol. 6 — Schubert & the Nocturne, Vol. 1** — запись сентябрь 1989, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; издание декабрь 1990. Hyperion. Пианист Graham Johnson. Тематический том — все колыбельные и баркаролы Шуберта. Песни пилота: D 806, D 856.
-
-- **Markus Schäfer — Naxos Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2»** — Naxos. Пианист Ulrich Eisenlohr. Часть полного свода. Год записи не установлен. Песни пилота: D 856.
-
-- **Jasper Schweppe — Schubert: Lieder, Vol. 7: Op. 87–95** — Пианист Riko Fukuda (фортепиано/хаммерклавир). Нишевый проект полного издания по опусам на историческом инструменте. Год не установлен. Песни пилота: D 856.
-
-- **Georg Poplutz — Schubert, Beethoven & Schumann: Lieder an die Entfernte** — запись и издание 2017. Spektral (дистрибуция The Orchard Enterprises). Пианист Hilko Dumno. Тематическая программа вокруг мотива «удалённой возлюбленной» у трёх композиторов. Песни пилота: D 856.

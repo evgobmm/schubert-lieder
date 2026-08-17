@@ -1,0 +1,453 @@
+{
+ "d": "162",
+ "title": "Nähe des Geliebten",
+ "research_note": "Бюджет WebSearch сессии был исчерпан до начала работы (200/200), поэтому сравнительные обзоры искались прямой выборкой по известным адресам (klassik-prisma.de, hyperion-records.co.uk, naxos.com). Дискографический костяк собран по: дискографии Майкла Грея (classical-discography.org, поиск POST search2.php + modalcontent.php), Discogs API (поиск по треку artist+track, затем разбор релизов), MusicBrainz (каркас mb.json), буклетным примечаниям переизданий. Даты YouTube-загрузок как источник НЕ использовались; метаданные Topic использовались только для опознания альбома, не для датировки.",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1958",
+   "year_source": "Michael Gray, A Classical Discography (classical-discography.org, запись id 199091): Schubert, Nähe des Geliebten D162 — 1958 May 23–24, Berlin-Zehlendorf, Evangelisches Gemeindehaus, label Electrola, № E90921, artists: Dietrich Fischer-Dieskau, baritone; Gerald Moore, piano. Совпадает с карточкой реестра albums.md («Schubert: Lieder Vol. 4 — 23–25 мая 1958, Берлин; изд. 1958, EMI, продюсер Christfried Bickenbach»).",
+   "album": "Schubert: Lieder Vol. 4 (Electrola E90921)",
+   "label": "EMI Electrola / Warner Classics",
+   "age_voice": "33 года (р. 28.05.1925). По дайджесту певцов — самая сердцевина пика (~1951–1972); голос свежий, лёгкий верх, ещё без сухости позднего периода.",
+   "reputation": "Ранняя из двух студийных версий связки Фишер-Дискау/Мур (по реестру albums.md). Отдельной критики именно на этот трек в доступных источниках не найдено; репутация записи опирается на статус связки и на возраст певца. Фан-загрузка с этой записью («incontrario motu», 27,6 тыс. просмотров) — самая просматриваемая среди всех роликов песни в generic-выдаче.",
+   "sources": [
+    "https://www.classical-discography.org/modalcontent.php?id=199091",
+    "planning/youtube/albums.md — карточка «Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 4»",
+    "planning/youtube/data/d162-nahe-des-geliebten.mb.json — Fischer-Dieskau/Moore, 206–207 s"
+   ],
+   "youtube": [
+    {"videoId": "sOSF0_PPInQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Lieder Vol. 4", "duration_s": 206},
+    {"videoId": "ytqO9Chq8M4", "channel": "incontrario motu", "official": false, "oembed_ok": true, "duration_s": 207}
+   ],
+   "note": "Приоритет №2 по правилам. Topic-загрузка помечена альбомом «Schubert: Lieder Vol. 4» — это именно EMI-версия 1958, а не DG-свод."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Günther Weissenborn",
+   "rec_year": "1954",
+   "year_source": "Discogs, релиз Audite 95.583 «Dietrich Fischer-Dieskau — Schubert: Lieder Collection» (серия «WDR — The Cologne Broadcasts», изд. 2007), примечание релиза: «Recorded cologne, 1954»; трек 9 — Nähe des Geliebten D 162, 3:46. Пианист — по MusicBrainz (Fischer-Dieskau / Günther Weißenborn, 231 s).",
+   "album": "Schubert: Lieder Collection (WDR — The Cologne Broadcasts)",
+   "label": "Audite 95.583 (оригинал — радиозапись WDR Köln)",
+   "age_voice": "29 лет (р. 28.05.1925) — ранний пик; самое молодое сохранившееся прочтение песни у Фишер-Дискау.",
+   "reputation": "Радиодокумент WDR; серия Audite «The Cologne Broadcasts» ремастирована Ludger Böckenhoff. Критических отзывов именно на этот номер не найдено. Темп заметно медленнее прочих его версий (3:46 против 3:26).",
+   "sources": [
+    "https://api.discogs.com/releases/16319307 (Audite 95.583, notes: «Recorded cologne, 1954»)",
+    "planning/youtube/data/d162-nahe-des-geliebten.mb.json — Fischer-Dieskau / Günther Weißenborn, 231 s"
+   ],
+   "youtube": [
+    {"videoId": "ftn4wRniKYA", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Lieder Collection", "duration_s": 232},
+    {"videoId": "zRLKNNCpR1g", "channel": "incontrario motu", "official": false, "oembed_ok": true, "duration_s": 232}
+   ],
+   "note": "Год записи (1954) взят из примечания официального переиздания Audite, не из метаданных загрузки."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (трек ℗ 1970)",
+   "year_source": "Реестр albums.md: «Schubert: Sämtliche Lieder (21 CD) — сессии 1966–1972, Ufa-Ton-Studio Berlin; эдиции 1969, 1970, 1972, DG». Метка ℗ 1970 у Topic-загрузок (album «Schubert: Lieder (Vol. 1)» и «Schubert: Goethe Lieder») указывает на эдицию 1970; точная дата сессии именно этого номера не установлена.",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD) — переиздания «Lieder Vol. 1», «Goethe-Lieder»",
+   "label": "Deutsche Grammophon",
+   "age_voice": "41–47 лет; к концу свода тон, по дайджесту, суше, чем в 1950-е, но это ещё не поздний период.",
+   "reputation": "Часть полного свода мужских песен Шуберта — базовая точка отсчёта для любой мужской песни корпуса (реестр albums.md). Отдельной критики трека не найдено.",
+   "sources": [
+    "planning/youtube/albums.md — карточка «Dietrich Fischer-Dieskau — Schubert: Sämtliche Lieder (21 CD)»",
+    "yt-dlp метаданные Topic: -Qv8BGENWCw (album «Schubert: Lieder (Vol. 1)», ℗1970), _oUqbX7VxrM (album «Schubert: Goethe Lieder», ℗1970)"
+   ],
+   "youtube": [
+    {"videoId": "-Qv8BGENWCw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 206},
+    {"videoId": "_oUqbX7VxrM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 207},
+    {"videoId": "PTHNhHFx0bw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": null, "duration_s": 207}
+   ],
+   "note": "По правилу «при прочих равных — более ранняя запись» уступает версии 1958 и радиозаписи 1954."
+  },
+  {
+   "singer": "Elisabeth Schwarzkopf",
+   "pianist": "Edwin Fischer",
+   "rec_year": "1952",
+   "year_source": "Michael Gray (classical-discography.org, id 58270): Nähe des Geliebten D162 — 1952 October 5, London, EMI Studio No. 1A, Abbey Road, label Columbia UK, № 33CX1040, artists: Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano. Подтверждение: буклет Naxos Historical 8.111287 (Discogs 25991449) — «Tracks 1–12 recorded 4th–7th October 1952 in EMI Abbey Road Studio IA», трек 7 — Nähe des Geliebten D162, 3:16.",
+   "album": "Schubert: Lieder (Schwarzkopf / Edwin Fischer), Columbia 33CX 1040; переизд. Naxos Historical 8.111287, Warner «Song Recital»",
+   "label": "Columbia / EMI / Warner Classics (переизд. Naxos Historical)",
+   "age_voice": "36 лет (р. 09.12.1915) — пик по дайджесту (1948–1964); голос в лучшей форме, до поздней облегчённости 1970-х.",
+   "reputation": "Эталонный лидер-рецитал: за роялем великий пианист Эдвин Фишер; по реестру albums.md — опорная запись, входит в Warner-бокс «Complete Recitals 1952–1974». Тот же альбом дал со-победителя слепого теста 2020 по Gretchen am Spinnrade (дайджест певцов).",
+   "sources": [
+    "https://www.classical-discography.org/modalcontent.php?id=58270",
+    "https://api.discogs.com/releases/25991449 (Naxos Historical 8.111287, notes о сессиях 4–7.10.1952)",
+    "planning/youtube/albums.md — карточка «Elisabeth Schwarzkopf — Schubert: Lieder (с Эдвином Фишером)»"
+   ],
+   "youtube": [
+    {"videoId": "Oa_Z9EzRLWo", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Song Recital (℗1953)", "duration_s": 197},
+    {"videoId": "QYgWd35gtr8", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Lieder (Mono Version), ℗1953", "duration_s": 197},
+    {"videoId": "oJUwoDtKRJ0", "channel": "Edwin Fischer - Topic", "official": true, "oembed_ok": null, "album_tag": "Vintage Piano Classical Greats (серый агрегатор)", "duration_s": 199}
+   ],
+   "note": "Приоритет №3 по правилам (топ-1 среди женщин). Загрузку с канала «Edwin Fischer - Topic» брать не следует — это агрегаторское переиздание; предпочтительны Warner-метки «Schubert: Song Recital» / «Schubert: Lieder (Mono Version)»."
+  },
+  {
+   "singer": "Elisabeth Schwarzkopf",
+   "pianist": "не установлен (вероятно Gerald Moore — зальцбургские лайвы)",
+   "rec_year": "1953–1963?",
+   "year_source": "Год не установлен. Topic-загрузка помечена альбомом «Schubert & Wolf: Lieder (Live)»; реестр (albums.md, дайджест) знает орфеевский лайв-сборник Orfeo C826103D «Elisabeth Schwarzkopf sings Lieder by Schubert & Wolf» — Зальцбург, лайв, 1953–1963, пианист Gerald Moore. Привязка конкретного номера к дате не подтверждена дискографически.",
+   "album": "Schubert & Wolf: Lieder (Live) — предположительно Orfeo d'Or C826103D (зальцбургские лайвы)",
+   "label": "Orfeo d'Or",
+   "age_voice": "37–47 лет, если атрибуция верна — в пределах пика.",
+   "reputation": "Лайв; отдельной критики не найдено. 231 с — заметно медленнее студийной версии 1952.",
+   "sources": [
+    "yt-dlp метаданные: 790GGgD57mg, album «Schubert & Wolf: Lieder (Live)»",
+    "planning/research/singers-digest.md — зальцбургские лайвы с Moore с 1957 (Orfeo C826103)"
+   ],
+   "youtube": [
+    {"videoId": "790GGgD57mg", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 231}
+   ],
+   "note": "Кандидат второго ряда: при наличии студийной версии 1952 лайв не нужен; год всё равно потребовал бы пометки со знаком вопроса."
+  },
+  {
+   "singer": "Elisabeth Schumann",
+   "pianist": "Gerald Moore",
+   "rec_year": "1937 (ок. 5–15 марта)",
+   "year_source": "Discogs, 78 об/мин HMV DB 3184 (релиз 17687890): матрицы 2EA 4849 / 2EA 4850, сторона A — Nähe des Geliebten. Датировка по соседним матрицам в дискографии Майкла Грея: 2EA 4840 = 5 марта 1937 (Edwin Fischer), 2EA 4855 = 15 марта 1937 (Heifetz); 2EA 6022 = 29 ноября 1937, 2EA 6678 = 2 июля 1938 — то есть 2EA 4849 лежит между 5 и 15 марта 1937. Косвенное подтверждение: Warner-переиздание «Icon: Elisabeth Schumann» помечает трек ℗1937. Точная дата сессии в дискографии Грея отсутствует.",
+   "album": "HMV DB 3184 (78); переизд. Naxos Historical 8.110731 «Schubert Lieder (1927–1945)», трек 21; Warner «Icon: Elisabeth Schumann»",
+   "label": "HMV / EMI; переизд. Naxos Historical, Warner",
+   "age_voice": "48 лет (р. 13.06.1888). По дайджесту пик — 1920-е — середина 1930-х: голос уже не первой свежести, но стиль эталонный; это ещё до заметно постаревших записей 1945–49.",
+   "reputation": "Приоритетный исполнитель по правилам. Пианист — Джеральд Мур (подтверждено этикеткой 78 и каталогом Naxos 8.110731). Критики именно на этот трек не найдено. Темп быстрый (2:38–2:40) — типичная для неё лёгкая, «песенная» подача.",
+   "sources": [
+    "https://api.discogs.com/releases/17687890 (HMV DB 3184, матрицы 2EA 4849/4850)",
+    "https://www.classical-discography.org/ — записи 2EA 4840 (05.03.1937), 2EA 4855 (15.03.1937), 2EA 6022 (29.11.1937), 2EA 6678 (02.07.1938)",
+    "https://www.naxos.com/CatalogueDetail/?id=8.110731 — трек 21, Elisabeth Schumann (soprano), Gerald Moore (piano), 2:40"
+   ],
+   "youtube": [
+    {"videoId": "85UiHs5hysw", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "album_tag": "Icon: Elisabeth Schumann (℗1937)", "duration_s": 160},
+    {"videoId": "8_hQWGyd4KQ", "channel": "Elisabeth Schumann & Gerald Moore - Topic", "official": false, "oembed_ok": null, "album_tag": "Opera Classics (агрегатор)", "duration_s": 160}
+   ],
+   "note": "Приоритетный исполнитель (список правил, п. 4). Год допустимо ставить как «1937»; при желании точности — «1937 (март)»."
+  },
+  {
+   "singer": "Karl Erb",
+   "pianist": "не указан",
+   "rec_year": "1912 (июль)",
+   "year_source": "Michael Gray (classical-discography.org, id 47856): Nähe des Geliebten D162 — 1912 July, label Odéon, № O-6444, матрица xxB 5741, artists: Karl Erb, tenor.",
+   "album": "Odéon O-6444 (78)",
+   "label": "Odéon",
+   "age_voice": "34–35 лет (р. 1877). Это ранняя запись — в пределах его вокального пика (~1905–1930), в отличие от шубертовских сторон 1935–51, сделанных в 58–74 года (дайджест).",
+   "reputation": "Историческая ценность: самая ранняя из документированных записей песни. Качество звука 1912 года и отсутствие проверенной YouTube-загрузки делают кандидата непригодным для плеера.",
+   "sources": ["https://www.classical-discography.org/modalcontent.php?id=47856"],
+   "youtube": [],
+   "note": "На YouTube не найдено. В топ-5 не проходит по доступности и звуку."
+  },
+  {
+   "singer": "Erika Köth",
+   "pianist": "Gerald Moore",
+   "rec_year": "1963",
+   "year_source": "Michael Gray (classical-discography.org, id 177757): Nähe des Geliebten D162 — 1963 May 12–14, Berlin, Meistersaal, label Ariola-Eurodisc, № 72120, artists: Erika Köth, soprano; Gerald Moore, piano.",
+   "album": "Erika Köth singt Lieder von Mozart, Schubert, Schumann, Brahms… (Eurodisc 72120)",
+   "label": "Ariola-Eurodisc",
+   "age_voice": "35 лет (р. 15.09.1927) — вокальный расцвет колоратурного сопрано.",
+   "reputation": "В дайджесте фонда певцов Кёт отсутствует; лидерская репутация скромнее оперной. Ценность связки — Джеральд Мур за роялем. Критики не найдено; официальной загрузки не найдено.",
+   "sources": [
+    "https://www.classical-discography.org/modalcontent.php?id=177757",
+    "https://api.discogs.com/database/search?artist=Günther+Weissenborn&track=Nähe+des+Geliebten (релиз 13680772, Eurodisc)"
+   ],
+   "youtube": [],
+   "note": "Отдельная загрузка этого номера на YouTube не найдена."
+  },
+  {
+   "singer": "Rita Streich",
+   "pianist": "Erik Werba",
+   "rec_year": "1960",
+   "year_source": "Метка ℗1960 на официальном переиздании (Topic, album «Rita Streich singt Lieder von Franz Schubert (Mono Version)», ℗1960; «Rita Streich — The Viennese Nightingale», ℗1960). LP-издание: Deutsche Grammophon LPM 18585, Discogs 19847830, «Printed in Germany 4/62», сторона A трек 5 — Nähe des Geliebten; кредиты: Erik Werba — фортепиано, Heinrich Geuser — кларнет (для Hirt auf dem Felsen). Дайджест певцов также относит альбом к 1960. Точная дата сессии не установлена.",
+   "album": "Rita Streich singt Lieder von Franz Schubert (DG LPM 18585)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "39 лет (р. 18.12.1920) — по дайджесту пик 1950-х — начала 1960-х, то есть верхняя граница расцвета.",
+   "reputation": "Один из немногих полноценных шубертовских рециталов «венского соловья»; в дайджесте отмечен как основной её Schubert-альбом. Критики именно на этот номер не найдено. Темп очень медленный (3:52–3:55) — самая протяжённая из старых версий.",
+   "sources": [
+    "https://api.discogs.com/releases/19847830 (DG LPM 18585, «Printed in Germany 4/62», Erik Werba — piano)",
+    "planning/research/singers-digest.md — Streich, DG 1960, Werba",
+    "yt-dlp метаданные: irwRUeZm_Iw (℗1960), rzd82sLm1YY (℗1960)"
+   ],
+   "youtube": [
+    {"videoId": "irwRUeZm_Iw", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true, "duration_s": 232},
+    {"videoId": "j0RUBmRKLwo", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": null, "duration_s": 235},
+    {"videoId": "rzd82sLm1YY", "channel": "Release - Topic", "official": true, "oembed_ok": null, "duration_s": 235}
+   ],
+   "note": "Разночтение изданий: ℗1960 против отпечатанного LP 4/62 — год в плеере логично ставить 1960 (метка правообладателя)."
+  },
+  {
+   "singer": "Peter Schreier",
+   "pianist": "Walter Olbertz",
+   "rec_year": "1970",
+   "year_source": "Michael Gray (classical-discography.org, id 79990): Nähe des Geliebten D162 — 1970 December, Dresden, Lukaskirche, label Eterna, № 827568. LP «Lieder nach Goethe» (Eterna 8 26 329, Discogs 34032573, изд. 1974): сторона A трек 3 — Nähe des Geliebten, 3:00; Walter Olbertz — фортепиано, Peter Schreier — тенор.",
+   "album": "Franz Schubert: Lieder nach Goethe (Eterna 827568 / 8 26 329)",
+   "label": "VEB Deutsche Schallplatten Eterna (переизд. Eurodisc «Lied-Edition: Goethe-Lieder»)",
+   "age_voice": "35 лет (р. 29.07.1935) — сердцевина пика (~1965–1990); голос свежий, до поздней сухости.",
+   "reputation": "Гётевский цикл Шрайера/Ольбертца — один из опорных восточногерманских шубертовских комплектов (дайджест: Eterna-циклы 1970-х с Olbertz). Критики именно на этот номер не найдено; официальной загрузки на YouTube не найдено.",
+   "sources": [
+    "https://www.classical-discography.org/modalcontent.php?id=79990",
+    "https://api.discogs.com/releases/34032573 (Eterna 8 26 329, 1974)"
+   ],
+   "youtube": [],
+   "note": "Дискографически ценный кандидат, но на YouTube отдельного ролика не найдено — в плеер поставить нечего."
+  },
+  {
+   "singer": "Elly Ameling",
+   "pianist": "Dalton Baldwin",
+   "rec_year": "1972",
+   "year_source": "Michael Gray (classical-discography.org, id 178842): Nähe des Geliebten D162 — 1972 June 20–21, label Philips, № 6500 515, artists: Elly Ameling, soprano; Dalton Baldwin, piano. Подтверждение состава: Discogs 5810274 (Philips 6500 515, «Goethe-Lieder», 1973) — Ameling поёт A1–A8, включая A6 «Nähe des Geliebten» op. 5 № 2, D 162, 3:15; Baldwin — фортепиано на A1–A8 (сторона B — Prey/Engel).",
+   "album": "Schubert: Goethe-Lieder (Philips 6500 515) — совместный диск с Германом Праем",
+   "label": "Philips / Universal",
+   "age_voice": "39 лет (р. 08.02.1933) — середина пика (~1965–1985); по дайджесту — самая записываемая шубертианка поколения.",
+   "reputation": "Связка Амелинг/Болдуин — опорная для женского Шуберта 1970-х (реестр albums.md). Критики именно на этот номер не найдено.",
+   "sources": [
+    "https://www.classical-discography.org/modalcontent.php?id=178842",
+    "https://api.discogs.com/releases/5810274 (Philips 6500 515, кредиты по сторонам)",
+    "planning/research/singers-digest.md — Ameling, серия Philips с Baldwin"
+   ],
+   "youtube": [
+    {"videoId": "ubAUBrOLa1I", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Goethe-Lieder (℗1973)", "duration_s": 201}
+   ],
+   "note": "Год записи (1972) документирован Греем; ℗ на переиздании — 1973. По правилу приоритет у года сессии."
+  },
+  {
+   "singer": "Brigitte Fassbaender",
+   "pianist": "Erik Werba",
+   "rec_year": "1974",
+   "year_source": "Discogs 14320262 — «Lieder von Franz Schubert», EMI Electrola 1 C 065-28 969, ℗1974; сторона A трек 4 — Nähe des Geliebten D. 162; Erik Werba — фортепиано, продюсер Christfried Bickenbach. Реестр planning/youtube/albums/female-recitalists.md уточняет сессии: 16–18.05.1974, Мюнхен, Bürgerbräukeller [Gray; Discogs].",
+   "album": "Lieder von Franz Schubert (EMI Electrola 1C 065-28 969); переизд. «Lieder Vol. 2 (Schubert & Wolf)»",
+   "label": "EMI Electrola / Warner Classics",
+   "age_voice": "34 года (р. 03.07.1939) — перед началом пика по дайджесту (~1975–1992): голос молодой, плотный, без поздней жёсткости.",
+   "reputation": "Альбом уже в реестре проекта (по D 800). Критики именно на этот номер не найдено. Самая быстрая из зрелых версий (2:59) — контраст к медленным прочтениям Штрайх и Фишер-Дискау/Вайссенборна.",
+   "sources": [
+    "https://api.discogs.com/releases/14320262",
+    "planning/youtube/albums/female-recitalists.md — карточка Fassbaender (EMI Electrola, зап. 16–18.05.1974)"
+   ],
+   "youtube": [
+    {"videoId": "cF9EZaF_iDk", "channel": "Brigitte Fassbaender - Topic", "official": true, "oembed_ok": true, "album_tag": "Lieder Vol.2 (Schubert & Wolf)", "duration_s": 179}
+   ],
+   "note": "Один из сильнейших «старых» женских кандидатов после Шварцкопф."
+  },
+  {
+   "singer": "Janet Baker",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987",
+   "year_source": "hyperion-records.co.uk, страница CDJ33001: «The Hyperion Schubert Edition, Vol. 1 — Goethe & Schiller Settings», Dame Janet Baker (mezzo-soprano), Graham Johnson (piano), запись — февраль 1987, Elstree; издание — декабрь 1987. Наличие трека: Discogs 33580980 (Hyperion KJ33001), сторона A трек 4 — «Nähe des Geliebten D162».",
+   "album": "The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001)",
+   "label": "Hyperion / Universal",
+   "age_voice": "53 года (р. 21.08.1933). По дайджесту пик ~1965–1982 — то есть запись сделана на исходе пика, уже после ухода со сцены оперы (1982); тем не менее пресса того года хвалила именно вокальную форму.",
+   "reputation": "Пресса по странице Hyperion: The Penguin Guide — «Dame Janet is in glorious voice»; The Guardian — «One of the loveliest records even Dame Janet has made»; The Times — «A generous and revelatory recital of Goethe and Schiller settings. Janet Baker breaks the champagne bottle over one of the most important recording projects of the half century». Издание Джонсона — научный эталон (реестр albums.md).",
+   "sources": [
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001",
+    "https://api.discogs.com/releases/33580980"
+   ],
+   "youtube": [
+    {"videoId": "ynE3Zlk3PfU", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Hyperion Song Edition 1 (℗1987)", "duration_s": 142}
+   ],
+   "note": "Самая быстрая версия в пуле (2:22) — трактовка Джонсона как лёгкой, «прозрачной» песни; это отличает её от протяжённых прочтений."
+  },
+  {
+   "singer": "Kathleen Battle",
+   "pianist": "James Levine",
+   "rec_year": "1988 (издание; дата сессии не установлена)",
+   "year_source": "Discogs 11114512 — «Schubert · Lieder», Deutsche Grammophon 419 237-2, изд. 1988; трек 9 — Nähe des Geliebten D162, 3:13. Реестр albums.md: «Kathleen Battle — Schubert: Lieder, издание 1 января 1988, DG, пианист James Levine; точная дата сессии не найдена».",
+   "album": "Schubert: Lieder (DG 419 237-2); переизд. Eloquence «Nähe des Geliebten — Ausgewählte Lieder» (2009)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "около 39–40 лет (р. 13.08.1948) — вокальный расцвет.",
+   "reputation": "Показательно, что DG-переиздание 2009 (Eloquence) названо именно по этой песне — лейбл считал её визитной карточкой диска. В дайджесте фонда певцов Батл отсутствует; шубертовская репутация уступает уровню приоритетных мастеров, а пресса о её лидерских дисках в доступных источниках не найдена — по правилу о скепсисе к пиару оценку завышать не следует.",
+   "sources": [
+    "https://api.discogs.com/releases/11114512",
+    "https://api.discogs.com/database/search?artist=Kathleen+Battle&track=Nähe+des+Geliebten (релиз 22797518 — Eloquence «Nähe Des Geliebten», 2009)",
+    "planning/youtube/albums.md — карточка «Kathleen Battle — Schubert: Lieder»"
+   ],
+   "youtube": [
+    {"videoId": "lVVzqKcNgvY", "channel": "Kathleen Battle - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Lieder (℗1988)", "duration_s": 200}
+   ],
+   "note": "Год — по изданию (сессия не документирована), что допускается правилами."
+  },
+  {
+   "singer": "Elisabeth Söderström",
+   "pianist": "Paul Badura-Skoda",
+   "rec_year": "1991? (метка ℗ на официальном переиздании; дискографического подтверждения не найдено)",
+   "year_source": "Только метка ℗1991 на официальной загрузке (Topic, album «Schubert: Goethe Lieder», artist «Elisabeth Söderström, Paul Badura-Skoda»). В дискографии Грея и в Discogs по треку эта запись не найдена — год НЕ подтверждён дискографически.",
+   "album": "Schubert: Goethe Lieder (Söderström / Badura-Skoda)",
+   "label": "не установлен",
+   "age_voice": "около 63–64 лет, если ℗-метка близка к дате сессии (р. 07.05.1927) — заметно за пиком.",
+   "reputation": "Певицы нет в дайджесте фонда; критики не найдено. Ценность — Пауль Бадура-Шкода за роялем.",
+   "sources": ["yt-dlp метаданные: 6D-kDnbeYQc, album «Schubert: Goethe Lieder», ℗1991"],
+   "youtube": [
+    {"videoId": "6D-kDnbeYQc", "channel": "Elisabeth Söderström - Topic", "official": true, "oembed_ok": true, "duration_s": 184}
+   ],
+   "note": "Кандидат второго ряда: возраст певицы и неподтверждённый год."
+  },
+  {
+   "singer": "Barbara Bonney",
+   "pianist": "Geoffrey Parsons",
+   "rec_year": "1994",
+   "year_source": "Discogs 16032161 — Teldec 4509-90873-2, примечание релиза: «Recorded at Teldec Studio, Berlin, in April 1994»; трек «Nähe des Geliebten D 162 op. 5,2». Совпадает с карточкой реестра albums.md (запись апрель 1994, Teldec Studio Berlin, пианист Geoffrey Parsons).",
+   "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)",
+   "label": "Teldec / Warner Classics",
+   "age_voice": "38 лет (р. 14.04.1956) — пик (1990-е — начало 2000-х).",
+   "reputation": "Диск — один из самых слушаемых официальных шубертовских релизов на YouTube (по реестру: Ave Maria с этого диска >9 млн). Критики именно на этот номер не найдено; по правилу о скепсисе к прессе о современных исполнителях популярность не приравнивается к художественному первенству.",
+   "sources": [
+    "https://api.discogs.com/releases/16032161",
+    "planning/youtube/albums.md — карточка «Barbara Bonney — Teldec…»"
+   ],
+   "youtube": [
+    {"videoId": "Uc5ldfXaQhI", "channel": "Barbara Bonney - Topic", "official": true, "oembed_ok": true, "duration_s": 223}
+   ],
+   "note": "Самая просматриваемая официальная загрузка песни (26,6 тыс.) — сильный кандидат на «современный» слот 1990+."
+  },
+  {
+   "singer": "Christoph Prégardien",
+   "pianist": "Andreas Staier (хаммерклавир)",
+   "rec_year": "1994",
+   "year_source": "Discogs 9124690 — Deutsche Harmonia Mundi 05472 77342 2 «Songs to Poems by Johann Wolfgang Goethe», примечание: «Recorded: 10-13 October 1994, Studio Stollberger Str., WDR Köln»; инструмент — копия хаммерклавира по Johann Fritz, Вена ок. 1815 (Christopher Clarke, Париж, 1981); трек 10 — Nähe des Geliebten, 3:21.",
+   "album": "Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2)",
+   "label": "Deutsche Harmonia Mundi / BMG",
+   "age_voice": "38 лет (р. 18.01.1956) — начало пика (~1990–2012).",
+   "reputation": "Один из ведущих Lieder-теноров поколения (дайджест). Периодный инструмент даёт другую звуковую эстетику. Критики именно на этот номер не найдено.",
+   "sources": [
+    "https://api.discogs.com/releases/9124690",
+    "planning/research/singers-digest.md — Prégardien"
+   ],
+   "youtube": [
+    {"videoId": "Qvb7Vhd_HGo", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Songs to Poems by Goethe (℗1995)", "duration_s": 202}
+   ],
+   "note": "Сильнейший мужской «современный» кандидат вне Фишер-Дискау."
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "Andreas Haefliger",
+   "rec_year": "1996",
+   "year_source": "Discogs 13052206 — Decca 452 917-2 «Schubert Lieder — Goethe», примечание буклета: «Recording location: Reitstadel, Neumarkt, Germany, May 1996»; ℗1997; трек 3 — Nähe des Geliebten, D 162, 3:30.",
+   "album": "Schubert: Goethe-Lieder (Decca 452 917-2)",
+   "label": "Decca",
+   "age_voice": "29 лет (р. 31.03.1967) — раннее начало карьеры, до основного пика (~1997–2015); голос молодой и свежий.",
+   "reputation": "Гёрне — самый записываемый Schubert-баритон поколения (дайджест), но данный ранний диск не входит в его 12-томный свод harmonia mundi. Критики именно на этот номер не найдено; по правилу о скепсисе к современному пиару преимущества перед Фишер-Дискау не предполагается.",
+   "sources": [
+    "https://api.discogs.com/releases/13052206",
+    "planning/research/singers-digest.md — Goerne"
+   ],
+   "youtube": [
+    {"videoId": "jMjhz11ToMg", "channel": "Matthias Goerne (Topic-аудио)", "official": true, "oembed_ok": true, "album_tag": "Schubert: Goethe Lieder (℗1997)", "duration_s": 213}
+   ],
+   "note": "MusicBrainz фиксирует и вторую его запись — с Eric Schneider (194 с), из свода harmonia mundi; отдельного официального ролика для неё не опознано."
+  },
+  {
+   "singer": "Christine Schäfer",
+   "pianist": "Irwin Gage",
+   "rec_year": "1997? (метка ℗ на официальной загрузке; дискографически не подтверждено)",
+   "year_source": "Topic-загрузка помечена альбомом «Schubert: Lieder», ℗1997. MusicBrainz фиксирует состав «Christine Schäfer, Irwin Gage», вторая редакция песни (D 162b), 214 с. В Discogs поиск по треку для Christine Schäfer даёт 0 релизов — год не подтверждён.",
+   "album": "Schubert: Lieder (Schäfer / Gage)",
+   "label": "не установлен",
+   "age_voice": "около 32 лет (р. 03.03.1965), если ℗-метка близка к сессии — начало пика (~1995–2010).",
+   "reputation": "Дайджест отмечает её Winterreise (Onyx 2006) как веху женских прочтений; шубертовский рецитал с Гейджем в дайджесте не значится. Критики не найдено.",
+   "sources": [
+    "yt-dlp метаданные: zwmTKgR5Zp4, album «Schubert: Lieder», ℗1997",
+    "planning/youtube/data/d162-nahe-des-geliebten.mb.json — Christine Schäfer / Irwin Gage, D 162b, 214 s"
+   ],
+   "youtube": [
+    {"videoId": "zwmTKgR5Zp4", "channel": "Christine Schäfer - Topic", "official": true, "oembed_ok": true, "duration_s": 215}
+   ],
+   "note": "Однофамильцы в корпусе: различать как «C. Schäfer» и «M. Schäfer» (правило о инициалах)."
+  },
+  {
+   "singer": "Ruth Ziesak",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2003 (издание; дата сессии не установлена)",
+   "year_source": "naxos.com, каталог 8.554666 «SCHUBERT, F.: Lied Edition 13 — Goethe, Vol. 2», релиз — май 2003; трек 3 — Nähe des Geliebten D. 162, Ziesak / Eisenlohr, 3:21. Дата сессии на странице не указана.",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 13 «Goethe, Vol. 2» (8.554666)",
+   "label": "Naxos",
+   "age_voice": "около 39–40 лет (р. 1963) — зрелая форма.",
+   "reputation": "Том полного научного издания Naxos (реестр albums.md; дайджест отмечает похвалу klassik-prisma этому тому по Gretchen am Spinnrade). Отдельной критики номера не найдено.",
+   "sources": [
+    "https://www.naxos.com/CatalogueDetail/?id=8.554666",
+    "planning/research/singers-digest.md — Ziesak, Naxos DSLE т. 13"
+   ],
+   "youtube": [
+    {"videoId": "JB7PuoK3L8A", "channel": "Ruth Ziesak - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert - 50 of the Best (сборник Naxos)", "duration_s": 201},
+    {"videoId": "_1kHa_uJylg", "channel": "Ruth Ziesak - Topic", "official": true, "oembed_ok": null, "duration_s": 202}
+   ],
+   "note": "Полезен как «эталон издания», но художественно не превосходит старых мастеров."
+  },
+  {
+   "singer": "Markus Schäfer",
+   "pianist": "Zvi Meniker (хаммерклавир)",
+   "rec_year": "2021 (метка ℗ официального релиза; дата сессии не установлена)",
+   "year_source": "Topic-загрузка: album «Schubert: The Small Song Cycles», ℗2021, artists «Markus Schäfer, Zvi Meniker»; трек — «Nähe des Geliebten, D. 162 (Second Version)». MusicBrainz подтверждает состав (186 с). Дискографического подтверждения даты сессии не найдено.",
+   "album": "Schubert: The Small Song Cycles",
+   "label": "не установлен",
+   "age_voice": "около 60 лет (р. 1961) — поздний период.",
+   "reputation": "Единственный найденный кандидат «не ранее 2015» с официальным аудио. Певца нет в дайджесте фонда; критики не найдено; периодный инструмент.",
+   "sources": [
+    "yt-dlp метаданные: xNccnrV4OXo, album «Schubert: The Small Song Cycles», ℗2021",
+    "planning/youtube/data/d162-nahe-des-geliebten.mb.json — Markus Schäfer, Zvi Meniker, 186 s"
+   ],
+   "youtube": [
+    {"videoId": "xNccnrV4OXo", "channel": "Release - Topic", "official": true, "oembed_ok": true, "duration_s": 186}
+   ],
+   "note": "Закрывает возрастную квоту «не ранее 2015», но качество/значимость не подтверждены — по правилам качество остаётся квалификационным фильтром."
+  },
+  {
+   "singer": "Peter Pears",
+   "pianist": "Benjamin Britten",
+   "rec_year": "не установлен (диапазон 1954–1972 по серии «Britten the Performer»)",
+   "year_source": "Discogs 26657540 — BBC Music BBCB 8015-2, серия «Britten the Performer», трек 5 «Nähe des Geliebten»; примечаний с датой в релизе нет. Реестр albums.md по D 800 фиксирует три версии серии — 1954, 1959, 1972; к какой относится D 162, не установлено. MusicBrainz: Pears/Britten, 235 с.",
+   "album": "Britten the Performer: Lieder / On This Island / Mörike Lieder (BBC Music BBCB 8015-2)",
+   "label": "BBC Music (Britten–Pears Foundation)",
+   "age_voice": "44–62 года в зависимости от даты (р. 22.06.1910); по дайджесту пик — 1950-е—1960-е, позже суше.",
+   "reputation": "Связка Пирс–Бриттен по дайджесту — одна из великих шубертовских (их Winterreise 1963 назван «среди величайших»). Критики именно на этот номер не найдено. Официальной или фан-загрузки номера на YouTube не найдено (на «Peter Pears - Topic» есть другие шубертовские песни, D 162 отсутствует).",
+   "sources": [
+    "https://api.discogs.com/releases/26657540",
+    "planning/youtube/albums.md — карточка «Peter Pears — Britten the Performer»",
+    "yt-dlp ytsearch «Peter Pears Britten Nähe des Geliebten» — D 162 не найден"
+   ],
+   "youtube": [],
+   "note": "Художественно интересен, но нет ни даты, ни ролика — в топ-5 не проходит."
+  }
+ ],
+ "priority_singers_checked": {
+  "Quasthoff": "НЕТ. Его единственный гётевский альбом — «Goethe-Lieder» (RCA Victor Red Seal 09026 618642, сессии 25–26 и 28–29 мая 1993, Reitsaddel Neumarkt, Charles Spencer): полный треклист из 13 номеров (Der Sänger, Gesänge des Harfners I–III, Prometheus, Ganymed, Grenzen der Menschheit, Erlkönig, Szene aus Faust, Der Zwerg, Auf dem Wasser zu singen, Liedesend, Der Musensohn) — Nähe des Geliebten отсутствует [https://api.discogs.com/releases/8778752]. Поиск по треку в Discogs (artist=Quasthoff, track=Nähe des Geliebten) — 0 релизов. Вывод: записи песни у Квастхофа нет.",
+  "Fischer-Dieskau": "ДА, минимум три версии: (1) WDR Köln, 1954, с Günther Weißenborn — Audite 95.583 «Lieder Collection», примечание релиза «Recorded cologne, 1954» [https://api.discogs.com/releases/16319307]; (2) Electrola E90921, 23–24 мая 1958, Берлин-Целендорф, с Gerald Moore [Gray, id 199091]; (3) DG «Sämtliche Lieder» (сессии 1966–1972, трек ℗1970), с Gerald Moore [albums.md + метки Topic].",
+  "Schwarzkopf": "ДА: 5 октября 1952, London, EMI Abbey Road Studio 1A, Columbia 33CX 1040, с Эдвином Фишером [Gray, id 58270; буклет Naxos Historical 8.111287 — сессии 4–7.10.1952, трек 7]. Дополнительно — лайв-версия на «Schubert & Wolf: Lieder (Live)» (231 с), год не установлен.",
+  "Hotter": "НЕ НАЙДЕНО. В дискографии Грея среди 8 записей D 162 Хоттера нет; поиск Discogs по треку (artist=Hotter) даёт только сборники, где эту песню поёт другой исполнитель (проверено: на диапазоновском сборнике «22 Lieder» (Les Indispensables de Diapason, 2023) D 162 поёт Шварцкопф — та же загрузка на её Topic-канале помечена альбомом «Schubert: Lieder (Les indispensables de Diapason)»); поиск по YouTube не дал его исполнения. Вывод: записи, по-видимому, нет.",
+  "Anders": "НЕ НАЙДЕНО. Тот же результат: у Грея нет; в Discogs по треку — только сборник Diapason, где песню поёт Шварцкопф; сольных загрузок на YouTube нет. Отдельно проверена военная берлинская запись 15.10.1944 (Tahra TAH384, Berlin, Beethovensaal, Jochum/Берлинские филармоники, у рояля Friedrich Wührer) — в карточке Грея (id 115717) имя певца не указано, атрибуция Андерсу НЕ подтверждена; релиз TAH384 в Discogs не найден.",
+  "E. Schumann": "ДА: HMV DB 3184, матрицы 2EA 4849/4850, с Джеральдом Муром; датировка по соседним матрицам Грея — ок. 5–15 марта 1937. Переиздания: Naxos Historical 8.110731 (трек 21, 2:40, Moore), Warner «Icon: Elisabeth Schumann» (℗1937).",
+  "Ludwig": "НЕ НАЙДЕНО. У Грея среди записей D 162 её нет; поиск Discogs по треку (artist=Christa Ludwig) даёт только сборники (DG «Leise flehen meine Lieder», Diapason), где песню поёт другой исполнитель; поиск YouTube по «Christa Ludwig Nähe des Geliebten» её версии не выявил.",
+  "Popp": "НЕ НАЙДЕНО. Поиск Discogs по треку (artist=Lucia Popp, track=Nähe des Geliebten) — 0 релизов; в её основном шубертовском рецитале EMI 1983 (сессии 1–6.11.1983, Abbey Road, Gage; карточка albums.md) песня не значится. Вывод: записи, по-видимому, нет."
+ },
+ "albums_facts": [
+  {"album": "Schubert: Lieder Vol. 4 (Electrola E90921)", "singer": "Dietrich Fischer-Dieskau", "year": "1958 (сессии 23–24/25 мая, Берлин-Целендорф, Evangelisches Gemeindehaus)", "label": "EMI Electrola / Warner", "facts": "Пианист Gerald Moore; продюсер Christfried Bickenbach; ранняя из двух студийных версий связки. Дата подтверждена дискографией Грея (id 199091) и карточкой реестра.", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583)", "singer": "Dietrich Fischer-Dieskau", "year": "1954 (радиозапись WDR Köln; издание 2007)", "label": "Audite", "facts": "Пианист Günther Weißenborn (по MusicBrainz); ремастеринг Ludger Böckenhoff; примечание релиза: «Recorded cologne, 1954». Новая карточка для реестра альбомов.", "covers_more_pilot_songs": false},
+  {"album": "Schubert: Sämtliche Lieder, 21 CD", "singer": "Dietrich Fischer-Dieskau", "year": "1966–1972 (трек ℗1970)", "label": "Deutsche Grammophon", "facts": "Пианист Gerald Moore; полный свод мужских песен; уже в реестре albums.md.", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Lieder (Columbia 33CX 1040) / Naxos Historical 8.111287", "singer": "Elisabeth Schwarzkopf", "year": "1952 (D 162 — 5 октября; сессии диска 4–7 октября)", "label": "Columbia / EMI / Warner; переизд. Naxos Historical", "facts": "Пианист Edwin Fischer; Abbey Road Studio 1A; продюсер и реставратор переиздания — Mark Obert-Thorn. Уже в реестре albums.md (по D 828).", "covers_more_pilot_songs": true},
+  {"album": "HMV DB 3184 (78 об/мин) / Naxos Historical 8.110731 / Warner «Icon»", "singer": "Elisabeth Schumann", "year": "1937 (ок. 5–15 марта, по матрицам 2EA 4849/4850)", "label": "HMV / EMI; переизд. Naxos Historical, Warner", "facts": "Пианист Gerald Moore; на пластинке 4 песни (Nähe des Geliebten, Lachen und Weinen, Nacht und Träume, Seligkeit). Уточняет карточку реестра «Schubert Lieder 1927–1945».", "covers_more_pilot_songs": true},
+  {"album": "Rita Streich singt Lieder von Franz Schubert (DG LPM 18585)", "singer": "Rita Streich", "year": "1960 (℗; LP отпечатан 4/62)", "label": "Deutsche Grammophon", "facts": "Пианист Erik Werba; кларнет Heinrich Geuser (Der Hirt auf dem Felsen). Новая карточка для реестра.", "covers_more_pilot_songs": false},
+  {"album": "Erika Köth singt Lieder von Mozart, Schubert, Schumann, Brahms… (Eurodisc 72120)", "singer": "Erika Köth", "year": "1963 (сессии 12–14 мая, Berlin, Meistersaal)", "label": "Ariola-Eurodisc", "facts": "Пианист Gerald Moore. Дата — дискография Грея (id 177757). На YouTube не найдено.", "covers_more_pilot_songs": false},
+  {"album": "Franz Schubert: Lieder nach Goethe (Eterna 827568 / 8 26 329)", "singer": "Peter Schreier", "year": "1970 (декабрь, Dresden, Lukaskirche; LP изд. 1974)", "label": "VEB Deutsche Schallplatten Eterna", "facts": "Пианист Walter Olbertz; научный консультант Harry Goldschmidt. Дата — Грей (id 79990). Гётевская программа покрывает многие песни корпуса.", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Goethe-Lieder (Philips 6500 515)", "singer": "Elly Ameling (сторона A) / Hermann Prey (сторона B)", "year": "1972 (сессии 20–21 июня; LP изд. 1973)", "label": "Philips / Universal", "facts": "Пианисты Dalton Baldwin (A1–A8) и Karl Engel (B1–B6). Дата — Грей (id 178842). Гётевская программа — сквозная для корпуса.", "covers_more_pilot_songs": true},
+  {"album": "Lieder von Franz Schubert (EMI Electrola 1C 065-28 969)", "singer": "Brigitte Fassbaender", "year": "1974 (сессии 16–18 мая, Мюнхен, Bürgerbräukeller)", "label": "EMI Electrola / Warner", "facts": "Пианист Erik Werba; продюсер Christfried Bickenbach. Уже в реестре (по D 800).", "covers_more_pilot_songs": true},
+  {"album": "The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001)", "singer": "Janet Baker", "year": "1987 (запись — февраль, Elstree; издание — декабрь 1987)", "label": "Hyperion / Universal", "facts": "Пианист и комментатор Graham Johnson. Пресса: Penguin Guide, The Guardian, The Times (цитаты на странице Hyperion). Открывает 37-томный свод — сквозной ресурс для всего корпуса.", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Lieder (DG 419 237-2)", "singer": "Kathleen Battle", "year": "1988 (издание; сессия не документирована)", "label": "Deutsche Grammophon", "facts": "Пианист James Levine; 17 треков. Переиздание Eloquence 2009 названо «Nähe des Geliebten — Ausgewählte Lieder». Уже в реестре (по D 857/1).", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)", "singer": "Barbara Bonney", "year": "1994 (апрель, Teldec Studio Berlin)", "label": "Teldec / Warner", "facts": "Пианист Geoffrey Parsons; звукорежиссёр Ulrich Ruscher, продюсер Martin Fouqué. Уже в реестре (по D 839).", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2)", "singer": "Christoph Prégardien", "year": "1994 (10–13 октября, Studio Stollberger Str., WDR Köln; изд. 1995)", "label": "Deutsche Harmonia Mundi", "facts": "Andreas Staier, хаммерклавир — копия инструмента Johann Fritz (Вена, ок. 1815) работы Christopher Clarke (Париж, 1981); копродукция с WDR. Новая карточка для реестра; гётевская программа — сквозная.", "covers_more_pilot_songs": true},
+  {"album": "Schubert Lieder — Goethe (Decca 452 917-2)", "singer": "Matthias Goerne", "year": "1996 (май, Reitstadel, Neumarkt; ℗1997)", "label": "Decca", "facts": "Пианист Andreas Haefliger; аннотации Richard Wigmore. Ранний рецитал Гёрне вне его свода harmonia mundi. Новая карточка для реестра.", "covers_more_pilot_songs": true},
+  {"album": "Naxos Deutsche Schubert-Lied-Edition, т. 13 «Goethe, Vol. 2» (8.554666)", "singer": "Ruth Ziesak (с участием Christian Elsner)", "year": "2003 (релиз — май)", "label": "Naxos", "facts": "Пианист Ulrich Eisenlohr; D 162 — трек 3, 3:21. Том полного издания — сквозной ресурс для гётевских песен корпуса.", "covers_more_pilot_songs": true},
+  {"album": "Britten the Performer: Lieder / On This Island / Mörike Lieder (BBC Music BBCB 8015-2)", "singer": "Peter Pears", "year": "не установлен (серия охватывает 1954–1972)", "label": "BBC Music", "facts": "Пианист Benjamin Britten; D 162 — трек 5. Дата конкретного номера не документирована; на YouTube номер не найден.", "covers_more_pilot_songs": true}
+ ],
+ "surveys": [
+  "klassik-prisma.de (Bernd Stremmel) — сравнительного обзора по D 162 НЕТ: проверен индекс https://www.klassik-prisma.de/Schubert.htm, из песен там только Auf dem Wasser zu singen D 774, Der Hirt auf dem Felsen D 965, Die junge Nonne D 828, Erlkönig D 328, Gretchen am Spinnrade D 118, Gruppe aus dem Tartarus D 583, Nacht und Träume D 827 плюс три цикла.",
+  "hyperion-records.co.uk — страница CDJ33001 (Hyperion Schubert Edition, Vol. 1, Baker/Johnson): даты записи (февраль 1987, Elstree), издание декабрь 1987, цитаты прессы (Penguin Guide, The Guardian, The Times) и общая декларация Грэма Джонсона о принципах серии: https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001",
+  "https://www.hyperion-records.co.uk/dc.asp?dc=D_D162 — страница работы у Hyperion фактического содержания не отдала (WebFetch вернул только навигацию); перечень записей Hyperion по песне получить не удалось.",
+  "gramophone.co.uk — поиск недоступен (HTTP 403 при обращении).",
+  "MusicWeb / BBC Music Magazine / слепые тесты — целевой поиск не проводился: бюджет WebSearch сессии был исчерпан (200/200) до начала работы, а без поисковика адреса конкретных рецензий на D 162 неизвестны. Это главный пробел досье."
+ ],
+ "negatives": [
+  "Quasthoff — записи песни нет (полный треклист его «Goethe-Lieder» 1993 проверен).",
+  "Popp — записи не найдено (Discogs по треку — 0).",
+  "Hotter, Anders, Ludwig — записи не найдено ни у Грея, ни в Discogs по треку, ни на YouTube; совпадения в Discogs были ложными (сборники, где песню поёт Шварцкопф).",
+  "klassik-prisma не делал сравнительного обзора этой песни — привычного 5-звёздного ориентира для D 162 нет.",
+  "Karl Erb (Odéon, июль 1912), Erika Köth (Eurodisc, 1963), Peter Schreier (Eterna, XII.1970), Peter Pears/Britten (BBC) — дискографически документированы (кроме Пирса), но отдельных роликов на YouTube не найдено; в плеер поставить нечего.",
+  "Загрузка oJUwoDtKRJ0 («Edwin Fischer - Topic», альбом «Vintage Piano Classical Greats») — это Шварцкопф/Фишер 1952 у серого агрегатора; кредиты и год с такого канала брать нельзя (правило о «серых» Topic-лейблах).",
+  "Josephine Foster и Jasper Schweppe/Riko Fukuda из каркаса MusicBrainz — вне значимого фонда (первая — фолк-адаптация); в пул не включены.",
+  "Записи Гёрне с Eric Schneider (свод harmonia mundi, 194 с) отдельный официальный ролик не опознан.",
+  "Даты сессий не установлены у: Battle (1988 — год издания), Schwarzkopf live, Söderström (℗1991), Christine Schäfer (℗1997), Markus Schäfer (℗2021), Ziesak (релиз 05.2003), Pears/Britten (диапазон 1954–1972)."
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "d": "5",
+ "title": "Hagars Klage",
+ "candidates": [
+  {
+   "singer": "Christine Brewer (сопрано)",
+   "pianist": "Graham Johnson",
+   "rec_year": "запись VII.1996, изд. VII.1998",
+   "year_source": "реестр (planning/youtube/albums.md) + подтверждено WebFetch hyperion-records.co.uk CDJ33031 (текст буклета цитирует Hagars Klage как содержание тома)",
+   "album": "Hyperion Schubert Edition, Vol. 31 «Schubert & Religion» (CDJ33031)",
+   "label": "Hyperion/Universal",
+   "voice_note": "крупный драматический голос, подходящий для «мощной баллады» (характеристика буклета); научный эталон издания",
+   "reputation": "часть 40-CD полного свода Hyperion; том тематически посвящён религиозным сюжетам — Hagar (наложница Авраама) прямо упомянута во вступлении буклета",
+   "videoId": "6lhs1EToD6g",
+   "channel": "Christine Brewer - Topic",
+   "official": true
+  },
+  {
+   "singer": "Caroline Melzer (сопрано)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "изд. 04/2009",
+   "year_source": "naxos.com CatalogueDetail 8.572036 (WebFetch, подтверждён трек 10 и исполнители)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 31 «Sturm und Drang Poets» (8.572036)",
+   "label": "Naxos",
+   "voice_note": "не установлено сверх каталожных данных",
+   "reputation": "часть научного полного немецкоязычного свода Naxos DSLE; тематически поэт Hagars Klage (Клеменс Август Шюккинг) относится к кругу Sturm und Drang",
+   "videoId": "tPZ-Oh-aTVc",
+   "channel": "Caroline Melzer - Topic",
+   "official": true
+  },
+  {
+   "singer": "Gundula Janowitz (сопрано) — под вопросом",
+   "pianist": "Irwin Gage (предположительно, по общему профилю альбома)",
+   "rec_year": "не подтверждено для этого трека",
+   "year_source": "registry_hits в candidates.json относятся к другому альбому Janowitz (DG 2530 858), включение D 5 не подтверждено конкретным треклистом",
+   "album": "не установлен",
+   "label": "DG?",
+   "voice_note": "не исследовано глубже — низкий приоритет ввиду неподтверждённости",
+   "reputation": "не установлена для этого трека",
+   "videoId": "x8eSuGqvJ7Y",
+   "channel": "Gundula Janowitz - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "нет (женский текст — Хагар; не входит в его 21-CD свод мужских песен)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [
+  "Hyperion Vol. 31 «Schubert & Religion» (CDJ33031) — подтверждено содержит Hagars Klage/Christine Brewer.",
+  "Naxos DSLE т. 31 «Sturm und Drang Poets» (8.572036, изд. 04/2009, Eisenlohr) — подтверждено содержит D 5/Caroline Melzer (трек 10)."
+ ]
+}

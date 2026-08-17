@@ -1,0 +1,58 @@
+{
+ "d": "10",
+ "title": "Der Vatermörder",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (сессии свода)",
+   "year_source": "реестр (albums.md — DG Sämtliche Lieder)",
+   "album": "Schubert: Sämtliche Lieder, 21 CD (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "приоритетный исполнитель №2; полный свод — базовая точка отсчёта",
+   "reputation": "эталонный полный свод мужских песен Шуберта",
+   "videoId": "lKql5N6ZKDo",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Adrian Thompson (тенор)",
+   "pianist": "Graham Johnson",
+   "rec_year": "II.1991, изд. XI.1991",
+   "year_source": "подтверждено WebFetch hyperion-records.co.uk CDJ33012: буклет прямо называет D 10 «на этом диске»",
+   "album": "Hyperion Schubert Edition, Vol. 12 «The Young Schubert I» (CDJ33012)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено сверх каталожных данных",
+   "reputation": "часть научного полного свода; том целиком посвящён ранним/юношеским песням — естественный дом для D 10",
+   "videoId": "JlhjexEelc8",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Daniel Norman (тенор) — под вопросом",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "registry_hits в candidates.json относятся к другим томам (Vol. 32–34) без прямого подтверждения D 10",
+   "album": "Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено — низкий приоритет ввиду неподтверждённости и наличия уже двух сильных кандидатов",
+   "reputation": "не установлена для этого трека",
+   "videoId": "POeQ3fa-qvE",
+   "channel": "Daniel Norman - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "да — включён (DG Sämtliche Lieder)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [
+  "Hyperion Vol. 12 «The Young Schubert I» (CDJ33012, зап. II.1991, изд. XI.1991, Adrian Thompson/Graham Johnson) — подтверждено содержит D 10 И D 15/D 15a (обе версии Der Geistertanz на одном диске)."
+ ]
+}

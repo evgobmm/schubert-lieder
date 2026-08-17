@@ -1,0 +1,44 @@
+{
+ "d": "15",
+ "title": "Der Geistertanz (1st setting)",
+ "note": "Не путать с D 116 «Der Geistertanz (III)» (третья, более поздняя редакция того же текста) — кандидаты Fischer-Dieskau/Fassbaender в исходном candidates.json относятся именно к D 116, для D 5/D 15/D 15a неприменимы.",
+ "candidates": [
+  {
+   "singer": "Adrian Thompson (тенор)",
+   "pianist": "Graham Johnson",
+   "rec_year": "II.1991, изд. XI.1991",
+   "year_source": "подтверждено WebFetch hyperion-records.co.uk CDJ33012: буклет прямо называет «обе версии Der Geistertanz от 1812 г. — обе на этом диске»",
+   "album": "Hyperion Schubert Edition, Vol. 12 «The Young Schubert I» (CDJ33012)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено сверх каталожных данных",
+   "reputation": "часть научного полного свода; единственный подтверждённый источник, где на одном диске обе версии (I и II)",
+   "videoId": "DiR7NRTeRJ4",
+   "channel": "Adrian Thompson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Thomas E. Bauer (баритон) — фрагмент",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "изд. 08/2005",
+   "year_source": "реестр (complete-editions.md — Naxos т. 19 «Poets of Sensibility, Vols. 1 & 2», 8.557371-72); текст — Маттисон, естественно вошёл в том «поэтов чувствительности»",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 19 «Poets of Sensibility, Vols. 1 & 2» (8.557371-72)",
+   "label": "Naxos",
+   "voice_note": "помечено в источнике как «fragment» — не полная запись",
+   "reputation": "часть научного полного немецкоязычного свода",
+   "videoId": "6sxiC6Ce2Pg",
+   "channel": "Thomas E. Bauer - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "нет для D 15 (кандидаты FiDi относятся к D 116, другой редакции)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": []
+}

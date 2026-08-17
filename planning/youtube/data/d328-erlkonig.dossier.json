@@ -1,0 +1,578 @@
+{
+  "d": "328",
+  "title": "Erlkönig",
+  "tier": "famous",
+  "research_notes": [
+    "MusicBrainz-каркас (d328-erlkonig.mb.json) непригоден: work-id ea078c32 сматчен на аудиокнигу (Jim Butcher / Richard Barenberg, 43 «Teil»-трека). Дискография собрана из сравнительного обзора klassik-prisma, метаданных официальных Topic-каналов (лейбл + ℗-год) и Discogs.",
+    "WebSearch в сессии исчерпан (200/200); поисковые системы через curl/WebFetch блокируются капчей. Доступ был только к прямым URL (klassik-prisma.de) и Discogs API. Поэтому Gramophone / MusicWeb / BBC Music Magazine / страницу Hyperion по D 328 проверить не удалось — зафиксировано в negatives.",
+    "Даты записей НЕ берутся из описаний загрузок; ℗-год в метаданных Topic — это год фонограммы/издания, он приводится отдельно от года сессии."
+  ],
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Charles Spencer",
+      "rec_year": "1993",
+      "year_source": "klassik-prisma (таблица: Quasthoff / Spencer / RCA / 1993, https://www.klassik-prisma.de/Erlkoenig.htm); подтверждается ℗ 1993 BMG Music в метаданных официального Topic-трека (релиз 24.01.1994)",
+      "album": "Schubert: Goethe-Lieder",
+      "label": "RCA Red Seal / BMG",
+      "age_voice": "34 года; по дайджесту певцов пик Квастхофа ~1993–2007 — запись стоит в самом начале пика, голос свежий, но klassik-prisma отмечает шероховатость низа",
+      "reputation": "klassik-prisma — 4 балла (из 5), с оговоркой «Stimme in der Tiefe rau» (голос в нижнем регистре шершавый). Это ниже пятёрок Хюша, Сузе, Фишера-Дискау-1958, Прегардьена и Норман, но качественная запись высшего приоритетного певца проекта.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные официального трека: Topic-канал Thomas Quasthoff, «Schubert: Goethe-Lieder», ℗ 1993 BMG Music, Baritone: Thomas Quasthoff, Piano: Charles Spencer",
+        "planning/research/singers-digest.md (Goethe-Lieder, RCA 1993/95, Spencer)"
+      ],
+      "youtube": [
+        {"videoId": "-IisTC_fMCY", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Главный кандидат №1 по иерархии приоритетов. Есть также его лайв в оркестровке Регера (RC71jOURWec, Topic, DG 2003, Abbado/BPO) — не фортепианная версия, для песенного плеера вторичен."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1958",
+      "year_source": "klassik-prisma (Fischer-Dieskau / Moore / EMI / 1958); совпадает с карточкой реестра альбомов «Schubert: Lieder Vol. 4 — сессии 23–25 мая 1958, Берлин, EMI, Moore» (planning/youtube/albums.md) и с указанием сессии в описании фан-загрузки («Berlin, 23-25.V.1958»)",
+      "album": "Schubert: Lieder Vol. 4 (EMI/Electrola)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "33 года; ядро пика (~1951–1972), голос в лучшем состоянии",
+      "reputation": "Единственная запись, которую Бернд Штреммель (klassik-prisma) прямо называет лучшей из всех версий Фишера-Дискау: 5 баллов, «здесь ему удаётся в уравновешенной пропорции передать повествовательный тон и заложенную в балладе театральность»; в остальных своих записях, по его словам, певец больше склоняется к театральному, декламационному пению.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "planning/youtube/albums.md — карточка «Dietrich Fischer-Dieskau — Schubert: Lieder Vol. 4»"
+      ],
+      "youtube": [
+        {"videoId": "a2J9Yn2YjjE", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "ПРОБЛЕМА ДОСТУПНОСТИ: официальной (Warner/Topic) загрузки именно версии 1958 найти не удалось — на Topic-канале певца лежат версии 1951 (EMI) и 1968/70 (DG). Доступна только фан-загрузка канала «incontrario motu» (живая, встраиваемая, с указанием сессии)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1951",
+      "year_source": "klassik-prisma (Fischer-Dieskau / Moore / EMI / 1951); ℗ 1951 Parlophone Records в метаданных официального Warner-трека (кредиты: Piano — Gerald Moore, Engineer — Fritz Ganss)",
+      "album": "Schubert: Schwanengesang etc (Warner-переиздание ранних EMI-сессий)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "26 лет; самое начало пика — молодой, лёгкий, ещё не «декламационный» голос",
+      "reputation": "klassik-prisma — 4–5 баллов. Уступает версии 1958 по авторской оценке, но по правилу «при прочих равных предпочитать более раннюю» и по доступности (официальный канал) — сильный кандидат.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные официального трека: Topic-канал Dietrich Fischer-Dieskau, «Schubert: Schwanengesang etc», ℗ 1951, 2001 Parlophone Records Limited"
+      ],
+      "youtube": [
+        {"videoId": "t39FzPnGX0I", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальная альтернатива версии 1958, если нужен Topic-канал."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1968",
+      "year_source": "klassik-prisma (Fischer-Dieskau / Moore / DGG / 1968); ℗ 1970 Deutsche Grammophon в метаданных Topic-треков — год фонограммы, не сессии",
+      "album": "Schubert: Lieder / Sämtliche Lieder (DG, 21 CD, сессии 1966–1972, Ufa-Ton-Studio Berlin)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "43 года; конец пика, голос ещё полон, но манера театральнее",
+      "reputation": "klassik-prisma — 4–5 баллов; по авторскому комментарию именно поздние версии тяготеют к театральной декламации. Значение — часть эталонного полного свода мужских песен.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "planning/youtube/albums.md — «Schubert: Sämtliche Lieder (21 CD)», сессии 1966–1972",
+        "метаданные Topic-треков DbpCe9XzLjI / CVnan-LEEpE (℗ 1970 DG, Moore)"
+      ],
+      "youtube": [
+        {"videoId": "DbpCe9XzLjI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "CVnan-LEEpE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Две официальные загрузки одной и той же фонограммы (альбомы «Schubert: Lieder» и «Schubert: Lieder (Vol. 1)»). Есть ещё лайв Orfeo 1963 (Зальцбург, Moore, 4–5 баллов) — на YouTube официально не найден."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1966",
+      "year_source": "klassik-prisma (Schwarzkopf / Parsons / EMI / 1966); ℗ 1968 Parlophone в метаданных официального Warner-трека — год издания LP «The Elisabeth Schwarzkopf Song Book, Vol. 2»",
+      "album": "An Elisabeth Schwarzkopf Song Book, Vol. 2 (HMV/Angel, изд. 1968)",
+      "label": "EMI / Warner Classics",
+      "age_voice": "51 год; конец пика (по дайджесту 1948–1964), голос уже легче и суше, но техника и дикция безупречны; темп самый быстрый среди женщин в обзоре (3'41)",
+      "reputation": "klassik-prisma — 4–5 баллов, лучший женский результат после Джесси Норман. Топ-1 среди женщин по правилам проекта.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные официального трека: Topic-канал ELISABETH SCHWARZKOPF, «The Elisabeth Schwarzkopf Song Book, Vol. 2», ℗ 1968 Parlophone Records Limited, Geoffrey Parsons",
+        "Discogs: «An Elisabeth Schwarzkopf Song Book, Vol. 2», Angel/HMV, 1968–69"
+      ],
+      "youtube": [
+        {"videoId": "6B2QFfKlTuA", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "b-rGJMLCnJE", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Осторожно: на её Topic-канале есть трек 3dYzdTeMyBc с альбома «Lieder of Schubert, Schumann & Strauss, Recordings 1948–1954» (The Orchard) — заявленный диапазон дат заведомо ложен, поскольку в кредитах стоит Parsons, работавший с ней с 1960-х. Серый агрегатор, брать не следует."
+    },
+    {
+      "singer": "Gerhard Hüsch",
+      "pianist": "Hanns Udo Müller",
+      "rec_year": "1939",
+      "year_source": "klassik-prisma (Hüsch / Müller / EMI / 1939)",
+      "album": "Lebendige Vergangenheit — Gerhard Hüsch (Preiser, переизд. 2006); оригинал — сторона Electrola/HMV",
+      "label": "Electrola (HMV) / Preiser Records",
+      "age_voice": "38 лет; ровно пик (1930-е), тот же дуэт с Х. У. Мюллером, что дал эталонные Winterreise 1933 и Müllerin 1934/35",
+      "reputation": "klassik-prisma — 5 баллов, первая строка мужской таблицы. Историческая вершина немецкой довоенной школы в этой балладе.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные официального трека: Topic-канал Gerhard Hüsch, «Lebendige Vergangenheit — Gerhard Hüsch», Preiser Records, Hanns Udo Müller",
+        "planning/research/singers-digest.md (Hüsch, пик 1930-е)"
+      ],
+      "youtube": [
+        {"videoId": "XJtD57O0yZ0", "channel": "Gerhard Hüsch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальный Topic-канал лейбла Preiser; звук — 78 об/мин, реставрация Preiser."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Jacqueline Bonneau",
+      "rec_year": "1950–55?",
+      "year_source": "РАСХОЖДЕНИЕ: klassik-prisma — «Decca, ~1955»; Naxos Classical Archives озаглавил переиздание «Vocal Recital: Souzay, Gerard — Schubert, F. / Faure (1950)». Точный год сессии не установлен",
+      "album": "Vocal Recital: Souzay — Schubert / Fauré (Naxos Classical Archives, ℗ 2000); оригинал — Decca",
+      "label": "Decca / Naxos Classical Archives",
+      "age_voice": "32–37 лет; пик (1950-е — сер. 1960-х), голос в лучшей форме; самый быстрый темп в обзоре (3'27)",
+      "reputation": "klassik-prisma — 5 баллов, наравне с Хюшем и Фишером-Дискау-1958. Одна из двух вершин обзора среди «латинской» школы.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные Topic-трека nR3yYfPqbo0 (Naxos Classical Archives, ℗ 2000)"
+      ],
+      "youtube": [
+        {"videoId": "nR3yYfPqbo0", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность трека 206 с совпадает с 3'27 у klassik-prisma — идентификация версии надёжна. Год требует доисследования (правило допускает публикацию с диапазоном и знаком вопроса)."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1961",
+      "year_source": "klassik-prisma (Souzay / Baldwin / Philips / 1961); ℗ 1961 Universal International Music в метаданных официального Topic-трека",
+      "album": "Schubert: Lieder (Philips)",
+      "album_alt": "также на «Schubert: Lieder (Stereo Version)», ℗ 1962, серый агрегатор Believe/The Restoration Project — брать не следует",
+      "label": "Philips / Universal",
+      "age_voice": "43 года; ещё в пике, но klassik-prisma ставит эту версию ниже более ранней Decca",
+      "reputation": "klassik-prisma — 4–5 баллов.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные Topic-трека De3NlHWFClY (℗ 1961 Universal International Music B.V., Dalton Baldwin)"
+      ],
+      "youtube": [
+        {"videoId": "De3NlHWFClY", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дублирует Сузе; при отборе выбирать одну из двух его версий (правило: при сходном уровне — более раннюю)."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "1961",
+      "year_source": "klassik-prisma (Ludwig, Ch. / Parsons / EMI / 1961); ℗ 1967 Parlophone в метаданных Warner-трека — год издания LP «Schubert: 15 Lieder». Сессии альбома по дайджесту — 1957–1969",
+      "album": "Schubert: 15 Lieder (EMI); переизд. в Warner «The Complete Recitals on Warner Classics», 11 CD",
+      "label": "EMI / Warner Classics",
+      "age_voice": "33 года; ядро пика (~1957–1975), меццо в полном расцвете",
+      "reputation": "klassik-prisma — 4–5 баллов, наравне со Шварцкопф. Тот же корпус записей дал 5-звёздную Gretchen am Spinnrade.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные Topic-треков cIC6VqhgL58 / X36cZYKCOtI (℗ 1967 Parlophone, Geoffrey Parsons)",
+        "planning/youtube/albums.md — карточка Christa Ludwig / EMI «15 Lieder», сессии 1957–1969"
+      ],
+      "youtube": [
+        {"videoId": "cIC6VqhgL58", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "X36cZYKCOtI", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Приоритетная певица по правилам. Расхождение 1961 (сессия по klassik-prisma) / ℗ 1967 (издание) — при публикации указывать 1961 с оговоркой."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Phillip Moll",
+      "rec_year": "1984",
+      "year_source": "planning/youtube/albums.md — «Jessye Norman — Schubert: Lieder, запись апрель 1984; ℗ 1985, релиз 24.09.1985»; klassik-prisma указывает 1984",
+      "album": "Schubert: Lieder (Philips)",
+      "label": "Philips / Universal",
+      "age_voice": "39 лет; ядро пика (~1975–1995), голос в полном объёме — по Джонсону как раз «large and sumptuous voice», которого требует баллада",
+      "reputation": "klassik-prisma — 5 баллов, единственная пятёрка среди женщин и одна из пяти во всём обзоре. По дайджесту Erlkönig — её фирменный концертный номер.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "planning/youtube/albums.md — карточка Jessye Norman / Philips",
+        "метаданные Topic-трека 997GpiaBHc0 (℗ 1985 Universal International Music, релиз 24.09.1985, Phillip Moll)"
+      ],
+      "youtube": [
+        {"videoId": "997GpiaBHc0", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Формально до 1990 года; для «современной квоты» не годится, но по качеству — верхняя строка обзора."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Franz Rupp",
+      "rec_year": "1933",
+      "year_source": "klassik-prisma (Schlusnus / Rupp / DGG / 1933)",
+      "album": "стороны Polydor/DG 1930-х (переизд. Preiser)",
+      "label": "Deutsche Grammophon (Polydor) / Preiser",
+      "age_voice": "45 лет; пик (1920-е–1930-е), эталон немецкого «поющего баритона»",
+      "reputation": "klassik-prisma — 4 балла.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "planning/research/singers-digest.md (Schlusnus, сотни сторон Polydor/DG 1920–40-х с Rupp)"
+      ],
+      "youtube": [
+        {"videoId": "eCuCiyii71U", "channel": "Roger York", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной загрузки не найдено; только фан-переносы 78-х (Roger York, schellackmaster, NoeckesHarfenschall). Год на фан-канале «schellackmaster» («von 1933») совпадает с klassik-prisma."
+    },
+    {
+      "singer": "Marian Anderson",
+      "pianist": "Franz Rupp",
+      "rec_year": "1951",
+      "year_source": "℗ 1951 Sony Music Entertainment (RCA Red Seal) в метаданных официального Topic-трека; дайджест певцов также указывает Erlkönig 1951",
+      "album": "Marian Anderson Sings Schubert & Schumann Songs (RCA); свод Sony «Beyond the Music», 15 CD (2021)",
+      "label": "RCA Victor / Sony Classical",
+      "age_voice": "54 года; за пиком (1930-е–1940-е), но контральтовый низ и драматическая подача сохранены",
+      "reputation": "В обзоре klassik-prisma не оценена. По дайджесту — «сильно» представлена на YouTube, включая официальные ремастеры Sony 2021.",
+      "sources": [
+        "planning/research/singers-digest.md (Anderson, Erlkönig 1951)",
+        "метаданные Topic-трека gIbO5uvolGw (℗ 1951 Sony Music Entertainment, Franz Rupp, 2021 Remastered)"
+      ],
+      "youtube": [
+        {"videoId": "gIbO5uvolGw", "channel": "Marian Anderson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть и параллельный Naxos-переиздание 0I3Kg-intYY («Vocal Recital … (1951)»)."
+    },
+    {
+      "singer": "Lotte Lehmann",
+      "pianist": "Paul Ulanowsky",
+      "rec_year": "1947",
+      "year_source": "planning/youtube/albums/female-recitalists.md — «поздние Victor-стороны, зап. 26–27.06 и 11.07.1947, вкл. Erlkönig, с Ulanowsky [дискография М. Грея]»; подтверждается заголовком переиздания Naxos «Lieder Recordings, Vol. 6 (1947, 1949)»",
+      "album": "Lotte Lehmann: Lieder Recordings, Vol. 6 (1947, 1949) — Naxos Historical",
+      "label": "RCA Victor / Naxos Historical",
+      "age_voice": "59 лет; далеко за пиком (кон. 1930-х), голос изношен, но выразительность и слово — эталонные",
+      "reputation": "В обзоре klassik-prisma не оценена. Есть и более ранняя её версия — сторона Odéon 1930 (реестр альбомов, дискография Грея), пианист не установлен.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md (Gray)",
+        "метаданные Topic-трека UN_PLTi4RTI (Naxos, «Lieder Recordings, Vol. 6 (1947, 1949)», Paul Ulanowsky)"
+      ],
+      "youtube": [
+        {"videoId": "UN_PLTi4RTI", "channel": "Lotte Lehmann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат «второго ряда»: исторически ценно, вокально уступает."
+    },
+    {
+      "singer": "Alexander Kipnis",
+      "pianist": "Gerald Moore",
+      "rec_year": "1936",
+      "year_source": "klassik-prisma (Kipnis / Moore / EMI / 1936); переиздание The Orchard подписывает трек «(Recorded 1936)»",
+      "album": "Legendary Voices, Vol. 1 (сборник); оригинал — сторона HMV 1936 с Муром",
+      "label": "HMV (EMI) / переизд. The Orchard",
+      "age_voice": "45 лет; пик (кон. 1920-х–1940-е), мощный бас",
+      "reputation": "klassik-prisma — 3–4 балла, самая низкая оценка среди мужчин, с претензией «sprachlich oft überzeichnet» (языковая подача часто утрирована). Квалификационный фильтр он не проходит.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные Topic-трека QprUr28hl40",
+        "planning/youtube/albums/male-recitalists.md — «Kipnis — Der Erlkönig / Die beiden Grenadiere (Victor 15825, изд. 1940)», пианист не установлен"
+      ],
+      "youtube": [
+        {"videoId": "QprUr28hl40", "channel": "Alexander Kipnis - Topic", "official": false, "oembed_ok": true}
+      ],
+      "note": "У Кипниса минимум две версии — 1936 (Moore) и 1939 (Topic-трек 9P84Nl-oPKI). Topic-канал наполнен серым агрегатором The Orchard, кредиты в описаниях свалены в кучу — ненадёжный источник атрибуции."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": "1962 (℗); также версии ℗ 1973 и ℗ 1974",
+      "year_source": "метаданные Topic-треков: pRk3OCNVydE — «Schubert & Schumann: Lieder», ℗ 1962 Decca Music Group; QeIw7Y4UEHY — «Schubert: Goethe-Lieder», ℗ 1973 Universal; keiAABm6CVM — Schwanengesang + Der Wanderer/Der Fischer/Erlkönig, ℗ 1974 DG. klassik-prisma указывает «Prey/Engel, Philips, P 1974» и «Prey/Deutsch, Intercord, 1982»",
+      "album": "Schubert & Schumann: Lieder (℗ 1962); Schubert: Goethe-Lieder (℗ 1973); Schwanengesang + довески (℗ 1974)",
+      "label": "EMI Electrola / Decca / Deutsche Grammophon / Philips",
+      "age_voice": "33 года (1962) — начало пика (~1960–1980); 45 лет (1974) — конец пика; 53 года (Intercord 1982) — голос тяжелее",
+      "reputation": "klassik-prisma — 4 балла обеим оценённым версиям, с претензией к версии 1974: «die Stimme des Erlkönigs etwas zu neutral» (голос Лесного царя слишком нейтрален).",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные Topic-треков pRk3OCNVydE, QeIw7Y4UEHY, keiAABm6CVM",
+        "planning/youtube/albums/male-recitalists.md — трилогия Philips ℗ 1973–74, довески Schwanengesang-диска (Der Fischer, Der Wanderer, Erlkönig — 422 243-2)"
+      ],
+      "youtube": [
+        {"videoId": "pRk3OCNVydE", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "QeIw7Y4UEHY", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "keiAABm6CVM", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Лейбловая путаница между ℗-приписками (Decca/DG/Philips/Electrola) — при публикации год требует доисследования по буклету."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Michael Gees",
+      "rec_year": "1992",
+      "year_source": "klassik-prisma (Prégardien / Gees / EMI / 1992). Метаданные официального Warner-трека дают ℗ 1996 (альбом «Schubert: Lieder von Abschied und Reise») — вероятно год издания/переиздания; расхождение не разрешено",
+      "album": "Schubert: Lieder von Abschied und Reise",
+      "label": "EMI Electrola / Warner Classics",
+      "age_voice": "36 лет; начало пика (~1990–2012), светлый теноровый Lied-голос в лучшем состоянии",
+      "reputation": "klassik-prisma — 5 баллов, единственная пятёрка среди современных исполнителей и единственный тенор в верхнем ярусе. Это оценка, устоявшаяся вне пиар-цикла (обзор датирован 2004/2008).",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "метаданные Topic-трека F5Yj8YQqZSU (Warner Classics, ℗ 1996, Michael Gees)"
+      ],
+      "youtube": [
+        {"videoId": "F5Yj8YQqZSU", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Сильнейший кандидат на «современное» место в пятёрке (запись не ранее 1990). Есть дубль на Topic-канале Михаэля Гееса (FREU4KgugEs)."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994",
+      "year_source": "klassik-prisma (Terfel / Martineau / DGG / 1994); ℗ 1994 Deutsche Grammophon в метаданных официального Topic-трека; дайджест певцов — сессии февраль 1994",
+      "album": "Schubert: An die Musik (23 песни)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "29 лет; начало пика (~1992–2005), крупный молодой бас-баритон",
+      "reputation": "klassik-prisma — 4–5 баллов. Диск-бестселлер; по правилам проекта к прессе о современных исполнителях следует относиться скептически, но оценка независимого немецкого обзора здесь высокая.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm",
+        "planning/research/singers-digest.md (Terfel, «An die Musik», DG, зап. февраль 1994, Martineau)",
+        "метаданные Topic-трека 9E12rdMTKfc (℗ 1994 DG)"
+      ],
+      "youtube": [
+        {"videoId": "9E12rdMTKfc", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Второй серьёзный кандидат на «современное» место (≥1990)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "2012",
+      "year_source": "planning/youtube/albums/complete-editions.md — «Goerne — Vol. 7 „Erlkönig“ (HMC 902141, зап. I.2012, Teldex; изд. 2013)»; описание официального ролика harmonia mundi указывает HMC902141, February 2013 (дата издания)",
+      "album": "Matthias Goerne Schubert Edition, Vol. 7 «Erlkönig» (HMC 902141)",
+      "label": "harmonia mundi",
+      "age_voice": "45 лет; конец заявленного пика (~1997–2015)",
+      "reputation": "В обзоре klassik-prisma оценена другая, более ранняя его версия — Goerne / A. Haefliger, Decca 1996, 4 балла. Версия 2012 обзором не покрыта. Гёрне — самый записываемый Schubert-баритон поколения; по правилу о пиаре современных оценки прессы фильтруются.",
+      "sources": [
+        "https://www.klassik-prisma.de/Erlkoenig.htm (версия 1996)",
+        "planning/youtube/albums/complete-editions.md (Vol. 7, зап. I.2012, Teldex; пианист Andreas Haefliger — Discogs)",
+        "описание официального ролика канала harmonia mundi music"
+      ],
+      "youtube": [
+        {"videoId": "lTjXk-cPkrY", "channel": "harmonia mundi music", "official": true, "oembed_ok": true}
+      ],
+      "note": "Один и тот же пианист в обеих версиях (1996 Decca и 2012 HM) — не спутать при атрибуции года."
+    },
+    {
+      "singer": "Konstantin Krimmel",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "2024 (издание)",
+      "year_source": "описание официального ролика Alpha Classics: «Album release date → July 2024», альбом «Mythos» (Schubert / Loewe). Год сессии не установлен",
+      "album": "Mythos (Schubert & Loewe)",
+      "label": "Alpha Classics",
+      "age_voice": "31 год; в пике (~2019–наст.), молодой баритон-балладник (дебютный альбом «Saga» — целиком баллады)",
+      "reputation": "Обзорами не покрыт (обзор klassik-prisma закрыт в 2008). Скепсис к пиару обязателен; ценность — единственный кандидат «не ранее 2015» с официальной загрузкой лейбла и с профильной балладной специализацией.",
+      "sources": [
+        "описание официального ролика Alpha Classics (m0Wwr582RGs)",
+        "planning/research/singers-digest.md (Krimmel, «Saga» — баллады, Alpha 2019, Tchakarova)"
+      ],
+      "youtube": [
+        {"videoId": "m0Wwr582RGs", "channel": "Alpha Classics", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат на квоту «не ранее 2015». Год сессии требует доисследования по буклету Alpha."
+    },
+    {
+      "singer": "Michael George (Hyperion Schubert Edition, vol. 24)",
+      "pianist": "Graham Johnson",
+      "rec_year": "1995 (℗)",
+      "year_source": "метаданные официального Topic-трека: «Schubert: Hyperion Song Edition 24 – A Goethe Schubertiad», ℗ 1995 Hyperion Records, релиз 01.10.1995. Дата сессии по доступным источникам не установлена",
+      "album": "The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad»",
+      "label": "Hyperion / Universal",
+      "age_voice": "бас-баритон, данных о состоянии голоса в дайджесте нет (в фонд не входит)",
+      "reputation": "Ценность — научный эталон издания Джонсона (комментарии); вокально не считается вершиной. Обзором klassik-prisma не покрыт.",
+      "sources": [
+        "метаданные Topic-трека YvFd4cn48oQ",
+        "planning/youtube/albums.md — Hyperion Schubert Edition, 40 CD, Graham Johnson"
+      ],
+      "youtube": [
+        {"videoId": "YvFd4cn48oQ", "channel": "Michael George - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "В своде Hyperion есть и вторая запись песни — Sarah Walker / Johnson, vol. 8 «Schubert & the Nocturne, Vol. 2», ℗ 1990 (GocIy2goGiI, Topic, живой)."
+    },
+    {
+      "singer": "Sarah Walker (Hyperion Schubert Edition, vol. 8)",
+      "pianist": "Graham Johnson",
+      "rec_year": "1990 (℗)",
+      "year_source": "метаданные официального Topic-трека: «Schubert: Hyperion Song Edition 8 – Schubert & the Nocturne, Vol. 2», ℗ 1990 Hyperion Records",
+      "album": "The Hyperion Schubert Edition, Vol. 8",
+      "label": "Hyperion / Universal",
+      "age_voice": "меццо; в фонд дайджеста не входит, данных нет",
+      "reputation": "Обзорами не покрыта; ценность — принадлежность к своду Джонсона.",
+      "sources": ["метаданные Topic-трека GocIy2goGiI"],
+      "youtube": [
+        {"videoId": "GocIy2goGiI", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Резерв."
+    },
+    {
+      "singer": "Wolfgang Holzmair",
+      "pianist": "Thomas Wyss (по klassik-prisma)",
+      "rec_year": "1992",
+      "year_source": "klassik-prisma (Holzmair / Wyss / Tudor / 1992)",
+      "album": "рецитал Tudor",
+      "label": "Tudor",
+      "age_voice": "40 лет; пик (1990-е); светлый, почти теноровый тембр — для баллады менее выигрышен",
+      "reputation": "klassik-prisma — 4 балла.",
+      "sources": ["https://www.klassik-prisma.de/Erlkoenig.htm"],
+      "youtube": [],
+      "note": "Официальной загрузки не искал прицельно: 4 балла ниже порога включения при наличии пятёрок. Резерв."
+    },
+    {
+      "singer": "Kim Borg",
+      "pianist": "Erik Werba (DGG ~1959); Hans Altmann (BR, неизданная ~1958)",
+      "rec_year": "~1958 / ~1959",
+      "year_source": "klassik-prisma (Borg / Altmann / unveröff. / ~1958 — «Aufnahme des Bayerischen Rundfunks»; Borg / Werba / DGG / ~1959)",
+      "album": "рецитал DGG; радиозапись BR (не издана)",
+      "label": "Deutsche Grammophon / Bayerischer Rundfunk",
+      "age_voice": "~39–40 лет (р. 1919)",
+      "reputation": "klassik-prisma — 4–5 баллов обеим версиям. Редкий настоящий бас в этой балладе.",
+      "sources": ["https://www.klassik-prisma.de/Erlkoenig.htm"],
+      "youtube": [],
+      "note": "Одна версия вообще не издана; в фонде проекта Борг числится только в резерве. YouTube-доступность не подтверждена."
+    },
+    {
+      "singer": "Marta Fuchs / Frida Leider / Therese Behr-Schnabel / Wilhelm Strienz / Heinrich Rehkemper",
+      "pianist": "Michael Raucheisen (Fuchs 1937, Leider 1941, Strienz 1944); Artur Schnabel (Behr-Schnabel 1932); Manfred Gurlitt (Rehkemper 1924)",
+      "rec_year": "1924 / 1932 / 1937 / 1941 / 1944",
+      "year_source": "klassik-prisma, таблицы мужчин и женщин",
+      "album": "исторические стороны Electrola/Polydor; переизд. EMI, DGG, Membran",
+      "label": "EMI / DGG / Membran",
+      "age_voice": "документы довоенной и военной немецкой школы; вокальное состояние по каждому не исследовалось",
+      "reputation": "klassik-prisma: Fuchs 4–5; Leider 4; Rehkemper 4; Strienz 4 («Stimme aufnahmebedingt gespreizt» — голос вымучен из-за условий записи); Behr-Schnabel 3 (худшая оценка обзора, при том что за роялем Артур Шнабель).",
+      "sources": ["https://www.klassik-prisma.de/Erlkoenig.htm"],
+      "youtube": [],
+      "note": "Групповая карточка исторического хвоста пула. В пятёрку не претендуют (кроме, возможно, Fuchs 1937); YouTube-доступность не проверялась."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "ЗАПИСАЛ. «Schubert: Goethe-Lieder», RCA, 1993, пианист Charles Spencer; klassik-prisma — 4 балла с оговоркой о шершавом низе. Источники: https://www.klassik-prisma.de/Erlkoenig.htm; метаданные официального Topic-трека -IisTC_fMCY (℗ 1993 BMG). Дополнительно — лайв в оркестровке Регера с Аббадо (DG 2003, Topic-трек RC71jOURWec).",
+    "Fischer-Dieskau": "ЗАПИСАЛ, минимум четырежды: EMI 1951 (Moore, 4–5), EMI 1958 (Moore, 5 — лучшая по klassik-prisma), Orfeo 1963 live Зальцбург (Moore, 4–5), DG 1968 (Moore, ℗ 1970, 4–5). Источник: https://www.klassik-prisma.de/Erlkoenig.htm + метаданные Topic-треков t39FzPnGX0I (℗ 1951 Parlophone), DbpCe9XzLjI / CVnan-LEEpE (℗ 1970 DG).",
+    "Schwarzkopf": "ЗАПИСАЛА. EMI, 1966, пианист Geoffrey Parsons, альбом «An Elisabeth Schwarzkopf Song Book, Vol. 2» (℗ 1968 Parlophone); klassik-prisma — 4–5 баллов, лучший женский результат после Норман. Источники: https://www.klassik-prisma.de/Erlkoenig.htm; метаданные Topic-трека 6B2QFfKlTuA.",
+    "Hotter": "НЕ ЗАПИСАЛ Шуберта D 328 (по доступным источникам). В обзоре klassik-prisma его нет. «Der Erlkönig» у Хоттера — это баллада КАРЛА ЛЁВЕ, op. 1 № 3: (а) Discogs, Seraphim «Great German Songs — Album 2» (Hotter/Moore), сторона B: B6 «Der Erlkonig, Op.1 No.3» между вокальными номерами Лёве (B7 «Edward, Op.1 No.1», B8 «Odins Meeresritt, Op.118»); (б) официальный Topic-трек -1MOPaSUXWY «Der Erlkönig, Op.1 No.3», ℗ 1959 Warner/EMI, с Муром, 214 с; (в) Topic-трек 8ojVEDbsLeY «C. Loewe: 3 Balladen, Op. 1: No. 3. Erlkonig», SWR Classic Archive, с Хубертом Гизеном. ЛОВУШКА: серый агрегатор One Media iP выложил ту же 215-секундную фонограмму под названием «Der Erlkönig D. 328/Op. 1» (трек s5eaqo3oOwM, альбом «Essential Composers: Schubert», ℗ 2013) — метаданные ложные, использовать нельзя.",
+    "Anders": "НЕ НАЙДЕНО. В обзоре klassik-prisma отсутствует; целевой поиск по YouTube даёт только Шуберта из циклов (Winterreise/Müllerin с Раухайзеном) и «Erlkönig» Лёве в исполнении однофамильца Peter Laurent Anders. Дайджест певцов перечисляет у Андерса только циклы. Отрицательный результат — по отсутствию свидетельств, не по прямому опровержению.",
+    "E. Schumann": "НЕ НАЙДЕНО. В обзоре klassik-prisma отсутствует. Дайджест: ~28 песен HMV 1927–49 (Naxos 8.110731), Erlkönig среди перечисленных нет. Поиск по YouTube выдаёт только фортепианную транскрипцию Листа в исполнении однофамилицы. Баллада с четырьмя ролями и низкой тесситурой лежит вне её лирико-сопранового амплуа.",
+    "Ludwig": "ЗАПИСАЛА. EMI, 1961, пианист Geoffrey Parsons, альбом «Schubert: 15 Lieder» (℗ 1967 Parlophone), переизд. в Warner «Complete Recitals». klassik-prisma — 4–5 баллов. Источники: https://www.klassik-prisma.de/Erlkoenig.htm; метаданные Topic-треков cIC6VqhgL58 / X36cZYKCOtI.",
+    "Popp": "НЕ ЗАПИСАЛА. Её основной шубертовский рецитал — EMI, сессии 1–6 ноября 1983, Abbey Road, с Ирвином Гейджем; полный трек-лист (Discogs release 6176352, примечания издания: «Recorded 1.-6.XI.1983, Abbey Road Studios, London») содержит 16 песен — D 860, 693, 692, 745, 633, 550, 870, 800, 854, 828, 774, 118, 881, 300, 891, 433, — Erlkönig среди них нет. В обзоре klassik-prisma её тоже нет."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder",
+      "singer": "Thomas Quasthoff",
+      "year": "1993 (℗); релиз 24.01.1994",
+      "label": "RCA Red Seal / BMG",
+      "facts": "Пианист Charles Spencer. Первый из шести шубертовских альбомов Квастхофа; дайджест датирует серию Goethe-Lieder 1993/95. По klassik-prisma — 4 балла за Erlkönig, замечание о шершавом нижнем регистре.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Vol. 4 (EMI)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессии 23–25 мая 1958, Берлин",
+      "label": "EMI / Warner Classics",
+      "facts": "Пианист Gerald Moore, продюсер Christfried Bickenbach. Источник версии Erlkönig, которую klassik-prisma называет лучшей из всех записей Фишера-Дискау (5 баллов). Альбом уже в реестре по D 805.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессии 1966–1972; Erlkönig по klassik-prisma — 1968, ℗ 1970",
+      "label": "Deutsche Grammophon",
+      "facts": "Ufa-Ton-Studio Berlin, Gerald Moore. Полный свод мужских песен; на YouTube выложен двумя параллельными релизами («Schubert: Lieder» и «Schubert: Lieder (Vol. 1)») с идентичной фонограммой.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "An Elisabeth Schwarzkopf Song Book, Vol. 2",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "запись 1966 (klassik-prisma); ℗ 1968, LP изд. 1968–69",
+      "label": "HMV/Angel (EMI) / Warner Classics",
+      "facts": "Пианист Geoffrey Parsons. Входит в Warner-бокс «Complete Recitals 1952–1974» и в сборник «Icon: Elisabeth Schwarzkopf». klassik-prisma — 4–5 баллов.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 15 Lieder / The Complete Recitals on Warner Classics",
+      "singer": "Christa Ludwig",
+      "year": "Erlkönig — 1961 (klassik-prisma); ℗ 1967",
+      "label": "EMI / Warner Classics",
+      "facts": "Пианист Geoffrey Parsons. Уже в реестре пилота (D 118, D 839, D 799): сессии корпуса 1957–1969, тот же круг дал 5-звёздную Gretchen по klassik-prisma.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Philips)",
+      "singer": "Jessye Norman",
+      "year": "запись апрель 1984; ℗ 1985, релиз 24.09.1985",
+      "label": "Philips / Universal",
+      "facts": "Пианист Phillip Moll. Уже в реестре альбомов пилота (D 852, D 118). Erlkönig — 5 баллов klassik-prisma, единственная пятёрка среди женщин.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: An die Musik (23 песни)",
+      "singer": "Bryn Terfel",
+      "year": "сессии февраль 1994; ℗ 1994",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Malcolm Martineau. Бестселлер; klassik-prisma — 4–5 баллов за Erlkönig.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder von Abschied und Reise",
+      "singer": "Christoph Prégardien",
+      "year": "1992 по klassik-prisma; ℗ 1996 Warner",
+      "label": "EMI Electrola / Warner Classics",
+      "facts": "Пианист Michael Gees. Единственная современная запись с 5 баллами klassik-prisma; трек продублирован на Topic-канале пианиста.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Matthias Goerne Schubert Edition, Vol. 7 «Erlkönig» (HMC 902141)",
+      "singer": "Matthias Goerne",
+      "year": "сессии январь 2012, Teldex; издание февраль 2013",
+      "label": "harmonia mundi",
+      "facts": "Пианист Andreas Haefliger. Уже в реестре (D 768, D 799, D 853). Заглавный номер тома. Более ранняя версия того же дуэта (Decca 1996) получила у klassik-prisma 4 балла.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Mythos (Schubert & Loewe)",
+      "singer": "Konstantin Krimmel",
+      "year": "издание июль 2024; год сессии не установлен",
+      "label": "Alpha Classics",
+      "facts": "Пианист Ammiel Bushakevitz. Балладная программа (Шуберт и Лёве) — прямое продолжение его дебютного балладного альбома «Saga» (Alpha 2019). Официальное видео на канале лейбла.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» / Vol. 8 «Schubert & the Nocturne, Vol. 2»",
+      "singer": "Michael George / Sarah Walker",
+      "year": "℗ 1995 / ℗ 1990",
+      "label": "Hyperion / Universal",
+      "facts": "Пианист и комментатор Graham Johnson. Полный свод песен Шуберта содержит Erlkönig дважды. С 2023 (Universal) доступен как official audio на Topic-каналах.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lebendige Vergangenheit — Gerhard Hüsch (Preiser)",
+      "singer": "Gerhard Hüsch",
+      "year": "оригинал 1939; переизд. Preiser 2006",
+      "label": "Electrola (HMV) / Preiser Records",
+      "facts": "Пианист Hanns Udo Müller — тот же дуэт, что записал эталонные Winterreise 1933 и Müllerin 1934/35. klassik-prisma — 5 баллов, первая строка мужской таблицы.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "title": "Das Klassik-Prisma (Bernd Stremmel) — сравнительный обзор записей «Erlkönig op. 1 D. 328»",
+      "url": "https://www.klassik-prisma.de/Erlkoenig.htm",
+      "date": "опубликован 30.12.2004, последнее дополнение 06.04.2008",
+      "content": "26 записей (20 мужских, 6 женских) с пианистом, лейблом, годом, хронометражем и оценкой по 5-балльной шкале. Пятёрки: Hüsch/Müller (EMI 1939), Souzay/Bonneau (Decca ~1955), Fischer-Dieskau/Moore (EMI 1958), Prégardien/Gees (EMI 1992), Norman/Moll (Philips 1984). Авторский вывод по Фишеру-Дискау: из всех его записей лучшая — EMI 1958, где повествовательный тон и театральность баллады уравновешены; в остальных он больше склоняется к театрально-декламационной подаче."
+    },
+    {
+      "title": "Реестр альбомов проекта",
+      "url": "planning/youtube/albums.md, planning/youtube/albums/complete-editions.md, male-recitalists.md, female-recitalists.md",
+      "content": "Карточки FiDi/EMI 1958, FiDi/DG 1966–72, Goerne HM Vol. 7 (зап. I.2012), Kipnis (Victor 15825, изд. 1940), Lehmann (Odéon 1930 и Victor 1947 по дискографии М. Грея), Prey/Philips ℗ 1973–74 (Erlkönig как довесок Schwanengesang-диска 422 243-2)."
+    }
+  ],
+  "negatives": [
+    "MusicBrainz-каркас d328-erlkonig.mb.json бесполезен: сматчена не та работа (аудиокнига Jim Butcher / Richard Barenberg, 43 трека «Teil NN»). Для этой песни MB как источник дискографии не использовался.",
+    "Hotter НЕ записывал Шуберта D 328 — его «Der Erlkönig» с Муром (℗ 1959 EMI) и с Гизеном (SWR) — это баллада Лёве op. 1 № 3; подтверждено трек-листом Seraphim «Great German Songs — Album 2» (Discogs 6350030), где номер стоит среди песен Лёве. Серый агрегатор One Media iP переподписал ту же фонограмму как «D. 328» (ролик s5eaqo3oOwM) — ложные метаданные.",
+    "Popp НЕ записывала Erlkönig: её рецитал EMI (сессии 1–6 ноября 1983, Abbey Road, с Gage) состоит из 16 других песен (Discogs 6176352).",
+    "Peter Anders и Elisabeth Schumann: записи Erlkönig не обнаружены ни в обзоре klassik-prisma, ни в дайджесте фонда, ни целевым поиском по YouTube.",
+    "Fischer-Dieskau EMI 1958 (лучшая версия по обзору) на официальных каналах не найдена — доступна только фан-загрузка «incontrario motu» (a2J9Yn2YjjE, живая, встраиваемая, с указанием сессии 23–25.V.1958). Официально доступны его версии 1951 (Warner) и 1968/70 (DG).",
+    "Schlusnus (DG 1933, 4 балла) — официальных загрузок нет, только фан-переносы 78-х.",
+    "Kипнис на своём Topic-канале представлен серым агрегатором The Orchard: кредиты в описаниях свалены в общий список артистов сборника, атрибуция ненадёжна.",
+    "Souzay/Bonneau: год записи не установлен — klassik-prisma даёт «~1955» (Decca), Naxos Classical Archives озаглавил переиздание «(1950)». Требуется доисследование; допустим формат года «1950–55?».",
+    "Prégardien/Gees: klassik-prisma — 1992 (EMI), метаданные Warner — ℗ 1996. Расхождение не разрешено.",
+    "Prey: год и лейбл требуют доисследования — ℗-приписки на Topic-каналах дают 1962 (Decca), 1973 (Universal) и 1974 (DG), тогда как klassik-prisma указывает Philips ℗ 1974 и Intercord 1982.",
+    "Krimmel/Alpha: известна только дата издания альбома (июль 2024); год сессии не установлен.",
+    "Обзоры Gramophone, MusicWeb International, BBC Music Magazine и страницу песни на hyperion-records.co.uk (заметки Грэма Джонсона) проверить не удалось: бюджет WebSearch в сессии исчерпан (200/200), поисковые системы через curl/WebFetch отдают капчу, поиск на сайте Hyperion работает через JavaScript. Это открытый пробел досье.",
+    "Слепые тесты (типа France Musique «Tribune des critiques de disques») по D 328 не найдены — по той же причине недоступности поиска."
+  ]
+}

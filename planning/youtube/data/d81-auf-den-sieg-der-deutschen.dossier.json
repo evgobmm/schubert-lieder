@@ -1,0 +1,47 @@
+{
+ "d": "81",
+ "title": "Auf den Sieg der Deutschen",
+ "scoring": "голос, две скрипки и виолончель (без фортепиано)",
+ "candidates": [
+  {
+   "singer": "Detlef Roth",
+   "pianist": "нет — в записи не участвует фортепиано",
+   "ensemble": "Reto Kuppel и Peter Riehm (скрипки), Daniel Grosgurin (виолончель); звукорежиссёр Anton Billmayer",
+   "rec_year": "2010 (℗ 2010 Naxos, released 2010-03-30)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (т. 35 «Rarities, Fragments and Alternative Versions», Naxos 8.572322, изд. 03/2010) + кредиты official audio (Naxos of America)",
+   "album": "Schubert: Lied Edition 35 — Rarities, Fragments, and Alternative Versions (Naxos 8.572322)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть полного научного свода Naxos; оригинальный инструментальный состав, не фортепианная редукция",
+   "videoId": "8BVlbMN-0bo",
+   "channel": "Detlef Roth - Topic",
+   "official": true,
+   "verify": "глубокая верификация 2026-08-17: том подтверждён по кредитам official audio (ранее в досье ошибочно значился т. 17 «Austrian Contemporaries, Vol. 2»); состав исполнителей совпадает с оригинальным инструментарием песни",
+   "name_issue": "гейт требует формат «Фамилия — Фамилия пианиста»; пианиста в записи нет. Нужно решение уровня правил (предложение: во втором слоте — фамилии аккомпаниаторов, «Roth — Kuppel/Riehm/Grosgurin»; текущая регулярка gate.js допускает «/» во второй части и такую форму пропустит)"
+  }
+ ],
+ "rejected": [
+  {
+   "videoId": "sVeV5P3Lsgw",
+   "channel": "Pep Serdà",
+   "reason": "любительская загрузка не-Topic-канала; состав переделан (флейта, альт, виолончель, скрипка + сопрано Dolors Lozano), дискографических данных нет"
+  },
+  {
+   "videoId": "FlH4BO6ysLc",
+   "channel": "Franz Schubert Channel",
+   "reason": "неофициальная перезаливка (241 с при 243 с у Naxos-Topic); предпочтение официальному источнику"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "не найдено",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Крайне редкая патриотическая ода (1813, ~4 мин). Пул кандидатов минимален: единственный надёжный оригинальный вариант — Detlef Roth / Naxos DSLE т. 35 (Topic), плюс любительская загрузка и неофициальная перезаливка. Топ короче пяти позиций. Остальные видео исходного candidates.json относятся к другим песням (D 80, D 83, D 88, D 51, D 61, D 902 и др.) и исключены."
+}

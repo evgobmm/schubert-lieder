@@ -1,0 +1,44 @@
+{
+ "d": "50",
+ "title": "Die Schatten",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, 21 CD)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен",
+   "videoId": "3tl4N81Sn3A",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Adrian Thompson",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен (том Hyperion не идентифицирован)",
+   "year_source": "MusicBrainz (mb_artists candidates.json)",
+   "album": "The Hyperion Schubert Edition (том не определён)",
+   "label": "Hyperion",
+   "voice_note": "не установлено",
+   "reputation": "часть научного эталонного свода Джонсона",
+   "videoId": "uvkfEQ0NVbc",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Пул небольшой: значительных исполнений этой редко записываемой песни на YouTube всего два надёжных (DFD полный свод + Hyperion). Остальные кандидаты в выдаче — учебные/любительские загрузки без певца (sightread, партитура) или не по теме (Namenstagslied D 695, Geisternähe D 100, Lied aus der Ferne D 107, Im Frühling — другие сочинения)."
+}

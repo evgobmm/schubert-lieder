@@ -1,0 +1,70 @@
+{
+ "d": "30",
+ "title": "Der Jüngling am Bache",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, 21 CD, Ufa-Ton-Studio Berlin)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "певец на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для любой мужской песни Шуберта — полный свод",
+   "videoId": "GFZMLNxpV68",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Janet Baker",
+   "pianist": "Gerald Moore",
+   "rec_year": "1970",
+   "year_source": "реестр: planning/youtube/albums.md (2 LP, Abbey Road Studio 1, авг./сент./дек. 1970)",
+   "album": "Schubert: Lieder (2 LP, 30 песен)",
+   "label": "EMI / Warner Classics",
+   "voice_note": "на пике (пик по дайджесту ~1965–1982)",
+   "reputation": "классика жанра, эталонный рецитал",
+   "videoId": "MdI1ohjXuDs",
+   "channel": "Janet Baker - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не позднее 2005/2006 (издание т. 20/21)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos Deutsche Schubert-Lied-Edition, т. 20/21)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 20 «Poets of Sensibility, Vol. 3»",
+   "label": "Naxos",
+   "voice_note": "не установлено отдельно",
+   "reputation": "часть полного немецкоязычного свода Eisenlohr",
+   "videoId": "7cHEtAXAfKo",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Lothar Odinius",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не позднее 2005 (издание т. 18)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos, т. 18 «Schiller, Vols. 3 & 4»)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 18 (вариант D 30a)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть полного свода Eisenlohr, но это редакция D 30a (иная версия), не основной D 30",
+   "videoId": "X_0f1V_Zi-E",
+   "channel": "Lothar Odinius - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено — вне его 6 Schubert-альбомов (дайджест)",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "У песни три шубертовских редакции (D 30/I, D 192/II, D 638/III на тот же текст Шиллера); в кандидатах отфильтрованы только явно помеченные D.30/D.30a. DFD-Topic выдал несколько videoId с одинаковым названием (I) — вероятно дубли по разным изданиям того же трека; для публикации нужно проверить через oEmbed и взять один живой."
+}

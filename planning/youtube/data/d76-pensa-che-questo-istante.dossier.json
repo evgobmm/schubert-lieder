@@ -1,0 +1,71 @@
+{
+ "d": "76",
+ "title": "Pensa che questo istante",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, 21 CD)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен",
+   "videoId": "G6wTEPrXm_Y",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Stephen Varcoe",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен (том Hyperion не идентифицирован)",
+   "year_source": "MusicBrainz (mb_artists candidates.json)",
+   "album": "The Hyperion Schubert Edition (том не определён)",
+   "label": "Hyperion",
+   "voice_note": "не установлено",
+   "reputation": "часть научного эталонного свода Джонсона",
+   "videoId": "EQvn15c1FZs",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolf Matthias Friedrich",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2003",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos т. 14 «European Poets, Vol. 2», изд. 08/2003) — сопоставлено через registry_hits того же дуэта Boog/Friedrich",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 14",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть полного немецкоязычного свода Eisenlohr",
+   "videoId": "SFHKqjTQPYA",
+   "channel": "Wolf Matthias Friedrich - Topic",
+   "official": true,
+   "note": "есть также редакция 76b (2-я версия, voCNc2lzOqA) того же исполнителя"
+  },
+  {
+   "singer": "Cecilia Bartoli",
+   "pianist": "András Schiff",
+   "rec_year": "1993",
+   "year_source": "singers-digest.md (Bartoli — Шуберт только в «Italian Songs» с Schiff, Decca 1993); подтверждено mb_artists",
+   "album": "Italian Songs",
+   "label": "Decca",
+   "voice_note": "пик по дайджесту ~1988 и далее; ранняя, сильная запись",
+   "reputation": "единственный шубертовский альбом Бартоли — специализированная программа итальянских песен, к которой D 76 относится жанрово точно",
+   "videoId": "JmGNOwEJfCk",
+   "channel": "Cecilia Bartoli (не Topic, но официальный контекст по дайджесту)",
+   "official": false
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Немузыкальные/непрофильные результаты выдачи исключены: ария из оперы Глинки (Кузьмин-Караваев), фрагмент оркестрового D 74a, транскрипции для альта/гитары и кларнета — не подходят под формат подстрочника с певцом."
+}

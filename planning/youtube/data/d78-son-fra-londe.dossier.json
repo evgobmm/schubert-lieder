@@ -1,0 +1,71 @@
+{
+ "d": "78",
+ "title": "Son fra l'onde (Aria di Venere)",
+ "candidates": [
+  {
+   "singer": "не установлен (канал «Graham Johnson - Topic»)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "не найден том Hyperion Schubert Edition с этой песней",
+   "album": "The Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion",
+   "voice_note": "не установлено",
+   "reputation": "часть научного эталонного свода Джонсона",
+   "videoId": "VYTuUN_fFCQ",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "note": "Проверено целевым WebFetch: Hyperion Vol. 6 (Rosslyn Hill Chapel, IX.1989, Anthony Rolfe Johnson) — том «all lullabies and barcarolles», D 78 туда НЕ подходит по теме. Регистр ошибочно сопоставил по фамилии Johnson. Реальный том и певец не идентифицированы (вероятно один из томов ранних песен — Vol. 12/20/33/34 — но точное совпадение не найдено); YouTube Topic-канал назван по пианисту, что для Hyperion нетипично и может указывать на техническую особенность метаданных этого конкретного трека, а не на реального вокалиста."
+  },
+  {
+   "singer": "Mary Bevan",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет совпадения с реестром",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не установлено",
+   "reputation": "не установлено; современное сопрано, официальный Topic-канал",
+   "videoId": "AuJfKx7z34M",
+   "channel": "Mary Bevan - Topic",
+   "official": true
+  },
+  {
+   "singer": "Maya Boog",
+   "pianist": "Ulrich Eisenlohr (по остальным томам Naxos Deutsche Schubert-Lied-Edition в реестре)",
+   "rec_year": "не установлен для этого трека",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (её тома — 14 «European Poets Vol. 2», 18 «Schiller Vols. 3&4»; ни один явно не назван для D 78 — том для этого трека не идентифицирован)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition (том не идентифицирован)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "не установлено отдельно",
+   "videoId": "T0IrtFnu4Vw",
+   "channel": "Maya Boog - Topic",
+   "official": true
+  },
+  {
+   "singer": "Marina Comparato",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет совпадения с реестром",
+   "album": "не идентифицирован (концертная запись, судя по названию «alla Pergola»)",
+   "label": "не установлен",
+   "voice_note": "не установлено",
+   "reputation": "итальянское меццо, известное в барочном репертуаре; не Topic-канал, собственная загрузка",
+   "videoId": "Rpo2GIkXoz0",
+   "channel": "Marina Comparato - Official",
+   "official": false
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "не найдено (D 78 не пел — женские/итальянские номера не входили в его репертуар)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Крайне редкая ранняя итальянская ария (1815, ~2 мин); пул кандидатов малочисленный и по большей части без надёжной дискографической атрибуции. Дальнейшее исследование (WebSearch) заблокировано лимитом сессии; для точного тома Hyperion/Naxos и имени певца нужно целевое доисследование сильной моделью с доступом к поиску."
+}

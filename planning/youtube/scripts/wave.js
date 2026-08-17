@@ -47,7 +47,7 @@ const TOP5_SCHEMA = {
         properties: {
           videoId: { type: 'string' },
           name: { type: 'string', description: 'Формат «Фамилия — Фамилия пианиста», латиницей, как в performances.json' },
-          year: { type: 'number' },
+          year: { description: 'число; либо строка-диапазон с «?» (напр. "1957–67?") для неустановленной даты приоритетной записи' },
         },
         required: ['videoId', 'name', 'year'],
       },

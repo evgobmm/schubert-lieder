@@ -1,0 +1,86 @@
+{
+ "d": "44",
+ "title": "Totengräberlied",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, 21 CD)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен",
+   "videoId": "7Iipv3Tip1Q",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Kurt Moll",
+   "pianist": "Cord Garben",
+   "rec_year": "1982",
+   "year_source": "реестр: planning/youtube/albums/male-recitalists.md (Orfeo S 021821 A, изд. 1982)",
+   "album": "Schubert: Lieder for Bass",
+   "label": "Orfeo",
+   "voice_note": "не установлено (запись в его основной вокальный период)",
+   "reputation": "по Wikipedia (статья Kurt Moll) — «set a new standard for these songs»; редчайший специализированный басовый Schubert-рецитал",
+   "videoId": "EbplGsdu4IQ",
+   "channel": "Kurt Moll - Topic",
+   "official": true,
+   "note": "видео помечено «2nd setting» — уточнить при верификации, что это тот же D 44, а не иной номер"
+  },
+  {
+   "singer": "Stephen Varcoe",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен (том Hyperion не идентифицирован)",
+   "year_source": "MusicBrainz (mb_artists candidates.json); карточка тома в реестре не найдена",
+   "album": "The Hyperion Schubert Edition (том не определён)",
+   "label": "Hyperion",
+   "voice_note": "не установлено",
+   "reputation": "часть научного эталонного свода Джонсона",
+   "videoId": "jl3xXolagrQ",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "Gérard Wyss или Ulrich Eisenlohr (не установлено, какой альбом)",
+   "rec_year": "не установлен",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md, modern-series.md (несколько альбомов Хольцмайра — не сопоставлено, какой именно содержит D 44)",
+   "album": "не идентифицирован",
+   "label": "Naxos или Philips",
+   "voice_note": "не установлено",
+   "reputation": "не установлено для этой конкретной записи",
+   "videoId": "-5VL0Bf-1_s",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Cornelius Hauptmann",
+   "pianist": "Stefan Laux",
+   "rec_year": "не позднее 2000 (издание т. 4)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos т. 4 «Mayrhofer, Vol. 1», изд. 02/2000)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 4",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "не установлено отдельно",
+   "videoId": "A3gQs0ifHYs",
+   "channel": "Cornelius Hauptmann - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [
+  "Kurt Moll — Schubert: Lieder for Bass (Orfeo, 1982, Cord Garben) — не было в реестре, добавлено фактом выше."
+ ],
+ "note": "На видеовыдаче также встречались другие похожие названия того же корня — Totengräberlied D 38 (иная, более ранняя песня), Totengräberweise D 869, Totengräbers Heimweh D 842 — исключены из пула как другие сочинения."
+}

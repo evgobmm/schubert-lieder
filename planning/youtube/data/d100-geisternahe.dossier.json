@@ -1,0 +1,98 @@
+{
+ "d": "100",
+ "title": "Geisternähe",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, DG, 21 CD)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "на вокальном пике конца 1960-х",
+   "reputation": "базовая точка отсчёта для мужских песен; высший приоритет №2 по правилам потока",
+   "videoId": "Wi-3JmISeNU",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубль того же мастера: vBkb9NXZtkA"
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "Eric Schneider",
+   "rec_year": "сессии свода 2007–2012, том издан 2013–2014",
+   "year_source": "реестр: planning/youtube/albums.md (Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied», harmonia mundi, HMC 902109/10)",
+   "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied»",
+   "label": "harmonia mundi",
+   "voice_note": "по singers-digest: пик ~1997–2015 — попадает в основной период",
+   "reputation": "крупнейший сольный шубертовский свод последних десятилетий; том получил рецензию classical-music.com/BBC Music Magazine (06.2014)",
+   "videoId": "myOAT8IRhnA",
+   "channel": "Matthias Goerne",
+   "official": false,
+   "note": "загрузка на личный канал певца, не Topic — проверить встраиваемость отдельно"
+  },
+  {
+   "singer": "не установлен (канал «Graham Johnson - Topic»)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "не найден том Hyperion Schubert Edition с этой песней (проверка Vol. 6 «lullabies and barcarolles» показала несовпадение по теме — как и в досье D 78/D 104 с тем же паттерном)",
+   "album": "The Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion",
+   "voice_note": "не установлено",
+   "reputation": "часть научного эталонного свода Джонсона",
+   "videoId": "JbzYHL2h0Lk",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Siegfried Lorenz",
+   "pianist": "Norman Shetler",
+   "rec_year": "1975–1985 (серия Eterna)",
+   "year_source": "реестр: planning/youtube/albums/male-recitalists.md (Eterna-серия с Norman Shetler)",
+   "album": "Eterna Schubert-серия (том не уточнён)",
+   "label": "Eterna",
+   "voice_note": "не установлено",
+   "reputation": "не установлено отдельно",
+   "videoId": "gtfuB_gxugc",
+   "channel": "Siegfried Lorenz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Georg Poplutz",
+   "pianist": "Hilko Dumno",
+   "rec_year": "2017",
+   "year_source": "реестр: planning/youtube/albums.md (Schubert, Beethoven & Schumann: Lieder an die Entfernte, Spektral, 2017)",
+   "album": "Schubert, Beethoven & Schumann: Lieder an die Entfernte",
+   "label": "Spektral",
+   "voice_note": "не установлено",
+   "reputation": "тематическая программа о теме «удалённой возлюбленной» — Geisternähe (о духовной близости на расстоянии) тематически соответствует",
+   "videoId": "mc6tBMCaAoQ",
+   "channel": "Georg Poplutz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Thomas E. Bauer",
+   "pianist": "Ulrich Eisenlohr (по аналогии)",
+   "rec_year": "не установлен для этого трека",
+   "year_source": "реестр указывает его тома для других песен; том для D 100 не идентифицирован",
+   "album": "Naxos Deutsche Schubert-Lied-Edition (том не идентифицирован)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "не установлено отдельно",
+   "videoId": "5KtEVfhIUV0",
+   "channel": "Thomas E. Bauer - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG), см. выше",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "ВАЖНО: несколько кандидатов из исходного candidates.json (Christian Gerhaher — c1pVOJ_njyI, Nathalie Stutzmann — FQerq_wqkEw, Ernst Haefliger — 9-C4-r9o8Aw и lL2iVe_-H7k) промаркированы как «Lieder und Gesänge, Op. 77: Geisternähe» — это ДРУГОЕ сочинение (не Шуберт D 100), совпадающее только заглавием; исключены из пула. Также исключена запись «Andenken, D. 99» (Y2hLLy5kd28, Fischer-Dieskau) — относится к досье D 99, а не D 100."
+}
