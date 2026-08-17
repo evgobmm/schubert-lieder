@@ -1,0 +1,100 @@
+{
+  "d": "702",
+  "title": "Der Jüngling auf dem Hügel",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "реестр: albums/complete-editions.md §3 (DG Sämtliche Lieder, конвенция года — 1969); mb_artists файла подтверждает пару",
+      "album": "Schubert: Sämtliche Lieder (DG, зап. 1966–1972)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "пик формы по своду (дайджест)",
+      "reputation": "базовая точка отсчёта (реестр)",
+      "videoId": "iOOnkDHx_yg",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true,
+      "note": "4 дубля; в основном 306s, один 310s (Eb6OTiPXl3o) — минорное отклонение."
+    },
+    {
+      "singer": "Marjana Lipovšek",
+      "pianist": "Graham Johnson",
+      "rec_year": 1996,
+      "year_source": "реестр: albums/complete-editions.md §1 (Hyperion Vol. 29 «Schubert in 1819 & 1820», CDJ33029, зап. XII.1996); mb_artists файла подтверждает пару, песня датирована 1820",
+      "album": "Hyperion Schubert Edition, Vol. 29",
+      "label": "Hyperion",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "научный эталон свода (реестр)",
+      "videoId": "wWKfpGmp0-U",
+      "channel": "Graham Johnson - Topic",
+      "official": true
+    },
+    {
+      "singer": "Rainer Trost",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": 2008,
+      "year_source": "реестр: albums/complete-editions.md §2 (Naxos DSLE Vol. 28 «Friends, Vol. 3», изд. 09/2008)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, Vol. 28",
+      "label": "Naxos",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "не исследовано отдельно",
+      "videoId": "_5ZP0mhN6Jg",
+      "channel": "Rainer Trost - Topic",
+      "official": true
+    },
+    {
+      "singer": "Ian Partridge",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен — не входит ни в один свод реестра (Hyperion/Naxos/Goerne); вероятно отдельный британский рецитал 1970–80-х",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "видный британский Lieder-тенор поколения Питера Пирса; общее знание, не из источника проекта",
+      "videoId": "lIR4kYEod80",
+      "channel": "Ian Partridge - Topic",
+      "official": true,
+      "note": "НОВАЯ находка для реестра — повторяется также в D 712, вероятно один и тот же рецитал/свод."
+    },
+    {
+      "singer": "Christian Elsner",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен — Naxos-том Эльснера в реестре (Vol. 5, «Die schöne Müllerin») не связан с этой песней; аномальная длительность (362s против ~305–310s у прочих) требует проверки",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "не исследовано",
+      "videoId": "tZQSnsma310",
+      "channel": "Christian Elsner - Topic",
+      "official": true
+    },
+    {
+      "singer": "Jasper Schweppe (voice) / Riko Fukuda (fortepiano)",
+      "pianist": "Riko Fukuda",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен — период-инструментальный проект (см. также D 685)",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "нишевый период-инструментальный интерес",
+      "videoId": "xwdZn2UHox4",
+      "channel": "Riko Fukuda - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "отсутствует",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder (см. выше)",
+    "Schwarzkopf": "отсутствует",
+    "Hotter": "отсутствует",
+    "Anders": "отсутствует",
+    "E. Schumann": "отсутствует",
+    "Ludwig": "отсутствует",
+    "Popp": "отсутствует"
+  },
+  "new_albums": [
+    "Ian Partridge — отдельный британский Schubert-рецитал (лейбл/год не установлены); появляется также в D 712 — вероятно единый свод, стоит доисследовать для реестра.",
+    "Jasper Schweppe / Riko Fukuda — период-инструментальный проект редких песен (см. дублирующую заметку в D 685)."
+  ]
+}

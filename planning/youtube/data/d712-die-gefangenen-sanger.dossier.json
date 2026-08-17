@@ -1,0 +1,111 @@
+{
+  "d": "712",
+  "title": "Die gefangenen Sänger",
+  "candidates": [
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin (предположительно)",
+      "rec_year": null,
+      "year_source": "реестр: albums/complete-editions.md §6 (серия Philips с Baldwin, кон. 1960-х — 1980-е) — точный альбом/год для этой конкретной песни не сверен",
+      "album": "серия Philips (Ameling/Baldwin) — конкретный релиз не установлен",
+      "label": "Philips",
+      "voice_note": "самая записываемая шубертианка поколения (дайджест)",
+      "reputation": "не исследовано отдельно для этого трека",
+      "videoId": "8gYmmlouL7Y",
+      "channel": "Elly Ameling - Topic",
+      "official": true
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "реестр: albums/complete-editions.md §3 (DG Sämtliche Lieder, конвенция года — 1969); mb_artists файла подтверждает пару",
+      "album": "Schubert: Sämtliche Lieder (DG, зап. 1966–1972)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "пик формы по своду (дайджест)",
+      "reputation": "базовая точка отсчёта (реестр)",
+      "videoId": "ywPMPXP6WS4",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true,
+      "note": "4 дубля, один с опечаткой в названии («Der gefangene Sänger», Zrovv2_rACE) — та же запись."
+    },
+    {
+      "singer": "Christine Schäfer",
+      "pianist": "Irwin Gage",
+      "rec_year": null,
+      "year_source": "mb_artists файла («Christine Schäfer, Irwin Gage») — пара не совпадает с её известной по дайджесту Winterreise (Onyx 2006, Schneider); вероятно более ранний рецитал 1990-х, альбом/год не установлены",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "не исследовано отдельно",
+      "videoId": "c9Kiyl1WMeU",
+      "channel": "Christine Schäfer - Topic",
+      "official": true
+    },
+    {
+      "singer": "Markus Schäfer",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": 2007,
+      "year_source": "реестр: albums/complete-editions.md §2 (Naxos DSLE Vol. 25 «Romantic Poets, Vol. 2», изд. 11/2007)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, Vol. 25",
+      "label": "Naxos",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "не исследовано отдельно",
+      "videoId": "tvKJmdJEgMg",
+      "channel": "Markus Schäfer - Topic",
+      "official": true
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Graham Johnson",
+      "rec_year": null,
+      "year_source": "mb_artists файла («Matthias Goerne, Graham Johnson») — вероятно Hyperion Vol. 34 «Schubert 1817–1821» (сборный, год песни ~1821 совпадает по тематике тома), трек-лист не сверен",
+      "album": "Hyperion Schubert Edition, Vol. 34 (предположительно)",
+      "label": "Hyperion",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "научный эталон свода (реестр)",
+      "videoId": "H6I-N6ySdwM",
+      "channel": "Graham Johnson - Topic",
+      "official": true
+    },
+    {
+      "singer": "Ian Partridge",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен — см. заметку в D 702 (та же новая находка)",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "видный британский Lieder-тенор поколения Питера Пирса",
+      "videoId": "PnaS4kn_Oq8",
+      "channel": "Ian Partridge - Topic",
+      "official": true
+    },
+    {
+      "singer": "Bethany Beardslee",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "американское сопрано (1927–2023), известна прежде всего репертуаром XX века, а не Шубертом — включение в пул неожиданное, значимость записи не подтверждена",
+      "videoId": "h-J_ZaqPsQQ",
+      "channel": "Bethany Beardslee - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "отсутствует",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder (см. выше)",
+    "Schwarzkopf": "отсутствует",
+    "Hotter": "отсутствует",
+    "Anders": "отсутствует",
+    "E. Schumann": "отсутствует",
+    "Ludwig": "отсутствует",
+    "Popp": "отсутствует"
+  },
+  "new_albums": [
+    "Ian Partridge — см. заметку в D 702."
+  ]
+}

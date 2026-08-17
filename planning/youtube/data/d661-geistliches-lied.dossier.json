@@ -1,0 +1,57 @@
+{
+  "d": "661",
+  "title": "Hymne III (D 661, Новалис, «Wenn alle untreu werden»)",
+  "note": "Bernarda Fink в исходном candidates.json попала по поисковому совпадению «Hymne»/«Novalis»-контекста, но её ролик — «Die Sternenwelten D.307», другая песня; исключена из пула как контаминация.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция проекта; сессии свода 1966–1972)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §3 (DG Sämtliche Lieder)",
+      "album": "DG Sämtliche Lieder",
+      "label": "Deutsche Grammophon",
+      "voice_note": "на вокальном пике свода",
+      "reputation": "часть полного свода",
+      "videoId": "2XufUTpUM6w",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Sibylla Rubens",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "не установлен (издание 04/2008)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §2 (Naxos т. 26 «Romantic Poets, Vol. 3», 8.557832) — вывод по аналогии с Hymne I/II/IV того же тома, прямой Topic-хит на Hymne III не найден в выдаче",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 26 «Romantic Poets, Vol. 3»",
+      "label": "Naxos",
+      "voice_note": "не документировано",
+      "reputation": "весь новалисовский блок (I, II, IV) на этом томе подтверждён — Hymne III почти наверняка там же, требует финальной проверки трек-листа",
+      "videoId": null,
+      "channel": "Sibylla Rubens - Topic",
+      "official": true
+    },
+    {
+      "singer": "не установлен (тематический проект по Новалису)",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "нет в реестре",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "см. new_albums в d658",
+      "reputation": "не исследовано",
+      "videoId": "AIl14hbq8Uo",
+      "channel": "Laura Fabris - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет записи",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": []
+}

@@ -1,0 +1,44 @@
+{
+ "d": "671",
+ "title": "Trost (Mayrhofer)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-72",
+   "year_source": "реестр: planning/youtube/albums.md (DG «Sämtliche Lieder», 21 CD)",
+   "album": "Schubert: Sämtliche Lieder (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "часть полного свода",
+   "reputation": "эталонный свод; отдельно трек не разобран прессой; ЕДИНСТВЕННЫЙ значительный кандидат, найденный для этой песни",
+   "videoId": "QD-3W4RonQI",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Graham Johnson (пианист; певец тома не определён из заголовка)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "не найден — канал оформлен на пианиста, регистровые совпадения (Rolfe Johnson Vol.6 «Schubert & the Nocturne I») правдоподобны по теме (Trost / ночная тема), но не подтверждены буклетом",
+   "album": "предположительно The Hyperion Schubert Edition, Vol. 6 «Schubert & the Nocturne I»",
+   "label": "Hyperion (Universal)",
+   "voice_note": "неизвестно",
+   "reputation": "official Topic; певец не идентифицирован из метаданных — требует доисследования (вероятно Anthony Rolfe Johnson)",
+   "videoId": "nQqi5KUHK_Q",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder (Moore)",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Крайне скудный фонд: почти все совпадения в candidates.json относятся к другим песням с похожим названием (Trost im Liede D 546, Trost D 523, Trost. An Elisa D 97) — не к D 671. Реальный пул сузился до FiDi (уверенно) и одного неопределённого кандидата Hyperion."
+}

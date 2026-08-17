@@ -1,0 +1,109 @@
+{
+  "d": "692",
+  "title": "Der Knabe",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966-72",
+      "year_source": "реестр: planning/youtube/albums.md — DG «Sämtliche Lieder»",
+      "album": "Schubert: Sämtliche Lieder (DG)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "пик FiDi",
+      "reputation": "часть эталонного полного свода",
+      "videoId": "zhtfbzTgPlQ",
+      "channel": "Dietrich Fischer-Dieskau - Topic (official)",
+      "official": true
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": null,
+      "year_source": "не установлен точно; MusicBrainz подтверждает дуэт Popp/Gage для этой песни; Попп с Gage работала в 1970-х (студийные Schubert-записи по дайджесту)",
+      "album": "не идентифицирован (студийный Popp/Gage)",
+      "label": "не установлен",
+      "voice_note": "Попп на пике",
+      "reputation": "приоритетная исполнительница; официальная студийная запись (Topic)",
+      "videoId": "42CzKAFOjsA",
+      "channel": "Lucia Popp - Topic (official)",
+      "official": true
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": null,
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "пик Ameling ~1965–1985 (дайджест) — самая записываемая шубертианка поколения",
+      "reputation": "не исследована подробно (rare-конвейер), но известная шубертовская серия",
+      "videoId": "o_sNKhUyk1Y",
+      "channel": "Elly Ameling - Topic (official)",
+      "official": true
+    },
+    {
+      "singer": "Christine Schäfer",
+      "pianist": "Graham Johnson (по реестру: Hyperion) / есть также вариант с Irwin Gage",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "возможно Hyperion Schubert Edition",
+      "label": "не установлен",
+      "voice_note": "пик ~1995–2010 (дайджест)",
+      "reputation": "не исследована подробно",
+      "videoId": "rjCtwN2fonY",
+      "channel": "Christine Schäfer - Topic (official)",
+      "official": true
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Graham Johnson",
+      "rec_year": null,
+      "year_source": "не установлен; вероятно один из томов Goerne Schubert Edition (harmonia mundi, 2008–2014) с Johnson за роялем",
+      "album": "Goerne Schubert Edition (предположительно)",
+      "label": "harmonia mundi",
+      "voice_note": "пик Goerne ~1997–2015 (дайджест)",
+      "reputation": "не исследована подробно",
+      "videoId": "caJdbv3AYWg",
+      "channel": "Graham Johnson - Topic (official)",
+      "official": true
+    },
+    {
+      "singer": "Elisabeth Speiser",
+      "pianist": "Irwin Gage",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследована",
+      "reputation": "не исследована подробно",
+      "videoId": "Dk-0BfUFCpQ",
+      "channel": "Elisabeth Speiser, Irwin Gage - Topic (official)",
+      "official": true
+    },
+    {
+      "singer": "Mitsuko Shirai",
+      "pianist": "Hartmut Höll",
+      "rec_year": "1997?",
+      "year_source": "реестр: planning/youtube/albums.md (Capriccio 10 171, ℗1997? по метаданным; трек-лист по Discogs 22405735 НЕ включает D 692 явно — проверить: трек-лист карточки содержит D 545, D 827, D 772, D 491, D 806, D 807, D 684, D 652, D 633, D 745, D 871, D 878, D 658, D 775, D 828, D 833, D 751, D 756, D 296 — D 692 в этом списке нет; вероятно другой альбом Shirai/Höll",
+      "album": "не идентифицирован (не Capriccio 10 171 — трек-лист не совпадает)",
+      "label": "Capriccio (вероятно, др. диск)",
+      "voice_note": "не исследована",
+      "reputation": "не исследована подробно",
+      "videoId": "Nspm1Nsde38",
+      "channel": "Mitsuko Shirai - Topic (official)",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "ЕСТЬ — DG Sämtliche Lieder / Moore",
+    "Schwarzkopf": "нет в кандидатах",
+    "Hotter": "нет в кандидатах",
+    "Anders": "нет в кандидатах",
+    "E. Schumann": "нет в кандидатах",
+    "Ludwig": "нет в кандидатах",
+    "Popp": "ЕСТЬ — Popp/Gage (Topic), год не установлен"
+  },
+  "new_albums": [],
+  "note": "Кандидаты «Der blinde Knabe D 833» (Margaret Price, Fischer-Dieskau, Sibylla Rubens) — ДРУГАЯ песня, ошибочно попали в выдачу по совпадению слова Knabe; исключены из пула."
+}

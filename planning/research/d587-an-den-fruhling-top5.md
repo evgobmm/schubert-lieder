@@ -1,0 +1,19 @@
+# D 587 «An den Frühling» (2-я редакция) — топ-5 записей
+
+Шиллер, окт. 1817; вторая редакция того же текста, что и D 338. В старой нумерации — **D 245**, и именно так помечены загрузки Фишера-Дискау и Прая; на Topic-канале Шварцкопф — помета «D 587b (2nd setting)». **Не путать** с D 283 («An den Frühling» на другой текст) и с D 338 (1-я редакция) — по этим номерам идёт основная масса выдачи. Все ID живы (oEmbed 17.08.2026).
+
+| # | name | year | videoId | Обоснование и источник |
+|---|---|---|---|---|
+| 1 | Fischer-Dieskau — Moore | 1969 | `q7Xva1dnUls` | Приоритет №2 иерархии. DG «Sämtliche Lieder»; заголовок official audio — «D. 245 (2nd Version of D. 587)», то есть нужная редакция. Корпусная конвенция года свода — 1969. Пик формы. |
+| 2 | Schwarzkopf — Raucheisen | 1943–44? | `NMzb3ZzK3sM` | **Приоритет №3 (топ-1 среди женщин); гэп досье закрыт.** Кредиты NAXOS of America: «Early Song Recordings for German Radio (1941–1980)» (Music and Arts Programs of America, 2012), ф-но **Michael Raucheisen** — берлинский радиокорпус RRG. Источник датировки: ACANTA 43 801 «Das Grosse Elisabeth Schwarzkopf Album — Michael Raucheisen» (Discogs 35898580), примечание издания «Aufgenommen 1943–1944», трек 9 — «An den Frühling, **D 245**» (та же старая нумерация = 2-я редакция D 587). Точный год внутри блока не документирован → диапазон с «?» по правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом». Шварцкопф 28–29 лет, голос свежий (пик 1948–1964). **Это иной источник, чем сессия RIAS 06.01.1958 (Audite 95.633), принятая в корпусе по D 42 — разные записи, разные годы.** |
+| 3 | Prey — Engel | 1974 | `lej0YUGOSrQ` | Кредиты UMG: «Lieder von Franz Schubert — Lied-Edition Vol. 2», ℗ 1974 DG, ф-но **Karl Engel**, продюсер Christian Lange; заголовок «An den Frühling, D. 245» — нужная редакция. Корпусная конвенция «Prey — Engel = 1974» (D 852 и др., `performances.json` — 4 записи). Прай на пике (~1960–1980) — группа старых мастеров. |
+| 4 | Baker — Johnson | 1987 | `0iZ20XG6M_I` | Hyperion Schubert Edition, т. 1 «Goethe & Schiller Settings» (CDJ33001, зап. II.1987, изд. XII.1987); кредиты UMG: ℗ 1987 Hyperion, продюсер Martin Compton; MusicBrainz подтверждает «An den Frühling, D. 587». Том — Gramophone Award и №1 в «Top Ten Discs of the Decade» BBC Music Magazine; шиллеровский текст — прямое попадание. Бейкер на излёте пика (~1965–1982). Год — по сессии. |
+| 5 | Holzmair — Wyss | 2005 | `JX86vywKUtk` | **Гэп досье закрыт**: кредиты NAXOS of America — «Schubert, F.: Lieder», ℗ 2005 **Tudor**, ф-но **Gérard Wyss** (не Naxos DSLE, как предполагало досье). Корпусная конвенция «Holzmair — Wyss 2005» (`performances.json`, D 30). Лучший современный кандидат. |
+
+**Возрастная структура**: ≥1990 — одна (2005); ≥2015 — достойных кандидатов не существует; ранее 1990 — четыре очень хорошие. Порядок — строго по иерархии приоритетов, не по хронологии.
+
+**Отклонённые** (одной строкой): Hermann Prey / Gerald Moore, Columbia C 80 584 (трек-лист Discogs 6820641 содержит «An den Frühling op. 172 Nr. 5» = D 587) — official-загрузки именно этого номера не найдено, у Прая на YouTube только версия с Энгелем; Prey «An den Frühling, D. 283» и вторая загрузка Шварцкопф «D 338» — **другие песни**; прочая выдача — D 283/D 338.
+
+**Резервы**: 1) Prey — Moore, «1961?» (Columbia C 80 584 / EMI Icon; ID для D 587 не найден); 2) вторая загрузка Прая/Энгеля в сборнике «Lied-Edition» — `EgJ0J9M3yck` (та же запись, менее конкретное издание).
+
+**Источники**: потрековые кредиты official audio (UMG, NAXOS of America), Discogs 35898580 (ACANTA 43 801, «Aufgenommen 1943–1944», трек «An den Frühling D 245») и 6820641 (Columbia C 80 584, трек-лист), MusicBrainz («An den Frühling, D. 587» — Baker/Johnson), `albums.md` / `albums/complete-editions.md` / `albums/male-recitalists.md`, `d42-misero-pargoletto-top5.md` (разграничение сессий Шварцкопф/Раухайзен), oEmbed 17.08.2026.

@@ -1,0 +1,57 @@
+{
+  "d": "663",
+  "title": "Der 13. Psalm (фрагмент, D 663)",
+  "note": "В исходном candidates.json Fischer-Dieskau-Topic не встречается ни разу для этой песни — проверено по полной выдаче; фрагмент, видимо, отсутствует в его своде (или не выложен на Topic).",
+  "candidates": [
+    {
+      "singer": "Wolf Matthias Friedrich",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "не установлен (издание 08/2003)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §2 (Naxos т. 14 «European Poets, Vol. 2», 8.557026-27, совместно с Maya Boog)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 14 «European Poets, Vol. 2»",
+      "label": "Naxos",
+      "voice_note": "не документировано",
+      "reputation": "прямое попадание по тематическому тому (псалом в переводе Мендельсона/Заксе — «европейские поэты»)",
+      "videoId": "UWIbrOpb90w",
+      "channel": "Wolf Matthias Friedrich - Topic",
+      "official": true
+    },
+    {
+      "singer": "Christine Brewer",
+      "pianist": "Graham Johnson",
+      "rec_year": "1996 (осн. сессии, июль)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §1 (Hyperion Vol. 31 «Schubert & Religion», CDJ33031, зап. разные даты/осн. VII.1996, изд. VII.1998)",
+      "album": "Hyperion Schubert Edition, Vol. 31 «Schubert & Religion»",
+      "label": "Hyperion",
+      "voice_note": "не документировано",
+      "reputation": "точное тематическое попадание — том целиком о духовной музыке Шуберта; трек назван «Psalm 13, D. 663 (Arr. Mandyczewski)» — обработка Мандычевского, не голый фрагмент",
+      "videoId": "SX3ACCLg3UU",
+      "channel": "Christine Brewer - Topic",
+      "official": true
+    },
+    {
+      "singer": "не установлен",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "нет в реестре",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "неофициальная загрузка, не Topic-канал — низкий приоритет включения",
+      "reputation": "не исследовано",
+      "videoId": "hKcHijUvWOM",
+      "channel": "PatronsofSacredMusic",
+      "official": false
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет записи",
+    "Fischer-Dieskau": "не найдено в выдаче (см. note) — редкий случай отсутствия у полного свода",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": []
+}

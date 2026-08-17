@@ -1,0 +1,116 @@
+{
+  "d": "698",
+  "title": "Des Fräuleins Liebeslauschen",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore (предположительно)",
+      "rec_year": 1969,
+      "year_source": "реестр: albums/complete-editions.md §3 (DG Sämtliche Lieder, конвенция года — 1969); связь конкретно с D 698 НЕ подтверждена (mb_artists файла пуст)",
+      "album": "Schubert: Sämtliche Lieder (DG, зап. 1966–1972) — предположительно",
+      "label": "Deutsche Grammophon",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "базовая точка отсчёта для мужских песен свода (реестр)",
+      "videoId": "d8Vcg7_Uw7o",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true,
+      "note": "5 дублирующих загрузок; ДВЕ разные длительности среди них — 231s (3 ролика) и 256s (2 ролика, DVcW6zJq0vE/om4EP7ikX28). Возможны две разные записи ФД этой песни либо ошибка монтажа/тегов — не разобрано, требует доисследования перед топ-5."
+    },
+    {
+      "singer": "Aksel Rykkvin (мальчик-сопрано) & Alfred Fardell (фортепиано)",
+      "pianist": "Alfred Fardell",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен",
+      "label": "не установлен (канал не «-Topic», статус official не подтверждён)",
+      "voice_note": "не исследовано; необычный тембр — мальчик-сопрано",
+      "reputation": "заметный современный интерес (наибольшее число просмотров в пуле — 7123)",
+      "videoId": "oF7n8UOliTU",
+      "channel": "Aksel Rykkvin",
+      "official": false,
+      "note": "Рюквин — известный (экс-)мальчик-сопрано с рециталами Schubert/Britten сер. 2010-х; конкретный альбом с D 698 не идентифицирован в рамках бюджета."
+    },
+    {
+      "singer": "не идентифицирован (Helmut Deutsch — пианист)",
+      "pianist": "Helmut Deutsch",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "не исследовано",
+      "videoId": "5sYVH2DEjew",
+      "channel": "Helmut Deutsch - Topic",
+      "official": true,
+      "note": "Загрузка атрибутирована пианисту (частый паттерн Topic-каналов для мало известных вокалистов); имя певца не восстановлено из заголовка."
+    },
+    {
+      "singer": "не идентифицирован (Hyperion, том не сверен)",
+      "pianist": "Graham Johnson",
+      "rec_year": null,
+      "year_source": null,
+      "album": "Hyperion Schubert Edition — вероятно Vol. 34 «Schubert 1817–1821» (сборный) по году песни (~1820), трек-лист не сверен",
+      "label": "Hyperion",
+      "voice_note": "не исследовано",
+      "reputation": "научный эталон свода (реестр)",
+      "videoId": "Q1lmRolkEbw",
+      "channel": "Graham Johnson - Topic",
+      "official": true,
+      "note": "Совпадения реестра по фамилии «Johnson» относятся к пианисту Грэму Джонсону, а не к певцу (ложное срабатывание скрипта) — певец не определён."
+    },
+    {
+      "singer": "Gerhard Hüsch",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен — вероятно довоенная серия HMV отдельных Lieder (Хюш записывал не только циклы)",
+      "label": "HMV / переиздания Pristine",
+      "voice_note": "исторический эталон поколения 1930-х (дайджест: пик формы 1930-е)",
+      "reputation": "старый мастер высокого приоритета по общим принципам отбора («приоритет старых мастеров»)",
+      "videoId": "T9mBkx4Q1mE",
+      "channel": "Gerhard Hüsch - Topic",
+      "official": true,
+      "note": "НОВАЯ находка для реестра — Хюш вне циклов Winterreise/Müllerin, зафиксированных в дайджесте."
+    },
+    {
+      "singer": "Olle Persson",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": null,
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "не исследовано",
+      "videoId": "zAAx8jFozvQ",
+      "channel": "Olle Persson - Topic",
+      "official": true
+    },
+    {
+      "singer": "Brigitte Geller",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": 2003,
+      "year_source": "реестр: albums/complete-editions.md §2 (Naxos DSLE Vol. 15 «Friends, Vol. 2», изд. 10/2003)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, Vol. 15",
+      "label": "Naxos",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "не исследовано отдельно",
+      "videoId": "7PJgBmgXXuk",
+      "channel": "Brigitte Geller - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "отсутствует — закрытая дискография не пересекается",
+    "Fischer-Dieskau": "есть, но связь с этой конкретной песней не подтверждена по MusicBrainz — требует проверки перед топ-5",
+    "Schwarzkopf": "отсутствует",
+    "Hotter": "отсутствует",
+    "Anders": "отсутствует",
+    "E. Schumann": "отсутствует",
+    "Ludwig": "отсутствует",
+    "Popp": "отсутствует — её Hyperion т. 17 (1816) не совпадает по году"
+  },
+  "new_albums": [
+    "Gerhard Hüsch — отдельные довоенные Lieder-записи HMV вне циклов Winterreise/Müllerin (дайджест их не фиксирует) — заслуживает отдельной карточки в реестре после доисследования.",
+    "Aksel Rykkvin (мальчик-сопрано) — современный нишевый рецитал; альбом не идентифицирован."
+  ]
+}

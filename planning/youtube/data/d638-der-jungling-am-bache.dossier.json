@@ -1,0 +1,57 @@
+{
+  "d": "638",
+  "title": "Der Jüngling am Bache (3-я редакция, D 638)",
+  "note": "Не путать с более ранними редакциями D 30 (I) и D 192 (II) — в candidates.json они смешаны поисковой выдачей; в пул ниже включена только редакция D 638 (III), кроме отдельно помеченного случая.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция проекта; сессии свода 1966–1972)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §3 (DG Sämtliche Lieder)",
+      "album": "DG Sämtliche Lieder",
+      "label": "Deutsche Grammophon",
+      "voice_note": "на вокальном пике свода",
+      "reputation": "часть полного свода; несколько дублирующих Topic-загрузок одного трека (257 с)",
+      "videoId": "GT18WAF5hoE",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Martin Bruns",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "не установлен (издание 04/2001)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §2 (Naxos т. 6 «Schiller, Vol. 1», 8.554740)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 6 «Schiller, Vol. 1»",
+      "label": "Naxos",
+      "voice_note": "не документировано",
+      "reputation": "прямое попадание по поэту — Der Jüngling am Bache на текст Шиллера, весь том посвящён Шиллеру",
+      "videoId": "cDIwBaAFhIQ",
+      "channel": "Martin Bruns - Topic",
+      "official": true
+    },
+    {
+      "singer": "не установлен (канал оформлен на пианиста)",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен",
+      "year_source": "нет прямого совпадения в реестре — Hyperion Schubert Edition (весь свод), конкретный том не идентифицирован",
+      "album": "Hyperion Schubert Edition, том не установлен",
+      "label": "Hyperion",
+      "voice_note": "не документировано — вероятный кандидат по хронологии Vol. 16 «Schiller Settings» (Thomas Allen) или Vol. 29/34 (1817–1821), требует доисследования по трек-листу",
+      "reputation": "часть научного свода Джонсона; певец не определён по доступным данным",
+      "videoId": "1SEubKlkArc",
+      "channel": "Graham Johnson - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет записи",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": []
+}

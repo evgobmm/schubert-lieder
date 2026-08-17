@@ -8,7 +8,7 @@
 | 2 | Ameling — Gage | 1971 | -bQqkUQN0Fk | HMV HQS 1261, зап. 7–13.10.1971, Берлин, пианист Irwin Gage (дискография Грея, `albums/female-recitalists.md`); подтверждено кредитами Warner «Icon: Elly Ameling» (℗ 1971 original, продюсер Gerd Berg). Запись включена в антологию EMI/Warner «Schubert: Lieder on Record 1898–2012» (MB) — маркер канонического статуса |
 | 3 | Fassbaender — Johnson | 1990 | g5m-lFQUGB4 | Hyperion Schubert Edition, Vol. 11 «Schubert & Death» (CDJ33011, зап. VI.1990) — реестр; тематически профильный том. Фассбендер на пике (~1975–1992); в корпусе уже используется year 1990 |
 | 4 | Gerhaher — Huber | 2002 | 2LHZkXQvKO8 | Arte Nova «Arte Nova Voices – Lieder: Schubert, Brahms, Martin», изд. 26.07.2002 (`albums/modern-series.md`, MB); ℗ 2002 по кредитам official audio; ранний Герхаэр арте-нова-периода |
-| 5 | Appl — Johnson | 2016 | WLXF2dW6WjI | Wigmore Hall Live «Schubert», концерт 29.04.2016, пианист Graham Johnson (реестр `albums.md`, D 855); в корпусе уже используется year 2016 |
+| 5 | Appl — Johnson | 2015 | WLXF2dW6WjI | Wigmore Hall Live «Schubert» (WHLive0082), **концерт 27.03.2015**, изд. 29.04.2016; Graham Johnson; Verklärung D 59 — трек 7. *Исправление 17.08.2026 (глубокая верификация в рамках D 594): раньше стояло 2016 — дата релиза была прочитана как дата концерта. Источники: Discogs release 20004631 (notes «Recorded live on 27 March 2015»), MusicBrainz release 7e223831-b045-43d0-b6f4-e465fa2e8ab8 (date 2016-04-29 — издание). По правилу «сессия > издание» сквозной год альбома в корпусе — 2015 (D 59, D 541, D 594, D 855, D 904).* |
 
 Порядок: Квастхофа/ФиДи-приоритет отработан (№1), Шварцкопф нет → далее звёзды прошлого (Амелинг раньше и весомее Фассбендер) → современные по качеству (Герхаэр → Аппль).
 
@@ -16,6 +16,6 @@
 
 **Резервы**: Keenlyside — Martineau (при идентификации альбома); Boog — Eisenlohr (Naxos DSLE).
 
-**Состав**: 3 записи 1990+ (1990, 2002, 2016), из них одна 2015+ — норма выполнена полностью.
+**Состав**: 3 записи 1990+ (1990, 2002, 2015), из них одна 2015+ — норма выполнена полностью.
 
 **Проверка**: все 5 ID живы/встраиваемы (`yt-check.js`, 2026-08-17).

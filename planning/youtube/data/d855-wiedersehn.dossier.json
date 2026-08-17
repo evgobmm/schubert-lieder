@@ -17,9 +17,24 @@
     "planning/youtube/data/d855-wiedersehn.mb.json (MusicBrainz work page, recording_count=6)"
    ],
    "youtube": [
-    {"videoId": "InDoSW1bt2U", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "Y0-tpowWct0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "3jjR1UW7De0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+    {
+     "videoId": "InDoSW1bt2U",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "Y0-tpowWct0",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": true
+    },
+    {
+     "videoId": "3jjR1UW7De0",
+     "channel": "Dietrich Fischer-Dieskau - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
    ],
    "note": "Три дубля загрузки на одном официальном Topic-канале, длительность у всех 146 с, совпадает с MusicBrainz (146 с). Рекомендуется videoId с наибольшим числом просмотров — InDoSW1bt2U (1044 против 639 и 95)."
   },
@@ -37,7 +52,12 @@
     "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-hyperion-song-edition-27-schubert-the-schlegels-christine-schafer-graham-johnson-matthias-goerne/iyw1p9bj06txb — трек 4, исполнитель Matthias Goerne / Graham Johnson, текст А. В. Шлегеля, длительность 2:44"
    ],
    "youtube": [
-    {"videoId": "jARS6Felfj0", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+    {
+     "videoId": "jARS6Felfj0",
+     "channel": "Graham Johnson - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
    ],
    "note": "Длительность на YouTube 165 с ≈ 2:44 (164 с) на Qobuz/MB — совпадает с точностью до секунды округления."
   },
@@ -56,7 +76,12 @@
     "en.wikipedia.org/wiki/Leif_Ove_Andsnes (WebFetch) — подтверждает серию совместных Schubert-релизов с Бостриджем"
    ],
    "youtube": [
-    {"videoId": "Ba7EYXrWKgg", "channel": "Leif Ove Andsnes - Topic", "official": true, "oembed_ok": true}
+    {
+     "videoId": "Ba7EYXrWKgg",
+     "channel": "Leif Ove Andsnes - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
    ],
    "note": "Длительность видео 145 с точно совпадает с MusicBrainz (145 с)."
   },
@@ -75,7 +100,12 @@
     "planning/youtube/albums.md (запись о Hasselhorn 'Licht und Schatten')"
    ],
    "youtube": [
-    {"videoId": "v8XO6DmWSaU", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+    {
+     "videoId": "v8XO6DmWSaU",
+     "channel": "Samuel Hasselhorn - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
    ],
    "note": "Длительность 186 с ≈ MB 185 с — совпадает."
   },
@@ -93,7 +123,12 @@
     "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-lieder-philippe-jaroussky-jerome-ducros/crpyt6fr8d44a — трек 4, recording February 2020"
    ],
    "youtube": [
-    {"videoId": "dm_63S77FV0", "channel": "Philippe Jaroussky - Topic", "official": true, "oembed_ok": true}
+    {
+     "videoId": "dm_63S77FV0",
+     "channel": "Philippe Jaroussky - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
    ],
    "note": "Длительность 200 с ≈ MB 199 с — совпадает. Голосовой тип (контратенор) — существенный фактор для решения об отборе, не только качество."
   },
@@ -111,17 +146,22 @@
     "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-lied-edition-25-romantic-poets-vol-2-markus-schafer/t2x1i16e0mm7b — трек 18, пианист Ulrich Eisenlohr, текст А. В. Шлегеля, длительность 4:03"
    ],
    "youtube": [
-    {"videoId": "uL_2JQX2mV0", "channel": "Markus Schäfer - Topic", "official": true, "oembed_ok": true}
+    {
+     "videoId": "uL_2JQX2mV0",
+     "channel": "Markus Schäfer - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
    ],
    "note": "Длительность видео 244 с и альбома 4:03 (243 с) совпадают почти точно. НЕ входит в дискографию MusicBrainz work-страницы D 855 — найдено через generic YouTube-поиск и подтверждено отдельно."
   },
   {
    "singer": "Benjamin Appl",
    "pianist": "Graham Johnson",
-   "rec_year": "2016 (концертная запись, дата сессии не уточнена; релиз 29.04.2016)",
-   "year_source": "Qobuz, страница альбома (WebFetch) — release date 2016-04-29, label Wigmore Hall",
-   "album": "Schubert (Wigmore Hall Live)",
-   "label": "Wigmore Hall Live",
+   "rec_year": "2015 (концерт 27.03.2015)",
+   "year_source": "глубокая верификация 17.08.2026 (в рамках D 594): Discogs release 20004631 — Wigmore Hall Live, кат. WHLive0082, notes «Recorded live on 27 March 2015», released 2016; MusicBrainz release 7e223831-b045-43d0-b6f4-e465fa2e8ab8 — date 2016-04-29 (издание). Правило «сессия > издание» → year 2015. Прежняя атрибуция досье снята как неверная. Сквозной год альбома: D 59, D 541, D 594, D 855, D 904 — 2015",
+   "album": "Schubert (Wigmore Hall Live WHLive0082, концерт 27.03.2015, изд. 29.04.2016), трек 17 «Wiedersehn, D855 (энкор)»",
+   "label": "Wigmore Hall Live (℗/© The Wigmore Hall Trust); серия BBC Radio 3 New Generation Artists",
    "age_voice": "Аппл р. 1982 → ~33–34 года; ранний период карьеры (последний частный ученик Фишера-Дискау, по дайджесту пик ~2016–наст.) — запись сделана на старте его признанного пика",
    "reputation": "Не найдено предметных рецензий на конкретный трек; общая репутация серии концертных записей Wigmore Hall Live устойчиво высокая как документ живого лидерского исполнительства; примечательно, что пианист здесь — тот же Грэм Джонсон, что и у Гёрне (см. выше), то есть у обоих ключевых мужских кандидатов этой песни — общий аккомпаниатор",
    "sources": [
@@ -129,7 +169,12 @@
     "Qobuz album page (WebFetch, 2026-08-16): https://www.qobuz.com/us-en/album/schubert-wigmore-hall-live-benjamin-appl-and-graham-johnson/tf8vzbiae8klc — трек 17 'Wiedersehn, D. 855 – 3:32'"
    ],
    "youtube": [
-    {"videoId": "B1IGxf7bt64", "channel": "Benjamin Appl - Topic", "official": true, "oembed_ok": true}
+    {
+     "videoId": "B1IGxf7bt64",
+     "channel": "Benjamin Appl - Topic",
+     "official": true,
+     "oembed_ok": true
+    }
    ],
    "note": "Длительность видео 213 с = 3:32 (212 с) на Qobuz — совпадает. НЕ входит в MusicBrainz work-страницу D 855; проверено отдельно, что это не альбом 'Forbidden Fruit' (2023) и не 'Lines of Life' (2025) — оба проверены и НЕ содержат эту песню (см. negatives)."
   },

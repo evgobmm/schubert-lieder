@@ -1,0 +1,84 @@
+{
+  "d": "659",
+  "title": "Hymne I (D 659, Новалис, «Wenige wissen das Geheimnis der Liebe»)",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "не найдено — в пуле candidates.json нет ни одной Topic-загрузки FiDi именно для Hymne I (D 659), в отличие от Hymne II–IV",
+      "year_source": "н/д",
+      "album": "н/д",
+      "label": "н/д",
+      "voice_note": "н/д",
+      "reputation": "отсутствие записи зафиксировано, не ошибка выборки — проверено по полному списку кандидатов d659",
+      "videoId": null,
+      "channel": null,
+      "official": false
+    },
+    {
+      "singer": "Marjana Lipovšek",
+      "pianist": "Graham Johnson",
+      "rec_year": "1996 (декабрь)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §1 (Hyperion Vol. 29, CDJ33029, зап. XII.1996, изд. IX.1997)",
+      "album": "Hyperion Schubert Edition, Vol. 29 «Schubert in 1819 & 1820»",
+      "label": "Hyperion",
+      "voice_note": "не документировано",
+      "reputation": "часть научного свода Джонсона; том хронологически точно покрывает год сочинения (дек. 1819)",
+      "videoId": "Fm4jaznN-7A",
+      "channel": "Marjana Lipovšek - Topic",
+      "official": true
+    },
+    {
+      "singer": "Sibylla Rubens",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "не установлен (издание 04/2008)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §2 (Naxos т. 26 «Romantic Poets, Vol. 3», 8.557832)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 26 «Romantic Poets, Vol. 3»",
+      "label": "Naxos",
+      "voice_note": "не документировано",
+      "reputation": "прямое попадание по поэту (Новалис — романтик) — том целиком посвящён романтическим поэтам",
+      "videoId": "ruFagq9ZFxI",
+      "channel": "Sibylla Rubens - Topic",
+      "official": true
+    },
+    {
+      "singer": "Lionel Rogg",
+      "pianist": "не установлен — статус исполнения (голос/инструмент) не подтверждён",
+      "rec_year": "не установлен",
+      "year_source": "нет в реестре",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "Lionel Rogg — известный органист; неясно, вокальная это запись или инструментальная транскрипция (длительность 603 с — заметно длиннее нормы, возможен целый блок Nachtgesänge)",
+      "reputation": "не исследовано, статус сомнителен",
+      "videoId": "C-5XFDi5vBQ",
+      "channel": "Lionel Rogg - Topic",
+      "official": true
+    },
+    {
+      "singer": "не установлен (тематический проект по Новалису)",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "нет в реестре",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "тот же канал охватывает и Marie D 658, и все Hymne I–IV",
+      "reputation": "см. new_albums",
+      "videoId": "M-catOAx51M",
+      "channel": "Laura Fabris - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет записи",
+    "Fischer-Dieskau": "запись Hymne I не найдена (см. выше) — редкий случай отсутствия у полного свода",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": [
+    "Laura Fabris — см. дознание d658: тематический проект по всем песням новалисовского блока, не идентифицирован."
+  ]
+}
