@@ -1,29 +1,33 @@
-// Батч-волна для medium/rare песен: досье-батч → ранжирование-батч → вериф-лайт.
-// args = { batches: [ [ {d, slug, title, tier}, ... ], ... ] } — 3–4 песни в батче.
-// Опора на реестр альбомов (albums.md + albums/*.md): новые альбомы исследуются
-// один раз, известные — берутся из реестра. Famous-песни сюда не подавать —
-// для них полный конвейер wave.js.
+// Батч-волна medium/rare, схема «скрипт-сначала + пакетные вопросы сильной модели»:
+//   Пробелы (sonnet, ~8 песен/агент: только кандидаты вне реестра)
+//   → Ранжирование (opus, ПАКЕТ ~8 песен за один вызов)
+//   → QA-ревизия всей волны (fable, один вызов: gate.js + таблицы решений)
+//   → Глубокая верификация только отфлагованных (opus).
+// args = { songs: [ {d, slug, title, tier}, ... ] } — до ~40 песен, ярусы medium/rare.
+// Перед запуском волны в основной сессии выполняется match-candidates.js для слагов волны.
 
 export const meta = {
   name: 'yt-batch-wave',
-  description: 'Батч-волна топ-5 (medium/rare): досье-батч → ранжирование → вериф-лайт',
+  description: 'Батч-волна топ-5 (medium/rare): пробелы → пакетное ранжирование → QA всей волны → флаги',
   phases: [
-    { title: 'Досье', detail: 'один агент на батч из 3–4 песен' },
-    { title: 'Топ-5', detail: 'ранжирование батча по строгой иерархии' },
-    { title: 'Вериф-лайт', detail: 'IDs/длительности/годы новых альбомов/иерархия' },
+    { title: 'Пробелы', detail: 'дознание кандидатов вне реестра, ~8 песен/агент' },
+    { title: 'Ранжирование', detail: 'сильная модель, пакет ~8 песен/вызов' },
+    { title: 'QA', detail: 'gate.js + ревизия всей волны одним вызовом' },
+    { title: 'Флаги', detail: 'глубокая верификация только отфлагованных' },
   ],
 }
 
 const ROOT = '/workspaces/schubert-lieder'
 const RULES = `${ROOT}/docs/rules/youtube-performances.md`
 const DIGEST = `${ROOT}/planning/research/singers-digest.md`
-const REG = `${ROOT}/planning/youtube/albums.md и все файлы ${ROOT}/planning/youtube/albums/*.md`
+const REG = `${ROOT}/planning/youtube/albums.md + ${ROOT}/planning/youtube/albums/*.md`
 const DATA = `${ROOT}/planning/youtube/data`
 const CHECK = `${ROOT}/planning/youtube/scripts/yt-check.js`
+const GATE = `${ROOT}/planning/youtube/scripts/gate.js`
 
-const COMMON = `Общие требования: не пиши временных файлов в репозиторий (только scratchpad); не спавнь субагентов; НИКОГДА не выдумывай факты — у каждого факта источник; метаданные YouTube-загрузок и архивов НЕ источник дат. Рабочие источники: реестр альбомов проекта (переиспользуй!), Discogs API (api.discogs.com, curl), MusicBrainz API, база Майкла Грея classical-discography.org, WebSearch/WebFetch пока доступны. Поиск YouTube — Bash: yt-dlp "ytsearch12:<запрос>" --flat-playlist --print "%(id)s\\t%(title)s\\t%(channel)s\\t%(duration)s\\t%(view_count)s"; живость — node ${CHECK} <ids>.`
+const COMMON = `Общие требования: временные файлы — только в scratchpad; субагентов не спавнить; факты только с источниками; метаданные YouTube-загрузок — не источник дат. Источники: реестр альбомов проекта (главная опора — НЕ переисследуй то, что там есть), Discogs API (api.discogs.com, curl), MusicBrainz API, classical-discography.org (Грей), WebSearch/WebFetch пока доступны. yt-dlp "ytsearch10:<запрос>" --flat-playlist --print "%(id)s\\t%(title)s\\t%(channel)s\\t%(duration)s"; живость: node ${CHECK} <ids>.`
 
-const BATCH_RESULT_SCHEMA = {
+const BATCH_SCHEMA = {
   type: 'object',
   properties: {
     songs: {
@@ -37,9 +41,8 @@ const BATCH_RESULT_SCHEMA = {
             items: {
               type: 'object',
               properties: {
-                videoId: { type: 'string' },
-                name: { type: 'string' },
-                year: { description: 'число, либо строка-диапазон с «?» по правилу неустановленных дат' },
+                videoId: { type: 'string' }, name: { type: 'string' },
+                year: { description: 'число, либо строка-диапазон с «?»' },
               },
               required: ['videoId', 'name', 'year'],
             },
@@ -54,108 +57,115 @@ const BATCH_RESULT_SCHEMA = {
   required: ['songs'],
 }
 
-const VERIFY_SCHEMA = {
+const QA_SCHEMA = {
   type: 'object',
   properties: {
-    songs: {
+    gate_summary: { type: 'string' },
+    flags: {
       type: 'array',
       items: {
         type: 'object',
-        properties: {
-          d: { type: 'string' },
-          ok: { type: 'boolean' },
-          issues: { type: 'array', items: { type: 'string' } },
-          entries: { type: 'array', items: { type: 'object' }, description: 'исправленный список, только если правил' },
-        },
-        required: ['d', 'ok', 'issues'],
+        properties: { d: { type: 'string' }, issues: { type: 'array', items: { type: 'string' } } },
+        required: ['d', 'issues'],
+      },
+    },
+    small_fixes: { type: 'array', items: { type: 'string' }, description: 'мелкие правки, внесённые самим QA (что и где)' },
+    fixed_entries: {
+      type: 'array', description: 'песни, где QA сам поправил entries (мелочь: год/написание/порядок)',
+      items: {
+        type: 'object',
+        properties: { d: { type: 'string' }, entries: { type: 'array', items: { type: 'object' } } },
+        required: ['d', 'entries'],
       },
     },
   },
-  required: ['songs'],
+  required: ['gate_summary', 'flags', 'small_fixes', 'fixed_entries'],
 }
 
-function songLine(s) { return `«${s.title}» (D ${s.d}, slug ${s.slug}, ярус ${s.tier})` }
+const chunk = (arr, n) => { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out }
+const line = (s) => `«${s.title}» (D ${s.d}, slug ${s.slug}, ${s.tier})`
 
-function dossierPrompt(batch) {
-  return `Составь ДОСЬЕ кандидатов топ-5 YouTube-исполнений для ${batch.length} песен Шуберта (батч):
-${batch.map((s, i) => `${i + 1}. ${songLine(s)}`).join('\n')}
+function gapsPrompt(b) {
+  return `Дознание пробелов для ${b.length} песен Шуберта (кандидаты уже собраны скриптом):
+${b.map((s, i) => `${i + 1}. ${line(s)}`).join('\n')}
 
-Сначала прочитай ОДИН раз: ${RULES} (правила целиком), ${DIGEST}, реестр альбомов (${REG}). Затем по КАЖДОЙ песне:
-1. Пул кандидатов: ${DATA}/<slug>.yt.json (поиск YouTube) + ${DATA}/<slug>.mb.json (MusicBrainz) + реестр (какие известные альбомы содержат песню). Дополни целевыми yt-dlp запросами по певцам из пула.
-2. По каждому кандидату: певец, пианист, год записи с источником (если альбом в реестре — бери оттуда, не исследуй заново!), альбом/лейбл, состояние голоса (дайджест), репутация (для rare допустима репутация альбома вместо трековой критики), videoId (Topic/official предпочтительно) + oEmbed-живость. Специальный веб-поиск трековой критики — только если ярус medium или кандидатов больше 8.
-3. Приоритетные певцы (Quasthoff, Fischer-Dieskau, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp): записал ли песню — с источником (для мужчин/женщин учитывай применимость по роли).
-4. Новые альбомы, которых нет в реестре, исследуй один раз и включи факты в досье (поле albums_facts).
-Запиши ${DATA}/<slug>.dossier.json на каждую песню (схема как у существующих досье). Верни 2-3 предложения на песню: главные кандидаты.
+Прочитай ОДИН раз: ${RULES}, ${DIGEST}, реестр (${REG}). Затем по КАЖДОЙ песне:
+1. Открой ${DATA}/<slug>.candidates.json — там видео с Topic-каналов, догадки о певцах и совпадения с реестром (registry_hits) + список исполнителей из MusicBrainz.
+2. Определи пул значительных кандидатов. Для кандидатов с registry_hits факты (год, пианист, лейбл, репутация) бери ИЗ РЕЕСТРА — не исследуй заново. Исследуй только: (а) значительных кандидатов без совпадения с реестром; (б) для medium-песен — трековую критику лидеров, если легко находится. Не хватает кандидатов в candidates.json — добери целевым yt-dlp по певцам из MusicBrainz/реестра.
+3. Приоритетные певцы (Quasthoff, FiDi, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig, Popp): наличие записи — по реестру/дискографиям, с пометкой источника.
+4. Запиши КОМПАКТНОЕ досье ${DATA}/<slug>.dossier.json: {"d","title","candidates":[{"singer","pianist","rec_year","year_source" (можно "реестр: <файл>"),"album","label","voice_note","reputation","videoId","channel","official":bool}],"priority_check":{...},"new_albums":[факты альбомов, которых не было в реестре]}.
+Верни по 1-2 предложения на песню: пул и главные кандидаты.
 
 ${COMMON}`
 }
 
-function rankPrompt(batch) {
-  return `Составь итоговые топ-5 (или меньше — если достойных меньше, это нормально для rare) для ${batch.length} песен Шуберта:
-${batch.map((s, i) => `${i + 1}. ${songLine(s)}`).join('\n')}
+function rankPrompt(b) {
+  return `ПАКЕТНОЕ ранжирование: составь итоговые топ-5 (меньше — нормально для rare) для ${b.length} песен за этот один вызов:
+${b.map((s, i) => `${i + 1}. ${line(s)}`).join('\n')}
 
-Прочитай ОДИН раз ${RULES} (особенно «Приоритетные исполнители» → строгая иерархия порядка, «Состав топ-5», «Год в плеере») и ${DIGEST}; затем по каждой песне — её ${DATA}/<slug>.dossier.json.
+Прочитай ОДИН раз ${RULES} (строгая иерархия порядка; состав; «Год в плеере») и ${DIGEST}; затем ${DATA}/<slug>.dossier.json каждой песни.
 
-По КАЖДОЙ песне:
-1. Отбор: качество — фильтр включения; возрастная структура (3 до 1990 + 2 с 1990, из них 1 с 2015) — только при наличии достойных, влияет на состав, не на порядок.
-2. Порядок — строгая иерархия: Квастхоф №1 (если есть) → Фишер-Дискау → Шварцкопф → прочие звёзды прошлого по качеству → современные по качеству. Несколько версий одного певца: состояние голоса, при прочих равных ранняя; сходные внутри группы — ранняя.
-3. Все выбранные videoId проверь: node ${CHECK} <ids> (ok:true обязательно).
-4. Напиши КОМПАКТНОЕ обоснование ${ROOT}/planning/research/<slug>-top5.md (для rare: итоговый список с фактами и источниками, 1-2 отклонённых, резервы; без длинных эссе). Год: правило «Год в плеере» (сессия > издание; неустановленный год приоритетного — диапазон с «?»; один альбом = один год во всех песнях — сверься с реестром и уже опубликованными).
-name: «Фамилия — Фамилия пианиста», однофамильцы с инициалом, диакритика обязательна.
-
-Верни songs: по каждой песне d, entries (порядок = иерархия), reserves (1-3), notes (1-2 предложения).
+По КАЖДОЙ песне: отбор по качеству и возрастной структуре (влияет на состав, не порядок); порядок — строгая иерархия (Квастхоф №1 → ФиДи → Шварцкопф → звёзды прошлого по качеству → современные по качеству; несколько версий певца — состояние голоса/ранняя; сходные в группе — ранняя); videoId проверь одним вызовом node ${CHECK} на все ID пакета; год — по правилу (сессия > издание; неустановленный у приоритетного — диапазон с «?»; один альбом = один год, сверься с реестром); name «Фамилия — Фамилия пианиста», однофамильцы с инициалом, диакритика.
+Напиши КОМПАКТНЫЙ ${ROOT}/planning/research/<slug>-top5.md по каждой (итог с фактами и источниками, отклонённые в одну строку, резервы; без эссе).
+Верни songs: d, entries, reserves (1-3), notes (1-2 предложения).
 
 ${COMMON}`
 }
 
-function verifyPrompt(batch, ranked) {
-  return `ВЕРИФ-ЛАЙТ батча из ${batch.length} песен (ярусы medium/rare; полная адверсариальная проверка не требуется — проверь ключевое).
+function qaPrompt(all) {
+  return `QA-РЕВИЗИЯ ВСЕЙ ВОЛНЫ (${all.length} песен) одним проходом. Ты — последний контролёр перед публикацией.
 
-Выбрано:
-${ranked.songs.map((r) => `D ${r.d}: ${JSON.stringify(r.entries)}`).join('\n')}
+Решения волны (JSON): ${JSON.stringify(all.map((r) => ({ d: r.d, entries: r.entries, notes: r.notes })))}
 
-Прочитай ${RULES}; по каждой песне — ${DATA}/<slug>.dossier.json и ${ROOT}/planning/research/<slug>-top5.md (slugs: ${batch.map((s) => s.slug).join(', ')}).
-
-Проверь по КАЖДОЙ песне:
-1. Все videoId живы и встраиваемы (node ${CHECK} — прогони все ID батча одним вызовом) и канал/длительность соответствуют заявленной записи (сравни с досье).
-2. Годы записей, впервые появившихся в этом батче альбомов (которых нет в реестре/уже опубликованных песнях), — быстрый независимый чек по Discogs API/MusicBrainz/Грею; годы известных альбомов сверь с реестром (один альбом = один год).
-3. Строгая иерархия порядка и формат name (инициалы однофамильцев, диакритика).
-4. Соответствие top5-файла списку.
-Мелкие правки (год, написание, порядок) внеси сам: обнови top5-файл (Edit) и верни исправленный entries; при серьёзной проблеме (сомнителен сам состав) — ok:false с issues, состав не меняй.
+Шаги:
+1. Сохрани этот JSON в файл в своём scratchpad и прогони машинный гейт: node ${GATE} <файл>. Разбери errors (обязательны к устранению) и warnings.
+2. Прочитай ${RULES}. Пробеги таблицу решений глазами эксперта: подозрительные ранжирования (звезда прошлого ниже современного, пропущенный очевидный именной приоритет, странный год, «не тот» исполнитель для песни), сверь спорные места с ${DATA}/<slug>.dossier.json (точечно, не всё подряд).
+3. МЕЛКОЕ чини сам: год/написание/порядок — поправь top5-файл (Edit) и включи песню в fixed_entries с исправленным списком. СЕРЬЁЗНОЕ (сомнителен состав, кандидат без источников, ошибка иерархии из-за неверной классификации певца) — в flags с конкретными issues.
+4. Верни: gate_summary (1-2 предложения об итогах гейта), flags, small_fixes, fixed_entries.
 
 ${COMMON}`
 }
 
-const results = await pipeline(
-  args.batches,
-  (b, _, i) => agent(dossierPrompt(b), {
-    label: `досье:батч${i + 1}(${b.map((s) => 'D' + s.d).join(',')})`,
-    phase: 'Досье', model: 'sonnet', effort: 'medium',
-  }),
-  async (dossierSummary, b, i) => {
-    if (!dossierSummary) { log(`батч ${i + 1}: досье не получено — пропуск`); return null }
-    return agent(rankPrompt(b), {
-      label: `топ-5:батч${i + 1}`, phase: 'Топ-5',
-      model: 'opus', effort: 'high', schema: BATCH_RESULT_SCHEMA,
-    })
-  },
-  async (ranked, b, i) => {
-    if (!ranked) return null
-    const v = await agent(verifyPrompt(b, ranked), {
-      label: `вериф:батч${i + 1}`, phase: 'Вериф-лайт',
-      model: 'sonnet', effort: 'medium', schema: VERIFY_SCHEMA,
-    })
-    if (!v) return { batch: b, songs: ranked.songs, verified: false }
-    const bySong = Object.fromEntries(v.songs.map((s) => [s.d, s]))
-    const merged = ranked.songs.map((r) => {
-      const vr = bySong[r.d]
-      if (!vr) return { ...r, ok: false, issues: ['не проверена'] }
-      return { ...r, entries: (vr.entries && vr.entries.length) ? vr.entries : r.entries, ok: vr.ok, issues: vr.issues }
-    })
-    return { batch: b, songs: merged, verified: true }
+function deepPrompt(flagged) {
+  return `Глубокая верификация и правка ${flagged.length} отфлагованных песен волны:
+${flagged.map((f) => `D ${f.d} (slug ${f.slug}): ${f.issues.join('; ')}`).join('\n')}
+
+Прочитай ${RULES}; по каждой песне — её ${DATA}/<slug>.dossier.json и ${ROOT}/planning/research/<slug>-top5.md. Разберись в каждом issue по существу (независимые источники: Discogs API, MusicBrainz, Грей; видео — node ${CHECK}), внеси правки в top5-файл и досье, верни songs: d, entries (финальный список), notes (что изменено/почему замечание отклонено).
+
+${COMMON}`
+}
+
+// Пробелы → Ранжирование по чанкам (пайплайн, без барьера между чанками)
+const CH = 8
+const ranked = await pipeline(
+  chunk(args.songs, CH),
+  (b, _, i) => agent(gapsPrompt(b), { label: `пробелы:${i + 1}(${b.length})`, phase: 'Пробелы', model: 'sonnet', effort: 'medium' }),
+  async (gaps, b, i) => {
+    if (!gaps) { log(`чанк ${i + 1}: дознание не вернулось — пропуск`); return null }
+    return agent(rankPrompt(b), { label: `ранж:${i + 1}(${b.length})`, phase: 'Ранжирование', model: 'opus', effort: 'high', schema: BATCH_SCHEMA })
   }
 )
 
-return results.filter(Boolean).flatMap((r) => r.songs.map((s) => ({
-  d: s.d, entries: s.entries, ok: s.ok !== false, issues: s.issues || [], notes: s.notes,
-})))
+// Барьер оправдан: QA смотрит ВСЮ волну сразу (пакетный вопрос сильной модели)
+const all = ranked.filter(Boolean).flatMap((r) => r.songs)
+phase('QA')
+const qa = await agent(qaPrompt(all), { label: `QA волны (${all.length})`, phase: 'QA', model: 'fable', effort: 'high', schema: QA_SCHEMA })
+
+const slugByD = Object.fromEntries(args.songs.map((s) => [String(s.d), s.slug]))
+let final = all.map((r) => {
+  const fx = qa && qa.fixed_entries.find((f) => String(f.d) === String(r.d))
+  return { ...r, entries: fx ? fx.entries : r.entries }
+})
+
+if (qa && qa.flags.length) {
+  phase('Флаги')
+  log(`отфлаговано: ${qa.flags.map((f) => 'D' + f.d).join(', ')}`)
+  const flagged = qa.flags.map((f) => ({ ...f, slug: slugByD[String(f.d)] }))
+  const fixes = (await parallel(chunk(flagged, 3).map((grp) => () =>
+    agent(deepPrompt(grp), { label: `флаги:${grp.map((g) => 'D' + g.d).join(',')}`, phase: 'Флаги', model: 'opus', effort: 'high', schema: BATCH_SCHEMA })
+  ))).filter(Boolean).flatMap((r) => r.songs)
+  const byD = Object.fromEntries(fixes.map((f) => [String(f.d), f]))
+  final = final.map((r) => byD[String(r.d)] ? { ...r, entries: byD[String(r.d)].entries, notes: byD[String(r.d)].notes, deep_verified: true } : r)
+}
+
+return { qa_summary: qa ? qa.gate_summary : 'QA не отработал', small_fixes: qa ? qa.small_fixes : [], flags: qa ? qa.flags : [], songs: final }
