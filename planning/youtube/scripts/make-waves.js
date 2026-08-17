@@ -15,8 +15,9 @@ const triage = require(path.join(ROOT, 'planning/youtube/triage.json'));
 const done = new Set(Object.keys(require(path.join(ROOT, 'app/src/data/performances.json'))));
 
 const EXCLUDED = new Set(['winterreise', 'muellerin', 'schwanengesang']);
+const NO_REC = new Set(require(path.join(ROOT, 'planning/youtube/no-recordings.json')));
 const songs = index
-  .filter((s) => !done.has(s.d) && !EXCLUDED.has(s.section) && triage[s.d])
+  .filter((s) => !done.has(s.d) && !EXCLUDED.has(s.section) && triage[s.d] && !NO_REC.has(s.d))
   .map((s) => ({
     d: s.d,
     slug: s.file.replace(/\.json$/, ''),
