@@ -1,0 +1,13 @@
+{
+ "lemma": "mir",
+ "header": "mir (дательный: ist mir das Grab / ist mir vergällt / ist mir verrückt / ist mir zerstückt) (Wo ich ihn nicht hab', ist mir das Grab; Die ganze Welt ist mir vergällt; Mein armer Kopf ist mir verrückt; Mein armer Sinn ist mir zerstückt)",
+ "era": "Три разных функции датива: (1) в «ist mir das Grab» — датив точки зрения/оценки (dativus iudicantis: «для меня/в моих глазах — могила»); (2) в «ist mir vergällt» — обычное дативное управление глагола vergällen (jemandem etwas vergällen — БНРС фиксирует «j-m отравлять радость кому-л.»); (3) в «Kopf/Sinn ist mir …» — посессивно-затрагивающий датив (dativus incommodi: голова/разум «у меня» повреждены), усиливающий Mein: беда случилась со мной.",
+ "register": "нейтральная грамматика; в (3) лёгкий разговорно-эмоциональный оттенок причастности — «у меня» его передаёт",
+ "ru_candidates": "(1) Grab: «мне» — голый датив грамматичен по-русски («там мне — могила»); вариант «для меня» через пустой de-сегмент по правилу 18; (2) vergällt: «мне» — прямое управление совпадает («мир мне отравлен»); (3) verrückt/zerstückt: «у меня» — русский посессивный датив требует предлога у; предлог — пустым de-сегментом (правило 18)",
+ "recommendation": "«мне» в строках про Grab и vergällt; «у меня» (с пустым de-сегментом для «у») в строках про Kopf и Sinn",
+ "caveats": "Латинские термины (dativus iudicantis/incommodi) — моя грамматическая квалификация, словарями напрямую не подтверждалась; в аннотациях сайта лингвотерминологию не употреблять (правило референса: «о тексте, не об учебнике»). Дублирование Mein … mir по-русски даёт «моя … у меня» — сохранить: это авторская эмфаза, воспроизведённая и Гриммом в цитате.",
+ "evidence": "  - БНРС via translate.academic.ru/vergällen/de/ru/ (дативное управление): «(j-m) отравлять (радость кому-л.) … j-m das Leben vergällen — портить кому-л жизнь»\n  - Grimm DWB «verrücken» (dwds.de/wb/dwb/verrücken) — сама конструкция в цитате: «mein armer kopf / ist mir verrückt, / mein armer sinn / ist mir zerstückt»\n  - Свод правил референса, /workspaces/schubert-lieder/planning/winterreise-reference/CLAUDE.md, правило 18: «RU-предлог при DE Dat./Akk. без предлога (mir → ко мне/от меня/у меня)»\n\n",
+ "source": "gretchen-dictionary.md",
+ "song": "d118",
+ "status": "verified"
+}
