@@ -1,0 +1,69 @@
+{
+ "d": "404",
+ "title": "Die Herbstnacht",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–72",
+   "year_source": "реестр: planning/youtube/albums.md (Sämtliche Lieder, DG, сессии 1966–1972)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "DG",
+   "voice_note": "зрелый ФиДи, пик формы",
+   "reputation": "эталонная полная запись корпуса",
+   "videoId": "RawHa8xfaxo",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Anthony Rolfe Johnson (предположительно)",
+   "pianist": "Graham Johnson",
+   "rec_year": "1989",
+   "year_source": "реестр: Hyperion Vol. 6, CDJ33006 (совпадает по волне песен, певец не подтверждён напрямую)",
+   "album": "Hyperion Schubert Edition, Vol. 6",
+   "label": "Hyperion",
+   "voice_note": "не проверено отдельно",
+   "reputation": "научный эталон серии",
+   "videoId": "7aoang3XiVI",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Helmut Deutsch",
+   "pianist": "он сам за роялем? (Topic-канал оформлен на пианиста; певец не установлен по названию видео «Wehmut (Die Herbstnacht)»)",
+   "rec_year": "?",
+   "year_source": "нет данных — не в реестре, registry_hits в candidates.json указывают на несвязанные альбомы (Prohaska, von Otter, Terfel), это ошибка сопоставления скрипта по фамилии",
+   "album": "неизвестен",
+   "label": "?",
+   "voice_note": "не исследовано; вероятно Topic-канал аккомпаниатора Гельмута Дойча, певец на видео не установлен",
+   "reputation": "не проверено",
+   "videoId": "WVAJY2_0emc",
+   "channel": "Helmut Deutsch - Topic",
+   "official": true
+  },
+  {
+   "singer": "Jan Kobow",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2009 (том для этого трека не подтверждён отдельно)",
+   "year_source": "реестр общий по певцу (Naxos серия)",
+   "album": "Naxos Schubert Complete Edition",
+   "label": "Naxos",
+   "voice_note": "не исследовано",
+   "reputation": "систематическая серия",
+   "videoId": "iOANEijzAWg",
+   "channel": "Jan Kobow - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "нет записи",
+  "fischer_dieskau": "есть — DG Sämtliche Lieder, см. выше",
+  "schwarzkopf": "нет записи",
+  "hotter": "нет записи",
+  "anders": "нет записи",
+  "e_schumann": "нет записи",
+  "ludwig": "нет записи",
+  "popp": "нет записи"
+ },
+ "new_albums": []
+}
