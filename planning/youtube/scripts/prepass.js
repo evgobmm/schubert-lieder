@@ -32,8 +32,14 @@ function ytSearch(query, n) {
 
 async function main() {
   const wanted = process.argv.slice(2);
-  let songs = index.filter((s) => s.section === '1824-1825');
-  if (wanted.length) songs = songs.filter((s) => wanted.includes(s.d));
+  let songs;
+  if (wanted[0] === '--rest') {
+    const done = new Set(Object.keys(require(path.join(ROOT, 'app/src/data/performances.json'))));
+    songs = index.filter((s) => !done.has(s.d) && s.section !== 'winterreise');
+  } else {
+    songs = index.filter((s) => s.section === '1824-1825');
+    if (wanted.length) songs = songs.filter((s) => wanted.includes(s.d));
+  }
   for (const song of songs) {
     const slug = slugOf(song);
     const mbFile = path.join(DATA, `${slug}.mb.json`);
