@@ -1,0 +1,655 @@
+{
+  "cycle": {
+    "d": "795",
+    "title_de": "Die schöne Müllerin",
+    "poet_de": "Wilhelm Müller",
+    "year": 1823,
+    "songs": 20,
+    "method": "цикльный метод (docs/rules/youtube-performances.md, §«Масштабирование», п. 2): одно исследование на цикл, глубина famous; топ-5 каждой песни — из выбранных ПОЛНЫХ записей цикла, per-song videoId с Topic-каналов",
+    "research_date": "2026-08-17",
+    "gate_requirement": "цикл публикуем, только если он доступен ПОТРЕКОВО (per-song треки на официальных/Topic-каналах); проверка — выборочно 2–3 песни цикла + oEmbed",
+    "sources_used": [
+      "planning/youtube/albums.md; planning/youtube/albums/{complete-editions,male-recitalists,female-recitalists,modern-series}.md",
+      "planning/research/singers-digest.md",
+      "дискография Майкла Грея (classical-discography.org, POST /search2.php + modalcontent.php?id=…) — сессии/матрицы HMV",
+      "Discogs API (api.discogs.com) — notes/companies релизов",
+      "MusicBrainz API",
+      "yt-dlp ytsearch (per-track наличие) + oEmbed (planning/youtube/scripts/yt-check.js) — живость/встраиваемость"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "quasthoff-zeyen-2005",
+      "singer": "Thomas Quasthoff",
+      "singer_born": 1959,
+      "voice": "бас-баритон",
+      "pianist": "Justus Zeyen",
+      "year": 2005,
+      "year_source": "Discogs release 4640997 (DG 00289 474 2182), notes: «Recording: Berlin, Teldex Studio, 7/2005»; released 2005-10-14. Studio, не live.",
+      "label_edition": "Deutsche Grammophon 474 218-2 (2005); переизд. 477 9186 (2010); лимит. изд. с DVD 477 5940",
+      "voice_state": "46 лет, внутри пика (~1993–2007 по дайджесту); один из последних его сольных Schubert-альбомов (карьера в классике закрыта в янв. 2012)",
+      "reputation": "флагманский альбом DG; последний из ровно шести шубертовских альбомов Квастхофа (дайджест). Пиар-фильтр не требуется — приоритет №1 задан правилами проекта.",
+      "youtube": {
+        "per_track": true,
+        "channel": "Thomas Quasthoff - Topic (DG/Universal)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "6S1js0SQbbA", "oembed": 200},
+          {"song": "D 795/7 Ungeduld", "videoId": "PtMyJCa-k24", "oembed": 200},
+          {"song": "D 795/18 Trockne Blumen", "videoId": "rh3fY5_vRLY", "oembed": 200}
+        ],
+        "warning": "на том же Topic-канале лежит ПАРАЛЛЕЛЬНЫЙ комплект с пометкой «(Live)» — это Verbier 2023 с Emanuel Ax (напр. ndMksZrTLrQ, BtIeRa6bQVU, RTF-8wKVV_4), не альбом DG 2005; при публикации брать только треки без «(Live)»"
+      },
+      "priority_group": 1,
+      "verdict": "ПРИОРИТЕТ №1 правил; студийная запись в пике, официальные потрековые загрузки — публикуема без оговорок"
+    },
+    {
+      "id": "fischer-dieskau-moore-1951",
+      "singer": "Dietrich Fischer-Dieskau",
+      "voice": "баритон",
+      "pianist": "Gerald Moore",
+      "year": 1951,
+      "year_source": "дискография Грея, запись id 59873 (Das Wandern, HMV DB21388, матрица 16028): «1951 October 3 - 5 + 7», London, EMI Studio No. 3, Abbey Road",
+      "label_edition": "HMV 78 об. DB 21388–95 / LP ALP 1913",
+      "voice_state": "26 лет — вокально самая свежая из трёх его студийных Müllerin; первая студийная запись цикла",
+      "reputation": "исторический дебют главного шубертовского баритона XX века в цикле; в реестре — «первая студийная Müllerin Ф.-Д., вокальный пик»",
+      "youtube": {
+        "per_track": "под вопросом",
+        "channel": "Dietrich Fischer-Dieskau - Topic, но только через «серые» лейблы-агрегаторы",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "WXzU4yqAhT4", "oembed": 200, "album": "The Voice of Dietrich Fischer-Dieskau, ℗ 2014 Heritage Records / The Orchard"},
+          {"song": "D 795/1 Das Wandern", "videoId": "vzJiiKZ29pg", "oembed": "не проверен", "album": "℗ 2017 MVE / The Orchard"},
+          {"song": "D 795/1 Das Wandern", "videoId": "KMe0N-WgiXg", "oembed": "не проверен", "album": "℗ 1962 — BNF Collection 2014 / Believe SAS"}
+        ],
+        "warning": "официальной потрековой загрузки Warner для версии 1951 не найдено; кредиты «серых» Topic-агрегаторов правилами запрещены как источник — принадлежность этих аудиодорожек сессиям 1951 требует отдельной проверки (длительности 138–170 с у разных загрузок расходятся)"
+      },
+      "priority_group": 2,
+      "verdict": "вокально предпочтительна по правилу «при прочих равных — более ранняя», но потрековая доступность в официальном виде НЕ подтверждена; в пятёрку без доисследования не ставить"
+    },
+    {
+      "id": "fischer-dieskau-moore-1961",
+      "singer": "Dietrich Fischer-Dieskau",
+      "voice": "баритон",
+      "pianist": "Gerald Moore",
+      "year": 1961,
+      "year_source": "реестр (planning/youtube/albums/complete-editions.md, по дискографии Грея): зап. 2–3.12.1961, Berlin-Zehlendorf; издание Electrola STE 91187/8; загрузка Warner помечена «℗ 1962, 1997 Parlophone Records Limited»",
+      "label_edition": "Electrola / EMI STE 91187/8; сейчас Warner Classics",
+      "voice_state": "36 лет — внутри пика (~1951–1972), стерео, ремейк первой версии",
+      "reputation": "самая тиражируемая EMI-версия цикла Ф.-Д.; в каталоге Warner как эталонная стерео-запись",
+      "youtube": {
+        "per_track": true,
+        "channel": "Dietrich Fischer-Dieskau - Topic (Warner Classics)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "AmKXOPiqjCU", "oembed": 200, "album": "Schubert: Die schöne Müllerin, D. 795, ℗ Warner Classics / 1962, 1997 Parlophone"}
+        ]
+      },
+      "priority_group": 2,
+      "verdict": "рабочий вариант Ф.-Д. для публикации: пик голоса + официальная потрековая загрузка Warner"
+    },
+    {
+      "id": "fischer-dieskau-moore-1971",
+      "singer": "Dietrich Fischer-Dieskau",
+      "voice": "баритон",
+      "pianist": "Gerald Moore",
+      "year": "1971?",
+      "year_source": "реестр: DG-свод Schubert Sämtliche Lieder, сессии 1966–1972, Ufa-Ton-Studio Berlin; циклы вышли как Vol. 3 (2720 059, изд. 1972; отдельный LP 2530 544, 1972 — Discogs 1672300/9256510). Точная дата сессий именно цикла НЕ установлена",
+      "label_edition": "Deutsche Grammophon 2530 544 / 2720 059; CD 415 186-2, бокс 437 214-2",
+      "voice_state": "46 лет — конец пика; тон полнее и медленнее, чем в 1951/1961",
+      "reputation": "часть канонического DG-свода; проектная конвенция года для свода — 1969, но для цикла корректнее 1971/72 (издание 1972)",
+      "youtube": {
+        "per_track": true,
+        "channel": "Dietrich Fischer-Dieskau - Topic (DG/Universal)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "Q9XxnkzYVw0", "oembed": 200, "album": "Die schöne Müllerin D795 (DG)"},
+          {"song": "D 795/1 Das Wandern", "videoId": "48Z7bk8Foi4", "oembed": "не проверен", "album": "Schubert: Lieder (Vol. 3) (DG)"}
+        ]
+      },
+      "priority_group": 2,
+      "verdict": "запасная версия Ф.-Д.; по правилу «при прочих равных — более ранняя» уступает 1961"
+    },
+    {
+      "id": "huesch-mueller-1935",
+      "singer": "Gerhard Hüsch",
+      "voice": "баритон",
+      "pianist": "Hanns Udo Müller",
+      "year": 1935,
+      "year_source": "дискография Грея: id 74340 (Das Wandern, DB2429, матрица 2EA 1225) — «1935 January 31», London, EMI Studio No. 3, Abbey Road; id 56248 (Am Feierabend, DB2430) — 1935 January 31; id 56255 (Trockne Blumen, DB2435) — 1935 February 2; id 53828 (Der Müller und der Bach, DB2436, матрица 2RA 481) — 1935 March 22",
+      "label_edition": "HMV DB 2429–2436; переизд. Angel «Great Recordings of the Century» GR-2156, Pearl GEMM CD 9479, Pristine PACO007, Preiser",
+      "voice_state": "34 года, пик формы; тот же дуэт, что записал эталонную Winterreise 1933",
+      "reputation": "исторический эталон цикла; klassik-prisma — 5 баллов, первая строка мужской таблицы (реестр); статус канона подтверждён включением в «Great Recordings of the Century»",
+      "registry_correction": "в реестре стояло «зап. 1934/35» — по Грею все выборочно проверенные стороны датированы 1935 (31.01, 02.02, 22.03); год для плеера — 1935",
+      "youtube": {
+        "per_track": true,
+        "channel": "Gerhard Hüsch - Topic",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "9pBri6xEhOM", "oembed": 200},
+          {"song": "D 795/1 Das Wandern (др. переизд.)", "videoId": "kyBfrwHLOXg", "oembed": 200},
+          {"song": "D 795/10 Tränenregen", "videoId": "f11JqQItAgQ", "oembed": "не проверен"}
+        ],
+        "warning": "несколько параллельных Topic-комплектов от разных переиздателей — при публикации выбрать один и держать сквозную консистентность"
+      },
+      "priority_group": 4,
+      "verdict": "главный старый мастер цикла; сильнейший кандидат в группу «звёзды прошлого»"
+    },
+    {
+      "id": "schiotz-moore-1945",
+      "singer": "Aksel Schiøtz",
+      "voice": "тенор",
+      "pianist": "Gerald Moore",
+      "year": 1945,
+      "year_source": "дискография Грея id 57403 (Das Wandern, HMV DB6252, матрица 10722): «1945 November 1», London, EMI Studio No. 3, Abbey Road",
+      "label_edition": "HMV DB 6252 ff.; LP RCA LCT 1048 (1951), Seraphim 60140, Odeon MOAK 1; полное переизд. Danacord DACOCD 452 (1996)",
+      "voice_state": "39 лет, последний год до опухоли мозга, оборвавшей карьеру (1946) — документ полной формы",
+      "reputation": "классика тенорового цикла (дайджест); одна из самых любимых критикой довоенно-послевоенных Müllerin",
+      "youtube": {
+        "per_track": true,
+        "channel": "Aksel Schiøtz - Topic",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "dyPDMWG_8Cc", "oembed": 200},
+          {"song": "D 795/1 Das Wandern (Danacord)", "videoId": "Up3ddt0md4o", "oembed": 200}
+        ],
+        "warning": "существует отдельная сторона 1939 г. (Грей id 241900, HMV X6312, «1939 May 26», тот же дуэт) — не путать с полным циклом 1945"
+      },
+      "priority_group": 4,
+      "verdict": "сильный кандидат в старую группу; тембр и дикция — эталон"
+    },
+    {
+      "id": "patzak-raucheisen-1940s",
+      "singer": "Julius Patzak",
+      "voice": "тенор",
+      "pianist": "Michael Raucheisen",
+      "year": "1940-е?",
+      "year_source": "реестр (male-recitalists.md): радиозапись 1940-х, переизд. Preiser PR 3128 (1975), Eterna 8 20 747 (1967), CD Preiser PR93487. Точная дата НЕ установлена — нужен целевой поиск по каталогу RRG/Preiser",
+      "label_edition": "радио (RRG?) / Preiser; отдельная студийная LP-версия — Vox PL 10.830 с Walter Klien (изд. 1958)",
+      "voice_state": "голос всегда скромный, суть — слово и фразировка; в 1940-е — пик выразительности",
+      "reputation": "у знатоков — образец «говорящего» пения; голос не роскошный, поэтому в сравнительных обзорах ниже Хюша/Шиотца",
+      "youtube": {
+        "per_track": true,
+        "channel": "Julius Patzak - Topic",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "fxqRMqjeVQU", "oembed": 200},
+          {"song": "D 795/1 Das Wandern (Excerpts-издание)", "videoId": "dBqENq7-ZaQ", "oembed": 200},
+          {"song": "D 795/7 Ungeduld", "videoId": "FTo280DCW5U", "oembed": "не проверен"}
+        ],
+        "warning": "часть Topic-комплектов помечена «(Excerpts)» — проверить полноту трек-листа выбранного издания перед публикацией"
+      },
+      "priority_group": 4,
+      "verdict": "кандидат второго ряда старой группы; блокер — неустановленный год (по правилу допустим формат «194x?»)"
+    },
+    {
+      "id": "anders-1945-1948",
+      "singer": "Peter Anders",
+      "voice": "тенор",
+      "pianist": "Michael Raucheisen (1945) / Günther Weissenborn (1948)",
+      "year": "1945 / 1948",
+      "year_source": "дайджест и реестр (male-recitalists.md): две версии цикла; издания отдельно не верифицированы",
+      "voice_state": "пик 1940-х, спада нет (погиб в 45 лет)",
+      "reputation": "приоритетный по правилам певец (п. 4 иерархии); шубертовский тенор высокого класса",
+      "youtube": {
+        "per_track": false,
+        "checked_tracks": [
+          {"song": "D 795/2 Wohin?", "videoId": "nxMuhbNi4x8", "note": "единственный трек цикла на Peter Anders - Topic, и тот внутри рецитального сборника «Peter Anders singt Arien und Lieder»"}
+        ],
+        "warning": "канал «Peter Laurent Anders» с треками цикла — ДРУГОЙ, современный певец; засчитывать нельзя. Полного потрекового комплекта цикла на YouTube не найдено"
+      },
+      "priority_group": 4,
+      "verdict": "НЕПУБЛИКУЕМ по цикльному методу: нет потрековой доступности. Отрицательный результат зафиксирован"
+    },
+    {
+      "id": "duhan-foll-1928",
+      "singer": "Hans Duhan",
+      "voice": "баритон",
+      "pianist": "Ferdinand Foll (часть — Lene Orthmann)",
+      "year": 1928,
+      "year_source": "дискография Грея id 69446 (Das Wandern, HMV ER263): «1928 April 21»",
+      "label_edition": "HMV Vienna",
+      "voice_state": "38 лет; вокально не эталон (дайджест)",
+      "reputation": "ПЕРВАЯ полная запись цикла в истории — ценность историческая, не художественная",
+      "youtube": {
+        "per_track": false,
+        "warning": "только archive.org и разрозненные фан-загрузки; Topic-комплекта нет"
+      },
+      "priority_group": 5,
+      "verdict": "НЕПУБЛИКУЕМ: нет потрековой доступности"
+    },
+    {
+      "id": "pears-britten-1959-60",
+      "singer": "Peter Pears",
+      "voice": "тенор",
+      "pianist": "Benjamin Britten",
+      "year": "1960 (изд.)",
+      "year_source": "Discogs 11796210 (Decca LXT 5574): «Recording first published 1960», released 1960-09; записано в Kingsway Hall (companies: Recorded At Kingsway Hall). Дата сессии НЕ установлена (дайджест даёт «1958–59?»)",
+      "label_edition": "Decca LXT 5574 / SXL 2200",
+      "voice_state": "около 49 лет — внутри пика (1950-е–1960-е)",
+      "reputation": "дуэт Пирс–Бриттен канонизирован прежде всего Winterreise 1963; Müllerin ценят за пианиста-композитора за роялем, тембр Пирса на любителя",
+      "youtube": {
+        "per_track": true,
+        "channel": "Peter Pears - Topic (Decca/Universal)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "z5VXDcI9tPw", "oembed": 200}
+        ]
+      },
+      "priority_group": 4,
+      "verdict": "кандидат старой группы; год для плеера — 1960 (год издания), если сессия не установлена"
+    },
+    {
+      "id": "wunderlich-giesen-1966",
+      "singer": "Fritz Wunderlich",
+      "voice": "тенор",
+      "pianist": "Hubert Giesen",
+      "year": 1966,
+      "year_source": "реестр (albums.md, карточка альбома + дискография Грея): сессии 2–5 июля 1966, Akademie der Wissenschaften, Мюнхен; DG 139 220. У Грея пианист напечатан «Hubert Green» — опечатка",
+      "label_edition": "Deutsche Grammophon 139 220 («Die schöne Müllerin + Lieder»)",
+      "voice_state": "36 лет, только пик — последние студийные сессии (погиб 17.09.1966)",
+      "reputation": "эталон тенорового цикла (дайджест); одна из самых продаваемых и почитаемых записей Lieder вообще",
+      "youtube": {
+        "per_track": true,
+        "channel": "Fritz Wunderlich - Topic (DG/Universal)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "CN-OC9vx6tI", "oembed": 200, "album": "Schubert: Die schöne Müllerin; 3 Lieder"},
+          {"song": "D 795/7 Ungeduld", "videoId": "-R8yLtU-4wE", "oembed": 200},
+          {"song": "D 795/3 Halt!", "videoId": "9_x92NYl23I", "oembed": "не проверен"}
+        ],
+        "warning": "на канале много параллельных комплектов (сборники DG, SWR-радио, ремастеры 2025) — брать один альбомный ряд"
+      },
+      "priority_group": 4,
+      "verdict": "безусловный кандидат в пятёрку: пик, эталонная репутация, полная официальная потрековая доступность"
+    },
+    {
+      "id": "wunderlich-stolze-1959-60",
+      "singer": "Fritz Wunderlich",
+      "voice": "тенор",
+      "pianist": "Kurt Heinz Stolze",
+      "year": "1959–60?",
+      "year_source": "реестр (male-recitalists.md): Eurodisc 86 083 XCK / 88 643 XAK; клубное изд. Opera 1175 датировано 1960 (Discogs); US-изд. Nonesuch H-71211 (1968). Точная дата сессий НЕ установлена",
+      "voice_state": "~29–30 лет — самый свежий период голоса",
+      "reputation": "менее известен, чем DG-версия; для коллекционеров — «молодой Вундерлих»",
+      "youtube": {
+        "per_track": "не подтверждено",
+        "warning": "кандидат lQUqZxkj95c на Fritz Wunderlich - Topic оказался ℗ 2018 SWR Classic (радиозапись), а не Eurodisc; потрековая доступность именно Eurodisc-цикла не подтверждена (фан-загрузка QO_2j5Za_-0)"
+      },
+      "priority_group": 4,
+      "verdict": "справочно; при прочих равных DG-1966 сильнее и доступнее"
+    },
+    {
+      "id": "souzay-baldwin-1964",
+      "singer": "Gérard Souzay",
+      "voice": "баритон",
+      "pianist": "Dalton Baldwin",
+      "year": 1964,
+      "year_source": "реестр (complete-editions.md, по Грею): Philips 835 260 AY, зап. 19–30.06.1964, Веве",
+      "label_edition": "Philips 835 260; сводное CD-переизд. Philips 438 511-2 (1993)",
+      "voice_state": "46 лет — конец пика (пик 1950-е — сер. 1960-х), голос ещё ровный",
+      "reputation": "французская школа в немецком цикле; ценится за legato и цвет, критикуется за произношение",
+      "youtube": {
+        "per_track": true,
+        "channel": "Gérard Souzay - Topic (Universal)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "rW2YRdXV_Ok", "oembed": 200},
+          {"song": "D 795/6 Der Neugierige", "videoId": "BDr92n_TOno", "oembed": "не проверен"}
+        ]
+      },
+      "priority_group": 4,
+      "verdict": "кандидат второго ряда старой группы"
+    },
+    {
+      "id": "prey-hokanson-1973",
+      "singer": "Hermann Prey",
+      "voice": "баритон",
+      "pianist": "Leonard Hokanson",
+      "year": "1973",
+      "year_source": "реестр: бокс Philips 6767 300, ℗ 1973/1974 по лейблам (Discogs notes); отдельный LP 6520 018 (Discogs 14692844, 1976 — репресс); YouTube-метаданные дают 1973 (не источник). Точная дата сессий НЕ установлена",
+      "label_edition": "Philips 6520 018 / 6767 300; CD 422 241-2; Eloquence «Die Schubert Trilogie» (480 1991, 2009)",
+      "voice_state": "44 года, внутри пика (~1960–1980); ремейк более ранних EMI-циклов",
+      "reputation": "«народный» тёплый Шуберт; у Прая цикл — визитная карточка (позже ещё ТВ-версии и Denon 1986 с Bianconi)",
+      "youtube": {
+        "per_track": true,
+        "channel": "Hermann Prey - Topic (Universal)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "XfNz5PzePAw", "oembed": 200},
+          {"song": "D 795/1 Das Wandern (др. изд.)", "videoId": "dJcq0nf3bbE", "oembed": "не проверен"},
+          {"song": "D 795/12 Pause", "videoId": "nR5ot8WnosA", "oembed": "не проверен"}
+        ]
+      },
+      "priority_group": 4,
+      "verdict": "кандидат старой группы; конкурирует с Вундерлихом и Ф.-Д. за места"
+    },
+    {
+      "id": "schreier-olbertz-1972",
+      "singer": "Peter Schreier",
+      "voice": "тенор",
+      "pianist": "Walter Olbertz",
+      "year": "1972 (изд.)",
+      "year_source": "реестр (male-recitalists.md): Eterna 8 26 218/219 (1972), также DG 2530 362 — годы изданий по Discogs; сессии не установлены",
+      "voice_state": "37 лет, пик (~1965–1990)",
+      "reputation": "ядро восточногерманской Schubert-Lieder-Edition",
+      "youtube": {
+        "per_track": "не подтверждено",
+        "warning": "на Peter Schreier - Topic обнаружены комплекты Decca/Schiff (℗1991) и ГИТАРНОЙ версии с Konrad Ragossnig (0fqCNfzMrAU, ℗ Edel Germany, альбом «Bach, Mozart, Schubert & Schumann: Songs and Arias») — Eterna/Olbertz отдельно не подтверждён; при отборе легко ошибиться версией"
+      },
+      "priority_group": 4,
+      "verdict": "справочно; требует доисследования, если понадобится"
+    },
+    {
+      "id": "schreier-schiff-1989",
+      "singer": "Peter Schreier",
+      "voice": "тенор",
+      "pianist": "András Schiff",
+      "year": 1989,
+      "year_source": "Discogs 7451009 (Decca 430 414-2, изд. 1991), notes: «Recorded: August 1989, at Mozartsaal, Wiener Konzerthaus», рояль Bösendorfer",
+      "label_edition": "Decca 430 414-2 (1991); свод трёх циклов 475 268-2 (2003)",
+      "voice_state": "54 года — поздний пик, тембр суше, но интонация и дикция на высоте",
+      "reputation": "интеллектуальная вершина Шрайера (дайджест); дуэт с Шифом высоко оценён критикой",
+      "youtube": {
+        "per_track": true,
+        "channel": "Peter Schreier - Topic (Decca/Universal)",
+        "checked_tracks": [
+          {"song": "D 795/6 Der Neugierige", "videoId": "ELg6vGwVg5I", "oembed": 200, "album": "Schubert: Song Cycles, ℗ 1991 Decca"},
+          {"song": "D 795/1 Das Wandern", "videoId": "luLxZ4OpMtw", "oembed": "не проверен"}
+        ],
+        "warning": "выдача yt-dlp показывает канал как агрегатор «파워놀 놀부», но oEmbed раскрывает реальный канал «Peter Schreier - Topic» — доверять oEmbed"
+      },
+      "priority_group": 5,
+      "verdict": "сильный кандидат на «современное» место (≥1990 по дате издания 1991, но сессия 1989 — формально до 1990)"
+    },
+    {
+      "id": "baer-parsons-1980s",
+      "singer": "Olaf Bär",
+      "voice": "баритон",
+      "pianist": "Geoffrey Parsons",
+      "year": "1986?",
+      "year_source": "дайджест: циклы EMI с Parsons, Müllerin 1986? — дата НЕ верифицирована",
+      "voice_state": "около 29 лет, начало пика (кон. 1980-х–1990-е)",
+      "reputation": "EMI-серия циклов; в своё время хвалили за лиричность, сейчас в тени Ф.-Д./Гурэ",
+      "youtube": {
+        "per_track": true,
+        "channel": "Olaf Bär - Topic (Warner)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "WxHM5z7pgIs", "oembed": "не проверен"},
+          {"song": "D 795/9 Des Müllers Blumen", "videoId": "Sw2sqE0hW2w", "oembed": "не проверен"}
+        ]
+      },
+      "priority_group": 5,
+      "verdict": "справочно; год не верифицирован, репутация не выдающаяся"
+    },
+    {
+      "id": "holzmair-cooper-1999",
+      "singer": "Wolfgang Holzmair",
+      "voice": "баритон",
+      "pianist": "Imogen Cooper",
+      "year": 1999,
+      "year_source": "реестр (modern-series.md): Philips 456 581-2, изд. 15.06.1999 [MB/Discogs]; место сессии не установлено",
+      "voice_state": "47 лет, пик 1990-х; светлый, теноровый тембр",
+      "reputation": "уважаемая, но не эталонная версия; сильная пианистка",
+      "youtube": {
+        "per_track": true,
+        "channel": "Wolfgang Holzmair - Topic (Universal)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "-zMthJ-Ie4g", "oembed": 200}
+        ]
+      },
+      "priority_group": 5,
+      "verdict": "резерв на «современное» место"
+    },
+    {
+      "id": "bostridge-johnson-1995",
+      "singer": "Ian Bostridge",
+      "voice": "тенор",
+      "pianist": "Graham Johnson",
+      "year": 1995,
+      "year_source": "Discogs 6545451 (Hyperion CDJ33025) — год 1995; издание III.1996; загрузка помечена «℗ 1996 Hyperion Records Limited»",
+      "label_edition": "Hyperion Schubert Edition, т. 25 (CDJ33025); переизд. CDA30020 (2010); с чтением стихов Мюллера Фишером-Дискау",
+      "voice_state": "31 год — начало пика (~1995–2010), голос свежий",
+      "reputation": "Gramophone Award 1996 (реестр, modern-series.md); дебютная запись цикла Бостриджа, считается его лучшей",
+      "youtube": {
+        "per_track": true,
+        "channel": "Ian Bostridge - Topic (Hyperion via UMG)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "Hrt7lWpRO54", "oembed": 200}
+        ]
+      },
+      "priority_group": 5,
+      "verdict": "лучший «свежий» кандидат из 1990-х; премия Gramophone — объективный, не пиарный маркер"
+    },
+    {
+      "id": "bostridge-uchida-2005",
+      "singer": "Ian Bostridge",
+      "voice": "тенор",
+      "pianist": "Mitsuko Uchida",
+      "year": 2005,
+      "year_source": "загрузка Warner: «℗ 2005 Parlophone Records Limited»; реестр (modern-series.md): EMI, 2005 [MB]",
+      "voice_state": "41 год, ещё в пике, но манерность нарастает",
+      "reputation": "вторая студийная Müllerin; интерес прежде всего из-за Утиды за роялем",
+      "youtube": {
+        "per_track": true,
+        "channel": "Ian Bostridge - Topic (Warner)",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "F68116VBk1k", "oembed": 200}
+        ]
+      },
+      "priority_group": 5,
+      "verdict": "по правилу «более ранняя при прочих равных» уступает Hyperion-1995"
+    },
+    {
+      "id": "bostridge-giorgini-2020",
+      "singer": "Ian Bostridge",
+      "voice": "тенор",
+      "pianist": "Saskia Giorgini",
+      "year": 2020,
+      "year_source": "реестр: Pentatone, изд. 06.11.2020 [MB]",
+      "voice_state": "56 лет — за пиком, тон суше",
+      "youtube": {"per_track": true, "channel": "Ian Bostridge - Topic (Pentatone)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "cPgq3fWLxxE", "oembed": 200}]},
+      "priority_group": 5,
+      "verdict": "справочно; третья версия, вокально слабейшая из трёх"
+    },
+    {
+      "id": "goerne-schneider-2002",
+      "singer": "Matthias Goerne",
+      "voice": "баритон",
+      "pianist": "Eric Schneider",
+      "year": "2001–02",
+      "year_source": "дайджест: Müllerin (Decca ~2001, Schneider); загрузка на Matthias Goerne - Topic помечена 2002 (метаданные YT — не источник). Дата сессии НЕ установлена",
+      "voice_state": "34–35 лет, начало пика (~1997–2015)",
+      "youtube": {"per_track": true, "channel": "Matthias Goerne - Topic (Decca)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "A4iCjq6FUvA", "oembed": 200}]},
+      "priority_group": 5,
+      "verdict": "первая из двух его Müllerin; голос свежее, чем в 2008"
+    },
+    {
+      "id": "goerne-eschenbach-2008",
+      "singer": "Matthias Goerne",
+      "voice": "баритон",
+      "pianist": "Christoph Eschenbach",
+      "year": 2008,
+      "year_source": "реестр (complete-editions.md, по Discogs): harmonia mundi HMC 901995, зап. IX.2008, Teldex; изд. IV.2009 — том 3 «Goerne Schubert Edition»",
+      "voice_state": "41 год, середина пика; тембр темнее и объёмнее, чем в 2002",
+      "reputation": "самый записываемый шубертовский баритон поколения; серия HM — референс современности (с поправкой на правило о пиаре)",
+      "youtube": {
+        "per_track": true,
+        "channel": "Christoph Eschenbach - Topic (harmonia mundi / PIAS) — загрузки цикла числятся за пианистом, не за певцом",
+        "checked_tracks": [
+          {"song": "D 795/1 Das Wandern", "videoId": "Ea98HADsfFo", "oembed": 200},
+          {"song": "D 795/11 Mein!", "videoId": "K2rl7L4s7ck", "oembed": "не проверен"},
+          {"song": "D 795/20 Des Baches Wiegenlied", "videoId": "brPSod7ufW8", "oembed": "не проверен"}
+        ],
+        "warning": "gate.js проверяет соответствие канала певцу — здесь канал пианиста; заложить исключение или брать загрузки harmonia mundi music"
+      },
+      "priority_group": 5,
+      "verdict": "основной современный баритоновый кандидат"
+    },
+    {
+      "id": "guera-schultsz-2000",
+      "singer": "Werner Güra",
+      "voice": "тенор",
+      "pianist": "Jan Schultsz",
+      "year": 2000,
+      "year_source": "реестр (modern-series.md): harmonia mundi HMC 901708, изд. 2000 [Discogs 9668560]; дата 2007 в MB — переиздание Musique d'Abord (HMA 1951708). Дата сессии НЕ установлена",
+      "voice_state": "36 лет, начало пика (~1998–2015)",
+      "reputation": "одна из самых хвалимых теноровых Müllerin рубежа веков; лёгкий, «моцартовский» тембр",
+      "youtube": {"per_track": true, "channel": "Werner Güra - Topic (harmonia mundi / PIAS)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "4h4S_ZONiSw", "oembed": 200}, {"song": "D 795/2 Wohin?", "videoId": "dAzU5wFTcJA", "oembed": "не проверен"}]},
+      "priority_group": 5,
+      "verdict": "сильный современный теноровый кандидат"
+    },
+    {
+      "id": "pregardien-gees-2008",
+      "singer": "Christoph Prégardien",
+      "voice": "тенор",
+      "pianist": "Michael Gees",
+      "year": 2008,
+      "year_source": "Discogs 7357396 (Challenge Classics CC72292, 2008); реестр: MIDEM Classical Award Record of the Year 2009, Gramophone Editor's Choice",
+      "voice_state": "52 года, поздний пик (~1990–2012)",
+      "reputation": "объективные премии (MIDEM 2009), не только пресс-релизы; ранее — версия со Штайером на хаммерклавире (DHM, изд. окт. 1992)",
+      "youtube": {"per_track": true, "channel": "Christoph Prégardien - Topic (Challenge)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "ExyKsDE4s4w", "oembed": 200}, {"song": "D 795/12 Pause", "videoId": "2ugbowDgHxo", "oembed": "не проверен"}]},
+      "priority_group": 5,
+      "verdict": "кандидат на современное место"
+    },
+    {
+      "id": "gerhaher-huber-2003",
+      "singer": "Christian Gerhaher",
+      "voice": "баритон",
+      "pianist": "Gerold Huber",
+      "year": 2003,
+      "year_source": "реестр (modern-series.md, по Discogs): Arte Nova 82876 53172 2, зап. 7–11.02.2003, Studio 2 BR; переизд. RCA 2008 — та же запись",
+      "voice_state": "34 года, начало пика",
+      "reputation": "пресса называет Герхаэра высшим текстовиком современности — фильтровать по правилу о пиаре",
+      "youtube": {"per_track": true, "channel": "Christian Gerhaher - Topic (Sony)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "ekrKrdq8REY", "oembed": 200}, {"song": "D 795/1 Das Wandern (дубль-издание)", "videoId": "dzT4m1Db2RM", "oembed": "не проверен"}]},
+      "priority_group": 5,
+      "verdict": "кандидат; по правилу «более ранняя» предпочтительнее его же версии 2016"
+    },
+    {
+      "id": "gerhaher-huber-2016",
+      "singer": "Christian Gerhaher",
+      "voice": "баритон",
+      "pianist": "Gerold Huber",
+      "year": 2016,
+      "year_source": "реестр: Sony Classical 88985427402, зап. 27–28.06 и 01.07.2016, Bavaria Musikstudio, Мюнхен [Discogs]; изд. 2017",
+      "voice_state": "47 лет, зрелость",
+      "youtube": {"per_track": true, "channel": "Christian Gerhaher - Topic (Sony)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "H42Ef-9uqhE", "oembed": 200}]},
+      "priority_group": 5,
+      "verdict": "подходит под подпункт «запись не ранее 2015» состава пятёрки"
+    },
+    {
+      "id": "padmore-lewis-2010",
+      "singer": "Mark Padmore",
+      "voice": "тенор",
+      "pianist": "Paul Lewis",
+      "year": 2010,
+      "year_source": "Discogs 18440938 (harmonia mundi HMU 907519, 2010); реестр: изд. июль 2010 [MB]. Дата сессии НЕ установлена",
+      "voice_state": "49 лет, пик (~2005–2017)",
+      "reputation": "трилогия с Льюисом; Winterreise 2009 из той же серии получила Gramophone Award 2010",
+      "youtube": {"per_track": true, "channel": "Mark Padmore - Topic (harmonia mundi)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "PG4QGI4ZziY", "oembed": 200}, {"song": "D 795/18 Trockne Blumen", "videoId": "GRfnnRTUpt0", "oembed": "не проверен"}]},
+      "priority_group": 5,
+      "verdict": "кандидат на современное место"
+    },
+    {
+      "id": "kaufmann-deutsch-2009",
+      "singer": "Jonas Kaufmann",
+      "voice": "тенор",
+      "pianist": "Helmut Deutsch",
+      "year": 2009,
+      "year_source": "дайджест: Müllerin (Decca 2009). Дата сессии НЕ установлена",
+      "voice_state": "40 лет, пик (~2006–2015)",
+      "reputation": "максимальный медийный охват при сдержанных оценках специалистов («ставят других выше» — дайджест); правило о скепсисе к пиару применимо напрямую",
+      "youtube": {"per_track": true, "channel": "официальный канал Jonas Kaufmann / Decca", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "AbTveIiey90", "oembed": "не проверен"}]},
+      "priority_group": 5,
+      "verdict": "справочно; по правилу о пиаре в пятёрку не тянет"
+    },
+    {
+      "id": "schuen-heide-2020",
+      "singer": "Andrè Schuen",
+      "voice": "баритон",
+      "pianist": "Daniel Heide",
+      "year": 2020,
+      "year_source": "Discogs 25444576 (DG 483 9558), notes: «Recording: Hohenems, Markus-Sittikus Saal, 5/2020»; изд. 2021",
+      "voice_state": "36 лет, начало пика",
+      "reputation": "флагманский молодой шубертовский баритон DG; серия отмечена OPUS Klassik (за Schwanengesang 2022)",
+      "youtube": {"per_track": true, "channel": "Andrè Schuen - Topic (DG)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "xS_m-48E6b8", "oembed": 200}, {"song": "D 795/7 Ungeduld", "videoId": "cC4xArYlRSM", "oembed": "не проверен"}]},
+      "priority_group": 5,
+      "verdict": "кандидат под подпункт «не ранее 2015»"
+    },
+    {
+      "id": "hasselhorn-bushakevitz-2023",
+      "singer": "Samuel Hasselhorn",
+      "voice": "баритон",
+      "pianist": "Ammiel Bushakevitz",
+      "year": 2023,
+      "year_source": "Discogs 36696394 (harmonia mundi HMM 902720, 2023); реестр: изд. 22.09.2023 [MB]. Точные даты сессий НЕ установлены (в реестре помечено «зап. 2023?»)",
+      "label_edition": "harmonia mundi, проект «Schubert 200», т. 1",
+      "voice_state": "33 года, ранний пик",
+      "reputation": "Diapason d'Or октября 2023 (сэмплер Discogs DIAP 338) и Diapason d'or de l'année — объективные премии, а не пресс-релиз",
+      "youtube": {"per_track": true, "channel": "Samuel Hasselhorn - Topic (harmonia mundi) + клипы harmonia mundi music", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "9xe4wmWemGU", "oembed": 200}, {"song": "D 795/10 Tränenregen", "videoId": "fV5mpaw7eKc", "oembed": "не проверен"}, {"song": "D 795/11 Mein!", "videoId": "NRvENk343sE", "oembed": "не проверен"}]},
+      "priority_group": 5,
+      "verdict": "главный кандидат на место «не ранее 2015»"
+    },
+    {
+      "id": "krimmel-heide-2023",
+      "singer": "Konstantin Krimmel",
+      "voice": "баритон",
+      "pianist": "Daniel Heide",
+      "year": 2023,
+      "year_source": "Discogs 29210428 / 27814983 (Alpha 929, 2023). Дата сессии НЕ установлена",
+      "voice_state": "30 лет, ранний пик",
+      "youtube": {"per_track": true, "channel": "Alpha Classics (официальный) + Konstantin Krimmel - Topic", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "r5itbR608Pg", "oembed": 200, "channel": "Alpha Classics"}, {"song": "D 795/18 Trockne Blumen", "videoId": "QahQVrhCBiU", "oembed": "не проверен", "channel": "Konstantin Krimmel - Topic"}]},
+      "priority_group": 5,
+      "verdict": "альтернатива Хассельхорну на «свежее» место; премий уровня Diapason d'or de l'année не зафиксировано"
+    },
+    {
+      "id": "stutzmann-sodergren-2008",
+      "singer": "Nathalie Stutzmann",
+      "voice": "контральто (женский голос в мужском цикле)",
+      "pianist": "Inger Södergren",
+      "year": 2008,
+      "year_source": "дайджест: Calliope, Müllerin 2008 (в серии трёх циклов; бокс Erato 2014). Дата сессии НЕ установлена",
+      "reputation": "редкий случай полного женского цикла Müllerin; ценность скорее концептуальная",
+      "youtube": {"per_track": true, "channel": "Nathalie Stutzmann - Topic (Erato/Warner)", "checked_tracks": [{"song": "D 795/1 Das Wandern", "videoId": "5hznjeU4yzY", "oembed": 200}]},
+      "priority_group": 5,
+      "verdict": "справочно; единственная полная женская запись цикла в фонде"
+    },
+    {
+      "id": "lehmann-ulanowsky-1942",
+      "singer": "Lotte Lehmann",
+      "voice": "сопрано",
+      "pianist": "Paul Ulanowsky",
+      "year": 1942,
+      "year_source": "дискография Грея id 76564 (Das Wandern, Columbia 71778-D in set M-615, матрица 32966): «1942 June 22»; реестр (female-recitalists.md): сессии 22 и 25.06.1942, 20 номеров цикла",
+      "completeness": "НЕПОЛНАЯ (20 из 20 номеров? — по реестру «20 номеров цикла», т. е. без части песен полного состава); в пул полных записей не входит",
+      "youtube": {"per_track": false, "channel": "только фан-загрузки"},
+      "priority_group": 5,
+      "verdict": "вне пула: цикл сокращён и нет потрековой доступности"
+    }
+  ],
+  "priority_check": {
+    "quasthoff": {
+      "recorded_cycle": true,
+      "record": "DG 474 218-2, Justus Zeyen, Teldex Studio Berlin, 7/2005 (Discogs 4640997 notes)",
+      "quality": "достойная — студийная запись внутри пика (46 лет), флагман DG",
+      "conclusion": "запись есть и качественна → по иерархии правил она №1 в топ-5 КАЖДОЙ песни цикла"
+    },
+    "fischer_dieskau": {
+      "recorded_cycle": true,
+      "versions": [
+        {"year": 1951, "pianist": "Gerald Moore", "label": "HMV", "session": "3–5 + 7 октября 1951, Abbey Road St. 3 (Грей id 59873)", "youtube": "официальной потрековой загрузки нет — только «серые» агрегаторы"},
+        {"year": 1961, "pianist": "Gerald Moore", "label": "Electrola/EMI", "session": "2–3 декабря 1961, Berlin-Zehlendorf (Грей, через реестр)", "youtube": "Warner Classics, потреково, проверено (AmKXOPiqjCU)"},
+        {"year": "1971?", "pianist": "Gerald Moore", "label": "DG", "session": "в составе свода 1966–72; точная дата цикла не установлена", "youtube": "DG/Topic, потреково (Q9XxnkzYVw0)"}
+      ],
+      "best_by_rules": "1961 — единственная версия, у которой сходятся оба критерия: голос внутри пика (36 лет) и официальная потрековая доступность. Чисто по правилу «при прочих равных предпочитать более раннюю» первой была бы 1951 (26 лет, вокально свежее), но она не проходит гейт доступности; DG-1971 уступает обеим как более поздняя.",
+      "followup": "доисследовать, соответствуют ли «серые» Topic-загрузки (Heritage 2014 / MVE 2017 / BNF) сессиям 1951 — если да, пересмотреть выбор в пользу 1951"
+    },
+    "hotter": {"recorded_cycle": false, "evidence": "полной Müllerin нет ни в дайджесте (Winterreise ×3, Schwanengesang, рециталы), ни в карточке Hotter реестра (male-recitalists.md, три слоя: Raucheisen 1942–45, EMI/Moore 1949–57, Decca/Parsons 1974?); поиск Discogs «Hotter + schöne Müllerin» даёт только антологии (RLS 766 и т. п.)", "conclusion": "отрицательный результат"},
+    "anders": {"recorded_cycle": true, "record": "две версии: 1945 (Raucheisen) и 1948 (Weissenborn) — дайджест и реестр; издания не верифицированы", "youtube": "потрековой доступности НЕТ (на Peter Anders - Topic только D 795/2 внутри рецитального сборника, nxMuhbNi4x8; канал «Peter Laurent Anders» — другой, современный певец)", "conclusion": "приоритетный певец, но по цикльному методу непубликуем — гейт потрековой доступности не пройден"},
+    "schwarzkopf": {"recorded_cycle": false, "evidence": "мужской цикл; в дайджесте и в female-recitalists.md полной Müllerin нет; поиск Discogs «Schwarzkopf + schöne Müllerin» даёт только сборники и антологии", "conclusion": "отрицательный результат"},
+    "elisabeth_schumann": {"recorded_cycle": false, "evidence": "дискография — ~28 отдельных песен HMV 1927–49 (Naxos 8.110731); полного цикла нет; поиск Discogs результата не дал", "conclusion": "отрицательный результат"},
+    "ludwig": {"recorded_cycle": false, "evidence": "из циклов записала только Winterreise (DG 1986, Levine); поиск Discogs «Ludwig + schöne Müllerin» даёт только сборники", "conclusion": "отрицательный результат"},
+    "popp": {"recorded_cycle": false, "evidence": "рецитал EMI 1983 и два BBC-лайва; полного цикла нет; поиск Discogs результата не дал", "conclusion": "отрицательный результат"},
+    "women_in_cycle_overall": "единственные женские Müllerin в фонде — Lotte Lehmann (сокращённая, Columbia M-615, 22 и 25.06.1942, Ulanowsky) и Nathalie Stutzmann (полная, Calliope 2008, Södergren). Обе — вне приоритетного списка правил.",
+    "age_structure_feasibility": {
+      "not_earlier_1990": ["Bostridge/Johnson 1995", "Güra/Schultsz 2000", "Goerne/Schneider 2002", "Gerhaher/Huber 2003", "Goerne/Eschenbach 2008", "Prégardien/Gees 2008", "Padmore/Lewis 2010", "Gerhaher/Huber 2016", "Schuen/Heide 2020", "Hasselhorn/Bushakevitz 2023", "Krimmel/Heide 2023"],
+      "not_earlier_2015": ["Gerhaher/Huber 2016", "Schuen/Heide 2020", "Hasselhorn/Bushakevitz 2023", "Krimmel/Heide 2023"],
+      "conclusion": "желательный состав (2 записи ≥1990, из них 1 ≥2015, плюс ≥3 старых) достижим без ущерба качеству"
+    },
+    "open_questions": [
+      "точные даты сессий: Fischer-Dieskau/DG (1971?), Prey/Philips (1973?), Patzak/Raucheisen (194x?), Pears/Britten (1959?), Wunderlich/Eurodisc (1959–60?), Hasselhorn (2023), Padmore (2010), Güra (1999–2000), Krimmel (2023), Kaufmann (2009), Goerne/Schneider (2001–02), Stutzmann (2008), Bär (1986?)",
+      "принадлежность «серых» потрековых загрузок Fischer-Dieskau сессиям 1951",
+      "потрековая доступность Schreier/Olbertz (Eterna 1972) и Wunderlich/Stolze (Eurodisc)",
+      "у загрузок Goerne/Eschenbach канал — Christoph Eschenbach - Topic (пианист): gate.js по правилу «соответствие канала певцу» это отфлагует"
+    ]
+  }
+}
