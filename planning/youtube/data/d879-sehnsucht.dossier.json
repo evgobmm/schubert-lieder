@@ -1,0 +1,98 @@
+{
+ "d": "879",
+ "title": "Sehnsucht (Seidl) — \"Die Scheibe friert, der Wind ist rauh\"",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: complete-editions.md — DG Sämtliche Lieder, конвенция года 1969",
+   "album": "DG Sämtliche Lieder (1966–1972)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик формы приходится на 1950–60-е; к 1969 тон уже суше, но контроль текста эталонный",
+   "reputation": "базовая точка отсчёта для любой мужской песни в проекте",
+   "videoId": "n6bzD3YI7BI",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Christoph Prégardien",
+   "pianist": "не установлен по этому видео (возможно Michael Gees или Andreas Staier — оба фигурируют в реестре Prégardien по другим альбомам)",
+   "rec_year": null,
+   "year_source": "не определён — ни один из известных альбомов Prégardien в реестре явно не подтверждён как источник этого трека (совпадения по фамилии, не по D-номеру)",
+   "album": "неизвестен",
+   "label": "неизвестен",
+   "voice_note": "?",
+   "reputation": "?",
+   "videoId": "yK5By9_Pljs",
+   "channel": "Christoph Prégardien - Topic",
+   "official": true
+  },
+  {
+   "singer": "Brigitte Fassbaender",
+   "pianist": "не установлен — из известных альбомов Фассбендер (Werba 1974, Reimann Winterreise/Schwanengesang) ни один явно не покрывает D 879; возможно отдельный сольный рецитал",
+   "rec_year": null,
+   "year_source": "не определён",
+   "album": "неизвестен (мецц-сопрановое исполнение мужского текста)",
+   "label": "EMI/Warner (Topic-канал)",
+   "voice_note": "?",
+   "reputation": "?",
+   "videoId": "PoShumSeOhk",
+   "channel": "Brigitte Fassbaender - Topic",
+   "official": true
+  },
+  {
+   "singer": "неизвестен — канал подписан на пианиста",
+   "pianist": "Graham Johnson",
+   "rec_year": null,
+   "year_source": "не определён; вероятно один из сборных томов Hyperion Schubert Edition (37 томов, 1987–2000), но точный том и певец не установлены",
+   "album": "Hyperion Schubert Edition, том не определён",
+   "label": "Hyperion",
+   "voice_note": "?",
+   "reputation": "серия в целом — эталонная (Guardian: «definitive treasury»)",
+   "videoId": "Et2VH6u--9k",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Barbara Hendricks",
+   "pianist": "Radu Lupu (по реестру — её единственная шубертовская серия EMI)",
+   "rec_year": "1985 или 1993",
+   "year_source": "реестр: female-recitalists.md — EMI Vol.1 (зап. 25–30.11.1985) или Vol.2 (℗1993); какой именно том содержит D 879, не проверено по трек-листу",
+   "album": "Schubert: Lieder, Vol. 1 или Vol. 2 (EMI)",
+   "label": "EMI/Warner",
+   "voice_note": "?",
+   "reputation": "?",
+   "videoId": "C4aJBxlmdvA",
+   "channel": "Barbara Hendricks - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "вероятно Ulrich Eisenlohr (Naxos DSLE) — по реестру Holzmair участвует в томах 20–21 «Poets of Sensibility»; поэт Seidl мог войти в эти тома, но трек-лист не сверен",
+   "rec_year": "2005/2006 (если Naxos)",
+   "year_source": "реестр: modern-series.md — Naxos т.20 (изд. 12/2005) / т.21 (изд. 03/2006), не подтверждено по трек-листу",
+   "album": "Naxos DSLE, «Poets of Sensibility» vol. 3 или 4 (предположительно)",
+   "label": "Naxos",
+   "voice_note": "?",
+   "reputation": "?",
+   "videoId": "x1d-slAAXKI",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет — не пел мужские Lieder-циклы вне циклов/Goethe-Lieder; D 879 не входит в его 6 альбомов (дайджест)",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder (см. выше)",
+  "Schwarzkopf": "не найден кандидат в выдаче",
+  "Hotter": "не найден кандидат в выдаче",
+  "Anders": "не найден кандидат в выдаче",
+  "E. Schumann": "не найден кандидат в выдаче",
+  "Ludwig": "не найден подлинный кандидат (в исходной выдаче ложное совпадение — видео Christa Ludwig оказалось Lied der Anne Lyle D 830, отфильтровано)",
+  "Popp": "не найден кандидат в выдаче"
+ },
+ "new_albums": [
+  "Ни одной новой карточки для реестра — по всем некандидатам-FiDi конкретный альбом/сессия не подтверждены по трек-листу; требуется отдельная сверка, если певец попадёт в топ-5."
+ ],
+ "note_ложные_совпадения": "В исходном candidates.json 9 видео отфильтрованы как относящиеся к ДРУГИМ песням с тем же названием «Sehnsucht»: D 52 (FiDi, Prey), D 516 (FiDi, Ameling ×2), D 310 «Nur wer die Sehnsucht kennt» (Ameling)."
+}

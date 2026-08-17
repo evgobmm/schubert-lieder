@@ -1,0 +1,58 @@
+{
+ "d": "909",
+ "title": "Jägers Liebeslied",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: complete-editions.md — DG Sämtliche Lieder, конвенция года 1969",
+   "album": "DG Sämtliche Lieder (1966–1972)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "1969 — тон уже суше пика",
+   "reputation": "базовая точка отсчёта",
+   "videoId": "t62Nh8w98Nc",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Gerald Finley",
+   "pianist": "не установлен",
+   "rec_year": null,
+   "year_source": "не определён — карточки в реестре нет; открытый хвост дайджеста упоминает 2 неустановленные даты альбомов Finley (2019/2022), ни один явно не привязан к D 909",
+   "album": "неизвестен",
+   "label": "неизвестен (Topic-канал)",
+   "voice_note": "?",
+   "reputation": "видный современный бас-баритон",
+   "videoId": "VNNf2K08rpI",
+   "channel": "Gerald Finley - Topic",
+   "official": true
+  },
+  {
+   "singer": "Markus Eiche",
+   "pianist": "не установлен",
+   "rec_year": null,
+   "year_source": "не определён",
+   "album": "неизвестен",
+   "label": "неизвестен",
+   "voice_note": "?",
+   "reputation": "?",
+   "videoId": "aCNM5qF04gY",
+   "channel": "Markus Eiche - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет кандидата",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "нет кандидата",
+  "Hotter": "нет кандидата",
+  "Anders": "нет кандидата",
+  "E. Schumann": "нет кандидата",
+  "Ludwig": "нет кандидата",
+  "Popp": "нет кандидата"
+ },
+ "new_albums": [],
+ "note_целевой_поиск": "Целевой yt-dlp по Hasselhorn (проект «Schubert 200») для D 909 результата не дал — трек этой песни на его канале не найден.",
+ "note_ложные_совпадения": "Отфильтровано: Per Vollestad «Lied Des Gefangenen Jägers» (другая песня, D 843), Jasper Schweppe «Jägers Liebeslied Op. 96, 2 D. 909» — дублирует уже найденный D 909, но альбом/лейбл не идентифицирован (оставлен вне пула как явно менее значимый по просмотрам/каналу), FiDi «Jägers Abendlied» D 368 и «Lied des gefangenen Jägers» D 843, Jessye Norman «Ellens Gesang II» D 838 — всё другие песни. Очень скудный пул: всего 3 значительных кандидата на официальных Topic-каналах помимо ложных совпадений."
+}

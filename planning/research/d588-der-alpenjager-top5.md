@@ -17,3 +17,5 @@
 **Резервы**: 1) вторая загрузка Прая/Мура в антологиях EMI «Lieder on Record» и «A Life in Song»; 2) Prey — Engel (DG Lied-Edition, 1974) — если появится подтверждённая дорожка D 588.
 
 **Источники**: потрековые кредиты official audio (UMG, Warner Classics, Deutsche Harmonia Mundi, Naxos Digital Services), Discogs 6820641 (Columbia C 80 584, трек-лист) и 24216056 (EMI Icon, ℗-годы), MusicBrainz (6 записей «Der Alpenjäger, D. 588»), `albums.md` / `albums/complete-editions.md` / `albums/modern-series.md` / `albums/male-recitalists.md`, oEmbed 17.08.2026.
+
+**QA-ревизия волны «1819–1821» (2026-08-17):** сессия Columbia C 80 584 / STC 80584 теперь документирована — Грей (classical-discography.org, id 173654): **16–18 января 1960, Berlin-Zehlendorf**; трек-лист подтверждён Discogs 6820641. Формулировка «год сессии не документирован» выше устарела; год записи в `performances.json` приведён к **1960** (сквозная унификация альбома, см. `d636-sehnsucht-top5.md`).

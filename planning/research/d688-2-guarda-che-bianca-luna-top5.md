@@ -1,28 +1,27 @@
 # D 688/2 «Guarda, che bianca luna» (4 Canzoni, № 2) — топ-5
 
-Категория: rare. Квастхоф/Фишер-Дискау/Шварцкопф/Хоттер/Андерс/Шуман/Людвиг — не найдено; **Попп есть** (приоритетная исполнительница, §4). Все ID проверены oEmbed 2026-08-17. Источники по альбомам — общие с D 688/1.
+Как и в № 1, свод Фишера-Дискау итальянских канцон не содержит; приоритетная исполнительница — **Лючия Попп**.
 
-| # | name | year | videoId | Обоснование и источник |
-|---|---|---|---|---|
-| 1 | Popp — Parsons | 1982 | ptq1v5-05Ec | BBC Legends BBCL 4025-2, тот же вечер 1.03.1982 с Parsons; блок «4 Canzonen D 688» (реестр `albums/female-recitalists.md`, Discogs 17629282). Фан-перенос CD, официальной загрузки нет. |
-| 2 | Augér — Johnson | 1989 | zVZTmicMtZQ | Hyperion т. 9 «Schubert & the Theatre» (CDJ33009), «Vier Canzonen D688»; зап. 16–18.10.1989 (Discogs 13975038). Конвенция корпуса — 1989. |
-| 3 | Bartoli — Schiff | 1993 | 32cxcHTouXk | Decca 440 297-2 «Italian Songs · Canzoni», трек 13 (Discogs 5358656); сессия 5–8.08.1992, ℗1993 — год по конвенции корпуса (1993). |
-| 4 | Jacobs — van Immerseel | 1981 | QYlYbsNQ3mM | **Альбом опознан в этой сессии:** Accent ACC 8017 «Ariette e Cavatine» (Schubert · Bellini · Rossini · Beethoven · Donizetti), сторона B2 = «Guarda che bianca luna»; Рене Жакобс — контратенор, Йос ван Иммерсел — хаммерклавир (Discogs 5233063; переизд. ACC 10017, 2010, и бокс «The Countertenor — The Accent Recordings 1978–1982», ACC 24321). Год издания LP; сессия не документирована. Редкое историческое исполнение — только для № 2 (D 688/1 на диске нет). |
-| 5 | Brownlee — Katz | 2005 | MtZvmrDWk-M | EMI 7243 5 86503 2 7 «Italian Songs for Tenor and Piano», «Vier Canzonen D688», пианист Martin Katz (Discogs 16723770); Gramophone Editor's Choice, апрель 2005. |
+Порядок — по иерархии: Квастхоф (нет) → Фишер-Дискау (нет) → Шварцкопф (нет) → звёзды прошлого (Попп) → современные по качеству.
 
-Порядок: Попп (приоритетная) → Аугер → современные по качеству (Бартоли/Шифф, затем Жакобс/ван Иммерсел как периодная редкость, затем Браунли). Относительный порядок Попп → Аугер → Бартоли → Браунли совпадает с D 688/1.
+## Итог
 
-Возрастная структура: 2 записи ≥1990 (1993, 2005) — выполнено; ≥2015 — нет.
+| # | Запись | Год | videoId | Основание года |
+|---|--------|-----|---------|----------------|
+| 1 | Popp — Parsons | 1982 | ptq1v5-05Ec | Тот же концерт 1.03.1982, St John's Smith Square (реестр `albums/female-recitalists.md`: BBC Legends BBCL 4025-2) — сквозная унификация года с D 688/1 |
+| 2 | Augér — Johnson | 1989 | zVZTmicMtZQ | Hyperion Vol. 9 «Schubert & the Theatre» (CDJ33009), зап. X.1989 — реестр `albums/complete-editions.md`; описание official-audio подтверждает альбом. Тот же альбом, что и в D 688/1 |
+| 3 | Bartoli — Schiff | 1993 | 32cxcHTouXk | Decca «Cecilia Bartoli — Italian Songs», ℗ 1993 (описание official-audio) — тот же альбом, что и в D 688/1 |
+| 4 | Jacobs — van Immerseel | 1981 | QYlYbsNQ3mM | Accent «Ariette e Cavatine», оригинальный LP ACC 8017, 1981 (Discogs); цифровая загрузка помечена ℗ 2008 Accent — это переиздание. Контратенор + хаммерклавир, ранний документ исторически информированного исполнения |
+| 5 | Brownlee — Katz | 2005 | MtZvmrDWk-M | EMI/Warner «Debut Song Recital», ℗ 2005 Parlophone (описание official-audio) — тот же альбом, что и в D 688/1 |
 
-Отклонённые: Margaret Price — версия Верди (см. D 688/1), к D 688 отношения не имеет.
+Возрастная структура: 2 записи ≥1990 (1993, 2005); достойного кандидата ≥2015 нет (единственный — Julie Davies, Capriccio 2017 — вне уровня). Внутри современной группы Аугер и Бартоли поставлены выше Жакоба: контратеноровое прочтение — ценная, но специфическая версия.
 
-## ⚠️ Общая заметка о годах (для решения на уровне корпуса)
+## Отклонённые
 
-Правило `youtube-performances.md` ставит год сессии выше года издания, но требует и сквозной унификации «один альбом — один год». В этой сессии по четырём альбомам найдены документированные сессии, расходящиеся с годом, уже опубликованным в `performances.json`. Во избежание раскола корпуса в текущей выдаче сохранены корпусные значения; корректировка — единым решением по всем песням альбома:
+- **Julie Davies — Spencer** (W7IwlPQ5V-k, Capriccio «Bellini, Liszt, Schubert & Wagner», ℗ 2017) — единственный кандидат ≥2015, уступает отобранным.
+- Учебные/любительские загрузки (yYLSpt8SDBM, ZZyV0Puo3Kk, LCWN9PA1pF0 и др.) — вне отбора; «Guarda che bianca luna» Ф. Кампаны (Hg7WPJASIDo) — другое сочинение.
 
-| Альбом | Год в корпусе | Документированная сессия (источник) | Затронутые песни |
-|---|---|---|---|
-| Naxos DSLE т. 12 «Mayrhofer, Vol. 2» (8.554739) | 2003 (изд.) | 8–10.04 и 22–23.05.2002 (Discogs 31982882, notes) | D 124, D 297, D 298, D 495, D 539 + D 669, D 670 |
-| Naxos DSLE т. 26 «Romantic Poets, Vol. 3» (8.557832) | 2008 (изд.) | 6–9.09.2006, Sendesaal SWR Karlsruhe (Discogs 25961782, notes) | D 409, D 711 + D 687 |
-| Eterna 8 27 141 «Lieder nach Mayrhofer» | 1983 (℗) | 7/1980, Дрезден, Lukaskirche (Discogs 11040954, notes) | D 491, D 492, D 516, D 525, D 754 + D 669 |
-| Decca 440 297-2 «Italian Songs · Canzoni» (Bartoli/Schiff) | 1993 (℗) | 5–8.08.1992, Mozartsaal, Konzerthaus, Вена (Discogs 5358656, notes) | D 76, D 510, D 528 + D 688/1, D 688/2 |
+## Резервы
+
+1. Julie Davies — Spencer, 2017 — W7IwlPQ5V-k.
+2. Bartoli — Schiff, полный цикл 4 канцон — 59tuwU0A0tQ (фан-загрузка).

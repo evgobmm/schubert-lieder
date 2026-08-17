@@ -1,0 +1,71 @@
+{
+ "d": "890",
+ "title": "Hippolits Lied",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: complete-editions.md — DG Sämtliche Lieder, конвенция года 1969",
+   "album": "DG Sämtliche Lieder (1966–1972)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "1969 — тон уже суше пика",
+   "reputation": "базовая точка отсчёта",
+   "videoId": "fywcBgqWF7k",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "неизвестен — канал подписан на пианиста",
+   "pianist": "Graham Johnson",
+   "rec_year": null,
+   "year_source": "не определён; вероятно один из сборных томов Hyperion Schubert Edition",
+   "album": "Hyperion Schubert Edition, том не определён",
+   "label": "Hyperion",
+   "voice_note": "?",
+   "reputation": "серия в целом эталонная",
+   "videoId": "NCTyrsLyiKk",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Siegfried Lorenz",
+   "pianist": "не установлен",
+   "rec_year": null,
+   "year_source": "не определён — карточки в реестре нет; Лоренц — баритон ГДР-периода (Eterna), не исследован в проекте",
+   "album": "неизвестен",
+   "label": "неизвестен (Topic-канал)",
+   "voice_note": "?",
+   "reputation": "видный баритон ГДР-школы; не в приоритетном списке проекта, но старая школа",
+   "videoId": "lqGaNPI5eoM",
+   "channel": "Siegfried Lorenz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Markus Schäfer",
+   "pianist": "вероятно Ulrich Eisenlohr — по реестру Naxos т.25 «Romantic Poets, Vol. 2» (изд. 11/2007) содержит D 855, D 856, D 857/2; D 890 в карточке явно не назван, соответствие не подтверждено",
+   "rec_year": "2007 (предположительно)",
+   "year_source": "реестр: complete-editions.md — Naxos 8.557831, изд. 11/2007; трек-лист не сверен построчно на D 890",
+   "album": "Naxos DSLE, т.25 «Romantic Poets, Vol. 2» (предположительно)",
+   "label": "Naxos",
+   "voice_note": "?",
+   "reputation": "часть научно-полной серии Naxos",
+   "videoId": "0hRenJ3qpXA",
+   "channel": "Markus Schäfer - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет кандидата",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "нет кандидата",
+  "Hotter": "нет кандидата",
+  "Anders": "нет кандидата",
+  "E. Schumann": "нет кандидата",
+  "Ludwig": "нет подлинного кандидата — видео Christa Ludwig в исходной выдаче оказалось Lied der Anne Lyle D 830, отфильтровано",
+  "Popp": "нет кандидата"
+ },
+ "new_albums": [],
+ "note_целевой_поиск": "Целевой yt-dlp по Hasselhorn (проект «Schubert 200») для D 890 результата не дал — трек этой песни на его канале не найден.",
+ "note_ложные_совпадения": "Отфильтровано большое число видео с другими D-номерами: FiDi «Lied des Orpheus» D 474, «Abendlied für die Entfernte» D 856, «Grablied für die Mutter» D 616; Christoph Prégardien «Memnon» D 541; Christa Ludwig «Lied der Anne Lyle» D 830; Axel Bauni «Lied eines Schiffers an die Dioskuren» D 360 — все другие песни."
+}

@@ -1,0 +1,85 @@
+{
+  "d": "770",
+  "title": "Drang in die Ferne",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966-72",
+      "year_source": "реестр: albums.md (DG Sämtliche Lieder, 21 CD)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "не исследована отдельно для этой песни",
+      "reputation": "базовая точка отсчёта корпуса; три идентичных дубля на Topic (7hA07Rg_I5s/mWlGFeV6LBU/r7uOxt65E3o, все 247 с) — одна и та же фонограмма",
+      "videoId": "7hA07Rg_I5s",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Benjamin Appl",
+      "pianist": "James Baillieu",
+      "rec_year": 2023,
+      "year_source": "реестр: albums.md (Appl — Forbidden Fruit, Alpha Classics, релиз 23.06.2023); MusicBrainz длительность 216 с совпадает с загрузкой",
+      "album": "Forbidden Fruit",
+      "label": "Alpha Classics",
+      "voice_note": "не исследован отдельно для этой песни; пик Аппля ~2016–наст. по дайджесту",
+      "reputation": "тот же альбом содержит редчайшую мужскую запись Gretchen am Spinnrade D 118 (дайджест) — программно смелый, современный рецитал",
+      "videoId": "G2b_kJ1E_Rs",
+      "channel": "Benjamin Appl - Topic",
+      "official": true
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Helmut Deutsch",
+      "rec_year": null,
+      "year_source": "не установлен; MusicBrainz подтверждает пару Goerne/Deutsch (163 с), совпадает по длительности с загрузкой (164 с) на канале, оформленном на пианиста",
+      "album": "не установлен",
+      "label": "не установлен (дистрибуция через Topic)",
+      "voice_note": "не типичный для Гёрне пианист (обычно Eschenbach/Haefliger/Zeyen/Metzmacher по дайджесту) — вероятно ранняя или разовая запись, альбом не идентифицирован",
+      "reputation": "не исследована отдельно",
+      "videoId": "tvtMOMkGPZg",
+      "channel": "Helmut Deutsch - Topic",
+      "official": true
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": null,
+      "year_source": "не установлен; MusicBrainz подтверждает пару Gerhaher/Huber (222 с), совпадает с загрузкой (224 с)",
+      "album": "не установлен (возможно «Nachtviolen», Sony 2014, или один из ранних Arte Nova сборников — по дайджесту весь Шуберт Герхаэра идёт с Huber)",
+      "label": "не установлен",
+      "voice_note": "пресса называет Герхаэра высшим текстовиком современности — фильтровать по правилу о пиаре (дайджест)",
+      "reputation": "не исследована отдельно",
+      "videoId": "POzpiH5RALU",
+      "channel": "Christian Gerhaher - Topic",
+      "official": true
+    },
+    {
+      "singer": "Benedikt Kristjánsson",
+      "pianist": "не указан",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "современный исландский тенор, вне приоритетного фонда и реестра",
+      "reputation": "не исследована",
+      "videoId": "gMmRngtRkIA",
+      "channel": "Benedikt Kristjánsson - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "quasthoff": "не найдено",
+    "fischer_dieskau": "есть — Sämtliche Lieder (DG)",
+    "schwarzkopf": "не найдено",
+    "hotter": "не найдено",
+    "anders": "не найдено",
+    "e_schumann": "не найдено",
+    "ludwig": "не найдено",
+    "popp": "не найдено"
+  },
+  "new_albums": [
+    "Matthias Goerne / Helmut Deutsch — альбом не идентифицирован, нетипичная для Гёрне пара — требует доисследования",
+    "Christian Gerhaher / Gerold Huber — альбом не идентифицирован (вероятный кандидат — «Nachtviolen», Sony 2014, программа с редкими песнями)"
+  ]
+}

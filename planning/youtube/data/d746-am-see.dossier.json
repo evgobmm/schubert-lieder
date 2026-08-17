@@ -1,0 +1,124 @@
+{
+  "d": "746",
+  "title": "Am See (Бруххман)",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966-72",
+      "year_source": "реестр: albums.md (DG Sämtliche Lieder, 21 CD)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "не исследована отдельно",
+      "reputation": "базовая точка отсчёта корпуса",
+      "videoId": "yHpKjZBw0es",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": 2012,
+      "year_source": "реестр: albums.md (Goerne Schubert Edition Vol. 7 «Erlkönig», HMC 902141)",
+      "album": "Matthias Goerne Schubert Edition, Vol. 7 «Erlkönig»",
+      "label": "harmonia mundi",
+      "voice_note": "пик Гёрне ~1997–2015 по дайджесту",
+      "reputation": "часть 12-томного свода",
+      "videoId": "RtnxypYaF78",
+      "channel": "Matthias Goerne",
+      "official": false
+    },
+    {
+      "singer": "Felicity Lott",
+      "pianist": "Graham Johnson",
+      "rec_year": 1993,
+      "year_source": "год издания официальной загрузки (не сессия)",
+      "album": "Hyperion Schubert Edition, Vol. 19 — Songs of Flowers & Nature",
+      "label": "Hyperion (дистрибуция Universal)",
+      "voice_note": "не исследована отдельно",
+      "reputation": "часть научного свода Джонсона (тот же том, что и D 738)",
+      "videoId": "z1xblxQDPag",
+      "channel": "Felicity Lott - Topic",
+      "official": true
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": null,
+      "year_source": "не установлен (альбом «Schubert: Lieder» на Warner Classics, не идентичен реестровому «Vol. 1» 1996 — требует сверки)",
+      "album": "Schubert: Lieder",
+      "label": "Warner Classics",
+      "voice_note": "не исследован отдельно",
+      "reputation": "не исследована",
+      "videoId": "ZPhE58SDyKo",
+      "channel": "Ian Bostridge",
+      "official": false
+    },
+    {
+      "singer": "Anna Prohaska",
+      "pianist": "Eric Schneider",
+      "rec_year": 2011,
+      "year_source": "реестр: albums.md (Prohaska — «Sirène», DG 477 9463, 2011)",
+      "album": "Sirène",
+      "label": "Deutsche Grammophon",
+      "voice_note": "не исследована отдельно",
+      "reputation": "концептуальная программа о воде и сиренах — D 746 логично вписана по сюжету (озеро)",
+      "videoId": "R2F8fPP5Sy4",
+      "channel": "Anna Prohaska - Topic",
+      "official": true
+    },
+    {
+      "singer": "John Buttrick",
+      "pianist": "н/д (вероятно дуэт со Elisabeth Speiser)",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "Du holde Kunst, ich danke dir...",
+      "label": "Believe SAS (сборный дистрибьютор)",
+      "voice_note": "запись атрибутирована как John Buttrick + Elisabeth Speiser совместно — вероятно певица Спайзер с пианистом Баттриком, атрибуция ролей не подтверждена",
+      "reputation": "не исследована, малоизвестный релиз",
+      "videoId": "D39ddtQvEEE",
+      "channel": "John Buttrick - Topic",
+      "official": true
+    },
+    {
+      "singer": "Eva Oertle",
+      "pianist": "Vesselin Stanev",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "Undine — Music for Flute and Piano",
+      "label": "Sony Classical",
+      "voice_note": "программа явно инструментальная (флейта/фортепиано) — присутствие вокального трека D 746 нетипично, статус неясен",
+      "reputation": "маргинальный кандидат",
+      "videoId": "Bxp3K-CcRhE",
+      "channel": "Eva Oertle - Topic",
+      "official": true
+    },
+    {
+      "singer": "Karl Erb",
+      "pianist": "не указан (историческая запись)",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "Leise flehen meine Lieder",
+      "label": "The Orchard Enterprises (переиздание исторической записи)",
+      "voice_note": "по дайджесту — пик Эрба 1905–1930-е, шубертовские записи сделаны в 58–74 года, документ довоенного стиля",
+      "reputation": "историческая ценность, не вокальный пик певца",
+      "videoId": "YZ2_fJBv0cw",
+      "channel": "Karl Erb - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "quasthoff": "не найдено",
+    "fischer_dieskau": "есть — Sämtliche Lieder (DG)",
+    "schwarzkopf": "не найдено",
+    "hotter": "не найдено",
+    "anders": "не найдено",
+    "e_schumann": "не найдено",
+    "ludwig": "не найдено",
+    "popp": "не найдено"
+  },
+  "new_albums": [
+    "Hyperion Schubert Edition, Vol. 19 «Songs of Flowers & Nature» (Lott/Johnson, 1993) — не было в реестре",
+    "Anna Prohaska — «Sirène» (DG, 2011) уже в albums.md по D 225 — теперь подтверждено включение D 746"
+  ]
+}

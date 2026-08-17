@@ -22,3 +22,5 @@
 - Topic-дубль Ф.-Д. `yrdxO-LVWjU` и дубли Прая (`dOp_w0j9rFY`, `K-SM9ormuZQ`) — те же записи под другими сборниками.
 
 Резервы: 1) Allen — Johnson, 1992, `gWc9O5JNObc`; 2) Prégardien — Staier, 1993, `TPFO5IstKTw`; 3) Prey — Engel, 1974, `rlWJOATZcyk`.
+
+**QA-ревизия волны «1819–1821» (2026-08-17):** сессия Columbia C 80 584 / STC 80584 теперь документирована — Грей (classical-discography.org, id 173654): **16–18 января 1960, Berlin-Zehlendorf**; трек-лист подтверждён Discogs 6820641. Формулировка «год сессии не документирован» выше устарела; год записи в `performances.json` приведён к **1960** (сквозная унификация альбома, см. `d636-sehnsucht-top5.md`).

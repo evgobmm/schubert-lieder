@@ -1,0 +1,95 @@
+{
+ "d": "634",
+ "title": "Die Berge",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "не установлен (3 дублирующих Topic-загрузки, без явной привязки к альбому реестра)",
+   "rec_year": "не установлен",
+   "year_source": "нет прямого совпадения в реестре — только смежные карточки серии Balladen/Goethe-Liederabend/Стокгольм",
+   "album": "не идентифицирован",
+   "label": "DG/Electrola (не установлено)",
+   "voice_note": "не определено без года",
+   "reputation": "ФД — высший приоритет по правилам после Квасthoffa; требует доисследования альбома перед публикацией",
+   "videoId": "_DLkIbVQhs4",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Robert Holl",
+   "pianist": "David Lutz",
+   "rec_year": "℗/релиз 2021 (год сессии не установлен)",
+   "year_source": "реестр: albums.md («Robert Holl singt Schubert-Lieder auf Texte von Goethe», Preiser, изд. 04.06.2021) — Preiser часто издаёт архивные ленты, точная сессия не документирована",
+   "album": "Robert Holl singt Schubert-Lieder auf Texte von Goethe",
+   "label": "Preiser Records",
+   "voice_note": "Холл — «патриарх Шубертиады», пик ~1980–2005 (дайджест); если сессия архивная — вероятно в пределах пика, если недавняя — поздний период (р. 1947, к 2021 — 74 года)",
+   "reputation": "приоритетная фигура по общим принципам («старые мастера»), но точный год спорен",
+   "videoId": "JRNX1riYqPo",
+   "channel": "Robert Holl - Topic",
+   "official": true
+  },
+  {
+   "singer": "Marlis Petersen",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "реестр: singers-digest — «трилогия Dimensionen» (Solo Musica 2017–20), но D634 в конкретный том не привязан",
+   "album": "не идентифицирован (возможно, «Dimensionen», Solo Musica)",
+   "label": "Solo Musica",
+   "voice_note": "современная запись (р. 1968), концепт-программы",
+   "reputation": "не оценена; современная запись без сравнения",
+   "videoId": "DiBnUx0-5Io",
+   "channel": "Marlis Petersen - Topic",
+   "official": true
+  },
+  {
+   "singer": "Mitsuko Shirai",
+   "pianist": "Hartmut Höll",
+   "rec_year": "℗ 1997",
+   "year_source": "реестр: albums.md (Capriccio, «Schubert: Lieder, Vol. 1 — Opp. 1–24», ℗ 1997)",
+   "album": "Schubert: Lieder, Vol. 1 — Opp. 1–24 (op. 57 включает D633/D634)",
+   "label": "Capriccio",
+   "voice_note": "не оценена отдельно",
+   "reputation": "серийное академическое издание по опусам",
+   "videoId": "JtLTgmI-y4A",
+   "channel": "Mitsuko Shirai - Topic",
+   "official": true
+  },
+  {
+   "singer": "Willi Domgraf-Fassbaender",
+   "pianist": "не установлен",
+   "rec_year": "историческая запись (серия «Das Deutsche Lied»)",
+   "year_source": "нет прямого совпадения в реестре (реестр даёт только записи его дочери Бригитты Фассбендер)",
+   "album": "антология «Das Deutsche Lied»",
+   "label": "не установлен",
+   "voice_note": "исторический баритон межвоенного периода — не исследован отдельно",
+   "reputation": "не оценена",
+   "videoId": "IyBZlsWkmdI",
+   "channel": "Willi Domgraf-Fassbaender - Topic",
+   "official": true
+  },
+  {
+   "singer": "Michael Raucheisen (пианист; певец не указан в заголовке трека)",
+   "pianist": "Michael Raucheisen",
+   "rec_year": "не установлен",
+   "year_source": "реестр: male-recitalists.md — Raucheisen аккомпанировал Hotter и Anders в радиофонде RRG 1942–47; певец для этого конкретного трека не идентифицирован",
+   "album": "вероятно, радиофонд RRG",
+   "label": "не установлен",
+   "voice_note": "если певец — Hotter или Anders, это историческая немецкая радиошкола (эталон по дайджесту)",
+   "reputation": "требует уточнения певца перед использованием",
+   "videoId": "jt86eifau5M",
+   "channel": "Michael Raucheisen - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "кандидат есть, альбом/год не подтверждены",
+  "Schwarzkopf": "не найден",
+  "Hotter": "возможный кандидат через канал Raucheisen (не подтверждено)",
+  "Anders": "возможный кандидат через канал Raucheisen (не подтверждено)",
+  "E. Schumann": "не найден",
+  "Ludwig": "не найден",
+  "Popp": "не найден"
+ },
+ "new_albums": []
+}

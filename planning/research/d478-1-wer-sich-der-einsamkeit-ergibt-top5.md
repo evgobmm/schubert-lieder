@@ -30,3 +30,5 @@
 1. **Souzay — Bonneau** (1950) — видео 7QCg2GvxsHU (Gérard Souzay - Topic, живо) — на случай выпадения любого слота старых мастеров.
 2. **Gerhaher — Huber** (2001) — видео lsT3NoBZrao (Christian Gerhaher - Topic, живо) — резерв современного слота.
 3. **M. Peter — Deutsch** (2015) — видео pVkPu4jdYCM (Mauro Peter - Topic, живо) — единственный official-кандидат квоты 2015+, если она когда-либо станет обязательной.
+
+**QA-ревизия волны «1819–1821» (2026-08-17):** сессия Columbia C 80 584 / STC 80584 теперь документирована — Грей (classical-discography.org, id 173654): **16–18 января 1960, Berlin-Zehlendorf**; трек-лист подтверждён Discogs 6820641. Формулировка «год сессии не документирован» выше устарела; год записи в `performances.json` приведён к **1960** (сквозная унификация альбома, см. `d636-sehnsucht-top5.md`).

@@ -1,0 +1,95 @@
+{
+ "d": "786",
+ "title": "Viola",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: albums.md/complete-editions.md (DG Sämtliche Lieder, конвенция проекта 1969 для всего свода; сессии 1966–72)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "по дайджесту: пик 1951–72, ровный зрелый тон в 1960-х",
+   "reputation": "базовая точка отсчёта для любой мужской песни свода",
+   "videoId": "cPQTeESKonk",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Anne Sofie von Otter",
+   "pianist": "Bengt Forsberg",
+   "rec_year": 1996,
+   "year_source": "реестр: albums.md (запись июнь 1996, Concertgebouw Nijmegen; издание 1997)",
+   "album": "Schubert: Lieder (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "по дайджесту: зрелое меццо, широкий репертуар",
+   "reputation": "признанный DG-рецитал, уже в реестре пилота по D 799/D 839/D 257",
+   "videoId": "6GnieXmc02c",
+   "channel": "Anne Sofie von Otter - Topic",
+   "official": true
+  },
+  {
+   "singer": "Ann Murray",
+   "pianist": "Graham Johnson",
+   "rec_year": 1988,
+   "year_source": "реестр: albums/complete-editions.md (Hyperion Vol. 3 «Schubert & his Friends I», CDJ33003, зап. XI.1988, изд. XII.1989)",
+   "album": "Hyperion Schubert Edition Vol. 3",
+   "label": "Hyperion",
+   "voice_note": "не исследовано отдельно — часть научного свода Джонсона",
+   "reputation": "часть 37-томного эталонного свода",
+   "videoId": "GS5c56IWO00",
+   "channel": "Ann Murray - Topic",
+   "official": true
+  },
+  {
+   "singer": "Anna Lucia Richter",
+   "pianist": "Gerold Huber",
+   "rec_year": 2018,
+   "year_source": "реестр: albums.md («Heimweh», Pentatone PTC 5186 722, запись май 2018, издание 2019)",
+   "album": "Heimweh — Schubert Lieder",
+   "label": "Pentatone",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "современный тематический рецитал, не флагманский",
+   "videoId": "8Bd2DaI7ioM",
+   "channel": "Anna Lucia Richter - Topic",
+   "official": true
+  },
+  {
+   "singer": "Sharon Carty",
+   "pianist": "Jonathan Ware",
+   "rec_year": 2020,
+   "year_source": "реестр: albums.md («Schubert's Four Seasons», Genuin Classics, ℗2020, релиз 05.06.2020) — тот же альбом, что даёт кандидата по D 778",
+   "album": "Schubert's Four Seasons: Lieder for Voice & Piano",
+   "label": "Genuin Classics",
+   "voice_note": "не исследовано отдельно — нишевый современный альбом",
+   "reputation": "тематический альбом, не входит в топ-обзоры",
+   "videoId": "D6QFOQnGtB4",
+   "channel": "Sharon Carty - Topic",
+   "official": true
+  }
+  {
+   "singer": "Brigitte Geller",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": null,
+   "year_source": "MusicBrainz подтверждает пару Geller/Eisenlohr, «Viola, D786 (Schober)», длительность 708 с — точное совпадение с видео vxLqH_j2kdA (708 с, «Brigitte Geller - Topic»); найдено доп. целевым yt-dlp-поиском (не было в сыром candidates.json); реестр: тот же Naxos-круг, что даёт кандидата Geller по D 792 (Vol. 15 «Friends, Vol. 2», 8.557171)",
+   "album": "Naxos Schubert Lieder Edition (том не установлен — возможно тот же Vol. 15, что и D 792)",
+   "label": "Naxos",
+   "voice_note": "не исследовано отдельно — часть Naxos-свода (Eisenlohr-круг)",
+   "reputation": "часть систематического Naxos-свода",
+   "videoId": "vxLqH_j2kdA",
+   "channel": "Brigitte Geller - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "отсутствует — закрытая дискография (6 альбомов по дайджесту) не включает Viola",
+  "Fischer-Dieskau": "присутствует — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдена среди кандидатов",
+  "Hotter": "не найден среди кандидатов",
+  "Anders": "не найден среди кандидатов",
+  "E. Schumann": "не найдена среди кандидатов",
+  "Ludwig": "не найдена среди кандидатов",
+  "Popp": "не найдена среди кандидатов"
+ },
+ "new_albums": []
+}

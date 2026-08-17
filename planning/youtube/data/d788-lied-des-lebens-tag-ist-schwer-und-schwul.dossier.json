@@ -1,0 +1,83 @@
+{
+ "d": "788",
+ "title": "Lied (Des Lebens Tag ist schwer und schwül; Die Mutter Erde)",
+ "note": "candidates.json скрипта загрязнён (поиск по слову «schwül» дал немецкий слэнг/шоу-контент, 0 релевантных результатов) — пул собран целевым yt-dlp-поиском («Schubert Lied D.788 Mutter Erde»), см. ниже.",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: albums.md/complete-editions.md (DG Sämtliche Lieder, конвенция 1969)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "по дайджесту: пик 1951–72",
+   "reputation": "базовая точка отсчёта свода",
+   "videoId": "07SDIjzeMmk",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Margaret Price",
+   "pianist": "Graham Johnson",
+   "rec_year": 1991,
+   "year_source": "реестр: albums/complete-editions.md (Hyperion Vol. 15 «Schubert & the Nocturne III», CDJ33015, зап. X.1991, изд. X.1992)",
+   "album": "Hyperion Schubert Edition Vol. 15",
+   "label": "Hyperion",
+   "voice_note": "не исследовано отдельно — часть эталонного свода",
+   "reputation": "пресса тома: BBC Music Magazine, Daily Mail «Exquisite»",
+   "videoId": "zed6GC5FeNM",
+   "channel": "Margaret Price - Topic",
+   "official": true
+  },
+  {
+   "singer": "Carolyn Sampson",
+   "pianist": "Joseph Middleton",
+   "rec_year": 2025,
+   "year_source": "реестр: albums.md/modern-series.md («Schubert's Four Seasons», BIS, релиз 04.04.2025) — тот же альбом даёт кандидата по D 257",
+   "album": "Schubert's Four Seasons",
+   "label": "BIS",
+   "voice_note": "не исследовано отдельно — новейший релиз серии",
+   "reputation": "продолжение признанной линии Sampson/Middleton (A Soprano's Schubertiade, Elysium)",
+   "videoId": "S2biySeEd20",
+   "channel": "Carolyn Sampson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": null,
+   "year_source": "MusicBrainz подтверждает пару Holzmair/Eisenlohr, длительность 230 с — точное совпадение с видео YYbz_EaeaRs (231 с, «Wolfgang Holzmair - Topic»), найдено целевым yt-dlp-поиском (в сыром candidates.json отсутствовало из-за загрязнения выдачи по слову «schwül»); реестр: albums/complete-editions.md должен содержать соответствующий том Naxos Schubert Lieder Edition (не идентифицирован по номеру)",
+   "album": "Naxos Schubert Lieder Edition (том не установлен)",
+   "label": "Naxos",
+   "voice_note": "не исследовано отдельно — часть Naxos-свода (Eisenlohr-круг)",
+   "reputation": "часть систематического Naxos-свода",
+   "videoId": "YYbz_EaeaRs",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Lionel Rogg (пианист; певец не установлен)",
+   "pianist": "Lionel Rogg",
+   "rec_year": null,
+   "year_source": "гэп — не исследовано, оформлено на Topic-канале пианиста без явного вокалиста в названии; не найден в MusicBrainz (только 2 записи D 788 там: Fischer-Dieskau/Moore и Holzmair/Eisenlohr) — вероятно любительская/непрофессиональная загрузка, слабый кандидат",
+   "album": null,
+   "label": null,
+   "voice_note": "не исследовано",
+   "reputation": "не установлена — слабый кандидат, для топ-5 не приоритетен",
+   "videoId": "Vh-0efuyf-Q",
+   "channel": "Lionel Rogg - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "отсутствует",
+  "Fischer-Dieskau": "присутствует — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден среди целевого поиска (RRG-фонд Андерса для этой песни не подтверждён)",
+  "E. Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": []
+}

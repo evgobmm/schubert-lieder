@@ -1,0 +1,80 @@
+{
+ "d": "919",
+ "title": "Frühlingslied (D 919)",
+ "note_disambiguation": "В candidates.json смешаны совпадения по нескольким одноимённым песням Шуберта («Frühlingslied» встречается под D 398 и D 243/914 — хоровые версии; ниже — только кандидаты, чьи видео явно озаглавлены D. 919 или Fruhlingslied без уточнения; хоровые версии Arnold Schoenberg Chor (D 243/D 914 в заголовках — вероятно, опечатка каталожного номера) и инструментальные транскрипции (Claudio Marini, виолончель) исключены как не относящиеся к сольной вокальной версии D 919.",
+ "candidates": [
+  {
+   "singer": "не установлен (Topic-канал «Graham Johnson»)",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987–2000 (в пределах Hyperion Schubert Edition)",
+   "year_source": "реестр/дайджест: Hyperion Schubert Edition, Johnson, 37 томов; конкретный том и певец для D919 не идентифицированы — канал Topic назван по пианисту (частая практика Hyperion при сборных релизах), сам певец трека не установлен",
+   "album": "Hyperion Schubert Edition (том не установлен)",
+   "label": "Hyperion",
+   "voice_note": "н/д",
+   "reputation": "часть научного эталонного издания",
+   "videoId": "cYETjCvO1vU",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "не установлен",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет регистрового совпадения; Topic-канал «Release» — типовое имя для дистрибьюторских релизов без персональной атрибуции в метаданных",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "н/д",
+   "reputation": "не установлена",
+   "videoId": "vvSYMgDCjo0",
+   "channel": "Release - Topic",
+   "official": true
+  },
+  {
+   "singer": "Esther Valentin",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет регистрового совпадения; современная исполнительница, не доисследована",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "н/д",
+   "reputation": "не установлена",
+   "videoId": "8x3gmofmWpY",
+   "channel": "Esther Valentin - Topic",
+   "official": true
+  },
+  {
+   "singer": "Daniela Sindram",
+   "pianist": "не установлен",
+   "rec_year": "до 2007",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — т. 23 «Austrian Contemporaries, Vol. 3» (Naxos 8.557833, изд. 03/2007), Eisenlohr; трек предположительно из этого тома (не верифицирован по номеру трека)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 23 (вероятно)",
+   "label": "Naxos",
+   "voice_note": "н/д",
+   "reputation": "часть полного немецкоязычного свода",
+   "videoId": "49hDwQCUl10",
+   "channel": "Daniela Sindram - Topic",
+   "official": true
+  },
+  {
+   "singer": "Jasper Schweppe",
+   "pianист": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет регистрового совпадения",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "н/д",
+   "reputation": "не установлена",
+   "videoId": "BOwgnAKniFs",
+   "channel": "Jasper Schweppe - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "не найден кандидат конкретно на D 919 (найденные его видео в пуле — Frühlingslied D 398 и Im Frühling D 882, другие песни с похожим названием)",
+  "Schwarzkopf": "нет",
+  "Hotter/Anders/E.Schumann/Ludwig/Popp": "не найдены"
+ },
+ "new_albums": [],
+ "caveat": "Пул слабый: ни одного явно значительного/приоритетного исполнителя не подтверждено для именно D 919 (много ложных совпадений по одноимённым песням D 398/D 243/D 914 в выдаче скрипта). Топ, вероятно, будет меньше 5 записей либо потребует целевого доисследования (yt-dlp по MusicBrainz-исполнителю «Konstantin Wecker» — эстрадный автор-исполнитель, не Lieder-контекст, вероятно не подходит)."
+}

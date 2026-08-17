@@ -1,0 +1,108 @@
+{
+ "d": "789",
+ "title": "Pilgerweise",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: albums.md/complete-editions.md (DG Sämtliche Lieder, конвенция 1969)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "по дайджесту: пик 1951–72",
+   "reputation": "базовая точка отсчёта свода",
+   "videoId": "gvwMJUkssMQ",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Ian Bostridge",
+   "pianist": "Leif Ove Andsnes",
+   "rec_year": null,
+   "year_source": "MusicBrainz подтверждает пару Bostridge/Andsnes для этой записи (длительность 344 с — точное совпадение с видео m70jmkCSPJE); реестр: albums/modern-series.md (серия «соната + Lieder» EMI/Andsnes, 2002–2007, + антология «The Wanderer: Lieder & Fragments», EMI, 2008) — конкретный диск серии не идентифицирован",
+   "album": "серия Bostridge/Andsnes (EMI) или сборник «The Wanderer: Lieder & Fragments»",
+   "label": "EMI Classics / Warner",
+   "voice_note": "по дайджесту: пик Бостриджа ~1995–2010",
+   "reputation": "признанная камерная серия соната+песни",
+   "videoId": "m70jmkCSPJE",
+   "channel": "LeifOveAndsnesTV",
+   "official": false
+  },
+  {
+   "singer": "Lynne Dawson",
+   "pianist": "Graham Johnson",
+   "rec_year": null,
+   "year_source": "MusicBrainz подтверждает пару Dawson/Johnson, длительность 415 с — точное совпадение с видео LVKMpJe3T6Y (416 с), устраняя прежнюю неопределённость об идентичности трека; том Hyperion (37-томный свод) не идентифицирован",
+   "album": "Hyperion Schubert Edition (том не установлен)",
+   "label": "Hyperion",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть эталонного свода",
+   "videoId": "LVKMpJe3T6Y",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "нет — оркестровая аранжировка (дирижёр Ingo Metzmacher)",
+   "rec_year": null,
+   "year_source": "MusicBrainz подтверждает пару Goerne/Metzmacher; заголовок видео явно указывает «Arr. Schmalcz for Baritone and Chamber Orchestra» — облигатная оркестровка Alexander Schmalcz, не фортепианный оригинал",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не исследовано; запись не в исходном фортепианном варианте — облегчает включение в топ-5, но требует пометки в top5-файле как оркестровой версии",
+   "reputation": "не установлена",
+   "videoId": "HFgpqnM7LsE",
+   "channel": "Ingo Metzmacher - Topic",
+   "official": true
+  },
+  {
+   "singer": "Markus Eiche",
+   "pianist": "Jens Fuhr",
+   "rec_year": 2002,
+   "year_source": "реестр: albums/complete-editions.md (Naxos Vol. 9 «Friends, Vol. 1», 8.554799, изд. 05/2002)",
+   "album": "Naxos Schubert Lieder Edition Vol. 9",
+   "label": "Naxos",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть Naxos-свода (Eisenlohr-круг)",
+   "videoId": "GYkjSQDWZhg",
+   "channel": "Markus Eiche - Topic",
+   "official": true
+  },
+  {
+   "singer": "Robert Holl",
+   "pianist": "David Lutz",
+   "rec_year": null,
+   "year_source": "реестр: albums.md — ВНИМАНИЕ: карточка Holl/Preiser помечена как «Schubert-Lieder nach Goethe»; Pilgerweise — текст Franz von Schober, не Гёте, поэтому принадлежность этого трека тому же диску не подтверждена. Дополнительно: длительность видео 871 с намного превышает все известные записи Pilgerweise (344–416 с по MusicBrainz) — вероятно видео содержит не только эту песню (сборный трек/спутанная разметка); кандидат сомнителен, для топ-5 не использовать без проверки содержимого ролика",
+   "album": "неясно — возможен другой диск Preiser",
+   "label": "Preiser Records",
+   "voice_note": "не исследовано",
+   "reputation": "не установлена",
+   "videoId": "ms5Eatqul6Q",
+   "channel": "Robert Holl - Topic",
+   "official": true
+  },
+  {
+   "singer": "Konrad Richter",
+   "pianist": null,
+   "rec_year": null,
+   "year_source": "гэп — не найден в реестре",
+   "album": null,
+   "label": null,
+   "voice_note": "не исследовано",
+   "reputation": "не установлена",
+   "videoId": "bcN3Q57fGuU",
+   "channel": "Konrad Richter - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "отсутствует",
+  "Fischer-Dieskau": "присутствует — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E. Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": []
+}

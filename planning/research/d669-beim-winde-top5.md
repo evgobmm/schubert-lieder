@@ -1,27 +1,28 @@
-# D 669 «Beim Winde» (Майрхофер) — топ-4
+# D 669 «Beim Winde» (Майрхофер) — топ-5
 
-Категория: rare. Приоритетные (Квастхоф, Шварцкопф, Хоттер, Андерс, Шуман, Людвиг, Попп) — не найдено. Все ID проверены oEmbed 2026-08-17.
+Порядок — по иерархии: Квастхоф (нет) → Фишер-Дискау → Шварцкопф (нет) → старая школа → современные по качеству.
 
-| # | name | year | videoId | Обоснование и источник |
-|---|---|---|---|---|
-| 1 | Fischer-Dieskau — Moore | 1969 | sF24i2SNvhI | DG «Sämtliche Lieder» (1966–72). Приоритет №2 правил; год — сквозная конвенция корпуса. |
-| 2 | Lorenz — Shetler | 1983 | -HG6MvtDSmU | Eterna 8 27 141 «Lieder nach Mayrhofer», сторона A5 = Beim Winde D 669 (Discogs 11040954). Систематический том восточногерманского свода по поэтам — прямое репертуарное попадание. Год — конвенция корпуса по этому же альбому (D 491, D 492, D 516, D 525, D 754 = 1983). ⚠️ Discogs фиксирует сессию: Дрезден, Lukaskirche, **7/1980**, ℗1983 — см. общую заметку о годах ниже. |
-| 3 | Lott — Johnson | 1992 | SCA6E2UBJSw | Hyperion Schubert Edition, т. 19 «Songs about flowers & nature» (CDJ33019), трек 13 = Beim Winde D 669; запись 30.06–2.07.1992, Rosslyn Hill Unitarian Chapel (Discogs 14038454, notes). Лотт на пике; научный эталон Джонсона. |
-| 4 | Iven — Kehring | 2003 | GJkdyBYU4xs | Naxos DSLE т. 12 «Mayrhofer, Vol. 2» (8.554739), трек 12 = Beim Winde D 669 (Discogs 31982882). Год — конвенция корпуса по этому альбому (D 124, D 297, D 298, D 495, D 539 = 2003). ⚠️ Сессии по notes: 8–10.04 и 22–23.05.**2002**. **Смена videoId:** досье предлагало O_hkJCYYZeI, но эта загрузка висит на канале «Christine Schäfer — Topic» (сбой автотегирования Naxos) — взята загрузка с собственного канала певицы, «Christiane Iven — Topic». |
+## Итог
 
-Порядок: ФиДи; далее — послевоенные/современные по качеству (Лоренц и Лотт сопоставимы → более ранняя Лоренц), Ивен ниже (Naxos DSLE — документальное издание уровнем ниже Hyperion).
+| # | Запись | Год | videoId | Основание года |
+|---|--------|-----|---------|----------------|
+| 1 | Fischer-Dieskau — Moore | 1969 | sF24i2SNvhI | DG «Schubert: Lieder», ℗ 1969 DG Berlin (описание official-audio); конвенция свода — 1969 |
+| 2 | Lorenz — Shetler | 1983 | -HG6MvtDSmU | Eterna «Lieder nach Mayrhofer» (8 27 141, 1983) — реестр `albums/male-recitalists.md` (Discogs); описание official-audio: ℗ VEB Deutsche Schallplatten Berlin |
+| 3 | Lott — Johnson | 1992 | SCA6E2UBJSw | Hyperion Vol. 19 «Songs of Flowers & Nature» (CDJ33019), зап. VII.1992 — реестр `albums/complete-editions.md`; трек подтверждён описанием official-audio |
+| 4 | Holl — Jansen | 1995 | H2rgiIWa4_o | Живое исполнение 14.05.1995 (описание канала VPRO «vrije geluiden»: Robert Holl, бас-баритон; Rudolf Jansen, ф-но). Досье указывало пианиста как неустановленного — уточнено |
+| 5 | C. Schäfer — Gage | 1997 | O_hkJCYYZeI | Orfeo «Schubert: Lieder» (C 450 971 A), изд. 15.09.1997, ℗ 1997 Orfeo, пианист Irwin Gage — реестр `albums.md` + описание official-audio |
 
-Возрастная структура: 2 записи ≥1990 (1992, 2003) — выполнено; ≥2015 — достойных нет.
+Инициал у Шефер — по правилу об однофамильцах (в корпусе есть Markus Schäfer, Naxos DSLE).
 
-Отклонённые/резервы: **Holl** (H2rgiIWa4_o, «live 1995») — фан-загрузка без издания и подтверждения даты, резерв.
+Возрастная структура: 3 записи ≥1990 (1992, 1995, 1997); достойного кандидата ≥2015 не найдено, место занято лучшей старой записью.
 
-## ⚠️ Общая заметка о годах (для решения на уровне корпуса)
+## Отклонённые
 
-Правило `youtube-performances.md` ставит год сессии выше года издания, но требует и сквозной унификации «один альбом — один год». В этой сессии по четырём альбомам найдены документированные сессии, расходящиеся с годом, уже опубликованным в `performances.json`. Во избежание раскола корпуса в текущей выдаче сохранены корпусные значения; корректировка — единым решением по всем песням альбома:
+- **Iven — Kehring** (GJkdyBYU4xs, Naxos DSLE т. 12 «Mayrhofer, Vol. 2», ℗ 2003) — добротно, но уступает отобранным; в резерв. Важно: ID из досье (O_hkJCYYZeI) относился **не** к Ивен, а к Кристине Шефер — ошибка досье исправлена, у Ивен свой трек GJkdyBYU4xs.
+- **Werner van Mechelen** (BYVZfG7T0bM), **Violeta Urmana** (gwQs0noahYE, фан-загрузка) — вне уровня отбора.
 
-| Альбом | Год в корпусе | Документированная сессия (источник) | Затронутые песни |
-|---|---|---|---|
-| Naxos DSLE т. 12 «Mayrhofer, Vol. 2» (8.554739) | 2003 (изд.) | 8–10.04 и 22–23.05.2002 (Discogs 31982882, notes) | D 124, D 297, D 298, D 495, D 539 + D 669, D 670 |
-| Naxos DSLE т. 26 «Romantic Poets, Vol. 3» (8.557832) | 2008 (изд.) | 6–9.09.2006, Sendesaal SWR Karlsruhe (Discogs 25961782, notes) | D 409, D 711 + D 687 |
-| Eterna 8 27 141 «Lieder nach Mayrhofer» | 1983 (℗) | 7/1980, Дрезден, Lukaskirche (Discogs 11040954, notes) | D 491, D 492, D 516, D 525, D 754 + D 669 |
-| Decca 440 297-2 «Italian Songs · Canzoni» (Bartoli/Schiff) | 1993 (℗) | 5–8.08.1992, Mozartsaal, Konzerthaus, Вена (Discogs 5358656, notes) | D 76, D 510, D 528 + D 688/1, D 688/2 |
+## Резервы
+
+1. Iven — Kehring, 2003 — GJkdyBYU4xs.
+2. Lorenz — Shetler (фан-перенос того же LP) — dyEt3DR-pis.
+3. van Mechelen — BYVZfG7T0bM.

@@ -1,30 +1,27 @@
-# D 670 «Die Sternennächte» (Майрхофер) — топ-4
+# D 670 «Die Sternennächte» (Майрхофер) — топ-5
 
-Категория: rare. Приоритетные (Квастхоф, Шварцкопф, Хоттер, Андерс, Шуман, Людвиг, Попп) — не найдено. Все ID проверены oEmbed 2026-08-17.
+Порядок — по иерархии: Квастхоф (нет) → Фишер-Дискау → Шварцкопф (нет) → старая школа → современные по качеству.
 
-| # | name | year | videoId | Обоснование и источник |
-|---|---|---|---|---|
-| 1 | Fischer-Dieskau — Moore | 1969 | 9ERxUzv8-iM | DG «Sämtliche Lieder» (сессии 1966–72), Topic певца. Приоритет №2 правил; год — сквозная конвенция корпуса для свода (соседние D 649, D 672, D 677 = 1969). |
-| 2 | Prégardien — Staier | 2001 | R40e4KB9CcE | Teldec «Schubert: Lieder after Mayrhofer», ℗2001; Штайер — историческое фортепиано, программа целиком на стихи Майрхофера (реестр `albums/modern-series.md` и `albums.md`). Крупнейший майрхоферовский рецитал новейшего времени, певец на пике (~1990–2012). Год — сквозная конвенция корпуса (Prégardien — Staier 2001). |
-| 3 | Lott — Johnson | 1992 | HuTHStKHuQA | Hyperion Schubert Edition, т. 19 «Songs about flowers & nature» (CDJ33019), трек 11 = «Die Sternennächte … D. 670 (Op. posth. 165/2)»; notes: «Recorded on 30 June, 1, 2 July 1992, Rosslyn Hill Unitarian Chapel, Hampstead» (Discogs 14038454). Лотт на пике; научный эталон издания Джонсона. |
-| 4 | Iven — Kehring | 2003 | kjGbt6rLiOE | Naxos DSLE т. 12 «Mayrhofer, Vol. 2» (8.554739), трек 13 = Die Sternennächte D 670 (Discogs 31982882); загрузка на собственном Topic-канале певицы. Год — сквозная конвенция корпуса по этому альбому (D 124, D 297, D 298, D 495, D 539 = 2003). ⚠️ Сессии по notes: 8–10.04 и 22–23.05.**2002** — см. общую заметку о годах. |
+## Итог
 
-Порядок: ФиДи → далее послевоенные/современные по качеству: Прегардьен (специальный майрхоферовский рецитал, периодный инструмент), Лотт (Hyperion), Ивен (Naxos DSLE — документальное издание уровнем ниже).
+| # | Запись | Год | videoId | Основание года |
+|---|--------|-----|---------|----------------|
+| 1 | Fischer-Dieskau — Moore | 1969 | 9ERxUzv8-iM | DG «Schubert: Lieder», ℗ 1969 DG Berlin (описание official-audio); конвенция свода — 1969 |
+| 2 | Lorenz — Shetler | 1983 | mLcrRmRGnLA | Eterna «Lieder nach Mayrhofer» (8 27 141, 1983) — реестр `albums/male-recitalists.md`; тот же альбом, что и в D 669 (сквозная унификация года) |
+| 3 | Prégardien — Staier | 2001 | R40e4KB9CcE | Teldec/Warner «Schubert: Lieder after Mayrhofer», ℗ 2001 Warner Music UK (описание official-audio; Staier — хаммерклавир) |
+| 4 | Goerne — Schneider | 2008 | MXpCYk6KRfg | HM, Goerne Schubert Edition Vol. 2 «An mein Herz» (HMC 902004.05): CD 2 — сессии I.2008, пианист Eric Schneider (реестр `albums/complete-editions.md`); описание official-audio подтверждает пару Goerne/Schneider |
+| 5 | Lott — Johnson | 1992 | HuTHStKHuQA | Hyperion Vol. 19 (CDJ33019), зап. VII.1992 — реестр; тот же альбом, что и в D 669 |
 
-Возрастная структура: 3 записи ≥1990 (1992, 2001, 2003) — выполнено; ≥2015 — достойных нет; ранее 1990 — одна (объективно узкий фонд).
+Возрастная структура: 3 записи ≥1990 (1992, 2001, 2008); достойного кандидата ≥2015 нет. Внутри современной группы Прегардьен и Гёрне поставлены выше Лотт по уровню исполнителей и по тому, что оба диска — специальные майрхоферовские/тематические проекты.
 
-Отклонённые/резервы:
-- **Lorenz — Shetler** (Eterna 8 27 141 «Lieder nach Mayrhofer», сторона A4 = D 670, Discogs 11040954; сессия Дрезден, Lukaskirche, 7/1980, ℗1983) — запись существует и по качеству вошла бы в тройку, но **отдельной загрузки D 670 на «Siegfried Lorenz — Topic» не найдено** (проверено поиском по YouTube) — резерв до появления ID.
-- **Haefliger** (LVsujs55Vyc, «Sternennächte») — реестровая привязка к DG LPEM 19 096 (Hertha Klust, 1957) буклетом не подтверждена, а Claves «23 ausgewählte Lieder» (1986, Dähler) D 670 в программе не содержит → альбом не идентифицирован, резерв.
-- **«Eric Schneider — Topic»** (MXpCYk6KRfg, «Die Sternennächte, D. 670») — канал оформлен на пианиста, певец не идентифицирован, резерв.
+## Отклонённые
 
-## ⚠️ Общая заметка о годах (для решения на уровне корпуса)
+- **E. Haefliger — Dähler** (LVsujs55Vyc; Claves «23 ausgewählte Lieder», сессия VII.1986, изд. 1987 — реестр `albums.md`): исторический хаммерклавир, но певцу 67 лет, голос сухой (дайджест) — вокальный компромисс.
+- **Holzmair — Wyss** (kzSBJjgfWGk, Tudor «Lieder», ℗ 1992) — ранняя серия Хольцмайра, уступает отобранным.
+- **Iven — Kehring** (kjGbt6rLiOE, Naxos DSLE т. 12, ℗ 2003) — добротно, но ниже уровня пятёрки.
 
-Правило `youtube-performances.md` ставит год сессии выше года издания, но требует и сквозной унификации «один альбом — один год». В этой сессии по четырём альбомам найдены документированные сессии, расходящиеся с годом, уже опубликованным в `performances.json`. Во избежание раскола корпуса в текущей выдаче сохранены корпусные значения; корректировка — единым решением по всем песням альбома:
+## Резервы
 
-| Альбом | Год в корпусе | Документированная сессия (источник) | Затронутые песни |
-|---|---|---|---|
-| Naxos DSLE т. 12 «Mayrhofer, Vol. 2» (8.554739) | 2003 (изд.) | 8–10.04 и 22–23.05.2002 (Discogs 31982882, notes) | D 124, D 297, D 298, D 495, D 539 + D 669, D 670 |
-| Naxos DSLE т. 26 «Romantic Poets, Vol. 3» (8.557832) | 2008 (изд.) | 6–9.09.2006, Sendesaal SWR Karlsruhe (Discogs 25961782, notes) | D 409, D 711 + D 687 |
-| Eterna 8 27 141 «Lieder nach Mayrhofer» | 1983 (℗) | 7/1980, Дрезден, Lukaskirche (Discogs 11040954, notes) | D 491, D 492, D 516, D 525, D 754 + D 669 |
-| Decca 440 297-2 «Italian Songs · Canzoni» (Bartoli/Schiff) | 1993 (℗) | 5–8.08.1992, Mozartsaal, Konzerthaus, Вена (Discogs 5358656, notes) | D 76, D 510, D 528 + D 688/1, D 688/2 |
+1. E. Haefliger — Dähler, 1986 — LVsujs55Vyc.
+2. Holzmair — Wyss, 1992 — kzSBJjgfWGk.
+3. Iven — Kehring, 2003 — kjGbt6rLiOE.

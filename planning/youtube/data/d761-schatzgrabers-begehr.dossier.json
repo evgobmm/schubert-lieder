@@ -1,0 +1,112 @@
+{
+  "d": "761",
+  "title": "Schatzgräbers Begehr",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966-72",
+      "year_source": "реестр: albums.md (DG Sämtliche Lieder, 21 CD)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "не исследована отдельно для этой песни",
+      "reputation": "базовая точка отсчёта корпуса",
+      "videoId": "E3xcCLBsMcI",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": 2012,
+      "year_source": "реестр: albums.md (Goerne Schubert Edition Vol. 7 «Erlkönig», HMC 902141, сессии январь 2012)",
+      "album": "Matthias Goerne Schubert Edition, Vol. 7 «Erlkönig»",
+      "label": "harmonia mundi",
+      "voice_note": "пик Гёрне ~1997–2015 по дайджесту",
+      "reputation": "часть 12-томного свода, самый записываемый Schubert-баритон поколения",
+      "videoId": "btZSLRLxR_w",
+      "channel": "Matthias Goerne",
+      "official": false
+    },
+    {
+      "singer": "Maarten Koningsberger",
+      "pianist": "Graham Johnson",
+      "rec_year": 1997,
+      "year_source": "yt-dlp метаданные официальной UMG-загрузки",
+      "album": "Hyperion Schubert Edition, Vol. 28 — An 1822 Schubertiad",
+      "label": "Hyperion (дистрибуция Universal)",
+      "voice_note": "не исследован отдельно",
+      "reputation": "часть научного свода Джонсона",
+      "videoId": "ZDHruID5EMs",
+      "channel": "Graham Johnson - Topic",
+      "official": true
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "Rudolf Jansen",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "Schubert Im Freundeskreis",
+      "label": "The Orchard Enterprises (сборный дистрибьютор)",
+      "voice_note": "по дайджесту — «гранитная» манера, пик ~1980–2005",
+      "reputation": "не исследована отдельно",
+      "videoId": "NzLGDAua8t0",
+      "channel": "Robert Holl - Topic",
+      "official": true
+    },
+    {
+      "singer": "Stephan Genz",
+      "pianist": "не указан в метаданных",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "Schubert, F.: Lieder, Vol. 1 — Opp. 1–24",
+      "label": "Naxos",
+      "voice_note": "не исследован",
+      "reputation": "часть немецкоязычной Naxos-серии по опусам",
+      "videoId": "jvCnEg3JmLU",
+      "channel": "Stephan Genz - Topic",
+      "official": true
+    },
+    {
+      "singer": "Jasper Schweppe (предположительно; пианист Riko Fukuda)",
+      "pianist": "Riko Fukuda",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "Schubert: Lieder, Vol. 3",
+      "label": "The-Source",
+      "voice_note": "атрибуция певца по титрам неоднозначна — на канале-Topic указан пианист Fukuda",
+      "reputation": "не исследована",
+      "videoId": "w7OlObqK9kI",
+      "channel": "Riko Fukuda - Topic",
+      "official": true
+    },
+    {
+      "singer": "Markus Eiche",
+      "pianist": "не указан в метаданных",
+      "rec_year": 2003,
+      "year_source": "год издания официальной загрузки (не сессия)",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследован",
+      "reputation": "не исследована",
+      "videoId": "BD6_raaAe0o",
+      "channel": "Markus Eiche - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "quasthoff": "не найдено",
+    "fischer_dieskau": "есть — Sämtliche Lieder (DG)",
+    "schwarzkopf": "не найдено",
+    "hotter": "не найдено",
+    "anders": "не найдено",
+    "e_schumann": "не найдено",
+    "ludwig": "не найдено",
+    "popp": "не найдено"
+  },
+  "new_albums": [
+    "Matthias Goerne Schubert Edition, Vol. 7 «Erlkönig» (HMC 902141, Haefliger, 2012) — включает D 758/D 761/D 690/D 746, уточняет реестр (ранее свод Гёрне был представлен только томами 1, 4, 7, 8, 12)",
+    "Robert Holl — «Schubert Im Freundeskreis» (Jansen) — не было в реестре",
+    "Naxos «Schubert, F.: Lieder, Vol. 1 — Opp. 1-24» (Genz) — не было в реестре"
+  ]
+}
