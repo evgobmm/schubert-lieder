@@ -32,7 +32,7 @@ const CYCLES = [
       { d: '795/1', title: 'Das Wandern' }, { d: '795/2', title: 'Wohin?' },
       { d: '795/7', title: 'Ungeduld' },
     ],
-    hints: 'Ключевые полные записи по дайджесту/реестру: Wunderlich/Giesen DG 1966; Fischer-Dieskau (EMI 1961 Moore, DG 1971 Moore); Schiøtz/Moore 1945; Hüsch/Müller 1935; Prey; Schreier/Schiff; Bostridge (Johnson Hyperion т.25 / Uchida); Goerne; Güra/Berner; Quasthoff/Zeyen DG 2005 — ПРИОРИТЕТ №1 правил; Hasselhorn/Bushakevitz 2023 (Diapason d\\'or).',
+    hints: 'Ключевые полные записи по дайджесту/реестру: Wunderlich/Giesen DG 1966; Fischer-Dieskau (EMI 1961 Moore, DG 1971 Moore); Schiøtz/Moore 1945; Hüsch/Müller 1935; Prey; Schreier/Schiff; Bostridge (Johnson Hyperion т.25 / Uchida); Goerne; Güra/Berner; Quasthoff/Zeyen DG 2005 — ПРИОРИТЕТ №1 правил; Hasselhorn/Bushakevitz 2023 (Diapason d Or).',
   },
   {
     key: 'schwanengesang', d: 'D 957 + D 965A', title: 'Schwanengesang', n: 14,
