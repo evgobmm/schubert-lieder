@@ -1,0 +1,523 @@
+{
+  "d": "300",
+  "title": "Der Jüngling an der Quelle",
+  "tier": "famous",
+  "research_date": "2026-08-17",
+  "method_note": "Лимит WebSearch в сессии был исчерпан до начала работы; веб-исследование велось через WebFetch (Brave Search, Hyperion, Discogs-веб) и через curl-API: дискография Майкла Грея (classical-discography.org, POST search2.php), MusicBrainz API, Discogs API. Даты записей взяты из дискографий и буклетных примечаний, НЕ из метаданных YouTube/архивов.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1965",
+      "year_source": "Буклетные примечания EMI CDM 7 69503 2 «Schubert: 21 Lieder» (Discogs release 6124629): «Recorded: Berlin, Zehlendorf Studio, 24, 25, 28 February & 1 March 1965: track 1-20 and 23-24 May 1958: track 21»; D 300 — трек 19, т.е. внутри сессий февраля–марта 1965. Ⓟ1965 для треков 1–20.",
+      "album": "Электрола-сессии 1965 (Berlin-Zehlendorf); LP «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert — 8. Folge» (Electrola SME 91 418, трек B6 — Discogs 6022616); CD-переиздание «Schubert: 21 Lieder» (EMI CDM 7 69503 2, 1988)",
+      "label": "Electrola / EMI",
+      "age_voice": "40 лет; середина главного пика (по дайджесту пик ~1951–1972), голос свежий, дикция и легато на высоте; ранее сухости поздних 1970-х.",
+      "reputation": "Приоритет №2 по правилам. Сессии 1965 с Муром — общепризнанное ядро его EMI-шубертианы; отдельных сравнительных рецензий именно на D 300 не найдено (см. negatives).",
+      "sources": [
+        "https://api.discogs.com/releases/6124629 (примечания EMI CDM 7 69503 2)",
+        "https://api.discogs.com/releases/6022616 (Electrola SME 91 418, трек B6 «Der Jüngling an der Quelle»)",
+        "MusicBrainz recording 50bd7934-10d6-46b7-8291-ae8e713a756f (FD/Moore, 93 с; релизы «21 Lieder» 1988, EMI «Lieder» 1990)"
+      ],
+      "youtube": [
+        {"videoId": "WKl7Da-Zhis", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 94, "note": "длительность 94 с соответствует EMI-записи (MB 93 с)"},
+        {"videoId": "MksqSbEVVKI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 94}
+      ],
+      "note": "Более ранняя из двух студийных записей ФД; по правилу «при прочих равных — более ранняя» имеет преимущество перед DG-сводом."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–72 (сессии свода; точный год трека не установлен)",
+      "year_source": "Сквозная конвенция проекта по своду DG «Schubert: Sämtliche Lieder» (21 CD, сессии 1966–1972) — реестр planning/youtube/albums.md и десятки досье корпуса; MusicBrainz: запись 97 с издана на DG «Lieder, Volume II» (1992-10-01) и «Complete Lieder Recordings on Deutsche Grammophon» (2022).",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD); CD-переиздания «Lieder» / «Lieder Volume II» (DG, 1992)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет; поздний пик, голос ещё полный, интерпретация более взвешенная, чем в 1965.",
+      "reputation": "Часть научно-полного свода мужских песен — опорная запись для любой песни корпуса; по D 300 отдельной критики не найдено.",
+      "sources": [
+        "MusicBrainz recording bee19d23-e041-46ec-9540-1af825c03d08 (FD/Moore, 97 с; DG «Lieder Volume II», 1992-10-01)",
+        "planning/youtube/albums.md; planning/research/singers-digest.md (свод DG 1966–72)"
+      ],
+      "youtube": [
+        {"videoId": "-jUI8eJ7YjM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 97},
+        {"videoId": "158evL4mztI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 97}
+      ],
+      "note": "Вторая (DG) запись ФД; при выборе одной записи ФД предпочтительна EMI-1965 (более ранняя, документированный год)."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf (сопрано)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1965–66? (год сессии не установлен)",
+      "year_source": "Дискографического источника на сессию не найдено: в базе Майкла Грея среди 21 шубертовской позиции Шварцкопф D 300 отсутствует; песня документирована как трек A2 LP «The Elisabeth Schwarzkopf Song Book» (Columbia SAX 5268, изд. 1966 — Discogs 7538580; US-издание Angel S-36345, 1967 — Discogs 9536965). Соседние сессии Song-Book-материала по буклету EMI 7243 5 65860 2 4 (1995): 22–27.VIII.1965 и 21–29.IV.1966 — отсюда диапазон-предположение. Загрузка фаната с датой «1962» — не источник.",
+      "album": "The Elisabeth Schwarzkopf Song Book (Columbia SAX 5268 / Angel S-36345)",
+      "label": "Columbia / EMI",
+      "age_voice": "50–51 год; сразу за главным пиком (дайджест: пик 1948–1964), голос легче и суше, но техника и дикция интактны.",
+      "reputation": "Приоритет №3 по правилам (топ-1 среди женщин). Сам альбом — авторская подборка «любимых песен» с Муром; критических разборов D 300 не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/7538580 (SAX 5268, трек A2 «Der Jüngling An Der Quelle», Gerald Moore — piano)",
+        "https://api.discogs.com/releases/9480386 (EMI 1995 Songbook, поштучные даты сессий 1947–1974; D 300 в него не вошла)",
+        "classical-discography.org, POST search2.php composer=Schubert&artists=Schwarzkopf — 21 позиция, D 300 нет",
+        "MusicBrainz recording 3d5cf653-631d-4164-b0c5-17926380506f (Schwarzkopf/Moore, 113 с)"
+      ],
+      "youtube": [
+        {"videoId": "FmIwBO2xynE", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 111}
+      ],
+      "note": "По правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» — в year допустим «1965–66?»."
+    },
+    {
+      "singer": "Lucia Popp (сопрано)",
+      "pianist": "Irwin Gage",
+      "rec_year": "1983",
+      "year_source": "Примечания LP HMV/EMI 27 0067 1 (Discogs 6176352): «Recorded: 1.-6.XI.1983, Abbey Road Studios, London»; D 300 — трек B6. Издание 1984.",
+      "album": "Schubert Lieder (EMI/HMV 27 0067 1; переизд. «Lucia Popp Sings Schubert Lieder»)",
+      "label": "EMI",
+      "age_voice": "44 года; пик (дайджест: ~1970–1988), серебристый лирический тон в лучшей форме.",
+      "reputation": "Приоритетная певица по правилам. Прецедент Gretchen показал: включение Попп не автоматическое — качество решает; здесь материал (лёгкая водяная миниатюра) прямо в её сильной зоне. Специальных рецензий на трек не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/6176352 (даты сессий и трек-лист)",
+        "MusicBrainz recordings aedf19a7-…, 158566a7-…, e5fa45df-… (Popp/Gage: студия EMI, антология «Lieder on Record 1898–2012», BBC-лайв)",
+        "planning/youtube/albums/female-recitalists.md (карточка Popp — EMI 1–6.11.1983)"
+      ],
+      "youtube": [
+        {"videoId": "kezgq7Vp3ZM", "channel": "Lucia Popp - Topic", "official": true, "oembed_ok": true, "duration_s": 122},
+        {"videoId": "zs34Cmg4W4Y", "channel": "Allons à l'Opéra", "official": false, "oembed_ok": true, "duration_s": 115, "note": "фан-загрузка лайва, атрибутирована как Зальцбург 10.08.1983 — дата загрузчика, не дискографический источник"},
+        {"videoId": "jKvcBA9ttrA", "channel": "incontrario motu", "official": false, "oembed_ok": true, "duration_s": 117, "note": "лайв Попп/Гейдж, дата не установлена"}
+      ],
+      "note": "Есть также лайв-издания (Orfeo d'Or, Зальцбург; BBC Legends) — для отбора предпочтительна студийная EMI-1983."
+    },
+    {
+      "singer": "Elisabeth Schumann (сопрано)",
+      "pianist": "Elizabeth Coleman (по кредитам EMI-переиздания и MusicBrainz; у Грея пианист не указан)",
+      "rec_year": "1936",
+      "year_source": "Дискография Майкла Грея, запись id=66172: «1936 September 7, London, EMI Studio No. 3, Abbey Road; HMV DA1521; матрица 0EA 3762». Совпадает с карточкой реестра (сессия 07.09.1936).",
+      "album": "78-об. HMV DA 1521; CD-переиздания: EMI «Der Hirt auf dem Felsen & 48 Lieder» (1989), EMI «Lieder on Record 1898–2012» (2012), Naxos Historical 8.110731",
+      "label": "HMV / EMI",
+      "age_voice": "48 лет; конец главного пика (дайджест: 1920-е — сер. 1930-х), тон ещё светлый и лёгкий, стиль эталонный.",
+      "reputation": "Приоритетная певица по правилам; её шубертовские 78-е — классика жанра. Прецедент правил (ошибочная дата «1945» в метаданных архива по другой её записи) требует опоры именно на матрицы — здесь дата подтверждена Греем.",
+      "sources": [
+        "classical-discography.org modalcontent.php?id=66172 (сессия, студия, матрица)",
+        "MusicBrainz recordings 174cd53f-… и ffc27a0b-… (Schumann/Coleman, 81 и 78 с)",
+        "planning/youtube/albums/female-recitalists.md (сессия 07.09.1936, DA 1521/1525/1526)"
+      ],
+      "youtube": [
+        {"videoId": "HZNM0iv19sM", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "duration_s": 79},
+        {"videoId": "rlzMBixIoCk", "channel": "Elisabeth Schumann, Gerald Moore & Elizabeth Coleman - Topic", "official": true, "oembed_ok": true, "duration_s": 79}
+      ],
+      "note": "Атрибуция пианистки (Coleman) — по кредитам переиздания/MB, у Грея графа пуста; в top5-файле указывать с оговоркой."
+    },
+    {
+      "singer": "Lotte Lehmann (сопрано)",
+      "pianist": "Paul Ulanowsky",
+      "rec_year": "1947",
+      "year_source": "Дискография Грея, id=71054: «1947 July 11, Hollywood, Victor 10-1551, матрица D7-RB 1300, take 1A». Совпадает с карточкой реестра (поздние Victor-стороны 26–27.06 и 11.07.1947).",
+      "album": "Victor 10-1551 (78 об.); переиздания в антологиях Lehmann",
+      "label": "RCA Victor",
+      "age_voice": "59 лет; заметно за пиком (дайджест: пик сер. 1910-х — кон. 1930-х), голос сузился, но декламация и характер — образцовые.",
+      "reputation": "Историческая величина Lieder-пения; для лёгкой пейзажной миниатюры возрастной износ слышен сильнее, чем в драматическом репертуаре.",
+      "sources": [
+        "classical-discography.org modalcontent.php?id=71054",
+        "planning/youtube/albums/female-recitalists.md (Victor-стороны 1947)",
+        "MusicBrainz recording b8c31fed-… (Lehmann/Ulanowsky, 110 с)"
+      ],
+      "youtube": [
+        {"videoId": "9x99c16xYlQ", "channel": "Lotte Lehmann - Topic", "official": true, "oembed_ok": true, "duration_s": 108}
+      ],
+      "note": "Есть и фан-загрузка rFYV4vTjTEs (та же запись, 108 с)."
+    },
+    {
+      "singer": "Heinrich Schlusnus (баритон)",
+      "pianist": "Franz Rupp (1931) / Sebastian Peschko (1938)",
+      "rec_year": "1931 и 1938",
+      "year_source": "Дискография Грея: id=256639 — «1931, Berlin, Polydor 90194, матрица db 146, take 3, Schlusnus/Rupp»; id=26580 — «1938 June 16, Berlin, Raum VIII, Polydor 90194, матрица gr 7909, Schlusnus/Peschko, инженер Erlich» (ремейк того же номера каталога).",
+      "album": "Polydor 90194 (78 об.); переиздания Preiser «Lebendige Vergangenheit», Nimbus Prima Voce NI 7883, антологии History/Documents",
+      "label": "Polydor / Deutsche Grammophon",
+      "age_voice": "43 года (1931) и 50 лет (1938); оба — в пределах его долгого ровного периода (дайджест: пик 1920-е–1930-е, ровность держал и в 1940-е).",
+      "reputation": "Эталон немецкого «бельканто»-баритона своего поколения (характеристика реестра, помечена как непроверенная формулировка); мужской вариант песни, конкурирует с ФД.",
+      "sources": [
+        "classical-discography.org modalcontent.php?id=256639 и id=26580",
+        "MusicBrainz recording 0ad484a0-… (Schlusnus/Rupp, 132 с; антологии History/Documents)",
+        "planning/youtube/albums/male-recitalists.md (карточка Schlusnus)"
+      ],
+      "youtube": [
+        {"videoId": "LvAGqtjnJyA", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true, "duration_s": 132, "note": "заголовок Topic: «Recorded 1938» — согласуется с сессией 16.06.1938"},
+        {"videoId": "RcetE2RtzjY", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true, "duration_s": 132},
+        {"videoId": "R6LGjLqkzLI", "channel": "NoeckesHarfenschall", "official": false, "oembed_ok": true, "duration_s": 138}
+      ],
+      "note": "Два разных сеанса под одним каталожным номером — при публикации фиксировать, какая версия взята (Topic-загрузка помечена 1938)."
+    },
+    {
+      "singer": "Elly Ameling (сопрано)",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1983 (℗)",
+      "year_source": "Discogs 4228332: «A Bouquet of Schubert», Etcetera ETC 1009, ℗ 1983 Klaas Posthuma Productions, digital recording; D 300 — трек B6 (1:47). Год сессии отдельно не документирован (℗ = год записи/издания цифровой сессии).",
+      "album": "A Bouquet of Schubert (Etcetera ETC 1009)",
+      "label": "Etcetera",
+      "age_voice": "50 лет; конец пика (дайджест: ~1965–1985), тон ещё ровный и светлый, фразировка предельно культурная.",
+      "reputation": "Самая записываемая шубертианка своего поколения (дайджест). Ранняя альтернатива — рецитал с Йоргом Демусом на хаммерфлюгеле (по MB — DHM «Lieder», изд. 1990; фан-загрузка датирует исполнение 1965 — не дискографический источник).",
+      "sources": [
+        "https://api.discogs.com/releases/4228332 (Etcetera ETC 1009, трек B6)",
+        "MusicBrainz recordings d18f8c43-… (Ameling/Baldwin, 113 с), e505c964-… (106 с), 78f414f6-… (Ameling/Demus, 103 с; DHM «Lieder», 1990)",
+        "Проверено: D 300 отсутствует в Philips «Lieder» 6500 704 (1974) и Philips «An die Musik» 410 037-2 (1983) — Discogs 4991062, 8005277"
+      ],
+      "youtube": [
+        {"videoId": "v2HQQHN55S8", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 98, "note": "альбом-источник Topic-загрузки не идентифицирован окончательно: длительность 98 с не совпадает ни с одной из трёх записей MB (113/106/103 с)"},
+        {"videoId": "Hh8MqPFnNIg", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 98},
+        {"videoId": "8gMyQ5ZdTr4", "channel": "Roberto Gini", "official": false, "oembed_ok": true, "duration_s": 110, "note": "фан-загрузка, атрибуция «Ameling/Demus, 1965» — со слов загрузчика"}
+      ],
+      "note": "Перед публикацией нужно сверить, какую именно запись Амелинг несёт Topic-загрузка (Etcetera-1983 или Philips/DHM-версия)."
+    },
+    {
+      "singer": "Ernst Haefliger (тенор)",
+      "pianist": "Hertha Klust",
+      "rec_year": "1957 (год издания; сессия не установлена)",
+      "year_source": "Discogs 23145095: «Ernst Häfliger singt Lieder von Schubert und Brahms», Deutsche Grammophon LPEM 19 096, год 1957; D 300 — трек A7. Дата сессии в реестре помечена как неустановленная.",
+      "album": "Ernst Haefliger singt Lieder von Schubert und Brahms (DG LPEM 19 096); переизд. «The Ernst Haefliger Edition» / «Essentials» (DG 2019)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "38 лет; пик (дайджест: 1950-е–1960-е), светлый, ровный, стилистически строгий тенор.",
+      "reputation": "Швейцарский тенор баховской школы; шубертовский рецитал пика — один из немногих качественных теноровых источников для этой песни.",
+      "sources": [
+        "https://api.discogs.com/releases/23145095",
+        "MusicBrainz recording 1abe88aa-… (Haefliger/Klust, 113 с; DG «Essentials», 2019)",
+        "planning/youtube/albums/male-recitalists.md (карточка Haefliger)"
+      ],
+      "youtube": [
+        {"videoId": "vjgmFi6IqYs", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true, "duration_s": 114},
+        {"videoId": "EEncIwWeCN4", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true, "duration_s": 111}
+      ],
+      "note": "Поздний ремейк — с Й. Э. Дэлером на хаммерклавире (Claves «Lieder», MB-релиз 1988), см. отдельного кандидата."
+    },
+    {
+      "singer": "Ernst Haefliger (тенор)",
+      "pianist": "Jörg Ewald Dähler (хаммерклавир ~1820)",
+      "rec_year": "1986–88 (издание Claves; сессия не установлена)",
+      "year_source": "MusicBrainz recording 61599704-… — релиз Claves «Lieder» (1988); реестр (albums/male-recitalists.md) даёт Claves CD 50-8611, запись в Kirche Wohlen, издание 1986.",
+      "album": "Lieder (Claves CD 50-8611 / «23 ausgewählte Lieder»)",
+      "label": "Claves",
+      "age_voice": "67–69 лет; голос сухой, техника сохранна, но вокально это компромисс (дайджест и пилотный реестр).",
+      "reputation": "Ценность — исторический инструмент и стилистическая скрупулёзность, а не вокальное состояние; для отбора уступает записи 1957 года.",
+      "sources": [
+        "MusicBrainz recording 61599704-1299-4bda-9f62-28e3cebfab0e (Claves «Lieder», 1988)",
+        "planning/youtube/albums/male-recitalists.md"
+      ],
+      "youtube": [
+        {"videoId": "XUHV2k6kO8g", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true, "duration_s": 111}
+      ],
+      "note": "Дубль того же певца — в пятёрку берётся максимум одна его запись."
+    },
+    {
+      "singer": "Christoph Prégardien (тенор)",
+      "pianist": "Graham Johnson",
+      "rec_year": "1994",
+      "year_source": "Hyperion: The Hyperion Schubert Edition, Vol. 23 «Songs of 1816» (CDJ33023) — страница альбома указывает запись в сентябре 1994, издание V.1995 (реестр complete-editions.md; MusicBrainz: релиз 1995-05).",
+      "album": "The Hyperion Schubert Edition, Vol. 23: Songs of 1816 (CDJ33023); также в антологии «A Voyage of Discovery» (1997)",
+      "label": "Hyperion",
+      "age_voice": "38 лет; начало главного пика (дайджест: ~1990–2012), лёгкий, гибкий, безупречно интонирующий тенор.",
+      "reputation": "Научный эталон издания Джонсона: полный комментарий к песне, стилистически выверенное сопровождение. Gramophone о серии: «This is singing which is always alive, interesting, and personal … a fascinating record» (цитата с hyperion-records.co.uk, найдена через поиск; конкретный том не верифицирован).",
+      "sources": [
+        "MusicBrainz recording c7b0de12-… (Prégardien/Johnson; Hyperion CDJ33023, 1995-05)",
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33023 (том 23, запись сентябрь 1994)",
+        "planning/youtube/albums/complete-editions.md (карточка тома 23)"
+      ],
+      "youtube": [
+        {"videoId": "ZvtbjtAxYEY", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true, "duration_s": 99}
+      ],
+      "note": "Сильнейший кандидат «не ранее 1990» по составу пятёрки."
+    },
+    {
+      "singer": "Anne Sofie von Otter (меццо)",
+      "pianist": "Bengt Forsberg",
+      "rec_year": "1996 (издание 1997)",
+      "year_source": "DG 453 481-2 «Lieder» — издание 1997 (Discogs 10659183, D 300 — трек 12, 1:21; MusicBrainz релиз 1997-10-01). Год сессии 1996 — сквозная конвенция проекта по этому альбому (досье d257, d260).",
+      "album": "Schubert: Lieder (DG 453 481-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41 год; пик (дайджест: ~1988–2010), инструментально ровное меццо, «инструментальная» ясность линии.",
+      "reputation": "Один из немногих полноценно современных рециталов, устойчиво уважаемых специалистами; трактовка нарочито быстрая (1:21 — самая быстрая среди кандидатов).",
+      "sources": [
+        "https://api.discogs.com/releases/10659183",
+        "MusicBrainz recording c91d7923-… (von Otter/Forsberg, 81 с)",
+        "planning/youtube/data/d257-heidenroslein.dossier.json, d260-wonne-der-wehmut.dossier.json (год 1996 по этому альбому)"
+      ],
+      "youtube": [
+        {"videoId": "FbJl-aEDR44", "channel": "Anne Sofie von Otter - Topic", "official": true, "oembed_ok": true, "duration_s": 81}
+      ],
+      "note": "Кандидат в группу «не ранее 1990»."
+    },
+    {
+      "singer": "Siegfried Lorenz (баритон)",
+      "pianist": "Norman Shetler",
+      "rec_year": "1983",
+      "year_source": "Бокс Berlin Classics 0184142BC (Discogs 5491017): D 300 — трек 7-4; примечания: «CD7 … Recording: Dresden, Lukaskirche, 3/1983, ℗ 1985 VEB Deutsche Schallplatten Berlin (Tracks 1-22)».",
+      "album": "Schubert: Lieder (Berlin Classics 0184142BC, 8 CD; оригинал — серия Eterna)",
+      "label": "Eterna / Berlin Classics",
+      "age_voice": "37–38 лет (р. 30.08.1945); зрелый пик, тёплый ровный лирический баритон.",
+      "reputation": "«Intelligent and refined German baritone with a warm and pleasing voice»; шубертовские записи «mehrfach preisgekrönt» (сводка по некрологам/справочникам, найдена через поиск — Wikipedia, Telegraph obituary 03.09.2024).",
+      "sources": [
+        "https://api.discogs.com/releases/5491017 (даты сессий по CD)",
+        "MusicBrainz recording 92d82a0a-… (Lorenz/Shetler, 106 с)",
+        "https://en.wikipedia.org/wiki/Siegfried_Lorenz_(baritone); https://www.telegraph.co.uk/obituaries/2024/09/03/siegfried-lorenz-german-baritone-lieder-schubert-bach/"
+      ],
+      "youtube": [
+        {"videoId": "KnbsvIbY6DM", "channel": "Siegfried Lorenz - Topic", "official": true, "oembed_ok": true, "duration_s": 106},
+        {"videoId": "L-Hq-ZlxJu0", "channel": "Siegfried Lorenz - Topic", "official": true, "oembed_ok": true, "duration_s": 106}
+      ],
+      "note": "Крепкий «второй эшелон» старой школы ГДР; недооценённый источник для песен вне циклов."
+    },
+    {
+      "singer": "Jan Kobow (тенор)",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "2009 (год издания; сессия не установлена)",
+      "year_source": "Naxos 8.570480 «Poets of Sensibility, Vol. 6» (Deutsche Schubert-Lied-Edition), Discogs 9427902: год 2009, D 300 — трек 1 (1:40), копродукция с Bayerischer Rundfunk. По правилу для Naxos DSLE в плеер ставится год издания.",
+      "album": "Deutsche Schubert-Lied-Edition, т. 30 «Poets of Sensibility, Vol. 6» (Naxos 8.570480)",
+      "label": "Naxos",
+      "age_voice": "около 45 лет (Kobow р. 1964, дата рождения не верифицирована в этой сессии); лёгкий барочный тенор, стилистическая аккуратность важнее чувственности.",
+      "reputation": "Полное издание Naxos — справочный источник, а не эталон исполнения; критических разборов трека не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/9427902",
+        "planning/youtube/albums/complete-editions.md (карточка тома 30)"
+      ],
+      "youtube": [
+        {"videoId": "XYqDnUIsH5g", "channel": "Jan Kobow - Topic", "official": true, "oembed_ok": true, "duration_s": 98}
+      ],
+      "note": "Кандидат «не ранее 1990», но интерпретационно нейтрален."
+    },
+    {
+      "singer": "Jonas Kaufmann (тенор)",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2020",
+      "year_source": "Буклет Sony Classical 194397832624 «Selige Stunde» (Discogs 25105573): «Recorded: April 16-19, 2020, Munich»; D 300 — трек 9 (2:06).",
+      "album": "Selige Stunde (Sony Classical, 2020)",
+      "label": "Sony Classical",
+      "age_voice": "51 год; после ~2016 у певца отмечаются вокальные проблемы (дайджест, помечено как неподтверждённое); тон густой, теноровая лёгкость этой миниатюре не свойственная — темп самый медленный из всех кандидатов (2:06).",
+      "reputation": "Смешанная: Telegraph и Presto хвалят («delightful», «recording of the week»), но Classical-Music.com называет игру Дойча «serviceable but often sounds prosaic and leaden», а concerti.de — «больше усердия, чем глубины», ставя Кауфмана ниже коллег. Правило о скепсисе к пиару современных прямо применимо.",
+      "sources": [
+        "https://api.discogs.com/releases/25105573 (даты сессий)",
+        "https://www.classical-music.com/reviews/choral-song/selige-stunde",
+        "https://www.concerti.de/rezensionen/jonas-kaufmann-selige-stunde/",
+        "https://www.prestomusic.com/classical/articles/3489--recording-of-the-week-jonas-kaufmann-helmut-deutsch-selige-stunde"
+      ],
+      "youtube": [
+        {"videoId": "FgI3QumKU1M", "channel": "Jonas Kaufmann - Topic", "official": true, "oembed_ok": true, "duration_s": 127},
+        {"videoId": "ZGpHDTLwJbE", "channel": "Jonas Kaufmann", "official": true, "oembed_ok": true, "duration_s": 132, "note": "видеоверсия/иная загрузка официального канала"},
+        {"videoId": "GwL3WdVVWw4", "channel": "Jonas Kaufmann", "official": true, "oembed_ok": true, "duration_s": 197, "note": "лайв-бис, Grafenegg (ORF III)"}
+      ],
+      "note": "Формально закрывает требование «одна запись не ранее 2015», но качество — под вопросом; включать только если нет лучшего современного кандидата."
+    },
+    {
+      "singer": "Vesselina Kasarova (меццо)",
+      "pianist": "Friedrich Haider",
+      "rec_year": "1999 (год издания; сессия не установлена)",
+      "year_source": "MusicBrainz recording 7c3662b7-… — релиз RCA Red Seal «Lieder», 1999-11-09.",
+      "album": "Schubert: Lieder (RCA Red Seal)",
+      "label": "RCA Red Seal",
+      "age_voice": "34 года; ранний пик, но манера с сильным вибрато и оперным нажимом, для миниатюры спорная.",
+      "reputation": "Критики ценят её россиниевские партии выше камерного пения; специальных оценок этого трека не найдено.",
+      "sources": ["MusicBrainz recording 7c3662b7-6bbc-40cc-9879-4c6363f53860"],
+      "youtube": [
+        {"videoId": "s3Gtt_GMJAo", "channel": "Vesselina Kasarova - Topic", "official": true, "oembed_ok": true, "duration_s": 96}
+      ],
+      "note": "Резерв; в пятёрку не напрашивается."
+    },
+    {
+      "singer": "Ian Bostridge (тенор)",
+      "pianist": "не установлен (вероятно Julius Drake)",
+      "rec_year": "не установлен",
+      "year_source": "Дискографического подтверждения нет: D 300 отсутствует в трек-листах EMI «Schubert Lieder» (1998, сессии II–III.1996, Abbey Road — Discogs 5286765) и «Lieder: Volume II» (2001 — Discogs 8931789); в MusicBrainz записи Бостриджа с этой песней нет.",
+      "album": "не идентифицирован (Topic-загрузка существует)",
+      "label": "?",
+      "age_voice": "не определяется без даты записи.",
+      "reputation": "Дайджест: пик ~1995–2010, позже манернее и суше.",
+      "sources": [
+        "https://api.discogs.com/releases/5286765; https://api.discogs.com/releases/8931789",
+        "MusicBrainz: поиск recording «Jüngling an der Quelle» + artist Bostridge — 0 результатов"
+      ],
+      "youtube": [
+        {"videoId": "Uoh5Hi4OhLA", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "duration_s": 92}
+      ],
+      "note": "Без установленного альбома и года — в пятёрку не брать без доисследования."
+    },
+    {
+      "singer": "Konstantin Krimmel (баритон)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "не установлен",
+      "year_source": "Источника нет: единственный след — фан-загрузка с субтитрами (канал Dolcefarniente); в MusicBrainz записи нет, коммерческий релиз не идентифицирован (альбомы Кримеля на Alpha — с Tchakarova и Heide).",
+      "album": "не идентифицирован (вероятно лайв/трансляция)",
+      "label": "?",
+      "age_voice": "р. 1993; пик с ~2019, голос молодой и свежий.",
+      "reputation": "Дайджест: перспективный молодой баритон (Alpha «Saga», «Die schöne Müllerin» 2023); пресса о молодых фильтруется по правилу о пиаре.",
+      "sources": ["MusicBrainz: записи не найдено; yt-dlp-выдача (канал Dolcefarniente)"],
+      "youtube": [
+        {"videoId": "zn6zhg3r3Q4", "channel": "Dolcefarniente", "official": false, "oembed_ok": true, "duration_s": 127}
+      ],
+      "note": "Неофициальная загрузка + неустановленный год — низкий приоритет."
+    },
+    {
+      "singer": "Harriet Burns (сопрано)",
+      "pianist": "Ian Tindale",
+      "rec_year": "2022–23 (издание 26.01.2023)",
+      "year_source": "MusicBrainz recording 92bff1ca-… — релиз Delphian «Lieder: Love's Lasting Power», 2023-01-26; сессия не установлена.",
+      "album": "Lieder: Love's Lasting Power (Delphian)",
+      "label": "Delphian",
+      "age_voice": "молодой голос, данные о возрасте не верифицированы.",
+      "reputation": "Новая запись без устоявшейся репутации; по правилу приоритета старых мастеров — резерв.",
+      "sources": ["MusicBrainz recording 92bff1ca-ea3c-42fd-8728-4e2e41568500"],
+      "youtube": [],
+      "note": "YouTube-ID не найден (в generic-поиске и целевом поиске отсутствует)."
+    },
+    {
+      "singer": "Michael Schade (тенор)",
+      "pianist": "Stephen Ralls",
+      "rec_year": "не установлен (издание 2002)",
+      "year_source": "MusicBrainz recording d383c5a3-… — релиз «The Aldeburgh Connection's 20th Anniversary Collection» (2002-06).",
+      "album": "The Aldeburgh Connection's 20th Anniversary Collection",
+      "label": "собственное издание Aldeburgh Connection (Торонто)",
+      "age_voice": "не установлено.",
+      "reputation": "Нишевое канадское издание; в широкой критике не обсуждается.",
+      "sources": ["MusicBrainz recording d383c5a3-7448-4861-8cb5-71336d6ada1d"],
+      "youtube": [],
+      "note": "Резерв, YouTube не найден."
+    },
+    {
+      "singer": "Judith Raskin (сопрано)",
+      "pianist": "George Schick",
+      "rec_year": "не установлен (1960-е, Columbia; переиздание Sony 2002)",
+      "year_source": "MusicBrainz recordings 9403adbc-… и f83baf40-… — релиз Sony Classical (2002); оригинальные сессии Columbia не датированы в доступных источниках.",
+      "album": "компиляция Sony Classical (оригинал — Columbia)",
+      "label": "Columbia / Sony",
+      "age_voice": "не установлено.",
+      "reputation": "Американская лирическая сопрано моцартовского профиля; для этой песни маргинальна.",
+      "sources": ["MusicBrainz recordings 9403adbc-bf06-4e4e-aa4a-e8540924af38, f83baf40-aa6d-4c79-8205-0891fa18e86e"],
+      "youtube": [],
+      "note": "Резерв."
+    },
+    {
+      "singer": "Исторические 78-е второго ряда (документируются, в пятёрку не идут)",
+      "pianist": "см. по позициям",
+      "rec_year": "1920-е–1950",
+      "year_source": "Дискография Грея, поиск по работе «Jüngling an der Quelle» (11 позиций): Leo Slezak (тенор), Polydor, Берлин, Hochschule für Musik, матрица bk 1516, дата не проставлена (id=240186); Lore Fischer (контральто) / Michael Raucheisen, 17.10.1939, Берлин, Polydor 11362 (id=26754); Roland Hayes (тенор) / Reginald Boardman, Columbia, 30.10.1939 и 07.04.1942, обе UNISSUED (id=31382, 31694); Karl Schmitt-Walter (баритон) / Adolf Stauch, Electrola DA 1900, 17.02.1948 (id=55701); Maria Ribbing / Stig Ribbing, HMV DB 10512, 09.05.1950 (id=59879); Erika Rokyta / Othon Wetzel, L'Oiseau Lyre OL 24, июнь 1938 (id=76836).",
+      "album": "78 об., различные",
+      "label": "Polydor / Columbia / Electrola / HMV / L'Oiseau Lyre",
+      "age_voice": "не исследовалось (кандидатами второго ряда).",
+      "reputation": "Историческая ценность; Хейз издан не был.",
+      "sources": ["classical-discography.org, POST search2.php composer=Schubert&work=Jungling an der Quelle — 11 записей, детали через modalcontent.php?id=…"],
+      "youtube": [],
+      "note": "Показывает глубину фонда 78-х; для отбора не используются."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "НЕТ. MusicBrainz: recording «Jüngling an der Quelle» + artist Quasthoff — 0 результатов. Его шубертовская дискография закрыта и состоит ровно из 6 альбомов (Goethe-Lieder RCA 1993/95, Winterreise 1998, Schwanengesang 2001, Lieder с оркестром 2003, Müllerin 2005, Winterreise-фильм 2005) — песня на стихи Салис-Зевиса ни в один не входит (planning/research/singers-digest.md).",
+    "Fischer-Dieskau": "ДА, дважды: (1) EMI/Electrola, Berlin-Zehlendorf, сессии 24, 25, 28.II и 1.III.1965, с Муром (буклет EMI CDM 7 69503 2, Discogs 6124629; LP Electrola SME 91 418, трек B6); (2) DG «Sämtliche Lieder» (сессии свода 1966–72), с Муром (MusicBrainz bee19d23-…, DG «Lieder Volume II» 1992).",
+    "Schwarzkopf": "ДА: с Джеральдом Муром, LP «The Elisabeth Schwarzkopf Song Book» (Columbia SAX 5268, изд. 1966), трек A2 (Discogs 7538580). Год сессии дискографически не установлен (у Грея этой позиции нет); ориентир 1965–66 по датам смежных сессий Song-Book-материала (буклет EMI 7243 5 65860 2 4).",
+    "Hotter": "НЕ НАЙДЕНО. MusicBrainz: 0 результатов по «Jüngling an der Quelle» + Hotter; в дискографии Грея по этой работе (11 позиций) Хоттера нет. Его шубертовское наследие — Winterreise (1942/1954/1961), Schwanengesang и отдельные песни начала 1950-х (дайджест).",
+    "Anders": "НЕ НАЙДЕНО. MusicBrainz: 0 результатов; у Грея по работе — нет. Шубертовское наследие Андерса — Winterreise (RRG 1945) и Müllerin (1945, 1948) (дайджест).",
+    "E. Schumann": "ДА: HMV DA 1521, Лондон, Abbey Road Studio No. 3, 07.09.1936, матрица 0EA 3762 (Грей, id=66172); пианистка по кредитам переизданий и MusicBrainz — Elizabeth Coleman (у Грея графа пуста).",
+    "Ludwig": "НЕ НАЙДЕНО. MusicBrainz: 0 результатов по «Jüngling an der Quelle» + Christa Ludwig; ни в одной из её шубертовских сессий (Gray-карточки 1957, 1961/62, 1965/66, 1973, 1974) песня не значится в известных трек-листах.",
+    "Popp": "ДА: EMI/HMV 27 0067 1, сессии 1–6.XI.1983, Abbey Road, с Ирвином Гейджем, трек B6 (Discogs 6176352); плюс лайв-издания (BBC Legends, Orfeo d'Or Зальцбург)."
+  },
+  "albums_facts": [
+    {
+      "album": "EMI/Electrola: сессии Berlin-Zehlendorf 24, 25, 28.II и 1.III.1965 (LP «…singt Lieder von Franz Schubert, 8. Folge», Electrola SME 91 418; CD «21 Lieder», EMI CDM 7 69503 2, 1988)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1965,
+      "label": "Electrola / EMI",
+      "facts": "Точные даты сессий указаны в буклете CD-переиздания; Ⓟ1965 для треков 1–20 (D 300 — трек 19), Ⓟ1958 для трека 21 (сессии 23–24.V.1958). Пианист — Gerald Moore.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD, сессии 1966–72)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1969,
+      "label": "Deutsche Grammophon",
+      "facts": "Сквозной свод всех мужских песен с Муром; в проекте применяется конвенция «1966–72»/«1969». CD-переиздания «Lieder», «Lieder Volume II» (1992), бокс «Complete Lieder Recordings on DG» (2022).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Elisabeth Schwarzkopf Song Book (Columbia SAX 5268, изд. 1966; US — Angel S-36345, 1967)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": 1966,
+      "label": "Columbia / EMI",
+      "facts": "Авторская подборка «любимых песен» (Шуберт, Шуман, Вольф, Дебюсси, Рахманинов, Wolf-Ferrari) с Джеральдом Муром; аннотации Эрика Сэмса и Уильяма Манна. D 300 — трек A2. Даты сессий в изданиях не проставлены; у Грея этой позиции нет.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lucia Popp — Schubert Lieder (EMI/HMV 27 0067 1, изд. 1984)",
+      "singer": "Lucia Popp",
+      "year": 1983,
+      "label": "EMI",
+      "facts": "Сессии 1–6.XI.1983, Abbey Road, цифровая запись (DMM); пианист Irwin Gage. D 300 — трек B6 (1:49). Уже в реестре пилота (D 118, D 800, D 828, D 854).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Elly Ameling — A Bouquet of Schubert (Etcetera ETC 1009)",
+      "singer": "Elly Ameling",
+      "year": 1983,
+      "label": "Etcetera / Klaas Posthuma Productions",
+      "facts": "Цифровая запись, ℗1983; пианист Dalton Baldwin; D 300 — трек B6 (1:47). НОВАЯ позиция для реестра альбомов (в albums/ не значилась).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ernst Haefliger singt Lieder von Schubert und Brahms (DG LPEM 19 096, изд. 1957)",
+      "singer": "Ernst Haefliger",
+      "year": 1957,
+      "label": "Deutsche Grammophon",
+      "facts": "Пианистка Hertha Klust; D 300 — трек A7 (подтверждение содержания, ранее в реестре стояло «?»). Переиздания — «The Ernst Haefliger Edition» / «Essentials» (DG 2019).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Siegfried Lorenz / Norman Shetler — Schubert: Lieder (бокс Berlin Classics 0184142BC, 8 CD, 2007; оригиналы Eterna)",
+      "singer": "Siegfried Lorenz",
+      "year": 1983,
+      "label": "Eterna / Berlin Classics",
+      "facts": "Поштучные данные по дискам в примечаниях бокса: CD7 треки 1–22 — Дрезден, Лукаскирхе, 3/1983 (℗1985), треки 23–28 — 3/1977 (℗1983); D 300 — трек 7-4, т.е. сессия марта 1983. Прочие диски: 9/1974, 5/1976, 10/1976, 3/1977, 7/1980, 11/1985, 9/1986, 3/1987. НОВАЯ, богатая датами позиция для реестра — годится для всего корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 30 «Poets of Sensibility, Vol. 6» (8.570480, изд. 2009)",
+      "singer": "Jan Kobow",
+      "year": 2009,
+      "label": "Naxos",
+      "facts": "Копродукция с Bayerischer Rundfunk; Ulrich Eisenlohr — фортепиано; D 300 открывает диск (трек 1, 1:40). Год сессии не установлен — по правилу берётся год издания.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Jonas Kaufmann — Selige Stunde (Sony Classical 194397832624)",
+      "singer": "Jonas Kaufmann",
+      "year": 2020,
+      "label": "Sony Classical",
+      "facts": "Записано 16–19 апреля 2020 в Мюнхене (буклет); пианист Helmut Deutsch; D 300 — трек 9 (2:06). Записан в локдаун, программа «романтических песен» разных композиторов.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Anne Sofie von Otter / Bengt Forsberg — Schubert: Lieder (DG 453 481-2, изд. 1997)",
+      "singer": "Anne Sofie von Otter",
+      "year": 1996,
+      "label": "Deutsche Grammophon",
+      "facts": "D 300 — трек 12 (1:21). Год сессии 1996 принят по сквозной конвенции проекта (досье D 257, D 260).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 23 «Songs of 1816» (CDJ33023)",
+      "singer": "Christoph Prégardien",
+      "year": 1994,
+      "label": "Hyperion",
+      "facts": "Запись — сентябрь 1994, издание V.1995; пианист и автор комментариев — Graham Johnson. D 300 также вошла в антологию издания «A Voyage of Discovery» (1997).",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "Сравнительных обзоров (klassik-prisma «Vergleich», Gramophone Collection, MusicWeb, BBC Music Magazine blind test) именно по D 300 не найдено — песня короткая и в сравнительные рубрики не попадает.",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33023 — том 23 издания Джонсона (запись IX.1994): комментарий к песням 1816 года; в поисковой выдаче зафиксирована фраза о песне: «Much loved, and rightly so, is the unforgettable Salis-Seewis water-picture Der Jüngling an der Quelle» (страница-источник на hyperion-records.co.uk точно не идентифицирована).",
+    "https://www.classical-music.com/reviews/choral-song/selige-stunde — рецензия на альбом Кауфмана (критика игры Дойча).",
+    "https://www.concerti.de/rezensionen/jonas-kaufmann-selige-stunde/ — критическая рецензия (нем.).",
+    "https://www.prestomusic.com/classical/articles/3489--recording-of-the-week-jonas-kaufmann-helmut-deutsch-selige-stunde — хвалебная (маркетинговый контекст, фильтровать)."
+  ],
+  "negatives": [
+    "Квастхоф, Хоттер, Петер Андерс, Криста Людвиг — записи D 300 не найдены (MusicBrainz: 0 результатов по «Jüngling an der Quelle» + имя; дискография Грея по этой работе — 11 позиций, никого из них нет).",
+    "Также 0 результатов в MusicBrainz по этой песне: Goerne, Gerhaher, Fassbaender, Janet Baker, Wunderlich, Schreier, Souzay, Seefried, Streich, Grümmer, Bostridge, Krimmel, Edith Wiens (у последних трёх YouTube-загрузки есть, но альбом/год не установлены).",
+    "Souzay: в yt-выдаче есть сравнительный ролик «Fischer-Dieskau vs. Gérard Souzay» (JGWPBS4SFhI, фан), но коммерческая запись Сузе с D 300 в MusicBrainz/Discogs не подтверждена — нужен отдельный проход, если запись понадобится.",
+    "Роланд Хейз записал песню дважды для Columbia (30.10.1939 и 07.04.1942) — обе сессии остались НЕИЗДАННЫМИ (Грей).",
+    "D 300 отсутствует в шубертовских рециталах Амелинг на Philips (6500 704, 1974; 410 037-2 «An die Musik», 1983) — её единственная подтверждённая версия идёт с Etcetera-альбома 1983.",
+    "D 300 отсутствует в EMI-рециталах Бостриджа (Vol. 1, сессии II–III.1996; Vol. 2, 2001) и в авторской подборке Шварцкопф «Songbook» (EMI 1995).",
+    "Транскрипция для альта: Nils Mönkemeyer / Nicholas Rimmer (MusicBrainz) — не вокальная запись, для отбора не годится.",
+    "Метаданные YouTube-загрузок с датами («Schwarzkopf & Gerald Moore, 1962», «Ameling/Demus 1965», «Popp Зальцбург 10.08.1983») в качестве источника дат не использовались."
+  ]
+}

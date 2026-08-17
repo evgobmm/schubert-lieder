@@ -1,0 +1,427 @@
+{
+  "d": "691",
+  "title": "Die Vögel",
+  "research_notes": {
+    "tier": "medium (по факту фонда: ~14 значительных записей; песня короткая, 55–75 с, живёт в рециталах как бисовый/шлегелевский номер)",
+    "tools_limits": "WebSearch в сессии исчерпан (200/200) — веб-исследование велось точечными WebFetch по известным URL. Дискография Майкла Грея (classical-discography.org) в момент работы отдавала HTTP 500 на search2.php — часть дат (Baker ASD 2431, Raskin, Shirai) осталась неустановленной. Метаданные YouTube-загрузок недоступны (yt-dlp упирается в bot-check), поэтому привязка Topic-ID к альбому делалась по длительностям из MusicBrainz и по каналу.",
+    "text_author": "Friedrich von Schlegel — отсюда концентрация записей в «шлегелевских» программах (Hyperion т. 27, Eterna «Lieder nach Romantikern 2»)"
+  },
+  "candidates": [
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore",
+      "rec_year": 1948,
+      "year_source": "MusicBrainz recording e09fd72b-2394-4d93-aa3a-047cf2c7e325: relations vocal/instrument begin=1948-05-21, продюсер Walter Legge, инженер Douglas Larter. Совпадает с реестром проекта planning/youtube/albums/female-recitalists.md: «Schwarzkopf — Columbia 78s, Лондон 21.05.1948 (в боксе RLS 766 „The Early Years“)» [источник реестра — дискография Грея].",
+      "album": "Columbia 78 об. (Лондон, 21.05.1948); переиздания: EMI RLS 766 «Schubert Lieder on Record», Warner-компиляции («Perfect Prima Donna», «Lieder on Record 1898–2012», Schwarzkopf Edition)",
+      "label": "Columbia (EMI) / Warner Classics",
+      "age_voice": "33 года (р. 09.12.1915). Самое начало пика по дайджесту (1948–1964) и начало многолетней связки с Муром; голос свежий, ещё без поздней манерности, которую критики ставили в упрёк рециталам 1970-х.",
+      "reputation": "Приоритет №3 по правилам (топ-1 среди женщин). Специального сравнительного обзора именно D 691 не найдено; статус записи держится на каноническом отборе EMI — сторона вошла в историческую антологию «Schubert Lieder on Record» (RLS 766), что в реестре проекта прямо названо маркером канонического статуса записи. Скепсиса прессы к этой записи не обнаружено.",
+      "sources": [
+        "MusicBrainz recording e09fd72b-2394-4d93-aa3a-047cf2c7e325 (artist-relations с датой 1948-05-21)",
+        "planning/youtube/albums/female-recitalists.md — карточка «Schwarzkopf — Columbia 78s, Лондон 21.05.1948»",
+        "planning/youtube/albums.md — карточка «Schubert Lieder on Record 1898–1952 (EMI RLS 766)»",
+        "naxos.com/CatalogueDetail/?id=8.111287 — ОТРИЦАТЕЛЬНЫЙ результат: в Naxos Historical 8.111287 (Schwarzkopf/Edwin Fischer, 1952–54) Die Vögel НЕТ; дайджест ошибочно сводил все 78-е Шварцкопф 1948–54 к этому диску"
+      ],
+      "youtube": [
+        {"videoId": "nOBLfEzvTAc", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "TJULqOISM3Q", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "tau5eBHDNgg", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "cwcoKTL7cN8", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "nZuh7DCUWJM", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "mDqzLz4KLcA", "channel": "Gerald Moore - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Topic-каналов с этой песней у Шварцкопф шесть — это параллельные загрузки разных переизданий одной стороны 1948 г. (длительности 52–56 с; MB-длительность записи 52,6 с ближе всего к nOBLfEzvTAc). Рекомендуемый ID — nOBLfEzvTAc. ОТДЕЛЬНО: v7Yc3cDaAqc «Die Vögel, D. 691 (Live)» (ELISABETH SCHWARZKOPF - Topic, 55 с, живой) — иная, концертная запись; год концерта установить не удалось (ср. карточку реестра «Schubert & Wolf: Lieder (Live)», Orfeo ℗2019, где год концерта тоже не установлен). Для публикации предпочтительна документированная студийная 1948 г."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "MusicBrainz recording c4acb398-9786-4614-9b6d-8e48c23efd98: relations vocal (Fischer-Dieskau) и instrument piano (Moore) begin=1969-03; релизы — DG «Lieder, Volume II», «Complete Lieder Recordings on Deutsche Grammophon». Согласуется с реестром: свод DG «Sämtliche Lieder», сессии 1966–1972, Ufa-Ton-Studio Berlin.",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD; в LP-виде — бокс DG 2720 022 «Lieder Volume 2»)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 28.05.1925) — внутри пика (~1951–1972) по дайджесту: голос ещё полнозвучный, до «сухости» середины 1970-х.",
+      "reputation": "Приоритет №2 по правилам. Свод DG 1966–72 — базовый корпусный ориентир для всех мужских песен Шуберта (реестр, раздел «Сквозные издания»). Отдельного разбора D 691 в найденных источниках нет; ценность — эталонная дикция и лёгкость в очень короткой строфической пьесе.",
+      "sources": [
+        "MusicBrainz recording c4acb398-9786-4614-9b6d-8e48c23efd98",
+        "planning/research/singers-digest.md — «Fischer-Dieskau / Moore — DG „Sämtliche Lieder“, зап. 1966–72 (21 CD)»",
+        "planning/youtube/albums.md — карточки свода DG «Sämtliche Lieder»"
+      ],
+      "youtube": [
+        {"videoId": "3FkL_CEnQAg", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Eq1JfeoPdHw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "2w_PS0S2WdQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три Topic-загрузки одинаковой длительности (64 с) — параллельные переиздания одной сессии. Наиболее просматриваемая — 3FkL_CEnQAg."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Sviatoslav Richter",
+      "rec_year": 1977,
+      "year_source": "Discogs release 6858616 (Orfeo C 334 931 B, 1993), примечание на буклете: «Live recording of the Österreichischen Rundfunks (ORF) at the Kleines Festspielhaus, Salzburg, August, 29, 1977»; Die Vögel D 691 — трек 10. Совпадает с MusicBrainz recording cde1b88d-410a-45de-b9df-a928603dee55 (relations begin=1977-08-29).",
+      "album": "Schubert: Lieder — Liederabend, Зальцбургский фестиваль, Kleines Festspielhaus, 29.08.1977 (издание Orfeo d'Or C 334 931 B, 1993)",
+      "label": "Orfeo d'Or (запись ORF)",
+      "age_voice": "52 года — за пиком: по дайджесту с середины 1970-х тон суше; компенсируется концертной свободой и уникальным партнёрством с Рихтером.",
+      "reputation": "Один из самых обсуждаемых Liederabend'ов XX века (Фишер-Дискау + Рихтер). Конкретных рецензий именно на D 691 не найдено. Внимание: студийная параллель этого дуэта — DG 2530 988 (live «Fêtes musicales en Touraine», ℗1978) — Die Vögel НЕ содержит (проверено по Discogs release 4130628), так что зальцбургский Orfeo — единственный источник этой версии.",
+      "sources": [
+        "Discogs release 6858616 (Orfeo C 334 931 B) — трек-лист и примечание о дате/месте концерта",
+        "Discogs release 4130628 (DG 2530 988) — отрицательная проверка: Die Vögel отсутствует",
+        "MusicBrainz recording cde1b88d-410a-45de-b9df-a928603dee55"
+      ],
+      "youtube": [
+        {"videoId": "3Ka5ui7U0BI", "channel": "incontrario motu", "official": false, "oembed_ok": true},
+        {"videoId": "wxWFWMQdeGM", "channel": "Liedersoundarchive archive", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной (Topic/лейбловой) загрузки отдельным треком не найдено. 3Ka5ui7U0BI — полная фан-загрузка зальцбургского вечера (4606 с), не отдельный трек; wxWFWMQdeGM (60 с) — фан-трек «Die Vögel D.691 (Schlegel)», исполнитель в названии не указан, атрибуция НЕ подтверждена. Для публикации отдельным треком кандидат непригоден без дополнительного поиска."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Karl Alwin",
+      "rec_year": 1927,
+      "year_source": "Реестр проекта planning/youtube/albums/female-recitalists.md: «Schumann — HMV-сессия 14.11.1927 (Victor 6837 / HMV D 1411) — пианист Karl Alwin; Im Abendrot D 799, Die Vögel D 691, Die Post, Wohin? — матрицы 12011/12013 [Gray]; вошло в Naxos Historical 8.110731». Подтверждается MusicBrainz recording 41240b65-9055-4fd7-9da8-a2208d48bd52 (relations begin=1927-11-14).",
+      "album": "HMV D 1411 / Victor 6837 (78 об.); переиздания: Naxos Historical 8.110731, «Der Hirt auf dem Felsen & 48 Lieder», Warner «Icon»",
+      "label": "HMV / Victor; переизд. Naxos Historical, Warner",
+      "age_voice": "39 лет (р. 13.06.1888) — точно в пике (дайджест: 1920-е — сер. 1930-х). Лёгкое серебристое сопрано, идеальный тип голоса для этой порхающей песни.",
+      "reputation": "Приоритетная певица по правилам (п. 4). Дайджест называет её стиль эталонным; даты по её сессиям в проекте берутся по матрицам, а не по метаданным архивов (прецедент опечатки archive.org). Отдельного критического разбора D 691 не найдено.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md — карточка «Schumann — HMV-сессия 14.11.1927»",
+        "MusicBrainz recording 41240b65-9055-4fd7-9da8-a2208d48bd52",
+        "planning/research/singers-digest.md — карточка Schumann Elisabeth"
+      ],
+      "youtube": [
+        {"videoId": "aimIXRzd7cs", "channel": "Elisabeth Schumann & Karl Alwin - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "K1O6Y1Wa0HA", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "SXKhAXgaPmM", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "gHJ3Ip134VE", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ISN8R1QgpGc", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Все пять — параллельные переиздания одной стороны 1927 г. (56–57 с). Наиболее точный по кредитам канал — «Elisabeth Schumann & Karl Alwin - Topic» (aimIXRzd7cs)."
+    },
+    {
+      "singer": "Rita Streich",
+      "pianist": "Erik Werba",
+      "rec_year": 1960,
+      "year_source": "Реестр проекта: «Rita Streich — Rita Streich singt Lieder von Franz Schubert (DG LPM 18585), 1960 (℗; LP отпечатан 4/62)». Наличие песни на диске подтверждено по Discogs release 5698657 (стерео-вариант DG 138 047 SLPM): «B8 Die Vogel», аккомпанемент Erik Werba.",
+      "album": "Rita Streich singt Lieder von Franz Schubert (DG LPM 18585 / 138 047 SLPM)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "40 лет (р. 18.12.1920) — пик по дайджесту (1950-е — нач. 1960-х): «немецкий соловей», колоратурная лёгкость, ровное верхнее регистровое звучание.",
+      "reputation": "Значительный кандидат по типу голоса: песня птичья, лёгкая и высокая. Отдельных рецензий на D 691 не найдено; альбом — известный шубертовский рецитал DG-эпохи Верба (на нём же — Der Hirt auf dem Felsen с кларнетистом Heinrich Geuser).",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Rita Streich — Rita Streich singt Lieder von Franz Schubert (DG LPM 18585)»",
+        "Discogs release 5698657 (DG 138 047 SLPM) — трек-лист (B8 Die Vogel) и состав"
+      ],
+      "youtube": [
+        {"videoId": "IYh-QnffsUY", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "oeRO90Fm5oY", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "RGhy3IViKjo", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "IYh-QnffsUY — самая просматриваемая (2125). RGhy3IViKjo названа по опусу («6 Lieder, Op. Posth. 172: No. 6») — другое переиздание того же трека."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Gerald Moore",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Discogs release 5477181: HMV ASD 2431 «Lieder Recital» (Schubert/Wolf/R. Strauss), сторона A3 — «Die Vögel, D. 691», примечание конверта «℗1968». Сессия по буклету не проверена; дискография Грея в момент работы недоступна (search2.php отдаёт HTTP 500). Предполагаемый диапазон для поля year: «1967–68?».",
+      "album": "Janet Baker: Lieder Recital (HMV ASD 2431)",
+      "label": "HMV / EMI → Warner Classics",
+      "age_voice": "около 35 лет (р. 21.08.1933) — вход в пик (дайджест: ~1965–1982); тёплое, ровное меццо.",
+      "reputation": "Дайджест относит Бейкер к сильнейшим шубертианкам поколения. ВАЖНО: Die Vögel НЕТ на её знаменитом 2-LP EMI 1970 (проверено по Discogs release 14136174 — полный трек-лист EMI-свода без D 691) — то есть песня существует у неё только в рецитале ASD 2431.",
+      "sources": [
+        "Discogs release 5477181 (HMV ASD 2431) — трек-лист и ℗1968",
+        "Discogs release 14136174 (EMI 7243 5 86251 2, «Schubert: Lieder», 2-CD свода 1970) — отрицательная проверка",
+        "planning/research/singers-digest.md — карточка Baker Janet"
+      ],
+      "youtube": [
+        {"videoId": "rmLEm3THFeA", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "-qP1alOvdEY", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Обе загрузки — Warner Topic, 58–59 с. Год требует доисследования (буклет Warner-бокса «Janet Baker: The Great EMI Recordings» либо дискография Грея, когда сайт заработает)."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Jörg Demus (Hammerflügel)",
+      "rec_year": 1965,
+      "year_source": "Discogs release 9154248 (Harmonia Mundi HMS 30 696 «Schubertiade»): примечание конверта «Recording: June 1965 at Cedernsaal Schloß Kirchheim by Südwest-Tonstudio H. Jansen, Stuttgart»; Die Vögel — B5. Совпадает с карточкой реестра «Ameling — Der Hirt auf dem Felsen и др. (Harmonia Mundi HM 30 696, зап. 1965, Schloss Kirchheim)».",
+      "album": "Schubertiade (Harmonia Mundi HM/HMS 30 696)",
+      "label": "Harmonia Mundi (Германия)",
+      "age_voice": "32 года (р. 08.02.1933) — до основного пика (~1965–1985), но голос уже сформирован; ранняя её шубертовская пластинка, на историческом фортепиано.",
+      "reputation": "Дайджест: самая записываемая шубертианка поколения. Отдельных рецензий на D 691 не найдено; интерес — периодный инструмент Демуса и юный тембр.",
+      "sources": [
+        "Discogs release 9154248 (Harmonia Mundi HMS 30 696) — дата, место, трек-лист",
+        "planning/youtube/albums/female-recitalists.md — карточка «Ameling — Der Hirt auf dem Felsen и др. (HM 30 696)»"
+      ],
+      "youtube": [
+        {"videoId": "OLRsd_Leb08", "channel": "Roberto Gini", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной загрузки не найдено; фан-ролик (75 с с тишиной) прямо подписан «Elly Ameling, Jörg Demus, 1965» — атрибуция согласуется с диском, но канал не официальный."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": 1973,
+      "year_source": "MusicBrainz recording 037aace6-2e64-441f-9500-01595295b3e4: relations vocal/instrument begin=1973-08. Совпадает с реестром: «Ameling — Philips-серия с Dalton Baldwin: „Schubert Lieder“ 6500 704 (зап. 21–26.08.1973)» [Gray].",
+      "album": "Schubert: Lieder (Philips 6500 704); переизд. «Philips Classics: The Stereo Years», Eloquence «The Philips Recitals»",
+      "label": "Philips / Universal",
+      "age_voice": "40 лет — середина пика; голос полнее и технически увереннее, чем в 1965 г.",
+      "reputation": "Философия серии Ameling/Baldwin — образцовая ясность и фразировка; серия — сквозной ресурс проекта. Отдельного разбора D 691 не найдено.",
+      "sources": [
+        "MusicBrainz recording 037aace6-2e64-441f-9500-01595295b3e4",
+        "planning/youtube/albums/female-recitalists.md — карточка «Ameling — Philips-серия с Dalton Baldwin»"
+      ],
+      "youtube": [
+        {"videoId": "cXJAAlmIm3A", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Byz7bGqtoxU", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "2EJWHTkZbVw", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "WO6E3d1rKLw", "channel": "bert muzieklexicon", "official": false, "oembed_ok": true}
+      ],
+      "note": "Topic-длительность 60–61 с совпадает с MB-длительностью записи Ameling/Baldwin (60,04 с) — привязка к сессии 1973 г. надёжна. cXJAAlmIm3A — самая просматриваемая."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Graham Johnson",
+      "rec_year": 1995,
+      "year_source": "MusicBrainz recording 0aefb970-ed9a-44b3-9c17-6b67bc0c0f7d: relations begin=1995-03-09, релиз — «The Hyperion Schubert Edition, Volume 27: Schubert & the Schlegels» (1996-11). Страница Hyperion CDJ33027: «Recording details: March 1995, Rosslyn Hill Unitarian Chapel, Hampstead, London; produced by Mark Brown & Martin Compton; engineered by Tony Faulkner & Antony Howell; release date November 1996».",
+      "album": "The Hyperion Schubert Edition, Vol. 27 «Schubert & the Schlegels» (CDJ33027)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "27–28 лет (р. 31.03.1967) — задолго до пика (~1997–2015); молодой, лёгкий баритон, ещё без позднейшей плотности.",
+      "reputation": "Рецензии на том (страница Hyperion CDJ33027): «Another jewel in the Schubert Edition crown» (BBC Music Magazine); «A most valuable addition to the series, one of the most important achievements in the history of recording» (Classic CD); «Wonderfully sung» (Hi-Fi News); «superb singing, magnificent accompanying… Graham Johnson's notes are as meticulous as his playing» (Musical Opinion); «Matthias Görne est déjà un grand liedersänger» (Répertoire). Оценки альбомные, не по D 691. Ценность позиции — «научный эталон» издания с комментариями Джонсона плюс полный шлегелевский контекст песни.",
+      "sources": [
+        "hyperion-records.co.uk/dc.asp?dc=D_CDJ33027 — даты сессий, состав, блок Reviews",
+        "MusicBrainz recording 0aefb970-ed9a-44b3-9c17-6b67bc0c0f7d"
+      ],
+      "youtube": [
+        {"videoId": "yQjoos6xok4", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальное audio под каналом пианиста (Graham Johnson - Topic) — типично для Hyperion-загрузок Universal; длительность 66 с совпадает с MB (65 с). Отдельного Topic-канала Гёрне для этого трека нет."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН точно. MusicBrainz recording b6f9ebb1-39ab-437b-8b96-41d42850b031 → релиз «Lieder Recital» (Onyx Classics ONYX 4149), дата релиза 2016 (в реестре — 20.05.2016 [MB]). Дата сессии по буклету не проверена. Для поля year — «2016» по конвенции проекта (год издания при недокументированной сессии).",
+      "album": "Schubert: Lieder Recital (ONYX 4149), 24 песни",
+      "label": "Onyx Classics",
+      "age_voice": "около 44–45 лет (р. 1971) — внутри пика (~2010–наст.); дайджест характеризует его как «рассказчика венской школы».",
+      "reputation": "Альбом уже используется проектом (D 805, D 806, D 225, D 257). Скепсис к современной прессе применим: специальных наград у диска в реестре не зафиксировано, конкретных цитат по D 691 не найдено.",
+      "sources": [
+        "MusicBrainz recording b6f9ebb1-39ab-437b-8b96-41d42850b031",
+        "planning/youtube/albums.md и albums/male-recitalists.md — карточки «Boesch — Lieder Recital (Onyx Classics ONYX4149)»"
+      ],
+      "youtube": [
+        {"videoId": "S39y239e7Hg", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный найденный современный мужской кандидат с официальным audio; длительность 66 с совпадает с MB (65,96 с)."
+    },
+    {
+      "singer": "Ashley Riches",
+      "pianist": "Joseph Middleton",
+      "rec_year": 2020,
+      "year_source": "Страница Chandos CHAN 20184 «A Musical Zoo»: запись 29 июня — 1 июля 2020, Potton Hall, Dunwich, Suffolk; продюсер/инженер Jonathan Cooper; Die Vögel — трек 2 (1:13). Релиз 2021 (Discogs release 27471510, MusicBrainz 183675e8).",
+      "album": "A Musical Zoo (Chandos CHAN 20184)",
+      "label": "Chandos",
+      "age_voice": "молодой бас-баритон в начале зрелости; в дайджесте фонда карточки нет — данных о вокальном спаде/пике по источникам нет.",
+      "reputation": "MusicWeb-International: «Ashley Riches' singing and Joseph Middleton's playing are superb throughout and their programme has been discerningly constructed»; BBC Music Magazine: «possesses a natural authority that never has to strive for effect, and his warm, supple bass-baritone is eminently „grounded“»; Gramophone: «both he and pianist Joseph Middleton take a robust approach to the animal world» (цитаты — со страницы Chandos, т. е. подборка лейбла: применять правило скепсиса к пиару). Программа концептуальная («музыкальный зоопарк»), не шубертовский рецитал.",
+      "sources": [
+        "chandos.net/products/catalogue/CHAN 20184 — даты сессий, место, трек-лист, цитаты прессы",
+        "MusicBrainz recording 183675e8-ddbc-4bb4-8241-384a024b7a03",
+        "Discogs release 27471510"
+      ],
+      "youtube": [
+        {"videoId": "b5rOx7PZbho", "channel": "Ashley Riches - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный кандидат «не ранее 2015» с полностью документированной датой сессии. Самая медленная трактовка в пуле (74 с)."
+    },
+    {
+      "singer": "Mitsuko Shirai",
+      "pianist": "Hartmut Höll",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Загрузка на «Mitsuko Shirai - Topic» относится к её шубертовской серии Capriccio с Хартмутом Хёллем; конкретный том не идентифицирован — проверенный Capriccio-сборник 10 171 (Discogs release 22405735) Die Vögel НЕ содержит, а карточка реестра «Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio, ℗1997)» по опусной логике исключает D 691 (op. posth. 172). Требуется доисследование тома.",
+      "album": "Capriccio, шубертовская серия Ширай/Хёлля (том не идентифицирован)",
+      "label": "Capriccio",
+      "age_voice": "данных по источникам проекта нет (в дайджесте фонда карточки Ширай нет).",
+      "reputation": "Ширай/Хёлль — уважаемая песенная пара 1980–90-х, но в фонде проекта не описана; критических оценок по D 691 не найдено. Второстепенный кандидат.",
+      "sources": [
+        "yt-check: wWMDEWBqK3Y — «Mitsuko Shirai - Topic»",
+        "Discogs release 22405735 (Capriccio 10 171) — отрицательная проверка трек-листа",
+        "planning/youtube/albums.md — карточка «Mitsuko Shirai — Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio, ℗1997)»"
+      ],
+      "youtube": [
+        {"videoId": "wWMDEWBqK3Y", "channel": "Mitsuko Shirai - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Без установленного года и без критической опоры — в пятёрку по правилам не проходит, кроме как при нехватке кандидатов."
+    },
+    {
+      "singer": "Judith Raskin",
+      "pianist": "George Schick",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. MusicBrainz recording 1d25e957 → релиз «Lieder» 1996-04-16 (компиляция Sony SBK 62 422, Discogs release 2814783, Die Vögel — трек 10). Оригинальная сессия Columbia (Raskin/Schick) — середина 1960-х, дискографически не подтверждена (дискография Грея недоступна).",
+      "album": "оригинал — LP Columbia (Раскин/Шик); переизд. Sony Classical SBK 62 422 (1996)",
+      "label": "Columbia / Sony Classical",
+      "age_voice": "Джудит Раскин (1928–1984) — светлое лирическое сопрано; в фонде проекта карточки нет.",
+      "reputation": "Второстепенный американский кандидат; критических оценок по D 691 не найдено.",
+      "sources": [
+        "MusicBrainz recording 1d25e957-5e0e-4929-abf8-1d870eaa2037",
+        "Discogs release 2814783 (Sony SBK 62 422) — трек-лист"
+      ],
+      "youtube": [
+        {"videoId": "4UC5w95W094", "channel": "Judith Raskin - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Официальное audio есть, но год не документирован."
+    },
+    {
+      "singer": "Eberhard Büchner",
+      "pianist": "Norman Shetler",
+      "rec_year": 1985,
+      "year_source": "Discogs release 10628869: Eterna 8 27 904 «Lieder nach Romantikern 2», год 1985; Die Vögel op. 172 Nr. 6 D 691 — трек A1 (текст Friedrich von Schlegel). Год издания LP; дата сессии по буклету не проверена.",
+      "album": "Schubert: Lieder nach Romantikern 2 (Eterna 8 27 904)",
+      "label": "VEB Deutsche Schallplatten Eterna (ныне Berlin Classics)",
+      "age_voice": "около 46 лет (р. 1939) — зрелый лирический тенор ГДР-школы; в дайджесте фонда карточки нет.",
+      "reputation": "Ценность — цельная шлегелевская программа (Die Vögel, Der Knabe, Die Gebüsche, Im Walde, Fülle der Liebe), то есть тот же контекст, что у Hyperion т. 27. Критических оценок не найдено.",
+      "sources": [
+        "Discogs release 10628869 (Eterna 8 27 904) — трек-лист, год",
+        "MusicBrainz recording d1f3e9aa-92af-455c-8787-ad73221c7492 (Büchner/Shetler, 67 с)"
+      ],
+      "youtube": [],
+      "note": "На YouTube трек не найден — кандидат непубликуемый."
+    },
+    {
+      "singer": "Violeta Urmana",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН — только фан-загрузка без дискографической привязки; в MusicBrainz записи нет.",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "нет данных в источниках проекта.",
+      "reputation": "Урмана — прежде всего оперная певица (Верди/Вагнер); шубертовского песенного статуса в фонде проекта нет. Кандидат маргинальный.",
+      "sources": [
+        "yt-check: iOGPJLSu0R0 — канал «Incanto» (не официальный)"
+      ],
+      "youtube": [
+        {"videoId": "iOGPJLSu0R0", "channel": "Incanto", "official": false, "oembed_ok": true}
+      ],
+      "note": "Ни года, ни пианиста, ни лейбла — по правилам верификации к публикации не годится."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "НЕТ. Дискография Квастхофа закрыта в 2012 г. и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95; Winterreise RCA 1998; Schwanengesang DG 2001; Lieder с оркестром DG 2003; Müllerin DG 2005; Winterreise-фильм DG 2005) — шлегелевских песен среди них нет [planning/research/singers-digest.md]. В MusicBrainz (work f4331782-9c17-3812-a4f8-e0872f13d1fc, 15 записей) его нет; поиск yt-dlp «Schubert Die Vögel Quasthoff» выдаёт только чужие ролики.",
+    "Fischer-Dieskau": "ДА, дважды. (1) DG «Sämtliche Lieder» с Муром, сессия III.1969 [MusicBrainz c4acb398, relations begin=1969-03]. (2) Live Зальцбург, Kleines Festspielhaus, 29.08.1977, со Святославом Рихтером, издание Orfeo d'Or C 334 931 B (1993) [Discogs release 6858616, примечание буклета].",
+    "Schwarzkopf": "ДА. Columbia 78 об., Лондон, 21.05.1948, Джеральд Мур, продюсер Walter Legge [MusicBrainz e09fd72b + реестр albums/female-recitalists.md по дискографии Грея]. Есть также концертная версия на её Topic-канале (v7Yc3cDaAqc, «Live»), год концерта не установлен. ВАЖНО: на диске с Эдвином Фишером (Naxos Historical 8.111287, 1952–54) песни НЕТ [naxos.com].",
+    "Hotter": "НЕТ. В MusicBrainz среди 15 записей D 691 его нет; поиск yt-dlp «Schubert Die Vögel Hotter» релевантных результатов не дал. Репертуарно ожидаемо: лёгкая высокая строфическая песня вне его амплуа.",
+    "Anders": "НЕТ. Отсутствует в MusicBrainz-списке записей D 691; yt-dlp «Schubert Die Vögel Peter Anders» — только чужие ролики. Его шубертовское наследие в дайджесте — три цикла (Winterreise 1945, Müllerin 1945/1948).",
+    "E. Schumann": "ДА. HMV-сессия 14.11.1927 с Карлом Альвином (HMV D 1411 / Victor 6837, матрицы 12011/12013 по Грею), переизд. Naxos Historical 8.110731 [planning/youtube/albums/female-recitalists.md; MusicBrainz 41240b65, relations begin=1927-11-14].",
+    "Ludwig": "НЕТ. В MusicBrainz-списке записей D 691 отсутствует; yt-dlp «Schubert Die Vögel Christa Ludwig» выдаёт другие её шубертовские треки (D 745, D 531, D 686, D 652), но не D 691.",
+    "Popp": "НЕТ для D 691. Попп записала соседние шлегелевские песни — Der Knabe D 692 и Fülle der Liebe D 854 с Ирвином Гейджем (EMI, сессии 1–6.11.1983, Abbey Road) [реестр albums/female-recitalists.md; YouTube «Lucia Popp - Topic», 42CzKAFOjsA — Der Knabe D 692], но Die Vögel в её дискографии не обнаружена: нет в MusicBrainz-списке записей D 691, нет на её Topic-канале."
+  },
+  "albums_facts": [
+    {
+      "album": "Columbia 78 об., лондонские сессии 21.05.1948 (переизд. EMI RLS 766 «Schubert Lieder on Record»)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": 1948,
+      "label": "Columbia (EMI) / Warner Classics",
+      "facts": "Пианист Gerald Moore, продюсер Walter Legge, инженер Douglas Larter (MusicBrainz artist-relations). Начало связки Шварцкопф–Мур. Уточнение к дайджесту: диск Naxos Historical 8.111287 — это программа 1952–54 с Эдвином Фишером, и Die Vögel там НЕТ (проверено по naxos.com).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1969,
+      "label": "Deutsche Grammophon",
+      "facts": "Сессии свода 1966–1972, Ufa-Ton-Studio Berlin; конкретно D 691 — март 1969 (MusicBrainz relations). Пианист Gerald Moore, продюсеры Rainer Brock, Otto Gerdes (исполнительный), баланс Hans-Peter Schweigmann.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder — Liederabend Зальцбург, 29.08.1977 (Orfeo d'Or C 334 931 B, изд. 1993)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1977,
+      "label": "Orfeo d'Or (лента ORF)",
+      "facts": "Kleines Festspielhaus, Зальцбург; за роялем Святослав Рихтер; 23 номера, включая 5 бисов; ADD, 76'51 (примечание буклета по Discogs release 6858616). Die Vögel — трек 10. Не путать с DG 2530 988 (live «Fêtes musicales en Touraine», ℗1978) — там этой песни нет.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV D 1411 / Victor 6837, сессия 14.11.1927",
+      "singer": "Elisabeth Schumann",
+      "year": 1927,
+      "label": "HMV / Victor; переизд. Naxos Historical 8.110731, Warner «Icon»",
+      "facts": "Пианист Karl Alwin (муж певицы в 1920–1938). В сессии — Im Abendrot D 799, Die Vögel D 691, Die Post, Wohin?; матрицы 12011/12013 (дискография Грея, через реестр проекта).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Rita Streich singt Lieder von Franz Schubert (DG LPM 18585 / 138 047 SLPM)",
+      "singer": "Rita Streich",
+      "year": 1960,
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Erik Werba; кларнет Heinrich Geuser в Der Hirt auf dem Felsen. 17 номеров; Die Vögel — B8 (Discogs release 5698657). ℗1960, LP отпечатан 4/62.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Janet Baker: Lieder Recital (HMV ASD 2431)",
+      "singer": "Janet Baker",
+      "year": null,
+      "label": "HMV / EMI → Warner Classics",
+      "facts": "НОВАЯ КАРТОЧКА для реестра. Пианист Gerald Moore; сторона A — шесть песен Шуберта (D 504, D 806, D 691, D 677, D 808, D 807), сторона B — Вольф (Spanisches Liederbuch) и Р. Штраус; ℗1968 (Discogs release 5477181). Год сессии не установлен. Die Vögel НЕТ на её 2-LP EMI 1970 (Discogs 14136174).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubertiade (Harmonia Mundi HM/HMS 30 696)",
+      "singer": "Elly Ameling",
+      "year": 1965,
+      "label": "Harmonia Mundi (Германия)",
+      "facts": "Запись июнь 1965, Cedernsaal Schloß Kirchheim, Südwest-Tonstudio H. Jansen (Штутгарт); Jörg Demus (Hammerflügel), кларнет Hans Deinzer (Der Hirt auf dem Felsen). Die Vögel — B5. Уточняет карточку реестра: теперь известны месяц и точный состав программы (Discogs release 9154248).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Philips 6500 704)",
+      "singer": "Elly Ameling",
+      "year": 1973,
+      "label": "Philips / Universal",
+      "facts": "Сессии 21–26.08.1973 (реестр по Грею); MusicBrainz даёт 1973-08 для D 691, продюсер Wilhelm Hellweg. Пианист Dalton Baldwin. Переиздания: «Philips Classics: The Stereo Years» (2016), Eloquence «The Philips Recitals».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 27 «Schubert & the Schlegels» (CDJ33027)",
+      "singer": "Matthias Goerne (на диске также Christine Schäfer)",
+      "year": 1995,
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Запись март 1995, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; продюсеры Mark Brown и Martin Compton, инженеры Tony Faulkner и Antony Howell; релиз ноябрь 1996; TT 77'04. Пианист и автор комментариев — Graham Johnson. Отзывы: BBC Music Magazine, Classic CD, Hi-Fi News, Musical Opinion, Répertoire (цитаты — в карточке кандидата). Ключевой сквозной том для всех шлегелевских песен корпуса (D 646, D 649, D 691, D 692, D 708, D 711, D 712, D 854 и др.).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Recital (ONYX 4149)",
+      "singer": "Florian Boesch",
+      "year": 2016,
+      "label": "Onyx Classics",
+      "facts": "24 песни, пианист Malcolm Martineau; релиз 20.05.2016. Альбом уже в реестре проекта (D 805, D 806, D 225, D 257) — теперь установлено, что он содержит и D 691. Год сессии по-прежнему не документирован.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "A Musical Zoo (Chandos CHAN 20184)",
+      "singer": "Ashley Riches",
+      "year": 2020,
+      "label": "Chandos",
+      "facts": "НОВАЯ КАРТОЧКА для реестра. Запись 29.06–01.07.2020, Potton Hall, Dunwich, Суффолк; пианист Joseph Middleton; продюсер и инженер Jonathan Cooper; релиз 26.02.2021. Die Vögel — трек 2 (1:13). Программа — «звериные» песни разных композиторов (Шуберт, Форе, Равель и др.).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder nach Romantikern 2 (Eterna 8 27 904)",
+      "singer": "Eberhard Büchner",
+      "year": 1985,
+      "label": "Eterna (VEB Deutsche Schallplatten) → Berlin Classics",
+      "facts": "НОВАЯ КАРТОЧКА для реестра. Пианист Norman Shetler; сторона A — шесть песен на тексты Фридриха Шлегеля (D 691, D 692, D 646, D 708, D 854, D 649), сторона B — А. В. Шлегель и Новалис. Die Vögel — A1. Год — по изданию LP (Discogs release 10628869).",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "hyperion-records.co.uk/dc.asp?dc=D_CDJ33027 — страница Hyperion Schubert Edition, т. 27 «Schubert & the Schlegels»: даты сессий, состав, подборка рецензий (BBC Music Magazine, Classic CD, Hi-Fi News, Musical Opinion, Soundscapes, Répertoire, CD Compact) и комментарии Грэма Джонсона о братьях Шлегель. Единственный найденный «эталонный» ресурс по этой песне.",
+    "chandos.net/products/catalogue/CHAN 20184 — страница «A Musical Zoo» (Riches/Middleton) с цитатами MusicWeb-International, BBC Music Magazine и Gramophone (подборка лейбла; применять правило скепсиса к пиару).",
+    "naxos.com/CatalogueDetail/?id=8.111287 — использована как отрицательная проверка состава диска Шварцкопф/Эдвин Фишер (1952–54)."
+  ],
+  "negatives": [
+    "Сравнительный обзор именно D 691 не найден: страница klassik-prisma.de по этой песне отдаёт 404 (проверен адрес /Lieder/DieVoegel.htm); слепых тестов, Gramophone/MusicWeb/BBC Music Magazine «сравнений» по D 691 обнаружить не удалось. Лимит WebSearch в сессии исчерпан (200/200) — обзоры стоит доискать в следующей сессии.",
+    "Дискография Майкла Грея (classical-discography.org) в момент работы возвращала HTTP 500 на search2.php — из-за этого не установлены годы сессий: Baker/Moore (HMV ASD 2431, известно только ℗1968), Raskin/Schick (Columbia), Boesch/Martineau (Onyx 4149), Shirai/Höll (Capriccio).",
+    "Метаданные YouTube (артист/альбом/год) через yt-dlp недоступны: и стандартный, и tv_embedded-клиенты упираются в «Sign in to confirm you're not a bot»; страницы watch через curl отдают вёрстку без shortDescription. Привязка Topic-ID к конкретной сессии делалась по каналу + сверке длительности с MusicBrainz.",
+    "Hyperion: Die Vögel НЕ значится в томе 29 «Schubert in 1819 & 1820» (Lipovšek) — песня, хотя и написана в марте 1820 г., отнесена издателем в «шлегелевский» том 27 (по MusicBrainz-привязке записи Гёрне/Джонсона к CDJ33027).",
+    "Naxos Deutsche Schubert-Lied-Edition: том с D 691 идентифицировать не удалось (поиск по Discogs упёрся в лимит 429); в MusicBrainz записи Naxos DSLE для этой песни нет.",
+    "У Шуберта D 691 соседствует с Der Knabe D 692 на тот же текст Ф. Шлегеля — поисковая выдача YouTube регулярно подсовывает D 692 (напр. Popp/Gage, qcHADuDv6_Q и 42CzKAFOjsA); эти ролики к D 691 отношения не имеют.",
+    "Отсутствуют записи D 691 у Hotter, Anders, Ludwig, Quasthoff, Popp (подробности — в priority_singers_checked). Также не найдено у Prégardien, Hasselhorn, Sampson, Konradi — то есть современных кандидатов после 2015 г. в пуле всего один (Riches, 2020).",
+    "Ролики без дискографической привязки, к публикации непригодны: iOGPJLSu0R0 (Violeta Urmana, канал Incanto), wxWFWMQdeGM (Liedersoundarchive — исполнитель не указан), DTO7a7Pzj9A / MYyeNbVIqpg / QhN_ulkVFWU / DrywZhudiuI / J7Sbj7iavkQ (студенческие и любительские исполнения), EINBL17kBak (только аккомпанемент), а также хоровая аранжировка Chor-Farmer (MusicBrainz fe75f18e) и переложение для виолончели Queyras/Tharaud (harmonia mundi, сессия I.2006 — не вокальная версия)."
+  ]
+}

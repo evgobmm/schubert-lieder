@@ -164,7 +164,7 @@ YT: скромно; Hyperion — official audio с 2023 (digest, раздел р
 Серия BIS с Joseph Middleton. YT: хорошо, BIS Topic + Wigmore (digest).
 
 - **Sampson — A Soprano's Schubertiade (BIS-2343, зап. авг. 2017, изд. 10.04.2018 [albums.md/MB])** — Middleton; Gretchen, Gretchens Bitte, песни Эллен D 837–839, Der liebliche Stern D 861 (albums.md); YT: BIS Topic.
-- **Sampson — Elysium: A Schubert Recital (BIS, зап. 21–23.09.2020, Potton Hall, изд. 03.03.2023 [albums.md/MB])** — Middleton; программа о загробном блаженстве, вкл. Die junge Nonne D 828; YT: BIS Topic.
+- **Sampson — Elysium: A Schubert Recital (BIS, зап. в ДВЕ сессии: 21–23.09.2020 и 06–08.07.2021, Potton Hall, изд. 03.03.2023 [MB, релиз 465623b3, по-трековые work-relations])** — Middleton; программа о загробном блаженстве, вкл. Die junge Nonne D 828; YT: BIS Topic. Год трека — по его сессии: 2020 — только D 762, D 939, D 343; 2021 — остальные 14 (D 544, D 193, D 774, D 828, D 448, D 827, D 259, D 497, D 764, D 861, D 867, D 776, D 584, D 829).
 - **Sampson — Schubert's Four Seasons (BIS, зап. ?, изд. 04.04.2025 [MB])** — Middleton, кларнет Michael Collins; третий шубертовский альбом серии — новая находка, в пилотном реестре отсутствовал; YT: BIS Topic?.
 
 ### Fink Bernarda (меццо, р. 1955)

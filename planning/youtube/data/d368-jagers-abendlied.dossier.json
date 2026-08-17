@@ -1,0 +1,439 @@
+{
+  "d": "368",
+  "title": "Jägers Abendlied (D 368)",
+  "research_note": "Бюджет WebSearch сессии был исчерпан до начала работы (200/200) — веб-исследование велось только адресными WebFetch (hyperion-records.co.uk, klassik-prisma.de, oxfordsong.org) плюс MusicBrainz API (browse по work 0b90ff93-0486-325f-a5e7-95ffb6bf69ae) и локальный реестр альбомов. Discogs API из контейнера в этой сессии отдавал только 'You are making requests too quickly' — Discogs как источник не использован. Все даты — из реестра альбомов проекта, буклетных примечаний, страниц Hyperion и MB-релизов; метаданные YouTube-загрузок (release_year в yt-dlp) источником даты НЕ считались, приведены только как справка. Внимание на омоним: D 215 — первая редакция «Jägers Abendlied», её записи (Kalpers 07fwxNbR8jQ, Graham Johnson KOKFrCLhKqg, Bettina Pahn XkesJ82wOQk) в пул не включены.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "DG «Schubert: Sämtliche Lieder», сессии 1966–1972, Ufa-Ton-Studio Berlin; проектная конвенция сквозной унификации — 1969 для всех песен свода (planning/youtube/albums/complete-editions.md, раздел 3). Точная сессия именно D 368 в проекте не выделена. Справка: метаданные Topic-загрузки дают release_year 1970 (LP-эдиция Vol. 1, DG 2720 006) — не источник даты записи.",
+      "album": "Schubert: Sämtliche Lieder (Vol. 1, DG 2720 006 / 643 547–58); D 368 на CD-переизданиях DG «Lieder» и «Complete Lieder Recordings on Deutsche Grammophon» (2022)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 28.05.1925). Дайджест: пик ~1951–1972 — свод сделан на исходе пика, голос ещё полный, техника в зените; сушь тона приходит с середины 1970-х.",
+      "reputation": "Базовая точка отсчёта для любой мужской песни Шуберта: единственный полный свод ~400+ «мужских» песен одним певцом (женские, включая D 118, сознательно исключены). Проектный реестр называет его «базовой точкой отсчёта». Специальной критики именно по D 368 не найдено — сравнительной страницы песни нет ни у klassik-prisma, ни в найденных обзорах.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md, раздел 3 (Fischer-Dieskau / Moore — Schubert: Sämtliche Lieder, DG, зап. 1966–1972)",
+        "MusicBrainz recording 420cac55-f264-4eb6-88c3-d940eb2f4cdb (Dietrich Fischer-Dieskau, Gerald Moore — 2:41), релизы «Lieder», «Complete Lieder Recordings on Deutsche Grammophon» 2022-10-28"
+      ],
+      "youtube": [
+        {"videoId": "7aa5ZyMaKXQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "TUNqhiKQ53c", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "На Topic-канале свод продублирован несколькими компиляциями; 7aa5ZyMaKXQ — самая просматриваемая (≈5000), TUNqhiKQ53c — дубль с того же мастера (161 с). Приоритет №2 по иерархии правил."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": 1959,
+      "year_source": "Карточка реестра: DG SLPM 138 117 «Ein Schubert-Goethe-Liederabend», запись 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960 (planning/youtube/albums.md). Метаданные Topic дают 1960 — это год издания LP, не сессии.",
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117); переизд. DG «The Originals» 457 747-2, компиляции «Goethe-Lieder», «Récital Schubert-Goethe» (моно и стерео версии)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года. Ровно в середине пика (~1951–1972): голос свежее и мягче, чем в своде 1966–72, дикция уже полностью сформирована.",
+      "reputation": "Полностью гётевская программа из 12 номеров, переиздана в престижной серии DG «The Originals» — косвенный, но устойчивый маркер канонического статуса. Отдельных рецензий на D 368 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Dietrich Fischer-Dieskau — Ein Schubert-Goethe-Liederabend (DG SLPM 138 117), запись 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960»",
+        "MusicBrainz recording 64f8009f-7be8-4a5d-9579-63884435de37 (Fischer-Dieskau, Demus — 2:32), релизы «Goethe-Lieder» 1999, «The Originals: Legendary Recordings Vol. 2» 2016, «Complete Lieder Recordings on DG» 2022"
+      ],
+      "youtube": [
+        {"videoId": "eYmh46BIC94", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Z8uQRh-madg", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "GatK1cmJ6Vo", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "FSWHdKOwGrg", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Четыре официальные загрузки одной сессии: eYmh46BIC94 — компиляция «Schubert: Goethe Lieder» (наибольший охват, ≈3400), Z8uQRh-madg — «Récital Schubert et Goethe (Stereo Version)», GatK1cmJ6Vo — моно-вариант (149 с), FSWHdKOwGrg — «Fischer-Dieskau Lieder A–Z». Если брать эту запись, предпочтительна eYmh46BIC94 либо стерео Z8uQRh-madg."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Günther Weißenborn",
+      "rec_year": 1954,
+      "year_source": "Карточка реестра: Audite 95.583 «Schubert: Lieder Collection — WDR The Cologne Broadcasts», радиозапись WDR Köln 1954, издание 2007; примечание релиза «Recorded Cologne, 1954» (planning/youtube/albums.md). MusicBrainz-релиз назван «Lieder Collection: Erlkönig / Schwanengesang / Wandrers Nachtlied (Cologne, 1954)», дата издания 2007-02-14.",
+      "album": "Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583)",
+      "label": "Audite (оригинал — WDR Köln)",
+      "age_voice": "29 лет. Ранний пик: голос самый свежий и лёгкий из трёх его версий D 368, но интерпретация ещё не так детализирована, как в 1959/1969.",
+      "reputation": "Ценность прежде всего документальная — ранние кёльнские радиозаписи в реставрации Людгера Бёкенхоффа (Audite). Отдельных сравнительных оценок D 368 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Dietrich Fischer-Dieskau — Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583), 1954»",
+        "MusicBrainz recording 0dd60f69-f1f3-41e0-9ea6-29d6ead040f5 (Fischer-Dieskau, Weißenborn — 3:00)"
+      ],
+      "youtube": [
+        {"videoId": "a7uNC7KfbPk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая длинная из версий Ф.-Д. (3:00 против 2:32–2:41) — заметно более медленный темп. Охват мал (≈260 просмотров)."
+    },
+    {
+      "singer": "Peter Anders",
+      "pianist": "не установлен (по дайджесту его шубертовские радиозаписи — Michael Raucheisen, RRG Берлин, 1944–45; послевоенные — Günther Weissenborn, 1948) — требует доисследования",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Единственный доступный ориентир — метаданные Topic-загрузки: альбом «Lieder nach Texten von Goethe», ℗-год 2008 (год переиздания, не сессии; по правилам не источник). Записи в MusicBrainz-работе D 368 нет. Дайджест певцов: Anders погиб 10.09.1954, его шубертовский фонд — радиозаписи RRG/Raucheisen 1944–45 и послевоенные с Weissenborn 1948. Год предположительно в диапазоне 1944–1950; по правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» кандидат на публикацию с year-строкой вида \"1944–50?\" после целевого доисследования.",
+      "album": "Lieder nach Texten von Goethe (сборник-переиздание, ℗ 2008 по метаданным Topic)",
+      "label": "не установлен (агрегаторное переиздание немецких радиозаписей)",
+      "age_voice": "если 1944–45 — 36–37 лет, ровно пик (дайджест: «пик 1940-е; спада нет — погиб в 45»). Тенор светлого, лирического типа с отточенной немецкой дикцией.",
+      "reputation": "Один из приоритетных певцов правил (пункт 4). Собственных рецензий на его D 368 не найдено; репутация опирается на его признанные шубертовские циклы военных лет с Raucheisen.",
+      "sources": [
+        "planning/research/singers-digest.md — карточка Anders Peter (пик 1940-е; Winterreise RRG Берлин, янв.–март 1945, Raucheisen; Müllerin 1945 Raucheisen и 1948 Weissenborn)",
+        "yt-dlp метаданные Topic-загрузки NDLwjind2a8 (артист Peter Anders, альбом «Lieder Nach Texten Von Goethe») — справочно, не источник даты"
+      ],
+      "youtube": [
+        {"videoId": "NDLwjind2a8", "channel": "Peter Anders - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "gkN2SppeT24", "channel": "Addiobelpassato", "official": false, "oembed_ok": true}
+      ],
+      "note": "ГЛАВНАЯ НАХОДКА исследования: приоритетный певец из списка правил, которого не было ни в MB-каркасе, ни в первичной generic-выдаче. Topic-загрузка 176 с, фан-загрузка 191 с — возможно, это два разных дубля/переноса; перед публикацией сверить. Требуется целевое доисследование даты и пианиста."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН точно. Диск: BBC Legends BBCL 4148-2, издание 2004 (MusicBrainz release 0ccf9b55-20c3-41ae-b200-b05471a44499, label-info «BBC Legends», кат. BBCL 4148-2, barcode 684911414820) — концертная запись BBC. Дайджест певцов и реестр называют BBC-лайв Попп 1982 годом, но кат. номер там был помечен «?», и это уже закрытый хвост: теперь номер известен, а точная дата концерта — нет. На диске кредитованы ДВА пианиста (Irwin Gage и Geoffrey Parsons) — то есть это компиляция двух вечеров; шубертовский блок (треки 1–4, включая Jägers Abendlied) MusicBrainz атрибутирует Gage, что подтверждает и название YouTube-загрузки «Popp / Gage live».",
+      "album": "Lucia Popp — Schubert / Schoenberg / Strauss / Dvořák / Mahler / Brahms (BBC Legends BBCL 4148-2, изд. 2004)",
+      "label": "BBC Legends",
+      "age_voice": "если концерт 1982 — 42–43 года (р. 12.11.1939). Пик формы по дайджесту ~1970–1988; голос серебристый, без признаков спада (умерла в 54, позднего износа практически нет).",
+      "reputation": "Приоритетный певец правил (пункт 4). Прецедент Gretchen напоминает: приоритет не отменяет квалификационного фильтра — конкретно эта запись должна оцениваться по звучанию. Отдельных рецензий на её D 368 не найдено. Существенное соображение: D 368 — мужской монолог егеря от первого лица («Im Felde schleich ich…»), женское исполнение здесь интерпретационно спорно, а темп у Попп самый медленный в пуле (3:33 против 2:32–3:08 у остальных).",
+      "sources": [
+        "MusicBrainz release 0ccf9b55-20c3-41ae-b200-b05471a44499 — BBC Legends BBCL 4148-2, 2004; трек 3 «Jägers Abendlied»; artist-credit релиза включает Lucia Popp, Irwin Gage, Geoffrey Parsons",
+        "MusicBrainz recording 8682129a-f9c0-4644-8242-3e59d36cffa6 — Lucia Popp, Irwin Gage, 3:32",
+        "planning/youtube/albums/female-recitalists.md — «Popp — BBC-лайв 1982 (BBC Legends?), пианист Geoffrey Parsons [дайджест]; кат. номер/программа «?»»"
+      ],
+      "youtube": [
+        {"videoId": "9h2KSh8nw1I", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной (Topic/лейбловой) загрузки этой записи найти не удалось — только фан-канал (≈5300 просмотров). Побочный результат для реестра: закрыт открытый хвост «кат. номер BBC-лайва Popp 1982» → BBCL 4148-2, и уточнён пианист шубертовского блока (Gage, а не Parsons)."
+    },
+    {
+      "singer": "Simon Keenlyside",
+      "pianist": "Graham Johnson",
+      "rec_year": 1994,
+      "year_source": "Страница Hyperion CDJ33024: запись сентябрь 1994, Rosslyn Hill Unitarian Chapel, Hampstead, London; издание октябрь 1995. Совпадает с карточкой реестра (albums/complete-editions.md: «Vol. 24 „A Goethe Schubertiad“ (CDJ33024, зап. IX.1994, изд. X.1995)») и MusicBrainz (релиз «The Hyperion Schubert Edition, Volume 24», 1995-10).",
+      "album": "The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» (CDJ33024) — 27 гётевских песен, певцы Christine Schäfer, John Mark Ainsley, Simon Keenlyside, Michael George, London Schubert Chorale",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "35 лет (р. 03.08.1959). Ранняя зрелость, голос свежий и гибкий; собственный шубертовский рецитал EMI Eminence того же 1994 года.",
+      "reputation": "Издание Hyperion под редакцией Грэма Джонсона — научный эталон полного корпуса песен с комментариями. В эссе к тому Джонсон прямо выделяет D 368 среди песен 1816 года как одну из двух «удивительно напряжённых и компактных строфических песен» (наряду с «Der König in Thule») — единственная содержательная критическая характеристика песни, найденная в исследовании.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33024 — дата и место записи, состав исполнителей, эссе Джонсона о песнях 1816 года",
+        "MusicBrainz recording 4a26bb1b-c121-41f2-a2d0-48b6007f4bef — Simon Keenlyside, Graham Johnson, 2:35, релиз «The Hyperion Schubert Edition, Volume 24: A Goethe Schubertiad», 1995-10",
+        "planning/youtube/albums/complete-editions.md — карточка тома 24"
+      ],
+      "youtube": [
+        {"videoId": "3pjTPTYty28", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Topic-канал оформлен на пианиста (Graham Johnson), а не на певца — типовая особенность каталога Hyperion; при публикации name всё равно по певцу («Keenlyside — Johnson»). Охват мизерный (70 просмотров), но канал официальный."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (хаммерклавир — копия Johann Fritz, Вена ок. 1815, работы Christopher Clarke, Париж 1981)",
+      "rec_year": 1994,
+      "year_source": "Карточка реестра: DHM 05472 77342 2, запись 10–13 октября 1994, студия на Stollberger Str., WDR Кёльн, копродукция с WDR; издание 1995 (planning/youtube/albums.md, несколько сходящихся карточек). MusicBrainz-релиз «Lieder nach gedichten von Johann Wolfgang von Goethe», Deutsche Harmonia Mundi, дата 1994-10.",
+      "album": "Schubert: Songs to Poems by Johann Wolfgang Goethe (Deutsche Harmonia Mundi 05472 77342 2)",
+      "label": "Deutsche Harmonia Mundi (BMG)",
+      "age_voice": "38 лет (р. 18.01.1956). Вход в пик (~1990–2012): лёгкий, ровный лирический тенор, безупречная дикция.",
+      "reputation": "Периодный эталон гётевского блока: инструмент — копия венского фортепиано времени сочинения песни, что даёт прозрачную фактуру. Реестр называет альбом сквозной опорной позицией для гётевского корпуса. Отдельной рецензии на D 368 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточки «Christoph Prégardien — Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2), 10–13 октября 1994, Studio Stollberger Str., WDR Köln; изд. 1995»",
+        "MusicBrainz recording 15ec9f44-25d6-4ea6-ae15-10372f1c432c — Prégardien, Staier, 3:07, релиз DHM 1994-10"
+      ],
+      "youtube": [
+        {"videoId": "sEQq1CAWytU", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая длинная из «мужских» версий пула после Anders — 3:07."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Michael Gees",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН (год сессии). Альбом «Follow Goethe» — MusicBrainz даёт релиз 1999 (дата издания). Отдельной карточки этого альбома в реестре нет; в реестре у пары Prégardien/Gees значатся другие позиции («Lieder von Abschied und Reise», Müllerin 2008, Winterreise 2013). Требует доисследования, если запись выйдет в отбор.",
+      "album": "Follow Goethe (изд. 1999)",
+      "label": "не установлен (по MusicBrainz метка не проставлена)",
+      "age_voice": "≈43 года, если сессия близка к изданию 1999. Пик (~1990–2012).",
+      "reputation": "Второе прочтение того же певца — по правилу «при прочих равных предпочитать более раннюю» уступает версии со Staier 1994, если не будет очевидно сильнее. Рецензий не найдено.",
+      "sources": [
+        "MusicBrainz recording b72b8605-6c60-42bb-90fd-bea90d4c2140 — Prégardien, Gees, 2:53, релиз «Follow Goethe», 1999",
+        "yt-dlp метаданные AYXxDgT3QW0 (альбом «Follow Goethe») — справочно"
+      ],
+      "youtube": [
+        {"videoId": "AYXxDgT3QW0", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дублирует певца из предыдущей позиции; в топ-5 попасть может только одна из двух."
+    },
+    {
+      "singer": "Siegfried Lorenz",
+      "pianist": "Norman Shetler",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Карточка реестра: Eterna 8 26 704 «Schubert: Lieder nach Goethe 2», год не установлен; соседние тома серии с тем же дуэтом датируются 1978–1987 (Discogs, по реестру). Переиздание Berlin Classics 0184142BC (2007). MusicBrainz даёт релизы «Franz Schubert: Lieder» (1994) и «Lieder» (2007-09-14) — обе даты переизданий.",
+      "album": "Schubert: Lieder nach Goethe 2 (Eterna 8 26 704) / переизд. Berlin Classics",
+      "label": "Eterna → Berlin Classics",
+      "age_voice": "если сессия 1978–1987 — 33–42 года (р. 1945). Собранный, светлый лирический баритон восточногерманской школы, на подъёме.",
+      "reputation": "Восточногерманская Eterna-Schubert-Lieder-Edition — по оценке проектного реестра «главный старый фонд помимо Fischer-Dieskau/DG и Hyperion» для редких песен. Отдельных рецензий на D 368 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — две карточки «Siegfried Lorenz — Schubert: Lieder nach Goethe 2 (Eterna 8 26 704)»",
+        "planning/youtube/albums/male-recitalists.md — описание Eterna Schubert-Lieder-Edition",
+        "MusicBrainz: две записи Lorenz/Shetler D 368 (3:29 и 3:25) на релизах «Lieder» 2007-09-14 и «Franz Schubert: Lieder» 1994"
+      ],
+      "youtube": [],
+      "note": "На YouTube D 368 в исполнении Лоренца НЕ НАЙДЕН: Topic-канал Siegfried Lorenz существует и обширен (десятки шубертовских песен), но этот трек в выдаче отсутствует при четырёх разных запросах. Без ролика кандидат непубликуем."
+    },
+    {
+      "singer": "Johannes Kalpers",
+      "pianist": "Burkhard Kehring",
+      "rec_year": null,
+      "year_source": "Год сессии НЕ УСТАНОВЛЕН; известна дата издания: Naxos 8.554667, том 16 Deutsche Schubert-Lied-Edition «Goethe, Vol. 3», издание 01/2004 (planning/youtube/albums/complete-editions.md).",
+      "album": "Deutsche Schubert-Lied-Edition, т. 16 «Goethe, Vol. 3» (Naxos 8.554667)",
+      "label": "Naxos",
+      "age_voice": "не сверено с дайджестом — певца нет в фонде `singers-digest.md`; кандидат попал в пул только через Naxos-издание.",
+      "reputation": "Ценность издания системная (полный корпус песен на немецком, редактор Ulrich Eisenlohr), не сольно-интерпретационная; по общему принципу правил современные серийные записи уступают старым мастерам без специальных оснований.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md — «Johannes Kalpers — т. 16 „Goethe, Vol. 3“ (Naxos 8.554667, изд. 01/2004), пианист Burkhard Kehring»"
+      ],
+      "youtube": [
+        {"videoId": "L0Qa-mO2R7o", "channel": "Johannes Kalpers - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Тот же певец на том же канале поёт и D 215 (первая редакция, 07fwxNbR8jQ) — не перепутать: нужен L0Qa-mO2R7o «(2nd setting)»."
+    },
+    {
+      "singer": "Christian Elsner",
+      "pianist": "не установлен (постоянный партнёр по Naxos — Ulrich Eisenlohr: Müllerin 8.554664, DSLE т. 13 8.554666) — требует доисследования",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Метаданные Topic: альбом «Schubert, F.: Lieder, Vol. 1 — Opp. 1–24», ℗-год 1997 (по правилам не источник). Название в каталожном стиле Naxos; в MusicBrainz этот релиз не найден. Требует доисследования.",
+      "album": "Schubert, F.: Lieder, Vol. 1 — Opp. 1–24 (вероятно Naxos)",
+      "label": "не установлен (вероятно Naxos)",
+      "age_voice": "≈32 года, если сессия середины 1990-х (р. 1965). Певца нет в `singers-digest.md`.",
+      "reputation": "Данных нет; серийная запись полного издания.",
+      "sources": [
+        "yt-dlp метаданные 9Ez8UfqlgNI (артист Christian Elsner, альбом «Schubert, F.: Lieder, Vol. 1 - Opp. 1-24»)",
+        "MusicBrainz: релизы Elsner/Eisenlohr на Naxos — «Die schöne Müllerin» 8.554664 (2000-05-29), «Schubert Lied Edition 13: Goethe Lieder Vol. 2» 8.554666 (2003)"
+      ],
+      "youtube": [
+        {"videoId": "9Ez8UfqlgNI", "channel": "Christian Elsner - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Слабо документированный кандидат; в MB-каркасе работы D 368 отсутствует — найден только поиском по YouTube."
+    },
+    {
+      "singer": "Wolfgang Holzmair",
+      "pianist": "не установлен (постоянный партнёр начала 1990-х — Gérard Wyss, лейбл Tudor) — требует доисследования",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Метаданные Topic: альбом «Schubert, F.: Lieder, Vol. 3», ℗-год 1993 (не источник). В MusicBrainz этот релиз не найден; известны Holzmair/Wyss «Lieder nach Gedichten von Johann Mayrhofer» (Tudor 764, 1992).",
+      "album": "Schubert, F.: Lieder, Vol. 3",
+      "label": "не установлен (вероятно Tudor)",
+      "age_voice": "≈41 год, если 1993 (р. 1952). Дайджест: пик 1990-х; светлый, почти теноровый тембр баритона.",
+      "reputation": "Дайджест характеризует Хольцмайра как крепкого циклиста 1990-х (Philips, с Imogen Cooper); отдельных оценок D 368 нет.",
+      "sources": [
+        "yt-dlp метаданные 5iIM9k-fScs (артист Wolfgang Holzmair, альбом «Schubert, F.: Lieder, Vol. 3»)",
+        "planning/research/singers-digest.md — карточка Holzmair Wolfgang",
+        "MusicBrainz release «Lieder nach Gedichten von Johann Mayrhofer», Holzmair/Wyss, Tudor 764, 1992"
+      ],
+      "youtube": [
+        {"videoId": "5iIM9k-fScs", "channel": "Wolfgang Holzmair - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "В MB-каркасе работы отсутствует — найден поиском по YouTube."
+    },
+    {
+      "singer": "Ingeborg Danz",
+      "pianist": "Michael Gees",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Метаданные Topic: «Vocal Recital: Danz, Ingeborg — Mozart, W.A. / Schubert, F. / Wolf, H. / Gees, M.», ℗-год 2006 (не источник; пианист следует из названия релиза).",
+      "album": "Vocal Recital: Danz, Ingeborg (Mozart / Schubert / Wolf / Gees)",
+      "label": "не установлен",
+      "age_voice": "≈45 лет, если 2006 (р. 1961). Альт/меццо; певицы нет в `singers-digest.md`.",
+      "reputation": "Данных нет. Как и у Попп — женский голос в мужском монологе егеря; интерпретационно спорно.",
+      "sources": [
+        "yt-dlp метаданные Bp1x4Xss3X0",
+        "d368-jagers-abendlied.yt.json — generic-выдача"
+      ],
+      "youtube": [
+        {"videoId": "Bp1x4Xss3X0", "channel": "Ingeborg Danz - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Периферийный кандидат."
+    },
+    {
+      "singer": "Thierry Félix",
+      "pianist": "Paul Badura-Skoda",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН (год сессии). Издание: «Goethe-Lieder», Arcana, 1995 (MusicBrainz release search: Goethe-Lieder | Franz Schubert, Thierry Félix, Paul Badura-Skoda | 1995 | Arcana).",
+      "album": "Schubert: Goethe-Lieder (Arcana)",
+      "label": "Arcana",
+      "age_voice": "не сверено — певца нет в `singers-digest.md`.",
+      "reputation": "Интерес в основном к пианисту: Бадура-Шкода — крупный шубертианец и знаток исторических инструментов. Оценок песни не найдено.",
+      "sources": [
+        "MusicBrainz recording f8d7f338-bc50-437a-8844-31f8c663e192 — Thierry Félix, Paul Badura-Skoda, 2:51, релиз «Goethe-Lieder», 1995",
+        "MusicBrainz release search — Goethe-Lieder, Arcana, 1995"
+      ],
+      "youtube": [
+        {"videoId": "e6yq70Qo_NU", "channel": "Thierry Félix - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "В MB-каркасе номер работы указан ошибочно как «D 383» — это опечатка каталога, запись именно D 368 (Op. 3 No. 4)."
+    },
+    {
+      "singer": "Neil Mackie",
+      "pianist": "John Blakely",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Метаданные Topic: альбом «The Leaves of Time», ℗-год 2009 (не источник). В MB-каркасе работы отсутствует.",
+      "album": "The Leaves of Time",
+      "label": "не установлен",
+      "age_voice": "≈63 года, если 2009 (шотландский тенор, р. 1946) — заметно за пиком. Певца нет в `singers-digest.md`.",
+      "reputation": "Данных нет.",
+      "sources": [
+        "yt-dlp метаданные VaHz9i9gh18 (Neil Mackie, John Blakely, альбом «The Leaves of Time»)"
+      ],
+      "youtube": [
+        {"videoId": "VaHz9i9gh18", "channel": "Neil Mackie - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Периферийный кандидат, 49 просмотров."
+    },
+    {
+      "singer": "Andreas Burkhart",
+      "pianist": "Akemi Murakami",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН (год сессии). Издание: «Goethe-Lieder», MusicBrainz release date 2018-05-01 (метаданные Topic дают тот же 2018).",
+      "album": "Schubert, Liszt & Wolf: Goethe-Lieder",
+      "label": "не установлен",
+      "age_voice": "не сверено — певца нет в `singers-digest.md`.",
+      "reputation": "Данных нет. Самая быстрая версия пула (2:18) — заметно подвижнее всех остальных.",
+      "sources": [
+        "MusicBrainz recording 5b5ba213-b805-48d3-ad9d-d80fd2030910 — Andreas Burkhart, Akemi Murakami, 2:18, релиз «Goethe-Lieder», 2018-05-01"
+      ],
+      "youtube": [
+        {"videoId": "T6By5H0cX-s", "channel": "Andreas Burkhart - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Формально закрывает требование «не ранее 2015», но без критической репутации; по правилу «качество — квалификационный фильтр» состав не должен покупаться ценой качества."
+    },
+    {
+      "singer": "Jasper Schweppe",
+      "pianist": "Riko Fukuda",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН (год сессии). Издание: «Lieder, Volume 1», MusicBrainz release date 2020-08-01.",
+      "album": "Schubert: Lieder, Volume 1",
+      "label": "не установлен",
+      "age_voice": "не сверено — певца нет в `singers-digest.md`.",
+      "reputation": "Данных нет.",
+      "sources": [
+        "MusicBrainz recording 014ffc44-e6f7-40a0-8093-8b9ba1820039 — Jasper Schweppe, Riko Fukuda, 2:35, релиз «Lieder, Volume 1», 2020-08-01"
+      ],
+      "youtube": [],
+      "note": "Ролик на YouTube НЕ НАЙДЕН ни одним из шести запросов — непубликуем."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff Thomas": "НЕ ЗАПИСЫВАЛ. Проверен по треклисту его единственного гётевского альбома: «Goethe-Lieder», RCA, дата релиза 1995-03-31, пианист Charles Spencer — MusicBrainz release 06704220-2596-474b-b094-6b26da356af0, 13 треков (Der Sänger op. 117; три Gesänge des Harfners op. 12; Prometheus; Ganymed; Grenzen der Menschheit; Erlkönig; Szene aus Faust; Der Zwerg; Auf dem Wasser zu singen; Liedesend; Der Musensohn) — Jägers Abendlied отсутствует. Прочие пять его шубертовских альбомов (дайджест: Winterreise RCA 1998, Schwanengesang DG 2001, Lieder с оркестром DG 2003, Müllerin DG 2005, Winterreise-фильм DG 2005) песню содержать не могут. Дискография закрыта в январе 2012.",
+    "Fischer-Dieskau Dietrich": "ЗАПИСЫВАЛ, минимум три раза: (1) с Günther Weißenborn — радиозапись WDR Köln 1954 (Audite 95.583, изд. 2007); (2) с Jörg Demus — DG SLPM 138 117 «Ein Schubert-Goethe-Liederabend», 13–14 сентября 1959, Studio Lankwitz, Берлин; (3) с Gerald Moore — DG «Sämtliche Lieder», сессии 1966–72 (проектный год 1969). Источники: MusicBrainz recordings 0dd60f69, 64f8009f, 420cac55; planning/youtube/albums.md и albums/complete-editions.md. Отдельно проверен и НЕ содержит D 368 стокгольмский лайв-рецитал 1970 с Karl Engel (Orfeo, изд. 1995) — треклист MusicBrainz release 046c96f1-d571-4654-9752-ca1ddc1f313c (29 номеров, D 368 нет).",
+    "Schwarzkopf Elisabeth": "НЕ НАЙДЕНО записи. В MusicBrainz-работе D 368 (12 записей, все просмотрены) её нет; шесть отдельных запросов yt-dlp по YouTube (в т. ч. адресный «Jägers Abendlied Hotter Quasthoff Schwarzkopf Schubert») не дали ни одного ролика. Содержательное объяснение: D 368 — монолог егеря от первого лица, вне её репертуарного профиля. Отрицательный результат зафиксирован как «не найдено», а не как доказанное отсутствие.",
+    "Hotter Hans": "НЕ НАЙДЕНО записи — ни в MusicBrainz-работе, ни в выдаче YouTube по шести запросам.",
+    "Anders Peter": "ЗАПИСЫВАЛ. Официальная Topic-загрузка NDLwjind2a8 «Jägers Abendlied — Im Felde schleich ich still und wild», альбом-переиздание «Lieder nach Texten von Goethe»; плюс фан-загрузка gkN2SppeT24. В MusicBrainz эта запись не заведена. Пианист и год сессии не установлены (см. карточку кандидата) — требуется целевое доисследование.",
+    "Schumann Elisabeth": "НЕ НАЙДЕНО записи — ни в MusicBrainz-работе, ни на YouTube. Её шубертовский свод (~28 песен HMV 1927–49, Naxos 8.110731) D 368 не включает по имеющимся данным.",
+    "Ludwig Christa": "НЕ НАЙДЕНО записи — ни в MusicBrainz-работе, ни на YouTube.",
+    "Popp Lucia": "ЗАПИСЫВАЛА. Концертная запись BBC с Irwin Gage, издана на BBC Legends BBCL 4148-2 (2004), трек 3 — MusicBrainz release 0ccf9b55-20c3-41ae-b200-b05471a44499, recording 8682129a-f9c0-4644-8242-3e59d36cffa6. Точная дата концерта не установлена (дайджест указывает BBC-лайв 1982). Официальной загрузки на YouTube нет — только фан-канал 9h2KSh8nw1I. В студийный EMI-рецитал 1983 с Gage песня не входит (в реестре по нему числятся D 118, D 800, D 828, D 854)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (DG 2720 006 / 2720 022 / 2720 059; 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессии 1966–1972 (проектная конвенция года — 1969)",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Gerald Moore, Ufa-Ton-Studio Berlin. Все ~400+ «мужских» песен Шуберта; женские сознательно исключены. LP-эдиции 1969/1970/1972; CD-бокс DG 2012. Опорная позиция реестра — покрывает практически любую мужскую песню корпуса, включая D 368.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "запись 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Jörg Demus; полностью гётевская программа из 12 номеров. Переиздано в серии DG «The Originals» (457 747-2) и на компиляциях «Goethe-Lieder», «Récital Schubert-Goethe» (моно и стерео). Уже была в реестре по D 216; настоящим исследованием подтверждено, что альбом содержит и D 368.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Collection — WDR The Cologne Broadcasts (Audite 95.583)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "радиозапись WDR Köln, 1954; издание 2007-02-14",
+      "label": "Audite (оригинал WDR)",
+      "facts": "Пианист Günther Weißenborn; ремастеринг Ludger Böckenhoff. Карточка уже была в реестре по D 162; подтверждено наличие D 368 (3:00).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» (CDJ33024)",
+      "singer": "Christine Schäfer, John Mark Ainsley, Simon Keenlyside, Michael George, London Schubert Chorale",
+      "year": "запись сентябрь 1994, Rosslyn Hill Unitarian Chapel, Hampstead, London; издание октябрь 1995",
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Пианист и редактор издания Graham Johnson; 27 гётевских песен, общее время 78'21\". D 368 поёт Keenlyside (MusicBrainz). В эссе Джонсона к тому D 368 назван — вместе с «Der König in Thule» — одной из двух «удивительно напряжённых и компактных строфических песен» 1816 года. Topic-канал оформлен на пианиста.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Songs to Poems by Johann Wolfgang Goethe (DHM 05472 77342 2)",
+      "singer": "Christoph Prégardien",
+      "year": "запись 10–13 октября 1994, Studio Stollberger Str., WDR Кёльн; издание 1995",
+      "label": "Deutsche Harmonia Mundi (BMG), копродукция с WDR",
+      "facts": "Andreas Staier, хаммерклавир — копия инструмента Johann Fritz (Вена, ок. 1815) работы Christopher Clarke (Париж, 1981), то есть инструмент времени сочинения песни. Карточка уже в реестре по D 162/D 225/D 226/D 259; подтверждено наличие D 368 (3:07).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lucia Popp — Schubert / Schoenberg / Strauss / Dvořák / Mahler / Brahms (BBC Legends BBCL 4148-2)",
+      "singer": "Lucia Popp",
+      "year": "издание 2004; даты концертов не установлены (дайджест: BBC-лайв 1982)",
+      "label": "BBC Legends",
+      "facts": "НОВАЯ позиция для реестра / закрытие открытого хвоста: реестр (albums/female-recitalists.md) числил «BBC-лайв 1982 (BBC Legends?)» с пианистом Geoffrey Parsons и кат. номером «?». Теперь: кат. BBCL 4148-2, barcode 684911414820. На диске кредитованы оба пианиста — Irwin Gage и Geoffrey Parsons (компиляция двух вечеров); шубертовский блок (треки 1–4: An mein Herz, Der Jüngling an der Quelle, Jägers Abendlied, Der Einsame) MusicBrainz атрибутирует Gage. Далее на диске — Шёнберг op. 2, Ophelia-Lieder и песни Р. Штрауса, Дворжак op. 73, Малер, Брамс.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Follow Goethe",
+      "singer": "Christoph Prégardien",
+      "year": "издание 1999; год сессии не установлен",
+      "label": "не установлен",
+      "facts": "Пианист Michael Gees. НОВАЯ позиция для реестра: в карточках Prégardien этого альбома нет. Содержит D 368 (2:53).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Goethe-Lieder (Arcana)",
+      "singer": "Thierry Félix",
+      "year": "издание 1995; год сессии не установлен",
+      "label": "Arcana",
+      "facts": "Пианист Paul Badura-Skoda. НОВАЯ позиция для реестра. Содержит D 368 (2:51), в каталоге MB с опечаткой номера («D 383»).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Deutsche Schubert-Lied-Edition, т. 16 «Goethe, Vol. 3» (Naxos 8.554667)",
+      "singer": "Johannes Kalpers",
+      "year": "издание 01/2004; год сессии не установлен",
+      "label": "Naxos",
+      "facts": "Пианист Burkhard Kehring. Карточка уже в реестре (albums/complete-editions.md). Певец поёт обе редакции — D 215 и D 368; на Topic-канале это разные ролики, при отборе легко перепутать.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder nach Goethe 2 (Eterna 8 26 704) / переизд. Berlin Classics 0184142BC",
+      "singer": "Siegfried Lorenz",
+      "year": "не установлен (серия 1978–1987)",
+      "label": "Eterna → Berlin Classics",
+      "facts": "Пианист Norman Shetler. Карточка уже в реестре по D 224/D 259; подтверждено наличие D 368 (две MB-записи, 3:25 и 3:29 — вероятно, оригинал и переизданный трансфер). На YouTube трек не найден.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Goethe-Lieder (RCA)",
+      "singer": "Thomas Quasthoff",
+      "year": "издание 1995-03-31",
+      "label": "RCA",
+      "facts": "Пианист Charles Spencer. Треклист проверен полностью (13 номеров) — D 368 в него НЕ входит. Зафиксировано в реестр как отрицательный факт для гётевского блока корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Goethe-Lieder — лайв, Стокгольм (Orfeo d'Or C 389 951 B)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "концерт 1970, издание 1995",
+      "label": "Orfeo d'Or",
+      "facts": "Пианист Karl Engel; смешанная гётевская программа (Zelter, Reichardt, Beethoven, Schubert, Schumann, Brahms, Schoeck, Wolf), 29 номеров. Треклист проверен — D 368 в него НЕ входит. Уточнение к уже существующей карточке реестра.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33024 — Hyperion Schubert Edition Vol. 24 «A Goethe Schubertiad»: сопроводительное эссе Грэма Джонсона (единственный найденный содержательный критический текст, прямо характеризующий D 368: «two marvellously intense and compact strophic songs (Der König in Thule and Jägers Abendlied)» среди песен 1816 года), плюс данные о сессии (IX.1994, Rosslyn Hill Unitarian Chapel) и составе исполнителей.",
+    "https://www.klassik-prisma.de/Schubert.htm — ОТРИЦАТЕЛЬНЫЙ результат: страница композитора проверена, сравнительной страницы (Vergleich) для Jägers Abendlied на сайте НЕТ. Из песен там разобраны только D 774, D 965, D 828, D 328, D 118, D 583, D 827 и три цикла. Значит, привычный по другим песням пилота источник рейтингов здесь недоступен."
+  ],
+  "negatives": [
+    "WebSearch в этой сессии недоступен (исчерпан лимит 200/200 до старта задачи) — сравнительные обзоры Gramophone, MusicWeb, BBC Music Magazine и слепые тесты по D 368 системно прочесать не удалось; проверены только адресные URL. Это ограничение исследования, а не доказательство отсутствия обзоров.",
+    "Discogs API (api.discogs.com) из контейнера в этой сессии стабильно отвечал «You are making requests too quickly» при всех попытках с паузами до 30 с — как источник дат не использован ни разу.",
+    "klassik-prisma.de не имеет сравнительной страницы для D 368 (проверено по индексу композитора).",
+    "Quasthoff НЕ записывал D 368 — треклист RCA «Goethe-Lieder» (1995) проверен полностью.",
+    "Fischer-Dieskau: стокгольмский лайв 1970 с Karl Engel (Orfeo) D 368 НЕ содержит — треклист из 29 номеров проверен.",
+    "Schwarzkopf, Hotter, E. Schumann, Ludwig: записи D 368 не найдены ни в MusicBrainz (12 записей работы, все просмотрены), ни в шести запросах yt-dlp по YouTube.",
+    "Не найдено записей D 368 у Schreier, Prey, Wunderlich, Souzay, Hüsch, Schlusnus, Goerne, Gerhaher, Bostridge, Padmore, Schuen, Hasselhorn, Appl, Krimmel, Terfel, Boesch — целевые запросы yt-dlp по этим именам не дали ни одного ролика с D 368. Для песни «famous»-яруса это существенный отрицательный итог: современного крупного имени в пуле фактически нет.",
+    "Siegfried Lorenz (Eterna) и Jasper Schweppe (2020) записи имеют, но роликов на YouTube нет — оба непубликуемы.",
+    "Лучшая по метаданным современная запись пула (Burkhart / Murakami, изд. 2018) не имеет критической репутации — требование состава «1 запись не ранее 2015» выполнимо только формально; правила прямо разрешают не выполнять возрастную структуру в ущерб качеству.",
+    "Три кандидата с неустановленным годом относятся к приоритетным/сильным именам (Anders, Popp) — по правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» они публикуемы с year-строкой со знаком вопроса после целевого доисследования.",
+    "Омоним: D 215 — первая редакция «Jägers Abendlied». Ролики Kalpers 07fwxNbR8jQ, Graham Johnson KOKFrCLhKqg и Bettina Pahn XkesJ82wOQk (1:47) относятся к D 215 и в пул НЕ включены. Ролик FD 8QWrd3afPng — вообще «Abendlied D 499», а UuD0UN9hxWQ — «Abendlied für die Entfernte D 856»: generic-выдача по этой песне сильно засорена."
+  ]
+}

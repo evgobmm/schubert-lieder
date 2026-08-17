@@ -1,0 +1,508 @@
+{
+  "d": "296",
+  "title": "An den Mond (D 296)",
+  "song_note": "Вторая редакция гётевского «Füllest wieder Busch und Tal» (первая — D 259). В выдаче YouTube и в MusicBrainz постоянно смешиваются четыре разные песни: D 296 (Гёте, 2-я ред.), D 259 (Гёте, 1-я ред.), D 193 (Хёльти, «Geuß, lieber Mond»), D 468 (Хёльти) и D 870 (Der Wanderer an den Mond, Зайдль). Все кандидаты ниже сверены по длительности и/или по трек-листу издания. Ярус песни в триаже проекта — famous (planning/youtube/triage.json: \"296\":\"famous\").",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (конвенция проекта — 1969)",
+      "year_source": "DG «Schubert: Sämtliche Lieder» (21 CD), сессии Ufa-Ton-Studio Berlin 1966–1972; гётевский блок вышел на LP DG 2530 229 «Lieder nach Texten von Goethe» (℗1970). Сессии тома с гётевскими песнями по дискографии Майкла Грея — 16–17.12.1966 и 2–10.01.1967 (карточки реестра planning/youtube/albums.md, позиции по D 224/D 257/D 259). Дискография Грея (classical-discography.org) из контейнера в этой сессии не отвечала (search2.php — HTTP 500), поэтому конкретную сессию именно D 296 подтвердить не удалось.",
+      "album": "Schubert: Sämtliche Lieder (21 CD) / LP DG 2530 229 «Lieder nach Texten von Goethe»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет; вокальный пик по дайджесту (~1951–1972). Свод сделан на исходе пика — голос ещё полный, техника абсолютная.",
+      "reputation": "Базовая точка отсчёта корпуса: единственный полный свод всех «мужских» песен Шуберта, эталон дикции и строфической драматургии; проект использует его как опорную запись во всех песнях. Отдельного критического разбора именно D 296 в доступных источниках не найдено (klassik-prisma страницы для этой песни не имеет).",
+      "sources": [
+        "MusicBrainz: recording 8af02e99-a94e-43c4-929a-8acbfcdb09e7 (Fischer-Dieskau/Moore, «An den Mond, D. 296: Füllest wieder Busch und Tal», 298 c) на релизах DG «Lieder» (1992-10-01), «Lieder, Volume I» (1992-10-01), «Complete Lieder Recordings on Deutsche Grammophon» (2022-10-28)",
+        "planning/youtube/albums.md — карточки свода DG 1966–1972 (LP 2530 229), включая сессии по Грею",
+        "planning/youtube/data/d296-an-den-mond.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "9XkJ2alDkQM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 298, "note": "«Schubert: An den Mond, D. 296 (Goethe II)», 1523 просм."},
+        {"videoId": "VUz8G5lnRmQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 298, "note": "та же фонограмма, параллельный релиз; 12 834 просм. — самая просматриваемая official-загрузка песни"},
+        {"videoId": "lclrtepKC94", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 299, "note": "третий параллельный релиз той же фонограммы"}
+      ],
+      "note": "Приоритет №2 по правилам (Квастхоф песню не записывал). Три Topic-загрузки одной фонограммы — выбирать VUz8G5lnRmQ как наиболее устойчивую по охвату."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": "1959 (сессии 13–14 сентября, Studio Lankwitz, Берлин)",
+      "year_source": "Карточка реестра planning/youtube/albums.md: DG SLPM 138 117 «Ein Schubert-Goethe-Liederabend», запись 13–14.09.1959, издание 1960. Наличие песни в программе подтверждено трек-листом LP: сторона B, трек 2 — «An den Mond» (Discogs release 3208268, DG SLPM 138 117, 1960).",
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117; переизд. «The Originals» 457 747-2, «Goethe-Lieder» 1999)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года — сердцевина вокального пика (дайджест: ~1951–1972); голос свежее и легче, чем в своде 1966–72.",
+      "reputation": "Гётевский рецитал, переизданный DG в серии «The Originals», — общепризнанно лучшая пора певца; проект в других песнях корпуса (D 216, D 224, D 226, D 768) уже опирается на этот альбом. Специального разбора D 296 не найдено.",
+      "sources": [
+        "Discogs release 3208268 — DG SLPM 138 117, трек-лист (B2 «An den Mond»)",
+        "MusicBrainz: recording 09b7fa12-0ec0-4108-8ae8-34990e5857dc (Fischer-Dieskau/Demus, «An den Mond, D 296», 293 c) — релизы DG «Goethe-Lieder» (1999), «The Originals: Legendary Recordings Vol. 2» (2016-08-26), «Complete Lieder Recordings on DG» (2022-10-28)",
+        "planning/youtube/albums.md — карточка «Ein Schubert-Goethe-Liederabend»"
+      ],
+      "youtube": [
+        {"videoId": "I98oKVJ3CPI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 289, "note": "«An den Mond, D. 296» — по длительности (289 c) не совпадает точно ни с Moore (298), ни с Demus (293); альбомные теги вытянуть не удалось (yt-dlp -J и парсинг watch-страницы заблокированы бот-проверкой). Привязку к изданию нужно доказать перед публикацией."}
+      ],
+      "note": "Версия с Демусом на YouTube достоверно не идентифицирована — единственный кандидат I98oKVJ3CPI требует доказательства привязки."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Karl Engel",
+      "rec_year": "1970 (концерт, Стокгольм; издание Orfeo 1995)",
+      "year_source": "Карточка реестра planning/youtube/albums.md: Orfeo d'Or C 389 951 B, «Live Recording: Stockholm 1970» (примечание издателя, Discogs 14765571). MusicBrainz привязывает запись Fischer-Dieskau/Engel к работе D 296, но печатает номер как «An den Mond, D 369» (343 c) — вероятная опечатка MB; идентификация требует сверки с буклетом Orfeo.",
+      "album": "Goethe-Lieder — живой концерт, Стокгольм (Orfeo d'Or C 389 951 B)",
+      "label": "Orfeo d'Or",
+      "age_voice": "45 лет — конец пика; концертная свобода, но живой звук.",
+      "reputation": "Смешанная гётевская программа (Zelter, Reichardt, Beethoven, Schubert, Schumann, Brahms, Schoeck, Wolf); ценность — концертная, не эталонная. Критических отзывов именно по D 296 не найдено.",
+      "sources": [
+        "MusicBrainz: recording 2d285bd8-f6dc-472d-8eb9-c5cf1fc31d68, релиз Orfeo «Goethe-Lieder» (1995)",
+        "planning/youtube/albums.md — карточка стокгольмского концерта 1970"
+      ],
+      "youtube": [],
+      "note": "На YouTube отдельного трека не найдено; номер по MB сомнителен. Кандидат резервный."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Graham Johnson",
+      "rec_year": "1987 (сессии февраль, Elstree; издание декабрь 1987)",
+      "year_source": "Страница Hyperion CDJ33001 и карточки реестра planning/youtube/albums.md (запись II.1987, Elstree; продюсер Martin Compton, инженер Antony Howell; 67'57).",
+      "album": "The Hyperion Schubert Edition, Vol. 1 — Goethe & Schiller Settings (CDJ33001)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "53 года; по дайджесту пик ~1965–1982, то есть запись сделана за краем пика, но именно она считается одной из лучших её пластинок.",
+      "reputation": "Gramophone Award; № 1 в «Top Ten Discs of the Decade» BBC Music Magazine. The Times: «A generous and revelatory recital of Goethe and Schiller settings… one of the most important recording projects of the half century»; The Guardian: «One of the loveliest records even Dame Janet has made»; Penguin Guide: «Dame Janet is in glorious voice» (цитаты — страница альбома на hyperion-records.co.uk).",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001 — пресс-цитаты (Penguin Guide, The Guardian, The Times)",
+        "MusicBrainz: recording 2e29e887-9b8f-42ec-b329-cb7bb84825f1 (265 c), релиз «The Hyperion Schubert Edition, Volume 1» (1987-12)",
+        "planning/youtube/albums.md — карточки CDJ33001"
+      ],
+      "youtube": [
+        {"videoId": "Tn9vhTT9A4I", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "duration_s": 266}
+      ],
+      "note": "Сильнейший «научный» кандидат: пианист — автор комментариев всего свода; самая быстрая (4'26\") и наиболее речевая трактовка в пуле."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Irwin Gage",
+      "rec_year": "1975 (℗; LP DG 2530 528 «Schubert-Lieder 2»; сессия документально не установлена)",
+      "year_source": "Discogs release 7569118 — DG 2530 528, 1975, ℗1975 Polydor International; D 296 — сторона B, трек 6 («An den Mond D. 296 »Füllest wieder Busch und Tal««, 4:45). Официальная Topic-загрузка: «℗ 1975 Deutsche Grammophon GmbH, Berlin», продюсер Cord Garben, релиз CD 1991-01-01. Дайджест певцов датирует DG-ремейк с Гейджем «~1973» — расхождение не разрешено (дискография Грея недоступна).",
+      "album": "Schubert-Lieder 2 (DG 2530 528); CD-переиздание «Schubert: Lieder» (DG, 1991)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "46–47 лет — самый край пика (дайджест: ~1957–1975); голос ещё ровный, но темнее и тяжелее, чем в EMI-сессиях 1957–69.",
+      "reputation": "Криста Людвиг — приоритетный исполнитель по правилам (п. 4). По другим песням корпуса её EMI-круг 1957–69 получал у klassik-prisma высшие баллы; для D 296 отдельных оценок не найдено (страницы песни у klassik-prisma нет).",
+      "sources": [
+        "Discogs release 7569118 (DG 2530 528, 1975) — трек-лист и ℗-строка",
+        "MusicBrainz: recording 3a44436f-3040-4d13-b363-02e00052adbf (285 c), релиз DG «Lieder» (1991-03-01)",
+        "Описание official-загрузки eod0KKkqJNc (Provided to YouTube by UMG; ℗ 1975 DG; продюсер Cord Garben)"
+      ],
+      "youtube": [
+        {"videoId": "eod0KKkqJNc", "channel": "Release - Topic", "official": true, "oembed_ok": true, "duration_s": 285, "note": "автогенерируемый Topic-канал UMG-релиза (не именной канал певицы), теги: Christa Ludwig · Irwin Gage, альбом «Schubert: Lieder»"}
+      ],
+      "note": "Единственная запись песни у приоритетных певиц из списка правил. Загрузка живая, но канал безымянный («Release - Topic») — при публикации это допустимый official-источник UMG."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "1983 (℗; цифровая запись)",
+      "year_source": "Discogs release 8005277 — Philips 410 037-2 «An die Musik», ℗1983, «Digital recording»; D 296 — трек 5 (4:55). Тот же трек на 3-CD компиляции Philips 464 334-2 «Schubert Liederen» (1999), диск 3, трек 5 (5:04) — Discogs release 37972650. Сессия по буклету не проверена; год в проекте — 1983.",
+      "album": "An die Musik — Schubert Lieder (Philips 410 037-2)",
+      "label": "Philips (Universal)",
+      "age_voice": "~50 лет; пик по дайджесту ~1965–1985 — запись внутри пика, но уже в зрелой его фазе.",
+      "reputation": "Амелинг — самая записываемая шубертианка своего поколения (дайджест). Критических оценок именно этого трека не найдено.",
+      "sources": [
+        "Discogs release 8005277 (Philips 410 037-2, 1983) — трек-лист",
+        "Discogs release 37972650 (Philips 464 334-2 «Schubert Liederen», 1999) — трек 3-5 «An den Mond, D.296»",
+        "planning/youtube/albums.md — карточка «An die Musik» (по D 226)"
+      ],
+      "youtube": [
+        {"videoId": "GvTzwF7B2co", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 305, "note": "3327 просм."},
+        {"videoId": "yLzSKVqkw9A", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 305, "note": "дубль той же фонограммы, 125 просм."}
+      ],
+      "note": "Отрицательный факт: на Philips 6500 515 «Goethe-Lieder» (1972, Baldwin) и на Tanglewood-концерте 1987 (Jansen; Brilliant 95107) песни НЕТ — там D 259 и D 193 (Discogs 5810274 и 11079928)."
+    },
+    {
+      "singer": "Maureen Forrester",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1955 (сессия 7 декабря 1955, RIAS Берлин)",
+      "year_source": "Discogs release 15264272 (Audite 21.437, 2016) — примечание трек-листа: «Franz Schubert … Eleven Lieder (recording: 07-12-1955)». Страница издания на audite.de подтверждает состав шубертовской группы из 11 песен, где № 10 — «An den Mond, D. 296», аккомпаниатор Michael Raucheisen.",
+      "album": "Maureen Forrester — RIAS Recordings (Audite 21.437, 3 CD)",
+      "label": "Audite (оригинал — RIAS Berlin)",
+      "age_voice": "25 лет — самое начало карьеры (р. 25.07.1930), голос свежий, настоящее контральто; Раухайзену 66, это одна из его поздних работ (в дайджесте он — ключевой немецкий аккомпаниатор 1940-х).",
+      "reputation": "В отзывах на издание Audite именно D 296 приводится как пример владения нижним регистром: «the melody goes quite low with no change of register» (цитата из рецензии, приведённой на странице издания audite.de).",
+      "sources": [
+        "https://www.audite.de/en/product/CD/21437-maureen_forrester_-_rias_recordings.html — состав шубертовского блока, аккомпаниатор, цитата рецензии",
+        "Discogs release 15264272 (Audite 21.437) — дата сессии 07-12-1955"
+      ],
+      "youtube": [
+        {"videoId": "f6yHlqd2JH0", "channel": "Sadanori Kobinata", "official": false, "oembed_ok": true, "duration_s": 275, "note": "фан-загрузка, подпись «Maureen Forrester & Michael Raucheisen, 1955» совпадает с дискографией Audite; official-загрузки Audite для этого трека не найдено"}
+      ],
+      "note": "Старейшая значительная запись песни в пуле и единственный «исторический» кандидат. Минус — только фан-канал (риск удаления)."
+    },
+    {
+      "singer": "Gundula Janowitz",
+      "pianist": "Charles Spencer",
+      "rec_year": "не установлен (LP/CD Nuova Era 1990; ℗2009 на переиздании)",
+      "year_source": "Discogs: Nuova Era, «15 Lieder», 1990 (два пресcинга, id 1990-х в поиске Discogs). Official-загрузка (Topic): альбом «Schubert: 15 Lieder», «℗ 2009 Nuova Era Internazionale s.r.l.», релиз 2009-09-19 — это ℗ переиздания, не год сессии. MusicBrainz привязывает запись к сборникам Brilliant Classics «Lieder» (1999) и «The Masterworks» (2004). Год сессии требует буклета Nuova Era.",
+      "album": "Schubert: 15 Lieder (Nuova Era); лицензионные переиздания Brilliant Classics «Lieder / Great Schubert Singers»",
+      "label": "Nuova Era / Brilliant Classics",
+      "age_voice": "~52 года, если сессия ок. 1989–90 (р. 1937); пик по дайджесту ~1965–1980 — то есть запись за краем пика.",
+      "reputation": "Специальных оценок не найдено. Самая протяжённая трактовка пула (5'46\"), у Charles Spencer — постоянного пианиста Квастхофа.",
+      "sources": [
+        "MusicBrainz: recording 32abf962-482d-4ec0-b169-e796bfd901bb (345 c); релизы Brilliant Classics «Lieder» (1999), «The Masterworks» (2004)",
+        "Discogs search: Nuova Era «15 Lieder», 1990 (id 1990-х пресcингов)",
+        "Метаданные official-загрузки 7GzlO5RunAQ (The Orchard / Nuova Era Internazionale, ℗2009)"
+      ],
+      "youtube": [
+        {"videoId": "7GzlO5RunAQ", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 346},
+        {"videoId": "qocxVssb4PA", "channel": "CLASSIC&OPERA", "official": false, "oembed_ok": true, "duration_s": 346, "note": "фан-дубль той же фонограммы"}
+      ],
+      "note": "Год записи неустановлен — при отборе применимо правило о диапазоне со знаком вопроса."
+    },
+    {
+      "singer": "Christine Schäfer",
+      "pianist": "Irwin Gage",
+      "rec_year": "не установлен (издание Orfeo, 1997-09-15)",
+      "year_source": "MusicBrainz: релиз Orfeo «Lieder» с датой 1997-09-15 (год издания, не сессии). Буклет Orfeo не проверен.",
+      "album": "Schubert: Lieder (Orfeo)",
+      "label": "Orfeo",
+      "age_voice": "~32 года (р. 1965), внутри пика ~1995–2010 — светлое, инструментально точное сопрано.",
+      "reputation": "Дайджест отмечает её как автора вехового женского «Winterreise» (Onyx 2006); по этому альбому критических оценок не найдено.",
+      "sources": [
+        "MusicBrainz: recording f8ef43a5-8bc2-4515-a3e1-cd947afa467f (310 c), релиз Orfeo «Lieder» (1997-09-15)"
+      ],
+      "youtube": [
+        {"videoId": "IxR-DgIqfiY", "channel": "Christine Schäfer - Topic", "official": true, "oembed_ok": true, "duration_s": 310}
+      ],
+      "note": "Тот же пианист, что у Людвиг (Gage) — прямое сравнение двух прочтений с одним аккомпаниатором."
+    },
+    {
+      "singer": "Dawn Upshaw",
+      "pianist": "Richard Goode",
+      "rec_year": "1994 (℗; год сессии по буклету не проверен)",
+      "year_source": "Discogs release 17182381 — Nonesuch 9 79317-2 «Goethe-Lieder», 1994; D 296 — трек 12 (4:47). MusicBrainz: релиз Nonesuch «Goethe-Lieder», 1994-04-19. Official-загрузка: «℗ 1994 Elektra Entertainment».",
+      "album": "Goethe-Lieder (Nonesuch 9 79317-2)",
+      "label": "Nonesuch / Warner",
+      "age_voice": "~34 года (р. 1960) — вокальный расцвет.",
+      "reputation": "Редкий случай, когда за роялем крупный сольный пианист (Ричард Гуд) — программа Гёте у Шуберта, Шумана, Вольфа, Моцарта. Конкретных рецензий добыть не удалось (поиск по вебу в этой сессии исчерпан; prestomusic отдаёт 403).",
+      "sources": [
+        "Discogs release 17182381 (Nonesuch 9 79317-2, 1994) — трек-лист",
+        "MusicBrainz: recording 08fef2c4-4650-4656-ad3f-a891902d4437 (292 c), релиз Nonesuch «Goethe-Lieder» (1994-04-19)"
+      ],
+      "youtube": [
+        {"videoId": "kcatRuecszo", "channel": "Dawn Upshaw - Topic", "official": true, "oembed_ok": true, "duration_s": 292}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Mitsuko Shirai",
+      "pianist": "Hartmut Höll",
+      "rec_year": "1988 (год релиза Capriccio; сессия не установлена)",
+      "year_source": "MusicBrainz: релиз Capriccio «Franz Schubert: Lieder», 1988. В реестре проекта есть и вторая карточка дуэта — Capriccio «Schubert: Lieder, Vol. 1 — Opp. 1–24», ℗1997 (по D 226); две MB-записи разной длительности (384 и 379 с) указывают, что версий действительно две.",
+      "album": "Franz Schubert: Lieder (Capriccio, 1988) — и/или «Lieder, Vol. 1: Opp. 1–24» (Capriccio, ℗1997)",
+      "label": "Capriccio",
+      "age_voice": "~41 год (р. 1947 — не верифицировано в проекте); зрелое лирическое меццо.",
+      "reputation": "Дуэт Ширай/Хёлль — уважаемая, но не «звёздная» линия немецкой Lied-дискографии; критических отзывов по D 296 не найдено. Самое медленное прочтение пула (6'24\").",
+      "sources": [
+        "MusicBrainz: recordings 661f7892-9778-46b3-b38a-263476bfa86a (384 c) и c96e6f99-b1ab-4ec7-83be-5c963ceb98ae (379 c); релиз Capriccio «Franz Schubert: Lieder» (1988)",
+        "planning/youtube/albums.md — карточка Capriccio «Schubert: Lieder, Vol. 1 — Opp. 1–24» (℗1997)"
+      ],
+      "youtube": [
+        {"videoId": "1kJJ5MOwG90", "channel": "Mitsuko Shirai - Topic", "official": true, "oembed_ok": true, "duration_s": 384},
+        {"videoId": "1v1zKdbGv_Q", "channel": "Mitsuko Shirai - Topic", "official": true, "oembed_ok": true, "duration_s": 385}
+      ],
+      "note": "Две official-загрузки почти идентичной длительности — перед публикацией нужна привязка к конкретному изданию."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": "1996 (май, Historischer Reitstadel, Ноймаркт; ℗/изд. 1997)",
+      "year_source": "Карточка реестра planning/youtube/albums.md по буклету Decca 452 917-2 (Discogs 13052206): «Reitstadel, Neumarkt, май 1996; ℗/© 1997 Decca; TT 72'10». Важно: Topic-метаданные дают 1997 — это год издания. MusicBrainz: релиз Decca «Lieder - Goethe», 1997-03-31.",
+      "album": "Schubert Lieder — Goethe (Decca 452 917-2)",
+      "label": "Decca",
+      "age_voice": "29 лет — начало пика (~1997–2015); голос свежий, лёгкий, ещё без позднейшей «матовости».",
+      "reputation": "Ранний рецитал Гёрне до его 12-томного свода на harmonia mundi; аннотации Richard Wigmore. Специальных оценок D 296 не найдено.",
+      "sources": [
+        "MusicBrainz: recording 6a22cc0b-ebc5-4bf9-8623-1066a2db3790 (372 c), релиз Decca «Lieder - Goethe» (1997-03-31)",
+        "planning/youtube/albums.md — карточки Decca 452 917-2 (по D 138, D 162, D 216, D 224, D 225, D 257)"
+      ],
+      "youtube": [
+        {"videoId": "qLEtk1ZTbT0", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "duration_s": 370}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Eric Schneider",
+      "rec_year": "не установлен (издание 10.02.2014)",
+      "year_source": "MusicBrainz: релиз harmonia mundi «Wanderers Nachtlied», 2014-02-10 — том 8 «Matthias Goerne Schubert Edition» (2008–2014). Дата сессии по буклету не проверена.",
+      "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied»",
+      "label": "harmonia mundi",
+      "age_voice": "~46 лет — конец пика по дайджесту (~1997–2015); тон плотнее и темнее, чем в 1996.",
+      "reputation": "Свод Гёрне — крупнейший сольный шубертовский проект последних десятилетий; правило о скепсисе к пиару современных применимо. Отдельных отзывов по D 296 нет.",
+      "sources": [
+        "MusicBrainz: recording 3ed01e57-b8f1-4c4d-9076-e9705ce0417e (355 c), релиз harmonia mundi «Wanderers Nachtlied» (2014-02-10)",
+        "planning/youtube/albums.md — карточки свода Гёрне (тома 4, 7, 8, 12)"
+      ],
+      "youtube": [
+        {"videoId": "UnnWTt2-QLU", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true, "duration_s": 356}
+      ],
+      "note": "Вторая версия того же певца; по правилу «при прочих равных — более ранняя» предпочтительна запись 1996 г."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "не установлен (два концертных релиза Wigmore Hall Live: WHLive0067, ℗2014, и WHLive0091 «Schubert 4», ℗2018)",
+      "year_source": "Карточка реестра planning/youtube/albums.md: «в WHLive0067 D 259 и D 296 идут в одной программе (треки 17 и 19)»; даты самих концертов не установлены. Двум разным длительностям на YouTube (381 и 404 с) соответствуют два разных концертных диска.",
+      "album": "Songs by Schubert (Wigmore Hall Live WHLive0067) / Schubert 4 (WHLive0091)",
+      "label": "Wigmore Hall Live",
+      "age_voice": "~48–53 года (р. 1964); пик по дайджесту ~1995–2010, то есть обе записи уже за пиком — тон суше и манернее.",
+      "reputation": "Дайджест прямо помечает поздние годы певца как «интеллектуально, но манернее/суше». Отдельных рецензий на эти треки не найдено.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Wigmore Hall Live (WHLive0067 / WHLive0091)",
+        "yt-check: N8_MGw4-szA и aM28wK48TiY — канал «Ian Bostridge - Topic»"
+      ],
+      "youtube": [
+        {"videoId": "N8_MGw4-szA", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "duration_s": 381},
+        {"videoId": "aM28wK48TiY", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "duration_s": 404}
+      ],
+      "note": "Концертные записи; годы не документированы — потребуется диапазон со знаком вопроса, если запись войдёт в пятёрку."
+    },
+    {
+      "singer": "Mauro Peter",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2015 (издание 14.08.2015; сессия не установлена)",
+      "year_source": "MusicBrainz: релиз Sony Classical «Goethe Lieder», 2015-08-14; карточка реестра planning/youtube/albums.md (Sony Classical 88875083882, 2015).",
+      "album": "Schubert: Goethe Lieder (Sony Classical 88875083882)",
+      "label": "Sony Classical",
+      "age_voice": "28 лет (р. 1987) — дебютный сольный диск, молодой лирический тенор в отличной форме.",
+      "reputation": "Единственный кандидат с датой «не ранее 2015» и official-загрузкой, покрывающий требование возрастной структуры топ-5. Пресса о нём — преимущественно промо-типа; по правилу о скепсисе к современным нуждается в проверке слухом.",
+      "sources": [
+        "MusicBrainz: recording 153bf309-fbb9-4db7-9024-be561e5de012 (307 c), релиз Sony Classical «Goethe Lieder» (2015-08-14)",
+        "planning/youtube/albums.md — карточки альбома (по D 216, D 225, D 226)"
+      ],
+      "youtube": [
+        {"videoId": "uH_3wI4Ly9c", "channel": "Mauro Peter - Topic", "official": true, "oembed_ok": true, "duration_s": 308}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Katharina Konradi",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "не установлен (релиз 28.04.2023)",
+      "year_source": "Описание official-загрузки (Provided to YouTube by Kontor New Media; «℗ Berlin Classics, a label of Edel Music & Entertainment GmbH»; «Released on: 2023-04-28»), альбом «Insomnia». Год сессии по буклету не проверен.",
+      "album": "Insomnia (Berlin Classics) — целиком шубертовская программа",
+      "label": "Berlin Classics (edel)",
+      "age_voice": "~34 года (р. 1988) — молодое лирическое сопрано в форме.",
+      "reputation": "Дайджест фиксирует альбом как полностью шубертовский; критических оценок не найдено. Правило о скепсисе к пиару современных применимо.",
+      "sources": [
+        "Метаданные official-загрузки ergekGSvzGM (Berlin Classics, релиз 2023-04-28, Konradi/Bushakevitz)",
+        "planning/research/singers-digest.md — карточка Konradi"
+      ],
+      "youtube": [
+        {"videoId": "ergekGSvzGM", "channel": "Katharina Konradi - Topic", "official": true, "oembed_ok": true, "duration_s": 289}
+      ],
+      "note": "Второй кандидат «не ранее 2015»."
+    },
+    {
+      "singer": "Ulf Bästlein",
+      "pianist": "Stefan Laux",
+      "rec_year": "1999 (издание 22.11.1999)",
+      "year_source": "MusicBrainz: релиз Naxos «Schubert-Lieder-Edition, Volume 3: Goethe-Lieder, Volume 1» (8.554665), 1999-11-22; тот же трек в боксе «Franz Schubert: The Complete Lieder» (8.503801, 2011-11).",
+      "album": "Deutsche Schubert-Lied-Edition, т. 3 «Goethe-Lieder, Vol. 1» (Naxos 8.554665)",
+      "label": "Naxos",
+      "age_voice": "год рождения певца в проекте не верифицирован; голос — крепкий баритон немецкой школы, документальная, а не «звёздная» манера.",
+      "reputation": "Том полного немецкоязычного свода под руководством Ulrich Eisenlohr — референс по полноте, не по вокальному блеску.",
+      "sources": [
+        "MusicBrainz: recording 169fb6cd-42b7-4222-972b-0a97df908c81 (307 c)",
+        "planning/youtube/albums.md — карточки Naxos 8.554665"
+      ],
+      "youtube": [
+        {"videoId": "oRT4IDg8fns", "channel": "Ulf Bästlein - Topic", "official": true, "oembed_ok": true, "duration_s": 308, "note": "заголовок прямо помечает «(2nd setting)» — надёжное различение D 296 и D 259"}
+      ],
+      "note": "Резерв: гарантированно корректная атрибуция редакции, но исполнительский уровень ниже верхушки пула."
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "David Lutz",
+      "rec_year": "не установлен (релиз 04.06.2021 на Preiser)",
+      "year_source": "MusicBrainz: релиз Preiser Records «Robert Holl singt Schubert Lieder mit Texten von Johann Wolfgang von Goethe», 2021-06-04. Карточка реестра предупреждает: Preiser часто издаёт архивные ленты, сессия может быть заметно раньше релиза.",
+      "album": "Robert Holl singt Schubert-Lieder auf Texte von Goethe (Preiser)",
+      "label": "Preiser Records",
+      "age_voice": "если сессия близка к релизу — 73–74 года (р. 1947), далеко за пиком (~1980–2005); при архивном происхождении возраст может быть существенно меньше — не установлено.",
+      "reputation": "Холл — патриарх Шубертиады, «гранитная» манера (дайджест). Оценок именно этого альбома не найдено.",
+      "sources": [
+        "MusicBrainz: recording 7387db44-c603-44ac-9679-4d1c8a2d1e2c (322 c)",
+        "planning/youtube/albums.md — карточки Preiser 2021 (по D 216, D 226), включая предупреждение о дате"
+      ],
+      "youtube": [
+        {"videoId": "P5NN7a73T5Y", "channel": "Robert Holl - Topic", "official": true, "oembed_ok": true, "duration_s": 323}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2017 (сессии 18–21 декабря 2017, All Saints' Church, East Finchley; издание май 2022)",
+      "year_source": "Карточка реестра planning/youtube/albums.md (Hyperion CDA68169, запись 18–21.12.2017, издание V.2022); MusicBrainz: релиз Hyperion «21 Songs», 2022-05-06.",
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "label": "Hyperion",
+      "age_voice": "49 лет (р. 1968), внутри зрелого пика (~2005–наст.).",
+      "reputation": "Gramophone об альбоме: «with an underlying tension», «doesn't sugar-coat anything»; BBC Music Magazine: «every note is delivered with white-hot sincerity» (цитаты — карточка реестра по данным страницы Hyperion).",
+      "sources": [
+        "planning/youtube/albums.md — карточка CDA68169 с пресс-цитатами",
+        "MusicBrainz: пять отдельных recordings (adb9985a…, bf10bd42…, bf553a25…, e6d57410…, f123ac94…), релиз Hyperion «21 Songs» (2022-05-06)"
+      ],
+      "youtube": [
+        {"videoId": "u_kpbui6j_A", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": null, "duration_s": 41, "note": "строфа a"},
+        {"videoId": "0BpQ2p91MYE", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": null, "duration_s": 42, "note": "строфа b"},
+        {"videoId": "WlcGTNq5zwQ", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": null, "duration_s": 64, "note": "строфа c"},
+        {"videoId": "UVvJyLm6Yq4", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": null, "duration_s": 75, "note": "строфа d"},
+        {"videoId": "UZKE0orMkGQ", "channel": "Alice Coote - Topic", "official": true, "oembed_ok": null, "duration_s": 94, "note": "строфа e"}
+      ],
+      "note": "ДИСКВАЛИФИЦИРУЮЩАЯ особенность для плеера: Hyperion разбил песню на ПЯТЬ отдельных треков по строфам (по 40–95 с), и на YouTube она существует только пятью роликами — цельного исполнения нет."
+    },
+    {
+      "singer": "Rafael Fingerlos",
+      "pianist": "Sascha El Mouissi",
+      "rec_year": "не установлен (лайв-запись на официальном канале певца)",
+      "year_source": "Дискографического источника не найдено; дата концерта не документирована.",
+      "album": "нет (концертная видеозапись)",
+      "label": null,
+      "age_voice": "молодой австрийский баритон; данных в дайджесте нет.",
+      "reputation": "Не изучена; 7802 просмотра — самая заметная любительская/концертная загрузка после фан-переносов Фишера-Дискау.",
+      "sources": ["yt-dlp ytsearch: lszuXAxK5uI, канал rafaelfingerlosofficial"],
+      "youtube": [
+        {"videoId": "lszuXAxK5uI", "channel": "rafaelfingerlosofficial", "official": true, "oembed_ok": true, "duration_s": 152, "note": "152 с — вдвое быстрее всех остальных; вероятно исполняются не все строфы"}
+      ],
+      "note": "Не кандидат в топ-5: нет издания, нет года, урезанная длительность."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ ЗАПИСЫВАЛ. Полный трек-лист его «Schubert: Goethe-Lieder» (RCA 09026 618642, сессии 25–26 и 28–29.05.1993, изд. 1995) — 13 номеров (Der Sänger; 3 Gesänge des Harfners; Prometheus; Ganymed; Grenzen der Menschheit; Erlkönig; Szene aus Faust; Der Zwerg; Auf dem Wasser zu singen; Liedesend; Der Musensohn), An den Mond отсутствует [Discogs release 8778752]. Второй источник шубертовских номеров вне шести его Schubert-альбомов — «Widmung — Romantische Lieder» (DG, 2003/2004): 24 трека, Шуберт представлен D 686, D 257, D 550, D 882, D 853, D 799, D 795/7 — D 296 нет [Discogs release 9880429]. MusicBrainz по работе D 296 (21 запись) Квастхофа не содержит; yt-dlp «Quasthoff An den Mond Schubert» не даёт ни одного ролика с ним.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ, минимум дважды (вероятно трижды): (1) с Gerald Moore в полном своде DG «Sämtliche Lieder» (1966–72), MB recording 8af02e99…, 298 с; (2) с Jörg Demus, DG SLPM 138 117 «Ein Schubert-Goethe-Liederabend» (сессии 13–14.09.1959) — песня стоит на стороне B, трек 2 [Discogs release 3208268], MB recording 09b7fa12…, 293 с; (3) с Karl Engel, живой стокгольмский концерт 1970 (Orfeo C 389 951 B) — MB recording 2d285bd8… привязана к работе D 296, но напечатана как «D 369» (опечатка MB, требует сверки с буклетом).",
+    "Elisabeth Schwarzkopf": "НЕ НАЙДЕНО. MusicBrainz по работе D 296 её не содержит; в реестре альбомов проекта её шубертовские позиции (Columbia 33CX 1040 с Э. Фишером 1952; Song Book Vol. 1/2; «Songs I Love» 1970–73; Orfeo-лайв) не включают этой песни; yt-dlp «Schwarzkopf An den Mond Schubert» не даёт ни одного её ролика; Discogs-поиск по треку «An den Mond» + Schwarzkopf возвращает только сборники без этой песни.",
+    "Hans Hotter": "НЕ НАЙДЕНО (записывал ДРУГУЮ песню). Discogs-поиск даёт Hotter/Altmann «Der Wanderer an den Mond» D 870 (Preiser) — иное сочинение; yt-dlp «Hotter An den Mond Schubert» возвращает только D 870. MusicBrainz по D 296 его не содержит. В реестре альбомов группы его сессий EMI 1949 / 1954 / 1957 D 296 не значится.",
+    "Peter Anders": "НЕ НАЙДЕНО. MusicBrainz по D 296 его не содержит; yt-dlp «Peter Anders An den Mond Schubert» не даёт ни одного его ролика; Discogs по треку — только антологии без этой песни. Косвенно: его шубертовское наследие — циклы (Winterreise 1945, Müllerin 1945/1948), отдельные гётевские песни в записи не документированы.",
+    "Elisabeth Schumann": "НЕ НАЙДЕНО. MusicBrainz по D 296 её не содержит; в дайджесте её корпус — ~28 песен HMV 1927–49, D 296 в реестре альбомов проекта не встречается; Discogs-поиск по треку даёт только сборные антологии (Diapason, Intense Media) без этой песни.",
+    "Christa Ludwig": "ЗАПИСЫВАЛА — с Irwin Gage, DG 2530 528 «Schubert-Lieder 2» (℗1975), D 296 — сторона B, трек 6, 4:45 [Discogs release 7569118]; CD-переиздание DG «Lieder» (1991). Официальная загрузка UMG: eod0KKkqJNc. Это единственная запись песни среди приоритетных певиц по списку правил.",
+    "Lucia Popp": "НЕ ЗАПИСЫВАЛА. Её шубертовский рецитал с Irwin Gage (EMI/HMV 27 0067 1) записан 1–6.XI.1983 в Abbey Road; полный трек-лист из 16 номеров содержит «Der Wanderer an den Mond D 870», но не D 296 [Discogs releases 6176352 и 4516443]. MusicBrainz по D 296 её не содержит; yt-dlp «Lucia Popp An den Mond Schubert» даёт только D 870 и Дворжака."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (21 CD) / LP DG 2530 229 «Lieder nach Texten von Goethe»",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–1972 (конвенция проекта — 1969)",
+      "label": "Deutsche Grammophon",
+      "facts": "Полный свод всех «мужских» песен Шуберта с Джералдом Муром, Ufa-Ton-Studio Berlin; женские песни сознательно исключены. Гётевский блок — LP 2530 229 (℗1970); по Грею сессии соответствующего тома — 16–17.12.1966 и 2–10.01.1967. На YouTube выложен параллельными релизами с идентичной фонограммой (три разных videoId для D 296).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1959 (сессии 13–14 сентября, Studio Lankwitz, Берлин; издание 1960)",
+      "label": "Deutsche Grammophon",
+      "facts": "Целиком гётевская программа из 12 номеров с Йоргом Демусом; «An den Mond» — сторона B, трек 2. Переиздано в серии DG «The Originals» (457 747-2) и в боксе «Complete Lieder Recordings on DG» (2022). НОВЫЙ ФАКТ ДЛЯ РЕЕСТРА: подтверждено, что альбом содержит D 296.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 1 — Goethe & Schiller Settings (CDJ33001)",
+      "singer": "Janet Baker",
+      "year": "1987 (запись февраль, Elstree; издание декабрь 1987)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Открывающий том 37-томного свода Грэма Джонсона (фортепиано и научные комментарии); продюсер Martin Compton, инженер Antony Howell, 67'57. Gramophone Award; № 1 в «Top Ten Discs of the Decade» BBC Music Magazine.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert-Lieder 2 (DG 2530 528)",
+      "singer": "Christa Ludwig",
+      "year": "1975 (℗ Polydor International; сессия не установлена, дайджест предполагает ~1973)",
+      "label": "Deutsche Grammophon",
+      "facts": "Второй том её DG-рецитала с Ирвином Гейджем, продюсер Cord Garben; 14 номеров, D 296 — B6 (4:45). НОВАЯ карточка для реестра (в реестре у Людвиг значился только EMI-круг 1957–69).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "An die Musik — Schubert Lieder (Philips 410 037-2)",
+      "singer": "Elly Ameling",
+      "year": "1983 (℗; цифровая запись)",
+      "label": "Philips (Universal)",
+      "facts": "13 номеров с Далтоном Болдуином; D 296 — трек 5 (4:55), D 226 — трек 8. Материал повторно издан на 3-CD «Schubert Liederen» (Philips 464 334-2, 1999), диск 3 трек 5. Карточка уже была в реестре по D 226 — теперь подтверждено включение D 296.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Maureen Forrester — RIAS Recordings (Audite 21.437, 3 CD)",
+      "singer": "Maureen Forrester",
+      "year": "1955 (сессия 7 декабря 1955, RIAS Берлин; издание 2016)",
+      "label": "Audite",
+      "facts": "Шубертовский блок из 11 песен, записанных в один день с Михаэлем Раухайзеном; «An den Mond D 296» — № 10. НОВАЯ карточка для реестра: открывает исторический (радийный) слой для гётевских песен корпуса и даёт точную дату сессии.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Goethe-Lieder (Nonesuch 9 79317-2)",
+      "singer": "Dawn Upshaw",
+      "year": "1994 (℗ Elektra Entertainment; релиз 19.04.1994)",
+      "label": "Nonesuch / Warner",
+      "facts": "Гётевская программа (Шуберт, Шуман, Вольф, Моцарт) с пианистом Ричардом Гудом; D 296 — трек 12 (4:47). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 15 Lieder (Nuova Era; переизд. Brilliant Classics)",
+      "singer": "Gundula Janowitz",
+      "year": "не установлен (пресcинги Nuova Era 1990; ℗2009 на переиздании)",
+      "label": "Nuova Era / Brilliant Classics",
+      "facts": "Пианист Charles Spencer; самая протяжённая трактовка пула (5'46\"). Лицензировано Brilliant Classics в сборники «Lieder» (1999) и «The Masterworks» (2004). Год сессии требует буклета.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder (Orfeo)",
+      "singer": "Christine Schäfer",
+      "year": "1997 (издание 15.09.1997; сессия не установлена)",
+      "label": "Orfeo",
+      "facts": "Пианист Irwin Gage — тот же, что у Христы Людвиг в записи 1975 г. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Insomnia (Berlin Classics)",
+      "singer": "Katharina Konradi",
+      "year": "2023 (релиз 28.04.2023; сессия не установлена)",
+      "label": "Berlin Classics (edel), дистрибуция Kontor New Media",
+      "facts": "Целиком шубертовская программа с Ammiel Bushakevitz. НОВАЯ карточка для реестра (в дайджесте альбом упоминался без года/лейбла-подтверждения).",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: 21 Songs (Hyperion CDA68169)",
+      "singer": "Alice Coote",
+      "year": "2017 (сессии 18–21 декабря; издание май 2022)",
+      "label": "Hyperion",
+      "facts": "Уже в реестре по D 224/D 259/D 768. Важная особенность издания: и D 259, и D 296 разбиты на отдельные треки по строфам — на YouTube D 296 существует только пятью роликами по 40–95 секунд, цельного исполнения нет.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "source": "klassik-prisma.de (Bernd Stremmel), раздел Schubert",
+      "url": "https://www.klassik-prisma.de/Schubert.htm",
+      "finding": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ: сравнительной страницы (Vergleich) для «An den Mond» нет. Полный список шубертовских песенных страниц сайта: Auf dem Wasser zu singen, Der Hirt auf dem Felsen, Die junge Nonne, Erlkönig, Gretchen am Spinnrade, Gruppe aus dem Tartarus, Nacht und Träume, плюс оба цикла. Балльных оценок для D 296 не существует."
+    },
+    {
+      "source": "Hyperion Records — страница альбома CDJ33001 (Hyperion Schubert Edition Vol. 1)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33001",
+      "finding": "Пресс-цитаты по альбому Бейкер/Джонсона (Penguin Guide, The Guardian, The Times). Потрековой страницы песни на сайте открыть не удалось (поиск hyperion выдаёт ошибку «URL not available»)."
+    },
+    {
+      "source": "audite.de — страница издания 21.437 «Maureen Forrester — RIAS Recordings»",
+      "url": "https://www.audite.de/en/product/CD/21437-maureen_forrester_-_rias_recordings.html",
+      "finding": "Состав шубертовского блока (11 песен, № 10 — An den Mond D 296), аккомпаниатор Михаэль Раухайзен; цитата рецензии о нижнем регистре певицы именно в этой песне."
+    }
+  ],
+  "negatives": [
+    "Квастхоф песню не записывал — топ-1 приоритета в этой песне вакантен (проверено по трек-листам обоих релевантных альбомов, MB и YouTube).",
+    "Из приоритетного списка правил песню записали только Фишер-Дискау (2–3 версии) и Криста Людвиг. Шварцкопф, Хоттер, Андерс, Э. Шуман и Попп — отрицательные результаты с источниками (см. priority_singers_checked).",
+    "У Попп и Хоттера в дискографии есть «Der Wanderer an den Mond» D 870 — типичная ловушка при поиске; их к D 296 отнести нельзя.",
+    "Сравнительных обзоров/слепых тестов по D 296 не существует: klassik-prisma страницы не имеет; Gramophone/MusicWeb/BBC Music Magazine проверить прямым поиском не удалось — лимит WebSearch в сессии исчерпан (200/200), DuckDuckGo и Mojeek отдают CAPTCHA/403, Bing выдаёт нерелевантную выдачу, prestomusic — 403.",
+    "Дискография Майкла Грея (classical-discography.org) в этой сессии недоступна для поиска: search2.php возвращает HTTP 500 (прямые modalcontent.php?id=… открываются). Из-за этого точные даты сессий Людвиг/Гейдж и тома свода Ф.-Дискау с D 296 остались непроверенными по матрицам.",
+    "Метаданные YouTube для отдельных роликов (yt-dlp -J, парсинг watch-страницы) с середины сессии заблокированы бот-проверкой YouTube; часть роликов идентифицирована только по длительности и результатам ytsearch. Идентификация I98oKVJ3CPI (Fischer-Dieskau, 289 c) не завершена.",
+    "Запись Алисы Коут (Hyperion 2022) технически непригодна для плеера: песня издана и выложена пятью отдельными треками по строфам.",
+    "Существует оркестровая версия в аранжировке Макса Регера (Stefanie Iranyi — Topic, pZMujL8YQew, 251 c) — по правилам это запись с непианистическим сопровождением; в основной пул не включена.",
+    "Сара Уокер / Роджер Виньолес: MusicBrainz привязывает их D 296 (309 c) к сборникам Brilliant Classics «Lieder» (1999) и «The Masterworks» (2004) — лицензионным компиляциям; исходное издание и год сессии не установлены, official-загрузки на YouTube не найдено (есть только фан-подборка «6 Goethe Lieder»).",
+    "Герман Прай и Петер Шрайер в своих гётевских программах (Philips 6573 010; Eterna «Lieder nach Goethe») записали D 259, а не D 296 — по трек-листам в реестре альбомов и по названиям Topic-загрузок.",
+    "Кристоф Прегардьен (DHM «Songs to Poems by Goethe», 1994, Штайер) — на Topic-канале только D 259 (VwaCnEpRNUY, 206 c); D 296 не найден.",
+    "Ангелика Кирхшлагер, Анна Лючия Рихтер, Андре Шуэн, Анна Прохазка, Ханнелиза/Аннелизе Ротенбергер и др. в выдаче по «An den Mond» поют D 259, D 193 или D 870 — не D 296."
+  ]
+}

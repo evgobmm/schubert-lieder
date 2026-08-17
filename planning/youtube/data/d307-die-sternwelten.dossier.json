@@ -1,0 +1,81 @@
+{
+ "d": "307",
+ "title": "Die Sternwelten (Die Sternenwelten)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–72",
+   "year_source": "реестр/дайджест: DG «Sämtliche Lieder»",
+   "album": "Schubert: Sämtliche Lieder (DG)",
+   "label": "DG",
+   "voice_note": "пик формы",
+   "reputation": "эталонный свод",
+   "videoId": "Oh0V_dT7JJ0",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Bernarda Fink",
+   "pianist": "Gerold Huber",
+   "rec_year": "2007",
+   "year_source": "реестр: albums.md/female-recitalists.md (harmonia mundi HMC 901991, сент. 2007, Teldex Berlin, изд. 28.08.2008)",
+   "album": "Schubert: Lieder (harmonia mundi)",
+   "label": "harmonia mundi",
+   "voice_note": "приоритетная зона — пик формы (дайджест: ~1995–2015)",
+   "reputation": "альбом с сильной репутацией (её Gretchen — со-победитель слепого теста 2020 по дайджесту), сама песня отдельно не рецензирована",
+   "videoId": "3uRLrEoj4qI",
+   "channel": "Bernarda Fink - Topic",
+   "official": true
+  },
+  {
+   "singer": "Robin Tritschler",
+   "pianist": "Malcolm Martineau",
+   "rec_year": "не установлен",
+   "year_source": "нет",
+   "album": "«Song's First Cycle»",
+   "label": "The Orchard Enterprises",
+   "voice_note": "см. досье D304",
+   "reputation": "не исследована отдельно",
+   "videoId": "mXknN18sheY",
+   "channel": "Robin Tritschler - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elizabeth Connell",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "южноафриканско-британское драматическое сопрано (1946–2012), оперная карьера (Верди/Вагнер) — Lieder не основной репертуар; описание видео не удалось получить (YouTube временно блокировал yt-dlp: HTTP 429/бот-проверка)",
+   "reputation": "не исследована — низкая уверенность в релевантности",
+   "videoId": "j5k7hxxUIEk",
+   "channel": "Elizabeth Connell - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolf Matthias Friedrich",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "немецкий бас-баритон (специализация — Бах/барокко); описание видео недоступно (см. выше про блокировку yt-dlp)",
+   "reputation": "не исследована",
+   "videoId": "pRdxIa5NMSE",
+   "channel": "Wolf Matthias Friedrich - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "нет",
+  "fischer_dieskau": "есть (DG Sämtliche Lieder, Moore)",
+  "schwarzkopf_hotter_anders_schumann_ludwig_popp": "не найдены"
+ },
+ "new_albums": [
+  "Bernarda Fink — Schubert: Lieder (harmonia mundi, 2007/2008) — уже в реестре (по D 828), дополняется D307.",
+  "Elizabeth Connell — Topic-канал с Schubert-Lieder; конкретный альбом не установлен (требует отдельного доисследования, не первоочередного для rare-песни)."
+ ],
+ "note": "MusicBrainz по D307 не дал артистов (mb.json отсутствовал) — пул целевым поиском yt-dlp расширен с 1 до 8+ кандидатов. Видео от «José Navarro-Forcada» (videoId S3vtFgIGMjw) при непрозрачном канале по факту оказалось загрузкой записи Fischer-Dieskau/Moore (подтверждено описанием ролика: «Dietrich Fischer-Dieskau, bariton. Gerald Moore, piano.») — фанатский повтор того же DG-трека, отдельным кандидатом не считается."
+}

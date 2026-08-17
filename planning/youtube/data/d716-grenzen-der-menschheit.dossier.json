@@ -1,0 +1,592 @@
+{
+  "d": "716",
+  "title": "Grenzen der Menschheit",
+  "research_limits": [
+    "Бюджет WebSearch сессии был исчерпан до начала работы (200/200) — веб-исследование велось только через WebFetch по конкретным URL, MusicBrainz API, Discogs API и yt-dlp. Поисковые движки (Google/DuckDuckGo) из контейнера недоступны (consent-редирект).",
+    "Discogs API жёстко троттлил запросы в конце сессии — часть дат сессий (Frick/SWR, Selig/Avi, Holl/Lutz, Lorenz/Eterna, Goerne «Sehnsucht») осталась неустановленной; в этих карточках стоит год издания с явной пометкой.",
+    "Сравнительного обзора песни на klassik-prisma.de не существует (проверено по индексу https://www.klassik-prisma.de/Schubert.htm — записи о D 716 нет)."
+  ],
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Charles Spencer",
+      "rec_year": 1993,
+      "year_source": "Сессии 25–26 и 28–29 мая 1993, Historischer Reitstadel, Ноймаркт; RCA Victor Red Seal 09026 618642, издание 1995 (карточка альбома в planning/youtube/albums.md; треклист издания — https://api.discogs.com/releases/8778752). Метаданные официальной Topic-загрузки: album «Schubert: Goethe-Lieder», ℗ 1993.",
+      "album": "Schubert: Goethe-Lieder",
+      "label": "RCA Victor Red Seal / BMG",
+      "age_voice": "33–34 года; ровно в начале пика по дайджесту (пик ~1993–2007). Голос свежий, ровный, крупного бас-баритонового формата.",
+      "reputation": "Первый из шести шубертовских альбомов Квастхофа; в реестре зафиксирован как опорное издание для всех гётевских песен корпуса. По klassik-prisma альбом получил 4 балла за Erlkönig с замечанием о шершавом нижнем регистре — для D 716, где вокальная линия часто уходит вниз, это замечание релевантно и должно проверяться на слух. Пиар-фактор минимален: оценка старая, не релизная.",
+      "sources": [
+        "planning/youtube/albums.md (три карточки альбома Quasthoff / Goethe-Lieder)",
+        "https://api.discogs.com/releases/8778752",
+        "MusicBrainz: recording b40b6dda-2aca-4ab3-a61e-4afc57311973 (Quasthoff/Spencer, 472 с)",
+        "yt-dlp metadata VBbpZjeBYh4"
+      ],
+      "youtube": [
+        {
+          "videoId": "VBbpZjeBYh4",
+          "channel": "Thomas Quasthoff - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Высший приоритет по правилам. Запись существует и доступна официально — вопрос об исключении может стоять только по качеству."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "Полный свод DG «Sämtliche Lieder», сессии Ufa-Ton-Studio, Берлин, декабрь 1966 – март 1969 (гётевский блок); официальные Topic-кредиты: ℗ 1969 Deutsche Grammophon GmbH, Berlin. Сквозной год свода в корпусе проекта — 1969 (см. planning/youtube/albums.md и десятки досье пилота).",
+      "album": "Schubert: Sämtliche Lieder (Goethe-Lieder / «Schubert: Lieder», «Schubert: Goethe Lieder», «Schubert: Lieder Vol. 2»)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "43–44 года; середина пика (~1951–1972). Полный, гибкий баритон, декламация на высоте — идеальное состояние для гимнической декламации Гёте.",
+      "reputation": "Каноническая версия песни: в MusicBrainz по work c0d5195b именно FD/Moore представлены двумя карточками, все остальные — единичные. Свод DG — общепризнанный эталон мужского шубертовского репертуара. Специализированного сравнительного обзора именно этой песни не найдено, поэтому оценка опирается на статус издания, а не на рецензию.",
+      "sources": [
+        "MusicBrainz: recordings d15b6409-b05d-4114-9afa-692c5182e111 (486 с) и ff94178f-6a15-4719-beb0-160d3f0e051c (491 с), обе — Fischer-Dieskau/Moore",
+        "planning/youtube/albums.md — карточка DG «Sämtliche Lieder» (21 CD, сессии 1966–1972, Ufa-Ton-Studio Berlin)",
+        "yt-dlp metadata hpxpnJW-2V8 / OcaLa2yvgwU / 35SSIRheERU / RuPJ6KSjSf0 (все ℗-грифы указывают 1969)"
+      ],
+      "youtube": [
+        {
+          "videoId": "OcaLa2yvgwU",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "hpxpnJW-2V8",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "35SSIRheERU",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "RuPJ6KSjSf0",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Рекомендуемый ID — OcaLa2yvgwU (альбомный контейнер «Schubert: Goethe Lieder», 486 с, наиболее адресный). Расхождение длительностей 486 vs 491 с — разные мастеринги/склейки одной сессии, а не две сессии: обе карточки MB подписаны одним составом. Отдельно существует непроверенная загрузка 5wDBRh5G2Ko (канал «Dietrich Fischer-Dieskau and Gerald Moore - Topic», 433 с) — существенно короче свода DG; происхождение не установлено (yt-dlp заблокирован ботовой проверкой), к публикации без доисследования не годится."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Walter Martin",
+      "rec_year": 1961,
+      "year_source": "Буклетная заметка издания Orfeo d'Or C 507 991 B (1999): «Eine Aufnahme des Norddeutschen Rundfunks vom 18. Februar 1961, Beethovensaal der Stadthalle Hannover» — https://api.discogs.com/releases/15036726. Grenzen der Menschheit — трек 1 программы, 7:00, что совпадает с 421 с Topic-загрузки.",
+      "album": "Lieder Abend (Schubert, Brahms, Wolf, Loewe, Strauss) — на YouTube как «Schubert, Brahms & Strauss: Lieder (Live)»",
+      "label": "Orfeo d'Or",
+      "age_voice": "51 год (р. 19.01.1909). По дайджесту пик ~1942–1955; к 1961 голос тяжелее и менее гибкий, но именно в гимнической, медленной, низко лежащей декламации D 716 это скорее актив, чем изъян. Живой концерт — риск неровностей.",
+      "reputation": "Орфеевская серия d'Or — авторитетные архивные издания радиофондов. Песня открывала концертную программу целиком «философским» гётевским блоком (Grenzen, Wandrers Nachtlied, Prometheus, Gruppe aus dem Tartarus) — исторически ценный документ поздней большой эпохи Хоттера. Специализированной рецензии на этот трек не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/15036726 (Orfeo C 507 991 B, notes + tracklist)",
+        "planning/youtube/albums/male-recitalists.md — карточка «Hotter — Liederabend (Orfeo d'Or C 507 991 B, изд. 1999)»; настоящее исследование закрывает стоявший там знак вопроса о дате и происхождении концерта",
+        "yt-dlp metadata 3aOLUjh-oqs"
+      ],
+      "youtube": [
+        {
+          "videoId": "3aOLUjh-oqs",
+          "channel": "Hans Hotter - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "mM3rfCbP6Mk",
+          "channel": "Stefan Löhr",
+          "official": false,
+          "oembed_ok": true
+        }
+      ],
+      "note": "ВАЖНО: фан-загрузка mM3rfCbP6Mk (433 с) описывает ту же дату 18.02.1961, но приписывает партию фортепиано Джеральду Муру. Это противоречит буклету Orfeo (Walter Martin). Правило верификации: источник — буклет/каталог лейбла, а не описание загрузки; принимаем Walter Martin. Публиковать следует Topic-версию 3aOLUjh-oqs."
+    },
+    {
+      "singer": "Kurt Moll",
+      "pianist": "Cord Garben",
+      "rec_year": 1982,
+      "year_source": "Год ИЗДАНИЯ: Orfeo S 021821 A, 1982 (https://api.discogs.com/releases/8090363; тот же альбом — переиздания C 021 821 A, 1986, и M 021821 A, 1982). Год сессии дискографически не установлен. Grenzen der Menschheit — трек A8. MusicBrainz-карточка f5ae066a (первый релиз 1987-04-06) относится к CD-переизданию.",
+      "album": "Schubert: Lieder für Bass / Lieder for Bass",
+      "label": "Orfeo",
+      "age_voice": "≈43–44 года (р. 11.04.1938) — зрелый пик знаменитого чёрного баса. Голос ровный, с полноценным низом, который эта песня требует буквально.",
+      "reputation": "Редчайший специализированный басовый шубертовский рецитал (Prometheus, Gruppe aus dem Tartarus, Fahrt zum Hades, Grenzen der Menschheit и др.). По статье о Молле в Wikipedia запись «set a new standard for these songs» — цитата зафиксирована в реестре альбомов проекта. Для D 716 — вероятно сильнейший «басовый» кандидат.",
+      "sources": [
+        "https://api.discogs.com/releases/8090363 (Orfeo S 021821 A, 1982, треклист)",
+        "planning/youtube/albums/male-recitalists.md, строка «Moll — Schubert: Lieder for Bass (Orfeo S 021821 A, изд. 1982)»",
+        "MusicBrainz: recording f5ae066a-0969-4adb-aa77-56e40300b5f6 (Moll/Garben, 487 с)",
+        "yt-dlp metadata zD23R5S0aDA (album «Schubert: Lieder für Bass»)"
+      ],
+      "youtube": [
+        {
+          "videoId": "zD23R5S0aDA",
+          "channel": "Kurt Moll - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Год в плеере — 1982 (год издания по правилу, сессия не документирована)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Elisabeth Leonskaja",
+      "rec_year": 2008,
+      "year_source": "Год ИЗДАНИЯ: harmonia mundi HMC 901988, «Sehnsucht» — том 1 Matthias Goerne Schubert Edition, релиз 14.03.2008 (MusicBrainz recording 940e862e, first-release 2008-03-14; карточка в planning/youtube/albums/complete-editions.md). Год сессии не установлен (в реестре стоит предположение «вероятно 2007?»).",
+      "album": "Schubert: Sehnsucht (Matthias Goerne Schubert Edition, Vol. 1)",
+      "label": "harmonia mundi",
+      "age_voice": "≈40 лет (р. 31.03.1967) — середина пика (~1997–2015). Тёмный, «замшевый» баритон, крупная фразировка; типичный для Гёрне медленный темп (455 с) для этой песни органичен.",
+      "reputation": "Крупнейший сольный шубертовский свод последних десятилетий (12 томов, бокс 2016). Пресса ставит Гёрне первым Schubert-баритоном поколения — по правилу проекта такие оценки фильтруются как отчасти маркетинговые; объективный плюс — участие Леонской, пианистки первого ряда, редкой в песенном репертуаре.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md — «Goerne — Vol. 1 «Sehnsucht» (HMC 901988, зап. ?, изд. 14.03.2008)»",
+        "MusicBrainz: recording 940e862e-8ffd-4b11-acdb-91c998c11e02 (455 с)",
+        "yt-dlp metadata SB7ida5mmrI (album «Schubert: Sehnsucht», ℗-год 2008)"
+      ],
+      "youtube": [
+        {
+          "videoId": "SB7ida5mmrI",
+          "channel": "Elisabeth Leonskaja - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Отдельно существует ОРКЕСТРОВАЯ версия Гёрне: qGwdM_8Zi7E, «Schubert Revisited» (DG/Deutsche Kammerphilharmonie Bremen, аранжировка Alexander Schmalcz, 2023) — не фортепианная, для топ-5 песни как исполнение оригинала не годится."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": 2014,
+      "year_source": "Год ИЗДАНИЯ: Onyx Classics ONYX 4131 «Schwanengesang», 2014 (https://api.discogs.com/releases/14752456; на диске отдельные блоки «Goethe Settings», «Gesänge des Harfners», «Heine-Lieder»). MusicBrainz recording ce09ef65, first-release 2014-11-10. Год сессии не установлен.",
+      "album": "Schubert: Schwanengesang (+ Goethe settings)",
+      "label": "Onyx Classics",
+      "age_voice": "≈42–43 года (р. 1971) — пик (~2010–наст.). Бас-баритон венской школы, сильная сторона — рассказ и слово, а не роскошь тембра.",
+      "reputation": "Третий том трилогии Бёша с Мартино на Onyx (Winterreise 2011, Müllerin 2013/14, Schwanengesang 2014/15). Бёш признан одним из ведущих рассказчиков поколения; в реестре проекта критика по другому его диску хвалила прежде всего пианиста в трудных аккомпанементах. Темп самый быстрый среди кандидатов (396 с) — стоит проверить, не теряется ли гимническая весомость.",
+      "sources": [
+        "https://api.discogs.com/releases/14752456 (ONYX 4131, 2014)",
+        "planning/youtube/albums/modern-series.md — карточки трилогии Boesch/Martineau",
+        "MusicBrainz: recording ce09ef65-4287-4dde-b49a-a6365bc22b2e (396 с)",
+        "yt-dlp metadata FXwyqSiv0AU (album «Schubert: Schwanengesang», 2014)"
+      ],
+      "youtube": [
+        {
+          "videoId": "FXwyqSiv0AU",
+          "channel": "Florian Boesch - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Главный современный кандидат на «запись не ранее 1990» вместе с Гёрне; на роль «не ранее 2015» не подходит."
+    },
+    {
+      "singer": "Neal Davies",
+      "pianist": "Graham Johnson",
+      "rec_year": 1999,
+      "year_source": "Страница записи Hyperion CDJ33034: сессии январь 1999, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон (инженеры Antony Howell & Julian Millard) — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33034. Издание — январь 2000 (MusicBrainz recording 0fcf7c61, first-release 2000-01).",
+      "album": "The Hyperion Schubert Edition, Vol. 34 — «Schubert 1817–1821»",
+      "label": "Hyperion",
+      "age_voice": "Нил Дэвис (валлийский бас-баритон, р. 1966) — ≈32–33 года, ранняя зрелость; голос свежий, но известность несопоставима с приоритетными певцами.",
+      "reputation": "Научный эталон издания: 37-томный свод Грэма Джонсона с развёрнутым комментарием (в очерке к CDJ33034 песня разобрана в хронологическом блоке 1821 года; отдельных персональных заметок о треке на странице диска нет). Ценность прежде всего как аккомпаниаторская и текстологическая; вокально — не первый ряд.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33034",
+        "planning/youtube/albums/complete-editions.md — карточка Vol. 34",
+        "MusicBrainz: recording 0fcf7c61-c231-4473-89d7-976328bec9b9 (429 с)",
+        "yt-dlp metadata il3pZJ7hsOA (album «Schubert: Hyperion Song Edition 34 – Schubert 1817-1821»)"
+      ],
+      "youtube": [
+        {
+          "videoId": "il3pZJ7hsOA",
+          "channel": "Graham Johnson - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Официальное audio доступно с 2023 (Universal выкупил Hyperion)."
+    },
+    {
+      "singer": "Gottlob Frick",
+      "pianist": "Martin Görgen (по атрибуции Общества Готтлоба Фрика — НЕ подтверждено дискографией)",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Канал «Gottlob Frick (Gesellschaft)» (общество имени певца) указывает в описании загрузки Sl2E7Bwf-8A: «Am Klavier: Martin Görgen; 1949» — это описание загрузки, а не дискографический источник, и по правилам проекта не принимается как доказательство даты. Вторая линия — Topic-альбом «Schubert & Loewe: Lieder», ℗ 2014 SWR Classic Archive (радиофонд SWR, дата сессии в метаданных отсутствует). Поиск в Discogs результатов по этому изданию не дал (API троттлил).",
+      "album": "«Schubert & Loewe: Lieder» (SWR Classic Archive, ℗ 2014) — архивная радиозапись; отдельно — загрузка Общества Г. Фрика",
+      "label": "SWR Classic / Naxos of America (дистрибуция)",
+      "age_voice": "Фрик (1906–1994): если атрибуция 1949 верна — 43 года, расцвет «самого чёрного баса Германии»; если это более поздняя радиозапись SWR (1950-е) — по-прежнему высокая форма. Разброс длительностей загрузок (551 / 572 / 536 с) указывает, что это как минимум две разные записи.",
+      "reputation": "Фрик — легендарный немецкий бас, но песенное наследие маргинально относительно оперного; критических разборов его D 716 не найдено. Голосовой типаж (тёмный, монументальный) идеально отвечает тексту.",
+      "sources": [
+        "yt-dlp description Sl2E7Bwf-8A (Gottlob-Frick-Gesellschaft; заявлено «Martin Görgen; 1949»)",
+        "yt-dlp metadata/description HGKPbwzpJnE (album «Schubert & Loewe: Lieder», ℗ 2014 SWR Classic Archive)",
+        "yt-dlp metadata nhGw_qtngvQ (album «The Blackest Bass: Gottlob Frick Portrait», 2019)"
+      ],
+      "youtube": [
+        {
+          "videoId": "HGKPbwzpJnE",
+          "channel": "Gottlob Frick - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "nhGw_qtngvQ",
+          "channel": "Gottlob Frick - Topic",
+          "official": true,
+          "oembed_ok": true
+        },
+        {
+          "videoId": "Sl2E7Bwf-8A",
+          "channel": "Gottlob Frick (Gesellschaft)",
+          "official": false,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Кандидат «старой школы» с сильным типажом, но БЕЗ установленного года. По правилу о неустановленном годе такая запись публикуется только с диапазоном со знаком вопроса и лишь если она реально сильна; сначала нужно целевое доисследование (буклет SWR Classic, каталоги Electrola/Preiser)."
+    },
+    {
+      "singer": "Franz-Josef Selig",
+      "pianist": "Gerold Huber",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Официальные Topic-кредиты: «℗ Avi-Service for music, Cologne / Germany», альбом «Schubert & Strauss & Wolff: Prometheus Lieder»; год в ℗-грифе отсутствует, Topic-метка release_year — 2014 (метаданные загрузки, не дискография).",
+      "album": "Prometheus — Lieder (Schubert / Strauss / Wolf)",
+      "label": "Avi-Service for music (CAvi-music)",
+      "age_voice": "Зелиг (р. 1962) — на момент вероятной записи (около 2013–2014) ≈51 год, зрелый пик крупного немецкого баса; постоянный дуэт с Героль­дом Хубером — одним из сильнейших современных аккомпаниаторов.",
+      "reputation": "Программа целиком построена вокруг «прометеевского» комплекса, где D 716 — смысловой центр; концептуально самый релевантный современный альбом для этой песни. Критических оценок в доступных источниках не найдено (веб-поиск исчерпан).",
+      "sources": [
+        "yt-dlp description 4qVYDo5BR2s (Provided to YouTube by harmonia mundi; ℗ Avi-Service for music)"
+      ],
+      "youtube": [
+        {
+          "videoId": "4qVYDo5BR2s",
+          "channel": "Franz-Josef Selig - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Требует доисследования года (буклет CAvi). Потенциальный кандидат на современную позицию, если качество подтвердится на слух."
+    },
+    {
+      "singer": "Johannes Martin Kränzle",
+      "pianist": "Hilko Dumno",
+      "rec_year": 2013,
+      "year_source": "Год ИЗДАНИЯ по официальному ℗-грифу Topic-загрузки: «℗ 2013 Challenge Classics»; альбом называется по этой песне — «Schubert & Schumann: Grenzen der Menschheit». Год сессии не установлен.",
+      "album": "Schubert & Schumann: Grenzen der Menschheit",
+      "label": "Challenge Classics",
+      "age_voice": "≈51 год (р. 1962), зрелая форма; Кренцле — прежде всего оперный характерный баритон высокой репутации (Beckmesser), песенная дискография небольшая.",
+      "reputation": "Заглавие альбома показывает, что песня для исполнителя программная. Рецензий в доступе не найдено; репутация уступает основному ряду кандидатов.",
+      "sources": [
+        "yt-dlp description btQ4sk5k9zw (℗ 2013 Challenge Classics)",
+        "MusicBrainz по work c0d5195b записи Кренцле нет — карточка добавлена по официальному Topic-релизу"
+      ],
+      "youtube": [
+        {
+          "videoId": "btQ4sk5k9zw",
+          "channel": "Johannes Martin Kranzle - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Резерв."
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "David Lutz",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. MusicBrainz recording 59f502be, first-release 2021-06-04 — это цифровой релиз альбома «Robert Holl singt Schubert Lieder mit Texten von Johann Wolfgang von Goethe»; год сессии не документирован (Discogs API не отвечал). Голль (р. 1947) — патриарх Шубертиады, дуэт с Дэвидом Луцем относится к его венскому периоду, вероятно 1990-е–2000-е, но это предположение без источника.",
+      "album": "Robert Holl singt Schubert Lieder mit Texten von Johann Wolfgang von Goethe",
+      "label": "не установлен (цифровой релиз 2021)",
+      "age_voice": "Не оценивается без года записи. По дайджесту пик Голля ~1980–2005; «гранитная» бас-баритоновая манера, для этой песни органичная.",
+      "reputation": "Голль — один из главных басовых шубертианцев Хоэнемской школы, много редких песен. Конкретных оценок этой записи не найдено.",
+      "sources": [
+        "MusicBrainz: recording 59f502be-67f6-48f9-b974-a4bec9437df9 (482 с)",
+        "yt-dlp metadata 5mIEnmFePGY (album «Robert Holl singt Schubert Lieder mit Texten von Johann Wolfgang von Goethe», 2021)"
+      ],
+      "youtube": [
+        {
+          "videoId": "5mIEnmFePGY",
+          "channel": "Robert Holl - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Публикация возможна только после доисследования года."
+    },
+    {
+      "singer": "Ulf Bästlein",
+      "pianist": "Stefan Laux",
+      "rec_year": 1999,
+      "year_source": "Год ИЗДАНИЯ: Naxos Deutsche Schubert-Lied-Edition, т. 3 «Goethe, Vol. 1» (Naxos 8.554665, издание 11/1999; карточка в planning/youtube/albums/complete-editions.md). MusicBrainz recording c2db972b, first-release 1999-11-22. Для Naxos DSLE правило проекта предписывает год издания, пока сессия не установлена.",
+      "album": "Deutsche Schubert-Lied-Edition, Vol. 3: Goethe, Vol. 1",
+      "label": "Naxos",
+      "age_voice": "Бэстляйн (р. 1957) — ≈42 года, зрелая форма; исполнитель академического, «издательского» ряда, не звезда.",
+      "reputation": "Полное издание Naxos ценно охватом и надёжностью, но вокально считается ровным, а не выдающимся. Отдельных рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md — «Ulf Bästlein — т. 3 «Goethe, Vol. 1» (Naxos 8.554665, изд. 11/1999)»",
+        "MusicBrainz: recording c2db972b-919f-4696-bde7-33ea2de0621b (442 с)",
+        "yt-check 5Wi_LuxK9iU"
+      ],
+      "youtube": [
+        {
+          "videoId": "5Wi_LuxK9iU",
+          "channel": "Ulf Bästlein - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Референсная позиция полного издания; в топ-5 вероятно не проходит по качеству."
+    },
+    {
+      "singer": "Cornelius Hauptmann",
+      "pianist": "Eric Schneider",
+      "rec_year": 2010,
+      "year_source": "Год по метаданным официальной Topic-загрузки (release_year 2010), альбом «Franz Schubert: Dunkel oder Licht. Ausgewählte Lieder». Дискографического подтверждения (буклет/каталог) получить не удалось — год считать предварительным.",
+      "album": "Franz Schubert: Dunkel oder Licht. Ausgewählte Lieder",
+      "label": "не установлен",
+      "age_voice": "Хауптман (бас, р. 1951) — ≈59 лет; специалист по Баху/Моцарту, певец школы, а не крупного темперамента.",
+      "reputation": "Рецензий не найдено. Второстепенный кандидат.",
+      "sources": [
+        "yt-dlp metadata MEljjILSRa4"
+      ],
+      "youtube": [
+        {
+          "videoId": "MEljjILSRa4",
+          "channel": "Cornelius Hauptmann - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Резерв. Длительность 429 с совпадает с версией Neal Davies — совпадение таймингов, не дубль (разные каналы и альбомы)."
+    },
+    {
+      "singer": "Shenyang",
+      "pianist": "Brian Zeger",
+      "rec_year": 2018,
+      "year_source": "Год по метаданным официальной Topic-загрузки (release_year 2018), альбом «A Lost World. Schubert Songs & Duets», ℗ Delos (дистрибуция IDOL). Дискографического подтверждения года сессии нет.",
+      "album": "A Lost World: Schubert Songs & Duets",
+      "label": "Delos",
+      "age_voice": "Шэнь Ян (бас-баритон, р. 1984, победитель Cardiff Singer of the World 2007) — ≈34 года, ранняя зрелость.",
+      "reputation": "Единственный найденный кандидат «не ранее 2015» с официальным аудио. Немецкая песня — не главная линия певца; критических оценок в доступе нет, поэтому по правилу скепсиса к современным включать только при явном качестве.",
+      "sources": [
+        "yt-dlp description 1CZ-VtY4xbg (Provided to YouTube by IDOL; ℗ Delos)"
+      ],
+      "youtube": [
+        {
+          "videoId": "1CZ-VtY4xbg",
+          "channel": "Shenyang - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Просмотров у загрузки почти нет (1) — на решение не влияет, но показывает отсутствие резонанса."
+    },
+    {
+      "singer": "Georg Zeppenfeld",
+      "pianist": "Jendrik Springer",
+      "rec_year": 2022,
+      "year_source": "Описание загрузки: Wiener Staatsoper, матине к новой постановке «Мейстерзингеров», 20.11.2022. Это описание видео, а не дискография; год принимается как заявленная дата концерта с пометкой «лайв, неофициальная загрузка».",
+      "album": "—(концертный лайв, издания нет)",
+      "label": "—",
+      "age_voice": "Цеппенфельд (р. 1970) — ≈52 года; один из ведущих басов современности, репутация построена на Вагнере и Моцарте.",
+      "reputation": "Значимый живой документ; но неофициальная загрузка на частном канале (риск удаления) и отсутствие издания понижают приоритет.",
+      "sources": [
+        "yt-dlp description 65ZQ2Wp8qFE"
+      ],
+      "youtube": [
+        {
+          "videoId": "65ZQ2Wp8qFE",
+          "channel": "Helena Ludwig",
+          "official": false,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Единственный найденный кандидат «не ранее 2015» помимо Шэнь Яна; но лайв на фан-канале."
+    },
+    {
+      "singer": "Siegfried Lorenz",
+      "pianist": "Norman Shetler",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Оригинал — Eterna «Schubert: Lieder nach Goethe 2», кат. 8 26 704 (https://api.discogs.com/releases/8355983 — Grenzen der Menschheit трек A4; поле года в Discogs пустое). Соседние тома серии Lorenz/Shetler датированы 1978–1990. MusicBrainz даёт две карточки с первыми релизами 1994 и 2007 — это CD-переиздания Berlin Classics.",
+      "album": "Schubert: Lieder nach Goethe 2 (Eterna 8 26 704)",
+      "label": "Eterna / Berlin Classics",
+      "age_voice": "Лоренц (р. 1945) — на момент серии (1980-е) ≈35–42 года, пик светлого лирического баритона восточногерманской школы.",
+      "reputation": "Серия Lorenz/Shetler — авторитетный восточногерманский свод шубертовских песен; вокальный типаж лёгкий, для монументального D 716 менее органичный, чем басовые версии.",
+      "sources": [
+        "https://api.discogs.com/releases/8355983",
+        "MusicBrainz: recordings 35d0665c-7457-47bb-b161-19f23156574e и 612e623b-ef4f-46c1-be2f-b23cbd13319c"
+      ],
+      "youtube": [],
+      "note": "На YouTube трек не найден (проверено yt-dlp; канал «Siegfried Lorenz - Topic» существует, но D 716 в выдаче нет). Для топ-5 непригоден по отсутствию видео."
+    },
+    {
+      "singer": "Thierry Félix",
+      "pianist": "Paul Badura-Skoda",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. MusicBrainz recording fc6cc5c8, first-release 1995 (427 с). Дискографического подтверждения сессии нет.",
+      "album": "не установлен (вероятно рецитал с хаммерклавиром Бадуры-Шкоды, 1990-е)",
+      "label": "не установлен",
+      "age_voice": "Не оценивается без года.",
+      "reputation": "Интерес представляет прежде всего пианист. Оценок не найдено.",
+      "sources": [
+        "MusicBrainz: recording fc6cc5c8-78c2-4b74-8e93-d974bf6e26da"
+      ],
+      "youtube": [],
+      "note": "На YouTube не найдено. Непригоден."
+    },
+    {
+      "singer": "Herbert Alsen",
+      "pianist": "не установлен (вероятно Michael Raucheisen — серия радиофонда RRG)",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Topic-альбом «Lieder nach Texten von Goethe Vol. 4» (release_year в метаданных 2008 — год переиздания). Название серии соответствует Raucheisen-Edition берлинского радиофонда 1940-х, но подтверждения нет.",
+      "album": "Lieder nach Texten von Goethe, Vol. 4 (Raucheisen-Edition?)",
+      "label": "не установлен",
+      "age_voice": "Альзен (австрийский бас, 1906–1978); если запись 1940-х — ≈35–39 лет, пик.",
+      "reputation": "Исторический документ довоенно-военной венской школы; критических оценок нет.",
+      "sources": [
+        "yt-check jIVoI74rUQk (Herbert Alsen - Topic)",
+        "yt-dlp flat-playlist metadata (414 с, «Ver. 1»)"
+      ],
+      "youtube": [
+        {
+          "videoId": "jIVoI74rUQk",
+          "channel": "Herbert Alsen - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Резерв для исторической линии; требует доисследования даты."
+    },
+    {
+      "singer": "Jonathan Lemalu",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Topic-загрузка LJh8NgBwvK8 (443 с); метаданные получить не удалось (YouTube заблокировал yt-dlp ботовой проверкой).",
+      "album": "не установлен (вероятно рецитал EMI Debut, начало 2000-х)",
+      "label": "не установлен",
+      "age_voice": "Лемалу (новозеландский бас-баритон, р. 1976) — молодой голос.",
+      "reputation": "Периферийный кандидат.",
+      "sources": [
+        "yt-check LJh8NgBwvK8 (Jonathan Lemalu - Topic, живо)"
+      ],
+      "youtube": [
+        {
+          "videoId": "LJh8NgBwvK8",
+          "channel": "Jonathan Lemalu - Topic",
+          "official": true,
+          "oembed_ok": true
+        }
+      ],
+      "note": "Резерв; данных недостаточно."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "ДА. Песня входит в его альбом «Schubert: Goethe-Lieder» (RCA Victor Red Seal 09026 618642, сессии 25–26 и 28–29 мая 1993, Historischer Reitstadel Ноймаркт, пианист Charles Spencer, издание 1995). Треклист из 13 номеров зафиксирован в реестре альбомов проекта и включает Grenzen der Menschheit (https://api.discogs.com/releases/8778752). Подтверждено также MusicBrainz (recording b40b6dda, Quasthoff/Spencer, 472 с) и официальной Topic-загрузкой VBbpZjeBYh4 (album «Schubert: Goethe-Lieder», ℗ 1993).",
+    "Dietrich Fischer-Dieskau": "ДА. С Джеральдом Муром в своде DG «Sämtliche Lieder» (сессии Ufa-Ton-Studio Берлин 1966–1969, ℗ 1969). MusicBrainz: две карточки FD/Moore по work c0d5195b (d15b6409, 486 с; ff94178f, 491 с). Официальные Topic-загрузки: OcaLa2yvgwU («Schubert: Goethe Lieder»), hpxpnJW-2V8, 35SSIRheERU, RuPJ6KSjSf0.",
+    "Elisabeth Schwarzkopf": "НЕТ. В MusicBrainz по work c0d5195b (12 записей) её нет; поиск yt-dlp «Schwarzkopf Grenzen der Menschheit Schubert» возвращает только чужие версии (Fischer-Dieskau и др.). D 716 — гимническая песня для низкого мужского голоса, вне её шубертовского репертуара (planning/research/singers-digest.md).",
+    "Hans Hotter": "ДА. Концертная запись NDR от 18 февраля 1961 (Beethovensaal der Stadthalle Hannover), пианист Walter Martin; издана Orfeo d'Or C 507 991 B «Lieder Abend» (1999), песня — трек 1, 7:00 (буклетная заметка: https://api.discogs.com/releases/15036726). Официальная Topic-загрузка 3aOLUjh-oqs (421 с) под альбомным заголовком «Schubert, Brahms & Strauss: Lieder (Live)».",
+    "Peter Anders": "НЕТ. В MusicBrainz по work c0d5195b отсутствует; поиск yt-dlp «Peter Anders Grenzen der Menschheit» дал только посторонние результаты (Peter Alexander, Peter Rinner). Наследие Андерса — Winterreise 1945 и Müllerin 1945/1948 (singers-digest.md); D 716 — не теноровая песня.",
+    "Elisabeth Schumann": "НЕТ. В MusicBrainz отсутствует; её свод HMV 1927–49 (Naxos 8.110731, ~28 песен) состоит из лирических и женских номеров. D 716 — низкая мужская гимническая песня, вне её репертуара (singers-digest.md).",
+    "Christa Ludwig": "НЕТ. В MusicBrainz по work c0d5195b отсутствует; поиск yt-dlp «Christa Ludwig Grenzen der Menschheit» выдал только чужие записи (Ludwig Wüllner, Jonathan Lemalu, Fischer-Dieskau). Её шубертовский корпус (EMI 1957–69, DG 1973, Winterreise 1986) песни не содержит.",
+    "Lucia Popp": "НЕТ. В MusicBrainz отсутствует; поиск yt-dlp «Lucia Popp Grenzen der Menschheit» дал только оперетту и другие песни. Её основной шубертовский рецитал (EMI, сессии 1–6 ноября 1983, Gage) D 716 не содержит (карточка в planning/youtube/albums.md)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+      "singer": "Thomas Quasthoff",
+      "year": 1993,
+      "label": "RCA Victor Red Seal / BMG",
+      "facts": "Пианист Charles Spencer; сессии 25–26 и 28–29 мая 1993, Historischer Reitstadel, Ноймаркт; издание 1995; 13 номеров, общее время 61:42. Программа: Der Sänger, три песни Арфиста, Prometheus, Ganymed, Grenzen der Menschheit, Erlkönig, Szene aus Faust, Der Zwerg, Auf dem Wasser zu singen, Liedesend, Der Musensohn. Карточка уже в реестре проекта; настоящее исследование подтверждает наличие D 716 в программе.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1969,
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Gerald Moore; сессии Ufa-Ton-Studio, Берлин, декабрь 1966 – март 1969 (гётевский блок), ℗ 1969. На YouTube трек существует в четырёх официальных Topic-контейнерах с двумя длительностями (486 и 491 с) — разные мастеринги одной сессии.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder Abend (Orfeo d'Or C 507 991 B)",
+      "singer": "Hans Hotter",
+      "year": 1961,
+      "label": "Orfeo d'Or",
+      "facts": "НОВЫЙ ФАКТ ДЛЯ РЕЕСТРА: в planning/youtube/albums/male-recitalists.md эта карточка стояла со знаками вопроса («пианист Walter Martin?», «происхождение и дата концерта не установлены?»). Буклетная заметка издания (Discogs 15036726) даёт точные данные: запись Норддойчер Рундфунк от 18 февраля 1961, Beethovensaal der Stadthalle Hannover; пианист Walter Martin. Программа: 9 песен Шуберта (Grenzen der Menschheit — первый номер, 7:00; далее Wandrers Nachtlied D 768, Geheimes D 719, Prometheus D 674, Sei mir gegrüßt D 741, Am Bach im Frühlinge D 361, Des Fischers Liebesglück D 933, Alinde D 904, Gruppe aus dem Tartarus D 583), затем Брамс (4), Вольф (3), Лёве (3), Р. Штраус (3). Альбом покрывает сразу несколько песен корпуса, в том числе пилотных.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder für Bass (Orfeo S 021821 A)",
+      "singer": "Kurt Moll",
+      "year": 1982,
+      "label": "Orfeo",
+      "facts": "Пианист Cord Garben; издание 1982 (переиздания C 021 821 A 1986, M 021821 A 1982); год сессии не документирован. Треклист (18 номеров): Prometheus, Wie Ulfru fischt, Fahrt zum Hades, Der zürnende Barde, Sehnsucht, Totengräberlied, Selige Welt, Grenzen der Menschheit, Aus Heliopolis II, Der Sieg, Gruppe aus dem Tartarus, Das Abendrot, Dithyrambe, Auf der Donau, Der Schiffer, Der Strom, An den Tod, Der Tod und das Mädchen. Специализированный басовый рецитал — опорный источник для целого пласта «философских» песен корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 34 «Schubert 1817–1821» (CDJ33034)",
+      "singer": "сборный (в D 716 — Neal Davies)",
+      "year": 1999,
+      "label": "Hyperion",
+      "facts": "Сессии январь 1999, Rosslyn Hill Unitarian Chapel, Хэмпстед, Лондон; инженеры Antony Howell & Julian Millard; издание январь 2000; пианист Graham Johnson. Уточняет открытый хвост реестра («страница Hyperion — I.1999; по пилоту отдельные треки — сессии 1991–1999»): для D 716 применима сессия января 1999.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schwanengesang (Onyx ONYX 4131)",
+      "singer": "Florian Boesch",
+      "year": 2014,
+      "label": "Onyx Classics",
+      "facts": "Пианист Malcolm Martineau; издание 2014. Диск сверх цикла содержит блоки «Goethe Settings» (сюда входит Grenzen der Menschheit), «Gesänge des Harfners» и «Heine-Lieder» — источник по нескольким гётевским песням корпуса. Год сессии не установлен.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Sehnsucht — Matthias Goerne Schubert Edition, Vol. 1 (HMC 901988)",
+      "singer": "Matthias Goerne",
+      "year": 2008,
+      "label": "harmonia mundi",
+      "facts": "Пианистка Elisabeth Leonskaja; релиз 14.03.2008; год сессии в реестре не установлен (предположительно 2007). Карточка уже была в planning/youtube/albums/complete-editions.md; настоящее исследование подтверждает наличие D 716 в программе (MB 940e862e, Topic SB7ida5mmrI).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Deutsche Schubert-Lied-Edition, Vol. 3: Goethe, Vol. 1 (Naxos 8.554665)",
+      "singer": "Ulf Bästlein",
+      "year": 1999,
+      "label": "Naxos",
+      "facts": "Пианист Stefan Laux; издание 11/1999. Карточка уже в реестре; подтверждается наличие D 716 (MB c2db972b, Topic 5Wi_LuxK9iU).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Prometheus — Lieder (Schubert / Strauss / Wolf)",
+      "singer": "Franz-Josef Selig",
+      "year": null,
+      "label": "Avi-Service for music (CAvi-music), Кёльн",
+      "facts": "НОВАЯ карточка для реестра: концептуальная «прометеевская» программа с Gerold Huber, где D 716 — смысловая опора. Год издания в ℗-грифе отсутствует; Topic-метка release_year 2014 (не дискографический источник). Требуется сверка по буклету CAvi.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert & Schumann: Grenzen der Menschheit (Challenge Classics)",
+      "singer": "Johannes Martin Kränzle",
+      "year": 2013,
+      "label": "Challenge Classics",
+      "facts": "НОВАЯ карточка для реестра: пианист Hilko Dumno, ℗ 2013. Альбом назван по этой песне.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "«Schubert & Loewe: Lieder» / «The Blackest Bass: Gottlob Frick Portrait»",
+      "singer": "Gottlob Frick",
+      "year": null,
+      "label": "SWR Classic Archive (℗ 2014) / переиздание-портрет 2019",
+      "facts": "НОВАЯ карточка для реестра: архивные радиозаписи Фрика с песнями Шуберта и Лёве. Дата сессии не документирована; Общество Готтлоба Фрика в описании своей загрузки указывает «Martin Görgen; 1949» — по правилам проекта это не источник даты. Разброс длительностей трёх загрузок (551 / 572 / 536 с) указывает минимум на две разные записи песни.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительного обзора «Grenzen der Menschheit» НЕТ: индекс шубертовских разборов (https://www.klassik-prisma.de/Schubert.htm) записи о D 716 не содержит; попытка прямого URL по шаблону Vergleich вернула 404.",
+    "Hyperion Records, страница диска CDJ33034 (https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33034) — очерк Грэма Джонсона рассматривает песню в хронологическом блоке 1821 года; отдельных персональных заметок именно об этом треке на странице нет. Поиск по каталогу Hyperion по названию песни возвращает 404 (новая структура сайта)."
+  ],
+  "negatives": [
+    "Ключевая ловушка песни: «Grenzen der Menschheit» — популярный ТЕКСТ, положенный на музыку не только Шубертом. Гуго Вольф написал одноимённую песню (Goethe-Lieder № 51). На YouTube под этим названием висят: Gk7B4ckk1Jg («Alexander Kipnis - Topic», альбом «Great Opera Singers / Lieder / 1927–1936, Vol. 1», композитор в метаданных — Hugo Wolf) и dk_m0hGPaLI («Wolf: Goethe-Lieder: No. 51, Grenzen der Menschheit», Fischer-Dieskau). Обе — НЕ D 716, к отбору не относятся.",
+    "hTLRuwRmpYs на канале «Dietrich Fischer-Dieskau - Topic» — «Grenzen der Menschheit ‘Wenn der uralte, Heilige Vater’ (1902)», альбом «Dietrich Fischer-Dieskau: Recordings from the Archives», пианист Aribert Reimann, 364 с. Год в скобках (1902) — год сочинения, то есть это ещё одна чужая (не шубертовская) композиция на тот же текст. Не D 716.",
+    "DhfMoyCkMJs («Ludwig Wüllner - Topic», 120 с) — по длительности заведомо не D 716 (все реальные версии 396–572 с); вероятно фрагмент или мелодекламация. Исключено.",
+    "5wDBRh5G2Ko («Dietrich Fischer-Dieskau and Gerald Moore - Topic», 433 с) — длительность резко расходится со сводом DG (486/491 с); происхождение установить не удалось (yt-dlp заблокирован проверкой на бота). До выяснения не публиковать.",
+    "Фан-загрузка Хоттера mM3rfCbP6Mk приписывает записи 18.02.1961 пианиста Джеральда Мура — это противоречит буклету Orfeo (Walter Martin). Ещё один прецедент вранья метаданных загрузок.",
+    "Siegfried Lorenz / Norman Shetler (Eterna) и Thierry Félix / Paul Badura-Skoda есть в MusicBrainz, но на YouTube не найдены — для топ-5 недоступны.",
+    "Женские записи песни в найденном фонде отсутствуют полностью: все 12 карточек MusicBrainz и все живые загрузки — мужские (баритоны и басы). Это ожидаемо: гимн Гёте от лица человека перед богами традиционно поётся низким мужским голосом.",
+    "Из приоритетного списка правил песню записали только трое: Квастхоф, Фишер-Дискау, Хоттер. Шварцкопф, Андерс, Э. Шуман, Людвиг и Попп — отрицательные результаты (см. priority_singers_checked).",
+    "Кандидатов «не ранее 2015» с официальным студийным изданием практически нет: только Shenyang / Zeger (Delos, 2018) и живой Zeppenfeld / Springer (Вена, 20.11.2022, фан-канал). Возрастная структура состава топ-5, вероятно, не будет выполнена по пункту «1 запись не ранее 2015» — по правилу это допустимо, места занимают лучшие старые записи."
+  ]
+}

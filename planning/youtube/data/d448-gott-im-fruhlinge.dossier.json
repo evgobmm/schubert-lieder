@@ -1,0 +1,364 @@
+{
+  "d": "448",
+  "title": "Gott im Frühlinge",
+  "tier_note": "Задание пришло с ярусом «famous», но фактический фонд записей соответствует medium: работа Иоганна Петера Уца (Johann Peter Uz), не Гёте, — гётевские сквозные альбомы корпуса (Fischer-Dieskau/Demus 1959, Prégardien/Staier 1994, Schreier/Olbertz, Prey/Engel, Mauro Peter 2015, Naxos DSLE т. 3/13 «Goethe») песню НЕ содержат. MusicBrainz знает 8 записей (одна — инструментальная), Michael Gray — ровно 1 (1950). Собранный пул — 14 значительных записей, это практически всё существующее.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau (баритон)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–1972 (конвенция проекта — 1969); том с песней ℗1970",
+      "year_source": "MusicBrainz recording ae1dfb50-a4ef-49eb-a2e2-d828439def6f (кредиты сессии свода: продюсеры Rainer Brock, Hans Ritter, исп. продюсер Otto Gerdes, инженер Hans-Peter Schweigmann, баланс Harald Baudis); Discogs release 4675245 — DG «Lieder Volume 2» (2720 022, 13 LP, 1970), позиция S13 «Got Im Frühlige D. 448» (опечатка в трек-листе); по карточке реестра albums.md (со ссылкой на дискографию Майкла Грея) бокс Vol. 2 документирован как декабрь 1966 — февраль 1968. Topic-метаданные: ℗ 1970 Deutsche Grammophon.",
+      "album": "Schubert: Sämtliche Lieder (21 CD) / LP-бокс «Lieder Volume 2» DG 2720 022 (тома 1811–1817)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–43 года (р. 28.05.1925). Дайджест: пик ~1951–1972; сессии свода приходятся ровно на вершину формы, до сухости середины 1970-х.",
+      "reputation": "Полный свод всех «мужских» песен Шуберта — базовая точка отсчёта корпуса (реестр albums.md, albums/complete-editions.md). Отдельных рецензий именно на D 448 не найдено: klassik-prisma не ведёт страницу этой песни (сверено по индексу Schubert.htm — там только 8 песен), Gramophone/MusicWeb в доступе из контейнера не открылись.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/ae1dfb50-a4ef-49eb-a2e2-d828439def6f",
+        "https://api.discogs.com/releases/4675245",
+        "planning/youtube/albums.md — карточки DG «Sämtliche Lieder»",
+        "https://www.classical-discography.org/ (Michael Gray; по D 448 — только запись 1950 г., бокс 2720 022 в базе отсутствует)"
+      ],
+      "youtube": [
+        {"videoId": "4vSt3QAxP7c", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Lieder (Vol. 1), ℗1970 DG"},
+        {"videoId": "asLZ6Yv-J18", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Lieder, ℗1970 DG (та же фонограмма, параллельный релиз)"}
+      ],
+      "note": "Приоритет №2 по правилам. Две Topic-загрузки идентичной длительности (132 с) — одна фонограмма в двух релизах; при публикации брать одну (предпочтительно 4vSt3QAxP7c, релиз с ℗-датой 1970 без позднейшей переупаковки)."
+    },
+    {
+      "singer": "Karl Schmitt-Walter (баритон)",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1938–1944? (точная сессия не установлена)",
+      "year_source": "Discogs release 12277983 «Michael Raucheisen 31+32/66» (Documents 223083-303, 2005): позиция 1-24 «Gott Im Frühling, D 448», вокал Karl Schmitt-Walter, текст J. P. Uz. Диапазон дат — по примечаниям буклетов Hamburger Archiv für Gesangskunst к тем же шубертовским записям Шмитт-Вальтера: «Recorded 1938/1943» (Discogs 11734308) и «Aufnahmen 1938–1944» (Discogs 11162658). Фан-загрузка pEBsChe5PyA заявляет «Studio recording, 1944» — по правилам НЕ источник.",
+      "album": "Michael Raucheisen Edition, Vol. 31+32/66 «Franz Schubert» (радиокорпус Reichsrundfunk); параллельные переиздания Hamburger Archiv für Gesangskunst",
+      "label": "Reichsrundfunk (оригинал) → Documents / Fono Team; HAfG",
+      "age_voice": "38–44 года (р. 23.12.1900, ум. 1985) — вокальный расцвет; крупнейший немецкий лирический баритон радиошколы Раухайзена (тот же корпус, что дал Winterreise Хоттера 1942 и Müllerin Андерса 1945).",
+      "reputation": "Раухайзеновский радиокорпус в реестре проекта описан как эталон немецкой радиошколы (albums/male-recitalists.md). Персональных рецензий на этот трек не найдено; сравнительных обзоров песни не существует.",
+      "sources": [
+        "https://api.discogs.com/releases/12277983",
+        "https://api.discogs.com/releases/11734308",
+        "https://api.discogs.com/releases/11162658",
+        "planning/youtube/albums/male-recitalists.md — карточки корпуса Raucheisen"
+      ],
+      "youtube": [
+        {"videoId": "h83RN_CxbSg", "channel": "Michael Raucheisen - Topic", "official": true, "oembed_ok": true, "album_tag": "Franz Schubert: Michael Raucheisen Vol. 31 & 32, ℗ Fono Team, 2005"},
+        {"videoId": "pEBsChe5PyA", "channel": "incontrario motu (фан)", "official": false, "oembed_ok": true, "album_tag": "тот же материал, заявлен 1944"}
+      ],
+      "note": "Ключевая находка: Topic-канал оформлен на ПИАНИСТА, певец виден только в описании. Единственный старый мастер уровня «звезда прошлого» в пуле помимо Фишера-Дискау. Год требует буклета Raucheisen-Edition; по правилу «хорошая запись не блокируется неустановленным годом» допустим year «1938–44?» (либо «1944?», если найдётся подтверждение)."
+    },
+    {
+      "singer": "Felicity Lott (сопрано)",
+      "pianist": "Graham Johnson",
+      "rec_year": "1992 (июль)",
+      "year_source": "Страница Hyperion CDA/CDJ33019 (hyperion-records.co.uk/dc.asp?dc=D_CDJ33019): «July 1992, Rosslyn Hill Unitarian Chapel, Hampstead, London»; издание — ноябрь 1993. MusicBrainz recording 7339ac0a: продюсер Martin Compton, звукорежиссёр Tony Faulkner; релиз «The Hyperion Schubert Edition, Volume 19: Songs About Flowers & Nature», 1993-11.",
+      "album": "The Hyperion Schubert Edition, Vol. 19 «Songs about flowers & nature» (CDJ33019)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "45 лет (р. 08.05.1947) — зрелый пик; фирменная чистота дикции.",
+      "reputation": "Цитаты со страницы лейбла: In Tune (Япония) — «Rarely can one find a recording where every single aspect — repertoire, performance and production — is perfect»; Répertoire (Франция) — о «безупречном вокальном искусстве» и «безупречном произношении» Лотт. Том входит в 37-томный научный свод Грэма Джонсона — общепризнанный референс (реестр, дайджест).",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33019",
+        "https://musicbrainz.org/ws/2/recording/7339ac0a-0be6-4df8-8026-f8175d37be25"
+      ],
+      "youtube": [
+        {"videoId": "MvrohJwHgJc", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Hyperion Song Edition 19 – Songs of Flowers & Nature, ℗1993 Hyperion"}
+      ],
+      "note": "Topic-канал оформлен на пианиста Джонсона — при формировании name певица определяется по описанию загрузки (Felicity Lott). Единственная запись песни из полного научного свода."
+    },
+    {
+      "singer": "Kathleen Battle (сопрано)",
+      "pianist": "James Levine (рояль)",
+      "rec_year": "1988 (издание; сессия дискографически не документирована)",
+      "year_source": "MusicBrainz recording db0972bd → релиз «Lieder», 1988-09; карточка реестра albums.md: «Kathleen Battle — Schubert: Lieder (DG 419 237-2), 1988 (издание; сессия не документирована)»; Topic-метаданные ℗1988 DG, продюсеры Cord Garben, Jürgen Bulgrin, баланс Wolfgang Mitlehner.",
+      "album": "Schubert: Lieder (DG 419 237-2); переиздание Eloquence 2009 «Nähe des Geliebten — Ausgewählte Lieder»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "≈39 лет (р. 13.08.1948) — вокальный пик лирико-колоратурного сопрано.",
+      "reputation": "Репутация альбома в проекте не исследована по критике (в реестре — только фактическая карточка). Скепсис по правилу к рекламной репутации звёзд 1980-х: у Батл фирменная «серебряная» подача чаще хвалится за красоту тона, чем за германскую словесную культуру; независимых оценок именно D 448 не найдено. Самая просматриваемая загрузка песни (≈16 тыс.) — показатель узнаваемости, не качества.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/db0972bd-6c1f-4ed6-996e-d02eee6ffae2",
+        "planning/youtube/albums.md — карточка DG 419 237-2"
+      ],
+      "youtube": [
+        {"videoId": "opz2JxBideQ", "channel": "Kathleen Battle - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: Lieder, ℗1988 DG"}
+      ],
+      "note": "Редкий случай, когда за роялем дирижёр (Ливайн) — самостоятельный интерес."
+    },
+    {
+      "singer": "Gundula Janowitz (сопрано)",
+      "pianist": "Irwin Gage",
+      "rec_year": "не установлен (концертная запись; издание ℗2017 DOREMI)",
+      "year_source": "Метаданные Topic-загрузки SBX_zcSWZHw: альбом «Gundula Janowitz, Vol. 1: Verdi Requiem with Karajan, Lieder (Live)», ℗2017 DOREMI, дистрибуция NAXOS of America; исполнители Janowitz + Irwin Gage. В MusicBrainz и Discogs релиз не найден; год концерта в доступных источниках отсутствует. Косвенно: дуэт Janowitz/Gage документирован сессиями DG 28.09–01.10.1976 и IX + 1–4.12.1977 (albums/female-recitalists.md, по Грею) — концерт вероятно того же периода, НО это гипотеза, не факт.",
+      "album": "Gundula Janowitz, Vol. 1: Verdi Requiem with Karajan, Lieder (Live)",
+      "label": "DOREMI",
+      "age_voice": "если конец 1970-х — 39–41 год, внутри пика ~1965–1980 (дайджест).",
+      "reputation": "Студийная 4-LP серия Janowitz/Gage (DG 2713 012 + 2530 858) дважды удостоена Deutscher Schallplattenpreis (albums/female-recitalists.md); Gretchen из неё — 5 звёзд klassik-prisma. Настоящая запись — концертная, из архивной серии DOREMI, критикой отдельно не разбиралась.",
+      "sources": [
+        "yt-dlp метаданные видео SBX_zcSWZHw (℗2017 DOREMI)",
+        "planning/youtube/albums/female-recitalists.md — карточка Janowitz/Gage"
+      ],
+      "youtube": [
+        {"videoId": "SBX_zcSWZHw", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "album_tag": "DOREMI ℗2017 (Live)"}
+      ],
+      "note": "Самая протяжённая трактовка пула (150 с). При включении в топ-5 год ставить строкой с вопросом; целевое доисследование даты концерта не дало результата в рамках этой сессии (DOREMI-сайт недоступен по SSL, Discogs/MB релиз не содержат)."
+    },
+    {
+      "singer": "Erna Berger (сопрано)",
+      "pianist": "Ernst-Günther Scherzer",
+      "rec_year": "не установлен",
+      "year_source": "Метаданные Topic-загрузки _gUCO4MbgBA: альбом «Singers of the Century», ℗2021 Jube Classic, дистрибуция Naxos Digital Services; исполнители Berger + Scherzer. Jube Classic — переиздатель радиоматериала, год сессии не публикует. Проверены и НЕ содержат D 448: DG «Liederabend Erna Berger» LPEM 19149 (Konzert-Mitschnitt, 1958, Scherzer за роялем — Discogs 7181458) и Heliodor «Erna Berger singt Lieder von Schubert, Brahms und Schumann» (Discogs 6518896). Установлено лишь, что дуэт Berger/Scherzer работал во второй половине 1950-х.",
+      "album": "Singers of the Century (компиляция Jube Classic)",
+      "label": "Jube Classic (переиздание)",
+      "age_voice": "если конец 1950-х — ≈58 лет (р. 19.10.1900): голос сохранён удивительно хорошо, но пик (1930-е — 1940-е) позади; Бергер оставила оперу в 1955-м и до 1968-го пела только Lieder.",
+      "reputation": "Отдельных оценок записи не найдено. Источник — компиляция «серого» переиздателя, кредиты нужно брать с оригинала; по правилу о кредитах с официальных переизданий это ослабляет позицию кандидата.",
+      "sources": [
+        "yt-dlp метаданные видео _gUCO4MbgBA",
+        "https://api.discogs.com/releases/7181458",
+        "https://api.discogs.com/releases/6518896"
+      ],
+      "youtube": [
+        {"videoId": "_gUCO4MbgBA", "channel": "Erna Berger - Topic", "official": true, "oembed_ok": true, "album_tag": "Singers of the Century, ℗2021 Jube Classic"}
+      ],
+      "note": "150 с — как у Яновиц, самая медленная группа. Дата не установлена; при включении — year со знаком вопроса."
+    },
+    {
+      "singer": "Hermann (Herman) Schey (бас-баритон)",
+      "pianist": "Marguerite Reyners",
+      "rec_year": "не установлен (LP Polymusic — начало 1950-х?)",
+      "year_source": "Discogs release 17193121: Polymusic Records PRLP 1009 «Schubert – A Song Recital», кредиты — Hermann Schey (bass-baritone vocals), Marguerite Reyners (piano); позиция B6 «God In Springtime» = D 448 (трек-лист LP дан по-английски). Год на пресcинге отсутствует. Topic-загрузка (0_NYunyT3ak, «Schubert: Lieder (Mono Version)», ℗ The Restoration Project) проставляет 1959 — «серый» агрегатор, по правилам НЕ источник даты.",
+      "album": "Schubert – A Song Recital (Polymusic PRLP 1009)",
+      "label": "Polymusic Records (США); YouTube-переиздание — The Restoration Project / Believe",
+      "age_voice": "если начало 1950-х — ≈55 лет (р. 1896, ум. 1981). Шей — концертный бас-баритон эмигрантского поколения (Мендельсон/Бах у Менгельберга), не оперная звезда; ценность — стиль, не голос.",
+      "reputation": "Критических оценок не найдено. Историческая ценность — редкая мужская низкоголосая версия песни до Фишера-Дискау.",
+      "sources": [
+        "https://api.discogs.com/releases/17193121",
+        "yt-dlp метаданные видео 0_NYunyT3ak"
+      ],
+      "youtube": [
+        {"videoId": "0_NYunyT3ak", "channel": "Hermann Schey - Topic", "official": false, "oembed_ok": true, "album_tag": "Schubert: Lieder (Mono Version), ℗ The Restoration Project — агрегатор, не лейбл-правообладатель"}
+      ],
+      "note": "Topic-канал есть, но за ним стоит агрегатор-переиздатель, а не официальный лейбл; риск снятия выше обычного."
+    },
+    {
+      "singer": "Edith Mathis (сопрано)",
+      "pianist": "Karl Engel",
+      "rec_year": "1988 (июнь)?; релиз 1989",
+      "year_source": "MusicBrainz recording fb90311a (Mathis, вокал; Engel, ф-но) → релиз «Lieder», 1989. Дайджест певцов: рецитал DG «зап. июнь 1988, Engel». Отдельного буклетного подтверждения именно для D 448 в этой сессии не получено.",
+      "album": "Schubert: Lieder (DG)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "50 лет (р. 11.02.1938) — конец пика (дайджест: 1970-е–1980-е).",
+      "reputation": "Оценок конкретно этой записи не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/fb90311a-9586-4679-807e-1002a5bf796d",
+        "planning/research/singers-digest.md — карточка Mathis"
+      ],
+      "youtube": [],
+      "note": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ ПО YOUTUBE: на «Edith Mathis - Topic» D 448 отсутствует (проверено целевым поиском yt-dlp). Для плеера недоступна."
+    },
+    {
+      "singer": "Nancy Argenta (сопрано)",
+      "pianist": "Melvyn Tan",
+      "rec_year": "1991 (год издания; сессия не установлена)",
+      "year_source": "Discogs release 18545095: EMI CDC 7 54175 2 «Schubert: Der Hirt auf dem Felsen / 22 Lieder», Nancy Argenta / Melvyn Tan, 1991. MusicBrainz recording 45c25da0 привязан к антологии «Lieder on Record 1898–2012» (2012) — это переиздание, не источник даты.",
+      "album": "Schubert: Der Hirt auf dem Felsen — 22 Lieder (EMI); переиздано в антологии «Lieder on Record 1898–2012»",
+      "label": "EMI / Warner",
+      "age_voice": "≈34 года (р. 1957) — пик барочно-классического сопрано.",
+      "reputation": "Попадание в редакционную антологию «Lieder on Record 1898–2012» — само по себе знак отбора. Отдельных рецензий не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/18545095",
+        "https://musicbrainz.org/ws/2/recording/45c25da0-cce5-44e4-a7b5-f698567af9e1"
+      ],
+      "youtube": [],
+      "note": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ ПО YOUTUBE: трек не найден (целевой поиск yt-dlp). Мельвин Тан обычно играет на хаммерклавире — потенциально периодная версия, но инструмент по этому диску не верифицирован."
+    },
+    {
+      "singer": "Carolyn Sampson (сопрано)",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2021 (6–8 июля)",
+      "year_source": "MusicBrainz recording c81fd10a-5e49-4927-9cab-9779185401c4, work-relation к work e32811b4 «Gott im Frühlinge, D. 448»: begin=2021-07-06, end=2021-07-08; релиз «Elysium: A Schubert Recital» 465623b3-51d7-4710-a0c3-6d93a641eb7f, 2023-03-03; продюсер Raphaël Mouterde, звук Dave Rowell. Альбом писался в ДВЕ сессии (проверено по всем 17 трекам релиза): 21–23.09.2020 — только D 762, D 939, D 343; 06–08.07.2021 — остальные 14 треков, включая D 448. Прежняя дата карточки реестра («запись 21–23 сентября 2020») — общая дата первой сессии альбома, ошибочно перенесённая на все треки; исправлена 2026-08-17.",
+      "album": "Elysium — A Schubert Recital (BIS)",
+      "label": "BIS",
+      "age_voice": "≈47 лет (р. 1974) — зрелый пик (дайджест: ~2010–наст.).",
+      "reputation": "Дуэт Sampson/Middleton — самая последовательная современная шубертовская линия в фонде (три альбома: 2017, 2020/2023, 2025). Цитируемых рецензий получить не удалось: Presto Music и сайты лейблов из контейнера отдают 403/404, WebSearch-бюджет сессии исчерпан. По правилу о скепсисе к пиару современных — включать только как «свежую» позицию структуры топ-5, не выше старых мастеров.",
+      "sources": [
+        "planning/youtube/albums.md; planning/youtube/albums/modern-series.md",
+        "https://musicbrainz.org/ws/2/recording/c81fd10a-5e49-4927-9cab-9779185401c4"
+      ],
+      "youtube": [
+        {"videoId": "WjIGfTOyaXQ", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true, "album_tag": "Elysium – A Schubert Recital, ℗2023 BIS"}
+      ],
+      "note": "Единственный кандидат «не ранее 2015» с официальной загрузкой и документированной датой сессии — закрывает пункт возрастной структуры топ-5."
+    },
+    {
+      "singer": "Mary Bevan (сопрано)",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2019 (4–7 января)",
+      "year_source": "Discogs release 22962437 (Signum Classics SIGCD606), примечания буклета: «Recorded in All Saints' Church, East Finchley, London, UK from 4th to 7th January 2019»; релиз 24.01.2020, общее время 64'35\". MusicBrainz recording d7ffb7d4: продюсер/монтаж Mark Brown, запись Mike Hatch.",
+      "album": "The Divine Muse (Haydn / Schubert / Wolf)",
+      "label": "Signum Classics",
+      "age_voice": "около 35 лет (год рождения певицы источником не подтверждён) — активная середина карьеры.",
+      "reputation": "Рецензий получить не удалось (Presto/Signum отдают 403; WebSearch исчерпан). Продюсер Mark Brown и церковь All Saints, East Finchley — тот же производственный круг, что у Hyperion-рециталов проекта.",
+      "sources": [
+        "https://api.discogs.com/releases/22962437",
+        "https://musicbrainz.org/ws/2/recording/d7ffb7d4-c3d4-4d09-89be-ba4105e06429"
+      ],
+      "youtube": [
+        {"videoId": "Sh2l4oQ7O1k", "channel": "Mary Bevan - Topic", "official": true, "oembed_ok": true, "album_tag": "The Divine Muse, ℗2020 Signum Records"}
+      ],
+      "note": "Самая быстрая из «взрослых» трактовок (118 с)."
+    },
+    {
+      "singer": "Dorothee Jansen (сопрано)",
+      "pianist": "Francis Grier",
+      "rec_year": "2014 (℗/релиз 01.02.2014; сессия не установлена)",
+      "year_source": "Метаданные Topic-загрузки vajR10uKL9I: «Schubert: New Perspectives, Vol. 1», ℗2014 SOMM Recordings, дистрибуция NAXOS of America; артисты Dorothee Jansen, Francis Grier.",
+      "album": "Schubert: New Perspectives, Vol. 1 (SOMM)",
+      "label": "SOMM Recordings",
+      "age_voice": "не установлено.",
+      "reputation": "Оценок не найдено. Проект связан с песенником Терезы Гроб (фан-загрузка того же исполнения озаглавлена «Therese Grob 2») — репертуарный, а не эталонно-вокальный интерес.",
+      "sources": [
+        "yt-dlp метаданные видео vajR10uKL9I"
+      ],
+      "youtube": [
+        {"videoId": "vajR10uKL9I", "channel": "Dorothee Jansen - Topic", "official": true, "oembed_ok": true, "album_tag": "Schubert: New Perspectives, Vol. 1, ℗2014 SOMM"}
+      ],
+      "note": "Периферийный кандидат; в топ-5 включать только при нехватке достойных."
+    },
+    {
+      "singer": "Donna Brown (сопрано)",
+      "pianist": "Stéphane Lemelin",
+      "rec_year": "2025 (℗/релиз 22.12.2025; сессия не установлена)",
+      "year_source": "Метаданные Topic-загрузки Zwe5ZnRqA6o: альбом «Frühlingslieder», ℗ ATMA Classique, released 2025-12-22; вокал Donna Brown, солист-пианист Stéphane Lemelin, текст Johann Peter Uz.",
+      "album": "Frühlingslieder (ATMA Classique)",
+      "label": "ATMA Classique",
+      "age_voice": "не установлено (канадское сопрано, известна прежде всего по записям с Гардинером 1990-х — значит на 2025 г. голос далеко за пиком; год рождения источником не подтверждён).",
+      "reputation": "Релиз декабря 2025 г.; критики на момент исследования нет.",
+      "sources": [
+        "yt-dlp метаданные видео Zwe5ZnRqA6o"
+      ],
+      "youtube": [
+        {"videoId": "Zwe5ZnRqA6o", "channel": "Donna Brown - Topic", "official": true, "oembed_ok": true, "album_tag": "Frühlingslieder, ℗ ATMA Classique, 2025-12-22"}
+      ],
+      "note": "Самая быстрая версия пула (114 с). Новизна релиза — не аргумент качества; по правилу о скепсисе к современным включать только по итогам прослушивания."
+    },
+    {
+      "singer": "Genevieve Warner (сопрано)",
+      "pianist": "Franz Rupp",
+      "rec_year": "1950 (11 октября)",
+      "year_source": "Дискография Майкла Грея, запись id 31123: Schubert, «Gott im Frühlinge, D448», дата 1950 October 11, лейбл Columbia, номер ML-4365, 78-издание в альбоме MM-977, префикс XCO, матрица 43615, артисты «Genevieve Warner, soprano; Franz Rupp, piano». Единственная запись D 448 во всей базе Грея.",
+      "album": "Columbia ML-4365 (LP) / MM-977 (комплект 78 об.)",
+      "label": "Columbia (США)",
+      "age_voice": "молодая солистка Метрополитен-оперы рубежа 1940–50-х (год рождения источником не подтверждён); Франц Рупп — постоянный аккомпаниатор Мэриан Андерсон, крупный лидовый пианист.",
+      "reputation": "Историческая ценность: старейшая документированная запись песни. Критических оценок не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=31123"
+      ],
+      "youtube": [],
+      "note": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ ПО YOUTUBE: целевой поиск yt-dlp не нашёл ни одной загрузки. Для плеера недоступна, но фиксируется как дискографический якорь."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕ записывал. Дискография закрыта в 2012 и состоит ровно из 6 шубертовских альбомов плюс шубертовские номера в «Widmung» (DG 2003) — реестр albums.md и дайджест; D 448 не входит ни в один. Косвенно: песня на текст Уца, а гётевский альбом Quasthoff/Spencer (RCA 09026 618642, сессии 25–26 и 28–29 мая 1993, 13 номеров — полный трек-лист зафиксирован в реестре) её содержать не может. В MusicBrainz (8 записей произведения) Квастхофа нет; целевой поиск yt-dlp — ноль результатов.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ. DG «Sämtliche Lieder» с Джералдом Муром, LP-бокс «Lieder Volume 2» 2720 022, позиция S13 (Discogs 4675245); MusicBrainz recording ae1dfb50 с полными кредитами сессии; две живые Topic-загрузки. Единственный приоритетный певец с этой песней.",
+    "Elisabeth Schwarzkopf": "НЕ записывала. Нет в MusicBrainz (8 записей произведения), нет у Майкла Грея (единственная запись D 448 в базе — Warner/Rupp 1950), целевой поиск yt-dlp по «Schwarzkopf Gott im Frühlinge D 448» дал только чужие версии.",
+    "Hans Hotter": "НЕ записывал. Нет в MusicBrainz и у Грея; в раухайзеновском радиокорпусе D 448 поёт Карл Шмитт-Вальтер (Discogs 12277983), не Хоттер; сессии Хоттер/Мур 1949 и 1957 (реестр albums.md) песню не содержат. Поиск yt-dlp — ноль.",
+    "Peter Anders": "НЕ записывал. Нет в MusicBrainz и у Грея; в шубертовском срезе раухайзеновского корпуса песня закреплена за Шмитт-Вальтером. Поиск yt-dlp — ноль.",
+    "Elisabeth Schumann": "НЕ записывала. Нет в MusicBrainz и у Грея (её HMV-сессии 1927–49 у Грея документированы, D 448 среди них нет); поиск yt-dlp — ноль.",
+    "Christa Ludwig": "НЕ записывала. Нет в MusicBrainz и у Грея; на «Christa Ludwig - Topic» есть Im Frühling D 882 и Am Bach im Frühling D 361, но не D 448 (целевой поиск yt-dlp).",
+    "Lucia Popp": "НЕ записывала. Нет в MusicBrainz и у Грея; поиск yt-dlp — ноль."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (21 CD) / LP-бокс «Lieder Volume 2» DG 2720 022",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "сессии 1966–1972 (бокс Vol. 2 — декабрь 1966 – февраль 1968 по Грею, через реестр); ℗1970",
+      "label": "Deutsche Grammophon",
+      "facts": "Полный свод всех «мужских» песен Шуберта с Джералдом Муром, Ufa-Ton-Studio Berlin; женские песни сознательно исключены. D 448 — позиция S13 LP-бокса Vol. 2 (Discogs 4675245), в трек-листе с опечаткой «Got Im Frühlige». Кредиты сессии: продюсеры Rainer Brock и Hans Ritter, исп. продюсер Otto Gerdes, инженер Hans-Peter Schweigmann, баланс Harald Baudis.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 19 «Songs about flowers & nature» (CDJ33019)",
+      "singer": "Felicity Lott",
+      "year": "запись июль 1992, издание ноябрь 1993",
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; общее время 67'50\"; Graham Johnson — фортепиано и научные комментарии; продюсер Martin Compton, звукорежиссёр Tony Faulkner. Пресса на странице лейбла: In Tune (Япония) и Répertoire (Франция). НОВАЯ карточка для реестра: том 19 в albums/complete-editions.md ранее не фигурировал; он покрывает весь «природно-цветочный» блок корпуса (важно для многих песен вне Гёте).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Michael Raucheisen Edition, Vol. 31+32/66 «Franz Schubert» (Documents 223083-303, 2005)",
+      "singer": "Karl Schmitt-Walter (и другие певцы корпуса)",
+      "year": "оригиналы 1938–1944 (по буклетам HAfG к тем же записям); переиздание 2005",
+      "label": "Reichsrundfunk → Documents / Fono Team",
+      "facts": "Радиокорпус Раухайзена, разложенный на 66 томов. D 448 — позиция 1-24 тома 31, поёт Карл Шмитт-Вальтер (Discogs 12277983). НОВАЯ карточка для реестра: до сих пор раухайзеновский корпус был описан только через Хоттера и Андерса, певец Шмитт-Вальтер в реестре отсутствовал. Важное общее правило, найденное здесь: Topic-канал этого корпуса оформлен НА ПИАНИСТА («Michael Raucheisen - Topic»), певец указан только в описании — скриптовый singer_guess по каналу даёт ложный результат.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (DG 419 237-2)",
+      "singer": "Kathleen Battle",
+      "year": "1988 (издание; сессия не документирована)",
+      "label": "Deutsche Grammophon",
+      "facts": "17 треков, за роялем Джеймс Ливайн; продюсеры Cord Garben и Jürgen Bulgrin, баланс Wolfgang Mitlehner. Переиздание Eloquence 2009 «Nähe des Geliebten — Ausgewählte Lieder». Карточка уже в albums.md (по D 857/1 и D 162) — дополняется D 448.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Elysium — A Schubert Recital (BIS)",
+      "singer": "Carolyn Sampson",
+      "year": "ДВЕ сессии записи: 21–23.09.2020 (только D 762, D 939, D 343) и 06–08.07.2021 (остальные 14 треков, вкл. D 448); выпуск 03.03.2023",
+      "label": "BIS",
+      "facts": "Potton Hall, Саксмандем, Суффолк; пианист Joseph Middleton; продюсер Raphaël Mouterde, звук Dave Rowell. Расщепление сессий по трекам — MusicBrainz, релиз 465623b3-51d7-4710-a0c3-6d93a641eb7f, по-трековые work-relations: сессия 2020 — Schwestergruß D 762, Die Sterne D 939, Litanei D 343; сессия июля 2021 — D 544, D 193, D 774 (в MB опечатка «D 744»), D 828, D 448, D 827, D 259, D 497, D 764, D 861, D 867, D 776, D 584, D 829. Год конкретной песни брать из её сессии, не из общей даты альбома. Карточка уже в реестре (D 828, D 259) — дополняется D 448.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Divine Muse (Signum SIGCD606)",
+      "singer": "Mary Bevan",
+      "year": "запись 4–7 января 2019, релиз 24.01.2020",
+      "label": "Signum Classics",
+      "facts": "All Saints' Church, East Finchley, Лондон; пианист Joseph Middleton; продюсер и монтаж Mark Brown, запись Mike Hatch (ассистент Tom Mungall); общее время 64'35\"; программа Гайдн / Шуберт / Вольф. НОВАЯ карточка для реестра — Мэри Беван в нём отсутствовала.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert – A Song Recital (Polymusic PRLP 1009)",
+      "singer": "Hermann (Herman) Schey",
+      "year": "не установлен (Polymusic — начало 1950-х)",
+      "label": "Polymusic Records",
+      "facts": "Пианистка Marguerite Reyners; трек-лист LP напечатан по-английски, D 448 значится как «God In Springtime» (B6) — из-за этого запись не находится обычным поиском по немецкому названию. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Der Hirt auf dem Felsen — 22 Lieder (EMI CDC 7 54175 2)",
+      "singer": "Nancy Argenta",
+      "year": "1991 (издание)",
+      "label": "EMI / Warner",
+      "facts": "Пианист Melvyn Tan. Трек включён в антологию «Lieder on Record 1898–2012». На YouTube по-трековно НЕ выложен. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Frühlingslieder (ATMA Classique)",
+      "singer": "Donna Brown",
+      "year": "релиз 22.12.2025 (℗ ATMA); сессия не установлена",
+      "label": "ATMA Classique",
+      "facts": "Пианист Stéphane Lemelin. Новейший релиз с этой песней; весенняя программа — потенциально сквозная для «весенних» песен корпуса. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Columbia ML-4365 / MM-977",
+      "singer": "Genevieve Warner",
+      "year": "сессия 11 октября 1950",
+      "label": "Columbia (США)",
+      "facts": "Пианист Franz Rupp; префикс XCO, матрица 43615 (дискография Майкла Грея, id 31123). Старейшая документированная запись D 448 и единственная запись этой песни во всей базе Грея.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительной страницы (Vergleich) для D 448 НЕ существует: индекс https://www.klassik-prisma.de/Schubert.htm содержит только 8 шубертовских песен (D 774, D 965, D 828, D 328, D 118, D 583, D 827 плюс три цикла).",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33019 — страница тома 19 свода Грэма Джонсона: дата и место записи, вводное эссе Джонсона о природе и цветах у Шуберта (со ссылками на письма 1825 и 1826 гг.), цитаты In Tune (Япония) и Répertoire (Франция).",
+    "https://www.classical-discography.org/ (Michael Gray, «A Classical Discography», 292 436 записей) — единственная сессионная документация песни (1950).",
+    "Gramophone, MusicWeb, BBC Music Magazine, Presto Music: получить не удалось — Presto и сайты лейблов Signum/BIS отдают из контейнера 403/404, а бюджет WebSearch этой сессии был исчерпан до начала работы (200/200). Слепых тестов по D 448 не найдено."
+  ],
+  "negatives": [
+    "Из восьми приоритетных певцов правил песню записал ТОЛЬКО Фишер-Дискау. Квастхоф, Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг и Попп — отрицательно (обоснования по каждому в priority_singers_checked).",
+    "D 448 — на стихи Иоганна Петера Уца, а не Гёте, поэтому ВСЕ сквозные гётевские альбомы корпуса её не содержат: Fischer-Dieskau/Demus (DG 1959), Prégardien/Staier (DHM 1994), Schreier/Olbertz (Eterna), Prey/Engel (Decca 1964), Mauro Peter/Deutsch (Sony 2015), Naxos DSLE т. 3 (Bästlein) и т. 13 (Ziesak), Fassbaender/Garben (Sony 1993), Goerne/Haefliger (Decca 1996). Это отсекает большую часть привычного пула корпуса.",
+    "Наиболее записываемые шубертианки фонда песню не пели или их версии на YouTube отсутствуют: Ameling, Bonney, Baker, Norman, von Otter, Fassbaender — нет ни в MusicBrainz, ни у Грея, ни в целевом поиске yt-dlp.",
+    "Три документированные записи НЕ доступны на YouTube: Mathis/Engel (DG 1988/89), Argenta/Tan (EMI 1991), Warner/Rupp (Columbia 1950).",
+    "MusicBrainz-запись «Nightnoise — Gott Im Fruhling» (220 с) — кельтская инструментальная адаптация, не исполнение песни; исключена из пула. Так же исключены: аранжировка для виолончели и фортепиано (g2PhpbooNMc), хоровая версия Cincinnati Choral Society (05ceGvzbJaQ), студенческие рециталы и минусовки канала Vocal Mate.",
+    "Даты трёх кандидатов установить не удалось (Janowitz/Gage — DOREMI ℗2017; Berger/Scherzer — Jube Classic ℗2021; Schey/Reyners — Polymusic без года). Метаданные Topic-загрузок этих трёх («2017», «2021», «1959») — годы релизов агрегаторов, по правилам проекта не источник даты записи.",
+    "Автоматический candidates.json дал ложные singer_guess: «Michael Raucheisen» (на деле поёт Karl Schmitt-Walter) и «Graham Johnson» (на деле поёт Felicity Lott) — оба Topic-канала оформлены на пианиста. Правило для конвейера: при канале-пианисте певца брать из описания загрузки."
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "d": "586",
+  "title": "Erlafsee",
+  "tier": "medium",
+  "song_note": "Мейрхофер, сентябрь 1817. Историческая особенность: ПЕРВАЯ напечатанная песня Шуберта — вышла в альманахе «Mahlerisches Taschenbuch für Freunde interessanter Gegenden…» на 1818 г.; позже — op. 8 № 3. Источник: примечания Грэма Джонсона к Hyperion Schubert Edition, т. 21 («There was the excitement of seeing his first song in print (Erlafsee, in an almanac)»; там же D 586 отнесён к сентябрю 1817 и к т. 21) — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021. Песня почти не входит в «звёздный» рецитальный репертуар: фонд записей — полные своды (DG Fischer-Dieskau, Hyperion, Naxos DSLE) + мейрхоферовские программы и «водные» концепт-альбомы.",
+  "research_limits": "В сессии исчерпан лимит WebSearch (200/200) ДО начала работы по этой песне, поэтому сравнительные обзоры (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC MM) по D 586 найти не удалось — раздел surveys пуст не потому, что обзоров нет, а потому, что поиск был недоступен. Использованы: прямые WebFetch (Hyperion), MusicBrainz API, Discogs API (release-страницы: треклисты, кат. номера, примечания), yt-dlp (метаданные Topic-загрузок — только для идентификации альбома, НЕ как источник дат), yt-check (oEmbed).",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Karl Engel",
+      "rec_year": 1959,
+      "year_source": "Electrola E 91 024 / «Die Stimme Seines Herrn» WALP 552 — «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VI. Folge: Gedichte von Johann Mayrhofer»; Discogs release 32319945 датирован 1959, экземпляр — белый промо-лейбл с ручным штампом даты «22.Dez.1959» (значит, сессии не позже декабря 1959). Британский аналог — HMV ALP 1850 «Schubert Lieder Recital (No. 5)», изд. 1961 (Discogs 7682295, треклист: A3 Erlafsee, D.586; аннотация William Mann). Точные дни сессий (по Грею) не установлены — оставлен хвост.",
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VI. Folge: Gedichte von Johann Mayrhofer (Electrola E 91 024 / WALP 552); UK: HMV ALP 1850 «Schubert Lieder Recital No. 5»; CD-переизд. EMI Classics 5 65670 2 «Schubert: Lieder» (1995) — отсюда пометка MB «1995 Remastered Version»",
+      "label": "Electrola / EMI (ныне Warner Classics)",
+      "age_voice": "34 года (р. 1925). Абсолютный вокальный пик (дайджест: пик ~1951–1972). Целиком мейрхоферовская программа — редкий случай, когда Ф.-Д. записывает поэта одним корпусом; Erlafsee идёт в контексте «водных» песен (Am Strome, Auf der Donau, Wie Ulfru fischt).",
+      "reputation": "Отдельных рецензий именно на этот LP найти не удалось (лимит поиска исчерпан). Косвенно: пластинка вошла в EMI-компиляцию «Schubert: Lieder» (5 65670 2, 1995) и в бокс Warner «Complete Lieder & Songs on Warner Classics» (2025) — каталог держит её в обороте 65 лет. Дайджест: EMI-серия рециталов Ф.-Д. 1955–1965 — ранний, самый свежий по голосу слой его шубертианы.",
+      "sources": [
+        "Discogs release 32319945 (Electrola E 91 024, 1959, промо-штамп 22.Dez.1959; кредиты: Baritone — Fischer-Dieskau, Piano — Karl Engel)",
+        "Discogs release 13685556 (тот же LP, коммерческий пресс)",
+        "Discogs release 7682295 (HMV ALP 1850, 1961; треклист с D-номерами, A3 Erlafsee D.586)",
+        "MusicBrainz: recording «Erlafsee D. 586 (1995 Remastered Version)» — Fischer-Dieskau / Karl Engel, на «Schubert — Lieder on Record 1898–2012» (EMI Classics)",
+        "planning/youtube/albums.md — карточка Electrola-серии «Folge» с Karl Engel (V. Folge, 1959)"
+      ],
+      "youtube": [
+        {"videoId": "ccN0F1CDrek", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "альбом «Schubert: Lieder, Vol. 4 (Stereo Version)», дистрибьютор Believe SAS / «BNF Collection» — серый агрегатор публичного достояния; фонограмма та же (Engel), но кредиты и ℗1961 брать у него нельзя"},
+        {"videoId": "JrouXTaCePQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "тот же релиз, Mono Version, 237 с"}
+      ],
+      "note": "Главный «старый мастер» песни и единственный приоритетный певец из правил, у кого запись вообще есть. Плюс: голос на 14 лет свежее, чем в DG-своде. Минус для публикации: доступный на YouTube носитель — грey-агрегатор BNF/Believe (Topic-канал певца, но не Warner). Официальной Warner-загрузки этой версии не найдено."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "DG «Schubert: Sämtliche Lieder», сессии 1966–1972, Ufa-Ton-Studio Berlin; ℗ 1969 Deutsche Grammophon GmbH, Berlin (кредиты официальной UMG-загрузки: продюсер Rainer Brock, исполнительный продюсер Otto Gerdes). Проектная конвенция для всего свода — 1969 (planning/youtube/albums/complete-editions.md).",
+      "album": "Schubert: Sämtliche Lieder (DG; LP Vol. 1 — 2720 006 / 643 547–58, изд. 1970; Vol. 2 — 2720 022; CD 21-CD бокс DG)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 1925). Поздняя часть пика; в своде 1966–72 голос ровный, но темнее и «инструментальнее», чем в EMI-версии 1959; интерпретация детальнее.",
+      "reputation": "Свод DG — базовый эталон мужской шубертианы (дайджест: «лучший охват среди всех»; ~400+ песен). Отдельной критики на трек D 586 не найдено.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md — карточка «Fischer-Dieskau / Moore — Schubert: Sämtliche Lieder (DG, зап. 1966–1972)», конвенция года 1969",
+        "MusicBrainz: recording Fischer-Dieskau / Gerald Moore, 244 с, на «Complete Lieder Recordings on Deutsche Grammophon» и на «Lieder» (DG, 1992/2010)",
+        "Discogs 3366698 / 18428155 (DG 643 547/58, Lieder Volume 1, 1970), 17653033 (Lieder Volume II, DG 437 225 2)",
+        "Кредиты официальной загрузки UMG (Topic): ℗ 1969 DG Berlin"
+      ],
+      "youtube": [
+        {"videoId": "nhoef4U9qX8", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "UMG, альбом «Schubert: Lieder»; 7220 просмотров — самая ходовая загрузка"},
+        {"videoId": "vqDOQkAaJ5Y", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "тот же трек, альбом «Schubert: Lieder (Vol. 2)»"},
+        {"videoId": "hpvhHi5j9do", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "note": "тот же трек, бокс Lieder + три цикла"},
+        {"videoId": "hWCPksoRKF4", "channel": "BearJune Selection", "official": false, "oembed_ok": true, "note": "фан-загрузка той же записи"}
+      ],
+      "note": "Дублирует певца из позиции выше. По правилу «при прочих равных — более ранняя» приоритет у 1959/Engel; DG-версия выигрывает только официальностью носителя (UMG)."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Irwin Gage",
+      "rec_year": 1971,
+      "year_source": "Сессии 7–13.10.1971, Берлин — дискография Майкла Грея через карточку реестра (planning/youtube/albums/female-recitalists.md: «Ameling — Der Hirt auf dem Felsen / Lieder (HMV HQS 1261, зап. 7–13.10.1971, Берлин), пианист Irwin Gage, кларнет George Pieterson»). Треклист HQS 1261 (Discogs 9761580) подтверждает Erlafsee — сторона B2; кларнет Питерсона — только в Hirt (B5). Кредит именно Erlafsee → Gage подтверждён кредитами официальной Warner-загрузки (℗ 1971 Original, EMI Music Germany; продюсер Gerd Berg, пианист Irwin Gage).",
+      "album": "Schubert Lieder (HMV HQS 1261; нем. изд. Electrola 1 C 063-02 253 «Elly Ameling singt Schubert-Lieder, Folge II»); переизд. Warner «Icon: Elly Ameling»",
+      "label": "EMI Electrola / HMV (ныне Warner Classics)",
+      "age_voice": "38 лет (р. 1933). Пик (дайджест: ~1965–1985); «самая записываемая шубертианка поколения». Голос в 1971 — светлое, ровное лирическое сопрано без следов износа.",
+      "reputation": "Рецензий на трек не найдено (лимит поиска). Косвенно: альбом переиздавался Электролой и Warner десятилетиями, вошёл в серии «Icon» и «The Dutch Nightingale».",
+      "sources": [
+        "Discogs release 9761580 (HMV HQS 1261, треклист: B2 Erlafsee; кредиты — Ameling, пианисты Irwin Gage и Jörg Demus, кларнет George Pieterson в Hirt)",
+        "planning/youtube/albums/female-recitalists.md — дата сессий 7–13.10.1971 (Gray)",
+        "Кредиты официальной загрузки Warner Classics (Topic): ℗ 1971, Piano — Irwin Gage, Producer — Gerd Berg"
+      ],
+      "youtube": [
+        {"videoId": "1OgSXt05YoM", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "note": "Warner Classics, «Icon: Elly Ameling»; 7996 просмотров"}
+      ],
+      "note": "Сильнейшая женская студийная версия в фонде и лучший «женский» кандидат: пик голоса + официальный носитель Warner."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Rudolf Jansen",
+      "rec_year": 1987,
+      "year_source": "Концерт 2 июля 1987, Tanglewood, Theatre-Concert Hall — карточка реестра planning/youtube/albums.md («Elly Ameling Sings Schubert At Tanglewood», Omega OCD 1001, изд. 1988; переизд. Brilliant Classics 95107, 2014). Discogs 15005875 / 15983227 (Omega OCD 1001, 1988), 11079928 (Brilliant 95107, 2014).",
+      "album": "Elly Ameling Sings Schubert At Tanglewood (Omega OCD 1001); переизд. Brilliant Classics 95107; та же фонограмма в «Big Schubert Box» (Vanguard Classics, ℗ 2013)",
+      "label": "Omega Record Classics / Vanguard / Brilliant Classics",
+      "age_voice": "54 года (р. 1933). Конец пика; концертная запись — живее по подаче, но техника уже не так безупречна, как в 1971.",
+      "reputation": "Специальной критики не найдено. Живой рецитал, известен как поздний «портрет» её шубертианы.",
+      "sources": [
+        "planning/youtube/albums.md — карточка Tanglewood (концерт 2 июля 1987)",
+        "MusicBrainz: Ameling / Jansen, Erlafsee 242 с, на «Big Schubert Box» (2013-06-04)",
+        "Кредиты загрузок: Brilliant Classics (Kontor New Media) и Vanguard Classics (eOne)"
+      ],
+      "youtube": [
+        {"videoId": "ydAUw-Xknss", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "note": "Brilliant Classics"},
+        {"videoId": "XRrHohcaDrU", "channel": "Release - Topic", "official": false, "oembed_ok": true, "note": "Vanguard/eOne, безымянный Topic-канал «Release» — брать не следует"}
+      ],
+      "note": "Дублирует Амелинг; по правилу более ранняя (1971) предпочтительнее."
+    },
+    {
+      "singer": "Edith Mathis",
+      "pianist": "Graham Johnson",
+      "rec_year": 1992,
+      "year_source": "Hyperion, официальная страница альбома: «Recording details: October 1992, Rosslyn Hill Unitarian Chapel, Hampstead, London»; издание — июнь 1994 (CDJ33021).",
+      "album": "The Hyperion Schubert Edition, Vol. 21: Schubert in 1817 & 1818 (CDJ33021)",
+      "label": "Hyperion",
+      "age_voice": "54 года (р. 1938). Поздний пик (дайджест: 1970-е–1980-е); голос лёгкий, стилистически безупречный, но уже без юношеской свободы.",
+      "reputation": "Научный эталон издания: комментарии Грэма Джонсона — главный аналитический источник по песне (в его эссе к тому именно Erlafsee названа первой напечатанной песней Шуберта). Отдельных оценок исполнения не найдено.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021 (дата и место записи, наличие D 586, эссе Джонсона)",
+        "planning/youtube/albums/complete-editions.md — «Mathis — Vol. 21 (CDJ33021, зап. X.1992, изд. VI.1994)»",
+        "Discogs 8528301 / 14038590 (CDJ33021)"
+      ],
+      "youtube": [
+        {"videoId": "hThx_apPAio", "channel": "Edith Mathis - Topic", "official": true, "oembed_ok": true, "note": "official audio (Hyperion/UMG с 2023)"}
+      ],
+      "note": "Самый «документальный» вариант; ценен связкой с комментарием Джонсона."
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "David Lutz",
+      "rec_year": 1986,
+      "year_source": "Описание на официальном канале певца (с разрешения Preiser Records): «Aufgenommen im Juli 1986 im Casino Baumgarten in Wien. Aufnahmeleitung: Jürgen E. Schmidt, Tonmeister: Josef Kamykowski». LP/CD Preiser — «Ausgewählte Lieder» (Discogs 5795612, SPR 3373).",
+      "album": "Robert Holl — Schubert: Ausgewählte Lieder (Preiser SPR 3373)",
+      "label": "Preiser Records",
+      "age_voice": "39 лет (р. 1947). Пик (дайджест: ~1980–2005). «Гранитная», медленная манера — темп 5'03\", самый широкий из всех кандидатов (у Ф.-Д. ~4'04\").",
+      "reputation": "Критики по этой записи не найдено. Дайджест: патриарх Шубертиады Хоэнемс, специалист по редким песням; охват на YouTube ограничен, но здесь — собственный канал певца.",
+      "sources": [
+        "Описание видео на официальном канале Robert Holl (даты и состав сессии, разрешение Preiser)",
+        "Discogs 5795612 (Preiser SPR 3373, Holl / Lutz, Schubert «Ausgewählte Lieder»)",
+        "planning/research/singers-digest.md — карточка Holl"
+      ],
+      "youtube": [
+        {"videoId": "b7IaukcA5ME", "channel": "Robert Holl", "official": true, "oembed_ok": true, "note": "официальный канал певца, лицензия Preiser; 303 с"}
+      ],
+      "note": "Лучший бас-баритоновый «не-Ф.-Д.» вариант; редкий случай точной документированной даты сессии прямо от правообладателя."
+    },
+    {
+      "singer": "Wolfgang Holzmair",
+      "pianist": "Gérard Wyss",
+      "rec_year": 1992,
+      "year_source": "℗ 1992 Tudor (кредиты официальной Naxos-of-America/Topic-загрузки); Discogs 9020369 — Tudor 764, «Lieder» (Schubert / Mayrhofer), 1992; MusicBrainz — релиз «Lieder nach Gedichten von Johann Mayrhofer», 1992. Год сессии отдельно не документирован → год издания.",
+      "album": "Schubert: Lieder nach Gedichten von Johann Mayrhofer (Tudor 764)",
+      "label": "Tudor",
+      "age_voice": "40 лет (р. 1952). Начало пика (дайджест: 1990-е). Светлый, почти теноровый баритон; трактовка самая длинная среди «клавирных» — 4'44\".",
+      "reputation": "Критики не найдено. Реестр (albums/modern-series.md) уже отмечал этот альбом как ранний, до серии с Imogen Cooper; лейбл и точные даты стояли с «?» — сейчас лейбл закрыт (Tudor).",
+      "sources": [
+        "Discogs 9020369 (Tudor 764, 1992, Holzmair / Wyss, Schubert–Mayrhofer)",
+        "MusicBrainz recording Holzmair / Wyss, 284 с, релиз 1992",
+        "Кредиты Topic-загрузки: ℗ 1992 Tudor, Artist: Gerard Wyss",
+        "planning/youtube/albums/modern-series.md — карточка «Holzmair — Lieder nach Gedichten von Johann Mayrhofer (1992)»"
+      ],
+      "youtube": [
+        {"videoId": "N6NSDHQYkb8", "channel": "Wolfgang Holzmair - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ЗАКРЫВАЕТ ХВОСТ РЕЕСТРА: лейбл альбома Holzmair Mayrhofer-1992 — Tudor (кат. 764)."
+    },
+    {
+      "singer": "Christian Elsner",
+      "pianist": "Hartmut Höll",
+      "rec_year": 1997,
+      "year_source": "℗ 1997 Capriccio (кредиты официальной Naxos-of-America/Topic-загрузки альбома «Schubert, F.: Lieder, Vol. 1 — Opp. 1–24»). Год сессии отдельно не документирован → год издания/фонограммы.",
+      "album": "Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio)",
+      "label": "Capriccio",
+      "age_voice": "Возраст не подтверждён источником (год рождения Эльснера в дайджесте отсутствует); в дайджесте он проходит только как участник Naxos DSLE т. 5 и т. 13. Темп широкий — 4'28\".",
+      "reputation": "Критики не найдено. Ценность связки — пианист Hartmut Höll, один из ведущих аккомпаниаторов поколения (в фонде проекта отдельной карточки нет).",
+      "sources": [
+        "Кредиты официальной загрузки (Naxos of America / Topic): альбом, ℗ 1997 Capriccio, Artist: Hartmut Holl",
+        "planning/youtube/albums/complete-editions.md — карточки Elsner в Naxos DSLE (иные альбомы)"
+      ],
+      "youtube": [
+        {"videoId": "BqT1O1AeveM", "channel": "Christian Elsner - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "НОВАЯ ДЛЯ РЕЕСТРА позиция: серия Capriccio «Schubert Lieder по опусам» — потенциально сквозной ресурс для песен с опусными номерами."
+    },
+    {
+      "singer": "John Mark Ainsley",
+      "pianist": "Steven Lubin (хаммерклавир)",
+      "rec_year": 1993,
+      "year_source": "℗ 1993 Decca Music Group (кредиты официальной UMG-загрузки; продюсер Peter Wadland, баланс-инженер Jonathan Stokes — типичная бригада L'Oiseau-Lyre). Discogs 10270054 — Decca/L'Oiseau-Lyre 433 848-2, 1993. Отдельная дата сессии не установлена → год издания.",
+      "album": "Schubert: 'Trout' Quintet / 7 Lieder (Decca / L'Oiseau-Lyre 433 848-2), с Academy of Ancient Music Chamber Ensemble",
+      "label": "Decca / L'Oiseau-Lyre",
+      "age_voice": "Год рождения источником не подтверждён (в дайджесте Ainsley — только в «резерве» без карточки). Светлый английский тенор; аутентистский контекст — Lubin играет на инструменте эпохи.",
+      "reputation": "Критики по песне не найдено. Аутентистская ценность: единственный кандидат, где связка «тенор + хаммерклавир» встроена в программу с «Форельным квинтетом».",
+      "sources": [
+        "Discogs 10270054 (Decca 433 848-2, 1993; Lubin / Ainsley / AAM Chamber Ensemble)",
+        "MusicBrainz recording Ainsley / Lubin, 245 с",
+        "Кредиты официальной загрузки UMG: ℗ 1993 Decca"
+      ],
+      "youtube": [
+        {"videoId": "8_rXo2RuKhc", "channel": "John Mark Ainsley - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Christiane Iven",
+      "pianist": "Burkhard Kehring",
+      "rec_year": 2003,
+      "year_source": "℗ 2003 Naxos, релиз 21.04.2003 (кредиты официальной Naxos-загрузки; продюсер Pauline Heister, инженер Wolfgang Karreth). Реестр: Naxos DSLE т. 12 «Mayrhofer, Vol. 2» (8.554739, изд. 02/2003). Discogs 31982882.",
+      "album": "Deutsche Schubert-Lied-Edition, т. 12: Mayrhofer, Vol. 2 (Naxos 8.554739)",
+      "label": "Naxos",
+      "age_voice": "Год рождения источником не подтверждён; в дайджесте карточки нет — певица входит в фонд только через издание Naxos.",
+      "reputation": "Полное издание Naxos — систематический, не «звёздный» стандарт (дайджест). Отдельных оценок нет.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md — «Christiane Iven — т. 12 “Mayrhofer, Vol. 2” (Naxos 8.554739, изд. 02/2003)»",
+        "Discogs 31982882; MusicBrainz «Lied Edition 12 — Mayrhofer, Vol. 2» (2003-04-21)",
+        "Кредиты официальной Naxos-загрузки"
+      ],
+      "youtube": [
+        {"videoId": "Wdq1krfd3_k", "channel": "Christiane Iven - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Наиболее «полное издание»-совместимый вариант; интерес — контекст всего мейрхоферовского тома."
+    },
+    {
+      "singer": "Georg Nigl",
+      "pianist": "Olga Pashchenko (хаммерклавир)",
+      "rec_year": 2020,
+      "year_source": "Релиз Alpha Classics «Vanitas», 13.11.2020 (кредиты официальной загрузки, IDOL/Alpha; MusicBrainz — релиз 2020-11-13). Erlafsee — бонус-трек. Дата сессии не документирована → год издания (помечено).",
+      "album": "Vanitas — Schubert, Beethoven & Rihm (Alpha Classics)",
+      "label": "Alpha Classics / Outhere",
+      "age_voice": "Год рождения источником не подтверждён; в дайджесте Nigl — в «резерве» без карточки. Самая протяжная версия из всех (5'04\"/5'03\"), густо-декламационная манера.",
+      "reputation": "Критики по треку не найдено. Скепсис по правилу к современному пиару: альбом продавался как концептуальный проект, сравнительных оценок именно Erlafsee нет.",
+      "sources": [
+        "MusicBrainz recording Nigl / Pashchenko, 303 с, релиз «Vanitas» (2020-11-13)",
+        "Кредиты официальной загрузки: ℗ Alpha Classics / Outhere Music France"
+      ],
+      "youtube": [
+        {"videoId": "AJVvDYTb7bc", "channel": "Georg Nigl - Topic", "official": true, "oembed_ok": true, "note": "«Erlafsee, D. 586 (Bonus Track)»"}
+      ],
+      "note": "Единственный кандидат «не ранее 2015» с официальным носителем — важен для возрастной структуры топ-5."
+    },
+    {
+      "singer": "Judith Raskin",
+      "pianist": "George Schick",
+      "rec_year": 1967,
+      "year_source": "LP Epic LC 3933 (моно) / BC 1333 (стерео) «Judith Raskin Sings Schubert Songs», Discogs 11200889 / 13941514 / 33495065 — год 1967; продюсер Paul Myers, аннотация Kay Jaffee; треклист B4 Erlafsee. (Фан-загрузка называет 1966 — не источник.) Год сессии отдельно не документирован → год издания.",
+      "album": "Judith Raskin Sings Schubert Songs (Epic LC 3933 / BC 1333); переизд. Sony/CBS «Lieder» SBK 62 422 (1996)",
+      "label": "Epic / Columbia (ныне Sony)",
+      "age_voice": "39 лет (р. 1928 — [не подтверждено источником в этой сессии]). Пик карьеры середины 1960-х (Метрополитен, моцартовский репертуар). Американская школа, светлое лирическое сопрано.",
+      "reputation": "Критики не найдено. Историческая ценность: редкий американский шубертовский рецитал 1960-х, переизданный Sony в серии Essential Classics.",
+      "sources": [
+        "Discogs 11200889, 13941514, 33495065 (Epic LC 3933 / BC 1333, 1967, треклист)",
+        "Discogs 2814783 / 25671448 / 31360888 (Sony SBK 62 422, 1996 — переиздание)",
+        "MusicBrainz recording Raskin / Schick, 235 с"
+      ],
+      "youtube": [
+        {"videoId": "_eqde8qssws", "channel": "Judith Raskin - Topic", "official": true, "oembed_ok": true, "note": "«Erlafsee, D.586 (Voice)», 232 с"}
+      ],
+      "note": null
+    },
+    {
+      "singer": "Henk Neven",
+      "pianist": "Hans Eijsackers",
+      "rec_year": 2012,
+      "year_source": "Onyx ONYX 4102 «The Sea», примечания издания: «Recorded January 31 – February 3 & August 18–20, 2012» (Discogs 22858313); Erlafsee — трек 20.",
+      "album": "The Sea (Onyx 4102) — «водная» программа: Дебюсси, Форе, шубертовский блок (Der Schiffer, Meeresstille, Fahrt zum Hades, Auf der Donau, Erlafsee, Gondelfahrer, Rückweg, Am Strome, Gruppe aus dem Tartarus)",
+      "label": "Onyx Classics",
+      "age_voice": "Год рождения источником не подтверждён; в дайджесте карточки нет.",
+      "reputation": "Критики не найдено; альбом — концептуальная программа, тематически прямо соответствующая песне.",
+      "sources": [
+        "Discogs 22858313 (Onyx 4102, 2012; даты сессий в примечаниях; кредиты: Neven — баритон, Eijsackers — рояль)"
+      ],
+      "youtube": [
+        {"videoId": "H1ErzoHxruk", "channel": "Henk Neven - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Редкий случай точно документированных дат сессий."
+    },
+    {
+      "singer": "Jasper Schweppe",
+      "pianist": "Riko Fukuda (хаммерклавир)",
+      "rec_year": 2021,
+      "year_source": "MusicBrainz: релиз «Lieder, Volume 2», 2021-04-04; отдельной дискографической даты сессии не найдено.",
+      "album": "Schubert: Lieder, Volume 2 (нидерландский аутентистский проект; трек назван «Erlafsee op. 8,3 D. 586»)",
+      "label": "не установлен",
+      "age_voice": "Не установлено; в дайджесте певца нет.",
+      "reputation": "Не найдено.",
+      "sources": [
+        "MusicBrainz recording Schweppe / Fukuda, 217 с, релиз 2021-04-04"
+      ],
+      "youtube": [
+        {"videoId": "5rMbfKEVBHg", "channel": "Riko Fukuda - Topic", "official": true, "oembed_ok": true, "note": "Topic-канал пианистки, не певца"}
+      ],
+      "note": "Маргинальный кандидат: лейбл и репутация не установлены."
+    },
+    {
+      "singer": "Edita Gruberová",
+      "pianist": "Erik Werba",
+      "rec_year": 1980,
+      "year_source": "Orfeo d'Or C 635 041 B, примечания издания: «Live recording 14 August 1980» (Зальцбург), ℗© 2004 Orfeo (Discogs 25214194).",
+      "album": "Schubert · Mendelssohn · Strauss: Lieder (Orfeo d'Or C 635 041 B)",
+      "label": "Orfeo d'Or",
+      "age_voice": "Не сверялось (в дайджесте карточки нет).",
+      "reputation": "Не найдено.",
+      "sources": [
+        "Discogs 25214194 (Orfeo C 635 041 B; дата концерта, кредиты: Gruberová, Werba, кларнет Peter Schmidl)",
+        "Discogs-поиск по «Erlafsee» — релиз попал в выдачу"
+      ],
+      "youtube": [],
+      "note": "⚠️ НЕ ВЕРИФИЦИРОВАНО: наличие Erlafsee в программе выведено только из попадания релиза в Discogs-выдачу по запросу «Erlafsee» — потрековый список в API отсутствует. YouTube-загрузка не найдена. Без подтверждения в топ-5 не брать."
+    },
+    {
+      "singer": "Herta Glaz",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": "не установлен",
+      "album": "Songs by Schubert and Schumann (Columbia «Entré» E3055, 1950-е)",
+      "label": "Columbia / Entré",
+      "age_voice": "Не сверялось.",
+      "reputation": "Не найдено.",
+      "sources": [
+        "Discogs 15500676 / 36874450 (Entré E3055) — попадание в Discogs-выдачу по «Erlafsee»"
+      ],
+      "youtube": [],
+      "note": "⚠️ Маргинал, наличие песни не подтверждено потреково; YouTube-загрузка не найдена."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Дискография Квастхофа по Шуберту закрыта и исчерпывается 6 альбомами (Goethe-Lieder RCA 1993/95; Winterreise RCA 1998; Schwanengesang DG 2001; Lieder с оркестром DG 2003; Müllerin DG 2005; Winterreise-фильм DG 2005) — мейрхоферовских песен в них нет (planning/research/singers-digest.md). Ни в MusicBrainz (10 записей D 586), ни в Discogs-выдаче по «Erlafsee» (63 релиза, 2 страницы) его имя не встречается.",
+    "Dietrich Fischer-Dieskau": "ДА, дважды. (1) с Karl Engel — Electrola E 91 024 / WALP 552, «VI. Folge: Gedichte von Johann Mayrhofer», 1959 (Discogs 32319945; промо-штамп 22.Dez.1959), UK — HMV ALP 1850, 1961 (Discogs 7682295, трек A3). (2) с Gerald Moore — DG «Sämtliche Lieder», ℗1969 (MusicBrainz; кредиты UMG-загрузки; карточка реестра complete-editions.md).",
+    "Elisabeth Schwarzkopf": "НЕТ. Отсутствует и в MusicBrainz-списке записей произведения, и в полной Discogs-выдаче по «Erlafsee» (63 релиза). Репертуар её шубертовских рециталов (EMI с Э. Фишером и Муром, зальцбургские лайвы с Муром, «Songs I Love» с Парсонсом — дайджест) мейрхоферовских песен не включает.",
+    "Hans Hotter": "НЕТ. Не встречается ни в MusicBrainz по D 586, ни в Discogs-выдаче по «Erlafsee». Его шубертовская дискография — Winterreise (DG 1942, EMI 1954, DG 1961), Schwanengesang и рециталы нач. 1950-х (дайджест).",
+    "Peter Anders": "НЕТ. Отсутствует в MusicBrainz и Discogs-выдаче. Шубертовское наследие — Winterreise (RRG 1945) и две Müllerin (1945, 1948) (дайджест); умер в 1954.",
+    "Elisabeth Schumann": "НЕТ. Отсутствует в MusicBrainz и Discogs-выдаче. Её шубертовский свод — ~28 песен HMV 1927–49 (Naxos 8.110731), мейрхоферовских среди них не зафиксировано (дайджест).",
+    "Christa Ludwig": "НЕТ. Отсутствует в MusicBrainz и Discogs-выдаче по «Erlafsee» (в т. ч. в её сводах: EMI-сессии 1957–69, DG 2530 404 с Gage 1973, DG 2530 528 1974 — реестр female-recitalists.md).",
+    "Lucia Popp": "НЕТ. Отсутствует в MusicBrainz и Discogs-выдаче. Её шубертовские позиции — EMI-рецитал с Gage (сессии 1–6.11.1983, Abbey Road) и зальцбургский лайв 10.08.1983 (реестр female-recitalists.md); Erlafsee в них не значится."
+  },
+  "albums_facts": [
+    {
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VI. Folge: Gedichte von Johann Mayrhofer (Electrola E 91 024 / WALP 552; UK — HMV ALP 1850 «Schubert Lieder Recital No. 5»)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1959 (нем. изд.; UK-изд. 1961)",
+      "label": "Electrola / EMI (Warner)",
+      "facts": "Пианист Karl Engel. 14 мейрхоферовских песен: D 539, D 524, D 586 (Erlafsee), D 525, D 669, D 671, D 553, D 806, D 473, D 516, D 754, D 492, D 805, D 654. Промо-экземпляр с ручным штампом «22.Dez.1959». Аннотация и переводы William Mann, фото Lotte Meitner-Graf (UK-издание). CD-переизд. EMI 5 65670 2 (1995). НОВАЯ КАРТОЧКА ДЛЯ РЕЕСТРА — покрывает сразу 14 мейрхоферовских песен корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (HMV HQS 1261 / Electrola 1 C 063-02 253 «Elly Ameling singt Schubert-Lieder, Folge II»)",
+      "singer": "Elly Ameling",
+      "year": "1971 (сессии 7–13.10.1971, Берлин)",
+      "label": "EMI Electrola / HMV (Warner)",
+      "facts": "Пианисты Irwin Gage и Jörg Demus (на диске оба; Erlafsee — с Gage по кредитам Warner). Треклист: An die Musik, Frühlingsglaube, Liebe schwärmt auf allen Wegen, Ständchen, Ganymed, Gretchen am Spinnrade, Ave Maria, Die Forelle, Erlafsee, Im Frühling, Der Jüngling und der Tod, Der Hirt auf dem Felsen (кларнет George Pieterson). Продюсер Gerd Berg. Реестр знал сессии по Грею, но не знал треклиста — ДОПОЛНЕНИЕ КАРТОЧКИ: диск покрывает как минимум 12 песен корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder nach Gedichten von Johann Mayrhofer (Tudor 764)",
+      "singer": "Wolfgang Holzmair",
+      "year": "1992 (год издания/фонограммы; дата сессии не установлена)",
+      "label": "Tudor",
+      "facts": "Пианист Gérard Wyss. Целиком мейрхоферовская программа. ЗАКРЫВАЕТ ХВОСТ «?» реестра (albums/modern-series.md: «Holzmair — Lieder nach Gedichten von Johann Mayrhofer (1992 [MB], лейбл ?)») — лейбл Tudor, кат. 764.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio)",
+      "singer": "Christian Elsner",
+      "year": "1997 (℗)",
+      "label": "Capriccio",
+      "facts": "Пианист Hartmut Höll. Программа выстроена по опусам 1–24 (то есть по прижизненным изданиям) — потенциально сквозной ресурс для всех песен с опусными номерами (D 328 Erlkönig, D 480, D 516, D 586 и др.). НОВАЯ КАРТОЧКА ДЛЯ РЕЕСТРА.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Robert Holl — Schubert: Ausgewählte Lieder (Preiser SPR 3373)",
+      "singer": "Robert Holl",
+      "year": "1986 (июль, Casino Baumgarten, Вена)",
+      "label": "Preiser",
+      "facts": "Пианист David Lutz. Aufnahmeleitung Jürgen E. Schmidt, Tonmeister Josef Kamykowski. ВАЖНО ДЛЯ РЕЕСТРА: реестр держал карточку «Robert Holl singt Schubert-Lieder auf Texte von Goethe (Preiser, изд. 04.06.2021; год записи не установлен)» с пометкой «Preiser часто издаёт архивные ленты» — здесь подтверждение механики: фонограммы Холла/Луца у Preiser сделаны в середине 1980-х, релизы — гораздо позже.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 21: Schubert in 1817 & 1818 (CDJ33021)",
+      "singer": "Edith Mathis",
+      "year": "1992 (октябрь; изд. VI.1994)",
+      "label": "Hyperion",
+      "facts": "Пианист/редактор Graham Johnson. Rosslyn Hill Unitarian Chapel, Hampstead. Том целиком посвящён песням 1817–1818 — сквозной ресурс для целого пласта корпуса; в эссе Джонсона Erlafsee названа первой напечатанной песней Шуберта (альманах, 1818).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Sea (Onyx 4102)",
+      "singer": "Henk Neven",
+      "year": "2012 (сессии 31.01–03.02 и 18–20.08.2012)",
+      "label": "Onyx Classics",
+      "facts": "Пианист Hans Eijsackers. Шубертовский блок из 9 «водных» песен: D 536, D 216, D 526, D 553, D 586, D 808, D 476, D 539, D 583. НОВАЯ КАРТОЧКА ДЛЯ РЕЕСТРА.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Judith Raskin Sings Schubert Songs (Epic LC 3933 / BC 1333; переизд. Sony SBK 62 422)",
+      "singer": "Judith Raskin",
+      "year": "1967 (год издания; дата сессии не установлена)",
+      "label": "Epic / Columbia (Sony)",
+      "facts": "Пианист George Schick, продюсер Paul Myers. 20 песен, включая D 118, D 774, D 550-круг, номера из Müllerin и Ständchen — сквозной ресурс для женских версий. НОВАЯ КАРТОЧКА ДЛЯ РЕЕСТРА.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Vanitas — Schubert, Beethoven & Rihm (Alpha Classics)",
+      "singer": "Georg Nigl",
+      "year": "2020 (релиз 13.11.2020; дата сессии не установлена)",
+      "label": "Alpha Classics",
+      "facts": "Хаммерклавир — Olga Pashchenko. Erlafsee идёт бонус-треком. Единственный современный (после 2015) официальный носитель песни.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    {
+      "source": "Hyperion Records — Schubert Edition Vol. 21 (CDJ33021), эссе Graham Johnson",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33021",
+      "content": "Не сравнительный обзор записей, а научный комментарий к песне: датировка (сентябрь 1817), статус первой напечатанной песни Шуберта (альманах, 1818), место в томе."
+    }
+  ],
+  "negatives": [
+    "Сравнительных обзоров записей именно D 586 (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC Music Magazine, слепые тесты) в этой сессии найти не удалось — лимит WebSearch был исчерпан до начала работы. Это ОТКРЫТЫЙ ХВОСТ: перед публикацией топ-5 желательно один целевой поиск по «Erlafsee D 586 Vergleich / review».",
+    "Из восьми приоритетных певцов правил запись сделал только Фишер-Дискау (дважды). Квастхоф, Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг, Попп — записей нет (проверено по 10 записям произведения в MusicBrainz и по полной Discogs-выдаче «Erlafsee»: 63 релиза, 2 страницы).",
+    "Наличия песни у Gruberová (Orfeo, лайв 14.08.1980 с Werba) и у Herta Glaz (Entré E3055) потреково подтвердить не удалось — только косвенное попадание релизов в Discogs-выдачу; YouTube-загрузок этих версий не найдено.",
+    "Загрузка UPw0WRN-c4Q (корейский канал «가곡듣자») атрибутирована в заголовке как «Кирхшлагер/Тан» — ни певица, ни пианист по дискографиям не подтверждаются; Angelika Kirchschlager в дайджесте значится как певица БЕЗ сольного студийного Шуберта. Атрибуция недостоверна, кандидатом не считать.",
+    "Загрузка LOP1b4euuJw (Agnes Palmisano - Topic, «Erlafsee», 253 с) — венская «шраммель»-певица, не Lied-исполнение в академическом смысле; вероятна кроссовер-обработка. Кандидатом не считать.",
+    "Видео ccN0F1CDrek и JrouXTaCePQ (Fischer-Dieskau / Engel) распространяются через Believe SAS / «BNF Collection» — агрегатор общественного достояния; его выходные данные («Schubert: Lieder, Vol. 4», ℗ 1961) НЕ соответствуют оригинальному изданию (Electrola E 91 024, VI. Folge, 1959) и не должны использоваться как источник года. Официальной Warner-загрузки этой фонограммы не найдено.",
+    "Точные дни сессий для Fischer-Dieskau/Engel (1959) по дискографии Майкла Грея установить не удалось: classical-discography.org отдаёт через WebFetch только страницу инструкций, поисковая форма недоступна из контейнера в этой сессии.",
+    "Обе загрузки Ameling — разные записи, не дубли: 1OgSXt05YoM = Gage, 1971 (Warner/«Icon»); ydAUw-Xknss и XRrHohcaDrU = Jansen, Tanglewood 1987 (Brilliant / Vanguard). Прецедент «двух альбомов одной пары певец–пианист» (Norman/Gage) здесь повторяется в варианте «один певец, два пианиста» — год унифицировать по альбому.",
+    "Все 18 проверенных videoId живы и встраиваемы (yt-check, HTTP 200)."
+  ]
+}

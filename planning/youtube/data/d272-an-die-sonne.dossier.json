@@ -1,0 +1,58 @@
+{
+ "d": "272",
+ "title": "An die Sonne («Königliche Morgensonne»)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianист": "Gerald Moore",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: complete-editions.md (конвенция года 1969); yt-dlp метаданные DG подтверждают ℗1970 «Schubert: Lieder Vol.1»",
+   "album": "Schubert: Sämtliche Lieder (DG, зап. 1966–72)",
+   "label": "DG",
+   "voice_note": "на пике свода",
+   "reputation": "базовая точка отсчёта корпуса, единственная приоритетная запись песни",
+   "videoId": "gD9YpvEOBlU",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Hanno Müller-Brachmann",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": 2003,
+   "year_source": "yt-dlp метаданные Naxos (℗2003, изд. 21.03.2003) — реестр Naxos DSLE т.11",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 11 «North German Poets» (8.555780)",
+   "label": "Naxos",
+   "voice_note": "бас-баритон, систематический немецкий свод",
+   "reputation": "часть полного свода Naxos",
+   "videoId": "qlNblTjq7RI",
+   "channel": "Hanno Müller-Brachmann - Topic",
+   "official": true
+  },
+  {
+   "singer": "Siegfried Lorenz",
+   "pianist": "Norman Shetler",
+   "rec_year": 1980,
+   "year_source": "yt-dlp метаданные Kontor/Berlin Classics: сборник ℗ содержит пометки «1980» и «1983» по трекам; реестр «Siegfried Lorenz — Schubert: Lieder nach Goethe 2» (Eterna)",
+   "album": "Schubert: Lieder nach Goethe 2 (Eterna 8 26 704)",
+   "label": "Eterna → Berlin Classics",
+   "voice_note": "восточногерманский баритон в расцвете сил",
+   "reputation": "нишевая, но добротная восточногерманская запись",
+   "videoId": "Tn2lKK5TB-Q",
+   "channel": "Siegfried Lorenz - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "FiDi": "есть (свод DG/Moore)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E.Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [],
+ "notes": "Кандидаты Janowitz/Price/Sindram/Ameling/Eric Schneider из исходного candidates.json проверены по yt-dlp метаданным и относятся к D 270, D 439, D 457, D 168 — исключены (см. дознание d270)."
+}

@@ -1,0 +1,75 @@
+{
+ "d": "270",
+ "title": "An die Sonne («Sinke, liebe Sonne»)",
+ "candidates": [
+  {
+   "singer": "Gundula Janowitz",
+   "pianist": "Irwin Gage",
+   "rec_year": 1978,
+   "year_source": "yt-dlp метаданные UMG (℗1978, DG) — реестр «Janowitz — Schubert: Lieder, 4-LP свод»",
+   "album": "Schubert: Lieder (DG 2713 012 + 2530 858)",
+   "label": "DG",
+   "voice_note": "на пике сопранового репертуара",
+   "reputation": "часть крупного DG-свода Яновиц",
+   "videoId": "RGYofKE_ztE",
+   "channel": "Gundula Janowitz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Margaret Price",
+   "pianist": "Graham Johnson",
+   "rec_year": 1991,
+   "year_source": "реестр: complete-editions.md Vol.15 «Schubert & the Nocturne III» (сессии X.1991, изд. X.1992)",
+   "album": "Hyperion Song Edition 15 (CDJ33015)",
+   "label": "Hyperion",
+   "voice_note": "зрелое сопрано",
+   "reputation": "часть полного свода Hyperion",
+   "videoId": "P7fXLJBgrDw",
+   "channel": "Margaret Price - Topic",
+   "official": true
+  },
+  {
+   "singer": "Daniela Sindram",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": 2007,
+   "year_source": "yt-dlp метаданные Naxos (℗2007, изд. 03/2007) — реестр Naxos DSLE т.23",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 23 «Austrian Contemporaries, Vol. 3» (8.557833)",
+   "label": "Naxos",
+   "voice_note": "меццо, систематический немецкий свод",
+   "reputation": "часть полного свода Naxos",
+   "videoId": "qPHLZ0Zshds",
+   "channel": "Daniela Sindram - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elizabeth Watts",
+   "pianist": "Roger Vignoles",
+   "rec_year": 2008,
+   "year_source": "yt-dlp метаданные Sony BMG (℗2008, изд. 24.10.2008)",
+   "album": "Schubert Lieder (Sony BMG)",
+   "label": "Sony BMG",
+   "voice_note": "молодое сопрано, начало карьеры",
+   "reputation": "новая находка для реестра — не было в реестре проекта",
+   "videoId": "lLuxbXBc6Mo",
+   "channel": "Elizabeth Watts - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "FiDi": "нет — записал только D 272 (другую «An die Sonne»)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E.Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [
+  {
+   "album": "Elizabeth Watts / Roger Vignoles — Schubert Lieder (Sony BMG, ℗2008, изд. 24.10.2008)",
+   "note": "не было в реестре; охватывает D 270."
+  }
+ ],
+ "notes": "ВАЖНО: скрипт смешал кандидатов D 270 и D 272 (общий заголовок «An die Sonne») — часть исходных candidates.json (gD9YpvEOBlU, a_-HqfEs-6A, pqkAxC8rWC4, Ej02UkvBgvw, ohQhJJwEbio, ukVgBXhttNE) относится к другим сочинениям (D 272, D 439, D 457, D 168) и исключена по проверке метаданных релиза; исправленный пул — выше."
+}

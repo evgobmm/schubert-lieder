@@ -1,0 +1,70 @@
+{
+ "d": "304",
+ "title": "Wiegenlied (Schlumm're sanft!)",
+ "candidates": [
+  {
+   "singer": "John Mark Ainsley",
+   "pianist": "Graham Johnson",
+   "rec_year": "1993",
+   "year_source": "реестр: albums/complete-editions.md (Vol. 20 «An 1815 Schubertiad I», сессии XI.1993, изд. III.1994)",
+   "album": "Hyperion Schubert Edition, Vol. 20 — An 1815 Schubertiad, Vol. 1 (CDJ33020)",
+   "label": "Hyperion/Universal",
+   "voice_note": "английский тенор, лёгкий/точный лирический голос, эталонная дикция — типаж для камерной ранней песни",
+   "reputation": "часть научного эталонного свода Джонсона; отдельных рецензий на трек не найдено",
+   "videoId": "ts_OEY_I9xM",
+   "channel": "John Mark Ainsley - Topic",
+   "official": true
+  },
+  {
+   "singer": "Markus Schäfer",
+   "pianist": "не установлен (вероятно Ulrich Eisenlohr, штатный пианист серии — не подтверждено)",
+   "rec_year": "не установлен",
+   "year_source": "нет",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, Vol. 25 — Romantic Poets, Vol. 2",
+   "label": "Naxos",
+   "voice_note": "немецкий тенор, лирический, специализация — Naxos Lied-Edition",
+   "reputation": "не исследована отдельно",
+   "videoId": "-PcetTiCfaY",
+   "channel": "Markus Schäfer - Topic",
+   "official": true
+  },
+  {
+   "singer": "Martha Guth",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет",
+   "album": "Naxos, The Romantics, Vol. 20 — Das Ewig-Weibliche: Franz Schubert's Women in Music",
+   "label": "Naxos",
+   "voice_note": "канадско-американское сопрано, тематический альбом о женских образах у Шуберта — Wiegenlied уместна по теме",
+   "reputation": "не исследована",
+   "videoId": "OiNUY_ibGvA",
+   "channel": "Martha Guth - Topic",
+   "official": true
+  },
+  {
+   "singer": "Robin Tritschler",
+   "pianist": "Malcolm Martineau",
+   "rec_year": "не установлен",
+   "year_source": "нет",
+   "album": "«Song's First Cycle» (сквозной цикл ранних Schubert-Lieder D303–315, включая Wiegenlied D304)",
+   "label": "The Orchard Enterprises (дистрибуция)",
+   "voice_note": "ирландский тенор, Мартино — один из ведущих Lied-аккомпаниаторов современности",
+   "reputation": "альбом целиком посвящён этой группе ранних песен — потенциально самый релевантный контекст; отдельных рецензий не найдено",
+   "videoId": "-B4_2nS6EFU",
+   "channel": "Robin Tritschler - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "quasthoff": "нет записи (вне его 6 альбомов)",
+  "fischer_dieskau": "не найден в пуле кандидатов — вероятно, не входит в его свод DG 1966–72 (среди кандидатов D304 нет FiDi-Topic видео, хотя FiDi присутствует у D305/306/308/309/312)",
+  "schwarzkopf": "нет",
+  "hotter_anders_schumann_ludwig_popp": "нет"
+ },
+ "new_albums": [
+  "Robin Tritschler / Malcolm Martineau — «Song's First Cycle», сборник ранних Lieder Шуберта D303–315+ (маркируются как «Lieder aus der 'Selam'» — вероятно, отсылка к группе стихов, вокруг которой Шуберт писал эти песни в 1815 г.); та же пара повторяется у D305, D306, D308 — единый сквозной проект.",
+  "Naxos Deutsche Schubert-Lied-Edition, Vol. 25 «Romantic Poets, Vol. 2» (Markus Schäfer) — новая карточка для реестра.",
+  "Naxos «The Romantics, Vol. 20: Das Ewig-Weibliche» (Martha Guth) — тематический альбом, новая карточка."
+ ],
+ "note": "В сыром пуле скрипта много видео на самом деле относятся к другой песне — Wiegenlied D 498 Op. 98/2 «Schlafe, schlafe, holder süßer Knabe» (Lehmann, Kirchschlager, Janowitz, Seefried, Ameling, Richter/Bushakevitz и др.) — отфильтрованы как нерелевантные D304."
+}

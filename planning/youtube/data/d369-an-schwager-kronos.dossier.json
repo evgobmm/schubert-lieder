@@ -1,0 +1,585 @@
+{
+  "d": "369",
+  "title": "An Schwager Kronos",
+  "tier": "famous",
+  "research_note": "Бюджет WebSearch в сессии был исчерпан ДО начала работы (200/200), и общий веб-поиск (DuckDuckGo html/lite) из контейнера блокируется — сравнительных обзоров (klassik-prisma Vergleich, Gramophone, MusicWeb, BBC MM, слепые тесты) по этой песне найти не удалось; страница-указатель klassik-prisma по прямому адресу отдаёт 404. Дискографический костяк собран по: дискографии Майкла Грея (classical-discography.org, POST search2.php: composer=Schubert, work=Schwager — 4 сессионные позиции), MusicBrainz WS/2 (recording:\"An Schwager Kronos\" — 30 записей, шире локального mb.json), Discogs API (до наступления жёсткого 429), странице Hyperion CDJ33024, реестру альбомов проекта и дайджесту певцов. Идентификация фонограмм на YouTube — по строке «Provided to YouTube by …» с ℗-меткой правообладателя (использована ТОЛЬКО для опознания альбома-источника и, где сессия недокументирована, как год издания по правилу; НЕ как источник даты сессии). Все перечисленные videoId проверены через yt-check.js (oEmbed 200).",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "нет фортепиано: Chamber Orchestra of Europe, дир. Claudio Abbado (оркестровка Иоганнеса Брамса)",
+      "rec_year": 2002,
+      "year_source": "Discogs release 2713287 (DG 471 586-2, «Lieder With Orchestra»), примечание буклета: «Recorded live at Cité de la musique, Paris in May 2002»; издание 2003 (℗ 2003 Deutsche Grammophon — строка Topic-загрузки).",
+      "album": "Schubert: Lieder with Orchestra (с Anne Sofie von Otter; DG 471 586-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "43 года (р. 09.11.1959) — внутри пика ~1993–2007 (дайджест). Один из шести шубертовских альбомов Квастхофа; альбом получил Grammy 2004 (дайджест).",
+      "reputation": "Единственная запись песни у приоритетного певца №1. Grammy 2004 за альбом (дайджест). Оговорка: это НЕ фортепианная версия, а брамсовская оркестровка, живой концерт; по правилу о непианистическом сопровождении name — «Quasthoff — Abbado».",
+      "sources": [
+        "https://api.discogs.com/releases/2713287",
+        "https://musicbrainz.org/ws/2/recording (query recording:\"An Schwager Kronos\" AND artist:\"Thomas Quasthoff\")",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "hzI_wttpwAE", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "izWx7vYyMoY", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "hzI_wttpwAE — из компиляции «Abbado A–Z: Schoenberg – Schubert» (℗ 2003, релиз 2023); izWx7vYyMoY — вторая official-загрузка того же трека (больше просмотров). Оба 185 с."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1970,
+      "year_source": "Год издания по ℗-метке правообладателя: «Schubert: Lieder (Vol. 1)», ℗ 1970 Deutsche Grammophon GmbH, Berlin (строка «Provided to YouTube by Universal Music Group» на Topic-загрузке; продюсеры Otto Gerdes / Hans Ritter, инженер Hans-Peter Schweigmann — те же кредиты, что на LP цикла). Точная дата сессии в дискографии Грея по этой песне ОТСУТСТВУЕТ (поиск work=Schwager даёт лишь 4 позиции, все не-FD); Discogs-проверка LP-томов оборвана 429. Требуется доисследование: свод DG «Sämtliche Lieder» записывался 1966–72 (дайджест).",
+      "album": "Schubert: Sämtliche Lieder / Lieder Vol. 1 (свод DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "≈45 лет (р. 28.05.1925) — конец пика ~1951–1972 (дайджест): голос ещё полный, но манера уже более декламационная, чем в 1950-е.",
+      "reputation": "Каноническая версия из полного свода мужских песен — базовая референс-запись для любой песни корпуса (дайджест, реестр «сквозных изданий»).",
+      "sources": [
+        "planning/research/singers-digest.md (свод DG 1966–72, Moore, 21 CD)",
+        "https://www.youtube.com/watch?v=f_HLhYH-UYw (строка правообладателя UMG: album «Schubert: Lieder (Vol. 1)», ℗ 1970 DG)",
+        "https://musicbrainz.org/ws/2/recording/48849886-1327-4a87-9e6a-63255173c866"
+      ],
+      "youtube": [
+        {"videoId": "2xsy5wWreOY", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "f_HLhYH-UYw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Обе загрузки — одна фонограмма (172 с): 2xsy5wWreOY из компиляции «Schubert: Lieder» (релиз 1990), f_HLhYH-UYw из «Schubert: Lieder (Vol. 1)» (релиз 1970). Предпочтительна 2xsy5wWreOY (9,4 тыс. просмотров против 1,1 тыс.)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": 1959,
+      "year_source": "Карточка реестра альбомов проекта (planning/youtube/albums.md): «Ein Schubert-Goethe-Liederabend» (DG SLPM 138 117), запись 13–14 сентября 1959, Studio Lankwitz, Берлин; издание 1960. Подтверждение ℗-меткой правообладателя: «Schubert: Goethe Lieder», ℗ 1960 Deutsche Grammophon (продюсер Hans Weber, инженер Harald Baudis).",
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117); CD-переиздания «The Originals» 457 747-2 и компиляция «Goethe-Lieder» (1999)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "34 года — середина пика (~1951–1972): свежий, гибкий голос, до позднейшей сухости.",
+      "reputation": "Полностью гётевская программа (12 номеров), переиздана в серии DG «The Originals» — маркер канонического статуса (реестр альбомов).",
+      "sources": [
+        "planning/youtube/albums.md — карточка «Ein Schubert-Goethe-Liederabend»",
+        "https://www.youtube.com/watch?v=OufRgSRqFzM (UMG: ℗ 1960 DG)",
+        "https://musicbrainz.org/ws/2/recording/3dfe0c8b-6733-4add-b1c7-7d7697081302"
+      ],
+      "youtube": [
+        {"videoId": "OufRgSRqFzM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "186 с — самая просторная из студийных версий Фишера-Дискау."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1957,
+      "year_source": "MusicBrainz, релиз Orfeo «Die Salzburger Liederabende, 1956–1965» (id c8177b05-3d41-4244-be3a-7082c40b0e5b): диск 2 озаглавлен «Salzburger Festspiele 1957, 1. Liederabend», трек 5 — An Schwager Kronos D 369. Официальная загрузка: «Die Salzburger Liederabende (Live)», ℗ 2019 Orfeo (NAXOS of America).",
+      "album": "Die Salzburger Liederabende 1956–1965 (лайв Зальцбургского фестиваля, 1-й Liederabend 1957)",
+      "label": "Orfeo d'Or",
+      "age_voice": "32 года — ранний пик: самый свежий и лёгкий тембр из всех его версий этой песни.",
+      "reputation": "Концертный документ великой пары FD/Moore в лучшие годы; издан Orfeo из архива Зальцбургского фестиваля.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/release/c8177b05-3d41-4244-be3a-7082c40b0e5b?inc=recordings+media",
+        "https://www.youtube.com/watch?v=IYBcuVGQlTQ (NAXOS of America, ℗ 2019 Orfeo)"
+      ],
+      "youtube": [
+        {"videoId": "IYBcuVGQlTQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "kxw0_tvuBjw", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "kxw0_tvuBjw — фан-загрузка той же фонограммы, подписанная «Salzburg 1957» (20 тыс. просмотров); для публикации предпочтительна официальная IYBcuVGQlTQ."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Günther Weißenborn",
+      "rec_year": 1954,
+      "year_source": "MusicBrainz, релиз «Lieder Collection: Erlkönig / Schwanengesang / Wandrers Nachtlied (Cologne, 1954)» (2007-02-14); правообладатель ℗ WDR (строка Topic-загрузки, дистрибуция Kontor New Media). Т. е. радиозапись WDR, Кёльн, 1954. Точная дата сессии не установлена.",
+      "album": "Schubert: Lieder Collection (радиозаписи WDR, Кёльн 1954)",
+      "label": "WDR (переиздание Kontor New Media / Membran)",
+      "age_voice": "29 лет — начало пика; голос очень свежий, но интерпретация менее выстроена, чем в поздних студийных.",
+      "reputation": "Ранний радиодокумент; издание — «серое» переиздание архива WDR, не эталонный лейбл (осторожность по правилу о кредитах Topic-агрегаторов).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/0cc79160-4ceb-4b6c-93f2-2ff715724195",
+        "https://www.youtube.com/watch?v=91g5dFjy2n8"
+      ],
+      "youtube": [
+        {"videoId": "91g5dFjy2n8", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "bFlMCvDzISY", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+      ],
+      "note": "183–184 с. Fan-загрузка bFlMCvDzISY прямо подписывает пианиста (Weissenborn)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Karl Engel",
+      "rec_year": 1970,
+      "year_source": "Концерт 1970 (Стокгольм), издание Orfeo d'Or 1995: MusicBrainz release 046c96f1-d571-4654-9752-ca1ddc1f313c («Goethe-Lieder», Orfeo, 1995) + карточка реестра albums.md: «Goethe-Lieder — лайв, Стокгольм (Orfeo d'Or C 389 951 B), пианист Karl Engel, Live Recording: Stockholm 1970, издание 1995».",
+      "album": "Goethe-Lieder — лайв, Стокгольм 1970 (Orfeo d'Or C 389 951 B)",
+      "label": "Orfeo d'Or",
+      "age_voice": "45 лет — конец пика, как и в своде DG.",
+      "reputation": "Смешанная гётевская концертная программа (Zelter, Reichardt, Beethoven, Schubert, Schumann, Brahms, Schoeck, Wolf); ценность прежде всего документальная.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/cf5fa19d-50b3-4abd-a96d-bcca2ea63f3e",
+        "planning/youtube/albums.md — карточка «Goethe-Lieder — лайв, Стокгольм»"
+      ],
+      "youtube": [],
+      "note": "Official-загрузки этой фонограммы (171 с) на YouTube не найдено — среди Topic-роликов FD такой длительности нет. Кандидат учтён для полноты дискографии, к публикации не пригоден."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Michael Raucheisen",
+      "rec_year": 1934,
+      "year_source": "Michael Gray, A Classical Discography (classical-discography.org, карточка id=26066): Schubert, «An Schwager Kronos, D369, op. 19, no. 1» — 1934 November 20, Berlin, Raum VIII (Lützowstraße 111), label Polydor, 78-матрица 5725 gr, инженер Erlich, «Heinrich Schlusnus, baritone; Michael Rauscheisen, piano». Подтверждение ℗-меткой правообладателя: «DG 120 – Lied: Early Recordings», ℗ 1934 Deutsche Grammophon.",
+      "album": "78 об. Polydor (матрица 5725 gr); переиздания: DG «The Anniversary Edition: 120 Years» / «DG 120 – Lied: Early Recordings»; Preiser «Heinrich Schlusnus - Liederalbum Vol. 2»",
+      "label": "Polydor / Deutsche Grammophon (переизд. также Preiser)",
+      "age_voice": "46 лет (р. 06.08.1888) — внутри пика 1920-х–1930-х; по дайджесту ровность держал и в 1940-е. Эталон немецкого «бельканто»-баритона своего поколения.",
+      "reputation": "Старейшая значительная запись песни в фонде; отобрана самой DG в юбилейную антологию «120 Years» и в серию «Lied: Early Recordings» — маркер канонического статуса. Критических текстов по этой песне в сессии добыть не удалось (WebSearch исчерпан).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=26066",
+        "https://musicbrainz.org/ws/2/recording/6da4d90c-a1ca-4a40-9435-ed871f9ff270",
+        "planning/youtube/albums/male-recitalists.md — карточка Schlusnus (Polydor/DG, Raucheisen/Rupp/Peschko)"
+      ],
+      "youtube": [
+        {"videoId": "lypiNXFsuNc", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "TlJfecZgo6c", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "lypiNXFsuNc — официальная выгрузка DG (UMG), предпочтительна; TlJfecZgo6c — переиздание Preiser через агрегатор Rebeat (180 с)."
+    },
+    {
+      "singer": "Georg Hann",
+      "pianist": "Michael Raucheisen",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. Запись отсутствует в дискографии Грея по этой песне (все 4 позиции — Schlusnus 1934, Rosenberg 1950, Reuter-Wolf 1959, Prey 1971) и в MusicBrainz. Единственный признак — Topic-загрузка «Singer Portrait - Georg Hann, Vol. 3», лейбл-агрегатор The Art Of Singing, ℗ 2012 (дата переиздания, не сессии). Ханн умер в 1950; аккомпанемент Raucheisen указывает на берлинский радиофонд RRG 1940-х — гипотеза, источником не подтверждена.",
+      "album": "Singer Portrait — Georg Hann, Vol. 3 (компиляция The Art Of Singing)",
+      "label": "The Art Of Singing (агрегатор; первичный источник — предположительно радиофонд RRG)",
+      "age_voice": "Не датировано: Ханн (1897–1950) — крупный австрийский бас-баритон, оперный по преимуществу; в фонде проекта (schubert-singers / дайджест) карточки не имеет.",
+      "reputation": "Значимость для отбора низкая: певец вне фонда проекта, запись без дискографической даты и без критических отзывов; лейбл — «серый» агрегатор (правило: кредиты брать с официальных переизданий).",
+      "sources": [
+        "https://www.youtube.com/watch?v=siSQ6slELdw (строка правообладателя)",
+        "https://www.classical-discography.org/search2.php (POST composer=Schubert, work=Schwager — 4 позиции, Ханна среди них нет)"
+      ],
+      "youtube": [
+        {"videoId": "siSQ6slELdw", "channel": "Georg Hann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "186 с. Кандидат «на всякий случай»; без даты и репутации в пятёрку не проходит."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": 1965,
+      "year_source": "℗ 1965 Decca Music Group Limited (строка правообладателя UMG на обеих Topic-загрузках; продюсер Ray Minshull, балансинженер Gordon Parry — команда Decca). Discogs: LP «Goethe Lieder» Decca SXL 21 101-B / London OS.25927, год 1965, Hermann Prey — baritone, Karl Engel — piano, трек A5 «An Schwager Kronos, Op. 19 Nr. 1». Точная дата сессии не установлена (Грей этой позиции не содержит).",
+      "album": "Schubert / Schumann: Goethe Lieder (Decca SXL 21 101-B; US — London OS.25927)",
+      "label": "Decca",
+      "age_voice": "≈36 лет (р. 11.07.1929) — внутри пика ~1960–1980; голос свежий, светлый баритон.",
+      "reputation": "Ранний и лучший по состоянию голоса из трёх версий Прая; аннотации LP — Peter Branscombe (Discogs). Переиздан в антологии «Decca Sound: 55 Great Vocal Recitals» (MusicBrainz) — маркер отбора лейблом.",
+      "sources": [
+        "https://api.discogs.com/releases/2905213",
+        "https://api.discogs.com/releases/4897082",
+        "https://www.youtube.com/watch?v=QJ2OkR-4JwY",
+        "https://musicbrainz.org/ws/2/recording/138c4d71-c588-4083-9f92-cdc3dfed237e"
+      ],
+      "youtube": [
+        {"videoId": "QJ2OkR-4JwY", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "rDoxVUS0Um4", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Одна фонограмма (190/194 с) в двух official-загрузках: QJ2OkR-4JwY — из компиляции «Schubert: Schwanengesang» (релиз 2014), rDoxVUS0Um4 — из «Schubert & Schumann: Lieder» (релиз 1993, 1141 просмотр)."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": 1974,
+      "year_source": "Год издания по ℗-метке правообладателя: «Lieder von Franz Schubert — Lied-Edition Vol. 2», ℗ 1974 Deutsche Grammophon GmbH, Berlin (продюсеры Christian Lange / Hans Gerhard Lichthorn, инженеры Karl-August Naegler, Hans-Peter Schweigmann). Дата сессии не установлена. NB: реестр (albums/complete-editions.md) отмечает путаницу лейбла — по Discogs «Lied-Edition» числится за Philips, по ℗-метке правообладателя — за DG; расхождение не разрешено.",
+      "album": "Lied-Edition Vol. 2 — Lieder von Franz Schubert",
+      "label": "Deutsche Grammophon (по ℗-метке) / Philips (по Discogs-серии)",
+      "age_voice": "≈45 лет — внутри пика ~1960–1980, но на 9 лет позже Decca-версии.",
+      "reputation": "Часть многотомного документального проекта «история немецкой Lied»; ценность скорее просветительская, чем интерпретационная.",
+      "sources": [
+        "https://www.youtube.com/watch?v=LTWq1pEvM58",
+        "planning/youtube/albums/complete-editions.md — карточка «Prey — Philips Lied-Edition»"
+      ],
+      "youtube": [
+        {"videoId": "TRHAcivKg_U", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "LTWq1pEvM58", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Обе загрузки — одна фонограмма (179 с)."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Leonard Hokanson",
+      "rec_year": 1971,
+      "year_source": "Michael Gray, A Classical Discography (classical-discography.org, карточка id=176430): «An Schwager Kronos, D369, op. 19, no. 1» — 1971 October 27–30, München, label Philips, № 6747 059, «Hermann Prey, baritone; Leonard Hokanson, piano».",
+      "album": "Philips 6747 059 (бокс; параллельно с сессиями Winterreise 27–29.10.1971 с Sawallisch)",
+      "label": "Philips",
+      "age_voice": "42 года — внутри пика.",
+      "reputation": "Дискографически самая точно датированная версия Прая. Фан-загрузка подписывает её «1969, Philips 6573 010» — это расходится с Греем (1971, 6747 059); метаданные загрузки датой не считаются.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=176430",
+        "planning/youtube/albums/complete-editions.md — карточка «Prey — Philips Lied-Edition» (6573 010 / 6747 059)"
+      ],
+      "youtube": [
+        {"videoId": "RR41YqG2Ejk", "channel": "davidhertzberg", "official": false, "oembed_ok": true}
+      ],
+      "note": "193 с; official-загрузки нет, только фан-канал davidhertzberg (перенос с LP)."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Helmut Deutsch",
+      "rec_year": 1982,
+      "year_source": "MusicBrainz release «Lieder und Balladen», дата 1982 (id релиза по recording 2785ab78-3b20-4869-9abd-7c71acf642ca). Дата сессии и лейбл в сессии не верифицированы.",
+      "album": "Schubert: Lieder und Balladen",
+      "label": "не верифицирован (?)",
+      "age_voice": "≈53 года — на исходе пика; по дайджесту поздние циклы Прая (1980-е) — голос тяжелее.",
+      "reputation": "Поздняя версия; при наличии Decca-1965 не конкурентна (правило: при прочих равных — более ранняя).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/2785ab78-3b20-4869-9abd-7c71acf642ca"
+      ],
+      "youtube": [],
+      "note": "199 с — самая медленная версия в пуле. Загрузки на YouTube не найдено."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Andreas Haefliger",
+      "rec_year": 1996,
+      "year_source": "Discogs release 13052206 (Decca 452 917-2), примечание буклета: «Recording location: Reitstadel, Neumarkt, Germany, May 1996»; ℗ 1997 The Decca Record Company Limited. Строка правообладателя на Topic-загрузке: «Schubert: Goethe Lieder», ℗ 1997 Decca, продюсер Michael Haas, балансинженер Philip Siney.",
+      "album": "Schubert: Goethe-Lieder (Decca 452 917-2)",
+      "label": "Decca",
+      "age_voice": "29 лет (р. 31.03.1967) — самое начало пика ~1997–2015: молодой, плотный, ещё не «загущённый» голос.",
+      "reputation": "Ранний сольный шубертовский альбом самого записываемого Schubert-баритона поколения (дайджест); аннотации Richard Wigmore. Скепсис к прессе о современных исполнителях применяется: конкретных сравнительных оценок по этой песне в сессии добыть не удалось.",
+      "sources": [
+        "https://api.discogs.com/releases/13052206",
+        "https://www.youtube.com/watch?v=zomUpaeL7Fo",
+        "https://musicbrainz.org/ws/2/recording/68482cee-e212-4f63-805b-53ac72a37767"
+      ],
+      "youtube": [
+        {"videoId": "zomUpaeL7Fo", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "172 с. Вторая версия Гёрне — с Eric Schneider в HM «Wanderers Nachtlied» (свод Goerne Schubert Edition, т. 8; сессии II и IV.2011 / VI.2011 и II.2012 по реестру; релиз 10.02.2014); отдельной загрузки по D 369 у неё в сессии не найдено."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Eric Schneider",
+      "rec_year": 2011,
+      "year_source": "Реестр (planning/youtube/albums/complete-editions.md): Goerne — Vol. 8 «Wanderers Nachtlied» (HMC 902109.10, 2 CD, зап. II и IV.2011 (CD 1), VI.2011 и II.2012 (CD 2), Teldex; изд. II.2014), пианисты Helmut Deutsch и Eric Schneider (по дискам; D 369 — Schneider по MusicBrainz). MusicBrainz: релиз «Wanderers Nachtlied», 2014-02-10.",
+      "album": "Matthias Goerne Schubert Edition, Vol. 8 — Wanderers Nachtlied (harmonia mundi HMC 902109.10)",
+      "label": "harmonia mundi",
+      "age_voice": "≈44 года — поздний пик; голос темнее и гуще, чем в 1996.",
+      "reputation": "Крупнейший сольный свод последних десятилетий (дайджест). При наличии Decca-1996 применяется правило «при прочих равных — более ранняя».",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/c8ced84a-c861-488f-b6f5-22e5b9d8b1b2",
+        "planning/youtube/albums/complete-editions.md"
+      ],
+      "youtube": [],
+      "note": "174 с. Отдельного видео по D 369 из этого тома в сессии не найдено (поиски по «Goerne An Schwager Kronos» выводят только Decca-версию)."
+    },
+    {
+      "singer": "Simon Keenlyside",
+      "pianist": "Graham Johnson",
+      "rec_year": 1994,
+      "year_source": "Страница Hyperion CDJ33024: запись сентябрь 1994, Rosslyn Hill Unitarian Chapel, Hampstead, London; продюсер Mark Brown, инженер Antony Howell; издание октябрь 1995. Исполнитель D 369 — Keenlyside (MusicBrainz recording ec0f65c3-ab64-4424-88e6-eb38f09470c6, релиз «The Hyperion Schubert Edition, Volume 24: A Goethe Schubertiad»). ℗ 1995 Hyperion Records Limited (строка правообладателя).",
+      "album": "The Hyperion Schubert Edition, Vol. 24 — A Goethe Schubertiad (CDJ33024)",
+      "label": "Hyperion",
+      "age_voice": "≈35 лет (р. 1959) — молодой голос; в дайджесте Кинлисайд отмечен рециталом EMI 1994 (Martineau) как активный лидер-певец этих лет.",
+      "reputation": "Научный эталон издания с комментариями Грэма Джонсона (дайджест). Gramophone о томе: «The whole record is priceless … an engrossing and invaluable addition to this series» (цитата со страницы Hyperion). В эссе тома песня названа «a thundering masterpiece».",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33024",
+        "https://musicbrainz.org/ws/2/recording/ec0f65c3-ab64-4424-88e6-eb38f09470c6",
+        "https://www.youtube.com/watch?v=Y2Mv5xF7vk4"
+      ],
+      "youtube": [
+        {"videoId": "Y2Mv5xF7vk4", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "179 с. Загрузка висит на Topic-канале пианиста (Graham Johnson), а не певца — для формата name это роли не играет («Keenlyside — Johnson»)."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Andreas Staier (хаммерклавир/историческое фортепиано)",
+      "rec_year": 1995,
+      "year_source": "℗ 1995 BMG Entertainment, релиз 17.08.1995, «Schubert: Songs to Poems by Goethe» (Deutsche Harmonia Mundi; продюсер Hans Winking, инженер Klaus-Dieter Harbusch). MusicBrainz даёт релиз «Lieder nach Gedichten von Johann Wolfgang von Goethe» с датой 1994-10 — вероятно, дата сессии/первого издания; расхождение не разрешено, в плеере ставить 1995 (год издания по ℗) или 1994 при подтверждении сессии.",
+      "album": "Schubert: Lieder nach Gedichten von Goethe (Deutsche Harmonia Mundi)",
+      "label": "Deutsche Harmonia Mundi / BMG",
+      "age_voice": "≈31 год (р. 1956) — начало пика ~1990–2012: светлый, подвижный тенор.",
+      "reputation": "Периодная связка с Штайером (историческое фортепиано) — сильная сторона именно для этой «скачущей» песни; конкретных обзоров по D 369 в сессии не добыто.",
+      "sources": [
+        "https://www.youtube.com/watch?v=5UsrFqo0hfI",
+        "https://musicbrainz.org/ws/2/recording/948cb16b-4ae2-4032-8533-c15807986656"
+      ],
+      "youtube": [
+        {"videoId": "5UsrFqo0hfI", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "165–166 с — самый быстрый темп в пуле (кроме Бостриджа)."
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "Michael Gees",
+      "rec_year": 1996,
+      "year_source": "℗ 1996 Warner Music Group Germany Holding GmbH (строка правообладателя Warner Classics; продюсер Gerd Berg, инженер Hartwig Paulsen). MusicBrainz: релиз «Lieder von Abschied und Reise», 1996-04-22.",
+      "album": "Schubert: Lieder von Abschied und Reise",
+      "label": "EMI Electrola / ныне Warner Classics",
+      "age_voice": "≈40 лет — пик.",
+      "reputation": "Вторая версия Прегардьена, с постоянным партнёром Gees; при равенстве уровня действует правило «более ранняя» — то есть версия со Штайером.",
+      "sources": [
+        "https://www.youtube.com/watch?v=WFwoeUuiJSk",
+        "https://musicbrainz.org/ws/2/recording/5b278d5c-7a05-4af0-8343-2184353d8091"
+      ],
+      "youtube": [
+        {"videoId": "WFwoeUuiJSk", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "194 с — заметно медленнее его же версии со Штайером."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Antonio Pappano",
+      "rec_year": 2009,
+      "year_source": "℗ 2009 Parlophone Records Limited (строка правообладателя Warner Classics), альбом «Schubert: Schwanengesang, D. 957» — D 369 идёт дополнением к циклу. MusicBrainz: релиз «Schwanengesang», 2009.",
+      "album": "Schubert: Schwanengesang (+ Lieder), EMI Classics",
+      "label": "EMI Classics / Warner",
+      "age_voice": "≈45 лет (р. 1964) — конец пика ~1995–2010; по дайджесту позже манернее и суше.",
+      "reputation": "Дайджест фиксирует характерную оговорку: интеллектуально, но с годами манернее. Скепсис к пиару о современных исполнителях применяется.",
+      "sources": [
+        "https://www.youtube.com/watch?v=g4qF4vOJM9I",
+        "https://musicbrainz.org/ws/2/recording/9f225fac-e2e8-4556-95a7-d22d8cb3eda1",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "g4qF4vOJM9I", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "150–151 с — самая быстрая версия пула."
+    },
+    {
+      "singer": "Konstantin Krimmel",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": 2024,
+      "year_source": "℗ BR-Klassik & Alpha Classics / Outhere Music France, релиз 05.07.2024, альбом «Mythos: Schubert & Loewe» (строка правообладателя, дистрибуция IDOL); MusicBrainz: релиз «Mythos», 2024-07-05. Дата сессии не установлена.",
+      "album": "Mythos: Schubert & Loewe",
+      "label": "Alpha Classics / BR-Klassik",
+      "age_voice": "≈31 год (р. 1993) — в пике ~2019–наст. (дайджест).",
+      "reputation": "Единственный кандидат «не ранее 2015» с официальной выгрузкой. Крупных сравнительных отзывов именно по этой песне в сессии добыть не удалось; общий профиль певца в дайджесте — «Saga» (Alpha 2019) и Müllerin (Alpha 2023).",
+      "sources": [
+        "https://www.youtube.com/watch?v=ng_IBprbND4",
+        "https://musicbrainz.org/ws/2/recording/2a73c320-1256-49b3-9736-b0b26820514e",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "ng_IBprbND4", "channel": "Konstantin Krimmel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "152–153 с — очень быстрый, «галопирующий» темп."
+    },
+    {
+      "singer": "Ulf Bästlein",
+      "pianist": "Stefan Laux",
+      "rec_year": 1999,
+      "year_source": "℗ 1999 Naxos, релиз 15.11.1999, «Schubert: Lied Edition 3 — Goethe, Vol. 1» (строка правообладателя, NAXOS of America). Дата сессии не установлена; по правилу реестра для Naxos DSLE ставится год издания.",
+      "album": "Deutsche Schubert-Lied-Edition, Vol. 3 — Goethe-Lieder Vol. 1",
+      "label": "Naxos",
+      "age_voice": "Певец вне фонда проекта (карточки в дайджесте нет); в DSLE участвует как немецкоязычный специалист.",
+      "reputation": "Полное издание Naxos — справочный, а не эталонный уровень (реестр «сквозных изданий»).",
+      "sources": [
+        "https://www.youtube.com/watch?v=wHYIvhDlNlc",
+        "https://musicbrainz.org/ws/2/recording/768505eb-d705-4315-9168-8f01db303c30"
+      ],
+      "youtube": [
+        {"videoId": "wHYIvhDlNlc", "channel": "Ulf Bästlein - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "159–160 с."
+    },
+    {
+      "singer": "Johannes Martin Kränzle",
+      "pianist": "Hilko Dumno",
+      "rec_year": 2013,
+      "year_source": "℗ 2013 Challenge Classics, релиз 31.05.2013, альбом «Schubert & Schumann: Grenzen der Menschheit» (строка правообладателя, The Orchard). MusicBrainz: релиз «Grenzen der Menschheit», 2013-07-08.",
+      "album": "Grenzen der Menschheit",
+      "label": "Challenge Classics",
+      "age_voice": "Певец вне фонда проекта (карточки в дайджесте нет); известен прежде всего как оперный баритон.",
+      "reputation": "Периферийный кандидат: критической репутации в шубертовской песне не зафиксировано.",
+      "sources": [
+        "https://www.youtube.com/watch?v=JnTLwPXbyBw",
+        "https://musicbrainz.org/ws/2/recording/5655d700-11b9-4d96-a5ea-948925bf4a14"
+      ],
+      "youtube": [
+        {"videoId": "JnTLwPXbyBw", "channel": "Johannes Martin Kranzle - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "174–175 с."
+    },
+    {
+      "singer": "Andreas Burkhart",
+      "pianist": "Akemi Murakami",
+      "rec_year": 2018,
+      "year_source": "℗ 2018 SPEKTRAL, релиз 01.05.2018, «Schubert, Liszt & Wolf: Goethe-Lieder» (строка правообладателя, The Orchard); MusicBrainz: релиз «Goethe-Lieder», 2018-05-01.",
+      "album": "Schubert, Liszt & Wolf: Goethe-Lieder",
+      "label": "Spektral",
+      "age_voice": "Певец вне фонда проекта.",
+      "reputation": "Периферийный кандидат, критической репутации не зафиксировано.",
+      "sources": [
+        "https://www.youtube.com/watch?v=4u8cSlmP6mQ",
+        "https://musicbrainz.org/ws/2/recording/04cf578f-d40d-433e-8185-a22649ba5047"
+      ],
+      "youtube": [
+        {"videoId": "4u8cSlmP6mQ", "channel": "Andreas Burkhart - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "175–176 с."
+    },
+    {
+      "singer": "Theo Hoffman",
+      "pianist": "Kunal Lahiry",
+      "rec_year": 2025,
+      "year_source": "℗ 2025 NYFOS Records, релиз 31.01.2025, альбом «Schubert / Beatles» (строка правообладателя, Symphonic Distribution); MusicBrainz: релиз «Schubert / Beatles», 2025-01-31.",
+      "album": "Schubert / Beatles (New York Festival of Song)",
+      "label": "NYFOS Records",
+      "age_voice": "Певец вне фонда проекта; молодой американский баритон.",
+      "reputation": "Концептуальный проект NYFOS; для отбора значимости не имеет.",
+      "sources": [
+        "https://www.youtube.com/watch?v=dGVo0cqJd5g",
+        "https://musicbrainz.org/ws/2/recording/4914585d-bc70-4c2e-9060-51936b362a91"
+      ],
+      "youtube": [
+        {"videoId": "dGVo0cqJd5g", "channel": "New York Festival Of Song - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "172–173 с."
+    },
+    {
+      "singer": "Siegfried Lorenz",
+      "pianist": "Norman Shetler",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. MusicBrainz: релиз «Lieder», 2007-09-14 (переиздание Berlin Classics; первичные сессии Eterna, вероятно 1980-е — источником не подтверждено).",
+      "album": "Schubert: Lieder (Eterna / Berlin Classics)",
+      "label": "Berlin Classics (первично Eterna)",
+      "age_voice": "Певец вне фонда проекта (в дайджесте карточки нет); восточногерманский лирический баритон.",
+      "reputation": "Данных нет; загрузки именно этой песни на YouTube не найдено (на Topic-канале Лоренца есть Prometheus, An den Mond и др., D 369 нет).",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/562fcabb-fe0e-42ee-b9e6-ff04aa0f99a1"
+      ],
+      "youtube": [],
+      "note": "173 с по MusicBrainz."
+    },
+    {
+      "singer": "Thierry Félix",
+      "pianist": "Paul Badura-Skoda",
+      "rec_year": 1995,
+      "year_source": "MusicBrainz: релиз «Goethe-Lieder», 1995 (recording 67b67982-6e15-40e2-b013-a6882acb5b10). Лейбл и дата сессии не верифицированы.",
+      "album": "Schubert: Goethe-Lieder (с Бадурой-Скодой)",
+      "label": "не верифицирован (?)",
+      "age_voice": "Певец вне фонда проекта; ценность связки — прежде всего пианист (Бадура-Скода, исторические инструменты).",
+      "reputation": "Данных нет; загрузки не найдено.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/67b67982-6e15-40e2-b013-a6882acb5b10"
+      ],
+      "youtube": [],
+      "note": "168 с."
+    },
+    {
+      "singer": "Johan Reuter",
+      "pianist": "нет фортепиано: Swedish Chamber Orchestra, дир. Thomas Dausgaard (оркестровка Брамса)",
+      "rec_year": null,
+      "year_source": "НЕ УСТАНОВЛЕН. MusicBrainz: релиз «Brahms: Symphony no. 3 / Alto Rhapsody / 6 Schubert Songs» (BIS; бокс-переиздание 2022-02-04).",
+      "album": "Brahms: Symphony No. 3 / Alto Rhapsody / 6 Schubert Songs (BIS)",
+      "label": "BIS",
+      "age_voice": "Певец вне фонда проекта.",
+      "reputation": "Значим лишь как вторая доступная оркестровая (брамсовская) версия помимо Квастхофа; при наличии Квастхофа/Аббадо не конкурентна.",
+      "sources": [
+        "https://musicbrainz.org/ws/2/recording/3154e756-6530-42f9-98af-dbe2bdf422cd"
+      ],
+      "youtube": [],
+      "note": "147 с."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "ДА — единственная запись: брамсовская оркестровка, лайв Cité de la musique, Париж, май 2002, Chamber Orchestra of Europe / Abbado; DG 471 586-2 «Lieder with Orchestra» (Discogs release 2713287, примечание буклета; MusicBrainz recording 622eece7-6870-4de2-9eb9-54f7209f984b). Фортепианной версии у него НЕТ: в его RCA «Goethe-Lieder» (с Justus Zeyen/Charles Spencer, изд. 31.03.1995) 13 треков — An Schwager Kronos среди них нет (MusicBrainz release 06704220-2596-474b-b094-6b26da356af0, полный треклист сверен).",
+    "Fischer-Dieskau": "ДА — пять фонограмм: (1) WDR Кёльн 1954, Günther Weißenborn; (2) лайв Зальцбург 1957, 1. Liederabend, Gerald Moore (Orfeo, MusicBrainz release c8177b05…, диск 2 трек 5); (3) DG, 13–14.09.1959, Jörg Demus (реестр albums.md; ℗ 1960 DG); (4) свод DG «Sämtliche Lieder» с Moore, ℗ 1970 DG; (5) лайв Стокгольм 1970, Karl Engel (Orfeo d'Or C 389 951 B, изд. 1995).",
+    "Schwarzkopf": "НЕТ. Мужская гётевская ода в её дискографии не значится: в MusicBrainz по recording:\"An Schwager Kronos\" (30 записей, полный список сверен) её нет; в дискографии Грея по work=Schwager — 4 позиции (Schlusnus 1934, Rosenberg 1950, Reuter-Wolf 1959, Prey 1971), её нет; поиск по YouTube записи не выявил.",
+    "Hotter": "НЕТ. Отсутствует в MusicBrainz по этой песне и в дискографии Грея (work=Schwager); целевой поиск YouTube («Hotter An Schwager Kronos») даёт только другие его гётевские песни (Wanderers Nachtlied, Grenzen der Menschheit). В карточках Хоттера реестра (albums/male-recitalists.md) шубертовские группы EMI 1949/1954/1956–57 перечислены поимённо — D 369 в них нет.",
+    "Anders": "НЕТ. Отсутствует в MusicBrainz по этой песне и у Грея; в дайджесте его шубертовское наследие — Winterreise (RRG 1945) и Müllerin (1945, 1948), сольных гётевских од не значится.",
+    "E. Schumann": "НЕТ. Женское сопрано; отсутствует в MusicBrainz по этой песне и у Грея. Её шубертовский корпус (≈28 песен HMV 1927–49, Naxos 8.110731) этой оды не содержит.",
+    "Ludwig": "НЕТ. Отсутствует в MusicBrainz по этой песне и у Грея; в дайджесте её шубертовский свод — EMI «15 Lieder» (1957–69) и Winterreise 1986, D 369 не значится.",
+    "Popp": "НЕТ. Отсутствует в MusicBrainz по этой песне и у Грея; её шубертовская дискография (EMI 1983 с Gage, BBC Legends 1982) этой песни не содержит."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Lieder with Orchestra (DG 471 586-2)",
+      "singer": "Thomas Quasthoff / Anne Sofie von Otter",
+      "year": 2002,
+      "label": "Deutsche Grammophon",
+      "facts": "Живая запись 20 мая 2002? — по буклету: «Recorded live at Cité de la musique, Paris in May 2002» (точный день не указан); Chamber Orchestra of Europe, дир. Claudio Abbado; продюсер Christopher Alder, Tonmeister Rainer Maillard; аннотации Susan Youens. Издание 2003; Grammy 2004 (дайджест). D 369 — в оркестровке Брамса. Уже в фонде проекта (Gretchen поёт фон Оттер).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Goethe-Lieder (Decca 452 917-2)",
+      "singer": "Matthias Goerne",
+      "year": 1996,
+      "label": "Decca",
+      "facts": "Запись — май 1996, Historischer Reitstadel, Neumarkt; пианист Andreas Haefliger; продюсер Michael Haas, балансинженер Philip Siney; аннотации/переводы Richard Wigmore; ℗ 1997. НОВАЯ карточка для реестра альбомов (в реестре ранее не значилась).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert / Schumann: Goethe Lieder (Decca SXL 21 101-B; US London OS.25927)",
+      "singer": "Hermann Prey",
+      "year": 1965,
+      "label": "Decca",
+      "facts": "Пианист Karl Engel (Steinway); продюсер Ray Minshull, балансинженер Gordon Parry; аннотации Peter Branscombe. 13 гётевских песен Шуберта и Шумана, An Schwager Kronos — A5. Переиздано в «Decca Sound: 55 Great Vocal Recitals». Дата сессии не установлена (у Грея позиции нет). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ein Schubert-Goethe-Liederabend (DG SLPM 138 117)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1959,
+      "label": "Deutsche Grammophon",
+      "facts": "Запись 13–14 сентября 1959, Studio Lankwitz, Берлин; пианист Jörg Demus; продюсер Hans Weber, инженер Harald Baudis; издание 1960; переиздания «The Originals» 457 747-2 и CD «Goethe-Lieder» (1999). Карточка уже есть в planning/youtube/albums.md — здесь подтверждена ℗-меткой правообладателя.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Die Salzburger Liederabende 1956–1965 (Orfeo d'Or)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1957,
+      "label": "Orfeo d'Or",
+      "facts": "Многодисковое издание архива Зальцбургского фестиваля (MusicBrainz release c8177b05-3d41-4244-be3a-7082c40b0e5b, 2005; официальная выгрузка ℗ 2019 Orfeo). D 369 — диск 2, «Salzburger Festspiele 1957, 1. Liederabend», трек 5; пианист Gerald Moore. Программа вечера 1957 включает также Meeresstille D 216, Prometheus D 674, Rastlose Liebe D 138, Der Zwerg D 771, Im Frühling D 882 и др. — источник кандидатов сразу для многих песен корпуса. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Polydor 78 об., матрица 5725 gr (переизд. DG «120 Years» / Preiser)",
+      "singer": "Heinrich Schlusnus",
+      "year": 1934,
+      "label": "Polydor / Deutsche Grammophon",
+      "facts": "Сессия 20 ноября 1934, Берлин, Raum VIII (Lützowstraße 111), инженер Erlich, пианист Michael Raucheisen (Michael Gray, id=26066). Отобрана DG в юбилейные антологии «The Anniversary Edition: 120 Years» и «DG 120 – Lied: Early Recordings». Уточняет карточку Шлуснуса в albums/male-recitalists.md (там сессии 1920–40-х указаны без дат).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 24 — A Goethe Schubertiad (CDJ33024)",
+      "singer": "Christine Schäfer / John Mark Ainsley / Simon Keenlyside / Michael George",
+      "year": 1994,
+      "label": "Hyperion",
+      "facts": "Запись сентябрь 1994, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; продюсер Mark Brown, инженер Antony Howell; издание октябрь 1995; 78'21\"; пианист и автор комментариев Graham Johnson. Дебютная запись Кристине Шефер. Gramophone: «The whole record is priceless … an engrossing and invaluable addition to this series». D 369 поёт Кинлисайд; в эссе тома песня названа «a thundering masterpiece». Карточка уже есть в albums/complete-editions.md — здесь дополнена датой/местом сессии и цитатой.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder nach Gedichten von Goethe (Deutsche Harmonia Mundi)",
+      "singer": "Christoph Prégardien",
+      "year": 1995,
+      "label": "Deutsche Harmonia Mundi / BMG",
+      "facts": "Пианист Andreas Staier (историческое фортепиано); продюсер Hans Winking, исполнительный продюсер Jan Höfermann, инженер Klaus-Dieter Harbusch; ℗ 1995 BMG, релиз 17.08.1995. MusicBrainz датирует релиз 1994-10 — расхождение не разрешено. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Mythos: Schubert & Loewe",
+      "singer": "Konstantin Krimmel",
+      "year": 2024,
+      "label": "Alpha Classics / BR-Klassik",
+      "facts": "Пианист Ammiel Bushakevitz; продюсер Louise Burel; ℗ BR-Klassik & Alpha Classics / Outhere Music France; релиз 05.07.2024. Дополняет карточку Krimmel в дайджесте (там значились «Saga» 2019 и Müllerin 2023). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Deutsche Schubert-Lied-Edition, Vol. 3 — Goethe-Lieder Vol. 1",
+      "singer": "Ulf Bästlein",
+      "year": 1999,
+      "label": "Naxos",
+      "facts": "Пианист Stefan Laux; ℗ 1999 Naxos, релиз 15.11.1999. Ранний том полного издания DSLE (в реестре ранее фигурировали т. 1 Trekel и т. 13 Ziesak). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "НЕ НАЙДЕНО. Сравнительной страницы klassik-prisma по D 369 обнаружить не удалось: WebSearch в сессии исчерпан (200/200), внешние поисковики (DuckDuckGo html и lite) из контейнера отдают пустую выдачу, прямой адрес указателя https://www.klassik-prisma.de/Vergleiche/Schubert/schubert.htm — 404.",
+    "Единственный найденный критический материал — страница Hyperion CDJ33024 (эссе Грэма Джонсона + цитаты прессы): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33024",
+    "Gramophone/MusicWeb/BBC Music Magazine по D 369 в этой сессии недоступны (те же ограничения поиска)."
+  ],
+  "negatives": [
+    "Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг, Попп — записи D 369 не существует (сверено по MusicBrainz recording:\"An Schwager Kronos\" — 30 позиций, по дискографии Грея work=Schwager — 4 позиции, и целевыми поисками YouTube).",
+    "Квастхоф НЕ записывал фортепианную версию: в RCA «Goethe-Lieder» (1995) песни нет — полный треклист релиза MusicBrainz 06704220-2596-474b-b094-6b26da356af0 сверен; его единственная версия — оркестровая с Аббадо.",
+    "Вундерлих, Сузе, Хюш, Прегардьен-Winterreise-круг старых мастеров: записи Вундерлиха и Сузе по D 369 не найдены ни в MusicBrainz, ни у Грея, ни на YouTube.",
+    "Дискография Майкла Грея по D 369 крайне бедна (4 позиции) и НЕ содержит ни одной записи Фишера-Дискау — датировать свод DG по сессии не удалось; принят год издания 1970 по ℗-метке правообладателя (по правилу «иначе год издания»). Требуется доисследование точной сессии свода DG.",
+    "Discogs API после ~6 запросов ушёл в жёсткий 429 (не восстановился за 90 с) — треклисты боксов DG «Lieder Volume 1/2» проверить не удалось.",
+    "Записи-миноры без значения для отбора, найденные у Грея: Horst Rosenberg / Felix Schröder (Eterna, 1950, матрица 2213; id=214315) и Franz Reuter-Wolf / Hans Altmann (Werk-Verlag Dr. Edmund Banaschewski, 1959; id=302608).",
+    "Загрузок на YouTube не найдено для: FD/Engel (Стокгольм 1970), Prey/Deutsch (1982), Goerne/Schneider (HM т. 8), Lorenz/Shetler, Félix/Badura-Skoda, Reuter/Dausgaard.",
+    "Фан-загрузка RR41YqG2Ejk датирует запись Прая «1969, Philips 6573 010», тогда как Грей даёт сессию 27–30 октября 1971, Мюнхен, Philips 6747 059 (id=176430); метаданные загрузки датой не приняты.",
+    "Georg Hann / Raucheisen — фонограмма существует (Topic, 186 с), но дата сессии не установлена ни одним дискографическим источником; лейбл-агрегатор The Art Of Singing кредитом не считается."
+  ]
+}

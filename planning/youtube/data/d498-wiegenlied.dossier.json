@@ -1,0 +1,479 @@
+{
+  "d": "498",
+  "title": "Wiegenlied «Schlafe, schlafe, holder süßer Knabe» (D 498, op. 98 Nr. 2)",
+  "tier": "famous (planning/youtube/triage.json)",
+  "method_notes": [
+    "ВАЖНО: скриптовый каркас planning/youtube/data/d498-wiegenlied.mb.json собран по ЧУЖОМУ произведению — MusicBrainz-поиск по строке «Wiegenlied» вывел на брамсовскую колыбельную op. 49/4 (в списке: Fischer-Dieskau/Sawallisch «Wiegenlied, op. 49/4», Chick Corea/Gulda, Percy Grainger, Leslie Howard). Настоящее произведение — MB work 439b6eca-f02a-33ff-a916-0d9f82cbda03 «Wiegenlied, D. 498», 38 записей. Досье построено по нему; каркас mb.json для этой песни использовать нельзя.",
+    "Скриптовый d498-wiegenlied.candidates.json унаследовал ту же ошибку в поле mb_artists.",
+    "Дискография Майкла Грея (classical-discography.org, POST search2.php) индексирует D 498 по произведению только до ~1965 г. (78-е и ранние LP). Нулевой результат Грея по Ludwig/Baker/Ameling/Janowitz/Streich — НЕ доказательство отсутствия записи (у всех она документирована в MusicBrainz и на Topic-каналах), а граница охвата базы. Поэтому по LP-эре точные сессионные даты по большинству кандидатов остались неустановленными и помечены явно.",
+    "WebSearch в сессии был исчерпан (200/200) до начала работы; веб-исследование велось через WebFetch и прямые API (MusicBrainz, Discogs, Gray). Discogs search API в этой сессии отдавал пустые ответы/лимиты — как источник дат не использован.",
+    "Возраст/состояние голоса — по planning/research/singers-digest.md; даты рождения певиц оттуда же."
+  ],
+  "candidates": [
+    {
+      "singer": "Elisabeth Schwarzkopf (сопрано, 1915–2006)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1946–1952 (точный год не установлен)",
+      "year_source": "MusicBrainz release 439e7470-8e6a-48d2-a368-7e698788cda5 «The Unpublished EMI Recordings 1946-1952» (Testament SBT 2172, дата издания 1999-03-09); Wiegenlied D 498 — CD 2, трек 6, рядом с Gretchen am Spinnrade D 118 и Der Musensohn D 764. КОНФЛИКТ НАЗВАНИЯ (верификация 2026-08-17): Discogs release 31144637 называет тот же SBT 2172 (тот же barcode 749677217228, тот же трек-лист) «The Unpublished EMI Recordings 1955-1958». Разрешён третьим источником — каталогом самого лейбла: страница продукта SBT2172 на testament.co.uk (product/elisabeth-schwarzkopf-2-cd-set) даёт «The Unpublished EMI Recordings 1946-1952», пианист Gerald Moore; титул Discogs — ошибка ввода. Дискография Грея не содержит отдельной строки D 498 у Шварцкопф, но фиксирует именно неизданные шубертовские сессии со Муром, из которых Testament собран: 21.05.1948 (London, EMI Studio No. 3, Abbey Road — там же неизданная Gretchen D 118, id 55244), 02.12.1951 (Studio No. 1, Columbia LB118 — там же Der Musensohn), 11.09.1952 и 21.09.1952 (Studio No. 1/1A, неизданные Litanei D 343, Die Forelle D 550, Ungeduld D 795/7). Точный год записи требует буклета Testament.",
+      "album": "Elisabeth Schwarzkopf — The Unpublished EMI Recordings 1946–1952 (2 CD)",
+      "label": "Testament (материал EMI), SBT 2172, издание 1999",
+      "age_voice": "31–37 лет — самое начало и середина её пика (дайджест: пик 1948–1964). Голос свежий, серебристый, до поздней манерности 1970-х далеко. Партнёр — Мур в лучшие годы.",
+      "reputation": "Правило проекта ставит Шварцкопф топ-1 среди женщин (docs/rules/youtube-performances.md §Приоритетные исполнители). Отдельной критики именно на этот трек не найдено: сравнительного обзора (Vergleich) для D 498 на klassik-prisma не существует — раздел Шуберта там охватывает лишь 9 песен/циклов, D 498 в списке нет. Косвенный маркер класса связки: рецитал Шварцкопф/Фишер 1952 (те же месяцы) — эталон каталога, а её Gretchen-1952 — со-победитель слепого теста 2020 (дайджест).",
+      "sources": [
+        "https://musicbrainz.org/release/439e7470-8e6a-48d2-a368-7e698788cda5",
+        "https://www.classical-discography.org/modalcontent.php?id=55244",
+        "planning/research/singers-digest.md",
+        "docs/rules/youtube-performances.md"
+      ],
+      "youtube": [
+        {"videoId": "3-CWQnNim_U", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 190, "note": "длительность близка к MB-записи Schwarzkopf/Moore (195,1 с) — это студийная (Testament) фонограмма"}
+      ],
+      "note": "Кандидат №1 по иерархии приоритетов (Квастхофа и Фишера-Дискау в этой песне нет). Единственная слабость — неустановленный год; по правилу «хорошая запись приоритетного исполнителя не блокируется неустановленным годом» публикуется с диапазоном со знаком вопроса, напр. \"1948–52?\"."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf (сопрано, 1915–2006) — концертная версия",
+      "pianist": "Gerald Moore",
+      "rec_year": "не установлен (концерт; издание Orfeo ℗ 2019)",
+      "year_source": "Реестр альбомов проекта: planning/youtube/albums.md — карточка «Elisabeth Schwarzkopf — Schubert & Wolf: Lieder (Live)» (Orfeo, ℗ 2019): «на Topic-канале — Heidenröslein, Ganymed, Nähe des Geliebten, An die Musik, Seligkeit, Wiegenlied…»; в Discogs/MusicBrainz релиз не найден, дату сессии нужно устанавливать по буклету Orfeo. Ролик помечен «(Live)».",
+      "album": "Schubert & Wolf: Lieder (Live)",
+      "label": "Orfeo, ℗ 2019",
+      "age_voice": "не определяемо без даты концерта; связка с Муром жила у Шварцкопф с 1948 по «Homage to Gerald Moore» 1967 (дайджест), т. е. окно широкое.",
+      "reputation": "Оценок именно этого трека не найдено. Зальцбургские лайвы Шварцкопф/Мура (Orfeo C826103, с 1957) в дайджесте числятся среди её основных позиций.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Orfeo ℗ 2019, песни пилота: D 224)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "UHp2XXiCn60", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true, "duration_s": 176}
+      ],
+      "note": "Резервный вариант Шварцкопф. При прочих равных правило велит брать более раннюю/лучше документированную запись — т. е. студийную (Testament); лайв держать как запасной, если студийная фонограмма окажется хуже по звуку."
+    },
+    {
+      "singer": "Elisabeth Schumann (сопрано, 1888–1952)",
+      "pianist": "George Reeves",
+      "rec_year": "1937 (29 ноября)",
+      "year_source": "Дискография Майкла Грея, запись id 40198: дата 1937 November 29, место London, EMI Studio No. 3, Abbey Road, лейбл HMV, номер DB3426, матрица 2EA 6022, состав «Elisabeth Schumann, soprano; George Reeves, piano». Совпадает с реестром проекта planning/youtube/albums/female-recitalists.md, строка «Schumann — Wiegenlied D 498 (HMV DB 3426, зап. 29.11.1937)». Независимое подтверждение (верификация 2026-08-17): Discogs release 37384332 — HMV D.B.3426 «The Brook's Lullaby», сторона A: Des Baches Wiegenlied D 795/20, B1: Wiegenlied Op. 98 No. 2 (= D 498), B2: Der Schmetterling; матрицы 2EA.6021/6022 — полное совпадение с Греем.",
+      "album": "HMV DB 3426 (78 об.); шубертовский свод переиздан в Naxos Historical 8.110731 «Schubert Lieder (1927–1945)» и в Warner «Icon»",
+      "label": "HMV / EMI; переизд. Naxos Historical, Warner",
+      "age_voice": "49 лет. По дайджесту пик — 1920-е — середина 1930-х, т. е. запись сделана сразу за пиком: голос ещё в форме (в отличие от поздних сессий 1945–49, где он явно постарел), стиль эталонный. 1937 год — тот же круг, что её знаменитая Gretchen 1936 с Муром.",
+      "reputation": "Э. Шуман — приоритетный исполнитель по правилам проекта (п. 4). Она — канонический голос венской лёгкой лирики и естественный носитель именно колыбельного тона. Отдельных цитируемых рецензий на этот трек в открытых источниках не найдено (для 78-х это типично — вывод реестра, planning/youtube/albums/female-recitalists.md §Сводные наблюдения, п. 2).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=40198",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "43LrTqhfAkQ", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true, "duration_s": 155, "note": "совпадает с MB-длительностью записи Schumann/Reeves — 154,3–154,8 с"},
+        {"videoId": "2JhlvvdZC-M", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": null, "duration_s": 155, "note": "дубль той же фонограммы под другим релизом"},
+        {"videoId": "ERr77iDBVg4", "channel": "CLASSIC&OPERA", "official": false, "oembed_ok": null, "duration_s": 156, "note": "фан-загрузка, кредиты в заголовке совпадают с Греем"}
+      ],
+      "note": "Сильнейший исторический кандидат: приоритетный певец + точная дата по матрице + official Topic. Прецедент правила о датах (метаданные архивов врут) относится именно к этой певице — здесь дата взята у Грея, не из описания загрузки."
+    },
+    {
+      "singer": "Lotte Lehmann (сопрано, 1888–1976)",
+      "pianist": "Ernő Balogh",
+      "rec_year": "1937 (16 марта)",
+      "year_source": "Дискография Грея, запись id 62832: дата 1937 March 16, лейбл Victor, номер «set M-419. HMV DA1603», матрица BS 6665, take 1, состав «Lotte Lehmann, soprano» (пианист в карточке Грея не указан). Пианист Balogh — по planning/youtube/albums/female-recitalists.md (карточка «Lehmann — Victor-сессия 16.03.1937 (set M-419, DA 1603)») и по дайджесту (там та же сессия, 16.03.1937, Balogh, дала Gretchen am Spinnrade, матрица 6664 — соседний номер матрицы 6665 у Wiegenlied подтверждает единую сессию).",
+      "album": "Victor set M-419 / HMV DA 1603 (78 об.)",
+      "label": "Victor / HMV; переизд. Naxos Historical (серия «Lieder Recordings»)",
+      "age_voice": "49 лет; по дайджесту пик — середина 1910-х — конец 1930-х, т. е. запись ещё внутри пика (в отличие от Winterreise 1941, где голос уже за пиком при эталонной выразительности).",
+      "reputation": "Леманн — эталон выразительной, «рассказывающей» немецкой школы; в дайджесте отмечена как первая женщина, записавшая Winterreise. Цитируемых оценок конкретно этого трека не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=62832",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "IF0eNsc0czw", "channel": "Lotte Lehmann - Topic", "official": true, "oembed_ok": true, "duration_s": 208},
+        {"videoId": "l8RL2QO9fMY", "channel": "mabuo16", "official": false, "oembed_ok": null, "duration_s": 216}
+      ],
+      "note": "Одна из двух записей 1937 года (вторая — Э. Шуман). Обе документированы по матрицам."
+    },
+    {
+      "singer": "Irmgard Seefried (сопрано, 1919–1988)",
+      "pianist": "Hermann von Nordberg",
+      "rec_year": "1947 (4 декабря)",
+      "year_source": "Дискография Грея, запись id 19926: дата 1947 December 4, место Wien, Musikverein, Brahms-Saal, лейбл Columbia, номер LB78, матрица CHA 980, состав «Irmgard Seefried, soprano; Hermann von Nordberg, piano». Реестр проекта (planning/youtube/albums/female-recitalists.md) фиксирует ту же связку: «Heidenröslein + Wiegenlied D 498 (21.11/04.12.1947, Hermann von Nordberg, LB 78)»; Heidenröslein — 21.11.1947 (матрица 978), Wiegenlied — 04.12.1947 (матрица 980). Позиция уже встречалась проекту по D 257 (planning/youtube/albums.md).",
+      "album": "Columbia LB 78 (78 об.), венские сессии 1946–48",
+      "label": "Columbia",
+      "age_voice": "28 лет — самое начало её пика (дайджест: конец 1940-х — начало 1960-х). Молодой, светлый, ещё не утяжелённый голос; для колыбельной это плюс.",
+      "reputation": "Зеефрид — один из центральных венских лирических голосов послевоенного десятилетия. Цитируемых рецензий на этот 78-оборотный сингл не найдено.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=19926",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/youtube/albums.md"
+      ],
+      "youtube": [
+        {"videoId": "bGz7SIIlg90", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": true, "duration_s": 177, "note": "совпадает с MB-длительностью её записи (176,5 с)"},
+        {"videoId": "S3r3FzAGqeE", "channel": "doGreatartistsgrowontrees?", "official": false, "oembed_ok": null, "duration_s": 177, "note": "фан-загрузка той же длительности"},
+        {"videoId": "Fnv8GPBkseo", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": null, "duration_s": 152, "note": "ДРУГАЯ фонограмма (152 с) — вероятно поздняя DG-сессия с Werba (LP DG 136 009, 30.05 + 3, 7–8.06.1958, по Грею); перед публикацией привязку к изданию проверить"},
+        {"videoId": "5pp0EKbjqwI", "channel": "Irmgard Seefried - Topic", "official": true, "oembed_ok": null, "duration_s": 149, "note": "то же — вторая, не-1947 фонограмма"}
+      ],
+      "note": "У Зеефрид на Topic минимум две разные фонограммы D 498 (≈177 с и ≈150 с). 1947 год документирован Греем только для Columbia LB 78; второй вариант почти наверняка DG-эры и требует отдельной привязки."
+    },
+    {
+      "singer": "Christa Ludwig (меццо, 1928–2021)",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": "точный день не установлен; окно сессий рецитала SAX 5272 — 28.11.1961–20.02.1962 (трек в LP-эру не издан)",
+      "year_source": "MusicBrainz recording b122da24-c6fe-4bce-8e1c-356932dcba16 «Christa Ludwig, Geoffrey Parsons — Wiegenlied, D. 498» (216,0 с), единственный релиз — «The Complete Recitals on Warner Classics» (2018-03-09). ДОИССЛЕДОВАНИЕ 2026-08-17 (по замечанию верификатора): ни SAX 5272 «A Schubert Recital», ни SAX 5274 песню НЕ содержат (полные трек-листы Discogs 5430638 и 7538601; на SAX 5274 — Брамс «Geistliches Wiegenlied» op. 91/2). Происхождение фонограммы: в Warner-боксе CD 4 = SAX 5272 (треки 1–12) + 5 треков «previously unpublished», среди них Wiegenlied D 498 (трек 4-14) — Discogs release 34671325 (физический бокс, barcode 0190295690205), notes. Два из пяти бонус-треков Грей документирует как unissued Columbia из сессий того же рецитала: Nacht und Träume D 827 — 29.11.1961, London (Gray id 55247); Im Abendrot D 799 — 20.02.1962, London (Gray id 55245); у всех 17 треков CD 4 общие продюсер/инженер — Suvi Raj Grubb / Robert Gooch (Discogs index-кредиты; MB relations, треки 1–12 датированы 1961-11-28). Итого: неизданный остаток сессий SAX 5272 (28–30.11.1961 + 20.02.1962, Abbey Road Studio 1); публикуется как \"1961–62?\". Точный день требует буклета Warner-бокса.",
+      "album": "Christa Ludwig — The Complete Recitals on Warner Classics (11 CD, 2018); исходно — неизданный остаток сессий рецитала Columbia SAX 5272 (в LP-эру не выходил)",
+      "label": "EMI / Columbia → Warner Classics",
+      "age_voice": "33 года (сессии 11.1961–02.1962) — самое ядро её пика (дайджест: ~1957–1975). Тёмное, ровное меццо; до потемнения/утяжеления позднего Winterreise-1986 далеко.",
+      "reputation": "Людвиг — приоритетный исполнитель по правилам (п. 4). Из тех же сессий с Парсонсом происходит её Gretchen 1961, получившая 5 звёзд klassik-prisma (дайджест). Прямых оценок трека D 498 нет. Обращает внимание темп: 216 с — самая протяжённая версия во всём пуле (у остальных 149–208 с); это осознанно медленное, «убаюкивающее» прочтение, но перед включением стоит послушать, не переходит ли оно в статику.",
+      "sources": [
+        "https://musicbrainz.org/recording/b122da24-c6fe-4bce-8e1c-356932dcba16",
+        "https://www.classical-discography.org/ (Gray, сессии Ludwig/Parsons: SAX5272 — 1961 November 28–30; SAX5274 — 1965 November 5–7 + 1966 July 8)",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "SsYJY8arSBU", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true, "duration_s": 216, "note": "точное совпадение с MB-длительностью 216 000 мс"}
+      ],
+      "note": "Приоритетная певица (после Квастхофа/Ф.-Д./Шварцкопф). Публикуется как \"1961–62?\" — окно сессий рецитала SAX 5272, к бонус-группе которого трек привязан документально (Discogs 34671325 + Gray id 55245/55247); точный день закрыть по буклету Warner-бокса при случае."
+    },
+    {
+      "singer": "Janet Baker (меццо, р. 1933)",
+      "pianist": "Gerald Moore",
+      "rec_year": "1970 (сессии 29.08, 12–13.09, 16–20.12) — привязка трека к этим сессиям не доказана",
+      "year_source": "Реестр проекта: planning/youtube/albums/female-recitalists.md — «Baker — Schubert: Lieder, 2 LP (HMV SLS 812, зап. 29.08 + 12–13.09 + 16–20.12.1970, Abbey Road Studio 1), пианист Gerald Moore [Gray]»; альбом уже верифицирован проектом по D 118, D 828, D 839, D 257 (planning/youtube/albums.md). MusicBrainz recording 4b6c8f5b-ef25-4b7c-a07d-53823d0b5d9f «Dame Janet Baker, Gerald Moore — Wiegenlied “Schlafe, schlafe”, D. 498» (173,4 с) издана на компиляциях «Lieder» (1996 и переиздания). Запрос Грея по D 498 + Baker дал 0 строк — но это граница охвата, а не отрицание.",
+      "album": "Schubert: Lieder (2 LP, 30 песен, HMV SLS 812) / The Great EMI Recordings",
+      "label": "EMI / Warner Classics",
+      "age_voice": "36–37 лет — сердцевина пика (дайджест: ~1965–1982). Голос в полной силе, дикция и фразировка на пике.",
+      "reputation": "Двойник-LP 1970 с Муром — классика жанра (дайджест: «классика, открывается Gretchen»). Прямых цитат на D 498 не найдено. Существует и вторая, более поздняя версия Бейкер с Джеффри Парсонсом (℗ 1981) — при отборе не спутать.",
+      "sources": [
+        "https://musicbrainz.org/recording/4b6c8f5b-ef25-4b7c-a07d-53823d0b5d9f",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/youtube/albums.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "jhS-6J5tXxE", "channel": "Janet Baker - Topic", "official": true, "oembed_ok": true, "duration_s": 180, "views": 9499, "note": "самая слушаемая official-загрузка песни среди старых мастеров"},
+        {"videoId": "5IsKs80EpBc", "channel": "Jaime CL (Música,Texto e Imagen)", "official": false, "oembed_ok": null, "duration_s": 214, "note": "фан-видео с субтитрами; длительность не совпадает с Topic — вероятно другая (поздняя) версия Бейкер"}
+      ],
+      "note": "Крепкий кандидат в группу «прочие звёзды прошлого». Год 1970 берётся по альбому (сквозная унификация проекта), но принадлежность трека именно SLS 812 стоит подтвердить трек-листом."
+    },
+    {
+      "singer": "Gundula Janowitz (сопрано, р. 1937)",
+      "pianist": "Irwin Gage",
+      "rec_year": "1976–1977 (сессии 28.09–01.10.1976 и IX + 1–4.12.1977, Studio Lankwitz, Берлин)",
+      "year_source": "planning/youtube/albums/female-recitalists.md: «Janowitz — Schubert: Lieder, 4-LP свод (DG 2713 012 + 2530 858), сессии 28.09–01.10.1976 и IX + 1–4.12.1977, Studio Lankwitz, Берлин — пианист Irwin Gage; продюсер Cord Garben [Gray: обе позиции]». MusicBrainz recording a10a744d-5670-49f0-9c61-450b5bda74fa (Janowitz/Gage, 176,0 с), CD-переиздание DG 453 082-2 (1997).",
+      "album": "Schubert: Lieder — 4-LP свод DG 2713 012 / 2530 858; CD-переизд. DG 453 082-2 (2 CD, 1997)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "39–40 лет — поздний пик (дайджест: ~1965–1980). Знаменитый «инструментальный», отрешённо-чистый тембр; в колыбельной это работает на образ, но фонетическая проработка у неё традиционно слабее, чем у Людвиг/Бейкер.",
+      "reputation": "Серия дважды удостоена Deutscher Schallplattenpreis (реестр); Gretchen из этого же свода — 5 звёзд klassik-prisma (дайджест). Прямой оценки D 498 нет. Фан-загрузка её Wiegenlied — самая просматриваемая версия песни на YouTube среди вокальных (295 тыс.), что говорит о популярности прочтения, но не является критическим аргументом.",
+      "sources": [
+        "https://musicbrainz.org/recording/a10a744d-5670-49f0-9c61-450b5bda74fa",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "uEBPnHRV4Yk", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true, "duration_s": 176, "views": 30088},
+        {"videoId": "RxRe_xM61R0", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": null, "duration_s": 176, "note": "дубль той же фонограммы под другим релизом"},
+        {"videoId": "QSII_tDIBa4", "channel": "doGreatartistsgrowontrees?", "official": false, "oembed_ok": null, "duration_s": 173, "views": 295084, "note": "фан-загрузка-миллионник по меркам этой песни"}
+      ],
+      "note": "Единственный кандидат с полностью документированным годом в LP-эре. Хороший «старый» слот при том, что 1976–77 — до порога 1990."
+    },
+    {
+      "singer": "Sarah Walker (меццо, р. 1943)",
+      "pianist": "Graham Johnson",
+      "rec_year": "1989 (май); издание — декабрь 1990",
+      "year_source": "Страница альбома на hyperion-records.co.uk (CDJ33008): запись — май 1989, издание — декабрь 1990, певица Sarah Walker (mezzo-soprano), пианист Graham Johnson. MusicBrainz release 571cabc6-88db-4334-a3d1-d0221e5474ae «The Hyperion Schubert Edition, Volume 8: Schubert & The Nocturne II», дата 1990-12; recording 90843f0b-1c13-4b90-830a-a5e1c548248a (170,0 с).",
+      "album": "The Hyperion Schubert Edition, Vol. 8 — «Schubert & the Nocturne II» (CDJ33008)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "46 лет; зрелое, характерное меццо.",
+      "reputation": "Комментарий Грэма Джонсона к тому называет Wiegenlied «пожалуй, самой знаменитой из всех вещей этого жанра, за какие Шуберт брался» — прямая аннотация научного эталона издания. Пресса о диске: The Daily Telegraph — Уокер «в пытливой, светящейся форме на всём протяжении»; CDReview — «это поистине выдающееся пение… безупречный выбор настроения у Грэма Джонсона и безукоризненная музыкальность и техника его творческой роли за роялем — стержень всего этого великого проекта».",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33008",
+        "https://musicbrainz.org/release/571cabc6-88db-4334-a3d1-d0221e5474ae",
+        "planning/research/singers-digest.md (о 37-томном своде Джонсона)"
+      ],
+      "youtube": [
+        {"videoId": "HCJ5_6vv0hI", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true, "duration_s": 175, "views": 224, "note": "Topic-канал оформлен на пианиста — типично для Hyperion-свода; певица в заголовке не указана"}
+      ],
+      "note": "Ценность — научный статус издания и цитируемая критика (редкость для этой песни). Певица не звёздного ряда; слот «не ранее 1990» формально не закрывает (запись 1989, издание 1990)."
+    },
+    {
+      "singer": "Arleen Augér (сопрано, 1939–1993)",
+      "pianist": "Lambert Orkis (хаммерклавир)",
+      "rec_year": "не установлен; издание — апрель 1991",
+      "year_source": "MusicBrainz recording f6618f4d-7bdf-4a43-980a-55c7ca386b1d (150,4 с), релиз c95c7beb-47d6-44df-84c1-eca3f949d824 «Lieder», дата 1991-04. Реестр проекта (planning/youtube/albums.md, planning/youtube/albums/female-recitalists.md): «Augér / Thomas Allen — Schubert Lieder (Virgin Classics 5614572), Augér с Lambert Orkis (хаммерклавир), Allen с Roger Vignoles; год записи “?” (~1990–91)». Реестр отдельно предупреждает: у Аугер минимум три разные записи шубертовских песен (с Olbertz, Eterna 19–22.10.1976; с Baldwin; с Orkis) — привязка videoId к изданию обязательна перед публикацией.",
+      "album": "Schubert Lieder (Virgin Classics 5614572; диск разделён с Thomas Allen)",
+      "label": "Virgin Classics / Warner",
+      "age_voice": "≈51 год. По дайджесту пик — 1980-е — 1991 (ранняя смерть в 1993), т. е. запись сделана на излёте пика, голос ещё цел.",
+      "reputation": "Аугер — признанная шубертианка позднего периода (Hyperion т. 9 «Schubert and the Theatre», 1989, с Джонсоном). Оценок конкретно этого трека не найдено. Особенность: аккомпанемент на хаммерклавире — периодный звук, редкий для этой песни.",
+      "sources": [
+        "https://musicbrainz.org/recording/f6618f4d-7bdf-4a43-980a-55c7ca386b1d",
+        "planning/youtube/albums.md",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "zMEEMsQ71jw", "channel": "Arleen Augér - Topic", "official": true, "oembed_ok": true, "duration_s": 151, "note": "точно совпадает с MB-длительностью 150 400 мс — значит это именно версия с Orkis"}
+      ],
+      "note": "Единственный чистый кандидат «не ранее 1990» из старой школы. Год записи нужно закрыть по буклету Virgin."
+    },
+    {
+      "singer": "Elly Ameling (сопрано, р. 1933)",
+      "pianist": "Dalton Baldwin (одна версия) / Rudolf Jansen (другая)",
+      "rec_year": "не установлен; у певицы минимум три разные фонограммы D 498",
+      "year_source": "MusicBrainz даёт ТРИ разные записи: Ameling/Baldwin 187,0 с (12c1bb25-037b-44b2-ada1-aecbd06289f9), Ameling/Baldwin 184,6 с (b52bd1f1-4b80-4dfa-a6a5-e078940148ad, релиз «Lieder: Ave Maria, etc.», 1990) и Ameling/Jansen 179,0 с (cd0f7207-a430-4dc5-aff8-cde65b1467fa, релиз «On Wings of Song», без даты). Реестр (planning/youtube/albums/female-recitalists.md) документирует её филипсовскую серию с Болдуином по Грею: 6500 515 (20–21.06.1972), 6500 704 (21–26.08.1973), 9500 169 (15–19.08.1975), 9500 350 (10–14.09.1976), а также «An die Musik» (Philips 410 037-2, ℗ 1983) и концерт в Тэнглвуде с Янсеном (02.07.1987, Omega OCD 1001). К какому из этих альбомов относится D 498 — по имеющимся источникам не определено.",
+      "album": "одна из серий Philips с Болдуином либо программа с Янсеном — не установлено",
+      "label": "Philips / Universal (Болдуин); Omega/Brilliant либо иное (Янсен)",
+      "age_voice": "в зависимости от альбома 39–54 года; пик по дайджесту ~1965–1985.",
+      "reputation": "Амелинг — «самая записываемая шубертианка поколения» (дайджест). Оценок трека D 498 не найдено. Минус кандидата — именно неопределённость: на Topic-канале четыре загрузки D 498 разной длительности (183, 185, 179, 179 с), и без буклетов их нельзя развести по альбомам.",
+      "sources": [
+        "https://musicbrainz.org/recording/b52bd1f1-4b80-4dfa-a6a5-e078940148ad",
+        "https://musicbrainz.org/recording/cd0f7207-a430-4dc5-aff8-cde65b1467fa",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "azWV_Y1U9_M", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 183, "views": 21695},
+        {"videoId": "2bypTkxw2D4", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 185},
+        {"videoId": "35eBXJ2gMpg", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 179, "note": "по длительности ближе к версии с Янсеном (179,0 с)"},
+        {"videoId": "vCSw_qZBTW4", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true, "duration_s": 179},
+        {"videoId": "fOeCZeO50Y0", "channel": "bert muzieklexicon", "official": false, "oembed_ok": null, "duration_s": 186, "note": "фан, кредиты Ameling/Baldwin в заголовке"}
+      ],
+      "note": "Включать только после разведения фонограмм по альбомам — иначе нарушится правило сквозной унификации года по альбому."
+    },
+    {
+      "singer": "Rita Streich (сопрано, 1920–1987)",
+      "pianist": "Erik Werba (по составу её шубертовского LP)",
+      "rec_year": "не установлен; ориентир — DG 1960",
+      "year_source": "Дайджест (planning/research/singers-digest.md): «Streich Rita — записи: “…singt Lieder von Franz Schubert” (DG 1960, Werba; Hirt auf dem Felsen с кларнетистом Geuser)». Запрос Грея по D 498 + Streich дал 0 строк (граница охвата индекса). Принадлежность трека именно этому LP по буклету не проверена.",
+      "album": "Rita Streich singt Lieder von Franz Schubert (предположительно)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "≈39–40 лет; пик по дайджесту — 1950-е — начало 1960-х, т. е. запись внутри пика. «Немецкий соловей» — очень светлое, прозрачное сопрано; для колыбельной тембр органичен.",
+      "reputation": "Штрайх — крупное имя DG-эры, но в шубертовской песенной иерархии проекта второго ряда. Оценок трека не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "619Q2A-aots", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true, "duration_s": 187, "views": 1541},
+        {"videoId": "XrCu5EEM0QQ", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": null, "duration_s": 186},
+        {"videoId": "P6-sh_UfOP8", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": null, "duration_s": 187},
+        {"videoId": "BHowm-H0EaE", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": null, "duration_s": 184}
+      ],
+      "note": "Резерв. Год требует подтверждения; четыре Topic-дубля — одна фонограмма под разными релизами."
+    },
+    {
+      "singer": "Elisabeth Rethberg (сопрано, 1894–1976)",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz recording f35b904c-a400-4de3-99e0-b49451252130 «Elisabeth Rethberg — Wiegenlied» (172,8 с) в составе антологии «“Leise flehen meine Lieder…” — The Art of Schubert Lieder» (даты релиза в MB нет). Дискография Грея по запросу Schubert + Rethberg даёт 3 позиции, среди которых Wiegenlied отсутствует — дата не документирована.",
+      "album": "антология «“Leise flehen meine Lieder…” — The Art of Schubert Lieder»",
+      "label": "не установлен (антология переизданий)",
+      "age_voice": "не определяемо без даты; расцвет Ретберг — 1920-е — 1930-е.",
+      "reputation": "Ретберг — легенда межвоенной оперной сцены (Тосканини называл её лучшим сопрано своего времени — общее место биографий, отдельным источником в этой сессии не подтверждено, поэтому в тексте не использовать). Оценок трека нет.",
+      "sources": [
+        "https://musicbrainz.org/recording/f35b904c-a400-4de3-99e0-b49451252130"
+      ],
+      "youtube": [
+        {"videoId": "xaHMkKh76Hg", "channel": "Elisabeth Rethberg - Topic", "official": true, "oembed_ok": true, "duration_s": 173},
+        {"videoId": "8PCuj1Nrxc0", "channel": "doGreatartistsgrowontrees?", "official": false, "oembed_ok": true, "duration_s": 176}
+      ],
+      "note": "Исторический интерес высок, но год не установлен ни по одному источнику — для публикации потребовалось бы отдельное доисследование."
+    },
+    {
+      "singer": "Edith Mathis (сопрано, р. 1938)",
+      "pianist": "Karl Engel",
+      "rec_year": "1988 (июнь) — по альбому; издание 1989",
+      "year_source": "MusicBrainz recording 5aeba5b0-5edf-4874-957a-20cae4356142 (161,4 с), релиз «Lieder», 1989. Реестр: planning/youtube/albums/female-recitalists.md — «Mathis — Franz Schubert Lieder (Novalis 150 026, изд. 1989), пианист Karl Engel [Discogs]; сессия июнь 1988 [дайджест — там лейбл ошибочно указан как DG; по Discogs — Novalis]».",
+      "album": "Franz Schubert Lieder (Novalis 150 026)",
+      "label": "Novalis",
+      "age_voice": "≈50 лет; пик по дайджесту — 1970-е — 1980-е, т. е. запись на исходе пика.",
+      "reputation": "Матис — надёжная моцартовско-шубертовская школа; ярких оценок этого диска в открытых источниках не найдено. Топ-каналом песня не покрыта — на YouTube официальной загрузки трека не найдено (поиск по «Edith Mathis Wiegenlied D 498» вернул только её брамсовский дуэт op. 78/4).",
+      "sources": [
+        "https://musicbrainz.org/recording/5aeba5b0-5edf-4874-957a-20cae4356142",
+        "planning/youtube/albums/female-recitalists.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [],
+      "note": "Отпадает по доступности: живого videoId с этой фонограммой не найдено."
+    },
+    {
+      "singer": "Angelika Kirchschlager (меццо, р. 1965)",
+      "pianist": "не указан на Topic-загрузке (альбом — сборная программа)",
+      "rec_year": "не установлен; первый релиз — 1999",
+      "year_source": "MusicBrainz recording cb7bae9c-e820-4e66-bdc5-37501f9f297f, релиз «When Night Falls» (издание 2009-12-29, release group first-release-date 1999). Дайджест: «Kirchschlager — сольного студийного Шуберта НЕТ?; Schubert-номера в сборных (When Night Falls, 1999)».",
+      "album": "When Night Falls",
+      "label": "Sony/BMG (по Topic-дистрибуции); каталожный номер не проверен",
+      "age_voice": "≈34 года; ровный период карьеры.",
+      "reputation": "По дайджесту Кирхшлагер — певица без собственного шубертовского студийного альбома; трек происходит из концептуальной «ночной» программы, а не из шубертовского рецитала. Правило скепсиса к пиару современных исполнителей применимо в полной мере; специализированных похвал этой записи не найдено.",
+      "sources": [
+        "https://musicbrainz.org/recording/cb7bae9c-e820-4e66-bdc5-37501f9f297f",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "SCPFQaKkHUk", "channel": "Angelika Kirchschlager - Topic", "official": true, "oembed_ok": true, "duration_s": 165, "views": 20666}
+      ],
+      "note": "Самый заметный современный official-кандидат из женщин, но обоснование включения слабое (сборник, не шубертовский проект)."
+    },
+    {
+      "singer": "Anna Lucia Richter (меццо, р. 1990)",
+      "pianist": "Ammiel Bushakevitz",
+      "rec_year": "не установлен (видеопродукция ARTE; коммерческий релиз не идентифицирован)",
+      "year_source": "Заголовок ролика: «Schubert, Wiegenlied D. 498. Anna Lucia Richter & Ammiel Bushakevitz ARTE». В MusicBrainz этой записи под работой D 498 нет. Дайджест по Рихтер фиксирует только альбом «Heimweh» (Pentatone 2019, пианист Gerold Huber) — там пианист другой, т. е. это не он. Реестр (planning/youtube/albums.md) знает Bushakevitz по проекту Hasselhorn «Schubert 200» и по Krimmel «Mythos» (Alpha 2024). Происхождение и год не установлены.",
+      "album": "не идентифицирован (вероятно телевизионная/фестивальная продукция ARTE)",
+      "label": "не установлен",
+      "age_voice": "≈30–35 лет; певица с ~2020 перешла из сопрано в меццо (дайджест).",
+      "reputation": "Пиар-обвязка (ARTE, 208 тыс. просмотров) велика, устоявшейся критической репутации нет — типичный случай для правила о скепсисе к современным. Канал загрузки не официальный лейбловый и не Topic («Les Voix d'Orphée / Voices of Orpheus»), что дополнительно снижает надёжность ссылки.",
+      "sources": [
+        "planning/youtube/data/d498-wiegenlied.yt.json",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "4W3u6uYw5DQ", "channel": "Les Voix d'Orphée / Voices of Orpheus", "official": false, "oembed_ok": true, "duration_s": 207, "views": 208141}
+      ],
+      "note": "Единственный найденный кандидат «не ранее 2015» — но без года записи, без издания и без официального канала. По правилам качество — квалификационный фильтр; включение сомнительно."
+    },
+    {
+      "singer": "Siegfried Lorenz (баритон, р. 1945)",
+      "pianist": "Norman Shetler",
+      "rec_year": "не установлен (издание Berlin Classics 2007; исходно — Eterna/ГДР)",
+      "year_source": "MusicBrainz recording 0af9ff95-0f2d-48e2-9d76-fe26ccb8802d (178,0 с), релиз «Lieder», 2007-09-14. Год сессии не документирован ни в MB, ни у Грея.",
+      "album": "Lieder (Berlin Classics)",
+      "label": "Berlin Classics / Edel (исходно Eterna)",
+      "age_voice": "не определяемо без даты сессии.",
+      "reputation": "Одна из двух найденных мужских записей песни. В фонде проекта Лоренц отсутствует (нет карточки ни в дайджесте, ни в реестрах) — фигура второго ряда.",
+      "sources": [
+        "https://musicbrainz.org/recording/0af9ff95-0f2d-48e2-9d76-fe26ccb8802d"
+      ],
+      "youtube": [
+        {"videoId": "XlENmO4Af7w", "channel": "Siegfried Lorenz - Topic", "official": true, "oembed_ok": true, "duration_s": 179, "views": 687}
+      ],
+      "note": "Справочно: показывает, что песня не закреплена исключительно за женским голосом."
+    },
+    {
+      "singer": "Peter Schreier (тенор, 1935–2019)",
+      "pianist": "нет фортепиано — Konrad Ragossnig, ГИТАРА",
+      "rec_year": "не установлен (издание 1991)",
+      "year_source": "MusicBrainz recording 9c7aa462-c94c-4bc0-894c-1cbe72e6a38b «Peter Schreier, Konrad Ragossnig — Wiegenlied D. 498» (180,0 с), релиз «Kammermusik 4: Hausmusik & Lieder», 1991.",
+      "album": "Kammermusik 4: Hausmusik & Lieder",
+      "label": "не установлен",
+      "age_voice": "не определяемо без даты сессии; пик Шрайера по дайджесту ~1965–1990.",
+      "reputation": "Аккомпанемент гитарой — историческая практика бидермайера, но по правилу проекта такой состав меняет и формат подписи (name — «Фамилия певца — Ensemble»/инструменталист). Как «основная» запись песни спорно.",
+      "sources": [
+        "https://musicbrainz.org/recording/9c7aa462-c94c-4bc0-894c-1cbe72e6a38b"
+      ],
+      "youtube": [],
+      "note": "Живого videoId в поиске не найдено. Справочная позиция."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff Thomas": "НЕ записывал. Основание: (1) полный список записей работы MB 439b6eca «Wiegenlied, D. 498» — 38 записей, Квастхофа среди 32 исполнительских составов нет; (2) дайджест (planning/research/singers-digest.md) фиксирует его дискографию как закрытую в 2012 и полностью перечисленную — ровно 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95; Winterreise RCA 1998; Schwanengesang DG 2001; Lieder с оркестром DG 2003; Müllerin DG 2005; Winterreise-фильм DG 2005), ни в одном из них D 498 нет. Отрицательный результат.",
+    "Fischer-Dieskau Dietrich": "НЕ записывал. Основание: (1) в списке 38 записей работы MB 439b6eca его нет; (2) его свод DG «Sämtliche Lieder» (1966–72, Moore) по определению охватывает мужские песни, а женские сознательно исключены (planning/research/singers-digest.md; planning/youtube/albums/complete-editions.md) — D 498 есть песня матери над колыбелью сына. ЛОВУШКА: скриптовый каркас d498-wiegenlied.mb.json показывает строку «Dietrich Fischer‐Dieskau, Wolfgang Sawallisch — Wiegenlied, op. 49/4» — это колыбельная БРАМСА, а не D 498; принимать её за запись этой песни нельзя.",
+    "Schwarzkopf Elisabeth": "ДА, и даже дважды. (1) Студийная неизданная EMI-запись с Гералдом Муром — Testament SBT 2172 «The Unpublished EMI Recordings 1946–1952», CD 2 трек 6 (MusicBrainz release 439e7470-8e6a-48d2-a368-7e698788cda5); год внутри окна 1946–52 не установлен. (2) Концертная запись с Муром — Orfeo «Schubert & Wolf: Lieder (Live)», ℗ 2019 (карточка в planning/youtube/albums.md прямо перечисляет Wiegenlied в программе Topic-канала). Обе доступны на её Topic-канале (3-CWQnNim_U, UHp2XXiCn60), обе живы по oEmbed.",
+    "Hotter Hans": "НЕ найдено. В списке 38 записей MB-работы его нет; реестр planning/youtube/albums/male-recitalists.md (§Hotter, три слоя: Raucheisen 1942–45, EMI/Moore 1949–57, поздний Decca/Parsons) шубертовского Wiegenlied не содержит; запрос дискографии Грея (composer=Schubert, work=Wiegenlied D498, artists=Hotter) — 0 строк. Отрицательный результат (для 1942–57 гг. охват Грея по этой работе действует, т. е. результат значим).",
+    "Anders Peter": "НЕ найдено. В MB-работе отсутствует; реестр male-recitalists.md (§Anders: радиофонд RRG с Раухайзеном 1943–47, Winterreise 1945, Müllerin 1945/1948) этой песни не фиксирует; Грей (work=Wiegenlied D498 + artists=Anders) — 0 строк. Оговорка: берлинский радиофонд Раухайзена документирован неполно, полностью исключить нельзя.",
+    "Schumann Elisabeth": "ДА. HMV DB 3426, сессия 29 ноября 1937, London, EMI Studio No. 3, Abbey Road, матрица 2EA 6022, пианист George Reeves — дискография Грея, запись id 40198; та же строка в planning/youtube/albums/female-recitalists.md. Официальные Topic-загрузки: 43LrTqhfAkQ, 2JhlvvdZC-M (155 с, совпадает с MB 154,3 с).",
+    "Ludwig Christa": "ДА. MusicBrainz recording b122da24-c6fe-4bce-8e1c-356932dcba16, с Джеффри Парсонсом, впервые издана в Warner «The Complete Recitals on Warner Classics» (2018). В LP-эру трек не выходил: ни SAX 5272, ни SAX 5274 его не содержат (полные трек-листы Discogs 5430638/7538601). По Discogs 34671325 (notes) он — в бонус-группе «previously unpublished» CD 4 при рецитале SAX 5272; два трека этой группы датированы Греем 29.11.1961 и 20.02.1962 (id 55247, 55245) → окно сессий 28.11.1961–20.02.1962, публикуется \"1961–62?\". Topic-загрузка SsYJY8arSBU (216 с — точное совпадение с MB).",
+    "Popp Lucia": "НЕ найдено. В списке 38 записей MB-работы отсутствует; её шубертовские позиции по реестру (EMI 1–6.11.1983 с Gage; зальцбургский лайв 10.08.1983; BBC-лайв 1982 с Parsons) этой песни не включают. Отрицательный результат (не абсолютный: программа BBC-лайва 1982 в реестре помечена «?»)."
+  },
+  "albums_facts": [
+    {
+      "album": "Elisabeth Schwarzkopf — The Unpublished EMI Recordings 1946–1952 (Testament SBT 2172, 2 CD)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "издание 1999-03-09; материал 1946–1952",
+      "label": "Testament (лицензия EMI)",
+      "facts": "Собрание не выпущенных в своё время EMI-записей. CD 2 — сплошь Lieder: Моцарт «Das Veilchen» K. 476, затем шубертовский блок Gretchen am Spinnrade D 118 / Der Musensohn D 764 / Wiegenlied D 498, далее Р. Штраус и Вольф. Показательно, что Storchenbotschaft Вольфа представлена дублем «(1948)» и «(1951)» — сессии сборника разнесены во времени, поэтому общий титул «1946–1952» не даёт года конкретного трека. Аккомпанемент шубертовского блока — Gerald Moore. Неизданные шубертовские сессии Шварцкопф/Мура по Грею: 21.05.1948 (Abbey Road Studio 3), 02.12.1951 (Studio 1), 11.09 и 21.09.1952 (Studio 1/1A). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Elisabeth Schwarzkopf — Schubert & Wolf: Lieder (Live) (Orfeo, ℗ 2019)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "℗ 2019 (год концерта не установлен)",
+      "label": "Orfeo",
+      "facts": "Карточка уже есть в planning/youtube/albums.md (по D 224). Настоящее исследование ДОПОЛНЯЕТ её: программа Topic-канала прямо включает Wiegenlied, и ролик найден (UHp2XXiCn60, помечен «(Live)», 176 с). Пианист — Gerald Moore. Дата концерта по-прежнему требует буклета Orfeo.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Elisabeth Schumann — HMV DB 3426 (78 об.)",
+      "singer": "Elisabeth Schumann",
+      "year": "1937 (29 ноября)",
+      "label": "HMV / EMI; переизд. Naxos Historical 8.110731, Warner «Icon»",
+      "facts": "Сессия 29.11.1937, London, EMI Studio No. 3, Abbey Road; матрица 2EA 6022; пианист George Reeves (не Мур — в отличие от её сессий 1936 и 1945–46). Дискография Грея id 40198. Строка уже была в planning/youtube/albums/female-recitalists.md; здесь подтверждена по первоисточнику и дополнена местом записи и матрицей.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Lotte Lehmann — Victor set M-419 / HMV DA 1603 (78 об.)",
+      "singer": "Lotte Lehmann",
+      "year": "1937 (16 марта)",
+      "label": "Victor / HMV",
+      "facts": "Сессия 16.03.1937, матрица BS 6665 take 1 (Грей id 62832). Соседняя матрица 6664 той же сессии — Gretchen am Spinnrade; пианист Ernő Balogh (реестр + дайджест). Одна сессия дала обе песни — полезно для сквозной унификации года.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Irmgard Seefried — Columbia LB 78 (78 об.), венские сессии 1946–48",
+      "singer": "Irmgard Seefried",
+      "year": "1947 (Wiegenlied — 4 декабря; Heidenröslein на той же пластинке — 21 ноября)",
+      "label": "Columbia",
+      "facts": "УТОЧНЕНИЕ К РЕЕСТРУ: карточка в planning/youtube/albums.md (по D 257) датировала пластинку LB 78 21 ноября 1947 (матрица 978) и упоминала, что «на той же стороне — Wiegenlied D 498». По Грею (id 19926) Wiegenlied записан ОТДЕЛЬНОЙ сессией 4 декабря 1947, матрица CHA 980; место то же — Wien, Musikverein, Brahms-Saal, пианист Hermann von Nordberg. Формулировка «на той же стороне» неточна: это две стороны одной пластинки, записанные с интервалом в две недели. Для D 498 правильный год-дата — 04.12.1947.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 8 — «Schubert & the Nocturne II» (CDJ33008)",
+      "singer": "Sarah Walker (меццо)",
+      "year": "запись май 1989, издание декабрь 1990",
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Пианист и автор комментариев — Graham Johnson. В его аннотации Wiegenlied D 498 назван «пожалуй, самой знаменитой из всех вещей этого жанра, за какие Шуберт брался». Пресса о диске: The Daily Telegraph («Уокер в пытливой, светящейся форме на всём протяжении» — о финальном Erlkönig), CDReview («это поистине выдающееся пение… безупречный выбор настроения у Джонсона… стержень всего этого великого проекта»). НОВАЯ карточка для реестра: в planning/youtube/albums/complete-editions.md том 8 фигурировал только через «Michael George / Sarah Walker» без даты сессии — теперь дата записи (V.1989) закрыта по сайту Hyperion.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Gundula Janowitz — Schubert: Lieder, 4-LP свод (DG 2713 012 + 2530 858)",
+      "singer": "Gundula Janowitz",
+      "year": "1976–1977 (сессии 28.09–01.10.1976 и IX + 1–4.12.1977)",
+      "label": "Deutsche Grammophon; CD-переизд. DG 453 082-2 (1997)",
+      "facts": "Studio Lankwitz, Берлин; пианист Irwin Gage, продюсер Cord Garben; серия дважды удостоена Deutscher Schallplattenpreis. Карточка уже в planning/youtube/albums/female-recitalists.md — здесь подтверждено вхождение D 498 (MB recording 176,0 с, две Topic-загрузки той же длительности).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Arleen Augér / Thomas Allen — Schubert Lieder (Virgin Classics 5614572)",
+      "singer": "Arleen Augér (с Lambert Orkis, хаммерклавир)",
+      "year": "издание апрель 1991; год сессии не установлен",
+      "label": "Virgin Classics / Warner",
+      "facts": "Карточка уже в planning/youtube/albums.md (по D 257) с предупреждением о трёх разных шубертовских записях Аугер (Olbertz/Eterna 1976, Baldwin, Orkis). Для D 498 привязка ОДНОЗНАЧНА: MB-длительность записи с Orkis — 150,4 с, Topic-ролик zMEEMsQ71jw — 151 с; версий с Olbertz/Baldwin под D 498 в MB нет.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Edith Mathis — Franz Schubert Lieder (Novalis 150 026)",
+      "singer": "Edith Mathis",
+      "year": "сессия июнь 1988, издание 1989",
+      "label": "Novalis (в дайджесте лейбл ошибочно указан как DG)",
+      "facts": "Пианист Karl Engel. Содержит D 498 (MB recording 161,4 с). На YouTube трек не выложен — ни Topic, ни фан-загрузки не найдено.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Christa Ludwig — The Complete Recitals on Warner Classics (11 CD)",
+      "singer": "Christa Ludwig",
+      "year": "издание 2018; исходная сессия D 498 — окно 28.11.1961–20.02.1962 (неизданный остаток сессий SAX 5272; точный день не установлен)",
+      "label": "Warner Classics (материал EMI/Columbia)",
+      "facts": "Единственный релиз, содержащий её D 498. Структура CD 4 по Discogs 34671325 (notes): треки 1–12 — LP Columbia SAX 5272 «A Schubert Recital» (сессии 28–30.11.1961, Abbey Road Studio 1, + 20.02.1962; те же 12 песен у Грея), треки 13–17 — «previously unpublished»: Nacht und Träume, Wiegenlied D 498, Im Abendrot, Die junge Nonne, Wandrers Nachtlied. Из них Nacht und Träume (29.11.1961, Gray id 55247) и Im Abendrot (20.02.1962, Gray id 55245) датированы Греем как unissued Columbia тех же сессий; продюсер/инженер всех 17 треков общие (Grubb/Gooch). На исходных LP трека НЕТ — прежняя привязка «SAX 5272 или SAX 5274» снята. Точный день D 498 — по буклету бокса при случае.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "source": "klassik-prisma.de — раздел Schubert",
+      "url": "https://www.klassik-prisma.de/Schubert.htm",
+      "finding": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ: сравнительного обзора (Vergleich) для Wiegenlied D 498 не существует. Раздел Шуберта содержит ровно 9 позиций: Auf dem Wasser zu singen D 774, Der Hirt auf dem Felsen D 965, Die junge Nonne D 828, Erlkönig D 328, Gretchen am Spinnrade D 118, Gruppe aus dem Tartarus D 583, Nacht und Träume D 827, Die schöne Müllerin D 795, Die Winterreise D 911. D 498 в списке нет — значит по этой песне у проекта нет привычной опоры на баллы klassik-prisma."
+    },
+    {
+      "source": "hyperion-records.co.uk — CDJ33008 (Hyperion Schubert Edition, Vol. 8)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33008",
+      "finding": "Аннотации Грэма Джонсона: Wiegenlied D 498 — «пожалуй, самая знаменитая из всех вещей этого жанра, за какие Шуберт брался». Отзывы прессы о диске (The Daily Telegraph, CDReview). Единственный найденный источник содержательной критики, касающейся записи этой песни."
+    }
+  ],
+  "negatives": [
+    "Скриптовый каркас MusicBrainz для этой песни (d498-wiegenlied.mb.json) НЕВЕРЕН: он описывает брамсовское Wiegenlied op. 49/4 (7 записей: Corea/Gulda, Fischer-Dieskau/Sawallisch, Leslie Howard, Martin Jones, Nicholas York, Percy Grainger ×2). Правильная работа — MB 439b6eca-f02a-33ff-a916-0d9f82cbda03, 38 записей. Поле mb_artists в d498-wiegenlied.candidates.json унаследовало ту же ошибку. Рекомендуется перегенерировать каркас и проверить mb-discography.js на защиту от одноимённых работ разных композиторов.",
+    "Квастхоф, Фишер-Дискау, Хоттер, Андерс, Попп — записей D 498 не найдено (детали и источники — в priority_singers_checked). Для мужских голосов в корпусе записей песни всего две (Siegfried Lorenz; Peter Schreier с гитарой) плюс исторические курьёзы (Beniamino Gigli 1935 с оркестром, Yoshie Fujiwara 1932, Rudolf Schock 1965).",
+    "klassik-prisma не имеет Vergleich по D 498 — привычный источник баллов для ранжирования недоступен; ранжировать придётся по устоявшейся репутации певцов, документированности года и состоянию голоса.",
+    "Дискография Майкла Грея индексирует D 498 по произведению только до 1965 года. Проверено: запросы work=«Wiegenlied, D498» + artists = Ludwig / Baker / Ameling / Janowitz / Streich / Mathis / Auger дают 0 строк, хотя записи всех этих певиц документированы в MusicBrainz и присутствуют на Topic-каналах. Нулевой ответ Грея по LP-эре читать как «нет данных», а не «нет записи».",
+    "Ria Ginster: MusicBrainz приписывает ей D 498 (две записи, в т. ч. с Gerald Moore, 150,8 с, в антологии «Leise flehen meine Lieder…»), но у Грея среди 13 её шубертовских позиций есть только Wiegenlied D 867 (HMV DB 1874, сессия 30.01.1933, London, EMI Studio No. 3, Abbey Road). Атрибуция MB под сомнением — вероятна путаница D 867 / D 498. Кандидатом не считать без отдельной проверки.",
+    "Marian Anderson: на её Topic-канале есть ролик «Wiegenlied, D. 498 (2021 Remastered Version)» (BTtW2v_AwCM, 175 с, из свода Sony «Beyond the Music», 2021), однако в дискографии Грея среди 22 её шубертовских позиций (1930–1951, пианисты Vehanen и Rupp) Wiegenlied D 498 ОТСУТСТВУЕТ, и в MB-работе её тоже нет. Год записи не документирован ни одним пригодным источником — публиковать нельзя без доисследования.",
+    "Edith Mathis (Novalis 1988) и Peter Schreier с гитарой (1991) — записи существуют, но живых videoId с этими фонограммами не найдено; по доступности отпадают.",
+    "Elly Ameling: на Topic-канале четыре загрузки D 498 разной длительности (183, 185, 179, 179 с), а MusicBrainz знает три её разные фонограммы (Baldwin 187,0 с; Baldwin 184,6 с; Jansen 179,0 с). Развести их по альбомам (филипсовская серия 1972/1973/1975/1976, «An die Musik» ℗1983, Тэнглвуд 1987) по доступным источникам не удалось — до этого включать нельзя, иначе нарушится сквозная унификация года по альбому.",
+    "Discogs: search-эндпоинт api.discogs.com в этой сессии отдавал пустые ответы и ошибку лимита («You are making requests too quickly»); как источник дат не использовался. WebSearch был исчерпан (200/200) до начала работы, поэтому обзоры Gramophone / MusicWeb / BBC Music Magazine и слепые тесты по этой песне проверить не удалось — это открытый хвост.",
+    "Исторический слой песни по Грею богат, но вокально нерелевантен для топ-5: Adrienne von Kraus-Osborne (Odéon 1907), Emmy Bettendorf / Paul Breisach (Parlophon, 24.12.1924, Берлин), Elsie Suddaby / Gerald Moore (HMV B2875, 19.10.1928, по-английски), Beniamino Gigli со Штаатскапеллой под упр. Alois Melichar (Electrola, 25.10.1935, Берлин — оркестровая аранжировка), Helen Traubel / Coenraad V. Bos (Victor 17480, 07.07.1940, New York), Erna Sack / Willy Czernik (Telefunken, 06.01.1942), Rudolf Schock / Ivan Eröd (Ariola-Eurodisc, 18.02.1965, Bielefeld). Плюс множество инструментальных переложений (аранжировка Элмана для скрипки и др.) — в пул не входят."
+  ]
+}

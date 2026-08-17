@@ -1,0 +1,75 @@
+{
+ "d": "274",
+ "title": "Tischlerlied",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: complete-editions.md (конвенция года 1969)",
+   "album": "Schubert: Sämtliche Lieder (DG, зап. 1966–72)",
+   "label": "DG",
+   "voice_note": "на пике свода",
+   "reputation": "базовая точка отсчёта корпуса",
+   "videoId": "oTVuQ1KdBsQ",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Michael George",
+   "pianist": "Graham Johnson",
+   "rec_year": 1994,
+   "year_source": "MB (mb_artists: Michael George/Graham Johnson) + реестр Vol.24 «A Goethe Schubertiad» (сессии IX.1994, изд. X.1995) — том смешанный, точный трек не сверен постранично",
+   "album": "Hyperion Song Edition 24 (CDJ33024)",
+   "label": "Hyperion",
+   "voice_note": "английский бас",
+   "reputation": "часть полного свода Hyperion",
+   "videoId": "NqBJJB2prMI",
+   "channel": "Michael George - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wilhelm Strienz",
+   "pianist": "Michael Raucheisen",
+   "rec_year": "1930-40-e?",
+   "year_source": "не установлен точно; yt-dlp метаданные трёх переизданий (Fono Team 2005 «Raucheisen Vol.33&34», Orchard 2006 «Raucheisen Vol.17», Membran 2010 «Heimat deine Sterne») подтверждают исполнителей, но не дату сессии — историческая RRG-эра (по аналогии с задокументированными в реестре сессиями Хоттера/Андерса с Раухайзеном 1930–40-х)",
+   "album": "RRG-радиофонд с Raucheisen (переиздания: Fono Team / The Orchard / Membran)",
+   "label": "разные переиздатели одной исторической сессии",
+   "voice_note": "немецкий бас старой школы, эпоха RRG-Liedschatz",
+   "reputation": "историческая находка — не было в реестре проекта; тот же формат сотрудничества Raucheisen, что и у Hotter/Anders",
+   "videoId": "2Y0_XBE6CUE",
+   "channel": "Michael Raucheisen - Topic",
+   "official": true
+  },
+  {
+   "singer": "Ferdinand von Bothmer",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": 2008,
+   "year_source": "yt-dlp метаданные Naxos (℗2008, изд. 16.12.2008)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 29 «Settings of Various Poets» (8.570838)",
+   "label": "Naxos",
+   "voice_note": "тенор/баритон, систематический немецкий свод",
+   "reputation": "часть полного свода Naxos",
+   "videoId": "IILOUkoskMY",
+   "channel": "Bothmer, Ferdinand von - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "FiDi": "есть (свод DG/Moore)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет — кандидат с каналом «Michael Raucheisen - Topic» при проверке метаданных оказался Wilhelm Strienz, не Hotter (регистровый хит был ложным по совпадению пианиста)",
+  "Anders": "нет",
+  "E.Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [
+  {
+   "album": "Wilhelm Strienz / Michael Raucheisen — RRG-радиофонд (переиздания Fono Team «Raucheisen Vol.33&34» 2005, Orchard «Raucheisen Vol.17» 2006, Membran «Heimat deine Sterne» 2010)",
+   "note": "не было в реестре; охватывает D 274. Точная дата сессии не установлена."
+  }
+ ],
+ "notes": "ВАЖНО: registry_hit по videoId 2Y0_XBE6CUE в исходном candidates.json указывал на карточку Hans Hotter (совпадение по имени пианиста Raucheisen), но проверка через yt-dlp описания показала, что реально поёт Wilhelm Strienz — Hotter эту песню не пел. Кандидат HWCdmAqB7Bk (Ulf Bästlein) — ложное совпадение, на деле D 259 «An den Mond»; исключён."
+}
