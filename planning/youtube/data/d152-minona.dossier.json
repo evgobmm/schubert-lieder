@@ -1,0 +1,50 @@
+{
+ "d": "152",
+ "title": "Minona oder die Kunde der Dogge, D 152",
+ "candidates": [
+  {
+   "singer": "Elly Ameling",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987–2000?",
+   "year_source": "MusicBrainz (661000ms, артист-кредит «Elly Ameling, Graham Johnson»); том Hyperion Schubert Edition не идентифицирован в этой сессии",
+   "album": "The Hyperion Schubert Edition, том не идентифицирован",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "Пик Амелинг ~1965–1985 (дайджест); самая записываемая шубертианка поколения",
+   "reputation": "не найдена отдельно в этой сессии",
+   "videoId": "pA-eiYA0GEs",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "note": "singer_guess скрипта неверен — реальный певец Ameling (MusicBrainz); единственный найденный официальный кандидат для этой песни"
+  },
+  {
+   "singer": "Ferdinand von Bothmer (?)",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не исследован в этой сессии",
+   "album": "не идентифицирован — вероятно современная непрофессиональная/учебная запись",
+   "label": "не установлен",
+   "voice_note": "не оценено; не найден в MusicBrainz-выгрузке работы D 152 и не в фонде дайджеста",
+   "reputation": "не найдена",
+   "videoId": "pjzzRKBoxyQ",
+   "channel": "не Topic",
+   "official": false
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "НЕ НАЙДЕН — ни на Topic-канале FiDi, ни в MusicBrainz-выгрузке работы D 152 записи не встретилось; вероятно, песня не входит в его свод DG Sämtliche Lieder (Vol. 2, 1811–1817) или не выложена официально",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "note_pool": "Самый бедный из всех 8 песен пул: реально относящихся к песне официальных кандидатов только 2 (Ameling/Johnson и сомнительный любительский Bothmer). FiDi-совпадений среди кандидатов много, но ВСЕ они — другие песни (D174, D153, D142, D117, D151, D159, D134, D166, D182, D197), ложные срабатывания по каналу.",
+ "false_positives_excluded": [
+  "Все FiDi-Topic записи в выборке (D 174, D 153×2, D 142×2, D 117, D 151, D 134, D 166, D 182, D 197) — другие песни",
+  "Janet Baker-Topic (D 159 «Die Erwartung») — другая песня",
+  "Christoph Prégardien (D 170 «Schwertlied») и Detlef Roth (D 177 «Vergebliche Liebe») — другие песни"
+ ]
+}

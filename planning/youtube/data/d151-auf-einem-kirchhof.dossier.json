@@ -1,0 +1,75 @@
+{
+ "d": "151",
+ "title": "Auf einen Kirchhof, D 151",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1967",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder, том «Lieder Volume 2» 2720 022 — «1811–1817»; свод в целом 1966–1972)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD) / «Lieder Volume 2» (2720 022)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "На вокальном пике (~1951–1972)",
+   "reputation": "часть базового свода, отдельно не рецензирована",
+   "videoId": "t0-pHOIbdsc",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "Дубль того же трека — 7yd_rmLpSvw (параллельный релиз того же альбома)"
+  },
+  {
+   "singer": "Martyn Hill",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987–2000?",
+   "year_source": "MusicBrainz (work 1a8f53c6, recording 284000ms, артист-кредит «Martyn Hill, Graham Johnson»); том Hyperion Schubert Edition не идентифицирован в этой сессии",
+   "album": "The Hyperion Schubert Edition, том не идентифицирован",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "британский тенор старшего поколения, не в приоритетном списке",
+   "reputation": "не найдена",
+   "videoId": "XQS9k4_rdag",
+   "channel": "не Topic (обычный канал — вероятно перезалив)",
+   "official": false,
+   "note": "Официальной Topic-загрузки этого трека в выборке скрипта нет; факт записи подтверждён MusicBrainz"
+  },
+  {
+   "singer": "Brigitte Geller",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не исследован в этой сессии (без registry_hit)",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не оценено",
+   "reputation": "не найдена",
+   "videoId": "jySUfCEWxx8",
+   "channel": "не Topic",
+   "official": false
+  },
+  {
+   "singer": "Christoph Homberger",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не исследован в этой сессии",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не оценено",
+   "reputation": "не найдена",
+   "videoId": "gmO8nhim7DA",
+   "channel": "не Topic",
+   "official": false
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "найден — DG Sämtliche Lieder (см. выше)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "false_positives_excluded": [
+  "Brigitte Fassbaender-Topic «Der Kirchhof» (H-PqgNw-7us) — проверено по MusicBrainz: работы Шуберта с таким названием нет («Der Kirchhof» встречается у др. композиторов, напр. цикл на Hölderlin); НЕ D 151, исключено",
+  "Остальные FiDi-Topic (D 150, D 183, D 250, D 153, D 926, D 155, D 174, D 107, D 197) — другие песни, ложные совпадения по каналу"
+ ]
+}

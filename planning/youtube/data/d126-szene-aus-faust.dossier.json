@@ -1,0 +1,91 @@
+{
+ "d": "126",
+ "title": "Szene aus \"Faust\", D 126",
+ "candidates": [
+  {
+   "singer": "Thomas Quasthoff",
+   "pianist": "Charles Spencer",
+   "rec_year": "1993",
+   "year_source": "реестр: planning/youtube/albums.md — «Thomas Quasthoff — Goethe-Lieder (RCA 09026 618642), сессии 25–26 и 28–29 мая 1993»; MusicBrainz подтверждает состав Quasthoff/Spencer (404000ms)",
+   "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+   "label": "RCA Victor Red Seal / BMG",
+   "voice_note": "Пик Квастхофа (~1993–2007) — начало серии, первый из шести шубертовских альбомов",
+   "reputation": "klassik-prisma даёт альбому в целом 4 балла (по дайджесту, по другим трекам); Szene aus Faust отдельно не рецензирована в найденных источниках",
+   "videoId": "o0TJOWmWV60",
+   "channel": "Thomas Quasthoff - Topic",
+   "official": true,
+   "note": "Высший приоритет по правилам проекта"
+  },
+  {
+   "singer": "Janet Baker, Dietrich Fischer-Dieskau, RIAS Kammerchor",
+   "pianist": "Gerald Moore",
+   "rec_year": "не установлен",
+   "year_source": "MusicBrainz (392000ms, артист-кредит «Janet Baker, Dietrich Fischer‐Dieskau, RIAS Kammerchor [members], Gerald Moore»)",
+   "album": "не идентифицирован в этой сессии",
+   "label": "не установлен",
+   "voice_note": "Редкая дуэтная запись с хором — Гретхен (Бейкер) и Бёзер Гайст (Фишер-Дискау); оба певца в приоритетном списке",
+   "reputation": "не найдена в этой сессии",
+   "videoId": "yWAHMv7nA1o",
+   "channel": "Janet Baker - Topic",
+   "official": true,
+   "note": "Единственный найденный дуэтный вариант сцены с обоими приоритетными певцами и хором — редкость, требует доисследования альбома при полном конвейере"
+  },
+  {
+   "singer": "Irmgard Seefried",
+   "pianist": "Erik Werba",
+   "rec_year": "1957?",
+   "year_source": "реестр: planning/youtube/albums.md — «Irmgard Seefried — Lieder nach Gedichten von Goethe (DG, 1957 ℗), Erik Werba» (не отождествлена окончательно с конкретной сессией); MusicBrainz подтверждает состав Seefried/Werba (377000ms, точное совпадение с длительностью видео)",
+   "album": "Lieder nach Gedichten von Goethe (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "Пик Зеефрид ~1948–1962 (дайджест) — запись около/на пике",
+   "reputation": "не найдена в этой сессии",
+   "videoId": "7qoEgODMgrE",
+   "channel": "Irmgard Seefried - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elly Ameling",
+   "pianist": "не установлен (вероятно Dalton Baldwin)",
+   "rec_year": "не установлен",
+   "year_source": "не установлен в этой сессии; в MusicBrainz-выгрузке (mb.json) запись Ameling для D 126 не встретилась",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не оценено",
+   "reputation": "не найдена",
+   "videoId": "xqIpTeAJyKU",
+   "channel": "Elly Ameling - Topic",
+   "official": true
+  },
+  {
+   "singer": "Marie McLaughlin, Thomas Hampson",
+   "pianist": "Graham Johnson (+ The New Company)",
+   "rec_year": "1987–2000?",
+   "year_source": "MusicBrainz (450000ms, точное совпадение длительности с видео DW3_2MG9jOo; артист-кредит «Marie McLaughlin, Thomas Hampson, Graham Johnson, The New Company»); том Hyperion Schubert Edition не идентифицирован в этой сессии",
+   "album": "The Hyperion Schubert Edition, том не идентифицирован (участвует ансамбль «The New Company» — вероятно, расширенная сценическая аранжировка)",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не оценено отдельно",
+   "reputation": "не найдена в этой сессии",
+   "videoId": "DW3_2MG9jOo",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "note": "singer_guess скрипта («Graham Johnson») неверен — реальные певцы McLaughlin/Hampson"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "найден — RCA Goethe-Lieder 1993 (см. выше), №1 в топ-5",
+  "Fischer-Dieskau": "найден в дуэтной версии с Дж. Бейкер и хором (см. выше)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "false_positives_excluded": [
+  "Christian Elsner/Ruth Ziesak/Eisenlohr (Naxos т.13) — есть в MusicBrainz по работе D126, кандидат на YouTube в выборке не найден отдельно",
+  "Ruth Ziesak-Topic 'Szene aus Goethe's Faust' (Ybio5qz1wDY) — вероятно тот же Naxos-трек, не проверен отдельно",
+  "Michael Raucheisen-Topic (qRa6nIzfppM) — певец радиозаписи не идентифицирован в этой сессии",
+  "Reclam Hörbücher / John Shirley-Quirk (Шуман, не Шуберт) / Joo Cho — не относятся к песне"
+ ]
+}

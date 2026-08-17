@@ -1,0 +1,57 @@
+{
+  "d": "222",
+  "title": "Lieb Minna",
+  "candidates": [
+    {
+      "singer": "Ann Murray",
+      "pianist": "Graham Johnson",
+      "rec_year": "1999 (изд.)",
+      "year_source": "реестр: complete-editions.md §1, Vol. 33 «The Young Schubert» (CDJ33033, изд. IX.1999; певцы Discogs — McLaughlin, Murray, Wyn-Rogers, Langridge, Norman, Thompson, Koningsberger, Varcoe); D222 написана в 1815 г. — тематически подходит теме тома, трек-лист не сверен построчно, умеренная уверенность",
+      "album": "Hyperion Schubert Edition, Vol. 33 «The Young Schubert»",
+      "label": "Hyperion (с 2023 — Universal)",
+      "voice_note": "не исследован",
+      "reputation": "не найдена отдельно",
+      "videoId": "O7TVfIFCm0c",
+      "channel": "Ann Murray - Topic",
+      "official": true
+    },
+    {
+      "singer": "Brigitte Geller",
+      "pianist": "Ulrich Eisenlohr (по конвенции серии)",
+      "rec_year": "2003 (изд.)",
+      "year_source": "реестр: complete-editions.md §2, Naxos DSLE т. 15 «Friends, Vol. 2» (8.557171, изд. 10/2003)",
+      "album": "Naxos DSLE, т. 15 «Friends, Vol. 2»",
+      "label": "Naxos",
+      "voice_note": "не исследован",
+      "reputation": "не найдена",
+      "videoId": "2mjdtEppOxE",
+      "channel": "Brigitte Geller - Topic",
+      "official": true
+    },
+    {
+      "singer": "Arleen Augér",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "источник не найден — Augér в мега-реестре числится по Vol. 9 «Schubert & the Theatre» (не подходит тематически) и по сольным альбомам Virgin/Eterna (не подтверждено, что там есть D222); привязка не доказана",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследован",
+      "reputation": "не найдена",
+      "videoId": "QI97NVIuk1I",
+      "channel": "Arleen Augér - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "FiDi": "не найдено — женский/юношеский голос, FiDi сознательно не записывал; в candidates.json совпадения по каналу FiDi — ложные (другие D-номера)",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "не найдено",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено (кандидат Christa Ludwig в сыром списке — ложное совпадение, другая песня D210)",
+    "Popp": "не найдено"
+  },
+  "new_albums": [],
+  "notes": "Кандидат Gerrit Schuil (пианист, videoId wO13IcPMVro, 315 c) не идентифицирован по певцу и по длительности сильно расходится с другими версиями — вероятно другая аранжировка/иное произведение; для топ-5 не годится без проверки."
+}

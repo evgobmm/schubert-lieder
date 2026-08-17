@@ -1,0 +1,31 @@
+{
+ "d": "164",
+ "title": "Liebesrausch, I. Fassung (Theodor Körner)",
+ "candidates": [
+  {
+   "singer": "Ian Bostridge",
+   "pianist": "Graham Johnson",
+   "rec_year": "1994",
+   "year_source": "MusicBrainz (recording b7bd1570, релиз III.1994)",
+   "album": "The Hyperion Schubert Edition, Vol. 20: An 1815 Schubertiad (CDJ33020)",
+   "label": "Hyperion",
+   "voice_note": "не установлено; Бостридж в начале карьеры",
+   "reputation": "часть свода Джонсона; трек — завершение Reinhard van Hoorickx",
+   "videoId": "5MZQ2sHZzRE",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Fischer-Dieskau": "нет данных для D 164 (первая редакция). ВАЖНО: во входном файле кандидатов много роликов FiDi, Markus Schäfer, Dietrich Henschel и др. подписаны «Liebesrausch, D. 179» — это ВТОРАЯ, отдельная редакция того же стихотворения (иной D-номер, отдельное произведение Шуберта), не D 164. Для D 164 подтверждённых записей этих исполнителей нет.",
+  "Quasthoff": "нет данных",
+  "Schwarzkopf": "нет данных",
+  "Hotter": "нет данных",
+  "Anders": "нет данных",
+  "E.Schumann": "нет данных",
+  "Ludwig": "нет данных",
+  "Popp": "нет данных"
+ },
+ "new_albums": [],
+ "note": "Крайне тонкий фонд — ровно одна подтверждённая запись именно D 164 (Hyperion Vol. 20, Bostridge/Johnson). Все ролики FiDi (miX_CcZJrz4, ugjMYU6G5Ic, zcdGOck6lxU), Дитриха Хеншеля (eCE1cYYBQr4) и Маркуса Шефера (o-qt7WBYMbQ) в исходном candidates.json относятся к D 179 — другой песне с тем же названием — и должны быть исключены из пула D 164 при ранжировании."
+}

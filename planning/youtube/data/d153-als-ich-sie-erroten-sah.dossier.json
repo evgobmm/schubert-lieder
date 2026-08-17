@@ -1,0 +1,77 @@
+{
+ "d": "153",
+ "title": "Als ich sie erröten sah, D 153",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1967",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder, том «Lieder Volume 2» 2720 022 — «1811–1817»; свод в целом 1966–1972); MusicBrainz подтверждает состав FiDi/Moore",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD) / «Lieder Volume 2» (2720 022)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "На вокальном пике (~1951–1972)",
+   "reputation": "часть базового свода, отдельно не рецензирована",
+   "videoId": "_WpYh_zMvyg",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "Дубль того же трека — 97-zeoRADd0 (параллельный релиз того же альбома)"
+  },
+  {
+   "singer": "Ian Bostridge",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987–2000?",
+   "year_source": "MusicBrainz (161000ms, артист-кредит «Ian Bostridge, Graham Johnson»); том Hyperion Schubert Edition не идентифицирован в этой сессии",
+   "album": "The Hyperion Schubert Edition, том не идентифицирован",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "пик Бостриджа ~1995–2010 (дайджест)",
+   "reputation": "не найдена отдельно",
+   "videoId": "_i_OPMw53mk",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "note": "singer_guess скрипта неверен — реальный певец Bostridge"
+  },
+  {
+   "singer": "Julius Patzak",
+   "pianist": "не установлен",
+   "rec_year": "не установлен (пик певца ~1930-е–1950-е по дайджесту)",
+   "year_source": "не исследован в этой сессии (без registry_hit, старый мастер вне основного фонда проекта)",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "«голос скромный, суть — слово и фразировка» (дайджест)",
+   "reputation": "не найдена",
+   "videoId": "E4-U8h5GKLs",
+   "channel": "не Topic",
+   "official": false,
+   "note": "Историческая ценность — требует доисследования при полном конвейере, если песня получит расширенный топ-5"
+  },
+  {
+   "singer": "Georg Poplutz",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не исследован в этой сессии",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не оценено",
+   "reputation": "не найдена",
+   "videoId": "fst1NoI0Hpk",
+   "channel": "не Topic",
+   "official": false
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "найден — DG Sämtliche Lieder (см. выше)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "false_positives_excluded": [
+  "FiDi-Topic «Das war ich, D 174» — другая песня",
+  "Elly Ameling-Topic «An den Tod, D 518» (8CVDw81YLcQ) — другая песня",
+  "'Bothmer, Ferdinand von' — вероятно любительская/учебная загрузка, не проверена отдельно"
+ ]
+}

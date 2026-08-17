@@ -1,0 +1,64 @@
+{
+ "d": "124",
+ "title": "Am See, D 124 \"Sitz' ich im Gras\"",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1967",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder, том «Lieder Volume 2» DG 2720 022 — «The Lieder composed from 1811 to 1817»; сессии свода в целом 1966–1972); MusicBrainz recording e1360b6d→258000ms подтверждает состав FiDi/Moore",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD) / «Lieder Volume 2» (2720 022)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "На вокальном пике певца (~1951–1972 по дайджесту)",
+   "reputation": "Часть базового полного свода мужских песен Шуберта — не рецензировался отдельно, но эталон охвата",
+   "videoId": "2WG3DAffyL0",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "Второй дубль того же трека — DxVjP29IzCM (258 с), параллельный релиз того же альбома на Topic (прецедент дублей уже отмечен в реестре для FiDi)"
+  },
+  {
+   "singer": "Philip Langridge",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987–2000?",
+   "year_source": "MusicBrainz (recording в работе e1360b6d, 303000ms, артист-кредит «Philip Langridge, Graham Johnson»); конкретный том Hyperion Schubert Edition не идентифицирован в этой сессии",
+   "album": "The Hyperion Schubert Edition (Graham Johnson), том не идентифицирован",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "Британский тенор старшего поколения; не в списке приоритетных певцов",
+   "reputation": "Часть научного свода Джонсона — общая репутация издания высокая, трек отдельно не рецензирован",
+   "videoId": "nR4YfUGaeZI",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "note": "singer_guess скрипта («Graham Johnson») неверен — на Topic-каналах Hyperion канал назван по пианисту; реальный певец — Langridge (MusicBrainz)"
+  },
+  {
+   "singer": "Christiane Iven",
+   "pianist": "Burkhard Kehring",
+   "rec_year": "2003?",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — «Christiane Iven — т. 12 «Mayrhofer, Vol. 2» (Naxos 8.554739, изд. 02/2003)»; MusicBrainz подтверждает состав Iven/Kehring для D 124b (вторая редакция)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 12 «Mayrhofer, Vol. 2» (8.554739)",
+   "label": "Naxos",
+   "voice_note": "Немецкое сопрано, не в приоритетном списке",
+   "reputation": "Часть систематического немецкоязычного полного издания Naxos",
+   "videoId": "SyFI_hRhdxw",
+   "channel": "Christiane Iven - Topic",
+   "official": true,
+   "note": "Это ВТОРАЯ редакция песни (D 124b) — иная версия, не идентичная FiDi/Langridge (D 124/D 124a)"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "найден — DG Sämtliche Lieder (см. выше)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "false_positives_excluded": [
+  "Anna Prohaska/Felicity Lott/Anja Harteros/повторные FiDi (D 746 'In des Sees Wogenspiele') — ДРУГАЯ песня Шуберта, script сматчил по совпадению названия «Am See» с D 124",
+  "FiDi 'Am Flusse D. 766' — тоже другая песня, ложное совпадение по теме",
+  "Emma Wernig (viola & piano arr.) — инструментальная аранжировка, не вокальная запись"
+ ]
+}

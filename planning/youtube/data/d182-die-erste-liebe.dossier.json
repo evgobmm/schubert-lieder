@@ -1,0 +1,53 @@
+{
+  "d": "182",
+  "title": "Die erste Liebe",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция проекта)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §3",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "вокальный пик",
+      "reputation": "базовая точка отсчёта корпуса",
+      "videoId": "9uox2xEFVZ8",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "John Mark Ainsley",
+      "pianist": "Graham Johnson",
+      "rec_year": "1993 (сессии IX.1993)",
+      "year_source": "MusicBrainz release f0b8384d-c24d-4ad8-92e9-2e9c6227f9cf (CDJ33020, изд. III.1994) — трек 11 из 32, артист-кредит трека подтверждён (John Mark Ainsley, tenor)",
+      "album": "The Hyperion Schubert Edition, Vol. 20 «An 1815 Schubertiad»",
+      "label": "Hyperion (с 2023 — Universal)",
+      "voice_note": "не проверено отдельно",
+      "reputation": "часть научного свода Джонсона; сборный том нескольких голосов (Rozario, Ainsley, Bostridge, George)",
+      "videoId": "kTq3Q4FMGHQ",
+      "channel": "Graham Johnson - Topic",
+      "official": true
+    },
+    {
+      "singer": "Detlef Roth",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "не установлен (изд. 07/2004)",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md §2 (Naxos т. 17 «Austrian Contemporaries, Vol. 2», 8.557172); подтверждено MusicBrainz recording-search (releases: «Franz Schubert: The Complete Lieder»)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 17",
+      "label": "Naxos",
+      "voice_note": "не проверено отдельно",
+      "reputation": "часть немецкоязычного полного свода Naxos",
+      "videoId": "awdXoOKhzoU",
+      "channel": "Detlef Roth - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+    "Schwarzkopf/Hotter/Anders/E.Schumann/Ludwig/Popp": "нет свидетельств"
+  },
+  "new_albums": [
+    "Vol. 20 Hyperion «An 1815 Schubertiad» (CDJ33020, зап. IX.1993, изд. III.1994; Rozario/Ainsley/Bostridge/George, Graham Johnson) верифицирован по MusicBrainz; D182 в этом томе поёт John Mark Ainsley (подтверждено на уровне трека)."
+  ]
+}

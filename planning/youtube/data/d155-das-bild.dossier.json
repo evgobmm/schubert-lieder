@@ -1,0 +1,66 @@
+{
+ "d": "155",
+ "title": "Das Bild, D 155",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1967",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder, том «Lieder Volume 2» 2720 022 — «1811–1817»; свод в целом 1966–1972); MusicBrainz подтверждает состав FiDi/Moore",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD) / «Lieder Volume 2» (2720 022)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "На вокальном пике (~1951–1972)",
+   "reputation": "часть базового свода, отдельно не рецензирована",
+   "videoId": "Dw_Em7ynQw4",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "Дубль того же трека — O-3SJJH9snI (параллельный релиз того же альбома)"
+  },
+  {
+   "singer": "Jamie MacDougall",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987–2000?",
+   "year_source": "MusicBrainz (150000ms, артист-кредит «Jamie MacDougall, Graham Johnson»); том Hyperion Schubert Edition не идентифицирован в этой сессии",
+   "album": "The Hyperion Schubert Edition, том не идентифицирован",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не в приоритетном списке",
+   "reputation": "не найдена",
+   "videoId": "5HLpBPKGdjw",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "note": "singer_guess скрипта неверен — реальный певец MacDougall"
+  },
+  {
+   "singer": "Jan Kobow",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "не исследован в этой сессии (без registry_hit)",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "voice_note": "не оценено",
+   "reputation": "не найдена",
+   "videoId": "cNKrkV6fOjM",
+   "channel": "не Topic",
+   "official": false,
+   "note": "Второй его кандидат в выборке (ODlNC6EEj9A, 'Herbstlied D 502') — другая песня, ложное совпадение по каналу"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "найден — DG Sämtliche Lieder (см. выше)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден (кандидат Hotter в выборке — «Ihr Bild» из Schwanengesang D 957/9, ДРУГАЯ песня, ложное совпадение по названию 'Bild')",
+  "Anders": "не найден",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "false_positives_excluded": [
+  "Hans Hotter-Topic «Schwanengesang: Ihr Bild» — ДРУГАЯ песня (D 957/9), не D 155",
+  "FiDi-Topic «Ihr Bild» (6XZBLsRMcSc) — та же ошибка, другая песня",
+  "Janet Baker-Topic «Das Geheimnis, D 250» — другая песня",
+  "FiDi-Topic «Die Sternennächte D 670» и «Vergebliche Liebe D 177» — другие песни",
+  "Release-Topic «Am Flusse, D 160» — другая песня"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "d": "120",
+ "title": "Trost in Tränen",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–72",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder, 21 CD)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик/чуть после пика",
+   "reputation": "часть эталонного полного свода; отдельно не рецензировалась",
+   "videoId": "8Szqf25QXyY",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "не установлен (том свода harmonia mundi не идентифицирован)",
+   "rec_year": "не установлен",
+   "year_source": "загрузка с личного/фан-канала «Matthias Goerne» (не Topic); реестр даёт несколько томов Goerne Schubert Edition (2008–2014) без прямой привязки к D 120",
+   "album": "не установлен (возможно Matthias Goerne Schubert Edition, HM)",
+   "label": "неизвестен",
+   "voice_note": "не установлено",
+   "reputation": "не исследовалась",
+   "videoId": "ChfOondY1-Q",
+   "channel": "Matthias Goerne",
+   "official": false
+  },
+  {
+   "singer": "Christoph Prégardien",
+   "pianist": "Andreas Staier (историческое ф-но)",
+   "rec_year": "1994",
+   "year_source": "реестр: planning/youtube/albums.md (Schubert: Songs to Poems by Goethe, DHM 05472 77342 2, запись 10–13.10.1994, Studio Stollberger Str., WDR Köln; издание 1995) — гётевская программа, Trost in Tränen написана на текст Гёте",
+   "album": "Schubert: Songs to Poems by Goethe",
+   "label": "Deutsche Harmonia Mundi (BMG)",
+   "voice_note": "ранний период (~29 лет)",
+   "reputation": "историческое фортепиано, копродукция WDR — периодная запись, не рецензировалась отдельно",
+   "videoId": "91gApAxnJnU",
+   "channel": "Christoph Prégardien - Topic",
+   "official": true
+  },
+  {
+   "singer": "Adrian Thompson",
+   "pianist": "Graham Johnson",
+   "rec_year": "1991",
+   "year_source": "реестр: albums/complete-editions.md (Hyperion Vol. 12 «The Young Schubert I», зап. II.1991, изд. XI.1991)",
+   "album": "The Hyperion Schubert Edition, Vol. 12: The Young Schubert I",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не установлено",
+   "reputation": "часть научного свода Джонсона",
+   "videoId": "VINKLk4h50w",
+   "channel": "Adrian Thompson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "не установлен (том/лейбл не идентифицирован)",
+   "rec_year": "не установлен",
+   "year_source": "реестр даёт несколько альбомов Хольцмайра (Tudor 1993/Wyss; Naxos т. 20/21 2005–06/Eisenlohr) без прямой привязки к D 120",
+   "album": "не установлен",
+   "label": "неизвестен",
+   "voice_note": "не установлено",
+   "reputation": "не исследовалась",
+   "videoId": "3EDxfpbMSZs",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найден",
+  "Hotter": "не найден в фонде D 120 (но есть общий военный радиофонд Раухайзена — см. ниже)",
+  "Anders": "не найден в фонде D 120",
+  "E. Schumann": "не найден",
+  "Ludwig": "не найден",
+  "Popp": "не найден"
+ },
+ "new_albums": [],
+ "note": "Медиум-песня, но фонд на удивление скромный: помимо DG-свода Фишера-Дискау и трёх изданий (Prégardien/DHM — гётевская программа подтверждена реестром напрямую, Hyperion/Thompson, Holzmair) значимых записей звёзд не найдено. Отдельно встречен ролик «Das Deutsche Lied: Trost in Tränen» на Topic-канале пианиста Michael Raucheisen — потенциально исторический документ военного радиофонда (Anders/Hotter/Schlusnus и др. пели с Раухайзеном по дайджесту), но конкретный певец не указан в метаданных и не идентифицирован — требует отдельной проверки перед публикацией, не включён в пул как неатрибутированный."
+}

@@ -1,0 +1,44 @@
+{
+  "d": "219",
+  "title": "Das Finden",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция свода)",
+      "year_source": "реестр: complete-editions.md §3 (DG Sämtliche Lieder)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "часть полного свода; отдельно не исследован",
+      "reputation": "эталонный статус свода; отдельной критики трека нет",
+      "videoId": "eza7Wfe8LSM",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Marcus Ullmann",
+      "pianist": "Ulrich Eisenlohr (по конвенции серии)",
+      "rec_year": "2005–2006 (изд.)",
+      "year_source": "реестр: complete-editions.md §2 — Ullmann поёт в Naxos DSLE т. 19 «Poets of Sensibility, Vols. 1&2» (изд. 08/2005) и т. 22 «Poets of Sensibility, Vol. 5» (изд. 11/2006); текст Косегартена (сентименталисты) соответствует теме томов, точный том не сверен по трек-листу — средняя уверенность",
+      "album": "Naxos DSLE, «Poets of Sensibility» (т. 19 или 22)",
+      "label": "Naxos",
+      "voice_note": "не исследован",
+      "reputation": "не найдена",
+      "videoId": "HS9DWVZL2ac",
+      "channel": "Marcus Ullmann - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "FiDi": "да — Sämtliche Lieder (DG)",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "не найдено",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено",
+    "Popp": "не найдено"
+  },
+  "new_albums": [],
+  "notes": "Очень тонкий пул: только два реальных кандидата подтверждённого совпадения по названию (остальное в candidates.json — шумовые совпадения по каналу FiDi с другими D-номерами, не Das Finden). Текст — Kosegarten, мужской голос (садовник/пастух)."
+}
