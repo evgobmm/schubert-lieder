@@ -1,0 +1,86 @@
+{
+ "d": "297",
+ "title": "Augenlied",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: albums.md (DG Sämtliche Lieder, конвенция проекта 1966–1972)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "вокальный пик певца, полный свод мужских песен Мура/Фишера-Дискау",
+   "reputation": "часть базового свода корпуса; отдельно не рецензирована",
+   "videoId": "z5SOxuIbUWc",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "две идентичные Topic-загрузки (z5SOxuIbUWc, 6QijqwI_R2A / KccNx6qrQEM) — дубли одной фонограммы"
+  },
+  {
+   "singer": "Gundula Janowitz",
+   "pianist": "Charles Spencer",
+   "rec_year": 1990,
+   "year_source": "реестр: albums.md (Nuova Era 6860 «Schubert: 15 Lieder», изд. 1990, дата сессии не документирована)",
+   "album": "Schubert: 15 Lieder (Nuova Era 6860)",
+   "label": "Nuova Era",
+   "voice_note": "поздний рецитал (Янович ~53 года); переиздан Brilliant «The Masterworks» (2004)",
+   "reputation": "не найдена отдельная пресса по этому треку",
+   "videoId": "MK9UL7NLsAk",
+   "channel": "Gundula Janowitz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Ann Murray",
+   "pianist": "Graham Johnson",
+   "rec_year": 1988,
+   "year_source": "реестр: complete-editions.md (Hyperion Vol.3 «Schubert & his Friends I», CDJ33003, зап. XI.1988, изд. XII.1989)",
+   "album": "Hyperion Schubert Edition, Vol. 3 «Schubert & his Friends I»",
+   "label": "Hyperion",
+   "voice_note": "меццо на пике формы, часть научного свода Джонсона",
+   "reputation": "часть свода; отдельной прессы по этому треку не найдено",
+   "videoId": "UMACv_ke_vM",
+   "channel": "Ann Murray - Topic",
+   "official": true
+  },
+  {
+   "singer": "Christiane Iven",
+   "pianist": "Burkhard Kehring",
+   "rec_year": 2003,
+   "year_source": "реестр: complete-editions.md (Naxos DSLE т. 12 «Mayrhofer, Vol. 2», 8.554739, изд. 02/2003) — дата издания",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 12 «Mayrhofer, Vol. 2»",
+   "label": "Naxos",
+   "voice_note": "сопрано, немецкоязычная научная серия, том целиком посвящён Майрхоферу",
+   "reputation": "часть свода; отдельно не рецензирована",
+   "videoId": "dN0ZTlEp5Nk",
+   "channel": "Christiane Iven - Topic",
+   "official": true
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "Helmut Deutsch",
+   "rec_year": 2007,
+   "year_source": "реестр: complete-editions.md (Goerne Schubert Edition Vol. 2 «An mein Herz», HMC 902004.05, CD 1 — сессия X.2007, Teldex; изд. X.2008) — CD1 c Helmut Deutsch",
+   "album": "Matthias Goerne Schubert Edition, Vol. 2 «An mein Herz»",
+   "label": "harmonia mundi",
+   "voice_note": "часть 12-томного свода Гёрне, том посвящён интимной/задушевной лирике",
+   "reputation": "не найдена отдельная пресса по этому треку",
+   "videoId": null,
+   "channel": "видео на канале пианиста (в yt.json не зафиксирован отдельный videoId для Goerne/Deutsch — трек фигурирует под каналом Helmut Deutsch - Topic, id 3M-gualANLg)",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет — не входит ни в один из его 6 Schubert-альбомов",
+  "Fischer-Dieskau": "да — DG Sämtliche Lieder (см. выше)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [
+  "Gundula Janowitz — Schubert: 15 Lieder (Nuova Era 6860, изд. 1990, Charles Spencer) — не был в реестре под этим D-номером; в albums.md уже фигурирует по D 917, теперь подтверждён и для D 297."
+ ],
+ "conveyor_note": "Пул из 5 значимых кандидатов, поэт — Mayrhofer (закрыт Naxos-томом Mayrhofer Vol.2 и Hyperion Vol.3). Ключевые исполнители: Фишер-Дискау (DG-свод), Джановиц (поздний сольный рецитал), Энн Мюррей (Hyperion), Ивен (Naxos, тематический том), Гёрне (harmonia mundi свод)."
+}

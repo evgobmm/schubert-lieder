@@ -1,0 +1,59 @@
+{
+ "d": "522",
+ "title": "Die Liebe (D 522, Лейтнер)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "базовый эталон корпуса",
+   "videoId": "2fk6Mx-R-QU",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубль того же трека также под videoId 0zFCT1Vb_uA"
+  },
+  {
+   "singer": "Edith Mathis",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен (Hyperion, том 21)",
+   "year_source": "singers-digest.md («Mathis т. 21»); идентификация певицы — по неофициальной перезаливке того же трека (см. note), Graham Johnson-Topic канал сам по себе певца не называет",
+   "album": "Hyperion Schubert Edition, Vol. 21",
+   "label": "Hyperion (Universal)",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть научного свода Джонсона",
+   "videoId": "taPXaekEofs",
+   "channel": "Graham Johnson - Topic",
+   "official": true,
+   "note": "singer установлен по неофициальной перезаливке того же трека (channel «Schubert958», videoId Pa5XVzkAnvY, заголовок «D522 Die liebe [Mathis & Johnson]») — используется только для атрибуции исполнителя, не как источник дат"
+  },
+  {
+   "singer": "Daniela Sindram",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не установлен (изд. 03/2007)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos т. 23 «Austrian Contemporaries, Vol. 3», 8.557833)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 23",
+   "label": "Naxos",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть немецкоязычного свода Naxos",
+   "videoId": "I1hINC01tpE",
+   "channel": "Daniela Sindram - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено (Christa Ludwig в выдаче поёт другую «Die Liebe» — D 210 «Klärchens Lied», не D 522)",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Внимание при отборе: D 522 (Лейтнер, 1817) — НЕ путать с одноимёнными Schubert-песнями D 210 «Klärchens Lied» (Гёте), D 983 и D 751 «Die Liebe hat gelogen» — эти videoId в candidates.json (Christa Ludwig, Anthony Mondon, FiDi/D751 и др.) относятся к другим сочинениям и исключены из пула."
+}

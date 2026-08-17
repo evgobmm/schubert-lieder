@@ -1,0 +1,58 @@
+{
+ "d": "520",
+ "title": "Frohsinn",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder, сессии свода 1966–1972)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "часть полного свода мужских песен; конкретная сессия для D 520 не документирована отдельно",
+   "reputation": "базовый эталон корпуса (Ф.-Д./Мур), без специфической критики трека",
+   "videoId": "YYDcTTH89DI",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубль того же трека также под videoId j563O065JXA (иной ID, та же фонограмма/канал)"
+  },
+  {
+   "singer": "Detlef Roth",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не установлен (изд. серии 2004–2010)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos Deutsche Schubert-Lied-Edition)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 17 «Austrian Contemporaries, Vol. 2» (8.557172) или т. 35 «Rarities…» (8.572322)",
+   "label": "Naxos",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть научного немецкоязычного свода Naxos, без специфической прессы по треку",
+   "videoId": "W6lD5Qtt4KU",
+   "channel": "Detlef Roth - Topic",
+   "official": true
+  },
+  {
+   "singer": "Stephan Loges",
+   "pianist": "Graham Johnson",
+   "rec_year": "1998-1999?",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — Loges в Hyperion Vol. 32 «An 1816 Schubertiad» (зап. XII.1998, изд. III.1999); привязка к конкретному тому не подтверждена трек-листом",
+   "album": "Hyperion Schubert Edition (том с рарностями 1816–1817), вероятно Vol. 32",
+   "label": "Hyperion (Universal)",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть научного свода Грэма Джонсона, без специфической прессы по треку",
+   "videoId": "UscJyOCwOww",
+   "channel": "Stephan Loges - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено (не входит ни в один из его 6 альбомов; дискография закрыта)",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "Пул малочислен (3 значимых кандидата: FiDi, Roth, Loges) — топ будет короче 5. Отсеяны: две записи под названием «Frohsinn» другой длительности/каналов без D-номера в титуле (Joseph Castella, Christiane Öttl) и с ложным совпадением по singer_guess (Michel Ludwig et son ensemble, Markus Becker — реально Reger op.17); не проверены как D 520 Шуберта."
+}

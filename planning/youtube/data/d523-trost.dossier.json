@@ -1,0 +1,59 @@
+{
+ "d": "523",
+ "title": "Trost (D 523)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "базовый эталон корпуса",
+   "videoId": "vjZ5n8sMdss",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубль под videoId e5wNNnTgkaA"
+  },
+  {
+   "singer": "Edith Mathis",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен (Hyperion, том 21)",
+   "year_source": "mb_artists кандидатов D 523 напрямую даёт пару «Edith Mathis, Graham Johnson»; singers-digest.md подтверждает «Mathis т. 21»",
+   "album": "Hyperion Schubert Edition, Vol. 21",
+   "label": "Hyperion (Universal)",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть научного свода Джонсона",
+   "videoId": "U5uI9O6NXhA",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Ferdinand von Bothmer",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет данных — не найден в реестре альбомов/дайджесте",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "современный (?) исполнитель без карточки в реестре; не исследовано",
+   "reputation": "не установлена",
+   "videoId": "_mDw-f7hc4M",
+   "channel": "Bothmer, Ferdinand von - Topic",
+   "official": true,
+   "note": "маргинальный кандидат, для топ-5 не рекомендуется без доисследования"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "D 523 «Nimmer lange weil' ich hier» — не путать с одноимёнными D 671 «Trost» (Шиллер/Майрхофер?), D 120 «Trost in Tränen», D 97 «Trost. An Elisa», D 546 «Trost im Liede» — все эти videoId в candidates.json исключены из пула как другие сочинения."
+}

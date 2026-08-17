@@ -1,0 +1,60 @@
+{
+ "d": "546",
+ "title": "Trost im Liede",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: albums.md (DG Sämtliche Lieder, конвенция проекта 1966–1972)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "вокальный пик, полный свод",
+   "reputation": "базовый свод корпуса",
+   "videoId": "u-x3Wh5EGTE",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дублирующая Topic-загрузка Tqk5ZgUU2_k — та же фонограмма"
+  },
+  {
+   "singer": "Elly Ameling",
+   "pianist": "Jörg Demus",
+   "rec_year": null,
+   "year_source": "реестр female-recitalists.md фиксирует ТРИ разных сессии дуэта Ameling/Demus (HM 17 050, 1964; HM 30 696, 1965; EMI 1C 063-29 025, 1970) — какая именно содержит D 546, не установлено; требуется точечная сверка перед публикацией",
+   "album": "не определён однозначно (одна из трёх сессий Ameling/Demus 1964/1965/1970)",
+   "label": "Harmonia Mundi / EMI Electrola",
+   "voice_note": "не установлено, на какой из сессий (молодость vs. зрелость)",
+   "reputation": "не верифицирована по этому треку",
+   "videoId": "v_Zcz2o0Kj0",
+   "channel": "Elly Ameling - Topic",
+   "official": true,
+   "note": "требует доисследования даты перед включением в топ-5"
+  },
+  {
+   "singer": "Ann Murray",
+   "pianist": "Graham Johnson",
+   "rec_year": null,
+   "year_source": "registry_hits в candidates.json — только по совпадению фамилии (Мюррей встречается в неск. томах Hyperion), точный том для D 546 не идентифицирован",
+   "album": "Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion",
+   "voice_note": "не доисследовано",
+   "reputation": "не верифицирована",
+   "videoId": null,
+   "channel": "Ann Murray - Topic (в выдаче фигурируют только соседние треки — TVwFXhTSW6I, O7TVfIFCm0c — сам D 546 у неё в кандидатах не подтверждён отдельным videoId)",
+   "official": true,
+   "note": "не подтверждено — исключить из пула без отдельной проверки"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "да — DG Sämtliche Lieder/Moore",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [],
+ "conveyor_note": "Поэт — Franz von Schober, НЕ Mayrhofer: тематический альбом Прегардьена/Штайера сюда не относится, специализированного альбома для этой песни в реестре нет. Пул скромный: FiDi/Moore (главный, приоритетный) + Амелинг/Демус (дата не установлена, три кандидатные сессии) + непроверенный след Энн Мюррей. Для топ-5 без доисследования даты Амелинг доступны фактически 1–2 верифицированных варианта."
+}

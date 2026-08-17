@@ -1,0 +1,86 @@
+{
+ "d": "524",
+ "title": "Der Alpenjäger (D 524, Мейрхофер)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "базовый эталон корпуса",
+   "videoId": "NhNbKAX1a60",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "дубль под videoId M9QOL3ng9j4"
+  },
+  {
+   "singer": "Christopher Maltman",
+   "pianist": "Graham Johnson",
+   "rec_year": "1998-2000 (Hyperion, один из томов 32/34/35)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — Мальтман поёт в Vol.32 (зап.XII.1998/изд.III.1999), Vol.34 (сессии 1991–1999/изд.I.2000), Vol.35 (зап.I.1998/изд.IV.2000); конкретный том для D524 не идентифицирован",
+   "album": "Hyperion Schubert Edition (том 1817 г., точный номер не установлен)",
+   "label": "Hyperion (Universal)",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть научного свода Джонсона; пресса по томам 34/35 — BBC Music Magazine «illuminating», The Guardian «Revelatory»",
+   "videoId": "18CFi0ySfMg",
+   "channel": "Christopher Maltman - Topic",
+   "official": true
+  },
+  {
+   "singer": "Cornelius Hauptmann",
+   "pianist": "Stefan Laux",
+   "rec_year": "не установлен (изд. 02/2000)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos т. 4 «Mayrhofer, Vol. 1», 8.554738)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 4 «Mayrhofer, Vol. 1»",
+   "label": "Naxos",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "часть немецкоязычного свода Naxos; текст D 524 — Майрхофер, том посвящён именно этому поэту",
+   "videoId": "QSdMMx17upE",
+   "channel": "Cornelius Hauptmann - Topic",
+   "official": true
+  },
+  {
+   "singer": "Christoph Prégardien",
+   "pianist": "не установлен (канал агрегирует несколько альбомов Прегардьена)",
+   "rec_year": "не установлен",
+   "year_source": "не установлен — Prégardien-Topic канал в реестре связан с гётевскими и разными сборными альбомами; какой именно диск содержит D 524 (текст Майрхофера) не подтверждён",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не исследовано",
+   "reputation": "не установлена для этого трека",
+   "videoId": "MtvbWKgVxJA",
+   "channel": "Christoph Prégardien - Topic",
+   "official": true,
+   "note": "требует доисследования альбома при повышении песни до полного конвейера"
+  },
+  {
+   "singer": "Hermann Prey",
+   "pianist": "Helmut Deutsch",
+   "rec_year": "не установлен",
+   "year_source": "нет — только неофициальная фан-перезаливка (LOFTmusic), в реестре не найдена",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не исследовано",
+   "reputation": "не установлена",
+   "videoId": "SFmTFCynPfI",
+   "channel": "LOFTmusic",
+   "official": false,
+   "note": "неофициальный канал; для публикации нужен official/Topic источник той же записи"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": [],
+ "note": "ВАЖНО: Schubert написал ДВЕ разные песни «Der Alpenjäger» — D 524 (Мейрхофер, op.13/3, наша песня) и D 588 (Шиллер, «Willst du nicht das Lämmlein hüten?»). В candidates.json значительная часть выдачи (FiDi ×4, Hermann Prey/Moore, Janet Baker) относится именно к D 588 — эти кандидаты полностью исключены из пула D 524. Riko Fukuda-Topic (певец по mb_artists — Jasper Schweppe, не Fukuda — она пианистка) не включена в основной пул из-за отсутствия карточки исполнителя в реестре/дайджесте."
+}

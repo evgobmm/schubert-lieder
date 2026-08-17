@@ -1,0 +1,113 @@
+{
+ "d": "540",
+ "title": "Philoktet",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": 1969,
+   "year_source": "реестр: albums.md (DG Sämtliche Lieder, конвенция проекта 1966–1972)",
+   "album": "Schubert: Sämtliche Lieder (21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "вокальный пик, полный свод мужских песен",
+   "reputation": "базовый свод корпуса",
+   "videoId": "DGmKx8J9PBU",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true,
+   "note": "несколько дублирующих Topic-загрузок одной фонограммы (DGmKx8J9PBU, FrusiQOdDis, nnNg3aagqLw, A9sWLODUSpw)"
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Jörg Demus",
+   "rec_year": null,
+   "year_source": "не установлен — MusicBrainz фиксирует пару FiDi/Demus как отдельную запись (не Гётевский рецитал DG 1959, тот другой цикл), альбом не идентифицирован",
+   "album": "не идентифицирован (ранний рецитал FiDi/Demus)",
+   "label": "не установлен",
+   "voice_note": "неустановленный период",
+   "reputation": "не верифицирована",
+   "videoId": null,
+   "channel": "фан-загрузка 'incontrario motu' (Jd_2Q3T5Z2I), не Topic",
+   "official": false,
+   "note": "вторичный вариант; для топ-5 достаточно версии с Муром (DG-свод) — эту не публиковать без установления альбома"
+  },
+  {
+   "singer": "Christoph Prégardien",
+   "pianist": "Andreas Staier",
+   "rec_year": 2001,
+   "year_source": "реестр: modern-series.md («Schubert: Lieder after Mayrhofer», Teldec, ℗ 2001, Staier, историческое фортепиано)",
+   "album": "Schubert: Lieder after Mayrhofer",
+   "label": "Teldec",
+   "voice_note": "тенор, историческое фортепиано; программа целиком на стихи Майрхофера — тематически центральный альбом для этой песни",
+   "reputation": "хорошо принятый специализированный альбом (дайджест: официальный охват Warner Topic)",
+   "videoId": "rdjCr5DJlmE",
+   "channel": "Christoph Prégardien - Topic",
+   "official": true
+  },
+  {
+   "singer": "Thomas Hampson",
+   "pianist": "Graham Johnson",
+   "rec_year": 1999,
+   "year_source": "реестр: complete-editions.md (Hyperion Vol.34 «Schubert 1817–1821», CDJ33034, зап. I.1999, изд. I.2000)",
+   "album": "Hyperion Schubert Edition, Vol. 34 «Schubert 1817–1821»",
+   "label": "Hyperion",
+   "voice_note": "баритон на пике формы, научный свод Джонсона",
+   "reputation": "часть свода; отдельно не рецензирована",
+   "videoId": "sAiW4cjqysU",
+   "channel": "Graham Johnson - Topic (том сборный, канал оформлен на пианиста)",
+   "official": true
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "Ingo Metzmacher",
+   "rec_year": 2009,
+   "year_source": "реестр: albums.md (Goerne Schubert Edition, Vol.4 «Heliopolis», HMC 902035, сессии X–XI.2008 и II.2009, Teldex; изд. 2009)",
+   "album": "Matthias Goerne Schubert Edition, Vol. 4 «Heliopolis»",
+   "label": "harmonia mundi",
+   "voice_note": "часть 12-томного свода",
+   "reputation": "не найдена отдельная пресса по этому треку",
+   "videoId": "7f8CLM9SVZo",
+   "channel": "Ingo Metzmacher - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "Gérard Wyss",
+   "rec_year": 1992,
+   "year_source": "реестр: modern-series.md («Lieder nach Gedichten von Johann Mayrhofer», 1992 [MB], лейбл не установлен) — год издания по MusicBrainz",
+   "album": "Lieder nach Gedichten von Johann Mayrhofer",
+   "label": "не установлен",
+   "voice_note": "ранний Хольцмайр, до его серии с Cooper",
+   "reputation": "не верифицирована прессой",
+   "videoId": "Xm5SXdtZSE8",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Cornelius Hauptmann",
+   "pianist": "Stefan Laux",
+   "rec_year": 2000,
+   "year_source": "реестр: complete-editions.md (Naxos DSLE т. 4 «Mayrhofer, Vol. 1», 8.554738, изд. 02/2000)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 4 «Mayrhofer, Vol. 1»",
+   "label": "Naxos",
+   "voice_note": "бас, немецкоязычная научная серия, том целиком посвящён Майрхоферу",
+   "reputation": "часть свода",
+   "videoId": "uV_1ji4n_2M",
+   "channel": "Cornelius Hauptmann - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "да — DG Sämtliche Lieder/Moore (главный вариант); второй, неидентифицированный вариант с Демусом — вторично",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [
+  "Wolfgang Holzmair — Lieder nach Gedichten von Johann Mayrhofer (1992 [MB], лейбл не установлен) — уже отмечен в modern-series.md как открытый хвост «лейбл ?»; для D 540 подтверждено наличие трека."
+ ],
+ "conveyor_note": "Богатый пул (6 верифицированных + 1 неверифицированный кандидат FiDi/Demus). Тематический центр — Prégardien/Staier «Lieder after Mayrhofer» (Teldec 2001) и Naxos Mayrhofer Vol.1 (Hauptmann). FiDi/Moore закрывает высший приоритет после Квастхофа."
+}

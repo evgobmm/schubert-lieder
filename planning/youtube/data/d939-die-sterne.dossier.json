@@ -1,776 +1,493 @@
 {
  "d": "939",
- "title": "Die Sterne (D 939)",
- "note_scope": "Песня на стихи Карла Готфрида фон Лейтнера, оп. 96 № 1 (январь 1828). ВАЖНО: в корпусе есть ещё две «Die Sterne» — D 176 (Фелльингер) и D 684 (Ф. Шлегель); при поиске записей и videoId они регулярно смешиваются (пример: Elly Ameling — Topic, 17AN7dMwqgA = D 684, НЕ наш номер; Frederica von Stade «Die Sterne» = песня Полины Виардо, Opera Rara). Все кандидаты ниже сверены по D-номеру и/или по инципиту «Wie blitzen die Sterne» в метаданных официальных загрузок.",
+ "title": "Die Sterne",
+ "tier": "famous",
+ "research_notes": [
+  "Песня — «Die Sterne» D 939 на стихи Карла Готфрида фон Лейтнера, op. 96 Nr. 1, сочинена в январе 1828 (Graham Johnson, аннотация к Hyperion CDJ33036: «There are seven Leitner songs on this disc, all written some time between October 1827 and January 1828. Of these, the most famous are Die Sterne (track 13) and Der Kreuzzug (track 15)»; там же: «…we know that at least some of the Leitner songs were composed in November, and Die Sterne even in January of the next year»). Не путать с одноимёнными D 176, D 313, D 684 — в выдаче YouTube и MusicBrainz они смешиваются.",
+  "Лимит WebSearch в сессии исчерпан (200/200) ДО начала работы: сравнительные обзоры (Gramophone, MusicWeb, BBC Music Magazine, слепые тесты) через поиск проверить не удалось. Доступ был только к прямым URL: hyperion-records.co.uk (страницы дисков), klassik-prisma.de, MusicBrainz API, Discogs API, дискография Майкла Грея (classical-discography.org), yt-dlp.",
+  "klassik-prisma: отдельной страницы по этой песне НЕТ (индекс https://www.klassik-prisma.de/Schubert.htm содержит только D 118, D 328, D 774, D 828, D 827, циклы и инструментальное) — сравнительных оценок по D 939 у Стреммеля нет.",
+  "Даты сессий взяты из дискографии Майкла Грея (три прямых попадания по работе «Die Sterne, D939»), примечаний Discogs-релизов и страниц Hyperion. ℗-годы Topic-загрузок приводятся отдельно как годы фонограммы/издания, а не сессии."
+ ],
  "candidates": [
   {
-   "singer": "Dietrich Fischer-Dieskau (баритон)",
-   "pianist": "Gerald Moore",
-   "rec_year": 1958,
-   "year_source": "℗-строка официальной загрузки Warner Classics (Topic, videoId tqEzYKKw5Co): «℗ A Warner Classics release, ℗ 1958, 2011 Parlophone Records Limited», продюсер Christfried Bickenbach — то есть том EMI/Electrola-серии песенных рециталов Ф.-Д. с Муром (зап. 1955–1965; см. planning/youtube/albums/complete-editions.md, где Vol. 4 датирован сессиями 23–25.05.1958). Точная сессия именно D 939 у Майкла Грея не выверена — год берётся по ℗.",
-   "album": "Schubert: Lieder Vol. 2 (цифровой том EMI/Electrola-серии рециталов Ф.-Д. с Муром)",
-   "label": "EMI / Electrola → Warner Classics",
-   "age_voice": "33 года (р. 28.05.1925); самая середина пика (~1951–1972 по дайджесту) — голос свежий, лёгкий, с полной мессой ди воче.",
-   "reputation": "Общая репутация EMI-серии рециталов Ф.-Д. с Муром 1950-х как эталона довоенно-послевоенной школы Lied; отдельного сравнительного обзора именно по D 939 не найдено (klassik-prisma сравнения этой песни не публиковал). Фан-канал incontrario motu выложил тот же трек с подписью «Fischer-Dieskau / Moore 1957» (pH6rzPC_IUE, 187 с — совпадает по хронометражу с Warner-загрузкой), но метаданные загрузок источником даты не являются.",
-   "sources": [
-    "YouTube Topic (Warner Classics), videoId tqEzYKKw5Co — ℗-строка и кредиты",
-    "planning/youtube/albums/complete-editions.md — «Fischer-Dieskau / Moore — EMI-серия песенных рециталов Lieder (ALP 1295…, зап. 1955–1965)»",
-    "planning/research/singers-digest.md — пик Ф.-Д. ~1951–1972"
-   ],
-   "youtube": [
-    {"videoId": "tqEzYKKw5Co", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "pH6rzPC_IUE", "channel": "incontrario motu", "official": false, "oembed_ok": true}
-   ],
-   "note": "Хронометраж 187 с. Самая ранняя студийная запись Ф.-Д. этой песни; главный кандидат по иерархии приоритетов после проверки качества."
-  },
-  {
-   "singer": "Dietrich Fischer-Dieskau (баритон)",
-   "pianist": "Gerald Moore",
-   "rec_year": 1969,
-   "year_source": "℗-строка официальной загрузки Universal (Topic, videoId E9qzugQul58): «Schubert: Lieder (Vol. 2), ℗ 1969 Deutsche Grammophon GmbH, Berlin», исп. продюсер Otto Gerdes, продюсер Rainer Brock — свод DG «Sämtliche Lieder» (сессии 1966–1972, Ufa-Ton-Studio Берлин). Конвенция проекта для этого свода — 1969 (planning/youtube/albums/complete-editions.md, п. 2 «Правил года»). Песни 1828 г. входят в LP-том Vol. 1 (DG 2720 006, охват 1817–1828), чьи сессии по Discogs 17653324 — декабрь 1966, январь и июнь 1967, февраль 1968.",
-   "album": "Schubert: Sämtliche Lieder (DG, 21 CD; LP-тома 2720 006 / 2720 022 / 2720 059)",
-   "label": "Deutsche Grammophon",
-   "age_voice": "41–44 года; конец пика, голос ещё полный, но интерпретация уже более «аналитическая», чем в 1958-м.",
-   "reputation": "Свод DG с Муром — базовая точка отсчёта корпуса и самый цитируемый интеграл мужских песен Шуберта («This is an archive of glorious Lieder singing…» — общая оценка серий-интегралов, см. реестр). Отдельного обзора D 939 не найдено.",
-   "sources": [
-    "YouTube Topic (UMG), videoId E9qzugQul58 / aSjLDbbHhqk / 8TXzXTdXVzQ (идентичная фонограмма 191 с, три параллельных релиза)",
-    "planning/youtube/albums/complete-editions.md — структура и датировка свода; конвенция года 1969",
-    "MusicBrainz work cbcdfd81-bab9-4e58-9c75-64959e71cbca — recording Fischer-Dieskau/Moore 191 с на «Lieder Vol. II» (DG)"
-   ],
-   "youtube": [
-    {"videoId": "E9qzugQul58", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "aSjLDbbHhqk", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "8TXzXTdXVzQ", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "Дубликаты одной фонограммы на нескольких Topic-релизах — при публикации брать один videoId. Есть также серый агрегатор «The Golden Legacy of Music» (Puy6rjWN6Es) — не использовать."
-  },
-  {
-   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "singer": "Dietrich Fischer-Dieskau",
    "pianist": "Sviatoslav Richter",
-   "rec_year": 1977,
-   "year_source": "Discogs release 6124421 (DG Galleria 445 717-2, CD-переиздание LP 2530 988), примечание на диске: «Recordings: Tours, Grand Théâtre, 7/1977»; конверт LP 2530 988 (Discogs 4130628): «Recorded live at the Fêtes musicales en Touraine», ℗ 1978 Polydor International; продюсер Cord Garben, звукорежиссёр Heinz Wildhagen. Треклист LP содержит «Die Sterne, D939 (Op. 96, Nr. 1)». Параллельно тот же гастрольный цикл записан ORF в Зальцбурге 29.08.1977 (Orfeo d'Or C 334 931 B, Discogs 6858616, «Kleines Festspielhaus, Salzburg, August 29, 1977»; в треклисте также Die Sterne D 939).",
-   "album": "Schubert: Lieder (DG 2530 988; CD 445 717-2) — живая запись из Тура, июль 1977. Параллель: Orfeo d'Or C 334 931 B — Зальцбург, 29.08.1977",
-   "label": "Deutsche Grammophon (Тур) / Orfeo d'Or (Зальцбург)",
-   "age_voice": "52 года; голос темнее и суше, чем в 1950–60-е (дайджест: «с сер. 1970-х тон суше»), но выразительность и владение словом на высоте; Рихтеру 62.",
-   "reputation": "Дуэт Фишер-Дискау — Рихтер считается событийным (единственный совместный шубертовский проект двух титанов, записанный вживую на фестивале Рихтера в Гранж-де-Мелэ/Туре). Проверяемых печатных рецензий именно по D 939 не найдено (лимит веб-поиска исчерпан); фан-загрузка полного концерта имеет >180 тыс. просмотров (IpteIfoeDTs), что косвенно говорит о культовом статусе — не источник оценки.",
+   "rec_year": "1977",
+   "year_source": "Дискография Майкла Грея, запись id 2081: «Die Sterne, D939 | Number 2530 988 | Date 1977 July 2 + 4 | Place: Tours, Grange de Meslay, Besnardière | Deutsche Grammophon | Fischer-Dieskau, baritone; Sviatoslav Richter, piano; CD DG 445 717-2». Discogs 4130628 (DG 2530 988, ℗1978): на конверте «Recorded live at the Fêtes musicales en Touraine», трек B2 «Die Sterne, D939 (Op. 96, Nr. 1)» 3:12, продюсер Cord Garben, инженер Heinz Wildhagen. Метаданные Topic дают ℗1978 — это год фонограммы/издания.",
+   "album": "Schubert: Lieder (DG 2530 988; CD 445 717-2)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "52 года. По дайджесту певцов пик Фишера-Дискау ~1951–1972, «с сер. 1970-х тон суше» — запись сделана уже за пиком, ценность прежде всего в партнёрстве с Рихтером и в концертном напряжении.",
+   "reputation": "Легендарный дуэт: единственный совместный шубертовский вечер Фишера-Дискау и Рихтера, зафиксированный дважды за одно лето (Тур, 2+4.07.1977 — DG; Зальцбург, 29.08.1977 — Orfeo). Конкретных рецензионных оценок именно D 939 в доступных источниках не найдено (WebSearch недоступен).",
    "sources": [
-    "Discogs 6124421 (DG 445 717-2) — «Tours, Grand Théâtre, 7/1977»",
-    "Discogs 4130628 (DG 2530 988, LP 1978) — «Recorded live at the Fêtes musicales en Touraine», треклист с D 939",
-    "Discogs 6858616 (Orfeo d'Or C 334 931 B) — «Kleines Festspielhaus, Salzburg, 29 August 1977», треклист с D 939",
-    "YouTube Topic (UMG), videoId X3Boj83GYWM — ℗ 1978 DG, продюсер Cord Garben"
+    "https://www.classical-discography.org/modalcontent.php?id=2081",
+    "Discogs release 4130628 (api.discogs.com/releases/4130628)",
+    "planning/research/singers-digest.md (Fischer-Dieskau: пик ~1951–1972)"
    ],
    "youtube": [
     {"videoId": "X3Boj83GYWM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
     {"videoId": "pNP8LjeZqKI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "Хронометраж 196 с (заметно медленнее студийных). Год записи документирован надёжно — 07.1977, публиковать как 1977."
+   "note": "Две Topic-загрузки одной фонограммы (196 с): X3Boj83GYWM — альбом «Schubert: Lieder» ℗1978; pNP8LjeZqKI — компиляция «Fischer-Dieskau Lieder A-Z: Schubert» (2025), release_year в метаданных 1978. Для плеера предпочтительна X3Boj83GYWM (больше просмотров, привязка к оригинальному альбому)."
   },
   {
-   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Sviatoslav Richter",
+   "rec_year": "1977",
+   "year_source": "Примечания издателя на Orfeo D'Or C 334 931 B (Discogs 6858616): «Live recording of the Österreichischen Rundfunks (ORF) at the Kleines Festspielhaus, Salzburg, August, 29, 1977»; трек 12 «Die Sterne D 939» 3:12; ремастеринг Gottfried Kraus / Othmar Eichinger.",
+   "album": "Schubert: Lieder (Salzburger Festspiele, live 29.08.1977) — Orfeo D'Or C 334 931 B",
+   "label": "Orfeo D'Or (Festspieldokumente)",
+   "age_voice": "52 года; то же состояние голоса, что и в записи из Тура двумя месяцами ранее.",
+   "reputation": "Зальцбургский документ того же дуэта; в отличие от DG-издания, публиковался как «Festspieldokument» ORF.",
+   "sources": ["Discogs release 6858616 (api.discogs.com/releases/6858616)"],
+   "youtube": [],
+   "note": "На YouTube этот вариант не найден (Topic-канал FD выкладывает DG-версию). Кандидат учтён как альтернативный источник той же интерпретации; для плеера непригоден."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
    "pianist": "Gerald Moore",
-   "rec_year": null,
-   "year_source": "НЕ УСТАНОВЛЕН. Официальная загрузка Naxos/Orfeo (Topic, zHxarkda_9k) даёт только альбом «Die Salzburger Liederabende (Live)», ℗ 2019 Orfeo. Зальцбургская серия Ф.-Д./Мура охватывает 1956–1965 (Orfeo C 339 050 T, Discogs 20717842; LP-серия C 140 101/201/301/401/501). Шубертовский том I этой серии (Discogs 20897995, C 140 101 A) документирован как «Mozarteum Salzburg, 5. August 1957» — и D 939 в его треклисте НЕТ, значит запись из другого вечера серии. Точную дату по доступным дискографиям установить не удалось.",
-   "album": "Die Salzburger Liederabende (Live), 1956–1965",
-   "label": "Orfeo d'Or",
-   "age_voice": "31–40 лет (диапазон серии) — пик; конкретный год не определён.",
-   "reputation": "Зальцбургские Liederabende Ф.-Д./Мура — «Festspieldokumente» ORF, ценятся как живой аналог студийных EMI/DG-циклов. Отдельной критики по D 939 нет.",
+   "rec_year": "1966–1972 (точная сессия D 939 не установлена)",
+   "year_source": "Полный свод DG «Sämtliche Lieder» (21 CD), сессии 1966–1972, Ufa-Ton-Studio Berlin — planning/youtube/albums.md и albums/complete-editions.md. В дискографии Грея записей D 939 с Муром НЕТ (по работе «Die Sterne, D939» у Грея всего три позиции: Prey 1971, Ameling 1973, FD/Richter 1977); Topic-загрузка альбома «Schubert: Lieder Vol. 2» даты не даёт (date=NA). Конвенция проекта для свода — 1969.",
+   "album": "Schubert: Sämtliche Lieder (том поздних песен; на Topic — «Schubert: Lieder Vol. 2»)",
+   "label": "Deutsche Grammophon",
+   "age_voice": "41–47 лет; конец большого пика (по дайджесту пик до ~1972). Голос ровный, техника на максимуме.",
+   "reputation": "Базовая точка отсчёта корпуса: полный свод мужских песен с Муром — эталонное издание, с которым сравнивают всё остальное. Отдельных рецензий именно на D 939 в доступных источниках не найдено.",
    "sources": [
-    "YouTube Topic (NAXOS of America / Orfeo), videoId zHxarkda_9k",
-    "Discogs 20897995 — Salzburg 5.08.1957, треклист без D 939",
-    "Discogs 20717842 — бокс «Salzburger Liederabende, 1956–1965» (по-трековые даты в приложенном буклете, в API недоступны)",
-    "MusicBrainz — recording Fischer-Dieskau/Moore 214 с на «Die Salzburger Liederabende, 1956–1965» (2005)"
+    "planning/youtube/albums.md (карточки DG «Sämtliche Lieder»)",
+    "planning/youtube/albums/complete-editions.md",
+    "метаданные Topic: album=Schubert: Lieder Vol. 2, artist=Dietrich Fischer-Dieskau, Gerald Moore"
    ],
    "youtube": [
-    {"videoId": "zHxarkda_9k", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+    {"videoId": "tqEzYKKw5Co", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "Хронометраж 220 с — самая медленная из версий Ф.-Д. При включении в топ-5 год пришлось бы ставить диапазоном «1956–65?»; при наличии трёх датированных записей Ф.-Д. эта версия резервная."
+   "note": "Длительность 187 с. Внимание: в mb.json две разные пары FD/Moore (191 и 214 с) — 214 с относится к зальцбургскому лайву (см. следующую позицию), 191 с — к студийному своду в другом мастеринге (ещё Topic-ID E9qzugQul58, aSjLDbbHhqk, 8TXzXTdXVzQ — те же 191 с)."
   },
   {
-   "singer": "Dietrich Fischer-Dieskau (баритон)",
-   "pianist": "Hartmut Höll",
-   "rec_year": null,
-   "year_source": "НЕ УСТАНОВЛЕН. Discogs 24847955 — «Dietrich Fischer-Dieskau, Hartmut Höll, Franz Schubert — Schubert Lieder», Erato Disques 4509-98493-2, год издания 1995, примечание: «Live recording»; в треклисте «Die Sterne». Даты сессии/концерта в примечаниях нет. MusicBrainz связывает трек с релизами «Lieder» (1999) и «Romantic Songs» (Berlin Classics 92439). Фан-загрузка incontrario motu подписана «1987», но метаданные загрузок источником даты не являются.",
-   "album": "Schubert Lieder (Erato 4509-98493-2, live) / Romantic Songs (Berlin Classics 92439)",
-   "label": "Erato / Berlin Classics",
-   "age_voice": "если 1987 — 62 года: поздний Ф.-Д., голос суше и уже (дайджест: «с сер. 1970-х тон суше»); карьеру певца он закончил в 1992.",
-   "reputation": "Поздние живые рециталы Ф.-Д. с Хёллем ценятся как документ интерпретации, но вокально уступают записям 1950–60-х; по правилу «при прочих равных — более ранняя запись» уступает трём датированным версиям Ф.-Д.",
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1956–1965 (год конкретного вечера не установлен)",
+   "year_source": "Orfeo, бокс «Die Salzburger Liederabende, 1956–1965» (C 339 050 T, изд. 2005; Discogs 20717842 — примечания без по-трековых дат: «Notes with complete track information laid in box»). MusicBrainz привязывает запись FD/Moore 214 с именно к этому боксу. Отдельный ранний том Orfeo C 140 101 B (Vol. I, Schubert) документирован как «Mozarteum Salzburg, 5. August 1957» (Discogs 14892579), но вхождение D 939 в него не подтверждено. Фан-загрузка incontrario motu подписана «Salzburg 1963» — метаданные загрузки источником НЕ являются.",
+   "album": "Die Salzburger Liederabende (Live), Orfeo",
+   "label": "Orfeo D'Or",
+   "age_voice": "31–40 лет — самый центр пика.",
+   "reputation": "Зальцбургские вечера FD/Moore — классика концертного Шуберта; при этом год именно этого номера дискографически не закреплён, что по правилам требует либо доисследования, либо публикации с диапазоном со знаком вопроса.",
    "sources": [
-    "Discogs 24847955 (Erato 4509-98493-2, live, изд. 1995) — треклист с Die Sterne",
-    "MusicBrainz — recording Fischer-Dieskau/Höll 175 с",
-    "planning/research/singers-digest.md — поздний Ф.-Д."
+    "Discogs release 20717842; Discogs release 14892579",
+    "MusicBrainz recording (FD/Moore, 214 с, релиз «Die Salzburger Liederabende, 1956–1965»)"
+   ],
+   "youtube": [
+    {"videoId": "zHxarkda_9k", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "HD-ohTCuSLc", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+   ],
+   "note": "Topic-загрузка zHxarkda_9k (220 с) — альбом «Die Salzburger Liederabende (Live)», ℗-релиз 2019. Год в плеере при отборе — диапазон «1956–65?» либо результат доисследования."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1957 (не подтверждено дискографией)",
+   "year_source": "Единственный носитель даты — подпись фан-загрузки incontrario motu «Fischer-Dieskau / Moore 1957» (НЕ источник по правилам). Речь, по-видимому, о серии рециталов EMI/Electrola второй половины 1950-х (реестр: «Schubert: Lieder Vol. 1», 1955–57?; «Vol. 4» — сессии 23–25.05.1958). Привязка D 939 к конкретному тому серии не установлена; на Warner/Topic номер не найден.",
+   "album": "серия EMI/Electrola «Dietrich Fischer-Dieskau singt Lieder von Franz Schubert» (том не установлен)",
+   "label": "EMI / Electrola",
+   "age_voice": "около 32 лет — вокальный пик.",
+   "reputation": "Ранний слой Фишера-Дискау ценится выше поздних ремейков (общее правило проекта о возрасте голоса), но конкретно эта позиция не идентифицирована дискографически.",
+   "sources": ["planning/youtube/albums.md (карточки EMI-серии FD)", "фан-загрузка pH6rzPC_IUE (только как указание на существование записи)"],
+   "youtube": [
+    {"videoId": "pH6rzPC_IUE", "channel": "incontrario motu", "official": false, "oembed_ok": true}
+   ],
+   "note": "Требует доисследования по буклету Warner «Icon»/каталогу Electrola, если попадёт в отбор; официальной загрузки нет."
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Hartmut Höll",
+   "rec_year": "1987",
+   "year_source": "Примечания бокса Brilliant Classics 99443 «Lieder (Great Schubert Singers)» (Discogs 5782682): «CD7 recorded 1987»; трек 7-16 «Die Sterne #4, Opus 96/1. D939» 2:55 — совпадает с длительностью записи FD/Höll (175 с) в MusicBrainz. Материал лицензирован у Claves/Bayer (Brilliant 92439 «Romantic Songs», Discogs 11045289/11050204); переиздание Erato 4509-98493-2 «Schubert Lieder» (1995) помечено «Live recording».",
+   "album": "Schubert: Lieder (Claves/Bayer; переизд. Erato 4509-98493-2, Brilliant «Romantic Songs»)",
+   "label": "Claves / Bayer → Erato / Brilliant Classics",
+   "age_voice": "62 года. По дайджесту — глубоко поздний слой, «с сер. 1970-х тон суше»; самая быстрая версия из всех (2:55).",
+   "reputation": "Поздний Фишер-Дискау: интерпретационная детализация при заметно суше звучащем голосе. Рецензий именно на этот номер в доступных источниках нет.",
+   "sources": [
+    "Discogs release 5782682 (примечания бокса)",
+    "Discogs releases 11045289, 11050204, 24847955"
    ],
    "youtube": [
     {"videoId": "GwXMvN00yLg", "channel": "incontrario motu", "official": false, "oembed_ok": true}
    ],
-   "note": "Официальной (Topic/лейбловой) загрузки этой версии не найдено — только фан-канал. Слабый кандидат: и год не установлен, и загрузка неофициальная."
+   "note": "Официальной загрузки нет; только фан-канал. По правилу «при прочих равных — более ранняя запись» уступает версиям 1960-х–1977."
   },
   {
-   "singer": "Peter Pears (тенор)",
-   "pianist": "Benjamin Britten",
-   "rec_year": 1958,
-   "year_source": "Discogs 31530886 (BBC Music BBCD 8006-2 «Britten the Performer», изд. 1999), примечание: «Recordings: Jubilee Hall, Aldeburgh, 15 June 1958 (Schubert, Schumann, Fauré); 22 June 1959 (Purcell, Britten)». Шубертовский блок этого рецитала — 15.06.1958. Переиздание 2022 г. («The Aldeburgh Recital: Schumann, Schubert & Fauré», Jube Classic, ℗ 2022) содержит тот же трек (Topic 1SCcqHbXUSo, 201 с; MB — 200,9 с).",
-   "album": "Britten the Performer (BBC Music BBCD 8006-2, 1999) / The Aldeburgh Recital (Jube Classic, 2022)",
-   "label": "BBC Music / Jube Classic (дистрибуция Naxos)",
-   "age_voice": "48 лет (р. 22.06.1910) — пик 1950-х–1960-х (дайджест); тембр специфический, но техника и дикция в лучшей форме; за роялем — Бриттен, чья шубертовская игра считается выдающейся (дайджест: Winterreise Decca 1963 «среди величайших»).",
-   "reputation": "Дуэт Пирс — Бриттен относится к безусловной вершине послевоенного Lied-исполнительства (дайджест по Winterreise 1963). Печатных рецензий именно на D 939 найти не удалось (лимит веб-поиска).",
-   "sources": [
-    "Discogs 31530886 — дата и место рецитала",
-    "YouTube Topic (Naxos Digital Services), videoId 1SCcqHbXUSo — ℗ 2022 Jube Classic",
-    "MusicBrainz — два релиза этой фонограммы (BBC 1999, Jube 2022)",
-    "planning/research/singers-digest.md — Pears"
-   ],
-   "youtube": [
-    {"videoId": "1SCcqHbXUSo", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "Сильнейший «старомастерский» неФ.-Д.-кандидат: документированная дата, официальная загрузка, живой концерт с Бриттеном."
-  },
-  {
-   "singer": "Lucia Popp (сопрано) — ПРИОРИТЕТНАЯ ПЕВИЦА",
+   "singer": "Lucia Popp",
    "pianist": "Irwin Gage",
-   "rec_year": 1983,
-   "year_source": "MusicBrainz: recording «Die Sterne, D. 939» — Lucia Popp / Irwin Gage, 178 с, релиз «The Collector's Edition» (EMI, 2007). Дуэт Попп/Гейдж и шубертовский рецитал EMI датируются 1983 г. (planning/research/singers-digest.md: «рецитал EMI 1983 (Gage; вкл. Gretchen, Auf dem Wasser zu singen)»); косвенно подтверждается фан-загрузками других треков той же сессии с подписью «Lucia Popp & Irwin Gage, 1983» (напр. RNX4_oXXu-M, 37ByqpQDAC0) — не источник, а указание. ГОД ТРЕБУЕТ ДОИССЛЕДОВАНИЯ по буклету EMI.",
-   "album": "Lucia Popp — The Collector's Edition (EMI, 2007); первоисточник — шубертовский рецитал EMI с Ирвином Гейджем",
+   "rec_year": "1984 (издание LP; год сессии по буклету EMI не проверен)",
+   "year_source": "MusicBrainz: recording c04a6150-c2ac-4a84-8e7c-bc5149a4c794 «Die Sterne, D. 939» (2:58), Popp/Gage, издана на EMI «The Collector's Edition» (2007), CD 45, трек 13 — весь диск 45 состоит из шубертовских номеров Popp/Gage. Discogs: LP «Lucia Popp Sings Schubert Lieder» (Angel DS-38139 / HMV Digital, 1984) — в его 16 треках D 939 НЕТ, значит номер вышел только в боксе; дайджест проекта датирует рецитал 1983 г. Расхождение 1983/1984 не разрешено.",
+   "album": "Schubert-сессии Popp/Gage (EMI); публикация — «Lucia Popp: The Collector's Edition», CD 45",
    "label": "EMI Classics",
-   "age_voice": "44 года (р. 12.11.1939); пик ~1970–1988 (дайджест) — голос в полной форме, уже с лирико-спинтовым наполнением после перехода от субреток.",
-   "reputation": "Попп — приоритетная певица по правилам, но прецедент Gretchen (D 118) показал, что её запись может быть отсеяна по качеству; оценок именно D 939 в доступных источниках нет.",
+   "age_voice": "44–45 лет; по дайджесту пик ~1970–1988 — запись в пределах пика, голос в полной форме.",
+   "reputation": "Единственная запись песни у приоритетного певца проекта помимо Фишера-Дискау. Критических оценок именно D 939 не найдено; шубертовский рецитал Popp/Gage в целом ценится высоко.",
    "sources": [
-    "MusicBrainz — recording Popp/Gage «Die Sterne, D. 939» (The Collector's Edition, EMI 2007)",
-    "planning/research/singers-digest.md — Popp, рецитал EMI 1983 с Gage"
+    "MusicBrainz release 8edceb1c-bfaa-4710-9812-9f17129dcf8d (CD 45, треки 1–13, все Popp/Gage)",
+    "Discogs release 8138095 (треклист LP 1984 — D 939 отсутствует)",
+    "planning/research/singers-digest.md (Popp: рецитал EMI 1983 с Gage)"
    ],
    "youtube": [],
-   "note": "КРИТИЧНО: официальной или фан-загрузки этой записи на YouTube найти не удалось (проверены Topic-канал Lucia Popp и запросы по «Popp Die Sterne D939»). Без videoId запись непубликуема, каким бы ни был её приоритет."
+   "note": "КРИТИЧНО: на YouTube запись НЕ найдена (проверены поиски по «Popp Gage Die Sterne», Topic-канал Lucia Popp — там есть Der Schmetterling, Die Gebüsche, Fülle der Liebe, но не D 939). Для плеера недоступна; при появлении — приоритет по иерархии."
   },
   {
-   "singer": "Hermann Prey (баритон)",
-   "pianist": "Karl Engel",
-   "rec_year": 1974,
-   "year_source": "℗-строка официальной загрузки Universal (Topic, cOpcDVeDS8Q): «Lieder von Franz Schubert — Lied-Edition Vol. 2, ℗ 1974 Deutsche Grammophon GmbH, Berlin, Released on: 1974-01-01»; продюсеры Christian Lange и Hans Gerhard Lichthorn, звукорежиссёры Karl-August Naegler, Hans-Peter Schweigmann.",
-   "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2",
-   "label": "Deutsche Grammophon",
-   "age_voice": "45 лет (р. 11.07.1929); пик ~1960–1980 (дайджест) — тёплый, ровный лирический баритон в лучшей форме.",
-   "reputation": "Прай — основатель Шубертиады в Хоэнемсе (1976), один из двух главных баритонов-шубертианцев поколения; критики традиционно противопоставляют его «поющую» линию аналитическому Ф.-Д. Оценок именно D 939 не найдено.",
+   "singer": "Elly Ameling",
+   "pianist": "Dalton Baldwin",
+   "rec_year": "1973",
+   "year_source": "Дискография Майкла Грея, запись id 179179: «Die Sterne, D939 | Number 6500 704 | Date 1973 August 21 - 26 | Philips | Elly Ameling, soprano; Dalton Baldwin, piano». LP Philips издан в 1974 (Discogs 4991062); Topic даёт ℗1974 — это год издания.",
+   "album": "Schubert: Lieder (Philips 6500 704)",
+   "label": "Philips / Universal",
+   "age_voice": "40 лет; по дайджесту пик ~1965–1985 — центр пика, «самая записываемая шубертианка поколения».",
+   "reputation": "Классическая шубертовская серия Ameling/Baldwin на Philips. Отдельных рецензий на D 939 в доступных источниках нет; загрузка на Topic — самая просматриваемая среди официальных версий песни (13,8 тыс.).",
    "sources": [
-    "YouTube Topic (UMG), videoId cOpcDVeDS8Q — ℗-строка и кредиты",
-    "planning/youtube/albums/male-recitalists.md — Prey, серия DG/Philips",
-    "planning/research/singers-digest.md — Prey"
+    "https://www.classical-discography.org/modalcontent.php?id=179179",
+    "Discogs release 4991062",
+    "planning/research/singers-digest.md (Ameling)"
+   ],
+   "youtube": [
+    {"videoId": "Yz2CPh6YFeY", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Три Topic-дубля одной фонограммы (185 с): Yz2CPh6YFeY (13 771 просмотр), fIZAyzbtPvE, MCu3CPiuC-Q — брать первый. ВАЖНО: год в плеере — 1973 (сессия), а не 1974 (℗)."
+  },
+  {
+   "singer": "Hermann Prey",
+   "pianist": "Leonard Hokanson (на Topic указан Karl Engel — расхождение)",
+   "rec_year": "1971",
+   "year_source": "Дискография Майкла Грея, запись id 176422: «Die Sterne, D939 | Number 6747 059 | Date 1971 October 27 - 30 | Place München | Philips | Hermann Prey, baritone; Leonard Hokanson, piano». Метаданные Topic-загрузки: альбом «Lieder von Franz Schubert - Lied-Edition Vol. 2», artist «Hermann Prey, Karl Engel», ℗1974 (год издания).",
+   "album": "Philips «Lied-Edition» (бокс 6747 059; на Topic — «Lieder von Franz Schubert – Lied-Edition Vol. 2»)",
+   "label": "Philips (ныне Decca/Universal)",
+   "age_voice": "42 года; по дайджесту пик ~1960–1980 — середина пика, голос круглый и полный.",
+   "reputation": "Прай — один из двух главных баритонов-шубертианцев поколения. Реестр альбомов уже фиксирует неопределённость по пианисту и лейблу в томах Lied-Edition (Engel/Hokanson без разбивки по трекам на Discogs 6573 010).",
+   "sources": [
+    "https://www.classical-discography.org/modalcontent.php?id=176422",
+    "planning/youtube/albums.md (карточки Prey Lied-Edition)",
+    "planning/youtube/albums/complete-editions.md §Prey"
    ],
    "youtube": [
     {"videoId": "cOpcDVeDS8Q", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "191 с. Сильный кандидат в группу «прочие звёзды прошлого»."
+   "note": "ПЕРЕД ПУБЛИКАЦИЕЙ решить конфликт пианиста: Грей — Hokanson, Topic-кредиты — Engel. Name в плеере зависит от исхода."
   },
   {
-   "singer": "Elly Ameling (сопрано)",
-   "pianist": "Dalton Baldwin",
-   "rec_year": 1974,
-   "year_source": "℗-строка официальной загрузки Universal (Topic, Yz2CPh6YFeY): «Schubert: Lieder, ℗ 1974 Universal International Music B.V., Released on: 1974-01-08». Соответствует Philips-серии Амелинг с Болдуином: по дискографии Майкла Грея соседние альбомы — 6500 515 (сессии 20–21.06.1972), «Schubert Lieder» 6500 704 (21–26.08.1973), 9500 169 (15–19.08.1975) — см. planning/youtube/albums/female-recitalists.md. Наиболее вероятная сессия для ℗1974-релиза — августовская 1973 г.; точный привязанный к треку год ТРЕБУЕТ ДОИССЛЕДОВАНИЯ (год по ℗ — 1974).",
-   "album": "Schubert: Lieder (Philips; переизд. «The Artistry of Elly Ameling»)",
-   "label": "Philips / Universal",
-   "age_voice": "40–41 год (р. 08.02.1933); пик ~1965–1985 (дайджест) — голос свежий, инструментально ровный; «самая записываемая шубертианка поколения».",
-   "reputation": "Амелинг — эталон камерного шубертовского пения 1970-х; дуэт с Болдуином записал самую широкую женскую шубертовскую серию эпохи. Оценок именно D 939 не найдено.",
+   "singer": "Peter Pears",
+   "pianist": "Benjamin Britten",
+   "rec_year": "не установлен",
+   "year_source": "Реестр альбомов (planning/youtube/albums.md): «Peter Pears — The Aldeburgh Recital (Sony Classical SK 46437; переизд. Jube Classic 2022) — не установлен (CD 1991 / переизд. 2022); даты обоих концертов не документированы». MusicBrainz даёт две записи Pears/Britten (201 и 210 с): «The Aldeburgh Recital» (2022) и диск BBC Music «Britten the Performer» (1999).",
+   "album": "The Aldeburgh Recital: Schumann, Schubert & Fauré",
+   "label": "Sony Classical / Jube Classic",
+   "age_voice": "не определяется без даты концерта; Пирс (1910–1986) на пике 1950–60-х, позже — суше и специфичнее (дайджест).",
+   "reputation": "Дуэт Пирс/Бриттен — один из великих в истории Lied (их Winterreise 1963 — «среди величайших» по дайджесту). Конкретно эта запись песни не отрецензирована в доступных источниках.",
    "sources": [
-    "YouTube Topic (UMG), videoId Yz2CPh6YFeY (дубли fIZAyzbtPvE, MCu3CPiuC-Q — та же фонограмма 185 с)",
-    "planning/youtube/albums/female-recitalists.md — Philips-серия Амелинг с датами сессий по Грею",
-    "planning/research/singers-digest.md — Ameling"
+    "planning/youtube/albums.md (карточки Pears)",
+    "planning/research/singers-digest.md (Pears)",
+    "MusicBrainz recordings Pears/Britten, D 939"
    ],
    "youtube": [
-    {"videoId": "Yz2CPh6YFeY", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "fIZAyzbtPvE", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "MCu3CPiuC-Q", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+    {"videoId": "1SCcqHbXUSo", "channel": "Peter Pears - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "ОСТОРОЖНО: на том же Topic-канале есть 17AN7dMwqgA «Schubert: Die Sterne, D. 684» (226 с) — ДРУГАЯ песня, не путать."
+   "note": "Официальная Topic-загрузка есть, но год не документирован — по правилу требуется целевое доисследование даты либо диапазон со знаком вопроса."
   },
   {
-   "singer": "Gundula Janowitz (сопрано)",
-   "pianist": "Irwin Gage",
-   "rec_year": null,
-   "year_source": "НЕ УСТАНОВЛЕН. Официальная загрузка (Topic, 2dXqtm-X2no): «Die Sterne, Op. 96 No. 1, D. 939 (Live)», альбом «Gundula Janowitz, Vol. 1: Verdi Requiem with Karajan, Lieder (Live)», ℗ 2017 DOREMI — лейбл архивных переизданий; дата концерта в метаданных не указана. Дуэт Яновиц/Гейдж активен в 1970-х (ср. её DG-двойник с Гейджем, сессии 1976–77 — дайджест).",
-   "album": "Gundula Janowitz, Vol. 1 (DOREMI, 2017) — архивный лайв",
-   "label": "DOREMI",
-   "age_voice": "если 1970-е — 33–43 года, пик (~1965–1980 по дайджесту): серебристый, «инструментальный» тембр в лучшей форме.",
-   "reputation": "Яновиц — одна из самых ценимых шубертианок DG 1970-х (её Gretchen — 5 звёзд klassik-prisma, дайджест). По D 939 оценок нет.",
-   "sources": [
-    "YouTube Topic (NAXOS of America / DOREMI), videoId 2dXqtm-X2no",
-    "MusicBrainz — recording Janowitz/Gage «Die Sterne», 175 с, релиз «Lieder» (2002)",
-    "planning/research/singers-digest.md — Janowitz"
-   ],
-   "youtube": [
-    {"videoId": "2dXqtm-X2no", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "161 с — заметно быстрее прочих. Год не установлен; при включении потребуется диапазон со знаком вопроса."
-  },
-  {
-   "singer": "Ernst Haefliger (тенор)",
-   "pianist": "Jörg Ewald Dähler (хаммерклавир ~1820)",
-   "rec_year": 1987,
-   "year_source": "℗-строка официальной загрузки (Topic, Xc9uP8WSwiI): «Franz Schubert: 23 Ausgewählte Lieder, ℗ 1987 Claves Records, Released on: 1987-01-01». MusicBrainz относит тот же дуэт к релизу «Lieder» (1988) — расхождение изданий; год записи берётся по ℗ 1987.",
-   "album": "Franz Schubert: 23 ausgewählte Lieder",
+   "singer": "Ernst Haefliger",
+   "pianist": "Jörg Ewald Dähler (хаммерклавир Franz Brodmann, Вена 1820)",
+   "rec_year": "1986",
+   "year_source": "Реестр альбомов: «Ernst Haefliger — Schubert: 23 ausgewählte Lieder (Claves CD 50-8611), июль 1986, издание 1987; Kirche Wohlen/Bern; программа включает D 939». Topic-метаданные: альбом «Franz Schubert: 23 Ausgewählte Lieder», ℗1987.",
+   "album": "Schubert: 23 ausgewählte Lieder (Claves CD 50-8611)",
    "label": "Claves",
-   "age_voice": "67–68 лет (р. 06.07.1919); далеко за вокальным пиком — дайджест прямо отмечает, что шубертовские циклы записаны им в 61–66 лет «скрупулёзно, голос уже сухой».",
-   "reputation": "Ценность — в исторически осведомлённом сопровождении (хаммерклавир ок. 1820 у Дэлера) и в стилистической дисциплине; вокально уступает всем прочим кандидатам старой школы.",
+   "age_voice": "67 лет. По дайджесту Schubert-циклы Хефлигера записаны в 61–66 лет «скрупулёзно, голос уже сухой» — здесь ещё позже; вокальный ресурс минимален, ценность в стиле и периодном инструменте.",
+   "reputation": "Периодный вариант (хаммерклавир 1820 г.), важный как документ исторически информированного подхода; вокально — за пиком.",
    "sources": [
-    "YouTube Topic (The Orchard / Claves), videoId Xc9uP8WSwiI",
-    "MusicBrainz — recording Haefliger/Dähler, 186 с",
-    "planning/research/singers-digest.md — Haefliger"
+    "planning/youtube/albums.md (карточка Haefliger Claves)",
+    "planning/research/singers-digest.md (Haefliger)"
    ],
    "youtube": [
     {"videoId": "Xc9uP8WSwiI", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "Кандидат второго ряда: интересен инструментом, но возраст голоса — минус."
+   "note": "Год в плеере — 1986 (сессия), не 1987 (℗). Сквозная унификация с другими песнями этого альбома (D 737 и др.)."
   },
   {
-   "singer": "Anthony Rolfe Johnson (тенор)",
+   "singer": "Anthony Rolfe Johnson",
    "pianist": "Graham Johnson",
-   "rec_year": 1989,
-   "year_source": "Страница Hyperion CDJ33006: «Recording details: September 1989, Rosslyn Hill Unitarian Chapel, Hampstead, London; producer Martin Compton, engineer Antony Howell; release December 1990». Официальная загрузка (Topic, N2kkZNpM6_0): «Schubert: Hyperion Song Edition 6 — Schubert & the Nocturne, Vol. 1, ℗ 1990 Hyperion Records Limited».",
+   "rec_year": "1989",
+   "year_source": "planning/youtube/albums/complete-editions.md: «Anthony Rolfe Johnson — Vol. 6 “Schubert & the Nocturne I” (CDJ33006, зап. IX.1989, изд. XII.1990)». Topic-метаданные: «Schubert: Hyperion Song Edition 6 – Schubert & the Nocturne, Vol. 1», ℗1990 Hyperion.",
    "album": "The Hyperion Schubert Edition, Vol. 6 «Schubert & the Nocturne I» (CDJ33006)",
-   "label": "Hyperion",
-   "age_voice": "49 лет (р. 05.11.1940) — зрелый пик; Penguin Guide об этом диске: «Rolfe Johnson's voice has never sounded more beautiful on disc».",
-   "reputation": "Пресса по тому (страница Hyperion): Gramophone — «As exemplary as … other discs in this series, which is proving a many-splendored thing»; The Penguin Guide — «Rolfe Johnson's voice has never sounded more beautiful on disc»; Classic CD — «An irresistible disc»; Hi-Fi News — «Volume 6 … is assured of a grateful reception». Серия Джонсона — научный эталон с его комментариями.",
+   "label": "Hyperion / Universal",
+   "age_voice": "49 лет; зрелый английский тенор в форме.",
+   "reputation": "Полное издание Hyperion — «научный эталон» с комментариями Грэма Джонсона (дайджест). Самое медленное прочтение из официальных (217 с).",
    "sources": [
-    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33006 — даты, состав, цитаты прессы",
-    "YouTube Topic (UMG / Hyperion), videoId N2kkZNpM6_0",
-    "MusicBrainz — recording Rolfe Johnson / Graham Johnson, 217 с",
-    "planning/youtube/albums/complete-editions.md — том 6 серии"
+    "planning/youtube/albums/complete-editions.md",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33006",
+    "метаданные Topic-загрузки N2kkZNpM6_0"
    ],
    "youtube": [
     {"videoId": "N2kkZNpM6_0", "channel": "Anthony Rolfe Johnson - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "217 с — самое медленное «ноктюрновое» прочтение. Сильный кандидат в возрастную квоту «не ранее 1990» не проходит (1989), но качественно из первого ряда."
+   "note": "Издание Hyperion содержит D 939 дважды — у Rolfe Johnson (т. 6) и у Banse (т. 36)."
   },
   {
-   "singer": "Juliane Banse (сопрано)",
+   "singer": "Juliane Banse",
    "pianist": "Graham Johnson",
-   "rec_year": 1999,
-   "year_source": "Страница Hyperion CDJ33036: «Recording details: January 1999, Rosslyn Hill Unitarian Chapel, Hampstead, London; producer Mark Brown; engineers Antony Howell & Julian Millard; release July 2000»; «Die Sterne (D939) — трек 13». Певица трека по MusicBrainz и по кредитам официальной загрузки (Topic, 9HVxStZkfGQ: «Graham Johnson · Juliane Banse», ℗ 2000 Hyperion).",
-   "album": "The Hyperion Schubert Edition, Vol. 36 «Schubert in 1827 / An 1827 Schubertiad» (CDJ33036)",
-   "label": "Hyperion",
-   "age_voice": "29–30 лет (р. 1969); ранний пик (~1995–2015 по дайджесту) — свежий, светлый лирический сопрано.",
-   "reputation": "Пресса по тому (страница Hyperion): Gramophone — «Superb … Wonderfully fluent, confident singing from Finley, soft-grained intimacy from Banse … a delight»; BBC Music Magazine — «Elegant performances» + Critics' Choice; Sydney Morning Herald — о «persistent glories of the Hyperion series».",
+   "rec_year": "1999",
+   "year_source": "planning/youtube/albums/complete-editions.md: «Banse / Dawson / Schade / Finley — Vol. 36 “Schubert in 1827 (An 1827 Schubertiad)” (CDJ33036, зап. I.1999, изд. VII.2000)»; MusicBrainz привязывает запись Banse/Johnson (202 с) к CDJ33036. Topic: ℗2000 Hyperion (год издания).",
+   "album": "The Hyperion Schubert Edition, Vol. 36 «An 1827 Schubertiad» (CDJ33036)",
+   "label": "Hyperion / Universal",
+   "age_voice": "30 лет; по дайджесту пик ~1995–2015 — начало пика, голос свежий.",
+   "reputation": "Том с развёрнутой аннотацией Джонсона именно о лейтнеровском блоке (D 939 назван одной из двух самых известных песен на стихи Лейтнера).",
    "sources": [
-    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33036 — даты, трек 13 = D 939, цитаты прессы",
-    "YouTube Topic (UMG / Hyperion), videoId 9HVxStZkfGQ",
-    "MusicBrainz — recording Banse / Graham Johnson, 202 с"
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33036 (аннотация Graham Johnson)",
+    "planning/youtube/albums/complete-editions.md",
+    "метаданные Topic-загрузки 9HVxStZkfGQ (канал Graham Johnson - Topic)"
    ],
    "youtube": [
     {"videoId": "9HVxStZkfGQ", "channel": "Graham Johnson - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "Единственная песня, записанная Джонсоном в серии ДВАЖДЫ (тт. 6 и 36) — стоит учесть при отборе, чтобы не брать оба."
+   "note": "Topic-канал оформлен на пианиста (Graham Johnson), певица — в кредитах трека; типовая ситуация для Hyperion-загрузок."
   },
   {
-   "singer": "Simon Keenlyside (баритон)",
-   "pianist": "Malcolm Martineau",
-   "rec_year": 1994,
-   "year_source": "℗-строка официальной загрузки Warner (Topic, Is8xqWdYKvU): «Schubert — Lieder Recital, ℗ A Warner Classics release, ℗ 1994 Parlophone Records Limited», продюсер Mark Brown. Соответствует дайджесту: «рецитал EMI 1994 (Martineau)».",
-   "album": "Schubert: Lieder Recital (EMI; переизд. EMI Eminence «The Collection», 2013)",
-   "label": "EMI → Warner Classics",
-   "age_voice": "34–35 лет (р. 03.08.1959) — молодой, свежий лирический баритон, до оперной «загрузки» 2000-х.",
-   "reputation": "Дебютный шубертовский рецитал Кинлисайда; сам певец на дисках Шуберта ценится как тонкий, но не «германский» стилист. Отдельных рецензий по D 939 не найдено.",
-   "sources": [
-    "YouTube Topic (Warner Classics), videoId Is8xqWdYKvU — ℗ 1994, продюсер Mark Brown",
-    "MusicBrainz — recording Keenlyside/Martineau, 227 с, релизы «Schubert: Lieder Recital» и «EMI Eminence: The Collection» (2013)",
-    "planning/research/singers-digest.md — Keenlyside"
-   ],
-   "youtube": [
-    {"videoId": "Is8xqWdYKvU", "channel": "Simon Keenlyside - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "227 с — самая медленная студийная версия в пуле."
-  },
-  {
-   "singer": "Simon Keenlyside (баритон)",
-   "pianist": "Malcolm Martineau",
-   "rec_year": 2009,
-   "year_source": "Официальная загрузка (Topic, V4ZC24oQwEw): «Wigmore Hall Live — Simon Keenlyside & Malcolm Martineau, ℗ 2009 Wigmore Hall Live, Released on: 2009-11-23»; MusicBrainz — релиз «Songs by Schubert, Wolf, Fauré and Ravel» (2009-10-26). Год концерта в метаданных не выделен отдельно от года издания.",
-   "album": "Wigmore Hall Live — Songs by Schubert, Wolf, Fauré and Ravel",
-   "label": "Wigmore Hall Live",
-   "age_voice": "50 лет — зрелый голос, темнее и плотнее, чем в 1994.",
-   "reputation": "Серия Wigmore Hall Live — престижные концертные документы; сравнение с его же студийной версией 1994 г. по правилу «при прочих равных — более ранняя» склоняет к 1994.",
-   "sources": [
-    "YouTube Topic (The Orchard / Wigmore Hall Live), videoId V4ZC24oQwEw",
-    "MusicBrainz — recording Keenlyside/Martineau, релиз 2009-10-26"
-   ],
-   "youtube": [
-    {"videoId": "V4ZC24oQwEw", "channel": "Simon Keenlyside - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "uoW6k1H3PQg", "channel": "Ridi Hansel", "official": false, "oembed_ok": true},
-    {"videoId": "YekLdz5Nzv8", "channel": "theflossie100", "official": false, "oembed_ok": true}
-   ],
-   "note": "Есть также фан-видео венского концерта 2010 (uoW6k1H3PQg) — не для публикации."
-  },
-  {
-   "singer": "Christoph Prégardien (тенор)",
-   "pianist": "Michael Gees",
-   "rec_year": 1996,
-   "year_source": "℗-строка официальной загрузки Warner (Topic, o0yslEh71lg): «Schubert: Lieder von Abschied und Reise, ℗ 1996 Warner Music Group Germany», продюсер Gerd Berg, звукорежиссёр Hartwig Paulsen. ВНИМАНИЕ на расхождение в реестре: planning/youtube/albums.md содержит две позиции по этому альбому — «изд. 1996 (год сессии не установлен)» и «1992 по klassik-prisma; ℗ 1996». Год сессии требует доисследования по буклету.",
-   "album": "Schubert: Lieder von Abschied und Reise (EMI 7243 5 55007 2; переизд. Virgin 2001, 2006)",
-   "label": "EMI Electrola → Warner Classics",
-   "age_voice": "36–40 лет (р. 18.01.1956) — начало пика (~1990–2012 по дайджесту): светлый, ровный, безупречно артикулированный тенор.",
-   "reputation": "По реестру проекта — «единственная современная запись с 5 баллами klassik-prisma» (позиция albums.md, отмеченная по другой песне того же диска). Дуэт Прегардьен/Гееc — один из самых уважаемых в позднем Lied.",
-   "sources": [
-    "YouTube Topic (Warner Classics), videoId o0yslEh71lg",
-    "planning/youtube/albums.md — две позиции по альбому (даты 1992/1996)",
-    "MusicBrainz — recording Prégardien/Gees, 180 с; также на антологии «Lieder on Record 1898–2012» (EMI, 2012)"
-   ],
-   "youtube": [
-    {"videoId": "o0yslEh71lg", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "Показательно, что EMI включил именно эту версию D 939 в историческую антологию «Schubert — Lieder on Record 1898–2012» — косвенный знак признания."
-  },
-  {
-   "singer": "Ian Bostridge (тенор)",
-   "pianist": "Leif Ove Andsnes",
-   "rec_year": 2001,
-   "year_source": "Discogs 8437339 (EMI Classics 7243 5 57266 2 9, «Klaviersonate D 959 • Pilgerweise • Der Unglückliche • Auf dem Strom • Die Sterne», 2002), примечание: «Recorded VIII.2001, Lyndhurst Hall, Air Studios, London; ℗ & © 2002 EMI Records Ltd». Официальная загрузка (Topic, r1PL5z4xvmY): ℗ 2002 Parlophone.",
-   "album": "Schubert: Piano Sonata No. 20 D 959 & Lieder (EMI); переизд. «The Wanderer: Lieder & Fragments» (2008)",
-   "label": "EMI Classics → Warner",
-   "age_voice": "37 лет (р. 25.12.1964) — середина пика (~1995–2010 по дайджесту), до поздней манерности.",
-   "reputation": "Серия Бостридж/Андснес — заметный проект начала 2000-х; по правилу скепсиса к пиару современных — оценивать по сравнению с записями старых мастеров. Отдельных рецензий по D 939 не найдено.",
-   "sources": [
-    "Discogs 8437339 — дата и место сессии",
-    "YouTube Topic (Warner Classics), videoId r1PL5z4xvmY",
-    "MusicBrainz — recording Bostridge/Andsnes, 173 с"
-   ],
-   "youtube": [
-    {"videoId": "r1PL5z4xvmY", "channel": "Leif Ove Andsnes - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "bNzB5mrOQyY", "channel": "TeresaGrob1", "official": false, "oembed_ok": true}
-   ],
-   "note": "173 с — самое быстрое прочтение в пуле."
-  },
-  {
-   "singer": "Ian Bostridge (тенор)",
-   "pianist": "Julius Drake",
-   "rec_year": 2014,
-   "year_source": "Официальная загрузка (Topic, HAUfPCl_H24): «Schubert — Wigmore Hall Live, ℗ 2014 The Wigmore Hall Trust, Released on: 2014-04-07». Дата самого концерта в метаданных не указана — ТРЕБУЕТ ДОИССЛЕДОВАНИЯ по буклету Wigmore Hall Live.",
-   "album": "Schubert — Wigmore Hall Live",
-   "label": "Wigmore Hall Live",
-   "age_voice": "~49 лет; по дайджесту после ~2010 манера суше и манернее.",
-   "reputation": "Живой Wigmore-документ; уступает его же студийной версии 2001 г. по свежести голоса.",
-   "sources": [
-    "YouTube Topic (The Orchard / Wigmore Hall Live), videoId HAUfPCl_H24"
-   ],
-   "youtube": [
-    {"videoId": "HAUfPCl_H24", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "197 с."
-  },
-  {
-   "singer": "Mark Padmore (тенор)",
-   "pianist": "Paul Lewis",
-   "rec_year": 2011,
-   "year_source": "Официальная загрузка (Topic, R5ZYparjmcI): «Schubert: Schwanengesang, ℗ harmonia mundi, Released on: 2011-09-13»; MusicBrainz — релиз «Schwanengesang» (2011). Год сессии в доступных метаданных не выделен (реестр: planning/youtube/albums/modern-series.md, «Padmore — Schwanengesang (harmonia mundi, 2011)»).",
-   "album": "Schubert: Schwanengesang (harmonia mundi) — D 939 как дополнение к циклу",
-   "label": "harmonia mundi",
-   "age_voice": "~50 лет (р. 1961); пик ~2005–2017 (дайджест) — светлый, «инструментальный» тенор в лучшей форме.",
-   "reputation": "Трилогия Падмор/Льюис — одна из самых титулованных современных: Winterreise 2009 получила Gramophone Award 2010 (дайджест). Оценок именно D 939 не найдено; фан-загрузка трека (CFEea1crscE) собрала >10 тыс. просмотров.",
-   "sources": [
-    "YouTube Topic (harmonia mundi), videoId R5ZYparjmcI",
-    "MusicBrainz — recording Padmore/Lewis, 200 с",
-    "planning/youtube/albums/modern-series.md — Padmore, трилогия с Lewis"
-   ],
-   "youtube": [
-    {"videoId": "R5ZYparjmcI", "channel": "Mark Padmore - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "Сильнейший современный кандидат «не ранее 1990» наряду с Прегардьеном."
-  },
-  {
-   "singer": "Carolyn Sampson (сопрано)",
-   "pianist": "Joseph Middleton",
-   "rec_year": 2021,
-   "year_source": "Официальная загрузка (Topic, FIn8fGTJYxE): «Elysium — A Schubert Recital, ℗ 2023 BIS, Released on: 2023-03-03», продюсер и звукорежиссёр Jens Braun. По реестру (planning/youtube/albums.md и albums/modern-series.md) альбом записан ДВУМЯ сессиями — 21–23.09.2020 и 06–08.07.2021, Potton Hall, Саксмандем; ВАЖНО: год трека брать по его сессии, а не по дате альбома — принадлежность D 939 к конкретной сессии ТРЕБУЕТ ДОИССЛЕДОВАНИЯ (MusicBrainz по-трековые work-relations, релиз 465623b3).",
-   "album": "Elysium — A Schubert Recital (BIS)",
-   "label": "BIS",
-   "age_voice": "46–47 лет (р. 1974); пик ~2010–наст. (дайджест) — чистое, прямое, «барочно» дисциплинированное сопрано.",
-   "reputation": "Третий шубертовский альбом дуэта Сэмпсон/Миддлтон; линия уже представлена в реестре проекта. По правилу скепсиса к пиару современных — не переоценивать.",
-   "sources": [
-    "YouTube Topic (PLATOON / BIS), videoId FIn8fGTJYxE",
-    "planning/youtube/albums/modern-series.md — «Elysium», две сессии 2020/2021",
-    "MusicBrainz — recording Sampson/Middleton, 193 с"
-   ],
-   "youtube": [
-    {"videoId": "FIn8fGTJYxE", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "Главный кандидат на квоту «не ранее 2015» вместе с Ниглем и Жарусским."
-  },
-  {
-   "singer": "Georg Nigl (баритон)",
-   "pianist": "Olga Pashchenko (историческое фортепиано)",
-   "rec_year": 2020,
-   "year_source": "Официальная загрузка (Topic, 8BXlw-YYxYc): «Vanitas — Schubert, Beethoven & Rihm, ℗ Alpha Classics / Outhere Music France, Released on: 2020-11-13»; MusicBrainz — релиз «Vanitas» (2020-11-13). Год сессии отдельно не документирован — по ℗/релизу 2020.",
-   "album": "Vanitas — Schubert, Beethoven & Rihm",
-   "label": "Alpha Classics",
-   "age_voice": "~48 лет (р. 1972) — зрелый, характерно-речевой баритон венской школы.",
-   "reputation": "Нигль числится в резерве фонда певцов (planning/research/singers-digest.md, раздел «Резерв»); альбом «Vanitas» — заметный релиз Alpha 2020 г. Проверяемых рецензий по D 939 не найдено.",
-   "sources": [
-    "YouTube Topic (IDOL / Alpha), videoId 8BXlw-YYxYc",
-    "MusicBrainz — recording Nigl/Pashchenko, 214 с",
-    "planning/research/singers-digest.md — Nigl в резерве"
-   ],
-   "youtube": [
-    {"videoId": "8BXlw-YYxYc", "channel": "Georg Nigl - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "214 с; историческое фортепиано Пащенко."
-  },
-  {
-   "singer": "Philippe Jaroussky (контратенор)",
-   "pianist": "Jérôme Ducros",
-   "rec_year": 2020,
-   "year_source": "℗-строка официальной загрузки Warner/Erato (Topic, V51NCU3WA4A): «Schubert: Lieder, ℗ 2024 Parlophone Records Limited», продюсер Étienne Collard. По реестру проекта (planning/youtube/albums.md): «Philippe Jaroussky — Schubert: Lieder (Erato), запись февраль 2020; издание 1 ноября 2024».",
-   "album": "Schubert: Lieder (Erato)",
-   "label": "Erato / Warner Classics",
-   "age_voice": "42 года (р. 1978) — зрелый контратенор.",
-   "reputation": "Контратеноровое прочтение — экзотика для Шуберта; в реестре отмечено нейтрально. По правилу скепсиса к пиару — сильный маркетинг Erato не аргумент.",
-   "sources": [
-    "YouTube Topic (Warner Classics/Erato), videoId V51NCU3WA4A",
-    "planning/youtube/albums.md — позиция по альбому Jaroussky (запись II.2020, изд. 01.11.2024)",
-    "MusicBrainz — recording Jaroussky/Ducros, 188 с"
-   ],
-   "youtube": [
-    {"videoId": "V51NCU3WA4A", "channel": "Philippe Jaroussky - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "Формально проходит в квоту «не ранее 2015», но тембровое решение спорно для песни, написанной для мужского/любого голоса в «звёздном» строфическом складе."
-  },
-  {
-   "singer": "Sarah Walker (меццо)",
+   "singer": "Sarah Walker",
    "pianist": "Roger Vignoles",
-   "rec_year": 1989,
-   "year_source": "℗-строка официальной загрузки (Topic, Yo7-1bLP5gI): «Schubert Lieder, ℗ 1989 CRD Records Ltd.». MusicBrainz относит ту же фонограмму к компиляциям «Lieder» (1999) и «The Masterworks» (Brilliant, 2004) — это лицензии CRD.",
-   "album": "Schubert Lieder (CRD)",
-   "label": "CRD Records",
-   "age_voice": "~46 лет (р. 1943) — зрелое, тёмное меццо; в дайджесте отдельной карточки нет (в фонде — через Hyperion, т. 8).",
-   "reputation": "Дуэт Уокер/Виньолес на CRD — уважаемая британская серия конца 1980-х; отдельных рецензий по D 939 не найдено. Не путать с её Hyperion-томом 8 «Schubert & the Nocturne II» (зап. V.1989), где D 939 нет.",
+   "rec_year": "1989",
+   "year_source": "Метаданные официальной Topic-загрузки: альбом «Schubert Lieder», ℗ 1989 CRD Records Ltd. Подтверждение: примечания бокса Brilliant Classics 99443 «Lieder (Great Schubert Singers)» — «CD6 recorded 1989», трек 6-11 «Die Sterne … D939» 3:36, что совпадает с длительностью записи Walker/Vignoles (216 с) в MusicBrainz.",
+   "album": "Schubert Lieder (CRD Records); переизд. Brilliant Classics 99443, CD 6",
+   "label": "CRD Records → Brilliant Classics",
+   "age_voice": "46 лет (р. 1943); зрелое английское меццо в форме.",
+   "reputation": "Не путать с её Hyperion-томом 8 «Schubert & the Nocturne II» (там Джонсон за роялем и другая программа): D 939 у неё — из CRD-рецитала с Виньолесом.",
    "sources": [
-    "YouTube Topic, videoId Yo7-1bLP5gI — ℗ 1989 CRD",
-    "MusicBrainz — recording Walker/Vignoles, 216 с",
-    "planning/youtube/albums/complete-editions.md — Hyperion т. 8 (для различения)"
+    "Discogs release 5782682 (примечания: CD6 recorded 1989)",
+    "метаданные Topic-загрузки Yo7-1bLP5gI (℗ 1989 CRD Records Ltd.)"
    ],
    "youtube": [
     {"videoId": "Yo7-1bLP5gI", "channel": "Sarah Walker - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "Кандидат второго ряда."
+   "note": "Канал в поисковой выдаче отображался как «Sarah Houk», oEmbed возвращает «Sarah Walker - Topic» — загрузка официальная."
   },
   {
-   "singer": "Wolfgang Holzmair (баритон)",
-   "pianist": "Gerard Wyss",
-   "rec_year": 1991,
-   "year_source": "℗-строка официальной загрузки (Topic, 82fGN71l0RU): «Schubert, F.: Lieder, ℗ 1991 Tudor, Released on: 1991-01-01».",
-   "album": "Schubert: Lieder (Tudor)",
-   "label": "Tudor",
-   "age_voice": "~39 лет (р. 1952); пик 1990-х (дайджест) — светлый, почти теноровый баритон, до серии Philips с Imogen Cooper.",
-   "reputation": "Ранний, малоизвестный диск Хольцмайра — до его признанных Philips-циклов; критических оценок не найдено.",
+   "singer": "Christoph Prégardien",
+   "pianist": "Michael Gees",
+   "rec_year": "1992 (по klassik-prisma, через реестр) / ℗1996",
+   "year_source": "planning/youtube/albums.md, две карточки одного альбома: «Schubert: Lieder von Abschied und Reise (EMI 7243 5 55007 2), изд. 1996 (год сессии не установлен)» и «℗ 1996 Warner; 1992 по klassik-prisma». Метаданные Topic-загрузки: «℗ A Warner Classics release, ℗ 1996 Warner Music Group Germany».",
+   "album": "Schubert: Lieder von Abschied und Reise",
+   "label": "EMI Electrola → Warner Classics",
+   "age_voice": "36–40 лет; по дайджесту пик ~1990–2012 — начало пика, светлый теноровый звук в лучшем состоянии.",
+   "reputation": "По реестру проекта — «единственная современная запись с 5 баллами klassik-prisma» (оценка относится к Erlkönig с этого же диска), т.е. альбом с самой высокой независимой оценкой среди современных в корпусе.",
    "sources": [
-    "YouTube Topic (NAXOS of America / Tudor), videoId 82fGN71l0RU",
-    "planning/research/singers-digest.md — Holzmair"
+    "planning/youtube/albums.md (две карточки Prégardien/Gees)",
+    "метаданные Topic-загрузки o0yslEh71lg"
    ],
    "youtube": [
-    {"videoId": "82fGN71l0RU", "channel": "Wolfgang Holzmair - Topic", "official": true, "oembed_ok": true}
+    {"videoId": "o0yslEh71lg", "channel": "Christoph Prégardien - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "192 с. Второй ряд."
+   "note": "Год для плеера требует сквозной унификации с другими песнями альбома в корпусе (1992 vs 1996)."
   },
   {
-   "singer": "Christoph Genz (тенор)",
-   "pianist": "Wolfram Rieger",
-   "rec_year": 2002,
-   "year_source": "Официальная загрузка (Naxos, vCehO02RdYc): «Schubert: Lied Edition 10 — Austrian Contemporaries, Vol. 1, ℗ 2002 Naxos, Released on: 2002-11-05»; MusicBrainz — тот же трек на «Franz Schubert: The Complete Lieder» (Naxos 8.503801, 2011).",
-   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 10 «Austrian Contemporaries, Vol. 1»",
-   "label": "Naxos",
-   "age_voice": "~32 года — молодой лёгкий тенор.",
-   "reputation": "Полное издание Naxos — справочный, а не эталонный уровень; ценность записи прежде всего документальная.",
+   "singer": "Mark Padmore",
+   "pianist": "Paul Lewis",
+   "rec_year": "2011 (℗; сессия не установлена)",
+   "year_source": "MusicBrainz: запись Padmore/Lewis «Die Sterne, op. 96/1, D.939» (200 с) на релизе «Schwanengesang» (2011). Topic: альбом «Schubert: Schwanengesang», ℗ harmonia mundi, release_year 2011. Дайджест: трилогия с Полом Льюисом (Winterreise 2009 — Gramophone Award 2010; Müllerin 2010; Schwanengesang 2011).",
+   "album": "Schubert: Schwanengesang (D 939 — дополнение к циклу)",
+   "label": "harmonia mundi",
+   "age_voice": "50 лет; по дайджесту пик ~2005–2017 — в пике.",
+   "reputation": "Трилогия Padmore/Lewis — самый титулованный современный теноровый свод (Gramophone Award 2010 за Winterreise). Скепсис к прессе о современных исполнителях по правилу проекта сохраняется; конкретных оценок D 939 нет.",
    "sources": [
-    "YouTube (Naxos-дистрибуция), videoId vCehO02RdYc",
-    "MusicBrainz — recording Genz/Rieger, 176 с",
-    "planning/youtube/albums/complete-editions.md — серия Naxos DSLE (35 томов / 38 CD)"
+    "MusicBrainz recording Padmore/Lewis, D 939",
+    "planning/research/singers-digest.md (Padmore)",
+    "метаданные Topic-загрузки R5ZYparjmcI"
    ],
    "youtube": [
-    {"videoId": "vCehO02RdYc", "channel": "바카라서아~ (агрегатор Naxos-контента)", "official": false, "oembed_ok": true}
+    {"videoId": "R5ZYparjmcI", "channel": "Mark Padmore - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "ВНИМАНИЕ: найденная загрузка — не Topic-канал певца, а сторонний канал с автосгенерированным Naxos-контентом; официальный Topic-эквивалент не найден."
+   "note": "Есть также фан-загрузка CFEea1crscE (10,5 тыс. просмотров) той же записи — предпочтителен Topic."
   },
   {
-   "singer": "Ruby Hughes (сопрано)",
+   "singer": "Carolyn Sampson",
    "pianist": "Joseph Middleton",
-   "rec_year": 2016,
-   "year_source": "Официальная загрузка (Topic, 4Z7HU2lYpSU): «Nocturnal Variations, ℗ 2016 Champs Hill Records, Released on: 2016-04-01»; MusicBrainz — релиз «Nocturnal Variations» (2016-04). Год сессии отдельно не документирован.",
-   "album": "Nocturnal Variations (Champs Hill)",
-   "label": "Champs Hill Records",
-   "age_voice": "~35 лет — молодое, чистое сопрано.",
-   "reputation": "Малый британский лейбл; известности за пределами Британии диск не получил. В фонде певцов проекта Хьюз отсутствует.",
+   "rec_year": "2020",
+   "year_source": "planning/youtube/albums.md: «Carolyn Sampson — Elysium — A Schubert Recital (BIS), ДВЕ сессии: 21–23.09.2020 и 06–08.07.2021, выпуск 03.03.2023; сессия 2020 — только D 762, D 939, D 343» (источник — MusicBrainz release 465623b3-51d7-4710-a0c3-6d93a641eb7f, по-трековые work-relations). Topic: ℗2023 BIS (год издания).",
+   "album": "Elysium — A Schubert Recital (BIS)",
+   "label": "BIS",
+   "age_voice": "46 лет; по дайджесту пик ~2010–наст. — в пике.",
+   "reputation": "Ведущая современная английская шубертианка-сопрано; линия Sampson/Middleton (BIS) — три шубертовских альбома. Оценок именно D 939 в доступных источниках нет.",
    "sources": [
-    "YouTube Topic (The Orchard / Champs Hill), videoId 4Z7HU2lYpSU",
-    "MusicBrainz — recording Hughes/Middleton, 208 с"
+    "planning/youtube/albums.md (карточка Elysium с по-сессионной разбивкой)",
+    "метаданные Topic-загрузки FIn8fGTJYxE"
    ],
    "youtube": [
-    {"videoId": "4Z7HU2lYpSU", "channel": "Ruby Hughes - Topic", "official": true, "oembed_ok": true},
-    {"videoId": "13JRVQb4guY", "channel": "Angelica Orchid", "official": false, "oembed_ok": true}
+    {"videoId": "FIn8fGTJYxE", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true},
+    {"videoId": "htamxChuqu4", "channel": "OxfordSong", "official": true, "oembed_ok": true}
    ],
-   "note": "Третий ряд."
+   "note": "htamxChuqu4 — концертное видео с Oxford International Song Festival 2020 на официальном канале фестиваля (та же пара исполнителей, другой источник). Год в плеере — 2020 (сессия), не 2023."
   },
   {
-   "singer": "Markus Schäfer (тенор)",
-   "pianist": "Tobias Koch (историческое фортепиано)",
-   "rec_year": 2017,
-   "year_source": "Официальная загрузка (Topic, iltlB2Dt12g): «Schubert: Schwanengesänge, ℗ 2017 Deutschlandradio / Deutsche Grammophon GmbH, Berlin, Released on: 2019-09-13» — фонограмма Deutschlandradio, ℗ 2017.",
+   "singer": "Ian Bostridge",
+   "pianist": "Julius Drake",
+   "rec_year": "℗2014 (дата концерта не установлена)",
+   "year_source": "Topic-метаданные: альбом «Schubert — Wigmore Hall Live», ℗ 2014 The Wigmore Hall Trust. Реестр (planning/youtube/albums.md): «Songs by Schubert — Wigmore Hall Live (WHLive0067) и Schubert 4 (WHLive0091), ℗2014 и ℗2018 — даты концертов не установлены». MusicBrainz отдельно фиксирует студийную версию Bostridge/Andsnes (173 с, EMI 2002).",
+   "album": "Schubert — Wigmore Hall Live",
+   "label": "Wigmore Hall Live",
+   "age_voice": "около 50 лет; по дайджесту пик ~1995–2010, после — «интеллектуально, но манернее/суше».",
+   "reputation": "Концертная серия Wigmore Hall; у того же певца есть более ранняя студийная версия с Лейфом Уве Андснесом (EMI, «Klaviersonate D 959 / 4 Lieder», 2002) — по правилу «при прочих равных предпочитать более раннюю» она интереснее, но на Topic не найдена.",
+   "sources": [
+    "planning/youtube/albums.md (карточки Bostridge Wigmore Hall Live)",
+    "MusicBrainz recording Bostridge/Andsnes, D 939 (релиз 2002-06-05)",
+    "метаданные Topic-загрузки HAUfPCl_H24"
+   ],
+   "youtube": [
+    {"videoId": "HAUfPCl_H24", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Студийная версия с Андснесом (EMI 2002) на YouTube не обнаружена."
+  },
+  {
+   "singer": "Markus Schäfer",
+   "pianist": "Tobias Koch",
+   "rec_year": "2017 (℗)",
+   "year_source": "Topic-метаданные: альбом «Schubert: Schwanengesänge», artist «Markus Schäfer, Tobias Koch», ℗ 2017 Deutschlandradio / Deutsche Grammophon GmbH, Berlin.",
    "album": "Schubert: Schwanengesänge",
    "label": "Deutschlandradio / Deutsche Grammophon",
-   "age_voice": "~56 лет (р. 1961) — зрелый, лёгкий немецкий тенор.",
-   "reputation": "Проект с историческим инструментом Тобиаса Коха; в фонде проекта М. Шефер фигурирует как «M. Schäfer» (различение с C. Schäfer обязательно по правилам).",
-   "sources": [
-    "YouTube Topic (UMG), videoId iltlB2Dt12g",
-    "docs/rules/youtube-performances.md — правило различения однофамильцев"
-   ],
+   "age_voice": "около 56 лет (р. 1961); в дайджесте отдельной карточки нет — фамилия проходит как «M. Schäfer» в правиле о различении однофамильцев.",
+   "reputation": "Радиопродукция Deutschlandradio с Тобиасом Кохом (специалист по историческим клавишным). Независимых оценок не найдено.",
+   "sources": ["метаданные Topic-загрузки iltlB2Dt12g"],
    "youtube": [
     {"videoId": "iltlB2Dt12g", "channel": "Markus Schäfer - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "193 с. Третий ряд."
+   "note": "Если попадёт в отбор — name «M. Schäfer — Koch» (правило об однофамильцах: C. Schäfer / M. Schäfer)."
   },
   {
-   "singer": "Paul Armin Edelmann (баритон)",
-   "pianist": "Charles Spencer",
-   "rec_year": 2018,
-   "year_source": "Официальная загрузка (Naxos of America, oQOMpKWBOEk): «The Schubert Album, ℗ 2018 Capriccio, Released on: 2018-01-05»; MusicBrainz — релиз 2018-01.",
-   "album": "The Schubert Album (Capriccio)",
-   "label": "Capriccio",
-   "age_voice": "~50 лет (р. 1968) — зрелый лирический баритон.",
-   "reputation": "Крепкий венский рецитал; заметной международной критики не найдено.",
-   "sources": [
-    "YouTube Topic (NAXOS of America / Capriccio), videoId oQOMpKWBOEk",
-    "MusicBrainz — recording Edelmann/Spencer, 205 с"
+   "singer": "Georg Nigl",
+   "pianist": "Olga Pashchenko (хаммерклавир)",
+   "rec_year": "2020 (℗)",
+   "year_source": "MusicBrainz: Nigl/Pashchenko, «Die Sterne, D. 939» (214 с), релиз «Vanitas» 2020-11-13. Topic: альбом «Vanitas — Schubert, Beethoven & Rihm», ℗ Alpha Classics / Outhere Music France, release_year 2020.",
+   "album": "Vanitas — Schubert, Beethoven & Rihm",
+   "label": "Alpha Classics",
+   "age_voice": "в дайджесте фонда Нигль числится только в резерве (без карточки) — возраст и состояние голоса не выверены источником.",
+   "reputation": "Концептуальная программа с историческим фортепиано; Нигль — фигура венской «речевой» школы. Независимых оценок D 939 не найдено; по правилу о пиаре современных требуется осторожность.",
+   "sources": ["MusicBrainz recording Nigl/Pashchenko", "метаданные Topic-загрузки 8BXlw-YYxYc"],
+   "youtube": [
+    {"videoId": "8BXlw-YYxYc", "channel": "Georg Nigl - Topic", "official": true, "oembed_ok": true}
    ],
+   "note": "Год сессии (в отличие от ℗) не установлен."
+  },
+  {
+   "singer": "Philippe Jaroussky",
+   "pianist": "Jérôme Ducros",
+   "rec_year": "2020",
+   "year_source": "planning/youtube/albums.md: «Philippe Jaroussky — Schubert: Lieder (Erato), запись февраль 2020; издание 1 ноября 2024». Topic: ℗ 2024 Parlophone Records Limited (год издания). MusicBrainz: релиз «Schubert: Lieder» 2024-11-01.",
+   "album": "Schubert: Lieder (Erato)",
+   "label": "Erato / Warner Classics",
+   "age_voice": "42 года; контратенор — тембр принципиально иной, чем у любого исторического исполнителя песни.",
+   "reputation": "Контратеноровое прочтение — курьёзно-периферийная позиция для корпуса; по правилу скепсиса к пиару современных требует прямого сравнения, а не рецензий.",
+   "sources": ["planning/youtube/albums.md (карточка Jaroussky)", "метаданные Topic-загрузки V51NCU3WA4A"],
+   "youtube": [
+    {"videoId": "V51NCU3WA4A", "channel": "Philippe Jaroussky - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": "Год в плеере — 2020 (сессия), не 2024."
+  },
+  {
+   "singer": "Ruby Hughes",
+   "pianist": "Joseph Middleton",
+   "rec_year": "2016 (℗)",
+   "year_source": "MusicBrainz: Hughes/Middleton, «Die Sterne, D939» (208 с), релиз «Nocturnal Variations» 2016-04. Topic: ℗ 2016 Champs Hill Records.",
+   "album": "Nocturnal Variations",
+   "label": "Champs Hill Records",
+   "age_voice": "в дайджесте фонда певица отсутствует — данные о возрасте и состоянии голоса источником не подкреплены.",
+   "reputation": "Ночная концептуальная программа; независимых оценок не найдено. Периферийный кандидат.",
+   "sources": ["MusicBrainz recording Hughes/Middleton", "метаданные Topic-загрузки 4Z7HU2lYpSU"],
+   "youtube": [
+    {"videoId": "4Z7HU2lYpSU", "channel": "Ruby Hughes - Topic", "official": true, "oembed_ok": true}
+   ],
+   "note": ""
+  },
+  {
+   "singer": "Paul Armin Edelmann",
+   "pianist": "Charles Spencer",
+   "rec_year": "2018 (℗/релиз 05.01.2018)",
+   "year_source": "planning/youtube/albums.md: «Paul Armin Edelmann — The Schubert Album (Capriccio), ℗ 2018, релиз 05.01.2018; пианист Charles Spencer; студия 4Tune Studio (Discogs 13475647)». Topic: ℗ 2018 Capriccio.",
+   "album": "The Schubert Album",
+   "label": "Capriccio",
+   "age_voice": "в дайджесте отсутствует; пианист — Чарльз Спенсер, партнёр Квастхофа по RCA-записям 1990-х.",
+   "reputation": "Венский баритон второго ряда; независимых оценок не найдено. Периферийный кандидат.",
+   "sources": ["planning/youtube/albums.md (карточка Edelmann)", "метаданные Topic-загрузки oQOMpKWBOEk"],
    "youtube": [
     {"videoId": "oQOMpKWBOEk", "channel": "Paul Armin Edelmann - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "Третий ряд."
+   "note": ""
   },
   {
-   "singer": "Ian Partridge (тенор)",
-   "pianist": "не указан в метаданных (на дисках Meridian — Jennifer Partridge)",
-   "rec_year": null,
-   "year_source": "НЕ УСТАНОВЛЕН. Официальная загрузка (Topic, D1DWbepUsJI): «Spirit of Love — Ian Partridge Sings Favourite Songs by Schubert, ℗ 1999 Meridian Records, Released on: 2006-11-07». ℗ 1999 — год фонограммы/издания; год сессии не документирован, как и имя пианиста в метаданных.",
-   "album": "Spirit of Love — Ian Partridge Sings Favourite Songs by Schubert",
-   "label": "Meridian Records",
-   "age_voice": "если фонограмма 1990-х — 55+ лет (р. 1938); вокальный пик Партриджа — 1970-е.",
-   "reputation": "Партридж — уважаемый британский лидер-тенор 1970-х; данный диск позднего периода, критики не найдено. В фонде проекта отсутствует.",
-   "sources": [
-    "YouTube Topic (The Orchard / Meridian), videoId D1DWbepUsJI"
-   ],
-   "youtube": [
-    {"videoId": "D1DWbepUsJI", "channel": "Ian Partridge - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "188 с. Третий ряд, год не установлен."
-  },
-  {
-   "singer": "Daniel Johannsen (тенор)",
+   "singer": "Daniel Johannsen",
    "pianist": "Christoph Hammer (историческое фортепиано)",
-   "rec_year": 2019,
-   "year_source": "Официальная загрузка (Topic, 3xrwu_Wykhw): «Lieder ohnegleichen, ℗ 2019 SPEKTRAL, Released on: 2019-02-01»; MusicBrainz — релиз «Lieder ohnegleichen» (2019).",
-   "album": "Lieder ohnegleichen (Spektral)",
+   "rec_year": "2019 (℗)",
+   "year_source": "Topic-метаданные: альбом «Lieder ohnegleichen», artist «Daniel Johannsen, Christoph Hammer», ℗ 2019 SPEKTRAL. MusicBrainz фиксирует запись «Die Sterne, Op. 96,1 - D 939» (204 с) на релизе «Lieder ohnegleichen» (2019).",
+   "album": "Lieder ohnegleichen",
    "label": "Spektral",
-   "age_voice": "~41 год (р. 1978) — лёгкий «евангелистский» тенор.",
-   "reputation": "Нишевый австрийский релиз; международной критики не найдено.",
-   "sources": [
-    "YouTube Topic (The Orchard / Spektral), videoId 3xrwu_Wykhw",
-    "MusicBrainz — «Lieder ohnegleichen» (2019)"
-   ],
+   "age_voice": "в дайджесте отсутствует.",
+   "reputation": "Периодная запись австрийского тенора-евангелиста; независимых оценок не найдено. Периферийный кандидат.",
+   "sources": ["MusicBrainz release «Lieder ohnegleichen»", "метаданные Topic-загрузки 3xrwu_Wykhw"],
    "youtube": [
     {"videoId": "3xrwu_Wykhw", "channel": "Daniel Johannsen - Topic", "official": true, "oembed_ok": true}
    ],
-   "note": "205 с. Третий ряд."
+   "note": ""
   },
   {
-   "singer": "Angelika Kirchschlager (меццо)",
-   "pianist": "нет — ансамбль Philharmonia Schrammeln (аранжировка Martin Kubik)",
-   "rec_year": 2011,
-   "year_source": "Официальная загрузка (Topic, CH7a5XITHaU): «Seligkeit, ℗ 2011 Universal Music GmbH, Austria, Released on: 2011-01-01»; аранжировка — Martin Kubik.",
-   "album": "Seligkeit",
-   "label": "Universal Music Austria",
-   "age_voice": "~46 лет (р. 1965) — зрелое меццо в форме.",
-   "reputation": "Не «песня с фортепиано», а венская шраммель-аранжировка — вне жанрового поля отбора; по правилу name было бы «Kirchschlager — Ensemble».",
-   "sources": [
-    "YouTube Topic (UMG), videoId CH7a5XITHaU — состав и аранжировщик"
-   ],
+   "singer": "Simon Keenlyside",
+   "pianist": "Malcolm Martineau",
+   "rec_year": "2010 (концертное видео) / студийный трек — не датирован",
+   "year_source": "MusicBrainz: Keenlyside/Martineau «Die Sterne» на релизе «Songs by Schubert, Wolf, Fauré and Ravel» (2009-10-26; длительность в MB отсутствует). Фан-видео uoW6k1H3PQg подписано «2010, Wien» — метаданные загрузки источником не являются.",
+   "album": "Songs by Schubert, Wolf, Fauré and Ravel (Wigmore Hall Live?) / концертные видео",
+   "label": "не установлен",
+   "age_voice": "около 50 лет (р. 1959); в дайджесте — «студийного Winterreise НЕТ (только лайв-видео)», Шуберт у него побочная линия.",
+   "reputation": "Две фан-загрузки набрали заметную аудиторию (YekLdz5Nzv8 — 34 тыс. просмотров), но официальных загрузок нет и происхождение фонограмм не подтверждено.",
+   "sources": ["MusicBrainz recording Keenlyside/Martineau", "planning/research/singers-digest.md (Keenlyside)"],
    "youtube": [
-    {"videoId": "CH7a5XITHaU", "channel": "Angelika Kirchschlager - Topic", "official": true, "oembed_ok": true}
+    {"videoId": "uoW6k1H3PQg", "channel": "Ridi Hansel", "official": false, "oembed_ok": true}
    ],
-   "note": "ИСКЛЮЧИТЬ из топ-5: аранжировка для ансамбля, а не оригинальная песня с фортепиано."
-  },
-  {
-   "singer": "The Aldeburgh Connection (канадский ансамбль-антреприза)",
-   "pianist": "не указан в метаданных",
-   "rec_year": null,
-   "year_source": "НЕ УСТАНОВЛЕН. Официальная загрузка (Topic, l2s-9dbrSiU): «Schubert Among Friends — Songs, Partsongs And Piano Music, ℗ 2007 Marquis Classics» — год издания; певец трека в метаданных не назван.",
-   "album": "Schubert Among Friends (Marquis Classics)",
-   "label": "Marquis Classics",
-   "age_voice": "не определим (исполнитель не идентифицирован).",
-   "reputation": "Локальный торонтский проект; для отбора непригоден без идентификации певца.",
-   "sources": [
-    "YouTube Topic (Marquis Classics), videoId l2s-9dbrSiU"
-   ],
-   "youtube": [
-    {"videoId": "l2s-9dbrSiU", "channel": "The Aldeburgh Connection - Topic", "official": true, "oembed_ok": true}
-   ],
-   "note": "ИСКЛЮЧИТЬ: певец не идентифицирован."
+   "note": "Официальной загрузки нет; для публикации по правилам техгигиены не рекомендуется без дополнительной верификации."
   }
  ],
  "priority_singers_checked": {
-  "Thomas Quasthoff": "НЕТ. Поиск по MusicBrainz (recording:\"Die Sterne\" AND artist:\"Thomas Quasthoff\") — ни одного совпадения. Согласуется с дайджестом: дискография Квастхофа закрыта в 2012 и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95; Winterreise RCA 1998; Schwanengesang DG 2001; Lieder с оркестром DG 2003; Müllerin DG 2005; Winterreise-фильм DG 2005) — песен Лейтнера среди них нет.",
-  "Dietrich Fischer-Dieskau": "ДА, пять разных записей. (1) EMI/Electrola с Муром, ℗ 1958 (Warner Topic tqEzYKKw5Co); (2) DG «Sämtliche Lieder» с Муром, ℗ 1969 (Topic E9qzugQul58); (3) DG 2530 988 с Рихтером — live, Tours, Grand Théâtre, 07.1977 (Discogs 6124421/4130628), параллельно Orfeo — Зальцбург 29.08.1977 (Discogs 6858616); (4) Orfeo «Die Salzburger Liederabende 1956–1965» с Муром — год не установлен (Topic zHxarkda_9k); (5) Erato 4509-98493-2 с Хартмутом Хёллем, live, изд. 1995 — год не установлен (Discogs 24847955).",
-  "Elisabeth Schwarzkopf": "НЕТ. Поиск по MusicBrainz — ни одной записи «Die Sterne» за Шварцкопф. В сводном Warner-боксе «Complete Recitals 1952–1974» (по дайджесту — исчерпывающем её рецитальном наследии) песня не фигурирует. Отрицательный результат.",
-  "Hans Hotter": "НЕТ. MusicBrainz — совпадений нет. Шубертовское наследие Хоттера — Winterreise (1942, 1954, 1961), Schwanengesang и отдельные Lieder нач. 1950-х (дайджест); D 939 среди них не значится.",
-  "Peter Anders": "НЕТ. MusicBrainz — совпадений нет. Шубертовский радиофонд Андерса (RRG 1945, Raucheisen: Winterreise, Müllerin) песни Лейтнера не содержит.",
-  "Elisabeth Schumann": "НЕТ. MusicBrainz — совпадений нет. Её ~28 шубертовских сторон HMV 1927–49 (Naxos 8.110731) D 939 не включают.",
-  "Christa Ludwig": "НЕТ. MusicBrainz — совпадений нет ни по EMI «15 Lieder» (сессии 1957–69), ни по DG-ремейкам, ни по Warner-боксу «Complete Recitals» (11 CD).",
-  "Lucia Popp": "ДА. MusicBrainz: recording «Die Sterne, D. 939» — Lucia Popp / Irwin Gage, 178 с, релиз «The Collector's Edition» (EMI, 2007); первоисточник — её шубертовский рецитал EMI с Гейджем (по дайджесту — 1983). ОДНАКО загрузки этой записи на YouTube найти не удалось (проверены Topic-канал Lucia Popp и адресные yt-dlp-запросы) — без videoId запись непубликуема."
+  "Thomas Quasthoff": "НЕ записывал. Дискография закрыта в 2012 и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95; Winterreise 1998; Schwanengesang 2001; Lieder с оркестром 2003; Müllerin 2005; Winterreise-фильм 2005) — песен на стихи Лейтнера среди них нет (planning/research/singers-digest.md). Подтверждение: в MusicBrainz по работе D 939 (cbcdfd81-bab9-4e58-9c75-64959e71cbca, 23 записи) Квастхофа нет; поиск recording:\"Die Sterne\" AND artist:\"Thomas Quasthoff\" — 0 результатов; поиск по YouTube — 0.",
+  "Dietrich Fischer-Dieskau": "ЗАПИСЫВАЛ, минимум пять раз: (1) с Муром — студийный свод DG «Sämtliche Lieder» (сессии 1966–72); (2) с Муром — зальцбургский лайв (бокс Orfeo «Die Salzburger Liederabende 1956–1965»); (3) с Муром — EMI/Electrola 1950-х (не идентифицировано дискографически); (4) с Рихтером — Тур, 2+4.07.1977 (Грей id 2081, DG 2530 988) и Зальцбург, 29.08.1977 (Orfeo C 334 931 B, Discogs 6858616); (5) с Хёллем — 1987 (Discogs 5782682, «CD7 recorded 1987»).",
+  "Elisabeth Schwarzkopf": "НЕ найдено. MusicBrainz: recording:\"Die Sterne\" AND artist:\"Elisabeth Schwarzkopf\" — 0 результатов; в списке из 23 записей работы её нет; поиск по YouTube по её имени с этой песней даёт только чужие записи. Отрицательный результат (отсутствие в MB/YT), не абсолютное доказательство.",
+  "Hans Hotter": "НЕ найдено. MusicBrainz — 0 результатов; в 23 записях работы отсутствует; поиск YouTube — 0.",
+  "Peter Anders": "НЕ найдено. MusicBrainz — 0 результатов (запрос выполнен дважды из-за 503 сервера); поиск YouTube — 0. Дискография Андерса в дайджесте — циклы Müllerin/Winterreise с Раухайзеном и Вайссенборном, лейтнеровских песен нет.",
+  "Elisabeth Schumann": "НЕ найдено. MusicBrainz — 0 результатов; поиск YouTube — 0. Её шубертовский корпус (~28 песен HMV 1927–49, Naxos 8.110731) D 939 не включает.",
+  "Christa Ludwig": "НЕ найдено. MusicBrainz — 0 результатов; на её Topic-канале D 939 нет (есть D 828, D 210, D 653, D 745).",
+  "Lucia Popp": "ЗАПИСЫВАЛА — с Ирвином Гейджем (EMI). MusicBrainz recording c04a6150-c2ac-4a84-8e7c-bc5149a4c794 (2:58), издана на «Lucia Popp: The Collector's Edition» (EMI, 2007), CD 45, трек 13; на LP «Lucia Popp Sings Schubert Lieder» (Angel DS-38139, 1984, Discogs 8138095) этого номера нет. НА YOUTUBE ЗАПИСЬ НЕ НАЙДЕНА — для плеера недоступна."
  },
  "albums_facts": [
-  {
-   "album": "Schubert: Sämtliche Lieder (DG, 21 CD; LP-тома 2720 006 / 2720 022 / 2720 059)",
-   "singer": "Dietrich Fischer-Dieskau",
-   "year": 1969,
-   "label": "Deutsche Grammophon",
-   "facts": "Полный свод «мужских» песен Шуберта с Джералдом Муром; сессии 1966–1972, Ufa-Ton-Studio Берлин; исп. продюсер Otto Gerdes, продюсер Rainer Brock. Конвенция проекта: год свода — 1969. D 939 (1828) относится к LP-тому Vol. 1 (2720 006, охват 1817–1828), сессии которого по Discogs 17653324 — XII.1966, I и VI.1967, II.1968. Уже в реестре albums.md/complete-editions.md.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "EMI/Electrola-серия песенных рециталов «Lieder» Ф.-Д. с Муром (ALP/Electrola, 1955–1965)",
-   "singer": "Dietrich Fischer-Dieskau",
-   "year": 1958,
-   "label": "EMI / Electrola → Warner Classics",
-   "facts": "Цифровой том Warner «Schubert: Lieder Vol. 2» с D 939 несёт ℗ 1958 и имя продюсера Christfried Bickenbach. По реестру у Грея выверена только сессия Vol. 4 (23–25.05.1958); прочие тома не датированы. Позиция уже в complete-editions.md — дополняется годом ℗ 1958 для D 939.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert: Lieder — Fischer-Dieskau / Richter (DG 2530 988; CD 445 717-2)",
-   "singer": "Dietrich Fischer-Dieskau",
-   "year": 1977,
-   "label": "Deutsche Grammophon",
-   "facts": "НОВАЯ позиция реестра. Живая запись с фестиваля Рихтера «Fêtes musicales en Touraine»: Тур, Grand Théâtre, июль 1977 (Discogs 6124421); ℗ 1978 Polydor; продюсер Cord Garben, звукорежиссёр Heinz Wildhagen. Программа — 16 поздних песен (D 832, 772, 565, 871, 650, 553, 536, 842, 878, 939, 881, 698, 649, 853, 882, 754). Тот же гастрольный цикл записан ORF в Зальцбурге 29.08.1977 и издан Orfeo d'Or C 334 931 B (с добавочными бисами: D 752, 800, 719, 827, 957/7).",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Britten the Performer (BBC Music BBCD 8006-2) / The Aldeburgh Recital (Jube Classic, 2022)",
-   "singer": "Peter Pears",
-   "year": 1958,
-   "label": "BBC Music / Jube Classic",
-   "facts": "НОВАЯ позиция реестра. Шубертовский блок рецитала — Jubilee Hall, Олдборо, 15 июня 1958 (Discogs 31530886); в той же программе Шуман (Liederkreis op. 39) и Форе (La bonne chanson); пёрселловско-бриттеновский блок — 22 июня 1959. Пианист — Бенджамин Бриттен. Переиздание 2022 г. на Jube Classic с дистрибуцией Naxos дало официальную загрузку на Topic-канале Пирса. Уточняет прежнюю позицию albums.md о «Britten the Performer (BBCB 8015-2), даты не установлены».",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "The Hyperion Schubert Edition, Vol. 6 «Schubert & the Nocturne I» (CDJ33006)",
-   "singer": "Anthony Rolfe Johnson",
-   "year": 1989,
-   "label": "Hyperion",
-   "facts": "Сессии IX.1989, Rosslyn Hill Unitarian Chapel, Хэмпстед; продюсер Martin Compton, инженер Antony Howell; издание XII.1990; 71'52\". Пресса (страница Hyperion): Gramophone «As exemplary as … other discs in this series»; Penguin Guide «Rolfe Johnson's voice has never sounded more beautiful on disc»; Classic CD «An irresistible disc». Позиция уже в complete-editions.md — дополняется прессой и подтверждением включения D 939.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "The Hyperion Schubert Edition, Vol. 36 «Schubert in 1827» (CDJ33036)",
-   "singer": "Juliane Banse (D 939 — трек 13)",
-   "year": 1999,
-   "label": "Hyperion",
-   "facts": "Сессии I.1999, Rosslyn Hill Unitarian Chapel; продюсер Mark Brown, инженеры Antony Howell и Julian Millard; издание VII.2000; 78'33\". Певцы диска: Banse, Lynne Dawson, Michael Schade, Gerald Finley. Пресса: Gramophone «Superb … soft-grained intimacy from Banse … a delight»; BBC Music Magazine «Elegant performances» + Critics' Choice. Позиция уже в complete-editions.md — дополняется прессой и указанием трека 13 = D 939.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert: Lieder von Abschied und Reise (EMI 7243 5 55007 2)",
-   "singer": "Christoph Prégardien",
-   "year": 1996,
-   "label": "EMI Electrola → Warner",
-   "facts": "Пианист Michael Gees; продюсер Gerd Berg, звукорежиссёр Hartwig Paulsen; ℗ 1996. В реестре albums.md существуют ДВЕ конкурирующие датировки (изд. 1996 / зап. 1992 по klassik-prisma) — расхождение не снято. Трек D 939 включён EMI в историческую антологию «Schubert — Lieder on Record 1898–2012» (2012).",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert: Piano Sonata D 959 & Lieder (EMI 7243 5 57266 2 9)",
-   "singer": "Ian Bostridge",
-   "year": 2001,
-   "label": "EMI Classics",
-   "facts": "НОВАЯ позиция реестра. Сессия VIII.2001, Lyndhurst Hall, Air Studios, Лондон; ℗ & © 2002 EMI (Discogs 8437339). Пианист Leif Ove Andsnes. Вокальный блок диска: Pilgerweise D 789, Der Unglückliche D 713, Auf dem Strom D 943, Die Sterne D 939. Переиздано в «The Wanderer: Lieder & Fragments» (2008) и в боксе «The Warner Classics Edition 1990–2010» (2023).",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert Lieder (Erato 4509-98493-2)",
-   "singer": "Dietrich Fischer-Dieskau",
-   "year": null,
-   "label": "Erato",
-   "facts": "НОВАЯ позиция реестра. Живой рецитал с Хартмутом Хёллем; издание 1995; примечание Discogs 24847955 — «Live recording», даты нет. Программа из 21 поздней песни, включая D 939. Тот же материал циркулирует как «Romantic Songs» (Berlin Classics 92439). Год записи не установлен.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2 (DG)",
-   "singer": "Hermann Prey",
-   "year": 1974,
-   "label": "Deutsche Grammophon",
-   "facts": "НОВАЯ позиция реестра. ℗ 1974 DG Berlin; пианист Karl Engel; продюсеры Christian Lange и Hans Gerhard Lichthorn; звукорежиссёры Karl-August Naegler и Hans-Peter Schweigmann. Дополняет прежнюю позицию male-recitalists.md о «Philips-эпохе» Прая — данная запись сделана для DG.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert: Lieder (Philips; переизд. «The Artistry of Elly Ameling»)",
-   "singer": "Elly Ameling",
-   "year": 1974,
-   "label": "Philips / Universal",
-   "facts": "℗ 1974 Universal International Music B.V.; пианист Dalton Baldwin. Входит в Philips-серию Амелинг/Болдуина, чьи сессии по Грею: 6500 515 — 20–21.06.1972; 6500 704 — 21–26.08.1973; 9500 169 — 15–19.08.1975; 9500 350 — 10–14.09.1976. Привязка D 939 к конкретной сессии не выполнена.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Elysium — A Schubert Recital (BIS)",
-   "singer": "Carolyn Sampson",
-   "year": 2021,
-   "label": "BIS",
-   "facts": "Уже в реестре (albums.md, modern-series.md): Potton Hall, Саксмандем; пианист Joseph Middleton; продюсер/инженер Jens Braun; ДВЕ сессии — 21–23.09.2020 и 06–08.07.2021; издание 03.03.2023. Правило реестра: год трека — по его сессии, не по дате альбома.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert: Schwanengesang (harmonia mundi)",
-   "singer": "Mark Padmore",
-   "year": 2011,
-   "label": "harmonia mundi",
-   "facts": "Уже в реестре (modern-series.md). Пианист Paul Lewis; завершение трилогии Падмор/Льюис (Winterreise 2009 — Gramophone Award 2010; Müllerin 2010). D 939 — дополнение к циклу. Дата сессии не выверена.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Vanitas — Schubert, Beethoven & Rihm (Alpha Classics)",
-   "singer": "Georg Nigl",
-   "year": 2020,
-   "label": "Alpha Classics",
-   "facts": "НОВАЯ позиция реестра. Ольга Пащенко, историческое фортепиано; релиз 13.11.2020. Помимо D 939 — Die Forelle D 550, Der Wanderer an den Mond D 870, бонусы Erlafsee D 586, Abschied D 475.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert: Lieder Recital (EMI; переизд. EMI Eminence «The Collection»)",
-   "singer": "Simon Keenlyside",
-   "year": 1994,
-   "label": "EMI → Warner Classics",
-   "facts": "НОВАЯ позиция реестра. Пианист Malcolm Martineau; продюсер Mark Brown; ℗ 1994 Parlophone. Хронометраж D 939 — 227 с.",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Schubert Lieder (CRD Records)",
-   "singer": "Sarah Walker",
-   "year": 1989,
-   "label": "CRD",
-   "facts": "НОВАЯ позиция реестра. Пианист Roger Vignoles; ℗ 1989 CRD. Лицензирована на компиляции «Lieder» (1999) и Brilliant «The Masterworks» (2004) — из-за чего MusicBrainz показывает поздние даты. НЕ путать с Hyperion-томом 8 той же певицы (зап. V.1989).",
-   "covers_more_pilot_songs": true
-  },
-  {
-   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 10 «Austrian Contemporaries, Vol. 1» (8.554795-серия)",
-   "singer": "Christoph Genz",
-   "year": 2002,
-   "label": "Naxos",
-   "facts": "Уже в реестре (complete-editions.md, серия из 35 томов / 38 CD). Пианист Wolfram Rieger; ℗ 2002, релиз 05.11.2002. Лейтнеровский блок — в томе «Austrian Contemporaries, Vol. 1».",
-   "covers_more_pilot_songs": true
-  }
+  {"album": "Schubert: Lieder (DG 2530 988 / CD 445 717-2)", "singer": "Dietrich Fischer-Dieskau", "year": "1977 (2 и 4 июля), Tours, Grange de Meslay", "label": "Deutsche Grammophon", "facts": "Живая запись с «Fêtes musicales en Touraine»; Рихтер за роялем; продюсер Cord Garben, инженер Heinz Wildhagen; трек B2 «Die Sterne, D939 (Op. 96, Nr. 1)» 3:12. Дата — дискография Грея (id 2081). НОВАЯ карточка для реестра альбомов.", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Lieder — Salzburger Festspiele live (Orfeo D'Or C 334 931 B)", "singer": "Dietrich Fischer-Dieskau", "year": "1977 (29 августа), Kleines Festspielhaus, Salzburg", "label": "Orfeo D'Or", "facts": "Запись ORF; издание 1993; ремастеринг Gottfried Kraus / Othmar Eichinger; общее время 76'51; трек 12 — Die Sterne D 939 (3:12). Второй документ того же дуэта за одно лето. НОВАЯ карточка.", "covers_more_pilot_songs": true},
+  {"album": "Philips 6500 704 «Schubert: Lieder»", "singer": "Elly Ameling", "year": "1973 (21–26 августа); LP издан 1974", "label": "Philips / Universal", "facts": "Пианист Dalton Baldwin; дата — дискография Грея (id 179179). Уточняет реестр: там у Ameling значились Philips 6500 515 (1972) и «Songs for Gretchen, Ellen & Suleika» (1972–75), позиции 6500 704 не было. На Topic фонограмма продублирована трижды (Yz2CPh6YFeY, fIZAyzbtPvE, MCu3CPiuC-Q). НОВАЯ карточка.", "covers_more_pilot_songs": true},
+  {"album": "Philips «Lied-Edition» (бокс 6747 059)", "singer": "Hermann Prey", "year": "1971 (27–30 октября), München", "label": "Philips", "facts": "По Грею (id 176422) пианист в D 939 — Leonard Hokanson; Topic-кредиты того же трека называют Karl Engel, альбом «Lieder von Franz Schubert – Lied-Edition Vol. 2» ℗1974. Расхождение по пианисту зафиксировано и в реестре (complete-editions.md §Prey) — требует решения перед публикацией name.", "covers_more_pilot_songs": true},
+  {"album": "Schubert: 23 ausgewählte Lieder (Claves CD 50-8611)", "singer": "Ernst Haefliger", "year": "1986 (июль), Kirche Wohlen/Bern; изд. 1987", "label": "Claves", "facts": "Хаммерклавир Franz Brodmann (Вена, 1820), Jörg Ewald Dähler. Карточка уже в реестре (по D 737) и прямо перечисляет D 939 в программе — факт подтверждён Topic-загрузкой.", "covers_more_pilot_songs": true},
+  {"album": "The Hyperion Schubert Edition, Vol. 6 «Schubert & the Nocturne I» (CDJ33006)", "singer": "Anthony Rolfe Johnson", "year": "запись IX.1989, издание XII.1990", "label": "Hyperion / Universal", "facts": "Graham Johnson — рояль и научные комментарии. Карточка уже в complete-editions.md; подтверждено вхождение D 939 (Topic ℗1990).", "covers_more_pilot_songs": true},
+  {"album": "The Hyperion Schubert Edition, Vol. 36 «An 1827 Schubertiad» (CDJ33036)", "singer": "Juliane Banse", "year": "запись I.1999, издание VII.2000", "label": "Hyperion / Universal", "facts": "Аннотация Джонсона: семь лейтнеровских песен диска написаны между октябрём 1827 и январём 1828; Die Sterne (трек 13) и Der Kreuzzug (трек 15) — самые известные из них; Die Sterne сочинена в январе 1828. Ключевой фактовый источник по датировке песни.", "covers_more_pilot_songs": true},
+  {"album": "Schubert Lieder (CRD Records)", "singer": "Sarah Walker", "year": "1989", "label": "CRD Records → Brilliant Classics 99443 (CD 6)", "facts": "Пианист Roger Vignoles; ℗1989 CRD в кредитах официальной Topic-загрузки; подтверждение датировки — примечания бокса Brilliant («CD6 recorded 1989»). НОВАЯ карточка (в реестре у Walker значился только Hyperion т. 8 с Джонсоном).", "covers_more_pilot_songs": false},
+  {"album": "Schubert: Lieder (Claves/Bayer; переизд. Erato 4509-98493-2, Brilliant «Romantic Songs»)", "singer": "Dietrich Fischer-Dieskau", "year": "1987", "label": "Claves / Bayer → Erato / Brilliant", "facts": "Пианист Hartmut Höll; датировка — примечания бокса Brilliant 99443 («CD7 recorded 1987»), длительность трека 2:55 совпадает с записью FD/Höll в MusicBrainz (175 с). Erato-переиздание помечено «Live recording». НОВАЯ карточка.", "covers_more_pilot_songs": true},
+  {"album": "Elysium — A Schubert Recital (BIS)", "singer": "Carolyn Sampson", "year": "сессия 21–23.09.2020 (для D 939); выпуск 03.03.2023", "label": "BIS", "facts": "Позиция уже в реестре с по-сессионной разбивкой: сессия 2020 — только D 762, D 939, D 343. Подтверждает год 2020 для этой песни.", "covers_more_pilot_songs": true},
+  {"album": "Schubert: Schwanengesang (harmonia mundi)", "singer": "Mark Padmore", "year": "℗2011", "label": "harmonia mundi", "facts": "Пианист Paul Lewis; D 939 включена как дополнение к циклу. Третья часть трилогии Padmore/Lewis (Winterreise 2009 — Gramophone Award 2010, Müllerin 2010).", "covers_more_pilot_songs": true},
+  {"album": "Schubert — Wigmore Hall Live", "singer": "Ian Bostridge", "year": "℗2014 (дата концерта не установлена)", "label": "Wigmore Hall Live", "facts": "Пианист Julius Drake; позиция уже в реестре (WHLive0067 / WHLive0091) с пометкой о неустановленных датах концертов.", "covers_more_pilot_songs": true},
+  {"album": "Vanitas — Schubert, Beethoven & Rihm (Alpha)", "singer": "Georg Nigl", "year": "℗2020", "label": "Alpha Classics", "facts": "Ольга Пащенко, историческое фортепиано; концептуальная программа. НОВАЯ карточка для реестра.", "covers_more_pilot_songs": false},
+  {"album": "Nocturnal Variations (Champs Hill)", "singer": "Ruby Hughes", "year": "℗2016", "label": "Champs Hill Records", "facts": "Пианист Joseph Middleton. НОВАЯ карточка.", "covers_more_pilot_songs": false},
+  {"album": "Schubert: Schwanengesänge (Deutschlandradio / DG)", "singer": "Markus Schäfer", "year": "℗2017", "label": "Deutschlandradio / Deutsche Grammophon", "facts": "Пианист Tobias Koch. НОВАЯ карточка.", "covers_more_pilot_songs": false},
+  {"album": "Lieder ohnegleichen (Spektral)", "singer": "Daniel Johannsen", "year": "℗2019", "label": "Spektral", "facts": "Christoph Hammer, историческое фортепиано. НОВАЯ карточка.", "covers_more_pilot_songs": false}
  ],
  "surveys": [
-  "klassik-prisma.de — индекс шубертовских сравнений (https://www.klassik-prisma.de/Schubert.htm): сравнения по «Die Sterne» НЕТ; на сайте разобраны только D 774, D 965, D 828, D 328, D 118, D 583, D 827, D 795, D 911.",
-  "Hyperion Records, страница CDJ33006 (https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33006) — сводка прессы по тому 6 «Schubert & the Nocturne I» (Gramophone, Penguin Guide, Classic CD, Hi-Fi News) и данные сессии.",
-  "Hyperion Records, страница CDJ33036 (https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33036) — сводка прессы по тому 36 (Gramophone, BBC Music Magazine Critics' Choice, Sydney Morning Herald), подтверждение трека 13 = D 939.",
-  "EMI/Warner «Schubert — Lieder on Record 1898–2012» (50999 3 27575 2 1) — историческая антология; составители выбрали для D 939 версию Прегардьен/Геес (MusicBrainz)."
+  {"source": "klassik-prisma.de (Bernd Stremmel), индекс Шуберта", "url": "https://www.klassik-prisma.de/Schubert.htm", "result": "Страницы по «Die Sterne» НЕТ — сравнительного обзора этой песни у Стреммеля не существует (в индексе только D 118, D 328, D 774, D 827/828, циклы и инструментальные работы)."},
+  {"source": "Hyperion Schubert Edition, Vol. 36 — аннотация Graham Johnson", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33036", "result": "Не сравнительный обзор записей, но авторитетный музыковедческий источник: датировка (январь 1828), контекст лейтнеровского блока, оценка «наиболее известная из лейтнеровских песен»."},
+  {"source": "Hyperion Schubert Edition, Vol. 37 «The Final Year» — аннотация Graham Johnson", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33037", "result": "Документирует, что Die Sterne заменила Der Wanderer an den Mond в программе единственного авторского концерта Шуберта 26 марта 1828 (пел Иоганн Михаэль Фогль) — историческая весомость песни."},
+  {"source": "Дискография Майкла Грея, поиск по работе «Die Sterne, D939»", "url": "https://www.classical-discography.org/search.php", "result": "Три задокументированные сессии: Prey/Hokanson (27–30.10.1971, München, Philips 6747 059), Ameling/Baldwin (21–26.08.1973, Philips 6500 704), Fischer-Dieskau/Richter (2+4.07.1977, Tours, DG 2530 988)."}
  ],
  "negatives": [
-  "Сравнительного обзора («Vergleich», слепого теста) именно по «Die Sterne» D 939 не существует ни на klassik-prisma.de, ни в найденных источниках: песня не входит в число «хитовых» и разбирается критикой только внутри рецензий на альбомы.",
-  "Квастхоф, Шварцкопф, Хоттер, Андерс, Э. Шуман, К. Людвиг — записей D 939 нет (MusicBrainz + дискографии из дайджеста). Из восьми приоритетных певцов песню пели только Фишер-Дискау и Попп.",
-  "Запись Лючии Попп (с Ирвином Гейджем) существует, но её загрузки на YouTube найти не удалось — приоритетная певица выпадает по технической недоступности, а не по качеству.",
-  "Ф.-Д./Хёлль (Erato, live) и Ф.-Д./Мур (Orfeo, Зальцбург) — годы записи установить не удалось; зальцбургский шубертовский вечер 5.08.1957 (Orfeo C 140 101) D 939 НЕ содержит, значит это другой вечер серии 1956–1965.",
-  "Ловушки омонимии: «Die Sterne» D 684 (Ф. Шлегель) и D 176 — другие песни; в выдаче попадались Elly Ameling (D 684, 17AN7dMwqgA), Matthias Goerne (D 684, Hyperion т. 27), Felicity Lott и Detlef Roth (D 176), Frederica von Stade («Die Sterne» Полины Виардо, Opera Rara), а также «Und es blitzten die Sterne» из «Тоски» у Вундерлиха и Таубера. Ни один из них к D 939 отношения не имеет.",
-  "Гётевские/шубертовские интегралы, где D 939 ОТСУТСТВУЕТ по составу: Goerne Schubert Edition (harmonia mundi) — в MusicBrainz D 939 за Гёрне нет; Hasselhorn «Schubert 200» — пока не дошёл до 1828 г.; Schuen (DG-трилогия), Gerhaher, Güra, Boesch, Appl, Fassbaender, Baker, Ameling-Hyperion т. 7, Finley — совпадений по D 939 не найдено.",
-  "Gramophone.co.uk из контейнера недоступен (HTTP 403); WebSearch-бюджет сессии исчерпан (200/200) — часть репутационных данных собрана по дискографическим и лейбловым источникам, а не по рецензиям.",
-  "Записи, непригодные для топ-5 по составу/идентификации: Kirchschlager (аранжировка для ансамбля Philharmonia Schrammeln, не фортепиано) и The Aldeburgh Connection (певец в метаданных не назван)."
+  "Лимит WebSearch исчерпан до начала задачи (200/200) — Gramophone, MusicWeb International, BBC Music Magazine, слепые тесты и страница песни на hyperion-records.co.uk через поиск НЕ проверены. Критические оценки конкретных записей D 939 в досье почти отсутствуют; при доводке отбора этот слой надо добрать в сессии с доступным поиском.",
+  "klassik-prisma не имеет страницы по этой песне — привычного для проекта источника пятибалльных оценок здесь нет.",
+  "Поиск по сайту Hyperion (search.asp / advsearch.asp) из контейнера не работает (404/редирект) — доступны только прямые URL дисков вида dc.asp?dc=D_CDJ33006.",
+  "Приоритетные певцы Quasthoff, Schwarzkopf, Hotter, Anders, E. Schumann, Ludwig эту песню, по всем доступным базам, не записывали.",
+  "Запись Popp/Gage существует, но на YouTube отсутствует — единственная женская запись приоритетного уровня недоступна для плеера.",
+  "Из фонда «старых мастеров» песню не записывали также Wunderlich, Schreier, Hüsch, Patzak, Schlusnus, Erb (MusicBrainz — 0 результатов по каждому; выдача по Wunderlich подменяется арией «E lucevan le stelle» из «Тоски»).",
+  "Не найдено записей у Goerne, Gerhaher, Schuen, Hasselhorn, Appl, Boesch, Güra, Finley, Holl, Fassbaender, Baker, Norman (MusicBrainz — 0 результатов; отдельные запросы прерывались ошибкой 503, часть проверена повторно).",
+  "Точная сессия студийной записи Fischer-Dieskau/Moore (DG Sämtliche Lieder) для D 939 не установлена: в дискографии Грея этой позиции нет, Topic-метаданные даты не содержат.",
+  "Год зальцбургского лайва Fischer-Dieskau/Moore (бокс Orfeo 1956–1965) для этого номера не документирован; подпись фан-загрузки «Salzburg 1963» источником не является.",
+  "Дата концерта Pears/Britten («The Aldeburgh Recital») не документирована ни в одном доступном издании — при включении в топ-5 понадобится диапазон со знаком вопроса.",
+  "Расхождение по году записи Popp/Gage: дайджест — 1983, Discogs (LP Angel/HMV) — 1984; буклет EMI не проверен.",
+  "Расхождение по пианисту Прая: Грей — Hokanson, Topic-кредиты — Engel."
  ]
 }

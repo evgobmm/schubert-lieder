@@ -1,0 +1,82 @@
+{
+ "d": "D 492",
+ "title": "Zum Punsche",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "не установлен (несколько разных Topic-загрузок: 83s ×2 идентичных, 74s, 75s — возможно, разные издания/ремастеринги одной сессии)",
+   "rec_year": "не установлен",
+   "year_source": "нет прямого совпадения с реестром для этой конкретной песни; вероятно DG Sämtliche Lieder (1966–72), но не подтверждено",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "н/д",
+   "reputation": "не исследована",
+   "videoId": "KJ-3Q18TZFk",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Toby Spence",
+   "pianist": "Graham Johnson",
+   "rec_year": "1998",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — «Сборный (…Spence…) — Vol. 32 «An 1816 Schubertiad» (CDJ33032, зап. XII.1998, изд. III.1999)»",
+   "album": "Hyperion Schubert Edition, Vol. 32 «An 1816 Schubertiad»",
+   "label": "Hyperion (Universal)",
+   "voice_note": "молодой тенор в сборном томе Hyperion",
+   "reputation": "часть научного эталонного свода Джонсона",
+   "videoId": "bRkBv3z6UvE",
+   "channel": "Toby Spence - Topic",
+   "official": true
+  },
+  {
+   "singer": "Siegfried Lorenz",
+   "pianist": "Norman Shetler",
+   "rec_year": "не установлен точно",
+   "year_source": "реестр: planning/youtube/albums/male-recitalists.md — Eterna-серия по поэтам; D 492 — стихотворение Matthisson, вероятный том «Lieder nach Matthisson, Stolberg, Claudius, Schubart und Salis» (8 27 903, издание в диапазоне серии 1975–1985) — не подтверждено трек-листом",
+   "album": "Eterna Schubert-серия, том по Маттисону/Штольбергу и др. (8 27 903)",
+   "label": "Eterna / Berlin Classics",
+   "voice_note": "восточногерманская систематическая серия",
+   "reputation": "справочная позиция",
+   "videoId": "hnEzSr7lYEg",
+   "channel": "Siegfried Lorenz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Cornelius Hauptmann",
+   "pianist": "не установлен (регистровое совпадение только по фамилии — «Mayrhofer, Vol. 1» вряд ли содержит текст Matthisson, вероятно другой том Naxos DSLE)",
+   "rec_year": "не установлен",
+   "year_source": "реестр даёт только общую карточку певца (Naxos т. 4, 8.554738) — не подтверждена как альбом именно этого трека",
+   "album": "Naxos Deutsche Schubert-Lied-Edition (том не определён)",
+   "label": "Naxos",
+   "voice_note": "н/д",
+   "reputation": "часть систематического немецкоязычного полного издания",
+   "videoId": "EUveA6fSb90",
+   "channel": "Cornelius Hauptmann - Topic",
+   "official": true
+  }
+ ],
+ "excluded_non_solo": [
+  {
+   "note": "Хоровая обработка для мужского хора, не сольная Lied-запись — не годится для стандартного топ-5 сольных исполнителей",
+   "videoId": "ixAkifHsVKA",
+   "channel": "Camerata Musica Limburg - Topic",
+   "title": "Zum Punsche, D. 492 (Arr. for Male Chorus & Piano)"
+  },
+  {
+   "note": "Songmakers' Almanac — ансамблевый камерный проект, певец не идентифицирован по названию",
+   "videoId": "Ujdj2OtP4G8",
+   "channel": "The Songmakers' Almanac - Topic"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найдено",
+  "Fischer-Dieskau": "есть — official Topic, но год/альбом не установлены",
+  "Schwarzkopf": "не найдено",
+  "Hotter": "не найдено",
+  "Anders": "не найдено",
+  "E. Schumann": "не найдено",
+  "Ludwig": "не найдено",
+  "Popp": "не найдено"
+ },
+ "new_albums": []
+}

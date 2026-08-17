@@ -1,0 +1,87 @@
+{
+ "d": "528",
+ "title": "La pastorella al prato",
+ "candidates": [
+  {
+   "singer": "Cecilia Bartoli",
+   "pianist": "András Schiff или Jean-Yves Thibaudet (два разных альбома по mb_artists — не разделены по videoId)",
+   "rec_year": "не установлен",
+   "year_source": "не установлен; mb_artists кандидатов даёт обе пары («Cecilia Bartoli, András Schiff» и «Cecilia Bartoli, Jean-Yves Thibaudet»), привязка к конкретному videoId не сделана",
+   "album": "не установлен (Bartoli записывала Schubert-Italian-текст на диске с Schiff, «An die Musik» 1996 — по дайджесту, единственное подтверждённое Schubert-звено Бартоли)",
+   "label": "Decca (Universal)",
+   "voice_note": "не исследовано отдельно",
+   "reputation": "звезда-меццо/сопрано; для D 528 репутация конкретно этой записи не исследована",
+   "videoId": "mNxKvFeVuVc",
+   "channel": "Cecilia Bartoli",
+   "official": false,
+   "note": "неофициальный канал певицы (не Topic); дубль под videoId -xdNEqLdqR0"
+  },
+  {
+   "singer": "Arleen Augér",
+   "pianist": "Graham Johnson",
+   "rec_year": "1989 (Hyperion зап. X.1989, изд. I.1991)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (Hyperion т. 9 «Schubert and the Theatre», CDJ33009)",
+   "album": "Hyperion Schubert Edition, Vol. 9 «Schubert and the Theatre»",
+   "label": "Hyperion (Universal)",
+   "voice_note": "по singers-digest.md — пик Аугер ~1980-е, ранняя смерть в 1993, позднего спада практически нет",
+   "reputation": "часть научного свода Джонсона",
+   "videoId": "5GL2xFpImXU",
+   "channel": "Arleen Augér - Topic",
+   "official": true
+  },
+  {
+   "singer": "Regula Mühlemann",
+   "pianist": "Tatiana Korsunskaya",
+   "rec_year": "не установлен",
+   "year_source": "не установлен; пара подтверждена mb_artists",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не исследовано",
+   "reputation": "не установлена",
+   "videoId": "cJw4WLPgdX4",
+   "channel": "Regula Mühlemann",
+   "official": false,
+   "note": "неофициальный канал (не Topic); современная швейцарская сопрано"
+  },
+  {
+   "singer": "Margaret Price",
+   "pianист": "James Lockhart",
+   "rec_year": "не установлен",
+   "year_source": "не установлен; пара подтверждена mb_artists",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "по singers-digest.md — пик Прайс ~1970–1990",
+   "reputation": "не установлена для этого трека",
+   "videoId": null,
+   "channel": null,
+   "official": null,
+   "note": "в выдаче candidates.json конкретный videoId для этой пары не найден — только атрибуция через mb_artists; требует доисследования при повышении песни"
+  },
+  {
+   "singer": "Mattiwilda Dobbs",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет данных — не найден в реестре/дайджесте",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "историческое сопрано (1925–2015), пик 1950-е; не в списке приоритетных, но старая школа",
+   "reputation": "не установлена",
+   "videoId": "0OfMOhzagNY",
+   "channel": "Mattiwilda Dobbs - Topic",
+   "official": true,
+   "note": "второй трек того же исполнителя — videoId Nhc63IZVIzA, заголовок «La pastorella al prato II» — вероятно альтернативная версия/дубль на том же альбоме"
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не применимо (женская песня, Квасthoff женских песен не пел)",
+  "Fischer-Dieskau": "не применимо (женская песня — не входит в его исключительно мужской свод)",
+  "Schwarzkopf": "не найдено в пуле кандидатов",
+  "Hotter": "не применимо",
+  "Anders": "не применимо",
+  "E. Schumann": "не найдено в пуле кандидатов",
+  "Ludwig": "не найдено в пуле кандидатов",
+  "Popp": "не найдено в пуле кандидатов"
+ },
+ "new_albums": [],
+ "note": "ВАЖНО: D 528 (сольная песня на текст Метастазио) — НЕ путать с одноимённым мужским квартетом D 513 «La pastorella al prato» (для мужского хора с ф-но); в candidates.json значительная часть выдачи (Bartmans, Wiener Sängerknaben, Chorus Viennensis, SUHAR Korua, Kölner Männerchor, Camerata Musica Limburg, Graham Johnson-Topic с пометкой «Male Partsong») относится к D 513 и исключена из пула D 528. Margaret Price/Lockhart оставлена в досье как атрибуция без videoId — нужна доработка при полном конвейере."
+}
