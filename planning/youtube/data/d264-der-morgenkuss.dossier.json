@@ -1,0 +1,11 @@
+{
+ "d": "264",
+ "title": "Der Morgenkuß",
+ "candidates": [
+  {"singer":"Dietrich Fischer-Dieskau","pianist":"Gerald Moore","rec_year":"1966–72","year_source":"реестр: albums.md (DG полный свод мужских песен)","album":"DG complete Lieder edition","label":"DG","voice_note":"пик формы","reputation":"эталонный полный свод","videoId":"jY3m5I_41vE","channel":"Dietrich Fischer-Dieskau - Topic","official":true},
+  {"singer":"Margaret Price","pianist":"Graham Johnson","rec_year":"не установлен точный том (Hyperion Schubert Edition)","year_source":"MusicBrainz (Margaret Price, Graham Johnson); videoId найден целевым yt-dlp-поиском (не было в исходном candidates.json)","album":"Hyperion Schubert Edition (том не идентифицирован)","label":"Hyperion","voice_note":"не исследовано","reputation":"часть научного свода Джонсона; Price — крупная звезда сопрано 1960–90-х","videoId":"HoUZMOPdHeQ","channel":"Graham Johnson - Topic","official":true}
+ ],
+ "priority_check": {"Quasthoff":"нет","Fischer-Dieskau":"есть, полный свод DG","Schwarzkopf":"нет","Hotter":"нет","Anders":"нет","E.Schumann":"нет","Ludwig":"нет","Popp":"нет"},
+ "new_albums": [],
+ "notes": "Крайне скудный пул (2) — исходный candidates.json не содержал значительных кандидатов, кроме FiDi (дубль Y0GJHw8NzbM — та же запись, вторая загрузка); Margaret Price добавлена целевым поиском по MusicBrainz-исполнителю. Остальные кандидаты в файле — любительские/нерелевантные каналы (не Schubert Lied, а бытовые ролики с созвучным названием «Morgenkuss»)."
+}

@@ -1,0 +1,23 @@
+{
+  "d": "766",
+  "title": "Am Flusse",
+  "candidates": [
+    {"singer": "Dietrich Fischer-Dieskau", "pianist": "Gerald Moore", "rec_year": "1966–72", "year_source": "реестр: DG Sämtliche Lieder (mb_artists подтверждает Moore)", "album": "DG Sämtliche Lieder", "label": "DG", "voice_note": "пик формы", "reputation": "эталонный корпус", "videoId": "l2jgfdSebSY", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true},
+    {"singer": "Robert Holl", "pianist": "David Lutz", "rec_year": "не установлен (Preiser, издание 04.06.2021)", "year_source": "реестр: Preiser «Robert Holl singt Schubert-Lieder auf Texte von Goethe» — год записи не установлен, дата в реестре только релиза", "album": "Schubert-Lieder auf Texte von Goethe", "label": "Preiser", "voice_note": "патриарх Шубертиады, «гранитная» манера, пик ~1980–2005", "reputation": "-", "videoId": "zzzhzpQIju0", "channel": "Robert Holl (не Topic)", "official": false},
+    {"singer": "Ian Bostridge", "pianist": "Julius Drake", "rec_year": "1996", "year_source": "реестр: EMI Schubert Lieder Vol.1", "album": "Schubert Lieder Vol. 1 (EMI)", "label": "EMI/Warner", "voice_note": "пик 1995–2010", "reputation": "сильный дебютный рецитал", "videoId": "rFd6WM_SXWo", "channel": "Ian Bostridge (не Topic)", "official": false},
+    {"singer": "Stephen Varcoe", "pianist": "Graham Johnson", "rec_year": "не установлен", "year_source": "mb_artists: Varcoe/Johnson — Hyperion Schubert Edition, том не определён", "album": "Hyperion Schubert Edition", "label": "Hyperion", "voice_note": "-", "reputation": "-", "videoId": "vbHueTPVTos", "channel": "Stephen Varcoe - Topic", "official": true},
+    {"singer": "Christoph Prégardien (упомянут как «Am Flusse I, D.160» — другая песня, не D 766!)", "pianist": "Andreas Staier", "rec_year": "н/д", "year_source": "н/д — исключить, это D 160, а не D 766", "album": "н/д", "label": "н/д", "voice_note": "исключён из пула", "reputation": "-", "videoId": "GKjvIvMnuYU", "channel": "Christoph Prégardien - Topic", "official": true}
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "да — DG Sämtliche Lieder (Moore)",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "note": "Внимание: в выдаче скрипта много ложных совпадений с D 160 «Am Flusse» (другая, более ранняя песня Шуберта на тот же зачин Гёте) — при отборе топ-5 фильтровать по точному D 766 в названии/содержании ролика.",
+  "new_albums": []
+}

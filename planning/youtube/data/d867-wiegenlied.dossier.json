@@ -1,0 +1,98 @@
+{
+ "d": "867",
+ "title": "Wiegenlied (\"Wie sich der Äuglein\", Seidl, Op. 105 № 2)",
+ "candidates": [
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "Gérard Wyss (вероятно)",
+   "rec_year": "1993?",
+   "year_source": "реестр: Tudor Vol.3 — 3 идентичных дубля видео на Topic-канале, не подтверждено по трек-листу",
+   "album": "Schubert: Lieder, Vol. 3 (Tudor)",
+   "label": "Tudor",
+   "voice_note": "не исследовано",
+   "reputation": "не исследовано",
+   "videoId": "U5fs-dI40Yo",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Janet Baker",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "видео корректно озаглавлено «Op. 105 No. 2, D. 867»; реестр даёт три карточки Бейкер (2-LP EMI/Great EMI Recordings 1970 Moore; Hyperion Vol.1 Goethe & Schiller Settings 1987) — Hyperion Vol.1 маловероятен (Seidl — не Гёте/Шиллер), скорее широкий EMI-рецитал 1970 (Moore, 30 песен)",
+   "album": "вероятно Schubert: Lieder / The Great EMI Recordings (2 LP, 30 песен, 1970, Moore)",
+   "label": "EMI / Warner",
+   "voice_note": "не исследовано",
+   "reputation": "не исследовано",
+   "videoId": "WNCkBD5Wv0M",
+   "channel": "Janet Baker - Topic",
+   "official": true
+  },
+  {
+   "singer": "Andrè Schuen",
+   "pianist": "Daniel Heide (вероятно)",
+   "rec_year": "не установлен",
+   "year_source": "нет подтверждённого альбома в реестре (Wanderer 2016/2018 содержит другую песню); высокий охват (9055 просмотров) — вероятно отдельный сингл или бонус-трек DG",
+   "album": "неизвестен",
+   "label": "неизвестен",
+   "voice_note": "не исследовано",
+   "reputation": "флагманский молодой Schubert-баритон DG (дайджест)",
+   "videoId": "NLM8uqyrXM0",
+   "channel": "Andrè Schuen - Topic",
+   "official": true
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "гётевские хиты реестра не относятся к этой песне; вероятный источник — DG Moore Complete Edition",
+   "album": "вероятно DG Moore Complete Edition",
+   "label": "DG?",
+   "voice_note": "не исследовано",
+   "reputation": "не исследовано",
+   "videoId": "6ADaeQE16dk",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Brigitte Fassbaender",
+   "pianist": "Erik Werba",
+   "rec_year": "1974?",
+   "year_source": "реестр: EMI Electrola Lieder von Franz Schubert, сессии 16–18 мая 1974 — не подтверждено по трек-листу",
+   "album": "Lieder von Franz Schubert (EMI Electrola)",
+   "label": "EMI Electrola",
+   "voice_note": "не исследовано",
+   "reputation": "не исследовано",
+   "videoId": "9Nl-XTlj3S8",
+   "channel": "Brigitte Fassbaender - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elisabeth Grümmer",
+   "pianist": "Gerald Moore",
+   "rec_year": "1958",
+   "year_source": "реестр: Elisabeth Grümmer singt Lieder von Schubert und Brahms (Electrola/Testament SBT 1086), сессия 11 ноября (Testament-переиздание), ℗1959; компактная Lieder-дискография — правдоподобное включение",
+   "album": "Lieder von Schubert und Brahms (Electrola; переизд. Testament SBT 1086)",
+   "label": "Electrola / EMI",
+   "voice_note": "не исследовано (дайджест: пик кон.1940-х–1950-е)",
+   "reputation": "не исследовано",
+   "videoId": "IXJKe9gYht4",
+   "channel": "Elisabeth Grümmer - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет в пуле",
+  "Fischer-Dieskau": "есть (Topic, источник не установлен)",
+  "Schwarzkopf": "нет в пуле",
+  "Hotter": "нет в пуле",
+  "Anders": "нет в пуле",
+  "E. Schumann": "нет в пуле (найден только для другого «Wiegenlied» — см. ниже)",
+  "Ludwig": "нет в пуле",
+  "Popp": "нет в пуле"
+ },
+ "new_albums": [
+  "Ria Ginster (сопрано, пик 1930-е) — по singers-digest.md имеет запись D 867 «Wiegenlied» (HMV, Gerald Moore, сессии 1933–35). В candidates.json не попала (не найдена скриптом на YouTube; дайджест отмечает «слабейший охват фонда, единичный фан»). Возможный дополнительный историчный кандидат — требует прицельного поиска на YouTube."
+ ],
+ "note": "КРИТИЧЕСКИ ВАЖНО: в исходном candidates.json большинство кандидатов относится к СОВСЕМ ДРУГОЙ песне — D 498 «Wiegenlied» (Клаудиус, «Schlafe, schlafe, holder süsser Knabe», авторство Шуберта спорно), а не к D 867 (Зайдль, «Wie sich der Äuglein»). Ошибочно попали в пул из-за совпадения слова «Wiegenlied»: Anna Lucia Richter (4W3u6uYw5DQ, явно D.498 в заголовке), KenBan (пиано-соло, D.498), Sheetmusic2print (D 498, дважды), Irmgard Seefried (D.498), youshine/Chiara Skerath, Angelika Kirchschlager (SCPFQaKkHUk — «Schlafe, schlafe...» D 498; также d18-BytrNIs на Kirchschlager-Topic озаглавлено D.867, но текст «Wie sich der Äuglein» — корректно), Monica Groop (текст не проверен — возможна путаница), Calm Mind Music (Op.98-2 = D 498), Gundula Janowitz (uEBPnHRV4Yk, явно D.498 «Schlafe, holder»). Все эти кандидаты ИСКЛЮЧЕНЫ из пула D 867 выше. Ginster, Grümmer, Baker и т.п. с явным «Op.105 No.2, D.867» в заголовке — корректны."
+}

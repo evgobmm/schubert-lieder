@@ -1,0 +1,23 @@
+{
+  "d": "765",
+  "title": "An die Entfernte",
+  "candidates": [
+    {"singer": "Dietrich Fischer-Dieskau", "pianist": "Gerald Moore", "rec_year": "1966–72", "year_source": "реестр: DG «Sämtliche Lieder» (не карточка конкретно по этой песне, но mb_artists=Moore подтверждает издание, не Electrola/DG-Goethe-1959/1960/Orfeo-1970, которые дал скрипт как registry_hits по фамилии)", "album": "DG Sämtliche Lieder (Moore)", "label": "DG", "voice_note": "пик формы 1951–1972", "reputation": "эталонный корпус мужских песен Шуберта", "videoId": "N_h5eznjdvE", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true},
+    {"singer": "Elly Ameling", "pianist": "Rudolf Jansen", "rec_year": "не установлен (mb: Ameling/Jansen — вероятно поздний Jansen-рецитал, ~1986)", "year_source": "не установлен", "album": "неизвестный Jansen-рецитал", "label": "?", "voice_note": "пик 1965–1985", "reputation": "самая записываемая шубертианка поколения (дайджест)", "videoId": "AUxhU6d0X_I", "channel": "Elly Ameling - Topic", "official": true},
+    {"singer": "Ian Bostridge", "pianist": "Julius Drake", "rec_year": "1996", "year_source": "реестр: EMI Schubert Lieder Vol.1, февр.–март 1996, Abbey Road", "album": "Schubert Lieder Vol. 1 (EMI)", "label": "EMI/Warner", "voice_note": "пик 1995–2010", "reputation": "сильнейший ранний рецитал по оценке реестра", "videoId": "h57pwJK1_Io", "channel": "Ian Bostridge (не Topic)", "official": false},
+    {"singer": "Hermann Prey", "pianist": "Karl Engel", "rec_year": "1972", "year_source": "реестр: Philips 6500 515 «Goethe-Lieder» (Ameling/Prey), сессии 20–21.06.1972", "album": "Goethe-Lieder (Philips 6500 515, сторона B)", "label": "Philips", "voice_note": "пик 1960–1980", "reputation": "стандартная Philips-эпоха Прея", "videoId": "OjMX3PSuEPo", "channel": "Hermann Prey - Topic", "official": true},
+    {"singer": "Peter Pears", "pianist": "Benjamin Britten", "rec_year": "не установлен (Decca/BBC серия 1950-60-е)", "year_source": "дайджест: певец-пианист дуэт Pears/Britten", "album": "не установлен", "label": "Decca/BBC", "voice_note": "пик 1950–1960-е", "reputation": "исторический дуэт", "videoId": "5f872cfcoGY", "channel": "Peter Pears - Topic", "official": true},
+    {"singer": "неизвестен (возможно Peter Schreier)", "pianist": "Graham Johnson", "rec_year": "не установлен", "year_source": "mb_artists: Peter Schreier, Graham Johnson — Hyperion Schubert Edition", "album": "Hyperion Schubert Edition (том не определён)", "label": "Hyperion", "voice_note": "-", "reputation": "часть научного свода Джонсона", "videoId": "rkOuSntquqc", "channel": "Graham Johnson - Topic", "official": true}
+  ],
+  "priority_check": {
+    "Quasthoff": "нет в кандидатах и в дайджесте — репертуар не пересекается",
+    "Fischer-Dieskau": "да — DG Sämtliche Lieder (Moore); также возможны более ранние Goethe-альбомы 1959/1960/Orfeo-1970, требуют уточнения если войдут в топ-5",
+    "Schwarzkopf": "нет — женская партия не исполняется, песня для мужского голоса не исключена, но кандидатов от неё нет",
+    "Hotter": "нет в кандидатах",
+    "Anders": "нет в кандидатах",
+    "E. Schumann": "нет в кандидатах",
+    "Ludwig": "нет в кандидатах",
+    "Popp": "нет в кандидатах"
+  },
+  "new_albums": []
+}

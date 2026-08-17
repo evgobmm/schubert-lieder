@@ -1,0 +1,23 @@
+{
+ "d": "673",
+ "title": "Die Liebende schreibt, D. 673 (Goethe)",
+ "note_disambiguation": "Женская по смыслу (письмо возлюбленной) — Фишер-Дискау сознательно исключал такие песни из своего свода (дайджест певцов). Ловушка в candidates.json: тот же заголовок «Die Liebende schreibt» есть у Мендельсона (op. 86 № 3 / MWV K66 и op. 47 № 5) на тот же гётевский текст — Fassbaender/Bonney/Banse-Topic хиты подтверждённо относятся к Мендельсону (op./MWV в названии трека), НЕ к Шуберту; исключены из пула.",
+ "candidates": [
+  {"singer": "Gundula Janowitz", "pianist": "Irwin Gage", "rec_year": "1976–1977", "year_source": "реестр: planning/youtube/albums/female-recitalists.md (4-LP свод DG)", "album": "Schubert: Lieder, 4-LP свод (DG 2713 012 + 2530 858)", "label": "Deutsche Grammophon", "voice_note": "пик формы (1965–1980)", "reputation": "серия дважды удостоена Deutscher Schallplattenpreis", "videoId": "AHz64zRL3Y8", "channel": "Gundula Janowitz - Topic", "official": true},
+  {"singer": "Lucia Popp", "pianist": "Irwin Gage", "rec_year": "апрель 1992", "year_source": "реестр: planning/youtube/albums/complete-editions.md (Hyperion Vol. 17)", "album": "The Hyperion Schubert Edition, Vol. 17 «Schubert in 1816»", "label": "Hyperion (Universal)", "voice_note": "один из последних студийных рециталов Попп (умерла в 1993)", "reputation": "приоритетная певица по правилам проекта", "videoId": "jnX8MnpZ69U", "channel": "Lucia Popp - Topic", "official": true},
+  {"singer": "Elly Ameling", "pianist": "не установлен точно", "rec_year": "не установлен", "year_source": "нет — гэп (несколько альбомов-кандидатов в реестре Ameling, точный источник D 673 не привязан)", "album": "не установлен", "label": "не установлен", "voice_note": "н/д", "reputation": "н/д", "videoId": "cl2XHMHMOyw", "channel": "Elly Ameling - Topic", "official": true},
+  {"singer": "Arleen Augér", "pianist": "не установлен (вероятно Hyperion Vol.9)", "rec_year": "октябрь 1989 (предположительно)", "year_source": "частично реестр: planning/youtube/albums/complete-editions.md (Vol. 9 «Schubert & the Theatre»), требует подтверждения", "album": "The Hyperion Schubert Edition, Vol. 9 (предположительно)", "label": "Hyperion (предположительно)", "voice_note": "пик формы 1980-е", "reputation": "н/д", "videoId": "TDf5rt-I5TA", "channel": "Arleen Augér - Topic", "official": true},
+  {"singer": "Ruth Ziesak", "pianist": "Ulrich Eisenlohr (предположительно)", "rec_year": "не установлен", "year_source": "нет — гэп", "album": "предположительно Naxos Deutsche Schubert-Lied-Edition (том не идентифицирован)", "label": "Naxos", "voice_note": "н/д", "reputation": "н/д", "videoId": "o1ISnYZeoTQ", "channel": "Ruth Ziesak - Topic", "official": true}
+ ],
+ "priority_check": {
+  "Quasthoff": "неприменимо (женская песня, вне мужского репертуара приоритетного певца)",
+  "Fischer-Dieskau": "не записывал — исключал женские песни (дайджест певцов)",
+  "Schwarzkopf": "не найдена в пуле",
+  "Hotter": "неприменимо",
+  "Anders": "неприменимо",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "ЕСТЬ — Hyperion Vol. 17, 1992"
+ },
+ "new_albums": []
+}

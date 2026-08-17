@@ -1,0 +1,70 @@
+{
+ "d": "238",
+ "title": "Die Mondnacht",
+ "note_general": "Рare-конвейер (облегчённый). ВАЖНО: большинство роликов в candidates.json — это «Mondnacht» Роберта Шумана (Liederkreis Op.39 №5, тот же заголовок, другое произведение) — исключены из пула. Реальных кандидатов по Шуберту D 238 всего 4.",
+ "candidates": [
+  {
+   "singer": "Sarah Walker",
+   "pianist": "Graham Johnson",
+   "rec_year": "1989 (сессия, май), издание декабрь 1990",
+   "year_source": "реестр: albums.md / albums/complete-editions.md (Hyperion Vol. 8 «Schubert & the Nocturne II», CDJ33008, зап. V.1989)",
+   "album": "Hyperion Schubert Edition, Vol. 8",
+   "label": "Hyperion",
+   "voice_note": "не проверено отдельно",
+   "reputation": "пресса (Daily Telegraph) хвалила закрывающий рецитал этого тома",
+   "videoId": "8rH2MC6LEmI",
+   "channel": "Sarah Walker - Topic",
+   "official": true
+  },
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore (вероятно)",
+   "rec_year": "1966-72",
+   "year_source": "реестр: singers-digest.md (DG Sämtliche Lieder) — точный альбом не подтверждён построчно; трек короткий (84 с), что типично для этой краткой ранней песни",
+   "album": "DG Sämtliche Lieder (наиболее вероятно)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик ФД ~1951-1972",
+   "reputation": "эталонный свод",
+   "videoId": "cC5t9IdNboI",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Lydia Teuscher",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "издание 11/2006",
+   "year_source": "реестр: albums/complete-editions.md (Naxos т.22 «Poets of Sensibility, Vol. 5», 8.557373)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т.22",
+   "label": "Naxos",
+   "voice_note": "не проверено",
+   "reputation": "часть немецкоязычного полного издания Naxos",
+   "videoId": "EFSgwxzUE9I",
+   "channel": "Lydia Teuscher - Topic",
+   "official": true
+  },
+  {
+   "singer": "Richard Tauber",
+   "pianist": "не установлен",
+   "rec_year": "1919-1946 (широкий диапазон дайджеста, конкретная дата не установлена)",
+   "year_source": "реестр: singers-digest.md / albums/male-recitalists.md (десятки песен Odeon/Parlophone 1919-46)",
+   "album": "не установлен (историческая сторона Odeon/Parlophone)",
+   "label": "Odeon/Parlophone (переизд. Naxos Historical)",
+   "voice_note": "исторический тенор, пик 1920-е-сер.1930-х",
+   "reputation": "значимый исторический голос",
+   "videoId": "yOAANU_FLuA",
+   "channel": "Richard Tauber - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "найден — см. выше",
+  "Schwarzkopf": "не найден",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E. Schumann": "не найден",
+  "Ludwig": "не найден",
+  "Popp": "не найден"
+ },
+ "new_albums": []
+}

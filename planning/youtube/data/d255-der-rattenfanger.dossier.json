@@ -1,0 +1,83 @@
+{
+ "d": "255",
+ "title": "Der Rattenfänger",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-72?",
+   "year_source": "реестр: albums.md (DG Sämtliche Lieder, 21 CD, сессии 1966–1972) — конкретная сессия для D255 не документирована в реестре; альбом с 4 балладами Electrola 1959 (Der Sänger, Bürgschaft, Der Fischer, Die Einsamkeit) НЕ содержит Der Rattenfänger по тексту карточки, поэтому исключён как источник",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "вокальный пик (певец 1925 г.р.)",
+   "reputation": "часть эталонного полного свода мужских песен; критика по конкретному треку не найдена",
+   "videoId": "I1t2necidxI",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Hermann Prey",
+   "pianist": "не установлен точно (Karl Engel / Leonard Hokanson / Helmut Deutsch — несколько Topic-загрузок Прая с разными длительностями, привязка к альбому не подтверждена)",
+   "rec_year": "1971 или 1982?",
+   "year_source": "реестр: albums.md — Prey записывал гётевские программы неоднократно (Philips 6747 059, 1971, Hokanson; Intercord 26 838-3, 1982, Deutsch, 25 гётевских песен) — конкретная сессия D255 не идентифицирована",
+   "album": "не идентифицирован однозначно (гётевская программа Прая)",
+   "label": "Philips / Intercord",
+   "voice_note": "не установлено",
+   "reputation": "не найдена целевая критика трека",
+   "videoId": "fQckDouE2Ho",
+   "channel": "Hermann Prey - Topic",
+   "official": true
+  },
+  {
+   "singer": "неизвестен (Topic-канал оформлен на пианиста Graham Johnson — Hyperion Schubert Edition)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "нет — конкретный том/певец для D255 не идентифицирован в собранных материалах",
+   "album": "Hyperion Schubert Edition (том не определён)",
+   "label": "Hyperion",
+   "voice_note": "н/д",
+   "reputation": "научный эталон издания в целом (дайджест)",
+   "videoId": "-LEyVrurkOE",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "Ulrich Eisenlohr (Naxos Deutsche Schubert-Lied-Edition, т. 20/21) — не подтверждено, что D255 входит именно в эти тома",
+   "rec_year": "нач. 2000-х (по хронологии серии)?",
+   "year_source": "реестр: albums/complete-editions.md (т. 20 «Poets of Sensibility, Vol. 3», Naxos 8.557568, изд. 12/2005)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, «Poets of Sensibility»",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть научного немецкоязычного свода Eisenlohr",
+   "videoId": "-jmpsqKA_0k",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Fritz Wunderlich",
+   "pianist": "не установлен для этого трека (маркировка Topic «1990 Remastered Version»)",
+   "rec_year": "до 1966 (Вундерлих погиб 17.09.1966)?",
+   "year_source": "реестр: singers-digest.md — Вундерлих записывал Шуберта в 1966 (DG, Giesen) и ранее (Eurodisc/Opera, 1950-60-е); точная сессия D255 не идентифицирована",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "reputation": "фонд Вундерлиха в целом — эталонный теноровый Шуберт (дайджест), но конкретный трек не оценивался критикой в собранных материалах",
+   "videoId": "dvrovyMwQgI",
+   "channel": "Fritz Wunderlich - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет данных о записи D255 (6 альбомов Квасthoff по дайджесту не включают эту редкую песню)",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG), см. кандидата выше",
+  "Schwarzkopf": "не найдена запись D255",
+  "Hotter": "не найдена запись D255",
+  "Anders": "не найдена запись D255",
+  "E. Schumann": "не найдена запись D255",
+  "Ludwig": "не найдена запись D255 (мужская партия, маловероятна)",
+  "Popp": "не найдена запись D255"
+ },
+ "new_albums": [
+  "Не найдено новых фактов об альбомах сверх реестра; для Прая, Хольцмайра и Hyperion-тома требуется точная привязка videoId к изданию перед публикацией — сделать целевой поиск на этапе ранжирования."
+ ]
+}

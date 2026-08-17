@@ -1,0 +1,57 @@
+{
+ "d": "250",
+ "title": "Das Geheimnis (An Verschwiegenheit, 1815, Schiller)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (сессии свода)",
+   "year_source": "реестр: planning/youtube/albums.md — DG Sämtliche Lieder",
+   "album": "Schubert: Sämtliche Lieder, 21 CD (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "приоритетный исполнитель №2; полный свод — базовая точка отсчёта",
+   "reputation": "эталонный полный свод мужских песен Шуберта",
+   "videoId": "2awdQspGLK4",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Janet Baker (меццо-сопрано)",
+   "pianist": "Graham Johnson",
+   "rec_year": "1987 (сессии февраль, Elstree; изд. декабрь 1987)",
+   "year_source": "реестр: planning/youtube/albums.md — Hyperion т. 1 «Goethe & Schiller Settings» (CDJ33001)",
+   "album": "The Hyperion Schubert Edition, Vol. 1: Goethe & Schiller Settings (CDJ33001)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено сверх каталожных данных; открывающий том 37-томного свода, целиком гётевско-шиллеровская программа — Das Geheimnis (Schiller) естественно вписывается",
+   "reputation": "Gramophone Award; №1 в «Top Ten Discs of the Decade» BBC Music Magazine — но за программу в целом, не конкретно за этот трек",
+   "videoId": "ojdloxDo3bQ",
+   "channel": "Janet Baker - Topic",
+   "official": true
+  },
+  {
+   "singer": "Lothar Odinius (тенор) — ПРИМЕЧАНИЕ: 1-я редакция D 250a",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2005 (изд. 05/2005)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — Naxos т. 18 «Schiller, Vols. 3 & 4» (8.557369-70)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 18 «Schiller, Vols. 3 & 4»",
+   "label": "Naxos",
+   "voice_note": "видео помечено «1st setting, D. 250a» — редкая ранняя редакция, для основной публикации предпочтительна стандартная D 250",
+   "reputation": "часть полного немецкоязычного свода Naxos",
+   "videoId": "8bMpa4K9H6k",
+   "channel": "Lothar Odinius - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "да — включён (DG Sämtliche Lieder)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [],
+ "note": "ВНИМАНИЕ: в кандидатах много совпадений по названию с ДРУГОЙ песней «Das Geheimnis» D 793 (An Franz Schubert текст Мayrhofer, 1823) — это отдельное произведение, не путать при отборе (в candidates.json помечено отдельно, отфильтровано здесь)."
+}

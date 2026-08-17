@@ -1,0 +1,109 @@
+{
+  "d": "536",
+  "title": "Der Schiffer",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "варьируется (Richter / Moore — минимум 2 разных версии, 8 отдельных Topic-загрузок)",
+      "rec_year": "разные",
+      "year_source": "MusicBrainz-кредиты фиксируют FiDi с Richter и отдельно с Moore для этой песни; конкретные годы не установлены построчно",
+      "album": "несколько (Sämtliche Lieder DG + партнёрство с Рихтером)",
+      "label": "разные",
+      "voice_note": "пик формы для основного свода по дайджесту",
+      "reputation": "самый широкий охват записи среди всех кандидатов, нужно выбрать канонiчную версию",
+      "videoId": "dvvawtt4EC0",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "не установлен по этому треку",
+      "rec_year": "не установлен",
+      "year_source": "нет прямой карты реестра",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "пик формы по дайджесту (~1990-2012)",
+      "reputation": "не исследовано детально",
+      "videoId": "HtAGeJAklnE",
+      "channel": "Christoph Prégardien - Topic",
+      "official": true
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Jacqueline Bonneau",
+      "rec_year": "1950-е (предположительно)",
+      "year_source": "MusicBrainz-кредит «Gérard Souzay, Jacqueline Bonneau»; дайджест: пик Souzay ~1950-е-сер.1960х, ранние Decca/Philips 1950х (не полностью подтверждено)",
+      "album": "ранняя Decca/Philips-сессия",
+      "label": "Decca/Philips (предположительно)",
+      "voice_note": "звезда прошлого, пик формы совпадает с вероятным периодом записи",
+      "reputation": "не исследовано детально по этому треку, но период соответствует пику",
+      "videoId": "PdiGHRyy7Vs",
+      "channel": "Gérard Souzay - Topic",
+      "official": true
+    },
+    {
+      "singer": "Nicolai Gedda",
+      "pianist": "Erik Werba",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz-кредит «Nicolai Gedda, Erik Werba»; Gedda отсутствует в дайджесте фонда певцов (не покрыт) — нет данных о пике формы",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследовано — Гедда не в основном фонде проекта, нужна отдельная проверка при рассмотрении",
+      "reputation": "не исследовано",
+      "videoId": "w8hAymIq5ds",
+      "channel": "Nicolai Gedda - Topic",
+      "official": true
+    },
+    {
+      "singer": "John Mark Ainsley",
+      "pianist": "Steven Lubin (хаммерклавир, по MusicBrainz)",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz-кредит; Ainsley в дайджесте упомянут только в резерве без карточки",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "не исследовано, современный/поздний ХХ в. кандидат",
+      "videoId": "0oIWmbPDkrY",
+      "channel": "John Mark Ainsley - Topic",
+      "official": true
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "не установлен по этому треку",
+      "rec_year": "не установлен",
+      "year_source": "Topic-канал озаглавлен «Schubert: Der Schiffer, D. 694» — ОШИБКА В НОМЕРЕ D (D 694, не D 536!); вероятно другая версия/редакция песни либо ошибка метаданных Topic — требует проверки перед использованием",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не проверено",
+      "reputation": "СОМНИТЕЛЬНО — расхождение номера D, не включать без проверки",
+      "videoId": "pH_uEjDtebg",
+      "channel": "Elly Ameling - Topic",
+      "official": true
+    },
+    {
+      "singer": "Stephen Varcoe",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен",
+      "year_source": "MusicBrainz-кредит, вероятно Hyperion Schubert Edition, том не идентифицирован",
+      "album": "неясно (Hyperion)",
+      "label": "Hyperion",
+      "voice_note": "не исследовано",
+      "reputation": "не исследовано, низкий приоритет",
+      "videoId": "rqdBlbL-UD8",
+      "channel": "Stephen Varcoe - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "не найден",
+    "Fischer-Dieskau": "найден — множественные версии, требуют разбора",
+    "Schwarzkopf": "не найдена",
+    "Hotter": "не найден",
+    "Anders": "не найден",
+    "E. Schumann": "не найдена",
+    "Ludwig": "не найдена",
+    "Popp": "не найдена"
+  },
+  "new_albums": [],
+  "note": "Пул: FiDi (несколько версий), Souzay (звезда прошлого, вероятно на пике), Prégardien, Gedda, Ainsley, Varcoe. Важная находка: у Elly Ameling заголовок Topic-ролика указывает D 694, а не D 536 — расхождение номера требует проверки перед публикацией, кандидат помечен как сомнительный."
+}

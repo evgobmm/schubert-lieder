@@ -1,0 +1,83 @@
+{
+  "d": "553",
+  "title": "Auf der Donau",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "варьируется (Richter / Britten / Moore / Demus / Engel — 6 отдельных Topic-загрузок)",
+      "rec_year": "разные (FiDi записывал эту песню несколько раз)",
+      "year_source": "MusicBrainz-кредиты фиксируют минимум 5 разных пар «FiDi + пианист» (Richter, Britten, Moore, Demus, Engel) — это означает у FiDi НЕСКОЛЬКО студийных версий этой песни, точные годы каждой не установлены построчно",
+      "album": "несколько (Sämtliche Lieder DG + отдельные партнёрства)",
+      "label": "разные (DG/Decca/EMI)",
+      "voice_note": "пик формы по дайджесту для основного свода; конкретная запись с Рихтером или Бриттеном может относиться к камерным лайв-проектам иной эпохи",
+      "reputation": "исключительно широкий выбор версий — нужно решить, какая именно пойдёт в топ (вероятно DG Sämtliche Lieder с Moore, как базовая)",
+      "videoId": "fIxPNYvK0T8",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Irwin Gage",
+      "rec_year": "не установлен точно",
+      "year_source": "MusicBrainz-кредит «Christa Ludwig, Irwin Gage» — дайджест фиксирует у Людвиг DG-ремейк с Gage ~1973",
+      "album": "предположительно DG-рецитал ~1973",
+      "label": "Deutsche Grammophon (предположительно)",
+      "voice_note": "приоритетная — пик формы по дайджесту ~1957-1975, эта запись близка к позднему пику",
+      "reputation": "приоритетная звезда, найдена одна запись",
+      "videoId": "-Ubnt6SQpGc",
+      "channel": "Christa Ludwig - Topic",
+      "official": true
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "не установлен по этому треку",
+      "rec_year": "не установлен",
+      "year_source": "нет прямой карты реестра на эту песню",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "пик формы по дайджесту (~1990–2012)",
+      "reputation": "не исследовано детально",
+      "videoId": "rFzKCPCGb2A",
+      "channel": "Christoph Prégardien - Topic",
+      "official": true
+    },
+    {
+      "singer": "Andrè Schuen",
+      "pianist": "Daniel Heide (обычный партнёр Шуэна)",
+      "rec_year": "не установлен точно",
+      "year_source": "реестр: Andrè Schuen — Wanderer (Avi-Music, зап. окт. 2016) — но карточка указана для другой песни пилота (D 259), включение Auf der Donau не подтверждено; либо более поздний DG-альбом (Müllerin/Schwanengesang/Winterreise 2021-24) тоже не подтверждён построчно",
+      "album": "неясно (Avi-Music Wanderer или DG-серия)",
+      "label": "неясно",
+      "voice_note": "флагманский молодой Schubert-баритон DG (дайджест)",
+      "reputation": "современный кандидат хорошего уровня, требует уточнения альбома",
+      "videoId": "0Z1fbBlJBtI",
+      "channel": "Andrè Schuen - Topic",
+      "official": true
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Hans Altmann",
+      "rec_year": "не установлен точно",
+      "year_source": "MusicBrainz-кредит «Hans Hotter, Hans Altmann»; в дайджесте Хоттер числится с Raucheisen (1942), Moore (1954) и Werba (1961) — партнёр Altmann отдельно не упомянут, вероятно другая, недокументированная сессия",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "приоритетный певец — пик по дайджесту ~1942-1955",
+      "reputation": "приоритетный, но не появился напрямую в Topic-кандидатах песни (только через Topic-канал «Hans Altmann», т.е. со стороны пианиста, а не Хоттера) — требует целевой проверки",
+      "videoId": "eoPBt3nSvr8",
+      "channel": "Hans Altmann - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "не найден",
+    "Fischer-Dieskau": "найден — множественные версии, требуют разбора",
+    "Schwarzkopf": "не найдена",
+    "Hotter": "вероятно найден (через канал пианиста Hans Altmann) — требует целевой проверки, есть ли реально его голос на этом треке",
+    "Anders": "не найден",
+    "E. Schumann": "не найдена",
+    "Ludwig": "найдена — приоритетная",
+    "Popp": "не найдена"
+  },
+  "new_albums": [],
+  "note": "Самый насыщенный пул из восьми: FiDi записывал песню многократно (минимум 5 разных пианистов по MusicBrainz), плюс Ludwig (приоритетная), Prégardien, Schuen, вероятно Hotter. Перед ранжированием нужно решить, какая именно версия FiDi канонична, и подтвердить участие Hotter."
+}

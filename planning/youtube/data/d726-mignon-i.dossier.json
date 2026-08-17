@@ -1,0 +1,17 @@
+{
+ "d": "726",
+ "title": "Mignon I (Heiss mich nicht reden)",
+ "candidates": [
+  {"singer": "Christine Schäfer", "pianist": "не установлен", "rec_year": "не установлен", "year_source": "не найден — доисследование не дало альбома (Discogs — только сборники)", "album": "не установлен", "label": "не установлен", "voice_note": "по дайджесту пик ~1995–2010", "reputation": "н/д для этой песни", "videoId": "scoKDZMsnpw", "channel": "Christine Schäfer - Topic", "official": true},
+  {"singer": "Arleen Augér", "pianист": "не установлен", "rec_year": "не установлен", "year_source": "не установлен — у Аугер минимум 3-4 разные записи Шуберта в реестре (Virgin/Orkis 1991, Eterna/Olbertz 1976, Hyperion Vol.9 1989/Johnson «Schubert and the Theatre»); привязка трека не сделана", "album": "не установлен (кандидаты: Hyperion Vol. 9 «Schubert and the Theatre» тематически подходит — песни Миньон из «Вильгельма Мейстера»)", "label": "не установлен", "voice_note": "пик 1980-е–1991", "reputation": "н/д", "videoId": "jRsXXAKuLB4", "channel": "Arleen Augér - Topic", "official": true},
+  {"singer": "Ruth Ziesak", "pianist": "Ulrich Eisenlohr", "rec_year": 2003, "year_source": "реестр: singers-digest.md + albums.md (Naxos DSLE т. 13 «Goethe-Lieder 2», 8.554666, 2003) — привязка по тематике (гётевский том), не по буклету напрямую", "album": "Naxos Deutsche Schubert-Lied-Edition, т. 13: Goethe-Lieder 2", "label": "Naxos", "voice_note": "пик формы", "reputation": "похвала klassik-prisma по циклу (для Gretchen в том же томе)", "videoId": "c38ThZFfC6M", "channel": "Ruth Ziesak - Topic", "official": true},
+  {"singer": "Marjana Lipovšek", "pianist": "Geoffrey Parsons", "rec_year": 1988, "year_source": "Discogs (Orfeo, «Franz Schubert - Lieder», зап. с Bayerischer Rundfunk, изд. 1988)", "album": "Franz Schubert: Lieder (live, Orfeo)", "label": "Orfeo", "voice_note": "молодая, начало карьеры", "reputation": "концертная запись BR, живое исполнение", "videoId": "d-Ax2lMamA8", "channel": "Marjana Lipovšek - Topic", "official": true}
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "не найден — не входит в его свод DG (женский/Миньон-персонаж, вероятно сознательно исключён по той же логике, что Gretchen)",
+  "Schwarzkopf": "не найдена", "Hotter": "не найден", "Anders": "не найден", "E. Schumann": "не найдена", "Ludwig": "не найдена (её загрузка — D877 версия 1826 г., другое сочинение, исключена)", "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "notes": "ВАЖНО: исходный candidates.json для этой песни оказался бракованным (скрипт подобрал видео про Aus Heliopolis D753 и версии D877 вместо D726) — пул целиком собран заново целевым yt-dlp по 'Schubert Heiss mich nicht reden D 726' и 'Mignon I D. 726'. Значимых записей мало; часть кандидатов (Ziesak) — атрибуция по тематическому совпадению, не по буклету, требует доисследования перед публикацией."
+}

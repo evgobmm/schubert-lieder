@@ -1,0 +1,26 @@
+{
+  "d": "775",
+  "title": "Daß sie hier gewesen",
+  "candidates": [
+    {"singer": "Dietrich Fischer-Dieskau", "pianist": "Gerald Moore", "rec_year": "1966–72", "year_source": "реестр: DG Sämtliche Lieder", "album": "DG Sämtliche Lieder", "label": "DG", "voice_note": "пик формы", "reputation": "эталонный корпус", "videoId": "GmDlwrtPmn8", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true},
+    {"singer": "Elisabeth Schumann", "pianist": "Gerald Moore", "rec_year": "не установлен (в диапазоне HMV 1927–49 по дайджесту)", "year_source": "дайджест: «~28 песен HMV 1927–49 (Reeves/Moore/Alwin)» — конкретная сессия для этой песни не определена, требует проверки по матрицам при включении в топ-5", "album": "HMV-сборник песен Э. Шуман", "label": "HMV/Naxos 8.110731", "voice_note": "пик 1920-е–сер.1930-х; записи 1945-49 — голос постаревший, стиль эталонный", "reputation": "приоритетный исполнитель по правилам проекта", "videoId": "не найден в candidates.json — обнаружено только через mb_artists, отдельный целевой поиск на YouTube требуется", "channel": "н/д", "official": false},
+    {"singer": "Anne Sofie von Otter", "pianist": "Bengt Forsberg", "rec_year": "1996", "year_source": "реестр: DG Lieder, запись июнь 1996, Concertgebouw Nijmegen", "album": "Schubert: Lieder (DG)", "label": "DG", "voice_note": "пик ~1988–2010", "reputation": "-", "videoId": "bTqWNhbRW_s", "channel": "Anne Sofie von Otter - Topic", "official": true},
+    {"singer": "Christian Gerhaher", "pianist": "Gerold Huber", "rec_year": "не установлен", "year_source": "не установлен — не в перечисленных альбомах реестра", "album": "не установлен", "label": "?", "voice_note": "пик ~2000–наст.", "reputation": "-", "videoId": "TEGp8h9xGKU", "channel": "Christian Gerhaher - Topic", "official": true},
+    {"singer": "Lucia Popp", "pianist": "Geoffrey Parsons (по заголовку загрузки)", "rec_year": "не установлен", "year_source": "заголовок фан-загрузки «Popp / Parsons» расходится с дайджестом, где рецитал EMI 1983 указан с пианистом Gage — требует проверки: возможно другая, более ранняя запись Попп с Parsons, либо ошибка в заголовке", "album": "не установлен, под вопросом", "label": "?", "voice_note": "пик ~1970–1988", "reputation": "приоритетный исполнитель по правилам проекта — нуждается в доисследовании перед включением", "videoId": "AKELOKwfToQ", "channel": "incontrario motu (фан-канал)", "official": false},
+    {"singer": "Christa Ludwig", "pianist": "Irwin Gage", "rec_year": "~1973", "year_source": "дайджест: «DG-ремейк с Gage ~1973» (по аналогии с D 772, тот же цикл сессий)", "album": "DG-рецитал с Gage", "label": "DG", "voice_note": "пик 1957–1975", "reputation": "-", "videoId": "не найден в candidates.json явно — числится только в mb_artists", "channel": "н/д", "official": false},
+    {"singer": "Ian Bostridge", "pianist": "Julius Drake", "rec_year": "1996 (студия) / 2020 (лайв Oxford Lieder Festival)", "year_source": "реестр: EMI Schubert Lieder Vol.1 (студия); заголовок ролика SNtqd3sRf-E — отдельный концертный вариант 2020", "album": "Schubert Lieder Vol. 1 (EMI) — студия; либо Oxford Lieder Festival 2020 — лайв", "label": "EMI/Warner; OxfordSong", "voice_note": "пик 1995–2010, к 2020 — поздний период", "reputation": "-", "videoId": "6Z_EbY6YoF0", "channel": "Ian Bostridge (не Topic)", "official": false},
+    {"singer": "Bernarda Fink", "pianist": "Gerold Huber", "rec_year": "2007", "year_source": "реестр: harmonia mundi рецитал, запись 2007", "album": "harmonia mundi рецитал", "label": "harmonia mundi", "voice_note": "пик ~1995–2015", "reputation": "-", "videoId": "MfFytFaXWW0", "channel": "Bernarda Fink - Topic", "official": true}
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "да — DG Sämtliche Lieder (Moore)",
+    "Schwarzkopf": "не найдена в кандидатах",
+    "Hotter": "не найден в кандидатах",
+    "Anders": "не найден в кандидатах",
+    "E. Schumann": "предположительно да (HMV-сборник), но конкретный videoId и год сессии не найдены — рекомендуется целевой yt-dlp поиск по «Elisabeth Schumann Dass sie hier gewesen»",
+    "Ludwig": "предположительно да (по аналогии с соседней D 772 из того же DG-цикла с Gage), но не подтверждён отдельным videoId — целевой поиск нужен",
+    "Popp": "похоже да, но пианист/альбом расходятся с дайджестом — нужна проверка перед включением в топ-5"
+  },
+  "new_albums": [],
+  "note": "Эта песня — с самым сильным пулом приоритетных исполнителей из восьми: Fischer-Dieskau подтверждён, Schumann/Ludwig/Popp — вероятны, но каждая нуждается в отдельном точечном доисследовании (год, конкретная запись) перед включением в топ-5."
+}

@@ -1,0 +1,83 @@
+{
+ "d": "866/2",
+ "title": "Bei dir allein!",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore (вероятно)",
+   "rec_year": "1966-72",
+   "year_source": "реестр: singers-digest.md (DG Sämtliche Lieder) — точный альбом не подтверждён построчно",
+   "album": "DG Sämtliche Lieder (наиболее вероятно)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик ФД ~1951-1972",
+   "reputation": "эталонный свод",
+   "videoId": "eiQbUtvX1z8",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Anne Sofie von Otter",
+   "pianist": "Bengt Forsberg",
+   "rec_year": "1996",
+   "year_source": "реестр: albums.md (Schubert: Lieder, DG, запись июнь 1996, Concertgebouw Nijmegen)",
+   "album": "Schubert: Lieder",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик фон Оттер ~1988-2010",
+   "reputation": "устоявшийся современный рецитал",
+   "videoId": "-Ywubr8TROQ",
+   "channel": "Anne Sofie von Otter - Topic",
+   "official": true
+  },
+  {
+   "singer": "Gundula Janowitz",
+   "pianist": "Charles Spencer",
+   "rec_year": "не установлен точно (не 1976-77 DG-свод — этот трек подписан на пианиста Charles Spencer, не Irwin Gage)",
+   "year_source": "не совпадает с основной DG-серией реестра (Irwin Gage) — вероятно поздняя запись/лайв с другим пианистом; в реестре не найден",
+   "album": "не установлен (возможно Orfeo-лайв или отдельная поздняя запись)",
+   "label": "неизвестен",
+   "voice_note": "не проверено для конкретной даты",
+   "reputation": "не проверено",
+   "videoId": "NxDAXHFQAIc",
+   "channel": "Gundula Janowitz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Camilla Tilling",
+   "pianist": "Paul Rivinius",
+   "rec_year": "2012",
+   "year_source": "реестр: albums/modern-series.md («Bei dir allein! — Schubert Songs», BIS, ℗ 2012, изд. 06.03.2012)",
+   "album": "Bei dir allein! — Schubert Songs",
+   "label": "BIS",
+   "voice_note": "не проверено отдельно",
+   "reputation": "альбом назван по этой песне — программный акцент; современная запись (не ранее 1990, вероятно подходит под правило возрастного состава)",
+   "videoId": "vX09qTfQtZc",
+   "channel": "Camilla Tilling - Topic",
+   "official": true
+  },
+  {
+   "singer": "Christian Gerhaher",
+   "pianist": "Gerold Huber",
+   "rec_year": "не установлен точно",
+   "year_source": "предположительно",
+   "album": "не установлен",
+   "label": "неизвестен",
+   "voice_note": "современный",
+   "reputation": "высоко ценится критикой",
+   "videoId": "z5uu5rHWEGQ",
+   "channel": "Christian Gerhaher - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "найден — см. выше",
+  "Schwarzkopf": "не найден",
+  "Hotter": "запись существует (mb_artists подтверждает много певцов, но Хоттера нет в списке mb_artists для этой песни) — не найден",
+  "Anders": "не найден",
+  "E. Schumann": "не найден",
+  "Ludwig": "не найден",
+  "Popp": "не найден",
+  "note": "по mb_artists также документированы: Peter Schreier/András Schiff, Simon Keenlyside/Malcolm Martineau, Bo Skovhus/Stefan Vladar — сильные модерн/переходные кандидаты, но не найдены как отдельные YouTube-видео в пуле кандидатов; при полном конвейере стоит доискать целевым поиском"
+ },
+ "new_albums": []
+}

@@ -1,0 +1,84 @@
+{
+  "d": "627",
+  "title": "Das Abendrot",
+  "critical_note": "ВАЖНО: D 627 «Das Abendrot» (Silbert, 1819) — ДРУГАЯ песня, чем знаменитая D 799 «Im Abendrot» (Lappe, 1824-25, «O wie schön ist deine Welt»). В candidates.json большинство «Topic»-роликов с высокими просмотрами (Hotter, Wunderlich, Ameling, Gerhaher, Bär, FiDi «63040/21130 просмотров») подписаны как D.799, а не D.627 — это НЕ кандидаты для этой песни, несмотря на схожее немецкое название. Также встретился ролик «Das Abendrot D236» (Arnold Schoenberg Chor) — тоже другой номер. Ниже — только реально подтверждённые D 627 кандидаты.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore (предположительно, свод)",
+      "rec_year": "1966-72",
+      "year_source": "дайджест: свод DG «Sämtliche Lieder»; 4 отдельных Topic-загрузки, все явно и правильно помечены D.627",
+      "album": "DG Sämtliche Lieder",
+      "label": "Deutsche Grammophon",
+      "voice_note": "пик формы по дайджесту",
+      "reputation": "единственный по-настоящему широко охваченный кандидат для именно этой песни; низкие просмотры (81-1354) — редкая песня даже для FiDi",
+      "videoId": "GDaiPJI7y7k",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "не установлен по этому треку",
+      "rec_year": "не установлен",
+      "year_source": "нет прямой карты реестра; дайджест фиксирует у Boesch трилогию трёх циклов с Martineau (Onyx) — этот трек, судя по заголовку «Op. 173, No. 6, D. 627», может быть с отдельного рецитала редкостей, не задокументированного в дайджесте",
+      "album": "не установлен (не входит в известную трилогию циклов)",
+      "label": "не установлен",
+      "voice_note": "пик формы по дайджесту (~2010-наст.)",
+      "reputation": "не исследовано детально, но заголовок корректно указывает D.627/op.173-6 — подлинный кандидат",
+      "videoId": "y19wiaMDY_4",
+      "channel": "Florian Boesch - Topic",
+      "official": true
+    },
+    {
+      "singer": "не идентифицирован (певец тома Hyperion)",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен",
+      "year_source": "Topic-канал подписан на пианиста Джонсона, как обычно для Hyperion Schubert Edition; том и певец не идентифицированы",
+      "album": "Hyperion Schubert Edition (том не установлен)",
+      "label": "Hyperion",
+      "voice_note": "не исследовано",
+      "reputation": "требует идентификации певца перед включением",
+      "videoId": "UznexdENYvE",
+      "channel": "Graham Johnson - Topic",
+      "official": true
+    },
+    {
+      "singer": "Trevor Eliot Bowes",
+      "pianist": "Robin Walker",
+      "rec_year": "не установлен",
+      "year_source": "видео-заголовок, неофициальный канал певца",
+      "album": "не установлен (вероятно самостоятельная концертная/студийная загрузка)",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "не в фонде проекта, низкий приоритет — единственный явно правильно озаглавленный D.627-ролик за пределами Topic-каналов",
+      "videoId": "w8WeSeuqCxI",
+      "channel": "Trevor Bowes (не Topic)",
+      "official": false
+    },
+    {
+      "singer": "не установлен (возможно Aaltje Noordewier-Reddingius — историческая антология)",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "заголовок «Schubert - Lieder on Record - Im Abendrot - D. 627 (Aaltj...» — усечённое имя намекает на историческую нидерландскую антологию; титул смешивает «Im Abendrot» и D.627 — требует проверки, какая именно песня на записи",
+      "album": "«Schubert Lieder on Record» (антология)",
+      "label": "не установлен",
+      "voice_note": "не исследовано",
+      "reputation": "СОМНИТЕЛЬНО из-за противоречивого заголовка — не включать без прослушивания/проверки",
+      "videoId": "oUDsYXSs948",
+      "channel": "Public Classical Music (не Topic)",
+      "official": false
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "не найден",
+    "Fischer-Dieskau": "найден — DG Sämtliche Lieder",
+    "Schwarzkopf": "не найдена",
+    "Hotter": "НЕ найден для D 627 (его ролики в выдаче — D.799 «Im Abendrot», другая песня)",
+    "Anders": "не найден",
+    "E. Schumann": "не найдена",
+    "Ludwig": "не найдена",
+    "Popp": "не найдена"
+  },
+  "new_albums": [],
+  "note": "Редчайший случай пилота: подлинный пул D 627 крайне тонок (по сути FiDi + Boesch + неопознанный трек Hyperion), потому что почти вся YouTube-выдача по запросу «Abendrot» относится к гораздо более известной D 799 «Im Abendrot». Топ-5 для этой песни, скорее всего, будет короче 5 записей — облегчённый конвейер и явное предупреждение в top5-файле обязательны."
+}

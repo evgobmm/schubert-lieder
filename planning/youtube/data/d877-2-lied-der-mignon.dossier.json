@@ -1,0 +1,24 @@
+{
+  "d": "877/2",
+  "title": "Lied der Mignon (Heiß mich nicht reden)",
+  "note": "ВАЖНО: скрипт match-candidates.js частично путает нумерацию Op.62 «No. 2/3/4» с D-номерами 877/2, 877/3, 877/4. Ниже отобраны только кандидаты, реально соответствующие тексту «Heiß mich nicht reden» (= D 877/2 = Op.62 No.2 «Lied der Mignon I»). Видео cFv6U1Zm-Us (Bonney, «No.4 Lied der Mignon III») и 7be3bB5SISo (Baker, «No.3 Lied der Mignon II») в исходном candidates.json ошибочно попали в файл этой песни — относятся к D 877/4 и D 877/3 соответственно, исключены из пула.",
+  "candidates": [
+    {"singer": "Barbara Bonney", "pianist": "Geoffrey Parsons", "rec_year": "1994", "year_source": "реестр: Teldec, запись апрель 1994, Teldec Studio Berlin", "album": "Ave Maria, Die Forelle, Heidenröslein & Other Lieder", "label": "Teldec/Warner", "voice_note": "пик 1990-е–нач.2000-х", "reputation": "одна из самых слушаемых официальных загрузок этой серии", "videoId": "t9co7vZY-F0", "channel": "Barbara Bonney - Topic", "official": true},
+    {"singer": "Janet Baker", "pianist": "Graham Johnson", "rec_year": "1987 (Vol.1) — под вопросом, требует проверки тома", "year_source": "реестр: Hyperion Schubert Edition, вероятно поздний том (Гётевские песни Mignon могли войти не в Vol.1); точный том не определён", "album": "Hyperion Schubert Edition (том не определён)", "label": "Hyperion", "voice_note": "пик ~1965–1982", "reputation": "Gramophone Award за Vol.1", "videoId": "xY8SXL_9D4Y", "channel": "Janet Baker - Topic", "official": true},
+    {"singer": "неизвестен (etudes6 — фан-канал, без указания исполнителя)", "pianist": "не установлен", "rec_year": "не установлен", "year_source": "не установлен", "album": "не установлен", "label": "?", "voice_note": "-", "reputation": "низкий приоритет — исполнитель не идентифицирован", "videoId": "GB0AAGiiIXo", "channel": "etudes6", "official": false},
+    {"singer": "Graham Johnson-Topic (исполнитель не указан в файле)", "pianist": "Graham Johnson", "rec_year": "не установлен", "year_source": "не установлен — нужен целевой поиск, кто поёт на этом Hyperion-треке", "album": "Hyperion Schubert Edition (том не определён)", "label": "Hyperion", "voice_note": "-", "reputation": "-", "videoId": "KN7l8eLbnXw", "channel": "Graham Johnson - Topic", "official": true},
+    {"singer": "Christa Ludwig", "pianist": "не установлен", "rec_year": "не установлен", "year_source": "не установлен — Wilhelm-Meister-цикл не упомянут явно в дайджесте по Ludwig, но её «15 Lieder» EMI (1957-69, Moore/Parsons) — обширный корпус, вероятный источник", "album": "предположительно «15 Lieder» (EMI)", "label": "EMI/Warner", "voice_note": "пик ~1957–1975", "reputation": "-", "videoId": "MHHKH94ftL8", "channel": "Christa Ludwig - Topic", "official": true},
+    {"singer": "Marjana Lipovšek", "pianist": "не установлен", "rec_year": "1996 (Vol.29 «Schubert in 1819 & 1820») — под вопросом, песня написана в 1826, поэтому, скорее всего, другой том", "year_source": "реестр даёт Lipovšek только для Vol.29 (1819-1820), что не соответствует году создания этой песни (1826) — вероятно другой том Hyperion, требует проверки", "album": "Hyperion Schubert Edition (том не определён)", "label": "Hyperion", "voice_note": "-", "reputation": "-", "videoId": "R8H60YI-8Cc", "channel": "Marjana Lipovšek - Topic", "official": true}
+  ],
+  "priority_check": {
+    "Quasthoff": "нет (женская партия Миньоны)",
+    "Fischer-Dieskau": "нет в кандидатах — Гёте-Миньон-цикл традиционно женский голос",
+    "Schwarzkopf": "не найдена в кандидатах",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "не найдена в кандидатах",
+    "Ludwig": "похоже да, но конкретный альбом не подтверждён",
+    "Popp": "не найдена в кандидатах"
+  },
+  "new_albums": []
+}

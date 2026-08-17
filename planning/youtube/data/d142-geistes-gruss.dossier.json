@@ -1,0 +1,96 @@
+{
+ "d": "142",
+ "title": "Geistes-Gruß",
+ "note_gap_check": "Schubert написал 7 версий этой песни; часть candidates.json явно помечена версией («3rd Version», «6th Version» у Michael George), что нормально — разные версии одной песни, не другое сочинение.",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-72?",
+   "year_source": "реестр: albums.md (DG Sämtliche Lieder, сессии 1966–1972); конкретная сессия D142 не документирована",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "вокальный пик",
+   "reputation": "часть эталонного полного свода",
+   "videoId": "2K1f0OevK9w",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Robert Holl",
+   "pianist": "David Lutz",
+   "rec_year": "не установлен (издание 2021, архивная лента)",
+   "year_source": "реестр: albums.md («Robert Holl singt Schubert-Lieder auf Texte von Goethe», Preiser, издание 04.06.2021; год записи не установлен — Preiser часто издаёт архивные ленты значительно позже сессии)",
+   "album": "Robert Holl singt Schubert-Lieder auf Texte von Goethe",
+   "label": "Preiser Records",
+   "voice_note": "патриарх Шубертиады, «гранитная» манера (дайджест); возраст на момент записи не установлен",
+   "reputation": "не найдена целевая критика трека",
+   "videoId": "CZWAqj-73VE",
+   "channel": "Robert Holl - Topic",
+   "official": true
+  },
+  {
+   "singer": "Michael George",
+   "pianist": "Graham Johnson",
+   "rec_year": "1994",
+   "year_source": "реестр: albums.md/complete-editions.md (Vol. 24 «A Goethe Schubertiad», CDJ33024, сессии IX.1994, изд. X.1995)",
+   "album": "The Hyperion Schubert Edition, Vol. 24",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "не установлено",
+   "reputation": "часть научного эталонного свода Джонсона (дайджест); на диске представлены сразу 2 версии песни (3-я и 6-я)",
+   "videoId": "SdTzAOccM20",
+   "channel": "Michael George - Topic",
+   "official": true
+  },
+  {
+   "singer": "Wolfgang Holzmair",
+   "pianist": "Ulrich Eisenlohr (Naxos DSLE)?",
+   "rec_year": "не установлен точно",
+   "year_source": "реестр: albums/complete-editions.md — Holzmair в т. 20/21 Naxos DSLE (изд. 2005/2006); привязка D142 не подтверждена",
+   "album": "Naxos Deutsche Schubert-Lied-Edition (том не определён)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть научного немецкоязычного свода",
+   "videoId": "Dkr-s0XjeYM",
+   "channel": "Wolfgang Holzmair - Topic",
+   "official": true
+  },
+  {
+   "singer": "Thierry Félix",
+   "pianist": "Paul Badura-Skoda",
+   "rec_year": "не установлен",
+   "year_source": "нет — новый исполнитель для проекта, не встречался ранее ни в реестре, ни в дайджесте; пара подтверждена только по mb_artists",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "reputation": "интересен состав — Бадура-Шкода как аккомпаниатор; целевая критика не найдена",
+   "videoId": "Oic9NimdmRc",
+   "channel": "Thierry Félix - Topic",
+   "official": true
+  },
+  {
+   "singer": "Günther Groissböck",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "нет данных ни в реестре, ни в дайджесте — оперный бас, специализация Lieder не документирована",
+   "album": "не идентифицирован",
+   "label": "не установлен",
+   "reputation": "звёздный оперный бас современности; конкретный Schubert-релиз не идентифицирован",
+   "videoId": "Uw0ODXdwFsk",
+   "channel": "Günther Groissböck - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет данных о записи D142",
+  "Fischer-Dieskau": "есть — Sämtliche Lieder (DG), см. выше",
+  "Schwarzkopf": "н/п — мужская песня для баритона/баса, женская запись маловероятна и не найдена",
+  "Hotter": "не найдена запись D142",
+  "Anders": "не найдена запись D142",
+  "E. Schumann": "н/п",
+  "Ludwig": "н/п",
+  "Popp": "н/п"
+ },
+ "new_albums": [
+  "Не найдено новых фактов сверх реестра; для Holzmair, Félix и Groissböck альбом-источник не идентифицирован — требуется доисследование при ранжировании."
+ ]
+}

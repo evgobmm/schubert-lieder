@@ -1,0 +1,23 @@
+{
+  "d": "877/3",
+  "title": "Lied der Mignon (So laßt mich scheinen)",
+  "note": "См. предупреждение о путанице нумерации в досье D 877/2. Здесь отобраны кандидаты, реально соответствующие тексту «So laßt mich scheinen» (= D 877/3 = Op.62 No.3 «Lied der Mignon II»). Видео BEQhwo2sVhg (Hendricks, «No.4 Lied der Mignon III») ошибочно попало в файл этой песни в исходном candidates.json — относится к D 877/4, исключено из пула.",
+  "candidates": [
+    {"singer": "Barbara Bonney", "pianist": "Geoffrey Parsons", "rec_year": "1994", "year_source": "реестр: Teldec, запись апрель 1994", "album": "Ave Maria, Die Forelle, Heidenröslein & Other Lieder", "label": "Teldec/Warner", "voice_note": "пик 1990-е–нач.2000-х", "reputation": "-", "videoId": "cKUZS9vf8jU", "channel": "Barbara Bonney - Topic", "official": true},
+    {"singer": "Christa Ludwig", "pianist": "не установлен", "rec_year": "не установлен", "year_source": "не установлен — предположительно тот же корпус EMI «15 Lieder», как и D 877/2", "album": "предположительно «15 Lieder» (EMI)", "label": "EMI/Warner", "voice_note": "пик ~1957–1975", "reputation": "-", "videoId": "-vNLZbpkEP8", "channel": "Christa Ludwig - Topic", "official": true},
+    {"singer": "Janet Baker", "pianist": "Graham Johnson", "rec_year": "не установлен (Hyperion, том не определён)", "year_source": "не установлен", "album": "Hyperion Schubert Edition (том не определён)", "label": "Hyperion", "voice_note": "пик ~1965–1982", "reputation": "-", "videoId": "7be3bB5SISo", "channel": "Janet Baker - Topic", "official": true},
+    {"singer": "Elly Ameling", "pianist": "не установлен", "rec_year": "не установлен", "year_source": "не установлен — в реестре нет прямого упоминания цикла Wilhelm Meister у Ameling; вероятно её обширная Philips-серия с Baldwin (1972-76)", "album": "предположительно Philips-серия с Baldwin", "label": "Philips", "voice_note": "пик 1965–1985", "reputation": "самая записываемая шубертианка поколения (дайджест)", "videoId": "FP6t2vghUPo", "channel": "Elly Ameling - Topic", "official": true},
+    {"singer": "неизвестен (etudes6 — фан-канал)", "pianist": "не установлен", "rec_year": "не установлен", "year_source": "не установлен", "album": "не установлен", "label": "?", "voice_note": "-", "reputation": "низкий приоритет", "videoId": "8daLJRnMaE8", "channel": "etudes6", "official": false}
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "нет в кандидатах",
+    "Schwarzkopf": "не найдена в кандидатах",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "не найдена в кандидатах",
+    "Ludwig": "похоже да, но альбом не подтверждён",
+    "Popp": "не найдена в кандидатах"
+  },
+  "new_albums": []
+}

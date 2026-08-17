@@ -1,0 +1,44 @@
+{
+ "d": "251",
+ "title": "Hoffnung I (Schiller, 1815, \"Es reden und träumen die Menschen viel\" — ПЕРВАЯ версия, не путать с D 637 «Hoffnung II» на тот же текст)",
+ "candidates": [
+  {
+   "singer": "не идентифицирован (Hyperion, том не установлен)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "не подтверждено",
+   "album": "Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено",
+   "reputation": "часть научного полного свода",
+   "videoId": "lvGVZ1WIVGg",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Regina Jakobi (сопрано/меццо)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2002 (изд. 03/2002)",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — Naxos т. 8 «Schiller, Vol. 2» (8.554741)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 8 «Schiller, Vol. 2»",
+   "label": "Naxos",
+   "voice_note": "две редакции в её исполнении на канале (D 251 original + revised) — обе из тома шиллеровской серии, что подтверждает атрибуцию",
+   "reputation": "часть полного немецкоязычного свода Naxos",
+   "videoId": "wZ0kflW7ynE",
+   "channel": "Regina Jakobi - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "нет — FiDi поёт только D 637 «Hoffnung II» (тот же текст, поздняя редакция 1826), не D 251; DG-свод содержит D 637, но не D 251",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [],
+ "note": "ВАЖНО для отбора: candidates.json содержит МНОГО записей D 637 «Hoffnung II» (тот же текст Шиллера, вторая, гораздо более известная редакция 1826 года — поют FiDi, Hermann Prey, Prégardien, Gerhaher) — если сайт-песня именно D 251 (первая версия 1815), эти записи НЕ подходят напрямую; если проект трактует D 251/D 637 как одну песню с двумя версиями, пул резко расширяется (см. кандидатов D 637 в исходном candidates.json). Решение о том, какую версию считать «песней D 251» на сайте — нужно от координатора конвейера."
+}

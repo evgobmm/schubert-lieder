@@ -1,0 +1,21 @@
+{
+ "d": "708",
+ "title": "Im Walde \"Waldesnacht\", D. 708 (Schlegel)",
+ "note_disambiguation": "candidates.json содержит много ложных совпадений: D 834 «Im Walde» (Schulze, другая песня), D 913 «Nachtgesang im Walde» (мужской хор с валторнами) — отфильтрованы (Gerhaher/D843-опечатка(факт. D834), FD/D834 x2, Peter Hofmann/D913, RIAS Kammerchor/D913, King's Singers/D913, Ruhrkohle-Chor/D913, Johannsen/D834, 파워놀/D834). Нужно перепроверить и «Waldes-Nacht, Schubert-Nachlass, Lfg.16» (FD) — вероятно тоже D 708, но иное урес-издание, не альбом.",
+ "candidates": [
+  {"singer": "Dietrich Fischer-Dieskau", "pianist": "Gerald Moore", "rec_year": "1966–1972", "year_source": "реестр: planning/youtube/albums.md (DG Sämtliche Lieder свод)", "album": "DG Sämtliche Lieder (21 CD)", "label": "Deutsche Grammophon", "voice_note": "вокальный расцвет", "reputation": "базовая эталонная версия корпуса", "videoId": "ESG3OMXQNlM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true},
+  {"singer": "Anne Sofie von Otter", "pianist": "Bengt Forsberg", "rec_year": "июнь 1996 (изд. 1997)", "year_source": "реестр: planning/youtube/albums.md (DG, Concertgebouw Nijmegen)", "album": "Schubert: Lieder (DG)", "label": "Deutsche Grammophon", "voice_note": "пик формы (~1988–2010)", "reputation": "н/д", "videoId": "RtlIOj585mI", "channel": "Anne Sofie von Otter - Topic", "official": true},
+  {"singer": "Ian Bostridge", "pianist": "Julius Drake", "rec_year": "февраль–март 1996 (изд. 1998)", "year_source": "реестр: planning/youtube/albums.md (Schubert: Lieder Vol.1, EMI)", "album": "Schubert: Lieder (Vol. 1)", "label": "EMI Classics / Warner", "voice_note": "дебютный шубертовский рецитал", "reputation": "н/д", "videoId": "F-s8xxWjMvo", "channel": "Julius Drake - Topic (тот же трек, что и у Bostridge)", "official": true}
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден (мимо: карточка в реестре по D 707 не относится)",
+  "Anders": "не найден",
+  "E.Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": []
+}

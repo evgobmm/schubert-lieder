@@ -1,0 +1,57 @@
+{
+ "d": "252",
+ "title": "Das Mädchen aus der Fremde (II) — Schiller, 1815 (не путать с D 117, более ранней первой версией того же текста)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau (баритон) — ПРИМЕЧАНИЕ: это D 117 (первая версия), не D 252",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (сессии свода)",
+   "year_source": "реестр: planning/youtube/albums.md — DG Sämtliche Lieder",
+   "album": "Schubert: Sämtliche Lieder, 21 CD (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "видео явно озаглавлено «D. 117» — это ПЕРВАЯ версия песни, не D 252; включать в топ-5 D 252 нельзя без переверификации, что DG-свод содержит именно вторую версию",
+   "reputation": "эталонный полный свод, но для другой версии текста",
+   "videoId": "TccjRYyuY0I",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "не идентифицирован (Hyperion, том не установлен) — ПОДТВЕРЖДЕНО D 252 (II)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "видео явно озаглавлено «(II), D. 252» — единственный точно идентифицированный кандидат именно на вторую версию; конкретный том свода не установлен",
+   "album": "Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено",
+   "reputation": "часть научного полного свода",
+   "videoId": "_KdrpUU69xk",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Regina Jakobi (сопрано/меццо)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "2002 (изд. 03/2002)",
+   "year_source": "видео явно озаглавлено «(2nd setting)» = D 252; реестр — Naxos т. 8 «Schiller, Vol. 2» (8.554741), тот же том, что и её D 251",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 8 «Schiller, Vol. 2»",
+   "label": "Naxos",
+   "voice_note": "подтверждена именно вторая версия",
+   "reputation": "часть полного немецкоязычного свода Naxos",
+   "videoId": "DpcdiOZLXfs",
+   "channel": "Regina Jakobi - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "нет для D 252 — его запись на канале атрибутирована как D 117 (первая версия); нужна отдельная проверка, поёт ли он вообще вторую версию в своде",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [],
+ "note": "ВАЖНО: у этого текста Шиллера две редакции Шуберта — D 117 (1815, первая) и D 252 (1815, вторая, доработанная). Большинство кандидатов в исходном candidates.json (включая оба видео Fischer-Dieskau и Sibylla Rubens) явно помечены как D 117, а не D 252 — при отборе для страницы D 252 их использовать нельзя. Надёжно на D 252 указывают только Graham Johnson-Topic и Regina Jakobi-Topic."
+}
