@@ -1,0 +1,72 @@
+{
+ "d": "584",
+ "title": "Elysium",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: complete-editions.md (DG Sämtliche Lieder, базовый свод)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик формы",
+   "reputation": "базовый корпус",
+   "videoId": "gdIvORbDCiA",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Carolyn Sampson",
+   "pianist": "Joseph Middleton",
+   "rec_year": 2021,
+   "year_source": "реестр: albums.md/modern-series.md — BIS «Elysium: A Schubert Recital», сессия 2021 (Potton Hall; по-трековые work-relations MusicBrainz относят D584 к сессии 06–08.07.2021, не к 2020-й)",
+   "album": "Elysium — A Schubert Recital",
+   "label": "BIS",
+   "voice_note": "пик (р. 1974; активна с ~2010)",
+   "reputation": "D584 — заглавная песня всего рецитала, программно центральный номер",
+   "videoId": "WV-UqyZVmPs",
+   "channel": "Carolyn Sampson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Martin Bruns",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не установлен",
+   "year_source": "реестр: complete-editions.md — Naxos Vol. 6 «Schiller, Vol. 1» (8.554740, изд. 04/2001)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 6",
+   "label": "Naxos",
+   "voice_note": "не исследован отдельно",
+   "reputation": "часть систематического немецкоязычного свода Айзенлора; том по Шиллеру (Elysium — стихотворение Шиллера) уместен тематически",
+   "videoId": "F1chd8EinQM",
+   "channel": "Martin Bruns - Topic",
+   "official": true
+  },
+  {
+   "singer": "Brigitte Fassbaender",
+   "pianist": "не установлен по этому треку",
+   "rec_year": "не установлен",
+   "year_source": "нет — registry_hits в candidates.json (EMI 1974, Sony 1993, DG нач. 1990-х) совпали по фамилии, не по репертуару; ни одна карточка реестра явно не подтверждает включение D584",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "по дайджесту: пик ~1975–1992",
+   "reputation": "не верифицирована для этой песни — гэп",
+   "videoId": "KIpIxYeXHaE",
+   "channel": "Brigitte Fassbaender - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "есть (DG Sämtliche Lieder)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E. Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [
+  "Naxos DSLE т. 6 «Schiller, Vol. 1» (Martin Bruns / Eisenlohr, 8.554740, изд. 04/2001) — новая карточка для реестра, не встречалась в пилоте 1824–1825."
+ ],
+ "note": "Josef Protschka/Helmut Deutsch (LOFTmusic, не Topic) и Dietrich Henschel/Susanna Phillips (Topic, но без registry_hits и низкие просмотры) — второстепенные кандидаты, не включены в основной пул без дополнительной верификации."
+}

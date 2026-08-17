@@ -1,0 +1,96 @@
+{
+ "d": "595",
+ "title": "Thekla (eine Geisterstimme), 2-я редакция (D 595, версии a/b)",
+ "note_general": "D 595 сама по себе существует в двух версиях (595a, 595b — «2nd setting, 1st/2nd Version»); не путать с D 73, самостоятельным более ранним («1-е переложение») сочинением на тот же текст Шиллера — кандидаты на D 73 (Janet Baker, Boog «1st setting») в пул D 595 не включены. Fischer-Dieskau песню НЕ записывал — на официальном Topic-канале «Dietrich Fischer-Dieskau» видео с D 595 отсутствует (проверено по candidates.json).",
+ "candidates": [
+  {
+   "singer": "Marian Anderson (контральто)",
+   "pianist": "не установлен (том Hyperion Vol. 22 или Vol. 34)",
+   "rec_year": "не установлен (X.1993 — Vol. 22, либо 1991–1999 — Vol. 34)",
+   "year_source": "реестр (albums/complete-editions.md — Vol. 22 «An 1815 Schubertiad II» и Vol. 34 «Schubert 1817–1821» оба содержат Anderson; точный том для D 595 не идентифицирован)",
+   "album": "The Hyperion Schubert Edition (том не уточнён)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено сверх каталожных данных",
+   "reputation": "исторически значимая контральто; версия 595b (2nd setting, 2nd Version) — стандартная исполнительская редакция",
+   "videoId": "inWw85QR-Ik",
+   "channel": "Marian Anderson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Gundula Janowitz (сопрано)",
+   "pianist": "Irwin Gage (по общему своду Janowitz)",
+   "rec_year": "1976–77 (сессии свода) — под вопросом для этого конкретного трека",
+   "year_source": "реестр (albums/female-recitalists.md — 4-LP свод DG 2713 012 + 2530 858); привязка именно D 595 к этим сессиям не подтверждена буклетом",
+   "album": "Schubert: Lieder, 4-LP свод (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "не установлено",
+   "reputation": "серия дважды удостоена Deutscher Schallplattenpreis (реестр)",
+   "videoId": "aHOHS0rxRkU",
+   "channel": "Gundula Janowitz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Maya Boog (сопрано) — версия 595a (1-я редакция 2-й версии)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "изд. 08/2003 или 05/2005 (два тома Boog в реестре)",
+   "year_source": "реестр (albums/complete-editions.md — т. 14 «European Poets, Vol. 2» и т. 18 «Schiller, Vols. 3 & 4»; конкретный том для 595a не уточнён)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition (том не уточнён)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть научного немецкоязычного свода",
+   "videoId": "sMnpZnx3J08",
+   "channel": "Maya Boog - Topic",
+   "official": true
+  },
+  {
+   "singer": "Maya Boog (сопрано) — версия 595b (2-я редакция 2-й версии, стандартная)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "изд. 08/2003 или 05/2005",
+   "year_source": "реестр (albums/complete-editions.md — т. 14 или т. 18)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition (том не уточнён)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть научного немецкоязычного свода",
+   "videoId": "I6q-hteVR3I",
+   "channel": "Maya Boog - Topic",
+   "official": true
+  },
+  {
+   "singer": "Не установлен (Graham Johnson — Topic-канал оформлен на пианиста)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "две разные Topic-загрузки (253 с и 343 с) с идентичным названием — вероятно два разных певца/тома Hyperion Schubert Edition; певец не идентифицирован ни по одному из них",
+   "album": "The Hyperion Schubert Edition (том не идентифицирован)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено",
+   "reputation": "часть научного полного свода",
+   "videoId": "eT0lAsSdmiI",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elizabeth Watts (сопрано) — под вопросом",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "registry_hits отсутствуют",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не установлено",
+   "reputation": "не установлена",
+   "videoId": "KTAlwdvTTGo",
+   "channel": "Elizabeth Watts - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "нет — проверено, записи D 595 на его официальном Topic-канале нет",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": []
+}

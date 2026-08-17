@@ -1,0 +1,46 @@
+{
+  "d": "562",
+  "title": "Fischerlied (D 562)",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "реестр: albums/complete-editions.md §3 (DG Sämtliche Lieder, конвенция проекта 1969)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "вокальный пик певца",
+      "reputation": "базовый эталон корпуса",
+      "videoId": "vZ2GhxsLbAk",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true,
+      "note": "заголовок «Fischerlied (III), D. 562» — третья из трёх одноимённых песен Шуберта (D 351/I, D 364/II, D 562/III), не перепутать при отборе"
+    },
+    {
+      "singer": "Stephen Varcoe",
+      "pianist": "Graham Johnson",
+      "rec_year": 1987,
+      "year_source": "реестр: albums/complete-editions.md §1 (Hyperion Vol. 2 «Schubert's Water Songs», CDJ33002, зап. X.1987, изд. XII.1988) — тематически точно соответствует «песне рыбака»",
+      "album": "Hyperion Schubert Edition, Vol. 2 «Schubert's Water Songs»",
+      "label": "Hyperion",
+      "voice_note": "не исследован отдельно",
+      "reputation": "часть научно-эталонной серии Джонсона, второй том свода — специально посвящён «водным» песням",
+      "videoId": "SQqTaO7aKNg",
+      "channel": "Graham Johnson - Topic",
+      "official": true,
+      "caveat": "заголовок ролика «Fischerlied, D. 351» — судя по всему это D 351/I, не D 562; на канале нет однозначно верного трека для D 562 в собранной выдаче, нужен точечный поиск по Vol. 2"
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": [],
+  "warning": "Собранный пул для этой песни тонкий и сильно засорён путаницей между тремя одноимёнными «Fischerlied» (D 351, D 364, D 562) — большинство кандидатов в исходном candidates.json (Camerata Musica Limburg, Die Singphoniker, Benjamin Appl и др.) относятся к D 351 или D 364, не к D 562. Из значительного пула для D 562 достоверно подтверждён только Фишер-Дискау/DG; кандидат Джонсона/Vol. 2 требует точечной проверки заголовка перед включением."
+}

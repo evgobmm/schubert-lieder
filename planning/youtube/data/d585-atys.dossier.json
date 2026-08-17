@@ -1,0 +1,85 @@
+{
+ "d": "585",
+ "title": "Atys",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: complete-editions.md (DG Sämtliche Lieder, базовый свод)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик формы",
+   "reputation": "базовый корпус",
+   "videoId": "_evh85wGoZQ",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Siegfried Lorenz",
+   "pianist": "Norman Shetler",
+   "rec_year": 1983,
+   "year_source": "реестр: albums/male-recitalists.md — Eterna-серия по поэтам, том «Lieder nach Mayrhofer» (8 27 141, изд. 1983); Atys — стихотворение Майрхофера, тематически подходит именно этому тому, а не «Lieder nach Goethe 2», совпавшему в candidates.json по фамилии",
+   "album": "Lieder nach Mayrhofer (Eterna 8 27 141)",
+   "label": "Eterna",
+   "voice_note": "не установлено",
+   "reputation": "систематическая восточногерманская серия по поэтам Шуберта",
+   "videoId": "fBKcw_kY4BA",
+   "channel": "Siegfried Lorenz - Topic",
+   "official": true
+  },
+  {
+   "singer": "Matthias Goerne",
+   "pianist": "предположительно Ingo Metzmacher",
+   "rec_year": "2008-2009",
+   "year_source": "гипотеза, не подтверждена — реестр даёт Goerne Schubert Edition Vol. 4 «Heliopolis» (HMC 902035, сессии X–XI.2008 и II.2009), названный по мейрхоферовскому стихотворению; Atys тоже Mayrhofer, но прямого трек-подтверждения включения в этот том нет",
+   "album": "не установлен (не Topic-канал, а личный канал Matthias Goerne без official_topic)",
+   "label": "harmonia mundi (предположительно)",
+   "voice_note": "не установлено",
+   "reputation": "гэп — требует доисследования буклета Vol. 4, если песня понадобится для топ-5",
+   "videoId": "CLPMGRQiSMs",
+   "channel": "Matthias Goerne",
+   "official": false
+  },
+  {
+   "singer": "Peter Pears",
+   "pianist": "не установлен (в реестре — Benjamin Britten по общей практике дуэта)",
+   "rec_year": "не установлен",
+   "year_source": "реестр: singers-digest.md — Pears/Britten охват «хорошо (Decca Topic полные циклы + фан)», конкретный альбом с Atys не идентифицирован",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "по дайджесту: пик 1950-е–1960-е",
+   "reputation": "не верифицирована для этой песни — гэп",
+   "videoId": "NLqk8ClY5r0",
+   "channel": "Peter Pears - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elly Ameling / Christoph Prégardien",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "registry_hits в candidates.json совпали по фамилии с гётевскими программами обоих певцов, но Atys — стихотворение Майрхофера, а не Гёте, поэтому эти карточки, вероятно, ошибочны для данной песни",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не установлено",
+   "reputation": "гэп — источники не найдены",
+   "videoId": "WwhQeXGsemY / nznUNNWzIIo",
+   "channel": "Elly Ameling - Topic / Christoph Prégardien - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "есть (DG Sämtliche Lieder)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E. Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [
+  "Eterna «Lieder nach Mayrhofer» (Siegfried Lorenz / Norman Shetler, 8 27 141, изд. 1983) — уточнение к уже известной серии Лоренца в реестре: указан конкретный релевантный том по поэту."
+ ],
+ "note": "Самый неопределённый пул из 8 песен: помимо FiDi, большинство Topic-кандидатов (Ameling, Prégardien, Graham Johnson-канал) совпали в скрипте по фамилии с гётевскими альбомами, а Atys — майрхоферовский текст; без доисследования буклетов эти совпадения ненадёжны. Твёрдо устанавливается только Lorenz/Shetler (Eterna, том по Майрхоферу)."
+}

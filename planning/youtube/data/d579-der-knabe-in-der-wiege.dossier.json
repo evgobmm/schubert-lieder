@@ -1,0 +1,72 @@
+{
+ "d": "579",
+ "title": "Der Knabe in der Wiege",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: complete-editions.md (DG Sämtliche Lieder, базовый свод)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик формы",
+   "reputation": "базовый корпус",
+   "videoId": "3vWDp54Q2sw",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Brigitte Geller",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не установлен (изд. 10/2003)",
+   "year_source": "реестр: complete-editions.md — Naxos Vol. 15 «Friends, Vol. 2» (8.557171, изд. 10/2003)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 15",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "часть систематического свода Айзенлора",
+   "videoId": "KX5_dS7tyDY",
+   "channel": "Brigitte Geller - Topic",
+   "official": true
+  },
+  {
+   "singer": "неизвестен (пианист-канал)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "гэп — Topic-канал оформлен на пианиста (типично для Hyperion), конкретный том/певец из данных скрипта не виден",
+   "album": "предположительно один из томов Hyperion Schubert Edition",
+   "label": "Hyperion",
+   "voice_note": "не установлено",
+   "reputation": "гэп",
+   "videoId": "kkXZVp0Ncm0",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Sibylla Rubens",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "не установлен (изд. 03/2010)",
+   "year_source": "реестр: complete-editions.md — Naxos Vol. 35 «Rarities, Fragments and Alternative Versions» (8.572322, изд. 03/2010)",
+   "album": "Naxos DSLE, т. 35",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "справочно: это ВТОРАЯ редакция, неполный фрагмент (87 с.) — не основной вариант песни",
+   "videoId": "sxZwKrRfAuw",
+   "channel": "Sibylla Rubens - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "есть (DG Sämtliche Lieder)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E. Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [
+  "Naxos DSLE т. 15 «Friends, Vol. 2» (Brigitte Geller / Eisenlohr, 8.557171, изд. 10/2003) — новая карточка для реестра."
+ ],
+ "note": "Основной пул: FiDi + Geller. Rubens — только альтернативная (2-я) редакция-фрагмент, для топ-5 основной версии не подходит, но полезна как примечание/дополнение. Множество нерелевантных совпадений в candidates.json (Wiegenlied D498 Гёте — другая песня, спутана скриптом по слову «Knabe»/«Wiege»)."
+}

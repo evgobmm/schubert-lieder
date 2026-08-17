@@ -1,0 +1,72 @@
+{
+  "d": "560",
+  "title": "Der Goldschmiedsgesell",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "реестр: albums/complete-editions.md §3 (DG Sämtliche Lieder, конвенция проекта 1969)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "вокальный пик певца",
+      "reputation": "базовый эталон корпуса",
+      "videoId": "2E00HN4OARo",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": null,
+      "year_source": "реестр: albums/male-recitalists.md («ранние Decca/Telefunken-рециталы», кон. 1950-х – нач. 1960-х?, точная сессия не установлена)",
+      "album": "Hermann Prey singt Schubert-Lieder (Decca J 512) или смежный ранний рецитал",
+      "label": "Decca / Telefunken",
+      "voice_note": "не исследован отдельно; ранний период (Prey тогда ~30 лет)",
+      "reputation": "старый мастер, основатель Шубертиады Хоэнемс; точная привязка альбома к D 560 не подтверждена построчно",
+      "videoId": "yF-34H9yxJg",
+      "channel": "Hermann Prey - Topic",
+      "official": true
+    },
+    {
+      "singer": "Simon Keenlyside",
+      "pianist": "Graham Johnson",
+      "rec_year": null,
+      "year_source": "MB подтверждает пару, но конкретный том Hyperion не идентифицирован (Keenlyside участвовал в неск. сборных «Schubertiad»-томах: 22, 24, 26)",
+      "album": "Hyperion Schubert Edition (том не установлен)",
+      "label": "Hyperion",
+      "voice_note": "не исследован",
+      "reputation": "часть научно-эталонной серии Джонсона",
+      "videoId": "не найден точным видео в выдаче (mzXHxJHFGMY — неофициальная фан-загрузка того же трека Keenlyside/Johnson)",
+      "channel": "н/д",
+      "official": false
+    },
+    {
+      "singer": "Wilhelm Strienz",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": "не установлен — нет карточки в реестре; исторический бас (1900–1987), запись, вероятно, 1930-е–40-е",
+      "album": "не установлен («Das Deutsche Lied» — историческая антология)",
+      "label": "не установлен",
+      "voice_note": "не исследован",
+      "reputation": "НОВАЯ находка: старая довоенная запись, потенциально интересна для возрастной структуры, но требует существенного доисследования атрибуции/даты",
+      "videoId": "pHY11jNqiMc",
+      "channel": "Wilhelm Strienz - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": [
+    "Hermann Prey / Karl Engel — ранний Decca/Telefunken-рецитал, точная карточка альбома для D 560 не подтверждена построчно, требуется доисследование.",
+    "Wilhelm Strienz — историческая запись, происхождение не установлено."
+  ]
+}

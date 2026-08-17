@@ -1,0 +1,57 @@
+{
+ "d": "596",
+ "title": "Lied eines Kindes (фрагмент)",
+ "note_general": "Фрагмент (57 с) в реконструкции/аранжировке van Hoorickx. Пул кандидатов крайне мал — типично для фрагмента такого масштаба; Fischer-Dieskau не записывал (его Topic-канал в выдаче не содержит D 596; все совпадения его имени в candidates.json относятся к другим песням — D 626, D 616, D 492, D 630, D 275, D 274, D 906, D 890).",
+ "candidates": [
+  {
+   "singer": "Sibylla Rubens (сопрано)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "изд. 03/2010",
+   "year_source": "реестр (albums/complete-editions.md — т. 35); подтверждено также перекрёстно в planning/research/d275-totenkranz-fur-ein-kind-top5.md («Sibylla Rubens 0rx_KyMCYaY (Naxos т. 35) — на деле D 596»)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 35 «Rarities, Fragments and Alternative Versions» (8.572322)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "профильный том редкостей и фрагментов — прямое попадание для этой записи",
+   "videoId": "0rx_KyMCYaY",
+   "channel": "Sibylla Rubens - Topic",
+   "official": true
+  },
+  {
+   "singer": "Не установлен (Graham Johnson — Topic-канал оформлен на пианиста)",
+   "pianist": "Graham Johnson",
+   "rec_year": "не установлен",
+   "year_source": "не установлен — те же 4 карточки реестра (Vol. 6, Vol. 37, Wigmore Maltman-трилогия, дайджест) относятся к другим номерам Hyperion, не к D 596 напрямую",
+   "album": "The Hyperion Schubert Edition (том не идентифицирован; возможный кандидат — том с фрагментами/юношескими песнями)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено",
+   "reputation": "часть научного полного свода",
+   "videoId": "b94WHbivUaY",
+   "channel": "Graham Johnson - Topic",
+   "official": true
+  },
+  {
+   "singer": "Не установлен — под вопросом",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "registry_hits отсутствуют; канал не похож на устоявшийся лейбловый Topic (возможно самостоятельная загрузка)",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не установлено",
+   "reputation": "не установлена — низкий приоритет включения",
+   "videoId": "_UH4Q6xVpgE",
+   "channel": "Javier Alonso - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "нет — проверено, на его Topic-канале D 596 не найдено",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": []
+}

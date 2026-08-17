@@ -1,0 +1,51 @@
+{
+  "d": "630",
+  "title": "Sonett III (Nunmehr, da Himmel, Erde schweigt)",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "yt-dlp описание (UMG: «Schubert: Lieder (Vol. 2)», ℗ 1969 Deutsche Grammophon)",
+      "album": "Schubert: Lieder (Vol. 2) (DG)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "середина большого цикла DG",
+      "reputation": "часть канонического свода DG — завершает цикл трёх Петрарка-сонетов",
+      "videoId": "KK03eTzGHzM",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Robert Holl",
+      "pianist": "Oleg Maisenberg",
+      "rec_year": "не установлен (релиз 2006)",
+      "year_source": "yt-dlp-поиск (ytsearch: «Sonett III (Schubertlied, D. 630)» на канале «Lionel Rogg - Topic», videoId HIiTSPVErpA, длительность 473с — согласуется с D628/629 того же цикла Holl/Maisenberg, Preiser «Ein Liederabend»); прямое описание видео не открывалось отдельно, но паттерн идентичен подтверждённым D628/D629",
+      "album": "Ein Liederabend (Preiser Records)",
+      "label": "Preiser Records",
+      "voice_note": "Холль — патриарх Шубертиады, «гранитная» манера",
+      "reputation": "исполняет все три сонета единым циклом; не было в исходном candidates.json — найдено целевым доисследованием (в кандидатский пул D630 попал только Wavelength Productions неофициальный дубль)",
+      "videoId": "HIiTSPVErpA",
+      "channel": "Lionel Rogg - Topic (метаданные канала ошибочны — реальный исполнитель Robert Holl/Oleg Maisenberg, Preiser Records)",
+      "official": true
+    },
+    {
+      "singer": "Wolf Matthias Friedrich",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": 2003,
+      "year_source": "MusicBrainz (release-group «European Poets, Volume 2», ℗ 2003)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 14 «European Poets, Vol. 2»",
+      "label": "Naxos",
+      "voice_note": "бас-баритон немецкой школы Lied",
+      "reputation": "исполняет все три сонета единым циклом в рамках полного немецкоязычного свода Naxos",
+      "videoId": "q1Em4YuqCy0",
+      "channel": "Wolf Matthias Friedrich - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Fischer-Dieskau": "есть — DG 1969/Moore"
+  },
+  "new_albums": [
+    "Дополнено целевым поиском: videoId Robert Holl/Maisenberg «Sonett III» (HIiTSPVErpA) — отсутствовал в исходном candidates.json, скрипт-сборка его не нашла для D630 (нашла только для D628/D629)"
+  ]
+}

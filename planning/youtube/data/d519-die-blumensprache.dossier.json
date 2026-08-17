@@ -1,0 +1,111 @@
+{
+ "d": "519",
+ "title": "Die Blumensprache",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau (баритон)",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966–1972 (сессии свода)",
+   "year_source": "реестр (albums.md — DG Sämtliche Lieder; digest)",
+   "album": "Schubert: Sämtliche Lieder, 21 CD (DG)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "приоритетный исполнитель №2; полный свод — базовая точка отсчёта",
+   "reputation": "эталонный полный свод мужских песен Шуберта",
+   "videoId": "kys7t_pRbNU",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elly Ameling (сопрано) — студийная запись",
+   "pianist": "не установлен (Baldwin — Philips 1972, или иная сессия из свода Ameling)",
+   "rec_year": "не установлен",
+   "year_source": "не установлен — две отдельные Topic-загрузки Ameling (118–119 с) не привязаны к конкретному изданию; отличаются от live-Tanglewood по длительности",
+   "album": "не идентифицирован (кандидат: Philips 6500 515, 1972, Baldwin, либо «An die Musik», 1983, Baldwin)",
+   "label": "Philips/Universal",
+   "voice_note": "не установлено",
+   "reputation": "не установлена для этого трека",
+   "videoId": "Byuud6PqlXc",
+   "channel": "Elly Ameling - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elly Ameling (сопрано) — live Tanglewood",
+   "pianist": "Rudolf Jansen",
+   "rec_year": "2 июля 1987",
+   "year_source": "реестр (albums.md — Omega OCD 1001, дата в самом заголовке загрузки: «Live at Tanglewood Theatre-Concert Hall, Lenox, MA, 7/2/1987»)",
+   "album": "Elly Ameling Sings Schubert At Tanglewood (Omega OCD 1001; переизд. Brilliant Classics 95107)",
+   "label": "Omega Record Classics / Brilliant Classics",
+   "voice_note": "поздний период (54 года), но пик Амелинг держался долго",
+   "reputation": "живой концертный документ, не рецензирован отдельно в нашем пуле",
+   "videoId": "9wViZzRK58U",
+   "channel": "Elly Ameling - Topic",
+   "official": true
+  },
+  {
+   "singer": "Felicity Lott (сопрано)",
+   "pianist": "Graham Johnson",
+   "rec_year": "VII.1992, изд. XI.1993",
+   "year_source": "реестр (albums/complete-editions.md — Vol. 19)",
+   "album": "The Hyperion Schubert Edition, Vol. 19 «Songs about flowers & nature» (CDJ33019)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено сверх каталожных данных",
+   "reputation": "тематически точное попадание — том целиком посвящён песням о цветах и природе, естественный дом для «Die Blumensprache»",
+   "videoId": "X7cqdMvaj5w",
+   "channel": "Felicity Lott - Topic",
+   "official": true
+  },
+  {
+   "singer": "Christine Schäfer (сопрано)",
+   "pianist": "Graham Johnson",
+   "rec_year": "IX.1994, изд. X.1995",
+   "year_source": "реестр (albums/complete-editions.md — Vol. 24; певцы given по Discogs)",
+   "album": "The Hyperion Schubert Edition, Vol. 24 «A Goethe Schubertiad» (CDJ33024)",
+   "label": "Hyperion/Universal",
+   "voice_note": "не установлено сверх каталожных данных",
+   "reputation": "часть научного полного свода",
+   "videoId": "2DY6bS8BB3U",
+   "channel": "Christine Schäfer - Topic",
+   "official": true
+  },
+  {
+   "singer": "Daniela Sindram (меццо)",
+   "pianist": "Ulrich Eisenlohr",
+   "rec_year": "изд. 03/2007",
+   "year_source": "реестр (albums/complete-editions.md — т. 23)",
+   "album": "Naxos Deutsche Schubert-Lied-Edition, т. 23 «Austrian Contemporaries, Vol. 3» (8.557833)",
+   "label": "Naxos",
+   "voice_note": "не установлено",
+   "reputation": "не установлена для этого трека",
+   "videoId": "UpTZg3PzaqU",
+   "channel": "Daniela Sindram - Topic",
+   "official": true
+  },
+  {
+   "singer": "Elizabeth Watts (сопрано) — под вопросом",
+   "pianist": "не установлен",
+   "rec_year": "не установлен",
+   "year_source": "registry_hits отсутствуют — альбом не идентифицирован",
+   "album": "не установлен",
+   "label": "не установлен",
+   "voice_note": "не установлено",
+   "reputation": "не установлена",
+   "videoId": "KsvQQ0UKn_8",
+   "channel": "Elizabeth Watts - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "нет",
+  "Fischer-Dieskau": "да — включён (DG Sämtliche Lieder)",
+  "Schwarzkopf": "нет",
+  "Hotter": "нет",
+  "Anders": "нет",
+  "E. Schumann": "нет",
+  "Ludwig": "нет",
+  "Popp": "нет"
+ },
+ "new_albums": [
+  "Hyperion Vol. 19 «Songs about flowers & nature» (CDJ33019, Felicity Lott/Graham Johnson, зап. VII.1992, изд. XI.1993) — тематический том, содержит D 519.",
+  "Разные длительности Topic-загрузок Ameling (118–119 с студийная vs 143 с дважды маркированная как Tanglewood-1987) указывают минимум на ДВЕ разные записи певицы — при отборе привязать videoId к конкретному изданию перед публикацией."
+ ]
+}

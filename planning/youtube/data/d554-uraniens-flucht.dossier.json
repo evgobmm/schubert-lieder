@@ -1,0 +1,60 @@
+{
+  "d": "554",
+  "title": "Uraniens Flucht",
+  "candidates": [
+    {
+      "singer": "Christiane Iven",
+      "pianist": "Burkhard Kehring",
+      "rec_year": null,
+      "year_source": "реестр: albums/complete-editions.md (Naxos DSLE т. 12 «Mayrhofer, Vol. 2», Naxos 8.554739, изд. 02/2003) — год издания, сессия не установлена",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, т. 12 «Mayrhofer, Vol. 2»",
+      "label": "Naxos",
+      "voice_note": "не исследован отдельно",
+      "reputation": "часть полного немецкого свода Naxos по группам поэтов; Uraniens Flucht — текст на стихи Mayrhofer",
+      "videoId": "_dN4PUUyOVs",
+      "channel": "Christiane Iven - Topic",
+      "official": true,
+      "caveat": "длительность видео (1116 с ≈ 18.5 мин) намного больше типичной длины песни (~3–4 мин) — возможен сборный/альбомный трек, а не одиночная песня; проверить перед публикацией"
+    },
+    {
+      "singer": "Wolfgang Holzmair",
+      "pianist": "Gérard Wyss",
+      "rec_year": 1993,
+      "year_source": "реестр: albums.md (Wolfgang Holzmair — Schubert: Lieder, Vol. 3, Tudor, ℗ 1993; пианист Gérard Wyss, а не Imogen Cooper)",
+      "album": "Schubert: Lieder, Vol. 3",
+      "label": "Tudor",
+      "voice_note": "не исследован отдельно",
+      "reputation": "ранняя серия Хольцмайра на Tudor",
+      "videoId": "f3jTb6E6R9k",
+      "channel": "Wolfgang Holzmair - Topic",
+      "official": true,
+      "caveat": "длительность видео (1266 с ≈ 21 мин) — тот же признак возможного сборного трека, проверить"
+    },
+    {
+      "singer": "Thomas Hampson",
+      "pianist": "Graham Johnson",
+      "rec_year": 1991,
+      "year_source": "реестр: albums/complete-editions.md §1 (Hyperion Vol. 14 «Schubert & the Classics», CDJ33014, зап. X.1991, изд. IV.1992) — том определён по MB-паре, построчно не проверено",
+      "album": "Hyperion Schubert Edition (том не подтверждён построчно, вероятно Vol. 14)",
+      "label": "Hyperion",
+      "voice_note": "не исследован отдельно",
+      "reputation": "часть научно-эталонной серии Джонсона",
+      "videoId": "не найден в выдаче кандидатов — трек Джонсона в списке (trVk_FuNua4) подписан «Graham Johnson - Topic» без имени Хэмпсона и имеет аномальную длительность 1094 с; требуется точечный поиск",
+      "channel": "не найден",
+      "official": false
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "нет — среди кандидатов ни один Topic-ролик с точным заголовком «Uraniens Flucht, D. 554» не принадлежит его каналу (совпадения в исходной выдаче — другие песни свода, ложные срабатывания по фамилии)",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "нет",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": [
+    "ВНИМАНИЕ к данным: все три релевантных видео в кандидатах (Johnson/Iven/Holzmair) имеют длительность 18–21 минуту — сильно длиннее одной песни (~3 мин). Похоже на сборные загрузки нескольких треков под одним ID, либо неверную привязку. Требуется точечная проверка (открыть страницы) до публикации в top5."
+  ]
+}

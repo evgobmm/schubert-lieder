@@ -1,0 +1,44 @@
+{
+ "d": "578",
+ "title": "Abschied (von einem Freunde)",
+ "candidates": [
+  {
+   "singer": "Dietrich Fischer-Dieskau",
+   "pianist": "Gerald Moore",
+   "rec_year": "1966-1972",
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md (DG Sämtliche Lieder, полный свод мужских песен — базовый источник для любого мужского rare-номера; специфических Balladen-1959/Goethe-Liederabend-1959 карточек, совпавших по фамилии в candidates.json, к D578 не относятся — там другой репертуар)",
+   "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+   "label": "Deutsche Grammophon",
+   "voice_note": "пик формы (дайджест: 1951–1972)",
+   "reputation": "базовый корпус, не специально рецензировалась по этому номеру",
+   "videoId": "el_AfAc_RLs",
+   "channel": "Dietrich Fischer-Dieskau - Topic",
+   "official": true
+  },
+  {
+   "singer": "Edith Mathis",
+   "pianist": "Graham Johnson",
+   "rec_year": 1992,
+   "year_source": "реестр: planning/youtube/albums/complete-editions.md — Vol. 21 «Schubert in 1817 & 1818» (CDJ33021, зап. X.1992, изд. VI.1994)",
+   "album": "The Hyperion Schubert Edition, Vol. 21",
+   "label": "Hyperion (с 2023 — Universal)",
+   "voice_note": "поздний период (р. 1938; пик 1970-е–1980-е по дайджесту)",
+   "reputation": "часть научного эталонного свода Джонсона; том прямо посвящён году сочинения песни (1817)",
+   "videoId": "-bwqiLjIjF0",
+   "channel": "Edith Mathis - Topic",
+   "official": true
+  }
+ ],
+ "priority_check": {
+  "Quasthoff": "не найден",
+  "Fischer-Dieskau": "есть (DG Sämtliche Lieder)",
+  "Schwarzkopf": "не найдена",
+  "Hotter": "не найден",
+  "Anders": "не найден",
+  "E. Schumann": "не найдена",
+  "Ludwig": "не найдена",
+  "Popp": "не найдена"
+ },
+ "new_albums": [],
+ "note": "Пул из 2 значительных исполнений (FiDi + Mathis); остальные кандидаты в candidates.json — нерелевантные инструментальные транскрипции/аранжировки или другие песни (Abschied von der Harfe D406, Willkommen und Abschied D767, Schwanengesang Abschied D957/7) с совпадением по слову «Abschied», отфильтрованы."
+}

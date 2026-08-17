@@ -1,0 +1,71 @@
+{
+  "d": "559",
+  "title": "Schweizerlied",
+  "candidates": [
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "Gerald Moore",
+      "rec_year": null,
+      "year_source": "не установлен построчно — Э. Шуман активно записывалась с Муром в 1930-е–40-е (реестр: albums.md, HMV 1937 и др. сессии); конкретная сессия D 559 не привязана к матрице",
+      "album": "не установлен (вероятно один из HMV-рециталов Шуман/Мур 1930-х)",
+      "label": "HMV / EMI (переизд. Naxos Historical / Warner)",
+      "voice_note": "не исследован отдельно",
+      "reputation": "приоритетная исполнительница; требуется матричная датировка перед публикацией (правило — метаданные загрузки не источник дат)",
+      "videoId": "8asTiZ3YfgE",
+      "channel": "Elisabeth Schumann - Topic",
+      "official": true
+    },
+    {
+      "singer": "Edith Mathis",
+      "pianist": "Graham Johnson",
+      "rec_year": 1992,
+      "year_source": "реестр: albums/complete-editions.md §1 (Hyperion Vol. 21 «Schubert in 1817 & 1818», CDJ33021, зап. X.1992, изд. VI.1994) — D 559 сочинена 1817, соответствует тому",
+      "album": "Hyperion Schubert Edition, Vol. 21",
+      "label": "Hyperion",
+      "voice_note": "не исследован отдельно",
+      "reputation": "часть научно-эталонной серии Джонсона",
+      "videoId": "sxJdV1-9VsY",
+      "channel": "Edith Mathis - Topic",
+      "official": true
+    },
+    {
+      "singer": "Ruth Ziesak",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": null,
+      "year_source": "по MusicBrainz пара подтверждена (Naxos DSLE), но конкретный том не установлен — тома «European Poets Vol. 1» (Walter Scott) и «Goethe Vol. 2» в реестре не подходят по теме (Schweizerlied — не гётевский и не скоттовский текст)",
+      "album": "Naxos Deutsche Schubert-Lied-Edition (том не установлен)",
+      "label": "Naxos",
+      "voice_note": "не исследован отдельно",
+      "reputation": "часть полного немецкого свода Naxos",
+      "videoId": "-mV3E7T2aSY",
+      "channel": "Ruth Ziesak - Topic",
+      "official": true
+    },
+    {
+      "singer": "Rita Streich",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": "не установлен — нет карточки в реестре; три отдельных Topic-загрузки Rita Streich с разной длительностью (95, 98, 95 с) намекают на несколько изданий",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не исследован",
+      "reputation": "НОВАЯ находка: Streich (лирическое сопрано, 1920–1987) — старая школа, возможно исторически значимая запись; требует доисследования",
+      "videoId": "7bEFLctCIUU",
+      "channel": "Rita Streich - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "нет",
+    "Fischer-Dieskau": "нет — Topic-совпадения в исходной выдаче относятся к другим песням свода (ложные срабатывания по каналу)",
+    "Schwarzkopf": "нет",
+    "Hotter": "нет",
+    "Anders": "нет",
+    "E. Schumann": "есть — точная дата/сессия не установлена, требуется доисследование по матрицам перед публикацией",
+    "Ludwig": "нет",
+    "Popp": "нет"
+  },
+  "new_albums": [
+    "Rita Streich — альбом с Schweizerlied не идентифицирован; требуется доисследование (Discogs/MusicBrainz)."
+  ]
+}
