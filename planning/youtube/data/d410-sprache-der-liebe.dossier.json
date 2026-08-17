@@ -1,0 +1,73 @@
+{
+  "d": "410",
+  "title": "Sprache der Liebe",
+  "candidates": [
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Graham Johnson",
+      "rec_year": "1987-2000",
+      "year_source": "исследование: Discogs release 18451372 (Hyperion CDS44201/40 'The Complete Songs', диск 13 'A Schubert Calendar: 1816 Aged 19'), extraartists трека сверены по D-номеру",
+      "album": "Hyperion Schubert Edition — 'A Schubert Calendar: 1816' (Complete Songs, CDS44201/40)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "voice_note": "бас-баритон",
+      "reputation": "часть научного свода Джонсона; Гёрне — один из ведущих шубертианцев рубежа веков",
+      "videoId": "3G2pkJwwLqY",
+      "channel": "Graham Johnson - Topic",
+      "official": true
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966-72",
+      "year_source": "реестр: planning/youtube/albums.md / singers-digest.md (DG Sämtliche Lieder, Gerald Moore, 1966–72, 21 CD) — конкретный трек не в реестре по имени, атрибуция по DG-своду (титул видео совпадает с D-номером и охватывает весь мужской корпус)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "баритон, полный свод мужских песен",
+      "reputation": "базовая точка отсчёта корпуса",
+      "videoId": "45RnWnivjgA",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true
+    },
+    {
+      "singer": "Ernst Haefliger",
+      "pianist": "не установлен (вероятно Erik Werba или Jörg Demus по DG-практике конца 1950-х — не подтверждено)",
+      "rec_year": "1957",
+      "year_source": "реестр: singers-digest.md / albums.md (Haefliger — 'singt Lieder von Schubert und Brahms', DG LPEM 19 096, изд. 1957)",
+      "album": "Ernst Haefliger singt Lieder von Schubert und Brahms",
+      "label": "Deutsche Grammophon",
+      "voice_note": "тенор",
+      "reputation": "исторический рецитал DG 1950-х",
+      "videoId": "PM1Cq86Ab7o",
+      "channel": "Ernst Haefliger - Topic",
+      "official": true
+    },
+    {
+      "singer": "Peter Pears",
+      "pianist": "Benjamin Britten",
+      "rec_year": "1954 / 1972 (две версии реализации Бриттена)",
+      "year_source": "заголовки роликов ('1954 Version' / '1972 Version') + реестр: singers-digest.md (Pears/Britten — реализации-'completions' ряда песен Шуберта); ТРЕБУЕТ дополнительной верификации по буклету — метаданные YouTube не источник дат",
+      "album": "Britten the Performer: Lieder / On This Island / Mörike Lieder (BBC Music, антология)",
+      "label": "BBC Music (антология поздних трансляций/студийных записей)",
+      "voice_note": "тенор; редкий случай — фортепианная партия в редакции/реализации Бриттена",
+      "reputation": "историческая ценность союза Пирс — Бриттен; нуждается в верификации года по печатному источнику, не по метаданным",
+      "videoId": "Yj-s7jN7qmE",
+      "channel": "Peter Pears - Topic",
+      "official": true
+    }
+  ],
+  "priority_check": {
+    "Quasthoff": "не найден в кандидатах (не входит в его альбомы — ранние Schiller/Salis-Seewis/Stolberg-редкости)",
+    "Fischer-Dieskau": "есть — DG Sämtliche Lieder",
+    "Schwarzkopf": "не найдена в кандидатах",
+    "Hotter": "не найден в кандидатах",
+    "Anders": "не найден в кандидатах",
+    "E. Schumann": "не найдена в кандидатах",
+    "Ludwig": "не найдена в кандидатах",
+    "Popp": "не найдена в кандидатах"
+  },
+  "new_albums": [
+    "Karl Schmitt-Walter - Topic (SVqYTjayuIY, 'Das Deutsche Lied') — историческая немецкая радиозапись; конкретный альбом/год не установлены, регистр-совпадения общие (антология военных радиозаписей) — не подтверждено.",
+    "Sally Matthews - Topic (rpfA88jAsmM) — без регистр-совпадений, не исследована целевым образом (низкий приоритет)."
+  ],
+  "note": "Elly Ameling - Topic (два дубля videoId) подтверждена реестром (Philips-серия с Baldwin). Regestr-совпадение Джонсона изначально указывало на Rolfe Johnson Vol.6 — исправлено прямой сверкой по D-номеру (реально Гёрне)."
+}

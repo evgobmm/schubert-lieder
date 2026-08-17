@@ -1,0 +1,545 @@
+{
+  "d": "771",
+  "title": "Der Zwerg",
+  "research_note": "Досье собрано 2026-08-17. ОГРАНИЧЕНИЕ СЕССИИ: лимит WebSearch (200/200) был исчерпан до начала работы, поэтому свободный веб-поиск недоступен; использованы MusicBrainz API (поиск по записям/релизам), Discogs API (release lookup), прямые WebFetch/curl по угадываемым URL (klassik-prisma.de, hyperion-records.co.uk, audite.de), yt-dlp (метаданные официальных Topic-загрузок: album/℗-год) и yt-check.js (oEmbed). Presto Classical, Gramophone и DuckDuckGo/Bing отдают 403/капчу из контейнера — цитат прессы по большинству современных дисков добыть не удалось, это отмечено в полях reputation честно, без домыслов.",
+  "candidates": [
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Charles Spencer",
+      "rec_year": "1993",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md, карточка «Thomas Quasthoff — Schubert: Goethe-Lieder, RCA Victor Red Seal 09026 618642»: сессии 25–26 и 28–29 мая 1993, Historischer Reitstadel, Ноймаркт; издание 1995). Подтверждения: MusicBrainz — запись «Der Zwerg (Text: Matthäus von Collin), op. 22 No. 1», Quasthoff/Spencer, 4:50, на релизе «Goethe-Lieder» с датой 1995-03-31 и в боксе «Thomas Quasthoff: The Complete RCA Recordings»; метаданные официального Topic-трека: album «Schubert: Goethe-Lieder», ℗ 1993 BMG Music.",
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+      "label": "RCA Victor Red Seal / BMG",
+      "age_voice": "33–34 года (р. 1959). По дайджесту певцов пик Квастхофа ~1993–2007 — запись стоит в самом начале пика: голос свежий, ровный; klassik-prisma по Erlkönig с того же альбома отмечала шероховатость нижнего регистра («Stimme in der Tiefe rau»).",
+      "reputation": "Отдельного разбора именно этой Der Zwerg найти не удалось (klassik-prisma страницы по D 771 не имеет). Косвенно: альбом — первый из шести шубертовских у Квастхофа, вошёл в бокс «The Complete RCA Recordings»; по соседнему номеру того же диска klassik-prisma даёт 4 из 5. Пиар-скепсиса не требует — репутация певца устоявшаяся.",
+      "sources": [
+        "planning/youtube/albums.md (карточка альбома, сессии мая 1993)",
+        "MusicBrainz recording search: recording:\"Der Zwerg\" AND artist:Quasthoff (2 записи)",
+        "yt-dlp метаданные Topic-трека WeKeLRGR0Yc: «Schubert: Goethe-Lieder», ℗ 1993 BMG Music",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "WeKeLRGR0Yc", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат №1 по иерархии приоритетов (Квастхоф — высший приоритет). Важный факт: несмотря на название альбома «Goethe-Lieder», Der Zwerg (текст Маттеуса фон Коллина) в программу входит — подтверждено и MusicBrainz, и Topic-метаданными."
+    },
+    {
+      "singer": "Thomas Quasthoff",
+      "pianist": "Evgeny Kissin",
+      "rec_year": "не установлен (концерт не позднее 2011; ℗ 2023)",
+      "year_source": "Метаданные официального Topic-трека: album «Thomas Quasthoff in Verbier», ℗ 2023 Verbier Festival Gold, Universal Music Group. Год концерта в доступных источниках не документирован; верхняя граница — январь 2012 (уход Квастхофа из классического пения, дайджест певцов). Дата издания (2023) годом записи НЕ является.",
+      "album": "Thomas Quasthoff in Verbier (live)",
+      "label": "Verbier Festival Gold / UMG",
+      "age_voice": "На пике или в поздней части пика (если концерт 2000-х). Точный год не установлен — оценка состояния голоса невозможна без даты.",
+      "reputation": "Оценок не найдено. Ценность потенциально высокая (за роялем Евгений Кисин — редкая связка), но без даты запись слабо верифицирована.",
+      "sources": [
+        "yt-dlp метаданные Topic-трека nBVO6jcEY3s",
+        "planning/research/singers-digest.md (уход Квастхофа в январе 2012)"
+      ],
+      "youtube": [
+        {"videoId": "nBVO6jcEY3s", "channel": "Thomas Quasthoff - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Резервный вариант Квастхофа. Требует целевого доисследования даты концерта Verbier (или публикации с диапазоном со знаком вопроса по правилу §«Хорошая запись приоритетного исполнителя не блокируется неустановленным годом»). При наличии студийной записи 1993 предпочтение — ей."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1958 (℗; сессия не установлена, вероятно 1957–58)",
+      "year_source": "Метаданные официального Topic-трека (Warner Classics): album «Schubert: Lieder Vol. 2», «℗ A Warner Classics release, ℗ 1958, 2011 Parlophone Records Limited». Фан-загрузка того же тайминга (Ub7UEmoo52o, 5:11) подписана «1957» — метаданные загрузок источником не являются. Поиск в дискографии Майкла Грея (classical-discography.org) из контейнера результатов не дал (форма search2.php возвращает пустой ответ). В реестре проекта серия EMI Vol. 1–4 датирована: Vol. 4 — 23–25 мая 1958, Vol. 1 — «1955–57?»; том 2 не выверен.",
+      "album": "Schubert: Lieder Vol. 2 (EMI/Electrola; переизд. Warner)",
+      "label": "EMI Electrola / Warner Classics",
+      "age_voice": "32–33 года (р. 1925). Самая сердцевина пика (~1951–1972): голос свежий, дикция и легато на высшем уровне.",
+      "reputation": "Прямых рецензий именно на этот трек добыть не удалось (Gramophone/Presto из контейнера — 403). Косвенно: EMI-серия с Муром второй половины 1950-х считается вершиной раннего Фишера-Дискау; klassik-prisma в других песнях (Erlkönig) даёт EMI-1958 с Муром высший балл 5, выше его же DG-свода.",
+      "sources": [
+        "yt-dlp метаданные Topic-трека JbKdazcFvLs (Warner Classics, ℗ 1958)",
+        "planning/youtube/albums.md (карточки серии EMI Vol. 1 и Vol. 4)",
+        "klassik-prisma.de/Erlkoenig.htm (оценка 5 для Fischer-Dieskau / Moore / EMI 1958 — как ориентир по серии)"
+      ],
+      "youtube": [
+        {"videoId": "JbKdazcFvLs", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Наиболее вероятный главный кандидат группы Фишера-Дискау: самая ранняя из его студийных версий, певец в лучшей форме. Требует уточнения года сессии (реестр EMI-серии не выверен)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (℗; сессии свода 1966–1972)",
+      "year_source": "Метаданные официального Topic-трека (UMG): album «Schubert: Lieder», ℗ 1969 Deutsche Grammophon GmbH, Berlin. MusicBrainz: та же запись (5:26) на релизах «Lieder» (1992-10-01), «Lieder, Volume II» (1992-10-01), «Complete Lieder Recordings on Deutsche Grammophon» (2022-10-28). Конвенция проекта для свода — 1969 (planning/youtube/albums.md).",
+      "album": "Schubert: Sämtliche Lieder (21 CD), том с op. 22",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~43–44 года. Ещё внутри пика (по дайджесту ~1951–1972), но тон плотнее и «интерпретаторски» тяжелее раннего EMI; сушь приходит позже, с середины 1970-х.",
+      "reputation": "Свод 1966–72 с Муром — базовая точка отсчёта корпуса; по ряду песен klassik-prisma ставит EMI-версии 1950-х выше DG-свода. Отдельного разбора D 771 не найдено.",
+      "sources": [
+        "yt-dlp метаданные Topic-трека OPDWAbfvmM0",
+        "MusicBrainz recording search (Fischer-Dieskau / Moore, 5:26)",
+        "planning/youtube/albums.md, albums/complete-editions.md"
+      ],
+      "youtube": [
+        {"videoId": "OPDWAbfvmM0", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "rf5Pmbf_S1Y", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дублирующие Topic-загрузки той же фонограммы (rf5Pmbf_S1Y, BZeTOoSUGnI) — разные релизы UMG, фонограмма идентична (5:26)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1957 (концерт, Зальцбургский фестиваль, 1. Liederabend)",
+      "year_source": "MusicBrainz release «Die Salzburger Liederabende, 1956–1965» (Orfeo, 2005), MBID c8177b05-3d41-4244-be3a-7082c40b0e5b: Der Zwerg D 771 — диск 2, трек 11, диск озаглавлен «Salzburger Festspiele 1957, 1. Liederabend» (5:29). Официальный Topic-трек: album «Die Salzburger Liederabende (Live)», ℗ 2019 Orfeo (год издания, не записи).",
+      "album": "Die Salzburger Liederabende, 1956–1965 (Orfeo, 11 CD)",
+      "label": "Orfeo d'Or",
+      "age_voice": "32 года — вокальный пик; концертная непосредственность плюс Мур за роялем.",
+      "reputation": "Оценок конкретно этого номера не найдено. Зальцбургская серия Orfeo — общепризнанный документ ранних Liederabend'ов Фишера-Дискау.",
+      "sources": [
+        "MusicBrainz release c8177b05-3d41-4244-be3a-7082c40b0e5b (треклист по дискам с годами фестивалей)",
+        "yt-dlp метаданные Topic-трека QhYn8XJuRA4 (Orfeo, ℗ 2019)"
+      ],
+      "youtube": [
+        {"videoId": "QhYn8XJuRA4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Лайв того же года, что и предполагаемая EMI-сессия; при выборе одной записи Ф.-Д. студийная обычно предпочтительнее по звуку."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Klaus Billing",
+      "rec_year": "не установлен (ранние берлинские записи; Биллинг был партнёром Ф.-Д. на рубеже 1940–50-х)",
+      "year_source": "Discogs release 30791559 (Diapason «22 Lieder», сентябрь 2023) — трек 10 «Der Zwerg D771», extraartists: Dietrich Fischer-Dieskau (baritone), Klaus Billing (piano), 5:40. MusicBrainz связывает запись Ф.-Д./Биллинга также с audite «Edition Fischer-Dieskau (V) – Die Winterreise» (95.597, 2008), но страница audite для 95.597 описывает только «Зимний путь» (сессия RIAS 19.01.1948) и Der Zwerg в содержании не значится — источник даты для D 771 не найден.",
+      "album": "Les Indispensables de Diapason: «22 Lieder» (переиздание, 2023); первоисточник — ранние берлинские (RIAS-круга) записи",
+      "label": "Diapason (переиздание)",
+      "age_voice": "Если рубеж 1940–50-х — певцу 23–26 лет: юный, ещё лёгкий голос до полного расцвета.",
+      "reputation": "Сильный косвенный сигнал: редакция Diapason выбрала для антологии «незаменимых» шубертовских записей именно эту Der Zwerg (при том что у Ф.-Д. существуют три более поздние версии).",
+      "sources": [
+        "Discogs API release 30791559 (трек-лист с покомандными кредитами)",
+        "MusicBrainz recording search (Fischer-Dieskau / Billing, 5:40)",
+        "audite.de/en/product/CD/95597 (содержание = только Winterreise; сессия 19.01.1948)"
+      ],
+      "youtube": [],
+      "note": "Официальной загрузки на YouTube не найдено. Для публикации потребовалось бы и доисследование года, и поиск ролика — приоритет ниже трёх других версий Ф.-Д."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Irwin Gage",
+      "rec_year": "1975 (℗; год сессии не документирован)",
+      "year_source": "Метаданные официального Topic-трека (UMG): album «Schubert: Lieder», ℗ 1975 Deutsche Grammophon GmbH, Berlin. MusicBrainz: запись Ludwig/Gage 5:40 на CD-переиздании «Lieder» (DG 431 476-2, 1991-03-01). Дайджест певцов датирует DG-ремейк с Гейджем «~1973» — без источника; по правилу «иначе год издания» в проекте следует брать 1975, пока не найден буклет.",
+      "album": "Schubert: Lieder (DG; CD-переизд. 431 476-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "~47 лет (р. 1928). Конец пика (по дайджесту ~1957–1975): меццо ещё полнозвучное, низ богатый — для «Карлика» фактурно выигрышно.",
+      "reputation": "Прямых рецензий на D 771 не найдено. Людвиг — приоритетная певица правил; её шубертовский круг 1957–69 (EMI) klassik-prisma оценивает высоко (Gretchen — 5 баллов), DG-ремейк 1970-х обычно считается более тёмным и тяжёлым.",
+      "sources": [
+        "yt-dlp метаданные Topic-трека VThok0wekj8 (℗ 1975 DG)",
+        "MusicBrainz recording search (Ludwig/Gage, 5:40; DG 431 476-2)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "VThok0wekj8", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственная запись песни среди приоритетных певиц правил (Шварцкопф, Шуман, Попп её не пели). Сильный кандидат в старую группу."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Irwin Gage",
+      "rec_year": "1972 (℗)",
+      "year_source": "Метаданные официального Topic-трека (UMG): album «Mahler: Songs from Des Knaben Wunderhorn & Rückert-Lieder / Schubert: Lieder», Jessye Norman, Irwin Gage, ℗ 1972 Universal International Music B.V. (первичный лейбл — Philips). Год сессии отдельно не документирован.",
+      "album": "Mahler / Schubert: Lieder (Philips; переизд. UMG)",
+      "label": "Philips / Universal",
+      "age_voice": "~27 лет (р. 1945) — молодой, свежий, ещё не «монументальный» голос; до её признанного пика (~1975–1995), но техника уже полная.",
+      "reputation": "Оценок этой ранней записи найти не удалось. Ценность: редкая ранняя фиксация Норман в песне, за роялем Ирвин Гейдж.",
+      "sources": [
+        "yt-dlp метаданные Topic-трека XD8D-z75ivY"
+      ],
+      "youtube": [
+        {"videoId": "XD8D-z75ivY", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "По правилу «при прочих равных предпочитать более раннюю» — конкурент её же версии 1984 года."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Phillip Moll",
+      "rec_year": "1984 (сессия апрель 1984; ℗ 1985)",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md: «Jessye Norman — Schubert: Lieder (Philips), запись апрель 1984; ℗ 1985, релиз 24.09.1985»). Подтверждение: MusicBrainz — Norman/Moll, 5:19, релиз «Lieder» 1985; Topic-метаданные ℗ 1985 Universal International Music B.V.",
+      "album": "Schubert: Lieder (Philips)",
+      "label": "Philips / Universal",
+      "age_voice": "~39 лет — самый центр пика (~1975–1995): голос крупный, тёмный, с полным нижним регистром.",
+      "reputation": "Альбом уже фигурирует в проекте по D 852 и D 118; по Erlkönig klassik-prisma даёт ему 5 баллов — единственную пятёрку среди женщин. Для «Карлика» (баллада с оперным размахом) масштаб Норман — естественное преимущество; прямых рецензий на D 771 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточка альбома)",
+        "MusicBrainz recording search (Norman/Moll, 5:19, «Lieder» 1985)",
+        "yt-dlp метаданные Topic-трека kbwNRxEf7XM"
+      ],
+      "youtube": [
+        {"videoId": "kbwNRxEf7XM", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Kno0IAQrt5E", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Kno0IAQrt5E — та же фонограмма на компиляции «Best of Jessye Norman»; каноничен трек с альбома «Schubert: Lieder» (kbwNRxEf7XM)."
+    },
+    {
+      "singer": "Ann Murray",
+      "pianist": "Graham Johnson",
+      "rec_year": "1988 (запись ноябрь 1988)",
+      "year_source": "Страница альбома на hyperion-records.co.uk (dc.asp?dc=D_CDJ33003): «Recording Date: November 1988», Rosslyn Hill Unitarian Chapel, Hampstead, London; Release Date: December 1989. MusicBrainz: Murray/Johnson, 5:30, релиз «The Hyperion Schubert Edition, Volume 3: Schubert & His Friends I», 1989-12.",
+      "album": "The Hyperion Schubert Edition, Vol. 3 — «Schubert & His Friends I» (CDJ33003)",
+      "label": "Hyperion",
+      "age_voice": "~39 лет (р. 1949); зрелая форма, ирландское меццо светлого тембра.",
+      "reputation": "Рецензии на альбом (цитаты на странице Hyperion): Gramophone — «This persuasive disc is faultlessly recorded»; American Record Guide — «We await more with enthusiasm and admiration»; CDReview — «For me this represents some of the finest Lieder singing on record»; Which CD — «In Ann Murray we have a worthy successor in the Ferrier/Baker line». Оценки относятся к диску в целом, не к D 771 отдельно.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33003",
+        "MusicBrainz recording search (Murray/Johnson)",
+        "yt-dlp метаданные Topic-трека NUBWGq3wKeg"
+      ],
+      "youtube": [
+        {"videoId": "NUBWGq3wKeg", "channel": "Ann Murray - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Версия «научного эталона» (Хайперион/Джонсон). С 2023 доступна официально через UMG-Topic."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "1996 (сессии февраль–март 1996, Abbey Road Studio No. 1; ℗ 1998)",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md: «Ian Bostridge — Schubert: Lieder (Vol. 1), запись II–III.1996, Abbey Road Studio No. 1, изд. 1998»). Подтверждение: MusicBrainz — Bostridge/Drake, 5:21, релиз «Lieder» 1998-04-27 (EMI); Topic-метаданные Warner: ℗ 1998 Parlophone.",
+      "album": "Schubert: Lieder (Vol. 1) (EMI Classics)",
+      "label": "EMI Classics / Warner Classics",
+      "age_voice": "~31–32 года (р. 1964) — начало пика (~1995–2010): голос лёгкий, светлый, ещё без поздней манерности.",
+      "reputation": "Значимый косвенный сигнал: именно эта запись Der Zwerg отобрана в историческую антологию EMI/Warner «Schubert: Lieder on Record 1898–2012» (MusicBrainz: релиз 2012-07-02) — то есть выбрана как представитель песни в своде столетия записей. Прямых рецензий добыть не удалось (Gramophone из контейнера — 403).",
+      "sources": [
+        "planning/youtube/albums.md (карточка альбома, сессии 1996)",
+        "MusicBrainz recording search (Bostridge/Drake; релизы «Lieder» 1998 и «Lieder on Record 1898–2012» 2012)",
+        "yt-dlp метаданные Topic-трека F1MqLETYavE"
+      ],
+      "youtube": [
+        {"videoId": "F1MqLETYavE", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть и его концертная версия: «Schubert 4 — Wigmore Hall Live» (℗ 2018 The Wigmore Hall Trust, релиз 13.04.2018; дата концерта не установлена), videoId g0wLsPwu6Nc, Topic, живой."
+    },
+    {
+      "singer": "Christian Gerhaher",
+      "pianist": "Gerold Huber",
+      "rec_year": "2013 (release_year официального трека; издание альбома — 2014)",
+      "year_source": "Метаданные официального Topic-трека: album «Nachtviolen — Schubert: Lieder», release_year 2013 (Sony Classical). MusicBrainz: Gerhaher/Huber, 4:54, релиз «Nachtviolen: Schubert Lieder», 2014. Год сессии по буклету не проверен (Presto/Gramophone из контейнера недоступны).",
+      "album": "Nachtviolen — Schubert: Lieder",
+      "label": "Sony Classical",
+      "age_voice": "~44 года (р. 1969) — внутри признанного пика (~2000–наст.).",
+      "reputation": "Пресса называет Герхаэра высшим «текстовиком» современности — по правилам проекта такие оценки фильтруются как пиар-риск; независимых сравнительных источников по D 771 не найдено. Тайминг 4:54 — самый быстрый среди кандидатов (у большинства 5:10–5:40), что указывает на подчёркнуто речевую, драматически сжатую трактовку.",
+      "sources": [
+        "yt-dlp метаданные Topic-трека J0kJUad2GTA",
+        "MusicBrainz recording search (Gerhaher/Huber)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "J0kJUad2GTA", "channel": "Christian Gerhaher - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Один из главных современных кандидатов (запись не ранее 1990)."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Helmut Deutsch",
+      "rec_year": "2014 (издание; год сессии не установлен)",
+      "year_source": "Метаданные официального трека (канал «Matthias Goerne»): album «Schubert: Wanderers Nachtlied», release_year 2014, пианист Helmut Deutsch. MusicBrainz: Goerne/Deutsch, 5:29, релиз «Wanderers Nachtlied», 2014-02-10. Реестр проекта датирует том 8 свода Гёрне 10.02.2014 (это дата издания).",
+      "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied»",
+      "label": "harmonia mundi",
+      "age_voice": "~46–47 лет (р. 1967) — конец основного пика (~1997–2015); голос тёмный, плотный, дыхание длинное.",
+      "reputation": "12-томный свод Гёрне — крупнейший сольный шубертовский проект последних десятилетий; отдельных разборов D 771 не найдено. По правилам — скепсис к маркетинговым оценкам современников.",
+      "sources": [
+        "yt-dlp метаданные трека gRwSZXwGrKM",
+        "MusicBrainz recording search (Goerne/Deutsch)",
+        "planning/youtube/albums.md, albums/complete-editions.md"
+      ],
+      "youtube": [
+        {"videoId": "gRwSZXwGrKM", "channel": "Matthias Goerne", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВНИМАНИЕ по пианисту: в реестре том 8 значился с Eric Schneider, но и MusicBrainz, и официальные метаданные трека дают для Der Zwerg Хельмута Дойча — при публикации name строить по Deutsch."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "2016 (издание; год сессии не установлен)",
+      "year_source": "MusicBrainz: Boesch/Martineau, 5:11, релиз «Lieder Recital», 2016. Метаданные Topic-трека: album «Florian Boesch & Malcolm Martineau: Schubert Lieder Recital», release_year 2016. Реестр проекта: Onyx 4149, 24 песни, год 2016.",
+      "album": "Schubert: Lieder Recital (ONYX 4149)",
+      "label": "Onyx Classics",
+      "age_voice": "~45 лет (р. 1971) — зрелый пик (~2010–наст.); венская рассказчицкая школа, тёмный бас-баритон.",
+      "reputation": "Альбом уже используется проектом (D 805, D 806). Прямых рецензий на D 771 не найдено; пресса о Бёше в шубертовских циклах устойчиво положительна (Hyperion-диск 2012 — восторги Gramophone/Guardian, см. реестр), но это другой альбом.",
+      "sources": [
+        "MusicBrainz recording search (Boesch/Martineau)",
+        "yt-dlp метаданные Topic-трека i9lMhlKVny0",
+        "planning/youtube/albums.md (карточка Onyx 4149)"
+      ],
+      "youtube": [
+        {"videoId": "i9lMhlKVny0", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат на «современную» позицию (не ранее 2015)."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Joseph Middleton",
+      "rec_year": "2021 (сессия апрель 2021)",
+      "year_source": "Реестр альбомов проекта (planning/youtube/albums.md: «Schubert: Glaube, Hoffnung, Liebe» HMM 902689, изд. 06.05.2022; сессия IV.2021 по MusicBrainz recording-relations; год в проекте — 2021). Подтверждение: MusicBrainz — Hasselhorn/Middleton, 5:26, релиз 2022-05-06; Topic-метаданные release_year 2022.",
+      "album": "Schubert: Glaube, Hoffnung, Liebe (HMM 902689)",
+      "label": "harmonia mundi",
+      "age_voice": "~31 год (р. 1990) — молодой лирический баритон, победитель Queen Elisabeth 2018; в проекте отмечен как автор «Schubert 200».",
+      "reputation": "Прямых рецензий на D 771 не найдено. Его соседние шубертовские диски отмечены Diapason d'or года (Müllerin 2023) и Preis der deutschen Schallplattenkritik («Licht und Schatten», 2024) — сигнал качества серии, не конкретной песни.",
+      "sources": [
+        "planning/youtube/albums.md (карточка альбома; сессия IV.2021)",
+        "MusicBrainz recording search (Hasselhorn/Middleton)",
+        "yt-dlp метаданные Topic-трека gVLKyTTjKWA",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "gVLKyTTjKWA", "channel": "Samuel Hasselhorn - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат на позицию «не ранее 2015»."
+    },
+    {
+      "singer": "Konstantin Krimmel",
+      "pianist": "Doriana Tchakarova",
+      "rec_year": "2019 (издание 20.09.2019; год сессии не установлен)",
+      "year_source": "MusicBrainz: Krimmel/Tchakarova, 5:31, релиз «Saga» 2019-09-20 (Alpha Classics). Метаданные Topic-трека: album «Saga», release_year 2019. Дайджест певцов: «Saga» — баллады, Alpha 2019.",
+      "album": "Saga (баллады Шуберта, Лёве и др.)",
+      "label": "Alpha Classics",
+      "age_voice": "~26 лет (р. 1993) — дебютный сольный диск; молодой, ровный баритон, начало пика (~2019–наст.).",
+      "reputation": "Дебют «Saga» получил заметную прессу (по дайджесту — балладная программа, продолженная альбомом «Mythos», Alpha 2024); конкретных оценок D 771 не найдено, к похвалам молодым исполнителям правила предписывают скепсис.",
+      "sources": [
+        "MusicBrainz recording search (Krimmel/Tchakarova)",
+        "yt-dlp метаданные Topic-трека C6eJN4J5GG4",
+        "planning/research/singers-digest.md, planning/youtube/albums.md (карточка «Mythos»)"
+      ],
+      "youtube": [
+        {"videoId": "C6eJN4J5GG4", "channel": "Konstantin Krimmel - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Der Zwerg — программно центральная баллада такого диска; кандидат «не ранее 2015»."
+    },
+    {
+      "singer": "Fatma Said",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "2024 (издание; год сессии не установлен)",
+      "year_source": "MusicBrainz: Said/Martineau, 5:39, релиз «Lieder» (Warner Classics, дата в MB не проставлена); та же запись — на сборнике «Les Plus Beaux CD du mois — mars 2025» (2025-02-27). Дайджест певцов: альбом «Lieder» (Warner 2024, Martineau/Middleton и др.; включает Der Zwerg). Официальный трек на канале Fatma Said без release_year.",
+      "album": "Lieder",
+      "label": "Warner Classics",
+      "age_voice": "~33 года (р. 1991) — лирико-колоратурное сопрано; для «Карлика» это нетипично светлый голос.",
+      "reputation": "Диск попал в редакционную подборку Diapason «Les plus beaux CD du mois» (март 2025) — единственный найденный внешний сигнал. По правилам — сильный пиар-скепсис: премиальная маркетинговая кампания Warner.",
+      "sources": [
+        "MusicBrainz recording search (Said/Martineau, 2 записи)",
+        "planning/research/singers-digest.md (альбом «Lieder», Warner 2024, вкл. Der Zwerg)",
+        "yt-dlp метаданные трека lYZxKlN20sM"
+      ],
+      "youtube": [
+        {"videoId": "lYZxKlN20sM", "channel": "Fatma Said", "official": true, "oembed_ok": true}
+      ],
+      "note": "Формально закрывает требование «не ранее 2015», но по типу голоса и весу репутации уступает Бёшу/Хассельхорну/Криммелю."
+    },
+    {
+      "singer": "Alice Coote",
+      "pianist": "Julius Drake",
+      "rec_year": "2022 (издание; год сессии не установлен)",
+      "year_source": "MusicBrainz: Coote/Drake, 5:29, релиз «21 Songs», 2022-05-06. Метаданные Topic-трека (канал Julius Drake - Topic): album «Schubert: 21 Songs», release_year 2022.",
+      "album": "Schubert: 21 Songs",
+      "label": "не установлен (Topic-релиз через агрегатора)",
+      "age_voice": "~54 года (р. 1968) — зрелое меццо, признанная лидер-интерпретаторка (её Winterreise, Wigmore 2012, — веха женских прочтений).",
+      "reputation": "Прямых рецензий на D 771 не найдено. Ку́т ценится за драматизм и словесную подачу; связка с Дрейком авторитетна.",
+      "sources": [
+        "MusicBrainz recording search (Coote/Drake)",
+        "yt-dlp метаданные Topic-трека mBZ3YLOybEg",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "mBZ3YLOybEg", "channel": "Julius Drake - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Загрузка идёт по Topic-каналу пианиста, а не певицы — при публикации name = «Coote — Drake»."
+    },
+    {
+      "singer": "Rainer Trost",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "2008 (℗ 2008 Naxos; релиз 30.09.2008; год сессии не установлен)",
+      "year_source": "Метаданные официального Topic-трека: album «Schubert: Lied Edition 28 — Friends, Vol. 3», ℗ 2008 Naxos, Released on 2008-09-30. MusicBrainz: Trost/Eisenlohr, 5:16, релизы «Lied Edition 28 - Friends, Vol. 3» (2008-09-30) и «Franz Schubert: The Complete Lieder» (2011-11).",
+      "album": "Deutsche Schubert-Lied-Edition, Vol. 28 — «Schubert's Friends, Vol. 3»",
+      "label": "Naxos",
+      "age_voice": "тенор (р. 1956; в дайджесте певцов карточки нет) — моцартовский лирический тенор, для «Карлика» голос лёгкий.",
+      "reputation": "Полное издание Naxos (Айзенлор) — справочный ресурс корпуса; художественно, как правило, уступает лучшим рециталам. Отдельных оценок нет.",
+      "sources": [
+        "yt-dlp метаданные Topic-трека XWe_pHIETMQ",
+        "MusicBrainz recording search (Trost/Eisenlohr)"
+      ],
+      "youtube": [
+        {"videoId": "XWe_pHIETMQ", "channel": "Rainer Trost - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Опорная «полная» версия песни; в топ-5 при наличии Ф.-Д., Квастхофа, Людвиг и Норман вряд ли попадает."
+    },
+    {
+      "singer": "Anna Lucia Richter",
+      "pianist": "Gerold Huber",
+      "rec_year": "2019 (издание 01.02.2019; год сессии не установлен)",
+      "year_source": "MusicBrainz: A. L. Richter/Huber, 5:26, релиз «Heimweh: Schubert Lieder», 2019-02-01 (Pentatone). Дайджест певцов: «Heimweh» (Pentatone 2019, Huber).",
+      "album": "Heimweh: Schubert Lieder",
+      "label": "Pentatone",
+      "age_voice": "~28–29 лет (р. 1990); в 2019 ещё сопрано (переход в меццо — с ~2020).",
+      "reputation": "Оценок конкретно D 771 не найдено.",
+      "sources": [
+        "MusicBrainz recording search (Anna Lucia Richter/Huber)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [],
+      "note": "Официальная загрузка D 771 не проверена (в generic-выдаче и целевом поиске не всплыла). Пул-кандидат второго ряда."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "ЗАПИСАЛ, две версии. (1) Студия: RCA «Schubert: Goethe-Lieder» с Charles Spencer, сессии 25–26 и 28–29 мая 1993 (реестр альбомов проекта; ℗ 1993 BMG в метаданных официального Topic-трека WeKeLRGR0Yc; MusicBrainz: релиз «Goethe-Lieder», 1995-03-31, и бокс «The Complete RCA Recordings»). (2) Лайв: «Thomas Quasthoff in Verbier» с Евгением Кисиным, ℗ 2023 Verbier Festival Gold (Topic nBVO6jcEY3s); год концерта не установлен, верхняя граница — 2011.",
+    "Dietrich Fischer-Dieskau": "ЗАПИСАЛ, четыре версии (MusicBrainz recording search + Topic-метаданные): EMI/Moore, ℗ 1958 («Schubert: Lieder Vol. 2», Warner-переизд., JbKdazcFvLs); DG Sämtliche Lieder/Moore, ℗ 1969 (OPDWAbfvmM0); лайв Зальцбург, 1. Liederabend 1957, Moore (Orfeo «Die Salzburger Liederabende 1956–1965», MB c8177b05…, диск 2 трек 11; Topic QhYn8XJuRA4); ранняя запись с Klaus Billing (Discogs 30791559 — Diapason «22 Lieder», трек 10, 5:40; год не установлен).",
+    "Elisabeth Schwarzkopf": "НЕ ЗАПИСЫВАЛА (по доступным источникам). MusicBrainz: recording:\"Der Zwerg\" AND artist:Schwarzkopf — 0 результатов; в дайджесте певцов её шубертовский корпус (рецитал с Э. Фишером 1952, 78-е с Муром 1948–54, зальцбургские лайвы, «Songs I Love» 1970–73) D 771 не содержит; целевой поиск YouTube её версии не даёт.",
+    "Hans Hotter": "НЕ ЗАПИСЫВАЛ (по доступным источникам). MusicBrainz — 0 результатов; целевой поиск yt-dlp «Hotter Der Zwerg Schubert» выдаёт только чужие исполнения. Песня op. 22/1 в его известную дискографию (Winterreise 1942/1954/1961, Schwanengesang и Lieder начала 1950-х) не входит.",
+    "Peter Anders": "НЕ ЗАПИСЫВАЛ (по доступным источникам). MusicBrainz — 0 результатов. Его шубертовское наследие — циклы с Раухайзеном/Вайссенборном 1945–48; D 771 не зафиксирована.",
+    "Elisabeth Schumann": "НЕ ЗАПИСЫВАЛА. MusicBrainz — 0 результатов; её ~28 шубертовских сторон HMV 1927–49 (Naxos 8.110731) — лирический репертуар, «Карлика» среди них нет (дайджест певцов).",
+    "Christa Ludwig": "ЗАПИСАЛА. DG, с Ирвином Гейджем, ℗ 1975 (Topic VThok0wekj8; CD-переизд. DG 431 476-2, 1991 — MusicBrainz). Единственная запись песни среди приоритетных певиц правил.",
+    "Lucia Popp": "НЕ ЗАПИСЫВАЛА (по доступным источникам). MusicBrainz — 0 результатов; в её шубертовской дискографии (EMI-рецитал 1983 с Gage, два BBC Legends-лайва) D 771 не значится."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Goethe-Lieder (RCA Victor Red Seal 09026 618642)",
+      "singer": "Thomas Quasthoff",
+      "year": "1993 (сессии 25–26 и 28–29 мая), издание 1995",
+      "label": "RCA Victor Red Seal / BMG",
+      "facts": "Пианист Charles Spencer; место — Historischer Reitstadel, Ноймаркт; 13 номеров, TT 61:42. Первый из шести шубертовских альбомов Квастхофа. Важное уточнение по этому досье: несмотря на название, диск содержит и негётевские номера — Der Zwerg (Коллин) в программе есть (MusicBrainz + Topic).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Vol. 2 (EMI/Electrola; переизд. Warner Classics)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "℗ 1958 (сессия не установлена)",
+      "label": "EMI Electrola / Warner Classics",
+      "facts": "Пианист Gerald Moore. Часть EMI-серии рециталов 1955–1965; в реестре проекта датированы только Vol. 1 («1955–57?») и Vol. 4 (23–25 мая 1958). Требуется доисследование сессии тома 2 (дискография Майкла Грея из контейнера сейчас не отвечает).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Sämtliche Lieder (21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "℗ 1969 (сессии свода 1966–1972)",
+      "label": "Deutsche Grammophon",
+      "facts": "Gerald Moore, Ufa-Ton-Studio Берлин; полный свод «мужских» песен — базовая точка отсчёта корпуса. На YouTube выложен несколькими параллельными релизами UMG с идентичной фонограммой (OPDWAbfvmM0, rf5Pmbf_S1Y, BZeTOoSUGnI).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Die Salzburger Liederabende, 1956–1965 (11 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1957 (для D 771 — 1-й Liederabend Зальцбургского фестиваля 1957), издание 2005; Topic ℗ 2019",
+      "label": "Orfeo d'Or",
+      "facts": "Каждый диск бокса соответствует одному фестивальному вечеру и озаглавлен годом (MusicBrainz c8177b05-3d41-4244-be3a-7082c40b0e5b). Der Zwerg — диск 2, трек 11 (5:29), пианист Gerald Moore. НОВАЯ карточка для реестра: бокс закрывает вопрос дат по всем концертным номерам Ф.-Д. 1956–1965.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Les Indispensables de Diapason: «22 Lieder» (сентябрь 2023)",
+      "singer": "антология (Anders, Ferrier, Fischer-Dieskau и др.)",
+      "year": "2023 (переиздание)",
+      "label": "Diapason",
+      "facts": "Discogs 30791559; трек 10 — Der Zwerg D 771, Dietrich Fischer-Dieskau (баритон) / Klaus Billing (ф-но), 5:40. Редакционный отбор Diapason служит тестом «какая запись песни считается эталонной»: для D 771 выбрана ранняя версия Ф.-Д. с Биллингом, а не его же студийные EMI/DG.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Philips)",
+      "singer": "Jessye Norman",
+      "year": "1984 (сессия апрель), ℗ 1985",
+      "label": "Philips / Universal",
+      "facts": "Пианист Phillip Moll; уже в реестре проекта (D 852, D 118); по Erlkönig — 5 баллов klassik-prisma, единственная пятёрка среди женщин.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Mahler / Schubert: Lieder (Philips, ℗ 1972)",
+      "singer": "Jessye Norman",
+      "year": "1972 (℗)",
+      "label": "Philips / Universal",
+      "facts": "Пианист Irwin Gage; ранний рецитал 27-летней Норман. НОВАЯ карточка для реестра — даёт вторую (более раннюю) версию любой песни из её тогдашней программы.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Schubert: Lieder (DG; CD-переизд. 431 476-2, 1991)",
+      "singer": "Christa Ludwig",
+      "year": "℗ 1975 (год сессии не документирован; дайджест указывает «~1973» без источника)",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Irwin Gage — DG-ремейк после её EMI-круга 1957–69. НОВАЯ карточка для реестра; требует сверки года по буклету DG 431 476-2 при публикации (сквозная унификация года альбома).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 3 «Schubert & His Friends I» (CDJ33003)",
+      "singer": "Ann Murray",
+      "year": "1988 (запись ноябрь), издание декабрь 1989",
+      "label": "Hyperion",
+      "facts": "Graham Johnson (ф-но), Rosslyn Hill Unitarian Chapel, Хэмпстед, Лондон. Пресса (цитаты на сайте Hyperion): Gramophone — «faultlessly recorded»; CDReview — «some of the finest Lieder singing on record». НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder (Vol. 1) (EMI Classics)",
+      "singer": "Ian Bostridge",
+      "year": "1996 (сессии февраль–март), издание 1998",
+      "label": "EMI Classics / Warner Classics",
+      "facts": "Julius Drake, Abbey Road Studio No. 1; уже в реестре (D 768, D 800, D 806, D 807). Именно его Der Zwerg отобрана в антологию EMI/Warner «Schubert: Lieder on Record 1898–2012».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Nachtviolen — Schubert: Lieder",
+      "singer": "Christian Gerhaher",
+      "year": "2013/2014 (издание; сессия не установлена)",
+      "label": "Sony Classical",
+      "facts": "Gerold Huber; самый быстрый тайминг D 771 в пуле (4:54).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Matthias Goerne Schubert Edition, Vol. 8 «Wanderers Nachtlied»",
+      "singer": "Matthias Goerne",
+      "year": "2014 (издание 10.02.2014)",
+      "label": "harmonia mundi",
+      "facts": "Для D 771 пианист — Helmut Deutsch (MusicBrainz + официальные метаданные трека), а не Eric Schneider, как значится в карточке реестра по другим песням тома: тома свода Гёрне делят пианистов, кредит нужно брать потрековый.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Recital (ONYX 4149)",
+      "singer": "Florian Boesch",
+      "year": "2016",
+      "label": "Onyx Classics",
+      "facts": "Malcolm Martineau, 24 песни; альбом уже используется проектом (D 805, D 806).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Glaube, Hoffnung, Liebe (HMM 902689)",
+      "singer": "Samuel Hasselhorn",
+      "year": "2021 (сессия апрель), издание 06.05.2022",
+      "label": "harmonia mundi",
+      "facts": "Joseph Middleton; карточка уже в albums/male-recitalists.md.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Saga",
+      "singer": "Konstantin Krimmel",
+      "year": "2019 (издание 20.09.2019)",
+      "label": "Alpha Classics",
+      "facts": "Doriana Tchakarova; балладная программа (Шуберт, Лёве и др.), дебютный сольный диск.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder",
+      "singer": "Fatma Said",
+      "year": "2024 (издание; в MB дата не проставлена)",
+      "label": "Warner Classics",
+      "facts": "Malcolm Martineau (в альбоме также Middleton и др.); трек попал в подборку Diapason «Les plus beaux CD du mois — mars 2025».",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Deutsche Schubert-Lied-Edition, Vol. 28 «Schubert's Friends, Vol. 3»",
+      "singer": "Rainer Trost",
+      "year": "2008 (℗; релиз 30.09.2008)",
+      "label": "Naxos",
+      "facts": "Ulrich Eisenlohr; часть полного издания Naxos, вошло и в бокс «Franz Schubert: The Complete Lieder» (2011).",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительной страницы по «Der Zwerg» НЕТ: индекс шубертовских песен (https://www.klassik-prisma.de/Schubert.htm) содержит только Erlkönig, Gretchen am Spinnrade, Junge Nonne, Nacht und Träume, Auf dem Wasser zu singen, Tartarus, Der Hirt auf dem Felsen, циклы и инструментальное; проверены и прямые URL Der_Zwerg.htm / DerZwerg.htm / Zwerg.htm — 404.",
+    "Les Indispensables de Diapason «22 Lieder» (сентябрь 2023, Discogs 30791559) — редакционный отбор эталонных шубертовских записей; для D 771 выбрана версия Fischer-Dieskau / Klaus Billing.",
+    "EMI/Warner «Schubert: Lieder on Record 1898–2012» (MusicBrainz, релиз 2012-07-02) — историческая антология столетия записей; представитель D 771 в ней — Bostridge / Drake (EMI 1996).",
+    "hyperion-records.co.uk, страница CDJ33003 (Hyperion Schubert Edition Vol. 3) — даты записи и подборка рецензий (Gramophone, American Record Guide, CDReview, Which CD) на диск с Der Zwerg в исполнении Ann Murray.",
+    "НЕДОСТУПНО в этой сессии: Gramophone (gramophone.co.uk — HTTP 403), Presto Music (Cloudflare 403), MusicWeb-International (страница поиска 404), Bing/DuckDuckGo (пустой ответ/капча), WebSearch (лимит сессии 200/200 исчерпан). Сравнительные обзоры и слепые тесты по D 771 в этой сессии найти не удалось — их поиск стоит повторить в сессии с рабочим веб-поиском."
+  ],
+  "negatives": [
+    "Приоритетные певцы БЕЗ записи D 771: Schwarzkopf, Hotter, Anders, E. Schumann, Popp (MusicBrainz recording-search — 0 результатов по каждому; целевые yt-dlp-поиски также ничего не дают).",
+    "Старых мастеров до ~1950 в дискографии песни практически нет: MusicBrainz-поиски по Schlusnus, Hüsch, Souzay, Janet Baker, Fassbaender, Waltraud Meier (как студийная запись) — 0 результатов. Самая ранняя найденная запись — Fischer-Dieskau / Klaus Billing (рубеж 1940–50-х, дата не установлена). Это редкий для «знаменитой» песни случай: фонд D 771 фактически начинается с Фишера-Дискау.",
+    "Год записи НЕ установлен и требует доисследования: (а) сессия EMI-тома 2 Ф.-Д. (℗ 1958); (б) запись Ф.-Д. / Billing; (в) концерт Квастхоф / Кисин в Вербье (℗ 2023); (г) сессия альбома Людвиг / Гейдж (℗ 1975); (д) сессии современных дисков Gerhaher, Goerne, Boesch, Krimmel, Coote, Said (известны только годы изданий).",
+    "Дискография Майкла Грея (classical-discography.org) в этой сессии не отвечает на запросы: форма search2.php возвращает пустой документ и по GET, и по POST — проверить сессии EMI/DG Ф.-Д. не удалось.",
+    "Discogs API отвечал с 429 (перегружен параллельными агентами); успешный запрос удался только после ~45 с паузы, поэтому по большинству альбомов буклетные данные не вскрывались.",
+    "Загрузки без официального статуса, в топ-5 не годятся, но зафиксированы как существующие: Waltraud Meier (sOfOhcfcfmY, фан-канал rosen88kavalier, полный рецитал по номерам), Sarah Walker / Roger Vignoles (только фан-загрузка целого диска «19 Lieder», LKZVUfwFrKg), Christoph Prégardien / Kirill Gerstein — Verbier 2010 на medici.tv (FBEHKerNMJA, 2:50 — фрагмент, не вся песня).",
+    "Прочие записи пула без отдельных карточек (все — MusicBrainz): Dietrich Henschel / Helmut Deutsch («An den Mond — Chants nocturnes», 2004); Camilla Tilling / Paul Rivinius («Bei dir allein!», BIS, 2012-02); Tamara Takács / Jenő Jandó (Naxos «Lieder», 1992); Marianne Beate Kielland / Jos van Immerseel («Schubertiade», 2015-11); Sophie Rennert / Joseph Middleton («Irrlichter», BIS, 2026-04-24); Christianne Stotijn / Joseph Breinl; Stéphane Degout / Simon Lepper; Christoph & Julian Prégardien / Michael Gees («Father and Son», 2014); Harriet Burns / Ian Tindale; Cyrielle Ndjiki Nya / Kaoli Ono."
+  ]
+}

@@ -116,7 +116,7 @@ YT: скромно; Hyperion — official audio с 2023 (digest, раздел р
 
 Последний частный ученик Fischer-Dieskau; пик ~2016–наст. (digest). YT: очень хорошо, official Alpha + медиа-активность (digest).
 
-- **Appl — Schubert (Wigmore Hall Live, 2016)** — Graham Johnson; дата 29.04.2016 фигурирует и как дата записи (albums.md), и как дата издания (MB) — уточнить; вкл. Wiedersehn D 855; YT: Wigmore?.
+- **Appl — Schubert (Wigmore Hall Live WHLive0082, концерт 27.03.2015, изд. 29.04.2016)** — Graham Johnson; дата сессии — Discogs release 20004631 (notes: «Recorded live on 27 March 2015», barcode 5065000924836); прежний флаг «29.04.2016 — запись или издание?» снят: это дата релиза; унифицированный год для year — 2015; вкл. Wiedersehn D 855, An die Leier D 737; YT: Appl Topic (℗2016 The Wigmore Hall Trust).
 - **Appl — Heimat (Sony Classical, 2017)** — James Baillieu; смешанный рецитал с шубертовским ядром (digest); YT: Sony Topic.
 - **Appl — Winterreise (Alpha, зап. 2021–февр. 2022?, изд. 11.02.2022 [MB])** — Baillieu; YT: Alpha official.
 - **Appl — Forbidden Fruit (Alpha, 2023)** — Baillieu; вкл. Gretchen am Spinnrade D 118 — редчайшая мужская запись песни (digest); YT: Alpha official.

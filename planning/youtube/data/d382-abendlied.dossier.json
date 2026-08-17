@@ -1,0 +1,51 @@
+{
+  "d": "382",
+  "title": "Abendlied",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (DG Sämtliche Lieder, конвенция проекта — год 1969 для всех песен свода)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "вокальный расцвет, свод целиком в диапазоне 1951–1972",
+      "reputation": "базовая точка отсчёта корпуса (реестр)",
+      "videoId": "ssSC3a6U8lA",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true,
+      "note": "точное совпадение заголовка и длительности (167 с); ещё 2 дублирующие загрузки (ML0hc9P7YJc, 6sthxW-3ns4)"
+    },
+    {
+      "singer": "Christoph Prégardien",
+      "pianist": "не установлен для этой записи",
+      "rec_year": "не установлен",
+      "year_source": "реестр даёт 4 карточки Prégardien (Staier/Gees, гётевские и «Abschied»-программы), но D 382 (поэт не Гёте) ни в одну явно не входит — конкретный альбом-источник трека не идентифицирован в рамках бюджета",
+      "album": "не установлен",
+      "label": "не установлен",
+      "voice_note": "не установлено",
+      "reputation": "не установлено",
+      "videoId": "qUz1NOMGxZM",
+      "channel": "Christoph Prégardien - Topic",
+      "official": true,
+      "note": "заголовок точно совпадает («Schubert: Abendlied, D. 382»); требует целевого доисследования, если войдёт в топ"
+    }
+  ],
+  "excluded_false_matches": [
+    "Gundula Janowitz - Topic (MXhWKJ95I98, XydJAa6UCzY) — заголовок «Abendlied der Fürstin, D. 495» — другая песня, ложное срабатывание",
+    "José Navarro-Forcada (BqsQu0UVu-M) — заголовок верный, но не Topic-лейбл, учебная загрузка (14974 просмотра — необычно много для учебного канала, но происхождение не значимое)",
+    "Bothmer, Ferdinand von - Topic (NnlyrMjkoKE, 178 с) — заголовок совпадает, канал без registry_hits, происхождение не установлено — не исследован (маргинальный)",
+    "VOCES8, margotlorena2 (Rheinberger «Abendlied» — другой композитор), The Gesualdo Six, spring duo/Bartje Bartmans (Schumann Op. 85 №12 — другое произведение), Deutsche Grammophon/Kian Soltani (тот же Шуман) — не Шуберт/не тот D-номер"
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "Fischer-Dieskau": "найдено — DG Sämtliche Lieder, см. выше",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "не найдено",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено",
+    "Popp": "не найдено"
+  },
+  "new_albums": []
+}

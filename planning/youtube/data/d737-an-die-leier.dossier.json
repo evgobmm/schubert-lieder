@@ -1,0 +1,424 @@
+{
+  "d": "737",
+  "title": "An die Leier",
+  "tier": "famous (мужской репертуар; ~20 записей в MusicBrainz, 14 сессий в дискографии Майкла Грея)",
+  "note_general": "Стихотворение Франца Серафа фон Брухмана по Анакреонту; издана как op. 56 № 2. Грэм Джонсон в аннотациях к тому 14 Hyperion датирует песню 1823 годом («In Bruchmann's setting An die Leier D737 (1823) the poet Anacreon specifically abandons storybook blood-and-thunder heroism in favour of love…»). Пул собран из: MusicBrainz (work D 737, 20 записей), дискографии Майкла Грея (classical-discography.org, POST-поиск search2.php по work='An die Leier': 14 сессий), реестра альбомов проекта, буклетов через Discogs API и описаний официальных загрузок YouTube (строки «Provided to YouTube by …» с ℗-датой и кредитами). ВАЖНО: даты сессий взяты только из дискографий/буклетов; ℗-годы использованы лишь там, где сессия не документирована, и это помечено.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Jörg Demus",
+      "rec_year": "1961",
+      "year_source": "Дискография Майкла Грея (classical-discography.org, modalcontent.php?id=76885): Schubert, «An die Leier, D737, op. 56, no. 2», номер издания 138715, дата — 1961 November 24–25, место — Berlin, Studio Lankwitz, лейбл Deutsche Grammophon, артисты «Dietrich Fischer-Dieskau, baritone; Jörg Demus, piano». Косвенно подтверждается ℗-строкой официальной загрузки: «℗ 1962 Deutsche Grammophon GmbH, Berlin» (год издания).",
+      "album": "DG SLPM 138 715 (LP «Schubert-Lieder» с Демусом); на YouTube — цифровой сборник «Schubert: Songs» (UMG, релиз 26.08.2022)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "36 лет (р. 28.05.1925). Середина главного пика (дайджест: ~1951–1972); голос ещё свежий, тон полный, до сухости середины 1970-х далеко.",
+      "reputation": "Фишер-Дискау — приоритет № 2 по правилам проекта. Отдельного критического разбора именно этого номера не найдено (klassik-prisma страницы по D 737 не имеет, см. surveys). Ценность: более ранняя из двух его студийных версий — по правилу «при прочих равных предпочитать более раннюю».",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=76885 (дискография Майкла Грея, сессия 24–25.11.1961)",
+        "Описание официальной загрузки YouTube IqAs2-Ezals (кредиты: Executive Producer Hans Ritter, Balance Engineer Harald Baudis; ℗ 1962 DG)",
+        "planning/research/singers-digest.md (пик формы певца)"
+      ],
+      "youtube": [
+        {"videoId": "IqAs2-Ezals", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 235, "album_tag": "Schubert: Songs (UMG, ℗1962 DG)"},
+        {"videoId": "XyV8D7TtIZA", "channel": "Jörg Demus - Topic", "official": false, "oembed_ok": true, "duration_s": 223, "album_tag": "Schubert: Liederabend (Believe SAS / «VCR») — серый агрегатор, не брать"},
+        {"videoId": "IAKEnqmRwww", "channel": "incontrario motu (фан)", "official": false, "oembed_ok": true, "duration_s": 236}
+      ],
+      "note": "Та же фонограмма ходит на канале пианиста через агрегатор Believe SAS с бессмысленной тональностью в заголовке («C-Flat Minor») — брать только Topic-канал певца."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969 (конвенция проекта для свода; сессии свода 1966–1972)",
+      "year_source": "℗-строка официальной загрузки: «℗ 1969 Deutsche Grammophon GmbH, Berlin»; кредиты совпадают с кредитами свода (Executive Producer Otto Gerdes, Producer Rainer Brock, Balance Engineer Hans-Peter Schweigmann). Конкретная сессия по D 737 у Грея НЕ документирована (в его выдаче по этой песне записи FD/Moore нет) — год взят по конвенции проекта для «Sämtliche Lieder» (см. albums.md / albums/complete-editions.md §3).",
+      "album": "Schubert: Sämtliche Lieder (21 CD), DG; на YouTube — релизы «Schubert: Lieder», «Schubert: Lieder (Vol. 2)» и сводный бокс с циклами",
+      "label": "Deutsche Grammophon",
+      "age_voice": "44 года (р. 1925). Конец главного пика (дайджест: ~1951–1972); голос ещё в форме, но плотнее и «инструментальнее», чем в 1961.",
+      "reputation": "Часть базовой точки отсчёта корпуса — полного свода мужских песен с Муром. Отдельной критики по этому номеру не найдено.",
+      "sources": [
+        "Описание официальной загрузки YouTube rHFWlNUW5Uw (℗ 1969 DG, полные кредиты свода)",
+        "planning/youtube/albums.md, planning/youtube/albums/complete-editions.md §3 (карточка свода)"
+      ],
+      "youtube": [
+        {"videoId": "rHFWlNUW5Uw", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 225, "album_tag": "Schubert: Lieder (2005)"},
+        {"videoId": "9esT-Igi2Zo", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 225, "album_tag": "Schubert: Lieder (Vol. 2), релиз 1969"},
+        {"videoId": "nY90Z1xLlQ8", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true, "duration_s": 225, "album_tag": "сводный бокс с циклами (2010)"}
+      ],
+      "note": "Три параллельные Topic-загрузки одной фонограммы (225 с). При публикации выбрать одну; по правилу «при прочих равных — более ранняя запись» версия с Демусом (1961) имеет приоритет перед сводом."
+    },
+    {
+      "singer": "Jussi Björling",
+      "pianist": "Harry Ebert",
+      "rec_year": "1940",
+      "year_source": "Дискография Майкла Грея (modalcontent.php?id=77992): дата 1940 January 30, место New York, Victor Studio No. 2, лейбл Victor, номер «12831. HMV DB5787», матрица CS 046744, take 1, артисты «Jussi Bjoerling, tenor; Harry Ebert, piano». Независимое подтверждение: буклет Naxos Historical 8.110789S «Jussi Björling Collection, Vol 5 — Lieder och sånger 1939–52» (Discogs 11230272), примечание «Recording Dates: … 30.1 1940 (tracks 4–7)», где трек 6 — An die Leier D. 737 (4:05); в кредитах диска — Harry Ebert и Frederick Schauwecker (Schauwecker — за сессию 11.4.1952).",
+      "album": "Victor 12831 / HMV DB 5787 (78 об.); переизд. Naxos Historical 8.110789S (2004)",
+      "label": "Victor / HMV; переизд. Naxos Historical",
+      "age_voice": "28 лет (р. 05.02.1911, ум. 09.09.1960). Абсолютный вокальный пик: голос молодой, ровный, с полным «серебром» верхнего регистра; до алкогольного и сердечного упадка 1950-х больше десяти лет.",
+      "reputation": "An die Leier — один из фирменных шубертовских номеров Бьёрлинга: он держал песню в концертной программе и через 18 лет (Карнеги-холл, 1958). Отдельных сравнительных рецензий по номеру не найдено; репутация записи — часть канона его Lieder-наследия, отобранного Naxos Historical в специальный том «Lieder och sånger».",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=77992 (Грей: 30.01.1940, матрица CS 046744-1)",
+        "https://api.discogs.com/releases/11230272 (буклет Naxos Historical 8.110789S: даты сессий и трек-лист)"
+      ],
+      "youtube": [
+        {"videoId": "Wi3SfnNDHPU", "channel": "Jussi Björling - Topic", "official": false, "oembed_ok": true, "duration_s": 250, "album_tag": "The Incomparable Jussi Björling (℗ 2024 Vax Records — PD-агрегатор; Topic-канал, но не лейбловое переиздание)"},
+        {"videoId": "jq2UC9X1bSA", "channel": "Vladimir Stasov (фан)", "official": false, "oembed_ok": true, "duration_s": 251}
+      ],
+      "note": "Официальной (Naxos) загрузки версии 1940 г. найти не удалось — есть только Topic-канал певца с PD-переизданием Vax Records. Если для плеера нужен безупречный источник, у Бьёрлинга предпочтительнее лайв 1958 г. на канале Sony Classical."
+    },
+    {
+      "singer": "Jussi Björling",
+      "pianist": "Frederick Schauwecker",
+      "rec_year": "1958",
+      "year_source": "Примечания издания RCA Victor Gold Seal GD60520 «At Carnegie Hall» (Discogs 8099600): «RECORDED LIVE MARCH 2, 1958»; трек 2 — An die Leier (4:21). Подтверждение: примечания LP RCA LM-2784 «In Concert» (Discogs 6867060): «B3–B8 recorded at Carnegie Hall, March 2, 1958». Название официального альбома на YouTube прямо содержит дату: «Jussi Björling at Carnegie Hall, New York City, March 2, 1958» (℗ 1965 Sony Music Entertainment). ВНИМАНИЕ на однофамильную путаницу: другой сольник Карнеги-холла — 24.09.1955 (RCA «Björling reDiscovered», Discogs 14115427) — An die Leier НЕ содержит.",
+      "album": "Jussi Björling at Carnegie Hall (RCA, live 02.03.1958); переизд. RCA Gold Seal GD60520, Musical Heritage Society 514979W",
+      "label": "RCA Victor / ныне Sony Classical",
+      "age_voice": "47 лет. Голос за пиком, но в этом лайве ещё звучен; известны проблемы со здоровьем последних лет (умер в 1960 в 49 лет). Концертная подача темпераментнее студийной 1940 г., линия чуть тяжелее.",
+      "reputation": "Карнеги-1958 — одна из самых известных концертных лент певца, издавалась RCA десятилетиями (LM-2784, GD60520, MHS, Sony). Отдельных рецензий по номеру не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/8099600 (RCA GD60520: «RECORDED LIVE MARCH 2, 1958», трек-лист)",
+        "https://api.discogs.com/releases/6867060 (LM-2784: даты по сторонам)",
+        "https://api.discogs.com/releases/14115427 (RCA «Björling reDiscovered»: полный recital 24.09.1955 — без An die Leier)",
+        "Описание официальной загрузки YouTube paZK1xtNVMo (Sony Classical, дата в заголовке альбома)"
+      ],
+      "youtube": [
+        {"videoId": "paZK1xtNVMo", "channel": "Jussi Björling - Topic", "official": true, "oembed_ok": true, "duration_s": 265, "album_tag": "Jussi Björling at Carnegie Hall … March 2, 1958 (Sony Classical)"}
+      ],
+      "note": "Официальный источник Sony; по правилу «сходные по уровню — более ранняя» студийная 1940 г. предпочтительнее по вокалу, эта — по качеству загрузки."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Franz Rupp",
+      "rec_year": "1928",
+      "year_source": "Переиздание Nimbus Prima Voce NI 7883 «Heinrich Schlusnus in Schubert Lieder» (1997) помечает трек прямо в заголовке: «An die Leier, D. 737 (Recorded 1928)» (официальная загрузка ntjHmrZwB9o, ℗ 1997 Nimbus Records). Сессионные данные — дискография Грея (modalcontent.php?id=63978): Polydor, номер 66776, место Berlin, Hochschule für Musik (Raum I), матрица bm 1192, артисты «Heinrich Schlusnus, baritone; Franz Rupp, piano» (дата в карточке Грея не проставлена — год берётся по буклету Nimbus).",
+      "album": "Polydor 66776 (78 об.); переизд. Nimbus Prima Voce NI 7883 «Schubert Lieder» (1997); также сборник M.A.T. «Leise flehen meine Lieder» (2008)",
+      "label": "Polydor (Deutsche Grammophon); переизд. Nimbus",
+      "age_voice": "≈40 лет (р. 06.08.1888). Вокальный пик (дайджест: пик 1920-е–1930-е): образцовое немецкое баритоновое «бельканто», ровная кантилена.",
+      "reputation": "Шлуснус — эталон немецкого лирического баритона своего поколения (дайджест, albums/male-recitalists.md); Nimbus отобрал этот номер в свой моно-шубертовский рецитал певца. Отдельных сравнительных обзоров по D 737 нет.",
+      "sources": [
+        "Описание официальной загрузки YouTube ntjHmrZwB9o (Nimbus NI 7883, «Recorded 1928»)",
+        "https://www.classical-discography.org/modalcontent.php?id=63978 (Грей: Polydor 66776, матрица bm 1192, Rupp)",
+        "https://www.classical-discography.org/modalcontent.php?id=26563 (вторая версия певца: Polydor 67252, 07.05.1938, Sebastian Peschko, матрица gs 864-1)"
+      ],
+      "youtube": [
+        {"videoId": "ntjHmrZwB9o", "channel": "Heinrich Schlusnus - Topic", "official": true, "oembed_ok": true, "duration_s": 247, "album_tag": "Heinrich Schlusnus in Schubert Lieder (Nimbus, 1997)"},
+        {"videoId": "oyItq8lmp38", "channel": "Heinrich Schlusnus - Topic", "official": false, "oembed_ok": true, "duration_s": 247, "album_tag": "«Leise flehen meine Lieder» (M.A.T., 2008) — кредиты смешаны (в строке артистов заодно Карл Эрб)"},
+        {"videoId": "3vpqEvVzFhI", "channel": "NoeckesHarfenschall (фан)", "official": false, "oembed_ok": true, "duration_s": 252}
+      ],
+      "note": "У Шлуснуса ДВЕ студийные версии песни: 1928 с Руппом и 07.05.1938 с Пешко (Грей). На YouTube опознана только версия 1928 (Nimbus). Брать загрузку Nimbus, не сборник M.A.T. с перепутанными кредитами."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": "1974 (год издания; сессия не документирована)",
+      "year_source": "℗-строка официальной загрузки: «℗ 1974 Deutsche Grammophon GmbH, Berlin», альбом «Lieder von Franz Schubert — Lied-Edition Vol. 2»; продюсеры Christian Lange, Hans Gerhard Lichthorn, инженеры Karl-August Naegler, Hans-Peter Schweigmann. Дата сессии в буклете не вскрыта. Это ДРУГАЯ запись, чем задокументированная у Грея версия с Хоканссоном (modalcontent.php?id=176411: Philips 6747 059, 27–30 октября 1971, München, «Hermann Prey, baritone; Leonard Hokanson, piano»).",
+      "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2 (DG)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "≈44–45 лет (р. 11.07.1929). Внутри пика (дайджест: ~1960–1980); голос ещё светлый и подвижный, до тяжеловесных ремейков 1980-х далеко.",
+      "reputation": "Прай — сквозной баритон корпуса; у песни есть и его более ранняя версия 1971 г. с Хоканссоном (Philips), на YouTube не найденная. Отдельной критики по номеру нет.",
+      "sources": [
+        "Описания официальных загрузок YouTube icb5UrmmZgg и ldLJJeKf9M0 (DG Lied-Edition Vol. 2, ℗ 1974, полные кредиты)",
+        "https://www.classical-discography.org/modalcontent.php?id=176411 (Грей: Prey/Hokanson, Philips 6747 059, 27–30.10.1971)",
+        "planning/youtube/albums/male-recitalists.md §Prey, planning/youtube/albums.md (карточка Lied-Edition Vol. 2)"
+      ],
+      "youtube": [
+        {"videoId": "icb5UrmmZgg", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 219, "album_tag": "Lied-Edition Vol. 2 (DG, ℗1974)"},
+        {"videoId": "ldLJJeKf9M0", "channel": "Hermann Prey - Topic", "official": true, "oembed_ok": true, "duration_s": 219, "album_tag": "Lied-Edition (переиздание 2008)"}
+      ],
+      "note": "Две Topic-загрузки одной фонограммы (219 с) — выбрать одну. Расхождение реестра о лейбле Prey/Engel (EMI vs DG) в этом случае снимается: ℗-строка прямо указывает DG."
+    },
+    {
+      "singer": "Thomas Hampson",
+      "pianist": "Graham Johnson",
+      "rec_year": "1991",
+      "year_source": "Буклет Hyperion CDJ33014 (Discogs 7179319): «Recorded on 5–8 October 1991, Rosslyn Hill Unitarian Chapel, Hampstead, London»; An die Leier D737 — трек 17 (4:03); издание — апрель 1992. Страница альбома на hyperion-records.co.uk подтверждает: запись октябрь 1991, Rosslyn Hill Unitarian Chapel.",
+      "album": "The Hyperion Schubert Edition, Vol. 14 «Schubert & the Classics» (CDJ33014)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "36 лет (р. 28.06.1955). Ранний пик (дайджест: ~1988–2005); голос свежий, ровный, ещё без позднейшей манерности.",
+      "reputation": "Том научного свода Грэма Джонсона. Gramophone о диске: «Johnson's piano at its probing best», 79 минут проходят незаметно «in such perceptive company»; CDReview: «many of the songs here… are masterpieces, and wonder and gratitude are unabated». Аннотации Джонсона — единственный найденный содержательный разбор песни (о том, что у Брухмана Анакреонт отказывается от героики в пользу любви).",
+      "sources": [
+        "https://api.discogs.com/releases/7179319 (буклет CDJ33014: даты сессий, трек-лист)",
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33014 (страница альбома: запись X.1991, цитаты Gramophone и CDReview, аннотации Джонсона)"
+      ],
+      "youtube": [
+        {"videoId": "2aiOYfE1cVU", "channel": "Thomas Hampson - Topic", "official": true, "oembed_ok": true, "duration_s": 243, "album_tag": "Schubert: Hyperion Song Edition 14 (℗1992 Hyperion)"}
+      ],
+      "note": "Единственная запись песни, обеспеченная научным комментарием. У Хэмпсона в MusicBrainz есть и оркестровая версия с Amsterdam Sinfonietta (210 с) — на YouTube не опознана."
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": "1994",
+      "year_source": "Карточка реестра проекта (planning/youtube/albums.md): «An die Musik – Favourite Schubert Songs», DG 445 294-2, запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg, издание 04.09.1994. ℗-строка официальной загрузки: «℗ 1994 Deutsche Grammophon GmbH, Berlin»; кредиты — Balance Engineer/Producer Wolfgang Mitlehner, Recording Engineer Jürgen Bulgrin. Включение D 737 в альбом подтверждено и MusicBrainz (recording Terfel/Martineau, 241 с).",
+      "album": "Schubert: An die Musik – Favourite Schubert Songs (DG 445 294-2), 23 песни",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28 лет (р. 09.11.1965). Ранний пик (дайджест: ~1992–2005); голос молодой, крупный, свободный.",
+      "reputation": "Бестселлер каталога DG (реестр); по klassik-prisma диск получает 4–5 баллов за Erlkönig — общая оценка альбома, не этого номера. К пиару современных относиться со скепсисом; сильная сторона — свежесть голоса, слабая — германский стиль не всегда безупречен.",
+      "sources": [
+        "planning/youtube/albums.md (карточка альбома, унифицированный год 1994)",
+        "Описание официальной загрузки YouTube l00UgpWpVBU (℗1994 DG, кредиты)",
+        "planning/youtube/data/d737-an-die-leier.mb.json (MusicBrainz: Terfel/Martineau, 241 с)"
+      ],
+      "youtube": [
+        {"videoId": "l00UgpWpVBU", "channel": "Bryn Terfel - Topic", "official": true, "oembed_ok": true, "duration_s": 241, "album_tag": "Schubert: An die Musik"}
+      ],
+      "note": "Кандидат на слот «не ранее 1990»."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Ingo Metzmacher",
+      "rec_year": "2008–2009",
+      "year_source": "Реестр полных изданий (planning/youtube/albums/complete-editions.md §4): «Goerne — Vol. 4 „Heliopolis“ (HMC 902035, зап. X–XI.2008 и II.2009, Teldex; изд. 2009)», пианист Ingo Metzmacher (по буклету, Discogs). Официальная загрузка: альбом «Schubert: Heliopolis. Lieder, Vol. 4», ℗ harmonia mundi s.a., дата релиза 24.11.2009. Точную сессию именно этого номера буклет не разносит по датам.",
+      "album": "Matthias Goerne Schubert Edition, Vol. 4 «Heliopolis» (HMC 902035)",
+      "label": "harmonia mundi",
+      "age_voice": "41 год (р. 31.03.1967). Внутри пика (дайджест: ~1997–2015); тёмный, «бархатный» баритон, крупная фразировка.",
+      "reputation": "Крупнейший сольный шубертовский свод последних десятилетий (12 томов, бокс 2016). Пресса о Гёрне обильна, но по правилу проекта скепсис к маркетингу современных сохраняется; отдельных рецензий по номеру не найдено. Metzmacher за роялем — дирижёр, не штатный концертмейстер: своеобразие, а не гарантия качества.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md §4 (том 4, сессии X–XI.2008 и II.2009, Teldex)",
+        "Описание официальной загрузки YouTube wRiZ5UEuZLU (℗ harmonia mundi, релиз 24.11.2009)",
+        "planning/youtube/data/d737-an-die-leier.mb.json (MusicBrainz: Goerne/Metzmacher)"
+      ],
+      "youtube": [
+        {"videoId": "wRiZ5UEuZLU", "channel": "Ingo Metzmacher - Topic", "official": true, "oembed_ok": true, "duration_s": 226, "album_tag": "Schubert: Heliopolis. Lieder, Vol. 4"}
+      ],
+      "note": "Официальная загрузка оформлена на Topic-канал ПИАНИСТА (типично для harmonia mundi); при формировании name — «Goerne — Metzmacher»."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": "2001 (год издания; сессия не документирована)",
+      "year_source": "Буклет EMI Classics CDC 7243 5 57141 2 1 «Schubert Lieder: Volume II» (Discogs 8931789): пианист Julius Drake, продюсер John Fraser, инженер Jonathan Allen; An die Leier D.737 — трек 13 (4:50); год издания 2001. ℗-строка официальной загрузки: «℗ 2001 Parlophone Records Limited» (Warner Classics). Дата сессии в буклете Discogs не приведена (первый том серии, для сравнения, записан II–III.1996 в Abbey Road).",
+      "album": "Schubert Lieder, Volume II (EMI Classics)",
+      "label": "EMI Classics / ныне Warner Classics",
+      "age_voice": "36 лет (р. 25.12.1964). Внутри пика (дайджест: ~1995–2010); светлый тенор, интеллектуальная подача; поздняя манерность ещё не выражена.",
+      "reputation": "Продолжение дебютной серии, которая считается сильнейшей ранней работой певца (реестр). Прочтение самое медленное в пуле (4:50 против 3:45–4:20 у старых мастеров) — риск статичности; сравнительных рецензий по номеру нет.",
+      "sources": [
+        "https://api.discogs.com/releases/8931789 (буклет EMI, трек-лист и кредиты)",
+        "Описание официальной загрузки YouTube wZ8jzjekKvM (Warner Classics, ℗2001)",
+        "planning/youtube/albums/modern-series.md §Bostridge"
+      ],
+      "youtube": [
+        {"videoId": "wZ8jzjekKvM", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true, "duration_s": 287, "album_tag": "Schubert: Lieder (Warner)"}
+      ],
+      "note": "Вторая, концертная версия того же дуэта — «Schubert 4 — Wigmore Hall Live» (℗2018, The Wigmore Hall Trust, videoId q3XY2Xj2WtU, 284 с); дата концерта не установлена, певцу ~53, голос суше. Есть и видеозапись концертного исполнения на канале wocomoMUSIC (OqQ5MDgHuxg, 263 с) — не лейбловая."
+    },
+    {
+      "singer": "Benjamin Appl",
+      "pianist": "Graham Johnson",
+      "rec_year": "2015 (концерт 27.03.2015; ℗/релиз 2016)",
+      "year_source": "Discogs release 20004631 (Wigmore Hall Live WHLive0082, barcode 5065000924836 — тот же альбом), поле notes: «Recorded live on 27 March 2015». Официальная загрузка: альбом «Schubert — Wigmore Hall Live», ℗ 2016 The Wigmore Hall Trust, «Released on: 2016-04-29». Прежнее противоречие реестра (29.04.2016 как дата и концерта, и издания) снято: 29.04.2016 — дата релиза, концерт — 27.03.2015; по правилу проекта в year идёт год сессии 2015.",
+      "album": "Schubert — Wigmore Hall Live (с Грэмом Джонсоном)",
+      "label": "Wigmore Hall Live",
+      "age_voice": "32–33 года (р. 1982; концерт 27.03.2015). Начало зрелого периода (дайджест: пик ~2016–наст.); лёгкий, гибкий баритон, школа Фишера-Дискау (последний его частный ученик).",
+      "reputation": "Живой концерт с самым знающим шубертовским концертмейстером (Джонсон). Пиар-фактор высок (медийно активный певец) — по правилам проекта оценивать сдержанно; критики по номеру нет.",
+      "sources": [
+        "https://api.discogs.com/releases/20004631 (Discogs: WHLive0082, barcode 5065000924836, notes «Recorded live on 27 March 2015»)",
+        "Описание официальной загрузки YouTube ddT76LnCMIE (℗2016 The Wigmore Hall Trust)",
+        "planning/youtube/albums/modern-series.md §Appl (прежний флаг «дата концерта / дата издания» — снят по Discogs 20004631)"
+      ],
+      "youtube": [
+        {"videoId": "ddT76LnCMIE", "channel": "Benjamin Appl - Topic", "official": true, "oembed_ok": true, "duration_s": 224, "album_tag": "Schubert — Wigmore Hall Live"},
+        {"videoId": "mMsAFaCVTOY", "channel": "Lieder Greats (фан)", "official": false, "oembed_ok": null, "duration_s": 258}
+      ],
+      "note": "Единственный найденный официальный кандидат «не ранее 2015» (наряду с Wigmore-концертом Бостриджа 2018)."
+    },
+    {
+      "singer": "Ernst Haefliger",
+      "pianist": "Jörg Ewald Dähler (хаммерклавир Franz Brodmann, Вена 1820)",
+      "rec_year": "1986",
+      "year_source": "Буклет Claves CD 50-8611 (Discogs 10859862): «Aufnahmeort: Kirche Wohlen/Bern, Juli 1986; Hammerflügel van Franz Brodmann, Wien 1820»; An die Leier — трек 5 (4:05); издание 1987. Официальная загрузка: альбом «Franz Schubert: 23 Ausgewählte Lieder», ℗ 1987 Claves Records.",
+      "album": "Schubert: 23 ausgewählte Lieder (Claves CD 50-8611)",
+      "label": "Claves",
+      "age_voice": "67 лет (р. 06.07.1919). Далеко за вокальным пиком (дайджест: пик 1950-е–1960-е; циклы Claves записаны в 61–66 лет, «голос уже сухой»). Ценность — стиль и дикция, не вокал.",
+      "reputation": "Периодный инструмент времени сочинения песни (Бродман 1820) — редкая историческая перспектива; в реестре прямо помечено: «исторический инструмент, вокально компромисс».",
+      "sources": [
+        "https://api.discogs.com/releases/10859862 (буклет Claves: место, месяц записи, инструмент)",
+        "Описание официальной загрузки YouTube OPUjFSuF7UE (℗1987 Claves)",
+        "planning/youtube/albums/male-recitalists.md §Haefliger"
+      ],
+      "youtube": [
+        {"videoId": "OPUjFSuF7UE", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true, "duration_s": 250, "album_tag": "Franz Schubert: 23 Ausgewählte Lieder"}
+      ],
+      "note": "Кандидат «периодного» интереса; в топ-5 попадёт лишь при нехватке качественных претендентов."
+    },
+    {
+      "singer": "Kim Borg",
+      "pianist": "Michael Raucheisen",
+      "rec_year": "1953",
+      "year_source": "Дискография Майкла Грея (modalcontent.php?id=328): дата 1953 April 25 + 28, место Hannover, Beethovensaal, лейбл Deutsche Grammophon, номер LPE17004, артисты «Kim Borg, bass; Michael Raucheisen, piano». Официальная загрузка идёт на сборнике «Immortal Recordings 1952–1954» (Finlandia Classics) — датировка сборника согласуется с сессией.",
+      "album": "DG LPE 17 004 «Lieder — Balladen»; переизд. Finlandia Classics «Immortal Recordings 1952–1954»",
+      "label": "Deutsche Grammophon; переизд. Finlandia Classics",
+      "age_voice": "33 года (р. 07.08.1919, ум. 2000). Молодой бас в начале карьеры; Раухайзен — легендарный немецкий концертмейстер эпохи (в дайджесте Борг числится в резерве фонда со знаком вопроса).",
+      "reputation": "Историческая ценность связки с Раухайзеном; собственной критической репутации у номера не найдено, певец в проекте маргинален.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=328 (Грей: 25+28.04.1953, Ганновер, DG LPE17004)",
+        "Описание официальной загрузки YouTube I6WxsAP0u0s (Finlandia Classics)"
+      ],
+      "youtube": [
+        {"videoId": "I6WxsAP0u0s", "channel": "Michael Raucheisen - Topic", "official": true, "oembed_ok": true, "duration_s": 230, "album_tag": "Immortal Recordings 1952–1954"}
+      ],
+      "note": "Загрузка оформлена на Topic-канал пианиста."
+    },
+    {
+      "singer": "Eileen Farrell",
+      "pianist": "George Troville",
+      "rec_year": "1960 (℗; сессия не документирована)",
+      "year_source": "Официальная загрузка Sony Classical: альбом «An Eileen Farrell Song Recital», «℗ 1960 Sony Music Entertainment» (оригинал — Columbia), кредиты: Soprano Eileen Farrell, Piano George Troville. Дискографической сверки сессии по буклету не сделано.",
+      "album": "An Eileen Farrell Song Recital (Columbia; цифровое переиздание Sony 2020)",
+      "label": "Columbia / Sony Classical",
+      "age_voice": "≈40 лет (р. 1920). Крупный драматический американский голос; шубертовский стиль не её специальность.",
+      "reputation": "Редкий женский вариант песни в дискографии; в фонде проекта певица не числится, критики по номеру нет.",
+      "sources": [
+        "Описание официальной загрузки YouTube lsHEc_wxOw8 (Sony Classical, ℗1960, кредиты)"
+      ],
+      "youtube": [
+        {"videoId": "lsHEc_wxOw8", "channel": "Eileen Farrell - Topic", "official": true, "oembed_ok": true, "duration_s": 287}
+      ],
+      "note": "Маргинальный кандидат; полезен как документ американской традиции."
+    },
+    {
+      "singer": "Cecilia Bartoli",
+      "pianist": "András Schiff",
+      "rec_year": "1993 (℗; сессия не документирована)",
+      "year_source": "Официальная загрузка: альбом «Cecilia Bartoli — Italian Songs», «℗ 1993 Decca Music Group Limited», продюсер Christopher Raeburn, инженер Stanley Goodall. В MusicBrainz эта запись Бартоли/Шиффа привязана к работе D 737 под ИТАЛЬЯНСКИМ инципитом «Lo vuo' cantar di Cadmo» — то есть речь об исполнении на итальянский текст (анакреонтический оригинал), а не о немецком варианте Брухмана.",
+      "album": "Cecilia Bartoli — Italian Songs (Decca)",
+      "label": "Decca",
+      "age_voice": "27 лет (р. 1966). Вокальный пик; но репертуарно — итальянская линия, не немецкая песня.",
+      "reputation": "Курьёз/вариант, а не конкурент немецким записям: программа альбома итальянская. Для плеера песни на немецком тексте брать не следует без прослушивания.",
+      "sources": [
+        "Описание официальной загрузки YouTube 4EsJKKQGulM (℗1993 Decca, кредиты)",
+        "planning/youtube/data/d737-an-die-leier.mb.json (MusicBrainz: Bartoli/Schiff, title «Lo vuo' cantar di Cadmo»)"
+      ],
+      "youtube": [
+        {"videoId": "4EsJKKQGulM", "channel": "Cecilia Bartoli - Topic", "official": true, "oembed_ok": true, "duration_s": 232}
+      ],
+      "note": "ФЛАГ: перед любым использованием проверить на слух язык исполнения (вероятно итальянский)."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": "не установлен",
+      "year_source": "В дискографии Грея по D 737 записи Сузе НЕТ; в MusicBrainz по этой работе Сузе тоже отсутствует. Единственный след — фан-загрузка с подписью «Gérard Souzay … Dalton Baldwin Schubert D.737» (264 с). Дуэт с Болдуином документирован с 1954 г.; кандидаты-альбомы — Philips 835 097 AY (сессии 18–23.06.1961) и «Der Musensohn» Philips 802 831 LY (сессии 1–7.07.1967) — привязка не доказана.",
+      "album": "не установлен (вероятно один из рециталов Philips 1961 или 1967)",
+      "label": "Philips (?)",
+      "age_voice": "при обеих гипотезах — внутри пика (дайджест: 1950-е — сер. 1960-х), 43 или 49 лет.",
+      "reputation": "Сузе — один из образцовых шубертовских баритонов эпохи; но без установленного источника запись публиковать рискованно (правило о годе допускает диапазон со знаком вопроса только для приоритетных певцов).",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md §Souzay и albums/male-recitalists.md §Souzay (сессии Грея по его рециталам)",
+        "Поиск Грея по work='An die Leier' (14 сессий; Сузе отсутствует)"
+      ],
+      "youtube": [
+        {"videoId": "ZIlgwc50mc0", "channel": "Vladimir Stasov (фан)", "official": false, "oembed_ok": true, "duration_s": 264}
+      ],
+      "note": "Требуется доисследование по буклетам Philips, если запись понадобится для пятёрки."
+    },
+    {
+      "singer": "Josef Greindl",
+      "pianist": "Hertha Klust",
+      "rec_year": "1949 и 1957 (две версии)",
+      "year_source": "Дискография Грея: modalcontent.php?id=60042 — Electrola DB11504, 1949 January 7, матрица 2RA 6180; modalcontent.php?id=162890 — Deutsche Grammophon LPEM19094, 1957 March 3 + 9, Hannover, Beethovensaal. В обеих — «Josef Greindl, bass; Hertha Klust, piano».",
+      "album": "Electrola DB 11504 (78 об.); DG LPEM 19 094 (LP)",
+      "label": "Electrola (HMV) / Deutsche Grammophon",
+      "age_voice": "36 лет (1949) и 44 года (1957); р. 23.12.1912. «Железный» байройтский бас (дайджест).",
+      "reputation": "Редкий настоящий бас в песне; в дайджесте отмечен прежде всего Winterreise 1957 с Клюст. Записей D 737 на YouTube не найдено (поиск по «An die Leier Greindl» даёт только номера Winterreise с его Topic-канала).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=60042",
+        "https://www.classical-discography.org/modalcontent.php?id=162890",
+        "yt-dlp ytsearch «Schubert An die Leier Greindl» — совпадений по песне нет"
+      ],
+      "youtube": [],
+      "note": "Дискографически значимая запись без доступного видео — в топ-5 не проходит по техническому критерию."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Дискография закрыта в 2012 и состоит из шести шубертовских альбомов: Goethe-Lieder (RCA, сессии 25–26 и 28–29.05.1993, 13 номеров — трек-лист зафиксирован в planning/youtube/albums.md, D 737 в нём отсутствует и по определению не может входить: текст не гётевский), Winterreise (RCA 1998), Schwanengesang (DG 2001), Müllerin (DG 2005), Lieder с оркестром (DG 2003), Winterreise-фильм (DG 2005); единственный сборный рецитал вне их — «Widmung — Romantische Lieder» (DG 474 501-2, изд. 2004): полный трек-лист из 24 номеров получен через Discogs API (release 9880429) — An die Leier отсутствует. В MusicBrainz по работе D 737 записи Квастхофа нет; поиск YouTube «Schubert An die Leier Quasthoff» совпадений не даёт.",
+    "Dietrich Fischer-Dieskau": "ДА, две студийные версии: с Йоргом Демусом — 24–25.11.1961, Берлин, Studio Lankwitz, DG 138715 (дискография Грея, modalcontent.php?id=76885); с Джеральдом Муром — в своде «Sämtliche Lieder» (DG, ℗1969; конкретная сессия у Грея не документирована). Обе доступны на официальных Topic-каналах.",
+    "Elisabeth Schwarzkopf": "НЕТ (следов не найдено). Песни нет ни в MusicBrainz по работе D 737 (20 записей), ни среди 14 сессий дискографии Грея по этой песне, ни в выдаче YouTube. Репертуарно объяснимо: анакреонтический «мужской» текст (Ich will von Atreus’ Söhnen…), у Шварцкопф не значится ни в рецитале с Эдвином Фишером (1952), ни в Song Books с Муром/Парсонсом.",
+    "Hans Hotter": "НЕТ (следов не найдено). Отсутствует в MusicBrainz по D 737, в 14 сессиях Грея (где есть его современники-басы Грайндль и Борг) и в выдаче YouTube по запросу «Schubert An die Leier Hotter». Сессии Хоттера у EMI 1949/1954/1957, зафиксированные в реестре проекта (D 216, D 224, D 799 и др.), этой песни не содержат.",
+    "Peter Anders": "НЕТ (следов не найдено). В MusicBrainz по D 737 и в дискографии Грея отсутствует; на YouTube не найдено. Радиокорпус Раухайзена по этой песне представлен другими певцами (Кимом Боргом на DG 1953, Ротмюллером у HMV 1945).",
+    "Elisabeth Schumann": "НЕТ. В её HMV-корпусе (~28 песен, Naxos 8.110731) песни нет; в MusicBrainz по D 737 и у Грея отсутствует; на YouTube не найдено.",
+    "Christa Ludwig": "НЕТ (следов не найдено). Отсутствует в MusicBrainz по D 737, у Грея и на YouTube; в её EMI-сессиях 1957–1969 и Warner-боксе «Complete Recitals» не значится.",
+    "Lucia Popp": "НЕТ (следов не найдено). Отсутствует в MusicBrainz по D 737, у Грея и на YouTube; шубертовские блоки её рецитала EMI 1983 и двух BBC Legends-лайвов (составы зафиксированы в дайджесте) этой песни не содержат."
+  },
+  "albums_facts": [
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 14 «Schubert & the Classics» (CDJ33014)",
+      "singer": "Thomas Hampson",
+      "year": "1991 (сессии 5–8 октября), издание апрель 1992",
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; Graham Johnson — ф-но и аннотации; общее время 79'35; An die Leier D737 — трек 17 (4:03). Пресса: Gramophone («Johnson's piano at its probing best»), CDReview. Тематический том античных сюжетов — сквозной ресурс для всех «античных» песен корпуса (D 677, D 583, D 541, D 707, D 699, D 700, D 737 и др.). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG SLPM 138 715 — рецитал Фишера-Дискау с Йоргом Демусом",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1961 (сессии 24–25 ноября), ℗1962",
+      "label": "Deutsche Grammophon",
+      "facts": "Berlin, Studio Lankwitz (дискография Грея). Продюсер Hans Ritter, звукорежиссёр Harald Baudis (кредиты официальной загрузки). На YouTube материал разложен по цифровому сборнику «Schubert: Songs» (2022). НОВАЯ карточка: в реестре у Ф.-Д. с Демусом значился только гётевский вечер DG 138 117 (сентябрь 1959) — это отдельная, более поздняя сессия.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Lieder von Franz Schubert — Lied-Edition Vol. 2 (DG)",
+      "singer": "Hermann Prey",
+      "year": "℗1974 (сессия не документирована)",
+      "label": "Deutsche Grammophon",
+      "facts": "Пианист Karl Engel; продюсеры Christian Lange и Hans Gerhard Lichthorn, инженеры Karl-August Naegler, Hans-Peter Schweigmann. Уточнение к реестру: спор «EMI Electrola или DG» по связке Prey/Engel в пользу DG — ℗-строка официальной загрузки. Отдельно существует версия Prey/Hokanson: Philips 6747 059, сессии 27–30 октября 1971, Мюнхен (Грей).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: 23 ausgewählte Lieder (Claves CD 50-8611)",
+      "singer": "Ernst Haefliger",
+      "year": "1986 (июль), издание 1987",
+      "label": "Claves",
+      "facts": "Kirche Wohlen/Bern; хаммерклавир Franz Brodmann, Вена 1820; Jörg Ewald Dähler. Уточнение к albums/male-recitalists.md, где месяц/год сессии стояли под вопросом: буклет прямо указывает «Juli 1986». Программа из 23 песен — сквозной ресурс (D 677, D 775, D 672, D 807, D 800, D 257, D 881, D 799, D 827, D 939, D 768 и др.).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Jussi Björling Collection, Vol 5 — Lieder och sånger 1939–52 (Naxos Historical 8.110789S)",
+      "singer": "Jussi Björling",
+      "year": "2004 (переиздание; оригиналы 1939–1952)",
+      "label": "Naxos Historical",
+      "facts": "Буклет разносит сессии по группам: 15.07.1939 (тр. 1–3), 30.01.1940 (тр. 4–7, среди них An die Leier D 737), 01.03.1940 (тр. 8), 11.04.1952 (тр. 9–24). Пианисты диска — Harry Ebert (1939/40) и Frederick Schauwecker (1952). Содержит также D 891, D 957/4, D 852, D 768, D 795/17, D 550 — сквозной ресурс по шубертовским номерам Бьёрлинга. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Jussi Björling at Carnegie Hall (live, 2 марта 1958)",
+      "singer": "Jussi Björling",
+      "year": "1958 (концерт), издания RCA LM-2784 (1965), RCA Gold Seal GD60520 (1991), Sony (цифра)",
+      "label": "RCA Victor / Sony Classical",
+      "facts": "Пианист Frederick Schauwecker. Дата подтверждена дважды: примечание GD60520 «RECORDED LIVE MARCH 2, 1958» и примечание LM-2784 («B3–B8 recorded at Carnegie Hall, March 2, 1958»). ОТДЕЛЬНО: полный сольник Карнеги-холла 24.09.1955 (RCA «Björling reDiscovered», 2003) — другой концерт, An die Leier там нет. Шубертовский блок 1958 г.: D 737, D 550, D 686, D 891, D 852, D 957/4.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Heinrich Schlusnus in Schubert Lieder (Nimbus Prima Voce NI 7883, 1997)",
+      "singer": "Heinrich Schlusnus",
+      "year": "1997 (переиздание; оригинал — Polydor 1928)",
+      "label": "Nimbus / оригинал Polydor",
+      "facts": "Треки помечены годом записи в заголовке («Recorded 1928»); пианист Franz Rupp. Сессионные данные Полидора по D 737 — Berlin, Hochschule für Musik (Raum I), матрица bm 1192 (Грей). Вторая версия певца: Polydor 67252, 07.05.1938, Sebastian Peschko, Berlin, Raum VIII, матрица gs 864-1 (Грей). Уточняет карточку albums/male-recitalists.md §Schlusnus, где годы сторон Polydor стояли общим диапазоном.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder, Volume II (EMI Classics CDC 7243 5 57141 2 1)",
+      "singer": "Ian Bostridge",
+      "year": "2001 (издание; сессия не документирована)",
+      "label": "EMI Classics / Warner",
+      "facts": "Julius Drake; продюсер John Fraser, инженер Jonathan Allen; 67'27. Трек-лист: D 360, D 672, D 553, D 806, D 807, D 719, D 715, D 121, D 765, D 766, D 767, D 677, D 737, D 746, D 904, D 772, D 884, D 611, D 741, D 775, D 116 — сквозной ресурс для многих песен корпуса. Дополняет карточку реестра, где том II значился только по дате издания.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de: сравнительной страницы («Vergleich») по An die Leier D 737 НЕТ — проверено по указателю http://www.klassik-prisma.de/Schubert.htm (из песен там разобраны D 774, D 965, D 828, D 328, D 118, D 583, D 827 и три цикла).",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33014 — аннотации Грэма Джонсона к тому 14 (единственный найденный содержательный разбор песни) + отзывы Gramophone и CDReview о диске.",
+    "Дискография Майкла Грея: https://www.classical-discography.org/search.php (POST на search2.php, поле work='An die Leier', composer='Schubert') — 14 задокументированных сессий 1911–1971; служит фактическим «обзором» фонда записей."
+  ],
+  "negatives": [
+    "Квастхоф песню не записывал (проверено по всем шести его шубертовским альбомам и по трек-листу «Widmung» 2004, Discogs 9880429).",
+    "Из приоритетных певцов запись есть ТОЛЬКО у Фишера-Дискау; Шварцкопф, Хоттер, Андерс, Э. Шуман, Людвиг, Попп — следов нет ни в MusicBrainz, ни у Грея, ни на YouTube.",
+    "klassik-prisma не имеет сравнительной страницы по этой песне; слепых тестов (Diapason, France Musique) по D 737 не найдено.",
+    "Записи Гérard Souzay / Dalton Baldwin (фан-загрузка) не удалось привязать ни к одному изданию: у Грея и в MusicBrainz по D 737 Сузе отсутствует.",
+    "Josef Greindl (Hertha Klust) — две дискографически документированные записи (07.01.1949 Electrola DB11504; 03+09.03.1957 DG LPEM19094), но на YouTube ни одна не выложена.",
+    "Hermann Prey / Leonard Hokanson (Philips 6747 059, 27–30.10.1971) — задокументирована у Грея, на YouTube не найдена (доступна только версия с Энгелем, DG ℗1974).",
+    "Прочие исторические записи из выдачи Грея без доступных загрузок и без значимости для отбора: Theodor Lattermann (Pathé 54881, 1911), Hans Duhan (Odéon XX 80123, 1922), Hans Reinmar (Odéon O-6518, 02.11.1926), Ilona Durigo (Columbia LZX3, 08.08.1930), Marko Rothmüller / Suzanne Gyr (HMV DB10084, июнь 1945 [?]), Hans-Heinz Wunderlich / Martin Görgen (Eterna 20/142, 1950), Heinz Rehfuss / Rudolf Spira (Elite Special 7044, дата не проставлена).",
+    "yt-dlp с per-video запросами (-J) в контейнере отдаёт HTTP 429; метаданные альбомов получены обходом — чтением поля shortDescription страницы watch через curl (строки «Provided to YouTube by …»).",
+    "Discogs /database/search в этой сессии работал нестабильно (429 без токена); использованы только прямые запросы /releases/<id>. WebSearch в сессии исчерпан (200/200) — веб-исследование велось через WebFetch и прямые POST-запросы к дискографии Грея.",
+    "Записи Бартоли/Шифф (Decca «Italian Songs», ℗1993) — почти наверняка исполнение на итальянский текст (в MusicBrainz заглавие «Lo vuo' cantar di Cadmo»); для немецкоязычного плеера непригодна без проверки на слух."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "d": "381",
+  "title": "Morgenlied",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (DG Sämtliche Lieder, зап. 1966–1972; конвенция проекта — год 1969 для всех песен свода)",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "по дайджесту — вокальный расцвет 1951–1972, свод целиком попадает в этот диапазон",
+      "reputation": "базовая точка отсчёта корпуса (реестр)",
+      "videoId": "rAUqwoP12dQ",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true,
+      "note": "заголовок и длительность (107 с) подтверждены точно; ещё 2 дублирующие загрузки той же фонограммы (HZyNIE5BgwA, mALw7YWSsQY)"
+    },
+    {
+      "singer": "Elizabeth Connell",
+      "pianist": "Graham Johnson",
+      "rec_year": "1988",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (Hyperion Vol. 5 «Schubert and the Countryside», CDJ33005, зап. IX.1988, изд. XII.1989) + подтверждено mb_artists",
+      "album": "Hyperion Schubert Edition Vol. 5",
+      "label": "Hyperion",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "Gramophone: «Elizabeth Connell is at her very best here»; American Record Guide: «A must for all Schubertians» (реестр)",
+      "videoId": "D2IycNKwFAQ",
+      "channel": "Elizabeth Connell - Topic",
+      "official": true
+    }
+  ],
+  "excluded_false_matches": [
+    "José Navarro-Forcada (jgi2sdpkLIU) — заголовок верно указывает D 381, но канал не Topic-лейбл, любительская/учебная загрузка — не значимый кандидат для топ-5",
+    "остальные Graham Johnson-Topic (YQUTycz3q-o, 9-76DzXt0x4, 6GWAh_OLwts), Julia Borchert, Leonardo De Lisi, Mitsuko Shirai, Michelle Breedt — все при проверке заголовков оказались ДРУГИМИ песнями (D 266, D 685, D 165) — ложные срабатывания",
+    "Bothmer, Ferdinand von - Topic (LtCqQqiromk, 100 с) — заголовок совпадает («Morgenlied, D. 381»), но канал без registry_hits и происхождение не установлено — не исследован (маргинальный, бюджет)"
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "Fischer-Dieskau": "найдено — DG Sämtliche Lieder, см. выше",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "не найдено",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено",
+    "Popp": "не найдено"
+  },
+  "new_albums": []
+}

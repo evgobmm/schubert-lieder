@@ -1,0 +1,77 @@
+{
+  "d": "362",
+  "title": "Zufriedenheit (1. Fassung)",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1969",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (DG Sämtliche Lieder, конвенция проекта — год 1969 для всех песен свода); mb_artists подтверждает пару Fischer-Dieskau/Moore",
+      "album": "Schubert: Sämtliche Lieder (DG, 21 CD)",
+      "label": "Deutsche Grammophon",
+      "voice_note": "вокальный расцвет",
+      "reputation": "базовая точка отсчёта корпуса (реестр)",
+      "videoId": "ViQjpcb5MZw",
+      "channel": "Dietrich Fischer-Dieskau - Topic",
+      "official": true,
+      "note": "точное совпадение заголовка «Zufriedenheit \"Lied\" (I), D. 362» (60 с); дубль pi8V-BIUYUk"
+    },
+    {
+      "singer": "Siegfried Lorenz",
+      "pianist": "Norman Shetler",
+      "rec_year": "не установлен точно",
+      "year_source": "mb_artists подтверждает пару Lorenz/Shetler; реестр (albums/male-recitalists.md) относит Lorenz к своду Eterna Schubert-Lieder-Edition (ГДР, ~1964–1987), пианисты Olbertz/Shetler/Zechlin/Dunckel — точный год для этого трека не выверен",
+      "album": "Eterna Schubert-Lieder-Edition (ГДР)",
+      "label": "Eterna",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "не найдено отдельной прессы; для редких песен реестр называет этот свод «главным старым фондом помимо Fischer-Dieskau/DG и Hyperion»",
+      "videoId": "fR4ZLgU5kNU",
+      "channel": "Siegfried Lorenz - Topic",
+      "official": true,
+      "note": "точное совпадение заголовка «Zufriedenheit, D. 362 (1st setting)» (71 с)"
+    },
+    {
+      "singer": "Wolfgang Holzmair",
+      "pianist": "не установлен для этой записи",
+      "rec_year": "не установлен",
+      "year_source": "у Хольцмайра в реестре 3 карточки Naxos/Tudor (Vol. 20 «Poets of Sensibility, Vol. 3», 8.557568, изд. 12/2005, Eisenlohr; Tudor Vol. 3, ℗ 1993, Gérard Wyss; ранний рецитал Mayrhofer 1992) — какая именно содержит D 362, не установлено (требует целевой проверки трек-листа)",
+      "album": "не установлен (Naxos Vol. 20 или Tudor Vol. 3)",
+      "label": "Naxos или Tudor",
+      "voice_note": "не установлено",
+      "reputation": "не установлено",
+      "videoId": "G4zxBeLYrSQ",
+      "channel": "Wolfgang Holzmair - Topic",
+      "official": true,
+      "note": "точное совпадение заголовка «Zufriedenheit, D. 362 (1st setting)» (133 с)"
+    },
+    {
+      "singer": "не идентифицирован (Hyperion Schubert Edition)",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен",
+      "year_source": "том Hyperion не идентифицирован в рамках бюджета rare-конвейера",
+      "album": "Hyperion Schubert Edition, том не установлен",
+      "label": "Hyperion",
+      "voice_note": "не установлено",
+      "reputation": "не установлено",
+      "videoId": "b6E2nbgP-fQ",
+      "channel": "Graham Johnson - Topic",
+      "official": true,
+      "note": "точное совпадение заголовка (63 с)"
+    }
+  ],
+  "excluded_false_matches": [
+    "остальные 10 Fischer-Dieskau-роликов, Wolfgang Holzmair (dxNvXlEhvk4), Dorothee Jansen, Stephen Varcoe, Elly Ameling (обе загрузки) — при проверке точных заголовков оказались ДРУГИМИ песнями: D 391, D 274, D 433, D 492 (×2), D 285, D 520, D 519, D 533 (×2) у ФД; D 501 «2nd setting» у Holzmair и Jansen и Varcoe; Ameling поёт Моцартовскую «Die Zufriedenheit K.473» и «Der Musensohn D.764» — не относится к D 362"
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "Fischer-Dieskau": "найдено — DG Sämtliche Lieder, см. выше",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "не найдено",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено (кандидат оказался ложным срабатыванием — Ameling, а не Ludwig, и не тот D-номер)",
+    "Popp": "не найдено"
+  },
+  "new_albums": [],
+  "gap_note": "ВАЖНО для будущего ранжирования: D 501 «Zufriedenheit (2-я редакция)» — другая, гораздо более распространённая песня; в исходном пуле кандидатов ⅔ роликов оказались этой другой редакцией и были исключены как ложные срабатывания скрипта по названию."
+}

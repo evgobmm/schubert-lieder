@@ -60,7 +60,7 @@
 - **Regina Jakobi — т. 8 «Schiller, Vol. 2» (Naxos 8.554741, изд. 03/2002)** — Eisenlohr (Naxos).
 - **Markus Eiche — т. 9 «Friends, Vol. 1» (Naxos 8.554799, изд. 05/2002)** — пианист Jens Fuhr (Naxos).
 - **Christoph Genz — т. 10 «Austrian Contemporaries, Vol. 1» (Naxos 8.554796, изд. 09/2002)** — пианист Wolfram Rieger (Naxos).
-- **Hanno Müller-Brachmann — т. 11 «North German Poets» (Naxos 8.555780, зап. 2001 (пилот), изд. 01/2003)** — Eisenlohr; весь корпус Шульце (D 800, D 799, D 834, D 853, D 860, D 862 и др.) (Naxos; пилот).
+- **Hanno Müller-Brachmann — т. 11 «North German Poets» (Naxos 8.555780, изд. 01/2003; релиз 21.03.2003, ℗ & © 2003)** — Eisenlohr; весь корпус Шульце (D 800, D 799, D 834, D 853, D 860, D 862 и др.), а также D 23, D 272, D 373 (Fouqué) (Naxos; пилот). **Корпусный год — 2003.** Прежняя пометка «зап. 2001» снята: она восходила к полю розничного каталога jpc и не воспроизводится; Naxos (карточка 8.555780), Discogs 23924660 и MusicBrainz 4954bbe1 дат сессий не дают, поэтому по правилу берётся год издания (разбор — `planning/research/d373-lied-mutter-geht-durch-ihre-kammern-top5.md`).
 - **Christiane Iven — т. 12 «Mayrhofer, Vol. 2» (Naxos 8.554739, изд. 02/2003)** — пианист Burkhard Kehring (Naxos).
 - **Ruth Ziesak / Christian Elsner — т. 13 «Goethe, Vol. 2» (Naxos 8.554666, изд. 05/2003)** — Eisenlohr; содержит Gretchen am Spinnrade (Ziesak — похвала klassik-prisma, дайджест) (Naxos).
 - **Maya Boog / Wolf Matthias Friedrich — т. 14 «European Poets, Vol. 2» (Naxos 8.557026-27, 2 CD, изд. 08/2003)** — Eisenlohr (Naxos).

@@ -1,0 +1,852 @@
+{
+  "d": "891",
+  "title": "An Silvia (An Sylvia / \"Who is Silvia?\"), D 891",
+  "research_date": "2026-08-17",
+  "tier": "famous",
+  "method_note": "Бюджет WebSearch в сессии исчерпан до начала работы; поиск вёлся напрямую по проверенным базам: дискография Майкла Грея (classical-discography.org, POST search2.php, composer=Schubert & work=Sylvia — 33 записи), Discogs API, страницы Hyperion (WebFetch), реестр альбомов проекта, ℗-строки официальных Topic-загрузок (yt-dlp), oEmbed-проверка (yt-check.js). MusicBrainz из контейнера недоступен (SSL block) — использован готовый каркас d891-an-silvia.mb.json.",
+  "candidates": [
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Edwin Fischer",
+      "rec_year": 1952,
+      "year_source": "Дискография Майкла Грея, запись id 58913: «1952 October 4, London, EMI Studio No. 1A, Abbey Road; Columbia (UK) 33CX1040; Elisabeth Schwarzkopf, soprano; Edwin Fischer, piano» (https://www.classical-discography.org/modalcontent.php?id=58913). Косвенно подтверждается ℗-строкой официальной загрузки Warner Classics: «℗ 1953, 1986 Parlophone Records Limited», продюсер Walter Legge.",
+      "album": "Schubert-Liederabend со Эдвином Фишером (Columbia 33CX1040); на CD — EMI «Great Recordings of the Century: Schubert 24 Lieder» (7243 5 62754 2 3, 2004), трек 11 «An Silvia» 3:07 с Фишером; входит в Warner-бокс «Complete Recitals 1952–1974»",
+      "label": "Columbia (UK) / EMI → Warner Classics",
+      "age_voice": "37 лет, самый центр пика (дайджест: пик 1948–1964). Голос в полной форме, дикция и фразировка эталонные; Фишер за роялем — не аккомпаниатор, а равный партнёр.",
+      "reputation": "Рецитал Шварцкопф/Фишер (окт. 1952) в дайджесте проекта прямо назван «эталоном» её шубертовского наследия; переиздан EMI в серии Great Recordings of the Century (2004) — знак канонического статуса. Сравнительного разбора именно D 891 у klassik-prisma не существует (см. surveys).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=58913",
+        "https://api.discogs.com/releases/22721141 (EMI GROC «24 Lieder», трек 11 An Silvia — Edwin Fischer, piano)",
+        "planning/research/singers-digest.md (Schwarzkopf: пик 1948–1964; рецитал с Фишером окт. 1952 — эталон)"
+      ],
+      "youtube": [
+        {
+          "videoId": "gXrV_V6jqy8",
+          "channel": "ELISABETH SCHWARZKOPF - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "℗-строка: «Provided to YouTube by Warner Classics… ℗ 1953, 1986 Parlophone Records Limited; Piano: Edwin Fischer; Producer: Walter Legge»; альбом «Schubert: Lieder»; 186 с."
+        },
+        {
+          "videoId": "x7IngkeiCeU",
+          "channel": "ELISABETH SCHWARZKOPF - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "Та же запись на агрегаторском релизе «Schubert: 12 Lieder & 6 Moments musicaux» (187 с) — дубликат, серый лейбл."
+        },
+        {
+          "videoId": "yZkzsVd0P8E",
+          "channel": "davidhertzberg",
+          "official": false,
+          "oembed_ok": null,
+          "note": "Фан-загрузка с подписью «1952»."
+        }
+      ],
+      "note": "Главный кандидат старой школы среди женщин. Отдельно существует концертная версия Шварцкопф/Фишер, Турин 1954 (фан-загрузка yfwyLVfDFwc) — не студийная, для топа не нужна."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": 1973,
+      "year_source": "℗-строка официальной загрузки Warner: «Songs I Love», ℗ 1975 Parlophone (ремастер ℗ 2015). LP His Master's Voice ASD 3124, 1975, сторона A1 «An Silvia», пианисты Parsons и Moore, продюсер Walter Legge (Discogs release 5425558). Год сессии — по дайджесту («Songs I Love», Parsons, 1970–73) и по фан-подписи «1973»; точная дата сессии не вскрыта (нужен буклет Warner-бокса). Помечать как 1973 с оговоркой либо давать 1975 (год издания).",
+      "album": "«Songs I Love» (His Master's Voice ASD 3124)",
+      "label": "EMI / HMV → Warner Classics",
+      "age_voice": "≈57–58 лет, конец карьеры (с 1972 сосредоточилась на Lieder, со сцены ушла в 1979). По дайджесту поздние записи с Парсонсом — «голос легче/суше», но стилистическое мастерство сохраняется.",
+      "reputation": "Позднее переосмысление песни; каноническим считается вариант 1952 года с Фишером. Специальных сравнительных оценок именно этой дорожки не найдено.",
+      "sources": [
+        "https://api.discogs.com/releases/5425558 (Songs I Love, ASD 3124, A1 An Silvia; Parsons/Moore, продюсер Legge)",
+        "℗ 1975 Parlophone — описание официальной загрузки Warner Classics (videoId QaZEAZbnF-A)",
+        "planning/research/singers-digest.md",
+        "d891-an-silvia.mb.json (MusicBrainz: запись «An Silvia D 891» — Schwarzkopf/Parsons)"
+      ],
+      "youtube": [
+        {
+          "videoId": "QaZEAZbnF-A",
+          "channel": "ELISABETH SCHWARZKOPF - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "album=Songs I Love, rel=1975, 191 с."
+        }
+      ],
+      "note": "Дублирует приоритетную певицу; при прочих равных правило требует более раннюю запись (1952)."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1957,
+      "year_source": "Сессия 20–21 сентября 1957, Evangelisches Gemeindehaus, Zehlendorf, Берлин — примечания Warner-бокса «Complete Lieder & Songs on Warner Classics» (2025), воспроизведённые в Discogs release 36834472: «20-21.IX.1957 (11-1 to 11-12)… Evangelisches Gemeindehaus, Zehlendorf, Berlin»; An Sylvia — трек 11-10 (2:44 = 164 с, совпадает с длительностью видео PgPVZpQm4u4). LP-первоиздание — HMV ALP 1677 «Schubert Lieder Recital (No. 2)», UK 1959, сторона B4 (Discogs 8172281); принадлежность дорожки к ALP 1677 подтверждена синглом HMV 7ER 5213 «Taken from ALP1677» (Discogs 20976637). В базе Грея записи Фишера-Дискау по D 891 нет (повторно проверено поиском по работе и по lp_number=ALP 1677 — «No entries found»). ℗-строка загрузки Warner «℗ 1958, 2011 Parlophone» датой записи не является и с сессией расходится; фан-подпись «1957» (Aukqfc7pCOI) сессией подтверждается задним числом.",
+      "album": "HMV ALP 1677 «Schubert Lieder Recital (No. 2)» (сессии IX.1957, изд. 1959); на YouTube — компиляция Warner «Schubert: Lieder Vol. 2»",
+      "label": "EMI (Electrola/HMV) → Warner Classics",
+      "age_voice": "32–33 года, начало главного пика (дайджест: пик ~1951–1972). Голос свежий, лёгкий верх, идеальная кантилена для этой строфической песни.",
+      "reputation": "Фан-загрузка именно этой дорожки — самая просматриваемая версия песни среди старых мастеров (130 тыс. просмотров, канал incontrario motu), что косвенно говорит о её репутации «референса». Прямых печатных оценок дорожки не найдено (WebSearch недоступен).",
+      "sources": [
+        "℗ 1958 Parlophone — описание официальной загрузки Warner (videoId PgPVZpQm4u4)",
+        "https://api.discogs.com/releases/36834472 (Warner-бокс 2025, примечания сессий: 20-21.IX.1957 для CD 11 тр. 1–12; An Sylvia — 11-10)",
+        "https://api.discogs.com/releases/8172281 (HMV ALP 1677, 1959, B4 Who Is Silvia?)",
+        "https://api.discogs.com/releases/20976637 (HMV 7ER 5213, «Taken from ALP1677», B2 An Sylvia)",
+        "planning/research/singers-digest.md (Fischer-Dieskau: пик ~1951–1972)"
+      ],
+      "youtube": [
+        {
+          "videoId": "PgPVZpQm4u4",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "164 с, 35 тыс. просмотров; официальный Warner-аудио."
+        },
+        {
+          "videoId": "Aukqfc7pCOI",
+          "channel": "incontrario motu",
+          "official": false,
+          "oembed_ok": true,
+          "note": "Фан-загрузка с подписью «Fischer-Dieskau / Moore 1957», 130 тыс. просмотров."
+        }
+      ],
+      "note": "Приоритет №2 по правилам. Из двух студийных версий Фишера-Дискау эта — более ранняя и вокально более свежая."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "℗-строка официальной загрузки Universal: «Schubert: Lieder · ℗ 1969 Deutsche Grammophon GmbH, Berlin» (videoId fmKwF7zuZI8) — дорожка из полного свода DG «Sämtliche Lieder» (сессии 1966–72).",
+      "album": "DG «Schubert: Sämtliche Lieder» (21 CD), Fischer-Dieskau/Moore",
+      "label": "Deutsche Grammophon",
+      "age_voice": "≈43–44 года, поздний пик; тон плотнее и весомее, чем в 1958-м, но ещё до сушения середины 1970-х (дайджест).",
+      "reputation": "Свод DG 1966–72 — сквозной эталон корпуса мужских песен Шуберта (реестр проекта, дайджест). По правилу «при прочих равных — более ранняя», приоритет у версии ℗1958.",
+      "sources": [
+        "℗ 1969 Deutsche Grammophon — описание официальной загрузки UMG (videoId fmKwF7zuZI8)",
+        "planning/research/singers-digest.md; planning/youtube/albums/complete-editions.md (свод DG 1966–72)"
+      ],
+      "youtube": [
+        {
+          "videoId": "fmKwF7zuZI8",
+          "channel": "Dietrich Fischer-Dieskau - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "168 с, ~7,9 тыс. просмотров."
+        },
+        {
+          "videoId": "YhtSL3bpLyM",
+          "channel": "incontrario motu",
+          "official": false,
+          "oembed_ok": null,
+          "note": "Другой источник: лайв Зальцбург 1963 с Муром (фан)."
+        }
+      ],
+      "note": "Второй студийный Фишер-Дискау; в топ-5 из двух его версий берётся одна."
+    },
+    {
+      "singer": "Fritz Wunderlich",
+      "pianist": "Hubert Giesen",
+      "rec_year": 1966,
+      "year_source": "Дискография Грея, id 177553: «1966 July 2–5, München, Akademie der Wissenschaft; Deutsche Grammophon 139220; Fritz Wunderlich, tenor; Hubert Green [так в базе — очевидная опечатка вместо Hubert Giesen], piano» (https://www.classical-discography.org/modalcontent.php?id=177553). Подтверждение состава и года — ℗-строка UMG: «Fritz Wunderlich · Hubert Giesen … ℗ 1966 Deutsche Grammophon GmbH, Berlin».",
+      "album": "DG 139220 (LP-рецитал 1966); на YouTube — компиляция «Fritz Wunderlich – Ich liebe dich»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "35 лет; сессии 2–5 июля 1966 — за два с половиной месяца до гибели (17.09.1966). Голос на абсолютном пике: спада у Вундерлиха не было в принципе (дайджест: «только пик»).",
+      "reputation": "Дайджест: DG-сессии ноябрь 1965 / июль 1966 с Гизеном — «эталон тенорового цикла» и главный шубертовский документ Вундерлиха. Фан-загрузка дорожки — 104 тыс. просмотров.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=177553",
+        "℗ 1966 Deutsche Grammophon — описание официальной загрузки UMG (videoId 1pgv11yBTDM)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "1pgv11yBTDM",
+          "channel": "Fritz Wunderlich - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "175 с, 3,1 тыс. просмотров; альбом «Ich liebe dich», ℗1966 DG."
+        },
+        {
+          "videoId": "phB_iYGHTB0",
+          "channel": "José Navarro-Forcada",
+          "official": false,
+          "oembed_ok": true,
+          "note": "Фан-загрузка, 104 тыс. просмотров."
+        },
+        {
+          "videoId": "RHrqk3ybsXo",
+          "channel": "Fritz Wunderlich - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "Дубликат на другом релизе."
+        }
+      ],
+      "note": "Сильнейший теноровый кандидат; в песне-серенаде голос Вундерлиха даёт естественную «улыбку» тона."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Irwin Gage",
+      "rec_year": 1983,
+      "year_source": "Реестр проекта: «Popp — Schubert Lieder (EMI, зап. 1–6.11.1983, Abbey Road; изд. 1984)» (planning/youtube/albums/female-recitalists.md). ℗-строка официальной загрузки Warner: «℗ 1984 Parlophone Records Limited» (videoId 3TTe_0Z--Rg, компиляция «The Very Best of Lucia Popp»).",
+      "album": "«Lucia Popp — Schubert Lieder» (EMI, 1984); на YouTube — компиляция «The Very Best of Lucia Popp»",
+      "label": "EMI → Warner Classics",
+      "age_voice": "44 года, центр зрелого пика (~1970–1988); серебристое сопрано без признаков износа.",
+      "reputation": "Диск EMI 1983 — её главный шубертовский рецитал, уже опорный для корпуса (D 118, D 800, D 828, D 854). Прецедент осторожности: в D 118 запись Попп была отсеяна по качеству — качество каждой дорожки оценивается отдельно.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md",
+        "℗ 1984 Parlophone — описание официальной загрузки Warner (videoId 3TTe_0Z--Rg)"
+      ],
+      "youtube": [
+        {
+          "videoId": "3TTe_0Z--Rg",
+          "channel": "Lucia Popp - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "173 с."
+        },
+        {
+          "videoId": "Mh3nAsFVWd4",
+          "channel": "Lucia Popp - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "168 с — вероятно тот же трек на другом релизе; требует сверки."
+        }
+      ],
+      "note": "Приоритетная певица по правилам."
+    },
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": 1982,
+      "year_source": "Реестр проекта: «Popp — BBC Legends BBCL 4025-2 … St John's Smith Square, Лондон, 1.03.1982 (Шуберт тт. 4–10 — с Parsons); шубертовский блок: D 688, D 775, D 260, D 891» (planning/youtube/albums/female-recitalists.md, по Discogs 17629282). То есть D 891 в этом вечере документирован прямо.",
+      "album": "BBC Legends BBCL 4025-2 (изд. 1999), концерт 1.03.1982",
+      "label": "BBC Legends",
+      "age_voice": "43 года, пик; концертная подача живее студийной.",
+      "reputation": "Серия BBC Legends ценится как документ концертной Попп; сравнительных рецензий именно на D 891 не найдено.",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md (Discogs 17629282)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "2IKaIZH56-4",
+          "channel": "incontrario motu",
+          "official": false,
+          "oembed_ok": true,
+          "note": "«Schubert - An Sylvia - Popp / Parsons», 191 с, 73 тыс. просмотров — по составу совпадает с BBC-лайвом 1982; официальной загрузки BBC Legends не найдено."
+        }
+      ],
+      "note": "Альтернатива студийной Попп; ролик неофициальный — риск удаления."
+    },
+    {
+      "singer": "Janet Baker",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": null,
+      "year_source": "℗-строка официальной загрузки Warner: «Janet Baker · Geoffrey Parsons … ℗ 1981, 1996 Parlophone Records Limited» (videoId tXk2EL7RVds). ВНИМАНИЕ: это НЕ знаменитый 2-LP 1970 года с Джералдом Муром (сессии VIII, IX, XII.1970, реестр), а вторая, поздняя версия Бейкер с Парсонсом (℗ 1981). Год сессии не установлен — по правилу в плеер идёт год издания 1981 (либо «1980–81?»).",
+      "album": "EMI-рецитал Бейкер/Парсонс (℗1981); на YouTube — компиляция «Schubert: Lieder»",
+      "label": "EMI → Warner Classics",
+      "age_voice": "≈47–48 лет (р. 1933), конец пика (~1965–1982); тембр темнее и весомее, чем в 1970-м.",
+      "reputation": "Дискография Бейкер в реестре опирается на 2-LP 1970 с Муром (награды, «классика»); поздний рецитал с Парсонсом задокументирован, но самостоятельной критической славы не имеет.",
+      "sources": [
+        "℗ 1981 Parlophone — описание официальной загрузки Warner (videoId tXk2EL7RVds)",
+        "planning/youtube/albums.md (карточка Baker — 2-LP 1970, Moore; «есть вторая, более поздняя версия с Parsons, ℗ 1981»)"
+      ],
+      "youtube": [
+        {
+          "videoId": "tXk2EL7RVds",
+          "channel": "Janet Baker - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "174 с, всего 504 просмотра."
+        },
+        {
+          "videoId": "o8vHk038_VY",
+          "channel": "Gabba02",
+          "official": false,
+          "oembed_ok": true,
+          "note": "«Dame Janet Baker — Who is Sylvia?», 172 с, 156 тыс. просмотров; пианист в описании не указан — атрибуция (Moore 1970 или Parsons 1981) НЕ установлена."
+        }
+      ],
+      "note": "Перед публикацией нужна сверка, какая из двух версий звучит в фан-ролике."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": 1973,
+      "year_source": "Дискография Грея, id 59919: «1973 August 21–26; Philips 6500 704; Elly Ameling, soprano; Dalton Baldwin, piano» (https://www.classical-discography.org/modalcontent.php?id=59919). Согласуется с ℗-строкой UMG: «℗ 1974 Universal International Music B.V.» (videoId aYHJenVHuNU).",
+      "album": "Philips 6500 704 (в реестре — линия рециталов Амелинг/Болдуин, ср. «Songs for Gretchen, Ellen & Suleika», сессии 1972–75)",
+      "label": "Philips → Universal",
+      "age_voice": "40 лет, центр пика (~1965–1985); самая записываемая шубертианка поколения.",
+      "reputation": "Дайджест: Амелинг — эталон светлого лирического Шуберта своего поколения; серия Philips с Болдуином — её основной свод.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=59919",
+        "℗ 1974 UIM — описание официальной загрузки UMG (videoId aYHJenVHuNU)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "aYHJenVHuNU",
+          "channel": "Elly Ameling - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "174 с, 13 тыс. просмотров."
+        },
+        {
+          "videoId": "YNB2Lj6oyGA",
+          "channel": "Elly Ameling - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "171 с — вероятный дубликат на другом релизе."
+        },
+        {
+          "videoId": "lje-T5nywMY",
+          "channel": "Elly Ameling - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "174 с — ещё один релиз той же дорожки."
+        }
+      ],
+      "note": null
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Karl Engel",
+      "rec_year": 1962,
+      "year_source": "℗-строка официальной загрузки UMG: «Hermann Prey · Karl Engel — Schubert & Schumann: Lieder, ℗ 1962 Decca Music Group Limited» (videoId rR0Cmln93rc). Это подтверждает вариант «1962», а не «1965», в споре реестра о датировке диска Prey/Engel (см. albums.md, карточка Prey — Goethe Lieder / Schubert & Schumann: Lieder).",
+      "album": "«Schubert & Schumann: Lieder» (Philips/Decca), Prey/Engel",
+      "label": "Philips → Decca/Universal",
+      "age_voice": "33 года, начало пика (~1960–1980); светлый, «улыбающийся» баритон, идеально ложащийся на серенаду.",
+      "reputation": "Прай — второй по значимости баритон-шубертианец поколения после Фишера-Дискау, основатель Шубертиады в Хоэнемсе (дайджест). Отдельных печатных оценок дорожки не найдено.",
+      "sources": [
+        "℗ 1962 Decca — описание официальной загрузки UMG (videoId rR0Cmln93rc)",
+        "planning/youtube/albums.md (карточка Prey/Engel — расхождение лейбла/года, здесь разрешается в пользу 1962)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "rR0Cmln93rc",
+          "channel": "Hermann Prey - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "163 с."
+        },
+        {
+          "videoId": "vVNsuZUuz5g",
+          "channel": "mendoncacorreia",
+          "official": false,
+          "oembed_ok": null,
+          "note": "Фан-загрузка, 39 тыс. просмотров; версия не атрибутирована."
+        }
+      ],
+      "note": "У Прая как минимум три версии песни — см. следующие две карточки."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Leonard Hokanson",
+      "rec_year": 1971,
+      "year_source": "Дискография Грея, id 176406: «1971 October 27–30, München; Philips 6747 059; Hermann Prey, baritone; Leonard Hokanson, piano» (https://www.classical-discography.org/modalcontent.php?id=176406).",
+      "album": "Philips 6747 059 (ремейк-свод Прая начала 1970-х)",
+      "label": "Philips",
+      "age_voice": "42 года, середина пика; голос плотнее, чем в 1962-м.",
+      "reputation": "Ремейки Philips начала 1970-х в дайджесте отмечены как параллельный свод к циклам EMI 1960-х; критического перевеса над ранней версией нет.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=176406",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "DAKebVjQdJw",
+          "channel": "Hermann Prey - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "162 с — вероятно именно этот источник; ℗-строка не вскрыта (YouTube ограничил выдачу метаданных), требует сверки перед публикацией."
+        }
+      ],
+      "note": "При прочих равных правило требует более раннюю запись Прая (1962)."
+    },
+    {
+      "singer": "Hermann Prey",
+      "pianist": "Gerald Moore",
+      "rec_year": null,
+      "year_source": "Не установлен. Официальная Topic-загрузка (videoId a2IFWlM1VZI) помечена «(Live)», альбом «Schubert: Lieder (Live)», год релиза 2019, artist-строка указывает Gerald Moore. Дата концерта требует доисследования (вероятно, зальцбургский/мюнхенский лайв 1960-х).",
+      "album": "«Schubert: Lieder (Live)» (релиз 2019)",
+      "label": "не установлен (Topic-релиз)",
+      "age_voice": "не определено без даты концерта.",
+      "reputation": "Материал не документирован; по правилам верификации метаданные загрузки источником даты не считаются.",
+      "sources": [
+        "yt-dlp metadata videoId a2IFWlM1VZI (artist=Gerald Moore, album=Schubert: Lieder (Live), rel=2019)"
+      ],
+      "youtube": [
+        {
+          "videoId": "a2IFWlM1VZI",
+          "channel": "Hermann Prey - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "187 с."
+        }
+      ],
+      "note": "Кандидат резервный: год не установлен."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": 1961,
+      "year_source": "℗-строка официальной загрузки UMG: «Gérard Souzay · Dalton Baldwin — Schubert: Lieder, ℗ 1961 Universal International Music B.V.» (videoId 76nsSK-KHmU). Сессионная дата в дискографии Грея по D 891 отсутствует.",
+      "album": "Philips-рецитал Souzay/Baldwin (на YouTube — «Schubert: Lieder»)",
+      "label": "Philips → Universal",
+      "age_voice": "43 года, центр пика (1950-е — сер. 1960-х), задолго до сушения голоса с ~1970 (дайджест).",
+      "reputation": "Сузе — эталон французской школы Lieder-пения; дуэт с Болдуином признан классическим (дайджест). Печатных оценок дорожки не найдено.",
+      "sources": [
+        "℗ 1961 UIM — описание официальной загрузки UMG (videoId 76nsSK-KHmU)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "76nsSK-KHmU",
+          "channel": "Gérard Souzay - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "160 с."
+        }
+      ],
+      "note": null
+    },
+    {
+      "singer": "Bryn Terfel",
+      "pianist": "Malcolm Martineau",
+      "rec_year": 1994,
+      "year_source": "Discogs release 8867894 (DG 445 294-2, «An die Musik – Favourite Schubert Songs»), примечание издания: «Recorded at Hamburg-Harburg, Friedrich-Ebert-Halle, 2/1994; ℗ 1994 Deutsche Grammophon». Трек 18 — «An Sylvia, D.891», 2:42.",
+      "album": "«An die Musik – Favourite Schubert Songs» (DG 445 294-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "28–29 лет, начало пика (~1992–2005); голос свежий, крупный бас-баритон.",
+      "reputation": "Диск — бестселлер и главный шубертовский альбом Терфеля (дайджест); к современным восторгам прессы правила требуют скепсиса, но запись реально закрепилась в каталоге.",
+      "sources": [
+        "https://api.discogs.com/releases/8867894",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "o-u-EZz_Grw",
+          "channel": "Bryn Terfel - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "162 с, 3,3 тыс. просмотров."
+        }
+      ],
+      "note": "Кандидат на слот «не ранее 1990»."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": 1996,
+      "year_source": "Реестр проекта: «Bostridge — Schubert: Lieder (Vol. 1), EMI Classics, запись II–III.1996, Abbey Road Studio No. 1, изд. 1998» (planning/youtube/albums.md). ℗-строка Warner: «℗ 1998 Parlophone Records Limited», продюсер John Fraser (videoId hR4o8I0DrxM).",
+      "album": "«Schubert: Lieder, Vol. 1» (EMI Classics)",
+      "label": "EMI → Warner Classics",
+      "age_voice": "31–32 года, начало пика (~1995–2010) — до позднейшей манерности, отмеченной в дайджесте.",
+      "reputation": "Дебютный шубертовский рецитал Бостриджа, опорный альбом реестра (D 768, D 800, D 806, D 807). Правило о скепсисе к пиару современных применяется.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Bostridge — Schubert: Lieder Vol. 1)",
+        "℗ 1998 Parlophone — описание официальной загрузки Warner (videoId hR4o8I0DrxM)"
+      ],
+      "youtube": [
+        {
+          "videoId": "hR4o8I0DrxM",
+          "channel": "Ian Bostridge - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "165 с, 12,6 тыс. просмотров (в generic-выдаче канал показан как «Ian Bostridge», по oEmbed — «Ian Bostridge - Topic»)."
+        }
+      ],
+      "note": null
+    },
+    {
+      "singer": "John Mark Ainsley",
+      "pianist": "Graham Johnson",
+      "rec_year": 1996,
+      "year_source": "Страница Hyperion CDJ33026: запись — февраль 1996, Rosslyn Hill Unitarian Chapel, Hampstead, Лондон; «An Silvia» поёт John Mark Ainsley (https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026). ℗-строка Hyperion: «℗ 1996 Hyperion Records Limited», релиз 1996-09-01 (videoId g-mxu4kmeAg).",
+      "album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (CDJ33026)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "≈33 года; светлый английский тенор, стиль «научного» издания Джонсона.",
+      "reputation": "Gramophone: «A wondrous addition to this unique venture, it is hard to know where to begin in its praise». Classic CD: «Superb. Schubert at his finest. An indispensable disc. An exciting and varied programme of wonderful music»; том отмечен Gramophone Editor's Choice и Classic CD «Song Record of the Year» (реестр полных изданий). Оценки относятся к диску в целом, не к отдельной дорожке.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
+        "planning/youtube/albums/complete-editions.md (Vol. 26, зап. II.1996, изд. IX.1996)",
+        "℗ 1996 Hyperion — описание официальной загрузки UMG (videoId g-mxu4kmeAg)"
+      ],
+      "youtube": [
+        {
+          "videoId": "g-mxu4kmeAg",
+          "channel": "Graham Johnson - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "182 с; загрузка на Topic-канале пианиста (типично для Hyperion-каталога после 2023)."
+        }
+      ],
+      "note": "Единственная запись из полного научного свода; ценна контекстом «Schubertiade 1826» — года сочинения песни."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Alexander Schmalcz",
+      "rec_year": null,
+      "year_source": "Официальное видео harmonia mundi: «Schubert: An Silvia, D. 891 is an excerpt from Schubert: Nacht und Träume; hmc902063; harmonia mundi; January 2011» — январь 2011 указан как дата релиза альбома (videoId osa0FHVT7cE). Год сессии (вероятно 2010) не документирован в доступных источниках; по правилу в плеер идёт год издания 2011.",
+      "album": "«Nacht und Träume» (harmonia mundi HMC 902063) — том Matthias Goerne Schubert Edition",
+      "label": "harmonia mundi",
+      "age_voice": "≈43 года, центр пика (~1997–2015).",
+      "reputation": "Goerne Schubert Edition (HM, 2008–14, 12 томов) — крупнейший сольный свод последних десятилетий (реестр полных изданий); к рекламным оценкам современных исполнителей правила требуют скепсиса.",
+      "sources": [
+        "Описание официального видео harmonia mundi music (videoId osa0FHVT7cE)",
+        "planning/youtube/albums/complete-editions.md (Goerne Schubert Edition)"
+      ],
+      "youtube": [
+        {
+          "videoId": "osa0FHVT7cE",
+          "channel": "harmonia mundi music",
+          "official": true,
+          "oembed_ok": true,
+          "note": "187 с, 9,7 тыс. просмотров; официальный канал лейбла."
+        },
+        {
+          "videoId": "SnY5bVma-KQ",
+          "channel": "Berliner Philharmoniker",
+          "official": true,
+          "oembed_ok": true,
+          "note": "Другая версия: оркестровая, Goerne — Honeck — Berliner Philharmoniker (лайв, 94 тыс. просмотров); дата концерта не установлена; по правилам name был бы «Goerne — Berliner Philharmoniker»."
+        }
+      ],
+      "note": "Кандидат на слот «не ранее 1990»; фортепианная версия предпочтительнее оркестровой для песенной страницы."
+    },
+    {
+      "singer": "Karl Erb",
+      "pianist": "Bruno Seidler-Winkler",
+      "rec_year": 1936,
+      "year_source": "Дискография Грея, id 55470: «1936 February 18; Electrola EG3687; Karl Erb, tenor; Bruno Seidler-Winkler, piano» (https://www.classical-discography.org/modalcontent.php?id=55470). Совпадает с карточкой реестра: «E.G. 3687 «An Sylvia / Lerchengesang» (изд. 1936)» (planning/youtube/albums/male-recitalists.md).",
+      "album": "Electrola EG 3687 (78 об.); переиздание Preiser «Liederalbum»",
+      "label": "Electrola / Preiser",
+      "age_voice": "58–59 лет — далеко за вокальным пиком (~1905–1930); ценность записи в декламации и стиле, не в вокальной свежести (дайджест).",
+      "reputation": "Эрб в дайджесте — «эталон старой немецкой декламации», документ довоенного стиля.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=55470",
+        "planning/youtube/albums/male-recitalists.md",
+        "℗ Preiser Records — описание официальной загрузки (videoId 6RtXbmUKbLk)"
+      ],
+      "youtube": [
+        {
+          "videoId": "6RtXbmUKbLk",
+          "channel": "Karl Erb - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "173 с; Preiser-переиздание."
+        },
+        {
+          "videoId": "5VfflFWgPdg",
+          "channel": "Karl Erb - Topic",
+          "official": true,
+          "oembed_ok": null,
+          "note": "173 с — дубликат на другом релизе."
+        }
+      ],
+      "note": "Исторический документ; звук 78 об."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Sebastian Peschko (1938 и 1949) / Franz Rupp (1928)",
+      "rec_year": 1938,
+      "year_source": "Дискография Грея даёт три записи Шлуснуса: id 240238 — «1928 Autumn, Berlin, Hochschule für Musik (Raum I); Polydor 62645; Franz Rupp, piano»; id 26558 — «1938 May 4, Berlin, Raum VIII (Lützowstraße 111); Polydor 62795; Sebastian Peschko, piano»; id 271604 — «1949 June, Zürich; Decca / London LPS42; Sebastian Peschko, piano». Какая из версий с Пешко попала на Topic-загрузку (альбом «Heinrich Schlusnus – Liederalbum, Vol. 2», Preiser, rel. 1999), НЕ установлено.",
+      "album": "Polydor 62795 (1938) / Decca-London LPS42 (1949); переиздание Preiser «Liederalbum Vol. 2»",
+      "label": "Polydor / Decca; Preiser",
+      "age_voice": "В 1938-м — 50 лет: по дайджесту Шлуснус держал ровность голоса и в 1940-е; 1928 — вокальный пик (40 лет).",
+      "reputation": "Шлуснус — эталон немецкого лирического баритона межвоенных лет, сотни сторон Polydor (дайджест); полных циклов не оставил.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=26558",
+        "https://www.classical-discography.org/modalcontent.php?id=240238",
+        "https://www.classical-discography.org/modalcontent.php?id=271604",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {
+          "videoId": "bfBlUFHvUzQ",
+          "channel": "Sebastian Peschko - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "183 с; artist-строка «Sebastian Peschko, Heinrich Schlusnus», альбом «Heinrich Schlusnus – Liederalbum (Vol. 2)», rel. 1999 (Preiser). Год записи по метаданным НЕ определяется."
+        }
+      ],
+      "note": "Требуется доисследование, какая из двух записей с Пешко (1938 или 1949) на загрузке."
+    },
+    {
+      "singer": "Aksel Schiøtz",
+      "pianist": "Gerald Moore",
+      "rec_year": 1950,
+      "year_source": "Дискография Грея, id 62818: «1950 June 6, London, EMI Studio No. 3, Abbey Road; HMV DA5264; Aksel Schiøtz, tenor; Gerald Moore, piano» (https://www.classical-discography.org/modalcontent.php?id=62818).",
+      "album": "HMV DA5264 (78 об.); свод Danacord «Aksel Schiøtz — Complete Recordings»",
+      "label": "HMV / Danacord",
+      "age_voice": "44 года, уже ПОСЛЕ опухоли мозга и операции 1946 года, оборвавших теноровую карьеру (дайджест: пик до 1946). Голос заведомо не в прежней форме.",
+      "reputation": "Шиотц до 1946 — классик (Müllerin с Муром, 1945); послеоперационные записи ценятся как документ мужества, но вокально уступают.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=62818",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [],
+      "note": "На YouTube дорожка не найдена (поиск по «Aksel Schiøtz An Sylvia» результата не дал) — кандидат нереализуем."
+    },
+    {
+      "singer": "Jussi Björling",
+      "pianist": "не установлен (в базе Грея пианист не указан)",
+      "rec_year": 1940,
+      "year_source": "Дискография Грея, id 77990: «1940 January 30, New York, Victor Studio No. 2; Victor 12725 / HMV DB5759; Jussi Björling, tenor» (https://www.classical-discography.org/modalcontent.php?id=77990).",
+      "album": "Victor 12725 / HMV DB5759 (78 об.); многочисленные переиздания",
+      "label": "Victor / HMV",
+      "age_voice": "28–29 лет, безусловный пик; но манера оперная, не камерная.",
+      "reputation": "Знаменитая «оперная» трактовка песни; для Lieder-страницы стиль спорный (аналогия с оговоркой дайджеста о Флагстад: «манера монументальная, не камерная»).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=77990"
+      ],
+      "youtube": [
+        {
+          "videoId": "gWA3r5WzmBU",
+          "channel": "Jussi Björling - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "263 с (с оркестровым/фортепианным вступлением переиздания)."
+        },
+        {
+          "videoId": "nXZ9eq8aiug",
+          "channel": "Jussi Björling - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "275 с, «(Recorded 1940)», 6,8 тыс. просмотров."
+        }
+      ],
+      "note": "Кандидат «второго ряда» по стилю."
+    },
+    {
+      "singer": "John McCormack",
+      "pianist": "не установлен",
+      "rec_year": 1927,
+      "year_source": "Дискография Грея: id 62819 — «1927 September 2; HMV DA933» (помечена [English], т. е. поётся английский текст Шекспира); id 72214 — «1928 December 7; Victor 6926» (немецкий текст, без пометки [English]).",
+      "album": "HMV DA933 (1927) / Victor 6926 (1928), 78 об.",
+      "label": "HMV / Victor",
+      "age_voice": "43–44 года, поздний пик; знаменитая дикция.",
+      "reputation": "Историческая версия, для многих англоязычных слушателей — «Who is Silvia?» по умолчанию; для страницы с немецким подстрочником английский вариант 1927 года неудобен.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=62819",
+        "https://www.classical-discography.org/modalcontent.php?id=72214"
+      ],
+      "youtube": [
+        {
+          "videoId": "8qxSTZA10XA",
+          "channel": "John McCormack - Topic",
+          "official": true,
+          "oembed_ok": true,
+          "note": "146 с; язык исполнения по метаданным не определяется."
+        }
+      ],
+      "note": "Включать только при подтверждении немецкого текста."
+    },
+    {
+      "singer": "Samuel Hasselhorn",
+      "pianist": "Ammiel Bushakevitz (концертное видео) / Renate Rohlfing (другая загрузка)",
+      "rec_year": null,
+      "year_source": "Не установлен. Проект «Schubert 200» (harmonia mundi, с Bushakevitz) включает альбом «Licht und Schatten» (2024) с песнями 1824–26; D 891 написана в июле 1826, поэтому попадание песни в этот или следующий том вероятно, но НЕ подтверждено ни трек-листом, ни каталогом. Найденные ролики — концертные/сторонние каналы.",
+      "album": "не подтверждён (предположительно линия «Schubert 200», harmonia mundi)",
+      "label": "harmonia mundi (?)",
+      "age_voice": "≈33–35 лет (р. 1990), ранний пик.",
+      "reputation": "Дайджест: Müllerin 2023 — Diapason d'or года; «Licht und Schatten» (2024) — Preis der deutschen Schallplattenkritik. Оценок именно этой песни нет.",
+      "sources": [
+        "planning/research/singers-digest.md (Hasselhorn, проект «Schubert 200»)"
+      ],
+      "youtube": [
+        {
+          "videoId": "V4BxMnZnH4Q",
+          "channel": "ALTEA MEDIA / I LOVE TV",
+          "official": false,
+          "oembed_ok": true,
+          "note": "156 с, 209 просмотров; с Bushakevitz."
+        },
+        {
+          "videoId": "Fk24EYNb8b8",
+          "channel": "Dolcefarniente",
+          "official": false,
+          "oembed_ok": null,
+          "note": "171 с; с Renate Rohlfing (субтитрованная загрузка)."
+        }
+      ],
+      "note": "Кандидат на слот «не ранее 2015», но без официального релиза и без документированного года — по правилам сначала целевое доисследование."
+    },
+    {
+      "singer": "Fatma Said",
+      "pianist": "David Fray",
+      "rec_year": null,
+      "year_source": "Не установлен. Ролик на официальном канале певицы; альбом «Lieder» (Warner, 2024) в дайджесте перечислен с другими пианистами (Martineau/Middleton), присутствие D 891 в нём не подтверждено.",
+      "album": "не подтверждён",
+      "label": "Warner Classics (?)",
+      "age_voice": "≈33 года (р. 1991).",
+      "reputation": "Современная звезда с активным пиаром; по правилам проекта пресса о современных исполнителях фильтруется. Просмотры (64 тыс.) отражают медийность, не качество.",
+      "sources": [
+        "planning/research/singers-digest.md (Said Fatma — «Lieder», Warner 2024)"
+      ],
+      "youtube": [
+        {
+          "videoId": "xuyydhLW9H4",
+          "channel": "Fatma Said",
+          "official": true,
+          "oembed_ok": true,
+          "note": "172 с, 64 тыс. просмотров; официальный канал певицы."
+        }
+      ],
+      "note": "Слабый кандидат: год и альбом не документированы."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff Thomas": "НЕТ. Дискография Квастхофа закрыта в 2012 и состоит из 6 шубертовских альбомов + сборного рецитала «A Romantic Songbook» (DG, ℗2004): полный трек-лист последнего проверен по Discogs release 14296330 — шубертовский блок это D 686, D 257, D 550, D 882, D 853, D 799, D 795/7; An Silvia там нет. В базе Грея по D 891 записей Квастхофа нет; поиск по YouTube (yt-dlp) его версии не находит. Отрицательный результат.",
+    "Fischer-Dieskau Dietrich": "ДА, минимум две студийные версии с Джералдом Муром: EMI — сессия 20–21.IX.1957, Zehlendorf, Берлин (HMV ALP 1677; дата по примечаниям Warner-бокса 2025, Discogs 36834472; официальная загрузка Warner videoId PgPVZpQm4u4) и DG из полного свода (℗ 1969 Deutsche Grammophon, videoId fmKwF7zuZI8). Дополнительно — лайв Зальцбург 1963 с Муром (фан-загрузка YhtSL3bpLyM).",
+    "Schwarzkopf Elisabeth": "ДА, две версии: с Эдвином Фишером — 4 октября 1952, Abbey Road Studio 1A, Columbia 33CX1040 (дискография Грея id 58913; трек подтверждён трек-листом EMI GROC «24 Lieder», Discogs 22721141), и с Джеффри Парсонсом — LP «Songs I Love» (HMV ASD 3124, ℗1975; Discogs 5425558; MusicBrainz также фиксирует пару Schwarzkopf/Parsons).",
+    "Hotter Hans": "НЕТ (не найдено). В дискографии Грея среди 33 записей D 891 Хоттера нет; целевой поиск по YouTube («Hans Hotter An Silvia Schubert») даёт только другие песни (An die Musik, Winterreise, Geheimes). Отрицательный результат; полностью исключить нельзя без просмотра его радиозаписей 1940-х (Raucheisen-архив).",
+    "Anders Peter": "НЕТ (не найдено). В базе Грея по D 891 Андерса нет; поиск по YouTube выдаёт только его Winterreise/Müllerin и чужие исполнения An Sylvia. Отрицательный результат.",
+    "Schumann Elisabeth": "НЕТ (не найдено). В базе Грея среди записей D 891 её нет (её HMV-стороны 1927–49 в базе есть по другим песням); целевой поиск по YouTube даёт только Schwarzkopf и другие имена, на её Topic-канале An Sylvia отсутствует. Отрицательный результат.",
+    "Ludwig Christa": "НЕТ (не найдено). В базе Грея по D 891 её нет; поиск по YouTube («Christa Ludwig An Silvia») на её Topic-канале песни не находит (есть D 920, D 653, D 550, D 544, D 965). Отрицательный результат.",
+    "Popp Lucia": "ДА, две версии: студийная EMI с Ирвином Гейджем (сессии 1–6.11.1983, Abbey Road; ℗1984 Parlophone — videoId 3TTe_0Z--Rg) и концертная с Джеффри Парсонсом, St John's Smith Square, 1 марта 1982 (BBC Legends BBCL 4025-2, шубертовский блок вечера включает D 891 — реестр проекта по Discogs 17629282; на YouTube — фан-загрузка 2IKaIZH56-4)."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert-Liederabend Schwarzkopf/Fischer (Columbia 33CX1040; CD — EMI GROC «Schubert: 24 Lieder», 7243 5 62754 2 3)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": 1952,
+      "label": "Columbia (UK) / EMI → Warner",
+      "facts": "Сессия 4 октября 1952, EMI Studio No. 1A, Abbey Road; продюсер Walter Legge (дискография Грея id 58913; ℗ 1953 Parlophone). На CD-переиздании GROC An Silvia — трек 11 (3:07), пианист Эдвин Фишер. Уже опорный альбом корпуса (Gretchen am Spinnrade и др.).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "«Songs I Love» (HMV ASD 3124)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": 1975,
+      "label": "EMI/HMV → Warner",
+      "facts": "Пианисты Geoffrey Parsons и Gerald Moore, продюсер Walter Legge, инженер Johann-Nikolaus Matthes; An Silvia — A1. Шубертовский блок: An Silvia, Meeres Stille, Erntelied, Wehmut, Gretchen am Spinnrade (Discogs 5425558). Год сессии не вскрыт (дайджест: 1970–73).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV ALP 1677 «Schubert Lieder Recital (No. 2)» — Fischer-Dieskau/Moore, EMI (компиляция Warner «Schubert: Lieder Vol. 2»)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1957,
+      "label": "EMI/HMV → Warner Classics",
+      "facts": "Сессии 20–21 сентября 1957, Evangelisches Gemeindehaus, Zehlendorf, Берлин (примечания Warner-бокса «Complete Lieder & Songs on Warner Classics» 2025, Discogs 36834472; An Sylvia — трек 11-10). LP-издание HMV ALP 1677, UK 1959 (Discogs 8172281). ℗-строка Warner-загрузки «℗ 1958» — копирайт-дата, не дата сессии.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG «Schubert: Sämtliche Lieder» (Fischer-Dieskau/Moore, 21 CD, сессии 1966–72)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1969,
+      "label": "Deutsche Grammophon",
+      "facts": "Дорожка D 891 несёт ℗ 1969 DG Berlin. Свод — сквозной кандидат для любой мужской песни корпуса (реестр полных изданий).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "DG 139220 — рецитал Вундерлиха (на YouTube «Fritz Wunderlich – Ich liebe dich»)",
+      "singer": "Fritz Wunderlich",
+      "year": 1966,
+      "label": "Deutsche Grammophon",
+      "facts": "Сессии 2–5 июля 1966, München, Akademie der Wissenschaft; пианист Hubert Giesen (в базе Грея id 177553 фамилия напечатана как «Hubert Green» — опечатка, исправляется по ℗-кредиту DG). Последние студийные сессии певца перед гибелью 17.09.1966.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Philips 6500 704 — рецитал Амелинг/Болдуин",
+      "singer": "Elly Ameling",
+      "year": 1973,
+      "label": "Philips → Universal",
+      "facts": "Сессии 21–26 августа 1973 (дискография Грея id 59919); ℗ 1974 Universal International Music. Продолжение линии рециталов Амелинг/Болдуин 1972–75, уже описанной в реестре.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Prey/Engel «Schubert & Schumann: Lieder» (Philips)",
+      "singer": "Hermann Prey",
+      "year": 1962,
+      "label": "Philips → Decca/Universal",
+      "facts": "℗ 1962 Decca Music Group Limited по официальной загрузке UMG. Это снимает расхождение реестра (в albums.md значились варианты «EMI Electrola 1962» и «Philips 1965»): для дорожки D 891 официальный ℗-год — 1962, лейбл Philips/Decca.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Philips 6747 059 — свод Прая с Хоканссоном",
+      "singer": "Hermann Prey",
+      "year": 1971,
+      "label": "Philips",
+      "facts": "Сессии 27–30 октября 1971, Мюнхен, пианист Leonard Hokanson (дискография Грея id 176406). Тот же бокс уже фигурирует в корпусе по D 686.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 26 «An 1826 Schubertiad» (CDJ33026)",
+      "singer": "John Mark Ainsley (в D 891); также C. Schäfer, Keenlyside, Jackson, Schubert Chorale",
+      "year": 1996,
+      "label": "Hyperion (с 2023 — Universal)",
+      "facts": "Запись февраль 1996, Rosslyn Hill Unitarian Chapel, Hampstead; фортепиано и комментарии — Graham Johnson; издание сентябрь 1996. Пресса: Gramophone «A wondrous addition to this unique venture…»; Classic CD «Superb. Schubert at his finest. An indispensable disc». Том целиком посвящён песням 1826 года — года сочинения D 891.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "«An die Musik – Favourite Schubert Songs» (DG 445 294-2)",
+      "singer": "Bryn Terfel",
+      "year": 1994,
+      "label": "Deutsche Grammophon",
+      "facts": "Запись февраль 1994, Friedrich-Ebert-Halle, Hamburg-Harburg; пианист Malcolm Martineau, продюсер Wolfgang Mitlehner; An Sylvia — трек 18 (2:42) (Discogs 8867894).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "«Schubert: Lieder, Vol. 1» (EMI Classics)",
+      "singer": "Ian Bostridge",
+      "year": 1996,
+      "label": "EMI → Warner",
+      "facts": "Запись февраль–март 1996, Abbey Road Studio No. 1, пианист Julius Drake, продюсер John Fraser; издание 1998 (℗1998 Parlophone). Опорный альбом реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "«Nacht und Träume» (harmonia mundi HMC 902063) — Goerne Schubert Edition",
+      "singer": "Matthias Goerne",
+      "year": 2011,
+      "label": "harmonia mundi",
+      "facts": "Релиз январь 2011 (официальное видео лейбла); пианист Alexander Schmalcz. Год сессии не документирован в доступных источниках.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Electrola EG 3687 (78 об.)",
+      "singer": "Karl Erb",
+      "year": 1936,
+      "label": "Electrola; переизд. Preiser",
+      "facts": "Сессия 18 февраля 1936, пианист Bruno Seidler-Winkler (Грей id 55470); сторона B — Lerchengesang. Реестр мужских рециталов уже фиксировал эту пластинку с годом издания 1936 — теперь есть точная дата сессии.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Polydor 62645 (1928) / Polydor 62795 (1938) / Decca-London LPS42 (1949)",
+      "singer": "Heinrich Schlusnus",
+      "year": 1938,
+      "label": "Polydor / Decca",
+      "facts": "Три записи одной песни: осень 1928, Берлин, Hochschule für Musik (Franz Rupp); 4 мая 1938, Берлин, Lützowstraße 111 (Sebastian Peschko); июнь 1949, Цюрих (Peschko) (Грей id 240238, 26558, 271604).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "HMV DA5264 (78 об.)",
+      "singer": "Aksel Schiøtz",
+      "year": 1950,
+      "label": "HMV / Danacord",
+      "facts": "Сессия 6 июня 1950, EMI Studio No. 3, Abbey Road, пианист Gerald Moore (Грей id 62818) — уже после болезни 1946 года.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    {
+      "source": "klassik-prisma.de (Bernd Stremmel)",
+      "url": "https://www.klassik-prisma.de/Schubert.htm",
+      "result": "Сравнительной страницы (Vergleich) по D 891 НЕ существует: раздел Шуберта содержит только D 774, D 965, D 828, D 328, D 118, D 583, D 827 и три цикла (многократно зафиксировано в досье проекта). Привычного пятибалльного ориентира по этой песне нет."
+    },
+    {
+      "source": "Hyperion Records — страница тома CDJ33026 с отзывами прессы и комментариями Грэма Джонсона",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33026",
+      "result": "Gramophone: «A wondrous addition to this unique venture, it is hard to know where to begin in its praise»; Classic CD: «Superb. Schubert at his finest. An indispensable disc. An exciting and varied programme of wonderful music»; также отзывы Hi-Fi News и Opéra Actual. Оценки альбома целиком; отдельного разбора An Silvia в доступном тексте нет."
+    },
+    {
+      "source": "Дискография Майкла Грея (A Classical Discography) — фактический «слепой» срез фонда 78-х/LP",
+      "url": "https://www.classical-discography.org/search.php (POST search2.php: composer=Schubert, work=Sylvia)",
+      "result": "33 записи D 891 с 1906 по 1973 год. Помимо перечисленных кандидатов: David Bispham (Columbia A5018, 1906 и A5473; англ.), Ivor Foster (Odéon, 1908–09), Hubert Eisdell (Columbia D1419, 1920; и неизданная 1928), Charles Hackett (Columbia 7367, 14.03.1924; переиздание 7367R 30.06.1926; неизданная 24.07.1923), Louis Graveure (Columbia, 21 и 26 апреля 1924), Emmy Bettendorf (Parlophon E10388, 24.12.1924, Paul Breisach), Dora Labette (Columbia D1553, 11.03.1926), Royal Dadmun (Victor 4008, 22.02.1927), Ernest Lough (HMV B2681, 30.11.1927, George Thalben-Ball), Roy Henderson (Decca M584, 6.04.1945, Eric Gritton), Lauritz Melchior (MGM 30115, 18.12.1947, Culver City), Karl Schmitt-Walter (HMV, 15.11.1948, Wien, Brahms-Saal — не издано), Antti Koskinen (Metronome, 1956), Jean-Paul Jeannotte (Select, 1961–62), Rudolf Schock (Ariola-Eurodisc 74735, 3–8 июня 1966, Ivan Eröd). Большинство ранних — на английском («Who is Sylvia?»)."
+    }
+  ],
+  "negatives": [
+    "Квастхоф песню не записывал (проверен трек-лист «A Romantic Songbook», DG ℗2004 — Discogs 14296330; в остальных 6 его шубертовских альбомах — циклы и Goethe-Lieder, куда шекспировская песня не входит).",
+    "Хоттер, Петер Андерс, Элизабет Шуман и Криста Людвиг — записей D 891 не найдено ни в дискографии Грея (33 позиции по работе), ни на их Topic-каналах.",
+    "klassik-prisma не имеет сравнительной страницы по D 891 — источника пятибалльных оценок для этой песни у проекта нет.",
+    "Том Naxos Deutsche Schubert-Lied-Edition с D 891 идентифицировать не удалось: naxos.com в момент работы отдавал ошибку приложения, WebSearch-бюджет сессии исчерпан. Требуется доисследование.",
+    "Запись Aksel Schiøtz / Gerald Moore (HMV DA5264, 6.06.1950) документирована, но на YouTube не найдена — в топ-5 нереализуема.",
+    "Ролик «Dame Janet Baker — Who is Sylvia?» (o8vHk038_VY, 156 тыс. просмотров) не атрибутирован по пианисту: официальная Topic-дорожка Бейкер — с Парсонсом (℗1981), а не с Муром (2-LP 1970). Перед публикацией нужна сверка.",
+    "Год сессии у Schwarzkopf/Parsons («Songs I Love»), Baker/Parsons (℗1981), Goerne/Schmalcz (релиз I.2011) и у концертной дорожки Prey/Moore (Topic, «Live», rel. 2019) дискографически не подтверждён — по правилу используется год издания либо диапазон со знаком вопроса.",
+    "Записи Hasselhorn и Fatma Said существуют на YouTube, но их альбомная принадлежность и год не подтверждены ни одним дискографическим источником.",
+    "Barbra Streisand «An Sylvia» (mPtZCPetuOU, официальный канал) — эстрадная адаптация, вне критериев отбора.",
+    "MusicBrainz API из контейнера недоступен (SSL-блок, curl exit 35); WebSearch-бюджет сессии был исчерпан до начала работы — поэтому не проверены Gramophone/MusicWeb/BBC Music Magazine напрямую."
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "d": "741",
+  "title": "Sei mir gegrüßt",
+  "tier": "famous",
+  "research_date": "2026-08-17",
+  "method_note": "Даты сессий — дискография Майкла Грея (classical-discography.org, POST-поиск search2.php по composer=Schubert / work='Sei mir gegr%' — 17 сессионных позиций 1908–1966, плюс адресные запросы по исполнителям) и буклеты изданий через Discogs API. Метаданные YouTube-загрузок использованы ТОЛЬКО для установления альбома/лейбла и ℗-года издания (атрибуция трека к изданию), не как источник года записи. MusicBrainz прямым запросом из контейнера недоступен (TLS-блок), использован каркас mb.json. WebSearch в сессии исчерпан — веб-исследование велось адресным WebFetch; gramophone.co.uk и prestomusic.com отдали 403, musicweb-international — 404, поэтому корпус критических оценок по этой песне тоньше обычного и в досье не додумывается.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1962,
+      "year_source": "Michael Gray, classical-discography.org (id 59118): Schubert, 'Lieder, Volume 7', Electrola STE91204, 1962 May 7–8, Berlin-Zehlendorf, Evangelisches Gemeindehaus, Fischer-Dieskau/Moore. Discogs 14368009 подтверждает содержание LP: «VII. Folge — Gedichte von Heine, Rückert und Schlegel», сторона B3 — 'Sei mir gegrüßt! Op. 20 Nr. 1'. Атрибуция ролика: авто-креды Warner Classics — альбом 'Schubert: 21 Lieder', ℗ 1962 Parlophone Records Ltd, продюсеры Christfried Bickenbach / Fritz Ganss.",
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VII. Folge: Gedichte von Heine, Rückert und Schlegel (Electrola E/STE 91 204); на YouTube — переиздание «Schubert: 21 Lieder»",
+      "label": "Electrola / EMI → Warner Classics",
+      "age_voice": "37 лет. Абсолютный пик по дайджесту фонда (пик ~1951–1972); голос ещё свеж, без сухости поздних 1970-х. Партнёр — Мур на своём пике.",
+      "reputation": "Записана в рамках именной шубертовской серии Electrola 1950–60-х, к которой отсылают все позднейшие переиздания EMI/Warner; отдельного сравнительного разбора именно D 741 в доступных источниках не найдено. По правилу проекта о «сходных по уровню» и о предпочтении более ранней записи — это более ранняя из двух студийных версий Фишера-Дискау.",
+      "sources": [
+        "https://classical-discography.org (Michael Gray, id 59118, Electrola STE91204, 1962 May 7–8)",
+        "https://api.discogs.com/releases/14368009 (треклист VII. Folge, B3 Sei mir gegrüßt)",
+        "авто-креды YouTube/Warner Classics: альбом «Schubert: 21 Lieder», ℗ 1962"
+      ],
+      "youtube": [
+        {"videoId": "vfTfh8WzO7w", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность ролика 237 с; ролик A6p74XFu4Jo (239 с) — от серого агрегатора «The Golden Legacy of Music», брать не следует."
+    },
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": 1969,
+      "year_source": "Буклет DG-издания по Discogs 17653033 (CD-бокс «Lieder Volume II», 437 225-2): «Recordings: Berlin Ufa-Ton-Studio, February & March 1969», ℗ 1969 Polydor International. Трек 4-16 — «Sei Mir Gegrüßt D 741» (3:52). Важно: в LP-издании 1970 и CD-издании 1985 нумерация томов меняется местами (примечание Discogs) — на LP песня в Volume 1 (2720 006, «песни 1817–1828», Discogs 7568875, сторона K6). Авто-креды UMG подтверждают ℗ 1969 DG.",
+      "album": "Schubert: Lieder — полное собрание Fischer-Dieskau/Moore (LP DG 2720 006, Vol. 1; CD DG 437 225-2, Volume II)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "43–44 года. Ещё в пределах пика (~1951–1972), но на четыре года позже эталонной EMI-версии; тон плотнее, интерпретация более «сводная», сессионная.",
+      "reputation": "Часть 21-CD свода всех мужских песен Шуберта — научно-справочный эталон охвата, не всегда лучший вокально в отдельной песне. Самая слушаемая версия песни на YouTube (~34 тыс. просмотров на UMG-Topic).",
+      "sources": [
+        "https://api.discogs.com/releases/17653033 (буклет DG 437 225-2: Ufa-Ton-Studio, февраль–март 1969; трек 4-16)",
+        "https://api.discogs.com/releases/7568875 (LP 2720 006, сторона K6 — Sei mir gegrüsst D.741)",
+        "https://api.discogs.com/releases/17653324 (примечание о перестановке томов Vol.1/Vol.2 между LP и CD)",
+        "https://classical-discography.org (Michael Gray, id 4397: тот же блок сессий 1969 February – March, Berlin UFA Studio)"
+      ],
+      "youtube": [
+        {"videoId": "dXHnYkTmnoM", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "cWQxEL8aJ60", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Ts9eIBBt_pg", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три Topic-ролика — одна и та же запись (232 с = 3:52), разные релизные обёртки UMG; дубликаты по корпусу проверять при публикации."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Gerald Moore",
+      "rec_year": 1957,
+      "year_source": "Буклет переиздания EMI References CDH 5 65196 2 / Warner 50999 9 93726 2 0 (зафиксировано в реестре альбомов проекта, planning/youtube/albums.md, карточка Hotter): «Geheimes D 719, Sei mir gegrüßt D 741, Im Abendrot D 799 — 3–4 октября 1957», Abbey Road. Авто-креды Warner дают ℗ 1959 Parlophone — это год издания LP (Columbia 33CX1626), не сессии; продюсер Walter Legge.",
+      "album": "Schubert: Lieder — Hotter/Moore (Columbia 33CX1626, 1959); переизд. EMI References CDH 5 65196 2, «Icon: Hans Hotter», антология Diapason «Les Indispensables»",
+      "label": "Columbia (UK) / EMI → Warner Classics",
+      "age_voice": "48 лет. По дайджесту пик ~1942–1955 — запись сразу за пиком: голос ещё крупный и тёмный, но уже тяжелее и менее гибкий, чем в военных радиозаписях. Мур — идеальный партнёр.",
+      "reputation": "Единственная версия D 741 в редакционной антологии Diapason «Les Indispensables de Diapason — Schubert: Lieder» (2023), то есть отобрана французской редакцией как эталонная историческая (см. также карточку антологии Diapason «22 Lieder» в реестре альбомов). Продюсер — Уолтер Легге. Сравнительного разбора именно этой песни в klassik-prisma нет (индекс сравнительных страниц проверен — D 741 в нём отсутствует).",
+      "sources": [
+        "planning/youtube/albums.md, карточка «Hans Hotter — Schubert: Lieder — сессии EMI/HMV…» (буклет Warner: D 741 — 3–4 октября 1957)",
+        "авто-креды YouTube/Warner Classics (℗ 1959 Parlophone, продюсер Walter Legge)",
+        "авто-креды YouTube/IDOL: «Schubert: Lieder (Les indispensables de Diapason)», ℗ Les Indispensables de Diapason, 2023"
+      ],
+      "youtube": [
+        {"videoId": "v9ARbO7UyMo", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "KN0Sq2RUk_s", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "TI6LRR-ghMg", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "v9ARbO7UyMo — Warner Classics («Schubert: Lieder», ℗1959/1994); KN0Sq2RUk_s — EMI «Icon: Hans Hotter» (ремастеринг 2009); TI6LRR-ghMg — переиздание Diapason 2023. Предпочтителен Warner-релиз."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Michael Raucheisen",
+      "rec_year": null,
+      "year_source": "Год НЕ установлен. Запись принадлежит корпусу берлинских радиозаписей Раухайзена; карточка реестра «In Memoriam Hans Hotter (1942–1945)» (Reichsrundfunk → Acanta/Membran) даёт диапазон 1942–1945. Дистрибуция на YouTube — через агрегатор Believe SAS / «The Art Of Singing» (альбом «Singer Portrait – Hans Hotter»), даты в его метаданных источником не считаются.",
+      "album": "Raucheisen-Edition / «In Memoriam Hans Hotter (1942–1945)»; на YouTube — «Singer Portrait – Hans Hotter» (агрегатор)",
+      "label": "Reichsrundfunk → Acanta / Membran; YouTube-дистрибуция Believe SAS",
+      "age_voice": "33–36 лет (если диапазон 1942–1945 верен) — самая свежая форма Хоттера, документ пика по дайджесту.",
+      "reputation": "Радиокорпус Раухайзена высоко ценится как документ немецкой школы военных лет; конкретных печатных оценок именно этого номера не найдено. Загрузка — не официальный лейбл, а агрегатор, звук с износом.",
+      "sources": [
+        "planning/youtube/albums.md, карточка «Hans Hotter — In Memoriam Hans Hotter (1942–1945)»",
+        "planning/youtube/data/d741-sei-mir-gegrusst.mb.json (MusicBrainz: Hans Hotter, Michael Raucheisen, 283 с)",
+        "авто-креды YouTube/Believe SAS: «Singer Portrait – Hans Hotter», ℗ The Art Of Singing"
+      ],
+      "youtube": [
+        {"videoId": "ka0D-1U-24I", "channel": "Hans Hotter - Topic", "official": false, "oembed_ok": true}
+      ],
+      "note": "Кандидат второго ряда: год не установлен, канал — Topic серого агрегатора. При включении year пришлось бы ставить «1942–45?» по правилу о неустановленной дате."
+    },
+    {
+      "singer": "Ernst Haefliger",
+      "pianist": "Hertha Klust",
+      "rec_year": 1956,
+      "year_source": "Michael Gray, classical-discography.org (id 4251): Schubert, «Lieder», DG LPEM19096, 1956 November 10 + 12, Berlin, Studio Lankwitz, Haefliger/Klust. Авто-креды UMG дают ℗ 1957 DG — год издания LP (совпадает с карточкой реестра в albums.md, где дата сессии стояла со знаком вопроса; теперь закрыта).",
+      "album": "Ernst Haefliger singt Lieder von Schubert und Brahms (DG LPEM 19 096); на YouTube — «The Ernst Haefliger Edition» / «Ernst Haefliger: Essentials»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "37 лет. Пик по дайджесту — 1950-е–1960-е; голос ещё не сух (сухость отмечается у его циклов 1980-х, записанных в 61–66 лет). Продюсер Wolfgang Lohse, инженер Werner Wolf.",
+      "reputation": "Хефлигер — теноровый эталон точности и слова своего поколения; печатных оценок именно D 741 не найдено. Ценность кандидата: редкий теноровый голос старой школы в песне, где преобладают баритоны.",
+      "sources": [
+        "https://classical-discography.org (Michael Gray, id 4251: DG LPEM19096, 1956 November 10 + 12, Studio Lankwitz)",
+        "planning/youtube/albums.md, карточка Haefliger (DG LPEM 19 096, Hertha Klust)",
+        "авто-креды YouTube/UMG (℗ 1957 DG; продюсер Wolfgang Lohse)"
+      ],
+      "youtube": [
+        {"videoId": "KQDxEjTiQT0", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "HVqRKXHyiwY", "channel": "Ernst Haefliger - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Оба ролика — одна запись (230/228 с), разные релизные обёртки UMG."
+    },
+    {
+      "singer": "Julia Hamari",
+      "pianist": "Erik Werba",
+      "rec_year": null,
+      "year_source": "Год сессии НЕ установлен. Discogs 3100430: DG 642 105 «Lieder von Schumann, Mozart, Haydn, Beethoven, Schubert, Wolf», Hamari/Werba, год издания 1969; сторона B5 — «Sei Mir Gegrüsst, D 741 (Op. 20 Nr. 1)». Авто-креды UMG: ℗ 1969 Deutsche Grammophon (продюсер Karl Faust, инженер Günter Hermanns). В дискографии Грея записей Хамари не найдено (запрос artists=Hamari% дал 0). Рабочее значение — 1969 (год издания/℗).",
+      "album": "Lieder von Schumann, Mozart, Haydn, Beethoven, Schubert, Wolf (DG 642 105)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Около 26–27 лет (Хамари р. 1942 — год рождения по общему знанию, дискографическим источником в этой сессии не подтверждён): ранний, свежий меццовый голос; Верба — один из ведущих аккомпаниаторов венской школы.",
+      "reputation": "Ранний DG-рецитал Хамари; критических отзывов именно на этот трек не найдено. В дайджесте певцов проекта Хамари отсутствует — фигура за пределами исследованного фонда, кандидат требует осторожности.",
+      "sources": [
+        "https://api.discogs.com/releases/3100430 (DG 642 105, 1969, B5 Sei mir gegrüsst D 741)",
+        "авто-креды YouTube/UMG (℗ 1969 Deutsche Grammophon)",
+        "classical-discography.org (отрицательный результат: записей Hamari по Шуберту в базе Грея нет)"
+      ],
+      "youtube": [
+        {"videoId": "zjiyXxYBhaE", "channel": "Julia Hamari - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Женский голос старой школы в песне; единственная альтернатива Аменлинг/Финк/Лотт среди «до-1990»."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": null,
+      "year_source": "Год сессии НЕ установлен; документировано только ℗ 1983. Discogs 8005277: Philips 410 037-2 «An die Musik (Schubert Songs)», Ameling/Baldwin, «Digital recording», (P) 1983; трек 3 — «Sei Mir Gegrüßt» D.741 (3:20). То же в реестре альбомов (albums.md: «цифровая запись, ℗ 1983»). База Грея систематически покрывает сессии до ~1980, эта запись вне охвата.",
+      "album": "An die Musik — Schubert Lieder (Philips 410 037-2 / 6514 298)",
+      "label": "Philips (Universal)",
+      "age_voice": "Около 50 лет (Аменлинг р. 08.02.1933). Пик по дайджесту ~1965–1985 — поздняя часть пика: техника безупречна, тембр уже без юношеской свежести ранних Philips-сессий 1972–76.",
+      "reputation": "Аменлинг — самая записываемая шубертианка своего поколения (дайджест); «An die Musik» — один из её визитных дисков. Отдельных рецензий на D 741 не найдено. Самая короткая версия в пуле (3:20) — заметно более подвижный темп.",
+      "sources": [
+        "https://api.discogs.com/releases/8005277 (Philips 410 037-2, digital recording, ℗1983, трек 3)",
+        "planning/youtube/albums.md, карточка Ameling «An die Musik»",
+        "авто-креды YouTube/UMG (℗ 1983 Universal International Music B.V.)"
+      ],
+      "youtube": [
+        {"videoId": "SUE7bw6iIb8", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Есть и фан-загрузка ljh9IxXpGmU (та же запись, 40 тыс. просмотров) — Topic предпочтительнее."
+    },
+    {
+      "singer": "Maarten Koningsberger",
+      "pianist": "Graham Johnson",
+      "rec_year": 1996,
+      "year_source": "Страница издания Hyperion (hyperion-records.co.uk, CDJ33028): запись — март 1996, St Paul's Church, New Southgate, Лондон; издание — июнь 1997. Авто-креды UMG подтверждают альбом «Schubert: Hyperion Song Edition 28 – An 1822 Schubertiad», ℗ 1997 Hyperion Records Ltd, и что D 741 поёт именно Кёнингсбергер. То же в реестре: albums/complete-editions.md, т. 28 (зап. III.1996).",
+      "album": "The Hyperion Schubert Edition, Vol. 28 «An 1822 Schubertiad» (CDJ33028)",
+      "label": "Hyperion (с 2023 — Universal)",
+      "age_voice": "Год рождения певца документально не установлен в рамках этого исследования — оценка возраста не даётся. Голландский баритон камерного профиля, известен почти исключительно по этому изданию.",
+      "reputation": "Научный эталон издания: комментарии Грэма Джонсона, песня помещена в реконструированную «шубертиаду 1822 года» — года сочинения D 741. Пресса о томе: «There are unknown treasures here» (Classic CD), «Irresistible listening» (Financial Times) — оценки тома, не отдельного номера. Вокально — не первый ряд; ценность прежде всего контекстно-научная.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33028 (запись март 1996, St Paul's New Southgate; издание VI.1997; цитаты прессы)",
+        "planning/youtube/albums/complete-editions.md, т. 28 «An 1822 Schubertiad» (CDJ33028, зап. III.1996)",
+        "авто-креды YouTube/UMG (Hyperion Song Edition 28, ℗ 1997)"
+      ],
+      "youtube": [
+        {"videoId": "FYQnPt92BgA", "channel": "Release - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Канал «Release - Topic» — автогенерируемый Topic для сборного релиза (не персональный канал певца), но это официальный UMG/Hyperion-аудиотрек."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": 2000,
+      "year_source": "Буклет EMI по Discogs 11474396 («Schubert Lieder: Volume II», 7243 5 57141 2 1): «Recorded XI.2000 at St George's, Brandon Hill, Bristol», монтаж Abbey Road, ℗ 2001 EMI Records Ltd; трек 19 — «Sei Mir Gegrüßt, D.741» (4:24). Авто-креды Warner: ℗ 2001 Parlophone, продюсер John Fraser, инженер Jonathan Allen.",
+      "album": "Schubert: Lieder, Volume II (EMI 7243 5 57141 2 1)",
+      "label": "EMI → Warner Classics",
+      "age_voice": "35 лет (Бостридж р. 25.12.1964). Пик по дайджесту ~1995–2010: голос ещё гибкий, до поздней манерности/сухости, отмечаемой у него после ~2010.",
+      "reputation": "Сильнейший период Бостриджа-шубертианца (дебютный рецитал 1996 и его продолжение 2001). Проверить прессу по этому диску не удалось: gramophone.co.uk отдаёт 403 на запросы из контейнера. По правилу проекта о скепсисе к пиару современных исполнителей — оценка не завышается без источника.",
+      "sources": [
+        "https://api.discogs.com/releases/11474396 (буклет EMI: Recorded XI.2000, St George's Brandon Hill, Bristol; трек 19, 4:24)",
+        "planning/youtube/albums/modern-series.md, карточка Bostridge «Schubert Lieder, Vol. II (EMI, изд. 09.07.2001)»",
+        "авто-креды YouTube/Warner Classics (℗ 2001 Parlophone)"
+      ],
+      "youtube": [
+        {"videoId": "Qt8nzJhcESI", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Единственный сильный кандидат в интервале «не ранее 1990» с документированным годом сессии."
+    },
+    {
+      "singer": "Ian Bostridge",
+      "pianist": "Julius Drake",
+      "rec_year": null,
+      "year_source": "Дата концерта НЕ установлена. Авто-креды The Orchard: альбом «Schubert 2 – Wigmore Hall Live», ℗ 2015 The Wigmore Hall Trust, релиз 01.06.2015. Реестр (albums.md) фиксирует серию WHLive0067 (℗2014) и WHLive0091 (℗2018) с прямой оговоркой «даты концертов не установлены»; в albums/modern-series.md значится и WHLive0077 (2015).",
+      "album": "Songs by Schubert 2 — Wigmore Hall Live (WHLive0077)",
+      "label": "Wigmore Hall Live",
+      "age_voice": "Около 50 лет, если концерт близок к дате издания (2014–2015). По дайджесту это уже после пика (~1995–2010): интерпретация интеллектуальнее, тон суше и манернее.",
+      "reputation": "Концертный документ известной серии; отдельных оценок не найдено. Уступает студийной версии 2000 года по правилу «при прочих равных — более ранняя» и по состоянию голоса.",
+      "sources": [
+        "авто-креды YouTube/The Orchard («Schubert 2 – Wigmore Hall Live», ℗ 2015 The Wigmore Hall Trust)",
+        "planning/youtube/albums.md и albums/modern-series.md, карточки серии Wigmore Hall Live"
+      ],
+      "youtube": [
+        {"videoId": "LVBbD1bFR6Q", "channel": "Ian Bostridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дубль по певцу со студийной версией; в пятёрку одновременно с ней не идёт."
+    },
+    {
+      "singer": "Bernarda Fink",
+      "pianist": "Gerold Huber",
+      "rec_year": 2007,
+      "year_source": "Год сессии — по дайджесту фонда (planning/research/singers-digest.md: «рецитал harmonia mundi (зап. 2007, Huber)»), издание — 02.09.2008 по авто-кредам harmonia mundi (альбом «Schubert: Lieder»). Прямого буклетного подтверждения даты сессии в этом исследовании получить не удалось (musicweb/presto недоступны).",
+      "album": "Schubert: Lieder — Fink/Huber (harmonia mundi)",
+      "label": "harmonia mundi",
+      "age_voice": "Около 52 лет (Финк р. 1955 по дайджесту). Пик ~1995–2015 — запись внутри пика; ровное, тёмное меццо, стилистически строгое.",
+      "reputation": "По дайджесту проекта Финк — со-победитель слепого теста 2020 по «Gretchen am Spinnrade» наряду со Шварцкопф и Эдвином Фишером; это оценка другой песни, но показатель уровня дуэта с Хубером. Оценок именно D 741 не найдено.",
+      "sources": [
+        "planning/research/singers-digest.md, карточка Fink (рецитал harmonia mundi, зап. 2007, Huber)",
+        "авто-креды YouTube/harmonia mundi (альбом «Schubert: Lieder», релиз 02.09.2008)",
+        "planning/youtube/data/d741-sei-mir-gegrusst.mb.json (MusicBrainz: Bernarda Fink, Gerold Huber, 235 с)"
+      ],
+      "youtube": [
+        {"videoId": "jMu7uRDbOyk", "channel": "Bernarda Fink - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Сильнейшая современная женская версия в пуле; год записи требует подтверждения буклетом при публикации."
+    },
+    {
+      "singer": "Felicity Lott",
+      "pianist": "Graham Johnson",
+      "rec_year": null,
+      "year_source": "Год НЕ установлен. Авто-креды Musical Concepts: альбом «Felicity Lott sings Schubert Favourites», ℗ 2010 Musical Concepts, релиз 15.06.2010 — это переиздание. Реестр (albums/female-recitalists.md) фиксирует первоисточник: IMP/Pickwick PCD 2016 «Schubert: Die Forelle, An Silvia, An die Musik…», пианист Graham Johnson, год записи «?» (предположительно конец 1980-х), бокс IMP 30367 02699. В базе Грея записей Lott/Johnson нет (запрос дал 0 — записи позже охвата базы, что база и подтверждает по своему описанию).",
+      "album": "Schubert-рецитал IMP/Pickwick (PCD 2016); переизд. «Felicity Lott sings Schubert Favourites» (Musical Concepts, 2010)",
+      "label": "IMP/Pickwick → Musical Concepts",
+      "age_voice": "Возраст зависит от неустановленного года: если конец 1980-х, певице (р. 08.05.1947) около 40 лет — пик формы. Без даты оценка условна.",
+      "reputation": "Лотт — крупная английская шубертианка, дуэт с Грэмом Джонсоном авторитетен; печатных оценок этого номера не найдено. Переиздание на лейбле-агрегаторе (Musical Concepts).",
+      "sources": [
+        "planning/youtube/albums/female-recitalists.md, карточка Lott (IMP/Pickwick PCD 2016, Graham Johnson, год «?»)",
+        "авто-креды YouTube/Musical Concepts («Felicity Lott sings Schubert Favourites», ℗ 2010)",
+        "classical-discography.org (отрицательный результат по Lott/Johnson)"
+      ],
+      "youtube": [
+        {"videoId": "IzFiX-mViIk", "channel": "Felicity Lott - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "При включении потребуется year вида «1988?» либо целевое доисследование даты."
+    },
+    {
+      "singer": "Ian Partridge",
+      "pianist": "Ernest Lush",
+      "rec_year": null,
+      "year_source": "Год НЕ установлен. Авто-креды Naxos Digital/SOMM: альбом «85th Birthday Tribute – Stimme der Liebe», ℗ 2023 SOMM Recordings, релиз 16.06.2023 — архивный релиз к 85-летию певца (то есть Партридж р. 1938). Аккомпаниатор Ernest Lush — штатный пианист BBC, что указывает на архивную радиозапись 1960-х–1970-х; конкретной даты источник не даёт. В базе Грея пары Partridge/Lush по Шуберту нет.",
+      "album": "85th Birthday Tribute – Stimme der Liebe (SOMM Recordings, 2023)",
+      "label": "SOMM Recordings",
+      "age_voice": "Не определён из-за неустановленного года сессии. Партридж — теноровый стилист английской школы; при записи 1960-х–70-х это его пик.",
+      "reputation": "Архивный релиз уважаемого британского лейбла; печатных оценок трека не найдено. Партридж в дайджесте фонда отсутствует — фигура вне исследованного круга.",
+      "sources": [
+        "авто-креды YouTube/Naxos Digital Services (SOMM «85th Birthday Tribute – Stimme der Liebe», ℗ 2023)",
+        "classical-discography.org (отрицательный результат по Partridge/Lush)"
+      ],
+      "youtube": [
+        {"videoId": "c6PbrjgGZf4", "channel": "Ian Partridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Кандидат второго ряда: год не установлен, певец вне фонда проекта."
+    },
+    {
+      "singer": "Markus Schäfer",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": null,
+      "year_source": "Год сессии НЕ установлен; документировано ℗ 2007 Naxos (авто-креды NAXOS of America: «Schubert: Lied Edition 25 – Romantic Poets, Vol. 2», релиз 27.11.2007; инженер Norbert Vossen, продюсер Roland Kistner).",
+      "album": "Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2» (Naxos)",
+      "label": "Naxos",
+      "age_voice": "Не определён (год рождения певца в этом исследовании не подтверждён источником). Полное издание Naxos — немецкоязычные певцы второго эшелона, ровное, но не выдающееся исполнение как норма серии.",
+      "reputation": "Значение прежде всего справочное — полное издание всех песен Шуберта под редакцией Айзенлора. По корпусу проекта однофамилец: в name обязателен инициал («M. Schäfer»), чтобы отличать от Christine Schäfer.",
+      "sources": [
+        "авто-креды YouTube/NAXOS of America («Schubert: Lied Edition 25 – Romantic Poets, Vol. 2», ℗ 2007 Naxos)",
+        "planning/youtube/albums/complete-editions.md, раздел Naxos DSLE"
+      ],
+      "youtube": [
+        {"videoId": "qd7N4qXIWwQ", "channel": "Markus Schäfer - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Опорная точка полноты, не конкурент старым мастерам."
+    },
+    {
+      "singer": "Heinrich Schlusnus",
+      "pianist": "Michael Raucheisen",
+      "rec_year": 1924,
+      "year_source": "Michael Gray, classical-discography.org (id 209915): Polydor 66611, дата «1924 November», матрица as 2069, Schlusnus/Raucheisen. Атрибуция ролика: авто-креды Preiser Records — «Lebendige Vergangenheit – Heinrich Schlusnus», исполнители Raucheisen/Schlusnus.",
+      "album": "Polydor 66611 (78 об.); переизд. Preiser «Lebendige Vergangenheit – Heinrich Schlusnus»",
+      "label": "Polydor → Preiser",
+      "age_voice": "36 лет. Пик Шлуснуса — 1920-е–1930-е: ровное, «бельканто»-баритоновое звуковедение, легендарное legato.",
+      "reputation": "Шлуснус — эталон немецкого лирического баритона своего поколения (дайджест/реестр). Записывал песню многократно: Polydor 66611 (ноябрь 1924, Раухайзен), Polydor 66611 (7 июня 1927, Franz Rupp), Polydor 67181 (31 января 1938, Sebastian Peschko, дубль 1, Берлин, Raum VIII), Decca K2223 (июнь 1948, Peschko) — редкий случай четырёх версий одной песни у одного певца.",
+      "sources": [
+        "https://classical-discography.org (Michael Gray: id 209915 — 1924 November, Raucheisen; id 25840 — 1927 June 7, Rupp; id 26508 — Polydor 67181, Peschko, Berlin Raum VIII, дубль 1; id 67583 — Decca K2223, 1948 June, Peschko)",
+        "planning/youtube/albums/male-recitalists.md, карточка Schlusnus (Polydor 67181 «Ständchen / Sei mir gegrüsst», Peschko)",
+        "авто-креды YouTube/Preiser Records («Lebendige Vergangenheit – Heinrich Schlusnus»)"
+      ],
+      "youtube": [
+        {"videoId": "iOE0fscnZ_M", "channel": "Michael Raucheisen - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "BqeFjSPLzzQ", "channel": "NoeckesHarfenschall", "official": false, "oembed_ok": true}
+      ],
+      "note": "ВАЖНО по дате сессии с Пешко: в карточке Грея id 26508 отображается «1926 January 31», но служебное поле Date Initial того же документа даёт 1938-01-31, и реестр проекта датирует пластинку Polydor 67181 1938 годом. Пешко (р. 1909) в 1926 году не мог быть студийным аккомпаниатором Полидора — отображаемый «1926» следует считать опечаткой базы, верная дата 31 января 1938. Ролик BqeFjSPLzzQ (фан-канал) к конкретной сессии не привязан."
+    },
+    {
+      "singer": "Lotte Lehmann",
+      "pianist": "Manfred Gurlitt",
+      "rec_year": 1927,
+      "year_source": "Michael Gray, classical-discography.org (id 111191): Odéon O-8725, «1927 December 6», матрица xxB 7876, Lotte Lehmann, поле Conductor — «Gurlitt, Manfred». То же в реестре: albums/female-recitalists.md — «Lehmann — Odéon-стороны (зап. 06.12.1927…)», где Sei mir gegrüsst названа прямо. MusicBrainz также кредитует пару Lehmann/Gurlitt.",
+      "album": "Odéon O-8725 (78 об.); переиздания исторических серий",
+      "label": "Odéon",
+      "age_voice": "39 лет. Пик по дайджесту — середина 1910-х–конец 1930-х: голос в полной силе, знаменитая теплота и речевая свобода фразировки.",
+      "reputation": "Одна из самых известных исторических версий песни; Леманн — эталон выразительности межвоенного Lied. Официальной загрузки не найдено — только фан-переносы с 78-х.",
+      "sources": [
+        "https://classical-discography.org (Michael Gray, id 111191: Odéon O-8725, 1927 December 6, матрица xxB 7876)",
+        "planning/youtube/albums/female-recitalists.md, карточка Lehmann (Odéon-стороны 06.12.1927)",
+        "planning/youtube/data/d741-sei-mir-gegrusst.mb.json (MusicBrainz: Lotte Lehmann, Manfred Gurlitt)"
+      ],
+      "youtube": [
+        {"videoId": "f7IybXTvZFM", "channel": "Daniel Melvin", "official": false, "oembed_ok": true},
+        {"videoId": "osN1E4z0roo", "channel": "himmelrote", "official": false, "oembed_ok": false}
+      ],
+      "note": "Оба ролика — фан-каналы; официального Topic-релиза этой стороны не найдено. Заголовок f7IybXTvZFM («1927») с датой Грея совпадает, но сам заголовок источником не считается."
+    },
+    {
+      "singer": "Peter Schreier",
+      "pianist": "не установлен",
+      "rec_year": null,
+      "year_source": "Ни год, ни издание не установлены: единственная находка — фан-загрузка EiNZvqexSew (канал «himmelrote», 246 с) без кредов. Официального Topic-трека Шрайера с D 741 поиском не найдено; в реестре его шубертовские альбомы (Eterna 1970/1972 с Ольбертцем, циклы с Шиффом) с этой песней не связаны.",
+      "album": "не установлен",
+      "label": "не установлен",
+      "age_voice": "не определено",
+      "reputation": "Кандидат непроверяем без установленного издания — в пятёрку не годится по правилу о происхождении записи.",
+      "sources": [
+        "yt-dlp ytsearch (EiNZvqexSew, канал himmelrote)",
+        "planning/youtube/albums.md, карточки Schreier (Eterna Goethe-Lieder 1970 и 1972 — D 741 не значится)"
+      ],
+      "youtube": [
+        {"videoId": "EiNZvqexSew", "channel": "himmelrote", "official": false, "oembed_ok": true}
+      ],
+      "note": "Отбрасывается как неатрибутированный."
+    },
+    {
+      "singer": "Nina Dorliak",
+      "pianist": "Sviatoslav Richter",
+      "rec_year": 1953,
+      "year_source": "Michael Gray, classical-discography.org: id 16544 — Melodiya M 46751 001, «1953 November 19», Москва, Dorliak/Richter, CD-переизд. Cascavelle VEL3041; id 16519 — Melodiya D 26457/8, «1956 March 29», Москва, та же пара, тот же CD. MusicBrainz помечает запись «Sung in Russian».",
+      "album": "Мелодия (М 46751 001 / Д 26457-8); переизд. Cascavelle VEL3041",
+      "label": "Мелодия / Cascavelle",
+      "age_voice": "Не оценивается: голос Дорлиак — не главный интерес записи, ценность в участии Рихтера за роялем.",
+      "reputation": "Исторически значимый документ (Рихтер-аккомпаниатор), но песня поётся по-русски — для проекта с пословным немецким подстрочником непригодно.",
+      "sources": [
+        "https://classical-discography.org (Michael Gray, id 16544 и id 16519)",
+        "planning/youtube/data/d741-sei-mir-gegrusst.mb.json (MusicBrainz: «Sung in Russian»)"
+      ],
+      "youtube": [],
+      "note": "ИСКЛЮЧИТЬ из отбора: исполнение на русском языке."
+    },
+    {
+      "singer": "исторические 78-е (пул фиксируется, к отбору не предлагается)",
+      "pianist": "разные",
+      "rec_year": null,
+      "year_source": "Michael Gray, classical-discography.org, все — из выдачи по work='Sei mir gegr%': Franz Naval (тенор) / Friedrich Kark — Odéon, 1908 июнь–июль, матрица xB 3771 (id 45580); Karl Erb (тенор) — Odéon O-6446, 1914, матрица xxB 6079 (id 48196); Friedrich Brodersen / Felix Günther — Parlophon P1290, 12 декабря 1921, матрица 5631 (id 234754); Fritz Steiner (бас) / Michael Raucheisen — Parlophone P9220, 19 декабря 1927, матрица 20521 (id 49986); Heinrich Rehkemper / Manfred Gurlitt — Polydor 95103, 1928, матрица bm 1014 (id 64203); Povla Frijsh / Celius Dougherty — Victor, 8 декабря 1939, Нью-Йорк, Victor Studio No. 2, матрица CS 43986 (id 78382); Marko Rothmüller / Suzanne Gyr — HMV DB10084, март 1945, матрица 0ZA 1271 (id 236130); Wilhelm Kertész / Max Saal — Anker-Record E9907, дата не указана (id 234565); Hans Braun (бас-баритон) — HMV, 12 декабря 1949, матрица 2VH 7175, ОСТАЛОСЬ НЕИЗДАННЫМ (id 54562); Rudolf Schock / Iván Eröd — Ariola-Eurodisc 74735, 3–8 июня 1966, Берлин, Meistersaal (id 175064).",
+      "album": "разные 78-е и LP",
+      "label": "Odéon / Parlophon / Polydor / Victor / HMV / Ariola-Eurodisc",
+      "age_voice": "не оценивается по каждому",
+      "reputation": "Показывают, что песня была шлягером граммофонной эпохи (не менее 14 коммерческих версий до 1950). Ни один из этих исполнителей не входит в приоритетный список правил; официальных загрузок на YouTube для большинства не найдено.",
+      "sources": [
+        "https://classical-discography.org (POST search2.php: composer=Schubert, work='Sei mir gegr%' — 17 позиций; id 45580, 48196, 234754, 49986, 64203, 78382, 236130, 234565, 54562, 175064)"
+      ],
+      "youtube": [],
+      "note": "Собирательная запись пула; в топ-5 не претендуют, но подтверждают ярус famous."
+    }
+  ],
+  "priority_singers_checked": {
+    "Quasthoff": "НЕТ. D 741 не найден ни в MusicBrainz (17 записей произведения — Квастхофа среди них нет: planning/youtube/data/d741-sei-mir-gegrusst.mb.json), ни в YouTube-поиске (yt-dlp ytsearch по «Quasthoff Sei mir gegrüsst Schubert» — ни одного попадания с его именем). По дайджесту фонда (planning/research/singers-digest.md) дискография Квастхофа закрыта в 2012 и состоит ровно из 6 шубертовских альбомов (Goethe-Lieder RCA 1993/95; Winterreise RCA 1998; Schwanengesang DG 2001; Lieder с оркестром DG 2003; Müllerin DG 2005; фильм-Winterreise DG 2005) — D 741 не входит ни в один. Отрицательный результат.",
+    "Fischer-Dieskau": "ДА, две студийные версии, обе с Джеральдом Муром. (1) Electrola/EMI, VII. Folge «Gedichte von Heine, Rückert und Schlegel» (E/STE 91 204) — сессия 7–8 мая 1962, Берлин-Целендорф (Michael Gray, id 59118; треклист Discogs 14368009, сторона B3). (2) Deutsche Grammophon, полное собрание — Ufa-Ton-Studio, февраль–март 1969, ℗1969 (буклет DG 437 225-2 по Discogs 17653033, трек 4-16; на LP — 2720 006, сторона K6).",
+    "Schwarzkopf": "НЕТ. Записи не найдено: в MusicBrainz по произведению её нет; в дискографии Грея по work='Sei mir gegr%' (17 позиций 1908–1966) её нет; целевой YouTube-поиск даёт только чужие ролики. Песня мужского («женихового») лирического склада, обычно не входила в её программы. Отрицательный результат (умеренная надёжность: свод её рециталов потрековно не сверялся).",
+    "Hotter": "ДА, две версии. (1) EMI/Columbia с Джеральдом Муром — сессия 3–4 октября 1957, Abbey Road, продюсер Walter Legge (буклет EMI References CDH 5 65196 2 / Warner 50999 9 93726 2 0, зафиксирован в planning/youtube/albums.md; ℗1959 на переиздании). Именно эта версия отобрана в редакционную антологию Diapason «Les Indispensables». (2) С Михаэлем Раухайзеном — берлинские радиозаписи корпуса 1942–1945 (MusicBrainz; карточка «In Memoriam Hans Hotter (1942–1945)» в реестре), точный год не установлен.",
+    "Anders": "НЕТ. В MusicBrainz по произведению отсутствует; в дискографии Грея по этой песне его нет; YouTube-поиск по «Peter Anders Sei mir gegrüsst» даёт только арию из «Фауста» и оперетту «Eine Nacht in Venedig» (одноимённая строка «Sei mir gegrüsst, du holdes Venezia» — источник ложных попаданий). Отрицательный результат.",
+    "E. Schumann": "НЕТ. В MusicBrainz по произведению отсутствует; в дискографии Грея по work='Sei mir gegr%' её нет (при том что база хорошо покрывает её HMV-сессии 1927–49); YouTube-поиск попаданий не дал. Отрицательный результат.",
+    "Ludwig": "НЕТ. В MusicBrainz по произведению отсутствует; в дискографии Грея по этой песне её нет; YouTube-поиск по «Christa Ludwig Sei mir gegrüsst» дал только чужие записи (ролик nTgAYab8Ro4 «Release - Topic» оказался версией Pablo Pollitzer / Walter Ujaldón, ℗ MW musica 2013). Отрицательный результат.",
+    "Popp": "НЕТ. В MusicBrainz по произведению отсутствует; YouTube-поиск даёт только оперетту Иоганна Штрауса с Гедда/Попп и другие песни на её Topic-канале (Die Rose D 745, An mein Herz D 860). Отрицательный результат."
+  },
+  "albums_facts": [
+    {
+      "album": "Dietrich Fischer-Dieskau singt Lieder von Franz Schubert, VII. Folge: Gedichte von Heine, Rückert und Schlegel (Electrola E/STE 91 204; переизд. «Schubert: 21 Lieder»)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1962,
+      "label": "Electrola / EMI → Warner Classics",
+      "facts": "Сессия 7–8 мая 1962, Берлин-Целендорф, Evangelisches Gemeindehaus (Michael Gray id 59118). Пианист Gerald Moore. Сторона A — блок из «Лебединой песни» (Heine), сторона B — Рюккерт и Шлегель: Lachen und Weinen op. 59/4, Daß sie hier gewesen op. 59/2, Sei mir gegrüßt op. 20/1, Du bist die Ruh op. 59/3, Waldesnacht. Продюсеры Christfried Bickenbach и Fritz Ganss. НОВАЯ карточка для реестра: покрывает сразу четыре рюккертовских песни корпуса (D 741, D 775, D 776, D 777).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder — Fischer-Dieskau/Moore, полное собрание (LP DG 2720 006 «Vol. 1» / CD DG 437 225-2 «Volume II»)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": 1969,
+      "label": "Deutsche Grammophon",
+      "facts": "Буклет CD-бокса: «Recordings: Berlin Ufa-Ton-Studio, February & March 1969», ℗1969. Содержит песни 1817–1828 годов. ВАЖНОЕ УТОЧНЕНИЕ ДЛЯ ВСЕГО КОРПУСА: тома 1 и 2 меняются местами между LP-изданием 1970 и CD-изданием 1985 (примечание Discogs на обоих боксах) — при датировке треков этого свода нельзя опираться на номер тома без проверки издания. Второй блок сессий свода — 2720 022 (CD «Volume I»): декабрь 1966, январь и июнь 1967, февраль 1968 (Gray id 8247 и буклет 437 215-2).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder — Hotter/Moore (Columbia 33CX1626; переизд. EMI References CDH 5 65196 2, «Icon: Hans Hotter», Diapason «Les Indispensables»)",
+      "singer": "Hans Hotter",
+      "year": 1957,
+      "label": "Columbia (UK) / EMI → Warner Classics",
+      "facts": "Уже в реестре проекта (albums.md). Уточнение по этой песне: буклет переиздания датирует Geheimes D 719, Sei mir gegrüßt D 741 и Im Abendrot D 799 сессиями 3–4 октября 1957; ℗ на Topic-релизе — 1959 (год LP), что и объясняет расхождение «1957 vs 1959» в метаданных. Продюсер Walter Legge. Трек попал в редакционную антологию Diapason (2023), релиз IDOL.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ernst Haefliger singt Lieder von Schubert und Brahms (DG LPEM 19 096)",
+      "singer": "Ernst Haefliger",
+      "year": 1956,
+      "label": "Deutsche Grammophon",
+      "facts": "ЗАКРЫТ ХВОСТ РЕЕСТРА: в albums.md дата сессии стояла со знаком вопроса (значился только год издания 1957). Грей (id 4251) даёт сессию 10 и 12 ноября 1956, Берлин, Studio Lankwitz; пианист Hertha Klust. Продюсер Wolfgang Lohse, инженер Werner Wolf (креды UMG). ℗1957 — год издания.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Julia Hamari / Erik Werba — Lieder von Schumann, Mozart, Haydn, Beethoven, Schubert, Wolf (DG 642 105)",
+      "singer": "Julia Hamari",
+      "year": 1969,
+      "label": "Deutsche Grammophon",
+      "facts": "НОВАЯ карточка для реестра. Discogs 3100430: год издания 1969, сторона B5 — Sei mir gegrüsst D 741. ℗1969 DG по кредам UMG; продюсер Karl Faust, инженер Günter Hermanns. Дата сессии не установлена (в базе Грея Хамари отсутствует). Смешанный по композиторам рецитал — для корпуса даёт немного песен.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Elly Ameling / Dalton Baldwin — An die Musik: Schubert Lieder (Philips 410 037-2 / 6514 298)",
+      "singer": "Elly Ameling",
+      "year": 1983,
+      "label": "Philips (Universal)",
+      "facts": "Уже в реестре (albums.md, по D 226). Подтверждение по этой песне: Discogs 8005277 — «Digital recording», (P) 1983, трек 3 «Sei Mir Gegrüßt» D.741 (3:20). Дата сессии по-прежнему не установлена (вне охвата базы Грея).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 28 «An 1822 Schubertiad» (CDJ33028)",
+      "singer": "Maarten Koningsberger / John Mark Ainsley",
+      "year": 1996,
+      "label": "Hyperion",
+      "facts": "Уже в реестре (albums/complete-editions.md). Подтверждение со страницы Hyperion: запись — март 1996, St Paul's Church, New Southgate, Лондон; издание июнь 1997; общее время 72'11. D 741 поёт Кёнингсбергер (креды UMG). Пресса о томе: «There are unknown treasures here» (Classic CD), «Irresistible listening» (Financial Times). Том целиком посвящён 1821–1822 годам — то есть году сочинения D 741; полезен всему этому участку корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ian Bostridge / Julius Drake — Schubert Lieder, Volume II (EMI 7243 5 57141 2 1)",
+      "singer": "Ian Bostridge",
+      "year": 2000,
+      "label": "EMI → Warner Classics",
+      "facts": "УТОЧНЕНИЕ РЕЕСТРА: в albums/modern-series.md по этому диску стоял только год издания 2001. Буклет (Discogs 11474396) даёт сессию: «Recorded XI.2000 at St George's, Brandon Hill, Bristol», монтаж — Abbey Road; ℗2001 EMI. Продюсер John Fraser, инженер Jonathan Allen. Трек 19 — D 741 (4:24).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Deutsche Schubert-Lied-Edition, т. 25 «Romantic Poets, Vol. 2» (Naxos)",
+      "singer": "Markus Schäfer",
+      "year": 2007,
+      "label": "Naxos",
+      "facts": "НОВАЯ карточка для реестра (в albums/complete-editions.md том 25 не значился). ℗2007 Naxos, релиз 27.11.2007; пианист Ulrich Eisenlohr, инженер Norbert Vossen, продюсер Roland Kistner. Том рюккертовско-романтических поэтов — покрывает соседние песни корпуса.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Felicity Lott sings Schubert Favourites (Musical Concepts, 2010) — переизд. IMP/Pickwick PCD 2016",
+      "singer": "Felicity Lott",
+      "year": null,
+      "label": "IMP/Pickwick → Musical Concepts",
+      "facts": "Дополнение к карточке реестра (albums/female-recitalists.md): установлено, что IMP-рецитал Лотт с Грэмом Джонсоном содержит D 741 и что он переиздан в 2010 на Musical Concepts под названием «Felicity Lott sings Schubert Favourites». Год записи оригинала так и не установлен — остаётся хвостом для целевого доисследования.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Ian Partridge — 85th Birthday Tribute: Stimme der Liebe (SOMM Recordings, 2023)",
+      "singer": "Ian Partridge",
+      "year": null,
+      "label": "SOMM Recordings",
+      "facts": "НОВАЯ карточка. Архивный релиз к 85-летию певца (⇒ р. 1938), ℗2023, выход 16.06.2023; аккомпаниатор Ernest Lush — штатный пианист BBC, что указывает на радиоархив 1960-х–70-х. Даты сессий издание в доступных метаданных не раскрывает.",
+      "covers_more_pilot_songs": true
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — индекс сравнительных страниц по Шуберту (https://www.klassik-prisma.de/Schubert.htm) проверен: отдельной сравнительной страницы по «Sei mir gegrüßt» D 741 НЕТ (есть по Auf dem Wasser zu singen D 774, Der Hirt auf dem Felsen D 965, Die junge Nonne D 828, Erlkönig D 328, Gretchen am Spinnrade D 118, Gruppe aus dem Tartarus D 583, Nacht und Träume D 827, Müllerin, Winterreise). Привычного пятибалльного ориентира по этой песне нет.",
+    "Hyperion Records, страница издания CDJ33028 «An 1822 Schubertiad» (https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33028) — комментарии Грэма Джонсона к контексту 1821–1822 годов; цитаты прессы: Classic CD «There are unknown treasures here», Financial Times «Irresistible listening».",
+    "Les Indispensables de Diapason — «Schubert: Lieder» (переиздание 2023, релиз IDOL): редакционный отбор Diapason включает версию Хоттера/Мура. Косвенный, но реальный маркер канона по этой песне (ср. карточку антологии Diapason «22 Lieder» в planning/youtube/albums.md).",
+    "НЕ УДАЛОСЬ ОТКРЫТЬ из контейнера: gramophone.co.uk (HTTP 403), prestomusic.com (HTTP 403), musicweb-international.com (целевая страница 404), hyperion-records.co.uk — поисковая форма и страница отдельной песни (404 на прямые URL). Бюджет WebSearch сессии исчерпан (200/200), поэтому расширенный поиск сравнительных обзоров и слепых тестов по этой песне не проводился."
+  ],
+  "negatives": [
+    "Квастхоф, Шварцкопф, Андерс, Э. Шуман, Криста Людвиг, Лючия Попп — записей D 741 не найдено (детали и источники в priority_singers_checked). Из восьми приоритетных певцов правил песню записали только Фишер-Дискау (дважды) и Хоттер (дважды).",
+    "Вундерлих, Прай, Зузе (Souzay), Гёрне, Прегардьен, Герхаэр, Шуэн, Хассельхорн, Гюра — целевые YouTube-поиски попаданий по D 741 не дали; в MusicBrainz по произведению их нет. Найденные под этим названием их ролики — оперетта Иоганна Штрауса «Eine Nacht in Venedig» («Sei mir gegrüsst, du holdes Venezia») либо ария Фроилы «Sei mir gegrüßt, o Sonne» из «Alfonso und Estrella» D 732 (Герхаэр) — это ДРУГИЕ сочинения, ложные попадания по строке заголовка.",
+    "Ролик Richard Tauber - Topic «Sei mir gegrüßt» (OtQa8UBOHqk) — НЕ Шуберт: по кредам Naxos композитор Franz Grothe, текст Karl Wilczynski, с оркестром Odeon (сборник Jube Classic). Ловушка при автоматическом отборе.",
+    "Ролик «Release - Topic» nTgAYab8Ro4 «Sei mir gegrüßt op. 20 N° 1 D 741» — это Pablo Pollitzer / Walter Ujaldón (℗ MW musica, 2013), не кто-либо из известных певцов; безымянный Topic-канал легко принять за приоритетного исполнителя.",
+    "Инструментальные версии (в отбор не идут, но занимают выдачу): Алина Ибрагимова / Седрик Тибергьен — транскрипция для скрипки и фортепиано (6bFb8VdQwQk, Topic; тема D 741 — основа вариаций Фантазии до мажор D 934); Киан Солтани — транскрипция для виолончели; Schubert/Liszt S. 558/1 — многочисленные фортепианные версии; аранжировка Ханса Зитта на канале «Franz Schubert - Topic».",
+    "Дорлиак/Рихтер (Мелодия, 19.11.1953 и 29.03.1956, Москва) — исполнение на русском языке, для проекта непригодно, хотя исторически весомо (Рихтер за роялем).",
+    "Ханс Браун (бас-баритон), HMV, 12 декабря 1949, матрица 2VH 7175 — запись осталась НЕИЗДАННОЙ (Michael Gray id 54562).",
+    "MusicBrainz недоступен из контейнера напрямую (TLS-обрыв на musicbrainz.org, WebFetch отдаёт страницу проверки браузера) — работали по готовому каркасу mb.json. Discogs API и classical-discography.org (Michael Gray) доступны; Discogs жёстко ограничивает частоту (HTTP 429) — массовое сканирование треклистов нецелесообразно.",
+    "Официальной загрузки версии Лотте Леманн (Odéon, 06.12.1927) не найдено — только фан-каналы; ролик osN1E4z0roo не прошёл oEmbed-проверку."
+  ]
+}

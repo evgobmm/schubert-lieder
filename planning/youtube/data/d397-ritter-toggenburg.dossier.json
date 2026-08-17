@@ -1,0 +1,66 @@
+{
+  "d": "397",
+  "title": "Ritter Toggenburg",
+  "candidates": [
+    {
+      "singer": "Regina Jakobi",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "2002",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos Vol. 8 «Schiller, Vol. 2», 8.554741, изд. 03/2002)",
+      "album": "Naxos German Lied Edition Vol. 8",
+      "label": "Naxos",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "не найдено отдельной прессы",
+      "videoId": "BRDLR7vPYPo",
+      "channel": "Regina Jakobi - Topic",
+      "official": true
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "не установлен для этой записи",
+      "rec_year": "не установлен (предположительно 1949 или 1957)",
+      "year_source": "НЕ подтверждено: реестр документирует у Хоттера сессии EMI/HMV 1.–2.10.1949 (Moore) и Columbia 3.–6.10.1957 (Moore) как «источник большинства поздних шубертовских треков Хоттера на Topic-каналах», но D 397 явно в трек-листе ни одной из карточек не назван — требует целевой проверки дискографии/буклета перед публикацией",
+      "album": "не установлен",
+      "label": "EMI/HMV или Columbia (UK)",
+      "voice_note": "приоритетный певец (список п. 4); большая нарративная баллада Шиллера хорошо подходит бас-баритону Хоттера",
+      "reputation": "не установлено для этого трека",
+      "videoId": "CiucDh0JOkI",
+      "channel": "Hans Hotter - Topic",
+      "official": true,
+      "note": "заголовок точно совпадает («Ritter Toggenburg, D. 397»), длительность 10:18 правдоподобна для этой большой баллады — сильный кандидат, но требует доисследования года/сессии"
+    },
+    {
+      "singer": "не идентифицирован (Hyperion Schubert Edition)",
+      "pianist": "Graham Johnson",
+      "rec_year": "1998",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (Vol. 32 «An 1816 Schubertiad», CDJ33032, зап. XII.1998, изд. III.1999; певец из сборного состава — Discogs 20161726 не даёт покомандных кредитов; конкретный исполнитель D 397 не идентифицирован из списка Schäfer/Dawson/Rozario/Murray/Wyn-Rogers/Prégardien/Langridge/Ainsley/Schade/Agnew/Spence/MacDougall/Norman/Maltman/Keenlyside/Koningsberger/Loges/Varcoe/George/Davies)",
+      "album": "Hyperion Schubert Edition Vol. 32 «An 1816 Schubertiad»",
+      "label": "Hyperion",
+      "voice_note": "не установлено (певец не идентифицирован)",
+      "reputation": "не установлено",
+      "videoId": "rsVSQQrdqEg",
+      "channel": "Graham Johnson - Topic",
+      "official": true,
+      "note": "длительность 8:16 близка к треку из Discogs-трек-листа (8:09)"
+    }
+  ],
+  "excluded_false_matches": [
+    "Fischer-Dieskau (5 роликов) — все при проверке заголовков оказались другими песнями (D 400, D 390, D 492, D 442, D 392); ФД НЕ поёт D 397 на Topic",
+    "Ian Bostridge (49PA8Y-RFJk) — заголовок «Ins stille Land, D. 403» — другая песня",
+    "Arnold Schoenberg Chor (2kQ0gbkIMqQ) — заголовок «Fischerlied D364» — другая песня",
+    "Kathleen Battle (WCq4GxX-EIc) — заголовок «Seligkeit, D. 433» — другая песня",
+    "David Lutz - Topic (gU3XdPvh4JU, 592 с) — заголовок совпадает, канал без registry_hits, происхождение не установлено — не исследован (маргинальный, бюджет)",
+    "нехудожественные декламации (Reclam Hörbücher, Jan Terstiege, Thomas Ruzgys, Enrico Ruppert, DG-театральные записи) — чтение стихотворения Шиллера без музыки Шуберта, не относятся к конвейеру"
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "Fischer-Dieskau": "НЕ поёт (см. false_matches)",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "вероятный кандидат, год не подтверждён — см. выше",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено",
+    "Popp": "не найдено"
+  },
+  "new_albums": []
+}

@@ -1,0 +1,52 @@
+{
+  "d": "376",
+  "title": "Lorma",
+  "candidates": [
+    {
+      "singer": "Lucia Popp",
+      "pianist": "Graham Johnson",
+      "rec_year": "1992",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (Vol. 17 «Schubert in 1816», CDJ33017, зап. IV.1992, изд. IV.1993) + верифицировано Discogs 12711683 трек 4 «Lorma D376», 2:47",
+      "album": "Hyperion Schubert Edition Vol. 17 «Schubert in 1816» (CDJ33017)",
+      "label": "Hyperion",
+      "voice_note": "поздний студийный рецитал Попп (ум. 1993), голос на закате карьеры, но контроль сохранён",
+      "reputation": "не найдено отдельной прессы на трек; часть эталонного научного свода Джонсона",
+      "videoId": "6mhk_tLGVtk",
+      "channel": "Graham Johnson - Topic (канал оформлен на пианиста, не на певицу)",
+      "official": true,
+      "priority_singer": "Popp — приоритетный список п. 4"
+    },
+    {
+      "singer": "Maya Boog",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "2003",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos Vol. 14 «European Poets, Vol. 2», 8.557026-27, изд. 08/2003)",
+      "album": "Naxos German Lied Edition Vol. 14",
+      "label": "Naxos",
+      "voice_note": "не исследовано отдельно",
+      "reputation": "не найдено",
+      "videoId": "tjSTJg8zx_E",
+      "channel": "Maya Boog - Topic",
+      "official": true,
+      "note": "заголовок «2nd setting, fragment» — вторая версия Lorma в рамках D 376"
+    }
+  ],
+  "excluded_false_matches": [
+    "Dietrich Fischer-Dieskau - Topic (6 роликов, reg_hits=4) — при проверке точных заголовков все 6 оказались ДРУГИМИ песнями (D 388, D 390, D 150, D 246, D 248, D 316); ФД не поёт D 376 — ложное срабатывание скрипта по каналу",
+    "Wolf Matthias Friedrich — I75_fc54p8U, 701 с — длительность (11:41) несовместима с песней (~2:47); вероятно другой трек с того же альбома, не идентифицирован — не включён без проверки",
+    "Marjana Lipovšek, Elisabeth Kulman, Pygmalion, Die Singphoniker, Simone Nold, Catherine Wyn-Rogers, Caroline Melzer, Chorus Viennensis, Release — без registry_hits и без проверки точного заголовка, не исследовались (бюджет rare-конвейера)"
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "Fischer-Dieskau": "НЕ поёт (см. false_matches)",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "не найдено",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено",
+    "Popp": "найдено — Hyperion Vol. 17, см. выше"
+  },
+  "new_albums": [
+    "Hyperion Schubert Edition Vol. 17 «Schubert in 1816» (CDJ33017, Lucia Popp / Graham Johnson, зап. IV.1992, изд. IV.1993) — полный трек-лист верифицирован по Discogs 12711683 (24 трека, все дуэт Попп/Джонсон); подтверждает и уточняет уже отмеченную в реестре карточку (complete-editions.md строка 27)."
+  ]
+}

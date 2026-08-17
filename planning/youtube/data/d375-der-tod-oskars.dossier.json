@@ -1,0 +1,51 @@
+{
+  "d": "375",
+  "title": "Der Tod Oskars",
+  "candidates": [
+    {
+      "singer": "Wolf Matthias Friedrich",
+      "pianist": "Ulrich Eisenlohr",
+      "rec_year": "2003",
+      "year_source": "реестр: planning/youtube/albums/complete-editions.md (Naxos Vol. 14 «European Poets, Vol. 2», 8.557026-27, изд. 08/2003)",
+      "album": "Naxos German Lied Edition Vol. 14",
+      "label": "Naxos",
+      "voice_note": "бас; эпическая оссиановская баллада (~14 мин) хорошо ложится на низкий голос",
+      "reputation": "не найдено отдельной прессы",
+      "videoId": "zrScy8N7Jc0",
+      "channel": "Wolf Matthias Friedrich - Topic",
+      "official": true
+    },
+    {
+      "singer": "не идентифицирован (Hyperion Schubert Edition)",
+      "pianist": "Graham Johnson",
+      "rec_year": "не установлен",
+      "year_source": "не найдено — D 375 отсутствует в проверенных трек-листах Vol. 16 (Thomas Allen) и Vol. 17 (Popp); том не идентифицирован в рамках бюджета rare-конвейера",
+      "album": "Hyperion Schubert Edition, том не установлен",
+      "label": "Hyperion",
+      "voice_note": "не установлено",
+      "reputation": "не установлено",
+      "videoId": "GcwKfR2guRI",
+      "channel": "Graham Johnson - Topic",
+      "official": true,
+      "note": "16:43 — самая длинная версия среди кандидатов; требует целевого доисследования тома, если войдёт в топ"
+    }
+  ],
+  "excluded_false_matches": [
+    "Fischer-Dieskau — все 3 кандидата (9PqFL2kDMr4, SsVfkcwZ9h8, 5h-rI9jXeUc) при проверке заголовков оказались другими песнями (D 309, D 671, D 322); ФД НЕ поёт D 375 на Topic",
+    "Christoph Prégardien (KhMw_hUBa8c), Sibylla Rubens (OWunNhN3k-0), Jan Kobow (ie1uQpjFAsk), Detlef Roth (bjZ9OVq_B6k), Benjamin Appl (aJC1KGS8QLE), Markus Schäfer (pXEt4R7a288), Die Singphoniker, Riko Fukuda — все заголовки при проверке оказались ДРУГИМИ произведениями (в основном «Der Tod und das Mädchen» D 531, D 359, D 363, D 364, D 302, D 761, D 377); ложные срабатывания скрипта",
+    "Lionel Rogg (WHauqlQrxiQ, 18:09) — заголовок совпадает («Der Tod Oskars»), но исполнитель не Topic-канал певца — не исследован (бюджет)",
+    "остальные (весь личный/фан-контент — HSN Philharmonic, countertenor-каверы, студенческие записи) — не значимые кандидаты"
+  ],
+  "priority_check": {
+    "Quasthoff": "не найдено",
+    "Fischer-Dieskau": "НЕ поёт (см. false_matches)",
+    "Schwarzkopf": "не найдено",
+    "Hotter": "не найдено",
+    "Anders": "не найдено",
+    "E. Schumann": "не найдено",
+    "Ludwig": "не найдено",
+    "Popp": "не найдено"
+  },
+  "new_albums": [],
+  "gap_note": "Самый тонкий фонд из восьми песен: после отсева ложных срабатываний скрипта остаётся всего 2 значимых кандидата (Friedrich/Naxos подтверждён; Hyperion-том Джонсона не идентифицирован). Возможно, топ будет меньше 5 по правилу «редких» песен."
+}

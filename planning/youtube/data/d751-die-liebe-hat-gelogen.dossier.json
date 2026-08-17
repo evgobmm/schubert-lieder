@@ -1,0 +1,576 @@
+{
+  "d": "751",
+  "title": "Die Liebe hat gelogen",
+  "tier": "famous (planning/youtube/triage.json)",
+  "research_note": "Сессия работала в условиях исчерпанного лимита WebSearch и полной недоступности поисковых прокси (bing/ddg отдавали пусто) и MusicBrainz API (TLS/400 из контейнера). Рабочие источники: дискография Майкла Грея (classical-discography.org — POST-поиск по work='Liebe hat gelogen' дал 10 задокументированных сессий), Discogs API (releases + database/search), WebFetch по прямым URL (Hyperion, Delphian), yt-dlp ytsearch, yt-check (oEmbed), реестр альбомов проекта (planning/youtube/albums.md, albums/*.md) и planning/research/singers-digest.md. Метаданные YouTube-загрузок (описания Topic, 'Provided to YouTube by') получить не удалось — YouTube отдавал google/sorry на скрейп и блокировал yt-dlp на одиночных видео; по правилам они всё равно не источник дат.",
+  "candidates": [
+    {
+      "singer": "Dietrich Fischer-Dieskau",
+      "pianist": "Gerald Moore",
+      "rec_year": "1966–72",
+      "year_source": "реестр проекта: planning/youtube/albums.md / albums/complete-editions.md — DG «Sämtliche Lieder» (21 CD), сессии 1966–1972; сквозная конвенция проекта для всех песен этого свода (см. десятки уже сданных досье). Отдельная сессионная дата именно D 751 в дискографии Грея отсутствует (поиск по work='Liebe hat gelogen' записи Фишера-Дискау не даёт — база Грея не покрывает этот свод DG).",
+      "album": "Schubert: Sämtliche Lieder (Lieder-Gesamtaufnahme), 21 CD",
+      "label": "Deutsche Grammophon",
+      "age_voice": "41–47 лет (р. 28.05.1925). Ровно внутри пикового периода ~1951–1972 (singers-digest.md); свод писался на исходе пика, голос ещё полностью управляем, сухость поздних 1970-х не наступила.",
+      "reputation": "Базовый свод мужских песен Шуберта, к которому проект относит запись по умолчанию; в дайджесте — «полный свод ~400+ мужских песен… лучший охват среди всех» (singers-digest.md). Конкретных рецензий именно на трек D 751 найти не удалось (сравнительный обзор klassik-prisma по этой песне не существует — см. surveys).",
+      "sources": [
+        "planning/youtube/albums.md (карточка DG «Sämtliche Lieder»)",
+        "planning/research/singers-digest.md",
+        "MusicBrainz work b5853a69-aac9-42d7-aa27-35918f54f977 (recording «Dietrich Fischer-Dieskau, Gerald Moore», 140 с) — planning/youtube/data/d751-die-liebe-hat-gelogen.mb.json"
+      ],
+      "youtube": [
+        {"videoId": "KCGkDRkVcCI", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "OwA4_vSX8lY", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Od9VqbPsGH4", "channel": "Dietrich Fischer-Dieskau - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Три Topic-загрузки одной и той же записи (все 140 с) — разные компиляции одного свода; для публикации брать самую просматриваемую KCGkDRkVcCI (8 399 просмотров). Приоритет №2 по правилам."
+    },
+    {
+      "singer": "Elisabeth Schwarzkopf",
+      "pianist": "Gerald Moore (по карточке реестра)",
+      "rec_year": "не установлен (концертная запись; издание Orfeo ℗ 2019)",
+      "year_source": "реестр проекта: planning/youtube/albums.md — «Elisabeth Schwarzkopf — Schubert & Wolf: Lieder (Live) (Orfeo, ℗ 2019 (год концерта не установлен))». Заголовок ролика на Topic-канале содержит помету «(Live)», что согласуется с этим релизом. Дискографического подтверждения года концерта в этой сессии получить не удалось (Discogs-поиск по «Schwarzkopf Schubert Wolf Lieder Orfeo» релевантных релизов не вернул).",
+      "album": "Schubert & Wolf: Lieder (Live)",
+      "label": "Orfeo",
+      "age_voice": "зависит от года концерта. Пик — 1948–1964; зальцбургские лайвы с Муром идут с 1957; поздние программы 1970–73 — голос легче и суше (singers-digest.md). Без установленного года состояние голоса определить нельзя — требуется целевое доисследование даты.",
+      "reputation": "Шварцкопф — топ-1 среди женщин по правилам проекта (docs/rules/youtube-performances.md, п. 3). Отдельных рецензий на этот трек не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Orfeo «Schubert & Wolf: Lieder (Live)»)",
+        "planning/research/singers-digest.md",
+        "yt-dlp ytsearch + yt-check: CGpOLNmOAQw, канал «ELISABETH SCHWARZKOPF - Topic», 181 с"
+      ],
+      "youtube": [
+        {"videoId": "CGpOLNmOAQw", "channel": "ELISABETH SCHWARZKOPF - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ВАЖНО: приоритет №3 по правилам; запись найдена, но год концерта не установлен. По п. «Хорошая запись приоритетного исполнителя не блокируется неустановленным годом» — сначала целевое доисследование даты; если не выйдет, year — строка-диапазон со знаком вопроса. Пианист (Мур) взят из карточки реестра, не из буклета — требует проверки."
+    },
+    {
+      "singer": "Hans Hotter",
+      "pianist": "Michael Raucheisen",
+      "rec_year": 1944,
+      "year_source": "Discogs release 27318492 — Grammofono 2000 AB 78690 «18 Lieder» (Hotter / Raucheisen / Schubert), примечание издания: «Recordings: 1944»; трек 13 — «Die Liebe Hat Gelogen D751», 2:52. Соответствует берлинским радиозаписям Raucheisen (Reichsrundfunk).",
+      "album": "18 Lieder (переиздание берлинских радиозаписей Раухайзена); та же запись циркулирует как «All-Schubert Lieder Recital» (I Grandi Interpreti IGI-386) и в мелодиевском издании М10 46677 (Discogs 24695477, 12535705)",
+      "label": "Grammofono 2000 / Fono Enterprise (переиздание 1997); оригинал — Reichsrundfunk Berlin",
+      "age_voice": "34–35 лет (р. 19.01.1909). Внутри пика ~1942–1955 (singers-digest.md): голос ещё гибкий, до отяжеления к 1961.",
+      "reputation": "Хоттер — приоритетный исполнитель по правилам (п. 4). В дайджесте его 1940-е названы пиком; радиозаписи с Раухайзеном — основной корпус его военного Шуберта. Отдельных рецензий на трек не найдено.",
+      "sources": [
+        "Discogs API release 27318492 (notes + tracklist + credits)",
+        "Discogs search: 24695477 (I Grandi Interpreti IGI-386), 12535705 / 23679716 (Мелодия М10 46677)",
+        "planning/research/singers-digest.md",
+        "yt-check: dEn43f1--XM (178 с), MYdDswSvxKY (178 с — тот же трек на канале пианиста)"
+      ],
+      "youtube": [
+        {"videoId": "dEn43f1--XM", "channel": "Hans Hotter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "MYdDswSvxKY", "channel": "Michael Raucheisen - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Заголовок Topic-загрузки («Schwanengesang D 957 Buch II: Die Liebe hat gelogen, D 751») — артефакт каталогизации агрегатора, не название цикла; сама песня к D 957 отношения не имеет. Длительность 178 с против 2:52 (172 с) в буклете — расхождение в пределах фейдов."
+    },
+    {
+      "singer": "Karl Erb",
+      "pianist": "Bruno Seidler-Winkler",
+      "rec_year": 1937,
+      "year_source": "дискография Майкла Грея (classical-discography.org, запись id 55546): «Die Liebe hat gelogen, D751 — 1937 January 25 — Berlin — Electrola — DA4424 — матрица 0RA 1763 — Karl Erb, tenor; Bruno Seidler-Winkler, piano».",
+      "album": "78-об. сторона Electrola DA 4424; переиздания — Preiser; на YouTube в компиляции «Vier Lieder, Op. 23»",
+      "label": "Electrola (HMV)",
+      "age_voice": "59–60 лет (р. 13.07.1877). Далеко за вокальным пиком (~1905–1930), но это признанный документ довоенного немецкого стиля пения — так его и оценивает дайджест («Schubert-записи сделаны в 58–74 года — не вокальный пик, документ довоенного стиля»).",
+      "reputation": "Эрб — эталонный стилист-декламатор старой школы; в реестре мужских рециталов его стороны HMV/Electrola с Зайдлером-Винклером отмечены как входящие в антологии EMI «Schubert Lieder on Record» (albums/male-recitalists.md).",
+      "sources": [
+        "classical-discography.org (Gray), record id 55546",
+        "planning/youtube/albums/male-recitalists.md (карточка Erb)",
+        "planning/research/singers-digest.md",
+        "MusicBrainz: recording «Karl Erb», 167 с (mb.json)"
+      ],
+      "youtube": [
+        {"videoId": "HIi_MTdoOVw", "channel": "Karl Erb - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "fCKBbsZt8Ns", "channel": "Release - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "fCKBbsZt8Ns — та же дорожка на агрегаторском канале «Release - Topic» (163 с), oEmbed не проверялся; для публикации предпочтителен именной канал HIi_MTdoOVw."
+    },
+    {
+      "singer": "John McCormack",
+      "pianist": "Edwin Schneider (по MusicBrainz)",
+      "rec_year": 1927,
+      "year_source": "дискография Грея (id 62825): «1927 September 2 — HMV — DA933 — матрица Bb 11343, take 2 — John McCormack, tenor». Пианист у Грея не указан; Edwin Schneider — по MusicBrainz (постоянный аккомпаниатор Маккормака этих лет).",
+      "album": "78-об. сторона HMV DA 933; на YouTube — Topic-переиздание и реставрация Уорда Марстона",
+      "label": "HMV (Victor в США)",
+      "age_voice": "43 года (р. 14.06.1884). Поздняя вершина: голос ещё ровный, знаменитое легато и дыхание сохранны, оперная карьера уже позади — концертно-песенный период.",
+      "reputation": "Маккормак в реестре проекта числится в «резерве» мужского фонда (singers-digest.md, раздел «Резерв»). Историческая ценность высокая, немецкий стиль — на любителя.",
+      "sources": [
+        "classical-discography.org (Gray), record id 62825",
+        "MusicBrainz (mb.json): «John McCormack, Edwin Schneider», 143 с",
+        "planning/research/singers-digest.md (резерв)"
+      ],
+      "youtube": [
+        {"videoId": "i59AJwlcrr4", "channel": "John McCormack - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Yx9JmtMdeLo", "channel": "Irish Mike (реставрация Ward Marston)", "official": false, "oembed_ok": null}
+      ],
+      "note": "ОСТОРОЖНО с датой: фан-загрузки на YouTube подписаны и «1923» (ExBeQPfBPuc), и «1927» (bifGIJkNPO0, I7gF_ZuNOP4, Yx9JmtMdeLo). Дискографически (Грей, матрица Bb 11343) документирована сессия 2 сентября 1927. Существование отдельной версии 1923 года по дискографии не подтверждается — метаданные загрузок не источник."
+    },
+    {
+      "singer": "Ria Ginster",
+      "pianist": "Gerald Moore",
+      "rec_year": 1935,
+      "year_source": "дискография Грея (id 66198): «1935 January 15 — London, EMI Studio No. 3, Abbey Road — HMV — DB2481 — матрица 2EA 1208 — Ria Ginster, soprano; Gerald Moore, piano».",
+      "album": "78-об. сторона HMV DB 2481",
+      "label": "HMV",
+      "age_voice": "36 лет (р. 1898). Ровно на пике (1930-е по дайджесту).",
+      "reputation": "Дайджест: «пик: 1930-е; стороны HMV с Moore 1933–35… YT: слабейший охват фонда, единичный фан». Ныне на YouTube есть Topic-загрузка — охват улучшился.",
+      "sources": [
+        "classical-discography.org (Gray), record id 66198",
+        "planning/research/singers-digest.md (карточка Ginster)"
+      ],
+      "youtube": [
+        {"videoId": "g0rO5nRHOQk", "channel": "Ria Ginster - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Редкая женская историческая версия с Муром за роялем; сильный кандидат в «старую» часть пятёрки, если качество переноса приемлемо."
+    },
+    {
+      "singer": "Franz Völker",
+      "pianist": "Gustav Grossmann",
+      "rec_year": 1941,
+      "year_source": "дискография Грея (id 27001): «1941 October 28 — Berlin, Raum IX (Alte Jacobstrasse 31/32) — Polydor — 62837 — префикс gd, матрица 9156 — Franz Völker, tenor; Gustav Grossmann, piano; продюсер Oskar Blaesche Sr.»",
+      "album": "78-об. сторона Polydor 62837",
+      "label": "Polydor (Deutsche Grammophon)",
+      "age_voice": "42 года (р. 31.03.1899). Зрелый вагнеровско-лирический тенор на исходе пика.",
+      "reputation": "В фонде проекта карточки нет (не входит в singers-digest.md); значимость — исторический документ берлинской школы 1941 года, документированный по матрицам.",
+      "sources": [
+        "classical-discography.org (Gray), record id 27001"
+      ],
+      "youtube": [
+        {"videoId": "cUMvK--6EWc", "channel": "Franz Völker - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность Topic-загрузки 141 с — согласуется с одной стороной 78 об."
+    },
+    {
+      "singer": "Gérard Souzay",
+      "pianist": "Dalton Baldwin",
+      "rec_year": 1961,
+      "year_source": "два независимых подтверждения: (1) дискография Грея — Souzay «Schubert Lieder» (Philips 835 097 AY / SABL 214), сессии 18–23.06.1961, Амстердам, Bachzaal (albums/complete-editions.md, карточка Souzay); (2) Discogs release 21699958 (Philips SABL 214, 1961) — трек B4 «Die Liebe Hat Gelogen, D.751»; Discogs release 12779819 (CD Philips 422 418-2, 1989), примечание: «Recorded: Amsterdam 6/1961; 7/1967», трек 7 — D 751, 3:23.",
+      "album": "Schubert Lieder (Philips SABL 214 / 835 097 AY); CD-переиздание Philips 422 418-2",
+      "label": "Philips (Universal)",
+      "age_voice": "42–43 года (р. 08.12.1918). Пик 1950-е — середина 1960-х; 1961 — самое сердце зрелой формы, до высыхания тона с ~1970 (singers-digest.md).",
+      "reputation": "Сузе — один из главных лирических баритонов-песенников поколения; дуэт с Болдуином — его канонический состав. Отдельных рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums/complete-editions.md (Souzay, по дискографии Грея)",
+        "Discogs API releases 21699958, 12779819, поиск 4439384/3946730 (SABL 214)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "UMCFFCFH92Y", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ur_w27w_ikY", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Jpiwso9urPg", "channel": "Gérard Souzay - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительности 205–208 с при 3:23 (203 с) в буклете CD — одна и та же запись в трёх компиляциях. Это самое медленное прочтение в пуле; трактовка спорная — надо слушать."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Dalton Baldwin",
+      "rec_year": 1973,
+      "year_source": "дискография Грея (id 179180): «Die Liebe hat gelogen, D751 — 1973 August 21 – 26 — Philips — 6500 704 — Elly Ameling, soprano; Dalton Baldwin, piano». Совпадает с карточкой реестра: albums/female-recitalists.md — «Ameling — Philips-серия с Dalton Baldwin: … «Schubert Lieder» 6500 704 (зап. 21–26.08.1973)».",
+      "album": "Schubert Lieder (Philips 6500 704); переиздания — «Songs for Gretchen, Ellen & Suleika», бокс «The Philips Recitals» (Eloquence 484 4125, 2023)",
+      "label": "Philips (Universal)",
+      "age_voice": "40 лет (р. 08.02.1933). Ровно на пике (~1965–1985); самая записываемая шубертианка поколения (singers-digest.md).",
+      "reputation": "Дайджест: «самая записываемая шубертианка поколения»; серия с Болдуином — её основной шубертовский корпус. Отдельных рецензий на трек не найдено.",
+      "sources": [
+        "classical-discography.org (Gray), record id 179180",
+        "planning/youtube/albums/female-recitalists.md; planning/youtube/albums.md",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "TSYxtJgwSLI", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "o7exHrxj47Q", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": null}
+      ],
+      "note": "Два Topic-дубля одной записи (157 с); для публикации — TSYxtJgwSLI (10 597 просмотров)."
+    },
+    {
+      "singer": "Jessye Norman",
+      "pianist": "Geoffrey Parsons",
+      "rec_year": 1987,
+      "year_source": "реестр проекта (planning/youtube/albums.md): «Jessye Norman — Händel · Schubert · Schumann — Recorded Live (Philips 422 048-1 / 422 048-2), 1987 (концерт, июнь), издание 1988 — пианист Geoffrey Parsons; живая запись Шубертиады, фестиваль Хоэнемс, Фельдкирх, Австрия, 6/1987 (примечания Discogs)». Состав (Норман + Парсонс) подтверждается MusicBrainz.",
+      "album": "Händel · Schubert · Schumann — Recorded Live (Philips 422 048)",
+      "label": "Philips (Universal)",
+      "age_voice": "42 года (р. 15.09.1945). Внутри пика ~1975–1995; голос в полной силе, манера монументальная.",
+      "reputation": "Дайджест отмечает её «монументальную Gretchen» и высокие оценки Philips-рецитала 1984. Живая Шубертиада 1987 — второй по значимости её шубертовский источник. Скепсис: монументальность Норман для интимной песни Платена может быть чрезмерна — решать прослушиванием.",
+      "sources": [
+        "planning/youtube/albums.md; planning/youtube/albums/female-recitalists.md (карточка Norman, Philips 32CD-3210 / 422 048)",
+        "MusicBrainz (mb.json): «Jessye Norman, Geoffrey Parsons», 180 с",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "X6ZaRo3TqkQ", "channel": "Jessye Norman - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность 180 с точно совпадает с MB — подтверждает идентификацию именно лайв-записи."
+    },
+    {
+      "singer": "Barbara Hendricks",
+      "pianist": "Radu Lupu",
+      "rec_year": 1993,
+      "year_source": "Discogs release 4488035 — EMI Classics «Schubert: Lieder, Vol. II» (0777 7 54239 2 1 / CDC 7 54239 2), ℗ и © 1993 EMI France; трек 11 — «Die Liebe Hat Gelogen, D.751», 2:13; credits: Piano — Radu Lupu. Проверено также, что D 751 НЕТ на Vol. I (Discogs 8185345, «Enregistré les 25, 28, 29 et 30 novembre 1985 à Paris, Salle Wagram»).",
+      "album": "Schubert: Lieder, Vol. II",
+      "label": "EMI Classics (ныне Warner)",
+      "age_voice": "44–45 лет (р. 20.11.1948). Внутри пика 1980-е–1990-е (singers-digest.md).",
+      "reputation": "Дайджест: «два тома EMI с Radu Lupu (1985, 1993) — редкий дуэт с великим солистом». Ценность прежде всего в пианисте.",
+      "sources": [
+        "Discogs API releases 4488035 и 8185345",
+        "planning/youtube/albums/female-recitalists.md (карточки Hendricks vol. 1 и vol. 2)",
+        "MusicBrainz (mb.json): «Barbara Hendricks, Radu Lupu», 134 с"
+      ],
+      "youtube": [
+        {"videoId": "fsFIcqYR7Is", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Год записи сессии Vol. II дискографически не установлен — в буклете только ℗ 1993; по правилу проекта берётся год издания (1993) до уточнения сессии."
+    },
+    {
+      "singer": "Matthias Goerne",
+      "pianist": "Eric Schneider",
+      "rec_year": "2011–2012",
+      "year_source": "Discogs release 20022025 — harmonia mundi HMC 902109-10 «Wanderers Nachtlied» (Matthias Goerne Schubert Edition), примечание издания: «Recorded II. & IV.2011 (cd1) & VI.2011 & II.2012 (cd2) at Teldex Studio, Berlin»; трек 2-17 — «Die Liebe Hat Gelogen D 751», 2:33 (то есть CD2 → сессии VI.2011 и II.2012). Пианисты диска — Helmut Deutsch и Eric Schneider; на D 751 по MusicBrainz — Eric Schneider.",
+      "album": "Wanderers Nachtlied — Matthias Goerne Schubert Edition (HMC 902109-10)",
+      "label": "harmonia mundi",
+      "age_voice": "44–45 лет (р. 31.03.1967). Внутри пика ~1997–2015 (singers-digest.md).",
+      "reputation": "Гёрне — «самый записываемый Schubert-баритон поколения», 12-томный свод HM 2008–14 (singers-digest.md). По правилу скепсиса к пиару современных: репутация свода высока, но прямого сопоставления с Фишером-Дискау в найденных источниках нет.",
+      "sources": [
+        "Discogs API release 20022025 (notes + tracklist + credits); проверено, что на «An mein Herz» (release 15096186) D 751 отсутствует",
+        "MusicBrainz (mb.json): «Matthias Goerne, Eric Schneider», 153 с",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "H38YQLE0-EU", "channel": "Matthias Goerne - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность 153 с против 2:33 (153 с) в буклете — точное совпадение, идентификация надёжна."
+    },
+    {
+      "singer": "Florian Boesch",
+      "pianist": "Malcolm Martineau",
+      "rec_year": 2016,
+      "year_source": "реестр проекта: planning/youtube/albums.md — «Florian Boesch — Schubert: Lieder Recital (ONYX 4149) (Onyx Classics, 2016)», 24 песни, пианист Malcolm Martineau; albums/modern-series.md — «изд. 20.05.2016 [MB]». Год сессии не установлен, берётся год издания.",
+      "album": "Schubert: Lieder Recital (ONYX 4149)",
+      "label": "Onyx Classics",
+      "age_voice": "45 лет (р. 1971). Внутри пика ~2010–наст.; «рассказчик венской школы» (singers-digest.md).",
+      "reputation": "Бёш ценится за декламационную повествовательность; критика его Hyperion-диска хвалила прежде всего аккомпаниатора (albums.md). Прямых рецензий на трек D 751 не найдено.",
+      "sources": [
+        "planning/youtube/albums.md; planning/youtube/albums/modern-series.md",
+        "MusicBrainz (mb.json): «Florian Boesch, Malcolm Martineau», 158 с",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "BG684pcnOO8", "channel": "Florian Boesch - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Один из двух реальных кандидатов на «слот не ранее 2015 года»."
+    },
+    {
+      "singer": "Harriet Burns",
+      "pianist": "Ian Tindale",
+      "rec_year": 2023,
+      "year_source": "официальная страница альбома Delphian Records «Schubert Lieder: Love's Lasting Power» (DCD34251): «Recording: 8–10 February 2023, St Mary's Haddington»; в треклисте присутствует «Die Liebe hat gelogen» D 751. Внимание: там же указана дата релиза «26 January 2023», что противоречит дате сессии — вероятна опечатка (релиз, скорее всего, 2024); в плеер ставить год сессии 2023.",
+      "album": "Schubert Lieder: Love's Lasting Power (DCD34251)",
+      "label": "Delphian Records",
+      "age_voice": "молодая певица (год рождения по источникам не установлен), голос в начальной зрелости; в фонде проекта карточки нет.",
+      "reputation": "Пресса (по цитатам на странице лейбла): Gramophone — 4 звезды, отдельно о ЭТОЙ песне: Бёрнс подаёт начало «Die Liebe hat gelogen» «like a Handelian queen», исполнение отмечено «dignity and grace»; MusicWeb International — «Both soprano and accompanist are clearly ones to watch»; Planet Hugill (Robert Hugill) — «a youthful flexibility, emotionalism and sense of urgency». По правилу скепсиса: цитаты собраны самим лейблом, вес умеренный; Gramophone-оценка 4 звезды — не высшая.",
+      "sources": [
+        "https://delphianrecords.com/products/schubert-lieder-love-s-lasting-power (страница альбома: состав, каталожный номер, даты и место записи, треклист, пресс-цитаты)",
+        "MusicBrainz (mb.json): «Harriet Burns, Ian Tindale», 155 с",
+        "yt-dlp: на канале Delphian Records выложены только другие треки альбома (Die Liebe D 210 — uawY91nf4yE; Seligkeit D 433 — UZkxwK8FwcI)"
+      ],
+      "youtube": [],
+      "note": "ОТРИЦАТЕЛЬНЫЙ РЕЗУЛЬТАТ ПО YOUTUBE: отдельной загрузки D 751 (ни Topic, ни на канале Delphian) найти не удалось — при трёх разных запросах yt-dlp. Без видео кандидат непубликуем, хотя формально это лучший претендент на слот «не ранее 2015» с прямой похвалой критики именно за эту песню."
+    },
+    {
+      "singer": "Mitsuko Shirai",
+      "pianist": "Hartmut Höll",
+      "rec_year": "1997 (℗)",
+      "year_source": "реестр проекта: planning/youtube/albums.md — «Mitsuko Shirai — Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio), ℗ 1997; пианист Хартмут Хёлль; издание по опусам». D 751 = op. 23 № 1 — прямо попадает в диапазон тома. Год сессии не установлен.",
+      "album": "Schubert: Lieder, Vol. 1 — Opp. 1–24",
+      "label": "Capriccio",
+      "age_voice": "ок. 50 лет (р. 1947). В фонде проекта отдельной карточки нет; голос камерный, слово — сильная сторона дуэта с Хёллем.",
+      "reputation": "Дуэт Ширай/Хёлль — уважаемая, но не первого ряда позиция в шубертовской дискографии; конкретных рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Capriccio)",
+        "MusicBrainz (mb.json): «Mitsuko Shirai, Hartmut Höll», 181 с"
+      ],
+      "youtube": [
+        {"videoId": "NGS6M08Q25Q", "channel": "Mitsuko Shirai - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самое медленное после Сузе прочтение (181 с)."
+    },
+    {
+      "singer": "Maarten Koningsberger",
+      "pianist": "Graham Johnson",
+      "rec_year": 1996,
+      "year_source": "Hyperion, The Hyperion Schubert Edition Vol. 28 «An 1822 Schubertiad» (CDJ33028): «Recording details: March 1996, St Paul's Church, New Southgate, London»; исполнители тома — Maarten Koningsberger и John Mark Ainsley с Graham Johnson (фортепиано). Присутствие D 751 на диске подтверждено эссе Джонсона на странице альбома («Of the songs on this disc, Sei mir gegrüsst, Die Liebe hat gelogen and Der Musensohn were published by this firm»); распределение по певцам — Кёнигсбергер по MusicBrainz. Реестр: albums/complete-editions.md — «Koningsberger / Ainsley — Vol. 28 «An 1822 Schubertiad» (CDJ33028, зап. III.1996, изд. VI.1997)».",
+      "album": "The Hyperion Schubert Edition, Vol. 28 «An 1822 Schubertiad» (CDJ33028)",
+      "label": "Hyperion",
+      "age_voice": "ок. 36 лет (р. 1960 [не подтверждено источником]); голландский баритон, песенный специалист, не звезда.",
+      "reputation": "Ценность — «научный эталон» издания Джонсона с его комментариями (singers-digest.md о серии Hyperion); отзывы на том: «There are unknown treasures here. Anyone who hasn't invested in this vast enterprise might well begin with this volume» (Classic CD), «Irresistible listening» (Financial Times) — цитаты со страницы Hyperion, то есть отобранные лейблом.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33028 (даты записи, состав, эссе Джонсона, пресс-цитаты)",
+        "planning/youtube/albums/complete-editions.md",
+        "MusicBrainz (mb.json): «Maarten Koningsberger, Graham Johnson», 158 с"
+      ],
+      "youtube": [
+        {"videoId": "esMI7RDu1CE", "channel": "Release - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность 158 с точно совпадает с MB. Канал «Release - Topic» — агрегаторский Topic-канал (Universal/Hyperion после 2023), именного канала певца нет; official audio, но название канала неинформативно."
+    },
+    {
+      "singer": "Ian Partridge",
+      "pianist": "Jennifer Partridge",
+      "rec_year": "1999 (издание)",
+      "year_source": "реестр проекта: planning/youtube/albums.md — «Ian Partridge — Spirit of Love — Favourite Songs by Schubert (Meridian CDE 84395), 1999 (издание); пианистка — Jennifer Partridge (сестра певца)». Год сессии не установлен.",
+      "album": "Spirit of Love — Favourite Songs by Schubert (Meridian CDE 84395)",
+      "label": "Meridian",
+      "age_voice": "ок. 61 года (р. 1938). Далеко за пиком; британский тенор тонкого стиля, ценимый за дикцию и линию.",
+      "reputation": "В фонде проекта карточки певца нет; альбом занесён в реестр по другой песне пилота (D 225). Рецензий на трек не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Meridian)",
+        "yt-check: 4m6XssDkmSA, 170 с"
+      ],
+      "youtube": [
+        {"videoId": "4m6XssDkmSA", "channel": "Ian Partridge - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "65 просмотров — маргинальная позиция; включён для полноты пула famous-яруса."
+    },
+    {
+      "singer": "Nicolai Gedda",
+      "pianist": "Erik Werba (студийная запись, по MusicBrainz); лайв 1961 — пианист не установлен",
+      "rec_year": "не установлен (студия); лайв — 1961 по заголовку загрузки (не дискографический источник)",
+      "year_source": "MusicBrainz (mb.json) даёт связку «Nicolai Gedda, Erik Werba», 182 с — вероятно рецитал Electrola/EMI 1960-х; дискографического подтверждения года в этой сессии получить не удалось (в базе Грея по work='Liebe hat gelogen' записи Гедды нет; Discogs целенаправленно не проверялся из-за жёсткого троттлинга). Год «1961» фигурирует только в заголовке фан-загрузки Ss1jITtOQgI — по правилам это НЕ источник.",
+      "album": "не установлен",
+      "label": "не установлен (вероятно Electrola/EMI)",
+      "age_voice": "если 1960-е — 35–45 лет, пик формы: знаменитая ровность регистров и владение немецким.",
+      "reputation": "Гедда в фонде проекта карточки не имеет; как песенный тенор ценится высоко, но специализированным шубертианцем не считается.",
+      "sources": [
+        "MusicBrainz (mb.json): «Nicolai Gedda, Erik Werba», 182 с",
+        "yt-check: CF5mxd3AFnM (Topic, 174 с), Ss1jITtOQgI (фан, 193 с)"
+      ],
+      "youtube": [
+        {"videoId": "CF5mxd3AFnM", "channel": "Nicolai Gedda - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "Ss1jITtOQgI", "channel": "maestrojimbo", "official": false, "oembed_ok": true}
+      ],
+      "note": "Два РАЗНЫХ исполнения (174 с студия vs 193 с лайв). Публиковать можно только Topic-версию; год для неё требует доисследования."
+    },
+    {
+      "singer": "Christian Elsner",
+      "pianist": "Ulrich Eisenlohr (по принадлежности к серии; на конкретном томе не проверен)",
+      "rec_year": "не установлен",
+      "year_source": "Загрузка на «Christian Elsner - Topic» (fBjwiKDp6yI, 164 с) указывает на Naxos Deutsche Schubert-Lied-Edition (Эльснер — певец этой серии, ему принадлежит в ней Die schöne Müllerin, 8.554664 — Discogs 29496958). Конкретный том с D 751 и его год установить не удалось: Discogs-поиск по серии возвращает только сводные боксы 8.503801/8.503802 (2011).",
+      "album": "Naxos Deutsche Schubert-Lied-Edition, том не установлен",
+      "label": "Naxos",
+      "age_voice": "не оценивалось (год тома неизвестен; р. 1965).",
+      "reputation": "Серия Naxos DSLE — полное издание с немецкоязычными певцами, полезное как справочник, а не как художественный эталон (singers-digest.md, раздел сквозных изданий).",
+      "sources": [
+        "yt-dlp / yt-check: fBjwiKDp6yI, «Christian Elsner - Topic», 164 с",
+        "Discogs search «Naxos Schubert Lied Edition Christian Elsner Eisenlohr» (10027567, 29098348, 29496958)",
+        "planning/research/singers-digest.md"
+      ],
+      "youtube": [
+        {"videoId": "fBjwiKDp6yI", "channel": "Christian Elsner - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "По правилу проекта для Naxos DSLE год в плеере — год издания тома; том пока не идентифицирован. Требуется доисследование, если кандидат попадёт в пятёрку (маловероятно)."
+    },
+    {
+      "singer": "Victoria de los Ángeles",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "Дискографического источника не найдено: в базе Грея по work='Liebe hat gelogen' её нет; в MusicBrainz по работе — тоже нет; Discogs-поиск по её шубертовским рециталам EMI релевантного релиза не дал. Есть только Topic-загрузка (5uMldZJr-bo, 173 с) и фан-загрузка (qIQaVIMZpcI, 170 с).",
+      "album": "не установлен (вероятно один из рециталов EMI с Джеральдом Муром, 1950-е–60-е)",
+      "label": "не установлен (вероятно EMI/Warner)",
+      "age_voice": "не оценивалось (год неизвестен); пик — 1950-е — начало 1960-х (singers-digest.md).",
+      "reputation": "Дайджест: «тёплый стилист, не специалист»; шубертовские группы внутри EMI-рециталов с Муром.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка de los Angeles)",
+        "yt-check: 5uMldZJr-bo"
+      ],
+      "youtube": [
+        {"videoId": "5uMldZJr-bo", "channel": "Victoria De Los Angeles - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Без года записи и без атрибуции альбома в пятёрку брать нельзя без доисследования."
+    },
+    {
+      "singer": "Kirsten Flagstad",
+      "pianist": "не установлен",
+      "rec_year": "не установлен",
+      "year_source": "Дискографического источника не найдено (в базе Грея по этой работе Флагстад отсутствует; в MB по работе тоже). Есть Topic-загрузка pFp8BNYrcmI (212 с).",
+      "album": "не установлен (кандидаты — RCA-рециталы 1950–52 с Edwin McArthur или Decca-рецитал Schubert/Schumann сер. 1950-х, singers-digest.md)",
+      "label": "не установлен",
+      "age_voice": "не оценивалось; в 1950-е — 55+, манера монументальная, «Шуберт вторичен» (singers-digest.md).",
+      "reputation": "Дайджест прямо предупреждает: «Шуберт вторичен, манера монументальная, не камерная».",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Flagstad)",
+        "yt-check: pFp8BNYrcmI"
+      ],
+      "youtube": [
+        {"videoId": "pFp8BNYrcmI", "channel": "Kirsten Flagstad - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "212 с — самое медленное прочтение в пуле. Слабый кандидат по стилю; включён для полноты."
+    },
+    {
+      "singer": "Rudolf Schock",
+      "pianist": "Ivan Eröd",
+      "rec_year": 1965,
+      "year_source": "дискография Грея (id 175018): «1965 March 30 – 31 & April 3 – 4 — Berlin, Meistersaal — Ariola-Eurodisc — 72438 — Rudolf Schock, tenor; Ivan Eröd, piano».",
+      "album": "рецитал Ariola-Eurodisc (номер 72438)",
+      "label": "Ariola-Eurodisc",
+      "age_voice": "50 лет (р. 04.09.1915). После оперного пика; голос популярного склада.",
+      "reputation": "В фонде проекта карточки нет; Шок — популярный тенор, у критики как шубертианец не котируется.",
+      "sources": ["classical-discography.org (Gray), record id 175018"],
+      "youtube": [],
+      "note": "Загрузки на YouTube не найдено (поиски yt-dlp по «Die Liebe hat gelogen» её не дают). Документирован как часть дискографического пула."
+    },
+    {
+      "singer": "Werner Krenn",
+      "pianist": "Erik Werba",
+      "rec_year": 1970,
+      "year_source": "дискография Грея (id 176678): «1970 October 26 – 29 — Wien, Sofiensaal — Decca — OS26216 — Werner Krenn, tenor; Erik Werba, piano».",
+      "album": "рецитал Decca (OS 26216)",
+      "label": "Decca",
+      "age_voice": "27 лет (р. 1943) — молодой лирический тенор в начале карьеры.",
+      "reputation": "В фонде проекта карточки нет. На YouTube есть полная фан-загрузка «Werner Krenn sings Schubert Lieder! (1970)» (RuOuDn4vq7E, 1496 с) — целый LP одним файлом.",
+      "sources": [
+        "classical-discography.org (Gray), record id 176678",
+        "yt-dlp: RuOuDn4vq7E (сборная фан-загрузка LP, заявленный год 1970 совпадает с Греем)"
+      ],
+      "youtube": [
+        {"videoId": "RuOuDn4vq7E", "channel": "kadoguy", "official": false, "oembed_ok": null}
+      ],
+      "note": "Отдельного трека D 751 нет — только LP целиком; для плеера непригодно."
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Не значится в MusicBrainz-каркасе работы (11 записей — Hendricks, Fischer-Dieskau, Boesch, Burns, Norman, McCormack, Erb, Koningsberger, Goerne, Shirai, Gedda); поиск yt-dlp «Quasthoff Die Liebe hat gelogen» даёт только чужие записи. Содержательно: его дискография Шуберта закрыта и состоит ровно из 6 альбомов (Goethe-Lieder RCA 1993/95, Winterreise 1998, Schwanengesang 2001, Lieder с оркестром 2003, Müllerin 2005, Winterreise-фильм 2005) — ни один не может содержать песню на стихи Платена (singers-digest.md).",
+    "Dietrich Fischer-Dieskau": "ДА. MusicBrainz: recording «Dietrich Fischer‐Dieskau, Gerald Moore», 140 с (mb.json); три Topic-загрузки. Источник записи — DG «Sämtliche Lieder», сессии 1966–72 (planning/youtube/albums.md).",
+    "Elisabeth Schwarzkopf": "ДА (концертная). Topic-канал «ELISABETH SCHWARZKOPF - Topic», ролик CGpOLNmOAQw «Die Liebe hat gelogen, Op. 23 No. 1, D. 751 (Live)», 181 с, oEmbed ok. Соотносится с карточкой реестра «Schubert & Wolf: Lieder (Live)» (Orfeo, ℗ 2019, с Джеральдом Муром; год концерта не установлен) — planning/youtube/albums.md. В MusicBrainz-каркасе работы отсутствует.",
+    "Hans Hotter": "ДА. Topic-загрузки dEn43f1--XM (канал Hotter) и MYdDswSvxKY (канал Raucheisen), 178 с. Источник — берлинские радиозаписи с Михаэлем Раухайзеном; год 1944 по примечанию издания Grammofono 2000 AB 78690 «18 Lieder» (Discogs release 27318492, трек 13, 2:52).",
+    "Peter Anders": "НЕТ. Поиск yt-dlp «Peter Anders Die Liebe hat gelogen» даёт только чужие записи (Fischer-Dieskau, Völker, Norman); в MusicBrainz-каркасе работы отсутствует; в дискографии Грея по этой работе его нет. Его шубертовский корпус — циклы с Раухайзеном и Вайссенборном (singers-digest.md).",
+    "Elisabeth Schumann": "НЕТ. Поиск yt-dlp «Elisabeth Schumann Die Liebe hat gelogen» результата не дал; в MusicBrainz-каркасе работы отсутствует; в дискографии Грея по этой работе её нет (её шубертовские стороны HMV 1927–49 — около 28 песен, D 751 среди них не документирована).",
+    "Christa Ludwig": "НЕТ. Поиск yt-dlp «Christa Ludwig Die Liebe hat gelogen» даёт только D 210 «Die Liebe (Klärchens Lied)» на её Topic-канале — другую песню; в MusicBrainz-каркасе работы и у Грея отсутствует.",
+    "Lucia Popp": "НЕТ. Поиск yt-dlp «Lucia Popp Die Liebe hat gelogen Schubert» даёт с её Topic-канала только D 745 «Die Rose» и D 633; в MusicBrainz-каркасе работы и у Грея отсутствует."
+  },
+  "albums_facts": [
+    {
+      "album": "Schubert: Sämtliche Lieder (21 CD)",
+      "singer": "Dietrich Fischer-Dieskau",
+      "year": "1966–72",
+      "label": "Deutsche Grammophon",
+      "facts": "Полный свод мужских песен Шуберта с Джеральдом Муром; женские песни сознательно исключены. Сквозная позиция реестра — год в плеере «1966–72» по конвенции проекта.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert & Wolf: Lieder (Live)",
+      "singer": "Elisabeth Schwarzkopf",
+      "year": "℗ 2019 (год концерта не установлен)",
+      "label": "Orfeo",
+      "facts": "Концертный релиз с Джеральдом Муром; программа Шуберта и Вольфа. Уже в реестре (albums.md). Год концерта — открытый хвост реестра, требует целевого доисследования.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "18 Lieder (берлинские радиозаписи с Михаэлем Раухайзеном)",
+      "singer": "Hans Hotter",
+      "year": 1944,
+      "label": "Grammofono 2000 / Fono Enterprise (переиздание ℗1997); оригинал Reichsrundfunk Berlin",
+      "facts": "Discogs release 27318492: «Recordings: 1944», TT 78'34, ремастеринг CEDAR (Alessandro Nava); трек 13 — Die Liebe hat gelogen D 751, 2:52; credits: Hans Hotter (баритон), Michael Raucheisen (ф-но). Тот же корпус издавался как «All-Schubert Lieder Recital» (I Grandi Interpreti IGI-386) и на «Мелодии» М10 46677. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (Philips SABL 214 / 835 097 AY; CD 422 418-2)",
+      "singer": "Gérard Souzay",
+      "year": 1961,
+      "label": "Philips",
+      "facts": "Сессии 18–23.06.1961, Амстердам, Bachzaal (дискография Грея, уже в albums/complete-editions.md); Discogs 21699958 — D 751 = трек B4; CD-переиздание 422 418-2 (Discogs 12779819) с примечанием «Recorded: Amsterdam 6/1961; 7/1967», D 751 = трек 7, 3:23. Уточнение к реестру: карточка albums.md «Souzay — Schubert: Lieder (Philips), ℗ 1967» относится к ДРУГОМУ альбому (Der Musensohn, сессии 1–7.07.1967); D 751 — на альбоме 1961 года.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder (Philips 6500 704)",
+      "singer": "Elly Ameling",
+      "year": 1973,
+      "label": "Philips",
+      "facts": "Сессии 21–26 августа 1973 (дискография Грея, id 179180), пианист Далтон Болдуин; входит в Philips-серию Амелинг/Болдуин. Уже в реестре (albums/female-recitalists.md).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder, Vol. II (EMI CDC 7 54239 2)",
+      "singer": "Barbara Hendricks",
+      "year": 1993,
+      "label": "EMI Classics",
+      "facts": "℗/© 1993 EMI France; пианист Раду Лупу; D 751 — трек 11, 2:13 (Discogs 4488035). ВАЖНО для реестра: D 751 именно на томе II, а НЕ на томе I (сессии 25, 28, 29, 30 ноября 1985, Salle Wagram — Discogs 8185345), который проект уже использует по другим песням.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Wanderers Nachtlied — Matthias Goerne Schubert Edition (HM HMC 902109-10)",
+      "singer": "Matthias Goerne",
+      "year": "2011–2012",
+      "label": "harmonia mundi",
+      "facts": "Discogs 20022025: «Recorded II. & IV.2011 (cd1) & VI.2011 & II.2012 (cd2) at Teldex Studio, Berlin»; продюсер Martin Sauer, монтаж/звук René Möller; пианисты Helmut Deutsch и Eric Schneider; D 751 — CD2, трек 17, 2:33 (по MB — с Эриком Шнайдером). НОВАЯ карточка для реестра. Проверено: на «An mein Herz» (HMC902004.05, окт. 2007 / янв. 2008) D 751 отсутствует.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 28 «An 1822 Schubertiad» (CDJ33028)",
+      "singer": "Maarten Koningsberger / John Mark Ainsley",
+      "year": 1996,
+      "label": "Hyperion",
+      "facts": "Запись — март 1996, St Paul's Church, New Southgate, Лондон; Graham Johnson (ф-но); издание VI.1997. Эссе Джонсона на диске прямо перечисляет D 751 среди песен, изданных Sauer & Leidesdorf. Пресса (со страницы Hyperion): «There are unknown treasures here…» (Classic CD), «Irresistible listening» (Financial Times). Уже в реестре (albums/complete-editions.md).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert Lieder: Love's Lasting Power (Delphian DCD34251)",
+      "singer": "Harriet Burns",
+      "year": 2023,
+      "label": "Delphian Records",
+      "facts": "Запись 8–10 февраля 2023, St Mary's Haddington; Ian Tindale (ф-но); TT 1:08:27. На странице лейбла указана также дата релиза 26.01.2023 — противоречит дате сессии (вероятно, релиз 2024). Пресса: Gramophone 4 звезды с отдельной похвалой начала «Die Liebe hat gelogen»; MusicWeb International; Planet Hugill. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder Recital (ONYX 4149)",
+      "singer": "Florian Boesch",
+      "year": 2016,
+      "label": "Onyx Classics",
+      "facts": "24 песни, Malcolm Martineau; издание 20.05.2016; год сессии не установлен. Уже в реестре (albums.md, albums/modern-series.md), используется по D 805, D 806, D 225, D 257.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Schubert: Lieder, Vol. 1 — Opp. 1–24 (Capriccio)",
+      "singer": "Mitsuko Shirai",
+      "year": "℗ 1997",
+      "label": "Capriccio",
+      "facts": "Издание по опусам, пианист Хартмут Хёлль; D 751 = op. 23 № 1 попадает в диапазон тома. Уже в реестре (albums.md, по D 226).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Spirit of Love — Favourite Songs by Schubert (Meridian CDE 84395)",
+      "singer": "Ian Partridge",
+      "year": "1999 (издание)",
+      "label": "Meridian",
+      "facts": "Пианистка Jennifer Partridge (сестра певца). Уже в реестре (albums.md, по D 225).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "78-об. стороны с документированными сессиями (Грей)",
+      "singer": "Erb / Ginster / Völker / McCormack",
+      "year": "1927–1941",
+      "label": "HMV / Electrola / Polydor",
+      "facts": "Erb — Electrola DA 4424, 25.01.1937, Берлин, матрица 0RA 1763, Seidler-Winkler. Ginster — HMV DB 2481, 15.01.1935, Abbey Road Studio 3, матрица 2EA 1208, Gerald Moore. Völker — Polydor 62837, 28.10.1941, Берлин, Raum IX, матрица gd 9156, Gustav Grossmann, продюсер Oskar Blaesche Sr. McCormack — HMV DA 933, 02.09.1927, матрица Bb 11343 take 2.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    "klassik-prisma.de — сравнительного обзора («Vergleich») по «Die Liebe hat gelogen» НЕТ: песня отсутствует в перечне произведений на http://www.klassik-prisma.de/Schubert.htm (проверено WebFetch); URL вида http://www.klassik-prisma.de/Vergleiche/Schubert/schubert.htm отдаёт 404.",
+    "Hyperion Records, The Hyperion Schubert Edition Vol. 28 «An 1822 Schubertiad» (CDJ33028) — эссе Грэма Джонсона о песнях 1821–1822 с прямым упоминанием D 751 (издана Sauer & Leidesdorf): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33028",
+    "Delphian Records, страница альбома «Schubert Lieder: Love's Lasting Power» (DCD34251) — сводка прессы (Gramophone 4*, MusicWeb International, Planet Hugill, Classical Music Daily) с оценкой именно исполнения D 751: https://delphianrecords.com/products/schubert-lieder-love-s-lasting-power",
+    "Дискография Майкла Грея (classical-discography.org), POST-поиск composer=schubert & work='Liebe hat gelogen' — 10 задокументированных сессий 1927–1973 (сводный дискографический «обзор» записей песни до ~1980)."
+  ],
+  "negatives": [
+    "Сравнительного обзора записей этой песни (klassik-prisma Vergleich, слепой тест) не существует — проверено по перечню Шуберта на klassik-prisma.de.",
+    "Quasthoff, Anders, E. Schumann, Ludwig, Popp записи D 751 не делали (см. priority_singers_checked).",
+    "Hasselhorn / Bushakevitz («Schubert 200», harmonia mundi) — D 751 быть не может: песня сочинена в 1822, а вышедшие тома проекта охватывают Müllerin (1823) и песни 1824–26; поиск yt-dlp подтверждает отсутствие.",
+    "Gerhaher, Prégardien, Schuen, Prey, Baker, Schlusnus, Hüsch, Terfel, Bostridge, Wunderlich — записей D 751 поиском yt-dlp не найдено; в MusicBrainz-каркасе работы их нет.",
+    "Roland Hayes (тенор) записывал песню для Columbia дважды — 30.10.1939 (матрица WXCO 26227) и 07.04.1942 (матрица XCO 32632, Columbia Studio B, Нью-Йорк), обе с Reginald Boardman; ОБЕ помечены у Грея как UNISSUED — на дисках не выходили, для отбора непригодны (classical-discography.org, id 31381, 31693).",
+    "Herta Glaz (меццо) / Leo Müller — MGM E3055, 1954 (Грей, id 218786); загрузок на YouTube не найдено.",
+    "Rudolf Schock (1965, Ariola-Eurodisc) — дискографически документирован, но отдельной загрузки на YouTube нет.",
+    "Werner Krenn (1970, Decca) — есть только фан-загрузка целого LP одним файлом (RuOuDn4vq7E), отдельного трека нет.",
+    "Harriet Burns / Ian Tindale (Delphian 2023) — лучший по критике современный кандидат, но отдельной загрузки D 751 на YouTube НЕТ (на канале Delphian выложены другие треки альбома). Без видео непубликуем.",
+    "Mimi Coertse (mBknri7iZc0, 149 с, Topic) и Ute Ziemer (ysXo-qj0XbQ, 150 с, Topic) — записи существуют и живы, но ни года, ни альбома дискографически установить не удалось; в фонде проекта певиц нет.",
+    "Метаданные YouTube («Provided to YouTube by», release_year) в этой сессии получить не удалось: скрейп watch-страницы отдавал google/sorry, одиночные вызовы yt-dlp блокировались ботовой проверкой. Все даты в досье взяты из дискографических источников, как того требуют правила.",
+    "MusicBrainz API из контейнера в этой сессии недоступен (TLS-обрыв через curl/node, затем HTTP 400) — использован только готовый каркас planning/youtube/data/d751-die-liebe-hat-gelogen.mb.json.",
+    "WebSearch исчерпан (200/200), прокси-поиск через bing.sh и ddg.sh в общем scratchpad перестал отдавать результаты — веб-исследование велось только точечными WebFetch по прямым URL."
+  ]
+}

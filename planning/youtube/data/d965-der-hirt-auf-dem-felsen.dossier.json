@@ -1,0 +1,561 @@
+{
+  "d": "965",
+  "title": "Der Hirt auf dem Felsen (голос, кларнет и фортепиано)",
+  "tier": "famous",
+  "method_note": "Опорный сравнительный обзор — klassik-prisma (Bernd Stremmel), страница именно по D 965: 30 записей с оценками по 5-балльной шкале. Даты сессий сверены по дискографии Майкла Грея (classical-discography.org, POST-поиск composer=Schubert, work=Hirt — 34 позиции по этому произведению) и Discogs API. Метаданные YouTube-загрузок (℗-годы, кредиты) использованы только как подтверждение состава исполнителей, не как источник дат.",
+  "candidates": [
+    {
+      "singer": "Maria Stader",
+      "pianist": "Karl Engel",
+      "clarinet": "Rudolf Gall",
+      "rec_year": 1957,
+      "year_source": "klassik-prisma (Vergleich D 965) даёт 1957; LP Deutsche Grammophon LPEM 19136 «Liederabend Maria Stader» выпущен в июле 1958 (Discogs release 10504998, released 1958-07). У Грея записи нет — сессия документально не подтверждена, год взят по обзору.",
+      "album": "Liederabend Maria Stader (DG LPEM 19136); переизд. Decca DL 9994 «A Maria Stader Recital»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Штадер (1911–1999) — 46 лет, вокальный пик швейцарско-венгерского сопрано (её моцартовские и баховские записи с Фричаем — конец 1950-х). В дайджесте певцов проекта карточки нет: Штадер приходит в фонд именно через эту песню.",
+      "reputation": "Высшая оценка klassik-prisma — 5 баллов: «souverän, französische Klarinette» (суверенно; французский тип кларнета). Одна из двух записей 5-балльной группы среди сопрано.",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "https://api.discogs.com/releases/10504998 (Rudolf Gall — Clarinet; Karl Engel — Piano; DG LPEM 19136, 1958-07)"
+      ],
+      "youtube": [
+        {"videoId": "zFPkA9KhV3Q", "channel": "Operaspia", "official": false, "oembed_ok": true},
+        {"videoId": "qmLf9mwrerE", "channel": "Operazaile operazaile", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной (Topic/лейбловой) загрузки не найдено: целевой поиск по yt-dlp дал только фан-переносы LP. Длительности 668–670 с при 10'58 у klassik-prisma — совпадение в пределах ремастеринга."
+    },
+    {
+      "singer": "Arleen Augér",
+      "pianist": "Graham Johnson",
+      "clarinet": "Thea King",
+      "rec_year": 1989,
+      "year_source": "Страница альбома Hyperion CDJ33009 (The Hyperion Schubert Edition, Vol. 9 — «Schubert & the Theatre»): запись — октябрь 1989, Rosslyn Hill Unitarian Chapel, Хэмпстед, Лондон. Совпадает с klassik-prisma (1989). ℗ 1990 в метаданных официальной загрузки UMG.",
+      "album": "The Hyperion Schubert Edition, Vol. 9 — Schubert & the Theatre (CDJ33009)",
+      "label": "Hyperion",
+      "age_voice": "Аугер (1939–1993) — 50 лет; по дайджесту её пик — 1980-е до 1991, ранняя смерть (1993) позднего спада не оставила. Дайджест прямо называет том 9 Hyperion (1989, Johnson) с Hirt auf dem Felsen её ключевой шубертовской позицией.",
+      "reputation": "klassik-prisma — 5 баллов, высшая оценка: «glockenheller Sopran, mit Maß vorgetragen; ruhiger, introvertierter Mittelteil» (колокольно-ясное сопрано, исполнено с мерой; спокойная, интровертная средняя часть). Издание Джонсона — «научный эталон» полного свода песен (реестр проекта).",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33009",
+        "planning/research/singers-digest.md (карточка Auger)"
+      ],
+      "youtube": [
+        {"videoId": "7N0Ta17S8_Y", "channel": "Arleen Augér - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "_R9PMSioGsQ", "channel": "Robert Schönherr", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальный трек UMG (Hyperion после покупки Universal в 2023): «Schubert: Hyperion Song Edition 9 – Schubert & the Theatre», 736 с — точно соответствует 12'11 у klassik-prisma."
+    },
+    {
+      "singer": "Erna Berger",
+      "pianist": "Michael Raucheisen",
+      "clarinet": "не установлен (у klassik-prisma значится «Richter»)",
+      "rec_year": "1943–44?",
+      "year_source": "klassik-prisma: «~ 1944», издание Pilz/Membran. У Грея этой записи НЕТ (поиск artists=Raucheisen по работе — 0 позиций). Фан-загрузка датирует «(1943*?)» — не источник. Год установить точно не удалось.",
+      "album": "переиздания Pilz / Membran (радиофонд Райхайзена, Берлин)",
+      "label": "Pilz / Membran (переиздание радиозаписи)",
+      "age_voice": "Бергер (1900–1990) — 43–44 года, зрелый пик её лёгкого лирико-колоратурного сопрано; Райхайзен — центральный аккомпаниатор берлинского радиоархива Lied 1933–45 (дайджест: он же у Андерса и Хоттера).",
+      "reputation": "klassik-prisma — 5 баллов: «Stimme im Vordergrund, aufmerksames Miteinander» (голос на первом плане, чуткое взаимодействие). Одна из трёх записей высшей группы.",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "MusicBrainz work be215d13-0799-3193-b7c2-b88588008c03: recording «Erna Berger, Michael Raucheisen», 658 c"
+      ],
+      "youtube": [
+        {"videoId": "h2wgafmpOZ0", "channel": "Operazaile operazaile", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной загрузки нет: оба Topic-трека Бергер (jdB5ZcWUUKI, rkhGaR6gnV8) — это её ДРУГАЯ запись, с Гойзером и Шерцером (см. следующего кандидата). Единственный доступный ролик радиоверсии — фан-канал."
+    },
+    {
+      "singer": "Erna Berger",
+      "pianist": "Ernst-Günther Scherzer",
+      "clarinet": "Heinrich Geuser",
+      "rec_year": 1954,
+      "year_source": "Дискография Майкла Грея (classical-discography.org, id 54523/54524): 1954 July 1, Electrola DB11569, матрицы 2RA 7293 / 7294. Совпадает с klassik-prisma (1954).",
+      "album": "Electrola DB11569 (78 об.); переизд. «Legenden des Gesanges, Vol. 3: Erna Berger» (Ars Produktion, ℗2008) и «Singers of the Century» (Jube, ℗2021)",
+      "label": "Electrola / EMI",
+      "age_voice": "Бергер — 53–54 года; голос всё ещё ровный и светлый, но klassik-prisma отмечает подчинённую роль фортепиано, а не вокальный износ.",
+      "reputation": "klassik-prisma — 4–5 баллов: «Klavier nur in Dienerfunktion, glockenheller Sopran» (фортепиано лишь в служебной функции, колокольно-ясное сопрано).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=54523",
+        "https://www.classical-discography.org/modalcontent.php?id=54524",
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm"
+      ],
+      "youtube": [
+        {"videoId": "rkhGaR6gnV8", "channel": "Erna Berger - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "jdB5ZcWUUKI", "channel": "Erna Berger - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Обе Topic-загрузки — «серые» лейблы-агрегаторы (Ars Produktion, Jube Classic), кредиты в них совпадают с Греем. Внимание: Грей фиксирует ЕЩЁ ДВЕ записи Бергер — RCA Victor, Нью-Йорк, 21+25 марта 1950 (Oppenheim/Schick, id 74459) и Columbia 7RW522, 1 июля 1957 с Гойзером (id 58959)."
+    },
+    {
+      "singer": "Christa Ludwig",
+      "pianist": "Geoffrey Parsons",
+      "clarinet": "Gervase de Peyer",
+      "rec_year": 1965,
+      "year_source": "Дискография Грея (id 156037): Columbia SAX5274, London, EMI Studio No. 1, Abbey Road — 5–7 ноября 1965 и 8 июля 1966. klassik-prisma датирует 1965; ℗ 1966 в метаданных Warner-загрузки. Год записи (основная сессия) — 1965.",
+      "album": "Columbia SAX5274; переизд. «Christa Ludwig — The Complete Recitals on Warner Classics»",
+      "label": "Columbia / EMI → Warner Classics",
+      "age_voice": "Людвиг (1928–2021) — 37 лет, самая середина её пика (~1957–1975 по дайджесту); тот же круг сессий, что дал её 5-звёздную Gretchen. klassik-prisma фиксирует «einige Tonverfärbungen» (отдельные обесцвечивания тона).",
+      "reputation": "klassik-prisma — 4–5 баллов: «dramatische (Opern)Szene, geht über ein schlichtes Lied hinaus» (драматическая оперная сцена, выходит за рамки простой песни). ПРИОРИТЕТНЫЙ ИСПОЛНИТЕЛЬ по правилам проекта — единственная из восьмерых, кто песню записал (кроме Э. Шуман).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=156037",
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "метаданные Warner-загрузки fBVTo9ucY1E (Ludwig · Parsons · de Peyer, ℗1966)"
+      ],
+      "youtube": [
+        {"videoId": "fBVTo9ucY1E", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "TTmquGiZvG4", "channel": "Christa Ludwig - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Меццо — редкость для этой песни (у klassik-prisma единственная в списке, помимо двух теноров). Два Topic-трека — одна фонограмма на разных компиляциях Warner."
+    },
+    {
+      "singer": "Elisabeth Schumann",
+      "pianist": "George Reeves",
+      "clarinet": "Reginald Kell",
+      "rec_year": 1937,
+      "year_source": "klassik-prisma: 1937, EMI. Метаданные официальной Warner-загрузки: ℗ 1938 (цифровой ремастеринг ℗1989). У Грея записи НЕТ (поиск artists=Elisabeth Schumann по работе — 0 позиций), матрицы не установлены. Ср. правило проекта о матричной сверке: у Шуман уже был прецедент ошибочной даты в метаданных архива.",
+      "album": "HMV 78 об.; переизд. «Icon: Elisabeth Schumann» (Warner Classics)",
+      "label": "HMV / EMI → Warner Classics",
+      "age_voice": "Шуман (1888–1952) — 49 лет; по дайджесту её пик — 1920-е — середина 1930-х, то есть запись сделана на самом краю пика; стиль эталонный.",
+      "reputation": "klassik-prisma — 4 балла с пометкой «gekürzt» (сокращённая версия): 8'43 против 11–12 минут у полных записей. Историческая ценность высокая, но купюра делает её неполноценной как «песню целиком».",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "метаданные Warner-загрузки Y17eLXGuKT4 (Schumann/Reeves/Kell, ℗1938)"
+      ],
+      "youtube": [
+        {"videoId": "Y17eLXGuKT4", "channel": "Elisabeth Schumann - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "ПРИОРИТЕТНЫЙ ИСПОЛНИТЕЛЬ (п. 4 правил). Длительность Topic-трека 532 с точно совпадает с записью в MusicBrainz («Elisabeth Schumann, Reginald Kell, George Reeves», 532 с) и с 8'43 у klassik-prisma — то есть на YouTube именно сокращённая версия."
+    },
+    {
+      "singer": "Erika Köth",
+      "pianist": "Günther Weissenborn",
+      "clarinet": "Karl Leister",
+      "rec_year": 1962,
+      "year_source": "Дискография Грея (id 174294): 28 октября 1962, Берлин, Meistersaal; LP Eurodisc S70975 KK. ВАЖНО: klassik-prisma указывает «~1964» — Грей уточняет до конкретной даты сессии.",
+      "album": "Eurodisc S70975 KK",
+      "label": "Eurodisc",
+      "age_voice": "Кёт (1925–1989) — 37 лет, вокальный пик её колоратурного сопрано (годы мюнхенской и венской славы). Карточки в дайджесте нет — приходит в фонд через эту песню.",
+      "reputation": "klassik-prisma — 4–5 баллов: «glockenhelle Stimme, natürlicher Vortrag… Anfang nicht nur eine Einleitung, sondern bereits eine kleine Szene» (колокольно-светлый голос, естественная подача; вступление не просто интродукция, а уже маленькая сцена), с оговоркой о неиспользованной динамике в нижнем регистре. 22-летний Карл Ляйстер здесь — будущий солист Берлинской филармонии.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=174294",
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm"
+      ],
+      "youtube": [
+        {"videoId": "QhR5d1s9VZg", "channel": "Picus", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной загрузки не найдено — только фан-перенос LP (670 с при 11'06 у klassik-prisma)."
+    },
+    {
+      "singer": "Suzanne Danco",
+      "pianist": "Guido Agosti",
+      "clarinet": "Gervase de Peyer",
+      "rec_year": 1956,
+      "year_source": "Дискография Грея (id 3304): 23–24 января 1956, London, Decca West Hampstead Studios (в карточке Грея помечено UNISSUED — то есть первично не изданная сессия; выпущена позднее). klassik-prisma: «~1956», Decca.",
+      "album": "Suzanne Danco: The Decca Recitals",
+      "label": "Decca",
+      "age_voice": "Данко (1911–2000) — 44–45 лет, зрелый пик бельгийского сопрано, знаменитого точностью и стилем (Моцарт, французская музыка).",
+      "reputation": "klassik-prisma — 4–5 баллов: «etwas entfernter Klang, Klarinette wagt auch pp» (несколько отдалённый звук, кларнет решается и на pp).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=3304",
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "метаданные UMG-загрузки JQHqFEAjsjQ (Danco · de Peyer · Agosti, альбом «Suzanne Danco: The Decca Recitals», ℗1956)"
+      ],
+      "youtube": [
+        {"videoId": "JQHqFEAjsjQ", "channel": "Suzanne Danco - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "l1dOX-EE0_c", "channel": "Suzanne Danco - Topic", "official": true, "oembed_ok": false}
+      ],
+      "note": "Второй Topic-ролик (639 с) не проверялся отдельно; основной — JQHqFEAjsjQ (643 с, точно 10'47 у klassik-prisma)."
+    },
+    {
+      "singer": "Benita Valente",
+      "pianist": "Rudolf Serkin",
+      "clarinet": "Harold Wright",
+      "rec_year": 1960,
+      "year_source": "Дискография Грея (id 1914): 16–17 и 22 августа 1960, Brattleboro, Vermont, Music Shed (фестиваль Marlboro); Columbia ML5643 / MS-6243; CD-переизд. Sony Masterworks MPK 45559. Совпадает с klassik-prisma (1960).",
+      "album": "Columbia ML5643 / MS-6243 (Marlboro Festival); переизд. Sony «Brahms: Liebeslieder Walzer / Schubert: The Shepherd on the Rock»",
+      "label": "Columbia / Sony Classical",
+      "age_voice": "Валенте (р. 1934) — 26 лет, самое начало карьеры; исторический интерес прежде всего в партнёре: Рудольф Серкин, один из великих пианистов века, за роялем в песне — редчайший случай (ср. Эдвин Фишер у Шварцкопф, Раду Лупу у Хендрикс).",
+      "reputation": "klassik-prisma — 4–5 баллов: «langsamer Mittelteil, Spannung jedoch gehalten, ausdrucksstarkes Klavier» (медленная средняя часть, но напряжение удержано, выразительное фортепиано).",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=1914",
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm"
+      ],
+      "youtube": [
+        {"videoId": "_Krrplpuxrw", "channel": "Benita Valente - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ys0XGbagNWU", "channel": "Rudolf Serkin - Topic", "official": true, "oembed_ok": false}
+      ],
+      "note": "Марльборская сессия — концертно-фестивальное происхождение, но Грей документирует её как студийные даты Columbia."
+    },
+    {
+      "singer": "Rita Streich",
+      "pianist": "Erik Werba",
+      "clarinet": "Heinrich Geuser",
+      "rec_year": 1959,
+      "year_source": "Дискография Грея (id 1915): 3–4 апреля 1959, Берлин, Jesus-Christus-Kirche; DG 138047. klassik-prisma: 1959, DGG. Дайджест певцов относил этот диск к 1960 — уточняется до 1959.",
+      "album": "DG 138047 «Rita Streich singt Lieder von Franz Schubert»; переизд. «Rita Streich — The Viennese Nightingale»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Штрайх (1920–1987) — 39 лет, пик «венского соловья» (1950-е — начало 1960-х по дайджесту).",
+      "reputation": "klassik-prisma — 4 балла: «Stimmlich souverän, eigenständige Interpretation», но «Werba im Mittelteil unstet» (вокально суверенно, самостоятельная трактовка; Верба в средней части нестабилен) и вопрос к замедлениям на отдельных словах.",
+      "sources": [
+        "https://www.classical-discography.org/modalcontent.php?id=1915",
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "planning/research/singers-digest.md (карточка Streich: «Hirt auf dem Felsen с кларнетистом Geuser»)"
+      ],
+      "youtube": [
+        {"videoId": "SIxDEksjNbs", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "r_LNFNdEV-c", "channel": "Rita Streich - Topic", "official": true, "oembed_ok": false}
+      ],
+      "note": "У Штрайх на Topic не менее четырёх параллельных загрузок (663–706 с) — разные компиляции UMG одной фонограммы; перед публикацией брать SIxDEksjNbs (706 с ≈ 11'38 у klassik-prisma)."
+    },
+    {
+      "singer": "Elly Ameling",
+      "pianist": "Irwin Gage",
+      "clarinet": "George Pieterson",
+      "rec_year": 1972,
+      "year_source": "klassik-prisma: «~1971», EMI. Метаданные официальной Warner-загрузки: ℗ 1972 (оригинал), EMI Music Germany; кредиты — George Pieterson (кларнет), Irwin Gage (ф-но), продюсер Gerd Berg, инженер Johann-Nikolaus Matthes. Сессия документально не установлена; год издания — 1972.",
+      "album": "Icon: Elly Ameling (компиляция Warner; оригинал — EMI/Electrola ℗1972)",
+      "label": "EMI → Warner Classics",
+      "age_voice": "Амелинг (р. 1933) — 39 лет, самая середина её пика (~1965–1985 по дайджесту); она названа «самой записываемой шубертианкой поколения».",
+      "reputation": "klassik-prisma — 4–5 баллов (общая помета «s. u.» к двум её версиям).",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "метаданные Warner-загрузки ougN47YaKF8"
+      ],
+      "youtube": [
+        {"videoId": "ougN47YaKF8", "channel": "Elly Ameling - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "kYbomphH-lM", "channel": "Zondagszanger", "official": false, "oembed_ok": true}
+      ],
+      "note": "У Амелинг НЕ МЕНЕЕ ТРЁХ записей песни: (1) эта, EMI/Pieterson/Gage ℗1972; (2) DHM с Гансом Дайнцером и Йоргом Демусом на хаммерфлюгеле, klassik-prisma «~1970», 4–5 баллов; (3) CBS Masterworks 76976 с Ги Деплю и Ирвином Гейджем, 1979 (Грей id 285168). Перед публикацией обязательна привязка videoId к конкретному изданию."
+    },
+    {
+      "singer": "Gundula Janowitz",
+      "pianist": "Irwin Gage",
+      "clarinet": "Ulf Rodenhäuser",
+      "rec_year": 1977,
+      "year_source": "klassik-prisma: 1977, DGG. Реестр альбомов проекта (albums/female-recitalists.md, по Грею): 4-LP свод DG 2713 012 + 2530 858, сессии 28.09–01.10.1976 и сентябрь + 1–4 декабря 1977, Studio Lankwitz, Берлин. ℗1978 в метаданных DG-загрузки.",
+      "album": "Schubert: Lieder, 4-LP свод DG 2713 012 / 2530 858; переизд. «The Gundula Janowitz Edition»",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Яновиц (р. 1937) — 40 лет, поздний отрезок её пика (~1965–1980 по дайджесту). Серия дважды удостоена Deutscher Schallplattenpreis; её Gretchen из этого свода — 5 звёзд klassik-prisma.",
+      "reputation": "klassik-prisma — 4 балла: «schönes Vorspiel, danach etwas langsam, worunter die Spannung ein wenig leidet» (прекрасное вступление, дальше несколько медленно, отчего слегка страдает напряжение). То есть по этой конкретной песне она ниже собственного уровня в других песнях свода.",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "planning/youtube/albums/female-recitalists.md (карточка Janowitz, даты по Грею)"
+      ],
+      "youtube": [
+        {"videoId": "2modSLjiXRQ", "channel": "Gundula Janowitz - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "ioDNiTkyZCY", "channel": "Operazaile operazaile", "official": false, "oembed_ok": true}
+      ],
+      "note": "Кларнетист Ульф Роденхойзер подтверждён и klassik-prisma, и кредитами DG-загрузки."
+    },
+    {
+      "singer": "Margaret Price",
+      "pianist": "Wolfgang Sawallisch",
+      "clarinet": "Hans Schöneberger",
+      "rec_year": 1981,
+      "year_source": "klassik-prisma: 1981, Orfeo. Дайджест проекта датирует диск «~1980, изд. 1984 — первый релиз лейбла Orfeo». Расхождение 1980/1981 не разрешено; у Грея записи нет.",
+      "album": "Schubert: Lieder (Orfeo)",
+      "label": "Orfeo",
+      "age_voice": "Прайс (1941–2011) — 40 лет, пик (~1970–1990 по дайджесту). Редкость состава: Заваллиш — дирижёр первого ряда за роялем.",
+      "reputation": "klassik-prisma — 4 балла: «große Stimme, aber nicht sehr variabel» (большой голос, но не очень гибкий).",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "planning/research/singers-digest.md (карточка Price: рецитал Orfeo с Sawallisch, Hirt auf dem Felsen)"
+      ],
+      "youtube": [
+        {"videoId": "6r1--yjqlO0", "channel": "Margaret Price - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "SCPT2ovRt8o", "channel": "Operazaile operazaile", "official": false, "oembed_ok": true}
+      ],
+      "note": "Topic-трек размечен через NAXOS of America (дистрибуция Orfeo), ℗-метка альбома 2016 — это дата цифрового переиздания, не записи."
+    },
+    {
+      "singer": "Helen Donath",
+      "pianist": "Klaus Donath",
+      "clarinet": "Dieter Klöcker",
+      "rec_year": 1982,
+      "year_source": "klassik-prisma: «P 1982», Acanta (то есть год издания фонограммы, не сессии).",
+      "album": "рецитал Acanta",
+      "label": "Acanta",
+      "age_voice": "Донат (р. 1940) — ок. 42 лет, зрелая форма лирического сопрано; за роялем муж певицы Клаус Донат. Карточки в дайджесте нет.",
+      "reputation": "klassik-prisma — 4–5 баллов и единственная в списке помета «beste Klarinette» (лучший кларнет — Дитер Клёкер) плюс «ausdrucksvoller Mittelteil».",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm"
+      ],
+      "youtube": [
+        {"videoId": "n24Ho1WluJY", "channel": "Lieder & Opera Greats", "official": false, "oembed_ok": true}
+      ],
+      "note": "Официальной загрузки не найдено (лейбл Acanta на YouTube не представлен) — только фан-канал; для плеера это минус."
+    },
+    {
+      "singer": "Kathleen Battle",
+      "pianist": "James Levine",
+      "clarinet": "Karl Leister",
+      "rec_year": 1987,
+      "year_source": "klassik-prisma: 1987, DGG. Реестр альбомов проекта: DG 419 237-2 «Schubert: Lieder», издание 1988, сессия не документирована; ℗1988 в метаданных DG-загрузки.",
+      "album": "Schubert: Lieder (DG 419 237-2)",
+      "label": "Deutsche Grammophon",
+      "age_voice": "Бэттл (р. 1948) — 39 лет, пик её карьеры в Метрополитен. Ляйстер за кларнетом — второй раз в этом списке (после записи с Кёт 1962).",
+      "reputation": "klassik-prisma — 4 балла, с прямой критикой: «viel Vibrato, etwas gekünsteltes Singen, mehr Abschnitte als Zusammenhänge, sehr langsamer g-Moll-Teil… Levine nur Begleiter» (много вибрато, несколько манерное пение, скорее разделы, чем связность; Левайн — лишь аккомпаниатор). Пример, где громкое имя не даёт качества.",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "planning/youtube/albums.md (карточка Kathleen Battle — DG 419 237-2)"
+      ],
+      "youtube": [
+        {"videoId": "4cssfAwEYJA", "channel": "Kathleen Battle - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Самая просматриваемая из Topic-загрузок пула на момент сбора — популярность не равна качеству."
+    },
+    {
+      "singer": "Barbara Hendricks",
+      "pianist": "Radu Lupu",
+      "clarinet": "Sabine Meyer",
+      "rec_year": 1992,
+      "year_source": "klassik-prisma: 1992, EMI. Дайджест: два тома EMI с Раду Лупу — 1985 и 1993; D 965 — во втором («Schubert: Lieder, Vol. II» по метаданным Warner-загрузки). Расхождение 1992 (сессия) / 1993 (издание) не разрешено окончательно.",
+      "album": "Schubert: Lieder, Vol. II (EMI)",
+      "label": "EMI → Warner Classics",
+      "age_voice": "Хендрикс (р. 1948) — 44 года, пик (1980-е–1990-е по дайджесту). Состав исключительный: Раду Лупу — великий солист-пианист, Сабина Майер — ведущая кларнетистка поколения.",
+      "reputation": "klassik-prisma — 4 балла, со сдержанной критикой голоса: «Stimme etwas hohl, in höheren Lagen werden helle Vokale eingedunkelt», но «ausdrucksstarke Begleitung» (голос несколько полый, в верхах светлые гласные затемняются; выразительный аккомпанемент).",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "planning/research/singers-digest.md (карточка Hendricks)",
+        "метаданные Warner-загрузки YaMTKJ8pCO4"
+      ],
+      "youtube": [
+        {"videoId": "YaMTKJ8pCO4", "channel": "Barbara Hendricks - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Soile Isokoski",
+      "pianist": "Marita Viitasalo",
+      "clarinet": "Anna-Maija Korsimaa",
+      "rec_year": 1993,
+      "year_source": "klassik-prisma: 1993, Finlandia/Elatus. Метаданные загрузки Fazer Records/Finlandia: альбом «Brahms: Clarinet Sonatas — Schubert: Der Hirt auf dem Felsen», ℗1993. Дайджест относит рецитал Изокоски с Виитасало к 1993.",
+      "album": "Brahms: Clarinet Sonatas / Schubert: Der Hirt auf dem Felsen (Finlandia)",
+      "label": "Finlandia / Fazer (позже Warner)",
+      "age_voice": "Изокоски (р. 1957) — 36 лет, начало её пика (1990-е–2000-е по дайджесту).",
+      "reputation": "klassik-prisma — 4–5 баллов, самая высокая среди современных сопрано: «ausdrucksstarke Stimme mit Körper, sehr nahe bei Müller/Schubert, gute Begleitung» (выразительный голос с телом, очень близко к Мюллеру/Шуберту, хороший аккомпанемент).",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "метаданные загрузки 0dnjmNnvOOE (Finlandia, ℗1993)",
+        "planning/research/singers-digest.md (карточка Isokoski)"
+      ],
+      "youtube": [
+        {"videoId": "0dnjmNnvOOE", "channel": "Soile Isokoski - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Дайджест предупреждал о слабом официальном охвате Изокоски — но по этой песне Topic-загрузка есть."
+    },
+    {
+      "singer": "Barbara Bonney",
+      "pianist": "Geoffrey Parsons",
+      "clarinet": "Sharon Kam",
+      "rec_year": 1994,
+      "year_source": "Реестр альбомов проекта: Teldec 4509-90873-2, запись апрель 1994, Teldec Studio Berlin, продюсер Martin Fouqué, инженер Ulrich Ruscher. klassik-prisma: 1994.",
+      "album": "Schubert: Ave Maria, Die Forelle, Heidenröslein & Other Lieder (Teldec 4509-90873-2)",
+      "label": "Teldec / Warner",
+      "age_voice": "Бонни (р. 1956) — 38 лет, пик (1990-е — начало 2000-х по дайджесту).",
+      "reputation": "klassik-prisma — 4 балла с прямым упрёком: «musste es so viel Vibrato sein?, etwas distanziert» (обязательно ли столько вибрато? несколько отстранённо). Пример правила о скепсисе к репутации современных.",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm",
+        "planning/youtube/albums.md (карточка Bonney — Teldec, апрель 1994)"
+      ],
+      "youtube": [
+        {"videoId": "ni7IobMZnLM", "channel": "Barbara Bonney - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Daniel Behle (тенор)",
+      "pianist": "Sveinung Bjelland",
+      "clarinet": "Andy Miles",
+      "rec_year": 2010,
+      "year_source": "klassik-prisma: 2010, Capriccio.",
+      "album": "рецитал Capriccio",
+      "label": "Capriccio",
+      "age_voice": "Беле (р. 1974) — 36 лет, начало зрелости. Тенор в этой песне — редкость.",
+      "reputation": "klassik-prisma — 5 баллов, единственная современная запись в высшей группе: «schlank und immer sicher geführte Stimme… meistert mit Geschick die hohen Lagen, sehr überzeugend die Dialoge zwischen Tenor und Klarinette, insgesamt sehr differenziert», с оговоркой «verfügt nicht über Metall» (голосу недостаёт металла).",
+      "sources": [
+        "https://www.klassik-prisma.de/Schubert%20Hirt.htm"
+      ],
+      "youtube": [
+        {"videoId": "ILBWNSXu7vk", "channel": "Daniel Behle - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": "Длительность 616 с — самая быстрая версия пула (10'05 у klassik-prisma), что и создаёт впечатление «диалогичности»."
+    },
+    {
+      "singer": "Anna Lucia Richter",
+      "pianist": "Gerold Huber",
+      "clarinet": "Matthias Schorn",
+      "rec_year": 2018,
+      "year_source": "Реестр альбомов проекта: Pentatone PTC 5186 722 «Heimweh — Schubert Lieder», запись май 2018, MCO Hilversum, Studio 1; издание 2019 (℗2019 в метаданных Topic-загрузки).",
+      "album": "Heimweh — Schubert Lieder (Pentatone PTC 5186 722)",
+      "label": "Pentatone",
+      "age_voice": "Рихтер (р. 1990) — 28 лет; на момент записи ещё сопрано (переход в меццо — с ~2020). Матиас Шорн — солист-кларнетист Венской филармонии.",
+      "reputation": "У klassik-prisma не оценена (обзор обрывается на 2010). Пресса вокруг альбома существует, но по правилу проекта скепсис к пиару современных обязателен; независимого сравнительного вердикта по этой записи не найдено.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Anna Lucia Richter — Pentatone, май 2018)",
+        "planning/research/singers-digest.md (карточка Richter: «Heimweh» (Pentatone 2019, Huber; Hirt с Schorn))",
+        "MusicBrainz: «Anna Lucia Richter, Gerold Huber, Matthias Schorn», 744 с"
+      ],
+      "youtube": [
+        {"videoId": "Hi4czlJK5js", "channel": "Anna Lucia Richter - Topic", "official": true, "oembed_ok": true},
+        {"videoId": "XmPeoEvSXWc", "channel": "Ensemble der KammerMusikKöln", "official": false, "oembed_ok": true}
+      ],
+      "note": "Самый сильный кандидат на слот «не ранее 2015» вместе с Сэмпсон и Саид. Ролик фан-канала (235 тыс. просмотров) — ДРУГОЕ, концертное исполнение с ансамблем, не альбомный трек; смешивать нельзя."
+    },
+    {
+      "singer": "Carolyn Sampson",
+      "pianist": "Joseph Middleton",
+      "clarinet": "Michael Collins",
+      "rec_year": 2025,
+      "year_source": "Реестр альбомов проекта: BIS, «Schubert's Four Seasons», релиз 04.04.2025; год сессии в реестре не зафиксирован. Осторожность: у Сэмпсон уже был прецедент (альбом «Elysium»), где треки одного диска записаны в разные годы — при публикации год нужно брать по сессии трека.",
+      "album": "Schubert's Four Seasons (BIS)",
+      "label": "BIS",
+      "age_voice": "Сэмпсон (р. 1974) — ок. 50 лет; по дайджесту пик с ~2010 по настоящее время. Майкл Коллинз — кларнетист первого ряда.",
+      "reputation": "У klassik-prisma не оценена (обзор до 2010). Новейший значительный релиз песни; независимой сравнительной оценки не найдено — по правилу о пиаре современных ставить её выше старых мастеров без слушательского сравнения нельзя.",
+      "sources": [
+        "planning/youtube/albums.md (карточка Carolyn Sampson — Schubert's Four Seasons, BIS 2025)",
+        "MusicBrainz: «Carolyn Sampson, Michael Collins, Joseph Middleton», 675 с"
+      ],
+      "youtube": [
+        {"videoId": "FkNxia9_bf4", "channel": "Carolyn Sampson - Topic", "official": true, "oembed_ok": true}
+      ],
+      "note": ""
+    },
+    {
+      "singer": "Fatma Said",
+      "pianist": "Malcolm Martineau",
+      "clarinet": "Sabine Meyer",
+      "rec_year": 2024,
+      "year_source": "Дайджест певцов проекта: альбом «Lieder» (Warner, 2024; Hirt auf dem Felsen с Сабиной Майер). Год сессии не установлен — только год издания.",
+      "album": "Lieder (Warner Classics)",
+      "label": "Warner Classics",
+      "age_voice": "Саид (р. 1991) — ок. 33 лет, ранняя зрелость. Сабина Майер здесь второй раз в пуле (после записи с Хендрикс 1992) — уже в возрасте за 60.",
+      "reputation": "У klassik-prisma не оценена. Пиар-фон вокруг альбома значителен (Warner активно продвигает певицу) — по правилам проекта это основание для скепсиса, а не для включения.",
+      "sources": [
+        "planning/research/singers-digest.md (карточка Said)",
+        "MusicBrainz: «Fatma Said, Malcolm Martineau, Sabine Meyer», 686 с"
+      ],
+      "youtube": [
+        {"videoId": "dzlKWm_isOU", "channel": "Fatma Said (official)", "official": true, "oembed_ok": true}
+      ],
+      "note": "Загрузка на официальном канале певицы (не Topic), oEmbed отдаёт канал «Fatma Said - Topic»."
+    },
+    {
+      "singer": "Regula Mühlemann",
+      "pianist": "Tatiana Korsunskaya",
+      "clarinet": "Daniel Ottensamer",
+      "rec_year": 2019,
+      "year_source": "Метаданные официальной загрузки: альбом «Lieder der Heimat / Songs from Home», ℗2019 — год издания; сессия не документирована.",
+      "album": "Lieder der Heimat / Songs from Home",
+      "label": "Sony Classical",
+      "age_voice": "Мюлеман (р. 1986) — ок. 33 лет. Даниэль Оттензамер — солист-кларнетист Венской филармонии.",
+      "reputation": "У klassik-prisma не оценена; сравнительных отзывов не найдено. В дайджесте певцов карточки нет — периферийный кандидат.",
+      "sources": [
+        "MusicBrainz: «Regula Mühlemann, Tatiana Korsunskaya, Daniel Ottensamer», 671 с",
+        "метаданные загрузки ifl4DlsYobs"
+      ],
+      "youtube": [
+        {"videoId": "ifl4DlsYobs", "channel": "Regula Mühlemann (official)", "official": true, "oembed_ok": true}
+      ],
+      "note": ""
+    }
+  ],
+  "priority_singers_checked": {
+    "Thomas Quasthoff": "НЕТ. Дискография Квастхофа закрыта в 2012 и состоит ровно из 6 шубертовских альбомов (дайджест проекта, planning/research/singers-digest.md) — D 965 среди них нет. В MusicBrainz по произведению (work be215d13-0799-3193-b7c2-b88588008c03, 53 записи) Квастхоф отсутствует; в сравнительном обзоре klassik-prisma (30 записей) — тоже. Песня написана для сопрано Анны Мильдер-Хауптман, у бас-баритона репертуарных оснований нет.",
+    "Dietrich Fischer-Dieskau": "НЕТ. Его полный свод DG «Sämtliche Lieder» (1966–1972, Gerald Moore) сознательно исключал «женские» песни (дайджест, раздел «Сквозные издания»); D 965 — именно такая. Отсутствует в MusicBrainz по произведению и в обзоре klassik-prisma; у Грея по этой работе (34 позиции) записей Фишера-Дискау нет.",
+    "Elisabeth Schwarzkopf": "НЕТ. Не значится ни в MusicBrainz (53 записи произведения), ни в обзоре klassik-prisma (30 записей), ни у Грея (34 позиции). Целевой поиск по YouTube (yt-dlp, запрос «Schwarzkopf Der Hirt auf dem Felsen Schubert») не дал ни одной её записи этой песни.",
+    "Hans Hotter": "НЕТ. Бас-баритон; отсутствует в MusicBrainz по произведению, в обзоре klassik-prisma и у Грея.",
+    "Peter Anders": "НЕТ. Отсутствует в MusicBrainz по произведению, в обзоре klassik-prisma и у Грея. Из берлинского радиофонда Райхайзена этого времени песню записала Эрна Бергер, не Андерс.",
+    "Elisabeth Schumann": "ДА. HMV с Реджинальдом Келлом (кларнет) и Джорджем Ривзом (ф-но); klassik-prisma датирует 1937, официальная Warner-загрузка помечена ℗1938. Версия СОКРАЩЁННАЯ (8'43 против 11–12 мин у полных) — klassik-prisma ставит 4 балла с пометой «gekürzt». YouTube: Y17eLXGuKT4 (Elisabeth Schumann - Topic, Warner Classics), oEmbed ok.",
+    "Christa Ludwig": "ДА. Columbia SAX5274, London, Abbey Road Studio No. 1, 5–7 ноября 1965 и 8 июля 1966 (дискография Майкла Грея, id 156037); Джеффри Парсонс — ф-но, Джервейз де Пейер — кларнет. klassik-prisma — 4–5 баллов. YouTube: fBVTo9ucY1E и TTmquGiZvG4 (Christa Ludwig - Topic, Warner Classics), oEmbed ok.",
+    "Lucia Popp": "НЕТ (в пределах проверенных источников). Отсутствует в MusicBrainz по произведению (53 записи), в обзоре klassik-prisma (30 записей) и у Грея (34 позиции). Целевой поиск yt-dlp «Lucia Popp Der Hirt auf dem Felsen Schubert» её записи этой песни не нашёл. Дайджест проекта содержал сомнение «Hirt auf dem Felsen (версии)?» — подтверждения не найдено, помету следует снять."
+  },
+  "albums_facts": [
+    {
+      "album": "Liederabend Maria Stader (DG LPEM 19136)",
+      "singer": "Maria Stader",
+      "year": "запись 1957 (klassik-prisma); LP выпущен в июле 1958",
+      "label": "Deutsche Grammophon",
+      "facts": "Кредиты Discogs (release 10504998): Rudolf Gall — кларнет, Karl Engel — ф-но, Maria Stader — сопрано. Программа: Шуберт (La Pastorella, Seligkeit, Du bist die Ruh, Die Forelle, Der Hirt auf dem Felsen), Мендельсон, Шёк. Американское переиздание — Decca DL 9994 «A Maria Stader Recital». НОВАЯ карточка для реестра альбомов.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "The Hyperion Schubert Edition, Vol. 9 — Schubert & the Theatre (CDJ33009)",
+      "singer": "Arleen Augér",
+      "year": "запись октябрь 1989",
+      "label": "Hyperion",
+      "facts": "Rosslyn Hill Unitarian Chapel, Хэмпстед, Лондон; Graham Johnson — ф-но и автор комментариев, Thea King — кларнет. Джонсон в аннотации называет песню «апофеозом пасторальной традиции (с инструментальным облигато) в песне» и связывает её с возможностями мадам Мильдер. Часть научного эталонного свода Hyperion (37 томов, 1987–2000), с 2023 на YouTube через UMG.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Christa Ludwig — Columbia SAX5274 (переизд. Warner «The Complete Recitals»)",
+      "singer": "Christa Ludwig",
+      "year": "сессии 5–7 ноября 1965 и 8 июля 1966",
+      "label": "Columbia / EMI → Warner Classics",
+      "facts": "EMI Studio No. 1, Abbey Road, Лондон (Грей, id 156037). Джеффри Парсонс — ф-но, Джервейз де Пейер — кларнет. Тот же круг сессий Людвиг с Парсонсом, что дал её 5-звёздную Gretchen по klassik-prisma. Уточняет карточку реестра «Schubert: 15 Lieder».",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Eurodisc S70975 KK (рецитал Эрики Кёт)",
+      "singer": "Erika Köth",
+      "year": "28 октября 1962",
+      "label": "Eurodisc",
+      "facts": "Берлин, Meistersaal; Karl Leister — кларнет, Günther Weissenborn — ф-но (Грей, id 174294). Исправляет датировку klassik-prisma («~1964»). НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Columbia ML5643 / MS-6243 (Marlboro Festival)",
+      "singer": "Benita Valente",
+      "year": "16–17 и 22 августа 1960",
+      "label": "Columbia / Sony Classical",
+      "facts": "Brattleboro, Vermont, Music Shed; Harold Wright — кларнет, Rudolf Serkin — ф-но (Грей, id 1914). CD-переиздание Sony Masterworks MPK 45559 в паре с «Liebeslieder-Walzer» Брамса. НОВАЯ карточка для реестра.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "DG 138047 «Rita Streich singt Lieder von Franz Schubert»",
+      "singer": "Rita Streich",
+      "year": "3–4 апреля 1959",
+      "label": "Deutsche Grammophon",
+      "facts": "Берлин, Jesus-Christus-Kirche; Heinrich Geuser — кларнет, Erik Werba — ф-но (Грей, id 1915). УТОЧНЕНИЕ к дайджесту проекта, где этот диск датирован 1960 годом.",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Electrola DB11569 (78 об.), Эрна Бергер",
+      "singer": "Erna Berger",
+      "year": "1 июля 1954",
+      "label": "Electrola / EMI",
+      "facts": "Матрицы 2RA 7293 / 7294; Heinrich Geuser — кларнет, Ernst-Günther Scherzer — ф-но (Грей, id 54523/54524). Грей фиксирует у Бергер ещё две записи этой песни: RCA Victor, Нью-Йорк, 21+25 марта 1950 (David Oppenheim, кларнет; George Schick, ф-но; id 74459) и Columbia 7RW522, 1 июля 1957 (Geuser; id 58959) — плюс недатированная радиоверсия с Райхайзеном (~1943–44). Итого четыре-пять версий у одной певицы: привязка videoId к изданию критична.",
+      "covers_more_pilot_songs": false
+    },
+    {
+      "album": "Icon: Elly Ameling (оригинал EMI/Electrola ℗1972)",
+      "singer": "Elly Ameling",
+      "year": "℗1972 (klassik-prisma: «~1971»)",
+      "label": "EMI → Warner Classics",
+      "facts": "Кредиты официальной загрузки: George Pieterson — кларнет, Irwin Gage — ф-но, продюсер Gerd Berg, инженер Johann-Nikolaus Matthes. Внимание: у Амелинг есть ещё версия DHM с Hans Deinzer и Jörg Demus на хаммерфлюгеле (klassik-prisma «~1970») и версия CBS Masterworks 76976 с Guy Deplus и Irwin Gage (Грей, id 285168, 1979).",
+      "covers_more_pilot_songs": true
+    },
+    {
+      "album": "Eterna, рецитал Эберхарда Бюхнера",
+      "singer": "Eberhard Büchner (тенор)",
+      "year": "26–30 марта 1979 и 8–10 января 1980",
+      "label": "Eterna (переизд. Berlin Classics)",
+      "facts": "Дрезден, Лукаскирхе; Michael Simm — кларнет, Norman Shetler — ф-но (Грей, id 175658). klassik-prisma («P 1980») — 4–5 баллов: «Klarinette wagt auch pp». Вторая мужская запись обзора наряду с Беле.",
+      "covers_more_pilot_songs": false
+    }
+  ],
+  "surveys": [
+    "https://www.klassik-prisma.de/Schubert%20Hirt.htm — Bernd Stremmel, «Der Hirt auf dem Felsen D.965 für Singstimme, Klarinette und Klavier»: полноценный Vergleich на 30 записей с оценками (5 / 4-5 / 4 / 3-4 / 3) и краткими характеристиками. Высшие оценки (5): Stader/Gall/Engel (DGG 1957), Augér/King/Johnson (hyperion 1989), Berger/Richter/Raucheisen (~1944), Behle/Miles/Bjelland (Capriccio 2010, тенор). Это единственный найденный сравнительный обзор именно по D 965.",
+    "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33009 — страница альбома Hyperion Schubert Edition Vol. 9 с аннотацией Грэма Джонсона (дата и место записи, трактовка песни как «апофеоза пасторальной традиции»).",
+    "https://www.classical-discography.org/ — дискография Майкла Грея: POST-поиск search2.php (composer=Schubert, work=Hirt) даёт 34 позиции по D 965 с датами сессий, местами, лейблами и матрицами. Не обзор, но опорный источник дат; вскрыл два расхождения с klassik-prisma (Кёт — 1962, а не ~1964; Штрайх — подтверждён 1959 против «1960» в дайджесте проекта)."
+  ],
+  "negatives": [
+    "Gramophone: сайт отдаёт HTTP 403 на запросы из контейнера — сравнительных материалов (Building a Library и т.п.) по D 965 получить не удалось.",
+    "Поисковые системы недоступны: бюджет WebSearch сессии исчерпан, DuckDuckGo HTML-эндпоинт отдаёт CAPTCHA. Исследование велось прямыми обращениями к klassik-prisma, Hyperion, дискографии Грея, Discogs API и yt-dlp.",
+    "MusicBrainz REST API периодически отдавал 503; каркас дискографии взят из готового d965-der-hirt-auf-dem-felsen.mb.json (53 записи).",
+    "Официальных (Topic/лейбловых) загрузок НЕТ у четырёх заметных кандидатов: Maria Stader (только фан-переносы Operaspia/Operazaile), Erika Köth (фан-канал Picus), Helen Donath (лейбл Acanta на YouTube не представлен), Erna Berger/Raucheisen (радиоверсия только на фан-канале). Для трёх из них klassik-prisma даёт высшие или почти высшие оценки — конфликт между качеством записи и техгигиеной ссылок придётся решать при отборе топ-5.",
+    "Год записи не установлен документально у: Stader (1957 только по klassik-prisma), Berger/Raucheisen (диапазон 1943–44?), E. Schumann (1937 по klassik-prisma против ℗1938 Warner; матрицы найти не удалось, у Грея записи нет), M. Price (1980 по дайджесту против 1981 по klassik-prisma), Hendricks (1992 против издания 1993), Said и Sampson (известен только год релиза).",
+    "У Эрны Бергер и Элли Амелинг по три и более разных записи песни — риск перепутать издание при публикации videoId выше среднего по корпусу.",
+    "Ролик XmPeoEvSXWc (235 тыс. просмотров, Ensemble der KammerMusikKöln) — концертное исполнение Анны Лючии Рихтер с ансамблем, НЕ альбомный трек Pentatone; ролик rPpII4xTVrc/IIJKgRs2BMU (Ameling, «Part I/Part II», ~700 тыс. просмотров суммарно) — песня, разрезанная надвое, для плеера непригоден.",
+    "Приоритетные певцы Quasthoff, Fischer-Dieskau, Schwarzkopf, Hotter, Anders, Popp этой песни не записывали — топ-5 неизбежно строится из группы «прочие звёзды прошлого» и современных, начиная с Людвиг и Э. Шуман."
+  ]
+}
