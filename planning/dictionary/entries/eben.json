@@ -1,0 +1,16 @@
+{
+ "lemma": "eben",
+ "header": "eben (частица «как раз» / прилагательное «ровный»)",
+ "era": "У Гримма два узла: прилагательное — «die ebne land ist das flache, platte im gegensatz zum gebirge» («ровная земля — плоская, в противоположность горам»); наречие времени — «eben fing ich an mein herz zu erheben» («как раз/только что начал возносить сердце»).",
+ "register": "оба значения сохраняются в современном языке без сдвига",
+ "ru_candidates": "частица «как раз» / «именно» — для наречного eben; «ровный» — для прилагательного; выбор зависит от конкретной строки",
+ "recommendation": "как раз / именно (частица); ровный (прилагательное)",
+ "caveats": "Форма омонимична — не путать наречие «eben» («только что, как раз») с прилагательным «eben» («ровный»), выбирать по контексту строки. Заданный в корпусе образец («Wo mich des Lebens wilder Kreis umstrickt») отдельного слова «eben» не содержит — похоже на артефакт разбиения по подстроке внутри «Lebens» («L-eben-s»); стоит перепроверить в конвейере извлечения форм.",
+ "evidence": "  - Grimm DWB (dwds.de/wb/dwb/eben): «die ebne land ist das flache, platte im gegensatz zum gebirge»; «eben fing ich an mein herz zu erheben»\n  - DWDS (dwds.de/wb/eben): «flach, ohne Erhebung»; частица — «es braucht eben Zeit»\n  - BNRS (translate.academic.ru/eben/de/ru/): «гладкий, ровный, плоский»; частица «именно, как раз»\n",
+ "forms_covered": [
+  "eben"
+ ],
+ "source": "top500-wave",
+ "song": null,
+ "status": "verified"
+}
