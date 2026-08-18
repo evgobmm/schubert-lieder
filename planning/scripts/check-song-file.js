@@ -65,13 +65,19 @@ const texts = [];
       }
       if (a.type && !['lang', 'meaning'].includes(a.type)) add('ERROR', `${si}:${li} ann${ai}`, 'неизвестный type ' + a.type);
     });
-    // одно слово — одна сноска: диапазоны аннотаций строки не пересекаются
+    // одно слово — одна ВИДИМАЯ сноска: значок рисуется на последнем сегменте диапазона
+    // (логика InterlinearLine.vue); совпадение позиций значков — ERROR, вложенные диапазоны законны
     {
       const flat = (r) => (Array.isArray(r[0]) ? r : [r]);
-      const anns = (lineRu.annotations || []).map((a, i) => ({ i, r: a.segment_range })).filter((x) => x.r);
-      for (let x = 0; x < anns.length; x++) for (let y = x + 1; y < anns.length; y++)
-        for (const [s1, e1] of flat(anns[x].r)) for (const [s2, e2] of flat(anns[y].r))
-          if (s1 <= e2 && s2 <= e1) add('ERROR', `${si}:${li}`, `две сноски на одном слове: ann${anns[x].i} [${s1},${e1}] и ann${anns[y].i} [${s2},${e2}]`);
+      const marks = {};
+      (lineRu.annotations || []).forEach((a, ai) => {
+        if (!a.segment_range || (a.line_span && a.line_span > 1)) return;
+        const f = flat(a.segment_range);
+        const e = f[f.length - 1][1];
+        (marks[e] = marks[e] || []).push(ai);
+      });
+      for (const [e, list] of Object.entries(marks)) if (list.length > 1)
+        add('ERROR', `${si}:${li}`, `две видимых сноски на сегменте ${e}: ann ${list.join(', ')}`);
     }
   });
 });
