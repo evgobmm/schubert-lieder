@@ -95,3 +95,8 @@
 - **NSA / Dürr, критический отчёт (Revisionsbericht)**: не найден в открытом доступе для сверки автографа и точного текста — не проверено.
 - **Deutsch, Schubert: Thematic Catalogue** (тематический каталог): полнотекстовая версия для сверки записи о D 227 (автограф, посвящение) через archive.org не открылась (404) — не проверено.
 - **Мотив выбора имени «Ida» в заглавии** (в противовес позднейшему «Agnes») и его связь с решением Шуберта — уже разобрано с оговоркой в досье kosegarten (Ф24, Ф31); не дублируется здесь.
+
+## Дополнение 2026-08-18: разночтение Ф11 разрешено по скану AGA
+
+**Ф-AGA.** Скан AGA Serie XX (MDZ, bsb00044996, стр. 179, гравюра «F.S. 402», Serie 20 № 90; https://api.digitale-sammlungen.de/iiif/image/v2/bsb00044996_00179/full/1800,/0/default.jpg) читается чётко: подтекстовка 1-й строфы — «Ver-nimm es, Nacht, was I-da dir ver-trau-et, die, satt des Tags, in dei-ne Ar-me flieht»; 2-й строфы — «dem sehn-suchtskrank mein Herz ent-ge-gen schlug» — verified (проверено дважды: агентом и главной сессией по изображению).
+Итог: в тексте песни исправлены три строки OpenScore-варианта («ich» → «Ida», «Das, statt» → «Die, satt», «sehnsuchtskranken Herz» → «sehnsuchtskrank mein Herz»); правка внесена в `planning/catalog/sources/texts-published.json` и `app/src/data/songs/d227-idens-nachtgesang.json` 2026-08-18. Оговорка Ф11 «расхождение только в первых двух строках» была неточна: третье расхождение — в строке 6.
