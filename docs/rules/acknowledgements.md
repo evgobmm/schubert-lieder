@@ -65,10 +65,12 @@
 - **Deutsches Textarchiv** (BBAW) — первопечатный «Фауст» 1808 года (текст и TEI) для
   сверки редакций и ремарок.
 - **zeno.org, de.wikisource.org, Projekt Gutenberg-DE, archive.org** — PD-издания поэтов.
-- **ANNO / Österreichische Nationalbibliothek** — венская периодика 1814.
+- **ANNO / Österreichische Nationalbibliothek** (anno.onb.ac.at) — венская периодика эпохи.
 - **Google Books** — поиск PD-изданий.
 - **Open Library** (полнотекстовый поиск search-inside) — дословные цитаты из современной
   научной литературы (Youens, Bostridge, Hepokoski, Miller, Abraham).
+- **UNT Digital Library** (digital.library.unt.edu) — научные работы о песнях Шуберта.
+- **Library of Congress** (loc.gov) — американские фонды (издания Козегартена).
 
 ### Словари (пословный перевод)
 
@@ -86,7 +88,7 @@
 - **de.wikipedia / en.wikipedia** — вход в темы и (de) конденсат анализа Дюрра/Файля;
   ключевые факты сверялись по вторым источникам и raw-тексту.
 - **Deutsche Biographie** (ADB/NDB) — биографический канон Шуберта.
-- **Österreichisches Musiklexikon** (Австрийская академия наук).
+- **Österreichisches Musiklexikon** (musiklexikon.ac.at, Австрийская академия наук).
 - **OpenLearn** (Открытый университет) — учебный разбор гётевских песен Шуберта.
 - **Oxford Song** (oxfordsong.org) — тексты и переводы песенного репертуара.
 - **literaturkritik.de**, **kammermusikfuehrer.de**, **niusic.de**,
@@ -95,7 +97,7 @@
   такты); в текстах цитируется как «немецкая справочная статья».
 - **Wien Geschichte Wiki** (geschichtewiki.wien.gv.at) — венские биографические данные
   (даты жизни круга Шуберта).
-- **Klassik Stiftung Weimar** — документы Гёте (посылка Шпауна 1816 года).
+- **Klassik Stiftung Weimar** (klassik-stiftung.de) — документы Гёте (посылка Шпауна 1816 года).
 - **Bärenreiter** (barenreiter.co.uk) — предисловия Новой шубертовской редакции (NSA):
   посвящения опусов, редакции песен.
 - **parlancechamberconcerts.org** — программные заметки (квартет D 810, письмо
@@ -103,7 +105,7 @@
 - **Mutopia Project** (mutopiaproject.org) — открытые ноты для сверки тональностей и
   темповых помет.
 - **ÖNB Digital** (onb.digital) — факсимиле первых изданий (Pennauer, op. 43).
-- **Naxos** — буклеты записей (редкие песни, D 227).
+- **Naxos** (naxos.com, naxosmusiclibrary.com) — буклеты записей (редкие песни, D 227).
 - **Британника**, **yourclassical.org**, **figures-of-speech.com**,
   **romantik.koenigsstuhl.com** и др. единичные вторичные сверки — по ссылкам в файлах
   фактов конкретных песен.
