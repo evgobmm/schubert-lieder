@@ -65,6 +65,14 @@ const texts = [];
       }
       if (a.type && !['lang', 'meaning'].includes(a.type)) add('ERROR', `${si}:${li} ann${ai}`, 'неизвестный type ' + a.type);
     });
+    // одно слово — одна сноска: диапазоны аннотаций строки не пересекаются
+    {
+      const flat = (r) => (Array.isArray(r[0]) ? r : [r]);
+      const anns = (lineRu.annotations || []).map((a, i) => ({ i, r: a.segment_range })).filter((x) => x.r);
+      for (let x = 0; x < anns.length; x++) for (let y = x + 1; y < anns.length; y++)
+        for (const [s1, e1] of flat(anns[x].r)) for (const [s2, e2] of flat(anns[y].r))
+          if (s1 <= e2 && s2 <= e1) add('ERROR', `${si}:${li}`, `две сноски на одном слове: ann${anns[x].i} [${s1},${e1}] и ann${anns[y].i} [${s2},${e2}]`);
+    }
   });
 });
 
