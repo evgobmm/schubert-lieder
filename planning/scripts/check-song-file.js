@@ -82,6 +82,27 @@ const texts = [];
   });
 });
 
+// заголовок: максимум одна титульная аннотация (значок рисуется на каждую)
+if ((song.title_annotations || []).length > 1) add('ERROR', 'title', 'титульных аннотаций ' + song.title_annotations.length + ' — на заголовке столько же значков (норма референса: максимум одна)');
+// спан-аннотации: значок наследуется последней строкой охвата и затеняет значок её собственной аннотации
+{
+  const lastEndR = (r) => { const f = Array.isArray(r[0]) ? r : [r]; return f[f.length - 1][1]; };
+  const stz = song.stanzas || [];
+  stz.forEach((st, si) => (st.lines_ru || []).forEach((l, li) => (l.annotations || []).forEach((a, ai) => {
+    if (!(a.line_span > 1)) return;
+    let fs2 = si, fl = li + a.line_span - 1;
+    while (fs2 < stz.length && fl >= (stz[fs2].lines_ru || []).length) { fl -= stz[fs2].lines_ru.length; fs2++; }
+    const target = stz[fs2] && stz[fs2].lines_ru[fl];
+    if (!target) return;
+    const cont = (a.continuation_ranges || []).filter((x) => x !== null && x[0] !== -1);
+    const seg = cont.length ? lastEndR(cont[cont.length - 1]) : ((target.segments || []).length - 1);
+    (target.annotations || []).forEach((b, bi) => {
+      if (!b.segment_range || (b.line_span && b.line_span > 1)) return;
+      if (lastEndR(b.segment_range) === seg) add('ERROR', `${fs2}:${fl}`, `значок спан-аннотации ${si}:${li}#${ai} затеняет значок ann${bi} на сегменте ${seg}`);
+    });
+  })));
+}
+
 for (const [where, t] of texts) {
   if (t == null) { add('ERROR', where, 'null-текст'); continue; }
   if (/\n\n/.test(t)) add('ERROR', where, 'двойной \\n');
