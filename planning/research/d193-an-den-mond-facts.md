@@ -60,7 +60,7 @@
 
 ## 4. Смыслы и интерпретации
 
-**Ф21.** Малкольм Рен (schubertsong.uk) выделяет три взаимосвязанных образных кластера текста: «изливание, рассыпание и разбрасывание; слёзы и глаза; сокрытие и раскрытие, ясность и размытость» — https://www.schubertsong.uk/text/an-den-mond-geuss-lieber-mond/ — «pouring, strewing and scattering; tears and the eyes; covering and uncovering, clarity and fuzziness» — verified.
+**Ф21.** Малколм Рен (schubertsong.uk) выделяет три взаимосвязанных образных кластера текста: «изливание, рассыпание и разбрасывание; слёзы и глаза; сокрытие и раскрытие, ясность и размытость» — https://www.schubertsong.uk/text/an-den-mond-geuss-lieber-mond/ — «pouring, strewing and scattering; tears and the eyes; covering and uncovering, clarity and fuzziness» — verified.
 
 **Ф22.** Рен о лунном свете как о «текущем», а не статичном источнике освещения: серебристый лунный свет описан как «льющийся», а не неподвижное освещение; луна функционирует одновременно как источник света и как плачущий глаз — https://www.schubertsong.uk/text/an-den-mond-geuss-lieber-mond/ — verified (в изложении WebFetch; конкретная английская формулировка «flowing» rather than stationary illumination» дана в пересказе, не как прямая цитата с кавычками источника — secondary, требует точной сверки цитаты при использовании в тексте).
 

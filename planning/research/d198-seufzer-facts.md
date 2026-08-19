@@ -77,7 +77,7 @@
 
 ## 4. Смыслы и интерпретации
 
-**Ф29.** Малкольм Рен (schubertsong.uk) о глаголе «irren» в финальной строке «allein irr' ich im Hain»: он соединяет три значения — бесцельно блуждать, заблуждаться/впадать в ошибку и (в некоторых контекстах) терять рассудок — https://www.schubertsong.uk/text/seufzer/ — «The verb 'irren' in 'allein irr' ich im Hain' brings together three basic meanings: to wander around (aimlessly), to go astray / to fall into error and (in some contexts) to go mad / to lose your reason.» — verified.
+**Ф29.** Малколм Рен (schubertsong.uk) о глаголе «irren» в финальной строке «allein irr' ich im Hain»: он соединяет три значения — бесцельно блуждать, заблуждаться/впадать в ошибку и (в некоторых контекстах) терять рассудок — https://www.schubertsong.uk/text/seufzer/ — «The verb 'irren' in 'allein irr' ich im Hain' brings together three basic meanings: to wander around (aimlessly), to go astray / to fall into error and (in some contexts) to go mad / to lose your reason.» — verified.
 
 **Ф30.** Рен о контрасте пар и одинокого героя: для пар всё ясно, а для поэта тропа мрачна; пары могут остановиться и слушать соловья с восторгом, а поэт слышит ту же песню с тяжёлым сердцем — https://www.schubertsong.uk/text/seufzer/ — «For couples everything is clear, but for the poet the track is gloomy; couples can stop and listen to the nightingale in delight but its song is something the poet hears with a heavy heart.» — verified.
 
