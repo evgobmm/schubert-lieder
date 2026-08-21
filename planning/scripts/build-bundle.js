@@ -61,4 +61,12 @@ if (stage === 'facts') {
   out += sec('ДОСЬЕ ПОЭТА (законная опора)', rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')));
   out += sec('СЛОВАРНЫЕ ЗАПИСИ ПЕСНИ (законная опора lang-аннотаций)', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
 }
-process.stdout.write(out + '\n');
+const MAX = 45000;
+const bdir = path.join(workDir, 'bundles'); fs.mkdirSync(bdir, { recursive: true });
+if (out.length <= MAX) { process.stdout.write(out + '\n'); }
+else {
+  const parts = []; let i = 0;
+  while (i < out.length) { let end = Math.min(i + MAX, out.length); const nl = out.lastIndexOf('\n', end); if (nl > i + MAX / 2) end = nl; parts.push(out.slice(i, end)); i = end; }
+  const files = parts.map((p, k) => { const fp = path.join(bdir, `${stage}-${slug}.part${k + 1}.md`); fs.writeFileSync(fp, p); return fp; });
+  process.stdout.write(`БАНДЛ ВЕЛИК (${out.length} знаков) — записан ${files.length} частями; прочитай их ВСЕ по порядку (cat каждой):\n` + files.join('\n') + '\n');
+}
