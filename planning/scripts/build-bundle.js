@@ -68,8 +68,8 @@ if (stage === 'facts') {
   out += sec('ВЕРСИЯ ДО Fable (v1)', rd(path.join(workDir, 'work', `candidate-${slug}.v1.json`)));
   out += sec('ФИНАЛ', rd(path.join(workDir, 'work', `candidate-${slug}.json`)));
   out += sec('ФАЙЛ ФАКТОВ', rd(path.join(workDir, 'facts', slug + '-facts.md')));
-  out += sec('ДОСЬЕ ПОЭТА (законная опора)', rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')));
-  out += sec('СЛОВАРНЫЕ ЗАПИСИ ПЕСНИ (законная опора lang-аннотаций)', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
+  { const dos = rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')) || ''; const kratko = (dos.match(/## Кратко[\s\S]*?(?=\n## )/) || [dos.slice(0, 2500)])[0]; out += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора; полное досье planning/research/poets/' + poetSlug + '.md)', kratko); }
+  out += sec('СЛОВАРНЫЕ ЗАПИСИ ПЕСНИ — леммы и рекомендации (законная опора lang-аннотаций; полные карточки — planning/dictionary/entries/)', (() => { try { const a = JSON.parse(fs.readFileSync(path.join(workDir, 'work', `dict-${slug}.json`), 'utf8')); return JSON.stringify(a.filter((x) => x && x.lemma).map((x) => ({ lemma: x.lemma, recommendation: x.recommendation, status: x.status })), null, 1); } catch { return null; } })());
 }
 const MAX = 45000;
 const bdir = path.join(workDir, 'bundles'); fs.mkdirSync(bdir, { recursive: true });
@@ -77,6 +77,6 @@ if (out.length <= MAX) { process.stdout.write(out + '\n'); }
 else {
   const parts = []; let i = 0;
   while (i < out.length) { let end = Math.min(i + MAX, out.length); const nl = out.lastIndexOf('\n', end); if (nl > i + MAX / 2) end = nl; parts.push(out.slice(i, end)); i = end; }
-  const files = parts.map((p, k) => { const fp = path.join(bdir, `${stage}-${slug}.part${k + 1}.md`); fs.writeFileSync(fp, p); return fp; });
+  const files = parts.filter((p) => p.trim().length).map((p, k) => { const fp = path.join(bdir, `${stage}-${slug}.part${k + 1}.md`); fs.writeFileSync(fp, p); return fp; });
   process.stdout.write(`БАНДЛ ВЕЛИК (${out.length} знаков) — записан ${files.length} частями; прочитай их ВСЕ по порядку (cat каждой):\n` + files.join('\n') + '\n');
 }
