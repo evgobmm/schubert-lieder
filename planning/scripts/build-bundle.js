@@ -51,10 +51,14 @@ if (stage === 'facts') {
   out += sec('БРИФ (закон конвейера)', brief);
   out += sec('СТРАНИЦА-КАНДИДАТ (править её целиком)', rd(path.join(workDir, 'work', `candidate-${slug}.json`)));
   out += sec('ФАЙЛ ФАКТОВ (опора; новых фактов не вносить)', rd(path.join(workDir, 'facts', slug + '-facts.md')));
-  out += sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (для проверки подстрочника)', (() => { try { const p = JSON.parse(fs.readFileSync(path.join(workDir, 'songs', `d${d}-packet.json`), 'utf8')); return JSON.stringify(p.cache.map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, caveats: c.caveats })), null, 1); } catch { return null; } })());
+  out += sec('ДОСЬЕ ПОЭТА (законная опора для биографии и контекста — не снимать то, что им подтверждено)', rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')));
+  out += sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА С ЦИТАТАМИ (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга)', (() => { try { const p = JSON.parse(fs.readFileSync(path.join(workDir, 'songs', `d${d}-packet.json`), 'utf8')); const full = p.cache.map((c) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'planning/dictionary/entries', c.lemma + '.json'), 'utf8')); } catch { return c; } }); return JSON.stringify(full.map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, era: c.era, caveats: c.caveats, evidence: c.evidence })), null, 1); } catch { return null; } })());
+  out += sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
 } else if (stage === 'delta') {
   out += sec('ВЕРСИЯ ДО Fable (v1)', rd(path.join(workDir, 'work', `candidate-${slug}.v1.json`)));
   out += sec('ФИНАЛ', rd(path.join(workDir, 'work', `candidate-${slug}.json`)));
   out += sec('ФАЙЛ ФАКТОВ', rd(path.join(workDir, 'facts', slug + '-facts.md')));
+  out += sec('ДОСЬЕ ПОЭТА (законная опора)', rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')));
+  out += sec('СЛОВАРНЫЕ ЗАПИСИ ПЕСНИ (законная опора lang-аннотаций)', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
 }
 process.stdout.write(out + '\n');
