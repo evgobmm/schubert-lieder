@@ -18,7 +18,9 @@ const kebab = (s) => s.toLowerCase()
 const kebabPlain = (s) => s.toLowerCase().replace(/[äöüß’'`]/g, (c) => ({ 'ä': 'a', 'ö': 'o', 'ü': 'u', 'ß': 'ss' }[c] || '')).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const fetchText = (url) => {
   try {
-    const html = execFileSync('curl', ['-sL', '--max-time', '40', '-A', 'Mozilla/5.0 (schubert-lieder research; contact: evgobmm@gmail.com)', url], { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 });
+    const raw = execFileSync('curl', ['-sL', '--max-time', '40', '-A', 'Mozilla/5.0 (schubert-lieder research; contact: evgobmm@gmail.com)', '-w', '\n__HTTP__%{http_code}', url], { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 });
+    const m = raw.match(/\n__HTTP__(\d{3})$/); const code = m ? Number(m[1]) : 0; const html = raw.replace(/\n__HTTP__\d{3}$/, '');
+    if (code !== 200) return { ok: false, chars: 0, text: '', error: 'HTTP ' + code };
     const text = html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ')
       .replace(/<br\s*\/?>/gi, '\n').replace(/<\/(p|div|h\d|li|tr)>/gi, '\n').replace(/<[^>]+>/g, ' ')
       .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&ouml;/g, 'ö').replace(/&auml;/g, 'ä').replace(/&uuml;/g, 'ü').replace(/&szlig;/g, 'ß')
