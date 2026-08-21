@@ -40,6 +40,16 @@ if (stage === 'facts') {
   const ex = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/songs/d118-gretchen-am-spinnrade.json'), 'utf8'));
   out += sec('ОБРАЗЕЦ СТРУКТУРЫ stanzas (эталон, одна строфа)', JSON.stringify([{ lines_de: ex.stanzas[1].lines_de, lines_ru: ex.stanzas[1].lines_ru }], null, 1));
   out += sec('ОБРАЗЕЦ meta', JSON.stringify({ title_ru: ex.title_ru, poet_ru: ex.poet_ru, title_annotations: ex.title_annotations }, null, 1));
+} else if (stage === 'page') {
+  out += sec('БРИФ (закон конвейера)', brief);
+  out += sec('ПАКЕТ ПЕСНИ: текст, словарные карточки, непокрытые формы', rd(path.join(workDir, 'songs', `d${d}-packet.json`)));
+  out += sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
+  out += sec('ФАЙЛ ФАКТОВ (единственный источник meaning-аннотаций и «О песне»)', rd(path.join(workDir, 'facts', slug + '-facts.md')));
+  const dos = rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')) || '';
+  const kratko = (dos.match(/## Кратко[\s\S]*?(?=\n## )/) || [dos.slice(0, 2500)])[0];
+  out += sec('ДОСЬЕ ПОЭТА — выдержка «Кратко» (полное досье: planning/research/poets/' + poetSlug + '.md, читать только при нужде)', kratko);
+  const ex = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/songs/d194-die-mainacht.json'), 'utf8'));
+  out += sec('ОБРАЗЕЦ СТРУКТУРЫ (D 194: одна строфа + заголовки about)', JSON.stringify({ stanza_example: { lines_de: ex.stanzas[0].lines_de, lines_ru: ex.stanzas[0].lines_ru }, meta_example: { title_ru: ex.title_ru, poet_ru: ex.poet_ru, title_annotations: ex.title_annotations }, about_titles: ex.about.map((x) => x.title) }, null, 1));
 } else if (stage === 'about') {
   out += sec('БРИФ (закон конвейера)', brief);
   out += sec('ФАЙЛ ФАКТОВ (единственный источник)', rd(path.join(workDir, 'facts', slug + '-facts.md')));
@@ -51,8 +61,8 @@ if (stage === 'facts') {
   out += sec('БРИФ (закон конвейера)', brief);
   out += sec('СТРАНИЦА-КАНДИДАТ (править её целиком)', rd(path.join(workDir, 'work', `candidate-${slug}.json`)));
   out += sec('ФАЙЛ ФАКТОВ (опора; новых фактов не вносить)', rd(path.join(workDir, 'facts', slug + '-facts.md')));
-  out += sec('ДОСЬЕ ПОЭТА (законная опора для биографии и контекста — не снимать то, что им подтверждено)', rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')));
-  out += sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА С ЦИТАТАМИ (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга)', (() => { try { const p = JSON.parse(fs.readFileSync(path.join(workDir, 'songs', `d${d}-packet.json`), 'utf8')); const full = p.cache.map((c) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'planning/dictionary/entries', c.lemma + '.json'), 'utf8')); } catch { return c; } }); return JSON.stringify(full.map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, era: c.era, caveats: c.caveats, evidence: c.evidence })), null, 1); } catch { return null; } })());
+  { const dos = rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')) || ''; const kratko = (dos.match(/## Кратко[\s\S]*?(?=\n## )/) || [dos.slice(0, 2500)])[0]; out += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора; полное досье planning/research/poets/' + poetSlug + '.md — не снимать то, что подтверждено досье)', kratko); }
+  out += sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА С ЦИТАТАМИ (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга)', (() => { try { const p = JSON.parse(fs.readFileSync(path.join(workDir, 'songs', `d${d}-packet.json`), 'utf8')); const full = p.cache.map((c) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'planning/dictionary/entries', c.lemma + '.json'), 'utf8')); } catch { return c; } }); return JSON.stringify(full.map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, caveats: c.caveats, era: (c.era || '').slice(0, 240), evidence_first: ((c.evidence || '').split('\n').find((l) => l.trim()) || '').slice(0, 220) })), null, 1); } catch { return null; } })());
   out += sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
 } else if (stage === 'delta') {
   out += sec('ВЕРСИЯ ДО Fable (v1)', rd(path.join(workDir, 'work', `candidate-${slug}.v1.json`)));
