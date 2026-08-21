@@ -26,9 +26,16 @@ if (stage === 'facts') {
   if (fs.existsSync(pre)) for (const f of fs.readdirSync(pre).filter((x) => x.endsWith('.txt'))) out += sec('ПРЕДЗАГРУЖЕННЫЙ ИСТОЧНИК: ' + f.replace('.txt', ''), rd(path.join(pre, f), 40000));
   out += sec('ТОП-5 ЗАПИСЕЙ (обоснование; факты о записях брать отсюда)', rd(path.join(ROOT, 'planning/research', slug + '-top5.md')));
   out += sec('ОБРАЗЕЦ ФОРМАТА ФАЙЛА ФАКТОВ (первые строки)', rd(path.join(ROOT, 'planning/research/d198-seufzer-facts.md'), 3500));
+} else if (stage === 'dict') {
+  const p = JSON.parse(fs.readFileSync(path.join(workDir, 'songs', `d${d}-packet.json`), 'utf8'));
+  out += sec('НЕМЕЦКИЙ ТЕКСТ ПЕСНИ', textBlock);
+  out += sec('НЕПОКРЫТЫЕ ФОРМЫ (проверь лемму в кэше planning/dictionary/entries/ — наивный лемматизатор промахивается; исследуй только реально отсутствующие)', JSON.stringify(p.uncovered, null, 1));
+  out += sec('ОБРАЗЕЦ ЗАПИСИ КЭША', rd(path.join(ROOT, 'planning/dictionary/entries/busen.json')));
+  out += sec('СПИСОК ЛЕММ КЭША (для проверки покрытия)', fs.readdirSync(path.join(ROOT, 'planning/dictionary/entries')).map((x) => x.replace('.json', '')).join(' '));
 } else if (stage === 'translate') {
   out += sec('БРИФ (закон конвейера)', brief);
   out += sec('ПАКЕТ ПЕСНИ: текст, словарные карточки покрытых слов, непокрытые формы', rd(path.join(workDir, 'songs', `d${d}-packet.json`)));
+  out += sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ (этап dict)', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
   out += sec('ФАЙЛ ФАКТОВ (единственный источник meaning-аннотаций)', rd(path.join(workDir, 'facts', slug + '-facts.md')));
   const ex = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/songs/d118-gretchen-am-spinnrade.json'), 'utf8'));
   out += sec('ОБРАЗЕЦ СТРУКТУРЫ stanzas (эталон, одна строфа)', JSON.stringify([{ lines_de: ex.stanzas[1].lines_de, lines_ru: ex.stanzas[1].lines_ru }], null, 1));
