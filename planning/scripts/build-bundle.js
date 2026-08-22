@@ -28,7 +28,7 @@ const cand = (suffix) => path.join(workDir, 'work', `candidate-${slug}${suffix}.
 const compactFacts = (t) => t ? t.split('\n').map((l) => {
   if (!/^\*\*Ф\d+\.\*\*/.test(l)) return /^#|^---/.test(l) ? l : null;
   let x = l.replace(/https?:\/\/\S+/g, '').replace(/«[^»]*»/g, '').replace(/\(\s*\)/g, '').replace(/\s+—\s+(?=—)/g, ' ').replace(/\s+—\s*$/g, '').replace(/[ \t]+/g, ' ').replace(/ ,/g, ',').replace(/—\s+—/g, '—');
-  return x.length > 320 ? x.slice(0, 320) + '…' : x;
+  return x.length > 700 ? x.slice(0, 700) + '…' : x;
 }).filter(Boolean).join('\n') : null;
 const fullCards = () => { const p = rj(packetPath); if (!p) return []; return p.cache.map((c) => rj(path.join(ROOT, 'planning/dictionary/entries', c.lemma + '.json')) || c); };
 const cardsCompact = (max) => JSON.stringify(fullCards().map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, caveats: (c.caveats || '').slice(0, max), era: (c.era || '').slice(0, max), evidence_first: ((c.evidence || '').split('\n').find((l) => l.trim()) || '').slice(0, max) })), null, 1);

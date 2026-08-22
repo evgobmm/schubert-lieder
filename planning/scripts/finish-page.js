@@ -27,5 +27,6 @@ if (mode === '--v1' && chk.status === 0) fs.copyFileSync(out, path.join(wd, `can
 const nAnn = (page.stanzas || []).reduce((a, st) => a + (st.lines_ru || []).reduce((b, l) => b + (l.annotations || []).length, 0), 0);
 console.log(`ИТОГ: ${chk.status === 0 ? 'валидатор чист' : 'ЕСТЬ ERROR — исправь и повтори'}; линт: ${lint.status === 0 ? 'чист' : 'есть срабатывания — исправь и повтори'}; аннотаций ${nAnn}, секций about ${(page.about || []).length}${mode === '--v1' ? '; v1 сохранён' : ''}`);
 const okAll = chk.status === 0 && lint.status === 0;
-if (okAll) { const next = mode === '--v1' ? 'fable' : (mode === '--final' ? 'delta' : null); if (next) { const bb = run([path.join(ROOT, 'planning/scripts/build-bundle.js'), next, d, workDir]); process.stdout.write('Следующий бандл собран: ' + bb.stdout); } }
-process.exit(okAll ? 0 : 1);
+const okStage = mode === '--v1' ? chk.status === 0 : okAll; // на этапе page линт информационный (его снимает Fable), на --final — гейт
+if (okStage) { const next = mode === '--v1' ? 'fable' : (mode === '--final' ? 'delta' : null); if (next) { const bb = run([path.join(ROOT, 'planning/scripts/build-bundle.js'), next, d, workDir]); process.stdout.write('Следующий бандл собран: ' + bb.stdout); } }
+process.exit(okStage ? 0 : 1);
