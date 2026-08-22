@@ -78,6 +78,7 @@
   Deutsches Wörterbuch** (исторические значения; статьи hin, nimmermehr, vergällen,
   verrücken, zerstücken цитируют строки Гретхен).
 - **Adelung, Wörterbuch (Wien 1811)** — значения эпохи, через MDZ/BSB.
+- **Jacob und Wilhelm Grimm, Deutsches Wörterbuch (DWB)** — исторический словарь немецкого языка (на dwds.de/wb/dwb); главная опора словарных карточек проекта для значений эпохи; с 2026-08-22 начала статей предзагружаются скриптом по словоформам песни.
 - **Duden** (duden.de) — современная норма и происхождение.
 - **БНРС** (translate.academic.ru), **Multitran**, **PONS** — немецко-русские эквиваленты.
 - **Treccani**, итальянско-русские словари academic.ru — итальянские слова корпуса
