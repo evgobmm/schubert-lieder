@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+// Публикация чистых кандидатов (0 токенов):
+//   node planning/scripts/publish-candidates.js <workDir> <d> [<d> ...]
+// Для каждой песни: копирует work/candidate-<slug>.json → app/src/data/songs/<file>, facts/<slug>-facts.md → planning/research/,
+// добавляет запись в planning/catalog/translated.json; затем build-app-data, check-corpus, lint-style, check-acknowledgements.
+const fs = require('fs');
+const path = require('path');
+const { spawnSync } = require('child_process');
+const ROOT = path.join(__dirname, '..', '..');
+const [workDir, ...ds] = process.argv.slice(2);
+if (!workDir || !ds.length) { console.error('usage: publish-candidates.js <workDir> <d>...'); process.exit(2); }
+const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/index.json'), 'utf8'));
+const trPath = path.join(ROOT, 'planning/catalog/translated.json');
+const translated = JSON.parse(fs.readFileSync(trPath, 'utf8'));
+const run = (cmd, args, cwd) => { const r = spawnSync(cmd, args, { encoding: 'utf8', cwd: cwd || ROOT }); return { code: r.status, out: (r.stdout || '') + (r.stderr || '') }; };
+for (const d of ds) {
+  const e = index.find((x) => String(x.d) === String(d)); const slug = e.file.replace('.json', '');
+  const cand = path.join(workDir, 'work', `candidate-${slug}.json`);
+  const chk = run('node', [path.join(ROOT, 'planning/scripts/check-song-file.js'), cand]);
+  if (chk.code !== 0) { console.log(`D ${d}: валидатор НЕ чист — не публикую\n` + chk.out); continue; }
+  const song = JSON.parse(fs.readFileSync(cand, 'utf8'));
+  fs.writeFileSync(path.join(ROOT, 'app/src/data/songs', e.file), JSON.stringify(song, null, 1) + '\n');
+  const f = path.join(workDir, 'facts', slug + '-facts.md'); if (fs.existsSync(f)) fs.copyFileSync(f, path.join(ROOT, 'planning/research', slug + '-facts.md'));
+  translated[String(d)] = { file: e.file, title_ru: song.title_ru, poet_ru: song.poet_ru };
+  console.log(`D ${d} «${song.title_ru}» → ${e.file} (+ файл фактов, translated.json)`);
+}
+fs.writeFileSync(trPath, JSON.stringify(translated, null, 1) + '\n');
+const b = run('node', [path.join(ROOT, 'planning/catalog/scripts/build-app-data.js')]); console.log('build-app-data: ' + b.out.trim().split('\n').slice(-2).join(' | '));
+const c = run('node', [path.join(ROOT, 'planning/scripts/check-corpus.js')]); console.log('check-corpus: ' + (c.out.match(/ERROR: \d+, WARN: \d+/) || [c.out.slice(-200)])[0] + (c.code ? '\n' + c.out.split('\n').filter((l) => l.includes('[ERROR]')).join('\n') : ''));
+const l = run('node', [path.join(ROOT, 'planning/scripts/lint-style.js'), ...ds.map((d) => path.join(ROOT, 'app/src/data/songs', index.find((x) => String(x.d) === String(d)).file))]); console.log('lint-style: ' + l.out.trim().split('\n').slice(-1)[0]);
+const a = run('node', [path.join(ROOT, 'planning/scripts/check-acknowledgements.js')]); console.log('acknowledgements: ' + a.out.trim());
+process.exit(c.code || l.code || a.code ? 1 : 0);
