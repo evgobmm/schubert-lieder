@@ -16,7 +16,15 @@ const songs = {};
 for (const line of fs.readFileSync(jp, 'utf8').split('\n').filter(Boolean)) {
   let x; try { x = JSON.parse(line); } catch { continue; }
   if (x.type !== 'result' || !x.result || typeof x.result !== 'object') continue;
-  const r = x.result; const d = String(r.d || '?').match(/\d+[A-Za-z]?(?:\/\d+)?/); const key = d ? d[0] : '?';
+  const r = x.result; const d = String(r.d || '?').match(/^\s*(\d+[A-Za-z]?(?:\/\d+)?)\s*$/); let key = d ? d[1] : '?';
+  // агент мог вернуть в поле d прозу вместо номера — восстанавливаем D по его транскрипту (промпт называет песню)
+  if (key === '?' && x.agentId) {
+    try {
+      const t = fs.readFileSync(path.join(path.dirname(jp), 'agent-' + x.agentId + '.jsonl'), 'utf8').slice(0, 20000);
+      const m = t.match(/D\s?(\d+[A-Za-z]?)/) || t.match(/\bd(\d+[A-Za-z]?)-/);
+      if (m) key = m[1];
+    } catch { }
+  }
   const s = songs[key] || (songs[key] = { stages: [], deltas: [], flags: [], removed: 0, calls: 0 });
   s.calls += r.tool_calls || 0;
   if ('n_new' in r) s.stages.push(`dict(+${r.n_new}${r.drafts && r.drafts.length ? ', draft ' + r.drafts.length : ''})`);

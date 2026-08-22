@@ -57,6 +57,9 @@
 - **MDZ / Bayerische Staatsbibliothek** (digitale-sammlungen.de) — сканы AGA Serie XX,
   IIIF и hOCR: главный источник немецких текстов; там же — словарь Адельунга 1811
   (lexika.digitale-sammlungen.de).
+- **Staats- und Universitätsbibliothek Hamburg** (resolver.sub.uni-hamburg.de, платформа
+  Kitodo) — факсимиле ранних печатных изданий стихотворений (через ссылки schubertsong.uk:
+  сборники Клаудиуса для D 504 и D 530).
 - **The LiederNet Archive** (lieder.net) — эталон сверки строфики и поющихся текстов
   (слой Растля), список всех вертонизаций каждого стихотворения.
 - **schubertsong.uk** — исследованные страницы стихотворений, датировки, Original Spelling.

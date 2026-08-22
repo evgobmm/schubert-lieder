@@ -1,0 +1,116 @@
+# Факты: «Nachtviolen» (D 752)
+
+Немецкий текст песни в проекте (слэги строф — 4): [1] «Nachtviolen, Nachtviolen! / Dunkle Augen, seelenvolle, / Selig ist es, sich versenken / In dem sammtnen Blau, / In dem sammtnen Blau.» [2] «Grüne Blätter streben freudig / Euch zu hellen, euch zu schmücken, / Doch ihr blicket ernst und schweigend / In die laue Frühlingsluft.» [3] «Mit erhabnen Wehmuthsstrahlen / Trafet ihr mein treues Herz,» [4] «Und nun blüht in stummen Nächten / Fort die heilige Verbindung, / Nun blüht in stummen Nächten / Fort die heilige Verbindung.» Строфика — четыре строфы (3-я вдвое короче остальных, 2 строки вместо 4); проектный текст даёт слово 1-й и 4-й строф дважды и первую строку 4-й строфы дважды — повторы, отсутствующие в напечатанном стихотворении (см. §3). Автор стихов — Иоганн Майрхофер. Досье поэта: раздел «=== ДОСЬЕ ПОЭТА ===» бандла (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). Топ-5 записей: раздел «=== ТОП-5 ЗАПИСЕЙ ===» бандла.
+
+---
+
+## 1. Датировка и возраст Шуберта
+
+**Ф1.** Песня сочинена в 1822 году. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Komponiert: 1822» — verified.
+
+**Ф2.** Schubertsong.uk датирует песню точнее — апрелем 1822 года. — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «Set by Schubert: D 752 [April 1822]» — verified (cross-verified со schubertlied.de по году 1822; месяц — только у schubertsong.uk, secondary).
+
+**Ф3.** Шуберту было 25 лет, когда он написал эту песню. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Schubert war 25 Jahre alt, als er dieses Lied schrieb.» — verified.
+
+**Ф4.** Текст стихотворения написан, вероятно, в 1821 году. — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «Text written probably 1821.» — uncertain (источник сам маркирует датировку как предположительную).
+
+## 2. Публикация и автограф
+
+**Ф5.** При жизни Шуберта песня не публиковалась; впервые она была издана только 23 ноября 1872 года. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Veröffentlichung (angezeigt): 23. November 1872» — verified. Между сочинением (1822) и первой публикацией (1872) — 50 лет; между смертью Шуберта (1828, дата общеизвестна) и публикацией — 44 года.
+
+**Ф6.** Издание 1872 года выпустил в Вене Йозеф Петер Готтхард как «Nachlass 1872» (том «Neueste Folge nachgelassener Lieder und Gesänge von Franz Schubert»), издательский номер (Verlagsnummer) 345; «Nachtviolen» в этом сборнике посвящена издателем «Fräulein Maria Ambros». — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Die Veröffentlichung besorgte 1872 J. P. Gotthard in Wien als Nachlass 1872 - 20 | Verlagsnummer 345»; «Neueste Folge nachgelassener Lieder und Gesänge von Franz Schubert»; в перечне песен сборника — «Nachtviolen D 752 (Fräulein Maria Ambros gewidmet vom Verleger)» — verified.
+
+**Ф7.** Публикация 1872 года анонсирована в венской «Österreichische Buchhändler-Correspondenz» 23 ноября 1872 года (первичный источник — Австрийская национальная библиотека, база Anno). — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Österreichische Nationalbibliothek, Anno … Österreichische Buchhändler-Correspondenz Jhg. 1872 Ausgabe vom 23. November 1872» — verified.
+
+**Ф8.** Каталожная позиция в старом Полном собрании сочинений Шуберта (Alte Gesamtausgabe): Serie XX, том 07, № 403. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Alte Gesamtausgabe, Serie XX, Bd. 07 № 403» — verified.
+
+**Ф9.** Песня также учтена в издании Фридлендера (Friedlaender Edition), том 7, № 60. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Friedlaender Edition Bd. 7 » 60» — verified.
+
+**Ф10.** По вопросам источниковедения (рукописи и т. д.) schubertlied.de отсылает к тематическому каталогу Отто Эриха Дойча. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Informationen zur Quellenlage (Manuskripte etc.) finden Sie hier: Thematisches Verzeichnis von Otto Erich Deutsch» — verified (ссылка на каталог как способ проверки; сам каталог в бандле не раскрыт — uncertain, детали автографа не подтверждены).
+
+## 3. Текст и источник
+
+**Ф11.** Стихотворение впервые напечатано в 1824 году в сборнике «Gedichte von Johann Mayrhofer» (Вена, издатель Friedrich Volke), на странице 121, под заглавием в печати «Nachtviolenlied». — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Titel des Gedichtes im Druck: Nachtviolenlied»; «Das Gedicht Nachtviolen von Johann Baptist Mayrhofer wurde veröffentlicht im Jahr 1824 in Gedichte von Johann Mayrhofer. Es findet sich auf Seite 121.» — verified. Независимо (страница 121) подтверждено schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «Confirmed with Gedichte von Johann Mayrhofer. Wien. Bey Friedrich Volke. 1824, page 121» — verified (cross-verified двумя источниками по странице и году).
+
+**Ф12.** Стихотворение вошло также в посмертный сборник «Gedichte von Johann Mayrhofer. Neue Sammlung» (изд. Эрнст фон Фейхтерслебен, Вена, 1843, изд-во Ignaz Klang), на странице 214; в этом издании стихотворение — № 1 цикла «Nachtviolen» (в отличие от первой публикации 1824 года, где оно было № 4 цикла, тогда ещё не выделенного как «Nachtviolen»). — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «Confirmed with … Gedichte von Johann Mayrhofer. Neue Sammlung. … herausgegeben von Ernst Freih. v. Feuchtersleben. Wien, 1843. Verlag von Ignaz Klang, Buchhändler, page 214.»; примечание Петера Растля: «This poem (originally no. 4 of the cycle) is not part of the cycle in the printed edition of 1843. Here it is no. 1 of the cycle Nachtviolen.» — verified. Об издателе сборника 1843 года см. также досье, Ф11 (Фейхтерслебен).
+
+**Ф13.** По примечанию исследователя Петера Растля (приведено на schubertsong.uk): Шуберт получал тексты Майрхофера в рукописи; автографы его цикла «Heliopolis», посвящённого Францу фон Шоберу, хранятся в Венской городской библиотеке (Wienbibliothek). Напечатанное издание стихов Майрхофера вышло много позже и даёт тексты в переработанном виде. — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «Note by Peter Rastl: Schubert received Mayrhofer's texts in handwriting; the manuscripts of his cycle Heliopolis, dedicated to Franz von Schober, are preserved in the Vienna City Library. The printed edition of Mayrhofer's poems appeared much later and presents the texts in a revised version.» — verified.
+
+**Ф14.** Судя по всему, Шуберт работал не с печатным текстом 1824 года, а с более ранней рукописной версией поэта, сохранившейся в Венской городской библиотеке; между рукописной (положенной на музыку) и напечатанной 1824 года версиями есть расхождения. — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «It appears that Schubert worked from (and made changes to) an earlier manuscript version by the poet, which has been preserved in Vienna City Library.» — verified.
+
+**Ф15.** Построчное расхождение рукописной (положенной Шубертом на музыку) версии и печатной версии 1824 года — по орфографии эпохи, приведённой на schubertsong.uk (различия выделены источником полужирным; в цитате ниже отмечены курсивом):
+
+Рукописная версия (=текст песни Шуберта):
+«Nachtviolen, Nachtviolen! / Dunkle Augen, seelenvolle, - / Selig ist es *sich versenken* / *In dem sammtnen* Blau. / Grüne Blätter streben freudig / Euch zu hellen, euch zu schmücken; / Doch ihr *blicket ernst und schweigend* / In die laue *Frühlingsluft*. / Mit *erhabnem Wehmuthstrahle* / Trafet ihr mein treues Herz. / *Und* nun blüht in stummen Nächten / Fort die heilige Verbindung.»
+
+Печатная версия 1824 года:
+«Nachtviolen, Nachtviolen! / Dunkle Augen, seelenvolle, - / Selig ist es *sich vertiefen* / *In das sammtne* Blau. / Grüne Blätter streben freudig / Euch zu hellen, euch zu schmücken; / Doch ihr *schauet ernst und ahnend* / In die laue *Sommerluft*. / *Ja, so fesselt ihr den Dichter:* / Mit erhabnen Wehmutsstrahlen / Trafet ihr *sein* treues Herz. / *Und so* blüht in stummen Nächten / Fort die heilige Verbindung. / *Unaussprechlich, unbegriffen, / Und die Welt erreicht sie nicht.*»
+
+— schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «When the text was published in 1824 it was slightly different (see below, with changes in bold)» + приведённые тексты обеих версий — verified. Таким образом печатная версия отличается от положенной на музыку минимум по: глаголу («sich versenken» → «sich vertiefen»), падежу/артиклю («in dem sammtnen Blau» → «in das sammtne Blau»), глаголу взгляда и эпитету («blicket ernst und schweigend» → «schauet ernst und ahnend»), существительному («Frühlingsluft» → «Sommerluft»), добавленной строке-обращению перед «Mit erhabnen…» («Ja, so fesselt ihr den Dichter:» — в положенной на музыку версии её нет), местоимению («mein» → «sein» в печатной версии — притяжательное при «treues Herz»), союзу («Und nun» → «Und so»), и печатная версия 1824 года заканчивается дополнительным двустишием («Unaussprechlich, unbegriffen, / Und die Welt erreicht sie nicht»), которого нет в версии, положенной Шубертом на музыку.
+
+**Ф16.** Текст песни, зафиксированный на странице schubertlied.de (по нотам/партитуре), даёт написание «samtnen» и «Wehmutsstrahlen» — с современной (реформированной) орфографией — тогда как schubertsong.uk в разделе «Original Spelling» даёт орфографию эпохи: «sammtnen» и «Wehmuthstrahle» (ед. ч.) для рукописной версии, «Wehmutsstrahlen» (мн. ч.) — для печатной версии 1824 года. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «In dem samtnen Blau» / «Mit erhabnen Wehmutsstrahlen»; schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «In dem sammtnen Blau» / «Mit erhabnem Wehmuthstrahle» (рукопись) — verified (текстологическое расхождение по орфографии и числу между источниками зафиксировано, не разрешается в пользу одного).
+
+**Ф17.** Проектный немецкий текст песни (см. вводный абзац) в целом совпадает с рукописной версией, положенной Шубертом на музыку (по schubertsong.uk), но содержит повторы строк — двукратное повторение последней строки 1-й строфы («In dem sammtnen Blau»), а также двукратное повторение первой строки и целиком последних двух строк 4-й строфы — которых нет ни в тексте на schubertlied.de (даёт по одному проведению каждой строфы в разделе «Liedtext», хотя ниже трижды воспроизводит всё стихотворение подряд — вероятно, музыкальная строфическая структура с повторами куплетов), ни в печатном изводе 1824 года на schubertsong.uk. — сопоставление разделов «НЕМЕЦКИЙ ТЕКСТ ПЕСНИ» бандла, schubertlied.de и schubertsong.uk (см. Ф15) — uncertain (повторы строк в проектном тексте не подтверждены отдельной оговоркой ни одного источника — вероятно, отражают музыкальное строфическое повторение отдельных строк в партитуре, но прямого подтверждения этому в бандле нет).
+
+**Ф18.** Название «Nachtviolen» (ночные фиалки) почти наверняка обозначает растение Hesperis matronalis (вечерница ночная фиалка, «ночная фиалка»), названное так потому, что его аромат сильнее всего вечером и ночью; Грэм Джонсон, впрочем, отмечает, что это могла быть и Hesperis africana («африканская ночная фиалка»). — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «'Night violets' are almost certainly Hesperis matronalis, so called because their fragrance is strongest in the evening and at night. However, Graham Johnson points out that they could also be Hesperis africana (Afrikanische Nachtviole)» — verified (мнение Джонсона передано вторичным пересказом schubertsong.uk, не прямой цитатой из Hyperion — bundle не содержит буклета Hyperion по D 752).
+
+**Ф19.** Смысловой комментарий Малколма Рена (schubertsong.uk): «глаза встречаются; связь устанавливается в мгновение, в мгновение ока (немецкое слово „Augenblick“ означает „момент“). Позволяя себе погрузиться в бархатную синеву, в тёмные, полные душевности глаза фиалок, сами цветы глядят вовне „серьёзно и молча“. „Меланхолические лучи“ света, исходящие от них, поражают сердце поэта. Их „священная“ связь расцветает ночью и в тишине». — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «Eyes meet; a connection is established in a moment, in the blinking of an eye (an 'Augenblick' is the German word for 'moment'). As the poet allows himself into the velvety blue, into the dark, soulful eyes of the violets, the flowers themselves gaze out 'earnestly and silently'. The 'melancholy beams' of light that radiate from them strike the poet's heart. Their 'sacred' bond flourishes at night and in silence.» — verified.
+
+**Ф20.** По Рену, кем или чем на самом деле являются «ночные фиалки» (как для читателя, так и для самого поэта) и какова природа установившейся связи — остаётся тайной, хранимой ночью и молчанием. — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «However, who or what they truly represent (for the reader as much as the poet), and the nature of the bond that has been established, remains a mystery reserved for the night and silence.» — verified.
+
+**Ф21.** Темы и образы стихотворения по разметке schubertsong.uk: синева, глаза, цветы, взгляды/взгляды украдкой, зелёный цвет, сердца, радость, узы и связи, листва, меланхолия, ночь и луна, шум и тишина, душа, весна (время года), погружение под воду/тонущее, бархат, фиалки. — schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «Themes and images in this text: Blue; Eyes; Flowers; Gazes, glimpses and glances; Green; Hearts; Joy; Knots and bonds; Leaves and foliage; Melancholy; Night and the moon; Noise and silence; Soul; Spring (season); Under the water, sinking and drowning; Velvet; Violets» — verified.
+
+**Ф22.** Ссылка на текстовый первоисточник (первое издание) в оцифрованном виде — Австрийская национальная библиотека (ÖNB), «Digitalisat online», страница 121 [135 из 212 листов скана]. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Digitalisat online» (со ссылкой на скан ÖNB); schubertsong.uk, https://www.schubertsong.uk/text/nachtviolen/ — «To see an early edition of the text, go to page 121 [135 von 212] here: http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ177450902» — verified (существование скана и постраничной ссылки подтверждено обоими источниками; сам файл в бандле не проверялся).
+
+**Ф23.** Источник текста и сведения об альтернативных композициях на это стихотворение, по указанию schubertlied.de, — сайт www.lieder.net (LiederNet Archive). — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Textquelle und alternative Kompositionen: www.lieder.net» — verified (существование ссылки; содержимое самой страницы LiederNet недоступно — попытка сетевого запроса не дала результата, см. «Не подтвердилось»).
+
+## 4. Музыка
+
+**Ф24.** Оригинальная тональность песни — до мажор (C-Dur); тональность размещённой на schubertlied.de записи (Шёне/Монах) — та же, до мажор. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Originaltonart: C-Dur»; «Aufnahmetonart: C-Dur» — verified.
+
+**Ф25.** Бандл не содержит буклета Hyperion (Грэма Джонсона) по D 752 — раздел «hyperion» в манифесте предзагрузки пуст ([]) — поэтому развёрнутый музыкальный разбор по форме, аккомпанементу и ключевым событиям по строкам (в опоре на Джонсона и на музыкальный, а не только текстовый, комментарий Рена) в бандле отсутствует; раздел schubertsong.uk с комментарием касается только смысла текста (Ф19–Ф21), а не музыки. — манифест предзагрузки бандла, поле «hyperion»: «[]» — см. «Не подтвердилось».
+
+## 5. Смыслы и интерпретации
+
+**Ф26** (=Ф19, Ф20 выше). Ключевая интерпретация Рена — стихотворение о мгновенной, безмолвной связи между поэтом и «ночными фиалками» (тёмными, «полными души» глазами), природа которой остаётся неразгаданной тайной ночи и молчания. См. Ф19–Ф20.
+
+**Ф27.** Гомоэротическая подоплёка лирики Майрхофера обсуждается исследователями в целом (не применительно конкретно к «Nachtviolen» — в бандле по этой песне такой связи не проведено): «большинство исследователей согласны в том, что он был гомосексуален» — досье, Ф29 (secondary, атрибутированное мнение en.wikipedia); ср. также досье, Ф30 (Джонсон о «тяге к возвышенной любви и дружбе между мужчинами», сказано в бандле применительно к D 360, не к D 752).
+
+## 6. Рецепция и документы эпохи
+
+**Ф28.** Единственный документированный современный (эпохе) отклик, связанный с изданием песни, — не рецензия на саму «Nachtviolen», а издательское объявление о выходе сборника «Neueste Folge nachgelassener Lieder und Gesänge» (куда вошла и «Nachtviolen») в венской «Österreichische Buchhändler-Correspondenz» от 23 ноября 1872 года. См. Ф6–Ф7. Отдельной прижизненной или посмертной критической рецензии именно на «Nachtviolen» в бандле не приведено — см. «Не подтвердилось».
+
+**Ф29.** На той же странице schubertlied.de приведена хронологическая лента «Vor 200 Jahren» («200 лет назад») с событиями сентября 1826 — марта 1827 года (первая публикация op. 59, критика в берлинской Allgemeine musikalische Zeitung, первая публикация op. 65 и op. 62), но эти записи касаются других опусов Шуберта, изданных в тот период, а не «Nachtviolen» (D 752 не входит ни в один из перечисленных опусов — она была впервые издана в 1872 году, см. Ф5–Ф6); отношения к этой песне лента не имеет — приведена как навигационный элемент сайта. — schubertlied.de, https://www.schubertlied.de/die-lieder/nachtviolen-d752 — «Vor 200 Jahren 21.09.1826 Erstveröffentlichung op. 59 … 02.03.1827 Erstveröffentlichung op. 62» — verified (как факт о содержимом страницы; к самой песне не относится).
+
+## 7. Судьба и наследие
+
+**Ф30.** «Nachtviolen» — одна из 47 песен, которые Шуберт написал на стихи Майрхофера (по счёту NDB; в проектном корпусе — 46 песен); подробнее об этой дружбе и её истории — см. досье, Ф8, Ф9, Ф10, Ф13, Ф15, Ф22–Ф23.
+
+**Ф31.** Стихотворение впервые издано в 1824 году под другим заглавием («Nachtviolenlied») и с иной композицией цикла (№ 4, затем в 1843 году — № 1 цикла «Nachtviolen»); песня Шуберта на 50 лет (1822 → 1872) пережила саму первую публикацию своего текста, оставаясь неизданной. См. Ф5, Ф11–Ф12.
+
+## 8. Записи (топ-5, из раздела бандла «ТОП-5 ЗАПИСЕЙ»)
+
+**Ф32.** 1-е место — Дитрих Фишер-Дискау (баритон) / Джералд Мур (фортепиано), студийная запись EMI, Лондон; год дискографически не установлен, публикуется как «1955?» (гипотеза по сессиям 12–13.05.1955 — из описания фан-загрузки, подтверждена совпадением длительности записи, 182–183 с, с официальным треком Warner и записью MusicBrainz; в дискографии Майкла Грея запись этой песни у Ф.-Д. не значится). Переиздание — Warner «The Great EMI Recordings» (2010). Видео: YouTube ID WzV9RVDSC-4 (канал Warner Classics — Topic). — раздел бандла «ТОП-5 ЗАПИСЕЙ» — secondary (сводка проектного досье отбора, не первичная дискография).
+
+**Ф33.** 2-е место — Элизабет Шварцкопф (сопрано) / Эдвин Фишер (фортепиано); запись 5 октября 1952, EMI Studio No. 1A, Abbey Road; издание — Columbia 33CX 1040; датировка — по дискографии Майкла Грея (id 58914), одна из двух записей песни в топ-5 с датой по первичному источнику. Видео: YouTube ID oJdRvySeGiM (Warner Classics — Topic). — раздел бандла «ТОП-5 ЗАПИСЕЙ» — secondary.
+
+**Ф34.** 3-е место — Элизабет Шуман (сопрано) / Лео Розенек (фортепиано); год дискографически не установлен, публикуется как «1938?» (по метаданным Warner-Topic; у Грея среди 32 её шубертовских позиций «Nachtviolen» не значится, в Naxos 8.110731 песня отсутствует); издания — EMI «Der Hirt auf dem Felsen & 48 Lieder», Warner «Icon». Видео: YouTube ID rSAvVqF4vBs (Warner Classics — Topic). — раздел бандла «ТОП-5 ЗАПИСЕЙ» — secondary.
+
+**Ф35.** 4-е место — Кристиан Герхаэр (баритон) / Герольд Хубер (фортепиано); альбом «Nachtviolen» (Sony Classical / BR-Klassik 88883712172, издание февраль 2014, ℗ 2013, сессии не документированы; год издания 2014 — сквозная конвенция проекта для датировки этого альбома, как у D 196); песня — заглавная для диска; альбом получил Gramophone Award 2015. Видео: YouTube ID uuW0u9faXTg (Sony Classical — Topic). — раздел бандла «ТОП-5 ЗАПИСЕЙ» — secondary.
+
+**Ф36.** 5-е место — Флориан Бёш (баритон) / Малколм Мартино (фортепиано); альбом «Schubert Lieder Recital» (Onyx ONYX4149, издание 20.05.2016); тот же альбом уже используется в топах песен D 225, D 226, D 254, D 257 проекта. Видео: YouTube ID 6vuvMc1vf7M (Onyx Classics — Topic). — раздел бандла «ТОП-5 ЗАПИСЕЙ» — secondary.
+
+**Ф37.** Резервные кандидаты (на случай пересмотра состава): Бернарда Финк / Хубер (сессии IX.2007, Teldex, HMC 901991) — сильнейшая по внешним оценкам современная позиция, уступившая Бёшу только по правилу состава («слот не ранее 2015»); Фишер-Дискау / Мур, сводная запись DG 1969; Элли Амелинг / Болдуин (10–14.09.1976, Concertgebouw, Грей id 198305, Philips 9500 350). — раздел бандла «ТОП-5 ЗАПИСЕЙ», подраздел «Резервы» — secondary.
+
+**Ф38.** Ряд известных интерпретаторов песню не записывали: Ганс Хоттер, Питер Андерс, Криста Людвиг, Люсия Попп, Герман Прай, Фриц Вундерлих, Бригитта Фассбендер, Петер Шрайер, Джанет Бейкер, Томас Квастхоф (дискография последнего закрыта в 2012 году, ровно 6 шубертовских альбомов, лирики на стихи Майрхофера среди них нет). — раздел бандла «ТОП-5 ЗАПИСЕЙ», подраздел «Ключевые решения и отклонённые кандидаты» — secondary (сводка проектного досье; проверено по MusicBrainz-списку произведения и целевым поиском).
+
+---
+
+## Не подтвердилось / не найдено
+
+- **Развёрнутый музыкальный анализ формы и аккомпанемента (по Джонсону).** Буклет Hyperion по D 752 в бандл не попал (манифест: `"hyperion": []`) — раздел «4. Музыка» в этом файле фактов ограничен только тональностью (Ф24); построчный музыкальный разбор ключевых событий партитуры, форма (строфическая/варьированная) и характеристика фортепианной партии — не подтверждены источниками бандла.
+- **Текст со страницы LiederNet.** Манифест отмечает источник как отсутствующий (`"liedernet": {"ok": false, "ddg_http": 202}`); собственная попытка через DuckDuckGo HTML в этой сессии также не вернула ссылок на lieder.net (пустой список результатов). Альтернативные композиции этого стихотворения другими композиторами (на которые ссылается schubertlied.de через LiederNet) не установлены.
+- **Точная дата автографа и место его хранения.** schubertlied.de отсылает по вопросам источниковедения к каталогу Дойча, но сам каталог не раскрыт в бандле — детали рукописи Шуберта (в отличие от рукописи поэта, о которой известно по Ф13–Ф14) не подтверждены.
+- **Причина и точное происхождение повторов строк в проектном немецком тексте песни** (двукратные повторы в 1-й и 4-й строфах, см. Ф17) — ни один источник бандла не поясняет это прямо; вероятная причина (музыкальное строфическое повторение) не подтверждена цитатой.
+- **Год записи Фишера-Дискау/Мура («1955?») и Шуман/Розенека («1938?»)** — оба помечены в бандле как дискографически не установленные, только гипотезы (см. Ф32, Ф34 и «Примечания по датам» топ-5-раздела бандла).
+- **Русская передача имени персонажа/образа «Nachtviolen» как термина ботаники** — не проверялась (не входит в задачу фактографа стихотворения; см. Ф18 — только немецко-английское пояснение Рена/Джонсона).
