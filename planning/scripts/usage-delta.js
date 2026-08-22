@@ -15,7 +15,7 @@ const projDir = path.join(os.homedir(), '.claude', 'projects', process.cwd().rep
 const files = [];
 const walk = (d) => { for (const f of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, f.name); if (f.isDirectory()) walk(p); else if (f.name.endsWith('.jsonl') && fs.statSync(p).mtimeMs >= t0 - 3600e3) files.push(p); } };
 walk(projDir);
-const seen = new Set(); const agg = {}; const perSess = {};
+const seen = new Map(); const agg = {}; const perSess = {};
 const add = (key, u) => { const a = agg[key] || (agg[key] = { msgs: 0, input: 0, cache_create: 0, cache_read: 0, output: 0 }); a.msgs++; a.input += u.input_tokens || 0; a.cache_create += u.cache_creation_input_tokens || 0; a.cache_read += u.cache_read_input_tokens || 0; a.output += u.output_tokens || 0; };
 for (const f of files) {
   const lines = fs.readFileSync(f, 'utf8').split('\n');
@@ -24,11 +24,11 @@ for (const f of files) {
     let j; try { j = JSON.parse(line); } catch { continue; }
     const m = j.message; if (!m || !m.usage || j.type !== 'assistant') continue;
     const ts = Date.parse(j.timestamp); if (!(ts >= t0 && ts <= t1)) continue;
-    const id = (m.id || '') + '|' + (j.requestId || ''); if (seen.has(id)) continue; seen.add(id);
-    add(m.model || 'unknown', m.usage);
-    add((f.includes('/subagents/') ? 'subagents · ' : 'main loop · ') + (m.model || '?'), m.usage);
-    if (byFile) add('file ' + path.basename(f).replace('.jsonl', '') + ' · ' + (m.model || '?'), m.usage);
-    if (bySession) { const s = path.relative(projDir, f).split('/')[0].replace('.jsonl', ''); add('session ' + s + ' · ' + (m.model || '?'), m.usage); }
+    const id = (m.id || '') + '|' + (j.requestId || '');
+    if (seen.has(id)) { const prev = seen.get(id); const extra = (m.usage.output_tokens || 0) - (prev.out || 0); if (extra > 0) { for (const k of prev.keys) agg[k].output += extra; prev.out = m.usage.output_tokens; } continue; }
+    const keys = [m.model || 'unknown', (f.includes('/subagents/') ? 'subagents · ' : 'main loop · ') + (m.model || '?')]; if (byFile) keys.push('file ' + path.basename(f).replace('.jsonl', '') + ' · ' + (m.model || '?')); if (bySession) keys.push('session ' + path.relative(projDir, f).split('/')[0].replace('.jsonl', '') + ' · ' + (m.model || '?'));
+    seen.set(id, { out: m.usage.output_tokens || 0, keys });
+    for (const k of keys) add(k, m.usage);
   }
 }
 const fmt = (n) => (n / 1e6).toFixed(2) + 'M';
