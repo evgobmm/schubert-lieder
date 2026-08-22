@@ -8,6 +8,7 @@ const path = require('path');
 const os = require('os');
 const [since, untilArg] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const bySession = process.argv.includes('--by-session');
+const byFile = process.argv.includes('--files');
 if (!since) { console.error('usage: usage-delta.js <sinceISO> [<untilISO>] [--by-session]'); process.exit(1); }
 const t0 = Date.parse(since), t1 = untilArg ? Date.parse(untilArg) : Infinity;
 const projDir = path.join(os.homedir(), '.claude', 'projects', process.cwd().replace(/\//g, '-'));
@@ -25,6 +26,8 @@ for (const f of files) {
     const ts = Date.parse(j.timestamp); if (!(ts >= t0 && ts <= t1)) continue;
     const id = (m.id || '') + '|' + (j.requestId || ''); if (seen.has(id)) continue; seen.add(id);
     add(m.model || 'unknown', m.usage);
+    add((f.includes('/subagents/') ? 'subagents · ' : 'main loop · ') + (m.model || '?'), m.usage);
+    if (byFile) add('file ' + path.basename(f).replace('.jsonl', '') + ' · ' + (m.model || '?'), m.usage);
     if (bySession) { const s = path.relative(projDir, f).split('/')[0].replace('.jsonl', ''); add('session ' + s + ' · ' + (m.model || '?'), m.usage); }
   }
 }
@@ -32,7 +35,7 @@ const fmt = (n) => (n / 1e6).toFixed(2) + 'M';
 let tot = { input: 0, cache_create: 0, cache_read: 0, output: 0, msgs: 0 };
 console.log(`Окно: ${since} → ${untilArg || 'сейчас'}; файлов просмотрено: ${files.length}`);
 for (const [k, a] of Object.entries(agg).sort()) {
-  if (!k.startsWith('session ')) for (const x of Object.keys(tot)) tot[x] += a[x];
+  if (!/^(session |subagents · |main loop · |file )/.test(k)) for (const x of Object.keys(tot)) tot[x] += a[x];
   console.log(`${k.padEnd(48)} msgs ${String(a.msgs).padStart(5)} | in ${fmt(a.input)} | cache+ ${fmt(a.cache_create)} | cache-read ${fmt(a.cache_read)} | out ${fmt(a.output)} | всего ${fmt(a.input + a.cache_create + a.cache_read + a.output)}`);
 }
 console.log(`ИТОГО: msgs ${tot.msgs} | in ${fmt(tot.input)} | cache+ ${fmt(tot.cache_create)} | cache-read ${fmt(tot.cache_read)} | out ${fmt(tot.output)} | всего ${fmt(tot.input + tot.cache_create + tot.cache_read + tot.output)}`);

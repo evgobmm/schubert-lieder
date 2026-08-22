@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+// Аргументы для wave-v2-workflow.js (0 токенов): node planning/scripts/wave-args.js <workDir> <d> [<d> ...]  → JSON {workDir, songs:[{d, slug, poet, first}]}
+const fs = require('fs'); const path = require('path'); const ROOT = path.join(__dirname, '..', '..');
+const [workDir, ...ds] = process.argv.slice(2);
+const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/index.json'), 'utf8'));
+const poetSlug = { 'Ludwig Christoph Heinrich Hölty': 'hoelty', 'Ludwig Gotthard Kosegarten': 'kosegarten', 'Johann Wolfgang von Goethe': 'goethe', 'Johann Mayrhofer': 'mayrhofer', 'Franz von Schober': 'schober', 'Matthias Claudius': 'claudius', 'Matthäus von Collin': 'collin' };
+const songs = ds.map((d) => { const e = index.find((x) => String(x.d) === String(d)); const song = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/songs', e.file), 'utf8')); return { d: String(d), slug: e.file.replace('.json', ''), poet: poetSlug[song.poet_de] || null, first: song.stanzas[0].lines_de[0].replace(/[,.;!?]+$/, '') }; });
+const noDossier = songs.filter((s) => !s.poet); if (noDossier.length) console.error('ВНИМАНИЕ: нет досье поэта у ' + noDossier.map((s) => 'D ' + s.d).join(', ') + ' — сначала досье (planning/research/poets/)');
+console.log(JSON.stringify({ workDir, songs }));
