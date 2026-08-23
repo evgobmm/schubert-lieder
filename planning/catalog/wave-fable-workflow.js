@@ -1,0 +1,48 @@
+export const meta = {
+  name: 'wave-fable',
+  description: 'Догон волны: только финальная редактура Fable → сверка (+1 ремонт) по уже собранным страницам-кандидатам',
+  phases: [{ title: 'Fable' }, { title: 'Сверка' }, { title: 'Ремонт' }],
+}
+// Запуск: Workflow({scriptPath: 'planning/catalog/wave-fable-workflow.js', args: {workDir, songs: [{d, slug, poet}]}})
+// Требует уже готовых <workDir>/work/candidate-<slug>.json и <workDir>/bundles/fable-<slug>.part1.md
+// (этапы словарь/факты/страница пройдены раньше). Промпты — копия соответствующих этапов wave-v2-workflow.js.
+
+const REPO = '/workspaces/schubert-lieder'
+const W = args.workDir
+const CONV = `КОНВЕНЦИЯ СЕГМЕНТОВ (закон проекта): сегменты подстрочника идут в РУССКОМ порядке, поле de каждого сегмента — то немецкое слово (слова), которое этот русский сегмент переводит; порядок de-сегментов МОЖЕТ отличаться от порядка слов в lines_de — это норма, а не дефект; совпадать обязано только множество немецких слов (валидатор это проверяет). Разорванная рамка пишется с многоточием («auf... thut sich») — норма. Артикль без русской пары сливается со следующим словом. Диапазоны сносок считаются по индексам ТЕКУЩЕЙ сегментации (после слияний индексы сдвигаются — это не «сужение диапазона»). Расхождения «порядок de-сегментов ≠ порядок строки» и знаки препинания проблемами НЕ считать.`
+const BUNDLE_NOTE = (stage, slug) => `Бандл: файл ${W}/bundles/${stage}-${slug}.part1.md — прочитай его Read-инструментом ЦЕЛИКОМ (без offset/limit); если файл кончается пометкой «ПРОДОЛЖЕНИЕ В ЧАСТИ 2», прочитай и part2 (и так далее до «КОНЕЦ БАНДЛА»). В бандле есть всё; других файлов не открывай, правил не ищи.`
+const BANS = `Запреты: не спавнить субагентов; в репозиторий ${REPO} ничего не писать; писать только свои выходные файлы в ${W}; немецкий текст не менять ни в одном символе.`
+const S_DICT = { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_new: { type: 'number' }, n_mapped: { type: 'number' }, drafts: { type: 'array', maxItems: 12, items: { type: 'string', maxLength: 60 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_new', 'n_mapped', 'tool_calls'] }
+const S_FACTS = { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_facts: { type: 'number' }, network_calls: { type: 'number' }, gaps: { type: 'array', maxItems: 6, items: { type: 'string', maxLength: 160 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_facts', 'tool_calls'] }
+const S_PAGE = { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_annotations: { type: 'number' }, n_about: { type: 'number' }, rounds: { type: 'number' }, notes: { type: 'string', maxLength: 400 }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_annotations', 'n_about', 'tool_calls'] }
+const S_FABLE = { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_changes: { type: 'number' }, removed: { type: 'array', maxItems: 20, items: { type: 'object', properties: { what: { type: 'string', maxLength: 200 }, why: { type: 'string', maxLength: 200 } }, required: ['what', 'why'] } }, flags: { type: 'array', maxItems: 8, items: { type: 'string', maxLength: 200 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_changes', 'removed', 'tool_calls'] }
+const S_DELTA = { type: 'object', properties: { d: { type: 'string' }, clean: { type: 'boolean' }, problems: { type: 'array', maxItems: 10, items: { type: 'string', maxLength: 240 } }, tool_calls: { type: 'number' } }, required: ['d', 'clean', 'tool_calls'] }
+const S_FIX = { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, applied: { type: 'number' }, rejected: { type: 'array', maxItems: 10, items: { type: 'string', maxLength: 200 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'applied', 'tool_calls'] }
+
+const deltaPrompt = (s, removed) => `Ты — контролёр сохранности и прослеживаемости перед публикацией. ${CONV} Инструмент — только Read бандла (одна-две части), больше ничего: ни grep, ни скриптов, ни других файлов; после чтения сразу отвечай.
+${BUNDLE_NOTE('delta', s.slug)}
+В бандле: отчёт сравнения v1 (до Fable) → финал, построенный скриптом (строки с пометкой ИЗМЕНЕНО, аннотации «было/стало», секции «О песне» целиком), компактные факты, досье «Кратко», словарные карточки. Список снятого, заявленный Fable: ${JSON.stringify(removed || [])}.
+Проверь: (1) всё содержание v1 либо сохранено по существу, либо снято осознанно — снятие правомерно ТОЛЬКО если опоры нет ни в фактах, ни в досье, ни в карточках; снятое без заявления в списке — проблема; (2) в финале нет утверждений вне баз опоры (новые даты, имена, цитаты, обобщения, сравнения); (3) LINES_DE идентичны, de-сегменты совпадают со строкой, пустых ru-сегментов нет (кроме артиклей, слитых с существительным, — их быть не должно); (4) изменённые RU-строки читаются как русские фразы, их аннотации согласованы с новым текстом; (5) язык финала без ИИ-артефактов («не X, а Y» как украшение, «не просто», «работает» о словах, канцелярит). Верни по схеме: d="${s.d}", clean, problems — конкретно (адрес строки/секции, что не так, как исправить), tool_calls.`
+
+const perSong = async (s) => {
+  const fable = await agent(`Ты — финальный редактор проекта «все песни Шуберта с пословным русским переводом», рука эталонной «Гретхен за прялкой». ${BUNDLE_NOTE('fable', s.slug)} ${BANS}
+В бандле: бриф (закон), страница-кандидат целиком, компактные факты (утверждение — источник — статус), досье «Кратко», словарные карточки и новые записи. Базы опоры: meaning-аннотации и «О песне» — факты + досье; lang-аннотации — карточки (их ссылки на Гримма/Аделунга законны); снимать подтверждённое базами — ошибка того же веса, что выдумка; добавлять утверждения вне баз — запрещено (ни новых дат, имён, цитат, сравнений, обобщений).
+Режим — полное чтение вслух, не косметика: каждая RU-строка подстрочника (русская ли фраза; рамки; словарные решения по карточкам; артикли слиты с существительным), каждая аннотация и каждая секция «О песне» — язык по брифу (без «не X, а Y» как украшения, «не просто», «работает» о словах, канцелярита, жаргона, перифраз вместо имён, редких книжных форм; «ё» везде); факты — строго в пределах баз опоры; структура — канон. Немецкий текст и набор немецких слов в сегментах не менять; сегменты можно сливать/делить при перестройке строки — с переносом знаков препинания и обновлением диапазонов аннотаций. Запиши результат ОДНИМ вызовом Write поверх ${W}/work/candidate-${s.slug}.json — ПОЛНЫЙ JSON страницы в том же формате, что в бандле (все поля: d, title_de, title_ru, poet_de, poet_ru, year, title_annotations, stanzas, about, source). Затем Bash: node ${REPO}/planning/scripts/finish-page.js ${s.d} ${W} ${W}/work/candidate-${s.slug}.json --final — при ERROR или линте исправь (Edit) и повтори; не больше двух повторов. Верни по схеме (d="${s.d}"; removed — КАЖДОЕ снятое утверждение или сноска: что снято и почему нет опоры; flags — структурные проблемы перевода, которые ты не правил; tool_calls).`, { label: `Fable D ${s.d}`, phase: 'Fable', schema: S_FABLE, model: 'fable', effort: 'high' })
+  let delta = await agent(deltaPrompt(s, fable && fable.removed), { label: `сверка D ${s.d}`, phase: 'Сверка', schema: S_DELTA, model: 'opus', effort: 'high' })
+  let fix = null, delta2 = null
+  if (delta && !delta.clean && delta.problems && delta.problems.length) {
+    fix = await agent(`Ты — редактор-исполнитель точечных правок перед публикацией. ${CONV} Де-сегменты в немецкий порядок НЕ переставлять; русские строки не ухудшать ради порядка. Файл: ${W}/work/candidate-${s.slug}.json (правь его Edit-ом или node-скриптом через JSON.parse/JSON.stringify(…, null, 1); немецкий текст и набор немецких слов в сегментах не менять). Опоры только на чтение: ${W}/facts/${s.slug}-facts.md, ${W}/work/candidate-${s.slug}.v1.json (версия до Fable — для возврата формулировок), ${W}/work/dict-${s.slug}.json, ${REPO}/planning/research/poets/${s.poet}.md, карточки ${REPO}/planning/dictionary/entries/‹лемма›.json. ${BANS} Бюджет — 7 вызовов инструментов.
+ПРОБЛЕМЫ СВЕРКИ (каждую выполни или отклони с причиной):
+${delta.problems.map((x, i) => `${i + 1}. ${x}`).join('\n')}
+В конце Bash: node ${REPO}/planning/scripts/finish-page.js ${s.d} ${W} ${W}/work/candidate-${s.slug}.json --final — до 0 ERROR и чистого линта. Верни по схеме (d="${s.d}").`, { label: `ремонт D ${s.d}`, phase: 'Ремонт', schema: S_FIX, model: 'opus', effort: 'high' })
+    delta2 = await agent(deltaPrompt(s, (fable && fable.removed) || []), { label: `сверка-2 D ${s.d}`, phase: 'Ремонт', schema: S_DELTA, model: 'opus', effort: 'high' })
+  }
+  return { d: s.d, fable, delta, fix, delta2 }
+}
+
+const PAR = (args.parallel || 6)
+const results = []
+for (let i = 0; i < args.songs.length; i += PAR) { const batch = await parallel(args.songs.slice(i, i + PAR).map((s) => () => perSong(s))); results.push(...batch); log(`готово ${Math.min(i + PAR, args.songs.length)}/${args.songs.length}`) }
+const done = results.filter(Boolean)
+const isClean = (r) => Boolean(r.fable && r.fable.ok && ((r.delta2 || r.delta) || {}).clean)
+return { results: done, clean: done.filter(isClean).map((r) => r.d), dirty: done.filter((r) => !isClean(r)).map((r) => r.d) }
