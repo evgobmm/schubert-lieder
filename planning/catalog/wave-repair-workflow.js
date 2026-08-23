@@ -24,5 +24,6 @@ const perSong = async (s) => {
   return { d: s.d, fix, delta }
 }
 const results = []
-for (let i = 0; i < args.songs.length; i += 3) { const batch = await parallel(args.songs.slice(i, i + 3).map((s) => () => perSong(s))); results.push(...batch); log(`готово ${Math.min(i + 3, args.songs.length)}/${args.songs.length}`) }
+const PAR = (args.parallel || 6)
+for (let i = 0; i < args.songs.length; i += PAR) { const batch = await parallel(args.songs.slice(i, i + PAR).map((s) => () => perSong(s))); results.push(...batch); log(`готово ${Math.min(i + PAR, args.songs.length)}/${args.songs.length}`) }
 return { results, clean: results.filter((r) => r.delta && r.delta.clean).map((r) => r.d), dirty: results.filter((r) => !(r.delta && r.delta.clean)).map((r) => r.d) }
