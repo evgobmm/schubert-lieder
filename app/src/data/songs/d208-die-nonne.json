@@ -1,9 +1,16 @@
 {
  "d": "208",
  "title_de": "Die Nonne",
+ "title_ru": "Монахиня",
+ "poet_de": "Ludwig Christoph Heinrich Hölty",
+ "poet_ru": "Людвиг Кристоф Генрих Хёльти",
  "year": "1815",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Заглавие — от самого Хёльти: стихотворение «Die Nonne» написано в марте 1773 года и напечатано в конце 1774-го. Шубертовскую балладу постоянно путают с «Die junge Nonne» («Молодой монахиней») D 828 — совсем другой и куда более известной песней: та попадает под номером D 208 даже в трек-листы изданий."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -11,6 +18,122 @@
     "Ein schöner junger Ritter",
     "Ein Mädchen, das der Welt entfloh,",
     "Trotz Klosterthor und Gitter;"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Es liebt'",
+       "ru": "Любил"
+      },
+      {
+       "de": "irgendwo",
+       "ru": "где-то"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Welschland",
+       "ru": "Италии"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Балладный зачин: место занято безличным es, а настоящее подлежащее («прекрасный молодой рыцарь») приходит только во второй строке. Апостроф — усечённое liebte («любил»); по-русски «где-то» встаёт перед названием страны."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Welschland — старое имя романской земли по соседству с немецкой: у DWDS это «(соседняя) страна, где говорят на романском языке, то есть Италия или Франция». В балладе — Италия, южная и экзотическая сцена действия."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein schöner",
+       "ru": "прекрасный"
+      },
+      {
+       "de": "junger",
+       "ru": "молодой"
+      },
+      {
+       "de": "Ritter",
+       "ru": "рыцарь"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein Mädchen",
+       "ru": "девушку,"
+      },
+      {
+       "de": "das",
+       "ru": "которая"
+      },
+      {
+       "de": "der Welt",
+       "ru": "от мира"
+      },
+      {
+       "de": "entfloh",
+       "ru": "бежала,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "entfliehen управляет дательным падежом без предлога: der Welt entfliehen — «бежать от мира», обычная формула ухода в монастырь. Немецкое das Mädchen среднего рода, отсюда das («которое»); по-русски девушка женского рода, и местоимение меняется."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Trotz",
+       "ru": "вопреки"
+      },
+      {
+       "de": "Klosterthor",
+       "ru": "монастырским воротам"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Gitter",
+       "ru": "решётке;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Малколм Рен, автор комментариев на Schubert Song Texts, читает эту решётку буквально: она отделяет монахинь от посетителей, и рыцарь видит в ней прутья клетки, где заперта его возлюбленная."
+      }
+     ]
+    }
    ]
   },
   {
@@ -19,6 +142,130 @@
     "Und schwur auf seinen Knieen,",
     "Sie aus dem Kerker zu befreien",
     "Und stets für sie zu glühen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sprach",
+       "ru": "Говорил"
+      },
+      {
+       "de": "viel",
+       "ru": "много"
+      },
+      {
+       "de": "von",
+       "ru": "о"
+      },
+      {
+       "de": "seiner",
+       "ru": "своей"
+      },
+      {
+       "de": "Liebespein",
+       "ru": "любовной муке"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Liebespein — «любовная мука», ходовое поэтическое сложение XVII–XVIII веков; словарь Гриммов приводит в этой статье как раз строку Хёльти."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "schwur",
+       "ru": "клялся"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "seinen",
+       "ru": "своих"
+      },
+      {
+       "de": "Knieen",
+       "ru": "коленях,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Клятвы этой строфы написаны смешными нарочно, говорит Грэм Джонсон: страстные излияния подчёркнуты триолями, и ему ненадолго приходит на ум «Ungeduld» («Нетерпение») из «Прекрасной мельничихи»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "её"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem Kerker",
+       "ru": "темницы"
+      },
+      {
+       "de": "zu befreien",
+       "ru": "освободить"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Kerker (из латинского carcer) — «темница, подземная тюрьма». Монастырскую келью так называет сам рыцарь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "stets",
+       "ru": "всегда"
+      },
+      {
+       "de": "für",
+       "ru": "для"
+      },
+      {
+       "de": "sie",
+       "ru": "неё"
+      },
+      {
+       "de": "zu glühen",
+       "ru": "пылать."
+      }
+     ]
+    }
    ]
   },
   {
@@ -27,6 +274,106 @@
     "Bei diesem Jesuskinde,",
     "Das ihre Mutterarme füllt,",
     "Schwör' ich's dir, o Belinde!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Bei diesem",
+       "ru": "Этим"
+      },
+      {
+       "de": "Muttergottesbild",
+       "ru": "образом Богоматери,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Bei в клятве вводит то, чем клянутся; по-русски это творительный падеж без предлога: «клянусь этим образом». Muttergottesbild — «образ Богоматери»; словарь Гриммов приводит на это слово строку Хёльти."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bei diesem",
+       "ru": "этим"
+      },
+      {
+       "de": "Jesuskinde",
+       "ru": "младенцем Иисусом,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Das",
+       "ru": "который"
+      },
+      {
+       "de": "ihre",
+       "ru": "её"
+      },
+      {
+       "de": "Mutterarme",
+       "ru": "материнские объятья"
+      },
+      {
+       "de": "füllt",
+       "ru": "наполняет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Das — относительное местоимение среднего рода к Jesuskind: подлежащее здесь младенец (глагол стоит в единственном числе), а материнские объятья — то, что он собой наполняет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwör'",
+       "ru": "Клянусь"
+      },
+      {
+       "de": "ich's",
+       "ru": "я в том"
+      },
+      {
+       "de": "dir",
+       "ru": "тебе,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Belinde",
+       "ru": "Белинда!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "ich's — стяжение ich es («я это»), обычное в стихе ради размера; русское «в том» и есть это es. Belinde — условно-поэтическое имя буколической традиции, из одного ряда с Дорис и Хлоридой."
+      }
+     ]
+    }
    ]
   },
   {
@@ -35,6 +382,122 @@
     "So lang ich Odem habe!",
     "Bei meiner Seelen Seligkeit,",
     "Dich lieb' ich bis zum Grabe!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dir",
+       "ru": "Тебе"
+      },
+      {
+       "de": "ganzes",
+       "ru": "всё"
+      },
+      {
+       "de": "mein",
+       "ru": "моё"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце"
+      },
+      {
+       "de": "ist... geweiht",
+       "ru": "посвящено,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Рамка ist… geweiht разведена по концам строки: вспомогательный глагол стоит вторым, причастие — последним. Слитая форма встаёт на место причастия, оно здесь главное по смыслу. Порядок «всё моё» обратен немецкому mein ganzes: по-русски определительное местоимение идёт первым."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So lang",
+       "ru": "Пока"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "Odem",
+       "ru": "дыхание"
+      },
+      {
+       "de": "habe",
+       "ru": "имею!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Odem — торжественный вариант слова Atem («дыхание»), вошедший в поэтическую речь из лютеровской Библии. Весь оборот значит «пока я жив»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bei meiner",
+       "ru": "Моей"
+      },
+      {
+       "de": "Seelen",
+       "ru": "души"
+      },
+      {
+       "de": "Seligkeit",
+       "ru": "блаженством,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "meiner Seelen Seligkeit — старый родительный падеж перед определяемым словом: «блаженство моей души». Клятвенное bei снова передано творительным падежом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dich",
+       "ru": "Тебя"
+      },
+      {
+       "de": "lieb'",
+       "ru": "люблю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "bis",
+       "ru": "до"
+      },
+      {
+       "de": "zum Grabe",
+       "ru": "могилы!"
+      }
+     ]
+    }
    ]
   },
   {
@@ -43,6 +506,114 @@
     "Zumal in einer Zelle?",
     "Ach, sie vergass der Nonnenpflicht,",
     "Des Himmels und der Hölle."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Was",
+       "ru": "Во что"
+      },
+      {
+       "de": "nicht",
+       "ru": "только не"
+      },
+      {
+       "de": "glaubt",
+       "ru": "поверит"
+      },
+      {
+       "de": "ein armes",
+       "ru": "бедная"
+      },
+      {
+       "de": "Mädchen",
+       "ru": "девушка,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Риторический вопрос: nicht стоит в конце немецкой строки, а по-русски отрицание уходит к глаголу — «во что только не поверит». arm здесь по Аделунгу — «unglücklich, beklagenswerth» («несчастный, достойный сожаления»), то есть бедная от жалости, а не от нужды."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zumal",
+       "ru": "Тем более"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "einer Zelle",
+       "ru": "келье?"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ach",
+       "ru": "Ах,"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "vergass",
+       "ru": "забыла"
+      },
+      {
+       "de": "der Nonnenpflicht",
+       "ru": "монашеский обет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "vergessen в языке эпохи управляет родительным падежом — der Nonnenpflicht, а следом тянутся ещё два родительных: des Himmels und der Hölle. По-русски все три встают в винительный."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Des Himmels",
+       "ru": "небо"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "der Hölle",
+       "ru": "ад."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Падение проходит без лишних подробностей; музыка здесь, по Джонсону, — приподнятая декламация."
+      }
+     ]
+    }
    ]
   },
   {
@@ -51,6 +622,106 @@
     "Sich ihrem Jesu weihte,",
     "Die reine schöne Gottesbraut",
     "Ward eines Frevlers Beute."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Та, что,"
+      },
+      {
+       "de": "von den Engeln",
+       "ru": "ангелами"
+      },
+      {
+       "de": "angeschaut",
+       "ru": "созерцаема,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "anschauen — «взирать, созерцать»; по Гриммам это торжественнее и внутреннее, чем ansehen («смотреть»). Оборот von den Engeln angeschaut по-русски обходится без предлога: ангелами созерцаема."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sich",
+       "ru": "себя"
+      },
+      {
+       "de": "ihrem",
+       "ru": "своему"
+      },
+      {
+       "de": "Jesu",
+       "ru": "Иисусу"
+      },
+      {
+       "de": "weihte",
+       "ru": "посвятила,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die reine",
+       "ru": "чистая"
+      },
+      {
+       "de": "schöne",
+       "ru": "прекрасная"
+      },
+      {
+       "de": "Gottesbraut",
+       "ru": "невеста Христова"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Gottesbraut — «невеста Божья», средневековое имя для монахини и для души, посвятившей себя Христу. Словарь Гриммов приводит в этой статье как раз эту строфу Хёльти."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ward",
+       "ru": "стала"
+      },
+      {
+       "de": "Beute",
+       "ru": "добычей"
+      },
+      {
+       "de": "eines Frevlers",
+       "ru": "злодея."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Немецкий родительный eines Frevlers стоит перед определяемым словом, русский — после: «добычей злодея». Frevler — от Frevel («дерзкое, сознательное преступление, кощунство»), то есть злодей и святотатец разом."
+      }
+     ]
+    }
    ]
   },
   {
@@ -63,6 +734,224 @@
     "Und aller seiner Eide,",
     "Und flog im bunten Gallakleid",
     "Nach neuer Augenweide;"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Drauf",
+       "ru": "Затем"
+      },
+      {
+       "de": "wurde",
+       "ru": "стало,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "die Männer",
+       "ru": "мужчины"
+      },
+      {
+       "de": "sind",
+       "ru": "устроены,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "wie die Männer sind — «каковы мужчины», вводное присловье рассказчика; по-русски естественнее «как мужчины устроены». Глагол wurde («стало») ждёт своего lauer в следующей строке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sein",
+       "ru": "его"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце"
+      },
+      {
+       "de": "von Stund' an",
+       "ru": "с того часа"
+      },
+      {
+       "de": "lauer",
+       "ru": "прохладнее;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "lau — «чуть тёплый, ни горячий, ни холодный»; сравнительная степень lauer о сердце говорит об остывании. von Stund' an — «с того часа»: von и an стоят по обе стороны существительного."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "überliess",
+       "ru": "оставил"
+      },
+      {
+       "de": "das arme",
+       "ru": "бедное"
+      },
+      {
+       "de": "Kind",
+       "ru": "дитя"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Рен замечает: рыцарь, обещавший вывести монахиню из монастыря, обрекает её на заточение ещё более жёсткое."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf ewig",
+       "ru": "навек"
+      },
+      {
+       "de": "ihrer",
+       "ru": "её"
+      },
+      {
+       "de": "Trauer",
+       "ru": "скорби,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vergass",
+       "ru": "Забыл"
+      },
+      {
+       "de": "der alten",
+       "ru": "прежнюю"
+      },
+      {
+       "de": "Zärtlichkeit",
+       "ru": "нежность"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "vergessen и здесь управляет родительным падежом, как в пятой строфе. alt в обороте der alten Zärtlichkeit — «прежний»: нежность, которая была раньше."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "aller",
+       "ru": "все"
+      },
+      {
+       "de": "seiner",
+       "ru": "свои"
+      },
+      {
+       "de": "Eide",
+       "ru": "клятвы,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "flog",
+       "ru": "мчался"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "bunten",
+       "ru": "пёстром"
+      },
+      {
+       "de": "Gallakleid",
+       "ru": "парадном наряде"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "fliegen в поэзии эпохи легко переходит от буквального полёта к стремительному движению: «мчался». Gallakleid — парадное платье, наряд для торжества."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nach",
+       "ru": "за"
+      },
+      {
+       "de": "neuer",
+       "ru": "новой"
+      },
+      {
+       "de": "Augenweide",
+       "ru": "усладой для глаз;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Augenweide — дословно «пастбище для глаз», устойчивый образ ещё от миннезанга: приятное зрелище, услада для взгляда."
+      }
+     ]
+    }
    ]
   },
   {
@@ -75,6 +964,204 @@
     "Bei seiner schönen Nonne,",
     "Und je des Kusses, je des Blick's,",
     "Und je der andern Wonne."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Begann",
+       "ru": "Начал"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "andern",
+       "ru": "другими"
+      },
+      {
+       "de": "Weibern",
+       "ru": "женщинами"
+      },
+      {
+       "de": "Reih'n",
+       "ru": "хоровод"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Reih'n — усечённое Reigen, круговой хороводный танец; апостроф здесь ради размера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Im",
+       "ru": "в"
+      },
+      {
+       "de": "kerzenhellen",
+       "ru": "освещённом свечами"
+      },
+      {
+       "de": "Saale",
+       "ru": "зале,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Танец этих строф помечен у Шуберта «tändelnd» («игриво»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Gab",
+       "ru": "Расточал"
+      },
+      {
+       "de": "andern",
+       "ru": "другим"
+      },
+      {
+       "de": "Weibern",
+       "ru": "женщинам"
+      },
+      {
+       "de": "Schmeichelein",
+       "ru": "лесть"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Beim",
+       "ru": "на"
+      },
+      {
+       "de": "lauten",
+       "ru": "шумном"
+      },
+      {
+       "de": "Traubenmahle",
+       "ru": "винном пиру,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "rühmte sich",
+       "ru": "хвастался"
+      },
+      {
+       "de": "des Minneglücks",
+       "ru": "любовным счастьем"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "sich rühmen управляет родительным падежом: des Minneglücks — «любовным счастьем». Minne — куртуазное слово для любви, к концу XVIII века уже нарочито старинное."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bei",
+       "ru": "со"
+      },
+      {
+       "de": "seiner",
+       "ru": "своей"
+      },
+      {
+       "de": "schönen",
+       "ru": "прекрасной"
+      },
+      {
+       "de": "Nonne",
+       "ru": "монахиней,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "je",
+       "ru": "каждым"
+      },
+      {
+       "de": "des Kusses",
+       "ru": "поцелуем,"
+      },
+      {
+       "de": "je",
+       "ru": "каждым"
+      },
+      {
+       "de": "des Blick's",
+       "ru": "взглядом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Цепочка родительных падежей продолжает sich rühmen: хвастался каждым поцелуем, каждым взглядом. Blick's — старое написание родительного Blickes."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "je",
+       "ru": "каждым"
+      },
+      {
+       "de": "der andern",
+       "ru": "другим"
+      },
+      {
+       "de": "Wonne",
+       "ru": "блаженством."
+      }
+     ]
+    }
    ]
   },
   {
@@ -83,6 +1170,138 @@
     "Entglüht' in ihrem Muthe,",
     "Und sann auf nichts als Dolch und Blut,",
     "Und träumte nur von Blute."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Nonne",
+       "ru": "Монахиня,"
+      },
+      {
+       "de": "voll von",
+       "ru": "полная"
+      },
+      {
+       "de": "welscher",
+       "ru": "итальянской"
+      },
+      {
+       "de": "Wuth",
+       "ru": "ярости,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "welsch — «романский», прежде всего итальянский: ярость названа по южной крови. Wuth — старое написание слова Wut («ярость, бешенство»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Entglüht'",
+       "ru": "воспламенилась"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "ihrem",
+       "ru": "своей"
+      },
+      {
+       "de": "Muthe",
+       "ru": "душе,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Muth (совр. Mut) в языке эпохи — «дух, нрав, душевный склад», а не только «мужество»: in ihrem Muthe — «в душе»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "auf nichts",
+       "ru": "ни о чём"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "sann",
+       "ru": "помышляла,"
+      },
+      {
+       "de": "als",
+       "ru": "кроме"
+      },
+      {
+       "de": "Dolch",
+       "ru": "кинжала"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Blut",
+       "ru": "крови,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "sinnen auf etwas — «замышлять, помышлять о чём-то». Одиночному немецкому nichts по-русски отвечает двойное отрицание: «ни о чём не помышляла»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "träumte",
+       "ru": "грезила"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "von",
+       "ru": "о"
+      },
+      {
+       "de": "Blute",
+       "ru": "крови."
+      }
+     ]
+    }
    ]
   },
   {
@@ -91,6 +1310,108 @@
     "Von wilden Meuchelmördern,",
     "Den Mann, der treulos worden war,",
     "Ins Todtenreich zu fördern."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "dingte",
+       "ru": "наняла"
+      },
+      {
+       "de": "plötzlich",
+       "ru": "внезапно"
+      },
+      {
+       "de": "eine Schaar",
+       "ru": "шайку"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "На месте покинутой монахини, по слову Джонсона, оказывается she-devil («чертовка»). Наём убийц Шуберт помечает увеличенной квартой — так называемым diabolus in musica («дьяволом в музыке»)."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "dingen — «нанимать за плату», в том числе на преступление; словарь Гриммов приводит на это значение как раз строку Хёльти. Schaar (совр. Schar) — «отряд, шайка»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Von",
+       "ru": "из"
+      },
+      {
+       "de": "wilden",
+       "ru": "диких"
+      },
+      {
+       "de": "Meuchelmördern",
+       "ru": "убийц-душегубов,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Den Mann",
+       "ru": "мужчину,"
+      },
+      {
+       "de": "der",
+       "ru": "который"
+      },
+      {
+       "de": "treulos",
+       "ru": "вероломным"
+      },
+      {
+       "de": "worden war",
+       "ru": "стал,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ins",
+       "ru": "в"
+      },
+      {
+       "de": "Todtenreich",
+       "ru": "царство мёртвых"
+      },
+      {
+       "de": "zu fördern",
+       "ru": "отправить."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "fördern здесь в старом значении «спровадить, отправить куда-либо», далёком от сегодняшнего «поддерживать». Словарь Гриммов цитирует эту самую строфу в статье Todtenreich («царство мёртвых»)."
+      }
+     ]
+    }
    ]
   },
   {
@@ -99,6 +1420,126 @@
     "In seine schwarze Seele:",
     "Sein schwarzer falscher Geist entfährt",
     "Wie Schwefeldampf der Höhle."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Те"
+      },
+      {
+       "de": "bohren",
+       "ru": "вонзают"
+      },
+      {
+       "de": "manches",
+       "ru": "не один"
+      },
+      {
+       "de": "Mörderschwert",
+       "ru": "меч убийцы"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Пассаж помечен «Wild, schnell» («дико, быстро»): злодея отправляют на тот свет множеством ударов. В майской редакции аккорды фортепиано полагалось арпеджировать — в июньской это требование снято ради чистой скорости."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "manch стоит при существительном в единственном числе, а значит «не один, многие»: мечей много. Mörderschwert — «меч убийцы»; словарь Гриммов приводит на это слово единственный пример — эту строку."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "в"
+      },
+      {
+       "de": "seine",
+       "ru": "его"
+      },
+      {
+       "de": "schwarze",
+       "ru": "чёрную"
+      },
+      {
+       "de": "Seele",
+       "ru": "душу:"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sein",
+       "ru": "Его"
+      },
+      {
+       "de": "schwarzer",
+       "ru": "чёрный"
+      },
+      {
+       "de": "falscher",
+       "ru": "лживый"
+      },
+      {
+       "de": "Geist",
+       "ru": "дух"
+      },
+      {
+       "de": "entfährt",
+       "ru": "вырывается,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Спуск фортепиано в ад вместе с душой негодяя, по слову Джонсона, особенно стремителен."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "как"
+      },
+      {
+       "de": "Schwefeldampf",
+       "ru": "серный дым"
+      },
+      {
+       "de": "der Höhle",
+       "ru": "пещеры."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Словарь Гриммов цитирует это место у Хёльти в виде der Hölle — «серный дым ада»; в нотном тексте песни стоит der Höhle («пещеры»). Разница в одной букве, сера остаётся в обоих чтениях."
+      }
+     ]
+    }
    ]
   },
   {
@@ -107,6 +1548,118 @@
     "Ein Krallenteufel harret;",
     "Drauf ward sein blutendes Gebein",
     "In eine Gruft verscharrt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "wimmert",
+       "ru": "стонет"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Luft",
+       "ru": "воздух,"
+      },
+      {
+       "de": "wo",
+       "ru": "где"
+      },
+      {
+       "de": "sein",
+       "ru": "его"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "sein здесь — старый родительный падеж местоимения er («его»): глагол harren («поджидать») в языке эпохи требовал родительного."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein Krallenteufel",
+       "ru": "когтистый бес"
+      },
+      {
+       "de": "harret",
+       "ru": "поджидает;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Krallenteufel — «дьявол с когтями»; словарь Гриммов приводит на это слово единственный пример — эту строку Хёльти."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Drauf",
+       "ru": "Затем"
+      },
+      {
+       "de": "ward",
+       "ru": "были"
+      },
+      {
+       "de": "sein",
+       "ru": "его"
+      },
+      {
+       "de": "blutendes",
+       "ru": "кровоточащие"
+      },
+      {
+       "de": "Gebein",
+       "ru": "останки"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "в"
+      },
+      {
+       "de": "eine Gruft",
+       "ru": "склеп"
+      },
+      {
+       "de": "verscharrt",
+       "ru": "закопаны."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "verscharren — «зарыть наспех, закопать», с оттенком небрежного, бесчестного погребения. Рамка ward… verscharrt («были… закопаны») разведена на две строки."
+      }
+     ]
+    }
    ]
   },
   {
@@ -115,6 +1668,114 @@
     "Zur kleinen Dorfkapelle,",
     "Und riss den wunden Rittersmann",
     "Aus seiner Ruhestelle,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Nonne",
+       "ru": "Монахиня"
+      },
+      {
+       "de": "flog",
+       "ru": "помчалась,"
+      },
+      {
+       "de": "wie",
+       "ru": "когда"
+      },
+      {
+       "de": "Nacht",
+       "ru": "ночь"
+      },
+      {
+       "de": "begann",
+       "ru": "настала,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "wie в языке эпохи легко значит «когда»: wie Nacht begann — «когда настала ночь»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zur",
+       "ru": "к"
+      },
+      {
+       "de": "kleinen",
+       "ru": "маленькой"
+      },
+      {
+       "de": "Dorfkapelle",
+       "ru": "деревенской часовне,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "riss",
+       "ru": "вырвала"
+      },
+      {
+       "de": "den wunden",
+       "ru": "раненого"
+      },
+      {
+       "de": "Rittersmann",
+       "ru": "рыцаря"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Джонсон отмеряет этот эпизод мгновением: за одно тремолирующее движение фортепиано монахиня достаёт тело из могилы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aus",
+       "ru": "из"
+      },
+      {
+       "de": "seiner",
+       "ru": "его"
+      },
+      {
+       "de": "Ruhestelle",
+       "ru": "места упокоения,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Ruhestelle — «место, где отдыхают»; у Гриммов это слово отдельно отмечено как иносказание о могиле."
+      }
+     ]
+    }
    ]
   },
   {
@@ -123,6 +1784,118 @@
     "Und warf's, den Zorn zu büssen,",
     "Dass dumpf erscholl das Gotteshaus,",
     "Und trat es mit den Füssen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Riss... heraus",
+       "ru": "Вырвала"
+      },
+      {
+       "de": "ihm",
+       "ru": "у него"
+      },
+      {
+       "de": "das Bubenherz",
+       "ru": "сердце негодяя,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Одним аккордом — правда, sforzato, с резким нажимом — сердце вырвано из тела. После этого, говорит Джонсон, выражение «разбитое сердце» приобретает тревожно новый смысл."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "warf's",
+       "ru": "бросила его,"
+      },
+      {
+       "de": "",
+       "ru": "чтобы"
+      },
+      {
+       "de": "den Zorn",
+       "ru": "гнев"
+      },
+      {
+       "de": "zu büssen",
+       "ru": "утолить,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "warf's — стяжение warf es («бросила его»); es отсылает к сердцу. büssen — «искупить, заплатить, утолить»: гнев здесь утоляют."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "так что"
+      },
+      {
+       "de": "dumpf",
+       "ru": "глухо"
+      },
+      {
+       "de": "erscholl",
+       "ru": "прогремел"
+      },
+      {
+       "de": "das Gotteshaus",
+       "ru": "храм,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "trat",
+       "ru": "топтала"
+      },
+      {
+       "de": "es",
+       "ru": "его"
+      },
+      {
+       "de": "mit den Füssen",
+       "ru": "ногами."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Танец менады над злополучным органом Шуберт поддерживает серией безумных аккордов: он, по словам Джонсона, мужественно — и, осмелимся сказать, с удовольствием — принимает вызов этого хлюпанья и чавканья."
+      }
+     ]
+    }
    ]
   },
   {
@@ -135,6 +1908,242 @@
     "Rauscht sie an Grabsteinwänden",
     "Aus einer Gruft empor, und trägt",
     "Ein blutend Herz in Händen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ihr",
+       "ru": "Её"
+      },
+      {
+       "de": "Geist",
+       "ru": "дух"
+      },
+      {
+       "de": "soll",
+       "ru": "должен,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "die Sagen",
+       "ru": "предания"
+      },
+      {
+       "de": "gehn",
+       "ru": "гласят,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "sollen здесь пересказывательное: «говорят, что…», «по преданию». От него зависят инфинитивы weilen («пребывать»), wimmern («стонать») и heulen («выть»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "в"
+      },
+      {
+       "de": "dieser Kirche",
+       "ru": "этой церкви"
+      },
+      {
+       "de": "weilen",
+       "ru": "пребывать,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Отсюда идут три куплета повествовательного размера 6/8; напряжение в них, по Джонсону, удерживает сама певица."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И,"
+      },
+      {
+       "de": "bis",
+       "ru": "пока"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Dorf",
+       "ru": "деревне"
+      },
+      {
+       "de": "die Hähne",
+       "ru": "петухи"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "krähn",
+       "ru": "запоют,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "bis как союз — «пока не», и отрицание по-русски встаёт перед глаголом; оборот bis die Hähne krähen значит «до рассвета». Парное bald… bald в следующей строке — «то… то»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bald",
+       "ru": "то"
+      },
+      {
+       "de": "wimmern",
+       "ru": "стонать,"
+      },
+      {
+       "de": "und",
+       "ru": "а"
+      },
+      {
+       "de": "bald",
+       "ru": "то"
+      },
+      {
+       "de": "heulen",
+       "ru": "выть."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sobald",
+       "ru": "Едва"
+      },
+      {
+       "de": "der Hammer",
+       "ru": "молоток"
+      },
+      {
+       "de": "zwölfe",
+       "ru": "двенадцать"
+      },
+      {
+       "de": "schlägt",
+       "ru": "пробьёт,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Hammer — молоточек башенных часов, отбивающий удары; zwölfe — старая полная форма числительного zwölf («двенадцать»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Rauscht",
+       "ru": "несётся с шумом"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "an",
+       "ru": "вдоль"
+      },
+      {
+       "de": "Grabsteinwänden",
+       "ru": "надгробных плит"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "rauschen — глагол сплошного природного шума: вода, ветер, листва. С наречием empor («ввысь») из следующей строки он означает шумный взлёт."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aus",
+       "ru": "из"
+      },
+      {
+       "de": "einer Gruft",
+       "ru": "склепа"
+      },
+      {
+       "de": "empor",
+       "ru": "ввысь,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "trägt",
+       "ru": "несёт"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein blutend",
+       "ru": "кровоточащее"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Händen",
+       "ru": "руках."
+      }
+     ]
+    }
    ]
   },
   {
@@ -147,6 +2156,208 @@
     "Mit wilder Rachgeberde",
     "Und hebt es dreimal himmelwärts",
     "Und wirft es auf die Erde."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die tiefen",
+       "ru": "Глубокие,"
+      },
+      {
+       "de": "hohlen",
+       "ru": "впалые"
+      },
+      {
+       "de": "Augen",
+       "ru": "глаза"
+      },
+      {
+       "de": "sprühn",
+       "ru": "мечут"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Feuer",
+       "ru": "огонь,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "glühn",
+       "ru": "пылают,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Строка укорочена: эпитет при Feuer («огонь») в нотном тексте отделился и попал в семнадцатую строфу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "как"
+      },
+      {
+       "de": "Schwefelflammen",
+       "ru": "серное пламя"
+      },
+      {
+       "de": "glühn",
+       "ru": "пылает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Немецкое слово стоит во множественном числе — «серные огни»; по-русски естественнее собирательное «серное пламя». Оно из того же адского ряда, что Schwefeldampf («серный дым») в одиннадцатой строфе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "ihren",
+       "ru": "её"
+      },
+      {
+       "de": "weissen",
+       "ru": "белое"
+      },
+      {
+       "de": "Schleier",
+       "ru": "покрывало."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Бывшая монахиня приходит всё ещё в своём покрывале. Джонсон говорит, что в этом готическом театре абсурда ей досталась роль тяжелее, чем прекрасной Розалии из «Романса»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "gafft",
+       "ru": "таращится"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "das zerrissne",
+       "ru": "растерзанное"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "gaffen — «глазеть с раскрытым ртом»; слово сниженное, и в высокой готической картине оно звучит нарочито грубо."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit",
+       "ru": "с"
+      },
+      {
+       "de": "wilder",
+       "ru": "диким"
+      },
+      {
+       "de": "Rachgeberde",
+       "ru": "мстительным жестом"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "hebt",
+       "ru": "поднимает"
+      },
+      {
+       "de": "es",
+       "ru": "его"
+      },
+      {
+       "de": "dreimal",
+       "ru": "трижды"
+      },
+      {
+       "de": "himmelwärts",
+       "ru": "к небесам"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wirft",
+       "ru": "бросает"
+      },
+      {
+       "de": "es",
+       "ru": "его"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "die Erde",
+       "ru": "землю."
+      }
+     ]
+    }
    ]
   },
   {
@@ -159,20 +2370,432 @@
     "Indess die Fenster helle.",
     "Der Wächter, der das Dorf bewacht,",
     "Sah's oft in der Kapelle."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "rollt",
+       "ru": "вращает"
+      },
+      {
+       "de": "die Augen",
+       "ru": "глазами,"
+      },
+      {
+       "de": "voller",
+       "ru": "полными"
+      },
+      {
+       "de": "Wuth",
+       "ru": "ярости,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "voller — старая конструкция: voll без предлога, с родительным падежом — «полными ярости». Оборот die Augen rollen («вращать глазами») — устойчивая идиома гнева."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "которые —"
+      },
+      {
+       "de": "düsterrothes",
+       "ru": "мрачно-красный"
+      },
+      {
+       "de": "Feuer",
+       "ru": "огонь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "У Петера Растля и в буклете Hyperion эта строка читается иначе — «Die eine Hölle blicken» («глаза, в которых мерцает ад»), а эпитет düsterrothes стоит строфой выше, при слове Feuer. В нотном тексте песни он оказался здесь, и строка осталась без глагола."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "schüttelt",
+       "ru": "стряхивает"
+      },
+      {
+       "de": "aus",
+       "ru": "с"
+      },
+      {
+       "de": "dem Schleier",
+       "ru": "покрывала"
+      },
+      {
+       "de": "Blut",
+       "ru": "кровь,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "stampft",
+       "ru": "топчет"
+      },
+      {
+       "de": "das Herz",
+       "ru": "сердце"
+      },
+      {
+       "de": "in Stücken",
+       "ru": "в клочья."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein bleicher",
+       "ru": "Бледный"
+      },
+      {
+       "de": "Todtenflimmer",
+       "ru": "мертвенный отблеск"
+      },
+      {
+       "de": "macht",
+       "ru": "делает"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Todtenflimmer — сложение самого Хёльти: Flimmer («мерцание, отблеск») плюс Todten- («мёртвые»). Рамка macht… helle («делает… светлыми») разведена на две строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Indess",
+       "ru": "тем временем"
+      },
+      {
+       "de": "die Fenster",
+       "ru": "окна"
+      },
+      {
+       "de": "helle",
+       "ru": "светлыми."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Wächter",
+       "ru": "Сторож,"
+      },
+      {
+       "de": "der",
+       "ru": "что"
+      },
+      {
+       "de": "das Dorf",
+       "ru": "деревню"
+      },
+      {
+       "de": "bewacht",
+       "ru": "охраняет,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sah's",
+       "ru": "видел это"
+      },
+      {
+       "de": "oft",
+       "ru": "часто"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "der Kapelle",
+       "ru": "часовне."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Und, bis im Dorf die Hähne krähn, bald wimmern und bald heulen.",
     "Sobald der Hammer zwölfe schlägt, rauscht sie an Grabsteinwänden"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И,"
+      },
+      {
+       "de": "bis",
+       "ru": "пока"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Dorf",
+       "ru": "деревне"
+      },
+      {
+       "de": "die Hähne",
+       "ru": "петухи"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "krähn",
+       "ru": "запоют,"
+      },
+      {
+       "de": "bald",
+       "ru": "то"
+      },
+      {
+       "de": "wimmern",
+       "ru": "стонать,"
+      },
+      {
+       "de": "und",
+       "ru": "а"
+      },
+      {
+       "de": "bald",
+       "ru": "то"
+      },
+      {
+       "de": "heulen",
+       "ru": "выть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Дальше идёт повтор: эти строки уже звучали в пятнадцатой строфе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sobald",
+       "ru": "Едва"
+      },
+      {
+       "de": "der Hammer",
+       "ru": "молоток"
+      },
+      {
+       "de": "zwölfe",
+       "ru": "двенадцать"
+      },
+      {
+       "de": "schlägt",
+       "ru": "пробьёт,"
+      },
+      {
+       "de": "rauscht",
+       "ru": "несётся с шумом"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "an",
+       "ru": "вдоль"
+      },
+      {
+       "de": "Grabsteinwänden",
+       "ru": "надгробных плит"
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Und glühn, wie Schwefelflammen glühn, durch ihren weissen Schleier.",
     "Sie gafft auf das zerrissne Herz mit wilder Rachgeberde"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "glühn",
+       "ru": "пылают,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "Schwefelflammen",
+       "ru": "серное пламя"
+      },
+      {
+       "de": "glühn",
+       "ru": "пылает,"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "ihren",
+       "ru": "её"
+      },
+      {
+       "de": "weissen",
+       "ru": "белое"
+      },
+      {
+       "de": "Schleier",
+       "ru": "покрывало."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "gafft",
+       "ru": "таращится"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "das zerrissne",
+       "ru": "растерзанное"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "wilder",
+       "ru": "диким"
+      },
+      {
+       "de": "Rachgeberde",
+       "ru": "мстительным жестом"
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Ludwig Christoph Heinrich Hölty"
+ "about": [
+  {
+   "title": "29 мая 1815 года",
+   "text": "Под «Монахиней» стоит дата 29 мая 1815 года: Шуберту восемнадцать лет. Через две недели он вернулся к балладе и написал вторую редакцию — она датирована 16 июня и получила в каталоге Дойча отдельный номер, D 212.\nГрэм Джонсон, автор аннотаций к шубертовской серии Hyperion, говорит, что композитор немало потрудился над этой вещью. В восьмом томе этой серии под номером D 208 записана как раз поздняя, июньская редакция, так что и разбор Джонсона описывает музыку в переработанном виде."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "При жизни Шуберта баллада не печаталась и пролежала в бумагах ещё почти семьдесят лет: первое издание, по данным буклета Hyperion, вышло в 1895 году. Об автографе, тональности и издателе этой публикации доступные источники молчат."
+  },
+  {
+   "title": "Людвиг Хёльти",
+   "text": "Людвиг Кристоф Генрих Хёльти — пасторский сын из деревни Мариензее под Ганновером и самый чистый лирик Гёттингенской рощи: Neue Deutsche Biographie называет его дарование «чисто лирическим, значительнейшим среди поэтов „Хайна“». Двенадцатого сентября 1772 года он вместе с поэтом Иоганном Генрихом Фоссом, Ханом, братьями Миллерами и Версом заключил «вечный союз под дубом» — так возник Göttinger Hainbund («Гёттингенский союз рощи»).\nПри жизни стихи Хёльти расходились по альманахам поодиночке; собрать их в книгу он не успел — чахотка свела его в могилу в двадцать семь лет. Посмертные сборники готовил Фосс, и он, по оценке той же Neue Deutsche Biographie, «внёс многочисленные метрические и текстовые изменения, почти всегда во вред стихотворениям». На стихи Хёльти в нашем корпусе двадцать три песни Шуберта."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "«Монахиня» написана в марте 1773 года и напечатана в конце 1774-го — в альманахе «Poetische Blumenlese Auf das Jahr 1775» («Поэтический цветник на 1775 год»), вышедшем в Гёттингене и Готе; там текст стоит ещё без фоссовских поправок. Издавая покойного друга, Фосс и это стихотворение слегка поправил.\nШуберт брал текст по венскому переизданию фоссовского собрания: «Gedichte von L. H. Ch. Hölty. Neu besorgt und vermehrt von Johann Heinrich Voß» («Стихотворения Л. Х. К. Хёльти, заново подготовленные и дополненные Иоганном Генрихом Фоссом»), Вена, 1815. Петер Растль, сверявший тексты песен для собрания Schubert Song Texts, прошёл балладу по пяти изданиям — венскому 1815 года, веймарскому критическому 1914-го, лейпцигскому 1870-го, первому гамбургскому изданию друзей поэта 1783 года и, отдельно, по альманаху 1775-го.\nТекст, который поётся в нотах, местами расходится со сверенными изданиями. В шестнадцатой строфе от эпитета «Ein düsterrothes Feuer» («мрачно-красный огонь») осталось одно Feuer, а düsterrothes перешло в семнадцатую строфу, где у Растля и в буклете Hyperion читается другая строка — «Die eine Hölle blicken» («глаза, в которых мерцает ад»). Две последние строфы — повтор строк из пятнадцатой и шестнадцатой: в изданиях стихотворения их нет."
+  },
+  {
+   "title": "Музыка: две редакции",
+   "text": "В балладах инстинкт Шуберта почти всегда вёл к упрощению первоначальных иллюстративных замыслов, замечает Джонсон: смысл баллады — донести историю, и всё, что мешает этому или замедляет темп, идёт во вред.\nНачало «Монахини» — пример такой правки. В майской редакции было восемь тактов вступления с добродушным изложением главной темы; в июне они безжалостно вырезаны, остались два раскачивающих такта — краткое объявление о начале событий. Вокальная мелодия приятна и ничем не отвлекает от рассказа."
+  },
+  {
+   "title": "Музыка: кровь и гром",
+   "text": "Джонсон называет вещь балладой крови и грома — рассказом об энергичной и находчивой мести, который даёт весь тот драматизм, что Шуберт так тщательно держал на привязи в «Романсе».\nЧеловек, слоняющийся у монастыря, — злодей, к тому же итальянец, и это слышно в его, по слову Джонсона, тестостероновой тесситуре. Потому и падение согрешившей монахини описано бесцеремонно: Шуберт, по Джонсону, потрясён им меньше, чем мог бы быть восемнадцатилетний католический юноша, — «похоже, он даже смакует скандал».\nВ танце седьмой и восьмой строф Джонсон слышит кошки-мышки сексуальной жестокости, прикрытой во второй редакции придворным ритмом и учтивой оболочкой джентльменского поведения; замысловатый аккомпанемент первой редакции с каскадами нот Шуберт снял, чтобы не связывать певца."
+  },
+  {
+   "title": "Музыка: месть и призрак",
+   "text": "Дальше всё движется быстро. Погружение в речитатив срывает лоск: брошенная возлюбленная находит способ — дело для благовоспитанной девушки, тем более монахини, нелёгкое — нанять шайку убийц. Убийство и посмертная участь злодея пролетают у Шуберта стремительно. Потом монахиня вырывает у мёртвого сердце, и серьёзность всей пьесы ставят под вопрос её энергия и жажда мести.\nЯвление призрака разыгрывается заново каждую ночь — регулярно и повторяемо, как куплеты строфической песни, — и только здесь видно родство «Монахини» с «Романсом» на слова Маттисона: это тоже история о привидении.\nДжонсон заключает: фильмы ужасов не принимают всерьёз как искусство, но они по-своему приятны — способ напомнить себе, что мы живы; и прежде чем осуждать такую пьесу, стоит спросить, не судим ли мы её без чувства юмора, с которым отнеслись бы к развлечениям собственного времени."
+  },
+  {
+   "title": "Готический юг",
+   "text": "Малколм Рен, автор комментариев на Schubert Song Texts, ставит балладу в самое начало готической моды. Призрачная страстная монахиня будет возвращаться в литературе и на сцене ещё десятилетия — от кровоточащей монахини в романе англичанина М. Г. Льюиса «Монах» (1796) до танцующих зомби-монахинь в опере Мейербера «Роберт-Дьявол» (1831), и это лишь два примера из многих.\nНа этом раннем этапе сцена вынесена на жаркий юг, куда южнее позднейших северных туманов: за несколько лет до Хёльти Хорас Уолпол напечатал первый готический роман — «Замок Отранто» (1764), с такой же средневеково-итальянской окраской."
+  },
+  {
+   "title": "Заточение",
+   "text": "Все герои баллады заперты, замечает Рен, и воздух в ней жаркий и душный — с чем-то от «Дома Бернарды Альбы» Гарсиа Лорки. Рыцарь видит монастырь тюрьмой и берётся сломать её запоры, а на деле лишь крепче запирает возлюбленную. Сам он веселится с другими женщинами — и всегда, что примечательно, в закрытых помещениях, в залах при свечах, ни разу под открытым небом, — а Белинде остаётся оплакивать свою судьбу и в конце концов мстить.\nКогда рыцарь заперт вдвойне — в склепе деревенской часовни, — она приходит сделать с его сердцем то же, что он сделал с её. Месть длится столько же, сколько боль, — потому призрак всё ещё там: рвёт сердце рыцаря и разбивает его о землю. Она по-прежнему заключена — вот чему равнялось обещание освободить её из церковного плена."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "«Монахиня» осталась редкостью: до 1895 года пролежала в бумагах, потом лишь изредка появлялась в больших песенных сериях. К редкости добавилась путаница в именах. Под номером D 208 в трек-листах и на видеоплощадках регулярно оказывается «Die junge Nonne» («Молодая монахиня») D 828 — песня куда более известная и вдвое короче; так, в одном альбоме 2014 года трек назван «Die Junge Nonne, D. 208», хотя звучит на нём D 828. Почти всё, что находится по слову «Nonne», — записи D 828, и до настоящей баллады добираются немногие."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Записей у D 208 мало, и обе главные пришли из больших песенных серий.\nПервая — восьмой том Hyperion Schubert Edition, «Schubert & the Nocturne II» (CDJ33008): сессия 1989 года, издание — декабрь 1990-го. Поёт Уокер, за роялем Джонсон — его очерк в буклете как раз и разбирает эту кровожадную балладу.\nВторая — двадцатый том Naxos Schubert Lied Edition, «Poets of Sensibility, Vol. 3» (8.557568, 2005): поёт Хольцмайр, за роялем Айзенлор. Обе записи идут около восьми минут."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
