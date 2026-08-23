@@ -68,6 +68,8 @@
 - **Deutsches Textarchiv** (BBAW) — первопечатный «Фауст» 1808 года (текст и TEI) для
   сверки редакций и ремарок.
 - **zeno.org, de.wikisource.org, Projekt Gutenberg-DE, archive.org** — PD-издания поэтов.
+- **Met Office** (metoffice.gov.uk) — метеорологическая справка об инее, на которую
+  ссылается Малколм Рен как на фон к стихотворению Клаудиуса (D 532).
 - **ANNO / Österreichische Nationalbibliothek** (anno.onb.ac.at) — венская периодика эпохи.
 - **Google Books** — поиск PD-изданий.
 - **Open Library** (полнотекстовый поиск search-inside) — дословные цитаты из современной
