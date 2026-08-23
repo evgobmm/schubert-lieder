@@ -1,0 +1,115 @@
+# Факты: «Rückweg» (D 476)
+
+Немецкий текст песни в проекте: `app/src/data/songs/d476-ruckweg.json`. Три строфы; первая строфа в проекте — восьмистрочная (объединяет по строкам две четырёхстрочные строфы печатного стихотворения — см. Ф8 ниже), вторая и третья — четырёхстрочные с повтором последней двустрочной пары (типичный для Шуберта куплетный повтор). Поэт — Иоганн Майрхофер (Johann Mayrhofer, 1787–1836). Досье поэта: `planning/research/poets/mayrhofer.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: подборка топ-5 в задании (файл `planning/youtube/data/d476-ruckweg.dossier.json`).
+
+---
+
+## 1. Датировка и возраст Шуберта
+
+**Ф1.** Песня «Rückweg» D 476 сочинена в сентябре 1816 года. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Komponiert: September 1816»; независимо подтверждено буклетом Hyperion (Graham Johnson), https://www.hyperion-records.co.uk/notes/33003-B.pdf — «D476 September 1816; published in 1872» — verified.
+
+**Ф2.** Шуберту было 19 лет, когда он писал эту песню. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Schubert war 19 Jahre alt, als er dieses Lied schrieb.» — verified.
+
+**Ф3.** Текст стихотворения написан, предположительно, тоже в 1816 году. — schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/ — «Text written probably 1816.» — verified (в прозе — с оговоркой «предположительно»).
+
+**Ф4.** По версии schubertlied.de, стихотворение возникло в непосредственной временной близости к стихам «Lunz» (Abschied D 475), «Erlafsee» D 586 и «Geheimnis (An Franz Schubert)» D 491; эти стихи, возможно, родились под впечатлением похода, который Майрхофер совершил осенью 1816 года с Германом, сыном своего профессора права Генриха Йозефа Ваттерота, на прогулке к Лилиенфельду в Нижней Австрии; Лунц-ам-Зе лежит примерно на полпути между Зальцбургом и Веной, неподалёку — место паломничества Мариацелль. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Das Gedicht Rückweg entstand in unmittelbarer zeitlicher Nähe zu den Gedichten Lunz (Abschied D 475), sowie Erlafsee D 586 und besonders Geheimnis (An Franz Schubert) D 491. Diese Gedichte mögen unter dem Eindruck einer Reise entstanden sein, die Mayrhofer im Herbst 1816 mit Hermann, dem Sohn seines Juraprofessors Heinrich Josef Watteroth auf einer Wanderung nach Lilienfeld in Niederösterreich unternommen hatte» — secondary (гипотеза сайта, ссылка на первоисточники не приводится дословно).
+
+**Ф5.** В том же 1816 году Шуберт написал, среди прочего: утраченную кантату «Прометей» (посвящённую профессору Ваттероту — по дневнику Шуберта, его первое сочинение за деньги), обе симфонии — № 4 до минор «Трагическая» и № 5 си-бемоль мажор, а также Мессу № 4 до мажор. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Er schrieb in diesem Jahr unter anderem die verschollene Prometheus-Kantate (o.g. Professor Watteroth gewidmet ... laut Schuberts Tagebuch, seine erste Komposition für Geld), die beiden Sinfonien Nr. 4 c-Moll (die Tragische) und Nr. 5 B-Dur sowie die Messe Nr. 4 C-Dur» — secondary (сводка сайта, первоисточники — дневник Шуберта — не процитированы дословно).
+
+---
+
+## 2. Публикация и автограф
+
+**Ф6.** Песня не была опубликована при жизни Шуберта: первое издание вышло только в 1872 году. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Nachlass 1872»; «Veröffentlichung (angezeigt): 23. November 1872»; независимо подтверждено Hyperion — «published in 1872» — verified. Между сочинением (1816) и первой публикацией (1872) — 56 лет; между смертью Шуберта (1828) и публикацией — 44 года (арифметика по верифицированным датам).
+
+**Ф7.** Публикацию 1872 года осуществил в Вене издатель Иоганн Петер Готтхард (J. P. Gotthard) под заглавием «Neueste Folge nachgelassener Lieder und Gesänge von Franz Schubert», издательский номер серии V.N. 325–361, конкретно эта песня — № 15 серии, издательский номер (Verlagsnummer) 340; песня посвящена издателем «Fräulein Maria Ambros». — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Die Veröffentlichung besorgte 1872 J. P. Gotthard in Wien als Nachlass 1872 - 15 | Verlagsnummer 340»; «Die Veröffentlichung besorgte Johann Peter Gotthard 1872 in Wien, V.N.325-361 als Neueste Folge nachgelassener Lieder und Gesänge von Franz Schubert»; в перечне заглавий серии — «Rückweg D 476 (Fräulein Maria Ambros gewidmet vom Verleger)» — verified.
+
+**Ф8.** Издание было анонсировано 23 ноября 1872 года в венском журнале «Österreichische Buchhändler-Correspondenz». — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Österreichische Buchhändler-Correspondenz 23. November 1872» — verified.
+
+**Ф9.** Каталожные номера собраний сочинений: Alte Gesamtausgabe, серия XX, том 4, № 252; Neue Schubert-Ausgabe, серия IV, том 11. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Alte Gesamtausgabe, Serie XX, Bd. 04 № 252»; «Neue Schubert-Ausgabe IV, Bd. 11» — verified.
+
+**Ф10.** Оригинальная тональность песни — ре минор (d-Moll). — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Originaltonart: d-Moll» — verified. (Указанная там же «Aufnahmetonart: C-Dur» — тональность конкретной размещённой на сайте записи Шёне/Монах, не авторская тональность.)
+
+**Ф11.** Дневниковые/архивные сведения о рукописи и источниках — по тематическому каталогу Отто Эриха Дойча; конкретная запись каталога в бандле не процитирована дословно. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Informationen zur Quellenlage (Manuskripte etc.) finden Sie hier: Thematisches Verzeichnis von Otto Erich Deutsch»; отдельно указана ссылка «Otto E. Deutsch: Franz Schubert. Thematisches Verzeichnis seiner Werke in chronologischer Folge - Seite 281» — uncertain (страница источника указана, но текст записи в бандле не приведён).
+
+---
+
+## 3. Текст и источник
+
+**Ф12.** Стихотворение «Rückweg» впервые напечатано в 1824 году в сборнике «Gedichte von Johann Mayrhofer» (Вена, издательство Friedrich Volke), на странице 24. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Das Gedicht Rückweg von Johann Baptist Mayrhofer wurde veröffentlicht im Jahr 1824 in Gedichte von Johann Mayrhofer... Es findet sich auf Seite 24»; независимо подтверждено schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/ — «First published 1824»; «Confirmed by Peter Rastl with Gedichte von Johann Mayrhofer. Wien. Bey Friedrich Volke. 1824, page 24» — verified.
+
+**Ф13.** Schubert обычно получал стихи Майрхофера напрямую как рукописные оригиналы от самого автора; печатный сборник стихов Майрхофера вышел лишь в 1824 году в небольшом венском издательстве Friedrich Volke. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Schubert erhielt die Gedichte Mayrhofers in der Regel direkt als handschriftliche Vorlagen vom Autor selbst. Ein gedruckter Gedichtband Mayrhofers erschien erst 1824 in der kleinen Verlagsbuchhandlung Friedrich Volke in Wien» — verified.
+
+**Ф14.** Между текстом, положенным Шубертом на музыку, и текстом, напечатанным в собрании стихов Майрхофера (1824), есть три словесных расхождения; невозможно установить, изменил ли слова сам Шуберт или работал по более раннему неопубликованному варианту стихотворения: (1) в строке «Entweichet weit und weit» (вариант Шуберта) в издании 1824 года — «Entschwindet» («исчезает» вместо «уходит прочь»); (2) в строке «Die Berge schwinden allgemach» (вариант Шуберта) в издании 1824 года — «weichen» («отступают» вместо «тают/убывают»); (3) в строке «Mit ihnen Wald und Fluss» (вариант Шуберта) в издании 1824 года — «Thal» («долина» вместо «лес»). — schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/ — «It is impossible to know if the differences between the text set by Schubert and that published in Mayrhofer's collected works (1824) are a result of Schubert changing the words or working from an earlier unpublished draft of the poem»; «1 This is the wording in Schubert's setting. In Mayrhofer's published text (1824) this is 'Entschwindet' (is fading away)»; «2 'weichen' (are retreating) in the published text»; «3 'Thal' (valleys) in the published text»; сверка выполнена исследователем Питером Растлем — «Confirmed by Peter Rastl with Gedichte von Johann Mayrhofer. Wien. Bey Friedrich Volke. 1824, page 24» — verified.
+
+**Ф15.** Орфография эпохи в тексте, положенном на музыку Шубертом (по публикации 1872 года и по реконструкции schubertsong.uk с «Original Spelling»): «thränenfeucht» (совр. «tränenfeucht»), «Frey unter Freyen» (совр. «Frei unter Freien»), «Himmelwärts» с заглавной буквы. — schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/, раздел «Original Spelling and notes on the text» — «Was starrt dein Auge thränenfeucht… Frey unter Freyen gern!... Und strebet Himmelwärts.» — verified. Немецкий текст песни в проекте сохраняет эту орфографию эпохи («thränenfeucht», «Frei unter Freien» — последнее в проекте уже в современном написании «Frei», без «y») в неизменном виде.
+
+**Ф16.** Наблюдение по сопоставлению текстов (не отдельная цитата источника, а сведение уже процитированных выше текстов): печатное стихотворение 1824 года и текст на странице schubertsong.uk даны как четыре отдельные четырёхстрочные строфы («Zum Donaustrom…», «Die Berge schwinden…», «Was starrt dein Auge…», «Wo Liebe noch…»); строфа 1 песни в проекте (`app/src/data/songs/d476-ruckweg.json`) — восьмистрочная и объединяет строки печатной строфы 1 («Donaustrom zur Kaiserstadt… Entweichet weit и weit») со строками печатной строфы 3 («Denn starrt mein Auge thränenfeucht… Frei unter Freien gern») в едином музыкальном периоде; строфы 2 и 3 в проекте соответствуют печатным строфам 2 и 4, каждая с повтором последних двух строк. Ни один из предзагруженных источников не комментирует эту перегруппировку строк отдельно — uncertain (структурное наблюдение по сопоставлению, не подтверждено отдельной цитатой музыковеда).
+
+---
+
+## 4. Музыка
+
+**Ф17.** Ре минор — по наблюдению Грэма Джонсона, «тональность шубертовских меланхолических путешествий» (см. заметки к тому 2 серии Hyperion). — Hyperion, буклет Schubert Edition, том CDJ33003, Graham Johnson, https://www.hyperion-records.co.uk/notes/33003-B.pdf — «D minor is Schubert's key of melancholy journeys (see notes to Volume 2)» — verified.
+
+**Ф18.** По Джонсону, поэт «тащится» на обратном пути в Вену из деревни; песня — своего рода противоядие к бесчисленным восторженным песням, воспевающим красоты Вены в более позднюю эпоху XIX века. Для Майрхофера столица означала политику, интриги и скучную службу, а также место, где политические репрессии всё труднее позволяли быть «свободным среди свободных». — Hyperion, буклет CDJ33003, Graham Johnson — «The poet drags his feet on his return to Vienna from the country»; «Here is something of an antidote to the endless number of rapturous songs apostrophising the glories of Vienna from a later part of the Century. For Mayrhofer the capital city meant politics and intrigue and a boring job. It also meant a place where political repression made it increasingly difficult to be "a free man among free men"» — verified.
+
+**Ф19.** Народный, простонародный тон в песне — сознательный приём: стиль зингшпиля, отчасти обязанный уличной балладе, мягкий предвестник горько-сладких немецких кабаретных песен, которым предстояло выкрикивать в небеса свой политический протест. — Hyperion, буклет CDJ33003, Graham Johnson — «The populär touch is deliberate, a Singspiel style owing something to a street ballad perhaps, and a gentle forerunner of the bitter-sweet German cabaret songs which were to shout their political resentments to the heavens» — verified.
+
+**Ф20.** Во время студийных записей (Hyperion, серия «Schubert Edition») певица Энн Мюррей всех изрядно позабавила, спев эту песню голосом а-ля Марлен Дитрих; несмотря на анахронизм, это оказалось поразительно убедительно — и как вокальная имитация, и потому что песня сама по себе прекрасно подходит к усталому от мира стилю шансонье. — Hyperion, буклет CDJ33003, Graham Johnson — «During the recording sessions Ann Murray amused us all hugely by singing this song in a Marlene Dietrich voice. It was astonishingly convincing not only as vocal imitation; despite the anachronism the song seemed perfectly suited to the world-weary style of the chansonnier» — verified.
+
+**Ф21.** Записанная на schubertlied.de референс-запись сделана в транспонированной тональности до мажор (C-Dur), в то время как оригинальная тональность песни — ре минор (см. Ф10); это же указывает, что песня существует в изданиях в разных тональностях для разных типов голоса. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «Originaltonart: d-Moll»; «Aufnahmetonart: C-Dur» — verified (факт о конкретной записи на сайте, не о музыковедческом решении Шуберта).
+
+---
+
+## 5. Смыслы и интерпретации
+
+**Ф22.** По трактовке Малколма Рена, поговорка «Stadtluft macht frei» («городской воздух делает свободным») в стихотворении более не действует: Майрхофер боится возвращения в императорскую столицу Вену, где чувствует себя порабощённым, и потому переворачивает традиционную поговорку — исходя из того, что крепостные, бежавшие от гнетущих хозяев в деревне, могли обрести юридическую свободу после года и одного дня проживания в одном из городов Священной Римской империи. Он видит себя крепостным, работающим на новую имперскую систему (управляемую Меттернихом) и соучаствующим в ней. Он отдыхал в горах к югу от города, но теперь должен покинуть мир природы и открытого неба, символизирующие «всё прекрасное в жизни», и вернуться к рутине и рабской доле. — schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/ — «'Stadtluft macht frei' ('City air makes you free') no longer applies. Mayrhofer dreads his return to the Imperial city of Vienna, where he feels enslaved. He therefore inverts the traditional saying… He sees himself as a serf working for (and complicit in) the new Imperial system (run by Metternich). He has taken a break in the mountains south of the city, but now has to leave the world of nature and the open skies, which symbolise 'all that is beautiful in life' and make his way back to drudgery and servitude» — verified (атрибутированная трактовка комментатора).
+
+**Ф23.** Далее Рен: поэт вспоминает время, когда мог проводить больше времени там, живя свободной, подлинной жизнью; одна из привлекательных черт холмов — то, что он был там «unerreicht» («недосягаем»), подобно тому как средневековые крепостные становились «недосягаемы» для своих господ, оказавшись за стенами города. По мысли поэта, теперь всё изменилось: мы способны быть «вне досягаемости» только вдали от «цивилизации» — лишь вырвавшись из порочности города, возможны подлинные любовь и цельность. — schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/ — «He recalls a stage of his life when he was able to spend more time out there, living a free, authentic life. One of the attractions of the hills was that he was 'unerreicht', 'unreachable', there (just as medieval serfs became 'unreachable' by their overlords once within the walls of a town). As the poet sees it, things have now changed; we only manage to be 'out of contact' when we are away from 'civilization'. It is only when we get away from the corruption of the city that true love and integrity are possible» — verified.
+
+**Ф24.** Текст занимает промежуточное положение между дикими горами и открытым небом абсолютной свободы и гнётом абсолютистской тирании. Пейзаж, через который проходит поэт, не совсем необитаем: там есть хижины (предположительно, пастушьи), коровьи колокольчики напоминают, что пасущиеся коровы дают молоко и сыр жителям Вены; реки, что остаются позади, впадают в тот же могучий поток — Дунай (Donaustrom). Но поэт не в силах увидеть эти связи. — schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/ — «The text occupies the middle ground between the wild mountains and open skies of Absolute Freedom and the oppression of Absolutist Tyranny… There are huts (presumably used by shepherds and cowherds). There are cow-bells, reminding us that the cows grazing here are providing milk and cheese for the inhabitants of Vienna. The rivers (Fluß) that are receding must themselves flow into that mighty stream, the Danube (Donaustrom). Yet the poet cannot bring himself to see the connections» — verified.
+
+**Ф25.** Рен связывает тревогу стихотворения с позднейшей биографией Майрхофера: депрессией и попыткой самоубийства, когда поэт бросился в реку в Вене (по датировке этого сайта — 23 августа 1828 года); по мнению Рена, Майрхофер так и не преодолел свою тревогу, связанную с возвращением к Дунаю. — schubertsong.uk, https://www.schubertsong.uk/text/ruckweg/ — «We recall Mayrhofer's later struggles with depression and the fact that he tried to commit suicide by jumping into the river in Vienna on 23rd August 1828. He clearly never overcame his anxiety about returning to the river Danube» — verified (как утверждение комментатора; ДАТА расходится с досье поэта — там первая попытка датирована 1830 годом со ссылкой на de.wikipedia, см. досье Ф18, — расхождение дат между источниками, оба вторичные; окончательный факт самоубийства в 1836 году см. досье Ф19/Ф20).
+
+---
+
+## 6. Рецепция и документы эпохи
+
+**Ф26.** Песня не публиковалась и, по имеющимся в бандле данным, не упоминается в критике при жизни Шуберта; единственные документированные в бандле «документы эпохи» — анонс публикации Готтхарда в «Österreichische Buchhändler-Correspondenz» от 23 ноября 1872 года (см. Ф8) — прижизненных рецензий или откликов на саму песню в бандле не найдено. — вывод по совокупности предзагруженных источников (schubertlied.de, schubertsong.uk, буклет Hyperion) — uncertain (отсутствие свидетельства не доказывает отсутствия факта, но в бандле рецензий нет).
+
+**Ф27.** Публикация 1872 года входила в серию из многих посмертных песен Готтхарда с индивидуальными посвящениями разным адресатам (среди них — Густав Вальтер, Юлиус Штокхаузен, Николаус Дýмба, Луиза Дустман и др.); конкретно «Rückweg» посвящена издателем «Fräulein Maria Ambros» — той же адресатке, что и «Nachtviolen» D 752 и «Der Fluß» D 693 в этой серии. — schubertlied.de, https://www.schubertlied.de/die-lieder/rueckweg-d476 — «▪ Rückweg D 476 (Fräulein Maria Ambros gewidmet vom Verleger)»; «▪ Nachtviolen D 752 (Fräulein Maria Ambros gewidmet vom Verleger)»; «▪ Der Fluß D 693 (Fräulein Maria Ambros gewidmet vom Verleger)» — verified.
+
+---
+
+## 7. Судьба и наследие
+
+**Ф28.** Между сочинением песни (1816) и её первым изданием (1872) прошло 56 лет — песня оставалась в рукописном виде почти всё это время, пока не вошла в посмертную публикацию Готтхарда (см. Ф1, Ф6, Ф7). — арифметика по верифицированным датам бандла (Ф1, Ф6) — verified.
+
+**Ф29.** Отдельной посвящённой судьбе рецепции песни в XX веке информации в бандле нет; о судьбе стихотворения — оно вошло в единственный прижизненный поэтический сборник Майрхофера 1824 года (см. Ф12) и в посмертное собрание 1843 года под редакцией Фейхтерслебена (см. досье, Ф11), но включение конкретно «Rückweg» во второй сборник в бандле не подтверждено. — uncertain (нет данных в бандле).
+
+---
+
+## 8. Записи
+
+**Ф30.** Топ-5 записей песни (по обоснованию, приложенному к заданию; все videoId проверены как действующие на Topic-каналах):
+1. Дитрих Фишер-Дискау (баритон) — Джеральд Мур (фортепиано), 1969, DG «Sämtliche Lieder» — высший доступный приоритет по сквозной конвенции проекта;
+2. Маттиас Гёрне (баритон) — Эрик Шнайдер (фортепиано), 2008, Matthias Goerne Schubert Edition, т. 2 «An mein Herz» (HMC 902004.05, CD 2; сессии — февраль 2008, Teldex; издание — октябрь 2008);
+3. Вольфганг Хольцмайр (баритон) — Ульрих Высс (фортепиано), 1992, программа «Lieder nach Gedichten von Johann Mayrhofer» (целиком на тексты Майрхофера);
+4. Энн Мюррей (меццо-сопрано) — Грэм Джонсон (фортепиано), 1988, Hyperion, том 3 «Schubert & his Friends I» (CDJ33003; запись — ноябрь 1988, издание — декабрь 1989) — та самая запись, к которой относится анекдот про голос а-ля Марлен Дитрих (см. Ф20) и аннотация, процитированная в разделах 4–5 этого файла;
+5. Роман Хауптман (тенор/баритон) — Штефан Лаукс (фортепиано), 2000, Naxos, Deutsche Schubert-Lied-Edition, т. 4 «Mayrhofer, Vol. 1» (8.554738; издание — февраль 2000).
+— обоснование топ-5, приложенное к заданию (файл `planning/youtube/data/d476-ruckweg.dossier.json`, реестр `albums/complete-editions.md`) — verified (по формальным данным дискографии, приложенным к заданию; не проверялось заново в этой сессии).
+
+**Ф31.** Запись № 4 (Мюррей — Джонсон, Hyperion CDJ33003) — та же серия, буклет которой цитируется в разделах 4–5 (аннотация Грэма Джонсона к тому CDJ33003); анекдот о пении «голосом Марлен Дитрих» (Ф20) относится именно к сессии записи этого трека. — вывод по совокупности данных задания (том CDJ33003 в топ-5 и тот же том в буклете) — verified.
+
+---
+
+## Не подтвердилось / не найдено
+
+- Страница LiederNet (lieder.net) по этой песне: в манифесте предзагрузки помечена как недоступная (ok: false, DDG вернул HTTP 202 без результатов); повторная попытка через `curl` в этой сессии тоже не вернула результатов (сеть не ответила содержимым) — текст и переводы LiederNet не проверялись.
+- Точная дата первого исполнения песни (публичного или домашнего) — не найдена ни в одном из предзагруженных источников.
+- Прижизненные отклики или критика на саму песню «Rückweg» — не найдены (см. Ф26); песня не публиковалась при жизни Шуберта.
+- Включение стихотворения «Rückweg» во второй, посмертный сборник Майрхофера 1824/1843 годов — не подтверждено в бандле (см. Ф29).
+- Точная запись тематического каталога Отто Эриха Дойча о рукописи/источниках песни — упомянута ссылкой, но не процитирована дословно (см. Ф11).
+- Год начала службы Майрхофера цензором — расходится в источниках досье поэта (см. досье, Ф6) — к этой песне прямого отношения не имеет, но важен для датировки биографического контекста 1816 года.
+- Дата первой попытки самоубийства Майрхофера — расхождение между schubertsong.uk (23 августа 1828, Ф25 этого файла) и де-вики через досье поэта (1830, досье Ф18); оба источника вторичные, точная дата не устанавливается однозначно в бандле.

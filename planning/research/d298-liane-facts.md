@@ -1,0 +1,108 @@
+# Факты: «Liane» (D 298)
+
+Немецкий текст песни в проекте (4 строфы по 4 строки, с обменом репликами в начале первой строфы): «Hast du Lianen nicht gesehen?» — «Ich sah sie zu dem Teiche gehn.» / «Durch Busch und Hecke rennt er fort...». Поэт — Иоганн Майрхофер (Johann Mayrhofer). Досье поэта: `planning/research/poets/mayrhofer.md` (в бандле — раздел «ДОСЬЕ ПОЭТА»; факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-3 в разделе бандла «ТОП-5 ЗАПИСЕЙ».
+
+---
+
+## 1. Датировка и возраст Шуберта
+
+**Ф1.** Песня сочинена в октябре 1815 года — Hyperion, буклет Schubert Edition Vol. 7 (CDJ33007), Graham Johnson (https://www.hyperion-records.co.uk/notes/33007-B.pdf) — «Johann Mayrhofer (1787-1836) 0 LIANE D298 / LIANE / October 1815; first published 1895» — verified. Независимо подтверждено schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Komponiert: Oktober 1815» — verified.
+
+**Ф2.** Schubertlied.de указывает, что Шуберту было 18 лет, когда он написал эту песню — schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Schubert war 18 Jahre alt, als er dieses Lied schrieb.» — verified.
+
+**Ф3.** По Джонсону, «Liane» — вторая по счёту из 47 положенных Шубертом на музыку стихотворений Майрхофера; первая — «Am See» (1814); «Liane» — единственное обращение к Майрхоферу в 1815 году, до того как «поток» переложений начинается всерьёз в 1816-м и достигает пика в 1817-м, когда композитор жил с поэтом в одной квартире. — Hyperion, буклет CDJ33007, Graham Johnson — «This is the second of Schubert's 47 Mayrhofer settings. The first was Am See (Volume 4) from 1814; this song is the sole Mayrhofer work from 1815, before the flood begins in earnest in 1816 and reaches its peak in 1817 when the composer shared a fiat with the poet» — verified.
+
+**Ф4.** Schubertsong.uk датирует написание текста стихотворения ранним 1815 годом (Text written early 1815), отдельно от даты сочинения песни (октябрь 1815) — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «Set by Schubert: D 298 [October 1815] / Text by: Johann Baptist Mayrhofer / Text written early 1815. / First published 1824.» — secondary (единственный источник этой конкретной датировки текста; в бандле не cross-verified другим источником).
+
+## 2. Публикация и автограф
+
+**Ф5.** При жизни Шуберта песня не публиковалась; впервые опубликована только в 1895 году — Hyperion, буклет CDJ33007 — «October 1815; first published 1895» — verified. Независимо подтверждено schubertlied.de — «Veröffentlichung (angezeigt): 1895» — verified.
+
+**Ф6.** Первое издание — старое Полное собрание сочинений Шуберта (Alte Gesamtausgabe), Serie XX, Band 3, № 170, под редакцией Эузебиуса Мандычевского, издано в Лейпциге (Breitkopf & Härtel), издательский номер 1895 — schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Alte Gesamtausgabe, Serie XX, Bd. 03 №170»; «Die Veröffentlichung besorgte 1895 Eusebius Mandyczewski in Alte Gesamtausgabe (Breitkopf&Härtel) in Leipzig | Verlagsnummer 1895» — verified. Также учтена в Новом собрании сочинений (Neue Schubert-Ausgabe) — schubertlied.de — «Neue Schubert-Ausgabe IV, Bd. 09» — verified.
+
+**Ф7.** Между сочинением (октябрь 1815) и первой публикацией (1895) — 80 лет; между смертью Шуберта (1828, по общеизвестной дате) и публикацией — 67 лет (арифметика по верифицированным датам Ф1 и Ф5).
+
+**Ф8.** Оригинальная тональность — до мажор (C-Dur) — schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Originaltonart: C-Dur» — verified. (Указанная на той же странице тональность конкретной размещённой на сайте записи — «Aufnahmetonart: As-Dur» — это тональность конкретного исполнения Шёне/Берндсена, не авторская.)
+
+**Ф9.** Отсылка к первоисточникам об автографе и рукописных материалах — schubertlied.de указывает справочник Отто Эриха Дойча как место сведений о состоянии источников, без пересказа их содержания в тексте страницы — schubertlied.de — «Informationen zur Quellenlage (Manuskripte etc.) finden Sie hier: Thematisches Verzeichnis von Otto Erich Deutsch» — не найдено (сама информация об автографе в бандле отсутствует, только отсылка).
+
+**Ф10.** Schubertlied.de: Мандычевский также опубликовал каталожную запись по Дойчу — «Otto E. Deutsch: Franz Schubert. Thematisches Verzeichnis seiner Werke in chronologischer Folge — Seite 182» — schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — verified (как ссылка на страницу справочника Дойча; содержание страницы 182 в бандле не приведено).
+
+## 3. Текст и источник
+
+**Ф11.** Стихотворение «Liane» впервые напечатано в 1824 году, в единственном прижизненном сборнике Майрхофера «Gedichte von Johann Mayrhofer» (Вена, издатель Фридрих Волке), на странице 10 — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «First published 1824»; «Confirmed by Peter Rastl with Gedichte von Johann Mayrhofer. Wien. Bey Friedrich Volke. 1824, page 10.» — verified. Независимо подтверждено schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Das Gedicht Liane von Johann Baptist Mayrhofer wurde veröffentlicht im Jahr 1824 in Gedichte von Johann Mayrhofer. Es findet sich auf Seite 10» — verified. Также согласуется с досье, Ф10 (сборник 1824 года по подписке).
+
+**Ф12.** Schubertlied.de поясняет общий порядок получения Шубертом текстов Майрхофера: как правило, он получал стихи напрямую от автора в виде рукописных списков; печатный сборник появился лишь в 1824 году, в небольшом венском издательстве Фридриха Волке — schubertlied.de — «Schubert erhielt die Gedichte Mayrhofers in der Regel direkt als handschriftliche Vorlagen vom Autor selbst. Ein gedruckter Gedichtband Mayrhofers erschien erst 1824 in der kleinen Verlagsbuchhandlung Friedrich Volke in Wien.» — verified.
+
+**Ф13.** Расхождения между текстом стихотворения (первая публикация 1824, «Original Spelling» по schubertsong.uk / первопечатный текст на schubertlied.de) и текстом, положенным Шубертом на музыку (буклет Hyperion) — построчное сравнение по бандлу:
+ - Строка 3: у Майрхофера (1824, schubertsong.uk, schubertlied.de) — «Durch Busch und Hecken rennt er fort» (мн. ч. Hecken); у Шуберта (Hyperion) — «Durch Busch und Hecke rennt er fort,» (ед. ч. Hecke) — расхождение между печатным текстом поэта и нотным текстом Шуберта у Джонсона.
+ - Строка 4: у Майрхофера — «Und kommt an ihren Lieblingsort» (schubertsong.uk) / «Und kommt zu ihrem Lieblingsort» (schubertlied.de, вариант с изменённым предлогом и падежом); у Шуберта (Hyperion) — «Und kommt an ihren Lieblingsort.» — совпадает с вариантом schubertsong.uk, расходится с вариантом schubertlied.de.
+ - Строка 6: у Майрхофера (schubertsong.uk, оригинал) и у Шуберта (Hyperion) одинаково — «Aus Rosen tönt des Bachs Geschwätz»; в тексте проекта — «Aus rosig tönt des Bach's Geschwätz» — это расхождение проектного текста и с поэтом, и с нотным текстом по Hyperion (см. «Не подтвердилось»).
+ - Строка 15: у Майрхофера (schubertsong.uk) и Шуберта (Hyperion) — «Nur ihn, der im Gebüsche ist» / «Nur ihn – der im Gebüsche ist» (с уточняющим «Nur»); в тексте проекта — «Sie senkt das Haupt und denkt still / An ihn, der im Gebüsche ist» (без «Nur», с «An» вместо «Nur»).
+ — Источники: Hyperion, буклет CDJ33007 (https://www.hyperion-records.co.uk/notes/33007-B.pdf) — «Durch Busch und Hecke rennt er fort, / Und kommt an ihren Lieblingsort. / Die Linde spannt ihr grünes Netz, / Aus Rosen tönt des Bachs Geschwätz»; schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «Durch Busch und Hecken rennt er fort / Und kommt an ihren Lieblingsort. ... Nur ihn, der im Gebüsche ist»; schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Durch Busch und Hecken rennt er fort, / Und kommt zu ihrem Lieblingsort. ... Nur ihn – der im Gebüsche ist» — verified (расхождения зафиксированы построчным сопоставлением источников бандла; ни один источник в бандле не приводит текст проекта дословно).
+
+**Ф14.** Орфография эпохи (в первопечатном варианте 1824 года и в нотном тексте XIX века): «geseh'n» (апостроф вместо элизии), «röthet» (th вместо t, дореформенное написание), «Alles» с заглавной буквы как существительное — schubertsong.uk, «Original Spelling» (https://www.schubertsong.uk/text/liane/) — «»Hast du Lianen nicht geseh'n?« ... Die Blätter röthet Sonnengold, / Und Alles ist der Freude hold.»; подтверждено также написанием в тексте буклета Hyperion — «Die Blätter rötet Sonnengold» (уже в современной орфографии, без th) — verified (как факт о разночтении орфографии между первоисточником 1824 года и современными переизданиями).
+
+**Ф15.** Peter Rastl (специалист по критическим изданиям текстов Шуберта) подтвердил текст стихотворения по первому изданию 1824 года, страница 10 — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «Confirmed by Peter Rastl with Gedichte von Johann Mayrhofer. Wien. Bey Friedrich Volke. 1824, page 10.» — verified.
+
+**Ф16.** Цифровая копия первого издания 1824 года доступна онлайн в Австрийской национальной библиотеке (Österreichische Nationalbibliothek); текст стихотворения находится на странице 10 (24-й лист скана из 212) — schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Diese Veröffentlichung ist als Digitalisat in der Österreichischen Nationalbibliothek online studierbar. Das Gedicht findet sich auf den Seiten 10.»; «© Quelle: Österreichische Nationalbibliothek – Digitalisat eines gemeinfreien Werkes»; schubertsong.uk — «To see an early edition of the text, go to page 10 [24 von 212] here: http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ177450902» — verified.
+
+**Ф17.** Английский перевод строк на schubertsong.uk принадлежит Малколму Рену (Malcolm Wren); комментарий и эссе — тоже его, защищены копирайтом — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «All translations into English that appear on this website, unless otherwise stated, are by Malcolm Wren. ... Unless otherwise stated, the comments and essays that appear after the texts and translations are by Malcolm Wren and are © Copyright.» — verified.
+
+## 4. Музыка
+
+**Ф18.** Оригинальная тональность — до мажор (C-Dur) — schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Originaltonart: C-Dur» — verified. (См. также Ф8.)
+
+**Ф19.** Джонсон характеризует до мажор в этой песне как несущий «всю подушечную эвфонию» тональности («all the cushioned euphony of C major»); аккомпанемент построен на терциях и секстах — тот же приём тональности, что использовал Бетховен, например, в сонатах op. 2 № 3 и op. 53 «Вальдштейн», и в виолончельной сонате op. 102 № 1, написанной в том же 1815 году — Hyperion, буклет CDJ33007, Graham Johnson (https://www.hyperion-records.co.uk/notes/33007-B.pdf) — «Liane has all the cushioned euphony of C major; the accompaniment is built on thirds and sixths, a way of treating the key shared by Beethoven in such works as the Op 2 No 3 and Op 53 ('Waldstein') Piano Sonatas, and the Cello Sonata Op 102 No 1 which was written in this very year.» — verified.
+
+**Ф20.** Джонсон определяет песню как «величавую водную музыку» — движение царственной, сопровождаемой лебедями баржи, которую (как можно расслышать в глубине воды) медленно гребут через озеро — Hyperion, буклет CDJ33007, Graham Johnson — «This is stately water music, the progress of a queenly swan-accompanied barge as it is rowed (for we can surely hear the movement of oars in deep water) slowly across the lake.» — verified.
+
+**Ф21.** По Джонсону, песня начинается речитативом, который переходит в ариозо, а к третьей строфе становится настоящей арией — в момент, когда Лиана уже на пути к свиданию — Hyperion, буклет CDJ33007, Graham Johnson — «The song begins with recitative which melts into arioso which in turn is real aria by the time the third verse comes, and Liane is on the way to her tryst.» — verified.
+
+**Ф22.** Секстольный аккомпанемент (sextuplet accompaniment) до этого, несколькими неделями ранее, уже применялся Шубертом с более драматическим эффектом в песне «Dem Unendlichen»; это приём, которым Шуберт часто пользовался, желая передать величественное высказывание; путешествие в «Liane» обрамлено церемониальностью, подобно пышному «Embarquement pour Cythère» — Hyperion, буклет CDJ33007, Graham Johnson — «The sextuplet accompaniment had been used to more dramatic effect a few weeks earlier in Dem Unendlichen (Volume 5) but this is a device which Schubert often used when he wished to support a grand utterance; the joumey here is framed by ceremony, like a sumptuous Embarquement pour Cythère.» — verified.
+
+**Ф23.** В песне есть пространство и широта дыхания; темповая пометка «sehr langsam» («очень медленно») необычна для Шуберта; это делает песню испытанием вокальной техники, что, по мнению Джонсона, отчасти объясняет её нынешнюю малоизвестность — Hyperion, буклет CDJ33007, Graham Johnson — «There is a space and breadth to this song ('sehr langsam' as a marking is unusual for this composer) which make it a test of vocal technique. Perhaps this explains, in part, its neglect.» — verified.
+
+## 5. Смыслы и интерпретации
+
+**Ф24.** Джонсон (по пересказу schubertsong.uk) указывает, что Лиана — персонаж романа Жан-Поля «Титан» (Titan, издавался в четырёх частях, 1800–1803), который Майрхофер, будучи чрезвычайно начитанным, наверняка знал; главный герой Альбано влюблён в недостижимую Лиану, которая слепа и обладает даром предвидения — она знает, что умрёт молодой и что Альбано найдёт более полноценную любовь после её смерти — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «Graham Johnson points out that Liane is a character in the novel Titan by Jean-Paul (published in four parts, 1800–1803), which Mayrhofer (who was prodigiously well-read) must have known. The main character Albano is attracted to the unattainable Liane, who is blind and a sort of seer (she knows that she is going to die young and that Albano will find a more fulfilling love after her death).» — verified (мнение Джонсона приведено в пересказе Малколма Рена на schubertsong.uk).
+
+**Ф25.** Рен характеризует Лиану у Майрхофера как манящую, эфемерную фигуру в традиции «La Belle Dame Sans Merci» или Мелизанды; её появление в лодке напоминает также образ Девы из Шалотта (Lady of Shalott); то, что она поёт на воде, роднит её с Ундиной или Русалкой — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «Mayrhofer presents Liane as an alluring, waif-like figure in the tradition of La Belle Dame Sans Merci or Mélisande, but her appearance on a boat also reminds us of figures like the Lady of Shalott. The fact that she sings on water also makes her a sort of Undine or Rusalka.» — verified (атрибутированное суждение комментатора).
+
+**Ф26.** Рен предупреждает: хотя всё выглядит так, будто героиня влюблена и предвкушает объятия героя, стоит заподозрить, что дело не только в этом — возможно, читатель видит не её подлинные мысли, а фантазию мужчины о том, как его встретят; заключение в объятия этих «водяных дев» в подобных историях для мужчин никогда не кончается добром — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «Although she gives every impression of being in love and looking forward to being taken up into the arms of a heroic lover, we have to suspect that this might not be all that is going on. We may be reading the man's fantasy about how he is going to be received rather than her own inner thoughts. Wrapping these watery waifs in their arms never turns out well for men in stories like this.» — verified.
+
+**Ф27.** Рен отмечает, что, несмотря на видимость всеведущего рассказчика, всё в тексте подаётся с точки зрения мужчины: прямая речь звучит только в первой строфе, но собственный голос Лианы мы так и не слышим; вторая строфа делает акцент на цветах (зелёный, красный, золотой), которых слепая Лиана не могла бы видеть; она не может знать, что он уже в кустах, наблюдает и слушает её — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «There are hints throughout the text that, despite the surface impression that the story is being told by an omniscient narrator, everything is being presented from the man's point of view. Although direct speech is used (in stanza one), we never hear Liane's voice itself. The second stanza emphasises colours, which the blind Liane could not have been aware of (green, red, gold). She cannot know that he is already in the bushes watching her and listening to her. We are following HIS train of thoughts all the way through.» — verified. (Замечание Рена о слепоте Лианы опирается на характеристику героини романа Жан-Поля, Ф24 — сам текст песни её слепоты не называет.)
+
+**Ф28.** Schubertsong.uk каталогизирует темы и образы текста: «Arms and embracing», «Bushes and undergrowth», «Flowers», «Gold», «Green», «Heads», «Hedges», «Joy», «Leaves and foliage», «Lime trees (Lindenbaum)», «Lorelei, water nymphs, mermaids etc», «Lutes», «On the water — rowing and sailing», «Ponds», «Red and purple», «Rivers (Bach)», «Roses and pink», «Songs (general)», «The sun», «Swans», «Swaying and swinging» — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «Themes and images in this text: Arms and embracing / Bushes and undergrowth / Flowers / Gold / Green / Heads / Hedges / Joy / Leaves and foliage / Lime trees (Lindenbaum) / Lorelei, water nymphs, mermaids etc / Lutes / On the water – rowing and sailing / Ponds / Red and purple / Rivers (Bach) / Roses and pink / Songs (general) / The sun / Swans / Swaying and swinging» — verified.
+
+## 6. Рецепция и документы эпохи
+
+Не найдено. В бандле нет ни одной прижизненной рецензии, письма или иного документа эпохи (1815–1828), относящегося именно к «Liane» D 298; раздел «Vor 200 Jahren» на schubertlied.de перечисляет рецепцию совсем других опусов Шуберта того же издательского года (op. 59, op. 65, op. 62), не связанных с D 298 напрямую (см. «Не подтвердилось»).
+
+## 7. Судьба и наследие
+
+**Ф29.** Джонсон прямо связывает малую известность («neglect») песни с трудностью для исполнителя: широкое дыхание, необычная для Шуберта пометка «sehr langsam», делают её испытанием вокальной техники — Hyperion, буклет CDJ33007, Graham Johnson (https://www.hyperion-records.co.uk/notes/33007-B.pdf) — «which make it a test of vocal technique. Perhaps this explains, in part, its neglect.» — verified (совпадает с Ф23; приводится отдельно как факт о посмертной судьбе/репутации песни).
+
+**Ф30.** Публикация состоялась лишь спустя 80 лет после сочинения, в академическом Полном собрании сочинений (Alte Gesamtausgabe, 1895) — не при жизни композитора и не в виде отдельного концертного издания — вывод из Ф1 и Ф5–Ф6 (арифметика и характер издания по верифицированным фактам бандла).
+
+## 8. Записи
+
+**Ф31.** Топ-3 записи (из раздела бандла «ТОП-5 ЗАПИСЕЙ»):
+ 1. Дитрих Фишер-Дискау (баритон) — Джеральд Мур (фортепиано), 1969, видео `jNObVAFt2ds`; альбом — DG «Sämtliche Lieder» (сессии 1966–1972, по конвенции проекта датировано 1969).
+ 2. Элли Амелинг (сопрано) — Грэм Джонсон (фортепиано), 1989, видео `_m60B04i73w`; альбом — Hyperion Schubert Edition, том 7 «Schubert in 1815 I» (CDJ33007), сессии VIII.1989, издание XII.1990.
+ 3. [Iven] (фамилия по бандлу — Iven) — Буркхард Керинг (фортепиано), 2003, видео `T_KTP-N06wA`; альбом — Naxos DSLE, том 12 «Mayrhofer, Vol. 2» (8.554739, издание 02/2003).
+ — Источник: раздел бандла «ТОП-5 ЗАПИСЕЙ» (без прямого URL, данные из planning/youtube/albums/complete-editions.md, MusicBrainz, app/src/data/performances.json, oEmbed, согласно бандлу) — verified (как факт о содержимом раздела бандла; первичные дискографические данные не проверялись заново в этом файле).
+
+**Ф32.** Отклонённые кандидаты и причины отклонения (по тому же разделу бандла): запись Уоттс (Watts, видео `RKs0RoV31wo`) — альбом не идентифицирован ни в реестре, ни в MusicBrainz, год недоказуем, оставлена в резерве №1; ряд учебных/любительских загрузок (Tomasz Wija / David Santos, David Lutz, Anna Avdalyan, Hannah Harnest, Frieda Abdo, Miguel Martiarena) — без дискографических данных; дубли записи Фишера-Дискау (`-PK72mj-M_8`, `4ZAOaIRdJRk`) — переиздания того же трека, в плеере оставлен один ID — verified (как факт о содержимом раздела бандла).
+
+---
+
+## Не подтвердилось / не найдено
+
+- Прямое обоснование расхождения строки 6 текста проекта («Aus rosig tönt des Bach's Geschwätz») с текстом и поэта, и Шуберта («Aus Rosen tönt des Bachs Geschwätz» — во всех трёх источниках бандла: Hyperion, schubertlied.de, schubertsong.uk) — в бандле не найдено объяснения этого разночтения; сам факт расхождения зафиксирован в Ф13.
+- LiederNet Archive (lieder.net) — согласно манифесту предзагрузки, страница не была получена («liedernet»: {"ok": false}); попытка добрать источник через DuckDuckGo в рамках сетевого лимита этой задачи результата не дала (пустой ответ). Данные LiederNet в этом файле не использованы.
+- Год издания второго издателя/номер плиты (Verlagsnummer) кроме уже приведённого «1895» — дополнительных деталей выпуска (тираж, цена, конкретный номер по каталогу Breitkopf & Härtel сверх «1895») в бандле нет.
+- Автограф Шуберта (место хранения, датировка по автографу, отличия от первой публикации) — в бандле нет прямых сведений, только отсылка к справочнику Дойча без содержания (см. Ф9).
+- Рецензии, письма современников, дневниковые записи именно о «Liane» D 298 (эпоха 1815–1828) — в бандле не найдено.
+- Точная календарная дата сочинения внутри октября 1815 года (только месяц указан всеми источниками бандла).
+- Fischer-Dieskau/Moore и Naxos-исполнитель «Iven» — инициалы и полное имя певца из записи №3 в бандле не приведены (только фамилия «Iven»); проверка полного имени по MusicBrainz не проводилась заново в рамках этой задачи.

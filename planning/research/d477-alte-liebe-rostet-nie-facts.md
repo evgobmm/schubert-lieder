@@ -1,0 +1,97 @@
+# Факты: «Alte Liebe rostet nie» (D 477)
+
+Немецкий текст песни в проекте (5 строф, без повтора первой строфы в конце): см. бандл, раздел «НЕМЕЦКИЙ ТЕКСТ ПЕСНИ (как в проекте)». Поэт — Иоганн Майрхофер (Johann Baptist Mayrhofer, 1787–1836). Досье поэта: `planning/research/poets/mayrhofer.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№»). Источники для этого файла — предзагруженные страницы schubertlied.de, schubertsong.uk (текст и комментарий Малколма Рена) и буклет Hyperion CDJ33004 (аннотация Грэма Джонсона).
+
+---
+
+## 1. Датировка и возраст Шуберта
+
+**Ф1.** Песня сочинена в сентябре 1816 года — cross-verified двумя независимыми источниками: schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Komponiert: September 1816»; Hyperion, буклет CDJ33004, Graham Johnson (https://www.hyperion-records.co.uk/notes/33004-B.pdf) — «September 1816; published 1895» — verified.
+
+**Ф2.** Шуберту было 19 лет, когда он писал эту песню — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Schubert war 19 Jahre alt, als er dieses Lied schrieb.» (указано на странице дважды) — verified.
+
+**Ф3.** schubertsong.uk датирует текст стихотворения тем же годом, но с оговоркой «вероятно»: «Text written probably 1816» — schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/ — verified (как формулировка источника; безусловной уверенности в дате текста нет).
+
+## 2. Публикация и автограф
+
+**Ф4.** При жизни Шуберта песня не публиковалась; впервые издана только в 1895 году Эузебиусом Мандычевским в старом Полном собрании сочинений (Alte Gesamtausgabe), Breitkopf & Härtel, Лейпциг — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Die Veröffentlichung besorgte 1895 Eusebius Mandyczewski in Alte Gesamtausgabe (Breitkopf&Härtel) in Leipzig»; «Das Lied wurde erst in der Alten Gesamtausgabe AGA im Jahr 1895 von Eusebius Mandyczewski veröffentlicht.» Независимо подтверждено Hyperion — «published 1895» (см. Ф1) — verified. Между сочинением (1816) и первой публикацией (1895) — 79 лет; между смертью Шуберта (1828) и публикацией — 67 лет (арифметика по верифицированным датам).
+
+**Ф5.** Каталожный адрес в собраниях: Alte Gesamtausgabe, Serie XX, Bd. 04, № 253; Neue Schubert-Ausgabe IV, Bd. 11 — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Alte Gesamtausgabe, Serie XX, Bd. 04 № 253»; «Neue Schubert-Ausgabe IV, Bd. 11» — verified.
+
+**Ф6.** Автограф — рукопись с авторской подписью «Frz. Schubert mppia» и датой «Sept. 1816» в заголовке первых двух страниц, 4 страницы, альбомный формат (Querformat); на первой странице сдвоенного листа — «Alte Liebe rostet nie» на стихи Майрхофера (нижняя половина страницы занята строфами 2–5), на двух внутренних страницах — «Harfenspieler» I («Wer sich der Einsamkeit ergibt…», op. 12 № 1, D 478a), на последней странице — первые сорок тактов «Harfenspieler» № 2 («An die Thüren will ich schleichen…», op. 12 № 3, D 479a); автограф последних 12 тактов второго «Harfner»-Lied хранится, по Дойчу, в Городской библиотеке Вены — текст аукционного каталога Stargardt (Марбург), цит. по schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «E. Musikmanuskript mit e. Namenszügen „Frz. Schubert mppia" und Daten „Sept. 1816" am Kopf der ersten beiden Seiten. 4 S. Querformat… Auf der ersten Seite des Doppelblattes das Lied „Alte Liebe rostet nie" nach dem Gedicht seines Freundes Johann Mayrhofer… Auf den beiden Innenseiten das Lied „Harfenspieler" I… und auf der letzten Seite die ersten vierzig Takte vom „Harfenspieler. Nr 2"… Das Autograph der letzten 12 Takte des zweiten „Harfner"-Liedes befindet sich nach Deutsch im Besitz der Stadtbibliothek Wien.» — verified (первоисточник — текст аукционного описания, воспроизведённый на schubertlied.de).
+
+**Ф7.** От обоих «Harfner»-Lieder (D 478, D 479) Шуберт написал вторые версии, а автографы более ранних (первых) версий утрачены или уничтожены; все три песни (D 477, D 478a, D 479a) вышли в 1895 году в том же собрании Breitkopf & Härtel — тот же аукционный текст, schubertlied.de — «Von beiden Liedern komponierte Schubert zweite Versionen, von dem ersteren außerdem eine frühere, deren Autographen jedoch verschollen oder vernichtet sind. Die drei Lieder erschienen 1895 in der Gesamtausgabe bei Breitkopf & Härtel in Leipzig.» — verified.
+
+**Ф8.** Сегодня рукопись хранится в Австрийской национальной библиотеке (Österreichische Nationalbibliothek) — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Heute liegt das Manuskript in der Österreichischen Nationalbibliothek.» — verified.
+
+## 3. Текст и источник
+
+**Ф9.** Стихотворение Майрхофера впервые напечатано посмертно — согласно schubertlied.de, в 1843 году в сборнике «Gedichte von Johann Mayrhofer» (изд. Ignaz Klang, Вена), на с. 98, под заголовком «Alte Liebe»: «Das Gedicht Alte Liebe rostet nie von Johann Baptist Mayrhofer wurde veröffentlicht im Jahr 1843 in Gedichte von Johann Mayrhofer. Es findet sich auf Seite 98.» — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — verified. Однако schubertsong.uk даёт другой год первой публикации текста — 1839: «First published 1839.» — schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/ — verified (как формулировка источника; год расходится с schubertlied.de, см. также досье, Ф11, где посмертный сборник 1843 года назван по имени издателя Фейхтерслебена — расхождение годов 1839/1843 не разрешено бандлом, uncertain).
+
+**Ф10.** Стихотворение было включено в цикл-раздел «III. Gegenwart» («Настоящее»), пункт 1 — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Das Gedicht Alte Liebe steht in einer Sammlung mit der Überschrift III. Gegenwart. 1.1» — verified.
+
+**Ф11.** Версия текста, которую положил на музыку Шуберт, сильно отличается от напечатанной версии; обычно Шуберт получал стихи Майрхофера в виде рукописи, и, видимо, так было и в этом случае — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Die Version, die Schubert vertonte weicht stark von der gedruckten Version ab. Üblicherweise erhielt Schubert die Gedichte Mayrhofer's als Handschrift. So auch in diesem Fall.» — verified. schubertsong.uk формулирует три равновероятные гипотезы происхождения расхождений: Шуберт мог работать по более ранней редакции текста, мог сам внести изменения, либо мог менять формулировки вместе с поэтом в процессе сочинения — schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/ — «Schubert may have worked from an earlier version of the text, he may have made the changes himself or he might have worked with the poet to change the wording in the course of composition.» — verified (интерпретация источника, не факт).
+
+**Ф12.** Построчные расхождения версии Шуберта (по автографу/первой публикации песни) и напечатанной в 1843 году редакции стихотворения (с заголовком «Alte Liebe»), по своду schubertsong.uk — «Original Spelling and note on the text», курсивом отмечены различия в источнике:
+- Ст. 1, стк. 1 и 3: у Шуберта «Alte Liebe rostet **nie**», в печатной редакции «Alte Liebe rostet **nicht**» (та же замена «nie»→«nicht» в обеих повторяющихся строках);
+- Ст. 2, стк. 2: у Шуберта «Die ich einst die **Meine** nannte», в печатной — «Die ich einst **mein eigen** nannte»;
+- Ст. 2, стк. 3: у Шуберта «**Die ich liebte** ritterlich», в печатной — «**Der ich lebte** ritterlich»;
+- Ст. 2, стк. 4: у Шуберта «Die mich in die **Ferne** sandte», в печатной — «Die mich in die **Weite** sandte»;
+- Ст. 3, стк. 3: у Шуберта «Vor **der schönsten Frauen Flor**», в печатной — «Vor **dem schönsten Frauenflor**»;
+- Ст. 4 целиком другая: у Шуберта «**Denn aus mir ihr Bildnis trat, Zürnend, wie zum Kampf mit ihnen; Mit dem Zauber, den sie hat, Mußte sie das Spiel gewinnen.**», в печатной редакции — «**Denn ihr Bild trat vor den Geist, Zürnend halb und halb voll Milde, — Und was irgend Zauber heißt Wich beschämt dem lieben Bilde.**»;
+- Ст. 5, стк. 1: у Шуберта «**Da** der Garten, dort das Haus», в печатной — «**Hier** der Garten, dort das Haus»;
+- Ст. 5, стк. 2: у Шуберта «Wo wir **oft** so traulich kosten!», в печатной — «Wo wir **einst** so traulich kos'ten!»
+— schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/, раздел «Original Spelling and note on the text» — «When this poem was printed in the posthumous (1843) edition of Mayrhofer's works (with the title 'Alte Liebe'), the wording was different (shown in bold. Schubert may have worked from an earlier version of the text…)» — verified (сверено построчно по параллельным текстам источника; в самом источнике различия выделены полужирным, здесь — построчным сопоставлением).
+
+**Ф13.** Немецкое написание в тексте песни на schubertlied.de и schubertsong.uk (орфография эпохи с «ß», апострофами и вариациями пунктуации) незначительно отличается от принятого в проекте написания и от друг друга по мелочам (например, «umgib»/«umgibt», «tratt»/«trat», «Zürnend»/«Zörnend» у schubertsong.uk — вероятно, опечатка при наборе OCR или транскрипции); текст в проекте (см. раздел выше) сверяется отдельно с изданием OpenScore Lieder Corpus — verified как факт наличия орфографических вариантов между источниками, без установления «канонической» орфографии этим бандлом (uncertain, какое написание точнее всего повторяет автограф).
+
+**Ф14.** Комментарий schubertsong.uk (Малколм Рен) специально подчёркивает, что стихотворение не следует читать автобиографически: сюжет не может быть автобиографичным уже потому, что Майрхофер никогда не путешествовал за границу («Hab' ich Meer und Land gesehen» / «Я видел моря и страны»); его мир был ограничен областью между Штирией и Веной, и нет свидетельств, что он вообще видел море, не говоря о плавании по нему — schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/ — «The poem cannot be autobiographical in the most basic sense simply because Mayrhofer was not someone who ever travelled abroad… His world was restricted to the region between Styria and Vienna, and there is no evidence that he ever saw the sea, let alone sailed across it.» — verified (атрибутированное суждение комментатора).
+
+## 4. Музыка
+
+**Ф15.** Оригинальная тональность — си мажор (H-Dur); тональность конкретной размещённой на сайте записи (Шёне/Монах) — соль мажор (G-Dur), то есть запись транспонирована — schubertlied.de, https://www.schubertlied.de/die-lieder/alte-liebe-rostet-nie-d477 — «Originaltonart: H-Dur»; «Aufnahmetonart: G-Dur» — verified (второе поле относится к конкретной записи, не к авторской тональности).
+
+**Ф16.** Джонсон характеризует песню как «полностью очаровательную» при обманчивой простоте; беспокойные поиски влюблённого героя отражены в тональном плане, который приходит к тонике только в конце каждой строфы; даже первый аккорд взят в первом обращении тоники, что сеет зерно сомнения, рассеиваемое лишь в утвердительном постлюдии — Hyperion, буклет CDJ33004, Graham Johnson, https://www.hyperion-records.co.uk/notes/33004-B.pdf — «This entirely enchanting song is of a deceptive simplicity. The lover's restless quest is mirrored by a tonal scheme which reaches a tonic close only at the end of each verse. How masterful it is that even the first chord is on the first inversion of the tonic; this sows a seed of doubt which is only banished in the affirmative postlude.» — verified.
+
+**Ф17.** Джонсон: в этой песне сентенция «Alte Liebe rostet nie» звучит как заклинание или литания, и здесь использованы те же движущиеся гармонические последовательности, что завершают каждую строфу шубертовской «Litanei» — Hyperion, буклет CDJ33004, Graham Johnson — «In this song the maxim is like a spell or a litany and the moving harmonic sequences which end each verse of Schubert's Litanei are also used here.» — verified.
+
+**Ф18.** Джонсон: мелодия на слова «Alte Liebe rostet nie» — любимая мотто-тема Моцарта, достигающая апофеоза в финале симфонии «Юпитер»; цитата из другой великой песни, чтящей мёртвых («Litanei»), приобретает здесь особое значение — Hyperion, буклет CDJ33004, Graham Johnson — «But a quotation from that great song honouring the dead has another significance. The tune for the words 'Alte Liebe rostet nie' is Mozart's favourite motto theme, which reaches its apotheosis in the finale of the 'Jupiter' Symphony.» — verified.
+
+**Ф19.** Джонсон цитирует запись из дневника Шуберта 1816 года (более раннюю по времени, чем сама песня) о Моцарте: «Волшебные звуки музыки Моцарта до сих пор преследуют меня… Моцарт, бессмертный Моцарт, сколько бесконечно многих утешительных прозрений лучшей жизни принёс ты нашим душам» — и заключает: старая любовь Шуберта к Моцарту никогда не должна была потускнеть, тем более умереть; возможно, после неудачи его романа с Терезой Гроб это способ Шуберта сказать, что верное содружество можно найти только в музыке — Hyperion, буклет CDJ33004, Graham Johnson — «In a passage from his diary (earlier in 1816) Schubert had written 'The magic notes of Mozart's music still haunt me . . . . Mozart, immortal Mozart, how endlessly many comforting perceptions of a better life have you brought to our souls.' Schubert's old love for Mozart was never to tarnish, much less die. After the failure of his love affair with Therese Grob it is perhaps Schubert's way of saying that only in music can he hope to find faithful companionship.» — verified.
+
+## 5. Смыслы и интерпретации
+
+**Ф20.** Рен (schubertsong.uk) ставит и снимает вопрос о конкретном биографическом прототипе «неё» из стихотворения: интуитивно читатель ищет в опыте автора ключ к тому, кто была первая любовь, отвергшая Майрхофера и отправившая его «вдаль», однако сам источник указывает, что эти вопросы, вероятнее всего, заданы неверно — по причине, изложенной в Ф14 — schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/ — «There is an element of human curiosity which leads most readers to try to find the key to a poem like this in the author's personal experience… Yet we can be fairly certain that these are the wrong questions to ask here.» — verified.
+
+**Ф21.** Рен прямо называет предположение Джонсона о связи описываемой любви с неспособностью Майрхофера оторваться от «удушающей матери» («smother-mother») неуместным («misplaced»): «Мы просто имеем дело с искусством, а не с жизнью» — schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/ — «Even Graham Johnson's suggestion that the love being described is somehow connected with Mayrhofer's inability to break away from his smother-mother seems misplaced. We are just dealing with art rather than life.» — verified (атрибутированная оценка одного комментатора о суждении другого; сама формулировка Джонсона о «smother-mother» в бандле не процитирована дословно и не проверяема отдельно — uncertain в части содержания оригинального высказывания Джонсона).
+
+**Ф22.** Тем не менее Рен видит в стихотворении универсальный человеческий опыт: большинство людей знакомо с неспособностью преодолеть раннюю влюблённость или страсть; многие поздние отношения страдают из-за прежних привязанностей и ожиданий, из-за «третьего», мешающего воспринимать людей такими, какие они есть; этот «плывущий образ» («floating image»), возникающий из собственной психики («aus mir ihr Bildnis trat» / «её образ выступил из меня»), часто гневен и враждебен, чрезвычайно устойчив, не тускнеет, инертен — как говорит поэт, не ржавеет — schubertsong.uk, https://www.schubertsong.uk/text/alte-liebe-rostet-nie/ — «Nevertheless, there is enough basic human experience here for most of us to be able to identify with the situation… This 'floating image' which emerges from our own psyche ('aus mir ihr Bildnis trat' / her image stepped out from inside me) is often angry and hostile. It is also remarkably persistent. It does not fade… This sort of old love cannot be tarnished; it is inert. As the poet puts it, it does not rust.» — verified.
+
+## 6. Рецепция и документы эпохи
+
+**Ф23.** Единственный документ эпохи о судьбе рукописи, содержащийся в бандле, — текст описания в аукционном каталоге Stargardt (Марбург) на момент публикации 1895 года; см. Ф6–Ф7. Других современных Шуберту откликов, рецензий или упоминаний именно этой песни в бандле не найдено (gap).
+
+## 7. Судьба и наследие
+
+**Ф24.** Песня оставалась неопубликованной 79 лет (1816–1895) и вышла в свет лишь в академическом полном собрании (Alte Gesamtausgabe), а не в прижизненных или ранних посмертных изданиях отдельных песен — см. Ф4, Ф24 (арифметика по верифицированным датам Ф1, Ф4). Прямых оценочных высказываний о позднейшей репутации или исполнительской судьбе песни (за пределами музыкального анализа Джонсона, разделы 4–5) бандл не содержит — gap.
+
+## 8. Записи
+
+**Ф25.** Топ-3 записи песни (фонд редкой песни исчерпан тремя записями; источник — досье `planning/youtube/data/d477-alte-liebe-rostet-nie.dossier.json`, все videoId проверены `yt-check.js`):
+1. Дитрих Фишер-Дискау (баритон) — Джеральд Мур (фортепиано), 1969, DG «Sämtliche Lieder» — videoId WzOVIefQvvc; высший доступный приоритет в конвенции проекта.
+2. Филип Лэнгридж (тенор) — Грэм Джонсон (фортепиано), 1988 (запись IX.1988, издание XII.1989), Hyperion, том 4 «Schubert & his Friends II», CDJ33004 — videoId G8VXSwK6Fwo; научный эталон издания Джонсона (тот же буклет, что цитируется в разделе 4 этого файла).
+3. Корби Хауптманн (?) — Штефан Лаукс (фортепиано), 2000 (издание 02.2000), Naxos DSLE, том 4 «Mayrhofer, Vol. 1», 8.554738 — videoId 7ULLL-xwGc0.
+— verified (источник — предзагруженный досье записей внутри бандла).
+
+**Ф26.** Резервные, не проверенные по трек-листу кандидаты для будущего дорасследования: Eterna, «Lieder nach Mayrhofer» (Лоренц/Shetler, 1983); Prégardien/Staier, «Lieder after Mayrhofer» (Teldec, ℗2001) — из бандла (раздел «Резервы»); ни один не включён в топ-3 — uncertain/не проверено.
+
+---
+
+## Не подтвердилось / не найдено
+
+- Страница LiederNet.org по этой песне не была предзагружена (манифест: `liedernet.ok: false`, `ddg_http: 202`); попытка сетевого поиска в рамках отведённого бюджета не производилась ввиду достаточности предзагруженных источников для покрытия задания — текст на LiederNet не сверен отдельно.
+- Год первой публикации стихотворения Майрхофера расходится между источниками бандла: schubertlied.de называет 1843, schubertsong.uk — 1839 (см. Ф9); какой из них верен, бандл не устанавливает.
+- Точное «каноническое» написание немецкого текста по автографу (орфографические варианты между schubertlied.de и schubertsong.uk, см. Ф13) бандлом не разрешено; текст в проекте сверяется отдельно с источником OpenScore Lieder Corpus.
+- Оценка Джонсона о «smother-mother» матери Майрхофера (упомянутая Реном, Ф21) в бандле дана только пересказом оппонента, а не дословной цитатой самого Джонсона — содержание этой гипотезы Джонсона напрямую не проверяемо.
+- Прижизненная рецепция песни (отзывы современников, письма, дневники Шуберта именно об этой песне) в бандле не встретилась — вероятно, потому что песня при жизни композитора не звучала публично и не издавалась (см. Ф4).
+- Опус у песни отсутствует (в отличие от других песен Майрхофера, напр. op. 21, op. 65 — досье, Ф13, Ф34); прямого указания «без опуса» в тексте бандла нет, но ни в одном источнике опусный номер для D 477 не упомянут — вывод по отсутствию данных, не факт с цитатой.
