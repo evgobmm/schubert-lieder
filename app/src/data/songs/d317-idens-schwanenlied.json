@@ -1,9 +1,16 @@
 {
  "d": "317",
  "title_de": "Idens Schwanenlied",
+ "title_ru": "Лебединая песня Иды",
+ "poet_de": "Ludwig Gotthard Kosegarten",
+ "poet_ru": "Людвиг Готхард Козегартен",
  "year": "1815",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Ида — сквозная героиня Козегартена: её имя носят и другие песни на его стихи, Von Ida («От Иды») и Idens Nachtgesang («Ночная песнь Иды»), а за ним стоит литературная маска самого поэта."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -11,6 +18,220 @@
     "Es girrt die scheidende Natur ihr Lebewohl so traurig,",
     "Es schwirrt der Heimchen heisrer Chor zu meinem Schwanenliede,",
     "Stehn Busch und Wald und Flur so trostlos und so schaurig."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Как",
+       "de": "Wie"
+      },
+      {
+       "ru": "глядишь",
+       "de": "schaust"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "из",
+       "de": "aus"
+      },
+      {
+       "ru": "туманной пелены,",
+       "de": "dem Nebelflor,"
+      },
+      {
+       "ru": "о",
+       "de": "o"
+      },
+      {
+       "ru": "солнце,",
+       "de": "Sonne,"
+      },
+      {
+       "ru": "бледное",
+       "de": "bleich"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "усталое?",
+       "de": "müde?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Nebelflor сложено из Nebel («туман») и Flor («флёр» — тонкая полупрозрачная ткань, из какой шили траурные вуали): туман лежит на солнце как креп. Словарь Гриммов приводит слово строкой Маттисона: ein weiszer nebelflor umschleiert unser chor («белый туманный флёр окутывает наш хор»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        6,
+        9
+       ],
+       "text": "Малколм Рен замечает: Ида запевает свою лебединую песню в час, когда чувствует наступление вечера, — солнце устало после долгого дня, как устала она сама."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Воркует",
+       "de": "Es girrt"
+      },
+      {
+       "ru": "уходящая",
+       "de": "die scheidende"
+      },
+      {
+       "ru": "природа",
+       "de": "Natur"
+      },
+      {
+       "ru": "своё",
+       "de": "ihr"
+      },
+      {
+       "ru": "прощание",
+       "de": "Lebewohl"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "печально,",
+       "de": "traurig,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "girren — звукоподражание, известное с XV века; с XVI века оно закрепилось за воркованием горлиц и принесло с собой оттенок нежной тоски. Безличное es только занимает первое место в предложении, подлежащее — die Natur («природа»); русского слова ему не отвечает."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Стрекочет",
+       "de": "Es schwirrt"
+      },
+      {
+       "ru": "сверчков",
+       "de": "der Heimchen"
+      },
+      {
+       "ru": "хриплый",
+       "de": "heisrer"
+      },
+      {
+       "ru": "хор",
+       "de": "Chor"
+      },
+      {
+       "ru": "к",
+       "de": "zu"
+      },
+      {
+       "ru": "моей",
+       "de": "meinem"
+      },
+      {
+       "ru": "лебединой песне,",
+       "de": "Schwanenliede,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Хор сверчков не только назван в строке — его слышно: в триольном сопровождении этой строфы Грэм Джонсон различает стрекотание."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Schwanenlied — «лебединая песня»: по старому поверью лебедь поёт единственный раз в жизни, перед смертью. Форма Schwanenliede — дательный падеж со старым окончанием -e; хор сверчков стрекочет «к» этой песне, то есть подпевает ей."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Стоят",
+       "de": "Stehn"
+      },
+      {
+       "ru": "куст",
+       "de": "Busch"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "лес",
+       "de": "Wald"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "нива",
+       "de": "Flur"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "уныло",
+       "de": "trostlos"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "жутко.",
+       "de": "schaurig."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "die Flur — «нива, поле, открытый простор», любимое слово идиллической лирики XVIII века. Сегодня чаще встречается созвучное der Flur («коридор, прихожая»), но это другое слово, мужского рода."
+      }
+     ]
+    }
    ]
   },
   {
@@ -19,6 +240,106 @@
     "Entlaubt der traute Garten,",
     "Wo er und ich im Mondenschein",
     "Einander bang erharrten."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Без листьев",
+       "de": "Entblättert"
+      },
+      {
+       "ru": "стоит",
+       "de": "steht"
+      },
+      {
+       "ru": "ольховая роща,",
+       "de": "der Erlenhain,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Без листвы",
+       "de": "Entlaubt"
+      },
+      {
+       "ru": "милый",
+       "de": "der traute"
+      },
+      {
+       "ru": "сад,",
+       "de": "Garten,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Два близких глагола стоят в соседних строках: entblättern («лишать листьев») и entlauben («лишать листвы») — в осенней поэзии они взаимозаменимы. Traut — слово доверительной близости: «уютный, обжитой, свой», и сад назван так потому, что был у них общим."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Где",
+       "de": "Wo"
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "лунном свете",
+       "de": "Mondenschein"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Друг друга",
+       "de": "Einander"
+      },
+      {
+       "ru": "тревожно",
+       "de": "bang"
+      },
+      {
+       "ru": "ждали.",
+       "de": "erharrten."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "erharren — старый глагол лютеровского обихода, «дожидаться, ждать с терпением»; к 1815 году он звучал архаично. Bang — щемящее беспокойство, а не ужас: они ждали друг друга с замиранием."
+      }
+     ]
+    }
    ]
   },
   {
@@ -27,6 +348,148 @@
     "Im Schirm der Linden sassen,",
     "Und auf des Rasens weichem Sitz",
     "Der öden Welt vergassen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Где",
+       "de": "Wo"
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "лунном сполохе",
+       "de": "Mondenblitz"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Mondenblitz в словарях не значится: Козегартен сложил его сам из Mond («луна») и Blitz («молния, вспышка») и поставил рядом с обычным Mondenschein («лунный свет») предыдущей строфы. Лунный свет в этом слове вспыхивает, а не льётся."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "Im"
+      },
+      {
+       "ru": "сени",
+       "de": "Schirm"
+      },
+      {
+       "ru": "лип",
+       "de": "der Linden"
+      },
+      {
+       "ru": "сидели,",
+       "de": "sassen,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Schirm означает здесь старое «заслон, укрытие», а не зонт: липы стоят кровом. Липа в немецкой песне — дерево встреч и веселья; словарь Гриммов приводит старинную строку unter der linden, pflegen wir zu trinken, tanzen und frölich sein («под липой мы обыкновенно пьём, танцуем и веселимся»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Рен замечает: мысль об опавшей листве будит воспоминание — под защитой этих самых лип она когда-то плела венки из роз для возлюбленного."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "на",
+       "de": "auf"
+      },
+      {
+       "ru": "мягком",
+       "de": "weichem"
+      },
+      {
+       "ru": "травяном",
+       "de": "des Rasens"
+      },
+      {
+       "ru": "сиденье",
+       "de": "Sitz"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "des Rasens — родительный падеж: «сиденье дёрна», то есть сиденье из травы; по-русски естественнее прилагательное. Der Rasen — «дёрн, травяной покров»; созвучный глагол rasen («неистовствовать») к строке отношения не имеет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "О",
+       "de": ""
+      },
+      {
+       "ru": "пустынном",
+       "de": "Der öden"
+      },
+      {
+       "ru": "мире",
+       "de": "Welt"
+      },
+      {
+       "ru": "забывали.",
+       "de": "vergassen."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "vergessen в эпоху управлял родительным падежом: der öden Welt vergassen — дословно «забывали пустынного мира»; сегодня глагол требует винительного, по-русски — «забывали о мире»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -35,6 +498,131 @@
     "In süsse Träume nickte,",
     "Und holder Wahn und Edens Lust",
     "Die Träumende durchzückte."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Где",
+       "de": "Wo"
+      },
+      {
+       "ru": "я,",
+       "de": "ich"
+      },
+      {
+       "ru": "прислонившись",
+       "de": "gelehnt"
+      },
+      {
+       "ru": "к",
+       "de": "an"
+      },
+      {
+       "ru": "его",
+       "de": "seine"
+      },
+      {
+       "ru": "груди,",
+       "de": "Brust"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Задремала,",
+       "de": "nickte,"
+      },
+      {
+       "ru": "уходя",
+       "de": ""
+      },
+      {
+       "ru": "в",
+       "de": "In"
+      },
+      {
+       "ru": "сладостные",
+       "de": "süsse"
+      },
+      {
+       "ru": "грёзы,",
+       "de": "Träume"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "nicken — «кивать»; о засыпающем говорят, что он клонит голову, — отсюда «задремала». Предлог in с винительным падежом означает движение внутрь: она уходит в грёзы, а не дремлет в них; этому в переводе отвечает добавленное «уходя», а глагол перенесён вперёд."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "милое",
+       "de": "holder"
+      },
+      {
+       "ru": "наваждение",
+       "de": "Wahn"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "отрада",
+       "de": "Lust"
+      },
+      {
+       "ru": "Эдема",
+       "de": "Edens"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Wahn около 1800 года значил старое «ожидание, мнение, обманчивое видение», а не сегодняшнее «безумие, бред»; holder Wahn — сладкий самообман, милое наваждение. Lust в те же годы — прежде всего «радость, отрада», без нынешнего чувственного крена."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Грезящую",
+       "de": "Die Träumende"
+      },
+      {
+       "ru": "пронизывали.",
+       "de": "durchzückte."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "durchzücken образовано от zücken, как о молнии: пронизывать вспышкой. Немецкий глагол стоит в единственном числе при двух подлежащих (Wahn und Lust) — в стихе эпохи это обычное дело, по-русски нужно множественное."
+      }
+     ]
+    }
    ]
   },
   {
@@ -43,6 +631,136 @@
     "Durch die verschwieg'nen Linden,",
     "Pflegt ich den schönsten Rosenkranz",
     "Ihm um den Hut zu winden."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "когда",
+       "de": ""
+      },
+      {
+       "ru": "мерцал",
+       "de": "schimmerte"
+      },
+      {
+       "ru": "блеск",
+       "de": "Glanz"
+      },
+      {
+       "ru": "восхода",
+       "de": "des Aufgangs"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Глагол на первом месте без союза — придаточное времени и условия: «и когда мерцал…». По-русски союз приходится возвращать. Der Aufgang — восход светила, «des Aufgangs Glanz» — его блеск."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Сквозь",
+       "de": "Durch"
+      },
+      {
+       "ru": "безмолвные",
+       "de": "die verschwieg'nen"
+      },
+      {
+       "ru": "липы,",
+       "de": "Linden,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "verschwiegen — «молчаливый, умеющий хранить тайну»; о роще, беседке, ночи это значит «укромный, чужих секретов не выдающий». Апостроф стоит на месте выпавшего e: verschwiegenen → verschwieg'nen."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Обыкновенно",
+       "de": "Pflegt"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "прекраснейший",
+       "de": "den schönsten"
+      },
+      {
+       "ru": "венок из роз",
+       "de": "Rosenkranz"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "pflegen с инфинитивом на zu значит «иметь обыкновение делать что-то», а не «ухаживать». Сам инфинитив, zu winden («вить»), договаривается только в следующей строке."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Rosenkranz — здесь венок из роз, а не католические чётки; Гриммы отмечают его как убор молодости."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "ему",
+       "de": "Ihm"
+      },
+      {
+       "ru": "вокруг",
+       "de": "um"
+      },
+      {
+       "ru": "шляпы",
+       "de": "den Hut"
+      },
+      {
+       "ru": "вила.",
+       "de": "zu winden."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Украсить венком шляпу возлюбленного — обычай, за которым стоит эта строка. Um … winden — «обвивать вокруг чего-то», предлог um требует винительного падежа: um den Hut."
+      }
+     ]
+    }
    ]
   },
   {
@@ -51,6 +769,122 @@
     "Dein Mädchen, Freund, dir winden,",
     "Denn unsre Blumen sind verdorrt,",
     "Entlaubt sind unsre Linden."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Но",
+       "de": "Doch"
+      },
+      {
+       "ru": "никаких",
+       "de": "keine"
+      },
+      {
+       "ru": "венков",
+       "de": "Kränze"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "будет",
+       "de": "wird"
+      },
+      {
+       "ru": "впредь",
+       "de": "hinfort"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "Рамка перекинута через строку: wird… winden — «будет вить», вспомогательный глагол стоит здесь, смысловой уходит в следующую строку. Hinfort — книжное «отныне, впредь». Русское отрицание требует при глаголе ещё и «не»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "твоя",
+       "de": "Dein"
+      },
+      {
+       "ru": "милая,",
+       "de": "Mädchen,"
+      },
+      {
+       "ru": "друг,",
+       "de": "Freund,"
+      },
+      {
+       "ru": "тебе",
+       "de": "dir"
+      },
+      {
+       "ru": "вить,",
+       "de": "winden,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "das Mädchen — среднего рода, и немецкий говорит о девушке «оно». Гриммы отмечают отдельным значением «отсюда Mädchen — возлюбленная»: dein Mädchen в её собственных устах — «твоя милая»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ведь",
+       "de": "Denn"
+      },
+      {
+       "ru": "наши",
+       "de": "unsre"
+      },
+      {
+       "ru": "цветы",
+       "de": "Blumen"
+      },
+      {
+       "ru": "засохли,",
+       "de": "sind verdorrt,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Без листвы",
+       "de": "Entlaubt"
+      },
+      {
+       "ru": "—",
+       "de": "sind"
+      },
+      {
+       "ru": "наши",
+       "de": "unsre"
+      },
+      {
+       "ru": "липы.",
+       "de": "Linden."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -59,6 +893,119 @@
     "In ihrem Knospen pflückte,",
     "Ihr Nelken, die der frühe Frost",
     "Halbaufgeschlossen knickte,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Вы,",
+       "de": "Ihr"
+      },
+      {
+       "ru": "розы,",
+       "de": "Rosen,"
+      },
+      {
+       "ru": "которые",
+       "de": "die"
+      },
+      {
+       "ru": "суровый",
+       "de": "der rauhe"
+      },
+      {
+       "ru": "восточный ветер",
+       "de": "Ost"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Ost в поэзии эпохи означает сам восточный ветер, сухой и резкий, а не сторону света; rauh о ветре — «суровый, жёсткий»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "в",
+       "de": "In"
+      },
+      {
+       "ru": "их",
+       "de": "ihrem"
+      },
+      {
+       "ru": "бутонах",
+       "de": "Knospen"
+      },
+      {
+       "ru": "сорвал,",
+       "de": "pflückte,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "In ihrem Knospen — «ещё в бутонах»: ветер сорвал розы нераскрывшимися. Тем же ударом ниже названы гвоздики — halbaufgeschlossen, «полураспустившимися». Форма ihrem стоит в единственном числе при существительном во множественном — вольность стиха."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вы,",
+       "de": "Ihr"
+      },
+      {
+       "ru": "гвоздики,",
+       "de": "Nelken,"
+      },
+      {
+       "ru": "которые",
+       "de": "die"
+      },
+      {
+       "ru": "ранний",
+       "de": "der frühe"
+      },
+      {
+       "ru": "мороз",
+       "de": "Frost"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "полураспустившимися",
+       "de": "Halbaufgeschlossen"
+      },
+      {
+       "ru": "надломил,",
+       "de": "knickte,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Розы и гвоздики у Козегартена, пишет Рен, — образ хрупкости: их лучшая пора коротка и целиком во власти погоды и времени."
+      }
+     ]
+    }
    ]
   },
   {
@@ -67,6 +1014,139 @@
     "Seid ihr nicht, was ich werde?",
     "Entkeimt ich nicht wie ihr dem Schooss",
     "Der mütterlichen Erde?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "ваша ли",
+       "de": "euer"
+      },
+      {
+       "ru": "участь",
+       "de": "Loos"
+      },
+      {
+       "ru": "—",
+       "de": "Ist"
+      },
+      {
+       "ru": "и",
+       "de": "auch"
+      },
+      {
+       "ru": "моя",
+       "de": "mein"
+      },
+      {
+       "ru": "участь?",
+       "de": "Loos?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Loos — старое написание слова Los («жребий, участь»). Вопрос строится немецкой инверсией: Ist… nicht?; по-русски тот же оборот передаётся через «не… ли»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht,"
+      },
+      {
+       "ru": "вы ли",
+       "de": "ihr"
+      },
+      {
+       "ru": "—",
+       "de": "Seid"
+      },
+      {
+       "ru": "то, чем",
+       "de": "was"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "стану?",
+       "de": "werde?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "произросла",
+       "de": "Entkeimt"
+      },
+      {
+       "ru": "ли я,",
+       "de": "ich"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "вы,",
+       "de": "ihr"
+      },
+      {
+       "ru": "из лона",
+       "de": "dem Schooss"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "entkeimen — высокое «прорасти, взойти ростком»; нынешнее техническое «обеззараживать» появилось много позже. Schooss — старое написание слова Schoß («лоно»), а дательный падеж без предлога отвечает русскому «из лона»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "материнской",
+       "de": "Der mütterlichen"
+      },
+      {
+       "ru": "земли?",
+       "de": "Erde?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Рен договаривает мысль строфы: все, кто расцветает в этом саду, — у одной Матери-Земли; цветы и девушка взошли из одного лона, и срок им отмерен один."
+      }
+     ]
+    }
    ]
   },
   {
@@ -75,6 +1155,110 @@
     "So schlank empor geschossen?",
     "Hat meiner Blüthen Knospe sich",
     "Nicht drängend aufgeschlossen?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "Ist nicht"
+      },
+      {
+       "ru": "мой ли",
+       "de": "mein"
+      },
+      {
+       "ru": "стебель",
+       "de": "Halm"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "юно",
+       "de": "jugendlich"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "так",
+       "de": "So"
+      },
+      {
+       "ru": "стройно",
+       "de": "schlank"
+      },
+      {
+       "ru": "ввысь",
+       "de": "empor"
+      },
+      {
+       "ru": "взметнулся?",
+       "de": "geschossen?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Рамка ist… geschossen перекинута через строку — «взметнулся». Empor («ввысь») Гриммы называют словом, которое поэты любили за звучное o; schiessen о растении значит расти рывком, выстреливать вверх."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Разве",
+       "de": "Hat"
+      },
+      {
+       "ru": "бутон",
+       "de": "Knospe sich"
+      },
+      {
+       "ru": "моих",
+       "de": "meiner"
+      },
+      {
+       "ru": "цветов",
+       "de": "Blüthen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "не",
+       "de": "Nicht"
+      },
+      {
+       "ru": "раскрылся,",
+       "de": "aufgeschlossen?"
+      },
+      {
+       "ru": "рвясь наружу?",
+       "de": "drängend"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "sich aufschliessen — о бутоне «раскрыться»; drängend — «напирая, рвясь». Рамка hat… aufgeschlossen снова разорвана строкой, а возвратное sich осталось в первой её половине."
+      }
+     ]
+    }
    ]
   },
   {
@@ -83,6 +1267,115 @@
     "Die Rose meiner Wangen?",
     "Die Frische meiner Lippen nicht",
     "Der Jünglinge Verlangen?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Пробуждает ли",
+       "de": "Weckt"
+      },
+      {
+       "ru": "голубой",
+       "de": "blaues"
+      },
+      {
+       "ru": "свет",
+       "de": "Licht"
+      },
+      {
+       "ru": "моих",
+       "de": "meiner"
+      },
+      {
+       "ru": "глаз",
+       "de": "Augen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "розу",
+       "de": "Die Rose"
+      },
+      {
+       "ru": "моих",
+       "de": "meiner"
+      },
+      {
+       "ru": "щёк?",
+       "de": "Wangen?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "«Роза щёк» — ходовая метафора румянца: словарь Гриммов ставит rosen der wangen рядом с des mundes rosen («розы уст»). Wange — слово благородного слога, обиходное для щеки — Backe."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Свежесть",
+       "de": "Die Frische"
+      },
+      {
+       "ru": "моих",
+       "de": "meiner"
+      },
+      {
+       "ru": "губ",
+       "de": "Lippen"
+      },
+      {
+       "ru": "не",
+       "de": "nicht"
+      },
+      {
+       "ru": "пробуждает ли",
+       "de": ""
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Глагол weckt («пробуждает») из первого вопроса распространяется и на второй: по-немецки он не повторён, по-русски его приходится вернуть."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "желание",
+       "de": "Verlangen?"
+      },
+      {
+       "ru": "юношей?",
+       "de": "Der Jünglinge"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Verlangen — «желание, томление», а не сегодняшнее «требование»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -91,6 +1384,138 @@
     "Ihr Rosen und ihr Nelken!",
     "Wie bald, und hin ist meine Pracht,",
     "Und meine Blüthen welken."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Ах,",
+       "de": "Ach,"
+      },
+      {
+       "ru": "плачьте",
+       "de": "klagt"
+      },
+      {
+       "ru": "о",
+       "de": "um"
+      },
+      {
+       "ru": "вашей",
+       "de": "eure"
+      },
+      {
+       "ru": "сестре,",
+       "de": "Schwester,"
+      },
+      {
+       "ru": "плачьте,",
+       "de": "klagt,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "klagen у Гриммов — «громко выражать боль, горе», высокий плач, а не бытовая жалоба; klagen um jemanden значит «оплакивать кого-то». Оттого здесь «плачьте», а не «сетуйте»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "вы,",
+       "de": "Ihr"
+      },
+      {
+       "ru": "розы,",
+       "de": "Rosen"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "вы,",
+       "de": "ihr"
+      },
+      {
+       "ru": "гвоздики!",
+       "de": "Nelken!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Как",
+       "de": "Wie"
+      },
+      {
+       "ru": "скоро,",
+       "de": "bald,"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "пропал",
+       "de": "hin ist"
+      },
+      {
+       "ru": "мой",
+       "de": "meine"
+      },
+      {
+       "ru": "блеск,",
+       "de": "Pracht,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "hin sein — «пропасть, исчезнуть»: Аделунг объясняет hin через weg («прочь»), вплоть до гибели. Это сказуемое, а не указание направления."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "На что жалуется Ида — на осень, в которую ей, как листу, суждено опасть, или на то, что её оборвали, не дав расцвести? Рен считает, что ждать от неё последовательности несправедливо: точного ответа текст не даёт."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "мои",
+       "de": "meine"
+      },
+      {
+       "ru": "цветы",
+       "de": "Blüthen"
+      },
+      {
+       "ru": "вянут.",
+       "de": "welken."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -99,6 +1524,122 @@
     "Geknickt mein schlanker Stängel,",
     "Mein Staub gebettet in den Staub,",
     "Mein Geist gereift zum Engel."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Рассеяна",
+       "de": "Verstreut ist"
+      },
+      {
+       "ru": "вся",
+       "de": "all"
+      },
+      {
+       "ru": "моя",
+       "de": "mein"
+      },
+      {
+       "ru": "зелёная",
+       "de": "grünes"
+      },
+      {
+       "ru": "листва,",
+       "de": "Laub,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Дальше идёт цепочка причастий, и связка sein произносится один раз: verstreut ist — «рассеяна», а geknickt, gebettet, gereift стоят уже без неё. По-русски связка и так не нужна."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Надломлен",
+       "de": "Geknickt"
+      },
+      {
+       "ru": "мой",
+       "de": "mein"
+      },
+      {
+       "ru": "стройный",
+       "de": "schlanker"
+      },
+      {
+       "ru": "стебель,",
+       "de": "Stängel,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мой",
+       "de": "Mein"
+      },
+      {
+       "ru": "прах",
+       "de": "Staub"
+      },
+      {
+       "ru": "уложен",
+       "de": "gebettet"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "прах,",
+       "de": "den Staub,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Staub — и «пыль», и «прах»; betten значит «стелить постель, укладывать», отсюда и слово о погребении. Обе половины строки держатся на одном и том же слове: прах человека уложен в прах земли."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мой",
+       "de": "Mein"
+      },
+      {
+       "ru": "дух",
+       "de": "Geist"
+      },
+      {
+       "ru": "созрел",
+       "de": "gereift"
+      },
+      {
+       "ru": "до",
+       "de": "zum"
+      },
+      {
+       "ru": "ангела.",
+       "de": "Engel."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -107,6 +1648,139 @@
     "In meiner Schönheit Schimmer,",
     "Mich schaute, kommt und forscht nach mir",
     "Und sieht mich nimmer, nimmer."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Странник,",
+       "de": "Der Wandrer,"
+      },
+      {
+       "ru": "который",
+       "de": "der"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "моей",
+       "de": "meiner"
+      },
+      {
+       "ru": "красе,",
+       "de": "Zier,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "в",
+       "de": "In"
+      },
+      {
+       "ru": "сиянии",
+       "de": "Schimmer,"
+      },
+      {
+       "ru": "моей",
+       "de": "meiner"
+      },
+      {
+       "ru": "красоты,",
+       "de": "Schönheit"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Zier — старое «краса, убранство», рядом с ним Schimmer — «сияние», слабый мерцающий свет. Родительный падеж стоит впереди определяемого слова (meiner Schönheit Schimmer) — обычный ход высокой лирики; по-русски порядок приходится разворачивать."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "на меня",
+       "de": "Mich"
+      },
+      {
+       "ru": "глядел,",
+       "de": "schaute,"
+      },
+      {
+       "ru": "приходит",
+       "de": "kommt"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "ищет",
+       "de": "forscht"
+      },
+      {
+       "ru": "меня",
+       "de": "nach mir"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Время меняется на середине строки: schaute — прошедшее («глядел когда-то»), kommt — настоящее («приходит теперь»). Forschen nach — «доискиваться, расспрашивать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "видит",
+       "de": "sieht"
+      },
+      {
+       "ru": "меня",
+       "de": "mich"
+      },
+      {
+       "ru": "никогда,",
+       "de": "nimmer,"
+      },
+      {
+       "ru": "никогда.",
+       "de": "nimmer."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "nimmer — «никогда больше»; у поэтов эпохи оно часто равно nicht mehr («уже не»). Русское отрицание требует при глаголе ещё и «не», которого в немецкой строке нет."
+      }
+     ]
+    }
    ]
   },
   {
@@ -115,6 +1789,114 @@
     "Erkoren einzig habe:",
     "Ach, fleuch, Geliebter, fleuch von hier,",
     "Dein Mädchen schläft im Grabe!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Приходит",
+       "de": "Es kommt"
+      },
+      {
+       "ru": "милый,",
+       "de": "der Traute,"
+      },
+      {
+       "ru": "которого",
+       "de": "den"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "себе",
+       "de": "mir"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "избрала",
+       "de": "Erkoren… habe:"
+      },
+      {
+       "ru": "единственным:",
+       "de": "einzig"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "erkoren — причастие от старого erkiesen («избрать»); Гриммы приводят его как раз о друге, женихе, возлюбленном. Рамка habe… erkoren по-русски сворачивается в одно «избрала»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ах,",
+       "de": "Ach,"
+      },
+      {
+       "ru": "беги,",
+       "de": "fleuch,"
+      },
+      {
+       "ru": "возлюбленный,",
+       "de": "Geliebter,"
+      },
+      {
+       "ru": "беги",
+       "de": "fleuch"
+      },
+      {
+       "ru": "отсюда,",
+       "de": "von hier,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "fleuch — старая, лютеровской Библии форма повелительного наклонения от fliehen («бежать, спасаться»); к 1815 году она звучала как взятый из Писания архаизм."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "твоя",
+       "de": "Dein"
+      },
+      {
+       "ru": "милая",
+       "de": "Mädchen"
+      },
+      {
+       "ru": "спит",
+       "de": "schläft"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "могиле!",
+       "de": "Grabe!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -123,6 +1905,114 @@
     "Des Grabes Dunkel schwindet,",
     "Und himmlisch und unsterblich Licht",
     "Glänzt dem, der überwindet."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Ах,",
+       "de": "Ach,"
+      },
+      {
+       "ru": "горюй,",
+       "de": "traure,"
+      },
+      {
+       "ru": "дорогой,",
+       "de": "Theurer,"
+      },
+      {
+       "ru": "не",
+       "de": "nicht,"
+      },
+      {
+       "ru": "горюй,",
+       "de": "traure"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Строка поправляет сама себя посреди фразы — Рен видит в этом правду характера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "мрак",
+       "de": "Dunkel"
+      },
+      {
+       "ru": "могилы",
+       "de": "Des Grabes"
+      },
+      {
+       "ru": "рассеивается,",
+       "de": "schwindet,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "небесный",
+       "de": "himmlisch"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "бессмертный",
+       "de": "unsterblich"
+      },
+      {
+       "ru": "свет",
+       "de": "Licht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "himmlisch und unsterblich Licht — прилагательные стоят без окончаний, в короткой старой форме, какую высокая поэзия эпохи держала перед существительным среднего рода."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "сияет",
+       "de": "Glänzt"
+      },
+      {
+       "ru": "тому,",
+       "de": "dem,"
+      },
+      {
+       "ru": "кто",
+       "de": "der"
+      },
+      {
+       "ru": "побеждает.",
+       "de": "überwindet."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -131,8 +2021,134 @@
     "Folgt milder Frühlingsschimmer,",
     "Auf Trennung folgt Vereinigung,",
     "Vereinigung auf immer."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Торжество!",
+       "de": "Triumph!"
+      },
+      {
+       "ru": "За",
+       "de": "auf"
+      },
+      {
+       "ru": "осенними сумерками",
+       "de": "Herbstesdämmerung"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "следует",
+       "de": "Folgt"
+      },
+      {
+       "ru": "мягкое",
+       "de": "milder"
+      },
+      {
+       "ru": "весеннее сияние,",
+       "de": "Frühlingsschimmer,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Оборот auf etwas folgt значит «за чем-то следует». Оба сложных слова этой фразы — Herbstesdämmerung («осенние сумерки») и Frühlingsschimmer («весеннее сияние») — словарь Гриммов приводит единственным примером: как раз этой строкой Козегартена."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "За",
+       "de": "Auf"
+      },
+      {
+       "ru": "разлукой",
+       "de": "Trennung"
+      },
+      {
+       "ru": "следует",
+       "de": "folgt"
+      },
+      {
+       "ru": "воссоединение,",
+       "de": "Vereinigung,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Воссоединение",
+       "de": "Vereinigung"
+      },
+      {
+       "ru": "навсегда.",
+       "de": "auf immer."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Vereinigung auf immer — «воссоединение навсегда»: слово Vereinigung повторено из предыдущей строки, и повтор добавляет к нему только срок. Этими словами песня и кончается."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Ludwig Gotthard Kosegarten"
+ "about": [
+  {
+   "title": "19 октября 1815 года",
+   "text": "Песня написана 19 октября 1815 года. Шуберту было восемнадцать, до девятнадцатилетия оставалось три с небольшим месяца.\nВ этот день он положил на музыку семь стихотворений Козегартена подряд — в каталоге они стоят рядом, D 313–319. «Лебединая песня Иды» одна из них; следующая по тексту песня, «Luisens Antwort» («Ответ Луизы»), помечена тем же числом.\n1815 год был самым обильным в его песенной жизни: около ста пятидесяти песен, и Козегартена среди них двадцать стихотворений — все между июнем и октябрём."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "Напечатали песню в 1895 году: через восемьдесят лет после того, как она была написана, и через шестьдесят семь — после смерти Шуберта. Кто её издал, в каком собрании и под чьей редакцией, наши источники не говорят.\nАвтограф, по всей видимости, входит в рукописный блок с датой «19. October 1815», где подряд стоят четыре песни того дня (D 314–317); блок хранится в архиве Молденхауэра Библиотеки Конгресса. Сведение это получено по поисковой выдаче — страница архива не открывалась, и прямого подтверждения именно для этой песни у нас нет."
+  },
+  {
+   "title": "Людвиг Козегартен",
+   "text": "Людвиг Готхард Козегартен (1758–1818) — северонемецкий пастор и поэт, «певец Рюгена». В чувствительной, ещё доромантической манере он воспевал природу острова: рощи, дольмены, руины, солнце, встающее и заходящее над морем. Во время сельдяного лова он читал рыбакам проповеди прямо на берегу, под открытым небом, — знаменитые Uferpredigten («береговые проповеди»).\nЕго стихами зачитывались современники; в его школе учился будущий живописец Филипп Отто Рунге, а Каспар Давид Фридрих черпал из этих стихов свои рюгенские мотивы. Летом и осенью 1815 года восемнадцатилетний Шуберт, листая второй том его *Poesieen* («Стихотворений»), положил на музыку двадцать его стихотворений, семь — за один день. Мортен Сольвик предположил, что из них задумывалось связное целое, своего рода Liederspiel («песенное действо») с героями Идой, Луизой и Вильгельмом, — за восемь лет до «Прекрасной мельничихи». Грэм Джонсон и Вальтер Дюрр относятся к этой гипотезе скептически.\nПозже композитор вернулся к Козегартену лишь однажды — в песне «An die untergehende Sonne» («К заходящему солнцу»). Лично они знакомы не были: поэт умер в Грайфсвальде в 1818 году, когда почти все эти песни ещё лежали в рукописях."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Шуберт работал по второму тому берлинского издания *Poesieen* 1803 года, страницы 126–129. Это установил Петер Расл, сверявший тексты шубертовских песен с изданиями, которыми пользовался композитор; он же сверил текст с грайфсвальдским собранием *Dichtungen* 1813 года, страницы 102–106.\nРаньше стихотворение печаталось под другим заглавием — *Ellwieens Schwanenlied*, с другим именем героини, в шиллеровском «Альманахе муз», и строф в нём было двенадцать вместо семнадцати. Источники расходятся, относить ли эту публикацию к концу 1795 года или к альманаху на 1796-й; альманахи обыкновенно выходили в конце предыдущего года.\nУ нас текст разбит на шестнадцать строф: первая и вторая строфы оригинала сведены в одну — восемь коротких строк стали четырьмя длинными. Все шестьдесят восемь строк на месте, разошлось только членение.\nНаписание местами осталось старым: Loos вместо Los, Schooss вместо Schoß, Blüthen и Theurer с h. В изданиях времени Козегартена таких форм было ещё больше — Erlenhayn, Seyd, Erkohren."
+  },
+  {
+   "title": "Музыка",
+   "text": "Грэм Джонсон, пианист и автор комментариев к антологии Hyperion Schubert Edition, описывает эту песню как продолжение прежних песен об Иде: «скромная грация и классическая сдержанность», добытые самой скупой фортепианной фактурой. В настроении тихой ясности, пишет он, Шуберт никогда не пишет три ноты там, где хватит одной.\nИзобразительные штрихи при этом есть, и трогательные: в триольном сопровождении первой строфы стрекочут сверчки. Джонсон замечает, что колеблется это стрекотание между теми же фа и си-бекаром, какими Шуберт нарисовал крик сверчков в вокальной строке первой строфы «Stimme der Liebe» («Голос любви»), написанной в мае того же года. Постоянство мотива, по его мысли, говорит о том, что звуки природы композитор записывал такими, какими их слышал: в 1815 году сверчки у него стрекочут в фа. Десятью годами позже, в самой знаменитой его песне о сверчках — «Der Einsame» («Одинокий»), — увеличенный интервал уступит место тихо стрекочущим благозвучным аккордам, а тональность останется прежней.\nТональность всей песни, размер и темповое обозначение в наших источниках не названы. Форма, судя по всему, строфическая: весь козегартеновский свод 1815 года — школа строфической композиции, и единственное исключение в нём, «An die untergehende Sonne», написано позже. Прямого указания именно для D 317 у нас нет."
+  },
+  {
+   "title": "Вечер, который оказался осенью",
+   "text": "Малколм Рен, автор комментариев на сайте schubertsong.uk, прослеживает, как складывается песня. Ида начинает её, когда чувствует наступление вечера, и в эту минуту внешнее и внутреннее совпадают: солнце устало после долгого дня, застрекотали сверчки.\nПотом оказывается, что дело не только в вечере. Зелень выглядит блёклой и серой, листья опали, деревья голы — это осень. Осознание переламывает тон и открывает следующую часть прощальной песни; мысль о листве тянет за собой воспоминание — как она сидела под защитой липы и плела венки из роз для возлюбленного.\nРозы у Козегартена связаны с хрупкостью и недолговечностью. Ненадолго розы и гвоздики предстают в лучшей своей поре, и удержать это нельзя: они во власти непредсказуемой погоды и вполне предсказуемого времени. Так со всеми, кто цветёт в этом саду — у Матери-Земли."
+  },
+  {
+   "title": "Жалоба и надежда",
+   "text": "Рен предупреждает: от человека в таком состоянии несправедливо ждать последовательности. Жалуется ли Ида на то, что настала осень и ей, как листу, суждено опасть, или на то, что её оборвали, не дав расцвести весной? Тоскует ли она по счастливым дням с возлюбленным или по надеждам, которые так и не сбылись? Ответа текст не даёт.\nПо большей части песня Иды — жалоба: неизбежное она принимает крайне неохотно. Но есть в ней и ностальгия, а к концу — благочестивая надежда на воскресение, пусть, возможно, и с виноватым чувством, что так «положено» говорить. Эту спутанность, пишет Рен, ей надо позволить.\nПоследняя строфа возвращает к образам начала — закат и восход, осень и весна. Ида теперь в могиле, у неё ночь и зима; но осенние сумерки должны возвестить весенний рассвет, и разлука с возлюбленным — на краткий срок: она встретит его в новом дне, в новом лете, которое непременно придёт."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Отдельной судьбы у этой песни нет: в критической литературе она не выделяется из общего ряда 1815 года, и о забвении, переоткрытии, влиянии на позднейших авторов сказать нечего. Прижизненного отклика тоже не найти — ни рецензий, ни писем, ни дневниковых записей именно о ней, как нет и следов знакомства или переписки Шуберта с Козегартеном.\nЕдинственная перекличка, которую источники фиксируют, — внутри самого Шуберта: мотив сверчков ведёт от «Stimme der Liebe» 1815 года к «Der Einsame» 1825-го. Остальное решил срок публикации — восемьдесят лет в рукописи."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Записей всего две: фонд песни исчерпан двумя изданиями, среди записей 2015 года и позже достойных кандидатов не нашлось.\nПервая — Элли Амелинг (сопрано) и Грэм Джонсон (фортепиано), август 1989 года: седьмой том антологии Hyperion Schubert Edition под названием «Schubert in 1815 I» (CDJ33007), девятнадцатый трек. Из семнадцати строф Козегартена там поют пять — первую, двенадцатую, четырнадцатую, пятнадцатую и последнюю.\nВторая — Лидия Тойшер (сопрано) и Штефан Айзенлор (фортепиано), издание 2006 года: пятый том серии Naxos «Poets of Sensibility» (8.557373), двадцатый трек.\nПривычной позиции номер один — записи Дитриха Фишера-Дискау — здесь нет и быть не может: песни от женского лица баритон сознательно не включал в свой свод. Амелинг, звезда прошлого поколения, поёт на пике своей репутации шубертианки; Тойшер представляет нынешнее."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
