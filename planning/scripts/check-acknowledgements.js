@@ -10,6 +10,9 @@ const ack = fs.readFileSync(path.join(ROOT, 'docs/rules/acknowledgements.md'), '
 
 // домены, которые не считаем источниками (инфраструктура, агрегаторы ссылок)
 const IGNORE = new Set(['github.com', 'github.io', 'google.com', 'youtube.com', 'youtu.be',
+  // поисковики: через них ИЩУТ источник, сами источником не бывают (в файлах фактов они
+  // появляются в примечаниях о безрезультатных сетевых попытках) — как и google.com выше
+  'duckduckgo.com', 'html.duckduckgo.com', 'lite.duckduckgo.com', 'bing.com',
   'web.archive.org', 'doi.org', 'books.google.com', 'api.digitale-sammlungen.de']);
 // алиасы: поддомен → запись в реестре
 const ALIAS = {

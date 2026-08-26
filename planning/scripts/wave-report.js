@@ -33,8 +33,8 @@ for (const line of fs.readFileSync(jp, 'utf8').split('\n').filter(Boolean)) {
   else if ('n_facts' in r) s.stages.push(`facts(${r.n_facts}${r.gaps && r.gaps.length ? ', gaps ' + r.gaps.length : ''})`);
   else if ('n_annotations' in r) (s.at.page = s.seq), s.stages.push(`page(${r.n_annotations} сн., ${r.n_about} секц.${r.rounds > 1 ? ', ' + r.rounds + ' раунда' : ''})`);
   else if ('removed' in r) { s.at.fable = s.seq; s.stages.push(`fable(${r.n_changes} правок, снято ${r.removed.length})`); s.removed = r.removed.length; s.flags = r.flags || []; }
-  else if ('applied' in r) s.stages.push(`ремонт(${r.applied}${r.rejected && r.rejected.length ? ', отклонено ' + r.rejected.length : ''})`);
-  else if ('clean' in r) { s.stages.push(r.clean ? 'сверка: ЧИСТО' : 'сверка: НЕ чисто'); s.deltas.push(r); }
+  else if ('applied' in r) { s.at.fix = s.seq; s.fixOk = r.ok !== false; s.stages.push(`${s.deltas.length >= 2 ? 'арбитр' : 'ремонт'}(${r.applied}${r.rejected && r.rejected.length ? ', отклонено ' + r.rejected.length : ''})`); }
+  else if ('clean' in r) { s.at.delta = s.seq; s.stages.push(r.clean ? 'сверка: ЧИСТО' : 'сверка: НЕ чисто'); s.deltas.push(r); }
 }
 const clean = [], dirty = [], nofable = [];
 for (const [d, s] of Object.entries(songs).sort((a, b) => a[0].localeCompare(b[0], undefined, { numeric: true }))) {
@@ -44,11 +44,15 @@ for (const [d, s] of Object.entries(songs).sort((a, b) => a[0].localeCompare(b[0
   // Журнал накапливается между прогонами (resume пишет в тот же runId): если страница пересобиралась ПОСЛЕ
   // последней Fable-редактуры, редактуры у нынешнего кандидата нет, сколько бы её ни было в прошлом прогоне.
   const hasFable = Boolean(s.at.fable && s.at.fable > (s.at.page || 0));
-  const ok = Boolean(last && last.clean && hasFable);
+  // Арбитр (3-й заход после двух нечистых сверок) — финальная инстанция: сверки после него по правилу НЕТ,
+  // поэтому «последняя сверка нечиста» у закрытой арбитром песни — не дефект, а норма. Без этого отчёт зовёт
+  // на лишние ремонтные круги — ровно ту спираль, которую запрещает docs/rules/workflow.md.
+  const byArbiter = Boolean(s.deltas.length >= 2 && s.at.fix > (s.at.delta || 0) && s.fixOk);
+  const ok = Boolean(hasFable && ((last && last.clean) || byArbiter));
   (ok ? clean : (hasFable ? dirty : nofable)).push(d);
-  const status = ok ? 'ЧИСТО' : (!hasFable ? 'БЕЗ FABLE — не публиковать' : (last ? 'НЕ ЧИСТО' : 'сверки нет'));
+  const status = ok ? (byArbiter && !(last && last.clean) ? 'ЧИСТО (закрыто арбитром)' : 'ЧИСТО') : (!hasFable ? 'БЕЗ FABLE — не публиковать' : (last ? 'НЕ ЧИСТО' : 'сверки нет'));
   console.log(`\n### D ${d} — ${status} · вызовов инструментов ${s.calls}\n  этапы: ${s.stages.join(' → ')}`);
-  if (last && !last.clean) (last.problems || []).forEach((p) => console.log('  ! ' + p));
+  if (last && !last.clean && !byArbiter) (last.problems || []).forEach((p) => console.log('  ! ' + p));
   if (s.flags.length) s.flags.forEach((f) => console.log('  ⚑ ' + f));
 }
 console.log(`\nЧИСТЫЕ: ${clean.join(' ') || '—'}\nНЕ ЧИСТЫЕ: ${dirty.join(' ') || '—'}\nБЕЗ FABLE (доредактировать и сверить заново): ${nofable.join(' ') || '—'}`);
