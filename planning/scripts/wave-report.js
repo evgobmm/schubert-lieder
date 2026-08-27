@@ -21,9 +21,15 @@ for (const line of fs.readFileSync(jp, 'utf8').split('\n').filter(Boolean)) {
   // Ловить только слаг вида d434-erntelied: прозаические «D 296» — это соседние песни, по ним атрибуция врёт.
   if (key === '?' && x.agentId) {
     try {
-      const t = fs.readFileSync(path.join(path.dirname(jp), 'agent-' + x.agentId + '.jsonl'), 'utf8').slice(0, 20000);
-      const hits = {}; for (const m of t.matchAll(/\bd(\d+[A-Za-z]?)-[a-z-]{3,}/g)) hits[m[1]] = (hits[m[1]] || 0) + 1;
-      const best = Object.entries(hits).sort((a, b) => b[1] - a[1])[0];
+      const t = fs.readFileSync(path.join(path.dirname(jp), 'agent-' + x.agentId + '.jsonl'), 'utf8');
+      // Слаг песни с дробным D пишется через дефис (d877-2-lied-der-mignon, d478-1-wer-sich-...):
+      // прежний шаблон требовал после номера БУКВУ и такие песни не опознавал никогда — из-за этого
+      // D 877/2 в подволне Б получил чужой номер (подхватилось упоминание эталонной d118 из брифа в бандле).
+      const SLUG = /\bd(\d+[A-Za-z]?)(?:-(\d+))?-[a-z][a-z-]{2,}/g;
+      const scan = (s) => { const h = {}; for (const m of s.matchAll(SLUG)) { const k = m[2] ? m[1] + '/' + m[2] : m[1]; h[k] = (h[k] || 0) + 1; } return Object.entries(h).sort((a, b) => b[1] - a[1])[0]; };
+      // Надёжный признак — файл кандидата, который агент РЕАЛЬНО писал: упоминания чужих песен
+      // (эталон в брифе, соседние песни в цитатах) в путях к своему candidate-файлу не встречаются.
+      const best = scan((t.match(/candidate-d[0-9a-z-]+\.json/g) || []).join(' ')) || scan(t.slice(0, 40000));
       if (best) key = best[0];
     } catch { }
   }
