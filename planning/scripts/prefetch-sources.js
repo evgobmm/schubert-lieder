@@ -35,7 +35,8 @@ const fetchRaw = (url, opts = {}) => {
     return { code, eff, body };
   } catch (e) { return { code: 0, eff: url, body: opts.binary ? Buffer.alloc(0) : '', error: String(e.message).slice(0, 120) }; }
 };
-const fetchText = (url) => { const r = fetchRaw(url); if (r.code !== 200) return { ok: false, chars: 0, text: '', error: 'HTTP ' + r.code }; const text = strip(r.body); return { ok: text.length > 500, chars: text.length, text, eff: r.eff }; };
+const fetchText = (url) => { let r = fetchRaw(url); if (r.code !== 200) { sleep(3000); r = fetchRaw(url); } // один ретрай: 404/timeout у schubertlied/schubertsong бывали ложными (урок волны №4: 5 песен с бедными фактами)
+  if (r.code !== 200) return { ok: false, chars: 0, text: '', error: 'HTTP ' + r.code }; const text = strip(r.body); return { ok: text.length > 500, chars: text.length, text, eff: r.eff }; };
 
 // --- Hyperion: окно буклета вокруг D-строки ---
 const hyperionWindow = (d, txt) => {
