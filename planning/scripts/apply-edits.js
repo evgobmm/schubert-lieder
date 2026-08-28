@@ -45,7 +45,13 @@ const editsPath = path.join(wd, `edits-${slug}.json`);
 if (!fs.existsSync(editsPath)) die('нет файла правок ' + editsPath);
 if (!fs.existsSync(candPath) && !fs.existsSync(prePath)) die('нет страницы-кандидата ' + candPath);
 // база = копия кандидата ДО правок (создаётся при первом запуске)
-if (!fs.existsSync(prePath)) fs.copyFileSync(candPath, prePath);
+const sha = (f) => { try { return require("crypto").createHash("sha1").update(fs.readFileSync(f)).digest("hex"); } catch { return null; } };
+const stampPath = path.join(wd, `candidate-${slug}.pre-edits.stamp`);
+// Снимок берётся заново, если кандидат менял кто-то, кроме apply-edits (этап ремонта, ручной догон,
+// дописывание раздела): иначе повторный прогон откатил бы чужие правки. Метка — sha кандидата,
+// записанного прошлым прогоном; совпала — идёт повтор того же круга, снимок годен.
+const fresh = !fs.existsSync(prePath) || !fs.existsSync(stampPath) || fs.readFileSync(stampPath, "utf8").trim() !== sha(candPath);
+if (fresh) fs.copyFileSync(candPath, prePath);
 let page, edoc;
 try { page = JSON.parse(fs.readFileSync(prePath, 'utf8')); } catch (err) { die('кандидат не читается как JSON: ' + err.message); }
 try { edoc = JSON.parse(fs.readFileSync(editsPath, 'utf8')); } catch (err) { die('edits-файл не читается как JSON: ' + err.message + ' — почини ' + editsPath + ' и повтори'); }
@@ -188,6 +194,7 @@ const deOf = (j) => JSON.stringify((j.stanzas || []).map((s) => s.lines_de));
 if (deOf(base) !== deOf(page)) die('внутренняя ошибка: изменились lines_de — правки не записаны');
 
 fs.writeFileSync(candPath, JSON.stringify(page, null, 1) + '\n');
+fs.writeFileSync(stampPath, sha(candPath) + '\n');
 // removed / flags — их читает бандл этапа delta
 const removed = Array.isArray(edoc.removed) ? edoc.removed : [];
 const flags = Array.isArray(edoc.flags) ? edoc.flags : [];
