@@ -15,7 +15,7 @@ const slug = e.file.replace('.json', '');
 const song = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/songs', e.file), 'utf8'));
 const rd = (p, max) => { try { const t = fs.readFileSync(p, 'utf8'); return max && t.length > max ? t.slice(0, max) + '\n…[обрезано]' : t; } catch { return null; } };
 const rj = (p) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return null; } };
-const poetSlug = { 'Ludwig Christoph Heinrich Hölty': 'hoelty', 'Ludwig Gotthard Kosegarten': 'kosegarten', 'Johann Wolfgang von Goethe': 'goethe', 'Johann Mayrhofer': 'mayrhofer', 'Franz von Schober': 'schober', 'Matthias Claudius': 'claudius', 'Matthäus von Collin': 'collin' }[song.poet_de] || null;
+const poetSlug = { 'Ludwig Christoph Heinrich Hölty': 'hoelty', 'Ludwig Gotthard Kosegarten': 'kosegarten', 'Johann Wolfgang von Goethe': 'goethe', 'Johann Mayrhofer': 'mayrhofer', 'Franz von Schober': 'schober', 'Matthias Claudius': 'claudius', 'Matthäus von Collin': 'collin', 'Friedrich Schiller': 'schiller', 'Friedrich von Matthisson': 'matthisson', 'Friedrich von Schlegel': 'schlegel-f', 'Ernestine von Krosigk, Friedrich von Schlegel': 'schlegel-f', 'Theodor Körner': 'koerner', 'Friedrich Gottlieb Klopstock': 'klopstock', 'Johann Gaudenz von Salis-Seewis': 'salis-seewis', 'Karl Gottfried von Leitner': 'leitner', 'Johann Gabriel Seidl': 'seidl', 'Ernst Schulze': 'schulze', 'Friedrich Leopold zu Stolberg-Stolberg': 'stolberg' }[song.poet_de] || null;
 const sec = (title, body) => body ? `\n\n=== ${title} ===\n${body}` : '';
 const brief = rd(path.join(ROOT, 'planning/catalog/one-shot-brief.md'));
 const textBlock = song.stanzas.map((s, i) => `[строфа ${i + 1}]\n` + s.lines_de.join('\n')).join('\n\n');
@@ -31,8 +31,61 @@ const compactFacts = (t) => t ? t.split('\n').map((l) => {
   return x.length > 700 ? x.slice(0, 700) + '…' : x;
 }).filter(Boolean).join('\n') : null;
 const fullCards = () => { const p = rj(packetPath); if (!p) return []; return p.cache.map((c) => rj(path.join(ROOT, 'planning/dictionary/entries', c.lemma + '.json')) || c); };
-const cardsCompact = (max) => JSON.stringify(fullCards().map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, caveats: (c.caveats || '').slice(0, max), era: (c.era || '').slice(0, max), evidence_first: ((c.evidence || '').split('\n').find((l) => l.trim()) || '').slice(0, max) })), null, 1);
-const newDictCompact = (max) => { const a = rj(path.join(workDir, 'work', `dict-${slug}.json`)); if (!a) return null; return JSON.stringify(a.filter((x) => x && x.lemma).map((x) => ({ lemma: x.lemma, recommendation: x.recommendation, caveats: (x.caveats || '').slice(0, max), era: (x.era || '').slice(0, max), evidence_first: ((x.evidence || '').split('\n').find((l) => l.trim()) || '').slice(0, max), status: x.status })), null, 1); };
+const cardsCompact = (max, ev = true) => JSON.stringify(fullCards().map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, caveats: (c.caveats || '').slice(0, max), era: (c.era || '').slice(0, Math.min(max, 120)), ...(ev ? { evidence_first: ((c.evidence || '').split('\n').find((l) => l.trim()) || '').slice(0, max) } : {}) })), null, 1);
+// ——— диета page: карточки пакета только с нужными полями (без evidence/ru_candidates) ———
+const cut = (s, n) => { const t = String(s == null ? '' : s); return t.length > n ? t.slice(0, n - 1) + '…' : t; };
+const slimPacket = () => {
+  const p = rj(packetPath); if (!p) return rd(packetPath);
+  const q = {};
+  for (const k of Object.keys(p)) q[k] = k === 'cache' ? (p.cache || []).map((c) => {
+    const o = {};
+    if (c.lemma != null) o.lemma = c.lemma;
+    if (c.header != null) o.header = c.header;
+    if (c.recommendation != null) o.recommendation = c.recommendation;
+    if (c.caveats != null) o.caveats = cut(c.caveats, 160);
+    if (c.era != null) o.era = cut(c.era, 120);
+    if (c.forms_covered != null) o.forms_covered = c.forms_covered;
+    return o;
+  }) : p[k];
+  return JSON.stringify(q, null, 1);
+};
+// ——— диета fable: компактный текстовый рендер страницы-кандидата вместо JSON ———
+const rangeS = (r) => { if (!r) return ''; const f = Array.isArray(r[0]) ? r : [r]; return f.map((x) => `${x[0]}-${x[1]}`).join(','); };
+const annS2 = (addr, i, a) => {
+  const box = [rangeS(a.segment_range)];
+  if (a.line_span) box.push('span' + a.line_span);
+  if (a.continuation_ranges) box.push('cont=' + JSON.stringify(a.continuation_ranges));
+  return `${addr} #${i} ${a.type || 'meaning'} [${box.filter(Boolean).join(' ')}]: ${a.text}`;
+};
+const segS = (s) => {
+  const ru = (s.ru == null ? '' : String(s.ru)).trim(), de = (s.de == null ? '' : String(s.de)).trim();
+  const v = s.variant_de ? ` /вариант: ${s.variant_de}/` : '';
+  return (ru ? ru + ' ' : '') + '[' + de + ']' + v;
+};
+const renderCandidate = (j) => {
+  if (!j) return null;
+  const L = [];
+  L.push('ЛЕГЕНДА ФОРМАТА: «<строфа>.<строка>» — адрес строки (обе цифры считаются с 1); строка «RU:» — сегменты подстрочника «ru [de]», разделитель « | » (пустой de → «ru []», пустой ru → «[de]»).');
+  L.push('Сноски строки: «<адрес> #<индекс аннотации с 0> <type> [<диапазон сегментов, индексы с 0>]: текст»; span2 — line_span, cont=… — continuation_ranges. [T] — титульная сноска, [S<индекс с 0>] — секция «О песне».');
+  L.push('Правки адресуются ИМЕННО этими адресами и индексами (см. формат edits-файла в задании); немецкие строки DE не редактируются.');
+  L.push('');
+  L.push(`# «${j.title_de}» (D ${j.d}) — «${j.title_ru}», ${j.poet_ru}, ${j.year}`);
+  (j.title_annotations || []).forEach((a, i) => L.push(`[T] титульная сноска #${i} ${a.type || 'meaning'}: ${a.text}`));
+  (j.stanzas || []).forEach((st, si) => {
+    L.push(`== Строфа ${si + 1}`);
+    (st.lines_de || []).forEach((de, li) => {
+      const addr = `${si + 1}.${li + 1}`;
+      const lr = (st.lines_ru || [])[li] || {};
+      L.push(`${addr} DE: ${de}`);
+      L.push(`${addr} RU: ${(lr.segments || []).map(segS).join(' | ')}`);
+      (lr.annotations || []).forEach((a, ai) => L.push(annS2(addr, ai, a)));
+    });
+  });
+  L.push('== О песне');
+  (j.about || []).forEach((s, i) => L.push(`[S${i}] «${s.title}»: ${s.text}`));
+  return L.join('\n');
+};
+const newDictCompact = (max, ev = true) => { const a = rj(path.join(workDir, 'work', `dict-${slug}.json`)); if (!a) return null; return JSON.stringify(a.filter((x) => x && x.lemma).map((x) => ({ lemma: x.lemma, recommendation: x.recommendation, caveats: (x.caveats || '').slice(0, max), era: (x.era || '').slice(0, Math.min(max, 120)), ...(ev ? { evidence_first: ((x.evidence || '').split('\n').find((l) => l.trim()) || '').slice(0, max) } : {}), status: x.status })), null, 1); };
 
 let out = `# БАНДЛ · этап ${stage} · «${song.title_de}» (D ${d}), поэт ${song.poet_de}, год ${song.year}\nslug: ${slug}\n`;
 if (stage === 'dict') {
@@ -54,7 +107,7 @@ if (stage === 'dict') {
   out += sec('ОБРАЗЕЦ ФОРМАТА ФАЙЛА ФАКТОВ (первые строки)', rd(path.join(ROOT, 'planning/research/d198-seufzer-facts.md'), 3500));
 } else if (stage === 'page') {
   out += sec('БРИФ (закон конвейера)', brief);
-  out += sec('ПАКЕТ ПЕСНИ: текст, словарные карточки, непокрытые формы', rd(packetPath));
+  out += sec('ПАКЕТ ПЕСНИ: текст, словарные карточки (сокращённые: lemma, header, recommendation, caveats, era, forms_covered), непокрытые формы', slimPacket());
   out += sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', rd(path.join(workDir, 'work', `dict-${slug}.json`)));
   out += sec('ФАЙЛ ФАКТОВ (единственный источник meaning-аннотаций и «О песне»)', rd(factsPath));
   out += sec('ДОСЬЕ ПОЭТА — выдержка «Кратко» (законная опора; полное досье planning/research/poets/' + poetSlug + '.md)', kratko);
@@ -62,12 +115,12 @@ if (stage === 'dict') {
   out += sec('ОБРАЗЕЦ СТРУКТУРЫ (D 194: одна строфа + заголовки about)', JSON.stringify({ stanza_example: { lines_de: ex.stanzas[0].lines_de, lines_ru: ex.stanzas[0].lines_ru }, meta_example: { title_ru: ex.title_ru, poet_ru: ex.poet_ru, title_annotations: ex.title_annotations }, about_titles: ex.about.map((x) => x.title) }, null, 1));
 } else if (stage === 'fable') {
   out += sec('БРИФ (закон конвейера)', brief);
-  out += sec('СТРАНИЦА-КАНДИДАТ (править её целиком)', rd(cand('')));
+  out += sec('СТРАНИЦА-КАНДИДАТ — КОМПАКТНЫЙ РЕНДЕР (правки адресуются по номерам строк и индексам ниже; файл целиком не переписывать)', renderCandidate(rj(cand(''))));
   out += sec('ФАКТЫ — КОМПАКТНО (утверждение — источник — статус; полный файл с цитатами: ' + factsPath + ')', compactFacts(rd(factsPath)));
   out += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора; не снимать подтверждённое досье)', kratko);
   let max = 220;
-  const tail = () => sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга из карточек)', cardsCompact(max)) + sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', newDictCompact(max));
-  let t = tail(); while (out.length + t.length > 60000 && max > 60) { max -= 40; t = tail(); }
+  const tail = () => sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга из карточек)', cardsCompact(max, false)) + sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', newDictCompact(max, false));
+  let t = tail(); while (out.length + t.length > 41000 && max > 60) { max -= 40; t = tail(); }
   out += t;
 } else if (stage === 'delta') {
   const A = rj(cand('.v1')), B = rj(cand(''));
