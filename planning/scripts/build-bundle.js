@@ -124,9 +124,9 @@ if (stage === 'dict') {
     o += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора; не снимать подтверждённое досье)', kratko);
     let max = 220;
     const tail = () => sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга из карточек)', cardsCompact(max)) + sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', newDictCompact(max));
-    let t = tail(); while (o.length + t.length > 41000 && max > 60) { max -= 40; t = tail(); }
+    let t = tail(); while (o.length + t.length > 47000 && max > 60) { max -= 40; t = tail(); }
     o += t;
-    fitted = o; if (o.length <= 41000) break; // цель: одна часть (один Read у Fable); урок партии 2: две части = +0,1M Fable на песню
+    fitted = o; if (o.length <= 47000) break; // цель: одна часть (один Read у Fable); урок партии 2: две части = +0,1M Fable на песню
   }
   out = fitted;
 } else if (stage === 'delta') {
@@ -160,7 +160,7 @@ if (stage === 'dict') {
   out += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора)', kratko);
   out += sec('СЛОВАРНЫЕ КАРТОЧКИ И НОВЫЕ ЗАПИСИ (законная опора lang-аннотаций)', cardsCompact(160) + '\n' + (newDictCompact(160) || ''));
 }
-const MAX = 42000; // ≈60 КБ байт при кириллице — проверено: Read отдаёт целиком
+const MAX = 48000; // предел Read — 25 000 токенов за вызов (замер 29.08: 110 КБ файл усечён на 465 строках); 48k знаков кириллицы ≈ 20–23k токенов; при усечении агент дочитывает с offset
 const bdir = path.join(workDir, 'bundles'); fs.mkdirSync(bdir, { recursive: true });
 for (const f of fs.readdirSync(bdir)) if (f.startsWith(`${stage}-${slug}.part`)) fs.unlinkSync(path.join(bdir, f));
 const parts = []; let i = 0;
