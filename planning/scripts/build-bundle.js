@@ -25,10 +25,10 @@ const packetPath = path.join(workDir, 'songs', `d${String(d).replace('/', '-')}-
 const factsPath = path.join(workDir, 'facts', slug + '-facts.md');
 const cand = (suffix) => path.join(workDir, 'work', `candidate-${slug}${suffix}.json`);
 // компактные факты: утверждение + источник + статус, без URL и цитат
-const compactFacts = (t) => t ? t.split('\n').map((l) => {
+const compactFacts = (t, lim = 700) => t ? t.split('\n').map((l) => {
   if (!/^\*\*Ф\d+\.\*\*/.test(l)) return /^#|^---/.test(l) ? l : null;
   let x = l.replace(/https?:\/\/\S+/g, '').replace(/«[^»]*»/g, '').replace(/\(\s*\)/g, '').replace(/\s+—\s+(?=—)/g, ' ').replace(/\s+—\s*$/g, '').replace(/[ \t]+/g, ' ').replace(/ ,/g, ',').replace(/—\s+—/g, '—');
-  return x.length > 700 ? x.slice(0, 700) + '…' : x;
+  return x.length > lim ? x.slice(0, lim) + '…' : x;
 }).filter(Boolean).join('\n') : null;
 const fullCards = () => { const p = rj(packetPath); if (!p) return []; return p.cache.map((c) => rj(path.join(ROOT, 'planning/dictionary/entries', c.lemma + '.json')) || c); };
 const cardsCompact = (max, ev = true) => JSON.stringify(fullCards().map((c) => ({ lemma: c.lemma, recommendation: c.recommendation, caveats: (c.caveats || '').slice(0, max), era: (c.era || '').slice(0, Math.min(max, 120)), ...(ev ? { evidence_first: ((c.evidence || '').split('\n').find((l) => l.trim()) || '').slice(0, max) } : {}) })), null, 1);
@@ -116,12 +116,19 @@ if (stage === 'dict') {
 } else if (stage === 'fable') {
   out += sec('БРИФ (закон конвейера)', brief);
   out += sec('СТРАНИЦА-КАНДИДАТ — КОМПАКТНЫЙ РЕНДЕР (правки адресуются по номерам строк и индексам ниже; файл целиком не переписывать)', renderCandidate(rj(cand(''))));
-  out += sec('ФАКТЫ — КОМПАКТНО (утверждение — источник — статус; полный файл с цитатами: ' + factsPath + ')', compactFacts(rd(factsPath)));
-  out += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора; не снимать подтверждённое досье)', kratko);
-  let max = 220;
-  const tail = () => sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга из карточек)', cardsCompact(max, false)) + sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', newDictCompact(max, false));
-  let t = tail(); while (out.length + t.length > 41000 && max > 60) { max -= 40; t = tail(); }
-  out += t;
+  const head = out;
+  const factsRaw = rd(factsPath);
+  let fitted = null;
+  for (const lim of [700, 520, 400, 320, 260]) {
+    let o = head + sec('ФАКТЫ — КОМПАКТНО (утверждение — источник — статус; усечено до ' + lim + ' зн.; ПЕРЕД ЛЮБЫМ СНЯТИЕМ читай полный файл: ' + factsPath + ')', compactFacts(factsRaw, lim));
+    o += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора; не снимать подтверждённое досье)', kratko);
+    let max = 220;
+    const tail = () => sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга из карточек)', cardsCompact(max)) + sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', newDictCompact(max));
+    let t = tail(); while (o.length + t.length > 41000 && max > 60) { max -= 40; t = tail(); }
+    o += t;
+    fitted = o; if (o.length <= 41000) break; // цель: одна часть (один Read у Fable); урок партии 2: две части = +0,1M Fable на песню
+  }
+  out = fitted;
 } else if (stage === 'delta') {
   const A = rj(cand('.v1')), B = rj(cand(''));
   const L = [];
