@@ -16,6 +16,18 @@ const run = (cmd, args, cwd) => { const r = spawnSync(cmd, args, { encoding: 'ut
 for (const d of ds) {
   const e = index.find((x) => String(x.d) === String(d)); const slug = e.file.replace('.json', '');
   const cand = path.join(workDir, 'work', `candidate-${slug}.json`);
+  // ГЕЙТ ПОЛНОТЫ (урок партии 4: «чисто» у сверки не значит «полно» — страница без файла фактов вышла с одним разделом)
+  const factsF = path.join(workDir, 'facts', slug + '-facts.md');
+  const candJ = JSON.parse(fs.readFileSync(cand, 'utf8'));
+  const perfAll = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/performances.json'), 'utf8'));
+  const nAbout = (candJ.about || []).length;
+  const nAnn = (candJ.stanzas || []).reduce((a, st) => a + (st.lines_ru || []).reduce((b, l) => b + (l.annotations || []).length, 0), 0);
+  const gate = [];
+  if (!fs.existsSync(factsF) && !fs.existsSync(path.join(ROOT, 'planning/research', slug + '-facts.md'))) gate.push('нет файла фактов');
+  if (nAbout < 4) gate.push('секций «О песне» ' + nAbout + ' (< 4)');
+  if ((perfAll[String(d)] || []).length && !(candJ.about || []).some((x) => /как это поют/i.test(x.title))) gate.push('нет раздела «Как это поют» при имеющихся записях');
+  if (gate.length) { console.log(`D ${d}: ГЕЙТ ПОЛНОТЫ НЕ ПРОЙДЕН — не публикую: ` + gate.join('; ')); continue; }
+  if (nAbout < 6 || nAnn < 6) console.log(`D ${d}: WARN полноты — секций ${nAbout}, сносок ${nAnn} (проверь бедность источников)`);
   const chk = run('node', [path.join(ROOT, 'planning/scripts/check-song-file.js'), cand]);
   if (chk.code !== 0) { console.log(`D ${d}: валидатор НЕ чист — не публикую\n` + chk.out); continue; }
   const song = JSON.parse(fs.readFileSync(cand, 'utf8'));
