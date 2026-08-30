@@ -123,7 +123,7 @@ if (stage === 'dict') {
     let o = head + sec('ФАКТЫ — КОМПАКТНО (утверждение — источник — статус; усечено до ' + lim + ' зн.; ПЕРЕД ЛЮБЫМ СНЯТИЕМ читай полный файл: ' + factsPath + ')', compactFacts(factsRaw, lim));
     o += sec('ДОСЬЕ ПОЭТА — «Кратко» (законная опора; не снимать подтверждённое досье)', kratko);
     let max = 220;
-    const tail = () => sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга из карточек)', cardsCompact(max)) + sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', newDictCompact(max));
+    const tail = () => sec('СЛОВАРНЫЕ КАРТОЧКИ ПАКЕТА (законная опора lang-аннотаций, в т.ч. ссылки на Гримма/Аделунга из карточек)', cardsCompact(max, false)) + sec('НОВЫЕ СЛОВАРНЫЕ ЗАПИСИ ЭТОЙ ПЕСНИ', newDictCompact(max, false));
     let t = tail(); while (o.length + t.length > 47000 && max > 60) { max -= 40; t = tail(); }
     o += t;
     fitted = o; if (o.length <= 47000) break; // цель: одна часть (один Read у Fable); урок партии 2: две части = +0,1M Fable на песню
