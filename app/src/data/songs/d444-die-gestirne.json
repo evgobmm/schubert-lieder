@@ -1,9 +1,16 @@
 {
  "d": "444",
  "title_de": "Die Gestirne",
+ "title_ru": "Созвездия",
+ "poet_de": "Friedrich Gottlieb Klopstock",
+ "poet_ru": "Фридрих Готлиб Клопшток",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Die Gestirne — «светила, созвездия», собирательное слово к Stern. Пятнадцать строф оды — перекличка земли и неба: хвалой Творцу звучит всё сотворённое, поле и лес, море и роща, а с ними и созвездия; посреди этого звучания ода окликает молчащего человека."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -11,6 +18,168 @@
     "Das Gestad hallet, es donnert das Meer dumpfbrausend",
     "Des Unendlichen Lob, siehe, des Herrlichen,",
     "Unerreichten, von dem Danklied der Natur!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Звучат",
+       "de": "Es tönet"
+      },
+      {
+       "ru": "хвалой",
+       "de": "Lob"
+      },
+      {
+       "ru": "Ему",
+       "de": "sein"
+      },
+      {
+       "ru": "поле",
+       "de": "Feld"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "лес,",
+       "de": "Wald"
+      },
+      {
+       "ru": "долина",
+       "de": "Thal"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "горы,",
+       "de": "Gebirg"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Es здесь — формальное подлежащее-заполнитель: настоящие подлежащие идут дальше, это поле, лес, долина и горы. Глагол tönen («звучать») Клопшток берёт с прямым дополнением — «звучать хвалу»; по-русски это ложится в творительный: звучать хвалой."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "На этих словах голос трубно взбирается по арпеджио фа мажора, а пунктирная фигура на вторую долю подчёркивает решимость поющего; в аккомпанементе она отзывается на четвёртой доле баса — квазиканон, придающий звучанию помпезную величавость. Так слышит это место Грэм Джонсон."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Берег",
+       "de": "Das Gestad"
+      },
+      {
+       "ru": "отзывается эхом,",
+       "de": "hallet"
+      },
+      {
+       "ru": "гремит",
+       "de": "es donnert"
+      },
+      {
+       "ru": "море,",
+       "de": "das Meer"
+      },
+      {
+       "ru": "глухо бурля",
+       "de": "dumpfbrausend"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "С грохота моря начинается, по описанию Грэма Джонсона, протяжённая музыкальная дуга почти на три строки текста: она открывается фа мажором и беспокойно уходит через фа минор, ре-бемоль и ля-бемоль мажор."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "dumpfbrausend — сложенное на случай слово: dumpf («глухо») и brausend («шумящий, бурлящий»). Словарь Гриммов приводит его у Шиллера в таком же морском образе: dumpfbrausend wie des meeres wogen («глухо шумя, как морские волны»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Хвалу",
+       "de": "Lob"
+      },
+      {
+       "ru": "Бесконечному,",
+       "de": "Des Unendlichen"
+      },
+      {
+       "ru": "вот,",
+       "de": "siehe"
+      },
+      {
+       "ru": "Величественному,",
+       "de": "des Herrlichen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Имени Бога здесь нет — он назван прилагательными, ставшими существительными: der Unendliche («Бесконечный»), der Herrliche («Величественный»), на следующей строке der Unerreichte («Недостижимый»). Siehe («вот») — библейская формула, которой окликают слушателя. Словарь Гриммов цитирует именно эти строки Клопштока в статье unerreicht."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Недостижимому,",
+       "de": "Unerreichten"
+      },
+      {
+       "ru": "от",
+       "de": "von"
+      },
+      {
+       "ru": "благодарственной песни",
+       "de": "dem Danklied"
+      },
+      {
+       "ru": "природы!",
+       "de": "der Natur"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Дуга замыкается ровно здесь: в фа мажор основным видом музыка возвращается только на последних словах строфы. Danklied — «благодарственная песнь», в старых словарях латинское cantio eucharistica; у Клопштока её поёт сама природа."
+      }
+     ]
+    }
    ]
   },
   {
@@ -19,6 +188,154 @@
     "Ihr Getön schallet vom Himmel herab, lautpreisend",
     "In umwölkender Nacht rufet des Strahls Gefährt'",
     "Von den Wipfeln und der Berg' Haupt es herab."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Поёт",
+       "de": "Es singt"
+      },
+      {
+       "ru": "природа",
+       "de": "die Natur"
+      },
+      {
+       "ru": "всё же",
+       "de": "dennoch"
+      },
+      {
+       "ru": "Тому,",
+       "de": "Dem"
+      },
+      {
+       "ru": "кто",
+       "de": "welcher"
+      },
+      {
+       "ru": "её",
+       "de": "sie"
+      },
+      {
+       "ru": "сотворил,",
+       "de": "schuf"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Её",
+       "de": "Ihr"
+      },
+      {
+       "ru": "звучание",
+       "de": "Getön"
+      },
+      {
+       "ru": "нисходит",
+       "de": "schallet... herab"
+      },
+      {
+       "ru": "с",
+       "de": "vom"
+      },
+      {
+       "ru": "небес,",
+       "de": "Himmel"
+      },
+      {
+       "ru": "громко славя",
+       "de": "lautpreisend"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Getön — собирательное к Ton («звук»): всё звучание разом. Глагол разорван: schallet … herab — «звучит сверху вниз», к тому, кто слушает; по-русски рамка собрана в один глагол."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "заволакивающей тучами",
+       "de": "umwölkender"
+      },
+      {
+       "ru": "ночи",
+       "de": "Nacht"
+      },
+      {
+       "ru": "кличет",
+       "de": "rufet"
+      },
+      {
+       "ru": "спутник",
+       "de": "Gefährt'"
+      },
+      {
+       "ru": "луча",
+       "de": "des Strahls"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "umwölken — «обволакивать тучами»: ночь сама затягивает небо облаками. Глагол rufet тянет за собой приставку herab («вниз»), которая стоит только в следующей строке, — отсюда разрыв: «кличет … вниз с крон и с главы гор»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Его",
+       "de": "es"
+      },
+      {
+       "ru": "вниз",
+       "de": "herab"
+      },
+      {
+       "ru": "с",
+       "de": "Von"
+      },
+      {
+       "ru": "крон",
+       "de": "den Wipfeln"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "с",
+       "de": ""
+      },
+      {
+       "ru": "главы",
+       "de": "Haupt"
+      },
+      {
+       "ru": "гор.",
+       "de": "der Berg'"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -27,6 +344,162 @@
     "Mit empor, preisend, ein Feirer, wie er; die Luft weht's",
     "Zu dem Bogen mit auf. Hoch in der Wolke ward",
     "Der Erhaltung und der Huld Bogen gesetzt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Шумит",
+       "de": "Es rauschet"
+      },
+      {
+       "ru": "роща,",
+       "de": "der Hain"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "её",
+       "de": "sein"
+      },
+      {
+       "ru": "ручей",
+       "de": "Bach"
+      },
+      {
+       "ru": "шепчет",
+       "de": "lispelt"
+      },
+      {
+       "ru": "это",
+       "de": "es"
+      },
+      {
+       "ru": "тоже",
+       "de": "auch"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вместе",
+       "de": "Mit"
+      },
+      {
+       "ru": "ввысь,",
+       "de": "empor"
+      },
+      {
+       "ru": "славя,",
+       "de": "preisend"
+      },
+      {
+       "ru": "празднующий,",
+       "de": "ein Feirer"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "он;",
+       "de": "er"
+      },
+      {
+       "ru": "воздух",
+       "de": "die Luft"
+      },
+      {
+       "ru": "веет это",
+       "de": "weht's"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Feirer (в изданиях эпохи Feyrer) — от feiern: тот, кто празднует и славит. Ручей у Клопштока такой же участник общего торжества, как и роща. Приставки предыдущего глагола разбросаны по строке: lispelt es mit empor — «шепчет это вместе со всеми ввысь»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "К",
+       "de": "Zu"
+      },
+      {
+       "ru": "радуге",
+       "de": "dem Bogen"
+      },
+      {
+       "ru": "вместе",
+       "de": "mit"
+      },
+      {
+       "ru": "вверх.",
+       "de": "auf"
+      },
+      {
+       "ru": "Высоко",
+       "de": "Hoch"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "облаке",
+       "de": "der Wolke"
+      },
+      {
+       "ru": "была",
+       "de": "ward"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Bogen — «дуга, лук»; здесь дуга в облаке, то есть радуга, и следующая строка называет её радугой сохранения и милости — прямая отсылка к книге Бытия, где радуга поставлена знаком завета. Словарное «дуга» заменено на «радугу», иначе образ не читается. Сама рамка тоже разорвана строкой: ward … gesetzt — «была поставлена»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Радуга",
+       "de": "Bogen"
+      },
+      {
+       "ru": "сохранения",
+       "de": "Der Erhaltung"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "милости",
+       "de": "der Huld"
+      },
+      {
+       "ru": "поставлена.",
+       "de": "gesetzt"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -35,6 +508,146 @@
     "Und verstummst mitten im Preis um dich her? Gott hauchte",
     "Dir Unsterblichkeit ein. Danke dem Herrlichen!",
     "Unerreicht bleibt von dem Aufschwung des Gesangs"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "молчишь",
+       "de": "schweigest"
+      },
+      {
+       "ru": "же",
+       "de": "denn"
+      },
+      {
+       "ru": "ты,",
+       "de": "du"
+      },
+      {
+       "ru": "кого",
+       "de": "welchen"
+      },
+      {
+       "ru": "Бог",
+       "de": "Gott"
+      },
+      {
+       "ru": "навек",
+       "de": "ewig"
+      },
+      {
+       "ru": "сотворил,",
+       "de": "erschuf"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "умолкаешь",
+       "de": "verstummst"
+      },
+      {
+       "ru": "посреди",
+       "de": "mitten im"
+      },
+      {
+       "ru": "хвалы",
+       "de": "Preis"
+      },
+      {
+       "ru": "вокруг тебя?",
+       "de": "um dich her"
+      },
+      {
+       "ru": "Бог",
+       "de": "Gott"
+      },
+      {
+       "ru": "вдохнул",
+       "de": "hauchte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Preis здесь — «хвала, славословие», не «цена»: словарь Гриммов ставит preis в один ряд с lob, ehre, ruhm. Оборот um … her значит «вокруг», а не «ко мне»: хвала звучит со всех сторон, и только человек в ней молчит."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "ein"
+      },
+      {
+       "ru": "тебя",
+       "de": "Dir"
+      },
+      {
+       "ru": "бессмертие.",
+       "de": "Unsterblichkeit"
+      },
+      {
+       "ru": "Благодари",
+       "de": "Danke"
+      },
+      {
+       "ru": "Величественного!",
+       "de": "dem Herrlichen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "einhauchen — «вдохнуть в кого-то»; рамка разорвана концом строки: глагол hauchte остался выше, а приставка ein пришлась сюда и стала по-русски предлогом «в». За образом стоит книга Бытия, где Бог вдыхает в человека дыхание жизни."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Недостижим",
+       "de": "Unerreicht"
+      },
+      {
+       "ru": "остаётся",
+       "de": "bleibt"
+      },
+      {
+       "ru": "для",
+       "de": "von"
+      },
+      {
+       "ru": "взлёта",
+       "de": "dem Aufschwung"
+      },
+      {
+       "ru": "песнопения",
+       "de": "des Gesangs"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -43,6 +656,166 @@
     "Der empfing! Leuchtendes Chor um mich her, ernstfreudig,",
     "Du Erheber des Herrn, tret' ich herzu und sing'",
     "In Entzückung, o du Chor, Psalme mit dir!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Податель;",
+       "de": "Der Geber"
+      },
+      {
+       "ru": "но",
+       "de": "allein"
+      },
+      {
+       "ru": "всё же",
+       "de": "dennoch"
+      },
+      {
+       "ru": "пой,",
+       "de": "sing'"
+      },
+      {
+       "ru": "славь",
+       "de": "preis'"
+      },
+      {
+       "ru": "его,",
+       "de": "ihn"
+      },
+      {
+       "ru": "о",
+       "de": "o"
+      },
+      {
+       "ru": "ты,",
+       "de": "du"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "allein в начале фразы — союз «но», не «один»; вместе с dennoch выходит «но всё же». Sing', preis' — усечённые повелительные формы от singe, preise: апостроф на месте съеденного окончания."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Кто",
+       "de": "Der"
+      },
+      {
+       "ru": "принял!",
+       "de": "empfing"
+      },
+      {
+       "ru": "Светящийся",
+       "de": "Leuchtendes"
+      },
+      {
+       "ru": "хор",
+       "de": "Chor"
+      },
+      {
+       "ru": "вокруг меня,",
+       "de": "um mich her"
+      },
+      {
+       "ru": "торжественно-радостный,",
+       "de": "ernstfreudig"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Chor около 1800 года часто значил просто «сонм, вереница», без всякого пения. Здесь хор всё-таки поёт: двумя строками ниже поющий зовёт его петь псалмы вместе с ним."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ты,",
+       "de": "Du"
+      },
+      {
+       "ru": "прославляющий",
+       "de": "Erheber"
+      },
+      {
+       "ru": "Господа,",
+       "de": "des Herrn"
+      },
+      {
+       "ru": "подхожу",
+       "de": "tret'"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "ближе",
+       "de": "herzu"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "пою",
+       "de": "sing'"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "восторге,",
+       "de": "Entzückung"
+      },
+      {
+       "ru": "о",
+       "de": "o"
+      },
+      {
+       "ru": "ты,",
+       "de": "du"
+      },
+      {
+       "ru": "хор,",
+       "de": "Chor"
+      },
+      {
+       "ru": "псалмы",
+       "de": "Psalme"
+      },
+      {
+       "ru": "с",
+       "de": "mit"
+      },
+      {
+       "ru": "тобой!",
+       "de": "dir"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -51,6 +824,178 @@
     "Und den Staub hier voll Würmegedräng, wer ist Der?",
     "Es ist Gott, es ist Gott, Vater! so rufen wir;",
     "Und unzählbar, die mit uns rufen, seid ihr!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Кто",
+       "de": "Der"
+      },
+      {
+       "ru": "миры",
+       "de": "Welten"
+      },
+      {
+       "ru": "сотворил,",
+       "de": "erschuf"
+      },
+      {
+       "ru": "там",
+       "de": "dort"
+      },
+      {
+       "ru": "заходящее",
+       "de": "sinkendes"
+      },
+      {
+       "ru": "золото",
+       "de": "Gold"
+      },
+      {
+       "ru": "дня",
+       "de": "des Tags"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Der здесь — относительное «кто, тот, который»: строфа начинается с придаточного, а главный вопрос («кто Он?») приходит только в конце следующей строки. Теми же словами начнётся и седьмая строфа."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "прах",
+       "de": "den Staub"
+      },
+      {
+       "ru": "здесь,",
+       "de": "hier"
+      },
+      {
+       "ru": "полный",
+       "de": "voll"
+      },
+      {
+       "ru": "кишения червей,",
+       "de": "Würmegedräng"
+      },
+      {
+       "ru": "кто",
+       "de": "wer"
+      },
+      {
+       "ru": "—",
+       "de": "ist"
+      },
+      {
+       "ru": "Он?",
+       "de": "Der"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Staub — «прах», библейское слово о бренном земном; оно поставлено вплотную к заходящему золоту дня. Würmegedräng — сложенное на случай слово: Würme(r) («черви») и Gedränge («толчея, теснота»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Это",
+       "de": "Es"
+      },
+      {
+       "ru": "—",
+       "de": "ist"
+      },
+      {
+       "ru": "Бог,",
+       "de": "Gott"
+      },
+      {
+       "ru": "это",
+       "de": "es"
+      },
+      {
+       "ru": "—",
+       "de": "ist"
+      },
+      {
+       "ru": "Бог,",
+       "de": "Gott"
+      },
+      {
+       "ru": "Отец!",
+       "de": "Vater"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "взываем",
+       "de": "rufen"
+      },
+      {
+       "ru": "мы;",
+       "de": "wir"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "неисчислимы",
+       "de": "unzählbar"
+      },
+      {
+       "ru": "—",
+       "de": "seid"
+      },
+      {
+       "ru": "вы,",
+       "de": "ihr"
+      },
+      {
+       "ru": "кто",
+       "de": "die"
+      },
+      {
+       "ru": "с",
+       "de": "mit"
+      },
+      {
+       "ru": "нами",
+       "de": "uns"
+      },
+      {
+       "ru": "взывает!",
+       "de": "rufen"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -59,6 +1004,162 @@
     "Sich sein Herz_ Widder und dich, Capricorn, Pleionen,",
     "Skorpion und den Krebs. Steigender wägt sie dort",
     "Den Begleiter. Mit dem Pfeil zielet und blitzt"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Кто",
+       "de": "Der"
+      },
+      {
+       "ru": "миры",
+       "de": "Welten"
+      },
+      {
+       "ru": "сотворил,",
+       "de": "erschuf"
+      },
+      {
+       "ru": "там",
+       "de": "dort"
+      },
+      {
+       "ru": "Льва —",
+       "de": "den Leun_"
+      },
+      {
+       "ru": "жарче",
+       "de": "heisser"
+      },
+      {
+       "ru": "изливает",
+       "de": "ergiesst"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Себя",
+       "de": "Sich"
+      },
+      {
+       "ru": "его",
+       "de": "sein"
+      },
+      {
+       "ru": "сердце —",
+       "de": "Herz_"
+      },
+      {
+       "ru": "Овна",
+       "de": "Widder"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "тебя,",
+       "de": "dich"
+      },
+      {
+       "ru": "Козерог,",
+       "de": "Capricorn"
+      },
+      {
+       "ru": "Плеяды,",
+       "de": "Pleionen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "ergiessen sich — «изливаться»; возвратное sich оторвано от глагола концом строки. «Сердце Льва» — имя звезды: латинское Cor Leonis, наш Регул."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        7
+       ],
+       "text": "Отсюда идёт перекличка зодиака: Widder («Овен»), Capricorn — латинское имя Козерога (по-немецки Steinbock), Pleionen («Плеяды»). Клопшток обращается к созвездиям на «ты», как к живым."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Скорпиона",
+       "de": "Skorpion"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "Рака.",
+       "de": "den Krebs"
+      },
+      {
+       "ru": "Восходя выше,",
+       "de": "Steigender"
+      },
+      {
+       "ru": "взвешивает",
+       "de": "wägt"
+      },
+      {
+       "ru": "она",
+       "de": "sie"
+      },
+      {
+       "ru": "там",
+       "de": "dort"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Sie («она») — Весы: за глаголом wägt («взвешивает») стоит созвездие die Waage, по-немецки единственного числа и женского рода. Begleiter («спутник») в следующей строке — соседнее созвездие."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Спутника.",
+       "de": "Den Begleiter"
+      },
+      {
+       "ru": "Стрелой",
+       "de": "Mit dem Pfeil"
+      },
+      {
+       "ru": "целится",
+       "de": "zielet"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "сверкает",
+       "de": "blitzt"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -67,6 +1168,162 @@
     "Wie vereint leuchtet ihr, Zwilling', herab! Sie heben",
     "Im Triumphe des Gangs freudig den Strahlenfuss.",
     "Und der Fisch spielet und bläst Ströme der Gluth."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Стрелец.",
+       "de": "Der Schütze"
+      },
+      {
+       "ru": "Как",
+       "de": "Wie"
+      },
+      {
+       "ru": "звучат,",
+       "de": "tönt"
+      },
+      {
+       "ru": "когда",
+       "de": ""
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "вращается,",
+       "de": "dreht... sich"
+      },
+      {
+       "ru": "колчан",
+       "de": "Köcher"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "стрела!",
+       "de": "Pfeil"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "dreht er sich — вставная придаточная без союза: «когда он поворачивается». Возвратное sich отделено от глагола местоимением, поэтому в подстрочнике оба слова сведены в один сегмент, а союз «когда» добавлен по-русски."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Как",
+       "de": "Wie"
+      },
+      {
+       "ru": "слитно",
+       "de": "vereint"
+      },
+      {
+       "ru": "светите",
+       "de": "leuchtet"
+      },
+      {
+       "ru": "вы,",
+       "de": "ihr"
+      },
+      {
+       "ru": "Близнецы,",
+       "de": "Zwilling'"
+      },
+      {
+       "ru": "вниз!",
+       "de": "herab"
+      },
+      {
+       "ru": "Они",
+       "de": "Sie"
+      },
+      {
+       "ru": "поднимают",
+       "de": "heben"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "Im"
+      },
+      {
+       "ru": "триумфе",
+       "de": "Triumphe"
+      },
+      {
+       "ru": "поступи",
+       "de": "des Gangs"
+      },
+      {
+       "ru": "радостно",
+       "de": "freudig"
+      },
+      {
+       "ru": "лучистую стопу.",
+       "de": "den Strahlenfuss"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Strahlenfuss — ещё одно сложенное на случай слово: Strahl («луч») и Fuss («стопа»). Gang — манера ходьбы, поступь: у созвездий она торжественная."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "Рыба",
+       "de": "der Fisch"
+      },
+      {
+       "ru": "играет",
+       "de": "spielet"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "выдувает",
+       "de": "bläst"
+      },
+      {
+       "ru": "потоки",
+       "de": "Ströme"
+      },
+      {
+       "ru": "жара.",
+       "de": "der Gluth"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -75,6 +1332,142 @@
     "In dem Blick Flamme, der Adler, gebeut Gehorsam",
     "Den Gefährten um sich. Stolz, den gebogenen Hals",
     "Und den Fittig in die Höh', schwimmet der Schwan."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Роза",
+       "de": "Die Ros'"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "венке",
+       "de": "dem Kranz"
+      },
+      {
+       "ru": "благоухает",
+       "de": "duftet"
+      },
+      {
+       "ru": "светом.",
+       "de": "Licht"
+      },
+      {
+       "ru": "По-царски",
+       "de": "Königlich"
+      },
+      {
+       "ru": "парит,",
+       "de": "schwebt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Во",
+       "de": "In"
+      },
+      {
+       "ru": "взгляде",
+       "de": "dem Blick"
+      },
+      {
+       "ru": "пламя,",
+       "de": "Flamme"
+      },
+      {
+       "ru": "орёл,",
+       "de": "der Adler"
+      },
+      {
+       "ru": "предписывает",
+       "de": "gebeut"
+      },
+      {
+       "ru": "повиновение",
+       "de": "Gehorsam"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Орёл — созвездие (Aquila). Небо здесь увидено с земли — об этом чтении Малкольма Рена сказано в разделе «О песне»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Спутникам",
+       "de": "Den Gefährten"
+      },
+      {
+       "ru": "вокруг",
+       "de": "um"
+      },
+      {
+       "ru": "себя.",
+       "de": "sich"
+      },
+      {
+       "ru": "Гордо,",
+       "de": "Stolz"
+      },
+      {
+       "ru": "изогнутую",
+       "de": "den gebogenen"
+      },
+      {
+       "ru": "шею",
+       "de": "Hals"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "крыло",
+       "de": "den Fittig"
+      },
+      {
+       "ru": "ввысь,",
+       "de": "in die Höh'"
+      },
+      {
+       "ru": "плывёт",
+       "de": "schwimmet"
+      },
+      {
+       "ru": "лебедь.",
+       "de": "der Schwan"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Fittig — поэтическое слово для крыла, обычное же — Flügel. Винительные «шею» и «крыло» остались без глагола: лебедь плывёт, вытянув изогнутую шею и подняв крыло."
+      }
+     ]
+    }
    ]
   },
   {
@@ -83,6 +1476,146 @@
     "Und das Gold himmlischer Saiten dir auf? Du schallest",
     "Zu dem kreisenden Tanz, welchen, beseelt von dir,",
     "Der Planet hält in der Laufbahn um dich her."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Кто",
+       "de": "Wer"
+      },
+      {
+       "ru": "дал",
+       "de": "gab"
+      },
+      {
+       "ru": "мелодию,",
+       "de": "Melodie"
+      },
+      {
+       "ru": "Лира,",
+       "de": "Leyer"
+      },
+      {
+       "ru": "тебе?",
+       "de": "dir"
+      },
+      {
+       "ru": "натянул",
+       "de": "zog"
+      },
+      {
+       "ru": "звучание",
+       "de": "das Getön"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Лира — созвездие; Клопшток и к нему обращается на «ты», как выше к зодиакальным знакам."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "золото",
+       "de": "das Gold"
+      },
+      {
+       "ru": "небесных",
+       "de": "himmlischer"
+      },
+      {
+       "ru": "струн",
+       "de": "Saiten"
+      },
+      {
+       "ru": "тебе?",
+       "de": "dir auf"
+      },
+      {
+       "ru": "Ты",
+       "de": "Du"
+      },
+      {
+       "ru": "звучишь",
+       "de": "schallest"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "aufziehen — «натянуть (струны)»; рамка zog … auf разорвана концом строки, и приставка auf осталась здесь без русской пары: весь смысл ушёл в «натянул» строкой выше."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Для",
+       "de": "Zu"
+      },
+      {
+       "ru": "кругового",
+       "de": "dem kreisenden"
+      },
+      {
+       "ru": "танца,",
+       "de": "Tanz"
+      },
+      {
+       "ru": "который,",
+       "de": "welchen"
+      },
+      {
+       "ru": "одушевлённый",
+       "de": "beseelt"
+      },
+      {
+       "ru": "тобой,",
+       "de": "von dir"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Планета",
+       "de": "Der Planet"
+      },
+      {
+       "ru": "ведёт",
+       "de": "hält"
+      },
+      {
+       "ru": "по",
+       "de": "in"
+      },
+      {
+       "ru": "орбите",
+       "de": "der Laufbahn"
+      },
+      {
+       "ru": "вокруг тебя.",
+       "de": "um dich her"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -91,6 +1624,166 @@
     "Und des Weins Laub die geflügelte Jungfrau. Licht stürzt",
     "Aus der Urn' er dahin. Aber Orion schaut",
     "Auf den Gürtel, nach der Urn' schauet er nicht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "праздничном",
+       "de": "festlichem"
+      },
+      {
+       "ru": "наряде",
+       "de": "Schmuck"
+      },
+      {
+       "ru": "парит",
+       "de": "schwebt"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "несёт",
+       "de": "trägt"
+      },
+      {
+       "ru": "колосья",
+       "de": "Halm'"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "руке",
+       "de": "der Hand"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "листву",
+       "de": "Laub"
+      },
+      {
+       "ru": "винограда",
+       "de": "des Weins"
+      },
+      {
+       "ru": "крылатая",
+       "de": "die geflügelte"
+      },
+      {
+       "ru": "Дева.",
+       "de": "Jungfrau"
+      },
+      {
+       "ru": "Свет",
+       "de": "Licht"
+      },
+      {
+       "ru": "низвергает",
+       "de": "stürzt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Дева (Virgo) на звёздных картах крылата и держит колос — отсюда и Halm («колос»), и виноградная листва в её руках."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Он",
+       "de": "er"
+      },
+      {
+       "ru": "из",
+       "de": "Aus"
+      },
+      {
+       "ru": "урны",
+       "de": "der Urn'"
+      },
+      {
+       "ru": "туда.",
+       "de": "dahin"
+      },
+      {
+       "ru": "Но",
+       "de": "Aber"
+      },
+      {
+       "ru": "Орион",
+       "de": "Orion"
+      },
+      {
+       "ru": "глядит",
+       "de": "schaut"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Урна — сосуд Водолея: на звёздных картах юноша льёт из неё воду, у Клопштока — свет. Dahin указывает направление броска: свет низвергается туда, вниз, к земле."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "На",
+       "de": "Auf"
+      },
+      {
+       "ru": "пояс,",
+       "de": "den Gürtel"
+      },
+      {
+       "ru": "на",
+       "de": "nach"
+      },
+      {
+       "ru": "урну",
+       "de": "der Urn'"
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "не",
+       "de": "nicht"
+      },
+      {
+       "ru": "глядит.",
+       "de": "schauet"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -99,6 +1792,154 @@
     "So zerfiel' in Trümmer die Schöpfung, es bräch' des Leun Herz,",
     "Es versiegte die Urn', hallete Todeston",
     "Um die Leier, und gewelkt sänke der Kranz!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Ах,",
+       "de": "Ach"
+      },
+      {
+       "ru": "если бы",
+       "de": ""
+      },
+      {
+       "ru": "Бог",
+       "de": "Gott"
+      },
+      {
+       "ru": "когда-нибудь",
+       "de": "einst"
+      },
+      {
+       "ru": "излил",
+       "de": "gösse"
+      },
+      {
+       "ru": "тебя,",
+       "de": "dich"
+      },
+      {
+       "ru": "Чаша,",
+       "de": "Schale"
+      },
+      {
+       "ru": "на",
+       "de": "auf"
+      },
+      {
+       "ru": "алтарь,",
+       "de": "den Altar"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "gösse — сослагательное «излил бы»; условия в немецком держит одна форма глагола, поэтому «если бы» в подстрочнике добавлено. Einst у поэтов эпохи смотрит и в прошлое, и в будущее — здесь «когда-нибудь»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "То",
+       "de": "So"
+      },
+      {
+       "ru": "распалось бы",
+       "de": "zerfiel'"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "обломки",
+       "de": "Trümmer"
+      },
+      {
+       "ru": "мироздание,",
+       "de": "die Schöpfung"
+      },
+      {
+       "ru": "разбилось бы",
+       "de": "es bräch'"
+      },
+      {
+       "ru": "сердце",
+       "de": "Herz"
+      },
+      {
+       "ru": "Льва,",
+       "de": "des Leun"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Иссякла бы",
+       "de": "Es versiegte"
+      },
+      {
+       "ru": "урна,",
+       "de": "die Urn'"
+      },
+      {
+       "ru": "разнёсся бы",
+       "de": "hallete"
+      },
+      {
+       "ru": "звук смерти",
+       "de": "Todeston"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Todeston — слово самого Клопштока: словарь Гриммов толкует его как звук близящейся смерти, возвещающий гибель, и ссылается при этом на его оды."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вокруг",
+       "de": "Um"
+      },
+      {
+       "ru": "лиры,",
+       "de": "die Leier"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "увядшим",
+       "de": "gewelkt"
+      },
+      {
+       "ru": "поник бы",
+       "de": "sänke"
+      },
+      {
+       "ru": "венок!",
+       "de": "der Kranz"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -107,6 +1948,159 @@
     "So, Genoss schweigender kühlender Nacht, sanft schimmernd",
     "Die Erdulder des Strahls heitert_in jener Nacht",
     "Der Entschlafnen, da umstrahlt einst sie Gestirn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Там",
+       "de": "Dort"
+      },
+      {
+       "ru": "сотворил",
+       "de": "schuf"
+      },
+      {
+       "ru": "их",
+       "de": "sie"
+      },
+      {
+       "ru": "Господь;",
+       "de": "der Herr"
+      },
+      {
+       "ru": "здесь,",
+       "de": "hier"
+      },
+      {
+       "ru": "ближе",
+       "de": "näher"
+      },
+      {
+       "ru": "к праху,",
+       "de": "dem Staub"
+      },
+      {
+       "ru": "луну,",
+       "de": "den Mond"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Такую,",
+       "de": "So"
+      },
+      {
+       "ru": "спутницу",
+       "de": "Genoss"
+      },
+      {
+       "ru": "молчащей",
+       "de": "schweigender"
+      },
+      {
+       "ru": "прохладной",
+       "de": "kühlender"
+      },
+      {
+       "ru": "ночи,",
+       "de": "Nacht"
+      },
+      {
+       "ru": "мягко",
+       "de": "sanft"
+      },
+      {
+       "ru": "мерцающую",
+       "de": "schimmernd"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Genoss — «сотоварищ, спутник», от genießen («пользоваться сообща»). По-немецки Mond мужского рода, по-русски луна женского, поэтому здесь «спутница»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Терпящих",
+       "de": "Die Erdulder"
+      },
+      {
+       "ru": "луч",
+       "de": "des Strahls"
+      },
+      {
+       "ru": "озаряет в",
+       "de": "heitert_in"
+      },
+      {
+       "ru": "ту",
+       "de": "jener"
+      },
+      {
+       "ru": "ночь",
+       "de": "Nacht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Подлежащее не названо: озаряет луна из начала строфы, а Die Erdulder des Strahls («терпящих луч») стоит в винительном падеже — луна озаряет их в ночи усопших."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Усопших,",
+       "de": "Der Entschlafnen"
+      },
+      {
+       "ru": "там",
+       "de": "da"
+      },
+      {
+       "ru": "когда-нибудь",
+       "de": "einst"
+      },
+      {
+       "ru": "озарит",
+       "de": "umstrahlt"
+      },
+      {
+       "ru": "их",
+       "de": "sie"
+      },
+      {
+       "ru": "светило.",
+       "de": "Gestirn"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        5
+       ],
+       "text": "Малкольм Рен видит в этой строке надежду: смерть неизбежна, но усопших когда-нибудь озарит светило — земные создания могут ещё оказаться среди созвездий."
+      }
+     ]
+    }
    ]
   },
   {
@@ -115,6 +2109,154 @@
     "Und des Tods kühlender, heiliger Nacht zu dämmern",
     "Und zu leuchten gebot. Erde, du Grab, das stets",
     "Auf uns harrt, Gott hat mit Blumen dich bestreut!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Я",
+       "de": "Ich"
+      },
+      {
+       "ru": "славлю",
+       "de": "preise"
+      },
+      {
+       "ru": "Господа,",
+       "de": "den Herrn"
+      },
+      {
+       "ru": "славлю",
+       "de": "preise"
+      },
+      {
+       "ru": "Того,",
+       "de": "den"
+      },
+      {
+       "ru": "кто",
+       "de": "welcher"
+      },
+      {
+       "ru": "луны",
+       "de": "des Monds"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "смерти",
+       "de": "des Tods"
+      },
+      {
+       "ru": "прохладной,",
+       "de": "kühlender"
+      },
+      {
+       "ru": "святой",
+       "de": "heiliger"
+      },
+      {
+       "ru": "ночи",
+       "de": "Nacht"
+      },
+      {
+       "ru": "смеркаться",
+       "de": "zu dämmern"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "светить",
+       "de": "zu leuchten"
+      },
+      {
+       "ru": "повелел.",
+       "de": "gebot"
+      },
+      {
+       "ru": "Земля,",
+       "de": "Erde"
+      },
+      {
+       "ru": "ты,",
+       "de": "du"
+      },
+      {
+       "ru": "могила,",
+       "de": "Grab"
+      },
+      {
+       "ru": "что",
+       "de": "das"
+      },
+      {
+       "ru": "всегда",
+       "de": "stets"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "Отсюда, по чтению Малкольма Рена, гимн хвалы поворачивает к предостережению: земля впрямую названа могилой, которая всегда ждёт нас, а следующая строфа прибавит к могиле ниву посева."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нас",
+       "de": "Auf uns"
+      },
+      {
+       "ru": "ожидает,",
+       "de": "harrt"
+      },
+      {
+       "ru": "Бог",
+       "de": "Gott"
+      },
+      {
+       "ru": "цветами",
+       "de": "mit Blumen"
+      },
+      {
+       "ru": "тебя",
+       "de": "dich"
+      },
+      {
+       "ru": "усыпал!",
+       "de": "hat... bestreut"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "hat … bestreut — рамка: вспомогательный глагол стоит рано, а смысл приходит с причастием в самом конце строки; по-русски всё собирается в одно слово на месте причастия."
+      }
+     ]
+    }
    ]
   },
   {
@@ -123,8 +2265,195 @@
     "Das gebeindeckende Grab, das Gefild der Saat, Gott.",
     "Er erwachet, wer schläft! Donner entstürzt dem Thron!",
     "Zum Gericht hallt's, und das Grab hört's und der Tod!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Заново творящим",
+       "de": "Neuschaffend"
+      },
+      {
+       "ru": "движимый,",
+       "de": "bewegt"
+      },
+      {
+       "ru": "встаёт",
+       "de": "steht... auf"
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "на",
+       "de": "zu"
+      },
+      {
+       "ru": "суд,",
+       "de": "dem Gericht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Neuschaffend — сложенное на случай слово: «заново творящий». Глагол aufstehen («вставать») разорван рамкой, приставка auf отодвинута за подлежащее; здесь она собрана обратно. Gericht — суд, и по контексту это das Jüngste Gericht, Страшный суд."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Покрывающая кости",
+       "de": "Das gebeindeckende"
+      },
+      {
+       "ru": "могила,",
+       "de": "Grab"
+      },
+      {
+       "ru": "нива",
+       "de": "das Gefild"
+      },
+      {
+       "ru": "посева,",
+       "de": "der Saat"
+      },
+      {
+       "ru": "Бог.",
+       "de": "Gott"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "gebeindeckend — «покрывающая кости», ещё одно слово, сложенное Клопштоком на случай. Gefild — высокое собирательное к Feld: нива, поля. Могила и нива поставлены рядом как приложения к одному подлежащему."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Он,",
+       "de": "Er"
+      },
+      {
+       "ru": "кто",
+       "de": "wer"
+      },
+      {
+       "ru": "спит,",
+       "de": "schläft"
+      },
+      {
+       "ru": "пробуждается!",
+       "de": "erwachet"
+      },
+      {
+       "ru": "Гром",
+       "de": "Donner"
+      },
+      {
+       "ru": "исторгается",
+       "de": "entstürzt"
+      },
+      {
+       "ru": "от престола!",
+       "de": "dem Thron"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "К",
+       "de": "Zum"
+      },
+      {
+       "ru": "суду",
+       "de": "Gericht"
+      },
+      {
+       "ru": "гремит клич,",
+       "de": "hallt's"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "могила",
+       "de": "das Grab"
+      },
+      {
+       "ru": "слышит это,",
+       "de": "hört's"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "смерть!",
+       "de": "der Tod"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "hallt's и hört's — стянутые hallt es, hört es. Что именно «оно», немецкий не называет: это зов к суду, поэтому в подстрочнике подставлено «клич»."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Friedrich Gottlieb Klopstock"
+ "about": [
+  {
+   "title": "Июнь 1816 года",
+   "text": "«Die Gestirne» помечена июнем 1816 года; Шуберту было девятнадцать. Клопшток к этому времени уже вошёл в его обиход: годом раньше появилась песня на оду «Dem Unendlichen» («Бесконечному», D 291), и Грэм Джонсон, автор комментариев к шубертовской серии Hyperion, видит здесь того же композитора, менее чем год спустя вернувшегося к тому же поэту."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "При жизни Шуберта песня не печаталась. Она вышла 25 апреля 1837 года у венского издателя A. Diabelli & Co — в десятом выпуске «Nachlass», под издательским номером 5032; в тот же день о выходе объявила Wiener Zeitung.\nВ этом выпуске рядом с «Die Gestirne» стоят «Dem Unendlichen» (D 291), «Das Marienbild» (D 623), «Vom Mitleiden Mariä» (D 632), «Litaney auf das Fest aller Seelen» (D 343), «Pax Vobiscum» (D 551), «Gebet während der Schlacht» (D 171) и «Himmelsfunken» (D 651).\nВ каталогах песня значится в старом полном собрании (Alte Gesamtausgabe, серия XX, том 4, № 229), в Новом собрании сочинений Шуберта (Neue Schubert-Ausgabe IV, том 10) и у Фридлендера (том 5, № 35). Нотная запись предельно экономна: по свидетельству Джонсона, Шуберт выписал одну-единственную строфу со знаками репризы, а остальные остались просто текстом."
+  },
+  {
+   "title": "Фридрих Готлиб Клопшток",
+   "text": "Фридрих Готлиб Клопшток — поэт, с которого для немцев началась новая литература. Двадцати четырёх лет, ещё студентом, он напечатал первые песни поэмы «Der Messias» («Мессия») и за считаные месяцы стал самым обсуждаемым именем в немецких землях. Он первым заставил немецкий язык звучать античным гекзаметром и горацианской одой без рифмы; современный ему биографический очерк говорит, что Клопшток создал eine deutsche Dichtersprache («немецкий поэтический язык»).\nДля Шуберта Клопшток — один из самых ранних поэтов вообще: композитору было восемнадцать, когда он взялся за эти торжественные оды, обращённые к Богу и Вечности, и почти все клопштоковские песни написаны у него разом, за короткий промежуток 1815–1816 годов. Клопштоковский текст — ода восемнадцатого века, не лирика чувства в духе Гёте: высокий слог, обращения к абстракциям, отказ от рифмы ради живого дыхания строки. Шуберт отвечает на этот масштаб языком ораторий, и Джонсон пишет, что Клопшток вдохновил его на музыку оратории и риторики."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Оду «Die Gestirne» Клопшток написал в начале 1764 года, сорока лет, а напечатал только в 1771-м. Питер Растль сверил текст Шуберта с сохранившимися изданиями и установил источник: венское собрание «Oden von Klopstock» в типографии Иоганна Томаса Эдлена фон Траттнера (1784, страницы 53–57) и лейпцигское «Klopstocks Oden», первый том, у Георга Иоахима Гёшена (1798, страницы 186–190).\nОрфография тех изданий отличается от привычной: «Feyrer» вместо «Feirer», «Leyer» вместо «Leier», «Kaprikorn» вместо «Capricorn», «seyd» вместо «seid», а на стыках фраз вместо точек и запятых стоят восклицательные знаки.\nВ оде пятнадцать строф. По описанию Джонсона, старое полное собрание печатает их все, а Peters Edition отбирает пять — первую, третью, шестую, десятую и четырнадцатую — и подаёт музыку так, будто песня сквозная. В записи Hyperion взяты четыре строфы, первая, вторая, десятая и четырнадцатая, с мелкими поправками просодии вокальной строки под слова.\nКлопшток был мастером просодии и над многими одами ставил метрическую схему, делающую размер видимым глазу; такая схема есть и у «Die Gestirne». Музыковед Ханна Цюльке в статье 2016 года разбирает, какие требования этот стих предъявляет композитору."
+  },
+  {
+   "title": "Музыка",
+   "text": "Оригинальная тональность — фа мажор. Джонсон описывает 1816 год как перемену тона: смелость и избыточность предыдущего года уступают место интимности и экономии средств, и Шуберт ищет ту сжатость и ясность, какая слышна у мастеров северогерманской школы.\nВместо декламационного речитатива здесь строфическая форма на мелодии, которая, по словам Джонсона, добивается наибольшего простейшими средствами; даже двухтактовое вступление, звучащее один-единственный раз, он называет на редкость выразительным. В правой руке пульсируют триоли, бас идёт целеустремлённой, чётко очерченной линией, а колебание между тоникой и немецким секстаккордом, которое позже затаскают до штампа зловещего настроения, взято здесь рано и звучит свежо.\nВокальная строка открывается трубным арпеджио, пунктирная фигура подхватывается басом почти каноном и придаёт звучанию помпезную величавость. Дальше музыка беспокойно уходит в другие тональности, и вся строфа держится одной протяжённой дугой."
+  },
+  {
+   "title": "Небо, увиденное с земли",
+   "text": "Малкольм Рен, автор разборов шубертовских песен на schubertsong.uk, читает оду как движение от хвалы к предостережению. Начинается она гимном: мироздание созерцается как творение Создателя, и всё сотворённое — поле, лес, море, роща, ручей — звучит хвалой. К концу тон меняется: человеку, чьи силы ограничены, показана земля как кладбище и как поле, где все мы в конце концов оказываемся посеяны, будто семена.\nСередина оды — перекличка созвездий, и Рен замечает, что небо здесь увидено с земли: орёл, лев, лебедь — наши собственные образы, поднятые на небосвод, потому что небесное становится нам понятно только через земные отсылки. Оттуда же, из созвездия Лиры, приходит у Клопштока и музыка сфер.\nСмерть в этой оде неизбежна, но последнее слово остаётся за надеждой: семена могут прорасти, и земные создания могут ещё оказаться среди созвездий."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Джонсон видит в «Die Gestirne» прежде всего ранний этюд к громогласной «Die Allmacht» 1825 года и называет песню недостающим музыкальным звеном между нею и «Dem Unendlichen».\nВсего, по подсчёту schubertlied.de, Шуберт положил на музыку шестнадцать текстов Клопштока — часть для хора, большинство сольными песнями; если считать все редакции, страница «Die Gestirne» на том же сайте называет двадцать одну партитуру, а другая его страница — двадцать три, и это расхождение остаётся неразрешённым."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Первая в нашем списке — Дитрих Фишер-Дискау с Джералдом Муром за роялем: запись отнесена к 1969 году, к сессиям 1966–1972 годов, из которых сложилось полное собрание песен Шуберта «Sämtliche Lieder» на Deutsche Grammophon.\nВторая — Кристин Брюэр (сопрано) и Грэм Джонсон за роялем: том 31 антологии Hyperion Schubert Edition под названием «Schubert & Religion» (CDJ33031), записанный в июле 1996 года и выпущенный в июле 1998-го.\nТретья — Вольфганг Хольцмайр и Вольфганг Бруннер за хаммерклавиром, альбом «Klopstock Lieder» (Gramola 99037, 2014): целая программа клопштоковских песен К. Ф. Э. Баха, Глюка и Шуберта, и «Die Gestirne» открывает её.\nЧетвёртая — Кристиане Бауэр и Ульрих Айзенлор, девятнадцатый том серии Naxos «Poets of Sensibility» (8.557371-72), вышедший в августе 2005 года."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
