@@ -103,6 +103,14 @@
   такты); в текстах цитируется как «немецкая справочная статья».
 - **Wien Geschichte Wiki** (geschichtewiki.wien.gv.at) — венские биографические данные
   (даты жизни круга Шуберта).
+- **Universitätsbibliothek Freiburg** (ub.uni-freiburg.de) — портал Иоганна Георга Якоби:
+  биография и издания поэта.
+- **Universitäts- und Landesbibliothek Düsseldorf** (digital.ulb.hhu.de) — оцифровки
+  изданий эпохи (стихи Рельштаба).
+- **Current Musicology** (journals.library.columbia.edu) — научные статьи о музыке
+  (либретто Метастазио у венских композиторов).
+- **Библиотека Максима Мошкова** (az.lib.ru) — русские переводы XIX века
+  (Жуковский из Ла Мотт-Фуке).
 - **Discogs** (discogs.com, api.discogs.com) — выходные данные изданий записей
   (лейбл, год, состав исполнителей).
 - **Sächsische Biografie** (saebi.isgv.de) — биографические статьи Института саксонской
