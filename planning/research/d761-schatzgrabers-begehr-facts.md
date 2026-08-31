@@ -39,6 +39,8 @@
 
 **Ф12.** Необычность формы: сонет — жанр, обычно связанный с романтической любовью, что делает эту тему (одержимость поиском) нетипичной для формы — schubertsong.uk — «This is an unusual theme for a sonnet, a form usually associated with romantic love. However, the obsessive desire described here is clearly a kind of love» — secondary.
 
+**Ф20.** Исправление немецкого текста проекта, строфа 1, строка 3: было «Und strebend kann ich andres nichts vollführen.» → стало «Und grabend kann ich andres nichts vollführen.» (снимает вопрос, оставленный в Ф9 как uncertain: источник чтения «strebend» не подтверждается ничем) — schubertsong.uk — «Und grabend kann ich Andres nichts vollführen,» (то же чтение в разделе Original Spelling); буклет Hyperion CDJ33028 — «Und grabend kann ich Andres nicht vollführen.» — **verified**.
+
 ## 4. Музыка
 
 **Ф13.** Исполнение на альбоме Hyperion — баритон Мартен Конингсбергер под аккомпанемент Грэма Джонсона, длительность 3'51 — Hyperion — «bs Schatzgräbers Begehr D761 (SCHOBER) [3'51]», «sung by Maarten Koningsberger» — verified.

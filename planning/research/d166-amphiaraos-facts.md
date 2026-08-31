@@ -42,6 +42,12 @@
 
 **Ф15.** Текст даётся по орфографии эпохи: «Thoren», «Thaten», «verrathen», «Fluth», «geredet» вместо позднейших «Toren», «Taten», «verraten», «Flut» — так стихотворение приведено на schubertlied.de и в оригинальном написании schubertsong.uk; буклет Hyperion печатает уже модернизированную орфографию («Toren», «Taten», «verraten»). — schubertlied.de / schubertsong.uk — «Original Spelling and notes on the text» — verified.
 
+**Ф35.** Правка текста корпуса по аудиту (вердикт defect, 3.2 и 5.4): «Parze» → «Parce» в строках «Er wusste, was ihm die Parce spann.» (строфа 3) и «Was mir die untrügliche Parce gesponnen.» (строфа 5). — schubertsong.uk (критический текст Растля; та же форма в разделе Original Spelling) — «Er wußte, was ihm die Parce spann.»; schubertlied.de (все три повторения текста) — «Was mir die untriegliche Parce gesponnen.» — **verified**. Расхождение изданий: буклет Hyperion CDJ33014 печатает немецкую форму — «Er wusste, was ihm die Parze spann.»; принято чтение критического текста, поддержанное schubertlied.de. Аннотации, ссылающиеся на словарную статью Гриммов «Parze», оставлены как есть: там цитируется заголовок словарной статьи, а не текст песни.
+
+**Ф36.** Правка текста корпуса по аудиту (вердикт defect, 6.6): «Kommt er in Wirbeln…» → «Kommt er im Wirbeln…». — schubertsong.uk (обе версии текста) — «Kommt er im Wirbeln der Windsbraut geflogen;»; schubertlied.de (все три повторения) — «Kommt er im Wirbeln der Windsbraut geflogen;» — **verified**. Расхождение изданий: Hyperion CDJ33014 — «Kommt er in Wirbeln der Windsbraut geflogen;».
+
+**Ф37.** Правка текста корпуса по аудиту (вердикт defect, 7.5): «Gewalt'ger» → «Gewaltiger» (без элизии). — schubertsong.uk (обе версии) — «Dank dir, Gewaltiger, fest steht mir der Bund,»; schubertlied.de (все три повторения) — «Dank dir, Gewaltiger, fest steht mir der Bund,» — **verified**. Ту же полную форму даёт и буклет Hyperion CDJ33014.
+
 ## 4. Музыка
 
 **Ф16.** Вступление — «мощная восходящая последовательность аккордов в пунктирном ритме, с настойчивым погребальным колоколом на второй половине такта» — музыкальный жест, утверждающий «чему быть, того не миновать». — Hyperion — «a powerful rising sequence of chords in dotted rhythm, with a strong tolling bell […] which insists 'What must be, must be!'» — secondary.

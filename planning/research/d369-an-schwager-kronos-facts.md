@@ -42,6 +42,8 @@
 
 **Ф15.** Орфография эпохи (Original Spelling, по schubertsong.uk): «Spude dich, Kronos!», «Ueber Stock und Steine» (в раннем написании), «Orkus», «Thüre», «Wirth» — старые формы, замещённые в современных изданиях на «Spute», «Über», «Tür», «Wirt». — schubertsong.uk, раздел «Original Spelling» — «Spude dich, Kronos!»; «Daß gleich an der Thüre / Der Wirth uns freundlich empfange» — verified.
 
+**Ф36.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 7.1: «Trunken» → «Trunknen» — schubertsong.uk (критический текст Растля, и «Liedtext», и «Original Spelling») — «Trunknen vom letzten Strahl»; schubertlied.de — «Trunknen vom letzten Strahl»; буклет Hyperion CDJ33024 — «Trunknen vom letzten Strahl» — **verified**. Склонённая форма согласуется с «Mich geblendeten Taumelnden» той же строфы; русский сегмент («Упоённого») уже соответствовал этому чтению и не менялся.
+
 ## 4. Музыка
 
 **Ф16.** Николас Бойл называет стихотворение «пылким, полуартикулированным свободностиховым гимном» и пишет, что оно уподобляет жизнь поездке в карете — ритмы то тяжёлые и вязкие в трудный момент, то плавные и уверенные на вершине, то стремительно скатывающиеся к концу. — Hyperion, Джонсон, цитируя Бойла — «an exuberant, semi-articulate free-verse hymn»; «likens [Goethe's] life to a coach journey, in rhythms now labouring and clotted… now rattling rapidly down to a conclusion» — verified.

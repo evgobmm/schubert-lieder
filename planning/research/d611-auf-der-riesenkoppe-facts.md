@@ -37,6 +37,10 @@
 
 **Ф12.** Саксонец по рождению, Кёрнер позже сделал карьеру драматурга венского Бургтеатра, а погиб солдатом прусского полка (Schubertsong отсылает к D 205 «Lützows wilde Jagd»). — Schubertsong — «the Saxon Körner was later to have a successful career (as a dramatist at Vienna's Burgtheater) in Austria, and to serve (and die) as a soldier in a Prussian regiment» — secondary; согласуется с досье, Ф9 и Ф11 (контракт Бургтеатра, уход в Лютцовский корпус).
 
+**Ф26.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 2.4: убрано лишнее «Und» в начале строки — schubertsong.uk (критический текст Растля, и «Liedtext», и «Original Spelling») — «Überall Leben,»; буклет Hyperion CDJ33004 — «Überall Leben,» — **verified**. Начального «Und» нет ни в одном источнике и оно не описано как шубертовская правка; вслед за правкой снят русский сегмент «И», «überall» приведено к началу строки («Überall» — «Повсюду»).
+
+**Ф27.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 3.3: «Königreiche» → «Könige» — schubertsong.uk — «Dreier Könige» (в «Original Spelling»: «Dreyer Könige»); буклет Hyperion CDJ33004 — «Dreier Könige» — **verified**. Это разные слова, а не орфографический вариант; русский сегмент изменён с «королевств» на «королей».
+
 ## 4. Музыка
 
 **Ф13.** Тональность вступления — ре минор: громкое оркестровое tutti «взбирается» по последним ступеням к высшей точке обзора, затем следует аккорд с пометкой «piano», подобный приглушённым мерцающим струнам в разрежённом воздухе. — Hyperion — «The introduction in D minor (a loud orchestral tutti) strides up the last few steps to the highest vantage point; and then there is a chord (marked 'piano') which is like muted strings shimmering in the rarified atmosphere» — secondary.

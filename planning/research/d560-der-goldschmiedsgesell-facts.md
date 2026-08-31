@@ -44,6 +44,8 @@
 
 **Ф15.** В переработке Гёте героиня английской баллады Салли превращена в Кетхен (Käthchen), а рассказчик — в трудолюбивого немецкого подмастерья — schubertsong.uk (комментарий Малколма Рена) — «In this case Sally has become Käthchen, and the narrator has turned into an equally industrious German.» — secondary.
 
+**Ф34.** Строфа 3, строка 1 исправлена: было «Und thut sie erst den Laden auf,» → стало «Und thut sie erst die Schaltern auf,» — schubertsong.uk — «Und thut sie erst die Schaltern auf,» (в разделе современной орфографии — «Und tut sie erst die Schaltern auf,»); schubertlied.de — «Und thut sie erst die Schaltern auf,» — **verified**. Русский сегмент изменён с «лавку» на «ставни», аннотация к строке приведена в соответствие.
+
 ## 4. Музыка
 
 **Ф16.** По оценке Грэма Джонсона, песня «почти совсем забыта» и по праву считается одной из наименее известных гётевских песен Шуберта — Hyperion — «has been almost completely overlooked; it certainly ranks as one of the least known of the Goethe settings.» — verified.

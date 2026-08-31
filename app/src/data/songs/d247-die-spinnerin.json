@@ -17,7 +17,7 @@
     "Als ich still und ruhig spann,",
     "Ohne nur zu stocken,",
     "Trat ein schöner junger Mann",
-    "Nahe mir zum Schrecken."
+    "Nahe mir zum Rocken."
    ],
    "lines_ru": [
     {
@@ -137,22 +137,8 @@
        "ru": "к"
       },
       {
-       "de": "",
-       "ru": "моему"
-      },
-      {
-       "de": "Schrecken",
-       "ru": "испугу."
-      }
-     ],
-     "annotations": [
-      {
-       "type": "meaning",
-       "segment_range": [
-        2,
-        4
-       ],
-       "text": "В изданиях эпохи эта строка читается иначе: Nahe mir zum Rocken («близко ко мне — к прялке»), юноша подходит к самой прялке. Вариант zum Schrecken («к испугу»), который поётся здесь, переносит внимание на испуг девушки."
+       "de": "Rocken",
+       "ru": "прялке."
       }
      ]
     }
@@ -162,7 +148,7 @@
    "lines_de": [
     "Lobte, was zu loben war:",
     "Sollte das was schaden?",
-    "Meinem Flachse gleiches Haar,",
+    "Mein dem Flachse gleiches Haar,",
     "Und den gleichen Faden."
    ],
    "lines_ru": [
@@ -216,19 +202,19 @@
     {
      "segments": [
       {
+       "de": "Mein",
+       "ru": "Мои"
+      },
+      {
        "de": "Haar",
-       "ru": "Волосы,"
+       "ru": "волосы,"
       },
       {
        "de": "gleiches",
        "ru": "подобные"
       },
       {
-       "de": "Meinem",
-       "ru": "моему"
-      },
-      {
-       "de": "Flachse",
+       "de": "dem Flachse",
        "ru": "льну,"
       }
      ],
@@ -237,9 +223,9 @@
        "type": "meaning",
        "segment_range": [
         0,
-        0
+        1
        ],
-       "text": "С этого сравнения, пишет Малколм Рен, всё и началось: юноша сказал, что её волосы похожи на лён, который она прядёт. В изданиях эпохи строка начинается иначе: Mein dem Flachse gleiches Haar — «мои, подобные льну, волосы»."
+       "text": "С этого сравнения, пишет Малколм Рен, всё и началось: юноша сказал, что её волосы похожи на лён, который она прядёт."
       },
       {
        "type": "lang",

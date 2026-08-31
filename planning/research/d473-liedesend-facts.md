@@ -41,6 +41,8 @@
 
 **Ф11.** Электронный скан раннего издания стихотворения (издание 1824 года) доступен в Австрийской национальной библиотеке; ссылка приведена на schubertsong.uk на с. 40 [54 von 212]. — schubertsong.uk — «To see an early edition of the text, go to page 40 [54 von 212] here: http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ177450902» — verified (ссылка на источник; содержимое скана не проверялось).
 
+**Ф34.** Правка немецкого текста корпуса (аудит `planning/reports/de-text-verdicts.md`, вердикт defect, строка 7.1): было «„Du wollest mich nicht zeihen» → стало «„Du wolle mich nicht zeihen» (строфа 7, строка 1; одновременно исправлен сегмент `de` в `lines_ru`: «wollest … zeihen» → «wolle … zeihen», и приведена к новой форме цитата в языковой аннотации к этой строке). Формы «wollest» нет ни в одном источнике. — schubertsong.uk, критический текст Растля (та же форма в обоих блоках страницы — печатная редакция и «Original Spelling») — «Du wolle mich nicht zeihen»; буклет Hyperion CDJ33003 — «Du wolle mich nicht zeihen». — **verified**. Значение сегмента не изменилось: «wolle» — та же оптативная (конъюнктивная) форма смягчённой просьбы, что и предполагалось пояснением, поэтому русский перевод оставлен прежним.
+
 ## 4. Музыка
 
 **Ф12.** Тональность — до минор (C minor); музыка начала песни, по словам Джонсона, «рисует величие заката». — Hyperion, буклет CDJ33003, Джонсон — «(1) Majestic and solemn music in C minor paints the grandeur of the sunset» — verified.

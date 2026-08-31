@@ -33,6 +33,10 @@
 
 **Ф10.** Есть расхождение по орфографии слова «Тränen…verschliesst»/«verfleusst» между изданием эпохи и опубликованным на сайте текстом: и буклет Hyperion, и schubertsong.uk дают в строфе 1 «Geweihten Quell verschließt!» — глагол «запирает», а не «verheisst» («сулит, обещает»), как в тексте проекта. — сопоставление немецкого текста буклета Hyperion и schubertsong.uk с текстом проекта (в бандле) — uncertain (расхождение с обоими источниками бандла не устранено; текст проекта не менять, вопрос — редакторам).
 
+**Ф36.** Исправление немецкого текста проекта, строфа 1, строка 2: было «…geweihten Quell verheisst,» → стало «…geweihten Quell verschliesst,» — schubertsong.uk — «Geweihten Quell verschließt!» (та же форма в разделе Original Spelling); буклет Hyperion CDJ33017 — «Geweihten Quell verschließt!» и в комментарии «der Thränen geweihten Quell verschliesst» — **verified**.
+
+**Ф37.** Исправление немецкого текста проекта, строфа 5, строка 3: было «Mit Sonnenreigentönen» → стало «Mit Sennenreigentönen» (Senn — альпийский пастух, а не Sonne «солнце») — schubertsong.uk — «Mit Sennenreigen-Tönen»; буклет Hyperion CDJ33017 — «Mit Sennenreigentönen» — **verified**.
+
 ## 4. Музыка
 
 **Ф11.** Тональность — фа мажор: аннотация сравнивает песню с «Der Herbstabend» — «in the same key of F major». — буклет Hyperion — «Der Herbstabend (in the same key of F major, and also with triplet accompaniment)» — secondary.

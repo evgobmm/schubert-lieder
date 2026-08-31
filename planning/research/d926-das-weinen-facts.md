@@ -46,6 +46,12 @@
 
 **Ф16.** Малкольм Рен отмечает двойной смысл «tauche da hinein»: помимо буквального «погрузись», у «tauchen» есть значение «крестить» — образ исцеляющей воды слёз перекликается с крещением и новой жизнью — schubertsong.uk — «it has religious connotations too since 'tauchen' also means 'to baptise'. The poet is reassuring us… like baptism, can offer us new life» — secondary.
 
+**Ф39.** Чтение источников в спорном месте строфы 2 проверено (2026-08-31, по вердикту аудита): schubertsong.uk — «Und fasset, hebt und rollt»; schubertlied.de — «Und fasset, hebt und rollt»; буклет Hyperion CDJ33036 — «Und fasset, hebt und rollt» — **verified**. Ни один источник не знает оборота «Weh und Pein», стоящего в этом месте в тексте проекта.
+
+**Ф40.** Там же проверено, что во всех трёх источниках между «Ein linder Balsamsaft» и «Und willst du bald gesunden» стоит пара строк «Darum, du Brust voll Wunden, / Voll Gram und stiller Pein» (schubertsong.uk, schubertlied.de, буклет Hyperion CDJ33036) — **verified**; в тексте проекта эта пара строк отсутствует.
+
+**Ф41.** Правка по Ф39–Ф40 НЕ внесена — **открытый дефект**. Причина: исправление затрагивает не отдельные слова, а построение всей второй строфы проекта (проект чередует по строкам две восьмистрочные строфы стихотворения, а повторы «So tauche da hinein» и «Der dich zerdrücken wollt» идут по нотному тексту). Предзагруженные источники дают текст стихотворения, но не схему повторов Шуберта, а восстановление строфы требует нового подстрочника — то есть отдельного задания с проверкой по нотам (см. Ф14).
+
 ## 4. Музыка
 
 **Ф17.** «Паломническая» тональность ре мажор связывает песню с торжественным «Der Kreuzzug» и с задушевным характером таких шедевров на стихи Лейтнера, как «Vor meiner Wiege» и «Der Winterabend» — Hyperion — «The 'pilgrimage' key of D major has obvious links with the reverential Der Kreuzzug and the innig character of the music with such Leitner masterpieces as Vor meiner Wiege and Der Winterabend» — secondary.

@@ -915,8 +915,8 @@
   },
   {
    "lines_de": [
-    "Hin zu grossem Meere",
-    "Trieb mich Seiner Wellen Wechselspiel;",
+    "Hin zu einem grossen Meere",
+    "Trieb mich Seiner Wellen Spiel;",
     "Vor mir liegt's in weiter Leere,",
     "Näher bin ich nicht dem Ziel."
    ],
@@ -928,11 +928,11 @@
        "ru": "Прочь,"
       },
       {
-       "de": "zu",
+       "de": "zu einem",
        "ru": "к"
       },
       {
-       "de": "grossem",
+       "de": "grossen",
        "ru": "великому"
       },
       {
@@ -953,24 +953,15 @@
        "ru": "меня"
       },
       {
-       "de": "Wechselspiel;",
-       "ru": "переменчивая игра"
+       "de": "Spiel;",
+       "ru": "игра"
       },
       {
        "de": "Seiner Wellen",
        "ru": "его волн;"
       }
      ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        3
-       ],
-       "text": "Wechselspiel — «wechselndes spiel» («переменчивая игра»); рядом словарь Гриммов ставит оборот w. des schicksals — «переменчивая игра судьбы»."
-      }
-     ]
+     "annotations": []
     },
     {
      "segments": [
@@ -1058,7 +1049,7 @@
    "lines_de": [
     "Ach, kein Weg will dahin führen,",
     "Ach der Himmel über mir",
-    "Will die Erde nie berühren,",
+    "Will die Erde nicht berühren,",
     "Und das Dort ist niemals hier!"
    ],
    "lines_ru": [
@@ -1136,12 +1127,8 @@
     {
      "segments": [
       {
-       "de": "nie",
-       "ru": "Никогда"
-      },
-      {
-       "de": "",
-       "ru": "не"
+       "de": "nicht",
+       "ru": "Не"
       },
       {
        "de": "Will",

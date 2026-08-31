@@ -36,6 +36,10 @@
 
 **Ф12.** Все переводы на английский на странице schubertsong.uk, если не указано иное, выполнены Малколмом Реном; комментарии и эссе после текстов и переводов — тоже его и защищены авторским правом сайта. — schubertsong.uk — «All translations into English that appear on this website […] are by Malcolm Wren […] the comments and essays […] are by Malcolm Wren and are © Copyright» — verified (авторство источника, не факт о песне).
 
+**Ф32.** Строка 2.1: было «Ob er will wandern» → стало «Aber wer will wandern» (два первых слова исправлены) — schubertsong.uk (критический текст Растля, оба варианта на странице) — «Aber wer will wandern»; schubertlied.de (по изданию Зайдля) — «Aber wer will wandern» — verified (третье подтверждение — hyperion-booklet-CDJ33011, та же строка).
+
+**Ф33.** Строка 4.8: было «Ruft ihn Gott zu dir.» → стало «Ruf ihn, Gott, zu dir.» (изъявительное наклонение заменено повелительным, Gott выделен запятыми как звательный оборот) — schubertsong.uk — «Ruf ihn, Gott, zu dir.» (в разделе Original Spelling — «Ruf' ihn Gott zu dir!»); schubertlied.de — «Ruf' ihn, Gott, zu Dir!» — verified (третье подтверждение — hyperion-booklet-CDJ33011 — «Ruf ihn, Gott, zu Dir!»). Правка меняет адресата фразы, поэтому переписаны русский сегмент строки и её аннотация: просьба обращена к Богу, а не к колокольчику.
+
 ## 4. Музыка
 
 **Ф13.** Английское название в аннотации Hyperion — «The Passing Bell» («Отходный колокольчик/колокол»). — Hyperion — «DAS ZÜGENGLÖCKLEIN … THE PASSING BELL» — verified.

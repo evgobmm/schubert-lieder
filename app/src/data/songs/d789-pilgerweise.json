@@ -368,8 +368,8 @@
    "lines_de": [
     "Doch rechnet nicht, dass ich euch's lohne,",
     "Mit Gegendienst vergelten soll ich? —",
-    "Streu nur mit Blumenkronen,",
-    "Mit blauen Veilchen, eure Schwelle voll."
+    "Ich streue nur mit Blumenkronen,",
+    "Mit blauen, eure Schwelle voll."
    ],
    "lines_ru": [
     {
@@ -447,8 +447,12 @@
     {
      "segments": [
       {
-       "ru": "Усыпаю",
-       "de": "Streu"
+       "ru": "Я",
+       "de": "Ich"
+      },
+      {
+       "ru": "усыпаю",
+       "de": "streue"
       },
       {
        "ru": "лишь",
@@ -464,17 +468,17 @@
        "type": "lang",
        "segment_range": [
         0,
-        2
+        3
        ],
-       "text": "Streu — усечённое streue («усыпаю»): странник говорит о единственной плате, какая у него есть. Blumenkrone в ботанике — «венчик», все лепестки цветка разом; в стихе за этим словом стоят просто цветы, поэтому и в переводе «цветами»."
+       "text": "streue — «усыпаю»: странник говорит о единственной плате, какая у него есть. Blumenkrone в ботанике — «венчик», все лепестки цветка разом; в стихе за этим словом стоят просто цветы, поэтому и в переводе «цветами»."
       }
      ]
     },
     {
      "segments": [
       {
-       "ru": "Голубыми фиалками,",
-       "de": "Mit blauen Veilchen"
+       "ru": "Голубыми,",
+       "de": "Mit blauen"
       },
       {
        "ru": "ваш",
@@ -504,7 +508,7 @@
         2,
         3
        ],
-       "text": "Schwelle — «порог»; форма совпадает с глаголом schwellen («набухать, вздыматься»), но здесь это существительное. Streu … voll — разорванная конструкция «усыпать доверху»: глагол остался строкой выше, а voll («полный») замыкает фразу."
+       "text": "Schwelle — «порог»; форма совпадает с глаголом schwellen («набухать, вздыматься»), но здесь это существительное. streue … voll — разорванная конструкция «усыпать доверху»: глагол остался строкой выше, а voll («полный») замыкает фразу."
       }
      ]
     }
@@ -835,7 +839,7 @@
   },
   {
    "lines_de": [
-    "Vom Überflusse seid ihr erfreuet",
+    "Vom Überfluss seid ihr erfreuet",
     "Und findet tausendfach Ersatz,",
     "Ein Tag dem andern angereihet",
     "Vergrössert euren Liebesschatz,",
@@ -850,7 +854,7 @@
       },
       {
        "ru": "изобилия",
-       "de": "Überflusse"
+       "de": "Überfluss"
       },
       {
        "ru": "вы",

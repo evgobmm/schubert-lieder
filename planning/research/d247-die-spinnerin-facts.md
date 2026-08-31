@@ -44,6 +44,10 @@
 
 **Ф16.** Разночтение эпохи в 3-й строфе: «riß entzwey» (орфография ранних изданий) против современного «riss entzwei» — schubertsong.uk, Original Spelling — «Und der Faden riß entzwey,» — verified.
 
+**Ф36.** Правка немецкого текста песни (2026-08-31, по вердикту аудита): строфа 1, строка 4 — «zum Schrecken» → «zum Rocken» — schubertsong.uk — «Nahe mir zum Rocken.»; schubertlied.de — «Nahe mir zum Rocken.» — **verified**.
+
+**Ф37.** Правка немецкого текста песни (2026-08-31, по вердикту аудита): строфа 2, строка 3 — «Meinem Flachse» → «Mein dem Flachse» — schubertsong.uk — «Mein dem Flachse gleiches Haar,»; schubertlied.de — «Mein dem Flachse gleiches Haar,» — **verified**. Расхождения «Шуберт против поэта» здесь нет: критический текст Растля и schubertlied.de дают одно и то же чтение, прежняя форма проекта не подтверждалась ни одним источником.
+
 ## 4. Музыка
 
 **Ф17.** По оценке Грэма Джонсона, стихотворение — идеальный материал для строфической песни: сквозная композиция превратила бы его «в нечто более похожее на оперу» — Hyperion — «This poem is ideal material for a strophic song; indeed any attempt to find a through-composed solution would resuit in something more like an opera.» — secondary.

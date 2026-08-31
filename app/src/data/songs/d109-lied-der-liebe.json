@@ -14,10 +14,10 @@
  "stanzas": [
   {
    "lines_de": [
-    "Durch Fichten am Hügel, durch Rosengesträuche, den Erlen am Bach,",
+    "Durch Fichten am Hügel, durch Erlen am Bach,",
     "Folgt immer dein Bildniss, du Traute, mir nach!",
-    "Des Gartens entwallt im Glanze der Frühe die holde Gestalt,",
-    "Sie lächelt bald Liebe, es lächelt bald Ruh;",
+    "Den Rosengesträuchen des Gartens entwallt im Glanze der Frühe die holde Gestalt,",
+    "Es lächelt bald Liebe, es lächelt bald Ruh;",
     "Sie schwebt aus der Berge bepurpurtem Flor,",
     "Gleich freundlichem Schimmer des Mondes, mir zu, einem elysischen Schatten hervor."
    ],
@@ -45,12 +45,8 @@
        "ru": "сквозь"
       },
       {
-       "de": "Rosengesträuche,",
-       "ru": "розовые кусты,"
-      },
-      {
-       "de": "den Erlen",
-       "ru": "у ольх"
+       "de": "Erlen",
+       "ru": "ольхи"
       },
       {
        "de": "am",
@@ -65,10 +61,10 @@
       {
        "type": "lang",
        "segment_range": [
-        6,
-        6
+        2,
+        2
        ],
-       "text": "Третий член перечисления выпадает из строя: durch («сквозь») требует винительного падежа, а den Erlen — дательный. Это старая поэтическая вольность, дательный места без предлога: «у ольх». Слитное am (an + dem) по-русски всякий раз просится под свой предлог — на холме, над ручьём."
+       "text": "Слитное am (an + dem) по-русски всякий раз просится под свой предлог — на холме, над ручьём."
       }
      ]
     },
@@ -117,8 +113,12 @@
     {
      "segments": [
       {
-       "de": "Des Gartens",
-       "ru": "Из сада"
+       "de": "Den Rosengesträuchen",
+       "ru": "Из розовых кустов"
+      },
+      {
+       "de": "des Gartens",
+       "ru": "сада"
       },
       {
        "de": "entwallt",
@@ -149,30 +149,26 @@
       {
        "type": "lang",
        "segment_range": [
-        1,
-        1
+        2,
+        2
        ],
-       "text": "entwallen у Гримма — dahin wallen, entflieszen, entschweben («уходить волнами прочь, утекать, уплывать»), а родительный des Gartens указывает откуда. Корень wallen (о воде — «катиться волнами») даёт движение текучее, волнообразное; здесь оно направлено к смотрящему, поэтому «выплывает»."
+       "text": "entwallen у Гримма — dahin wallen, entflieszen, entschweben («уходить волнами прочь, утекать, уплывать»), а дательный den Rosengesträuchen указывает откуда. Корень wallen (о воде — «катиться волнами») даёт движение текучее, волнообразное; здесь оно направлено к смотрящему, поэтому «выплывает»."
       }
      ]
     },
     {
      "segments": [
       {
-       "de": "Sie",
-       "ru": "Она"
+       "de": "bald",
+       "ru": "То"
       },
       {
-       "de": "lächelt",
+       "de": "Es lächelt",
        "ru": "улыбается"
       },
       {
-       "de": "bald",
-       "ru": "то"
-      },
-      {
        "de": "Liebe,",
-       "ru": "любовью,"
+       "ru": "любовь,"
       },
       {
        "de": "bald",
@@ -191,16 +187,16 @@
       {
        "type": "lang",
        "segment_range": [
-        2,
-        2
+        0,
+        0
        ],
-       "text": "Парное bald… bald — «то… то»: около 1800 года одиночное bald значило уже «скоро», но в этом сдвоенном обороте держится старый смысл чередования. В первом полустишии подлежащее — она, а Liebe («любовь») стоит при глаголе как то, чем она улыбается; во втором подлежащим становится сам Ruh («покой»), а es — пустое подлежащее-заполнитель, которому в русской фразе места нет."
+       "text": "Парное bald… bald — «то… то»: около 1800 года одиночное bald значило уже «скоро», но в этом сдвоенном обороте держится старый смысл чередования. Подлежащие здесь — Liebe («любовь») и Ruh («покой»), а es в обоих полустишиях — пустое подлежащее-заполнитель, которому в русской фразе места нет."
       },
       {
        "type": "meaning",
        "segment_range": [
-        3,
-        3
+        2,
+        2
        ],
        "text": "Это слово в песне — от Шуберта: у Маттисона в строке улыбалась Wehmuth («грусть»), композитор поменял её на Liebe («любовь»). Замену подтвердил Петер Растль, сверив издания Маттисона."
       }
@@ -294,7 +290,7 @@
   },
   {
    "lines_de": [
-    "Oft hab ich im Traume als schönste der Feen",
+    "Oft hab ich im Traume als die schönste der Feen",
     "Auf goldenem Throne dich strahlen gesehn;",
     "Oft hab ich zum hohen Olympus entzückt",
     "Als Hebe dich unter den Göttern erblickt."
@@ -323,7 +319,7 @@
        "ru": "как"
       },
       {
-       "de": "schönste",
+       "de": "die schönste",
        "ru": "прекраснейшую"
       },
       {

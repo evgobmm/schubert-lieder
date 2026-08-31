@@ -431,7 +431,7 @@
    "lines_de": [
     "Seelenvolle Harmonien wimmeln,",
     "Ein wollüstig Ungestüm,",
-    "Aus ihren Saiten, wie aus ihren Himmeln",
+    "Aus den Saiten, wie aus ihren Himmeln",
     "Neugeborne Seraphim;",
     "Wie, des Chaos Riesenarm entronnen,",
     "Aufgejagt vom Schöpfungssturm,",
@@ -485,11 +485,7 @@
        "ru": "Из"
       },
       {
-       "de": "ihren",
-       "ru": "её"
-      },
-      {
-       "de": "Saiten,",
+       "de": "den Saiten,",
        "ru": "струн,"
       },
       {
@@ -509,10 +505,10 @@
       {
        "type": "lang",
        "segment_range": [
-        5,
-        5
+        4,
+        4
        ],
-       "text": "ihren стоит в строке дважды и указывает на разных владельцев: сначала это струны Лауры («её»), затем небеса самих серафимов — по-русски «своих», потому что владелец совпадает с подлежащим второй половины."
+       "text": "ihren указывает на серафимов из следующей строки: небеса здесь их собственные, поэтому по-русски «своих». При струнах притяжательного нет — просто «из струн»."
       }
      ]
     },

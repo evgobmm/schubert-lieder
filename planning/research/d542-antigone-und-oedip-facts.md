@@ -52,6 +52,10 @@
 
 **Ф21.** У Майрхофера текст построен как «не столько дуэт, сколько монолог в двух частях» (a two-part monologue): молитва Антигоны к богам сменяется пробуждением старого царя и его предчувствиями смерти; два персонажа ни разу не обращаются друг к другу напрямую. — Hyperion (см. Ф2) — «not so much as a duet but a two-part monologue; Antigone's filial prayer to the gods is followed by the old king's awakening from a deep sleep, and voicing his presentiments of death» — verified; независимо подтверждено schubertsong.uk (см. Ф2 источника) — «One immediately striking feature of the poem is that the two characters never address each other. Antigone is speaking to the higher powers… Oedipus… seems to be speaking to himself in a sort of soliloquy» — verified.
 
+**Ф41.** Правка текста корпуса по вердикту аудита (2026-08-31), строфа 6 (партия Эдипа), строка 2: было написание «den Scepter» → стало «den Zepter» — schubertsong.uk (критический текст Растля, в т. ч. раздел «Original Spelling» по изданию 1824 года) — «Schwang nicht den Zepter diese Rechte?»; schubertlied.de — «Schwang nicht den Zepter diese Rechte?»; буклет Hyperion CDJ33014 — «Schwang nicht den Zepter diese Rechte?» — **verified**. Написание «Scepter» не подтверждается ни одним источником.
+
+**Ф42.** Правка текста корпуса, строфа 6, строка 8: было «goldnen» → стало «golden» (в обоих повторах строки) — schubertsong.uk — «O Helios, dein golden Licht,»; schubertlied.de — «O Helios, dein golden Licht,»; буклет Hyperion CDJ33014 — «Helios, dein golden Licht,» — **verified**. Повтор полустишия в тексте проекта оставлен без изменений: печатные источники дают текст стихотворения без шубертовских музыкальных повторов (так же, как и в строке 12 этой строфы), поэтому опровергнуть повтор ими нельзя.
+
 ## 4. Музыка
 
 **Ф22.** Оригинальная тональность — до мажор (см. Ф13, cross-verified schubertlied.de).
