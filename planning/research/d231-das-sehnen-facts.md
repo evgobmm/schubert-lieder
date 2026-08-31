@@ -30,6 +30,8 @@
 
 **Ф10.** Указание на факсимиле раннего издания текста: страница 12 [16-й скан] в оцифровке Австрийской национальной библиотеки — schubertsong.uk (https://www.schubertsong.uk/text/das-sehnen/) — «To see an early edition of the text, go to page 12 [16 von 274] here: http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ184217108» — verified (ссылка на факсимиле, страницу не открывали).
 
+**Ф26.** Правка немецкого текста корпуса (2026-08-31, по вердикту de-text-verdicts.md): строка 2.1 — было «Die ihr, Mond, der lieb und traut,», стало «Mond, der lieb und traut,» (снят вводный оборот «Die ihr,», по-видимому перенесённый из рефренной формулы строфы 1 «Die ihr meine Wimper nässt») — schubertsong.uk, критический текст Растля, и модернизированный текст, и «Original Spelling» — строфа начинается строкой «Mond, der lieb und traut»; независимо буклет Hyperion CDJ33007 (комм. Г. Джонсона) — «Mond, der lieb und traut» — **verified**. Русский сегмент «Вы,» снят вместе с немецким, первый сегмент строки приведён к прописной («Луна,»), диапазон аннотации сдвинут.
+
 ## 4. Музыка
 
 **Ф11.** Джонсон характеризует аккомпанемент Das Sehnen как предвестие «Eifersucht und Stolz» из «Прекрасной мельничихи» — буклет Hyperion CDJ33007, с. 19–20 (https://www.hyperion-records.co.uk/notes/33007-B.pdf) — «an accompaniment that prophesies that of Eifersucht und Stolz from Die schöne Müllerin» — verified. Других сведений о тональности, темпе, форме конкретно для D 231 в предзагруженных источниках (schubertlied.de для этой песни недоступен — см. манифест) нет — uncertain.

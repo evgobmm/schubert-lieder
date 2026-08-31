@@ -44,6 +44,8 @@
 
 ---
 
+**Ф34.** Правка немецкого текста корпуса (2026-08-31, по вердикту de-text-verdicts.md): строка 3.1 — было «Was ist's, wornach das Herz zerlechzt?», стало «Was ist's, wonach das Herz zerlechzt?» (форма wornach заменена на wonach) — schubertsong.uk, критический текст Растля, и модернизированный текст, и «Original Spelling» — «Was ist's, wonach das Herz zerlechzt?»; schubertlied.de, все три повтора строфы — «Was ist's, wonach das Herz zerlechzt?» — **verified**. Формы «wornach» не даёт ни один из проверенных источников; расхождения «Шуберт против поэта» здесь нет — оба источника читают одинаково. Вместе с правкой снята часть аннотации, объяснявшая вставное r.
+
 ## 4. Музыка
 
 **Ф15.** Оригинальная тональность — ми мажор (E-Dur); в размещённой на schubertlied.de записи песня звучит в ре мажоре (D-Dur) — транспонирование конкретного исполнения, не авторская тональность — schubertlied.de — «Originaltonart: E-Dur» / «Aufnahmetonart: D-Dur» — verified. Подтверждено независимо: буклет Hyperion CDJ33020, комм. Джонсона — «This is one of a row of E major Kosegarten settings; it seems that Schubert was convinced that this key was somehow right for this poet's emotional world» — verified.

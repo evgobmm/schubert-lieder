@@ -2363,7 +2363,7 @@
   {
    "lines_de": [
     "Und rollt die Augen voller Wuth,",
-    "Die düsterrothes Feuer,",
+    "Die eine Hölle blicken,",
     "Und schüttelt aus dem Schleier Blut,",
     "Und stampft das Herz in Stücken.",
     "Ein bleicher Todtenflimmer macht",
@@ -2410,25 +2410,25 @@
      "segments": [
       {
        "de": "Die",
-       "ru": "которые —"
+       "ru": "которые"
       },
       {
-       "de": "düsterrothes",
-       "ru": "мрачно-красный"
+       "de": "eine Hölle",
+       "ru": "адом"
       },
       {
-       "de": "Feuer",
-       "ru": "огонь,"
+       "de": "blicken",
+       "ru": "глядят,"
       }
      ],
      "annotations": [
       {
-       "type": "meaning",
+       "type": "lang",
        "segment_range": [
         0,
         2
        ],
-       "text": "У Петера Растля и в буклете Hyperion эта строка читается иначе — «Die eine Hölle blicken» («глаза, в которых мерцает ад»), а эпитет düsterrothes стоит строфой выше, при слове Feuer. В нотном тексте песни он оказался здесь, и строка осталась без глагола."
+       "text": "Die подхватывает die Augen предыдущей строки. Глагол blicken («глядеть») стоит здесь с прямым дополнением eine Hölle: глаза глядят ад — сам взгляд и есть адское пламя. По-русски дословно «которые адом глядят»."
       }
      ]
     },

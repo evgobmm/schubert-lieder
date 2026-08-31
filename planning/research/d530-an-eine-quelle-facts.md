@@ -73,6 +73,8 @@ Dann, ach! dann kann ich ihr nichts sagen.
 
 **Ф20.** Переводы на английский на schubertsong.uk (включая перевод An eine Quelle) выполнены Малколмом Реном (Malcolm Wren), которому принадлежат и последующие комментарии — schubertsong.uk — «All translations into English that appear on this website, unless otherwise stated, are by Malcolm Wren.» — verified.
 
+**Ф35.** Исправлено удвоение слова в строке 7: было «O wenn sie sich noch nochmal am Ufer sehen läßt,» → стало «O wenn sie sich noch mal am Ufer sehen läßt,». — schubertsong.uk, https://www.schubertsong.uk/text/an-eine-quelle/ — «noch mahl» (в обоих разделах страницы: текст, положенный на музыку, и «Original Spelling»); schubertlied.de, https://www.schubertlied.de/die-lieder/an-eine-quelle-d530 — «noch mal» (трижды в приведённых там повторах строфы) — **verified**. Второго «noch» нет ни в одном источнике; форма «mahl» — орфография эпохи, в корпусе модернизирована до «mal» (§1 протокола). Правка потребовала слить два русских сегмента («ещё» + «хоть раз» → «ещё раз») и переписать аннотацию, объяснявшую мнимое усиление лишним «noch».
+
 ---
 
 ## 4. Музыка

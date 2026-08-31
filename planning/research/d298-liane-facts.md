@@ -49,6 +49,15 @@
 
 **Ф17.** Английский перевод строк на schubertsong.uk принадлежит Малколму Рену (Malcolm Wren); комментарий и эссе — тоже его, защищены копирайтом — schubertsong.uk (https://www.schubertsong.uk/text/liane/) — «All translations into English that appear on this website, unless otherwise stated, are by Malcolm Wren. ... Unless otherwise stated, the comments and essays that appear after the texts and translations are by Malcolm Wren and are © Copyright.» — verified.
 
+**Ф33.** Правка немецкого текста по вердикту аудита (`planning/reports/de-text-verdicts.md`, D 298, строки 2.2, 4.2, 4.3) — три исправления:
+— строфа 2, строка 2: было «Aus rosig tönt» → стало «Aus Rosen tönt» (существительное вместо прилагательного). Источники: schubertsong.uk (критический текст Растля по изданию Gedichte von Johann Mayrhofer, Вена, Friedrich Volke, 1824, с. 10; то же в разделе Original Spelling) — «Aus Rosen tönt des Bachs Geschwätz»; schubertlied.de — «Aus Rosen tönt des Bachs Geschwätz;»; буклет Hyperion CDJ33007 — «Aus Rosen tönt des Bachs Geschwätz;» — **verified**;
+— строфа 4, строка 2: было «und denkt still» → стало «und denket still» (архаичная полная форма, влияет на слогосчёт). Источники: schubertsong.uk — «Sie senkt das Haupt und denket still»; schubertlied.de — «Sie senkt das Haupt, und denket still»; буклет Hyperion CDJ33007 — «Sie senkt das Haupt und denket still» — **verified**;
+— строфа 4, строка 3: было «An ihn, der im Gebüsche ist,» → стало «Nur ihn, der im Gebüsche ist,». Источники: schubertsong.uk (обе версии текста) — «Nur ihn, der im Gebüsche ist,»; schubertlied.de — «Nur ihn – der im Gebüsche ist,» — **verified** (о расхождении с буклетом Hyperion см. Ф34).
+
+Правки внесены одновременно в `lines_de` и в поля `de` соответствующих сегментов; русские сегменты приведены в соответствие («розового» → «роз»; «О нём» → «Лишь о нём»), аннотация к строке 2.2, описывавшая порчу строки, заменена на пояснение к чтению «Aus Rosen» с сохранением словарной справки о Geschwätz. Из раздела «Стихотворение» убраны два предложения, описывавшие эти два расхождения как неподтверждённые чтения проекта: после правки они беспредметны.
+
+**Ф34.** Расхождение источников по строфе 4, строке 3 («Шуберт против поэта»): критический текст Растля (schubertsong.uk, включая Original Spelling по изданию 1824 года) и schubertlied.de дают «Nur ihn», тогда как буклет Hyperion CDJ33007 (Грэм Джонсон) печатает «An ihn, der im Gebüsche ist,». Оба чтения зафиксированы; в тексте проекта принято чтение, поддержанное двумя независимыми источниками (иерархия §1 протокола: критический текст выше буклета) — **verified**.
+
 ## 4. Музыка
 
 **Ф18.** Оригинальная тональность — до мажор (C-Dur) — schubertlied.de (https://www.schubertlied.de/die-lieder/liane-d298) — «Originaltonart: C-Dur» — verified. (См. также Ф8.)

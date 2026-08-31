@@ -40,6 +40,8 @@
 
 **Ф15.** Первая строка последней строфы: у Hyperion опечатка/сканирование — «W o bist du, heilig Abendrot,» (с разрывом в слове, явный артефакт OCR буклета) — Hyperion, буклет CDJ33008 — «W o bist du, heilig Abendrot, ' Wo, sanfter Hesperus?» — verified как особенность OCR-текста буклета, не как содержательный вариант.
 
+**Ф38.** Правка немецкого текста корпуса (2026-08-31, по вердикту de-text-verdicts.md): строка 1.3 — было «Die Buchen stehen stille zumal,», стало «Die Buchen stehen still zumal,» (снята лишняя конечная -e) — schubertsong.uk, критический текст Растля — «Die Buchen stehen still zumal,»; независимо буклет Hyperion CDJ33008 — «Die Buchen stehen still zumal,»; третьим чтением schubertlied.de и раздел «Original Spelling» на schubertsong.uk — «Die Buchen stehen still zumahl,» (та же форма still, орфография эпохи zumahl) — **verified**. Формы «stille» не даёт ни один источник; в аннотации о zumal цитата слова приведена к новой форме.
+
 ## 4. Музыка
 
 **Ф16.** Оригинальная и «записанная» тональность — фа мажор (F-Dur). — schubertlied.de — «Originaltonart: F-Dur»; «Aufnahmetonart: F-Dur» — verified.

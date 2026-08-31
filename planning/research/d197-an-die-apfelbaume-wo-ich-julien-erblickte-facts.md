@@ -42,6 +42,8 @@
 
 ---
 
+**Ф32.** Правка немецкого текста по вердикту аудита (`planning/reports/de-text-verdicts.md`, D 197, строка 3.1): было «Engelkuss» → стало «Engelskuss» (строфа 3, строка 1; соединительное -s- в композите). Подтверждено двумя источниками: schubertsong.uk (критический текст Петера Растля, то же чтение в разделе Original Spelling), https://www.schubertsong.uk/ — «Nach langer Trennung küsse mit Engelskuß»; schubertlied.de, https://www.schubertlied.de/die-lieder/an-die-apfelbaeume-wo-ich-julien-erblickte-d197 — «Nach langer Trennung küsse mit Engelskuß» (во всех трёх повторах строфы) — **verified**. Правка внесена одновременно в `lines_de`, в поле `de` сегмента («mit Engelskuss») и в цитирующую слово аннотацию.
+
 ## 3. Музыка
 
 **Ф16.** Джонсон (буклет Hyperion, том 10): это, таким образом, четвёртая из двадцати трёх хёльтиевских песен Шуберта (десять — из 1815 года, остальные — из 1816-го) — Hyperion, https://www.hyperion-records.co.uk/dw.asp?dc=W2224_GBAJY9101006 — «This is thus the fourth of Schubert's twenty three Hölty settings (there are ten from 1815, the remainder from 1816)» — verified.

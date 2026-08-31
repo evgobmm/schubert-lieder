@@ -38,6 +38,8 @@
 
 ---
 
+**Ф29.** Правка немецкого текста по вердикту аудита (`planning/reports/de-text-verdicts.md`, D 233, строка 2.5): было «Der Liebe beut und fordert,» → стало «Der Liebe beut und fodert,» (строфа 2, строка 5) — возврат к орфографии эпохи, которую текст песни выдерживает в остальном (Schooss, röthet, gethan). Подтверждено двумя источниками: schubertsong.uk (критический текст Петера Растля), https://www.schubertsong.uk/ — «Der Liebe beut und fodert,»; schubertlied.de, https://www.schubertlied.de/die-lieder/geist-der-liebe-d233 — «Der Liebe beut und fodert,» (во всех повторах строфы) — **verified**. Правка внесена одновременно в `lines_de` и в поле `de` сегмента; русский перевод («требует») не менялся.
+
 ## 3. Музыка
 
 **Ф13.** Джонсон о жанровой природе песни: тональность ми мажор — «обычная клопштоковская тональность» у Шуберта; стихотворение, однако, претендует на философскую широту, отражая богословское образование Козегартена; любовь описывается на грани земного и небесного, из-за чего песня «в каком-то смысле гибрид» — Hyperion, буклет CDJ33020 (прямое извлечение из PDF) — «At first glance this song, in the common Klopstock key of E major, seems like a number of others from the same period, but this would be to reckon without its poem which aims at a philosophical breadth of expression. Kosegarten was a professor of theology and the tenor of these words reminds us of that fact. The love apostrophized here treads a fine line between heaven and earth, and in consequence the song is something of a hybrid.» — verified.

@@ -16,23 +16,20 @@
    "lines_de": [
     "Ganz verloren, ganz versunken",
     "In dein Anschaun, Lieblingin!",
-    "Süsse, Reine, Makellose,",
-    "Edle, Theure, Treffliche,",
     "Wonnebebend, liebetrunken",
     "Schwingt zu dir der Geist sich hin.",
-    "Nichts vermag ich, ungeschminkte",
-    "Rothe Rose, unversehrte",
-    "Lilie, anmuthreiche,",
-    "Zu beginnen, nichts zu denken,",
-    "Dichten, sinnen, nichts zu nennen,",
-    "Was das Herz mir füllt, Huldanemone,",
+    "Nichts vermag ich zu beginnen,",
+    "Nichts zu denken, dichten, sinnen.",
+    "Nichts ist, was das Herz mir füllt,",
     "Huldin, als dein holdes Bild.",
+    "Süsse, Reine, Makellose,",
+    "Edle, Theure, Treffliche,",
     "Ungeschminkte rothe Rose,",
     "Unversehrte Lilie,",
+    "Anmuthreiche Anemone,",
     "Aller Schönen Preis und Krone,",
     "Weisst du auch, Gebieterin,",
-    "Wie ganz dein, als dein holdes Bild,",
-    "Ich ganz dein eigen bin."
+    "Wie ich ganz dein eigen bin?"
    ],
    "lines_ru": [
     {
@@ -94,49 +91,6 @@
        "text": "Dein Anschaun — «созерцание тебя»: местоимение называет ту, на кого смотрят, хотя по форме выглядит как «твоё». Anschauen словарь Гриммов отделяет от простого ansehen: оно торжественнее и глубже. Lieblingin — устаревшая женская форма от Liebling: «любимица, фаворитка»."
       }
      ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Сладостная,",
-       "de": "Süsse,"
-      },
-      {
-       "ru": "Чистая,",
-       "de": "Reine,"
-      },
-      {
-       "ru": "Безупречная,",
-       "de": "Makellose,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        2
-       ],
-       "text": "Шесть обращений подряд — субстантивированные прилагательные женского рода: прямо «Сладостная», «Чистая», «Безупречная», без всякого «женщина» или «дева». Süss у Гриммов — «слово скорее аффекта, чем представления»; makellos — «без пятна», и телесно, и нравственно."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Благородная,",
-       "de": "Edle,"
-      },
-      {
-       "ru": "драгоценная,",
-       "de": "Theure,"
-      },
-      {
-       "ru": "превосходная,",
-       "de": "Treffliche,"
-      }
-     ],
-     "annotations": []
     },
     {
      "segments": [
@@ -205,12 +159,12 @@
        "de": "vermag"
       },
       {
-       "ru": "я,",
-       "de": "ich,"
+       "ru": "я",
+       "de": "ich"
       },
       {
-       "ru": "неприкрашенная",
-       "de": "ungeschminkte"
+       "ru": "начать,",
+       "de": "zu beginnen,"
       }
      ],
      "annotations": [
@@ -220,7 +174,7 @@
         1,
         2
        ],
-       "text": "Vermögen — высокое «быть в силах». К нему пристроятся сразу пять инфинитивов, растянутых на четыре строки: начать, помыслить, сложить, обдумать, назвать. Русское «ничего» требует при глаголе ещё и «не», которого в немецком нет: nichts отрицает само."
+       "text": "Vermögen — высокое «быть в силах». К нему пристроятся сразу четыре инфинитива, растянутых на две строки: начать, помыслить, сложить, обдумать. Русское «ничего» требует при глаголе ещё и «не», которого в немецком нет: nichts отрицает само."
       },
       {
        "type": "meaning",
@@ -235,88 +189,32 @@
     {
      "segments": [
       {
-       "ru": "алая",
-       "de": "Rothe"
-      },
-      {
-       "ru": "роза,",
-       "de": "Rose,"
-      },
-      {
-       "ru": "непорочная",
-       "de": "unversehrte"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        1
-       ],
-       "text": "Rothe — «красная»; по-русски у розы естественнее «алая». Роза у Гриммов — «прекраснейшая, царица цветов». Ungeschminkt из предыдущей строки значит «не тронутая румянами»: цвет у неё свой, не наведённый. Unversehrt рядом с лилией — «нетронутая», а не «уцелевшая»: у Гриммов это слово фигурально прилагается к деве."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "лилия,",
-       "de": "Lilie,"
-      },
-      {
-       "ru": "исполненная прелести,",
-       "de": "anmuthreiche,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "начать,",
-       "de": "Zu beginnen,"
-      },
-      {
-       "ru": "ничего",
-       "de": "nichts"
+       "ru": "Ничего",
+       "de": "Nichts"
       },
       {
        "ru": "помыслить,",
        "de": "zu denken,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
+      },
       {
        "ru": "сложить",
-       "de": "Dichten,"
+       "de": "dichten,"
       },
       {
        "ru": "стихи,",
        "de": ""
       },
       {
-       "ru": "обдумать,",
-       "de": "sinnen,"
-      },
-      {
-       "ru": "ничего",
-       "de": "nichts"
-      },
-      {
-       "ru": "назвать,",
-       "de": "zu nennen,"
+       "ru": "обдумать.",
+       "de": "sinnen."
       }
      ],
      "annotations": [
       {
        "type": "lang",
        "segment_range": [
-        0,
-        2
+        2,
+        4
        ],
        "text": "Dichten — «слагать стихи» (создавать словесное произведение искусства), sinnen — «размышлять, обдумывать». Русское «сложить» без дополнения повисает, поэтому добавлено «стихи»."
       }
@@ -325,8 +223,16 @@
     {
      "segments": [
       {
-       "ru": "Что",
-       "de": "Was"
+       "ru": "Ничего",
+       "de": "Nichts"
+      },
+      {
+       "ru": "нет,",
+       "de": "ist,"
+      },
+      {
+       "ru": "что",
+       "de": "was"
       },
       {
        "ru": "мне",
@@ -339,20 +245,16 @@
       {
        "ru": "наполняет,",
        "de": "füllt,"
-      },
-      {
-       "ru": "милая анемона,",
-       "de": "Huldanemone,"
       }
      ],
      "annotations": [
       {
        "type": "lang",
        "segment_range": [
-        4,
-        4
+        0,
+        1
        ],
-       "text": "Huldanemone — слово, сделанное поэтом: Huld («милость, прелесть») плюс Anemone («анемона, ветреница»). Словарной статьи у него нет; тот же корень Huld — в обращении Huldin из следующей строки."
+       "text": "Nichts ist — «нет ничего»; чем это кончится, договаривает следующая строка."
       }
      ]
     },
@@ -401,6 +303,49 @@
     {
      "segments": [
       {
+       "ru": "Сладостная,",
+       "de": "Süsse,"
+      },
+      {
+       "ru": "Чистая,",
+       "de": "Reine,"
+      },
+      {
+       "ru": "Безупречная,",
+       "de": "Makellose,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Шесть обращений подряд — субстантивированные прилагательные женского рода: прямо «Сладостная», «Чистая», «Безупречная», без всякого «женщина» или «дева». Süss у Гриммов — «слово скорее аффекта, чем представления»; makellos — «без пятна», и телесно, и нравственно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Благородная,",
+       "de": "Edle,"
+      },
+      {
+       "ru": "драгоценная,",
+       "de": "Theure,"
+      },
+      {
+       "ru": "превосходная,",
+       "de": "Treffliche,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
        "ru": "Неприкрашенная",
        "de": "Ungeschminkte"
       },
@@ -413,7 +358,16 @@
        "de": "Rose,"
       }
      ],
-     "annotations": []
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Ungeschminkt — «не тронутая румянами»: цвет у розы свой, не наведённый. Rothe — «красная»; по-русски у розы естественнее «алая». Роза у Гриммов — «прекраснейшая, царица цветов»."
+      }
+     ]
     },
     {
      "segments": [
@@ -424,6 +378,28 @@
       {
        "ru": "лилия,",
        "de": "Lilie,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Unversehrt рядом с лилией — «нетронутая», а не «уцелевшая»: у Гриммов это слово фигурально прилагается к деве."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Исполненная прелести",
+       "de": "Anmuthreiche"
+      },
+      {
+       "ru": "анемона,",
+       "de": "Anemone,"
       }
      ],
      "annotations": []
@@ -490,62 +466,24 @@
        "de": "Wie"
       },
       {
-       "ru": "всецело",
-       "de": "ganz"
-      },
-      {
-       "ru": "твой,",
-       "de": "dein,"
-      },
-      {
-       "ru": "кроме",
-       "de": "als"
-      },
-      {
-       "ru": "твоего",
-       "de": "dein"
-      },
-      {
-       "ru": "милого",
-       "de": "holdes"
-      },
-      {
-       "ru": "образа,",
-       "de": "Bild,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        6
-       ],
-       "text": "Слова als dein holdes Bild повторены сюда из более раннего места, где они стоят на своём синтаксическом месте. Придаточное от этого рвётся и договаривается только в следующей строке: «знаешь ли ты, как всецело я тебе принадлежу»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Я",
-       "de": "Ich"
+       "ru": "я",
+       "de": "ich"
       },
       {
        "ru": "всецело",
        "de": "ganz"
       },
       {
-       "ru": "тебе принадлежу.",
-       "de": "dein eigen bin."
+       "ru": "тебе принадлежу?",
+       "de": "dein eigen bin?"
       }
      ],
      "annotations": [
       {
        "type": "lang",
        "segment_range": [
-        1,
-        2
+        2,
+        3
        ],
        "text": "Dein eigen sein — устойчивый оборот: «быть твоей собственностью, принадлежать тебе без остатка». По-русски он разворачивается в глагол, поэтому три немецких слова стоят в одном сегменте."
       }
@@ -1067,7 +1005,7 @@
     "Des Olympos hohe Zecher,",
     "Labt nicht so der Nektar Becher,",
     "Der Ambrosia Genuss,",
-    "Wie mich labt dein keuscher Kuss."
+    "Als mich labt dein keuscher Kuss."
    ],
    "lines_ru": [
     {
@@ -1274,7 +1212,7 @@
      "segments": [
       {
        "ru": "Как",
-       "de": "Wie"
+       "de": "Als"
       },
       {
        "ru": "меня",
@@ -1317,7 +1255,7 @@
     "Dürft ich handeln, dulden, streben",
     "Für dich und mit dir allein,",
     "Wahrlich, dann wär Dasein Wonne,",
-    "Und wenn meines Lebens Sonne",
+    "Und wann meines Lebens Sonne",
     "Unterging in Finsterniss,",
     "O so wär auch Tod mir süss."
    ],
@@ -1486,7 +1424,7 @@
       },
       {
        "ru": "когда",
-       "de": "wenn"
+       "de": "wann"
       },
       {
        "ru": "солнце",
@@ -2399,7 +2337,7 @@
         0,
         0
        ],
-       "text": "Анемона, ветреница — тот же цветок, что в составленном поэтом слове Huldanemone из первой строфы. Aller Schönen — родительный падеж от субстантивированного «прекрасные», по-русски «всех красавиц»."
+       "text": "Анемона, ветреница — тот же цветок, что в перечне обращений первой строфы. Aller Schönen — родительный падеж от субстантивированного «прекрасные», по-русски «всех красавиц»."
       }
      ]
     },

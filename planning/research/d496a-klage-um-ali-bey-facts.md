@@ -46,6 +46,8 @@
 
 **Ф16.** Стихотворение написано и впервые опубликовано в 1773 году — cross-verified двумя источниками (schubertlied.de, Ф8; schubertsong.uk — «Text written 1773. First published July 13, 1773.») — verified.
 
+**Ф34.** Исправлено написание имени в строфе 1, строке 3: было «Abudahab hat geschlagen» → стало «Aboudahab hat geschlagen». — schubertlied.de, https://www.schubertlied.de/die-lieder/klage-um-ali-bey-d496a — «Aboudahab hat geschlagen» (трижды на странице, во всех приведённых там строфах); schubertsong.uk, https://www.schubertsong.uk/text/klage-um-ali-bey/, раздел «Original Spelling» — «Aboudahab hat geschlagen»; дополнительно буклет Hyperion CDJ33017 — «Aboudahab hat geschlagen» — **verified**. Формы «Abudahab» нет ни в одном источнике бандла (в модернизированном тексте schubertsong.uk — раздельное «Abu Dahab»). Русский сегмент «Абудахаб» и аннотация о Мухаммад-бее Абу Дахабе не менялись; из раздела «О песне» удалена ставшая неверной оговорка «а имя победителя пишется „Aboudahab" (у нас — „Abudahab")».
+
 ---
 
 ## 4. Музыка

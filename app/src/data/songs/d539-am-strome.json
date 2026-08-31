@@ -161,8 +161,8 @@
    "lines_de": [
     "Ja, du gleichest meiner Seele,",
     "Manchmal grün und glatt gestaltet,",
-    "Und zu andern Zeiten herrschen",
-    "Stürme, schäumend, unruhvoll gefaltet."
+    "Und zu Zeiten herrschen Stürme,",
+    "Schäumend, unruhvoll gefaltet."
    ],
    "lines_ru": [
     {
@@ -240,20 +240,16 @@
        "de": "Und"
       },
       {
-       "ru": "в",
-       "de": "zu"
-      },
-      {
-       "ru": "иные",
-       "de": "andern"
-      },
-      {
-       "ru": "времена",
-       "de": "Zeiten"
+       "ru": "временами",
+       "de": "zu Zeiten"
       },
       {
        "ru": "царят",
        "de": "herrschen"
+      },
+      {
+       "ru": "бури,",
+       "de": "Stürme,"
       }
      ],
      "annotations": []
@@ -261,12 +257,8 @@
     {
      "segments": [
       {
-       "ru": "бури,",
-       "de": "Stürme,"
-      },
-      {
        "ru": "пенящиеся,",
-       "de": "schäumend,"
+       "de": "Schäumend,"
       },
       {
        "ru": "неспокойно",
@@ -281,8 +273,8 @@
       {
        "type": "lang",
        "segment_range": [
-        1,
-        3
+        0,
+        2
        ],
        "text": "Буря мнёт воду, как ткань: gefaltet — причастие от falten («складывать, сгибать в складки»), поверхность реки сложена в складки-волны. Unruhvoll («полный беспокойства») — слово возвышенного тона и тогда, и теперь; schäumend — «пенящийся». По-немецки оба причастия стоят приложением к Stürme («бури»), по-русски они согласуются с ним в роде и числе."
       }
@@ -295,8 +287,8 @@
     "Fliessest zu dem fernen Meere,",
     "Darfst allda nicht heimisch werden;",
     "Mich drängt's auch in mildre Lande,",
-    "Find' ich nicht das Glück auf Erden,",
-    "Find' ich nicht das Glück auf Erden."
+    "Finde nicht das Glück auf Erden,",
+    "Finde nicht das Glück auf Erden."
    ],
    "lines_ru": [
     {
@@ -391,20 +383,12 @@
     {
      "segments": [
       {
-       "ru": "если",
-       "de": ""
-      },
-      {
        "ru": "не",
        "de": "nicht"
       },
       {
-       "ru": "найду",
-       "de": "Find'"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
+       "ru": "нахожу",
+       "de": "Finde"
       },
       {
        "ru": "счастья",
@@ -426,27 +410,19 @@
         0,
         2
        ],
-       "text": "Условие подано без союза, одной перестановкой: Find' ich… вместо wenn ich… finde («если я… не найду»), — по-русски союз «если» приходится добавить. Русское отрицание тянет за собой и родительный падеж: das Glück («счастье») стоит в немецком в винительном, а по-русски выходит «не найду счастья»."
+       "text": "Подлежащее опущено: finde — форма первого лица («нахожу»), местоимение ich в стихотворной речи легко выпадает, а русский глагол называет лицо окончанием. Русское отрицание тянет за собой родительный падеж: das Glück («счастье») стоит в немецком в винительном, а по-русски выходит «не нахожу счастья»."
       }
      ]
     },
     {
      "segments": [
       {
-       "ru": "если",
-       "de": ""
-      },
-      {
        "ru": "не",
        "de": "nicht"
       },
       {
-       "ru": "найду",
-       "de": "Find'"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
+       "ru": "нахожу",
+       "de": "Finde"
       },
       {
        "ru": "счастья",

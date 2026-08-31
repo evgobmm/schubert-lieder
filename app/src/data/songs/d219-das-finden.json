@@ -15,7 +15,7 @@
   {
    "lines_de": [
     "Ich hab ein Mädchen funden,",
-    "Sanftmüthig, deutsch und gut;",
+    "Sanft, edel, deutsch und gut;",
     "Ihr Blick ist mild und glänzend",
     "Wie Abendsonnengluth,",
     "Ihr Haar wie Sommerweben,",
@@ -53,8 +53,12 @@
     {
      "segments": [
       {
-       "ru": "Кроткую,",
-       "de": "Sanftmüthig"
+       "ru": "Нежную,",
+       "de": "Sanft,"
+      },
+      {
+       "ru": "благородную,",
+       "de": "edel,"
       },
       {
        "ru": "немецкую",
@@ -73,10 +77,10 @@
       {
        "type": "lang",
        "segment_range": [
-        0,
-        3
+        2,
+        4
        ],
-       "text": "Sanftmüthig — старое написание нынешнего sanftmütig («кроткий нравом»); словарь Гриммов относит слово к складу души, к тихому и покладистому характеру. Deutsch у поэта не только «немецкая»: около 1800 года слово несло похвалу — простая, честная, своя (Гриммы возводят его к diet «народ», отсюда латинские gentilis, popularis — «народный, свой»). Gut здесь о нраве — «добрая»."
+       "text": "Deutsch у поэта не только «немецкая»: около 1800 года слово несло похвалу — простая, честная, своя (Гриммы возводят его к diet «народ», отсюда латинские gentilis, popularis — «народный, свой»). Gut здесь о нраве — «добрая»."
       }
      ]
     },

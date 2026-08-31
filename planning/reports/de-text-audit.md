@@ -1,6 +1,6 @@
 # Аудит немецких текстов корпуса против предзагруженных источников
 
-Сгенерирован скриптом `planning/scripts/check-de-texts.js` (0 токенов) 2026-08-31.
+Сгенерирован скриптом `planning/scripts/check-de-texts.js` (0 токенов) 2026-08-31, обновлён после расширения на ранее непокрытые песни.
 
 Что делает скрипт: для каждой переведённой песни ищет в кэшах волн предзагруженные страницы
 `schubertsong.uk` (критический текст Петера Растля) и `schubertlied.de` и проверяет, встречается ли каждая
@@ -14,6 +14,7 @@
 другую редакцию; (в) артефакт вёрстки страницы-источника; (г) настоящую ошибку в тексте проекта.
 Вердикт по каждому пункту выносится агентом по двум источникам; немецкий текст правится только по
 протоколу проверки фактов, §1.
+
 
 
 ### D 6 «Des Mädchens Klage» — расхождений 6 (источники: schubertsong.uk)
@@ -38,24 +39,8 @@
 ### D 100 «Geisternähe» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   3.3  в проекте: epheuranke   |   в источнике (schubertsong.uk): efeuranke
 
-### D 101 «Erinnerung» — расхождений 3 (источники: schubertsong.uk)
-  2.1  в проекте: bebte   |   в источнике (schubertsong.uk): tonte
-  2.2  в проекте: rasenmahl   |   в источнике (schubertsong.uk): rasenmal
-  3.1  в проекте: weih   |   в источнике (schubertsong.uk): werd
-
 ### D 95 «Adelaide» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   2.3  в проекте: strahlt   |   в источнике (schubertsong.uk): stralt
-
-### D 108 «Der Abend» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
-  1.3  в проекте: —   |   в источнике (schubertsong.uk): o
-  1.5  в проекте: zauberspiegel   |   в источнике (schubertsong.uk): —
-  1.6  в проекте: dammerung   |   в источнике (schubertsong.uk): dammrung / zauberhulle
-  2.3  в проекте: blattergefluster   |   в источнике (schubertsong.uk): blattgefluster
-
-### D 109 «Lied der Liebe» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
-  1.1  в проекте: rosengestrauche / den   |   в источнике (schubertsong.uk): —
-  1.4  в проекте: sie   |   в источнике (schubertsong.uk): —
-  2.1  в проекте: —   |   в источнике (schubertsong.uk): die
 
 ### D 114 «Romanze» — расхождений 2 (источники: schubertsong.uk)
   8.1  в проекте: klagt / einmuthig / alt / jung   |   в источнике (schubertsong.uk): flur / burg / leer
@@ -81,9 +66,6 @@
   5.7  в проекте: aufgeschaffen   |   в источнике (schubertsong.uk): aufgeschreckt
   8.1  в проекте: eng   |   в источнике (schubertsong.uk): bang
 
-### D 149 «Der Sänger» — расхождений 1 (источники: schubertsong.uk)
-  2.8  в проекте: ergetzen   |   в источнике (schubertsong.uk): ergotzen
-
 ### D 162 «Nähe des Geliebten» — расхождений 1 (источники: schubertsong.uk)
   4.3  в проекте: bald   |   в источнике (schubertsong.uk): —
 
@@ -96,12 +78,8 @@
   2.4  в проекте: auf   |   в источнике (schubertsong.uk): in
   4.5  в проекте: fluchtige   |   в источнике (schubertsong.uk): fluchtge
 
-### D 166 «Amphiaraos» — расхождений 5 (источники: schubertsong.uk, schubertlied.de)
-  3.2  в проекте: parze   |   в источнике (schubertsong.uk): parce
+### D 166 «Amphiaraos» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   4.4  в проекте: periklymenos   |   в источнике (schubertsong.uk): periclimenos
-  5.4  в проекте: parze   |   в источнике (schubertsong.uk): parce
-  6.6  в проекте: —   |   в источнике (schubertsong.uk): im
-  7.5  в проекте: gewaltger   |   в источнике (schubertsong.uk): gewaltiger
 
 ### D 187 «Stimme der Liebe» — расхождений 1 (источники: schubertsong.uk)
   2.6  в проекте: —   |   в источнике (schubertsong.uk): die
@@ -115,8 +93,17 @@
 ### D 192 «Der Jüngling am Bache» — расхождений 1 (источники: schubertsong.uk)
   3.8  в проекте: bleibt   |   в источнике (schubertsong.uk): ist
 
+### D 193 «An den Mond» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: phantasien   |   в источнике (schubertlied.de): fantaseyn
+
+### D 194 «Die Mainacht» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  2.4  в проекте: giebt   |   в источнике (schubertsong.uk): gibt
+
 ### D 138 «Rastlose Liebe» — расхождений 1 (источники: schubertsong.uk)
   2.8  в проекте: es   |   в источнике (schubertsong.uk): das
+
+### D 197 «An die Apfelbäume, wo ich Julien erblickte» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  3.1  в проекте: engelkuss   |   в источнике (schubertsong.uk): engelskuss
 
 ### D 206 «Liebeständelei» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
   4.6  в проекте: lassst   |   в источнике (schubertsong.uk): —
@@ -124,11 +111,26 @@
   4.8  в проекте: lassst   |   в источнике (schubertsong.uk): —
   5.1  в проекте: wonne   |   в источнике (schubertsong.uk): freuden
 
+### D 207 «Der Liebende» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  1.4  в проекте: wenn   |   в источнике (schubertsong.uk): wem
+  1.7  в проекте: begluckt   |   в источнике (schubertsong.uk): —
+
+### D 208 «Die Nonne» — расхождений 2 (источники: schubertsong.uk)
+  17.2  в проекте: die   |   в источнике (schubertsong.uk): ein
+  17.5  в проекте: bleicher   |   в источнике (schubertsong.uk): dunkler
+
+### D 214 «Die Laube» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  5.1  в проекте: entstromt   |   в источнике (schubertlied.de): als
+
 ### D 215A «Meeres Stille» — расхождений 1 (источники: schubertsong.uk)
   1.7  в проекте: ungeheuern   |   в источнике (schubertsong.uk): ungeheuren
 
 ### D 216 «Meeres Stille» — расхождений 1 (источники: schubertsong.uk)
   1.7  в проекте: ungeheuern   |   в источнике (schubertsong.uk): ungeheuren
+
+### D 219 «Das Finden» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  1.2  в проекте: sanftmuthig   |   в источнике (schubertsong.uk): edel
+  5.4  в проекте: edlen   |   в источнике (schubertsong.uk): edeln
 
 ### D 224 «Wandrers Nachtlied» — расхождений 1 (источники: schubertsong.uk)
   1.4  в проекте: fullst   |   в источнике (schubertsong.uk): fullest
@@ -136,29 +138,86 @@
 ### D 226 «Erster Verlust» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   3.2  в проекте: wer   |   в источнике (schubertsong.uk): —
 
+### D 227 «Idens Nachtgesang» — расхождений 2 (источники: schubertsong.uk)
+  2.1  в проекте: liebevollen   |   в источнике (schubertsong.uk): liebvollen
+  6.4  в проекте: ewigen   |   в источнике (schubertsong.uk): ewgen
+
+### D 228 «Von Ida» — расхождений 4 (источники: schubertsong.uk)
+  2.1  в проекте: was / ahndest   |   в источнике (schubertsong.uk): —
+  2.6  в проекте: ahndest   |   в источнике (schubertsong.uk): ahnest
+  2.8  в проекте: ahndest   |   в источнике (schubertsong.uk): ahnest
+  2.13  в проекте: ahndungschaurenden   |   в источнике (schubertsong.uk): einsamtraurenden
+
+### D 229 «Die Erscheinung» — расхождений 6 (источники: schubertsong.uk)
+  1.8  в проекте: giebt   |   в источнике (schubertsong.uk): gibt
+  2.7  в проекте: nasste   |   в источнике (schubertsong.uk): fasste
+  3.1  в проекте: trauernd   |   в источнике (schubertsong.uk): traurig
+  3.6  в проекте: so   |   в источнике (schubertsong.uk): sie
+  4.7  в проекте: erhaben   |   в источнике (schubertsong.uk): bedeutend
+  5.6  в проекте: eint   |   в источнике (schubertsong.uk): knupft
+
+### D 231 «Das Sehnen» — расхождений 5 (источники: schubertsong.uk)
+  2.1  в проекте: die / ihr   |   в источнике (schubertsong.uk): —
+  3.2  в проекте: liebeflehn   |   в источнике (schubertsong.uk): liebesflehn
+  7.4  в проекте: ungetrostet   |   в источнике (schubertsong.uk): ungestrostet
+  7.5  в проекте: nach / dem / holden   |   в источнике (schubertsong.uk): —
+  7.6  в проекте: nach / dem / holden   |   в источнике (schubertsong.uk): —
+
+### D 221 «Der Abend» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
+  1.4  в проекте: und   |   в источнике (schubertlied.de): umschleyert
+  2.5  в проекте: ahndungsreiches   |   в источнике (schubertlied.de): ahnungsreiches
+  4.8  в проекте: huldigen   |   в источнике (schubertlied.de): huldgen
+
+### D 233 «Geist der Liebe» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  2.5  в проекте: fordert   |   в источнике (schubertsong.uk): fodert
+
+### D 237 «Abends unter der Linde» — расхождений 1 (источники: schubertsong.uk)
+  2.4  в проекте: —   |   в источнике (schubertsong.uk): grauen
+
+### D 238 «Die Mondnacht» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: glanzumrauschten   |   в источнике (schubertsong.uk): glanzberauschten
+  3.3  в проекте: schwahnet   |   в источнике (schubertsong.uk): schwanet
+  4.3  в проекте: sehnen   |   в источнике (schubertsong.uk): dehnen
+  4.4  в проекте: —   |   в источнике (schubertsong.uk): loschet
+
+### D 240 «Huldigung» — расхождений 6 (источники: schubertsong.uk, schubertlied.de)
+  1.7  в проекте: ungeschminkte   |   в источнике (schubertsong.uk): zu / beginnen
+  1.11  в проекте: nennen   |   в источнике (schubertsong.uk): denken
+  1.12  в проекте: huldanemone   |   в источнике (schubertsong.uk): nichts / ist
+  1.18  в проекте: wie / ganz   |   в источнике (schubertsong.uk): huldin
+  4.8  в проекте: wie   |   в источнике (schubertsong.uk): als
+  5.6  в проекте: wenn   |   в источнике (schubertsong.uk): wann
+
+### D 241 «Alles um Liebe» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  3.1  в проекте: wornach   |   в источнике (schubertsong.uk): wonach
+  6.2  в проекте: freudeloser   |   в источнике (schubertsong.uk): freundeloser
+
 ### D 250 «Das Geheimnis» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   4.1  в проекте: zehen   |   в источнике (schubertsong.uk): —
 
-### D 247 «Die Spinnerin» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
-  1.4  в проекте: schrecken   |   в источнике (schubertsong.uk): rocken
-  2.3  в проекте: meinem   |   в источнике (schubertsong.uk): dem
-
-### D 255 «Der Rattenfänger» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+### D 255 «Der Rattenfänger» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   2.1  в проекте: gutgelaunte   |   в источнике (schubertsong.uk): vielgewandte
-  3.4  в проекте: manchem   |   в источнике (schubertsong.uk): mancher
 
 ### D 256 «Der Schatzgräber» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
   1.9  в проекте: eigenem   |   в источнике (schubertsong.uk): eignem
   5.9  в проекте: zum / schlusse   |   в источнике (schubertsong.uk): —
 
+### D 257 «Heidenröslein» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  3.1  в проекте: brachs   |   в источнике (schubertsong.uk): —
+
 ### D 291 «Dem Unendlichen» — расхождений 2 (источники: schubertsong.uk)
   4.1  в проекте: —   |   в источнике (schubertsong.uk): der / posaunen / chor
   5.1  в проекте: —   |   в источнике (schubertsong.uk): feierlichem / gang
 
-### D 309 «Das gestörte Glück» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
+### D 298 «Liane» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: —   |   в источнике (schubertsong.uk): hecken
+  2.2  в проекте: rosig   |   в источнике (schubertsong.uk): rosen
+  4.2  в проекте: denkt   |   в источнике (schubertsong.uk): denket
+  4.3  в проекте: an   |   в источнике (schubertsong.uk): nur
+
+### D 309 «Das gestörte Glück» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
   1.6  в проекте: wenns   |   в источнике (schubertsong.uk): obs
   5.5  в проекте: in   |   в источнике (schubertsong.uk): im
-  6.3  в проекте: nimmer   |   в источнике (schubertsong.uk): —
 
 ### D 328 «Erlkönig» — расхождений 1 (источники: schubertsong.uk)
   5.5  в проекте: sie   |   в источнике (schubertsong.uk): —
@@ -166,12 +225,25 @@
 ### D 310 «Sehnsucht» — расхождений 1 (источники: schubertsong.uk)
   2.5  в проекте: der / nur   |   в источнике (schubertsong.uk): —
 
-### D 312 «Hektors Abschied» — расхождений 5 (источники: schubertsong.uk)
+### D 312 «Hektors Abschied» — расхождений 4 (источники: schubertsong.uk)
   2.4  в проекте: pergamus   |   в источнике (schubertsong.uk): pergamos
   3.4  в проекте: pergamus   |   в источнике (schubertsong.uk): pergamos
-  4.3  в проекте: dein   |   в источнике (schubertsong.uk): das
   6.1  в проекте: recit   |   в источнике (schubertsong.uk): —
   6.7  в проекте: —   |   в источнике (schubertsong.uk): hektors / liebe
+
+### D 313 «Die Sterne» — расхождений 1 (источники: schubertsong.uk)
+  1.3  в проекте: gottes / funkeln   |   в источнике (schubertsong.uk): poets / title
+
+### D 316 «An Rosa II» — расхождений 5 (источники: schubertsong.uk)
+  2.2  в проекте: reget / das / sauseln / des / windes   |   в источнике (schubertsong.uk): —
+  4.1  в проекте: reget / windes   |   в источнике (schubertsong.uk): regt / ewigen
+  5.2  в проекте: verschwiegne   |   в источнике (schubertsong.uk): verschiegne
+  7.1  в проекте: schopfte / freieren / odem   |   в источнике (schubertsong.uk): —
+  7.2  в проекте: klomm / heroischer / felsenan   |   в источнике (schubertsong.uk): —
+
+### D 317 «Idens Schwanenlied» — расхождений 2 (источники: schubertsong.uk)
+  1.4  в проекте: stehn / so / trostlos / so / schaurig   |   в источнике (schubertsong.uk): es / stehen
+  3.2  в проекте: linden   |   в источнике (schubertsong.uk): —
 
 ### D 322 «Hermann und Thusnelda» — расхождений 1 (источники: schubertsong.uk)
   5.4  в проекте: erzahlts   |   в источнике (schubertsong.uk): nektar / trinket
@@ -181,11 +253,11 @@
   3.7  в проекте: im   |   в источнике (schubertsong.uk): —
   3.9  в проекте: —   |   в источнике (schubertsong.uk): sie
 
-### D 367 «Der König in Thule» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  5.3  в проекте: heiligen   |   в источнике (schubertsong.uk): heilgen
+### D 362 «Zufriedenheit» — расхождений 2 (источники: schubertsong.uk)
+  2.2  в проекте: glucks   |   в источнике (schubertsong.uk): —
+  2.5  в проекте: zu / lacheln / drob   |   в источнике (schubertsong.uk): —
 
-### D 388 «Laura am Klavier» — расхождений 2 (источники: schubertsong.uk)
-  3.3  в проекте: —   |   в источнике (schubertsong.uk): den
+### D 388 «Laura am Klavier» — расхождений 1 (источники: schubertsong.uk)
   4.1  в проекте: itzt   |   в источнике (schubertsong.uk): jetzt
 
 ### D 390 «Entzückung an Laura» — расхождений 2 (источники: schubertsong.uk)
@@ -207,17 +279,16 @@
   2.2  в проекте: —   |   в источнике (schubertsong.uk): sperret
   2.5  в проекте: cocytus   |   в источнике (schubertsong.uk): kozytus
 
-### D 404 «Die Herbstnacht» — расхождений 6 (источники: schubertsong.uk)
-  1.2  в проекте: geweihten / quell / verheisst   |   в источнике (schubertsong.uk): —
+### D 404 «Die Herbstnacht» — расхождений 5 (источники: schubertsong.uk)
   1.3  в проекте: dass / harm / lust / verschliesst   |   в источнике (schubertsong.uk): —
   2.7  в проекте: —   |   в источнике (schubertsong.uk): muden
-  5.3  в проекте: sonnenreigentonen   |   в источнике (schubertsong.uk): abendsonnenschein
+  5.3  в проекте: sennenreigentonen   |   в источнике (schubertsong.uk): abendsonnenschein
   7.4  в проекте: trauermelodein   |   в источнике (schubertsong.uk): herbstnacht
   13.1  в проекте: gieb   |   в источнике (schubertsong.uk): gib
 
 ### D 402 «Der Flüchtling» — расхождений 4 (источники: schubertsong.uk)
   1.2  в проекте: dustrer / das / junge / licht   |   в источнике (schubertsong.uk): —
-  2.2  в проекте: strahlengruss / warmend   |   в источнике (schubertsong.uk): strahlenguss
+  2.2  в проекте: strahlengruss / erwarmend   |   в источнике (schubertsong.uk): strahlenguss
   6.2  в проекте: purpurnem   |   в источнике (schubertsong.uk): purpurnen / kussen
   6.4  в проекте: sanften   |   в источнике (schubertsong.uk): in
 
@@ -229,35 +300,57 @@
   3.1  в проекте: wirkt / und / strebt   |   в источнике (schubertsong.uk): —
   4.1  в проекте: o / fuhre   |   в источнике (schubertsong.uk): wer / bist
 
+### D 436 «Klage» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  2.6  в проекте: —   |   в источнике (schubertsong.uk): tranennass
+
+### D 398 «Frühlingslied» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
+  1.2  в проекте: maienglocken   |   в источнике (schubertlied.de): mayenglocken
+  1.6  в проекте: malt   |   в источнике (schubertlied.de): mahlt
+  2.1  в проекте: mai   |   в источнике (schubertlied.de): may
+  2.4  в проекте: solche   |   в источнике (schubertlied.de): diese
+
+### D 399 «Auf den Tod einer Nachtigall» — расхождений 1 (источники: schubertsong.uk)
+  2.7  в проекте: tanzten   |   в источнике (schubertsong.uk): tanzeten
+
+### D 430 «Die frühe Liebe» — расхождений 1 (источники: schubertsong.uk)
+  4.1  в проекте: blickte   |   в источнике (schubertsong.uk): —
+
 ### D 442 «Das große Halleluja» — расхождений 3 (источники: schubertsong.uk)
   2.1  в проекте: throne   |   в источнике (schubertsong.uk): —
   3.2  в проекте: letzten   |   в источнике (schubertsong.uk): lezten
   3.3  в проекте: niedergeworfne   |   в источнике (schubertsong.uk): niedergeworfene
 
-### D 444 «Die Gestirne» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
-  6.2  в проекте: —   |   в источнике (schubertsong.uk): gewurmegedrang
+### D 444 «Die Gestirne» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   9.3  в проекте: gebogenen   |   в источнике (schubertsong.uk): gebognen
-  12.2  в проекте: in   |   в источнике (schubertsong.uk): —
-  15.3  в проекте: —   |   в источнике (schubertsong.uk): es
 
 ### D 350 «Der Entfernten» — расхождений 2 (источники: schubertsong.uk)
   3.3  в проекте: des   |   в источнике (schubertsong.uk): das
   6.4  в проекте: und   |   в источнике (schubertsong.uk): —
 
-### D 369 «An Schwager Kronos» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
+### D 360 «Lied eines Schiffers an die Dioskuren» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  3.3  в проекте: —   |   в источнике (schubertsong.uk): hange
+
+### D 369 «An Schwager Kronos» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
   1.1  в проекте: spute   |   в источнике (schubertsong.uk): spude
   4.1  в проекте: rings   |   в источнике (schubertsong.uk): der / blick
   4.2  в проекте: den / blick   |   в источнике (schubertsong.uk): rasch
-  7.1  в проекте: trunken   |   в источнике (schubertsong.uk): trunknen
 
-### D 473 «Liedesend» — расхождений 2 (источники: schubertsong.uk)
+### D 516 «Sehnsucht» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  1.6  в проекте: nur / du   |   в источнике (schubertlied.de): —
+  2.7  в проекте: sterbender   |   в источнике (schubertlied.de): strebender
+
+### D 473 «Liedesend» — расхождений 1 (источники: schubertsong.uk)
   5.2  в проекте: seine   |   в источнике (schubertsong.uk): die
-  7.1  в проекте: wollest   |   в источнике (schubertsong.uk): —
 
 ### D 475 «Abschied» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
   1.14  в проекте: ach   |   в источнике (schubertlied.de): o
   1.23  в проекте: lebt   |   в источнике (schubertlied.de): lebet
   1.25  в проекте: ach   |   в источнике (schubertlied.de): o
+
+### D 476 «Rückweg» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: denn / mein   |   в источнике (schubertsong.uk): was / dein
+  1.5  в проекте: ach   |   в источнике (schubertsong.uk): denn
+  3.1  в проекте: —   |   в источнике (schubertsong.uk): treue
 
 ### D 484 «Gesang der Geister über den Wassern» — расхождений 8 (источники: schubertsong.uk)
   1.1  в проекте: dann   |   в источнике (schubertsong.uk): —
@@ -269,11 +362,36 @@
   3.2  в проекте: schleichet / er / das / wiesenthal / hin   |   в источнике (schubertsong.uk): —
   3.3  в проекте: alle / gestirne   |   в источнике (schubertsong.uk): —
 
-### D 490 «Der Hirt» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  1.4  в проекте: wohnst   |   в источнике (schubertsong.uk): wohnt
+### D 344 «Am ersten Maimorgen» — расхождений 1 (источники: schubertsong.uk)
+  3.4  в проекте: meinem   |   в источнике (schubertsong.uk): meinen
+
+### D 495 «Abendlied der Fürstin» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: stille   |   в источнике (schubertsong.uk): —
+
+### D 496 «Bei dem Grabe meines Vaters» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
+  3.1  в проекте: wie / ein / stern / aus / bessern / welten   |   в источнике (schubertsong.uk): —
+  3.6  в проекте: oben   |   в источнике (schubertsong.uk): segen / dieser / mann
+  5.2  в проекте: —   |   в источнике (schubertsong.uk): milder
+  8.2  в проекте: ach / sie / haben / ihn / begraben   |   в источнике (schubertsong.uk): —
+
+### D 496A «Klage um Ali Bey» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: abudahab   |   в источнике (schubertsong.uk): aboudahab
+
+### D 497 «An die Nachtigall» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  1.4  в проекте: frohlich   |   в источнике (schubertsong.uk): frolich
+  1.7  в проекте: schlafer   |   в источнике (schubertsong.uk): amor
+
+### D 500 «Phidile» — расхождений 4 (источники: schubertsong.uk)
+  1.2  в проекте: —   |   в источнике (schubertsong.uk): weiter
+  1.3  в проекте: wusst / ich   |   в источнике (schubertsong.uk): —
+  1.5  в проекте: noch   |   в источнике (schubertsong.uk): und / woher
+  5.1  в проекте: wie   |   в источнике (schubertsong.uk): war
 
 ### D 502 «Herbstlied» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   3.5  в проекте: —   |   в источнике (schubertsong.uk): goldnen
+
+### D 457 «An die untergehende Sonne» — расхождений 1 (источники: schubertsong.uk)
+  4.8  в проекте: wonne   |   в источнике (schubertsong.uk): frieden
 
 ### D 524 «Der Alpenjäger» — расхождений 1 (источники: schubertsong.uk)
   1.1  в проекте: hohem   |   в источнике (schubertsong.uk): hohen
@@ -282,6 +400,19 @@
   1.4  в проекте: —   |   в источнике (schubertsong.uk): sein
   3.4  в проекте: —   |   в источнике (schubertsong.uk): o / ferne
 
+### D 527 «Schlaflied» — расхождений 1 (источники: schubertsong.uk)
+  2.1  в проекте: ihren   |   в источнике (schubertsong.uk): irren
+
+### D 530 «An eine Quelle» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  1.6  в проекте: —   |   в источнике (schubertsong.uk): darin
+  1.7  в проекте: nochmal   |   в источнике (schubertsong.uk): mahl
+
+### D 531 «Der Tod und das Mädchen» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
+  2.2  в проекте: gieb   |   в источнике (schubertsong.uk): gib
+
+### D 532 «Das Lied vom Reifen» — расхождений 1 (источники: schubertsong.uk)
+  1.5  в проекте: mit / reifelein   |   в источнике (schubertsong.uk): —
+
 ### D 297 «Augenlied» — расхождений 5 (источники: schubertsong.uk)
   1.3  в проекте: gewonnen   |   в источнике (schubertsong.uk): geronnen
   2.2  в проекте: wie   |   в источнике (schubertsong.uk): wo
@@ -289,17 +420,23 @@
   3.6  в проекте: —   |   в источнике (schubertsong.uk): treue
   3.7  в проекте: charon   |   в источнике (schubertsong.uk): acheron
 
-### D 542 «Antigone und Oedip» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
+### D 539 «Am Strome» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
+  2.2  в проекте: manchmal   |   в источнике (schubertsong.uk): manchmahl
+  2.3  в проекте: andern   |   в источнике (schubertsong.uk): sturme
+  3.4  в проекте: —   |   в источнике (schubertsong.uk): finde
+  3.5  в проекте: —   |   в источнике (schubertsong.uk): finde
+
+### D 541 «Memnon» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: geborenen   |   в источнике (schubertsong.uk): nachtgebornen
+  2.1  в проекте: und / gotterohren   |   в источнике (schubertsong.uk): menschenohren
+
+### D 542 «Antigone und Oedip» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   2.6  в проекте: vernichte   |   в источнике (schubertsong.uk): —
-  6.2  в проекте: scepter   |   в источнике (schubertsong.uk): zepter
-  6.8  в проекте: goldnen / goldnen   |   в источнике (schubertsong.uk): golden
 
 ### D 549 «Mahomets Gesang» — расхождений 1 (источники: schubertsong.uk)
   2.2  в проекте: nieder   |   в источнике (schubertsong.uk): —
 
-### D 551 «Pax vobiscum» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
-  3.1  в проекте: rosenschein   |   в источнике (schubertsong.uk): rosengluhen
-  3.2  в проекте: gluhenden   |   в источнике (schubertsong.uk): des
+### D 551 «Pax vobiscum» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   3.3  в проекте: ersehnten   |   в источнике (schubertsong.uk): erwunschten
 
 ### D 559 «Schweizerlied» — расхождений 3 (источники: schubertsong.uk)
@@ -307,8 +444,9 @@
   3.3  в проекте: summer   |   в источнике (schubertsong.uk): vogle
   3.7  в проекте: —   |   в источнике (schubertsong.uk): zue
 
-### D 560 «Der Goldschmiedsgesell» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  3.1  в проекте: den / laden   |   в источнике (schubertsong.uk): die / schaltern
+### D 561 «Nach einem Gewitter» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  1.3  в проекте: kehret / holde / rothe / wieder   |   в источнике (schubertsong.uk): so
+  2.3  в проекте: in / bluthen / wohlgeruche   |   в источнике (schubertsong.uk): —
 
 ### D 536 «Der Schiffer» — расхождений 1 (источники: schubertsong.uk)
   4.3  в проекте: himmlische   |   в источнике (schubertsong.uk): himmliche
@@ -317,28 +455,24 @@
   2.2  в проекте: —   |   в источнике (schubertsong.uk): sperret
   2.5  в проекте: cocytus   |   в источнике (schubertsong.uk): kozytus
 
-### D 585 «Atys» — расхождений 6 (источники: schubertsong.uk)
-  1.2  в проекте: —   |   в источнике (schubertsong.uk): fernenden
+### D 585 «Atys» — расхождений 3 (источники: schubertsong.uk)
   1.5  в проекте: —   |   в источнике (schubertsong.uk): woran
   3.4  в проекте: flehn   |   в источнике (schubertsong.uk): flehen
-  4.6  в проекте: hilfreich   |   в источнике (schubertsong.uk): hulfreich
   5.1  в проекте: —   |   в источнике (schubertsong.uk): im / scheidenden / strahl
-  6.2  в проекте: den   |   в источнике (schubertsong.uk): verkundet / die / gottin
 
 ### D 587 «An den Frühling» — расхождений 1 (источники: schubertsong.uk)
   2.1  в проекте: da   |   в источнике (schubertsong.uk): du
 
-### D 594 «Der Kampf» — расхождений 1 (источники: schubertsong.uk)
-  4.7  в проекте: —   |   в источнике (schubertsong.uk): misstraue
-
-### D 611 «Auf der Riesenkoppe» — расхождений 3 (источники: schubertsong.uk)
-  2.4  в проекте: und   |   в источнике (schubertsong.uk): —
-  3.3  в проекте: konigreiche   |   в источнике (schubertsong.uk): konige
+### D 611 «Auf der Riesenkoppe» — расхождений 1 (источники: schubertsong.uk)
   4.2  в проекте: grenze   |   в источнике (schubertsong.uk): granze
 
 ### D 649 «Der Wanderer» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
   2.3  в проекте: dunkeln   |   в источнике (schubertlied.de): —
   2.7  в проекте: widerscheine   |   в источнике (schubertlied.de): wiederscheine
+
+### D 654 «An die Freunde» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  3.1  в проекте: —   |   в источнике (schubertsong.uk): spannt
+  3.5  в проекте: —   |   в источнике (schubertsong.uk): doch / nein / spannt
 
 ### D 638 «Der Jüngling am Bache» — расхождений 2 (источники: schubertsong.uk)
   2.1  в проекте: trauere   |   в источнике (schubertsong.uk): traure
@@ -347,9 +481,8 @@
 ### D 637 «Hoffnung» — расхождений 1 (источники: schubertsong.uk)
   3.4  в проекте: bessern   |   в источнике (schubertsong.uk): besserm
 
-### D 669 «Beim Winde» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
-  2.6  в проекте: zum / traulichen / bette   |   в источнике (schubertsong.uk): —
-  2.11  в проекте: traulichen   |   в источнике (schubertsong.uk): tauigen
+### D 669 «Beim Winde» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
+  2.6  в проекте: zur / ruhigen / statte   |   в источнике (schubertsong.uk): —
   2.19  в проекте: stohnen   |   в источнике (schubertsong.uk): storen
 
 ### D 670 «Die Sternennächte» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
@@ -367,9 +500,6 @@
 ### D 677 «Strophe aus "Die Götter Griechenlands"» — расхождений 1 (источники: schubertsong.uk)
   3.4  в проекте: —   |   в источнике (schubertsong.uk): kehre / wieder
 
-### D 694 «Der Schiffer» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  1.6  в проекте: —   |   в источнике (schubertlied.de): schaue
-
 ### D 699 «Der entsühnte Orest» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
   3.4  в проекте: leichter   |   в источнике (schubertsong.uk): —
   3.6  в проекте: leichter   |   в источнике (schubertsong.uk): —
@@ -384,9 +514,6 @@
   4.1  в проекте: erfreun   |   в источнике (schubertsong.uk): erfreuen
   5.1  в проекте: erfreun   |   в источнике (schubertsong.uk): erfreuen
 
-### D 715 «Versunken» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  1.10  в проекте: lieblich   |   в источнике (schubertsong.uk): liebeviel
-
 ### D 716 «Grenzen der Menschheit» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   5.2  в проекте: begrenzt   |   в источнике (schubertsong.uk): begranzt
 
@@ -397,15 +524,6 @@
 ### D 749 «Herrn Josef Spaun, Assessor in Linz» — расхождений 2 (источники: schubertsong.uk)
   3.18  в проекте: ja   |   в источнике (schubertsong.uk): —
   3.19  в проекте: der   |   в источнике (schubertsong.uk): —
-
-### D 754 «Heliopolis II» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  1.4  в проекте: unbegriffne   |   в источнике (schubertsong.uk): unbegriffene
-
-### D 758 «Todesmusik» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  1.9  в проекте: dem   |   в источнике (schubertsong.uk): den
-
-### D 761 «Schatzgräbers Begehr» — расхождений 1 (источники: schubertsong.uk)
-  1.3  в проекте: strebend   |   в источнике (schubertsong.uk): grabend
 
 ### D 767 «Willkommen und Abschied» — расхождений 4 (источники: schubertsong.uk)
   3.1  в проекте: sah   |   в источнике (schubertsong.uk): seh
@@ -418,21 +536,16 @@
   8.6  в проекте: er / fand   |   в источнике (schubertsong.uk): glucklich
   8.7  в проекте: er / fand   |   в источнике (schubertsong.uk): glucklich
 
-### D 789 «Pilgerweise» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
-  3.3  в проекте: —   |   в источнике (schubertsong.uk): ich / streue
-  3.4  в проекте: veilchen   |   в источнике (schubertsong.uk): —
-  6.1  в проекте: uberflusse   |   в источнике (schubertsong.uk): —
-
 ### D 793 «Das Geheimnis» — расхождений 3 (источники: schubertsong.uk)
   1.9  в проекте: verbirg   |   в источнике (schubertsong.uk): —
   3.2  в проекте: liebe   |   в источнике (schubertsong.uk): uns
   4.1  в проекте: zehen   |   в источнике (schubertsong.uk): —
 
-### D 794 «Der Pilgrim» — расхождений 4 (источники: schubertsong.uk)
+### D 794 «Der Pilgrim» — расхождений 1 (источники: schubertsong.uk)
   4.4  в проекте: himmlisch   |   в источнике (schubertsong.uk): ewig
-  8.1  в проекте: grossem   |   в источнике (schubertsong.uk): einem / grossen
-  8.2  в проекте: wechselspiel   |   в источнике (schubertsong.uk): —
-  9.3  в проекте: nie   |   в источнике (schubertsong.uk): nicht
+
+### D 827 «Nacht und Träume» — расхождений 1 (источники: schubertsong.uk)
+  1.7  в проекте: holde   |   в источнике (schubertsong.uk): heilge
 
 ### D 807 «Auflösung» — расхождений 6 (источники: schubertsong.uk, schubertlied.de)
   3.1  в проекте: —   |   в источнике (schubertsong.uk): und / store
@@ -441,6 +554,9 @@
   4.1  в проекте: —   |   в источнике (schubertsong.uk): und / store
   4.2  в проекте: —   |   в источнике (schubertsong.uk): und / store
   4.4  в проекте: —   |   в источнике (schubertsong.uk): nimmer
+
+### D 808 «Gondelfahrer» — расхождений 1 (источники: schubertsong.uk)
+  1.2  в проекте: —   |   в источнике (schubertsong.uk): geisterreihn
 
 ### D 853 «Auf der Bruck» — расхождений 1 (источники: schubertsong.uk)
   3.1  в проекте: feld   |   в источнике (schubertsong.uk): tal
@@ -460,25 +576,15 @@
 ### D 874 «O Quell, was strömst du rasch und wild» — расхождений 1 (источники: schubertsong.uk)
   1.8  в проекте: von   |   в источнике (schubertsong.uk): im
 
-### D 876 «Im Jänner 1817» — расхождений 2 (источники: schubertsong.uk)
-  1.2  в проекте: und   |   в источнике (schubertsong.uk): ich
-  2.4  в проекте: jeder   |   в источнике (schubertsong.uk): jedes
-
 ### D 878 «Am Fenster» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   3.5  в проекте: wahnt   |   в источнике (schubertsong.uk): —
-
-### D 879 «Sehnsucht» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
-  1.1  в проекте: scheit   |   в источнике (schubertlied.de): scheibe
-  2.2  в проекте: —   |   в источнике (schubertlied.de): treue
 
 ### D 881 «Fischerweise» — расхождений 2 (источники: schubertsong.uk)
   4.1  в проекте: —   |   в источнике (schubertsong.uk): und
   4.3  в проекте: giebt   |   в источнике (schubertsong.uk): gibt
 
-### D 884 «Über Wildemann» — расхождений 3 (источники: schubertsong.uk, schubertlied.de)
+### D 884 «Über Wildemann» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   1.6  в проекте: wohl / manche / meile   |   в источнике (schubertsong.uk): —
-  5.4  в проекте: mich / deiner / freun   |   в источнике (schubertsong.uk): —
-  5.6  в проекте: mich / deiner / freun   |   в источнике (schubertsong.uk): —
 
 ### D 801 «Dithyrambe» — расхождений 3 (источники: schubertsong.uk)
   2.9  в проекте: reicht / mir / die / schale   |   в источнике (schubertsong.uk): —
@@ -488,15 +594,10 @@
 ### D 869 «Totengräber-Weise» — расхождений 1 (источники: schubertsong.uk)
   3.7  в проекте: schimmert   |   в источнике (schubertsong.uk): brennet
 
-### D 871 «Das Zügenglöcklein» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
-  2.1  в проекте: ob   |   в источнике (schubertsong.uk): aber / wer
-  4.8  в проекте: ruft   |   в источнике (schubertsong.uk): —
-
 ### D 931 «Der Wallensteiner Lanzknecht beim Trunk» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   5.5  в проекте: mein   |   в источнике (schubertsong.uk): nu / trost / ihn / gott
 
-### D 932 «Der Kreuzzug» — расхождений 2 (источники: schubertsong.uk, schubertlied.de)
-  2.2  в проекте: im / schonen   |   в источнике (schubertsong.uk): in / schonem
+### D 932 «Der Kreuzzug» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
   5.3  в проекте: kreuzeszug   |   в источнике (schubertsong.uk): —
 
 ### D 933 «Des Fischers Liebesglück» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
@@ -509,8 +610,7 @@
   1.3  в проекте: hilflos   |   в источнике (schubertsong.uk): hulflos
   4.3  в проекте: ein / kuhliges / zelt   |   в источнике (schubertsong.uk): gar / dammerig / grun
 
-### D 938 «Der Winterabend» — расхождений 5 (источники: schubertsong.uk, schubertlied.de)
-  2.2  в проекте: dunkeln   |   в источнике (schubertsong.uk): —
+### D 938 «Der Winterabend» — расхождений 4 (источники: schubertsong.uk, schubertlied.de)
   2.4  в проекте: nur / der / mondenschein   |   в источнике (schubertsong.uk): herein
   2.9  в проекте: —   |   в источнике (schubertsong.uk): aus
   3.2  в проекте: —   |   в источнике (schubertsong.uk): schaue
@@ -529,9 +629,6 @@
   1.3  в проекте: recht / wie / ein / heilungsbronnen   |   в источнике (schubertsong.uk): —
   2.1  в проекте: und / fasset / weh / und / pein   |   в источнике (schubertsong.uk): —
 
-### D 945 «Herbst» — расхождений 1 (источники: schubertsong.uk, schubertlied.de)
-  3.3  в проекте: die   |   в источнике (schubertsong.uk): den / geliebten
-
 ### D 866/3 «Die Männer sind mechant!» — расхождений 3 (источники: schubertsong.uk)
   1.1  в проекте: —   |   в источнике (schubertsong.uk): o
   1.9  в проекте: —   |   в источнике (schubertsong.uk): o
@@ -542,4 +639,4 @@
   4.10  в проекте: bruder   |   в источнике (schubertsong.uk): denn / gewiss
   4.11  в проекте: bruder   |   в источнике (schubertsong.uk): denn / gewiss
 
-ИТОГО: проверено песен 204, с расхождениями 119, строк-расхождений 288; без предзагруженного источника 116 (D 44, 118, 193, 194, 196, 197, 198, 201, 207, 208, 213, 214, 219, 227, 228, 229, 230, 231, 221, 233, 235, 237, 238, 240, 241, 257, 298, 313, 314, 315, 316, 317, 318, 142, 362, 436, 398, 399, 400, 401, 429, 430, 431, 433, 434, 360, 361, 516, 468, 476, 477, 478/1, 478/2, 491, 504, 344, 495, 496, 496A, 497, 499, 500, 501, 503, 457, 527, 530, 531, 532, 533, 539, 540, 541, 547, 548, 561, 654, 671, 693, 700, 726, 727, 752, 772, 788, 827, 806, 808, 877/2, 877/3, 883, 877/4, 911/1, 911/2, 911/3, 911/4, 911/5, 911/6, 911/7, 911/8, 911/9, 911/10, 911/11, 911/12, 911/13, 911/14, 911/15, 911/16, 911/17, 911/18, 911/19, 911/20, 911/21, 911/22, 911/23, 911/24)
+ИТОГО: проверено песен 285, с расхождениями 147, строк-расхождений 328; без предзагруженного источника 35 (D 142, 478/1, 478/2, 693, 726, 727, 788, 877/2, 877/3, 883, 877/4, 911/1, 911/2, 911/3, 911/4, 911/5, 911/6, 911/7, 911/8, 911/9, 911/10, 911/11, 911/12, 911/13, 911/14, 911/15, 911/16, 911/17, 911/18, 911/19, 911/20, 911/21, 911/22, 911/23, 911/24)

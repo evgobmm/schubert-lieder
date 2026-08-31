@@ -46,6 +46,10 @@
 
 **Ф15.** Текстовый источник LiederNet (lieder.net) для этой песни указан на странице schubertlied.de как ссылка на альтернативные тексты/композиции, но сама страница LiederNet в бандле не предзагружена (сеть недоступна и по манифесту, и при повторной попытке в этом сеансе). — schubertlied.de, раздел «Quellen» — «6.1 Textquelle und alternative Kompositionen: www.lieder.net» — verified (существование ссылки); содержимое страницы LiederNet — не найдено.
 
+**Ф48.** Правка немецкого текста корпуса (2026-08-31, по вердикту de-text-verdicts.md): строка 2.1 — было «Für Menschen- und für Götterohren sind es Harmonien,», стало «Für Menschenohren sind es Harmonien,» — schubertsong.uk (текст песни и разбор комментатора) — «Für Menschenohren sind es Harmonien»; schubertlied.de, все три повтора строфы — «Für Menschenohren sind es Harmonien.»; независимо буклет Hyperion CDJ33014 — «Für Menschenohren sind es Harmonien.» — **verified**. Расширенного чтения «und für Götterohren» не даёт ни один источник; ранее оно числилось в файле как gap (Ф14). Вместе с правкой снята аннотация о «висячем дефисе» Menschen-, объяснявшая ошибочное чтение.
+
+**Ф49.** Удвоение Sphären в строке 4-й строфы («Aus Sphären edler Freiheit, aus Sphären reiner Liebe») — чтение не только проектного текста: так же читает немецкий текст буклета Hyperion CDJ33014 — «Aus Sphären edler Freiheit, aus Sphären reiner Liebe» — тогда как schubertsong.uk и schubertlied.de дают строку один раз с одним Sphären — «Aus Sphären edler Freiheit, reiner Liebe,» — **verified** (два чтения зафиксированы оба). Формулировка в разделе «Стихотворение» исправлена: прежнее «источника расширенных строк найти не удалось» для этой строки неверно.
+
 ## 4. Музыка
 
 **Ф16.** Оригинальная тональность — Des-Dur (ре-бемоль мажор); тональность конкретной размещённой на сайте записи (Шёне/Чепеда) — C-Dur (транспонирование, не авторская тональность). — schubertlied.de — «Originaltonart: Des-Dur»; «Aufnahmetonart: C-Dur» — verified.
