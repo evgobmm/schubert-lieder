@@ -36,6 +36,8 @@
 
 **Ф12.** Расхождение проектного немецкого текста с текстом у Козегартена/Hyperion (см. вводный абзац) — установлено сопоставлением бандла; НЕ является фактом из источника, а наблюдением редактора файла фактов — не публиковать как цитируемый факт, только как техническую оговорку при подготовке страницы.
 
+
+**Ф26.** Восстановлено пропущенное слово «grauen» в строке 2.4: «Des Abends lauer Hauch.» → «Des grauen Abends lauer Hauch.» — schubertsong.uk (оба раздела текста) — «Des grauen Abends lauer Hauch.»; LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=9565) — «Des grauen Abends lauer Hauch.» — **verified**. В подстрочник добавлен сегмент «серого» — «grauen»; диапазон аннотации сдвинут. Общая перестройка строф 1–2 в проектном тексте этой правкой не затрагивается и остаётся неразъяснённой (см. вводную оговорку раздела).
 ## 4. Музыка
 
 **Ф13.** Что-то в этом тексте, с его просодическими и эмоциональными трудностями, «не давало композитору покоя всю ночь, и он вернулся к нему на следующий день с новой энергией» — судя по всему, Шуберт решил, что первая попытка вышла «чуть слишком суровой» — буклет Hyperion CDJ33006, Г. Джонсон (https://www.hyperion-records.co.uk/notes/33006-B.pdf) — «Something about this text and its prosodie and emotional challenges haunted the composer overnight, and he returned to it with renewed vigour the next day. It seems that he had decided that his first attempt had been a trifle too austere» — verified.

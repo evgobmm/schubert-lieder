@@ -30,6 +30,8 @@
 
 **Ф8.** Английский перевод на schubertsong.uk выполнен Малкольмом Реном (Malcolm Wren) — schubertsong.uk — «All translations into English that appear on this website... are by Malcolm Wren» — verified.
 
+**Ф16.** Правка текста по вердикту аудита (2026-09-01): в строфе 6, строка 3 «der Gabe beste» исправлено на «der Gaben beste» (одновременно в `lines_de`, в немецком поле сегмента подстрочника и в цитате внутри аннотации 6.4; русский сегмент уточнён на «лучшее из даров»). Расхождение, отмеченное в Ф7 как uncertain, закрыто вторым источником. — schubertsong.uk (Растль, оба блока — современный текст и «Original Spelling») — «Dem reichte sie der Gaben beste»; de.wikisource.org, «Das Mädchen aus der Fremde» по «Musen-Almanach für das Jahr 1797», с. 17–18 (транскрипция по скану, статус «fertig») — «Dem reichte sie der Gaben beste,» — verified (форма единственного числа не подтверждается ни одним источником и не документирована как правка Шуберта).
+
 ## 4. Музыка
 
 Не найдено: тональность, темповое указание, форма, ключевые события по строкам для D 117 — в бандле нет доступных данных ни от schubertlied.de, ни от буклета Hyperion (обе позиции в манифесте предзагрузки помечены недоступными для этой песни).

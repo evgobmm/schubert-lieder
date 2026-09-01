@@ -1335,8 +1335,8 @@
     "Einsam wenn es tagt,",
     "Einsam wenn es nachtet,",
     "Ungetröstet ach verächzt,",
-    "Ihr nach dem holden Dasein lechzt,",
-    "Ihr nach dem holden Dasein lechzt,",
+    "Ihr das holde Dasein, lechzt,",
+    "Ihr das holde Dasein, lechzt,",
     "Schmachtet und verschmachtet,",
     "Schmachtet und verschmachtet."
    ],
@@ -1422,7 +1422,7 @@
       },
       {
        "de": "verächzt",
-       "ru": "стенаете,"
+       "ru": "изводите стоном"
       }
      ],
      "annotations": [
@@ -1443,32 +1443,32 @@
        "ru": "вы"
       },
       {
-       "de": "lechzt",
-       "ru": "жаждете"
-      },
-      {
-       "de": "nach dem holden",
-       "ru": "милого"
+       "de": "das holde",
+       "ru": "милое"
       },
       {
        "de": "Dasein",
-       "ru": "бытия,"
+       "ru": "бытие,"
+      },
+      {
+       "de": "lechzt",
+       "ru": "жаждете,"
       }
      ],
      "annotations": [
       {
        "type": "lang",
        "segment_range": [
-        1,
-        1
+        3,
+        3
        ],
-       "text": "Lechzen сначала было баварским словом о пересыхающей, растрескавшейся от сухости земле, потом стало значить «жадно жаждать». По-немецки оно требует предлога nach, по-русски — родительного падежа без предлога."
+       "text": "Lechzen сначала было баварским словом о пересыхающей, растрескавшейся от сухости земле, потом стало значить «жадно жаждать». Здесь глагол стоит без дополнения: прямое дополнение das holde Dasein относится к verächzt предыдущей строки."
       },
       {
        "type": "meaning",
        "segment_range": [
-        2,
-        3
+        1,
+        2
        ],
        "text": "Das holde Dasein — та самая прекрасная действительность, что идёт вокруг. Малколм Рен видит здесь горькую петлю: чем упорнее герой разбирает свою меланхолию, тем дальше отходит от жизни, по которой тоскует."
       }
@@ -1481,16 +1481,16 @@
        "ru": "вы"
       },
       {
-       "de": "lechzt",
-       "ru": "жаждете"
-      },
-      {
-       "de": "nach dem holden",
-       "ru": "милого"
+       "de": "das holde",
+       "ru": "милое"
       },
       {
        "de": "Dasein",
-       "ru": "бытия,"
+       "ru": "бытие,"
+      },
+      {
+       "de": "lechzt",
+       "ru": "жаждете,"
       }
      ],
      "annotations": []

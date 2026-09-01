@@ -14,7 +14,7 @@
  "stanzas": [
   {
    "lines_de": [
-    "Spute dich, Kronos!",
+    "Spude dich, Kronos!",
     "Fort den rasselnden Trott!",
     "Bergab gleitet der Weg,",
     "Bergab gleitet der Weg;",
@@ -29,7 +29,7 @@
     {
      "segments": [
       {
-       "de": "Spute dich",
+       "de": "Spude dich",
        "ru": "Поторопись,"
       },
       {
@@ -44,7 +44,7 @@
         0,
         0
        ],
-       "text": "Spute dich — возвратное sputen («спешить, поторапливаться»), в словаре DWDS прямо sich beeilen («торопиться»). В самой ранней редакции стихотворения стояло старое написание Spude dich."
+       "text": "Spude dich — возвратное sputen («спешить, поторапливаться»), в словаре DWDS прямо sich beeilen («торопиться»). Spude — старое написание, стоявшее в ранней редакции стихотворения; в более поздних изданиях его печатают как Spute dich."
       }
      ]
     },
@@ -430,8 +430,8 @@
   },
   {
    "lines_de": [
-    "Weit, hoch, herrlich rings",
-    "Den Blick in's Leben hinein,",
+    "Weit, hoch, herrlich der Blick,",
+    "Rings in's Leben hinein,",
     "Vom Gebirg zum Gebirg",
     "Schwebet der ewige Geist,",
     "Ewigen Lebens ahndevoll."
@@ -452,8 +452,8 @@
        "ru": "великолепно"
       },
       {
-       "de": "rings",
-       "ru": "кругом"
+       "de": "der Blick",
+       "ru": "взгляд,"
       }
      ],
      "annotations": [
@@ -461,17 +461,17 @@
        "type": "lang",
        "segment_range": [
         0,
-        3
+        2
        ],
-       "text": "Три наречия подряд, без единого глагола: так по-немецки схватывают панораму. Weit — «просторный, далёкий», а не «широкий по мерке»; hoch здесь пространственное «высоко» (у слова есть и переносное «превосходящий прочих», но речь о взгляде с высоты); rings — «кругом, повсюду вокруг», Гриммы возводят его к Ring («кольцо»)."
+       "text": "Три наречия подряд, без единого глагола: так по-немецки схватывают панораму. Weit — «просторный, далёкий», а не «широкий по мерке»; hoch здесь пространственное «высоко» (у слова есть и переносное «превосходящий прочих», но речь о взгляде с высоты)."
       }
      ]
     },
     {
      "segments": [
       {
-       "de": "Den Blick",
-       "ru": "взгляд"
+       "de": "Rings",
+       "ru": "кругом"
       },
       {
        "de": "in's... hinein",
@@ -483,6 +483,14 @@
       }
      ],
      "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "rings — «кругом, повсюду вокруг», Гриммы возводят его к Ring («кольцо»)."
+      },
       {
        "type": "meaning",
        "segment_range": [

@@ -40,6 +40,8 @@
 
 **Ф14.** «Ида» — сквозное имя героини не только этой песни, но и Von Ida, Idens Nachtgesang; само имя — литературная маска поэта — досье, Ф31, Ф32.
 
+
+**Ф36.** Исправлена строка 1.4 (в проекте две коротких строки оригинала слиты в одну): «Stehn Busch und Wald und Flur so trostlos und so schaurig.» → «Es stehen Busch und Wald und Flur so trostlos und so schaurig.» — в проектной строке было пропущено начальное «Es». Источники: schubertsong.uk (оба раздела текста) — «Es stehen Busch und Wald und Flur / So trostlos und so schaurig,»; Deutsches Textarchiv, Kosegarten, «Poesieen», Bd. 1, Leipzig 1798, S. 377 (корпусный поиск kaskade.dwds.de/dstar/dta) — «Es stehen Busch und Wald und Flur So trostlos und so schaurig» — **verified**. Русский подстрочник не менялся: безличное «Es» вошло в сегмент с глаголом («Стоят» — «Es stehen»).
 ## 4. Музыка
 
 **Ф15.** Общий характер: песня выдержана в манере предыдущих «песен об Иде», с «скромной грацией и классической сдержанностью», достигаемой самой скупой фактурой фортепиано — буклет Hyperion CDJ33007, с. 26 — «This setting is very much in the mould of the earlier Ida songs — an air of demure grâce and classical control is achieved by the sparest of piano writing» (OCR: «grâce» = «grace») — verified.

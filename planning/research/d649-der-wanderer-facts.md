@@ -38,6 +38,8 @@
 
 **Ф13.** НЕ ПОДТВЕРЖДЕНО: построчное сравнение текста Шуберта с оригиналом Шлегеля (Musenalmanach 1802 / Gedichte 1809, 1816) не выполнено — предзагруженная страница schubertsong.uk, ожидавшаяся как источник текстологического комментария Малколма Рена для D 649, оказалась страницей о другой песне («Der Wanderer an den Mond», D 870, слова Зайдля); сам текст поэмы 1802 года в бандле не приведён — uncertain.
 
+**Ф22.** Строка 2.7 исправлена: «Seh' ich mild im Widerscheine,» → «Seh' ich mild im Wiederscheine,» — schubertsong.uk, страница песни «Der Wanderer (Wie deutlich des Mondes Licht), D 649» (https://www.schubertsong.uk/text/der-wanderer-wie-deutlich-des-mondes-licht/), текст и Original Spelling — «Seh ich mild im Wiederscheine»; schubertlied.de, «Liedtext» (трижды) — «Seh' ich mild im Wiederscheine,» — **verified**. Предзагруженный файл schubertsong.uk.txt в бандле этой песни относился к другой песне («Der Wanderer an den Mond», D 870), поэтому источник перезапрошен по верному адресу.
+
 ## 4. Музыка
 
 **Ф14.** Оригинальная тональность — D-dur — schubertlied.de — «Originaltonart: D-Dur» — secondary.

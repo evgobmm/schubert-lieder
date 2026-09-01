@@ -37,6 +37,10 @@
 
 **Ф37.** Исправление немецкого текста проекта, строфа 5, строка 3: было «Mit Sonnenreigentönen» → стало «Mit Sennenreigentönen» (Senn — альпийский пастух, а не Sonne «солнце») — schubertsong.uk — «Mit Sennenreigen-Tönen»; буклет Hyperion CDJ33017 — «Mit Sennenreigentönen» — **verified**.
 
+**Ф38.** Исправление немецкого текста проекта, строфа 1, строка 3: было «dass Harm in Lust verschliesst.» → стало «dass Harm in Lust verfleusst.» (глагол соседней строки 1.2 механически повторился в 1.3) — schubertsong.uk — «Dass Harm in Lust verfleußt;» (та же форма в разделе Original Spelling: «Daß Harm in Lust verfleußt;»); schubertlied.de (страница die-herbstnacht-/-die-wehmut-d404) — «Daß Harm in Lust verfleußt;» — **verified**.
+
+**Ф39.** Исправление немецкого текста проекта, строфа 2, строка 7: было «Die müde Schläfe lehnt.» → стало «Die müden Schläfe lehnt.» (прилагательное с окончанием -en при существительном в единственном числе — форма обоих независимых источников) — schubertsong.uk, раздел Original Spelling — «Die müden Schläfe lehnt;»; schubertlied.de — «Die müden Schläfe lehnt;». Расхождение внутри schubertsong.uk фиксируется отдельно: в нормализованном («поющемся») блоке той же страницы стоит согласованное множественное «Die müden Schläfen lehnt;» — **verified**.
+
 ## 4. Музыка
 
 **Ф11.** Тональность — фа мажор: аннотация сравнивает песню с «Der Herbstabend» — «in the same key of F major». — буклет Hyperion — «Der Herbstabend (in the same key of F major, and also with triplet accompaniment)» — secondary.

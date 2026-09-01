@@ -15,8 +15,9 @@
   {
    "lines_de": [
     "Ich war erst sechszehn Sommer alt,",
-    "Unschuldig, unschuldig, und nichts",
-    "Wußt' ich als Blumen, Gras und Kräuter;",
+    "Unschuldig und nichts weiter,",
+    "Und kannte nichts als unsern Wald,",
+    "Als Blumen, Gras und Kräuter.",
     "Da kam ein fremder Jüngling her,",
     "Ich wußte nicht wohin noch her,",
     "Der kam und sprach von Lieben."
@@ -59,12 +60,8 @@
     {
      "segments": [
       {
-       "ru": "Невинна,",
-       "de": "Unschuldig,"
-      },
-      {
-       "ru": "невинна,",
-       "de": "unschuldig,"
+       "ru": "Невинна",
+       "de": "Unschuldig"
       },
       {
        "ru": "и",
@@ -73,6 +70,10 @@
       {
        "ru": "ничего",
        "de": "nichts"
+      },
+      {
+       "ru": "больше,",
+       "de": "weiter,"
       }
      ],
      "annotations": [
@@ -80,7 +81,7 @@
        "type": "meaning",
        "segment_range": [
         0,
-        1
+        0
        ],
        "text": "Над нотами Шуберт поставил помету Unschuldig («невинно»). Грэм Джонсон замечает, что уже в первой строке песни на этом слове стоит резкая высокая нота — музыкальный эквивалент лукавого взгляда, после которого в подлинную невинность героини верится плохо."
       }
@@ -89,20 +90,41 @@
     {
      "segments": [
       {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
        "ru": "не",
        "de": ""
       },
       {
        "ru": "знала",
-       "de": "Wußt'"
+       "de": "kannte"
       },
       {
-       "ru": "я,",
-       "de": "ich"
+       "ru": "ничего,",
+       "de": "nichts"
       },
       {
        "ru": "кроме",
        "de": "als"
+      },
+      {
+       "ru": "нашего",
+       "de": "unsern"
+      },
+      {
+       "ru": "леса,",
+       "de": "Wald,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Кроме",
+       "de": "Als"
       },
       {
        "ru": "цветов,",
@@ -117,16 +139,16 @@
        "de": "und"
       },
       {
-       "ru": "трав;",
-       "de": "Kräuter;"
+       "ru": "трав.",
+       "de": "Kräuter."
       }
      ],
      "annotations": [
       {
        "type": "lang",
        "segment_range": [
-        5,
-        7
+        2,
+        4
        ],
        "text": "Gras словарь Гриммов определяет как собирательное имя низких узколистных растений — травяной покров разом; стоящие рядом Kräuter — отдельные травы, каждая сама по себе. Оттого в русском ряду и идут подряд «травы и трав»."
       }

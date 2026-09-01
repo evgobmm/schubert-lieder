@@ -40,7 +40,15 @@
 - дополнительные расхождения слов (не орфографии, а лексики), не входящие в перечень трёх сносок schubertsong.uk: строфа 2, строка 7 — у проекта «Die Wimpern nässte flimmernd» («увлажнила, мерцая»), у schubertsong.uk (и оригинальная орфография, и современный текст) — «faßte»/«fasste» («охватила, объяла», другой глагол); строфа 3, строка 1 — у проекта «Ein trauernd Lächeln schwebte» («скорбящая улыбка»), у schubertsong.uk — «traurig» («печальная», другое слово); строфа 3, строка 6 — у проекта «So wähnt' ich, suchte mich» («так мнилось мне»), у schubertsong.uk — «Sie, wähnt' ich, suchte mich» («она, мнилось мне, искала меня» — иное подлежащее, меняет смысл строки); строфа 5, строка 7 — у проекта «Hoch droben, nicht hier nieden», у schubertsong.uk — «Hoch oben, nicht hienieden» (словоформы).
 — источник сопоставления: schubertsong.uk, разделы «Die Erscheinung» (перевод/основной немецкий текст) и «Original Spelling and notes on the text» — verified как констатация расхождения (не как утверждение об ошибке в тексте проекта — источник текста проекта не входил в бандл и не проверялся).
 
+*Обновление 2026-09-01:* три из перечисленных здесь расхождений (строки 2.7, 3.1, 3.6) с тех пор разрешены в пользу чтения Шуберта и исправлены в тексте проекта — см. Ф30–Ф32; оговорка «текст в проекте не менять» относится только к строкам 4.7 и 5.6 (Erhaben, Eint) и к словоформам строки 5.7.
+
 **Ф12.** Орфография эпохи (по разделу «Original Spelling» schubertsong.uk, восходящему к изданиям 1803/1813 гг.): «Hayn» (вместо «Hain»), «Schleyer» (вместо «Schleier»), «nußbraunes», «Umfloß», «faßte», «Wehmuth», «heissen», «thränenwund», «schön'res» — schubertsong.uk — verified.
+
+**Ф30.** Строка 2.7 исправлена: «Die Wimpern nässte flimmernd» → «Die Wimpern fasste flimmernd» — schubertsong.uk (критический текст Растля) — «Die Wimper fasste flimmernd»; lieder.net, TextId=9581, сноска 4 — «Schubert (Neue Gesamtausgabe - NGA): "Wimper faßte"; Kosegarten (1813 edition): "Wimper näßte"» — **verified**. Расхождение «Шуберт против поэта»: у Козегартена (издание 1813) — «näßte», это же чтение даёт буклет Hyperion CDJ33022 («Die Wimper näßte flimmernd»); у Шуберта по NGA — «faßte». Проект передаёт песню, поэтому принято шубертовское чтение; русский сегмент («охватывала») поправлен.
+
+**Ф31.** Строка 3.1 исправлена: «Ein trauernd Lächeln schwebte» → «Ein traurig Lächeln schwebte» — schubertsong.uk — «Ein traurig Lächeln schwebte»; lieder.net, TextId=9581, сноска 5 — «Schubert (NGA): "traurig"» — **verified**. Расхождение «Шуберт против поэта»: в поэтическом тексте (издания 1803 и 1813) — «traurend», у Шуберта — «traurig»; русский сегмент изменён на «Грустная».
+
+**Ф32.** Строка 3.6 исправлена: «So wähnt' ich, suchte mich —» → «Sie, wähnt' ich, suchte mich —» — schubertsong.uk — «Sie, wähnt´ ich, suchte mich»; lieder.net, TextId=9581, сноска 7 — «Schubert (NGA): "Sie,"» — **verified**. Расхождение «Шуберт против поэта»: у Козегартена — «So», у Шуберта — «Sie,»; меняется подлежащее, поэтому поправлены русские сегменты («Она,», «искала») и языковая аннотация к строке.
 
 ## 4. Музыка
 
