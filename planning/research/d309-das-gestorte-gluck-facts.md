@@ -44,6 +44,8 @@
 
 **Ф17.** В проекте текст дан в шести строфах — как в оригинале Кёрнера и как приведено на schubertsong.uk и schubertlied.de; Хайперион при этом на дисках исполняет только четыре из шести строф, опуская сюжет с ревнивым отцом и сломанной лестницой — Hyperion — «There are six verses of which we perform four. (Further adventures with an angry father and a broken ladder simply Compound the lad's misery and the listener's impatience.)» — verified.
 
+**Ф32.** Правка текста корпуса по аудиту (вердикт defect, 6.3): «Mein Lebtag werd ich nimmer froh» → «Mein Lebtag werd ich immer froh». — schubertsong.uk (обе версии текста, критический текст Растля) — «Mein Lebtag werd ich immer froh,»; schubertlied.de (все три повторения) — «Mein Lebtag werd' ich immer froh,» — **verified**. Расхождение изданий зафиксировано: буклет Hyperion CDJ33004 печатает «Mein Lebtag werd'ich nimmer froh,»; принято чтение критического текста, поддержанное вторым независимым источником. Вслед за правкой русский сегмент изменён («никогда … не буду рад» → «всегда буду рад»), из языковой аннотации снято пояснение о наречии nimmer, которого в тексте больше нет; пояснение о Mein Lebtag сохранено.
+
 ## 4. Музыка
 
 **Ф18.** Джонсон определяет песню как «ещё одну виньетку в духе XVIII века» и «песенку, вполне годную для Папагено»: «This is another eighteenth-century vignette, and very much a ditty for a Papageno» — Hyperion — secondary.

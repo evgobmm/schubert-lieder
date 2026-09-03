@@ -44,6 +44,8 @@
 
 **Ф16.** [uncertain] Немецкий текст песни в проекте расходится с орфографией, зафиксированной schubertsong.uk («Original Spelling», сверено Растлем с изданиями 1810/1827/1804): в строке о девушках проект даёт «Wo er's nicht manchem angethan», тогда как во всех сверенных изданиях — «Wo er's nicht mancher angethan» (форма женского рода, согласованная с «Mädchenfänger»/«Mädchen»). Немецкий текст по правилам проекта не редактируется; расхождение зафиксировано как факт, требующий сверки редактором — schubertsong.uk, Original Spelling — «Wo er's nicht mancher angethan» — uncertain.
 
+**Ф34.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 3.4: «manchem» → «mancher» (снимает статус uncertain у Ф16) — schubertsong.uk (критический текст Растля, «Original Spelling», сверено по изданиям 1810/1827/1804) — «Wo er’s nicht mancher angethan.»; schubertlied.de — «Wo er’s nicht mancher angethan.»; буклет Hyperion CDJ33024 — «Wo er’s nicht mancher angetan.» — **verified**. Форма женского рода согласована с контекстом строфы (Mädchenfänger); русский сегмент оставлен прежним, аннотация дополнена указанием на женский род.
+
 ## 4. Музыка
 
 **Ф17.** Музыка написана «в лучшей зингшпильной манере Шуберта» — весёлая, хвастливая песенка, в которую вписаны отголоски дальнейшего развития сюжета — Hyperion (Джонсон) — «The music is in Schubert's best Singspiel manner; it is a merry and boastful little song with undertones of later developments in the story written into the music» — verified.

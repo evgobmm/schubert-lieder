@@ -32,7 +32,18 @@ for (const d of ds) {
   if (chk.code !== 0) { console.log(`D ${d}: валидатор НЕ чист — не публикую\n` + chk.out); continue; }
   const song = JSON.parse(fs.readFileSync(cand, 'utf8'));
   fs.writeFileSync(path.join(ROOT, 'app/src/data/songs', e.file), JSON.stringify(song, null, 1) + '\n');
-  const f = path.join(workDir, 'facts', slug + '-facts.md'); if (fs.existsSync(f)) fs.copyFileSync(f, path.join(ROOT, 'planning/research', slug + '-facts.md'));
+  // Файл фактов копируется, только если он НЕ БЕДНЕЕ уже лежащего в репозитории.
+  // Урок 03.09: догон по опубликованным песням взял старые копии из каталога волны
+  // и откатил факты, добранные позже (49 файлов) — репозиторий здесь источник истины.
+  const f = path.join(workDir, 'facts', slug + '-facts.md');
+  const dst = path.join(ROOT, 'planning/research', slug + '-facts.md');
+  if (fs.existsSync(f)) {
+    const nF = (x) => (x.match(/^\*\*Ф\d+\./gm) || []).length;
+    const src = fs.readFileSync(f, 'utf8');
+    const cur = fs.existsSync(dst) ? fs.readFileSync(dst, 'utf8') : '';
+    if (!cur || nF(src) >= nF(cur)) fs.copyFileSync(f, dst);
+    else console.log(`D ${d}: файл фактов волны беднее репозиторного (${nF(src)} против ${nF(cur)} фактов) — НЕ копирую`);
+  }
   translated[String(d)] = { file: e.file, title_ru: song.title_ru, poet_ru: song.poet_ru };
   console.log(`D ${d} «${song.title_ru}» → ${e.file} (+ файл фактов, translated.json)`);
 }

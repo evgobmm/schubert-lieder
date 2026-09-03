@@ -31,6 +31,8 @@
 
 **Ф8.** В оригинальной орфографии поэта (издание 1815 года) — «Schleyers» вместо принятого сегодня «Schleiers» и «Thaugedüft» вместо «Taugedüft»; проект использует современную орфографию. — schubertsong.uk (Рен) — «Original Spelling ... Ein Abglanz seines Schleyers ... Wie Thaugedüft verschwebt» — verified.
 
+**Ф25.** Правка текста по вердикту аудита (2026-09-01): в строфе 6, строка 4 убрано начальное «Und» (стало «Wie Thaugedüft verschwebt.»); одновременно из подстрочника удалён сегмент «Und» / «И,», следующий сегмент получил прописную «Как», диапазон аннотации сдвинут на единицу. — schubertsong.uk (Растль, оба блока текста, по венскому изданию Salis 1815, см. Ф7) — «Ist dein Phantom zergangen, / Wie Thaugedüft verschwebt»; буклет Hyperion CDJ33023 (Джонсон) — «Ist dein Fantom zergangen, / Wie Taugedüft verschwebt.» — verified (оба независимых источника дают строку без союза).
+
 ## 4. Музыка
 
 **Ф9.** Тональность — ми-бемоль мажор, та же, в которой у Моцарта в «Волшебной флейте» поёт Папагено. — Hyperion (Джонсон) — «(in the Zauberflöte key of E flat)» — secondary.

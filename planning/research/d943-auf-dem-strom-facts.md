@@ -36,6 +36,8 @@
 
 **Ф10.** Орфография эпохи в оригинальном тексте отличается от современной: «thränendunklen», «Wehmuthsthränen», «Heimathland», «gehob'ne» — против современных «tränendunklen», «Wehmutstränen», «Heimatland», «gehobne» в переиздании — schubertsong.uk (раздел «Original Spelling and notes on the text» против основного текста страницы) — verified.
 
+**Ф31.** Проверка немецкого текста по вердикту аудита (2026-09-03): строки «Ach, wo ich selig Sie gefunden» (строфа 2), «Eilen ohne Rast und Ruh» (строфа 3) и «Wie fasst mich zitternd Graun» (строфа 4) в тексте песни — повторы предыдущих строк с изменением при повторе; у Рельштаба каждая из них стоит один раз и без этих изменений — schubertsong.uk, раздел «Original Spelling and notes on the text» (текст сверен Петером Растлем по изданиям 1826 и 1827 годов, ср. Ф8) — «Wo ich selig Sie gefunden!»; «Weiter, ohne Rast und Ruh,»; «O, wie faßt mich zitternd Grauen!» — verified. Текст проекта передаёт спетую редакцию и правки не требует; на странице нужна оговорка.
+
 ## 4. Музыка
 
 **Ф11.** Оригинальная тональность — E-dur (ми мажор) — schubertlied.de — «Originaltonart: E-Dur» — verified.

@@ -40,6 +40,10 @@
 
 **Ф14.** Ссылка на LiederNet как источник текста и альтернативных положений на музыку значится на странице schubertlied.de, но сама страница LiederNet в бандл не загружена (сеть не отвечала) — schubertlied.de — «6.1 Textquelle und alternative Kompositionen: www.lieder.net» — uncertain.
 
+**Ф32.** Правка текста корпуса по аудиту (вердикт defect, 1.1): «Die Scheit befriert» → «Die Scheibe friert» (речь об оконном стекле, а не о полене). — schubertlied.de (трижды в тексте песни) — «Die Scheibe friert, der Wind ist rauh,»; буклет Hyperion CDJ33015 — «Die Scheibe friert, der Wind ist rauh,» — **verified**. Вслед за правкой изменён русский сегмент («Полено обмерзает» → «Оконное стекло замерзает») и снято языковое пояснение о глаголе befrieren, которого в тексте больше нет; пояснение о написании эпохи rauh сохранено и перенесено на сегмент rauh.
+
+**Ф33.** Правка текста корпуса по аудиту (вердикт defect, 2.2): «das treu Blut» → «das treue Blut» (слабое склонение после артикля). — schubertlied.de (трижды) — «Mir fehlt mein Lieb, das treue Blut:»; буклет Hyperion CDJ33015 — «Mir fehlt mein Lieb, das treue Blut;» — **verified**. Цитата формы в аннотации о слове Blut приведена в соответствие с исправленным текстом.
+
 ## 4. Музыка
 
 **Ф15.** Грэм Джонсон (аннотация Hyperion) отмечает родство песни с «Erstarrung» из «Winterreise»; Джон Рид называет её «первой из шубертовских песен Winterreise» — Hyperion — «John Reed calls it the first of Schubert's Winterreise songs» — secondary.
