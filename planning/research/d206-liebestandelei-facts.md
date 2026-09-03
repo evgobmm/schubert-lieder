@@ -44,6 +44,8 @@
 
 **Ф16.** Дом издательства Бауэра в Вене выпустил венское издание стихов Кёрнера в 1815 году — том 1, стр. 72–73 — тот самый год, когда Шуберт почти залпом положил на музыку полтора десятка текстов Кёрнера, вероятно вдохновлённый именно этим изданием — schubertlied.de — «Vermutlich wurde Schubert unmittelbar durch den 1815 in Wien frisch erschienenen Gedichtband mit den Gedichten Körners zu seinen Kompositionen inspiriert.» — secondary; см. также досье Кёрнер, Ф20.
 
+**Ф31.** Второй независимый источник к Ф12: schubertlied.de приводит стихотворение Кёрнера, где строфы 1–3 завершаются повелительным «Laß Dich küssen!», а 4-я — изъявительным «Läßt Dich küssen!» — schubertlied.de — «Willig selbst in meinen Arm, | Läßt Dich küssen!» — verified (совпадает с чтением оригинала, которое schubertsong.uk называет в сноске к правке Шуберта). Отсюда уточнение к Ф13: единый рефрен «Laß Dich küssen!» относится к строфам 1–3, в 4-й у поэта стоит другая форма. Немецкий текст проекта в строках 4.6–4.8 даёт «Läss'st dich küssen» — то есть кёрнеровское изъявительное чтение, а не шубертовское повелительное (аудит немецких текстов, 2026-09-03; правку вердикт не предписал). Оговорка внесена на страницу песни в раздел «Стихотворение» (2026-09-03).
+
 ## 4. Музыка
 
 **Ф17.** Джонсон характеризует песню как очаровательную зингшпильную арию (Singspiel aria), напоминающую некоторые слегка фривольные и эротичные немецкие песни Гайдна; вспоминается и «Der Kuss» Бетховена — Hyperion — «This delightful Singspiel aria is reminiscent of some of the mildly risqué and erotic German songs of Haydn. Beethoven's Der Kuss also comes to mind.» — secondary (интерпретация Джонсона).

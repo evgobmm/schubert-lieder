@@ -29,6 +29,8 @@
 
 **Ф8.** Оригинал стихотворения (издание 1824 года) доступен в оцифрованном виде на портале Австрийской национальной библиотеки (ONB), страница 115 [131 из 290 в сканере]. — schubertsong.uk — «To see an early edition of the text, go to page 115 [131 von 290] here: http://digital.onb.ac.at/OnbViewer/…doc=ABO_+Z16264200X» — secondary.
 
+**Ф23.** Замена «Und singt zu seinem Werke» → «Er singt zu seinem Werke» (строфа 4, ср. Ф5) — задокументированное изменение Шуберта, а не ошибка текста проекта: LiederNet (TextId=14546; текст сверен гостевым редактором Петером Растлем по изданию «Dichtungen vom Freyherrn Franz von Schlechta», том 1, Вена, 1824, с. 115–116) печатает слово поэта со сноской «Schubert: "Er"» — вердикт аудита немецких текстов, `planning/reports/de-text-verdicts.md`, строка «D 881 | 4.1» — verified (второй независимый источник; снимает статус uncertain у Ф5).
+
 ## 4. Музыка
 
 **Ф9.** По формулировке Джонсона, Шуберт опустил одну из семи строф Шлехты «для стройности формы, чтобы на каждый музыкальный период приходилось по две поэтические строфы» — досье, Ф23 (Hyperion) — «to make a neat structure of two verses of poetry for each one of music» — verified.

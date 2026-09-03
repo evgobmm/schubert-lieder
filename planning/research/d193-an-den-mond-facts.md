@@ -42,6 +42,8 @@
 
 ---
 
+**Ф30.** Проверка немецкого текста по вердикту аудита (2026-09-03), строфа 1, строка 3: в тексте песни «Wo Phantasien und Traumgestalten immer», тогда как печатное издание Хёльти даёт форму старой орфографии «Fantaseyn»; чтение на -ien зафиксировано в автографе — schubertlied.de, https://www.schubertlied.de/die-lieder/an-den-mond-d193, раздел «Liedtext mit Anmerkungen» — «Wo Fantaseyn [Autograph: Fantasien] und Traumgestalten immer» (там же пометы «Stäte [Autograph: Stätte]», «nim [Autograph: nimm]») — verified. Совпадает с цитатой «Phantasien und Traumgestalten» в буклете Hyperion CDJ33018 (ср. Ф18). Текст проекта правки не требует; на странице нужна оговорка.
+
 ## 3. Музыка
 
 **Ф15.** Джонсон (буклет Hyperion, том 7): песня «по праву прославлена» — знаменита не только мелодией, но и сопровождением и вступлением: «волнообразные триоли, которые так властно напоминают о бетховенской «Лунной» сонате» — Hyperion, https://www.hyperion-records.co.uk/dw.asp?dc=W2251_GBAJY9000707 — «This is a justly celebrated song, famous not only for its melody, but also for its accompaniment and introduction: the undulating triplets which remind us so potently of Beethoven's 'Moonlight' Sonata» — verified.
