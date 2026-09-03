@@ -36,8 +36,6 @@
 
 **Ф11.** В печатном тексте Лейтнера (и schubertsong.uk, и schubertlied.de) прямая речь монаха в строфах 4–5 выделена кавычками-гильеме («»…«»), которых нет в тексте проекта — schubertsong.uk — «»Ich bin, wie ihr, ein Pilger doch… In das gelobte Land.«» — secondary.
 
-**Ф34.** Исправление немецкого текста проекта, строфа 2, строка 2: было «Im schönen, ernsten Chor;» → стало «In schönem, ernsten Chor;» (предлог без слияния с артиклем, сильное склонение прилагательного) — schubertsong.uk — «In schönem, ernsten Chor,» (в обеих секциях страницы); schubertlied.de — «In schönem, ernstem Chor,» (во всех трёх повторах текста публикации). Источники расходятся только в окончании второго прилагательного (ernsten / ernstem); принято чтение критического текста Растля на schubertsong.uk — **verified**.
-
 ## 4. Музыка
 
 **Ф12.** Авторская темповая ремарка — «Ruhig und fromm» («спокойно и благоговейно»); критик Кэпелл, по формулировке Джонсона, шутливо называет этот стиль у Шуберта «evensong style» («стиль вечерни») — hyperion-booklet-CDJ33036 — «the marking is 'Ruhig und fromm'»; «The music is in what Capell amusingly calls Schubert's evensong style» — secondary.

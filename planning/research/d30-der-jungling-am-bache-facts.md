@@ -1,6 +1,6 @@
 # Факты: «Der Jüngling am Bache» (D 30)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/der-jungling-am-bache/; IMSLP — https://imslp.org/wiki/Der_J%C3%BCngling_am_Bache,_D.30_(Schubert,_Franz); schubertlied.de — https://www.schubertlied.de/die-lieder/der-juengling-am-bache-d30-erste-bearbeitung; Hyperion CDJ33001 (буклет, эссе Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33001-B.pdf
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/der-jungling-am-bache/
 
 Немецкий текст песни в проекте: `app/src/data/songs/d30-der-jungling-am-bache.json`. Поэт — Фридрих Шиллер. Четыре строфы по восемь строк; в строфах 1 и 3 последняя строчная пара повторена (в строфе 3 — с переменой порядка строк: «Und das Herz ist ungestillt, / Ich kann es nicht erreichen» вместо исходного «Ach ich kann es nicht erreichen, / Und das Herz ist ungestillt») — это musicальное повторение самого Шуберта при распеве, а не строфика поэта: в оригинале Шиллера (по тексту, приведённому на schubertsong.uk) повторов нет. Досье поэта: `planning/research/poets/schiller.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-4 записей D 30 (внутренний файл проекта, не URL-источник).
 
@@ -30,23 +30,9 @@
 
 **Ф8.** Текст, положенный Шубертом на музыку, отличается от строфы Шиллера местами словопорядка: «Aber tausend Stimmen der / Erwachenden Natur» в проекте против «Aber diese tausend Stimmen / Der erwachenden Natur» у Шиллера (пропущено «diese», переставлен порядок слов) — сопоставление с текстом schubertsong.uk — verified (текстуальное сравнение).
 
-**Ф21.** Правка текста по вердикту аудита (2026-09-01): в строфе 2, строка 1 «trauere» исправлено на «traure» (одновременно в `lines_de` и в поле `de` сегмента подстрочника; значение слова и русский перевод «горюю» не меняются). — schubertsong.uk (Растль, оба блока текста) — «Fraget nicht, warum ich traure»; LiederNet Archive, TextId 14501 (текст сверен с «Gedichte von Friederich Schiller», Zweiter Theil, Leipzig 1805, изд. Siegfried Lebrecht Crusius, с. 338–340) — «Fraget nicht, warum ich traure» — verified (стяжённая форма сохраняет восьмисложную строку; сноски о правке Шуберта в этом месте нет ни в одном источнике).
-
-**Ф22.** Расхождение «Шуберт против поэта» в строфе 2, строка 5: у Шиллера в строке есть слово «diese», но LiederNet прямо документирует, что Шуберт опускает его именно в D 30. Поэтому вердикт аудита о вставке «diese» в текст проекта отклонён, строка оставлена как есть. — LiederNet Archive, TextId 14501 — в стихе стоит «Aber [diese] tausend Stimmen / Der erwachenden Natur» со сноской 4: «omitted by Schubert (only in D. 30)»; schubertsong.uk (Растль, оба блока) даёт стих со словом — «Aber diese tausend Stimmen» — uncertain (источники расходятся: чтение проекта совпадает с задокументированной у LiederNet версией Шуберта, но schubertsong.uk на странице D 30 печатает полный стих поэта; разбивка строк в проекте отражает музыкальную фразировку и отдельным источником не подтверждена).
-
 ## 4. Музыка
 
-**Ф23.** D 30 (первая редакция) написана в тональности фа мажор (F-Dur), темповое указание — Allegretto — IMSLP + schubertlied.de — «Key: F major… Movements/Sections: Allegretto» / «Originaltonart: F-Dur» — verified (два независимых источника).
-
-**Ф24.** Первое издание — 1894 год, в составе Alte Gesamtausgabe (Полное собрание сочинений), Serie XX, Band 1, под редакцией Эусебиуса Мандычевского, издательство Breitkopf & Härtel (Лейпциг), пластина F.S. 308 — IMSLP + schubertlied.de — «First Publication: 1894» / «Publisher Info: Schubert's Werke, Serie XX, Band 1 […] Leipzig: Breitkopf & Härtel, 1894. Plate F.S. 308» — verified.
-
-**Ф25.** Автограф песни хранится в Wienbibliothek im Rathaus (Венская городская библиотека в Ратуше) — schubertlied.de — «Ort des Manuskripts: Wienbibliothek im Rathaus der Stadt Wien» — verified.
-
-**Ф26.** По форме D 30 не строго строфична в строгом северогерманском смысле: Шуберт варьирует трактовку второй половины каждой строфы; в целом песня подобна рондо со вставками, где речитатив ведёт назад к чарующему ариозо — Hyperion CDJ33001, эссе Грэма Джонсона — «It is not strictly strophic in the rigid North German sense because […] Schubert varies the treatment of the second half of each verse. The whole is like a rondo with interludes; recitative leads back to enchanting arioso» — verified (дословная цитата эссе).
-
-**Ф27.** Первая часть песни (D 17 № 1 — упражнение Сальери на текст Метастазио «Quell' Innocente Figlio») обнаруживает сильное сходство с D 30, которая по сути является первой песней Шуберта; спустя два с половиной года композитор переработал материал как D 192 (мелодия остаётся очень похожей, но транспонирована в минор), а в 1819 году последовала третья попытка — D 638 (музыкально совершенно новая, но по-прежнему строфическая) — Hyperion CDJ33001, эссе Грэма Джонсона — «Two and a half years later the composer adjusted the setting (D192 […] transposed to the minor key) and in 1819 there was a third attempt (D638 completely new musically, but still strophic)» — verified.
-
-*Не найдено:* точное число тактов, конкретная фигура фортепианного аккомпанемента (описана только опосредованно через характеристику формы), посвящение, редакции текста нотного набора помимо Alte Gesamtausgabe/NSA (Neue Schubert-Ausgabe IV, Bd. 04, издание Bärenreiter, номер по каталогу BA05516 — сама NSA-публикация не открыта; только карточка на schubertlied.de).
+*Данных не найдено* — тональность, форма, аккомпанемент и темповые указания для D 30 не подтверждены ни одним доступным источником (см. «Не подтвердилось / не найдено»).
 
 ## 5. Смыслы и интерпретации
 
@@ -84,8 +70,8 @@
 
 ## Не подтвердилось / не найдено
 
-- Страница schubertlied.de по D 30 в предзагруженном бандле была недоступна; при повторном сетевом поиске (доразведка раздела «Музыка», см. Ф23–Ф25) страница найдена под другим URL (`der-juengling-am-bache-d30-erste-bearbeitung`) и дала тональность, дату первого издания и место автографа.
-- Буклет Hyperion (CDJ33001) в предзагруженном бандле не был получен; при повторном обращении (прямая загрузка PDF) эссе Грэма Джонсона о D 30 найдено и дало форму, историю трёх редакций текста (D 30 → D 192 → D 638) и параллель с упражнением Сальери D 17 № 1 (см. Ф26–Ф27).
+- Страница schubertlied.de по D 30 отсутствует (сервер отдаёт error-page «Seite nicht gefunden»; проверено повторным запросом) — сведения о тональности, форме, аккомпанементе, издателе первой публикации и автографе D 30 из этого справочника недоступны.
+- Буклет Hyperion (CDJ33001, комментарий Грэма Джонсона) не содержит найденной строки о D 30 конкретно (по манифесту предзагрузки) — оценки Джонсона по музыке именно этой песни недоступны.
 - Страница LiederNet по этому тексту не найдена: сетевой поиск (DuckDuckGo) не вернул рабочей ссылки на lieder.net с текстом «Der Jüngling am Bache» / «An der Quelle saß der Knabe».
-- Точное число тактов, детальная фигура фортепианного аккомпанемента по строфам, посвящение — не найдены ни в одном источнике.
+- Обстоятельства и дата первой публикации нот D 30 (посмертная или прижизненная) не установлены ни одним доступным источником.
 - Год свадьбы Шиллера с Шарлоттой фон Ленгефельд у источников расходится (1789 vs 1790 — досье, Ф9) — к теме песни не относится, факт не используется.

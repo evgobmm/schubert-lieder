@@ -35,8 +35,6 @@
 
 **Ф11.** Та же Лаура вдохновила и другие шиллеровские песни Шуберта — обе редакции «Die Entzückung an Laura» (досье, Ф22 — «Entzückung an Laura», D 390/577) — Hyperion, «the two versions of Die Entzückung an Laura» — secondary.
 
-**Ф33.** Правка немецкого текста песни (2026-08-31, по вердикту аудита): строфа 4, строка 7 — усечённое «Misstrau,» → полная форма «Misstraue,» — schubertsong.uk — «Misstraue, schöne Seele, dieser Engelgüte,» (в разделе «Original Spelling» — «Mißtraue, schöne Seele, dieser Engelgüte,»); буклет Hyperion CDJ33034 — «Misstraue, schöne Seele, dieser Engelgüte!» — **verified**. Оба источника пишут «Engelgüte» слитно, тогда как в проекте стоит «dieser Engel Güte»; вердиктом аудита это место не затронуто и оставлено без изменений — открытый вопрос для отдельной сверки.
-
 ## 4. Музыка
 
 **Ф12.** Начало помечено «Feurig» («огненно») — ранний образец симфонического письма в песне у Шуберта, где мотивы аккомпанемента развиваются симфонически — Hyperion, «The opening is marked 'Feurig'... an early Schubertian essay in symphonic song-writing» — secondary.

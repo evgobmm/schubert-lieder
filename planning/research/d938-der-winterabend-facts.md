@@ -35,10 +35,6 @@
 
 **Ф11.** На сайте schubertlied.de приведена и альтернативная запись строки со словом «hold» вместо «still» — отдельный аудиофайл варианта — schubertlied.de — «Wir haben diese Version auch aufgenommen» — secondary.
 
-**Ф26.** Строфа 2, строка 2 исправлена: было «Da sitz ich im Dunkeln, ganz abgeschieden,» → стало «Da sitz ich im Dunkel, ganz abgeschieden,» — schubertsong.uk — «Da sitz ich im Dunkel, ganz abgeschieden,» (во второй секции — «Da sitz' ich im Dunkel, ganz abgeschieden,»); schubertlied.de — «Da sitz' ich im Dunkel, ganz abgeschieden,» — **verified**. Форма «Dunkeln» не встречается ни в одном источнике.
-
-**Ф27.** Расхождение текста проекта с источниками, оставленное без правки (аудит немецких текстов, 2026-08-31, строка «Rings um an Geräth und Wänden.»): оба источника дают эту строку с конечным «aus» — schubertsong.uk — «Ringsum an Gerät und Wänden aus.»; schubertlied.de — «Ringsum an Geräth und Wänden aus.» — **verified** (расхождение зафиксировано; чем вызвано отсутствие слова в тексте проекта — усечением Шуберта под музыкальную фразу или ошибкой источника нот, — источники не говорят, вердикт аудита правку не предписал). Оговорка внесена на страницу песни в раздел «Стихотворение» (2026-08-31).
-
 ## 4. Музыка
 
 *(Отдельного развёрнутого музыкального комментария — вроде текста Джонсона или Рена по форме и аккомпанементу — в предзагруженных источниках для этой песни не найдено; hyperion-records и liedernet.net для D 938 в манифесте отмечены как пустые/недоступные. Ниже — то, что подтверждено.)*

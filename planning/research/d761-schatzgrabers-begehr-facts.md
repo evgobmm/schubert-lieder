@@ -4,7 +4,6 @@
 Источники: Schubert Song Texts (Малколм Рен) — https://www.schubertsong.uk/text/schatzgrabers-begehr/
 Источники: ADB (Deutsche Biographie) — https://www.deutsche-biographie.de/sfz78878.html
 Источники: Hyperion, статья о Шоберте — https://www.hyperion-records.co.uk/c.asp?c=C1097
-Источники: IMSLP — https://imslp.org/wiki/Schatzgr%C3%A4bers_Begehr,_D.761_(Schubert,_Franz) (добавлено во втором проходе, 2026-09-03)
 
 Немецкий текст песни в проекте: `app/src/data/songs/d761-schatzgrabers-begehr.json`. Три строфы (сонет по форме: 8+3+3 строк с повторами в третьей строфе). Поэт — Франц фон Шобер, друг Шуберта. Досье поэта: `planning/research/poets/schober.md` (факты оттуда переиспользуются со ссылкой «досье schober, Ф№», заново не проверялись). История записей: топ-5 в самом бандле (см. раздел 8 ниже).
 
@@ -40,21 +39,9 @@
 
 **Ф12.** Необычность формы: сонет — жанр, обычно связанный с романтической любовью, что делает эту тему (одержимость поиском) нетипичной для формы — schubertsong.uk — «This is an unusual theme for a sonnet, a form usually associated with romantic love. However, the obsessive desire described here is clearly a kind of love» — secondary.
 
-**Ф20.** Исправление немецкого текста проекта, строфа 1, строка 3: было «Und strebend kann ich andres nichts vollführen.» → стало «Und grabend kann ich andres nichts vollführen.» (снимает вопрос, оставленный в Ф9 как uncertain: источник чтения «strebend» не подтверждается ничем) — schubertsong.uk — «Und grabend kann ich Andres nichts vollführen,» (то же чтение в разделе Original Spelling); буклет Hyperion CDJ33028 — «Und grabend kann ich Andres nicht vollführen.» — **verified**.
-
 ## 4. Музыка
 
 **Ф13.** Исполнение на альбоме Hyperion — баритон Мартен Конингсбергер под аккомпанемент Грэма Джонсона, длительность 3'51 — Hyperion — «bs Schatzgräbers Begehr D761 (SCHOBER) [3'51]», «sung by Maarten Koningsberger» — verified.
-
-Во втором проходе (2026-09-03) через IMSLP закрыты тональность, темповое указание, опус и первое издание; полный текст буклета Hyperion CDJ33028 (скачан и обработан pdftotext в этой сессии, 1080 строк) подтверждён не содержащим отдельного музыкального эссе о D 761 (после текста и перевода Джонсон сразу переходит к следующей песне тома, «Der Musensohn») — построчный разбор партитуры по-прежнему не найден. schubertlied.de для D 761 по-прежнему недоступен (прямой повторный запрос — HTTP 404).
-
-**Ф21.** Тональность — Ре минор (в обеих редакциях песни) — IMSLP — «Key D minor (both versions)» — verified.
-
-**Ф22.** Темповое указание в нотах — «Gehend» — IMSLP — «Movements/Sections Mov'ts/Sec's Gehend» — verified.
-
-**Ф23.** Песня существует в двух редакциях: 1-я — опубликована при жизни Шуберта как Op. 23 № 4 (Schubert's Werke, Serie XX, Band 7, № 412, с. 35–37); 2-я — при жизни не публиковалась, впервые издана только в старом полном собрании сочинений 1895 года (там же, № 412b, с. 187–189, та же пластина F.S. 767 с пометой «*»); обе редакции — в редакции Эйзебиуса Мандычевского — IMSLP — «Opus/Catalogue Number Op./Cat. No. D.761 ; Op.23 No.4»; «1st version (published as Op.23 No.4)... Schubert's Werke, Serie XX, Band 7... No.412»; «2nd version... No.412b» — verified.
-
-**Ф24.** Первое прижизненное издание (1-й редакции, как Op. 23 № 4) — Вена, издательство Sauer & Leidesdorf, без года на титуле [датировка IMSLP — 1823], пластина «S et L 367» — IMSLP — «Vienna: Sauer & Leidesdorf, n.d.[1823]. Plate S et L 367» — согласуется с Ф4 (буклет Hyperion: «published by Sauer und Leidesdorf in Vienna in August 1823 as Op 23 No 4») — verified.
 
 ## 5. Смыслы и интерпретации
 
@@ -65,10 +52,6 @@
 ## 6. Рецепция и документы эпохи
 
 **Ф16.** Опера «Альфонсо и Эстрелла» на либретто Шобера, контекст которой связывают с этим сонетом, не была поставлена при жизни Шуберта — schubertsong.uk — «the work was never staged in Schubert's lifetime» — secondary.
-
-**Ф25.** По формулировке Джонсона, «Schatzgräbers Begehr» вместе с «Frühlingsgesang» и «Todesmusik» составляют группу песен на слова Шобера, написанных в тот период (продолжавшийся с перерывами до лета 1823 года), когда Шуберт переехал жить в квартиру Шобера (ныне Шпигельгассе 9, на углу Гёттвайгергассе) — Hyperion, буклет CDJ33028 (Грэм Джонсон) — «During this period of their collaboration Schubert was closer to Schober than at any other time. He left Wipplingerstrasse and moved into his friend's dwelling (now 9 Spiegelgasse, on the corner of Göttweigergasse) where he stayed on and off until the summer of 1823... These are the vocal quartet Frühlingsgesang, Todesmusik and Schatzgräbers Begehr» — verified.
-
-**Ф26.** Джонсон отмечает (как гипотезу критиков круга Шуберта, а не установленный факт), что некоторые современники винили именно образ жизни, привитый близостью с Шобером в этот период, в заражении Шуберта сифилисом в конце 1822 года — Hyperion — «Those who blamed Schober's influence for the free-and-easy lifestyle which led to Schubert's contraction of syphilis at the end of 1822 may have despaired of the way that Schubert seemed to have gladly submitted to his friend's influence» — secondary (мнение, приписанное современникам, не документированное первоисточником в этом буклете).
 
 ## 7. Судьба и наследие
 
@@ -83,6 +66,6 @@
 ## Не подтвердилось / не найдено
 
 - Расхождение немецкого текста проекта («strebend»/«nichts») с текстом в буклете Hyperion и на schubertsong.uk («grabend»/«nicht»/«nichts») в бандле не объяснено — источник варианта проекта не установлен (см. Ф9); немецкий текст менять не входит в задачу этого файла.
-- Страница schubertlied.de для D 761 недоступна (манифест: `ok: false`; прямой повторный запрос в этой сессии — HTTP 404) — эта конкретная страница-источник закрыта, но тональность, темп и форма закрыты независимо через IMSLP (см. §4, Ф21–Ф24).
+- Страница schubertlied.de для D 761 недоступна (манифест: `ok: false`) — данные о тональности, форме, размере, аккомпанементе и построчном разборе музыки (обычно оттуда) в бандле отсутствуют — **uncertain**, раздел «Музыка» в этом файле не может быть развёрнут без неё.
 - Страница LiederNet для этой песни не найдена ни в предзагрузке, ни при попытке поиска через DuckDuckGo (сеть не ответила содержательными результатами по обоим запросам) — **uncertain**.
-- Детальный построчный музыкальный разбор (такты, гармония, фактура) по Грэму Джонсону и Малколму Рену не найден: полный буклет Hyperion CDJ33028 (скачан и проверен целиком во втором проходе, 2026-09-03) после текста/перевода/выходных данных песни не содержит отдельного музыкального эссе о D 761 — подтверждено просмотром полного текста буклета, а не только окна вокруг «D761» — **uncertain** (отсутствие эссе установлено достаточно надёжно, но нельзя исключить, что развёрнутый комментарий Джонсона к этой песне публиковался в другом издании).
+- Детальный построчный разбор музыки (тональность, форма, ключевые события) по Грэму Джонсону и Малколму Рену не найден: в буклете Hyperion для этой песни дан только текст/перевод/выходные данные, без отдельного эссе-комментария к D 761 (комментарии песен указаны доступными только на сайте hyperion-records.co.uk, ссылка на который не предзагружена) — **uncertain**.

@@ -43,8 +43,6 @@
 
 **Ф15.** Орфография эпохи (Original Spelling) у schubertsong.uk: «Blüthen» (не «Blüten»), «An's Herze» (не «Ans Herze»), с точками с запятой в конце строк — schubertsong.uk, раздел «Original Spelling and note on the text» — verified (текстологическая сверка).
 
-**Ф30.** Исправление немецкого текста проекта, строфа 3, строка 3: было «Wo ich die Geliebte» → стало «Wo ich den Geliebten» (мужской род; снимает вопрос, оставленный в Ф14) — schubertsong.uk — «Wo ich den Geliebten» (оба вхождения текста на странице); schubertlied.de — «Wo ich den Geliebten» (все три повтора текста публикации) — **verified**.
-
 ## 4. Музыка
 
 **Ф16.** Тональность конкретной размещённой на schubertlied.de записи (Шёне/Флайшер) транспонирована в ре минор (d-Moll) — не авторская тональность — schubertlied.de — «Aufnahmetonart: d-Moll» — verified (в отличие от оригинальной e-Moll, Ф3).

@@ -40,12 +40,6 @@
 
 **Ф13.** По наблюдению Джонсона, стихотворение Шобера — переработка идеи финальной песни Арфиста у Гёте, «An die Türen» (из «Вильгельма Мейстера») — Hyperion — «Schober's poem is a reworking of the idea behind the final lyric of Goethe's harper—An die Türen» — verified (атрибуция — Джонсону).
 
-**Ф31.** Исправление немецкого текста проекта, строфа 3, строка 3: было «Streu nur mit Blumenkronen,» → стало «Ich streue nur mit Blumenkronen,» — schubertsong.uk — «Ich streue nur mit Blumenkronen,» (и в модернизированной орфографии, и в разделе Original Spelling); schubertlied.de — «Ich streue nur mit Blumenkronen,» (все три повтора текста публикации) — **verified**.
-
-**Ф32.** Исправление немецкого текста проекта, строфа 3, строка 4: было «Mit blauen Veilchen, eure Schwelle voll.» → стало «Mit blauen, eure Schwelle voll.» (слово Veilchen ни одним источником не подтверждается; конструкция эллиптическая, определение относится к Blumenkronen предыдущей строки) — schubertsong.uk — «Mit blauen, eure Schwelle voll.»; schubertlied.de — «Mit blauen, eure Schwelle voll;» — **verified**.
-
-**Ф33.** Исправление немецкого текста проекта, строфа 6, строка 1: было «Vom Überflusse seid ihr erfreuet» → стало «Vom Überfluss seid ihr erfreuet» (без дательного окончания -e) — schubertsong.uk — «Vom Überfluss seid ihr erfreuet» (Original Spelling: «Vom Ueberfluß seyd ihr erfreuet,»); schubertlied.de — «Vom Ueberfluß seyd ihr erfreuet,» — **verified**.
-
 ## 4. Музыка
 
 **Ф14.** В песне девять строф, девятая точно повторяет первую (слова и музыка); музыкальная форма «отчасти палиндромна»: A, B, C, D, E, D, F, затем снова B и A + кода — Hyperion — «There are nine strophes to the song (the last verse a repeat of the first) and the musical form is somewhat palindromic … A, B, C … D, E … D … F … then B, and A plus coda» — secondary (анализ Джонсона).

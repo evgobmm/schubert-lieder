@@ -79,7 +79,7 @@ for (const d of ds) {
   const newF = (() => { try { return fs.readFileSync(path.join(ROOT, factsRel), 'utf8'); } catch { return ''; } })();
   const oldSet = new Set(oldF.split('\n').filter((l) => /^\*\*Ф\d+\.\*\*/.test(l)));
   const added = newF.split('\n').filter((l) => /^\*\*Ф\d+\.\*\*/.test(l) && !oldSet.has(l));
-  if (added.length) { P(`\n== НОВЫЕ ФАКТЫ ПРАВКИ (опора; полный файл: ${factsRel})`); added.forEach((l) => P(l.length > 700 ? l.slice(0, 700) + '…' : l)); }
+  if (added.length) { P(`\n== НОВЫЕ ФАКТЫ ПРАВКИ (опора; полный файл: ${factsRel})`); added.forEach((l) => P(l.length > 1400 ? l.slice(0, 1400) + '…' : l)); }  // предел 700 обрезал факт на середине (урок мини-прохода 03.09) }
   const out = L.join('\n') + '\n';
   if (!changedLines.length && !aboutCh.length) { console.log(`D ${d}: изменений в песне нет — мини-бандл не нужен`); continue; }
   const fp = path.join(outDir, `mini-${slug}.md`);

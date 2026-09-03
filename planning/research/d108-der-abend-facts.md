@@ -40,14 +40,6 @@
 
 **Ф13.** schubertlied.de перечисляет издания стихотворения, привлечённые для сравнения текста: 1791 (Auserlesene Gedichte, Цюрих), 1803 (Gedichte, Вена/Прага: Franz Haas), 1810 (там же), 1811 (Cotta, Тюбинген) — secondary.
 
-**Ф34.** Правка текста корпуса по вердикту аудита (2026-08-31), строфа 1, строка 3: было «Nur dein Abendlied, Grille,» → стало «Nur dein Abendlied, o Grille,» — schubertsong.uk (критический текст Растля, раздел «Original Spelling», сверен по изданию Haas 1810) — «Nur dein Abendlied, o Grille!»; schubertlied.de — «Nur dein Abendlied, o Grille!» — **verified**.
-
-**Ф35.** Правка текста корпуса, строфа 1, строка 5: было «Lieblich strahlt des Baches Zauberspiegel» → стало «Lieblich strahlt des Baches Spiegel» — schubertsong.uk — «Lieblich strahlt des Baches Spiegel»; schubertlied.de — «Lieblich strahlt des Baches Spiegel» — **verified**. Приставка Zauber- была ошибочно перенесена из соседнего Zauberhülle.
-
-**Ф36.** Правка текста корпуса, строфа 1, строка 6: было «Durch der Dämmerung» (оборванная строка) → стало «Durch der Dämmrung Zauberhülle» — schubertsong.uk — «Durch der Dämmrung Zauberhülle»; schubertlied.de — «Durch der Dämmrung Zauberhülle» — **verified**.
-
-**Ф37.** Правка текста корпуса, строфа 2, строка 3: было «Unter leisem Blättergeflüster» → стало «Unter leisem Blattgeflüster» — schubertsong.uk — «Unter leisem Blattgeflüster»; schubertlied.de — «Unter leisem Blattgeflüster» — **verified**. Лишний слог -er- в тексте проекта не подтверждается ни одним источником.
-
 ## 4. Музыка
 
 **Ф14.** Оригинальная тональность — ре минор (d-Moll) — schubertlied.de — «Originaltonart: d-Moll» — verified.

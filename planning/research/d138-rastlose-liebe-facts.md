@@ -30,8 +30,6 @@
 
 **Ф9.** Рен также рассматривает вариант «Unsettled/Unsettling Love», связывая стихотворение с переездом Гёте в Веймар в ноябре 1775 года и его чувством к Шарлотте фон Штайн — schubertsong.uk — «Perhaps 'Unsettled Love' would be better, though, given the circumstances in which the text was produced. In November 1775 Goethe decided to visit Weimar…» — secondary.
 
-**Ф23.** Строка 2.8 исправлена по вердикту аудита: «Schaffet es Schmerzen!» → «Schaffet das Schmerzen!» (строфа 2, строка 8) — schubertsong.uk, текст песни и раздел Original Spelling — «Schaffet das Schmerzen!»; de.wikisource.org, «Rastlose Liebe» (печатный текст Гёте) — «Schaffet das Schmerzen!» — **verified**.
-
 ## 4. Музыка
 
 **Ф10.** Ключевой музыкальный образ — безостановочное движение: Рен трактует «Immer zu» и сплошной поток строф как отражение неспособности героя остановиться (метафора не остановившегося майского снега) — schubertsong.uk — «By the spring of 1776 he was in love… In May of that year, it snowed. Presumably the snow did not settle, and neither did Goethe.» — secondary.

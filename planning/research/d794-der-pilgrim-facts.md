@@ -29,12 +29,6 @@
 
 **Ф8.** По тем же примечаниям, в строфе 9 Шуберт заменил «nie» на «nicht»; однако текст песни в проекте сохраняет «nie» («Erde nie berühren»), а буклет Hyperion печатает «nicht» (с опечаткой «berühen» вместо «berühren») — расхождение между источниками не разрешено. — schubertsong.uk — «Schubert appears to have changed the original 'nie' [...] to 'nicht'» — uncertain (противоречит тексту проекта).
 
-**Ф27.** Строфа 8, строка 1 исправлена: было «Hin zu grossem Meere» → стало «Hin zu einem grossen Meere» (восстановлено пропущенное «einem», «grossem» → «grossen») — schubertsong.uk — «Hin zu einem großen Meere»; буклет Hyperion CDJ33001 — «Hin zu einem grossen Meere» — **verified**.
-
-**Ф28.** Строфа 8, строка 2 исправлена: было «Trieb mich Seiner Wellen Wechselspiel;» → стало «Trieb mich Seiner Wellen Spiel;» (приставка «Wechsel-» ни в одном источнике не подтверждается) — schubertsong.uk — «Trieb mich seiner Wellen Spiel,»; буклет Hyperion CDJ33001 — «Trieb mich seiner Wellen Spiel;» — **verified**. Оба источника печатают строчное «seiner»; в проекте прописное «Seiner» сохранено без изменений.
-
-**Ф29.** Строфа 9, строка 3 исправлена: было «Will die Erde nie berühren,» → стало «Will die Erde nicht berühren,» — schubertsong.uk — «Will die Erde nicht berühren,»; буклет Hyperion CDJ33001 — «Will die Erde nicht berühen,» (с опечаткой в глаголе, но со словом «nicht») — **verified**. Расхождение «Шуберт против поэта»: «nie» — чтение исходной редакции стихотворения Шиллера, «nicht» — редакция, положенная на музыку (примечание Растля на schubertsong.uk: «Schubert appears to have changed the original nie [...] to nicht»). Этим разрешено расхождение, оставленное открытым в Ф8.
-
 ## 4. Музыка
 
 **Ф9.** Песня — цепь родственных мелодических построений, напоминающих хорал Св. Антония, впоследствии увековеченный Брамсом. — Hyperion — «This song is a chain of related melodies reminiscent of the St Antony Chorale immortalised by Brahms» — secondary.

@@ -44,12 +44,6 @@
 
 **Ф15.** Полное имя поэта по schubertsong.uk — Franz Adolph Friedrich von Schober — «Text by: Franz Adolph Friedrich von Schober» (в досье поэта отчества не приводятся). — **secondary**
 
-**Ф31.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 3.1: «Rosenschein» → «Rosenglühen» — schubertsong.uk (критический текст Растля) — «Der Friede sei mit euch, rufst du im Rosenglühen» (в «Original Spelling»: «Der Friede sey mit euch! rufst du im Rosenglühen»); schubertlied.de — «Der Friede sey mit euch! rufst du im Rosenglühen»; буклет Hyperion CDJ33003 — «Rufst du im Rosenglühen» — **verified**. Формы «Rosenschein» нет ни в одном источнике; вслед за правкой изменён русский сегмент («розовом пылании») и аннотация, разбиравшая слово Rosenschein по Гриммам (слово из текста ушло).
-
-**Ф32.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 3.2: «Glühenden Himmels uns an jedem Abend zu,» → «Des Himmels uns an jedem Abend zu,» — schubertsong.uk — «Des Himmels uns an jedem Abend zu,»; schubertlied.de — «Des Himmels uns an jedem Abend zu,»; буклет Hyperion CDJ33003 — «Des Himmels uns an jedem Abend zu,» — **verified**. Правка снимает ошибочную перестановку структуры двустишия 3.1–3.2; сегменты «Glühenden»/«Himmels» сведены в один («Des Himmels» — «неба»), диапазон соседней аннотации сдвинут.
-
-**Ф33.** Правка немецкого текста по вердикту аудита (2026-09-01), строка 3.3: «Wenn alle Wesen zur ersehnten Ruh» → «Wenn alle Wesen zur erwünschten Ruh» — schubertsong.uk (критический текст Растля, и «Liedtext», и раздел с орфографией эпохи) — «Wenn alle Wesen zur erwünschten Ruh»; schubertlied.de — «Wenn alle Wesen zur erwünschten Ruh» — **verified**. Расхождение: буклет Hyperion CDJ33003 даёт «zur ersehnten Ruh'» (чтение, стоявшее в проекте) — два независимых источника против одного; по вердикту аудита то же чтение «erwünschten» даёт и авторский сборник Шобера (Gedichte, Cotta, 1842, с. 79, archive.org gedichte00schouoft). Русский перевод сегмента («желанному») подходит обоим чтениям и не менялся.
-
 ## 4. Музыка
 
 **Ф16.** Текст Шобера рождает у Шуберта «хорал в северонемецкой манере, гранитно убеждённый по сути, но пронизанный оттенками нежности в вокальной линии» — Hyperion (Джонсон) — «Schober's words prompt from Schubert a chorale in the North German manner, granite-like in its conviction, but shot through with touches of tenderness in the vocal line.» — **verified** (профессиональный музыкальный анализ)

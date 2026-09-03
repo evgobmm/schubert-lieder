@@ -33,8 +33,6 @@
 
 **Ф10.** Орфография эпохи (Original Spelling) даёт «Thor», «Schooß», «muthig» и т. п. — проектный текст следует этой орфографии (с заменой ß на ss). — schubertsong.uk — «Was hör' ich draußen vor dem Thor» (раздел Original Spelling) — verified (первичное сопоставление с текстом проекта).
 
-**Ф34.** Правка текста корпуса по аудиту (вердикт defect, 2.8): «Sich staunend zu ergetzen.» → «Sich staunend zu ergötzen.». — schubertsong.uk (и основной текст, и раздел Original Spelling) — «Sich staunend zu ergötzen.»; буклет Hyperion CDJ33010 — «Sich staunend zu ergötzen.» — **verified**. Языковая аннотация переформулирована: этимологическая связь с vergessen и старое написание ergetzen сохранены, но подаются как справка, а не как объяснение формы в тексте.
-
 ## 4. Музыка
 
 **Ф11.** Первые аккорды — арпеджио в манере арфы: Шуберт превращает старика из певца в инструменталиста, и король со свитой слушают эту музыку молча. — Hyperion — «The very first chords we hear are spread in harp-like arpeggio ... Schubert transforms the old man from singer to instrumentalist ... the king and court are made to listen to the music in silence» — verified.

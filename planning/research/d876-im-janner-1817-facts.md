@@ -33,10 +33,6 @@
 
 **Ф10.** В оригинальной орфографии текста — «freyer», «Bey» (вместо современных «freier», «Bei») — schubertsong.uk (раздел Original Spelling) — verified.
 
-**Ф36.** Строфа 1, строка 2 исправлена: было «Und treib' umher auf wilder Fluth;» → стало «Ich treib' umher auf wilder Fluth;» — schubertsong.uk — «Ich treib' umher auf wilder Fluth;» (в разделе современной орфографии — «Ich treib umher auf wilder Flut;»); буклет Hyperion CDJ33018 — «Ich treib' umher auf wilder Flut;» — **verified**.
-
-**Ф37.** Строфа 2, строка 4 исправлена: было «Und jeder naht und keines bleibt.» → стало «Und jedes naht und keines bleibt.» (согласование среднего рода с «keines») — schubertsong.uk — «Und jedes naht und keines bleibt.»; буклет Hyperion CDJ33018 — «Und jedes naht und keines bleibt.» — **verified**.
-
 ## 4. Музыка
 
 **Ф11.** Форма — строфическая: три куплета из двух рифмованных четверостиший каждый; первые шесть строк образуют минорный раздел, последние две — переходят в мажор и повторяются (с небольшими вариациями), создавая симметричную структуру — Hyperion — «the song is in a simple strophic form… the first six lines makes up the minore section, and the final two lines move into the major key and are repeated» — secondary.

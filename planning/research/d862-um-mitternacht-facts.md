@@ -34,12 +34,6 @@
 
 **Ф11.** Даты и оригинальные заглавия стихотворений Шульце, которыми пользуются исследователи, восходят к брокгаузовскому изданию 1822 года, которым, по всей видимости, пользовался и сам Шуберт — досье, Ф32 — secondary.
 
-
-**Ф28.** Исправлено «in der Ferne» → «in öder Ferne» (строфа 2, строка 3) — schubertsong.uk (оба раздела текста) — «Bis dein Stern in öder Ferne»; LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=14688, текст сверен по прижизненным изданиям Шульце 1819 и 1822 годов) — «Bis dein Stern in öder Ferne» — **verified**. Русский сегмент изменён с «дали» на «пустынной дали» (öde — «пустынный, безлюдный»).
-
-**Ф29.** Исправлено «wiegt so freundlich» → «wiege freundlich» (строфа 5, строка 1) — schubertsong.uk (оба раздела текста) — «Holder Nachhall, wiege freundlich»; LiederNet Archive (TextId=14688, те же издания Шульце) — «Holder Nachhall, wiege freundlich» — **verified**. Форма повелительная, не изъявительная, и лишнего «so» нет; русский сегмент изменён с «баюкает» на «баюкай».
-**Ф30.** У Шульце стихотворение напечатано семью четверостишиями, тогда как певческий текст Шуберта складывается в пять строф: строки поэтических четверостиший 3–6 перекомпонованы и попарно сплетены в третью и четвёртую строфы песни, каждая строфа завершается повтором последней строки, а в финальном повторе опущено слово «geliebtes» — schubertsong.uk, раздел текста и раздел «Original Spelling and note on the text» (поэтический текст напечатан семью четверостишиями по четыре строки, отдельными строфами идут «Ach nur einmal, nur verstohlen…» и «Süßes Wort, geliebte Stimme…», которые в песне переплетены); строфика издания сверена Растлем по брокгаузовским изданиям 1819 и 1822 годов («Confirmed by Peter Rastl with Schubert’s source… 1819, pages 89-90; and with… 1822, pages 90-91») — verified (сличение печатного текста источника с немецким текстом песни в проекте).
-
 ## 4. Музыка
 
 **Ф12.** Полночная тишина и темнота принципиальны для поэта: именно тогда, по трактовке Малколма Рена (schubertsong.uk), он «достаточно открыт тихим посланиям, что нашёптываются ему издалека — из царства звёзд, истинной обители возлюбленной» — schubertsong.uk — «it is only then that he can be sufficiently open to the quiet messages that are being whispered to him from the far distance, the realm of the stars that is the true domain of his beloved» — secondary (интерпретация комментатора).

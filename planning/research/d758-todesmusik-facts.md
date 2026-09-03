@@ -34,10 +34,6 @@
 
 **Ф11.** Текст, положенный Шубертом на музыку, разошёлся со строкой из более поздней печатной версии стихотворения (по данным schubertlied.de): вместо «Noch einmal die reinen Töne» там — «Noch einmal die süßen Töne»; вместо «Süss und wonnevoll» — «Traut und wonnevoll»; вместо «grauenvolle Dunkel» — «hoffnungslose Dunkel» — schubertlied.de, полный текст на странице; расхождение с текстом по Hyperion/schubertsong.uk и с текстом проекта — **uncertain** (не установлено, какая версия — авторская первая, какая — правленная для сборника).
 
-**Ф26.** Правка текста корпуса по вердикту аудита (2026-08-31), строфа 1, строка 9: было «Hebe aus dem ird'schen Ringen» → стало «Hebe aus den ird'schen Ringen» — schubertsong.uk (критический текст Растля) — «Hebe aus den ird'schen Ringen»; schubertlied.de — «Hebe aus den ird'schen Ringen» — **verified**. Форма den согласуется с множественным числом Ringen.
-
-**Ф27.** Расхождение источников по той же строке: буклет Hyperion CDJ33028 даёт «dem» — «Hebe aus dem ird'schen Ringen», то есть чтение, которое до правки стояло в проекте. Принято чтение двух источников более высокого уровня иерархии (критический текст Растля и schubertlied.de) — **verified** (оба чтения зафиксированы).
-
 ## 4. Музыка
 
 **Ф12.** Оригинальная тональность — Ges-Dur (соль-бемоль мажор) — schubertlied.de — «Originaltonart: Ges-Dur» — **secondary**.

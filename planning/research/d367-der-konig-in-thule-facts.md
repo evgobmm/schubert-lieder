@@ -42,8 +42,6 @@
 
 **Ф14.** Шуберт подложил ноты композиции только под три из шести строф стихотворения — schubertlied.de — «Er unterlegte seine Komposition mit drei der sechs Strophen.» — verified.
 
-**Ф36.** Правка текста корпуса по аудиту (вердикт defect, 5.3): «Und warf den heiligen Becher» → «Und warf den heil'gen Becher» (элизия по критическому тексту, правило docs/rules/verification-protocol.md §1). — schubertlied.de (трижды) — «Und warf den heil'gen Becher»; schubertsong.uk (текст, сверенный Растлем по изданиям Гёте 1810 и 1827 годов) — «Und warf den heil'gen Becher» (в основном разделе — «Und warf den heilgen Becher», то есть тоже двусложная форма) — **verified**.
-
 ## 4. Музыка
 
 **Ф15.** Оригинальная тональность — ре минор — schubertlied.de — «Originaltonart: d-Moll» — verified (cross с Hyperion — «originally… in death's key of D minor»).

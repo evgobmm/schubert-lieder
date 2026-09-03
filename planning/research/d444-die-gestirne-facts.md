@@ -40,12 +40,6 @@
 
 **Ф13.** Орфография эпохи (Erstdruck 1798/оригинал 1784) отличается от современной формы в проекте: «Feyrer» вместо «Feirer», «Leyer» вместо «Leier», «Kaprikorn» вместо «Capricorn», «seyd» вместо «seid», «Urn'» вместо «Urn», восклицательные знаки вместо точек и запятых на стыках фраз — schubertsong.uk, раздел «Original Spelling» — verified (сверка построчно).
 
-**Ф32.** Правка немецкого текста песни (2026-08-31, по вердикту аудита): строфа 6, строка 2 — «voll Würmegedräng» → «voll Gewürmegedräng» — schubertsong.uk — «Und den Staub hier voll Gewürmegedräng, wer ist der?»; schubertlied.de — «Und den Staub hier voll Gewürmegedräng, wer ist der?» — **verified**.
-
-**Ф33.** Правка немецкого текста песни (2026-08-31, по вердикту аудита): строфа 12, строка 2 — убран предлог «in» («So zerfiel' in Trümmer» → «So zerfiel' Trümmer»; одическая элизия предлога у Клопштока) — schubertsong.uk — «So zerfiel Trümmer die Schöpfung!»; schubertlied.de — «So zerfiel Trümmer die Schöpfung!» — **verified**. Оба источника дают глагол без апострофа («zerfiel»); апостроф в тексте проекта оставлен без изменений, вердиктом он не затронут.
-
-**Ф34.** Правка немецкого текста песни (2026-08-31, по вердикту аудита): строфа 15, строка 3 — «Er erwachet, wer schläft!» → «Es erwachet, wer schläft!» (безличное коррелятивное es) — schubertsong.uk — «Es erwachet, wer schläft!»; schubertlied.de — «Es erwachet, wer schläft!» — **verified**.
-
 ## 4. Музыка
 
 **Ф14.** Оригинальная тональность — фа мажор (F-Dur) — schubertlied.de — «Originaltonart: F-Dur» — verified.

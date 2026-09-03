@@ -33,8 +33,6 @@
 
 **Ф10.** Джонсон отмечает, что Шиллер, подобно Шекспиру, не был пуристом в обращении с источниками (пример — вымышленная встреча Марии Стюарт и Елизаветы в «Марии Стюарт»); в «Hektors Abschied» он объединяет плач Андромахи после известия о смерти Гектора и её признание в любви в финале «Илиады», когда тело Гектора наконец возвращено, в единое стихотворение. — Hyperion — «Schiller... telescopes the devotion of the spouses into a single poem» — secondary (мнение комментатора).
 
-**Ф29.** Правка текста корпуса по вердикту аудита (2026-08-31), строфа 4, строка 3: было «Müssig liegt dein Eisen in der Halle,» (чтение Шиллера) → стало «Müssig liegt das Eisen in der Halle,» (чтение Шуберта, см. Ф7) — schubertsong.uk (критический текст Растля; в разделе «Original Spelling» сноска «Schubert changed 'dein' (your) to 'das' (the)») — «Müßig liegt das Eisen in der Halle,»; буклет Hyperion CDJ33014 — «Müßig liegt das Eisen in der Halle,» — **verified**. Расхождение «Шуберт против поэта» зафиксировано обоими чтениями в Ф7; в тексте песни теперь стоит шубертовское.
-
 ## 4. Музыка
 
 **Ф11.** Джонсон описывает вступление как «пульсирующие, чреватые аккорды фа минор» (F minor), которые словно жаждут поддержать belcanto-восклицание — и получают его: вокальные линии зачина Андромахи «предвещают юного Верди». — Hyperion — «pregnant and pulsating F minor chords seem to ache to support a bel canto imprécation... the opening vocal lines look forward to the young Verdi» — secondary.

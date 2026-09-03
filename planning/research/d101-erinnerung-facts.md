@@ -31,13 +31,6 @@
 
 **Ф9.** Малколм Рен указывает на игру слов «Rosenschimmer»/«Rosenfeld» — в тексте нет «розового» света, потому что нет (умершего) Розенфельда. — schubertsong.uk — «There is no 'rose' light and the 'field'… consists of withered grass. Rosenfeld is not here. He is dead» — **secondary** (интерпретация).
 
-**Ф24.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 2.1: «bebte» → «tönte» (чтение Шуберта, ср. Ф6) — schubertsong.uk (критический текст Растля) — «Nicht schwermutsvoller tönte des Herbstes Wehn», с примечанием «Schubert changed 'bebte' (stirred) to 'tönte' (rang out)»; буклет Hyperion CDJ33005 — «Nicht schwermutsvoller tönte des Herbstes Weh'n» — **verified**. Расхождение «Шуберт против поэта»: у Маттисона в этом месте «bebte» (schubertsong.uk, «Original Spelling» с тем же примечанием).
-
-**Ф25.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 2.2: «Rasenmahl» → «Rasenmal» — schubertsong.uk — «Durchs tote Gras am sinkenden Rasenmal,» (и в «Original Spelling»: «Durchs todte Gras am sinkenden Rasenmal,»); буклет Hyperion CDJ33005 — «Durchs tote Gras am sinkenden Rasenmal,» — **verified**. Написание с h ни в одном источнике не встречается.
-
-**Ф26.** Правка немецкого текста по вердикту аудита (2026-08-31), строка 3.1: «weih'» → «werd'» — schubertsong.uk — «Ihm Tränen opfern werd ich beim Blätterfall,» (в «Original Spelling»: «Ihm Thränen opfern werd' ich beim Blätterfall,»); буклет Hyperion CDJ33005 — «Ihm Tränen opfern werd' ich beim Blätterfall,» — **verified**. Форма «weih'» ни одним источником не подтверждается; вслед за правкой изменены русский сегмент (werd' — «буду», opfern — «приносить в жертву») и аннотация, цитировавшая старую форму.
-
-
 ## 4. Музыка
 
 **Ф10.** Сухость и скупость начала песни и тональность ми минор перекликаются, по Джонсону, с настроением «Trockne Blumen» из «Прекрасной мельничихи». — буклет Hyperion — «The dry bareness of the opening of this song, and its key of E minor, remind us of the desolation of Trockne Blumen from Die schöne Müllerin» — **secondary**.
