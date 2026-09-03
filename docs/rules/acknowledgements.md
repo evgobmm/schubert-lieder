@@ -103,6 +103,8 @@
   такты); в текстах цитируется как «немецкая справочная статья».
 - **Wien Geschichte Wiki** (geschichtewiki.wien.gv.at) — венские биографические данные
   (даты жизни круга Шуберта).
+- **IMSLP / Petrucci Music Library** (imslp.org, stor.imslp.org) — карточки произведений
+  и оцифровки нот: тональность, темповое обозначение, опус, издатель и год первого издания.
 - **Universitätsbibliothek Freiburg** (ub.uni-freiburg.de) — портал Иоганна Георга Якоби:
   биография и издания поэта.
 - **Universitäts- und Landesbibliothek Düsseldorf** (digital.ulb.hhu.de) — оцифровки

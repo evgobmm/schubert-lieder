@@ -4,6 +4,8 @@
 
 Песня — третья из трёх «Gesänge des Harfners» («Песни Арфиста», op. 12, D 478), объединённых Шубертом одним опусным номером, но не образующих сквозного цикла в музыкальном смысле; в проекте песня учитывается отдельной страницей D 478/3.
 
+**Источники (добор для раздела «4. Музыка»):** буклет Hyperion, https://www.hyperion-records.co.uk/notes/33023-B.pdf (том CDJ33023, разобран через `pdftotext -layout`; ранее в бандле строка D478/3 не была найдена — при повторном прямом разборе PDF нашлась под записью «An die Türen will ich schleichen» с обозначением трека, а не «D478/3»); IMSLP, https://imslp.org/wiki/3_Ges%C3%A4nge_des_Harfners,_D.478_(Schubert,_Franz)
+
 ---
 
 ## 1. Датировка и возраст Шуберта
@@ -34,7 +36,19 @@
 
 ## 4. Музыка
 
-По материалам бандла прямых источников с музыкальным анализом именно D 478/3 (тональность, форма, партия аккомпанемента, разбор по строкам — от Джонсона или Рена) не обнаружено: буклет Hyperion (CDJ33023) в предзагрузке помечен как «строка D478/3 в буклете не найдена» (ok: false), а комментарий Рена на schubertsong.uk посвящён контексту романа и смыслу текста, не нотному разбору. См. «Не подтвердилось / не найдено».
+В исходном бандле буклет Hyperion (CDJ33023) был помечен как «строка D478/3 в буклете не найдена» — при повторном разборе PDF напрямую (`pdftotext -layout`, без опоры на строку «D478/3») эссе Грэма Джонсона по этой песне нашлось: заголовок трека в буклете дан как «AN DIE TÜREN WILL ICH SCHLEICHEN», а не «D478/3».
+
+**Ф24.** Тональность — a-moll; авторское темповое указание — «Mässig, in gehender Bewegung»; Джонсон (со ссылкой на Джона Рида) отмечает, что то же самое указание Шуберт позже поставил в начале первой редакции «Gute Nacht» из «Winterreise», и что песня написана в той же тональности a-moll, что и «Der Leiermann» из того же цикла. — буклет Hyperion CDJ33023 (Грэм Джонсон), https://www.hyperion-records.co.uk/notes/33023-B.pdf — «There is something here of the weird self-contained world of Der Leiermann from Winterreise. Indeed it is in the same key of A minor. John Reed has pointed out that the composer's tempo direction 'Mässig, in gehender Bewegung' was also used at the start of that great cycle (at the head of the first version of Gute Nacht) to launch the winter traveller on his journey.» — **verified**.
+
+**Ф25.** Джонсон описывает музыкальную фактуру песни: она движется ровными четвертями без единого следа оперной риторики («it glides in even crotchets without a trace of operatic convention»), в ней нет текстовых повторов, характерных для двух других песен Арфиста в этом опусе, а настроение — «безысходное и окончательное в неизменном монохроме» («ineluctable and final in the unremitting monochrome of its mood»), с «почти голой простотой» и смутно контрапунктическим, барочным складом письма (Джонсон сравнивает со стилем «Vom Mitleiden Mariä»). — буклет Hyperion CDJ33023 (Джонсон) — «The music itself has no trace of playing a tragic role; gone are the rhetorical text repetitions of the other two songs in the set. The piece is ineluctable and final in the unremitting monochrome of its mood (it glides in even crotchets without a trace of operatic convention) and in its sad and almost barren simplicity. There is a vaguely contrapuntal baroque style to the setting (cf Vom Mitleiden Mariä) which adds to its sense of being lost in time.» — **verified**.
+
+**Ф26.** По словам Джонсона, Шуберт положил стихотворение на музыку один раз и более к нему не возвращался — единственный дополнительный источник по тексту песни: копия с орнаментированной вокальной партией в более низкой тональности, сделанная певцом Иоганном Михаэлем Фоглем; готовя песню к изданию в 1822 году, композитор почти не внёс в неё изменений. — буклет Hyperion CDJ33023 (Джонсон) — «It is interesting that the composer set this poem once and for all (there are no other versions apart from a copy ornamented by Vogl in a lower key) and that he made almost no changes to this work when he prepared it for publication in 1822.» — **verified**.
+
+**Ф27.** Песня подготовлена к изданию издательством Cappi und Diabelli в Вене в 1822 году как Op. 12 № 3. — буклет Hyperion CDJ33023 — «D478 No 3. 1816; prepared for publication by Cappi und Diabelli in Vienna in 1822 as Op 12 No 3» — **verified**.
+
+**Ф28.** По каталогу IMSLP, в издании «Schubert's Werke» песня «An die Türen will ich schleichen» (D 478/3) именуется «Harfenspieler II» и ранее (до принятой сегодня нумерации по Дойчу) числилась под номером D 479; соседняя по опусу песня D 478/2 («Harfenspieler III» в той же нумерации Gesamtausgabe) ранее обозначалась как D 480. Это независимо подтверждает наблюдение Ф17 о путанице нумерации песен Арфиста в каталогах — с указанием точных прежних номеров. — IMSLP, https://imslp.org/wiki/3_Ges%C3%A4nge_des_Harfners,_D.478_(Schubert,_Franz) — «Harfenspieler III (D.478/2) was formerly D.480 Harfenspieler II (D.478/3) was formerly D.479» — **verified**.
+
+Тональность и авторское темповое указание независимо совпадают у Джонсона и у общего знания об этой песне; форма (сквозная, без строфических повторов — прямо отмечено Джонсоном в Ф25) и число тактов отдельно нотной статистикой не подтверждены — партитура в бандле не разбиралась потактно.
 
 ## 5. Смыслы и интерпретации
 
@@ -80,8 +94,8 @@
 
 ## Не подтвердилось / не найдено
 
-- **Публикация нот D 478/3**: номер опуса при первом издании, издатель, год выпуска в печать, судьба автографа — в бандле не найдены (schubertlied.de помечен в манифесте как недоступный: `"ok": false`).
-- **Музыкальный разбор (раздел 4)**: тональность, форма, партия фортепиано, разбор по строкам — отсутствуют; буклет Hyperion CDJ33023 в манифесте помечен «строка D478/3 в буклете не найдена» (`"ok": false`); LiederNet недоступен (`"ok": false`, `ddg_http: 403`); сетевые попытки в этой сессии (поиск через DuckDuckGo HTML, 2 обращения) результата не дали — страница вернула форму-проверку (HTTP 202) без результатов поиска.
+- **Публикация нот D 478/3**: судьба автографа не найдена; издатель и год издания частично закрыты через раздел 4 (Ф27 — Cappi und Diabelli, Вена, 1822, как Op. 12 № 3) и историю IMSLP (первая индивидуальная публикация в собрании сочинений — 1895, Schubert's Werke Serie XX Band 4; см. также прежние номера D 479/D 480, Ф28); формально это данные раздела 4, а не раздела 2 — здесь целенаправленно не проверялись.
+- **Число тактов и потактный разбор** — не найдено; Джонсон (Ф24–Ф26) даёт качественную характеристику фактуры (ровные четверти, отсутствие текстовых повторов), но не потактную схему. LiederNet по-прежнему недоступен (`"ok": false`, `ddg_http: 403`).
 - **Дата рождения Шуберта** для вычисления возраста в момент сочинения (Ф2) — не процитирована ни в одном источнике бандла; возраст 19 лет в сентябре 1816 года приведён как арифметика, не как проверенный факт, и помечен uncertain.
 - **Рецепция именно этой песни** (раздел 6) — фактов, относящихся конкретно к D 478/3 (а не к гётевским песням Шуберта в целом), в бандле нет.
 - Год издания нотного текста первой части «Фауста» и точная дата письма Гёте Цельтеру (из досье поэта) к этой песне отношения не имеют и здесь не используются.

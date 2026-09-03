@@ -4,6 +4,8 @@
 
 Источники в бандле: schubertsong.uk (комментарий и «Original Spelling» Малколма Рена, полностью). schubertlied.de и LiederNet в манифесте помечены как недоступные (`"schubertlied.de": {"ok": false}`, `"liedernet": {"ok": false}`); Hyperion — пустой список (`"hyperion": []`), для этой песни буклетного комментария Грэма Джонсона в бандле нет. Попытка добрать LiederNet через DuckDuckGo (2 сетевых обращения, как разрешено) вернула HTTP 202 без результатов — сеть не отвечает содержательно, как и было отмечено в манифесте; далее работа велась только по бандлу.
 
+Раздел 4 добран отдельным проходом: манифестная ссылка на schubertlied.de вела на несуществующий URL (`der-zurnenden-diana-d707`); верный слаг — `der-zuernenden-diana-d707-zweite-fassung` (найден через страницу-каталог `/die-lieder`). Источники: IMSLP — https://imslp.org/wiki/Der_zürnenden_Diana,_D.707_(Schubert,_Franz); schubertlied.de — https://www.schubertlied.de/die-lieder/der-zuernenden-diana-d707-zweite-fassung; буклет Naxos CD 8.557567 (Ulrich Eisenlohr, «Deutsche Schubert-Lied-Edition, Vol. 28 — Friends, Vol. 3») — https://stor.imslp.org/naxos/booklets/booklet-8.557567.pdf.
+
 ---
 
 ## 1. Датировка и возраст Шуберта
@@ -16,7 +18,7 @@
 
 ## 2. Публикация и автограф
 
-Не найдено: в бандле нет сведений о прижизненном (либо посмертном) издании самой песни D 707 Шубертом — ни номера опуса, ни года публикации, ни сведений об автографе. Источники schubertlied.de и Hyperion, где такие данные обычно приводятся, для этой песни в бандле отсутствуют (см. манифест).
+Опус, год публикации, издатель и посвящение добраны отдельным проходом — см. Ф28, Ф31 в разделе 4 (Op.36 №1, Cappi und Comp., Вена, объявлено 11 февраля 1825; переиздание в Gesamtausgabe — Breitkopf & Härtel, 1895). Сведений об автографе (местонахождение, шифр) по-прежнему нет — **не найдено**.
 
 ## 3. Текст и источник
 
@@ -38,7 +40,17 @@
 
 ## 4. Музыка
 
-Не найдено: в бандле нет данных о тональности, форме, темповом указании, фактуре аккомпанемента или музыкальном разборе по строкам для D 707 — ни schubertlied.de (страница отмечена в манифесте как недоступная, `"ok": false`), ни буклет Hyperion (список пуст, `"hyperion": []`) для этой песни в бандл не попали. Комментарий Малколма Рена на schubertsong.uk посвящён исключительно литературному и мифологическому содержанию текста (см. §5), а не музыкальным средствам Шуберта.
+**Ф27.** Тональность и темп: опубликованная (2-я) редакция — ля-бемоль мажор (As-Dur / A-flat major), темповое обозначение — «Entschlossen» (решительно); более ранняя, неопубликованная 1-я редакция была написана в ля мажоре (A major). — IMSLP, https://imslp.org/wiki/Der_zürnenden_Diana,_D.707_(Schubert,_Franz) — «Key / A major - 1st version A-flat major - 2nd version»; «Movements/Sections / Entschlossen» — verified; независимо подтверждено schubertlied.de, https://www.schubertlied.de/die-lieder/der-zuernenden-diana-d707-zweite-fassung — «Originaltonart: As-Dur» — verified (два независимых источника для тональности опубликованной редакции).
+
+**Ф28.** Дата первого издания (объявлено) — 11 февраля 1825 года; песня вышла как №1 в Opus 36 (вместе с «Nachtstück», D 672, на слова того же Майрхофера), издатель — Cappi und Comp. в Вене, Verlagsnummer 60; посвящение — госпоже Катарине фон Лацны, урождённой Бухвизер (Katharina von Lacsny, geb. Buchwieser). Это закрывает лакуну §2 (посвящение и первое издание самой песни ранее не найдены). — schubertlied.de, там же — «Veröffentlichung (angezeigt): 11. Februar 1825»; «Die Veröffentlichung besorgte 1825 Cappi und Comp. in Wien als Opus 36 - 1 | Verlagsnummer 60»; титульный лист: «Die zürnende Diana D 707 Nachtstück D 672 gedichtet von Joh: Mayrhofer in Musik gesetzt für eine Singstimme mit Begleitung des Pianoforte und der Frau Katharina von Lacsny gebornen Buchwieser gewidmet von Franz Schubert» — verified.
+
+**Ф29.** Название в рукописи и в первом издании — «Die zürnende Diana» (с определённым артиклем перед прилагательным, а не «Der zürnenden Diana» без него, как в проекте и в позднейшей традиции). — schubertlied.de, там же — «Der Titel dieses Liedes lautet im Manuskript Die zürnende Diana (auch der Titel im Erstdruck)» — verified.
+
+**Ф30.** Музыкальная характеристика и трудности исполнения (буклет Naxos, Ulrich Eisenlohr): у песни исключительно сложная фортепианная партия, а её широко раскинутые, почти бесконечные и предельно выразительные вокальные линии предъявляют огромные требования к певцу; сочинение балансирует на грани «желания слишком многого» — особенно во второй, продолжительной части («Den Sterbenden wird noch dein Bild erfreuen» — «Твой образ ещё порадует умирающего»), с её неприкрытой эротической темой и разнообразными, полными смакования музыкальными описаниями смерти героя, застреленного мстительной Дианой стрелой после того, как он тайно наблюдал за её купанием. — буклет Naxos CD 8.557567 (Ulrich Eisenlohr, «Deutsche Schubert-Lied-Edition, Vol. 28 — Friends, Vol. 3»), https://stor.imslp.org/naxos/booklets/booklet-8.557567.pdf — «the song Der zürnenden Diana (D.707)... has an enormously difficult piano part and, in its wide-ranging, almost endless and highly expressive vocal lines, makes great demands on the singer. So the work goes right to the edge of "wanting too much", above all in the long second section... with its undisguised erotic theme and the varied musical descriptions, full of relish, of the death of the protagonist, whom the vengeful Diana has shot with an arrow, after he secretly watched her bathing.» — verified.
+
+**Ф31.** Издание в старом Полном собрании сочинений (Gesamtausgabe): Schubert's Werke, Серия XX, том 6 (1819–21), №387, с. 133–48, ред. Эйсебиус Мандичевски, Leipzig: Breitkopf & Härtel, 1895, доска (Plate) F.S. 738-39; переиздание — New York: E.F. Kalmus, №1084, б.д. [1933]. — IMSLP, там же — «Schubert's Werke, Serie XX, Band 6. 1819-21, No.387 (pp.133-48) Leipzig: Breitkopf & Härtel, 1895. Plate F.S. 738-39.»; «Reprinted: New York: E.F. Kalmus, No. 1084, n.d.[1933].» — verified.
+
+Не найдено: точное число тактов песни; форма (строфическая/сквозная) отдельной цитатой не названа, хотя из Ф30 (два раздела, с контрастной «второй, продолжительной частью») следует, что песня не строфическая, а близка к двухчастной сквозной форме.
 
 ## 5. Смыслы и интерпретации
 
@@ -88,8 +100,8 @@
 
 ## Не подтвердилось / не найдено
 
-- Тональность, темповое указание, форма и особенности фортепианной партии D 707 — не найдено (schubertlied.de и Hyperion-буклет для этой песни в бандле отсутствуют).
-- Дата и обстоятельства первого издания самой песни (не стихотворения) Шубертом, номер опуса, автограф — не найдено.
+- Тональность, темп, издание, посвящение и характер фортепианной партии — добраны отдельным проходом (Ф27–Ф31 в разделе 4): манифестная ссылка на schubertlied.de вела на несуществующий URL, верный слаг — `der-zuernenden-diana-d707-zweite-fassung`; буклет Hyperion по-прежнему недоступен, но независимый буклет Naxos CD 8.557567 (Eisenlohr) дал музыкальную характеристику и указание на трудности исполнения. Точное число тактов не найдено.
+- Автограф (местонахождение, шифр) — по-прежнему не найдено.
 - Реакция современников, письма или дневниковые записи, относящиеся именно к этой песне, — не найдено.
 - Судьба рукописи и более поздняя история изданий — не найдено.
 - Попытка добрать страницу LiederNet через поиск DuckDuckGo (2 сетевых обращения) результатов не дала — HTTP 202 без ссылок; при возможности сеть заработает, стоит повторно проверить LiederNet отдельно.

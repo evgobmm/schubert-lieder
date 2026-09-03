@@ -1,6 +1,6 @@
 # Факты: «Strophe aus „Die Götter Griechenlands“» (D 677)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/strophe-aus-die-gotter-griechenlands/; ADB (Шиллер) — https://de.wikisource.org/wiki/ADB:Schiller,_Friedrich_von; Deutsche Biographie (Шиллер) — https://www.deutsche-biographie.de/gnd118607626.html; schubertlied.de (общий очерк «Шуберт и Шиллер») — https://www.schubertlied.de/die-lieder/ritter-toggenburg; Hyperion (Грэм Джонсон, о «Der Taucher») — https://www.hyperion-records.co.uk/dw.asp?dc=W2393_GBAJY8800213; Wikipedia (Цумштег) — https://en.wikipedia.org/wiki/Johann_Rudolf_Zumsteeg
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/strophe-aus-die-gotter-griechenlands/; ADB (Шиллер) — https://de.wikisource.org/wiki/ADB:Schiller,_Friedrich_von; Deutsche Biographie (Шиллер) — https://www.deutsche-biographie.de/gnd118607626.html; schubertlied.de (общий очерк «Шуберт и Шиллер») — https://www.schubertlied.de/die-lieder/ritter-toggenburg; Hyperion (Грэм Джонсон, о «Der Taucher») — https://www.hyperion-records.co.uk/dw.asp?dc=W2393_GBAJY8800213; Wikipedia (Цумштег) — https://en.wikipedia.org/wiki/Johann_Rudolf_Zumsteeg; IMSLP — https://imslp.org/wiki/Die_G%C3%B6tter_Griechenlands,_D.677_(Schubert,_Franz)
 
 Немецкий текст песни в проекте (3 строфы, повтор строк — как в нотах): «Schöne Welt, wo bist du? / Kehre wieder, holdes Blüthenalter der Natur!» (дважды) — «Ach, nur in dem Feenland der Lieder / Lebt noch deine fabelhafte Spur» + «Ausgestorben trauert das Gefilde... Blieb der Schatten nur zurück» — и снова рефрен, с добавлением «Schöne Welt, wo bist du, wo bist du?» в финале. Досье поэта: Фридрих Шиллер (переиспользуется со ссылкой «досье, Ф№», заново не проверялось).
 
@@ -32,7 +32,17 @@
 
 ## 4. Музыка
 
-**Ф10.** Отдельного музыковедческого комментария к D 677 (тональность, форма, аккомпанемент) в предзагруженных источниках нет: страница schubertlied.de для этой песни недоступна (манифест «ok: false»), а в буклете Hyperion CDJ33014 запись про D 677 не найдена — **не подтвердилось / не найдено**.
+**Ф10.** Отдельного музыковедческого комментария к D 677 (построчный разбор, фактура аккомпанемента) в предзагруженных источниках нет: страница schubertlied.de для этой песни недоступна (манифест «ok: false»), а в буклете Hyperion CDJ33014 запись про D 677 не найдена — **не подтвердилось / не найдено** (карточка IMSLP, Ф25–Ф29 ниже, закрывает часть пробела).
+
+**Ф25.** У D 677 существуют две редакции (1st version / 2nd version), обе в тональности ля минор, обе с темповым/характерным указанием «Langsam, mit heiliger Sehnsucht» (медленно, со священной тоской) и обе датированы 1819 годом — IMSLP, карточка произведения — «Key: A minor (both versions). Movements/Sections: Langsam, mit heiliger Sehnsucht (both versions). Year/Date of Composition: 1819 (both versions).» — verified.
+
+**Ф26.** Первая редакция впервые опубликована в 1895 году, вторая — раньше, в 1848 году — IMSLP, карточка произведения — «First Publication: 1895 (1st version) 1848 (2nd version)» — verified.
+
+**Ф27.** Первая редакция вошла в Полное собрание сочинений Шуберта («Schubert's Werke»), Серия XX, том 6 (песни 1819–21), под редакцией Э. Мандычевского, Лейпциг: Breitkopf & Härtel, 1895, № 371a, с. 76–77, гравировальная доска F.S. 720; вторая редакция помещена там же под № 371b, с. 78–79, доска F.S. 721 — IMSLP — «Schubert's Werke, Serie XX, Band 6. 1819-21, No.371a (pp.76-77)... Plate F.S. 720» и «No.371b (pp.78-79)... Plate F.S. 721» — verified.
+
+**Ф28.** Средняя продолжительность звучания — около 4 минут (указана для обеих редакций одинаково) — IMSLP, карточка произведения — «Average Duration: 4 minutes (both versions)» — verified.
+
+**Ф29 (требует сверки с Ф8).** По карточке IMSLP, Шуберт положил на музыку только 12-ю строфу стихотворения Шиллера — IMSLP — «Extra Information: Schubert sets only stanza 12 of Schiller's poem.» — verified (как утверждение самого IMSLP). Это расходится с формулировкой schubertsong.uk/Растля (Ф8: последняя, 15-я строфа редакции 1800 года из 16); возможно, расхождение — в способе нумерации строф (с рефреном или без, по другой редакции текста), источники это не поясняют. Обе версии зафиксированы как есть, без попытки разрешить противоречие домыслом.
 
 ## 5. Смыслы и интерпретации
 
@@ -72,7 +82,7 @@
 
 ## Не подтвердилось / не найдено
 
-- Тональность, форма, аккомпанемент и построчный музыкальный разбор D 677 (страница schubertlied.de для песни недоступна; в буклете Hyperion CDJ33014 запись о D 677 не найдена).
-- Дата и обстоятельства прижизненной или посмертной публикации D 677, сведения об автографе.
+- Форма, размер, число тактов, фактура аккомпанемента и построчный музыкальный разбор D 677 (тональность, темповое указание, продолжительность и годы первых публикаций обеих редакций теперь известны по IMSLP — Ф25–Ф28; страница schubertlied.de для песни по-прежнему недоступна, в буклете Hyperion CDJ33014 запись о D 677 не найдена).
+- Обстоятельства прижизненной публикации 1848 года (2-я редакция) и посмертной 1895 года (1-я редакция) — только факт и год известны (Ф26–Ф27); издатель 1848 года, опус/номер и сведения об автографе не найдены.
 - Документы и отклики современников конкретно о D 677.
 - Резервная запись Хэмпсон — Джонсон (Hyperion, т. 14, сессии 5–8 октября 1991) — videoId на YouTube/Topic не найден, в топ-5 не включена.

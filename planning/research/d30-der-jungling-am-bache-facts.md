@@ -1,6 +1,6 @@
 # Факты: «Der Jüngling am Bache» (D 30)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/der-jungling-am-bache/
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/der-jungling-am-bache/; IMSLP — https://imslp.org/wiki/Der_J%C3%BCngling_am_Bache,_D.30_(Schubert,_Franz); schubertlied.de — https://www.schubertlied.de/die-lieder/der-juengling-am-bache-d30-erste-bearbeitung; Hyperion CDJ33001 (буклет, эссе Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33001-B.pdf
 
 Немецкий текст песни в проекте: `app/src/data/songs/d30-der-jungling-am-bache.json`. Поэт — Фридрих Шиллер. Четыре строфы по восемь строк; в строфах 1 и 3 последняя строчная пара повторена (в строфе 3 — с переменой порядка строк: «Und das Herz ist ungestillt, / Ich kann es nicht erreichen» вместо исходного «Ach ich kann es nicht erreichen, / Und das Herz ist ungestillt») — это musicальное повторение самого Шуберта при распеве, а не строфика поэта: в оригинале Шиллера (по тексту, приведённому на schubertsong.uk) повторов нет. Досье поэта: `planning/research/poets/schiller.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-4 записей D 30 (внутренний файл проекта, не URL-источник).
 
@@ -36,7 +36,17 @@
 
 ## 4. Музыка
 
-*Данных не найдено* — тональность, форма, аккомпанемент и темповые указания для D 30 не подтверждены ни одним доступным источником (см. «Не подтвердилось / не найдено»).
+**Ф23.** D 30 (первая редакция) написана в тональности фа мажор (F-Dur), темповое указание — Allegretto — IMSLP + schubertlied.de — «Key: F major… Movements/Sections: Allegretto» / «Originaltonart: F-Dur» — verified (два независимых источника).
+
+**Ф24.** Первое издание — 1894 год, в составе Alte Gesamtausgabe (Полное собрание сочинений), Serie XX, Band 1, под редакцией Эусебиуса Мандычевского, издательство Breitkopf & Härtel (Лейпциг), пластина F.S. 308 — IMSLP + schubertlied.de — «First Publication: 1894» / «Publisher Info: Schubert's Werke, Serie XX, Band 1 […] Leipzig: Breitkopf & Härtel, 1894. Plate F.S. 308» — verified.
+
+**Ф25.** Автограф песни хранится в Wienbibliothek im Rathaus (Венская городская библиотека в Ратуше) — schubertlied.de — «Ort des Manuskripts: Wienbibliothek im Rathaus der Stadt Wien» — verified.
+
+**Ф26.** По форме D 30 не строго строфична в строгом северогерманском смысле: Шуберт варьирует трактовку второй половины каждой строфы; в целом песня подобна рондо со вставками, где речитатив ведёт назад к чарующему ариозо — Hyperion CDJ33001, эссе Грэма Джонсона — «It is not strictly strophic in the rigid North German sense because […] Schubert varies the treatment of the second half of each verse. The whole is like a rondo with interludes; recitative leads back to enchanting arioso» — verified (дословная цитата эссе).
+
+**Ф27.** Первая часть песни (D 17 № 1 — упражнение Сальери на текст Метастазио «Quell' Innocente Figlio») обнаруживает сильное сходство с D 30, которая по сути является первой песней Шуберта; спустя два с половиной года композитор переработал материал как D 192 (мелодия остаётся очень похожей, но транспонирована в минор), а в 1819 году последовала третья попытка — D 638 (музыкально совершенно новая, но по-прежнему строфическая) — Hyperion CDJ33001, эссе Грэма Джонсона — «Two and a half years later the composer adjusted the setting (D192 […] transposed to the minor key) and in 1819 there was a third attempt (D638 completely new musically, but still strophic)» — verified.
+
+*Не найдено:* точное число тактов, конкретная фигура фортепианного аккомпанемента (описана только опосредованно через характеристику формы), посвящение, редакции текста нотного набора помимо Alte Gesamtausgabe/NSA (Neue Schubert-Ausgabe IV, Bd. 04, издание Bärenreiter, номер по каталогу BA05516 — сама NSA-публикация не открыта; только карточка на schubertlied.de).
 
 ## 5. Смыслы и интерпретации
 
@@ -74,8 +84,8 @@
 
 ## Не подтвердилось / не найдено
 
-- Страница schubertlied.de по D 30 отсутствует (сервер отдаёт error-page «Seite nicht gefunden»; проверено повторным запросом) — сведения о тональности, форме, аккомпанементе, издателе первой публикации и автографе D 30 из этого справочника недоступны.
-- Буклет Hyperion (CDJ33001, комментарий Грэма Джонсона) не содержит найденной строки о D 30 конкретно (по манифесту предзагрузки) — оценки Джонсона по музыке именно этой песни недоступны.
+- Страница schubertlied.de по D 30 в предзагруженном бандле была недоступна; при повторном сетевом поиске (доразведка раздела «Музыка», см. Ф23–Ф25) страница найдена под другим URL (`der-juengling-am-bache-d30-erste-bearbeitung`) и дала тональность, дату первого издания и место автографа.
+- Буклет Hyperion (CDJ33001) в предзагруженном бандле не был получен; при повторном обращении (прямая загрузка PDF) эссе Грэма Джонсона о D 30 найдено и дало форму, историю трёх редакций текста (D 30 → D 192 → D 638) и параллель с упражнением Сальери D 17 № 1 (см. Ф26–Ф27).
 - Страница LiederNet по этому тексту не найдена: сетевой поиск (DuckDuckGo) не вернул рабочей ссылки на lieder.net с текстом «Der Jüngling am Bache» / «An der Quelle saß der Knabe».
-- Обстоятельства и дата первой публикации нот D 30 (посмертная или прижизненная) не установлены ни одним доступным источником.
+- Точное число тактов, детальная фигура фортепианного аккомпанемента по строфам, посвящение — не найдены ни в одном источнике.
 - Год свадьбы Шиллера с Шарлоттой фон Ленгефельд у источников расходится (1789 vs 1790 — досье, Ф9) — к теме песни не относится, факт не используется.

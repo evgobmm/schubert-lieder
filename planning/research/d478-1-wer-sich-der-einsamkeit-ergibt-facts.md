@@ -6,15 +6,23 @@
 
 **Сетевые попытки (в пределах бюджета 2 обращений).** `curl` на `https://html.duckduckgo.com/html/?q=site%3Alieder.net+%22Wer+sich+der+Einsamkeit+ergibt%22` — пустой ответ (0 совпадений get_text.html). `curl` на `https://www.schubertsong.uk/text/wer-sich-der-einsamkeit-ergibt/` и на `https://www.schubertlied.de/die-lieder/wer-sich-der-einsamkeit-ergibt-d478` (варианты URL из манифеста) — оба вернули HTTP 404 (сеть отвечает: контрольный запрос к google.com дал 200, т.е. это не сбой сети, а неверный/нерабочий путь на самих ресурсах). Дальше сетевой бюджет не расходовался — работа велась по содержимому бандла.
 
+**Доразведка раздела «Музыка» (отдельная задача).** Верный URL schubertlied.de для этой песни найден: `https://www.schubertlied.de/die-lieder/harfenspieler-wer-sich-der-einsamkeit-ergibt` (в манифесте был указан неверный слаг). Буклет Hyperion CDJ33023 при прямой загрузке PDF (`https://www.hyperion-records.co.uk/notes/33023-B.pdf`, а не `.../notes/CDJ33023-B.pdf`, как ошибочно пробовалось раньше) оказался доступен и содержит полное эссе Грэма Джонсона о D 478/1 — вывод манифеста «строка D478/1 в буклете не найдена» относился к неверно сформированному URL, а не к отсутствию текста. Источники: IMSLP — https://imslp.org/wiki/Harfenspieler,_D.478_(Schubert,_Franz); schubertlied.de — https://www.schubertlied.de/die-lieder/harfenspieler-wer-sich-der-einsamkeit-ergibt; Hyperion CDJ33023 (буклет, эссе Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33023-B.pdf
+
 ---
 
 ## 1. Датировка и возраст Шуберта
 
-Не подтвердилось. Точная дата сочинения D 478/1, возраст Шуберта на момент написания и обстоятельства (например, связь с циклом «Gesänge des Harfners» op. 12) в бандле источником с цитатой не зафиксированы. Год «1816», указанный в служебном заголовке бандла (строка 1: «поэт Johann Wolfgang von Goethe, год 1816»), — это поле метаданных задания, а не цитата проверенного источника; публиковать его как факт нельзя.
+**Ф7.** Источники расходятся в дате сочинения первой версии D 478/1: schubertlied.de называет 13 ноября 1815 года (Шуберту было 18 лет), IMSLP — сентябрь 1816 года. — schubertlied.de — «Komponiert: 13. November 1815… Schubert war 18 Jahre alt, als er dieses Lied schrieb» / IMSLP — «Year/Date of Composition: 1816 September (1st version)» — uncertain (два источника дают разные годы; для страницы песни требуется дополнительная проверка, например по Neue Schubert-Ausgabe или Deutsch-Verzeichnis).
+
+**Ф8.** D 478/1 — вторая по времени редакция (Vertonung) стихотворения Гёте «Wer sich der Einsamkeit ergibt»; первая редакция — D 325 (1815 год) — IMSLP — «D.478/1 is the 2nd setting of the text; D.325 is the 1st setting» — verified.
 
 ## 2. Публикация и автограф
 
-Не подтвердилось. Данных о первом издании, издательстве, номере опуса при первой публикации, местонахождении автографа в бандле нет.
+**Ф9.** Вторая (окончательная) редакция D 478/1 впервые опубликована в 1822 году в Вене издательством Cappi & Diabelli (Cappi und Diabelli) как Op. 12 № 1, пластина 1161; первая редакция впервые опубликована лишь в 1895 году в Alte Gesamtausgabe — IMSLP + schubertlied.de — «First Publication: … 1822 – Vienna: Diabelli & Cappi, Plate 1161 (2nd version)» / «Die Veröffentlichung besorgte 1822 […] Verlagsnummer 1161» — verified (два источника подтверждают год, издателя и номер пластины).
+
+**Ф10.** Указанная (объявленная) дата публикации по schubertlied.de — 13 декабря 1822 года — schubertlied.de — «Veröffentlichung (angezeigt): 13. Dezember 1822» — verified.
+
+*Не найдено:* местонахождение автографа D 478/1.
 
 ## 3. Текст и источник
 
@@ -24,7 +32,23 @@
 
 ## 4. Музыка
 
-Не подтвердилось. Тональность, форма, тип аккомпанемента, разбор по строкам (Джонсон, Рен) — ни один из этих источников (Hyperion PDF, schubertlied.de, schubertsong.uk) не был получен; в самом манифесте прямо указано: «строка D478/1 в буклете не найдена».
+**Ф11.** Оригинальная тональность песни — ля минор (a-Moll / A minor) — schubertlied.de + IMSLP — «Originaltonart: a-Moll» / файл окончательной редакции подписан «(Original / High voice, A minor)» — verified (два независимых источника).
+
+**Ф12.** Темповое указание разнится по редакциям: у первой версии (1816) — «Langsam», у второй, опубликованной как Op. 12 № 1 (1822), и у поздней редакции Neue Schubert-Ausgabe — «Sehr langsam» — IMSLP — «1st Version … Harfenspieler I (2nd setting – 1st version) (Langsam)» / «2nd Version … Harfenspieler I (2nd setting – 2nd version) (Sehr langsam)» — verified.
+
+**Ф13.** Шуберт точно следует авторской ремарке Гёте перед стихотворением («Старик посмотрел на струны и, тихо проиграв вступление, настроил их и запел») — вступление звучит как импровизация, нерешительно, будто исполняется не молодым певцом, а стариком, отягощённым заботами; это простое четырёхтактовое вступление приводит к аккорду ля минор и при этом несёт в себе тяжкую скорбь — Hyperion CDJ33023, эссе Грэма Джонсона — «Schubert writes a prelude which fits this description like a glove. The introduction sounds improvised, tentative certainly, perhaps even a little absent-minded… this simple four-bar introduction which leads us to an A minor chord is somehow invested with towering grief» — verified.
+
+**Ф14.** Начальные слова («Wer sich der Einsamkeit ergibt») восходят по арпеджио с крещендо, будто сдавленные долго сдерживаемым чувством, которое наконец прорывается в пении, — весь этот раздел звучит как импровизированный девиз, ещё не начавшаяся собственно песня об участи Арфиста — Hyperion CDJ33023, эссе Грэма Джонсона — «The opening words […] climb up an arpeggio with a crescendo; they seem tight with an emotion hitherto suppressed and which now breaks out in song» — verified.
+
+**Ф15.** Орнаментика вокальной партии отсутствовала в рукописи 1816 года и была добавлена при подготовке издания 1822 года — по мнению Джонсона, здесь чувствуется рука певца Иоганна Михаэля Фогля — Hyperion CDJ33023, эссе Грэма Джонсона — «The ornamentation of the vocal line is not found in the 1816 copy and was added when the work was prepared for publication in 1822. We detect here the hand of the singer Johann Michael Vogl» — secondary (мнение/атрибуция автора эссе, не задокументированный факт).
+
+**Ф16.** Аккомпанемент во второй части песни (на словах «Es schleicht ein Liebender…») переходит в почти безликое сопровождение триолями; Джонсон связывает характер вокальной партии здесь с итальянской кантиленой, поскольку Арфист — итальянец (как и Миньон, он «из страны, где цветут лимоны») — Hyperion CDJ33023, эссе Грэма Джонсона — «The floridity of the vocal writing is supported by an almost anonymous accompaniment in triplets. It seems obvious that Schubert gave this music the character of an Italian cantilena precisely because the harper is an Italian» — secondary (интерпретационное суждение).
+
+**Ф17.** Шуберт повторяет последние четыре строки стихотворения, превращая песню в четырёхстрофную вместо трёхстрофной по тексту; тесситура на словах «im Grabe sein» уходит на самое дно теноровой партии, а первое «da lässt sie mich allein», внезапно взятое высоко, отмечено фортиссимо пугающей силы — Hyperion CDJ33023, эссе Грэма Джонсона — «Schubert repeats the last four lines of the poem to make a song of four rather than three strophes… The tessitura of 'im Grabe sein' burrows right down to the bottom of the tenor's range… the first 'da lässt sie mich allein', suddenly high in contrast, is marked with a fortissimo of frightening vehemence» — verified.
+
+**Ф18.** Этот финальный пассаж и постлюдия дополнительно усилены нисходящими октавами в партии левой руки — в духе баса-остинато арии Дидоны Пёрселла «When I am laid in earth»; Джонсон предполагает, что именно учитель Шуберта Сальери мог познакомить ученика с традицией итальянского lamento с басом, нисходящим по тетрахорду — Hyperion CDJ33023, эссе Грэма Джонсона — «This passage, as well as the postlude, is rendered even more eloquent by sinking octaves in the left-hand accompaniment in the manner of Purcell's great aria for Dido 'When I am laid in earth'» — secondary (интерпретационная параллель автора эссе).
+
+*Не найдено:* точное число тактов; редакция Neue Schubert-Ausgabe (Serie IV, Bd. 1b, издание Walther Dürr, Bärenreiter, пластина BA 5506, 1970) упомянута на IMSLP только библиографически — её собственный текст (предисловие) не открывался.
 
 ## 5. Смыслы и интерпретации
 
@@ -58,10 +82,10 @@
 
 ## Не подтвердилось / не найдено
 
-- Точная дата сочинения D 478/1 и возраст Шуберта на момент написания — источник с цитатой отсутствует; в бандле есть только служебное поле «год 1816» без атрибуции.
-- Автограф, первое издание, издатель, номер опуса при публикации, история рукописи.
-- Первая публикация стихотворения Гёте и построчное сравнение текста Шуберта с оригиналом поэта (в т.ч. орфография эпохи) — schubertsong.uk и LiederNet не были получены ни при предзагрузке, ни при собственных сетевых попытках.
-- Музыкальный разбор: тональность, форма, тип фактуры аккомпанемента, ключевые события по строкам (Джонсон, буклет Hyperion; Рен, schubertsong.uk) — ни один из этих источников не открылся; манифест прямо отмечает, что «строка D478/1 в буклете [Hyperion] не найдена».
+- Точная дата сочинения D 478/1 — источники расходятся (schubertlied.de: 13.11.1815; IMSLP: сентябрь 1816) — см. Ф7; согласовать по дальнейшей проверке (Neue Schubert-Ausgabe/Deutsch-Verzeichnis).
+- Автограф — местонахождение рукописи не найдено ни в одном из проверенных источников (IMSLP, schubertlied.de, буклет Hyperion).
+- Первая публикация стихотворения Гёте и построчное сравнение текста Шуберта с оригиналом поэта (в т.ч. орфография эпохи) — schubertsong.uk и LiederNet так и не открылись при доразведке (правильный URL schubertsong.uk для этой песни не установлен; страница по прежнему URL из манифеста отдаёт 404).
+- Число тактов, полный текст предисловия Neue Schubert-Ausgabe (издание Walther Dürr, 1970) — на IMSLP есть только библиографическая карточка.
 - Рецепция современников и документы эпохи, относящиеся именно к этой песне (не к общему корпусу песен Шуберта на слова Гёте).
-- Дальнейшая судьба и наследие произведения.
+- Дальнейшая судьба и наследие произведения помимо истории редакций (см. Ф7–Ф10).
 - Собственная попытка добрать LiederNet через DuckDuckGo не вернула ни одной ссылки на `get_text.html`; прямые попытки открыть указанные в манифесте URL schubertsong.uk и schubertlied.de дали HTTP 404 — вероятно, пути в манифесте не соответствуют текущей структуре этих сайтов; повторная проверка правильных адресов вручную не проводилась (вне сетевого бюджета этого бандла).

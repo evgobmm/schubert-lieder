@@ -1,6 +1,6 @@
 # Факты: «Gretchen im Zwinger» (D 564)
 
-Источники: Schubert Song Texts — https://www.schubertsong.uk/text/gretchen-im-zwinger/
+Источники: Schubert Song Texts — https://www.schubertsong.uk/text/gretchen-im-zwinger/ ; IMSLP — https://imslp.org/wiki/Gretchen_im_Zwinger,_D.564_(Schubert,_Franz) ; буклет Naxos 8.554666 (Goethe Lieder, т. 2) — https://stor.imslp.org/naxos/booklets/booklet-8.554666.pdf
 
 Немецкий текст песни в проекте (пять строф, начало сцены — без двух заключительных строф «Die Scherben…» и «Schien hell…», данных на источнике курсивом): «Ach neige, / Du Schmerzenreiche, / Dein Antlitz gnädig meiner Noth!» … «Das Herz zerbricht in mir.» Поэт — Иоганн Вольфганг фон Гёте, текст — сцена 18 («Zwinger») из первой части «Фауста». Досье поэта: `planning/research/poets/goethe.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в бандле, `planning/youtube/data/d564-gretchen-im-zwinger.dossier.json`.
 
@@ -36,7 +36,19 @@
 
 ## 4. Музыка
 
-Развёрнутого музыкального комментария (тональность, форма, аккомпанемент, ключевые события по строкам) в бандле нет: аннотация Hyperion для D 564 отсутствует, schubertlied.de недоступен. См. «Не подтвердилось».
+**Ф21.** Тональность — си-бемоль минор (B-flat minor); авторское исполнительское указание (характер/темп) — «Sehr langsam» («очень медленно»). — IMSLP — «Key: B-flat minor»; «Movements/Sections: Sehr langsam» — verified.
+
+**Ф22.** Издательское альтернативное заглавие песни — «Gretchen's Plea» (нем. «Gretchens Bitte»); под этим заглавием песня была впервые опубликована в 1838 году. — cross-verified: IMSLP — «Alternative Title: Gretchen's Plea»; «First Publication.: 1838»; буклет Naxos 8.554666 — «8 Gretchen im Zwinger / D 564 (1817), veröffentlicht 1838 als “Gretchens Bitte”.» — verified.
+
+**Ф23.** Автограф песни сохранился не полностью: листы с (по-видимому, завершённой) музыкой трёх последних строф утрачены и не сохранились даже в копиях — согласуется с Ф2 (Шуберт не положил на музыку строфы, набранные курсивом в источнике текста). — буклет Naxos 8.554666 — «Unfortunately the manuscript of the song (D 564), written in May 1817, is incomplete, the pages of the probably finished setting of the last three strophes are lost and do not survive in copies.» / нем. оригинал буклета: «die Blätter mit der – wahrscheinlich vollendeten – Vertonung der letzten drei Strophen sind verschollen und auch in Abschriften nicht erhalten» — verified.
+
+**Ф24.** Сохранившийся фрагмент арии делится на три относительно самостоятельные части, отличающиеся прежде всего многочисленными «беспокойными» гармоническими сдвигами (модуляциями). — буклет Naxos 8.554666 — «The existing aria fragment is divided into three independent parts, which are striking above all in their many ‘restless’ shifts of harmony.» / нем.: «Das vorliegende Arien-Fragment ist gegliedert in drei voneinander eher unabhängig gestaltete Teile, die vor allem durch die zahlreichen „ruhelosen“ harmonischen Wendungen auffallen.» — secondary (интерпретирующая формулировка буклета).
+
+**Ф25.** Переиздание в Alte Gesamtausgabe вышло в 1895 году: «Schubert's Werke», Serie XX, Band 10, Anhang (приложение), № 596 (стр. 116–118), Leipzig: Breitkopf & Härtel, под редакцией Эузебиуса Мандычевского, нотная пластина (Platte) F.S. 962; помещение именно в «Anhang» (приложение) отражает незавершённость произведения (см. Ф23), а хранящийся на IMSLP скан этого издания обозначен там как «Fragment». — IMSLP — «Publisher Info.: Schubert's Werke, Serie XX, Band 10. Anhang, No.596 (pp.116-18) Leipzig: Breitkopf & Härtel, 1895. Plate F.S. 962.»; заголовок скана — «Fragment» — verified.
+
+**Ф26.** Позднейшее переиздание нот — Нью-Йорк, издательство E. F. Kalmus, № 1093, без указания года [1965]. — IMSLP — «Reprinted: New York: E.F. Kalmus, No. 1093, n.d.[1965].» — verified.
+
+Не подтвердилось / не найдено (несмотря на дополнительный поиск): число тактов, конкретный размер (метр) и построчный разбор ключевых музыкальных событий (кроме трёхчастного деления и «беспокойных» модуляций, Ф24) источниками не зафиксированы цитатой; аннотация Hyperion для D 564 в бандле по-прежнему отсутствует, schubertlied.de отдельной страницы для D 564 не имеет.
 
 ## 5. Смыслы и интерпретации
 

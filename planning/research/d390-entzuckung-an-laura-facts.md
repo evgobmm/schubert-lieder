@@ -3,6 +3,8 @@
 Немецкий текст песни в проекте (4 строфы) — как в файле проекта; поэт — Фридрих Шиллер. Досье поэта: раздел «ДОСЬЕ ПОЭТА» в бандле (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей — раздел «ТОП-5 ЗАПИСЕЙ» в бандле.
 
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/entzuckung-an-laura/
+Источники: IMSLP — https://imslp.org/wiki/Entz%C3%BCckung_an_Laura,_D.390_(Schubert,_Franz)
+Источники: Hyperion Records, буклет Грэма Джонсона (CDJ33016, «Schiller Settings») — https://www.hyperion-records.co.uk/notes/33016-B.pdf
 
 ---
 
@@ -16,7 +18,7 @@
 
 ## 2. Публикация и автограф
 
-**Не подтвердилось / не найдено:** сведений об автографе, дате и издательстве первой публикации D 390 в бандле нет — schubertlied.de для этой песни недоступен (манифест: `"schubertlied.de": {"ok": false}`), в буклете Hyperion строка D 390 не найдена (манифест: «строка D390 в буклете не найдена»), LiederNet недоступен, дополнительный сетевой поиск (DuckDuckGo) вернул HTTP 202 (страница с проверкой, без результатов) — обойтись без сети не удалось иначе.
+Дата и обстоятельства первой публикации — см. Ф19 (раздел 4 «Музыка»): 1895, серия XX Gesamtausgabe, Лейпциг. Об автографе (местонахождение, шифр) сведений по-прежнему нет — см. «Не подтвердилось».
 
 ## 3. Текст и источник
 
@@ -34,7 +36,21 @@
 
 ## 4. Музыка
 
-**Не подтвердилось / не найдено:** данных об оригинальной тональности, форме, темповом указании и фактуре аккомпанемента D 390 в бандле нет — ни schubertlied.de (недоступен), ни Hyperion-буклет (D 390 в нём не найден), ни IMSLP не были предзагружены; комментарий Малколма Рена на schubertsong.uk посвящён только тексту и его образам, музыкального анализа не содержит.
+**Ф18.** Первая редакция D 390 написана в тональности ля мажор, с темповым указанием «In sanfter Bewegung» («в мягком движении») — IMSLP — «Key: A major… Movements/Sections: In sanfter Bewegung» — verified.
+
+**Ф19.** Первая редакция впервые опубликована в 1895 году, в серии XX Gesamtausgabe (Лейпциг) — Hyperion, буклет CDJ33016 (Грэм Джонсон) — «First setting, D390. March 1816; first published in 1895 in series 20 of the Gesamtausgabe, Leipzig» — verified; независимо подтверждено IMSLP — «First Publication.: 1895» — verified.
+
+**Ф20.** Оригинальное заглавие стихотворения Шиллера — «Die seligen Augenblicke» («Блаженные мгновения»); это одна из восьми од Шиллера, посвящённых Лауре; в оригинале девять строф, из которых Мандычевский в Gesamtausgabe печатает только первые четыре (те, что положил на музыку Шуберт) — Hyperion, буклет CDJ33016 — «The original title of this poem, one of Schiller's eight Laura odes, was 'Die seligen Augenblicke'. There are nine verses, of which Mandyczewski prints the first four.» — verified.
+
+**Ф21.** Для этой редакции Шуберт использует две строфы Шиллера на один музыкальный период, отчего пространная, «плывущая» мелодия повторяется один раз; тесситура в оригинальной тональности (для тенора) неудобно высокая — Hyperion, буклет CDJ33016 — «For this setting Schubert uses two strophes per musical verse, which results in one repeat of this long-spanned melodie effusion… the tessitura is uncomfortably high in the original tenor key» — secondary (музыковедческая оценка Джонсона).
+
+**Ф22.** По наблюдению Джонсона, строка 1-й строфы «in meine Blicken flimmt» пророчески предвосхищает музыку на слова «aus diesem Felsen starr und wild» из «Ave Maria» (Ellens dritter Gesang, D 839, сочинена девятью годами позже); а строка 2-й строфы «Leyer erklang aus Paradieses Fernen» перекликается по мелодическому контуру и образности дальних, шелестящих звуков со строкой «Abendlüftchen im zarten Laube flüstern» из «Adelaide» на слова Маттисона (двумя годами раньше) — Hyperion, буклет CDJ33016 — «In Verse 1 the line 'in meine Blicken flimmt' is astonishingly prophetic of the music for 'aus diesem Felsen starr und wild'… from the famous Ave Maria… compare the line in Verse 2 'Leyer erklang aus Paradieses Fernen' with how Schubert set 'Abendlüftchen im zarten Laube flüstern' in Matthisson's Adelaide» — secondary.
+
+**Ф23.** Джонсон характеризует песню как итальянскую по духу, предвосхищающую бельканто Беллини, с минимальными сменами гармонии; отмечает, что Шуберт остался не вполне удовлетворён этим решением — о чём свидетельствует его решение написать в 1817 году совершенно другую, вторую редакцию — Hyperion, буклет CDJ33016 — «this song points forward to the bel canto art of Bellini… The fact that he did not feel quite happy about this solution is evident from his décision to compose another, utterly different, version in 1817» — secondary.
+
+**Ф24.** Вторая редакция, D 577 (август 1817), сохранилась лишь в виде двух фрагментов, соединённых и дописанных Рейнхардом ван Хорикксом (Reinhard van Hoorickx); впервые опубликована в 1895 году в той же серии XX Gesamtausgabe, Лейпциг, что и первая редакция — Hyperion, буклет CDJ33016 — «Second setting, D577. August 1817; published in 1895 in series 20 of the Gesamtausgabe, Leipzig, two fragments of the same song linked and completed by Reinhard van Hoorickx» — verified.
+
+**Ф25.** Вступление второй редакции (D 577) изображает полёт к небесным сферам на манер Пегаса — в отличие от «земного» галопа «Erlkönig»; рукопись обрывается после того, как во второй половине первой строфы (образ зеркального отражения) возникает имитационный приём голоса и фортепиано, а пассаж про арфы и лиры (в оригинале — в тональности ля-бемоль) остаётся всего из двух завершённых фраз — Hyperion, буклет CDJ33016 — «It seems that the lover is riding to heavenly realms on Pegasus… no earthbound galloping horse in the manner of Erlkönig this… Harps and lyres at the beginning of Schiller's second verse bring forth a rather more conventional and euphonious arpeggio figure (in A flat in the original) with only two complete extant phrases… It is at this point that the manuscript breaks off.» — secondary.
 
 ## 5. Смыслы и интерпретации
 
@@ -62,7 +78,7 @@
 
 ## Не подтвердилось / не найдено
 
-- Автограф, издательство и дата первой публикации нот D 390 — schubertlied.de и Hyperion-буклет для этой песни в бандле не предзагружены/не найдены; страница LiederNet недоступна; дополнительный сетевой запрос к DuckDuckGo вернул только страницу с HTTP-статусом 202 (антибот-проверка), результатов не дал.
-- Оригинальная тональность, форма, темповое указание, детали фортепианной фактуры D 390 — не найдено ни в одном предзагруженном источнике бандла.
+- Местонахождение автографа (архив, шифр) — не найдено; издательство первой публикации 1895 года по имени не названо ни у IMSLP, ни у Hyperion (обе ссылки называют только год и «серию XX Gesamtausgabe», см. Ф19).
+- Форма, число тактов и построчный аккомпанемент D 390 по тактам — не зафиксированы цитатой (Hyperion-буклет даёт только общую характеристику фактуры и образности, см. Ф21–Ф23); schubertlied.de страницы для D 390 не существует (проверено по полному списку `/die-lieder` — песня в каталоге сайта отсутствует).
 - Точный адресат стихотворения «Laura» — не установлен (см. Ф5 и досье, Ф22, uncertain).
 - Год свадьбы Шиллера с Шарлоттой фон Ленгефельд (1789 vs 1790) — расхождение источников зафиксировано в досье (Ф9), для страницы песни не используется.

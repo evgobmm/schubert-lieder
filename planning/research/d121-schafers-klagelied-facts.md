@@ -1,6 +1,9 @@
 # Факты: «Schäfers Klagelied» (D 121)
 
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/schafers-klagelied/
+Источники: IMSLP — https://imslp.org/wiki/Sch%C3%A4fers_Klagelied,_D.121_(Schubert,_Franz)
+Источники: schubertlied.de (1-я редакция) — https://www.schubertlied.de/die-lieder/schaefers-klagelied-d121-erste-fassung
+Источники: schubertlied.de (2-я редакция) — https://www.schubertlied.de/die-lieder/schaefers-klagelied-d121-zweite-fassung
 
 Немецкий текст песни в проекте (6 строф; в 6-й строфе последние две строки повторяются): «Da droben auf jenem Berge…». Поэт — Иоганн Вольфганг фон Гёте. Досье поэта: `planning/research/poets/goethe.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в манифесте волны (см. ниже, раздел 8).
 
@@ -40,7 +43,19 @@
 
 **Ф14.** Темы и образы текста по классификации schubertsong.uk: собаки, двери и ворота, сны, пустота и полнота, поля и луга, цветы, «здесь и там», высокое-низкое-глубокое, холмы и горы, дома, жалобы/элегии/скорбь, близкое и далёкое, неподвижность, дождь, радуги, море, пастухи, песни (общее), бури, гром и молния, деревья (общее), долины, странствие, посох странника, работники и рабочие песни — schubertsong.uk (список тем страницы) — verified.
 
-## 4. Записи (топ-5)
+## 4. Музыка
+
+**Ф20.** Первая редакция «Schäfers Klagelied» (D 121, 30 ноября 1814) написана в тональности до минор (c-Moll) с темповым указанием «Mässig»; впервые опубликована 29 мая 1821 года как Op. 3 № 1 — IMSLP + schubertlied.de — «Key: C minor (1st version)… Mov'ts/Sec's: 1 song (2 versions): Mässig (both versions)… Opus/Catalogue Number: D.121 (1st version published as Op.3 No.1)» / «Originaltonart: c-Moll… Veröffentlichung (angezeigt): 29. Mai 1821» — verified.
+
+**Ф21.** Первая редакция посвящена Игнацу Эдлеру фон Мозелю (Ignaz Edlen von Mosel) — IMSLP — «Dedication: Ignaz Edlen von Mosel» — verified.
+
+**Ф22.** Шуберт написал вторую, самостоятельную редакцию той же песни (тот же номер D 121) в феврале 1819 года, в тональности ми минор (e-Moll), с тем же темповым указанием «Mässig»; впервые опубликована лишь в 1894 году — IMSLP + schubertlied.de — «Year/Date of Composition: … 1819 February (?) (2nd version)… Key: … E minor (2nd version)» / «Komponiert: Februar 1819… Originaltonart: e-Moll… Veröffentlichung (angezeigt): 1894» — verified.
+
+**Ф23.** Вторую редакцию впервые опубликовал в 1894 году Эузебиус Мандычевский в составе «Alte Gesamtausgabe» (Breitkopf & Härtel, Лейпциг) — schubertlied.de — «Die Veröffentlichung besorgte 1894 Eusebius Mandyczewski in Alte Gesamtausgabe (Breitkopf&Härtel) in Leipzig» — verified.
+
+**Ф24.** Согласно schubertlied.de (со ссылкой на книгу Августа Рейсмана «Franz Schubert: Sein Leben und seine Werke»), вторая редакция «Schäfers Klagelied» в исполнении тенора Франца Йегера на концерте скрипача Яэля в гостинице «Zum römischen Kaiser» 28 февраля 1819 года — насколько известно сегодня, первая публично исполненная песня Шуберта вообще; успех был настолько велик, что исполнение повторили 12 апреля того же года — schubertlied.de, цит. Reissmann — «Die zweite Fassung von Schäfers Klagelied ist, soweit wir heute wissen, das erste öffentlich vorgetragene Lied Franz Schuberts, gesungen von Franz Jäger… am 28. Februar 1819 stattfindenden Concert, mit entschiedenem Erfolg, so dass er es in einem Concert am 12. April wiederholte.» — secondary (вторичная цитата у Рейсмана, приведённая schubertlied.de).
+
+## 5. Записи (топ-5)
 
 **Ф15.** Fischer-Dieskau — Moore (1969) — записи «Sämtliche Lieder» на DG (1966–1972); в проекте — по конвенции 1969 год — топ-5 волны (манифест) — verified (внутренняя конвенция проекта).
 
@@ -55,6 +70,7 @@
 ## Не подтвердилось / не найдено
 
 - Аннотация Hyperion (Грэм Джонсон) к тому CDJ33001 — строка про D 121 в буклете не найдена (манифест предзагрузки: `hyperion.ok: false`).
-- schubertlied.de — страница о песне не загрузилась (манифест: `schubertlied.de.ok: false`); тональность, форма, аккомпанемент и датировка автографа/публикации Шуберта (кроме даты композиции) по немецкому источнику не подтверждены.
 - LiederNet — страница не найдена (манифест: `liedernet.ok: false`, `ddg_http: 202`); в этой сессии повторные попытки через DuckDuckGo результата не дали (сеть не отвечает).
-- Тональность, форма, размер, аккомпанемент, автограф, дата и место первой публикации нот Шуберта, прижизненные документы и рецепция эпохи — ни в одном предзагруженном источнике не зафиксированы цитатой; в текст не включать без дополнительной проверки (раздел 4 «Музыка», 6 «Рецепция», 7 «Судьба и наследие» бандла не закрыты фактами с цитатами).
+- Форма, размер, фигура аккомпанемента, число тактов и построчный музыкальный анализ — ни на IMSLP, ни на schubertlied.de (текстовая часть страниц, доступная без JS/данных партитуры) не зафиксированы цитатой; в текст не включать без дополнительной проверки.
+- Место первого издания 1-й редакции (издатель) и обстоятельства издания 1821 года — не найдены цитатой (IMSLP даёт только год и факт, что это Op.3 № 1, без имени издателя).
+- Местонахождение автографа — не проверялось отдельно (на schubertlied.de есть ссылка на PDF рукописи, но текстового описания архива/шифра в собранных фрагментах страницы нет).

@@ -2,6 +2,8 @@
 
 Немецкий текст песни в проекте (`app/src/data/songs/d216-meeres-stille.json`): одна строфа из восьми строк (два катрена) — «Tiefe Stille herrscht im Wasser… Reget keine Welle sich.» Поэт — Иоганн Вольфганг фон Гёте. Досье поэта: `planning/research/poets/goethe.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: досье `planning/youtube/data/d216-meeres-stille.dossier.json` (топ-5 исполнений, см. раздел 8).
 
+Источники по музыке (добраны отдельным проходом): IMSLP — https://imslp.org/wiki/Meeres_Stille,_D.216_(Schubert,_Franz) (верный слаг страницы — не `Meeresstille`, а `Meeres_Stille`); schubertlied.de — https://www.schubertlied.de/die-lieder/meeres-stille-d216-zweite-bearbeitung (верный слаг — с суффиксом «-zweite-bearbeitung»); буклет Naxos CD 8.554665 (Ulrich Eisenlohr) — https://stor.imslp.org/naxos/booklets/booklet-8.554665.pdf
+
 ---
 
 ## 1. Датировка и возраст Шуберта
@@ -32,7 +34,19 @@
 
 ## 4. Музыка
 
-Сведений о тональности, темповом указании, форме и фактуре аккомпанемента конкретно D 216 в источниках бандла нет: страница schubertlied.de для D216 недоступна (манифест: `ok: false`; при прямой проверке — HTTP 404), а в буклете Hyperion CDJ33001 (аннотация Грэма Джонсона) строка про D 216 не найдена (манифест: «строка D216 в буклете не найдена»). Источник schubertsong.uk посвящён тексту и его происхождению, а не музыкальному решению Шуберта — комментарий Малколма Рена относится к поэтике оригинала (см. раздел 5). — не найдено.
+Прежняя запись об отсутствии сведений была верна для предзагруженного бандла (правильный URL schubertlied.de оказался не `meeres-stille-d216`, а `meeres-stille-d216-zweite-bearbeitung» — по нему страница доступна). Ниже — факты, добранные прямым обращением к IMSLP, schubertlied.de и буклету Naxos.
+
+**Ф18.** Тональность и темповое обозначение подтверждены независимо двумя источниками: до мажор (C-Dur), «Sehr langsam, ängstlich» (очень медленно, тревожно). — IMSLP, https://imslp.org/wiki/Meeres_Stille,_D.216_(Schubert,_Franz) — «Key / C major»; «Movements/Sections / Sehr langsam, ängstlich»; schubertlied.de, https://www.schubertlied.de/die-lieder/meeres-stille-d216-zweite-bearbeitung — «Originaltonart: C-Dur»; «Komponiert: 21. Juni 1815» — verified (два независимых источника).
+
+**Ф19.** Опус, первое издание, посвящение: песня опубликована как №2 в Opus 3 (четыре песни: Schäfers Klagelied D 121, Jägers Abendlied D 368, Heidenröslein D 257, Meeres Stille D 216), издатели Cappi und Diabelli в Вене; объявление о выходе — в Wiener Zeitung 22 мая 1821 года; посвящение — Игнацу Эдлену фон Мозелю (Ignaz Edlen von Mosel, к.к. действительному надворному советнику и вице-директору императорских придворных театров). — schubertlied.de, там же — «Die Veröffentlichung besorgte 1821 Cappi und Diabelli in Wien als Opus 3 - 4»; титульный лист: «Für eine Singstimme mit Begleitung des Piano-Forte in Musik gesetzt und dem wohlgebohrnen Herrn Herrn Ignaz Edlen von Mosel k.k. wirkl. Hofrath und Vice-Director der k.k. Hoftheater hochachtungsvoll gewidmet von Franz Schubert» — verified; независимо согласуется с IMSLP — «Opus/Catalogue Number: D.216; Op.3 No.2»; «Dedication: Ignaz Edlen von Mosel»; «First Publication: 1821. Vienna: Diabelli, n.d.[1821]. Plate 768.» — verified (кросс-проверено).
+
+**Ф20.** Автограф — беловая рукопись (Reinschrift) в составе «Erstes Liederheft für Goethe» (первой песенной тетради для Гёте, см. Ф3, Ф16), Staatsbibliothek zu Berlin — Preußischer Kulturbesitz, шифр Mus.ms.autogr. Schubert, F. 1. — schubertlied.de, там же — «Reinschrift: Mus.ms.autogr. Schubert, F. 1: Berlin, Deutschland: Erstes Liederheft für Goethe: Staatsbibliothek zu Berlin — Preußischer Kulturbesitz» — verified.
+
+**Ф21.** Музыкальный разбор (буклет Naxos, Ulrich Eisenlohr): в отличие от трактовок Рейхардта, Бетховена и инструментальной версии Мендельсона, воспринимавших штиль на море как прелюдию к пробуждению жизни, в шубертовской версии, помеченной «Sehr langsam, ängstlich», гнетущий текст трактован обособленно; вокальная партия почти речитативна, сопровождается «неподвижными» арпеджио, лишена даже смягчающего эффекта вступления или послесловия; лишь мельчайшие хроматические движения и необычные интервалы в мелодии выдают, по формуле музыковеда Петера Гюльке, «призрачную песенно-подобную антипесню» — внутреннее смятение того, кто смотрит в лицо смерти. — буклет Naxos CD 8.554665 (Ulrich Eisenlohr, «Franz Peter Schubert: Goethe-Lieder, Vol. 1»), https://stor.imslp.org/naxos/booklets/booklet-8.554665.pdf — «In Schubert's setting, marked Sehr langsam, ängstlich, however, the oppressive text is treated in isolation. It is almost more recited than sung, accompanied by "motionless" arpeggios, stripped even of the softening effects of a prelude or postlude. Only the smallest chromatic movements and unusual intervals in the melody indicate in this "ghostly song-like anti-song" (P. Gülke) the inner tumult of someone who is looking death in the face.» — verified.
+
+**Ф22.** Разбор по строфам (немецкий сайт schubertlied.de): неподвижные, во весь такт арпеджированные аккорды передают «глубокий покой» (Tiefe Stille) и оцепенелость моря; во второй строке лёгкое волновое движение возникает на аккордах фа мажор при словах «Glatte Fläche»; «ужасающая смертельная тишина» (Todesstille) третьей строки уходит в тональном плане песни дальше всего от главной тональности до мажор — возможно, именно так особенно ярко передаётся ужас; через септаккорд си мажор происходит обратная модуляция в до мажор; вокальная партия завершается неподвижно, замерев на одном звуке. — schubertlied.de, там же — «Liegende, ganztaktige Akkorde (arpeggiert) verdeutlichen die "Tiefe Stille" und Regungslosigkeit des Meeres. In der zweiten Verszeile entsteht leichte Wellenbewegung auf den F-Dur-Akkorden bei "Glatte Fläche". Die "fürchterliche Todesstille" der dritten Verszeile entfernt sich im Tonartenspektrum des Liedes am weitesten von der Grundtonart C-Dur... Über den Septakkord von H-Dur erfolgt die Rückmodulation nach C-Dur. Die Gesangsstimme schließt regungslos liegend auf einem Ton.» — verified.
+
+Не найдено: точное число тактов песни.
 
 ## 5. Смыслы и интерпретации
 
@@ -72,8 +86,8 @@
 
 ## Не подтвердилось / не найдено
 
-- Тональность, темповое указание, форма и фактура аккомпанемента D 216 — schubertlied.de для этой песни недоступен (проверено: HTTP 404 на прямой ссылке из манифеста), в буклете Hyperion CDJ33001 строка про D 216 не найдена.
-- Автограф, дата и издатель первой публикации при жизни/после смерти Шуберта, номер доски (plate) для D 216 — не найдено.
+- Тональность, темп, форма, аккомпанемент, автограф, издатель и посвящение — добраны отдельным проходом (Ф18–Ф22 в разделе 4): прямая ссылка `meeres-stille-d216` в манифесте вела на несуществующую страницу schubertlied.de; верный URL — `meeres-stille-d216-zweite-bearbeitung`, найден через страницу-каталог `/die-lieder`. Буклет Hyperion CDJ33001 по-прежнему не даёт ничего по D 216, но независимый буклет Naxos CD 8.554665 (Eisenlohr) дал развёрнутый разбор.
+- Точное число тактов D 216 не найдено.
 - Точный возраст Шуберта на момент сочинения (дата его рождения источником в бандле не подтверждена) — не найдено.
 - Страница LiederNet по этой песне — целевой сетевой поиск (DuckDuckGo) результатов не дал; страница не найдена и не проверена.
 - Точный год сессий записи Шварцкопф/Парсонса (1970–73 — только предположение по дайджесту, не подтверждено дискографически) — уточнить при появлении буклета Warner-бокса «Complete Recitals 1952–1974».

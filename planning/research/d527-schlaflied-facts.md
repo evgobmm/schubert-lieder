@@ -2,6 +2,8 @@
 
 Немецкий текст песни в проекте — 4 строфы (последняя, четвёртая, обрывается: «Zu uns komm!» Der Knabe kommt, und / Staunt, und weilt, und), по-видимому, повтор-возврат к началу первой строфы, вписанный в файл проекта; текст представляет собой три полные строфы плюс фрагмент. Поэт — Иоганн Майрхофер (Johann Mayrhofer). Досье поэта: `planning/research/poets/mayrhofer.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в бандле волны medium от 2026-08-17, досье `planning/youtube/data/d527-schlaflied.dossier.json`.
 
+Источники (добавлено во втором проходе, 2026-09-03): IMSLP — https://imslp.org/wiki/Schlaflied,_D.527_(Schubert,_Franz); полный буклет Hyperion CDJ33021 (т. 21 «Schubert in 1817 & 1818», аннотация Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33021-B.pdf (в предзагрузке был доступен только фрагмент в 429 знаков — строка каталога тома; при прямом скачивании PDF в этой сессии получен полный текст, 1476 строк после pdftotext, включая развёрнутое эссе о песне).
+
 ---
 
 ## 1. Датировка и возраст Шуберта
@@ -22,7 +24,11 @@
 
 **Ф7.** «Schlaflied» встречалось также под заголовками «Abendlied» («Вечерняя песня») и «Schlummerlied» («Песня дрёмы»). — schubertsong.uk, https://www.schubertsong.uk/text/schlaflied/ — «'Schlaflied' has also appeared with the titles 'Abendlied' (Evening song) and 'Schlummerlied' (Slumber song)» — verified.
 
-**Ф8.** Данные об автографе, издательских номерах, номере опуса песни, дате и месте первой публикации нот — в бандле не найдены. — не найдено (в предзагруженном фрагменте буклета Hyperion — только строка каталога тома с названием и месяцем, без развёрнутой аннотации; schubertlied.de недоступен — см. манифест).
+**Ф30.** Песня существует в двух редакциях: 1-я редакция — темп «Langsam», при жизни Шуберта не публиковалась, впервые издана только в 1975 году в Новой Шубертовской редакции (Neue Schubert-Ausgabe, Serie IV, Band 2b, с. 193, Bärenreiter, пластина BA 5513, под редакцией Вальтера Дюрра); 2-я редакция — темп «Moderato», издана как Op. 24 № 2 — IMSLP — «Movements/Sections Mov'ts/Sec's 1 song (2 versions): Langsam (1st version) Moderato (2nd version)»; «First Publication. 1975 (1st version) 1823 (2nd version)» — verified.
+
+**Ф31.** 2-я редакция (Op. 24 № 2) впервые издана в октябре 1823 года у Sauer und Leidesdorf в Вене; позднее переиздавалась у Diabelli (а затем Peters) под названием «Schlummerlied» — Hyperion, буклет CDJ33021 (Грэм Джонсон) — «D527. January 1817; published by Sauer und Leidesdorf in Vienna in October 1823 as Op 24 No 2, reprinted by Diabelli (and later Peters) as Schlummerlied» — verified. Согласуется с Ф7 (варианты заголовка «Abendlied»/«Schlummerlied»).
+
+**Ф32.** Автограф 1-й редакции — рукопись 1817 года, хранящаяся в библиотеке, работающей со страницей IMSLP по программе «Sibley Mirroring Project» (сигла загрузки — US-R); отдельная рукопись 2-й (опубликованной) редакции в бандле не описана — IMSLP — «Holograph manuscript, 1817» (PDF scanned by US-R; категория страницы «Sibley Mirroring Project») — verified.
 
 ## 3. Текст и источник
 
@@ -51,9 +57,21 @@
 
 ## 4. Музыка
 
-**Ф16.** Развёрнутая музыкальная аннотация (тональность, форма, аккомпанемент, разбор по строкам) — по Джонсону и Рену — в бандле отсутствует: предзагруженный фрагмент буклета Hyperion содержит только строку каталога тома («D527 Schlaflied21 (Mayrhofer) January», см. §1, Ф3) без текста аннотации; комментарий Малколма Рена на schubertsong.uk посвящён смыслам и образам текста (см. §5), а не музыкальной ткани; schubertlied.de недоступен (манифест: `"schubertlied.de": {"ok": false}`). — не найдено.
+Во втором проходе (2026-09-03) получен полный буклет Hyperion CDJ33021 с эссе Грэма Джонсона о песне (в предзагрузке был доступен только фрагмент — строка каталога тома, см. §2); ниже — тональность, форма (две редакции, см. §2 Ф30–Ф32), фактура аккомпанемента и построчный разбор по этому источнику. schubertlied.de для D 527 по-прежнему недоступен (прямой повторный запрос — HTTP 404).
 
-**Ф17.** Тональность, темповое указание, метр, состав фактуры аккомпанемента — в бандле не найдены. — не найдено.
+**Ф33.** Тональность — Фа мажор (в обеих редакциях) — IMSLP — «Key F major (both versions)» — verified.
+
+**Ф34.** Ключевая метафора музыкального начала: восходящие октавные скачки на словах «Es mahnt» и «Es ruft» — Природа предстаёт не только умиротворяющей, но и соблазняющей силой, наподобие Лорелеи; большинство комментаторов слышат в песне простую колыбельную, но музыка говорит о большем — Hyperion, буклет CDJ33021 (Грэм Джонсон) — «the music with its octave leaps on 'Es mahnt' and 'Es ruft' exhorts and lures: Nature is cast as a Lorelei, a seductive force, as well as a healing and restful one» — verified.
+
+**Ф35.** Вокальная партия — гибкая, с мелизмами и налётом украшений, отсылающих к традиции бельканто (характерно для песен на слова Майрхофера этого периода, современных увлечению Шуберта итальянской оперной музой); партия фортепиано лёгкими отрывистыми аккордами имитирует звучание пасторального ансамбля — как бы артикуляцию флейт, гобоев и фаготов — Hyperion — «there is a sinuous vocal line with melisma and a trace of decoration which suggests homage to bel canto. Beneath the singer's creamy legato we hear the accompaniment of a pastoral ensemble as the piano's gently detached chords simulate the tonguing of flutes, oboes and bassoons» — verified.
+
+**Ф36.** Форма начальных фраз — покачивающееся чередование аккордов, преимущественно между тоникой и доминантой, с октавными скачками в вокальной партии, создающими образ «улыбчивого приглашения»; в 3-й и 4-й строках строфы гармония усложняется по мере того, как мальчика принимают в объятия Флоры — его открытия обозначены «цепочкой» опорных доминантовых гармоний (A–B-бемоль–C) — Hyperion — «Everything in the shape of the opening phrases—a cradling alternation of chords, largely between tonic and dominant, octave leaps in the vocal line... suggests smiling invitation. For the third and fourth lines of the strophe the harmonies become more complex as the boy is welcomed into Flora's embrace; his discoveries are mapped out by a daisy-chain of supporting dominant harmonies (A-B flat-C)» — verified.
+
+**Ф37.** Фраза восходит к вершине на словах «von jedem Schmerz» и затем истаивает в томном спаде; приближение мальчика к чудесам природы «на цыпочках» изображено мецо-стаккатными триолями в правой руке фортепиано — Hyperion — «The phrase ascends to the pivot of 'von jedem Schmerz' and then melts into a languid fall. As a result we can almost see him approach the marvels of Nature on tiptoe (mezzo staccato triplets in the right hand)» — verified.
+
+**Ф38.** Джонсон сравнивает песню (сочинённую за несколько месяцев до «Ganymed» на слова Гёте) с этим более поздним шубертовским сочинением: в обеих песнях природа изображена как «торжественный танец» в размере alla breve, с движениями, наводящими на мысль о «тонком соблазнителе»; крик перепела у Майрхофера (переданный мецо-стаккатной партией левой руки фортепиано) занимает место соловья у Гёте, а «Мать» (видимо, Мать-Земля) — место «всё-любящего Отца» у Гёте — Hyperion — «Schlaflied (composed only a few months before Ganymed) also seems to be an early morning piece with shimmering colours and dew. In both songs the gentle movement of nature is depicted as a grave dance, alla breve... Mayrhofer's quail warbles (how beautifully the mezzo staccato writing for the piano's left hand depicts this!) in the place of Goethe's nightingale. 'Die Mutter'... stands in for Goethe's 'all-liebender Vater'» — verified.
+
+**Ф39.** Начало третьей строфы («Ins frische Gras legt er sich hin») Джонсон сближает со строкой «ich ruhe still im hohen grünen Gras» из «Feldeinsamkeit» Брамса — в обеих песнях взгляд героя устремляется в облака, в обеих встречается словосочетание «Wolken ziehn»; брамсовская песня также написана в Фа мажоре, в характере павану с аккордами мецо-стаккато, и, по мнению Джонсона, сознательно перекликается с шубертовской — Hyperion — «The opening of the third strophe... is reminiscent of 'ich ruhe still im hohen grünen Gras' in Brahms's Feldeinsamkeit... Brahms also casts his song in a spacious and hypnotic F major, a pavane of grave beauty, with chords also marked mezzo staccato. To my ears his setting seems consciously to acknowledge a debt to Schubert» — verified (мнение комментатора).
 
 ## 5. Смыслы и интерпретации
 
@@ -93,9 +111,9 @@
 
 ## Не подтвердилось / не найдено
 
-- Тональность, форма, темп, фактура аккомпанемента, разбор по строкам музыки песни (Джонсон, Рен) — развёрнутая аннотация Hyperion в бандле отсутствует (доступна только строка каталога тома), schubertlied.de недоступен, LiederNet недоступен (сетевой поиск по DuckDuckGo не дал результата при повторной попытке в рамках этой сессии).
+- Тональность, форма (две редакции), темп, фактура аккомпанемента, построчный разбор музыки песни (Джонсон) — закрыто во втором проходе (2026-09-03) через IMSLP и полный буклет Hyperion CDJ33021, см. §2 Ф30–Ф32 и §4 Ф33–Ф39. schubertlied.de по-прежнему недоступен (HTTP 404 при прямой проверке), LiederNet недоступен.
 - Точный день сочинения в январе 1817 года.
-- Данные об автографе и первом нотном издании (издатель, номер плана, серия/том Gesamtausgabe) — как для стихотворения (Ф9), так и для песни.
+- Данные об автографе 2-й (опубликованной) редакции песни — не найдены (для 1-й редакции см. Ф32); данные о плане/пластине первого издания 1823 года (Sauer und Leidesdorf) — не найдены.
 - Прижизненная рецепция и документы эпохи, письма современников об этой песне.
 - Судьба автографа и позднейшая издательская история нот.
 - Происхождение и точный состав четвёртой (неполной) строфы текста проекта — не сверено ни с одним источником бандла.
