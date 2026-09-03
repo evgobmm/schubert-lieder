@@ -38,12 +38,43 @@ const fetchRaw = (url, opts = {}) => {
 const fetchText = (url) => { let r = fetchRaw(url); if (r.code !== 200) { sleep(3000); r = fetchRaw(url); } // один ретрай: 404/timeout у schubertlied/schubertsong бывали ложными (урок волны №4: 5 песен с бедными фактами)
   if (r.code !== 200) return { ok: false, chars: 0, text: '', error: 'HTTP ' + r.code }; const text = strip(r.body); return { ok: text.length > 500, chars: text.length, text, eff: r.eff }; };
 
+// --- schubertlied.de: указатель песен (слаги на сайте не выводятся из заголовка) ---
+let SL_INDEX = null;
+const schubertliedIndex = (outDir) => {
+  if (SL_INDEX) return SL_INDEX;
+  const cache = path.join(outDir, '_schubertlied-index.json');
+  try { SL_INDEX = JSON.parse(fs.readFileSync(cache, 'utf8')); return SL_INDEX; } catch { }
+  SL_INDEX = {};
+  for (const url of ['https://www.schubertlied.de/die-lieder', 'https://www.schubertlied.de/die-lieder/']) {
+    const r = fetchRaw(url);
+    if (r.code !== 200) continue;
+    for (const m of String(r.body).matchAll(/href="(\/die-lieder\/[^"]*?-d(\d{1,3}[a-z]?)(?:-(\d+))?)"/gi)) {
+      const key = m[3] ? `${Number(m[2])}/${Number(m[3])}` : String(Number(m[2]));
+      if (!SL_INDEX[key]) SL_INDEX[key] = m[1];
+    }
+    if (Object.keys(SL_INDEX).length) break;
+  }
+  try { fs.mkdirSync(outDir, { recursive: true }); fs.writeFileSync(cache, JSON.stringify(SL_INDEX)); } catch { }
+  console.log(`указатель schubertlied.de: ${Object.keys(SL_INDEX).length} песен`);
+  return SL_INDEX;
+};
+
 // --- Hyperion: окно буклета вокруг D-строки ---
-const hyperionWindow = (d, txt) => {
+// Окно ищется тремя способами (урок 01.09: строгий поиск «строка начинается с D<номер>»
+// пропускал эссе, где номер стоит не в начале строки или заголовком идёт название песни).
+const hyperionWindow = (d, txt, title) => {
   const lines = txt.split('\n');
   const re = new RegExp('^D ?' + d + '(?![0-9])');
   const nextRe = /^D ?\d{1,4}[a-z]?\s+\S/;
-  const i = lines.findIndex((l) => re.test(l.trim()));
+  let i = lines.findIndex((l) => re.test(l.trim()));
+  if (i < 0) { // номер не в начале строки
+    const anyRe = new RegExp('(^|[^0-9A-Za-z])D ?' + d + '(?![0-9])');
+    i = lines.findIndex((l) => anyRe.test(l));
+  }
+  if (i < 0 && title) { // заголовком идёт название песни
+    const t = String(title).toLowerCase().replace(/[^a-zäöüß ]/g, ' ').split(/\s+/).filter((w) => w.length > 3).slice(0, 3).join(' ');
+    if (t) i = lines.findIndex((l) => l.toLowerCase().includes(t));
+  }
   if (i < 0) return null;
   let j = i + 1;
   for (; j < lines.length; j++) { const t = lines[j].trim(); if (nextRe.test(t) && /\d{4}/.test(t) && !/\(also/.test(t)) break; }
@@ -94,8 +125,10 @@ for (const d of ds) {
   const prevM = fs.existsSync(path.join(dir, 'manifest.json')) ? JSON.parse(fs.readFileSync(path.join(dir, 'manifest.json'), 'utf8')) : null;
   if (ONLY && prevM) Object.assign(manifest.sources, prevM.sources);
   // 1. сайты-справочники
+  const slIdx = schubertliedIndex(outDir);
+  const fromIndex = slIdx[String(d)] ? ['https://www.schubertlied.de' + slIdx[String(d)]] : [];
   const candidates = {
-    'schubertlied.de': [`https://www.schubertlied.de/die-lieder/${kebabPlain(title)}-d${d}`, `https://www.schubertlied.de/die-lieder/${kebab(title)}-d${d}`],
+    'schubertlied.de': [...fromIndex, `https://www.schubertlied.de/die-lieder/${kebabPlain(title)}-d${d}`, `https://www.schubertlied.de/die-lieder/${kebab(title)}-d${d}`],
     'schubertsong.uk': [`https://www.schubertsong.uk/text/${kebabPlain(title)}/`, `https://www.schubertsong.uk/text/${kebab(title)}/`],
   };
   if (!ONLY || ONLY === 'web') for (const [name, urls] of Object.entries(candidates)) {
@@ -117,7 +150,7 @@ for (const d of ds) {
       if (fs.existsSync(pdf)) { try { execFileSync('pdftotext', [pdf, txt], { stdio: ['ignore', 'ignore', 'ignore'] }); } catch { } }
     }
     if (!fs.existsSync(txt)) { manifest.sources.hyperion.push({ vol: 'CDJ' + v, ok: false, url }); continue; }
-    const win = hyperionWindow(d, fs.readFileSync(txt, 'utf8'));
+    const win = hyperionWindow(d, fs.readFileSync(txt, 'utf8'), title);
     if (!win) { manifest.sources.hyperion.push({ vol: 'CDJ' + v, ok: false, url, note: 'строка D' + d + ' в буклете не найдена' }); continue; }
     fs.writeFileSync(path.join(dir, `hyperion-booklet-CDJ${v}.txt`), `SOURCE: ${url} (буклет Hyperion Schubert Edition, том CDJ${v}; текст — pdftotext, окно вокруг строки «D${d}»; аннотация Грэма Джонсона)\n\n` + win);
     manifest.sources.hyperion.push({ vol: 'CDJ' + v, ok: true, url, chars: win.length });
