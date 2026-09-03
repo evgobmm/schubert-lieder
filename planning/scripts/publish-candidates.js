@@ -26,7 +26,11 @@ for (const d of ds) {
   if (!fs.existsSync(factsF) && !fs.existsSync(path.join(ROOT, 'planning/research', slug + '-facts.md'))) gate.push('нет файла фактов');
   if (nAbout < 4) gate.push('секций «О песне» ' + nAbout + ' (< 4)');
   if ((perfAll[String(d)] || []).length && !(candJ.about || []).some((x) => /как это поют/i.test(x.title))) gate.push('нет раздела «Как это поют» при имеющихся записях');
-  if (gate.length) { console.log(`D ${d}: ГЕЙТ ПОЛНОТЫ НЕ ПРОЙДЕН — не публикую: ` + gate.join('; ')); continue; }
+  // ГЕЙТ FABLE (урок 06.09: терцет Метастазио ушёл на сайт без редактуры — список публикации набирали по памяти): след Fable-этапа обязателен
+  const v1F = path.join(workDir, 'work', `candidate-${slug}.v1.json`), editsF = path.join(workDir, 'work', `edits-${slug}.json`), deltaB = path.join(workDir, 'bundles', `delta-${slug}.part1.md`);
+  const fableTrace = fs.existsSync(editsF) || (fs.existsSync(deltaB) && fs.existsSync(v1F) && fs.statSync(deltaB).mtimeMs > fs.statSync(v1F).mtimeMs);
+  if (!fableTrace && !process.argv.includes('--allow-no-fable')) gate.push('нет следа Fable-этапа (edits-файл или delta-бандл новее v1)');
+  if (gate.length) { console.log(`D ${d}: ГЕЙТ НЕ ПРОЙДЕН — не публикую: ` + gate.join('; ')); continue; }
   if (nAbout < 6 || nAnn < 6) console.log(`D ${d}: WARN полноты — секций ${nAbout}, сносок ${nAnn} (проверь бедность источников)`);
   const chk = run('node', [path.join(ROOT, 'planning/scripts/check-song-file.js'), cand]);
   if (chk.code !== 0) { console.log(`D ${d}: валидатор НЕ чист — не публикую\n` + chk.out); continue; }
