@@ -44,6 +44,8 @@
 
 **Ф12.** Оцифрованное раннее издание текста (венское, 1815) доступно в Австрийской национальной библиотеке; страница указана источником — Schubert Song Texts — «To see an early edition of the text, go to page 114 [192 von 300] here: http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ15769170X» — verified (ссылка первоисточника, не проверялась переходом в рамках этого сбора).
 
+**Ф32.** В разделе «Original Spelling» (оригинальная орфография фоссовской редакции, положенной на музыку) строка 3-й строфы напечатана с апострофом — Schubert Song Texts — «Auf Moose horcht' ein Jüngling mit Entzücken» — verified.
+
 ---
 
 ## 4. Музыка (тональность, форма, аккомпанемент)

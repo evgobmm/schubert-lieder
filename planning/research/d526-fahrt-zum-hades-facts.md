@@ -121,6 +121,18 @@ Weit, weit von der schönen Erde sein.
 
 ---
 
+## 9. Слова: словарные пометы Гриммов и DWDS
+
+**Ф28.** Немецкий словарь Гриммов (DWB) приводит сложное слово fluchbeladen («отягощённый проклятием») с примерами из Шиллера («die fluchbeladne Fackel dieses Kriegs») и из Уланда (поэма «Ludwig»). — DWB (dwds.de), https://www.dwds.de/wb/dwb/fluchbeladen — «fluchbeladen, die fluchbeladne fackel dieses kriegs. Schiller 342ᵇ; ... fluchbeladenen. Uhlands Ludwig 270» — verified.
+
+**Ф29.** Словарь Гриммов (DWB) отмечает Gestade/Gestad как верхненемецкое слово (в противоположность общенемецкому Ufer); в Северной и Средней Германии Gestade употребляется только в высоком, приподнятом слоге. — DWB (dwds.de), https://www.dwds.de/wb/dwb/gestade — «staden und gestad sind die oberd. wörter für das eigentlich md. und nd. ufer... andrerseits in Nord- und Mitteldeutschland gestade nur in gehobener sprache gebraucht wird» — verified.
+
+**Ф30.** Глагол dröhnen — нижненемецкое по происхождению слово, в литературном (верхненемецком) языке употребительное с XVII века. — DWDS, этимологический словарь (Пфайфер), https://www.dwds.de/wb/dr%C3%B6hnen — «ein nd., seit dem 17. Jh. im Hd. übliches Verb» — verified.
+
+**Ф31.** Слово zwiefach словарь Гриммов (DWB) сопровождает пометой из словаря Аделунга 1786 года (5-й том, с. 471): «в благородном слоге употребительнее, чем в обиходной жизни» (zwiefach в противовес обиходному zweifach). — DWB (dwds.de), https://www.dwds.de/wb/dwb/zwiefach — «es ist in der edleren schreibart üblicher als im gemeinen leben und aus dem alten zwie für zwey gebildet... Adelung 5 (1786) 471» — verified.
+
+**Ф32.** Малколм Рен (раздел «Classical Footnotes», статья «Lethe»): Лета — богиня забвения и одна из рек царства мёртвых; в переводе цитируемого им фрагмента «Энеиды» Вергилия (кн. 6) души на берегу Леты пьют её воду и обретают долгое забвение. — schubertsong.uk, https://www.schubertsong.uk/text/fahrt-zum-hades/ — «Lethe is the goddess of forgetfulness or oblivion, and also one of the rivers of the Underworld»; «Here, at the river Lethe's wave, they quaff / Care-quelling floods, and long oblivion» (Virgil, Aeneid VI, transl. Theodor C. Williams) — verified.
+
 ## Не подтвердилось / не найдено
 
 - **Аннотация Грэма Джонсона (Hyperion) непосредственно к D 526** — в манифесте предзагрузки раздел «hyperion» пуст; такого текста в бандле нет (см. Ф14). Общие суждения Джонсона о Майрхофере в бандле относятся к другим песням (D 360, D 753) и приведены только как материал досье поэта.
@@ -128,3 +140,5 @@ Weit, weit von der schönen Erde sein.
 - **Развёрнутый музыкальный анализ песни** (форма, фактура аккомпанемента, гармонические события по строкам) — не найден ни у Джонсона (аннотация отсутствует, см. выше), ни у Рена (комментарий на schubertsong.uk посвящён образному/мифологическому, а не музыкальному разбору) — см. Ф16.
 - **Точная дата написания стихотворения Майрхофером** — schubertsong.uk даёт её лишь предположительно («probably late 1816»); точная дата не установлена (см. Ф2) — статус uncertain.
 - **Год начала службы Майрхофера цензором** — расходится между источниками (см. досье, Ф6) — не факт о песне D 526, но относится к биографическому фону; статус uncertain, использовать с оговоркой.
+- **Адресат «последней слезы»** («герой отдаёт её тому, что ждёт впереди») — не подтверждается: у Рена и в оригинальной орфографии адресат — «o Ferne!» («о даль!», см. Ф12), обращение к далёкому/уходящему, а не к «тому, что ждёт впереди»; специальной трактовки адресата слезы в источниках бандла нет. Статус: not found.
+- **«Гул, идущий из-под воды» как образ dröhnt** — не подтверждается: DWDS/DWB дают только общее «durchdringend und dumpf hallend tönen» («проникающе и глухо отдаваться»), Рен переводит dröhnt как «creaking or rumbling» (лодка скрипит/громыхает); указания именно на подводное происхождение звука в источниках бандла нет. Статус: not found.

@@ -88,6 +88,18 @@
 
 ---
 
+## 9. Восстановление после аудита прослеживаемости (снятые ранее пункты)
+
+**Ф23.** D 259 и D 296 — обе шубертовские версии на стихотворение Гёте «An den Mond» с тем же инципитом «Füllest wieder Busch und Tal»; D 259 датирован 19 августа 1815 года, D 296 — не ранее марта 1820 — schubertsong.uk, https://www.schubertsong.uk/text/an-den-mond/ — «An den Mond (Füllest wieder Busch und Tal), D 259, D 296 ... Set by Schubert: D 259 [August 19, 1815] D 296 [March 1820 at the earliest]» — verified.
+
+**Ф24.** Джонсон называет «An den Mond in einer Herbstnacht» именно «другой ля-мажорной песней» (тот же лад, что у D468) и отмечает в ней «классическую осанку» (classical poise) — Hyperion, буклет CDJ33017 — «The classical poise of another A major song, An den Mond in einer Herbstnacht (Volume 8) comes to mind» — verified (уже цитировалось шире в Ф14, но конкретно «того же лада» и «осанка» — прямые эквиваленты «another A major song» и «classical poise» из этой же фразы, ошибочно не выделенные при первой сборке).
+
+**Ф25.** Ричард Кейпел (Richard Capell, 1885–1954) — британский (английский) музыкальный критик, автор книги «Schubert's Songs»; работал музыкальным критиком Daily Mail (1911–1933), затем Daily Telegraph — Wikipedia, статья «Richard Capell», https://en.wikipedia.org/wiki/Richard_Capell — «Richard Capell (1885-1954) was a British journalist who was music critic for the Daily Mail (1911–1933) and thereafter at The Daily Telegraph» — secondary.
+
+**Ф26.** Словарь Гриммов (DWB) в статье «Silberglanz» приводит цитату именно из этой песни — строку «Verhülle deinen Silberglanz» (S1L5 нашего текста, с пояснением «o mond» — обращение к луне) со ссылкой на Хёльти: «verhülle deinen silberglanz (o mond). [Hölty] 181, 5 Halm» — DWDS, статья DWB «Silberglanz», https://www.dwds.de/wb/dwb/Silberglanz — secondary (доступ через сводку по WebFetch, не через прямое чтение исходного текста страницы).
+
+---
+
 ## Не подтвердилось / не найдено (сводно)
 
 - Оригинальное заглавие, точная датировка и первая публикация стихотворения Хёльти «Was schauest du so hell und klar» до фоссовской редакции; построчное сопоставление версии Фосса с оригиналом (по образцу Ф22 в досье поэта для Seufzer) — предзагруженная страница schubertsong.uk оказалась о другой песне (см. служебное примечание).
@@ -97,6 +109,7 @@
 - Сведения LiederNet — сеть не ответила ни на предзагрузку, ни на два дополнительных запроса в рамках этой сессии.
 - Прижизненная и последующая критическая рецепция за пределами приведённой оценки Кейпела (Ф15).
 - Точная связь датировки 7 августа 1816 года с общим контекстом «весенней волны 1816 года» Хёльти в досье поэта (см. Ф3, uncertain).
+- Определение буклета Hyperion (или тома CDJ33017 целиком) как «хроники» — ни в предзагруженном фрагменте буклета, ни в остальных источниках бандла слова «хроника»/«chronicle» применительно к изданию нет; audit-запрос по этому пункту не подтвердился.
 
 ---
 

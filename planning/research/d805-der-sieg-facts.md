@@ -48,6 +48,8 @@
 
 **Ф19.** Различие пунктуации между версией изданий эпохи (LiederNet/schubertsong.uk/schubertlied.de — восклицательный знак и точка после первых строк строфы) и текстом песни в проекте (запятые) — сопоставление построчно; происхождение варианта пунктуации, принятого в проекте (какое конкретно современное издание использовано), по бандлу не устанавливается — uncertain.
 
+**Ф41.** В общем реестре источников проекта Пётр Растль охарактеризован как автор критического слоя текстов шубертовских песен вообще (какое издание использовал Шуберт, поющиеся тексты, отличия слов), на который опираются LiederNet и schubertsong.uk; сверка страниц 64–65 для «Der Sieg» (Ф14) — частный случай этой систематической работы — docs/rules/acknowledgements.md — «Peter Rastl — критический слой текстов песен Шуберта (какое издание использовал Шуберт, поющиеся тексты, отличия слов); лежит в основе LiederNet и schubertsong.uk.» — secondary (внутренний реестр проекта, обобщающий множество независимо verified-сверок Растля по другим песням корпуса, а не внешний источник).
+
 ## 4. Музыка
 
 **Ф20.** Тональность — фа мажор (F-Dur), см. Ф4.
@@ -73,6 +75,8 @@
 **Ф28.** Начальные образы («unclouded life», цветы, вызывающие «первозданные грёзы») задают тон нереалистичного совершенства; но основная часть текста, объясняющая, как это состояние достигнуто через некую победу, открывает более тёмные пласты — «серьёзный… очень тёмный и подлинный» подтекст, который Швинд услышал в музыке Шуберта — schubertsong.uk, https://www.schubertsong.uk/text/der-sieg/ — «the main body of the text, explaining how this state of affairs has come about through some sort of victory, opens up darker dimensions, the 'serious . . . very dark and genuine' undercurrents which Schwind heard in Schubert's musical setting.» — verified.
 
 **Ф29.** Майрхофер, по предположению Рена, знал о Великом Сфинксе Гизы как объекте крупной археологической кампании 1817 года и, как и в случае «Мемнона», был увлечён фигурой из древнего Египта, значимой и для древних греков — schubertsong.uk, https://www.schubertsong.uk/text/der-sieg/ — «Mayrhofer would have known about the Great Sphinx of Giza being the object of a major archaeological campaign in 1817 and, as with Memnon, he would have been fascinated by a figure from ancient Egypt who was significant in ancient Greece too.» — verified (атрибутированное предположение комментатора, не факт биографии).
+
+**Ф40.** Полная версия фразы Рена о «Музах» (в Ф23 цитата дана с многоточием на этом месте) поясняет, что имеются в виду именно искусства — и, по всей вероятности, в первую очередь поэзия и музыка: «this dangerous monster was itself destroyed by 'the Muses' (the arts, and presumably poetry and music in particular) singing it to death» — schubertsong.uk, https://www.schubertsong.uk/text/der-sieg/ — verified (та же цитата, что в Ф23, без пропуска серединной части).
 
 ## 6. Рецепция и документы эпохи
 

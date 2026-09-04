@@ -14,6 +14,8 @@
 
 **Ф4.** Существует ещё одна постановка того же текста Хёльти — трио для 2 теноров и баса Totengräberlied D 38, датированное «[1813?]» — schubertsong.uk, https://www.schubertsong.uk/text/totengraberlied/ — «D 38 trio for TTB [1813?]»; независимо у schubertlied.de: «Er schrieb außerdem ein Trio mit gleichem Titel/Text für 2 Tenöre und Bass: Totengräberlied D38» — verified (cross-verified двумя источниками), но точная дата D 38 в бандле не установлена (стоит вопросительный знак у источника).
 
+**Ф33.** Помимо трио D 38, у Шуберта есть ещё два самостоятельных сочинения на сюжет могильщика под сходными названиями, которые не следует путать с D 44: «Totengräber-Weise» D 869 (1826, текст Франца Ксавера фон Шлехты, фа-диез минор) и «Totengräbers Heimweh» D 842 (апрель 1825, текст Якоба Николауса Крайгера де Яхелутты, фа минор) — IMSLP, https://imslp.org/wiki/Totengr%C3%A4ber-Weise,_D.869_(Schubert,_Franz) — «Totengräber-Weise, D.869 (Schubert, Franz)»; https://imslp.org/wiki/Totengr%C3%A4bers_Heimweh,_D.842_(Schubert,_Franz) — «Totengräbers Heimweh» — verified (каталожные страницы IMSLP, независимые от прочих источников бандла).
+
 ## 2. Публикация и автограф
 
 **Ф5.** Первая публикация песни — 1894 год — schubertlied.de — «Veröffentlichung (angezeigt): 1894» — verified.

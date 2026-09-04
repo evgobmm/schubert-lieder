@@ -37,6 +37,8 @@
 **Ф12.** Расхождение проектного немецкого текста с текстом у Козегартена/Hyperion (см. вводный абзац) — установлено сопоставлением бандла; НЕ является фактом из источника, а наблюдением редактора файла фактов — не публиковать как цитируемый факт, только как техническую оговорку при подготовке страницы.
 
 
+**Ф27.** Роль Петера Растля в подготовке текста — он «установил формулировку немецких текстов» (текстологическая работа над словесной подкладкой песен Шуберта, включая книгу-справочник об источниках текстов) — страница «About» сайта schubertsong.uk (https://www.schubertsong.uk/about/) — «Peter Rastl, who has established the wording of the German texts and made early editions of his book on the Schubert song texts available» — verified.
+
 **Ф26.** Восстановлено пропущенное слово «grauen» в строке 2.4: «Des Abends lauer Hauch.» → «Des grauen Abends lauer Hauch.» — schubertsong.uk (оба раздела текста) — «Des grauen Abends lauer Hauch.»; LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=9565) — «Des grauen Abends lauer Hauch.» — **verified**. В подстрочник добавлен сегмент «серого» — «grauen»; диапазон аннотации сдвинут. Общая перестройка строф 1–2 в проектном тексте этой правкой не затрагивается и остаётся неразъяснённой (см. вводную оговорку раздела).
 ## 4. Музыка
 

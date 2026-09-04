@@ -78,6 +78,10 @@
 
 **Ф25.** Отклонена как кандидат запись Valentina Valente — любительская загрузка вне «Topic»-канала, без альбомной атрибуции — раздел «ТОП-5 ЗАПИСЕЙ» бандла — verified (решение по внутренним критериям отбора).
 
+**Ф28.** Полное название альбома Hyperion CDJ33007 (том 7 Hyperion Schubert Edition, № 1 в топ-5, Ф23) — «The Hyperion Schubert Edition, Vol. 7 – Elly Ameling», подзаголовок «Schubert in 1815 I» — hyperion-records.co.uk (http://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33007) — «The Hyperion Schubert Edition, Vol. 7 - Elly Ameling»; «Schubert in 1815 I» — verified.
+
+**Ф29.** Полное название альбома Naxos 8.557373 (том 22 Deutsche Schubert-Lied-Edition, № 2 в топ-5, Ф24) — «Schubert: Lied Edition 22 — Poets of Sensibility, Vol. 5» — naxos.com (https://www.naxos.com/CatalogueDetail/?id=8.557373) — «SCHUBERT, F.: Lied Edition 22 - Poets of Sensibility, Vol. 5» — verified.
+
 ---
 
 ## Не подтвердилось / не найдено
