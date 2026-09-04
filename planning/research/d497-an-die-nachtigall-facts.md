@@ -63,6 +63,8 @@
 
 **Ф23.** Джонсон называет среди почитателей этого мастерства Хуго Вольфа: его песни приглушённого религиозного трепета и застенчиво-изысканные картины природы многим обязаны урокам этого шедевра; благодаря такой песне, как An die Nachtigall, влияние Вагнера на творчество Вольфа было уравновешено и смягчено отголоском шубертовской простоты — hyperion-records.co.uk (буклет CDJ33017) — «One such Schubert devotee was Hugo Wolf whose songs of hushed religious awe, and shy and exquisite évocations of nature owe much to the lessons of this masterpiece. Thanks to a song like An die Nachtigall the influence of Wagner on Wolf's output was counterbalanced and refined by an echo of Schubertian simplicity.» — verified.
 
+**Ф38.** Хуго Вольф (Hugo Wolf, 1860–1903) — австрийский композитор: родился в Виндишгреце (Штирия, тогда в составе Австрийской империи), работал в основном в Вене — en.wikipedia.org, https://en.wikipedia.org/wiki/Hugo_Wolf — «Hugo Philipp Jacob Wolf … was an Austrian composer» — secondary.
+
 ## 5. Смыслы и интерпретации
 
 **Ф24.** См. Ф14 — тема двойственности героя (Амур/Купидон или ирония говорящего) и неопределённости пола говорящего — schubertsong.uk — verified.
