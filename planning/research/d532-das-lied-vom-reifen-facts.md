@@ -74,6 +74,8 @@
 
 **Ф26.** Возрастная структура топ-5: две записи ранее 1990 года (1969, 1985), три записи 1990 года и позднее; достойного кандидата 2015 года и позднее в доступном фонде не найдено — топ-5-досье в бандле — verified (внутренние данные проекта).
 
+**Ф27.** Rosslyn Hill Chapel, где в октябре 1992 года записана запись №3 (Ф23), находится в Хэмпстеде, Лондон — Wikipedia, статья «Rosslyn Hill Chapel» (https://en.wikipedia.org/wiki/Rosslyn_Hill_Chapel) — «The Rosslyn Hill Unitarian Chapel is a place of worship in Hampstead, London» — secondary.
+
 ---
 
 ## Не подтвердилось / не найдено

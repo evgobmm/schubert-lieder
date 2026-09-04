@@ -1,6 +1,6 @@
 # Факты: «Sehnsucht» (D 123)
 
-Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/sehnsucht-d123
+Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/sehnsucht-d123; DWDS/DWB (словарь Гримма) — https://www.dwds.de/wb/dwb/hin%C3%BCber, https://www.dwds.de/wb/dwb/sp%C3%A4hen; DWDS (совр.) — https://www.dwds.de/wb/umschlingen
 
 Немецкий текст песни в проекте: пять строф, «Was zieht mir das Herz so» / «Was zieht mich hinaus» / «Und windet und schraubt mich / Aus Zimmer und Haus?» — «Wie dort sich die Wolken / Am Felsen verziehn» — «Nun wiegt sich der Raben / Geselliger Flug» — «Da kommt sie und wandelt» — «Die scheidende Sonne / Vergüldet die Höhn» — «Auf einmal erschein ich, / Ein blinkender Stern», с повтором последней строки в конце. Поэт — Иоганн Вольфганг фон Гёте. Досье поэта: `planning/research/poets/goethe.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в теле задания (`planning/youtube/data/d123-sehnsucht.dossier.json`).
 
@@ -69,6 +69,14 @@
 **Ф19.** Топ-3 — Адриан Томпсон, Грэм Джонсон (фортепиано), запись II.1991, издание Hyperion, том 12 «The Young Schubert I»; videoId `octy2LPbgSI` — топ-5 записей D 123 — secondary.
 
 **Ф20.** Топ-4 — Kalpers — Kehring, 2004, издание Naxos DSLE, том 16 «Goethe, Vol. 3» (издано 01/2004); videoId `26H8C_XeFc4` — топ-5 записей D 123 — secondary.
+
+## 9. Словарные значения (вне карточек)
+
+**Ф23.** hinüber в словаре Гримма (DWB) толкуется как движение «über eine strecke hinweg nach einem entfernter liegendem ziele» («на протяжении некоторого расстояния к более удалённой цели») — DWDS/DWB — https://www.dwds.de/wb/dwb/hin%C3%BCber — «hinüber, adv. über eine strecke hinweg nach einem entfernter liegendem ziele» — verified. Отдельной словарной карточки hinüber в проекте нет (`planning/dictionary/entries/`), цитата взята из предзагруженной статьи DWDS/DWB (`dict-prefetch.json` пакета песни).
+
+**Ф24.** spähen в словаре Гримма (DWB) толкуется как «scharf und forschend ausblicken, kundschaften» («зорко и пытливо всматриваться вдаль, разведывать») — DWDS/DWB — https://www.dwds.de/wb/dwb/sp%C3%A4hen — «spähen, verb. scharf und forschend ausblicken, kundschaften.» — verified. Карточки spähen в проекте нет; цитата — из предзагруженной статьи DWDS/DWB.
+
+**Ф25.** umschlingen в переходном значении «etw. umschlingt etw.» современный DWDS толкует как «etw. schlingt sich um etw. herum, umwindet etw.» («что-л. обвивается вокруг чего-л., обматывает что-л.») — DWDS — https://www.dwds.de/wb/umschlingen — «etw. umschlingt etw. etw. schlingt sich um etw. herum, umwindet etw.» — verified. Карточки umschlingen в проекте нет; цитата — из предзагруженной статьи DWDS (не DWB, а современный корпус eWDG).
 
 ## Не подтвердилось / не найдено
 

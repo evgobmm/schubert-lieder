@@ -83,6 +83,18 @@
 
 ---
 
+## 9. Другая песня с тем же названием
+
+**Ф23.** Название «Die Sterne» Шуберт использовал дважды: помимо D313 (Козегартен, «Wie wohl ist mir im Dunkeln»), существует другая песня «Die Sterne» D 684 на стихи Фридриха Шлегеля («Du staunest, o Mensch»), датируемая предположительно началом 1819 года и относимая к предполагаемому циклу Schlegel: Abendröte — schubertsong.uk (https://www.schubertsong.uk/text/die-sterne/) — «Die Sterne (Du staunest, o Mensch), D 684 … Set by Schubert: D 684 [probably early 1819] Text by: Karl Wilhelm Friedrich Schlegel … Part of Schlegel: Abendröte (putative cycle)» — verified (источник уже присутствовал в предзагрузке бандла D313, но, как отмечено выше, относится к D684, а не к D313; используется здесь именно для подтверждения факта существования одноимённой песни).
+
+## 10. Уточнения к отдельным словам
+
+**Ф24.** У Гриммов (DWB) при глаголе flimmern в качестве примеров блеска фигурируют золото, серебро и самоцветы, но не звёзды — DWDS, статья DWB «flimmern» (https://www.dwds.de/wb/dwb/flimmern) — «es flimmerte und flammerte von lauter golde und edelgesteinen»; «flimmerte und flammerte alles von gold, silber und edelgesteinen» — secondary (доступ через зеркало DWDS полного текста DWB; отдельно, в статье о существительном Flimmer, встречается словосочетание «eines sternes flimmer» из стихотворения Ленау, но это иная словарная статья и не пример к глаголу flimmern).
+
+**Ф25.** Der Schwan (Лебедь) в строфе 2 — помимо птицы, также название созвездия Cygnus (Лебедь), лежащего в полосе Млечного Пути; по-английски это описывается как созвездие, «летящее вдоль Млечного Пути» ("a majestic swan flying along the Milky Way") — earthsky.org (https://earthsky.org/constellations/cygnus-the-swan-milky-way/) — «Cygnus is a northern constellation in the plane of the Milky Way … a majestic swan flying along the Milky Way» — verified (общеастрономический источник, не германистический/шубертоведческий; факт о самом созвездии, не о его трактовке у Шуберта или Козегартена).
+
+---
+
 ## Не подтвердилось / не найдено
 
 - Точный возраст Шуберта (18 лет) на дату сочинения — не подкреплён цитатой в этом бандле (см. Ф3).

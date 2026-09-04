@@ -2,6 +2,8 @@
 
 Немецкий текст песни в проекте (не изменялся): 4 строфы по 4 (в строфах 2–3) или 6 (в строфах 1 и 4, за счёт повторов строк в музыке) строк — «Im Winde, im Sturme befahr ich den Fluss» / «Die Wellen sie jagen das ächzende Schiff» / «So musste es kommen, ich hab es gewollt» / «Drum tose des Wassers ohnmächtiger Zorn». Поэт — Иоганн Майрхофер (Johann Mayrhofer, 1787–1836). Досье поэта: `planning/research/poets/mayrhofer.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в бандле (досье `planning/youtube/data/d536-der-schiffer.dossier.json`).
 
+Источники: Wikipedia (en), «Schloss Engers» — https://en.wikipedia.org/wiki/Schloss_Engers
+
 ---
 
 ## 1. Датировка и возраст Шуберта
@@ -91,6 +93,8 @@
 **Ф35.** 5) Mauro Peter (в источнике фактов топ-5 указан как «Schuen» — сверить при публикации) — Helmut Deutsch/Heide, 2016 (videoId `zOlcJ3A-sSs`): Avi-Music 8553373 «Wanderer», запись октябрь 2016, Villa Musica Rheinland-Pfalz, Schloss Engers (Discogs 24213455); D 536 — позиция 4 трек-листа. — топ-5-досье в бандле — verified (для целей проекта; имя певца в разделе «топ-5» бандла дано как «Schuen», без расшифровки инициалов — при переносе в текст песни имя воспроизводить как в досье, не додумывая).
 
 **Ф36.** Ролики Элли Амелинг (`pH_uEjDtebg`, `9HK6zD0_uCQ`, 201–205 с), первоначально казавшиеся кандидатами, при проверке отнесены к другой песне — «Der Schiffer» D 694 («Friedlich lieg ich hingegossen»), существующей самостоятельно (MusicBrainz даёт её отдельной записью Фишера-Дискау/Мура, 187 с); из топ-5 D 536 исключены. — топ-5-досье в бандле — verified (для целей проекта; важно не спутать при публикации: у Шуберта две разные песни с заглавием «Der Schiffer» — D 536 на стихи Майрхофера и D 694 на стихи Фридриха фон Шлегеля).
+
+**Ф37.** Замок Энгерс (Schloss Engers), где записан альбом «Wanderer» (запись № 5 топ-5, Ф35), расположен рядом с Кобленцем, на берегу Рейна (в черте города Нойвид). — Wikipedia (en), «Schloss Engers» (https://en.wikipedia.org/wiki/Schloss_Engers) — «Schloss Engers is a Baroque-style palace in Engers, near Koblenz, Germany» — secondary (источник вне бандла предзагрузки; факт общеизвестный и легко проверяемый, но не входил в предзагруженный набор).
 
 ---
 

@@ -105,6 +105,12 @@ Kommt Freude niemals wieder in mein Herz.
 
 **Ф32.** № 5 — Ноэми Ширай (меццо-сопрано), Хартмут Хёлль (фортепиано), 1997; Capriccio «Schubert: Lieder, Vol. 1 — Opp. 1–24», ℗ 1997, D 504 = Op. 6 № 3; videoId `Cr_ChP2MbsM` — топ-5 в бандле — «Capriccio «Schubert: Lieder, Vol. 1 — Opp. 1–24», ℗ 1997, пианист Hartmut Höll… издание по опусам, D 504 = op. 6 № 3» — secondary.
 
+## 9. Дополнения (доследование по возврату снятых утверждений)
+
+**Ф33.** Заглавие «Am Grabe Anselmos» — авторское, самого Клаудиуса (это заглавие поэта, не редакторское или издательское) — schubertsong.uk (https://www.schubertsong.uk/text/am-grabe-anselmos/) — «By Anselmo's grave (Poet's title: Am Grabe Anselmos)» — verified.
+
+**Ф34.** Факсимиле ранней публикации текста (см. Ф11, https://resolver.sub.uni-hamburg.de/kitodo/PPN840695020) размещено в цифровой коллекции Государственной и университетской библиотеки Гамбурга (Staats- und Universitätsbibliothek Hamburg): ссылка ведёт на дигитализат сборника «Asmus omnia sua secum portans» (Hamburg, Bode, 1775) в системе «Hamburger Kulturgut Digital» — прямой доступ (redirect на https://digitalisate.sub.uni-hamburg.de/ppnresolver/PPN840695020) — «Hosting Institution: Staats- und Universitätsbibliothek Hamburg (State and University Library Hamburg)… Title: "[Asmus omnia sua secum portans]" (Band 1/2)… Hamburg, published by Bode in 1775… part of "Hamburger Kulturgut Digital"» — verified.
+
 ## Не подтвердилось / не найдено
 
 - **Автограф и обстоятельства первого исполнения** песни — недоступны (schubertlied.de не отвечал согласно манифесту предзагрузки: `"schubertlied.de": {"ok": false}`).

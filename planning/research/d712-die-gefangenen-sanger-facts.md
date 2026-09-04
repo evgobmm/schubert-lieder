@@ -28,6 +28,8 @@
 
 **Ф8.** Каталожные адреса: Alte Gesamtausgabe, Serie XX, Bd. 06, № 389; Neue Schubert-Ausgabe IV, Bd. 13; Friedlaender Edition, Bd. 5, № 193 — schubertlied.de — «Alte Gesamtausgabe, Serie XX, Bd. 06 № 389; Neue Schubert-Ausgabe IV, Bd. 13; Friedlaender Edition Bd. 5 » 193» — verified.
 
+**Ф41.** Между смертью Шуберта (19 ноября 1828 года — общеизвестная дата, отдельной цитатой в бандле не подтверждена) и первой публикацией песни 23 июня 1842 года (Ф4) прошло четырнадцать лет: песня оставалась неизданной все эти годы после смерти композитора — арифметика по дате Ф4 и общеизвестной дате смерти Шуберта; тот же приём (год смерти Шуберта как общеизвестный факт для расчёта разрыва между смертью и посмертной публикацией) применён в фактах других песен корпуса, напр. d221-der-abend Ф30, d233-geist-der-liebe Ф7, d219-das-finden Ф35 — verified (расчёт по датам).
+
 ## 3. Текст и источник
 
 **Ф9.** Стихотворение впервые опубликовано в 1811 году в «August Wilhelm Schlegels poetische Werke. Erster Theil» (Гейдельберг, у Мора и Циммера), с. 264–265 — schubertsong.uk — «First published 1811»; «Heidelberg bey Mohr und Zimmer 1811, pages 264-265» — verified (согласуется со schubertlied.de: «veröffentlicht im Jahr 1811 in August Wilhelm Schlegels poetische Werke. Erster Theil… Seite 264f.»).
