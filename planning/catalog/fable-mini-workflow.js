@@ -23,7 +23,7 @@ const one = (s) => agent(`Ты — финальный редактор прое�
 Затем ОДИН Bash: node ${REPO}/planning/scripts/apply-edits.js ${s.d} ${args.workDir} — он применит правки и прогонит валидатор с линтом. При «ОТКЛОНЕНО» или ERROR поправь edits-файл и повтори не больше одного раза.
 
 Верни по схеме: d="${s.d}", ok, n_changes, removed, flags, tool_calls.`, {
-  label: `Fable-мини D ${s.d}`, phase: 'Fable-мини', model: 'fable', effort: 'high',
+  label: `Fable-мини D ${s.d}`, phase: 'Fable-мини', model: 'fable', effort: 'medium',
   schema: { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_changes: { type: 'number' }, removed: { type: 'array', maxItems: 10, items: { type: 'object', properties: { what: { type: 'string', maxLength: 200 }, why: { type: 'string', maxLength: 200 } }, required: ['what', 'why'] } }, flags: { type: 'array', maxItems: 6, items: { type: 'string', maxLength: 200 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_changes', 'tool_calls'] },
 })
 const PAR = args.parallel || 6
