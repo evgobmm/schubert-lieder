@@ -70,6 +70,8 @@
 
 **Ф27.** Джонсон трактует песню как часть широкой темы: попытку описать мир до грехопадения, идиллию гармонии и природного порядка (см. также Ф19–Ф20 о музыкальном воплощении этого смысла). — буклет Hyperion (https://www.hyperion-records.co.uk/notes/33019-B.pdf) — см. цитату Ф21 — verified.
 
+**Ф40.** Рен относит возвращающуюся к долине «Röthe» (строка 1.3) к тому же мотиву вечера и заката, что и финальный образ «golden Antlitz» — на странице schubertsong.uk строка 1.3 отмечена тегом темы «Evening and the setting sun» в списке «Themes and images in this text», а в комментарии к финальному образу Рен пишет: «The sun turns golden in the sunset (we have already noted that the valley is getting redder)», прямо отсылая назад к строке 1.3. — schubertsong.uk (https://www.schubertsong.uk/text/nach-einem-gewitter/) — «Evening and the setting sun» (список тем); «The sun turns golden in the sunset (we have already noted that the valley is getting redder) and is reflected in the shimmering, placated... waves» — verified.
+
 ## 6. Рецепция и документы эпохи
 
 **Ф28.** Песня навлекла на себя «мини-бурю критики» за непохожесть на другие сочинения Шуберта на слова Майрхофера; критик Ричард Кэпелл усомнился в подлинности авторства Шуберта — мнение, которое Джонсон называет «явно нелепым». — буклет Hyperion (https://www.hyperion-records.co.uk/notes/33019-B.pdf) — см. цитату Ф21 — verified.
