@@ -3,6 +3,8 @@
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/schweizerlied/
 Источники: Hyperion Records, буклет Грэма Джонсона (CDJ33021) — https://www.hyperion-records.co.uk/notes/33021-B.pdf
 Источники: IMSLP — https://imslp.org/wiki/Schweizerlied,_D.559_(Schubert,_Franz)
+Источники: DWDS, статья «Imme» — https://www.dwds.de/wb/Imme
+Источники: DWDS, статья «Biene» — https://www.dwds.de/wb/Biene
 
 Немецкий текст песни в проекте — диалектная (алеманнская) миниатюра на стихи Иоганна Вольфганга фон Гёте, четыре восьмистрочные строфы. Поэт — Гёте; досье поэта переиспользуется со ссылкой «досье, Ф№», заново не проверялось. История записей взята из предзагруженного топ-5 бандла (раздел «Записи» ниже).
 
@@ -88,3 +90,6 @@
 - Год первой публикации содержит неустранённое расхождение источников: 1885 (Hyperion) против 1887 (IMSLP) — см. Ф20.
 - Точная дата сессии записи Элизабет Шуман / Джеральда Мура (буклет Warner «Icon» / Naxos Historical 8.110731) — обозначена составителями топ-5 как «хвост на доисследование».
 - Целевой поиск страницы LiederNet.net по тексту «Uf'm Bergli bin i gsässe» результата не дал (два обращения к duckduckgo.com не вернули пригодной ссылки на lieder.net).
+- Утверждение «Imme старше литературного Biene» не подтвердилось: по DWDS первое засвидетельствование Biene — «ahd. bini n. (8. Jh.)», Imme — «ahd. imbi m. … (9. Jh.)», то есть Biene зафиксировано раньше Imme; верно обратное — Imme лишь позже уступило Biene распространённость под влиянием Лютера («Durch Luthers Einfluß geht die Verbreitung von Imme zugunsten von Biene zurück») — DWDS, статьи «Imme» и «Biene» — не подтверждено.
+- Утверждение «summen о высоком звоне мелких крыльев» опоры не нашло: DWB (статья Gesumme) описывает summen/Gesumme как подражание гулу насекомых вообще — «gesumme der mücken, fliegen, wespen, bienen» (комаров, мух, ос, пчёл) — без указания на высоту звука или на крылья как источник — не найдено.
+- Утверждение «Рен считает строку „wie sie's mache“ узлом всего текста» опоры не нашло: в комментарии Рена к последней строфе (schubertsong.uk) есть только пересказ сцены с Гензелем («The speaker is not exactly coy and is keen to point out what is going on to Hansel… He laughs even more… and needs no persuading to join in the general activity»), оценки этой строки как «узла» текста нет.

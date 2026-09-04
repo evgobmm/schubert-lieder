@@ -82,6 +82,10 @@
 
 **Ф31.** 5) Carolyn Sampson — Joseph Middleton, YouTube-канал «Carolyn Sampson - Topic» (videoId XQDGZdlZMjw), год 2025 — «Schubert's Four Seasons» (BIS, релиз 04.04.2025), «Erntelied, D. 434» — трек 17 (MusicBrainz, релиз 922b6e87-6e94-41f5-99db-5e97fea4effd; ℗ 2025 BIS Records) — данные топ-5 — verified (внутренний источник).
 
+## 9. Словарь Гриммов и слово Binderin
+
+**Ф32.** Статья словаря Гримм (Deutsches Wörterbuch) на слово «Binderin» приводит единственный пример словоупотребления (единственную Belegstelle) — именно эту строку Хёльти из «Erntelied»: «mähet, dann beginnen / schnell die binderinnen, / binden sonder ruh.» (источник в статье обозначен как «Hölty 210»; статья в Lfg. 1 (1854), Bd. II (1860), Sp. 34) — DWDS, зеркало Deutsches Wörterbuch, https://www.dwds.de/wb/dwb/Binderin — «Dies ist das einzige Beispiel (Belegstelle), das in dieser Wörterbuch-Eintrag aufgeführt wird. Die Quelle wird als "Hölty 210" angegeben und stammt aus der Lfg. 1 (1854), Bd. II (1860), Sp. 34» — secondary (содержимое страницы получено через инструмент выборки с ИИ-обработкой, не сырой HTML словарной статьи; попытка получить сырой HTML напрямую с woerterbuchnetz.de не удалась — страница отдаёт JS-обёртку без содержимого).
+
 ---
 
 ## Не подтвердилось / не найдено

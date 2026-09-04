@@ -102,7 +102,9 @@
 
 **Ф32.** Запись №3 — Аннели Конради (меццо/альт) и Даниэль Хайде (фортепиано), 2020, альбом «Strauss, Mozart & Schubert: Liebende» (Avi-Music 8553171) — досье записей проекта — secondary (внутренний реестр, videoId `rU1CPJes_fQ`).
 
-**Ф33.** Запись №4 — Сара Ойч(Тойшер) [Sarah/Ruth Ziesak? — в досье: «Teuscher»] и Ульрих Айзенлор (фортепиано), 2006, серия Naxos «Poets of Sensibility, Vol. 5», т. 22 (8.557373, изд. 11/2006) — досье записей проекта — secondary (внутренний реестр, videoId `zVr1VyQSXlk`).
+**Ф33.** Запись №4 — Сара Ойч(Тойшер) [Sarah/Ruth Ziesak? — в досье: «Teuscher»] и Ульрих Айзенлор (фортепиано), 2006, серия Naxos «Poets of Sensibility, Vol. 5», т. 22 (8.557373, изд. 11/2006) — досье записей проекта — secondary (внутренний реестр, videoId `zVr1VyQSXlk`). Атрибуция имени певицы уточнена в Ф36.
+
+**Ф36.** Имя певицы записи №4 (Ф33) — Лидия Тойшер (Lydia Teuscher), а не «Сара»: досье `planning/youtube/data/d241-alles-um-liebe.dossier.json`, кандидат №3 — «singer: Lydia Teuscher (сопрано)», «channel: Lydia Teuscher - Topic»; независимо — внутренний реестр альбомов `planning/youtube/albums/complete-editions.md` — «Lydia Teuscher / Marcus Ullmann / Thomas E. Bauer — т. 22 «Poets of Sensibility, Vol. 5» (Naxos 8.557373, изд. 11/2006) — Eisenlohr (Naxos; MB)» — тот же том, тот же каталожный номер 8.557373, та же дата издания 11/2006, что и в Ф33 — **verified** (совпадение по каталожным данным двух независимых внутренних источников проекта).
 
 ---
 

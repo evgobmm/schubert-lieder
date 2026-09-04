@@ -5,6 +5,7 @@
 Источники: ADB (Deutsche Biographie) — https://www.deutsche-biographie.de/sfz78878.html
 Источники: Hyperion, статья о Шоберте — https://www.hyperion-records.co.uk/c.asp?c=C1097
 Источники: IMSLP — https://imslp.org/wiki/Schatzgr%C3%A4bers_Begehr,_D.761_(Schubert,_Franz) (добавлено во втором проходе, 2026-09-03)
+Источники: schubertlied.de, «Old Complete Edition» — https://www.schubertlied.de/en/old-complete-edition (добавлено в третьем проходе, 2026-09-04)
 
 Немецкий текст песни в проекте: `app/src/data/songs/d761-schatzgrabers-begehr.json`. Три строфы (сонет по форме: 8+3+3 строк с повторами в третьей строфе). Поэт — Франц фон Шобер, друг Шуберта. Досье поэта: `planning/research/poets/schober.md` (факты оттуда переиспользуются со ссылкой «досье schober, Ф№», заново не проверялись). История записей: топ-5 в самом бандле (см. раздел 8 ниже).
 
@@ -55,6 +56,8 @@
 **Ф23.** Песня существует в двух редакциях: 1-я — опубликована при жизни Шуберта как Op. 23 № 4 (Schubert's Werke, Serie XX, Band 7, № 412, с. 35–37); 2-я — при жизни не публиковалась, впервые издана только в старом полном собрании сочинений 1895 года (там же, № 412b, с. 187–189, та же пластина F.S. 767 с пометой «*»); обе редакции — в редакции Эйзебиуса Мандычевского — IMSLP — «Opus/Catalogue Number Op./Cat. No. D.761 ; Op.23 No.4»; «1st version (published as Op.23 No.4)... Schubert's Werke, Serie XX, Band 7... No.412»; «2nd version... No.412b» — verified.
 
 **Ф24.** Первое прижизненное издание (1-й редакции, как Op. 23 № 4) — Вена, издательство Sauer & Leidesdorf, без года на титуле [датировка IMSLP — 1823], пластина «S et L 367» — IMSLP — «Vienna: Sauer & Leidesdorf, n.d.[1823]. Plate S et L 367» — согласуется с Ф4 (буклет Hyperion: «published by Sauer und Leidesdorf in Vienna in August 1823 as Op 23 No 4») — verified.
+
+**Ф27.** Мандычевский был редактором не только этих двух редакций песни, а всего первого систематического полного издания песен Шуберта (1894–1897, Breitkopf & Härtel), ставшего «старым полным собранием» (AGA) — schubertlied.de, «Old Complete Edition» — «which was edited by Eusebius Mandyczewski... became the OLD complete edition (AGA)» — verified.
 
 ## 5. Смыслы и интерпретации
 

@@ -1,6 +1,6 @@
 # Факты: «An Schwager Kronos» (D 369)
 
-Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/an-schwager-kronos-d369; schubertsong.uk — https://www.schubertsong.uk/text/an-schwager-kronos/; Hyperion (буклет CDJ33024, Грэм Джонсон) — https://www.hyperion-records.co.uk/notes/33024-B.pdf; досье поэта (Гёте) — planning/research/poets/goethe.md (переиспользовано со ссылкой «досье, Ф№»).
+Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/an-schwager-kronos-d369; schubertsong.uk — https://www.schubertsong.uk/text/an-schwager-kronos/; Hyperion (буклет CDJ33024, Грэм Джонсон) — https://www.hyperion-records.co.uk/notes/33024-B.pdf; досье поэта (Гёте) — planning/research/poets/goethe.md (переиспользовано со ссылкой «досье, Ф№»); DWB (Deutsches Wörterbuch, братья Гримм, по dwds.de) — https://www.dwds.de/wb/dwb/frischung.
 
 Немецкий текст песни в проекте — 9 строф («Spute dich, Kronos!» … «Der Wirth uns freundlich empfange»); две пары строф дублируют зачин («Nun schon wieder» в строфах 2–3, «Töne, Schwager, in's Horn» в строфах 8–9) — так текст разбит в проекте, немецкий текст не менялся.
 
@@ -47,6 +47,8 @@
 **Ф37.** Правка немецкого текста по вердикту аудита (2026-09-01), строка 1.1: «Spute dich, Kronos!» → «Spude dich, Kronos!» — schubertsong.uk, раздел «Original Spelling» (критический текст Растля по венскому изданию 1816 года, вероятному источнику Шуберта) — «Spude dich, Kronos!»; schubertlied.de — «Spude dich, Kronos!» — **verified**. Оба независимых источника дают архаичную форму; «Spute» — позднейшая нормализация (ср. Ф15). Русский сегмент («Поторопись») не менялся; в аннотации к строке форма приведена в соответствие с текстом.
 
 **Ф38.** Правка немецкого текста по вердикту аудита (2026-09-01), строки 4.1–4.2: «Weit, hoch, herrlich rings / Den Blick in's Leben hinein,» → «Weit, hoch, herrlich der Blick, / Rings in's Leben hinein,» — schubertsong.uk (и «Liedtext», и «Original Spelling») — «Weit, hoch, herrlich der Blick / Rings ins Leben hinein,»; schubertlied.de — «Weit, hoch, herrlich der Blick / Rings in's Leben hinein,» — **verified**. Расхождение с буклетом Hyperion CDJ33024 сохраняется (два независимых источника против одного); чтение проекта не совпадало ни с одним из них. Этим закрывается статус uncertain у Ф14. Русские сегменты переставлены вслед за словами («взгляд» — в первую строку, «кругом» — во вторую); аннотация о rings перенесена к строке 4.2, апостроф in's сохранён по конвенции песни.
+
+**Ф39.** Существительное Frischung зафиксировано словарём Гримма (DWB) с толкованием «refrigeratio, recreatio, kühlung, labung, erfrischung» («охлаждение, оживление, прохлада, отрада, освежение»); древнейшее приведённое употребление — не у Гёте, а у Ромплера (XVII в.: «mit feister frischung fleuszt»), строка Гёте («und ein frischung verheiszender blick») в статье лишь одна из иллюстративных цитат наряду с Клопштоком и Гердером — слово в источнике не названо гётевским новообразованием. — DWB (dwds.de/wb/dwb/frischung) — «frischung (f.) ... refrigeratio, recreatio, kühlung, labung, erfrischung»; «Rompler (102) ... mit feister frischung fleuszt» — verified.
 
 ## 4. Музыка
 
@@ -104,3 +106,4 @@
 - Точная дата исполнения Гёте «Erlkönig» в 1830 году и конкретные обстоятельства (город, программа) — не зафиксированы ни в одном из предзагруженных источников.
 - Причина расхождения текста строфы 3 («Weit, hoch, herrlich der Blick / Rings in's Leben hinein» vs «Weit, hoch, herrlich / Rings den Blick in's Leben hinein») между изданиями — не выяснена; см. Ф14.
 - Точная дата письма Гёте Цельтеру о «музыке как втекающем газе» (досье, Ф31) — не найдена ни в одном из источников бандла; в текст не включать без даты.
+- Утверждение, что слово Frischung образовал сам Гёте: опровергнуто — по DWB слово старше и зафиксировано уже у Ромплера в XVII веке, Гёте в статье словаря лишь один из цитируемых авторов (см. Ф39); формулировку про авторство Гёте не восстанавливать.
