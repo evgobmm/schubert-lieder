@@ -44,6 +44,8 @@
 
 **Ф17.** На иллюстрации к статье Schubert Song Texts фигурирует альтернативное написание заглавия у Шуберта на титуле опуса — «Wonne der Wehmuth» (архаичное «th»), как и в анонсе Wiener Zeitung (Ф7: «Wonne der Wehmuth D 260 von Göthe»). — schubertlied.de, источник 4.1/4.2 — «Wonne der Wehmuth D 260 von Göthe.» — verified.
 
+**Ф36.** У слова halbgetrocknet (halbgetrockneten в тексте песни) нет собственной словарной статьи ни в DWDS, ни в словаре Гриммов (Deutsches Wörterbuch, DWB): прямой запрос к DWDS по форме «halbgetrockneten» возвращает пустую словарную статью (лемма зарегистрирована, но без толкования и этимологии), а запрос к DWB по той же форме — HTTP 404 (страницы не существует). — предзагруженная словарная выписка проекта, `dict-prefetch.json` (бандл wave5) — запись `{"form": "halbgetrockneten", ..., "dwds": {"url": "https://www.dwds.de/wb/halbgetrockneten", "head": "", "etymology": ""}, "dwb": {"ok": false, "error": "HTTP 404"}}` — verified.
+
 ## 4. Музыка
 
 **Ф18.** Форма — миниатюра длительностью «заметно меньше минуты» («lasts well under a minute»); Джонсон описывает эффект как «раненую уязвимость», созданную «единой изогнутой линией кисти песенника» («a wounded vulnerability is created by a single curved line of the songwriter's brush»). — Hyperion, буклет CDJ33001, Джонсон — верное цитирование — verified.

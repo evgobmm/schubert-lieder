@@ -2,6 +2,7 @@
 
 Источники: Schubertsong.uk — https://www.schubertsong.uk/text/harfenspieler/
 Источники: Hyperion, буклет CDJ33010 (аннотация Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33010-B.pdf
+Источники: DWB, Deutsches Wörterbuch (Jacob und Wilhelm Grimm), статья sacht — https://www.dwds.de/wb/dwb/sacht
 
 Песня в проекте — три строфы (4+4+10 строк), текст поэта Гёте (см. досье поэта); финальная строка повторена трижды. Это первая из двух шубертовских редакций одного стихотворения — «Песнь Арфиста» из романа «Wilhelm Meisters Lehrjahre» («Годы учения Вильгельма Мейстера»), спетая арфистом Вильгельму при их первой встрече.
 
@@ -28,6 +29,8 @@
 **Ф8.** В романе арфист поёт эту песню в ответ на слова Вильгельма: «Wir sind hier ruhiger… singe mir, was du willst» («Здесь нам спокойнее… спой мне, что хочешь») — после чего старик тихо взял прелюдию на струнах и запел. — Schubertsong.uk — «nachdem er sanft präludiert hatte, stimmte er an und sang» — verified.
 
 **Ф9.** Хайпирион: стихотворение взято из главы 13 второй книги романа, где заглавный герой навещает арфиста в надежде, что музыка старика его развеселит. — Hyperion — «This poem comes from Chapter 13 of the second book of the novel, where… Wilhelm Visits the harper» — verified.
+
+**Ф27.** Слово sacht (третья строфа: «lauschend sacht») ещё во времена Аделунга (конец XVIII века) считалось совершенно чуждым благопристойной литературной немецкой речи, хотя к тому моменту давно закрепилось в письменном языке. — DWB, статья sacht — «noch Adelung empfindet das wort als „der anständigen hochdeutschen sprechart völlig fremd", obgleich es in der schriftsprache sich längst festgesetzt hatte» — verified.
 
 ## 4. Музыка
 
