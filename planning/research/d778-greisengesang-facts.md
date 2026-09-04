@@ -1,6 +1,6 @@
 # Факты: «Greisengesang» (D 778)
 
-Источники: hyperion — https://www.hyperion-records.co.uk/notes/33035-B.pdf; schubertsong.uk — https://www.schubertsong.uk/text/greisengesang/; imslp — https://imslp.org/wiki/Greisengesang,_D.778_(Schubert,_Franz)
+Источники: hyperion — https://www.hyperion-records.co.uk/notes/33035-B.pdf; schubertsong.uk — https://www.schubertsong.uk/text/greisengesang/; imslp — https://imslp.org/wiki/Greisengesang,_D.778_(Schubert,_Franz); hyperion (страница альбома CDJ33035) — https://www.hyperion-records.co.uk/al.asp?al=CDJ33035
 
 Немецкий текст песни в проекте (8 строф) — по написанию `app/src/data/songs/d778-greisengesang.json`: «Der Frost hat mir bereifet…» — «…dem Duft der Träume gib Dach und Fach». Поэт — Фридрих Рюккерт, стихотворение из сборника «Östliche Rosen» (1822). Досье поэта: `planning/research/poets/rueckert.md` — верифицированные факты оттуда переиспользуются со ссылкой «досье, Ф№».
 
@@ -94,9 +94,16 @@
 
 ---
 
+## 9. Автор комментариев
+
+**Ф36.** На альбоме Hyperion Schubert Edition, том 35 (CDJ33035) — том, где опубликован комментарий к «Greisengesang» (Ф1 и далее), — Грэм Джонсон выступает не только автором аннотаций, но и пианистом-аккомпаниатором; страница альбома прямо указывает состав исполнителей и приводит отзыв BBC Music Magazine о его игре — hyperion (страница альбома CDJ33035) — «Graham Johnson (piano)»; «Graham Johnson's accompaniments are typically illuminating…» (BBC Music Magazine) — verified.
+
+---
+
 ## Не подтвердилось / не найдено
 
 - Комментарий Малколма Рена (schubertsong.uk) к тексту не содержит развёрнутого музыковедческого анализа песни (в отличие от буклета Hyperion) — только историко-текстологическую справку и общий обзор контекста ориентализма Рюккерта/Гёте; отдельного критического текста от Рена по музыке песни в бандле нет.
 - Страница schubertlied.de по этой песне не была доступна в предзагрузке (манифест: `"schubertlied.de": {"ok": false}`); повторный сетевой запрос через DuckDuckGo (лимит использован) не дал результата — страница lieder.net/LiederNet по этой песне также не найдена (`"liedernet": {"ok": false}`, `ddg_http: 202` — поисковик вернул неинформативную заглушку). Оба источника не использованы в файле фактов.
 - Дата исполнения песни Хоттером/Альтманном документально не установлена (открытый вопрос top5-досье, диапазон 1945–61? принят условно).
 - Год издания записи Герхаэра/Хубера расходится между RCA/Sony (2006) и Discogs (2005) — расхождение не устранено (top5-досье).
+- Формулировка «близкий друг композитора» о Фогле (в связи со второй версией песни, Ф6) не подтверждена однозначно: ни буклет Hyperion (в тексте о D778 Фогль назван только «баритоном» и «певцом», дружба не упомянута), ни файл фактов, ни досье не дают опоры. Проверка независимых источников дала расходящиеся оценки степени близости: английская Википедия называет отношения Фогля и Шуберта «close professional relationship and friendship», немецкая — осторожнее, «wohl eine Art Freundschaft» («видимо, некое подобие дружбы»), не «enge Freundschaft». При таком расхождении формулировка «близкий друг» не восстановлена.

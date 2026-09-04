@@ -1,6 +1,6 @@
 # Факты: «Grenzen der Menschheit» (D 716)
 
-Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/grenzen-der-menschheit-d716; schubertsong.uk — https://www.schubertsong.uk/text/grenzen-der-menschheit/
+Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/grenzen-der-menschheit-d716; schubertsong.uk — https://www.schubertsong.uk/text/grenzen-der-menschheit/; DWB (словарь Гриммов), статья Menschheit, через dwds.de — https://www.dwds.de/wb/dwb/Menschheit; Thomas Quasthoff — англ. Википедия https://en.wikipedia.org/wiki/Thomas_Quasthoff и нем. Википедия https://de.wikipedia.org/wiki/Thomas_Quasthoff (дата рождения)
 
 Немецкий текст песни в проекте (5 строф; 1-я, 2-я и 5-я повторяют последнюю строчную пару дважды — репризы аккомпанемента/структуры формы, не варианты текста поэта). Поэт — Иоганн Вольфганг фон Гёте. Досье поэта: `planning/research/poets/goethe.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в блоке ниже (собственный файл ранжирования не открывался — данные взяты из уже готового обоснования топ-5, приложенного к бандлу).
 
@@ -37,6 +37,8 @@
 **Ф12.** Текст также напечатан в собрании «Goethe's Werke, Vollständige Ausgabe letzter Hand», Zweiter Band, Штутгарт и Тюбинген, изд. J. G. Cotta, 1827, с. 81 сл. — schubertlied.de — «Es findet sich ebenfalls in Goethe's Werke, Vollständige Ausgabe letzter Hand, Zweiter Band, Stuttgart und Tübingen, in der J.G.Cotta'schen Buchhandlung, 1827, S. 81f.» — verified.
 
 **Ф13.** Текст в оригинальной орфографии эпохи отличается от современной публикуемой формы рядом деталей: «sä't» вместо «sät», «Küß' ich» вместо «Küss ich», «Begränzt» вместо «Begränzt/Begrenzt», «Daseyns» вместо «Daseins», «Daß» вместо «Dass» — schubertsong.uk, раздел «Original Spelling and note on the text» — сопоставление орфографической и современной версий текста на странице — verified.
+
+**Ф34.** Слово Menschheit в немецком словоупотреблении конца XVIII века (зафиксировано словарём Гриммов, DWB) несёт двойное значение разом: «человеческий род, совокупность людей» (menschheit, gesamtheit der menschen, wie mhd. mennescheit) и «природа, свойство, существо человека» (art, eigenschaft, wesen eines menschen) — DWB (через dwds.de/wb/dwb/Menschheit) — «menschheit, gesamtheit der menschen, wie mhd. mennescheit»; «art, eigenschaft, wesen eines menschen» — secondary (просмотрено через WebFetch-пересказ страницы dwds.de, не сырой HTML словарной статьи).
 
 **Ф14.** Стихотворение тесно связано с Книгой Иова: комментатор Малколм Рен указывает, что текст явно основан на фрагменте, где Бог отвечает на вопросы Иова (Иов 38–41) — schubertsong.uk — «The text is clearly based on a passage from the Book of Job, where God answers Job's questions about why the good suffer and the evil are not punished (Job 38 – 41, see below).» — verified.
 
@@ -87,6 +89,8 @@
 **Ф31.** № 4 — Ганс Хоттер (бас-баритон) и Уолтер Мартин (фортепиано); концертная запись NDR от 18 февраля 1961 года, Бетховензал городского зала Ганновера; издание Orfeo d'Or C 507 991 B «Lieder Abend» (1999), песней открывается программа; Хоттеру был 51 год — топ-5 записей — «концерт NDR 18 февраля 1961, Beethovensaal der Stadthalle Hannover; изд. Orfeo d'Or C 507 991 B «Lieder Abend» (1999)» — verified.
 
 **Ф32.** № 5 — Маттиас Гёрне (баритон) и Элизабет Леонская (фортепиано); harmonia mundi HMC 901988 «Sehnsucht» (Matthias Goerne Schubert Edition, т. 1), релиз 14 марта 2008 года (дата сессии не установлена); Гёрне было около 40 лет — топ-5 записей — «harmonia mundi HMC 901988 «Sehnsucht» (Matthias Goerne Schubert Edition, т. 1), релиз 14.03.2008» — verified.
+
+**Ф35.** Томас Квастхоф родился 9 ноября 1959 года (Хильдесхайм) — англ. Википедия — «Thomas Quasthoff (* 9. November 1959 in Hildesheim)» (та же дата независимо подтверждена нем. Википедией) — secondary. Отсюда: на сессиях записи 25–26 и 28–29 мая 1993 года (см. Ф28) его ноябрьский день рождения ещё не наступил в том году, то есть ему было 33 года (34 он бы отметил только в ноябре 1993-го).
 
 **Ф33.** Особенность фонда записей: женских исполнений песни не найдено вовсе — по тесситуре и содержанию (гимн от лица человека перед богами) это песня для низкого мужского голоса; из приоритетного списка правил её записали только Квастхоф, Фишер-Дискау и Хоттер — топ-5 записей — «женских записей в найденном фонде нет вовсе (12 карточек MusicBrainz и все живые загрузки — баритоны и басы)» — secondary (сводная формулировка исследования отбора, не из внешнего первичного источника).
 

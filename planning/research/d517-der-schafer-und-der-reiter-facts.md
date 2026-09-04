@@ -2,6 +2,7 @@
 
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/der-schafer-und-der-reiter/
 Источники: буклет Hyperion CDJ33021 — https://www.hyperion-records.co.uk/notes/33021-B.pdf
+Источники: словарь DWB (Deutsches Wörterbuch von Jacob und Wilhelm Grimm), статья «Morgenglanz» — https://www.dwds.de/wb/dwb/morgenglanz
 
 Немецкий текст песни в проекте (4 строфы, курсив без правки): «Ein Schäfer sass im Grünen...» — стихотворение Фридриха де ла Мотт Фуке. Досье поэта: `planning/research/poets/de-la-motte-fouque.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№»). История записей: топ-5-файл волны (см. раздел 8).
 
@@ -37,6 +38,8 @@
 
 **Ф12.** Порядок строк в четвёртой строфе по «Original Spelling» (издание 1816 года) отличается от порядка, в котором строфа приведена в проекте: у Фуке за «Nie hält mich Wald und Flur» сразу следует «Mich treibt mein Schicksal weiter / Und ach, mein ernster Schwur», а строки «Ich gab mein junges Leben / Dahin um schnöden Sold» идут после них; в тексте проекта эта пара строк переставлена местами. — сопоставление текста проекта (шапка бандла) с «Original Spelling», schubertsong.uk — **uncertain** (расхождение зафиксировано сравнением, ни один источник прямо не комментирует перестановку — требует проверки по автографу/первому изданию нот).
 
+**Ф23.** Словарь Гриммов (DWB, статья «Morgenglanz») приводит среди примеров словоупотребления строку Гёте — «wie im morgenglanze du rings mich anglühst, frühling, geliebter! Göthe 2, 82» (и ещё одну строку Гёте с этим же словом: «…steht rings ihr ewiglebenden im heilgen morgenglanz. Göthe 2, 184») — DWDS/DWB, статья «morgenglanz» — «wie im morgenglanze du rings mich anglühst, frühling, geliebter! Göthe 2, 82» — **verified** (первичный источник — словарная статья, предзагружена в dict-prefetch.json).
+
 ## 4. Музыка
 
 **Не подтвердилось / не найдено (см. «Не подтвердилось» ниже).** В бандле нет фрагментов буклета Hyperion или другого источника с анализом тональности, формы, фактуры аккомпанемента и ключевых событий по строкам — доступный фрагмент буклета (CDJ33021, стр. вокруг «D517») содержит только табличную строку с датой сочинения, без аннотации Джонсона к самой песне.
@@ -52,6 +55,8 @@
 **Ф16.** Итоговый тезис эссе Рена: ни один слушатель не является всецело пастухом или всецело всадником — «мы и есть пастух, и есть всадник» (заглавие темы эссе). — schubertsong.uk — «We are the shepherd and the man on horseback.» — **secondary**.
 
 **Ф17.** Среди тематических тегов, которыми schubertsong.uk маркирует текст: «Fate, luck and lotteries», «Oaths and swearing», «War, battles and fighting», «Rest», «Wreaths and garlands» — рубрикатор сайта — **secondary**.
+
+**Ф24.** Рен противопоставляет всадника — фигуру странника и авантюриста, центрального персонажа романа и многих других произведений, — пастуху, «воплощению пасторальной традиции значительной части поэзии»: «the adventurer, the traveller, the central figure of romance and many novels versus the shepherd, the embodiment of the pastoral tradition of much poetry» — schubertsong.uk — **secondary**.
 
 ## 6. Рецепция и документы эпохи
 

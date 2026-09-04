@@ -1,6 +1,6 @@
 # Факты: «Strophe aus „Die Götter Griechenlands“» (D 677)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/strophe-aus-die-gotter-griechenlands/; ADB (Шиллер) — https://de.wikisource.org/wiki/ADB:Schiller,_Friedrich_von; Deutsche Biographie (Шиллер) — https://www.deutsche-biographie.de/gnd118607626.html; schubertlied.de (общий очерк «Шуберт и Шиллер») — https://www.schubertlied.de/die-lieder/ritter-toggenburg; Hyperion (Грэм Джонсон, о «Der Taucher») — https://www.hyperion-records.co.uk/dw.asp?dc=W2393_GBAJY8800213; Wikipedia (Цумштег) — https://en.wikipedia.org/wiki/Johann_Rudolf_Zumsteeg; IMSLP — https://imslp.org/wiki/Die_G%C3%B6tter_Griechenlands,_D.677_(Schubert,_Franz)
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/strophe-aus-die-gotter-griechenlands/; ADB (Шиллер) — https://de.wikisource.org/wiki/ADB:Schiller,_Friedrich_von; Deutsche Biographie (Шиллер) — https://www.deutsche-biographie.de/gnd118607626.html; schubertlied.de (общий очерк «Шуберт и Шиллер») — https://www.schubertlied.de/die-lieder/ritter-toggenburg; Hyperion (Грэм Джонсон, о «Der Taucher») — https://www.hyperion-records.co.uk/dw.asp?dc=W2393_GBAJY8800213; Wikipedia (Цумштег) — https://en.wikipedia.org/wiki/Johann_Rudolf_Zumsteeg; IMSLP — https://imslp.org/wiki/Die_G%C3%B6tter_Griechenlands,_D.677_(Schubert,_Franz); DWB/Grimm через DWDS, статья «fabelhaft» — https://www.dwds.de/wb/dwb/fabelhaft; DWB/Grimm через DWDS, статья «lebenwarm» — https://www.dwds.de/wb/dwb/lebenwarm
 
 Немецкий текст песни в проекте (3 строфы, повтор строк — как в нотах): «Schöne Welt, wo bist du? / Kehre wieder, holdes Blüthenalter der Natur!» (дважды) — «Ach, nur in dem Feenland der Lieder / Lebt noch deine fabelhafte Spur» + «Ausgestorben trauert das Gefilde... Blieb der Schatten nur zurück» — и снова рефрен, с добавлением «Schöne Welt, wo bist du, wo bist du?» в финале. Досье поэта: Фридрих Шиллер (переиспользуется со ссылкой «досье, Ф№», заново не проверялось).
 
@@ -80,9 +80,14 @@
 
 **Ф24.** Иэн Бостридж — Джулиус Дрейк, альбом «Schubert Lieder Vol. 1» (EMI 7243 5 56347 2 6), сессии февраль–март 1996 года, Abbey Road Studio 1, издание 1998 года — топ-5 проекта, п. 5.
 
+**Ф30.** Словарь Гриммов (Deutsches Wörterbuch) в статье «fabelhaft» приводит значение 1) «fabulosus, fictus» («баснословный, вымышленный») и подтверждает его примером — как раз этой строкой Шиллера — «ach, nur in dem feenland der lieder lebt noch deine fabelhafte spur. Schiller 22ᵃ» — DWB через DWDS, статья «fabelhaft» — «ach, nur in dem feenland der lieder lebt noch deine fabelhafte spur. Schiller 22ᵃ» — verified.
+
+**Ф31.** У словаря Гриммов есть отдельная статья на сложение «lebenwarm» — и вся она держится на единственном примере, той же строке Шиллера («ach, von jenem lebenwarmen bilde blieb der schatten nur zurück»), Bd. VI (1885), Sp. 460 — DWB через DWDS, статья «lebenwarm» — «ach, von jenem lebenwarmen bilde / blieb der schatten nur zurück» — verified.
+
 ## Не подтвердилось / не найдено
 
 - Форма, размер, число тактов, фактура аккомпанемента и построчный музыкальный разбор D 677 (тональность, темповое указание, продолжительность и годы первых публикаций обеих редакций теперь известны по IMSLP — Ф25–Ф28; страница schubertlied.de для песни по-прежнему недоступна, в буклете Hyperion CDJ33014 запись о D 677 не найдена).
 - Обстоятельства прижизненной публикации 1848 года (2-я редакция) и посмертной 1895 года (1-я редакция) — только факт и год известны (Ф26–Ф27); издатель 1848 года, опус/номер и сведения об автографе не найдены.
 - Документы и отклики современников конкретно о D 677.
 - Резервная запись Хэмпсон — Джонсон (Hyperion, т. 14, сессии 5–8 октября 1991) — videoId на YouTube/Topic не найден, в топ-5 не включена.
+- «Одиночный возврат» Шуберта к Шиллеру в 1819 году — утверждение опровергается собственными данными каталога проекта: тем же 1819 годом датированы ещё два сочинения на стихи Шиллера (D 637, D 638), а позже — D 636 (1821), D 793–794 (1823), D 801 (1826); формулировку о «единственном» возврате восстанавливать нельзя.

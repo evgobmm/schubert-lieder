@@ -1,6 +1,6 @@
 # Факты: «Der Alpenjäger» (D 588)
 
-Источники: Hyperion — https://www.hyperion-records.co.uk/notes/33001-B.pdf; ADB Шиллер (досье поэта) — https://de.wikisource.org/wiki/ADB:Schiller,_Friedrich_von; schubertlied.de (досье поэта) — https://www.schubertlied.de/die-lieder/ritter-toggenburg
+Источники: Hyperion — https://www.hyperion-records.co.uk/notes/33001-B.pdf; ADB Шиллер (досье поэта) — https://de.wikisource.org/wiki/ADB:Schiller,_Friedrich_von; schubertlied.de (досье поэта) — https://www.schubertlied.de/die-lieder/ritter-toggenburg; DWDS «zinken» — https://www.dwds.de/wb/zinken; DWDS «Glocke» — https://www.dwds.de/wb/Glocke?o=Glocken
 
 Немецкий текст песни в проекте (11 строф, слова матери и сына чередуются с эпической частью погони) совпадает с текстом, приведённым в буклете Hyperion (том CDJ33001, аннотация Грэма Джонсона). Поэт — Фридрих Шиллер. Досье поэта: `planning/research/poets/schiller.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№»).
 
@@ -82,6 +82,12 @@
 
 **Ф29.** D 588 не следует путать с другой песней Шуберта под тем же названием «Der Alpenjäger» — D 524, на стихи Иоганна Баптиста Майргофера (январь 1817, первая публикация 26 сентября 1821); заметная часть попадающихся в поиске записей (Malcolm Maltman, вторая дорожка альбома Прегардьена, «пейзажный» ролик Фишера-Дискау) относится именно к D 524, а не к обсуждаемой песне на стихи Шиллера — топ-5 записей / schubertsong.uk (текст и метаданные D 524) — verified (первичные метаданные страницы: «Der Alpenjäger, D 524... Text by: Johann Baptist Mayrhofer... First published September 26, 1821»).
 
+## 9. Лексика (дополнительно к разбору текста)
+
+**Ф30.** Немецкое слово Zinken помимо горного значения («зубец, выступ скалы») имеет и воровское/жаргонное: обманную метку на игральных картах (глагол zinken — метить карты для шулерской игры; ср. gezinkte Karten «меченые карты») — DWDS — «Spielkarten in betrügerischer Absicht mit Zinken versehen, unauffällig markieren» — verified (предзагруженный словарный бандл, dict-prefetch.json).
+
+**Ф31.** Немецкое слово Glocke в основном значении — металлический колокол, в том числе колокол на церкви; словарный пример прямо называет «die große, kleine Glocke der Kirche» («большой, малый колокол церкви») — DWDS — «die große, kleine Glocke der Kirche» — verified (предзагруженный словарный бандл, dict-prefetch.json).
+
 ## Не подтвердилось / не найдено
 
 - Комментарий Малколма Рена (schubertsong.uk) к D 588 в бандле отсутствует: предзагруженная страница schubertsong.uk оказалась посвящена другой песне — D 524 на стихи Майргофера — и не может использоваться как источник фактов о D 588.
@@ -90,3 +96,4 @@
 - LiederNet (lieder.net) — предзагрузка отсутствовала (`"ok": false`); попытка найти страницу через поиск DuckDuckGo (2 сетевых обращения) результата не дала.
 - Первая публикация самого стихотворения Шиллера «Der Alpenjäger» (год, сборник, издатель) — в бандле не приведена.
 - Тональность, размер и точная форма (строфическая/сквозная) музыки D 588 по нотным источникам (IMSLP и т. п.) — в бандле не приведены.
+- Оценка «Джонсон считает появление духа гор лучшим местом песни»: Ф13 говорит лишь о «великолепной возможности» (marvellous chance) для певца, но не называет этот момент лучшим во всей песне — такая формулировка в источнике не найдена.
