@@ -69,6 +69,8 @@ O wärst du da!
 
 **Ф12.** Ранняя публикация текста доступна в отсканированном виде: Österreichische Nationalbibliothek (ONB), «Goethe's sämmtliche Schriften», т. 7, Вена, 1810, стр. 30 [44-й лист скана]. — schubertsong.uk (https://www.schubertsong.uk/text/nahe-des-geliebten/) — «To see an early edition of the text, go to page 30 [44 von 418] here: http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ163965701» — verified (ссылка на скан приведена источником; сам скан в рамках сетевого бюджета этого бандла не открывался).
 
+**Ф29.** Словарь братьев Гримм (Deutsches Wörterbuch, статья «Schimmer») даёт основное значение слова — «funkelndes licht, heller schein… zunächst von lichtquellen» («сверкающий свет, яркое сияние… прежде всего от источников света») — и в качестве иллюстрации именно этого значения приводит (по Штайнбаху) первую строку Nähe des Geliebten. — DWDS / Deutsches Wörterbuch (https://www.dwds.de/wb/dwb/schimmer) — «schimmer, m. glanz, schein, besonders von einem schwächern lichte… 1) funkelndes licht, heller schein, zunächst von lichtquellen: der schimmer des feuers, ignis vibratus. Steinbach 2, 414: ich denke dein, wenn mir der sonne schimmer vom meere strahlt. Göthe 1, 65» — verified.
+
 ## 4. Музыка
 
 **Ф13.** Стихотворение Гёте построено как литания (перечислительная молитвенная форма), и, по мнению Джонсона, если бы музыка менялась от строфы к строфе, изобразительность верности возлюбленного, задуманная Гёте, была бы подорвана — поэтому Шуберт выбрал строфическую форму. — Hyperion, Джонсон (https://www.hyperion-records.co.uk/notes/33001-B.pdf) — «The poem is a litany, and if the music were to vary from verse to verse, Goethe's depiction of a lover's constancy would have been undermined.» — verified.
@@ -112,6 +114,8 @@ O wärst du da!
 **Ф27.** Особенность фонда D 162: сравнительного критического обзора исполнений песни не существует (индекс klassik-prisma проверен — песни там нет); итоговое ранжирование топ-5 опирается на иерархию приоритетов (именные исполнители, документированное состояние голоса, репутация альбомов), а не на готовый экспертный рейтинг. — обоснование отбора топ-5 D 162 (вводный абзац) — verified (методологическая оговорка составителей досье записей, переиспользована как есть).
 
 **Ф28.** Томас Квастхоф песню не записывал (проверено по полному треклисту его единственного гётевского альбома, RCA 1993, со Спенсером, и по поиску в Discogs по треку — 0 релизов); тем самым Фишер-Дискау сохранил позицию №1 в иерархии приоритетов. — обоснование отбора топ-5 D 162, раздел «Ключевые решения» («Квастхоф — записи нет: полный треклист его единственного гётевского альбома (RCA 1993, Spencer) проверен — D 162 отсутствует… Поэтому №1 — Фишер-Дискау.») — verified.
+
+**Ф30.** Запись Шварцкопф/Фишер (см. Ф23) сделана в Лондоне: студия Abbey Road (EMI Studio 1A) находится в Лондоне. — досье записей D 162, поле year_source, со ссылкой на дискографию Майкла Грея (classical-discography.org, id 58270) и буклет Naxos Historical 8.111287 — «Nähe des Geliebten D162 — 1952 October 5, London, EMI Studio No. 1A, Abbey Road, label Columbia UK, № 33CX1040» — verified.
 
 ---
 

@@ -92,6 +92,14 @@
 
 **Ф35.** Вольфганг Хольцмайр (баритон) и Урсула Айзенлор (фортепиано), 2005, Naxos «Deutsche Schubert-Lied-Edition», том 20 «Poets of Sensibility, Vol. 3» (8.557568), ℗ 2005, издано 13.12.2005 — топ-5 записей (бандл) — verified (внутренний источник проекта).
 
+## 9. Довозврат снятых утверждений (проверка по внешним источникам)
+
+**Ф36.** Слово Minne (и его производные вроде minniglich) вышло из живой немецкой речи вместе с концом эпохи миннезанга: с XVI века избегалось и вымерло для живого употребления, вновь стало известно учёным кругам в XVII веке (после начала занятий средневековыми памятниками языка), а по-настоящему вернулось в поэтический обиход у гёттингенцев XVIII века — DWDS/DWB (статья «Minne»), https://www.dwds.de/wb/dwb/minne — «seit dem 16. jahrh. gemieden und für den lebendigen gebrauch ausgestorben, wird das wort im 17. jahrh., nachdem man begonnen sich mit den sprachdenkmälern unseres mittelalters zu befassen, in gelehrten kreisen wieder bekannt» — verified (проверено WebFetch, дословная передача через промежуточную модель).
+
+**Ф37.** Песня Шуберта на слова Каролины Пихлер «Ferne von der grossen Stadt» (правильнее «Lied [Ferne von der grossen Stadt]») — D 483, датирована сентябрём 1816 года, то есть тем же годом, что и «Minnelied» — schubertsong.uk, https://www.schubertsong.uk/text/lied-ferne-von-der-grossen-stadt/ — «D Number: D 483»; «Composition Date: [September 1816]» — verified (проверено WebFetch, дословная передача через промежуточную модель); согласуется с независимой информацией Morgan Library о датировке автографа сентябрём 1816 года.
+
+**Ф38.** Дата смерти Шуберта — 19 ноября 1828 года — используется в проекте как общеизвестная и не требующая отдельной проверки в бандле конкретной песни: та же конвенция явно зафиксирована в фактах других песен, напр. `planning/research/d715-versunken-facts.md` (Ф25: «дата смерти Шуберта берётся общеизвестной по корпусу проекта»), `planning/research/d754-heliopolis-ii-facts.md` (Ф33: «общеизвестная дата, не требующая отдельной проверки в этом бандле») — внутренний источник (конвенция проекта) — verified. Снимает оговорку «uncertain» из Ф29 для арифметики «почти 57 лет» между смертью Шуберта и первой публикацией.
+
 ---
 
 ## Не подтвердилось / не найдено
