@@ -29,7 +29,7 @@ const perSong = async (s) => {
 ОДИН вызов Write: ${args.workDir}/work/edits-${s.slug}.json — {"d":"${s.d}","edits":[{"type":"section","index":<индекс раздела «Музыка»>,"title":"Музыка","text":"<исправленный текст>"}],"removed":[{"what":"…","why":"…"}],"flags":["…"]}. Если править нечего — пустой массив edits.
 Затем ОДИН Bash: node ${REPO}/planning/scripts/apply-edits.js ${s.d} ${args.workDir} — применит правку и прогонит валидатор с линтом; при ошибке поправь файл правок и повтори один раз.
 Верни по схеме: d="${s.d}", ok, n_changes, removed, flags, tool_calls.`, {
-    label: `вычитка «Музыки» D ${s.d}`, phase: 'Вычитка Fable', model: 'fable', effort: 'high',
+    label: `вычитка «Музыки» D ${s.d}`, phase: 'Вычитка Fable', model: 'fable', effort: 'medium',
     schema: { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_changes: { type: 'number' }, removed: { type: 'array', maxItems: 8, items: { type: 'object', properties: { what: { type: 'string', maxLength: 200 }, why: { type: 'string', maxLength: 200 } }, required: ['what', 'why'] } }, flags: { type: 'array', maxItems: 5, items: { type: 'string', maxLength: 200 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_changes', 'tool_calls'] },
   })
   return { d: s.d, write, vet }
