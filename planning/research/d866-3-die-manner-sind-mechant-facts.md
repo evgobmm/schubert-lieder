@@ -1,6 +1,6 @@
 # Факты: «Die Männer sind mechant!» (D 866/3)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/die-manner-sind-mechant/
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/die-manner-sind-mechant/; Wikipedia (Dodie Smith) — https://en.wikipedia.org/wiki/Dodie_Smith
 
 Немецкий текст песни в проекте — как приведён в бандле; строфика: две строфы с повторами строк (музыкальная обработка рефренной песни). Поэт — Иоганн Габриэль Зайдль. Досье поэта: verified-факты о Зайдле и его отношениях с Шубертом переиспользуются со ссылкой «досье, Ф№» (без повторной проверки). Песня — третий номер цикла «Vier Refrainlieder» (D 866, ор. 95).
 
@@ -55,6 +55,8 @@
 **Ф17.** По мнению комментатора, удивительно, что кто-либо вообще находил этот текст забавным — schubertsong.uk — «What IS surprising is that anyone has ever found this text in any way funny.» — secondary.
 
 **Ф18.** Тематические метки текста на schubertsong.uk: кусты и заросли, вечер и закат, руки, поцелуи, мать и дитя — schubertsong.uk — «Bushes and undergrowth · Evening and the setting sun · Hands · Kissing · Mother and child» — secondary.
+
+**Ф26.** Доди Смит, автор романа «Я захватываю замок» (упомянута в Ф15), — английская писательница (1896–1990) — Wikipedia — «English novelist and playwright (1896–1990)» — verified.
 
 ## 6. Рецепция и документы эпохи
 

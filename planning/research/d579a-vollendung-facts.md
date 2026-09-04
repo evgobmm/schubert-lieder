@@ -1,6 +1,6 @@
 # Факты: «Vollendung» (D 579A)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/vollendung/; Hyperion (буклет CDJ33011) — https://www.hyperion-records.co.uk/notes/33011-B.pdf; досье Matthisson — `planning/research/poets/matthisson.md` (внутренний файл, факты переиспользуются со ссылкой «досье Matthisson, Ф№»); top5 D579A — `planning/research/d579a-vollendung-top5.md` (внутренний файл записей).
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/vollendung/; Hyperion (буклет CDJ33011) — https://www.hyperion-records.co.uk/notes/33011-B.pdf; досье Matthisson — `planning/research/poets/matthisson.md` (внутренний файл, факты переиспользуются со ссылкой «досье Matthisson, Ф№»); top5 D579A — `planning/research/d579a-vollendung-top5.md` (внутренний файл записей); Deutsches Wörterbuch (Grimm), статья erringen — https://www.dwds.de/wb/dwb/erringen (предзагружено для песни, `prefetch/d579a-vollendung/dict-prefetch.json`).
 
 Немецкий текст песни в проекте (4 строфы): «Wenn ich einst das Ziel errungen habe...» / «Sehnsuchtsvoll, mit hoher Ahndungswonne...» / «Eil', o eile mich empor zu flügeln...» / «Sklavenketten sind der Erde Leiden...». Поэт — Фридрих фон Маттисон.
 
@@ -37,6 +37,8 @@
 **Ф12.** В 4-й строфе текст проекта («Oft, ach! öfters bricht sie nur der Tod!») отличается от текста, который дают оба источника («Öfters, ach! zerreißt sie nur der Tod!» — schubertsong.uk, современная орфография; «Oefters, ach! zerreißt sie nur der Tod!» — раздел оригинальной орфографии) — глагол «bricht» в тексте проекта против «zerreißt» в обоих источниках, плюс отличие «Oft, ach! öfters» от «Öfters, ach!» — расхождение не разрешено — uncertain.
 
 **Ф13.** Строка «Heil, der Thräne dann an meinem Grabe» (архаичное «Thräne») в тексте проекта совпадает с разделом оригинальной орфографии schubertsong.uk — «Heil! der Thräne dann an meinem Grabe» — verified (по орфографии эпохи).
+
+**Ф30.** Словарь Гриммов (Deutsches Wörterbuch) даёт на глагол erringen (в тексте песни — «das Ziel errungen habe», строфа 1) латинское толкование «multo labore adipisci» («достигать многим трудом», то есть добиваться не даром) — DWB, статья erringen (предзагружено для песни) — «erringen, multo labore adipisci, ahd. arringan» — verified.
 
 ## 4. Музыка
 
@@ -89,3 +91,4 @@
 - Расхождение между текстом песни в проекте и документированным Шубертом текстом (Ф10–Ф12: «hoher»/«banger», «bricht»/«zerreißt», «Oft, ach! öfters»/«Öfters, ach!») не разрешено средствами бандла — нужна сверка с факсимиле рукописи или авторитетным нотным изданием (Bärenreiter NSA), которых в бандле нет.
 - Точная дата первой публикации стихотворения Маттисона (конец 1785 по Ф8 vs альманах «на 1786 год» по Ф9) не согласована между двумя разделами одного и того же источника.
 - Документальных откликов современников на саму песню (в отличие от текста Маттисона в целом) в бандле не обнаружено — вероятно, ввиду публикации только в 1970 году.
+- Утверждение, что написание «Thräne» (Ф13) — «ровно так же она напечатана и в изданиях времён Маттисона», не подтверждается: сверка Растля с прижизненными изданиями (Mannheim 1787, Tübingen 1811), упоминаемая рядом в том же разделе schubertsong.uk, привязана к замене «hoher»→«banger» (Ф10), а не к орфографии «Thräne»/«Träne»; попытка сверить по сканy ÖNB (digital.onb.ac.at/OnbViewer, документ ABO_+Z185186703) ничего не дала — это просмотрщик изображений страниц, текст из него не извлекается.

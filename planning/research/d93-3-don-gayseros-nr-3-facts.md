@@ -7,6 +7,7 @@
 - hyperion-notes-DonGayseros (цитируется через досье поэта) — https://www.hyperion-records.co.uk/dw.asp?dc=W2176_GBAJY9101208
 - ADB Fouqué (цитируется через досье поэта) — https://de.wikisource.org/wiki/ADB:Fouqu%C3%A9,_Friedrich
 - LiederNet, сверка текста «Der Zauberring» (цитируется через досье поэта) — http://www.lieder.net/lieder/get_text.html?TextId=117191
+- schubertsong.uk, страница «About» — https://www.schubertsong.uk/about/
 - топ-5-реестр записей — внутренний документ проекта, внешнего URL нет
 
 Текст песни в проекте дан одним непрерывным блоком (без разбивки на отдельные строфы разметкой) — это баллада-романс на 30 строк: Донна Клара оплакивает убитого братьями мавританского короля, своего возлюбленного, отрекается от мира и остаток жизни проводит в молитве в построенной братьями капелле. Третья часть трилогии Don Gayseros (рядом D 93/1 и D 93/2) — самая ранняя и самая спорная по атрибуции работа Шуберта на текст Фуке.
@@ -30,6 +31,8 @@
 **Ф4.** Текст третьей песни Don Gayseros взят из романа Фуке «Der Zauberring» (Erster Theil, Нюрнберг, издатель Иоганн Леонхард Шраг, 1812), со страниц 154–155, из девятнадцатой главы — сверка выполнена Петером Растлем — досье, Ф16 (источник в досье — LiederNet) — «Der Zauberring, ein Ritterroman von Friedrich Baron de la Motte Fouqué. Erster Theil. Nürnberg, bei Johann Leonhard Schrag, 1812», третья песня — страницы 154–155, девятнадцатая глава — verified (первичный документ, независимая сверка).
 
 **Ф5.** Год выхода всего трёхтомного романа «Der Zauberring» в справочниках расходится: 1812 — для первой части, по прямой сверке текста (Ф4); 1813 — для трёхтомника целиком, по Allgemeine Deutsche Biographie и буклету Hyperion — досье, Ф11/Ф16 — «Der poetisch bedeutendste dieser Ritterromane dürfte der „Zauberring" (3 Bde. Nürnberg 1813...)» — uncertain (расхождение не разрешено, досье советует писать «1812–1813»).
+
+**Ф12.** Сверка текста Питером Растлем (Ф4) опирается на его работу как текстолога-издателя: Растль подготовил обновлённое, критически изданное собрание текстов шубертовских песен («kritisch herausgegeben von Peter Rastl und Peter Dellitsch», обновление книги Шохова) и выложил свои критические редакции текстов песен на LiederNet — schubertsong.uk, страница «About» — «Peter Rastl has prepared an updated version of Schochow's book: Franz Schubert. Die Texte seiner Lieder und Gesänge... kritisch herausgegeben von Peter Rastl und Peter Dellitsch»; «Peter Rastl has made his critical editions of the song texts freely available on LiederNet» — verified.
 
 ## 4. Музыка
 
@@ -64,3 +67,4 @@
 - Строфа песни у Фуке в оригинале (построчное сравнение с шубертовской версией, возможные изменения текста) — LiederNet для конкретно этой песни (третьей) недоступен; манифест указывает `liedernet.ok: false`, попытка найти страницу через DuckDuckGo в этой сессии результатов не дала.
 - Документы эпохи (упоминания в переписке, дневниках, шубертиадах) для D 93/3 отдельно — не найдены.
 - Изменения текста Шубертом против оригинала Фуке для третьей песни (в отличие от документированных случаев в D 373 — досье, Ф22) — не найдены.
+- Отождествление убитого братьями мавританского короля с самим Доном Гайзеросом (заглавным героем трилогии) — прямо не подтверждается: аннотация Грэма Джонсона (hyperion-notes-DonGayseros, https://www.hyperion-records.co.uk/dw.asp?dc=W2176_GBAJY9101208) излагает сюжет и разбор третьей песни, но нигде не называет погибшего по имени «Дон Гайзерос»; ни файл фактов, ни досье поэта такого отождествления не дают.

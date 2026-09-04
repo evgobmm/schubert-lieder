@@ -2,6 +2,7 @@
 
 Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/herbst-d945
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/herbst/
+Источники: Wikipedia (en), «To Autumn» — https://en.wikipedia.org/wiki/To_Autumn
 
 Немецкий текст песни в проекте (три строфы, с повтором последней строки припева в конце каждой строфы — соответствует музыкальному повтору у Шуберта). Поэт — Людвиг Рельштаб. Досье поэта: `planning/research/poets/rellstab.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись).
 
@@ -52,6 +53,8 @@
 **Ф17.** Малколм Рен: осень у Рельштаба — не «пора туманов и щедрого плодородия» Китса и не яркая североамериканская осень, а вторая стадия осени, которую немцы называют «Spätjahr» (позднее время года) — schubertsong.uk — «Rellstab's autumn is not the 'season of mists and mellow fruitfulness' [...]. This is the second stage of autumn, what some Germans call 'Spätjahr'» — secondary.
 
 **Ф18.** Рен: в тексте листья не облетают и не облетают сейчас — они уже облетели; поля уже пусты, лес уже гол; единственный цвет — серый — schubertsong.uk — «the leaves are not about to fall [...]; they have fallen. The fields are now barren, the woods bare. The only colour is grey.» — secondary.
+
+**Ф31.** Строка «season of mists and mellow fruitfulness» («пора туманов и щедрого плодородия»), которую Рен противопоставляет осени Рельштаба (Ф17), — из оды Китса «To Autumn» (1819), одной из так называемых «од 1819 года» этого поэта — Wikipedia (en), «To Autumn» — «"To Autumn" is the final work in a group of poems known as Keats's "1819 odes"» — secondary.
 
 ## 5. Смыслы и интерпретации
 
