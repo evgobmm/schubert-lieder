@@ -15,6 +15,8 @@
 
 **Ф3.** Джонсон называет Шуберта в момент сочинения «мальчиком восемнадцати лет» («a boy of eighteen»). — Hyperion — «that a boy of eighteen should have made what remains the best stab at the poem» — verified.
 
+**Ф35.** Джонсон прямо называет удивительным сам факт, что в компании крупных композиторов-песенников (Лёве, Шуман, Вольф), для которых текст тоже оказался труден, именно восемнадцатилетний юноша сделал лучший — сохраняющий значение по сей день — подступ к балладе. — Hyperion — «It is clear that Schubert also had difficulties with the poem, but what is surprising in this august company is that a boy of eighteen should have made what remains the best stab at the poem» — verified.
+
 ## 2. Публикация и автограф
 
 **Ф4.** Единственные зафиксированные в бандле сведения о публикации — это посмертный выход второй редакции в 1829 году как op. 117 (см. Ф2); данных об автографе, первом издателе первой редакции и пластинных номерах в источниках бандла нет.

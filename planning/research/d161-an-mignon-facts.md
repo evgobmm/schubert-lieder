@@ -62,6 +62,8 @@
 
 **Ф23.** Насколько бы ни нарастало давление, его никогда не хватает, чтобы дать надежду на смерть и конец цикла — schubertsong.uk — «However awful the pressure that builds up, it is never enough to offer the hope of death and an end to the cycle.» — verified.
 
+**Ф31.** Комментарии и эссе, помещённые на сайте schubertsong.uk после текстов и переводов (в том числе интерпретация D 161, Ф17–Ф23), принадлежат Малколму Рену (Malcolm Wren) — schubertsong.uk — «Unless otherwise stated, the comments and essays that appear after the texts and translations are by Malcolm Wren and are © Copyright.» — verified.
+
 ## 6. Рецепция и документы эпохи
 
 **Ф24.** Отдельных документов эпохи о реакции на «An Mignon» именно (переписка, рецензии на исполнение этой песни) в бандле не найдено; общий контекст молчания Гёте на присылки Шуберта 1816 и 1825 годов — досье, Ф14, Ф20 — verified (по общему факту о Шуберте и Гёте, не специфично для D 161).

@@ -1,6 +1,6 @@
 # Факты: «An die Natur» (D 372)
 
-Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/an-die-natur-d372; schubertsong.uk — https://www.schubertsong.uk/text/an-die-natur/; hyperion-booklet-CDJ33005 — https://www.hyperion-records.co.uk/notes/33005-B.pdf
+Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/an-die-natur-d372; schubertsong.uk — https://www.schubertsong.uk/text/an-die-natur/; hyperion-booklet-CDJ33005 — https://www.hyperion-records.co.uk/notes/33005-B.pdf; de.wikipedia.org/wiki/Reinhard_van_Hoorickx — https://de.wikipedia.org/wiki/Reinhard_van_Hoorickx
 
 Немецкий текст песни в проекте (3 строфы, повтор последней строки каждой строфы). Поэт — Фридрих Леопольд граф цу Штольберг-Штольберг; досье поэта: `planning/research/poets/stolberg.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись).
 
@@ -79,6 +79,8 @@
 **Ф29.** Элизабет Коннелл и Грэм Джонсон, 1988 год (запись IX.1988, изд. XII.1989) — том 5 полного собрания песен Hyperion «Schubert and the Countryside» (CDJ33005) — тот же диск, чей буклет использован в разделах 4–5; пресса — Gramophone: «Elizabeth Connell is at her very best here» — топ-5-файл — secondary.
 
 **Ф30.** Вольфганг Хольцмайр и Ульрих Айзенлор, 2006 год — Naxos, серия «Deutsche Schubert-Lied-Edition», том 21 «Poets of Sensibility, Vol. 4» (8.557569, изд. 03/2006) — топ-5-файл — secondary.
+
+**Ф31.** Отец Рейнхард ван Хорикс (Reinhard van Hoorickx, 1918–1997) — бельгийский монах-францисканец и музыковед, известный как исследователь Шуберта (Schubert-Forscher): многочисленные источниковедческие разыскания и попытки исполнимо дополнить фрагментарные сочинения Франца Шуберта — de.wikipedia.org/wiki/Reinhard_van_Hoorickx — «bekannt wurde er durch seine zahlreichen Quellenforschungen und seine Versuche, fragmentarische Kompositionen Franz Schuberts aufführbar zu ergänzen» (категория статьи — «Schubert-Forscher») — secondary.
 
 ## Не подтвердилось / не найдено
 

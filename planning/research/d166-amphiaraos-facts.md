@@ -3,6 +3,7 @@
 Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/amphiaraos-d166
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/amphiaraos/
 Источники: Hyperion (Джонсон) — https://www.hyperion-records.co.uk/notes/33014-B.pdf
+Источники: Wikipedia (EN), Seven against Thebes — https://en.wikipedia.org/wiki/Seven_against_Thebes
 
 Немецкий текст песни в проекте — 7 строф по 8 строк, баллада. Поэт — Теодор Кёрнер; досье поэта: `planning/research/poets/koerner.md` (условно; факты из досье переиспользуются со ссылкой «досье, Ф№», заново не проверялись).
 
@@ -79,6 +80,8 @@
 **Ф28.** Амфиарай был обращён в бегство фиванским героем Периклименом и загнан к берегу Исмена; чтобы спасти его от гибели, Зевс метнул молнию, расколовшую землю, и колесница с конём и возницей исчезла в разломе. — Hyperion — «Amphiaraus was finally put to flight by the Theban hero Periclymenus who chased him to the banks of the Ismenus […] Zeus sent a thunderbolt which made a cleft in the ground into which horse, chariot and driver disappeared» — verified (согласуется с изложением мифа на schubertsong.uk).
 
 **Ф29.** Рен сравнивает дар предвидения Амфиарая, которому никто не верит, с даром Кассандры: оба получили пророческий дар от Аполлона и оба прокляты быть неуслышанными. — schubertsong.uk — «Amphiaraus's ability to see the future, and the fact that noone believed what he was saying, reminds us of Cassandra» — secondary.
+
+**Ф38.** В общегреческом мифе (не в изложении Hyperion/schubertsong, где фон войны не раскрыт) поход Семерых против Фив вызван ссорой братьев Этеокла и Полиника, сыновей Эдипа, за фиванский престол. — Wikipedia (EN), Seven against Thebes — «The war of the Seven against Thebes resulted from a quarrel between the brothers Polynices and Eteocles over the kingship of Thebes.» — secondary (общий мифологический фон, не специфичный для песни Шуберта источник).
 
 ## 6. Рецепция и документы эпохи
 

@@ -2,6 +2,7 @@
 
 Источники: Hyperion-буклет CDJ33017 — https://www.hyperion-records.co.uk/notes/33017-B.pdf
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/am-tage-aller-seelen/
+Источники: Wikipedia (EN), Johann Gottfried Herder — https://en.wikipedia.org/wiki/Johann_Gottfried_Herder
 
 Немецкий текст песни в проекте — девять строф с рефреном «Alle Seelen ruh'n in Frieden!»; каждая строфа, кроме первой и последней (композиционно идентичных, рамочных), рисует отдельную категорию усопших. Поэт — Иоганн Георг Якоби; досье поэта: `planning/research/poets/jacobi.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в этом же бандле.
 
@@ -82,6 +83,8 @@
 **Ф29.** №4 — Christa Ludwig / Geoffrey Parsons, зап. 28.11.1961, EMI Studio No. 1, Abbey Road; Columbia SAX 5272 / Angel S 36462; самый широкий темп пула — 5:55 — топ-5 записей D 343 — secondary.
 
 **Ф30.** №5 — Lucia Popp / Graham Johnson, зап. апрель 1992, Rosslyn Hill Unitarian Chapel; The Hyperion Schubert Edition, том 17 «Schubert in 1816» (CDJ33017, изд. IV.1993); в аннотации Джонсон называет D 343 «one of the better known Lieder in this collection» — Hyperion-буклет / топ-5 записей — secondary.
+
+**Ф31.** Иоганн Готфрид Гердер, критиковавший анакреонтику Якоби как «безвкусную чепуху», сам был поэтом и литературным критиком (наряду с философом, теологом и пастором) — Wikipedia (EN), Johann Gottfried Herder — «Johann Gottfried von Herder was a German philosopher, theologian, pastor, poet, and literary critic» — secondary.
 
 ## Не подтвердилось / не найдено
 

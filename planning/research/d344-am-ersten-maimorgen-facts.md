@@ -40,6 +40,8 @@
 
 **Ф12.** Буклет Hyperion приводит только первые две строфы стихотворения (с переводом Ричарда Уигмора); третья строфа в буклете не процитирована и потому расхождение по Ф11 буклетом не проверяется — hyperion-records.co.uk, https://www.hyperion-records.co.uk/notes/33023-B.pdf — текст песни в буклете обрывается после строфы 2, далее сразу комментарий Джонсона — verified (по составу цитаты в бандле).
 
+**Ф22.** Глагол träufen (строка «Und er träuft von Tau und Duft und Segen») в словаре братьев Гримм (Deutsches Wörterbuch) отмечен как особенно любимый не только Клопштоком, но также Гёльдерлином и Новалисом — DWB (Deutsches Wörterbuch), статья «träufen», зеркало dwds.de, https://www.dwds.de/wb/dwb/tr%C3%A4ufen — «bei Klopstock, Hölderlin und Novalis besonders beliebt; seitdem ist dem wort ein eigentümlicher stimmungsgehalt geblieben.» — secondary (текст статьи получен через инструмент выборки веб-страницы с посредническим пересказом модели, не считан напрямую с исходной HTML-страницы; содержание правдоподобно и согласуется с уже принятым на странице тезисом о Клопштоке, но для полной проверки желательна сверка с необработанным HTML woerterbuchnetz.de/zeno.org).
+
 ---
 
 ## 4. Музыка

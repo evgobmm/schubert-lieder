@@ -8,6 +8,8 @@
 Источники (музыка, добор): Hyperion Records, аннотация Грэма Джонсона (CDJ33008, Sarah Walker/Graham Johnson) — https://www.hyperion-records.co.uk/dw.asp?dc=W1933_GBAJY9000818
 Источники (музыка, добор): English Wikipedia, «Erlkönig (Schubert)» — https://en.wikipedia.org/wiki/Erlkönig_(Schubert)
 Источники (музыка, кросс-верификация): Deutsche Wikipedia, «Erlkönig (Schubert)» (со ссылками на Otto Erich Deutsch/Aderhold/Dürr/Feil, Walther Dürr и Andreas Krause «Schubert Handbuch», Dietrich Fischer-Dieskau, Werner-Joachim Düring, Werner Oehlmann «Reclams Liedführer») — https://de.wikipedia.org/wiki/Erlkönig_(Schubert)
+Источники (русское заглавие): Russian Wikisource, «Лесной царь (Гёте/Жуковский)» — https://ru.wikisource.org/wiki/Лесной_царь_(Гёте/Жуковский)
+Источники (русское заглавие, доп.): Russian Wikipedia, «Erlkönig» — https://ru.wikipedia.org/wiki/Лесной_царь_(баллада)
 
 ---
 
@@ -36,6 +38,8 @@
 **Ф9.** Текст, положенный на музыку Шубертом, в финальной строке расходится с оригиналом Гёте: у Гёте (по изданиям, сверенным Питером Растлем) — «Erreicht den Hof mit Mühe und Noth» (полная форма «Mühe»), в исполнительском тексте песни — «Erreicht den Hof mit Müh' und Not» (элизия «Müh'») — Schubert Song Texts — «Erreicht den Hof mit Mühe und Noth» (ориг. орфография) vs «Erreicht den Hof mit Müh' und Not» (исполнительский текст) — verified (два варианта на одной странице, прямое сопоставление).
 
 **Ф10.** Орфография оригинала подтверждена Питером Растлем по трём изданиям: «Goethes sämmtliche Schriften», т. 7 (Вена, 1810, с. 277–278); «Goethes Werke, Ausgabe letzter Hand», т. 1 (Штутгарт/Тюбинген, 1827, с. 183–184); «Goethes Schriften», т. 8 (Лейпциг, Гёшен, 1789, с. 157–158) — Schubert Song Texts — «Confirmed by Peter Rastl with Schubert's probable source, Goethe's sämmtliche Schriften […]» — verified (первичная библиографическая сверка).
+
+**Ф53.** Русское заглавие баллады «Лесной царь» закрепилось по переводу Василия Жуковского (1818); это же название использовал и другой известный русский перевод — Афанасия Фета — Russian Wikisource, «Лесной царь (Гёте/Жуковский)» — «Перевод созд.: 1818» (страница озаглавлена «Лесной царь», указан переводчик — Василий Жуковский) — verified; независимо, о двух самых известных русских переводах под тем же заглавием — Russian Wikipedia, «Erlkönig» (баллада) — «Наиболее известны русские переводы Василия Жуковского и Афанасия Фета» — secondary.
 
 **Ф52.** В пятой строфе удалена лишняя строка-дубль («Sie wiegen und tanzen und singen dich ein“.»): реплика Лесного царя заканчивается одной строкой «Und wiegen und tanzen und singen dich ein“.» — schubertsong.uk (обе версии текста) даёт эту строку один раз, без повтора; de.wikisource.org, Гёте, Werke, Erster Band, Cotta 1815, с. 169 — та же строка один раз («Und wiegen und tanzen und singen dich ein.“ —») — **verified**. Закрывающая кавычка и точка перенесены на оставшуюся строку.
 
