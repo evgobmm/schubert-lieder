@@ -70,7 +70,7 @@ ${(delta2.problems || []).filter((x) => /^БЛОКЕР/.test(x)).map((x, i) => `
   return { d: s.d, dict, facts, page, fable, delta, fix, delta2, arbiter }
 }
 // 6 цепочек одновременно (агенты одноходовые и лёгкие; волна №2 на 3 цепочках шла 2 ч 11 мин на 12 песен — 4 круга по ~33 мин)
-const PAR = (args.parallel || 6)
+const PAR = (args.parallel || 12)
 const results = []
 for (let i = 0; i < args.songs.length; i += PAR) { const batch = await parallel(args.songs.slice(i, i + PAR).map((s) => () => perSong(s))); results.push(...batch); log(`готово ${Math.min(i + PAR, args.songs.length)}/${args.songs.length}`) }
 return { results: results.filter(Boolean) }

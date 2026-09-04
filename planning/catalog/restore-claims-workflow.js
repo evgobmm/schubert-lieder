@@ -58,7 +58,7 @@ Read ${CLAIMS} (что возвращали и чем опёрто) и ${CAND} (
   })
   return { d: s.d, check, put, vet }
 }
-const PAR = args.parallel || 6
+const PAR = args.parallel || 12
 const results = []
 for (let i = 0; i < args.songs.length; i += PAR) {
   const batch = await parallel(args.songs.slice(i, i + PAR).map((s) => () => perSong(s)))
