@@ -1,6 +1,6 @@
 # Факты: «Da quel sembiante appresi» (D 688/3)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/da-quel-sembiante-appresi/; Hyperion CDJ33009 (буклет, аннотация Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33009-B.pdf; Hyperion CDJ33029 (буклет, аннотация Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33029-B.pdf
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/da-quel-sembiante-appresi/; Hyperion CDJ33009 (буклет, аннотация Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33009-B.pdf; Hyperion CDJ33029 (буклет, аннотация Грэма Джонсона) — https://www.hyperion-records.co.uk/notes/33029-B.pdf; Hyperion, страница диска CDJ33009 (Recording details) — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33009; Треккани, Vocabolario — статья «face» — https://www.treccani.it/vocabolario/face; Треккани, Vocabolario — статья «sembiante» — https://www.treccani.it/vocabolario/sembiante
 
 Немецкий текст песни в проекте (на самом деле итальянский, слэш в D — часть корпуса D 688) — четыре строфы, начинающиеся «Da quel sembiante appresi». Поэт — Пьетро Метастазио; ария Лизинги из первого акта его драмы L'Eroe cinese (1752). Досье поэта: `planning/research/poets/metastasio.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№»). Песня — № 3 из цикла Vier Canzonen D 688 (январь 1820); история записей: топ-5 в манифесте прослушивания wave5.
 
@@ -54,6 +54,14 @@
 
 **Ф17.** Песня вошла в 9-й том антологии Hyperion Schubert Edition «Schubert & the Theatre» (CDJ33009) в исполнении Арлин Оже и Грэма Джонсона — Hyperion CDJ33009, буклет — «ARLEEN AUGER soprano / GRAHAM JOHNSON piano» (титульный лист диска, трек-лист включает bq Da quel sembiante appresi) — verified.
 
+## 8а. Язык (проверка триажа восстановления, wave5)
+
+**Ф21.** Итальянское «face» («факел», поэтическое) восходит к латинскому «fax, facis» — Треккани, Vocabolario, статья «face» — «s. f. [dal lat. fax facis], poet. – Fiaccola» — verified.
+
+**Ф22.** Заглавная буква в «È fredda ogn'altra face» (после точки с запятой в предыдущей строке) — не особенность именно нотного оттиска песни: то же написание с заглавной È на том же месте даёт и schubertsong.uk в тексте оригинала Метастазио, атрибуция которого подтверждена Растлем по изданию 1832 года (см. Ф5) — schubertsong.uk — «Solo m'alletta e piace; È fredda ogn'altra face» — verified (сопоставление написания оригинала (Ф7) и текста песни в бандле).
+
+**Ф23.** Запись Арлин Оже/Грэма Джонсона (Hyperion CDJ33009) — студийная (не концертная): страница диска на сайте Hyperion в разделе «Recording details» указывает продюсера и звукорежиссёра сессии в капелле, без упоминания публики или концерта — Hyperion, страница CDJ33009 — «Recording details: October 1989. Rosslyn Hill Unitarian Chapel, Hampstead, London, United Kingdom. Produced by Mark Brown. Engineered by Antony Howell» — verified.
+
 ## 8. Записи
 
 **Ф18.** Топ-5 записей песни (ярус rare, отбор по `docs/rules/youtube-performances.md`, досье `planning/youtube/data/d688-3-da-quel-sembiante-appresi.dossier.json`): 1) Lucia Popp / Geoffrey Parsons, живой концерт St John's Smith Square (Лондон), 1 марта 1982, BBC Legends BBCL 4025-2, видео `FK4APbzQdyo`; 2) Arleen Augér / Graham Johnson, Hyperion Schubert Edition т. 9 «Schubert & the Theatre» (CDJ33009, сессии X.1989, изд. I.1991), видео `D3GXw7zqomE`; 3) Cecilia Bartoli / András Schiff, Decca «Schubert: Italian Songs», 1993, видео `Xml3bvNKUYY`; 4) Lawrence Brownlee / Martin Katz, «Italian Songs for Tenor and Piano», релиз 07.03.2005, видео `lMfSuFzAhHQ`; 5) Maya Boog / Ulrich Eisenlohr, Naxos Deutsche Schubert-Lied-Edition т. 14 «European Poets, Vol. 2» (8.557026-27, изд. 08/2003), видео `VBlXFixnmCs` — топ-5 записей (документ отбора wave5) — verified (первичный отбор, все видео проверены yt-check.js).
@@ -74,3 +82,5 @@
 - schubertlied.de — страница отсутствует в предзагрузке (манифест: `"ok": false`); сетевой бюджет разрешал добор только по LiederNet, который также не ответил (`ddg_http: 202`, без результатов), доступной страницы LiederNet для этого текста не обнаружено.
 - Прижизненная рецепция цикла D 688 современниками Шуберта — не найдена в доступных источниках.
 - Хронометраж 1'22" для трека № 3 в буклете CDJ33009 (Ф11) — сопоставлен по порядку следования таймкодов, не подписан номером трека напрямую; отмечен как uncertain.
+- «Sembiante — слово, обычное именно для оперной лирики XVIII века» (проверка триажа восстановления, wave5): Треккани, статья «sembiante», не подтверждает привязку к XVIII веку и к опере — словарь иллюстрирует слово цитатами из Данте, Тассо, Леопарди, то есть как книжное/поэтическое слово многих эпох, а не как специфику оперной лирики века Метастазио; век не восстановлен.
+- «В итальянской любовной лирике face — привычное имя для огня страсти» и «так эту арию читает Малколм Рен» (проверка триажа восстановления, wave5) — доступный фрагмент буклета CDJ33029 (общий биографический очерк) построчного комментария к тексту не даёт, а на странице schubertsong.uk сверх перевода (Ф14) отдельного аналитического эссе Рена нет; общее утверждение о петраркистской традиции осталось неподтверждённым источником в рамках бюджета проверки.

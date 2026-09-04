@@ -1,6 +1,6 @@
 # Факты: «Entzückung» (D 413)
 
-Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/entzueckung-d413 | schubertsong.uk — https://www.schubertsong.uk/text/entzuckung/ | Hyperion-буклет CDJ33032 — https://www.hyperion-records.co.uk/notes/33032-B.pdf
+Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/entzueckung-d413 | schubertsong.uk — https://www.schubertsong.uk/text/entzuckung/ | Hyperion-буклет CDJ33032 — https://www.hyperion-records.co.uk/notes/33032-B.pdf | DWDS wonnetrunken — https://www.dwds.de/wb/wonnetrunken | Grimm DWB wonnetrunken — https://www.dwds.de/wb/dwb/wonnetrunken | DWDS Taumelfülle — https://www.dwds.de/wb/Taumelf%C3%BClle
 
 Немецкий текст песни в проекте (3 строфы, в третьей — усечённый повтор первой): «Tag voll Himmel, da aus Laura's Blicken…». Поэт — Фридрих фон Маттисон; досье поэта: `planning/research/poets/matthisson.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№»).
 
@@ -33,6 +33,10 @@
 **Ф10.** Поэт также заменил отдельные слова между редакциями: «tiefgerührte Seele» (1781) → «wonnetrunkne Seele» (1811); «Ich der Frommen» → «Ich der Holden»; «Nur in Edens Mirthenlauben sein» → «Kaum in Edens Myrthenlauben seyn» — правки самого Маттисона, не Шуберта — schubertsong.uk, построчное сопоставление двух редакций — secondary.
 
 **Ф11.** Орфография эпохи в источнике 1811/1815 года, использованном Шубертом: «seyn» (не «sein»), «Myrthenlauben» (не «Myrtenlauben») — schubertsong.uk, раздел «Original Spelling» — «Kaum in Edens Myrthenlauben seyn.» — secondary.
+
+**Ф32.** Wonnetrunken — не бессловарный окказионализм: и DWDS, и Grimm DWB дают на него отдельную словарную статью (прилагательное), с примерами употребления от Клопштока и Гёльдерлина до текстов XX–XXI вв.; проверка снимает утверждение, что «слово сложено поэтом» и что «отдельной статьи словари не дают» — cross-verified: DWDS wonnetrunken — «gehoben; wonnetrunkene Begeisterung»; Grimm DWB wonnetrunken — «vor lustgefühl auszer sich, voll überschwenglicher lust» — verified.
+
+**Ф33.** Taumelfülle в современных лексических источниках DWDS отсутствует («ist nicht in unseren gegenwartssprachlichen lexikalischen Quellen vorhanden»), отдельной статьи в Grimm DWB тоже нет (страница возвращает HTTP 404) — DWDS Taumelfülle — верифицирует лишь редкость состава; подтвердить, что его сложил именно Маттисон (а не более ранний автор), источниками не удалось — verified (для факта отсутствия статьи в обоих словарях), авторство — не подтверждено.
 
 ## 4. Музыка
 
@@ -90,3 +94,5 @@
 - Конкретный певец, для которого Шуберт мог писать эту технически сложную партию (сам Джонсон пишет: «If so, we do not know who this could be»).
 - Документальные свидетельства исполнения или обсуждения песни при жизни Шуберта (см. Ф27).
 - Страница LiederNet (в манифесте предзагрузки помечена как недоступная; сетевой запрос не потребовался — все нужные факты покрыты schubertlied.de, schubertsong.uk и буклетом Hyperion).
+- Утверждение «wonnetrunken — слово, сложенное поэтом, отдельной статьи такому составу словари не дают» — не подтвердилось: проверка DWDS и Grimm DWB (Ф32) показала обратное — у слова есть отдельная статья в обоих словарях, а само оно старше Маттисона (примеры от Клопштока).
+- Авторство состава Taumelfülle («сложен поэтом», то есть Маттисоном) — не подтверждено: отсутствие слова в DWDS и Grimm DWB (Ф33) говорит лишь о редкости состава, но не доказывает, что его придумал именно Маттисон; поиск в историческом корпусе (Deutsches Textarchiv через DWDS) не удался (сервер вернул HTTP 403), веб-поиск недоступен (исчерпан лимит сессии).

@@ -54,7 +54,7 @@ Read ${CLAIMS} (что возвращали и чем опёрто) и ${CAND} (
 **ВАЖНО про файл правок.** Скрипт apply-edits.js применяет ВЕСЬ edits-файл к снимку страницы ДО восстановления. В файле ${args.workDir}/work/edits-${s.slug}.json уже лежат правки, которыми возвращали утверждения. Поэтому: если тебе есть что исправить — прочитай этот файл, ДОПИШИ свои правки к существующим и запиши файл целиком (Write), затем ОДИН Bash: node ${REPO}/planning/scripts/apply-edits.js ${s.d} ${args.workDir}. **Если править нечего — не трогай файл и НЕ запускай apply-edits**: пустой файл стёр бы возвращённое.
 Верни по схеме: d="${s.d}", ok, n_changes, removed, flags, tool_calls.`, {
     label: `вычитка D ${s.d}`, phase: 'Вычитка', model: 'fable', effort: 'medium',
-    schema: { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_changes: { type: 'number' }, removed: { type: 'array', maxItems: 6, items: { type: 'object', properties: { what: { type: 'string', maxLength: 400 }, why: { type: 'string', maxLength: 400 } }, required: ['what', 'why'] } }, flags: { type: 'array', maxItems: 4, items: { type: 'string', maxLength: 400 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_changes', 'tool_calls'] },
+    schema: { type: 'object', properties: { d: { type: 'string' }, ok: { type: 'boolean' }, n_changes: { type: 'number' }, removed: { type: 'array', maxItems: 6, items: { type: 'object', properties: { what: { type: 'string', maxLength: 900 }, why: { type: 'string', maxLength: 900 } }, required: ['what', 'why'] } }, flags: { type: 'array', maxItems: 4, items: { type: 'string', maxLength: 900 } }, tool_calls: { type: 'number' } }, required: ['d', 'ok', 'n_changes', 'tool_calls'] },
   })
   return { d: s.d, check, put, vet }
 }

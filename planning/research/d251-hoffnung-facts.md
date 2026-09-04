@@ -82,6 +82,12 @@
 
 **Ф29.** Записей D 251 позже 2015 года не найдено; обе записи в топ-листе относятся к периоду не ранее 1990 года — топ-5 записей — «Возрастная структура: обе записи ≥1990; ≥2015 нет. Больше достойных источников на первую редакцию не существует» — secondary.
 
+## 9. Дополнения (аудит прослеживаемости)
+
+**Ф30.** (к разделу 5) Рен трактует погоню людей за «золотой целью» (rennen und jagen) как способ вырваться из циклического хода времени и стать не объектом, а хозяином собственной жизни — schubertsong.uk (Malcolm Wren) — «we also desire to take control at times, to escape from the cycle and to break free... how we become agents rather than objects» — secondary.
+
+**Ф31.** (к разделу 8, уточнение Ф28) Naxos-запись — не дуэт двух певцов: Регина Якоби (голос) поёт с Ульрихом Айзенлором как пианистом — штатным аккомпаниатором всей серии Naxos Deutsche Schubert-Lied-Edition, которую он же возглавляет — planning/youtube/albums/complete-editions.md — «руководитель — Ulrich Eisenlohr... базовый пианист Eisenlohr»; «Regina Jakobi — т. 8 «Schiller, Vol. 2» ... — Eisenlohr (Naxos)» — secondary.
+
 ---
 
 ## Не подтвердилось / не найдено

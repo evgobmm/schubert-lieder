@@ -1,6 +1,6 @@
 # Факты: «Des Sängers Habe» (D 832)
 
-Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/des-saengers-habe-d832; schubertsong.uk — https://www.schubertsong.uk/text/des-sangers-habe/
+Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/des-saengers-habe-d832; schubertsong.uk — https://www.schubertsong.uk/text/des-sangers-habe/; Wikipedia (en) — https://en.wikipedia.org/wiki/%C5%BDeliezovce
 
 Немецкий текст песни в проекте (шесть строф, приведены построчно в бандле): «Schlagt mein ganzes Glück in Splitter…» — «Ihre Saiten rühren kann». Поэт — Франц (Ксавер) фон Шлехта. Досье поэта: `planning/research/poets/schlechta.md` (в бандле — раздел «ДОСЬЕ ПОЭТА»; факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в разделе бандла «ТОП-5 ЗАПИСЕЙ».
 
@@ -63,6 +63,8 @@
 **Ф23.** Хотя фортепиано было центральным инструментом шубертовских песен, в центральноевропейском мире композитора цитра была обычным инструментом, особенно в музицировании под открытым небом в сельской местности (например, в Железе (Zseliz), где Шуберт провёл два лета) — schubertsong.uk — «Although the piano was central to Schubert's song writing, in his central European world the zither was common, particularly in outdoor music making in rural areas (such as Zseliz, where he spent two summers)» — secondary.
 
 **Ф24.** Темы и образы текста, отмеченные на schubertsong.uk: барды и менестрели, разбивание и осколки, дыхание, грудь, тучи, танец, цветы, призраки и духи, золото, могилы и погребение, колыбельные, тоска и томление, полночь, струнные инструменты (неуточнённые), сладость, деревья, рощи и перелески (Hain), цитры — schubertsong.uk — раздел «Themes and images in this text» (список тегов) — secondary.
+
+**Ф33.** Железе (Zseliz, ныне Желиезовце/Želiezovce в Словакии), где Шуберт провёл два лета, до 1918 года принадлежало Венгерскому королевству — Wikipedia (en), статья «Želiezovce» — «Until 1918, the city belonged to the Kingdom of Hungary where it then became a part of Czechoslovakia until 1 January 1993…» — verified. Дополняет Ф23: местность, где цитра была обиходным инструментом сельского музицирования, в описываемое время была венгерской.
 
 ## 6. Рецепция и документы эпохи
 

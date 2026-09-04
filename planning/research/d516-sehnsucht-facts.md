@@ -42,6 +42,8 @@
 
 **Ф13.** Как источник текста и информации об альтернативных положениях на музыку страница schubertlied.de указывает lieder.net, но соответствующая страница LiederNet не была доступна при подготовке бандла (сетевой запрос не выполнен) и не открылась и при дополнительной проверке в этой сессии (поиск через DuckDuckGo вернул HTTP 202 без результатов, прямой запрос к странице-заглушке LiederNet тоже не дал текста песни) — построчное сравнение с версией LiederNet не выполнено. — schubertlied.de — «Textquelle und alternative Kompositionen: www.lieder.net» — not found (страница недоступна).
 
+**Ф20.** Frühlingshelle (строфа 1, строка 7: «in goldner Frühlingshelle») — редкое, книжное слово: в современном словаре DWDS для него нет отдельной статьи среди актуальных лексических источников, а частотность на графике словаря помечена как «selten» («редко»); словарь Гриммов (DWB) фиксирует слово только цитатой из Бюргера («goldner Frühlingshelle»), без примеров современного словоупотребления. — DWDS, https://www.dwds.de/wb/Fr%C3%BChlingshelle — «nicht in unseren gegenwartssprachlichen lexikalischen Quellen vorhanden»; «selten» — verified.
+
 ## 4. Музыка
 
 **Ф14.** Оригинальная тональность — до мажор (C-Dur); тональность размещённой на странице записи (Шёне/Монах) — та же, C-Dur. — schubertlied.de — «Originaltonart: C-Dur»; «Aufnahmetonart: C-Dur» — verified.

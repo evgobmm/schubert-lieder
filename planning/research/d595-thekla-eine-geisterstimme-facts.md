@@ -2,6 +2,7 @@
 
 Источники: Hyperion-буклет CDJ33011 — https://www.hyperion-records.co.uk/notes/33011-B.pdf
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/thekla-eine-geisterstimme/
+Источники: schubertsong.uk (About) — https://www.schubertsong.uk/about/
 
 Немецкий текст песни в проекте — шесть строф, как приведено в бандле (текст не менялся). Поэт — Фридрих Шиллер; досье поэта: `planning/research/poets/schiller.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). Это вторая редакция Шуберта на данный текст (D 595); первая — D 73 (1813) — самостоятельная более ранняя песня. История записей: топ-5 из бандла.
 
@@ -70,6 +71,10 @@
 **Ф22.** Запись № 4: Мэриан Андерсон (контральто) и Франц Рупп (фортепиано), 1949–50 (точная дата сессии не установлена), RCA Victor, «Marian Anderson Sings Schubert & Schumann Songs», позже — в боксе «Beyond the Music — Her Complete RCA Victor Recordings» (Sony, 2021) — топ-5 записей бандла — secondary (дата — диапазон со знаком вопроса, точная сессия не установлена по дискографиям).
 
 **Ф23.** Запись № 5: Хелен Уоттс (контральто) и Роджер Виньоулз (фортепиано), 2008, «Schubert Lieder» — топ-5 записей бандла — secondary.
+
+## 9. Об источнике schubertsong.uk
+
+**Ф24.** Тексты на schubertsong.uk в целом основаны на работе Питера Растля: он установил словесную форму немецких текстов, проследил многие источники, которыми пользовался Шуберт при сочинении песен, выявил авторов ряда прежде считавшихся анонимными текстов и подготовил их критические издания — schubertsong.uk (About) — «The texts on this site are therefore based on the work of Peter Rastl, who has prepared an updated version of Schochow's book» — verified.
 
 ## Не подтвердилось / не найдено
 

@@ -6,6 +6,8 @@
 
 **Источники (добор для раздела «4. Музыка»):** буклет Hyperion, https://www.hyperion-records.co.uk/notes/33023-B.pdf (том CDJ33023, разобран через `pdftotext -layout`; ранее в бандле строка D478/3 не была найдена — при повторном прямом разборе PDF нашлась под записью «An die Türen will ich schleichen» с обозначением трека, а не «D478/3»); IMSLP, https://imslp.org/wiki/3_Ges%C3%A4nge_des_Harfners,_D.478_(Schubert,_Franz)
 
+**Источники (добор для restore-разбора, 2026-09-04):** DWDS/DWB, статья «sittsam», https://www.dwds.de/wb/dwb/sittsam
+
 ---
 
 ## 1. Датировка и возраст Шуберта
@@ -49,6 +51,12 @@
 **Ф28.** По каталогу IMSLP, в издании «Schubert's Werke» песня «An die Türen will ich schleichen» (D 478/3) именуется «Harfenspieler II» и ранее (до принятой сегодня нумерации по Дойчу) числилась под номером D 479; соседняя по опусу песня D 478/2 («Harfenspieler III» в той же нумерации Gesamtausgabe) ранее обозначалась как D 480. Это независимо подтверждает наблюдение Ф17 о путанице нумерации песен Арфиста в каталогах — с указанием точных прежних номеров. — IMSLP, https://imslp.org/wiki/3_Ges%C3%A4nge_des_Harfners,_D.478_(Schubert,_Franz) — «Harfenspieler III (D.478/2) was formerly D.480 Harfenspieler II (D.478/3) was formerly D.479» — **verified**.
 
 Тональность и авторское темповое указание независимо совпадают у Джонсона и у общего знания об этой песне; форма (сквозная, без строфических повторов — прямо отмечено Джонсоном в Ф25) и число тактов отдельно нотной статистикой не подтверждены — партитура в бандле не разбиралась потактно.
+
+**Ф29.** Готовя в 1822 году три песни Арфиста к изданию как свой опус 12, Шуберт заново сочинил среднюю песню («Wer nie sein Brot mit Tränen ass», D 478/2) и, по замечанию Джонсона, приложил усилия к тому, чтобы объединить (unify) все три песни, подогнав новую редакцию под стиль первой песни, — то есть именно композитор, готовя издание, свёл три песни под общий опусный номер. — буклет Hyperion CDJ33023 (Джонсон), https://www.hyperion-records.co.uk/notes/33023-B.pdf — «When he came to prepare the harper's songs for publication as his Opus 12 in 1822 he composed this song afresh. He seems to have made an effort to unify the three songs and he matches his new setting to the style of the first song.» — **verified**.
+
+**Ф30.** Джонсон дважды прямо называет три песни Арфиста «циклом» (the cycle): «As a whole then, and despite various cosmetic changes in the outer songs, the cycle is an 1816 work with a new central panel» — о группе из трёх песен op. 12 в целом; и об An die Türen will ich schleichen отдельно — «The third song in this cycle comes much later from Wilhelm Meister (Book 5, Chapter 14)». Это прямо противоречит утверждению «сквозного цикла они не образуют» — по формулировке Джонсона (единственного источника бандла, обсуждающего это) три песни как раз названы циклом. — буклет Hyperion CDJ33023 (Джонсон), https://www.hyperion-records.co.uk/notes/33023-B.pdf — «the cycle is an 1816 work with a new central panel»; «The third song in this cycle comes much later from Wilhelm Meister» — **verified**.
+
+**Ф31.** Словарная статья DWB (Grimm) на «sittsam» определяет слово как «gesittet, ehrbar, züchtig, bescheiden, mäszvoll» и отмечает, что в более позднем словоупотреблении оно относится прежде всего «vorzugsweise auf reinheit und unschuld der sitten», то есть к благопристойности и целомудрию (часто — женскому), причём латинские эквиваленты, приводимые словарём (modestus, moratus, moderatus, placidus), не включают «pius» («благочестивый»); о набожности/Frömmigkeit в статье нигде не упоминается. — DWDS/DWB, статья «sittsam», https://www.dwds.de/wb/dwb/sittsam — «sittsam, adj. gute sitte habend… gesittet, ehrbar, züchtig, bescheiden, maszvoll… in neuerer zeit… vorzugsweise auf reinheit und unschuld der sitten gehend, ehrbarkeit in sexueller hinsicht bezeichnend» — **verified** (по слову «sittsam»; связь конкретно с религиозностью в статье не установлена и не отрицается прямой цитатой — вывод «не о набожности» опирается на отсутствие этого значения в перечне значений словарной статьи).
 
 ## 5. Смыслы и интерпретации
 
@@ -99,3 +107,4 @@
 - **Дата рождения Шуберта** для вычисления возраста в момент сочинения (Ф2) — не процитирована ни в одном источнике бандла; возраст 19 лет в сентябре 1816 года приведён как арифметика, не как проверенный факт, и помечен uncertain.
 - **Рецепция именно этой песни** (раздел 6) — фактов, относящихся конкретно к D 478/3 (а не к гётевским песням Шуберта в целом), в бандле нет.
 - Год издания нотного текста первой части «Фауста» и точная дата письма Гёте Цельтеру (из досье поэта) к этой песне отношения не имеют и здесь не используются.
+- **«Сквозного цикла они не образуют»** (снятое утверждение о трёх песнях Арфиста) — не подтвердилось; более того, единственный источник бандла, прямо обсуждающий это (буклет Hyperion, Джонсон — см. Ф30), называет три песни именно «циклом» («the cycle», дважды). Возвращать снятую формулировку нельзя — она расходится с найденным источником; при этом и заменять её на противоположную («образуют цикл») в рамках этого разбора не входит в задачу (это решение для редактора страницы).

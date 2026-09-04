@@ -1,6 +1,6 @@
 # Факты: «L'incanto degli occhi / Die Macht der Augen» (D 902/1)
 
-Источники: Hyperion booklet CDJ33036 — https://www.hyperion-records.co.uk/notes/33036-B.pdf
+Источники: Hyperion booklet CDJ33036 — https://www.hyperion-records.co.uk/notes/33036-B.pdf; Una parola al giorno, статья «talento» — https://unaparolaalgiorno.it/significato/talento; Adelung, Grammatisch-kritisches Wörterbuch, статья «Der Trübsinn» — https://lexika.digitale-sammlungen.de/adelung/lemma/bsb00009134_3_1_1295; ArkivMusic, карточка альбома «Schubertiade» (Anima Eterna Brugge / van Immerseel) — https://arkivmusic.com/products/schubertiade-anima-eterna-brugge-immerseel-225271
 
 Немецкий текст песни в проекте (`d902-1-lincanto-degli-occhi-die-macht-der-augen.json`) — макаронический: строфы 1 и 3 на итальянском (оригинал Метастазио), строфы 2 и 4 — их немецкий парафраз («Nur Euch, schöne Sterne...», «Ihr seht mich verwegen...»), то есть песня исполняется на два языка подряд, куплет за куплетом. Поэт — Пьетро Метастазио. Досье поэта: `planning/research/poets/metastasio.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№»). Топ-5 записей — из предзагруженного пула, общего для всего цикла D 902 (см. бандл).
 
@@ -66,6 +66,12 @@
 
 **Ф19.** Топ-5: Томас Э. Бауэр (баритон) и Йос ван Иммерзеел (историческое фортепиано) — «Schubertiade: Du holde Kunst, ich danke dir», Alpha Classics, 13.11.2015 (по данным MusicBrainz и официальным кредитам аудиоиздания). — топ-5 записей (бандл) — secondary.
 
+**Ф20.** У Данте слово talento употреблено в значении «желание, влечение, воля» (обычное для средневекового итальянского) — например, в сонете «Guido, i' vorrei»: «vivendo sempre in un talento» — «живя всегда в одном влечении». — Una parola al giorno, статья «talento» — «vivendo sempre in un talento, / di stare insieme crescesse 'l disio» — secondary.
+
+**Ф21.** У Аделунга (Johann Christoph Adelung, Grammatisch-kritisches Wörterbuch, статья «Der Trübsinn») Trübsinn определено как «anhaltende ... Traurigkeit des Gemüthes; der erste Grad der Schwermuth oder Melancholie» — то есть формально первая степень меланхолии, хотя на практике слово нередко употребляется как синоним меланхолии. — Adelung, «Der Trübsinn» — «der erste Grad der Schwermuth oder Melancholie» — verified.
+
+**Ф22.** Альбом «Schubertiade: Du holde Kunst, ich danke dir» (Alpha Classics; Томас Э. Бауэр — баритон, Йос ван Иммерзеел — историческое фортепиано) включает на диске 2 все три песни цикла Drei Gesänge D 902 подряд, дорожки 5–7: «No. 1. L'incanto degli occhi», «No. 2. Il traditor deluso», «No. 3. Il modo di prender moglie» — то есть Бауэр и ван Иммерзеел записали не одну песню, а весь цикл целиком. — ArkivMusic, карточка альбома «Schubertiade» — «No. 1. L'incanto degli occhi ... No. 2. Il traditor deluso ... No. 3. Il modo di prender moglie», Disc 2 — secondary.
+
 ## Не подтвердилось / не найдено
 
 - Тональность, форма, партия фортепиано и по-строчный музыкальный разбор D 902/1 (комментарий Рена/schubertlied.de и профильная часть буклета Hyperion) — источники недоступны в этой волне (`ok: false` в манифесте); нужен повторный заход другой волной или прямой доступ к schubertlied.de/schubertsong.uk.
@@ -73,3 +79,5 @@
 - Точная датировка автографа/эскиза (день, если есть, помимо диапазона 1813–1816 для D 990E) — не найдена.
 - Отзывы современников или документы эпохи, относящиеся конкретно к L'incanto degli occhi (а не к циклу или году в целом), — не найдены.
 - Попытка добрать текст с LiederNet через поиск не дала результата (пустой ответ DuckDuckGo, HTTP 202) — сетевой бюджет (2 обращения) исчерпан безрезультатно.
+- Утверждение «обрубленные концы слов (cangiar, tremar) привычны в стихах, писанных для пения» — подтвердить не удалось: усечение конечной гласной (troncamento/apocope) описано в итальянской грамматике как общее явление стихотворной речи вообще (Treccani, VIVIT), но источника, который прямо связывал бы его именно с текстами, писанными для пения/музыки, не нашлось (Treccani «Troncamento» этот аспект не затрагивает вовсе).
+- Утверждение «вторая редакция (D 902/1, версия для сопрано) поётся и записывается наравне с первой» — не подтвердилось: schubertsong.uk (https://www.schubertsong.uk/text/lincanto-degli-occhi/) даёт только текст и атрибуцию, без сведений об истории исполнения; сравнительных данных о частоте исполнения двух редакций не найдено.

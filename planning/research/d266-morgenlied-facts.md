@@ -3,6 +3,8 @@
 Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/morgenlied-d266
 Источники: schubertsong.uk — https://www.schubertsong.uk/text/morgenlied/
 Источники: досье поэта — planning/research/poets/stolberg.md (внутренняя ссылка проекта; факты оттуда помечены «досье, Ф№»)
+Источники: Библия, Книга Иова 38:31 (перевод Лютера 1545) — https://www.biblegateway.com/passage/?search=Hiob+38&version=LUTH1545
+Источники: немецкая Википедия, статья «Oriongürtel» — https://de.wikipedia.org/wiki/Oriong%C3%BCrtel
 
 Немецкий текст песни в проекте — 11 строф («Willkommen, rothes Morgenlicht» … «Sich dieser Welt entreisst»). Поэт — Фридрих Леопольд граф цу Штольберг-Штольберг; досье поэта см. `planning/research/poets/stolberg.md`.
 
@@ -53,6 +55,10 @@
 **Ф16.** Рен: восход солнца напоминает, что Бог «приглядывает» за нами; поэт использует образ вожжей, которыми держат ребёнка, — как Бог завязал пояс Ориона, так он держит нас в узде и не даёт заблудиться; при доверии его невидимая рука ведёт и защищает. — schubertsong.uk — «holding on to a toddler's reins … he has tied us into a harness and is holding on to the reins» — secondary.
 
 **Ф17.** Иллюстрация к тексту на странице schubertsong.uk — рисунок Рембрандта, ок. 1645 года, Национальный музей, Стокгольм. — schubertsong.uk — «Drawing by Rembrandt, c. 1645 Nationalmuseum, Stockholm» — secondary.
+
+**Ф24.** Строка «Er, der Orions Gürtel band» перекликается с Книгой Иова 38:31, где Бог риторически спрашивает Иова, способен ли тот связать узы Плеяд или развязать пояс/узы Ориона — то есть удерживать созвездие на месте способен только Бог; у Штольберга это делает «Он» из предыдущих строк. — Библия, Иов 38:31 (Лютер, 1545) — «Kannst du die Bande der sieben Sterne zusammenbinden oder das Band des Orion auflösen?» — verified (сопоставление текста строфы с текстом стиха; глагол binden/Band общий для обоих).
+
+**Ф25.** Пояс Ориона — астрономическое название заметного ряда из трёх ярких звёзд (Минтака, Альнилам, Альнитак) в средней части созвездия Орион, которые кажутся расположенными почти на одной прямой линии. — немецкая Википедия, «Oriongürtel» — «Diese drei hellen Sterne … lassen sich in der Vorstellung miteinander verbinden und bilden so eine Reihe auf einer gedachten, fast geraden Linie» — verified.
 
 ## 6. Рецепция и документы эпохи
 

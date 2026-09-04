@@ -1,6 +1,6 @@
 # Факты: «Rastlose Liebe» (D 138)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/rastlose-liebe/; Топ-5 записей (проектное досье) — planning/youtube/data/d138-rastlose-liebe.dossier.json
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/rastlose-liebe/; Топ-5 записей (проектное досье) — planning/youtube/data/d138-rastlose-liebe.dossier.json; DWB (Deutsches Wörterbuch, братья Гримм) через DWDS — статья Dampf: https://www.dwds.de/wb/dwb/dampf; DWDS — статья Krone: https://www.dwds.de/wb/Krone?o=krone
 
 Немецкий текст песни в проекте — три строфы: «Dem Schnee, dem Regen…», «Lieber durch Leiden…», «Wie soll ich fliehn?..» (третья строфа в проекте распета с повторами последних строк). Поэт — Иоганн Вольфганг фон Гёте. Досье поэта: `planning/research/poets/goethe.md` (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей — топ-5 ниже.
 
@@ -67,6 +67,10 @@
 **Ф21.** № 4 топ-5: Бернарда Финк / Герольд Хубер, harmonia mundi HMC 901991 «Schubert: Lieder», запись сентябрь 2007, Teldex Studio Berlin, издание 2008 — топ-5 записей — verified.
 
 **Ф22.** № 5 топ-5: Самюэль Хассельхорн / Джозеф Миддлтон, harmonia mundi HMM 902689 «Glaube, Hoffnung, Liebe», издание 06.05.2022, сессия документирована апрелем 2021 — топ-5 записей — verified.
+
+**Ф24.** У Гримма (DWB) Dampf описан и как тёплое, влажное испарение почвы, поднимающееся вверх из земли: «ein warmer, feuchter bodendampf der aus der erde in die höhe geht» — DWB через DWDS — «ein warmer, feuchter bodendampf der aus der erde in die höhe geht» — **verified**.
+
+**Ф25.** У немецкого Krone есть и переносное значение — верхняя, венчающая часть чего-либо, в том числе крона дерева (Baumkrone): «oberer oder oben aufgesetzter Teil a) Gesamtheit der Äste und Zweige eines Baumes, Baumkrone, Wipfel» — DWDS, статья Krone — «oberer oder oben aufgesetzter Teil a) Gesamtheit der Äste und Zweige eines Baumes, Baumkrone, Wipfel» — **verified**.
 
 ## Не подтвердилось / не найдено
 

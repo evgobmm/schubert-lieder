@@ -1,6 +1,6 @@
 # Факты: «Geistliches Lied» (D 662)
 
-Источники: hyperion-booklet — https://www.hyperion-records.co.uk/notes/33029-B.pdf; hyperion-dc — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33029; schubertlied-marie — https://schubertlied.de/die-lieder/marie; schubertlied-nachthymne — https://www.schubertlied.de/die-lieder/nachthymne-d687; schubertsong-hymne-ii — https://www.schubertsong.uk/text/hymne-ii-geistliches-lied/; schubertsong-marie — https://www.schubertsong.uk/text/marie-geistliches-lied/; deutsche-biographie — https://www.deutsche-biographie.de/gnd118588893.html
+Источники: hyperion-booklet — https://www.hyperion-records.co.uk/notes/33029-B.pdf; hyperion-dc — https://www.hyperion-records.co.uk/dc.asp?dc=D_CDJ33029; schubertlied-marie — https://schubertlied.de/die-lieder/marie; schubertlied-nachthymne — https://www.schubertlied.de/die-lieder/nachthymne-d687; schubertsong-hymne-ii — https://www.schubertsong.uk/text/hymne-ii-geistliches-lied/; schubertsong-marie — https://www.schubertsong.uk/text/marie-geistliches-lied/; deutsche-biographie — https://www.deutsche-biographie.de/gnd118588893.html; wikipedia-schlegel — https://de.wikipedia.org/wiki/Friedrich_Schlegel; wikipedia-mendelssohn — https://de.wikipedia.org/wiki/Moses_Mendelssohn; wikipedia-tieck — https://de.wikipedia.org/wiki/Ludwig_Tieck
 
 Немецкий текст песни в проекте (8 строф, «Ich sag es jedem, dass er lebt…») — по бандлу, без изменений. Поэт — Новалис (наст. имя Georg Philipp Friedrich Freiherr von Hardenberg); в каталоге Дойча песня — пятая из пяти майских песен на Новалиса 1819 года (D 658–662), в старой номенклатуре известна как «Hymne IV». Досье поэта: `planning/research/poets/novalis.md` (факты — «досье, Ф№», заново не проверялись). Прямые страницы schubertlied.de и schubertsong.uk по D 662, а также LiederNet, недоступны (манифест предзагрузки: ok=false); две дополнительные проверки в рамках сетевого бюджета (schubertlied.de/die-lieder/geistliches-lied-d662, schubertsong.uk/text/geistliches-lied/) вернули страницы «не найдено» — прямых страниц по этому URL-шаблону на сайтах не существует.
 
@@ -61,6 +61,12 @@
 **Ф19.** Запись Штефана Логеса и Александра Шмальца (2004) вышла на двуязычном релизе «I Journey Over — Hinüber wall ich»; год определён по ℗-строке издания, поскольку сессия записи не документирована. — top5-обоснование — «Год — по ℗-строке издания (сессия не документирована); лейбл-агрегатор, происхождение ленты не установлено — позиция последняя» — uncertain (датировка по изданию, не по сессии).
 
 **Ф20.** Отклонённый кандидат — запись Фабрис/Маццоли (2015, IDIS «Geistliche Lieder») — отведена в резерв как не имеющая прослеживаемой критической репутации; достойного кандидата для слота «после 2015 года» не найдено. — top5-обоснование — «без прослеживаемой критической репутации, слот 2015+ оставлен пустым по правилу «никогда не в ущерб качеству»» — secondary.
+
+**Ф21.** Фридрих Шлегель по общей биографической характеристике — немецкий культурфилософ, писатель, литературный и художественный критик, историк и филолог-классик; помимо роли друга Новалиса он с полным основанием характеризуется как «философ». — wikipedia-schlegel — «Karl Wilhelm Friedrich Schlegel … war ein deutscher Kulturphilosoph, Schriftsteller, Literatur- und Kunstkritiker, Historiker und Altphilologe» — secondary (общая биографическая справка, не по тексту D 662 напрямую).
+
+**Ф22.** Мозес Мендельсон, автор перевода «13-го псалма» (см. Ф12), — немецко-еврейский философ эпохи Просвещения. — wikipedia-mendelssohn — «Moses Mendelssohn … war ein deutsch-jüdischer Philosoph der Aufklärung» — secondary.
+
+**Ф23.** Людвиг Тик, издавший вместе с Фридрихом Шлегелем собрание сочинений Новалиса (см. досье, Ф22), по основному роду деятельности — немецкий поэт, писатель, издатель и переводчик эпохи романтизма. — wikipedia-tieck — «Johann Ludwig Tieck … war ein deutscher Dichter, Schriftsteller, Herausgeber und Übersetzer der Romantik» — secondary.
 
 ---
 
