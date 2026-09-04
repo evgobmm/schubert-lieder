@@ -1,6 +1,6 @@
 # Факты: «Die Rose» (D 745)
 
-Источники: schubertsong.uk — https://www.schubertsong.uk/text/die-rose/
+Источники: schubertsong.uk — https://www.schubertsong.uk/text/die-rose/; для Ф23 (публикация песен-соседей по циклу Abendröte) — schubertlied.de: https://www.schubertlied.de/die-lieder/die-berge-d634, https://www.schubertlied.de/die-lieder/der-wanderer-d649, https://www.schubertlied.de/die-lieder/der-schiffer-d694, https://www.schubertlied.de/die-lieder/die-voegel-d691, https://www.schubertlied.de/die-lieder/der-knabe-d692, https://www.schubertlied.de/die-lieder/die-gebuesche-d646
 
 Немецкий текст песни в проекте (24 строки, последняя удвоена: «Wollt ich noch sterbend sagen» повторено) совпадает по современной орфографии с текстом на schubertsong.uk. Поэт — Karl Wilhelm Friedrich Schlegel; песня входит в путативный цикл Abendröte. Досье поэта (Шлегель, Ф1–Ф30) переиспользуется со ссылкой «досье, Ф№», заново не проверялось. Данные о записях — из отдельного файла отбора топ-5 (раздел «ТОП-5 ЗАПИСЕЙ» бандла), цитируется как «топ-5 записей».
 
@@ -75,6 +75,8 @@
 **Ф21.** Felicity Lott / Graham Johnson — Hyperion Schubert Edition, т. 19 «Songs about flowers & nature» (CDJ33019), зап. июль 1992, Rosslyn Hill Unitarian Chapel, изд. XI.1993 — топ-5 записей — «Ей 45 — рецитальная зрелость. Тематически центральная запись песни» — secondary.
 
 **Ф22.** Carolyn Sampson / Joseph Middleton — «Schubert's Four Seasons» (BIS-2703), зап. 25–28.02.2024, релиз 04.04.2025 — топ-5 записей — «третий шубертовский диск устоявшегося дуэта с Мидлтоном; аннотация — Susan Youens» — secondary.
+
+**Ф23.** Одиннадцать песен цикла Abendröte, включая «Розу», в печать вышли не разом и не единым сводом, а порознь, с разрывом почти в шестьдесят лет: Die Berge (D 634) и Der Wanderer (D 649) изданы ещё при жизни Шуберта — 6 апреля и 24 ноября 1826 года; остальные — посмертно: Der Schiffer (D 694) в 1842-м, Die Vögel (D 691) в 1865-м, Der Knabe (D 692) в 1872-м, Die Gebüsche (D 646) в 1885-м — schubertlied.de (карточки песен D634, D649, D694, D691, D692, D646) — «Veröffentlichung (angezeigt): 6. April 1826» (на карточке Die Berge; на остальных карточках та же строка с соответствующей датой) — secondary.
 
 ## Не подтвердилось / не найдено
 

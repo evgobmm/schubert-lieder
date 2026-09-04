@@ -82,6 +82,8 @@
 
 **Ф28.** №5 топ-5: Арлин Оже / Ламберт Оркис, 1990, Virgin Classics «Schubert Lieder»; klassik-prisma — 4–5, «leicht und locker gesungen, gute Textverständlichkeit» — источник: топ-5-досье — secondary.
 
+**Ф29.** У Фишера-Дискау и Мура помимо записи для DG 1969 года (№2 топ-5) есть более ранняя запись той же песни — на EMI/Electrola, сессии 24–25 и 28 февраля + 1 марта 1965 года, Берлин-Целендорф (изд. Electrola SME 91419 «Lieder, Vol. 9» / HMV ASD 2263, ASD 2273); klassik-prisma сравнивает версию 1969 года именно с этой, более ранней, записью EMI — досье записей (кандидат вне топ-5, датировка — по дискографии Майкла Грея) — planning/youtube/data/d774-auf-dem-wasser-zu-singen.dossier.json — «Fischer-Dieskau Bt Moore 1965 EMI … Gray: Electrola SME 91419 … сессии 24–25 и 28 февраля + 1 марта 1965, Berlin-Zehlendorf» — secondary.
+
 ---
 
 ## Не подтвердилось / не найдено

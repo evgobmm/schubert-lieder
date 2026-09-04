@@ -1,6 +1,6 @@
 # Факты: «Lachen und Weinen» (D 777)
 
-Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/lachen-und-weinen-d777; schubertsong.uk — https://www.schubertsong.uk/text/lachen-und-weinen/
+Источники: schubertlied.de — https://www.schubertlied.de/die-lieder/lachen-und-weinen-d777; schubertsong.uk — https://www.schubertsong.uk/text/lachen-und-weinen/; Grimm DWB (jeglich) — https://www.dwds.de/wb/dwb/jeglich
 
 Немецкий текст песни в проекте (2 строфы по 7 строк с повтором последней строки): «Lachen und Weinen zu jeglicher Stunde…» / «Weinen und Lachen zu jeglicher Stunde…». Поэт — Фридрих Рюккерт. Досье поэта: см. бандл-раздел «Досье поэта» (факты оттуда переиспользуются со ссылкой «досье, Ф№», заново не проверялись). История записей: топ-5 в бандле, раздел «ТОП-5 ЗАПИСЕЙ».
 
@@ -41,6 +41,8 @@
 **Ф14.** По предположению Отто Эриха Дойча (досье, Ф37), заглавия шубертовским песням на слова Рюккерта — включая, по-видимому, и Lachen und Weinen — дал сам композитор, поскольку у первоисточника (Östliche Rosen) заглавий не было — досье, Ф37 — «Otto Erich Deutsch vermutet, dass Schubert die Titel seiner Lieder selbst gewählt hat» — **secondary**.
 
 **Ф15.** Все шесть песен Шуберта на слова Рюккерта, включая Lachen und Weinen, восходят к сборнику «Östliche Rosen» (1822); Шуберт положил на музыку 6 из 365 стихотворений сборника, ещё одно — как мужской хор — досье, Ф25; schubertlied.de — «Schubert vertonte 6 der 365 Gedichte als Lieder, sowie eines als Männerchor» — **verified** (два источника).
+
+**Ф30.** Словарь братьев Гримм (Deutsches Wörterbuch) о слове «jeglich» (форма «jeglicher» в тексте песни): в XVI веке оно встречалось у Лютера чаще, чем «jeder», но к XIX веку («in der modernen Sprache») заметно уступило ему место и сохраняется почти исключительно в возвышенной речи — DWDS (электронная версия Grimm DWB), https://www.dwds.de/wb/dwb/jeglich — «in der modernen sprache hat es jedoch zu gunsten des letzteren bedeutend an boden verloren, so dasz es fast nur noch der gehobenen rede zusteht» — **verified** (прямая цитата словарной статьи, сверено по исходному HTML). Заметим: словарь фиксирует регистр слова (возвышенное, редкое к XIX веку), но ничего не говорит о сознательном умысле Рюккерта использовать его как поэтический архаизм — это отдельное, отдельно не подтверждённое утверждение.
 
 ## 4. Музыка
 
@@ -89,3 +91,4 @@
 - Автограф песни, его судьба и местонахождение — в предзагруженных источниках не упомянуты.
 - Точная дата написания и первой публикации стихотворения Рюккерта не установлена однозначно: schubertlied.de даёт «1819–1820 / первая публикация 1822», schubertsong.uk — «1819 / первая публикация 1821» (см. Ф10) — расхождение не устранено.
 - Темповое указание, размер такта и структура аккомпанемента песни в предзагруженных источниках не описаны (только тональность, см. Ф3).
+- Утверждение, что Рюккерт сознательно выбрал «jeglicher» как поэтический архаизм (сознательное намерение поэта), источниками не подтверждается: Grimm DWB (Ф30) фиксирует только регистр слова («gehobene Rede»), о замысле автора не говорит.

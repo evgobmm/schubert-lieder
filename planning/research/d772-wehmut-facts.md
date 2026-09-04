@@ -106,6 +106,12 @@
 
 ---
 
+## 9. Лексика
+
+**Ф33.** Словарь Гримм (Deutsches Wörterbuch) даёт «unruh» отдельной словарной статьёй как прилагательное («unruh, adj.»), а не просто вариантное написание «unruhig» — DWDS (зеркало DWB), https://www.dwds.de/wb/dwb/unruh — «unruh, adj.; zur bildung vgl. geruh, adj., nl. onrust für onrustig» (пример употребления в статье: «hetten gern etwas unruͦws angefangen», Ф. Платтер) — verified.
+
+---
+
 ## Не подтвердилось / не найдено
 
 - **Место хранения и датировка автографа (рукописи) песни** — в бандле не приведено ни поля, ни ссылки (Ф10).
