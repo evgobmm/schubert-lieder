@@ -140,6 +140,20 @@ for (const d of ds) {
   const top5Path = path.join(ROOT, 'planning/research', slug + '-top5.md');
   const top5 = fs.existsSync(top5Path) ? fs.readFileSync(top5Path, 'utf8') : '';
   const vols = [...new Set((top5.match(/CDJ(\d{5})/g) || []).map((x) => x.slice(3)))].slice(0, 3);
+  // добор томов: если из top5 томов нет или в них песня не нашлась, смотрим УЖЕ СКАЧАННЫЕ буклеты —
+  // в них песня может стоять под двойным номером («D489/D493»), которого нет в top5 (урок D 489, 2026-09-05)
+  try {
+    const hdirScan = path.join(outDir, '_hyperion');
+    if (fs.existsSync(hdirScan)) {
+      const anyRe = new RegExp('(^|[^0-9A-Za-z])D ?' + d + '(?![0-9])');
+      for (const f of fs.readdirSync(hdirScan)) {
+        if (!f.endsWith('-B.txt')) continue;
+        const v = f.replace('-B.txt', '');
+        if (vols.includes(v) || vols.length >= 5) continue;
+        if (anyRe.test(fs.readFileSync(path.join(hdirScan, f), 'utf8'))) vols.push(v);
+      }
+    }
+  } catch { }
   if (!ONLY || ONLY === 'web') { manifest.sources.hyperion = [];
   const hdir = path.join(outDir, '_hyperion'); fs.mkdirSync(hdir, { recursive: true });
   for (const v of vols) {
