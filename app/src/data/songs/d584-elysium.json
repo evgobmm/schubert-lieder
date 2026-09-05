@@ -1,9 +1,16 @@
 {
  "d": "584",
  "title_de": "Elysium",
+ "title_ru": "Элизиум",
+ "poet_de": "Friedrich Schiller",
+ "poet_ru": "Фридрих Шиллер",
  "year": "1817",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Elysium («Элизиум») — земля блаженных греческого мифа, где царит вечное счастье. Слово Шиллер берёт латинское — существительное Elysium, а не греческое прилагательное: его стихи, как замечает Малколм Рен, автор комментариев к песням Шуберта на schubertsong.uk, ближе к «Энеиде» Вергилия, чем к «Одиссее»."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -17,6 +24,251 @@
     "Durch lachende Fluren ein flötender Bach.",
     "Vorüber die stöhnende Klage,",
     "Vorüber, vorüber die stöhnende Klage."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Vorüber",
+       "ru": "Миновала"
+      },
+      {
+       "de": "die stöhnende",
+       "ru": "стенающая"
+      },
+      {
+       "de": "Klage,",
+       "ru": "жалоба,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Vorüber у Гримма прежде всего пространственное — «мимо передней стороны, прочь»; о времени оно значит «миновало». Песня начинается с этого слова и им же кончает первую строфу: жалоба осталась позади."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Klage Гримм толкует как «вопль боли, а потом и всякое ставшее слышным выражение боли»: в песнях это плач, а не судебный иск. Причастие stöhnende — от stöhnen, которое восходит к средневерхненемецкому stenen («жаловаться, громко вздыхать»): жалоба здесь именно стенает."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Freudengelage",
+       "ru": "Пиршества радости"
+      },
+      {
+       "de": "Elysiums",
+       "ru": "Элизиума"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Freudengelage — редкое сложение из Freude («радость») и Gelage («пир, застолье»); словари его не описывают, значение складывается из частей. Elysiums — родительный падеж, по-немецки стоящий перед своим словом; по-русски он переставлен назад."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ersäufen",
+       "ru": "Топят"
+      },
+      {
+       "de": "jegliches",
+       "ru": "всякое"
+      },
+      {
+       "de": "Ach!",
+       "ru": "«ах»!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Ersäufen у Гримма — aqua mergere, «топить в воде»; словарь приводит рядом библейский оборот о том, что многие воды не могут погасить любви и реки не зальют её. Пиры Элизиума топят в себе всякое «ах». Jegliches — старинное усиленное «всякий, каждый»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Leben,",
+       "ru": "Жизнь"
+      },
+      {
+       "de": "Elysiums",
+       "ru": "Элизиума,"
+      },
+      {
+       "de": "ewige",
+       "ru": "вечное"
+      },
+      {
+       "de": "Wonne,",
+       "ru": "блаженство,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Wonne — высокое слово для глубокой, восторженной радости, и у Гримма подчёркнут именно усиленный смысл. Сегодня оно часто звучит иронично, в текстах 1800-х годов — всегда всерьёз."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Leben,",
+       "ru": "Жизнь"
+      },
+      {
+       "de": "Elysiums",
+       "ru": "Элизиума,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ewiges",
+       "ru": "Вечное"
+      },
+      {
+       "de": "Schweben",
+       "ru": "парение"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "Сквозь"
+      },
+      {
+       "de": "lachende",
+       "ru": "смеющиеся"
+      },
+      {
+       "de": "Fluren",
+       "ru": "нивы"
+      },
+      {
+       "de": "ein flötender",
+       "ru": "флейтой поющий"
+      },
+      {
+       "de": "Bach,",
+       "ru": "ручей,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Fluren — от die Flur, «нива, поле, открытая равнина» (у Гримма campus, ager, seges). Современное частотное der Flur — «коридор, прихожая» — другое слово и другого рода."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Flötend — причастие от flöten («играть на флейте»): ручей поёт, как флейта, и бежит по смеющимся нивам."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "Сквозь"
+      },
+      {
+       "de": "lachende",
+       "ru": "смеющиеся"
+      },
+      {
+       "de": "Fluren",
+       "ru": "нивы"
+      },
+      {
+       "de": "ein flötender",
+       "ru": "флейтой поющий"
+      },
+      {
+       "de": "Bach.",
+       "ru": "ручей."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Vorüber",
+       "ru": "Миновала"
+      },
+      {
+       "de": "die stöhnende",
+       "ru": "стенающая"
+      },
+      {
+       "de": "Klage,",
+       "ru": "жалоба,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Vorüber,",
+       "ru": "Миновала,"
+      },
+      {
+       "de": "vorüber",
+       "ru": "миновала"
+      },
+      {
+       "de": "die stöhnende",
+       "ru": "стенающая"
+      },
+      {
+       "de": "Klage.",
+       "ru": "жалоба."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -31,6 +283,259 @@
     "Jugendlich milde beschwebt die Gefilde,",
     "Ewiger Mai, ewiger Mai,",
     "Ewiger, ewiger Mai."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Jugendlich",
+       "ru": "По-юношески"
+      },
+      {
+       "de": "milde",
+       "ru": "кротко"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Оба слова здесь наречия. Jugendlich Гримм толкует как «подобный юности, производящий впечатление молодого» и цитирует при этом самого Шиллера. Milde в этой строке — наречие от прилагательного mild («кроткий, мягкий»); существительное die Milde («милость») читалось бы иначе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Beschwebt",
+       "ru": "Реет над"
+      },
+      {
+       "de": "die Gefilde,",
+       "ru": "полями,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Beschweben — «реять над»: приставка be- делает schweben («парить, реять») переходным, как в bedecken («покрывать»). Gefilde словарь DWDS помечает как поэтическое «край, нивы» и приводит прямо наш случай: die Gefilde der Seligen — «поля блаженных», рай классической древности."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ewiger",
+       "ru": "Вечный"
+      },
+      {
+       "de": "Mai,",
+       "ru": "май,"
+      },
+      {
+       "de": "ewiger",
+       "ru": "вечный"
+      },
+      {
+       "de": "Mai,",
+       "ru": "май,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Stunden",
+       "ru": "Часы"
+      },
+      {
+       "de": "entfliehn",
+       "ru": "улетают"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "goldenen",
+       "ru": "золотых"
+      },
+      {
+       "de": "Träumen,",
+       "ru": "грёзах,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "На бег часов, по Джонсону, положены каскады арпеджио; они же рисуют веющий майский ветер. Руки пианиста здесь перекрещиваются, и фактура похожа на фортепианный дуэт, сыгранный одним человеком."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Seele",
+       "ru": "Душа"
+      },
+      {
+       "de": "schwillt aus",
+       "ru": "ширится"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "unendlichen",
+       "ru": "бесконечных"
+      },
+      {
+       "de": "Räumen,",
+       "ru": "пространствах,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Schwillt aus — от ausschwellen, «набухать, разрастаться вширь»: душа растёт и заполняет собой бесконечные пространства."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wahrheit",
+       "ru": "Истина"
+      },
+      {
+       "de": "reisst",
+       "ru": "разрывает"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "den Schleier",
+       "ru": "покрывало"
+      },
+      {
+       "de": "entzwei,",
+       "ru": "надвое,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Schleier — покров, покрывало; русская «вуаль» увела бы образ к модному и свадебному убору. Словарь Гриммов даёт этому слову переносное значение и цитирует Шиллера же: was ists, das hinter diesem schleier sich verbirgt? die wahrheit — «что скрывается за этим покрывалом? истина». Entzwei — «надвое, на две части»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wahrheit",
+       "ru": "Истина"
+      },
+      {
+       "de": "reisst",
+       "ru": "разрывает"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "den Schleier",
+       "ru": "покрывало"
+      },
+      {
+       "de": "entzwei.",
+       "ru": "надвое."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Jugendlich",
+       "ru": "По-юношески"
+      },
+      {
+       "de": "milde",
+       "ru": "кротко"
+      },
+      {
+       "de": "beschwebt",
+       "ru": "реет над"
+      },
+      {
+       "de": "die Gefilde,",
+       "ru": "полями,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ewiger",
+       "ru": "Вечный"
+      },
+      {
+       "de": "Mai,",
+       "ru": "май,"
+      },
+      {
+       "de": "ewiger",
+       "ru": "вечный"
+      },
+      {
+       "de": "Mai,",
+       "ru": "май,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ewiger,",
+       "ru": "Вечный,"
+      },
+      {
+       "de": "ewiger",
+       "ru": "вечный"
+      },
+      {
+       "de": "Mai.",
+       "ru": "май."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -44,6 +549,265 @@
     "Sanftes Entzücken nur heisset man Schmerz.",
     "Unendliche Freude durchwallet das Herz,",
     "Unendliche Freude durchwallet das Herz,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Unendliche",
+       "ru": "Бесконечная"
+      },
+      {
+       "de": "Freude",
+       "ru": "радость"
+      },
+      {
+       "de": "durchwallet",
+       "ru": "переполняет"
+      },
+      {
+       "de": "das Herz,",
+       "ru": "сердце,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Unendlich Гримм определяет как «противоположность конечному» и отмечает это слово как более полное и сильное, чем endlos. Durchwallen словари отдельной статьёй не описывают, значение складывается из частей: wallen — «кипеть, двигаться волнами, быть внутренне взволнованным», durch- — «сквозь, насквозь». Радость проходит сквозь сердце волной и переполняет его."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Unendliche",
+       "ru": "Бесконечная"
+      },
+      {
+       "de": "Freude",
+       "ru": "радость"
+      },
+      {
+       "de": "durchwallet",
+       "ru": "переполняет"
+      },
+      {
+       "de": "das Herz,",
+       "ru": "сердце,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Фортепианная фигурация здесь, по Джонсону, переработана почти пародийно из «Ganymed» («Ганимед») на стихи Гёте — песни, написанной полугодом раньше и кончающейся вознесением в Элизий."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Unendliche",
+       "ru": "Бесконечная"
+      },
+      {
+       "de": "Freude",
+       "ru": "радость"
+      },
+      {
+       "de": "durchwallet",
+       "ru": "переполняет"
+      },
+      {
+       "de": "das Herz.",
+       "ru": "сердце."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "mangelt",
+       "ru": "недостаёт"
+      },
+      {
+       "de": "der Name",
+       "ru": "имени"
+      },
+      {
+       "de": "dem trauernden",
+       "ru": "скорбящему"
+      },
+      {
+       "de": "Leide,",
+       "ru": "страданию,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Mangeln — безличный оборот es mangelt jemandem etwas, «кому-то недостаёт чего-то»; сегодня он книжный и устаревающий. У Шиллера имени недостаёт самому страданию: назвать его в Элизиуме нечем."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Страданию здесь недостаёт имени: совершенство описано через отсутствие несовершенств. Малколм Рен напоминает, что богословы-схоласты называли такой ход мысли via negativa."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "mangelt",
+       "ru": "недостаёт"
+      },
+      {
+       "de": "der Name",
+       "ru": "имени"
+      },
+      {
+       "de": "dem trauernden",
+       "ru": "скорбящему"
+      },
+      {
+       "de": "Leide,",
+       "ru": "страданию,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sanftes",
+       "ru": "Нежный"
+      },
+      {
+       "de": "Entzücken",
+       "ru": "восторг"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "heisset man",
+       "ru": "называют"
+      },
+      {
+       "de": "Schmerz.",
+       "ru": "болью."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Entzücken в эпоху куда сильнее нынешнего салонного entzückend («прелестно»). Слово выросло из значения «вырвать, похитить», у мистиков означало экстатическое восхищение души из тела, и ослаблять его до «удовольствия» нельзя. Heisset man — старая форма от heissen («называть») с неопределённо-личным man."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Эту строку Шуберт изменил. У Шиллера — heißet hier Schmerz, «называется здесь болью»; у Шуберта — heisset man, «называют», и прилагательное согласовано с Entzücken: Sanftes вместо Sanfter. Расхождение выверил по изданию 1805 года Петер Растль."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sanftes",
+       "ru": "Нежный"
+      },
+      {
+       "de": "Entzücken",
+       "ru": "восторг"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "heisset man",
+       "ru": "называют"
+      },
+      {
+       "de": "Schmerz.",
+       "ru": "болью."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Unendliche",
+       "ru": "Бесконечная"
+      },
+      {
+       "de": "Freude",
+       "ru": "радость"
+      },
+      {
+       "de": "durchwallet",
+       "ru": "переполняет"
+      },
+      {
+       "de": "das Herz,",
+       "ru": "сердце,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Unendliche",
+       "ru": "Бесконечная"
+      },
+      {
+       "de": "Freude",
+       "ru": "радость"
+      },
+      {
+       "de": "durchwallet",
+       "ru": "переполняет"
+      },
+      {
+       "de": "das Herz,",
+       "ru": "сердце,"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -54,6 +818,134 @@
     "Hier mangelt der Name dem trauernden Leide,",
     "Sanftes Entzücken nur heisset man Schmerz,",
     "Sanftes Entzücken nur heisset man Schmerz."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Unendliche",
+       "ru": "Бесконечная"
+      },
+      {
+       "de": "Freude",
+       "ru": "радость"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Durchwallet",
+       "ru": "Переполняет"
+      },
+      {
+       "de": "das Herz.",
+       "ru": "сердце."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "mangelt",
+       "ru": "недостаёт"
+      },
+      {
+       "de": "der Name",
+       "ru": "имени"
+      },
+      {
+       "de": "dem trauernden",
+       "ru": "скорбящему"
+      },
+      {
+       "de": "Leide,",
+       "ru": "страданию,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "mangelt",
+       "ru": "недостаёт"
+      },
+      {
+       "de": "der Name",
+       "ru": "имени"
+      },
+      {
+       "de": "dem trauernden",
+       "ru": "скорбящему"
+      },
+      {
+       "de": "Leide,",
+       "ru": "страданию,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sanftes",
+       "ru": "Нежный"
+      },
+      {
+       "de": "Entzücken",
+       "ru": "восторг"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "heisset man",
+       "ru": "называют"
+      },
+      {
+       "de": "Schmerz,",
+       "ru": "болью,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sanftes",
+       "ru": "Нежный"
+      },
+      {
+       "de": "Entzücken",
+       "ru": "восторг"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "heisset man",
+       "ru": "называют"
+      },
+      {
+       "de": "Schmerz.",
+       "ru": "болью."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -66,6 +958,242 @@
     "Eingesungen von Harfengezitter,",
     "Träumt er geschnittene Halme zu sehn,",
     "Träumt er geschnittene Halme zu sehn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "strecket",
+       "ru": "простирает"
+      },
+      {
+       "de": "der wallende",
+       "ru": "странствующий"
+      },
+      {
+       "de": "Pilger",
+       "ru": "пилигрим"
+      },
+      {
+       "de": "die matten,",
+       "ru": "усталые,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "С этой строки, по Джонсону, в аккомпанементе идут составные триоли, как во второй части «Пасторальной» симфонии Бетховена, «Сцене у ручья»; усталого странника провожает дорожная музыка в терциях и секстах на манер валторн."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Pilger у Гримма — идущий к дальнему святому месту, а затем и просто странник в чужой земле. Wallend здесь от wallen в значении «странствовать, брести»; то же wallen, но о знамени — «веять, развеваться» — встретится дальше в строфе о воине."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Brennenden",
+       "ru": "Горящие"
+      },
+      {
+       "de": "Glieder",
+       "ru": "члены"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "säuselnden",
+       "ru": "шелестящей"
+      },
+      {
+       "de": "Schatten,",
+       "ru": "тени,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Säuseln — шелестеть, шептать: так звучат листва и ветер. Schatten у Гриммов не только тёмный след тела, но и сень, прохлада, «недостаток света» — то, ради чего в зной ложатся под дерево."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "die Bürde",
+       "ru": "Бремя"
+      },
+      {
+       "de": "auf ewig",
+       "ru": "навеки"
+      },
+      {
+       "de": "Leget... dahin,",
+       "ru": "слагает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Leget… dahin — разорванная глагольная рамка dahinlegen, «сложить, положить наземь»; по-русски она собирается в одно слово, и строка начинается с дополнения. Bürde — «ноша, поклажа» (у Гримма onus, sarcina), в переносном смысле душевная тяжесть."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "die Bürde",
+       "ru": "Бремя"
+      },
+      {
+       "de": "auf ewig",
+       "ru": "навеки"
+      },
+      {
+       "de": "Leget... dahin.",
+       "ru": "слагает."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Seine",
+       "ru": "Его"
+      },
+      {
+       "de": "Sichel",
+       "ru": "серп"
+      },
+      {
+       "de": "entfällt",
+       "ru": "выпадает"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "dem Schnitter,",
+       "ru": "из рук у жнеца,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Entfallen словарь DWDS толкует оборотом etwas entfällt jemandem — «что-то выпадает у кого-то из рук». Жнец стоит в немецком дательном падеже, по-русски естественнее «из рук у жнеца»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Eingesungen",
+       "ru": "Убаюканный"
+      },
+      {
+       "de": "von Harfengezitter,",
+       "ru": "трепетом арф,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Einsingen Гримм толкует как cantibus sopire — «убаюкать пением» — и приводит строку Гёте: ihr habt ihn treulich eingesungen («вы верно его убаюкали»). Harfengezitter — сложение из Harfe («арфа») и Gezitter, собирательного от zittern («дрожать»), по образцу Gezwitscher («щебет»): дрожь, трепет арф. Немецкое von при этом передаётся русским творительным падежом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Träumt",
+       "ru": "Снится"
+      },
+      {
+       "de": "er",
+       "ru": "ему,"
+      },
+      {
+       "de": "zu sehn,",
+       "ru": "будто видит"
+      },
+      {
+       "de": "geschnittene",
+       "ru": "скошенные"
+      },
+      {
+       "de": "Halme",
+       "ru": "колосья,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Träumt er… zu sehn — оборот с инфинитивом, по-русски он разворачивается в придаточное: «ему снится, будто он видит». Halm по DWDS — тонкий гибкий стебель злаков и трав; жнецу и в Элизиуме снятся скошенные колосья."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Träumt",
+       "ru": "Снится"
+      },
+      {
+       "de": "er",
+       "ru": "ему,"
+      },
+      {
+       "de": "zu sehn.",
+       "ru": "будто видит"
+      },
+      {
+       "de": "geschnittene",
+       "ru": "скошенные"
+      },
+      {
+       "de": "Halme",
+       "ru": "колосья."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -76,6 +1204,223 @@
     "Schläft hier linde bei des Baches Rieseln,",
     "Der wie Silber spielet über Kieseln,",
     "Ihm verhallet wilder Speere Klang."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Тот,"
+      },
+      {
+       "de": "Dessen",
+       "ru": "чьё"
+      },
+      {
+       "de": "Fahne",
+       "ru": "знамя"
+      },
+      {
+       "de": "wallte,",
+       "ru": "веяло"
+      },
+      {
+       "de": "Donnerstürme",
+       "ru": "сквозь грозовые бури,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Dessen — родительный падеж указательно-относительного местоимения, «чей». Тот, о ком речь, в стихах не назван: словарь Гриммов, цитируя эту самую строку, подставляет в скобках der krieger — «воин». По-русски пришлось добавить «тот»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Wallen о знамени — «веять, развеваться». Donnerstürme — сложение из Donner («гром») и Sturm («буря»); словари его не описывают, но части прозрачны: грозовые бури, сквозь которые веяло знамя, — это бури сражения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dessen",
+       "ru": "Чьи"
+      },
+      {
+       "de": "Ohren",
+       "ru": "уши"
+      },
+      {
+       "de": "umhallte,",
+       "ru": "оглашал"
+      },
+      {
+       "de": "Mordgebrüll",
+       "ru": "рёв побоища,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Здесь, по Джонсону, батальная музыка: трижды повторённый аккордовый мотив отказывается модулировать, а хроматическая гамма восходящих октав под долгой высокой нотой голоса добивается леденящего впечатления самыми избитыми средствами."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Mordgebrüll словарь Гриммов толкует коротко — gebrüll beim morden, «рёв во время убийства», — и единственным примером приводит эту строку Шиллера. Umhallen сложено из um- («вокруг») и hallen («гудеть, раздаваться»): оглашать со всех сторон."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "unter",
+       "ru": "Под"
+      },
+      {
+       "de": "dessen",
+       "ru": "чьей"
+      },
+      {
+       "de": "Donnergang,",
+       "ru": "громовой поступью"
+      },
+      {
+       "de": "bebten",
+       "ru": "дрожали"
+      },
+      {
+       "de": "Berge",
+       "ru": "горы,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Donnergang — «громовая поступь»; словарь Гриммов приводит это слово как переносное и цитирует именно нашу строку. Русский относительный оборот начинается с «под чьей»: в немецком порядке — «горы дрожали под чьей поступью» — фраза по-русски рассыпается."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schläft",
+       "ru": "Спит"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "linde",
+       "ru": "тихо"
+      },
+      {
+       "de": "bei",
+       "ru": "под"
+      },
+      {
+       "de": "Rieseln,",
+       "ru": "журчанье"
+      },
+      {
+       "de": "des Baches",
+       "ru": "ручья,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Linde здесь наречие от lind («мягкий, нежный»), а не существительное die Linde («липа»): воин спит тихо и мягко. Различает эти слова только строение фразы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Который,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "Silber",
+       "ru": "серебро,"
+      },
+      {
+       "de": "spielet",
+       "ru": "играет"
+      },
+      {
+       "de": "über",
+       "ru": "по"
+      },
+      {
+       "de": "Kieseln,",
+       "ru": "камешкам,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihm",
+       "ru": "Для него"
+      },
+      {
+       "de": "verhallet",
+       "ru": "замирает"
+      },
+      {
+       "de": "Klang.",
+       "ru": "звон"
+      },
+      {
+       "de": "wilder",
+       "ru": "диких"
+      },
+      {
+       "de": "Speere",
+       "ru": "копий."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Verhallen у Гриммов — «теряться, отзвучивая», замирать. Немецкое ihm («ему») по-русски передано как «для него»: звон копий замирает именно для спящего."
+      }
+     ]
+    }
    ]
   },
   {
@@ -86,6 +1431,162 @@
     "Schläft hier linde bei des Baches Rieseln,",
     "Der wie Silber spielet über Kieseln,",
     "Ihm verhallet wilder Speere Klang."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Тот,"
+      },
+      {
+       "de": "Dessen",
+       "ru": "чьё"
+      },
+      {
+       "de": "Fahne",
+       "ru": "знамя"
+      },
+      {
+       "de": "wallte,",
+       "ru": "веяло"
+      },
+      {
+       "de": "Donnerstürme",
+       "ru": "сквозь грозовые бури,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Dessen",
+       "ru": "Чьи"
+      },
+      {
+       "de": "Ohren",
+       "ru": "уши"
+      },
+      {
+       "de": "umhallte,",
+       "ru": "оглашал"
+      },
+      {
+       "de": "Mordgebrüll",
+       "ru": "рёв побоища,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "unter",
+       "ru": "Под"
+      },
+      {
+       "de": "dessen",
+       "ru": "чьей"
+      },
+      {
+       "de": "Donnergang,",
+       "ru": "громовой поступью"
+      },
+      {
+       "de": "bebten",
+       "ru": "дрожали"
+      },
+      {
+       "de": "Berge",
+       "ru": "горы,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schläft",
+       "ru": "Спит"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "linde",
+       "ru": "тихо"
+      },
+      {
+       "de": "bei",
+       "ru": "под"
+      },
+      {
+       "de": "Rieseln,",
+       "ru": "журчанье"
+      },
+      {
+       "de": "des Baches",
+       "ru": "ручья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Который,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "Silber",
+       "ru": "серебро,"
+      },
+      {
+       "de": "spielet",
+       "ru": "играет"
+      },
+      {
+       "de": "über",
+       "ru": "по"
+      },
+      {
+       "de": "Kieseln,",
+       "ru": "камешкам,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihm",
+       "ru": "Для него"
+      },
+      {
+       "de": "verhallet",
+       "ru": "замирает"
+      },
+      {
+       "de": "Klang.",
+       "ru": "звон"
+      },
+      {
+       "de": "wilder",
+       "ru": "диких"
+      },
+      {
+       "de": "Speere",
+       "ru": "копий."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -105,8 +1606,443 @@
     "Feiert sie ein ewig Hochzeitfest,",
     "Feiert sie ein ewig Hochzeitfest,",
     "Ein ewig Hochzeitfest."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "umarmen sich",
+       "ru": "обнимаются"
+      },
+      {
+       "de": "getreue",
+       "ru": "верные"
+      },
+      {
+       "de": "Gatten,",
+       "ru": "супруги,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Gatte у Гримма поначалу «товарищ, ровня, спутник» (socius, consors), и лишь к XVIII веку слово сузилось до «супруг». Getreu — верный, преданный."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Küssen sich",
+       "ru": "Целуются"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "grünen,",
+       "ru": "зелёных,"
+      },
+      {
+       "de": "sammtnen",
+       "ru": "бархатных"
+      },
+      {
+       "de": "Matten,",
+       "ru": "лугах,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Sammtnen — старое написание samtnen, от Samt («бархат»): трава мягка, как ткань. Matte — горный луг, лужайка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Liebgekost",
+       "ru": "Обласканные"
+      },
+      {
+       "de": "vom Balsamwest,",
+       "ru": "бальзамическим зефиром,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Balsamwest — редкое сложение самого Шиллера, в словарях его нет: Balsam («бальзам», ароматная целебная смола) и der West (поэтическое имя западного ветра, зефира). Ветер, который ласкает влюблённых, благоуханен и целителен."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Liebgekost",
+       "ru": "Обласканные"
+      },
+      {
+       "de": "vom Balsamwest.",
+       "ru": "бальзамическим зефиром."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Свой"
+      },
+      {
+       "de": "Krone",
+       "ru": "венец"
+      },
+      {
+       "de": "findet",
+       "ru": "находит"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "die Liebe,",
+       "ru": "любовь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Krone здесь стоит в переносном значении, которое отмечает DWDS: высшая награда, вершина, без королевской короны на голове. Любовь в Элизиуме находит свой венец."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Свой"
+      },
+      {
+       "de": "Krone",
+       "ru": "венец"
+      },
+      {
+       "de": "findet",
+       "ru": "находит"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "die Liebe,",
+       "ru": "любовь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sicher",
+       "ru": "Ограждённая"
+      },
+      {
+       "de": "vor",
+       "ru": "от"
+      },
+      {
+       "de": "strengem",
+       "ru": "сурового"
+      },
+      {
+       "de": "Hiebe,",
+       "ru": "удара"
+      },
+      {
+       "de": "des Todes",
+       "ru": "смерти,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Hieb — удар, чаще всего удар оружия. Der Tod по-немецки мужского рода, и в поэзии эпохи смерть — фигура мужская: жених, друг, косарь. Русская «смерть» женского рода, поэтому персонификация в переводе неизбежно меняет облик."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Feiert",
+       "ru": "Празднует"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "ein ewig",
+       "ru": "вечный"
+      },
+      {
+       "de": "Hochzeitfest.",
+       "ru": "свадебный пир."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Ein ewig Hochzeitfest — прилагательное стоит без окончания, это поэтическая вольность эпохи. Hochzeitfest — «свадебный пир»; словарь Гриммов приводит на это слово строку из шиллеровской «Ифигении» о том, как небожители справляли свадебный пир Фетиды."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Свой"
+      },
+      {
+       "de": "Krone",
+       "ru": "венец"
+      },
+      {
+       "de": "findet",
+       "ru": "находит"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "die Liebe,",
+       "ru": "любовь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Свой"
+      },
+      {
+       "de": "Krone",
+       "ru": "венец"
+      },
+      {
+       "de": "findet",
+       "ru": "находит"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "die Liebe,",
+       "ru": "любовь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sicher",
+       "ru": "Ограждённая"
+      },
+      {
+       "de": "vor",
+       "ru": "от"
+      },
+      {
+       "de": "strengem",
+       "ru": "сурового"
+      },
+      {
+       "de": "Hiebe,",
+       "ru": "удара"
+      },
+      {
+       "de": "des Todes",
+       "ru": "смерти,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Угрозе смерти, по Джонсону, отвечает зловещий трёхтактовый мотив — её поступь; он уравновешивает торжественные фанфары финала."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Feiert",
+       "ru": "Празднует"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "ein ewig",
+       "ru": "вечный"
+      },
+      {
+       "de": "Hochzeitfest,",
+       "ru": "свадебный пир,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Feiert",
+       "ru": "Празднует"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "ein ewig",
+       "ru": "вечный"
+      },
+      {
+       "de": "Hochzeitfest,",
+       "ru": "свадебный пир,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Feiert",
+       "ru": "Празднует"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "ein ewig",
+       "ru": "вечный"
+      },
+      {
+       "de": "Hochzeitfest,",
+       "ru": "свадебный пир,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein ewig",
+       "ru": "Вечный"
+      },
+      {
+       "de": "Hochzeitfest.",
+       "ru": "свадебный пир."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "На слове ewig («вечный») певцу предписано держаться, по выражению Джонсона, бесконечно долго."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Friedrich Schiller"
+ "about": [
+  {
+   "title": "Сентябрь 1817 года",
+   "text": "Шуберт написал «Elysium» («Элизиум») в сентябре 1817 года, двадцати лет от роду.\nШиллеровский текст он знал с ученических лет. В 1813 году, шестнадцатилетним, он уже перекладывал эту кантату на музыку по частям — как упражнения для своего учителя Антонио Сальери: короткие трио для трёх мужских голосов без сопровождения, пять строф из шести, одна из них дважды. 15 апреля 1813 года он взял третью строфу (D 51), 18 апреля первую (D 53), 19 апреля вернулся к третьей и написал на неё канон (D 54), 29 апреля положил на музыку четвёртую (D 57), в мае пятую (D 58), 3 октября шестую (D 60). Нетронутой осталась одна строфа, вторая, «Jugendlich milde» («По-юношески кротко»): в песне 1817 года она зазвучала впервые.\nГрэм Джонсон, пианист и автор комментариев к антологии Hyperion Schubert Edition, ставит «Elysium» рядом с двумя другими мифологическими вещами тех же месяцев — «Gruppe aus dem Tartarus» («Группа из Тартара») на стихи Шиллера, которые Шуберт тоже знал давно, и «Atys» («Атис») на стихи Майрхофера."
+  },
+  {
+   "title": "Публикация",
+   "text": "При жизни Шуберта песня не печаталась. Первое издание вышло 10 июля 1830 года, почти через тринадцать лет после сочинения и уже после смерти композитора. Выпустил его венский дом A. Diabelli & Co. шестым номером посмертной серии «Nachlass» («Наследие»), издательский номер 3636. На титульном листе стояло: «Elysium. Gedicht von Fr. von Schiller. In Musik gesetzt für eine Singstimme mit Pianoforte Begleitung von Franz Schubert» («Элизиум. Стихотворение Фр. фон Шиллера. Положено на музыку для голоса с фортепианным сопровождением Францем Шубертом»). О выходе объявила «Wiener Zeitung» («Венская газета») 10 июля 1830 года.\nВ больших собраниях песня стоит так: старое полное собрание сочинений печатает её в серии XX, том 5, под № 329; Новое собрание сочинений Шуберта отводит ей серию IV, том 11; в издании песен, подготовленном Фридлендером, это том 4, № 215. Оригинальная тональность — ми мажор."
+  },
+  {
+   "title": "Фридрих Шиллер",
+   "text": "Фридрих Шиллер — драматург, поэт и историк, вместе с Гёте определивший облик веймарской классики; для Шуберта он стал главным поэтом отрочества. Шиллер умер, когда будущему композитору не исполнилось и девяти лет, так что познакомиться они не могли, — но именно на его стихах Шуберт-подросток учился писать песню и балладу. Между 1811 и 1817 годами, по каталогу Отто Эриха Дойча, он положил на музыку 66 шиллеровских текстов, а всего за жизнь взял около сорока стихотворений почти в восьми десятках редакций и набросков.\nМногое осталось черновиками пятнадцатилетнего мальчика, подражавшего своему кумиру Иоганну Рудольфу Цумштегу. Но среди тех же опытов есть «Gruppe aus dem Tartarus», «Der Taucher» («Ныряльщик») и «Der Pilgrim» («Пилигрим»), которые выдерживают сравнение со зрелыми шедеврами. Шиллер писал крупные, риторически выстроенные баллады и философскую лирику — материал для драматической сцены с оркестровым размахом одного голоса и рояля; вкус к монологу, контрасту и превращению фортепианной партии в театр остался у Шуберта на всю жизнь."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Шиллер написал «Elysium» в 1780–1781 годах. Впервые стихи напечатаны в 1782 году, анонимно, в «Anthologie auf das Jahr 1782» («Антология на 1782 год»): Шиллер составил книгу сам и снабдил её вымышленными выходными данными — «Gedrukt in der Buchdrukerei zu Tobolsko» («Отпечатано в типографии города Тобольска»). На деле её выпустил в Штутгарте Иоганн Бенедикт Мецлер. Текст занял страницы 196–198, шёл с подзаголовком «Eine Cantate» («Кантата») и был подписан одной буквой «M.».\nПозже Шиллер стихотворение переработал и расширил. Эта редакция вошла во второй том его «Gedichte» («Стихотворения») — второе, исправленное и дополненное издание, Лейпциг, у Зигфрида Лебрехта Крузиуса, 1805 год, страницы 151–153.\nОдну строку Шуберт изменил. У Шиллера — «Sanfter Entzücken nur heißet hier Schmerz», у Шуберта — «Sanftes Entzücken nur heisset man Schmerz» («Нежный восторг лишь называют болью»): вместо hier («здесь») встало безличное man («называют»), и прилагательное согласовалось с Entzücken. Расхождение выверил по изданию 1805 года Петер Растль, сверявший тексты шубертовских песен с прижизненными публикациями поэтов."
+  },
+  {
+   "title": "Музыка",
+   "text": "Песня идёт цепочкой разделов, по разделу на строфу. Джонсон отмечает в ней сдвиги тональностей на большую терцию, каких у Шуберта, пожалуй, до тех пор не бывало.\nПервый раздел он слышит как путеводитель для новоприбывшего: хоральная мелодия на первые три строки, скачущий танец на четвёртую и пятую, водная музыка на последней. Потом интерлюдия оркестрового склада возвращает начальную тему.\nВторая строфа уходит в субдоминанту, резко и красиво. Её Шуберт прежде никогда не перекладывал, и здесь, по Джонсону, самые самостоятельные фортепианные находки песни: каскады арпеджио рисуют веющий майский ветер и бег часов, руки перекрещиваются, фактура похожа на фортепианный дуэт, сыгранный одним пианистом.\n«Unendliche Freude» («Бесконечная радость») — снова танец, и ещё танец: этот раздел Джонсон называет марафоном и оргией танца, где одна и та же мысль повторяется в разных тональностях. Первую тему подсказал «Ganymed» («Ганимед») на стихи Гёте, написанный полугодом раньше и кончающийся вознесением в Элизий, — фортепианная фигурация оттуда переработана здесь почти пародийно."
+  },
+  {
+   "title": "Музыка: странник, воин и влюблённые",
+   "text": "В строфе о пилигриме и жнеце, по Джонсону, идут составные триоли из второй части «Пасторальной» симфонии Бетховена, «Сцены у ручья». Уставших странников рисует традиционная дорожная музыка в терциях и секстах на манер валторн, в той же тональности, с какой начинается бетховенская соната «Les Adieux» («Прощание»). В маленьком жатвенном гимне гемиолы аккомпанемента изображают дрожание арф.\nСтрофа о воине — батальная музыка. Трижды повторённый аккордовый мотив звучит с бетховенской уверенностью и отказывается модулировать, а хроматическая гамма восходящих октав под долгой высокой нотой голоса добивается леденящего впечатления самыми избитыми средствами. Раздел выстроен как маленькая соната, реприза возвращает тональность начальных фанфар: старомодный подход к форме, для сквозных шубертовских баллад необычный, но к классическому сюжету идущий.\nПоследние три строки Джонсон считает самой чувственной и глубоко прочувствованной музыкой песни: переплетающиеся терции и сексты то плавно текут восьмыми, то замирают в рапсодических триолях. Фанфары уравновешены зловещим трёхтактовым мотивом поступи и угрозы смерти, а певцу предписано держаться на слове ewig («вечный») бесконечно долго. Последние шесть тактов послесловия выстукивают обращения тонического аккорда, и тоника эта уже новая, не тот ми мажор, с которого песня началась."
+  },
+  {
+   "title": "Элизий Гомера и Вергилия",
+   "text": "Малколм Рен, автор комментариев к песням Шуберта на schubertsong.uk, напоминает: Шиллеру-классицисту был отлично знаком рассказ о жизни на Елисейских полях из четвёртой книги гомеровской «Одиссеи», но стихи явственнее отсылают к шестой книге «Энеиды» Вергилия, где Эней встречает в Элизии отца Анхиса. И само слово Шиллер берёт латинское — существительное Elysium («Элизиум»), а не греческое прилагательное.\nПри этом рай Шиллера, по наблюдению Рена, почти ничем не обязан христианской традиции и, возможно, вовсе не изображает загробную жизнь. Скорее это мечта о довольстве: недостижимый конец пути, утолённая жажда, взаимная любовь. Богословы-схоласты называли такой ход мысли via negativa — совершенство описывается через отсутствие несовершенств. В песне так и есть: жалоба миновала, страданию недостаёт имени, звон копий замирает."
+  },
+  {
+   "title": "Шуберт, Шиллер и Бетховен",
+   "text": "Джонсон пишет, что поэзия Шиллера, за немногими исключениями, сдерживала в Шуберте тот пласт интроспекции, который и есть самое шубертовское в его музыке; отсюда множество шиллеровских песен, где церемониальная драма или физическая избыточность возмещают недостаток глубокого философского впечатления. Он же приводит слова критика Ричарда Кэпелла: «Ад оказывался для всех художников от Данте и далее более управляемым сюжетом, чем рай». В «Gruppe aus dem Tartarus» Шуберт изобретателен и самостоятелен, а для радостей Элизиума ему понадобился образец.\nОбразцом стал Бетховен. Джонсону «Elysium» напоминает бетховенскую «Пасторальную» симфонию — тоже своего рода небесные поля для смертных жителей Вены; череда буколических танцев, для Шуберта необычная, кажется ему одной из самых привлекательных черт этой шиллеровской кантаты. Долг перед старшим композитором Джонсон определяет как нечто среднее между безотчётным подражанием и любящей, порой чуть насмешливой пародией."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "От сентября 1817-го до первого издания прошло почти тринадцать лет: песню напечатали, когда Шуберта уже не было в живых. За ней стоят ученические трио 1813 года на тот же текст: по ним видно, как композитор через четыре года возвращается к одному стихотворению и собирает разрозненные упражнения в одно большое целое.\nВ мае 1824 года впервые прозвучала Девятая симфония Бетховена. Как замечает Джонсон, она одним ударом принесла Бетховену как шиллеровскому композитору больше славы, чем досталось Шуберту за всю жизнь; Бетховен был публичным композитором в том же смысле, в каком Шиллер был публичным поэтом, и его влияние на молодых было так велико, что присутствие Бетховена в замысле «Elysium» не удивляет."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Фишер-Дискау записал «Elysium» с Джеральдом Муром в 1969 году — для свода Deutsche Grammophon «Sämtliche Lieder» («Все песни»), над которым певец и пианист работали с 1966 по 1972 год.\nБригитте Фассбендер и Грэм Джонсон записали песню в июне 1990 года для одиннадцатого тома антологии Hyperion Schubert Edition — «Schubert & Death» («Шуберт и смерть»); диск вышел в мае 1991-го. Рядом с «Elysium» там стоит «Vollendung» («Завершение», D 579a).\nКэрролин Сэмпсон и Джозеф Миддлтон в 2021 году сделали «Elysium» заглавной песней своей программы на BIS — «Elysium — A Schubert Recital» («Элизиум. Шубертовский концерт»).\nРоман Брунс и Ульрих Айзенлор записали песню в 2001 году для шестого тома серии Naxos «Deutsche Schubert-Lied-Edition» («Немецкое издание песен Шуберта»), целиком отданного Шиллеру."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
