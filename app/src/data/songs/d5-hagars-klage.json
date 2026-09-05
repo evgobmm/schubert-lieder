@@ -1,15 +1,210 @@
 {
  "d": "5",
  "title_de": "Hagars Klage",
+ "title_ru": "Жалоба Агари",
+ "poet_de": "Klemens August Schuecking",
+ "poet_ru": "Клеменс Август Шюккинг",
  "year": "1811",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Klage — «жалоба, плач». Так называется и стихотворение Шюккинга, и баллада Иоганна Рудольфа Цумштега, с нот которой Шуберт писал свою: у Цумштега она называется «Hagars Klage in der Wüste Bersaba» («Жалоба Агари в пустыне Вирсавии»)."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
     "Hier am Hügel heissen Sandes sitz ich, und mir gegenüber liegt mein sterbend Kind,",
     "Lechzt nach einem Tropfen Wasser, lechzt und ringt schon mit dem Tode,",
     "Weint und blickt mit stieren Augen mich, bedrängte Mutter, an:"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "Hügel",
+       "ru": "холма"
+      },
+      {
+       "de": "heissen",
+       "ru": "горячего"
+      },
+      {
+       "de": "Sandes",
+       "ru": "песка"
+      },
+      {
+       "de": "sitz",
+       "ru": "сижу"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "gegenüber",
+       "ru": "напротив"
+      },
+      {
+       "de": "mir",
+       "ru": "меня"
+      },
+      {
+       "de": "liegt",
+       "ru": "лежит"
+      },
+      {
+       "de": "mein",
+       "ru": "моё"
+      },
+      {
+       "de": "sterbend",
+       "ru": "умирающее"
+      },
+      {
+       "de": "Kind",
+       "ru": "дитя,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "У Шюккинга первая строфа четырёхстрочная: за строкой «Hier am Hügel heissen Sandes» шла ещё одна — «In der menschenlosen Wüste» («в безлюдной пустыне»). Шуберт, вслед за Цумштегом, её пропустил, и строфа стала трёхстрочной. Грэм Джонсон допускает и то, что строка ему не понравилась, и то, что она выпала по недосмотру."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "heissen Sandes — родительный падеж качества при существительном: «холм горячего песка». В стихах эпохи такой родительный охотно ставили после определяемого слова, по-русски он идёт там же."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Lechzt",
+       "ru": "Томится"
+      },
+      {
+       "de": "nach",
+       "ru": "по"
+      },
+      {
+       "de": "einem Tropfen",
+       "ru": "капле"
+      },
+      {
+       "de": "Wasser",
+       "ru": "воды,"
+      },
+      {
+       "de": "lechzt",
+       "ru": "томится"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "schon",
+       "ru": "уже"
+      },
+      {
+       "de": "ringt",
+       "ru": "борется"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "dem Tode",
+       "ru": "смертью,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "lechzen — «пересыхать от жажды, изнывать по глотку воды»: словарь Гриммов связывает слово с коротким горячим дыханием пересохшего горла. Русское «томиться по» вмещает и жажду, и тоску; «изнывать от жажды» сюда не встало бы, потому что немецкий глагол требует дополнения с nach («по чему»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        7,
+        9
+       ],
+       "text": "Джонсон отмечает, как здесь написан голос: на словах sterbend Kind («умирающее дитя») мелодия спускается к самому низу голосового диапазона, а на schon mit dem Tode («уже со смертью») взбирается к фортиссимному воплю."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Weint",
+       "ru": "Плачет"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "blickt… an",
+       "ru": "смотрит"
+      },
+      {
+       "de": "mit stieren",
+       "ru": "застывшими"
+      },
+      {
+       "de": "Augen",
+       "ru": "глазами"
+      },
+      {
+       "de": "mich",
+       "ru": "на меня,"
+      },
+      {
+       "de": "bedrängte",
+       "ru": "измученную"
+      },
+      {
+       "de": "Mutter",
+       "ru": "мать:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "blickt… an — глагольная рамка: приставка an- уходит в конец строки, а вместе с глаголом даёт «смотрит на». Оборот mit stieren Augen («застывшими глазами») по-русски обходится без предлога, одним творительным падежом."
+      }
+     ]
+    }
    ]
   },
   {
@@ -17,6 +212,165 @@
     "Du musst sterben, du musst sterben, armes Würmchen!",
     "Ach, nicht eine Träne hab ich in den trocknen Augen,",
     "Wo ich dich mit stillen kann, wo ich dich mit stillen kann."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Du",
+       "ru": "Ты"
+      },
+      {
+       "de": "musst",
+       "ru": "должен"
+      },
+      {
+       "de": "sterben",
+       "ru": "умереть,"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "musst",
+       "ru": "должен"
+      },
+      {
+       "de": "sterben",
+       "ru": "умереть,"
+      },
+      {
+       "de": "armes",
+       "ru": "бедная"
+      },
+      {
+       "de": "Würmchen",
+       "ru": "крошка!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Здесь Шуберт расходится с Цумштегом, у которого на этих словах звучит просто патетическая нота. Джонсон пишет, что четырнадцатилетний автор отвечает на эту фразу «возбуждённым ядом», словно сам в ярости от несправедливости происходящего, и повторяет слова на нисходящей гармонической последовательности."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "Würmchen — уменьшительное от Wurm («червяк»); словарь Гриммов отмечает, что так говорят о беспомощном существе, и в немецком это ласково-жалостливое обращение к ребёнку. Буквальный «бедный червячок» по-русски прозвучал бы уничижительно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ach",
+       "ru": "Ах,"
+      },
+      {
+       "de": "nicht",
+       "ru": "ни"
+      },
+      {
+       "de": "eine",
+       "ru": "одной"
+      },
+      {
+       "de": "Träne",
+       "ru": "слезы"
+      },
+      {
+       "de": "hab",
+       "ru": "нет"
+      },
+      {
+       "de": "ich",
+       "ru": "у меня"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den trocknen",
+       "ru": "сухих"
+      },
+      {
+       "de": "Augen",
+       "ru": "глазах,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "wo… mit",
+       "ru": "Чем"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "stillen",
+       "ru": "унять,"
+      },
+      {
+       "de": "wo… mit",
+       "ru": "чем"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "stillen",
+       "ru": "унять."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "wo… mit — старое разделённое womit («чем»): предлог отходит от вопросительного слова в конец предложения. Сегодня так уже не пишут."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Глагол stillen значит разом «утолить жажду» и «унять, утешить». Разбор на schubertsong.uk замечает: Агарь суха, как пустыня вокруг, и ей нечем ни напоить ребёнка, ни утешить его."
+      }
+     ]
+    }
    ]
   },
   {
@@ -24,6 +378,182 @@
     "Ha! säh ich eine Löwenmutter, ich wollte mit ihr kämpfen um die Beute,",
     "Ich wollte kämpfen, ich wollte kämpfen um die Beute, ich wollte kämpfen!",
     "Könnt ich aus dem dürren Sande nur ein Tröpfchen Wasser saugen!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ha",
+       "ru": "Ха!"
+      },
+      {
+       "de": "säh",
+       "ru": "Увидь"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "eine Löwenmutter",
+       "ru": "мать-львицу,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "wollte",
+       "ru": "хотела бы"
+      },
+      {
+       "de": "kämpfen",
+       "ru": "сражаться"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "ihr",
+       "ru": "ней"
+      },
+      {
+       "de": "um",
+       "ru": "за"
+      },
+      {
+       "de": "die Beute",
+       "ru": "добычу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Шуберт переставил строки Шюккинга так, чтобы первым словом Агари в этом эпизоде стало «Ha!». Джонсон называет этот драматический возглас невольно комичным."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Джонсон описывает сцену как прыжок и хватку зверя: взбегающие вверх шестнадцатые — прыжок львицы, а следом форте-октавы, скатывающиеся вниз по клавиатуре, — бросок и удар."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "wollte",
+       "ru": "хотела бы"
+      },
+      {
+       "de": "kämpfen",
+       "ru": "сражаться,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "wollte",
+       "ru": "хотела бы"
+      },
+      {
+       "de": "kämpfen",
+       "ru": "сражаться"
+      },
+      {
+       "de": "um",
+       "ru": "за"
+      },
+      {
+       "de": "die Beute",
+       "ru": "добычу,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "wollte",
+       "ru": "хотела бы"
+      },
+      {
+       "de": "kämpfen",
+       "ru": "сражаться!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "В издании 1781 года следом за строками о львице стоит ещё одна: «Dass ich löschte deinem Durst» («чтобы утолить твою жажду») — она объясняла, ради чего Агарь дралась бы со зверем. Шуберт её опустил; по догадке Джонсона, строка тормозила действие."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Könnt",
+       "ru": "Могла бы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "saugen",
+       "ru": "высосать"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem dürren",
+       "ru": "иссохшего"
+      },
+      {
+       "de": "Sande",
+       "ru": "песка"
+      },
+      {
+       "de": "nur",
+       "ru": "хоть"
+      },
+      {
+       "de": "ein Tröpfchen",
+       "ru": "капельку"
+      },
+      {
+       "de": "Wasser",
+       "ru": "воды!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Könnt ich… — условие-желание без союза: по-немецки его вводит одна перестановка слов, без wenn («если»). Так же построено säh ich двумя строками выше («увидь я»). По-русски глагол приходится поставить сразу за подлежащим, иначе фраза не складывается."
+      }
+     ]
+    }
    ]
   },
   {
@@ -31,6 +561,156 @@
     "Ach, ach, ach, ich muss dich sterben sehn, ich muss dich sterben sehn.",
     "Kaum ein schwacher Strahl des Lebens dämmert auf der bleichen Wange,",
     "Dämmert in den matten Augen, deine Brust erhebt sich kaum."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ach",
+       "ru": "Ах,"
+      },
+      {
+       "de": "ach",
+       "ru": "ах,"
+      },
+      {
+       "de": "ach",
+       "ru": "ах,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "muss",
+       "ru": "должна"
+      },
+      {
+       "de": "sehn",
+       "ru": "видеть, как"
+      },
+      {
+       "de": "dich",
+       "ru": "ты"
+      },
+      {
+       "de": "sterben",
+       "ru": "умираешь,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "muss",
+       "ru": "должна"
+      },
+      {
+       "de": "sehn",
+       "ru": "видеть, как"
+      },
+      {
+       "de": "dich",
+       "ru": "ты"
+      },
+      {
+       "de": "sterben",
+       "ru": "умираешь."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "dich sterben sehn — винительный с инфинитивом, буквально «видеть тебя умирающим». По-русски такой оборот разворачивается в придаточное: «видеть, как ты умираешь»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        11,
+        12
+       ],
+       "text": "В Книге Бытия жалоба Агари сведена к одному вопросу — как ей видеть смерть отрока (Быт. 21:14–16). Из этого вопроса Шюккинг и вырастил весь монолог, разложив его на стадии материнского отчаяния."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kaum",
+       "ru": "Едва"
+      },
+      {
+       "de": "ein schwacher",
+       "ru": "слабый"
+      },
+      {
+       "de": "Strahl",
+       "ru": "луч"
+      },
+      {
+       "de": "des Lebens",
+       "ru": "жизни"
+      },
+      {
+       "de": "dämmert",
+       "ru": "брезжит"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "der bleichen",
+       "ru": "бледной"
+      },
+      {
+       "de": "Wange",
+       "ru": "щеке,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Dämmert",
+       "ru": "Брезжит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den matten",
+       "ru": "усталых"
+      },
+      {
+       "de": "Augen",
+       "ru": "глазах,"
+      },
+      {
+       "de": "deine",
+       "ru": "твоя"
+      },
+      {
+       "de": "Brust",
+       "ru": "грудь"
+      },
+      {
+       "de": "kaum",
+       "ru": "едва"
+      },
+      {
+       "de": "erhebt sich",
+       "ru": "вздымается."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -38,6 +718,158 @@
     "Hier am Busen komm und welke, komm und welke!",
     "Kömmt ein Mensch dann durch die Wüste, so wird er in den Sand uns scharren",
     "Und sagen: das ist Weib und Kind —"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Сюда,"
+      },
+      {
+       "de": "am",
+       "ru": "к"
+      },
+      {
+       "de": "Busen",
+       "ru": "груди,"
+      },
+      {
+       "de": "komm",
+       "ru": "приди"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "welke",
+       "ru": "увядай,"
+      },
+      {
+       "de": "komm",
+       "ru": "приди"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "welke",
+       "ru": "увядай!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Busen около 1800 года — грудь как вместилище чувств, дом сердца; нынешнее значение «женский бюст» тут ни при чём. Hier am Busen буквально «здесь, у груди», но при глаголе «приди» по-русски выходит «сюда, к груди»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kömmt",
+       "ru": "Придёт"
+      },
+      {
+       "de": "dann",
+       "ru": "потом"
+      },
+      {
+       "de": "ein Mensch",
+       "ru": "человек"
+      },
+      {
+       "de": "durch",
+       "ru": "через"
+      },
+      {
+       "de": "die Wüste",
+       "ru": "пустыню,"
+      },
+      {
+       "de": "so",
+       "ru": "тогда"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "wird… scharren",
+       "ru": "зароет"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den Sand",
+       "ru": "песок"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        7,
+        7
+       ],
+       "text": "scharren — «разгребать, зарывать скребя»: так роют землю звери. Погребения здесь нет: тела наскоро забросают песком. Kömmt в начале строки — старая форма нынешнего kommt («придёт»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sagen",
+       "ru": "скажет:"
+      },
+      {
+       "de": "das",
+       "ru": "это"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "Weib",
+       "ru": "женщина"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Kind",
+       "ru": "дитя —"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Weib около 1800 года — слово нейтральное и полновесное, «женщина, жена»; пренебрежительный оттенок («баба») оно получило позже. Инфинитив sagen подхватывает начатое строкой выше wird: «он зароет… и скажет»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -45,6 +877,157 @@
     "Geschwind! Ich will mich von dir wenden, dass ich dich nicht sterben seh,",
     "Dass ich dich nicht sterben seh, nicht sterben seh,",
     "Und im Taumel der Verzweiflung murre wider Gott."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Geschwind",
+       "ru": "Скорей!"
+      },
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "mich… wenden",
+       "ru": "отвернуться"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "dir",
+       "ru": "тебя,"
+      },
+      {
+       "de": "dass",
+       "ru": "чтобы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "seh",
+       "ru": "видела, как"
+      },
+      {
+       "de": "dich",
+       "ru": "ты"
+      },
+      {
+       "de": "sterben",
+       "ru": "умираешь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Двумя строками раньше Агарь звала ребёнка к груди, теперь торопится уйти. Разбор на schubertsong.uk отмечает, что связной последовательности в тексте нет: Агарь то хочет прижать умирающего Измаила к себе, то стремится не видеть его смерти, и говорит попеременно то с сыном, то с его отцом, то прямо с Богом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "seh",
+       "ru": "видела, как"
+      },
+      {
+       "de": "dich",
+       "ru": "ты"
+      },
+      {
+       "de": "sterben",
+       "ru": "умираешь,"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "seh",
+       "ru": "видела, как"
+      },
+      {
+       "de": "sterben",
+       "ru": "умираешь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Taumel",
+       "ru": "помрачении"
+      },
+      {
+       "de": "der Verzweiflung",
+       "ru": "отчаяния"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "murre",
+       "ru": "роптала"
+      },
+      {
+       "de": "wider",
+       "ru": "на"
+      },
+      {
+       "de": "Gott",
+       "ru": "Бога."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        7
+       ],
+       "text": "Отрицание nicht из предыдущей строки распространяется и на этот глагол: «чтобы я не видела… и не роптала». Русское «не» приходится поставить здесь заново. Taumel — головокружение, дурманящее кружение; тут это помрачение, в котором человек ропщет на Бога. Wider значит «против», но по-русски ропщут «на» кого-то: murren wider Gott — устойчивая формула лютеровской Библии."
+      }
+     ]
+    }
    ]
   },
   {
@@ -52,6 +1035,148 @@
     "Ferne, ferne von dir will ich gehen, ferne, ferne von dir will ich gehn, will ich gehen,",
     "Und ein rührend Klaglied singen,",
     "Dass du noch im Todeskampfe Tröstung einer Stimme hörst."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ferne",
+       "ru": "Далеко,"
+      },
+      {
+       "de": "ferne",
+       "ru": "далеко"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "dir",
+       "ru": "тебя"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "gehen",
+       "ru": "уйти,"
+      },
+      {
+       "de": "ferne",
+       "ru": "далеко,"
+      },
+      {
+       "de": "ferne",
+       "ru": "далеко"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "dir",
+       "ru": "тебя"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "gehn",
+       "ru": "уйти,"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "gehen",
+       "ru": "уйти,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "singen",
+       "ru": "спеть"
+      },
+      {
+       "de": "ein rührend",
+       "ru": "трогательную"
+      },
+      {
+       "de": "Klaglied",
+       "ru": "плачевную песнь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "ein rührend Klaglied — краткая, несклоняемая форма прилагательного при существительном (вместо rührendes); в стихах XVIII века это обычное дело, так же выше стояло mein sterbend Kind. Klaglied — «плачевная песнь»: тем же словом в немецкой Библии названы Плачи Иеремии."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Todeskampfe",
+       "ru": "агонии"
+      },
+      {
+       "de": "hörst",
+       "ru": "слышал"
+      },
+      {
+       "de": "Tröstung",
+       "ru": "утешение"
+      },
+      {
+       "de": "einer Stimme",
+       "ru": "голоса."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -59,6 +1184,120 @@
     "Nur zum letzten Klaggebete öffn ich meine, meine dürren Lippen,",
     "Und dann schliess ich sie auf immer,",
     "Und dann komme bald, o Tod!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Nur",
+       "ru": "Лишь"
+      },
+      {
+       "de": "zum",
+       "ru": "для"
+      },
+      {
+       "de": "letzten",
+       "ru": "последней"
+      },
+      {
+       "de": "Klaggebete",
+       "ru": "плачевной молитвы"
+      },
+      {
+       "de": "öffn",
+       "ru": "раскрываю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "meine",
+       "ru": "свои,"
+      },
+      {
+       "de": "meine",
+       "ru": "свои"
+      },
+      {
+       "de": "dürren",
+       "ru": "иссохшие"
+      },
+      {
+       "de": "Lippen",
+       "ru": "губы,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Klaggebet — слово, сложенное на случай по образцу Klaglied: молитва-плач. Öffn — стяжённое öffne («раскрываю»), обычная в стихах потеря безударного окончания."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dann",
+       "ru": "потом"
+      },
+      {
+       "de": "schliess",
+       "ru": "сомкну"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "sie",
+       "ru": "их"
+      },
+      {
+       "de": "auf immer",
+       "ru": "навсегда,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dann",
+       "ru": "тогда"
+      },
+      {
+       "de": "komme",
+       "ru": "приди"
+      },
+      {
+       "de": "bald",
+       "ru": "скорей,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Tod",
+       "ru": "смерть!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -67,6 +1306,178 @@
     "Blick auf uns herab, blick auf uns, auf uns herab!",
     "Jehova, Jehova! Erbarme dich des Knaben!",
     "Jehova, Jehova, Jehova, send aus einem Thaugewölke Labung uns, sende Labung uns herab!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Jehova",
+       "ru": "Иегова,"
+      },
+      {
+       "de": "Jehova",
+       "ru": "Иегова,"
+      },
+      {
+       "de": "Jehova",
+       "ru": "Иегова,"
+      },
+      {
+       "de": "blick",
+       "ru": "взгляни"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "herab",
+       "ru": "с высоты,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        6
+       ],
+       "text": "Jehova — немецкая передача ветхозаветного имени Бога; в конце XVIII века это обычное обращение к Богу в высоком, библейски окрашенном стихе. Herab значит «вниз, в сторону говорящего»: это отделяемая приставка глагола herabblicken («смотреть вниз»), по-русски она разворачивается в «с высоты»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Blick",
+       "ru": "Взгляни"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "herab",
+       "ru": "с высоты,"
+      },
+      {
+       "de": "blick",
+       "ru": "взгляни"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "uns",
+       "ru": "нас,"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "herab",
+       "ru": "с высоты!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Jehova",
+       "ru": "Иегова,"
+      },
+      {
+       "de": "Jehova",
+       "ru": "Иегова!"
+      },
+      {
+       "de": "Erbarme dich",
+       "ru": "Помилуй"
+      },
+      {
+       "de": "des Knaben",
+       "ru": "мальчика!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Jehova",
+       "ru": "Иегова,"
+      },
+      {
+       "de": "Jehova",
+       "ru": "Иегова,"
+      },
+      {
+       "de": "Jehova",
+       "ru": "Иегова,"
+      },
+      {
+       "de": "send",
+       "ru": "ниспошли"
+      },
+      {
+       "de": "uns",
+       "ru": "нам"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "einem Thaugewölke",
+       "ru": "облака росы"
+      },
+      {
+       "de": "Labung",
+       "ru": "отраду,"
+      },
+      {
+       "de": "sende",
+       "ru": "ниспошли"
+      },
+      {
+       "de": "uns",
+       "ru": "нам"
+      },
+      {
+       "de": "Labung",
+       "ru": "отраду"
+      },
+      {
+       "de": "herab",
+       "ru": "с высоты!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "Thaugewölke — сложенное на случай слово: Thau (нынешнее Tau, «роса») и Gewölke («тучи»), то есть облако, из которого падает роса. Написание Thau с h — норма до реформы 1901 года, так же в песне пишутся Freudenthränen («слёзы радости») и that («сделал»). Labung — «отрада, освежение», от laben («утолять, освежать»)."
+      }
+     ]
+    }
    ]
   },
   {
@@ -74,12 +1485,252 @@
     "Ist er nicht von Abrams Samen?",
     "Er weinte Freudenthränen, als ich ihm dies Kind geboren,",
     "Und nun wird er ihm zum Fluch,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ist",
+       "ru": "Разве"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "Abrams",
+       "ru": "Аврамова"
+      },
+      {
+       "de": "Samen",
+       "ru": "семени?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Samen в библейском языке — «семя», то есть потомство: Аврамово семя. Вопрос с nicht («Ist er nicht…?») ждёт согласия — «ведь он же от Аврамова семени»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "weinte",
+       "ru": "плакал"
+      },
+      {
+       "de": "Freudenthränen",
+       "ru": "слезами радости,"
+      },
+      {
+       "de": "als",
+       "ru": "когда"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "geboren",
+       "ru": "родила"
+      },
+      {
+       "de": "ihm",
+       "ru": "ему"
+      },
+      {
+       "de": "dies",
+       "ru": "это"
+      },
+      {
+       "de": "Kind",
+       "ru": "дитя,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "А"
+      },
+      {
+       "de": "nun",
+       "ru": "теперь"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "wird",
+       "ru": "становится"
+      },
+      {
+       "de": "ihm",
+       "ru": "ему"
+      },
+      {
+       "de": "zum Fluch",
+       "ru": "проклятием,"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Rette deines Lieblings Samen! Selbst sein Vater bat um Segen,",
     "Und du sprachst: es komme Segen über dieses Kindes Haupt, dieses Kindes Haupt!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Rette",
+       "ru": "Спаси"
+      },
+      {
+       "de": "Samen",
+       "ru": "семя"
+      },
+      {
+       "de": "deines",
+       "ru": "твоего"
+      },
+      {
+       "de": "Lieblings",
+       "ru": "любимца!"
+      },
+      {
+       "de": "Selbst",
+       "ru": "Даже"
+      },
+      {
+       "de": "sein",
+       "ru": "его"
+      },
+      {
+       "de": "Vater",
+       "ru": "отец"
+      },
+      {
+       "de": "bat um",
+       "ru": "просил"
+      },
+      {
+       "de": "Segen",
+       "ru": "благословения,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "deines Lieblings Samen — родительный падеж впереди своего слова, старый порядок: «семя твоего любимца». Так же построены дальше des Mannes Haus («дом мужа»), dieses Kindes Haupt («глава этого ребёнка»), der Erde Schoos («лоно земли»)."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Selbst перед словом значит «даже», после слова — «сам». Здесь оно стоит перед «его отец»: благословения просил тот самый человек, который теперь их изгнал."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "sprachst",
+       "ru": "сказал:"
+      },
+      {
+       "de": "es komme",
+       "ru": "да придёт"
+      },
+      {
+       "de": "Segen",
+       "ru": "благословение"
+      },
+      {
+       "de": "über",
+       "ru": "на"
+      },
+      {
+       "de": "Haupt",
+       "ru": "главу"
+      },
+      {
+       "de": "dieses",
+       "ru": "этого"
+      },
+      {
+       "de": "Kindes",
+       "ru": "ребёнка,"
+      },
+      {
+       "de": "Haupt",
+       "ru": "главу"
+      },
+      {
+       "de": "dieses",
+       "ru": "этого"
+      },
+      {
+       "de": "Kindes",
+       "ru": "ребёнка!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "es komme — пожелательное наклонение: «да придёт». Es здесь пустая подпорка-подлежащее, своего слова в русском у него нет. Haupt — «голова» в высоком слоге, отсюда «глава»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        10,
+        11
+       ],
+       "text": "У Шюккинга в этой строке стоит dieses Knaben Haupt («глава этого отрока»), у Шуберта — dieses Kindes Haupt («глава этого ребёнка»). Разночтение отмечено в разборе текста на schubertsong.uk."
+      }
+     ]
+    }
    ]
   },
   {
@@ -87,6 +1738,165 @@
     "Hab ich wider dich, wider dich gesündigt, wider dich —",
     "Ha! so treffe mich die Rache, so treffe mich die Rache, ha! die Rache!",
     "Hab ich wider dich gesündigt, o so treffe mich die Rache, die Rache!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Если"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "Hab… gesündigt",
+       "ru": "согрешила"
+      },
+      {
+       "de": "wider",
+       "ru": "против"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя,"
+      },
+      {
+       "de": "wider",
+       "ru": "против"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя,"
+      },
+      {
+       "de": "wider",
+       "ru": "против"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя —"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Hab ich… gesündigt — условие без союза: по-немецки его вводит одна перестановка слов, по-русски приходится добавить «если». Wider dich sündigen — формула лютеровской Библии, «согрешить против тебя»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ha",
+       "ru": "Ха!"
+      },
+      {
+       "de": "so",
+       "ru": "Так"
+      },
+      {
+       "de": "treffe",
+       "ru": "да настигнет"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "die Rache",
+       "ru": "кара,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "treffe",
+       "ru": "да настигнет"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "die Rache",
+       "ru": "кара,"
+      },
+      {
+       "de": "ha",
+       "ru": "ха!"
+      },
+      {
+       "de": "die Rache",
+       "ru": "кара!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "treffe — пожелательное наклонение, «да настигнет». Rache сегодня прежде всего «месть», но в библейском обиходе это возмездие свыше, кара за грех, а не личная расплата."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Если"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "Hab… gesündigt",
+       "ru": "согрешила"
+      },
+      {
+       "de": "wider",
+       "ru": "против"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя,"
+      },
+      {
+       "de": "o",
+       "ru": "о,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "treffe",
+       "ru": "да настигнет"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "die Rache",
+       "ru": "кара,"
+      },
+      {
+       "de": "die Rache",
+       "ru": "кара!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -94,6 +1904,148 @@
     "Aber, ach, was that der Knabe, dass er mit mir leiden muss?",
     "War ich doch in Syrien gestorben, als ich in der Wüste irrte",
     "Und das Kind noch ungeboren unter meinem Herzen lag, —"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но,"
+      },
+      {
+       "de": "ach",
+       "ru": "ах,"
+      },
+      {
+       "de": "was",
+       "ru": "что"
+      },
+      {
+       "de": "that",
+       "ru": "сделал"
+      },
+      {
+       "de": "der Knabe",
+       "ru": "мальчик,"
+      },
+      {
+       "de": "dass",
+       "ru": "что"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "muss",
+       "ru": "должен"
+      },
+      {
+       "de": "leiden",
+       "ru": "страдать"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "mir",
+       "ru": "мной?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "doch",
+       "ru": "О, если бы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "War… gestorben",
+       "ru": "умерла"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Syrien",
+       "ru": "Сирии,"
+      },
+      {
+       "de": "als",
+       "ru": "когда"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "irrte",
+       "ru": "блуждала"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "der Wüste",
+       "ru": "пустыне"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "War ich doch… gestorben — несбывшееся желание: «умереть бы мне тогда». Оттенок сожаления вносит частица doch, у которой отдельного русского слова нет; здесь она развёрнута в «о, если бы»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "das Kind",
+       "ru": "дитя"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "ungeboren",
+       "ru": "нерождённым"
+      },
+      {
+       "de": "lag",
+       "ru": "лежало"
+      },
+      {
+       "de": "unter",
+       "ru": "под"
+      },
+      {
+       "de": "meinem",
+       "ru": "моим"
+      },
+      {
+       "de": "Herzen",
+       "ru": "сердцем, —"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -101,17 +2053,330 @@
     "Da kam ein holder Fremdling, hiess mich zurück zu Abram gehen",
     "Und des Mannes Haus betreten, der uns grausam jetzt verstiess.",
     "War der Fremdling nicht ein Engel? Denn er sprach mit holder Miene:"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тогда"
+      },
+      {
+       "de": "kam",
+       "ru": "пришёл"
+      },
+      {
+       "de": "ein holder",
+       "ru": "приветливый"
+      },
+      {
+       "de": "Fremdling",
+       "ru": "странник,"
+      },
+      {
+       "de": "hiess",
+       "ru": "велел"
+      },
+      {
+       "de": "mich",
+       "ru": "мне"
+      },
+      {
+       "de": "gehen",
+       "ru": "идти"
+      },
+      {
+       "de": "zurück",
+       "ru": "обратно"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "Abram",
+       "ru": "Авраму"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "jemanden etwas tun heissen — устаревшая конструкция «велеть кому-либо что-либо сделать»; mich здесь винительный падеж, а по-русски выходит дательный: «велел мне». Hold — «благосклонный, приветливый», а не только «милый»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "betreten",
+       "ru": "войти в"
+      },
+      {
+       "de": "Haus",
+       "ru": "дом"
+      },
+      {
+       "de": "des Mannes",
+       "ru": "мужа,"
+      },
+      {
+       "de": "der",
+       "ru": "который"
+      },
+      {
+       "de": "jetzt",
+       "ru": "теперь"
+      },
+      {
+       "de": "grausam",
+       "ru": "жестоко"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "verstiess",
+       "ru": "изгнал."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "War",
+       "ru": "был ли"
+      },
+      {
+       "de": "der Fremdling",
+       "ru": "странник"
+      },
+      {
+       "de": "ein Engel",
+       "ru": "ангелом?"
+      },
+      {
+       "de": "Denn",
+       "ru": "Ведь"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "sprach",
+       "ru": "говорил"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "holder",
+       "ru": "приветливым"
+      },
+      {
+       "de": "Miene",
+       "ru": "видом:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Агарь вспоминает свой первый уход: в шестнадцатой главе Книги Бытия ангел велит ей вернуться к Авраму. Нынешнее изгнание — уже из двадцать первой главы; на этих двух эпизодах (Быт. 16:1–16 и 21:8–21) и стоит вся баллада."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Ismael wird, wird gross, gross auf, auf Erden sein, Samen zahlreich sein."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ismael",
+       "ru": "Измаил"
+      },
+      {
+       "de": "wird",
+       "ru": "будет,"
+      },
+      {
+       "de": "wird… sein",
+       "ru": "будет"
+      },
+      {
+       "de": "gross",
+       "ru": "велик,"
+      },
+      {
+       "de": "gross",
+       "ru": "велик"
+      },
+      {
+       "de": "auf",
+       "ru": "на,"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Erden",
+       "ru": "земле,"
+      },
+      {
+       "de": "Samen",
+       "ru": "семя"
+      },
+      {
+       "de": "sein",
+       "ru": "будет"
+      },
+      {
+       "de": "zahlreich",
+       "ru": "многочисленно."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "По библейскому счёту Измаилу здесь около четырнадцати лет — ровно столько было Шуберту, когда он писал эту балладу; на совпадение обращают внимание и Джонсон, и разбор на schubertsong.uk. Шюккинг при этом изображает мальчика беспомощным младенцем."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "auf Erden — старая форма дательного падежа, застывшая в обороте: сегодня сказали бы auf der Erde («на земле»)."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Nun liegen wir und welken, unsre Leichen werden modern",
     "Wie die Leichen der Verfluchten, die der Erde Schoos nicht birgt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Nun",
+       "ru": "Теперь"
+      },
+      {
+       "de": "liegen",
+       "ru": "лежим"
+      },
+      {
+       "de": "wir",
+       "ru": "мы"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "welken",
+       "ru": "увядаем,"
+      },
+      {
+       "de": "unsre",
+       "ru": "наши"
+      },
+      {
+       "de": "Leichen",
+       "ru": "трупы"
+      },
+      {
+       "de": "werden modern",
+       "ru": "истлеют"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        7,
+        7
+       ],
+       "text": "Глагол modern («истлевать, гнить в земле») — полный омоним прилагательного modern («современный»), но слово это другое и по происхождению: оно от Moder («тлен, прель»). Werden modern — будущее время, «истлеют»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "die Leichen",
+       "ru": "трупы"
+      },
+      {
+       "de": "der Verfluchten",
+       "ru": "проклятых,"
+      },
+      {
+       "de": "die",
+       "ru": "которых"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "birgt",
+       "ru": "укрывает"
+      },
+      {
+       "de": "Schoos",
+       "ru": "лоно"
+      },
+      {
+       "de": "der Erde",
+       "ru": "земли."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "Schoos — старое написание слова Schoss («лоно»). Земля здесь мать, чьё лоно принимает мёртвых, и проклятым в этом отказано."
+      }
+     ]
+    }
    ]
   },
   {
@@ -119,8 +2384,156 @@
     "Schrei zum Himmel, armer Knabe, öffne deine welken Lippen,",
     "Gott sein Herr, verschmäh das Flehen,",
     "Verschmäh das Flehen des unschuldgen Knaben nicht!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schrei",
+       "ru": "Взывай"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Himmel",
+       "ru": "небу,"
+      },
+      {
+       "de": "armer",
+       "ru": "бедный"
+      },
+      {
+       "de": "Knabe",
+       "ru": "мальчик,"
+      },
+      {
+       "de": "öffne",
+       "ru": "раскрой"
+      },
+      {
+       "de": "deine",
+       "ru": "свои"
+      },
+      {
+       "de": "welken",
+       "ru": "увядшие"
+      },
+      {
+       "de": "Lippen",
+       "ru": "губы,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Gott",
+       "ru": "Бог,"
+      },
+      {
+       "de": "sein",
+       "ru": "его"
+      },
+      {
+       "de": "Herr",
+       "ru": "Господь,"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "verschmäh",
+       "ru": "отвергни"
+      },
+      {
+       "de": "das Flehen",
+       "ru": "мольбу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "Отрицание к этому «отвергни» приходит только в самом конце следующей строки: строка повторена дважды, и nicht стоит в её полном виде. По-русски «не» приходится поставить сразу, иначе просьба перевернулась бы в свою противоположность."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "Verschmäh",
+       "ru": "отвергни"
+      },
+      {
+       "de": "das Flehen",
+       "ru": "мольбу"
+      },
+      {
+       "de": "des unschuldgen",
+       "ru": "невинного"
+      },
+      {
+       "de": "Knaben",
+       "ru": "мальчика!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "Klemens August Schuecking"
+ "about": [
+  {
+   "title": "30 марта 1811 года",
+   "text": "Это самое раннее полностью сохранившееся вокальное сочинение Шуберта. Оно написано 30 марта 1811 года, когда автору было четырнадцать лет и он учился в Конвикте — школе-интернате, где жили и пели мальчики придворной капеллы.\nГрэм Джонсон, автор аннотаций к антологии Hyperion Schubert Edition, оговаривается: вокальную музыку Шуберт мог писать и раньше, просто она до нас не дошла."
+  },
+  {
+   "title": "Публикация и автографы",
+   "text": "Дату закрепляет надпись на копии песни из собрания Виттечек-Шпаун: «первое песенное сочинение Шуберта, написанное в Конвикте в возрасте четырнадцати лет, 30 марта 1811 года».\nНапечатана баллада была только в 1894 году, в двадцатой серии полного собрания сочинений (Gesamtausgabe), вышедшего в Лейпциге. Между сочинением и публикацией прошло восемьдесят три года."
+  },
+  {
+   "title": "Клеменс Август Шюккинг",
+   "text": "О поэте известно немного, и Джонсон в буклете Hyperion отзывается о нём коротко: «поэт без всякого веса и известности».\nСтихотворение «Hagars Klage» («Жалоба Агари») напечатано в гёттингенском «Musenalmanach» («Альманахе муз») на 1781 год, на страницах 123–127; издание сверил по факсимиле исследователь Петер Растль."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "История взята из Книги Бытия: Агарь, служанка в доме Аврама и мать его сына Измаила, изгнана вместе с мальчиком и блуждает в пустыне (Быт. 16:1–16 и 21:8–21). В самой Книге Бытия её жалоба сведена к одному вопросу — как ей видеть смерть отрока. Шюккинг разворачивает этот вопрос в длинный монолог, где нет ни связного сюжета, ни развязки: мать зовёт сына к себе и тут же хочет уйти, чтобы не видеть его смерти, говорит то с ним, то с его отцом, то прямо с Богом.\nКак пишет schubertsong.uk, текст Шуберт взял, судя по всему, из нот Цумштега, минуя сам альманах. Две строки оригинала в песню не попали — о них сказано в пояснениях к строкам, там же и разночтение в строфе о благословении.\nВ издании 1781 года слова написаны по правилам своего времени: mußt, Thräne, Stral, Thaugewölke, Saamen, Seegen, Schoos.\nДжонсон напоминает, что к этой семейной истории новозаветная традиция отнеслась сурово: апостол Павел говорит о рабыне и её незаконном сыне резко (Гал. 4:21–31)."
+  },
+  {
+   "title": "Музыка",
+   "text": "Баллада начинается в до миноре. Первые три такта — медленное вступление, Largo; его настроение Джонсон возводит к оратории Гайдна «Сотворение мира», к её пространственному размаху и пустоте. Дальше идёт Allegro, и новый раздел открывает семнадцатитактовое фортепианное соло (Zwischenspiel — «интермедия») в бурном ре миноре.\nПо складу это, как определяет Джонсон, скорее баллада или сцена, чем песня. Отдельные ходы фортепиано разобраны в пояснениях к строкам."
+  },
+  {
+   "title": "Музыка: образец Цумштега",
+   "text": "Моделью Шуберту послужила баллада швабского композитора Иоганна Рудольфа Цумштега (1760–1802) «Hagars Klage in der Wüste Bersaba», напечатанная в 1797 году — в год, когда Шуберт родился. Он положил ноты Цумштега перед собой и переработал вещь такт за тактом: та же тональность, те же размеры, фортепианные интерлюдии в тех же местах. Чем дальше, тем свободнее он отходит от образца.\nРодословную жанра музыковед Альфред Эйнштейн ведёт ещё дальше: Цумштег, а через него и ничего не знавший об этом Шуберт, многим обязан оркестровым сценам забытого мастера Георга Бенды (1722–1795), чьи мелодрамы «Ариадна» и «Медея» (1775) были развёрнутыми монологами героини. Об оркестровках самих шубертовских песен Эйнштейн, впрочем, судил строго: они «почти всегда одновременно огрубление и ослабление оригинала»."
+  },
+  {
+   "title": "Вода, которой нет",
+   "text": "Главная тема текста — вода и её отсутствие. Агарь суха, как пустыня вокруг: у неё нет ни слёз, ни молока, и глагол stillen, которым она говорит о ребёнке, значит разом «утолить жажду» и «утешить».\nРазбор на schubertsong.uk замечает и другое: у композитора, который потом напишет столько воды — волны, ручьи, лодки, — первая баллада оказалась историей о засухе в пустыне."
+  },
+  {
+   "title": "Своё в чужой истории",
+   "text": "Джонсон предполагает — и это догадка биографа, а не документ, — что четырнадцатилетний автор мог узнать в этой истории свою. Мать композитора Елизавета Фитц особенно держалась за младшего, музыкально одарённого сына, а отношения с отцом складывались трудно. По словам Джонсона, мать и сын тоже жили «в пустыне» отцовской привязанности.\nСочинение музыки в одиночестве, у себя в комнате, Джонсон называет для подростка актом «тихого и скрытого неповиновения» и способом смягчить боль трудных лет."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "В десятитомном полном собрании сочинений под редакцией Мандычевского «Hagars Klage» стоит в самом начале. Джонсон называет её первым полным вокальным сочинением композитора, а в буклете тридцать первого тома Hyperion — «могучей балладой»."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Гундула Яновиц с пианистом Ирвином Гейджем записала «Hagars Klage» для Deutsche Grammophon («Schubert: Lieder, Volume I»): сессии шли в берлинской студии Ланквиц в 1976–1977 годах, издание вышло в 1977-м.\nКристин Брюэр и Грэм Джонсон записали балладу в июле 1996 года в Henry Wood Hall для тридцать первого тома антологии Hyperion Schubert Edition — «Schubert & Religion» («Шуберт и религия»), который вышел в 1998 году. Джонсон при этом замечает, что вокальная партия местами почти невыполнима для большинства певиц, и тут же оговаривается: к Брюэр это, к счастью, не относится.\nКаролина Мельцер с пианистом Ульрихом Айзенлором записала балладу в 2009 году для серии Naxos «Schubert: The Complete Songs» («Полное собрание песен Шуберта»); это её тридцать первый том, «Sturm und Drang Poets» («Поэты бури и натиска»)."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }

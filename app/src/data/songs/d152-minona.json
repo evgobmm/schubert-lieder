@@ -1,9 +1,16 @@
 {
  "d": "152",
  "title_de": "Minona",
+ "title_ru": "Минона",
+ "poet_de": "Friedrich Anton Franz Bertrand",
+ "poet_ru": "Фридрих Антон Франц Бертран",
  "year": "1815",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "У Бертрана стихотворение названо полнее: «Minona oder die Kunde der Dogge» — «Минона, или Весть дога». Kunde — старое «весть, известие»: вестником оказывается охотничий пёс, единственный, кто знает, что случилось на скале. То же имя и похожую историю Малколм Рен находит у Шуберта ещё раз — в «Плаче Колмы» (D 217)."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -12,6 +19,193 @@
     "Wie rasseln die Tropfen auf Fenster und Dach,",
     "Wie treibet's da draussen so wüthig und jach,",
     "Als trieben sich Geister in Schlachten!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "treiben",
+       "ru": "несутся"
+      },
+      {
+       "de": "die Wolken",
+       "ru": "тучи,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "finster",
+       "ru": "мрачно"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "schwer",
+       "ru": "тяжело"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        6
+       ],
+       "text": "Wie… so строит здесь восклицание: «до чего мрачно и тяжело несутся тучи», вопроса в строке нет. Wolke — «облако», но под грозовым небом по-русски говорят «туча». Сам глагол тянется в следующую строку: treiben… daher — «несутся сюда»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Über",
+       "ru": "Над"
+      },
+      {
+       "de": "die liebliche",
+       "ru": "прелестным"
+      },
+      {
+       "de": "Leuchte",
+       "ru": "светилом"
+      },
+      {
+       "de": "daher",
+       "ru": "сюда!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "die Leuchte — «светило, светильник», то, что светит (от leuchten «испускать свет»). Lieblich около 1800 года — «милый, отрадный, приятный чувствам», без нынешней иронии."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "rasseln",
+       "ru": "барабанят"
+      },
+      {
+       "de": "die Tropfen",
+       "ru": "капли"
+      },
+      {
+       "de": "auf",
+       "ru": "по"
+      },
+      {
+       "de": "Fenster",
+       "ru": "окну"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Dach",
+       "ru": "крыше,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Дождевые капли идут у фортепиано фигурой, которую Шуберт, по предположению Грэма Джонсона, мог помнить из разработки первой части фортепианного концерта Моцарта ля мажор (K 488)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "treibet's",
+       "ru": "мечется"
+      },
+      {
+       "de": "da",
+       "ru": "там"
+      },
+      {
+       "de": "draussen",
+       "ru": "снаружи"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "wüthig",
+       "ru": "яростно"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "jach",
+       "ru": "порывисто,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        7
+       ],
+       "text": "treibet's = es treibt: безличное «оно гонит, мечется» — о непогоде за окном; 's — стянутое es. Wüthig — старая форма нынешнего wütend («яростно»), jach — «резко, порывисто»; оба слова уже в эпоху отдавали стариной."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Als",
+       "ru": "Словно"
+      },
+      {
+       "de": "Geister",
+       "ru": "духи"
+      },
+      {
+       "de": "trieben sich",
+       "ru": "носились"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Schlachten",
+       "ru": "битвах!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -21,6 +215,199 @@
     "Und über die Haide und über den Wald,",
     "Wie weht es so öde, wie weht es so kalt,",
     "So schaurig vom schimmernden Felsen, o Edgar!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "Wunder",
+       "ru": "чудо,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "plötzlich",
+       "ru": "вдруг"
+      },
+      {
+       "de": "die Kämpfenden",
+       "ru": "сражающиеся"
+      },
+      {
+       "de": "ruhn",
+       "ru": "стихают,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Als",
+       "ru": "Словно"
+      },
+      {
+       "de": "jetzt",
+       "ru": "теперь"
+      },
+      {
+       "de": "Gräber",
+       "ru": "могилы"
+      },
+      {
+       "de": "bannten",
+       "ru": "сковали"
+      },
+      {
+       "de": "ihr",
+       "ru": "их"
+      },
+      {
+       "de": "Treiben",
+       "ru": "метанье"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Thun",
+       "ru": "дела!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        7
+       ],
+       "text": "Als с сослагательным прошедшим и без wenn значит «как будто»; так же построена последняя строка первой строфы. Bannen — «сковать заклятием, удержать магической силой». Treiben und Thun (сегодня Tun) — парная формула: всё, что они делают."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "über",
+       "ru": "над"
+      },
+      {
+       "de": "die Haide",
+       "ru": "пустошью"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "über",
+       "ru": "над"
+      },
+      {
+       "de": "den Wald",
+       "ru": "лесом,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "weht es",
+       "ru": "веет"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "öde",
+       "ru": "пустынно,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "weht es",
+       "ru": "веет"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "kalt",
+       "ru": "холодно,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "Так"
+      },
+      {
+       "de": "schaurig",
+       "ru": "жутко"
+      },
+      {
+       "de": "vom",
+       "ru": "с"
+      },
+      {
+       "de": "schimmernden",
+       "ru": "мерцающей"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скалы,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Edgar",
+       "ru": "Эдгар!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Felsen здесь падежная форма единственного числа (der Fels, des/dem Felsen), хотя выглядит как множественное: скала одна, та самая, к подножию которой придёт Минона. Schaurig — «наводящий жуть» (от Schauer «дрожь, ужас»), schimmernd — слабое мерцание, а не блеск."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "Здесь у правой руки, как пишет Джонсон, флейтовое соло на простой гармонии си-бемоль; вместе с именем Эдгара эти два такта звучат для него призрачным предвестием «Лючии ди Ламмермур» Доницетти — за двадцать лет до того, как опера была написана."
+      }
+     ]
+    }
    ]
   },
   {
@@ -30,6 +417,180 @@
     "Wo schnauben die schwärzlichen Doggen um dich?",
     "Wo spähst du am Felsen Beute für mich?",
     "Dein harret das liebende Mädchen,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "schwirret",
+       "ru": "свистит"
+      },
+      {
+       "de": "dein",
+       "ru": "твоя"
+      },
+      {
+       "de": "Bogengeschoss",
+       "ru": "стрела,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Bogengeschoss — сложение из Bogen («лук») и Geschoss («метательный снаряд»): стрела, пущенная из лука. Schwirren говорят как раз о летящей стреле — «лететь с гудящим свистом»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "flattert",
+       "ru": "развевается"
+      },
+      {
+       "de": "dein",
+       "ru": "твой"
+      },
+      {
+       "de": "Haarbusch",
+       "ru": "чуб?"
+      },
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "tummelt",
+       "ru": "гарцует"
+      },
+      {
+       "de": "dein",
+       "ru": "твой"
+      },
+      {
+       "de": "Ross",
+       "ru": "конь?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "schnauben",
+       "ru": "фыркают"
+      },
+      {
+       "de": "die schwärzlichen",
+       "ru": "черноватые"
+      },
+      {
+       "de": "Doggen",
+       "ru": "доги"
+      },
+      {
+       "de": "um",
+       "ru": "вокруг"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Dogge около 1800 года означало вообще крупную сильную охотничью собаку (у Гримма «большой пёс»), нынешней породы за этим словом ещё нет. Schwärzlich — «черноватый», масть, отдающая чернотой."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "spähst",
+       "ru": "высматриваешь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скалы"
+      },
+      {
+       "de": "Beute",
+       "ru": "добычу"
+      },
+      {
+       "de": "für",
+       "ru": "для"
+      },
+      {
+       "de": "mich",
+       "ru": "меня?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Dein",
+       "ru": "Тебя"
+      },
+      {
+       "de": "harret",
+       "ru": "ждёт"
+      },
+      {
+       "de": "das liebende",
+       "ru": "любящая"
+      },
+      {
+       "de": "Mädchen",
+       "ru": "девушка,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Harren требует родительного падежа: dein harret — «ждёт тебя»; сегодня сказали бы auf dich warten. Само слово означает ждать терпеливо и тоскуя, и оно повторится в следующей строфе дважды подряд. Das Mädchen («девушка») по-немецки среднего рода, а по-русски женского."
+      }
+     ]
+    }
    ]
   },
   {
@@ -39,6 +600,175 @@
     "Es dünkt ihr zerrissen das liebliche Band,",
     "Es dünkt ihr so blutig das Jägergewand.",
     "Wohl minnen die Todten uns nimmer,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dein",
+       "ru": "Тебя"
+      },
+      {
+       "de": "harret",
+       "ru": "ждёт,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Jüngling",
+       "ru": "юноша,"
+      },
+      {
+       "de": "im",
+       "ru": "во"
+      },
+      {
+       "de": "jeglichen",
+       "ru": "всяком"
+      },
+      {
+       "de": "Laut",
+       "ru": "звуке,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Dein",
+       "ru": "Тебя"
+      },
+      {
+       "de": "harret",
+       "ru": "ждёт"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "schmachtend",
+       "ru": "истомлённо"
+      },
+      {
+       "de": "die zagende",
+       "ru": "трепещущая"
+      },
+      {
+       "de": "Braut",
+       "ru": "невеста."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "ihr",
+       "ru": "Ей"
+      },
+      {
+       "de": "Es dünkt",
+       "ru": "кажется"
+      },
+      {
+       "de": "zerrissen",
+       "ru": "разорванной"
+      },
+      {
+       "de": "das liebliche",
+       "ru": "прелестная"
+      },
+      {
+       "de": "Band",
+       "ru": "связь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Dünken — безличный глагол «казаться»: es dünkt ihr значит «ей кажется» (сегодня сказали бы es scheint ihr). Es здесь только формальное подлежащее, настоящее подлежащее — das Band («связь»). Это слово, «связь, узы», вернётся ещё дважды: в девятой строфе она разорвана, в одиннадцатой скреплена навек."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "ihr",
+       "ru": "Ей"
+      },
+      {
+       "de": "Es dünkt",
+       "ru": "кажется"
+      },
+      {
+       "de": "so",
+       "ru": "таким"
+      },
+      {
+       "de": "blutig",
+       "ru": "окровавленным"
+      },
+      {
+       "de": "das Jägergewand",
+       "ru": "охотничье облачение."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Ведь"
+      },
+      {
+       "de": "die Todten",
+       "ru": "мёртвые"
+      },
+      {
+       "de": "nimmer",
+       "ru": "уже"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "minnen",
+       "ru": "любят"
+      },
+      {
+       "de": "uns",
+       "ru": "нас,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Minnen — старинное «любить», от Minne, куртуазной любви миннезингеров: слово нарочито архаичное, из рыцарской баллады. Nimmer у поэтов эпохи часто равно nicht mehr — «уже не», а не «никогда». Wohl — частица «ведь, верно»; ею начнутся ещё три строки баллады."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "На этих словах музыка наконец возвращается в ля минор, а в самых последних тактах фортепиано повторит тему этих слов лейтмотивом. Джонсон видит в этом знак: для Шуберта здесь сердце всей песни. Он же напоминает, что восемнадцатилетний композитор уже потерял мать и переживал тогда трудное время в отношениях с отцом."
+      }
+     ]
+    }
    ]
   },
   {
@@ -48,6 +778,160 @@
     "Was frommt es? Schon blicken die Sterne der Nacht",
     "Hinunter zum Bette von Erde gemacht,",
     "Wo eisern die Minnenden schlafen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Noch",
+       "ru": "Ещё"
+      },
+      {
+       "de": "hallet",
+       "ru": "разносится"
+      },
+      {
+       "de": "entlang",
+       "ru": "вдоль"
+      },
+      {
+       "de": "den moosigen",
+       "ru": "замшелого"
+      },
+      {
+       "de": "Hügel",
+       "ru": "холма"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "Harfengelispel",
+       "ru": "лепет арфы,"
+      },
+      {
+       "de": "ihr",
+       "ru": "их"
+      },
+      {
+       "de": "Minnegesang",
+       "ru": "песнь любви."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Harfengelispel — сложение из Harfe («арфа») и Gelispel (от lispeln «шептать, лепетать»): тихий лепет струн. Minnegesang — «песнь любви» на старинный лад, слово из той же семьи, что minnen строкой выше. Entlang в предыдущей строке стоит после существительного: «вдоль холма» — а холм в стихах о мёртвых обычно могильный."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Was frommt es",
+       "ru": "Что толку?"
+      },
+      {
+       "de": "Schon",
+       "ru": "Уже"
+      },
+      {
+       "de": "blicken",
+       "ru": "глядят"
+      },
+      {
+       "de": "die Sterne",
+       "ru": "звёзды"
+      },
+      {
+       "de": "der Nacht",
+       "ru": "ночи"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Frommen — книжное «идти на пользу»: was frommt es — «что в том проку, чем это поможет». К XIX веку слово уже отдавало стариной."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hinunter",
+       "ru": "Вниз"
+      },
+      {
+       "de": "zum",
+       "ru": "на"
+      },
+      {
+       "de": "Bette",
+       "ru": "ложе,"
+      },
+      {
+       "de": "von",
+       "ru": "из"
+      },
+      {
+       "de": "Erde",
+       "ru": "земли"
+      },
+      {
+       "de": "gemacht",
+       "ru": "сделанное,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "die Minnenden",
+       "ru": "любящие"
+      },
+      {
+       "de": "schlafen",
+       "ru": "спят"
+      },
+      {
+       "de": "eisern",
+       "ru": "железным"
+      },
+      {
+       "de": "",
+       "ru": "сном."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Eisern — наречие «железно», о непробудном, могильном сне; по-русски слово требует существительного, отсюда «железным сном». «Ложе из земли» строкой выше означает могилу (Bette — старая форма дательного падежа с -e), а спящие названы тем же старинным словом minnen: «любящие»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -57,6 +941,195 @@
     "Es fasst sie Entsetzen, sie wanket zur Thür,",
     "Bald schmiegt sich die schönste der Doggen vor ihr,",
     "Der Liebling des harrenden Mädchens,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "Так"
+      },
+      {
+       "de": "klagt sich",
+       "ru": "сетует она,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "leise",
+       "ru": "тихо,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "leise",
+       "ru": "тихо"
+      },
+      {
+       "de": "tappt's",
+       "ru": "крадётся"
+      },
+      {
+       "de": "draussen",
+       "ru": "снаружи"
+      },
+      {
+       "de": "her",
+       "ru": "сюда,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Klagt sich — возвратный безличный оборот: «так сетуется», то есть так изливается жалоба; подлежащего у немецкой фразы нет, по-русски приходится назвать её. Klagen («сетовать») в песнях означает высокий плач о горе, а не бытовые жалобы."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        6,
+        8
+       ],
+       "text": "Фортепианная интерлюдия си минор с пометкой Klagend («жалуясь») — по Джонсону, одна из самых красивых во всех шубертовских балладах, и вся она принадлежит собаке: скулящая, встревоженная, задыхающаяся и всё-таки мягкая, несмотря на размеры зверя."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es",
+       "ru": "Что-то"
+      },
+      {
+       "de": "winselt",
+       "ru": "скулит"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "innig",
+       "ru": "глубоко,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "schaudernd",
+       "ru": "содрогаясь"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "schwer",
+       "ru": "тяжело."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "sie",
+       "ru": "Её"
+      },
+      {
+       "de": "Es fasst",
+       "ru": "охватывает"
+      },
+      {
+       "de": "Entsetzen",
+       "ru": "ужас,"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "wanket",
+       "ru": "идёт шатаясь"
+      },
+      {
+       "de": "zur",
+       "ru": "к"
+      },
+      {
+       "de": "Thür",
+       "ru": "двери,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Bald",
+       "ru": "Вскоре"
+      },
+      {
+       "de": "schmiegt sich",
+       "ru": "льнёт"
+      },
+      {
+       "de": "die schönste",
+       "ru": "прекраснейший"
+      },
+      {
+       "de": "der",
+       "ru": "из"
+      },
+      {
+       "de": "Doggen",
+       "ru": "догов"
+      },
+      {
+       "de": "vor",
+       "ru": "перед"
+      },
+      {
+       "de": "ihr",
+       "ru": "ней,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Die schönste der Doggen — «прекраснейшая из догов»: Dogge по-немецки женского рода, и дальше о псе говорится sie («она»). Русское «дог» мужского рода, поэтому в подстрочнике он «прекраснейший» и «он»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Liebling",
+       "ru": "Любимец"
+      },
+      {
+       "de": "des harrenden",
+       "ru": "ждущей"
+      },
+      {
+       "de": "Mädchens",
+       "ru": "девушки,"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -66,6 +1139,175 @@
     "Kaum hebt sie vom Boden den trauernden Blick,",
     "Schleicht nieder zum Pförtchen und kehret zurück,",
     "Die schreckliche Kunde zu deuten."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "wie",
+       "ru": "так, как"
+      },
+      {
+       "de": "sie",
+       "ru": "он"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "gestern",
+       "ru": "вчера"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "kosendem",
+       "ru": "ласковым"
+      },
+      {
+       "de": "Drang",
+       "ru": "порывом"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein Bote",
+       "ru": "Вестником"
+      },
+      {
+       "de": "des Lieben",
+       "ru": "любимого"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Busen",
+       "ru": "груди"
+      },
+      {
+       "de": "ihr",
+       "ru": "ей"
+      },
+      {
+       "de": "sprang",
+       "ru": "бросался."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Des Lieben — субстантивированное «милый, возлюбленный» в родительном падеже: вестник от любимого. Busen около 1800 года — грудь как вместилище чувств, дом сердца, а не то, что слышится в этом слове сегодня."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kaum",
+       "ru": "Едва"
+      },
+      {
+       "de": "hebt",
+       "ru": "поднимает"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "vom",
+       "ru": "от"
+      },
+      {
+       "de": "Boden",
+       "ru": "земли"
+      },
+      {
+       "de": "den trauernden",
+       "ru": "скорбный"
+      },
+      {
+       "de": "Blick",
+       "ru": "взгляд,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schleicht",
+       "ru": "Крадётся"
+      },
+      {
+       "de": "nieder",
+       "ru": "вниз"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Pförtchen",
+       "ru": "калитке"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "kehret zurück",
+       "ru": "возвращается,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "zu",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "deuten",
+       "ru": "разгадать"
+      },
+      {
+       "de": "Die schreckliche",
+       "ru": "страшную"
+      },
+      {
+       "de": "Kunde",
+       "ru": "весть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Малколм Рен видит в псе двойника Миноны: он словно чует на расстоянии, что произошло, и не столько приносит весть, сколько ведёт к ней хозяйку."
+      }
+     ]
+    }
    ]
   },
   {
@@ -75,6 +1317,184 @@
     "Es leuchtet so düster der nächtliche Strahl,",
     "Sie folgt ihr durch Moore, durch Heiden und Thal,",
     "Zum Fusse des schimmernden Felsen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Minona",
+       "ru": "Минона"
+      },
+      {
+       "de": "folgt",
+       "ru": "следует"
+      },
+      {
+       "de": "schweigend",
+       "ru": "молча"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "bleichem",
+       "ru": "бледным"
+      },
+      {
+       "de": "Gesicht",
+       "ru": "лицом,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Als",
+       "ru": "Словно"
+      },
+      {
+       "de": "es",
+       "ru": "что-то"
+      },
+      {
+       "de": "ruft",
+       "ru": "зовёт"
+      },
+      {
+       "de": "die Arme",
+       "ru": "бедную"
+      },
+      {
+       "de": "vor's",
+       "ru": "на"
+      },
+      {
+       "de": "hohe",
+       "ru": "высокий"
+      },
+      {
+       "de": "Gericht",
+       "ru": "суд."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        6
+       ],
+       "text": "Vor's — стянутое vor das, «перед»; русское «звать перед суд» требует «на». Das hohe Gericht — высокое судилище, а die Arme — «бедная, несчастная», как у Аделунга: достойная жалости."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "so",
+       "ru": "Так"
+      },
+      {
+       "de": "düster",
+       "ru": "мрачно"
+      },
+      {
+       "de": "Es leuchtet",
+       "ru": "светит"
+      },
+      {
+       "de": "der nächtliche",
+       "ru": "ночной"
+      },
+      {
+       "de": "Strahl",
+       "ru": "луч,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Слова es leuchtet so düster («так мрачно светит») пришли, по слуху Джонсона, прямо из квартета «Recordare» моцартовского Реквиема: и латинский текст, и немецкий говорят об одном — о вызове на суд."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "folgt",
+       "ru": "следует"
+      },
+      {
+       "de": "ihr",
+       "ru": "за ним"
+      },
+      {
+       "de": "durch",
+       "ru": "через"
+      },
+      {
+       "de": "Moore",
+       "ru": "болота,"
+      },
+      {
+       "de": "durch",
+       "ru": "через"
+      },
+      {
+       "de": "Heiden",
+       "ru": "пустошь"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Thal",
+       "ru": "долину,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        6
+       ],
+       "text": "Folgen требует дательного падежа: ihr — о собаке, по-немецки женского рода, по-русски «за ним». Heiden — старая падежная форма единственного числа от die Heide, вересковой пустоши; ни «язычники», ни множественное число сюда не годятся; в третьей строке второй строфы она же написана по-старому Haide («пустошь»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zum",
+       "ru": "К"
+      },
+      {
+       "de": "Fusse",
+       "ru": "подножию"
+      },
+      {
+       "de": "des schimmernden",
+       "ru": "мерцающей"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скалы."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -84,6 +1504,155 @@
     "Wohl war es zerrissen das liebliche Band,",
     "Wohl hatt' ihm geschleudert von tückischer Hand",
     "Ein Mordpfeil den Busen durchschnitten."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "weilet",
+       "ru": "пребывает,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "schimmernder",
+       "ru": "мерцающая"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скала,"
+      },
+      {
+       "de": "der Tod",
+       "ru": "смерть,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "schlummert",
+       "ru": "дремлет"
+      },
+      {
+       "de": "der Schläfer",
+       "ru": "спящий,"
+      },
+      {
+       "de": "vom",
+       "ru": "от"
+      },
+      {
+       "de": "Blute",
+       "ru": "крови"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "roth",
+       "ru": "красный?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Der Schläfer — «спящий», давнее иносказание об умершем; schlummern («дремать») в стихах о смерти значит просто спать смертным сном. Строкой выше der Tod — по-немецки мужского рода, и смерть там мыслится мужской фигурой, тогда как русское слово женского рода."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Верно,"
+      },
+      {
+       "de": "war es",
+       "ru": "была"
+      },
+      {
+       "de": "zerrissen",
+       "ru": "разорвана"
+      },
+      {
+       "de": "das liebliche",
+       "ru": "прелестная"
+      },
+      {
+       "de": "Band",
+       "ru": "связь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Верно,"
+      },
+      {
+       "de": "hatt' ihm",
+       "ru": "ему"
+      },
+      {
+       "de": "geschleudert",
+       "ru": "метнутая"
+      },
+      {
+       "de": "von tückischer",
+       "ru": "коварной"
+      },
+      {
+       "de": "Hand",
+       "ru": "рукой,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Немецкая рамка hatt'… durchschnitten разорвана между двумя строками: вспомогательный глагол стоит здесь, смысловое причастие — в конце следующей строки. По-русски прошедшее время выражается одним словом, и оно встаёт там, где стоит durchschnitten. Geschleudert von tückischer Hand — оборот при «стреле»: метнутая коварной рукой."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein Mordpfeil",
+       "ru": "Смертоносная стрела"
+      },
+      {
+       "de": "den Busen",
+       "ru": "грудь"
+      },
+      {
+       "de": "durchschnitten",
+       "ru": "пронзила."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -93,6 +1662,196 @@
     "O Vater, Vater, verzeih es dir Gott!",
     "Wohl hast du mir heute mit frevelndem, frevelndem Spott",
     "So schrecklich den Dräuschwur erfüllet."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "als",
+       "ru": "когда"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "nun",
+       "ru": "теперь"
+      },
+      {
+       "de": "nahet",
+       "ru": "приближается"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "ängstlichem",
+       "ru": "тревожным"
+      },
+      {
+       "de": "Schrei",
+       "ru": "криком,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Gewahrt",
+       "ru": "Замечает"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "den Bogen",
+       "ru": "лук"
+      },
+      {
+       "de": "des Vaters",
+       "ru": "отца"
+      },
+      {
+       "de": "dabei",
+       "ru": "рядом:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Лук объясняет всё разом: как рассказывает Малколм Рен, отец Миноны поклялся убить Эдгара, если тот не оставит её в покое."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О"
+      },
+      {
+       "de": "Vater",
+       "ru": "отец,"
+      },
+      {
+       "de": "Vater",
+       "ru": "отец,"
+      },
+      {
+       "de": "verzeih",
+       "ru": "да простит"
+      },
+      {
+       "de": "dir",
+       "ru": "тебе"
+      },
+      {
+       "de": "es",
+       "ru": "это"
+      },
+      {
+       "de": "Gott",
+       "ru": "Бог!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        6
+       ],
+       "text": "Verzeih es dir Gott — пожелание, а по форме старое сослагательное наклонение: «пусть простит тебе это Бог»; приказа отцу в этих словах нет. Немецкий порядок слов оставляет Бога напоследок."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Верно,"
+      },
+      {
+       "de": "hast du",
+       "ru": "ты"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "heute",
+       "ru": "сегодня"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "frevelndem",
+       "ru": "кощунственной,"
+      },
+      {
+       "de": "frevelndem",
+       "ru": "кощунственной"
+      },
+      {
+       "de": "Spott",
+       "ru": "насмешкой"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "Так"
+      },
+      {
+       "de": "schrecklich",
+       "ru": "страшно"
+      },
+      {
+       "de": "den Dräuschwur",
+       "ru": "грозную клятву"
+      },
+      {
+       "de": "erfüllet",
+       "ru": "исполнил."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Dräuschwur — сложение из старого dräuen («грозить», нынешнее drohen) и Schwur («клятва»): клятва-угроза, которой отец грозил Эдгару. Рядом frevelnd — «кощунственный»: в эпоху слово тяжелее нынешнего «дерзкий», ближе к «святотатственный». Рамка hast… erfüllet опять растянута на две строки."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "На слове Dräuschwur («грозная клятва») фортепиано отвечает инструментальным росчерком — Джонсон слышит в нём медные и находит его достойным молодого Верди."
+      }
+     ]
+    }
    ]
   },
   {
@@ -102,6 +1861,163 @@
     "Geknüpft ist auf ewig das eherne Band,",
     "Und Geister der Väter im Nebelgewand",
     "Ergreifen die silbernen Harfen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "soll",
+       "ru": "должна ли"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "zermalmet",
+       "ru": "сокрушённая,"
+      },
+      {
+       "de": "nun",
+       "ru": "теперь"
+      },
+      {
+       "de": "von hinnen",
+       "ru": "отсюда"
+      },
+      {
+       "de": "gehn",
+       "ru": "уйти?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "ja",
+       "ru": "ведь"
+      },
+      {
+       "de": "schläft",
+       "ru": "спит"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "lockend",
+       "ru": "маняще,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "wonnig",
+       "ru": "блаженно,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "schön",
+       "ru": "прекрасно!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Geknüpft ist",
+       "ru": "Скреплена"
+      },
+      {
+       "de": "auf ewig",
+       "ru": "навек"
+      },
+      {
+       "de": "das eherne",
+       "ru": "несокрушимая"
+      },
+      {
+       "de": "Band",
+       "ru": "связь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Ehern — «медный, бронзовый», а в стихах — о том, что нерушимо: медные узы и есть несокрушимая связь. Это то самое Band («связь»), которое в четвёртой строфе казалось разорванным."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "Geister",
+       "ru": "духи"
+      },
+      {
+       "de": "der Väter",
+       "ru": "отцов"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Nebelgewand",
+       "ru": "облачении из тумана"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Geist об умершем — «дух», а не «привидение»: русское слово сделало бы готическую сцену бытовой. Nebelgewand — сложение из Nebel («туман») и Gewand («облачение»): духи предков одеты туманом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ergreifen",
+       "ru": "Берут"
+      },
+      {
+       "de": "die silbernen",
+       "ru": "серебряные"
+      },
+      {
+       "de": "Harfen",
+       "ru": "арфы."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -111,8 +2027,229 @@
     "Und stösst ihn ergriffen von innigem Weh",
     "Mit Hast in den Busen, so blendend als Schnee,",
     "Und sinkt am schimmernden Felsen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "plötzlich",
+       "ru": "вдруг"
+      },
+      {
+       "de": "entreisst",
+       "ru": "вырывает"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "sehnender",
+       "ru": "тоскующей"
+      },
+      {
+       "de": "Eil'",
+       "ru": "поспешностью"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Wunde",
+       "ru": "Из раны"
+      },
+      {
+       "de": "des Lieben",
+       "ru": "любимого"
+      },
+      {
+       "de": "den tödtenden",
+       "ru": "смертоносную"
+      },
+      {
+       "de": "Pfeil",
+       "ru": "стрелу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Der Wunde — дательный падеж без предлога при entreissen: «вырывает у раны», по-русски «из раны». Eil' строкой выше — усечённое Eile («поспешность»). Der Pfeil по-немецки мужского рода, поэтому в следующей строке стрела названа ihn («его»), а по-русски она «её»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "stösst",
+       "ru": "вонзает"
+      },
+      {
+       "de": "ihn",
+       "ru": "её,"
+      },
+      {
+       "de": "ergriffen",
+       "ru": "охваченная"
+      },
+      {
+       "de": "von innigem",
+       "ru": "глубоким"
+      },
+      {
+       "de": "Weh",
+       "ru": "горем,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "У Бертрана в этой строке стояло ergriffen von Freuden und Weh — «охваченная радостью и горем». Шуберт, как отмечает Рен, оставил одно горе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit Hast",
+       "ru": "Второпях"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den Busen",
+       "ru": "грудь,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "blendend",
+       "ru": "ослепительно"
+      },
+      {
+       "de": "",
+       "ru": "белую,"
+      },
+      {
+       "de": "als",
+       "ru": "как"
+      },
+      {
+       "de": "Schnee",
+       "ru": "снег,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        7
+       ],
+       "text": "Als стоит здесь там, где сегодня стояло бы wie: старое сравнительное «как». Blendend — «ослепительный», а в паре со снегом это привычная формула белизны (у Гримма blendend weisz — «ослепительно белый»), поэтому по-русски добавлено «белую»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sinkt",
+       "ru": "оседает"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "schimmernden",
+       "ru": "мерцающей"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скалы."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Рен читает финал как Liebestod («смерть от любви») без всяких колебаний: Минона сразу знает, что делать со стрелой, и выбирает лечь рядом с Эдгаром."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Friedrich Anton Franz Bertrand"
+ "about": [
+  {
+   "title": "8 февраля 1815 года",
+   "text": "Песня помечена 8 февраля 1815 года — эту дату дают и буклет антологии Hyperion Schubert Edition, и справочник о песнях Шуберта, который ведёт Малколм Рен. Шуберту тогда только что исполнилось восемнадцать."
+  },
+  {
+   "title": "Публикация",
+   "text": "Напечатана «Минона» была только в 1894 году — почти через восемьдесят лет после сочинения и через шестьдесят шесть после смерти Шуберта; эту дату приводит буклет антологии Hyperion Schubert Edition.\nСтихотворение появилось раньше песни почти на десятилетие: по данным справочника Рена, написано оно в 1806 году, а напечатано в 1808-м."
+  },
+  {
+   "title": "Фридрих Антон Франц Бертран",
+   "text": "О поэте известно мало. Исследователь Джон Рид предполагал, что Бертран, как и Кеннер, принадлежал к шубертовскому кругу; Грэм Джонсон, пианист и автор комментариев к антологии Hyperion Schubert Edition, считает это маловероятным — стихотворение было напечатано в Лейпциге ещё в 1808 году, когда Шуберту было одиннадцать.\nНа стихи Бертрана Шуберт написал и вторую балладу — «Adelwold und Emma» («Адельвольд и Эмма»)."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Источник, по которому работал Шуберт, установил Петер Растль: альманах «Taschenbuch zum geselligen Vergnügen» («Карманная книжка для приятного общества»), восемнадцатый выпуск за 1808 год, издатель В. Г. Беккер, Лейпциг, издательство Niemann, страницы 228–230. Тот же лейпцигский альманах называет и буклет Hyperion.\nПоложил на музыку Шуберт не всё стихотворение: строки, набранные в источнике курсивом, в песню не вошли — на это указывает Рен. Он же собрал разночтения. Der Minnegesang стал ihr Minnegesang («их песнь любви»), greift sie Entsetzen превратилось в fasst sie Entsetzen («её охватывает ужас»), schleicht wieder («снова») в schleicht nieder («вниз»), nun ewig («ныне навеки») в auf ewig («навек»), а одна silberne Harfe («серебряная арфа») во множественное die silbernen Harfen («серебряные арфы»).\nНемецкий текст на странице сохраняет написание эпохи: Todten вместо Toten, Thür вместо Tür, Thal вместо Tal («долина»); стояло в альманахе и itzt там, где сегодня пишут jetzt."
+  },
+  {
+   "title": "Музыка",
+   "text": "Вступление у фортепиано мощное и мрачное: Джонсон сравнивает его с медленно наплывающей грядой туч, застилающей свет. Три сильные октавы в левой руке объявляют ля минор, но музыка уходит в си минор и дальше в до-диез минор — через задержания в правой руке.\nСо второй по четвёртую строфу идёт речитатив высокого качества, и первое время он звучит совсем без фортепиано; от этого, по Джонсону, он пробирает вдвойне. Строки «Und über die Haide» («И над пустошью») ложатся в ми-бемоль мажор, но опираются на ту же гармоническую последовательность, с которой баллада началась.\nФигурация, изображающая битву духов, вернётся у Шуберта через несколько месяцев — в «Rastlose Liebe» («Неугомонная любовь»)."
+  },
+  {
+   "title": "Музыка: память и предвестия",
+   "text": "Джонсон слышит в балладе разом и память о Моцарте, и оперу, которой ещё не было. Серебряные арфы духов предков в одиннадцатой строфе звучат с мистической широтой и величием, за которыми ему слышится «Лоэнгрин» и даже «Золото Рейна». А в заключительных тактах явственно проступает Рондо ля минор Моцарта (K 511) — так же, как в начале «Der Liedler» («Певец»), написанного месяцем раньше."
+  },
+  {
+   "title": "Немой фильм",
+   "text": "Малколм Рен предлагает читать балладу как сюжет для короткого фильма немой эры, с Лилиан Гиш или Мэри Пикфорд в роли Миноны. Единственное подобие диалога здесь — приход молчаливого пса с вестью о случившемся; всё остальное — невысказанное предчувствие и горе героини.\nПредысторию Рен восстанавливает так: отец Миноны поклялся убить Эдгара, если тот от неё не отступится. При этом покорной затворницей она не была — иначе, замечает Рен, охотничьи псы Эдгара не знали бы её так близко."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Комментаторы балладу либо обходят молчанием, либо отзываются о ней резко — так описывает её участь Джонсон. Из большого собрания записей Дитриха Фишера-Дискау «Минона» выпала, как и вторая песня на стихи Бертрана. К тому времени, когда Джонсон писал свой комментарий, песня не была записана ни разу."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Записей всего две. В 1989 году «Минону» спела Элли Амелинг с Грэмом Джонсоном за фортепиано — седьмой том антологии Hyperion Schubert Edition, «Schubert in 1815 I» (CDJ33007); судя по комментарию Джонсона, это и была первая запись песни. В 2008 году её записали Фердинанд фон Ботмер и Уте Айзенлор — двадцать девятый том серии Naxos, «Settings of Various Poets» («Стихи разных поэтов»), 8.570838."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
