@@ -28,6 +28,7 @@ const texts = [];
   if (lde.length !== lru.length) add('ERROR', `строфа ${si}`, `lines_de(${lde.length}) != lines_ru(${lru.length})`);
   lde.forEach((line, li) => {
     if (/\n/.test(line)) add('ERROR', `${si}:${li}`, 'перенос строки внутри строки DE');
+    if (/^\s*\d+[.)]?\s*$/.test(line)) add('ERROR', `${si}:${li}`, 'строка DE состоит только из числа — артефакт импорта (нумерация строк источника)');
     if (line && !/^\[/.test(line) && !/^[«"(„“‚»]*[A-ZÄÖÜ]/.test(line)) add('WARN', `${si}:${li}`, 'строка DE не с заглавной: ' + line.slice(0, 30));
   });
   lru.forEach((lineRu, li) => {

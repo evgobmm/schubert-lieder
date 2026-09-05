@@ -1,17 +1,135 @@
 {
  "d": "159",
  "title_de": "Die Erwartung",
+ "title_ru": "Ожидание",
+ "poet_de": "Friedrich Schiller",
+ "poet_ru": "Фридрих Шиллер",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Erwartung — «ожидание»: здесь это напряжённое предвкушение встречи. Малколм Рен, автор комментариев к песням Шуберта на сайте schubertsong.uk, замечает, что чувствам этого говорящего доверять нельзя: ожидание связывает каждое восприятие с его собственным волнением, и потому за любым звуком в саду ему слышится она."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
     "Hör’ ich das Pförtchen nicht gehen?",
     "Hat nicht der Riegel geklirrt?",
     "Nein, es war des Windes Wehen,",
-    "Der durch diese Pappeln schwirrt.",
-    "5"
+    "Der durch diese Pappeln schwirrt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "слышу ли",
+       "de": "Hör’"
+      },
+      {
+       "ru": "я,",
+       "de": "ich"
+      },
+      {
+       "ru": "как калитка",
+       "de": "das Pförtchen"
+      },
+      {
+       "ru": "отворяется?",
+       "de": "gehen?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Pförtchen — уменьшительное от Pforte («ворота, дверца»): калитка в садовой ограде. Словарь Гриммов приводит в этой статье именно эту строку Шиллера. Gehen («идти») о калитке значит двигаться на петлях — по-русски она «отворяется»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "лязгнул ли",
+       "de": "Hat… geklirrt?"
+      },
+      {
+       "ru": "засов?",
+       "de": "der Riegel"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Hat… geklirrt — разорванная глагольная рамка: вспомогательный глагол в начале строки, причастие в конце. Klirren у Гриммов — резкий дребезжащий звук металла или стекла; о засове это «лязгнуть», а не «зазвенеть»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нет,",
+       "de": "Nein,"
+      },
+      {
+       "ru": "это",
+       "de": "es"
+      },
+      {
+       "ru": "было",
+       "de": "war"
+      },
+      {
+       "ru": "веяние",
+       "de": "Wehen,"
+      },
+      {
+       "ru": "ветра,",
+       "de": "des Windes"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Который",
+       "de": "Der"
+      },
+      {
+       "ru": "шелестит",
+       "de": "schwirrt."
+      },
+      {
+       "ru": "сквозь",
+       "de": "durch"
+      },
+      {
+       "ru": "эти",
+       "de": "diese"
+      },
+      {
+       "ru": "тополя.",
+       "de": "Pappeln"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -21,19 +139,388 @@
     "Ihr Zweige, baut ein schattendes Gemach,",
     "Mit holder Nacht sie heimlich zu umfangen,",
     "Und all ihr Schmeichellüfte werdet wach",
-    "10",
     "Und scherzt und spielt um ihre Rosenwangen,",
     "Wenn seine schöne Bürde, leicht bewegt,",
     "Der zarte Fuß zum Sitz der Liebe trägt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "О,",
+       "de": "O"
+      },
+      {
+       "ru": "украсься,",
+       "de": "schmücke dich,"
+      },
+      {
+       "ru": "ты,",
+       "de": "du"
+      },
+      {
+       "ru": "зелёной",
+       "de": "grün"
+      },
+      {
+       "ru": "листвой покрытый",
+       "de": "belaubtes"
+      },
+      {
+       "ru": "кров,",
+       "de": "Dach,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ты",
+       "de": "Du"
+      },
+      {
+       "ru": "должен",
+       "de": "sollst"
+      },
+      {
+       "ru": "принять",
+       "de": "empfangen,"
+      },
+      {
+       "ru": "сияющую прелестью,",
+       "de": "die Anmuthstrahlende"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Anmuthstrahlende — слово, сложенное самим Шиллером: Anmut («прелесть, грация») и strahlend («сияющий»). Словарной статьи у него нет, смысл складывается из частей — та, что сияет прелестью. Anmuth здесь в написании эпохи, сегодня пишут Anmut."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вы,",
+       "de": "Ihr"
+      },
+      {
+       "ru": "ветви,",
+       "de": "Zweige,"
+      },
+      {
+       "ru": "стройте",
+       "de": "baut"
+      },
+      {
+       "ru": "тенистый",
+       "de": "ein schattendes"
+      },
+      {
+       "ru": "покой,",
+       "de": "Gemach,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Gemach — «покой, комната»: ветвям велено выстроить из тени настоящую комнату. Слово родственно наречию gemach («не спеша, покойно») и сегодня звучит книжно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Чтобы",
+       "de": "zu"
+      },
+      {
+       "ru": "милой",
+       "de": "holder"
+      },
+      {
+       "ru": "ночью",
+       "de": "Mit… Nacht"
+      },
+      {
+       "ru": "тайно",
+       "de": "heimlich"
+      },
+      {
+       "ru": "её",
+       "de": "sie"
+      },
+      {
+       "ru": "объять,",
+       "de": "umfangen,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "все",
+       "de": "all"
+      },
+      {
+       "ru": "вы,",
+       "de": "ihr"
+      },
+      {
+       "ru": "ласковые дуновения,",
+       "de": "Schmeichellüfte"
+      },
+      {
+       "ru": "пробудитесь",
+       "de": "werdet wach"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Werdet wach — буквально «станьте бодрствующими»: wach у Гриммов значит «не спящий». По-русски на это хватает одного глагола."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "резвитесь,",
+       "de": "scherzt"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "играйте",
+       "de": "spielt"
+      },
+      {
+       "ru": "вокруг",
+       "de": "um"
+      },
+      {
+       "ru": "её",
+       "de": "ihre"
+      },
+      {
+       "ru": "розовых щёк,",
+       "de": "Rosenwangen,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Когда",
+       "de": "Wenn"
+      },
+      {
+       "ru": "свою",
+       "de": "seine"
+      },
+      {
+       "ru": "прекрасную",
+       "de": "schöne"
+      },
+      {
+       "ru": "ношу,",
+       "de": "Bürde,"
+      },
+      {
+       "ru": "легко",
+       "de": "leicht"
+      },
+      {
+       "ru": "движимую,",
+       "de": "bewegt,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нежная",
+       "de": "Der zarte"
+      },
+      {
+       "ru": "нога",
+       "de": "Fuß"
+      },
+      {
+       "ru": "несёт",
+       "de": "trägt."
+      },
+      {
+       "ru": "к",
+       "de": "zum"
+      },
+      {
+       "ru": "обители",
+       "de": "Sitz"
+      },
+      {
+       "ru": "любви.",
+       "de": "der Liebe"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Подлежащее у этой длинной фразы — der zarte Fuß («нежная нога»), а seine schöne Bürde («свою прекрасную ношу») — то, что она несёт: сама возлюбленная. Bürde у Гриммов — «ноша, груз»; здесь ноша драгоценная."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Stille, was schlüpft durch die Hecken",
     "Raschelnd mit eilendem Lauf?",
-    "15",
     "Nein, es scheuchte nur der Schrecken",
     "Aus dem Busch den Vogel auf."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Тише,",
+       "de": "Stille,"
+      },
+      {
+       "ru": "что",
+       "de": "was"
+      },
+      {
+       "ru": "проскальзывает",
+       "de": "schlüpft"
+      },
+      {
+       "ru": "сквозь",
+       "de": "durch"
+      },
+      {
+       "ru": "живые изгороди",
+       "de": "die Hecken"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Stille здесь — обращение-приказ «тише!», а не существительное die Stille («тишина»). Различает их синтаксис — артикля рядом нет, зато следом идёт вопрос."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Шурша,",
+       "de": "Raschelnd"
+      },
+      {
+       "ru": "торопливым",
+       "de": "mit eilendem"
+      },
+      {
+       "ru": "бегом?",
+       "de": "Lauf?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Mit eilendem Lauf — «с торопливым бегом»: немецкий предлог mit с дательным падежом по-русски естественнее ложится в творительный без предлога."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нет,",
+       "de": "Nein,"
+      },
+      {
+       "ru": "это",
+       "de": "es"
+      },
+      {
+       "ru": "лишь",
+       "de": "nur"
+      },
+      {
+       "ru": "испуг",
+       "de": "der Schrecken"
+      },
+      {
+       "ru": "вспугнул",
+       "de": "scheuchte"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Из",
+       "de": "Aus"
+      },
+      {
+       "ru": "куста",
+       "de": "dem Busch"
+      },
+      {
+       "ru": "птицу.",
+       "de": "den Vogel auf."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Scheuchte… auf — разорванный глагол aufscheuchen («вспугнуть»): приставка ушла в конец следующей строки. Отдельного русского слова ей не досталось, она сидит внутри «вспугнул»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -41,13 +528,274 @@
     "O! lösche deine Fackel, Tag! hervor,",
     "Du geist’ge Nacht, mit deinem holden Schweigen,",
     "Breit’ um uns her den purpurrothen Flor,",
-    "20",
     "Umspinn uns mit geheimnißvollen Zweigen,",
     "Der Liebe Wonne flieht des Lauschers Ohr,",
     "Sie flieht des Strahles unbescheidnen Zeugen!",
     "Nur Hesper, der verschwiegene, allein",
-    "Darf still herblickend ihr Vertrauter seyn.",
-    "25"
+    "Darf still herblickend ihr Vertrauter seyn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "О!",
+       "de": "O!"
+      },
+      {
+       "ru": "погаси",
+       "de": "lösche"
+      },
+      {
+       "ru": "свой",
+       "de": "deine"
+      },
+      {
+       "ru": "факел,",
+       "de": "Fackel,"
+      },
+      {
+       "ru": "День!",
+       "de": "Tag!"
+      },
+      {
+       "ru": "Выйди,",
+       "de": "hervor,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Hervor — «наружу, из укрытия на вид». Глагола при нём нет: день гасит факел, и ночи остаётся выйти вперёд — «выйди» здесь договорено по смыслу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ты,",
+       "de": "Du"
+      },
+      {
+       "ru": "духовная",
+       "de": "geist’ge"
+      },
+      {
+       "ru": "ночь,",
+       "de": "Nacht,"
+      },
+      {
+       "ru": "со",
+       "de": "mit"
+      },
+      {
+       "ru": "своим",
+       "de": "deinem"
+      },
+      {
+       "ru": "милым",
+       "de": "holden"
+      },
+      {
+       "ru": "молчанием,",
+       "de": "Schweigen,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Раскинь",
+       "de": "Breit’"
+      },
+      {
+       "ru": "вокруг",
+       "de": "um… her"
+      },
+      {
+       "ru": "нас",
+       "de": "uns"
+      },
+      {
+       "ru": "пурпурный",
+       "de": "den purpurrothen"
+      },
+      {
+       "ru": "флёр,",
+       "de": "Flor,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Um… her — устойчивая рамка: um uns her значит «вокруг нас», а не «к нам»; her внутри неё теряет собственное направление."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Flor — здесь не «цветение» (в немецком это два разных слова-омонима), а флёр: тонкая полупрозрачная ткань, какую набрасывают пологом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Оплети",
+       "de": "Umspinn"
+      },
+      {
+       "ru": "нас",
+       "de": "uns"
+      },
+      {
+       "ru": "таинственными",
+       "de": "mit geheimnißvollen"
+      },
+      {
+       "ru": "ветвями,",
+       "de": "Zweigen,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Блаженство",
+       "de": "Wonne"
+      },
+      {
+       "ru": "любви",
+       "de": "Der Liebe"
+      },
+      {
+       "ru": "бежит от",
+       "de": "flieht"
+      },
+      {
+       "ru": "уха",
+       "de": "Ohr,"
+      },
+      {
+       "ru": "соглядатая,",
+       "de": "des Lauschers"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Fliehen управляет винительным падежом: flieht des Lauschers Ohr — «бежит от уха соглядатая», уклоняется от него. Lauscher у Гриммов — тот, кто подслушивает."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Оно",
+       "de": "Sie"
+      },
+      {
+       "ru": "бежит от",
+       "de": "flieht"
+      },
+      {
+       "ru": "нескромного",
+       "de": "unbescheidnen"
+      },
+      {
+       "ru": "свидетеля —",
+       "de": "Zeugen!"
+      },
+      {
+       "ru": "луча!",
+       "de": "des Strahles"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Des Strahles… Zeugen — родительный падеж: свидетелем назван сам луч, нескромный соглядатай света."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Лишь",
+       "de": "Nur"
+      },
+      {
+       "ru": "Геспер,",
+       "de": "Hesper,"
+      },
+      {
+       "ru": "молчаливый,",
+       "de": "der verschwiegene,"
+      },
+      {
+       "ru": "один",
+       "de": "allein"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Геспер (Hesperos) — греческое имя вечерней звезды, планеты Венеры. В поэзии эпохи это обычное имя первой звезды, которая зажигается после заката."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Смеет,",
+       "de": "Darf"
+      },
+      {
+       "ru": "тихо",
+       "de": "still"
+      },
+      {
+       "ru": "взирая сюда,",
+       "de": "herblickend"
+      },
+      {
+       "ru": "быть",
+       "de": "seyn."
+      },
+      {
+       "ru": "её",
+       "de": "ihr"
+      },
+      {
+       "ru": "наперсником.",
+       "de": "Vertrauter"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -56,20 +804,423 @@
     "Flüsternden Stimmen gleich?",
     "Nein, der Schwan ists, der die Kreise",
     "Ziehet durch den Silberteich."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "позвало ли",
+       "de": "Rief"
+      },
+      {
+       "ru": "это",
+       "de": "es"
+      },
+      {
+       "ru": "тихо",
+       "de": "leise,"
+      },
+      {
+       "ru": "издалека,",
+       "de": "von ferne"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Подобно",
+       "de": "gleich?"
+      },
+      {
+       "ru": "шепчущим",
+       "de": "Flüsternden"
+      },
+      {
+       "ru": "голосам?",
+       "de": "Stimmen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Gleich с дательным падежом значит «подобно» и стоит после того, чему уподобляют: Flüsternden Stimmen gleich — «подобно шепчущим голосам». Разговорное gleich («сейчас»), которое первым слышится сегодня, к этой строке отношения не имеет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нет,",
+       "de": "Nein,"
+      },
+      {
+       "ru": "это",
+       "de": "ists,"
+      },
+      {
+       "ru": "лебедь,",
+       "de": "der Schwan"
+      },
+      {
+       "ru": "который",
+       "de": "der"
+      },
+      {
+       "ru": "круги",
+       "de": "die Kreise"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Ists — стяжение ist es («это есть»), обычное в стихе эпохи."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Рен обращает внимание, что говорящий всякий раз сам себя поправляет — и что сад вокруг него ухоженный: даже вода в пруду только журчит."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Чертит",
+       "de": "Ziehet"
+      },
+      {
+       "ru": "по",
+       "de": "durch"
+      },
+      {
+       "ru": "серебристому пруду.",
+       "de": "den Silberteich."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Silberteich — пруд, сверкающий как серебро; у Гриммов эта строка Шиллера стоит примером к слову. Durch значит «сквозь, через», но круги по воде русский чертит «по» глади."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Mein Ohr umtönt ein Harmonieenfluß,",
-    "30",
     "Der Springquell fällt mit angenehmem Rauschen,",
     "Die Blume neigt sich bey des Westes Kuß,",
     "Und alle Wesen seh ich Wonne tauschen;",
     "Die Traube winkt, die Pfirsche zum Genuß,",
     "Die üppig schwellend hinter Blättern lauschen;",
-    "35",
     "Die Luft, getaucht in der Gewürze Flut,",
     "Trinkt von der heißen Wange mir die Glut."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Поток гармоний",
+       "de": "ein Harmonieenfluß,"
+      },
+      {
+       "ru": "обволакивает звуком",
+       "de": "umtönt"
+      },
+      {
+       "ru": "моё",
+       "de": "Mein"
+      },
+      {
+       "ru": "ухо,",
+       "de": "Ohr"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Здесь, по чтению Рена, говорящий перестаёт вздрагивать от каждого звука: разрозненные шорохи первых строф складываются в поток гармонии."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Umtönen — «звучать вокруг, обволакивать звуком». Немецкая фраза начинается с дополнения: Mein Ohr («моё ухо») вынесено вперёд, а подлежащее — Harmonieenfluß, ещё один сложенный Шиллером образ: «поток гармоний»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Бьющий ключ",
+       "de": "Der Springquell"
+      },
+      {
+       "ru": "струится",
+       "de": "fällt"
+      },
+      {
+       "ru": "с",
+       "de": "mit"
+      },
+      {
+       "ru": "приятным",
+       "de": "angenehmem"
+      },
+      {
+       "ru": "шумом,",
+       "de": "Rauschen,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Цветок",
+       "de": "Die Blume"
+      },
+      {
+       "ru": "склоняется",
+       "de": "neigt sich"
+      },
+      {
+       "ru": "от",
+       "de": "bey"
+      },
+      {
+       "ru": "поцелуя",
+       "de": "Kuß,"
+      },
+      {
+       "ru": "Запада,",
+       "de": "des Westes"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Рен видит в этом цветке добровольного собеседника ветра, никакого насилия здесь нет: цветок склоняется, будто его поцеловали."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "West в поэзии эпохи означает западный ветер, зефир, — сторона света тут ни при чём: des Westes Kuß — «поцелуй западного ветра»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "вижу",
+       "de": "seh"
+      },
+      {
+       "ru": "я,",
+       "de": "ich"
+      },
+      {
+       "ru": "как все",
+       "de": "alle"
+      },
+      {
+       "ru": "существа",
+       "de": "Wesen"
+      },
+      {
+       "ru": "обмениваются",
+       "de": "tauschen;"
+      },
+      {
+       "ru": "блаженством;",
+       "de": "Wonne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Seh ich… tauschen — оборот с винительным падежом и инфинитивом, какого в русском нет: он разворачивается в придаточное «вижу, как…»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Виноградная гроздь",
+       "de": "Die Traube"
+      },
+      {
+       "ru": "манит,",
+       "de": "winkt,"
+      },
+      {
+       "ru": "персики —",
+       "de": "die Pfirsche"
+      },
+      {
+       "ru": "к",
+       "de": "zum"
+      },
+      {
+       "ru": "наслаждению,",
+       "de": "Genuß,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Winken около 1800 года значит «звать, манить к себе», а не «махать рукой». Во второй половине строки глагол не повторён: персики манят так же, как гроздь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Что,",
+       "de": "Die"
+      },
+      {
+       "ru": "пышно",
+       "de": "üppig"
+      },
+      {
+       "ru": "наливаясь,",
+       "de": "schwellend"
+      },
+      {
+       "ru": "таятся",
+       "de": "lauschen;"
+      },
+      {
+       "ru": "за",
+       "de": "hinter"
+      },
+      {
+       "ru": "листьями;",
+       "de": "Blättern"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Lauschen у Аделунга — «прислушиваться, подслушивать»; о персиках за листьями это значит таиться, выглядывая из укрытия. По-русски — «таятся»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Воздух,",
+       "de": "Die Luft,"
+      },
+      {
+       "ru": "погружённый",
+       "de": "getaucht"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "поток",
+       "de": "Flut,"
+      },
+      {
+       "ru": "благовоний,",
+       "de": "der Gewürze"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пьёт",
+       "de": "Trinkt"
+      },
+      {
+       "ru": "с",
+       "de": "von"
+      },
+      {
+       "ru": "моей",
+       "de": "mir"
+      },
+      {
+       "ru": "горячей",
+       "de": "der heißen"
+      },
+      {
+       "ru": "щеки",
+       "de": "Wange"
+      },
+      {
+       "ru": "жар.",
+       "de": "die Glut."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Mir — дательный принадлежности: von der heißen Wange mir значит «с моей горячей щеки». По-русски он превращается в притяжательное «моей»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -77,8 +1228,115 @@
     "Hör’ ich nicht Tritte erschallen?",
     "Rauscht’s nicht den Laubgang daher?",
     "Nein, die Frucht ist dort gefallen,",
-    "40",
     "Von der eignen Fülle schwer."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "слышу ли",
+       "de": "Hör’"
+      },
+      {
+       "ru": "я,",
+       "de": "ich"
+      },
+      {
+       "ru": "как раздаются",
+       "de": "erschallen?"
+      },
+      {
+       "ru": "шаги?",
+       "de": "Tritte"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "шелестит ли что-то",
+       "de": "Rauscht’s"
+      },
+      {
+       "ru": "сюда",
+       "de": "daher?"
+      },
+      {
+       "ru": "по крытой листвой аллее?",
+       "de": "den Laubgang"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Laubgang — аллея, над которой смыкаются кроны, зелёный ход. Гриммы иллюстрируют слово этим самым вопросом Шиллера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нет,",
+       "de": "Nein,"
+      },
+      {
+       "ru": "плод",
+       "de": "die Frucht"
+      },
+      {
+       "ru": "там",
+       "de": "dort"
+      },
+      {
+       "ru": "упал,",
+       "de": "ist… gefallen,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Созревший плод падает сам, от собственной тяжести. По прочтению Рена, эта полнота отвечает состоянию говорящего: в саду всё дозрело, всё готово к встрече."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тяжёлый",
+       "de": "schwer."
+      },
+      {
+       "ru": "от",
+       "de": "Von"
+      },
+      {
+       "ru": "собственного",
+       "de": "der eignen"
+      },
+      {
+       "ru": "изобилия.",
+       "de": "Fülle"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -87,34 +1345,678 @@
     "In süßem Tod und seine Farben blassen,",
     "Kühn öffnen sich im holden Dämmerlicht",
     "Die Kelche schon, die seine Gluten hassen,",
-    "45",
     "Still hebt der Mond sein strahlend Angesicht,",
     "Die Welt zerschmilzt in ruhig große Massen,",
     "Der Gürtel ist von jedem Reiz gelöst,",
     "Und alles Schöne zeigt sich mir entblößt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Само",
+       "de": "selber"
+      },
+      {
+       "ru": "пламенное око",
+       "de": "Flammenauge"
+      },
+      {
+       "ru": "Дня",
+       "de": "Des Tages"
+      },
+      {
+       "ru": "меркнет",
+       "de": "bricht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Brechen о свете и о взгляде значит «меркнуть, гаснуть», а не «ломаться»: das Auge bricht говорят о взоре умирающего. Flammenauge — «пламенное око», сложенное Шиллером имя солнца."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "сладостной",
+       "de": "süßem"
+      },
+      {
+       "ru": "смерти,",
+       "de": "Tod"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "его",
+       "de": "seine"
+      },
+      {
+       "ru": "краски",
+       "de": "Farben"
+      },
+      {
+       "ru": "бледнеют,",
+       "de": "blassen,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Смело",
+       "de": "Kühn"
+      },
+      {
+       "ru": "раскрываются",
+       "de": "öffnen sich"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "милом",
+       "de": "holden"
+      },
+      {
+       "ru": "сумеречном свете",
+       "de": "Dämmerlicht"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Уже",
+       "de": "schon,"
+      },
+      {
+       "ru": "венчики,",
+       "de": "Die Kelche"
+      },
+      {
+       "ru": "что",
+       "de": "die"
+      },
+      {
+       "ru": "ненавидят",
+       "de": "hassen,"
+      },
+      {
+       "ru": "его",
+       "de": "seine"
+      },
+      {
+       "ru": "жар,",
+       "de": "Gluten"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Kelch — чашечка цветка. Раскрываются именно те цветы, что не выносят дневного жара: они дождались заката."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тихо",
+       "de": "Still"
+      },
+      {
+       "ru": "поднимает",
+       "de": "hebt"
+      },
+      {
+       "ru": "луна",
+       "de": "der Mond"
+      },
+      {
+       "ru": "свой",
+       "de": "sein"
+      },
+      {
+       "ru": "сияющий",
+       "de": "strahlend"
+      },
+      {
+       "ru": "лик,",
+       "de": "Angesicht,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Рен читает эту строфу как перемену зрения: солнце сменяется бледной луной, и картину преображает внутренний свет — чем меньше видно снаружи, тем прекраснее всё кажется."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мир",
+       "de": "Die Welt"
+      },
+      {
+       "ru": "растворяется",
+       "de": "zerschmilzt"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "спокойные",
+       "de": "ruhig"
+      },
+      {
+       "ru": "большие",
+       "de": "große"
+      },
+      {
+       "ru": "массы,",
+       "de": "Massen,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Ruhig здесь наречие при große: мир расплывается в «спокойно-большие» массы — очертания теряют подробности и остаются крупными пятнами."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пояс",
+       "de": "Der Gürtel"
+      },
+      {
+       "ru": "развязан",
+       "de": "ist… gelöst,"
+      },
+      {
+       "ru": "у",
+       "de": "von"
+      },
+      {
+       "ru": "всякой",
+       "de": "jedem"
+      },
+      {
+       "ru": "прелести,",
+       "de": "Reiz"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "всё",
+       "de": "alles"
+      },
+      {
+       "ru": "прекрасное",
+       "de": "Schöne"
+      },
+      {
+       "ru": "является",
+       "de": "zeigt sich"
+      },
+      {
+       "ru": "мне",
+       "de": "mir"
+      },
+      {
+       "ru": "обнажённым.",
+       "de": "entblößt."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Seh’ ich nichts weißes dort schimmern?",
-    "50",
     "Glänzt’s nicht wie seidnes Gewand?",
     "Nein, es ist der Säule Flimmern",
     "An der dunkeln Taxuswand."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nichts"
+      },
+      {
+       "ru": "вижу ли",
+       "de": "Seh’"
+      },
+      {
+       "ru": "я,",
+       "de": "ich"
+      },
+      {
+       "ru": "как там",
+       "de": "dort"
+      },
+      {
+       "ru": "мерцает",
+       "de": "schimmern?"
+      },
+      {
+       "ru": "что-то белое?",
+       "de": "weißes"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Nichts weißes — буквально «ничего белого»: местоимение nichts требует по-русски двойного отрицания. В вопросе оно звучит как «не белеет ли там что-нибудь?»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Не",
+       "de": "nicht"
+      },
+      {
+       "ru": "блестит ли это,",
+       "de": "Glänzt’s"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "шёлковое",
+       "de": "seidnes"
+      },
+      {
+       "ru": "одеяние?",
+       "de": "Gewand?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нет,",
+       "de": "Nein,"
+      },
+      {
+       "ru": "это",
+       "de": "es"
+      },
+      {
+       "ru": "—",
+       "de": "ist"
+      },
+      {
+       "ru": "поблёскивание",
+       "de": "Flimmern"
+      },
+      {
+       "ru": "колонны",
+       "de": "der Säule"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "У",
+       "de": "An"
+      },
+      {
+       "ru": "тёмной",
+       "de": "der dunkeln"
+      },
+      {
+       "ru": "тисовой изгороди.",
+       "de": "Taxuswand."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Taxuswand — «тисовая стена»: подстриженный тис, из которого в садах выкладывали тёмные глухие изгороди. Словарной статьи у слова нет, оно собрано из Taxus («тис») и Wand («стена»)."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "O! sehnend Herz, ergötze dich nicht mehr",
     "Mit süßen Bildern wesenlos zu spielen,",
-    "55",
     "Der Arm, der sie umfassen will, ist leer,",
     "Kein Schattenglück kann diesen Busen kühlen;",
     "O! führe mir die Lebende daher,",
     "Laß ihre Hand, die zärtliche, mich fühlen,",
     "Den Schatten nur von ihres Mantels Saum,",
-    "60",
     "Und in das Leben tritt der hohle Traum."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "О!",
+       "de": "O!"
+      },
+      {
+       "ru": "Тоскующее",
+       "de": "sehnend"
+      },
+      {
+       "ru": "сердце,",
+       "de": "Herz,"
+      },
+      {
+       "ru": "больше",
+       "de": "mehr"
+      },
+      {
+       "ru": "не",
+       "de": "nicht"
+      },
+      {
+       "ru": "услаждайся",
+       "de": "ergötze dich"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Здесь, по Рену, поэт признаёт предел метафоры: сколько ни украшай сад образами, она не пришла. Ему нужна сама возлюбленная, во плоти."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Игрой",
+       "de": "zu spielen,"
+      },
+      {
+       "ru": "сладкими",
+       "de": "süßen"
+      },
+      {
+       "ru": "бесплотными",
+       "de": "wesenlos"
+      },
+      {
+       "ru": "образами,",
+       "de": "Mit… Bildern"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Рука,",
+       "de": "Der Arm,"
+      },
+      {
+       "ru": "что",
+       "de": "der"
+      },
+      {
+       "ru": "хочет",
+       "de": "will,"
+      },
+      {
+       "ru": "её",
+       "de": "sie"
+      },
+      {
+       "ru": "обнять,",
+       "de": "umfassen"
+      },
+      {
+       "ru": "—",
+       "de": "ist"
+      },
+      {
+       "ru": "пуста,",
+       "de": "leer,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Никакое",
+       "de": "Kein"
+      },
+      {
+       "ru": "призрачное счастье",
+       "de": "Schattenglück"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "может",
+       "de": "kann"
+      },
+      {
+       "ru": "остудить",
+       "de": "kühlen;"
+      },
+      {
+       "ru": "эту",
+       "de": "diesen"
+      },
+      {
+       "ru": "грудь;",
+       "de": "Busen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Schattenglück — «счастье-тень», мнимое счастье. У Гриммов слово держится на одном-единственном примере: на этой самой строке."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Busen около 1800 года — грудь как вместилище чувств, дом сердца; современное «женский бюст» к этой строке отношения не имеет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "О!",
+       "de": "O!"
+      },
+      {
+       "ru": "Приведи",
+       "de": "führe"
+      },
+      {
+       "ru": "мне",
+       "de": "mir"
+      },
+      {
+       "ru": "сюда",
+       "de": "daher,"
+      },
+      {
+       "ru": "живую,",
+       "de": "die Lebende"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Die Lebende — причастие, ставшее существительным: «живая». Женщина во плоти, в противовес образам и теням предыдущих строк."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Дай",
+       "de": "Laß"
+      },
+      {
+       "ru": "мне",
+       "de": "mich"
+      },
+      {
+       "ru": "почувствовать",
+       "de": "fühlen,"
+      },
+      {
+       "ru": "её",
+       "de": "ihre"
+      },
+      {
+       "ru": "руку,",
+       "de": "Hand,"
+      },
+      {
+       "ru": "нежную,",
+       "de": "die zärtliche,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Лишь",
+       "de": "nur"
+      },
+      {
+       "ru": "тень",
+       "de": "Den Schatten"
+      },
+      {
+       "ru": "от",
+       "de": "von"
+      },
+      {
+       "ru": "подола",
+       "de": "Saum,"
+      },
+      {
+       "ru": "её",
+       "de": "ihres"
+      },
+      {
+       "ru": "плаща,",
+       "de": "Mantels"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "жизнь",
+       "de": "das Leben"
+      },
+      {
+       "ru": "вступает",
+       "de": "tritt"
+      },
+      {
+       "ru": "пустой",
+       "de": "der hohle"
+      },
+      {
+       "ru": "сон.",
+       "de": "Traum."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Hohl — «полый, пустой»: der hohle Traum — грёза, за которой ничего нет."
+      }
+     ]
+    }
    ]
   },
   {
@@ -123,8 +2025,171 @@
     "Die Stunde des Glückes erscheint,",
     "So war sie genaht ungesehen",
     "Und weckte mit Küssen den Freund."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "тихо,",
+       "de": "leis’"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "с",
+       "de": "aus"
+      },
+      {
+       "ru": "небесных",
+       "de": "himmlischen"
+      },
+      {
+       "ru": "высот,",
+       "de": "Höhen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        5
+       ],
+       "text": "Последняя строфа звучит другим голосом — рассказом со стороны, замечает Рен: сообщение о случившемся вместо воззвания. И даже здесь сравнение остаётся неуверенным: как будто с небесных высот."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Является",
+       "de": "erscheint,"
+      },
+      {
+       "ru": "час",
+       "de": "Die Stunde"
+      },
+      {
+       "ru": "счастья,",
+       "de": "des Glückes"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Так",
+       "de": "So"
+      },
+      {
+       "ru": "она",
+       "de": "sie"
+      },
+      {
+       "ru": "приблизилась",
+       "de": "war… genaht"
+      },
+      {
+       "ru": "незримо",
+       "de": "ungesehen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "War genaht — давнопрошедшее время: она подошла ещё раньше, до того как он это заметил. Genaht — старая форма причастия от nahen («приближаться»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "разбудила",
+       "de": "weckte"
+      },
+      {
+       "ru": "поцелуями",
+       "de": "mit Küssen"
+      },
+      {
+       "ru": "друга.",
+       "de": "den Freund."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Она будит его поцелуями — и Рен задаёт вопрос, который остаётся без ответа: если она его будит, не было ли всё стихотворение чем-то вроде сна?"
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Friedrich Schiller"
+ "about": [
+  {
+   "title": "Май 1816 года",
+   "text": "Шуберт написал «Ожидание» в мае 1816 года, девятнадцати лет от роду. Буклет шубертовской серии Hyperion помечает эту музыку как вторую редакцию песни; какой была первая и когда она появилась, установить не удалось."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "Ни об автографе, ни о прижизненной или посмертной публикации, ни о номере опуса сведений найти не удалось."
+  },
+  {
+   "title": "Фридрих Шиллер",
+   "text": "Фридрих Шиллер — драматург, поэт и историк, вместе с Гёте определивший облик веймарской классики. Для Шуберта он стал главным поэтом отрочества. Шиллер умер, когда будущему композитору не было и девяти лет, личного знакомства быть не могло, — но именно на его стихах подросток учился писать песню-балладу. Между 1811 и 1817 годами, по каталогу Отто Дойча, составителя свода сочинений Шуберта, композитор положил на музыку 66 шиллеровских текстов; за всю жизнь он взял около сорока стихотворений и переписывал их почти в восьми десятках редакций и набросков.\nМногое здесь осталось черновиками пятнадцатилетнего мальчика, подражавшего своему кумиру — автору баллад Иоганну Рудольфу Цумштегу. Но из тех же лет вышли «Gruppe aus dem Tartarus» («Группа из Тартара»), «Der Taucher» («Ныряльщик») и «Der Pilgrim» («Пилигрим»), выдержавшие сравнение со зрелыми шедеврами. Шиллер писал крупные, риторически выстроенные баллады и философскую лирику — материал для драматической сцены, где голосу и роялю приходится брать на себя оркестровый размах. Вкус к монологу, к контрасту, к превращению фортепианной партии в театр остался у Шуберта на всю жизнь."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Стихотворение написано в 1796 году и напечатано в конце 1799-го — в «Musen-Almanach für das Jahr 1800» («Альманах муз на 1800 год»), который Шиллер издавал сам: Тюбинген, издательство Котты, страницы 226–229. Исследователь Петер Растль сверил текст ещё с двумя изданиями — лейпцигским сборником «Gedichte von Friederich Schiller, Erster Theil» («Стихотворения Фридриха Шиллера, часть первая», 1800, издатель Зигфрид Лебрехт Крузиус, страницы 165–168) и девятым томом венского собрания сочинений 1810 года.\nОдиннадцать строф устроены как чередование: короткое четверостишие, где вопрос тут же получает ответ, и длинное восьмистишие-воззвание к саду, ко дню, к ночи. Написание держится норм эпохи: Anmuthstrahlende («сияющая прелестью»), purpurrothen («пурпурного»), geheimnißvollen («таинственных»), seyn («быть») — сегодня эти слова пишут Anmutstrahlende, purpurroten, geheimnisvollen, sein. Кое-где старое написание всё же выправлено: в тексте в орфографии эпохи стоят Fluth и Reitz, здесь — Flut («поток») и Reiz («прелесть»)."
+  },
+  {
+   "title": "Музыка",
+   "text": "Разбора музыки этой песни — тональности, формы, устройства фортепианной партии — найти не удалось. О размерах написанного говорит хронометраж: у меццо-сопрано Джанет Бейкер и пианиста Грэма Джонсона, автора комментариев к шубертовской антологии Hyperion, «Ожидание» идёт тринадцать минут девять секунд и оказывается самой длинной песней на диске."
+  },
+  {
+   "title": "Четыре речи одного вечера",
+   "text": "Малколм Рен, автор комментариев к песням Шуберта на сайте schubertsong.uk, насчитывает в стихотворении четыре рода речи. Есть риторические вопросы, которыми говорящий отзывается на каждый звук и каждое движение снаружи. Есть ответы на них, отделяющие действительное от воображённого. Есть воззвания к саду, ко дню и к ночи: всё вокруг должно приготовиться к приходу возлюбленной. И есть описания природы на закате вместе с попыткой понять, что этот закат значит. Последняя строфа, по Рену, выпадает из ряда — она звучит рассказом со стороны, другим голосом."
+  },
+  {
+   "title": "Сад, а не лес",
+   "text": "Способность говорящего тут же поправлять себя и заново, трезвее, перетолковывать услышанное убеждает Рена, что перед нами не безудержная одержимость. Да и сад описан вполне ухоженный: крытые аллеи, живые изгороди, беседки. Вода в нём только журчит — ни порогов, ни водопадов поблизости."
+  },
+  {
+   "title": "От тревоги к согласию",
+   "text": "К середине текста говорящий успокаивается настолько, что перестаёт торопить приготовления и открывается саду таким, каков тот есть. Звуки, от которых он вздрагивал, складываются теперь в поток гармонии. Цветок, качаемый ветром, для Рена — добровольный участник, а не жертва насилия: он склоняется, будто его поцеловали. Вместо борьбы — общий обмен блаженством, а созревший плод, падающий от собственной тяжести, отвечает этой полноте и говорит, что всё готово.\nВ предпоследней строфе свет уходит, солнце сменяется бледной луной, и внутренний взгляд поэта приспосабливается к перемене: чем меньше видно снаружи, тем прекраснее кажется всё внутри."
+  },
+  {
+   "title": "Предел метафоры",
+   "text": "При всём великолепии приготовлений остаётся простой факт: она не пришла. Говорящий велит себе перестать играть образами — поэт, замечает Рен, признаёт предел метафоры: ему нужна сама возлюбленная, а не её идея. И тут, с последним не вполне уверенным сравнением, «как будто с небесных высот», она появляется и будит его поцелуями.\nФинальная строка звучит сообщением о случившемся. Но если она его будит, спрашивает Рен, не значит ли это, что весь предшествующий текст был порождён чем-то вроде сна? Может быть, такое живое предвкушение — из тех снов, которые всегда будут казаться нам достовернее разочаровывающей яви, в которую большинство из нас просыпается."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "О позднейшей судьбе песни — переизданиях, вхождении в концертный обиход, откликах современников — сведений нет."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Дитрих Фишер-Дискау (баритон) и Джералд Мур (фортепиано) записали «Ожидание» для полного собрания песен Шуберта «Sämtliche Lieder» («Все песни») на Deutsche Grammophon; по дискографиям сессии этого свода шли с 1966 по 1972 год.\nВ феврале 1987 года Бейкер и Джонсон записали песню для первого тома антологии Hyperion Schubert Edition — «Goethe & Schiller Settings» («Песни на стихи Гёте и Шиллера», CDJ33001). Диск вышел в декабре того же года, получил Gramophone Award, а журнал BBC Music Magazine поставил его первым в списке «Top Ten Discs of the Decade» («Десять лучших дисков десятилетия»).\nТенор Лотар Одиниус и пианистка Уте Айзенлор включили «Ожидание» в восемнадцатый том серии Naxos Deutsche Schubert-Lied-Edition — «Schiller, Vols. 3 & 4» («Шиллер, тома 3 и 4», 8.557369-70), вышедший в мае 2005 года; у них песня идёт десять минут двадцать восемь секунд."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
