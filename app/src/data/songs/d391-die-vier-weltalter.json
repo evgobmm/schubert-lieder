@@ -1,9 +1,16 @@
 {
  "d": "391",
  "title_de": "Die vier Weltalter",
+ "title_ru": "Четыре века мира",
+ "poet_de": "Friedrich Schiller",
+ "poet_ru": "Фридрих Шиллер",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Заглавие Шиллера — Die vier Weltalter («Четыре века мира»). У Гесиода, чей счёт веков лежит в основе стихотворения, их пять: золотой, серебряный, бронзовый, век героев и нынешний железный. Певец песни видел четыре века, а в пятом, своём собственном, даёт им пройти перед собой — отсюда число в заглавии."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -13,6 +20,210 @@
     "Zu dem Guten bringt er das Beste;",
     "Denn ohne die Leier im himmlischen Saal",
     "Ist die Freude gemein auch beim Nektarmahl."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Вот"
+      },
+      {
+       "de": "perlet",
+       "ru": "искрится"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Glase",
+       "ru": "бокале"
+      },
+      {
+       "de": "der purpurne",
+       "ru": "пурпурное"
+      },
+      {
+       "de": "Wein",
+       "ru": "вино,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Wohl здесь усилительная частица, «вот уж», без значения «хорошо». Perlen словарь DWDS описывает как «leicht, gleichmäßig und schimmernd herabtropfen» («стекать лёгкими блестящими каплями»); о вине в бокале это игра пузырьков, по-русски — «искрится»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Вот"
+      },
+      {
+       "de": "glänzen",
+       "ru": "сияют"
+      },
+      {
+       "de": "die Augen",
+       "ru": "глаза"
+      },
+      {
+       "de": "der Gäste",
+       "ru": "гостей;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Es zeigt sich",
+       "ru": "Показывается"
+      },
+      {
+       "de": "der Sänger",
+       "ru": "певец,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "tritt",
+       "ru": "входит"
+      },
+      {
+       "de": "herein",
+       "ru": "сюда,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Sänger в текстах этой поры чаще значит «поэт-бард», чем исполнитель: словарь Гриммов толкует слово через средневековых «weltlichen, lyrischen dichter, welche wort und weise finden und vortragen» («светских лирических поэтов, которые находят и слово, и напев, и сами их исполняют»). Русское «певец» несёт ту же двойственность, и она здесь нужна: входящий к застолью — сочинитель, а не приглашённый вокалист."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zu",
+       "ru": "К"
+      },
+      {
+       "de": "dem Guten",
+       "ru": "хорошему"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "bringt",
+       "ru": "приносит"
+      },
+      {
+       "de": "das Beste",
+       "ru": "лучшее;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Denn",
+       "ru": "Ведь"
+      },
+      {
+       "de": "ohne",
+       "ru": "без"
+      },
+      {
+       "de": "die Leier",
+       "ru": "лиры"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "himmlischen",
+       "ru": "небесном"
+      },
+      {
+       "de": "Saal",
+       "ru": "чертоге"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Leier — античная лира (у Гриммов коротко: «leier, f. lyra»), постоянный знак поэзии и певческого искусства. Saal здесь значит «der grosze hallenartige hauptraum» («большой главный покой»), чертог богов; нынешнее «зал» слову не подходит."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "die Freude",
+       "ru": "Радость"
+      },
+      {
+       "de": "Ist",
+       "ru": "—"
+      },
+      {
+       "de": "gemein",
+       "ru": "низменна"
+      },
+      {
+       "de": "auch",
+       "ru": "даже"
+      },
+      {
+       "de": "beim",
+       "ru": "на"
+      },
+      {
+       "de": "Nektarmahl",
+       "ru": "нектарном пиру."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Gemein к началу XIX века уже совместило старое «общий, совместный» с оценочным «низкий, пошлый». Словарь Гриммов называет его «ein altes hochwichtiges und edles wort, nun aber übel heruntergekommen» («старым, весьма важным и благородным словом, ныне же сильно опустившимся»). В строке действует сниженный смысл: без лиры радость становится пошлой."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Nektarmahl («нектарный пир») — трапеза богов; по комментарию schubertlied.de, у Шиллера она украшена игрой Аполлона на струнах и пением муз. На этой замыкающей строке в каждой строфе возвращается разгульный напев, который, как отмечает Грэм Джонсон, автор аннотаций к шубертовской серии Hyperion, Шуберт взял из постлюдии своего более раннего «Punschlied» D 277 на слова Шиллера."
+      }
+     ]
+    }
    ]
   },
   {
@@ -23,6 +234,193 @@
     "Und was uns die Zukunft versiegelt;",
     "Es sass in der Götter urältestem Rath",
     "Und behorchte der Dinge geheimste Saat."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ihm",
+       "ru": "Ему"
+      },
+      {
+       "de": "gaben",
+       "ru": "дали"
+      },
+      {
+       "de": "die Götter",
+       "ru": "боги"
+      },
+      {
+       "de": "das reine",
+       "ru": "чистую"
+      },
+      {
+       "de": "Gemüth",
+       "ru": "душу,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "die ewige",
+       "ru": "вечный"
+      },
+      {
+       "de": "die Welt",
+       "ru": "мир"
+      },
+      {
+       "de": "sich … spiegelt",
+       "ru": "отражается;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Определение отставлено от своего слова: die Welt … die ewige — «мир, тот вечный». Приём высокого стиля, в русском он невозможен, поэтому в подстрочнике «вечный мир» собран заново. Возвратное sich spiegelt разорвано тем же порядком слов и переведено одним «отражается»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "hat … gesehn",
+       "ru": "видел"
+      },
+      {
+       "de": "alles",
+       "ru": "всё,"
+      },
+      {
+       "de": "was",
+       "ru": "что"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Erden",
+       "ru": "земле"
+      },
+      {
+       "de": "geschieht",
+       "ru": "происходит,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "was",
+       "ru": "что"
+      },
+      {
+       "de": "die Zukunft",
+       "ru": "будущее"
+      },
+      {
+       "de": "versiegelt",
+       "ru": "запечатывает"
+      },
+      {
+       "de": "uns",
+       "ru": "от нас;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Es",
+       "ru": "Оно"
+      },
+      {
+       "de": "sass",
+       "ru": "сидело"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "urältestem",
+       "ru": "древнейшем"
+      },
+      {
+       "de": "Rath",
+       "ru": "совете"
+      },
+      {
+       "de": "der Götter",
+       "ru": "богов"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Es — это das reine Gemüth («чистая душа») из первой строки строфы, слово среднего рода; по-русски приходится говорить «оно». Rath (совр. Rat) здесь — совещающееся собрание, совет богов, без оттенка «совет-наставление»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "behorchte",
+       "ru": "подслушало"
+      },
+      {
+       "de": "geheimste",
+       "ru": "сокровеннейшее"
+      },
+      {
+       "de": "Saat",
+       "ru": "семя"
+      },
+      {
+       "de": "der Dinge",
+       "ru": "вещей."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Saat — «посев, семя», то, что взойдёт позже; в паре с превосходной степенью geheimste («сокровеннейшее») выходит зародыш ещё не наступивших событий. Behorchen — «тайно подслушивать»: душа певца слышала будущее прежде, чем оно проросло."
+      }
+     ]
+    }
    ]
   },
   {
@@ -33,6 +431,197 @@
     "Ihm hat es die Muse gegeben.",
     "Kein Dach ist so niedrig, keine Hütte so klein,",
     "Er führt einen Himmel voll Götter hinein."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "lustig",
+       "ru": "весело"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "glänzend",
+       "ru": "блистательно"
+      },
+      {
+       "de": "breitet … aus",
+       "ru": "раскрывает"
+      },
+      {
+       "de": "es",
+       "ru": "её,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Das zusammengefaltete",
+       "ru": "Свёрнутую"
+      },
+      {
+       "de": "Leben",
+       "ru": "жизнь;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Строка договаривает «её» предыдущей строки: es — это Leben («жизнь»). Zusammenfalten — «складывать, сворачивать»: жизнь у Шиллера сложена, как ткань или свиток, и певец разворачивает её во всю ширину."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "Zum"
+      },
+      {
+       "ru": "храм",
+       "de": "Tempel"
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "наряжает",
+       "de": "schmückt"
+      },
+      {
+       "ru": "земной",
+       "de": "das irdische"
+      },
+      {
+       "ru": "дом,",
+       "de": "Haus"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Zum Tempel schmücken — «украсить так, что дом станет храмом»: предлог zu вводит здесь итог действия. В подстрочнике «наряжает» вместо словарного «украшает»: со словарным «украшает» оборот «в храм» не складывается. Irdisch («земной») в эпоху всегда стоит парой к himmlisch («небесному») из первой строфы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihm",
+       "ru": "Ему"
+      },
+      {
+       "de": "es",
+       "ru": "это"
+      },
+      {
+       "de": "hat … gegeben",
+       "ru": "дала"
+      },
+      {
+       "de": "die Muse",
+       "ru": "муза."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Kein",
+       "ru": "Ни одна"
+      },
+      {
+       "de": "Dach",
+       "ru": "крыша"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "ist",
+       "ru": "бывает"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "niedrig",
+       "ru": "низка,"
+      },
+      {
+       "de": "keine",
+       "ru": "ни одна"
+      },
+      {
+       "de": "Hütte",
+       "ru": "хижина"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "klein",
+       "ru": "мала,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "führt … hinein",
+       "ru": "вводит"
+      },
+      {
+       "de": "einen Himmel",
+       "ru": "небо,"
+      },
+      {
+       "de": "voll",
+       "ru": "полное"
+      },
+      {
+       "de": "Götter",
+       "ru": "богов."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Führt … hinein — разделяемый глагол hineinführen («вводить внутрь»); приставка ушла в конец строки и несёт направление: под самую низкую крышу певец вводит целое небо."
+      }
+     ]
+    }
    ]
   },
   {
@@ -43,6 +632,186 @@
     "Gebildet mit göttlicher Kunde;",
     "So drückt er ein Bild des unendlichen All",
     "In des Augenblicks flüchtig verrauschenden Schall."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "der erfindende",
+       "ru": "изобретательный"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын"
+      },
+      {
+       "de": "des Zeus",
+       "ru": "Зевса"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Изобретательный сын Зевса — Гефест, у римлян Вулкан, бог-кузнец. По восемнадцатой песни «Илиады» Гомера он выковал щит Ахилла и изобразил на нём землю, море и звёзды; на этот щит и опираются следующие три строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "einfachem",
+       "ru": "простом"
+      },
+      {
+       "de": "Runde",
+       "ru": "круге"
+      },
+      {
+       "de": "des Schildes",
+       "ru": "щита,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Erde",
+       "ru": "Землю,"
+      },
+      {
+       "de": "das Meer",
+       "ru": "море"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "den Sternenkreis",
+       "ru": "звёздный круг,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Gebildet",
+       "ru": "Изваял"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "göttlicher",
+       "ru": "божественным"
+      },
+      {
+       "de": "Kunde",
+       "ru": "знанием;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Kunde здесь — старшее «знание, умение», одного корня с kennen («знать») и kund («ведомый»); нынешнее Kunde «покупатель» развилось позже и к строке отношения не имеет. Речь о мастерстве бога-кузнеца."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "Так"
+      },
+      {
+       "de": "drückt",
+       "ru": "впечатывает"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "ein Bild",
+       "ru": "образ"
+      },
+      {
+       "de": "des unendlichen",
+       "ru": "бесконечной"
+      },
+      {
+       "de": "All",
+       "ru": "вселенной"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Das All — субстантивированное all («всё»), то есть вселенная, мироздание целиком. Drücken значит «вдавливать, прижимать», отсюда «впечатывает»: образ вселенной оттиснут в звуке одного мгновения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "flüchtig",
+       "ru": "мимолётно"
+      },
+      {
+       "de": "verrauschenden",
+       "ru": "замирающий"
+      },
+      {
+       "de": "Schall",
+       "ru": "звук"
+      },
+      {
+       "de": "des Augenblicks",
+       "ru": "мгновения."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Мимолётный, тут же замирающий звук — материя самой песни. По комментарию schubertlied.de, Шуберт передаёт полёт времени сквозным, не прекращающимся движением шестнадцатыми в сопровождении."
+      }
+     ]
+    }
    ]
   },
   {
@@ -53,6 +822,181 @@
     "Zu allen Geschlechtern und Zeiten.",
     "Vier Menschenalter hat er gesehn",
     "Und lässt sie am fünften vorübergehn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "kommt",
+       "ru": "приходит"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem kindlichen",
+       "ru": "младенческого"
+      },
+      {
+       "de": "Alter",
+       "ru": "возраста"
+      },
+      {
+       "de": "der Welt",
+       "ru": "мира,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "die Völker",
+       "ru": "народы"
+      },
+      {
+       "de": "jugendlich",
+       "ru": "по-юному"
+      },
+      {
+       "de": "sich … freuten",
+       "ru": "радовались;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "hat sich … gesellt",
+       "ru": "присоединился"
+      },
+      {
+       "de": "ein fröhlicher",
+       "ru": "весёлым"
+      },
+      {
+       "de": "Wandrer",
+       "ru": "странником"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Ein fröhlicher Wandrer стоит в именительном падеже — это приложение к «он»: певец пристаёт к людям «как весёлый странник». По-русски то же говорится творительным: «весёлым странником». Sich gesellen zu — «становиться спутником кому-либо»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zu",
+       "ru": "Ко"
+      },
+      {
+       "de": "allen",
+       "ru": "всем"
+      },
+      {
+       "de": "Geschlechtern",
+       "ru": "поколениям"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Zeiten",
+       "ru": "временам."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Vier",
+       "ru": "Четыре"
+      },
+      {
+       "de": "Menschenalter",
+       "ru": "человеческих века"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "hat … gesehn",
+       "ru": "видел"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Отсюда начинается счёт веков, ради которого написано стихотворение. Образец — «Труды и дни» Гесиода, где история поделена на пять веков: золотой, серебряный, бронзовый, век героев и нынешний железный."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "am",
+       "ru": "в"
+      },
+      {
+       "de": "fünften",
+       "ru": "пятом"
+      },
+      {
+       "de": "lässt",
+       "ru": "даёт"
+      },
+      {
+       "de": "sie",
+       "ru": "им"
+      },
+      {
+       "de": "vorübergehn",
+       "ru": "пройти мимо."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Am fünften — «в пятом», порядковое числительное без существительного: подразумевается пятый век, нынешний. Оборот lassen с инфинитивом означает «позволять, давать»: в своём, пятом веке певец даёт четырём прежним пройти перед собой."
+      }
+     ]
+    }
    ]
   },
   {
@@ -63,6 +1007,198 @@
     "Und brauchten für gar nichts zu sorgen.",
     "Sie liebten und thaten weiter nichts mehr,",
     "Die Erde gab alles freiwillig her."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Erst",
+       "ru": "Сперва"
+      },
+      {
+       "de": "regierte",
+       "ru": "царствовал"
+      },
+      {
+       "de": "Saturnus",
+       "ru": "Сатурн"
+      },
+      {
+       "de": "schlicht",
+       "ru": "просто"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "gerecht",
+       "ru": "праведно,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Шестая строфа отдана золотому веку. Сатурн — римское имя того бога, при котором, по Гесиоду, люди жили без боли и труда; у греков он зовётся Кроносом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тогда"
+      },
+      {
+       "de": "war es",
+       "ru": "было"
+      },
+      {
+       "de": "heute",
+       "ru": "сегодня"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "morgen",
+       "ru": "завтра;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Heute wie morgen — оборот о неизменном течении времени: день был неотличим от дня. Здесь morgen — наречие «завтра», а не существительное Morgen («утро»); их различает отсутствие артикля."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тогда"
+      },
+      {
+       "de": "lebten",
+       "ru": "жили"
+      },
+      {
+       "de": "die Hirten",
+       "ru": "пастухи,"
+      },
+      {
+       "de": "ein harmlos",
+       "ru": "безобидное"
+      },
+      {
+       "de": "Geschlecht",
+       "ru": "племя"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Harmlos («безобидный») стоит без окончания — вольность стихотворной речи эпохи; само слово молодое, оно вошло в немецкий в середине XVIII века как калька английского harmless. Geschlecht тут — «род, племя», а не «пол»: так в эпоху называли людей одного времени или происхождения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "für gar nichts",
+       "ru": "вовсе ни о чём"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "brauchten",
+       "ru": "нужно было"
+      },
+      {
+       "de": "zu sorgen",
+       "ru": "заботиться."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "liebten",
+       "ru": "любили"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "thaten",
+       "ru": "делали"
+      },
+      {
+       "de": "weiter nichts mehr",
+       "ru": "больше ничего,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Weiter nichts mehr — тройное усиление: «дальше», «ничего», «больше»; по-русски достаточно «больше ничего». Thaten — написание эпохи, нынешнее taten («делали»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Erde",
+       "ru": "Земля"
+      },
+      {
+       "de": "gab … her",
+       "ru": "отдавала"
+      },
+      {
+       "de": "alles",
+       "ru": "всё"
+      },
+      {
+       "de": "freiwillig",
+       "ru": "добровольно."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -73,6 +1209,190 @@
     "Und den Mächtigen suchten die Schwachen.",
     "Und der Streit zog in des Skamanders Feld,",
     "Doch die Schönheit war immer der Gott der Welt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Drauf",
+       "ru": "Затем"
+      },
+      {
+       "de": "kam",
+       "ru": "пришёл"
+      },
+      {
+       "de": "die Arbeit",
+       "ru": "труд,"
+      },
+      {
+       "de": "begann",
+       "ru": "началась"
+      },
+      {
+       "de": "der Kampf",
+       "ru": "борьба,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit",
+       "ru": "С"
+      },
+      {
+       "de": "Ungeheuern",
+       "ru": "чудовищами"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Drachen",
+       "ru": "драконами;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "fingen … an",
+       "ru": "начались"
+      },
+      {
+       "de": "die Helden",
+       "ru": "герои,"
+      },
+      {
+       "de": "die Herrscher",
+       "ru": "правители,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Fingen … an — разделяемый глагол anfangen («начинаться»), а не претерит от fangen («ловить»); приставка отброшена в конец, и запятая внутри строки разрывает подлежащие. Смысл: настала пора героев и властителей."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "die Schwachen",
+       "ru": "слабые"
+      },
+      {
+       "de": "suchten",
+       "ru": "искали"
+      },
+      {
+       "de": "den Mächtigen",
+       "ru": "могущественного."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Den Mächtigen suchen — «искать сильного», то есть искать у него защиты и покровительства. Прилагательные mächtig и schwach здесь субстантивированы: «могущественный» и «слабые» как сословия нового века."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der Streit",
+       "ru": "распря"
+      },
+      {
+       "de": "zog",
+       "ru": "двинулась"
+      },
+      {
+       "de": "in",
+       "ru": "на"
+      },
+      {
+       "de": "Feld",
+       "ru": "поле"
+      },
+      {
+       "de": "des Skamanders",
+       "ru": "Скамандра,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Поле Скамандра — Троянская война: Скамандр течёт близ Трои и впадает в Геллеспонт. По комментарию schubertlied.de, вся строфа глядит на прекрасную Елену, из-за которой эта война и велась."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "die Schönheit",
+       "ru": "Красота"
+      },
+      {
+       "de": "immer",
+       "ru": "всегда"
+      },
+      {
+       "de": "war",
+       "ru": "была"
+      },
+      {
+       "de": "der Gott",
+       "ru": "богом"
+      },
+      {
+       "de": "der Welt",
+       "ru": "мира."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Мысль, вокруг которой построено стихотворение: века сменяются, а красота остаётся богом мира. Как пишет Малколм Рен, автор комментариев на сайте schubertsong.uk, Шиллер здесь занят не столько сменой эпох, сколько тем, что проходит сквозь них неизменным."
+      }
+     ]
+    }
    ]
   },
   {
@@ -83,6 +1403,181 @@
     "Da erhuben sich Göttergebilde.",
     "Das Alter der göttlichen Phantasie,",
     "Es ist verschwunden, es kehret nie."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Aus",
+       "ru": "Из"
+      },
+      {
+       "de": "dem Kampf",
+       "ru": "борьбы"
+      },
+      {
+       "de": "ging … hervor",
+       "ru": "вышла"
+      },
+      {
+       "de": "endlich",
+       "ru": "наконец"
+      },
+      {
+       "de": "der Sieg",
+       "ru": "победа,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der Kraft",
+       "ru": "из силы"
+      },
+      {
+       "de": "entblühte",
+       "ru": "расцвела"
+      },
+      {
+       "de": "die Milde",
+       "ru": "милость;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Der Kraft — дательный падеж источника: милость расцветает «из силы», как цветок из стебля. Строку и приводит словарь Гриммов как образцовый пример глагола entblühen («расцветать из чего-либо»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Milde в эпоху — благая, милостивая расположенность, милость; нынешнее «мягкость» слову не подходит. Малколм Рен видит в этой строке поворот от века битв к классической поре: сила расцветает милостью, и дальше царит красота при музах."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тогда"
+      },
+      {
+       "de": "sangen",
+       "ru": "пели"
+      },
+      {
+       "de": "die Musen",
+       "ru": "музы"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "himmlischen",
+       "ru": "небесном"
+      },
+      {
+       "de": "Chor",
+       "ru": "хоре,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тогда"
+      },
+      {
+       "de": "erhuben sich",
+       "ru": "вознеслись"
+      },
+      {
+       "de": "Göttergebilde",
+       "ru": "божественные образы."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Erhuben — старая форма прошедшего времени, нынешняя erhoben («поднялись»). Göttergebilde словарь Гриммов толкует прямо: «statue eines gottes» («статуя бога»), — здесь встают изваяния греческих богов, то есть само искусство."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Das Alter",
+       "ru": "Век"
+      },
+      {
+       "de": "der göttlichen",
+       "ru": "божественной"
+      },
+      {
+       "de": "Phantasie",
+       "ru": "фантазии,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Es",
+       "ru": "Он"
+      },
+      {
+       "de": "ist verschwunden",
+       "ru": "исчез,"
+      },
+      {
+       "de": "es",
+       "ru": "он"
+      },
+      {
+       "de": "nie",
+       "ru": "никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "kehret",
+       "ru": "вернётся."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Названное в предыдущей строке подхватывается местоимением: Das Alter … Es. По-немецки это средний род, по-русски «век» мужского, отсюда «он». Kehret — полная форма нынешнего kehrt, и значит она именно «возвращается»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -93,6 +1588,169 @@
     "Die Gebrechen der Erde zu heilen.",
     "Verbannt ward der Sinne flüchtige Lust,",
     "Und der Mensch griff denkend in seine Brust."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Götter",
+       "ru": "Боги"
+      },
+      {
+       "de": "sanken",
+       "ru": "пали"
+      },
+      {
+       "de": "vom",
+       "ru": "с"
+      },
+      {
+       "de": "Himmelsthron",
+       "ru": "небесного трона,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Девятая строфа — приход христианства. По комментарию schubertlied.de, здесь кончается античный мир: боги оставляют небесный трон, рушатся колонны их храмов, рождается сын Девы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es stürzten",
+       "ru": "Рухнули"
+      },
+      {
+       "de": "die herrlichen",
+       "ru": "великолепные"
+      },
+      {
+       "de": "Säulen",
+       "ru": "колонны,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "geboren wurde",
+       "ru": "родился"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын"
+      },
+      {
+       "de": "der Jungfrau",
+       "ru": "Девы,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "zu heilen",
+       "ru": "Чтобы исцелить"
+      },
+      {
+       "de": "Die Gebrechen",
+       "ru": "недуги"
+      },
+      {
+       "de": "der Erde",
+       "ru": "земли."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Verbannt",
+       "ru": "Изгнана"
+      },
+      {
+       "de": "ward",
+       "ru": "была"
+      },
+      {
+       "de": "flüchtige",
+       "ru": "мимолётная"
+      },
+      {
+       "de": "Lust",
+       "ru": "услада"
+      },
+      {
+       "de": "der Sinne",
+       "ru": "чувств,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Ward — старая форма нынешнего wurde («была»). Lust в текстах этой поры значит прежде всего «отрада, наслаждение», а не «вожделение», как слышится сегодня: изгнана короткая радость чувств."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der Mensch",
+       "ru": "человек,"
+      },
+      {
+       "de": "denkend",
+       "ru": "размышляя,"
+      },
+      {
+       "de": "griff",
+       "ru": "погрузился"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "seine",
+       "ru": "свою"
+      },
+      {
+       "de": "Brust",
+       "ru": "грудь."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        6
+       ],
+       "text": "Англоязычное издание Шиллера, вышедшее в Филадельфии в 1861 году под редакцией Чарльза Хемпеля, толкует эту строку как рождение философского сознания: человек берётся рефлексией постичь начала собственной природы."
+      }
+     ]
+    }
    ]
   },
   {
@@ -103,6 +1761,189 @@
     "Und der eiserne Ritter turnierte.",
     "Doch war das Leben auch finster und wild,",
     "So blieb doch die Liebe lieblich und mild."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der eitle",
+       "ru": "суетная,"
+      },
+      {
+       "de": "der üppige",
+       "ru": "роскошная"
+      },
+      {
+       "de": "Reiz",
+       "ru": "прелесть"
+      },
+      {
+       "de": "entwich",
+       "ru": "улетучилась,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Что"
+      },
+      {
+       "de": "zierte",
+       "ru": "украшала"
+      },
+      {
+       "de": "die frohe",
+       "ru": "радостный"
+      },
+      {
+       "de": "Jugendwelt",
+       "ru": "мир юности;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Der — относительное местоимение мужского рода, оно отсылает к Reiz («прелесть») предыдущей строки; по-русски прелесть женского рода, отсюда «что украшала». Jugendwelt («мир юности») — слово редкое: словарь Гриммов приводит для него именно эту строку Шиллера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Mönch",
+       "ru": "Монах"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "die Nonne",
+       "ru": "монахиня"
+      },
+      {
+       "de": "zergeisselten sich",
+       "ru": "бичевали себя,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Самобичевание монахов и монахинь и турниры рыцарей в железе — для Шиллера приметы одного и того же христианского Средневековья, замечает Малколм Рен; к ним же он относит миннезингеров следующей строфы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der eiserne",
+       "ru": "железный"
+      },
+      {
+       "de": "Ritter",
+       "ru": "рыцарь"
+      },
+      {
+       "de": "turnierte",
+       "ru": "бился на турнирах."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "auch",
+       "ru": "хоть"
+      },
+      {
+       "de": "das Leben",
+       "ru": "жизнь"
+      },
+      {
+       "de": "war",
+       "ru": "и была"
+      },
+      {
+       "de": "finster",
+       "ru": "мрачна"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "wild",
+       "ru": "дика,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "War … auch с глаголом впереди — уступительный оборот: «хотя жизнь и была». Его пара — so в следующей строке: «хоть и…, всё же…»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "То"
+      },
+      {
+       "de": "doch",
+       "ru": "всё же"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "blieb",
+       "ru": "оставалась"
+      },
+      {
+       "de": "lieblich",
+       "ru": "прелестна"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "mild",
+       "ru": "кротка."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -113,6 +1954,169 @@
     "In der Frauen züchtigem Busen.",
     "Die Flamme des Liedes entbrannte neu",
     "An der schönen Minne und Liebestreu."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "einen heiligen",
+       "ru": "святой,"
+      },
+      {
+       "de": "keuschen",
+       "ru": "целомудренный"
+      },
+      {
+       "de": "Altar",
+       "ru": "алтарь"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "stille",
+       "ru": "Тихо"
+      },
+      {
+       "de": "Bewahrten … sich",
+       "ru": "берегли для себя"
+      },
+      {
+       "de": "die Musen",
+       "ru": "музы;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Stille тут наречие от still («тихо»); на существительное die Stille («тишина») место слова при глаголе не указывает. Sich bewahren — «сохранять за собой»: музы тихо удержали свой алтарь при себе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es lebte",
+       "ru": "Жило"
+      },
+      {
+       "de": "was",
+       "ru": "то, что"
+      },
+      {
+       "de": "war",
+       "ru": "было"
+      },
+      {
+       "de": "edel",
+       "ru": "благородно"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "sittlich",
+       "ru": "нравственно,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "züchtigem",
+       "ru": "целомудренной"
+      },
+      {
+       "de": "Busen",
+       "ru": "груди"
+      },
+      {
+       "de": "der Frauen",
+       "ru": "женщин."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Busen около 1800 года — грудь как вместилище чувств, дом сердца; нынешнее сужение слова к женскому бюсту к этой строке отношения не имеет. Züchtig — «целомудренный, скромный»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Flamme",
+       "ru": "Пламя"
+      },
+      {
+       "de": "des Liedes",
+       "ru": "песни"
+      },
+      {
+       "de": "entbrannte",
+       "ru": "разгорелось"
+      },
+      {
+       "de": "neu",
+       "ru": "вновь"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "An",
+       "ru": "От"
+      },
+      {
+       "de": "der schönen",
+       "ru": "прекрасной"
+      },
+      {
+       "de": "Minne",
+       "ru": "рыцарской любви"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Liebestreu",
+       "ru": "верности в любви."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Minne — куртуазная любовь миннезингеров, германских трубадуров вроде Готфрида Страсбургского, сложившего свою версию сказания о Тристане и Изольде; их поэзию заново открыли как раз во времена Шиллера. По мысли стихотворения, христианство не погубило искусства: ушла только суетная роскошь, а алтарь муз уцелел и пламя песни вспыхнуло здесь заново."
+      }
+     ]
+    }
    ]
   },
   {
@@ -123,8 +2127,235 @@
     "Den Gürtel des Schönen und Rechten.",
     "Gesang und Liebe in schönem Verein,",
     "Sie erhalten dem Leben den Jugendschein."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Drum",
+       "ru": "Потому"
+      },
+      {
+       "de": "auch",
+       "ru": "и"
+      },
+      {
+       "de": "ewiges",
+       "ru": "вечные,"
+      },
+      {
+       "de": "zartes",
+       "ru": "нежные"
+      },
+      {
+       "de": "Band",
+       "ru": "узы"
+      },
+      {
+       "de": "soll",
+       "ru": "должны"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Das Band в этом значении — «узы, связь» (множественное Bande), а не лента для волос. Drum — стянутое darum («потому»), в стихе эпохи это обычное сокращение ради размера, без разговорного оттенка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "umflechten",
+       "ru": "Обвивать"
+      },
+      {
+       "de": "Die Frauen",
+       "ru": "женщин,"
+      },
+      {
+       "de": "die Sänger",
+       "ru": "певцов;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Рамка разорвана строкой: soll стоит в конце предыдущей строки, а сам глагол umflechten («обвивать, оплетать, как венок») — здесь. Словарь Гриммов приводит для него как раз эту фразу Шиллера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Они",
+       "de": "Sie"
+      },
+      {
+       "ru": "ткут",
+       "de": "wirken"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "плетут",
+       "de": "weben"
+      },
+      {
+       "ru": "рука об руку",
+       "de": "Hand in Hand"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Wirken и weben — два глагола ткацкого ремесла, оба значат «ткать»; чтобы не повторять слово, второй передан как «плетут». Женщины и певцы вместе ткут пояс из следующей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Den Gürtel",
+       "ru": "Пояс"
+      },
+      {
+       "de": "des Schönen",
+       "ru": "прекрасного"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Rechten",
+       "ru": "справедливого."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Gesang",
+       "ru": "Пение"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "schönem",
+       "ru": "прекрасном"
+      },
+      {
+       "de": "Verein",
+       "ru": "союзе,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Verein здесь — «соединение, союз», состояние соединённости, а не общество с уставом, каким слово стало позже. Словарь Гриммов приводит под этим значением именно строку Шиллера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "erhalten",
+       "ru": "сохраняют"
+      },
+      {
+       "de": "dem Leben",
+       "ru": "жизни"
+      },
+      {
+       "de": "den Jugendschein",
+       "ru": "сияние юности."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Последняя строка — тост: по комментарию schubertlied.de, заключительная строфа обращена к женщинам, сидящим за столом. Она обретает смысл только после всех предыдущих строф — на эту трудность строфической формы указывает Грэм Джонсон."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Friedrich Schiller"
+ "about": [
+  {
+   "title": "Март 1816 года",
+   "text": "«Die vier Weltalter» написана в марте 1816 года: Шуберту было девятнадцать.\nМежду 1811 и 1817 годами Шуберт положил на музыку 66 шиллеровских текстов, и эта застольная песня — из того же раннего пласта. Личного знакомства быть не могло: Шиллер умер, когда будущему композитору не исполнилось и девяти лет."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "При жизни Шуберта песня не печаталась. О первом издании объявлено 5 февраля 1829 года, через несколько месяцев после смерти композитора. Выпустил его венский издатель Йозеф Черни — как Opus 111 № 3, в тетради «Drey Gedichte» под издательским номером 335. Первым номером там стоит «An die Freude» D 189 на слова Шиллера, вторым — «Lebens-Melodien» D 395 на слова Шлегеля, третьим — «Die vier Weltalter».\nПозже песня вошла в старое полное собрание сочинений (серия XX, том 4, № 196), в собрание песен под редакцией Фридлендера (том 4, № 130) и в Новое собрание сочинений Шуберта (серия IV, том 10). Сведения о рукописи восходят к тематическому каталогу Отто Эриха Дойча «Franz Schubert. Thematisches Verzeichnis seiner Werke in chronologischer Folge», с. 235."
+  },
+  {
+   "title": "Фридрих Шиллер",
+   "text": "Драматург, поэт и историк, вместе с Гёте определивший облик веймарской классики, Шиллер был для Шуберта главным поэтом отрочества. За жизнь Шуберт положил на музыку около сорока его стихотворений в почти восьми десятках редакций и набросков.\nМногие из этих опытов остались черновиками пятнадцатилетнего мальчика, подражавшего своему кумиру, композитору Иоганну Рудольфу Цумштегу. Но среди них уже есть «Gruppe aus dem Tartarus» («Группа из Тартара»), «Der Taucher» («Ныряльщик») и «Der Pilgrim» («Пилигрим»), выдержавшие сравнение со зрелыми шедеврами. Шиллер писал крупные, риторически выстроенные баллады и философскую лирику — материал для драматической сцены с оркестровым размахом одного голоса и рояля; вкус к монологу, контрасту и превращению фортепианной партии в театр остался у Шуберта на всю жизнь."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Стихи написаны в начале 1802 года и впервые напечатаны в конце того же года — так датирует их Малколм Рен, автор комментариев на сайте schubertsong.uk. Полностью текст появился в сборнике «Gedichte von Friederich Schiller, Zweiter Theil» — во втором, исправленном и дополненном издании (Лейпциг, 1805, у Зигфрида Лебрехта Крузиуса), на страницах 33 и далее; рукопись Шуберта сверяют также с венским собранием сочинений Шиллера 1810 года у Антона Долля.\nОрфография эпохи отличается от нынешней, и на этой странице она сохранена: Gemüth, Rath, thaten, zergeisselten — там, где сегодня пишут Gemüt, Rat, taten, zergeißelten. В старом написании стояло и Leyer; здесь это слово дано по-современному, Leier. На смысл строк всё это не влияет; расходятся источники разве что в знаках препинания.\nПо замечанию Рена, Шиллер писал эти стихи как профессор философского факультета Йенского университета, от которого ждали занятий историей: вступительную лекцию «О природе и ценности всеобщей истории» он прочёл 26 мая 1789 года, незадолго до Французской революции."
+  },
+  {
+   "title": "Пять веков Гесиода",
+   "text": "Прямой образец — «Труды и дни» Гесиода (около 700 года до н. э.), где история поделена на пять веков: золотой при Кроносе, без боли и труда; серебряный, чьих неразумных и грешных людей истребил Зевс; бронзовый, суровый и воинственный, не оставивший по себе имени; век героев-полубогов, воевавших под Троей; и нынешний железный. Комментарий schubertlied.de называет среди возможных образцов и Овидия.\nСтрофы разложены по этому счёту. Первые пять служат вступлением и рисуют певца. Шестая отдана золотому веку Сатурна, седьмая — веку героев, восьмая — расцвету греческого искусства. Девятая говорит о приходе христианства, десятая — о Средневековье с его светом и мраком, одиннадцатая о миннезингерах, а последняя обращена к женщинам за столом.\nМифологические имена в этих строфах не названы прямо. Изобретательный сын Зевса четвёртой строфы — Гефест, бог-кузнец, выковавший щит Ахилла; поле Скамандра седьмой строфы означает Троянскую войну, а красота, ради которой она велась, — Елена."
+  },
+  {
+   "title": "Музыка",
+   "text": "Шиллер задумал стихи как застольную песню, и Шуберт написал их так же — Tafellied («застольная песня») в соль мажоре. Сквозное движение шестнадцатыми в сопровождении, по комментарию schubertlied.de, изображает полёт времени.\nГрэм Джонсон слышит здесь музыку, обычную для шубертовских хоров на дружеских застольях: мелодия проста настолько, что запоминается после двух-трёх повторов, а разгульный напев в конце каждой строфы перенесён из постлюдии более раннего сочинения на Шиллера — «Punschlied» D 277 для мужского квартета с фортепиано.\nОн же указывает на трудность такой формы. Последняя строфа, посвящение женщинам, обретает смысл только после всех предыдущих, но и сам Шуберт в рукописи не прояснил, что делать с этой связью: одна строфа выписана со знаком повтора.\nДвенадцать строф на один и тот же напев рассчитаны на застолье с его неспешным порядком. Для записи в антологии Hyperion Schubert Edition составители взяли четыре строфы из двенадцати, которые, по их собственному признанию, не охватывают всего шиллеровского замысла, но передают часть истории в логической последовательности."
+  },
+  {
+   "title": "Красота остаётся богом мира",
+   "text": "В лекции Шиллер-историк доказывал движение эпох; в стихотворении, как читает его Малколм Рен, он занят обратным — тем, что проходит сквозь эпохи неизменным. Золотой век пастухов сменился веком битв и героев, но красота осталась богом мира; в классическую пору сила расцвела милостью, и красота царила при музах; христианство не погубило искусства — ушла только суетная роскошь, алтарь муз уцелел, и пламя песни вспыхнуло заново в миннезанге.\nК строке «Und der Mensch griff denkend in seine Brust» («И человек, размышляя, погрузился в свою грудь») англоязычное издание Шиллера, вышедшее в Филадельфии в 1861 году под редакцией Чарльза Хемпеля, даёт пояснение: человек берётся рефлексией постичь начала собственной природы. Издатели называют это поворотным пунктом человечества — и в жизни отдельного человека, и в истории.\nРен помещает стихотворение и в споры XIX века о смысле истории: шиллеровская схема движения от самовластия к свободе предвосхищает построения Гегеля в «Лекциях по философии истории», изданных посмертно в 1837 году, а за ними и позднейшие прогрессистские схемы — марксистскую, фрейдистскую, модернистскую."
+  },
+  {
+   "title": "Рецепция и документы эпохи",
+   "text": "На странице schubertlied.de об этой песне приведено письмо Шуберта Леопольду Купельвизеру от 31 марта 1824 года: «Eine Schönheit soll den Menschen durch das ganze Leben begeistern – wahr ist es – doch soll der Schimmer dieser Begeisterung alles andere erhellen» («Красота должна вдохновлять человека всю жизнь — это правда, — но отблеск этого вдохновения должен освещать всё остальное»). Прямой ссылки на Шиллера в письме нет, так что перекличка с мыслью об эстетическом воспитании остаётся возможной, а не доказанной.\nСамо письмо известно по ранней биографии Генриха Крайсле фон Хельборна «Franz Schubert» (Вена, Carl Gerolds Sohn, 1865, с. 104)."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Дитрих Фишер-Дискау и Джеральд Мур записали песню в 1969 году — она вошла в полное собрание песен Шуберта «Sämtliche Lieder» на Deutsche Grammophon.\nТомас Аллен и Грэм Джонсон записали её 11–13 мая 1992 года для шестнадцатого тома антологии Hyperion Schubert Edition (CDJ33016), где она идёт тринадцатым треком; здесь звучат те самые четыре отобранные строфы.\nВольфганг Хольцмайр и Жерар Висс включили «Die vier Weltalter» в альбом «Schiller-Lieder» (Tudor 7134, 2005). Мартин Якоби и Ульрих Айзенлор записали её для шиллеровского тома серии Naxos — «Schiller, Vol. 2» (8.554741), вышедшего в марте 2002 года."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
