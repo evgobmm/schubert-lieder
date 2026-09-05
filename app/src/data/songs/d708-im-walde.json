@@ -1,9 +1,16 @@
 {
  "d": "708",
  "title_de": "Im Walde",
+ "title_ru": "В лесу",
+ "poet_de": "Friedrich von Schlegel",
+ "poet_ru": "Фридрих фон Шлегель",
  "year": "1820",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "У стихотворения есть авторский подзаголовок — Waldesnacht («Лесная ночь»); под ним песня и вышла в первом издании 1832 года, оттого она ходит сразу под двумя названиями. Заглавие «В лесу» носят у Шуберта ещё две вещи — песня D 834 на стихи Эрнста Шульце и хоровая «Ночная песнь в лесу» D 913 для мужских голосов с валторнами; к этой они отношения не имеют."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -23,6 +30,439 @@
     "Hört man Geistes Wogen brausen,",
     "Wie die alten Tannen sausen,",
     "Hört man Geistes Wogen brausen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Windes",
+       "ru": "Ветра"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "шум,"
+      },
+      {
+       "de": "Gottes",
+       "ru": "Бога"
+      },
+      {
+       "de": "Flügel",
+       "ru": "крылья,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Windes Rauschen — старый поэтический порядок: родительный падеж стоит перед своим существительным, по-русски же говорят «шум ветра». Rauschen — субстантивированный инфинитив; у Гриммов этот глагол описывает сплошной природный шум, «von wasser, flut, wogen, regen» («о воде, потоке, волнах, дожде»), а заодно и шум леса."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Тот же порядок и здесь: Gottes Flügel — «крылья Бога». Flügel — ложный друг: русский «флигель» пришёл из этого самого слова, но в песнях Flügel означает крыло, а не пристройку и не рояль. Формы единственного и множественного числа у него совпадают, и в лирике почти всегда читается множественное."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Tief",
+       "ru": "Глубоко"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "kühler",
+       "ru": "прохладной"
+      },
+      {
+       "de": "Waldesnacht",
+       "ru": "лесной ночи,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Waldesnacht — книжный композит из Wald («лес») и Nacht («ночь»), «лесная ночь». Словарь Гриммов приводит как образец словоупотребления именно эти строки Шлегеля. Kühl мягче, чем kalt («холодный»): это отрадная прохлада, а не стужа."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Windes",
+       "ru": "Ветра"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "шум,"
+      },
+      {
+       "de": "Gottes",
+       "ru": "Бога"
+      },
+      {
+       "de": "Flügel",
+       "ru": "крылья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Tief",
+       "ru": "Глубоко"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "kühler",
+       "ru": "прохладной"
+      },
+      {
+       "de": "Waldesnacht",
+       "ru": "лесной ночи,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "der Held",
+       "ru": "герой"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Bügel",
+       "ru": "стремя"
+      },
+      {
+       "de": "Rosses",
+       "ru": "коня,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Rosses Bügel — снова родительный перед существительным, по-русски он ушёл назад: «в стремя коня». Bügel у Гриммов — «der eisenring, in den man beim besteigen des pferdes tritt» («железное кольцо, в которое ступают, садясь на коня»), то есть стремя. Ross — возвышенное слово, конь под седлом, рядом с обиходным Pferd («лошадь»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwingt sich",
+       "ru": "Взмывает"
+      },
+      {
+       "de": "Macht",
+       "ru": "сила"
+      },
+      {
+       "de": "des Gedankens",
+       "ru": "мысли."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "sich schwingen — «взмыть, вспрыгнуть»; у Гримма этот глагол объяснён латинским vibrare («взмахивать»), а нынешнее «качаться на качелях» к текстам эпохи не относится. Возвратное sich русского слова себе не находит и растворяется в глаголе. Des Gedankens Macht — «сила мысли», родительный опять впереди."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "die alten",
+       "ru": "старые"
+      },
+      {
+       "de": "Tannen",
+       "ru": "ели"
+      },
+      {
+       "de": "sausen",
+       "ru": "шумят,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Tanne словари эпохи толкуют широко: «abies picea, der tannenbaum, die weisz-, edeltanne, auch die fichte» («пихта, ель»), любое большое хвойное дерево. Sausen здесь только про звук — DWDS даёт «(kräftig oder an- und abschwellend) rauschen, brausen, tönen» («шуметь, гудеть, то нарастая, то спадая»); значения «мчаться» в нём тогда не было."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört man",
+       "ru": "Слышно,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "Wogen",
+       "ru": "волны"
+      },
+      {
+       "de": "Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушуют,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "man — неопределённо-личное местоимение, словом «человек» его не переводят: по-русски получается «слышно». Дальше идёт оборот с инфинитивом (hört… brausen — «слышит, как бушует»), а русскому нужно придаточное с «как» — отсюда добавленное слово."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Woge — высокий вал, у Гриммов «bewegtes wasser, meeresflut» («движущаяся вода, морской прилив»); Welle из третьей строфы — обычная волна, но по-русски оба слова остаются «волной». Brausen — глагол мощного сплошного шума: так у Гримма шумит море и надвигается гроза."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "die alten",
+       "ru": "старые"
+      },
+      {
+       "de": "Tannen",
+       "ru": "ели"
+      },
+      {
+       "de": "sausen",
+       "ru": "шумят,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "С этой строки начинаются повторы, которых в песне очень много: строки возвращаются по два и по три раза, и так во всех семи строфах. Оттого песня и разрастается так, как редко бывает у Шуберта на стихи Шлегеля."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört man",
+       "ru": "Слышно,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "Wogen",
+       "ru": "волны"
+      },
+      {
+       "de": "Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушуют."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "der Held",
+       "ru": "герой"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Bügel",
+       "ru": "стремя"
+      },
+      {
+       "de": "Rosses",
+       "ru": "коня,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwingt sich",
+       "ru": "Взмывает"
+      },
+      {
+       "de": "Macht",
+       "ru": "сила"
+      },
+      {
+       "de": "des Gedankens",
+       "ru": "мысли."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "die alten",
+       "ru": "старые"
+      },
+      {
+       "de": "Tannen",
+       "ru": "ели"
+      },
+      {
+       "de": "sausen",
+       "ru": "шумят,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört man",
+       "ru": "Слышно,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "Wogen",
+       "ru": "волны"
+      },
+      {
+       "de": "Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушуют,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "die alten",
+       "ru": "старые"
+      },
+      {
+       "de": "Tannen",
+       "ru": "ели"
+      },
+      {
+       "de": "sausen",
+       "ru": "шумят,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört man",
+       "ru": "Слышно,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "Wogen",
+       "ru": "волны"
+      },
+      {
+       "de": "Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушуют."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -36,6 +476,259 @@
     "Wie zu Gott hinauf gefodert,",
     "Rasch die Flamme zuckt und lodert",
     "Wie zu Gott hinauf gefodert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Herrlich",
+       "ru": "Великолепно"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "Leuchten",
+       "ru": "свечение"
+      },
+      {
+       "de": "der Flamme",
+       "ru": "пламени"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Связка ist по-русски выпадает, на её месте тире. Leuchten — субстантивированный инфинитив, «свечение»; der Flamme Leuchten значит «свечение пламени», родительный и тут стоит впереди. Огонь здесь — вспышка молнии: следующая строка так и говорит, der Blitze («молний»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "Roth",
+       "ru": "багрянце"
+      },
+      {
+       "de": "des Morgenglanzes",
+       "ru": "утреннего сияния,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Roth — старое написание слова Rot («красный, багрянец»). Morgenglanz Гриммы толкуют прямо: «glanz der am morgen aufgehenden sonne» («сияние восходящего утром солнца»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Blitze",
+       "ru": "Молний,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "das Feld",
+       "ru": "поле"
+      },
+      {
+       "de": "beleuchten",
+       "ru": "освещают,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Der Blitze — родительный падеж множественного числа, он продолжает предыдущую строку: великолепно свечение пламени — свечение молний. Die — относительное местоимение, «которые»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwanger",
+       "ru": "Чреватых"
+      },
+      {
+       "de": "oft",
+       "ru": "часто"
+      },
+      {
+       "de": "von Tod",
+       "ru": "смертью,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Schwanger буквально «беременный», но у слова есть и возвышенное переносное значение — «angefüllt, angereichert» («наполненный, насыщенный»): молнии чреваты смертью. Поэзия эпохи полна композитов этого рода — todesschwanger, unheilschwanger («чреватый смертью», «чреватый бедой»). Предлог von русский творительный падеж вбирает в себя."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Blitze",
+       "ru": "Молний,"
+      },
+      {
+       "de": "schwanger",
+       "ru": "чреватых"
+      },
+      {
+       "de": "oft",
+       "ru": "часто"
+      },
+      {
+       "de": "von Tod",
+       "ru": "смертью."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Rasch",
+       "ru": "Стремительно"
+      },
+      {
+       "de": "die Flamme",
+       "ru": "пламя"
+      },
+      {
+       "de": "zuckt",
+       "ru": "вспыхивает"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "lodert",
+       "ru": "полыхает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Zucken — короткое резкое движение, а о свете и огне «aufblitzen, aufzucken» («вспыхнуть»). Lodern у Гриммов — гореть большим ярким пламенем: «das feuer lodert, ignis flammas spargit» («огонь полыхает, разбрасывая языки пламени»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Словно"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "Gott",
+       "ru": "Богу"
+      },
+      {
+       "de": "hinauf",
+       "ru": "ввысь"
+      },
+      {
+       "de": "gefodert",
+       "ru": "призванное,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Здесь wie вводит домысленное «словно», без сравнения с предметом, поэтому переведено иначе, чем в первой строфе. Gefodert — старое написание gefordert, причастия от fordern («требовать, призывать»). Строка обходится без сказуемого: пламя рвётся вверх, будто его призвали к Богу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Rasch",
+       "ru": "Стремительно"
+      },
+      {
+       "de": "die Flamme",
+       "ru": "пламя"
+      },
+      {
+       "de": "zuckt",
+       "ru": "вспыхивает"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "lodert",
+       "ru": "полыхает"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Словно"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "Gott",
+       "ru": "Богу"
+      },
+      {
+       "de": "hinauf",
+       "ru": "ввысь"
+      },
+      {
+       "de": "gefodert",
+       "ru": "призванное."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -47,6 +740,219 @@
     "Trauer doch in linden Wellen",
     "Schlägt uns lockend an das Herz,",
     "Schlägt uns lockend an das Herz."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ewig's",
+       "ru": "Вечный"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "шум"
+      },
+      {
+       "de": "sanfter",
+       "ru": "нежных"
+      },
+      {
+       "de": "Quellen",
+       "ru": "источников"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Ewig's — стяжённое Ewiges («вечное»); при русском согласовании прилагательное перешло к «шуму». Rauschen — то же слово, что и в начале песни: сплошной природный шум, только теперь шумит вода."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Quellen — от поэтического der Quell, мужского двойника обычного die Quelle («источник»); у Гриммов это «то же, что Quelle, особенно в возвышенной речи». Sanft около 1800 года — «мягкий, приятный чувствам»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zaubert",
+       "ru": "Волшебством творит"
+      },
+      {
+       "de": "Blumen",
+       "ru": "цветы"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem Schmerz",
+       "ru": "боли,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Zaubern — «etw. durch Zauber hervorbringen» («произвести что-либо волшебством»); одним русским глаголом этого не сказать, отсюда два слова. Смысл переносный: боль сама собой оборачивается цветами."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ewig's",
+       "ru": "Вечный"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "шум"
+      },
+      {
+       "de": "sanfter",
+       "ru": "нежных"
+      },
+      {
+       "de": "Quellen",
+       "ru": "источников"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Zaubert",
+       "ru": "Волшебством творит"
+      },
+      {
+       "de": "Blumen",
+       "ru": "цветы"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem Schmerz",
+       "ru": "боли,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Trauer",
+       "ru": "Скорбь"
+      },
+      {
+       "de": "doch",
+       "ru": "же"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "linden",
+       "ru": "мягких"
+      },
+      {
+       "de": "Wellen",
+       "ru": "волнах"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "По словам Грэма Джонсона, в собрании стихов Шлегеля, откуда Шуберт взял текст, это стихотворение стоит рядом с An Novalis («К Новалису») — скорбным поминовением умершего друга."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Linden — склонённая форма прилагательного lind («мягкий, кроткий»), а не существительное die Linde («липа»), которое пишется так же; различает их только строй фразы. Welle — обычная волна, в отличие от вала-Woge из первой строфы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schlägt",
+       "ru": "Стучится"
+      },
+      {
+       "de": "uns",
+       "ru": "нам,"
+      },
+      {
+       "de": "lockend",
+       "ru": "маня,"
+      },
+      {
+       "de": "an",
+       "ru": "в"
+      },
+      {
+       "de": "das Herz",
+       "ru": "сердце,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "An das Herz schlagen — «биться, ударять в сердце»; по-русски естественнее «стучится». Lockend — причастие от locken, у Гриммов это отдельное слово: «allicere, invitare» («манить, завлекать»), выражение охотников и пастухов, рано ставшее общим. С существительным die Locke («локон») оно только совпадает по написанию."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schlägt",
+       "ru": "Стучится"
+      },
+      {
+       "de": "uns",
+       "ru": "нам,"
+      },
+      {
+       "de": "lockend",
+       "ru": "маня,"
+      },
+      {
+       "de": "an",
+       "ru": "в"
+      },
+      {
+       "de": "das Herz",
+       "ru": "сердце."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -57,6 +963,196 @@
     "Die uns locken durch die Wogen,",
     "Fern ab hin der Geist, gegen die,",
     "Die uns locken durch die Wogen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Fern",
+       "ru": "Далеко"
+      },
+      {
+       "de": "ab",
+       "ru": "прочь,"
+      },
+      {
+       "de": "hin",
+       "ru": "туда"
+      },
+      {
+       "de": "der Geist",
+       "ru": "— дух,"
+      },
+      {
+       "de": "gegen",
+       "ru": "к"
+      },
+      {
+       "de": "die",
+       "ru": "тем,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Строка обходится без сказуемого: три наречия — fern («далеко»), ab («прочь») и hin (указание направления прочь от говорящего) — и подлежащее. По-русски пропуск глагола отмечен тире."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Gegen die, / Die… — соотносительная пара: указательное «к тем» и относительное «кто». Gegen здесь означает направление, «в сторону тех»; значение «против» сюда не подходит."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Кто"
+      },
+      {
+       "de": "locken",
+       "ru": "манит"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Wogen",
+       "ru": "волны,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "В немецком дополнение стоит перед глаголом (uns locken), по-русски порядок обратный. После «кто» русский глагол идёт в единственном числе, хотя немецкое locken — множественного."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fern",
+       "ru": "Далеко"
+      },
+      {
+       "de": "ab",
+       "ru": "прочь,"
+      },
+      {
+       "de": "hin",
+       "ru": "туда"
+      },
+      {
+       "de": "der Geist",
+       "ru": "— дух,"
+      },
+      {
+       "de": "gegen",
+       "ru": "к"
+      },
+      {
+       "de": "die",
+       "ru": "тем,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Кто"
+      },
+      {
+       "de": "locken",
+       "ru": "манит"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Wogen",
+       "ru": "волны,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Fern",
+       "ru": "Далеко"
+      },
+      {
+       "de": "ab",
+       "ru": "прочь,"
+      },
+      {
+       "de": "hin",
+       "ru": "туда"
+      },
+      {
+       "de": "der Geist",
+       "ru": "— дух,"
+      },
+      {
+       "de": "gegen",
+       "ru": "к"
+      },
+      {
+       "de": "die",
+       "ru": "тем,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Кто"
+      },
+      {
+       "de": "locken",
+       "ru": "манит"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Wogen",
+       "ru": "волны."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -73,6 +1169,312 @@
     "Durch des Geistes Hauch gestillt,",
     "Wird zur schönsten Liebesfülle",
     "Durch des Geistes Hauch gestillt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Drang",
+       "ru": "Порыв"
+      },
+      {
+       "de": "des Lebens",
+       "ru": "жизни"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "der Hülle",
+       "ru": "оболочки,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Drang — «innerer Trieb, heftiges Streben nach etw.» («внутреннее побуждение, сильное стремление к чему-либо»), от глагола dringen («напирать, проникать»). Это то самое слово, что стоит в названии эпохи Sturm und Drang («Буря и натиск»)."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Hülle — покров, оболочка, то, во что нечто закутано (DWDS даёт оборот «etw. ist in Dunkel gehüllt» — «окутано тьмой»). Порыв жизни рвётся наружу из своего покрова."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "wild",
+       "ru": "Дикая"
+      },
+      {
+       "de": "Kampf",
+       "ru": "борьба"
+      },
+      {
+       "de": "der starken",
+       "ru": "могучих"
+      },
+      {
+       "de": "Triebe",
+       "ru": "влечений,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Определение wild («дикая») отброшено в немецком в самый конец строки — поэтическая перестановка; по-русски оно вернулось к своему существительному."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Trieb — влечение, внутреннее побуждение; во всей строфе это сила, которую усмиряет дух. Stark словари определяют как «viel Kraft besitzend» («обладающий большой силой») — отсюда «могучих»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wird",
+       "ru": "Обращается"
+      },
+      {
+       "de": "zur",
+       "ru": "в"
+      },
+      {
+       "de": "schönsten",
+       "ru": "прекраснейшую"
+      },
+      {
+       "de": "Liebesfülle",
+       "ru": "полноту любви"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Liebesfülle — композит из Liebe («любовь») и Fülle («полнота»). Слово редкое, но не выдуманное: словарь Гриммов даёт его отдельной статьёй с примерами из Гёте и Августа фон Платена."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "Через"
+      },
+      {
+       "de": "Hauch",
+       "ru": "дыхание"
+      },
+      {
+       "de": "des Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "gestillt",
+       "ru": "усмирённый,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Немецкая рамка разорвана между строками: wird… gestillt значит «утоляется, усмиряется». По-русски глагол встал в предыдущей строке, а причастие осталось здесь. Hauch — «der dem munde entströmende athem» («исходящее из уст дыхание»), дуновение."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wird",
+       "ru": "Обращается"
+      },
+      {
+       "de": "zur",
+       "ru": "в"
+      },
+      {
+       "de": "schönsten",
+       "ru": "прекраснейшую"
+      },
+      {
+       "de": "Liebesfülle",
+       "ru": "полноту любви"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "Через"
+      },
+      {
+       "de": "Hauch",
+       "ru": "дыхание"
+      },
+      {
+       "de": "des Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "gestillt",
+       "ru": "усмирённый."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Drang",
+       "ru": "Порыв"
+      },
+      {
+       "de": "des Lebens",
+       "ru": "жизни"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "der Hülle",
+       "ru": "оболочки,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "wild",
+       "ru": "Дикая"
+      },
+      {
+       "de": "Kampf",
+       "ru": "борьба"
+      },
+      {
+       "de": "der starken",
+       "ru": "могучих"
+      },
+      {
+       "de": "Triebe",
+       "ru": "влечений,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wird",
+       "ru": "Обращается"
+      },
+      {
+       "de": "zur",
+       "ru": "в"
+      },
+      {
+       "de": "schönsten",
+       "ru": "прекраснейшую"
+      },
+      {
+       "de": "Liebesfülle",
+       "ru": "полноту любви"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "Через"
+      },
+      {
+       "de": "Hauch",
+       "ru": "дыхание"
+      },
+      {
+       "de": "des Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "gestillt",
+       "ru": "усмирённый,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wird",
+       "ru": "Обращается"
+      },
+      {
+       "de": "zur",
+       "ru": "в"
+      },
+      {
+       "de": "schönsten",
+       "ru": "прекраснейшую"
+      },
+      {
+       "de": "Liebesfülle",
+       "ru": "полноту любви"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "Через"
+      },
+      {
+       "de": "Hauch",
+       "ru": "дыхание"
+      },
+      {
+       "de": "des Geistes",
+       "ru": "духа"
+      },
+      {
+       "de": "gestillt",
+       "ru": "усмирённый."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -82,6 +1484,135 @@
     "Schöpferischer Lüfte Wehen",
     "Fühlt man durch die Seele gehen,",
     "Fühlt man durch die Seele gehen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wehen",
+       "ru": "Веяние"
+      },
+      {
+       "de": "Schöpferischer",
+       "ru": "творческих"
+      },
+      {
+       "de": "Lüfte",
+       "ru": "ветров"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Родительный Schöpferischer Lüfte стоит перед своим существительным, по-русски он ушёл назад. Lüfte — множественное от Luft («воздух»); в поэзии это движущийся воздух, воздушные струи, и от Wind («ветер») из первой строфы слово отличается, хотя по-русски оба стали «ветром». Schöpferisch Гриммы толкуют как «einem schöpfer gemäsz, fähig zu schaffen» («сообразный творцу, способный творить») и приводят рядом оборот schöpferischer geist («творческий дух»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fühlt man",
+       "ru": "Чувствуешь,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "gehen",
+       "ru": "идёт"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Seele",
+       "ru": "душу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Второй раз в песне тот же оборот с инфинитивом, что и в первой строфе: fühlt… gehen — «чувствует, как идёт». Русскому нужно придаточное с «как», а man опять даёт безличное «чувствуешь». Подлежащее — веяние из предыдущей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wehen",
+       "ru": "Веяние"
+      },
+      {
+       "de": "Schöpferischer",
+       "ru": "творческих"
+      },
+      {
+       "de": "Lüfte",
+       "ru": "ветров"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Fühlt man",
+       "ru": "Чувствуешь,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "gehen",
+       "ru": "идёт"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Seele",
+       "ru": "душу,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Fühlt man",
+       "ru": "Чувствуешь,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "gehen",
+       "ru": "идёт"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Seele",
+       "ru": "душу."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -102,8 +1633,420 @@
     "Den Gesang der Geister brausen.",
     "Windes Rauschen, Gottes Flügel,",
     "Tief in dunkler Waldesnacht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Windes",
+       "ru": "Ветра"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "шум,"
+      },
+      {
+       "de": "Gottes",
+       "ru": "Бога"
+      },
+      {
+       "de": "Flügel",
+       "ru": "крылья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Tief",
+       "ru": "Глубоко"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dunkler",
+       "ru": "тёмной"
+      },
+      {
+       "de": "Waldesnacht",
+       "ru": "лесной ночи,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Песня открывается и закрывается одним и тем же двустишием — шум ветра, крылья Бога, лесная ночь. Одно слово в нём переменилось: в начале ночь была kühl («прохладной»), к концу стала dunkel («тёмной»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Windes",
+       "ru": "Ветра"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "шум,"
+      },
+      {
+       "de": "Gottes",
+       "ru": "Бога"
+      },
+      {
+       "de": "Flügel",
+       "ru": "крылья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Tief",
+       "ru": "Глубоко"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dunkler",
+       "ru": "тёмной"
+      },
+      {
+       "de": "Waldesnacht",
+       "ru": "лесной ночи,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Frei gegeben",
+       "ru": "Отпущены"
+      },
+      {
+       "de": "alle",
+       "ru": "все"
+      },
+      {
+       "de": "Zügel",
+       "ru": "поводья,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Freigeben — «отпустить, дать волю»; alle Zügel freigeben значит бросить поводья, дать полную волю. Zügel — «am Zaumzeug befestigter Riemen zum Führen und Lenken von Reittieren» («ремень узды, которым правят верховым животным»). Образ подхватывает всадника и стремя из первой строфы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwingt sich",
+       "ru": "Взмывает"
+      },
+      {
+       "de": "Macht",
+       "ru": "сила"
+      },
+      {
+       "de": "des Gedankens",
+       "ru": "мысли,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört",
+       "ru": "Слышит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Lüften",
+       "ru": "ветрах"
+      },
+      {
+       "de": "ohne",
+       "ru": "без"
+      },
+      {
+       "de": "Grausen",
+       "ru": "ужаса"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Теперь без man: подлежащее взято из предыдущей строки — слышит «сила мысли», и hört стоит в третьем лице единственного числа."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Grausen — книжное слово, «schaudern, Furcht, Entsetzen empfinden» («содрогаться, испытывать страх, ужас»). В строке оно превращено в существительное: ohne Grausen — «без ужаса»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Как"
+      },
+      {
+       "de": "Den Gesang",
+       "ru": "пение"
+      },
+      {
+       "de": "der Geister",
+       "ru": "духов"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушует,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Gesang — звучащее пение, само действие, в отличие от Lied («песня») как готовой вещи. Der Geister — множественное число: в первой строфе шумели волны одного духа (Geistes), здесь поют многие."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Frei gegeben",
+       "ru": "Отпущены"
+      },
+      {
+       "de": "alle",
+       "ru": "все"
+      },
+      {
+       "de": "Zügel",
+       "ru": "поводья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwingt sich",
+       "ru": "Взмывает"
+      },
+      {
+       "de": "Macht",
+       "ru": "сила"
+      },
+      {
+       "de": "des Gedankens",
+       "ru": "мысли,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört",
+       "ru": "Слышит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Lüften",
+       "ru": "ветрах"
+      },
+      {
+       "de": "ohne",
+       "ru": "без"
+      },
+      {
+       "de": "Grausen",
+       "ru": "ужаса"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Как"
+      },
+      {
+       "de": "Den Gesang",
+       "ru": "пение"
+      },
+      {
+       "de": "der Geister",
+       "ru": "духов"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушует,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört",
+       "ru": "Слышит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Lüften",
+       "ru": "ветрах"
+      },
+      {
+       "de": "ohne",
+       "ru": "без"
+      },
+      {
+       "de": "Grausen",
+       "ru": "ужаса"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Как"
+      },
+      {
+       "de": "Den Gesang",
+       "ru": "пение"
+      },
+      {
+       "de": "der Geister",
+       "ru": "духов"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушует."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Windes",
+       "ru": "Ветра"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "шум,"
+      },
+      {
+       "de": "Gottes",
+       "ru": "Бога"
+      },
+      {
+       "de": "Flügel",
+       "ru": "крылья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Tief",
+       "ru": "Глубоко"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dunkler",
+       "ru": "тёмной"
+      },
+      {
+       "de": "Waldesnacht",
+       "ru": "лесной ночи."
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "Friedrich von Schlegel"
+ "about": [
+  {
+   "title": "Декабрь 1820 года",
+   "text": "Шуберт написал эту песню в декабре 1820 года; композитору было двадцать три года.\nК тому времени он уже два года писал песни на стихи Фридриха фон Шлегеля: всего их между 1818 и 1825 годами набралось не меньше шестнадцати, и «В лесу» приходится примерно на середину этого ряда."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "При жизни Шуберта песня не печаталась. Первое издание вышло 12 марта 1832 года, через четыре года после смерти композитора; в тот же день о нём объявила венская Wiener Zeitung. Издало песню венское товарищество A. Diabelli & Co., выпускавшее оставшееся наследие Шуберта отдельной серией: «В лесу» вошла в шестнадцатую тетрадь Nachlass под издательским номером 4016. На титульном листе стоит авторское заглавие стихотворения — Waldesnacht, стихи названы принадлежащими Фр. Шлегелю, а музыка положена для одного голоса с сопровождением фортепиано.\nЭкземпляр первопечатного издания хранится в Австрийской национальной библиотеке, в её оцифрованном собрании, под шифром SH.Schubert.537 — так значится в каталожной справке. Песня вошла и в оба полных собрания сочинений Шуберта: в старое (серия XX, том 6, № 388) и в новое (серия IV, том 12), а также в собрание песен под редакцией Фридлендера (том 3, № 159). Справочная запись о ней есть на 416-й странице тематического каталога, составленного Отто Эрихом Дойчем."
+  },
+  {
+   "title": "Фридрих фон Шлегель",
+   "text": "Фридрих фон Шлегель был скорее мыслителем, чем поэтом: само слово «романтический» в нынешнем значении придумал он. Вместе со старшим братом, критиком Августом Вильгельмом Шлегелем, он основал в Йене журнал Athenäum («Атенеум», 1798–1800) — трибуну кружка, который позже назовут йенскими романтиками. Стихи были для него формой мысли: современники признавали за ним ум и учёность, а поэтического дара не находили.\nНа Шуберта это не повлияло: одиннадцать песен он написал на цикл Шлегеля Abendröte («Вечерняя заря»), а всего на его стихи — не меньше шестнадцати. Свидетельств личного знакомства композитора с поэтом нет. Известно другое: шубертовский круг отвернулся от Шлегеля после того, как в 1808 году тот принял католичество и пошёл на службу к Меттерниху; друг Шуберта Иоганн Зенн в письме 1827 года прямо назвал это превращение обманом."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Стихотворение напечатано в 1807 году в антологии Dichter-Garten. Erster Gang. Violen («Сад поэтов. Первый выход. Фиалки»); её выпустил в Вюрцбурге, у Йозефа Штаэля, человек из круга Новалиса, укрывшийся под именем Росторф. Текст стоит там на третьей странице и дальше, а затем повторён в той же книге на странице 292. Авторский подзаголовок — Waldesnacht («Лесная ночь»). Сверить текст песни с авторским изданием стихов, чтобы увидеть правки Шуберта, пока не удалось.\nГрэм Джонсон, пианист и автор комментариев к шубертовской серии Hyperion, обращает внимание на соседство в собрании стихов Шлегеля: «В лесу» стоит рядом со стихотворением An Novalis («К Новалису»), скорбным поминовением умершего друга, которого поэт называл mein ander Ich («моё второе я»). Оттуда, по словам Джонсона, Шуберт и взял текст."
+  },
+  {
+   "title": "Музыка",
+   "text": "Тональность — ми мажор. Надёжного разбора формы и фортепианной партии найти не удалось, но о том, как песня выстроена, говорит уже текст. Семь строф, и внутри каждой строки возвращаются по два и по три раза: в первой повторяются и начальная пара строк, и последние четыре; седьмая почти целиком удваивает свои концовки. Всё это обрамлено одним двустишием о шуме ветра и крыльях Бога — им песня открывается, им же и закрывается, только лесная ночь из прохладной успевает стать тёмной.\nГрэм Джонсон называет «В лесу» самой масштабной и самой поразительной из шубертовских песен на стихи Шлегеля."
+  },
+  {
+   "title": "Рядом с циклом, но вне его",
+   "text": "Одиннадцать песен на стихи Шлегеля Шуберт написал на цикл Abendröte («Вечерняя заря») — разрозненные голоса природы и человека на закате солнца. «В лесу» в этот ряд не входит: Джонсон ставит её рядом с циклом, но вне его, вместе с «Лодочником» (Der Schiffer, D 694)."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "От декабря 1820 года до первой публикации прошло около одиннадцати лет, а от смерти Шуберта — три года с небольшим. О первом исполнении и об откликах современников сведений нет.\nУ неё есть две тёзки: песня «В лесу» D 834 на стихи Эрнста Шульце и «Ночная песнь в лесу» D 913 для мужского хора с валторнами. Это другие сочинения Шуберта."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Главная запись — баритон Дитрих Фишер-Дискау и пианист Джеральд Мур, 1969 год. Она входит в свод Deutsche Grammophon «Sämtliche Lieder», который записывался сессиями с 1966 по 1972 год.\nДва современных прочтения сделаны в один и тот же 1996 год. Меццо-сопрано Анне Софи фон Оттер и пианист Бенгт Форсберг записали песню в июне, в зале Concertgebouw Nijmegen; диск «Schubert: Lieder» вышел у Deutsche Grammophon в 1997 году. Тенор Иэн Бостридж и пианист Джулиус Дрейк работали в феврале и марте в лондонской студии Abbey Road; их «Schubert Lieder, Vol. 1» выпустила EMI в 1998 году. Фон Оттер в этой паре стоит выше: за ней зрелое мастерство певицы на вершине карьеры, а у Бостриджа это был дебютный сольный альбом."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }

@@ -1,9 +1,16 @@
 {
  "d": "144",
  "title_de": "Romanze",
+ "title_ru": "Романс",
+ "poet_de": "Friedrich Leopold zu Stolberg-Stolberg",
+ "poet_ru": "Фридрих Леопольд граф цу Штольберг-Штольберг",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "За заглавием — баллада в тринадцать строф: любовь Агнес, дочери рыцаря Рудольфа, к Альбрехту, вызов ревнивого Хорста и три смерти в развязке. Шуберт написал музыку только к трём первым строкам и оборвал работу."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -12,6 +19,157 @@
     "Rudolfs, den die Schlacht erfreute,",
     "Rudolfs, welchen Frankreich scheute",
     "Und der Sarazenen Schwarm."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "чертогах",
+       "de": "Hallen"
+      },
+      {
+       "ru": "отцов",
+       "de": "der Väter"
+      },
+      {
+       "ru": "покоилась",
+       "de": "ruhte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Halle у Гриммов — крытая парадная часть дома, зал; для родового замка по-русски ближе всего «чертоги». Родительный падеж в немецком стоит перед определяемым словом (der Väter Hallen), по-русски — после: «в чертогах отцов»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Дальше первых строк дело не пошло. По словам Грэма Джонсона, пианиста и автора комментариев к антологии Hyperion Schubert Edition, Шуберт расписал мрачное величие замка сэра Рудольфа — и потерял охоту продолжать историю."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Рыцаря",
+       "de": "Ritter"
+      },
+      {
+       "ru": "Рудольфа",
+       "de": "Rudolfs"
+      },
+      {
+       "ru": "рука героя,",
+       "de": "Heldenarm"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Heldenarm — сложное слово из Held («герой») и Arm («рука»); словарь Штилера 1691 года объясняет его как manus victrix («победоносная рука»). По-русски приходится разворачивать в два слова."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Рудольфа,",
+       "de": "Rudolfs"
+      },
+      {
+       "ru": "которого",
+       "de": "den"
+      },
+      {
+       "ru": "битва",
+       "de": "die Schlacht"
+      },
+      {
+       "ru": "радовала,",
+       "de": "erfreute"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "На этом слове фрагмент кончается: Шуберт положил на музыку только три первые строки, а потом сам перечеркнул написанное."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Рудольфа,",
+       "de": "Rudolfs"
+      },
+      {
+       "ru": "которого",
+       "de": "welchen"
+      },
+      {
+       "ru": "Франция",
+       "de": "Frankreich"
+      },
+      {
+       "ru": "страшилась",
+       "de": "scheute"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "полчище",
+       "de": "Schwarm"
+      },
+      {
+       "ru": "сарацин.",
+       "de": "der Sarazenen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Schwarm — рой, а о людях густая движущаяся масса; здесь полчище. Sarazene у Гриммов — обозначение «языческих жителей Востока, с которыми приходилось сражаться крестоносцам»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Слово «сарацины», как пишет Джонсон, подсказало Шуберту ту музыку, к которой он вернётся больше десяти лет спустя в «Der Kreuzzug» («Крестовый поход»): торжественный марш на четыре четверти."
+      }
+     ]
+    }
    ]
   },
   {
@@ -21,6 +179,149 @@
     "Zwischen moosbewachsnen Mauern",
     "Tönte seiner Klage Trauern",
     "In der Zellen Wiederhall."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Он,",
+       "de": "Er"
+      },
+      {
+       "ru": "последний",
+       "de": "der letzte"
+      },
+      {
+       "ru": "в своём",
+       "de": "seines"
+      },
+      {
+       "ru": "роду,",
+       "de": "Stammes"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Завершение Рейнхарда ван Хоорикса допевает только первую строфу; вторая, замечает Джонсон, ложится на эту странно величественную музыку не хуже."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Stamm — прежде всего «ствол»; переносное «род, происхождение» засвидетельствовано ещё в древневерхненемецком. Der letzte seines Stammes — родительный падеж, по-русски «последний в своём роду»: сыновья убиты, дочь остаётся одна."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Оплакивал",
+       "de": "Weinte"
+      },
+      {
+       "ru": "гибель",
+       "de": "Fall"
+      },
+      {
+       "ru": "своих",
+       "de": "seiner"
+      },
+      {
+       "ru": "сыновей:",
+       "de": "Söhne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Fall здесь — устаревшее «гибель», насильственная смерть, а не «падение» или «случай»; словарь DWDS помечает это значение как устаревшее. Weinen с винительным падежом — «оплакивать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Между",
+       "de": "Zwischen"
+      },
+      {
+       "ru": "замшелыми",
+       "de": "moosbewachsnen"
+      },
+      {
+       "ru": "стенами",
+       "de": "Mauern"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Звучала",
+       "de": "Tönte"
+      },
+      {
+       "ru": "скорбь",
+       "de": "Trauern"
+      },
+      {
+       "ru": "его",
+       "de": "seiner"
+      },
+      {
+       "ru": "плача",
+       "de": "Klage"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Trauern — глагол «горевать», поставленный как существительное: буквально «горевание», по-русски «скорбь». Klage у Гриммов — «вопль как выражение боли»; в песенных текстах это всегда скорбь, а не судебный иск, и здесь горе звучит вслух, поэтому «плач»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "отзвуке",
+       "de": "Wiederhall"
+      },
+      {
+       "ru": "келий.",
+       "de": "der Zellen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Wiederhall — старое написание слова Widerhall («эхо, отзвук»). Zelle — тесная комната монаха или узника; залы замка вдруг названы кельями, и жилище старика становится похоже на монастырь."
+      }
+     ]
+    }
    ]
   },
   {
@@ -30,6 +331,148 @@
     "Sanft wie Tauben, weiß wie Schwäne,",
     "Küßte sie des Vaters Träne",
     "Von den grauen Wimpern ab."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Агнес",
+       "de": "Agnes"
+      },
+      {
+       "ru": "с",
+       "de": "mit"
+      },
+      {
+       "ru": "золотыми",
+       "de": "den goldnen"
+      },
+      {
+       "ru": "локонами",
+       "de": "Locken"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Была",
+       "de": "War"
+      },
+      {
+       "ru": "утешением",
+       "de": "Trost"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "опорой",
+       "de": "Stab"
+      },
+      {
+       "ru": "старца,",
+       "de": "des Greisen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Stab — «посох»; рядом с Trost («утешение») слово идёт в переносном значении опоры, на которую опираются. Родительный des Greisen по-русски переставлен в конец: «утешением и опорой старца»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Кротка,",
+       "de": "Sanft"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "голуби,",
+       "de": "Tauben"
+      },
+      {
+       "ru": "бела,",
+       "de": "weiß"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "лебеди,",
+       "de": "Schwäne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Sanft — «мягкий, приятный чувствам»; рядом с голубями по-русски точнее «кроткая». Тем же словом в шестой строфе названы её глаза."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Сцеловывала",
+       "de": "Küßte... ab"
+      },
+      {
+       "ru": "она",
+       "de": "sie"
+      },
+      {
+       "ru": "слезу",
+       "de": "Träne"
+      },
+      {
+       "ru": "отца",
+       "de": "des Vaters"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Küßte... ab — разорванная глагольная рамка: приставка ab уехала в конец следующей строки, вместе они дают abküssen («сцеловывать»). Отдельным словом ab по-русски не переводится."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "С",
+       "de": "Von"
+      },
+      {
+       "ru": "седых",
+       "de": "den grauen"
+      },
+      {
+       "ru": "ресниц.",
+       "de": "Wimpern"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -39,6 +482,148 @@
     "Albrecht mit der offnen Stirne",
     "Brannte für die edle Dirne,",
     "Und die Dirne liebte ihn!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Ах!",
+       "de": "Ach"
+      },
+      {
+       "ru": "она",
+       "de": "sie"
+      },
+      {
+       "ru": "плакала",
+       "de": "weinte"
+      },
+      {
+       "ru": "даже",
+       "de": "selbst"
+      },
+      {
+       "ru": "втихомолку,",
+       "de": "im Stillen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Selbst перед словом значит «даже» (а после слова — «сам»); подмена одного другим переворачивает строку. Im Stillen — буквально «в тишине», то есть втихомолку, про себя, чтобы никто не видел; по-русски два слова слиты в одно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Когда",
+       "de": "Wenn"
+      },
+      {
+       "ru": "луна",
+       "de": "der Mond"
+      },
+      {
+       "ru": "светила",
+       "de": "schien"
+      },
+      {
+       "ru": "в",
+       "de": "ins"
+      },
+      {
+       "ru": "окно.",
+       "de": "Fenster"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Альбрехт",
+       "de": "Albrecht"
+      },
+      {
+       "ru": "с",
+       "de": "mit"
+      },
+      {
+       "ru": "открытым",
+       "de": "der offnen"
+      },
+      {
+       "ru": "челом",
+       "de": "Stirne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Offene Stirn — устойчивый образ прямоты и честности: «открытый лоб», по-русски скорее «открытое чело». Приметы героев баллады розданы по внешности: у Агнес золотые локоны, у Альбрехта — открытое чело."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пылал",
+       "de": "Brannte"
+      },
+      {
+       "ru": "к",
+       "de": "für"
+      },
+      {
+       "ru": "благородной",
+       "de": "die edle"
+      },
+      {
+       "ru": "деве,",
+       "de": "Dirne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Dirne около 1800 года — «девушка, дева»: у Гриммов первое значение слова — virgo, jungfrau, mädchen. Нынешнее «проститутка» сложилось позже и к тексту отношения не имеет — у Штольберга прямо стоит edle Dirne, «благородная дева»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "дева",
+       "de": "die Dirne"
+      },
+      {
+       "ru": "любила",
+       "de": "liebte"
+      },
+      {
+       "ru": "его!",
+       "de": "ihn"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -48,6 +633,144 @@
     "Rühmte seines Stammes Ahnen,",
     "Prangte mit erfochtnen Fahnen,",
     "Und der Vater war ihm hold."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Но",
+       "de": "Aber"
+      },
+      {
+       "ru": "Хорст,",
+       "de": "Horst"
+      },
+      {
+       "ru": "который",
+       "de": "der"
+      },
+      {
+       "ru": "сто",
+       "de": "hundert"
+      },
+      {
+       "ru": "воинов",
+       "de": "Krieger"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Содержал",
+       "de": "Unterhielt"
+      },
+      {
+       "ru": "на",
+       "de": "in"
+      },
+      {
+       "ru": "собственном",
+       "de": "eignem"
+      },
+      {
+       "ru": "жалованье,",
+       "de": "Sold"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Unterhalten здесь — старое основное значение «содержать, оплачивать содержание», а не нынешнее «развлекать»: Sold — плата за военную службу, и сотня воинов кормится из кармана Хорста."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Восхвалял",
+       "de": "Rühmte"
+      },
+      {
+       "ru": "предков",
+       "de": "Ahnen"
+      },
+      {
+       "ru": "своего",
+       "de": "seines"
+      },
+      {
+       "ru": "рода,",
+       "de": "Stammes"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Ahnen здесь — существительное «предки» (die Ahnen), а не глагол ahnen («предчувствовать»); в немецком их различает заглавная буква."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Красовался",
+       "de": "Prangte"
+      },
+      {
+       "ru": "завоёванными в боях",
+       "de": "mit erfochtnen"
+      },
+      {
+       "ru": "знамёнами,",
+       "de": "Fahnen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "отец",
+       "de": "der Vater"
+      },
+      {
+       "ru": "был",
+       "de": "war"
+      },
+      {
+       "ru": "к нему",
+       "de": "ihm"
+      },
+      {
+       "ru": "благосклонен.",
+       "de": "hold"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Hold с дательным падежом значит «благосклонен к кому-нибудь», и обычное «милый» сюда не подходит; у Гриммов zugeneigt, von treuer und freundlicher gesinnung («расположенный, преданно-дружеский»). Старик держит сторону Хорста."
+      }
+     ]
+    }
    ]
   },
   {
@@ -57,6 +780,144 @@
     "Ihre sanften Augen strebten",
     "Ihn zu strafen, ach! da bebten",
     "Tränen auf das Busenband."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Однажды",
+       "de": "Einst"
+      },
+      {
+       "ru": "на",
+       "de": "beim"
+      },
+      {
+       "ru": "вольном",
+       "de": "freien"
+      },
+      {
+       "ru": "пиру",
+       "de": "Mahle"
+      },
+      {
+       "ru": "поцеловал",
+       "de": "küßte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Mahl — «трапеза, пир» (существительное, не глагол mahlen «молоть»): freies Mahl — открытый пир, куда сходятся все свои."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Альбрехт",
+       "de": "Albrecht"
+      },
+      {
+       "ru": "её",
+       "de": "ihre"
+      },
+      {
+       "ru": "нежную",
+       "de": "weiche"
+      },
+      {
+       "ru": "руку,",
+       "de": "Hand"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Её",
+       "de": "Ihre"
+      },
+      {
+       "ru": "кроткие",
+       "de": "sanften"
+      },
+      {
+       "ru": "глаза",
+       "de": "Augen"
+      },
+      {
+       "ru": "силились",
+       "de": "strebten"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Его",
+       "de": "Ihn"
+      },
+      {
+       "ru": "покарать,",
+       "de": "zu strafen"
+      },
+      {
+       "ru": "ах!",
+       "de": "ach"
+      },
+      {
+       "ru": "тут",
+       "de": "da"
+      },
+      {
+       "ru": "задрожали",
+       "de": "bebten"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Strafen — «карать, наказывать»; административное «штрафовать» — смысл нового времени. Кроткие глаза силятся покарать: весь укор умещается в одном взгляде."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Слёзы",
+       "de": "Tränen"
+      },
+      {
+       "ru": "на",
+       "de": "auf"
+      },
+      {
+       "ru": "ленте у груди.",
+       "de": "das Busenband"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Busenband — лента, бант на груди платья. Словарь Гриммов объясняет это слово как раз строкой Штольберга: ach da bebten thränen auf das busenband («ах, тут задрожали слёзы на ленте у груди»). Винительный падеж auf das говорит о движении: слёзы падают на ленту и дрожат на ней."
+      }
+     ]
+    }
    ]
   },
   {
@@ -66,6 +927,135 @@
     "Auf des Ritters Wange glühte",
     "Zorn und Liebe; Feuer sprühte",
     "Aus den Augen wild umher."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Хорст",
+       "de": "Horst"
+      },
+      {
+       "ru": "вспыхнул,",
+       "de": "entbrannte"
+      },
+      {
+       "ru": "глянул",
+       "de": "blickte"
+      },
+      {
+       "ru": "в сторону",
+       "de": "seitwärts"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "На",
+       "de": "Auf"
+      },
+      {
+       "ru": "своё",
+       "de": "sein"
+      },
+      {
+       "ru": "тяжёлое",
+       "de": "schweres"
+      },
+      {
+       "ru": "оружие смерти;",
+       "de": "Mordgewehr"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Mordgewehr — сложное слово из Mord («убийство») и Gewehr («оружие»); у Гриммов — «оружие, служащее для убийства». Речь о тяжёлом рыцарском клинке: нынешнее значение «ружьё» слово Gewehr получило позже."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "На",
+       "de": "Auf"
+      },
+      {
+       "ru": "щеке",
+       "de": "Wange"
+      },
+      {
+       "ru": "рыцаря",
+       "de": "des Ritters"
+      },
+      {
+       "ru": "пылали",
+       "de": "glühte"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Гнев",
+       "de": "Zorn"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "любовь;",
+       "de": "Liebe"
+      },
+      {
+       "ru": "огонь",
+       "de": "Feuer"
+      },
+      {
+       "ru": "сыпался",
+       "de": "sprühte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Sprühen — «рассыпать искры, брызгать»; словарь DWDS даёт и переносное funkeln, glitzern («искриться, сверкать»). По-русски огонь из глаз сыплется искрами."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Из",
+       "de": "Aus"
+      },
+      {
+       "ru": "глаз",
+       "de": "den Augen"
+      },
+      {
+       "ru": "дико",
+       "de": "wild"
+      },
+      {
+       "ru": "во все стороны.",
+       "de": "umher"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -75,6 +1065,160 @@
     "„Albrecht nimm! Zu dieser Stunde",
     "Harr' ich dein im Mühlengrunde!\"",
     "Kaum gesagt, schon flog sein Roß."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "С угрозой",
+       "de": "Drohend"
+      },
+      {
+       "ru": "бросил",
+       "de": "warf"
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "свою",
+       "de": "seinen"
+      },
+      {
+       "ru": "перчатку",
+       "de": "Handschuh"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Брошенная перчатка — рыцарский вызов на поединок; жест по-русски читается так же. Строфой ниже тот же предмет назван Fehdezeichen — «знаком вызова»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "целомудренное",
+       "de": "keuschen"
+      },
+      {
+       "ru": "лоно",
+       "de": "Schoß"
+      },
+      {
+       "ru": "Агнес;",
+       "de": "der Agnes"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Keusch — «целомудренный, чистый»; keuscher Schoß в языке эпохи — знак невинности, а не эротический образ. Артикль при имени (der Agnes) — обиходная примета живой речи, обычная в балладе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "«Альбрехт,",
+       "de": "Albrecht"
+      },
+      {
+       "ru": "бери!",
+       "de": "nimm"
+      },
+      {
+       "ru": "В",
+       "de": "Zu"
+      },
+      {
+       "ru": "этот",
+       "de": "dieser"
+      },
+      {
+       "ru": "час",
+       "de": "Stunde"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Жду",
+       "de": "Harr'"
+      },
+      {
+       "ru": "я",
+       "de": "ich"
+      },
+      {
+       "ru": "тебя",
+       "de": "dein"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "мельничной лощине!»",
+       "de": "Mühlengrunde"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Harren — книжное «ждать»; в эпоху оно требовало родительного падежа, поэтому стоит dein («тебя»). Апостроф в harr' — усечённое окончание, ради размера. Mühlengrund — лощина у мельницы, место поединка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Едва",
+       "de": "Kaum"
+      },
+      {
+       "ru": "сказано,",
+       "de": "gesagt"
+      },
+      {
+       "ru": "уже",
+       "de": "schon"
+      },
+      {
+       "ru": "помчался",
+       "de": "flog"
+      },
+      {
+       "ru": "его",
+       "de": "sein"
+      },
+      {
+       "ru": "конь.",
+       "de": "Roß"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -84,6 +1228,140 @@
     "Freute sich des Mädchens Zähre,",
     "Die, der Lieb' und ihm zur Ehre,",
     "Aus dem blauen Auge floß."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Альбрехт",
+       "de": "Albrecht"
+      },
+      {
+       "ru": "принял",
+       "de": "nahm"
+      },
+      {
+       "ru": "знак вызова",
+       "de": "das Fehdezeichen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Fehdezeichen — «знак вызова на поединок» (Fehde — «распря»); словарь Гриммов объясняет слово как раз этой строкой Штольберга. Nehmen значит «брать», но о вызове по-русски говорят «принять»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Спокойно,",
+       "de": "Ruhig"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "сел верхом на",
+       "de": "bestieg"
+      },
+      {
+       "ru": "своего",
+       "de": "sein"
+      },
+      {
+       "ru": "коня;",
+       "de": "Roß"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Радовался",
+       "de": "Freute sich"
+      },
+      {
+       "ru": "слезе",
+       "de": "Zähre"
+      },
+      {
+       "ru": "девушки,",
+       "de": "des Mädchens"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Sich freuen в эпоху управляло родительным падежом: freute sich der Zähre — «радовался слезе». Zähre — поэтический двойник обычного Träne, слово заметно выше нейтрального; отдельного русского соответствия у него нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Которая,",
+       "de": "Die"
+      },
+      {
+       "ru": "любви",
+       "de": "der Lieb'"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "ему",
+       "de": "ihm"
+      },
+      {
+       "ru": "в честь,",
+       "de": "zur Ehre"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Zur Ehre с дательным падежом — «в честь кого-нибудь»: слеза пролита в честь любви и в честь него самого. Lieb' — усечённое Liebe, снова ради размера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Из",
+       "de": "Aus"
+      },
+      {
+       "ru": "голубого",
+       "de": "dem blauen"
+      },
+      {
+       "ru": "глаза",
+       "de": "Auge"
+      },
+      {
+       "ru": "лилась.",
+       "de": "floß"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -93,6 +1371,136 @@
     "Von den Hufen ihrer Pferde",
     "Tönte weit umher die Erde",
     "Und die Hirsche flohn ins Thal."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Красновато",
+       "de": "Röthlich"
+      },
+      {
+       "ru": "мерцали",
+       "de": "schimmerte"
+      },
+      {
+       "ru": "доспехи",
+       "de": "die Rüstung"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Rüstung здесь — доспехи, боевое облачение; нынешнее основное значение «вооружение страны» сложилось позже. В немецком слово стоит в единственном числе, по-русски — во множественном."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "луче",
+       "de": "Stral"
+      },
+      {
+       "ru": "вечернего солнца;",
+       "de": "der Abendsonne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Stral — старое написание слова Strahl («луч»). В этой строфе таких написаний ещё два: röthlich вместо rötlich и Thal вместо Tal."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "От",
+       "de": "Von"
+      },
+      {
+       "ru": "копыт",
+       "de": "den Hufen"
+      },
+      {
+       "ru": "их",
+       "de": "ihrer"
+      },
+      {
+       "ru": "коней",
+       "de": "Pferde"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Гудела",
+       "de": "Tönte"
+      },
+      {
+       "ru": "земля",
+       "de": "die Erde"
+      },
+      {
+       "ru": "далеко",
+       "de": "weit"
+      },
+      {
+       "ru": "вокруг",
+       "de": "umher"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Tönen — «звучать»; во второй строфе тем же глаголом сказано о плаче в кельях, а о земле под копытами по-русски естественнее «гудела»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "олени",
+       "de": "die Hirsche"
+      },
+      {
+       "ru": "убежали",
+       "de": "flohn"
+      },
+      {
+       "ru": "в",
+       "de": "ins"
+      },
+      {
+       "ru": "долину.",
+       "de": "Thal"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -102,6 +1510,145 @@
     "Sah die blanken Speere blinken,",
     "Sah — den edlen Albrecht sinken,",
     "Sank, wie Albrecht, und erblich."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "На",
+       "de": "Auf"
+      },
+      {
+       "ru": "перила",
+       "de": "Gitter"
+      },
+      {
+       "ru": "балкона",
+       "de": "des Söllers"
+      },
+      {
+       "ru": "опиралась",
+       "de": "lehnte... sich"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Söller — открытая площадка или галерея верхнего этажа, от латинского solarium («место на солнце»); Gitter — решётка, здесь перила. Lehnte... sich — глагольная рамка: возвратное sich стоит в следующей строке, по-русски оно уже сидит внутри слова «опиралась»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Оцепеневшая",
+       "de": "Die betäubte"
+      },
+      {
+       "ru": "Агнес,",
+       "de": "Agnes"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Видела,",
+       "de": "Sah"
+      },
+      {
+       "ru": "как поблёскивают",
+       "de": "blinken"
+      },
+      {
+       "ru": "сверкающие",
+       "de": "die blanken"
+      },
+      {
+       "ru": "копья,",
+       "de": "Speere"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Sah... blinken — «видела, как поблёскивают»: после sehen в немецком идёт голый инфинитив, по-русски нужна придаточная. Blinken Гримм отличает от blicken: blicken — короткий проблеск, blinken — сияние, которое длится, пока предмет блестит."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Видела —",
+       "de": "Sah"
+      },
+      {
+       "ru": "как падает",
+       "de": "sinken"
+      },
+      {
+       "ru": "благородный",
+       "de": "den edlen"
+      },
+      {
+       "ru": "Альбрехт,",
+       "de": "Albrecht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Sinken — «оседать, опускаться»; о сражённом человеке по-русски говорят «падает». Тире в немецкой строке держит паузу перед тем, что она увидела."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пала,",
+       "de": "Sank"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "Альбрехт,",
+       "de": "Albrecht"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "испустила дух.",
+       "de": "erblich"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Erblich здесь читается как старая сильная форма прошедшего времени глагола erbleichen («бледнеть»), с прилагательным «наследственный» она только совпадает по написанию. У Гриммов второе значение прямо про умирающего: vom erblassen sterbender («о бледности умирающего»), с примером er ist erblichen… ich glaub warlich er sei verschieden («он побледнел… думаю, он и вправду скончался»)."
+      }
+     ]
+    }
    ]
   },
   {
@@ -111,6 +1658,169 @@
     "Höret nun des Hauses Jammer,",
     "Eilet in des Fräuleins Kammer,",
     "Starrt und stürzt sich in sein Schwert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "В тревоге",
+       "de": "Bang'"
+      },
+      {
+       "ru": "от",
+       "de": "von"
+      },
+      {
+       "ru": "тихого",
+       "de": "leiser"
+      },
+      {
+       "ru": "предчувствия",
+       "de": "Ahndung"
+      },
+      {
+       "ru": "пришпоривает",
+       "de": "spornet"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Ahndung в языке эпохи — «предчувствие» (нынешнее Ahnung); Гриммы дают praesagium, vorgefühl. Сегодня это слово значит «наказание», и переводить его так здесь нельзя. Bang von — «в тревоге от чего-нибудь»; leise не только о громкости, но и о слабом, едва различимом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Хорст",
+       "de": "Horst"
+      },
+      {
+       "ru": "своего",
+       "de": "sein"
+      },
+      {
+       "ru": "взмыленного",
+       "de": "schaumbedecktes"
+      },
+      {
+       "ru": "коня;",
+       "de": "Pferd"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Schaumbedeckt — «покрытый пеной» (Schaum — «пена»), по-русски «взмыленный». Словарь Гриммов приводит на это слово как раз строку Штольберга, только с Roß вместо Pferd."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Слышит",
+       "de": "Höret"
+      },
+      {
+       "ru": "теперь",
+       "de": "nun"
+      },
+      {
+       "ru": "плач",
+       "de": "Jammer"
+      },
+      {
+       "ru": "дома,",
+       "de": "des Hauses"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Спешит",
+       "de": "Eilet"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "покой",
+       "de": "Kammer"
+      },
+      {
+       "ru": "барышни,",
+       "de": "des Fräuleins"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Fräulein в эпоху — незамужняя девушка знатного рода, «барышня»; Kammer — небольшая жилая комната, покой. Höret и eilet — старые формы третьего лица, нынешние hört и eilt."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Цепенеет",
+       "de": "Starrt"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "бросается",
+       "de": "stürzt sich"
+      },
+      {
+       "ru": "на",
+       "de": "in"
+      },
+      {
+       "ru": "свой",
+       "de": "sein"
+      },
+      {
+       "ru": "меч.",
+       "de": "Schwert"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Starren Гримм различает надвое: «застывать, коченеть» и «смотреть неподвижно». Здесь первое — Хорст замирает на пороге."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        5
+       ],
+       "text": "Sich in sein Schwert stürzen — «броситься на собственный меч», то есть заколоться. Третья смерть в балладе занимает половину строки."
+      }
+     ]
+    }
    ]
   },
   {
@@ -120,8 +1830,202 @@
     "Hielt sie so zwei lange Tage,",
     "Thränenlos und ohne Klage,",
     "Und verschied im stummen Harm."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Рудольф",
+       "de": "Rudolf"
+      },
+      {
+       "ru": "взял",
+       "de": "nahm"
+      },
+      {
+       "ru": "бездыханную",
+       "de": "die kalte"
+      },
+      {
+       "ru": "дочь",
+       "de": "Tochter"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Kalt — «холодная»; в поэтическом языке холод тела означает смерть, поэтому по-русски «бездыханная»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "отцовскую",
+       "de": "den väterlichen"
+      },
+      {
+       "ru": "руку,",
+       "de": "Arm"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Arm — рука целиком, от плеча, в отличие от Hand («кисть»); по смыслу это «отцовские объятия», но слово в тексте одно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Держал",
+       "de": "Hielt"
+      },
+      {
+       "ru": "её",
+       "de": "sie"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "два",
+       "de": "zwei"
+      },
+      {
+       "ru": "долгих",
+       "de": "lange"
+      },
+      {
+       "ru": "дня,",
+       "de": "Tage"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "Джонсон допускает, что ту же музыку Шуберт написал бы и для последней строфы — там, где стоический сэр Рудольф без слёз и без жалоб держит тело дочери два дня, а потом умирает сам."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Без слёз",
+       "de": "Thränenlos"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "без",
+       "de": "ohne"
+      },
+      {
+       "ru": "жалоб,",
+       "de": "Klage"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Thränenlos — старое написание слова tränenlos («бесслёзный»), сложенного из Träne и -los; словарь Гриммов приводит на него эту самую строку Штольберга."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "скончался",
+       "de": "verschied"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "безмолвной",
+       "de": "stummen"
+      },
+      {
+       "ru": "скорби.",
+       "de": "Harm"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Verscheiden — возвышенное «скончаться». Harm — книжное слово для тяжкого горя, кручины; у Гриммов leid, kränkung («страдание, обида»). Ни слёз, ни жалобы: старик умирает от немой скорби."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Friedrich Leopold zu Stolberg-Stolberg"
+ "about": [
+  {
+   "title": "Апрель 1816 года",
+   "text": "Шуберт взялся за балладу Штольберга в апреле 1816 года, девятнадцати лет от роду, и оставил работу на седьмом такте. От песни осталось начало первой строфы: музыка доходит до конца третьей строки и обрывается."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "Об автографе известно из комментариев Грэма Джонсона, пианиста и автора аннотаций к антологии Hyperion Schubert Edition. Ноты записаны на обороте рукописи другой песни на слова Штольберга — «Daphne am Bach» («Дафна у ручья», D 411), и такты перечёркнуты рукой самого композитора. Пять из них выписаны полностью, с фортепиано, ещё в двух идёт одна вокальная строка — до слова *erfreute* («радовала») включительно.\nВ печать фрагмент попал, по словам Джонсона, только в 1897 году — в Revisions-Bericht, критическом отчёте старого полного собрания сочинений Шуберта (Gesamtausgabe)."
+  },
+  {
+   "title": "Фридрих Леопольд цу Штольберг",
+   "text": "Поэт поколения бури и натиска, дипломат, а в конце жизни религиозный писатель. Он рос в готшторпском кругу почитателей Фридриха Готлиба Клопстока, старшего поэта, которого молодые немецкие стихотворцы считали своим учителем, и вместе со старшим братом Христианом входил в гёттингенский «Союз рощи» (Göttinger Hain) — студенческое братство, объявившее себя наследниками Клопстока. Летом 1775 года Штольберг путешествовал по Швейцарии в компании молодого Гёте.\nДвадцатью годами позже он перешёл в католичество, оставил дипломатическую службу и посвятил жизнь многотомной религиозной истории. Прежний друг, поэт Иоганн Генрих Фосс, так и не простил ему этого поворота и обрушился на бывшего соратника с памфлетами."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "В балладе тринадцать строф. Джонсон пересказывает её так: любовь прекрасной Агнес, дочери Рудольфа, к Альбрехту; ревнивый Хорст вызывает соперника на поединок и убивает его; к концу мертвы все трое участников любовного треугольника. В этом сюжете Джонсон видит «нечто вроде повторного прогона» более ранней шубертовской баллады «Der Tod Oscars» («Смерть Оскара»).\nВ буклете Hyperion те же строки напечатаны с апострофами и другой расстановкой прописных букв: *Ritter Rudolf's Heldenarm*, *Er, der Letzte seines Stammes*. Различие орфографическое, на смысл оно не влияет; на странице эти слова даны без апострофов — *Rudolfs*, *letzte*."
+  },
+  {
+   "title": "Музыка",
+   "text": "Упоминание сарацин в первой строфе, пишет Джонсон, вывело Шуберта на ту же музыкальную атмосферу, к которой он вернётся больше десяти лет спустя в «Der Kreuzzug» («Крестовый поход»): торжественный марш на четыре четверти, где крестовые походы показаны делом серьёзным и святым. Средневековая обстановка и почти флегматичный стоицизм фрагмента напоминают Джонсону песню на слова Шиллера «Ritter Toggenburg» («Рыцарь Тоггенбург»), написанную месяцем раньше, в марте 1816 года.\nПродолжения не последовало. Расписав мрачное величие баронского замка сэра Рудольфа, замечает Джонсон, композитор потерял охоту вести историю дальше: вкус Шуберта к балладам начинал его покидать. Годом-двумя раньше, полагает Джонсон, он довёл бы вещь до конца — в манере «Романса» на слова Маттисона или баллады на слова Кеннера. От Шуберта дошли только эти довольно впечатляющие начальные такты."
+  },
+  {
+   "title": "Последний в роду",
+   "text": "Баллада держится на старом Рудольфе. Он последний в своём роду, сыновья убиты, дочь Агнес — его единственное утешение; к концу он теряет и её, а вместе с ней обоих молодых рыцарей: Альбрехт падает на поединке, Агнес умирает, увидев это с балкона, Хорст бросается на собственный меч. Старик держит тело дочери два дня без единой слезы и умирает молча.\nШуберт успел положить на музыку только его — рыцаря, которого радовала битва и которого страшились Франция и полчище сарацин."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Исполнимым фрагмент сделал музыковед Рейнхард ван Хоорикс. Его завершение Джонсон называет одним из лучших у этого автора: оно скромно и разумно доводит до конца только первую строфу, а вторая строфа стихотворения, добавляет Джонсон, ложится на эту странно величественную музыку не хуже.\nСтихи Штольберга — для Шуберта ранняя лирика, ещё не тронутая поздним благочестием. Девять песен на его слова растянулись почти на весь путь композитора: от «Morgenlied» («Утренняя песня») и «An die Natur» («К природе») 1815–1816 годов до «Auf dem Wasser zu singen» («Петь на воде») 1823 года. Незаконченным среди них остался не только «Романс»: фрагментом дошла и «Lied in der Abwesenheit» («Песня в разлуке», D 416)."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Известна одна запись фрагмента. Кристоф Прегардьен (тенор) и Грэм Джонсон (фортепиано) записали его в сентябре 1994 года для двадцать третьего тома антологии Hyperion Schubert Edition — «Songs of 1816» (CDJ33023, издан в мае 1995-го). Звучит завершение ван Хоорикса. Других записей не выявлено."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }

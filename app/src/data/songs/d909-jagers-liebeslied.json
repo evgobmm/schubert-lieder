@@ -1,9 +1,16 @@
 {
  "d": "909",
  "title_de": "Jägers Liebeslied",
+ "title_ru": "Любовная песня охотника",
+ "poet_de": "Franz von Schober",
+ "poet_ru": "Франц фон Шобер",
  "year": "1827",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Jägers Liebeslied — «Любовная песня охотника». Под этим заглавием Франц фон Шобер напечатал стихотворение только в 1842 году, через четырнадцать лет после того, как вышли ноты Шуберта."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -17,6 +24,298 @@
     "Die Liebe auch gefühlt,",
     "Und dennoch hab' ich harter Mann",
     "Die Liebe auch gefühlt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "schiess'",
+       "ru": "стреляю"
+      },
+      {
+       "de": "den Hirsch",
+       "ru": "оленя"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "grünen",
+       "ru": "зелёном"
+      },
+      {
+       "de": "Forst,",
+       "ru": "лесу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Forst («лес») у Гриммов сперва только bannwald, herrnwald («заповедный, господский лес») — в отличие от общинного леса, которым владеют все вместе. К началу XIX века этот правовой оттенок в стихах стёрся, и Forst стоит там же, где стояло бы Wald («лес»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Im",
+       "ru": "В"
+      },
+      {
+       "de": "stillen",
+       "ru": "тихой"
+      },
+      {
+       "de": "Thal",
+       "ru": "долине"
+      },
+      {
+       "de": "das Reh,",
+       "ru": "косулю,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Reh — косуля, отдельный и более мелкий зверь; олень предыдущей строки — Hirsch. Перевести Reh как «олень» значило бы свести двух зверей в одного. Thal — написание эпохи, нынешнее Tal («долина»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Den Adler",
+       "ru": "Орла"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem Klippenhorst,",
+       "ru": "скальном гнезде,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Klippenhorst — сложение Klippe («утёс, скала») и Horst («гнездо хищной птицы»): орлиное гнездо на скале. Словарной статьи у этого слова нет, поэт собрал его из двух прозрачных частей."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Ente",
+       "ru": "Утку"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem See.",
+       "ru": "озере."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Ловушка рода: der See — «озеро», die See — «море». Артикль dem указывает на мужской род, и утка сидит на озере."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kein",
+       "ru": "Нет"
+      },
+      {
+       "de": "Ort,",
+       "ru": "места,"
+      },
+      {
+       "de": "der",
+       "ru": "которое"
+      },
+      {
+       "de": "kann,",
+       "ru": "может"
+      },
+      {
+       "de": "gewähren",
+       "ru": "дать"
+      },
+      {
+       "de": "Schutz",
+       "ru": "защиту,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "Сказуемого у главной части нет: Kein Ort, der Schutz gewähren kann — назывной оборот, к которому по-немецки подразумевается «нет такого места». По-русски пришлось выпрямить порядок придаточного: kann («может») вышло вперёд, Schutz («защита») ушло в конец."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "meine",
+       "ru": "моё"
+      },
+      {
+       "de": "Flinte",
+       "ru": "ружьё"
+      },
+      {
+       "de": "zielt,",
+       "ru": "целится,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Flinte — кремнёвое ружьё, которое во второй половине XVII века сменило старую фитильную пищаль; к 1827 году обычное слово для охотничьего ружья."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "всё же",
+       "de": "dennoch"
+      },
+      {
+       "ru": "я,",
+       "de": "hab' ich"
+      },
+      {
+       "ru": "суровый",
+       "de": "harter"
+      },
+      {
+       "ru": "муж,",
+       "de": "Mann"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "hab'... gefühlt («почувствовал») — глагольная рамка, разорванная концом строки: вспомогательный глагол здесь, причастие в следующей строке. По-русски это одно слово, поэтому hab' слилось с ich («я»). Рядом harter Mann: hart у Гриммов значит «суровый, стойко переносящий тяготы» (eine harte nacht, ein harter gang: «суровая ночь», «тяжкий путь»), а Mann здесь взрослый, зрелый мужчина, не супруг."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Liebe",
+       "ru": "Любовь"
+      },
+      {
+       "de": "auch",
+       "ru": "тоже"
+      },
+      {
+       "de": "gefühlt,",
+       "ru": "почувствовал,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Грэм Джонсон, автор аннотаций к антологии Hyperion Schubert Edition, слышит здесь серенаду влюблённого, а не прославление вольной жизни на воздухе: музыка идёт в баркарольном ритме на 6/8, динамические указания сдержанны и обращены внутрь, и только отдалённый звук охотничьих рогов вплетён в подъёмы и спады мелодии."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "всё же",
+       "de": "dennoch"
+      },
+      {
+       "ru": "я,",
+       "de": "hab' ich"
+      },
+      {
+       "ru": "суровый",
+       "de": "harter"
+      },
+      {
+       "ru": "муж,",
+       "de": "Mann"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Liebe",
+       "ru": "Любовь"
+      },
+      {
+       "de": "auch",
+       "ru": "тоже"
+      },
+      {
+       "de": "gefühlt.",
+       "ru": "почувствовал."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -31,6 +330,280 @@
     "Die rauhe Brust gespürt,",
     "Doch hat der Liebe zarten Traum",
     "Die rauhe Brust gespürt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "oft",
+       "ru": "Часто"
+      },
+      {
+       "de": "Hab... hantirt",
+       "ru": "трудился"
+      },
+      {
+       "de": "",
+       "ru": "я"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "rauher",
+       "ru": "суровое"
+      },
+      {
+       "de": "Zeit,",
+       "ru": "время,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "hantieren (в написании эпохи hantirt) — «заниматься делом, трудиться». Гримм отводит народную связь с Hand («рука»): слово пришло из французского hanter («часто где-либо бывать»). Подлежащее ich («я») в немецкой строке опущено, по-русски его пришлось вернуть."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "rauh (нынешнее rau) — «суровый, неласковый»: о погоде, о времени, о нраве. Тем же словом названа в конце строфы rauhe Brust («суровая грудь»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "Sturm",
+       "ru": "бурю"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Winternacht,",
+       "ru": "зимнюю ночь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "übereis't",
+       "ru": "обледенелый"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "eingeschneit,",
+       "ru": "занесённый снегом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "übereis't — апостроф заменяет здесь стянутое окончание причастия (übereist, «обледеневший»), а не местоимение es («оно»). У Гримма übereisen — «затянуть льдом»: nachtfröste, die den kleinen see dick übereisten («ночные морозы, что затянули озерцо толстым льдом»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zum Bett",
+       "ru": "Постелью"
+      },
+      {
+       "de": "den Stein",
+       "ru": "камень"
+      },
+      {
+       "de": "gemacht.",
+       "ru": "сделал."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Причастие gemacht («сделал») держится на том же Hab из первой строки строфы: одна рамка охватывает и hantirt, и gemacht. Zum Bett — «на роль постели»: ложем охотнику служил камень."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "Dornen",
+       "ru": "шипах"
+      },
+      {
+       "de": "schlief",
+       "ru": "спал"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Flaum,",
+       "ru": "пуху,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Vom Nordwind",
+       "ru": "Северным ветром"
+      },
+      {
+       "de": "ungerührt,",
+       "ru": "не тронутый,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Vom — слияние von и dem. По-русски предлог пропадает вовсе, остаётся творительный падеж: «северным ветром»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Но",
+       "de": "Doch hat"
+      },
+      {
+       "ru": "нежную",
+       "de": "zarten"
+      },
+      {
+       "ru": "грёзу",
+       "de": "Traum"
+      },
+      {
+       "ru": "любви",
+       "de": "der Liebe"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Traum у Гриммов — и ночной сон, и грёза наяву; здесь второе: zarter Traum der Liebe — нежная грёза о любви. Вспомогательный hat слит с Doch («но»), потому что причастие gespürt («почувствовала») стоит в следующей строке и по-русски рамка сходится в одном слове."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die rauhe",
+       "ru": "Суровая"
+      },
+      {
+       "de": "Brust",
+       "ru": "грудь"
+      },
+      {
+       "de": "gespürt,",
+       "ru": "почувствовала,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "spüren у охотника — рабочее слово: идти по следу, чуять зверя (оно родня слову Spur, «след»). Тем же глаголом названо здесь чувство. Brust около 1800 года — «седалище жизни и чувствования», грудь как место, где живёт душа."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Но",
+       "de": "Doch hat"
+      },
+      {
+       "ru": "нежную",
+       "de": "zarten"
+      },
+      {
+       "ru": "грёзу",
+       "de": "Traum"
+      },
+      {
+       "ru": "любви",
+       "de": "der Liebe"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die rauhe",
+       "ru": "Суровая"
+      },
+      {
+       "de": "Brust",
+       "ru": "грудь"
+      },
+      {
+       "de": "gespürt.",
+       "ru": "почувствовала."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -45,6 +618,281 @@
     "In's wilde Jägerblut,",
     "Und dennoch schlug die Liebe mir",
     "In's wilde Jägerblut."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der wilde",
+       "ru": "Дикий"
+      },
+      {
+       "de": "Falk",
+       "ru": "сокол"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "mein",
+       "ru": "моим"
+      },
+      {
+       "de": "Gesell,",
+       "ru": "спутником,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "Falk и Gesell — усечённые ради размера формы от Falke («сокол») и Geselle («товарищ, спутник»). Точнее было бы «товарищ», но в следующей строке стоит Kampfgespan («товарищ по схватке»), и, чтобы слово не повторилось дважды подряд, здесь взят «спутник»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Wolf",
+       "ru": "Волк"
+      },
+      {
+       "de": "",
+       "ru": "—"
+      },
+      {
+       "de": "mein",
+       "ru": "моим"
+      },
+      {
+       "de": "Kampfgespan,",
+       "ru": "товарищем по схватке,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Связка war («был») из предыдущей строки здесь опущена — по-русски на её месте тире. Kampfgespan — сложение Kampf («бой») и старого поэтического Gespan («товарищ, спутник»); словарной статьи у него нет, слово собрано поэтом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mir",
+       "ru": "У меня"
+      },
+      {
+       "de": "der Tag",
+       "ru": "день"
+      },
+      {
+       "de": "fing",
+       "ru": "начинался"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Hundgebell,",
+       "ru": "лая собак,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Mir — дательный принадлежности: «у меня». Глагол anfangen («начинаться») разорван: fing стоит здесь, а приставка an ушла в конец следующей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Nacht",
+       "ru": "Ночь"
+      },
+      {
+       "de": "",
+       "ru": "—"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Hussah an.",
+       "ru": "«ату!»."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Hussah — охотничий клич: у Гримма hussa — jagd- und verfolgungsruf («клич охоты и погони»), иногда и просто возглас ликования. Русское «ату!» — тот же крик по зверю. Приставка an, замыкающая глагол предыдущей строки, стоит следом за кличем."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein Tannreis",
+       "ru": "Еловая веточка"
+      },
+      {
+       "de": "war",
+       "ru": "была"
+      },
+      {
+       "de": "die Blumenzier",
+       "ru": "цветочным украшением"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Tannreis — Tanne («ель») и Reis («ветка, побег»); Blumenzier — Blume («цветок») и Zier («убор, украшение»). Оба слова сложены поэтом: весь цветочный убор охотничьей шляпы — еловая ветка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "schweissbeflecktem",
+       "ru": "окровавленной"
+      },
+      {
+       "de": "Hut,",
+       "ru": "шляпе,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Ловушка охотничьего языка: Schweiss у охотников означает кровь убитого зверя, а не пот. Schweissbefleckter Hut — шляпа в пятнах крови дичи."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dennoch",
+       "ru": "всё же"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "schlug",
+       "ru": "ударила"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "In's",
+       "ru": "В"
+      },
+      {
+       "de": "wilde",
+       "ru": "дикую"
+      },
+      {
+       "de": "Jägerblut,",
+       "ru": "охотничью кровь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Джонсон рассказывает, что песню позже включили в студенческий песенник и она зажила своей жизнью — у весёлых парней той поры, которые не замечали в ней подтекста; так же, по его сравнению, целое поколение солдат читало «Шропширского парня» Хаусмена как гимн товариществу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dennoch",
+       "ru": "всё же"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "schlug",
+       "ru": "ударила"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "In's",
+       "ru": "В"
+      },
+      {
+       "de": "wilde",
+       "ru": "дикую"
+      },
+      {
+       "de": "Jägerblut.",
+       "ru": "охотничью кровь."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -59,6 +907,283 @@
     "Wie sie kein Meister malt,",
     "Schwebt königshehr die Lichtgestalt,",
     "Wie sie kein Meister malt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О"
+      },
+      {
+       "de": "Schäfer",
+       "ru": "пастух"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem weichen",
+       "ru": "мягком"
+      },
+      {
+       "de": "Moos,",
+       "ru": "мху,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "du",
+       "ru": "Ты,"
+      },
+      {
+       "de": "Der",
+       "ru": "что"
+      },
+      {
+       "de": "mit Blumen",
+       "ru": "цветами"
+      },
+      {
+       "de": "spielst,",
+       "ru": "играешь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Der du — книжная формула обращения: «ты, который»; относится к пастуху предыдущей строки. В spielst mit Blumen предлог mit («с») по-русски пропадает, остаётся творительный падеж: «играешь цветами»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "weiss,",
+       "ru": "знает,"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "ob",
+       "ru": "ли"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "heiss,",
+       "ru": "горячо,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "gross,",
+       "ru": "сильно,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "ob — «ли» в косвенном вопросе. Русская частица стоит после того слова, к которому относится, поэтому в подстрочнике она сдвинулась: «ты ли». Gross тут мера чувства («так велико»), по-русски естественнее «так сильно»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "fühlst",
+       "ru": "чувствуешь"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Allnächtlich",
+       "ru": "Еженощно"
+      },
+      {
+       "de": "überm",
+       "ru": "над"
+      },
+      {
+       "de": "schwarzen",
+       "ru": "чёрным"
+      },
+      {
+       "de": "Wald,",
+       "ru": "лесом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "allnächtlich — «каждую ночь» (Гримм переводит латинским quavis nocte); überm — стяжение über dem («над»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vom Mondenschein",
+       "ru": "Лунным светом"
+      },
+      {
+       "de": "umstrahlt,",
+       "ru": "озарённый,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwebt",
+       "ru": "Парит"
+      },
+      {
+       "de": "königshehr",
+       "ru": "царственно-величавый"
+      },
+      {
+       "de": "die Lichtgestalt,",
+       "ru": "светлый образ,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "königshehr — König («король») и hehr («величавый, священный»), высокое слово поэзии тех лет. Словарной статьи у этого сложения нет, оно сделано для одной строки."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Lichtgestalt — буквально «облик из света», «существо из света»; у Гриммов это слово стоит рядом с ангелами и небесными явлениями. Джонсон замечает, что английские переводчики напрасно вводят в следующую строфу слово «она»: местоимение sie отсылает назад к слову женского рода Gestalt («образ»), то есть к самому светлому образу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie sie",
+       "ru": "Какого"
+      },
+      {
+       "de": "kein",
+       "ru": "ни один"
+      },
+      {
+       "de": "Meister",
+       "ru": "мастер"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "malt,",
+       "ru": "напишет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Wie sie — «какого»: немецкое местоимение растворилось в русском слове, потому что «светлый образ» по-русски мужского рода. Meister здесь большой живописец, а не цеховой ремесленник, и malen — «писать красками». Немецкому отрицанию хватает одного kein («ни один»), русскому нужна ещё частица «не»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwebt",
+       "ru": "Парит"
+      },
+      {
+       "de": "königshehr",
+       "ru": "царственно-величавый"
+      },
+      {
+       "de": "die Lichtgestalt,",
+       "ru": "светлый образ,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie sie",
+       "ru": "Какого"
+      },
+      {
+       "de": "kein",
+       "ru": "ни один"
+      },
+      {
+       "de": "Meister",
+       "ru": "мастер"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "malt.",
+       "ru": "напишет."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -73,6 +1198,288 @@
     "Mich in die Arme schliesst,",
     "Als wenn der allerbeste Freund",
     "Mich in die Arme schliesst."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "dann",
+       "ru": "затем"
+      },
+      {
+       "de": "niedersieht,",
+       "ru": "глядит сверху"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "mich",
+       "ru": "меня,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Песня почти сплошь строфическая: куплет за куплетом поются на одну и ту же музыку. Изменения появляются только здесь, в пятом, — и в этой безыскусности Джонсон слышит правдивость чувства."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "sie («она») — та самая Lichtgestalt («светлый образ») из предыдущей строфы: Gestalt по-немецки женского рода. Русское «образ» — мужского, но местоимение оставлено женским, как в подлиннике; о том, к чему оно отсылает, — сноска к слову Lichtgestalt."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "ihr",
+       "ru": "её"
+      },
+      {
+       "de": "Blick",
+       "ru": "взгляд"
+      },
+      {
+       "de": "durchglüht,",
+       "ru": "пронзает жаром,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "durchglühen — «прокалить, пронизать жаром насквозь»; у Гримма и переносно: so unschuld als verlangen durchglühten ihre wangen («и невинность, и желание жаром заливали ей щёки»). Blick около 1800 года ещё помнит исходное значение «быстро летящий луч» — взгляд, который жжёт."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тогда"
+      },
+      {
+       "de": "weiss",
+       "ru": "знаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "wie",
+       "ru": "что"
+      },
+      {
+       "de": "geschieht",
+       "ru": "творится"
+      },
+      {
+       "de": "dem Wild,",
+       "ru": "со зверем,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "geschehen требует дательного падежа: jmdm. geschieht etwas — «с кем-то что-то происходит». Оттого wie («как») по-русски передано словом «что»: «что творится со зверем». Das Wild — существительное «дичь, зверь», а не прилагательное wild («дикий») из третьей строфы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Das",
+       "ru": "Который"
+      },
+      {
+       "de": "flieht,",
+       "ru": "бежит"
+      },
+      {
+       "de": "vor",
+       "ru": "от"
+      },
+      {
+       "de": "dem Rohre",
+       "ru": "ружья,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Rohr в языке охотников — ружейный ствол, а через него и само ружьё; зверь бежит от того самого ружья, которое целилось в первой строфе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "doch",
+       "ru": "всё-таки"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "allem",
+       "ru": "всем"
+      },
+      {
+       "de": "Glück",
+       "ru": "счастьем"
+      },
+      {
+       "de": "vereint,",
+       "ru": "слит воедино,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Das",
+       "ru": "Какое"
+      },
+      {
+       "de": "nur",
+       "ru": "только"
+      },
+      {
+       "de": "ist,",
+       "ru": "есть"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Erden",
+       "ru": "земле,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Als wenn",
+       "ru": "Как будто"
+      },
+      {
+       "de": "der allerbeste",
+       "ru": "самый лучший"
+      },
+      {
+       "de": "Freund",
+       "ru": "друг"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Джонсон предполагает, что «самый лучший друг» — сам Шуберт. У Шобера было всё, чего Шуберту недоставало: обаяние, успех у женщин, денежная независимость, — а он разглядел в друге гения и называл его фигурой света. Новая любовь стихотворения вряд ли имеет в виду Шуберта, но старая дружба, по мысли Джонсона, значит в этих строках очень много."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "in die Arme schliesst,",
+       "ru": "заключает в объятия,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "in die Arme schliessen — устойчивый оборот, у Гримма прямо: einen in die arme schlieszen, umarmen («заключить кого-нибудь в объятия, обнять»). Отдельно глагол schliessen («закрывать, замыкать») здесь не значит ничего."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Als wenn",
+       "ru": "Как будто"
+      },
+      {
+       "de": "der allerbeste",
+       "ru": "самый лучший"
+      },
+      {
+       "de": "Freund",
+       "ru": "друг"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "in die Arme schliesst.",
+       "ru": "заключает в объятия."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -81,6 +1488,164 @@
     "Den Adler auf dem Klippenhorst, die Ente auf dem See.",
     "Kein Ort, der Schutz gewähren kann, wenn meine Flinte zielt,",
     "Und dennoch hab' ich harter Mann die Liebe auch gefühlt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "schiess'",
+       "ru": "стреляю"
+      },
+      {
+       "de": "den Hirsch",
+       "ru": "оленя"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "grünen",
+       "ru": "зелёном"
+      },
+      {
+       "de": "Forst,",
+       "ru": "лесу,"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "stillen",
+       "ru": "тихой"
+      },
+      {
+       "de": "Thal",
+       "ru": "долине"
+      },
+      {
+       "de": "das Reh,",
+       "ru": "косулю,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Den Adler",
+       "ru": "Орла"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem Klippenhorst,",
+       "ru": "скальном гнезде,"
+      },
+      {
+       "de": "die Ente",
+       "ru": "утку"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem See.",
+       "ru": "озере."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Kein",
+       "ru": "Нет"
+      },
+      {
+       "de": "Ort,",
+       "ru": "места,"
+      },
+      {
+       "de": "der",
+       "ru": "которое"
+      },
+      {
+       "de": "kann,",
+       "ru": "может"
+      },
+      {
+       "de": "gewähren",
+       "ru": "дать"
+      },
+      {
+       "de": "Schutz",
+       "ru": "защиту,"
+      },
+      {
+       "de": "wenn",
+       "ru": "когда"
+      },
+      {
+       "de": "meine",
+       "ru": "моё"
+      },
+      {
+       "de": "Flinte",
+       "ru": "ружьё"
+      },
+      {
+       "de": "zielt,",
+       "ru": "целится,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dennoch",
+       "ru": "всё же"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "harter",
+       "ru": "суровый"
+      },
+      {
+       "de": "Mann",
+       "ru": "муж,"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "auch",
+       "ru": "тоже"
+      },
+      {
+       "de": "hab'... gefühlt.",
+       "ru": "почувствовал."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -89,6 +1654,160 @@
     "Und übereis't und eingeschneit, zum Bett den Stein gemacht.",
     "Auf Dornen schlief ich wie auf Flaum, vom Nordwind ungerührt,",
     "Doch hat der Liebe zarten Traum die rauhe Brust gespürt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "oft",
+       "ru": "Часто"
+      },
+      {
+       "de": "Hab... hantirt",
+       "ru": "трудился"
+      },
+      {
+       "de": "",
+       "ru": "я"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "rauher",
+       "ru": "суровое"
+      },
+      {
+       "de": "Zeit,",
+       "ru": "время,"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Sturm",
+       "ru": "бурю"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Winternacht,",
+       "ru": "зимнюю ночь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "übereis't",
+       "ru": "обледенелый"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "eingeschneit,",
+       "ru": "занесённый снегом,"
+      },
+      {
+       "de": "zum Bett",
+       "ru": "постелью"
+      },
+      {
+       "de": "den Stein",
+       "ru": "камень"
+      },
+      {
+       "de": "gemacht.",
+       "ru": "сделал."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "Dornen",
+       "ru": "шипах"
+      },
+      {
+       "de": "schlief",
+       "ru": "спал"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Flaum,",
+       "ru": "пуху,"
+      },
+      {
+       "de": "vom Nordwind",
+       "ru": "северным ветром"
+      },
+      {
+       "de": "ungerührt,",
+       "ru": "не тронутый,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Но",
+       "de": "Doch"
+      },
+      {
+       "ru": "нежную",
+       "de": "zarten"
+      },
+      {
+       "ru": "грёзу",
+       "de": "Traum"
+      },
+      {
+       "ru": "любви",
+       "de": "der Liebe"
+      },
+      {
+       "ru": "суровая",
+       "de": "die rauhe"
+      },
+      {
+       "ru": "грудь",
+       "de": "Brust"
+      },
+      {
+       "ru": "почувствовала.",
+       "de": "hat... gespürt."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -96,6 +1815,127 @@
     "Der wilde Falk war mein Gesell, der Wolf mein Kampfgespan,",
     "Mir fing der Tag mit Hundgebell, die Nacht mit Hussah an.",
     "Und dennoch schlug die Liebe mir in's wilde Jägerblut."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der wilde",
+       "ru": "Дикий"
+      },
+      {
+       "de": "Falk",
+       "ru": "сокол"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "mein",
+       "ru": "моим"
+      },
+      {
+       "de": "Gesell,",
+       "ru": "спутником,"
+      },
+      {
+       "de": "der Wolf",
+       "ru": "волк"
+      },
+      {
+       "de": "",
+       "ru": "—"
+      },
+      {
+       "de": "mein",
+       "ru": "моим"
+      },
+      {
+       "de": "Kampfgespan,",
+       "ru": "товарищем по схватке,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Mir",
+       "ru": "У меня"
+      },
+      {
+       "de": "der Tag",
+       "ru": "день"
+      },
+      {
+       "de": "fing",
+       "ru": "начинался"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Hundgebell,",
+       "ru": "лая собак,"
+      },
+      {
+       "de": "die Nacht",
+       "ru": "ночь"
+      },
+      {
+       "de": "",
+       "ru": "—"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Hussah an.",
+       "ru": "«ату!»."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dennoch",
+       "ru": "всё же"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "schlug",
+       "ru": "ударила"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "in's",
+       "ru": "в"
+      },
+      {
+       "de": "wilde",
+       "ru": "дикую"
+      },
+      {
+       "de": "Jägerblut.",
+       "ru": "охотничью кровь."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -104,6 +1944,168 @@
     "Wer weiss, ob du so heiss, so gross, wie ich die Liebe fühlst,",
     "Allnächtlich überm schwarzen Wald, vom Mondenschein umstrahlt,",
     "Schwebt königshehr die Lichtgestalt, wie sie kein Meister malt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О"
+      },
+      {
+       "de": "Schäfer",
+       "ru": "пастух"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem weichen",
+       "ru": "мягком"
+      },
+      {
+       "de": "Moos,",
+       "ru": "мху,"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      },
+      {
+       "de": "der",
+       "ru": "что"
+      },
+      {
+       "de": "mit Blumen",
+       "ru": "цветами"
+      },
+      {
+       "de": "spielst,",
+       "ru": "играешь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "weiss,",
+       "ru": "знает,"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "ob",
+       "ru": "ли"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "heiss,",
+       "ru": "горячо,"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "gross,",
+       "ru": "сильно,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь"
+      },
+      {
+       "de": "fühlst,",
+       "ru": "чувствуешь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Allnächtlich",
+       "ru": "Еженощно"
+      },
+      {
+       "de": "überm",
+       "ru": "над"
+      },
+      {
+       "de": "schwarzen",
+       "ru": "чёрным"
+      },
+      {
+       "de": "Wald,",
+       "ru": "лесом,"
+      },
+      {
+       "de": "vom Mondenschein",
+       "ru": "лунным светом"
+      },
+      {
+       "de": "umstrahlt,",
+       "ru": "озарённый,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwebt",
+       "ru": "Парит"
+      },
+      {
+       "de": "königshehr",
+       "ru": "царственно-величавый"
+      },
+      {
+       "de": "die Lichtgestalt,",
+       "ru": "светлый образ,"
+      },
+      {
+       "de": "wie sie",
+       "ru": "какого"
+      },
+      {
+       "de": "kein",
+       "ru": "ни один"
+      },
+      {
+       "de": "Meister",
+       "ru": "мастер"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "malt.",
+       "ru": "напишет."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -111,8 +2113,167 @@
     "Da weiss ich wie dem Wild geschieht, das vor dem Rohre flieht,",
     "Und doch mit allem Glück vereint, das nur auf Erden ist,",
     "Als wenn der allerbeste Freund mich in die Arme schliesst."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тогда"
+      },
+      {
+       "de": "weiss",
+       "ru": "знаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "wie",
+       "ru": "что"
+      },
+      {
+       "de": "geschieht",
+       "ru": "творится"
+      },
+      {
+       "de": "dem Wild,",
+       "ru": "со зверем,"
+      },
+      {
+       "de": "das",
+       "ru": "который"
+      },
+      {
+       "de": "flieht,",
+       "ru": "бежит"
+      },
+      {
+       "de": "vor",
+       "ru": "от"
+      },
+      {
+       "de": "dem Rohre",
+       "ru": "ружья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "doch",
+       "ru": "всё-таки"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "allem",
+       "ru": "всем"
+      },
+      {
+       "de": "Glück",
+       "ru": "счастьем"
+      },
+      {
+       "de": "vereint,",
+       "ru": "слит воедино,"
+      },
+      {
+       "de": "das",
+       "ru": "какое"
+      },
+      {
+       "de": "nur",
+       "ru": "только"
+      },
+      {
+       "de": "ist,",
+       "ru": "есть"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Erden",
+       "ru": "земле,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Als wenn",
+       "ru": "Как будто"
+      },
+      {
+       "de": "der allerbeste",
+       "ru": "самый лучший"
+      },
+      {
+       "de": "Freund",
+       "ru": "друг"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "in die Arme schliesst.",
+       "ru": "заключает в объятия."
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "Franz von Schober"
+ "about": [
+  {
+   "title": "Февраль 1827 года",
+   "text": "Песня написана в феврале 1827 года; Шуберту было тридцать лет. В том же месяце он положил на музыку ещё одно стихотворение Франца фон Шобера — «Schiffers Scheidelied» («Прощальная песня корабельщика», D 910).\nА в марте Шуберт снова перебрался в квартиру семьи Шобер на Тухлаубен и прожил там до августа 1828 года — второй раз в жизни."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "Ноты вышли летом 1828 года в венском Литографическом заведении, вторым номером сборника «Vier Lieder» («Четыре песни»). Как рассказывает Грэм Джонсон, автор аннотаций к антологии Hyperion Schubert Edition, заведением к тому времени руководил сам Шобер, и обе февральские песни на его стихи Шуберт отдал печатать ему. Номер опуса, по Джонсону, закрепился позже: в 1829 году, уже после смерти композитора, сборник переиздал Диабелли как op. 96 № 2. Немецкий справочник schubertlied.de относит опусный номер уже к изданию 1828 года.\nВ op. 96 четыре песни: «Die Sterne» («Звёзды», D 939) на стихи Лейтнера, «Jägers Liebeslied» на стихи Шобера, «Wanderers Nachtlied» («Ночная песнь странника», D 768) на стихи Гёте и «Fischerweise» («Рыбацкий напев», D 881) на стихи Шлехты. Издание посвящено княгине Кинской.\nИз всех рукописей шубертовских песен, оставшихся у Шоберов после смерти композитора, эту, по словам Джонсона, поэт оставил у себя — единственную."
+  },
+  {
+   "title": "Франц фон Шобер",
+   "text": "Ближайший друг Шуберта: поэт-дилетант, обаятельный заводила венского дружеского круга. Родился в Швеции, в имении Торуп под Мальмё, в немецкой семье; учился в Кремсмюнстере, с 1815 года изучал право в Вене. Именно Шобер познакомил Шуберта с певцом Иоганном Михаэлем Фоглем, который стал главным исполнителем его песен, а на вечерах в кругу друзей, прозванных шубертиадами, звучали новые сочинения композитора. На стихи Шобера написана и «An die Musik» («К музыке», D 547).\nСовременники судили о нём полярно: одним он казался душой общества, другим — как Йозефу Кеннеру из того же круга — соблазнителем, сбившим Шуберта с пути. Последнее письмо умирающего Шуберта, с просьбой прислать романы Купера, адресовано Шоберу.\nСтихи друга Шуберт получал в рукописи и, как предполагает schubertlied.de, клал на музыку сразу или вскоре после того, как они были написаны. Сегодня известно тринадцать сольных песен Шуберта на стихи Шобера."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Напечатано оно только в 1842 году — в сборнике Шобера «Gedichte» («Стихотворения», Штутгарт и Тюбинген, издательство Котты), на страницах 30–31; во втором, расширенном издании (Лейпциг, издательство Вебера, 1865) — на страницах 41–42. По этим книгам текст и авторство сверял Петер Растль — так сообщает сайт schubertsong.uk.\nПечатный текст расходится с тем, который положен на музыку. У Шуберта охотник стреляет оленя im grünen Forst («в зелёном лесу»), в книге лес dunkel («тёмный»). Пастух у Шуберта играет Blumen («цветами»), в книге Blüthen («цветками»). Светлый образ парит königshehr («царственно-величаво»), в книге königsgroß («по-царски велико»). Строка о начале дня читается в источниках трояко: Mir fing der Tag mit Hundgebell («у меня начинался день с лая собак»), Ich fing den Tag mit Hundgebell («я начинал день с лая собак») и Es fing der Tag mit Hundgebell («начинался день с лая собак»)."
+  },
+  {
+   "title": "Музыка",
+   "text": "Тональность — ре мажор, размер — 6/8, движение баркарольное, покачивающееся.\nВступление начинается унисонами в ре мажоре; во втором такте они разворачиваются в аккорды си-бемоль мажора, те качаются к фа мажору и обратно, потом та же фигура повторяется на соль миноре и ре миноре, ведёт к ля мажору и ре минору — и возвращается домой, в ре мажор. В проигрыше и интерлюдиях, как отмечает schubertlied.de, слышны роговые мотивы охоты, а отдалённый звук рогов, по словам Джонсона, вплетён и в самый рисунок мелодии, в её подъёмы и спады.\nФорма почти сплошь строфическая, изменения появляются только в пятом куплете. Беспокойные модуляции песни Джонсон называет чисто шубертовскими и ставит рядом с «Alinde» («Алинда») на стихи Рохлица, написанной тогда же, и с «Das Fischermädchen» («Рыбачка», 1828) на стихи Гейне: обе идут в том же плывущем ритме 6/8, в котором слышна неутолённая тоска."
+  },
+  {
+   "title": "Охотник и его светлый образ",
+   "text": "Первые три строфы — послужной список охотника: кого он стреляет, где ночует, с кем водит дружбу. Джонсон видит в этом автопортрете «бидермайеровского Клинта Иствуда» и предполагает, что он навеян романами Фенимора Купера, которые тогда читала Вена, — теми самыми, о которых Шуберт просил Шобера в последнем письме. Ричард Кэпелл, чьи суждения Джонсон приводит рядом со своими, героя резко невзлюбил: тот, по его словам, «стреляет во всё живое, что попадается на глаза».\nВ четвёртой строфе охотник окликает пастуха, играющего цветами на мягком мху, и над чёрным лесом встаёт Lichtgestalt («облик из света»). Дальше песня говорит уже только об этом образе: взгляд сверху, жар, оторопь зверя под прицелом — и объятие."
+  },
+  {
+   "title": "Самый лучший друг",
+   "text": "Вальтер Дюрр, чьи слова приводит Джонсон, назвал это стихотворение гимном дружбе; то же самое, добавляет Джонсон, верно и для «Schiffers Scheidelied».\nДжонсон предполагает также, что обоих друзей связывала непринуждённая бисексуальность и что в их дружбе мог быть телесный эпизод — если и был, то недолгий. Это догадка Джонсона, документами она не подкреплена. Интерес Шобера к женщинам, по его же словам, сомнений не вызывает: поэт был тайно помолвлен с Юстиной фон Брухман, помолвка кончилась плохо, а женился он лишь в 1856 году."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Песня была когда-то очень популярна у певцов — потому, пишет Джонсон, и попала в первый том издания Петерса; из всего этого тома её сегодня поют реже всего.\nКэпелл назвал её незначительной. Джонсон считает такой приговор опасным для любой песни зрелого Шуберта — тем более для написанной в одно время с первой частью «Winterreise» («Зимнего пути»)."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Главная запись — Дитрих Фишер-Дискау (баритон) и Джеральд Мур (фортепиано), 1969 год, из собрания Deutsche Grammophon «Sämtliche Lieder» («Все песни»).\nДжеральд Финли и Грэм Джонсон записали песню в январе 1999 года для тридцать шестого тома антологии Hyperion Schubert Edition — «An 1827 Schubertiad» («Шубертиада 1827 года»).\nЕсть и запись Константина Айхе с Йенсом Фуром, май 2002 года, в серии Naxos «Friends, Vol. 1» («Друзья», первый выпуск).\nО первом исполнении песни сведений нет."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
