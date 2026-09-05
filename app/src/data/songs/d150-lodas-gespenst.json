@@ -1,9 +1,16 @@
 {
  "d": "150",
  "title_de": "Lodas Gespenst",
+ "title_ru": "Призрак Лоды",
+ "poet_de": "James Macpherson, Edmund von Harold",
+ "poet_ru": "Джеймс Макферсон, Эдмунд фон Гарольд",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Лода в поэмах Оссиана — божество северян, и в его имени видят искажённое имя Одина: у саксов он Воден, в древневерхненемецком Вуотан — тот, кого Вагнер назовёт Вотаном. Как пишет Малколм Рен, комментатор сайта schubertsong.uk, Хью Блэр свидетельствовал, что на Оркнейских островах стояли «столбы и круги камней, известные как камни и круги Лоды, или Лодена». Сцена взята из поэмы «Carric-Thura»: призрак встаёт перед Фингалом ночью, когда тот спешит на выручку королю Инисторе."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -11,6 +18,148 @@
     "Der Schlaf stieg auf die Jünglinge nieder;",
     "Ihre blauen Helme schimmern zum Strahl;",
     "Das sterbende Feuer vergeht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der bleiche",
+       "ru": "Бледная,"
+      },
+      {
+       "de": "kalte",
+       "ru": "холодная"
+      },
+      {
+       "de": "Mond",
+       "ru": "луна"
+      },
+      {
+       "de": "erhob sich",
+       "ru": "взошла"
+      },
+      {
+       "de": "in",
+       "ru": "на"
+      },
+      {
+       "de": "Osten",
+       "ru": "востоке;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "Пометка над песней — «Düster» («мрачно»). Вступление в соль миноре, с меццо-стаккатными аккордами, по описанию Грэма Джонсона полно приглушённого напряжения с первого такта, ещё до восхода бледной луны."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Schlaf",
+       "ru": "Сон"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "die Jünglinge",
+       "ru": "юношей"
+      },
+      {
+       "de": "stieg... nieder",
+       "ru": "опустился;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "niedersteigen («сходить вниз») — глагол с отделяемой приставкой: nieder отброшено в конец строки, stieg стоит на втором месте. По-русски он собирается в одно слово, и место ему там, где стоит смысловая часть, приставка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Их"
+      },
+      {
+       "de": "blauen",
+       "ru": "синие"
+      },
+      {
+       "de": "Helme",
+       "ru": "шлемы"
+      },
+      {
+       "de": "schimmern",
+       "ru": "поблёскивают"
+      },
+      {
+       "de": "zum",
+       "ru": "в"
+      },
+      {
+       "de": "Strahl",
+       "ru": "луче;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "zum Strahl — буквально «к лучу»: шлемы отвечают блеском лунному свету, поэтому по-русски естественнее «в луче». Strahl у Гримма — и стрела, и молния, и луч; здесь третье."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Das sterbende",
+       "ru": "Умирающий"
+      },
+      {
+       "de": "Feuer",
+       "ru": "огонь"
+      },
+      {
+       "de": "vergeht",
+       "ru": "угасает."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Догорающий костёр Шуберт написал ещё до первого спетого слова: Грэм Джонсон слышит во вступлении цепочку нисходящих хроматических гармоний, от которых остаётся образ тлеющих углей."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "vergehen Аделунг объясняет как «переставать существовать, мало-помалу исчезать». О человеке это «умереть», об огне — «угаснуть»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -23,6 +172,257 @@
     "Die Flamme war düster,",
     "Und es stieg ein Windstoss vom Hügel herab;",
     "Auf seinen Schwingen war Loda's Gespenst."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der Schlaf",
+       "ru": "Сон"
+      },
+      {
+       "de": "aber",
+       "ru": "же"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "ruhte",
+       "ru": "покоился"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem König",
+       "ru": "короле;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "hob sich",
+       "ru": "поднялся"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "den Waffen",
+       "ru": "оружием"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "langsam",
+       "ru": "медленно"
+      },
+      {
+       "de": "den Hügel",
+       "ru": "на холм"
+      },
+      {
+       "de": "stieg... hinauf",
+       "ru": "поднялся,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Грэм Джонсон описывает вокальную линию, которая тяжело идёт вверх вместе с королём; над этим местом стоит пометка «Geschwind» — «быстро»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "zu sehn",
+       "ru": "Чтобы увидеть"
+      },
+      {
+       "de": "Die Flamme",
+       "ru": "пламя"
+      },
+      {
+       "de": "des Thurm's",
+       "ru": "башни"
+      },
+      {
+       "de": "von Sarno",
+       "ru": "Сарно."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "des Thurm's — родительный падеж: апостроф отмечает здесь падежное окончание, а не пропущенную букву. Сарно — крепость из поэм Оссиана, и von перед именем по-русски передаётся тем же родительным. Немецкая инфинитивная группа с zu стоит в конце строки, по-русски она уходит в начало."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Mond",
+       "ru": "Луна"
+      },
+      {
+       "de": "verbarg",
+       "ru": "скрыла"
+      },
+      {
+       "de": "in",
+       "ru": "на"
+      },
+      {
+       "de": "Osten",
+       "ru": "востоке"
+      },
+      {
+       "de": "sein",
+       "ru": "своё"
+      },
+      {
+       "de": "rothes",
+       "ru": "красное"
+      },
+      {
+       "de": "Gesicht",
+       "ru": "лицо."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "rothes — старое написание rotes: немое h после согласной держалось в печати почти весь XIX век, отсюда же Thurm, Heimath и Wuth в этой песне. Der Mond по-немецки мужского рода, и sein относится к лицу луны — «своё»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Flamme",
+       "ru": "Пламя"
+      },
+      {
+       "de": "war",
+       "ru": "было"
+      },
+      {
+       "de": "düster",
+       "ru": "мрачным,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und es",
+       "ru": "И"
+      },
+      {
+       "de": "ein Windstoss",
+       "ru": "порыв ветра"
+      },
+      {
+       "de": "vom",
+       "ru": "с"
+      },
+      {
+       "de": "Hügel",
+       "ru": "холма"
+      },
+      {
+       "de": "stieg... herab",
+       "ru": "сошёл;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "es здесь — пустое подлежащее, которое немецкий ставит впереди, чтобы настоящее подлежащее («порыв ветра») пришло позже. По-русски оно исчезает."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "seinen",
+       "ru": "его"
+      },
+      {
+       "de": "Schwingen",
+       "ru": "крыльях"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "Gespenst",
+       "ru": "призрак"
+      },
+      {
+       "de": "Loda's",
+       "ru": "Лоды."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "К появлению призрака музыка приходит в ре-бемоль мажор, и фортепиано начинает дублировать вокальную партию — так это место описывает Грэм Джонсон."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "die Schwinge — высокое слово для крыла, от schwingen «взмахивать». Порыв ветра несёт призрака на своих крыльях."
+      }
+     ]
+    }
    ]
   },
   {
@@ -33,6 +433,207 @@
     "Seine Stimme gleicht entferntem Donner.",
     "Fingal stiess seinen Speer in die Nacht",
     "Und hob seine mächtige Stimme:"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Es",
+       "ru": "Он"
+      },
+      {
+       "de": "kam",
+       "ru": "пришёл"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "seiner",
+       "ru": "своей"
+      },
+      {
+       "de": "Heimath",
+       "ru": "родине,"
+      },
+      {
+       "de": "umringt",
+       "ru": "окружённый"
+      },
+      {
+       "de": "von seinen",
+       "ru": "своими"
+      },
+      {
+       "de": "Schrecken",
+       "ru": "ужасами,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "es — о призраке: das Gespenst по-немецки среднего рода, и весь дальнейший рассказ ведётся про «оно». По-русски приходится говорить «он»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        7
+       ],
+       "text": "umringt von — «окружённый чем-то»: предлог von при страдательном причастии по-русски становится творительным падежом. Schrecken здесь существительное множественного числа, «ужасы», свита призрака, а не глагол «пугаться»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "schüttelt",
+       "ru": "потрясает"
+      },
+      {
+       "de": "seinen",
+       "ru": "своим"
+      },
+      {
+       "de": "düstern",
+       "ru": "мрачным"
+      },
+      {
+       "de": "Speer",
+       "ru": "копьём."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "seinem",
+       "ru": "его"
+      },
+      {
+       "de": "dunkeln",
+       "ru": "тёмном"
+      },
+      {
+       "de": "Gesicht",
+       "ru": "лице"
+      },
+      {
+       "de": "glühn",
+       "ru": "пылают"
+      },
+      {
+       "de": "seine",
+       "ru": "его"
+      },
+      {
+       "de": "Augen",
+       "ru": "глаза,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "Flammen",
+       "ru": "пламя,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Seine",
+       "ru": "Его"
+      },
+      {
+       "de": "Stimme",
+       "ru": "голос"
+      },
+      {
+       "de": "gleicht",
+       "ru": "подобен"
+      },
+      {
+       "de": "entferntem",
+       "ru": "далёкому"
+      },
+      {
+       "de": "Donner",
+       "ru": "грому."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Fingal",
+       "ru": "Фингал"
+      },
+      {
+       "de": "stiess",
+       "ru": "вонзил"
+      },
+      {
+       "de": "seinen",
+       "ru": "своё"
+      },
+      {
+       "de": "Speer",
+       "ru": "копьё"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "die Nacht",
+       "ru": "ночь"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "hob",
+       "ru": "поднял"
+      },
+      {
+       "de": "seine",
+       "ru": "свой"
+      },
+      {
+       "de": "mächtige",
+       "ru": "могучий"
+      },
+      {
+       "de": "Stimme",
+       "ru": "голос:"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -41,6 +642,184 @@
     "Ruf deine Winde und fleuch!",
     "Warum erscheinst du vor mir mit deinen schattigten Waffen?",
     "Fürcht ich deine düstre Bildung, du Geist des leidigen Loda?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Zieh dich zurück",
+       "ru": "Отступи,"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      },
+      {
+       "de": "Nachtsohn",
+       "ru": "сын ночи!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Ответ Фингала написан в фа мажоре, с трелями и шагающими басами, под пометкой «Ernst» — «серьёзно». Грэм Джонсон называет эту музыку самой несложной во всей сцене и говорит, что такая страница могла бы прийти из оратории Генделя."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "sich zurückziehen — «отступить, удалиться»: три немецких слова складываются в один русский приказ."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ruf",
+       "ru": "Позови"
+      },
+      {
+       "de": "deine",
+       "ru": "свои"
+      },
+      {
+       "de": "Winde",
+       "ru": "ветры"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "fleuch",
+       "ru": "беги!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "fleuch — старая форма повелительного наклонения от fliehen («беги»), к 1800 году уже книжная древность; Гарольд берёт её ради оссиановской старины. Дальше в тексте появится и обычный претерит того же глагола — floh, «бежал»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Warum",
+       "ru": "Зачем"
+      },
+      {
+       "de": "erscheinst",
+       "ru": "являешься"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "vor",
+       "ru": "предо"
+      },
+      {
+       "de": "mir",
+       "ru": "мной"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "deinen",
+       "ru": "своим"
+      },
+      {
+       "de": "schattigten",
+       "ru": "сумрачным"
+      },
+      {
+       "de": "Waffen",
+       "ru": "оружием?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        7,
+        8
+       ],
+       "text": "schattigten — устаревшая форма от schattig («тенистый»), с лишним -t- в окончании; об оружии призрака это «сумрачное, теневое». Waffen стоит во множественном числе, по-русски проще собирательное «оружие»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fürcht",
+       "ru": "Страшусь ли"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "deine",
+       "ru": "твоего"
+      },
+      {
+       "de": "düstre",
+       "ru": "сумрачного"
+      },
+      {
+       "de": "Bildung",
+       "ru": "облика,"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      },
+      {
+       "de": "Geist",
+       "ru": "дух"
+      },
+      {
+       "de": "des leidigen",
+       "ru": "злополучного"
+      },
+      {
+       "de": "Loda",
+       "ru": "Лоды?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Bildung в этом тексте — «облик, форма»: словарь Гриммов прямо возводит слово к bild «образ». Современное «образование, воспитание» сюда не годится; дальше die Bildung будет у Гарольда заменять слово «призрак»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        7,
+        8
+       ],
+       "text": "leidig — «скорбный, злополучный» (у Гримма «leid habend, traurig»). Формулу des leidigen Loda Фингал повторит ещё раз, дразня призрака его же именем."
+      }
+     ]
+    }
    ]
   },
   {
@@ -50,6 +829,163 @@
     "Und du selber bist verloren.",
     "Fleuch von meinen Augen, du Nachtsohn!",
     "Ruf deine Winde und fleuch!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schwach",
+       "ru": "Слаб"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "dein",
+       "ru": "твой"
+      },
+      {
+       "de": "Schild",
+       "ru": "щит,"
+      },
+      {
+       "de": "kraftlos",
+       "ru": "бессильны"
+      },
+      {
+       "de": "dein",
+       "ru": "твой"
+      },
+      {
+       "de": "Luftbild",
+       "ru": "воздушный образ"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "dein",
+       "ru": "твой"
+      },
+      {
+       "de": "Schwert",
+       "ru": "меч;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Luftbild словарь Гриммов толкует как «образ, созданный из воздуха и потому не имеющий стойкости, расплывающийся, пустой». Фингал перечисляет оружие духа и каждым словом отнимает у него вес."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Windstoss",
+       "ru": "Порыв ветра"
+      },
+      {
+       "de": "sie",
+       "ru": "их"
+      },
+      {
+       "de": "rollt... zusammen",
+       "ru": "сворачивает,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "selber",
+       "ru": "сам"
+      },
+      {
+       "de": "bist verloren",
+       "ru": "погиб."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "verloren sein — «пропасть, быть обречённым»: связка и причастие вместе значат больше, чем «потерян», и по-русски собираются в один глагол."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fleuch",
+       "ru": "Беги"
+      },
+      {
+       "de": "von",
+       "ru": "с"
+      },
+      {
+       "de": "meinen",
+       "ru": "моих"
+      },
+      {
+       "de": "Augen",
+       "ru": "глаз,"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      },
+      {
+       "de": "Nachtsohn",
+       "ru": "сын ночи!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ruf",
+       "ru": "Позови"
+      },
+      {
+       "de": "deine",
+       "ru": "свои"
+      },
+      {
+       "de": "Winde",
+       "ru": "ветры"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "fleuch",
+       "ru": "беги!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -58,6 +994,147 @@
     "Willst du aus meiner Heimath mich treiben?",
     "Vor mir beugt sich das Volk,",
     "Ich dreh die Schlacht im Felde der Tapfern."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Mit hohler",
+       "ru": "Глухим"
+      },
+      {
+       "de": "Stimme",
+       "ru": "голосом"
+      },
+      {
+       "de": "versetzte",
+       "ru": "возразил"
+      },
+      {
+       "de": "der Geist",
+       "ru": "дух:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "mit hohler Stimme — «глухим голосом»: предлог mit с дательным по-русски становится творительным падежом без предлога. Hohl о звуке — «гулкий, как из пустоты»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Willst",
+       "ru": "Хочешь ли"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "treiben",
+       "ru": "изгнать"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "meiner",
+       "ru": "моей"
+      },
+      {
+       "de": "Heimath",
+       "ru": "родины?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Vor",
+       "ru": "Предо"
+      },
+      {
+       "de": "mir",
+       "ru": "мной"
+      },
+      {
+       "de": "beugt sich",
+       "ru": "склоняется"
+      },
+      {
+       "de": "das Volk",
+       "ru": "народ,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "С этих слов начинается главная речь призрака — благородная ария в си-бемоль мажоре с пометкой «Massig, kraftvoll» («умеренно, мощно»); ей предшествует речитатив. Так разбирает это место Грэм Джонсон."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "dreh",
+       "ru": "вершу"
+      },
+      {
+       "de": "die Schlacht",
+       "ru": "битву"
+      },
+      {
+       "de": "im",
+       "ru": "на"
+      },
+      {
+       "de": "Felde",
+       "ru": "поле"
+      },
+      {
+       "de": "der Tapfern",
+       "ru": "храбрых."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "dreh — стянутое ich drehe: перед местоимением поэты эпохи спокойно роняли конечное -e. В этой песне так же сокращены fürcht, werf, halt, bestimm и begegn. Drehen о битве — «поворачивать её ход»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "im Felde — старая форма дательного падежа с окончанием -e (сегодня im Feld). Der Tapfern — субстантивированное прилагательное: поле, где сходятся храбрые."
+      }
+     ]
+    }
    ]
   },
   {
@@ -68,6 +1145,214 @@
     "Vor meinem Gesichte brausen Orkane.",
     "Aber mein Sitz ist über den Wolken,",
     "Angenehm die Gefilde meiner Ruh."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "Völker",
+       "ru": "народы"
+      },
+      {
+       "de": "werf",
+       "ru": "бросаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "den Blick",
+       "ru": "взгляд,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "sie",
+       "ru": "они"
+      },
+      {
+       "de": "verschwinden",
+       "ru": "исчезают;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Mein",
+       "ru": "Моё"
+      },
+      {
+       "de": "Odem",
+       "ru": "дыхание"
+      },
+      {
+       "de": "verbreitet",
+       "ru": "сеет"
+      },
+      {
+       "de": "den Tod",
+       "ru": "смерть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Макферсон в примечании к поэме сам сравнил ужасы этого мнимого божества с ужасами истинного Бога в восемнадцатом псалме: «из ноздрей его восходил дым, и из уст его огонь поядающий, угли разгорались от него»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Odem — побочная форма к Atem («дыхание»), пришедшая в высокий слог из лютеровской Библии; Гримм так и пишет, что оттуда она вошла в язык поэтов как торжественное слово."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "dem Rücken",
+       "ru": "хребте"
+      },
+      {
+       "de": "der Winde",
+       "ru": "ветров"
+      },
+      {
+       "de": "schreit",
+       "ru": "шествую"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "voran",
+       "ru": "вперёд,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "schreit — это schreite, от schreiten («шагать мерно, торжественно»), а не от schreien («кричать»): дух выступает по хребту ветров. Крик в песне появится позже, в форме schrie."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vor",
+       "ru": "Пред"
+      },
+      {
+       "de": "meinem",
+       "ru": "моим"
+      },
+      {
+       "de": "Gesichte",
+       "ru": "лицом"
+      },
+      {
+       "de": "brausen",
+       "ru": "бушуют"
+      },
+      {
+       "de": "Orkane",
+       "ru": "ураганы."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но"
+      },
+      {
+       "de": "mein",
+       "ru": "моя"
+      },
+      {
+       "de": "Sitz",
+       "ru": "обитель"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "über",
+       "ru": "над"
+      },
+      {
+       "de": "den Wolken",
+       "ru": "облаками,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "Возврат в си-бемоль мажор на этих словах поднимает разговор, по выражению Грэма Джонсона, от неприличной перебранки до олимпийского величия."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Angenehm",
+       "ru": "Приятны"
+      },
+      {
+       "de": "die Gefilde",
+       "ru": "поля"
+      },
+      {
+       "de": "meiner",
+       "ru": "моего"
+      },
+      {
+       "de": "Ruh",
+       "ru": "покоя."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Связка sind опущена — приём высокого слога. Gefilde словарь Гриммов помечает как собирательное к Feld: поэтические «поля, нивы, пределы»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -82,6 +1367,356 @@
     "Warum runzelst du deine Stirn auf mich?",
     "Du runzelst deine Stirn vergebens,",
     "Nie floh ich vor den Mächtigen im Krieg."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Bewohn",
+       "ru": "Обитай"
+      },
+      {
+       "de": "",
+       "ru": "в"
+      },
+      {
+       "de": "deine",
+       "ru": "своих"
+      },
+      {
+       "de": "angenehmen",
+       "ru": "приятных"
+      },
+      {
+       "de": "Gefilde",
+       "ru": "полях,"
+      },
+      {
+       "de": "sagte",
+       "ru": "сказал"
+      },
+      {
+       "de": "der König",
+       "ru": "король;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "bewohnen — переходный глагол, «населять что-то», без предлога. Русское «обитать» предлога требует, поэтому «в» здесь добавлено при переводе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Denk",
+       "ru": "Вспомни"
+      },
+      {
+       "de": "an",
+       "ru": "о"
+      },
+      {
+       "de": "Erzeugten",
+       "ru": "сыне"
+      },
+      {
+       "de": "Comhals",
+       "ru": "Комхала."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Comhals Erzeugten — «порождённый Комхалом», субстантивированное причастие от erzeugen («производить на свет»). Комхал — отец Фингала в поэмах Оссиана, и король велит призраку вспомнить, с кем тот имеет дело. Немецкий ставит родительный впереди, русский — после."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Если"
+      },
+      {
+       "de": "Steigen",
+       "ru": "поднимутся"
+      },
+      {
+       "de": "meine",
+       "ru": "мои"
+      },
+      {
+       "de": "Schritte",
+       "ru": "шаги"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "meinen",
+       "ru": "моих"
+      },
+      {
+       "de": "Hügeln",
+       "ru": "холмов"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Глагол на первом месте без вопросительного слова — старый способ построить условие: «если поднимутся…». Приставка hinauf, без которой глагол неполон, отброшена в конец следующей строки, поэтому там русская фраза начинается с «вверх»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "hinauf",
+       "ru": "Вверх"
+      },
+      {
+       "de": "In",
+       "ru": "на"
+      },
+      {
+       "de": "deine",
+       "ru": "твою"
+      },
+      {
+       "de": "friedliche",
+       "ru": "мирную"
+      },
+      {
+       "de": "Ebne",
+       "ru": "равнину,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Begegn",
+       "ru": "Встречу ли"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dir",
+       "ru": "тебя"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "einem Speer",
+       "ru": "копьём,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "begegnen управляет дательным падежом: dir по-русски — «тебя»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "deiner",
+       "ru": "твоём"
+      },
+      {
+       "de": "Wolke",
+       "ru": "облаке,"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      },
+      {
+       "de": "Geist",
+       "ru": "дух"
+      },
+      {
+       "de": "des leidigen",
+       "ru": "злополучного"
+      },
+      {
+       "de": "Loda",
+       "ru": "Лоды?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Warum",
+       "ru": "Зачем"
+      },
+      {
+       "de": "schüttelst",
+       "ru": "потрясаешь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "deinen",
+       "ru": "своим"
+      },
+      {
+       "de": "luftigen",
+       "ru": "воздушным"
+      },
+      {
+       "de": "Speer",
+       "ru": "копьём?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Warum",
+       "ru": "Зачем"
+      },
+      {
+       "de": "runzelst",
+       "ru": "хмуришь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "deine",
+       "ru": "своё"
+      },
+      {
+       "de": "Stirn",
+       "ru": "чело"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "mich",
+       "ru": "меня?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "die Stirn runzeln auf jemanden — оборот, скроенный по английскому to frown on somebody: у Макферсона Фингал спрашивает призрака, зачем тот хмурится на него. По-немецки это звучит так же непривычно, как по-русски."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Du",
+       "ru": "Ты"
+      },
+      {
+       "de": "runzelst",
+       "ru": "хмуришь"
+      },
+      {
+       "de": "deine",
+       "ru": "своё"
+      },
+      {
+       "de": "Stirn",
+       "ru": "чело"
+      },
+      {
+       "de": "vergebens",
+       "ru": "напрасно,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Nie",
+       "ru": "Никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "floh",
+       "ru": "бежал"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "vor",
+       "ru": "от"
+      },
+      {
+       "de": "den Mächtigen",
+       "ru": "могучих"
+      },
+      {
+       "de": "im",
+       "ru": "на"
+      },
+      {
+       "de": "Krieg",
+       "ru": "войне."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Немецкому хватает одного отрицания — nie («никогда»); русский требует второго, поэтому «не» здесь добавлено. Floh — претерит от того же fliehen, чью старую форму fleuch призрак и король бросают друг другу."
+      }
+     ]
+    }
    ]
   },
   {
@@ -91,6 +1726,147 @@
     "Nein, nein, er kennt die Schwäche ihrer Waffen!",
     "Fleuch zu deinem Land, versetzte die Bildung,",
     "Fass die Winde und fleuch!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sollen",
+       "ru": "должны ли"
+      },
+      {
+       "de": "die Söhne",
+       "ru": "сыны"
+      },
+      {
+       "de": "des Winds",
+       "ru": "ветра"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "sollen в вопросе звучит как «неужели»: за формой долженствования здесь стоит насмешка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Den König",
+       "ru": "Короля"
+      },
+      {
+       "de": "von Morven",
+       "ru": "Морвена"
+      },
+      {
+       "de": "erschrecken",
+       "ru": "устрашить?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Nein",
+       "ru": "Нет,"
+      },
+      {
+       "de": "nein",
+       "ru": "нет,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "kennt",
+       "ru": "знает"
+      },
+      {
+       "de": "die Schwäche",
+       "ru": "слабость"
+      },
+      {
+       "de": "ihrer",
+       "ru": "их"
+      },
+      {
+       "de": "Waffen",
+       "ru": "оружия!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Fleuch",
+       "ru": "Беги"
+      },
+      {
+       "de": "zu",
+       "ru": "в"
+      },
+      {
+       "de": "deinem",
+       "ru": "свой"
+      },
+      {
+       "de": "Land",
+       "ru": "край,"
+      },
+      {
+       "de": "versetzte",
+       "ru": "возразил"
+      },
+      {
+       "de": "die Bildung",
+       "ru": "облик,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Последний ответ Лоды Шуберт написал маршем в до миноре; в аккомпанементе Грэм Джонсон слышит переклички охотничьих рогов и призрачное предвестие полонезной поступи, которая придёт к Шуберту девятью годами позже, в песнях на стихи Вальтера Скотта."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fass",
+       "ru": "Схвати"
+      },
+      {
+       "de": "die Winde",
+       "ru": "ветры"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "fleuch",
+       "ru": "беги!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -100,6 +1876,158 @@
     "Der König von Sora ist mein Sohn,",
     "Er neigt sich vor dem Steine meiner Kraft.",
     "Sein Heer umringt Carricthura, und er wird siegen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "halt",
+       "ru": "держу"
+      },
+      {
+       "de": "die Winde",
+       "ru": "ветры"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "der Höhle",
+       "ru": "пещере"
+      },
+      {
+       "de": "meiner",
+       "ru": "моей"
+      },
+      {
+       "de": "Hand",
+       "ru": "руки,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        6
+       ],
+       "text": "die Höhle der Hand — впадина ладони, горсть; Höhle у Гримма — всякое полое пространство, от ямки до пещеры. У Гарольда слово сохраняет весь свой объём, и по-русски выходит пещера в руке божества."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "bestimm",
+       "ru": "определяю"
+      },
+      {
+       "de": "den Lauf",
+       "ru": "ход"
+      },
+      {
+       "de": "des Sturms",
+       "ru": "бури."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Der König",
+       "ru": "Король"
+      },
+      {
+       "de": "von Sora",
+       "ru": "Соры"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "neigt sich",
+       "ru": "склоняется"
+      },
+      {
+       "de": "vor",
+       "ru": "пред"
+      },
+      {
+       "de": "dem Steine",
+       "ru": "камнем"
+      },
+      {
+       "de": "meiner",
+       "ru": "моей"
+      },
+      {
+       "de": "Kraft",
+       "ru": "силы."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sein",
+       "ru": "Его"
+      },
+      {
+       "de": "Heer",
+       "ru": "войско"
+      },
+      {
+       "de": "umringt",
+       "ru": "окружает"
+      },
+      {
+       "de": "Carricthura",
+       "ru": "Каррихтуру,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "wird siegen",
+       "ru": "победит."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -109,6 +2037,183 @@
     "Er hob seinen schattigten Speer in die Höhe,",
     "Er neigte vorwärts seine schreckbare Länge.",
     "Fingal ging ihm entgegen und zückte sein Schwert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Fleuch",
+       "ru": "Беги"
+      },
+      {
+       "de": "zu",
+       "ru": "в"
+      },
+      {
+       "de": "deinem",
+       "ru": "свой"
+      },
+      {
+       "de": "Land",
+       "ru": "край,"
+      },
+      {
+       "de": "Erzeugter",
+       "ru": "сын"
+      },
+      {
+       "de": "von Comhal",
+       "ru": "Комхала,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Oder",
+       "ru": "Или"
+      },
+      {
+       "de": "spüre",
+       "ru": "почувствуй"
+      },
+      {
+       "de": "meine",
+       "ru": "мою"
+      },
+      {
+       "de": "Wuth",
+       "ru": "ярость,"
+      },
+      {
+       "de": "meine",
+       "ru": "мою"
+      },
+      {
+       "de": "flammende",
+       "ru": "пылающую"
+      },
+      {
+       "de": "Wuth",
+       "ru": "ярость!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "hob",
+       "ru": "поднял"
+      },
+      {
+       "de": "seinen",
+       "ru": "своё"
+      },
+      {
+       "de": "schattigten",
+       "ru": "сумрачное"
+      },
+      {
+       "de": "Speer",
+       "ru": "копьё"
+      },
+      {
+       "de": "in die Höhe",
+       "ru": "ввысь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "neigte",
+       "ru": "склонил"
+      },
+      {
+       "de": "vorwärts",
+       "ru": "вперёд"
+      },
+      {
+       "de": "seine",
+       "ru": "свою"
+      },
+      {
+       "de": "schreckbare",
+       "ru": "устрашающую"
+      },
+      {
+       "de": "Länge",
+       "ru": "громаду."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "schreckbare Länge — буквально «страшная длина»: Länge здесь о росте призрака, вытянувшегося над Фингалом. Schreckbar — редкое книжное слово, «внушающий страх»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fingal",
+       "ru": "Фингал"
+      },
+      {
+       "de": "ging",
+       "ru": "вышел"
+      },
+      {
+       "de": "ihm",
+       "ru": "ему"
+      },
+      {
+       "de": "entgegen",
+       "ru": "навстречу"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "zückte",
+       "ru": "выхватил"
+      },
+      {
+       "de": "sein",
+       "ru": "свой"
+      },
+      {
+       "de": "Schwert",
+       "ru": "меч."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        7
+       ],
+       "text": "Грэм Джонсон и Малколм Рен независимо друг от друга слышат здесь третий акт вагнеровского «Зигфрида»: там меч героя точно так же разбивает копьё Вотана."
+      }
+     ]
+    }
    ]
   },
   {
@@ -120,6 +2225,240 @@
     "Wie er aus der sterbenden Schmiede aufsteigt.",
     "Laut schrie Loda's Gespenst, als es in sich selber gerollt,",
     "Auf dem Winde sich hob."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der blitzende",
+       "ru": "Сверкающий"
+      },
+      {
+       "de": "Pfad",
+       "ru": "путь"
+      },
+      {
+       "de": "des Stahls",
+       "ru": "клинка"
+      },
+      {
+       "de": "durchdrang",
+       "ru": "пронзил"
+      },
+      {
+       "de": "den düstern",
+       "ru": "мрачный"
+      },
+      {
+       "de": "Geist",
+       "ru": "дух."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Stahl — «сталь», а в поэтическом употреблении прямо «клинок, меч»: словарь DWDS так это значение и помечает. Сверкающий путь клинка — след, оставленный ударом в воздухе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Bildung",
+       "ru": "Облик"
+      },
+      {
+       "de": "zerfloss",
+       "ru": "растёкся"
+      },
+      {
+       "de": "gestaltlos",
+       "ru": "бесформенно"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Luft",
+       "ru": "воздухе,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "eine Säule",
+       "ru": "столб"
+      },
+      {
+       "de": "von Rauch",
+       "ru": "дыма,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Развоплощение призрака Шуберт отдал фортепиано: здешние интерлюдии, по словам Грэма Джонсона, на редкость точно рисуют расходящиеся клубы дыма."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Säule — «колонна, столп»; по-русски о дыме говорят «столб»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Welche",
+       "ru": "Которого"
+      },
+      {
+       "de": "berührt",
+       "ru": "касается"
+      },
+      {
+       "de": "der Stab",
+       "ru": "прут"
+      },
+      {
+       "de": "des Jünglings",
+       "ru": "юноши,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Stab здесь в старом конкретном значении «палка, прут» (у Гримма — baculus): подручный ворошит угли, и дым от этого распадается."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "der sterbenden",
+       "ru": "умирающей"
+      },
+      {
+       "de": "Schmiede",
+       "ru": "кузницы"
+      },
+      {
+       "de": "aufsteigt",
+       "ru": "поднимается."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "sterbend — то же слово, которым в первой строфе назван догорающий костёр (das sterbende Feuer). Кузница с гаснущим огнём замыкает круг: сцена началась с умирающего пламени и кончится новым, высоко взметнувшимся."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Laut",
+       "ru": "Громко"
+      },
+      {
+       "de": "schrie",
+       "ru": "вскричал"
+      },
+      {
+       "de": "Gespenst",
+       "ru": "призрак"
+      },
+      {
+       "de": "Loda's",
+       "ru": "Лоды,"
+      },
+      {
+       "de": "als",
+       "ru": "когда"
+      },
+      {
+       "de": "es",
+       "ru": "он,"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "sich selber",
+       "ru": "самом себе"
+      },
+      {
+       "de": "gerollt",
+       "ru": "свернувшись,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        8,
+        8
+       ],
+       "text": "gerollt — причастие без вспомогательного глагола: полностью было бы als es … gerollt war. По-русски удобнее деепричастие «свернувшись»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "dem Winde",
+       "ru": "ветру"
+      },
+      {
+       "de": "sich hob",
+       "ru": "поднялся."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -127,6 +2466,101 @@
     "Inistore bebte beim Klang.",
     "Auf dem Abgrund hörten's die Wellen,",
     "Sie standen vor Schrecken still in der Mitte ihres Lauf's."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Inistore",
+       "ru": "Инисторе"
+      },
+      {
+       "de": "bebte",
+       "ru": "задрожал"
+      },
+      {
+       "de": "beim",
+       "ru": "при"
+      },
+      {
+       "de": "Klang",
+       "ru": "звуке."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Землетрясение Шуберт готовит тремоло в басовом регистре, а сразу за ним ставит стаккатные четверти и модуляцию из до минора в до-диез минор. Грэм Джонсон называет её поразительной и невероятной и слышит в ней извращение земных законов гармонии."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "В"
+      },
+      {
+       "de": "dem Abgrund",
+       "ru": "пучине"
+      },
+      {
+       "de": "hörten's",
+       "ru": "услышали это"
+      },
+      {
+       "de": "die Wellen",
+       "ru": "волны,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Abgrund — «бездна, пучина»; немецкое auf dem Abgrund по-русски требует «в». Hörten's — это hörten es, «услышали это»: апостроф прячет местоимение."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "vor",
+       "ru": "от"
+      },
+      {
+       "de": "Schrecken",
+       "ru": "ужаса"
+      },
+      {
+       "de": "standen... still",
+       "ru": "застыли"
+      },
+      {
+       "de": "in der Mitte",
+       "ru": "посреди"
+      },
+      {
+       "de": "ihres",
+       "ru": "своего"
+      },
+      {
+       "de": "Lauf's",
+       "ru": "бега."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -136,12 +2570,189 @@
     "Sie missten den König;",
     "Zornig fuhren sie auf,",
     "All ihre Waffen erschollen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Freunde",
+       "ru": "Друзья"
+      },
+      {
+       "de": "von Fingal",
+       "ru": "Фингала"
+      },
+      {
+       "de": "plötzlich",
+       "ru": "вдруг"
+      },
+      {
+       "de": "sprangen... empor",
+       "ru": "вскочили,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "griffen",
+       "ru": "схватили"
+      },
+      {
+       "de": "ihre",
+       "ru": "свои"
+      },
+      {
+       "de": "gewichtigen",
+       "ru": "тяжёлые"
+      },
+      {
+       "de": "Speere",
+       "ru": "копья,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "missten",
+       "ru": "хватились"
+      },
+      {
+       "de": "den König",
+       "ru": "короля;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "missen — «недосчитаться, обнаружить пропажу»: воины проснулись и не нашли короля среди спящих."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zornig",
+       "ru": "Гневно"
+      },
+      {
+       "de": "sie",
+       "ru": "они"
+      },
+      {
+       "de": "fuhren... auf",
+       "ru": "вскинулись,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "auffahren — «вскинуться, вспылить»: приставка auf отброшена в конец строки, и глагол собирается только там."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "All",
+       "ru": "Всё"
+      },
+      {
+       "de": "ihre",
+       "ru": "их"
+      },
+      {
+       "de": "Waffen",
+       "ru": "оружие"
+      },
+      {
+       "de": "erschollen",
+       "ru": "зазвенело."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Der Mond rückt in Osten voran.",
     "Fingal kehrt im Klang seiner Waffen zurück."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der Mond",
+       "ru": "Луна"
+      },
+      {
+       "de": "rückt",
+       "ru": "продвигается"
+      },
+      {
+       "de": "in",
+       "ru": "на"
+      },
+      {
+       "de": "Osten",
+       "ru": "востоке"
+      },
+      {
+       "de": "voran",
+       "ru": "вперёд."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Fingal",
+       "ru": "Фингал"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Klang",
+       "ru": "звоне"
+      },
+      {
+       "de": "seiner",
+       "ru": "своего"
+      },
+      {
+       "de": "Waffen",
+       "ru": "оружия"
+      },
+      {
+       "de": "kehrt... zurück",
+       "ru": "возвращается."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -152,8 +2763,204 @@
     "Die Hügel Inistores frohlockten.",
     "Hoch stieg die Flamme der Eiche,",
     "Heldengeschichten wurden erzählt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Gross",
+       "ru": "Велика"
+      },
+      {
+       "de": "war",
+       "ru": "была"
+      },
+      {
+       "de": "Freude",
+       "ru": "радость"
+      },
+      {
+       "de": "der Jünglinge",
+       "ru": "юношей,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "der Jünglinge Freude — родительный падеж впереди определяемого слова, старая книжная расстановка; по-русски «радость юношей»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Их"
+      },
+      {
+       "de": "Seelen",
+       "ru": "души"
+      },
+      {
+       "de": "ruhig",
+       "ru": "спокойны,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "das Meer",
+       "ru": "море"
+      },
+      {
+       "de": "nach",
+       "ru": "после"
+      },
+      {
+       "de": "dem Sturm",
+       "ru": "бури."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ullin",
+       "ru": "Уллин"
+      },
+      {
+       "de": "hob",
+       "ru": "поднял"
+      },
+      {
+       "de": "den Freudengesang",
+       "ru": "песнь радости,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Уллин — бард в свите Фингала. Den Gesang heben — «завести песнь»: тот же глагол heben, которым в начале сцены Фингал «поднял свой могучий голос»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Hügel",
+       "ru": "Холмы"
+      },
+      {
+       "de": "Inistores",
+       "ru": "Инисторе"
+      },
+      {
+       "de": "frohlockten",
+       "ru": "ликовали."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hoch",
+       "ru": "Высоко"
+      },
+      {
+       "de": "stieg",
+       "ru": "поднялось"
+      },
+      {
+       "de": "die Flamme",
+       "ru": "пламя"
+      },
+      {
+       "de": "der Eiche",
+       "ru": "дуба,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Heldengeschichten",
+       "ru": "Героические сказания"
+      },
+      {
+       "de": "wurden erzählt",
+       "ru": "сказывались."
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "James Macpherson, Edmund von Harold"
+ "about": [
+  {
+   "title": "17 января 1816 года",
+   "text": "Песня написана 17 января 1816 года — эту дату дают и буклет шубертовской серии Hyperion, и комментарий на сайте schubertsong.uk. Шуберту было восемнадцать лет: девятнадцатый день рождения приходился на 31 января, через две недели.\n«Призрак Лоды» стоит в ряду оссиановских песен, которые Шуберт писал с 1815 по 1817 год, — почти всегда это мрачные баллады о битвах, призраках и смерти влюблённых."
+  },
+  {
+   "title": "Публикация и первое издание",
+   "text": "Напечатали песню в 1830 году, через два года после смерти Шуберта: как пишет Грэм Джонсон, пианист и автор комментариев к шубертовской серии Hyperion, она вышла третьей книгой посмертного собрания (Nachlass).\nПервое издание — венской фирмы «А. Диабелли и Ко», издательский номер VN 3631 — перекроило песню. Малколм Рен, комментатор сайта schubertsong.uk, описывает его так: текст сильно сокращён, а фортепианное послесловие заменено тремя строфами шубертовского «Punschlied» (D 277), к которым Леопольд фон Зонлейтнер написал новые слова. Десятиминутная сцена с призраком кончалась в этом издании застольной песней."
+  },
+  {
+   "title": "Джеймс Макферсон и Эдмунд фон Гарольд",
+   "text": "Оссиан, слепой бард третьего века и сын кельтского вождя Фингала, — фигура вымышленная. Поэмы, ходившие под его именем, сочинил шотландец Джеймс Макферсон: в начале 1760-х он выпустил несколько «переводов с гэльского», опираясь на обрывки подлинных горских преданий. Мистификацию раскрыли почти сразу — писатель Сэмюэл Джонсон публично требовал показать оригинальные рукописи, — но славу «Оссиана» это не остановило. Туманная Каледония, павшие герои и плачущие девы на скалах взяли Европу почти на полвека и отозвались у Гердера, Гёте, Наполеона и в трёх с лишним сотнях музыкальных сочинений.\nДо Шуберта эти тексты дошли по-немецки. Их перевёл Эдмунд фон Гарольд, ирландец на пфальцско-баварской военной службе: в 1775 году он выпустил в Дюссельдорфе свою версию «Песен Оссиана», а второе, расширенное издание (Мангейм, 1782) легло в основу шубертовских песен."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Гарольд работал над переводом в 1773–1774 годах и напечатал его в 1775-м. Английский подлинник — эпизод поэмы «Carric-Thura», впервые изданной в 1762 году. Шубертовед Петер Растль установил, каким именно томом пользовался композитор: это мангеймское издание 1782 года, страницы 86–89.\nСо своим источником Шуберт обошёлся свободно. Часть слов Гарольда он пропустил, а в строке о щите Лоды заменил Winde («ветер») на Wunde («рана») — оба разночтения отмечает Малколм Рен.\nСюжет взят из середины поэмы. Фингал возвращается из похода в римскую провинцию и спешит на выручку осаждённому Катулле, королю Инисторе; ночью, по дороге, перед ним встаёт призрак Лоды."
+  },
+  {
+   "title": "Музыка",
+   "text": "Над песней стоит пометка «Düster» — «мрачно». Вступительный ритурнель в соль миноре, с меццо-стаккатными аккордами, полон приглушённого напряжения; догорающий костёр спящих воинов Шуберт рисует цепочкой нисходящих хроматических гармоний, от которых остаётся ощущение тлеющих углей, — и всё это ещё до первого спетого слова.\nДальше вокальная линия тяжело идёт вверх вместе с королём, поднимающимся на холм, под пометкой «Geschwind» («быстро»); к появлению призрака музыка приходит в ре-бемоль мажор, а фортепиано начинает дублировать голос. Так разбирает эти страницы Грэм Джонсон."
+  },
+  {
+   "title": "Музыка: двое спорят",
+   "text": "Речь Фингала помечена «Ernst» («серьёзно») и написана в фа мажоре, с трелями и шагающими басами. Джонсон называет эту музыку самой несложной во всей сцене и говорит, что такая страница могла бы прийти из оратории Генделя.\nПризрак отвечает речитативом, а затем — благородной арией в си-бемоль мажоре, с пометкой «Massig, kraftvoll» («умеренно, мощно»). Когда на словах об обители над облаками возвращается си-бемоль мажор, разговор, по выражению Джонсона, поднимается от неприличной перебранки до олимпийского величия. Последний ответ Лоды — марш в до миноре, в аккомпанементе которого слышны переклички охотничьих рогов; Джонсон замечает здесь призрачное предвестие полонезной поступи, которая придёт к Шуберту девятью годами позже, в песнях на стихи Вальтера Скотта."
+  },
+  {
+   "title": "Музыка: удар меча",
+   "text": "Когда меч Фингала проходит сквозь духа, слово уступает фортепиано: интерлюдии здесь, по словам Джонсона, на редкость точно рисуют расходящиеся клубы дыма. Землетрясение готовится тремоло в басовом регистре, за ним идут стаккатные четверти и модуляция из до минора в до-диез минор — Джонсон называет её поразительной и невероятной и слышит в ней извращение земных законов гармонии. Пробуждение дружины помечено «Schnell» («быстро») и звучит в ля мажоре."
+  },
+  {
+   "title": "Фингал и Вотан",
+   "text": "Молодой бесстрашный воин выходит против старого божества и разбивает мечом его копьё. На этой встрече героя со старым богом держится вся сцена: после удара Лоде остаётся только разойтись клубами дыма по ветру. Ту же коллизию вывел на сцену Вагнер — третий акт «Зигфрида»."
+  },
+  {
+   "title": "Лода и торжество просвещения",
+   "text": "Для Макферсона в 1760-е годы поражение Лоды было историей просвещения. Малколм Рен связывает её сразу с двумя развязками: с закатом классического язычества, отступающего перед христианством вместе с римской властью, и с победой кельтского мира над богами скандинавов. Самого Лоду и по имени, и по облику сближают с Одином."
+  },
+  {
+   "title": "Оссиан и высшее существо",
+   "text": "Макферсон снабдил поэму «аргументом» — предисловием, где сказано: по преданию, «Carric-Thura» была обращена к кульдею, одному из первых христианских миссионеров, а история о духе Лоды введена Оссианом в спор с его проповедью. Из этого, считал Макферсон, видно, каким Оссиан представлял себе высшее существо и что суеверия, повсеместного до принятия христианства, он не разделял.\nВ примечании к дерзкому вызову Фингала Макферсон рассуждает дальше: можно ли отсюда заключить, что понятия о божестве у Оссиана не было вовсе? По его словам, тот, видимо, полагал, что высшим существам не пристало вмешиваться в людские дела. А ужасы «мнимого божества» Макферсон сам сравнил с ужасами истинного Бога в восемнадцатом псалме."
+  },
+  {
+   "title": "Оссиан у Гёте",
+   "text": "Гёте в «Поэзии и правде» вспоминал, чем был Оссиан для его поколения, когда писался «Вертер»: «Оссиан увлёк нас в Ультима Туле, где мы бродили по бесконечной серой пустоши среди торчащих замшелых надгробий… лишь при лунном свете эта каледонская ночь по-настоящему становилась днём: вокруг нас витали павшие герои и исчезнувшие девы, и мы и вправду начинали верить, что видели призрак Лоды в его грозном облике»."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Английский критик Ричард Кэйпелл считал эти страницы «на редкость бедными». Грэм Джонсон с ним не соглашается и называет «Призрак Лоды» одной из самых сжатых, стремительных и захватывающих среди оссиановских песен Шуберта.\nМалколм Рен продолжает сюжет о молодом герое и старом боге за пределами поэмы. Джеймс Уатт, сосед и почти ровесник Макферсона, по словам Рена, «сделал больше, чем кто-либо, чтобы покончить» со старыми богами природы: подчинив воду и огонь, он построил работающую паровую машину и освободил человека от «тирании стихий»."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Дитрих Фишер-Дискау с пианистом Джеральдом Муром записали песню для Deutsche Grammophon в ходе сессий 1966–1972 годов.\nЛюция Попп с Грэмом Джонсоном записали её в апреле 1992 года для антологии Hyperion Schubert Edition; запись вышла в 1993-м семнадцатым томом серии, «Schubert in 1816». Хронометраж — 10:58.\nРоман Трекель с Ольденом Айзенлором записали песню для антологии Naxos «Lied Edition 7: European Poets, Volume 1», вышедшей 28 января 2002 года."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }

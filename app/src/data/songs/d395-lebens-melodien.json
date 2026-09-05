@@ -1,13 +1,40 @@
 {
  "d": "395",
  "title_de": "Lebens-Melodien",
+ "title_ru": "Мелодии жизни",
+ "poet_de": "August Wilhelm von Schlegel",
+ "poet_ru": "Август Вильгельм фон Шлегель",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Стихотворение Августа Вильгельма фон Шлегеля написано в 1797 году, в год рождения Шуберта, и напечатано в 1799-м в «Musen-Almanach für das Jahr 1799» («Альманах муз на 1799 год»), который издавал Шиллер. Три «мелодии жизни» заглавия — это три птицы, говорящие по очереди: лебедь, орёл и голуби."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
     "Der Schwan"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der Schwan",
+       "ru": "Лебедь"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Первый из трёх голосов стихотворения. За каждой птицей, как замечает разбор на schubertsong.uk, стоит своё божество: у лебедя это Аполлон, у орла Юпитер, у голубей Венера."
+      }
+     ]
+    }
    ]
   },
   {
@@ -16,6 +43,176 @@
     "Zieht nur gleiche Kreise, die verschweben,",
     "Und mir schwindet nie im feuchten Spiegel",
     "Der gebogne Hals und die Gestalt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "den Wassern",
+       "ru": "водах"
+      },
+      {
+       "de": "wohnt",
+       "ru": "обитает"
+      },
+      {
+       "de": "mein",
+       "ru": "моя"
+      },
+      {
+       "de": "stilles",
+       "ru": "тихая"
+      },
+      {
+       "de": "Leben",
+       "ru": "жизнь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        5
+       ],
+       "text": "Грэм Джонсон слышит в начале песни музыку струящегося ручья и находит в ней предвестие позднейшей «Der Neugierige» («Любопытный»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zieht",
+       "ru": "Описывает"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "gleiche",
+       "ru": "одинаковые"
+      },
+      {
+       "de": "Kreise",
+       "ru": "круги,"
+      },
+      {
+       "de": "die",
+       "ru": "которые"
+      },
+      {
+       "de": "verschweben",
+       "ru": "истаивают,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Kreise ziehen — «описывать круги»: переходное ziehen здесь не «тянуть». Подлежащее осталось в предыдущей строке — круги описывает сама «тихая жизнь». verschweben у Гримма сказано о звуке, который «теряется в парении, тихо убывая»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "В конце этой строки, по разбору Джонсона, слух ждёт каденции в другую тональность, а музыка возвращается к исходной гармонии — как лебедь, замыкающий свой круг."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "mir",
+       "ru": "у меня"
+      },
+      {
+       "de": "nie",
+       "ru": "никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "schwindet",
+       "ru": "исчезает"
+      },
+      {
+       "de": "im",
+       "ru": "во"
+      },
+      {
+       "de": "feuchten",
+       "ru": "влажном"
+      },
+      {
+       "de": "Spiegel",
+       "ru": "зеркале"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Дательный mir по-русски передаётся оборотом «у меня»: по-немецки шея и стан «не исчезают мне»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        7,
+        7
+       ],
+       "text": "На слове Spiegel («зеркало») бас, по разбору Джонсона, приходит к до-мажорному аккорду с ми в басу, а голос падает на октаву вниз: так слышна глубина озера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der gebogne",
+       "ru": "Изогнутая"
+      },
+      {
+       "de": "Hals",
+       "ru": "шея"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "die Gestalt",
+       "ru": "стан."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "gebogne — стянутое gebogene, «изогнутая»: обычный эпитет лебединой шеи. Подлежащее стоит здесь, а сказуемое schwindet — строкой выше."
+      }
+     ]
+    }
    ]
   },
   {
@@ -24,6 +221,135 @@
     "Rauschen süss des Kalmus Düfte,",
     "Wenn ich in dem Glanz der Abendröthe",
     "Weichbefiedert wiege meine Brust."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "erquickt",
+       "ru": "освежает"
+      },
+      {
+       "de": "das Blau",
+       "ru": "лазурь"
+      },
+      {
+       "de": "der heitern",
+       "ru": "светлых"
+      },
+      {
+       "de": "Lüfte",
+       "ru": "высей,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        4
+       ],
+       "text": "erquicken — «оживлять, освежать»; у Гримма первое значение прямо так и дано: «beleben, lebendig machen» («оживлять, делать живым»). heitern — стянутое heiteren: о небе и погоде heiter значит «ясный, светлый», а не «весёлый». Lüfte — поэтическое множественное от Luft: воздушные просторы, выси."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "süss",
+       "ru": "Сладостно"
+      },
+      {
+       "de": "Rauschen",
+       "ru": "веют"
+      },
+      {
+       "de": "Düfte",
+       "ru": "ароматы"
+      },
+      {
+       "de": "des Kalmus",
+       "ru": "аира,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "rauschen — глагол сплошного природного шума: у Гримма он сказан о воде, потоке, волнах, дожде. По-русски о запахах так не говорят, поэтому здесь «веют»; буквально ароматы аира «шумят»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Kalmus — аир, ароматное болотное растение (calamus aromaticus), у Гримма — «корень тростника, болотная лилия». Родительный падеж стоит перед своим существительным: des Kalmus Düfte — «ароматы аира»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dem Glanz",
+       "ru": "сиянии"
+      },
+      {
+       "de": "der Abendröthe",
+       "ru": "вечерней зари"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Weichbefiedert",
+       "ru": "Мягкоперый"
+      },
+      {
+       "de": "wiege",
+       "ru": "качаю"
+      },
+      {
+       "de": "meine",
+       "ru": "свою"
+      },
+      {
+       "de": "Brust",
+       "ru": "грудь."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Weichbefiedert — составное слово Шлегеля из weich («мягкий») и befiedert («оперённый»), в словарях его нет. wiege — личная форма глагола wiegen («качать, баюкать»), а не существительное Wiege («колыбель»), с которым она совпадает."
+      }
+     ]
+    }
    ]
   },
   {
@@ -32,6 +358,148 @@
     "Darf ich mich in Wohllautströmen baden,",
     "Ihm geschmiegt zu Füssen, wenn die Lieder",
     "Tönend wehn in Tempe's Mai hinab."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Зовом",
+       "de": "Winken"
+      },
+      {
+       "ru": "Аполлона",
+       "de": "Von Apollos"
+      },
+      {
+       "ru": "приглашённый,",
+       "de": "eingeladen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Аполлон — бог музыки, поэзии и пророчества; Apollos — родительный падеж имени. Winken — субстантивированный инфинитив: манящий знак, зов. У Гримма winken значит подавать выразительные знаки головой или рукой, а переносно — делать «приглашающее, призывное» движение. Предлог von при страдательном причастии по-русски передаётся творительным падежом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Darf",
+       "ru": "Могу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "mich... baden",
+       "ru": "купаться"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Wohllautströmen",
+       "ru": "потоках благозвучия,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Wohllautströmen — составное слово из Wohllaut («благозвучие») и Ströme («потоки»); в словарях его нет, это метафора Шлегеля: лебедь купается в потоках звучания. Возвратное mich отнесено к baden на другом конце строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "geschmiegt",
+       "ru": "Прильнув"
+      },
+      {
+       "de": "Ihm",
+       "ru": "к его"
+      },
+      {
+       "de": "zu Füssen",
+       "ru": "ногам,"
+      },
+      {
+       "de": "wenn",
+       "ru": "когда"
+      },
+      {
+       "de": "die Lieder",
+       "ru": "песни"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "sich schmiegen — «приникнуть, прильнуть»; дательный ihm по-русски становится притяжательным: «к его ногам». Оборот zu Füssen значит «у ног»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Tönend",
+       "ru": "Звуча,"
+      },
+      {
+       "de": "wehn",
+       "ru": "веют"
+      },
+      {
+       "de": "hinab",
+       "ru": "вниз,"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Mai",
+       "ru": "май"
+      },
+      {
+       "de": "Tempe's",
+       "ru": "Темпе."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Вода, по которой плывёт этот лебедь, необычная: разбор на schubertsong.uk называет её мифической рекой Темпе, текущей с самого Олимпа. У ног Аполлона птица слушает песни, слетающие вниз."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Темпе — долина в Фессалии со священной для Аполлона рощей, воспетая античными поэтами; апостроф с s здесь родительный падеж имени, а не стянутое es."
+      }
+     ]
+    }
    ]
   },
   {
@@ -40,6 +508,139 @@
     "Hab' ich mich um Leda's Schooss geschlungen;",
     "Schmeichelnd drückten mich die zarten Hände,",
     "Als ihr Sinn in Wonne sich verlor."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Von der seligen",
+       "ru": "Блаженной"
+      },
+      {
+       "de": "Götterkraft",
+       "ru": "божественной силой"
+      },
+      {
+       "de": "durchdrungen",
+       "ru": "пронизанный,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Götterkraft у Гримма — «сила, свойственная богам как богам». durchdrungen — причастие от durchdringen, «пронизывать насквозь». Предлог von с дательным при страдательном причастии по-русски передаётся творительным падежом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hab'... mich... geschlungen",
+       "ru": "Обвился"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "um",
+       "ru": "вокруг"
+      },
+      {
+       "de": "Schooss",
+       "ru": "лона"
+      },
+      {
+       "de": "Leda's",
+       "ru": "Леды;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Рамка: вспомогательное hab' стоит в начале, смысловое причастие geschlungen — в конце строки, а возвратное mich по-русски уходит в «-ся». sich schlingen um — «обвиться вокруг»; это второй из двух созвучных глаголов schlingen, «плести, обвивать», а не «глотать»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Лебедь вспоминает, как в него вошёл Зевс, чтобы соблазнить Леду; от этого союза, по разбору на schubertsong.uk, родились Елена и близнецы Кастор и Поллукс."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schmeichelnd",
+       "ru": "Лаская,"
+      },
+      {
+       "de": "drückten",
+       "ru": "прижимали"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "die zarten",
+       "ru": "нежные"
+      },
+      {
+       "de": "Hände",
+       "ru": "руки,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Als",
+       "ru": "Когда"
+      },
+      {
+       "de": "ihr",
+       "ru": "её"
+      },
+      {
+       "de": "Sinn",
+       "ru": "рассудок"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Wonne",
+       "ru": "блаженстве"
+      },
+      {
+       "de": "sich verlor",
+       "ru": "терялся."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Wonne — высокое слово для восторженной радости, у Гримма «innige freude» («глубокая радость»). Сегодня оно часто звучит иронически, в текстах 1800-х годов — всегда всерьёз."
+      }
+     ]
+    }
    ]
   },
   {
@@ -48,6 +649,140 @@
     "Helena und euch, ihr Dioskuren,",
     "Milde Sterne, deren Brüdertugend",
     "Wechselnd Schattenwelt und Himmel theilt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "Так"
+      },
+      {
+       "de": "gebar",
+       "ru": "родила"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "freundliche",
+       "ru": "приветливые"
+      },
+      {
+       "de": "Naturen",
+       "ru": "созданья,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Naturen — множественное от Natur, но переводить его «природой» нельзя: это существа, натуры, рождённые Ледой дети. freundlich у поэтов эпохи шире нынешнего «дружелюбный»: так говорят и о свете, и о природе — «ласковый, приветный»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Helena",
+       "ru": "Елену"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "euch",
+       "ru": "вас,"
+      },
+      {
+       "de": "ihr",
+       "ru": "о"
+      },
+      {
+       "de": "Dioskuren",
+       "ru": "Диоскуры,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Елена Прекрасная — дочь Леды и Зевса-лебедя. Диоскуры — Кастор и Поллукс, братья-близнецы, с античности покровители мореплавателей. Обращение строится по-немецки как ihr Dioskuren, «вы, Диоскуры»; по-русски естественнее звательное «о»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Milde",
+       "ru": "Кроткие"
+      },
+      {
+       "de": "Sterne",
+       "ru": "звёзды,"
+      },
+      {
+       "de": "deren",
+       "ru": "чья"
+      },
+      {
+       "de": "Brüdertugend",
+       "ru": "братская доблесть"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Milde здесь прилагательное во множественном числе, «кроткие», а не существительное die Milde («милость»). deren — родительный падеж относительного местоимения, «чья». Brüdertugend составлено из Bruder («брат») и Tugend («доблесть, добродетель»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wechselnd",
+       "ru": "Чередуясь,"
+      },
+      {
+       "de": "theilt",
+       "ru": "делит"
+      },
+      {
+       "de": "Schattenwelt",
+       "ru": "мир теней"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Himmel",
+       "ru": "небо."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Диоскуры делят бессмертие пополам и попеременно оказываются то в царстве мёртвых, то на небе: об этом и сказано словом wechselnd («чередуясь»). Schattenwelt у Гримма — «царство тьмы», обитель теней; theilt — написание эпохи, ныне teilt."
+      }
+     ]
+    }
    ]
   },
   {
@@ -56,6 +791,135 @@
     "In der Fluth die tiefgewölbte Ferne,",
     "Und mich zieht ein innig rührend Sehnen",
     "Aus der Heimath in ein himmlisch Land."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ahndevoll",
+       "ru": "Полный предчувствия,"
+      },
+      {
+       "de": "betracht'",
+       "ru": "созерцаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "oft",
+       "ru": "часто"
+      },
+      {
+       "de": "die Sterne",
+       "ru": "звёзды,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "ahndevoll — книжная форма от ahnungsvoll, «полный предчувствия»; у Гримма она приведена как praesagii plenus. betracht' — стянутое betrachte, «созерцаю»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "der Fluth",
+       "ru": "потоке"
+      },
+      {
+       "de": "die tiefgewölbte",
+       "ru": "глубокосводчатую"
+      },
+      {
+       "de": "Ferne",
+       "ru": "даль,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Сказуемое осталось в предыдущей строке: лебедь созерцает и звёзды, и «даль» в воде. tiefgewölbt составлено из tief («глубокий») и gewölbt («сводчатый»): в потоке отражается небесный свод. Fluth — написание эпохи, ныне Flut."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "zieht",
+       "ru": "влечёт"
+      },
+      {
+       "de": "ein innig",
+       "ru": "задушевно"
+      },
+      {
+       "de": "rührend",
+       "ru": "трогательное"
+      },
+      {
+       "de": "Sehnen",
+       "ru": "томление"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "С",
+       "de": "Aus"
+      },
+      {
+       "ru": "родины",
+       "de": "der Heimath"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "небесный",
+       "de": "ein himmlisch"
+      },
+      {
+       "ru": "край.",
+       "de": "Land"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Лебедь Шлегеля лишён свирепости настоящей птицы: он либо безмятежно разглядывает своё отражение, либо тоскует по небесному дому — так читает эти строфы разбор на schubertsong.uk."
+      }
+     ]
+    }
    ]
   },
   {
@@ -64,11 +928,161 @@
     "Wenn sich meiner Glieder Band entweben,",
     "Löst die Zunge sich: melodisch feiert",
     "Jeder Hauch den heil'gen Augenblick."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Willig",
+       "ru": "Покорно"
+      },
+      {
+       "de": "weicht",
+       "ru": "уступает"
+      },
+      {
+       "de": "dem Tod",
+       "ru": "смерти"
+      },
+      {
+       "de": "ein sanftes",
+       "ru": "тихая"
+      },
+      {
+       "de": "Leben",
+       "ru": "жизнь:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "weichen — «уступать, отступать» (cedere), у Гримма «den halt verlieren, nachgeben» («терять опору, поддаваться»); это не созвучный глагол weichen «размягчать». willig значит «по доброй воле, покорно»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "sich... entweben",
+       "ru": "расплетаются"
+      },
+      {
+       "de": "Band",
+       "ru": "узы"
+      },
+      {
+       "de": "meiner",
+       "ru": "моей"
+      },
+      {
+       "de": "Glieder",
+       "ru": "плоти,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "entweben — редкое книжное слово, у Гримма detexere: «распускать сотканное». Возвратное sich стоит в начале, глагол — в конце: рамка. Родительный падеж meiner Glieder предшествует своему существительному — «узы моих членов», телесная связь, скрепляющая птицу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Löst... sich",
+       "ru": "Развязывается"
+      },
+      {
+       "de": "die Zunge",
+       "ru": "язык:"
+      },
+      {
+       "de": "melodisch",
+       "ru": "мелодично"
+      },
+      {
+       "de": "feiert",
+       "ru": "славит"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "feiern здесь — «торжественно чтить, славить». melodisch, «полный мелодии, благозвучный», — слово молодое: у Гримма отмечено, что первым его внёс в словарь Аделунг."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Jeder",
+       "ru": "Каждое"
+      },
+      {
+       "de": "Hauch",
+       "ru": "дыхание"
+      },
+      {
+       "de": "den heil'gen",
+       "ru": "священный"
+      },
+      {
+       "de": "Augenblick",
+       "ru": "миг."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Здесь начинается предсмертная песнь лебедя. Разбор на schubertsong.uk видит в ней общий смысл всех трёх «мелодий»: птица довольна своим тесным миром, где ей дано прикоснуться к божественной силе, и, переполненная этой силой, с готовностью принимает собственную гибель."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Der Adler"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der Adler",
+       "ru": "Орёл"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "С орлом музыка уходит из соль мажора в бурлящее бетховенское скерцо: до минор, размер 6/8. Шестнадцатые, по разбору Джонсона, изображают взмахи крыльев."
+      }
+     ]
+    }
    ]
   },
   {
@@ -77,6 +1091,131 @@
     "Ich braus' in den stürmenden Lüften,",
     "Vertrauend dem schlagenden Flügel",
     "Bei Jagd und Kampf und Gewalt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "haus'",
+       "ru": "обитаю"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den felsigen",
+       "ru": "скалистых"
+      },
+      {
+       "de": "Klüften",
+       "ru": "расщелинах,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "На этих словах, по разбору Джонсона, держится долгая доминантовая педаль, а бас рокочет октавами."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "braus'",
+       "ru": "реву"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den stürmenden",
+       "ru": "бушующих"
+      },
+      {
+       "de": "Lüften",
+       "ru": "высях,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "braus' — стянутое brause, от brausen: шуметь, реветь — так говорят о буре и о потоке. Русского глагола, одинаково годного и для бури, и для птицы, нет, поэтому здесь «реву»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vertrauend",
+       "ru": "Доверяясь"
+      },
+      {
+       "de": "dem schlagenden",
+       "ru": "машущему"
+      },
+      {
+       "de": "Flügel",
+       "ru": "крылу"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "Bei"
+      },
+      {
+       "ru": "охоте,",
+       "de": "Jagd"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "бою,",
+       "de": "Kampf"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "мощи.",
+       "de": "Gewalt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Gewalt по Аделунгу — «превосходящая сила, власть» (Überlegene Macht); нынешнее «насилие» у слова появилось позже, и в стихи эпохи его переносить нельзя."
+      }
+     ]
+    }
    ]
   },
   {
@@ -85,6 +1224,144 @@
     "Wenn unten den Wald sie zersplittern,",
     "Ich frage den Blitz, ob er tödte,",
     "Mit fröhlich vernichtender Lust."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "jauchze",
+       "ru": "ликую"
+      },
+      {
+       "de": "daher",
+       "ru": "так"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Gewittern",
+       "ru": "грозах,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "jauchzen — «ликовать, издавать радостный крик»; у Гримма оно отмечено как более благородное слово, чем juchzen. daher говорит и об образе действия, и о движении: орёл ликует, проносясь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "unten",
+       "ru": "внизу"
+      },
+      {
+       "de": "den Wald",
+       "ru": "лес"
+      },
+      {
+       "de": "sie",
+       "ru": "они"
+      },
+      {
+       "de": "zersplittern",
+       "ru": "крушат,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "sie — грозы из предыдущей строки. zersplittern у Гримма — «in splitter brechen» («разбивать в щепы»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "frage",
+       "ru": "спрашиваю"
+      },
+      {
+       "de": "den Blitz",
+       "ru": "молнию,"
+      },
+      {
+       "de": "tödte",
+       "ru": "убивает"
+      },
+      {
+       "de": "ob",
+       "ru": "ли"
+      },
+      {
+       "de": "er",
+       "ru": "она,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "Русское «ли» стоит после глагола, поэтому порядок слов в косвенном вопросе сдвигается. tödte — написание эпохи и форма косвенной речи. Немецкий Blitz мужского рода, отсюда er; русская «молния» женского, и местоимение становится «она»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit",
+       "ru": "С"
+      },
+      {
+       "de": "fröhlich",
+       "ru": "весело"
+      },
+      {
+       "de": "vernichtender",
+       "ru": "уничтожающей"
+      },
+      {
+       "de": "Lust",
+       "ru": "отрадой."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Lust около 1800 года — прежде всего «радость, отрада, наслаждение»; нынешний сдвиг слова к вожделению к этим текстам не относится."
+      }
+     ]
+    }
    ]
   },
   {
@@ -93,6 +1370,134 @@
     "Er winkt und ich hol' ihm die Blitze.",
     "Dann senk' ich im Schlaf das Gefieder",
     "Auf seinen gebietenden Stab."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "throne",
+       "ru": "восседаю"
+      },
+      {
+       "de": "bei",
+       "ru": "у"
+      },
+      {
+       "de": "Sitze",
+       "ru": "престола"
+      },
+      {
+       "de": "Jupiters",
+       "ru": "Юпитера;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Владения орла — тучи, грозы и молнии, хозяйство Зевса-Юпитера; в мифе о Ганимеде птица служит богу орудием, как излагает сюжет разбор на schubertsong.uk."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "winkt",
+       "ru": "манит,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "hol'",
+       "ru": "приношу"
+      },
+      {
+       "de": "ihm",
+       "ru": "ему"
+      },
+      {
+       "de": "die Blitze",
+       "ru": "молнии."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Dann",
+       "ru": "Потом"
+      },
+      {
+       "de": "senk'",
+       "ru": "опускаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "im",
+       "ru": "во"
+      },
+      {
+       "de": "Schlaf",
+       "ru": "сне"
+      },
+      {
+       "de": "das Gefieder",
+       "ru": "оперение"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Schlaf — сон как состояние; сновидение по-немецки Traum, и в подстрочнике эти два «сна» различаются."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "seinen",
+       "ru": "его"
+      },
+      {
+       "de": "gebietenden",
+       "ru": "повелевающий"
+      },
+      {
+       "de": "Stab",
+       "ru": "жезл."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -101,6 +1506,135 @@
     "Entriss ihr den blöden Genossen:",
     "Ich trug in den Klauen behende",
     "Zum Olymp Ganymeden empor."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "kam",
+       "ru": "примчался"
+      },
+      {
+       "de": "geschossen",
+       "ru": "стрелой"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "den Wolken",
+       "ru": "туч,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "kommen с причастием — устойчивый оборот стремительного движения: kam geschossen значит «примчался стрелой». Wolken в грозовом ряду — «тучи»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Entriss",
+       "ru": "Вырвал"
+      },
+      {
+       "de": "ihr",
+       "ru": "у неё"
+      },
+      {
+       "de": "den blöden",
+       "ru": "беззащитного"
+      },
+      {
+       "de": "Genossen",
+       "ru": "товарища:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "blöde в эту эпоху — «робкий, слабый, беззащитный»; нынешнее «глупый» появилось у слова позже и здесь ни при чём."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Речь о Ганимеде: орёл уносит троянского юношу на Олимп. По некоторым пересказам мифа, в том числе у Овидия, сам Зевс входил в орла, чтобы схватить его, — это отмечает разбор на schubertsong.uk."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "trug",
+       "ru": "нёс"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den Klauen",
+       "ru": "когтях"
+      },
+      {
+       "de": "behende",
+       "ru": "проворно"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "empor",
+       "ru": "Ввысь"
+      },
+      {
+       "de": "Zum",
+       "ru": "на"
+      },
+      {
+       "de": "Olymp",
+       "ru": "Олимп"
+      },
+      {
+       "de": "Ganymeden",
+       "ru": "Ганимеда."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Ganymeden — винительный падеж слабого склонения. Ганимед — троянский юноша, унесённый на Олимп и ставший там виночерпием богов."
+      }
+     ]
+    }
    ]
   },
   {
@@ -109,6 +1643,136 @@
     "Der Jüngling die ewigen Zecher;",
     "Nie bräunt sich die Wange der Jugend,",
     "Wie endlos die Zeit auch enteilt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Nun",
+       "ru": "Ныне"
+      },
+      {
+       "de": "tränkt",
+       "ru": "поит"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "nektarischem",
+       "ru": "нектарного"
+      },
+      {
+       "de": "Becher",
+       "ru": "кубка"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "tränken — каузатив к trinken: «поить, давать пить»; сегодня у глагола на первом плане «пропитывать», в эпоху — именно «поить». Becher — торжественный сосуд, рангом выше стакана и проще церковного потира, «стаканчиком» его переводить нельзя."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Jüngling",
+       "ru": "Юноша"
+      },
+      {
+       "de": "die ewigen",
+       "ru": "вечных"
+      },
+      {
+       "de": "Zecher",
+       "ru": "пирующих;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Zecher у Гримма — участники общей трапезы, где не обходится без вина; здесь это боги на Олимпе. У слова Jüngling в нынешнем немецком есть насмешливый оттенок, в текстах 1800-х годов его нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nie",
+       "ru": "Никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "bräunt sich",
+       "ru": "загорает"
+      },
+      {
+       "de": "die Wange",
+       "ru": "щека"
+      },
+      {
+       "de": "der Jugend",
+       "ru": "юности,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Отрицание собрано из двух частей: nie («никогда») и русское «не» перед глаголом, которому в немецком ничего не соответствует. sich bräunen — «покрываться загаром»: щёки вечно юных богов не темнеют, то есть не стареют."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "endlos",
+       "ru": "бесконечно"
+      },
+      {
+       "de": "die Zeit",
+       "ru": "время"
+      },
+      {
+       "de": "auch",
+       "ru": "ни"
+      },
+      {
+       "de": "enteilt",
+       "ru": "ускользает."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Оборот wie … auch уступительный: «как бы ни». enteilen — «спешить прочь, ускользать», у Гримма aufugere."
+      }
+     ]
+    }
    ]
   },
   {
@@ -117,6 +1781,124 @@
     "Ein blühender Phönix, entschwinget",
     "Die Seele sich frei und entschleiert,",
     "Und grüsset ihr göttliches Glück."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Fackel",
+       "ru": "Факел"
+      },
+      {
+       "de": "der Todten",
+       "ru": "мёртвых"
+      },
+      {
+       "de": "verjünget",
+       "ru": "омолаживает:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "verjünget — старое окончание, ныне verjüngt; глагол значит «делать снова юным». Todten — субстантивированное прилагательное «мёртвые» в родительном падеже."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein blühender",
+       "ru": "Цветущий"
+      },
+      {
+       "de": "Phönix",
+       "ru": "феникс,"
+      },
+      {
+       "de": "entschwinget",
+       "ru": "воспаряет"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Дождавшись вершины своей службы, орёл — как лебедь у ног Аполлона — обращается к солнцу и, предчувствуя смерть, видит себя фениксом, готовым сгореть и возродиться: так читает эту строфу разбор на schubertsong.uk."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Seele sich",
+       "ru": "Душа"
+      },
+      {
+       "de": "frei",
+       "ru": "свободная"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "entschleiert",
+       "ru": "без покрова,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Возвратное sich относится к глаголу предыдущей строки: sich entschwingen — «взмыть, воспарить прочь», и рамка разорвана переносом. entschleiern у Гримма revelare — «снять покров»: душа сбрасывает телесную завесу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "grüsset",
+       "ru": "приветствует"
+      },
+      {
+       "de": "ihr",
+       "ru": "своё"
+      },
+      {
+       "de": "göttliches",
+       "ru": "божественное"
+      },
+      {
+       "de": "Glück",
+       "ru": "счастье."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "ihr здесь притяжательное «её»; поскольку речь идёт о подлежащем той же фразы, по-русски встаёт «своё»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -125,11 +1907,155 @@
     "Schon früh zur unsterblichen Sonne,",
     "Kann nie an den Staub mich gewöhnen.",
     "Ich bin mit den Göttern verwandt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "wandte",
+       "ru": "обращал"
+      },
+      {
+       "de": "die Flüge",
+       "ru": "полёты"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Wonne",
+       "ru": "блаженством"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schon",
+       "ru": "Уже"
+      },
+      {
+       "de": "früh",
+       "ru": "рано"
+      },
+      {
+       "de": "zur",
+       "ru": "к"
+      },
+      {
+       "de": "unsterblichen",
+       "ru": "бессмертному"
+      },
+      {
+       "de": "Sonne",
+       "ru": "солнцу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Орёл поворачивает к солнцу так же, как лебедь льнёт к ногам Аполлона: у обеих птиц служба богу кончается обращением к свету — на это указывает разбор на schubertsong.uk."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "nie",
+       "ru": "Никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "Kann",
+       "ru": "могу"
+      },
+      {
+       "de": "mich gewöhnen",
+       "ru": "привыкнуть"
+      },
+      {
+       "de": "an",
+       "ru": "к"
+      },
+      {
+       "de": "den Staub",
+       "ru": "праху."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        5
+       ],
+       "text": "Рамка kann… gewöhnen: модальный глагол в начале, смысловой — в конце; sich an etwas gewöhnen — «привыкать к чему-либо». Staub, «пыль, прах», здесь означает всё земное и приземлённое, в противоположность небу."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "bin",
+       "ru": "—"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "den Göttern",
+       "ru": "богами"
+      },
+      {
+       "de": "verwandt",
+       "ru": "в родстве."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Die Tauben"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Tauben",
+       "ru": "Голуби"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Голуби поют в ми-бемоль мажоре и в размере 4/4 — против 2/4 у лебедя; мелодия, по разбору Джонсона, становится шире."
+      }
+     ]
+    }
    ]
   },
   {
@@ -144,6 +2070,245 @@
     "Wunsch und Genuss!",
     "Schmachten und lauschen,",
     "Wunsch und Genuss!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "Schatten",
+       "ru": "тени"
+      },
+      {
+       "de": "der Myrthen",
+       "ru": "миртов,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Мирт — вечнозелёный кустарник, посвящённый Венере и служивший знаком любви и супружеской верности. Родительный падеж стоит перед своим существительным: der Myrthen Schatten — «тень миртов»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Gatte",
+       "ru": "Супруг"
+      },
+      {
+       "de": "treu",
+       "ru": "верен"
+      },
+      {
+       "de": "dem Gatten",
+       "ru": "супругу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Gatte у Гримма исходно «товарищ, ровня, спутник», и лишь к XVIII веку слово сузилось до «супруг». Здесь оно сказано о голубиной паре."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Flattern",
+       "ru": "Порхаем"
+      },
+      {
+       "de": "wir",
+       "ru": "мы"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "tauschen",
+       "ru": "обмениваемся"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Manchen",
+       "ru": "Не одним"
+      },
+      {
+       "de": "langen",
+       "ru": "долгим"
+      },
+      {
+       "de": "Kuss",
+       "ru": "поцелуем."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "manch стоит при существительном в единственном числе, хотя речь идёт о множестве: «не один долгий поцелуй»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Suchen",
+       "ru": "Ищем"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "irren",
+       "ru": "блуждаем,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "irren здесь — «блуждать, скитаться» (у Гримма umher schweifen), а не «ошибаться»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Finden",
+       "ru": "Находим"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "girren",
+       "ru": "воркуем,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Эти слова положены на музыку так, что в них, по разбору Джонсона, слышно воркование птиц."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schmachten",
+       "ru": "Томимся"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "lauschen",
+       "ru": "внимаем,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "schmachten у Гримма идёт от «мучительно алкать, изнывать»; ирония, какую сегодня слышат в schmachtender Blick («томный взгляд»), высокой оде эпохи чужда."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wunsch",
+       "ru": "Желание"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Genuss",
+       "ru": "наслаждение!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "В домашнем тоне этой музыки Джонсон узнаёт другую песню того же 1816 года — «An mein Clavier» («К моему клавиру»), особенно в каденции на первом появлении этих слов."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schmachten",
+       "ru": "Томимся"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "lauschen",
+       "ru": "внимаем,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wunsch",
+       "ru": "Желание"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Genuss",
+       "ru": "наслаждение!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -158,6 +2323,219 @@
     "Lieblicher Sold!",
     "Leichtes Gelingen!",
     "Lieblicher Sold!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Venus'",
+       "ru": "Венеры"
+      },
+      {
+       "de": "Wagen",
+       "ru": "колесницу"
+      },
+      {
+       "de": "ziehen",
+       "ru": "влечём"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Аполлон-солнце едет по небу на колеснице, а колесницу богини любви везут голуби — так объясняет этот образ разбор на schubertsong.uk."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Wagen здесь существительное «повозка, колесница», а не созвучный глагол wagen («дерзать»); решает синтаксис. ziehen — переходное «влечь, тянуть», подлежащее wir стоит строкой ниже."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schnäbelnd",
+       "ru": "Милуясь,"
+      },
+      {
+       "de": "wir",
+       "ru": "мы"
+      },
+      {
+       "de": "im Fliehen",
+       "ru": "на лету;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "schnäbeln у Гримма — «целоваться, как голуби», тереться клювами. im Fliehen — субстантивированный инфинитив, «на лету»: fliehen в стихах не обязательно про страх, это быстрое бесшумное движение прочь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Unsre",
+       "ru": "Наши"
+      },
+      {
+       "de": "blauen",
+       "ru": "голубые"
+      },
+      {
+       "de": "Schwingen",
+       "ru": "крылья"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Säumt",
+       "ru": "Окаймляет"
+      },
+      {
+       "de": "Gold",
+       "ru": "золото"
+      },
+      {
+       "de": "der Sonne",
+       "ru": "солнца."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Подлежащее здесь «золото», а дополнение осталось строкой выше: солнечное золото окаймляет крылья. Родительный падеж стоит перед своим существительным — der Sonne Gold. säumen значит «обрамлять, окаймлять»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "es fächelt",
+       "ru": "веет,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "uns",
+       "ru": "нам"
+      },
+      {
+       "de": "lächelt",
+       "ru": "улыбается!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "sie — Венера; безличное es fächelt строкой выше значит «веет», а fächeln говорят о тихом ласковом дуновении."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Leichtes",
+       "ru": "Лёгкая"
+      },
+      {
+       "de": "Gelingen",
+       "ru": "удача!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Lieblicher",
+       "ru": "Прелестная"
+      },
+      {
+       "de": "Sold",
+       "ru": "награда!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Sold — изначально плата за военную службу; здесь слово взято фигурально: награда за службу богине."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Leichtes",
+       "ru": "Лёгкая"
+      },
+      {
+       "de": "Gelingen",
+       "ru": "удача!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Lieblicher",
+       "ru": "Прелестная"
+      },
+      {
+       "de": "Sold",
+       "ru": "награда!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -172,8 +2550,246 @@
     "Deinem Altar!",
     "Opfre uns beide",
     "Deinem Altar!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wende",
+       "ru": "Отврати"
+      },
+      {
+       "de": "denn",
+       "ru": "же"
+      },
+      {
+       "de": "die Stürme",
+       "ru": "бури,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Wende — повелительное наклонение от wenden («поворачивать, отводить»); denn здесь усилительная частица, «же»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schöne",
+       "ru": "Прекрасная"
+      },
+      {
+       "de": "Göttin",
+       "ru": "богиня!"
+      },
+      {
+       "de": "Schirme",
+       "ru": "Укрой"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Schirme — повелительное от schirmen, «защищать, укрывать»; глагол вырос из существительного Schirm — «щит, защита»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bei",
+       "ru": "При"
+      },
+      {
+       "de": "bescheidner",
+       "ru": "скромной"
+      },
+      {
+       "de": "Freude",
+       "ru": "радости"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Paar",
+       "ru": "Пару"
+      },
+      {
+       "de": "Deiner",
+       "ru": "твоих"
+      },
+      {
+       "de": "Tauben",
+       "ru": "голубей!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Lass",
+       "ru": "Оставь"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "beisammen",
+       "ru": "вместе!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Oder",
+       "ru": "Или"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Flammen",
+       "ru": "пламени"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Opfre",
+       "ru": "Пожертвуй"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "beide",
+       "ru": "обоих"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "opfern — «принести божеству в дар, в жертву»; Opfre — стянутое opfere, повелительное наклонение."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Deinem",
+       "ru": "Твоему"
+      },
+      {
+       "de": "Altar",
+       "ru": "алтарю!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Голуби довольны своей службой и говорят, что были бы рады стать и жертвой на алтаре Венеры. Разбор на schubertsong.uk видит здесь ту же развязку, что у лебедя и орла: переполненная жизненной силой птица с готовностью принимает собственную гибель."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Opfre",
+       "ru": "Пожертвуй"
+      },
+      {
+       "de": "uns",
+       "ru": "нас"
+      },
+      {
+       "de": "beide",
+       "ru": "обоих"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Deinem",
+       "ru": "Твоему"
+      },
+      {
+       "de": "Altar",
+       "ru": "алтарю!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "August Wilhelm von Schlegel"
+ "about": [
+  {
+   "title": "Март 1816 года",
+   "text": "Песня написана в марте 1816 года. Шуберту было девятнадцать лет — так пишет справочник schubertlied.de; там же названа оригинальная тональность, соль мажор."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "При жизни композитора песня не печаталась. Её выпустил в Вене издатель Йозеф Черни 5 февраля 1829 года как ор. 111 № 2, под издательским номером 335. Тетрадь «Drey Gedichte» («Три стихотворения») собрала три песни на слова разных поэтов: «An die Freude» D 189 и «Die vier Weltalter» D 391 на стихи Шиллера и «Lebens-Melodien» на стихи Шлегеля.\nАвтограф утрачен, и из-за этого, как пишет schubertlied.de, нельзя проверить одну особенность первого издания: знаки повтора строф в нём не проставлены, хотя обычно Шуберт их ставил, — а старое Полное собрание сочинений печатает все строфы. Ноты числятся в старом Полном собрании (серия XX, том 4, № 205) и в Новом собрании сочинений Шуберта (серия IV, том 10), а также в изданиях Фридлендера (том 4, с. 128) и Bärenreiter Urtext (том 9, с. 55)."
+  },
+  {
+   "title": "Август Вильгельм фон Шлегель",
+   "text": "Август Вильгельм фон Шлегель — один из основателей йенского романтизма, но в истории он остался прежде всего переводчиком. Вместе с младшим братом Фридрихом фон Шлегелем он в 1798–1800 годах издавал журнал Athenäum («Атенеум»), программный орган молодой романтической школы, а его перевод семнадцати пьес Шекспира (1797–1810) современники называли одним из величайших достижений немецкой словесности XIX века.\nСобственных стихов Шлегель писал немного, и по общему приговору — от анонимного автора статьи в Allgemeine Deutsche Biographie («Всеобщая немецкая биография») до Грэма Джонсона, пианиста и автора комментариев к шубертовской серии Hyperion, — как поэт он уступал себе самому как критику и переводчику: глубокое понимание литературы не сопровождалось у него природным поэтическим даром. Шуберта это не остановило: тексты Шлегеля появляются у него в домашних опытах 1816 года и в зрелых сочинениях 1818, 1821 и 1825 годов, включая три сонета, переведённых из Петрарки. По мнению Джонсона, именно знакомство со шлегелевским кругом увело композиторский язык Шуберта от беспечного арийного стиля к смелым гармоническим и формальным поискам."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Стихи написаны в 1797 году, в год рождения Шуберта, и напечатаны в 1799-м в «Musen-Almanach für das Jahr 1799» («Альманах муз на 1799 год»), который издавал Шиллер: Тюбинген, книжная лавка Й. Г. Котты, страницы 111–115. Шуберт работал по венскому переизданию — «A. W. Schlegel's poetische Werke» («Поэтические сочинения А. В. Шлегеля»), первая часть, Вена, 1816, у Б. Ф. Бауэра, страницы 51–55; сверку с этим источником выполнил исследователь Петер Растль.\nСтихотворение построено на трёх голосах: лебедь, орёл и голуби говорят по очереди. Разбор на schubertsong.uk обращает внимание, что птицы заняты здесь не природой как таковой: за каждой стоит бог — Аполлон, Юпитер, Венера, — и место птицы в человеческой, античной культуре важнее её повадок."
+  },
+  {
+   "title": "Музыка",
+   "text": "Песня начинается музыкой струящегося ручья; Джонсон слышит в ней предвестие позднейшей «Der Neugierige» («Любопытный»). Глубину озера, по его разбору, слышно в ходе баса от соль к фа-бекару и дальше — к до-мажорному аккорду с ми в басу как раз на слове Spiegel («зеркало»); голос падает там на октаву вниз.\nВ конце второй строки слух ждёт каденции, которая уведёт музыку из главной тональности, а музыка возвращается к исходной гармонии, как лебедь, замыкающий свой круг. Отсюда, по словам Джонсона, короткое дыхание этой музыки, точно передающее тесноту птичьего мира.\nС орлом соль мажор сменяется бурлящим бетховенским скерцо в до миноре и размере 6/8: шестнадцатые изображают взмахи крыльев, а на словах Ich haus' in den felsigen Klüften («Я обитаю в скалистых расщелинах») держится долгая доминантовая педаль с рокотом басовых октав.\nГолуби поют в ми-бемоль мажоре и в размере 4/4 — против 2/4 у лебедя; мелодия шире, обороты фразы ласковее, а на словах Suchen und irren, finden und girren («Ищем и блуждаем, находим и воркуем») музыка воспроизводит птичье воркование. В домашнем тоне этой части Джонсон узнаёт другую песню того же 1816 года — «An mein Clavier» («К моему клавиру»), особенно в каденции на первом появлении слов Wunsch und Genuss («Желание и наслаждение»).\nИз всех положенных Шубертом стихов Августа фон Шлегеля только эти, замечает Джонсон, напоминают «Abendröte» («Вечерняя заря») — цикл его младшего брата Фридриха. И ещё одна догадка Джонсона: в «Lebens-Melodien» ему слышится песня для Терезы Гроб. Мораль истории — счастье с любимым спутником, на манер птицелова Папагено, есть высшее благо жизни; такие чувства занимали Шуберта в 1816 году и вылились в тетрадь песен для Терезы Гроб, дочери булочника, составленную в ноябре того же года."
+  },
+  {
+   "title": "Три птицы и три бога",
+   "text": "Форма стихотворения близка «Abendröte» Фридриха фон Шлегеля, но задачи у братьев разные: Фридрих вслушивается в спорящие, порой режущие слух голоса природы на закате, а Август разводит три птичьи «мелодии» как отдельные притчи о месте живого существа в человеческой культуре — так читает стихотворение разбор на schubertsong.uk.\nЛебедь Шлегеля лишён свирепости настоящей птицы: он безмятежно разглядывает своё отражение или тоскует по небесному дому. Вода, по которой он плывёт, — мифическая река Темпе, текущая с самого Олимпа; там лебедь льнёт к ногам Аполлона и вспоминает, как в него вошёл Зевс, чтобы соблазнить Леду. От этого союза родились Елена и близнецы Кастор и Поллукс. Потом начинается его собственная предсмертная песнь.\nОрёл остаётся в воздухе. Его владения — тучи, грозы и молнии, хозяйство Зевса-Юпитера; в мифе о Ганимеде он служит богу орудием, а по некоторым пересказам, в том числе у Овидия, сам Зевс входил в орла, чтобы схватить юношу. Дождавшись вершины своей службы, орёл, как лебедь у ног Аполлона, обращается к солнцу и, предчувствуя смерть, видит себя фениксом, готовым сгореть и возродиться.\nГолубям не досталось ни воды, ни воздуха: они живут в зарослях мирта. Их божество — Венера: солнце-Аполлон едет по небу на колеснице, а колесницу богини любви везут голуби. Птицы довольны своей службой и говорят, что были бы рады стать и жертвой на её алтаре."
+  },
+  {
+   "title": "Готовность к гибели",
+   "text": "Каждая птица довольна своим тесным миром, где ей дано прикоснуться к хтонической или божественной силе; переполненные этой силой, все три с готовностью принимают собственное уничтожение — в этом, по разбору на schubertsong.uk, и состоит послание умирающей песни лебедя.\nПривычку приписывать животным человеческие чувства критик Рёскин в середине XIX века назвал pathetic fallacy («патетическим заблуждением»). Джонсон напоминает об этом, но у братьев Шлегелей, по его словам, природа взята как серьёзная метафора: она говорит о людской суетности рядом с невинностью и грацией природного мира, и поведение птиц служит укором человеку, мнящему себя выше своего удела."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Всего Шуберт положил на музыку десять текстов Августа Вильгельма фон Шлегеля, а если считать все редакции по отдельности — двенадцать сочинений; так подсчитывает schubertlied.de.\nВ шубертовской серии Hyperion песня попала в том 27 «Schubert & the Schlegels» («Шуберт и Шлегели»), где собраны и другие сочинения на слова Августа фон Шлегеля — «Sprache der Liebe» D 410, три сонета D 628–630, «Lob der Tränen» D 711, «Wiedersehn» D 855, «Abendlied für die Entfernte» D 856 — рядом с песнями на стихи Фридриха."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Лучшая запись — Маттиас Гёрне (баритон) и Грэм Джонсон (фортепиано), 1995 год, том 27 шубертовской серии Hyperion (CDJ33027, издан в ноябре 1996-го): певец в начале своего расцвета и подробно откомментированное издание.\nРядом — Флориан Бёш (баритон) и Буркхард Керинг (фортепиано), запись 2008 года из серии Naxos «Romantic Poets, Vol. 4» («Поэты-романтики», выпуск 4; 8.570067): ранний Бёш, ровная и внимательная работа.\nВерсии с гитарным сопровождением в этот ряд не входят: песня написана для фортепиано."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
