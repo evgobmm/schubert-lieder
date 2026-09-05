@@ -127,9 +127,16 @@ for (const d of ds) {
   // 1. сайты-справочники
   const slIdx = schubertliedIndex(outDir);
   const fromIndex = slIdx[String(d)] ? ['https://www.schubertlied.de' + slIdx[String(d)]] : [];
+  // ручные слаги для песен с нестандартным адресом на сайте (находки source-hunt; урок D 857/1-2, 05.09)
+  const SLUG_OVERRIDE = {
+    '857/1': { 'schubertsong.uk': 'zwei-szenen-aus-dem-schauspiel-lacrimas-lied-der-delphine' },
+    '857/2': { 'schubertsong.uk': 'zwei-szenen-aus-dem-schauspiel-lacrimas-lied-des-florio' },
+  };
+  const ov = SLUG_OVERRIDE[String(d)] || {};
+  const ovUrl = (site) => (ov[site] ? [`https://www.${site === 'schubertsong.uk' ? 'schubertsong.uk/text' : 'schubertlied.de/die-lieder'}/${ov[site]}/`] : []);
   const candidates = {
     'schubertlied.de': [...fromIndex, `https://www.schubertlied.de/die-lieder/${kebabPlain(title)}-d${d}`, `https://www.schubertlied.de/die-lieder/${kebab(title)}-d${d}`],
-    'schubertsong.uk': [`https://www.schubertsong.uk/text/${kebabPlain(title)}/`, `https://www.schubertsong.uk/text/${kebab(title)}/`],
+    'schubertsong.uk': [...ovUrl('schubertsong.uk'), `https://www.schubertsong.uk/text/${kebabPlain(title)}/`, `https://www.schubertsong.uk/text/${kebab(title)}/`],
   };
   if (!ONLY || ONLY === 'web') for (const [name, urls] of Object.entries(candidates)) {
     let got = null;
