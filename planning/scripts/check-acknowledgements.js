@@ -16,7 +16,8 @@ const IGNORE = new Set(['github.com', 'github.io', 'google.com', 'youtube.com', 
   'web.archive.org', 'doi.org', 'books.google.com', 'api.digitale-sammlungen.de']);
 // алиасы: поддомен → запись в реестре
 const ALIAS = {
-  'de.wikipedia.org': 'wikipedia', 'en.wikipedia.org': 'wikipedia', 'ru.wikipedia.org': 'wikipedia',
+  'de.wikipedia.org': 'wikipedia', 'en.wikipedia.org': 'wikipedia', 'ru.wikipedia.org': 'wikipedia', 'hu.wikipedia.org': 'wikipedia', 'fr.wikipedia.org': 'wikipedia', 'it.wikipedia.org': 'wikipedia',
+  'books.google.at': 'books.google', 'books.google.de': 'books.google',
   'de.wikisource.org': 'wikisource', 'ru.wikisource.org': 'wikisource', 'en.wikisource.org': 'wikisource',
   'translate.academic.ru': 'academic.ru', 'dic.academic.ru': 'academic.ru',
   'www.dwds.de': 'dwds.de', 'open.edu': 'openlearn', 'onb.digital': 'onb',
