@@ -1,9 +1,16 @@
 {
  "d": "77",
  "title_de": "Der Taucher",
+ "title_ru": "Ныряльщик",
+ "poet_de": "Friedrich Schiller",
+ "poet_ru": "Фридрих Шиллер",
  "year": "1813",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Заглавие — от Шиллера. Баллада «Der Taucher» («Ныряльщик») написана 15 июня 1797 года и в конце того же года напечатана в «Musen-Almanach für das Jahr 1798» («Альманах муз на 1798 год»), который редактировал сам поэт; в оглавлении альманаха она — одна из пяти вещей Шиллера, прямо названных балладами."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -13,6 +20,235 @@
     "Verschlungen schon hat ihn der schwarze Mund.",
     "Wer mir den Becher kann wieder zeigen,",
     "Er mag ihn behalten, er ist sein eigen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "wagt",
+       "ru": "дерзнёт"
+      },
+      {
+       "de": "es",
+       "ru": "на это,"
+      },
+      {
+       "de": "Rittersmann",
+       "ru": "рыцарь"
+      },
+      {
+       "de": "oder",
+       "ru": "или"
+      },
+      {
+       "de": "Knapp,",
+       "ru": "оруженосец,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "Rittersmann — то же, что Ritter («рыцарь»), с усилительным -mann; Knapp — усечённое Knappe, оруженосец при рыцаре. Король нарочно зовёт обоих: и старшего по сословию, и младшего."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zu tauchen",
+       "ru": "Нырнуть"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "diesen",
+       "ru": "это"
+      },
+      {
+       "de": "Schlund?",
+       "ru": "жерло?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Schlund буквально — «глотка, зев». Это первое из четырёх слов, которыми в балладе названа воронка Харибды: дальше будут Mund («уста»), Rachen («пасть») и Wasserschlund («водное жерло»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Einen goldnen",
+       "ru": "Золотой"
+      },
+      {
+       "de": "Becher",
+       "ru": "кубок"
+      },
+      {
+       "de": "werf",
+       "ru": "брошу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "hinab,",
+       "ru": "вниз,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Малколм Рен на сайте Schubertsong считает не случайным сходство этого зачина с «Der König in Thule» («Королём в Фуле») Гёте — песней Гретхен из «Фауста», которую Шуберт положил на музыку как D 367. Там король тоже бросает золотой кубок в море. Но у Гёте кубок — память об умершей возлюбленной, а у Шиллера, по словам Рена, это повесть о злонамеренной жестокости."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "schon",
+       "ru": "Уже"
+      },
+      {
+       "de": "Verschlungen... hat",
+       "ru": "поглотили"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "der schwarze",
+       "ru": "чёрные"
+      },
+      {
+       "de": "Mund.",
+       "ru": "уста."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Рамка Verschlungen … hat (verschlingen — «поглотить»): вспомогательный глагол стоит на втором месте, а смысловая часть, причастие, вынесена в начало строки — оттого удар приходится на самое действие."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Mund — «уста»: морская воронка получает человеческий рот. То же слово вернётся в девятой строфе, где весть о гибели пойдёт «из уст в уста»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "den Becher",
+       "ru": "кубок"
+      },
+      {
+       "de": "kann",
+       "ru": "сможет"
+      },
+      {
+       "de": "wieder",
+       "ru": "снова"
+      },
+      {
+       "de": "zeigen,",
+       "ru": "показать,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "mag",
+       "ru": "Пусть"
+      },
+      {
+       "de": "Er",
+       "ru": "он"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "behalten,",
+       "ru": "оставит себе,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "sein",
+       "ru": "его"
+      },
+      {
+       "de": "eigen.",
+       "ru": "собственность."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "mögen здесь — уступительное «пусть», без всякого «любить»: король заранее отдаёт кубок тому, кто сумеет его достать."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "sein eigen — устойчивый оборот «его собственное»: eigen стоит именной частью сказуемого, определения при существительном здесь нет."
+      }
+     ]
+    }
    ]
   },
   {
@@ -23,6 +259,202 @@
     "Den Becher in der Charybde Geheul.",
     "Wer ist der Beherzte, ich frage wieder,",
     "Zu tauchen in diese Tiefe nieder?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der König",
+       "ru": "Король"
+      },
+      {
+       "de": "spricht",
+       "ru": "говорит"
+      },
+      {
+       "de": "es,",
+       "ru": "это,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "wirft",
+       "ru": "бросает"
+      },
+      {
+       "de": "von",
+       "ru": "с"
+      },
+      {
+       "de": "der Höh",
+       "ru": "высоты"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Klippe,",
+       "ru": "Утёса,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "schroff",
+       "ru": "круто"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "steil",
+       "ru": "отвесно"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Der Klippe — родительный падеж при Höh из предыдущей строки: «с высоты утёса». Фраза перекинута через границу строк, и по-русски её приходится читать так же — с продолжения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "hängt",
+       "ru": "Свисает"
+      },
+      {
+       "de": "Hinaus",
+       "ru": "наружу"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "die unendliche",
+       "ru": "бескрайнее"
+      },
+      {
+       "de": "See,",
+       "ru": "море,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "die See (женского рода) — «море»; der See был бы «озером». Род здесь виден по артиклю и по форме прилагательного."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Den Becher",
+       "ru": "Кубок"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Geheul",
+       "ru": "вой"
+      },
+      {
+       "de": "der Charybde.",
+       "ru": "Харибды."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Харибда — водоворот у сицилийского берега Мессинского пролива. У Гомера (двенадцатая книга «Одиссеи») она стоит в паре со Сциллой, скалой напротив; Шиллер, как отмечает Малколм Рен, Сциллу не называет вовсе — бездна в балладе остаётся одна."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "der Beherzte,",
+       "ru": "отважный,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "frage",
+       "ru": "спрашиваю"
+      },
+      {
+       "de": "wieder,",
+       "ru": "снова,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Zu tauchen",
+       "ru": "Нырнуть"
+      },
+      {
+       "de": "nieder?",
+       "ru": "вниз"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "diese",
+       "ru": "эту"
+      },
+      {
+       "de": "Tiefe",
+       "ru": "пучину?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "nieder — отделяемая приставка, отброшенная в конец строки: tauchen … nieder значит «погрузиться вниз», и переводить её надо в связке с глаголом, а не отдельным словом-указателем."
+      }
+     ]
+    }
    ]
   },
   {
@@ -33,6 +465,185 @@
     "Und keiner den Becher gewinnen will.",
     "Und der König zum drittenmal wieder fraget:",
     "Ist keiner, der sich hinunter waget?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "die Ritter,",
+       "ru": "рыцари,"
+      },
+      {
+       "de": "die Knappen",
+       "ru": "оруженосцы"
+      },
+      {
+       "de": "um... her",
+       "ru": "вокруг"
+      },
+      {
+       "de": "ihn",
+       "ru": "него,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "um … her — рамка «вокруг»: her в ней теряет собственное значение направления «сюда» и переводится вместе с предлогом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Слышат это",
+       "de": "Vernehmens"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "молчат,",
+       "de": "schweigen"
+      },
+      {
+       "ru": "притихнув,",
+       "de": "still,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Vernehmens = vernehmen es: местоимение прирастает к глаголу и на письме сливается с ним. Vernehmen около 1800 года — книжное «услышать, воспринять», без нынешнего судейского оттенка «допросить»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sehen",
+       "ru": "Глядят"
+      },
+      {
+       "de": "hinab",
+       "ru": "вниз"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "das wilde",
+       "ru": "дикое"
+      },
+      {
+       "de": "Meer,",
+       "ru": "море,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "keiner",
+       "ru": "никто"
+      },
+      {
+       "de": "den Becher",
+       "ru": "кубок"
+      },
+      {
+       "de": "gewinnen",
+       "ru": "добыть"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "will.",
+       "ru": "хочет."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der König",
+       "ru": "король"
+      },
+      {
+       "de": "zum drittenmal",
+       "ru": "в третий раз"
+      },
+      {
+       "de": "wieder",
+       "ru": "снова"
+      },
+      {
+       "de": "fraget:",
+       "ru": "вопрошает:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "keiner,",
+       "ru": "Никого"
+      },
+      {
+       "de": "Ist",
+       "ru": "нет,"
+      },
+      {
+       "de": "der",
+       "ru": "кто"
+      },
+      {
+       "de": "sich... waget?",
+       "ru": "отважится"
+      },
+      {
+       "de": "hinunter",
+       "ru": "вниз?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Ist keiner — буквально «нет никого»: отрицание в немецком несёт одно слово keiner, по-русски нужны два — «никого» и «нет»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -43,6 +654,215 @@
     "Und den Gürtel wirft er, den Mantel weg,",
     "Und alle die Männer umher und Frauen",
     "Auf den herrlichen Jüngling verwundert schauen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Но",
+       "de": "Doch"
+      },
+      {
+       "ru": "всё",
+       "de": "alles"
+      },
+      {
+       "ru": "остаётся",
+       "de": "bleibt"
+      },
+      {
+       "ru": "ещё",
+       "de": "noch"
+      },
+      {
+       "ru": "немым,",
+       "de": "stumm"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "прежде,",
+       "de": "zuvor,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "stumm — «лишённый дара речи», расширительно «безмолвный». Немцы говорят так и о человеке, и о месте; здесь молчит вся толпа разом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "ein Edelknecht,",
+       "ru": "паж,"
+      },
+      {
+       "de": "sanft",
+       "ru": "кроткий"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "keck,",
+       "ru": "дерзкий,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Edelknecht — сложение edel («знатный») и Knecht («слуга»): отрок знатного рода на службе при дворе, ступенью ниже оруженосца. Русское «паж» ближе всего к этому положению."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Выходит",
+       "de": "Tritt"
+      },
+      {
+       "ru": "из",
+       "de": "aus"
+      },
+      {
+       "ru": "робеющей",
+       "de": "zagendem"
+      },
+      {
+       "ru": "толпы",
+       "de": "Chor,"
+      },
+      {
+       "ru": "оруженосцев,",
+       "de": "der Knappen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Chor около 1800 года — не только «хор поющих»: у Гриммов отдельно выделен смысл «круг, вереница, множество», без всякой связи с пением. Здесь никто не поёт — это сомкнутая толпа оруженосцев."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "wirft... weg,",
+       "ru": "сбрасывает прочь"
+      },
+      {
+       "de": "den Gürtel",
+       "ru": "пояс,"
+      },
+      {
+       "de": "den Mantel",
+       "ru": "плащ,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Рамка wirft … weg (wegwerfen — «отбросить») разорвана двумя дополнениями сразу: пояс отлетает в середине строки, плащ — в самом её конце."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "alle",
+       "ru": "все"
+      },
+      {
+       "de": "die Männer",
+       "ru": "мужчины"
+      },
+      {
+       "de": "umher",
+       "ru": "вокруг"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Frauen",
+       "ru": "женщины"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "den herrlichen",
+       "ru": "великолепного"
+      },
+      {
+       "de": "Jüngling",
+       "ru": "юношу"
+      },
+      {
+       "de": "verwundert",
+       "ru": "изумлённо"
+      },
+      {
+       "de": "schauen.",
+       "ru": "глядят."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Jüngling — «юноша»: у сегодняшнего слова есть насмешливый оттенок разговора о незрелом человеке, в текстах начала XIX века его нет, слово высокое и серьёзное."
+      }
+     ]
+    }
    ]
   },
   {
@@ -53,6 +873,193 @@
     "Die Charybde jetzt brüllend wiedergab,",
     "Und wie mit des fernen Donners Getose",
     "Entstürzen sie schäumend dem finstern Schoose."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "tritt",
+       "ru": "ступает"
+      },
+      {
+       "de": "an",
+       "ru": "на"
+      },
+      {
+       "de": "Hang,",
+       "ru": "склон"
+      },
+      {
+       "de": "des Felsen",
+       "ru": "скалы,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "des Felsen — родительный падеж единственного числа, а не множественное: «склон скалы». Форма Felsen обманчива, число решает артикль."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "blickt",
+       "ru": "глядит"
+      },
+      {
+       "de": "hinab,",
+       "ru": "вниз"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den Schlund",
+       "ru": "жерло,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Wasser,",
+       "ru": "Воды,"
+      },
+      {
+       "de": "die",
+       "ru": "которые"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "hinunter",
+       "ru": "вниз"
+      },
+      {
+       "de": "schlang,",
+       "ru": "проглотила,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "sie — это Харибда, названная только в следующей строке: сначала действие, потом имя того, кто действует. По-русски порядок сохранён."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Харибда",
+       "de": "Die Charybde"
+      },
+      {
+       "ru": "теперь",
+       "de": "jetzt"
+      },
+      {
+       "ru": "с рёвом",
+       "de": "brüllend"
+      },
+      {
+       "ru": "отдала обратно,",
+       "de": "wiedergab,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Getose",
+       "ru": "грохотом"
+      },
+      {
+       "de": "des fernen",
+       "ru": "дальнего"
+      },
+      {
+       "de": "Donners",
+       "ru": "грома"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Низвергаются",
+       "de": "Entstürzen"
+      },
+      {
+       "ru": "они,",
+       "de": "sie"
+      },
+      {
+       "ru": "пенясь,",
+       "de": "schäumend"
+      },
+      {
+       "ru": "из мрачного",
+       "de": "dem finstern"
+      },
+      {
+       "ru": "лона.",
+       "de": "Schoose."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Schoose — старое написание Schoß («лоно»); при entstürzen оно стоит в дательном падеже без предлога, и по-русски требуется «из». Двойное o тут не даёт спутать существительное с претеритом schoss («выстрелил»)."
+      }
+     ]
+    }
    ]
   },
   {
@@ -63,6 +1070,238 @@
     "Und Flut auf Flut sich ohn Ende drängt,",
     "Und will sich nimmer erschöpfen und leeren,",
     "Als wollte das Meer noch ein Meer gebähren."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "es wallet",
+       "ru": "бурлит"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "siedet",
+       "ru": "кипит"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "brauset",
+       "ru": "бушует"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "zischt,",
+       "ru": "шипит,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "wallen — движение большой массы воды, ходящей ходуном; кухонное «кипятить» сюда не подходит. Безличное es при нём подлежащего-слова не даёт: по-русски глагол просто остаётся без подлежащего."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        5,
+        7
+       ],
+       "text": "С этой строки начинается до-минорная музыка водоворота, которую Грэм Джонсон называет главной опорой всей песни. Она вернётся в двенадцатой строфе и в последний раз явится в финале, переведённая в ре минор."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "wenn",
+       "ru": "когда"
+      },
+      {
+       "de": "Wasser",
+       "ru": "вода"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Feuer",
+       "ru": "огнём"
+      },
+      {
+       "de": "sich mengt,",
+       "ru": "смешивается,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Bis",
+       "ru": "До"
+      },
+      {
+       "de": "zum Himmel",
+       "ru": "неба"
+      },
+      {
+       "de": "sprützet",
+       "ru": "брызжет"
+      },
+      {
+       "de": "der dampfende",
+       "ru": "дымящаяся"
+      },
+      {
+       "de": "Gischt,",
+       "ru": "пена,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "sprützet — написание эпохи для spritzt («брызжет»); окончание -et у Шиллера обычно и в настоящем времени, оно добавляет строке лишний слог."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "Flut",
+       "ru": "поток"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Flut",
+       "ru": "поток"
+      },
+      {
+       "de": "ohn",
+       "ru": "без"
+      },
+      {
+       "de": "Ende",
+       "ru": "конца"
+      },
+      {
+       "de": "sich... drängt,",
+       "ru": "напирает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Fluth около 1800 года — просто движущаяся вода, волна или поток; нынешние первые значения «прилив» и «наводнение» сюда не годятся."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "nimmer",
+       "ru": "никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "will",
+       "ru": "хочет"
+      },
+      {
+       "de": "sich... erschöpfen",
+       "ru": "иссякнуть"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "leeren,",
+       "ru": "опустеть,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Als",
+       "ru": "Словно"
+      },
+      {
+       "de": "wollte",
+       "ru": "хотело"
+      },
+      {
+       "de": "das Meer",
+       "ru": "море"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "ein Meer",
+       "ru": "одно море"
+      },
+      {
+       "de": "gebähren.",
+       "ru": "породить."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "gebähren — написание эпохи для gebären («рождать»). Als wollte с конъюнктивом — «словно бы хотело»: сравнение, а не утверждение."
+      }
+     ]
+    }
    ]
   },
   {
@@ -73,6 +1312,198 @@
     "Grundlos als giengs in den Höllenraum,",
     "Und reissend sieht man die brandenden Wogen",
     "Hinab in den strudelnden Trichter gezogen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Но",
+       "de": "Doch"
+      },
+      {
+       "ru": "наконец",
+       "de": "endlich,"
+      },
+      {
+       "ru": "тут",
+       "de": "da"
+      },
+      {
+       "ru": "унимается",
+       "de": "legt sich"
+      },
+      {
+       "ru": "дикая",
+       "de": "die wilde"
+      },
+      {
+       "ru": "сила,",
+       "de": "Gewalt,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Gewalt — не «насилие», как слышится сегодня: у Аделунга первое значение — превосходящая мощь, сила, берущая верх."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "schwarz",
+       "ru": "чёрная"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem weißen",
+       "ru": "белой"
+      },
+      {
+       "de": "Schaum",
+       "ru": "пены"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Klafft",
+       "ru": "Зияет"
+      },
+      {
+       "de": "hinunter",
+       "ru": "вниз"
+      },
+      {
+       "de": "ein gähnender",
+       "ru": "разверстая"
+      },
+      {
+       "de": "Spalt,",
+       "ru": "щель,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Расселину Шуберт рисует, по описанию Грэма Джонсона, пустым аккордом из зловеще широко разведённых целых нот в до-бемоль мажоре."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Grundlos",
+       "ru": "Бездонная,"
+      },
+      {
+       "de": "als",
+       "ru": "будто"
+      },
+      {
+       "de": "giengs",
+       "ru": "уходила"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den Höllenraum,",
+       "ru": "адские глубины,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "giengs = ginge es, конъюнктив в написании эпохи: «будто бы уходило». Höllenraum — сложение Hölle («ад») и Raum («пространство»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sieht man",
+       "ru": "видно,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "die brandenden",
+       "ru": "прибойные"
+      },
+      {
+       "de": "Wogen",
+       "ru": "валы"
+      },
+      {
+       "de": "reissend",
+       "ru": "стремительно"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "sieht man … gezogen — оборот с двойным дополнением, растянутый на две строки: «видно, как валы увлекает вниз». Причастие, которое замыкает конструкцию, стоит в самом конце следующей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "gezogen.",
+       "ru": "Увлекает"
+      },
+      {
+       "de": "Hinab",
+       "ru": "вниз"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den strudelnden",
+       "ru": "крутящуюся"
+      },
+      {
+       "de": "Trichter",
+       "ru": "воронку."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -83,6 +1514,185 @@
     "Und schon hat ihn der Wirbel hinweggespült,",
     "Und geheimnißvoll über dem kühnen Schwimmer",
     "Schließt sich der Rachen, er zeigt sich nimmer."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Jetzt",
+       "ru": "Теперь"
+      },
+      {
+       "de": "schnell,",
+       "ru": "быстро,"
+      },
+      {
+       "de": "eh",
+       "ru": "прежде чем"
+      },
+      {
+       "de": "die Brandung",
+       "ru": "прибой"
+      },
+      {
+       "de": "wiederkehrt,",
+       "ru": "вернётся,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Jüngling",
+       "ru": "Юноша"
+      },
+      {
+       "de": "sich",
+       "ru": "себя"
+      },
+      {
+       "de": "Gott",
+       "ru": "Богу"
+      },
+      {
+       "de": "befiehlt,",
+       "ru": "вверяет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "sich Gott befehlen — возвратный оборот «вверить себя Богу»: sich в винительном падеже, Gott в дательном. Глагол здесь в старом значении «поручать», а не «приказывать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und –",
+       "ru": "И —"
+      },
+      {
+       "de": "ein Schrey",
+       "ru": "крик"
+      },
+      {
+       "de": "des Entsetzens",
+       "ru": "ужаса"
+      },
+      {
+       "de": "wird... gehört,",
+       "ru": "слышен"
+      },
+      {
+       "de": "rings",
+       "ru": "кругом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Schrey — написание эпохи для Schrei («крик»): y на месте нынешнего i у Шиллера встречается постоянно, ср. Bey и seyn дальше в балладе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "schon",
+       "ru": "уже"
+      },
+      {
+       "de": "hat... hinweggespült,",
+       "ru": "смыл прочь"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "der Wirbel",
+       "ru": "водоворот,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "geheimnißvoll",
+       "ru": "таинственно"
+      },
+      {
+       "de": "über",
+       "ru": "над"
+      },
+      {
+       "de": "dem kühnen",
+       "ru": "отважным"
+      },
+      {
+       "de": "Schwimmer",
+       "ru": "пловцом"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schließt sich",
+       "ru": "Смыкается"
+      },
+      {
+       "de": "der Rachen,",
+       "ru": "пасть,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "nimmer.",
+       "ru": "больше"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "zeigt sich",
+       "ru": "показывается."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "nimmer у поэтов эпохи часто равно nicht mehr — «уже не», простое отрицание продолжения, а не громкое «никогда». Здесь именно так: он больше не покажется."
+      }
+     ]
+    }
    ]
   },
   {
@@ -93,6 +1703,205 @@
     "Hochherziger Jüngling, fahre wohl!",
     "Und hohler und hohler hört mans heulen,",
     "Und es harrt noch mit bangem, mit schrecklichem Weilen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "stille",
+       "ru": "тихо"
+      },
+      {
+       "de": "wirds",
+       "ru": "становится"
+      },
+      {
+       "de": "über",
+       "ru": "над"
+      },
+      {
+       "de": "dem Wasserschlund,",
+       "ru": "водным жерлом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "wirds = wird es. Форма stille тут прилагательное при глаголе становления («делается тихо»), а не существительное die Stille («тишина»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "der Tiefe",
+       "ru": "пучине"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "brauset es",
+       "ru": "бушует"
+      },
+      {
+       "de": "hohl,",
+       "ru": "глухо,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "с трепетом",
+       "de": "bebend"
+      },
+      {
+       "ru": "слышно",
+       "de": "hört man"
+      },
+      {
+       "ru": "из",
+       "de": "von"
+      },
+      {
+       "ru": "уст",
+       "de": "Mund"
+      },
+      {
+       "ru": "в",
+       "de": "zu"
+      },
+      {
+       "ru": "уста:",
+       "de": "Mund:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hochherziger",
+       "ru": "Великодушный"
+      },
+      {
+       "de": "Jüngling,",
+       "ru": "юноша,"
+      },
+      {
+       "de": "fahre wohl!",
+       "ru": "прощай!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "fahre wohl — старинная прощальная формула, идущая от широкого смысла глагола fahren («двигаться, отправляться»): доброго тебе пути. По-русски ей отвечает простое «прощай»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "всё"
+      },
+      {
+       "de": "hohler",
+       "ru": "глуше"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "hohler",
+       "ru": "глуше"
+      },
+      {
+       "de": "hört mans",
+       "ru": "слышно,"
+      },
+      {
+       "de": "heulen,",
+       "ru": "как воет,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "ждут",
+       "de": "es harrt"
+      },
+      {
+       "ru": "ещё",
+       "de": "noch"
+      },
+      {
+       "ru": "в",
+       "de": "mit"
+      },
+      {
+       "ru": "тревожном,",
+       "de": "bangem,"
+      },
+      {
+       "ru": "в",
+       "de": "mit"
+      },
+      {
+       "ru": "страшном",
+       "de": "schrecklichem"
+      },
+      {
+       "ru": "промедлении.",
+       "de": "Weilen."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "es harrt — безличное «ожидание длится»: кто ждёт, не сказано, ждёт весь берег. Weilen — субстантивированный глагол weilen («медлить, пребывать»)."
+      }
+     ]
+    }
    ]
   },
   {
@@ -103,6 +1912,222 @@
     "Mich gelüstete nicht nach dem theuren Lohn,",
     "Was die heulende Tiefe da unten verhehle,",
     "Das erzählt keine lebende glückliche Seele."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wärfst",
+       "ru": "бросил бы"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "die Krone",
+       "ru": "корону"
+      },
+      {
+       "de": "selber",
+       "ru": "саму"
+      },
+      {
+       "de": "hinein,",
+       "ru": "туда,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "wärfst — конъюнктив от werfen: «даже если бы бросил». Вся строфа — уступительное условие, ответ на которое придёт в последних двух строках."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sprächst:",
+       "ru": "сказал бы:"
+      },
+      {
+       "de": "wer",
+       "ru": "кто"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "bringet",
+       "ru": "принесёт"
+      },
+      {
+       "de": "die Kron’,",
+       "ru": "корону,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Тот"
+      },
+      {
+       "de": "soll",
+       "ru": "пусть"
+      },
+      {
+       "de": "sie",
+       "ru": "её"
+      },
+      {
+       "de": "tragen",
+       "ru": "носит"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "König",
+       "ru": "королём"
+      },
+      {
+       "de": "seyn,",
+       "ru": "будет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "seyn — написание эпохи для sein («быть»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "gelüstete",
+       "ru": "влекла бы"
+      },
+      {
+       "de": "Mich",
+       "ru": "меня"
+      },
+      {
+       "de": "nach dem theuren",
+       "ru": "дорогая"
+      },
+      {
+       "de": "Lohn,",
+       "ru": "награда,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "mich gelüstet nach etwas — безличный оборот: желание не принадлежит человеку, оно на него находит. Здесь глагол в конъюнктиве: «не соблазнила бы»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Was",
+       "ru": "Что"
+      },
+      {
+       "de": "die heulende",
+       "ru": "воющая"
+      },
+      {
+       "de": "Tiefe",
+       "ru": "пучина"
+      },
+      {
+       "de": "da",
+       "ru": "там"
+      },
+      {
+       "de": "unten",
+       "ru": "внизу"
+      },
+      {
+       "de": "verhehle,",
+       "ru": "таит,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Das",
+       "ru": "Того"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "erzählt",
+       "ru": "расскажет"
+      },
+      {
+       "de": "keine",
+       "ru": "ни одна"
+      },
+      {
+       "de": "lebende",
+       "ru": "живая"
+      },
+      {
+       "de": "glückliche",
+       "ru": "счастливая"
+      },
+      {
+       "de": "Seele.",
+       "ru": "душа."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        6
+       ],
+       "text": "Сцену сомневающейся толпы — эту строфу и две следующие — Шуберт в первой редакции решил лирически, в ариозном письме; Грэм Джонсон замечает, что драматического действия от такого решения выходит мало. Во второй редакции эта сцена написана иначе."
+      }
+     ]
+    }
    ]
   },
   {
@@ -113,6 +2138,218 @@
     "Hervor aus dem alles verschlingenden Grab.",
     "Und heller und heller wie Sturmes Sausen",
     "Hört mans näher und immer näher brausen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Верно,"
+      },
+      {
+       "de": "manches",
+       "ru": "не одно"
+      },
+      {
+       "de": "Fahrzeug,",
+       "ru": "судно,"
+      },
+      {
+       "de": "vom Strudel",
+       "ru": "водоворотом"
+      },
+      {
+       "de": "gefaßt,",
+       "ru": "схваченное,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "manch стоит при существительном в единственном числе, а говорит о множестве: «не одно судно» — то есть многие. Русское «многие суда» тут сбило бы счёт, немецкий строй считает поштучно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Неслось",
+       "de": "Schoß"
+      },
+      {
+       "ru": "стремглав",
+       "de": "gäh"
+      },
+      {
+       "ru": "вниз",
+       "de": "hinab,"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "пучину,",
+       "de": "die Tiefe"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "gäh — старая форма jäh («отвесно, стремглав»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "zerschmettert",
+       "ru": "разбитыми"
+      },
+      {
+       "de": "rangen sich",
+       "ru": "выбивались"
+      },
+      {
+       "de": "Kiel",
+       "ru": "киль"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Mast,",
+       "ru": "мачта,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "rangen sich … hervor — рамка sich hervorringen («с трудом выбраться наружу»), разорванная границей строки: приставка ждёт в начале следующей."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hervor",
+       "ru": "Наружу"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem alles",
+       "ru": "всё"
+      },
+      {
+       "de": "verschlingenden",
+       "ru": "поглощающей"
+      },
+      {
+       "de": "Grab.",
+       "ru": "могилы."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "heller",
+       "ru": "звонче"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "heller",
+       "ru": "звонче"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "Sausen",
+       "ru": "свист"
+      },
+      {
+       "de": "Sturmes",
+       "ru": "бури"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "hell при словах о звуке — «звонкий, громкий, пронзительный», а не «светлый»: исходный смысл слова именно звуковой, и сегодняшний глаз тянется к свету напрасно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hört mans",
+       "ru": "Слышно,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "näher",
+       "ru": "ближе"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "immer",
+       "ru": "всё"
+      },
+      {
+       "de": "näher",
+       "ru": "ближе"
+      },
+      {
+       "de": "brausen.",
+       "ru": "бушует."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -123,6 +2360,200 @@
     "Und Well’ auf Well’ sich ohn Ende drängt,",
     "Und wie mit des fernen Donners Getose",
     "Entstürzt es brüllend dem finstern Schoose."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "es wallet",
+       "ru": "бурлит"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "siedet",
+       "ru": "кипит"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "brauset",
+       "ru": "бушует"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "zischt,",
+       "ru": "шипит,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Строфа повторяет шестую почти дословно, и музыка возвращается вместе со словами: та же до-минорная картина водоворота, которую Грэм Джонсон считает главной опорой песни."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "wenn",
+       "ru": "когда"
+      },
+      {
+       "de": "Wasser",
+       "ru": "вода"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Feuer",
+       "ru": "огнём"
+      },
+      {
+       "de": "sich mengt,",
+       "ru": "смешивается,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Bis",
+       "ru": "До"
+      },
+      {
+       "de": "zum Himmel",
+       "ru": "неба"
+      },
+      {
+       "de": "sprützet",
+       "ru": "брызжет"
+      },
+      {
+       "de": "der dampfende",
+       "ru": "дымящаяся"
+      },
+      {
+       "de": "Gischt,",
+       "ru": "пена,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "Well’",
+       "ru": "волна"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Well’",
+       "ru": "волну"
+      },
+      {
+       "de": "ohn",
+       "ru": "без"
+      },
+      {
+       "de": "Ende",
+       "ru": "конца"
+      },
+      {
+       "de": "sich... drängt,",
+       "ru": "напирает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "В шестой строфе здесь стояло Flut auf Flut, теперь — Well’ auf Well’. Оба слова о волне, но Welle — отдельный вал, а Fluth — вода, взятая целым потоком."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Getose",
+       "ru": "грохотом"
+      },
+      {
+       "de": "des fernen",
+       "ru": "дальнего"
+      },
+      {
+       "de": "Donners",
+       "ru": "грома"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Низвергается",
+       "de": "Entstürzt es"
+      },
+      {
+       "ru": "с рёвом",
+       "de": "brüllend"
+      },
+      {
+       "ru": "из мрачного",
+       "de": "dem finstern"
+      },
+      {
+       "ru": "лона.",
+       "de": "Schoose."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -133,6 +2564,223 @@
     "Und es rudert mit Kraft und mit emsigem Fleiß,",
     "Und er ists, und hoch in seiner Linken",
     "Schwingt er den Becher mit freudigem Winken."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sieh!",
+       "ru": "гляди!"
+      },
+      {
+       "de": "aus",
+       "ru": "Из"
+      },
+      {
+       "de": "dem finster",
+       "ru": "мрачно"
+      },
+      {
+       "de": "flutenden",
+       "ru": "струящегося"
+      },
+      {
+       "de": "Schooß",
+       "ru": "лона"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Появление ныряльщика Шуберт пишет восходящей хроматикой. Грэм Джонсон уверен, что это место знал Шуман: в его «Belsazar» рука, пишущая на стене, показана тем же приёмом — и раздел там тоже начинается со слов «Und sieh»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Вот"
+      },
+      {
+       "de": "hebet sichs",
+       "ru": "поднимается что-то"
+      },
+      {
+       "de": "schwanenweiß,",
+       "ru": "белое, как лебедь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "hebet sichs = hebt es sich: подлежащего-слова нет, из воды поднимается пока безымянное «что-то». Имя ему дадут только через три строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "ein Arm",
+       "ru": "рука,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "ein glänzender",
+       "ru": "блестящий"
+      },
+      {
+       "de": "Nacken",
+       "ru": "затылок"
+      },
+      {
+       "de": "wird bloß",
+       "ru": "открываются"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Arm здесь — существительное «рука», а не прилагательное arm («бедный»): различает артикль. Немецкий глагол при двух подлежащих стоит в единственном числе, по-русски нужно множественное."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "es rudert",
+       "ru": "гребёт"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Kraft",
+       "ru": "силой"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "emsigem",
+       "ru": "усердным"
+      },
+      {
+       "de": "Fleiß,",
+       "ru": "прилежанием,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "er ists,",
+       "ru": "это он,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "hoch",
+       "ru": "высоко"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "seiner Linken",
+       "ru": "своей левой руке"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "die Linke — субстантивированное прилагательное «левая»: слово «рука» немцу договаривать не нужно, по-русски без него не обойтись."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwingt",
+       "ru": "Взмахивает"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "den Becher",
+       "ru": "кубком"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "freudigem",
+       "ru": "радостным"
+      },
+      {
+       "de": "Winken.",
+       "ru": "знаком."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Winken — субстантивированный глагол winken. Сегодня это прежде всего «махать рукой», в текстах эпохи — подавать знак, звать, манить; с берега видят издали, что знак радостный."
+      }
+     ]
+    }
    ]
   },
   {
@@ -143,6 +2791,218 @@
     "Er lebt! Er ist da! Es behielt ihn nicht.",
     "Aus dem Grab, aus der strudelnden Wasserhöhle",
     "Hat der Brave gerettet die lebende Seele."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "athmete",
+       "ru": "дышал"
+      },
+      {
+       "de": "lang",
+       "ru": "долго,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "athmete",
+       "ru": "дышал"
+      },
+      {
+       "de": "tief,",
+       "ru": "глубоко,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "athmete — написание эпохи для atmete («дышал»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Отсюда, с середины баллады, Шиллер впервые переходит на прошедшее время: до этой строфы почти все глаголы стояли в настоящем, и действие разворачивалось прямо на глазах. Малколм Рен отмечает здесь отличие от «Короля в Фуле», где всё рассказано в прошедшем."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "begrüßte",
+       "ru": "приветствовал"
+      },
+      {
+       "de": "das himmlische",
+       "ru": "небесный"
+      },
+      {
+       "de": "Licht.",
+       "ru": "свет."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Благодарственная музыка этого мгновения в первой редакции звучит форте; во второй Шуберт приглушил её, и, как пишет Грэм Джонсон, приглушённое сияние даёт слушателю передышку посреди бури."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit",
+       "ru": "С"
+      },
+      {
+       "de": "Frohlocken",
+       "ru": "ликованием"
+      },
+      {
+       "de": "einer",
+       "ru": "один"
+      },
+      {
+       "de": "dem andern",
+       "ru": "другому"
+      },
+      {
+       "de": "es",
+       "ru": "это"
+      },
+      {
+       "de": "rief,",
+       "ru": "кричал,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "lebt!",
+       "ru": "жив!"
+      },
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "da!",
+       "ru": "здесь!"
+      },
+      {
+       "de": "Es",
+       "ru": "Оно"
+      },
+      {
+       "de": "nicht.",
+       "ru": "не"
+      },
+      {
+       "de": "behielt",
+       "ru": "удержало"
+      },
+      {
+       "de": "ihn",
+       "ru": "его."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Es — среднего рода: это бездна, названная в следующей строке могилой. Имени ей толпа не даёт, хватает местоимения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aus",
+       "ru": "Из"
+      },
+      {
+       "de": "dem Grab,",
+       "ru": "могилы,"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "der strudelnden",
+       "ru": "крутящейся"
+      },
+      {
+       "de": "Wasserhöhle",
+       "ru": "водяной пещеры"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hat... gerettet",
+       "ru": "Спас"
+      },
+      {
+       "de": "der Brave",
+       "ru": "храбрец"
+      },
+      {
+       "de": "die lebende",
+       "ru": "живую"
+      },
+      {
+       "de": "Seele.",
+       "ru": "душу."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "der Brave — субстантивированное прилагательное brav: «храбрый», отсюда «храбрец». Рамка Hat … gerettet охватывает всю строку, и по-русски глагол приходится ставить в начало."
+      }
+     ]
+    }
    ]
   },
   {
@@ -153,6 +3013,209 @@
     "Und der König der lieblichen Tochter winkt,",
     "Die füllt ihn mit funkelndem Wein bis zum Rande,",
     "Und der Jüngling sich also zum König wandte:"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "kommt,",
+       "ru": "идёт,"
+      },
+      {
+       "de": "es umringt",
+       "ru": "окружает"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "die jubelnde",
+       "ru": "ликующая"
+      },
+      {
+       "de": "Schaar,",
+       "ru": "толпа,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "es здесь только держит место подлежащего, пока настоящее подлежащее — die Schaar — не подойдёт в конце строки. По-русски такое es не переводится."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "Эту строфу и следующую, рассказ вернувшегося юноши, Шуберт в первой редакции написал как настоящую арию. Грэм Джонсон считает это неправдоподобным для человека, только что выбравшегося из водоворота, и отмечает, что во второй редакции ария уступила место свободному речитативу, который гонит действие дальше."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zu",
+       "ru": "К"
+      },
+      {
+       "de": "Füßen",
+       "ru": "ногам"
+      },
+      {
+       "de": "des Königs",
+       "ru": "короля"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "sinkt,",
+       "ru": "опускается,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Den Becher",
+       "ru": "Кубок"
+      },
+      {
+       "de": "reicht... dar,",
+       "ru": "подаёт"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "ihm",
+       "ru": "ему,"
+      },
+      {
+       "de": "knieend",
+       "ru": "стоя на коленях,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Becher — не сегодняшний «стаканчик»: около 1800 года это торжественный сосуд, рангом ниже церковного Kelch («потира»), но выше обычного стакана. Рамка reicht … dar (darreichen — «подносить») разорвана подлежащим и дополнением."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der König",
+       "ru": "король"
+      },
+      {
+       "de": "der lieblichen",
+       "ru": "прелестной"
+      },
+      {
+       "de": "Tochter",
+       "ru": "дочери"
+      },
+      {
+       "de": "winkt,",
+       "ru": "делает знак,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Та"
+      },
+      {
+       "de": "füllt",
+       "ru": "наполняет"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "mit funkelndem",
+       "ru": "искрящимся"
+      },
+      {
+       "de": "Wein",
+       "ru": "вином"
+      },
+      {
+       "de": "bis",
+       "ru": "до"
+      },
+      {
+       "de": "zum Rande,",
+       "ru": "краёв,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "der Jüngling",
+       "ru": "юноша"
+      },
+      {
+       "de": "also",
+       "ru": "так"
+      },
+      {
+       "de": "zum König",
+       "ru": "к королю"
+      },
+      {
+       "de": "sich... wandte:",
+       "ru": "обратился:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "also около 1800 года значит «так, вот так»; значение «итак» у этого слова появилось позже."
+      }
+     ]
+    }
    ]
   },
   {
@@ -163,6 +3226,231 @@
     "Und der Mensch versuche die Götter nicht,",
     "Und begehre nimmer und nimmer zu schauen",
     "Was sie gnädig bedecken mit Nacht und Grauen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Lang lebe",
+       "ru": "Да здравствует"
+      },
+      {
+       "de": "der König!",
+       "ru": "король!"
+      },
+      {
+       "de": "Es freue sich,",
+       "ru": "Да радуется тот,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "lang leben — застольная формула здравицы; буквально «долго жить», по-русски ей отвечает «да здравствует»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "es только держит место подлежащего, а настоящее подлежащее — придаточное следующей строки: «тот, кто дышит»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "da",
+       "ru": "здесь"
+      },
+      {
+       "de": "athmet",
+       "ru": "дышит"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "rosigten",
+       "ru": "розовом"
+      },
+      {
+       "de": "Licht.",
+       "ru": "свете."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "rosigt — старая форма прилагательного rosig («розовый»); суффикс -igt у Шиллера обычен, ср. felsigt («скалистый») в следующей строфе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "aber",
+       "ru": "А"
+      },
+      {
+       "de": "Da",
+       "ru": "там"
+      },
+      {
+       "de": "unten",
+       "ru": "внизу"
+      },
+      {
+       "de": "ists",
+       "ru": "—"
+      },
+      {
+       "de": "fürchterlich,",
+       "ru": "страшно,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "ists = ist es: безличное «страшно», без подлежащего. Порядок слов этой строки Шуберт в своей рукописи изменил — об этом в разделе «Стихотворение»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "пусть"
+      },
+      {
+       "de": "der Mensch",
+       "ru": "человек"
+      },
+      {
+       "de": "nicht,",
+       "ru": "не"
+      },
+      {
+       "de": "versuche",
+       "ru": "искушает"
+      },
+      {
+       "de": "die Götter",
+       "ru": "богов,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "versuche — конъюнктив пожелания: «пусть не искушает». Глагол versuchen тут в старом смысле «испытывать, искушать», а не «пробовать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "пусть"
+      },
+      {
+       "de": "nimmer",
+       "ru": "никогда"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "nimmer",
+       "ru": "никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "begehre",
+       "ru": "желает"
+      },
+      {
+       "de": "zu schauen",
+       "ru": "увидеть"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Was",
+       "ru": "То, что"
+      },
+      {
+       "de": "sie",
+       "ru": "они"
+      },
+      {
+       "de": "gnädig",
+       "ru": "милостиво"
+      },
+      {
+       "de": "bedecken",
+       "ru": "покрывают"
+      },
+      {
+       "de": "mit Nacht",
+       "ru": "ночью"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Grauen.",
+       "ru": "ужасом."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Grauen с заглавной буквы — существительное «ужас», а не склонённое прилагательное grau («серый»): формы совпадают, различает их только эта заглавная буква."
+      }
+     ]
+    }
    ]
   },
   {
@@ -173,6 +3461,207 @@
     "Mich pakte des Doppelstroms wüthende Macht,",
     "Und wie einen Kreisel mit schwindelndem Drehen,",
     "Trieb michs um, ich konnte nicht widerstehen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Es riß",
+       "ru": "Рвануло"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "hinunter",
+       "ru": "вниз"
+      },
+      {
+       "de": "Blitzesschnell,",
+       "ru": "с быстротой молнии,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Blitzesschnell — сложение Blitz («молния») и schnell («быстро»): «быстро, как молния». Так по-немецки строятся усилительные наречия одним словом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тут"
+      },
+      {
+       "de": "stürzt’",
+       "ru": "хлынул"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "felsigtem",
+       "ru": "скалистой"
+      },
+      {
+       "de": "Schacht,",
+       "ru": "шахты,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "mir — дательный направления: «мне навстречу», а не «мой». Само наречие entgegen («навстречу») стоит только в следующей строке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "entgegen",
+       "ru": "Навстречу,"
+      },
+      {
+       "de": "Wildflutend",
+       "ru": "диким потоком,"
+      },
+      {
+       "de": "ein reissender",
+       "ru": "стремительный"
+      },
+      {
+       "de": "Quell,",
+       "ru": "ключ,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "der Quell — поэтический двойник обычного die Quelle («источник»), мужского рода: высокий слог, ошибки тут нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Меня",
+       "de": "Mich"
+      },
+      {
+       "ru": "схватила",
+       "de": "pakte"
+      },
+      {
+       "ru": "яростная",
+       "de": "wüthende"
+      },
+      {
+       "ru": "сила",
+       "de": "Macht,"
+      },
+      {
+       "ru": "двойного потока,",
+       "de": "des Doppelstroms"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "pakte — написание эпохи для packte («схватила»). Macht здесь — мощь, действующая сила, а не «власть»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "einen Kreisel",
+       "ru": "волчок"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "schwindelndem",
+       "ru": "головокружительным"
+      },
+      {
+       "de": "Drehen,",
+       "ru": "вращением,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Trieb... um,",
+       "ru": "Кружило"
+      },
+      {
+       "de": "michs",
+       "ru": "меня,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "konnte",
+       "ru": "мог"
+      },
+      {
+       "de": "widerstehen.",
+       "ru": "противиться."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "michs = mich es: подлежащим остаётся безымянное es — та же сила потока, что рвала его вниз в начале строфы."
+      }
+     ]
+    }
    ]
   },
   {
@@ -183,6 +3672,218 @@
     "Das erfaßt’ ich behend und entrann dem Tod,",
     "Und da hieng auch der Becher an spitzen Korallen,",
     "Sonst wär er ins Bodenlose gefallen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тут"
+      },
+      {
+       "de": "zeigte",
+       "ru": "показал"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "Gott,",
+       "ru": "Бог,"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "dem",
+       "ru": "которому"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "rief,",
+       "ru": "взывал,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "крайней",
+       "de": "der höchsten"
+      },
+      {
+       "ru": "страшной",
+       "de": "schrecklichen"
+      },
+      {
+       "ru": "беде,",
+       "de": "Noth,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Noth — написание эпохи для Not («нужда, беда»). Die höchste Not — буквально «высшая беда»; по-русски о беде говорят «крайняя»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Из",
+       "de": "Aus"
+      },
+      {
+       "ru": "пучины",
+       "de": "der Tiefe"
+      },
+      {
+       "ru": "выступающий",
+       "de": "ragend"
+      },
+      {
+       "ru": "каменный риф,",
+       "de": "ein Felsenrif,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Das",
+       "ru": "Его"
+      },
+      {
+       "de": "erfaßt’",
+       "ru": "схватил"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "behend",
+       "ru": "проворно"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "entrann",
+       "ru": "ускользнул"
+      },
+      {
+       "de": "dem Tod,",
+       "ru": "от смерти,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "entrinnen требует дательного падежа без предлога: dem Tod entrinnen — «ускользнуть от смерти». Der Tod в немецкой поэзии мужского рода, и персонифицируется он мужской фигурой."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "da",
+       "ru": "там"
+      },
+      {
+       "de": "auch",
+       "ru": "же"
+      },
+      {
+       "de": "hieng",
+       "ru": "висел"
+      },
+      {
+       "de": "der Becher",
+       "ru": "кубок"
+      },
+      {
+       "de": "an",
+       "ru": "на"
+      },
+      {
+       "de": "spitzen",
+       "ru": "острых"
+      },
+      {
+       "de": "Korallen,",
+       "ru": "кораллах,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "hieng — написание эпохи для hing. Глагол hängen здесь непереходный, «висел»: кубок висит сам, никто его не вешал."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sonst",
+       "ru": "Иначе"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "wär... gefallen.",
+       "ru": "упал бы"
+      },
+      {
+       "de": "ins",
+       "ru": "в"
+      },
+      {
+       "de": "Bodenlose",
+       "ru": "бездонную пропасть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "wär … gefallen — конъюнктив прошедшего: «упал бы, если бы не кораллы». Bodenlose — субстантивированное прилагательное «бездонное»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -193,6 +3894,193 @@
     "Das Auge mit Schaudern hinunter sah,",
     "Wies von Salamandern und Molchen und Drachen",
     "Sich regte in dem furchtbaren Höllenrachen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Denn",
+       "ru": "Ибо"
+      },
+      {
+       "de": "unter",
+       "ru": "подо"
+      },
+      {
+       "de": "mir",
+       "ru": "мной"
+      },
+      {
+       "de": "noch,",
+       "ru": "ещё"
+      },
+      {
+       "de": "lags",
+       "ru": "простиралось,"
+      },
+      {
+       "de": "Bergetief,",
+       "ru": "на глубину горы,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "lags = lag es. Bergetief — сложение Berg («гора») и tief («глубоко»): вниз ещё на целую гору."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "purpurner",
+       "ru": "пурпурной"
+      },
+      {
+       "de": "Finsterniß",
+       "ru": "тьме"
+      },
+      {
+       "de": "da,",
+       "ru": "там,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "obs... gleich",
+       "ru": "хотя"
+      },
+      {
+       "de": "hier",
+       "ru": "тут"
+      },
+      {
+       "de": "dem Ohre",
+       "ru": "для уха"
+      },
+      {
+       "de": "",
+       "ru": "всё"
+      },
+      {
+       "de": "ewig",
+       "ru": "вечно"
+      },
+      {
+       "de": "schlief,",
+       "ru": "спало,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "obs … gleich = ob es gleich, разорванный союз obgleich («хотя»). Слово gleich здесь не «тотчас» и не «равный»: отдельно оно не переводится, смысл есть только у союза целиком."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Das Auge",
+       "ru": "Глаз"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Schaudern",
+       "ru": "содроганием"
+      },
+      {
+       "de": "hinunter",
+       "ru": "вниз"
+      },
+      {
+       "de": "sah,",
+       "ru": "глядел,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wies",
+       "ru": "Как всё"
+      },
+      {
+       "de": "von Salamandern",
+       "ru": "саламандрами"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Molchen",
+       "ru": "тритонами"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Drachen",
+       "ru": "драконами"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Wies = wie es. Оборот sich regen von — «шевелиться от кого-то», то есть кишеть ими; предлог von по-русски передаётся творительным падежом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sich regte",
+       "ru": "Шевелилось"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dem furchtbaren",
+       "ru": "страшной"
+      },
+      {
+       "de": "Höllenrachen.",
+       "ru": "адской пасти."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -203,6 +4091,178 @@
     "Des Hammers gräuliche Ungestalt,",
     "Und dräuend wies mir die grimmigen Zähne",
     "Der entsetzliche Hay, des Meeres Hyäne."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schwarz",
+       "ru": "Чёрные"
+      },
+      {
+       "de": "wimmelten",
+       "ru": "кишели"
+      },
+      {
+       "de": "da,",
+       "ru": "там,"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "grausem",
+       "ru": "жутком"
+      },
+      {
+       "de": "Gemisch",
+       "ru": "смешении"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Zu",
+       "ru": "В"
+      },
+      {
+       "de": "scheußlichen",
+       "ru": "отвратительные"
+      },
+      {
+       "de": "Klumpen",
+       "ru": "комья"
+      },
+      {
+       "de": "geballt,",
+       "ru": "сбитые,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Der stachlichte",
+       "ru": "Колючий"
+      },
+      {
+       "de": "Roche,",
+       "ru": "скат,"
+      },
+      {
+       "de": "der Klippenfisch,",
+       "ru": "скальная рыба,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "stachlicht — старая форма stachlig («колючий»), с тем же суффиксом -icht, что и rosigt, felsigt в соседних строфах."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Des Hammers",
+       "ru": "Молота"
+      },
+      {
+       "de": "gräuliche",
+       "ru": "жуткое"
+      },
+      {
+       "de": "Ungestalt,",
+       "ru": "уродище,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "«Молот» — рыба-молот. Шуберт пишет её ударами-«молотками» в левой руке фортепиано: чудовище названо словом и тут же показано звуком."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dräuend",
+       "ru": "грозя"
+      },
+      {
+       "de": "wies",
+       "ru": "скалила"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "die grimmigen",
+       "ru": "свирепые"
+      },
+      {
+       "de": "Zähne",
+       "ru": "зубы"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "dräuen — высокий вариант глагола drohen («грозить»), в прозе эпохи уже редкий, в балладном слоге обычный."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der entsetzliche",
+       "ru": "Ужасная"
+      },
+      {
+       "de": "Hay,",
+       "ru": "акула,"
+      },
+      {
+       "de": "Hyäne.",
+       "ru": "гиена"
+      },
+      {
+       "de": "des Meeres",
+       "ru": "моря."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Hay — написание эпохи для Hai («акула»). По-немецки слово мужского рода, отсюда и определение der entsetzliche."
+      }
+     ]
+    }
    ]
   },
   {
@@ -213,6 +4273,207 @@
     "Allein in der gräßlichen Einsamkeit,",
     "Tief unter dem Schall der menschlichen Rede",
     "Bey den Ungeheuern der traurigen Oede."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "da",
+       "ru": "там"
+      },
+      {
+       "de": "hieng",
+       "ru": "висел"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Grausen",
+       "ru": "ужасом"
+      },
+      {
+       "de": "war mirs... bewußt,",
+       "ru": "сознавал,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        7,
+        7
+       ],
+       "text": "war mirs bewußt = war es mir bewusst, «мне это было ведомо»: по-русски безличная немецкая конструкция разворачивается в обычное «я сознавал»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Von",
+       "ru": "От"
+      },
+      {
+       "de": "der menschlichen",
+       "ru": "человеческой"
+      },
+      {
+       "de": "Hülfe",
+       "ru": "помощи"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "weit.",
+       "ru": "далеко."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Hülfe — написание эпохи для Hilfe («помощь»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Unter",
+       "ru": "Среди"
+      },
+      {
+       "de": "Larven",
+       "ru": "личин"
+      },
+      {
+       "de": "die einzige",
+       "ru": "единственная"
+      },
+      {
+       "de": "fühlende",
+       "ru": "чувствующая"
+      },
+      {
+       "de": "Brust,",
+       "ru": "грудь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Brust около 1800 года — вместилище жизни и чувства, а не то, что слышится в этом слове сегодня. «Единственная чувствующая грудь» значит: единственный, кто здесь ещё способен чувствовать."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Allein",
+       "ru": "Один"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "der gräßlichen",
+       "ru": "жутком"
+      },
+      {
+       "de": "Einsamkeit,",
+       "ru": "одиночестве,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "allein в начале строки часто оказывается союзом «но»; здесь это всё-таки «один, одинокий» — соседняя Einsamkeit («одиночество») не оставляет выбора."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Tief",
+       "ru": "Глубоко"
+      },
+      {
+       "de": "unter",
+       "ru": "под"
+      },
+      {
+       "de": "dem Schall",
+       "ru": "звуком"
+      },
+      {
+       "de": "der menschlichen",
+       "ru": "человеческой"
+      },
+      {
+       "de": "Rede",
+       "ru": "речи"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Bey",
+       "ru": "У"
+      },
+      {
+       "de": "den Ungeheuern",
+       "ru": "чудовищ"
+      },
+      {
+       "de": "der traurigen",
+       "ru": "печальной"
+      },
+      {
+       "de": "Oede.",
+       "ru": "пустыни."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Bey — написание эпохи для bei. Oede — то же, что Öde: пустое, безжизненное место."
+      }
+     ]
+    }
    ]
   },
   {
@@ -223,6 +4484,231 @@
     "Laß ich los der Koralle umklammerten Zweig,",
     "Gleich faßt mich der Strudel mit rasendem Toben,",
     "Doch es war mir zum Heil, er riß mich nach oben."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "И,",
+       "de": "Und"
+      },
+      {
+       "ru": "содрогаясь,",
+       "de": "schaudernd"
+      },
+      {
+       "ru": "подумал",
+       "de": "dacht"
+      },
+      {
+       "ru": "я это,",
+       "de": "ichs,"
+      },
+      {
+       "ru": "тут",
+       "de": "da"
+      },
+      {
+       "ru": "нечто подползло,",
+       "de": "krochs... heran,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "krochs heran = kroch es heran: снова безымянное es, у существа нет ни имени, ни очертаний — только движение к нему."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Regte",
+       "ru": "Задвигало"
+      },
+      {
+       "de": "hundert",
+       "ru": "сотней"
+      },
+      {
+       "de": "Gelenke",
+       "ru": "сочленений"
+      },
+      {
+       "de": "zugleich,",
+       "ru": "разом,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Will",
+       "ru": "Хочет"
+      },
+      {
+       "de": "schnappen",
+       "ru": "схватить"
+      },
+      {
+       "de": "nach mir,",
+       "ru": "меня,"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Wahn",
+       "ru": "безумии"
+      },
+      {
+       "de": "des Schreckens",
+       "ru": "ужаса"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "schnappen nach — «хватать пастью за что-то»; предлог nach рисует бросок, ещё не достигший цели. Настоящее время посреди рассказа о прошлом придвигает сцену вплотную."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Laß... los",
+       "ru": "Отпускаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "umklammerten",
+       "ru": "обхваченную"
+      },
+      {
+       "de": "Zweig,",
+       "ru": "ветвь"
+      },
+      {
+       "de": "der Koralle",
+       "ru": "коралла,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Рамка lasse … los (loslassen — «отпустить»): приставка ушла в середину строки, а всё, что между ней и глаголом, — то, что герой выпускает из руки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Gleich",
+       "ru": "Тотчас"
+      },
+      {
+       "de": "faßt",
+       "ru": "хватает"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "der Strudel",
+       "ru": "водоворот"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "rasendem",
+       "ru": "бешеным"
+      },
+      {
+       "de": "Toben,",
+       "ru": "буйством,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "gleich в начале строки — «тотчас», третье из живых значений слова наряду с «равный» и «подобно». Разговорное «сейчас, скоро» — позднейшее."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "es",
+       "ru": "это"
+      },
+      {
+       "de": "war",
+       "ru": "было"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "zum Heil,",
+       "ru": "во спасение,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "riß",
+       "ru": "рванул"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "nach oben.",
+       "ru": "наверх."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Heil около 1800 года — чистое «благо, спасение», в том числе спасение души; никакого отношения к возгласу XX века это слово тогда не имело."
+      }
+     ]
+    }
    ]
   },
   {
@@ -233,6 +4719,197 @@
     "Geschmückt mit dem köstlichsten Edelgestein,",
     "Versuchst dus noch einmal und bringst mir Kunde,",
     "Was du sahst auf des Meers tiefunterstem Grunde?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der König",
+       "ru": "Король"
+      },
+      {
+       "de": "darob",
+       "ru": "тому"
+      },
+      {
+       "de": "schier",
+       "ru": "немало"
+      },
+      {
+       "de": "sich verwundert",
+       "ru": "дивится,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "darob — местоименное наречие «по поводу того»; schier — «прямо-таки, чуть ли не», усиление, а не «чисто»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "spricht:",
+       "ru": "говорит:"
+      },
+      {
+       "de": "Der Becher",
+       "ru": "кубок"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "dein,",
+       "ru": "твой,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "diesen",
+       "ru": "этот"
+      },
+      {
+       "de": "Ring",
+       "ru": "перстень"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "bestimm",
+       "ru": "назначаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dir,",
+       "ru": "тебе,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Geschmückt",
+       "ru": "Украшенный"
+      },
+      {
+       "de": "mit dem köstlichsten",
+       "ru": "драгоценнейшим"
+      },
+      {
+       "de": "Edelgestein,",
+       "ru": "самоцветом,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Versuchst",
+       "ru": "Попробуешь"
+      },
+      {
+       "de": "dus",
+       "ru": "ли ты это"
+      },
+      {
+       "de": "noch einmal",
+       "ru": "ещё раз"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "bringst",
+       "ru": "принесёшь"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "Kunde,",
+       "ru": "весть,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "dus = du es. Вопросительного слова нет — вопрос держится одним порядком слов: глагол вышел вперёд подлежащего."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Was",
+       "ru": "Что"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "sahst",
+       "ru": "видел"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "tiefunterstem",
+       "ru": "глубочайшем"
+      },
+      {
+       "de": "Grunde?",
+       "ru": "дне"
+      },
+      {
+       "de": "des Meers",
+       "ru": "моря?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "tiefunterst — сложение tief («глубоко») и unterst («самый нижний») в превосходной степени: глубже уже некуда."
+      }
+     ]
+    }
    ]
   },
   {
@@ -243,6 +4920,222 @@
     "Er hat euch bestanden, was keiner besteht,",
     "Und könnt ihr des Herzens Gelüsten nicht zähmen,",
     "So mögen die Ritter den Knappen beschämen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Das",
+       "ru": "Это"
+      },
+      {
+       "de": "hörte",
+       "ru": "слышала"
+      },
+      {
+       "de": "die Tochter",
+       "ru": "дочь"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "weichem",
+       "ru": "мягким"
+      },
+      {
+       "de": "Gefühl,",
+       "ru": "чувством,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "mit schmeichelndem",
+       "ru": "ласковыми"
+      },
+      {
+       "de": "Munde",
+       "ru": "устами"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "fleht:",
+       "ru": "молит:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "flehen — просить настойчиво и смиренно, слово высокого слоя; по-русски ему точно отвечает «молить»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vater",
+       "ru": "Отец,"
+      },
+      {
+       "de": "Laßt",
+       "ru": "пусть"
+      },
+      {
+       "de": "genug",
+       "ru": "довольно"
+      },
+      {
+       "de": "seyn",
+       "ru": "будет"
+      },
+      {
+       "de": "das grausame",
+       "ru": "жестокой"
+      },
+      {
+       "de": "Spiel,",
+       "ru": "игры,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Laßt … genug seyn — оборот «пусть будет довольно». Форма Laßt и местоимение euch в следующей строке значат, что дочь говорит отцу «вы»: так обращались к государю даже дома."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "hat... bestanden,",
+       "ru": "выдержал"
+      },
+      {
+       "de": "euch",
+       "ru": "для вас"
+      },
+      {
+       "de": "was",
+       "ru": "то, чего"
+      },
+      {
+       "de": "keiner",
+       "ru": "никто"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "besteht,",
+       "ru": "выдерживает,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "если"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "könnt",
+       "ru": "можете"
+      },
+      {
+       "de": "ihr",
+       "ru": "вы"
+      },
+      {
+       "de": "zähmen,",
+       "ru": "обуздать"
+      },
+      {
+       "de": "Gelüsten",
+       "ru": "вожделение"
+      },
+      {
+       "de": "des Herzens",
+       "ru": "сердца,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Условие без союза: глагол выходит на первое место, и это само по себе значит «если». По-русски союз приходится ставить."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "То"
+      },
+      {
+       "de": "mögen",
+       "ru": "пусть"
+      },
+      {
+       "de": "die Ritter",
+       "ru": "рыцари"
+      },
+      {
+       "de": "den Knappen",
+       "ru": "оруженосца"
+      },
+      {
+       "de": "beschämen.",
+       "ru": "посрамят."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "mögen — уступительное «пусть»: дочь предлагает, чтобы вместо мальчика ныряли взрослые рыцари, и тем посрамили бы его."
+      }
+     ]
+    }
    ]
   },
   {
@@ -253,6 +5146,226 @@
     "So sollst du der treflichste Ritter mir seyn,",
     "Und sollst sie als Ehgemahl heut noch umarmen,",
     "Die jetzt für dich bittet mit zartem Erbarmen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Drauf",
+       "ru": "Тогда"
+      },
+      {
+       "de": "der König",
+       "ru": "король"
+      },
+      {
+       "de": "schnell,",
+       "ru": "быстро"
+      },
+      {
+       "de": "greift",
+       "ru": "хватает"
+      },
+      {
+       "de": "nach dem Becher",
+       "ru": "кубок,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "greifen nach — «хвататься за что-то»: предлог показывает движение руки к предмету, а не сам захват."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In... hinein,",
+       "ru": "В"
+      },
+      {
+       "de": "den Strudel",
+       "ru": "самый водоворот"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "schleudert",
+       "ru": "швыряет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Рамка in … hinein — одно направление, а не два слова: «внутрь, в самую середину». По-русски её берёт на себя усилительное «в самый»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "если"
+      },
+      {
+       "de": "schaffst",
+       "ru": "достанешь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "den Becher",
+       "ru": "кубок"
+      },
+      {
+       "de": "wieder",
+       "ru": "снова"
+      },
+      {
+       "de": "zur Stell,",
+       "ru": "на место,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "То"
+      },
+      {
+       "de": "sollst... seyn,",
+       "ru": "да будешь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "der treflichste",
+       "ru": "превосходнейшим"
+      },
+      {
+       "de": "Ritter",
+       "ru": "рыцарем,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Рамка sollst … seyn растянута на всю строку. Глагол sollen тут — торжественное обещание «быть тебе», долженствования в нём нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "heut",
+       "ru": "сегодня"
+      },
+      {
+       "de": "sollst... umarmen,",
+       "ru": "обнимешь"
+      },
+      {
+       "de": "sie",
+       "ru": "её"
+      },
+      {
+       "de": "als",
+       "ru": "как"
+      },
+      {
+       "de": "Ehgemahl",
+       "ru": "супругу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Ehgemahl — старая форма Ehegemahl («супруг, супруга»); слово торжественное, из языка договоров и обручений."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Ту, что"
+      },
+      {
+       "de": "jetzt",
+       "ru": "сейчас"
+      },
+      {
+       "de": "für",
+       "ru": "за"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "bittet",
+       "ru": "просит"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "zartem",
+       "ru": "нежным"
+      },
+      {
+       "de": "Erbarmen.",
+       "ru": "состраданием."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -263,6 +5376,243 @@
     "Und sieht sie erbleichen und sinken hin,",
     "Da treibts ihn, den köstlichen Preiß zu erwerben,",
     "Und stürzt hinunter auf Leben und Sterben."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тут"
+      },
+      {
+       "de": "mit Himmelsgewalt,",
+       "ru": "с небесной силой"
+      },
+      {
+       "de": "ergreifts",
+       "ru": "охватывает"
+      },
+      {
+       "de": "ihm",
+       "ru": "его"
+      },
+      {
+       "de": "die Seele",
+       "ru": "душу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "ihm — дательный принадлежности: «его душу», а не «ему душу». Такой датив в немецком обычен там, где по-русски стоит притяжательное местоимение."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Перед вторым нырком Шуберт ставит громадную фортепианную интерлюдию в темпе Prestissimo. Грэм Джонсон слышит в её напоре ту же дьявольскую энергию, что в «Gruppe aus dem Tartarus» («Группе из Тартара»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "kühn,",
+       "ru": "отважно"
+      },
+      {
+       "de": "es blitzt",
+       "ru": "сверкает"
+      },
+      {
+       "de": "ihm",
+       "ru": "у него"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "den Augen",
+       "ru": "глаз,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "siehet",
+       "ru": "видит,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "erröthen",
+       "ru": "краснеет"
+      },
+      {
+       "de": "die schöne",
+       "ru": "прекрасный"
+      },
+      {
+       "de": "Gestalt,",
+       "ru": "стан,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "siehet … erröthen — оборот «видит, как краснеет»: немецкий обходится инфинитивом, русскому нужно придаточное. siehet и erröthen — написания эпохи для sieht и erröten."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sieht",
+       "ru": "видит,"
+      },
+      {
+       "de": "",
+       "ru": "как"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "erbleichen",
+       "ru": "бледнеет"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "sinken hin,",
+       "ru": "поникает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        6
+       ],
+       "text": "Дальше идёт вокализация без слов — беззвучная, по выражению Грэма Джонсона, картина горя принцессы. Именно это место, полагает он, имел в виду музыковед Альфред Эйнштейн, когда писал, что гармония «Ныряльщика» опередила своё время: ничего подобного, по словам Эйнштейна, не будет вплоть до вагнеровских «Тристана» и «Кольца»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тут"
+      },
+      {
+       "de": "treibts",
+       "ru": "влечёт"
+      },
+      {
+       "de": "ihn,",
+       "ru": "его"
+      },
+      {
+       "de": "den köstlichen",
+       "ru": "драгоценную"
+      },
+      {
+       "de": "Preiß",
+       "ru": "награду"
+      },
+      {
+       "de": "zu erwerben,",
+       "ru": "добыть,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "treibts = treibt es: решение приходит к герою как безличная сила — его гонит."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "stürzt",
+       "ru": "бросается"
+      },
+      {
+       "de": "hinunter",
+       "ru": "вниз"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Leben",
+       "ru": "жизнь"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Sterben.",
+       "ru": "смерть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        6
+       ],
+       "text": "auf Leben und Sterben — устойчивый оборот: ставка сразу на то и на другое. Sterben — субстантивированный глагол «умирать», буквально «на жизнь и умирание»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -273,8 +5623,255 @@
     "Es kommen, es kommen die Wasser all,",
     "Sie rauschen herauf, sie rauschen nieder,",
     "Den Jüngling bringt keines wieder."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wohl",
+       "ru": "Вот"
+      },
+      {
+       "de": "hört man",
+       "ru": "слышно"
+      },
+      {
+       "de": "die Brandung,",
+       "ru": "прибой,"
+      },
+      {
+       "de": "wohl",
+       "ru": "вот"
+      },
+      {
+       "de": "kehrt... zurück,",
+       "ru": "возвращается"
+      },
+      {
+       "de": "sie",
+       "ru": "он,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "die Brandung — женского рода, потому и sie; по-русски прибой мужского рода, местоимение приходится менять."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "В финальной строфе музыка водоворота возвращается в третий и последний раз — переведённая, как отмечает Грэм Джонсон, в ре минор, тональность шубертовских опасных странствий, которые кончаются смертью."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Его"
+      },
+      {
+       "de": "verkündigt",
+       "ru": "возвещает"
+      },
+      {
+       "de": "der donnernde",
+       "ru": "громовой"
+      },
+      {
+       "de": "Schall,",
+       "ru": "гул,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Вот"
+      },
+      {
+       "de": "bückt sichs",
+       "ru": "склоняется"
+      },
+      {
+       "de": "hinunter",
+       "ru": "вниз"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "liebendem",
+       "ru": "любящим"
+      },
+      {
+       "de": "Blick",
+       "ru": "взглядом"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "bückt sichs = bückt es sich: имени снова нет, но любящий взгляд может быть только один — тот, что склоняется над бездной."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es kommen,",
+       "ru": "Идут,"
+      },
+      {
+       "de": "es kommen",
+       "ru": "идут"
+      },
+      {
+       "de": "all,",
+       "ru": "все"
+      },
+      {
+       "de": "die Wasser",
+       "ru": "воды,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "es kommen die Wasser — вводное es держит первое место, а подлежащее приходит после глагола; глагол при этом во множественном числе, по водам, а не по es."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "rauschen",
+       "ru": "с шумом идут"
+      },
+      {
+       "de": "herauf,",
+       "ru": "вверх,"
+      },
+      {
+       "de": "sie",
+       "ru": "они"
+      },
+      {
+       "de": "rauschen",
+       "ru": "с шумом идут"
+      },
+      {
+       "de": "nieder,",
+       "ru": "вниз,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "rauschen — сплошной шум воды, у Гриммов прямо о потоке, волнах и дожде. Единого русского глагола на все случаи нет, приходится добавлять «с шумом»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Den Jüngling",
+       "ru": "Юношу"
+      },
+      {
+       "de": "keines",
+       "ru": "ни одна"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "bringt... wieder.",
+       "ru": "возвращает."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "После этой строки остаётся один рояль. Заупокойный постлюд ведёт мелодию, которую Грэм Джонсон называет гобоеподобной: она плывёт над шестнадцатыми, точно венок, брошенный на водную могилу."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Friedrich Schiller"
+ "about": [
+  {
+   "title": "17 сентября 1813 года",
+   "text": "Работу над «Ныряльщиком» шестнадцатилетний Шуберт начал 17 сентября 1813 года и не отпускал вещь до начала 1815 года. Комментатор шубертовской серии Hyperion отдельно отмечает, как усердно юноша писал и переписывал эту балладу два года подряд.\nДаты у источников расходятся: сайт Schubertsong относит номер D 77 к 5 апреля 1814 года, и согласовать эту дату с двухлетним диапазоном Hyperion не удаётся."
+  },
+  {
+   "title": "Публикация и автографы",
+   "text": "Первое издание вышло уже после смерти Шуберта, у издателя Антона Диабелли. За основу он взял первую редакцию, ту самую D 77, но привил к ней большую фортепианную интерлюдию из второй. Этот составной текст перепечатало издательство Peters, по нему баллада и звучала на пластинках: так её записали баритон Дитрих Фишер-Дискау и пианист Джеральд Мур.\nПодлинный текст второй редакции, долго ходившей под отдельным номером D 111, напечатала только Neue Schubert-Ausgabe. Сегодня номер D 111 из каталога исключён: вторую редакцию считают переработкой D 77, а не самостоятельным сочинением.\nОпус, номер издательской доски и дату первой печати нот по доступным сведениям установить не удалось."
+  },
+  {
+   "title": "Фридрих Шиллер",
+   "text": "Фридрих Шиллер — драматург, поэт и историк, вместе с Гёте определивший облик веймарской классики; для Шуберта он стал главным поэтом отрочества. Шиллер умер, когда будущему композитору не было и девяти лет, — личного знакомства быть не могло, но именно на его стихах Шуберт-подросток учился писать песню-балладу. Между 1811 и 1817 годами он положил на музыку 66 шиллеровских текстов, а за всю жизнь взял около сорока стихотворений в почти восьми десятках редакций и набросков.\nМногие из этих опытов остались черновиками мальчика, подражающего своему кумиру, композитору Иоганну Рудольфу Цумштегу. Но среди них уже стоят «Gruppe aus dem Tartarus» («Группа из Тартара»), «Der Pilgrim» («Пилигрим») и «Ныряльщик» — вещи, выдержавшие сравнение со зрелыми шедеврами. Шиллер писал крупные, риторически выстроенные баллады и философскую лирику: материал для драматической сцены, где один голос и рояль должны звучать с оркестровым размахом. Вкус к монологу, к контрасту, к превращению фортепианной партии в театр остался у Шуберта на всю жизнь."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Шиллер написал «Ныряльщика» 15 июня 1797 года и в конце того же года напечатал в «Musen-Almanach für das Jahr 1798» («Альманахе муз на 1798 год»), который сам и редактировал. В оглавлении альманаха баллада стоит среди пяти вещей Шиллера, прямо названных балладами, рядом с «Der Ring des Polykrates» («Перстнем Поликрата»), «Ritter Toggenburg» («Рыцарем Тоггенбургом»), «Die Kraniche des Ibykus» («Ивиковыми журавлями») и «Der Gang nach dem Eisenhammer» («Хождением на железный завод»).\nКаким изданием пользовался Шуберт, установил исследователь Питер Растль: девятым томом «Friedrich Schillers sämmtliche Werke» (Вена, 1810, комиссионер Антон Долль), страницы 103–109; сверка шла и с альманахом 1798 года (Тюбинген, издательство Котты), страницы 119–130.\nБаллада насчитывает 27 строф. Малколм Рен, автор разборов шубертовских песен на сайте Schubertsong, обратил внимание на две её особенности. Почти все глаголы стоят в настоящем времени, и только на середине рассказа, с начала четырнадцатой строфы, Шиллер переходит в прошедшее. А союз «und» («и») встречается в тексте 83 раза при общем объёме примерно в 1100 слов: события прибывают одно за другим, без причин и следствий, как прибывает вода.\nSchubertsong называет три места, где шубертовская рукопись расходится с Шиллером: в последней строке добавлено слово «Doch» («но»), в шестнадцатой строфе переставлены слова «Da unten aber» («а там внизу»), в семнадцатой пропущено «Wildflutend» («диким потоком»). В тексте, приведённом здесь, все три места читаются по Шиллеру."
+  },
+  {
+   "title": "Музыка",
+   "text": "Опора всей вещи — кипящая до-минорная музыка водоворота, открывающая шестую строфу. Грэм Джонсон, автор аннотаций к шубертовской серии Hyperion, называет её главной структурной силой песни: она возвращается в двенадцатой строфе и в последний раз приходит в финале, переведённая в ре минор — тональность шубертовских опасных странствий, которые кончаются смертью.\nОтдельные картины Шуберт пишет прямо по словам. Зияющая расселина седьмой строфы показана пустым аккордом из зловеще широко разведённых целых нот в до-бемоль мажоре. Рыба-молот среди чудовищ получает удары-«молотки» в левой руке фортепиано. Появление пловца из воды в тринадцатой строфе идёт восходящей хроматикой, и Джонсон уверен, что это место знал Шуман: в «Belsazar» рука, пишущая на стене, показана тем же приёмом, и раздел там тоже начинается со слов «Und sieh» («И гляди»).\nПеред вторым нырком стоит громадная фортепианная интерлюдия в темпе Prestissimo, по напору родственная «Gruppe aus dem Tartarus». Сразу за ней идёт вокализация без слов — горе принцессы. Джонсон полагает, что именно это место имел в виду музыковед Альфред Эйнштейн, писавший, что гармония «Ныряльщика» опередила своё время: ничего подобного, по его словам, не будет вплоть до вагнеровских «Тристана» и «Кольца». Заканчивает балладу заупокойный постлюд с гобоеподобной мелодией, плывущей над шестнадцатыми, — Джонсон сравнивает её с венком, брошенным на водную могилу."
+  },
+  {
+   "title": "Музыка: две редакции",
+   "text": "Разница между редакциями заметнее всего в трёх сценах. Сомнение толпы — десятая, одиннадцатая и двенадцатая строфы — в D 77 решено лирически, ариозным письмом, и драматического действия отсюда, по оценке Джонсона, выходит мало. Благодарственная музыка четырнадцатой строфы в первой редакции звучит форте; во второй Шуберт её приглушил, и приглушённое сияние даёт слушателю передышку посреди бури. Рассказ вернувшегося юноши в D 77 написан как полноценная формальная ария, мало правдоподобная для человека, только что выбравшегося из водоворота; во второй редакции на её месте свободный речитатив, который гонит действие вперёд."
+  },
+  {
+   "title": "Харибда и золотой кубок",
+   "text": "Место действия названо прямо: Харибда, водоворот у сицилийского берега Мессинского пролива. У Гомера, в двенадцатой книге «Одиссеи», она стоит в паре со Сциллой, скалой напротив; Шиллер, замечает Малколм Рен, Сциллу не называет вовсе — бездна в балладе остаётся одна.\nНе случайным Рен считает и другое сходство. «Der König in Thule» («Король в Фуле») Гёте — песня Гретхен из «Фауста», которую Шуберт положил на музыку как D 367, — тоже кончается золотым кубком, брошенным королём в море. Там кубок хранил память об умершей возлюбленной; здесь, по словам Рена, перед нами повесть о злонамеренной жестокости."
+  },
+  {
+   "title": "Вокруг 1813 года",
+   "text": "Год, в который начат «Ныряльщик», был у Шуберта временем ученичества в полную силу. Тогда же написаны Первая симфония ре мажор (D 82), много духовной музыки и трёхактная опера «Des Teufels Lustschloss» («Чёртов увеселительный замок», D 84) на текст Августа фон Коцебу — самая крупная работа года. Откликов современников именно на эту балладу, писем или рецензий, найти не удалось."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Долгое время исполнители знали «Ныряльщика» в составном виде — по тексту Диабелли и Peters, где к первой редакции привита интерлюдия из второй. Развела редакции только Neue Schubert-Ausgabe, напечатавшая подлинную вторую отдельно от первой.\nС тех пор вторая редакция первую и вытеснила: записей самой D 77 немного, а вторую редакцию под старым номером D 111 записывают куда чаще."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Записей немного, и в подборку взяты только те, что помечены самими лейблами как D 77.\nПервой идёт запись Дитриха Фишера-Дискау с пианистом Куртом Энгелем (1960, EMI/Electrola, «Schubert: Lieder Vol. 3», продюсер Кристфрид Бикенбах). Тот же певец вернулся к балладе с Джеральдом Муром — эта запись вошла в собрание Deutsche Grammophon «Sämtliche Lieder», сделанное на сессиях 1966–1972 годов. Дальше — Герман Прай с Карлом Энгелем (1974, Deutsche Grammophon, «Lieder von Franz Schubert — Lied-Edition Vol. 2») и Михаэль Волле с Хельмутом Дойчем (2011, Oehms Classics, «Ein Liederabend»).\nПятой стоит запись баса Питера Коя с Бартом ван Дозеларом (2000, BIS, «Auf dem Wasser zu singen») — она сделана по историческим правилам исполнения и даёт балладе редкую для неё басовую линию."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
