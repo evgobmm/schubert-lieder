@@ -1,9 +1,16 @@
 {
  "d": "394",
  "title_de": "An die Harmonie",
+ "title_ru": "К гармонии",
+ "poet_de": "Johann Gaudenz von Salis-Seewis",
+ "poet_ru": "Иоганн Гауденц фон Залис-Зеевис",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Заглавия с «An» («К…»), как у шиллеровской «An die Freude» («К радости»), предполагали торжественный, публичный повод, и песня в них, по словам Грэма Джонсона, неотличима от пьесы для мужского хора: «это Шуберт в публичном настроении — там, где истинный шубертианец, пожалуй, меньше всего любит его находить». И всё же, считает Джонсон, «An die Harmonie» — песня более интересная и тонкая, чем «An die Freude»."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -18,6 +25,303 @@
     "Komm mit deinem Sühngesange,",
     "Himmelstochter Harmonie!",
     "Himmelstochter Harmonie!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Создательница",
+       "de": "Schöpferin"
+      },
+      {
+       "ru": "одушевлённых",
+       "de": "beseelter"
+      },
+      {
+       "ru": "звуков,",
+       "de": "Töne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Schöpferin — женская форма к Schöpfer («творец»); словарь Гриммов приводит её как раз в обращениях к олицетворениям: o (freundschaft), … dich schöpferinn der ruh («о дружба, … тебя, создательница покоя»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Голос, по Джонсону, будто трубит первые слова незатейливым арпеджио, а потом становится ясно, что Шуберт нарочно исследует и славит тонический аккорд: это приветствие гармонии, а не мелодии."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Отзвук,",
+       "de": "Nachklang"
+      },
+      {
+       "ru": "с Олимпа",
+       "de": "dem Olymp"
+      },
+      {
+       "ru": "доносящийся эхом,",
+       "de": "enthallt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Enthallt — редкое поэтическое слово, которого нет отдельной статьёй ни у Гриммов, ни в DWDS: hallen («звучать, раздаваться») с приставкой ent-, указывающей на исход, — «донёсшийся откуда-то эхом». Дательный dem Olymp при таком глаголе и значит «с Олимпа»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Милая",
+       "de": "Holde"
+      },
+      {
+       "ru": "бестелесная",
+       "de": "körperlose"
+      },
+      {
+       "ru": "красавица,",
+       "de": "Schöne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Die Schöne — субстантивированное прилагательное schön («прекрасный»): гармония названа живым существом женского рода. Körperlos («бестелесный») у Гриммов стоит с примерами körperlose schatten («бестелесные тени») и körperlose geister («бестелесные духи»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нежная",
+       "de": "Sanfte"
+      },
+      {
+       "ru": "духовная",
+       "de": "geistige"
+      },
+      {
+       "ru": "власть,",
+       "de": "Gewalt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Gewalt — здесь не «насилие», как в нынешнем языке: у Аделунга первое значение слова — превосходящая сила, власть."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Которая",
+       "de": "Die"
+      },
+      {
+       "ru": "сердце",
+       "de": "das Herz"
+      },
+      {
+       "ru": "сынов земли",
+       "de": "der Erdensöhne"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Здесь музыка уходит в ля минор; Джонсон замечает, что для бедного человечества минорный лад будто и есть естественное состояние."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Смело",
+       "de": "Kühn"
+      },
+      {
+       "ru": "возносит",
+       "de": "erhebt"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "кротко",
+       "de": "mild"
+      },
+      {
+       "ru": "обволакивает:",
+       "de": "umwallt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Которая",
+       "de": "Die"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "натиске",
+       "de": "Drange"
+      },
+      {
+       "ru": "внутренних",
+       "de": "inn'rer"
+      },
+      {
+       "ru": "бурь",
+       "de": "Stürme"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Родительный inn'rer Stürme стоит перед своим существительным, по-русски он встаёт после: «в натиске внутренних бурь». Inn'rer — стяжение innerer («внутренних»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Освежает",
+       "de": "Labt"
+      },
+      {
+       "ru": "утоляющим",
+       "de": "mit stillen"
+      },
+      {
+       "ru": "волшебством,",
+       "de": "der Magie"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "На этой строке, по Джонсону, музыка смягчается и переходит в до мажор с ласковым тактом фортепианной интерлюдии, а на слове о волшебстве хроматически возвращается в ля мажор — «уместно волшебно»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "В нашем издании слова разошлись: stillen der вместо stillender («утоляющей») — Джонсон цитирует строку как labt mit stillender Magie. Предлог mit по-русски передаётся творительным падежом и потому слился с прилагательным."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Приди",
+       "de": "Komm"
+      },
+      {
+       "ru": "с",
+       "de": "mit"
+      },
+      {
+       "ru": "твоей",
+       "de": "deinem"
+      },
+      {
+       "ru": "песнью примирения,",
+       "de": "Sühngesange"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Дочь небес",
+       "de": "Himmelstochter"
+      },
+      {
+       "ru": "Гармония!",
+       "de": "Harmonie"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Himmelstochter («дочь небес») — обычное у поэтов той поры обращение к высоким силам: у Бюргера так названо благоговение, у Шиллера в «Песни о колоколе» — heilge ordnung, segenreiche himmelstochter («святой порядок, благодатная дочь небес»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Himmelstochter звучит в самой высокой тесситуре: по выражению Джонсона, слово «обитает в стратосфере», как ему и подобает."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Дочь небес",
+       "de": "Himmelstochter"
+      },
+      {
+       "ru": "Гармония!",
+       "de": "Harmonie"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -33,6 +337,314 @@
     "Blüht erquickt im Heiligthume",
     "Einer Brust, die du getränkt!",
     "Einer Brust, die du getränkt!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Вздохи,",
+       "de": "Seufzer"
+      },
+      {
+       "ru": "которые",
+       "de": "die"
+      },
+      {
+       "ru": "сердце",
+       "de": "das Herz"
+      },
+      {
+       "ru": "душило,",
+       "de": "erstickte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Малколм Рен пишет, что на протяжении десяти строф Залис-Зеевис показывает боль как условие наслаждения гармонией: вздохи и слёзы, некогда мучительные и напрасные, гармония наделяет смыслом."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Die — винительный падеж множественного числа, он относится к Seufzer, а подлежащее строки — das Herz; глагол в единственном числе это подтверждает: сердце душило вздохи, а не наоборот."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Которое,",
+       "de": "Das"
+      },
+      {
+       "ru": "непонятое,",
+       "de": "misskannt"
+      },
+      {
+       "ru": "наконец",
+       "de": "endlich"
+      },
+      {
+       "ru": "замкнулось,",
+       "de": "sich... schloss"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Возвратное sich оторвано от своего глагола наречием endlich («наконец»). Misskannt — причастие от misskennen («не признавать, ложно судить»): сердце, которое не поняли."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Слёзы,",
+       "de": "Thränen"
+      },
+      {
+       "ru": "которые",
+       "de": "die"
+      },
+      {
+       "ru": "глаз",
+       "de": "das Aug"
+      },
+      {
+       "ru": "выдавил,",
+       "de": "zerdrückte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Thränen с «h» — написание эпохи (нынешнее Tränen). Такие формы держатся по всему тексту песни — Heiligthume, Gemüthe, Schwermuth, Anmuth, Zauberblüthe — и совпадают с изданиями, по которым сверен текст: альманахом 1804 года и венским сборником 1815-го."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Который",
+       "de": "Das"
+      },
+      {
+       "ru": "некогда",
+       "de": "einst"
+      },
+      {
+       "ru": "много",
+       "de": "viel"
+      },
+      {
+       "ru": "напрасно",
+       "de": "umsonst"
+      },
+      {
+       "ru": "пролил,",
+       "de": "vergoss"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Благодарит",
+       "de": "Dankt"
+      },
+      {
+       "ru": "тебя",
+       "de": "dir"
+      },
+      {
+       "ru": "вновь",
+       "de": "wieder"
+      },
+      {
+       "ru": "восхищённый,",
+       "de": "der Entzückte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Главное предложение начинается только здесь: вздохи и слёзы четырёх первых строк — то, чем и за что благодарит der Entzückte. Немецкое danken требует дательного dir, русское «благодарить» — винительного «тебя». Der Entzückte в ту пору сильнее нынешнего салонного слова: восторг здесь близок к тому «восхищению» души, о котором говорили мистики."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Кого",
+       "de": "Den"
+      },
+      {
+       "ru": "твой",
+       "de": "dein"
+      },
+      {
+       "ru": "живительный источник",
+       "de": "Labequell"
+      },
+      {
+       "ru": "омывал:",
+       "de": "umfloss"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Чувства",
+       "de": "Der Empfindung"
+      },
+      {
+       "ru": "нежный",
+       "de": "zarte"
+      },
+      {
+       "ru": "цветок,",
+       "de": "Blume"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Empfindung — слово эпохи чувствительности; у Гриммов оно прямо отделено от Gefühl: «в Empfindung есть нечто духовное, чего нет у чувственного ощущения, Empfindung субъективнее»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Который",
+       "de": "Die"
+      },
+      {
+       "ru": "не один",
+       "de": "manch"
+      },
+      {
+       "ru": "холодный",
+       "de": "frost'ger"
+      },
+      {
+       "ru": "взгляд",
+       "de": "Blick"
+      },
+      {
+       "ru": "опалил,",
+       "de": "versengt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Manch стоит при существительном в единственном числе, а говорит о множестве — «не один холодный взгляд». Frost'ger — стяжение frostiger; холодный взгляд при этом опаляет, как жар."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Цветёт",
+       "de": "Blüht"
+      },
+      {
+       "ru": "оживлённый",
+       "de": "erquickt"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "святилище",
+       "de": "Heiligthume"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Груди,",
+       "de": "Einer Brust"
+      },
+      {
+       "ru": "которую",
+       "de": "die"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "напоила!",
+       "de": "getränkt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Вспомогательный глагол опущен: die du getränkt [hast] — «которую ты напоила»; такие усечения обычны в стихах той поры. Brust около 1800 года — грудь как «седалище жизни и чувствования», без нынешнего крена в телесность."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Груди,",
+       "de": "Einer Brust"
+      },
+      {
+       "ru": "которую",
+       "de": "die"
+      },
+      {
+       "ru": "ты",
+       "de": "du"
+      },
+      {
+       "ru": "напоила!",
+       "de": "getränkt"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -49,6 +661,300 @@
     "Weckt im ödesten Gemüthe",
     "Deines Wohllauts Schöpfungskraft.",
     "Deines Wohllauts Schöpfungskraft."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Минувшего",
+       "de": "Des Vergangnen"
+      },
+      {
+       "ru": "призрачные образы,",
+       "de": "Traumgebilde"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Амура",
+       "de": "Amors"
+      },
+      {
+       "ru": "утренние грёзы,",
+       "de": "Morgenphantasien"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Гармония, как перечисляет Малколм Рен, вызывает утренние фантазии Амура — римского бога любви — и говорит на языке отчизны Психеи; за этой парой стоит миф об Амуре и Психее у Апулея, к которому стихи вернутся в девятой строфе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Велит",
+       "de": "Heisst"
+      },
+      {
+       "ru": "твой",
+       "de": "dein"
+      },
+      {
+       "ru": "зов,",
+       "de": "Ruf"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "тихо,",
+       "de": "still"
+      },
+      {
+       "ru": "как",
+       "de": "wie"
+      },
+      {
+       "ru": "кроткие",
+       "de": "milde"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Heissen здесь в старом переходном значении «велеть»: зов гармонии велит призрачным образам прошлого обвить нас. Сказуемое этого оборота — umziehn — стоит только в следующей строке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Лунные тени,",
+       "de": "Mondesschatten"
+      },
+      {
+       "ru": "нас",
+       "de": "uns"
+      },
+      {
+       "ru": "обвивать,",
+       "de": "umziehn"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "На",
+       "de": "Auf"
+      },
+      {
+       "ru": "осенних нивах",
+       "de": "Herbstgefilde"
+      },
+      {
+       "ru": "жизни",
+       "de": "des Lebens"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Herbstgefilde — Herbst («осень») и Gefilde (поэтическое «нивы, поля»): осень жизни. Родительный des Lebens стоит перед своим существительным, по-русски он встаёт после."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Давно",
+       "de": "Längst"
+      },
+      {
+       "ru": "увядшие",
+       "de": "verwelkte"
+      },
+      {
+       "ru": "фиалки",
+       "de": "Veilchen"
+      },
+      {
+       "ru": "цветут.",
+       "de": "blühn"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Фиалка в поэзии этой поры — знак скромной и быстро вянущей красоты (вспомним гётевское «Das Veilchen» — «Фиалку»); тем сильнее образ давно увядших фиалок, которые снова цветут."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Давно",
+       "de": "Längst"
+      },
+      {
+       "ru": "увядшие",
+       "de": "verwelkte"
+      },
+      {
+       "ru": "фиалки",
+       "de": "Veilchen"
+      },
+      {
+       "ru": "цветут.",
+       "de": "blühn"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Сладкого обмана",
+       "de": "Süsser Täuschung"
+      },
+      {
+       "ru": "волшебный цвет,",
+       "de": "Zauberblüthe"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Täuschung — «обман, иллюзия», но у поэтов эпохи это чаще спасительный самообман. Словарь Гриммов приводит рядом Виланда: die täuschung ist so süsz («обман так сладок»), и Шиллера: weil ihn die süsze täuschung glücklich macht («ибо сладкий обман делает его счастливым»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Который",
+       "de": "Die"
+      },
+      {
+       "ru": "опыт",
+       "de": "Erfahrung"
+      },
+      {
+       "ru": "надламывает",
+       "de": "knickt"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "срывает,",
+       "de": "rafft"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Die — относительное местоимение в винительном падеже, оно отсылает к волшебному цвету; Erfahrung («опыт») стоит здесь подлежащим без артикля. Опыт ломает и срывает этот цвет, а не наоборот."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пробуждает",
+       "de": "Weckt"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "самой унылой",
+       "de": "ödesten"
+      },
+      {
+       "ru": "душе",
+       "de": "Gemüthe"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Gemüt — душа как средоточие чувств, одно из главных слов немецкой лирики этих десятилетий; написание Gemüthe — эпохи."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Твоего благозвучия",
+       "de": "Deines Wohllauts"
+      },
+      {
+       "ru": "творческая сила.",
+       "de": "Schöpfungskraft"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Подлежащее всей фразы — Schöpfungskraft («творческая сила»); у Гриммов это слово стоит с примерами из Канта и Гердера, где речь о силе божественного творения. Wohllaut — «благозвучие», приятный звук музыки, пения и речи."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Твоего благозвучия",
+       "de": "Deines Wohllauts"
+      },
+      {
+       "ru": "творческая сила.",
+       "de": "Schöpfungskraft"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -65,6 +971,328 @@
     "Der Ergebung stillen Segen,",
     "Wo die Thrän erschöpfend fleusst.",
     "Wo die Thrän erschöpfend fleusst."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Милее",
+       "de": "Holder"
+      },
+      {
+       "ru": "ныне,",
+       "de": "nun"
+      },
+      {
+       "ru": "сладкое мечтание,",
+       "de": "ein süsses Wähnen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Ein süsses Wähnen — приложение к подлежащему следующей строки: образ минувшего возвращается как сладкий самообман. Wähnen — субстантивированный инфинитив от wähnen («мнить, воображать»), а тот образован от Wahn («заблуждение»). Сравнительные степени открывают три первые строки строфы подряд: holder, zarter, milder."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Возвращается",
+       "de": "Kehrt"
+      },
+      {
+       "ru": "образ",
+       "de": "das Bild"
+      },
+      {
+       "ru": "минувшего времени,",
+       "de": "verflossner Zeit"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Голое kehrt в поэзии этих лет значит уже «возвращается», хотя исходно это «поворачивать». Bild — живой образ в душе; русское «картина» здесь было бы слишком вещественно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нежнее",
+       "de": "Zarter"
+      },
+      {
+       "ru": "стремится",
+       "de": "strebt"
+      },
+      {
+       "ru": "томление",
+       "de": "Sehnen"
+      },
+      {
+       "ru": "любви,",
+       "de": "der Liebe"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Das Sehnen — субстантивированный инфинитив, «томление»; родительный der Liebe стоит перед ним, по-русски он встаёт после."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Кротче",
+       "de": "Milder"
+      },
+      {
+       "ru": "пылает",
+       "de": "glüht"
+      },
+      {
+       "ru": "задушевность,",
+       "de": "die Innigkeit"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Когда",
+       "de": "Wenn"
+      },
+      {
+       "ru": "твой",
+       "de": "dein"
+      },
+      {
+       "ru": "хор",
+       "de": "Chor"
+      },
+      {
+       "ru": "скорбным сценам",
+       "de": "den Trauerscenen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Chor около 1800 года не обязательно поющий состав: у Гриммов есть отдельное значение «круг, вереница, множество» без всякого пения. Здесь, впрочем, речь о звучании гармонии — потому «хор»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Высшее",
+       "de": "Höhern"
+      },
+      {
+       "ru": "утешение",
+       "de": "Trost"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "прелесть",
+       "de": "Anmuth"
+      },
+      {
+       "ru": "дарит.",
+       "de": "leiht"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Leihen буквально «одалживать», но в высоком слоге — «даровать, наделять», без возврата. Höhern — сравнительная степень от hoch («высокий»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Высшее",
+       "de": "Höhern"
+      },
+      {
+       "ru": "утешение",
+       "de": "Trost"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "прелесть",
+       "de": "Anmuth"
+      },
+      {
+       "ru": "дарит.",
+       "de": "leiht"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Даёт,",
+       "de": "Giebt"
+      },
+      {
+       "ru": "где",
+       "de": "wo"
+      },
+      {
+       "ru": "слова",
+       "de": "Worte"
+      },
+      {
+       "ru": "ничего",
+       "de": "nichts"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "могут,",
+       "de": "vermögen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "Nichts — местоимение «ничего», требующее в русском второго отрицания; vermögen — «быть в силах». Worte, в отличие от Wörter, — слова как речь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Отраду",
+       "de": "Labsal"
+      },
+      {
+       "ru": "сокрушённому",
+       "de": "dem zerstörten"
+      },
+      {
+       "ru": "духу,",
+       "de": "Geist"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Labsal — всё, что служит подкреплением: у Гриммов это и пища, и питьё, и лекарство, и утешительное слово."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Смирения",
+       "de": "Der Ergebung"
+      },
+      {
+       "ru": "тихое",
+       "de": "stillen"
+      },
+      {
+       "ru": "благословение,",
+       "de": "Segen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Где",
+       "de": "Wo"
+      },
+      {
+       "ru": "слеза",
+       "de": "die Thrän"
+      },
+      {
+       "ru": "до изнеможения",
+       "de": "erschöpfend"
+      },
+      {
+       "ru": "течёт.",
+       "de": "fleusst"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Fleusst — старая форма третьего лица от fliessen («течь»), нынешнее fliesst; такие формы держались в стихах долго. В шестой строфе так же образован повелительный Schleuss от schliessen."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Где",
+       "de": "Wo"
+      },
+      {
+       "ru": "слеза",
+       "de": "die Thrän"
+      },
+      {
+       "ru": "до изнеможения",
+       "de": "erschöpfend"
+      },
+      {
+       "ru": "течёт.",
+       "de": "fleusst"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -81,6 +1309,315 @@
     "Träufl im Balsam des Gesanges",
     "Hoffnung in der Edlen Geist.",
     "Hoffnung in der Edlen Geist."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Устреми",
+       "de": "Hefte"
+      },
+      {
+       "ru": "на",
+       "de": "auf"
+      },
+      {
+       "ru": "более светлые",
+       "de": "die lichtern"
+      },
+      {
+       "ru": "места",
+       "de": "Stellen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Den Blick auf etwas heften — устойчивое «устремить взор на что-либо»; дополнение к этому повелительному стоит только в следующей строке. Lichtern — сравнительная степень от licht («светлый»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нашего пути",
+       "de": "Unsrer Bahn"
+      },
+      {
+       "ru": "взор",
+       "de": "Blick"
+      },
+      {
+       "ru": "тоски,",
+       "de": "der Schwermuth"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Два родительных подряд: unsrer Bahn относится к «местам» первой строки, der Schwermuth — к «взору». Bahn около 1800 года — только путь, дорога, колея; нынешних железных дорог и трамваев в этом слове ещё нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Неси",
+       "de": "Trag"
+      },
+      {
+       "ru": "дух",
+       "de": "den Geist"
+      },
+      {
+       "ru": "на",
+       "de": "auf"
+      },
+      {
+       "ru": "волнах благозвучия",
+       "de": "Wohllautswellen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Обратно",
+       "de": "zurück"
+      },
+      {
+       "ru": "в",
+       "de": "In"
+      },
+      {
+       "ru": "страну мира,",
+       "de": "ein Friedensland"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Zurück — оторванная приставка глагола zurücktragen («унести обратно»): она стоит в конце фразы, а сам глагол — в начале предыдущей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Такую",
+       "de": "Solch"
+      },
+      {
+       "ru": "жизнь",
+       "de": "ein Leben"
+      },
+      {
+       "ru": "озарить",
+       "de": "zu erhellen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нужны",
+       "de": "Braucht man"
+      },
+      {
+       "ru": "обман",
+       "de": "Täuschung"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "музыка.",
+       "de": "Musik"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Brauchen с неопределённо-личным man: русское безличное «нужны» вбирает оба слова сразу — отдельного подлежащего у немецкой фразы нет."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Малколм Рен не спорит с тем, что гармония здесь — спасительная иллюзия, и заканчивает свой разбор строкой Т. С. Элиота из «Burnt Norton» («Четыре квартета», 1944): human kind / Cannot bear very much reality («род людской не выносит слишком много реальности»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нужны",
+       "de": "Braucht man"
+      },
+      {
+       "ru": "обман",
+       "de": "Täuschung"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "музыка.",
+       "de": "Musik"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Где",
+       "de": "Wo"
+      },
+      {
+       "ru": "буря",
+       "de": "der Sturm"
+      },
+      {
+       "ru": "хода времён",
+       "de": "des Zeitenganges"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Zeitengang — Zeiten («времена») и Gang («ход»): ход времён."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Чаще всего",
+       "de": "Meist"
+      },
+      {
+       "ru": "рушит",
+       "de": "zerreisst"
+      },
+      {
+       "ru": "замысел",
+       "de": "Plan"
+      },
+      {
+       "ru": "лучших,",
+       "de": "der Bessern"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Der Bessern — субстантивированное прилагательное во множественном числе: «лучшие», достойные люди. В конце строфы им отвечают die Edlen («благородные»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Влей по капле",
+       "de": "Träufl"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "бальзаме",
+       "de": "Balsam"
+      },
+      {
+       "ru": "пения",
+       "de": "des Gesanges"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Träufl — усечённый повелительный träufle от träufeln («капать, струить по капле»): надежда вливается в дух по капле, вместе с бальзамом пения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Надежду",
+       "de": "Hoffnung"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "дух",
+       "de": "Geist"
+      },
+      {
+       "ru": "благородных.",
+       "de": "der Edlen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Надежду",
+       "de": "Hoffnung"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "дух",
+       "de": "Geist"
+      },
+      {
+       "ru": "благородных.",
+       "de": "der Edlen"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -97,6 +1634,313 @@
     "Bis ein sanftres Licht die Räume",
     "Unsres Kerkers still erhellt.",
     "Unsres Kerkers still erhellt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Приди,",
+       "de": "Komm"
+      },
+      {
+       "ru": "мгновения",
+       "de": "Momente"
+      },
+      {
+       "ru": "украсить,",
+       "de": "zu verschönen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тому,",
+       "de": "Dem"
+      },
+      {
+       "ru": "кто",
+       "de": "der"
+      },
+      {
+       "ru": "не",
+       "de": "nicht"
+      },
+      {
+       "ru": "верит",
+       "de": "traut"
+      },
+      {
+       "ru": "будущему,",
+       "de": "der Zukunft"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Dem … der — «тому, кто»: дательный при повелительном komm («приди»), а der открывает придаточное. Trauen требует дательного, поэтому «верит будущему»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Сомкни",
+       "de": "Schleuss"
+      },
+      {
+       "ru": "взор",
+       "de": "den Blick"
+      },
+      {
+       "ru": "сонными напевами,",
+       "de": "mit Schlummertönen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Schleuss — старая форма повелительного от schliessen («закрыть, сомкнуть»), как fleusst от fliessen в четвёртой строфе. Schlummertöne — Schlummer («дремота») и Töne («звуки»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Который",
+       "de": "Der"
+      },
+      {
+       "ru": "слишком",
+       "de": "zu"
+      },
+      {
+       "ru": "неотрывно",
+       "de": "starr"
+      },
+      {
+       "ru": "глядит",
+       "de": "schaut"
+      },
+      {
+       "ru": "во",
+       "de": "ins"
+      },
+      {
+       "ru": "тьму,",
+       "de": "Dunkel"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Starr — «застывший, оцепенелый»: взгляд неподвижен, будто окаменел."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Как",
+       "de": "Wie"
+      },
+      {
+       "ru": "младенца",
+       "de": "den Säugling"
+      },
+      {
+       "ru": "при",
+       "de": "beim"
+      },
+      {
+       "ru": "отнятии от груди",
+       "de": "Entwöhnen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Звук",
+       "de": "Laut"
+      },
+      {
+       "ru": "колыбельной песни.",
+       "de": "Eines Wiegenliedes"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Подлежащее сравнения стоит в самом конце: младенцу при отнятии от груди смыкает глаза звук колыбельной. Родительный eines Wiegenliedes по-русски встаёт после «звука»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Звук",
+       "de": "Laut"
+      },
+      {
+       "ru": "колыбельной песни.",
+       "de": "Eines Wiegenliedes"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Убаюкай",
+       "de": "Lull"
+      },
+      {
+       "ru": "и",
+       "de": "auch"
+      },
+      {
+       "ru": "нас",
+       "de": "uns"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "золотые",
+       "de": "goldne"
+      },
+      {
+       "ru": "грёзы",
+       "de": "Träume"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Лучшего",
+       "de": "Einer bessern"
+      },
+      {
+       "ru": "внутреннего",
+       "de": "innern"
+      },
+      {
+       "ru": "мира,",
+       "de": "Welt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пока",
+       "de": "Bis"
+      },
+      {
+       "ru": "более нежный",
+       "de": "ein sanftres"
+      },
+      {
+       "ru": "свет",
+       "de": "Licht"
+      },
+      {
+       "ru": "пространства",
+       "de": "die Räume"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нашей",
+       "de": "Unsres"
+      },
+      {
+       "ru": "темницы",
+       "de": "Kerkers"
+      },
+      {
+       "ru": "тихо",
+       "de": "still"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "озарит.",
+       "de": "erhellt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Kerker — темница; тело и земная жизнь как темница души — привычный образ этих десятилетий, к нему же ведёт «изгнание» девятой строфы."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Союз bis значит «пока не»: отрицания в немецкой фразе нет, по-русски оно обязательно."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нашей",
+       "de": "Unsres"
+      },
+      {
+       "ru": "темницы",
+       "de": "Kerkers"
+      },
+      {
+       "ru": "тихо",
+       "de": "still"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "озарит.",
+       "de": "erhellt"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -113,6 +1957,360 @@
     "Lehr ihn weinen, lehr ihn lieben,",
     "Und sein Leben blüht ihm neu.",
     "Und sein Leben blüht ihm neu."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Ангел,",
+       "de": "Engel"
+      },
+      {
+       "ru": "которого",
+       "de": "den"
+      },
+      {
+       "ru": "к страждущему душою",
+       "de": "zum Seelenkranken"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Гармония, как отмечает Малколм Рен, названа в стихотворении ангелом, а в последней строфе — серафимом; это она укрывает крылом от терний жизненного пути."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Seelenkranker — Seele («душа») и Kranker («больной»): человек, больной душою. Zum — слияние предлога zu с артиклем dem."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нежное",
+       "de": "Sanftes"
+      },
+      {
+       "ru": "сострадание",
+       "de": "Mitleid"
+      },
+      {
+       "ru": "низводит,",
+       "de": "niederträgt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Niedertragen — «сносить вниз»: подлежащее строки — Mitleid («сострадание»), а ангел здесь дополнение (den), которое сострадание сводит к больному душою."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Который",
+       "de": "Der"
+      },
+      {
+       "ru": "живительные",
+       "de": "erquickende"
+      },
+      {
+       "ru": "мысли",
+       "de": "Gedanken"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Erquicken — «оживлять, подкреплять силы»; у Гриммов слово стоит с библейским примером о том, как к обессилевшему возвращается дух."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "В",
+       "de": "In"
+      },
+      {
+       "ru": "оболочку",
+       "de": "Hülle"
+      },
+      {
+       "ru": "звуков",
+       "de": "der Töne"
+      },
+      {
+       "ru": "облекает,",
+       "de": "legt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Смягчая,",
+       "de": "Lindernd"
+      },
+      {
+       "ru": "вместо",
+       "de": "statt"
+      },
+      {
+       "ru": "терний,",
+       "de": "der Dornenranken"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Dornenranken — Dornen («шипы, терн») и Ranken («побеги, плети»): колючие плети, которыми зарос путь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Своё",
+       "de": "Seinen"
+      },
+      {
+       "ru": "крыло",
+       "de": "Fittig"
+      },
+      {
+       "ru": "вокруг",
+       "de": "um"
+      },
+      {
+       "ru": "него",
+       "de": "ihn"
+      },
+      {
+       "ru": "смыкает.",
+       "de": "schlägt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Fittig — поэтическое «крыло» (обычное слово — Flügel); так говорят о крыле ангела или птицы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Своё",
+       "de": "Seinen"
+      },
+      {
+       "ru": "крыло",
+       "de": "Fittig"
+      },
+      {
+       "ru": "вокруг",
+       "de": "um"
+      },
+      {
+       "ru": "него",
+       "de": "ihn"
+      },
+      {
+       "ru": "смыкает.",
+       "de": "schlägt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Кому",
+       "de": "Dem"
+      },
+      {
+       "ru": "никакого",
+       "de": "kein"
+      },
+      {
+       "ru": "земного утешения",
+       "de": "Erdentrost"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "осталось,",
+       "de": "geblieben"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Опущено вспомогательное ist: dem kein Erdentrost geblieben [ist]. Kein требует в русском второго отрицания."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Своей",
+       "de": "Seiner"
+      },
+      {
+       "ru": "немой",
+       "de": "stummen"
+      },
+      {
+       "ru": "тоске",
+       "de": "Schwermuth"
+      },
+      {
+       "ru": "верный,",
+       "de": "treu"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Научи",
+       "de": "Lehr"
+      },
+      {
+       "ru": "его",
+       "de": "ihn"
+      },
+      {
+       "ru": "плакать,",
+       "de": "weinen"
+      },
+      {
+       "ru": "научи",
+       "de": "lehr"
+      },
+      {
+       "ru": "его",
+       "de": "ihn"
+      },
+      {
+       "ru": "любить,",
+       "de": "lieben"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "Малколм Рен считает, что стихи говорят больше о жизни, чем о музыке: гармонию ценит тот, кто живёт в разладе, — согласное звучание разрешает то, что казалось болезненным и бессмысленным диссонансом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "жизнь",
+       "de": "Leben"
+      },
+      {
+       "ru": "его",
+       "de": "sein"
+      },
+      {
+       "ru": "расцветёт",
+       "de": "blüht"
+      },
+      {
+       "ru": "ему",
+       "de": "ihm"
+      },
+      {
+       "ru": "вновь.",
+       "de": "neu"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "Настоящее время здесь о будущем, а дательный ihm — падеж выгоды: жизнь расцветёт для него."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "жизнь",
+       "de": "Leben"
+      },
+      {
+       "ru": "его",
+       "de": "sein"
+      },
+      {
+       "ru": "расцветёт",
+       "de": "blüht"
+      },
+      {
+       "ru": "ему",
+       "de": "ihm"
+      },
+      {
+       "ru": "вновь.",
+       "de": "neu"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -129,6 +2327,319 @@
     "Sehnsucht, Schauer und Entzücken,",
     "Zu ergiessen im Gesang.",
     "Zu ergiessen im Gesang."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Дар,",
+       "de": "Gabe"
+      },
+      {
+       "ru": "смертным",
+       "de": "Sterblichen"
+      },
+      {
+       "ru": "дарованный,",
+       "de": "verliehen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нежно",
+       "de": "Zart"
+      },
+      {
+       "ru": "прочувствованное,",
+       "de": "Gefühltes"
+      },
+      {
+       "ru": "робко",
+       "de": "scheu"
+      },
+      {
+       "ru": "утаённое,",
+       "de": "verhehlt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Несклоняемое zart перед субстантивированным причастием — наречие: «нежно прочувствованное». Вся строка — дополнение к инфинитиву следующей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Поверить",
+       "de": "Zu vertraun"
+      },
+      {
+       "ru": "напевам,",
+       "de": "an Melodien"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Vertrauen здесь в старом значении «поверять, доверять тайну», причём с предлогом an вместо нынешнего дательного. В издании, сохраняющем орфографию эпохи, слово напечатано как Melodieen — на одну «e» длиннее."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Сладостная",
+       "de": "Süsse"
+      },
+      {
+       "ru": "сила,",
+       "de": "Macht"
+      },
+      {
+       "ru": "что",
+       "de": "die"
+      },
+      {
+       "ru": "никогда",
+       "de": "nie"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "подводит,",
+       "de": "verfehlt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Душу",
+       "de": "Seel"
+      },
+      {
+       "ru": "к",
+       "de": "an"
+      },
+      {
+       "ru": "душе",
+       "de": "Seele"
+      },
+      {
+       "ru": "притягивать,",
+       "de": "hinzuziehen"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Seel — усечённое Seele; оборот Seel an Seele значит «от души к душе»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Что",
+       "de": "Was"
+      },
+      {
+       "ru": "осчастливливает,",
+       "de": "beseligt"
+      },
+      {
+       "ru": "что",
+       "de": "was"
+      },
+      {
+       "ru": "нас",
+       "de": "uns"
+      },
+      {
+       "ru": "терзает.",
+       "de": "quält"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Beseligen — «делать блаженным»; у Гриммов слово отмечено как позднее и редкое в старом языке. Строка продолжает инфинитив: притягивать душу к душе — и то, что осчастливливает, и то, что терзает."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Что",
+       "de": "Was"
+      },
+      {
+       "ru": "осчастливливает,",
+       "de": "beseligt"
+      },
+      {
+       "ru": "что",
+       "de": "was"
+      },
+      {
+       "ru": "нас",
+       "de": "uns"
+      },
+      {
+       "ru": "терзает.",
+       "de": "quält"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "То, что",
+       "de": "Was"
+      },
+      {
+       "ru": "словами",
+       "de": "mit Worten"
+      },
+      {
+       "ru": "выразить",
+       "de": "auszudrücken"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Силе",
+       "de": "Kraft"
+      },
+      {
+       "ru": "ни одной",
+       "de": "Keiner"
+      },
+      {
+       "ru": "речи",
+       "de": "Sprache"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "удалось,",
+       "de": "gelang"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Родительный keiner Sprache стоит перед своим существительным: «силе ни одной речи». Gelingen требует дательного — удалось кому или чему."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тоску,",
+       "de": "Sehnsucht"
+      },
+      {
+       "ru": "трепет",
+       "de": "Schauer"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "восторг",
+       "de": "Entzücken"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Sehnsucht — тоска, всегда направленная на что-то: у Гриммов это «высокая степень острого, часто мучительного желания» далёкого и недостижимого. Entzücken в ту пору тоже сильнее нынешнего: почти экстаз, восхищение души, как у мистиков."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Излить",
+       "de": "Zu ergiessen"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "пении.",
+       "de": "Gesang"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Gesang — звучащее пение, само действие; ergiessen переносит на чувство образ разливающейся воды."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Излить",
+       "de": "Zu ergiessen"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "пении.",
+       "de": "Gesang"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -145,6 +2656,334 @@
     "Wähnt sich an des Himmels Pforte,",
     "Der Verbannung Kluft entflohn.",
     "Der Verbannung Kluft entflohn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Голос",
+       "de": "Stimm"
+      },
+      {
+       "ru": "из",
+       "de": "aus"
+      },
+      {
+       "ru": "тех",
+       "de": "jenen"
+      },
+      {
+       "ru": "светлейших",
+       "de": "lichtern"
+      },
+      {
+       "ru": "сфер,",
+       "de": "Sphären"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Lichtern — сравнительная степень от licht («светлый»). Sphäre в эту пору — ещё небесное тело, круг небес; нынешняя «сфера деятельности» из слова придёт позже."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Речь",
+       "de": "Sprach"
+      },
+      {
+       "ru": "из",
+       "de": "aus"
+      },
+      {
+       "ru": "отчизны Психеи,",
+       "de": "Psyche's Vaterland"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Sprach — усечённое Sprache («речь»), пара к усечённому Stimm предыдущей строки, а не прошедшее время глагола sprechen."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Гармония, по словам Малколма Рена, говорит на языке отчизны Психеи — на языке души; имя ведёт к мифу об Амуре и Психее у Апулея, к которому отсылала и третья строфа."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Со",
+       "de": "Mit"
+      },
+      {
+       "ru": "сладкими",
+       "de": "süssen"
+      },
+      {
+       "ru": "слезами",
+       "de": "Zähren"
+      },
+      {
+       "ru": "небес",
+       "de": "des Himmels"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Zähre — поэтический и уже старинный синоним слова Träne («слеза»); в этой же песне встречается и обычное Thrän."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Здесь,",
+       "de": "Hier"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "чужой",
+       "de": "fremden"
+      },
+      {
+       "ru": "долине",
+       "de": "Thal"
+      },
+      {
+       "ru": "узнанные,",
+       "de": "erkannt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ах,",
+       "de": "Ach"
+      },
+      {
+       "ru": "она",
+       "de": "sie"
+      },
+      {
+       "ru": "чувствует",
+       "de": "fühlt"
+      },
+      {
+       "ru": "ещё",
+       "de": "noch"
+      },
+      {
+       "ru": "своё",
+       "de": "ihr"
+      },
+      {
+       "ru": "влечение,",
+       "de": "Begehren"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "К",
+       "de": ""
+      },
+      {
+       "ru": "высшим",
+       "de": "Höhern"
+      },
+      {
+       "ru": "сферам",
+       "de": "Zonen"
+      },
+      {
+       "ru": "обращённое.",
+       "de": "zugewandt"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Zugewandt («обращённый») управляет дательным без предлога, поэтому русское «к» приходится добавлять. Zone взято из астрономического языка эпохи — пояс небес, а не нынешняя область."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "К",
+       "de": ""
+      },
+      {
+       "ru": "высшим",
+       "de": "Höhern"
+      },
+      {
+       "ru": "сферам",
+       "de": "Zonen"
+      },
+      {
+       "ru": "обращённое.",
+       "de": "zugewandt"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Знает",
+       "de": "Kennt"
+      },
+      {
+       "ru": "ли",
+       "de": ""
+      },
+      {
+       "ru": "речь",
+       "de": "die Sprache"
+      },
+      {
+       "ru": "больше",
+       "de": "mehr"
+      },
+      {
+       "ru": "слов,",
+       "de": "die Worte"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Придаточное условия здесь без союза, одним порядком слов: «если речь знает больше слов…». Ответ на него — в строке о вратах небес. Обычно mehr в стихах входит в отрицание («уже не»), но отрицания в этой фразе нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "внемлет",
+       "de": "vernimmt"
+      },
+      {
+       "ru": "звуку",
+       "de": "Ton"
+      },
+      {
+       "ru": "душ,",
+       "de": "der Seelen"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мнит",
+       "de": "Wähnt"
+      },
+      {
+       "ru": "себя",
+       "de": "sich"
+      },
+      {
+       "ru": "у",
+       "de": "an"
+      },
+      {
+       "ru": "врат",
+       "de": "Pforte"
+      },
+      {
+       "ru": "небес,",
+       "de": "des Himmels"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Избежав",
+       "de": "entflohn"
+      },
+      {
+       "ru": "пропасти",
+       "de": "Kluft"
+      },
+      {
+       "ru": "изгнания.",
+       "de": "Der Verbannung"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Entflohn — усечённое причастие entflohen («спасшийся бегством»). Изгнание здесь земное: душа живёт вдали от небесной родины — тот же образ, что и темница шестой строфы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Избежав",
+       "de": "entflohn"
+      },
+      {
+       "ru": "пропасти",
+       "de": "Kluft"
+      },
+      {
+       "ru": "изгнания.",
+       "de": "Der Verbannung"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -161,8 +3000,350 @@
     "Und empfang im Seelenlande",
     "Uns, o Seraph Harmonie!",
     "Uns, o Seraph Harmonie!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Звучи",
+       "de": "Tön"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "тихих",
+       "de": "leisen"
+      },
+      {
+       "ru": "предсмертных напевах",
+       "de": "Sterbechören"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Tön — повелительное от tönen («звучать»), усечённое без -e. Приставка vor стоит в конце следующей строки: vortönen — «звучать впереди», вести за собой звуком."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Сквозь",
+       "de": "Durch"
+      },
+      {
+       "ru": "ночь",
+       "de": "Nacht"
+      },
+      {
+       "ru": "смерти",
+       "de": "des Todes"
+      },
+      {
+       "ru": "нам",
+       "de": "uns"
+      },
+      {
+       "ru": "впереди,",
+       "de": "vor"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "При",
+       "de": "Bei"
+      },
+      {
+       "ru": "разрушении",
+       "de": "Zerstören"
+      },
+      {
+       "ru": "внешнего",
+       "de": "des äussern"
+      },
+      {
+       "ru": "чувства",
+       "de": "Sinns"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Der äussere Sinn — внешнее чувство, чувственное восприятие, в противоположность внутреннему. Zerstören здесь существительное — «разрушение»: угасание чувств умирающего."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Пребудь",
+       "de": "Weile"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "ухе",
+       "de": "Ohr"
+      },
+      {
+       "ru": "духа;",
+       "de": "des Geistes"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тех, кто",
+       "de": "Die"
+      },
+      {
+       "ru": "земле",
+       "de": "der Erde"
+      },
+      {
+       "ru": "не",
+       "de": "nicht"
+      },
+      {
+       "ru": "принадлежит,",
+       "de": "gehören"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Die — относительное местоимение множественного числа без предшествующего слова: «тех, кто». Это дополнение к повелительному следующей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вознеси",
+       "de": "Heb"
+      },
+      {
+       "ru": "лебединой песнью",
+       "de": "mit Schwanensang"
+      },
+      {
+       "ru": "ввысь.",
+       "de": "empor"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Schwanensang — «лебединая песнь»; словарь Гриммов приводит в статье этого слова как раз эту строку Залис-Зеевиса."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вознеси",
+       "de": "Heb"
+      },
+      {
+       "ru": "лебединой песнью",
+       "de": "mit Schwanensang"
+      },
+      {
+       "ru": "ввысь.",
+       "de": "empor"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Развяжи",
+       "de": "Löse"
+      },
+      {
+       "ru": "мягко",
+       "de": "sanft"
+      },
+      {
+       "ru": "узы",
+       "de": "Bande"
+      },
+      {
+       "ru": "жизни,",
+       "de": "des Lebens"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Смягчи",
+       "de": "Mildre"
+      },
+      {
+       "ru": "борьбу",
+       "de": "Kampf"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "агонию,",
+       "de": "Agonie"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Kampf здесь — предсмертная борьба, её и называет соседнее слово Agonie («предсмертная борьба, смертный страх»). Bande предыдущей строки — «узы» (в отличие от Bänder — «ленты»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "прими",
+       "de": "empfang"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "стране душ",
+       "de": "Seelenlande"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нас,",
+       "de": "Uns"
+      },
+      {
+       "ru": "о",
+       "de": "o"
+      },
+      {
+       "ru": "серафим",
+       "de": "Seraph"
+      },
+      {
+       "ru": "Гармония!",
+       "de": "Harmonie"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Серафим — ангел высшего чина, ближайший к Богу. Малколм Рен отмечает, что гармония названа в стихотворении ангелом, а здесь, в последней строфе, — серафимом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Нас,",
+       "de": "Uns"
+      },
+      {
+       "ru": "о",
+       "de": "o"
+      },
+      {
+       "ru": "серафим",
+       "de": "Seraph"
+      },
+      {
+       "ru": "Гармония!",
+       "de": "Harmonie"
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "Johann Gaudenz von Salis-Seewis"
+ "about": [
+  {
+   "title": "Март 1816 года",
+   "text": "«An die Harmonie» сочинена в марте 1816 года; Шуберту было девятнадцать.\nТот март он отдал двум поэтам — Шиллеру и Иоганну Гауденцу фон Залис-Зеевису, швейцарскому лирику, которого открыл для себя в тот год. Почти все шубертовские песни на стихи Залис-Зеевиса написаны в 1816-м, и большая их часть — именно весной; для Шуберта он тогда встал в один ряд с Маттисоном и Хёльти как один из «более новых мастеров»."
+  },
+  {
+   "title": "Публикация",
+   "text": "Напечатана песня была только в 1895 году — так сообщает буклет антологии Hyperion Schubert Edition. Об издателе и обстоятельствах той публикации, как и об автографе и о первом исполнении, сведений нет."
+  },
+  {
+   "title": "Иоганн Гауденц фон Залис-Зеевис",
+   "text": "Швейцарский дворянин из Граубюндена, офицер и поэт одновременно: юношей он служил в швейцарской гвардии французского короля в Париже, на родине дослужился до генерала и всю жизнь совмещал военную и государственную службу со стихами — современники звали его «поэтом-генералом».\nЕго лирика — сентиментальные пейзажи, элегии, песни рыбаков и пахарей — писалась в кругу друга и наставника Фридриха фон Маттисона; ту же интонацию тихого созерцания природы Шуберт нашёл близкой себе. Самое известное стихотворение Залис-Зеевиса, «Herbstlied» («Осенняя песня»), давно живёт отдельно от автора как немецкая народная песня об осени."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Стихи написаны между 1800 и 1803 годом и напечатаны в конце 1803-го — в альманахе «Iris. Ein Taschenbuch für 1804», который выпускал в Цюрихе, у Ореля, Фюссли и Ко, Й. Г. Якоби.\nИсследователь Питер Растл сверил текст песни с этой первой публикацией и с венским сборником «Gedichte von J. G. von Salis. Neueste Auflage» (Вена, 1815): по венскому изданию Шуберт брал и другие стихи этого поэта. Написание в песне — эпохи: Thränen, Heiligthume, Gemüthe, Schwermuth, Anmuth, Zauberblüthe. Разошлось одно слово: там, где в издании со старой орфографией стоит Melodieen, в тексте песни Melodien, на одну «e» короче; смысл строки от этого не меняется.\nСтихотворение — десять строф; гармония в них названа создательницей звуков, отзвуком Олимпа, дочерью небес, ангелом и, наконец, серафимом."
+  },
+  {
+   "title": "Музыка",
+   "text": "Грэм Джонсон, пианист и автор аннотаций к антологии Hyperion Schubert Edition, находит в начале песни оттенок скованности и старомодной формальности: голос будто трубит первые слова незатейливым арпеджио. Но скоро, пишет он, становится ясно, что Шуберт нарочно исследует и славит тонический аккорд, — это приветствие гармонии, а не мелодии.\nДальше Джонсон следит за тональностями. На словах о сердце сынов земли музыка уходит в ля минор — как если бы естественное состояние бедного человечества и было минорным ладом. Едва речь заходит об утешающей силе гармонии, звучание смягчается и переходит в до мажор с ласковым тактом фортепианной интерлюдии, а на словах об утоляющем волшебстве хроматически возвращается к ля мажору — «уместно волшебно», по его словам. Слово Himmelstochter («дочь небес») отдано самой высокой тесситуре: оно, как пишет Джонсон, «обитает в стратосфере» — как и подобает."
+  },
+  {
+   "title": "Боль как условие гармонии",
+   "text": "Малколм Рен, автор комментариев к песням Шуберта на сайте schubertsong.uk, считает, что стихи Залис-Зеевиса говорят больше о жизни, чем о музыке: гармонию ценит тот, кто живёт в разладе, и согласное звучание разрешает то, что казалось болезненным и бессмысленным диссонансом.\nДесять строф держатся этой мысли: гармония укрощает внутренние бури, возвращает смысл когда-то напрасным вздохам и слезам, оживляет увядший дух, утешает скорбящих, обнадёживает отчаявшихся. Рен не спорит с тем, что перед нами иллюзия, и заканчивает разбор строкой Т. С. Элиота из «Burnt Norton» («Четыре квартета», 1944): human kind / Cannot bear very much reality — «род людской не выносит слишком много реальности»."
+  },
+  {
+   "title": "Обличья гармонии",
+   "text": "Рен перечисляет обличья гармонии у Залис-Зеевиса: ангел, которого сострадание сводит к больному душою, и серафим последней строфы, укрывающий крылом от терний пути; звук, голос, язык; отзвук олимпийской жизни. Она же вызывает утренние фантазии Амура и говорит на языке отчизны Психеи — за этой парой стоит миф об Амуре и Психее у Апулея."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "«An die Harmonie» так и осталась в тени других песен на стихи Залис-Зеевиса того же года — прежде всего завораживающей «Ins stille Land» («В тихий край»). Джонсон это признаёт и всё же находит здесь ряд удачных шубертовских решений: в песне больше достоинств, чем можно расслышать при беглом чтении или беглом слушании.\nВ антологии Hyperion Schubert Edition она вошла в восемнадцатый том, спетый Петером Шрайером."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Записей у песни немного. Главная — Дитрих Фишер-Дискау и Джеральд Мур: их «An die Harmonie» 1969 года входит в полное собрание песен Шуберта на Deutsche Grammophon, «Sämtliche Lieder», которое записывалось с 1966 по 1972 год.\nВторая — Мартин Кобов (тенор) и Уте Айзенлор: 2009 год, тридцатый том серии Naxos «Deutsche Schubert-Lied-Edition», выпуск «Poets of Sensibility, Vol. 6».\nЕсть и третья запись: Петер Шрайер и Грэм Джонсон записали песню для восемнадцатого тома шубертовской серии Hyperion — «Schubert & the Strophic Song», изданного в 1993 году."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
