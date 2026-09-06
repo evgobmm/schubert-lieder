@@ -1,9 +1,16 @@
 {
  "d": "910",
  "title_de": "Schiffers Scheidelied",
+ "title_ru": "Прощальная песня моряка",
+ "poet_de": "Franz von Schober",
+ "poet_ru": "Франц фон Шобер",
  "year": "1827",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "lang",
+   "text": "Scheidelied — «песнь расставания», от scheiden («разлучаться, уходить»); Schiffer — тот, кто ведёт судно: лодочник, моряк."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -11,6 +18,144 @@
     "Es klatscht der Wind im Segeltuch,",
     "Und murmelt in den weissen Wellen",
     "Ich höre seinen wilden Spruch."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Wogen",
+       "ru": "Волны"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "Gestade",
+       "ru": "берега"
+      },
+      {
+       "de": "schwellen,",
+       "ru": "вздымаются,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Gestade («берег») — слово приподнятого слога: словарь Гриммов даёт litus, ripa, portus, тогда как обиходное немецкое имя берега — Ufer («берег»). Am («у») — слияние предлога an с артиклем dem."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Партия фортепиано здесь — ломаные октавы, которые чаще всего повторяют рисунок вокальной линии; Грэм Джонсон считает эту фигурацию новой для песенного письма Шуберта."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es klatscht",
+       "ru": "Хлопает"
+      },
+      {
+       "de": "der Wind",
+       "ru": "ветер"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Segeltuch,",
+       "ru": "парусине,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "В es klatscht der Wind местоимение es пустое: подлежащее — der Wind («ветер»), и по-русски такое es не переводится. Segeltuch — Segel («парус») и Tuch («полотно»): и парусина, и парус целиком."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "murmelt",
+       "ru": "журчит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den weissen",
+       "ru": "белых"
+      },
+      {
+       "de": "Wellen",
+       "ru": "волнах"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "murmeln — «тихо шуметь, журчать»; о человеке это «бормотать», но здесь говорит ветер. Подлежащее прежнее: он и хлопает в парусине, и журчит в белых волнах."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "höre",
+       "ru": "слышу"
+      },
+      {
+       "de": "seinen",
+       "ru": "его"
+      },
+      {
+       "de": "wilden",
+       "ru": "дикий"
+      },
+      {
+       "de": "Spruch.",
+       "ru": "глас."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Spruch по Гриммам — «то, что сказано»: речение, изречение. Ветер у Шобера изрекает, и герой слышит его дикую речь."
+      }
+     ]
+    }
    ]
   },
   {
@@ -19,6 +164,144 @@
     "Vor Ungeduld schaukelnd auf weite Bahn,",
     "Es ruft mich fort, es winkt der Kahn",
     "Vor Ungeduld schaukelnd auf weite Bahn, auf weite Bahn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Es ruft",
+       "ru": "Зовёт"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "fort,",
+       "ru": "прочь,"
+      },
+      {
+       "de": "es winkt",
+       "ru": "манит"
+      },
+      {
+       "de": "der Kahn",
+       "ru": "чёлн"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "winken около 1800 года — прежде всего зов, приглашение («манит»), а не приветственный взмах рукой. Kahn — небольшая лодка без мачты и палубы, чёлн."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vor",
+       "ru": "От"
+      },
+      {
+       "de": "Ungeduld",
+       "ru": "нетерпения"
+      },
+      {
+       "de": "schaukelnd",
+       "ru": "качаясь"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "weite",
+       "ru": "дальний"
+      },
+      {
+       "de": "Bahn,",
+       "ru": "путь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Bahn в текстах этих лет — путь, проложенная дорога; «железная дорога» появится у слова позже. Weit («далёкий, просторный») — о размахе пространства; «широкий» как мера по-немецки breit."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es ruft",
+       "ru": "Зовёт"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "fort,",
+       "ru": "прочь,"
+      },
+      {
+       "de": "es winkt",
+       "ru": "манит"
+      },
+      {
+       "de": "der Kahn",
+       "ru": "чёлн"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vor",
+       "ru": "От"
+      },
+      {
+       "de": "Ungeduld",
+       "ru": "нетерпения"
+      },
+      {
+       "de": "schaukelnd",
+       "ru": "качаясь"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "weite",
+       "ru": "дальний"
+      },
+      {
+       "de": "Bahn,",
+       "ru": "путь,"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "weite",
+       "ru": "дальний"
+      },
+      {
+       "de": "Bahn.",
+       "ru": "путь."
+      }
+     ]
+    }
    ]
   },
   {
@@ -27,6 +310,150 @@
     "Du kannst nicht mit, siehst du, mein Kind,",
     "Wie leicht versinken meine Sterne,",
     "Wie leicht erwächst zum Sturm der Wind!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dort",
+       "ru": "Там"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "streckt... sich",
+       "ru": "простирается"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "öder",
+       "ru": "пустынной"
+      },
+      {
+       "de": "Ferne,",
+       "ru": "дали,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "sie — та самая weite Bahn («дальний путь») из предыдущей строфы, а не спутница героя. Sich strecken — «простираться, тянуться вдаль»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Du",
+       "ru": "Ты"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "kannst",
+       "ru": "можешь"
+      },
+      {
+       "de": "mit,",
+       "ru": "со мной,"
+      },
+      {
+       "de": "siehst du,",
+       "ru": "видишь ли,"
+      },
+      {
+       "de": "Kind,",
+       "ru": "дитя"
+      },
+      {
+       "de": "mein",
+       "ru": "моё,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Du kannst nicht mit — пропущен глагол движения (nicht mitkommen «не можешь пойти со мной»). Mein Kind в обращении к взрослой — «дитя моё»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "leicht",
+       "ru": "легко"
+      },
+      {
+       "de": "versinken",
+       "ru": "закатываются"
+      },
+      {
+       "de": "meine",
+       "ru": "мои"
+      },
+      {
+       "de": "Sterne,",
+       "ru": "звёзды,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "versinken — «уходить на дно, погружаться, скрываться из глаз»; о звёздах по-русски естественнее «закатываются»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "leicht",
+       "ru": "легко"
+      },
+      {
+       "de": "erwächst",
+       "ru": "вырастает"
+      },
+      {
+       "de": "zum",
+       "ru": "в"
+      },
+      {
+       "de": "Sturm",
+       "ru": "бурю"
+      },
+      {
+       "de": "der Wind!",
+       "ru": "ветер!"
+      }
+     ]
+    }
    ]
   },
   {
@@ -35,6 +462,192 @@
     "Wie trotzt ich ihm, wüsst ich dich in Noth!",
     "Dann droht in tausend Gestalten der Tod,",
     "Wie trotzt ich ihm, wüsst ich dich in Noth, wüsst ich dich in Noth."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dann",
+       "ru": "Тогда"
+      },
+      {
+       "de": "droht",
+       "ru": "грозит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "tausend",
+       "ru": "тысяче"
+      },
+      {
+       "de": "Gestalten",
+       "ru": "обликов"
+      },
+      {
+       "de": "der Tod,",
+       "ru": "смерть,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Der Tod в немецком мужского рода, и смерть в немецкой поэзии — фигура мужская: жених, друг, косарь; русская «смерть» женского рода, и подмену эту не обойти. Gestalt здесь — облик, обличье, а не «стан». Tausend («тысяча») в стихах означает «без числа»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "trotzt",
+       "ru": "противостоял бы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "ihm,",
+       "ru": "ему,"
+      },
+      {
+       "de": "wüsst",
+       "ru": "знай"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Noth!",
+       "ru": "беде!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "trotzt' и wüsst' — усечённые формы сослагательного (trotzte, wüsste): «как бы я ему противостоял, если бы знал тебя в беде». Условие обходится без союза wenn — его роль играет глагол на первом месте."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        8,
+        8
+       ],
+       "text": "Noth («беда») — написание эпохи, нынешнее Not; так стоит и в первом издании стихов, и в старом полном собрании сочинений."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dann",
+       "ru": "Тогда"
+      },
+      {
+       "de": "droht",
+       "ru": "грозит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "tausend",
+       "ru": "тысяче"
+      },
+      {
+       "de": "Gestalten",
+       "ru": "обликов"
+      },
+      {
+       "de": "der Tod,",
+       "ru": "смерть,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "trotzt",
+       "ru": "противостоял бы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "ihm,",
+       "ru": "ему,"
+      },
+      {
+       "de": "wüsst",
+       "ru": "знай"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Noth,",
+       "ru": "беде,"
+      },
+      {
+       "de": "wüsst",
+       "ru": "знай"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Noth.",
+       "ru": "беде."
+      }
+     ]
+    }
    ]
   },
   {
@@ -43,6 +656,150 @@
     "Und löse auch von mir dein Herz,",
     "Weiss ich es denn, ob ich's vollbringe",
     "Und siegreich kehre heimathwärts?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Löse",
+       "ru": "Разомкни"
+      },
+      {
+       "de": "Schlinge,",
+       "ru": "кольцо"
+      },
+      {
+       "de": "deiner",
+       "ru": "своих"
+      },
+      {
+       "de": "Arme",
+       "ru": "рук,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Lösen — «развязать, распустить», Schlinge — «петля, силок». По-русски объятие размыкают, а петля рук звучала бы зловеще, отсюда «разомкни кольцо». В следующей строке тот же глагол: löse dein Herz von mir — «освободи от меня своё сердце»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Отсюда музыка уходит в си мажор — второй из двух разделов, из которых сложена песня. Здесь, по словам Грэма Джонсона, безостановочные шестнадцатые в фортепиано сменяются восьмыми, и пианист получает передышку."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "löse",
+       "ru": "освободи"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "mir",
+       "ru": "меня"
+      },
+      {
+       "de": "auch",
+       "ru": "и"
+      },
+      {
+       "de": "dein",
+       "ru": "своё"
+      },
+      {
+       "de": "Herz,",
+       "ru": "сердце,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "denn,",
+       "ru": "Разве"
+      },
+      {
+       "de": "Weiss",
+       "ru": "знаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "es",
+       "ru": "то,"
+      },
+      {
+       "de": "vollbringe",
+       "ru": "совершу"
+      },
+      {
+       "de": "ob",
+       "ru": "ли"
+      },
+      {
+       "de": "ich's",
+       "ru": "я это"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Denn в вопросе — усилительная частица, по-русски «разве», и в переводе она ушла в начало фразы. ich's — стяжение ich es («я это»): апостроф стоит на месте выпавшего e. Первое es забегает вперёд и указывает на придаточное: «знаю ли я то — совершу ли я это»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "siegreich",
+       "ru": "победно"
+      },
+      {
+       "de": "kehre",
+       "ru": "вернусь"
+      },
+      {
+       "de": "heimathwärts?",
+       "ru": "домой?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "heimathwärts — написание эпохи: Heimath (нынешнее Heimat, «родина, дом») и суффикс направления -wärts, «в сторону дома». Kehren в стихах этих лет само по себе значит «возвращаться»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -51,6 +808,152 @@
     "Vielleicht ist's dieselbe, die mich verschlingt.",
     "Die Welle, die jetzt so lockend singt,",
     "Vielleicht ist's dieselbe, vielleicht ist's dieselbe, die mich verschlingt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Welle,",
+       "ru": "Волна,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "jetzt",
+       "ru": "теперь"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "lockend",
+       "ru": "маняще"
+      },
+      {
+       "de": "singt,",
+       "ru": "поёт,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "lockend — от locken «манить, приманивать»: пение волны зазывает к себе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vielleicht",
+       "ru": "Быть может,"
+      },
+      {
+       "de": "ist's",
+       "ru": "это"
+      },
+      {
+       "de": "dieselbe,",
+       "ru": "та же самая,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "verschlingt.",
+       "ru": "поглотит."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "ist's — ist es («это есть»); связка по-русски опускается. Dieselbe — «та же самая»: волна, которая зовёт, и волна, которая утопит, — одна и та же."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Welle,",
+       "ru": "Волна,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "jetzt",
+       "ru": "теперь"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "lockend",
+       "ru": "маняще"
+      },
+      {
+       "de": "singt,",
+       "ru": "поёт,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vielleicht",
+       "ru": "Быть может,"
+      },
+      {
+       "de": "ist's",
+       "ru": "это"
+      },
+      {
+       "de": "dieselbe,",
+       "ru": "та же самая,"
+      },
+      {
+       "de": "vielleicht",
+       "ru": "быть может,"
+      },
+      {
+       "de": "ist's",
+       "ru": "это"
+      },
+      {
+       "de": "dieselbe,",
+       "ru": "та же самая,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "verschlingt.",
+       "ru": "поглотит."
+      }
+     ]
+    }
    ]
   },
   {
@@ -59,6 +962,138 @@
     "Dass ich allein auf Erden bin,",
     "Dann beugt sich vor dem Ungeheuern,",
     "Vor'm Unerhörten nicht mein Sinn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Lass",
+       "ru": "Дай"
+      },
+      {
+       "de": "mich",
+       "ru": "мне"
+      },
+      {
+       "de": "steuern,",
+       "ru": "править"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Bewusstsein",
+       "ru": "сознании,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "steuern — «править судном», морское слово. Im Bewusstsein, dass… — оборот «сознавая, что…»; следующая строка договаривает, что именно герой должен сознавать."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Что"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "bin,",
+       "ru": "—"
+      },
+      {
+       "de": "allein",
+       "ru": "один"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Erden",
+       "ru": "земле,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "allein — «один, одинокий»; то же слово в начале фразы значило бы «но», а после существительного — «только». Erden — старая форма дательного падежа от Erde («земля»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Тогда",
+       "de": "Dann"
+      },
+      {
+       "ru": "не",
+       "de": ""
+      },
+      {
+       "ru": "склонится",
+       "de": "beugt... sich"
+      },
+      {
+       "ru": "перед",
+       "de": "vor"
+      },
+      {
+       "ru": "чудовищным,",
+       "de": "dem Ungeheuern,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ни",
+       "de": "nicht"
+      },
+      {
+       "ru": "перед",
+       "de": "Vor'm"
+      },
+      {
+       "ru": "неслыханным",
+       "de": "Unerhörten"
+      },
+      {
+       "ru": "мой",
+       "de": "mein"
+      },
+      {
+       "ru": "рассудок.",
+       "de": "Sinn."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Отрицание nicht стоит в этой строке, а относится к глаголу предыдущей: «не склонится ни перед чудовищным, ни перед неслыханным мой рассудок». По-русски «не» ушло к глаголу, а на месте nicht осталось «ни». Vor'm — стяжение vor dem, обычное в стихе ради размера. Sinn — «рассудок», не «смысл» и не «чувство»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -67,6 +1102,136 @@
     "Und stehe plötzlich, vielleicht, am Ziel.",
     "Ich treibe mit dem Entsetzen Spiel,",
     "Und stehe plötzlich, vielleicht am Ziel, vielleicht am Ziel."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "treibe... Spiel,",
+       "ru": "играю"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "dem Entsetzen",
+       "ru": "ужасом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Spiel treiben mit etwas — оборот «играть, заигрывать с чем-либо»; глагол и существительное держатся вместе, поэтому в переводе они слились в одно слово."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "stehe",
+       "ru": "стою"
+      },
+      {
+       "de": "plötzlich,",
+       "ru": "вдруг,"
+      },
+      {
+       "de": "vielleicht,",
+       "ru": "быть может,"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "Ziel.",
+       "ru": "цели."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Ziel около 1800 года шире нынешнего: и цель, к которой стремятся, и конец, предел. «Вдруг у цели» — и о береге, до которого доплывёшь, и о конце пути."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "treibe... Spiel,",
+       "ru": "играю"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "dem Entsetzen",
+       "ru": "ужасом,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "stehe",
+       "ru": "стою"
+      },
+      {
+       "de": "plötzlich,",
+       "ru": "вдруг,"
+      },
+      {
+       "de": "vielleicht",
+       "ru": "быть может,"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "Ziel,",
+       "ru": "цели,"
+      },
+      {
+       "de": "vielleicht",
+       "ru": "быть может,"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "Ziel.",
+       "ru": "цели."
+      }
+     ]
+    }
    ]
   },
   {
@@ -75,6 +1240,148 @@
     "Dann hat's mit mir noch keine Noth,",
     "Das Leben will ich nicht entbehren,",
     "Und kämpfen will ich mit dem Tod."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Denn,",
+       "ru": "Ведь"
+      },
+      {
+       "de": "",
+       "ru": "если"
+      },
+      {
+       "de": "nur",
+       "ru": "только"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "sehn",
+       "ru": "видеть"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "hören,",
+       "ru": "слышать,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Условие снова без союза: глагол стоит первым (kann ich… = wenn ich… kann), и по-русски приходится вставить «если» — в немецком этого слова нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dann",
+       "ru": "Тогда"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "mir",
+       "ru": "мной"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "hat's... keine",
+       "ru": "нет"
+      },
+      {
+       "de": "Noth,",
+       "ru": "беды,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "es hat keine Noth — оборот тех лет: «беды нет, дело не так страшно». Hat's — hat es."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Das Leben",
+       "ru": "Жизни"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "entbehren,",
+       "ru": "лишаться,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "kämpfen",
+       "ru": "бороться"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "dem Tod.",
+       "ru": "смертью."
+      }
+     ]
+    }
    ]
   },
   {
@@ -83,6 +1390,172 @@
     "Die Engel so schön wie dich umfasst!",
     "Wie würde mir eine Welt zur Last,",
     "Die Engel so schön, die Engel so schön wie dich umfasst!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "würde",
+       "ru": "стал бы"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "eine Welt",
+       "ru": "мир"
+      },
+      {
+       "de": "zur",
+       "ru": "в"
+      },
+      {
+       "de": "Last,",
+       "ru": "тягость,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "jemandem zur Last werden — «стать в тягость кому-либо»; würde — сослагательное от werden («становиться»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "В старом полном собрании строка длиннее на одно слово: Wie würde mir je eine Welt zur Last — «когда бы мир вообще стал мне в тягость»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Который"
+      },
+      {
+       "de": "Engel",
+       "ru": "ангелов"
+      },
+      {
+       "de": "so",
+       "ru": "таких"
+      },
+      {
+       "de": "schön",
+       "ru": "прекрасных,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "dich",
+       "ru": "ты,"
+      },
+      {
+       "de": "umfasst!",
+       "ru": "вмещает!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Die — относительное местоимение к Welt («мир»): мир, который вмещает ангелов, прекрасных, как ты. Umfassen — «обнимать, охватывать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "würde",
+       "ru": "стал бы"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "eine Welt",
+       "ru": "мир"
+      },
+      {
+       "de": "zur",
+       "ru": "в"
+      },
+      {
+       "de": "Last,",
+       "ru": "тягость,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die",
+       "ru": "Который"
+      },
+      {
+       "de": "Engel",
+       "ru": "ангелов"
+      },
+      {
+       "de": "so",
+       "ru": "таких"
+      },
+      {
+       "de": "schön,",
+       "ru": "прекрасных,"
+      },
+      {
+       "de": "die",
+       "ru": "который"
+      },
+      {
+       "de": "Engel",
+       "ru": "ангелов"
+      },
+      {
+       "de": "so",
+       "ru": "таких"
+      },
+      {
+       "de": "schön",
+       "ru": "прекрасных,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "dich",
+       "ru": "ты,"
+      },
+      {
+       "de": "umfasst!",
+       "ru": "вмещает!"
+      }
+     ]
+    }
    ]
   },
   {
@@ -93,6 +1566,232 @@
     "Noch eine, eine treue Hand,",
     "Der weder Verachtung noch Schmerz es wehrt,",
     "Dass sie meinen Resten ein Grab beschert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "если"
+      },
+      {
+       "de": "auch",
+       "ru": "даже"
+      },
+      {
+       "de": "spült",
+       "ru": "вынесет"
+      },
+      {
+       "de": "dann",
+       "ru": "тогда"
+      },
+      {
+       "de": "die falsche",
+       "ru": "коварная"
+      },
+      {
+       "de": "Welle",
+       "ru": "волна"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Ещё одно условие без союза: «и если даже вынесет…»; ответ придёт в третьей строке (so… doch — «то всё же»). Falsch о стихии — «коварный, вероломный»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "todt",
+       "ru": "мёртвым"
+      },
+      {
+       "de": "zurück",
+       "ru": "обратно"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Blumenstrand,",
+       "ru": "цветущему берегу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Blumenstrand — сложное слово Шобера из Blume («цветок») и Strand («берег»): цветущий берег, к которому волна вынесет тело. Todt — написание эпохи, нынешнее tot («мёртвый»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "То"
+      },
+      {
+       "de": "weiss",
+       "ru": "знаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "doch",
+       "ru": "всё же"
+      },
+      {
+       "de": "an",
+       "ru": "в"
+      },
+      {
+       "de": "lieber",
+       "ru": "милом"
+      },
+      {
+       "de": "Stelle",
+       "ru": "месте"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Noch",
+       "ru": "Ещё"
+      },
+      {
+       "de": "eine,",
+       "ru": "одну,"
+      },
+      {
+       "de": "eine",
+       "ru": "одну"
+      },
+      {
+       "de": "treue",
+       "ru": "верную"
+      },
+      {
+       "de": "Hand,",
+       "ru": "руку,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Которой"
+      },
+      {
+       "de": "weder",
+       "ru": "ни"
+      },
+      {
+       "de": "Verachtung",
+       "ru": "презрение,"
+      },
+      {
+       "de": "noch",
+       "ru": "ни"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "скорбь"
+      },
+      {
+       "de": "es",
+       "ru": "того"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "wehrt,",
+       "ru": "запретят,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        7,
+        7
+       ],
+       "text": "weder… noch — «ни… ни»; по-русски к ним добавляется ещё и «не» при глаголе. Wehren с дательным — «препятствовать, не давать»: ни презрение, ни скорбь не помешают этой руке сделать то, о чём говорит следующая строка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "meinen",
+       "ru": "моим"
+      },
+      {
+       "de": "Resten",
+       "ru": "останкам"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert.",
+       "ru": "уготовила."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Малколм Рен читает финал как фантазию о Liebestod («любви-смерти»): героя поглощают волны и выносят к ногам того, кого он любит, и эти руки кладут его в могилу."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "bescheren в старом значении — «уделить, ниспослать в удел» (о Боге, о судьбе); нынешнее «дарить к празднику» пришло позже. Reste — «останки»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -105,11 +1804,271 @@
     "Dass sie meinen Resten ein Grab beschert,",
     "Der weder Verachtung noch Schmerz es wehrt,",
     "Dass sie meinen Resten ein Grab beschert, ein Grab beschert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "если"
+      },
+      {
+       "de": "auch",
+       "ru": "даже"
+      },
+      {
+       "de": "spült",
+       "ru": "вынесет"
+      },
+      {
+       "de": "dann",
+       "ru": "тогда"
+      },
+      {
+       "de": "die falsche",
+       "ru": "коварная"
+      },
+      {
+       "de": "Welle",
+       "ru": "волна"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "todt",
+       "ru": "мёртвым"
+      },
+      {
+       "de": "zurück",
+       "ru": "обратно"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Blumenstrand,",
+       "ru": "цветущему берегу,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "То"
+      },
+      {
+       "de": "weiss",
+       "ru": "знаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "doch",
+       "ru": "всё же"
+      },
+      {
+       "de": "an",
+       "ru": "в"
+      },
+      {
+       "de": "lieber",
+       "ru": "милом"
+      },
+      {
+       "de": "Stelle",
+       "ru": "месте"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Noch",
+       "ru": "Ещё"
+      },
+      {
+       "de": "eine,",
+       "ru": "одну,"
+      },
+      {
+       "de": "eine",
+       "ru": "одну"
+      },
+      {
+       "de": "treue",
+       "ru": "верную"
+      },
+      {
+       "de": "Hand,",
+       "ru": "руку,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Которой"
+      },
+      {
+       "de": "weder",
+       "ru": "ни"
+      },
+      {
+       "de": "Verachtung",
+       "ru": "презрение,"
+      },
+      {
+       "de": "noch",
+       "ru": "ни"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "скорбь"
+      },
+      {
+       "de": "es",
+       "ru": "того"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "wehrt,",
+       "ru": "запретят,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "meinen",
+       "ru": "моим"
+      },
+      {
+       "de": "Resten",
+       "ru": "останкам"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert,",
+       "ru": "уготовила,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Которой"
+      },
+      {
+       "de": "weder",
+       "ru": "ни"
+      },
+      {
+       "de": "Verachtung",
+       "ru": "презрение,"
+      },
+      {
+       "de": "noch",
+       "ru": "ни"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "скорбь"
+      },
+      {
+       "de": "es",
+       "ru": "того"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "wehrt,",
+       "ru": "запретят,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "meinen",
+       "ru": "моим"
+      },
+      {
+       "de": "Resten",
+       "ru": "останкам"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert,",
+       "ru": "уготовила,"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert.",
+       "ru": "уготовила."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "— Куплет 2 (те же первая и последняя части песни, что и в куплете 1; отличается только средняя часть, приведённая ниже) —"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "— Куплет 2 (те же первая и последняя части песни, что и в куплете 1; отличается только средняя часть, приведённая ниже) —",
+       "ru": ""
+      }
+     ]
+    }
    ]
   },
   {
@@ -118,6 +2077,96 @@
     "Es klatscht der Wind im Segeltuch,",
     "Und murmelt in den weissen Wellen",
     "Ich höre seinen wilden Spruch."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Wogen",
+       "ru": "Волны"
+      },
+      {
+       "de": "am",
+       "ru": "у"
+      },
+      {
+       "de": "Gestade",
+       "ru": "берега"
+      },
+      {
+       "de": "schwellen,",
+       "ru": "вздымаются,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es klatscht",
+       "ru": "Хлопает"
+      },
+      {
+       "de": "der Wind",
+       "ru": "ветер"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Segeltuch,",
+       "ru": "парусине,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "murmelt",
+       "ru": "журчит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den weissen",
+       "ru": "белых"
+      },
+      {
+       "de": "Wellen",
+       "ru": "волнах"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "höre",
+       "ru": "слышу"
+      },
+      {
+       "de": "seinen",
+       "ru": "его"
+      },
+      {
+       "de": "wilden",
+       "ru": "дикий"
+      },
+      {
+       "de": "Spruch.",
+       "ru": "глас."
+      }
+     ]
+    }
    ]
   },
   {
@@ -126,6 +2175,124 @@
     "Vor Ungeduld schaukelnd auf weite Bahn,",
     "Es ruft mich fort, es winkt der Kahn",
     "Vor Ungeduld schaukelnd auf weite Bahn, auf weite Bahn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Es ruft",
+       "ru": "Зовёт"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "fort,",
+       "ru": "прочь,"
+      },
+      {
+       "de": "es winkt",
+       "ru": "манит"
+      },
+      {
+       "de": "der Kahn",
+       "ru": "чёлн"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vor",
+       "ru": "От"
+      },
+      {
+       "de": "Ungeduld",
+       "ru": "нетерпения"
+      },
+      {
+       "de": "schaukelnd",
+       "ru": "качаясь"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "weite",
+       "ru": "дальний"
+      },
+      {
+       "de": "Bahn,",
+       "ru": "путь,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es ruft",
+       "ru": "Зовёт"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "fort,",
+       "ru": "прочь,"
+      },
+      {
+       "de": "es winkt",
+       "ru": "манит"
+      },
+      {
+       "de": "der Kahn",
+       "ru": "чёлн"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vor",
+       "ru": "От"
+      },
+      {
+       "de": "Ungeduld",
+       "ru": "нетерпения"
+      },
+      {
+       "de": "schaukelnd",
+       "ru": "качаясь"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "weite",
+       "ru": "дальний"
+      },
+      {
+       "de": "Bahn,",
+       "ru": "путь,"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "weite",
+       "ru": "дальний"
+      },
+      {
+       "de": "Bahn.",
+       "ru": "путь."
+      }
+     ]
+    }
    ]
   },
   {
@@ -134,6 +2301,120 @@
     "Du kannst nicht mit, siehst du, mein Kind,",
     "Wie leicht versinken meine Sterne,",
     "Wie leicht erwächst zum Sturm der Wind!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dort",
+       "ru": "Там"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "streckt... sich",
+       "ru": "простирается"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "öder",
+       "ru": "пустынной"
+      },
+      {
+       "de": "Ferne,",
+       "ru": "дали,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Du",
+       "ru": "Ты"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "kannst",
+       "ru": "можешь"
+      },
+      {
+       "de": "mit,",
+       "ru": "со мной,"
+      },
+      {
+       "de": "siehst du,",
+       "ru": "видишь ли,"
+      },
+      {
+       "de": "Kind,",
+       "ru": "дитя"
+      },
+      {
+       "de": "mein",
+       "ru": "моё,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "leicht",
+       "ru": "легко"
+      },
+      {
+       "de": "versinken",
+       "ru": "закатываются"
+      },
+      {
+       "de": "meine",
+       "ru": "мои"
+      },
+      {
+       "de": "Sterne,",
+       "ru": "звёзды,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "leicht",
+       "ru": "легко"
+      },
+      {
+       "de": "erwächst",
+       "ru": "вырастает"
+      },
+      {
+       "de": "zum",
+       "ru": "в"
+      },
+      {
+       "de": "Sturm",
+       "ru": "бурю"
+      },
+      {
+       "de": "der Wind!",
+       "ru": "ветер!"
+      }
+     ]
+    }
    ]
   },
   {
@@ -142,6 +2423,164 @@
     "Wie trotzt ich ihm, wüsst ich dich in Noth!",
     "Dann droht in tausend Gestalten der Tod,",
     "Wie trotzt ich ihm, wüsst ich dich in Noth, wüsst ich dich in Noth."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dann",
+       "ru": "Тогда"
+      },
+      {
+       "de": "droht",
+       "ru": "грозит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "tausend",
+       "ru": "тысяче"
+      },
+      {
+       "de": "Gestalten",
+       "ru": "обликов"
+      },
+      {
+       "de": "der Tod,",
+       "ru": "смерть,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "trotzt",
+       "ru": "противостоял бы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "ihm,",
+       "ru": "ему,"
+      },
+      {
+       "de": "wüsst",
+       "ru": "знай"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Noth!",
+       "ru": "беде!"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dann",
+       "ru": "Тогда"
+      },
+      {
+       "de": "droht",
+       "ru": "грозит"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "tausend",
+       "ru": "тысяче"
+      },
+      {
+       "de": "Gestalten",
+       "ru": "обликов"
+      },
+      {
+       "de": "der Tod,",
+       "ru": "смерть,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "trotzt",
+       "ru": "противостоял бы"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "ihm,",
+       "ru": "ему,"
+      },
+      {
+       "de": "wüsst",
+       "ru": "знай"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Noth,",
+       "ru": "беде,"
+      },
+      {
+       "de": "wüsst",
+       "ru": "знай"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Noth.",
+       "ru": "беде."
+      }
+     ]
+    }
    ]
   },
   {
@@ -150,6 +2589,138 @@
     "Noch gingst du nichts Unlösbares ein,",
     "Trenne schnell dein junges Leben",
     "Von meinem ungewissen Sein."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Noch",
+       "ru": "Ещё"
+      },
+      {
+       "de": "ist's",
+       "ru": "это"
+      },
+      {
+       "de": "gegeben,",
+       "ru": "дано"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "deine",
+       "ru": "твою"
+      },
+      {
+       "de": "Hand",
+       "ru": "руку,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "ist's — ist es. In jemandes Hand gegeben sein — «отдано в чьи-то руки»: пока всё зависит от тебя."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Noch",
+       "ru": "Ещё"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "gingst... ein,",
+       "ru": "вступила"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "nichts",
+       "ru": "ни во что"
+      },
+      {
+       "de": "Unlösbares",
+       "ru": "нерасторжимое,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Глагол eingehen разорван: gingst… ein — «вступила, заключила». Nichts — «ничто», и по-русски при нём нужно второе отрицание: «не вступила ни во что»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Trenne",
+       "ru": "Отдели"
+      },
+      {
+       "de": "schnell",
+       "ru": "быстро"
+      },
+      {
+       "de": "dein",
+       "ru": "свою"
+      },
+      {
+       "de": "junges",
+       "ru": "молодую"
+      },
+      {
+       "de": "Leben",
+       "ru": "жизнь"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Von",
+       "ru": "От"
+      },
+      {
+       "de": "meinem",
+       "ru": "моего"
+      },
+      {
+       "de": "ungewissen",
+       "ru": "неверного"
+      },
+      {
+       "de": "Sein.",
+       "ru": "бытия."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "ungewiss — «ненадёжный, о котором нельзя знать наперёд»: жизнь моряка, за которую никто не поручится."
+      }
+     ]
+    }
    ]
   },
   {
@@ -158,6 +2729,148 @@
     "Entsagung ist leichter als Verlust.",
     "O wolle, o wolle, bevor du musst,",
     "Entsagung ist leichter, Entsagung ist leichter als Verlust."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О"
+      },
+      {
+       "de": "wolle,",
+       "ru": "пожелай,"
+      },
+      {
+       "de": "wolle,",
+       "ru": "пожелай,"
+      },
+      {
+       "de": "bevor",
+       "ru": "прежде чем"
+      },
+      {
+       "de": "du",
+       "ru": "тебе"
+      },
+      {
+       "de": "musst,",
+       "ru": "придётся,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "wolle — повелительное от wollen («хотеть»): «захоти сама». Bevor du musst — с пропущенным глаголом: «прежде чем придётся поневоле»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Entsagung",
+       "ru": "Отречение"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "leichter",
+       "ru": "легче,"
+      },
+      {
+       "de": "als",
+       "ru": "чем"
+      },
+      {
+       "de": "Verlust.",
+       "ru": "потеря."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Entsagung («отречение») — книжное слово: добровольный отказ; Verlust («потеря») — то, чего не выбирают."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О"
+      },
+      {
+       "de": "wolle,",
+       "ru": "пожелай,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "wolle,",
+       "ru": "пожелай,"
+      },
+      {
+       "de": "bevor",
+       "ru": "прежде чем"
+      },
+      {
+       "de": "du",
+       "ru": "тебе"
+      },
+      {
+       "de": "musst,",
+       "ru": "придётся,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Entsagung",
+       "ru": "Отречение"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "leichter,",
+       "ru": "легче,"
+      },
+      {
+       "de": "Entsagung",
+       "ru": "отречение"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "leichter",
+       "ru": "легче,"
+      },
+      {
+       "de": "als",
+       "ru": "чем"
+      },
+      {
+       "de": "Verlust.",
+       "ru": "потеря."
+      }
+     ]
+    }
    ]
   },
   {
@@ -166,6 +2879,132 @@
     "Wird stets dein Bild begeisternd stehn,",
     "Und angeflammet von den Blitzen,",
     "Mit seinem Glanz den Muth erhöhn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Hoch",
+       "ru": "Высоко"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Spitzen",
+       "ru": "верхушках"
+      },
+      {
+       "de": "meiner",
+       "ru": "моих"
+      },
+      {
+       "de": "Masten",
+       "ru": "мачт"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Родительный падеж стоит впереди: meiner Masten Spitzen — «верхушки моих мачт». Spitzen здесь существительное («верхушки, острия»), а не глагол."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "stets",
+       "ru": "Всегда"
+      },
+      {
+       "de": "dein",
+       "ru": "твой"
+      },
+      {
+       "de": "Bild",
+       "ru": "образ,"
+      },
+      {
+       "de": "begeisternd",
+       "ru": "воодушевляя,"
+      },
+      {
+       "de": "Wird... stehn,",
+       "ru": "будет стоять,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Bild («образ») — живой образ, каким его носят в душе; вещное «изображение» в песенных текстах редкость. Рамка wird… stehn («будет стоять») растянута на всю строку, между её половинами — подлежащее и деепричастие."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "angeflammet",
+       "ru": "озарённый"
+      },
+      {
+       "de": "von den Blitzen,",
+       "ru": "молниями,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "angeflammet — причастие с окончанием эпохи (нынешнее angeflammt) от anflammen «воспламенять, зажигать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit seinem",
+       "ru": "Своим"
+      },
+      {
+       "de": "Glanz",
+       "ru": "сиянием"
+      },
+      {
+       "de": "den Muth",
+       "ru": "мужество"
+      },
+      {
+       "de": "erhöhn.",
+       "ru": "возвышать."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Muth — написание эпохи, нынешнее Mut («мужество»); erhöhn — усечённое erhöhen, и оба глагола, stehn и erhöhn, зависят от wird («будет») из второй строки."
+      }
+     ]
+    }
    ]
   },
   {
@@ -174,6 +3013,128 @@
     "Übertäubet nicht deiner Stimme Klang.",
     "Der Winde Heulen, auch noch so bang,",
     "Übertäubet nicht deiner Stimme Klang, deiner Stimme Klang."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Heulen,",
+       "ru": "Вой"
+      },
+      {
+       "de": "Der Winde",
+       "ru": "ветров,"
+      },
+      {
+       "de": "auch noch so",
+       "ru": "как бы ни был он"
+      },
+      {
+       "de": "bang,",
+       "ru": "тревожен,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "auch noch so — уступительный оборот «как бы ни». Der Winde Heulen — опять родительный впереди: «вой ветров»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "Übertäubet",
+       "ru": "заглушит"
+      },
+      {
+       "de": "Klang.",
+       "ru": "звука"
+      },
+      {
+       "de": "deiner",
+       "ru": "твоего"
+      },
+      {
+       "de": "Stimme",
+       "ru": "голоса."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "übertäuben — по Гриммам «оглушить шумом»: заглушить, перекрыть."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Heulen,",
+       "ru": "Вой"
+      },
+      {
+       "de": "Der Winde",
+       "ru": "ветров,"
+      },
+      {
+       "de": "auch noch so",
+       "ru": "как бы ни был он"
+      },
+      {
+       "de": "bang,",
+       "ru": "тревожен,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "Übertäubet",
+       "ru": "заглушит"
+      },
+      {
+       "de": "Klang,",
+       "ru": "звука"
+      },
+      {
+       "de": "deiner",
+       "ru": "твоего"
+      },
+      {
+       "de": "Stimme",
+       "ru": "голоса,"
+      },
+      {
+       "de": "Klang.",
+       "ru": "звука"
+      },
+      {
+       "de": "deiner",
+       "ru": "твоего"
+      },
+      {
+       "de": "Stimme",
+       "ru": "голоса."
+      }
+     ]
+    }
    ]
   },
   {
@@ -182,6 +3143,146 @@
     "Mit Freundschaftsthränen weih es ein:",
     "Es soll in Schmerz und Freude tragen",
     "Dein Trost und dein Vertrauter sein!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Auch",
+       "ru": "И"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "sollst",
+       "ru": "должна"
+      },
+      {
+       "de": "zerschlagen,",
+       "ru": "разбивать"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Bild",
+       "ru": "образ,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Auch — «и ты тоже»: перед этим герой уже просил отпустить его. Sollen в такой просьбе звучит как завет: «пусть же ты не разобьёшь мой образ»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit Freundschaftsthränen",
+       "ru": "Слезами дружбы"
+      },
+      {
+       "de": "weih... ein:",
+       "ru": "освяти"
+      },
+      {
+       "de": "es",
+       "ru": "его:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Глагол einweihen разорван: weih… ein — «освяти, посвяти», слово обрядовое. Freundschaftsthränen — сложное слово Шобера: Freundschaft («дружба») и Thränen (нынешнее Tränen, «слёзы»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es",
+       "ru": "Оно"
+      },
+      {
+       "de": "soll",
+       "ru": "должно"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "скорби"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Freude",
+       "ru": "радости"
+      },
+      {
+       "de": "tragen",
+       "ru": "нести"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dein",
+       "ru": "Твоим"
+      },
+      {
+       "de": "Trost",
+       "ru": "утешением"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "dein",
+       "ru": "твоим"
+      },
+      {
+       "de": "Vertrauter",
+       "ru": "наперсником"
+      },
+      {
+       "de": "sein!",
+       "ru": "быть!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Обе неопределённые формы, tragen («нести») и sein («быть»), подчинены одному soll: образ должен и нести — в скорби и в радости, — и быть тебе утешением и наперсником. При tragen прямого дополнения нет, и по-русски оно тоже остаётся невысказанным; der Vertraute («наперсник») — тот, кому доверяют всё."
+      }
+     ]
+    }
    ]
   },
   {
@@ -190,6 +3291,156 @@
     "Mein Freund, im heimischen Paradies!",
     "Ja, bleibe, wenn mich auch Alles verliess,",
     "Mein Freund. Ja, bleibe, mein Freund, im heimischen Paradies."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ja,",
+       "ru": "Да,"
+      },
+      {
+       "de": "bleibe,",
+       "ru": "останься,"
+      },
+      {
+       "de": "wenn",
+       "ru": "если"
+      },
+      {
+       "de": "auch",
+       "ru": "даже"
+      },
+      {
+       "de": "Alles",
+       "ru": "всё"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "verliess,",
+       "ru": "покинуло,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        6
+       ],
+       "text": "Alles с прописной — субстантивированное «всё»; verliess — прошедшее от verlassen («покидать»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mein",
+       "ru": "Мой"
+      },
+      {
+       "de": "Freund,",
+       "ru": "друг,"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "heimischen",
+       "ru": "родном"
+      },
+      {
+       "de": "Paradies!",
+       "ru": "раю!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Здесь, по Грэму Джонсону, ключ ко всей песне: стоит Mein Freund («мой друг»), а не Meine Freundin («моя подруга»), и больше нигде в стихотворении нет слова, по которому можно было бы судить, к кому оно обращено."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ja,",
+       "ru": "Да,"
+      },
+      {
+       "de": "bleibe,",
+       "ru": "останься,"
+      },
+      {
+       "de": "wenn",
+       "ru": "если"
+      },
+      {
+       "de": "auch",
+       "ru": "даже"
+      },
+      {
+       "de": "Alles",
+       "ru": "всё"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "verliess,",
+       "ru": "покинуло,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mein",
+       "ru": "Мой"
+      },
+      {
+       "de": "Freund.",
+       "ru": "друг."
+      },
+      {
+       "de": "Ja,",
+       "ru": "Да,"
+      },
+      {
+       "de": "bleibe,",
+       "ru": "останься,"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Freund,",
+       "ru": "друг,"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "heimischen",
+       "ru": "родном"
+      },
+      {
+       "de": "Paradies.",
+       "ru": "раю."
+      }
+     ]
+    }
    ]
   },
   {
@@ -200,6 +3451,184 @@
     "Noch eine, eine treue Hand,",
     "Der weder Verachtung noch Schmerz es wehrt,",
     "Dass sie meinen Resten ein Grab beschert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "если"
+      },
+      {
+       "de": "auch",
+       "ru": "даже"
+      },
+      {
+       "de": "spült",
+       "ru": "вынесет"
+      },
+      {
+       "de": "dann",
+       "ru": "тогда"
+      },
+      {
+       "de": "die falsche",
+       "ru": "коварная"
+      },
+      {
+       "de": "Welle",
+       "ru": "волна"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "todt",
+       "ru": "мёртвым"
+      },
+      {
+       "de": "zurück",
+       "ru": "обратно"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Blumenstrand,",
+       "ru": "цветущему берегу,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "То"
+      },
+      {
+       "de": "weiss",
+       "ru": "знаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "doch",
+       "ru": "всё же"
+      },
+      {
+       "de": "an",
+       "ru": "в"
+      },
+      {
+       "de": "lieber",
+       "ru": "милом"
+      },
+      {
+       "de": "Stelle",
+       "ru": "месте"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Noch",
+       "ru": "Ещё"
+      },
+      {
+       "de": "eine,",
+       "ru": "одну,"
+      },
+      {
+       "de": "eine",
+       "ru": "одну"
+      },
+      {
+       "de": "treue",
+       "ru": "верную"
+      },
+      {
+       "de": "Hand,",
+       "ru": "руку,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Которой"
+      },
+      {
+       "de": "weder",
+       "ru": "ни"
+      },
+      {
+       "de": "Verachtung",
+       "ru": "презрение,"
+      },
+      {
+       "de": "noch",
+       "ru": "ни"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "скорбь"
+      },
+      {
+       "de": "es",
+       "ru": "того"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "wehrt,",
+       "ru": "запретят,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "meinen",
+       "ru": "моим"
+      },
+      {
+       "de": "Resten",
+       "ru": "останкам"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert.",
+       "ru": "уготовила."
+      }
+     ]
+    }
    ]
   },
   {
@@ -212,8 +3641,306 @@
     "Dass sie meinen Resten ein Grab beschert,",
     "Der weder Verachtung noch Schmerz es wehrt,",
     "Dass sie meinen Resten ein Grab beschert, ein Grab beschert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "если"
+      },
+      {
+       "de": "auch",
+       "ru": "даже"
+      },
+      {
+       "de": "spült",
+       "ru": "вынесет"
+      },
+      {
+       "de": "dann",
+       "ru": "тогда"
+      },
+      {
+       "de": "die falsche",
+       "ru": "коварная"
+      },
+      {
+       "de": "Welle",
+       "ru": "волна"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "todt",
+       "ru": "мёртвым"
+      },
+      {
+       "de": "zurück",
+       "ru": "обратно"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Blumenstrand,",
+       "ru": "цветущему берегу,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "То"
+      },
+      {
+       "de": "weiss",
+       "ru": "знаю"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "doch",
+       "ru": "всё же"
+      },
+      {
+       "de": "an",
+       "ru": "в"
+      },
+      {
+       "de": "lieber",
+       "ru": "милом"
+      },
+      {
+       "de": "Stelle",
+       "ru": "месте"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Noch",
+       "ru": "Ещё"
+      },
+      {
+       "de": "eine,",
+       "ru": "одну,"
+      },
+      {
+       "de": "eine",
+       "ru": "одну"
+      },
+      {
+       "de": "treue",
+       "ru": "верную"
+      },
+      {
+       "de": "Hand,",
+       "ru": "руку,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Которой"
+      },
+      {
+       "de": "weder",
+       "ru": "ни"
+      },
+      {
+       "de": "Verachtung",
+       "ru": "презрение,"
+      },
+      {
+       "de": "noch",
+       "ru": "ни"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "скорбь"
+      },
+      {
+       "de": "es",
+       "ru": "того"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "wehrt,",
+       "ru": "запретят,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "meinen",
+       "ru": "моим"
+      },
+      {
+       "de": "Resten",
+       "ru": "останкам"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert,",
+       "ru": "уготовила,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Которой"
+      },
+      {
+       "de": "weder",
+       "ru": "ни"
+      },
+      {
+       "de": "Verachtung",
+       "ru": "презрение,"
+      },
+      {
+       "de": "noch",
+       "ru": "ни"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "скорбь"
+      },
+      {
+       "de": "es",
+       "ru": "того"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "wehrt,",
+       "ru": "запретят,"
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "meinen",
+       "ru": "моим"
+      },
+      {
+       "de": "Resten",
+       "ru": "останкам"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert,",
+       "ru": "уготовила,"
+      },
+      {
+       "de": "ein Grab",
+       "ru": "могилу"
+      },
+      {
+       "de": "beschert.",
+       "ru": "уготовила."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        7,
+        7
+       ],
+       "text": "По разбору Грэма Джонсона, последняя строфа начинается прежней ми-минорной музыкой, но после тринадцати тактов уходит в расширенную коду."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Franz von Schober"
+ "about": [
+  {
+   "title": "Февраль 1827 года",
+   "text": "Песня написана в феврале 1827 года; Шуберту было тридцать лет.\nС марта 1827-го и до августа 1828 года он снова жил в квартире Шоберов на Тухлаубен — во второй раз под одной крышей с автором этих стихов."
+  },
+  {
+   "title": "Публикация",
+   "text": "При жизни Шуберта песня не печаталась. Её выпустило венское издательство A. Diabelli & Co. 25 сентября 1833 года — двадцать четвёртой тетрадью посмертной серии «Nachlass» («Наследие»), издательский номер 4272; в тот же день о выпуске объявила «Wiener Zeitung» («Венская газета»). В тетради «Schiffers Scheidelied» напечатана в паре с песней «Todtengräbers Heimweh» («Тоска могильщика по дому») на стихи поэта Крейгера.\nВ старом полном собрании сочинений песня стоит в серии XX, том 8, под номером 516, в новом — в серии IV, том 14; Отто Эрих Дойч, составитель тематического каталога сочинений Шуберта, описал её на 572-й странице."
+  },
+  {
+   "title": "Франц фон Шобер",
+   "text": "Франц фон Шобер — ближайший друг Шуберта: поэт-дилетант и заводила венского дружеского круга, в чьей семейной квартире композитор жил дважды, в 1816–1817 и в 1827–1828 годах. Родился он в Швеции, в имении Торуп под Мальмё, в немецкой семье; учился в Кремсмюнстере, с 1815 года изучал в Вене право. Шобер познакомил Шуберта с певцом Иоганном Михаэлем Фоглем, который стал главным исполнителем его песен, и на дружеских вечерах, прозванных шубертиадами, звучали новые сочинения. На стихи Шобера написана и «An die Musik» («К музыке», D 547).\nО самом Шобере современники судили полярно. Оттенвальт, человек того же круга, при всём своём добросердечии считал его ненадёжным: цвет, по его словам, побит — откуда же взяться плоду. Йозеф Кеннер, знакомый Шобера ещё по школе в Кремсмюнстере, писал о нём с нескрываемой злостью: под маской любезной и даже подкупающей общительности, по его словам, скрывалась глубокая нравственная порочность. Последнее письмо умирающего Шуберта, с просьбой прислать романы Купера, адресовано Шоберу."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Стихи вышли в свет много позже песни: сборник «Gedichte von Franz von Schober» («Стихотворения Франца фон Шобера») напечатан в 1842 году в Штутгарте и Тюбингене у издателя Котты, и «Schiffers Scheidelied» стоит там на 36-й странице и далее. Шуберт положил стихотворение на музыку за пятнадцать лет до этого.\nРазночтения между текстом песни и сборником — только в написаниях: в сборнике и в старом полном собрании сочинений trotzt' и wüsst' стоят с апострофом, Noth («беда») — через th. Смысловое разночтение одно, и оно в старом полном собрании: в строке о мире, который стал бы герою в тягость, добавлено усиление je («вообще, когда-либо»).\nГрэм Джонсон, пианист и автор комментариев к антологии Hyperion Schubert Edition, замечает, что стихотворение написано на десять лет раньше самого известного немецкого прощания моряка — «Seemanns Abschied» («Прощание моряка») поэта Эйхендорфа."
+  },
+  {
+   "title": "Музыка",
+   "text": "Оригинальная тональность — ми минор.\nПесня сложена из двух чередующихся разделов. Джонсон сравнивает её устройство с «Romanze des Richard Löwenherz» («Романсом Ричарда Львиное Сердце»): там ось качается между си минором и си мажором, здесь — между ми минором и си мажором. Схема выходит такая: AA BB AA BB, а последнее A изменено и переходит в расширенную коду.\nПартия фортепиано идёт ломаными октавами, которые чаще всего повторяют рисунок вокальной линии; в этом Джонсон слышит новое для песенного письма Шуберта. Длинные полосы безостановочных шестнадцатых утомляют правую руку пианиста сильнее, чем прославленный «Erlkönig» («Лесной царь»): петь эту песню тяжело, но выдержки она требует прежде всего от того, кто сидит за роялем. Передышка одна — си-мажорные разделы, где шестнадцатые сменяются восьмыми."
+  },
+  {
+   "title": "Охотник и моряк",
+   "text": "Шобер моряком не был. Балтику он пересекал изредка, по семейным делам, связанным со Швецией, а жизнь прожил в сухопутной Австрии; Малколм Рен, автор разборов шубертовских песен на сайте schubertsong.uk, заключает из этого, что на буквальном уровне в прощании моряка нет ничего автобиографического.\nРядом с этой песней стоит «Jägers Liebeslied» («Любовная песнь охотника», D 909) на стихи того же Шобера. Джонсон называет обе песни близнецами и слышит в их несхожих настроениях и темпах флорестановскую и эвсебиевскую стороны натуры поэта — порывистую и мечтательную. Рен добавляет, что в двух стихотворениях повторяются одни и те же темы: похоже, поэт разбирается со своими переживаниями под масками охотника и моряка, и в обоих текстах спорят уверенный человек действия и скрытая от посторонних чувствительность. Джонсон говорит об этом жёстче: эгоцентричный Шобер любил стихи от первого лица, где сам выступал бесстрашным рассказчиком в разных лихих обличьях."
+  },
+  {
+   "title": "Кому это сказано",
+   "text": "Во всём стихотворении нет ни местоимения, ни окончания прилагательного, по которому можно было бы заключить, что эти слова обращены к женщине; Джонсон считает такую двусмысленность слишком выверенной, чтобы быть случайной, и решающей называет восьмую строфу стихотворения — там стоит Mein Freund («мой друг»), а не Meine Freundin («моя подруга»).\nКапелл, автор более раннего разбора, видел здесь моряка, полного тревоги перед плаванием, который уговаривает молодую женщину не связывать себя с человеком, почти наверняка обречённым. Джонсон возражает: такой героини в длинном тексте не найти.\nСам он слышит в стихах мужскую нежность с античными по духу гомоэротическими обертонами и вспоминает рядом поэтов Хаусмена и Уитмена, у которых это сказано прямее. Шобер, по словам Джонсона, отступает от такой прямоты даже на бумаге: ему хочется сразу и преданности друга, который остался дома и не сводит глаз с его портрета, и полной свободы. Тон стихов Джонсон сравнивает с тоном переписки Шобера с молодым художником Морицем фон Швиндом и приводит письмо Швинда Шоберу на смерть Шуберта, от 25 ноября 1828 года, как образец языка этого круга."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "На стихи Шобера Шуберт написал тринадцать сольных песен — столько известно сегодня; по-видимому, он клал их на музыку сразу или вскоре после того, как стихи были написаны.\nЕщё одна такая песня, «Augenblicke im Elysium» («Мгновения в Элизии»), пропала до того, как песни Шуберта начали собирать воедино. О ней говорит только подзаголовок стихотворения во втором, расширенном издании сборника Шобера (Лейпциг, 1865): «Von Franz Schubert in Musik gesetzt» — «положено на музыку Францем Шубертом»."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Запись певца Джеральда Финли и Грэма Джонсона (1999) вышла в антологии Hyperion Schubert Edition, в томе «Schubert in 1827» («Шуберт в 1827 году»); Джонсон писал, что это, насколько ему известно, первая запись песни целиком.\nПевец Дитрих Фишер-Дискау и пианист Джеральд Мур (1969, полное собрание песен Шуберта «Sämtliche Lieder» на Deutsche Grammophon) поют её без трёх строф — четвёртой, шестой и восьмой; форма сжимается до AABABA, и вместе с восьмой строфой уходит то самое Mein Freund («мой друг»).\nИз более ранних записей осталась работа певца Ханса Хоттера с пианистом Михаэлем Раухайзеном (1944, радиозапись из свода «Das Deutsche Lied» — «Немецкая песня»). Певец Кристиан Айхе и пианист Йенс Фур записали песню в 2002 году для серии Deutsche Schubert-Lied-Edition фирмы Naxos (том «Friends» — «Друзья»). Певец Яспер Швеппе и пианист Рико Фукуда, играющий на историческом фортепиано, записали её в 2025 году в нидерландской серии песен Шуберта (том 9, «Op. 108–115»)."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }

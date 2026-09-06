@@ -1,9 +1,16 @@
 {
  "d": "254",
  "title_de": "Der Gott und die Bajadere",
+ "title_ru": "Бог и баядера",
+ "poet_de": "Johann Wolfgang von Goethe",
+ "poet_ru": "Иоганн Вольфганг фон Гёте",
  "year": "1815",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Полное авторское заглавие — Der Gott und die Bajadere. Indische Legende («Бог и баядера. Индийская легенда»). Слово Bajadere пришло в немецкий из французского bayadère, а туда — из португальского bailadeira («танцовщица»): так в Европе называли танцовщиц индуистского храма, прежде всего на юге Индии. Ввести в балладу Шиву под именем Mahadöh — Махадева, «великий бог», — придумал, как отмечает Грэм Джонсон, сам Гёте."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -19,6 +26,402 @@
     "Die Grossen belauert, auf Kleine geachtet,",
     "Verlässt er sie Abends, um weiter zu gehn,",
     "Verlässt er sie Abends, um weiter zu gehn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Махадёв,",
+       "de": "Mahadöh"
+      },
+      {
+       "ru": "владыка",
+       "de": "der Herr"
+      },
+      {
+       "ru": "земли,",
+       "de": "der Erde"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Махадёв — так по-русски передано Mahadöh, гётевское имя Шивы (Махадева, «великий бог»). Обращение к владыке земли в первых же строках, замечает Джонсон, напомнило Шуберту гимн Гайдна императору: отсюда ровный, гимнический склад напева, на который поются все девять строф."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kommt",
+       "ru": "Сходит"
+      },
+      {
+       "de": "herab",
+       "ru": "вниз"
+      },
+      {
+       "de": "zum sechstenmal",
+       "ru": "в шестой раз,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "herab («вниз») — наречие при глаголе движения: kommt herab — «сходит вниз». Оборот zum sechstenmal («в шестой раз») напоминает об индуистских аватарах — земных нисхождениях божества."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "Unsersgleichen",
+       "ru": "нам подобным"
+      },
+      {
+       "de": "werde",
+       "ru": "стал,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Unsersgleichen — сложное местоименное слово «нам подобный, нам ровня» (по той же модели, что meinesgleichen, deinesgleichen). Смысл строки: чтобы стать одним из нас."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit",
+       "ru": "Вместе"
+      },
+      {
+       "de": "zu fühlen",
+       "ru": "чувствовать"
+      },
+      {
+       "de": "Freud",
+       "ru": "радость"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Qual",
+       "ru": "муку."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Mit zu fühlen — разъятый глагол mitfühlen («чувствовать вместе, сопереживать»): приставка отделена и вынесена в начало строки. Freud — стихотворное усечение слова Freude («радость»), без конечного -e, под пару к Qual."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "bequemt sich",
+       "ru": "соблаговолит"
+      },
+      {
+       "de": "hier",
+       "ru": "здесь"
+      },
+      {
+       "de": "zu wohnen",
+       "ru": "обитать,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "sich bequemen около 1800 года — «снизойти, соблаговолить», о том, кто высок положением и идёт навстречу. В нынешнем немецком у оборота появился неодобрительный оттенок «нехотя согласиться»; здесь его нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Lässt",
+       "ru": "Даёт"
+      },
+      {
+       "de": "alles",
+       "ru": "всему"
+      },
+      {
+       "de": "sich … geschehn",
+       "ru": "происходить"
+      },
+      {
+       "de": "selbst",
+       "ru": "само собой."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "lässt sich alles geschehn — «даёт всему с собой случаться», то есть ни во что не вмешивается; geschehn — обычная в стихе усечённая форма geschehen. Слово selbst стоит здесь в значении «сам, само собой», а не «даже»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Должен ли"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "strafen",
+       "ru": "карать"
+      },
+      {
+       "de": "oder",
+       "ru": "или"
+      },
+      {
+       "de": "schonen",
+       "ru": "щадить,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Придаточное условия без союза: глагол вынесен вперёд подлежащего (Soll er … , muss er …), и всё вместе значит «если ему предстоит карать или щадить, он должен…». Так же построены дальше строки Bist du müd и Ist Gehorsam im Gemüthe."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Muss",
+       "ru": "Должен"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "Menschen",
+       "ru": "людей"
+      },
+      {
+       "de": "menschlich",
+       "ru": "по-человечески"
+      },
+      {
+       "de": "sehn",
+       "ru": "видеть."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "когда"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "die Stadt",
+       "ru": "город"
+      },
+      {
+       "de": "als",
+       "ru": "как"
+      },
+      {
+       "de": "Wandrer",
+       "ru": "странник"
+      },
+      {
+       "de": "hat … sich … betrachtet",
+       "ru": "обозрел,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        6
+       ],
+       "text": "Опять условие-время без союза: «И когда он…, покидает он…». Русское «когда» добавлено, чтобы связь читалась. Рамка hat … betrachtet разорвана всей строкой; sich внутри неё — дательный интереса, отдельного слова по-русски не требующий. Wandrer — стяжённое Wanderer («странник»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "С этой строки в каждой строфе начинается трёхстрочный дактилический припев. Скрытые красоты Джонсон слышит во второй половине песни: трудный гётевский размер требует здесь текучих дактилей, которые уравновешивают квадратное начало."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Grossen",
+       "ru": "За великими"
+      },
+      {
+       "de": "belauert",
+       "ru": "подсматривал,"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "Kleine",
+       "ru": "малых"
+      },
+      {
+       "de": "geachtet",
+       "ru": "обращал внимание,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "belauern — «тайком наблюдать, подстерегать»; словарь братьев Гримм иллюстрирует это слово именно этой строкой Гёте. Причастия belauert и geachtet держатся на том же hat из предыдущей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Verlässt",
+       "ru": "Покидает"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "sie",
+       "ru": "его"
+      },
+      {
+       "de": "Abends",
+       "ru": "вечером,"
+      },
+      {
+       "de": "um … zu",
+       "ru": "чтобы"
+      },
+      {
+       "de": "weiter",
+       "ru": "дальше"
+      },
+      {
+       "de": "gehn",
+       "ru": "идти,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "sie здесь относится к городу (die Stadt), слову женского рода; по-русски «город» мужского, потому «его»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Покидает",
+       "de": "Verlässt"
+      },
+      {
+       "ru": "он",
+       "de": "er"
+      },
+      {
+       "ru": "его",
+       "de": "sie"
+      },
+      {
+       "ru": "вечером,",
+       "de": "Abends"
+      },
+      {
+       "ru": "чтобы",
+       "de": "um … zu"
+      },
+      {
+       "ru": "дальше",
+       "de": "weiter"
+      },
+      {
+       "ru": "идти.",
+       "de": "gehn"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -35,6 +438,405 @@
     "Sie weiss sich so lieblich im Kreise zu tragen,",
     "Sie neigt sich und biegt sich und reicht ihm den Strauss,",
     "Sie neigt sich und biegt sich und reicht ihm den Strauss."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Als",
+       "ru": "Когда"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "nun",
+       "ru": "уже"
+      },
+      {
+       "de": "hinausgegangen",
+       "ru": "вышел наружу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "nun в повествовании — «вот, уже»: рассказчик переводит нас к следующему шагу, о времени по часам речи нет. Вспомогательный war при причастии hinausgegangen опущен, как часто в стихе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "die letzten",
+       "ru": "последние"
+      },
+      {
+       "de": "Häuser",
+       "ru": "дома"
+      },
+      {
+       "de": "sind",
+       "ru": "стоят,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "sind — «есть, находятся»; по-русски о домах на краю города естественнее сказать «стоят», отсюда отступление от словарного «быть»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sieht",
+       "ru": "Видит"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "gemalten",
+       "ru": "накрашенными"
+      },
+      {
+       "de": "Wangen",
+       "ru": "щеками"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ein verlornes",
+       "ru": "Заблудшее"
+      },
+      {
+       "de": "schönes",
+       "ru": "прекрасное"
+      },
+      {
+       "de": "Kind",
+       "ru": "дитя."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "verloren — и «потерянный», и «пропащий, обречённый гибели»: о человеке падшем. Форма verlornes — стихотворное стяжение. Kind в обращении и рассказе эпохи — «дитя», а не «ребёнок» по возрасту."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Grüss",
+       "ru": "Приветствую"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя,"
+      },
+      {
+       "de": "Jungfrau",
+       "ru": "дева!"
+      },
+      {
+       "de": "Dank",
+       "ru": "— Благодарю"
+      },
+      {
+       "de": "der Ehre",
+       "ru": "за честь!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Dank der Ehre — старый оборот с родительным падежом: «благодарю за честь». Jungfrau здесь просто вежливое обращение к незнакомой девушке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wart",
+       "ru": "Подожди,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "gleich",
+       "ru": "тотчас"
+      },
+      {
+       "de": "komme",
+       "ru": "выйду"
+      },
+      {
+       "de": "hinaus",
+       "ru": "наружу. —"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Wart — повелительное warte («подожди») без конечного -e. Наречие hinaus («наружу») при глаголе движения: komme hinaus — «выйду наружу»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "А"
+      },
+      {
+       "de": "wer",
+       "ru": "кто"
+      },
+      {
+       "de": "bist du",
+       "ru": "ты?"
+      },
+      {
+       "de": "Bajadere",
+       "ru": "— Баядера,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "А"
+      },
+      {
+       "de": "dies",
+       "ru": "это"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "Haus",
+       "ru": "дом"
+      },
+      {
+       "de": "der Liebe",
+       "ru": "любви."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Джонсон замечает: во всём песенном репертуаре это единственная песня о продажной любви."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "der Liebe Haus — родительный падеж стоит перед своим словом, как было принято в высоком слоге: по-русски порядок обратный, «дом любви». Тот же ход дальше: deiner Füsse Schmerz, deiner Priester Lehre, ihres Herzens Noth."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "rührt sich",
+       "ru": "принимается"
+      },
+      {
+       "de": "zu schlagen",
+       "ru": "бить"
+      },
+      {
+       "de": "die Cymbeln",
+       "ru": "в кимвалы"
+      },
+      {
+       "de": "zum Tanze",
+       "ru": "для танца,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "sich rühren — «зашевелиться, взяться за дело». Cymbeln — кимвалы, парные металлические тарелочки для ритма пляски (русские «цимбалы» — струнный инструмент, это другое); по-русски в них «бьют»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "weiss … zu",
+       "ru": "умеет"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "lieblich",
+       "ru": "прелестно"
+      },
+      {
+       "de": "sich … tragen",
+       "ru": "держаться"
+      },
+      {
+       "de": "im Kreise",
+       "ru": "в кругу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "sich tragen — буквально «нести себя», то есть держать себя, вести себя; im Kreise — о кружении танца."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "neigt sich",
+       "ru": "склоняется"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "biegt sich",
+       "ru": "изгибается"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "reicht",
+       "ru": "подаёт"
+      },
+      {
+       "de": "ihm",
+       "ru": "ему"
+      },
+      {
+       "de": "den Strauss",
+       "ru": "букет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "По словам Малколма Рена, наклоны и кружения этого танца воплощают превратности человеческого существования."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Она",
+       "de": "Sie"
+      },
+      {
+       "ru": "склоняется",
+       "de": "neigt sich"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "изгибается",
+       "de": "biegt sich"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "подаёт",
+       "de": "reicht"
+      },
+      {
+       "ru": "ему",
+       "de": "ihm"
+      },
+      {
+       "ru": "букет.",
+       "de": "den Strauss"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -51,6 +853,369 @@
     "Der Göttliche lächelt; er siehet mit Freuden",
     "Durch tiefes Verderben ein menschliches Herz,",
     "Durch tiefes Verderben ein menschliches Herz."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schmeichelnd",
+       "ru": "Ласкаясь,"
+      },
+      {
+       "de": "zieht",
+       "ru": "тянет"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "zur Schwelle",
+       "ru": "к порогу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "die Schwelle — «порог»; с глаголом schwellen («вздыматься»), похожим по виду, это слово не связано."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Lebhaft",
+       "ru": "Живо"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "ins … hinein",
+       "ru": "в самый"
+      },
+      {
+       "de": "Haus",
+       "ru": "дом."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Рамка ins … hinein — одно направление, а не два предлога: «в самый дом». Глагол zieht подразумевается из предыдущей строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schöner",
+       "ru": "Прекрасный"
+      },
+      {
+       "de": "Fremdling",
+       "ru": "чужестранец,"
+      },
+      {
+       "de": "lampenhelle",
+       "ru": "озарённой лампами"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "lampenhell — сложное слово самого Гёте, из Lampe («лампа») и hell («светлый»): «яркий от ламп». По-русски однословного соответствия нет, а сказуемое договаривается только в следующей строке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Должна"
+      },
+      {
+       "de": "sogleich",
+       "ru": "тотчас"
+      },
+      {
+       "de": "die Hütte",
+       "ru": "хижина"
+      },
+      {
+       "de": "sein",
+       "ru": "стать."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Bist du müd",
+       "ru": "Устал ли ты —"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "laben",
+       "ru": "освежить,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Ещё одно условие без союза: «если ты устал». müd — усечённое müde («усталый»), а связки «есть» русский не требует, потому три немецких слова стоят одним куском."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Lindern",
+       "ru": "Облегчить"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "боль"
+      },
+      {
+       "de": "deiner Füsse",
+       "ru": "твоих ног."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Was",
+       "ru": "Что"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "willst",
+       "ru": "хочешь,"
+      },
+      {
+       "de": "das",
+       "ru": "то"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "sollst … haben",
+       "ru": "получишь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "sollst … haben — обещание, без оттенка долженствования: «непременно получишь»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ruhe",
+       "ru": "Покой,"
+      },
+      {
+       "de": "Freuden",
+       "ru": "радости"
+      },
+      {
+       "de": "oder",
+       "ru": "или"
+      },
+      {
+       "de": "Scherz",
+       "ru": "забаву."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Scherz — «шутка, забава, весёлость»; в устах баядеры слово звучит как прикрытое название любовных утех, и в этом же смысле оно вернётся в шестой строфе (unter Scherzen)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "geschäftig",
+       "ru": "хлопотливо"
+      },
+      {
+       "de": "lindert",
+       "ru": "облегчает"
+      },
+      {
+       "de": "geheuchelte",
+       "ru": "притворные"
+      },
+      {
+       "de": "Leiden",
+       "ru": "страдания."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Гёте, отмечает Рен, так и не проясняет, испытывает ли сошедший на землю бог настоящую земную радость и боль или его страдание — только видимость, задеть его не способная. Индуизм из таких кажущихся противоречий догматического спора не делает."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Göttliche",
+       "ru": "Божественный"
+      },
+      {
+       "de": "lächelt",
+       "ru": "улыбается;"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "siehet",
+       "ru": "видит"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Freuden",
+       "ru": "радостью"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "siehet — полная старая форма вместо sieht; mit Freuden — устойчивое «с радостью», множественное число здесь не считается."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "Сквозь"
+      },
+      {
+       "de": "tiefes",
+       "ru": "глубокую"
+      },
+      {
+       "de": "Verderben",
+       "ru": "погибель"
+      },
+      {
+       "de": "ein menschliches",
+       "ru": "человеческое"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Джонсон пишет, что сухо пересказанный у Пьера Соннера случай Гёте переработал в рассказ об искупительной силе любви: бог видит сквозь падение живое человеческое сердце."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Сквозь",
+       "de": "Durch"
+      },
+      {
+       "ru": "глубокую",
+       "de": "tiefes"
+      },
+      {
+       "ru": "погибель",
+       "de": "Verderben"
+      },
+      {
+       "ru": "человеческое",
+       "de": "ein menschliches"
+      },
+      {
+       "ru": "сердце.",
+       "de": "Herz"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -67,6 +1232,356 @@
     "Wählet der Kenner der Höhen und Tiefen",
     "Lust und Entsetzen und grimmige Pein,",
     "Lust und Entsetzen und grimmige Pein."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "fordert",
+       "ru": "требует"
+      },
+      {
+       "de": "Sclavendienste",
+       "ru": "рабских услуг;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Sclavendienste — сложное слово из Sklave («раб») и Dienst («служба»): «рабские услуги». Написание через c — орфография эпохи."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Immer",
+       "ru": "Всё"
+      },
+      {
+       "de": "heitrer",
+       "ru": "веселее"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "wird",
+       "ru": "становится"
+      },
+      {
+       "de": "sie",
+       "ru": "она,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "immer при сравнительной степени даёт русское «всё …ее»: всё веселее. heitrer — стяжённое heiterer."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "frühe",
+       "ru": "ранние"
+      },
+      {
+       "de": "Künste",
+       "ru": "искусства"
+      },
+      {
+       "de": "des Mädchens",
+       "ru": "девушки"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Künste — заученные с малых лет приёмы ремесла, умение угождать. Родительный des Mädchens по-немецки стоит впереди, по-русски — после."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Werden",
+       "ru": "Становятся"
+      },
+      {
+       "de": "nach und nach",
+       "ru": "понемногу"
+      },
+      {
+       "de": "Natur",
+       "ru": "природой."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "так",
+       "de": "so"
+      },
+      {
+       "ru": "вслед за цветком",
+       "de": "auf die Blüthe"
+      },
+      {
+       "ru": "наступает",
+       "de": "stellet"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Глагол здесь — sich einstellen («наступать, являться»), и его части растащены через строку: stellet стоит тут, sich ein — в следующей. Оборот auf die Blüthe значит «вслед за цветком»; Blüthe — старое написание слова Blüte."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bald und bald",
+       "ru": "Мало-помалу"
+      },
+      {
+       "de": "die Frucht",
+       "ru": "плод"
+      },
+      {
+       "de": "sich ein",
+       "ru": "сам собой;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "sich ein — вторая половина глагола sich einstellen, начатого строкой выше; по-русски она уже сидит в глаголе «наступает», а «сам собой» подсказывает смысл: плод приходит без усилия. Bald und bald — удвоенное bald («скоро»): скоро и скоро, раз за разом; по-русски передано «мало-помалу», в пару к nach und nach из четвёртой строки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ist",
+       "ru": "Есть"
+      },
+      {
+       "de": "Gehorsam",
+       "ru": "послушание"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Gemüthe",
+       "ru": "душе,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Снова условие без союза: «если в душе есть послушание…». Gemüthe — старое написание слова Gemüt, «душа, душевный склад»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "Wird … sein",
+       "ru": "будет"
+      },
+      {
+       "de": "fern",
+       "ru": "далека"
+      },
+      {
+       "de": "die Liebe",
+       "ru": "любовь."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но,"
+      },
+      {
+       "de": "zu prüfen",
+       "ru": "чтобы испытывать"
+      },
+      {
+       "de": "sie",
+       "ru": "её"
+      },
+      {
+       "de": "schärfer",
+       "ru": "строже"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "schärfer",
+       "ru": "строже,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        5
+       ],
+       "text": "scharf в переносном смысле — «строгий, взыскательный»; schärfer und schärfer об испытании значит «всё строже»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wählet",
+       "ru": "Избирает"
+      },
+      {
+       "de": "der Kenner",
+       "ru": "знаток"
+      },
+      {
+       "de": "der Höhen",
+       "ru": "высот"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Tiefen",
+       "ru": "глубин"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Lust",
+       "ru": "Отраду,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Entsetzen",
+       "ru": "ужас,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "grimmige",
+       "ru": "лютую"
+      },
+      {
+       "de": "Pein",
+       "ru": "муку,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Lust около 1800 года — прежде всего «отрада, наслаждение»; нынешнее сужение до плотского вожделения к этим текстам не относится."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Отраду,",
+       "de": "Lust"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "ужас,",
+       "de": "Entsetzen"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "лютую",
+       "de": "grimmige"
+      },
+      {
+       "ru": "муку.",
+       "de": "Pein"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -83,6 +1598,339 @@
     "Bereiten den dunklen behaglichen Schleier",
     "Die nächtlichen Stunden, das schöne Gespinnst,",
     "Die nächtlichen Stunden, das schöne Gespinnst."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "küsst",
+       "ru": "целует"
+      },
+      {
+       "de": "die bunten",
+       "ru": "пёстрые"
+      },
+      {
+       "de": "Wangen",
+       "ru": "щёки,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "bunt — «пёстрый, многоцветный»; здесь о щеках, которые во второй строфе названы накрашенными (gemalte Wangen)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "fühlt",
+       "ru": "чувствует"
+      },
+      {
+       "de": "Qual",
+       "ru": "муку"
+      },
+      {
+       "de": "der Liebe",
+       "ru": "любви,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "das Mädchen",
+       "ru": "девушка"
+      },
+      {
+       "de": "steht",
+       "ru": "стоит"
+      },
+      {
+       "de": "gefangen",
+       "ru": "пленённая,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "gefangen — «пойманная»; словарь Гриммов приводит и переносное употребление о любовном плене. Das Mädchen по-немецки среднего рода, и все отсылки к девушке идут через «оно»; по-русски согласование женское."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "weint",
+       "ru": "плачет"
+      },
+      {
+       "de": "zum erstenmal",
+       "ru": "впервые;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "zum erstenmal — «в первый раз», оборот того же склада, что zum sechstenmal в начале баллады: бог сходит в шестой раз, она плачет в первый."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sinkt … nieder",
+       "ru": "Опускается"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "seinen Füssen",
+       "ru": "его ногам,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "По прочтению Рена, здесь настоящая любовь останавливает службу её гибкого тела: она опускается к ногам гостя, отрекаясь от всякого желания."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "um",
+       "ru": "ради"
+      },
+      {
+       "de": "Wollust",
+       "ru": "сладострастия"
+      },
+      {
+       "de": "noch",
+       "ru": "и не"
+      },
+      {
+       "de": "Gewinnst",
+       "ru": "корысти,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ach",
+       "ru": "Ах,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "die gelenken",
+       "ru": "гибкие"
+      },
+      {
+       "de": "Glieder",
+       "ru": "члены,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "gelenk — прилагательное «гибкий, послушный» (одного корня с Gelenk «сустав»). Glieder во множественном числе — члены тела, а нередко и всё тело целиком."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "versagen",
+       "ru": "отказывают"
+      },
+      {
+       "de": "allen",
+       "ru": "во всяком"
+      },
+      {
+       "de": "Dienst",
+       "ru": "повиновении."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "zu",
+       "ru": "для"
+      },
+      {
+       "de": "vergnüglicher",
+       "ru": "отрадного"
+      },
+      {
+       "de": "Feier",
+       "ru": "празднества"
+      },
+      {
+       "de": "des Lagers",
+       "ru": "ложа"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Feier около 1800 года значило и «праздник», и старое «покой, отдых от трудов»; здесь ближе первое — празднество ложа. Lager — «ложе, постель»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bereiten",
+       "ru": "Готовят"
+      },
+      {
+       "de": "den dunklen",
+       "ru": "тёмное"
+      },
+      {
+       "de": "behaglichen",
+       "ru": "уютное"
+      },
+      {
+       "de": "Schleier",
+       "ru": "покрывало"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die nächtlichen",
+       "ru": "Ночные"
+      },
+      {
+       "de": "Stunden",
+       "ru": "часы,"
+      },
+      {
+       "de": "das schöne",
+       "ru": "прекрасная"
+      },
+      {
+       "de": "Gespinnst",
+       "ru": "пряжа,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Подлежащее стоит в самом конце: покрывало готовят ночные часы. Gespinnst — «спрядённое, пряжа» (написание с двумя n — вариант слова Gespinst); словарь Гриммов приводит для обоих слов, nächtlich и Gespinst, именно эту строку Гёте."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ночные",
+       "de": "Die nächtlichen"
+      },
+      {
+       "ru": "часы,",
+       "de": "Stunden"
+      },
+      {
+       "ru": "прекрасная",
+       "de": "das schöne"
+      },
+      {
+       "ru": "пряжа.",
+       "de": "Gespinnst"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -99,6 +1947,368 @@
     "Sie raset und rennet und theilet die Menge.",
     "Wer bist du? Was drängt zu der Grube dich hin?",
     "Wer bist du? Was drängt zu der Grube dich hin?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Spät",
+       "ru": "Поздно"
+      },
+      {
+       "de": "entschlummert",
+       "ru": "уснув"
+      },
+      {
+       "de": "unter",
+       "ru": "среди"
+      },
+      {
+       "de": "Scherzen",
+       "ru": "забав,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "entschlummern — «тихо уснуть»; у Гриммов рядом стоит и второе значение, «мирно скончаться». Причастие держится без вспомогательного глагола, а подлежащее придёт только в третьей строке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Früh",
+       "ru": "Рано"
+      },
+      {
+       "de": "erwacht",
+       "ru": "пробудившись"
+      },
+      {
+       "de": "nach",
+       "ru": "после"
+      },
+      {
+       "de": "kurzer",
+       "ru": "короткого"
+      },
+      {
+       "de": "Rast",
+       "ru": "отдыха,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Findet",
+       "ru": "Находит"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "an",
+       "ru": "у"
+      },
+      {
+       "de": "ihrem",
+       "ru": "своего"
+      },
+      {
+       "de": "Herzen",
+       "ru": "сердца"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Todt",
+       "ru": "Мёртвым"
+      },
+      {
+       "de": "den vielgeliebten",
+       "ru": "горячо любимого"
+      },
+      {
+       "de": "Gast",
+       "ru": "гостя."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Todt — старое написание слова tot («мёртвый»). vielgeliebt — усилительное сложение из viel («много») и geliebt («любимый»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "С криком",
+       "de": "Schreiend"
+      },
+      {
+       "ru": "она",
+       "de": "sie"
+      },
+      {
+       "ru": "падает",
+       "de": "stürzt … nieder"
+      },
+      {
+       "ru": "на",
+       "de": "auf"
+      },
+      {
+       "ru": "него,",
+       "de": "ihn"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "stürzt … nieder — «падает вниз, бросается»; nieder по-русски вбирается глаголом. В седьмой строфе тот же глагол переведён «падает ниц»: там она падает у смертного одра."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "erweckt",
+       "ru": "будит"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "ihn",
+       "ru": "его,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "man trägt",
+       "ru": "несут"
+      },
+      {
+       "de": "die starren",
+       "ru": "окоченевшие"
+      },
+      {
+       "de": "Glieder",
+       "ru": "члены"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "man — неопределённо-личное местоимение; по-русски ему отвечает глагол во множественном числе без подлежащего: «несут»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bald",
+       "ru": "Скоро"
+      },
+      {
+       "de": "zur",
+       "ru": "к"
+      },
+      {
+       "de": "Flammengrube hin",
+       "ru": "погребальному костру."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Flammengrube — «яма пламени», то есть костёр для сожжения тела; словарь Гриммов знает это слово только по этой строке Гёте. Приставка hin при глаголе trägt задаёт направление и по-русски входит в предлог «к»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "höret",
+       "ru": "слышит"
+      },
+      {
+       "de": "die Priester",
+       "ru": "жрецов,"
+      },
+      {
+       "de": "die Todtengesänge",
+       "ru": "погребальные песнопения,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Priester здесь — жрецы индуистского храма, а не христианские священники. Todtengesänge — старое написание слова Totengesänge, «песни по умершему»; höret — полная старая форма вместо hört."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "raset",
+       "ru": "неистовствует,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "rennet",
+       "ru": "мчится,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "theilet",
+       "ru": "рассекает"
+      },
+      {
+       "de": "die Menge",
+       "ru": "толпу."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        5
+       ],
+       "text": "Три старые формы подряд: raset, rennet, theilet вместо rast, rennt, teilt. Здесь rasen — глагол «неистовствовать», а не существительное der Rasen («дёрн»), с которым он совпадает по виду."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "bist du",
+       "ru": "ты?"
+      },
+      {
+       "de": "Was",
+       "ru": "Что"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "zu der Grube",
+       "ru": "к могиле"
+      },
+      {
+       "de": "drängt … hin",
+       "ru": "влечёт?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "drängen … hin — «гнать, теснить туда»: по-русски «влечёт к». Grube — «яма», но со времён лютеровской Библии и «могила»; здесь речь о месте сожжения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "bist du",
+       "ru": "ты?"
+      },
+      {
+       "de": "Was",
+       "ru": "Что"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя"
+      },
+      {
+       "de": "zu der Grube",
+       "ru": "к могиле"
+      },
+      {
+       "de": "drängt … hin",
+       "ru": "влечёт?"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -115,6 +2325,400 @@
     "Nach langem Ermatten und spätem Erkalten,",
     "Wir tragen die Jugend, noch eh sie's gedacht,",
     "Wir tragen die Jugend, noch eh sie's gedacht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Bei",
+       "ru": "У"
+      },
+      {
+       "de": "der Bahre",
+       "ru": "смертного одра"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "stürzt … nieder",
+       "ru": "падает ниц,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Bahre — носилки, на которых несут умершего, погребальный одр."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihr",
+       "ru": "Её"
+      },
+      {
+       "de": "Geschrei",
+       "ru": "вопль"
+      },
+      {
+       "de": "durchdringt",
+       "ru": "пронзает"
+      },
+      {
+       "de": "die Luft",
+       "ru": "воздух:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Meinen",
+       "ru": "Моего"
+      },
+      {
+       "de": "Gatten",
+       "ru": "супруга"
+      },
+      {
+       "de": "will",
+       "ru": "хочу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "wieder",
+       "ru": "обратно!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Тут начинается её спор со жрецами о том, был ли ночной гость ей мужем. Рен подчёркивает: у Гёте баядера сама распоряжается своей судьбой — она отстаивает перед жрецами право исполнить то, что считает своим долгом."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "will … wieder — без глагола движения: «хочу его обратно», то есть «хочу вернуть»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "such",
+       "ru": "ищу"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "der Gruft",
+       "ru": "могиле."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Должно ли"
+      },
+      {
+       "de": "zur",
+       "ru": "в"
+      },
+      {
+       "de": "Asche",
+       "ru": "прах"
+      },
+      {
+       "de": "mir",
+       "ru": "у меня"
+      },
+      {
+       "de": "zerfallen",
+       "ru": "рассыпаться"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "mir — дательный сочувствия: «у меня, мне на горе»; получателя действия это mir не называет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dieser Glieder",
+       "ru": "Этих членов"
+      },
+      {
+       "de": "Götterpracht",
+       "ru": "божественное великолепие?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Mein",
+       "ru": "Мой!"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "es",
+       "ru": "им,"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "vor",
+       "ru": "прежде"
+      },
+      {
+       "de": "allen",
+       "ru": "всех!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        6
+       ],
+       "text": "er war es — «он был им», то есть моим: es подхватывает только что выкрикнутое Mein. vor allen — «прежде всех»: мой больше, чем чей-либо ещё."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ach",
+       "ru": "Ах,"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "Eine",
+       "ru": "одна"
+      },
+      {
+       "de": "süsse",
+       "ru": "сладостная"
+      },
+      {
+       "de": "Nacht",
+       "ru": "ночь!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Eine с прописной буквы — числительное: одна-единственная ночь; артиклем это слово здесь не служит."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es singen",
+       "ru": "Поют"
+      },
+      {
+       "de": "die Priester",
+       "ru": "жрецы:"
+      },
+      {
+       "de": "Wir",
+       "ru": "мы"
+      },
+      {
+       "de": "tragen",
+       "ru": "несём"
+      },
+      {
+       "de": "die Alten",
+       "ru": "стариков"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "В записи шубертовской серии Hyperion слова жрецов в последних строфах отданы отдельным голосам — Джону Марку Эйнсли и Майклу Джорджу, тогда как рассказ ведёт Кристина Шефер."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nach",
+       "ru": "После"
+      },
+      {
+       "de": "langem",
+       "ru": "долгого"
+      },
+      {
+       "de": "Ermatten",
+       "ru": "изнеможения"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "spätem",
+       "ru": "позднего"
+      },
+      {
+       "de": "Erkalten",
+       "ru": "охлаждения,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        5
+       ],
+       "text": "Ermatten и Erkalten — глаголы, ставшие существительными: медленное изнеможение и остывание тела, то есть смерть от старости."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wir",
+       "ru": "Мы"
+      },
+      {
+       "de": "tragen",
+       "ru": "несём"
+      },
+      {
+       "de": "die Jugend",
+       "ru": "юность,"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "eh",
+       "ru": "прежде чем"
+      },
+      {
+       "de": "sie's",
+       "ru": "она о том"
+      },
+      {
+       "de": "gedacht",
+       "ru": "подумала,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        6
+       ],
+       "text": "eh — старая союзная форма «прежде чем»; sie's — стянутое sie es, а вспомогательный hat при gedacht опущен. Jugend в паре со «стариками» предыдущей строки значит и «юность», и «молодых»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мы",
+       "de": "Wir"
+      },
+      {
+       "ru": "несём",
+       "de": "tragen"
+      },
+      {
+       "ru": "юность,",
+       "de": "die Jugend"
+      },
+      {
+       "ru": "ещё",
+       "de": "noch"
+      },
+      {
+       "ru": "прежде чем",
+       "de": "eh"
+      },
+      {
+       "ru": "она о том",
+       "de": "sie's"
+      },
+      {
+       "ru": "подумала.",
+       "de": "gedacht"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -131,6 +2735,366 @@
     "O nehmet, ihr Götter, die Zierde der Tage,",
     "O nehmet den Jüngling in Flammen zu euch,",
     "O nehmet den Jüngling in Flammen zu euch!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Höre",
+       "ru": "Слушай"
+      },
+      {
+       "de": "Lehre",
+       "ru": "наставление"
+      },
+      {
+       "de": "deiner Priester",
+       "ru": "твоих жрецов:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Dieser",
+       "ru": "Этот"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "dein",
+       "ru": "твоим"
+      },
+      {
+       "de": "Gatte",
+       "ru": "супругом."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Lebst",
+       "ru": "Живёшь"
+      },
+      {
+       "de": "doch",
+       "ru": "ведь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "als",
+       "ru": "как"
+      },
+      {
+       "de": "Bajadere",
+       "ru": "баядера,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "doch здесь — усилительная частица «ведь, всё же», а не союз «однако»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "so",
+       "ru": "потому"
+      },
+      {
+       "de": "hast",
+       "ru": "нет"
+      },
+      {
+       "de": "du",
+       "ru": "у тебя"
+      },
+      {
+       "de": "keine",
+       "ru": "никакого"
+      },
+      {
+       "de": "Pflicht",
+       "ru": "долга."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "haben с отрицанием kein по-русски даёт безличное «нет у тебя»: буквальное «ты не имеешь никакого долга» ломает фразу. Pflicht — «долг, обязанность»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nur",
+       "ru": "Лишь"
+      },
+      {
+       "de": "dem Körper",
+       "ru": "за телом"
+      },
+      {
+       "de": "folgt",
+       "ru": "следует"
+      },
+      {
+       "de": "der Schatten",
+       "ru": "тень"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "folgen управляет дательным падежом, по-русски требуется предлог: «следовать за». Schatten в высокой поэзии — душа умершего."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "das stille",
+       "ru": "тихое"
+      },
+      {
+       "de": "Todtenreich",
+       "ru": "царство мёртвых;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Nur",
+       "ru": "Лишь"
+      },
+      {
+       "de": "die Gattin",
+       "ru": "супруга"
+      },
+      {
+       "de": "folgt",
+       "ru": "следует"
+      },
+      {
+       "de": "dem Gatten",
+       "ru": "за супругом:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        3
+       ],
+       "text": "Жрецы называют обычай сати — самосожжение вдовы на костре мужа. Спорным он был уже во времена Гёте: запретить его пытались и Великие Моголы, и колониальные власти."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Das",
+       "ru": "Это"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "Pflicht",
+       "ru": "долг"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Ruhm",
+       "ru": "слава"
+      },
+      {
+       "de": "zugleich",
+       "ru": "разом."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ertöne",
+       "ru": "Прозвучи,"
+      },
+      {
+       "de": "Drommete",
+       "ru": "труба,"
+      },
+      {
+       "de": "zu",
+       "ru": "для"
+      },
+      {
+       "de": "heiliger",
+       "ru": "святого"
+      },
+      {
+       "de": "Klage",
+       "ru": "плача!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Drommete — старый вариант слова Trompete («труба»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "О,",
+       "de": "O"
+      },
+      {
+       "ru": "примите",
+       "de": "nehmet"
+      },
+      {
+       "ru": "вы,",
+       "de": "ihr"
+      },
+      {
+       "ru": "боги,",
+       "de": "Götter"
+      },
+      {
+       "ru": "красу",
+       "de": "die Zierde"
+      },
+      {
+       "ru": "дней,",
+       "de": "der Tage"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Zierde — «украшение, краса»; о человеке говорится так, когда он служит украшением своему кругу. nehmet — старая форма повелительного nehmt."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "О,",
+       "de": "O"
+      },
+      {
+       "ru": "примите",
+       "de": "nehmet"
+      },
+      {
+       "ru": "юношу",
+       "de": "den Jüngling"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "пламени",
+       "de": "Flammen"
+      },
+      {
+       "ru": "к",
+       "de": "zu"
+      },
+      {
+       "ru": "себе,",
+       "de": "euch"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "О,",
+       "de": "O"
+      },
+      {
+       "ru": "примите",
+       "de": "nehmet"
+      },
+      {
+       "ru": "юношу",
+       "de": "den Jüngling"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "пламени",
+       "de": "Flammen"
+      },
+      {
+       "ru": "к",
+       "de": "zu"
+      },
+      {
+       "ru": "себе!",
+       "de": "euch"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -147,8 +3111,392 @@
     "Unsterbliche heben verlorene Kinder",
     "Mit feurigen Armen zum Himmel empor,",
     "Mit feurigen Armen zum Himmel empor."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "Так"
+      },
+      {
+       "de": "das Chor",
+       "ru": "хор,"
+      },
+      {
+       "de": "das",
+       "ru": "который"
+      },
+      {
+       "de": "ohn",
+       "ru": "без"
+      },
+      {
+       "de": "Erbarmen",
+       "ru": "жалости"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Глагол опущен: «так [поёт] хор». У Гёте Chor среднего рода, отсюда и относительное das. ohn — стихотворное усечение предлога ohne («без»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mehret",
+       "ru": "Умножает"
+      },
+      {
+       "de": "Noth",
+       "ru": "горе"
+      },
+      {
+       "de": "ihres Herzens",
+       "ru": "её сердца;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Mehret — старая форма глагола mehren («умножать»); Noth — старое написание слова Not, «нужда, беда, горе»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "ausgestreckten",
+       "ru": "распростёртыми"
+      },
+      {
+       "de": "Armen",
+       "ru": "руками"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Springt",
+       "ru": "Бросается"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "den heissen",
+       "ru": "жаркую"
+      },
+      {
+       "de": "Tod",
+       "ru": "смерть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "heissen здесь — падежная форма прилагательного heiss («горячий»), а не глагол heissen («называться»): смерть в огне костра."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "der Götterjüngling",
+       "ru": "юный бог"
+      },
+      {
+       "de": "hebet",
+       "ru": "поднимается"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Götterjüngling — сложное слово «юноша-бог»; словарь Гриммов приводит для него как раз эту строку Гёте. Глагол sich empor heben («подниматься ввысь») разорван переносом: hebet стоит здесь, sich empor — в следующей строке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aus",
+       "ru": "Из"
+      },
+      {
+       "de": "der Flamme",
+       "ru": "пламени"
+      },
+      {
+       "de": "sich empor",
+       "ru": "ввысь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "seinen Armen",
+       "ru": "его руках"
+      },
+      {
+       "de": "schwebet",
+       "ru": "плывёт"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Geliebte",
+       "ru": "Возлюбленная"
+      },
+      {
+       "de": "mit",
+       "ru": "с ним"
+      },
+      {
+       "de": "hervor",
+       "ru": "наружу."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "mit … hervor — «вместе с ним наружу»: hervor значит движение из сокрытого на вид, здесь — из пламени."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es freut sich",
+       "ru": "Радуется"
+      },
+      {
+       "de": "die Gottheit",
+       "ru": "божество"
+      },
+      {
+       "de": "der reuigen",
+       "ru": "раскаявшимся"
+      },
+      {
+       "de": "Sünder",
+       "ru": "грешникам;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Es здесь — пустое подлежащее-заполнитель, своего слова по-русски не имеющее; настоящее подлежащее — die Gottheit. Глагол sich freuen управляет родительным падежом (der Sünder) — старое управление."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Строка о прощённых грешниках — тот самый финал, который Рен считает западным морализаторским выводом; подробнее об этом в разделе «О песне»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Unsterbliche",
+       "ru": "Бессмертные"
+      },
+      {
+       "de": "heben",
+       "ru": "возносят"
+      },
+      {
+       "de": "verlorene",
+       "ru": "заблудших"
+      },
+      {
+       "de": "Kinder",
+       "ru": "детей"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "verlorene Kinder — то же слово, которым во второй строфе названа сама баядера: verlornes schönes Kind."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit feurigen",
+       "ru": "Огненными"
+      },
+      {
+       "de": "Armen",
+       "ru": "руками"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Himmel",
+       "ru": "небу"
+      },
+      {
+       "de": "empor",
+       "ru": "ввысь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Предлог mit с дательным по-русски передан одним творительным падежом, без предлога. feurig обычно значит «пылкий», но здесь руки буквально огненные — из пламени костра."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mit feurigen",
+       "ru": "Огненными"
+      },
+      {
+       "de": "Armen",
+       "ru": "руками"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Himmel",
+       "ru": "небу"
+      },
+      {
+       "de": "empor",
+       "ru": "ввысь."
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "Johann Wolfgang von Goethe"
+ "about": [
+  {
+   "title": "18 августа 1815 года",
+   "text": "Шуберт написал эту балладу 18 августа 1815 года; ему было восемнадцать лет. Оригинальная тональность — ми-бемоль мажор."
+  },
+  {
+   "title": "Публикация и автографы",
+   "text": "При жизни Шуберта песня не печаталась. Первое издание объявлено в январе 1887 года, и в том же году её выпустили сразу двое: Макс Фридлендер — седьмым томом своего шубертовского издания у лейпцигского Edition Peters, а венская фирма «Йозеф Вайнбергер и Хофбауэр» — отдельным выпуском.\nПесня входила во вторую песенную тетрадь для Гёте — ту, которую Шуберт составил, но так и не послал: первая вернулась к нему без ответа. По ревизионному отчёту Старого полного собрания сочинений в этой тетради было двенадцать песен, среди них D 254. Автограф разделён натрое: часть I хранится в Венской городской библиотеке в ратуше, части II и III — в Национальной библиотеке Франции в Париже.\nВ нотных собраниях у песни такие адреса: Старое полное собрание, серия XX, том 3, № 111; Новое шубертовское собрание, серия IV, том 8; издание Фридлендера, том 7, № 106."
+  },
+  {
+   "title": "Иоганн Вольфганг фон Гёте",
+   "text": "Иоганн Вольфганг фон Гёте — по оценке «Новой немецкой биографии», значительнейший поэт немецкого языка и один из самых универсальных умов своего времени. Он родился 28 августа 1749 года во Франкфурте-на-Майне, с 1775 года жил в Веймаре, служил при дворе герцога и умер там 22 марта 1832 года.\nДля Шуберта его стихи значили больше, чем чьи-либо ещё: на слова Гёте написано более семидесяти песен — свыше десятой части всего песенного наследия композитора, и именно с гётевской «Gretchen am Spinnrade» («Гретхен за прялкой», 1814) семнадцатилетний Шуберт нашёл себя в жанре Lied («песня»). Сам поэт об этом так и не узнал: тетрадь песен, посланную ему в 1816 году, он вернул без ответа, на посвящение опуса 19 в 1825 году не отозвался. Лишь в 1830 году, за два года до смерти, услышав «Erlkönig» («Лесной царь») в исполнении Вильгельмины Шрёдер-Девриент, старик, по свидетельству современников, был покорён; Шуберта к тому времени уже не было в живых."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Балладу Гёте написал между 6 и 9 июня 1797 года и напечатал в «Musen-Almanach für das Jahr 1798» («Альманах муз на 1798 год»), который издавал Шиллер, — со страницы 188. Полное авторское заглавие — «Der Gott und die Bajadere. Indische Legende» («Бог и баядера. Индийская легенда»).\nСюжет пришёл из книги Пьера Соннера о путешествии в Ост-Индию и Китай (1782/83), где та же история пересказана сухо; Грэм Джонсон, автор аннотаций к антологии Hyperion Schubert Edition, пишет, что Гёте чудесно переработал её в рассказ об искупительной силе любви. Печатный источник, по которому работал Шуберт, установил Петер Растль, сверявший тексты песен с изданиями эпохи: это венское собрание сочинений Гёте 1810 года, седьмой том, страницы 328–331.\nСтроение баллады выдержано ровно: девять строф, в каждой восемь четырёхстопных хореических строк и трёхстрочный дактилический припев; последняя строка припева в песне повторяется дважды — это исполнительский повтор. Написание в тексте старое: Gemüthe вместо Gemüte, Todtengesänge вместо Totengesänge, Noth вместо Not."
+  },
+  {
+   "title": "Музыка",
+   "text": "Все девять строф Шуберт положил на один и тот же напев, и эта простота у комментаторов вызывает спор. Джонсон называет решение спорным по непритязательности и приводит два расходящихся суждения: Кэпелл песню одобряет, Джон Рид считает, что композитора совершенно сбило с толку намерение трактовать балладу строфически. Фишер-Дискау находит стихотворение вообще трудным для музыки: у Шуберта, на его вкус, слишком просто, а у Отмара Шёка, написавшего свою версию, слишком изобразительно. Кэпелл же пишет: «Стихотворение вовсе не взывает к музыке; но если музыке суждено было быть, ненавязчивый, гимнический напев Шуберта был лучше вычурной обработки, которая наверняка вышла бы утомительной».\nОбращение к Махадёву, владыке земли, в первых строках, по мысли Джонсона, напомнило Шуберту гимн Гайдна императору, а повторяемость строф даёт эффект гипнотический, почти мантрический. Скрытые красоты Джонсон слышит во второй половине песни: размер у Гёте трудный и требует текучих дактилей, которые уравновешивают квадратное начало. Похожий случай он видит в шубертовском «Edward» («Эдвард», D 923): на бумаге строфическая простота кажется провалом, а в исполнении приковывает внимание.\nНа автографе рукой Шуберта написано: «В этих строфах, как и в других, содержание должно определять динамику»."
+  },
+  {
+   "title": "Индийская легенда глазами Гёте",
+   "text": "Книга Соннера была не только путевым дневником: её автора занимали общественное устройство и обычаи Индии. Гёте, как замечает Малколм Рен, комментатор шубертовских песен, ответил тем же — сложил рассказ, который помогает читателю встать на индуистскую точку зрения. В балладе так и остаётся неясным, испытывает ли сошедший на землю бог настоящую земную радость и боль или его страдание — только видимость. Рен напоминает: индуизм не делает из таких кажущихся противоречий повода для догматического спора, тогда как в ранней христианской церкви близкий вопрос о призрачности плоти был осуждён как ересь."
+  },
+  {
+   "title": "Сожжение вдовы",
+   "text": "Обычай сати — самосожжение вдовы на костре мужа — был спорным задолго до баллады. Запретить его пытались ещё Великие Моголы, в XVIII веке против него принимали меры колониальные власти: французы в Пондишери, британцы указом в Калькутте 1798 года — в том самом году, которым помечен альманах с первой публикацией стихотворения. Гёте, по словам Рена, хочет понять, что движет этим обычаем, осуждать его он не берётся: баядера у него полностью распоряжается своим решением. Она не вдова, принуждённая к смерти: она сама спорит со жрецами и настаивает на праве исполнить то, что считает своим долгом."
+  },
+  {
+   "title": "Единственная песня о продажной любви",
+   "text": "Джонсон замечает, что во всём песенном репертуаре это единственная песня о проституции — больное место в позднейшей биографии Шуберта, которому предстояло узнать страшные последствия любви за плату. По мнению Джонсона, выбор такого текста восемнадцатилетним композитором говорит о терпимости и свободе от условностей, которые вряд ли отвечали религиозным взглядам его отца, — при том что Гегель к тому времени уже сравнивал этот сюжет с христианской историей Марии Магдалины."
+  },
+  {
+   "title": "Финал баллады",
+   "text": "Конец Рен называет западным морализаторским выводом: бог принимает раскаявшихся грешников, а «падшие» женщины получают бессмертие через жертвенную любовь. По его мнению, Гёте на протяжении всей баллады больше занимает то, что у западной и восточной религиозных традиций общего, чем то, что их разделяет."
+  },
+  {
+   "title": "Шуберт и Гёте",
+   "text": "Отношения Шуберта с Гёте были двойственными: младший почитал мастера, который был старше на сорок семь лет, а тот едва его замечал. Вторая тетрадь песен, куда вошла и эта баллада, до Веймара так и не доехала."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "По сюжету баллады написаны опера Обера и балет Минкуса. Рен добавляет к этому вагнеровскую сноску: странствующий бог, сходящий поглядеть, как идут дела на земле, — это Вотан в «Зигфриде»; «Кольцо нибелунга» кончается самосожжением Брунгильды на костре возлюбленного; а танцовщица превращается в Кундри из «Парсифаля», которая тоже уделяет особое внимание ногам искупителя."
+  },
+  {
+   "title": "Как это поют",
+   "text": "В шубертовской серии Hyperion балладу поют несколькими голосами, как на шубертиаде. Рассказ ведёт Кристина Шефер; слова Махадёва в начале поёт Джон Марк Эйнсли, храмовых жрецов в последних строфах — Эйнсли и Майкл Джордж."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
