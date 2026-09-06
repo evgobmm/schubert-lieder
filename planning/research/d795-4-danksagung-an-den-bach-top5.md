@@ -1,0 +1,38 @@
+# Danksagung an den Bach (D 795/4) — отбор топ-5 исполнений
+
+Дата: 2026-09-06. Песня № 4 цикла «Die schöne Müllerin» (D 795), цикльный метод (`docs/rules/youtube-performances.md`, §«Масштабирование», п. 2): пятёрка исполнителей единая для всего цикла, установлена и обоснована один раз в `planning/research/cycle-muellerin-top5.md` (исследование — `planning/youtube/data/cycle-muellerin.dossier.json`, глубина famous). Этот файл — пер-песенная проверка именно D 795/4: подтверждение per-track videoId, издания и года для этой конкретной песни плюс проверка, не имеет ли она самостоятельной концертной/пластиночной жизни, требующей отдельного отбора (как у D 795/1, 2, 7).
+
+**Проверка самостоятельной жизни песни**: поиск (WebSearch + попытка запроса к дискографии Майкла Грея, classical-discography.org) не дал свидетельств заметного пласта внецикльных записей «Danksagung an den Bach» — в отличие от «Das Wandern», «Wohin?» и «Ungeduld», это не «шлягерный» номер цикла и отдельной пластиночной жизнью в 78-эпоху, по доступным данным, не жил. Вывод: цикльная пятёрка действует без изменений, без вытеснений.
+
+**Проверка videoId для этой песни (2026-09-06)**: все пять роликов из `performances.json` — живые (oEmbed 200 через `yt-check.js`), с официальных «— Topic»-каналов, с точным заголовком «No. 4, Danksagung an den Bach», и по `yt-dlp`-метаданным (поле album/описание) принадлежат ровно тем изданиям, что зафиксированы в цикльном отборе — ни один не оказался «серой» подменой или треком параллельного (лайв/другого) комплекта.
+
+## Итоговый топ-5 (совпадает с цикльным)
+
+1. **Thomas Quasthoff / Justus Zeyen** — зап. Berlin, Teldex Studio, июль 2005; DG 00289 474 2182 «Die Schöne Müllerin». Источник: Discogs release 4640997, notes — «Recording: Berlin, Teldex Studio, 7/2005» (https://www.discogs.com/release/4640997-Schubert-Thomas-Quasthoff-Justus-Zeyen-Die-Schöne-Müllerin). Ему 46 — внутри вокального пика (~1993–2007); последний из шести шубертовских альбомов певца. Приоритет №1 правил → всегда первая позиция при наличии достойной записи. Видео `_uZHOcbu-G0` (Thomas Quasthoff - Topic): заголовок «Schubert: Die schöne Müllerin, D. 795: No. 4, Danksagung an den Bach», альбом по yt-dlp — «Schubert: Die schöne Müllerin» (не лайв-комплект Вербье-2023, который лежит на том же канале параллельно).
+2. **Dietrich Fischer-Dieskau / Gerald Moore** — зап. 2–3.12.1961, Berlin-Zehlendorf; Electrola/EMI STE 91187/8 («La Belle Meunière», переизд. La Voix de Son Maître FALP 746, 1962 — Discogs 4698279, https://www.discogs.com/release/4698279-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-La-Belle-Meunière), ныне в каталоге Warner Classics. Ему 36 — середина вокального пика (~1951–1972), стерео; самая тиражируемая EMI-версия цикла (реестр альбомов проекта, по дискографии Грея). Приоритет №2 правил → вторая позиция. Видео `YQKV3FNCqc8` (Dietrich Fischer-Dieskau - Topic): по yt-dlp album = «Schubert: La belle meunière (Stereo Version)», release_year 1962 — соответствует именно этой сессии, а не более ранней (1951, потрековая доступность которой в проекте не подтверждена) и не более поздней (DG, изд. 1972).
+3. **Gerhard Hüsch / Hanns Udo Müller** — зап. 31.01–22.03.1935, Abbey Road, студия № 3; HMV DB 2429–2436 (дискография Майкла Грея — даты нескольких сторон комплекта: id 74340 «1935 January 31», id 56255 «1935 February 2», id 53828 «1935 March 22», по цикльному досье). Ему 34 — вокальный пик; тот же дуэт, что записал эталонную Winterreise 1933. Исторический эталон всего цикла (klassik-prisma — 5 баллов, серия Angel «Great Recordings of the Century»). Сильнейшая запись группы «звёзды прошлого» → третья позиция. Видео `vJYL9GuQMjA` (Gerhard Hüsch - Topic): заголовок «Die Schöne Müllerin, D.795: NO. 4. Danksagung an den Bach», по yt-dlp — сборник переиздателя Altair «Franz Schubert: Die Schöne Müllerin» (релиз-метка 2023 — это дата цифрового переиздания, не сессии; артисты в метаданных — Gerhard Hüsch / Hanns Udo Müller, что подтверждает принадлежность записи).
+4. **Fritz Wunderlich / Hubert Giesen** — зап. 2–5.07.1966, Мюнхен (Akademie der Wissenschaften; реестр альбомов + дискография Грея); DG 139 220. Ему 36 — последние студийные сессии перед гибелью 17.09.1966. Эталон тенорового цикла. Второе место старой группы по качеству → четвёртая позиция. Видео `PViWVhMDwyc` (Fritz Wunderlich - Topic): по описанию yt-dlp — «Provided to YouTube by Universal Music Group… ℗ 1966 Deutsche Grammophon GmbH, Berlin», сборник «Fritz Wunderlich sings» (переизд. 1991) — та же запись 1966 г., только под другой обложкой; не спутана с параллельной версией Stolze/Eurodisc (потрековая доступность которой не подтверждена).
+5. **Samuel Hasselhorn / Ammiel Bushakevitz** — зап. 2023; harmonia mundi HMM 902720, т. 1 проекта «Schubert 200» (Discogs release 36696394, https://www.discogs.com/release/36696394-Franz-Schubert-Samuel-Hasselhorn-Ammiel-Bushakevitz-Die-Schöne-Müllerin — каталожный номер и год издания подтверждены; точная дата сессии дискографически не документирована, в реестре зафиксирована как «зап. 2023?»). Ему 33 — ранний пик. Diapason d'or октября 2023 и Diapason d'or de l'année — объективные премии альбома (не пресс-релиз). Лучший кандидат слота «не ранее 2015» → пятая позиция. Видео `AAfWCe4gbNg` (Samuel Hasselhorn - Topic): заголовок и артисты по yt-dlp совпадают («Samuel Hasselhorn, Ammiel Bushakevitz»), альбом «Schubert: Die schöne Müllerin».
+
+## Проверка приоритетных исполнителей (унаследована из цикльного отбора)
+
+Квастхоф и Фишер-Дискау — записали цикл целиком, вошли (см. выше). Шварцкопф, Хоттер, Э. Шуман, Людвиг, Попп — полного цикла не записали (цикльное досье, отрицательный результат); отдельно для «Danksagung an den Bach» — самостоятельной жизни у песни не обнаружено, значит и повода для точечной замены (как со Шварцкопф в «Ungeduld») нет. Андерс записал цикл дважды, но без потрековой доступности на YouTube — непубликуем (тот же вывод, что в цикльном отборе).
+
+## Отклонённые кандидаты
+
+Отдельного пула кандидатов для этой песни не возникло — при отсутствии самостоятельной концертной жизни действует общий отбор и общий список отклонённых цикльного файла (`cycle-muellerin-top5.md`, раздел «Отклонённые кандидаты»): Aksel Schiøtz/Moore 1945, Ian Bostridge/Johnson 1995, Julius Patzak/Raucheisen, Hans Duhan 1928, Peter Pears/Britten 1960, Gérard Souzay/Baldwin 1964, Hermann Prey/Hokanson 1973, Peter Schreier (Olbertz/Schiff), Fritz Wunderlich/Stolze (Eurodisc), современный второй ряд (Goerne, Gerhaher, Güra, Prégardien, Padmore, Holzmair), Jonas Kaufmann/Deutsch 2009 (пиар-фильтр), Andrè Schuen/Heide 2020, Konstantin Krimmel/Heide 2023, Nathalie Stutzmann/Södergren 2008, Lotte Lehmann 1942. Причины отклонения — в указанном файле; для D 795/4 отдельной переоценки не потребовалось, так как ни один из них не поднят внецикльной жизнью песни.
+
+## Соответствие правилам состава
+
+3 записи ранее 1990 (1935, 1961, 1966) ✓; 2 записи 1990+ (2005, 2023) ✓, из них 1 запись 2015+ (2023) ✓. Порядок — строгая иерархия: Квастхоф (№1) → Фишер-Дискау (№2) → звёзды прошлого по качеству (Хюш → Вундерлих) → современная (Хассельхорн).
+
+## Резервы (при выпадении видео, унаследованы из цикльного отбора)
+
+1. Старая группа: Schiøtz/Moore 1945 → Pears/Britten 1960 → Souzay/Baldwin 1964 → Prey/Hokanson 1973.
+2. Современное место (≥1990): Bostridge/Johnson 1995 → Güra/Schultsz 2000 → Goerne/Eschenbach 2008.
+3. Слот ≥2015: Schuen/Heide 2020 → Krimmel/Heide 2023 → Gerhaher/Huber 2016.
+4. Слот Ф.-Д.: DG-версия (изд. 1972) — если выпадет Warner-комплект 1961.
+
+## Вывод
+
+Пятёрка в `performances.json` (поле `"795/4"`) правилу отвечает; замен не требуется.
