@@ -1,9 +1,16 @@
 {
  "d": "786",
  "title_de": "Viola",
+ "title_ru": "Виола",
+ "poet_de": "Franz von Schober",
+ "poet_ru": "Франц фон Шобер",
  "year": "1823",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Viola («фиалка») — латинское имя цветка, ставшее у Шобера именем героини. Вся баллада разыграна среди цветов, где подснежник звонит в колокол, весна приходит женихом, а фиалка выходит невестой. С музыкальным инструментом — виолой, альтом — заглавие не связано."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -12,6 +19,157 @@
     "Läutest in dem stillen Hain,",
     "Läute immer, läute zu,",
     "Läute, läute, läute immer zu!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schneeglöcklein",
+       "ru": "Подснежник,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Schneeglöcklein",
+       "ru": "подснежник,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Schneeglöcklein — подснежник, но буквально «снежный колокольчик»: уменьшительное от Schneeglocke. У Гриммов так и стоит: schneeglöcklein (galanthus)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "На этой буквальности держится весь сюжет: как объясняет сайт schubertsong.uk, подснежники по-немецки — маленькие снежные колокола: их не только видят, но и слышат."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "den Auen",
+       "ru": "лугах"
+      },
+      {
+       "de": "läutest",
+       "ru": "звонишь"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "läuten — «звонить, издавать звон» о колоколе (DWDS: eine Glocke zum Klingen, Tönen bringen — «заставить колокол звучать»). Формы läutest, läute и краткий императив läut в песне — тот же глагол."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Läutest",
+       "ru": "Звонишь"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dem stillen",
+       "ru": "тихой"
+      },
+      {
+       "de": "Hain",
+       "ru": "роще,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Hain — роща, а не лес: у Гриммов слово «vom walde genau unterschieden» («точно отличено от леса») — небольшая, ухоженная, обжитая роща."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Läute",
+       "ru": "Звони"
+      },
+      {
+       "de": "immer",
+       "ru": "всегда,"
+      },
+      {
+       "de": "läute",
+       "ru": "звони"
+      },
+      {
+       "de": "zu",
+       "ru": "без умолку,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Частица zu при глаголе значит «продолжай»: läute zu — «звони и звони». Вместе с immer это оборот immer zu (нынешнее immerzu) — «непрестанно»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Läute",
+       "ru": "Звони,"
+      },
+      {
+       "de": "läute",
+       "ru": "звони,"
+      },
+      {
+       "de": "läute",
+       "ru": "звони"
+      },
+      {
+       "de": "immer",
+       "ru": "всегда"
+      },
+      {
+       "de": "zu",
+       "ru": "без умолку!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -20,6 +178,144 @@
     "Frühling naht, der Bräutigam,",
     "Kommt mit Sieg vom Winterstreit,",
     "Dem er seine Eiswehr nahm."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Denn",
+       "ru": "Ведь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "kündest",
+       "ru": "возвещаешь"
+      },
+      {
+       "de": "frohe",
+       "ru": "радостное"
+      },
+      {
+       "de": "Zeit",
+       "ru": "время,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "künden — старое kund thun («объявлять»): «возвещать, оповещать». Слово высокого слога уже во времена Шобера."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Здесь начинается торжественный, церемониальный раздел песни — до конца четвёртой строфы. Грэм Джонсон слышит в нём буйную энергию весны."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Frühling",
+       "ru": "Весна"
+      },
+      {
+       "de": "naht",
+       "ru": "близится,"
+      },
+      {
+       "de": "der Bräutigam",
+       "ru": "жених,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "der Frühling («весна») по-немецки мужского рода, а die Blume («цветок»), die Rose («роза») и die Viola («фиалка») — женского. Как замечает сайт schubertsong.uk, на этом стоит сюжет: колокольчики созывают невесту к жениху, и жених — сама весна. В русском переводе весна остаётся женихом при женском имени."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kommt",
+       "ru": "Приходит"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Sieg",
+       "ru": "победой"
+      },
+      {
+       "de": "vom",
+       "ru": "из"
+      },
+      {
+       "de": "Winterstreit",
+       "ru": "зимней битвы,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Winterstreit — сложное слово поэта: Winter («зима») и Streit («спор, битва»). Зима здесь противник, с которым весна воюет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dem",
+       "ru": "У которой"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "nahm",
+       "ru": "отнял"
+      },
+      {
+       "de": "seine",
+       "ru": "её"
+      },
+      {
+       "de": "Eiswehr",
+       "ru": "ледяное оружие."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Eiswehr — тоже авторское сложение: Eis («лёд») и Wehr («оборона, оружие»). Местоимение seine здесь «её», а не «своё»: оружие принадлежит побеждённой зиме. Относительное dem — дательный при nahm («отнять у кого-то»)."
+      }
+     ]
+    }
    ]
   },
   {
@@ -30,6 +326,178 @@
     "Leis wie Schmeichelruf entwallt,",
     "Dein liebliches Gedüft",
     "Wie Schmeichelruf entwallt,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Darum",
+       "ru": "Поэтому"
+      },
+      {
+       "de": "schwingt",
+       "ru": "качается"
+      },
+      {
+       "de": "der gold'ne",
+       "ru": "золотой"
+      },
+      {
+       "de": "Stift",
+       "ru": "язычок,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "Stift («стерженёк») — гвоздик без шляпки; здесь это золотой язычок внутри цветка-колокольчика. Глагол schwingen у Гримма — vibrare, «взмахивать, потрясать»; без дополнения он значит, что язычок раскачивается сам."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "dein",
+       "ru": "твой"
+      },
+      {
+       "de": "Silberhelm",
+       "ru": "серебряный шлем"
+      },
+      {
+       "de": "erschallt",
+       "ru": "звучал,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Silberhelm — сложение Silber («серебро») и Helm («шлем») по образцу поэтических Silberschein и Silberschleier. Так назван свисающий венчик подснежника — тот самый колокол, который звонит."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "erschallen — высокое «раздаваться, звучать» (у Гримма — personare)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "dein",
+       "ru": "твоё"
+      },
+      {
+       "de": "liebliches",
+       "ru": "прелестное"
+      },
+      {
+       "de": "Gedüft",
+       "ru": "благоухание"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Gedüft — поэтическая форма от Duft («аромат, благоухание») с собирательной приставкой ge-. У Гримма о Duft: der duft der blumen erfüllt den ganzen garten («аромат цветов наполняет весь сад»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Leis",
+       "ru": "Тихо,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "Schmeichelruf",
+       "ru": "ласковый зов,"
+      },
+      {
+       "de": "entwallt",
+       "ru": "утекает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Schmeichelruf — у Гримма «schmeichelnd kosender, lockender ruf» («льстиво ласкающий, манящий зов»)."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "entwallen — от wallen («клубиться, катиться волнами»): «утекает волной», ускользая от чувств (Гримм: dahin wallen, entflieszen, entschweben)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dein",
+       "ru": "Твоё"
+      },
+      {
+       "de": "liebliches",
+       "ru": "прелестное"
+      },
+      {
+       "de": "Gedüft",
+       "ru": "благоухание"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "Schmeichelruf",
+       "ru": "ласковый зов,"
+      },
+      {
+       "de": "entwallt",
+       "ru": "утекает,"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -40,6 +508,153 @@
     "Schmücken zu dem Hochzeitsfest,",
     "Und des Bräutigams sich werth",
     "Schmücken zu dem Hochzeitsfest."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "die Blumen",
+       "ru": "цветы"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "der Erd",
+       "ru": "земле"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "der Erd — усечённое die Erde («земля»): в стихе конечное -e отбрасывают ради размера."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Steigen",
+       "ru": "Всходили"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem düstern",
+       "ru": "тёмного"
+      },
+      {
+       "de": "Nest",
+       "ru": "гнезда"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Nest («гнездо») — жилище, которое зверь или птица устраивает для потомства. Земля названа гнездом, откуда цветы выбираются к весне."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "des Bräutigams",
+       "ru": "жениха"
+      },
+      {
+       "de": "werth",
+       "ru": "достойными"
+      },
+      {
+       "de": "sich",
+       "ru": "себя"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        3
+       ],
+       "text": "werth (нынешнее wert) значит «достойный кого-либо» и требует родительного падежа: des Bräutigams werth — «достойные жениха». Возвратное sich относится к глаголу следующей строки: sich schmücken — «наряжаться»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schmücken",
+       "ru": "Наряжали"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "dem Hochzeitsfest",
+       "ru": "свадебному празднику,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "des Bräutigams",
+       "ru": "жениха"
+      },
+      {
+       "de": "werth",
+       "ru": "достойными"
+      },
+      {
+       "de": "sich",
+       "ru": "себя"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schmücken",
+       "ru": "Наряжали"
+      },
+      {
+       "de": "zu",
+       "ru": "к"
+      },
+      {
+       "de": "dem Hochzeitsfest",
+       "ru": "свадебному празднику."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -49,12 +664,194 @@
     "Läutest in dem stillen Hain,",
     "Läut die Blumen aus der Ruh,",
     "Läut, läut die Blumen aus der Ruh!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schneeglöcklein",
+       "ru": "Подснежник,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Schneeglöcklein",
+       "ru": "подснежник,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "den Auen",
+       "ru": "лугах"
+      },
+      {
+       "de": "läutest",
+       "ru": "звонишь"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Läutest",
+       "ru": "Звонишь"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dem stillen",
+       "ru": "тихой"
+      },
+      {
+       "de": "Hain",
+       "ru": "роще,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Läut",
+       "ru": "Вызвони"
+      },
+      {
+       "de": "die Blumen",
+       "ru": "цветы"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "der Ruh",
+       "ru": "покоя,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Läut — краткий императив от läuten. С направлением aus der Ruh глагол значит «звоном поднять из покоя», по-русски — «вызвони»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "der Ruh — усечённое die Ruhe («покой»); у Аделунга это покой в широком смысле, в том числе душевный."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Läut",
+       "ru": "Звони,"
+      },
+      {
+       "de": "läut",
+       "ru": "вызвони"
+      },
+      {
+       "de": "die Blumen",
+       "ru": "цветы"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "der Ruh",
+       "ru": "покоя!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Du, Viola, zartes Kind,",
     "Hörst zuerst den Wonnelaut,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Du",
+       "ru": "Ты,"
+      },
+      {
+       "de": "Viola",
+       "ru": "Виола,"
+      },
+      {
+       "de": "zartes",
+       "ru": "нежное"
+      },
+      {
+       "de": "Kind",
+       "ru": "дитя,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "zart — «нежный, хрупкий»; Kind в обращении к девушке значит «дитя», а не «ребёнок»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hörst",
+       "ru": "Слышишь"
+      },
+      {
+       "de": "zuerst",
+       "ru": "первой"
+      },
+      {
+       "de": "den Wonnelaut",
+       "ru": "радостный звон,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Wonnelaut — сложение Wonne («блаженство, восторг») и Laut («звук»), то есть «звук блаженства». Слово есть у Гёте: klag- und wonnelaut («звук жалобы и звук блаженства»). Здесь это звон подснежника."
+      }
+     ]
+    }
    ]
   },
   {
@@ -63,6 +860,106 @@
     "Hörst zuerst den Wonnelaut.",
     "Und sie stehet auf geschwind,",
     "Schmücket sorglich sich als Braut,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Du",
+       "ru": "Ты,"
+      },
+      {
+       "de": "Viola",
+       "ru": "Виола,"
+      },
+      {
+       "de": "zartes",
+       "ru": "нежное"
+      },
+      {
+       "de": "Kind",
+       "ru": "дитя,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hörst",
+       "ru": "Слышишь"
+      },
+      {
+       "de": "zuerst",
+       "ru": "первой"
+      },
+      {
+       "de": "den Wonnelaut",
+       "ru": "радостный звон."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "stehet auf",
+       "ru": "встаёт"
+      },
+      {
+       "de": "geschwind",
+       "ru": "быстро,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "aufstehen — «вставать»: приставка auf стоит после подлежащего. Форма stehet — обычное окончание эпохи, нынешнее steht."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schmücket... sich",
+       "ru": "Наряжается"
+      },
+      {
+       "de": "sorglich",
+       "ru": "заботливо"
+      },
+      {
+       "de": "als",
+       "ru": "как"
+      },
+      {
+       "de": "Braut",
+       "ru": "невеста,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "sich schmücken — «наряжаться»; возвратное местоимение отодвинуто наречием, отсюда многоточие в немецкой части. sorglich — «тщательно, заботливо»: слово высокого слога, уже тогда выходившее из обихода."
+      }
+     ]
+    }
    ]
   },
   {
@@ -72,6 +969,121 @@
     "Nimmt das güldene Geschmeide",
     "Und den Brillantenthau,",
     "Und den Brillantenthau."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Hüllet sich",
+       "ru": "Кутается"
+      },
+      {
+       "de": "in's",
+       "ru": "в"
+      },
+      {
+       "de": "grüne Kleid",
+       "ru": "зелёное платье,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "sich hüllen in etwas — «кутаться, облачаться во что-то». Слитное in's — это in das: артикль ушёл в предлог, и отдельного русского слова ему нет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nimmt",
+       "ru": "Берёт"
+      },
+      {
+       "de": "den Mantel",
+       "ru": "плащ"
+      },
+      {
+       "de": "sammetblau",
+       "ru": "бархатно-синий,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "sammetblau — «бархатно-синий»: Sammet — старая форма слова Samt («бархат»). Определение стоит после существительного, как часто в стихе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nimmt",
+       "ru": "Берёт"
+      },
+      {
+       "de": "das güldene",
+       "ru": "золотые"
+      },
+      {
+       "de": "Geschmeide",
+       "ru": "украшения"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "gülden — старая форма прилагательного «золотой»; со второй четверти XVIII века её всё чаще вытесняет golden, и у Шобера gülden звучит нарочито старинно. Geschmeide («драгоценный убор») — ювелирная работа."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "den Brillantenthau",
+       "ru": "алмазную росу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Brillantenthau — авторское сложение: Brillanten («бриллианты») и Thau, как тогда писали Tau («роса»). Роса — последнее украшение невесты."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "den Brillantenthau",
+       "ru": "алмазную росу."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -82,6 +1094,218 @@
     "Sieht nicht her und sieht nicht hin,",
     "Ganz von Liebesgluth durchglüht,",
     "Sieht nicht her und sieht nicht hin."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Eilt",
+       "ru": "Спешит"
+      },
+      {
+       "de": "dann",
+       "ru": "потом"
+      },
+      {
+       "de": "fort",
+       "ru": "прочь"
+      },
+      {
+       "de": "mit mächtigem",
+       "ru": "мощным"
+      },
+      {
+       "de": "Schritt",
+       "ru": "шагом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "mit mächtigem Schritt по-русски передаётся творительным падежом без предлога — «мощным шагом»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "В печатном тексте песни на месте mächt'gem («мощным») стоит em'sgem — «усердным»; расхождение со стихотворением отмечает сайт schubertsong.uk."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Лишь",
+       "de": "Nur"
+      },
+      {
+       "ru": "друга",
+       "de": "den Freund"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "верных",
+       "de": "treuen"
+      },
+      {
+       "ru": "мыслях,",
+       "de": "Sinn"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "der Freund («друг») в любовной лирике тех лет значит «возлюбленный»; здесь это весна-жених."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Sinn около 1800 года — сознание и помыслы (у Аделунга слово идёт от способности чувствовать к сознанию). im treuen Sinn по-русски — «в верных мыслях»: думает она только о нём."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ganz",
+       "ru": "Вся"
+      },
+      {
+       "de": "von Liebesgluth",
+       "ru": "пламенем любви"
+      },
+      {
+       "de": "durchglüht",
+       "ru": "пронизана,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "В печатном тексте песни вместо Liebesgluth («жар любви») стоит Liebesglück — «счастье любви»; на это указывает schubertsong.uk."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "durchglühen — «прокалить насквозь», в переносном смысле у Гримма: so unschuld als verlangen durchglühten ihre wangen («и невинность, и желание жгли её щёки»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "Sieht",
+       "ru": "глядит"
+      },
+      {
+       "de": "her",
+       "ru": "сюда"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "sieht",
+       "ru": "глядит"
+      },
+      {
+       "de": "hin",
+       "ru": "туда,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "her — «сюда», к говорящему; hin — «туда», от него. Вместе эта пара значит, что она не смотрит никуда вообще."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ganz",
+       "ru": "Вся"
+      },
+      {
+       "de": "von Liebesgluth",
+       "ru": "пламенем любви"
+      },
+      {
+       "de": "durchglüht",
+       "ru": "пронизана,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "Sieht",
+       "ru": "глядит"
+      },
+      {
+       "de": "her",
+       "ru": "сюда"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "sieht",
+       "ru": "глядит"
+      },
+      {
+       "de": "hin",
+       "ru": "туда."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -92,6 +1316,190 @@
     "Denn es ist noch rings so still,",
     "Und die Lüfte weh'n so kalt,",
     "Und die Lüfte weh'n so kalt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "ein ängstliches",
+       "ru": "тревожное"
+      },
+      {
+       "de": "Gefühl",
+       "ru": "чувство"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "С этой строфы в музыку приходит минор, и, как пишет Грэм Джонсон, вместе с ним в песню входит холод и предчувствие паники."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Её"
+      },
+      {
+       "de": "kleine",
+       "ru": "маленькую"
+      },
+      {
+       "de": "Brust",
+       "ru": "грудь"
+      },
+      {
+       "de": "durchwallt",
+       "ru": "пронизывает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "durchwallen — от wallen («кипеть, катиться волнами»): чувство разливается волной по всей груди."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Denn",
+       "ru": "Ведь"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "rings",
+       "ru": "кругом"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "es ist... still",
+       "ru": "тихо,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Безличное es ist still по-русски — просто «тихо»: ни местоимение es, ни связка ist отдельных слов не требуют. rings — «кругом, повсюду вокруг», от Ring («кольцо»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Denn",
+       "ru": "Ведь"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "rings",
+       "ru": "кругом"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "es ist... still",
+       "ru": "тихо,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "die Lüfte",
+       "ru": "ветры"
+      },
+      {
+       "de": "weh'n",
+       "ru": "веют"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "kalt",
+       "ru": "холодно,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "die Lüfte — множественное от Luft («воздух»): по-русски «ветры, дуновения». weh'n — усечённое wehen («веять»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "В печатном тексте песни здесь стоит noch («ещё») вместо so; расхождение отмечает schubertsong.uk."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "die Lüfte",
+       "ru": "ветры"
+      },
+      {
+       "de": "weh'n",
+       "ru": "веют"
+      },
+      {
+       "de": "so",
+       "ru": "так"
+      },
+      {
+       "de": "kalt",
+       "ru": "холодно."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -100,6 +1508,148 @@
     "Schon bestrahlt von Sonnenschein,",
     "Doch mit Schrecken blickt sie auf,",
     "Denn sie stehet ganz, ganz allein."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "hemmt",
+       "ru": "сдерживает"
+      },
+      {
+       "de": "den schnellen",
+       "ru": "быстрый"
+      },
+      {
+       "de": "Lauf",
+       "ru": "бег,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "hemmen — «замедлять движение и останавливать его»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schon",
+       "ru": "Уже"
+      },
+      {
+       "de": "bestrahlt",
+       "ru": "озарённая"
+      },
+      {
+       "de": "von Sonnenschein",
+       "ru": "солнечным светом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "von Sonnenschein bestrahlt («озарённая солнечным светом») — страдательный оборот; по-русски он передаётся творительным падежом без предлога."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Schrecken",
+       "ru": "испугом"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "blickt... auf",
+       "ru": "поднимает взгляд,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "К концу этой строфы, по разбору Джонсона, всё замирает в ужасе."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "aufblicken — «поднять взгляд»: отделяемая приставка auf уехала в конец строки, отсюда многоточие. der Schrecken — «испуг, ужас»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Denn",
+       "ru": "Ведь"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "stehet",
+       "ru": "стоит"
+      },
+      {
+       "de": "ganz",
+       "ru": "совсем,"
+      },
+      {
+       "de": "ganz",
+       "ru": "совсем"
+      },
+      {
+       "de": "allein",
+       "ru": "одна."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "ganz в текстах тех лет — всегда сильное «совсем, целиком», а не нынешнее смягчающее «довольно». allein здесь значит «одна, одинока»: у слова есть и значения «только» и союзное «но»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -108,6 +1658,148 @@
     "Zugedrungen, und verschmäht.",
     "Da durchschauert sie die Scham,",
     "Fliehet, wie vom Sturm geweht,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Ни"
+      },
+      {
+       "de": "Schwestern",
+       "ru": "сестёр,"
+      },
+      {
+       "de": "nicht",
+       "ru": "ни"
+      },
+      {
+       "de": "Bräutigam",
+       "ru": "жениха,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Строка идёт без глагола: «ни сестёр, ни жениха рядом нет». Первое nicht в немецком стоит после существительного, по-русски отрицание уходит вперёд."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Zugedrungen",
+       "ru": "Навязавшаяся"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "verschmäht",
+       "ru": "отвергнутая."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "zudringen — «настойчиво приблизиться, навязаться»; отсюда и нынешнее zudringlich («назойливый»). Виола пришла непрошеной."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Отверженность здесь, по толкованию сайта schubertsong.uk, стоит понимать по-человечески: за ней стыд, клеймо, одиночество и боль."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Тут"
+      },
+      {
+       "de": "durchschauert",
+       "ru": "пронизывает"
+      },
+      {
+       "de": "sie",
+       "ru": "её"
+      },
+      {
+       "de": "die Scham",
+       "ru": "стыд,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "durchschauern — «пронизывать трепетом, дрожью». У Гримма пример из Шубарта: gottes nähe durchschauert mich («близость Бога пронизывает меня трепетом»)."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Подлежащее здесь die Scham («стыд»), а sie — винительный падеж, «её»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fliehet",
+       "ru": "Бежит,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "vom Sturm",
+       "ru": "бурей"
+      },
+      {
+       "de": "geweht",
+       "ru": "унесённая,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "С этого бегства, по словам Джонсона, музыка идёт длинной дугообразной волной, какая могла бы прийти из скрипичной сонаты."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "wehen — «веять, дуть»: vom Sturm geweht — «сдутая, унесённая бурей». Sturm — именно буря, ветер, а не приступ или штурм."
+      }
+     ]
+    }
    ]
   },
   {
@@ -117,6 +1809,189 @@
     "Späht und lauschet immer fort,",
     "Ob was rauschet und sich regt,",
     "Ob was rauschet und sich regt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Fliehet",
+       "ru": "Бежит"
+      },
+      {
+       "de": "an",
+       "ru": "в"
+      },
+      {
+       "de": "den fernsten",
+       "ru": "самое дальнее"
+      },
+      {
+       "de": "Ort",
+       "ru": "место,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "fliehen у Аделунга — «быстро и бесшумно удаляться откуда-либо»: слово высокого слога, с оттенком поспешности и страха."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "sie",
+       "ru": "её"
+      },
+      {
+       "de": "Gras",
+       "ru": "трава"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Schatten",
+       "ru": "тень"
+      },
+      {
+       "de": "deckt",
+       "ru": "укрывают,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "sie здесь винительный падеж, «её»: укрывают трава и тень. Глагол при двух подлежащих стоит в единственном числе — обычная вольность стиха; decken — «покрывать, укрывать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Späht",
+       "ru": "Высматривает"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "lauschet",
+       "ru": "вслушивается"
+      },
+      {
+       "de": "immer fort",
+       "ru": "непрестанно,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "immer fort (нынешнее immerfort) — «непрестанно, без остановки»; тот же оборот, что в рефрене läute immer zu. lauschen — «вслушиваться, внимать», у Аделунга рядом стоит и «выжидать, подстерегать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Не"
+      },
+      {
+       "de": "rauschet",
+       "ru": "шелестит"
+      },
+      {
+       "de": "Ob",
+       "ru": "ли"
+      },
+      {
+       "de": "was",
+       "ru": "что"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "sich regt",
+       "ru": "шевелится,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Ob — «ли», союз косвенного вопроса. Русское «ли» стоит после глагола, поэтому в подстрочнике оно отъехало от начала строки, а «не» — русская добавка вопроса."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "rauschen — глагол сплошного природного шума: о воде, лесе, листве. sich regen — «шевелиться, подавать признак жизни»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Не"
+      },
+      {
+       "de": "rauschet",
+       "ru": "шелестит"
+      },
+      {
+       "de": "Ob",
+       "ru": "ли"
+      },
+      {
+       "de": "was",
+       "ru": "что"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "sich regt",
+       "ru": "шевелится."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -126,6 +2001,161 @@
     "Von der tiefsten Angst zerfleischt,",
     "Von der tiefsten Angst zerfleischt,",
     "Ob kein Nahender erscheint."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "gekränket",
+       "ru": "оскорблённая,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "getäuscht",
+       "ru": "обманутая"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "gekränket — форма причастия того времени, нынешнее gekränkt, от kränken («оскорбить, ранить чувства»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sitzet",
+       "ru": "Сидит"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "schluchzt",
+       "ru": "рыдает,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "weint",
+       "ru": "плачет,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "schluchzen — плакать судорожно, взахлёб; рядом с weinen («плакать») это усиление, а не повтор."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Von der tiefsten",
+       "ru": "Глубочайшей"
+      },
+      {
+       "de": "Angst",
+       "ru": "тревогой"
+      },
+      {
+       "de": "zerfleischt",
+       "ru": "истерзана,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "zerfleischen буквально — «разорвать плоть, растерзать» (у Гримма — о ранах, от которых мясо рвётся в клочья). Здесь тревога терзает Виолу, как зверь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Von der tiefsten",
+       "ru": "Глубочайшей"
+      },
+      {
+       "de": "Angst",
+       "ru": "тревогой"
+      },
+      {
+       "de": "zerfleischt",
+       "ru": "истерзана,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "",
+       "ru": "Не"
+      },
+      {
+       "de": "erscheint",
+       "ru": "явится"
+      },
+      {
+       "de": "Ob",
+       "ru": "ли"
+      },
+      {
+       "de": "kein",
+       "ru": "кто-нибудь"
+      },
+      {
+       "de": "Nahender",
+       "ru": "приближающийся."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "В немецком тут стоит отрицание: буквально «не появится ли никто приближающийся». По-русски отрицание переходит в сам вопрос — «не явится ли кто-нибудь». Nahender — причастие от nahen («приближаться»), взятое как существительное."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "У Шобера строка кончалась словами sich zeigt («покажется»), в тексте песни — erscheint («явится»); расхождение отмечает schubertsong.uk."
+      }
+     ]
+    }
    ]
   },
   {
@@ -135,6 +2165,130 @@
     "Läutest in dem stillen Hain,",
     "Läut die Schwestern ihr herzu,",
     "Läut, läut die Schwestern ihr herzu!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schneeglöcklein",
+       "ru": "Подснежник,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Schneeglöcklein",
+       "ru": "подснежник,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "den Auen",
+       "ru": "лугах"
+      },
+      {
+       "de": "läutest",
+       "ru": "звонишь"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Läutest",
+       "ru": "Звонишь"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dem stillen",
+       "ru": "тихой"
+      },
+      {
+       "de": "Hain",
+       "ru": "роще,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Läut",
+       "ru": "Вызвони"
+      },
+      {
+       "de": "ihr",
+       "ru": "ей"
+      },
+      {
+       "de": "die Schwestern",
+       "ru": "сестёр"
+      },
+      {
+       "de": "herzu",
+       "ru": "сюда,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Возвращение главной темы здесь Джонсон называет гениальным ходом."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "herzu — «сюда, в эту сторону», к тому, кто зовёт; ihr — дательный падеж, «ей, для неё»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Läut",
+       "ru": "Звони,"
+      },
+      {
+       "de": "läut",
+       "ru": "вызвони"
+      },
+      {
+       "de": "ihr",
+       "ru": "ей"
+      },
+      {
+       "de": "die Schwestern",
+       "ru": "сестёр"
+      },
+      {
+       "de": "herzu",
+       "ru": "сюда!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -146,6 +2300,223 @@
     "Rose nahet, Lilie schwankt,",
     "Windling kommt daher gerankt,",
     "Und Narciss, und Narciss hat sich gesellt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Rose",
+       "ru": "Роза"
+      },
+      {
+       "de": "nahet",
+       "ru": "близится,"
+      },
+      {
+       "de": "Lilie",
+       "ru": "лилия"
+      },
+      {
+       "de": "schwankt",
+       "ru": "покачивается,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Музыку этой строфы Джонсон называет прекрасной альбой, утренней песней: голос ведёт контрапункт с басом, звучащим как учтивый фагот."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "schwanken — «качаться, колебаться»; nahen — «приближаться», форма nahet с окончанием той поры."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Tulp'",
+       "ru": "Тюльпан"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Hyacinthe",
+       "ru": "гиацинт"
+      },
+      {
+       "de": "schwellt",
+       "ru": "набухают,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Tulp' — укороченное ради размера Tulpe («тюльпан»); такую форму приводит и словарь Штилера 1691 года: tulp alias tulpe."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "schwellen без дополнения — «набухать, наливаться», о бутоне. Глагол при двух подлежащих снова в единственном числе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Windling",
+       "ru": "Вьюнок"
+      },
+      {
+       "de": "kommt",
+       "ru": "приходит"
+      },
+      {
+       "de": "daher",
+       "ru": "сюда,"
+      },
+      {
+       "de": "gerankt",
+       "ru": "виясь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Windling — вьюнок, от winden («виться»); у Гриммов слово стоит в ряду windel, windling, windung."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "kommen с причастием показывает, как именно движется существо: kommt gerankt — «подходит, обвиваясь стеблями»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "Narciss",
+       "ru": "нарцисс,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Narciss",
+       "ru": "нарцисс"
+      },
+      {
+       "de": "hat sich gesellt",
+       "ru": "присоединился."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "sich gesellen — «присоединиться, пристать к обществу»; вспомогательный глагол hat стоит в начале, причастие в конце, по-русски это одно слово. Narciss («нарцисс») — написание той поры, нынешнее Narzisse."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Rose",
+       "ru": "Роза"
+      },
+      {
+       "de": "nahet",
+       "ru": "близится,"
+      },
+      {
+       "de": "Lilie",
+       "ru": "лилия"
+      },
+      {
+       "de": "schwankt",
+       "ru": "покачивается,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Windling",
+       "ru": "Вьюнок"
+      },
+      {
+       "de": "kommt",
+       "ru": "приходит"
+      },
+      {
+       "de": "daher",
+       "ru": "сюда,"
+      },
+      {
+       "de": "gerankt",
+       "ru": "виясь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "Narciss",
+       "ru": "нарцисс,"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Narciss",
+       "ru": "нарцисс"
+      },
+      {
+       "de": "hat sich gesellt",
+       "ru": "присоединился."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -155,6 +2526,156 @@
     "Sieht er alle, alle, die vereint,",
     "Sieht er alle, die vereint,",
     "Und vermisst sein liebstes Kind."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Когда"
+      },
+      {
+       "de": "der Frühling",
+       "ru": "весна"
+      },
+      {
+       "de": "nun",
+       "ru": "теперь"
+      },
+      {
+       "de": "erscheint",
+       "ru": "является"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Da здесь союз: «когда» и «раз» сразу, придаточное времени с оттенком причины."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "das frohe",
+       "ru": "радостный"
+      },
+      {
+       "de": "Fest",
+       "ru": "праздник"
+      },
+      {
+       "de": "beginnt",
+       "ru": "начинается,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sieht",
+       "ru": "Видит"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "alle",
+       "ru": "всех,"
+      },
+      {
+       "de": "alle",
+       "ru": "всех,"
+      },
+      {
+       "de": "die",
+       "ru": "кто"
+      },
+      {
+       "de": "vereint",
+       "ru": "собрался вместе,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "vereint — «объединённые, сошедшиеся воедино»; относительное die относится к alle («все»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sieht",
+       "ru": "Видит"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "alle",
+       "ru": "всех,"
+      },
+      {
+       "de": "die",
+       "ru": "кто"
+      },
+      {
+       "de": "vereint",
+       "ru": "собрался вместе,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "не находит",
+       "de": "vermisst"
+      },
+      {
+       "ru": "своё",
+       "de": "sein"
+      },
+      {
+       "ru": "любимое",
+       "de": "liebstes"
+      },
+      {
+       "ru": "дитя.",
+       "de": "Kind"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "vermissen — «заметить, что кого-то нет, недосчитаться»: подлежащее тут тот, кто ищет, поэтому по-русски «не находит»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -162,6 +2683,97 @@
     "Alle schickt er suchend fort",
     "Um die eine, die ihm werth,",
     "Um die eine, die ihm werth,"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Alle",
+       "ru": "Всех"
+      },
+      {
+       "de": "schickt... fort",
+       "ru": "отсылает"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "suchend",
+       "ru": "искать"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "fortschicken — «отослать прочь»: приставка fort стоит в конце строки, отсюда многоточие. Причастие suchend — «ища», по-русски естественнее «искать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ту одну,",
+       "de": "Um die eine"
+      },
+      {
+       "ru": "что",
+       "de": "die"
+      },
+      {
+       "ru": "ему",
+       "de": "ihm"
+      },
+      {
+       "ru": "дорога,",
+       "de": "werth"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "werth (нынешнее wert) с дательным падежом — «дорог, ценен кому-то»: die ihm werth — «та, что ему дорога»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "um здесь указывает цель поиска — «ради той одной, за той одной». По-русски после «искать» предлог не нужен, поэтому Um слито с die eine: «искать ту одну»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ту одну,",
+       "de": "Um die eine"
+      },
+      {
+       "ru": "что",
+       "de": "die"
+      },
+      {
+       "ru": "ему",
+       "de": "ihm"
+      },
+      {
+       "ru": "дорога,",
+       "de": "werth"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -171,6 +2783,126 @@
     "Und sie kommen an den Ort,",
     "Wo sie einsam sich verzehrt,",
     "Wo sie einsam sich verzehrt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Alle",
+       "ru": "Всех"
+      },
+      {
+       "de": "schickt... fort",
+       "ru": "отсылает"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "suchend",
+       "ru": "искать"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Ту одну,",
+       "de": "Um die eine"
+      },
+      {
+       "ru": "что",
+       "de": "die"
+      },
+      {
+       "ru": "ему",
+       "de": "ihm"
+      },
+      {
+       "ru": "дорога.",
+       "de": "werth"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "sie",
+       "ru": "они"
+      },
+      {
+       "de": "kommen",
+       "ru": "приходят"
+      },
+      {
+       "de": "an",
+       "ru": "на"
+      },
+      {
+       "de": "den Ort",
+       "ru": "место,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "einsam",
+       "ru": "одиноко"
+      },
+      {
+       "de": "sich verzehrt",
+       "ru": "изнывает,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "sich verzehren — «изнывать, сохнуть от тоски». Исходное значение глагола verzehren — «поедать, истреблять»; отсюда и образ чувства, которое съедает того, кто им живёт."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "einsam",
+       "ru": "одиноко"
+      },
+      {
+       "de": "sich verzehrt",
+       "ru": "изнывает."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -180,6 +2912,149 @@
     "Ach, der Lieb und Sehnsucht Schmerz",
     "Hat die Zärtliche erdrückt,",
     "Hat die Zärtliche erdrückt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Doch",
+       "ru": "Но"
+      },
+      {
+       "de": "es sitzt",
+       "ru": "сидит"
+      },
+      {
+       "de": "das liebe",
+       "ru": "милое"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Вводное es не переводится: подлежащее здесь das liebe Herz. Сердцем названа сама Виола — для той поры обычная замена, ведь Herz («сердце») — средоточие всей внутренней жизни."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Stumm",
+       "ru": "Немое"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "bleich",
+       "ru": "бледное,"
+      },
+      {
+       "de": "das Haupt",
+       "ru": "голову"
+      },
+      {
+       "de": "gebückt",
+       "ru": "склонив,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "das Haupt gebückt — самостоятельный оборот без глагола: «склонив голову». Haupt — высокое слово для головы, рядом с обиходным Kopf."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ach",
+       "ru": "Ах,"
+      },
+      {
+       "de": "der Lieb",
+       "ru": "любви"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Sehnsucht",
+       "ru": "тоски"
+      },
+      {
+       "de": "Schmerz",
+       "ru": "боль"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "der Lieb und Sehnsucht Schmerz — родительный падеж впереди существительного, порядок старой поэзии: «боль любви и тоски». Lieb — усечённое Liebe («любовь»). Sehnsucht у Гриммов это «высокая степень пылкого и часто мучительного желания», всегда обращённого к кому-то."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hat... erdrückt",
+       "ru": "Сокрушила"
+      },
+      {
+       "de": "die Zärtliche",
+       "ru": "нежную,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Рамка hat … erdrückt: вспомогательный глагол в начале, причастие в конце, по-русски одно слово. erdrücken — «раздавить», в переносном смысле «сломить»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Дональд Тови, автор отдельного разбора баллады, свёл её сюжет к одному: любовь и тоска оказались больше сил Виолы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hat... erdrückt",
+       "ru": "Сокрушила"
+      },
+      {
+       "de": "die Zärtliche",
+       "ru": "нежную."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -189,8 +3064,187 @@
     "Läutest in dem stillen Hain,",
     "Läut Viola sanfte Ruh,",
     "Läut, läut Viola sanfte Ruh!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schneeglöcklein",
+       "ru": "Подснежник,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Schneeglöcklein",
+       "ru": "подснежник,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "den Auen",
+       "ru": "лугах"
+      },
+      {
+       "de": "läutest",
+       "ru": "звонишь"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Läutest",
+       "ru": "Звонишь"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "dem stillen",
+       "ru": "тихой"
+      },
+      {
+       "de": "Hain",
+       "ru": "роще,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Звони",
+       "de": "Läut"
+      },
+      {
+       "ru": "Виоле",
+       "de": "Viola"
+      },
+      {
+       "ru": "мирный",
+       "de": "sanfte"
+      },
+      {
+       "ru": "покой,",
+       "de": "Ruh"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Viola здесь дательный падеж без предлога — «Виоле», а sanfte Ruh винительный: буквально «звони Виоле мягкий покой». sanft — «мягкий, приятный чувствам»; по-русски о таком покое естественнее сказать «мирный». В прежних рефренах Läut поднимало звоном («вызвони цветы из покоя», «вызвони сестёр»), здесь тот же глагол звоном приносит покой, поэтому по-русски просто «звони»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Последний рефрен ведёт, по объяснению schubertsong.uk, к обычаю церковного благовеста, которым созывали к молитве об умирающем прихожанине. Тот же звон Шуберт позже опишет в песне Das Zügenglöcklein («Колокольчик по умирающему», D 871) на стихи Иоганна Габриэля Зайдля."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Звони,",
+       "de": "Läut"
+      },
+      {
+       "ru": "звони",
+       "de": "läut"
+      },
+      {
+       "ru": "Виоле",
+       "de": "Viola"
+      },
+      {
+       "ru": "мирный",
+       "de": "sanfte"
+      },
+      {
+       "ru": "покой!",
+       "de": "Ruh"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Основная тональность песни — ля-бемоль мажор, и последний рефрен приходит в неё из скорбного ре минора энгармоническим переходом, который Тови назвал особенно тонким."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "Franz von Schober"
+ "about": [
+  {
+   "title": "Март 1823 года",
+   "text": "Песня сочинена в марте 1823 года — эту дату дают и антология Hyperion Schubert Edition, и сайт schubertsong.uk.\nГод был занят большими работами: опера «Fierrabras» и цикл «Прекрасная мельничиха». Грэм Джонсон, пианист и автор комментариев к антологии Hyperion, замечает, что рядом с ними Шуберт всё время пробовал другие способы сцепить отдельные части в одну музыкальную последовательность. «Виола» — одна из таких проб: двадцать одну строфу скрепляет возвращение одного и того же напева."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "Стихотворение Шобера появилось в печати 16 февраля 1825 года — дату приводит schubertsong.uk.\nТам же текст стихотворения сверен по прижизненным сборникам поэта: Gedichte («Стихотворения»), Штутгарт и Тюбинген, издательство Котты, 1842, страницы 12–15, и второе, дополненное издание, Лейпциг, издательство Й. Й. Вебера, 1865, те же страницы.\nГде хранится автограф песни и что стоит на его титуле, выяснить не удалось."
+  },
+  {
+   "title": "Франц фон Шобер",
+   "text": "Франц фон Шобер — ближайший друг Шуберта: поэт-дилетант и заводила венского дружеского круга, в квартире семьи которого композитор жил дважды, в 1816–17 и в 1827–28 годах. Родился он в Швеции, в имении Торуп под Мальмё, в немецкой семье, учился в Кремсмюнстере, а с 1815 года изучал право в Вене.\nИменно Шобер познакомил Шуберта с певцом Иоганном Михаэлем Фоглем, главным исполнителем его песен, и на дружеских вечерах, прозванных шубертиадами, звучали новые сочинения. На стихи Шобера написана и «К музыке» (An die Musik, D 547).\nСовременники судили о нём по-разному: одним он казался душой общества, другим — как Йозефу Кеннеру — соблазнителем, сбившим Шуберта с пути. Последнее письмо умирающего Шуберта, с просьбой прислать романы Купера, адресовано Шоберу."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Печатный текст песни в четырёх местах расходится со стихотворением, и все четыре разночтения отмечает schubertsong.uk. Там, где Виола спешит «мощным шагом» (mächt'gem Schritt), в песне стоит em'sgem — «усердным». «Жар любви» (Liebesgluth) становится «счастьем любви» (Liebesglück). В строке о холодных ветрах so уступает место noch («ещё»). А в конце строфы о напрасном ожидании вместо sich zeigt («покажется») появляется erscheint («явится») — это чтение принято и в нашем тексте.\nУ «Виолы» есть парное стихотворение Шобера — Vergißmeinnicht («Незабудка»), которое Шуберт тоже положил на музыку (D 792). Там, по наблюдению того же сайта, повторяются те же мотивы: безнадёжная любовь слабого и прекрасного цветка к самой весне."
+  },
+  {
+   "title": "Музыка",
+   "text": "Внешне это баллада, но по устройству — рондо: напев о подснежнике возвращается трижды. В нашем тексте это строфы 5, 15 и 21; у Джонсона, который считает строфы иначе и ссылается на Дональда Тови, автора отдельного разбора баллады, — 5, 14 и 19.\nДлительности нот в рефрене каждый раз новые, а темп остаётся прежним. Этот приём Джонсон, ссылаясь на исследователя Джона Рида, называет структурным ускорением. Основная тональность песни — ля-бемоль мажор."
+  },
+  {
+   "title": "Музыка: от свадебного шествия к отходной",
+   "text": "Строфы со второй по четвёртую идут церемониально и торжественно — Джонсон слышит в них буйную энергию весны.\nС минором, который приходит вместе с тревожным чувством Виолы, в песню входит холод и предчувствие паники, и к концу следующей строфы всё замирает в ужасе. Бегство героини Джонсон описывает как длинную дугообразную волну, какая могла бы прийти из скрипичной сонаты, а возвращение главного напева сразу после неё называет гениальным ходом. Дальше идёт альба, утренняя песня, где голос ведёт контрапункт с басом, звучащим как учтивый фагот.\nВ последнем рефрене скорбный ре минор энгармонически переходит в ля-бемоль мажор. Этот переход, по замечанию Тови, особенно тонок."
+  },
+  {
+   "title": "Колокольчик и свадьба весны",
+   "text": "Всё стихотворение выросло из немецкого названия подснежника: Schneeglöckchen значит «маленький снежный колокольчик», и, как пишет schubertsong.uk, немецкие подснежники — маленькие снежные колокола: их не только видят, но и слышат.\nВторая опора — грамматический род. Слово der Frühling («весна») мужского рода, а названия цветов die Blume («цветок»), die Rose («роза»), die Viola («фиалка») — женского, и потому колокольчики созывают невесту к жениху, которым оказывается сама весна. По-русски род переворачивается, и весне приходится оставаться женихом при женском имени.\nБотанические несообразности вроде подснежников и роз, цветущих разом, тот же сайт считает неважными. За цветочной картиной стоит человеческий расцвет и влечение, а за отверженностью — стыд, клеймо, одиночество и боль."
+  },
+  {
+   "title": "Растоптанная невинность",
+   "text": "Джонсон видит в песне растоптанную невинность и растраченный дар, гибнущие под чужой силой.\nТови сказал короче: любовь и тоска оказались больше её сил, и Виола чахнет в одиночестве и стыде."
+  },
+  {
+   "title": "Шуберт и Шобер в начале 1823 года",
+   "text": "По утверждению Джонсона, именно Шобер подтолкнул Шуберта в конце 1822 года развлечься в борделе, а к первым месяцам 1823 года стали очевидны страшные и в итоге роковые последствия того похода. В это самое время, добавляет он, двое кутивших вместе мужчин сочиняли песню о влюблённом и покинутом цветке.\nСто лет спустя писатель Рихард Кэпелл шутил, что баллада завлекла его на прогулку по цветочной выставке. Джонсон отвечает на это, что при втором взгляде выбор сюжета выглядит пугающе уместным."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Спутница «Виолы» — «Незабудка» (Vergißmeinnicht, D 792), о которой сказано выше.\nДжонсон слышит и другую перекличку: медленный раздел Im Tod ist Ruh («В смерти покой») из другой баллады Шуберта написан в ля-бемоль мажоре и предсказывает финал «Виолы» в той же тональности."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Для страницы отобраны пять записей.\nФишер-Дискау и Мур (1969) — из полного собрания песен Шуберта на Deutsche Grammophon («Sämtliche Lieder»). Фон Оттер и Форсберг (1996) — из песенного сборника той же фирмы. Энн Мюррей и Грэм Джонсон (1988) — третий том антологии Hyperion Schubert Edition (CDJ33003); буклет к нему и служит здесь главным источником разбора музыки. Бостридж и Однес записали балладу в 2005 году на EMI, Сэмпсон и Мидлтон — в 2017-м на BIS, для программы «A Soprano's Schubertiade»."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
