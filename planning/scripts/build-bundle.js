@@ -22,7 +22,9 @@ const textBlock = song.stanzas.map((s, i) => `[строфа ${i + 1}]\n` + s.lin
 const dossier = poetSlug ? (rd(path.join(ROOT, 'planning/research/poets', poetSlug + '.md')) || '') : '';
 const kratko = (dossier.match(/## Кратко[\s\S]*?(?=\n## )/) || [dossier.slice(0, 2500)])[0];
 const packetPath = path.join(workDir, 'songs', `d${String(d).replace('/', '-')}-packet.json`);
-const factsPath = path.join(workDir, 'facts', slug + '-facts.md');
+// Файл фактов: берём САМУЮ СВЕЖУЮ/ПОЛНУЮ версию из каталога волны и репозитория (урок D 403, 06.09: отставшая копия в каталоге заставила Fable снять «Музыку»)
+const pickFacts = () => { const a = path.join(workDir, 'facts', slug + '-facts.md'), b = path.join(ROOT, 'planning/research', slug + '-facts.md'); const sz = (f) => { try { return fs.statSync(f).size; } catch { return -1; } }; if (sz(b) > sz(a)) { try { fs.mkdirSync(path.dirname(a), { recursive: true }); fs.copyFileSync(b, a); } catch { } } return a; };
+const factsPath = pickFacts();
 const cand = (suffix) => path.join(workDir, 'work', `candidate-${slug}${suffix}.json`);
 // компактные факты: утверждение + источник + статус, без URL и цитат
 const compactFacts = (t, lim = 700) => t ? t.split('\n').map((l) => {
