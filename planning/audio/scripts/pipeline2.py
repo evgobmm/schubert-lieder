@@ -3,10 +3,10 @@ import json, sys, numpy as np, soundfile as sf, torch
 from torchaudio.functional import forced_align, merge_tokens
 from collections import Counter
 SR=16000;HOP=160
-VID,WAV,EM_A,EM_B,MAP=sys.argv[1:6]; NOSITE='--no-site' in sys.argv
+VID,WAV,EM_A,EM_B,MAP,TEMPLATE=sys.argv[1:7]; NOSITE='--no-site' in sys.argv
 ROOT='/workspaces/schubert-lieder'
 words=json.load(open('words.json')); N=len(words)
-acc=json.load(open(f'{ROOT}/app/src/data/timings/d118-1F4CHXbX8gc.json'))
+acc=json.load(open(TEMPLATE))
 accflat=[iv for p in acc['route'] for iv in p['w']]; assert len(accflat)==N
 mp=json.load(open(MAP)); f=lambda t: float(np.interp(t,mp['tmpl_t'],mp['tgt_t']))
 T_s=[f(a) for a,b in accflat]; T_e=[f(b) for a,b in accflat]
@@ -63,15 +63,26 @@ def windowed(empt):
         toks=[];lens=[]
         for i in idxs:
             t=[dic[c] for c in norm(words[i]) if c in dic]; toks+=t; lens.append((i,len(t)))
+        if not toks:   # СТРАХОВКА: фраза без букв
+            for i,L in lens: res[i]={"start":round(t0,2),"end":round(t0,2)}
+            continue
         f0=int(t0/0.02); f1=min(em.shape[0],max(int(t1/0.02),f0+len(toks)+2))
         lp=torch.log_softmax(em[f0:f1],-1).unsqueeze(0)
         al,sc=forced_align(lp,torch.tensor([toks],dtype=torch.int32),blank=blank)
         sp=merge_tokens(al[0],sc[0].exp()); p=0
         for i,L in lens:
+            if L==0:   # ПУСТЫЕ слова (тире)
+                e=res[i-1]['end'] if i>0 and res[i-1] else round(t0,2); res[i]={"start":e,"end":e}; continue
             s=sp[p:p+L]; p+=L
             res[i]={"start":round(t0+s[0].start*0.02,2),"end":round(t0+s[-1].end*0.02,2)}
     return res
 WA=windowed(EM_A); WB=windowed(EM_B)
+def _fill(W):
+    for k in range(len(W)):
+        if W[k] is None:
+            e=W[k-1]['end'] if k>0 and W[k-1] else 0.0; W[k]={"start":e,"end":e}
+    return W
+WA=_fill(WA); WB=_fill(WB)
 WT=[]
 for k in range(N):
     t=T_s[k]; o=nearest(t,allon,0.2); s=o if o is not None else t
@@ -149,15 +160,4 @@ print(f"   отклонение от шаблона: медиана {np.median(d
 print(f"   ОЧЕРЕДЬ ПРОСЛУШИВАНИЯ: {len(queue)} слов")
 for k in queue: print(f"      {li[k]:6s} {words[k]:12s} {ts[k]['start']:7.2f}  [{src[choice[k]]}]  шаблон {T_s[k]:7.2f}  Δ {ts[k]['start']-T_s[k]:+.2f}")
 json.dump([{"i":k,"w":words[k],"start":ts[k]['start'],"end":ts[k]['end'],"src":src[choice[k]],"tmpl":round(T_s[k],2)} for k in range(N)],open(f'ts_{VID}.json','w'),ensure_ascii=False,indent=0)
-# --- файл сайта
-if NOSITE: raise SystemExit(0)
-perf=[p for p in json.load(open(f'{ROOT}/app/src/data/performances.json'))['118'] if p['videoId']==VID][0]
-out=json.loads(json.dumps(acc)); out['videoId']=VID; out['performance']=f"{perf['name']}, {perf['year']}"; out['verified_by_ear']=False
-out['method']=("demucs htdemucs vocals -> MMS_FA + wav2vec2-xlsr-53-german в окнах вокальных фраз -> принятая разметка Сэмпсон перенесена DTW по хроме "
- f"(транспозиция {mp['shift']}, стоимость {mp['cost']:.4f}) как третий кандидат и якорь -> ДП по слову с жёстким порядком -> начала к атакам, концы до смолкания голоса")
-out['note']=f"Маршрут ссылается на опубликованный текст (повторы Шуберта в строфах 10–11). Очередь прослушивания: {len(queue)} слов — см. planning/audio (пока в scratchpad)."
-k=0
-for p in out['route']:
-    for q in range(len(p['w'])): p['w'][q]=flat[k]; k+=1
-json.dump(out,open(f'{ROOT}/app/src/data/timings/d118-{VID}.json','w'),ensure_ascii=False,indent=1)
-print(f"   записан app/src/data/timings/d118-{VID}.json")
+# --- файл сайта: build_site2.py spec.json route.json ts_<VID>.json <VID> <method>

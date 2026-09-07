@@ -1,0 +1,12 @@
+# файл сайта из spec + route.json + плоских таймингов
+import json, sys
+spec=json.load(open(sys.argv[1])); route=json.load(open(sys.argv[2])); ts=json.load(open(sys.argv[3])); vid=sys.argv[4]; method=sys.argv[5]; note=sys.argv[6] if len(sys.argv)>6 else ""
+ROOT='/workspaces/schubert-lieder'; song=json.load(open(spec['song']))
+perf=[p for p in json.load(open(f'{ROOT}/app/src/data/performances.json'))[spec['key']] if p['videoId']==vid][0]
+out={"d":spec['d'],"videoId":vid,"performance":f"{perf['name']}, {perf['year']}","method":method,"verified_by_ear":False,"note":note,"extra_lines":[],"route":[]}
+k=0
+for s,l in route:
+    n=len(song['stanzas'][s]['lines_de'][l].split()); w=[[ts[k+i]['start'],ts[k+i]['end']] for i in range(n)]; k+=n
+    out['route'].append({"s":s,"l":l,"w":w})
+assert k==len(ts),(k,len(ts))
+path=f"{ROOT}/app/src/data/timings/{spec['prefix']}-{vid}.json"; json.dump(out,open(path,'w'),ensure_ascii=False,indent=1); print("записан",path)
