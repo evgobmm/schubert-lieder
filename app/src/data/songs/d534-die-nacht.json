@@ -1,13 +1,40 @@
 {
  "d": "534",
  "title_de": "Die Nacht",
+ "title_ru": "Ночь",
+ "poet_de": "James Macpherson, Edmund von Harold",
+ "poet_ru": "Джеймс Макферсон, Эдмунд фон Гарольд",
  "year": "1817",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Отдельного стихотворения под таким заглавием у Макферсона нет: это сноска к поэме «Крома» из «Фингала» (1762), позже перепечатанная сама по себе под названием The Night-Song of the Bards («Ночная песнь бардов»). Шуберт положил на музыку два раздела из шести — слово первого барда и ответ вождя."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
     "Barde:"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Barde:",
+       "ru": "Бард:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Бардов в стихотворении пять: по предисловию Макферсона, они ночевали в доме государя, который и сам был поэтом, выходили один за другим посмотреть на ночь и, вернувшись, описывали её. Шестой раздел — слово вождя."
+      }
+     ]
+    }
    ]
   },
   {
@@ -20,6 +47,286 @@
     "Aber ich hör ihn weit in der Ferne.",
     "Der Strom des Bergs er braust,",
     "Aber sein Brausen ist stürmisch und trüb."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Nacht",
+       "ru": "Ночь"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "dumpfig",
+       "ru": "душна"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "finster,",
+       "ru": "сумрачна,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Dumpfig у Гримма — dunstig, feucht («сырой, влажный»), и почти всегда с оттенком темноты и затхлого запаха. Finster — tenebrosus, «тёмный, мрачный»; здесь оно передано словом «сумрачна», чтобы развести его с dunkel и düster, которые придут дальше в той же роли."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "An",
+       "ru": "На"
+      },
+      {
+       "de": "den Hügeln",
+       "ru": "холмах"
+      },
+      {
+       "de": "ruhn",
+       "ru": "покоятся"
+      },
+      {
+       "de": "die Wolken;",
+       "ru": "облака;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Kein",
+       "ru": "Ни"
+      },
+      {
+       "de": "Stern",
+       "ru": "звезда"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "grün",
+       "ru": "зелёным"
+      },
+      {
+       "de": "zitterndem",
+       "ru": "дрожащим"
+      },
+      {
+       "de": "Schimmer,",
+       "ru": "мерцанием,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Schimmer — слабый отблеск, мерцание, без яркости; Гримм отмечает это слово как любимое у Клопштока. Зелёный дрожащий отсвет звезды — краска оссиановских ночей: тот же зелёный вернётся в речи вождя, у «зеленокрылых туманов»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kein",
+       "ru": "Ни"
+      },
+      {
+       "de": "Mondstrahl",
+       "ru": "лунный луч"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "erhellet",
+       "ru": "озаряет"
+      },
+      {
+       "de": "das Thal.",
+       "ru": "долину."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Немецкому хватает одного отрицательного слова kein («ни один»), русскому нужно ещё и «не» при глаголе — отсюда сегмент без немецкой пары. Thal — старое написание слова Tal («долина»)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Im",
+       "ru": "В"
+      },
+      {
+       "de": "Walde",
+       "ru": "лесу"
+      },
+      {
+       "de": "hör",
+       "ru": "слышу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "den Hauch,",
+       "ru": "дуновение,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Hauch — «исходящее из уст дыхание» (Гримм), а о воздухе — лёгкое дуновение. Нынешнее значение «налёт, чуточка» (ein Hauch von Luxus — «налёт роскоши») к этому времени отношения не имеет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "hör",
+       "ru": "слышу"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "weit",
+       "ru": "далеко"
+      },
+      {
+       "de": "in der Ferne.",
+       "ru": "вдали."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "des Bergs",
+       "ru": "Горный"
+      },
+      {
+       "de": "Der Strom",
+       "ru": "поток"
+      },
+      {
+       "de": "er",
+       "ru": "— он"
+      },
+      {
+       "de": "braust,",
+       "ru": "бушует,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Родительный падеж des Bergs («горы») по-русски естественнее прилагательным — «горный поток». Подхватывающее er («он») после подлежащего — оборот оссиановской речи; в подстрочнике он отделён тире."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Грэм Джонсон слышит здесь в фортепиано журчание далёкого ручья в соль-бемоль мажоре."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но"
+      },
+      {
+       "de": "sein",
+       "ru": "его"
+      },
+      {
+       "de": "Brausen",
+       "ru": "рокот"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "stürmisch",
+       "ru": "бурен"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "trüb.",
+       "ru": "мрачен."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "У Гарольда стояло störrisch («упрямый»); Шуберт заменил его на stürmisch («бурный») — одна из восьми его правок в этом тексте."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Trüb по DWDS означает сразу три вещи: тусклый свет, мутную воду и сумрачное, подавленное состояние. О шуме потока подходит третье: гнетущий, мрачный."
+      }
+     ]
+    }
    ]
   },
   {
@@ -31,6 +338,269 @@
     "Durch diesen Weg wird eine Leiche getragen,",
     "Ihren Pfad bezeichnet das Luftbild.",
     "Die fernere Dogge heult von der Hütte des Hügels."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Vom",
+       "ru": "От"
+      },
+      {
+       "de": "Baum",
+       "ru": "дерева"
+      },
+      {
+       "de": "beim",
+       "ru": "у"
+      },
+      {
+       "de": "Grabe",
+       "ru": "могилы"
+      },
+      {
+       "de": "der Todten",
+       "ru": "мёртвых"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Tönt",
+       "ru": "Звучит"
+      },
+      {
+       "de": "klagender",
+       "ru": "жалобный"
+      },
+      {
+       "de": "Sang.",
+       "ru": "крик"
+      },
+      {
+       "de": "der Eule",
+       "ru": "совы."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Sang — высокое слово для пения; Фриш и Аделунг считали его устаревшим, а поэты вернули его в обиход. У совы этим высоким словом назван жалобный крик. Немецкий родительный der Eule стоит перед своим словом, по-русски он ушёл в конец."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Порядок слов в этой строке Шуберт переставил против текста Гарольда. Грэм Джонсон отмечает здесь фортепианную интерлюдию ми-бемоль минор, которая кончается замирающим спадом — уханьем совы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf",
+       "ru": "На"
+      },
+      {
+       "de": "der Haide",
+       "ru": "пустоши"
+      },
+      {
+       "de": "erblick",
+       "ru": "вижу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "einen dämmernden",
+       "ru": "сумеречную"
+      },
+      {
+       "de": "Schatten,",
+       "ru": "тень,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Haide — старое написание слова Heide; у Гримма это ager, campus — открытое поле, пустошь, вересковая степь."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Es",
+       "ru": "Это"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "ein Geist,",
+       "ru": "дух,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "schwindet,",
+       "ru": "исчезает,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "flieht.",
+       "ru": "бежит."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Призрак и в фортепиано появляется внезапно и так же внезапно пропадает — Грэм Джонсон перечисляет это среди картинок первой части."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Durch",
+       "ru": "По"
+      },
+      {
+       "de": "diesen",
+       "ru": "этому"
+      },
+      {
+       "de": "Weg",
+       "ru": "пути"
+      },
+      {
+       "de": "wird... getragen,",
+       "ru": "несут"
+      },
+      {
+       "de": "eine Leiche",
+       "ru": "тело,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Немецкий пассив wird … getragen разорван на всю строку; по-русски естественнее неопределённо-личное «несут»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Похоронное шествие Шуберт пишет маршем си минор с приглушёнными барабанами."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihren",
+       "ru": "Её"
+      },
+      {
+       "de": "Pfad",
+       "ru": "тропу"
+      },
+      {
+       "de": "bezeichnet",
+       "ru": "отмечает"
+      },
+      {
+       "de": "das Luftbild.",
+       "ru": "воздушное видение."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Ihren отсылает к Leiche («телу») — слову женского рода, поэтому «её». Luftbild у Гримма — gebilde in der luft, образ, созданный из воздуха и в воздухе, а потому нестойкий, расплывающийся."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die fernere",
+       "ru": "Дальний"
+      },
+      {
+       "de": "Dogge",
+       "ru": "пёс"
+      },
+      {
+       "de": "heult",
+       "ru": "воет"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "der Hütte",
+       "ru": "хижины"
+      },
+      {
+       "de": "des Hügels.",
+       "ru": "на холме."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Dogge — заимствование из английского dog через французское dogue: крупная сильная собака, в текстах эпохи охотничья или сторожевая. Родительный des Hügels («холма») по-русски развёрнут в «на холме»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Вой собаки Шуберт тоже пробует передать в фортепиано; Грэм Джонсон называет эту попытку смелой."
+      }
+     ]
+    }
    ]
   },
   {
@@ -39,6 +609,156 @@
     "Neben ihm ruht die Hindin;",
     "In seinem astigen Geweihe hört sie den Wind,",
     "Fährt auf und legt sich zur Ruhe wieder nieder."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der Hirsch",
+       "ru": "Олень"
+      },
+      {
+       "de": "liegt",
+       "ru": "лежит"
+      },
+      {
+       "de": "im",
+       "ru": "во"
+      },
+      {
+       "de": "Moose",
+       "ru": "мху"
+      },
+      {
+       "de": "des Tannigs,",
+       "ru": "ельника,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Tannig — вариант старого собирательного Tannicht: еловый, хвойный лес (у Гримма — pinetum, баварское tannach)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Neben",
+       "ru": "Рядом с"
+      },
+      {
+       "de": "ihm",
+       "ru": "ним"
+      },
+      {
+       "de": "ruht",
+       "ru": "покоится"
+      },
+      {
+       "de": "die Hindin;",
+       "ru": "лань;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Соль-мажорному благодушию оленя Шуберт противопоставляет нервные, по слову Грэма Джонсона «очень женственные» движения лани."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In",
+       "ru": "В"
+      },
+      {
+       "de": "seinem",
+       "ru": "его"
+      },
+      {
+       "de": "astigen",
+       "ru": "ветвистых"
+      },
+      {
+       "de": "Geweihe",
+       "ru": "рогах"
+      },
+      {
+       "de": "hört",
+       "ru": "слышит"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "den Wind,",
+       "ru": "ветер,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Хозяин рогов — олень, а подлежащее строки — лань, поэтому seinem переведено «его», а не «своих»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "Вскидывается",
+       "de": "Fährt auf"
+      },
+      {
+       "ru": "и",
+       "de": "und"
+      },
+      {
+       "ru": "снова",
+       "de": "wieder"
+      },
+      {
+       "ru": "ложится",
+       "de": "legt sich... nieder."
+      },
+      {
+       "ru": "на покой.",
+       "de": "zur Ruhe"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Fährt … auf — глагол auffahren с отделяемой приставкой: резко вскинуться, встрепенуться."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "У Гарольда было legt sich wieder zur Ruhe; Шуберт растянул оборот — legt sich zur Ruhe wieder nieder, а смысл остался тот же."
+      }
+     ]
+    }
    ]
   },
   {
@@ -49,6 +769,181 @@
     "Längs der sprudelnden Quelle;",
     "Er fürchtet die Klippe und den Sumpf,",
     "Er fürchtet den Geist der Nacht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Düster",
+       "ru": "Мрачный"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "keuchend,",
+       "ru": "задыхающийся,"
+      },
+      {
+       "de": "zitternd",
+       "ru": "дрожащий"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "traurig,",
+       "ru": "печальный,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Verlor",
+       "ru": "Потерял"
+      },
+      {
+       "de": "der Wandrer",
+       "ru": "странник"
+      },
+      {
+       "de": "den Weg,",
+       "ru": "путь,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Строка начинается с глагола: четыре эпитета предыдущей строки уже открыли фразу, и подлежащее сдвинулось за сказуемое. Wandrer — поэтическое стяжение слова Wanderer («странник»)."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Появление человека в этой ночной картине Шуберт пишет короткими, паническими фразами в соль миноре."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "irrt",
+       "ru": "блуждает"
+      },
+      {
+       "de": "durch",
+       "ru": "по"
+      },
+      {
+       "de": "Gebüsche,",
+       "ru": "зарослям,"
+      },
+      {
+       "de": "durch",
+       "ru": "по"
+      },
+      {
+       "de": "Dornen,",
+       "ru": "колючкам,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Irren — «блуждать, скитаться»; то же слово значит и «ошибаться», но там оно обычно возвратное (sich irren). Немецкое durch с винительным по-русски передано дательным «по»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Längs",
+       "ru": "Вдоль"
+      },
+      {
+       "de": "der sprudelnden",
+       "ru": "клокочущего"
+      },
+      {
+       "de": "Quelle;",
+       "ru": "источника;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "fürchtet",
+       "ru": "боится"
+      },
+      {
+       "de": "die Klippe",
+       "ru": "скалы"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "den Sumpf,",
+       "ru": "болота,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "fürchtet",
+       "ru": "боится"
+      },
+      {
+       "de": "den Geist",
+       "ru": "духа"
+      },
+      {
+       "de": "der Nacht.",
+       "ru": "ночи."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Geist около 1800 года — и дух как начало жизни, и дух умершего: у Гриммов прямо die todten, die wandeln («мёртвые, что бродят»). Русское «привидение» снизило бы сцену до готической страшилки, поэтому — «дух»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -57,6 +952,110 @@
     "Es kracht der fallende Ast;",
     "Die verwelkte, zum Knäuel verworrene Klette",
     "Treibt der Wind über das Gras."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der alte",
+       "ru": "Старое"
+      },
+      {
+       "de": "Baum",
+       "ru": "дерево"
+      },
+      {
+       "de": "ächzt",
+       "ru": "стонет"
+      },
+      {
+       "de": "zu",
+       "ru": "под"
+      },
+      {
+       "de": "dem Windstoss,",
+       "ru": "порывом ветра,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Es kracht",
+       "ru": "Трещит"
+      },
+      {
+       "de": "der fallende",
+       "ru": "падающий"
+      },
+      {
+       "de": "Ast;",
+       "ru": "сук;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Es здесь — пустое, формальное подлежащее: настоящее подлежащее строки — der Ast («сук»). Русскому такое es не нужно, поэтому оно слито с глаголом в один сегмент."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die verwelkte,",
+       "ru": "Увядший,"
+      },
+      {
+       "de": "zum Knäuel",
+       "ru": "в клубок"
+      },
+      {
+       "de": "verworrene",
+       "ru": "спутанный"
+      },
+      {
+       "de": "Klette",
+       "ru": "репейник"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Klette — репейник: его соцветия усажены крючками и цепляются за шерсть и одежду. Сухой, скатавшийся в клубок, он и катится по траве в следующей строке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Treibt",
+       "ru": "Гонит"
+      },
+      {
+       "de": "der Wind",
+       "ru": "ветер"
+      },
+      {
+       "de": "über",
+       "ru": "по"
+      },
+      {
+       "de": "das Gras.",
+       "ru": "траве."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -65,6 +1064,126 @@
     "Er bebt durch die Schauer der Nacht.",
     "Die Nacht ist düster, dunkel und graunvoll,",
     "Wolkigt, stürmisch, zu eigen den Geistern."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Es",
+       "ru": "Это"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "der leichte",
+       "ru": "лёгкий"
+      },
+      {
+       "de": "Tritt",
+       "ru": "шаг"
+      },
+      {
+       "de": "eines Geists,",
+       "ru": "духа,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "bebt",
+       "ru": "трепещет"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Schauer",
+       "ru": "дрожь"
+      },
+      {
+       "de": "der Nacht.",
+       "ru": "ночи."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Nacht",
+       "ru": "Ночь"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "düster,",
+       "ru": "мрачна,"
+      },
+      {
+       "de": "dunkel",
+       "ru": "темна"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "graunvoll,",
+       "ru": "ужасна,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Graunvoll — поэтическое стяжение слова grauenvoll («полный ужаса»), у Гримма schrecklich, entsetzlich. Три синонима подряд — düster, dunkel, graunvoll — нагнетание, ради которого finster в начале песни пришлось перевести «сумрачна»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wolkigt,",
+       "ru": "Облачна,"
+      },
+      {
+       "de": "stürmisch,",
+       "ru": "бурна,"
+      },
+      {
+       "de": "zu eigen",
+       "ru": "принадлежит"
+      },
+      {
+       "de": "den Geistern.",
+       "ru": "духам."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Wolkigt — старая форма прилагательного на -igt (у Шиллера in wolkigter nacht — «в облачной ночи»). Оборот zu eigen sein значит «принадлежать», а дательный den Geistern отвечает на вопрос кому."
+      }
+     ]
+    }
    ]
   },
   {
@@ -72,11 +1191,118 @@
     "Die Todten streifen umher,",
     "Die Todten streifen umher.",
     "Empfangt mich von der Nacht, ihr meine Freunde!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Todten",
+       "ru": "Мёртвые"
+      },
+      {
+       "de": "streifen",
+       "ru": "бродят"
+      },
+      {
+       "de": "umher,",
+       "ru": "вокруг,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "У streifen основное значение — «скользить, задевать, сдирать»; здесь живёт периферийное, herumschweifen — «бродить, скитаться». Наречие umher («вокруг, во все стороны») при таком глаголе почти приставка и переводится вместе с ним."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Todten",
+       "ru": "Мёртвые"
+      },
+      {
+       "de": "streifen",
+       "ru": "бродят"
+      },
+      {
+       "de": "umher.",
+       "ru": "вокруг."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Empfangt",
+       "ru": "Примите"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "der Nacht,",
+       "ru": "ночи,"
+      },
+      {
+       "de": "ihr",
+       "ru": "вы,"
+      },
+      {
+       "de": "meine",
+       "ru": "мои"
+      },
+      {
+       "de": "Freunde!",
+       "ru": "друзья!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Здесь монолог барда кончается. Последние два такта речитатива, по словам Грэма Джонсона, отдают гендельянским величием."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Der Häuptling:"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der Häuptling:",
+       "ru": "Вождь:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "По мнению Джона Рида, которое приводит Грэм Джонсон, песня могла бы кончиться прямо здесь, до слов вождя: лучшая её музыка уже прозвучала, а тональность вернулась бы к начальной."
+      }
+     ]
+    }
    ]
   },
   {
@@ -89,6 +1315,228 @@
     "Grünbeflügelte Dämpfe ziehen den bleichen Mond,",
     "Sich hinter dunkeln Hügeln erhebend,",
     "Sein Haupt in Wolken verhüllen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Lass",
+       "ru": "Пусть"
+      },
+      {
+       "de": "Wolken",
+       "ru": "облака"
+      },
+      {
+       "de": "ruhn,",
+       "ru": "покоятся"
+      },
+      {
+       "de": "an",
+       "ru": "на"
+      },
+      {
+       "de": "Hügeln",
+       "ru": "холмах,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Lass с инфинитивом — «пусть …»: этой формулой вождь начинает и держит всю строфу. Первое, что он позволяет ночи, — то самое, с чего начал бард: облака на холмах."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Geister",
+       "ru": "Духи"
+      },
+      {
+       "de": "irren",
+       "ru": "блуждают"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Wandrer",
+       "ru": "странники"
+      },
+      {
+       "de": "beben,",
+       "ru": "трепещут,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Lass",
+       "ru": "Пусть"
+      },
+      {
+       "de": "die Winde",
+       "ru": "ветры"
+      },
+      {
+       "de": "der Wälder",
+       "ru": "лесов"
+      },
+      {
+       "de": "sich heben,",
+       "ru": "вздымаются,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Brausende",
+       "ru": "Бушующие"
+      },
+      {
+       "de": "Stürme",
+       "ru": "бури"
+      },
+      {
+       "de": "durchwehn,",
+       "ru": "продувают"
+      },
+      {
+       "de": "das Thal",
+       "ru": "долину,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ströme",
+       "ru": "Потоки"
+      },
+      {
+       "de": "brüllen,",
+       "ru": "ревут,"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скалы"
+      },
+      {
+       "de": "klirren,",
+       "ru": "грохочут,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "У Гарольда скалы schmettern («гремят»); Шуберт поставил klirren — глагол звенящего, дребезжащего звука — так говорят о стекле и металле."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Grünbeflügelte",
+       "ru": "Зеленокрылые"
+      },
+      {
+       "de": "Dämpfe",
+       "ru": "туманы"
+      },
+      {
+       "de": "ziehen",
+       "ru": "тянут"
+      },
+      {
+       "de": "den bleichen",
+       "ru": "бледную"
+      },
+      {
+       "de": "Mond,",
+       "ru": "луну,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Grünbeflügelt — слово, придуманное для случая: словари его не знают, и разбирать его приходится по частям, grün («зелёный») и beflügelt («крылатый»). Ziehen здесь переходное, «тянуть, влечь»: туманы тянут за собой луну."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sich... erhebend,",
+       "ru": "Поднимаясь"
+      },
+      {
+       "de": "hinter",
+       "ru": "за"
+      },
+      {
+       "de": "dunkeln",
+       "ru": "тёмными"
+      },
+      {
+       "de": "Hügeln",
+       "ru": "холмами,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Укутывают",
+       "de": "verhüllen."
+      },
+      {
+       "ru": "его",
+       "de": "Sein"
+      },
+      {
+       "ru": "главу",
+       "de": "Haupt"
+      },
+      {
+       "ru": "в",
+       "de": "in"
+      },
+      {
+       "ru": "облаках.",
+       "de": "Wolken"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Haupt — высокое слово для головы: Гримм отмечает, что для латинского caput у немецкого есть два слова, обиходное Kopf и торжественное Haupt. Инфинитив verhüllen — ещё один при lass, и подлежащее у него прежнее, туманы: они тянут луну за собой и укутывают её главу в облака. Sein («его») стоит по немецкому роду слова Mond."
+      }
+     ]
+    }
    ]
   },
   {
@@ -99,12 +1547,269 @@
     "Wenn er die Hügel vergoldet.",
     "Der junge Tag kehrt vom fernen Osten her,",
     "Wir aber, wir kehren nimmer zurück."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Die Nacht",
+       "ru": "Ночи"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "nicht;",
+       "ru": "не"
+      },
+      {
+       "de": "scheu",
+       "ru": "страшусь;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Scheu ich — форма первого лица глагола scheuen без окончания -e: при обратном порядке слов её укорачивали. Немецкий винительный die Nacht по-русски при отрицании становится родительным — «ночи не страшусь»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Luft",
+       "ru": "Воздух"
+      },
+      {
+       "de": "sei",
+       "ru": "да будет"
+      },
+      {
+       "de": "klar,",
+       "ru": "ясен,"
+      },
+      {
+       "de": "stürmisch",
+       "ru": "бурен"
+      },
+      {
+       "de": "oder",
+       "ru": "или"
+      },
+      {
+       "de": "dunkel,",
+       "ru": "тёмен,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Sei здесь оптатив, уступительное «пусть будет, будь то», без значения «есть». Ту же форму пожелания вождь возьмёт дальше — erklinge, erleuchte."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "entflieht",
+       "ru": "убегает"
+      },
+      {
+       "de": "vor",
+       "ru": "от"
+      },
+      {
+       "de": "dem Strahl,",
+       "ru": "луча,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "vergoldet.",
+       "ru": "золотит"
+      },
+      {
+       "de": "die Hügel",
+       "ru": "холмы."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Глагол придаточного стоит в самом конце (wenn er … vergoldet) — по-русски он вернулся на своё место."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "У Гарольда луч золотил один холм (den Hügel); Шуберт поставил множественное — die Hügel."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der junge",
+       "ru": "Молодой"
+      },
+      {
+       "de": "Tag",
+       "ru": "день"
+      },
+      {
+       "de": "kehrt... her,",
+       "ru": "возвращается"
+      },
+      {
+       "de": "vom",
+       "ru": "с"
+      },
+      {
+       "de": "fernen",
+       "ru": "далёкого"
+      },
+      {
+       "de": "Osten",
+       "ru": "востока,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wir",
+       "ru": "Мы"
+      },
+      {
+       "de": "aber,",
+       "ru": "же,"
+      },
+      {
+       "de": "wir",
+       "ru": "мы"
+      },
+      {
+       "de": "nimmer",
+       "ru": "никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "kehren... zurück.",
+       "ru": "вернёмся."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "У Гарольда стояло nicht mehr («уже не»); Шуберт заменил его на nimmer — «никогда»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Kehren … zurück — рамка с отделяемой приставкой: смысловая часть zurück («назад») ушла в конец строки, а по-русски глагол собран воедино. Отрицание требует ещё и «не», которого в немецком нет."
+      }
+     ]
+    }
    ]
   },
   {
    "lines_de": [
     "Wo sind unsre Führer der Vorwelt?",
     "Wo sind unsre weitberühmten Gebieter?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wo sind",
+       "ru": "Где"
+      },
+      {
+       "de": "unsre",
+       "ru": "наши"
+      },
+      {
+       "de": "Führer",
+       "ru": "предводители"
+      },
+      {
+       "de": "der Vorwelt?",
+       "ru": "минувших веков?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Vorwelt — по Аделунгу die welt vor uns, мир до нас: люди, жившие задолго до говорящих. Русский вопрос обходится без связки, поэтому Wo sind дало один сегмент — «Где»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo sind",
+       "ru": "Где"
+      },
+      {
+       "de": "unsre",
+       "ru": "наши"
+      },
+      {
+       "de": "weitberühmten",
+       "ru": "прославленные"
+      },
+      {
+       "de": "Gebieter?",
+       "ru": "повелители?"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -116,6 +1821,215 @@
     "Unsre Enkel werden die Trümmer im Grase nur erblicken,",
     "Sie werden die Greise befragen:",
     "Wo standen die Mauern unsrer Väter?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Schweigen",
+       "ru": "Молчание"
+      },
+      {
+       "de": "deckt",
+       "ru": "покрывает"
+      },
+      {
+       "de": "die Felder",
+       "ru": "поля"
+      },
+      {
+       "de": "ihrer",
+       "ru": "их"
+      },
+      {
+       "de": "Schlachten,",
+       "ru": "битв,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Здесь, по Грэму Джонсону, подлинное и типично шубертовское озарение: медленная трёхголосная инвенция для голоса и двух рук — надгробие в баховской манере, le Tombeau de Bach, над могилами древних героев."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Kaum",
+       "ru": "Едва"
+      },
+      {
+       "de": "noch",
+       "ru": "ещё"
+      },
+      {
+       "de": "sind... übrig,",
+       "ru": "остались"
+      },
+      {
+       "de": "ihre",
+       "ru": "их"
+      },
+      {
+       "de": "moosigten",
+       "ru": "замшелые"
+      },
+      {
+       "de": "Gräber",
+       "ru": "могилы,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Moosigt — то же старое окончание -igt, что и у wolkigt выше: «замшелый, поросший мхом». Оборот sind … übrig («остались») разорван на всю строку."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "So",
+       "ru": "Так"
+      },
+      {
+       "de": "auch",
+       "ru": "и"
+      },
+      {
+       "de": "unser",
+       "ru": "нас"
+      },
+      {
+       "de": "wird man... vergessen.",
+       "ru": "забудут."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Man — неопределённо-личное слово, и по-русски его берёт на себя форма глагола: «забудут». Vergessen здесь ещё и с родительным падежом (unser — «нас»), как было принято в старом языке."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dieser",
+       "ru": "Это"
+      },
+      {
+       "de": "mächtige",
+       "ru": "могучее"
+      },
+      {
+       "de": "Bau",
+       "ru": "строение"
+      },
+      {
+       "de": "wird zerfallen,",
+       "ru": "разрушится,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Unsre",
+       "ru": "Наши"
+      },
+      {
+       "de": "Enkel",
+       "ru": "потомки"
+      },
+      {
+       "de": "werden... erblicken,",
+       "ru": "увидят"
+      },
+      {
+       "de": "nur",
+       "ru": "лишь"
+      },
+      {
+       "de": "die Trümmer",
+       "ru": "руины"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Grase",
+       "ru": "траве,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Enkel — «внуки», но во множественном числе слово значит и просто «потомки, будущие поколения». Werden … erblicken — будущее время, разорванное на всю строку."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "werden... befragen:",
+       "ru": "станут расспрашивать"
+      },
+      {
+       "de": "die Greise",
+       "ru": "старцев:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wo",
+       "ru": "Где"
+      },
+      {
+       "de": "standen",
+       "ru": "стояли"
+      },
+      {
+       "de": "die Mauern",
+       "ru": "стены"
+      },
+      {
+       "de": "unsrer",
+       "ru": "наших"
+      },
+      {
+       "de": "Väter?",
+       "ru": "отцов?"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -124,6 +2038,131 @@
     "Fröhlich erklinge der Becher im Kreis,",
     "Der Fackeln Lichtglanz erleuchte die Halle.",
     "Jünglinge, Mädchen, beginnet den Tanz!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Stimmt an",
+       "ru": "Заводите"
+      },
+      {
+       "de": "den Gesang,",
+       "ru": "песнь,"
+      },
+      {
+       "de": "rasch",
+       "ru": "быстро"
+      },
+      {
+       "de": "greift",
+       "ru": "ударьте"
+      },
+      {
+       "de": "in",
+       "ru": "по"
+      },
+      {
+       "de": "die Saiten!",
+       "ru": "струнам!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Stimmt … an — глагол anstimmen с отделяемой приставкой: «затянуть, завести песню». In die Saiten greifen — устойчивое «ударить по струнам»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Fröhlich",
+       "ru": "Весело"
+      },
+      {
+       "de": "erklinge",
+       "ru": "да звенит"
+      },
+      {
+       "de": "der Becher",
+       "ru": "кубок"
+      },
+      {
+       "de": "im",
+       "ru": "по"
+      },
+      {
+       "de": "Kreis,",
+       "ru": "кругу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Becher — торжественный сосуд, рангом выше стакана и проще церковного потира; нынешний Becher, пластиковый стаканчик, сюда не годится. Кубок идёт по кругу, от гостя к гостю."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Lichtglanz",
+       "ru": "Сияние"
+      },
+      {
+       "de": "Der Fackeln",
+       "ru": "факелов"
+      },
+      {
+       "de": "erleuchte",
+       "ru": "да озарит"
+      },
+      {
+       "de": "die Halle.",
+       "ru": "чертог."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Jünglinge,",
+       "ru": "Юноши,"
+      },
+      {
+       "de": "Mädchen,",
+       "ru": "девушки,"
+      },
+      {
+       "de": "beginnet",
+       "ru": "начинайте"
+      },
+      {
+       "de": "den Tanz!",
+       "ru": "танец!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Jüngling в 1800-е — слово высокое и серьёзное: возраст между отрочеством и зрелостью. Насмешливый оттенок («юнец») оно получило позже."
+      }
+     ]
+    }
    ]
   },
   {
@@ -134,6 +2173,189 @@
     "Von Helden, die schon längst dahin.",
     "Lasst die Nacht also vergehen,",
     "Bis der Morgen im Thor des Osten erscheinet."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ruft",
+       "ru": "Позовите"
+      },
+      {
+       "de": "mir",
+       "ru": "мне"
+      },
+      {
+       "de": "den sangbegabten",
+       "ru": "одарённого песней"
+      },
+      {
+       "de": "Barden,",
+       "ru": "барда,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Uns",
+       "ru": "Нам"
+      },
+      {
+       "de": "zu künden,",
+       "ru": "поведать"
+      },
+      {
+       "de": "die Thaten",
+       "ru": "деяния"
+      },
+      {
+       "de": "der Vorwelt",
+       "ru": "минувших веков,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Von",
+       "ru": "О"
+      },
+      {
+       "de": "Königen",
+       "ru": "королях,"
+      },
+      {
+       "de": "berühmt",
+       "ru": "прославленных"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "unserm",
+       "ru": "нашем"
+      },
+      {
+       "de": "Land,",
+       "ru": "краю,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Von",
+       "ru": "О"
+      },
+      {
+       "de": "Helden,",
+       "ru": "героях,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "schon",
+       "ru": "уже"
+      },
+      {
+       "de": "längst",
+       "ru": "давно"
+      },
+      {
+       "de": "dahin.",
+       "ru": "сгинули."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Dahin sein значит «безвозвратно уйти, сгинуть»; связка здесь опущена, как часто в стихах. Читать dahin как «туда» или «там» — самая частая ловушка этого слова."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Lasst",
+       "ru": "Пусть"
+      },
+      {
+       "de": "die Nacht",
+       "ru": "ночь"
+      },
+      {
+       "de": "also",
+       "ru": "так"
+      },
+      {
+       "de": "vergehen,",
+       "ru": "пройдёт,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Vergehen — «переставать быть, истекать»; о ночи это просто течение времени. У того же глагола есть и второе, гибельное чтение — «истаять, умереть», — которое здесь ни при чём."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bis",
+       "ru": "Пока"
+      },
+      {
+       "de": "der Morgen",
+       "ru": "утро"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "erscheinet.",
+       "ru": "явится"
+      },
+      {
+       "de": "im",
+       "ru": "во"
+      },
+      {
+       "de": "Thor",
+       "ru": "вратах"
+      },
+      {
+       "de": "des Osten",
+       "ru": "востока."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Bis как союз значит «пока не», и русское «не» приходится добавлять — в немецком его нет. Thor — старое написание слова Tor («врата»)."
+      }
+     ]
+    }
    ]
   },
   {
@@ -142,6 +2364,123 @@
     "Die Doggen, das muthige Ross.",
     "Wir werden die Hügel im Frühroth besteigen",
     "Und die Hirsche erwecken."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dann",
+       "ru": "Тогда"
+      },
+      {
+       "de": "rüstet",
+       "ru": "снаряжайте"
+      },
+      {
+       "de": "den Bogen,",
+       "ru": "лук"
+      },
+      {
+       "de": "zur Jagdlust",
+       "ru": "для охотничьей страсти,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Jagdlust у Гримма — lust die die jagd gewährt, радость, которую даёт охота, и страсть к ней. Порядок слов переставлен: по-немецки цель стоит перед дополнением."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Doggen,",
+       "ru": "Псов,"
+      },
+      {
+       "de": "das muthige",
+       "ru": "смелого"
+      },
+      {
+       "de": "Ross.",
+       "ru": "коня."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "ru": "Мы",
+       "de": "Wir"
+      },
+      {
+       "ru": "взойдём",
+       "de": "werden... besteigen"
+      },
+      {
+       "ru": "на холмы",
+       "de": "die Hügel"
+      },
+      {
+       "ru": "на",
+       "de": "im"
+      },
+      {
+       "ru": "утренней заре",
+       "de": "Frühroth"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Frühroth — «утренняя заря», поэтическое слово XVIII–XIX веков; Гримм объясняет его через Morgenroth и подкрепляет строкой Хёльти."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "die Hirsche",
+       "ru": "оленей"
+      },
+      {
+       "de": "erwecken.",
+       "ru": "поднимем."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "На этих словах шубертовский фрагмент обрывается. Дальше в издании Диабелли идут семь тактов фортепианной интерлюдии, Шуберту не принадлежащих: издатель развил их из фанфарной темы, уже звучавшей раньше, и подвёл ими музыку к охотничьей песне."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Erwecken — «будить, пробуждать»; в охотничьей речи это значит поднять зверя с лёжки."
+      }
+     ]
+    }
    ]
   },
   {
@@ -153,6 +2492,165 @@
     "Es fliehet die Nacht,",
     "Es siegt der Sonne Pracht,",
     "Das Licht hat über das Dunkel Macht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Trarah,",
+       "ru": "Трара,"
+      },
+      {
+       "de": "Trarah!",
+       "ru": "трара!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Trara — звукоподражание охотничьему рожку, вроде русского «тру-ту-ту»; словарь Гриммов приводит его как раз в охотничьей песне. Смысла у возгласа нет, и переводить его нечем."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Отсюда и до конца звучит уже не «Ночь»: к оборванному фрагменту Диабелли приставил отдельный хоровой номер Шуберта, охотничью песню, — «в неудачной попытке дать пьесе бравурный финал», по словам Джона Рида. Слова, подставленные издателем под эту музыку, почти наверняка не принадлежат Захариасу Вернеру, чьё охотничье стихотворение Шуберт положил на музыку отдельно (Jagdlied, D 521)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wir",
+       "ru": "Мы"
+      },
+      {
+       "de": "ziehen",
+       "ru": "выходим"
+      },
+      {
+       "de": "hinaus,",
+       "ru": "наружу,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Uns",
+       "ru": "Нас"
+      },
+      {
+       "de": "locket",
+       "ru": "манит"
+      },
+      {
+       "de": "die Beute",
+       "ru": "добыча"
+      },
+      {
+       "de": "der Jagd,",
+       "ru": "охоты,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Locket — старая форма третьего лица с окончанием -et. Это locken «манить, влечь», однозвучный с другим locken — «виться» (о волосах)."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Uns",
+       "ru": "Нас"
+      },
+      {
+       "de": "locket",
+       "ru": "манит"
+      },
+      {
+       "de": "die Beute",
+       "ru": "добыча"
+      },
+      {
+       "de": "der Jagd,",
+       "ru": "охоты,"
+      },
+      {
+       "de": "Jagd!",
+       "ru": "охота!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Es fliehet",
+       "ru": "Бежит"
+      },
+      {
+       "de": "die Nacht,",
+       "ru": "ночь,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Es siegt",
+       "ru": "Побеждает"
+      },
+      {
+       "de": "Pracht,",
+       "ru": "блеск"
+      },
+      {
+       "de": "der Sonne",
+       "ru": "солнца,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Das Licht",
+       "ru": "Свет"
+      },
+      {
+       "de": "hat",
+       "ru": "имеет"
+      },
+      {
+       "de": "Macht.",
+       "ru": "власть"
+      },
+      {
+       "de": "über",
+       "ru": "над"
+      },
+      {
+       "de": "das Dunkel",
+       "ru": "тьмой."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -162,6 +2660,122 @@
     "Trarah, Trarah!",
     "Auf, auf, auf, der junge Tag uns lacht!",
     "Trarah, Trarah!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Trarah,",
+       "ru": "Трара,"
+      },
+      {
+       "de": "Trarah!",
+       "ru": "трара!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf,",
+       "ru": "Вставайте,"
+      },
+      {
+       "de": "auf,",
+       "ru": "вставайте,"
+      },
+      {
+       "de": "auf,",
+       "ru": "вставайте,"
+      },
+      {
+       "de": "der junge",
+       "ru": "молодой"
+      },
+      {
+       "de": "Tag",
+       "ru": "день"
+      },
+      {
+       "de": "uns",
+       "ru": "нам"
+      },
+      {
+       "de": "lacht!",
+       "ru": "улыбается!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "Lachen около 1800 года постоянно говорили о солнце, лугах, счастье: они «смеются» человеку. По-русски день скорее улыбается."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Trarah,",
+       "ru": "Трара,"
+      },
+      {
+       "de": "Trarah!",
+       "ru": "трара!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf,",
+       "ru": "Вставайте,"
+      },
+      {
+       "de": "auf,",
+       "ru": "вставайте,"
+      },
+      {
+       "de": "auf,",
+       "ru": "вставайте,"
+      },
+      {
+       "de": "der junge",
+       "ru": "молодой"
+      },
+      {
+       "de": "Tag",
+       "ru": "день"
+      },
+      {
+       "de": "uns",
+       "ru": "нам"
+      },
+      {
+       "de": "lacht!",
+       "ru": "улыбается!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Trarah,",
+       "ru": "Трара,"
+      },
+      {
+       "de": "Trarah!",
+       "ru": "трара!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -172,6 +2786,136 @@
     "Die Nebel entfliehn,",
     "Der Berge Gipfel glühn,",
     "Wir scheuen nicht der Jagdlust Mühn."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Das Jagdhorn",
+       "ru": "Охотничий рог"
+      },
+      {
+       "de": "ertönt,",
+       "ru": "раздаётся,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Hirsche",
+       "ru": "Олени"
+      },
+      {
+       "de": "herab... ziehn,",
+       "ru": "спускаются"
+      },
+      {
+       "de": "ins",
+       "ru": "в"
+      },
+      {
+       "de": "Thal",
+       "ru": "долину,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "Herab («вниз») — отделяемая приставка глагола: в строке она стоит отдельно от него, а переводится вместе с ним."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Hirsche",
+       "ru": "Олени"
+      },
+      {
+       "de": "herab... ziehn.",
+       "ru": "спускаются"
+      },
+      {
+       "de": "ins",
+       "ru": "в"
+      },
+      {
+       "de": "Thal",
+       "ru": "долину."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Nebel",
+       "ru": "Туманы"
+      },
+      {
+       "de": "entfliehn,",
+       "ru": "убегают,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Gipfel",
+       "ru": "Вершины"
+      },
+      {
+       "de": "Der Berge",
+       "ru": "гор"
+      },
+      {
+       "de": "glühn,",
+       "ru": "пылают,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wir",
+       "ru": "Мы"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "scheuen",
+       "ru": "страшимся"
+      },
+      {
+       "de": "Mühn.",
+       "ru": "тягот"
+      },
+      {
+       "de": "der Jagdlust",
+       "ru": "охотничьей страсти."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Mühn — усечённое Mühen, «тяготы, труды»: окончание отброшено ради размера. Родительный der Jagdlust стоит перед своим словом, по-русски он ушёл в конец."
+      }
+     ]
+    }
    ]
   },
   {
@@ -182,8 +2926,163 @@
     "Trarah, Trarah!",
     "Auf, auf, auf!",
     "Zum Walde lasst uns ziehn!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Trarah,",
+       "ru": "Трара,"
+      },
+      {
+       "de": "Trarah!",
+       "ru": "трара!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf,",
+       "ru": "Вставайте,"
+      },
+      {
+       "de": "auf,",
+       "ru": "вставайте,"
+      },
+      {
+       "de": "auf!",
+       "ru": "вставайте!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "lasst uns",
+       "ru": "Давайте"
+      },
+      {
+       "de": "ziehn!",
+       "ru": "двинемся"
+      },
+      {
+       "de": "Zum",
+       "ru": "в"
+      },
+      {
+       "de": "Walde",
+       "ru": "лес!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Lasst uns с инфинитивом — побуждение к самим себе, русское «давайте …»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Trarah,",
+       "ru": "Трара,"
+      },
+      {
+       "de": "Trarah!",
+       "ru": "трара!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Auf,",
+       "ru": "Вставайте,"
+      },
+      {
+       "de": "auf,",
+       "ru": "вставайте,"
+      },
+      {
+       "de": "auf!",
+       "ru": "вставайте!"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "lasst uns",
+       "ru": "Давайте"
+      },
+      {
+       "de": "ziehn!",
+       "ru": "двинемся"
+      },
+      {
+       "de": "Zum",
+       "ru": "в"
+      },
+      {
+       "de": "Walde",
+       "ru": "лес!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   }
  ],
- "poet_de": "James Macpherson, Edmund von Harold"
+ "about": [
+  {
+   "title": "Февраль 1817 года",
+   "text": "«Ночь» написана в феврале 1817 года; Шуберту было двадцать лет. Оригинальная тональность — соль минор.\nВ том же феврале написаны *Der Tod und das Mädchen* («Смерть и девушка», D 531), *Das Lied vom Reifen* («Песня об инее», D 532) и *Täglich zu singen* («Петь ежедневно», D 533); в каталоге они стоят рядом, и сразу за ними — «Ночь». Как пишет Грэм Джонсон, пианист и автор аннотаций к антологии Hyperion Schubert Edition, это девятая и последняя из оссиановских песен Шуберта: к текстам Оссиана он обращался с 1815 года, а после февраля 1817-го к ним не вернулся."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "Первое издание вышло посмертно, в 1830 году, у венского издателя А. Диабелли и Ко — выпуском *Nachlass* 1 («Наследие»), издательский номер 3631; о выходе объявила Wiener Zeitung 10 июля 1830 года. Автограф хранится в Национальной библиотеке имени Сеченьи в Будапеште.\nНашёлся этот автограф только в конце 1960-х годов, в Венгрии. До того у издателей и исследователей была одна редакция Диабелли, а тот менял по своему усмотрению и слова Оссиана, и ноты Шуберта. Главное вмешательство — в конце: к оборванному фрагменту издатель приставил отдельный хоровой номер Шуберта, охотничью песню, — по словам Джона Рида, суждения которого приводит Грэм Джонсон, «в неудачной попытке дать пьесе бравурный финал».\nК изданию 1830 года приложено охотничье стихотворение Захариаса Вернера; Шуберт положил его на музыку и отдельно — это *Jagdlied* («Охотничья песня») D 521."
+  },
+  {
+   "title": "Джеймс Макферсон и Эдмунд фон Гарольд",
+   "text": "Оссиан — легендарный слепой бард третьего века, сын кельтского вождя Фингала — стихов не писал: их сочинил шотландец Джеймс Макферсон, выпустивший в начале 1760-х под его именем несколько «переводов с гэльского» и опиравшийся на обрывки горских преданий. Подделку раскрыли почти сразу — лексикограф Сэмюэл Джонсон публично требовал показать подлинные рукописи, — но славе это не помешало: поэмы о туманной Каледонии, павших героях и плачущих девах на скалах держали Европу почти полвека и отозвались у Гердера и Гёте, у Наполеона и в трёх с лишним сотнях музыкальных сочинений.\nДо Шуберта эти тексты дошли по-немецки, в переводе Эдмунда фон Гарольда — ирландца на пфальцско-баварской военной службе, выпустившего в 1775 году в Дюссельдорфе собственную версию «Песен Оссиана». Второе, расширенное издание этого перевода (Мангейм, 1782) и легло в основу шубертовских песен."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Отдельной поэмы под таким названием у Макферсона нет. Текст напечатан сноской к поэме «Крома» из «Фингала» (1762) и лишь позже стал перепечатываться сам по себе — в антологии «Lyra Celtica» (1896) он назван *The Night-Song of the Bards* («Ночная песнь бардов»).\nПо предисловию самого Макферсона, пять бардов ночевали в доме государя, который и сам был поэтом; они выходили один за другим посмотреть на ночь и возвращались с описанием-экспромтом. Разделов, стало быть, шесть — пять бардов и вождь, — и Шуберт взял из них два: монолог первого барда и ответ вождя.\nИсточник установлен точно: второй том мангеймского издания Гарольда 1782 года, сноска на страницах 180–190; сверку по немецкому тексту и по английскому оригиналу Макферсона (Лондон, 1773) выполнил Петер Растль.\nПравки Шуберта в тексте Гарольда мелкие, но их видно построчно. *Störrisch* («упрямый») стало *stürmisch* («бурный»), *schmettern* («греметь») превратилось в *klirren* («дребезжать»), *nicht mehr* («уже не») в *nimmer* («никогда»), один холм (*den Hügel*) во многие (*die Hügel*); в строке про сову переставлены слова, а *legt sich wieder zur Ruhe* («снова ложится на покой») растянуто в *legt sich zur Ruhe wieder nieder*."
+  },
+  {
+   "title": "Музыка: монолог барда",
+   "text": "Первая половина — одна из вершин шубертовского ариозо и речитатива, считает Грэм Джонсон. С самого начала в фортепиано зловеще скользят терции и сексты; они проходят через всю партию первого барда связующей нитью.\nДальше идут картинки одна за другой: журчание далёкого ручья в соль-бемоль мажоре; интерлюдия ми-бемоль минор, кончающаяся замирающим спадом — уханьем совы; внезапное появление и такое же внезапное исчезновение призрака; похоронный марш си минор с приглушёнными барабанами; попытка передать вой собаки. Соль-мажорному благодушию оленя отвечают нервные, «очень женственные» движения лани, а когда в ночную картину входит человек, музыка переходит на короткие, панические фразы в соль миноре. Последние два такта речитатива Грэм Джонсон называет гендельянскими по величию."
+  },
+  {
+   "title": "Музыка: слово вождя",
+   "text": "В разделе вождя Джон Рид видел признаки ослабевающей изобретательности, и Грэм Джонсон с ним скорее соглашается: после долгого медленного пения идут каскадные секстоли и довольно обыкновенные гаммообразные ходы. Исключение — строки о полях, которые покрыло молчание: медленная трёхголосная инвенция для голоса и двух рук, надгробие в баховской манере, *le Tombeau de Bach*, — так Шуберт пишет могилы древних героев. Это, по Джонсону, подлинное и типично шубертовское озарение.\nФрагмент обрывается на словах об оленях, которых надо поднять с лёжки. Семь тактов, которыми Диабелли подвёл музыку к охотничьей песне, издатель развил из фанфарной темы, уже звучавшей раньше; сама *Jagdlied* почти ровесница «Ночи», но слова, подставленные под её музыку, почти наверняка не вернеровские. На диске Hyperion фрагмент разбит на три дорожки: первая — монолог первого барда, первые сто тактов; вторая продолжает фрагмент, и нешубертовских тактов там всего семь; третья — *Jagdlied* на подлинные слова Вернера."
+  },
+  {
+   "title": "Обрыв на середине",
+   "text": "Джон Рид считал, что лучшая музыка «Ночи» — монолог первого барда и что пьеса могла бы кончиться прямо перед словами вождя, вернувшись в ту тональность, в которой началась. А почему Шуберт взял только два раздела из шести, объясняет само стихотворение: ночные впечатления всех пяти бардов, замечает Грэм Джонсон, составили бы песню кошмарной длины."
+  },
+  {
+   "title": "Спор об Оссиане",
+   "text": "Оссиана бранили с самого начала. Грэм Джонсон приводит язвительную пародию английского поэта Уильяма Вордсворта на оссиановский слог: «Всяческая слава тебе, Макферсон! слава тебе, отец Оссиана! [...] призрак был порождён самодовольным объятием наглого горца с облаком предания»."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Два стандартных издания XX века — петерсовское и Полное собрание сочинений под редакцией Мандычевского — печатали «Ночь» в переработке Диабелли: другого источника у них не было. Автограф пролежал в Венгрии до конца 1960-х, а напечатали его только в 1980 году, в Москве.\nСамого Макферсона наука теперь судит мягче: для неё он скорее «Толкин своей эпохи», чем мошенник. Разница в том, что Толкин не скрывал, что его мир — вымысел; Макферсон же под давлением рынка снабдил сочинённое поддельной исторической родословной."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Целиком, одним треком, песню поют бас Вольф Маттиас Фридрих и пианист Ульрих Айзенлор; запись вышла на Naxos в сборнике *European Poets, Vol. 2* («Европейские поэты», том 2). Дата сессии нигде не записана, поэтому год у нас стоит по выходу диска — 2003.\nЕсть и запись антологии Hyperion Schubert Edition: тенор Энтони Рольф Джонсон и Грэм Джонсон, сентябрь 1989 года. Она сделана по московскому изданию автографа, без диабеллиевской переработки."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }

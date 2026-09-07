@@ -1,9 +1,16 @@
 {
  "d": "375",
  "title_de": "Der Tod Oskars",
+ "title_ru": "Смерть Оскара",
+ "poet_de": "James Macpherson, Edmund von Harold",
+ "poet_ru": "Джеймс Макферсон, Эдмунд фон Гарольд",
  "year": "1816",
- "text_only": true,
- "source": "OpenScore Lieder Corpus (CC0)",
+ "title_annotations": [
+  {
+   "type": "meaning",
+   "text": "Заглавие не вполне точно: смертей в балладе три, и все они, по сути, самоубийства — так сказано в примечаниях Питера Растля к тексту песни на schubertsong.uk. Дермид сам требует, чтобы его убил друг; Оскар подставляет себя под стрелу; дочь Дарго закалывается. Смерть Оскара — только вторая из них."
+  }
+ ],
  "stanzas": [
   {
    "lines_de": [
@@ -14,6 +21,241 @@
     "Der Erinnerung strahlt aus meinem Herzen.",
     "Wie kann ich den traurigen Tod",
     "Des Führers der Krieger erzählen?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Warum",
+       "ru": "Зачем"
+      },
+      {
+       "de": "öffnest",
+       "ru": "раскрываешь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "wieder",
+       "ru": "вновь,"
+      },
+      {
+       "de": "Erzeugter",
+       "ru": "сын"
+      },
+      {
+       "de": "von Alpin",
+       "ru": "Альпина,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Erzeugter — «порождённый»; в немецких переводах Оссиана это устойчивая формула отчества: Erzeugter von X, X's Erzeugter — «сын такого-то», калька английского son of X. Альпин — бард оссиановского цикла, и обращение «сын Альпина» значит просто «Оссиан»: рассказчик баллады."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        5
+       ],
+       "text": "Баллада начинается с ответа на вопрос, которого мы не слышали. Как пишет Грэм Джонсон, слушателю приходится самому вообразить вопрос, заданный отцу Оскара о смерти сына. Короткое взволнованное вступление фортепиано оседает на уменьшённом аккорде — и вступает голос."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Die Quelle",
+       "ru": "Источник"
+      },
+      {
+       "de": "meiner",
+       "ru": "моей"
+      },
+      {
+       "de": "Wehmuth",
+       "ru": "грусти,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Wehmuth — написание эпохи, современное Wehmut: тихая грусть с примесью боли. Quelle — источник, родник: вода, бьющая из земли. Вопрос собеседника снова отворяет этот ключ."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Da",
+       "ru": "Раз"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "fragst",
+       "ru": "спрашиваешь,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар"
+      },
+      {
+       "de": "erlag",
+       "ru": "пал?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        6
+       ],
+       "text": "erliegen (претерит erlag) — слово прикрывающее: словарь помечает его «verhüllend» и толкует как «умереть от раны», не устоять перед смертельным ударом. По-русски ближе всего «пасть»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Meine",
+       "ru": "Мои"
+      },
+      {
+       "de": "Augen",
+       "ru": "глаза"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "Thränen",
+       "ru": "слёз"
+      },
+      {
+       "de": "sind... erblindet",
+       "ru": "ослепли,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Thränen — написание эпохи, современное Tränen. Рамка sind... erblindet: вспомогательный глагол стоит вторым, причастие уходит в конец строки. Слепота здесь не болезнь: глаза застланы слезами."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Erinnerung",
+       "ru": "Память"
+      },
+      {
+       "de": "strahlt",
+       "ru": "сияет"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "meinem",
+       "ru": "моего"
+      },
+      {
+       "de": "Herzen",
+       "ru": "сердца."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "По форме der Erinnerung — родительный падеж («памяти»), но глагол strahlt требует подлежащего, и строка читается как «(свет) памяти сияет из моего сердца»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "den traurigen",
+       "ru": "печальную"
+      },
+      {
+       "de": "Tod",
+       "ru": "смерть"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Des Führers",
+       "ru": "Предводителя"
+      },
+      {
+       "de": "der Krieger",
+       "ru": "воинов"
+      },
+      {
+       "de": "erzählen",
+       "ru": "поведать?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Führer — тот, кто идёт впереди и ведёт за собой; Krieger — воин, боец. Немецкая фраза держит инфинитив erzählen до самого конца, через границу строки: «как могу я... поведать?»"
+      }
+     ]
+    }
    ]
   },
   {
@@ -22,6 +264,134 @@
     "Soll ich dich nicht mehr erblicken?",
     "Führer der Helden, o Oscar, mein Sohn,",
     "Soll ich dich nicht mehr erblicken?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Führer",
+       "ru": "Предводитель"
+      },
+      {
+       "de": "der Helden",
+       "ru": "героев,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Held — герой, доблестный воин; Führer der Helden — «предводитель героев», обычное для этих переводов величание вождя."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Неужели"
+      },
+      {
+       "de": "ich",
+       "ru": "мне"
+      },
+      {
+       "de": "nicht... mehr",
+       "ru": "уже не"
+      },
+      {
+       "de": "erblicken",
+       "ru": "увидеть"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "nicht mehr переводится связкой целиком — «уже не». Sollen в вопросе — горестное «неужели суждено», без оттенка долга; erblicken — высокое «увидеть, узреть»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Führer",
+       "ru": "Предводитель"
+      },
+      {
+       "de": "der Helden",
+       "ru": "героев,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Неужели"
+      },
+      {
+       "de": "ich",
+       "ru": "мне"
+      },
+      {
+       "de": "nicht... mehr",
+       "ru": "уже не"
+      },
+      {
+       "de": "erblicken",
+       "ru": "увидеть"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя?"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -30,6 +400,168 @@
     "Wie die Sonne in der Mitte ihres Laufs,",
     "Wenn Wolken vom Schoosse der Wogen sich heben,",
     "Wenn das Dunkel des Sturms Ardannider's Felsen einhüllt."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "fiel",
+       "ru": "пал,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "der Mond",
+       "ru": "луна"
+      },
+      {
+       "de": "in",
+       "ru": "в"
+      },
+      {
+       "de": "einem Sturm",
+       "ru": "бурю,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Sturm в песнях — буря, ветер, а не «штурм» и не морской шторм: русские созвучия здесь уводят в сторону."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "die Sonne",
+       "ru": "солнце"
+      },
+      {
+       "de": "in",
+       "ru": "на"
+      },
+      {
+       "de": "der Mitte",
+       "ru": "середине"
+      },
+      {
+       "de": "ihres",
+       "ru": "своего"
+      },
+      {
+       "de": "Laufs",
+       "ru": "пути,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "Lauf — бег, ход, течение: ход светила по небу. Солнце «на середине своего пути» стоит в зените — гибель на самой высоте."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "Wolken",
+       "ru": "тучи"
+      },
+      {
+       "de": "vom",
+       "ru": "из"
+      },
+      {
+       "de": "Schoosse",
+       "ru": "лона"
+      },
+      {
+       "de": "der Wogen",
+       "ru": "волн"
+      },
+      {
+       "de": "sich heben",
+       "ru": "поднимаются,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Schoosse — написание эпохи, современное Schoße: Schoß здесь «лоно», из которого что-то рождается. Woge — высокая волна, вал."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "das Dunkel",
+       "ru": "тьма"
+      },
+      {
+       "de": "des Sturms",
+       "ru": "бури"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скалы"
+      },
+      {
+       "de": "Ardannider's",
+       "ru": "Арданнидера"
+      },
+      {
+       "de": "einhüllt",
+       "ru": "окутывает."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "das Dunkel — прилагательное dunkel «тёмный», обращённое в существительное: «тьма, темнота»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Апостроф в Ardannider's передаёт родительный падеж на английский манер (=Ardanniders). Арданнидер — скалистое место действия в поэме."
+      }
+     ]
+    }
    ]
   },
   {
@@ -38,6 +570,148 @@
     "Vermodr' ich einsam auf meiner Stelle;",
     "Der Windstoss hat mir die Äste entrissen,",
     "Mich schrecken die Flügel des Nords."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "eine alte",
+       "ru": "старый"
+      },
+      {
+       "de": "Eiche",
+       "ru": "дуб"
+      },
+      {
+       "de": "von",
+       "ru": "из"
+      },
+      {
+       "de": "Morven",
+       "ru": "Морвена"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Морвен — легендарная область на западе Шотландии, родина Фингала и его рода в поэмах Макферсона."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Vermodr'",
+       "ru": "Тлею"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "einsam",
+       "ru": "одиноко"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "meiner",
+       "ru": "своём"
+      },
+      {
+       "de": "Stelle",
+       "ru": "месте;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Vermodr' — стяжённое vermodere: vermodern значит «тлеть, гнить» — так истлевает на корню старое дерево. Сравнение с дубом продолжается и в следующих строках."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der Windstoss",
+       "ru": "Порыв ветра"
+      },
+      {
+       "de": "hat... entrissen",
+       "ru": "вырвал"
+      },
+      {
+       "de": "mir",
+       "ru": "у меня"
+      },
+      {
+       "de": "die Äste",
+       "ru": "ветви,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Рамка hat... entrissen разорвана дополнением. Дательный mir по-русски передаётся принадлежностью: «у меня», то есть «мои ветви»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Mich",
+       "ru": "Меня"
+      },
+      {
+       "de": "schrecken",
+       "ru": "страшат"
+      },
+      {
+       "de": "die Flügel",
+       "ru": "крылья"
+      },
+      {
+       "de": "des Nords",
+       "ru": "севера."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "schrecken здесь переходное — «пугать, страшить кого-либо»; в нынешней норме на этом месте стояло бы erschrecken."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Nord в поэзии эпохи значит северный ветер; «крылья севера» — крылья налетающей бури."
+      }
+     ]
+    }
    ]
   },
   {
@@ -48,6 +722,174 @@
     "Soll ich dich nicht mehr erblicken,",
     "Soll ich dich nicht mehr erblicken,",
     "O Führer der Helden, o Oscar, mein Sohn!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Führer",
+       "ru": "Предводитель"
+      },
+      {
+       "de": "der Helden",
+       "ru": "героев,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Неужели"
+      },
+      {
+       "de": "ich",
+       "ru": "мне"
+      },
+      {
+       "de": "nicht... mehr",
+       "ru": "уже не"
+      },
+      {
+       "de": "erblicken",
+       "ru": "увидеть"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя?"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Führer",
+       "ru": "Предводитель"
+      },
+      {
+       "de": "der Helden",
+       "ru": "героев,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Неужели"
+      },
+      {
+       "de": "ich",
+       "ru": "мне"
+      },
+      {
+       "de": "nicht... mehr",
+       "ru": "уже не"
+      },
+      {
+       "de": "erblicken",
+       "ru": "увидеть"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Soll",
+       "ru": "Неужели"
+      },
+      {
+       "de": "ich",
+       "ru": "мне"
+      },
+      {
+       "de": "nicht... mehr",
+       "ru": "уже не"
+      },
+      {
+       "de": "erblicken",
+       "ru": "увидеть"
+      },
+      {
+       "de": "dich",
+       "ru": "тебя,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О"
+      },
+      {
+       "de": "Führer",
+       "ru": "предводитель"
+      },
+      {
+       "de": "der Helden",
+       "ru": "героев,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -56,6 +898,164 @@
     "Wie Gras auf dem Feld der Mächtigen;",
     "Blut befärbte sein Schwert,",
     "Er riss sich mit Tod durch die Reihen ihres Stolzes."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Der Held",
+       "ru": "Герой,"
+      },
+      {
+       "de": "Erzeugter",
+       "ru": "сын"
+      },
+      {
+       "de": "Caruths",
+       "ru": "Карута,"
+      },
+      {
+       "de": "fiel",
+       "ru": "пал"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "friedlich",
+       "ru": "мирно"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Карут — отец Оскара в этой версии оссианического сюжета; Caruths Erzeugter — та же формула отчества, что и «сын Альпина» в первой строфе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "Gras",
+       "ru": "трава"
+      },
+      {
+       "de": "auf",
+       "ru": "на"
+      },
+      {
+       "de": "dem Feld",
+       "ru": "поле"
+      },
+      {
+       "de": "der Mächtigen",
+       "ru": "могучих;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "die Mächtigen — прилагательное mächtig «могучий», обращённое в существительное: «могучие», сильные мира сего. Трава на их поле гибнет молча и без сопротивления."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Blut",
+       "ru": "Кровь"
+      },
+      {
+       "de": "befärbte",
+       "ru": "обагрила"
+      },
+      {
+       "de": "sein",
+       "ru": "его"
+      },
+      {
+       "de": "Schwert",
+       "ru": "меч,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "befärben — устаревшая приставочная форма от färben «красить»; красит здесь кровь, поэтому по-русски — «обагрила». Та же форма вернётся в девятой строфе: war... befärbt."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "riss sich",
+       "ru": "пробился"
+      },
+      {
+       "de": "mit",
+       "ru": "со"
+      },
+      {
+       "de": "Tod",
+       "ru": "смертью"
+      },
+      {
+       "de": "durch",
+       "ru": "сквозь"
+      },
+      {
+       "de": "die Reihen",
+       "ru": "ряды"
+      },
+      {
+       "de": "ihres",
+       "ru": "их"
+      },
+      {
+       "de": "Stolzes",
+       "ru": "гордости."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "sich reißen durch etwas — прорываться силой, прокладывать себе путь."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "«Ряды их гордости» — оборот по смыслу: ряды гордых, надменных врагов."
+      }
+     ]
+    }
    ]
   },
   {
@@ -64,6 +1064,135 @@
     "Du bist unrühmlich gefallen;",
     "Deine Rechte erschlug keinen Feind,",
     "Deinen Speer befleckte das Blut deines Freunds."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "Erzeugter",
+       "ru": "сын"
+      },
+      {
+       "de": "von Caruth",
+       "ru": "Карута,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Du",
+       "ru": "Ты"
+      },
+      {
+       "de": "unrühmlich",
+       "ru": "бесславно"
+      },
+      {
+       "de": "bist... gefallen",
+       "ru": "пал;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "unrühmlich — «бесславно», без чести: об этом слове дальше и спорят два друга. Рамка bist... gefallen разорвана наречием."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Deine",
+       "ru": "Твоя"
+      },
+      {
+       "de": "Rechte",
+       "ru": "десница"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "erschlug",
+       "ru": "сразила"
+      },
+      {
+       "de": "keinen",
+       "ru": "ни одного"
+      },
+      {
+       "de": "Feind",
+       "ru": "врага,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "die Rechte — «правая рука», по-русски в высоком слоге десница. В балладе она станет отдельным действующим лицом: рука, которая убивает, и та же рука, которую любят."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "Немецкому хватает одного отрицания при kein; русский требует второго — отсюда «не сразила ни одного»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Deinen",
+       "ru": "Твоё"
+      },
+      {
+       "de": "Speer",
+       "ru": "копьё"
+      },
+      {
+       "de": "befleckte",
+       "ru": "запятнала"
+      },
+      {
+       "de": "das Blut",
+       "ru": "кровь"
+      },
+      {
+       "de": "deines",
+       "ru": "твоего"
+      },
+      {
+       "de": "Freunds",
+       "ru": "друга."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Порядок слов обратный привычному: подлежащее — «кровь», дополнение — «копьё», которое вынесено в начало строки ради ударения."
+      }
+     ]
+    }
    ]
   },
   {
@@ -72,6 +1201,180 @@
     "Sie mähten die Schlachten zusammen;",
     "Ihre Freundschaft war stark wie ihr Eisen,",
     "Und im Felde wandelte der Tod zwischen ihnen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Eins",
+       "ru": "Едины"
+      },
+      {
+       "de": "war",
+       "ru": "были"
+      },
+      {
+       "de": "Dermid",
+       "ru": "Дермид"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "eins sein — «быть одним целым»; глагол при этом стоит в единственном числе, хотя героев двое."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Грэм Джонсон ставит эту пару в один ряд с Давидом и Ионафаном и с Нисом и Эвриалом из «Энеиды», погибшими в бою вместе: дружба двух воинов, возведённая почти в святыню."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "mähten",
+       "ru": "косили"
+      },
+      {
+       "de": "die Schlachten",
+       "ru": "битвы"
+      },
+      {
+       "de": "zusammen",
+       "ru": "вместе;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "mähen — косить траву; битву «косят» так же, как жнец жнёт поле. Форма Schlachten здесь существительное во множественном числе, а не глагол schlachten «резать скот»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Их"
+      },
+      {
+       "de": "Freundschaft",
+       "ru": "дружба"
+      },
+      {
+       "de": "war",
+       "ru": "была"
+      },
+      {
+       "de": "stark",
+       "ru": "крепка,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "ihr",
+       "ru": "их"
+      },
+      {
+       "de": "Eisen",
+       "ru": "железо,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "stark — «обладающий большой силой»; о дружбе по-русски говорят «крепка», и словарное «сильна, могуча» тут звучало бы о мышцах."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "Eisen — «железо», но названо оно вместо оружия: их железо — их клинки."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Felde",
+       "ru": "поле"
+      },
+      {
+       "de": "wandelte",
+       "ru": "ходила"
+      },
+      {
+       "de": "der Tod",
+       "ru": "смерть"
+      },
+      {
+       "de": "zwischen",
+       "ru": "между"
+      },
+      {
+       "de": "ihnen",
+       "ru": "ними."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        4
+       ],
+       "text": "der Tod — мужского рода, и немецкая поэзия видит смерть мужской фигурой: спутником, косарём, женихом. Русская смерть — женщина, и в подстрочнике она неизбежно меняет пол."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "Джонсон замечает, что Шуберт понимает здесь страстную и самоотверженную дружбу «превыше любви женщин»: музыка передаёт мужскую доблесть двух героев так же легко, как беззащитность Оскара."
+      }
+     ]
+    }
    ]
   },
   {
@@ -82,6 +1385,206 @@
     "Krieger erbebten bei ihren Namen.",
     "Wer glich Oscarn als Dermid,",
     "Und wer Dermid als Oscar?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "fuhren",
+       "ru": "двинулись"
+      },
+      {
+       "de": "gegen",
+       "ru": "на"
+      },
+      {
+       "de": "den Feind",
+       "ru": "врага"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wie",
+       "ru": "Как"
+      },
+      {
+       "de": "zwei",
+       "ru": "две"
+      },
+      {
+       "de": "Felsen",
+       "ru": "скалы,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "sich stürzen",
+       "ru": "низвергаются"
+      },
+      {
+       "de": "von",
+       "ru": "с"
+      },
+      {
+       "de": "Stirne",
+       "ru": "чела"
+      },
+      {
+       "de": "Ardvens",
+       "ru": "Ардвена."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        6,
+        7
+       ],
+       "text": "Stirn — лоб; «чело Ардвена» — верхний выступ горы, откуда срываются камни. Ардвен — гора оссианического цикла."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihr",
+       "ru": "Их"
+      },
+      {
+       "de": "Schwert",
+       "ru": "меч"
+      },
+      {
+       "de": "war... befärbt",
+       "ru": "был обагрён"
+      },
+      {
+       "de": "vom Blute",
+       "ru": "кровью"
+      },
+      {
+       "de": "der Tapfern",
+       "ru": "храбрецов,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Страдательный оборот war... befärbt разорван, как обычно в немецкой фразе. Blute — старая форма дательного падежа с -e."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Krieger",
+       "ru": "Воины"
+      },
+      {
+       "de": "erbebten",
+       "ru": "трепетали"
+      },
+      {
+       "de": "bei",
+       "ru": "при"
+      },
+      {
+       "de": "ihren",
+       "ru": "их"
+      },
+      {
+       "de": "Namen",
+       "ru": "именах."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто"
+      },
+      {
+       "de": "glich",
+       "ru": "был подобен"
+      },
+      {
+       "de": "Oscarn",
+       "ru": "Оскару,"
+      },
+      {
+       "de": "als",
+       "ru": "кроме"
+      },
+      {
+       "de": "Dermid",
+       "ru": "Дермида,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Oscarn — старое склонение имени (дательный падеж на -n). Als после сравнения значит здесь «кроме, помимо»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "wer",
+       "ru": "кто"
+      },
+      {
+       "de": "",
+       "ru": "—"
+      },
+      {
+       "de": "Dermid",
+       "ru": "Дермиду,"
+      },
+      {
+       "de": "als",
+       "ru": "кроме"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскара?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Глагол во второй половине вопроса опущен и подразумевается из первой; по-русски на его месте стоит тире."
+      }
+     ]
+    }
    ]
   },
   {
@@ -92,6 +1595,214 @@
     "Sanft wie der Strahl des Abends;",
     "Ihre Augen glichen zwei Sternen im Regen,",
     "Ihr Athem dem Hauche des Frühlings."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "erlegten",
+       "ru": "сразили"
+      },
+      {
+       "de": "den mächtigen",
+       "ru": "могучего"
+      },
+      {
+       "de": "Dargo",
+       "ru": "Дарго"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Feld",
+       "ru": "поле,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "erlegen — высокое слово: изначально об охоте, о добытом звере, а в героическом рассказе о поверженном противнике, которого не стыдно назвать достойным."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dargo",
+       "ru": "Дарго,"
+      },
+      {
+       "de": "der",
+       "ru": "который"
+      },
+      {
+       "de": "nie",
+       "ru": "никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "entfloh",
+       "ru": "бежал"
+      },
+      {
+       "de": "aus",
+       "ru": "из"
+      },
+      {
+       "de": "dem Kampfe",
+       "ru": "боя."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Немецкому nie второго отрицания не нужно, русскому «никогда» нужно обязательно. Kampfe — старая форма дательного падежа с -e."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Seine",
+       "ru": "Его"
+      },
+      {
+       "de": "Tochter",
+       "ru": "дочь"
+      },
+      {
+       "de": "war",
+       "ru": "была"
+      },
+      {
+       "de": "schön",
+       "ru": "прекрасна,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "der Morgen",
+       "ru": "утро,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sanft",
+       "ru": "Нежна,"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "der Strahl",
+       "ru": "луч"
+      },
+      {
+       "de": "des Abends",
+       "ru": "вечера;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Morgen и Abend в стихах эпохи могут значить восток и запад, но здесь они держатся парой как время суток: утренний свет и вечерний луч."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Её"
+      },
+      {
+       "de": "Augen",
+       "ru": "глаза"
+      },
+      {
+       "de": "glichen",
+       "ru": "были подобны"
+      },
+      {
+       "de": "zwei",
+       "ru": "двум"
+      },
+      {
+       "de": "Sternen",
+       "ru": "звёздам"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Regen",
+       "ru": "дожде,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihr",
+       "ru": "Её"
+      },
+      {
+       "de": "Athem",
+       "ru": "дыхание"
+      },
+      {
+       "de": "",
+       "ru": "—"
+      },
+      {
+       "de": "dem Hauche",
+       "ru": "дуновению"
+      },
+      {
+       "de": "des Frühlings",
+       "ru": "весны."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Глагол glichen из предыдущей строки не повторён — по-русски на его месте тире. Athem — написание эпохи, современное Atem; Hauche — дательный падеж с -e: Hauch значит и дыхание, и дуновение ветерка."
+      }
+     ]
+    }
    ]
   },
   {
@@ -103,6 +1814,253 @@
     "Jeder liebte sie gleich seinem Ruhm,",
     "Jeder liebte sie gleich seinem Ruhm;",
     "Sie wollte jeder besitzen oder sterben."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ihr",
+       "ru": "Её"
+      },
+      {
+       "de": "Busen",
+       "ru": "грудь"
+      },
+      {
+       "de": "",
+       "ru": "—"
+      },
+      {
+       "de": "wie",
+       "ru": "как"
+      },
+      {
+       "de": "neugefallner",
+       "ru": "свежевыпавший"
+      },
+      {
+       "de": "Schnee",
+       "ru": "снег,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Busen около 1800 года — грудь как вместилище чувств, дом сердца; нынешнее значение «бюст» на этот текст не переносится. Связка отсутствует и в немецкой строке — по-русски её заменяет тире."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Der",
+       "ru": "Что"
+      },
+      {
+       "de": "sich wälzt",
+       "ru": "стелется"
+      },
+      {
+       "de": "auf",
+       "ru": "по"
+      },
+      {
+       "de": "der wiegenden",
+       "ru": "колышущейся"
+      },
+      {
+       "de": "Heide",
+       "ru": "пустоши."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Heide — невозделанная вересковая пустошь. Причастие wiegend — от wiegen «качать» (родня слову Wiege «колыбель»); с wiegen «взвешивать» оно совпадает только по написанию: вереск ходит волнами под ветром."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Её"
+      },
+      {
+       "de": "ward... gesehn",
+       "ru": "увидели"
+      },
+      {
+       "de": "von den Helden",
+       "ru": "герои"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "geliebt",
+       "ru": "полюбили;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "ward — старая форма wurde. Немецкая строка страдательная: «она была героями увидена и любима»; по-русски это звучит натужно, поэтому залог заменён действительным."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Их"
+      },
+      {
+       "de": "Seelen",
+       "ru": "души"
+      },
+      {
+       "de": "wurden... geheftet",
+       "ru": "были прикованы"
+      },
+      {
+       "de": "ans",
+       "ru": "к"
+      },
+      {
+       "de": "Mädchen",
+       "ru": "девушке."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "ans — слияние an и das. Das Mädchen среднего рода, и по-немецки о девушке дальше говорили бы «оно»; русский подстрочник возвращает ей женский род."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Jeder",
+       "ru": "Каждый"
+      },
+      {
+       "de": "liebte",
+       "ru": "любил"
+      },
+      {
+       "de": "sie",
+       "ru": "её,"
+      },
+      {
+       "de": "gleich",
+       "ru": "как"
+      },
+      {
+       "de": "seinem",
+       "ru": "свою"
+      },
+      {
+       "de": "Ruhm",
+       "ru": "славу,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "gleich с дательным падежом значит «подобно, как»; разговорное «сейчас», которое слышится в этом слове сегодня, к текстам эпохи отношения не имеет."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Jeder",
+       "ru": "Каждый"
+      },
+      {
+       "de": "liebte",
+       "ru": "любил"
+      },
+      {
+       "de": "sie",
+       "ru": "её,"
+      },
+      {
+       "de": "gleich",
+       "ru": "как"
+      },
+      {
+       "de": "seinem",
+       "ru": "свою"
+      },
+      {
+       "de": "Ruhm",
+       "ru": "славу;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Ею"
+      },
+      {
+       "de": "jeder",
+       "ru": "каждый"
+      },
+      {
+       "de": "wollte",
+       "ru": "хотел"
+      },
+      {
+       "de": "besitzen",
+       "ru": "обладать"
+      },
+      {
+       "de": "oder",
+       "ru": "или"
+      },
+      {
+       "de": "sterben",
+       "ru": "умереть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "Sie здесь винительный падеж, вынесенный в начало строки, а подлежащее — jeder «каждый». Besitzen управляет винительным, русское «обладать» — творительным: отсюда «ею»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -111,6 +2069,134 @@
     "Caruths Erzeugter war der Jüngling ihrer Liebe.",
     "Sie vergass das Blut ihres Vaters",
     "Und liebte die Rechte, die ihn erschlug."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но"
+      },
+      {
+       "de": "ihr",
+       "ru": "её"
+      },
+      {
+       "de": "Herz",
+       "ru": "сердце"
+      },
+      {
+       "de": "wählte",
+       "ru": "избрало"
+      },
+      {
+       "de": "Oscarn",
+       "ru": "Оскара;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Erzeugter",
+       "ru": "Сын"
+      },
+      {
+       "de": "Caruths",
+       "ru": "Карута"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "der Jüngling",
+       "ru": "юношей"
+      },
+      {
+       "de": "ihrer",
+       "ru": "её"
+      },
+      {
+       "de": "Liebe",
+       "ru": "любви."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "Jüngling — возраст между отрочеством и зрелостью. У нынешнего немецкого слова есть насмешливый призвук, у слова 1800-х годов его нет: это высокое «юноша»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "vergass",
+       "ru": "забыла"
+      },
+      {
+       "de": "das Blut",
+       "ru": "кровь"
+      },
+      {
+       "de": "ihres",
+       "ru": "своего"
+      },
+      {
+       "de": "Vaters",
+       "ru": "отца"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "liebte",
+       "ru": "полюбила"
+      },
+      {
+       "de": "die Rechte",
+       "ru": "десницу,"
+      },
+      {
+       "de": "die",
+       "ru": "что"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "erschlug",
+       "ru": "сразила."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Две одинаковые с виду формы подряд: первая die — артикль при «деснице», вторая — относительное местоимение «которая»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -123,6 +2209,285 @@
     "Hier durchdring diesen Busen, o Oscar,",
     "Hilf deinem Freund mit deinem Schwert,",
     "Hilf deinem Freund mit deinem Schwert."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sohn",
+       "ru": "Сын"
+      },
+      {
+       "de": "Caruths",
+       "ru": "Карута,"
+      },
+      {
+       "de": "sprach",
+       "ru": "— сказал"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Разбивка на строки разрывает здесь обычную немецкую вставку при прямой речи: «Сын Карута, — сказал Дермид, — я люблю». Caruths Sohn — обращение к Оскару, а говорит дальше Дермид, который и просит друга его убить."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dermid",
+       "ru": "Дермид, —"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "liebe",
+       "ru": "люблю,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "liebe",
+       "ru": "люблю"
+      },
+      {
+       "de": "dies",
+       "ru": "эту"
+      },
+      {
+       "de": "Mädchen",
+       "ru": "девушку;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но"
+      },
+      {
+       "de": "ihre",
+       "ru": "её"
+      },
+      {
+       "de": "Seele",
+       "ru": "душа"
+      },
+      {
+       "de": "hängt",
+       "ru": "привязана"
+      },
+      {
+       "de": "an",
+       "ru": "к"
+      },
+      {
+       "de": "dir",
+       "ru": "тебе,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "an jemandem hängen — «висеть на ком-то», то есть быть к нему привязанным всей душой."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "nichts",
+       "ru": "ничто"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "kann",
+       "ru": "может"
+      },
+      {
+       "de": "heilen",
+       "ru": "исцелить"
+      },
+      {
+       "de": "Dermiden",
+       "ru": "Дермида,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "nichts — «ничто»; русское двойное отрицание добавляет «не». Инфинитив heilen по-немецки стоит в конце — рамка при модальном kann."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Dermiden — старое склонение имени (винительный падеж на -en). Дермид говорит о себе в третьем лице."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "nichts",
+       "ru": "ничто"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "kann",
+       "ru": "может"
+      },
+      {
+       "de": "heilen",
+       "ru": "исцелить"
+      },
+      {
+       "de": "Dermiden",
+       "ru": "Дермида."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hier",
+       "ru": "Здесь"
+      },
+      {
+       "de": "durchdring",
+       "ru": "пронзи"
+      },
+      {
+       "de": "diesen",
+       "ru": "эту"
+      },
+      {
+       "de": "Busen",
+       "ru": "грудь,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "durchdring — стяжённое durchdringe, повелительное наклонение: «пронзи насквозь». Тот же глагол вернётся в конце баллады, когда стрелу пустит девушка."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hilf",
+       "ru": "Помоги"
+      },
+      {
+       "de": "deinem",
+       "ru": "своему"
+      },
+      {
+       "de": "Freund",
+       "ru": "другу"
+      },
+      {
+       "de": "mit deinem",
+       "ru": "своим"
+      },
+      {
+       "de": "Schwert",
+       "ru": "мечом,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "helfen управляет дательным падежом — «помочь другу». Freund в 1800-х шире нынешнего: тот, кто предан и близок."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Hilf",
+       "ru": "Помоги"
+      },
+      {
+       "de": "deinem",
+       "ru": "своему"
+      },
+      {
+       "de": "Freund",
+       "ru": "другу"
+      },
+      {
+       "de": "mit deinem",
+       "ru": "своим"
+      },
+      {
+       "de": "Schwert",
+       "ru": "мечом."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -130,6 +2495,113 @@
     "Oscar:",
     "Nie soll mein Schwert, Dirans Sohn,",
     "Nie soll es mit Dermids Blute befleckt sein."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Oscar:",
+       "ru": "Оскар:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Nie",
+       "ru": "Никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "soll",
+       "ru": "должен"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Schwert",
+       "ru": "меч,"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын"
+      },
+      {
+       "de": "Dirans",
+       "ru": "Дирана,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        2
+       ],
+       "text": "Диран — отец Дермида. Sollen здесь — зарок: «да не будет никогда»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Nie",
+       "ru": "Никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "soll",
+       "ru": "должен"
+      },
+      {
+       "de": "es",
+       "ru": "он"
+      },
+      {
+       "de": "sein",
+       "ru": "быть"
+      },
+      {
+       "de": "befleckt",
+       "ru": "запятнан"
+      },
+      {
+       "de": "mit... Blute",
+       "ru": "кровью"
+      },
+      {
+       "de": "Dermids",
+       "ru": "Дермида."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "es — это меч: das Schwert среднего рода, по-русски «он»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "beflecken — покрыть пятнами и опозорить разом; предлог mit по-русски передаётся творительным падежом."
+      }
+     ]
+    }
    ]
   },
   {
@@ -139,6 +2611,148 @@
     "Oscar, Caruths Sohn,",
     "Lass nicht mein Leben unrühmlich vergehen,",
     "Lass Niemand als Oscar mich tödten."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dermid:",
+       "ru": "Дермид:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer ist",
+       "ru": "Кто"
+      },
+      {
+       "de": "dann",
+       "ru": "тогда"
+      },
+      {
+       "de": "würdig",
+       "ru": "достоин"
+      },
+      {
+       "de": "zu erlegen",
+       "ru": "сразить"
+      },
+      {
+       "de": "mich",
+       "ru": "меня?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Связка ist по-русски не выговаривается («кто достоин»), поэтому она вошла в один сегмент с вопросительным словом."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Oscar",
+       "ru": "Оскар,"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын"
+      },
+      {
+       "de": "Caruths",
+       "ru": "Карута,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "nicht",
+       "ru": "Не"
+      },
+      {
+       "de": "Lass",
+       "ru": "дай"
+      },
+      {
+       "de": "mein",
+       "ru": "моей"
+      },
+      {
+       "de": "Leben",
+       "ru": "жизни"
+      },
+      {
+       "de": "unrühmlich",
+       "ru": "бесславно"
+      },
+      {
+       "de": "vergehen",
+       "ru": "угаснуть,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "vergehen — «переставать существовать, исчезать понемногу»; о жизни по-русски говорят «угаснуть, пройти»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Lass",
+       "ru": "Пусть"
+      },
+      {
+       "de": "Niemand",
+       "ru": "никто,"
+      },
+      {
+       "de": "als",
+       "ru": "кроме"
+      },
+      {
+       "de": "Oscar",
+       "ru": "Оскара,"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "tödten",
+       "ru": "убьёт"
+      },
+      {
+       "de": "mich",
+       "ru": "меня."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "tödten — написание эпохи, современное töten. При niemand русский снова требует второго отрицания."
+      }
+     ]
+    }
    ]
   },
   {
@@ -150,6 +2764,232 @@
     "Schwing deinen Stahl!",
     "O fiel ich mit dir,",
     "Dass mein Tod von Dermids Rechte herrühre!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Oscar:",
+       "ru": "Оскар:"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Schick",
+       "ru": "Отправь"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Ehre",
+       "ru": "честью"
+      },
+      {
+       "de": "zum",
+       "ru": "в"
+      },
+      {
+       "de": "Grab",
+       "ru": "могилу,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "",
+       "ru": "пусть"
+      },
+      {
+       "de": "Ruhm",
+       "ru": "слава"
+      },
+      {
+       "de": "begleite",
+       "ru": "сопровождает"
+      },
+      {
+       "de": "meinen",
+       "ru": "мою"
+      },
+      {
+       "de": "Tod",
+       "ru": "смерть."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "begleite — форма конъюнктива, пожелание: «да сопровождает». По-русски она передана словом «пусть»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dermid",
+       "ru": "Дермид,"
+      },
+      {
+       "de": "brauch'",
+       "ru": "пусти в ход"
+      },
+      {
+       "de": "deine",
+       "ru": "свой"
+      },
+      {
+       "de": "Klinge",
+       "ru": "клинок,"
+      },
+      {
+       "de": "Erzeugter",
+       "ru": "сын"
+      },
+      {
+       "de": "Dirans",
+       "ru": "Дирана,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "brauchen в эту пору значит не только «нуждаться», но и «применять, пускать в дело»: brauch' deine Klinge — «возьмись за свой клинок»."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "Klinge — «клинок», существительное; с глаголом klingen «звучать» его роднит только написание."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Schwing",
+       "ru": "Взмахни"
+      },
+      {
+       "de": "deinen",
+       "ru": "своей"
+      },
+      {
+       "de": "Stahl",
+       "ru": "сталью!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Stahl в поэтическом языке — оружие из стали: кинжал, меч."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "O",
+       "ru": "О,"
+      },
+      {
+       "de": "fiel",
+       "ru": "пасть бы"
+      },
+      {
+       "de": "ich",
+       "ru": "мне"
+      },
+      {
+       "de": "mit",
+       "ru": "вместе с"
+      },
+      {
+       "de": "dir",
+       "ru": "тобой,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "fiel здесь — сослагательное наклонение, желание: «пасть бы мне». С прошедшим временем форма совпадает только на письме."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dass",
+       "ru": "Чтобы"
+      },
+      {
+       "de": "mein",
+       "ru": "моя"
+      },
+      {
+       "de": "Tod",
+       "ru": "смерть"
+      },
+      {
+       "de": "herrühre",
+       "ru": "проистекла"
+      },
+      {
+       "de": "von",
+       "ru": "от"
+      },
+      {
+       "de": "Rechte",
+       "ru": "десницы"
+      },
+      {
+       "de": "Dermids",
+       "ru": "Дермида!"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "herrühren — «происходить, брать начало от чего-либо»; и здесь опять конъюнктив: «пусть проистечёт»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -158,6 +2998,123 @@
     "Bei Branno's Strom;",
     "Blut färbte die fliessenden Fluthen",
     "Und rann um die bemoosten Steine."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Они"
+      },
+      {
+       "de": "fochten",
+       "ru": "бились"
+      },
+      {
+       "de": "beim",
+       "ru": "у"
+      },
+      {
+       "de": "Bache",
+       "ru": "ручья"
+      },
+      {
+       "de": "des Bergs",
+       "ru": "на горе,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "beim — слияние bei и dem; Bache — дательный падеж с -e. Родительный des Bergs дословно «ручья горы»; по-русски естественнее обстоятельство «на горе»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Bei",
+       "ru": "У"
+      },
+      {
+       "de": "Strom",
+       "ru": "потока"
+      },
+      {
+       "de": "Branno's",
+       "ru": "Бранно;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        2
+       ],
+       "text": "Апостроф снова передаёт родительный падеж (=Brannos). Бранно — поток, у которого сходятся два друга."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Blut",
+       "ru": "Кровь"
+      },
+      {
+       "de": "färbte",
+       "ru": "обагрила"
+      },
+      {
+       "de": "die fliessenden",
+       "ru": "текучие"
+      },
+      {
+       "de": "Fluthen",
+       "ru": "воды"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "fliessenden и Fluthen — написание эпохи, современные fließenden и Fluten."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "rann",
+       "ru": "струилась"
+      },
+      {
+       "de": "um",
+       "ru": "вокруг"
+      },
+      {
+       "de": "die bemoosten",
+       "ru": "замшелых"
+      },
+      {
+       "de": "Steine",
+       "ru": "камней."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -168,6 +3125,202 @@
     "Fällst du durch die Rechte von Oscar?",
     "Dermid, der nie im Kriege gewichen,",
     "Seh' ich dich also erliegen?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Dermid",
+       "ru": "Дермид,"
+      },
+      {
+       "de": "der Stattliche",
+       "ru": "Статный,"
+      },
+      {
+       "de": "fiel",
+       "ru": "пал;"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "der Stattliche — прилагательное «статный, видный», обращённое в существительное и приставшее к герою как прозвище."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "fiel",
+       "ru": "пал"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "lächelte",
+       "ru": "улыбался"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Tod",
+       "ru": "смерти."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "fällst",
+       "ru": "падаешь"
+      },
+      {
+       "de": "du",
+       "ru": "ты,"
+      },
+      {
+       "de": "Erzeugter",
+       "ru": "сын"
+      },
+      {
+       "de": "Dirans",
+       "ru": "Дирана,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Fällst",
+       "ru": "Падаешь"
+      },
+      {
+       "de": "du",
+       "ru": "ты"
+      },
+      {
+       "de": "durch",
+       "ru": "от"
+      },
+      {
+       "de": "die Rechte",
+       "ru": "десницы"
+      },
+      {
+       "de": "von Oscar",
+       "ru": "Оскара?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "durch с винительным падежом называет орудие и виновника: «от руки Оскара»."
+      },
+      {
+       "type": "meaning",
+       "segment_range": [
+        0,
+        4
+       ],
+       "text": "Здесь, по словам Грэма Джонсона, и трагедия баллады: убив Дермида, Оскар подтверждает мысль другого Оскара, Уайльда, — каждый убивает то, что любит. Дальше в песне звучит вина."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Dermid",
+       "ru": "Дермид,"
+      },
+      {
+       "de": "der",
+       "ru": "что"
+      },
+      {
+       "de": "nie",
+       "ru": "никогда"
+      },
+      {
+       "de": "",
+       "ru": "не"
+      },
+      {
+       "de": "gewichen",
+       "ru": "отступал"
+      },
+      {
+       "de": "im",
+       "ru": "на"
+      },
+      {
+       "de": "Kriege",
+       "ru": "войне,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "Вспомогательный глагол опущен: полностью было бы der nie... gewichen ist. Weichen — «отступать, уступать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "also",
+       "ru": "Так"
+      },
+      {
+       "de": "Seh'",
+       "ru": "вижу"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "dich... erliegen",
+       "ru": "как ты пал?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        3
+       ],
+       "text": "sehen с винительным падежом и инфинитивом: «вижу тебя погибать». По-русски такой оборот разворачивается в придаточное — «вижу, как ты пал». Also здесь значит «так, вот таким»."
+      }
+     ]
+    }
    ]
   },
   {
@@ -176,6 +3329,146 @@
     "Er kehrte, aber sie vernahm seinen Jammer.",
     "Warum dies Dunkel, Sohn von Caruth,",
     "Was überschattet deine mächtige Seele?"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "ging",
+       "ru": "пошёл"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "kehrte",
+       "ru": "вернулся"
+      },
+      {
+       "de": "zum",
+       "ru": "к"
+      },
+      {
+       "de": "Mädchen",
+       "ru": "девушке"
+      },
+      {
+       "de": "seiner",
+       "ru": "своей"
+      },
+      {
+       "de": "Liebe",
+       "ru": "любви,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Он"
+      },
+      {
+       "de": "kehrte",
+       "ru": "вернулся,"
+      },
+      {
+       "de": "aber",
+       "ru": "но"
+      },
+      {
+       "de": "sie",
+       "ru": "она"
+      },
+      {
+       "de": "vernahm",
+       "ru": "услышала"
+      },
+      {
+       "de": "seinen",
+       "ru": "его"
+      },
+      {
+       "de": "Jammer",
+       "ru": "скорбь."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "Jammer — горе, вышедшее наружу: плач, стенание; vernehmen — «услышать, расслышать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Warum",
+       "ru": "Отчего"
+      },
+      {
+       "de": "dies",
+       "ru": "эта"
+      },
+      {
+       "de": "Dunkel",
+       "ru": "тьма,"
+      },
+      {
+       "de": "Sohn",
+       "ru": "сын"
+      },
+      {
+       "de": "von Caruth",
+       "ru": "Карута,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Was",
+       "ru": "Что"
+      },
+      {
+       "de": "überschattet",
+       "ru": "омрачает"
+      },
+      {
+       "de": "deine",
+       "ru": "твою"
+      },
+      {
+       "de": "mächtige",
+       "ru": "могучую"
+      },
+      {
+       "de": "Seele",
+       "ru": "душу?"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        1
+       ],
+       "text": "überschatten — набрасывать тень; о душе — «омрачать». Тьма из предыдущей строки продолжается в глаголе."
+      }
+     ]
+    }
    ]
   },
   {
@@ -187,6 +3480,243 @@
     "Gormurs, den ich im Kampfe erschlug.",
     "Ich habe den Tag vergebens verzehrt",
     "Und konnte ihn nicht mit meinem Pfeil durchdringen."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Einst",
+       "ru": "Некогда"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "ich",
+       "ru": "я,"
+      },
+      {
+       "de": "o",
+       "ru": "о"
+      },
+      {
+       "de": "Mädchen",
+       "ru": "девушка,"
+      },
+      {
+       "de": "im Bogen",
+       "ru": "луком"
+      },
+      {
+       "de": "berühmt",
+       "ru": "прославлен,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        6
+       ],
+       "text": "im Bogen — «в (искусстве) лука»: он славился как стрелок. Einst у поэтов эпохи значит и «некогда», и «когда-нибудь»; здесь — только прошлое."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Aber",
+       "ru": "Но"
+      },
+      {
+       "de": "meinen",
+       "ru": "свою"
+      },
+      {
+       "de": "Ruhm",
+       "ru": "славу"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "itzo",
+       "ru": "теперь"
+      },
+      {
+       "de": "hab'... verloren",
+       "ru": "утратил."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "itzo — устаревшее «теперь» (нынешнее jetzt), обычное для книжного языка XVIII века. Рамка hab'... verloren разорвана всей серединой фразы."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Am",
+       "ru": "У"
+      },
+      {
+       "de": "Baum",
+       "ru": "дерева,"
+      },
+      {
+       "de": "beim",
+       "ru": "у"
+      },
+      {
+       "de": "Bache",
+       "ru": "ручья"
+      },
+      {
+       "de": "des Hügels",
+       "ru": "на холме,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Hängt",
+       "ru": "Висит"
+      },
+      {
+       "de": "der Schild",
+       "ru": "щит"
+      },
+      {
+       "de": "des muthigen",
+       "ru": "отважного"
+      },
+      {
+       "de": "Gormurs",
+       "ru": "Гормура,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        1
+       ],
+       "text": "hängen здесь непереходное — «висеть». Schild в эту пору только боевой щит, а не вывеска или табличка."
+      },
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "muthigen — написание эпохи, современное mutigen. Гормур — воин, сражённый Оскаром; его щит остался на дереве как трофей."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Gormurs",
+       "ru": "Гормура,"
+      },
+      {
+       "de": "den",
+       "ru": "которого"
+      },
+      {
+       "de": "ich",
+       "ru": "я"
+      },
+      {
+       "de": "erschlug",
+       "ru": "сразил"
+      },
+      {
+       "de": "im",
+       "ru": "в"
+      },
+      {
+       "de": "Kampfe",
+       "ru": "бою."
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "vergebens",
+       "ru": "напрасно"
+      },
+      {
+       "de": "habe... verzehrt",
+       "ru": "истратил"
+      },
+      {
+       "de": "den Tag",
+       "ru": "день"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "verzehren — «поглощать без остатка»; о времени это «извести, потратить впустую»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "nicht",
+       "ru": "не"
+      },
+      {
+       "de": "konnte",
+       "ru": "смог"
+      },
+      {
+       "de": "ihn",
+       "ru": "его"
+      },
+      {
+       "de": "durchdringen",
+       "ru": "пронзить"
+      },
+      {
+       "de": "mit meinem",
+       "ru": "своей"
+      },
+      {
+       "de": "Pfeil",
+       "ru": "стрелой."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -196,6 +3726,152 @@
     "Meine Rechte lernte den Bogen zu spannen,",
     "In meiner Kunst frohlockte mein Vater,",
     "In meiner Kunst frohlockte mein Vater."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "ru": "Позволь",
+       "de": "Lass"
+      },
+      {
+       "ru": "мне,",
+       "de": "mich"
+      },
+      {
+       "ru": "сын",
+       "de": "Erzeugter"
+      },
+      {
+       "ru": "Карута,",
+       "de": "von Caruth"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "versuchen",
+       "ru": "Испытать"
+      },
+      {
+       "de": "Die Kunst",
+       "ru": "искусство"
+      },
+      {
+       "de": "der Tochter",
+       "ru": "дочери"
+      },
+      {
+       "de": "von Dargo",
+       "ru": "Дарго."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Инфинитив versuchen немецкая фраза держит до конца — рамка при lass из предыдущей строки; по-русски он выходит вперёд."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Meine",
+       "ru": "Моя"
+      },
+      {
+       "de": "Rechte",
+       "ru": "десница"
+      },
+      {
+       "de": "lernte",
+       "ru": "научилась"
+      },
+      {
+       "de": "zu spannen",
+       "ru": "натягивать"
+      },
+      {
+       "de": "den Bogen",
+       "ru": "лук,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "den Bogen spannen — устойчивое «натягивать лук»: тетиву перед выстрелом подтягивают к себе."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In meiner",
+       "ru": "Моему"
+      },
+      {
+       "de": "Kunst",
+       "ru": "искусству"
+      },
+      {
+       "de": "frohlockte",
+       "ru": "радовался"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Vater",
+       "ru": "отец,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "frohlocken — «ликовать, торжествовать»; предлог in называет, чем именно. По-русски отец «радовался» умению дочери: ликовать чем-то нельзя."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "In meiner",
+       "ru": "Моему"
+      },
+      {
+       "de": "Kunst",
+       "ru": "искусству"
+      },
+      {
+       "de": "frohlockte",
+       "ru": "радовался"
+      },
+      {
+       "de": "mein",
+       "ru": "мой"
+      },
+      {
+       "de": "Vater",
+       "ru": "отец."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -203,6 +3879,93 @@
     "Sie ging, er stand hinter dem Schild;",
     "Es zischte ihr Pfeil,",
     "Er durchdrang seine Brust."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "ging",
+       "ru": "пошла,"
+      },
+      {
+       "de": "er",
+       "ru": "он"
+      },
+      {
+       "de": "stand",
+       "ru": "стоял"
+      },
+      {
+       "de": "hinter",
+       "ru": "за"
+      },
+      {
+       "de": "dem Schild",
+       "ru": "щитом;"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Es zischte",
+       "ru": "Просвистела"
+      },
+      {
+       "de": "ihr",
+       "ru": "её"
+      },
+      {
+       "de": "Pfeil",
+       "ru": "стрела,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "es здесь пустое подлежащее, которым немецкий начинает фразу, чтобы отодвинуть настоящее подлежащее назад; по-русски оно не передаётся. Zischen — резкий свист быстрого движения."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Er",
+       "ru": "Она"
+      },
+      {
+       "de": "durchdrang",
+       "ru": "пронзила"
+      },
+      {
+       "de": "seine",
+       "ru": "его"
+      },
+      {
+       "de": "Brust",
+       "ru": "грудь."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Er — это стрела: der Pfeil мужского рода, русская «стрела» женского."
+      }
+     ]
+    }
    ]
   },
   {
@@ -211,12 +3974,190 @@
     "Auch Heil diesem eibenen Bogen,",
     "Wer, als Dargos Tochter, war werth,",
     "Dirans Erzeugten zu tödten!"
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Heil",
+       "ru": "Слава"
+      },
+      {
+       "de": "der schneeweissen",
+       "ru": "белоснежной"
+      },
+      {
+       "de": "Rechten",
+       "ru": "деснице,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        0,
+        0
+       ],
+       "text": "Heil как возглас значит «благо тебе, слава»: пожелание спасения и удачи. Слово скомпрометировано приветствием XX века, но в 1800-х оно чистое."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Auch",
+       "ru": "Также"
+      },
+      {
+       "de": "Heil",
+       "ru": "слава"
+      },
+      {
+       "de": "diesem",
+       "ru": "этому"
+      },
+      {
+       "de": "eibenen",
+       "ru": "тисовому"
+      },
+      {
+       "de": "Bogen",
+       "ru": "луку,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "eiben — «тисовый»: тис шёл на боевые луки, и словарь Гриммов приводит рядом строку о стрелах, пущенных с тисовых луков."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Wer",
+       "ru": "Кто,"
+      },
+      {
+       "de": "als",
+       "ru": "кроме"
+      },
+      {
+       "de": "Tochter",
+       "ru": "дочери"
+      },
+      {
+       "de": "Dargos",
+       "ru": "Дарго,"
+      },
+      {
+       "de": "war",
+       "ru": "был"
+      },
+      {
+       "de": "werth",
+       "ru": "достоин"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "werth — написание эпохи, современное wert: «достойный, стоящий чего-либо»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "zu tödten",
+       "ru": "Убить"
+      },
+      {
+       "de": "Erzeugten",
+       "ru": "сына"
+      },
+      {
+       "de": "Dirans",
+       "ru": "Дирана!"
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Leg mich ins Grab, meine Schönste,",
     "Leg mich an Dermids Seite."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Leg",
+       "ru": "Положи"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "ins",
+       "ru": "в"
+      },
+      {
+       "de": "Grab",
+       "ru": "могилу,"
+      },
+      {
+       "de": "meine",
+       "ru": "моя"
+      },
+      {
+       "de": "Schönste",
+       "ru": "прекраснейшая,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Leg",
+       "ru": "Положи"
+      },
+      {
+       "de": "mich",
+       "ru": "меня"
+      },
+      {
+       "de": "an... Seite",
+       "ru": "рядом с"
+      },
+      {
+       "de": "Dermids",
+       "ru": "Дермидом."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "an jemandes Seite — «подле кого-то, бок о бок»; имя стоит внутри этого оборота, между предлогом и словом Seite."
+      }
+     ]
+    }
    ]
   },
   {
@@ -225,12 +4166,206 @@
     "Meine Seel' ist die Seele des mächtigen Dargo.",
     "Ich kann dem Tode mit Freude begegnen,",
     "Ich kann meine Traurigkeit enden."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Oscar",
+       "ru": "Оскар, —"
+      },
+      {
+       "de": "versetzte",
+       "ru": "ответила"
+      },
+      {
+       "de": "das Mädchen",
+       "ru": "девушка:"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "versetzen в старой повествовательной прозе значит «ответить, возразить». Подлежащее здесь девушка, а «Оскар» — обращение к умирающему."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Meine",
+       "ru": "Моя"
+      },
+      {
+       "de": "Seel'",
+       "ru": "душа"
+      },
+      {
+       "de": "ist",
+       "ru": "—"
+      },
+      {
+       "de": "die Seele",
+       "ru": "душа"
+      },
+      {
+       "de": "des mächtigen",
+       "ru": "могучего"
+      },
+      {
+       "de": "Dargo",
+       "ru": "Дарго."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        1,
+        2
+       ],
+       "text": "Seel' — стяжённое Seele. Связка ist по-русски не выговаривается, на её месте тире."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "de": "mit",
+       "ru": "с"
+      },
+      {
+       "de": "Freude",
+       "ru": "радостью"
+      },
+      {
+       "de": "begegnen",
+       "ru": "встретить"
+      },
+      {
+       "de": "dem Tode",
+       "ru": "смерть,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        4,
+        5
+       ],
+       "text": "begegnen требует дательного падежа и означает встречу лицом к лицу — так выходят навстречу буре. Tode — старая форма дательного с -e."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Ich",
+       "ru": "Я"
+      },
+      {
+       "de": "kann",
+       "ru": "могу"
+      },
+      {
+       "de": "enden",
+       "ru": "положить конец"
+      },
+      {
+       "de": "meine",
+       "ru": "своей"
+      },
+      {
+       "de": "Traurigkeit",
+       "ru": "печали."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
    "lines_de": [
     "Sie durchstiess ihren weissen Busen mit Stahl,",
     "Sie fiel, bebte und starb."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "durchstiess",
+       "ru": "пронзила"
+      },
+      {
+       "de": "ihren",
+       "ru": "свою"
+      },
+      {
+       "de": "weissen",
+       "ru": "белую"
+      },
+      {
+       "de": "Busen",
+       "ru": "грудь"
+      },
+      {
+       "de": "mit Stahl",
+       "ru": "сталью,"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        5,
+        5
+       ],
+       "text": "Опять Stahl вместо названия оружия — та же сталь, которой Оскар велел взмахнуть Дермиду."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Sie",
+       "ru": "Она"
+      },
+      {
+       "de": "fiel",
+       "ru": "пала,"
+      },
+      {
+       "de": "bebte",
+       "ru": "содрогнулась"
+      },
+      {
+       "de": "und",
+       "ru": "и"
+      },
+      {
+       "de": "starb",
+       "ru": "умерла."
+      }
+     ],
+     "annotations": []
+    }
    ]
   },
   {
@@ -241,8 +4376,238 @@
     "An ihren grünenden Gräbern,",
     "Wenn der Mittag seine glühenden Flammen ausstreut",
     "Und Schweigen alle die Hügel beherrscht."
+   ],
+   "lines_ru": [
+    {
+     "segments": [
+      {
+       "de": "Ihre",
+       "ru": "Их"
+      },
+      {
+       "de": "Gräber",
+       "ru": "могилы"
+      },
+      {
+       "de": "liegen",
+       "ru": "лежат"
+      },
+      {
+       "de": "beim",
+       "ru": "у"
+      },
+      {
+       "de": "Bache",
+       "ru": "ручья"
+      },
+      {
+       "de": "des Hügels",
+       "ru": "на холме,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Ihr",
+       "ru": "Их"
+      },
+      {
+       "de": "Grabmal",
+       "ru": "надгробие"
+      },
+      {
+       "de": "bedeckt",
+       "ru": "покрывает"
+      },
+      {
+       "de": "der ungleiche",
+       "ru": "неровная"
+      },
+      {
+       "de": "Schatten",
+       "ru": "тень"
+      },
+      {
+       "de": "einer Birke",
+       "ru": "берёзы."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Подлежащее здесь «тень», а «надгробие» — дополнение, вынесенное вперёд; падежи в немецком это показывают, порядок слов нет. Ungleich — «неровный»: тень от резной листвы ложится пятнами."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Oft",
+       "ru": "Часто"
+      },
+      {
+       "de": "grasen",
+       "ru": "пасутся"
+      },
+      {
+       "de": "die stät'gen",
+       "ru": "неизменные"
+      },
+      {
+       "de": "Söhne",
+       "ru": "сыны"
+      },
+      {
+       "de": "des Bergs",
+       "ru": "горы"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        4
+       ],
+       "text": "stät'gen — стяжённая форма, надёжной словарной опоры у неё нет; читается как stetigen «постоянные, неизменные». «Сыны горы», которые здесь пасутся, — её звериные обитатели."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "An",
+       "ru": "У"
+      },
+      {
+       "de": "ihren",
+       "ru": "их"
+      },
+      {
+       "de": "grünenden",
+       "ru": "зеленеющих"
+      },
+      {
+       "de": "Gräbern",
+       "ru": "могил,"
+      }
+     ],
+     "annotations": []
+    },
+    {
+     "segments": [
+      {
+       "de": "Wenn",
+       "ru": "Когда"
+      },
+      {
+       "de": "der Mittag",
+       "ru": "полдень"
+      },
+      {
+       "de": "seine",
+       "ru": "своё"
+      },
+      {
+       "de": "glühenden",
+       "ru": "раскалённое"
+      },
+      {
+       "de": "Flammen",
+       "ru": "пламя"
+      },
+      {
+       "de": "ausstreut",
+       "ru": "изливает"
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        3,
+        4
+       ],
+       "text": "Flammen — множественное число: языки пламени. Ausstreuen — «рассыпать, разбрасывать»; о зное по-русски говорят «изливать»."
+      }
+     ]
+    },
+    {
+     "segments": [
+      {
+       "de": "Und",
+       "ru": "И"
+      },
+      {
+       "de": "Schweigen",
+       "ru": "молчание"
+      },
+      {
+       "de": "alle die Hügel",
+       "ru": "над всеми холмами"
+      },
+      {
+       "de": "beherrscht",
+       "ru": "царит."
+      }
+     ],
+     "annotations": [
+      {
+       "type": "lang",
+       "segment_range": [
+        2,
+        3
+       ],
+       "text": "beherrschen управляет винительным падежом — «владеть чем-либо»; русскому «царить» нужен предлог «над», поэтому он вошёл в объединённый сегмент."
+      }
+     ]
+    }
    ]
   }
  ],
- "poet_de": "James Macpherson, Edmund von Harold"
+ "about": [
+  {
+   "title": "Февраль 1816 года",
+   "text": "Баллада написана в феврале 1816 года; Шуберту девятнадцать лет. Она из тех девяти оссиановских текстов, которые он положил на музыку в 1815–1817 годах, — почти всегда мрачных баллад о битвах, призраках и гибели влюблённых."
+  },
+  {
+   "title": "Публикация и автограф",
+   "text": "Автограф баллады утрачен. Впервые её напечатали посмертно, в 1830 году, у венского издателя Диабелли — пятым томом Nachlass («наследие»), серии неизданных сочинений Шуберта.\nВсе печатные издания выходили с текстовыми правками Леопольда фон Зоннлейтнера, сделанными для этого первого издания; восходят ли они к самому Шуберту, неизвестно. Новое собрание сочинений печатает оба варианта текста рядом и даёт имя героя в написании Oskar.\nОссиановским песням Диабелли отдал первые пять томов Nachlass. Грэм Джонсон, пианист и автор аннотаций к антологии Hyperion Schubert Edition, объясняет это просто: их считали и хорошей музыкой Шуберта, и товаром, который будет продаваться. Рукописи Диабелли купил у брата композитора Фердинанда вскоре после смерти Шуберта и издавал около двадцати лет — свыше пятидесяти тонких томов с 1830 по 1851 год, — прежде чем передать оставшееся другому издателю."
+  },
+  {
+   "title": "Джеймс Макферсон и Эдмунд фон Гарольд",
+   "text": "Автор этого текста — не легендарный слепой бард Оссиан, сын кельтского вождя Фингала, а шотландец Джеймс Макферсон: в начале 1760-х он выпустил под именем Оссиана несколько «переводов с гэльского», которые сочинил сам, опираясь на обрывки горских преданий. Подделку раскрыли почти сразу — от Макферсона публично требовали показать оригинальные рукописи, — но славе Оссиана это не помешало. Поэмы о туманной Каледонии, павших героях и плачущих девах на скалах Европа читала почти полвека; они отозвались у Гердера, у Гёте, у Наполеона и в трёх с лишним сотнях музыкальных сочинений.\nДо Шуберта эти тексты дошли по-немецки — в переводе Эдмунда фон Гарольда, ирландца на пфальцско-баварской военной службе. В 1775 году он выпустил в Дюссельдорфе свои «Песни Оссиана»; второе, расширенное издание (Мангейм, 1782) и легло в основу шубертовских песен."
+  },
+  {
+   "title": "Стихотворение",
+   "text": "Английский оригинал впервые напечатан в 1762 году в составе поэмы «Темора» — и напечатан там в сноске. Макферсон оговорился, что сомневается в подлинности этого отрывка, но не решился его отбросить: в нём «многое от его манеры и сжатого оборота речи». Джонсон читает эту осторожность как признание: даже автор чувствовал, что слегка перегнул палку, сочиняя сцену кельтского рыцарства.\nНемецкий текст Гарольда написан в 1773–1774 годах и напечатан в 1775-м. Непосредственный источник Шуберта установил Питер Растль, автор примечаний к текстам песен на schubertsong.uk: второе издание «Die Gedichte Ossians eines alten celtischen Helden und Barden» («Песни Оссиана, древнего кельтского героя и барда»), Мангейм, 1782, страницы 287–293. У Гарольда герой зовётся Oscar; написание Oskar, стоящее в заглавии песни, закрепилось в редакции Зоннлейтнера 1830 года."
+  },
+  {
+   "title": "Музыка",
+   "text": "Фортепианное вступление коротко и взволнованно: две последовательные фразы и такт, оседающий на уменьшённом аккорде. Разговор к этому времени уже идёт, и Джонсон предлагает слушателю вообразить недостающее начало — вопрос, заданный отцу Оскара о смерти сына. Голос вступает сразу с ответом.\nДальше баллада складывается из сменяющих друг друга разделов. В книге ничего похожего не было: «поэма» печаталась сплошной прозой, и всё членение принадлежит композитору.\nСюжет этой баллады Джонсон считает лучшим среди оссиановских песен: понятная и страстная история о двух мужчинах, которые любили одну девушку, но ещё больше любили честь и друг друга. В остальном, по его мнению, песня уступает другим песням этого ряда: в ней нет завораживающей атмосферы «Die Nacht» («Ночь»), мелодического размаха «Kolmas Klage» («Плач Кольмы»), призрачности «Lodas Gespenst» («Призрак Лоды») и симфонической цельности «Cronnan» («Кроннан»)."
+  },
+  {
+   "title": "Дружба превыше любви",
+   "text": "У этой пары длинная родня. Джонсон вспоминает Давида и Ионафана, Ниса и Эвриала из «Энеиды», погибших в бою вместе, и Священный отряд Фив; ему кажется, что баллада стоит ближе к мифологическим песням Иоганна Майргофера, а дружба возведена в ней почти в святыню — как в шиллеровской «Die Bürgschaft» («Порука»).\nВ спорах о сексуальности Шуберта эта песня всплывает регулярно, и Джонсон осторожен: прямых заявлений в тексте нет, да и увлечён композитор в это время дочерью булочника Терезой Гроб. Но страстную, самоотверженную дружбу «превыше любви женщин» Шуберт здесь понимает. Мужская доблесть двух героев даётся его музыке так же легко, как беззащитность Оскара — человека, раздавленного виной и осиротевшего без друга."
+  },
+  {
+   "title": "Забытые баллады",
+   "text": "Слушателей эти песни, похоже, потеряли. Большинство оссиановских баллад дремлет в конце четвёртого тома издания Петерса и до концертных залов почти не доходит; знакомый Джонсону германист и музыковед недавно написал ему, как сильно не любит поддельного Оссиана.\nСам Джонсон допускает, что Вагнер знал шубертовские баллады лучше, чем принято думать: Nachlass вышел как раз в те годы, когда Вагнер, студент в Лейпциге, нащупывал собственный язык, а издание получило шумную прессу по всей Германии. О перекличках этих баллад с вагнеровской музыкальной драмой писал и Альфред Эйнштейн в своей биографии Шуберта."
+  },
+  {
+   "title": "Судьба и наследие",
+   "text": "Джонсон видит в оссиановских песнях ученичество, без которого не было бы позднего Шуберта: мрачные, атмосферные краски этих баллад композитор потом пускал в дело снова и снова — и вряд ли без такой выучки ему далась бы зимняя безотрадность «Winterreise» («Зимний путь»)."
+  },
+  {
+   "title": "Как это поют",
+   "text": "Записей у баллады мало. Главная — Кристоф Прегардьен (тенор) и Грэм Джонсон (фортепиано): сессии прошли в сентябре 1994 года в часовне Rosslyn Hill Unitarian Chapel, диск вышел в мае 1995-го двадцать третьим томом антологии Hyperion Schubert Edition — «Songs of 1816» («Песни 1816 года»). Джонсон здесь и пианист, и автор буклета.\nВторая запись — Дитрих Хеншель (бас) и Ульрих Айзенлор (фортепиано), 2003 год, четырнадцатый том шубертовской песенной серии Naxos «European Poets, Vol. 2» («Европейские поэты, том 2»)."
+  }
+ ],
+ "source": "OpenScore Lieder Corpus (CC0)"
 }
