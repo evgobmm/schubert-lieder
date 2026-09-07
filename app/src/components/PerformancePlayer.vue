@@ -1,6 +1,8 @@
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onBeforeUnmount } from 'vue'
 import data from '../data/performances.json'
+import { playback, registerSeek, unregisterSeek } from '../utils/playback.js'
+import { syncedVideoIds } from '../utils/timings.js'
 
 const props = defineProps({
   songD: { type: String, required: true }
@@ -19,11 +21,222 @@ const videoId = computed(() => {
   return v ? v.videoId : null
 })
 
-const embedSrc = computed(() =>
+// Записи этой песни с пословными таймингами — у них подсвечиваются слова (docs/rules/word-sync.md)
+const synced = computed(() => new Set(syncedVideoIds(props.songD)))
+const syncedVideo = computed(() => videos.value.find(v => synced.value.has(v.videoId)) || null)
+const currentSynced = computed(() => !!videoId.value && synced.value.has(videoId.value))
+
+function selectSynced() {
+  const i = videos.value.findIndex(v => synced.value.has(v.videoId))
+  if (i >= 0) selectedIndex.value = i
+}
+
+// ---- Плеер через YouTube IFrame Player API ------------------------------------
+// API нужен, чтобы читать позицию записи (подсветка слова) и перематывать её по клику
+// на слово. Если API не загрузился (блокировщик, нет сети) — обычный iframe без подсветки.
+
+const API_SRC = 'https://www.youtube.com/iframe_api'
+const HOST = 'https://www.youtube-nocookie.com'
+let apiPromise = null
+
+function loadApi() {
+  if (window.YT && window.YT.Player) return Promise.resolve(window.YT)
+  if (apiPromise) return apiPromise
+  apiPromise = new Promise((resolve, reject) => {
+    const fail = (err) => { apiPromise = null; reject(err) }
+    const timer = setTimeout(() => fail(new Error('YouTube API: timeout')), 10000)
+    const prev = window.onYouTubeIframeAPIReady
+    window.onYouTubeIframeAPIReady = () => {
+      clearTimeout(timer)
+      if (typeof prev === 'function') prev()
+      resolve(window.YT)
+    }
+    const script = document.createElement('script')
+    script.src = API_SRC
+    script.async = true
+    script.onerror = () => { clearTimeout(timer); fail(new Error('YouTube API: load error')) }
+    document.head.appendChild(script)
+  })
+  return apiPromise
+}
+
+const frameRef = ref(null)
+const apiFailed = ref(false)
+let player = null          // экземпляр YT.Player
+let playerReady = false
+let loadedVideoId = null   // запись, загруженная в плеер
+let mounting = false
+
+const fallbackSrc = computed(() =>
   videoId.value
-    ? `https://www.youtube-nocookie.com/embed/${videoId.value}?rel=0&modestbranding=1&autoplay=1`
+    ? `${HOST}/embed/${videoId.value}?rel=0&modestbranding=1&autoplay=1&playsinline=1`
     : ''
 )
+
+// Опрос позиции. YouTube сообщает время редко (несколько раз в секунду), поэтому между
+// сообщениями позиция интерполируется по часам страницы с учётом скорости воспроизведения.
+let rafId = 0
+let lastRaw = -1
+let lastRawAt = 0
+let lastEstimate = 0
+let rate = 1
+
+function readTime() {
+  try { return player.getCurrentTime() || 0 } catch { return Math.max(lastRaw, 0) }
+}
+
+function readRate() {
+  try { rate = player.getPlaybackRate() || 1 } catch { rate = 1 }
+}
+
+function stopPolling() {
+  if (rafId) cancelAnimationFrame(rafId)
+  rafId = 0
+}
+
+function tick() {
+  rafId = 0
+  if (!player || playback.status !== 'playing') return
+  const now = performance.now()
+  const raw = readTime()
+  if (raw !== lastRaw) {
+    lastRaw = raw
+    lastRawAt = now
+  }
+  let est = lastRaw + ((now - lastRawAt) / 1000) * rate
+  // Мелкую поправку назад (запоздавшее сообщение плеера) не откатываем — подсветка
+  // не дёргается; большой скачок — перемотка, принимаем как есть
+  if (est < lastEstimate && lastEstimate - est < 0.5) est = lastEstimate
+  lastEstimate = est
+  playback.time = est
+  rafId = requestAnimationFrame(tick)
+}
+
+function startPolling() {
+  stopPolling()
+  lastRaw = -1
+  lastEstimate = readTime()
+  rafId = requestAnimationFrame(tick)
+}
+
+function onStateChange(e) {
+  const S = window.YT.PlayerState
+  if (e.data === S.PLAYING) {
+    readRate()
+    playback.status = 'playing'
+    startPolling()
+  } else if (e.data === S.PAUSED) {
+    stopPolling()
+    playback.time = readTime()
+    playback.status = 'paused'
+  } else if (e.data === S.ENDED) {
+    stopPolling()
+    playback.status = 'ended'
+  } else if (e.data === S.BUFFERING) {
+    // Буферизация посреди записи: позиция стоит, статус не меняем (подсветка остаётся)
+    stopPolling()
+    playback.time = readTime()
+  } else {
+    // UNSTARTED / CUED — загружена новая запись
+    stopPolling()
+    playback.time = 0
+    playback.status = 'idle'
+  }
+}
+
+function onReady() {
+  playerReady = true
+  readRate()
+  // Пока плеер создавался, могли выбрать другую запись
+  if (videoId.value && videoId.value !== loadedVideoId) loadVideo(videoId.value)
+}
+
+function loadVideo(id) {
+  loadedVideoId = id
+  playback.videoId = id
+  playback.time = 0
+  playback.status = 'idle'
+  if (player && playerReady) {
+    try { player.loadVideoById(id) } catch { /* плеер уже разрушен */ }
+  }
+}
+
+function seek(t) {
+  if (!player || !playerReady) return
+  try {
+    player.seekTo(t, true)
+    player.playVideo()
+  } catch { /* плеер уже разрушен */ }
+}
+
+async function mountPlayer() {
+  if (player || mounting || apiFailed.value) return
+  if (!frameRef.value || !videoId.value) return
+  mounting = true
+  let YT
+  try {
+    YT = await loadApi()
+  } catch {
+    mounting = false
+    apiFailed.value = true
+    return
+  }
+  mounting = false
+  // За время загрузки API панель могли закрыть или сменить песню
+  if (player || !expanded.value || !frameRef.value || !videoId.value) return
+  const mount = document.createElement('div')
+  frameRef.value.appendChild(mount)
+  loadedVideoId = videoId.value
+  playback.videoId = loadedVideoId
+  playback.time = 0
+  playback.status = 'idle'
+  player = new YT.Player(mount, {
+    host: HOST,
+    videoId: loadedVideoId,
+    playerVars: {
+      rel: 0,
+      modestbranding: 1,
+      autoplay: 1,
+      playsinline: 1,
+      origin: window.location.origin
+    },
+    events: {
+      onReady,
+      onStateChange,
+      onPlaybackRateChange: readRate
+    }
+  })
+  registerSeek(seek)
+}
+
+function destroyPlayer() {
+  stopPolling()
+  unregisterSeek(seek)
+  if (player) {
+    try { player.destroy() } catch { /* iframe уже удалён */ }
+  }
+  player = null
+  playerReady = false
+  loadedVideoId = null
+  if (frameRef.value) frameRef.value.innerHTML = ''
+  playback.videoId = null
+  playback.time = 0
+  playback.status = 'idle'
+}
+
+// Панель закрыли или записи не стало — разрушить плеер до того, как Vue уберёт его DOM
+watch([expanded, videoId], ([exp, id]) => {
+  if (!exp || !id) destroyPlayer()
+})
+
+// Панель открыта: создать плеер (когда контейнер уже в DOM) или переключить запись
+watch([expanded, videoId], ([exp, id]) => {
+  if (!exp || !id) return
+  if (!player) mountPlayer()
+  else if (id !== loadedVideoId) loadVideo(id)
+}, { flush: 'post' })
+
+onBeforeUnmount(destroyPlayer)
 </script>
 
 <template>
@@ -54,19 +267,37 @@ const embedSrc = computed(() =>
           class="perf-name"
           :class="{ active: i === selectedIndex }"
           @click="selectedIndex = i"
-        ><span class="perf-pname">{{ v.name }}</span><span class="perf-year">{{ v.year }}</span></button>
+        ><span class="perf-pname">{{ v.name }}</span><span class="perf-meta"><span
+            v-if="synced.has(v.videoId)"
+            class="perf-sync-mark"
+            title="Слова подсвечиваются по ходу записи"
+            aria-label="Подсветка слов"
+          ><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true">
+              <line x1="4" y1="5.5" x2="20" y2="5.5" stroke-width="2" opacity="0.45" />
+              <line x1="4" y1="12" x2="15" y2="12" stroke-width="3.6" />
+              <line x1="4" y1="18.5" x2="18" y2="18.5" stroke-width="2" opacity="0.45" />
+            </svg></span><span class="perf-year">{{ v.year }}</span></span></button>
       </div>
 
-      <div v-if="videoId" class="perf-frame">
-        <iframe
-          :key="videoId"
-          :src="embedSrc"
-          title="Исполнение"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+      <template v-if="videoId">
+        <div v-show="!apiFailed" ref="frameRef" class="perf-frame"></div>
+        <div v-if="apiFailed" class="perf-frame">
+          <iframe
+            :key="videoId"
+            :src="fallbackSrc"
+            title="Исполнение"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p v-if="currentSynced && !apiFailed" class="perf-hint">
+          Слова подсвечиваются по ходу записи. Нажмите на слово в тексте, чтобы перейти к нему.
+        </p>
+        <p v-else-if="syncedVideo && !apiFailed" class="perf-hint">
+          Подсветка слов есть в записи <button class="perf-hint-link" @click="selectSynced">{{ syncedVideo.name }}</button>.
+        </p>
+      </template>
       <p v-else class="perf-none">Для этой песни записи пока не подобраны.</p>
     </div>
   </div>
@@ -159,6 +390,22 @@ const embedSrc = computed(() =>
   transition: all 0.15s;
 }
 
+.perf-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+}
+
+.perf-sync-mark {
+  display: inline-flex;
+  color: var(--accent);
+}
+
+.perf-name.active .perf-sync-mark {
+  color: #fff;
+}
+
 .perf-year {
   flex-shrink: 0;
   opacity: 0.6;
@@ -183,11 +430,27 @@ const embedSrc = computed(() =>
   background: #000;
 }
 
-.perf-frame iframe {
+.perf-frame :deep(iframe) {
   width: 100%;
   height: 100%;
   border: 0;
   display: block;
+}
+
+.perf-hint {
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: var(--text-secondary);
+}
+
+.perf-hint-link {
+  font: inherit;
+  color: var(--accent);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .perf-none {

@@ -4,8 +4,12 @@ import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 import FootnoteMark from './FootnoteMark.vue'
 import AboutPanel from './AboutPanel.vue'
+import LineDe from './LineDe.vue'
 import { renderText } from '../utils/renderText.js'
 import { lastEnd, sliceRanges } from '../utils/ranges.js'
+import { playback, seekTo } from '../utils/playback.js'
+import { getTiming, buildWordIndex, findWordAt, findWordStart } from '../utils/timings.js'
+import { mapWordsToSegments } from '../utils/lineTokens.js'
 
 const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
@@ -401,6 +405,83 @@ function getLineDeParts(stanza, lineIndex) {
     after: lineDe.substring(idx + mainWord.length)
   }
 }
+
+// ---- Подсветка пропеваемого слова под запись в плеере (docs/rules/word-sync.md) ----
+// Тайминги есть только у записей с файлом в data/timings; плеер сообщает загруженную
+// запись и позицию через общее состояние playback.
+const timing = computed(() => song.value ? getTiming(song.value.d, playback.videoId) : null)
+const wordIndex = computed(() => timing.value ? buildWordIndex(timing.value) : null)
+const syncActive = computed(() => !!wordIndex.value)
+
+const activeWord = computed(() => {
+  if (!wordIndex.value) return null
+  if (playback.status !== 'playing' && playback.status !== 'paused') return null
+  return findWordAt(wordIndex.value, playback.time)
+})
+
+function activeWordIn(si, li) {
+  const w = activeWord.value
+  return w && w.s === si && w.l === li ? w.k : -1
+}
+
+// Слово немецкой строки → сегмент подстрочника (подсветка и в правой колонке)
+const segMaps = computed(() => {
+  if (!song.value || song.value.text_only) return null
+  return song.value.stanzas.map(stanza =>
+    stanza.lines_de.map((line, li) => {
+      const lineRu = stanza.lines_ru && stanza.lines_ru[li]
+      return mapWordsToSegments(line, lineRu ? lineRu.segments : null)
+    })
+  )
+})
+
+function sungSegment(si, li) {
+  const k = activeWordIn(si, li)
+  if (k < 0 || !segMaps.value) return -1
+  const map = segMaps.value[si] && segMaps.value[si][li]
+  return map && k < map.length ? map[k] : -1
+}
+
+// Клик по слову — перемотка записи на его начало (с небольшим упреждением, чтобы слышать атаку)
+const SEEK_LEAD = 0.15
+
+function onWordClick(si, li, k) {
+  if (!wordIndex.value) return
+  const t = findWordStart(wordIndex.value, si, li, k, playback.time)
+  if (t == null) return
+  seekTo(t - SEEK_LEAD)
+}
+
+// Прокрутка вслед за подсветкой — только пока читатель следит за ней: если предыдущая
+// подсвеченная строка была на экране, а новая ушла за край, подтягиваем новую; если
+// читатель ушёл в другое место страницы (строка не видна) — не дёргаем.
+const activeLineKey = computed(() => {
+  const w = activeWord.value
+  return w && w.s >= 0 ? `${w.s}-${w.l}` : null
+})
+let lastLineKey = null
+
+function lineEl(key) {
+  return articleRef.value ? articleRef.value.querySelector(`[data-line="${key}"]`) : null
+}
+
+watch(activeLineKey, (key) => {
+  if (!key) return
+  const prevKey = lastLineKey
+  lastLineKey = key
+  const el = lineEl(key)
+  if (!el) return
+  const vh = window.innerHeight
+  const r = el.getBoundingClientRect()
+  if (r.top >= 0 && r.bottom <= vh) return
+  const prev = prevKey ? lineEl(prevKey) : null
+  if (!prev) return
+  const pr = prev.getBoundingClientRect()
+  if (pr.bottom <= 0 || pr.top >= vh) return
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+})
+
+watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 </script>
 
 <template>
@@ -446,7 +527,15 @@ function getLineDeParts(stanza, lineIndex) {
         :key="si"
         class="stanza"
       >
-        <p v-for="(line, li) in stanza.lines_de" :key="li" class="line-de">{{ line }}</p>
+        <LineDe
+          v-for="(line, li) in stanza.lines_de"
+          :key="li"
+          :text="line"
+          :data-line="`${si}-${li}`"
+          :active-word="activeWordIn(si, li)"
+          :clickable="syncActive"
+          @word-click="onWordClick(si, li, $event)"
+        />
       </div>
     </div>
 
@@ -461,16 +550,17 @@ function getLineDeParts(stanza, lineIndex) {
           :key="li"
           class="line-pair"
           :class="{ 'with-variant': lineRu.segments.some(s => s.variant_ru || s.variant_de) }"
+          :data-line="`${si}-${li}`"
         >
           <div class="col-de">
-            <p v-if="stanza.lines_de[li]" class="line-de">
-              <template v-if="getLineDeParts(stanza, li)">
-                {{ getLineDeParts(stanza, li).before }}<span class="de-variant-stack"><span class="de-variant-word">{{ getLineDeParts(stanza, li).variant }}</span><span>{{ getLineDeParts(stanza, li).main }}</span></span>{{ getLineDeParts(stanza, li).after }}
-              </template>
-              <template v-else>
-                {{ stanza.lines_de[li] }}
-              </template>
-            </p>
+            <LineDe
+              v-if="stanza.lines_de[li]"
+              :text="stanza.lines_de[li]"
+              :variant="getLineDeParts(stanza, li)"
+              :active-word="activeWordIn(si, li)"
+              :clickable="syncActive"
+              @word-click="onWordClick(si, li, $event)"
+            />
           </div>
           <div class="col-ru">
             <InterlinearLine
@@ -479,6 +569,7 @@ function getLineDeParts(stanza, lineIndex) {
               :ann-key-prefix="`${si}-${li}`"
               :inherited-annotations="getInheritedAnnotations(si, li)"
               :hovered-ann-key="highlightKey"
+              :sung-segment="sungSegment(si, li)"
               :show-annotations="showAnnotations"
               :show-lang="showLang"
               :show-meaning="showMeaning"
@@ -613,25 +704,6 @@ function getLineDeParts(stanza, lineIndex) {
 .col-ru {
   flex: 1;
   min-width: 0;
-}
-
-.line-de {
-  font-family: var(--font-de);
-  font-style: italic;
-  color: var(--text);
-  line-height: 1.5;
-}
-
-.de-variant-stack {
-  position: relative;
-  display: inline;
-}
-
-.de-variant-word {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  white-space: nowrap;
 }
 
 .annotations-columns {

@@ -11,7 +11,9 @@ const props = defineProps({
   annKeyPrefix: String,
   showAnnotations: { type: Boolean, default: true },
   showLang: { type: Boolean, default: true },
-  showMeaning: { type: Boolean, default: true }
+  showMeaning: { type: Boolean, default: true },
+  // Индекс сегмента, чьё немецкое слово сейчас поётся (подсветка под запись), или -1
+  sungSegment: { type: Number, default: -1 }
 })
 
 function isVisible(annOrFn) {
@@ -127,6 +129,7 @@ const segmentInfo = computed(() => {
       class="segment"
       :class="{
         annotated: info.annKeys.some(a => isVisible(a)),
+        sung: i === sungSegment,
         'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang' && !a.isVariant && isVisible(a)),
         'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning' && !a.isVariant && isVisible(a)),
         'highlighted-variant':
@@ -197,6 +200,14 @@ const segmentInfo = computed(() => {
   margin: -1px -3px;
   cursor: pointer;
   transition: background 0.15s;
+}
+
+/* Сегмент пропеваемого слова (подсветка под запись); наведение на пояснение — сильнее */
+.segment.sung {
+  background: var(--highlight-sung);
+  border-radius: 2px;
+  padding: 1px 3px;
+  margin: -1px -3px;
 }
 
 .segment.highlighted-lang {
