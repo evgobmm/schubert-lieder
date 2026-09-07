@@ -452,6 +452,30 @@ function onWordClick(si, li, k) {
   seekTo(t - SEEK_LEAD)
 }
 
+// Клик по русскому сегменту: первое из его немецких слов; у сегмента без немецкого
+// соответствия (добавленное по-русски слово) — ближайший сегмент той же строки,
+// сначала вправо, потом влево; в крайнем случае — начало строки.
+function segmentWord(si, li, segIdx) {
+  const map = segMaps.value && segMaps.value[si] && segMaps.value[si][li]
+  if (!map || !map.length) return -1
+  const firstWordOf = j => map.findIndex(sIdx => sIdx === j)
+  const n = song.value.stanzas[si].lines_ru[li].segments.length
+  for (let j = segIdx; j < n; j++) {
+    const k = firstWordOf(j)
+    if (k >= 0) return k
+  }
+  for (let j = segIdx - 1; j >= 0; j--) {
+    const k = firstWordOf(j)
+    if (k >= 0) return k
+  }
+  return 0
+}
+
+function onSegmentClick(si, li, segIdx) {
+  const k = segmentWord(si, li, segIdx)
+  if (k >= 0) onWordClick(si, li, k)
+}
+
 // Прокрутка вслед за подсветкой — только пока читатель следит за ней: если предыдущая
 // подсвеченная строка была на экране, а новая ушла за край, подтягиваем новую; если
 // читатель ушёл в другое место страницы (строка не видна) — не дёргаем.
@@ -570,11 +594,13 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
               :inherited-annotations="getInheritedAnnotations(si, li)"
               :hovered-ann-key="highlightKey"
               :sung-segment="sungSegment(si, li)"
+              :clickable="syncActive"
               :show-annotations="showAnnotations"
               :show-lang="showLang"
               :show-meaning="showMeaning"
               @hover-ann="handleHover"
               @tap-ann="handleTap"
+              @seek-segment="onSegmentClick(si, li, $event)"
             />
           </div>
         </div>

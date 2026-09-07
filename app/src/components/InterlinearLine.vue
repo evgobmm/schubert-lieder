@@ -13,7 +13,9 @@ const props = defineProps({
   showLang: { type: Boolean, default: true },
   showMeaning: { type: Boolean, default: true },
   // Индекс сегмента, чьё немецкое слово сейчас поётся (подсветка под запись), или -1
-  sungSegment: { type: Number, default: -1 }
+  sungSegment: { type: Number, default: -1 },
+  // В плеере запись с таймингами: клик по сегменту перематывает на его слово
+  clickable: { type: Boolean, default: false }
 })
 
 function isVisible(annOrFn) {
@@ -23,7 +25,13 @@ function isVisible(annOrFn) {
   return true
 }
 
-const emit = defineEmits(['hoverAnn', 'tapAnn'])
+const emit = defineEmits(['hoverAnn', 'tapAnn', 'seekSegment'])
+
+// Клик по русскому слову (или глоссе под ним) — переход записи к этому месту.
+// Клик по знаку сноски сюда не доходит (у него @click.stop).
+function onSegClick(i) {
+  if (props.clickable) emit('seekSegment', i)
+}
 
 function resolveAnnKey(info, isVariantHover) {
   if (isVariantHover) {
@@ -129,6 +137,7 @@ const segmentInfo = computed(() => {
       class="segment"
       :class="{
         annotated: info.annKeys.some(a => isVisible(a)),
+        'sync-clickable': clickable,
         sung: i === sungSegment,
         'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang' && !a.isVariant && isVisible(a)),
         'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning' && !a.isVariant && isVisible(a)),
@@ -138,6 +147,7 @@ const segmentInfo = computed(() => {
               && !info.annKeys.some(a => a.isVariant && isVisible(a))
               && info.annKeys.some(a => a.key === hoveredAnnKey && !a.isVariant && isVisible(a)))
       }"
+      @click="onSegClick(i)"
     >
       <span class="ru-row"
         @mouseenter="onHover(info, false, $event)"
@@ -200,6 +210,20 @@ const segmentInfo = computed(() => {
   margin: -1px -3px;
   cursor: pointer;
   transition: background 0.15s;
+}
+
+/* Клик по сегменту перематывает запись; подсветка наведения на пояснение — сильнее */
+.segment.sync-clickable {
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 1px 3px;
+  margin: -1px -3px;
+}
+
+@media (hover: hover) {
+  .segment.sync-clickable:not(.highlighted-lang):not(.highlighted-meaning):hover {
+    background: var(--highlight);
+  }
 }
 
 /* Сегмент пропеваемого слова (подсветка под запись); наведение на пояснение — сильнее */
