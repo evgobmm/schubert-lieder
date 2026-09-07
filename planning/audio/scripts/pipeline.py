@@ -38,6 +38,15 @@ while i<n:
         if (j-i)/100>=0.15: ph.append((i/100,j/100))
         i=j
     else: i+=1
+# БЕЗБУКВЕННЫЕ ФРАЗЫ: участок, где ни один движок не слышит букв (жадный декод пуст), — не вокал (шум, фортепиано); слова туда не назначаются
+def _letters(empt,a,b):
+    d=torch.load(empt); em=d['emission']; blank=d.get('blank',0); ids=em[int(a/0.02):int(b/0.02)].argmax(-1)
+    return int((ids!=blank).sum())
+_ph=[]
+for a,b in ph:
+    if _letters(EM_A,a,b)>=3 or _letters(EM_B,a,b)>=3: _ph.append((a,b))
+    else: print(f"   фраза {a:.1f}–{b:.1f} без букв в декоде — исключена")
+ph=_ph
 def phrase_of(t):
     for k,(a,b) in enumerate(ph):
         if a-0.05<=t<b: return k
@@ -51,6 +60,57 @@ for a,b in zip(A,B):
     if abs(a['start']-b['start'])>0.3 and score(b['start'])>score(a['start'])+0.5: s=b['start']
     coarse.append(s)
 assign=list(np.maximum.accumulate([phrase_of(t) for t in coarse])); cnt=Counter(assign)
+# ПРИВЯЗКА ПО ДЕКОДУ: слова раскладываются по фразам так, чтобы декод каждой фразы (DE, жадный) был ближе всего
+# по расстоянию редактирования к своим словам; монотонное ДП по фразам. Откат к грубой привязке, если декод нечитаем.
+try:
+    from rapidfuzz.distance import Levenshtein as _Lev
+    _d=torch.load(EM_B); _em=_d['emission']; _lab=list(_d['labels'])[:_em.shape[1]]; _bl=_d.get('blank',0); _dic={c:i for i,c in enumerate(_lab)}
+    _FB={'ä':'a','ö':'o','ü':'u','ß':'ss'}
+    def _normw(w):
+        w=w.lower(); o=''
+        for c in w:
+            if c in _dic and c!='|': o+=c
+            elif c in _FB: o+=''.join(ch for ch in _FB[c] if ch in _dic)
+        return ''.join(ch for ch in o if ch.isalpha())
+    def _dec(a,b):
+        ids=_em[int(a/0.02):int(b/0.02)].argmax(-1).tolist(); o='';prev=None
+        for k in ids:
+            if k!=prev and k!=_bl and len(_lab[k])==1 and _lab[k].isalpha(): o+=_lab[k]
+            prev=k
+        return o
+    D=[_dec(a,b) for a,b in ph]; WN=[_normw(w) for w in words]; K=len(ph); Nw=len(words); WIN=40
+    INF=float('inf'); best=[[INF]*(Nw+1) for _ in range(K+1)]; back=[[0]*(Nw+1) for _ in range(K+1)]; best[0][0]=0.0
+    for k in range(1,K+1):
+        dk=D[k-1]
+        for j in range(Nw+1):
+            lo=max(0,j-WIN)
+            for i in range(lo,j+1):
+                if best[k-1][i]==INF: continue
+                c=best[k-1][i]+(_Lev.distance(dk,''.join(WN[i:j])) if i<j else len(dk)+2)
+                if c<best[k][j]: best[k][j]=c; back[k][j]=i
+    total=best[K][Nw]; declen=sum(len(x) for x in D)
+    if total<INF and declen>0 and total/declen<0.7:
+        j=Nw; new_assign=[0]*Nw
+        for k in range(K,0,-1):
+            i=back[k][j]
+            for w in range(i,j): new_assign[w]=k-1
+            j=i
+        changed=sum(1 for a,b in zip(assign,new_assign) if a!=b)
+        assign=new_assign; cnt=Counter(assign)
+        print(f"   привязка по декоду: стоимость {total/declen:.2f} на букву; переназначено слов {changed}")
+    else: print(f"   привязка по декоду не принята (стоимость {total/max(declen,1):.2f}), оставлена грубая")
+except Exception as e: print("   привязка по декоду недоступна:",e)
+# ПУСТЫЕ ФРАЗЫ С БУКВАМИ: фраза внутри пения, где движки слышат буквы, но не назначено ни одного слова —
+# заимствует начальные слова у следующей занятой фразы пропорционально длительностям (граница между
+# одинаковыми повторами иначе ставится произвольно)
+for k in range(len(ph)):
+    if cnt.get(k,0)==0 and ph[k][1]-ph[k][0]>=1.0 and cnt and min(cnt)<k<max(cnt):
+        a2=min(a for a in cnt if a>k); idxs=[i for i,a in enumerate(assign) if a==a2]
+        d1=ph[k][1]-ph[k][0]; d2=ph[a2][1]-ph[a2][0]; m=int(round(len(idxs)*d1/(d1+d2)))
+        if 0<m<len(idxs):
+            for i in idxs[:m]: assign[i]=k
+            print(f"   пустая фраза {ph[k][0]:.1f}–{ph[k][1]:.1f} получила {m} слов от фразы {ph[a2][0]:.1f}–{ph[a2][1]:.1f}")
+            cnt=Counter(assign)
 # --- точное выравнивание в окнах фраз
 FB={'ä':'a','ö':'o','ü':'u','ß':'ss','í':'i','ó':'o'}
 def windowed(empt):
