@@ -1,0 +1,27 @@
+# Пословные тайминги под запись — конвейер
+
+Правила и замеры: `docs/rules/audio-alignment.md`. Здесь — рабочие скрипты (перенесены из scratchpad 2026-09-07;
+пути внутри относительные: запускать из рабочего каталога, где лежат `words.json`, `lineidx.json`,
+эмиссии `em_*.pt`, карты `map_*.json`, а звук — в `../audio/`).
+
+Окружение: Python 3.12 (`uv venv`), `torch torchaudio` (CPU или CUDA), `transformers demucs soundfile phonemizer`,
+статический `ffmpeg`, свежий `yt-dlp`.
+
+Порядок на одну запись `<videoId>` песни D 118:
+1. `yt-dlp -f bestaudio -x --audio-format wav` → `full/<videoId>.wav`; микс для DTW: `ffmpeg -ar 16000 -ac 1` → `audio/<videoId>.wav`.
+2. `python -m demucs --two-stems=vocals -n htdemucs -o sep -- full/<videoId>.wav`; стем → `ffmpeg -ar 16000 -ac 1` → `audio/<videoId>_voc.wav`
+   (`emit_all.sh` ждёт стемы и считает эмиссии по две параллельно).
+3. `emit.py <voc.wav> em_mms_<videoId>.pt` (MMS_FA) и `emit_hf.py jonatasgrosman/wav2vec2-large-xlsr-53-german <voc.wav> em_de_<videoId>.pt`.
+4. `transfer.py audio/1F4CHXbX8gc.wav audio/<videoId>.wav map_<videoId>.json` — перенос принятой разметки Сэмпсон
+   DTW по хроме микса (12 транспозиций, наклон 1:2…2:1).
+5. `pipeline2.py <videoId> audio/<videoId>_voc.wav em_mms_<videoId>.pt em_de_<videoId>.pt map_<videoId>.json`
+   → `ts_<videoId>.json` и `app/src/data/timings/d118-<videoId>.json`; печатает очередь прослушивания.
+6. `finalize.py <videoId> …` — минимальная длительность слова 0.12 с, обновление файла сайта, очередь.
+
+`words.json` / `lineidx.json` — плоский список слов маршрута и адреса `строфа:строка`, строятся из
+`app/src/data/songs/d118-gretchen-am-spinnrade.json` в порядке опубликованного текста.
+Регрессионный тест: `pipeline2.py 1F4CHXbX8gc … map_identity.json --no-site` должен воспроизвести принятую
+разметку Сэмпсон (все начала в пределах 0.15 с).
+
+Очереди прослушивания четырёх записей (2026-09-07, на слух не проверены): Бонни 4, Шварцкопф 13, Людвиг 9,
+Шуман 16 слов — списки в описании коммита и в чате сессии «[аудио текст]».
