@@ -106,10 +106,10 @@ except Exception as e: print("   привязка по декоду недост
 for k in range(len(ph)):
     if cnt.get(k,0)==0 and ph[k][1]-ph[k][0]>=1.0 and cnt and min(cnt)<k<max(cnt):
         a2=min(a for a in cnt if a>k); idxs=[i for i,a in enumerate(assign) if a==a2]
-        d1=ph[k][1]-ph[k][0]; d2=ph[a2][1]-ph[a2][0]; m=int(round(len(idxs)*d1/(d1+d2)))
-        if 0<m<len(idxs):
-            for i in idxs[:m]: assign[i]=k
-            print(f"   пустая фраза {ph[k][0]:.1f}–{ph[k][1]:.1f} получила {m} слов от фразы {ph[a2][0]:.1f}–{ph[a2][1]:.1f}")
+        d1=ph[k][1]-ph[k][0]; d2=ph[a2][1]-ph[a2][0]; mv=int(round(len(idxs)*d1/(d1+d2)))
+        if 0<mv<len(idxs):
+            for i in idxs[:mv]: assign[i]=k
+            print(f"   пустая фраза {ph[k][0]:.1f}–{ph[k][1]:.1f} получила {mv} слов от фразы {ph[a2][0]:.1f}–{ph[a2][1]:.1f}")
             cnt=Counter(assign)
 # --- точное выравнивание в окнах фраз
 FB={'ä':'a','ö':'o','ü':'u','ß':'ss','í':'i','ó':'o'}
