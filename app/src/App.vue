@@ -220,7 +220,6 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
       </div>
     </header>
     <aside class="sidebar">
-      <h2 class="sidebar-title">Песни</h2>
       <SongList
         :songs="songsIndex"
         :sections="sectionsIndex"

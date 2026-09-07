@@ -41,17 +41,6 @@ body {
   overflow: hidden;
 }
 
-/* Заголовок списка песен: на уровне названия песни в центре.
-   Заголовок и строка поиска не прокручиваются — прокручивается только список (SongList) */
-.sidebar-title {
-  flex: none;
-  font-family: var(--font-serif);
-  font-size: 1.35rem;
-  font-weight: 600;
-  margin: 35px 26px 26px;
-  color: var(--text);
-}
-
 /* Титульный блок в правой колонке */
 .masthead {
   text-align: center;

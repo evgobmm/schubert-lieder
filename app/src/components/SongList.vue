@@ -71,6 +71,11 @@ function isOpen(group) {
   return !group.title || expanded.has(group.id)
 }
 
+// Кнопка справа от слова «Песни»: свернуть все разделы (сворачиваются с той же анимацией)
+function collapseAll() {
+  expanded.clear()
+}
+
 // Показать текущую песню: раскрыть её раздел и прокрутить список так, чтобы строка была видна
 // (только если она не видна целиком — иначе список не дёргается)
 function revealCurrent(smooth) {
@@ -219,6 +224,22 @@ onUnmounted(() => {
 
 <template>
   <nav class="song-list" aria-label="Песни">
+    <!-- Заголовок списка: на уровне названия песни в центре; не прокручивается вместе со списком -->
+    <div class="list-title">
+      <h2 class="sidebar-title">Песни</h2>
+      <button
+        class="collapse-all"
+        type="button"
+        data-tip="Свернуть все"
+        aria-label="Свернуть все"
+        @click="collapseAll"
+      >
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4.5 2.5L8 6l3.5-3.5" />
+          <path d="M4.5 13.5L8 10l3.5 3.5" />
+        </svg>
+      </button>
+    </div>
     <div class="list-head" :class="{ scrolled }">
       <div class="search-box">
         <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -357,6 +378,86 @@ onUnmounted(() => {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+/* ---------- Заголовок «Песни» и кнопка «Свернуть все» ---------- */
+.list-title {
+  flex: none;
+  position: relative;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 35px 16px 26px 26px;
+}
+
+.sidebar-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text);
+}
+
+.collapse-all {
+  position: relative;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+
+.collapse-all:hover {
+  background: color-mix(in srgb, var(--text) 8%, transparent);
+  color: var(--text);
+}
+
+.collapse-all:active {
+  background: color-mix(in srgb, var(--text) 14%, transparent);
+}
+
+.collapse-all:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Подсказка: появляется под кнопкой с небольшой задержкой при наведении, сразу — при фокусе с клавиатуры */
+.collapse-all::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--text);
+  color: var(--bg);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+
+.collapse-all:hover::after {
+  opacity: 1;
+  transition-delay: 0.4s;
+}
+
+.collapse-all:focus-visible::after {
+  opacity: 1;
 }
 
 /* ---------- Строка поиска (не прокручивается вместе со списком) ---------- */
@@ -725,7 +826,9 @@ a.song-link:focus-visible {
   .group-body,
   .group-items,
   .chev,
-  .list-head {
+  .list-head,
+  .collapse-all,
+  .collapse-all::after {
     transition: none;
   }
 }
