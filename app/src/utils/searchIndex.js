@@ -1,4 +1,4 @@
-// Поисковый индекс: строки текста каждой песни, у которой есть файл.
+// Поисковый индекс: названия из каталога и строки текста каждой песни.
 // Файлы песен уже входят в бандл (eager-глоб в SongView) — дублирования нет.
 const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
@@ -11,6 +11,33 @@ export function fold(s) {
     .replace(/ё/g, 'е')
     .normalize('NFD').replace(/[̀-ͯ]/g, '')
     .replace(/[’‘`]/g, "'")
+}
+
+// Посимвольная нормализация с картой «символ свёрнутой строки → индекс в исходной»:
+// нужна, чтобы подсветить найденный фрагмент в исходном написании (ß → ss меняет длину)
+const charCache = new Map()
+
+function foldChar(ch) {
+  let f = charCache.get(ch)
+  if (f === undefined) {
+    f = fold(ch)
+    charCache.set(ch, f)
+  }
+  return f
+}
+
+export function findRange(text, q) {
+  if (!text || !q) return null
+  let folded = ''
+  const map = []
+  for (let i = 0; i < text.length; i++) {
+    const f = foldChar(text[i])
+    for (let k = 0; k < f.length; k++) map.push(i)
+    folded += f
+  }
+  const at = folded.indexOf(q)
+  if (at < 0) return null
+  return [map[at], map[at + q.length - 1] + 1]
 }
 
 const textCache = new Map()
@@ -34,22 +61,74 @@ export function songLines(file) {
   return entry
 }
 
-// Поиск: сначала названия (de + ru); если пусто — по тексту песен.
-// Возвращает { mode: 'title'|'text'|null, hits: [{ song, line? }] }
-export function searchSongs(songsIndex, query) {
-  const q = fold(query.trim())
-  if (q.length < 2) return { mode: null, hits: [] }
+// Запрос как номер по Дойчу: «118», «d 118», «D118», «795/1», «795.1», «965a» → «118», «795/1», «965a»
+function dQuery(raw) {
+  const m = raw.toLowerCase().match(/^d?\s*(\d{1,4}[a-z]?)(?:[/.](\d{1,2}))?$/)
+  if (!m) return null
+  return m[2] ? `${m[1]}/${m[2]}` : m[1]
+}
 
-  const titleHits = songsIndex.filter(s =>
-    fold(s.title_de).includes(q) || (s.title_ru && fold(s.title_ru).includes(q))
-  )
-  if (titleHits.length) return { mode: 'title', hits: titleHits.map(song => ({ song })) }
+// Ранг совпадения в названии: 0 — целиком, 1 — с начала, 2 — с начала слова, 3 — внутри слова
+function titleScore(folded, q) {
+  const at = folded.indexOf(q)
+  if (at < 0) return null
+  if (folded === q) return 0
+  if (at === 0) return 1
+  if (/[^a-z0-9а-я']/.test(folded[at - 1])) return 2
+  return 3
+}
+
+// Поиск: сначала названия (de + ru) и D-номера; если пусто — по тексту песен.
+// Результат: { mode: 'title'|'text'|null, hits: [{ song, score, de, ru, d, line? }] },
+// где de/ru — диапазон [от, до) совпадения в названии (для подсветки) либо null,
+// d — совпал номер по Дойчу, line — { text, range } найденной строки текста.
+export function searchSongs(songsIndex, query) {
+  const raw = query.trim()
+  const q = fold(raw)
+  const dq = dQuery(raw)
+  const byTitle = q.length >= 2
+  if (!byTitle && !dq) return { mode: null, hits: [] }
+
+  const hits = []
+  for (const song of songsIndex) {
+    let score = null
+    const d = !!dq && song.d.toLowerCase() === dq
+    if (d) score = -1
+    if (byTitle) {
+      const sd = titleScore(fold(song.title_de), q)
+      const sr = song.title_ru ? titleScore(fold(song.title_ru), q) : null
+      for (const s of [sd, sr]) if (s !== null && (score === null || s < score)) score = s
+    }
+    if (score === null) continue
+    hits.push({
+      song,
+      score,
+      d,
+      de: byTitle ? findRange(song.title_de, q) : null,
+      ru: byTitle && song.title_ru ? findRange(song.title_ru, q) : null
+    })
+  }
+  if (hits.length) {
+    hits.sort((a, b) => a.score - b.score || a.song.number - b.song.number)
+    return { mode: 'title', hits }
+  }
+  if (!byTitle) return { mode: 'title', hits: [] }
 
   const textHits = []
   for (const song of songsIndex) {
     if (!song.file) continue
     const line = songLines(song.file).find(l => l.folded.includes(q))
-    if (line) textHits.push({ song, line: line.text })
+    if (line) {
+      textHits.push({ song, score: 4, d: false, de: null, ru: null, line: { text: line.text, range: findRange(line.text, q) } })
+    }
   }
   return { mode: 'text', hits: textHits }
+}
+
+// Русское число с существительным: plural(3, 'песня', 'песни', 'песен') → «3 песни»
+export function plural(n, one, few, many) {
+  const m10 = n % 10
+  const m100 = n % 100
+  const word = m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? few : many
+  return `${n} ${word}`
 }

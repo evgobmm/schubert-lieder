@@ -6,6 +6,7 @@ import ThemeToggle from './components/ThemeToggle.vue'
 import PerformancePlayer from './components/PerformancePlayer.vue'
 import PrintMenu from './components/PrintMenu.vue'
 import FeedbackMenu from './components/FeedbackMenu.vue'
+import MatchText from './components/MatchText.vue'
 import songsIndex from './data/index.json'
 import sectionsIndex from './data/sections.json'
 import { searchSongs } from './utils/searchIndex.js'
@@ -56,10 +57,11 @@ const mobResult = ref({ mode: null, hits: [] })
 let mobTimer = null
 watch(mobSearch, (q) => {
   clearTimeout(mobTimer)
-  mobTimer = setTimeout(() => { mobResult.value = searchSongs(songsIndex, q) }, 300)
+  mobTimer = setTimeout(() => { mobResult.value = searchSongs(songsIndex, q) }, 80)
 })
-const mobSearching = computed(() => mobSearch.value.trim().length >= 2)
+const mobSearching = computed(() => mobSearch.value.trim().length >= 2 || /^d?\s*\d+/i.test(mobSearch.value.trim()))
 function mobGoTo(hit) {
+  if (!hit || !hit.song.file) return
   currentSongNumber.value = hit.song.number
   mobSearch.value = ''
   mobResult.value = { mode: null, hits: [] }
@@ -183,6 +185,7 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
           type="search"
           placeholder="Поиск"
           aria-label="Поиск по песням"
+          @keydown.enter.prevent="mobGoTo(mobResult.hits[0])"
         />
         <div v-if="mobSearching" class="mob-search-results">
           <p v-if="!mobResult.hits.length" class="mob-search-note">Ничего не найдено</p>
@@ -194,8 +197,9 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
             :disabled="!hit.song.file"
             @click="mobGoTo(hit)"
           >
-            <span class="mob-hit-title">{{ hit.song.title_de }}<template v-if="hit.song.title_ru"> — {{ hit.song.title_ru }}</template></span>
-            <span v-if="hit.line" class="mob-hit-line">{{ hit.line }}</span>
+            <span class="mob-hit-title"><MatchText :text="hit.song.title_de" :range="hit.de" /><template v-if="hit.song.title_ru"> — <MatchText :text="hit.song.title_ru" :range="hit.ru" /></template></span>
+            <span class="mob-hit-meta"><MatchText :text="`D ${hit.song.d}`" :range="hit.d ? [0, 2 + hit.song.d.length] : null" /><template v-if="hit.song.year"> · {{ hit.song.year }}</template></span>
+            <span v-if="hit.line" class="mob-hit-line"><MatchText :text="hit.line.text" :range="hit.line.range" /></span>
             <span v-else-if="!hit.song.file" class="mob-hit-line">страница готовится</span>
           </button>
         </div>
@@ -216,7 +220,7 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
       </div>
     </header>
     <aside class="sidebar">
-      <div class="sidebar-title">Песни</div>
+      <h2 class="sidebar-title">Песни</h2>
       <SongList
         :songs="songsIndex"
         :sections="sectionsIndex"
