@@ -1,3 +1,10 @@
+import unicodedata
+def _foldw(w):
+    o=''
+    for ch in w.lower().replace('ß','ss'):
+        if ch in 'äöü': o+=ch; continue
+        d=unicodedata.normalize('NFD',ch); o+=''.join(c for c in d if not unicodedata.combining(c))
+    return o
 import sys, json, re, torch
 from torchaudio.functional import forced_align, merge_tokens
 FALLBACK={'ä':'a','ö':'o','ü':'u','ß':'ss','é':'e','è':'e'}
@@ -6,7 +13,7 @@ def main(empt, words_json, out_json):
     dic={c:i for i,c in enumerate(labels)}
     print("vocab:", ''.join(c for c in labels if c and len(c)==1))
     def norm(w):
-        w=w.lower().replace('’',"'")
+        w=_foldw(w).replace('’',"'")
         out=[]
         for c in w:
             if c in dic and c not in ('|',): out.append(c)

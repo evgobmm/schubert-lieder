@@ -10,7 +10,14 @@ TW=[];TIDX=[]   # слова текста и их адреса (s,l,k)
 for i,j,l in lines:
     for k,w in enumerate(l.split()): TW.append(w); TIDX.append((i,j,k))
 N=len(TW)
-def letters(w): return re.sub(r"[^a-zäöüß]","",w.lower().replace('ß','ss'))
+import unicodedata
+def _fold(w):   # диакритика -> базовая буква (à->a, é->e), ß -> ss; немецкие умляуты сохраняем (они есть в словаре DE-модели)
+    out=''
+    for ch in w.lower().replace('ß','ss'):
+        if ch in 'äöü': out+=ch; continue
+        d=unicodedata.normalize('NFD',ch); out+=''.join(c for c in d if not unicodedata.combining(c))
+    return out
+def letters(w): return re.sub(r"[^a-zäöü]","",_fold(w))
 TL=[letters(w) for w in TW]
 # --- Whisper
 wh=json.load(open(WH)); W=[w for s in wh for w in s['words'] if letters(w['w'])]
@@ -67,6 +74,8 @@ for s_ in sung:
     # вариант — только целое слово: не склейка соседних слов текста и не обрывок (длины сопоставимы), уверенность Whisper ≥0.7
     nb=[TL[s_['t']]+TL[s_['t']+1] if s_['t']+1<N else '', TL[s_['t']-1]+TL[s_['t']] if s_['t']>0 else '']
     merged=any(x and Lev.normalized_distance(WL[s_['wi']],x)<0.35 for x in nb)
+    neigh=any(Lev.normalized_distance(WL[s_['wi']],TL[q])<0.2 for q in range(max(0,s_['t']-2),min(N,s_['t']+3)) if q!=s_['t'])   # слово-сосед: перестановка Whisper, не вариант
+    merged=merged or neigh
     s_['var']=W[s_['wi']]['w'] if (d>=0.25 and w['p']>=0.7 and len(WL[s_['wi']])>=4 and len(TL[s_['t']])>=4 and abs(len(WL[s_['wi']])-len(TL[s_['t']]))<=3 and not merged) else None
 words=[TW[s_['t']] for s_ in sung]; li=[f"{TIDX[s_['t']][0]}:{TIDX[s_['t']][1]}" for s_ in sung]; slots=[TIDX[s_['t']][2] for s_ in sung]
 json.dump(words,open('words.json','w'),ensure_ascii=False); json.dump(li,open('lineidx.json','w')); json.dump(slots,open('slots.json','w'))
@@ -95,7 +104,7 @@ def windowed(empt):
     d=torch.load(empt); em=d['emission']; labels=list(d['labels'])[:em.shape[1]]; blank=d.get('blank',0); dic={c:i for i,c in enumerate(labels)}
     def norm(w):
         o=''
-        for c in w.lower():
+        for c in _fold(w):
             if c in dic and c!='|': o+=c
             elif c in FB: o+=''.join(ch for ch in FB[c] if ch in dic)
         return ''.join(ch for ch in o if ch.isalpha() or ch=="'")
@@ -143,7 +152,7 @@ for k,r in enumerate(ts):
     nxt=ts[k+1]['start'] if k+1<K else r['end']+0.5; prv_end=raw_end[k-1] if k else 0.0; s=r['start']
     if m(s,s+0.05)<0.25:
         j=int(s*100); lim=int((nxt-0.02)*100)
-        while j<lim and V[j:j+3].max()<0.25: j+=1
+        while j<lim and j+3<=n and V[j:j+3].max()<0.25: j+=1
         if j/100-s>0.08: s=round(j/100,2)
     if m(s,s+0.10)<0.3 and not near(s,allon,0.08):
         cand=[t for t in allon if s+0.05<t<=min(s+0.6,nxt-0.05)]

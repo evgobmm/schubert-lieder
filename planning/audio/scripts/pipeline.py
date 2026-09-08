@@ -1,3 +1,10 @@
+import unicodedata
+def _foldw(w):
+    o=''
+    for ch in w.lower().replace('ß','ss'):
+        if ch in 'äöü': o+=ch; continue
+        d=unicodedata.normalize('NFD',ch); o+=''.join(c for c in d if not unicodedata.combining(c))
+    return o
 import json, sys, numpy as np, soundfile as sf, torch
 from torchaudio.functional import forced_align, merge_tokens
 from collections import Counter
@@ -117,7 +124,7 @@ def windowed(empt):
     d=torch.load(empt); em=d['emission']; labels=list(d['labels'])[:em.shape[1]]; blank=d.get('blank',0)
     dic={c:i for i,c in enumerate(labels)}
     def norm(w):
-        w=w.lower().replace('’',"'"); o=''
+        w=_foldw(w).replace('’',"'"); o=''
         for c in w:
             if c in dic and c!='|': o+=c
             elif c in FB: o+=''.join(ch for ch in FB[c] if ch in dic)
@@ -185,7 +192,7 @@ for k,r in enumerate(ts):
     s=r['start']
     if m(s,s+0.05)<0.25:
         j=int(s*100); lim=int((nxt-0.02)*100)
-        while j<lim and V[j:j+3].max()<0.25: j+=1
+        while j<lim and j+3<=n and V[j:j+3].max()<0.25: j+=1
         if j/100-s>0.08: log.append(('тишина→голос',words[k],s,j/100)); s=round(j/100,2)
     if m(s,s+0.10)<0.5 and not near(s,allon,0.08):
         cand=[t for t in allon if s+0.05<t<=min(s+0.6,nxt-0.05)]

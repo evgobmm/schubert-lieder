@@ -1,3 +1,10 @@
+import unicodedata
+def _foldw(w):
+    o=''
+    for ch in w.lower().replace('ß','ss'):
+        if ch in 'äöü': o+=ch; continue
+        d=unicodedata.normalize('NFD',ch); o+=''.join(c for c in d if not unicodedata.combining(c))
+    return o
 import sys, json, re, torch, torchaudio
 from torchaudio.functional import forced_align, merge_tokens
 
