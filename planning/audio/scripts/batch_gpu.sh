@@ -10,7 +10,7 @@ mkdir -p "$SP/songs" "$SP/full" "$SP/align" "$SP/audio"; cd "$SP"
 echo "=== 1. спецификации $(date +%T) ==="
 for D in "$@"; do line=$($PY $SCRIPTS/make_spec.py "$D" "$SP/songs"); echo "  $D -> $line"; echo "$line" >> "$SP/songs/batch.txt"; done
 echo "=== 2. скачивание (локально, $DL_PAR потоков) $(date +%T) ==="
-cut -d' ' -f3- "$SP/songs/batch.txt" | tr ' ' '\n' | sort -u | xargs -P "$DL_PAR" -I{} sh -c 'ls "$SP"/full/{}.* >/dev/null 2>&1 || { yt-dlp -q --no-warnings -f bestaudio --retries 3 -o "$SP/full/{}.%(ext)s" -- "https://www.youtube.com/watch?v={}" 2>&1 | grep -v "JavaScript runtime" | tail -1; ls "$SP"/full/{}.* >/dev/null 2>&1 || echo "  {}: НЕ СКАЧАНО"; }'
+cut -d' ' -f3- "$SP/songs/batch.txt" | tr ' ' '\n' | sort -u | xargs -P "$DL_PAR" -I{} sh -c 'ls "$SP"/full/{}.* >/dev/null 2>&1 || { yt-dlp -q --no-warnings -f bestaudio --js-runtimes node:/home/vscode/.local/bin/node --remote-components ejs:github --retries 3 -o "$SP/full/{}.%(ext)s" -- "https://www.youtube.com/watch?v={}" 2>&1 | grep -v "JavaScript runtime" | tail -1; ls "$SP"/full/{}.* >/dev/null 2>&1 || echo "  {}: НЕ СКАЧАНО"; }'
 echo "  скачано файлов: $(ls "$SP/full" | wc -l) $(date +%T)"
 echo "=== 3. GPU (Modal) по языкам $(date +%T) ==="
 for lang in $(cut -d' ' -f2 "$SP/songs/batch.txt" | sort -u); do
