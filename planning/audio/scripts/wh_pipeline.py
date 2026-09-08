@@ -83,10 +83,15 @@ for idx,s_ in enumerate(sung):
 sung=clean
 # пропущенные слова текста между соседними посещениями (Whisper их не услышал) — вставляем без якоря
 filled=[]
-for a,b in zip(sung,sung[1:]+[None]):
+for idx,(a,b) in enumerate(zip(sung,sung[1:]+[None])):
     filled.append(a)
-    if b and 1<b['t']-a['t']<=3:
-        for t in range(a['t']+1,b['t']): filled.append({"t":t,"wi":None})
+    if b and b['t']>a['t']+1:
+        gap=list(range(a['t']+1,b['t']))
+        # разрыв строки с повтором: пропущенный хвост строки поётся в следующем проходе той же строки — оставить как есть
+        nxt_same_line=[x for x in sung[idx+1:idx+12] if TIDX[x['t']][:2]==TIDX[a['t']][:2] and x['t']<=a['t']]
+        tail_in_repeat=bool(nxt_same_line) and all(TIDX[g][:2]==TIDX[a['t']][:2] for g in gap) and any(TIDX[x['t']][:2]==TIDX[a['t']][:2] and x['t']>=gap[0] for x in sung[idx+1:idx+12])
+        if tail_in_repeat: continue
+        for t in gap: filled.append({"t":t,"wi":None})          # певец слов не пропускает: неуслышанное заполняем без якоря
 sung=filled
 # варианты: Whisper уверенно слышит другое слово
 for s_ in sung:
@@ -136,10 +141,11 @@ def windowed(empt):
     res=[None]*len(sung)
     for g in groups:
         an=[anch[k] for k in g if anch[k]]
-        if not an:
-            prev=[anch[q] for q in range(g[0]) if anch[q]]; t0=max(0.0,(prev[-1][1] if prev else 0.0)-0.2); t1=min(n/100,END_SING)
-            an=[(t0,t1)]
-        t0=max(0.0,min(a for a,b in an)-0.5); t1=min(n/100,max(b for a,b in an)+0.6)
+        prev=[anch[q] for q in range(g[0]) if anch[q]]; nxt_=[anch[q] for q in range(g[-1]+1,len(sung)) if anch[q]]
+        lo=(prev[-1][1] if prev else 0.0); hi=(nxt_[0][0] if nxt_ else END_SING)      # границы — соседние якоря других групп
+        if an: t0=max(0.0,lo-0.1,min(a for a,b in an)-0.5); t1=min(n/100,hi-0.05 if nxt_ else END_SING, max(b for a,b in an)+ (0.6 if all(anch[k] for k in g) else 30.0))
+        else: t0=max(0.0,lo-0.2); t1=min(n/100,hi-0.05 if nxt_ else END_SING)
+        if t1<=t0+0.3: t1=t0+0.3
         toks=[];lens=[]
         for k in g:
             sw=sung[k]['var'] or words[k]                      # буквами спетого слова
@@ -158,7 +164,9 @@ WA=windowed(EM_A); WB=windowed(EM_B); C=[WA,WB]; PRIOR=[0.5,0.0]; K=len(sung)
 def unary(k,c):
     t=C[c][k]['start']; sc=PRIOR[c]+2*near(t,strong,0.2)
     if m(t,t+0.10)<0.3: sc-=1.0
-    if anch[k]: sc-=2.0*max(0.0,abs(t-anch[k][0])-0.35)          # якорь Whisper — мягкий
+    if anch[k]:
+        pw=W[sung[k]['wi']]['p'] if sung[k]['wi'] is not None else 0.5
+        sc-=2.0*pw*max(0.0,abs(t-anch[k][0])-0.35)          # якорь Whisper — мягкий, вес по его уверенности
     return sc
 NEG=-1e9; dp=[[NEG,NEG] for _ in range(K)]; bp=[[None,None] for _ in range(K)]
 for c in (0,1): dp[0][c]=unary(0,c)
@@ -171,7 +179,17 @@ c=0 if dp[K-1][0]>=dp[K-1][1] else 1; choice=[0]*K
 for k in range(K-1,-1,-1):
     choice[k]=c
     if k>0: c=bp[k][c]
+
+import os
+def _dbg(stage):
+    w=os.environ.get('DEBUG_WIN')
+    if not w: return
+    lo,hi=map(float,w.split(','))
+    print(f"[{stage}] "+' | '.join(f"{words[k]} {ts[k]['start']:.2f}–{ts[k]['end']:.2f}" for k in range(K) if lo<=ts[k]['start']<=hi or lo<=ts[k]['end']<=hi))
+    if stage=='после ДП': print('   кандидаты: '+' | '.join(f"{words[k]} A={WA[k]['start']:.2f} B={WB[k]['start']:.2f} якорь={anch[k][0] if anch[k] else None} p={W[sung[k]['wi']]['p'] if sung[k]['wi'] is not None else None} выбран={'AB'[choice[k]]}" for k in range(K) if lo<=WA[k]['start']<=hi or lo<=WB[k]['start']<=hi))
 ts=[dict(C[choice[k]][k]) for k in range(K)]
+_dbg('после ДП')
+print('ДП: путь', 'НЕ НАЙДЕН — взят основной движок' if max(dp[K-1])==NEG else 'найден', '| выбор для слов 33–40 с:', ' '.join(f"{words[k]}={'AB'[choice[k]]}" for k in range(K) if 33<=min(WA[k]['start'],WB[k]['start'])<=40))
 if max(dp[K-1])==NEG:  # порядок не сошёлся — берём основной движок и чиним порядок
     ts=[dict(WA[k]) for k in range(K)]
 raw_end=[r['end'] for r in ts]
@@ -196,22 +214,29 @@ for k in range(K):
 for k in range(1,K):
     if ts[k]['start']<ts[k-1]['start']+0.02: ts[k]['start']=round(ts[k-1]['start']+0.02,2)
     if ts[k]['end']<ts[k]['start']: ts[k]['end']=ts[k]['start']
+_dbg('после привязок начал')
+def _chain_end(t,phr):
+    """конец цепочки фраз, содержащей момент t (или начинающейся не позже чем через 1 с после него); фразы, разделённые < 1 с, — одна цепочка"""
+    idx=None
+    for i,(a,b) in enumerate(phr):
+        if a-1.0<=t<=b+0.5: idx=i; break
+    if idx is None: return None
+    while idx+1<len(phr) and phr[idx+1][0]-phr[idx][1]<1.0: idx+=1
+    return phr[idx][1]
 for k,r in enumerate(ts):
-    nxt=ts[k+1]['start'] if k+1<K else END_SING; b=r['end']; j=int(b*100); end=b; sil=0; limit=int(min(nxt,b+8)*100)   # последнее слово тянется до конца пения
-    while j<min(limit,n):
-        if V[j]<0.20:
-            sil+=0.01
-            if sil>=0.12: break
-        else: sil=0; end=(j+1)/100
-        j+=1
+    nxt=ts[k+1]['start'] if k+1<K else END_SING; b=r['end']
+    ce=_chain_end(b,_ph)
+    end=b if ce is None else max(b,min(ce+0.1,b+12.0))
     r['end']=round(min(max(end,b),nxt),2)
 for k in range(K-1):
     if ts[k]['end']>ts[k+1]['start']: ts[k]['end']=ts[k+1]['start']
+_dbg('после продления концов')
 MIN=0.12
 for k in range(K):
     if ts[k]['end']-ts[k]['start']<MIN:
         prv=ts[k-1] if k else None; ns=ts[k]['end']-MIN
         if prv and ns>=prv['start']+0.3: prv['end']=min(prv['end'],round(ns,2)); ts[k]['start']=round(ns,2)
+_dbg('после мин. длительности')
 # --- проверка вариантов двумя движками: вариант остаётся, если оба CTC-декода интервала ближе к слову Whisper, чем к тексту
 def _dec(empt):
     d=torch.load(empt); em=d['emission']; lab=list(d['labels'])[:em.shape[1]]; bl=d.get('blank',0)
@@ -252,7 +277,7 @@ for p in passes:
     # слова без букв (тире) — нулевой интервал у начала следующего слова
     lw=song['stanzas'][p['s']]['lines_de'][p['l']].split()
     for kk in range(n_words):
-        if not re.search(r'[A-Za-zÄÖÜäöüß]',lw[kk]) and w[kk] is not None:
+        if not letters(lw[kk]) and w[kk] is not None:   # «без букв» — по сложенным буквам (è, à — слова!)
             nx=[w[q][0] for q in range(kk+1,n_words) if w[q]]; t_=nx[0] if nx else w[kk][1]; w[kk]=[t_,t_]
     out_route.append({"s":p['s'],"l":p['l'],"w":w})
 perf=[p for p in json.load(open(f'{ROOT}/app/src/data/performances.json'))[spec['key']] if p['videoId']==VID][0]

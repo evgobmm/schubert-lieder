@@ -5,9 +5,10 @@ ROOT='/workspaces/schubert-lieder'; song=json.load(open(spec['song']))
 perf=[p for p in json.load(open(f'{ROOT}/app/src/data/performances.json'))[spec['key']] if p['videoId']==vid][0]
 out={"d":spec['d'],"videoId":vid,"performance":f"{perf['name']}, {perf['year']}","method":method,"verified_by_ear":False,"note":note,"extra_lines":[],"variants":(json.load(open(VAR)) if VAR else []),"route":[]}
 # ТИРЕ и другие слова без букв: нулевой интервал в точке начала следующего слова — никогда не подсвечиваются
-import re
+import re, unicodedata
+def _has_letters(w): return any(unicodedata.category(c).startswith('L') for c in w)
 for k,r in enumerate(ts):
-    if not re.search(r'[A-Za-zÄÖÜäöüß]',r['w']):
+    if not _has_letters(r['w']):   # «без букв» — по Unicode-категории (è, à — слова!)
         nx=ts[k+1]['start'] if k+1<len(ts) else r['end']; r['start']=r['end']=nx
         if k>0: ts[k-1]['end']=max(ts[k-1]['end'],r['end']) if ts[k-1]['end']<=nx else ts[k-1]['end']
 k=0

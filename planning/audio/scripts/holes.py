@@ -1,0 +1,48 @@
+# голосовые дыры между словами (>1 с, голос ≥45 % опорной): что там поётся — по оценке принудительного выравнивания кандидатов (строки, пары строк) двумя движками
+import json, sys, numpy as np, soundfile as sf, torch, unicodedata
+from torchaudio.functional import forced_align
+SITE,WAV,EM_A,EM_B,SONG=sys.argv[1:6]
+song=json.load(open(SONG)); lines=[(i,j,l) for i,st in enumerate(song['stanzas']) for j,l in enumerate(st['lines_de'])]
+def fold(w):
+    o=''
+    for ch in w.lower().replace('ß','ss'):
+        if ch in 'äöü': o+=ch; continue
+        d=unicodedata.normalize('NFD',ch); o+=''.join(c for c in d if not unicodedata.combining(c))
+    return o
+def load(p):
+    d=torch.load(p); em=d['emission']; lab=list(d['labels'])[:em.shape[1]]; bl=d.get('blank',0); dic={c:i for i,c in enumerate(lab)}
+    lp=torch.log_softmax(em,-1)
+    def toks(text): 
+        FB={'ä':'a','ö':'o','ü':'u'}
+        out=[]
+        for w in text.split():
+            for c in fold(w):
+                if c in dic and c!='|': out.append(dic[c])
+                elif c in FB and FB[c] in dic: out.append(dic[FB[c]])
+        return out
+    def score(text,a,b):
+        t=toks(text); f0,f1=int(a/0.02),int(b/0.02)
+        if not t or f1-f0<len(t)+2: return None
+        try: al,sc=forced_align(lp[f0:f1].unsqueeze(0),torch.tensor([t],dtype=torch.int32),blank=bl)
+        except Exception: return None
+        return (float(sc[0].sum())-float(lp[f0:f1,bl].sum()))/(f1-f0)
+    return score
+SA,SB=load(EM_A),load(EM_B)
+t=json.load(open(SITE)); flat=[];names=[]
+for p in t['route']:
+    lw=song['stanzas'][p['s']]['lines_de'][p['l']].split()
+    for k,iv in enumerate(p['w']):
+        if iv: flat.append(iv); names.append((p['s'],p['l'],lw[k]))
+x,_=sf.read(WAV,dtype='float32'); n=len(x)//160; env=np.sqrt((x[:n*160].reshape(n,160)**2).mean(1))
+ref=np.median([env[int(a*100):max(int(b*100),int(a*100)+1)].mean() for a,b in flat if b-a>0.2]); V=env/ref
+cands=[(f"{i}:{j}",l) for i,j,l in lines]+[(f"{lines[k][0]}:{lines[k][1]}+{lines[k+1][0]}:{lines[k+1][1]}",lines[k][2]+' '+lines[k+1][2]) for k in range(len(lines)-1)]
+for i in range(len(flat)-1):
+    a,b=flat[i][1],flat[i+1][0]
+    if b-a>1.0 and V[int(a*100):int(b*100)].mean()>0.45:
+        res=[]
+        for name,text in cands:
+            sa,sb=SA(text,a,b),SB(text,a,b)
+            if sa is None or sb is None: continue
+            res.append(((sa+sb)/2,sa,sb,name))
+        res.sort(reverse=True)
+        print(f"дыра {a:.1f}–{b:.1f} ({b-a:.1f} с) между {names[i][0]}:{names[i][1]}·{names[i][2]} и {names[i+1][0]}:{names[i+1][1]}·{names[i+1][2]}: "+"; ".join(f"{nm} {s:+.3f} (A {sa:+.3f}/B {sb:+.3f})" for s,sa,sb,nm in res[:4]))

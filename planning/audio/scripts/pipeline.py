@@ -49,6 +49,7 @@ while i<n:
 def _letters(empt,a,b):
     d=torch.load(empt); em=d['emission']; blank=d.get('blank',0); ids=em[int(a/0.02):int(b/0.02)].argmax(-1)
     return int((ids!=blank).sum())
+ph_all=list(ph)   # полный список фраз — для продления концов (мелизмы без слов)
 _ph=[]
 for a,b in ph:
     if _letters(EM_A,a,b)>=3 or _letters(EM_B,a,b)>=3: _ph.append((a,b))
@@ -208,17 +209,26 @@ for k in range(1,N):
     if ts[k]['start']<ts[k-1]['start']+0.02: ts[k]['start']=round(ts[k-1]['start']+0.02,2)
     if ts[k]['end']<ts[k]['start']: ts[k]['end']=ts[k]['start']
 # --- концы: до смолкания голоса, не дальше следующего слова и конца своей фразы
+import os
+def _dbgp(stage):
+    w=os.environ.get('DEBUG_WIN')
+    if not w: return
+    lo,hi=map(float,w.split(','))
+    print(f"[{stage}] "+' | '.join(f"{words[k]} {ts[k]['start']:.2f}–{ts[k]['end']:.2f}" for k in range(N) if lo<=ts[k]['start']<=hi or lo<=ts[k]['end']<=hi))
+_dbgp('до продления')
+def _chain_end(t,phr):
+    idx=None
+    for i,(a,b) in enumerate(phr):
+        if a-1.0<=t<=b+0.5: idx=i; break
+    if idx is None: return None
+    while idx+1<len(phr) and phr[idx+1][0]-phr[idx][1]<1.0: idx+=1
+    return phr[idx][1]
 for k,r in enumerate(ts):
-    nxt=ts[k+1]['start'] if k+1<N else (ph[-1][1]+0.5 if ph else r['end']+0.5)   # последнее слово тянется до конца пения
-    pe=ph[assign[k]][1]+0.15
-    b=r['end']; j=int(b*100); end=b; sil=0; limit=int(min(nxt,pe,b+8)*100)
-    while j<min(limit,n):
-        if V[j]<0.20:
-            sil+=0.01
-            if sil>=0.12: break
-        else: sil=0; end=(j+1)/100
-        j+=1
+    nxt=ts[k+1]['start'] if k+1<N else (ph[-1][1]+0.5 if ph else r['end']+0.5)
+    b=r['end']; ce=_chain_end(b,ph_all)
+    end=b if ce is None else max(b,min(ce+0.1,b+12.0))
     r['end']=round(min(max(end,b),nxt),2)
+_dbgp('после продления')
 for k in range(N-1):
     if ts[k]['end']>ts[k+1]['start']: ts[k]['end']=ts[k+1]['start']
 flat=[{"i":i,"w":words[i],"start":ts[i]['start'],"end":ts[i]['end'],"src":src[i],"phrase":int(assign[i])} for i in range(N)]
