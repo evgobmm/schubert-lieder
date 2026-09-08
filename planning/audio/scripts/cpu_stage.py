@@ -35,14 +35,14 @@ def finish_song(spec: dict, vids: list, lang: str) -> dict:
     prefix = spec["prefix"]; sp = pathlib.Path(SPC); songdir = sp / "songs" / prefix; songdir.mkdir(parents=True, exist_ok=True)
     (sp / "align" / ".venv" / "bin").mkdir(parents=True, exist_ok=True); (sp / "audio").mkdir(exist_ok=True)
     _link(sp / "align" / ".venv" / "bin" / "python", sys.executable)                          # скрипты зовут $SP/align/.venv/bin/python
-    missing = []
-    for v in vids:
-        for f in (f"wh_{v}.json", f"em_mms_{v}.pt", f"em_de_{v}.pt"):
-            if pathlib.Path(f"/data/align/{f}").exists(): _link(sp / "align" / f, f"/data/align/{f}")
-            else: missing.append(f)
-        if pathlib.Path(f"/data/audio/{v}_voc.wav").exists(): _link(sp / "audio" / f"{v}_voc.wav", f"/data/audio/{v}_voc.wav")
-        else: missing.append(f"{v}_voc.wav")
-    if missing: return {"prefix": prefix, "error": f"нет данных GPU-стадии в томе: {missing[:6]}"}
+    missing = []; have = []
+    for v in vids:                                                                                 # записи без выходов GPU-стадии (не скачалась, обрыв) — пропускаются, песня собирается по остальным
+        need = [f"/data/align/wh_{v}.json", f"/data/align/em_mms_{v}.pt", f"/data/align/em_de_{v}.pt", f"/data/audio/{v}_voc.wav"]
+        if not all(pathlib.Path(f).exists() for f in need): missing.append(v); continue
+        for f in need[:3]: _link(sp / "align" / pathlib.Path(f).name, f)
+        _link(sp / "audio" / f"{v}_voc.wav", need[3]); have.append(v)
+    if not have: return {"prefix": prefix, "error": f"нет данных GPU-стадии в томе ни для одной записи: {missing}"}
+    vids = have
     json.dump(spec, open(songdir / "spec.json", "w"), ensure_ascii=False); (songdir / "vids.txt").write_text(" ".join(vids) + "\n")
     out_app = pathlib.Path(f"{R}/app/src/data/timings"); out_app.mkdir(parents=True, exist_ok=True)
     for f in out_app.glob(f"{prefix}-*.json"): f.unlink()                                       # чистый старт: без прежних файлов этой песни в образе
@@ -71,8 +71,9 @@ def finish_song(spec: dict, vids: list, lang: str) -> dict:
             json.dump(wh, open(p, "w"), ensure_ascii=False)                                     # локальная копия транскрипта с дораспознанными словами
     # проход 2: сборка (консенсус, починка/запасной, фильтр вариантов, ворота)
     r2 = subprocess.run(["bash", f"{SPC}/tools/finish_control.sh", str(songdir)], cwd=songdir, env={**env, "RETRANSCRIBE": "0"}, capture_output=True, text=True, encoding="utf-8", errors="replace")
-    out = {"prefix": prefix, "seconds": round(time.time() - t0), "windows": len(wins), "retr_words": retr_words,
-           "log": r2.stdout + ("\n" + r2.stderr if r2.returncode else ""), "pass1": r1.stdout[-3000:], "site": {}, "song": {}}
+    out = {"prefix": prefix, "seconds": round(time.time() - t0), "windows": len(wins), "retr_words": retr_words, "missing": missing,
+           "log": ("".join(f"{v}: НЕТ ДАННЫХ GPU-стадии (не скачано или обрыв) — запись пропущена\n" for v in missing)) + r2.stdout + ("\n" + r2.stderr if r2.returncode else ""),
+           "pass1": r1.stdout[-3000:], "site": {}, "song": {}}
     for f in out_app.glob(f"{prefix}-*.json"): out["site"][f.name] = f.read_text(encoding="utf-8")
     for pat in ("holes_*.txt", "decisions.txt", "route_consensus.json", "own/wh_*/ts_wh_*.json", "own/*.json", "held/*.json", "fb_*/ts.json"):
         for f in songdir.glob(pat): out["song"][str(f.relative_to(songdir))] = f.read_text(encoding="utf-8", errors="replace")
@@ -93,5 +94,5 @@ def main(batch: str, songs: str = "songs", app_dir: str = f"{R}/app/src/data/tim
         for name, txt in res["song"].items(): f = d / name; f.parent.mkdir(parents=True, exist_ok=True); f.write_text(txt, encoding="utf-8")
         for name, txt in res["site"].items(): pathlib.Path(app_dir, name).write_text(txt, encoding="utf-8")
         (d / "finish.log").write_text(res["log"], encoding="utf-8"); (d / "pass1.log").write_text(res["pass1"], encoding="utf-8"); ok += 1
-        print(f"{p}: {res['seconds']} с, окон {res['windows']}, дораспознано слов {res['retr_words']}, файлов на сайт {len(res['site'])}", flush=True)
+        print(f"{p}: {res['seconds']} с, окон {res['windows']}, дораспознано слов {res['retr_words']}, файлов на сайт {len(res['site'])}" + (f", без данных GPU: {' '.join(res['missing'])}" if res.get('missing') else ""), flush=True)
     print(f"готово: {ok} из {len(args)} песен за {time.time() - t0:.0f} с", flush=True)
