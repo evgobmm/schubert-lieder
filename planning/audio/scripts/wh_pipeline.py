@@ -208,11 +208,7 @@ for p in passes:
     for kk,k in zip(p['k'],p['idx']):
         w[kk]=[ts[k]['start'],ts[k]['end']]
         if sung[k]['var']: variants.append({"s":p['s'],"l":p['l'],"k":kk,"w":TW[sung[k]['t']],"heard":sung[k]['var'],"start":ts[k]['start']})
-    if not p['repeat']:                                  # первое произнесение — полное: неуслышанные слова получают нулевой интервал у соседа
-        for kk in range(n_words):
-            if w[kk] is None:
-                prev=[w[q] for q in range(kk) if w[q]]; nxt=[w[q] for q in range(kk+1,n_words) if w[q]]
-                e=prev[-1][1] if prev else (nxt[0][0] if nxt else 0.0); w[kk]=[e,e]
+    # неспетые в этом проходе слова остаются null (певец может разорвать строку: «…ihr Bild,» — «ihr Bild dahin»); нулевые интервалы запрещены — плеер склейкой пауз растягивал бы их в ложную подсветку
     if not re.search(r'[A-Za-zÄÖÜäöüß]', song['stanzas'][p['s']]['lines_de'][p['l']].split()[p['k'][0]]) and False: pass
     # слова без букв (тире) — нулевой интервал у начала следующего слова
     lw=song['stanzas'][p['s']]['lines_de'][p['l']].split()

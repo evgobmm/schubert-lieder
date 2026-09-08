@@ -10,7 +10,9 @@ const props = defineProps({
   variant: { type: Object, default: null },
   // Номер подсвечиваемого слова (по пробелам) или -1
   activeWord: { type: Number, default: -1 },
-  clickable: { type: Boolean, default: false }
+  clickable: { type: Boolean, default: false },
+  // Слова, спетые в текущей записи иначе, чем в тексте: {номер слова: спетое слово} (variants файла таймингов)
+  sungWords: { type: Object, default: null }
 })
 
 const emit = defineEmits(['wordClick'])
@@ -30,7 +32,7 @@ function onClick(word) {
         class="w"
         :class="{ sung: t.word === activeWord }"
         @click="onClick(t.word)"
-      ><template v-if="t.variant">{{ t.variant.prefix }}<span class="de-variant-stack"><span class="de-variant-word">{{ t.variant.variant }}</span><span>{{ t.variant.main }}</span></span>{{ t.variant.suffix }}</template><template v-else>{{ t.text }}</template></span>
+      ><template v-if="sungWords && sungWords[t.word] != null"><span class="sung-variant" :title="`в тексте: ${t.text}`">{{ sungWords[t.word] }}</span></template><template v-else-if="t.variant">{{ t.variant.prefix }}<span class="de-variant-stack"><span class="de-variant-word">{{ t.variant.variant }}</span><span>{{ t.variant.main }}</span></span>{{ t.variant.suffix }}</template><template v-else>{{ t.text }}</template></span>
       <template v-else>{{ t.text }}</template>
     </template>
   </p>
@@ -42,6 +44,11 @@ function onClick(word) {
   font-style: italic;
   color: var(--text);
   line-height: 1.5;
+}
+
+.sung-variant {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.15em;
 }
 
 .de-variant-stack {

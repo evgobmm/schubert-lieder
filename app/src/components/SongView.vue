@@ -412,6 +412,16 @@ function getLineDeParts(stanza, lineIndex) {
 const timing = computed(() => song.value ? getTiming(song.value.d, playback.videoId) : null)
 const wordIndex = computed(() => timing.value ? buildWordIndex(timing.value) : null)
 const syncActive = computed(() => !!wordIndex.value)
+// Слова строки, спетые в текущей записи иначе, чем в тексте (variants файла таймингов): {k: спетое}
+function sungWordsIn(si, li) {
+  const vs = timing.value && timing.value.variants
+  if (!Array.isArray(vs)) return null
+  let out = null
+  for (const v of vs) {
+    if (v.s === si && v.l === li && Number.isInteger(v.k) && v.heard) { if (!out) out = {}; out[v.k] = v.heard }
+  }
+  return out
+}
 
 const activeWord = computed(() => {
   if (!wordIndex.value) return null
@@ -557,6 +567,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
           :text="line"
           :data-line="`${si}-${li}`"
           :active-word="activeWordIn(si, li)"
+          :sung-words="sungWordsIn(si, li)"
           :clickable="syncActive"
           @word-click="onWordClick(si, li, $event)"
         />
@@ -582,6 +593,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
               :text="stanza.lines_de[li]"
               :variant="getLineDeParts(stanza, li)"
               :active-word="activeWordIn(si, li)"
+          :sung-words="sungWordsIn(si, li)"
               :clickable="syncActive"
               @word-click="onWordClick(si, li, $event)"
             />
