@@ -21,6 +21,27 @@ def letters(w): return re.sub(r"[^a-zäöü]","",_fold(w))
 TL=[letters(w) for w in TW]
 # --- Whisper
 wh=json.load(open(WH)); W=[w for s in wh for w in s['words'] if letters(w['w'])]
+# ГАЛЛЮЦИНАЦИИ Whisper (аплодисменты, «Grazie a tutti», титры): слово, в интервале которого ни один CTC-движок не слышит букв
+# и которое отстоит от предыдущего принятого слова больше чем на 3 с, — отбрасывается
+def _letters_in(empt):
+    d=torch.load(empt); em=d['emission']; bl=d.get('blank',0)
+    def f(a,b):
+        ids=em[max(0,int(a/0.02)):int(b/0.02)+1].argmax(-1); return int((ids!=bl).sum())
+    return f
+_LA,_LB=_letters_in(EM_A),_letters_in(EM_B)
+kept=[]; dropped=[]
+for w in W:
+    a,b=w['start']-0.1,w['end']+0.1; has=_LA(a,b)>0 or _LB(a,b)>0
+    far=(not kept) or (w['start']-kept[-1]['end']>3.0)
+    if not has and far: dropped.append(w); continue
+    kept.append(w)
+if dropped: print("отброшено галлюцинаций Whisper:",len(dropped),"—"," ".join(f"{w['w']}@{w['start']:.1f}" for w in dropped))
+W=kept
+# конец пения: последний кадр с буквами у любого движка (+0.3 с) — дальше слов быть не может
+def _last_letter(empt):
+    d=torch.load(empt); em=d['emission']; bl=d.get('blank',0); ids=em.argmax(-1); nz=(ids!=bl).nonzero()
+    return float(nz[-1])*0.02 if len(nz) else 0.0
+END_SING=max(_last_letter(EM_A),_last_letter(EM_B))+0.3
 M=len(W); WL=[letters(w['w']) for w in W]
 # --- сопоставление: состояние = позиция в тексте j; переходы: продолжение (j+1), возврат/прыжок к любому j' (штраф по дальности в строках), вставка (слово Whisper вне текста)
 INF=1e9
@@ -163,6 +184,9 @@ for k,r in enumerate(ts):
         cand=[t for t in strong if prv_end-0.05<=t<s-0.15]
         if cand: s=max(cand)
     r['start']=round(s,2); r['end']=max(r['end'],r['start'])
+for k in range(K):
+    if ts[k]['start']>END_SING: ts[k]['start']=round(END_SING,2)
+    if ts[k]['end']>END_SING+0.5: ts[k]['end']=round(END_SING+0.5,2)
 for k in range(1,K):
     if ts[k]['start']<ts[k-1]['start']+0.02: ts[k]['start']=round(ts[k-1]['start']+0.02,2)
     if ts[k]['end']<ts[k]['start']: ts[k]['end']=ts[k]['start']
