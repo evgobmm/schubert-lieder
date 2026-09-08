@@ -133,8 +133,8 @@ def main(list_file: str, lang: str = "de", ctc_model: str = "jonatasgrosman/wav2
         if not src: print(f"{v}: нет скачанного сжатого звука в {indir}", file=sys.stderr); continue
         todo.append((v, src[0]))
     print(f"на GPU {GPU}: {len(todo)} записей из {len(vids)}, язык {lang}, контейнеров не больше {MAX_CONTAINERS}", flush=True)
-    args = [(p.read_bytes(), v, p.suffix.lstrip("."), lang) for v, p in todo]
-    up = sum(len(a[0]) for a in args); t0 = time.time(); stage = Stage(ctc_model=ctc_model); down = 0
+    args = ((p.read_bytes(), v, p.suffix.lstrip("."), lang) for v, p in todo)   # генератор: файлы читаются по мере отправки (список из 400 записей держал 2,3 ГБ RAM клиента)
+    up = sum(p.stat().st_size for _, p in todo); t0 = time.time(); stage = Stage(ctc_model=ctc_model); down = 0
     for (v, _), res in zip(todo, stage.process.starmap(args, order_outputs=True, return_exceptions=True)):
         if isinstance(res, Exception): print(f"{v}: ОШИБКА {res!r}", flush=True); continue
         (audiodir_p / f"{v}_voc.wav").write_bytes(res["voc"])
