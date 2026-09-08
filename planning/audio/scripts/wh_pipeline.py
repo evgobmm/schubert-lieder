@@ -33,7 +33,7 @@ while _i<_n:
         if (_j-_i)/100>=0.4: _ph.append((_i/100,_j/100))
         _i=_j
     else: _i+=1
-def _in_phrase(a,b): return any(pa-0.3<=a<=pb+0.3 or pa-0.3<=b<=pb+0.3 or (a<pa and b>pb) for pa,pb in _ph)
+def _in_phrase(a,b): return any(pa-0.6<=a<=pb+0.6 or pa-0.6<=b<=pb+0.6 or (a<pa and b>pb) for pa,pb in _ph)   # допуск 0.6 с на границах фраз
 kept=[]; dropped=[]
 for w in W:
     far=(not kept) or (w['start']-kept[-1]['end']>3.0)
