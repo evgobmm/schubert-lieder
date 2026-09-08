@@ -297,9 +297,10 @@ for k in range(1,K):
         for pc in (0,1):
             if dp[k-1][pc]>NEG and t>=C[pc][k-1]['start']+0.02 and dp[k-1][pc]+u>dp[k][c]: dp[k][c]=dp[k-1][pc]+u; bp[k][c]=pc
 c=0 if dp[K-1][0]>=dp[K-1][1] else 1; choice=[0]*K
-for k in range(K-1,-1,-1):
-    choice[k]=c
-    if k>0: c=bp[k][c]
+if max(dp[K-1])>NEG:   # путь найден — обратный ход; иначе (порядок не сошёлся) ниже берётся основной движок
+    for k in range(K-1,-1,-1):
+        choice[k]=c
+        if k>0: c=bp[k][c]
 
 import os
 def _dbg(stage):

@@ -7,11 +7,14 @@ import json, sys, os, difflib
 from collections import Counter
 SONG, DIR, PREFIX = sys.argv[1], sys.argv[2], sys.argv[3]; vids=sys.argv[4:]
 song=json.load(open(SONG)); S=len(song['stanzas'])
-def nwords(s,l): return len(song['stanzas'][s]['lines_de'][l].split())
+import unicodedata
+def _has_letters(w): return any(c.isalpha() for c in unicodedata.normalize('NFD',w))
+def lettered(s,l): return [k for k,w in enumerate(song['stanzas'][s]['lines_de'][l].split()) if _has_letters(w)]   # индексы слов с буквами (тире — не слово)
+def nwords(s,l): return len(lettered(s,l))
 routes={}; anchors={}
 for v in vids:
     t=json.load(open(f'{DIR}/{PREFIX}-{v}.json'))
-    routes[v]=[(p['s'],p['l'],tuple(k for k,x in enumerate(p['w']) if x)) for p in t['route']]
+    routes[v]=[(p['s'],p['l'],tuple(k for k,x in enumerate(p['w']) if x and k in lettered(p['s'],p['l']))) for p in t['route']]
     anchors[v]=t.get('anchored',0)
 cons=[]; report=[]
 for st in range(S):

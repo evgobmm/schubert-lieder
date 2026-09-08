@@ -29,10 +29,12 @@ def load(p):
     return score
 SA,SB=load(EM_A),load(EM_B)
 t=json.load(open(SITE)); flat=[];names=[]
+def _letters(w): return [c for c in fold(w) if c.isalpha()]
 for p in t['route']:
     lw=song['stanzas'][p['s']]['lines_de'][p['l']].split()
     for k,iv in enumerate(p['w']):
-        if iv: flat.append(iv); names.append((p['s'],p['l'],lw[k]))
+        if iv and _letters(lw[k]): flat.append(iv); names.append((p['s'],p['l'],lw[k]))   # слова без букв (тире) — нулевые интервалы, не слова
+_ord=sorted(range(len(flat)),key=lambda i:flat[i][0]); flat=[flat[i] for i in _ord]; names=[names[i] for i in _ord]   # по времени звучания
 x,_=sf.read(WAV,dtype='float32'); n=len(x)//160; env=np.sqrt((x[:n*160].reshape(n,160)**2).mean(1))
 ref=np.median([env[int(a*100):max(int(b*100),int(a*100)+1)].mean() for a,b in flat if b-a>0.2]); V=env/ref
 cands=[(f"{i}:{j}",l) for i,j,l in lines]+[(f"{lines[k][0]}:{lines[k][1]}+{lines[k+1][0]}:{lines[k+1][1]}",lines[k][2]+' '+lines[k+1][2]) for k in range(len(lines)-1)]
