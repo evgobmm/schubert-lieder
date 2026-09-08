@@ -20,6 +20,9 @@ for p in prefixes:
     if cuts: flags.append(f"купюры ({cuts}) — певец пропускает или текст не тот")
     if ins > 3 * max(1, len(dec)): flags.append(f"много вставок ({ins}) — текст не совпадает с тем, что поют?")
     if 'Traceback' in log or 'ОШИБКА' in log: flags.append('ОШИБКА в логе')
+    if 'НЕТ ФАЙЛА' in log: flags.append('нет файла у записи')
+    missing=[v for v in dec if not os.path.exists(f'{R}/app/src/data/timings/{p}-{v}.json')]
+    if missing: flags.append(f'нет файлов: {len(missing)}')
     if not os.path.exists(f'{SONGS}/{p}/decisions.txt'): flags.append('не собрана')
     rows.append(f"| D {d} | {len(perf.get(d, []))} | {c['свой']} / {c['починка']} / {c['запасной']} | {holes_final if 'после запасного пути' in log else holes} | {variants} | {cuts} | {ins} | {'; '.join(flags) or '—'} |")
 out = '\n'.join(rows); print(out); open(f'{SONGS}/report.md', 'w').write(f"# Сводка партии\n\n{out}\n")

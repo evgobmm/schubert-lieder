@@ -4,7 +4,7 @@
 set -e; SCRIPTS=$(dirname "$(realpath "$0")"); SP=$(cd "$SCRIPTS/.."; pwd); PY=$SP/align/.venv/bin/python
 RUNDIR=$(realpath "$1"); shift; cd "$RUNDIR"; SPEC=$RUNDIR/spec.json
 SONG=$(python3 -c "import json;print(json.load(open('$SPEC'))['song'])"); PREFIX=$(python3 -c "import json;print(json.load(open('$SPEC'))['prefix'])")
-if [ "$1" = "--route" ]; then cp "$2" route_consensus.json; shift 2; echo "маршрут из файла: $(python3 -c "import json;print(len(json.load(open('route_consensus.json'))))") проходов"
+if [ "$1" = "--route" ]; then [ "$(realpath "$2")" = "$(realpath -m route_consensus.json)" ] || cp "$2" route_consensus.json; shift 2; echo "маршрут из файла: $(python3 -c "import json;print(len(json.load(open('route_consensus.json'))))") проходов"
 else REF=$1; shift
 python3 - "$REF" "$PREFIX" <<'PY'
 import json,sys

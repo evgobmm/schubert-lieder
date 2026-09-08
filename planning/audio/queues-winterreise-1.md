@@ -2,6 +2,88 @@
 
 Критерий очереди: слово без якоря Whisper, короче 0,12 с или взятое у второго движка; у записей запасного пути — слова короче 0,12 с. На слух не проверено.
 
+## D 911/1 — Gute Nacht
+
+- Quasthoff — Spencer 1997 (`1ukA2eu5dF4`) — не выложено
+- Mattei — Nilsson 2018 (`f-3NHrel67c`) — не выложено
+### Fischer-Dieskau — Moore 1962 (`QYpyKs644eA`) — запасной; проходов 49; в очереди 1 слов
+1.3 Der @25.8
+
+### Anders — Raucheisen 1945 (`6jx-wVDmjQ8`) — запасной; проходов 49; в очереди 1 слов
+1.5 Das @37.1
+
+- Hotter — Raucheisen 1942 (`m2EQP7s_K2c`) — не выложено
+## D 911/2 — Die Wetterfahne
+
+### Quasthoff — Spencer 1997 (`rZq8o0U9oKc`) — запасной; проходов 17; в очереди 0 слов
+—
+
+### Mattei — Nilsson 2018 (`ECATUthRxJM`) — свой; проходов 17; в очереди 9 слов
+1.3 in @20.3, 1.4 Sie @21.2, 1.4 pfiff' @21.4, 2.1 eher @26.6, 3.1 Der @39.0, 3.1 den @45.0, 3.1 spielt @63.2, 3.3 Was @73.8, 3.4 Ihr @80.8
+
+### Fischer-Dieskau — Moore 1962 (`3892R7JOPl8`) — свой; проходов 17; в очереди 6 слов
+1.4 Flüchtling @23.9, 2.2 Schild, @32.6, 2.3 So @33.2, 3.3 Was @56.9, 3.4 Braut. @63.7, 3.4 eine @89.4
+
+### Anders — Raucheisen 1945 (`e7BX2k1D00I`) — свой; проходов 17; в очереди 4 слов
+1.1 Der @9.9, 3.4 ist @65.8, 3.1 Wind @70.7, 3.1 Herzen, @73.5
+
+### Hotter — Raucheisen 1942 (`mWVjfGuhTDg`) — свой; проходов 17; в очереди 5 слов
+2.4 Frauenbild. @44.0, 3.4 Braut. @76.5, 3.1 Wind @79.4, 3.1 den @82.3, 3.3 Was @96.8
+
+## D 911/3 — Gefrorne Tränen
+
+### Quasthoff — Spencer 1997 (`qT6dozgg6Qw`) — запасной; проходов 19; в очереди 1 слов
+3.1 Ihr @74.3
+
+### Mattei — Nilsson 2018 (`ckPWZwN8NWU`) — запасной; проходов 19; в очереди 0 слов
+—
+
+### Fischer-Dieskau — Moore 1962 (`zzKPB71oo1s`) — свой; проходов 19; в очереди 5 слов
+1.4 ich @42.0, 2.1 Ei @54.9, 3.1 / @80.9, 3.1 Ihr @81.0, 3.2 so @113.8
+
+- Anders — Raucheisen 1945 (`T617fVb-AFI`) — не выложено
+- Hotter — Raucheisen 1942 (`aRYRFFBA_0E`) — не выложено
+## D 911/5 — Der Lindenbaum
+
+### Quasthoff — Spencer 1997 (`5SV7-6-imqY`) — починка; проходов 29; в очереди 13 слов
+1.4 Traum. @50.8, 3.1 heute @102.8, 3.2 Vorbei @106.4, 4.1 Zweige @130.9, 4.3 her @143.2, 4.4 findst @150.3, 5.1 kalten @162.3, 5.4 wendete @175.1, 6.4 fändest @253.3, 6.4 Du @262.1, 6.4 fändest @263.3, 6.4 Ruhe @266.3, 6.4 dort! @267.4
+
+- Mattei — Nilsson 2018 (`0fFCoiXVTJs`) — не выложено
+- Fischer-Dieskau — Moore 1962 (`m5cvei2Le6w`) — не выложено
+- Anders — Raucheisen 1945 (`1L6_1J6xoxo`) — не выложено
+- Hotter — Raucheisen 1942 (`2pHFbSnXZKw`) — не выложено
+## D 911/6 — Wasserflut
+
+### Quasthoff — Spencer 1997 (`6ple2IgAb3o`) — запасной; проходов 20; в очереди 0 слов
+—
+
+### Mattei — Nilsson 2018 (`RyesAIVnYlg`) — починка; проходов 20; в очереди 13 слов
+1.3 Flocken @36.3, 1.4 heiße @53.0, 2.1 Wenn @73.6, 2.2 Weht @81.7, 3.4 Nimmt @152.3, 3.4 dich @153.3, 3.4 Nimmt @161.2, 3.4 dich @162.2, 3.4 bald @162.8, 3.4 das @163.9, 3.4 Bächlein @164.4, 3.4 auf. @166.6, 4.1 Wirst @185.8
+
+### Fischer-Dieskau — Moore 1962 (`Li_ySmT0kqQ`) — свой; проходов 20; в очереди 8 слов
+1.2 in @27.3, 1.3 Flocken @36.2, 1.4 Weh. @44.9, 1.4 heiße @52.6, 2.1 Wenn @74.4, 2.2 daher @84.4, 4.3 Fühlst @217.1, 4.4 ist @227.8
+
+### Anders — Raucheisen 1945 (`FwzyJDQLNRk`) — свой; проходов 20; в очереди 7 слов
+1.2 Ist @21.9, 1.4 Weh. @50.3, 2.4 Schnee @98.6, 3.2 geht @128.4, 3.4 auf. @155.3, 4.1 Wirst @170.2, 4.2 ein @181.1
+
+### Hotter — Raucheisen 1942 (`fgdXMCEoi7E`) — починка; проходов 20; в очереди 11 слов
+1.2 in @25.2, 1.3 Flocken @32.6, 1.4 heiße @49.7, 2.4 Und @96.8, 2.4 der @97.7, 2.4 weiche @98.0, 2.4 Schnee @100.0, 2.4 zerrinnt. @101.2, 3.4 Nimmt @140.1, 3.4 dich @150.9, 4.2 Straßen @179.5
+
+## D 911/7 — Auf dem Flusse
+
+### Quasthoff — Spencer 1997 (`ZwE8lnuf9fc`) — свой; проходов 30; в очереди 11 слов
+1.1 so @11.6, 1.3 still @21.2, 1.3 bist @22.6, 1.4 Scheidegruß. @28.6, 2.1 harter, @35.5, 2.3 Liegst @45.7, 3.4 Stund' @77.8, 4.1 Den @82.7, 4.2 Den @88.0, 4.2 Tag, @88.6, 4.2 ging, @91.5
+
+- Mattei — Nilsson 2018 (`OS216XVOCVU`) — не выложено
+### Fischer-Dieskau — Moore 1962 (`guAttqEpDsw`) — починка; проходов 30; в очереди 14 слов
+1.2 heller, @18.8, 1.3 du @26.6, 2.1 harter, @40.8, 2.2 Hast @46.3, 5.2 nun @141.1, 5.3 Ob's @158.1, 5.4 Wohl @158.9, 5.3 Ob's @186.6, 5.3 Ob's @204.0, 5.4 Wohl @205.0, 5.4 auch @205.4, 5.4 so @206.2, 5.4 reißend @207.0, 5.4 schwillt? @208.6
+
+### Anders — Raucheisen 1945 (`-L5rYP7vQzE`) — свой; проходов 30; в очереди 4 слов
+1.2 heller, @22.3, 1.2 wilder @24.0, 3.3 Den @95.6, 3.4 Stund' @103.6
+
+### Hotter — Raucheisen 1942 (`Z9dFl2NbCY0`) — починка; проходов 28; в очереди 9 слов
+1.2 heller, @22.0, 1.3 still @29.6, 4.3 Nam' @122.7, 4.3 und @124.1, 5.2 Erkennst @194.7, 5.2 dein @198.3, 5.2 Bild? @199.7, 5.3 Rinde @220.0, 5.4 Wohl @220.5
+
 ## D 911/9 — Irrlicht
 
 ### Quasthoff — Spencer 1997 (`kovGPb5x5cM`) — починка; проходов 16; в очереди 11 слов
@@ -25,8 +107,12 @@
 1.3 Wandern @33.6, 2.3 fühlte @76.2, 2.3 keine @77.6, 2.4 wehen. @85.9, 3.1 Köhlers @106.3, 4.2 verwegen, @140.0, 4.3 in @143.8, 4.3 in @160.1
 
 - Mattei — Nilsson 2018 (`w8tnr-YFaAo`) — не выложено
-- Fischer-Dieskau — Moore 1962 (`mLNqzgrpB0g`) — не выложено
-- Anders — Raucheisen 1945 (`yKANP6iB1XU`) — не выложено
+### Fischer-Dieskau — Moore 1962 (`mLNqzgrpB0g`) — запасной; проходов 20; в очереди 0 слов
+—
+
+### Anders — Raucheisen 1945 (`yKANP6iB1XU`) — запасной; проходов 20; в очереди 0 слов
+—
+
 ### Hotter — Raucheisen 1942 (`NRBktEedHms`) — починка; проходов 20; в очереди 2 слов
 2.3 keine @88.3, 4.3 Fühlst @163.8
 
@@ -47,6 +133,23 @@
 ### Hotter — Raucheisen 1942 (`p5AtqfCqzt8`) — свой; проходов 36; в очереди 9 слов
 1.4 Vogelgeschrei. @35.1, 3.4 Der @107.4, 5.3 ich @186.0, 6.1 Die @201.7, 6.2 schlägt @209.7, 6.2 so @212.7, 6.1 Die @216.4, 6.2 warm. @229.3, 6.4 Arm? @258.4
 
+## D 911/12 — Einsamkeit
+
+### Quasthoff — Spencer 1997 (`Ogky0e8wNs8`) — свой; проходов 16; в очереди 7 слов
+1.2 Lüfte @25.1, 2.1 ich @44.7, 2.3 Durch @55.4, 2.4 Einsam @61.5, 2.4 ohne @63.9, 3.4 so @100.8, 3.4 War @133.6
+
+### Mattei — Nilsson 2018 (`1PvQYXE9nso`) — свой; проходов 16; в очереди 10 слов
+1.1 Wie @18.7, 1.1 eine @19.0, 1.2 Lüfte @27.0, 2.1 zieh' @44.0, 2.1 ich @45.3, 2.2 Fuß, @53.0, 2.3 helles, @56.0, 2.4 Einsam @61.4, 3.4 War @94.9, 3.4 so @135.4
+
+### Fischer-Dieskau — Moore 1962 (`e3vDkk6z5dU`) — запасной; проходов 16; в очереди 1 слов
+3.4 nicht. @112.7
+
+### Anders — Raucheisen 1945 (`0QDthmxU6SI`) — свой; проходов 16; в очереди 17 слов
+1.1 Wie @21.4, 1.1 eine @22.5, 1.1 trübe @23.1, 1.1 Wolke @24.9, 1.2 Durch @27.3, 1.2 heitre @28.1, 1.2 Lüfte @29.9, 1.2 geht, @31.7, 1.3 Wenn @34.1, 1.3 in @35.0, 1.3 der @36.1, 1.3 Tanne @36.7, 1.3 Wipfel @38.3, 2.3 frohes @64.3, 2.4 Einsam @68.8, 3.3 Stürme @95.6, 3.4 War @102.3
+
+### Hotter — Raucheisen 1942 (`VvKs6UuTCQU`) — свой; проходов 16; в очереди 9 слов
+1.1 Wie @21.2, 1.1 eine @22.2, 1.4 Ein @41.4, 1.4 Lüftchen @43.9, 2.1 zieh' @48.9, 2.3 helles, @63.2, 2.4 und @71.5, 3.2 dass @86.5, 3.4 elend, @143.7
+
 ## D 911/14 — Der greise Kopf
 
 ### Quasthoff — Spencer 1997 (`TdPBhx4R6kE`) — свой; проходов 14; в очереди 2 слов
@@ -64,6 +167,19 @@
 ### Hotter — Raucheisen 1942 (`M5xkHnObVMw`) — свой; проходов 14; в очереди 12 слов
 1.3 schon @41.6, 1.3 ein @42.3, 1.3 Greis @42.8, 1.3 zu @44.0, 2.1 Doch @59.2, 2.2 Hab' @65.2, 2.4 Wie @84.5, 2.4 bis @96.4, 2.4 Bahre! @98.1, 3.2 mancher @115.2, 3.2 Kopf @118.3, 3.3 Wer @131.1
 
+## D 911/16 — Letzte Hoffnung
+
+### Quasthoff — Spencer 1997 (`xNCWseB9f5o`) — свой; проходов 13; в очереди 10 слов
+1.1 Hie @8.1, 1.1 und @8.6, 1.2 bunte @12.5, 3.1 fällt @47.8, 3.1 Boden, @49.3, 3.3 mit @64.5, 3.3 zu @64.7, 3.3 Boden, @65.0, 3.4 wein' @87.2, 3.4 Hoffnung @95.8
+
+### Mattei — Nilsson 2018 (`xeZlMXF5pjA`) — запасной; проходов 13; в очереди 0 слов
+—
+
+### Fischer-Dieskau — Moore 1962 (`ObY2GEnUtC0`) — запасной; проходов 13; в очереди 0 слов
+—
+
+- Anders — Raucheisen 1945 (`OeidijdwyV8`) — не выложено
+- Hotter — Raucheisen 1942 (`2X0ST1DOXAU`) — не выложено
 ## D 911/17 — Im Dorfe
 
 ### Quasthoff — Spencer 1997 (`wJxM9lxGdtg`) — свой; проходов 17; в очереди 6 слов
@@ -84,7 +200,9 @@
 ### Quasthoff — Spencer 1997 (`7pYhC7NKu94`) — свой; проходов 14; в очереди 2 слов
 3.2 Bild @36.8, 3.4 wild! @44.5
 
-- Mattei — Nilsson 2018 (`BQrn4gXAMkY`) — не выложено
+### Mattei — Nilsson 2018 (`BQrn4gXAMkY`) — запасной; проходов 14; в очереди 1 слов
+2.2 hin. @28.9
+
 ### Fischer-Dieskau — Moore 1962 (`YxFozm_33qw`) — свой; проходов 14; в очереди 4 слов
 1.3 Die @12.7, 2.2 zwischen @25.5, 2.3 Das @27.7, 3.3 nichts @41.6
 
@@ -93,6 +211,53 @@
 
 ### Hotter — Raucheisen 1942 (`vj3o7i1ZF3w`) — свой; проходов 14; в очереди 2 слов
 1.1 Wie @8.6, 1.3 Die @14.2
+
+## D 911/19 — Täuschung
+
+### Quasthoff — Spencer 1997 (`u_wMIrrhhNM`) — запасной; проходов 10; в очереди 1 слов
+1.3 und @23.3
+
+### Mattei — Nilsson 2018 (`-YWhKvCd6uQ`) — свой; проходов 10; в очереди 4 слов
+1.1 vor @10.9, 1.3 und @23.6, 1.3 seh's @23.8, 1.10 ist @63.3
+
+### Fischer-Dieskau — Moore 1962 (`VFvoifYgWJQ`) — запасной; проходов 10; в очереди 0 слов
+—
+
+### Anders — Raucheisen 1945 (`Dtyh0VLSC7M`) — свой; проходов 10; в очереди 4 слов
+1.1 freundlich @13.1, 1.2 folg' @18.6, 1.4 verlockt @34.7, 1.7 Die @52.3
+
+### Hotter — Raucheisen 1942 (`blkI0ozFB0M`) — запасной; проходов 10; в очереди 0 слов
+—
+
+## D 911/20 — Der Wegweiser
+
+### Quasthoff — Spencer 1997 (`9_LKY7K2o2Q`) — запасной; проходов 30; в очереди 0 слов
+—
+
+### Mattei — Nilsson 2018 (`louDDB1zeGE`) — починка; проходов 30; в очереди 39 слов
+1.3 versteckte @29.6, 1.3 Suche @39.1, 1.3 mir @39.8, 1.3 versteckte @40.4, 1.3 Stege @42.3, 1.4 Durch @44.3, 1.4 verschneite @44.6, 1.4 Felsenhöhn? @46.4, 1.4 Durch @48.3, 1.4 verschneite @48.6, 1.4 Felsenhöhn? @49.0, 2.2 Dass @63.0, 3.2 zu, @120.3, 3.4 Ruh'. @147.9, 4.2 vor @162.4, 4.1 Einen @188.5, 4.1 Weiser @189.2, 4.1 seh' @190.0, 4.1 ich @191.0, 4.1 stehen @191.9, 4.2 Unverrückt @193.9, 4.2 vor @195.6, 4.2 meinem @196.1, 4.2 Blick; @197.3, 4.3 Eine @199.5, 4.3 Straße @199.9, 4.3 muss @201.4, 4.3 ich @202.1, 4.3 gehen, @202.7, 4.4 Die @204.8, 4.4 noch @205.2, 4.4 Keiner @205.8, 4.4 ging @209.0, 4.4 zurück. @209.2, 4.4 Die @209.5, 4.4 noch @209.5, 4.4 Keiner @210.0, 4.4 ging @210.4, 4.4 zurück. @211.4
+
+### Fischer-Dieskau — Moore 1962 (`G6bUhKUxrE8`) — запасной; проходов 30; в очереди 0 слов
+—
+
+### Anders — Raucheisen 1945 (`D8JqwfVs0QQ`) — свой; проходов 30; в очереди 9 слов
+1.1 Wege, @17.6, 1.4 verschneite @48.7, 3.1 Wegen, @111.8, 4.1 Weiser @154.4, 4.2 vor @161.6, 4.1 Einen @190.4, 4.1 seh' @192.9, 4.2 vor @198.4, 4.4 noch @221.7
+
+### Hotter — Raucheisen 1942 (`MEiKrFsD1M8`) — починка; проходов 30; в очереди 22 слов
+1.2 Wo @19.7, 1.3 Suche @38.6, 1.3 mir @39.3, 1.3 versteckte @40.0, 1.3 Stege @42.1, 1.4 Durch @44.2, 1.4 verschneite @44.6, 1.4 Felsenhöhn? @46.3, 1.4 Durch @48.7, 1.4 verschneite @49.3, 1.4 Felsenhöhn? @49.6, 2.2 — @69.0, 2.2 — @74.1, 3.3 sonder @126.6, 3.4 suche @132.6, 4.1 Einen @157.9, 4.1 seh' @159.7, 4.1 ich @160.6, 4.2 vor @166.0, 4.1 Einen @197.3, 4.1 stehen @201.4, 4.2 vor @205.6
+
+## D 911/21 — Das Wirtshaus
+
+### Quasthoff — Spencer 1997 (`FBRjbzkJAOM`) — свой; проходов 18; в очереди 10 слов
+1.2 Weg @59.2, 1.3 will @68.7, 1.4 Hab' @76.0, 3.2 all' @178.7, 3.2 besetzt? @179.6, 3.3 Bin @183.8, 3.4 schwer @196.3, 3.4 verletzt. @197.6, 4.1 O @211.5, 4.1 unbarmherz'ge @211.6
+
+### Mattei — Nilsson 2018 (`cbSORpAnQXg`) — запасной; проходов 18; в очереди 0 слов
+—
+
+- Fischer-Dieskau — Moore 1962 (`WFPYJAbhX0w`) — не выложено
+- Anders — Raucheisen 1945 (`-FigIYty304`) — не выложено
+### Hotter — Raucheisen 1942 (`9GulAsgEZu0`) — свой; проходов 18; в очереди 5 слов
+1.2 Hat @47.6, 1.4 Hab' @63.8, 2.1 Ihr @86.2, 3.2 Kammern @139.5, 4.2 mich @178.8
 
 ## D 911/22 — Mut!
 
@@ -110,3 +275,28 @@
 
 ### Hotter — Raucheisen 1942 (`IWRt1z4Skmk`) — починка; проходов 16; в очереди 9 слов
 1.1 Fliegt @6.5, 2.3 klagt, @42.2, 3.3 Will @73.2, 3.3 kein @73.8, 3.3 Gott @74.0, 3.3 auf @74.3, 3.3 Erden @74.7, 3.3 sein, @75.3, 3.4 wir @76.4
+
+## D 911/23 — Die Nebensonnen
+
+- Quasthoff — Spencer 1997 (`jadDt_6GGGE`) — не выложено
+### Mattei — Nilsson 2018 (`8WbUo2HzV6c`) — запасной; проходов 10; в очереди 0 слов
+—
+
+### Fischer-Dieskau — Moore 1962 (`noL0hg5iSN4`) — запасной; проходов 10; в очереди 1 слов
+1.8 die @103.7
+
+### Anders — Raucheisen 1945 (`ApzYyt8s_zA`) — свой; проходов 10; в очереди 3 слов
+1.8 die @93.4, 1.9 die @109.4, 1.10 wohler @123.6
+
+- Hotter — Raucheisen 1942 (`IlFB-a2Wh4c`) — не выложено
+## D 911/24 — Der Leiermann
+
+### Quasthoff — Spencer 1997 (`fNJ39sH4azQ`) — свой; проходов 24; в очереди 9 слов
+1.1 Drüben @23.7, 1.1 hinter'm @25.1, 1.1 Dorfe @26.1, 1.2 Steht @26.9, 1.2 ein @27.7, 1.2 Leiermann, @28.1, 3.3 die @107.4, 4.4 still. @138.1, 4.4 still. @151.5
+
+- Mattei — Nilsson 2018 (`zqApr0BdB64`) — не выложено
+### Fischer-Dieskau — Moore 1962 (`vSuqEm5o_Lg`) — свой; проходов 24; в очереди 23 слов
+1.1 Drüben @25.6, 1.1 hinter'm @26.8, 1.2 Steht @28.9, 1.2 ein @29.4, 1.2 Leiermann, @29.8, 1.3 Und @37.9, 1.3 mit @38.5, 1.3 starren @38.9, 1.3 Fingern @39.9, 3.1 Keiner @96.2, 4.4 still. @153.9, 5.2 Soll @174.1, 5.2 ich @174.9, 5.2 mit @175.5, 5.2 dir @176.2, 5.2 gehn? @177.1, 5.3 Willst @180.0, 5.3 zu @181.3, 5.3 meinen @181.7, 5.3 Liedern @183.0, 5.4 Deine @184.4, 5.4 Leier @185.7, 5.4 drehn? @187.1
+
+- Anders — Raucheisen 1945 (`YJeFrSe-b8I`) — не выложено
+- Hotter — Raucheisen 1942 (`aO7NBQTkUWE`) — не выложено
