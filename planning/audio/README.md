@@ -85,3 +85,15 @@ Demucs → эмиссии → Whisper(язык) → `wh_pipeline.py` → авт�
 gpu_stage.py` по языкам (Demucs, эмиссии, Whisper на GPU; веса в томе Modal `schubert-models`) → `finish_control.sh
 songs/<prefix>` → `batch_report.py` (таблица `songs/report.md`). Токен Modal — `modal token new` / `modal token set`.
 Без GPU то же самое делает `run_control.sh` (все стадии локально, ~25 мин на песню).
+
+## Производственный конвейер (2026-09-08, вечер): всё тяжёлое — в облаке Modal
+
+Локально: `tools/batch_gpu.sh <D…>` — спецификации (`make_spec.py`), скачивание сжатого звука (`yt-dlp`, 3–4 потока, датацентровые
+IP YouTube не отдаёт), затем GPU-стадия `gpu_stage.py::main` (Modal L4, до 10 контейнеров; Demucs, эмиссии MMS+xlsr, Whisper
+large-v3 temp0; выходы — локально в `align/`, `audio/` и в том Modal `schubert-data`; до трёх повторов при обрыве сети), затем
+сборка в облаке `cpu_stage.py` (Modal CPU, до 40 контейнеров; данные из тома, инструменты смонтированы из `planning/audio/scripts`,
+дораспознавание окон через развёрнутый `Retr` — `modal deploy gpu_stage.py`), отдельно — `finish_cloud.sh [batch.txt]`. Сводка
+`batch_report.py`, очереди `queues.py`, локальная сборка на крайний случай — `LOCAL_FINISH=1` (`batch_finish.sh`, ≤ 3 процесса,
+память контейнера 7,8 ГБ). Проба доступности Modal: `modal run gpu_stage.py::retr --windows empty.json`.
+Порог публикации — ≤ 2 дыр на запись (`MAX_HOLES`), удержанные — `songs/<prefix>/held/`. Варианты текста — `variants_filter.py`
+(сильные / вторая запись / `variants-confirmed.json`), остальные кандидаты — в очередь.
