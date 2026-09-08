@@ -29,7 +29,7 @@ for v in $VIDS; do
     m=$(gate $v); echo "$v: дыр после запасного пути $m"
     if [ "$m" = "НЕТ ФАЙЛА" ] || [ "$m" -ge "$n" ]; then cp "own/keep_$v.json" "$APP/$PREFIX-$v.json"; cp "own/keep_holes_$v.txt" "holes_$v.txt"; echo "$v: оставлен свой маршрут ($n дыр)"; else sed -i "s/^$v .*/$v запасной (дыры: свой $n, запасной $m)/" decisions.txt; fi
   fi
-  h=$(wc -l < "holes_$v.txt" 2>/dev/null || echo 0)
-  if [ -f "$APP/$PREFIX-$v.json" ] && [ "$h" -gt "$MAX_HOLES" ]; then mv "$APP/$PREFIX-$v.json" "held/"; echo "$v: УДЕРЖАНО ($h дыр > $MAX_HOLES)"; fi
+  h=$(wc -l < "holes_$v.txt" 2>/dev/null || echo 0); long=$(grep -a -o "([0-9.]* с)" "holes_$v.txt" 2>/dev/null | tr -d '( с)' | awk -v M="${MAX_HOLE_SEC:-8}" '$1>M' | wc -l)
+  if [ -f "$APP/$PREFIX-$v.json" ] && { [ "$h" -gt "$MAX_HOLES" ] || [ "$long" -gt 0 ]; }; then mv "$APP/$PREFIX-$v.json" "held/"; echo "$v: УДЕРЖАНО ($h дыр > $MAX_HOLES или дыра длиннее ${MAX_HOLE_SEC:-8} с: $long)"; fi
 done
 echo "ГОТОВО $PREFIX $(date +%T)"
