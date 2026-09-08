@@ -97,29 +97,73 @@ def run_match(W):
     # вставка (слово Whisper без пары в тексте): дёшево для мусора, дорого для слова, которое точно есть в тексте, —
     # иначе ДП объявляло вставками настоящий рефрен («…für dich, mein Herz, mein Herz, was drängst…» — 4 точных слова дешевле, чем прыжок к строке и обратно)
     INS=0.9
-    def insw(i,j):   # вставка слова i в позиции j: дорого, если такое слово есть в тексте рядом (±2 строки), дёшево для мусора
-        lo_=TIDX[j][0]*10+TIDX[j][1]
-        dloc=min((dist[i][t] for t in range(N) if abs(TIDX[t][0]*10+TIDX[t][1]-lo_)<=2),default=1.0)
-        return INS+1.5*(1-dloc)
+    # --- ТА ЖЕ ЗАДАЧА, БЫСТРО: переходы-прыжки считаются по строкам (минимумы предыдущего ряда по строке, префиксные/суффиксные
+    # минимумы внутри строки), а не перебором всех N позиций для каждой из N целей: O(M·(N + строк²)) вместо O(M·N²) —
+    # на 12-минутных балладах (750 слов) перебор не укладывался в часовой лимит контейнера. Семантика прежняя:
+    #   к началу строки (любой jp ≠ j-1): 1.2 + 0.35·ldist;  внутрь строки вперёд: 0.8·gap при gap ≤ 2, иначе 2.5 + 0.35·ldist;
+    #   назад внутрь строки (jp ≥ j): 1.2 + 0.35·ldist;  вставка: 0.9 + 1.5·(1 − d_loc) по совпадению в ±2 строках.
+    LU=[TIDX[j][0]*10+TIDX[j][1] for j in range(N)]; LUv=sorted(set(LU)); Lidx={lu:k for k,lu in enumerate(LUv)}; NL=len(LUv)
+    line_of=[Lidx[LU[j]] for j in range(N)]; line_words=[[] for _ in range(NL)]
+    for j in range(N): line_words[line_of[j]].append(j)
+    pos_in_line=[0]*N
+    for ws in line_words:
+        for q,j in enumerate(ws): pos_in_line[j]=q
+    def _minpair(a,b): return a if a[0]<=b[0] else b
     for i in range(1,M):
+        B=best[i-1]
+        # цена вставки слова i по строке: d_loc — лучшее совпадение в строках на расстоянии ≤ 2
+        mn_line=[min(dist[i][t] for t in ws) for ws in line_words]
+        insw_line=[INS+1.5*(1-min(mn_line[k2] for k2 in range(NL) if abs(LUv[k2]-LUv[k])<=2)) for k in range(NL)]
+        # минимумы предыдущего ряда по строкам (значение, позиция) — все слова строки и без последнего слова
+        mnB=[]; mnBx=[]
+        for ws in line_words:
+            v=(INF,-1); vx=(INF,-1)
+            for q,jp in enumerate(ws):
+                if B[jp]<v[0]: v=(B[jp],jp)
+                if q<len(ws)-1 and B[jp]<vx[0]: vx=(B[jp],jp)
+            mnB.append(v); mnBx.append(vx)
+        # G[k]: лучший источник в строках ДО k с штрафом 2.5 + 0.35·ldist (далёкий прыжок вперёд внутрь строки);
+        # H[k]: лучший источник в строках ПОСЛЕ k с штрафом 1.2 + 0.35·ldist (возврат назад внутрь строки)
+        G=[(INF,-1)]*NL; H=[(INF,-1)]*NL
+        for k in range(NL):
+            g=(INF,-1); h=(INF,-1)
+            for k2 in range(k): 
+                if mnB[k2][0]<INF: g=_minpair(g,(mnB[k2][0]+2.5+0.35*(LUv[k]-LUv[k2]),mnB[k2][1]))
+            for k2 in range(k+1,NL):
+                if mnB[k2][0]<INF: h=_minpair(h,(mnB[k2][0]+1.2+0.35*(LUv[k2]-LUv[k]),mnB[k2][1]))
+            G[k]=g; H[k]=h
+        # префиксные/суффиксные минимумы внутри строк (значение, позиция)
+        pref={}; suf={}
+        for ws in line_words:
+            cur=(INF,-1)
+            for jp in ws: cur=_minpair(cur,(B[jp],jp)); pref[jp]=cur
+            cur=(INF,-1)
+            for jp in reversed(ws): cur=_minpair(cur,(B[jp],jp)); suf[jp]=cur
         for j in range(N):
-            c=cost[i][j]; b=INF; bp=None
-            if best[i-1][j-1 if j>0 else 0]<INF and j>0 and best[i-1][j-1]+c<b: b=best[i-1][j-1]+c; bp=(j-1,'c')            # продолжение
-            for jp in range(N):                                                                                             # прыжок (повтор назад / вперёд)
-                if jp==j-1 or best[i-1][jp]>=INF: continue
-                if TIDX[j][2]==0: pen=1.2+0.35*ldist(jp,j)                       # к началу строки (повтор строки, рефрен, перестановка строк композитором) — вперёд или назад
-                elif j>jp:
-                    gap=j-jp-1                                                   # внутрь строки вперёд: пропущено слов текста
-                    pen=0.8*gap if gap<=2 else 2.5+0.35*ldist(jp,j)              # 1–2 неуслышанных слова — дёшево; дальше — дорого
-                else: pen=1.2+0.35*ldist(jp,j)                                   # возврат внутрь строки (частичный повтор: «…ihr Bild, ihr Bild dahin»)
-                if best[i-1][jp]+pen+c<b: b=best[i-1][jp]+pen+c; bp=(jp,'j')
-            if j>1 and best[i-1][j-2]<INF:                                                                                  # слияние: «Liebesliebchen» = liebes Liebchen
+            c=cost[i][j]; b=INF; bp=None; k=line_of[j]; ws=line_words[k]; q=pos_in_line[j]
+            if j>0 and B[j-1]<INF and B[j-1]+c<b: b=B[j-1]+c; bp=(j-1,'c')                                        # продолжение
+            if q==0:                                                                                              # начало строки: любой источник, кроме j-1
+                prevline=line_of[j-1] if j>0 else -1
+                for k2 in range(NL):
+                    src=mnBx[k2] if k2==prevline else mnB[k2]
+                    if src[0]<INF and src[0]+1.2+0.35*abs(LUv[k2]-LUv[k])+c<b: b=src[0]+1.2+0.35*abs(LUv[k2]-LUv[k])+c; bp=(src[1],'j')
+            else:
+                if j>=2 and B[j-2]<INF and B[j-2]+0.8+c<b: b=B[j-2]+0.8+c; bp=(j-2,'j')                          # пропущено 1 слово (и через границу строки)
+                if j>=3 and B[j-3]<INF and B[j-3]+1.6+c<b: b=B[j-3]+1.6+c; bp=(j-3,'j')                          # пропущено 2 слова
+                if q>=4:                                                                                          # далёкий прыжок вперёд внутри строки
+                    pv=pref[ws[q-4]]
+                    if pv[0]<INF and pv[0]+2.5+c<b: b=pv[0]+2.5+c; bp=(pv[1],'j')
+                if G[k][0]<INF and G[k][0]+c<b: b=G[k][0]+c; bp=(G[k][1],'j')                                       # из предыдущих строк (gap > 2)
+                sv=suf[j]                                                                                         # назад внутрь строки: jp >= j (в т.ч. jp == j)
+                if sv[0]<INF and sv[0]+1.2+c<b: b=sv[0]+1.2+c; bp=(sv[1],'j')
+                if H[k][0]<INF and H[k][0]+c<b: b=H[k][0]+c; bp=(H[k][1],'j')                                       # из последующих строк
+            if j>1 and B[j-2]<INF:                                                                                # слияние: «Liebesliebchen» = liebes Liebchen
                 cm=Lev.normalized_distance(WL[i],TL[j-1]+TL[j])
-                if cm<=0.25 and best[i-1][j-2]+cm<b: b=best[i-1][j-2]+cm; bp=(j-2,'m')
-            if i>1 and j>0 and best[i-2][j-1]<INF:                                                                          # разбиение: «auf springt» = aufspringt
+                if cm<=0.25 and B[j-2]+cm<b: b=B[j-2]+cm; bp=(j-2,'m')
+            if i>1 and j>0 and best[i-2][j-1]<INF:                                                                # разбиение: «auf springt» = aufspringt
                 cs=Lev.normalized_distance(WL[i-1]+WL[i],TL[j])
                 if cs<=0.25 and best[i-2][j-1]+cs<b: b=best[i-2][j-1]+cs; bp=(j-1,'s')
-            if best[i-1][j]<INF and best[i-1][j]+insw(i,j)<b: b=best[i-1][j]+insw(i,j); bp=(j,'i')                          # вставка: Whisper-слово лишнее
+            if B[j]<INF and B[j]+insw_line[k]<b: b=B[j]+insw_line[k]; bp=(j,'i')                                   # вставка: Whisper-слово лишнее
             best[i][j]=b; back[i][j]=bp
     j=min(range(N),key=lambda x: best[M-1][x]); path=[]; i=M-1
     while i>=0:
