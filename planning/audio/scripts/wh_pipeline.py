@@ -21,6 +21,23 @@ def letters(w): return re.sub(r"[^a-zäöü]","",_fold(w))
 TL=[letters(w) for w in TW]
 # --- Whisper
 wh=json.load(open(WH)); W=[w for s in wh for w in s['words'] if letters(w['w'])]
+# БУКВЕННАЯ МАССА CTC: сумма (1 - P(бланк)) по кадрам интервала ~ число букв, которые модель слышит там (фортепиано даёт бланки).
+# Только языковой движок (wav2vec2-xlsr, EM_B): он пиковый и точный; у MMS_FA на фортепиано размытая небланковая масса
+# (1.5–5 на полсекунды проигрыша без единой буквы в жадном декоде), которая раздувала бюджет в проигрышах
+def _blankpost(empt):
+    d=torch.load(empt); em=d['emission']; return torch.softmax(em,-1)[:,d.get('blank',0)].numpy()
+_PB=[_blankpost(EM_B)]
+def letter_mass(a,b):
+    f0=max(0,int(a/0.02)); f1=int(b/0.02)
+    return max(float((1-pb[f0:f1]).sum()) for pb in _PB) if f1>f0 else 0.0
+MASS_MIN=0.4   # слова считаются спетыми в интервале, если буквенная масса >= 0.4 их букв
+def voice_mean(a,b):
+    i,j=max(0,int(a*100)),int(b*100); return float(_V[i:j].mean()) if j>i else 0.0
+def sung_evidence(a,b,L,mass=None):
+    """в интервале [a,b] поются L букв: масса языкового движка >= MASS_MIN·L, ИЛИ движок глух к тихому легато (Бартоли, Попп),
+    но голос звучит (энергия стема >= 0.5 опорной в среднем) и времени хватает (>= 0.1 с на букву)"""
+    if mass is None: mass=letter_mass(a,b)
+    return mass>=MASS_MIN*L or (voice_mean(a,b)>=0.5 and (b-a)>=0.1*L)
 # ГАЛЛЮЦИНАЦИИ Whisper (аплодисменты, «Grazie a tutti», титры) — по акустике: голосовые фразы по энергии стема;
 # слово вне фраз и дальше 3 с от предыдущего принятого — отбрасывается; конец пения — конец последней фразы
 _x,_=sf.read(WAV,dtype='float32'); _n=len(_x)//160; _env=np.sqrt((_x[:_n*160].reshape(_n,160)**2).mean(1))
@@ -37,21 +54,12 @@ def _in_phrase(a,b): return any(pa-0.6<=a<=pb+0.6 or pa-0.6<=b<=pb+0.6 or (a<pa 
 kept=[]; dropped=[]
 for w in W:
     far=(not kept) or (w['start']-kept[-1]['end']>3.0)
-    if far and not _in_phrase(w['start'],w['end']): dropped.append(w); continue
+    if far and not _in_phrase(w['start'],w['end']) and letter_mass(w['start']-0.3,w['end']+0.3)<max(1.5,MASS_MIN*len(letters(w['w']))): dropped.append(w); continue   # вне фраз по энергии, но с буквами CTC под собой — голос, не галлюцинация (тихая атака в старой записи)
     kept.append(w)
 if dropped: print("отброшено галлюцинаций Whisper:",len(dropped),"—"," ".join(f"{w['w']}@{w['start']:.1f}" for w in dropped))
 W=kept
 END_SING=(_ph[-1][1] if _ph else _n/100)+0.5
 M=len(W); WL=[letters(w['w']) for w in W]
-# БУКВЕННАЯ МАССА CTC: сумма (1 - P(бланк)) по кадрам интервала ~ число букв, которые модель слышит там (фортепиано даёт бланки).
-# Берём максимум по двум движкам — акустический бюджет: сколько букв текста может поместиться в интервале
-def _blankpost(empt):
-    d=torch.load(empt); em=d['emission']; return torch.softmax(em,-1)[:,d.get('blank',0)].numpy()
-_PB=[_blankpost(EM_A),_blankpost(EM_B)]
-def letter_mass(a,b):
-    f0=max(0,int(a/0.02)); f1=int(b/0.02)
-    return max(float((1-pb[f0:f1]).sum()) for pb in _PB) if f1>f0 else 0.0
-MASS_MIN=0.4   # слова считаются спетыми в интервале, если буквенная масса >= 0.4 их букв
 # --- сопоставление: состояние = позиция в тексте j; переходы: продолжение (j+1), возврат/прыжок к любому j' (штраф по дальности в строках), вставка (слово Whisper вне текста)
 INF=1e9
 def ldist(a,b): return abs(TIDX[a][0]*10+TIDX[a][1]-(TIDX[b][0]*10+TIDX[b][1]))
@@ -119,9 +127,12 @@ for q,p in enumerate(_ps):
     t0=min(W[sung[k]['wi']]['start'] for k in p['idx'])
     nxt=[min(W[sung[k]['wi']]['start'] for k in r['idx']) for r in _ps[q+1:]]
     t1=nxt[0] if nxt else END_SING
-    L=sum(len(TL[sung[k]['t']]) for k in p['idx']); mass=letter_mass(t0,t1-min(0.25,max(0.0,t1-t0)/2))   # без хвоста окна (буквы следующей фразы не в счёт); слипшиеся таймкоды -> окно пустое -> фантом
-    phantom=mass<MASS_MIN*L
-    if _dbgp: print(f"  проход {p['line'][0]}:{p['line'][1]} {' '.join(TW[sung[k]['t']] for k in p['idx'])!r:40s} окно {t0:6.1f}–{t1:6.1f} ({t1-t0:4.1f} с) букв {L:2d} масса {mass:5.1f} {'ФАНТОМ' if phantom else ''}")
+    L=sum(len(TL[sung[k]['t']]) for k in p['idx']); win=max(0.0,t1-t0)
+    mass=letter_mass(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2)   # без хвоста окна: таймкоды Whisper у стыка с реальной фразой запаздывают на 0.3–0.7 с; слипшиеся таймкоды -> окно пустое -> фантом
+    ws=[W[sung[k]['wi']] for k in p['idx']]
+    weak=2*sum(1 for w in ws if w['p']<0.35 or w['end']-w['start']<0.05)>=len(ws)   # Whisper сам не верит (p<0.35) или таймкоды слиплись — нужна сильная акустика
+    phantom=(mass<0.8*L) if weak else (not sung_evidence(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2,L,mass))   # слабый проход — только по массе
+    if _dbgp: print(f"  проход {p['line'][0]}:{p['line'][1]} {' '.join(TW[sung[k]['t']] for k in p['idx'])!r:40s} окно {t0:6.1f}–{t1:6.1f} ({win:4.1f} с) букв {L:2d} масса {mass:5.1f}{' слабый' if weak else ''} {'ФАНТОМ' if phantom else ''}")
     if phantom: _drop|=set(p['idx'])
 if _drop: print("отброшено фантомных повторов Whisper:",len([p for p in _ps if set(p['idx'])<=_drop]),"проходов —"," ".join(f"{TW[sung[k]['t']]}@{W[sung[k]['wi']]['start']:.1f}" for k in sorted(_drop)))
 sung=[s_ for k,s_ in enumerate(sung) if k not in _drop]
@@ -136,7 +147,7 @@ sung=clean
 # или певец их не спел (купюра: букв в интервале нет — не заполняем). Мера — буквенная масса CTC между якорями
 def _anch(s_): return s_.get('anch') or (W[s_['wi']]['start'],W[s_['wi']]['end'])
 def _fits(gap,a,b):
-    L=sum(len(TL[t]) for t in gap); mass=letter_mass(a-0.1,b+0.1); ok=mass>=MASS_MIN*L
+    L=sum(len(TL[t]) for t in gap); mass=letter_mass(a-0.1,b+0.1); ok=sung_evidence(a-0.1,b+0.1,L,mass)
     if not ok: print(f"купюра певца (не заполняем): {' '.join(TW[t] for t in gap)!r} — букв {L}, буквенная масса {mass:.1f} в {a:.1f}–{b:.1f}")
     return ok
 def _fill_gap(gap,a,b):
@@ -149,7 +160,7 @@ def _fill_gap(gap,a,b):
     for seg in (tail,head,mid):
         if not seg: continue
         L=sum(len(TL[t]) for t in seg)
-        if budget>=MASS_MIN*L: out+=seg; budget-=L
+        if budget>=MASS_MIN*L or (voice_mean(a-0.1,b+0.1)>=0.5 and (b-a+0.2)>=0.1*(L+sum(len(TL[t]) for t in out))): out+=seg; budget-=L
         else: print(f"купюра певца (не заполняем): {' '.join(TW[t] for t in seg)!r} — букв {L}, остаток буквенной массы {budget:.1f} в {a:.1f}–{b:.1f}")
     return sorted(out)
 filled=[]
@@ -193,7 +204,7 @@ if CONS:
         hi=min([_anch(x)[0] for x in sung[pos:] if x['wi'] is not None],default=END_SING)
         used=sum(len(TL[x['t']]) for x in sung[(anch_before[-1]+1 if anch_before else 0):pos] if x['wi'] is None)   # буквы уже вставленных без якоря слов в этом же промежутке
         L=sum(len(TL[t]) for t in words_); budget=letter_mass(lo,hi)-used
-        if words_ and budget>=MASS_MIN*L: sung[pos:pos]=[{"t":t,"wi":None} for t in words_]; added.append(' '.join(b[q] for q in blk))
+        if words_ and (budget>=MASS_MIN*L or (voice_mean(lo,hi)>=0.5 and (hi-lo)>=0.1*(L+used))): sung[pos:pos]=[{"t":t,"wi":None} for t in words_]; added.append(' '.join(b[q] for q in blk))
         else: refused.append((' '.join(b[q] for q in blk),L,budget,lo,hi))
     if added: print("маршрут дополнен по консенсусу записей:",len(added),"блоков —"," | ".join(reversed(added)))
     for blk,L,bud,lo,hi in refused: print(f"консенсус предлагает {blk!r}, но буквенной массы нет ({bud:.1f} на {L} букв в {lo:.1f}–{hi:.1f}) — не вставляем")
@@ -231,10 +242,11 @@ ons=[o for k,o in enumerate(ons) if k==0 or o[0]-ons[k-1][0]>0.12 or o[1]>ons[k-
 allon=[t for t,_ in ons]; strong=[t for t,r in ons if r>=2.5]
 def near(t,lst,tol): return min((abs(t-o) for o in lst),default=9)<=tol
 # --- окна: группы подряд идущих слов; разрыв между якорями > 0.8 с — новое окно
-groups=[];cur=[]
-for k,s_ in enumerate(sung):
-    if cur and anch[k] and anch[cur[-1]] and anch[k][0]-anch[cur[-1]][1]>0.8: groups.append(cur); cur=[]
+groups=[]; cur=[]; last_end=None
+for k in range(len(sung)):
+    if anch[k] and last_end is not None and anch[k][0]-last_end>0.8: groups.append(cur); cur=[]   # разрыв между якорями > 0.8 с — новая группа; слова без якоря идут с текущей группой
     cur.append(k)
+    if anch[k]: last_end=anch[k][1]
 if cur: groups.append(cur)
 FB={'ä':'a','ö':'o','ü':'u','ß':'ss'}
 def windowed(empt):
@@ -250,7 +262,9 @@ def windowed(empt):
         an=[anch[k] for k in g if anch[k]]
         prev=[anch[q] for q in range(g[0]) if anch[q]]; nxt_=[anch[q] for q in range(g[-1]+1,len(sung)) if anch[q]]
         lo=(prev[-1][1] if prev else 0.0); hi=(nxt_[0][0] if nxt_ else END_SING)      # границы — соседние якоря других групп
-        if an: t0=max(0.0,lo-0.1,min(a for a,b in an)-0.5); t1=min(n/100,hi-0.05 if nxt_ else END_SING, max(b for a,b in an)+ (0.6 if all(anch[k] for k in g) else 30.0))
+        if an:
+            t0=max(0.0,lo-0.1,(min(a for a,b in an)-0.5) if anch[g[0]] else 0.0)   # группа начинается словами без якоря (голова, вставка по консенсусу) — окно от предыдущего якоря, не от первого своего
+            t1=min(n/100,hi-0.05 if nxt_ else END_SING, max(b for a,b in an)+ (0.6 if all(anch[k] for k in g) else 30.0))
         else: t0=max(0.0,lo-0.2); t1=min(n/100,hi-0.05 if nxt_ else END_SING)
         if t1<=t0+0.3: t1=t0+0.3
         toks=[];lens=[]

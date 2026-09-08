@@ -36,6 +36,24 @@ for p in t['route']:
 x,_=sf.read(WAV,dtype='float32'); n=len(x)//160; env=np.sqrt((x[:n*160].reshape(n,160)**2).mean(1))
 ref=np.median([env[int(a*100):max(int(b*100),int(a*100)+1)].mean() for a,b in flat if b-a>0.2]); V=env/ref
 cands=[(f"{i}:{j}",l) for i,j,l in lines]+[(f"{lines[k][0]}:{lines[k][1]}+{lines[k+1][0]}:{lines[k+1][1]}",lines[k][2]+' '+lines[k+1][2]) for k in range(len(lines)-1)]
+# буквенная масса CTC (сумма 1-P(бланк), максимум по движкам): растянутое слово — под ним поётся другой текст (продление конца
+# слова на паузу закрывает такую дыру от проверки по голосу); голос до первого слова — начало без разметки
+def _pb(p):
+    d=torch.load(p); em=d['emission']; return torch.softmax(em,-1)[:,d.get('blank',0)].numpy()
+_PB=[_pb(EM_B)]   # только языковой движок: у MMS_FA на фортепиано размытая небланковая масса без букв
+def mass(a,b):
+    f0,f1=max(0,int(a/0.02)),int(b/0.02); return max(float((1-pb[f0:f1]).sum()) for pb in _PB) if f1>f0 else 0.0
+def letters(w): return len([c for c in fold(w) if c.isalpha()])
+for i in range(len(flat)):
+    a=flat[i][0]; b=flat[i+1][0] if i+1<len(flat) else flat[i][1]; L=letters(names[i][2]); m_=mass(a,b)
+    if b-a>1.0 and m_>3*L+4: print(f"дыра (растянутое слово) {a:.1f}–{b:.1f} ({b-a:.1f} с) под {names[i][0]}:{names[i][1]}·{names[i][2]}: букв в слове {L}, буквенная масса под ним {m_:.0f}")
+_f=flat[0][0]
+if _f>1.0 and mass(0.0,_f-0.2)>8: print(f"дыра (до первого слова) буквенная масса {mass(0.0,_f-0.2):.0f} до {_f:.1f} — пение до первого размеченного слова")
+if _f>1.0:
+    _v=V[:int(_f*100)]>0.45; run=0; best=0
+    for x in _v:
+        run=run+1 if x else 0; best=max(best,run)
+    if best>=100: print(f"дыра (до первого слова) голос {best/100:.1f} с до {_f:.1f} — начало без разметки")
 for i in range(len(flat)-1):
     a,b=flat[i][1],flat[i+1][0]
     if b-a>1.0 and V[int(a*100):int(b*100)].mean()>0.45:
