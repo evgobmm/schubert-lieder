@@ -46,10 +46,10 @@ def finish_song(spec: dict, vids: list, lang: str) -> dict:
     json.dump(spec, open(songdir / "spec.json", "w"), ensure_ascii=False); (songdir / "vids.txt").write_text(" ".join(vids) + "\n")
     out_app = pathlib.Path(f"{R}/app/src/data/timings"); out_app.mkdir(parents=True, exist_ok=True)
     for f in out_app.glob(f"{prefix}-*.json"): f.unlink()                                       # чистый старт: без прежних файлов этой песни в образе
-    env = {**os.environ, "OMP_NUM_THREADS": "2", "APP": str(out_app)}
+    env = {**os.environ, "OMP_NUM_THREADS": "2", "APP": str(out_app), "LANG": "C.UTF-8", "LC_ALL": "C.UTF-8", "PYTHONIOENCODING": "utf-8"}   # скрипты печатают по-русски
     # проход 1: свои маршруты + окна без распознанных слов
     r1 = subprocess.run(["bash", f"{SPC}/tools/test_run.sh", str(songdir / "spec.json"), str(songdir / "own"), *vids],
-                        cwd=songdir, env={**env, "RETRANSCRIBE": "collect"}, capture_output=True, text=True)
+                        cwd=songdir, env={**env, "RETRANSCRIBE": "collect"}, capture_output=True, text=True, encoding="utf-8", errors="replace")
     wins = []
     for v in vids:
         wf = songdir / "own" / f"wh_{v}" / "retr_windows.json"
@@ -70,12 +70,12 @@ def finish_song(spec: dict, vids: list, lang: str) -> dict:
             if p.is_symlink(): p.unlink()
             json.dump(wh, open(p, "w"), ensure_ascii=False)                                     # локальная копия транскрипта с дораспознанными словами
     # проход 2: сборка (консенсус, починка/запасной, фильтр вариантов, ворота)
-    r2 = subprocess.run(["bash", f"{SPC}/tools/finish_control.sh", str(songdir)], cwd=songdir, env={**env, "RETRANSCRIBE": "0"}, capture_output=True, text=True)
+    r2 = subprocess.run(["bash", f"{SPC}/tools/finish_control.sh", str(songdir)], cwd=songdir, env={**env, "RETRANSCRIBE": "0"}, capture_output=True, text=True, encoding="utf-8", errors="replace")
     out = {"prefix": prefix, "seconds": round(time.time() - t0), "windows": len(wins), "retr_words": retr_words,
            "log": r2.stdout + ("\n" + r2.stderr if r2.returncode else ""), "pass1": r1.stdout[-3000:], "site": {}, "song": {}}
-    for f in out_app.glob(f"{prefix}-*.json"): out["site"][f.name] = f.read_text()
+    for f in out_app.glob(f"{prefix}-*.json"): out["site"][f.name] = f.read_text(encoding="utf-8")
     for pat in ("holes_*.txt", "decisions.txt", "route_consensus.json", "own/wh_*/ts_wh_*.json", "own/*.json", "held/*.json", "fb_*/ts.json"):
-        for f in songdir.glob(pat): out["song"][str(f.relative_to(songdir))] = f.read_text()
+        for f in songdir.glob(pat): out["song"][str(f.relative_to(songdir))] = f.read_text(encoding="utf-8", errors="replace")
     return out
 
 
@@ -90,8 +90,8 @@ def main(batch: str, songs: str = "songs", app_dir: str = f"{R}/app/src/data/tim
         if isinstance(res, Exception): print(f"ОШИБКА: {res!r}", flush=True); continue
         p = res["prefix"]; d = pathlib.Path(songs) / p
         if res.get("error"): print(f"{p}: {res['error']}", flush=True); (d / "finish.log").write_text(res["error"]); continue
-        for name, txt in res["song"].items(): f = d / name; f.parent.mkdir(parents=True, exist_ok=True); f.write_text(txt)
-        for name, txt in res["site"].items(): pathlib.Path(app_dir, name).write_text(txt)
-        (d / "finish.log").write_text(res["log"]); (d / "pass1.log").write_text(res["pass1"]); ok += 1
+        for name, txt in res["song"].items(): f = d / name; f.parent.mkdir(parents=True, exist_ok=True); f.write_text(txt, encoding="utf-8")
+        for name, txt in res["site"].items(): pathlib.Path(app_dir, name).write_text(txt, encoding="utf-8")
+        (d / "finish.log").write_text(res["log"], encoding="utf-8"); (d / "pass1.log").write_text(res["pass1"], encoding="utf-8"); ok += 1
         print(f"{p}: {res['seconds']} с, окон {res['windows']}, дораспознано слов {res['retr_words']}, файлов на сайт {len(res['site'])}", flush=True)
     print(f"готово: {ok} из {len(args)} песен за {time.time() - t0:.0f} с", flush=True)
