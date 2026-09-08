@@ -17,6 +17,7 @@ while read v d; do
   esac
 done < decisions.txt
 if [ -n "$FB" ]; then echo "запасной путь:$FB"; $SCRIPTS/fallback.sh "$RUNDIR" --route route_consensus.json $FB 2>&1 | grep -a -E "маршрут из файла|привязка|целостность|Traceback" | cut -c1-120; fi
+echo "=== 3а. фильтр вариантов (сильные / подтверждённые второй записью или пользователем — на сайт, остальные — в очередь) ==="; $PY $SCRIPTS/variants_filter.py "$RUNDIR" 2>&1 | grep -a -v Warn
 gate() { [ -f "$APP/$PREFIX-$1.json" ] || { echo "НЕТ ФАЙЛА"; return; }; nice -n 15 $PY $SCRIPTS/holes.py "$APP/$PREFIX-$1.json" $SP/audio/${1}_voc.wav $SP/align/em_mms_$1.pt $SP/align/em_de_$1.pt "$SONG" 2>&1 | grep -a -c "^дыра" || true; }
 echo "=== 4. голосовые дыры (ворота); запись с дырами уходит на запасной путь ==="; FB2=""
 for v in $VIDS; do n=$(gate $v); echo "$v: дыр $n"; if [ "$n" != "0" ] && ! grep -q "^$v запасной" decisions.txt; then FB2="$FB2 $v"; fi; done

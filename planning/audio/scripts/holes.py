@@ -46,9 +46,17 @@ _PB=[_pb(EM_B)]   # только языковой движок: у MMS_FA на �
 def mass(a,b):
     f0,f1=max(0,int(a/0.02)),int(b/0.02); return max(float((1-pb[f0:f1]).sum()) for pb in _PB) if f1>f0 else 0.0
 def letters(w): return len([c for c in fold(w) if c.isalpha()])
+_dB=torch.load(EM_B); _emB=_dB['emission']; _labB=list(_dB['labels'])[:_emB.shape[1]]; _blB=_dB.get('blank',0); _idsB=_emB.argmax(-1).tolist()
+def greedy_letters(a,b):
+    """свёрнутые буквы жадного декода языкового движка в интервале — устойчиво к тянущимся гласным (масса на долгой ноте растёт, буквы — нет)"""
+    prev=None; n=0
+    for i in _idsB[max(0,int(a/0.02)):int(b/0.02)]:
+        if i!=prev and i!=_blB and _labB[i] and len(_labB[i])==1 and _labB[i].isalpha(): n+=1
+        prev=i
+    return n
 for i in range(len(flat)):
-    a=flat[i][0]; b=flat[i+1][0] if i+1<len(flat) else flat[i][1]; L=letters(names[i][2]); m_=mass(a,b)
-    if b-a>1.0 and m_>3*L+4: print(f"дыра (растянутое слово) {a:.1f}–{b:.1f} ({b-a:.1f} с) под {names[i][0]}:{names[i][1]}·{names[i][2]}: букв в слове {L}, буквенная масса под ним {m_:.0f}")
+    a=flat[i][0]; b=flat[i+1][0] if i+1<len(flat) else flat[i][1]; L=letters(names[i][2]); g=greedy_letters(a,b)
+    if b-a>1.0 and g>L+6: print(f"дыра (растянутое слово) {a:.1f}–{b:.1f} ({b-a:.1f} с) под {names[i][0]}:{names[i][1]}·{names[i][2]}: букв в слове {L}, букв декода под ним {g}")
 _f=flat[0][0]
 if _f>1.0 and mass(0.0,_f-0.2)>8: print(f"дыра (до первого слова) буквенная масса {mass(0.0,_f-0.2):.0f} до {_f:.1f} — пение до первого размеченного слова")
 if _f>1.0:

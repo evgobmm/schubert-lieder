@@ -139,3 +139,39 @@ def main(list_file: str, lang: str = "de", ctc_model: str = "jonatasgrosman/wav2
         print(f"{v}: {t['audio_s']} с звука | demucs {t['demucs']} с, эмиссии {t['emissions']} с, whisper {t['whisper']} с ({t['words']} слов) = {t['total']} с"
               f" | контейнер {t['container']} вызов №{t['call']}, загрузка моделей {t['enter']} с", flush=True)
     print(f"готово за {time.time() - t0:.0f} с (с очередью, загрузкой и передачей данных); вверх {up / 1e6:.1f} МБ, вниз {down / 1e6:.1f} МБ", flush=True)
+
+
+@app.cls(gpu=GPU, image=image, volumes={"/models": models}, timeout=1800, scaledown_window=30, max_containers=MAX_CONTAINERS, retries=1)
+class Retr:
+    """Дораспознавание окон: только Whisper. Окно — плотная вырезка стема, где поют, а Whisper на всей записи слов не дал."""
+
+    @modal.enter()
+    def load(self):
+        from faster_whisper import WhisperModel
+        self.whisper = WhisperModel("large-v3", device="cuda", compute_type="float16", download_root="/models/whisper")
+
+    @modal.method()
+    def words(self, wav: bytes, lang: str) -> list:
+        p = "/tmp/retr.wav"; open(p, "wb").write(wav)
+        segs, _ = self.whisper.transcribe(p, language=lang, word_timestamps=True, beam_size=5, temperature=0.0, condition_on_previous_text=False)
+        return [{"w": w.word.strip(), "start": round(w.start, 2), "end": round(w.end, 2), "p": round(w.probability, 2)} for s in segs for w in (s.words or [])]
+
+
+@app.local_entrypoint()
+def retr(windows: str, lang: str = "de", audiodir: str = "../audio", outdir: str = "../align"):
+    """modal run gpu_stage.py::retr --windows windows.json --lang de — windows.json: [{"vid","lo","hi"}]; новые слова дописываются
+    в <outdir>/wh_<vid>.json отдельными сегментами с пометкой retr (прежние дораспознания заменяются)"""
+    import soundfile as sf
+    wins = json.load(open(windows)); args = []
+    for w in wins:
+        x, sr = sf.read(f"{audiodir}/{w['vid']}_voc.wav", dtype="float32"); seg = x[int(w["lo"] * sr):int(w["hi"] * sr)]
+        b = io.BytesIO(); sf.write(b, seg, sr, format="WAV"); args.append((b.getvalue(), lang))
+    print(f"окон на GPU {GPU}: {len(wins)}", flush=True); t0 = time.time(); added = {}; nw = 0
+    for w, res in zip(wins, Retr().words.starmap(args, order_outputs=True, return_exceptions=True)):
+        if isinstance(res, Exception): print(f"{w['vid']} {w['lo']}–{w['hi']}: ОШИБКА {res!r}", flush=True); continue
+        ws = [{**x, "start": round(w["lo"] + x["start"], 2), "end": round(w["lo"] + x["end"], 2), "retr": True} for x in res]
+        if ws: added.setdefault(w["vid"], []).append({"start": ws[0]["start"], "end": ws[-1]["end"], "text": " ".join(x["w"] for x in ws), "words": ws, "retr": True}); nw += len(ws)
+    for vid, segs in added.items():
+        p = f"{outdir}/wh_{vid}.json"; wh = [s for s in json.load(open(p)) if not s.get("retr")] + segs
+        wh.sort(key=lambda s: s["start"]); json.dump(wh, open(p, "w"), ensure_ascii=False)
+    print(f"дораспознано: записей {len(added)}, слов {nw}, за {time.time() - t0:.0f} с", flush=True)

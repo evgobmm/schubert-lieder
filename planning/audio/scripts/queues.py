@@ -25,6 +25,8 @@ for p in prefixes:
                 lw = song['stanzas'][ps['s']]['lines_de'][ps['l']].split()
                 for k, iv in enumerate(ps['w']):
                     if iv and iv[1] - iv[0] < 0.12 and any(c.isalpha() for c in lw[k]): q.append(f"{ps['s'] + 1}.{ps['l'] + 1} {lw[k]} @{iv[0]:.1f}")
+        cands=[f"{c['s']+1}.{c['l']+1} «{c['w']}» → «{c['heard']}» @{c['start']:.0f}с" for c in t.get('variant_candidates',[])]
+        if cands: q=['ВАРИАНТЫ НА ПРОВЕРКУ: '+'; '.join(cands)]+q
         out.append(f"### {pf['name']} {pf['year']} (`{v}`) — {how}; проходов {len(t['route'])}; в очереди {len(q)} слов")
         out.append(', '.join(q) if q else '—'); out.append("")
 open(OUT, 'w').write('\n'.join(out)); print(f"очереди: {OUT}")

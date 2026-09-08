@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 0,
-   "l": 3,
-   "k": 1,
-   "w": "pfiff'",
-   "heard": "pieft",
-   "start": 24.82
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -540,5 +531,15 @@
    ]
   }
  ],
- "anchored": 105
+ "anchored": 105,
+ "variant_candidates": [
+  {
+   "s": 0,
+   "l": 3,
+   "k": 1,
+   "w": "pfiff'",
+   "heard": "pieft'",
+   "start": 24.82
+  }
+ ]
 }

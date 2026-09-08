@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 2,
-   "l": 2,
-   "k": 4,
-   "w": "ward",
-   "heard": "erwart",
-   "start": 155.16
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -402,5 +393,15 @@
    ]
   }
  ],
- "anchored": 75
+ "anchored": 75,
+ "variant_candidates": [
+  {
+   "s": 2,
+   "l": 2,
+   "k": 4,
+   "w": "ward",
+   "heard": "erwart",
+   "start": 155.16
+  }
+ ]
 }

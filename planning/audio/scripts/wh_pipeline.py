@@ -21,6 +21,20 @@ def letters(w): return re.sub(r"[^a-zäöü]","",_fold(w))
 TL=[letters(w) for w in TW]
 # --- Whisper
 wh=json.load(open(WH)); W=[w for s in wh for w in s['words'] if letters(w['w'])]
+# СЛУЖЕБНЫЕ ГАЛЛЮЦИНАЦИИ Whisper («Untertitelung des ZDF», «Vielen Dank», «Amara.org»…): сегмент с такими словами, у которого
+# меньше половины слов ложится на текст песни (d ≤ 0.3), выбрасывается целиком — иначе титр становится «якорем» строки
+_HALL={'de':['untertitel','zdf','amara','copyright','vielen dank','nächsten mal','abonnier','kanal','tschüss'],
+       'it':['sottotitol','grazie','amara','iscriv'],'en':['subtitle','thanks for watching','amara','subscribe'],'fr':['sous-titr','merci','abonn']}
+_kw=_HALL.get(spec.get('lang','de'),[])+['amara.org']
+def _service_hallucination(ws):
+    """группа слов Whisper — служебный титр: есть ключевое слово и меньше половины слов ложится на текст песни"""
+    ws=[w for w in ws if letters(w['w'])]
+    if not ws or not any(k in ' '.join(w['w'] for w in ws).lower() for k in _kw): return False
+    return sum(1 for w in ws if min(Lev.normalized_distance(letters(w['w']),tl) for tl in TL)<=0.3)<0.5*len(ws)
+_bad=set()
+for _s in wh:
+    if _service_hallucination(_s['words']): _bad|=set(id(w) for w in _s['words'])
+if _bad: print(f"отброшено служебных галлюцинаций Whisper (титры и т.п.): {len(_bad)} слов"); W=[w for w in W if id(w) not in _bad]
 # БУКВЕННАЯ МАССА CTC: сумма (1 - P(бланк)) по кадрам интервала ~ число букв, которые модель слышит там (фортепиано даёт бланки).
 # Только языковой движок (wav2vec2-xlsr, EM_B): он пиковый и точный; у MMS_FA на фортепиано размытая небланковая масса
 # (1.5–5 на полсекунды проигрыша без единой буквы в жадном декоде), которая раздувала бюджет в проигрышах
@@ -59,61 +73,6 @@ for w in W:
 if dropped: print("отброшено галлюцинаций Whisper:",len(dropped),"—"," ".join(f"{w['w']}@{w['start']:.1f}" for w in dropped))
 W=kept
 END_SING=(_ph[-1][1] if _ph else _n/100)+0.5
-M=len(W); WL=[letters(w['w']) for w in W]
-# --- сопоставление: состояние = позиция в тексте j; переходы: продолжение (j+1), возврат/прыжок к любому j' (штраф по дальности в строках), вставка (слово Whisper вне текста)
-INF=1e9
-def ldist(a,b): return abs(TIDX[a][0]*10+TIDX[a][1]-(TIDX[b][0]*10+TIDX[b][1]))
-# цена совпадения выпуклая: d + 1.5·d² — Whisper large-v3 редко ошибается в слове сильнее d≈0.5, и четыре плохих совпадения
-# не должны быть дешевле одного прыжка (иначе рефрен «mein Herz, mein Herz» ложился на «einmal hinüber sehn»)
-dist=[[Lev.normalized_distance(WL[i],TL[j]) for j in range(N)] for i in range(M)]
-cost=[[min(d+d*d,1.6) for d in row] for row in dist]   # потолок 1.6: слово на своём месте между соседями дешевле вставки+пропуска (≥1.7) даже при d=1
-best=[[INF]*N for _ in range(M)]; back=[[None]*N for _ in range(M)]
-for j in range(N): best[0][j]=cost[0][j]+0.3*ldist(0,j)
-# вставка (слово Whisper без пары в тексте): дёшево для мусора, дорого для слова, которое точно есть в тексте, —
-# иначе ДП объявляло вставками настоящий рефрен («…für dich, mein Herz, mein Herz, was drängst…» — 4 точных слова дешевле, чем прыжок к строке и обратно)
-INS=0.9
-def insw(i,j):   # вставка слова i в позиции j: дорого, если такое слово есть в тексте рядом (±2 строки), дёшево для мусора
-    lo_=TIDX[j][0]*10+TIDX[j][1]
-    dloc=min((dist[i][t] for t in range(N) if abs(TIDX[t][0]*10+TIDX[t][1]-lo_)<=2),default=1.0)
-    return INS+1.5*(1-dloc)
-for i in range(1,M):
-    for j in range(N):
-        c=cost[i][j]; b=INF; bp=None
-        if best[i-1][j-1 if j>0 else 0]<INF and j>0 and best[i-1][j-1]+c<b: b=best[i-1][j-1]+c; bp=(j-1,'c')            # продолжение
-        for jp in range(N):                                                                                             # прыжок (повтор назад / вперёд)
-            if jp==j-1 or best[i-1][jp]>=INF: continue
-            if TIDX[j][2]==0: pen=1.2+0.35*ldist(jp,j)                       # к началу строки (повтор строки, рефрен, перестановка строк композитором) — вперёд или назад
-            elif j>jp:
-                gap=j-jp-1                                                   # внутрь строки вперёд: пропущено слов текста
-                pen=0.8*gap if gap<=2 else 2.5+0.35*ldist(jp,j)              # 1–2 неуслышанных слова — дёшево; дальше — дорого
-            else: pen=1.2+0.35*ldist(jp,j)                                   # возврат внутрь строки (частичный повтор: «…ihr Bild, ihr Bild dahin»)
-            if best[i-1][jp]+pen+c<b: b=best[i-1][jp]+pen+c; bp=(jp,'j')
-        if j>1 and best[i-1][j-2]<INF:                                                                                  # слияние: «Liebesliebchen» = liebes Liebchen
-            cm=Lev.normalized_distance(WL[i],TL[j-1]+TL[j])
-            if cm<=0.25 and best[i-1][j-2]+cm<b: b=best[i-1][j-2]+cm; bp=(j-2,'m')
-        if i>1 and j>0 and best[i-2][j-1]<INF:                                                                          # разбиение: «auf springt» = aufspringt
-            cs=Lev.normalized_distance(WL[i-1]+WL[i],TL[j])
-            if cs<=0.25 and best[i-2][j-1]+cs<b: b=best[i-2][j-1]+cs; bp=(j-1,'s')
-        if best[i-1][j]<INF and best[i-1][j]+insw(i,j)<b: b=best[i-1][j]+insw(i,j); bp=(j,'i')                          # вставка: Whisper-слово лишнее
-        best[i][j]=b; back[i][j]=bp
-j=min(range(N),key=lambda x: best[M-1][x]); path=[]; i=M-1
-while i>=0:
-    bpj,kind=back[i][j] if back[i][j] else (None,'c')
-    path.append((i,j,kind)); i-=2 if kind=='s' else 1
-    if bpj is not None: j=bpj
-path=path[::-1]
-# спетая последовательность: каждое Whisper-слово (кроме вставок) -> слово текста; повторное посещение = повтор
-sung=[]   # {t: индекс текста, wi: индекс Whisper-слова, anch: якорь (если не равен слову Whisper целиком)}
-for i,j,kind in path:
-    if kind=='i': continue
-    if kind=='m':   # слитое слово Whisper: якорь делится между двумя словами текста пропорционально буквам
-        L1,L2=len(TL[j-1]),len(TL[j]); a,b=W[i]['start'],W[i]['end']; mid=a+(b-a)*L1/max(1,L1+L2)
-        sung.append({"t":j-1,"wi":i,"anch":(a,mid),"part":True}); sung.append({"t":j,"wi":i,"anch":(mid,b),"part":True})
-    elif kind=='s': sung.append({"t":j,"wi":i,"anch":(W[i-1]['start'],W[i]['end']),"part":True})
-    else: sung.append({"t":j,"wi":i})
-# ФАНТОМНЫЕ ПОВТОРЫ Whisper: в проигрышах стем хранит эхо фортепиано, и Whisper дописывает «mein Herz, mein Herz» с
-# слипшимися таймкодами. Проверка по звуку: окно прохода (от его первого якоря до первого якоря следующего прохода)
-# должно содержать буквенную массу >= MASS_MIN его букв; иначе проход — фантом, его слова отбрасываются как вставки
 def _passes(seq):
     ps=[]; prev=None
     for k,s_ in enumerate(seq):
@@ -122,30 +81,131 @@ def _passes(seq):
         else: ps.append({"line":ln,"idx":[k]})
         prev=s_['t']
     return ps
-_ps=_passes(sung); _drop=set(); _dbgp=os.environ.get('DEBUG_PASSES')
-for q,p in enumerate(_ps):
-    t0=min(W[sung[k]['wi']]['start'] for k in p['idx'])
-    nxt=[min(W[sung[k]['wi']]['start'] for k in r['idx']) for r in _ps[q+1:]]
-    t1=nxt[0] if nxt else END_SING
-    L=sum(len(TL[sung[k]['t']]) for k in p['idx']); win=max(0.0,t1-t0)
-    mass=letter_mass(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2)   # без хвоста окна: таймкоды Whisper у стыка с реальной фразой запаздывают на 0.3–0.7 с; слипшиеся таймкоды -> окно пустое -> фантом
-    ws=[W[sung[k]['wi']] for k in p['idx']]
-    weak=2*sum(1 for w in ws if w['p']<0.35 or w['end']-w['start']<0.05)>=len(ws)   # Whisper сам не верит (p<0.35) или таймкоды слиплись — нужна сильная акустика
-    phantom=(mass<0.8*L) if weak else (not sung_evidence(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2,L,mass))   # слабый проход — только по массе
-    if _dbgp: print(f"  проход {p['line'][0]}:{p['line'][1]} {' '.join(TW[sung[k]['t']] for k in p['idx'])!r:40s} окно {t0:6.1f}–{t1:6.1f} ({win:4.1f} с) букв {L:2d} масса {mass:5.1f}{' слабый' if weak else ''} {'ФАНТОМ' if phantom else ''}")
-    if phantom: _drop|=set(p['idx'])
-if _drop: print("отброшено фантомных повторов Whisper:",len([p for p in _ps if set(p['idx'])<=_drop]),"проходов —"," ".join(f"{TW[sung[k]['t']]}@{W[sung[k]['wi']]['start']:.1f}" for k in sorted(_drop)))
-sung=[s_ for k,s_ in enumerate(sung) if k not in _drop]
-# ложные одиночные повторы: возврат ради одного слова, которое Whisper слышит плохо (d>0.2), — это вставка, не повтор
-clean=[]
-for idx,s_ in enumerate(sung):
-    prv=sung[idx-1]['t'] if idx else -1; nxt=sung[idx+1]['t'] if idx+1<len(sung) else 10**9
-    if s_['t']>prv+1 and s_['wi'] is not None and not s_.get('part') and Lev.normalized_distance(WL[s_['wi']],TL[s_['t']])>0.2: continue   # прыжок вперёд ради плохо услышанного слова — вставка
-    clean.append(s_)
-sung=clean
+
+def run_match(W):
+    """Whisper-слова -> спетая последовательность слов текста: ДП с повторами/вставками/слиянием, акустический фильтр фантомов, чистка"""
+    M=len(W); WL=[letters(w['w']) for w in W]
+    # --- сопоставление: состояние = позиция в тексте j; переходы: продолжение (j+1), возврат/прыжок к любому j' (штраф по дальности в строках), вставка (слово Whisper вне текста)
+    INF=1e9
+    def ldist(a,b): return abs(TIDX[a][0]*10+TIDX[a][1]-(TIDX[b][0]*10+TIDX[b][1]))
+    # цена совпадения выпуклая: d + 1.5·d² — Whisper large-v3 редко ошибается в слове сильнее d≈0.5, и четыре плохих совпадения
+    # не должны быть дешевле одного прыжка (иначе рефрен «mein Herz, mein Herz» ложился на «einmal hinüber sehn»)
+    dist=[[Lev.normalized_distance(WL[i],TL[j]) for j in range(N)] for i in range(M)]
+    cost=[[min(d+d*d,1.6) for d in row] for row in dist]   # потолок 1.6: слово на своём месте между соседями дешевле вставки+пропуска (≥1.7) даже при d=1
+    best=[[INF]*N for _ in range(M)]; back=[[None]*N for _ in range(M)]
+    for j in range(N): best[0][j]=cost[0][j]+0.3*ldist(0,j)
+    # вставка (слово Whisper без пары в тексте): дёшево для мусора, дорого для слова, которое точно есть в тексте, —
+    # иначе ДП объявляло вставками настоящий рефрен («…für dich, mein Herz, mein Herz, was drängst…» — 4 точных слова дешевле, чем прыжок к строке и обратно)
+    INS=0.9
+    def insw(i,j):   # вставка слова i в позиции j: дорого, если такое слово есть в тексте рядом (±2 строки), дёшево для мусора
+        lo_=TIDX[j][0]*10+TIDX[j][1]
+        dloc=min((dist[i][t] for t in range(N) if abs(TIDX[t][0]*10+TIDX[t][1]-lo_)<=2),default=1.0)
+        return INS+1.5*(1-dloc)
+    for i in range(1,M):
+        for j in range(N):
+            c=cost[i][j]; b=INF; bp=None
+            if best[i-1][j-1 if j>0 else 0]<INF and j>0 and best[i-1][j-1]+c<b: b=best[i-1][j-1]+c; bp=(j-1,'c')            # продолжение
+            for jp in range(N):                                                                                             # прыжок (повтор назад / вперёд)
+                if jp==j-1 or best[i-1][jp]>=INF: continue
+                if TIDX[j][2]==0: pen=1.2+0.35*ldist(jp,j)                       # к началу строки (повтор строки, рефрен, перестановка строк композитором) — вперёд или назад
+                elif j>jp:
+                    gap=j-jp-1                                                   # внутрь строки вперёд: пропущено слов текста
+                    pen=0.8*gap if gap<=2 else 2.5+0.35*ldist(jp,j)              # 1–2 неуслышанных слова — дёшево; дальше — дорого
+                else: pen=1.2+0.35*ldist(jp,j)                                   # возврат внутрь строки (частичный повтор: «…ihr Bild, ihr Bild dahin»)
+                if best[i-1][jp]+pen+c<b: b=best[i-1][jp]+pen+c; bp=(jp,'j')
+            if j>1 and best[i-1][j-2]<INF:                                                                                  # слияние: «Liebesliebchen» = liebes Liebchen
+                cm=Lev.normalized_distance(WL[i],TL[j-1]+TL[j])
+                if cm<=0.25 and best[i-1][j-2]+cm<b: b=best[i-1][j-2]+cm; bp=(j-2,'m')
+            if i>1 and j>0 and best[i-2][j-1]<INF:                                                                          # разбиение: «auf springt» = aufspringt
+                cs=Lev.normalized_distance(WL[i-1]+WL[i],TL[j])
+                if cs<=0.25 and best[i-2][j-1]+cs<b: b=best[i-2][j-1]+cs; bp=(j-1,'s')
+            if best[i-1][j]<INF and best[i-1][j]+insw(i,j)<b: b=best[i-1][j]+insw(i,j); bp=(j,'i')                          # вставка: Whisper-слово лишнее
+            best[i][j]=b; back[i][j]=bp
+    j=min(range(N),key=lambda x: best[M-1][x]); path=[]; i=M-1
+    while i>=0:
+        bpj,kind=back[i][j] if back[i][j] else (None,'c')
+        path.append((i,j,kind)); i-=2 if kind=='s' else 1
+        if bpj is not None: j=bpj
+    path=path[::-1]
+    # спетая последовательность: каждое Whisper-слово (кроме вставок) -> слово текста; повторное посещение = повтор
+    sung=[]   # {t: индекс текста, wi: индекс Whisper-слова, anch: якорь (если не равен слову Whisper целиком)}
+    for i,j,kind in path:
+        if kind=='i': continue
+        if kind=='m':   # слитое слово Whisper: якорь делится между двумя словами текста пропорционально буквам
+            L1,L2=len(TL[j-1]),len(TL[j]); a,b=W[i]['start'],W[i]['end']; mid=a+(b-a)*L1/max(1,L1+L2)
+            sung.append({"t":j-1,"wi":i,"anch":(a,mid),"part":True}); sung.append({"t":j,"wi":i,"anch":(mid,b),"part":True})
+        elif kind=='s': sung.append({"t":j,"wi":i,"anch":(W[i-1]['start'],W[i]['end']),"part":True})
+        else: sung.append({"t":j,"wi":i})
+    # ФАНТОМНЫЕ ПОВТОРЫ Whisper: в проигрышах стем хранит эхо фортепиано, и Whisper дописывает «mein Herz, mein Herz» с
+    # слипшимися таймкодами. Проверка по звуку: окно прохода (от его первого якоря до первого якоря следующего прохода)
+    # должно содержать буквенную массу >= MASS_MIN его букв; иначе проход — фантом, его слова отбрасываются как вставки
+    _ps=_passes(sung); _drop=set(); _dbgp=os.environ.get('DEBUG_PASSES')
+    for q,p in enumerate(_ps):
+        t0=min(W[sung[k]['wi']]['start'] for k in p['idx'])
+        nxt=[min(W[sung[k]['wi']]['start'] for k in r['idx']) for r in _ps[q+1:]]
+        t1=nxt[0] if nxt else END_SING
+        L=sum(len(TL[sung[k]['t']]) for k in p['idx']); win=max(0.0,t1-t0)
+        mass=letter_mass(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2)   # без хвоста окна: таймкоды Whisper у стыка с реальной фразой запаздывают на 0.3–0.7 с; слипшиеся таймкоды -> окно пустое -> фантом
+        ws=[W[sung[k]['wi']] for k in p['idx']]
+        weak=2*sum(1 for w in ws if w['p']<0.35 or w['end']-w['start']<0.05)>=len(ws)   # Whisper сам не верит (p<0.35) или таймкоды слиплись — нужна сильная акустика
+        phantom=(mass<0.8*L) if weak else (not sung_evidence(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2,L,mass))   # слабый проход — только по массе
+        if _dbgp: print(f"  проход {p['line'][0]}:{p['line'][1]} {' '.join(TW[sung[k]['t']] for k in p['idx'])!r:40s} окно {t0:6.1f}–{t1:6.1f} ({win:4.1f} с) букв {L:2d} масса {mass:5.1f}{' слабый' if weak else ''} {'ФАНТОМ' if phantom else ''}")
+        if phantom: _drop|=set(p['idx'])
+    if _drop: print("отброшено фантомных повторов Whisper:",len([p for p in _ps if set(p['idx'])<=_drop]),"проходов —"," ".join(f"{TW[sung[k]['t']]}@{W[sung[k]['wi']]['start']:.1f}" for k in sorted(_drop)))
+    sung=[s_ for k,s_ in enumerate(sung) if k not in _drop]
+    # ложные одиночные повторы: возврат ради одного слова, которое Whisper слышит плохо (d>0.2), — это вставка, не повтор
+    clean=[]
+    for idx,s_ in enumerate(sung):
+        prv=sung[idx-1]['t'] if idx else -1; nxt=sung[idx+1]['t'] if idx+1<len(sung) else 10**9
+        if s_['t']>prv+1 and s_['wi'] is not None and not s_.get('part') and Lev.normalized_distance(WL[s_['wi']],TL[s_['t']])>0.2: continue   # прыжок вперёд ради плохо услышанного слова — вставка
+        clean.append(s_)
+    sung=clean
+    return sung,path,WL
+
+sung,path,WL=run_match(W)
+# ВТОРОЙ ПРОХОД: промежутки между якорями, где поют (буквы CTC), а Whisper слов не дал (потерял фразу или сгаллюцинировал титр),
+# распознаются заново по плотной вырезке стема — короткое окно без фортепиано Whisper не путает; новые слова добавляются в W,
+# и сопоставление повторяется целиком (новые якоря, повторы, варианты). Выключается RETRANSCRIBE=0.
+def _anch(s_): return s_.get('anch') or (W[s_['wi']]['start'],W[s_['wi']]['end'])
+_RMODE=os.environ.get('RETRANSCRIBE','collect')   # collect — записать окна в retr_windows.json (дораспознаёт GPU-стадия); 1 — локальный Whisper (≈3 ГБ RAM, только по одному!); 0 — выкл.
+if _RMODE in ('1','collect'):
+    _an=[s_ for s_ in sung if s_['wi'] is not None]; _wins=[]
+    _edges=([(0.0,_anch(_an[0])[0])] if _an and _an[0]['t']>0 else [])+[(_anch(a)[1],_anch(b)[0]) for a,b in zip(_an,_an[1:])]+([(_anch(_an[-1])[1],END_SING)] if _an and _an[-1]['t']<N-1 else [])
+    if not _an: _edges=[(0.0,END_SING)]
+    for lo,hi in _edges:
+        if hi-lo<1.0: continue
+        _fr=[f for f in range(int(lo/0.02),min(len(_PB[0]),int(hi/0.02))) if 1-_PB[0][f]>0.5]   # кадры с буквами языкового движка
+        if len(_fr)<6: continue
+        lo2,hi2=max(lo,_fr[0]*0.02-0.25),min(hi,_fr[-1]*0.02+0.25)
+        while hi2-lo2>15.0:   # длинные промежутки — кусками ~8–13 с, разрез посреди самой длинной паузы (бланки) в этом диапазоне, без наложения
+            f0,f1=int((lo2+8.0)/0.02),int((lo2+13.0)/0.02); best=(0,f0); run=0
+            for f in range(f0,f1):
+                run=run+1 if 1-_PB[0][f]<0.2 else 0
+                if run>best[0]: best=(run,f)
+            cut=(best[1]-best[0]/2)*0.02 if best[0] else (lo2+12.0)
+            _wins.append((lo2,cut)); lo2=cut
+        if hi2-lo2>=0.6: _wins.append((lo2,hi2))
+    if _RMODE=='collect':
+        json.dump([[round(a,2),round(b,2)] for a,b in _wins],open('retr_windows.json','w')); print(f"окон для дораспознавания: {len(_wins)}")
+    elif _wins:
+        from faster_whisper import WhisperModel
+        _wm=WhisperModel('large-v3',device='cpu',compute_type='int8',cpu_threads=4); _new=[]; _lang=spec.get('lang','de')
+        for lo,hi in _wins:
+            _tmp=f'/tmp/retr_{VID}_{int(lo*100)}.wav'; sf.write(_tmp,_x[int(lo*16000):int(hi*16000)],16000)
+            _segs,_=_wm.transcribe(_tmp,language=_lang,word_timestamps=True,beam_size=5,temperature=0.0,condition_on_previous_text=False)
+            ww=[{'w':w.word.strip(),'start':round(lo+w.start,2),'end':round(lo+w.end,2),'p':round(w.probability,2),'retr':True} for sg in _segs for w in (sg.words or []) if letters(w.word) and w.probability>=0.3]   # совсем неуверенные слова вырезки не берём
+            if os.environ.get('DEBUG_RETR'): print(f"   [дораспознавание] окно {lo:.1f}–{hi:.1f}: "+' '.join(f"{w['w']}@{w['start']:.1f}(p{w['p']:.2f})" for w in ww))
+            if _service_hallucination(ww): 
+                if os.environ.get('DEBUG_RETR'): print('   [дораспознавание] окно — служебный титр, отброшено')
+                continue
+            _new+=[w for w in ww if not any(abs(w['start']-o['start'])<0.3 and letters(w['w'])==letters(o['w']) for o in W+_new)]
+        if _new:
+            W=sorted(W+_new,key=lambda w:w['start']); sung,path,WL=run_match(W)
+        print(f'дораспознано окон: {len(_wins)}, новых слов Whisper: {len(_new)}')
+M=len(W)
+
 # пропущенные слова текста между соседними посещениями: Whisper их не услышал (буквы в звуке есть — заполняем без якоря)
 # или певец их не спел (купюра: букв в интервале нет — не заполняем). Мера — буквенная масса CTC между якорями
-def _anch(s_): return s_.get('anch') or (W[s_['wi']]['start'],W[s_['wi']]['end'])
 def _fits(gap,a,b):
     L=sum(len(TL[t]) for t in gap); mass=letter_mass(a-0.1,b+0.1); ok=sung_evidence(a-0.1,b+0.1,L,mass)
     if not ok: print(f"купюра певца (не заполняем): {' '.join(TW[t] for t in gap)!r} — букв {L}, буквенная масса {mass:.1f} в {a:.1f}–{b:.1f}")
@@ -219,6 +279,8 @@ for s_ in sung:
     neigh=any(Lev.normalized_distance(WL[s_['wi']],TL[q])<0.2 for q in range(max(0,s_['t']-2),min(N,s_['t']+3)) if q!=s_['t'])   # слово-сосед: перестановка Whisper, не вариант
     merged=merged or neigh
     s_['var']=W[s_['wi']]['w'] if (d>=0.25 and w['p']>=0.7 and len(WL[s_['wi']])>=4 and len(TL[s_['t']])>=4 and abs(len(WL[s_['wi']])-len(TL[s_['t']]))<=3 and not merged) else None
+    if s_['var']:   # услышанное слово — без пунктуации Whisper, с пунктуацией слова текста («Straßen.» при тексте «Wegen,» -> «Straßen,»)
+        core=re.sub(r'^[^\w]+|[^\w]+$','',s_['var']); tail=re.search(r'[^\w]*$',TW[s_['t']]).group(0); s_['var']=core+tail
 last_t=max(s_['t'] for s_ in sung) if sung else -1
 if 0<N-1-last_t and not any(s_['t']==N-1 for s_ in sung):
     tail=list(range(last_t+1,N)); last_anch=[_anch(s_) for s_ in sung if s_['wi'] is not None]
@@ -375,7 +437,7 @@ kept=0
 for k,s_ in enumerate(sung):
     if not s_['var']: continue
     a,b=ts[k]['start']-0.05,min(ts[k]['end'],raw_end[k])+0.05; tw=fold(TW[s_['t']]); vw=fold(s_['var']); ok=True   # декод по собственному спетому отрезку слова (до продления конца на паузу/следующее слово)
-    for f in (DA,DB):
+    for f in (DB,):   # только языковой движок: MMS_FA — выравниватель, его жадный декод пуст, «оба движка» отвергали настоящие варианты
         dcd=f(a,b)
         if not dcd or Lev.normalized_distance(dcd,vw)>=Lev.normalized_distance(dcd,tw)-0.15 or Lev.normalized_distance(dcd,vw)>0.35: ok=False   # движки должны реально слышать слово Whisper
     if not ok: s_['var']=None

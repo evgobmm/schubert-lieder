@@ -4,7 +4,7 @@
 # (gpu_stage.py, до 10 контейнеров), затем finish_control.sh по каждой песне (FIN_PAR параллельно) и сводка.
 # Все шаги идемпотентны: повторный запуск пропускает готовое. Ориентир: 100 записей за ~15 мин.
 set -e; SCRIPTS=$(dirname "$(realpath "$0")"); SP=$(cd "$SCRIPTS/.."; pwd); PY=$SP/align/.venv/bin/python; export PATH="$SP/bin:$PATH"
-export SCRIPTS SP; DL_PAR=${DL_PAR:-4}; FIN_PAR=${FIN_PAR:-6}
+export SCRIPTS SP; DL_PAR=${DL_PAR:-4}; FIN_PAR=${FIN_PAR:-3}
 mkdir -p "$SP/songs" "$SP/full" "$SP/align" "$SP/audio"; cd "$SP"
 : > "$SP/songs/batch.txt"
 echo "=== 1. спецификации $(date +%T) ==="
@@ -18,9 +18,5 @@ for lang in $(cut -d' ' -f2 "$SP/songs/batch.txt" | sort -u); do
   CTC=$($PY -c "import json,glob;print([json.load(open(f))['ctc_model'] for f in glob.glob('$SP/songs/*/spec.json') if json.load(open(f))['lang']=='$lang'][0])")
   (cd "$SCRIPTS" && $SP/align/.venv/bin/modal run gpu_stage.py --list-file "$SP/songs/vids_$lang.txt" --lang "$lang" --ctc-model "$CTC" --indir "$SP/full" --outdir "$SP/align" --audiodir "$SP/audio" 2>&1 | grep -v "aclose\|async_generator\|RuntimeError\|Traceback\|^$")
 done
-echo "=== 4. сборка песен (CPU, $FIN_PAR параллельно) $(date +%T) ==="
-cut -d' ' -f1 "$SP/songs/batch.txt" | xargs -P "$FIN_PAR" -I{} sh -c 'OMP_NUM_THREADS=2 "$SCRIPTS"/finish_control.sh "$SP"/songs/{} > "$SP"/songs/{}/finish.log 2>&1 || echo "  {}: ОШИБКА (см. finish.log)"'
-while read prefix lang vids; do
-  echo "--- $prefix ---"; grep -a -E "^  .*->|дыр|дополнен|купюра|ГОТОВО|Traceback|ОШИБКА" "$SP/songs/$prefix/finish.log" | cut -c1-160 | sed 's/^/  /'
-done < "$SP/songs/batch.txt"
-echo "=== 5. сводка $(date +%T) ==="; $PY $SCRIPTS/batch_report.py "$SP/songs" $(cut -d' ' -f1 "$SP/songs/batch.txt")
+echo "=== 4. сборка песен в два прохода (окна -> GPU -> сборка) $(date +%T) ==="
+FIN_PAR=${FIN_PAR:-3} "$SCRIPTS"/batch_finish.sh $(cut -d' ' -f1 "$SP/songs/batch.txt")
