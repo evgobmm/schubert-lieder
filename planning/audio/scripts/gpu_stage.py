@@ -29,6 +29,7 @@ image = (
     .env({"HF_HOME": "/models/hf", "TORCH_HOME": "/models/torch", "OMP_NUM_THREADS": "4", "WH_TEMP0": WH_TEMP0})
 )
 models = modal.Volume.from_name("schubert-models", create_if_missing=True)
+data = modal.Volume.from_name("schubert-data", create_if_missing=True)   # выходы стадий: /data/align, /data/audio — их читает облачная сборка (cpu_stage.py)
 SR = 16000
 
 
@@ -36,7 +37,7 @@ def _sh(*cmd):
     subprocess.run(list(cmd), check=True, capture_output=True)
 
 
-@app.cls(gpu=GPU, image=image, volumes={"/models": models}, timeout=1800, scaledown_window=30, max_containers=MAX_CONTAINERS, retries=1)
+@app.cls(gpu=GPU, image=image, volumes={"/models": models, "/data": data}, timeout=1800, scaledown_window=30, max_containers=MAX_CONTAINERS, retries=1)
 class Stage:
     ctc_model: str = modal.parameter()
 
@@ -108,6 +109,10 @@ class Stage:
                "words": [{"w": w.word.strip(), "start": round(w.start, 2), "end": round(w.end, 2), "p": round(w.probability, 2)} for w in (s.words or [])]}
               for s in segs]
         t3 = time.time()
+        for sub in ("align", "audio"): pathlib.Path(f"/data/{sub}").mkdir(parents=True, exist_ok=True)
+        pathlib.Path(f"/data/audio/{vid}_voc.wav").write_bytes(voc.read_bytes()); pathlib.Path(f"/data/align/em_mms_{vid}.pt").write_bytes(b1.getvalue())
+        pathlib.Path(f"/data/align/em_de_{vid}.pt").write_bytes(b2.getvalue()); pathlib.Path(f"/data/align/wh_{vid}.json").write_text(json.dumps(wh, ensure_ascii=False), encoding="utf-8")
+        data.commit()
         return {"voc": voc.read_bytes(), "em_mms": b1.getvalue(), "em_de": b2.getvalue(), "wh": json.dumps(wh, ensure_ascii=False),
                 "timing": {"demucs": round(t1 - t0, 1), "emissions": round(t2 - t1, 1), "whisper": round(t3 - t2, 1), "total": round(t3 - t0, 1),
                            "enter": self.enter_seconds, "container": self.container, "call": self.calls, "audio_s": round(len(x) / SR, 1),

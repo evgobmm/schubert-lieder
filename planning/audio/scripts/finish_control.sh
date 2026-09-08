@@ -3,7 +3,7 @@
 # свои маршруты каждой записи -> консенсус по строфам -> решение по записи (свой / починка по консенсусу / запасной путь) ->
 # файлы сайта -> ворота голосовых дыр (запись с дырами уходит на запасной путь).
 # finish_control.sh [каталог песни со spec.json и vids.txt] (по умолчанию — текущий)
-set -e; SCRIPTS=$(dirname "$(realpath "$0")"); SP=$(cd "$SCRIPTS/.."; pwd); PY=$SP/align/.venv/bin/python; APP=/workspaces/schubert-lieder/app/src/data/timings
+set -e; SCRIPTS=$(dirname "$(realpath "$0")"); SP=$(cd "$SCRIPTS/.."; pwd); PY=$SP/align/.venv/bin/python; APP=${APP:-/workspaces/schubert-lieder/app/src/data/timings}; export OUT_DIR=$APP   # куда писать файлы сайта (в облаке — каталог контейнера)
 RUNDIR=$(realpath "${1:-.}"); cd "$RUNDIR"
 PREFIX=$(python3 -c "import json;print(json.load(open('spec.json'))['prefix'])"); SONG=$(python3 -c "import json;print(json.load(open('spec.json'))['song'])"); VIDS=$(cat vids.txt)
 echo "=== 1. свои маршруты (Whisper каждой записи) ==="; $SCRIPTS/test_run.sh spec.json own $VIDS 2>&1 | grep -a -v "^  проход" | grep -a -v "сдвигом\|варианты те же\|ВАРИАНТЫ\|ИЗМЕНИЛСЯ"

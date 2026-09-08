@@ -18,5 +18,12 @@ for lang in $(cut -d' ' -f2 "$SP/songs/batch.txt" | sort -u); do
   CTC=$($PY -c "import json,glob;print([json.load(open(f))['ctc_model'] for f in glob.glob('$SP/songs/*/spec.json') if json.load(open(f))['lang']=='$lang'][0])")
   (cd "$SCRIPTS" && $SP/align/.venv/bin/modal run gpu_stage.py --list-file "$SP/songs/vids_$lang.txt" --lang "$lang" --ctc-model "$CTC" --indir "$SP/full" --outdir "$SP/align" --audiodir "$SP/audio" 2>&1 | grep -v "aclose\|async_generator\|RuntimeError\|Traceback\|^$")
 done
-echo "=== 4. сборка песен в два прохода (окна -> GPU -> сборка) $(date +%T) ==="
-FIN_PAR=${FIN_PAR:-3} "$SCRIPTS"/batch_finish.sh $(cut -d' ' -f1 "$SP/songs/batch.txt")
+[ -n "$STOP_AFTER_GPU" ] && { echo "остановка после GPU-стадии (STOP_AFTER_GPU) $(date +%T)"; exit 0; }
+if [ -n "$LOCAL_FINISH" ]; then
+  echo "=== 4. сборка песен локально в два прохода (окна -> GPU -> сборка) $(date +%T) ==="; FIN_PAR=${FIN_PAR:-3} "$SCRIPTS"/batch_finish.sh $(cut -d' ' -f1 "$SP/songs/batch.txt")
+else
+  echo "=== 4. сборка песен в облаке (Modal CPU, cpu_stage.py; данные — из тома schubert-data) $(date +%T) ==="
+  (cd "$SCRIPTS" && $SP/align/.venv/bin/modal run cpu_stage.py --batch "$SP/songs/batch.txt" --songs "$SP/songs" --app-dir /workspaces/schubert-lieder/app/src/data/timings 2>&1 | grep -a -E "^[a-z0-9-]+: |ОШИБКА|готово:|сборка в облаке" | cut -c1-160)
+  for p in $(cut -d' ' -f1 "$SP/songs/batch.txt"); do mkdir -p "$SP/songs/$p/held"; for f in $(grep -a -o "^[A-Za-z0-9_-]\{11\}: УДЕРЖАНО" "$SP/songs/$p/finish.log" 2>/dev/null | cut -d: -f1); do mv -f "/workspaces/schubert-lieder/app/src/data/timings/$p-$f.json" "$SP/songs/$p/held/" 2>/dev/null; done; done
+  echo "=== 5. сводка $(date +%T) ==="; $PY $SCRIPTS/batch_report.py "$SP/songs" $(cut -d' ' -f1 "$SP/songs/batch.txt")
+fi

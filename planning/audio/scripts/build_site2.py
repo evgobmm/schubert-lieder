@@ -19,4 +19,5 @@ for r in route:
     for kk in ks: w[kk]=[ts[k]['start'],ts[k]['end']]; k+=1
     out['route'].append({"s":s,"l":l,"w":w})
 assert k==len(ts),(k,len(ts))
-path=f"{ROOT}/app/src/data/timings/{spec['prefix']}-{vid}.json"; json.dump(out,open(path,'w'),ensure_ascii=False,indent=1); print("записан",path)
+import os
+path=f"{os.environ.get('OUT_DIR') or ROOT+'/app/src/data/timings'}/{spec['prefix']}-{vid}.json"; json.dump(out,open(path,'w'),ensure_ascii=False,indent=1); print("записан",path)   # OUT_DIR — как у wh_pipeline
