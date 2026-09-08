@@ -34,6 +34,6 @@ for v,r in routes.items():
     a=[f"{s_}:{l}" for s_,l,k in r]; same=[(s_,l,list(k)) for s_,l,k in r]==[(p['s'],p['l'],p['k']) for p in cons]
     ops=[o for o in difflib.SequenceMatcher(None,a,b,autojunk=False).get_opcodes() if o[0]!='equal']
     subseq=all(o[0]=='insert' for o in ops); share=anchors[v]/cw if cw else 0
-    dec[v]='свой' if same else ('починка' if subseq and share>=0.6 else 'запасной')
+    dec[v]='свой' if same else ('починка' if share>=0.6 else 'запасной')   # структура своя (певец повторяет иначе, чем большинство) — не повод навязывать консенсус: починка лишь добавляет недостающие проходы по звуку
     print(f"  {v}: {'совпадает с консенсусом' if same else ('не хватает проходов: '+' '.join(' '.join(b[o[3]:o[4]]) for o in ops) if subseq else 'иная структура: '+' '.join(f'{o[0]} {a[o[1]:o[2]]}->{b[o[3]:o[4]]}' for o in ops))}; якорей Whisper {anchors[v]} из {cw} слов ({share:.0%}) -> {dec[v].upper()}")
 open('decisions.txt','w').write('\n'.join(f"{v} {d}" for v,d in dec.items())+'\n')
