@@ -21,27 +21,27 @@ def letters(w): return re.sub(r"[^a-zäöü]","",_fold(w))
 TL=[letters(w) for w in TW]
 # --- Whisper
 wh=json.load(open(WH)); W=[w for s in wh for w in s['words'] if letters(w['w'])]
-# ГАЛЛЮЦИНАЦИИ Whisper (аплодисменты, «Grazie a tutti», титры): слово, в интервале которого ни один CTC-движок не слышит букв
-# и которое отстоит от предыдущего принятого слова больше чем на 3 с, — отбрасывается
-def _letters_in(empt):
-    d=torch.load(empt); em=d['emission']; bl=d.get('blank',0)
-    def f(a,b):
-        ids=em[max(0,int(a/0.02)):int(b/0.02)+1].argmax(-1); return int((ids!=bl).sum())
-    return f
-_LA,_LB=_letters_in(EM_A),_letters_in(EM_B)
+# ГАЛЛЮЦИНАЦИИ Whisper (аплодисменты, «Grazie a tutti», титры) — по акустике: голосовые фразы по энергии стема;
+# слово вне фраз и дальше 3 с от предыдущего принятого — отбрасывается; конец пения — конец последней фразы
+_x,_=sf.read(WAV,dtype='float32'); _n=len(_x)//160; _env=np.sqrt((_x[:_n*160].reshape(_n,160)**2).mean(1))
+_ref=float(np.percentile(_env[_env>np.percentile(_env,50)],50)); _V=_env/_ref
+_v=np.convolve((_V>0.25).astype(float),np.ones(5)/5,'same')>0.4; _ph=[]; _i=0
+while _i<_n:
+    if _v[_i]:
+        _j=_i
+        while _j<_n and (_v[_j] or _v[_j:_j+35].any()): _j+=1
+        if (_j-_i)/100>=0.4: _ph.append((_i/100,_j/100))
+        _i=_j
+    else: _i+=1
+def _in_phrase(a,b): return any(pa-0.3<=a<=pb+0.3 or pa-0.3<=b<=pb+0.3 or (a<pa and b>pb) for pa,pb in _ph)
 kept=[]; dropped=[]
 for w in W:
-    a,b=w['start']-0.1,w['end']+0.1; has=_LA(a,b)>0 or _LB(a,b)>0
     far=(not kept) or (w['start']-kept[-1]['end']>3.0)
-    if not has and far: dropped.append(w); continue
+    if far and not _in_phrase(w['start'],w['end']): dropped.append(w); continue
     kept.append(w)
 if dropped: print("отброшено галлюцинаций Whisper:",len(dropped),"—"," ".join(f"{w['w']}@{w['start']:.1f}" for w in dropped))
 W=kept
-# конец пения: последний кадр с буквами у любого движка (+0.3 с) — дальше слов быть не может
-def _last_letter(empt):
-    d=torch.load(empt); em=d['emission']; bl=d.get('blank',0); ids=em.argmax(-1); nz=(ids!=bl).nonzero()
-    return float(nz[-1])*0.02 if len(nz) else 0.0
-END_SING=max(_last_letter(EM_A),_last_letter(EM_B))+0.3
+END_SING=(_ph[-1][1] if _ph else _n/100)+0.5
 M=len(W); WL=[letters(w['w']) for w in W]
 # --- сопоставление: состояние = позиция в тексте j; переходы: продолжение (j+1), возврат/прыжок к любому j' (штраф по дальности в строках), вставка (слово Whisper вне текста)
 INF=1e9
@@ -98,6 +98,10 @@ for s_ in sung:
     neigh=any(Lev.normalized_distance(WL[s_['wi']],TL[q])<0.2 for q in range(max(0,s_['t']-2),min(N,s_['t']+3)) if q!=s_['t'])   # слово-сосед: перестановка Whisper, не вариант
     merged=merged or neigh
     s_['var']=W[s_['wi']]['w'] if (d>=0.25 and w['p']>=0.7 and len(WL[s_['wi']])>=4 and len(TL[s_['t']])>=4 and abs(len(WL[s_['wi']])-len(TL[s_['t']]))<=3 and not merged) else None
+last_t=max(s_['t'] for s_ in sung) if sung else -1
+if 0<N-1-last_t<=8 and not any(s_['t']==N-1 for s_ in sung):
+    for t in range(last_t+1,N): sung.append({"t":t,"wi":None,"var":None})
+    print(f"хвост текста без якорей дописан: {N-1-last_t} слов")
 words=[TW[s_['t']] for s_ in sung]; li=[f"{TIDX[s_['t']][0]}:{TIDX[s_['t']][1]}" for s_ in sung]; slots=[TIDX[s_['t']][2] for s_ in sung]
 json.dump(words,open('words.json','w'),ensure_ascii=False); json.dump(li,open('lineidx.json','w')); json.dump(slots,open('slots.json','w'))
 print(f"Whisper-слов {M}, спето слов {len(sung)}, вставок {sum(1 for _,_,k in path if k=='i')}, без якоря {sum(1 for s_ in sung if s_['wi'] is None)}, вариантов {sum(1 for s_ in sung if s_['var'])}: "+", ".join(f"{TW[s_['t']]}→{s_['var']}" for s_ in sung if s_['var']))
@@ -132,7 +136,9 @@ def windowed(empt):
     res=[None]*len(sung)
     for g in groups:
         an=[anch[k] for k in g if anch[k]]
-        if not an: continue
+        if not an:
+            prev=[anch[q] for q in range(g[0]) if anch[q]]; t0=max(0.0,(prev[-1][1] if prev else 0.0)-0.2); t1=min(n/100,END_SING)
+            an=[(t0,t1)]
         t0=max(0.0,min(a for a,b in an)-0.5); t1=min(n/100,max(b for a,b in an)+0.6)
         toks=[];lens=[]
         for k in g:
