@@ -1,13 +1,16 @@
 #!/bin/bash
 # Запасной путь: консенсусный маршрут из эталонной записи + CTC-выравнивание с привязкой по декоду
 set -e; cd "$(dirname "$0")"; SP=$(cd ..; pwd); PY=$SP/align/.venv/bin/python; SPEC=$PWD/spec.json
-SONG=$(python3 -c "import json;print(json.load(open('$SPEC'))['song'])"); PREFIX=$(python3 -c "import json;print(json.load(open('$SPEC'))['prefix'])"); REF=$1; shift
+SONG=$(python3 -c "import json;print(json.load(open('$SPEC'))['song'])"); PREFIX=$(python3 -c "import json;print(json.load(open('$SPEC'))['prefix'])")
+if [ "$1" = "--route" ]; then cp "$2" route_consensus.json; shift 2; echo "маршрут из файла: $(python3 -c "import json;print(len(json.load(open('route_consensus.json'))))") проходов"
+else REF=$1; shift
 python3 - "$REF" "$PREFIX" <<'PY'
 import json,sys
 t=json.load(open(f"/workspaces/schubert-lieder/app/src/data/timings/{sys.argv[2]}-{sys.argv[1]}.json"))
 route=[{"s":p['s'],"l":p['l'],"k":[k for k,x in enumerate(p['w']) if x]} for p in t['route']]
 json.dump(route,open('route_consensus.json','w')); print('консенсусный маршрут из',sys.argv[1],':',len(route),'проходов')
 PY
+fi
 for v in "$@"; do
   mkdir -p fb_$v; cd fb_$v; cp ../route_consensus.json route.json
   node ../make_words.js "$SONG" route.json
@@ -15,6 +18,6 @@ for v in "$@"; do
   $PY $SP/align/fa2.py $SP/align/em_de_$v.pt  words.json raw_de.json  > /dev/null
   $PY ../pipeline.py $SP/audio/${v}_voc.wav $SP/align/em_mms_$v.pt $SP/align/em_de_$v.pt raw_mms.json raw_de.json words.json ts.raw.json 2>&1 | grep -E "привязка|целостность" | sed "s/^/$v: /"
   $PY ../finalize2.py ts.raw.json ts.json | cut -c1-80
-  $PY ../build_site2.py "$SPEC" route.json ts.json "$v" "demucs -> MMS_FA + wav2vec2-xlsr-53 (язык песни); маршрут — консенсус записей песни (Whisper этой записи потерял строки); привязка слов к фразам по декоду; ДП, атаки, концы" "Запасной путь: маршрут-консенсус, без Whisper-якорей; на слух не проверено."
+  $PY ../build_site2.py "$SPEC" route.json ts.json "$v" "demucs -> MMS_FA + wav2vec2-xlsr-53 (язык песни); маршрут — консенсус записей песни по строфам (Whisper этой записи потерял или переврал проходы); привязка слов к фразам по декоду; ДП, атаки, концы" "Запасной путь: маршрут-консенсус, без Whisper-якорей; на слух не проверено."
   cd ..
 done

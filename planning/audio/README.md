@@ -64,3 +64,14 @@
 `run_control.sh` в каталоге песни (`spec.json` с `lang`, `ctc_model`, `prefix`, `song`, `key`; `vids.txt`): скачивание →
 Demucs → эмиссии → Whisper(язык) → `wh_pipeline.py` → автоматический выбор запасного пути (`fallback.sh <эталон> <vid…>`)
 для записей, где Whisper потерял строки или дал <90 % слов эталона. Очереди — `queues-d688-1.md`.
+
+## Третья контрольная — Die Post D 911/13 (2026-09-08): консенсус по строфам
+
+`run_control.sh` (в каталоге песни со `spec.json` и `vids.txt`): скачать → Demucs → эмиссии → Whisper → `finish_control.sh`:
+`test_run.sh spec.json own <vid…>` (свои маршруты, без записи в `app/`) → `consensus.py <song.json> own <prefix> <vid…>`
+(большинство по строфам, `route_consensus.json`, `decisions.txt`: свой / починка / запасной) → свои файлы копируются на сайт,
+починка — `CONSENSUS=route_consensus.json wh_pipeline.py …`, запасной — `fallback.sh --route route_consensus.json <vid…>` →
+ворота `holes.py` (запись с дырами → запасной путь). Проверка замороженных песен — `test_run.sh <spec> <outdir> <vid…>`
+(печатает маршрут, сдвиги и варианты против файла сайта). `greedy2.py <em.pt> [от до]` — жадный декод по кадрам для
+разбора спорных мест. Маршрут D 911/13 — `route-d911-13.json`, спецификация — `spec-d911-13.json`, очереди — `queues-d911-13.md`,
+справка — `planning/research/d911-13-die-post-route.md`.

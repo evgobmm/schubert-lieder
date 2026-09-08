@@ -67,3 +67,5 @@
 - Код: `app/src/utils/playback.js` (общее состояние плеера и страницы), `utils/timings.js` (индекс
   слов по времени), `utils/lineTokens.js` (слова строки; слово → сегмент подстрочника),
   `components/LineDe.vue` (немецкая строка по словам), `PerformancePlayer.vue`, `SongView.vue`.
+
+Служебное поле `anchored` (число слов с якорем Whisper) пишет конвейер для консенсуса записей; плеер его не читает.
