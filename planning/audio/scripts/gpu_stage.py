@@ -103,8 +103,15 @@ class Stage:
         b1 = io.BytesIO(); torch.save(self._emissions_mms(w16), b1)
         b2 = io.BytesIO(); torch.save(self._emissions_hf(w16), b2); t2 = time.time()
         kw = {"temperature": 0.0} if os.environ.get("WH_TEMP0") == "1" else {}   # WH_TEMP0=1: без отката на сэмплирование — детерминированный лучевой поиск
-        segs, _ = self.whisper.transcribe(str(voc), language=lang, word_timestamps=True, beam_size=5, vad_filter=False,
-                                          condition_on_previous_text=False, **kw)
+        # faster-whisper 1.2.1 падает в find_alignment (IndexError: boolean index … size of axis is 0) на редких записях (Hill — Johnson, D 151):
+        # повтор с другой сегментацией (VAD), затем с жадным декодом; если и это падает — пустой транскрипт, песня пойдёт запасным путём по CTC
+        whisper_note = ""
+        for tries, extra in enumerate(({"vad_filter": False}, {"vad_filter": True}, {"vad_filter": False, "beam_size": 1})):
+            try:
+                segs, _ = self.whisper.transcribe(str(voc), language=lang, word_timestamps=True, condition_on_previous_text=False,
+                                                  **{"beam_size": 5, **extra, **kw}); segs = list(segs); break
+            except Exception as e:
+                whisper_note = f"whisper: попытка {tries + 1} упала ({type(e).__name__}); "; segs = []
         wh = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
                "words": [{"w": w.word.strip(), "start": round(w.start, 2), "end": round(w.end, 2), "p": round(w.probability, 2)} for w in (s.words or [])]}
               for s in segs]
@@ -113,7 +120,7 @@ class Stage:
         pathlib.Path(f"/data/audio/{vid}_voc.wav").write_bytes(voc.read_bytes()); pathlib.Path(f"/data/align/em_mms_{vid}.pt").write_bytes(b1.getvalue())
         pathlib.Path(f"/data/align/em_de_{vid}.pt").write_bytes(b2.getvalue()); pathlib.Path(f"/data/align/wh_{vid}.json").write_text(json.dumps(wh, ensure_ascii=False), encoding="utf-8")
         data.commit()
-        return {"voc": voc.read_bytes(), "em_mms": b1.getvalue(), "em_de": b2.getvalue(), "wh": json.dumps(wh, ensure_ascii=False),
+        return {"voc": voc.read_bytes(), "em_mms": b1.getvalue(), "em_de": b2.getvalue(), "wh": json.dumps(wh, ensure_ascii=False), "note": whisper_note,
                 "timing": {"demucs": round(t1 - t0, 1), "emissions": round(t2 - t1, 1), "whisper": round(t3 - t2, 1), "total": round(t3 - t0, 1),
                            "enter": self.enter_seconds, "container": self.container, "call": self.calls, "audio_s": round(len(x) / SR, 1),
                            "words": sum(len(s["words"]) for s in wh)}}
@@ -147,7 +154,7 @@ def main(list_file: str, lang: str = "de", ctc_model: str = "jonatasgrosman/wav2
         (outdir_p / f"em_mms_{v}.pt").write_bytes(res["em_mms"]); (outdir_p / f"em_de_{v}.pt").write_bytes(res["em_de"])
         (outdir_p / f"wh_{v}.json").write_text(res["wh"], encoding="utf-8")
         down += len(res["voc"]) + len(res["em_mms"]) + len(res["em_de"]) + len(res["wh"]); t = res["timing"]
-        print(f"{v}: {t['audio_s']} с звука | demucs {t['demucs']} с, эмиссии {t['emissions']} с, whisper {t['whisper']} с ({t['words']} слов) = {t['total']} с"
+        print(res.get("note", "") + f"{v}: {t['audio_s']} с звука | demucs {t['demucs']} с, эмиссии {t['emissions']} с, whisper {t['whisper']} с ({t['words']} слов) = {t['total']} с"
               f" | контейнер {t['container']} вызов №{t['call']}, загрузка моделей {t['enter']} с", flush=True)
     print(f"готово за {time.time() - t0:.0f} с (с очередью, загрузкой и передачей данных); вверх {up / 1e6:.1f} МБ, вниз {down / 1e6:.1f} МБ", flush=True)
 
