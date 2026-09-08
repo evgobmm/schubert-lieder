@@ -44,3 +44,11 @@
 привязки кандидата на каждой записи); `ROUTE=<файл> run_song.sh …` задаёт общий маршрут. Маршрут D 911/4 —
 `route-d911-4.json`, спецификация — `spec-d911-4.json`, очереди — `queues-d911-4.md`.
 Регрессия детектора на Rückblick: 3 записи из 5 воспроизводят ручной маршрут полностью, 2 теряют последний тихий повтор.
+
+## Конвейер с распознавателем (2026-09-08, действующий)
+
+`whisper_tr.py <voc.wav> wh_<videoId>.json` (faster-whisper large-v3, int8, CPU, 3–7 мин на запись) →
+`wh_pipeline.py spec.json <videoId> wh_<videoId>.json <voc.wav> em_mms_<videoId>.pt em_de_<videoId>.pt` →
+файл сайта `app/src/data/timings/<prefix>-<videoId>.json` с частичными проходами (повторы слов, `null` у неспетых)
+и `variants` (подтверждённые обоими CTC-движками). Маршрут — свой для каждой записи, по транскрипту.
+Прежние `route_detect.py`/`assign_cost.py`/`pipeline.py` — резервный путь без Whisper.
