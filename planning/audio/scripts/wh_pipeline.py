@@ -29,7 +29,7 @@ for i in range(1,M):
         if best[i-1][j]+INS+c*0<b and best[i-1][j]<INF: pass
         for jp in range(N):                                                                                             # прыжок (повтор назад / вперёд)
             if jp==j-1 or best[i-1][jp]>=INF: continue
-            pen=1.2+0.35*ldist(jp,j) if j<=jp else 1.0+0.35*ldist(jp,j)
+            pen=1.2+0.35*ldist(jp,j) if j<=jp else 2.5+0.35*ldist(jp,j)      # вперёд певцы не прыгают — дорого
             if best[i-1][jp]+pen+c<b: b=best[i-1][jp]+pen+c; bp=(jp,'j')
         if best[i-1][j]<INF and best[i-1][j]+INS<b: b=best[i-1][j]+INS; bp=(j,'i')                                      # вставка: Whisper-слово лишнее
         best[i][j]=b; back[i][j]=bp
@@ -47,7 +47,7 @@ for i,j,kind in path:
 clean=[]
 for idx,s_ in enumerate(sung):
     prv=sung[idx-1]['t'] if idx else -1; nxt=sung[idx+1]['t'] if idx+1<len(sung) else 10**9
-    if s_['t']!=prv+1 and nxt!=s_['t']+1 and s_['wi'] is not None and Lev.normalized_distance(WL[s_['wi']],TL[s_['t']])>0.2: continue   # изолированное слово-прыжок, услышанное плохо
+    if s_['t']>prv+1 and s_['wi'] is not None and Lev.normalized_distance(WL[s_['wi']],TL[s_['t']])>0.2: continue   # прыжок вперёд ради плохо услышанного слова — вставка
     clean.append(s_)
 sung=clean
 # пропущенные слова текста между соседними посещениями (Whisper их не услышал) — вставляем без якоря
