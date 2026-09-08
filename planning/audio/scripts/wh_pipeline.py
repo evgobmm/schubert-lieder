@@ -29,7 +29,10 @@ for i in range(1,M):
         if best[i-1][j]+INS+c*0<b and best[i-1][j]<INF: pass
         for jp in range(N):                                                                                             # прыжок (повтор назад / вперёд)
             if jp==j-1 or best[i-1][jp]>=INF: continue
-            pen=1.2+0.35*ldist(jp,j) if j<=jp else 2.5+0.35*ldist(jp,j)      # вперёд певцы не прыгают — дорого
+            if j>jp:
+                gap=j-jp-1                                                   # пропущено слов текста
+                pen=0.8*gap if gap<=2 else 2.5+0.35*ldist(jp,j)              # 1–2 неуслышанных слова — дёшево; дальше — дорого
+            else: pen=1.2+0.35*ldist(jp,j)                                   # возврат (повтор)
             if best[i-1][jp]+pen+c<b: b=best[i-1][jp]+pen+c; bp=(jp,'j')
         if best[i-1][j]<INF and best[i-1][j]+INS<b: b=best[i-1][j]+INS; bp=(j,'i')                                      # вставка: Whisper-слово лишнее
         best[i][j]=b; back[i][j]=bp
@@ -61,7 +64,10 @@ sung=filled
 for s_ in sung:
     if s_['wi'] is None: s_['var']=None; continue
     w=W[s_['wi']]; d=Lev.normalized_distance(WL[s_['wi']],TL[s_['t']])
-    s_['var']=W[s_['wi']]['w'] if (d>=0.25 and w['p']>=0.6 and len(WL[s_['wi']])>=4 and len(TL[s_['t']])>=4) else None
+    # вариант — только целое слово: не склейка соседних слов текста и не обрывок (длины сопоставимы), уверенность Whisper ≥0.7
+    nb=[TL[s_['t']]+TL[s_['t']+1] if s_['t']+1<N else '', TL[s_['t']-1]+TL[s_['t']] if s_['t']>0 else '']
+    merged=any(x and Lev.normalized_distance(WL[s_['wi']],x)<0.35 for x in nb)
+    s_['var']=W[s_['wi']]['w'] if (d>=0.25 and w['p']>=0.7 and len(WL[s_['wi']])>=4 and len(TL[s_['t']])>=4 and abs(len(WL[s_['wi']])-len(TL[s_['t']]))<=3 and not merged) else None
 words=[TW[s_['t']] for s_ in sung]; li=[f"{TIDX[s_['t']][0]}:{TIDX[s_['t']][1]}" for s_ in sung]; slots=[TIDX[s_['t']][2] for s_ in sung]
 json.dump(words,open('words.json','w'),ensure_ascii=False); json.dump(li,open('lineidx.json','w')); json.dump(slots,open('slots.json','w'))
 print(f"Whisper-слов {M}, спето слов {len(sung)}, вставок {sum(1 for _,_,k in path if k=='i')}, без якоря {sum(1 for s_ in sung if s_['wi'] is None)}, вариантов {sum(1 for s_ in sung if s_['var'])}: "+", ".join(f"{TW[s_['t']]}→{s_['var']}" for s_ in sung if s_['var']))
@@ -185,27 +191,28 @@ for k,s_ in enumerate(sung):
     a,b=ts[k]['start']-0.05,ts[k]['end']+0.05; tw=fold(TW[s_['t']]); vw=fold(s_['var']); ok=True
     for f in (DA,DB):
         dcd=f(a,b)
-        if not dcd or Lev.normalized_distance(dcd,vw)>=Lev.normalized_distance(dcd,tw)-0.1: ok=False
+        if not dcd or Lev.normalized_distance(dcd,vw)>=Lev.normalized_distance(dcd,tw)-0.15 or Lev.normalized_distance(dcd,vw)>0.35: ok=False   # движки должны реально слышать слово Whisper
     if not ok: s_['var']=None
     else: kept+=1
 print(f"вариантов подтверждено движками: {kept}")
 # --- маршрут: проходы = непрерывные отрезки одной строки; первое произнесение строки — полное (недостающие слова — нулевой интервал у соседа)
-passes=[]
+passes=[]; prev_t=-1
 for k,s_ in enumerate(sung):
     i,j,kk=TIDX[s_['t']]
-    if passes and passes[-1]['s']==i and passes[-1]['l']==j and kk==passes[-1]['k'][-1]+1: passes[-1]['k'].append(kk); passes[-1]['idx'].append(k)
-    else: passes.append({"s":i,"l":j,"k":[kk],"idx":[k]})
+    if passes and passes[-1]['s']==i and passes[-1]['l']==j and kk>passes[-1]['k'][-1]: passes[-1]['k'].append(kk); passes[-1]['idx'].append(k)
+    else: passes.append({"s":i,"l":j,"k":[kk],"idx":[k],"repeat":s_['t']<=prev_t})   # возврат назад = повтор; иначе первое произнесение
+    prev_t=s_['t']
 out_route=[]; variants=[]
 for p in passes:
     n_words=len(song['stanzas'][p['s']]['lines_de'][p['l']].split()); w=[None]*n_words
     for kk,k in zip(p['k'],p['idx']):
         w[kk]=[ts[k]['start'],ts[k]['end']]
         if sung[k]['var']: variants.append({"s":p['s'],"l":p['l'],"k":kk,"w":TW[sung[k]['t']],"heard":sung[k]['var'],"start":ts[k]['start']})
-    if p['k'][0]==0:                                     # первое произнесение — полное: неуслышанные слова получают нулевой интервал у соседа
+    if not p['repeat']:                                  # первое произнесение — полное: неуслышанные слова получают нулевой интервал у соседа
         for kk in range(n_words):
             if w[kk] is None:
-                prev=[w[q] for q in range(kk) if w[q]]; e=prev[-1][1] if prev else (w[[q for q in range(n_words) if w[q]][0]][0])
-                w[kk]=[e,e]
+                prev=[w[q] for q in range(kk) if w[q]]; nxt=[w[q] for q in range(kk+1,n_words) if w[q]]
+                e=prev[-1][1] if prev else (nxt[0][0] if nxt else 0.0); w[kk]=[e,e]
     if not re.search(r'[A-Za-zÄÖÜäöüß]', song['stanzas'][p['s']]['lines_de'][p['l']].split()[p['k'][0]]) and False: pass
     # слова без букв (тире) — нулевой интервал у начала следующего слова
     lw=song['stanzas'][p['s']]['lines_de'][p['l']].split()
@@ -220,9 +227,9 @@ out={"d":spec['d'],"videoId":VID,"performance":f"{perf['name']}, {perf['year']}"
 path=f"{ROOT}/app/src/data/timings/{spec['prefix']}-{VID}.json"; json.dump(out,open(path,'w'),ensure_ascii=False,indent=1)
 flat=[iv for p in out_route for iv in p['w'] if iv]
 bad=sum(1 for a,b in flat if b<a); ovl=sum(1 for i in range(1,len(flat)) if flat[i][0]<flat[i-1][1]-1e-9)
-partial=sum(1 for p in passes if p['k'][0]!=0)
+partial=sum(1 for p in passes if p['repeat'])
 print(f"проходов {len(out_route)} (частичных {partial}); целостность: вывернутых {bad}, наложений {ovl}; записан {path}")
 for p in passes:
-    if p['k'][0]!=0: print(f"   частичный повтор {p['s']}:{p['l']}[{','.join(map(str,p['k']))}] @{ts[p['idx'][0]]['start']:.1f}")
+    if p['repeat'] and len(p['k'])<len(song['stanzas'][p['s']]['lines_de'][p['l']].split()): print(f"   частичный повтор {p['s']}:{p['l']}[{','.join(map(str,p['k']))}] @{ts[p['idx'][0]]['start']:.1f}")
 for v in variants: print(f"   вариант {v['s']+1}.{v['l']+1} {v['w']} → «{v['heard']}» @{v['start']:.1f}")
 json.dump([{"w":words[k],"li":li[k],"start":ts[k]['start'],"end":ts[k]['end'],"src":"AB"[choice[k]],"anchor":anch[k],"var":sung[k]['var']} for k in range(K)],open(f'ts_wh_{VID}.json','w'),ensure_ascii=False,indent=0)
