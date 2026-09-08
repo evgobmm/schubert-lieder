@@ -14,7 +14,7 @@ cut -d' ' -f3- "$SP/songs/batch.txt" | tr ' ' '\n' | sort -u | xargs -P "$DL_PAR
 echo "  скачано файлов: $(ls "$SP/full" | wc -l) $(date +%T)"
 echo "=== 3. GPU (Modal) по языкам $(date +%T) ==="
 for lang in $(cut -d' ' -f2 "$SP/songs/batch.txt" | sort -u); do
-  awk -v L="$lang" '$2==L {for(i=3;i<=NF;i++) print $i}' "$SP/songs/batch.txt" | sort -u > "$SP/songs/vids_$lang.txt"
+  awk -v L="$lang" '$2==L {for(i=3;i<=NF;i++) print $i}' "$SP/songs/batch.txt" | awk '!seen[$0]++' > "$SP/songs/vids_$lang.txt"   # в порядке песен (не по алфавиту): при обрыве готовы целые песни
   CTC=$($PY -c "import json,glob;print([json.load(open(f))['ctc_model'] for f in glob.glob('$SP/songs/*/spec.json') if json.load(open(f))['lang']=='$lang'][0])")
   (cd "$SCRIPTS" && $SP/align/.venv/bin/modal run gpu_stage.py::main --list-file "$SP/songs/vids_$lang.txt" --lang "$lang" --ctc-model "$CTC" --indir "$SP/full" --outdir "$SP/align" --audiodir "$SP/audio" 2>&1 | grep -v "aclose\|async_generator\|RuntimeError\|Traceback\|^$")
 done
