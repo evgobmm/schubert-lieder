@@ -75,3 +75,13 @@ Demucs → эмиссии → Whisper(язык) → `wh_pipeline.py` → авт�
 (печатает маршрут, сдвиги и варианты против файла сайта). `greedy2.py <em.pt> [от до]` — жадный декод по кадрам для
 разбора спорных мест. Маршрут D 911/13 — `route-d911-13.json`, спецификация — `spec-d911-13.json`, очереди — `queues-d911-13.md`,
 справка — `planning/research/d911-13-die-post-route.md`.
+
+## Продакшен: партии песен с GPU (2026-09-08)
+
+Раскладка рабочего каталога `$SP`: `tools/` (копия `planning/audio/scripts/`), `align/` (venv, Whisper-транскрипты
+`wh_<vid>.json`, эмиссии `em_mms_<vid>.pt`, `em_de_<vid>.pt`), `audio/` (стемы `<vid>_voc.wav`), `full/` (скачанный
+сжатый звук), `songs/<prefix>/` (`spec.json`, `vids.txt`, `own/`, `fb_*/`, `route_consensus.json`, `decisions.txt`,
+`finish.log`). Партия: `tools/batch_gpu.sh 911/1 911/2 …` — `make_spec.py` → локальный `yt-dlp` → `modal run
+gpu_stage.py` по языкам (Demucs, эмиссии, Whisper на GPU; веса в томе Modal `schubert-models`) → `finish_control.sh
+songs/<prefix>` → `batch_report.py` (таблица `songs/report.md`). Токен Modal — `modal token new` / `modal token set`.
+Без GPU то же самое делает `run_control.sh` (все стадии локально, ~25 мин на песню).
