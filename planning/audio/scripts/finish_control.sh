@@ -18,8 +18,18 @@ while read v d; do
 done < decisions.txt
 if [ -n "$FB" ]; then echo "запасной путь:$FB"; $SCRIPTS/fallback.sh "$RUNDIR" --route route_consensus.json $FB 2>&1 | grep -a -E "маршрут из файла|привязка|целостность|Traceback" | cut -c1-120; fi
 echo "=== 3а. фильтр вариантов (сильные / подтверждённые второй записью или пользователем — на сайт, остальные — в очередь) ==="; $PY $SCRIPTS/variants_filter.py "$RUNDIR" 2>&1 | grep -a -v Warn
-gate() { [ -f "$APP/$PREFIX-$1.json" ] || { echo "НЕТ ФАЙЛА"; return; }; nice -n 15 $PY $SCRIPTS/holes.py "$APP/$PREFIX-$1.json" $SP/audio/${1}_voc.wav $SP/align/em_mms_$1.pt $SP/align/em_de_$1.pt "$SONG" 2>&1 | grep -a -c "^дыра" || true; }
-echo "=== 4. голосовые дыры (ворота); запись с дырами уходит на запасной путь ==="; FB2=""
-for v in $VIDS; do n=$(gate $v); echo "$v: дыр $n"; if [ "$n" != "0" ] && ! grep -q "^$v запасной" decisions.txt; then FB2="$FB2 $v"; fi; done
-if [ -n "$FB2" ]; then echo "дыры после своего маршрута/починки -> запасной путь:$FB2"; $SCRIPTS/fallback.sh "$RUNDIR" --route route_consensus.json $FB2 2>&1 | grep -a -E "привязка|целостность|Traceback" | cut -c1-120; for v in $FB2; do echo "$v: дыр после запасного пути $(gate $v)"; sed -i "s/^$v .*/$v запасной (дыры)/" decisions.txt; done; fi
+MAX_HOLES=${MAX_HOLES:-2}   # запись выкладывается при <= MAX_HOLES дыр (сами дыры — в очередь прослушивания); больше — удерживается в held/
+gate() { [ -f "$APP/$PREFIX-$1.json" ] || { echo "НЕТ ФАЙЛА"; return; }; nice -n 15 $PY $SCRIPTS/holes.py "$APP/$PREFIX-$1.json" $SP/audio/${1}_voc.wav $SP/align/em_mms_$1.pt $SP/align/em_de_$1.pt "$SONG" 2>&1 | grep -a "^дыра" > "holes_$1.txt" || true; wc -l < "holes_$1.txt"; }
+echo "=== 4. голосовые дыры (ворота): свой маршрут с дырами -> пробуем запасной путь, берём лучший; > $MAX_HOLES дыр -> удержано ==="; mkdir -p held
+for v in $VIDS; do
+  n=$(gate $v); echo "$v: дыр $n"
+  if [ "$n" != "0" ] && [ "$n" != "НЕТ ФАЙЛА" ] && ! grep -q "^$v запасной" decisions.txt; then
+    cp "$APP/$PREFIX-$v.json" "own/keep_$v.json"; cp "holes_$v.txt" "own/keep_holes_$v.txt"
+    $SCRIPTS/fallback.sh "$RUNDIR" --route route_consensus.json $v 2>&1 | grep -a -E "Traceback" | cut -c1-120
+    m=$(gate $v); echo "$v: дыр после запасного пути $m"
+    if [ "$m" = "НЕТ ФАЙЛА" ] || [ "$m" -ge "$n" ]; then cp "own/keep_$v.json" "$APP/$PREFIX-$v.json"; cp "own/keep_holes_$v.txt" "holes_$v.txt"; echo "$v: оставлен свой маршрут ($n дыр)"; else sed -i "s/^$v .*/$v запасной (дыры: свой $n, запасной $m)/" decisions.txt; fi
+  fi
+  h=$(wc -l < "holes_$v.txt" 2>/dev/null || echo 0)
+  if [ -f "$APP/$PREFIX-$v.json" ] && [ "$h" -gt "$MAX_HOLES" ]; then mv "$APP/$PREFIX-$v.json" "held/"; echo "$v: УДЕРЖАНО ($h дыр > $MAX_HOLES)"; fi
+done
 echo "ГОТОВО $PREFIX $(date +%T)"

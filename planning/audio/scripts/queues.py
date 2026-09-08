@@ -1,7 +1,7 @@
 # Очереди прослушивания для партии: queues.py <каталог songs> <выходной .md> <prefix…>
 # По каждой записи: способ (свой / починка / запасной), число проходов, слова без якоря Whisper, короче 0.12 с или взятые у второго движка.
 # Для записей запасного пути (без Whisper) очередь — все слова короче 0.12 с (остальные критерии неприменимы).
-import json, sys, os
+import json, sys, os, re
 SONGS, OUT, prefixes = sys.argv[1], sys.argv[2], sys.argv[3:]; R = '/workspaces/schubert-lieder'
 perf = json.load(open(f'{R}/app/src/data/performances.json'))
 out = [f"# Очереди прослушивания — партия {os.path.basename(OUT).replace('queues-', '').replace('.md', '')}", "",
@@ -25,6 +25,9 @@ for p in prefixes:
                 lw = song['stanzas'][ps['s']]['lines_de'][ps['l']].split()
                 for k, iv in enumerate(ps['w']):
                     if iv and iv[1] - iv[0] < 0.12 and any(c.isalpha() for c in lw[k]): q.append(f"{ps['s'] + 1}.{ps['l'] + 1} {lw[k]} @{iv[0]:.1f}")
+        hp=f'{SONGS}/{p}/holes_{v}.txt'
+        if os.path.exists(hp) and os.path.getsize(hp):
+            q=['ДЫРЫ НА ПРОВЕРКУ: '+'; '.join(re.sub(r':.*','',l.strip()) for l in open(hp) if l.strip())]+q
         cands=[f"{c['s']+1}.{c['l']+1} «{c['w']}» → «{c['heard']}» @{c['start']:.0f}с" for c in t.get('variant_candidates',[])]
         if cands: q=['ВАРИАНТЫ НА ПРОВЕРКУ: '+'; '.join(cands)]+q
         out.append(f"### {pf['name']} {pf['year']} (`{v}`) — {how}; проходов {len(t['route'])}; в очереди {len(q)} слов")

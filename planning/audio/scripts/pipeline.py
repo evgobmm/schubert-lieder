@@ -52,9 +52,14 @@ def _letters(empt,a,b):
 ph_all=list(ph)   # полный список фраз — для продления концов (мелизмы без слов)
 _ph=[]
 for a,b in ph:
-    if _letters(EM_A,a,b)>=3 or _letters(EM_B,a,b)>=3: _ph.append((a,b))
+    need=min(3,max(1,int(round(2*(b-a)))))   # порог букв пропорционален длине: стаккато «sacht, sacht» даёт фразы по 0.3 с с 1–2 буквами — это вокал
+    if _letters(EM_A,a,b)>=need or _letters(EM_B,a,b)>=need: _ph.append((a,b))
     else: print(f"   фраза {a:.1f}–{b:.1f} без букв в декоде — исключена")
-ph=_ph
+_m=[]   # соседние фразы с паузой < 0.5 с — одна фраза (иначе короткие обрывки становятся отдельными целями привязки с шумным декодом)
+for a,b in _ph:
+    if _m and a-_m[-1][1]<0.5: _m[-1]=(_m[-1][0],b)
+    else: _m.append((a,b))
+ph=_m
 def phrase_of(t):
     for k,(a,b) in enumerate(ph):
         if a-0.05<=t<b: return k
