@@ -209,7 +209,7 @@ for k in range(1,N):
     if ts[k]['end']<ts[k]['start']: ts[k]['end']=ts[k]['start']
 # --- концы: до смолкания голоса, не дальше следующего слова и конца своей фразы
 for k,r in enumerate(ts):
-    nxt=ts[k+1]['start'] if k+1<N else r['end']+0.5
+    nxt=ts[k+1]['start'] if k+1<N else (ph[-1][1]+0.5 if ph else r['end']+0.5)   # последнее слово тянется до конца пения
     pe=ph[assign[k]][1]+0.15
     b=r['end']; j=int(b*100); end=b; sil=0; limit=int(min(nxt,pe,b+8)*100)
     while j<min(limit,n):

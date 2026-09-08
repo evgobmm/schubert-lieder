@@ -197,7 +197,7 @@ for k in range(1,K):
     if ts[k]['start']<ts[k-1]['start']+0.02: ts[k]['start']=round(ts[k-1]['start']+0.02,2)
     if ts[k]['end']<ts[k]['start']: ts[k]['end']=ts[k]['start']
 for k,r in enumerate(ts):
-    nxt=ts[k+1]['start'] if k+1<K else r['end']+0.5; b=r['end']; j=int(b*100); end=b; sil=0; limit=int(min(nxt,b+8)*100)
+    nxt=ts[k+1]['start'] if k+1<K else END_SING; b=r['end']; j=int(b*100); end=b; sil=0; limit=int(min(nxt,b+8)*100)   # последнее слово тянется до конца пения
     while j<min(limit,n):
         if V[j]<0.20:
             sil+=0.01
