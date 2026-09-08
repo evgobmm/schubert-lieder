@@ -21,7 +21,9 @@ for p in prefixes:
     if ins > 3 * max(1, len(dec)): flags.append(f"много вставок ({ins}) — текст не совпадает с тем, что поют?")
     if 'Traceback' in log or 'ОШИБКА' in log: flags.append('ОШИБКА в логе')
     if 'НЕТ ФАЙЛА' in log: flags.append('нет файла у записи')
-    held=len(re.findall(r'УДЕРЖАНО',log))
+    pubh=len(re.findall(r'ВЫЛОЖЕНО С ДЫРАМИ',log))
+    if pubh: flags.append(f'выложено с дырами {pubh}')
+    held=len(re.findall(r'УДЕРЖАНО',log))-pubh
     if held: flags.append(f'удержано {held} (дыр > порога)')
     missing=[v for v in dec if not os.path.exists(f'{R}/app/src/data/timings/{p}-{v}.json')]
     if missing: flags.append(f'нет файлов: {len(missing)}')
