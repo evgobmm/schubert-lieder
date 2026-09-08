@@ -42,6 +42,7 @@ LS=set(linestart); WIN=45; INF=float('inf')
 best=[[INF]*(N+1) for _ in range(K+1)]; back=[[None]*(N+1) for _ in range(K+1)]; best[0][0]=0.0
 REP=2.5   # база штрафа за возврат (повтор)
 SKIP=2.0  # база штрафа за прыжок вперёд
+WREP=1.5  # база штрафа за короткий повтор слов
 lineend={}
 for idx in range(len(lines)):
     e=linestart[idx+1] if idx+1<len(lines) else N
@@ -58,20 +59,24 @@ for k in range(1,K+1):
             dist=abs(owner[min(s,N-1)]-owner[max(min(e,N-1),0)])        # дальность прыжка в строках
             pen=(REP if s<=e else SKIP)+0.6*dist
             if s!=e and best[k-1][e]+pen<g[s]: g[s]=best[k-1][e]+pen; ga[s]=e   # повтор (назад) или прыжок вперёд к началу строки; дальний — дороже
+        for s in range(max(0,e-6),e):                                    # короткий возврат на 1–6 слов: композиторский повтор нескольких слов
+            if s in LS: continue
+            pen=WREP+0.3*(e-s)
+            if best[k-1][e]+pen<g[s]: g[s]=best[k-1][e]+pen; ga[s]=e
     for j in range(N+1):
         for i in range(max(0,j-WIN),j+1):
             if g[i]==INF: continue
             c=g[i]+(Lev.distance(dk,''.join(WN[i:j])) if i<j else 2*len(dk)+3)   # «пустая» фраза с буквами — дорого
             if c<best[k][j]: best[k][j]=c; back[k][j]=(i,ga[i],None,None)
         # повтор внутри фразы: первый отрезок до конца строки e1, затем с начала той же или предыдущей строки до j
-        for e1 in LE:
-            if e1>j or e1<max(0,j-WIN): continue
+        for e1 in range(max(1,j-WIN),j+1):
             ln=owner[e1-1]
-            for s0 in ([linestart[ln]]+([linestart[ln-1]] if ln>0 else [])):
-                if s0>e1 or j<=s0 or j-s0>WIN: continue
+            for s0 in sorted(set([linestart[ln]]+([linestart[ln-1]] if ln>0 else [])+list(range(max(0,e1-6),e1)))):
+                if s0>=e1 or j<=s0 or j-s0>WIN: continue
+                pen=REP if s0 in LS else WREP+0.3*(e1-s0)
                 for i in range(max(0,e1-WIN),e1):
                     if g[i]==INF: continue
-                    c=g[i]+REP+Lev.distance(dk,''.join(WN[i:e1]+WN[s0:j]))
+                    c=g[i]+pen+Lev.distance(dk,''.join(WN[i:e1]+WN[s0:j]))
                     if c<best[k][j]: best[k][j]=c; back[k][j]=(i,ga[i],e1,s0)
 # конец: любой j, но недопетые слова текста штрафуем (пропуск строк)
 end=min(range(N+1),key=lambda j: best[K][j]+ 4*((lineend.get(j,N) if j<N else N)-j))   # штраф — только за недопетый остаток строки
@@ -83,12 +88,24 @@ for k in range(K,0,-1):
     j=e
 segs=segs[::-1]
 seq=[w for i,j in segs for w in range(i,j)]
-# маршрут: последовательность строк по посещённым словам
-route=[];cur=None
+# маршрут: проходы = непрерывные отрезки посещённых слов внутри одной строки; k — индексы слов в строке
+passes=[]; cur=None
 for w in seq:
-    ln=owner[w]
-    if ln!=cur or w==linestart[ln]: route.append(lines[ln][:2]); cur=ln
-route=[list(r) for r in route]   # подряд идущие одинаковые строки — настоящие повторы, не склеивать
+    ln=owner[w]; kk=w-linestart[ln]
+    if cur and cur['ln']==ln and cur['k'][-1]==kk-1: cur['k'].append(kk)
+    else:
+        cur={'ln':ln,'k':[kk]}; passes.append(cur)
+# первое произнесение строки — всегда полное (частичным бывает только повтор, начинающийся не с первого слова)
+for p in passes:
+    if p['k'][0]==0: p['k']=list(range(len(lines[p['ln']][2].split())))
+# два соседних прохода одной строки, где второй — продолжение первого (стык слов), сливаем
+merged=[]
+for p in passes:
+    if merged and merged[-1]['ln']==p['ln'] and p['k'][0]==merged[-1]['k'][-1]+1: merged[-1]['k']+=p['k']
+    else: merged.append(p)
+passes=merged
+route=[{"s":lines[p['ln']][0],"l":lines[p['ln']][1],"k":p['k']} for p in passes]
+partial=sum(1 for p,r in zip(passes,route) if len(r['k'])<len(lines[p['ln']][2].split()))
 cost=(best[K][end])/max(1,sum(len(d) for d in D))
-json.dump({"route":route,"cost_per_letter":round(cost,3),"phrases":len(ph),"segments":[[i,j] for i,j in segs]},open(OUT,'w'),ensure_ascii=False)
-print(f"фраз {K}, стоимость {cost:.2f}/букву, проходов {len(route)}: "+" ".join(f"{s}:{l}" for s,l in route))
+json.dump({"route":route,"cost_per_letter":round(cost,3),"phrases":len(ph)},open(OUT,'w'),ensure_ascii=False)
+print(f"фраз {K}, стоимость {cost:.2f}/букву, проходов {len(route)} (частичных {partial}): "+" ".join(f"{r['s']}:{r['l']}"+("" if len(r['k'])==len(lines[[ (i,j) for i,j,_ in lines].index((r['s'],r['l']))][2].split()) else "["+",".join(map(str,r['k']))+"]") for r in route))

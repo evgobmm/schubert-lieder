@@ -11,8 +11,11 @@ for k,r in enumerate(ts):
         nx=ts[k+1]['start'] if k+1<len(ts) else r['end']; r['start']=r['end']=nx
         if k>0: ts[k-1]['end']=max(ts[k-1]['end'],r['end']) if ts[k-1]['end']<=nx else ts[k-1]['end']
 k=0
-for s,l in route:
-    n=len(song['stanzas'][s]['lines_de'][l].split()); w=[[ts[k+i]['start'],ts[k+i]['end']] for i in range(n)]; k+=n
+for r in route:
+    s,l=(r if isinstance(r,list) else (r['s'],r['l'])); n=len(song['stanzas'][s]['lines_de'][l].split())
+    ks=list(range(n)) if isinstance(r,list) or not r.get('k') else r['k']
+    w=[None]*n
+    for kk in ks: w[kk]=[ts[k]['start'],ts[k]['end']]; k+=1
     out['route'].append({"s":s,"l":l,"w":w})
 assert k==len(ts),(k,len(ts))
 path=f"{ROOT}/app/src/data/timings/{spec['prefix']}-{vid}.json"; json.dump(out,open(path,'w'),ensure_ascii=False,indent=1); print("записан",path)
