@@ -32,7 +32,9 @@ for k,r in enumerate(t):
         d=dec(em,lab,bl,a,b); wn=normw(w,dic); decs.append(d)
         scores.append(Lev.normalized_distance(d,wn) if d else 1.0)
     agree=Lev.normalized_distance(decs[0],decs[1]) if all(decs) else 1.0
-    if min(scores)>0.5 and all(len(d)>=4 for d in decs) and agree<=0.4 and r['end']-r['start']>=0.25:
+    wn0=normw(w,E[0][3])
+    trunc=min(Lev.normalized_distance(decs[0],t) for t in (wn0[1:],wn0[:-1],wn0[1:-1]) if t)   # усечение CTC (потерян первый/последний звук) — не вариант
+    if min(scores)>=0.25 and all(len(d)>=4 for d in decs) and agree<=0.25 and r['end']-r['start']>=0.25 and len(wn0)>=5 and trunc>0.15:   # близкие варианты редакций (erfroren/erstorben = 0.33) при согласии движков
         same=[q for q in range(len(t)) if li[q]==li[k] and q!=k and len(normw(t[q]['w'],E[0][3]))>=3]
         if same and statistics.median(wscore(q) for q in same)>0.45: continue   # вся строка декодируется плохо — это шум, не вариант
         s,l=li[k].split(':'); out.append({"s":int(s),"l":int(l),"k":k,"w":w,"heard_de":decs[0],"heard_mms":decs[1],"start":r['start']})

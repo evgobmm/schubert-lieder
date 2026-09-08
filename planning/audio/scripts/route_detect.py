@@ -40,7 +40,8 @@ D=[dec(emD,labD,blD,a,b) for a,b in ph]; WN=[normw(w,dicD) for w in words]; K=le
 LS=set(linestart); WIN=45; INF=float('inf')
 # состояние: конец отрезка e (слов спето до e в текущем «проходе» по тексту); начало следующего отрезка: e (продолжение) или начало строки <= e (повтор)
 best=[[INF]*(N+1) for _ in range(K+1)]; back=[[None]*(N+1) for _ in range(K+1)]; best[0][0]=0.0
-REP=4.0   # штраф за возврат (повтор)
+REP=2.5   # база штрафа за возврат (повтор)
+SKIP=2.0  # база штрафа за прыжок вперёд
 lineend={}
 for idx in range(len(lines)):
     e=linestart[idx+1] if idx+1<len(lines) else N
@@ -54,7 +55,9 @@ for k in range(1,K+1):
         if best[k-1][e]==INF: continue
         if best[k-1][e]<g[e]: g[e]=best[k-1][e]; ga[e]=e                       # продолжение
         for s in linestart:
-            if s<=e and best[k-1][e]+REP<g[s]: g[s]=best[k-1][e]+REP; ga[s]=e   # повтор с начала строки
+            dist=abs(owner[min(s,N-1)]-owner[max(min(e,N-1),0)])        # дальность прыжка в строках
+            pen=(REP if s<=e else SKIP)+0.6*dist
+            if s!=e and best[k-1][e]+pen<g[s]: g[s]=best[k-1][e]+pen; ga[s]=e   # повтор (назад) или прыжок вперёд к началу строки; дальний — дороже
     for j in range(N+1):
         for i in range(max(0,j-WIN),j+1):
             if g[i]==INF: continue
