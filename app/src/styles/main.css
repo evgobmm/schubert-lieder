@@ -340,6 +340,10 @@ body {
   flex: 0 0 22em;
 }
 
+.print-sheet .print-song .song-header .col-meta {
+  flex: 0 0 8em;
+}
+
 /* Пара строк: DE слева (как на сайте), RU с глоссами справа; не рвать по страницам */
 .print-sheet .print-song .line-pair {
   display: flex;

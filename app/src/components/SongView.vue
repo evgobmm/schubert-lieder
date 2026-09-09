@@ -32,15 +32,15 @@ const song = computed(() => {
   return mod ? mod.default : null
 })
 
-// Строка метаданных шапки: «1816, D 399, стихи — Людвиг Кристоф Генрих Хёльти»
-const metaParts = computed(() => {
-  if (!song.value) return []
-  const parts = []
-  if (song.value.year) parts.push(String(song.value.year))
-  if (song.value.d) parts.push(`D ${song.value.d}`)
-  const poet = song.value.poet_ru || song.value.poet_de
-  if (poet) parts.push(`стихи — ${poet}`)
-  return parts
+// Узкая колонка метаданных в шапке: первая строка — «1816, D 399», ниже — «стихи — поэт»
+const metaLine = computed(() => {
+  if (!song.value) return ''
+  return [song.value.year && String(song.value.year), song.value.d && `D ${song.value.d}`].filter(Boolean).join(', ')
+})
+
+const metaPoet = computed(() => {
+  const poet = song.value && (song.value.poet_ru || song.value.poet_de)
+  return poet ? `стихи — ${poet}` : ''
 })
 
 // Build a global map: "stanzaIdx-lineIdx-annIdx" -> display number, sorted by footnote position
@@ -546,7 +546,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
           }"
         >{{ (number ? number + '. ' : '') + song.title_de }}</h2>
       </div>
-      <div class="col-right">
+      <div class="col-ru">
         <h2
           v-if="song.title_ru"
           class="title-ru"
@@ -564,11 +564,11 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
           :anchor-key="fn.key"
           @click.stop="handleTap(fn.key)"
         /></h2>
-        <!-- Метаданные: год, D-номер, поэт — правее русского названия, прижаты к правому краю;
-             когда в строку не помещаются, уходят под русское название (по-прежнему справа) -->
-        <p v-if="metaParts.length" class="song-meta">
-          <span v-for="(part, i) in metaParts" :key="i" class="meta-item">{{ part }}{{ i < metaParts.length - 1 ? ',' : '' }}</span>
-        </p>
+      </div>
+      <!-- Третья, узкая колонка на уровне названий: «1816, D 399», ниже отдельной строкой «стихи — поэт» -->
+      <div v-if="metaLine || metaPoet" class="col-meta">
+        <div v-if="metaLine" class="meta-line">{{ metaLine }}</div>
+        <div v-if="metaPoet" class="meta-poet">{{ metaPoet }}</div>
       </div>
     </header>
 
@@ -693,6 +693,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 .song-header {
   display: flex;
   gap: 40px;
+  align-items: baseline;
   margin-bottom: 32px;
 }
 
@@ -726,44 +727,22 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
   margin: 0 -4px;
 }
 
-/* Правая часть шапки: русское название и метаданные в одну строку, если помещаются,
-   иначе метаданные переносятся ниже — но остаются прижаты к правому краю */
-.song-header .col-right {
-  flex: 1 1 0;
-  min-width: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  column-gap: 32px;
-  row-gap: 6px;
-}
-
-.song-header .col-right h2 {
-  flex: 0 1 auto;
-  min-width: 0;
-}
-
-.song-meta {
-  flex: 0 1 auto;
-  margin-left: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  column-gap: 0.35em;
+/* Узкая колонка метаданных у правого края области текста; первая строка стоит
+   на базовой линии названий (align-items: baseline у шапки) */
+.col-meta {
+  flex: 0 0 clamp(120px, 16%, 170px);
   font-family: var(--font-sans);
   font-size: 0.85rem;
-  line-height: 1.5;
+  line-height: 1.45;
   color: var(--text-secondary);
-  text-align: right;
 }
 
-.meta-item {
+.meta-line {
   white-space: nowrap;
 }
 
-/* Последняя часть (обычно «стихи — поэт») может переноситься по словам */
-.meta-item:last-child {
-  white-space: normal;
+.meta-poet {
+  margin-top: 2px;
 }
 
 .stanza {
@@ -846,15 +825,20 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
     margin-bottom: 22px;
   }
 
-  /* На узком экране метаданные — строкой под названиями, слева */
-  .song-header .col-right {
-    display: block;
+  /* На узком экране колонки нет: метаданные одной строкой под названиями */
+  .col-meta {
+    flex: none;
+    margin-top: 4px;
   }
 
-  .song-meta {
-    margin: 4px 0 0;
-    justify-content: flex-start;
-    text-align: left;
+  .meta-line,
+  .meta-poet {
+    display: inline;
+    margin: 0;
+  }
+
+  .meta-line::after {
+    content: ', ';
   }
 
   .line-pair {
