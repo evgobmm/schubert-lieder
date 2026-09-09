@@ -31,7 +31,9 @@ def _link(dst, src):
 
 @app.function(image=image, volumes={"/data": data}, cpu=2.0, memory=4096, timeout=3600, max_containers=40, retries=1)
 def finish_song(spec: dict, vids: list, lang: str) -> dict:
-    data.reload(); t0 = time.time()
+    try: data.reload()                                                                          # том мог быть «занят» открытым файлом предыдущего вызова в этом контейнере
+    except Exception as e: print(f"volume reload: {e!r}", file=sys.stderr)                     # (RuntimeError: there are open files…) — данные уже смонтированы, идём дальше
+    t0 = time.time()
     prefix = spec["prefix"]; sp = pathlib.Path(SPC); songdir = sp / "songs" / prefix; songdir.mkdir(parents=True, exist_ok=True)
     (sp / "align" / ".venv" / "bin").mkdir(parents=True, exist_ok=True); (sp / "audio").mkdir(exist_ok=True)
     _link(sp / "align" / ".venv" / "bin" / "python", sys.executable)                          # скрипты зовут $SP/align/.venv/bin/python

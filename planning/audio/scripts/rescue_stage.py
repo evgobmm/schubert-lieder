@@ -27,7 +27,9 @@ def _link(dst, src):
 
 @app.function(image=image, volumes={"/data": data}, cpu=2.0, memory=4096, timeout=1800, max_containers=40, retries=1)
 def rescue_rec(spec: dict, vid: str, route: list) -> dict:
-    data.reload(); t0 = time.time(); prefix = spec["prefix"]
+    try: data.reload()                                                                          # том мог быть «занят» открытым файлом предыдущего вызова в этом контейнере
+    except Exception as e: print(f"volume reload: {e!r}", file=sys.stderr)                     # (RuntimeError: there are open files…) — данные уже смонтированы, идём дальше
+    t0 = time.time(); prefix = spec["prefix"]
     sp = pathlib.Path(SPC); run = sp / "songs" / f"{prefix}_rescue_{vid}"; run.mkdir(parents=True, exist_ok=True)
     (sp / "align" / ".venv" / "bin").mkdir(parents=True, exist_ok=True); (sp / "audio").mkdir(exist_ok=True)
     _link(sp / "align" / ".venv" / "bin" / "python", sys.executable)
