@@ -30,8 +30,8 @@ function applyTheme() {
   background: none;
   border: 1px solid var(--border);
   border-radius: 50%;
-  width: 46px;
-  height: 46px;
+  width: var(--round-btn, 46px);
+  height: var(--round-btn, 46px);
   font-size: 1.55rem;
   cursor: pointer;
   color: var(--text);

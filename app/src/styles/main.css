@@ -99,10 +99,19 @@ body {
   gap: 12px;
 }
 
+/* Три круглые кнопки правой колонки (тема, письмо, «Наверх») — одного размера, на одной
+   вертикали: центр в --round-col-right от правого края окна (положение месяца) */
+:root {
+  --round-btn: 46px;
+  --round-col-right: 112px;
+}
+
 .theme-slot {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  /* 20px — боковой отступ колонки настроек */
+  padding-right: calc(var(--round-col-right) - var(--round-btn) / 2 - 20px);
   gap: 10px;
 }
 
@@ -196,18 +205,16 @@ body {
   text-align: left;
 }
 
-/* Письмо — кружок (как ☾/❅) ниже «Печати», по вертикали под снежинкой.
-   flex-end + padding-right совмещает центр кружка с центром снежинки при любой
-   ширине окна (settings-колонка фиксирована, снежинка на постоянном смещении). */
+/* Письмо — кружок ниже «Печати», на одной вертикали с месяцем */
 .feedback-row {
   display: flex;
   justify-content: flex-end;
-  padding-right: 40px;
+  padding-right: calc(var(--round-col-right) - var(--round-btn) / 2 - 20px);
 }
 
 .letter-btn {
-  width: 46px;
-  height: 46px;
+  width: var(--round-btn);
+  height: var(--round-btn);
   border: 1px solid var(--border);
   border-radius: 50%;
   background: none;
@@ -493,11 +500,11 @@ body {
 /* Круглая кнопка «Наверх» — в правом нижнем углу, в ряду круглых кнопок сайта (тема, письмо) */
 .to-top {
   position: fixed;
-  right: 28px;
+  right: calc(var(--round-col-right) - var(--round-btn) / 2);
   bottom: 28px;
   z-index: 70;
-  width: 46px;
-  height: 46px;
+  width: var(--round-btn);
+  height: var(--round-btn);
   display: flex;
   align-items: center;
   justify-content: center;

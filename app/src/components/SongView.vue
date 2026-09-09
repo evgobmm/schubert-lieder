@@ -622,14 +622,10 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
         type="button"
         @click="scrollToAbout"
       >
-        <svg class="about-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <circle cx="12" cy="12" r="9" />
-          <line x1="12" y1="11" x2="12" y2="16.5" />
-          <circle cx="12" cy="7.8" r="0.6" fill="currentColor" />
-        </svg>
         <span class="about-btn-label">О песне</span>
-        <svg class="about-btn-chev" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M2.5 4.5L6 8l3.5-3.5" />
+        <svg class="about-btn-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m7 6 5 5 5-5" />
+          <path d="m7 13 5 5 5-5" />
         </svg>
       </button>
       <p class="site-note">Сайт предназначен для общего знакомства с&nbsp;песнями.<br />Он сделан с&nbsp;помощью ИИ и&nbsp;на данный момент не&nbsp;может рассматриваться как источник знаний.</p>
@@ -853,12 +849,12 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
   font-family: var(--font-sans);
 }
 
-/* Кнопка «О песне» — в стиле кнопок «Исполнения»/«Печать», компактнее */
+/* Кнопка «О песне» — в стиле кнопок «Исполнения»/«Печать», компактнее: надпись и двойной шеврон вниз */
 .about-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 11px 6px 10px;
+  padding: 6px 10px 6px 12px;
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--sidebar-bg);
@@ -880,13 +876,8 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
   outline-offset: 2px;
 }
 
-.about-btn-icon {
-  color: var(--accent);
-  flex: none;
-}
-
 .about-btn-chev {
-  color: var(--text-secondary);
+  color: var(--accent);
   flex: none;
 }
 
