@@ -60,7 +60,6 @@ body {
   font-family: var(--font-serif);
   font-size: 1.05rem;
   color: var(--text-secondary);
-  margin-bottom: 14px;
 }
 
 /* Голос издания (не Шуберта и не Мюллера) — гротеск, без курсива */
@@ -92,16 +91,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 22px;
-}
-
-.credit {
-  text-align: center;
-  font-family: var(--font-serif);
-  font-size: 1.1rem;
-  font-style: italic;
-  color: var(--text-secondary);
-  line-height: 1.6;
-  white-space: nowrap;
 }
 
 .settings-controls {

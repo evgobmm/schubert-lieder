@@ -239,11 +239,8 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
     </main>
     <aside class="settings">
       <div class="masthead">
-        <h1 class="masthead-title">Lieder</h1>
+        <h1 class="masthead-title">Schubert-Lieder</h1>
         <div class="masthead-subtitle">Песни Шуберта</div>
-        <div class="credit">
-          Музыка Франца Шуберта
-        </div>
         <div class="masthead-tagline">Точный семантический подстрочник с&nbsp;пояснениями</div>
       </div>
       <div class="settings-controls">

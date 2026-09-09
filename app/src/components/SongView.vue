@@ -32,6 +32,17 @@ const song = computed(() => {
   return mod ? mod.default : null
 })
 
+// Строка метаданных шапки: «1816, D 399, стихи — Людвиг Кристоф Генрих Хёльти»
+const metaParts = computed(() => {
+  if (!song.value) return []
+  const parts = []
+  if (song.value.year) parts.push(String(song.value.year))
+  if (song.value.d) parts.push(`D ${song.value.d}`)
+  const poet = song.value.poet_ru || song.value.poet_de
+  if (poet) parts.push(`стихи — ${poet}`)
+  return parts
+})
+
 // Build a global map: "stanzaIdx-lineIdx-annIdx" -> display number, sorted by footnote position
 const annNumberMap = computed(() => {
   if (!song.value || song.value.text_only) return new Map()
@@ -535,8 +546,9 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
           }"
         >{{ (number ? number + '. ' : '') + song.title_de }}</h2>
       </div>
-      <div v-if="song.title_ru" class="col-ru">
+      <div class="col-right">
         <h2
+          v-if="song.title_ru"
           class="title-ru"
           :class="{
             'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === highlightKey && fn.type === 'lang'),
@@ -552,12 +564,13 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
           :anchor-key="fn.key"
           @click.stop="handleTap(fn.key)"
         /></h2>
+        <!-- Метаданные: год, D-номер, поэт — правее русского названия, прижаты к правому краю;
+             когда в строку не помещаются, уходят под русское название (по-прежнему справа) -->
+        <p v-if="metaParts.length" class="song-meta">
+          <span v-for="(part, i) in metaParts" :key="i" class="meta-item">{{ part }}{{ i < metaParts.length - 1 ? ',' : '' }}</span>
+        </p>
       </div>
     </header>
-
-    <p v-if="song.d || song.poet_ru || song.poet_de" class="song-meta">
-      <template v-if="song.d">D {{ song.d }}</template><template v-if="song.d && (song.poet_ru || song.poet_de)"> · </template><template v-if="song.poet_ru || song.poet_de">стихи — {{ song.poet_ru || song.poet_de }}</template><template v-if="song.year"> · {{ song.year }}</template>
-    </p>
 
     <!-- Режим «только текст»: немецкий текст без перевода (переводы добавляются постепенно) -->
     <div v-if="song.text_only" class="song-body text-only-body">
@@ -713,11 +726,44 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
   margin: 0 -4px;
 }
 
+/* Правая часть шапки: русское название и метаданные в одну строку, если помещаются,
+   иначе метаданные переносятся ниже — но остаются прижаты к правому краю */
+.song-header .col-right {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 32px;
+  row-gap: 6px;
+}
+
+.song-header .col-right h2 {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
 .song-meta {
-  margin: -24px 0 28px;
+  flex: 0 1 auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 0.35em;
   font-family: var(--font-sans);
   font-size: 0.85rem;
+  line-height: 1.5;
   color: var(--text-secondary);
+  text-align: right;
+}
+
+.meta-item {
+  white-space: nowrap;
+}
+
+/* Последняя часть (обычно «стихи — поэт») может переноситься по словам */
+.meta-item:last-child {
+  white-space: normal;
 }
 
 .stanza {
@@ -798,6 +844,17 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
     flex-direction: column;
     gap: 0;
     margin-bottom: 22px;
+  }
+
+  /* На узком экране метаданные — строкой под названиями, слева */
+  .song-header .col-right {
+    display: block;
+  }
+
+  .song-meta {
+    margin: 4px 0 0;
+    justify-content: flex-start;
+    text-align: left;
   }
 
   .line-pair {
