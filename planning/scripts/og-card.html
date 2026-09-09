@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Карточка-превью сайта для соцсетей (og:image, 1200×630). Рендер: node planning/scripts/render-og-image.js
+     Цвета и шрифты — светлая тема сайта (app/src/styles/theme.css). Образец подстрочника — D 118, первая строфа. -->
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; }
+  body { width: 1200px; height: 630px; overflow: hidden; background: #faf8f5; color: #2c2c2c;
+         font-family: 'Source Serif 4', Georgia, serif; position: relative; }
+  .bar { position: absolute; left: 0; top: 0; bottom: 0; width: 16px; background: #8b4513; }
+  .left { position: absolute; left: 76px; top: 96px; width: 590px; }
+  .title { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 68px; line-height: 1.05; white-space: nowrap; letter-spacing: -0.01em; margin: 0; }
+  .subtitle { font-size: 42px; font-weight: 500; color: #6b6b6b; margin: 14px 0 0; }
+  .tagline { font-family: 'Inter', system-ui, sans-serif; font-size: 27px; line-height: 1.35; color: #2c2c2c; margin: 58px 0 0; }
+  .desc { font-family: 'Inter', system-ui, sans-serif; font-size: 22px; line-height: 1.45; color: #6b6b6b; margin: 16px 0 0; }
+  .url { position: absolute; left: 76px; bottom: 60px; font-family: 'Inter', system-ui, sans-serif; font-size: 22px; color: #8b4513; letter-spacing: 0.01em; }
+  .sample { position: absolute; right: 56px; top: 78px; width: 424px; padding: 34px 30px 30px; background: #f0ede8; border-radius: 14px; }
+  .pair { margin-bottom: 28px; }
+  .pair:last-child { margin-bottom: 0; }
+  .de { font-style: italic; font-size: 23px; color: #2c2c2c; margin-bottom: 6px; white-space: nowrap; }
+  .ru { display: flex; flex-wrap: nowrap; gap: 0 12px; }
+  .seg { display: flex; flex-direction: column; }
+  .seg .top { font-size: 23px; line-height: 1.15; white-space: nowrap; }
+  .seg .gloss { font-size: 14px; font-style: italic; color: #888; margin-top: 2px; }
+</style>
+</head>
+<body>
+  <div class="bar"></div>
+  <div class="left">
+    <h1 class="title">Schubert-Lieder</h1>
+    <div class="subtitle">Песни Шуберта</div>
+    <div class="tagline">Точный семантический подстрочник с&nbsp;пояснениями</div>
+    <div class="desc">Немецкий текст, дословный перевод, комментарии, избранные исполнения</div>
+  </div>
+  <div class="url">evgobmm.github.io/schubert-lieder</div>
+  <div class="sample">
+    <div class="pair">
+      <div class="de">Meine Ruh' ist hin,</div>
+      <div class="ru">
+        <div class="seg"><span class="top">Мой</span><span class="gloss">Meine</span></div>
+        <div class="seg"><span class="top">покой</span><span class="gloss">Ruh'</span></div>
+        <div class="seg"><span class="top">пропал,</span><span class="gloss">ist hin</span></div>
+      </div>
+    </div>
+    <div class="pair">
+      <div class="de">Mein Herz ist schwer,</div>
+      <div class="ru">
+        <div class="seg"><span class="top">Моё</span><span class="gloss">Mein</span></div>
+        <div class="seg"><span class="top">сердце —</span><span class="gloss">Herz</span></div>
+        <div class="seg"><span class="top">тяжело,</span><span class="gloss">ist schwer</span></div>
+      </div>
+    </div>
+    <div class="pair">
+      <div class="de">Ich finde, ich finde sie nimmer</div>
+      <div class="ru">
+        <div class="seg"><span class="top">Я</span><span class="gloss">Ich</span></div>
+        <div class="seg"><span class="top">не найду,</span><span class="gloss">finde</span></div>
+        <div class="seg"><span class="top">я</span><span class="gloss">ich</span></div>
+        <div class="seg"><span class="top">не найду</span><span class="gloss">finde</span></div>
+        <div class="seg"><span class="top">его</span><span class="gloss">sie</span></div>
+        <div class="seg"><span class="top">никогда</span><span class="gloss">nimmer</span></div>
+      </div>
+    </div>
+    <div class="pair">
+      <div class="de">Und nimmermehr!</div>
+      <div class="ru">
+        <div class="seg"><span class="top">И</span><span class="gloss">Und</span></div>
+        <div class="seg"><span class="top">вовеки!</span><span class="gloss">nimmermehr</span></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

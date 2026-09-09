@@ -1,7 +1,14 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const emit = defineEmits(['close'])
+
+// Esc закрывает окно — как и клик по подложке или «Отмена»
+function onKey(e) {
+  if (e.key === 'Escape') emit('close')
+}
+onMounted(() => window.addEventListener('keydown', onKey))
+onUnmounted(() => window.removeEventListener('keydown', onKey))
 
 const ADDRESS = 'evgobmm@gmail.com'
 const message = ref('')

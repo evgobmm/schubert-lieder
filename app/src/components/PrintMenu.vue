@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, nextTick, onUnmounted } from 'vue'
+import { ref, computed, nextTick, onMounted, onUnmounted } from 'vue'
 import SongView from './SongView.vue'
 import songsIndex from '../data/index.json'
 
@@ -278,7 +278,15 @@ async function doPrint() {
   emit('close')
 }
 
-onUnmounted(() => document.body.classList.remove('printing-songs'))
+// Esc закрывает меню (пока не идёт печать) — как клик по подложке или «Отмена»
+function onKey(e) {
+  if (e.key === 'Escape' && !printing.value) emit('close')
+}
+onMounted(() => window.addEventListener('keydown', onKey))
+onUnmounted(() => {
+  window.removeEventListener('keydown', onKey)
+  document.body.classList.remove('printing-songs')
+})
 </script>
 
 <template>

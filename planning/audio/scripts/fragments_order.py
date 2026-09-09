@@ -54,8 +54,8 @@ for d, lst in perf.items():
                 what = ('спета ' + st) if st and st.startswith('строфа ') else (('спеты ' + st) if st else f"спето {x['fragment']['sung']} из {x['fragment']['text']} слов")
                 lines.append(f"Запись {who} неполная: {what}.")
             para = ' '.join(lines)
-            txt = re.sub(r'\n\nЗапись [^\n]*неполная:[^\n]*$', '', sec['text'].rstrip())   # прежняя автопометка — заменить
-            if para not in txt: sec['text'] = txt + '\n\n' + para; json.dump(song, open(f'{R}/app/src/data/songs/{song_file}', 'w', encoding='utf-8'), ensure_ascii=False, indent=2); changed_about += 1
+            txt = re.sub(r'\n+Запись [^\n]*неполная:[^\n]*$', '', sec['text'].rstrip())   # прежняя автопометка — заменить
+            if para not in txt: sec['text'] = txt + '\n' + para; json.dump(song, open(f'{R}/app/src/data/songs/{song_file}', 'w', encoding='utf-8'), ensure_ascii=False, indent=2); changed_about += 1
     print(f"D {d}: полных {len(full)}, фрагментов {len(part)} — " + '; '.join(f"{x['name']} {x['year']} ({x['fragment'].get('stanzas') or str(x['fragment']['sung']) + ' из ' + str(x['fragment']['text']) + ' слов'})" for x in part))
 if APPLY: json.dump(perf, open(f'{R}/app/src/data/performances.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(f"фрагментов {len(frag)}; песен с фрагментами {sum(1 for l in perf.values() if any('fragment' in x for x in l))}; переставлено списков {moved}; абзацев «Как это поют» {changed_about}; {'ПРИМЕНЕНО' if APPLY else 'проверка без записи'}")

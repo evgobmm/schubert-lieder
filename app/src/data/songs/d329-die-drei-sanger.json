@@ -947,7 +947,8 @@
     "Von manchem Schwanke 'schlau erdacht;",
     "Da regt der Scherz die losen Schwingen,",
     "Und jeder Mund im Saale lacht.",
-    "(в пении повторено: Da regt der Scherz die losen Schwingen, und jeder Mund im Saale lacht.)"
+    "Da regt der Scherz die losen Schwingen,",
+    "Und jeder Mund im Saale lacht."
    ],
    "lines_ru": [
     {
@@ -1067,11 +1068,54 @@
     {
      "segments": [
       {
-       "ru": "(В пении повторено: «Тут шутка расправляет игривые крылья, и каждые уста в зале смеются».)",
-       "de": "(в пении повторено: Da regt der Scherz die losen Schwingen, und jeder Mund im Saale lacht.)"
+       "ru": "Тут",
+       "de": "Da"
+      },
+      {
+       "ru": "шутка",
+       "de": "der Scherz"
+      },
+      {
+       "ru": "расправляет",
+       "de": "regt"
+      },
+      {
+       "ru": "игривые",
+       "de": "die losen"
+      },
+      {
+       "ru": "крылья,",
+       "de": "Schwingen,"
       }
-     ],
-     "annotations": []
+     ]
+    },
+    {
+     "segments": [
+      {
+       "ru": "И",
+       "de": "Und"
+      },
+      {
+       "ru": "каждые",
+       "de": "jeder"
+      },
+      {
+       "ru": "уста",
+       "de": "Mund"
+      },
+      {
+       "ru": "в",
+       "de": "im"
+      },
+      {
+       "ru": "зале",
+       "de": "Saale"
+      },
+      {
+       "ru": "смеются.",
+       "de": "lacht."
+      }
+     ]
     }
    ]
   },
@@ -1240,8 +1284,7 @@
   {
    "lines_de": [
     "Und kaum dass seine Saiten klingen,",
-    "Schaut jedes Antlitz …",
-    "[текст обрывается — конец предоставленного диапазона сканов, с. 105; на с. 106 уже другая песня «Lorma»]"
+    "Schaut jedes Antlitz …"
    ],
    "lines_ru": [
     {
@@ -1294,15 +1337,6 @@
        "text": "Здесь, после слов jedes Antlitz, рукопись обрывается: последняя страница автографа утрачена. Две последние строфы — суд короля — дописал музыковед Рейнхард Ван Хорикс."
       }
      ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "[Текст обрывается: дальше страница автографа утрачена.]",
-       "de": "[текст обрывается — конец предоставленного диапазона сканов, с. 105; на с. 106 уже другая песня «Lorma»]"
-      }
-     ],
-     "annotations": []
     }
    ]
   }
