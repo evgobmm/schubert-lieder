@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, watch, onBeforeUnmount } from 'vue'
 import data from '../data/performances.json'
-import { playback, registerSeek, unregisterSeek, setHighlight } from '../utils/playback.js'
+import { playback, registerSeek, unregisterSeek, registerControls, unregisterControls, setHighlight } from '../utils/playback.js'
 import { syncedVideoIds } from '../utils/timings.js'
 
 const props = defineProps({
@@ -169,6 +169,12 @@ function seek(t) {
   } catch { /* плеер уже разрушен */ }
 }
 
+// Плей/пауза для плавающей кнопки (мобильная раскладка)
+const controls = {
+  play() { if (player && playerReady) { try { player.playVideo() } catch { /* плеер уже разрушен */ } } },
+  pause() { if (player && playerReady) { try { player.pauseVideo() } catch { /* плеер уже разрушен */ } } }
+}
+
 async function mountPlayer() {
   if (player || mounting || apiFailed.value) return
   if (!frameRef.value || !videoId.value) return
@@ -207,11 +213,13 @@ async function mountPlayer() {
     }
   })
   registerSeek(seek)
+  registerControls(controls)
 }
 
 function destroyPlayer() {
   stopPolling()
   unregisterSeek(seek)
+  unregisterControls(controls)
   if (player) {
     try { player.destroy() } catch { /* iframe уже удалён */ }
   }

@@ -529,6 +529,8 @@ function onWordClick(si, li, k) {
   const t = findWordStart(wordIndex.value, si, li, k, playback.time)
   if (t == null) return
   seekTo(t - SEEK_LEAD)
+  // На телефоне касание слова — «веди отсюда»: ведение включается снова
+  if (isMobile()) following.value = true
 }
 
 // Клик по русскому сегменту: первое из его немецких слов; у сегмента без немецкого
@@ -568,12 +570,58 @@ function lineEl(key) {
   return articleRef.value ? articleRef.value.querySelector(`[data-line="${key}"]`) : null
 }
 
+// ---- Мобильная раскладка: ведение по тексту (docs/rules/word-sync.md) ----
+// При старте исполнения страница переходит к пропеваемой строке и дальше ведёт по тексту;
+// любое движение пальцем (прокрутка читателя) ведение выключает; касание слова включает снова.
+const following = ref(false)
+const isMobile = () => window.matchMedia('(max-width: 900px)').matches
+
+function scrollLineTo(el) {
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+}
+
+watch(() => playback.status, (st, prev) => {
+  if (!isMobile()) return
+  if (st === 'playing' && prev !== 'playing') {
+    following.value = true
+    nextTick(() => {
+      const key = activeLineKey.value
+      const el = key
+        ? lineEl(key)
+        : (articleRef.value && articleRef.value.querySelector('.song-body .line-pair, .song-body .line-de'))
+      if (el) scrollLineTo(el)
+    })
+  } else if (st === 'ended' || st === 'idle') {
+    following.value = false
+  }
+})
+
+function stopFollowing() {
+  following.value = false
+}
+
+onMounted(() => {
+  window.addEventListener('touchstart', stopFollowing, { passive: true })
+  window.addEventListener('wheel', stopFollowing, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('touchstart', stopFollowing)
+  window.removeEventListener('wheel', stopFollowing)
+})
+
 watch(activeLineKey, (key) => {
   if (!key) return
   const prevKey = lastLineKey
   lastLineKey = key
   const el = lineEl(key)
   if (!el) return
+  // Телефон: прокрутка только в режиме ведения
+  if (isMobile()) {
+    if (following.value) scrollLineTo(el)
+    return
+  }
+  // Компьютер: подтягиваем новую строку, только если читатель следил за предыдущей
   const vh = window.innerHeight
   const r = el.getBoundingClientRect()
   if (r.top >= 0 && r.bottom <= vh) return

@@ -519,7 +519,9 @@ body {
   display: none;
 }
 
-.quick-nav {
+.quick-nav,
+.qn-play,
+.mob-picker {
   display: none;
 }
 
@@ -603,6 +605,21 @@ body {
 }
 
 @media (max-width: 900px) {
+  /* Ни горизонтальной прокрутки, ни горизонтальных жестов: страница двигается только по вертикали */
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    touch-action: pan-y pinch-zoom;
+  }
+
+  /* Пока открыта панель выбора песни, страница под ней не прокручивается */
+  body.mob-picker-open {
+    overflow: hidden;
+  }
+
   .app {
     display: block;
   }
@@ -666,6 +683,76 @@ body {
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 6px;
+  }
+
+  /* Кнопка выбора песни: текущее название и двойной шеврон; открывает панель со списком */
+  .mob-pick {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 10px 0 12px;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .mob-pick-title {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mob-pick-chev {
+    flex: none;
+    color: var(--accent);
+  }
+
+  /* Панель выбора песни — во весь экран, внутри тот же список разделов (SongList), что на компьютере */
+  .mob-picker {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: var(--sidebar-bg);
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .mob-picker-close {
+    position: absolute;
+    top: calc(28px + env(safe-area-inset-top));
+    right: 14px;
+    z-index: 5;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: var(--bg);
+    color: var(--text);
+    cursor: pointer;
+  }
+
+  /* Плей/пауза: круглая кнопка внизу справа, видна пока в плеере есть запись */
+  .qn-play {
+    display: flex;
+    position: fixed;
+    right: 10px;
+    bottom: calc(22px + env(safe-area-inset-bottom));
+    z-index: 85;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--accent);
+    background: var(--bg);
+    border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
   }
 
   /* Мобильный поиск */

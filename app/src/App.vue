@@ -10,6 +10,7 @@ import MatchText from './components/MatchText.vue'
 import songsIndex from './data/index.json'
 import sectionsIndex from './data/sections.json'
 import { searchSongs } from './utils/searchIndex.js'
+import { playback, togglePlay } from './utils/playback.js'
 
 // Выключатель собственных заходов (задел под статистику): ?stats=off / ?stats=on
 const statsParam = new URLSearchParams(window.location.search).get('stats')
@@ -144,6 +145,21 @@ const currentSong = computed(() =>
 )
 
 const currentSongFile = computed(() => currentSong.value ? currentSong.value.file : null)
+
+// Мобильный выбор песни: панель с тем же списком разделов, что в сайдбаре на компьютере
+const pickerOpen = ref(false)
+function pickSong(n) {
+  currentSongNumber.value = n
+  pickerOpen.value = false
+}
+watch(pickerOpen, (open) => {
+  document.body.classList.toggle('mob-picker-open', open)
+})
+
+// Плавающая кнопка плей/пауза (мобильная раскладка): пока в плеере загружена запись
+const playActive = computed(() =>
+  !!playback.videoId && (playback.status === 'playing' || playback.status === 'paused' || playback.status === 'ended')
+)
 </script>
 
 <template>
@@ -158,23 +174,20 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
           aria-label="Предыдущая песня"
           @click="stepSong(-1)"
         >‹</button>
-        <select
-          class="mob-select"
-          :value="currentSongNumber"
+        <button
+          class="mob-select mob-pick"
+          type="button"
           aria-label="Выбор песни"
-          @change="currentSongNumber = Number($event.target.value)"
+          aria-haspopup="dialog"
+          :aria-expanded="pickerOpen"
+          @click="pickerOpen = true"
         >
-          <optgroup v-for="sec in sectionsIndex" :key="sec.id" :label="sec.title">
-            <option
-              v-for="s in songsIndex.filter(x => x.section === sec.id)"
-              :key="s.number"
-              :value="s.number"
-              :disabled="!s.file"
-            >
-              {{ s.title_de }}{{ s.title_ru ? ' — ' + s.title_ru : '' }}
-            </option>
-          </optgroup>
-        </select>
+          <span class="mob-pick-title">{{ currentSong ? currentSong.title_de : 'Выбор песни' }}<template v-if="currentSong && currentSong.title_ru"> — {{ currentSong.title_ru }}</template></span>
+          <svg class="mob-pick-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m7 6 5 5 5-5" />
+            <path d="m7 13 5 5 5-5" />
+          </svg>
+        </button>
         <button
           class="mob-arrow"
           :disabled="!songsIndex.some(s => s.file && s.number > currentSongNumber)"
@@ -330,6 +343,36 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
       @close="printMenuOpen = false"
     />
     <FeedbackMenu v-if="feedbackOpen" @close="feedbackOpen = false" />
+    <!-- Мобильный выбор песни: панель во весь экран с тем же списком разделов, что на компьютере -->
+    <div v-if="pickerOpen" class="mob-picker" role="dialog" aria-label="Выбор песни">
+      <button class="mob-picker-close" type="button" aria-label="Закрыть" @click="pickerOpen = false">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 3l10 10M13 3L3 13" />
+        </svg>
+      </button>
+      <SongList
+        :songs="songsIndex"
+        :sections="sectionsIndex"
+        :current="currentSongNumber"
+        @select="pickSong"
+      />
+    </div>
+    <!-- Плей/пауза (только мобильная раскладка): пока в плеере загружена запись -->
+    <button
+      v-if="playActive"
+      class="qn-play"
+      type="button"
+      :aria-label="playback.status === 'playing' ? 'Пауза' : 'Играть'"
+      @click="togglePlay"
+    >
+      <svg v-if="playback.status === 'playing'" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <rect x="6" y="4.5" width="4.2" height="15" rx="1" />
+        <rect x="13.8" y="4.5" width="4.2" height="15" rx="1" />
+      </svg>
+      <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M8 4.8v14.4c0 .8.9 1.3 1.6.9l11-7.2c.6-.4.6-1.4 0-1.8l-11-7.2C8.9 3.5 8 4 8 4.8z" />
+      </svg>
+    </button>
     <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям / письмо -->
     <div class="quick-nav" :class="{ 'qn-visible': quickNavVisible }">
       <button class="qn-btn" aria-label="Наверх" @click="quickScrollTop">

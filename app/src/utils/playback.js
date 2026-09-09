@@ -37,7 +37,22 @@ export function seekTo(t) {
   if (seekHandler) seekHandler(Math.max(0, t))
 }
 
-if (import.meta.env.DEV) {
-  // Отладочный доступ из консоли (только dev-сборка)
-  window.__playback = { state: playback, registerSeek, seekTo, setHighlight }
+// Управление воспроизведением извне плеера (плавающая кнопка плей/пауза на мобильной раскладке)
+let controls = null
+
+export function registerControls(c) {
+  controls = c
 }
+
+export function unregisterControls(c) {
+  if (controls === c) controls = null
+}
+
+export function togglePlay() {
+  if (!controls) return
+  if (playback.status === 'playing') controls.pause()
+  else controls.play()
+}
+
+// Отладочный доступ из консоли (и для автопроверок раскладки)
+window.__playback = { state: playback, registerSeek, seekTo, setHighlight, togglePlay }
