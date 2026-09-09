@@ -207,8 +207,20 @@ def run_match(W):
         ws=[W[sung[k]['wi']] for k in p['idx']]
         weak=2*sum(1 for w in ws if w['p']<0.35 or w['end']-w['start']<0.05)>=len(ws)   # Whisper сам не верит (p<0.35) или таймкоды слиплись — нужна сильная акустика
         phantom=(mass<0.8*L) if weak else (not sung_evidence(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2,L,mass))   # слабый проход — только по массе
+        if phantom and not weak:
+            # уверенный проход Whisper (p и таймкоды в норме) при звучащем голосе — не фантом, даже если буквенная масса мала:
+            # CTC глух к высокому сопрано (D 23, Яновиц: настоящие «Wenn ich ihn von fern seh» и повторы отбрасывались)
+            _sp=max(w['end'] for w in ws)-min(w['start'] for w in ws); _pm=sum(w['p'] for w in ws)/len(ws)
+            if len(ws)>=2 and _pm>=0.5 and _sp>=0.06*L and voice_mean(t0,min(t1,max(w['end'] for w in ws)+0.3))>=0.35:
+                phantom=False; print(f"уверенный проход оставлен по голосу: {' '.join(TW[sung[k]['t']] for k in p['idx'])!r} в {t0:.1f}–{t1:.1f} (p {_pm:.2f}, масса {mass:.1f} из {L})")
+        if phantom and weak:
+            # слабый по таймкодам проход (слипшиеся метки — обычное дело у настоящих повторов в пении: D 23, Яновиц, «dass ich nicht
+            # widerstand» ×2) спасает декод CTC: если текст прохода читается в буквах под окном — это не фантом
+            from rapidfuzz import fuzz as _fz
+            _dc=_greedyB(t0,min(t1,t0+max(2.0,win))); _tx=_fold_txt(' '.join(TW[sung[k]['t']] for k in p['idx']))
+            if _dc and _tx and _fz.partial_ratio(_tx,_dc)>=60: phantom=False; print(f"слабый проход оставлен по декоду: {' '.join(TW[sung[k]['t']] for k in p['idx'])!r} в {t0:.1f}–{t1:.1f} ({_fz.partial_ratio(_tx,_dc)})")
         _partial_rep=q>0 and _ps[q-1]['line']==p['line'] and len(p['idx'])<len([t for t in range(N) if TIDX[t][:2]==tuple(p['line'])])   # частичный повтор той же строки
-        if not phantom and (2*sum(1 for w in ws if w.get('retr'))>=len(ws) or _partial_rep):
+        if not phantom and (2*sum(1 for w in ws if w.get('retr'))>=len(ws) or (_partial_rep and weak)):   # уверенный частичный повтор с массой — настоящий (D 23, Яновиц)
             # проход из дораспознанных слов (окно без слов Whisper) или частичный повтор строки («Tempel, Schwellhalle» -> повтор «Tempelhalle»):
             # Whisper на тянущейся ноте «слышит» повтор начала строки (D 39, Рот) — нужен декод CTC, похожий на текст прохода
             _dc=_greedyB(t0,t1); _tx=_fold_txt(' '.join(TW[sung[k]['t']] for k in p['idx']))
