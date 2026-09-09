@@ -14,17 +14,16 @@
   "stanzas": [
     {
       "lines_de": [
-        "Verse 1 (строфа 1)"
+        "[Strophe 1]"
       ],
       "lines_ru": [
         {
           "segments": [
             {
-              "de": "Verse 1 (строфа 1)",
-              "ru": "Куплет 1"
+              "ru": "[Куплет 1]",
+              "de": "[Strophe 1]"
             }
-          ],
-          "annotations": []
+          ]
         }
       ]
     },
@@ -709,17 +708,16 @@
     },
     {
       "lines_de": [
-        "Verse 2 (строфа 2, поётся на ту же музыку)"
+        "[Strophe 2, zur gleichen Musik]"
       ],
       "lines_ru": [
         {
           "segments": [
             {
-              "de": "Verse 2 (строфа 2, поётся на ту же музыку)",
-              "ru": "Куплет 2 (на ту же музыку)"
+              "ru": "[Куплет 2, на ту же музыку]",
+              "de": "[Strophe 2, zur gleichen Musik]"
             }
-          ],
-          "annotations": []
+          ]
         }
       ]
     },
