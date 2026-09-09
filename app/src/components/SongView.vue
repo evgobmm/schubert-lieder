@@ -755,8 +755,11 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
    380 (немецкая колонка) + 2 × 40 (промежутки) + 140 (минимум переводу).
    Сетка только на широких экранах (от 1700 px); ниже колонка уходит в поток — см. медиазапрос */
 .song-view {
+  /* Немецкая колонка: 36 % области текста, но не уже 380 px и не шире 460 px
+     (696 = список 260 + настройки 340 + боковые отступы области текста 96) */
+  --de-col: clamp(380px, calc((100vw - 696px) * 0.36), 460px);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(120px, var(--side-col, 220px), calc(100% - 600px));
+  grid-template-columns: minmax(0, 1fr) clamp(120px, var(--side-col, 220px), calc(100% - var(--de-col) - 220px));
   column-gap: 40px;
   align-items: start;
 }
@@ -908,7 +911,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 }
 
 .col-de {
-  flex: 0 0 380px;
+  flex: 0 0 var(--de-col, 380px);
   display: flex;
   align-items: flex-start;
 }
