@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, watch, onBeforeUnmount } from 'vue'
 import data from '../data/performances.json'
-import { playback, registerSeek, unregisterSeek } from '../utils/playback.js'
+import { playback, registerSeek, unregisterSeek, setHighlight } from '../utils/playback.js'
 import { syncedVideoIds } from '../utils/timings.js'
 
 const props = defineProps({
@@ -237,6 +237,12 @@ watch([expanded, videoId], ([exp, id]) => {
 }, { flush: 'post' })
 
 onBeforeUnmount(destroyPlayer)
+
+// Галочка «Подсвечивать слова по ходу исполнения» (общее состояние playback, запоминается в браузере)
+const highlightOn = computed({
+  get: () => playback.highlight,
+  set: (v) => setHighlight(v)
+})
 </script>
 
 <template>
@@ -270,7 +276,7 @@ onBeforeUnmount(destroyPlayer)
         ><span class="perf-pname">{{ v.name }}</span><span class="perf-meta"><span
             v-if="synced.has(v.videoId)"
             class="perf-sync-mark"
-            title="Слова подсвечиваются по ходу записи"
+            title="В этой записи есть подсветка слов"
             aria-label="Подсветка слов"
           ><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true">
               <line x1="4" y1="5.5" x2="20" y2="5.5" stroke-width="2" opacity="0.45" />
@@ -295,9 +301,13 @@ onBeforeUnmount(destroyPlayer)
             allowfullscreen
           ></iframe>
         </div>
-        <p v-if="currentSynced && !apiFailed" class="perf-hint">
-          Слова подсвечиваются по ходу записи. Нажмите на слово в тексте, чтобы перейти к нему.
-        </p>
+        <div v-if="currentSynced && !apiFailed" class="perf-hint">
+          <p>Если нажать на слово в тексте, исполнение перейдёт на соответствующее место.</p>
+          <label class="perf-check">
+            <input type="checkbox" v-model="highlightOn" />
+            Подсвечивать слова по ходу исполнения
+          </label>
+        </div>
         <p v-else-if="syncedVideo && !apiFailed" class="perf-hint">
           Подсветка слов есть в записи <button class="perf-hint-link" @click="selectSynced">{{ syncedVideo.name }}</button>.
         </p>
@@ -464,6 +474,24 @@ onBeforeUnmount(destroyPlayer)
   font-size: 0.8rem;
   line-height: 1.35;
   color: var(--text-secondary);
+}
+
+.perf-hint p {
+  margin: 0;
+}
+
+.perf-check {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 8px;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+
+.perf-check input {
+  cursor: pointer;
+  accent-color: var(--text-secondary);
 }
 
 .perf-hint-link {

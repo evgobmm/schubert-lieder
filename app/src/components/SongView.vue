@@ -18,6 +18,8 @@ const props = defineProps({
   showAnnotations: Boolean,
   showLang: Boolean,
   showMeaning: Boolean,
+  // Раздел «О песне» (печатный лист печатает его по галочке меню печати)
+  showAbout: { type: Boolean, default: true },
   // Номер перед немецким названием (используется только печатным листом)
   number: { type: Number, default: 0 },
   // Сквозная нумерация сносок: Язык продолжает счёт после Смысла
@@ -478,7 +480,7 @@ function sungWordsIn(si, li) {
 }
 
 const activeWord = computed(() => {
-  if (!wordIndex.value) return null
+  if (!wordIndex.value || !playback.highlight) return null
   if (playback.status !== 'playing' && playback.status !== 'paused') return null
   return findWordAt(wordIndex.value, playback.time)
 })
@@ -744,7 +746,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
       />
     </div>
 
-    <AboutPanel v-if="song.about && song.about.length" :sections="song.about" />
+    <AboutPanel v-if="showAbout && song.about && song.about.length" :sections="song.about" />
   </article>
 </template>
 

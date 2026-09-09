@@ -17,6 +17,7 @@ const emit = defineEmits(['close'])
 const pAnn = ref(props.showAnnotations)
 const pMeaning = ref(props.showMeaning)
 const pLang = ref(props.showLang)
+const pAbout = ref(true)
 const selected = ref(new Set([props.currentSongNumber]))
 
 function toggleSong(n) {
@@ -296,6 +297,9 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
           <label class="print-check print-lang" :class="{ disabled: !pAnn }">
             <input type="checkbox" v-model="pLang" :disabled="!pAnn" /> Язык
           </label>
+          <label class="print-check print-about">
+            <input type="checkbox" v-model="pAbout" /> О песне
+          </label>
         </div>
 
         <div class="print-songs-head">
@@ -342,6 +346,7 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
           :show-annotations="pAnn"
           :show-lang="pLang"
           :show-meaning="pMeaning"
+          :show-about="pAbout"
         />
       </div>
     </div>

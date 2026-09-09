@@ -465,6 +465,27 @@ body {
   page-break-after: avoid;
 }
 
+/* «О песне» (по галочке меню печати): после пояснений, с новой страницы, во всю ширину;
+   прозу можно рвать между страницами, заголовки не отрываются от текста */
+.print-sheet .print-song .about-panel {
+  break-before: page;
+  page-break-before: always;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+  max-width: none;
+}
+
+.print-sheet .print-song .about-title,
+.print-sheet .print-song .about-heading {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.print-sheet .print-song .about-title { font-size: 1em; }
+.print-sheet .print-song .about-heading { font-size: 0.92em; }
+.print-sheet .print-song .about-text { font-size: 0.95em; line-height: 1.5; }
+
 /* Ступени автоужатия (выставляет autoFitPrint перед печатью):
    у текста лестница длиннее — для запрета переносов поэтических строк */
 .print-song[data-compact-text="1"] .song-header,

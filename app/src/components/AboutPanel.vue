@@ -52,8 +52,10 @@ defineProps({
   white-space: pre-line;
 }
 
+/* При печати страницы напрямую (Ctrl+P) раздел не идёт; на печатном листе меню печати —
+   печатается по галочке «О песне» (правила листа — в main.css) */
 @media print {
-  .about-panel {
+  .app .about-panel {
     display: none;
   }
 }
