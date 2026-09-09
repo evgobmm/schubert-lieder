@@ -56,7 +56,7 @@ for (const entry of index) {
         if (s.ru === '' && s.de === '') add('ERROR', `${entry.file} ${si}:${li} seg${k}`, 'пустые ru и de');
         if (/[«»]/.test(s.de || '')) add('WARN', `${entry.file} ${si}:${li} seg${k}`, 'кавычки в de');
       });
-      if (segs.length && segs[0].ru && !/^[А-ЯЁA-ZÄÖÜ«»("—O0-9]/.test(segs[0].ru)) add('WARN', `${entry.file} ${si}:${li}`, 'первый сегмент строки не с заглавной: ' + segs[0].ru);
+      if (segs.length && segs[0].ru && !/^[А-ЯЁA-ZÄÖÜ«»„("—O0-9[]/.test(segs[0].ru)) add('WARN', `${entry.file} ${si}:${li}`, 'первый сегмент строки не с заглавной: ' + segs[0].ru);
       (lineRu.annotations || []).forEach((a, ai) => {
         texts.push([`${entry.file} ${si}:${li} ann${ai}`, a.text]);
         const flat = (r) => (Array.isArray(r[0]) ? r : [r]);
