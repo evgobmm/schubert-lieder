@@ -10,8 +10,8 @@
 ### Augér — Johnson 1989 (`5GL2xFpImXU`) — запасной; проходов 9; в очереди 0 слов
 —
 
-### Bartoli — Schiff 1993 (`-xdNEqLdqR0`) — починка; проходов 10; в очереди 3 слов
-1.1 pastorella @5.7, 2.1 il @51.4, 3.1 pastorella @85.8
+### Bartoli — Schiff 1993 (`-xdNEqLdqR0`) — свой; проходов 9; в очереди 6 слов
+1.1 pastorella @5.7, 2.1 il @51.4, 2.3 Contenta @69.0, 2.3 ognor @72.8, 2.3 sarà. @74.6, 3.1 pastorella @85.8
 
 ### Mühlemann — Korsunskaya 2019 (`cJw4WLPgdX4`) — починка; проходов 9; в очереди 4 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 85.4–95.6 (10.2 с) под 1:2·sarà., 1.3 cantando @32.9, 2.1 il @49.8, 3.2 Coll'agnellino @95.8
@@ -35,11 +35,11 @@
 
 ## D 651 — Himmelsfunken
 
-### Brewer — Johnson 1996 (`6onwdsZ7x2E`) — запасной; проходов 31; в очереди 14 слов
-2.2 zu @146.6, 2.2 den @146.6, 2.4 Es, @150.2, 2.4 ach, @150.2, 2.4 so @150.3, 2.4 ach, @155.4, 2.4 so @155.4, 3.4 Vater, @187.4, 3.4 der @187.5, 3.4 es @187.5, 4.3 Winkt @197.1, 4.3 Winkt @200.3, 4.4 Hoch @200.8, 4.4 aus @200.9
+### Brewer — Johnson 1996 (`6onwdsZ7x2E`) — свой; проходов 19; в очереди 25 слов
+1.2 Still @16.6, 1.4 süssem @40.2, 1.3 vergeht @50.2, 1.6 Der @83.6, 1.6 Erde @83.7, 1.6 schweres @88.8, 1.6 Band. @93.5, 1.7 Die @97.0, 1.8 Himmels @127.9, 3.2 den @159.9, 3.2 Ruf, @165.1, 3.3 sehnt @170.0, 3.3 sich @171.2, 3.4 Zum @176.6, 3.4 der @179.7, 3.3 sehnt @186.0, 3.3 sich @187.1, 3.3 heimathwärts @187.8, 3.4 Vater, @193.7, 3.4 es @197.4, 3.5 Zum @200.2, 3.5 Vater, @200.4, 3.5 der @200.7, 3.5 es @200.9, 3.5 schuf! @201.3
 
-### Fischer-Dieskau — Moore 1969 (`O9tRhSC7RSo`) — свой; проходов 12; в очереди 7 слов
-1.4 wunder @69.1, 1.5 sich @89.4, 1.7 Die @110.5, 1.7 heilge @111.7, 1.7 Thräne @113.8, 1.7 quillt, @116.5, 1.7 Die @129.9
+### Fischer-Dieskau — Moore 1969 (`O9tRhSC7RSo`) — свой; проходов 12; в очереди 12 слов
+1.4 wunder @69.1, 1.4 Ach. @71.1, 1.5 sich @89.4, 1.6 Der @96.3, 1.6 Erde @97.5, 1.6 schweres @101.4, 1.6 Band. @106.7, 1.7 Die @110.5, 1.7 heilge @111.7, 1.7 Thräne @113.8, 1.7 quillt, @116.5, 1.7 Die @129.9
 
 ### Moser — Hokanson 1984 (`Ya4jvufRJ6E`) — свой; проходов 14; в очереди 20 слов
 1.1 weht, @14.2, 1.2 Sehnsucht @24.6, 1.2 wach, @29.3, 1.4 wunder @44.5, 1.4 Ach. @50.0, 1.2 wach, @50.2, 1.4 wunder @63.9, 1.4 Ach. @69.6, 3.2 Vernimmt @91.8, 3.2 stillen @97.5, 3.2 Ruf, @103.4, 3.4 Zum @117.1, 3.4 Vater, @117.8, 3.3 sich @129.2, 3.4 es @140.3, 3.5 Zum @140.7, 3.5 Vater, @140.8, 3.5 der @141.1, 3.5 es @141.9, 3.5 schuf! @142.8

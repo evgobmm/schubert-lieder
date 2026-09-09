@@ -4,8 +4,8 @@
 
 ## D 795/1 — Das Wandern
 
-### Quasthoff — Zeyen 2005 (`6S1js0SQbbA`) — свой; проходов 35; в очереди 26 слов
-1.3 Wandern @13.4, 1.7 Das @24.2, 1.7 Wandern, @24.6, 2.5 bei @48.1, 2.5 Tag @48.4, 2.5 und @48.9, 2.7 Wasser, @55.6, 3.5 stille @76.4, 3.6 Müde @79.3, 3.6 gehn, @80.0, 3.7 die @83.0, 3.7 Räder, @83.6, 4.6 schneller @107.8, 4.6 Sein, @108.7, 4.7 Die @109.2, 4.7 Steine, @109.4, 4.7 die @110.6, 4.7 Steine, @110.8, 4.7 die @112.1, 4.7 Steine, @112.5, 4.7 die @113.5, 4.7 Steine. @113.8, 5.5 Frau @133.8, 5.6 Frieden @136.2, 5.7 und @139.8, 5.7 wandern, @141.6
+### Quasthoff — Zeyen 2005 (`6S1js0SQbbA`) — свой; проходов 35; в очереди 32 слов
+1.3 Wandern @13.4, 1.7 Das @24.2, 1.7 Wandern, @24.6, 2.5 bei @48.1, 2.5 Tag @48.4, 2.5 und @48.9, 2.7 Wasser, @55.6, 3.5 stille @76.4, 3.6 Müde @79.3, 3.6 gehn, @80.0, 3.7 die @83.0, 3.7 Räder, @83.6, 4.2 Die @94.7, 4.2 Steine, @95.0, 4.6 Und @106.4, 4.6 wollen @106.5, 4.6 gar @107.2, 4.6 noch @107.6, 4.6 schneller @107.8, 4.6 Sein, @108.7, 4.7 Die @109.2, 4.7 Steine, @109.4, 4.7 die @110.6, 4.7 Steine, @110.8, 4.7 die @112.1, 4.7 Steine, @112.3, 4.7 die @113.5, 4.7 Steine. @113.8, 5.5 Frau @133.8, 5.6 Frieden @136.2, 5.7 und @139.8, 5.7 wandern, @141.6
 
 ### Fischer-Dieskau — Moore 1961 (`AmKXOPiqjCU`) — запасной; проходов 35; в очереди 1 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 121.8–122.8 (1.0 с) под 4:6·Und
@@ -13,11 +13,11 @@
 ### Hüsch — H. U. Müller 1935 (`9pBri6xEhOM`) — свой; проходов 35; в очереди 18 слов
 1.1 Wandern @5.9, 1.2 Das @8.2, 1.2 Wandern, @8.6, 1.3 Das @11.0, 1.3 Wandern @11.1, 2.3 Vom @36.8, 3.1 sehn @57.8, 3.6 Die @70.3, 3.7 Die @72.8, 3.7 die @75.4, 4.3 Die @88.6, 4.5 Sie @93.8, 4.7 die @101.3, 4.7 Steine, @101.5, 5.1 O @109.9, 5.6 Frieden @123.4, 5.7 und @126.2, 5.7 und @128.8
 
-### Wunderlich — Giesen 1966 (`CN-OC9vx6tI`) — запасной; проходов 35; в очереди 0 слов
-—
+### Wunderlich — Giesen 1966 (`CN-OC9vx6tI`) — свой; проходов 35; в очереди 13 слов
+1.5 Das @25.4, 1.5 muss @25.9, 1.5 ein @26.3, 1.5 schlechter @26.5, 1.5 Müller @27.4, 1.5 sein, @28.1, 1.6 Ein, @31.5, 2.3 Vom @52.5, 3.3 den @89.6, 3.5 Die @92.9, 4.1 sind, @117.3, 4.6 schneller @133.3, 5.5 Herr @163.0
 
-### Hasselhorn — Bushakevitz 2023 (`9xe4wmWemGU`) — свой; проходов 35; в очереди 13 слов
-1.7 das @29.2, 1.7 Wandern. @29.6, 2.1 Vom @35.9, 2.1 Wasser @36.4, 2.1 haben @37.2, 2.1 wir's @38.0, 2.1 gelernt, @38.4, 2.2 Vom @39.0, 2.2 Wasser, @39.5, 2.3 Vom @41.8, 4.1 sind, @95.8, 4.3 sind, @102.3, 4.7 Steine, @113.5
+### Hasselhorn — Bushakevitz 2023 (`9xe4wmWemGU`) — свой; проходов 35; в очереди 22 слов
+1.3 Das @14.2, 1.7 Das @25.0, 1.7 Wandern, @25.4, 1.7 das @26.5, 1.7 Wandern, @26.8, 1.7 das @27.8, 1.7 Wandern, @28.2, 1.7 das @29.2, 1.7 Wandern. @29.6, 2.1 Vom @35.9, 2.1 Wasser @36.4, 2.1 haben @37.2, 2.1 wir's @38.0, 2.1 gelernt, @38.4, 2.2 Vom @39.0, 2.2 Wasser, @39.5, 2.3 Vom @41.8, 4.1 sind, @95.8, 4.3 sind, @102.3, 4.7 Steine, @113.5, 5.4 O @134.9, 5.4 Wandern! @135.1
 
 ## D 795/2 — Wohin?
 
@@ -27,8 +27,8 @@
 ### Fischer-Dieskau — Moore 1961 (`7q1CDLZ7SYE`) — свой; проходов 38; в очереди 8 слов
 1.2 Felsenquell, @7.0, 1.4 frisch @12.1, 3.5 frischer @46.3, 4.2 O @56.5, 5.1 sag @75.9, 5.1 ich @76.6, 6.2 Und @97.4, 6.3 Es @100.3
 
-### Hüsch — Müller 1935 (`s06zo8Zswac`) — свой; проходов 38; в очереди 16 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 1.3 «rauschen» → «raufen» @10с, 1.3 Thale @9.1, 3.5 frischer @41.1, 4.1 Ist @47.0, 4.1 Strasse? @49.0, 4.2 O @49.8, 4.7 den @65.0, 4.7 Sinn. @65.3, 5.1 Was @66.5, 5.1 ich @67.3, 5.6 unten @80.3, 5.6 ihren @81.0, 6.1 lass @84.0, 6.4 jedem @91.2, 7.1 lass @100.4, 7.3 Fröhlich @104.0
+### Hüsch — Müller 1935 (`s06zo8Zswac`) — свой; проходов 38; в очереди 21 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 1.3 «rauschen» → «raufen» @10с, 1.3 Thale @9.1, 3.5 frischer @41.1, 4.1 Ist @47.0, 4.1 Strasse? @49.0, 4.2 O @49.8, 4.6 Du @60.7, 4.6 hast @61.1, 4.6 mit @61.5, 4.6 deinem @61.7, 4.6 Rauschen @62.5, 4.7 den @65.0, 4.7 Sinn. @65.3, 5.1 Was @66.5, 5.1 ich @67.3, 5.6 unten @80.3, 5.6 ihren @81.0, 6.1 lass @84.0, 6.4 jedem @91.2, 7.1 lass @100.4, 7.3 Fröhlich @104.0
 
 ### Wunderlich — Giesen 1966 (`SK3qfa_f9uE`) — свой; проходов 38; в очереди 7 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 121.3–124.0 (2.6 с) под 5:4·Mühlenräder, 1.4 wunderhell. @14.7, 3.3 rauschte @45.8, 3.4 Bach, @49.7, 3.6 Bach. @56.9, 6.1 Gesell, @107.1, 6.5 geh'n @120.4
@@ -89,8 +89,8 @@
 
 ## D 795/6 — Der Neugierige
 
-### Quasthoff — Zeyen 2005 (`d8ZSoQ1Rk-o`) — починка; проходов 25; в очереди 11 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 5.4 «Bächlein,» → «Geschlein,» @179с, 1.2 Ich @16.0, 2.1 bin @33.1, 3.1 O @63.2, 3.3 nur @81.9, 3.4 um @92.3, 3.5 um @103.7, 4.2 Das @115.0, 5.3 ja @169.9, 5.4 mich? @185.3, 5.5 Bächlein, @188.7
+### Quasthoff — Zeyen 2005 (`d8ZSoQ1Rk-o`) — свой; проходов 24; в очереди 10 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 5.4 «Bächlein,» → «Geschlein,» @179с, 1.2 Ich @16.0, 2.1 bin @33.1, 3.1 O @63.2, 3.3 nur @81.9, 3.4 um @92.3, 3.5 um @103.7, 4.2 Das @115.0, 5.3 ja @169.9, 5.5 Bächlein, @188.7
 
 ### Fischer-Dieskau — Moore 1961 (`1xAA3T9rNYY`) — запасной; проходов 24; в очереди 3 слов
 3.5 und @125.2, 4.3 Die @139.8, 4.3 beiden @139.8
@@ -101,8 +101,8 @@
 ### Wunderlich — Giesen 1966 (`bJG0cLKr2Sg`) — свой; проходов 24; в очереди 1 слов
 3.3 ja @84.3
 
-### Hasselhorn — Bushakevitz 2023 (`nGAXKxmxYQQ`) — запасной; проходов 24; в очереди 1 слов
-1.1 Ich @11.5
+### Hasselhorn — Bushakevitz 2023 (`nGAXKxmxYQQ`) — починка; проходов 25; в очереди 19 слов
+1.2 frage @17.0, 3.1 O @67.8, 3.3 Will @88.0, 3.4 Wörtchen @99.5, 3.4 um @101.8, 3.4 und @103.3, 3.5 Ein @108.4, 3.5 Wörtchen @110.2, 3.5 um @112.4, 3.5 und @114.2, 3.5 um. @116.4, 4.2 Das @127.0, 4.2 andre @127.6, 4.2 heisset: @128.4, 4.2 Nein, @129.9, 4.6 mir @155.2, 5.4 Bächlein, @202.3, 5.5 Sag, @211.8, 5.5 sie @220.1
 
 ## D 795/7 — Ungeduld
 
@@ -169,21 +169,21 @@
 ### Wunderlich — Giesen 1966 (`pI5gDKkv8gs`) — свой; проходов 28; в очереди 4 слов
 1.1 beisammen @15.9, 5.2 schien @153.5, 6.1 Und @177.7, 7.3 Sie @225.5
 
-### Hasselhorn — Bushakevitz 2023 (`fV5mpaw7eKc`) — свой; проходов 28; в очереди 18 слов
-1.1 Wir @17.2, 1.4 rieselnden @41.1, 2.2 Die @59.4, 5.3 hinunter @175.1, 5.4 Tiefe @181.7, 6.1 über @196.8, 6.4 mir @220.0, 7.2 Da @238.7, 7.2 ward @239.3, 7.2 es @240.1, 7.2 im @240.3, 7.2 Spiegel @240.7, 7.2 so @241.8, 7.2 kraus, @242.1, 7.4 Ade, @253.2, 7.4 ich @254.4, 7.4 geh’ @255.0, 7.4 nach @255.4
+### Hasselhorn — Bushakevitz 2023 (`fV5mpaw7eKc`) — свой; проходов 28; в очереди 22 слов
+1.1 Wir @17.2, 1.4 rieselnden @41.1, 5.3 hinunter @175.1, 5.4 Tiefe @181.7, 6.1 über @196.8, 6.4 mir @220.0, 7.1 Da @232.0, 7.1 gingen @232.3, 7.1 die @234.2, 7.1 Augen @234.8, 7.1 mir @235.7, 7.1 über, @236.3, 7.2 Da @238.7, 7.2 ward @239.3, 7.2 es @240.1, 7.2 im @240.3, 7.2 Spiegel @240.6, 7.2 so @241.8, 7.2 kraus, @242.1, 7.4 ich @254.4, 7.4 geh’ @255.0, 7.4 nach @255.4
 
 ## D 795/11 — Mein!
 
-### Quasthoff — Zeyen 2005 (`zKYcoO2mvWo`) — свой; проходов 40; в очереди 27 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 1.5 «Endet» → «händet» @20с, 1.6 eure @24.8, 1.6 Melodei'n! @25.3, 2.1 Durch @28.2, 2.1 den @28.4, 2.1 Hain @28.7, 2.2 Aus @29.4, 2.2 und @29.7, 2.2 ein, @29.9, 2.3 Schalle @30.6, 2.4 Durch @32.8, 2.5 und @34.9, 3.2 Ist @41.7, 3.4 Ist @47.3, 3.5 Mein, @49.4, 3.5 mein. @51.6, 3.7 du @58.3, 3.11 Unverstanden @75.1, 4.4 und @92.9, 4.6 eure @98.5, 5.4 den @107.2, 5.5 und @108.4, 5.5 ein, @108.6, 5.6 Schalle @109.1, 5.6 Reim @110.5, 5.6 allein: @110.9, 6.5 mein. @126.0
+### Quasthoff — Zeyen 2005 (`zKYcoO2mvWo`) — свой; проходов 40; в очереди 34 слов
+1.3 All' @16.2, 1.3 ihr @16.7, 1.3 muntern @16.8, 1.3 Waldvögelein, @17.4, 1.5 Endet @20.2, 1.5 eure @20.9, 1.5 Melodei'n, @21.4, 1.6 Endet @24.1, 1.6 eure @24.8, 1.6 Melodei'n! @25.3, 2.1 Durch @28.2, 2.1 den @28.4, 2.1 Hain @28.7, 2.2 Aus @29.4, 2.2 und @29.7, 2.2 ein, @29.9, 2.3 Schalle @30.6, 2.4 Durch @32.8, 2.5 und @34.9, 3.2 Ist @41.7, 3.4 Ist @47.3, 3.5 Mein, @49.4, 3.5 mein. @51.6, 3.7 du @58.3, 3.11 Unverstanden @75.1, 4.4 und @92.9, 4.6 eure @98.5, 5.4 den @107.2, 5.5 und @108.4, 5.5 ein, @108.6, 5.6 Schalle @109.1, 5.6 Reim @110.5, 5.6 allein: @110.9, 6.5 mein. @126.0
 
-### Fischer-Dieskau — Moore 1961 (`gUmIqogRF8w`) — свой; проходов 40; в очереди 20 слов
-1.2 eu'r @14.1, 1.5 Melodei'n, @20.6, 1.6 Endet @23.2, 1.6 eure @24.0, 1.6 Melodei'n! @24.4, 2.1 Durch @26.9, 2.1 den @27.2, 2.1 Hain @27.5, 2.2 Aus @28.2, 2.2 und @28.6, 2.2 ein, @29.1, 2.3 Schalle @29.4, 2.5 ein @33.8, 3.2 Ist @40.8, 3.4 Ist @45.9, 3.7 du @56.9, 3.7 Schein? @58.3, 5.5 und @105.9, 6.2 Ist @113.0, 6.5 mein. @122.8
+### Fischer-Dieskau — Moore 1961 (`gUmIqogRF8w`) — свой; проходов 40; в очереди 29 слов
+1.2 eu'r @14.1, 1.3 All' @15.7, 1.3 ihr @16.0, 1.3 muntern @16.2, 1.3 Waldvögelein, @16.9, 1.5 Endet @19.5, 1.5 eure @20.3, 1.5 Melodei'n, @20.6, 1.6 Endet @23.2, 1.6 eure @24.0, 1.6 Melodei'n! @24.4, 2.1 Durch @26.9, 2.1 den @27.2, 2.1 Hain @27.5, 2.2 Aus @28.2, 2.2 und @28.6, 2.2 ein, @29.1, 2.3 Schalle @29.4, 2.5 ein @33.8, 3.2 Ist @40.8, 3.4 Ist @45.9, 3.7 du @56.9, 3.7 Schein? @58.3, 4.6 Endet @95.5, 4.6 eure @96.2, 4.6 Melodei'n! @96.7, 5.5 und @105.9, 6.2 Ist @113.0, 6.5 mein. @122.8
 
-### Hüsch — H. U. Müller 1935 (`Uo9SOoq3kEM`) — свой; проходов 40; в очереди 16 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 1.1 «Rauschen» → «Raufen» @11с; 1.5 «Endet» → «händelt» @19с, 1.4 Gross @17.4, 1.4 und @18.0, 2.1 Durch @26.0, 2.1 den @26.4, 2.1 Hain @26.7, 2.3 allein, @30.4, 2.4 Durch @31.1, 2.5 und @32.8, 3.5 Mein, @47.3, 3.7 du @55.5, 3.7 Schein? @56.8, 3.11 Unverstanden @70.7, 4.4 Gross @86.8, 4.4 und @87.3, 5.4 den @101.1
+### Hüsch — H. U. Müller 1935 (`Uo9SOoq3kEM`) — свой; проходов 40; в очереди 9 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 1.1 «Rauschen» → «Raufen» @11с; 1.5 «Endet» → «händelt» @19с, 2.1 Durch @26.0, 2.1 den @26.4, 2.1 Hain @26.7, 2.2 Aus @27.4, 2.2 und @27.7, 2.2 ein, @28.0, 2.3 allein, @30.4, 3.7 du @55.5
 
-### Wunderlich — Giesen 1966 (`mf8cz6MjgDE`) — починка; проходов 41; в очереди 12 слов
+### Wunderlich — Giesen 1966 (`mf8cz6MjgDE`) — свой; проходов 40; в очереди 12 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 145.7–147.6 (1.9 с) под 5:4·ist, 2.4 den @38.8, 2.5 und @40.5, 3.2 Ist @49.4, 3.6 Frühling, @62.4, 3.11 in @88.6, 5.1 Durch @118.4, 5.2 und @120.6, 5.2 ein, @120.9, 5.5 und @127.0, 5.5 ein, @127.2, 6.2 Ist @135.8
 
 ### Hasselhorn — Bushakevitz 2023 (`NRvENk343sE`) — свой; проходов 40; в очереди 9 слов
@@ -242,14 +242,14 @@
 
 ## D 795/15 — Eifersucht und Stolz
 
-### Quasthoff — Zeyen 2005 (`jAqGtaQ6YT0`) — свой; проходов 20; в очереди 29 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 92.7–93.8 (1.1 с) под 1:8·ihr's!, 1.1 Wohin @4.5, 1.1 so @5.6, 1.1 lieber @6.8, 1.1 Bach? @7.8, 1.4 kleinen @20.3, 1.4 Flattersinn, @20.8, 1.5 kehr' @23.5, 1.5 um, @23.8, 1.5 kehr' @24.5, 1.5 um! @25.0, 1.6 Thore @28.8, 1.6 steh'n, @29.8, 1.7 seh'n? @35.1, 1.11 Kind @49.7, 2.1 Geh' @51.7, 2.1 und @52.6, 2.1 ihr @53.1, 2.2 und @54.6, 2.2 ihr @55.2, 2.3 Doch @56.6, 2.3 kein @59.3, 2.5 Er @67.9, 2.5 sich @69.8, 2.6 Kindern @72.6, 2.7 bei @79.7, 2.7 mir @79.9, 2.7 sich @80.3, 2.7 Rohr, @82.2
+### Quasthoff — Zeyen 2005 (`jAqGtaQ6YT0`) — свой; проходов 20; в очереди 53 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 92.7–93.8 (1.1 с) под 1:8·ihr's!, 1.1 Wohin @4.5, 1.1 so @5.1, 1.1 schnell, @5.2, 1.1 so @5.6, 1.1 kraus @5.7, 1.1 und @6.2, 1.1 wild, @6.3, 1.1 mein @6.6, 1.1 lieber @6.8, 1.1 Bach? @7.8, 1.2 Eilst @8.6, 1.2 du @8.7, 1.2 voll @9.0, 1.2 Zorn @9.2, 1.2 dem @9.6, 1.2 frechen @9.7, 1.2 Bruder @10.2, 1.2 Jäger @10.7, 1.2 nach? @11.8, 1.3 Kehr' @12.5, 1.3 um, @12.9, 1.3 kehr' @13.5, 1.3 um @13.8, 1.3 und @14.5, 1.3 schilt @14.7, 1.3 erst @15.1, 1.3 deine @15.3, 1.3 Müllerin @15.8, 1.4 kleinen @20.3, 1.4 Flattersinn, @20.8, 1.5 Kehr' @22.5, 1.5 um, @22.8, 1.5 kehr' @23.5, 1.5 um, @23.8, 1.5 kehr' @24.5, 1.5 um! @25.0, 1.6 Thore @28.8, 1.6 steh'n, @29.8, 1.7 seh'n? @35.1, 1.11 Kind @49.7, 2.1 Geh' @51.7, 2.1 und @52.6, 2.1 ihr @53.1, 2.2 und @54.6, 2.2 ihr @55.2, 2.3 Doch @56.6, 2.3 kein @59.3, 2.5 Er @67.9, 2.6 Kindern @72.6, 2.7 mir @79.9, 2.7 sich @80.3, 2.7 Rohr, @82.2
 
 ### Fischer-Dieskau — Moore 1961 (`bqjDQ1ugiPU`) — свой; проходов 20; в очереди 12 слов
 1.2 dem @8.1, 1.2 frechen @8.2, 1.9 sittsam @36.7, 1.9 zum @37.8, 1.11 sittsam @43.5, 2.1 Geh' @45.5, 2.1 ihr @46.9, 2.2 Geh' @47.4, 2.2 hin @48.0, 2.2 ihr @48.8, 2.5 sich @62.6, 2.7 schnitzt @71.0
 
-### Hüsch — H. U. Müller 1935 (`CgwXoEyXeEk`) — починка; проходов 21; в очереди 15 слов
-1.1 so @4.8, 1.1 kraus @4.9, 1.2 Zorn @8.4, 1.2 dem @8.7, 1.2 frechen @8.8, 1.3 und @13.4, 1.5 um! @22.9, 1.6 sie @25.0, 2.1 Geh' @47.2, 2.1 ihr @48.6, 2.2 Geh' @49.0, 2.2 ihr @50.4, 2.5 bei @63.2, 2.5 mir @63.3, 2.6 schöne @67.1
+### Hüsch — H. U. Müller 1935 (`CgwXoEyXeEk`) — починка; проходов 21; в очереди 18 слов
+1.1 so @4.8, 1.1 kraus @4.9, 1.2 Zorn @8.4, 1.2 dem @8.7, 1.2 frechen @8.8, 1.3 und @13.4, 1.5 kehr' @21.7, 1.5 um, @22.0, 1.5 kehr' @22.6, 1.5 um! @22.9, 1.6 sie @25.0, 2.1 Geh' @47.2, 2.1 ihr @48.6, 2.2 Geh' @49.0, 2.2 ihr @50.4, 2.5 bei @63.2, 2.5 mir @63.3, 2.6 schöne @67.1
 
 ### Wunderlich — Giesen 1966 (`4ee6MJGeHjU`) — свой; проходов 20; в очереди 10 слов
 1.1 so @5.3, 1.2 dem @9.3, 2.1 ihr @53.4, 2.2 ihr @56.0, 2.2 das. @56.1, 2.3 kein @60.6, 2.5 Sag' @67.5, 2.5 Pfeif' @72.9, 2.5 Rohr @74.1, 2.6 Kindern @75.3
@@ -259,17 +259,17 @@
 
 ## D 795/16 — Die liebe Farbe
 
-### Quasthoff — Zeyen 2005 (`en-uXZfJ7mY`) — свой; проходов 24; в очереди 29 слов
-1.1 In @17.4, 1.1 Grün @17.9, 1.1 kleiden, @21.0, 1.4 hat's @37.8, 1.4 Grün @38.6, 2.1 Wohlauf @84.5, 2.1 zum @86.0, 2.1 fröhlichen @86.8, 2.1 Jagen, @88.1, 2.2 Wohlauf @90.4, 2.2 durch @92.0, 2.2 Haid' @92.7, 2.2 und @93.6, 2.2 Hagen! @94.1, 2.3 Mein @96.7, 2.3 Schatz @97.1, 2.3 hat's @97.9, 2.3 Jagen @98.5, 2.3 so @99.6, 2.3 gern, @99.8, 2.8 hat's @132.7, 3.2 Deckt @156.4, 3.2 mich @156.9, 3.2 mit @157.8, 3.4 Mein @169.8, 3.4 Grün @172.1, 3.6 rings @186.6, 3.8 hat's @200.2, 3.8 Grün @200.9
+### Quasthoff — Zeyen 2005 (`en-uXZfJ7mY`) — свой; проходов 24; в очереди 33 слов
+1.1 In @17.4, 1.1 Grün @17.9, 1.1 kleiden, @21.0, 1.2 In @23.5, 1.2 grüne @24.1, 1.2 Thränenweiden: @25.6, 1.4 hat's @37.8, 1.4 Grün @38.6, 2.1 Wohlauf @84.5, 2.1 zum @86.0, 2.1 fröhlichen @86.8, 2.1 Jagen, @88.1, 2.2 Wohlauf @90.4, 2.2 durch @92.0, 2.2 Haid' @92.7, 2.2 und @93.6, 2.2 Hagen! @94.1, 2.3 Mein @96.7, 2.3 Schatz @97.1, 2.3 hat's @97.9, 2.3 Jagen @98.5, 2.3 so @99.6, 2.3 gern, @99.8, 2.8 hat's @132.7, 3.2 Deckt @156.4, 3.2 mich @156.9, 3.2 mit @157.8, 3.4 Mein @169.8, 3.4 Grün @172.1, 3.5 Kreuzlein @177.3, 3.6 rings @186.6, 3.8 hat's @200.2, 3.8 Grün @200.9
 
-### Fischer-Dieskau — Moore 1961 (`PDCwmHbFE7E`) — починка; проходов 25; в очереди 7 слов
-2.6 heiss' @122.6, 2.6 ich @123.4, 2.6 die @123.5, 2.6 Liebesnoth: @123.5, 2.6 heiss' @123.5, 2.6 die @123.7, 2.6 Liebesnoth: @124.2
+### Fischer-Dieskau — Moore 1961 (`PDCwmHbFE7E`) — свой; проходов 24; в очереди 3 слов
+2.6 heiss' @122.6, 2.6 ich @123.4, 2.6 die @123.5
 
 ### Hüsch — H. U. Müller 1935 (`SQ9WK9wsWmk`) — свой; проходов 24; в очереди 15 слов
 1.4 hat's @32.2, 1.5 Will @36.2, 1.7 hat's @51.3, 1.8 hat's @56.4, 2.1 Wohlauf @71.7, 2.1 fröhlichen @73.5, 2.2 Haid' @78.4, 2.2 und @79.1, 2.3 Mein @81.7, 2.3 hat's @82.6, 2.4 hat's @87.2, 2.5 das @92.0, 2.8 hat's @110.7, 3.1 Grab @130.8, 3.5 Kreuzlein @152.7
 
-### Wunderlich — Giesen 1966 (`R2uRj1pnEqo`) — свой; проходов 24; в очереди 14 слов
-1.1 kleiden, @20.8, 1.2 In @23.1, 1.2 grüne @23.6, 1.2 Thränenweiden: @24.9, 1.8 hat's @65.0, 1.8 gern. @67.8, 2.5 Das @105.2, 2.6 die @114.0, 2.6 die @115.6, 2.8 so @132.1, 3.4 hat's @172.4, 3.5 kein @182.0, 3.7 Schatz @197.0, 3.8 hat's @205.9
+### Wunderlich — Giesen 1966 (`R2uRj1pnEqo`) — свой; проходов 24; в очереди 20 слов
+1.1 In @17.6, 1.1 Grün @18.2, 1.1 will @19.0, 1.1 ich @19.7, 1.1 mich @20.3, 1.1 kleiden, @20.8, 1.2 In @23.1, 1.2 grüne @23.5, 1.2 Thränenweiden: @24.9, 1.5 Will @41.2, 1.8 hat's @65.0, 1.8 gern. @67.8, 2.5 Das @105.2, 2.6 heiss' @114.4, 2.6 die @115.6, 2.8 so @132.1, 3.4 hat's @172.4, 3.5 kein @182.0, 3.7 Schatz @197.0, 3.8 hat's @205.9
 
 ### Hasselhorn — Bushakevitz 2023 (`qz0sDNfMftM`) — свой; проходов 24; в очереди 21 слов
 ДЫРЫ НА ПРОВЕРКУ: (до первого слова) буквенная масса 37 до 22.1 — пение до первого размеченного слова, 1.4 Schatz @47.9, 1.4 hat's @49.0, 1.7 hat's @80.3, 1.8 hat's @88.5, 1.8 Grün @89.5, 2.1 Wohlauf @112.7, 2.3 hat's @130.8, 2.6 Die @155.5, 2.6 Haide, @156.4, 2.6 heiss' @158.7, 2.8 Mein @176.7, 2.8 hat's @179.8, 3.4 hat's @232.0, 3.5 Kein @238.8, 3.8 Mein @267.7, 3.8 Schatz @268.9, 3.8 hat's @269.9, 3.8 Grün @270.8, 3.8 so @272.6, 3.8 gern. @273.5
@@ -653,8 +653,8 @@
 ### Fischer-Dieskau — Demus 1959 (`uPZdeAHXAQM`) — свой; проходов 10; в очереди 5 слов
 1.2 Ist @27.1, 1.2 Ruh’, @28.0, 2.1 Warte @74.1, 2.3 balde @116.2, 2.4 Ruhest @116.8
 
-### Hotter — Moore 1949 (`1KgMidA4-yU`) — свой; проходов 10; в очереди 9 слов
-ДЫРЫ НА ПРОВЕРКУ: (до первого слова) буквенная масса 19 до 22.5 — пение до первого размеченного слова, 1.1 Über @22.5, 1.1 allen @24.8, 1.1 Gipfeln @26.9, 1.6 im @74.5, 2.3 balde @119.6, 2.4 Ruhest @128.2, 2.4 du @132.5, 2.4 auch. @133.0
+### Hotter — Moore 1949 (`1KgMidA4-yU`) — свой; проходов 10; в очереди 13 слов
+ДЫРЫ НА ПРОВЕРКУ: (до первого слова) буквенная масса 19 до 22.5 — пение до первого размеченного слова, 1.1 Über @22.5, 1.1 allen @24.8, 1.1 Gipfeln @26.9, 1.6 im @74.5, 2.3 Warte @108.3, 2.3 nur, @110.7, 2.3 warte @113.5, 2.3 nur @116.4, 2.3 balde @119.6, 2.4 Ruhest @128.2, 2.4 du @132.5, 2.4 auch. @132.8
 
 ### Ludwig — Parsons 1968 (`BWzlxIevxsE`) — запасной; проходов 10; в очереди 1 слов
 ДЫРЫ НА ПРОВЕРКУ: 96.2–117.1 (20.8 с) между 1:0·nur, и 1:0·balde
