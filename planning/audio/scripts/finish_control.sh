@@ -25,7 +25,17 @@ for v in $VIDS; do
   n=$(gate $v); echo "$v: дыр $n"
   if [ "$n" != "0" ] && [ "$n" != "НЕТ ФАЙЛА" ] && ! grep -q "^$v запасной" decisions.txt; then
     cp "$APP/$PREFIX-$v.json" "own/keep_$v.json"; cp "holes_$v.txt" "own/keep_holes_$v.txt"
-    $SCRIPTS/fallback.sh "$RUNDIR" --route route_consensus.json $v 2>&1 | grep -a -E "Traceback" | cut -c1-120
+    # надёжный свой маршрут (якорей >= 70 % его слов) -> CTC-выравнивание по НЕМУ, а не по консенсусу: консенсус навязывает записи
+    # чужую структуру (D 5, Мельцер: строки, которых певец не поёт, втиснуты в 3 с — «ужасно»); по консенсусу — только при слабом Whisper
+    RT=route_consensus.json; $PY - "own/$PREFIX-$v.json" "own/route_own_$v.json" <<'PY' && RT="own/route_own_$v.json"
+import json,sys; t=json.load(open(sys.argv[1])); w=[x for p in t['route'] for x in p['w'] if x]; a=t.get('anchored') or 0
+r=[{"s":p['s'],"l":p['l'],"k":[k for k,x in enumerate(p['w']) if x]} for p in t['route']]; r=[p for p in r if p['k']]
+ok=len(w)>=10 and a>=0.7*len(w) and r
+if ok: json.dump(r,open(sys.argv[2],'w'))
+sys.exit(0 if ok else 1)
+PY
+    echo "$v: запасной путь по $([ "$RT" = route_consensus.json ] && echo консенсусу || echo 'своему маршруту (Whisper надёжен)')"
+    $SCRIPTS/fallback.sh "$RUNDIR" --route "$RT" $v 2>&1 | grep -a -E "Traceback" | cut -c1-120
     m=$(gate $v); echo "$v: дыр после запасного пути $m"
     if [ "$m" = "НЕТ ФАЙЛА" ] || [ "$m" -ge "$n" ]; then cp "own/keep_$v.json" "$APP/$PREFIX-$v.json"; cp "own/keep_holes_$v.txt" "holes_$v.txt"; echo "$v: оставлен свой маршрут ($n дыр)"; else sed -i "s/^$v .*/$v запасной (дыры: свой $n, запасной $m)/" decisions.txt; fi
   fi

@@ -24,6 +24,15 @@ for sd in sorted(glob.glob(f'{SONGS}/*/')):
         cands = [('удержанная', h, holes(f'{sd}/holes_{v}.txt')), ('чистый свой', f'{sd}/own/{p}-{v}.json', holes(f'{sd}/own/holes_pure_{v}.txt')),
                  ('спасение по своему маршруту', f'{sd}/rescue/{p}-{v}.json', holes(f'{sd}/rescue/holes_{v}.txt'))]
         cands = [c for c in cands if c[2] is not None and os.path.exists(c[1])]
+        # свой маршрут надёжен (якорей >= 70 % его слов), а удержанная версия — запасной путь по консенсусу (переключение из-за дыр):
+        # она навязывает чужую структуру, дыр «меньше» лишь по счётчику — не кандидат (D 5, Мельцер)
+        dec_line = ''
+        if os.path.exists(f'{sd}/decisions.txt'):
+            dec_line = next((l.strip() for l in open(f'{sd}/decisions.txt', encoding='utf-8') if l.startswith(v + ' ')), '')
+        own_p = f'{sd}/own/{p}-{v}.json'
+        if os.path.exists(own_p) and 'запасной (дыры:' in dec_line:
+            o = json.load(open(own_p)); ow = [x for ps in o['route'] for x in ps['w'] if x]
+            if len(ow) >= 10 and (o.get('anchored') or 0) >= 0.7 * len(ow): cands = [c for c in cands if c[0] != 'удержанная'] or cands
         if not cands: print(f'{p} {v}: нет кандидатов с воротами'); continue
         name, path, hs = min(cands, key=lambda c: (len(c[2]), max([x['sec'] for x in c[2]], default=0)))
         t = json.load(open(path, encoding='utf-8')); t['holes'] = hs
