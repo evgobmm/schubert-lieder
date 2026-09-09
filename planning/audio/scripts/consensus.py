@@ -11,11 +11,11 @@ import unicodedata
 def _has_letters(w): return any(c.isalpha() for c in unicodedata.normalize('NFD',w))
 def lettered(s,l): return [k for k,w in enumerate(song['stanzas'][s]['lines_de'][l].split()) if _has_letters(w)]   # индексы слов с буквами (тире — не слово)
 def nwords(s,l): return len(lettered(s,l))
-routes={}; anchors={}
+routes={}; anchors={}; ownw={}
 for v in vids:
     t=json.load(open(f'{DIR}/{PREFIX}-{v}.json'))
     routes[v]=[(p['s'],p['l'],tuple(k for k,x in enumerate(p['w']) if x and k in lettered(p['s'],p['l']))) for p in t['route']]
-    anchors[v]=t.get('anchored',0)
+    anchors[v]=t.get('anchored',0); ownw[v]=sum(1 for p in t['route'] for x in p['w'] if x)
 cons=[]; report=[]
 for st in range(S):
     seqs={v:tuple((l,k) for s_,l,k in r if s_==st) for v,r in routes.items()}
@@ -34,6 +34,13 @@ for v,r in routes.items():
     a=[f"{s_}:{l}" for s_,l,k in r]; same=[(s_,l,list(k)) for s_,l,k in r]==[(p['s'],p['l'],p['k']) for p in cons]
     ops=[o for o in difflib.SequenceMatcher(None,a,b,autojunk=False).get_opcodes() if o[0]!='equal']
     subseq=all(o[0]=='insert' for o in ops); share=anchors[v]/cw if cw else 0
-    dec[v]='свой' if same else ('починка' if share>=0.6 else 'запасной')   # структура своя (певец повторяет иначе, чем большинство) — не повод навязывать консенсус: починка лишь добавляет недостающие проходы по звуку
+    # надёжность своего маршрута — по ЕГО словам (якорей ≥ 70 % спетых слов, ≥ 10 слов); надёжный, но короче консенсуса — фрагмент
+    # (певец поёт меньше строф или запись обрезана): публикуется как свой. Раньше доля считалась от слов консенсуса, и фрагмент уходил
+    # на запасной путь, растягивавший полный текст на короткую запись (D 399, Фишер-Дискау: 4 строфы на 90 с одной).
+    rel=anchors[v]/ownw[v] if ownw.get(v) else 0
+    if same: dec[v]='свой'
+    elif rel>=0.7 and ownw[v]>=10 and ownw[v]<0.8*cw: dec[v]=f'свой фрагмент: спето {ownw[v]} из {cw} слов консенсуса'
+    elif share>=0.6: dec[v]='починка'
+    else: dec[v]='запасной'   # структура своя (певец повторяет иначе, чем большинство) — не повод навязывать консенсус: починка лишь добавляет недостающие проходы по звуку
     print(f"  {v}: {'совпадает с консенсусом' if same else ('не хватает проходов: '+' '.join(' '.join(b[o[3]:o[4]]) for o in ops) if subseq else 'иная структура: '+' '.join(f'{o[0]} {a[o[1]:o[2]]}->{b[o[3]:o[4]]}' for o in ops))}; якорей Whisper {anchors[v]} из {cw} слов ({share:.0%}) -> {dec[v].upper()}")
 open('decisions.txt','w').write('\n'.join(f"{v} {d}" for v,d in dec.items())+'\n')

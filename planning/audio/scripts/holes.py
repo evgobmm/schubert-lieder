@@ -74,3 +74,7 @@ for i in range(len(flat)-1):
             res.append(((sa+sb)/2,sa,sb,name))
         res.sort(reverse=True)
         print(f"дыра {a:.1f}–{b:.1f} ({b-a:.1f} с) между {names[i][0]}:{names[i][1]}·{names[i][2]} и {names[i+1][0]}:{names[i+1][1]}·{names[i+1][2]}: "+"; ".join(f"{nm} {s:+.3f} (A {sa:+.3f}/B {sb:+.3f})" for s,sa,sb,nm in res[:4]))
+# сжатие: весь текст втиснут в слишком короткий отрезок (запасной путь по консенсусу на записи-фрагменте) — такое пение невозможно
+if len(flat)>=20:
+    _span=flat[-1][1]-flat[0][0]; _dens=len(flat)/max(_span,1e-6)
+    if _dens>3.2: print(f"дыра (сжатие текста) {flat[0][0]:.1f}–{flat[-1][1]:.1f} ({_span:.1f} с): {len(flat)} слов за {_span:.0f} с — {_dens:.1f} слов/с")
