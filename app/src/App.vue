@@ -6,6 +6,7 @@ import ThemeToggle from './components/ThemeToggle.vue'
 import PerformancePlayer from './components/PerformancePlayer.vue'
 import PrintMenu from './components/PrintMenu.vue'
 import FeedbackMenu from './components/FeedbackMenu.vue'
+import AcknowledgementsMenu from './components/AcknowledgementsMenu.vue'
 import MatchText from './components/MatchText.vue'
 import songsIndex from './data/index.json'
 import sectionsIndex from './data/sections.json'
@@ -26,6 +27,7 @@ if (statsParam === 'off') {
 // (replaceState — без засорения истории), остальные параметры сохраняются.
 const printMenuOpen = ref(false)
 const feedbackOpen = ref(false)
+const sourcesOpen = ref(false)
 
 // Плавающие кнопки (мобильные): появляются при любом касании, гаснут через 3 с
 const quickNavVisible = ref(false)
@@ -325,6 +327,18 @@ const playActive = computed(() =>
             <path d="m17 18-5-5-5 5" />
           </svg>
         </button>
+        <button
+          class="sources-btn"
+          type="button"
+          aria-label="Источники и благодарности"
+          data-tip="Источники"
+          @click="sourcesOpen = true"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 7v14" />
+            <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+          </svg>
+        </button>
         <button class="letter-btn" title="Письмо" aria-label="Письмо" @click="feedbackOpen = true">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="5" width="18" height="14" rx="0.8" />
@@ -343,6 +357,7 @@ const playActive = computed(() =>
       @close="printMenuOpen = false"
     />
     <FeedbackMenu v-if="feedbackOpen" @close="feedbackOpen = false" />
+    <AcknowledgementsMenu v-if="sourcesOpen" @close="sourcesOpen = false" />
     <!-- Мобильный выбор песни: панель во весь экран с тем же списком разделов, что на компьютере -->
     <div v-if="pickerOpen" class="mob-picker" role="dialog" aria-label="Выбор песни">
       <button class="mob-picker-close" type="button" aria-label="Закрыть" @click="pickerOpen = false">

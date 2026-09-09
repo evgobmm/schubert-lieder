@@ -1,0 +1,448 @@
+{
+ "intro": [
+  "Здесь названы те, чьим трудом мы пользовались: люди, чьи работы цитируются на страницах песен, сайты и базы данных, по которым собирались тексты и сведения, и издания, послужившие первоисточниками.",
+  "Чужие тексты и переводы на сайт не копировались: по сайтам и изданиям сверялись факты, строфика и поющиеся слова. Источники конкретных сведений о каждой песне названы в её разделе «О песне»."
+ ],
+ "sections": [
+  {
+   "title": "Люди",
+   "items": [
+    {
+     "name": "Peter Rastl",
+     "url": "https://www.lieder.net/",
+     "note": "критический слой текстов песен Шуберта: какое издание было у композитора, что поётся, где слова расходятся с поэтом. Его работа лежит в основе LiederNet и schubertsong.uk и служила нам эталоном при сверке всего корпуса"
+    },
+    {
+     "name": "Emily Ezust",
+     "url": "https://www.lieder.net/",
+     "note": "основатель и редактор The LiederNet Archive"
+    },
+    {
+     "name": "Malcolm Wren",
+     "url": "https://www.schubertsong.uk/",
+     "note": "проект Schubert song texts: полные стихотворения, датировки, комментарии"
+    },
+    {
+     "name": "Graham Johnson",
+     "url": "https://www.hyperion-records.co.uk/",
+     "note": "Hyperion Schubert Edition, полное собрание записей с буклетами; его аннотации легли в основу музыкальных наблюдений на страницах песен"
+    },
+    {
+     "name": "Otto Erich Deutsch",
+     "note": "каталог Дойча (номера D) и свод документов «Franz Schubert. Die Dokumente seines Lebens und Schaffens» (1914)"
+    },
+    {
+     "name": "Walther Dürr, Arnold Feil",
+     "note": "«Reclams Musikführer Franz Schubert» (1994): разбор формы и гармонии"
+    },
+    {
+     "name": "Thomas Anz",
+     "url": "https://literaturkritik.de/",
+     "note": "эссе «Gefühl ist alles» о сцене за прялкой"
+    },
+    {
+     "name": "Michael Stolle",
+     "note": "лекция «Unvollendet und doch vollendet» (Евангелическая академия Виттенберга, 2021)"
+    },
+    {
+     "name": "Karl Böhmer",
+     "url": "https://www.kammermusikfuehrer.de/",
+     "note": "Kammermusikführer (Villa Musica)"
+    },
+    {
+     "name": "Richard Capell",
+     "note": "«Schubert's Songs» (1929)"
+    },
+    {
+     "name": "Лотте Леман",
+     "note": "«More Than Singing» (1945): разбор песен с точки зрения певицы"
+    },
+    {
+     "name": "Иэн Бостридж",
+     "note": "«Schubert's Winter Journey» (2015)"
+    },
+    {
+     "name": "Сьюзен Юэнс",
+     "note": "«Schubert's Late Lieder» (2002)"
+    },
+    {
+     "name": "Michael Lorenz",
+     "url": "https://michaelorenz.blogspot.com/",
+     "note": "венский музыковед-архивист; разыскания о метрических записях круга Шуберта"
+    },
+    {
+     "name": "Евгений Обухов",
+     "url": "https://github.com/evgobmm/Winterreise",
+     "note": "референс-проект Winterreise (CC0): переводы 24 песен, модель данных и стиль подстрочника"
+    }
+   ]
+  },
+  {
+   "title": "Каталог и тексты",
+   "items": [
+    {
+     "name": "NSA Schubert-Datenbank",
+     "url": "https://www.schubert-ausgabe.de/",
+     "note": "каркас каталога: список песен, названия, годы, серии Новой шубертовской редакции"
+    },
+    {
+     "name": "schubert-digital.at",
+     "url": "https://www.schubert-digital.at/",
+     "note": "датировки по автографам; по ним выстроен порядок песен внутри разделов"
+    },
+    {
+     "name": "schubert-online.at",
+     "url": "https://www.schubert-online.at/",
+     "note": "сканы и описания автографов и первых изданий (Австрийская академия наук и Wienbibliothek im Rathaus)"
+    },
+    {
+     "name": "IMSLP / Petrucci Music Library",
+     "url": "https://imslp.org/",
+     "note": "ноты, сканы первых изданий и Старого полного собрания; карточки произведений: тональность, темп, опус, издатель"
+    },
+    {
+     "name": "MDZ, Bayerische Staatsbibliothek",
+     "url": "https://www.digitale-sammlungen.de/",
+     "note": "сканы Старого полного собрания (AGA, серия XX), главный источник немецких текстов «как поётся»; там же словарь Аделунга 1811 года"
+    },
+    {
+     "name": "Staats- und Universitätsbibliothek Hamburg",
+     "url": "https://www.sub.uni-hamburg.de/",
+     "note": "факсимиле ранних изданий стихотворений"
+    },
+    {
+     "name": "The LiederNet Archive",
+     "url": "https://www.lieder.net/",
+     "note": "эталон для сверки строфики и поющихся текстов; списки всех вертонизаций каждого стихотворения"
+    },
+    {
+     "name": "schubertsong.uk",
+     "url": "https://www.schubertsong.uk/",
+     "note": "страницы стихотворений с датировками и оригинальной орфографией"
+    },
+    {
+     "name": "OpenScore Lieder Corpus",
+     "url": "https://github.com/OpenScore/Lieder",
+     "note": "88 песен «как поётся», с повторами, включая все три цикла (CC0)"
+    },
+    {
+     "name": "Hyperion Records",
+     "url": "https://www.hyperion-records.co.uk/",
+     "note": "страницы записей и буклеты"
+    },
+    {
+     "name": "Deutsches Textarchiv (BBAW)",
+     "url": "https://www.deutschestextarchiv.de/",
+     "note": "первопечатный «Фауст» 1808 года"
+    },
+    {
+     "name": "zeno.org, Wikisource, Projekt Gutenberg-DE, Internet Archive",
+     "url": "https://archive.org/",
+     "note": "издания поэтов, перешедшие в общественное достояние; сканы книг и документов"
+    },
+    {
+     "name": "ANNO, Österreichische Nationalbibliothek",
+     "url": "https://anno.onb.ac.at/",
+     "note": "венская периодика эпохи"
+    },
+    {
+     "name": "ÖNB Digital",
+     "url": "https://onb.digital/",
+     "note": "факсимиле первых изданий"
+    },
+    {
+     "name": "Google Books",
+     "url": "https://books.google.com/",
+     "note": "сканы изданий XVIII–XIX веков и монографий"
+    },
+    {
+     "name": "Open Library",
+     "url": "https://openlibrary.org/",
+     "note": "полнотекстовый поиск по научной литературе для проверки цитат"
+    },
+    {
+     "name": "UNT Digital Library",
+     "url": "https://digital.library.unt.edu/",
+     "note": "научные работы о песнях Шуберта"
+    },
+    {
+     "name": "Library of Congress",
+     "url": "https://www.loc.gov/",
+     "note": "издания Козегартена"
+    },
+    {
+     "name": "Universitäts- und Landesbibliothek Düsseldorf",
+     "url": "https://digital.ub.uni-duesseldorf.de/",
+     "note": "оцифровки изданий эпохи (Гейне, Рельштаб) и венской музыкальной периодики"
+    },
+    {
+     "name": "Universitätsbibliothek Freiburg",
+     "url": "https://www.ub.uni-freiburg.de/",
+     "note": "портал Иоганна Георга Якоби"
+    },
+    {
+     "name": "Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/",
+     "note": "факсимиле нот и изображения из общественного достояния"
+    },
+    {
+     "name": "CERL Thesaurus",
+     "url": "https://data.cerl.org/",
+     "note": "справочник имён, мест и издателей Европы до 1830 года"
+    }
+   ]
+  },
+  {
+   "title": "Словари",
+   "items": [
+    {
+     "name": "DWDS (BBAW)",
+     "url": "https://www.dwds.de/",
+     "note": "современный академический словарь немецкого языка; там же сетевая версия словаря Гриммов"
+    },
+    {
+     "name": "Deutsches Wörterbuch Якоба и Вильгельма Гриммов",
+     "url": "https://www.dwds.de/d/wb-1dwb",
+     "note": "исторические значения слов, главная опора словарных карточек"
+    },
+    {
+     "name": "Adelung, Wörterbuch (Wien 1811)",
+     "url": "https://lexika.digitale-sammlungen.de/",
+     "note": "значения слов в эпоху Шуберта"
+    },
+    {
+     "name": "Duden",
+     "url": "https://www.duden.de/",
+     "note": "современная норма и происхождение слов"
+    },
+    {
+     "name": "БНРС (academic.ru), Multitran, PONS",
+     "url": "https://translate.academic.ru/",
+     "note": "немецко-русские соответствия"
+    },
+    {
+     "name": "Treccani и итальянско-русские словари academic.ru",
+     "url": "https://www.treccani.it/",
+     "note": "итальянские слова корпуса (Метастазио)"
+    }
+   ]
+  },
+  {
+   "title": "Справочные и музыковедческие",
+   "items": [
+    {
+     "name": "Википедия (немецкая и английская)",
+     "url": "https://de.wikipedia.org/",
+     "note": "вход в темы; факты сверялись по другим источникам"
+    },
+    {
+     "name": "Deutsche Biographie (ADB, NDB)",
+     "url": "https://www.deutsche-biographie.de/",
+     "note": "биографии Шуберта и его круга"
+    },
+    {
+     "name": "Österreichisches Musiklexikon",
+     "url": "https://www.musiklexikon.ac.at/",
+     "note": "Австрийская академия наук"
+    },
+    {
+     "name": "OpenLearn (Открытый университет)",
+     "url": "https://www.open.edu/openlearn/",
+     "note": "учебный разбор гётевских песен Шуберта"
+    },
+    {
+     "name": "Oxford Song",
+     "url": "https://www.oxfordsong.org/",
+     "note": "тексты и переводы песенного репертуара"
+    },
+    {
+     "name": "schubertlied.de",
+     "url": "https://www.schubertlied.de/",
+     "note": "разборы отдельных песен: форма, гармония, такты"
+    },
+    {
+     "name": "literaturkritik.de, kammermusikfuehrer.de, niusic.de, ev-akademie-wittenberg.de, evgeniafoelsche.de",
+     "note": "немецкие разборы песен"
+    },
+    {
+     "name": "Wien Geschichte Wiki",
+     "url": "https://www.geschichtewiki.wien.gv.at/",
+     "note": "венские биографические сведения"
+    },
+    {
+     "name": "museum-digital",
+     "url": "https://nat.museum-digital.de/",
+     "note": "портреты, автографы и предметы эпохи"
+    },
+    {
+     "name": "Open Book Publishers",
+     "url": "https://www.openbookpublishers.com/",
+     "note": "монографии открытого доступа о немецкой поэзии и песне"
+    },
+    {
+     "name": "RISM",
+     "url": "https://rism.info/",
+     "note": "международный каталог музыкальных источников"
+    },
+    {
+     "name": "OnMusic Dictionary",
+     "url": "https://dictionary.onmusic.org/",
+     "note": "музыкальные термины"
+    },
+    {
+     "name": "Current Musicology",
+     "url": "https://journals.library.columbia.edu/index.php/currentmusicology",
+     "note": "научные статьи о музыке"
+    },
+    {
+     "name": "Библиотека Максима Мошкова",
+     "url": "https://az.lib.ru/",
+     "note": "русские переводы XIX века"
+    },
+    {
+     "name": "Sächsische Biografie, geschichte.sachsen.de",
+     "url": "https://saebi.isgv.de/",
+     "note": "биографические статьи (Теодор Кёрнер)"
+    },
+    {
+     "name": "Klassik Stiftung Weimar",
+     "url": "https://www.klassik-stiftung.de/",
+     "note": "документы Гёте"
+    },
+    {
+     "name": "Bärenreiter",
+     "url": "https://www.baerenreiter.com/",
+     "note": "предисловия Новой шубертовской редакции: посвящения опусов, редакции песен"
+    },
+    {
+     "name": "Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/",
+     "note": "статья о Мозесе Мендельсоне"
+    },
+    {
+     "name": "Genealogy.eu",
+     "url": "https://genealogy.euweb.cz/",
+     "note": "генеалогические таблицы европейских родов"
+    },
+    {
+     "name": "Mutopia Project",
+     "url": "https://www.mutopiaproject.org/",
+     "note": "открытые ноты для сверки тональностей и темпов"
+    },
+    {
+     "name": "Naxos",
+     "url": "https://www.naxos.com/",
+     "note": "буклеты записей"
+    },
+    {
+     "name": "Parlance Chamber Concerts",
+     "url": "https://parlancechamberconcerts.org/",
+     "note": "программные заметки"
+    },
+    {
+     "name": "Britannica и другие единичные справки",
+     "note": "названы на страницах песен, где использованы"
+    }
+   ]
+  },
+  {
+   "title": "Записи и дискографии",
+   "items": [
+    {
+     "name": "klassik-prisma.de",
+     "url": "https://www.klassik-prisma.de/",
+     "note": "сравнение записей «Гретхен за прялкой»"
+    },
+    {
+     "name": "table d'écoute (RTBF Musiq3)",
+     "url": "https://tablecoute.blogspot.com/",
+     "note": "слепое прослушивание 2020 года"
+    },
+    {
+     "name": "CHARM (King's College London)",
+     "url": "https://charm.kcl.ac.uk/",
+     "note": "дискография записей на 78 оборотов по матричным номерам"
+    },
+    {
+     "name": "DAHR (UC Santa Barbara)",
+     "url": "https://adp.library.ucsb.edu/",
+     "note": "американские исторические записи"
+    },
+    {
+     "name": "Discogs",
+     "url": "https://www.discogs.com/",
+     "note": "издания, матрицы, сессии, состав исполнителей"
+    },
+    {
+     "name": "Lotte Lehmann League",
+     "url": "https://lottelehmannleague.org/",
+     "note": "дискография Лотте Леман"
+    },
+    {
+     "name": "401dutchdivas.nl, дискография Кирстен Флагстад (University of Warwick)",
+     "url": "https://www.401dutchdivas.nl/",
+     "note": "дискографии певиц"
+    },
+    {
+     "name": "MusicWeb International, ClassicsToday, Gramophone, BBC Music Magazine, Stereophile, Limelight, The Classic Review, ResMusica",
+     "note": "критика записей"
+    },
+    {
+     "name": "Presto Music, AllMusic",
+     "url": "https://www.prestomusic.com/",
+     "note": "данные изданий"
+    },
+    {
+     "name": "YouTube и лейблы, чьи записи встроены на сайт",
+     "url": "https://www.youtube.com/",
+     "note": "Warner Classics, Deutsche Grammophon, Naxos, BIS, Teldec, harmonia mundi, Alpha Classics, Decca/Philips; записи воспроизводятся через плеер YouTube"
+    },
+    {
+     "name": "Internet Archive",
+     "url": "https://archive.org/",
+     "note": "реставрации старых пластинок, сканы книг"
+    }
+   ]
+  },
+  {
+   "title": "Издания, послужившие первоисточниками текстов",
+   "items": [
+    {
+     "name": "Franz Schuberts Werke, Serie XX (Breitkopf & Härtel, 1894–1895)",
+     "note": "основной печатный источник текстов «как поётся»"
+    },
+    {
+     "name": "Первое издание op. 2 (Cappi und Diabelli, Вена, 1821)",
+     "note": "первоисточник текста и повторов «Гретхен за прялкой»"
+    },
+    {
+     "name": "Goethe, «Faust. Eine Tragödie» (Cotta, 1808), «Faust. Ein Fragment» (1790), «Urfaust» в издании Эриха Шмидта (1887)",
+     "note": "редакции монолога Гретхен"
+    },
+    {
+     "name": "O. E. Deutsch, «Franz Schubert. Die Dokumente seines Lebens und Schaffens» (München, 1914)",
+     "note": "документы о жизни Шуберта, сверены по сканам"
+    },
+    {
+     "name": "Издания стихотворений поэтов",
+     "note": "сверялись по каждой песне отдельно; где это существенно, названы в разделе «О песне»"
+    }
+   ]
+  },
+  {
+   "title": "Сайт",
+   "items": [
+    {
+     "name": "GitHub Pages и GitHub Actions",
+     "url": "https://github.com/evgobmm/schubert-lieder",
+     "note": "размещение и публикация сайта; исходники открыты"
+    },
+    {
+     "name": "Шрифты Inter, Source Serif 4, Bitter, Playfair Display",
+     "url": "https://fonts.google.com/",
+     "note": "Google Fonts"
+    }
+   ]
+  }
+ ]
+}
