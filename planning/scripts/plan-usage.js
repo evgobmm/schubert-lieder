@@ -13,11 +13,14 @@ let token;
 try { token = JSON.parse(fs.readFileSync(credPath, 'utf8')).claudeAiOauth.accessToken; } catch { console.error('не разобрать .credentials.json'); process.exit(2); }
 if (!token) { console.error('в .credentials.json нет accessToken'); process.exit(2); }
 
+// /api/oauth/usage отдаёт ЦЕЛЫЕ проценты (0–100), а не долю единицы. Прежний код считал значение ≤ 1 долей
+// и печатал «1 %» как «100 %»: 09.09 сразу после сброса окна это выглядело как упёртый в потолок лимит и
+// остановило работу на ровном месте. Никаких догадок о доле — число используется как процент.
 const pct = (u) => {
   if (u == null) return null;
   const n = Number(u);
   if (!isFinite(n)) return null;
-  return n <= 1 ? Math.round(n * 1000) / 10 : Math.round(n * 10) / 10;
+  return Math.round(n * 10) / 10;
 };
 const when = (v) => {
   if (v == null) return '—';
