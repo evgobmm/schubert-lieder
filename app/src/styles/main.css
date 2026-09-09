@@ -236,6 +236,10 @@ body {
     display: none !important;
   }
 
+  .to-top {
+    display: none;
+  }
+
   /* ===== Печать из меню печати ===== */
   @page {
     /* Жёстко A4: вся модель разбивки на страницы считает в этой геометрии;
@@ -340,8 +344,28 @@ body {
   flex: 0 0 22em;
 }
 
-.print-sheet .print-song .song-header .col-meta {
-  flex: 0 0 8em;
+/* На листе сетки с новой колонкой нет: метаданные — строкой под названиями,
+   кнопка «О песне» и предупреждение — экранные элементы, на лист не идут */
+.print-sheet .print-song .song-view {
+  display: block;
+}
+
+.print-sheet .print-song .side-meta {
+  margin: -16px 0 22px;
+}
+
+.print-sheet .print-song .side-meta .meta-line,
+.print-sheet .print-song .side-meta .meta-poet,
+.print-sheet .print-song .side-meta .meta-poet-line {
+  display: inline;
+}
+
+.print-sheet .print-song .side-meta .meta-line::after {
+  content: ', ';
+}
+
+.print-sheet .print-song .side-lower {
+  display: none;
 }
 
 /* Пара строк: DE слева (как на сайте), RU с глоссами справа; не рвать по страницам */
@@ -466,12 +490,97 @@ body {
   display: none;
 }
 
+/* Круглая кнопка «Наверх» — в правом нижнем углу, в ряду круглых кнопок сайта (тема, письмо) */
+.to-top {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 70;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--accent);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease, background 0.15s;
+}
+
+.to-top.visible {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.to-top:hover {
+  background: var(--highlight);
+}
+
+.to-top:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Подсказка над кнопкой */
+.to-top::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--text);
+  color: var(--bg);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+
+.to-top:hover::after {
+  opacity: 1;
+  transition-delay: 0.4s;
+}
+
+.to-top:focus-visible::after {
+  opacity: 1;
+}
+
+/* Переход по кнопке «О песне»: раздел не прилипает к самому верху окна */
+.about-panel {
+  scroll-margin-top: 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .to-top,
+  .to-top::after {
+    transition: none;
+  }
+}
+
 @media (max-width: 900px) {
   .app {
     display: block;
   }
 
   .sidebar {
+    display: none;
+  }
+
+  /* На мобильной раскладке «Наверх» — среди плавающих кнопок ниже */
+  .to-top {
     display: none;
   }
 

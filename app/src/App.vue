@@ -42,6 +42,14 @@ function quickScrollTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
+// Круглая кнопка «Наверх» (компьютерная раскладка): появляется, когда страница прокручена вниз
+const toTopVisible = ref(false)
+function onWindowScroll() {
+  toTopVisible.value = window.scrollY > 400
+}
+window.addEventListener('scroll', onWindowScroll, { passive: true })
+onWindowScroll()
+
 function quickScrollPlayer() {
   const el = document.querySelector('.performance')
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -307,6 +315,18 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
       @close="printMenuOpen = false"
     />
     <FeedbackMenu v-if="feedbackOpen" @close="feedbackOpen = false" />
+    <!-- Кнопка «Наверх» (только компьютерная раскладка): появляется при прокрутке вниз -->
+    <button
+      class="to-top"
+      :class="{ visible: toTopVisible }"
+      type="button"
+      aria-label="Наверх"
+      data-tip="Наверх"
+      :tabindex="toTopVisible ? 0 : -1"
+      @click="quickScrollTop"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 14.5 12 8.5 18 14.5" /></svg>
+    </button>
     <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям / письмо -->
     <div class="quick-nav" :class="{ 'qn-visible': quickNavVisible }">
       <button class="qn-btn" aria-label="Наверх" @click="quickScrollTop">

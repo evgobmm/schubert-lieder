@@ -38,10 +38,47 @@ const metaLine = computed(() => {
   return [song.value.year && String(song.value.year), song.value.d && `D ${song.value.d}`].filter(Boolean).join(', ')
 })
 
-const metaPoet = computed(() => {
+// Поэты — по строкам: одно имя не переносится (ширина колонки — по самой длинной строке),
+// соавторы стоят каждый на своей строке
+const metaPoets = computed(() => {
   const poet = song.value && (song.value.poet_ru || song.value.poet_de)
-  return poet ? `стихи — ${poet}` : ''
+  return poet ? poet.split(/,\s*/) : []
 })
+
+// Новая колонка страницы (правее перевода): ширина по самой длинной строке метаданных
+// (имя поэта не переносится), но не уже 220 px — столько нужно кнопке и предупреждению;
+// всё остальное место достаётся переводу. Предел на узких экранах задаёт CSS (clamp)
+const SIDE_COL_MIN = 220
+const metaRef = ref(null)
+const sideCol = ref(SIDE_COL_MIN)
+
+function measureSideCol() {
+  const el = metaRef.value
+  if (!el) { sideCol.value = SIDE_COL_MIN; return }
+  const cs = getComputedStyle(el)
+  const probe = document.createElement('span')
+  probe.style.cssText = `position:absolute;visibility:hidden;white-space:nowrap;font-family:${cs.fontFamily};font-size:${cs.fontSize};font-weight:${cs.fontWeight};letter-spacing:${cs.letterSpacing}`
+  document.body.appendChild(probe)
+  let w = 0
+  el.querySelectorAll('.meta-line, .meta-poet-line').forEach(line => {
+    probe.textContent = line.textContent
+    w = Math.max(w, probe.getBoundingClientRect().width)
+  })
+  probe.remove()
+  sideCol.value = Math.max(SIDE_COL_MIN, Math.ceil(w) + 1)
+}
+
+onMounted(() => {
+  measureSideCol()
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(measureSideCol)
+})
+
+watch(song, () => nextTick(measureSideCol))
+
+function scrollToAbout() {
+  const el = articleRef.value && articleRef.value.querySelector('.about-panel')
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
 
 // Build a global map: "stanzaIdx-lineIdx-annIdx" -> display number, sorted by footnote position
 const annNumberMap = computed(() => {
@@ -536,7 +573,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 </script>
 
 <template>
-  <article v-if="song" class="song-view" ref="articleRef">
+  <article v-if="song" class="song-view" ref="articleRef" :style="{ '--side-col': sideCol + 'px' }">
     <header class="song-header">
       <div class="col-de">
         <h2
@@ -565,12 +602,38 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
           @click.stop="handleTap(fn.key)"
         /></h2>
       </div>
-      <!-- Третья, узкая колонка на уровне названий: «1816, D 399», ниже отдельной строкой «стихи — поэт» -->
-      <div v-if="metaLine || metaPoet" class="col-meta">
-        <div v-if="metaLine" class="meta-line">{{ metaLine }}</div>
-        <div v-if="metaPoet" class="meta-poet">{{ metaPoet }}</div>
-      </div>
     </header>
+
+    <!-- Новая колонка, строка названий: «1816, D 399», ниже отдельной строкой «стихи — поэт» -->
+    <div v-if="metaLine || metaPoets.length" ref="metaRef" class="side-meta">
+      <div v-if="metaLine" class="meta-line">{{ metaLine }}</div>
+      <div v-if="metaPoets.length" class="meta-poet"><span
+        v-for="(name, i) in metaPoets"
+        :key="i"
+        class="meta-poet-line"
+      >{{ i === 0 ? 'стихи — ' : '' }}{{ name }}{{ i < metaPoets.length - 1 ? ', ' : '' }}</span></div>
+    </div>
+
+    <!-- Новая колонка, строка начала перевода: кнопка «О песне» и предупреждение -->
+    <aside class="side-lower">
+      <button
+        v-if="song.about && song.about.length"
+        class="about-btn"
+        type="button"
+        @click="scrollToAbout"
+      >
+        <svg class="about-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" />
+          <line x1="12" y1="11" x2="12" y2="16.5" />
+          <circle cx="12" cy="7.8" r="0.6" fill="currentColor" />
+        </svg>
+        <span class="about-btn-label">О песне</span>
+        <svg class="about-btn-chev" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M2.5 4.5L6 8l3.5-3.5" />
+        </svg>
+      </button>
+      <p class="site-note">Сайт предназначен для общего знакомства с&nbsp;песнями.<br />Он сделан с&nbsp;помощью ИИ и&nbsp;на данный момент не&nbsp;может рассматриваться как источник знаний.</p>
+    </aside>
 
     <!-- Режим «только текст»: немецкий текст без перевода (переводы добавляются постепенно) -->
     <div v-if="song.text_only" class="song-body text-only-body">
@@ -690,11 +753,47 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 </template>
 
 <style scoped>
+/* Страница песни — сетка из двух колонок: текст (немецкий + перевод) и новая колонка
+   (год, D-номер, поэт; кнопка «О песне»; предупреждение). Ширина новой колонки —
+   по её содержимому, не уже 220 px (--side-col ставит скрипт), предел — свободное место при
+   380 (немецкая колонка) + 2 × 40 (промежутки) + 140 (минимум переводу).
+   Сетка только на широких экранах (от 1700 px); ниже колонка уходит в поток — см. медиазапрос */
+.song-view {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(120px, var(--side-col, 220px), calc(100% - 600px));
+  column-gap: 40px;
+  align-items: start;
+}
+
+/* По умолчанию всё ниже текста (пояснения, «О песне») — во всю ширину обеих колонок */
+.song-view > * {
+  grid-column: 1 / -1;
+}
+
 .song-header {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: baseline;
   display: flex;
   gap: 40px;
   align-items: baseline;
   margin-bottom: 32px;
+}
+
+.song-body {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.side-meta {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: baseline;
+}
+
+.side-lower {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .song-header h2 {
@@ -727,10 +826,9 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
   margin: 0 -4px;
 }
 
-/* Узкая колонка метаданных у правого края области текста; первая строка стоит
-   на базовой линии названий (align-items: baseline у шапки) */
-.col-meta {
-  flex: 0 0 clamp(120px, 16%, 170px);
+/* Метаданные новой колонки: первая строка стоит на базовой линии названий
+   (align-self: baseline у элементов первой строки сетки) */
+.side-meta {
   font-family: var(--font-sans);
   font-size: 0.85rem;
   line-height: 1.45;
@@ -743,6 +841,60 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 
 .meta-poet {
   margin-top: 2px;
+}
+
+/* Каждый автор — на своей строке */
+.meta-poet-line {
+  display: block;
+}
+
+/* ---- Новая колонка на линии начала перевода ---- */
+.side-lower {
+  font-family: var(--font-sans);
+}
+
+/* Кнопка «О песне» — в стиле кнопок «Исполнения»/«Печать», компактнее */
+.about-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 11px 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--sidebar-bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.3;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.about-btn:hover {
+  background: var(--highlight);
+}
+
+.about-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.about-btn-icon {
+  color: var(--accent);
+  flex: none;
+}
+
+.about-btn-chev {
+  color: var(--text-secondary);
+  flex: none;
+}
+
+.site-note {
+  margin-top: 10px;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
 }
 
 .stanza {
@@ -818,21 +970,21 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 }
 
 /* Мобильная раскладка: колонки складываются в столбик; на десктопе не действует */
-@media (max-width: 900px) {
-  .song-header {
-    flex-direction: column;
-    gap: 0;
-    margin-bottom: 22px;
+/* Экраны уже 1700 px: сетке с новой колонкой места нет (переводу осталось бы < 240 px) —
+   она распадается в поток: метаданные строкой под названиями, затем кнопка и предупреждение,
+   затем текст */
+@media (max-width: 1699px) {
+  .song-view {
+    display: block;
   }
 
-  /* На узком экране колонки нет: метаданные одной строкой под названиями */
-  .col-meta {
-    flex: none;
-    margin-top: 4px;
+  .side-meta {
+    margin: -14px 0 16px;
   }
 
   .meta-line,
-  .meta-poet {
+  .meta-poet,
+  .meta-poet-line {
     display: inline;
     margin: 0;
   }
@@ -840,6 +992,19 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
   .meta-line::after {
     content: ', ';
   }
+
+  .side-lower {
+    margin: 0 0 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .song-header {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 22px;
+  }
+
 
   .line-pair {
     flex-direction: column;
@@ -939,7 +1104,8 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
 }
 
 @media print {
-  .hover-tooltip {
+  .hover-tooltip,
+  .side-lower {
     display: none;
   }
 }
