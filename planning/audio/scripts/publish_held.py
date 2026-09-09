@@ -13,11 +13,13 @@ def holes(path):
         if m: out.append({"a": float(m.group(2)), "b": float(m.group(3)), "sec": float(m.group(4)), "why": (m.group(1) or 'между словами') + m.group(5).split(':')[0]})
     return out
 tot = dict(pub=0, src={}, skipped=0)
-for d in sorted(glob.glob(f'{SONGS}/*/held')):
-    sd = os.path.dirname(d); p = os.path.basename(sd)
+# все записи песни без файла на сайте (не только удержанные: у части записей финальный файл не создался — «НЕТ ФАЙЛА» у ворот)
+for sd in sorted(glob.glob(f'{SONGS}/*/')):
+    sd = sd.rstrip('/'); p = os.path.basename(sd)
     if prefixes and p not in prefixes: continue
-    for h in sorted(glob.glob(f'{d}/{p}-*.json')):
-        v = os.path.basename(h)[len(p) + 1:-5]
+    if not os.path.exists(f'{sd}/vids.txt'): continue
+    for v in open(f'{sd}/vids.txt').read().split():
+        h = f'{sd}/held/{p}-{v}.json'
         if os.path.exists(f'{APP}/{p}-{v}.json'): tot['skipped'] += 1; continue
         cands = [('удержанная', h, holes(f'{sd}/holes_{v}.txt')), ('чистый свой', f'{sd}/own/{p}-{v}.json', holes(f'{sd}/own/holes_pure_{v}.txt')),
                  ('спасение по своему маршруту', f'{sd}/rescue/{p}-{v}.json', holes(f'{sd}/rescue/holes_{v}.txt'))]
