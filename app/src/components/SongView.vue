@@ -9,7 +9,7 @@ import { renderText } from '../utils/renderText.js'
 import { lastEnd, sliceRanges } from '../utils/ranges.js'
 import { playback, seekTo } from '../utils/playback.js'
 import { getTiming, buildWordIndex, findWordAt, findWordStart } from '../utils/timings.js'
-import { mapWordsToSegments } from '../utils/lineTokens.js'
+import { mapWordsToSegments, normWord } from '../utils/lineTokens.js'
 
 const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
@@ -501,11 +501,24 @@ const segMaps = computed(() => {
   )
 })
 
-function sungSegment(si, li) {
+// Сегмент подстрочника для пропеваемого слова. Если в этой записи на позиции спето другое слово (variants таймингов):
+// слово редакторского варианта (variant_de) — подсвечивается его этаж; другое слово той же строки (перестановка) — сегмент того слова.
+function sungSegInfo(si, li) {
+  const none = { i: -1, variant: false }
   const k = activeWordIn(si, li)
-  if (k < 0 || !segMaps.value) return -1
+  if (k < 0 || !segMaps.value) return none
   const map = segMaps.value[si] && segMaps.value[si][li]
-  return map && k < map.length ? map[k] : -1
+  const base = map && k < map.length ? map[k] : -1
+  const sw = sungWordsIn(si, li)
+  const heard = sw && sw[k] != null ? normWord(sw[k]) : null
+  if (heard) {
+    const segs = (song.value.stanzas[si].lines_ru[li] || {}).segments || []
+    const vi = segs.findIndex(sg => sg.variant_de && normWord(sg.variant_de) === heard)
+    if (vi >= 0) return { i: vi, variant: true }
+    const pi = segs.findIndex(sg => String(sg.de || '').replace(/(\.\.\.|…)/g, ' ').split(/\s+/).some(part => normWord(part) === heard))
+    if (pi >= 0) return { i: pi, variant: false }
+  }
+  return { i: base, variant: false }
 }
 
 // Клик по слову — перемотка записи на его начало (с небольшим упреждением, чтобы слышать атаку)
@@ -664,7 +677,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
           v-for="(lineRu, li) in stanza.lines_ru"
           :key="li"
           class="line-pair"
-          :class="{ 'with-variant': lineRu.segments.some(s => s.variant_ru || s.variant_de) }"
+          :class="{ 'with-variant': lineRu.segments.some(s => s.variant_ru || s.variant_de) || !!sungWordsIn(si, li) }"
           :data-line="`${si}-${li}`"
         >
           <div class="col-de">
@@ -685,7 +698,8 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
               :ann-key-prefix="`${si}-${li}`"
               :inherited-annotations="getInheritedAnnotations(si, li)"
               :hovered-ann-key="highlightKey"
-              :sung-segment="sungSegment(si, li)"
+              :sung-segment="sungSegInfo(si, li).i"
+              :sung-variant="sungSegInfo(si, li).variant"
               :clickable="syncActive"
               :show-annotations="showAnnotations"
               :show-lang="showLang"

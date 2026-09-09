@@ -34,9 +34,10 @@ export function tokenizeLine(text, variant) {
   return tokens
 }
 
-function norm(w) {
-  return w.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '')
+export function normWord(w) {
+  return String(w || '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '')
 }
+const norm = normWord
 
 // Для каждого слова строки — индекс сегмента подстрочника, в чьём de оно стоит (или -1).
 // Сегменты идут в порядке русского текста; «Ist... vergällt» — разрывный сегмент из двух слов.

@@ -4,6 +4,8 @@ import FootnoteMark from './FootnoteMark.vue'
 import { inRanges, lastEnd } from '../utils/ranges.js'
 
 const props = defineProps({
+  // сегмент подсвечивается как исполняемый вариант: подсвечен этаж variant_ru, а не основное слово
+  sungVariant: { type: Boolean, default: false },
   line: Object,
   annNumberMap: { type: Map, default: () => new Map() },
   inheritedAnnotations: { type: Array, default: () => [] },
@@ -138,7 +140,8 @@ const segmentInfo = computed(() => {
       :class="{
         annotated: info.annKeys.some(a => isVisible(a)),
         'sync-clickable': clickable,
-        sung: i === sungSegment,
+        sung: i === sungSegment && !sungVariant,
+        'sung-variant': i === sungSegment && sungVariant,
         'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang' && !a.isVariant && isVisible(a)),
         'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning' && !a.isVariant && isVisible(a)),
         'highlighted-variant':
@@ -247,6 +250,12 @@ const segmentInfo = computed(() => {
   border-radius: 2px;
   padding: 0 2px;
   margin: 0 -2px;
+}
+
+.segment.sung-variant .variant-ru {
+  background: var(--highlight-sung);
+  box-shadow: 0 0 0 2px var(--highlight-sung);
+  border-radius: 3px;
 }
 
 .segment.highlighted-variant.highlighted-lang .variant-ru {
