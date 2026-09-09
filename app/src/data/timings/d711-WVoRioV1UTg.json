@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 0,
-   "l": 9,
-   "k": 2,
-   "w": "Sinne",
-   "heard": "Singen",
-   "start": 52.86
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -514,5 +505,15 @@
    ]
   }
  ],
- "anchored": 81
+ "anchored": 81,
+ "variant_candidates": [
+  {
+   "s": 0,
+   "l": 9,
+   "k": 2,
+   "w": "Sinne",
+   "heard": "Singen",
+   "start": 52.86
+  }
+ ]
 }

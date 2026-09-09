@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 1,
-   "l": 8,
-   "k": 0,
-   "w": "Blüht",
-   "heard": "Blüter",
-   "start": 138.98
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -522,5 +513,15 @@
    ]
   }
  ],
- "anchored": 92
+ "anchored": 92,
+ "variant_candidates": [
+  {
+   "s": 1,
+   "l": 8,
+   "k": 0,
+   "w": "Blüht",
+   "heard": "Blüter",
+   "start": 138.98
+  }
+ ]
 }
