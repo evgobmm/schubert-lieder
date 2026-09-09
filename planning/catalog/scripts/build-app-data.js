@@ -30,9 +30,31 @@ const displayPoet = p => {
   }).join(', ');
 };
 
-const displayYear = c => {
-  const m = (c.date_sd || '').match(/(\d{4})/) || (c.year_nsa || '').match(/(\d{4})/);
-  return m ? m[1] : '';
+// Год под заголовком: первый год датировки schubert-digital (date_sd), иначе год NSA.
+// Год не должен противоречить разделу, в котором песня стоит (сетка разделов утверждена):
+// если первый год date_sd вне раздела (широкая или «vor …»-датировка) — берём год NSA, если он в разделе,
+// иначе показываем весь диапазон date_sd («1819–23»), в который раздел попадает.
+const secRange = title => {
+  const m = String(title || '').match(/(1[78]\d\d)(?:[–-](1[78]\d\d|\d\d))?/);
+  if (!m) return null;
+  const a = +m[1];
+  const b = m[2] ? (m[2].length === 2 ? +(m[1].slice(0, 2) + m[2]) : +m[2]) : a;
+  return [a, b];
+};
+const displayYear = (c, sec) => {
+  const sdYears = [...(c.date_sd || '').matchAll(/\b(1[78]\d\d)\b/g)].map(m => +m[1]);
+  const nsa = (c.year_nsa || '').match(/(1[78]\d\d)/);
+  const range = sec ? secRange(sec.title) : null;
+  const within = y => !range || (y >= range[0] && y <= range[1]);
+  const first = sdYears.length ? sdYears[0] : (nsa ? +nsa[1] : null);
+  if (first === null) return '';
+  if (within(first)) return String(first);
+  if (nsa && within(+nsa[1])) return nsa[1];
+  if (sdYears.length >= 2 && Math.min(...sdYears) !== Math.max(...sdYears)) {
+    const a = Math.min(...sdYears), b = Math.max(...sdYears);
+    return `${a}–${Math.floor(a / 100) === Math.floor(b / 100) ? String(b).slice(2) : b}`;
+  }
+  return String(first);
 };
 
 // Существующие записи (пилот) сохраняют свои файлы/переводы
@@ -58,7 +80,7 @@ for (const sec of sections) {
       number,
       d,
       title_de: c.title,
-      year: displayYear(c),
+      year: displayYear(c, sec),
       section: sec.id,
     };
     const poetDe = displayPoet(c.poet_full || '');
@@ -83,7 +105,7 @@ for (const sec of sections) {
       const songJson = {
         d,
         title_de: c.title,
-        year: displayYear(c),
+        year: displayYear(c, sec),
         text_only: true,
         source: 'OpenScore Lieder Corpus (CC0)',
         stanzas: fmtByD[d].map(lines => ({ lines_de: lines })),
