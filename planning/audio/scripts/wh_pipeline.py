@@ -207,9 +207,10 @@ def run_match(W):
         ws=[W[sung[k]['wi']] for k in p['idx']]
         weak=2*sum(1 for w in ws if w['p']<0.35 or w['end']-w['start']<0.05)>=len(ws)   # Whisper сам не верит (p<0.35) или таймкоды слиплись — нужна сильная акустика
         phantom=(mass<0.8*L) if weak else (not sung_evidence(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2,L,mass))   # слабый проход — только по массе
-        if not phantom and 2*sum(1 for w in ws if w.get('retr'))>=len(ws):
-            # проход из дораспознанных слов (окно без слов Whisper): Whisper в куске тянущейся ноты «слышит» повтор начала строки
-            # (D 39, Рот: «einer Tempelhalle» поверх «Am Musenhain») — нужен декод CTC, похожий на текст прохода
+        _partial_rep=q>0 and _ps[q-1]['line']==p['line'] and len(p['idx'])<len([t for t in range(N) if TIDX[t][:2]==tuple(p['line'])])   # частичный повтор той же строки
+        if not phantom and (2*sum(1 for w in ws if w.get('retr'))>=len(ws) or _partial_rep):
+            # проход из дораспознанных слов (окно без слов Whisper) или частичный повтор строки («Tempel, Schwellhalle» -> повтор «Tempelhalle»):
+            # Whisper на тянущейся ноте «слышит» повтор начала строки (D 39, Рот) — нужен декод CTC, похожий на текст прохода
             _dc=_greedyB(t0,t1); _tx=_fold_txt(' '.join(TW[sung[k]['t']] for k in p['idx']))
             from rapidfuzz.distance import Levenshtein as _Lv
             _sim=1-_Lv.normalized_distance(_dc,_tx) if _dc and _tx else 0.0

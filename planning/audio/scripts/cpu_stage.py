@@ -49,6 +49,7 @@ def finish_song(spec: dict, vids: list, lang: str) -> dict:
     out_app = pathlib.Path(f"{R}/app/src/data/timings"); out_app.mkdir(parents=True, exist_ok=True)
     for f in out_app.glob(f"{prefix}-*.json"): f.unlink()                                       # чистый старт: без прежних файлов этой песни в образе
     env = {**os.environ, "OMP_NUM_THREADS": "2", "APP": str(out_app), "LANG": "C.UTF-8", "LC_ALL": "C.UTF-8", "PYTHONIOENCODING": "utf-8"}   # скрипты печатают по-русски
+    if spec.get("debug"): env["DEBUG_PASSES"] = "1"; env["DEBUG_RETR"] = "1"                   # разбор одной песни: диагностика проходов и окон в finish.log
     # проход 1: свои маршруты + окна без распознанных слов
     r1 = subprocess.run(["bash", f"{SPC}/tools/test_run.sh", str(songdir / "spec.json"), str(songdir / "own"), *vids],
                         cwd=songdir, env={**env, "RETRANSCRIBE": "collect"}, capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -71,13 +72,14 @@ def finish_song(spec: dict, vids: list, lang: str) -> dict:
             p = sp / "align" / f"wh_{v}.json"; wh = [s for s in json.load(open(p)) if not s.get("retr")] + segs; wh.sort(key=lambda s: s["start"])
             if p.is_symlink(): p.unlink()
             json.dump(wh, open(p, "w"), ensure_ascii=False)                                     # локальная копия транскрипта с дораспознанными словами
+            (songdir / "own" / f"wh_{v}").mkdir(parents=True, exist_ok=True); json.dump(wh, open(songdir / "own" / f"wh_{v}" / "wh_merged.json", "w"), ensure_ascii=False)   # для разбора
     # проход 2: сборка (консенсус, починка/запасной, фильтр вариантов, ворота)
     r2 = subprocess.run(["bash", f"{SPC}/tools/finish_control.sh", str(songdir)], cwd=songdir, env={**env, "RETRANSCRIBE": "0"}, capture_output=True, text=True, encoding="utf-8", errors="replace")
     out = {"prefix": prefix, "seconds": round(time.time() - t0), "windows": len(wins), "retr_words": retr_words, "missing": missing,
            "log": ("".join(f"{v}: НЕТ ДАННЫХ GPU-стадии (не скачано или обрыв) — запись пропущена\n" for v in missing)) + r2.stdout + ("\n" + r2.stderr if r2.returncode else ""),
            "pass1": r1.stdout[-3000:], "site": {}, "song": {}}
     for f in out_app.glob(f"{prefix}-*.json"): out["site"][f.name] = f.read_text(encoding="utf-8")
-    for pat in ("holes_*.txt", "decisions.txt", "route_consensus.json", "own/wh_*/ts_wh_*.json", "own/*.json", "held/*.json", "fb_*/ts.json"):
+    for pat in ("holes_*.txt", "decisions.txt", "route_consensus.json", "own/wh_*/ts_wh_*.json", "own/wh_*/retr_windows.json", "own/wh_*/wh_merged.json", "own/*.json", "held/*.json", "fb_*/ts.json"):
         for f in songdir.glob(pat): out["song"][str(f.relative_to(songdir))] = f.read_text(encoding="utf-8", errors="replace")
     return out
 
