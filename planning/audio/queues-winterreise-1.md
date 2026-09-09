@@ -265,8 +265,8 @@
 ### Mattei — Nilsson 2018 (`louDDB1zeGE`) — починка; проходов 30; в очереди 30 слов
 1.3 versteckte @29.6, 1.3 Suche @39.1, 1.4 verschneite @48.6, 2.2 Dass @63.0, 3.4 Ruh'. @147.9, 4.2 vor @162.4, 4.1 Einen @188.5, 4.1 Weiser @189.2, 4.1 seh' @190.0, 4.1 ich @191.0, 4.1 stehen @191.9, 4.2 Unverrückt @193.9, 4.2 vor @195.6, 4.2 meinem @196.1, 4.2 Blick; @197.3, 4.3 Eine @199.5, 4.3 Straße @199.9, 4.3 muss @201.4, 4.3 ich @202.1, 4.3 gehen, @202.7, 4.4 Die @204.8, 4.4 noch @205.2, 4.4 Keiner @205.8, 4.4 ging @209.0, 4.4 zurück. @209.2, 4.4 Die @209.5, 4.4 noch @209.5, 4.4 Keiner @210.0, 4.4 ging @210.4, 4.4 zurück. @211.4
 
-### Fischer-Dieskau — Moore 1962 (`G6bUhKUxrE8`) — запасной; проходов 30; в очереди 0 слов
-—
+### Fischer-Dieskau — Moore 1962 (`G6bUhKUxrE8`) — свой; проходов 22; в очереди 54 слов
+1.4 verschneite @50.5, 2.2 Dass @65.8, 2.2 scheun @74.8, 2.4 Treibt @88.4, 2.4 mich @89.9, 2.4 in @90.4, 2.4 die @91.1, 2.4 Wüsteneien? @91.8, 3.1 Wegen, @119.6, 3.2 zu, @125.5, 3.3 Und @130.0, 3.3 ich @130.4, 3.3 wandre @130.6, 3.3 sonder @132.0, 3.3 Maßen, @133.4, 3.4 Ohne @135.5, 3.4 Ruh', @136.2, 3.4 und @137.1, 3.4 suche @137.6, 3.4 Ruh'. @139.2, 3.3 Und @141.3, 3.3 ich @141.7, 3.3 wandre @142.0, 3.3 sonder @143.3, 3.3 Maßen, @144.7, 3.4 Ohne @146.8, 3.4 Ruh', @147.5, 3.4 und @148.3, 3.4 suche @148.9, 3.4 Ruh', @150.4, 3.4 und @151.2, 3.4 suche @151.9, 3.4 Ruh'. @153.5, 4.2 vor @169.2, 4.1 Einen @198.0, 4.1 Weiser @198.9, 4.1 seh' @200.5, 4.1 ich @201.4, 4.1 stehen @202.1, 4.2 Unverrückt @204.6, 4.2 vor @206.1, 4.2 meinem @206.7, 4.2 Blick; @206.9, 4.3 Eine @207.5, 4.3 Straße @207.8, 4.3 muss @208.1, 4.3 ich @208.3, 4.3 gehen, @208.5, 4.4 Die @210.8, 4.4 Die @214.8, 4.4 noch @217.6, 4.4 Keiner @218.1, 4.4 ging @223.3, 4.4 zurück. @224.2
 
 ### Anders — Raucheisen 1945 (`D8JqwfVs0QQ`) — свой; проходов 30; в очереди 9 слов
 1.1 Wege, @17.6, 1.4 verschneite @48.7, 3.1 Wegen, @111.8, 4.1 Weiser @154.4, 4.2 vor @161.6, 4.1 Einen @190.4, 4.1 seh' @192.9, 4.2 vor @198.4, 4.4 noch @221.7
