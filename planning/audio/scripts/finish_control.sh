@@ -27,11 +27,15 @@ for v in $VIDS; do
     cp "$APP/$PREFIX-$v.json" "own/keep_$v.json"; cp "holes_$v.txt" "own/keep_holes_$v.txt"
     # надёжный свой маршрут (якорей >= 70 % его слов) -> CTC-выравнивание по НЕМУ, а не по консенсусу: консенсус навязывает записи
     # чужую структуру (D 5, Мельцер: строки, которых певец не поёт, втиснуты в 3 с — «ужасно»); по консенсусу — только при слабом Whisper
-    RT=route_consensus.json; $PY - "own/$PREFIX-$v.json" "own/route_own_$v.json" <<'PY' && RT="own/route_own_$v.json"
-import json,sys; t=json.load(open(sys.argv[1])); w=[x for p in t['route'] for x in p['w'] if x]; a=t.get('anchored') or 0
-r=[{"s":p['s'],"l":p['l'],"k":[k for k,x in enumerate(p['w']) if x]} for p in t['route']]; r=[p for p in r if p['k']]
-ok=len(w)>=10 and a>=0.7*len(w) and r
-if ok: json.dump(r,open(sys.argv[2],'w'))
+    RT=route_consensus.json; $PY - "own/keep_$v.json" "own/$PREFIX-$v.json" "own/route_own_$v.json" route_consensus.json "$(grep "^$v " decisions.txt)" <<'PY' && RT="own/route_own_$v.json"
+import json,sys; cur=json.load(open(sys.argv[1])); own=json.load(open(sys.argv[2])); cons=json.load(open(sys.argv[4])); dec=sys.argv[5]
+w=[x for p in own['route'] for x in p['w'] if x]; a=own.get('anchored') or 0; cw=sum(len(p['k']) for p in cons)
+r=[{"s":p['s'],"l":p['l'],"k":[k for k,x in enumerate(p['w']) if x]} for p in cur['route']]; r=[p for p in r if p['k']]   # маршрут ТЕКУЩЕЙ версии (свой с починкой)
+rw=sum(len(p['k']) for p in r)
+# надёжный Whisper (якорей >= 70 % своих слов) И маршрут не беднее консенсуса (>= 80 % его слов) — либо запись-фрагмент; иначе Whisper
+# пропустил повторы, и запасной путь по такому маршруту потерял бы спетые слова (регресс на выборке: 139 -> 98 слов)
+ok=len(w)>=10 and a>=0.7*len(w) and r and 'фрагмент' in dec   # только фрагменты: консенсус навязал бы им чужой полный текст; остальным — консенсус, выбор по дырам (сжатие строк теперь считается дырой)
+if ok: json.dump(r,open(sys.argv[3],'w'))
 sys.exit(0 if ok else 1)
 PY
     echo "$v: запасной путь по $([ "$RT" = route_consensus.json ] && echo консенсусу || echo 'своему маршруту (Whisper надёжен)')"

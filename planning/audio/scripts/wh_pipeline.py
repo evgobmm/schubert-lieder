@@ -220,13 +220,13 @@ def run_match(W):
             _dc=_greedyB(t0,min(t1,t0+max(2.0,win))); _tx=_fold_txt(' '.join(TW[sung[k]['t']] for k in p['idx']))
             if _dc and _tx and _fz.partial_ratio(_tx,_dc)>=60: phantom=False; print(f"слабый проход оставлен по декоду: {' '.join(TW[sung[k]['t']] for k in p['idx'])!r} в {t0:.1f}–{t1:.1f} ({_fz.partial_ratio(_tx,_dc)})")
         _partial_rep=q>0 and _ps[q-1]['line']==p['line'] and len(p['idx'])<len([t for t in range(N) if TIDX[t][:2]==tuple(p['line'])])   # частичный повтор той же строки
-        if not phantom and (2*sum(1 for w in ws if w.get('retr'))>=len(ws) or (_partial_rep and weak)):   # уверенный частичный повтор с массой — настоящий (D 23, Яновиц)
+        if not phantom and 2*sum(1 for w in ws if w.get('retr'))>=len(ws):   # только дораспознанные проходы: частичные повторы с массой — настоящие (D 23 Яновиц, D 839 «Ave Maria» на выборке)
             # проход из дораспознанных слов (окно без слов Whisper) или частичный повтор строки («Tempel, Schwellhalle» -> повтор «Tempelhalle»):
             # Whisper на тянущейся ноте «слышит» повтор начала строки (D 39, Рот) — нужен декод CTC, похожий на текст прохода
             _dc=_greedyB(t0,t1); _tx=_fold_txt(' '.join(TW[sung[k]['t']] for k in p['idx']))
             from rapidfuzz.distance import Levenshtein as _Lv
             _sim=1-_Lv.normalized_distance(_dc,_tx) if _dc and _tx else 0.0
-            if _sim<0.45: phantom=True; print(f"дораспознанный проход отброшен: {' '.join(TW[sung[k]['t']] for k in p['idx'])!r} в {t0:.1f}–{t1:.1f}, декод {_dc[:30]!r}, сходство {_sim:.2f}")
+            if _sim<0.45 and voice_mean(t0,min(t1,t0+max(2.0,win)))<0.5: phantom=True; print(f"дораспознанный проход отброшен: {' '.join(TW[sung[k]['t']] for k in p['idx'])!r} в {t0:.1f}–{t1:.1f}, декод {_dc[:30]!r}, сходство {_sim:.2f}")
         if _dbgp: print(f"  проход {p['line'][0]}:{p['line'][1]} {' '.join(TW[sung[k]['t']] for k in p['idx'])!r:40s} окно {t0:6.1f}–{t1:6.1f} ({win:4.1f} с) букв {L:2d} масса {mass:5.1f}{' слабый' if weak else ''} {'ФАНТОМ' if phantom else ''}")
         if phantom: _drop|=set(p['idx'])
     if _drop: print("отброшено фантомных повторов Whisper:",len([p for p in _ps if set(p['idx'])<=_drop]),"проходов —"," ".join(f"{TW[sung[k]['t']]}@{W[sung[k]['wi']]['start']:.1f}" for k in sorted(_drop)))
@@ -255,7 +255,11 @@ if _RMODE in ('1','collect'):
         _fr=[f for f in range(int(lo/0.02),min(len(_PB[0]),int(hi/0.02))) if 1-_PB[0][f]>0.5]   # кадры с буквами языкового движка
         if len(_fr)<6: continue
         lo2,hi2=max(lo,_fr[0]*0.02-0.25),min(hi,_fr[-1]*0.02+0.25)
-        if len(set(_greedyB(lo2,hi2))-set('aeiouy'))<3: continue   # тянущаяся гласная предыдущего слова, не новые слова — окно не нужно
+        # окно внутри тянущейся ноты предыдущего слова (D 39: «Musenhain») — не новые слова: между концом слова и буквами окна нет провала
+        # голоса (>= 150 мс ниже 0,25 опорной); настоящий повтор/новая фраза отделены вздохом. Прежняя проверка по согласным декода
+        # глушила окна сопрано («Ave Maria», D 839) — декод там пуст
+        _dip=int((_V[int(lo*100):int(lo2*100)]<0.25).sum()) if lo2>lo else 0
+        if lo>0.0 and _dip<15: continue
         while hi2-lo2>15.0:   # длинные промежутки — кусками ~8–13 с, разрез посреди самой длинной паузы (бланки) в этом диапазоне, без наложения
             f0,f1=int((lo2+8.0)/0.02),int((lo2+13.0)/0.02); best=(0,f0); run=0
             for f in range(f0,f1):
@@ -565,10 +569,10 @@ for p_ in _passes(sung):
     if not mapping or all(mapping[k]==sung[k]['t'] for k in idx): continue
     if min(W[sung[k]['wi']]['p'] for k in idx)<0.5: continue
     for k in idx:
-        if mapping[k]!=sung[k]['t']:
+        if mapping[k]!=sung[k]['t'] and _fold_txt(TW[mapping[k]])!=_fold_txt(TW[sung[k]['t']]):   # то же слово на другой позиции («Vater, Vater») — не вариант
             core=TW[mapping[k]]; core=re.sub(r'^[^\w]+|[^\w]+$','',core); tail=re.search(r'[^\w]*$',TW[sung[k]['t']]).group(0)
             sung[k]['var']=core+tail; sung[k]['perm']=True
-    print(f"перестановка слов в строке {p_['line'][0]}:{p_['line'][1]}: {' '.join(TW[sung[k]['t']] for k in idx)!r} -> спето {' '.join(TW[mapping[k]] for k in idx)!r}")
+    if any(sung[k].get('perm') for k in idx): print(f"перестановка слов в строке {p_['line'][0]}:{p_['line'][1]}: {' '.join(TW[sung[k]['t']] for k in idx)!r} -> спето {' '.join(TW[mapping[k]] for k in idx)!r}")
 kept=0
 for k,s_ in enumerate(sung):
     if not s_['var'] or s_.get('perm'): continue

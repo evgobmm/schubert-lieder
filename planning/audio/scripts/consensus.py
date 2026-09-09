@@ -11,11 +11,20 @@ import unicodedata
 def _has_letters(w): return any(c.isalpha() for c in unicodedata.normalize('NFD',w))
 def lettered(s,l): return [k for k,w in enumerate(song['stanzas'][s]['lines_de'][l].split()) if _has_letters(w)]   # индексы слов с буквами (тире — не слово)
 def nwords(s,l): return len(lettered(s,l))
-routes={}; anchors={}; ownw={}
+routes={}; anchors={}; ownw={}; dur={}
+try:
+    import soundfile as _sf
+    _AUD=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(DIR))) if os.path.isabs(DIR) else os.getcwd(), '..', '..', 'audio')
+except Exception: _sf=None
 for v in vids:
     t=json.load(open(f'{DIR}/{PREFIX}-{v}.json'))
     routes[v]=[(p['s'],p['l'],tuple(k for k,x in enumerate(p['w']) if x and k in lettered(p['s'],p['l']))) for p in t['route']]
     anchors[v]=t.get('anchored',0); ownw[v]=sum(1 for p in t['route'] for x in p['w'] if x)
+    dur[v]=None
+    for cand in (f'/root/sp/audio/{v}_voc.wav', os.path.join(os.getcwd(),'..','..','audio',f'{v}_voc.wav'), os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(f'{DIR}/{PREFIX}-{v}.json')))),'..','audio',f'{v}_voc.wav')):
+        if _sf and os.path.exists(cand):
+            try: dur[v]=_sf.info(cand).duration; break
+            except Exception: pass
 cons=[]; report=[]
 for st in range(S):
     seqs={v:tuple((l,k) for s_,l,k in r if s_==st) for v,r in routes.items()}
@@ -38,8 +47,12 @@ for v,r in routes.items():
     # (певец поёт меньше строф или запись обрезана): публикуется как свой. Раньше доля считалась от слов консенсуса, и фрагмент уходил
     # на запасной путь, растягивавший полный текст на короткую запись (D 399, Фишер-Дискау: 4 строфы на 90 с одной).
     rel=anchors[v]/ownw[v] if ownw.get(v) else 0
+    # фрагмент — только если запись и по длительности заметно короче самой длинной записи песни (< 70 %): иначе короткий свой маршрут —
+    # это Whisper пропустил строфу (D 839 «Ave Maria» на выборке: тихое «Wir schlafen sicher…»), и запись нельзя лишать текста
+    short_dur = (dur.get(v) is None) or (dur[v] < 0.7 * max(x for x in dur.values() if x))
     if same: dec[v]='свой'
-    elif rel>=0.7 and ownw[v]>=10 and ownw[v]<0.8*cw: dec[v]=f'свой фрагмент: спето {ownw[v]} из {cw} слов консенсуса'
+    elif rel>=0.7 and ownw[v]>=10 and ownw[v]<0.8*cw and short_dur: dec[v]=f'свой фрагмент: спето {ownw[v]} из {cw} слов консенсуса, длительность {dur.get(v) and round(dur[v])} с'
+    elif rel>=0.7 and ownw[v]>=10 and ownw[v]<0.8*cw and not short_dur: dec[v]='починка'   # длинная запись с коротким маршрутом — Whisper недослышал, добираем по консенсусу
     elif share>=0.6: dec[v]='починка'
     else: dec[v]='запасной'   # структура своя (певец повторяет иначе, чем большинство) — не повод навязывать консенсус: починка лишь добавляет недостающие проходы по звуку
     print(f"  {v}: {'совпадает с консенсусом' if same else ('не хватает проходов: '+' '.join(' '.join(b[o[3]:o[4]]) for o in ops) if subseq else 'иная структура: '+' '.join(f'{o[0]} {a[o[1]:o[2]]}->{b[o[3]:o[4]]}' for o in ops))}; якорей Whisper {anchors[v]} из {cw} слов ({share:.0%}) -> {dec[v].upper()}")

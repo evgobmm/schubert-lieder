@@ -78,3 +78,12 @@ for i in range(len(flat)-1):
 if len(flat)>=20:
     _span=flat[-1][1]-flat[0][0]; _dens=len(flat)/max(_span,1e-6)
     if _dens>4.0: print(f"дыра (сжатие текста) {flat[0][0]:.1f}–{flat[-1][1]:.1f} ({_span:.1f} с): {len(flat)} слов за {_span:.0f} с — {_dens:.1f} слов/с")
+# сжатие строки: проход из >= 5 слов, спетых быстрее 6 слов/с — текст втиснут туда, где его не поют (D 5, Мельцер: 26 слов за 3 с)
+try:
+    _t=json.load(open(SITE))
+    for _ps in _t['route']:
+        _iv=[x for x in _ps['w'] if x]
+        if len(_iv)>=5:
+            _sp=_iv[-1][1]-_iv[0][0]
+            if _sp>0 and len(_iv)/_sp>6.0: print(f"дыра (сжатие строки) {_iv[0][0]:.1f}–{_iv[-1][1]:.1f} ({_sp:.1f} с): {len(_iv)} слов строки {_ps['s']}:{_ps['l']} за {_sp:.1f} с")
+except Exception as _e: pass
