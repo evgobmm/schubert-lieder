@@ -41,6 +41,17 @@ if _bad: print(f"отброшено служебных галлюцинаций 
 def _blankpost(empt):
     d=torch.load(empt); em=d['emission']; return torch.softmax(em,-1)[:,d.get('blank',0)].numpy()
 _PB=[_blankpost(EM_B)]
+def _mk_greedy(empt):
+    d=torch.load(empt); em=d['emission']; lab=list(d['labels'])[:em.shape[1]]; bl=d.get('blank',0); ids=em.argmax(-1).tolist()
+    def f(a,b):
+        o='';prev=None
+        for k_ in ids[max(0,int(a/0.02)):int(b/0.02)]:
+            if k_!=prev and k_!=bl and len(lab[k_])==1 and lab[k_].isalpha(): o+=lab[k_].lower()
+            prev=k_
+        return o.replace('ä','a').replace('ö','o').replace('ü','u')
+    return f
+_greedyB=_mk_greedy(EM_B)   # жадный декод языкового движка в интервале (буквы без повторов)
+def _fold_txt(t): return re.sub(r'[^a-z]','',unicodedata.normalize('NFD',t.lower().replace('ß','ss').replace('ä','a').replace('ö','o').replace('ü','u')).encode('ascii','ignore').decode())
 def letter_mass(a,b):
     f0=max(0,int(a/0.02)); f1=int(b/0.02)
     return max(float((1-pb[f0:f1]).sum()) for pb in _PB) if f1>f0 else 0.0
@@ -196,6 +207,13 @@ def run_match(W):
         ws=[W[sung[k]['wi']] for k in p['idx']]
         weak=2*sum(1 for w in ws if w['p']<0.35 or w['end']-w['start']<0.05)>=len(ws)   # Whisper сам не верит (p<0.35) или таймкоды слиплись — нужна сильная акустика
         phantom=(mass<0.8*L) if weak else (not sung_evidence(t0,(t1-max(0.25,0.3*win)) if win>0.5 else t0+win/2,L,mass))   # слабый проход — только по массе
+        if not phantom and 2*sum(1 for w in ws if w.get('retr'))>=len(ws):
+            # проход из дораспознанных слов (окно без слов Whisper): Whisper в куске тянущейся ноты «слышит» повтор начала строки
+            # (D 39, Рот: «einer Tempelhalle» поверх «Am Musenhain») — нужен декод CTC, похожий на текст прохода
+            _dc=_greedyB(t0,t1); _tx=_fold_txt(' '.join(TW[sung[k]['t']] for k in p['idx']))
+            from rapidfuzz.distance import Levenshtein as _Lv
+            _sim=1-_Lv.normalized_distance(_dc,_tx) if _dc and _tx else 0.0
+            if _sim<0.45: phantom=True; print(f"дораспознанный проход отброшен: {' '.join(TW[sung[k]['t']] for k in p['idx'])!r} в {t0:.1f}–{t1:.1f}, декод {_dc[:30]!r}, сходство {_sim:.2f}")
         if _dbgp: print(f"  проход {p['line'][0]}:{p['line'][1]} {' '.join(TW[sung[k]['t']] for k in p['idx'])!r:40s} окно {t0:6.1f}–{t1:6.1f} ({win:4.1f} с) букв {L:2d} масса {mass:5.1f}{' слабый' if weak else ''} {'ФАНТОМ' if phantom else ''}")
         if phantom: _drop|=set(p['idx'])
     if _drop: print("отброшено фантомных повторов Whisper:",len([p for p in _ps if set(p['idx'])<=_drop]),"проходов —"," ".join(f"{TW[sung[k]['t']]}@{W[sung[k]['wi']]['start']:.1f}" for k in sorted(_drop)))
@@ -224,6 +242,7 @@ if _RMODE in ('1','collect'):
         _fr=[f for f in range(int(lo/0.02),min(len(_PB[0]),int(hi/0.02))) if 1-_PB[0][f]>0.5]   # кадры с буквами языкового движка
         if len(_fr)<6: continue
         lo2,hi2=max(lo,_fr[0]*0.02-0.25),min(hi,_fr[-1]*0.02+0.25)
+        if len(set(_greedyB(lo2,hi2))-set('aeiouy'))<3: continue   # тянущаяся гласная предыдущего слова, не новые слова — окно не нужно
         while hi2-lo2>15.0:   # длинные промежутки — кусками ~8–13 с, разрез посреди самой длинной паузы (бланки) в этом диапазоне, без наложения
             f0,f1=int((lo2+8.0)/0.02),int((lo2+13.0)/0.02); best=(0,f0); run=0
             for f in range(f0,f1):
