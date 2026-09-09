@@ -29,6 +29,8 @@ for d, lst in perf.items():
         if not (os.path.exists(tf) and total0): return True
         return len({ps['s'] for ps in json.load(open(tf))['route']}) < total0
     full = [x for x in lst if not is_frag(x)]; part = [x for x in lst if is_frag(x)]
+    for x in full:
+        if 'fragment' in x: x.pop('fragment'); changed_perf += 1   # устаревшая пометка у записи, которая больше не фрагмент
     if not part:
         for x in lst:
             if 'fragment' in x: x.pop('fragment'); changed_perf += 1
