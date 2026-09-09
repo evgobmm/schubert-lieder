@@ -1,0 +1,35 @@
+> **Отбор для «Зимнего пути» закрыт** (указание пользователя 2026-09-09: «топ 5 исполнителей для зимнего пути мы уже сделали, это менять не надо»).
+> Пятёрка в `app/src/data/performances.json` остаётся как есть; этот файл — только опора для раздела «Как это поют».
+> Рекомендации о заменах, если они ниже встречаются, НЕ выполнять.
+
+# Einsamkeit (D 911/12, Winterreise №12) — отбор топ-5 исполнений
+
+Дата: 2026-09-09. Формат: **аудит уже опубликованной пятёрки** (в `app/src/data/performances.json` под ключом `"911/12"` пять записей стоят без файла-обоснования — Winterreise по правилу переносится из референса, а не пересматривается заново; здесь — проверка фактов по каждой записи, а не отбор с нуля). Правило: `docs/rules/youtube-performances.md`. Видео проверены `yt-check.js` (oEmbed, 9.09.2026): все 5 живы, встраиваемы, официальные «— Topic»-каналы, названия треков подтверждают «No. 12, Einsamkeit» (правильная песня, не другой Winterreise-номер).
+
+## Действующая пятёрка (performances.json) — проверка по одной записи
+
+1. **Thomas Quasthoff — Charles Spencer**, RCA Red Seal 09026 63147 2. Год в performances.json — **1997** (json), но дискографически сессия документирована как **1998**: Discogs-карточка релиза указывает точную дату студии — «Recorded February 18-22, 1998, at Studio van Geest, Sandhausen» (https://api.discogs.com/releases/8752021); MusicBrainz даёт дату выпуска «1998-10-05» (https://musicbrainz.org/release/f10034f7-5ebc-4122-a74d-35749ef90ca6). Собственных источников на «1997» не нашлось (внутренний дайджест певцов тоже даёт «RCA 1998» — `planning/research/singers-digest.md:6`). **Год в json нужно исправить на 1998** (год сессии, не выпуска — по правилу `youtube-performances.md`). Квасthoff — высший приоритет по правилу, его альбом Winterreise закрывает дискографию (ушёл из классики в 2012) — запись обоснованно возглавляет пятёрку. Видео Ogky0e8wNs8 (Thomas Quasthoff — Topic) — жив, название «Winterreise, D. 911: No. 12, Einsamkeit».
+2. **Fischer-Dieskau — Gerald Moore**, EMI (переизд. «Great Recordings of the Century», Abbey Road / Evangelisches Gemeindehaus Berlin-Zehlendorf). Год в json — **1962**, подтверждается точной сессионной датой Discogs: «Recorded 16,17.XI.1962» (https://api.discogs.com/releases/8348024). Это вторая (стереофоническая) из семи с лишним студийных версий цикла у Фишера-Дискау (дайджест: «EMI 1955, 1962 Moore; DG 1971…»,`singers-digest.md:7`) — общепризнанная эталонная версия свода EMI. Приоритет №2 по правилу. Видео e3vDkk6z5dU (Gerald Moore — Topic) — жив, название «Winterreise Op. 89: Einsamkeit».
+3. **Hans Hotter — Michael Raucheisen**, радиозаписи RRG (переизд. DG/Preiser). Год в json — **1942** — совпадает с внутренним фондом: «Winterreise DG 1942 (Raucheisen)» (`singers-digest.md:9`; также `planning/youtube/albums/male-recitalists.md:70`: «военные радиозаписи с Raucheisen (RRG, зап. 1942–45)»). Хоттеру 32–33, начало пика (~1942–1955 по дайджесту) — одна из самых ранних полных студийных Winterreise вообще. Видео VvKs6UuTCQU (Hans Hotter — Topic) — жив, название «Winterreise, Op. 89, D. 911: "Einsamkeit"».
+4. **Peter Anders — Michael Raucheisen**, радио RRG Берлин (переизд. DG/Tahra). Год в json — **1945** — совпадает с внутренним фондом: «Winterreise (радио RRG Берлин, янв.–март 1945, Raucheisen; переизд. DG/Tahra)» (`singers-digest.md:10`; тот же диапазон в `male-recitalists.md:83`). Андерсу 36–37, в пике (погиб в 1954 без спада формы). Видео 0QDthmxU6SI (Peter Anders — Topic) — жив, название «Winterreise, Op. 89, D.911.: No. 12, Einsamkeit».
+5. **Peter Mattei — Lars David Nilsson**, BIS-2444 (SACD, релиз 09/2019). Год в json — **2018** — подтверждается точной студийной справкой hraudio.net: «Recorded in November 2018 at Studio Acusticum, Pitea, Sweden, 24/96» (https://www.hraudio.net/showmusic.php?title=13897); Discogs даёт только год релиза «2019» (https://api.discogs.com/database/search?release_title=Winterreise&artist=Peter+Mattei — верно указывать год сессии, не выпуска). Приём прессы сильный и не рекламный: «Mattei brings intensity, individual approach to "Winterreise"» (New York Classical Review, https://newyorkclassicalreview.com/2020/02/mattei-brings-intensity-individual-approach-to-winterreise/); «Schubert's Winterreise etched to perfection…» (Seen and Heard International, о концерте в Carnegie Hall, https://seenandheard-international.com/2020/02/schuberts-winterreise-etched-to-perfection-by-peter-mattei-and-lars-david-nilsson-at-carnegie-hall/). Единственный кандидат на современный слот (2015+) в пятёрке. Видео 1PvQYXE9nso (Peter Mattei — Topic) — жив, название «Winterreise, Op. 89, D. 911: No. 12, Einsamkeit».
+
+## Итог проверки
+
+**По содержанию пятёрка правильная**: все 5 записей — действительно «Einsamkeit» D 911/12 в исполнении заявленных певцов и пианистов, все ролики живы и встраиваемы, происхождение каждой подтверждено дискографически (Discogs API / hraudio / внутренний фонд). Замен не требуется — **`replaced = 0`**.
+
+Найдены два расхождения с правилом, требующие правки (не в этом файле — `performances.json` менять запрещено по заданию; правки нужно внести отдельным шагом):
+
+1. **Год Квасthoffa неверен**: в json стоит 1997, дискографически сессия — **1998** (Discogs: «Recorded February 18-22, 1998»). Исправить `"year": 1997` → `"year": 1998` в записи Quasthoff.
+2. **Порядок нарушает строгую иерархию приоритетов** (`youtube-performances.md`: «1. Квасthoff — всегда №1; 2. затем Фишер-Дискау; 3. Шварцкопф; 4. прочие звёзды прошлого; 5. современные — между собой по качеству»). Сейчас в json порядок Quasthoff → **Mattei** → Fischer-Dieskau → Anders → Hotter — современная запись (Маттеи) стоит на месте №2, перед Фишером-Дискау и довоенными мастерами, что прямо противоречит правилу (современные должны идти последними, после всей группы «старых мастеров»). Корректный порядок по иерархии:
+   1. Quasthoff — Spencer, 1998 (высший приоритет);
+   2. Fischer-Dieskau — Moore, 1962 (приоритет №2);
+   3. Hotter — Raucheisen, 1942 (звезда прошлого; при сравнимом уровне с Андерсом — предпочтение более ранней записи по правилу «сходные по уровню — берём более раннюю»; специального сравнительного прослушивания двух версий в рамках этой проверки не проводилось — низкая уверенность именно в парном порядке Хоттер/Андерс, но то, что обе должны стоять выше Маттеи, — бесспорно);
+   4. Anders — Raucheisen, 1945 (звезда прошлого);
+   5. Mattei — Nilsson, 2018 (современная, единственная в слоте 2015+).
+
+   Возрастная структура пятёрки не меняется (3 записи до 1990: 1942, 1945, 1962; 2 записи 1990+: 1998, 2018; из них 1 запись 2015+: 2018) — правки касаются только позиций и одного значения `year`, не состава.
+
+## Отклонённых кандидатов не искал
+
+Задание — проверка уже отобранной пятёрки, а не отбор с нуля; полноценное картирование фонда конкурентов (другие версии Фишера-Дискау, Прегардиен, Герне, Бер, Шрайер и т.д.) в бюджет этой проверки (≤ 12 обращений к сети) не входило и не проводилось. Если потребуется полноценный пересмотр состава пятёрки — нужен отдельный конвейер с исследованием кандидатов, а не аудит фактов.

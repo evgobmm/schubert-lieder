@@ -1,0 +1,40 @@
+> **Отбор для «Зимнего пути» закрыт** (указание пользователя 2026-09-09: «топ 5 исполнителей для зимнего пути мы уже сделали, это менять не надо»).
+> Пятёрка в `app/src/data/performances.json` остаётся как есть; этот файл — только опора для раздела «Как это поют».
+> Рекомендации о заменах, если они ниже встречаются, НЕ выполнять.
+
+# Rückblick (D 911/8) — проверка топ-5 исполнений
+
+Дата: 2026-09-09. Статус песни: часть цикла Winterreise (D 911) — по `docs/rules/youtube-performances.md` («Масштабирование…», п.1а и раздел «Пилот потока: не трогать») отбор для Winterreise **переносится из референса скриптом, а не пересматривается заново потоком**; пятёрка `app/src/data/performances.json["911/8"]` — это цикльный набор из пяти полных исполнений Winterreise (`planning/winterreise-reference/src/data/performances.json`, объект `performers` + `videos["8"]`), общий для всех 24 песен цикла. Эта задача — не переотбор, а **проверка фактов** по пяти уже утверждённым записям применительно конкретно к D 911/8, по протоколу `docs/rules/verification-protocol.md`.
+
+Внутренняя проверка того, что видео действительно содержат Rückblick (а не другую песню цикла) и полностью пропеты: `planning/research/d911-8-rueckblick-route.md` и `planning/audio/queues-d911-8.md` — вокальные стемы всех пяти записей декодированы (CTC, две модели) и сверены построчно с текстом песни; для всех пяти есть файлы таймингов `app/src/data/timings/d911-8-*.json`, то есть маршрут пения выстроен целиком (не фрагмент). Ограничение бюджета: часть внешних баз (Discogs, MusicBrainz — прямой WebFetch) отдаёт 403/JS-заглушку; данные с них сняты через зеркало-ридер (`r.jina.ai`) с указанием исходного URL Discogs.
+
+## Итоговая пятёрка (проверка, без изменения состава/порядка)
+
+1. **Thomas Quasthoff — Charles Spencer.** RCA Red Seal, катал. 09026 63147 2. Обнаружено расхождение с полем `year` в `performances.json` (там `1997`): по Discogs, запись сделана **18–22 февраля 1998**, издана в 1998-м. Цитата: «Recorded February 18-22, 1998, at Studio van Geest, Sandhausen» — Discogs, release r8752021 (Schubert – Thomas Quasthoff, Charles Spencer – Winterreise), https://www.discogs.com/release/8752021-Schubert-Thomas-Quasthoff-Charles-Spencer-Winterreise (снято через r.jina.ai-зеркало 2026-09-09). Второй источник, релиз как CD (Stereo), год издания: «Schubert – Thomas Quasthoff, Charles Spencer – Winterreise – CD (Stereo), 1998» — заголовок карточки Discogs r8752021 (найдено WebSearch). **Год в базе проекта, по-видимому, следует исправить `1997` → `1998`** (это унаследовано из референса и правится не мной — конвейер Winterreise `не пересматривается`, но факт стоит зафиксировать для будущей правки). Приоритет №1 по иерархии (Квастхоф — высший приоритет) соблюдён корректно; кандидатов не проверяю (правило пилота Winterreise не пересматривается).
+2. **Peter Mattei — Lars David Nilsson.** BIS, катал. BIS-2444; запись — ноябрь 2018, Studio Acusticum, Питео (Швеция). Цитата: «Recorded in November 2018 at Studio Acusticum, Pitea, Sweden, 24/96» — HRAudio.net, карточка альбома, https://www.hraudio.net/showmusic.php?title=13897. Год в `performances.json` (2018) подтверждён.
+3. **Dietrich Fischer-Dieskau — Gerald Moore.** Deutsche Grammophon, 3×LP стерео, катал. 62 648 («Die Schöne Müllerin; Winterreise»); сессия Winterreise — 16–17 июля 1962 (вторая из трёх студийных записей дуэта: 1955, 1962, 1971). Цитата на дату: «Recorded July 16-17, 1962» — Discogs, master 1304876, https://www.discogs.com/master/1304876-Franz-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise (снято через r.jina.ai-зеркало). Лейбл/каталог — «Deutsche Grammophon 3x LP, Stereo / 62 648» — карточка маркетплейса, https://www.bibleinmylanguage.com/franz-schubert-die-schone-mullerin-winterreise-dietrich-fischer-dieskau-gerald-moore-deutsche-grammophon-3x-lp-stereo-62-648/ (уточняет лейбл: одна из карточек Discogs ошибочно пометила эту сессию как «EMI» — расхождение источников, DG-атрибуция подтверждена и вторым источником, официальной страницей переиздания DG). Год (1962) подтверждён, приоритет №2 (Фишер-Дискау) соблюдён.
+4. **Peter Anders — Michael Raucheisen.** Радиозапись Haus des Rundfunks, Берлин; сессии 23 января, 2 и 13 марта 1945. Цитата: «23.I., 2. & 13.III.1945» — Internet Archive, страница релиза «Franz Schubert, WINTERREISE — Peter Anders, Michael Raucheisen», https://archive.org/details/PeterAndersWinterreiseD911Schubert1945_201802. Переиздания — Myto/DG/Tahra, в т.ч. DG «Centenary Collection» (1998). Год (1945) подтверждён.
+5. **Hans Hotter — Michael Raucheisen.** DG, первая версия Winterreise Хоттера (из известных ≥4); запись — ноябрь 1942, первое издание — 78 об/мин, Polydor, комплект 68160/71S (1943). Цитата: «Recorded in November 1942 by DG and first issued in 1943 in 78 rpm set Pol. 68160/71S» — Discogs, release 13638959, https://www.discogs.com/release/13638959-Hans-Hotter-Michael-Raucheisen-Franz-Schubert-Hans-Hotter-Sings-Schubert-Winterreise-The-1942-DG-Rec (снято через r.jina.ai-зеркало); дублирующее подтверждение месяца записи — «recorded November 1942» — Music & Arts, карточка товара CD-1061, https://musicandarts.com/product/hotter-sings-winterreise/. Год (1942) подтверждён.
+
+## Соответствие возрастной структуре (справочно, состав не менялся)
+
+Годы (с учётом найденной правки Квасthoff → 1998): 1998, 2018, 1962, 1945, 1942. Не ранее 1990 — две записи (1998, 2018) ✓; из них не ранее 2015 — одна (2018) ✓; не ранее трёх очень хороших записей до 1990 — три (1962, 1945, 1942) ✓. Состав соответствует правилу независимо от того, берётся год 1997 или 1998 для Квасthoff.
+
+## Наблюдение по порядку (не факт-чек, для сведения пользователя)
+
+Строгая иерархия приоритетов правила («Квасthoff → Фишер-Дискау → Шварцкопф → прочие звёзды прошлого → современные») в этой цикльной пятёрке не выдержана буквально: Маттеи (современный исполнитель, не из списка приоритетных) стоит на месте №2, перед Фишером-Дискау (приоритет №2). Это унаследовано из референса как единый порядок для всего цикла (`planning/winterreise-reference/src/data/performances.json`) и, по правилу пилота, потоком не пересматривается — фиксирую как наблюдение, не как рекомендацию к правке.
+
+## Отклонённые кандидаты
+
+Отдельного поиска кандидатов для D 911/8 не проводилось: по правилу пилота Winterreise использует единую, уже утверждённую цикльную пятёрку записей (не пересматривается пофутбольно по песням), а не отбирается заново для каждой из 24 песен цикла. Каких-либо признаков негодности пятёрки для конкретно Rückblick не обнаружено: все пять видео при декоде вокала на слух/CTC дают слова именно этой песни (`planning/audio/queues-d911-8.md`), маршрут пения выстроен целиком для всех пяти (не фрагмент), состав по возрастной структуре и по включению приоритетных исполнителей (Квасthoff, Фишер-Дискау, Хоттер, Андерс) соответствует правилу.
+
+## Источники (сводка)
+
+- Discogs, r8752021 (Quasthoff/Spencer, RCA) — https://www.discogs.com/release/8752021-Schubert-Thomas-Quasthoff-Charles-Spencer-Winterreise
+- HRAudio.net (Mattei/Nilsson, BIS-2444) — https://www.hraudio.net/showmusic.php?title=13897
+- Discogs, master 1304876 (Fischer-Dieskau/Moore, DG, 1962) — https://www.discogs.com/master/1304876-Franz-Schubert-Dietrich-Fischer-Dieskau-Gerald-Moore-Winterreise
+- Bible in My Language, маркетплейс-карточка (DG 3×LP 62 648) — https://www.bibleinmylanguage.com/franz-schubert-die-schone-mullerin-winterreise-dietrich-fischer-dieskau-gerald-moore-deutsche-grammophon-3x-lp-stereo-62-648/
+- Internet Archive (Anders/Raucheisen, 1945) — https://archive.org/details/PeterAndersWinterreiseD911Schubert1945_201802
+- Discogs, release 13638959 (Hotter/Raucheisen, DG 1942) — https://www.discogs.com/release/13638959-Hans-Hotter-Michael-Raucheisen-Franz-Schubert-Hans-Hotter-Sings-Schubert-Winterreise-The-1942-DG-Rec
+- Music & Arts, карточка CD-1061 (Hotter, ноябрь 1942) — https://musicandarts.com/product/hotter-sings-winterreise/
+- Внутренние: `planning/research/d911-8-rueckblick-route.md`, `planning/audio/queues-d911-8.md`, `app/src/data/timings/d911-8-*.json`, `planning/winterreise-reference/src/data/performances.json`

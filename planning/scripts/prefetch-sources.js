@@ -152,7 +152,10 @@ for (const d of ds) {
   // 2. Hyperion: буклеты томов из top5
   const top5Path = path.join(ROOT, 'planning/research', slug + '-top5.md');
   const top5 = fs.existsSync(top5Path) ? fs.readFileSync(top5Path, 'utf8') : '';
-  const vols = [...new Set((top5.match(/CDJ(\d{5})/g) || []).map((x) => x.slice(3)))].slice(0, 3);
+  // Тома, где лежит аннотация Грэма Джонсона к целому циклу: в top5 они не попадают (там пятёрка
+  // знаменитых записей, а не издание Hyperion), но именно они — самый подробный источник по циклу.
+  const VOL_OVERRIDE = { '911': ['33030'] }; // CDJ33030 — Hyperion Schubert Edition 30, «Winterreise» (Гёрне/Джонсон)
+  const vols = [...new Set([...(VOL_OVERRIDE[String(d).split('/')[0]] || []), ...(top5.match(/CDJ(\d{5})/g) || []).map((x) => x.slice(3))])].slice(0, 3);
   // добор томов: если из top5 томов нет или в них песня не нашлась, смотрим УЖЕ СКАЧАННЫЕ буклеты —
   // в них песня может стоять под двойным номером («D489/D493»), которого нет в top5 (урок D 489, 2026-09-05)
   try {
