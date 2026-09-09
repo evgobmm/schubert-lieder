@@ -349,6 +349,27 @@ if CONS:
     for blk,L,bud,lo,hi in refused: print(f"консенсус предлагает {blk!r}, но буквенной массы нет ({bud:.1f} на {L} букв в {lo:.1f}–{hi:.1f}) — не вставляем")
     if extra: print("проходы записи вне консенсуса (оставлены):",' '.join(extra))
 # варианты: Whisper уверенно слышит другое слово
+# ПЕРЕСТАНОВКА СЛОВ ВНУТРИ СТРОКИ: певец поёт слова строки в ином порядке (D 23, Яновиц: «Wenn ich ihn von fern seh» при тексте
+# «Wenn ich von fern ihn seh»); якоря прохода тогда не монотонны по времени, и целостность растягивала одно слово на другое.
+# Позиция текста k получает якорь, звучащий k-м по счёту в проходе; несовпадающее слово становится вариантом (если пройдёт проверку ниже)
+_ins=set(i for i,_,kk in path if kk=='i')   # слова Whisper без пары в тексте (вставки)
+for p_ in _passes(sung):
+    an=[k for k in p_['idx'] if sung[k]['wi'] is not None]; un=[k for k in p_['idx'] if sung[k]['wi'] is None]
+    if not an or not un: continue
+    lo=min(W[sung[k]['wi']]['start'] for k in an)-1.0; hi=max(W[sung[k]['wi']]['end'] for k in an)+1.0
+    cand=[i for i in _ins if lo<=W[i]['start']<=hi]
+    for k in un:   # слово строки без якоря, которое Whisper всё же слышал в окне прохода, но не на своём месте (переставлено певцом)
+        best=min(cand,key=lambda i: Lev.normalized_distance(WL[i],TL[sung[k]['t']]),default=None)
+        if best is not None and Lev.normalized_distance(WL[best],TL[sung[k]['t']])<=0.25:
+            sung[k]['wi']=best; cand.remove(best); _ins.discard(best); print(f"слово строки найдено среди вставок: {TW[sung[k]['t']]!r} <- {W[best]['w']!r}@{W[best]['start']:.1f}")
+for p_ in _passes(sung):
+    idx=[k for k in p_['idx'] if sung[k]['wi'] is not None and not sung[k].get('part')]
+    if len(idx)<3: continue
+    st=[W[sung[k]['wi']]['start'] for k in idx]
+    if all(st[i]<=st[i+1] for i in range(len(st)-1)): continue
+    if min(W[sung[k]['wi']]['p'] for k in idx)<0.5: continue   # переставлять можно только при уверенных якорях
+    for k in idx: sung[k]['reord']=True   # слово подсвечивается, когда реально звучит: интервал = якорь Whisper, без выравнивания по порядку строки
+    print(f"перестановка слов в строке {p_['line'][0]}:{p_['line'][1]}: текст {' '.join(TW[sung[k]['t']] for k in idx)!r}, спето {' '.join(W[sung[k]['wi']]['w'] for k in sorted(idx,key=lambda k:W[sung[k]['wi']]['start']))!r}")
 for s_ in sung:
     if s_['wi'] is None or s_.get('part'): s_['var']=None; continue
     w=W[s_['wi']]; d=Lev.normalized_distance(WL[s_['wi']],TL[s_['t']])
@@ -545,6 +566,8 @@ for k,s_ in enumerate(sung):
     if passes and passes[-1]['s']==i and passes[-1]['l']==j and kk>passes[-1]['k'][-1]: passes[-1]['k'].append(kk); passes[-1]['idx'].append(k)
     else: passes.append({"s":i,"l":j,"k":[kk],"idx":[k],"repeat":s_['t']<=prev_t})   # возврат назад = повтор; иначе первое произнесение
     prev_t=s_['t']
+for k in range(K):   # переставленные певцом слова строки — по якорям Whisper (порядок по времени не совпадает с порядком текста; сайт сортирует по времени)
+    if sung[k].get('reord') and anch[k]: ts[k]['start'],ts[k]['end']=round(anch[k][0],2),round(max(anch[k][1],anch[k][0]+0.12),2)
 out_route=[]; variants=[]
 for p in passes:
     n_words=len(song['stanzas'][p['s']]['lines_de'][p['l']].split()); w=[None]*n_words
