@@ -549,9 +549,29 @@ def _dec(empt):
     return f
 DA,DB=_dec(EM_A),_dec(EM_B)
 def fold(w): return letters(w).replace('ä','a').replace('ö','o').replace('ü','u')
+# ПЕРЕСТАНОВКА СЛОВ ВНУТРИ СТРОКИ (D 23, Мюллер-Брахман: «Meine Freude ist entflohen, meine Ruhe ist dahin» при тексте «…ist dahin, …ist entflohn»):
+# слова Whisper прохода — те же слова строки, но в ином порядке. Сопоставление ставит якоря по времени (слово текста получает время
+# другого слова строки), а проверка «слово-сосед» глушила вариант. Следуем за спетым: на такой позиции показывается спетое слово
+# (вариант с пометкой perm, без подтверждения декодом — оба слова есть в строке, это не ослышка).
+for p_ in _passes(sung):
+    idx=[k for k in p_['idx'] if sung[k]['wi'] is not None and not sung[k].get('part')]
+    if len(idx)<3: continue
+    line_t=[t for t in range(N) if TIDX[t][:2]==tuple(p_['line'])]
+    used=set(); mapping={}
+    for k in idx:
+        best=min((q for q in line_t if q not in used),key=lambda q: Lev.normalized_distance(WL[sung[k]['wi']],TL[q]),default=None)
+        if best is None or Lev.normalized_distance(WL[sung[k]['wi']],TL[best])>0.3: mapping=None; break
+        used.add(best); mapping[k]=best
+    if not mapping or all(mapping[k]==sung[k]['t'] for k in idx): continue
+    if min(W[sung[k]['wi']]['p'] for k in idx)<0.5: continue
+    for k in idx:
+        if mapping[k]!=sung[k]['t']:
+            core=TW[mapping[k]]; core=re.sub(r'^[^\w]+|[^\w]+$','',core); tail=re.search(r'[^\w]*$',TW[sung[k]['t']]).group(0)
+            sung[k]['var']=core+tail; sung[k]['perm']=True
+    print(f"перестановка слов в строке {p_['line'][0]}:{p_['line'][1]}: {' '.join(TW[sung[k]['t']] for k in idx)!r} -> спето {' '.join(TW[mapping[k]] for k in idx)!r}")
 kept=0
 for k,s_ in enumerate(sung):
-    if not s_['var']: continue
+    if not s_['var'] or s_.get('perm'): continue
     a,b=ts[k]['start']-0.05,min(ts[k]['end'],raw_end[k])+0.05; tw=fold(TW[s_['t']]); vw=fold(s_['var']); ok=True   # декод по собственному спетому отрезку слова (до продления конца на паузу/следующее слово)
     for f in (DB,):   # только языковой движок: MMS_FA — выравниватель, его жадный декод пуст, «оба движка» отвергали настоящие варианты
         dcd=f(a,b)
@@ -573,7 +593,7 @@ for p in passes:
     n_words=len(song['stanzas'][p['s']]['lines_de'][p['l']].split()); w=[None]*n_words
     for kk,k in zip(p['k'],p['idx']):
         w[kk]=[ts[k]['start'],ts[k]['end']]
-        if sung[k]['var']: variants.append({"s":p['s'],"l":p['l'],"k":kk,"w":TW[sung[k]['t']],"heard":sung[k]['var'],"start":ts[k]['start']})
+        if sung[k]['var']: variants.append({"s":p['s'],"l":p['l'],"k":kk,"w":TW[sung[k]['t']],"heard":sung[k]['var'],"start":ts[k]['start'],**({"perm":True} if sung[k].get('perm') else {})})
     # неспетые в этом проходе слова остаются null (певец может разорвать строку: «…ihr Bild,» — «ihr Bild dahin»); нулевые интервалы запрещены — плеер склейкой пауз растягивал бы их в ложную подсветку
     if not re.search(r'[A-Za-zÄÖÜäöüß]', song['stanzas'][p['s']]['lines_de'][p['l']].split()[p['k'][0]]) and False: pass
     # слова без букв (тире) — нулевой интервал у начала следующего слова

@@ -48,10 +48,11 @@ for f in files:
             dcd = decode(vid, iv[0] - 0.05, iv[1] + 0.05)
             if dcd: margin = Lev.normalized_distance(dcd, tw) - Lev.normalized_distance(dcd, vw)
         strong = dlex >= 0.6 and margin >= 0.3
+        perm = bool(v.get('perm'))   # (d) перестановка слов внутри строки — оба слова есть в строке, следуем за спетым
         others = sum(1 for ov, h in heard.get((v['s'], v['l'], v['k']), {}).items() if ov != vid and h == vw)
         confirmed = any(w['s'] == v['s'] and w['l'] == v['l'] and w['k'] == v['k'] and fold(w['heard']) == vw for w in WL)
-        why = 'сильный' if strong else ('ещё в %d записях' % others if others else ('подтверждён пользователем' if confirmed else ''))
-        if strong or others or confirmed: keep.append(v); kept_total += 1; print(f"  {vid} {v['s']+1}.{v['l']+1} «{v['w']}» → «{v['heard']}»: оставлен ({why}; d={dlex:.2f}, запас декода {margin:+.2f})")
+        why = 'перестановка слов строки' if perm else ('сильный' if strong else ('ещё в %d записях' % others if others else ('подтверждён пользователем' if confirmed else '')))
+        if perm or strong or others or confirmed: keep.append(v); kept_total += 1; print(f"  {vid} {v['s']+1}.{v['l']+1} «{v['w']}» → «{v['heard']}»: оставлен ({why}; d={dlex:.2f}, запас декода {margin:+.2f})")
         else:
             if not any(c['s'] == v['s'] and c['l'] == v['l'] and c['k'] == v['k'] for c in cand): cand.append(v)
             demoted_total += 1; print(f"  {vid} {v['s']+1}.{v['l']+1} «{v['w']}» → «{v['heard']}»: в очередь (d={dlex:.2f}, запас {margin:+.2f}, у других записей: {others})")

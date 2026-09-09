@@ -42,4 +42,5 @@ PY
   h=$(wc -l < "holes_$v.txt" 2>/dev/null || echo 0); long=$(grep -a -o "([0-9.]* с)" "holes_$v.txt" 2>/dev/null | tr -d '( с)' | awk -v M="${MAX_HOLE_SEC:-8}" '$1>M' | wc -l)
   if [ -f "$APP/$PREFIX-$v.json" ] && { [ "$h" -gt "$MAX_HOLES" ] || [ "$long" -gt 0 ]; }; then mv "$APP/$PREFIX-$v.json" "held/"; echo "$v: УДЕРЖАНО ($h дыр > $MAX_HOLES или дыра длиннее ${MAX_HOLE_SEC:-8} с: $long)"; fi
 done
+$PY $SCRIPTS/apply_manual.py "$PREFIX" 2>&1 | grep -a -v "^ручных правок наложено: 0" | cut -c1-120   # ручные правки по слуху пользователя (planning/audio/manual/)
 echo "ГОТОВО $PREFIX $(date +%T)"
