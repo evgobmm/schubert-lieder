@@ -51,7 +51,7 @@ function onClick(word) {
             class="de-variant-word"
             :class="{ 'tier-sung': t.word === activeWord && tierOf(t).sung, 'tier-perf': tierOf(t).perf }"
             :title="tierOf(t).perf ? 'так поётся в этой записи' : ''"
-          >{{ tierOf(t).word }}</span><span>{{ tierOf(t).main }}</span></span>{{ tierOf(t).suffix }}</template><template v-else>{{ t.text }}</template></span>
+          >{{ tierOf(t).word }}&nbsp;</span><span>{{ tierOf(t).main }}</span></span>{{ tierOf(t).suffix }}</template><template v-else>{{ t.text }}</template></span>
       <template v-else>{{ t.text }}</template>
     </template>
   </p>
@@ -73,6 +73,12 @@ function onClick(word) {
 .de-variant-word.tier-perf {
   color: var(--text);
   opacity: 0.85;
+}
+
+/* соседние этажи (перестановка нескольких слов) не слипаются: у этажа есть правый отступ и фон под ним */
+.de-variant-word {
+  padding-right: 0.3em;
+  background: var(--bg, transparent);
 }
 
 /* этаж исполняется в данный момент — подсвечен он, а не слово текста */
