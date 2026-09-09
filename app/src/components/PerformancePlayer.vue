@@ -276,7 +276,11 @@ onBeforeUnmount(destroyPlayer)
               <line x1="4" y1="5.5" x2="20" y2="5.5" stroke-width="2" opacity="0.45" />
               <line x1="4" y1="12" x2="15" y2="12" stroke-width="3.6" />
               <line x1="4" y1="18.5" x2="18" y2="18.5" stroke-width="2" opacity="0.45" />
-            </svg></span><span class="perf-year">{{ v.year }}</span></span></button>
+            </svg></span><span
+            v-if="v.fragment"
+            class="perf-frag"
+            :title="'Неполная запись: ' + (v.fragment.stanzas || (v.fragment.sung + ' из ' + v.fragment.text + ' слов'))"
+          >фрагмент</span><span class="perf-year">{{ v.year }}</span></span></button>
       </div>
 
       <template v-if="videoId">
@@ -405,6 +409,25 @@ onBeforeUnmount(destroyPlayer)
 .perf-name.active .perf-sync-mark {
   color: #fff;
 }
+
+.perf-frag {
+
+  font-size: 0.72em;
+
+  letter-spacing: 0.02em;
+
+  padding: 0.05em 0.45em;
+
+  border: 1px solid currentColor;
+
+  border-radius: 0.6em;
+
+  opacity: 0.7;
+
+  margin-right: 0.5em;
+
+}
+
 
 .perf-year {
   flex-shrink: 0;

@@ -409,7 +409,13 @@ function getLineDeParts(stanza, lineIndex) {
 // ---- Подсветка пропеваемого слова под запись в плеере (docs/rules/word-sync.md) ----
 // Тайминги есть только у записей с файлом в data/timings; плеер сообщает загруженную
 // запись и позицию через общее состояние playback.
-const timing = computed(() => song.value ? getTiming(song.value.d, playback.videoId) : null)
+const timing = ref(null)   // тайминги текущей записи; файл подгружается лениво (utils/timings.js), пока грузится — подсветки нет
+watch(() => [song.value && song.value.d, playback.videoId], async ([d, videoId]) => {
+  timing.value = null
+  if (!d || !videoId) return
+  const t = await getTiming(d, videoId)
+  if (song.value && song.value.d === d && playback.videoId === videoId) timing.value = t
+}, { immediate: true })
 const wordIndex = computed(() => timing.value ? buildWordIndex(timing.value) : null)
 const syncActive = computed(() => !!wordIndex.value)
 // Слова строки, спетые в текущей записи иначе, чем в тексте (variants файла таймингов): {k: спетое}

@@ -1,1963 +1,1963 @@
 {
- "d": "990C",
- "title_de": "Das Echo",
- "title_ru": "Эхо",
- "poet_de": "Ignaz Franz Castelli",
- "poet_ru": "Игнац Франц Кастелли",
- "year": "1828",
- "title_annotations": [
-  {
-   "type": "meaning",
-   "text": "В пяти строфах из семи, со второй по шестую, последнее слово героя договаривает эхо: Kommen! («Приди!»), Freilich! («Конечно!»), Immer! («Всегда!»), Küsse! («Целуй!»), In Ehren («Честь честью»). В первой и последней строфах эхо молчит — дочь говорит с матерью одна."
-  }
- ],
- "stanzas": [
-  {
-   "lines_de": [
-    "Herzliebe gute Mutter,",
-    "O grolle nicht mit mir,",
-    "Du sahst den Hans mich küssen,",
-    "Doch ich kann nichts dafür!",
-    "Ich will dir Alles sagen,",
-    "Doch habe nur Geduld:",
-    "Das Echo, drauss am Hügel,",
-    "Beim Hügel,",
-    "Das ist an",
-    "Allem Schuld, das ist an allem Schuld!"
-   ],
-   "lines_ru": [
+  "d": "990C",
+  "title_de": "Das Echo",
+  "title_ru": "Эхо",
+  "poet_de": "Ignaz Franz Castelli",
+  "poet_ru": "Игнац Франц Кастелли",
+  "year": "1828",
+  "title_annotations": [
     {
-     "segments": [
-      {
-       "de": "Herzliebe",
-       "ru": "Милая"
-      },
-      {
-       "de": "gute",
-       "ru": "добрая"
-      },
-      {
-       "de": "Mutter",
-       "ru": "мать,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Herzliebe — сложное слово из Herz («сердце») и lieb («милый»): сердечно любимая. У Гриммов рядом стоит почти та же строка: ach herzliebe mütter («ах, милые матушки»)."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "O",
-       "ru": "О,"
-      },
-      {
-       "de": "nicht",
-       "ru": "не"
-      },
-      {
-       "de": "grolle",
-       "ru": "сердись"
-      },
-      {
-       "de": "mit",
-       "ru": "на"
-      },
-      {
-       "de": "mir",
-       "ru": "меня,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        4
-       ],
-       "text": "grollen mit jemandem — «сердиться на кого-то», держать на него обиду: по словарю DWDS это Groll empfinden, verhalten zürnen («затаить обиду, глухо гневаться»)."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Du",
-       "ru": "Ты"
-      },
-      {
-       "de": "sahst",
-       "ru": "видела,"
-      },
-      {
-       "de": "den Hans",
-       "ru": "как Ганс"
-      },
-      {
-       "de": "mich",
-       "ru": "меня"
-      },
-      {
-       "de": "küssen",
-       "ru": "целовал,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "meaning",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "В альманахе, откуда Шуберт взял стихи, имя напечатано Hanns, с двумя n; сегодня песню печатают с Hans."
-      },
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        4
-       ],
-       "text": "При глаголах восприятия немецкий ставит инфинитив: sahst … mich küssen — буквально «видела меня целовать»; по-русски нужно придаточное с «как». Артикль при имени (den Hans) — примета живой разговорной речи."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Doch",
-       "ru": "Но"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "kann nichts dafür",
-       "ru": "не виновата!"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "ich kann nichts dafür — устойчивый оборот «я тут ни при чём, я не виновата»; буквально «я ничего за это не могу». dafür здесь именно «за это», а не «зато»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Ich",
-       "ru": "Я"
-      },
-      {
-       "de": "will",
-       "ru": "хочу"
-      },
-      {
-       "de": "dir",
-       "ru": "тебе"
-      },
-      {
-       "de": "Alles",
-       "ru": "всё"
-      },
-      {
-       "de": "sagen",
-       "ru": "сказать,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Doch",
-       "ru": "Но"
-      },
-      {
-       "de": "nur",
-       "ru": "только"
-      },
-      {
-       "de": "habe",
-       "ru": "имей"
-      },
-      {
-       "de": "Geduld",
-       "ru": "терпение:"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Das Echo",
-       "ru": "Эхо,"
-      },
-      {
-       "de": "drauss",
-       "ru": "там"
-      },
-      {
-       "de": "am",
-       "ru": "на"
-      },
-      {
-       "de": "Hügel",
-       "ru": "холме,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "drauss — усечённое draussen, «снаружи, вон там»: конечное -en отпало ради размера стиха."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Beim",
-       "ru": "У"
-      },
-      {
-       "de": "Hügel",
-       "ru": "холма,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Das",
-       "ru": "Оно"
-      },
-      {
-       "de": "ist",
-       "ru": "—"
-      },
-      {
-       "de": "an",
-       "ru": "во"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Allem",
-       "ru": "Всём"
-      },
-      {
-       "de": "Schuld",
-       "ru": "виновато,"
-      },
-      {
-       "de": "das",
-       "ru": "оно"
-      },
-      {
-       "de": "ist",
-       "ru": "—"
-      },
-      {
-       "de": "an",
-       "ru": "во"
-      },
-      {
-       "de": "allem",
-       "ru": "всём"
-      },
-      {
-       "de": "Schuld",
-       "ru": "виновато!"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        1
-       ],
-       "text": "Schuld — существительное «вина», но в обороте an etwas Schuld sein по-русски естественнее сказуемое: «во всём виновато». Фраза перенесена через строку, начало её осталось выше."
-      },
-      {
-       "type": "meaning",
-       "segment_range": [
-        2,
-        6
-       ],
-       "text": "Малколм Рен, автор комментариев к песенным текстам на справочном сайте schubertsong.uk, сводит всю уловку героини к одной фразе: «Да, но нет, но да! Это была не я, это эхо… так что вините эхо, не меня»."
-      }
-     ]
+      "type": "meaning",
+      "text": "В пяти строфах из семи, со второй по шестую, последнее слово героя договаривает эхо: Kommen! («Приди!»), Freilich! («Конечно!»), Immer! («Всегда!»), Küsse! («Целуй!»), In Ehren («Честь честью»). В первой и последней строфах эхо молчит — дочь говорит с матерью одна."
     }
-   ]
-  },
-  {
-   "lines_de": [
-    "Ich sass dort auf der Wiese,",
-    "Da hat er mich gesehn,",
-    "Doch blieb er ehrerbietig",
-    "Hübsch in der Ferne stehn,",
-    "Und sprach: „Gern trät ich näher,",
-    "Nähm'st du's nicht übel für?“",
-    "„Sag, bin ich dir willkommen?“ —",
-    "„Kommen!“ rief",
-    "Schnell das",
-    "Echo drauf, rief schnell das Echo drauf."
-   ],
-   "lines_ru": [
+  ],
+  "stanzas": [
     {
-     "segments": [
-      {
-       "de": "Ich",
-       "ru": "Я"
-      },
-      {
-       "de": "sass",
-       "ru": "сидела"
-      },
-      {
-       "de": "dort",
-       "ru": "там"
-      },
-      {
-       "de": "auf",
-       "ru": "на"
-      },
-      {
-       "de": "der Wiese",
-       "ru": "лугу,"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "Herzliebe gute Mutter,",
+        "O grolle nicht mit mir,",
+        "Du sahst den Hans mich küssen,",
+        "Doch ich kann nichts dafür!",
+        "Ich will dir Alles sagen,",
+        "Doch habe nur Geduld:",
+        "Das Echo, drauss am Hügel,",
+        "Beim Hügel,",
+        "Das ist an",
+        "Allem Schuld, das ist an allem Schuld!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "de": "Herzliebe",
+              "ru": "Милая"
+            },
+            {
+              "de": "gute",
+              "ru": "добрая"
+            },
+            {
+              "de": "Mutter",
+              "ru": "мать,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Herzliebe — сложное слово из Herz («сердце») и lieb («милый»): сердечно любимая. У Гриммов рядом стоит почти та же строка: ach herzliebe mütter («ах, милые матушки»)."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "O",
+              "ru": "О,"
+            },
+            {
+              "de": "nicht",
+              "ru": "не"
+            },
+            {
+              "de": "grolle",
+              "ru": "сердись"
+            },
+            {
+              "de": "mit",
+              "ru": "на"
+            },
+            {
+              "de": "mir",
+              "ru": "меня,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                4
+              ],
+              "text": "grollen mit jemandem — «сердиться на кого-то», держать на него обиду: по словарю DWDS это Groll empfinden, verhalten zürnen («затаить обиду, глухо гневаться»)."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Du",
+              "ru": "Ты"
+            },
+            {
+              "de": "sahst",
+              "ru": "видела,"
+            },
+            {
+              "de": "den Hans",
+              "ru": "как Ганс"
+            },
+            {
+              "de": "mich",
+              "ru": "меня"
+            },
+            {
+              "de": "küssen",
+              "ru": "целовал,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "В альманахе, откуда Шуберт взял стихи, имя напечатано Hanns, с двумя n; сегодня песню печатают с Hans."
+            },
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                4
+              ],
+              "text": "При глаголах восприятия немецкий ставит инфинитив: sahst … mich küssen — буквально «видела меня целовать»; по-русски нужно придаточное с «как». Артикль при имени (den Hans) — примета живой разговорной речи."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Doch",
+              "ru": "Но"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "kann nichts dafür",
+              "ru": "не виновата!"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "ich kann nichts dafür — устойчивый оборот «я тут ни при чём, я не виновата»; буквально «я ничего за это не могу». dafür здесь именно «за это», а не «зато»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Ich",
+              "ru": "Я"
+            },
+            {
+              "de": "will",
+              "ru": "хочу"
+            },
+            {
+              "de": "dir",
+              "ru": "тебе"
+            },
+            {
+              "de": "Alles",
+              "ru": "всё"
+            },
+            {
+              "de": "sagen",
+              "ru": "сказать,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Doch",
+              "ru": "Но"
+            },
+            {
+              "de": "nur",
+              "ru": "только"
+            },
+            {
+              "de": "habe",
+              "ru": "имей"
+            },
+            {
+              "de": "Geduld",
+              "ru": "терпение:"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Das Echo",
+              "ru": "Эхо,"
+            },
+            {
+              "de": "drauss",
+              "ru": "там"
+            },
+            {
+              "de": "am",
+              "ru": "на"
+            },
+            {
+              "de": "Hügel",
+              "ru": "холме,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "drauss — усечённое draussen, «снаружи, вон там»: конечное -en отпало ради размера стиха."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Beim",
+              "ru": "У"
+            },
+            {
+              "de": "Hügel",
+              "ru": "холма,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Das",
+              "ru": "Оно"
+            },
+            {
+              "de": "ist",
+              "ru": "—"
+            },
+            {
+              "de": "an",
+              "ru": "во"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Allem",
+              "ru": "Всём"
+            },
+            {
+              "de": "Schuld",
+              "ru": "виновато,"
+            },
+            {
+              "de": "das",
+              "ru": "оно"
+            },
+            {
+              "de": "ist",
+              "ru": "—"
+            },
+            {
+              "de": "an",
+              "ru": "во"
+            },
+            {
+              "de": "allem",
+              "ru": "всём"
+            },
+            {
+              "de": "Schuld",
+              "ru": "виновато!"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                1
+              ],
+              "text": "Schuld — существительное «вина», но в обороте an etwas Schuld sein по-русски естественнее сказуемое: «во всём виновато». Фраза перенесена через строку, начало её осталось выше."
+            },
+            {
+              "type": "meaning",
+              "segment_range": [
+                2,
+                6
+              ],
+              "text": "Малколм Рен, автор комментариев к песенным текстам на справочном сайте schubertsong.uk, сводит всю уловку героини к одной фразе: «Да, но нет, но да! Это была не я, это эхо… так что вините эхо, не меня»."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "de": "Da",
-       "ru": "Тут"
-      },
-      {
-       "de": "er",
-       "ru": "он"
-      },
-      {
-       "de": "mich",
-       "ru": "меня"
-      },
-      {
-       "de": "hat... gesehn",
-       "ru": "увидел,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "Перфект hat … gesehn разорван: вспомогательный глагол стоит вторым, причастие уходит в конец строки. gesehn — стяжение от gesehen, тоже ради размера."
-      }
-     ]
+      "lines_de": [
+        "Ich sass dort auf der Wiese,",
+        "Da hat er mich gesehn,",
+        "Doch blieb er ehrerbietig",
+        "Hübsch in der Ferne stehn,",
+        "Und sprach: „Gern trät ich näher,",
+        "Nähm'st du's nicht übel für?“",
+        "„Sag, bin ich dir willkommen?“ —",
+        "„Kommen!“ rief",
+        "Schnell das",
+        "Echo drauf, rief schnell das Echo drauf."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "de": "Ich",
+              "ru": "Я"
+            },
+            {
+              "de": "sass",
+              "ru": "сидела"
+            },
+            {
+              "de": "dort",
+              "ru": "там"
+            },
+            {
+              "de": "auf",
+              "ru": "на"
+            },
+            {
+              "de": "der Wiese",
+              "ru": "лугу,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Da",
+              "ru": "Тут"
+            },
+            {
+              "de": "er",
+              "ru": "он"
+            },
+            {
+              "de": "mich",
+              "ru": "меня"
+            },
+            {
+              "de": "hat... gesehn",
+              "ru": "увидел,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "Перфект hat … gesehn разорван: вспомогательный глагол стоит вторым, причастие уходит в конец строки. gesehn — стяжение от gesehen, тоже ради размера."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Doch",
+              "ru": "Но"
+            },
+            {
+              "de": "er",
+              "ru": "он"
+            },
+            {
+              "de": "blieb",
+              "ru": "остался"
+            },
+            {
+              "de": "ehrerbietig",
+              "ru": "почтительно"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "ehrerbietig — «почтительный»; у Гриммов эта статья иллюстрирована шиллеровской строкой weicht zurück und bleibt in ehrerbietiger ferne («отступает и остаётся в почтительном отдалении») — картина ровно та же, что и здесь."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Hübsch",
+              "ru": "Смирно"
+            },
+            {
+              "de": "in",
+              "ru": "в"
+            },
+            {
+              "de": "der Ferne",
+              "ru": "отдалении"
+            },
+            {
+              "de": "stehn",
+              "ru": "стоять,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "hübsch тут не «красиво»: в разговорной речи это слово ослабевает до усилителя — «чинно, как положено». Глагольная рамка blieb … stehn («остался стоять») тоже разорвана переносом строки."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Und",
+              "ru": "И"
+            },
+            {
+              "de": "sprach",
+              "ru": "молвил:"
+            },
+            {
+              "de": "Gern",
+              "ru": "«Охотно"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "trät",
+              "ru": "шагнул бы"
+            },
+            {
+              "de": "näher",
+              "ru": "ближе,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "nicht",
+              "ru": "Не"
+            },
+            {
+              "de": "Nähm'st",
+              "ru": "приняла бы"
+            },
+            {
+              "de": "du's",
+              "ru": "ты это"
+            },
+            {
+              "de": "für",
+              "ru": "за"
+            },
+            {
+              "de": "übel",
+              "ru": "зло?»"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                2
+              ],
+              "text": "Nähm'st — усечённое nähmest, сослагательное от nehmen; übel nehmen значит «обидеться, принять за зло», и в строке этот глагол растянут от края до края. du's — это du es, местоимение с приросшим «это»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Sag",
+              "ru": "«Скажи,"
+            },
+            {
+              "de": "willkommen",
+              "ru": "желанен"
+            },
+            {
+              "de": "bin",
+              "ru": "ли"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "dir",
+              "ru": "тебе?» —"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                2
+              ],
+              "text": "willkommen — «желанный, радостно принимаемый», как говорят о госте. Связка bin по-русски в таком вопросе не произносится, её место занимает частица «ли», отчего порядок слов и сместился."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Kommen",
+              "ru": "«Приди!»"
+            },
+            {
+              "de": "rief",
+              "ru": "крикнуло"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Эхо подхватывает конец слова willkommen — kommen («приди»). По-русски созвучие с «желанен» пропадает, и отклик приходится переводить прямо."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Schnell das",
+              "ru": "Быстро"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Echo",
+              "ru": "Эхо"
+            },
+            {
+              "de": "drauf",
+              "ru": "в ответ,"
+            },
+            {
+              "de": "schnell",
+              "ru": "быстро"
+            },
+            {
+              "de": "rief",
+              "ru": "крикнуло"
+            },
+            {
+              "de": "das Echo",
+              "ru": "эхо"
+            },
+            {
+              "de": "drauf",
+              "ru": "в ответ."
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                1
+              ],
+              "text": "drauf — разговорное сокращение от darauf, «вслед за тем, на это»: эхо отзывается тотчас. Артикль das остался в предыдущей строке, оторванный от своего слова переносом."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "de": "Doch",
-       "ru": "Но"
-      },
-      {
-       "de": "er",
-       "ru": "он"
-      },
-      {
-       "de": "blieb",
-       "ru": "остался"
-      },
-      {
-       "de": "ehrerbietig",
-       "ru": "почтительно"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "ehrerbietig — «почтительный»; у Гриммов эта статья иллюстрирована шиллеровской строкой weicht zurück und bleibt in ehrerbietiger ferne («отступает и остаётся в почтительном отдалении») — картина ровно та же, что и здесь."
-      }
-     ]
+      "lines_de": [
+        "Dann kam er auf die Wiese,",
+        "Zu mir hin setzt' er sich,",
+        "Hiess mich die schöne Liese",
+        "Und schlang den Arm um mich,",
+        "Und bat, ich möcht ihm sagen,",
+        "Ob ich ihm gut kann sein —",
+        "Das wär ihm sehr erfreulich!",
+        "„…Freilich!“",
+        "Rief schnell das Echo drein."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "de": "Dann",
+              "ru": "Потом"
+            },
+            {
+              "de": "kam",
+              "ru": "пришёл"
+            },
+            {
+              "de": "er",
+              "ru": "он"
+            },
+            {
+              "de": "auf",
+              "ru": "на"
+            },
+            {
+              "de": "die Wiese",
+              "ru": "луг,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Zu",
+              "ru": "Ко"
+            },
+            {
+              "de": "mir",
+              "ru": "мне"
+            },
+            {
+              "de": "hin",
+              "ru": "поближе"
+            },
+            {
+              "de": "er",
+              "ru": "он"
+            },
+            {
+              "de": "setzt'... sich",
+              "ru": "сел,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                4
+              ],
+              "text": "hin усиливает направление: zu mir hin — «вплотную ко мне». setzt' — это setzte, претерит с отпавшим -e; возвратное sich отодвинуто от глагола подлежащим."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Hiess",
+              "ru": "Звал"
+            },
+            {
+              "de": "mich",
+              "ru": "меня"
+            },
+            {
+              "de": "die schöne",
+              "ru": "прекрасной"
+            },
+            {
+              "de": "Liese",
+              "ru": "Лизе"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "heissen здесь в старом переходном значении «называть кого-либо как-либо» (у Гриммов vocare, nominari), а не «велеть». Liese — домашняя форма имени Elisabeth."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Und",
+              "ru": "И"
+            },
+            {
+              "de": "schlang",
+              "ru": "обвил"
+            },
+            {
+              "de": "den Arm",
+              "ru": "руку"
+            },
+            {
+              "de": "um",
+              "ru": "вокруг"
+            },
+            {
+              "de": "mich",
+              "ru": "меня,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "schlingen — «обвивать, оплетать» (не путать с одинаково звучащим глаголом «глотать»): den Arm um jemanden schlingen — обнять."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Und",
+              "ru": "И"
+            },
+            {
+              "de": "bat",
+              "ru": "просил,"
+            },
+            {
+              "de": "möcht",
+              "ru": "чтобы"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "ihm",
+              "ru": "ему"
+            },
+            {
+              "de": "sagen",
+              "ru": "сказала,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "möcht — усечённое möchte, сослагательная форма от mögen в передаче чужой просьбы; по-русски ей отвечает придаточное с «чтобы»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "kann",
+              "ru": "Могу"
+            },
+            {
+              "de": "Ob",
+              "ru": "ли"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "sein",
+              "ru": "быть"
+            },
+            {
+              "de": "ihm",
+              "ru": "к нему"
+            },
+            {
+              "de": "gut",
+              "ru": "добра —"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                5
+              ],
+              "text": "jemandem gut sein — «хорошо относиться к кому-то, любить кого-то». Союз косвенного вопроса ob по-русски передаётся частицей «ли», а она стоит после глагола, поэтому порядок слов переставлен."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Das",
+              "ru": "Это"
+            },
+            {
+              "de": "wär",
+              "ru": "было бы"
+            },
+            {
+              "de": "ihm",
+              "ru": "ему"
+            },
+            {
+              "de": "sehr",
+              "ru": "очень"
+            },
+            {
+              "de": "erfreulich",
+              "ru": "отрадно!"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Freilich",
+              "ru": "«…Конечно!»"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Эхо отзывается концом слова erfreulich — freilich («конечно, разумеется»). По-русски «отрадно» и «конечно» не созвучны, и перекличка пропадает."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Быстро",
+              "de": "schnell"
+            },
+            {
+              "ru": "вмешалось",
+              "de": "Rief... drein"
+            },
+            {
+              "ru": "эхо.",
+              "de": "das Echo"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "drein — сокращение от darein; dreinrufen значит «вмешаться возгласом, вставить своё слово в чужой разговор». Глагол rief и приставка drein стоят по краям строки, в переводе они слиты в одно слово."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "de": "Hübsch",
-       "ru": "Смирно"
-      },
-      {
-       "de": "in",
-       "ru": "в"
-      },
-      {
-       "de": "der Ferne",
-       "ru": "отдалении"
-      },
-      {
-       "de": "stehn",
-       "ru": "стоять,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "hübsch тут не «красиво»: в разговорной речи это слово ослабевает до усилителя — «чинно, как положено». Глагольная рамка blieb … stehn («остался стоять») тоже разорвана переносом строки."
-      }
-     ]
+      "lines_de": [
+        "Vergnügt sagt' er mir weiter,",
+        "Er wäre mir schon oft",
+        "Von fern gefolgt und habe",
+        "Zu sprechen mich gehofft,",
+        "Doch fruchtlos war es immer,",
+        "Denn macht er's noch so fein,",
+        "Bemerkt hätt ich ihn nimmer…",
+        "„…Immer!“",
+        "Fiel schnell das Echo ein."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "de": "Vergnügt",
+              "ru": "Довольный,"
+            },
+            {
+              "de": "er",
+              "ru": "он"
+            },
+            {
+              "de": "sagt'",
+              "ru": "говорил"
+            },
+            {
+              "de": "mir",
+              "ru": "мне"
+            },
+            {
+              "de": "weiter",
+              "ru": "дальше,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Er",
+              "ru": "Он"
+            },
+            {
+              "de": "wäre",
+              "ru": "будто"
+            },
+            {
+              "de": "schon",
+              "ru": "уже"
+            },
+            {
+              "de": "oft",
+              "ru": "часто"
+            },
+            {
+              "de": "mir",
+              "ru": "за мной"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "wäre — и habe строкой ниже — сослагательные формы пересказа: девушка передаёт матери слова Ганса. По-русски эту роль берёт «будто», а сами вспомогательные глаголы ждут причастий gefolgt и gehofft."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Von fern",
+              "ru": "Издали"
+            },
+            {
+              "de": "gefolgt",
+              "ru": "ходил следом"
+            },
+            {
+              "de": "und",
+              "ru": "и"
+            },
+            {
+              "de": "habe",
+              "ru": "будто"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "gehofft",
+              "ru": "Надеялся"
+            },
+            {
+              "de": "mich",
+              "ru": "со мной"
+            },
+            {
+              "de": "Zu sprechen",
+              "ru": "поговорить,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                2
+              ],
+              "text": "jemanden sprechen — «поговорить с кем-то»: по-немецки это прямое дополнение без предлога, по-русски нужен предлог «с»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Doch",
+              "ru": "Но"
+            },
+            {
+              "de": "immer",
+              "ru": "всегда"
+            },
+            {
+              "de": "es",
+              "ru": "это"
+            },
+            {
+              "de": "war",
+              "ru": "было"
+            },
+            {
+              "de": "fruchtlos",
+              "ru": "напрасно,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "fruchtlos — буквально «не приносящий плода», в переносном смысле «напрасный, безуспешный»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Denn",
+              "ru": "Ведь"
+            },
+            {
+              "de": "noch so",
+              "ru": "как бы"
+            },
+            {
+              "de": "fein",
+              "ru": "ловко"
+            },
+            {
+              "de": "er's",
+              "ru": "он это"
+            },
+            {
+              "de": "macht",
+              "ru": "ни делал,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                4
+              ],
+              "text": "Глагол в начале плюс noch so — уступительный оборот «как бы он это ни делал». fein здесь «тонко, ловко, хитро», er's — это er es."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "nimmer",
+              "ru": "Никогда"
+            },
+            {
+              "de": "",
+              "ru": "не"
+            },
+            {
+              "de": "Bemerkt hätt",
+              "ru": "заметила бы"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "ihn",
+              "ru": "его…"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                2
+              ],
+              "text": "nimmer — «никогда (больше)»; русское отрицательное слово требует ещё и «не» при глаголе. Bemerkt hätt — сослагательное прошедшее: «не заметила бы»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Immer",
+              "ru": "«…Всегда!»"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Эхо отсекает отрицание: от nimmer («никогда») остаётся immer («всегда») — и смысл переворачивается на обратный."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "schnell",
+              "ru": "Быстро"
+            },
+            {
+              "de": "Fiel... ein",
+              "ru": "вступило"
+            },
+            {
+              "de": "das Echo",
+              "ru": "эхо."
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "einfallen — «вступить, вмешаться в речь»; приставка ein отделилась от глагола и стоит в конце строки."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "de": "Und",
-       "ru": "И"
-      },
-      {
-       "de": "sprach",
-       "ru": "молвил:"
-      },
-      {
-       "de": "Gern",
-       "ru": "«Охотно"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "trät",
-       "ru": "шагнул бы"
-      },
-      {
-       "de": "näher",
-       "ru": "ближе,"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "Dies hört er, und hat näher",
+        "Zu rücken mir gewagt,",
+        "Er glaubte wohl, ich hätte",
+        "Das alles ihm gesagt.",
+        "„Erlaubst du“, sprach er zärtlich,",
+        "„Dass ich als meine Braut",
+        "Dich recht von Herzen küsse“ —",
+        "„…Küsse!“",
+        "Schrie jetzt das Echo laut."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "de": "Dies",
+              "ru": "Это"
+            },
+            {
+              "de": "hört",
+              "ru": "слышит"
+            },
+            {
+              "de": "er",
+              "ru": "он"
+            },
+            {
+              "de": "und",
+              "ru": "и"
+            },
+            {
+              "de": "hat näher",
+              "ru": "ближе"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "hat — начало перфекта hat … gewagt, разорванного переносом строки: сам глагол («отважился») стоит уже в следующей строке, а вспомогательный остался при näher («ближе»)."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Отважился",
+              "de": "gewagt"
+            },
+            {
+              "ru": "ко мне",
+              "de": "mir"
+            },
+            {
+              "ru": "придвинуться,",
+              "de": "Zu rücken"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Er",
+              "ru": "Он,"
+            },
+            {
+              "de": "wohl",
+              "ru": "верно,"
+            },
+            {
+              "de": "glaubte",
+              "ru": "полагал,"
+            },
+            {
+              "de": "hätte",
+              "ru": "будто"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "wohl здесь — «пожалуй, наверное»: рассказчица только догадывается, что подумал Ганс."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Das alles",
+              "ru": "Всё это"
+            },
+            {
+              "de": "ihm",
+              "ru": "ему"
+            },
+            {
+              "de": "gesagt",
+              "ru": "сказала."
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Erlaubst",
+              "ru": "«Позволишь"
+            },
+            {
+              "de": "du",
+              "ru": "ты», —"
+            },
+            {
+              "de": "zärtlich",
+              "ru": "нежно"
+            },
+            {
+              "de": "sprach",
+              "ru": "молвил"
+            },
+            {
+              "de": "er",
+              "ru": "он, —"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Dass",
+              "ru": "«Чтобы"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "als",
+              "ru": "как"
+            },
+            {
+              "de": "meine Braut",
+              "ru": "свою невесту"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Dich",
+              "ru": "Тебя"
+            },
+            {
+              "de": "von",
+              "ru": "от"
+            },
+            {
+              "de": "recht",
+              "ru": "всей"
+            },
+            {
+              "de": "Herzen",
+              "ru": "души"
+            },
+            {
+              "de": "küsse",
+              "ru": "поцеловал» —"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                3
+              ],
+              "text": "von Herzen — «от души»; recht усиливает («по-настоящему, как следует»), и вместе выходит «от всей души»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Küsse",
+              "ru": "«…Целуй!»"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "küsse у Ганса — форма первого лица («чтобы я поцеловал»), но в отклике эха то же слово звучит уже как приказ: «целуй!»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "jetzt",
+              "ru": "Теперь"
+            },
+            {
+              "de": "laut",
+              "ru": "громко"
+            },
+            {
+              "de": "Schrie",
+              "ru": "крикнуло"
+            },
+            {
+              "de": "das Echo",
+              "ru": "эхо."
+            }
+          ],
+          "annotations": []
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "de": "nicht",
-       "ru": "Не"
-      },
-      {
-       "de": "Nähm'st",
-       "ru": "приняла бы"
-      },
-      {
-       "de": "du's",
-       "ru": "ты это"
-      },
-      {
-       "de": "für",
-       "ru": "за"
-      },
-      {
-       "de": "übel",
-       "ru": "зло?»"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        2
-       ],
-       "text": "Nähm'st — усечённое nähmest, сослагательное от nehmen; übel nehmen значит «обидеться, принять за зло», и в строке этот глагол растянут от края до края. du's — это du es, местоимение с приросшим «это»."
-      }
-     ]
+      "lines_de": [
+        "Nun sieh, so ist's gekommen,",
+        "Dass Hans mir gab den Kuss;",
+        "Das böse, böse Echo",
+        "Es macht mir viel Verdruss,",
+        "Und jetzo wird er kommen,",
+        "Wirst sehen sicherlich,",
+        "Und wird von dir begehren…",
+        "„…In Ehren“",
+        "Zu seinem Weibe mich."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "de": "Nun",
+              "ru": "Вот"
+            },
+            {
+              "de": "sieh",
+              "ru": "видишь,"
+            },
+            {
+              "de": "so",
+              "ru": "так"
+            },
+            {
+              "de": "ist's",
+              "ru": "оно"
+            },
+            {
+              "de": "gekommen",
+              "ru": "вышло,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                4
+              ],
+              "text": "ist's — это ist es; оборот es kommt so значит «выходит, получается так»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Dass",
+              "ru": "Что"
+            },
+            {
+              "de": "Hans",
+              "ru": "Ганс"
+            },
+            {
+              "de": "gab",
+              "ru": "дал"
+            },
+            {
+              "de": "mir",
+              "ru": "мне"
+            },
+            {
+              "de": "den Kuss",
+              "ru": "поцелуй;"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Das böse",
+              "ru": "Злое,"
+            },
+            {
+              "de": "böse",
+              "ru": "злое"
+            },
+            {
+              "de": "Echo",
+              "ru": "эхо"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Es",
+              "ru": "Оно"
+            },
+            {
+              "de": "macht",
+              "ru": "доставляет"
+            },
+            {
+              "de": "mir",
+              "ru": "мне"
+            },
+            {
+              "de": "viel",
+              "ru": "много"
+            },
+            {
+              "de": "Verdruss",
+              "ru": "досады,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                4
+              ],
+              "text": "Verdruss — «досада, огорчение»; в обороте Verdruss machen глагол machen значит «причинять, доставлять»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Und",
+              "ru": "И"
+            },
+            {
+              "de": "jetzo",
+              "ru": "теперь"
+            },
+            {
+              "de": "er",
+              "ru": "он"
+            },
+            {
+              "de": "wird... kommen",
+              "ru": "придёт,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "jetzo — старая форма наречия jetzt («теперь»): к XIX веку она из живой речи ушла и осталась только в стихах."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Wirst sehen",
+              "ru": "Увидишь"
+            },
+            {
+              "de": "sicherlich",
+              "ru": "наверняка,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Und",
+              "ru": "И"
+            },
+            {
+              "de": "wird... begehren",
+              "ru": "будет просить"
+            },
+            {
+              "de": "von",
+              "ru": "у"
+            },
+            {
+              "de": "dir",
+              "ru": "тебя…"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "begehren — «желать, требовать»; в свадебном обиходе это просьба о руке: просить у матери дочь."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "In Ehren",
+              "ru": "«…Честь честью»"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Эхо подхватывает конец слова begehren — in Ehren, застывший оборот «честь честью, как положено», — и сватовство выходит вполне приличным."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "mich",
+              "ru": "Меня"
+            },
+            {
+              "de": "seinem",
+              "ru": "себе"
+            },
+            {
+              "de": "Zu",
+              "ru": "в"
+            },
+            {
+              "de": "Weibe",
+              "ru": "жёны."
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "Weib около 1800 года — нейтральное «жена, женщина», без нынешнего пренебрежительного оттенка; Weibe — старая форма дательного падежа."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "de": "Sag",
-       "ru": "«Скажи,"
-      },
-      {
-       "de": "willkommen",
-       "ru": "желанен"
-      },
-      {
-       "de": "bin",
-       "ru": "ли"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "dir",
-       "ru": "тебе?» —"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        2
-       ],
-       "text": "willkommen — «желанный, радостно принимаемый», как говорят о госте. Связка bin по-русски в таком вопросе не произносится, её место занимает частица «ли», отчего порядок слов и сместился."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Kommen",
-       "ru": "«Приди!»"
-      },
-      {
-       "de": "rief",
-       "ru": "крикнуло"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Эхо подхватывает конец слова willkommen — kommen («приди»). По-русски созвучие с «желанен» пропадает, и отклик приходится переводить прямо."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Schnell das",
-       "ru": "Быстро"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Echo",
-       "ru": "Эхо"
-      },
-      {
-       "de": "drauf",
-       "ru": "в ответ,"
-      },
-      {
-       "de": "schnell",
-       "ru": "быстро"
-      },
-      {
-       "de": "rief",
-       "ru": "крикнуло"
-      },
-      {
-       "de": "das Echo",
-       "ru": "эхо"
-      },
-      {
-       "de": "drauf",
-       "ru": "в ответ."
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        1
-       ],
-       "text": "drauf — разговорное сокращение от darauf, «вслед за тем, на это»: эхо отзывается тотчас. Артикль das остался в предыдущей строке, оторванный от своего слова переносом."
-      }
-     ]
+      "lines_de": [
+        "Ist dir der Hans lieb, Mutter,",
+        "Nicht recht zu meinem Mann,",
+        "So sag' dass ihm das Echo",
+        "Den bösen Streich gethan;",
+        "Doch glaubst du, dass wir passen",
+        "Zu einem Paar,",
+        "Dann musst du ihn nicht kränken,",
+        "Magst denken,",
+        "Dass ich das Echo war,",
+        "Dass ich das Echo war!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "de": "Ist",
+              "ru": "Если"
+            },
+            {
+              "de": "der Hans",
+              "ru": "Ганс"
+            },
+            {
+              "de": "dir",
+              "ru": "тебе"
+            },
+            {
+              "de": "lieb",
+              "ru": "мил,"
+            },
+            {
+              "de": "Mutter",
+              "ru": "мать,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Глагол на первом месте без союза — обычное в немецком бессоюзное условие: «если Ганс тебе мил…»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Nicht",
+              "ru": "Не"
+            },
+            {
+              "de": "recht",
+              "ru": "совсем"
+            },
+            {
+              "de": "zu",
+              "ru": "в"
+            },
+            {
+              "de": "Mann",
+              "ru": "мужья"
+            },
+            {
+              "de": "meinem",
+              "ru": "мне,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                4
+              ],
+              "text": "nicht recht — «не совсем, не вполне». zu meinem Mann буквально «в мои мужья»; по-русски притяжательное уходит в дательный: «мне в мужья»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "So",
+              "ru": "То"
+            },
+            {
+              "de": "sag'",
+              "ru": "скажи,"
+            },
+            {
+              "de": "dass",
+              "ru": "что"
+            },
+            {
+              "de": "ihm",
+              "ru": "ему"
+            },
+            {
+              "de": "das Echo",
+              "ru": "эхо"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "gethan",
+              "ru": "Сыграло"
+            },
+            {
+              "de": "Den bösen",
+              "ru": "злую"
+            },
+            {
+              "de": "Streich",
+              "ru": "шутку;"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                2
+              ],
+              "text": "einen Streich tun — «сыграть шутку, устроить проделку»; сам Streich исходно «удар». gethan — написание эпохи, нынешнее getan."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Doch",
+              "ru": "Но"
+            },
+            {
+              "de": "",
+              "ru": "если"
+            },
+            {
+              "de": "du",
+              "ru": "ты"
+            },
+            {
+              "de": "glaubst",
+              "ru": "думаешь,"
+            },
+            {
+              "de": "dass",
+              "ru": "что"
+            },
+            {
+              "de": "wir",
+              "ru": "мы"
+            },
+            {
+              "de": "passen",
+              "ru": "подходим"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                3
+              ],
+              "text": "И здесь условие без союза: glaubst du… — «если ты считаешь…». По-русски «если» приходится добавить, иначе строка читается как вопрос."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Zu",
+              "ru": "В"
+            },
+            {
+              "de": "einem Paar",
+              "ru": "пару,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Dann",
+              "ru": "То"
+            },
+            {
+              "de": "du",
+              "ru": "ты"
+            },
+            {
+              "de": "nicht",
+              "ru": "не"
+            },
+            {
+              "de": "musst",
+              "ru": "должна"
+            },
+            {
+              "de": "ihn",
+              "ru": "его"
+            },
+            {
+              "de": "kränken",
+              "ru": "обижать,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Magst",
+              "ru": "Можешь"
+            },
+            {
+              "de": "denken",
+              "ru": "думать,"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "de": "Dass",
+              "ru": "Что"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "war",
+              "ru": "была"
+            },
+            {
+              "de": "das Echo",
+              "ru": "эхом,"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [
+                0,
+                3
+              ],
+              "text": "Малколм Рен напоминает: до звукозаписи услышать собственный голос со стороны человек мог только одним способом — эхом; отсюда и зазор между тем, что человек говорит внутри себя, и тем, что слышно снаружи."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "de": "Dass",
+              "ru": "Что"
+            },
+            {
+              "de": "ich",
+              "ru": "я"
+            },
+            {
+              "de": "war",
+              "ru": "была"
+            },
+            {
+              "de": "das Echo",
+              "ru": "эхом!"
+            }
+          ],
+          "annotations": []
+        }
+      ]
     }
-   ]
-  },
-  {
-   "lines_de": [
-    "Dann kam er auf die Wiese,",
-    "Zu mir hin setzt' er sich,",
-    "Hiess mich die schöne Liese",
-    "Und schlang den Arm um mich,",
-    "Und bat, ich möcht ihm sagen,",
-    "Ob ich ihm gut kann sein —",
-    "Das wär ihm sehr erfreulich!",
-    "„…Freilich!“",
-    "Rief schnell das Echo drein."
-   ],
-   "lines_ru": [
+  ],
+  "about": [
     {
-     "segments": [
-      {
-       "de": "Dann",
-       "ru": "Потом"
-      },
-      {
-       "de": "kam",
-       "ru": "пришёл"
-      },
-      {
-       "de": "er",
-       "ru": "он"
-      },
-      {
-       "de": "auf",
-       "ru": "на"
-      },
-      {
-       "de": "die Wiese",
-       "ru": "луг,"
-      }
-     ],
-     "annotations": []
+      "title": "Вероятно, 1828 год",
+      "text": "Точной даты у песни нет. Справочник schubertsong.uk датирует её предположительно 1828 годом — последним в жизни Шуберта. День и месяц сочинения неизвестны."
     },
     {
-     "segments": [
-      {
-       "de": "Zu",
-       "ru": "Ко"
-      },
-      {
-       "de": "mir",
-       "ru": "мне"
-      },
-      {
-       "de": "hin",
-       "ru": "поближе"
-      },
-      {
-       "de": "er",
-       "ru": "он"
-      },
-      {
-       "de": "setzt'... sich",
-       "ru": "сел,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        4
-       ],
-       "text": "hin усиливает направление: zu mir hin — «вплотную ко мне». setzt' — это setzte, претерит с отпавшим -e; возвратное sich отодвинуто от глагола подлежащим."
-      }
-     ]
+      "title": "Публикация и автограф",
+      "text": "Прежде песня числилась в каталоге Дойча под номером D 868; нынешний номер D 990C она получила позже, и в буклете антологии Hyperion до сих пор стоит пояснение «formerly D868» («прежде D 868»). Кто и когда её переставил, установить не удалось.\nОб автографе и о том, где впервые вышла сама музыка, сведений найти не удалось."
     },
     {
-     "segments": [
-      {
-       "de": "Hiess",
-       "ru": "Звал"
-      },
-      {
-       "de": "mich",
-       "ru": "меня"
-      },
-      {
-       "de": "die schöne",
-       "ru": "прекрасной"
-      },
-      {
-       "de": "Liese",
-       "ru": "Лизе"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "heissen здесь в старом переходном значении «называть кого-либо как-либо» (у Гриммов vocare, nominari), а не «велеть». Liese — домашняя форма имени Elisabeth."
-      }
-     ]
+      "title": "Игнац Франц Кастелли",
+      "text": "Слова принадлежат Игнацу Францу Кастелли. «Эхо» вошло в его собрание «Gedichte» («Стихотворения»), выходившее в шести томах: стихотворение стоит в шестом томе, изданном в Берлине у Дункера и Гумблота в 1835 году, на страницах 99–102."
     },
     {
-     "segments": [
-      {
-       "de": "Und",
-       "ru": "И"
-      },
-      {
-       "de": "schlang",
-       "ru": "обвил"
-      },
-      {
-       "de": "den Arm",
-       "ru": "руку"
-      },
-      {
-       "de": "um",
-       "ru": "вокруг"
-      },
-      {
-       "de": "mich",
-       "ru": "меня,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "schlingen — «обвивать, оплетать» (не путать с одинаково звучащим глаголом «глотать»): den Arm um jemanden schlingen — обнять."
-      }
-     ]
+      "title": "Стихотворение",
+      "text": "Написано оно, по сведениям того же справочника, предположительно в 1825 году, тогда же и напечатано впервые. Источник, которым пользовался Шуберт, установил исследователь Питер Растль: это венский альманах «Aglaja. Taschenbuch für das Jahr 1826» («Аглая. Карманная книжка на 1826 год»), выпущенный издателем Иоганном Баптистом Валлисхаузером, страницы 157–159.\nЗаглавие «Das Echo» стоит уже у Кастелли — Шуберт его не менял. Имя парня в альманахе писалось Hanns, с двумя n; в модернизированном тексте, каким песня печатается сегодня, — Hans."
     },
     {
-     "segments": [
-      {
-       "de": "Und",
-       "ru": "И"
-      },
-      {
-       "de": "bat",
-       "ru": "просил,"
-      },
-      {
-       "de": "möcht",
-       "ru": "чтобы"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "ihm",
-       "ru": "ему"
-      },
-      {
-       "de": "sagen",
-       "ru": "сказала,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "möcht — усечённое möchte, сослагательная форма от mögen в передаче чужой просьбы; по-русски ей отвечает придаточное с «чтобы»."
-      }
-     ]
+      "title": "Музыка",
+      "text": "Сведений о тональности, темпе и фортепианной партии найти не удалось. Видно лишь, как скроен текст: семь строф; в пяти из них, со второй по шестую, последнее слово героя договаривает эхо: то хвост последнего слова, то само слово целиком."
     },
     {
-     "segments": [
-      {
-       "de": "kann",
-       "ru": "Могу"
-      },
-      {
-       "de": "Ob",
-       "ru": "ли"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "sein",
-       "ru": "быть"
-      },
-      {
-       "de": "ihm",
-       "ru": "к нему"
-      },
-      {
-       "de": "gut",
-       "ru": "добра —"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        5
-       ],
-       "text": "jemandem gut sein — «хорошо относиться к кому-то, любить кого-то». Союз косвенного вопроса ob по-русски передаётся частицей «ли», а она стоит после глагола, поэтому порядок слов переставлен."
-      }
-     ]
+      "title": "Виновато эхо",
+      "text": "Малколм Рен, автор комментариев к песенным текстам на справочном сайте schubertsong.uk, читает «Эхо» как сцену притворного самооправдания: вина за поцелуй перекладывается на голос за холмом. Образный состав текста тот же справочник сводит к четырём мотивам: эхо, холмы и горы, поцелуй, мать и дитя."
     },
     {
-     "segments": [
-      {
-       "de": "Das",
-       "ru": "Это"
-      },
-      {
-       "de": "wär",
-       "ru": "было бы"
-      },
-      {
-       "de": "ihm",
-       "ru": "ему"
-      },
-      {
-       "de": "sehr",
-       "ru": "очень"
-      },
-      {
-       "de": "erfreulich",
-       "ru": "отрадно!"
-      }
-     ],
-     "annotations": []
+      "title": "Судьба и наследие",
+      "text": "Песню записывали редко. Прославленные шубертовские певцы — Томас Квастхофф, Элизабет Шварцкопф, Дитрих Фишер-Дискау — за неё не брались; Фишер-Дискау, певший Шуберта десятилетиями, песен от женского лица и «домашних» номеров на стихи Кастелли не исполнял."
     },
     {
-     "segments": [
-      {
-       "de": "Freilich",
-       "ru": "«…Конечно!»"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Эхо отзывается концом слова erfreulich — freilich («конечно, разумеется»). По-русски «отрадно» и «конечно» не созвучны, и перекличка пропадает."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Быстро",
-       "de": "schnell"
-      },
-      {
-       "ru": "вмешалось",
-       "de": "Rief... drein"
-      },
-      {
-       "ru": "эхо.",
-       "de": "das Echo"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "drein — сокращение от darein; dreinrufen значит «вмешаться возгласом, вставить своё слово в чужой разговор». Глагол rief и приставка drein стоят по краям строки, в переводе они слиты в одно слово."
-      }
-     ]
+      "title": "Как это поют",
+      "text": "Первой в подборке стоит концертная запись 1968 года: сопрано Мартина Арройо и пианист Леонард Хоканзон на Швецингенском фестивале, в Охотничьем зале Швецингенского дворца. Издана она под маркой SWR Classic / Hänssler в серии «Edition Schwetzinger SWR Festspiele» (℗ 2012). Арройо был тогда тридцать один год.\nВторая запись — сопрано Кристин Шефер и Грэм Джонсон, пианист и автор статей к антологии Hyperion Schubert Edition. Запись сделана в феврале 1996 года и вышла в сентябре того же года двадцать шестым томом антологии под названием «An 1826 Schubertiad» («Шубертиада 1826 года», CDJ33026). По каталожным сведениям, тому достались Editor's Choice журнала Gramophone и звание «Song Record of the Year» журнала Classic CD.\nТретья — Юлиана Зиндрам и пианист Уве Айзенлор: двадцать третий том серии Naxos Deutsche Schubert-Lied-Edition, «Austrian Contemporaries, Vol. 3» («Австрийские современники», 8.557833), вышедший 27 марта 2007 года. Достойной записи 2015 года и позже не нашлось.\n\nЗапись Arroyo — Hokanson (1968) неполная: спеты строфы 1, 2, 3, 5, 7 из 7."
     }
-   ]
-  },
-  {
-   "lines_de": [
-    "Vergnügt sagt' er mir weiter,",
-    "Er wäre mir schon oft",
-    "Von fern gefolgt und habe",
-    "Zu sprechen mich gehofft,",
-    "Doch fruchtlos war es immer,",
-    "Denn macht er's noch so fein,",
-    "Bemerkt hätt ich ihn nimmer…",
-    "„…Immer!“",
-    "Fiel schnell das Echo ein."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "de": "Vergnügt",
-       "ru": "Довольный,"
-      },
-      {
-       "de": "er",
-       "ru": "он"
-      },
-      {
-       "de": "sagt'",
-       "ru": "говорил"
-      },
-      {
-       "de": "mir",
-       "ru": "мне"
-      },
-      {
-       "de": "weiter",
-       "ru": "дальше,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Er",
-       "ru": "Он"
-      },
-      {
-       "de": "wäre",
-       "ru": "будто"
-      },
-      {
-       "de": "schon",
-       "ru": "уже"
-      },
-      {
-       "de": "oft",
-       "ru": "часто"
-      },
-      {
-       "de": "mir",
-       "ru": "за мной"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "wäre — и habe строкой ниже — сослагательные формы пересказа: девушка передаёт матери слова Ганса. По-русски эту роль берёт «будто», а сами вспомогательные глаголы ждут причастий gefolgt и gehofft."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Von fern",
-       "ru": "Издали"
-      },
-      {
-       "de": "gefolgt",
-       "ru": "ходил следом"
-      },
-      {
-       "de": "und",
-       "ru": "и"
-      },
-      {
-       "de": "habe",
-       "ru": "будто"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "gehofft",
-       "ru": "Надеялся"
-      },
-      {
-       "de": "mich",
-       "ru": "со мной"
-      },
-      {
-       "de": "Zu sprechen",
-       "ru": "поговорить,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        2
-       ],
-       "text": "jemanden sprechen — «поговорить с кем-то»: по-немецки это прямое дополнение без предлога, по-русски нужен предлог «с»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Doch",
-       "ru": "Но"
-      },
-      {
-       "de": "immer",
-       "ru": "всегда"
-      },
-      {
-       "de": "es",
-       "ru": "это"
-      },
-      {
-       "de": "war",
-       "ru": "было"
-      },
-      {
-       "de": "fruchtlos",
-       "ru": "напрасно,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "fruchtlos — буквально «не приносящий плода», в переносном смысле «напрасный, безуспешный»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Denn",
-       "ru": "Ведь"
-      },
-      {
-       "de": "noch so",
-       "ru": "как бы"
-      },
-      {
-       "de": "fein",
-       "ru": "ловко"
-      },
-      {
-       "de": "er's",
-       "ru": "он это"
-      },
-      {
-       "de": "macht",
-       "ru": "ни делал,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        4
-       ],
-       "text": "Глагол в начале плюс noch so — уступительный оборот «как бы он это ни делал». fein здесь «тонко, ловко, хитро», er's — это er es."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "nimmer",
-       "ru": "Никогда"
-      },
-      {
-       "de": "",
-       "ru": "не"
-      },
-      {
-       "de": "Bemerkt hätt",
-       "ru": "заметила бы"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "ihn",
-       "ru": "его…"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        2
-       ],
-       "text": "nimmer — «никогда (больше)»; русское отрицательное слово требует ещё и «не» при глаголе. Bemerkt hätt — сослагательное прошедшее: «не заметила бы»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Immer",
-       "ru": "«…Всегда!»"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Эхо отсекает отрицание: от nimmer («никогда») остаётся immer («всегда») — и смысл переворачивается на обратный."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "schnell",
-       "ru": "Быстро"
-      },
-      {
-       "de": "Fiel... ein",
-       "ru": "вступило"
-      },
-      {
-       "de": "das Echo",
-       "ru": "эхо."
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "einfallen — «вступить, вмешаться в речь»; приставка ein отделилась от глагола и стоит в конце строки."
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "Dies hört er, und hat näher",
-    "Zu rücken mir gewagt,",
-    "Er glaubte wohl, ich hätte",
-    "Das alles ihm gesagt.",
-    "„Erlaubst du“, sprach er zärtlich,",
-    "„Dass ich als meine Braut",
-    "Dich recht von Herzen küsse“ —",
-    "„…Küsse!“",
-    "Schrie jetzt das Echo laut."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "de": "Dies",
-       "ru": "Это"
-      },
-      {
-       "de": "hört",
-       "ru": "слышит"
-      },
-      {
-       "de": "er",
-       "ru": "он"
-      },
-      {
-       "de": "und",
-       "ru": "и"
-      },
-      {
-       "de": "hat näher",
-       "ru": "ближе"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "hat — начало перфекта hat … gewagt, разорванного переносом строки: сам глагол («отважился») стоит уже в следующей строке, а вспомогательный остался при näher («ближе»)."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Отважился",
-       "de": "gewagt"
-      },
-      {
-       "ru": "ко мне",
-       "de": "mir"
-      },
-      {
-       "ru": "придвинуться,",
-       "de": "Zu rücken"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Er",
-       "ru": "Он,"
-      },
-      {
-       "de": "wohl",
-       "ru": "верно,"
-      },
-      {
-       "de": "glaubte",
-       "ru": "полагал,"
-      },
-      {
-       "de": "hätte",
-       "ru": "будто"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "wohl здесь — «пожалуй, наверное»: рассказчица только догадывается, что подумал Ганс."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Das alles",
-       "ru": "Всё это"
-      },
-      {
-       "de": "ihm",
-       "ru": "ему"
-      },
-      {
-       "de": "gesagt",
-       "ru": "сказала."
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Erlaubst",
-       "ru": "«Позволишь"
-      },
-      {
-       "de": "du",
-       "ru": "ты», —"
-      },
-      {
-       "de": "zärtlich",
-       "ru": "нежно"
-      },
-      {
-       "de": "sprach",
-       "ru": "молвил"
-      },
-      {
-       "de": "er",
-       "ru": "он, —"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Dass",
-       "ru": "«Чтобы"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "als",
-       "ru": "как"
-      },
-      {
-       "de": "meine Braut",
-       "ru": "свою невесту"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Dich",
-       "ru": "Тебя"
-      },
-      {
-       "de": "von",
-       "ru": "от"
-      },
-      {
-       "de": "recht",
-       "ru": "всей"
-      },
-      {
-       "de": "Herzen",
-       "ru": "души"
-      },
-      {
-       "de": "küsse",
-       "ru": "поцеловал» —"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        3
-       ],
-       "text": "von Herzen — «от души»; recht усиливает («по-настоящему, как следует»), и вместе выходит «от всей души»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Küsse",
-       "ru": "«…Целуй!»"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "küsse у Ганса — форма первого лица («чтобы я поцеловал»), но в отклике эха то же слово звучит уже как приказ: «целуй!»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "jetzt",
-       "ru": "Теперь"
-      },
-      {
-       "de": "laut",
-       "ru": "громко"
-      },
-      {
-       "de": "Schrie",
-       "ru": "крикнуло"
-      },
-      {
-       "de": "das Echo",
-       "ru": "эхо."
-      }
-     ],
-     "annotations": []
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "Nun sieh, so ist's gekommen,",
-    "Dass Hans mir gab den Kuss;",
-    "Das böse, böse Echo",
-    "Es macht mir viel Verdruss,",
-    "Und jetzo wird er kommen,",
-    "Wirst sehen sicherlich,",
-    "Und wird von dir begehren…",
-    "„…In Ehren“",
-    "Zu seinem Weibe mich."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "de": "Nun",
-       "ru": "Вот"
-      },
-      {
-       "de": "sieh",
-       "ru": "видишь,"
-      },
-      {
-       "de": "so",
-       "ru": "так"
-      },
-      {
-       "de": "ist's",
-       "ru": "оно"
-      },
-      {
-       "de": "gekommen",
-       "ru": "вышло,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        4
-       ],
-       "text": "ist's — это ist es; оборот es kommt so значит «выходит, получается так»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Dass",
-       "ru": "Что"
-      },
-      {
-       "de": "Hans",
-       "ru": "Ганс"
-      },
-      {
-       "de": "gab",
-       "ru": "дал"
-      },
-      {
-       "de": "mir",
-       "ru": "мне"
-      },
-      {
-       "de": "den Kuss",
-       "ru": "поцелуй;"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Das böse",
-       "ru": "Злое,"
-      },
-      {
-       "de": "böse",
-       "ru": "злое"
-      },
-      {
-       "de": "Echo",
-       "ru": "эхо"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Es",
-       "ru": "Оно"
-      },
-      {
-       "de": "macht",
-       "ru": "доставляет"
-      },
-      {
-       "de": "mir",
-       "ru": "мне"
-      },
-      {
-       "de": "viel",
-       "ru": "много"
-      },
-      {
-       "de": "Verdruss",
-       "ru": "досады,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        4
-       ],
-       "text": "Verdruss — «досада, огорчение»; в обороте Verdruss machen глагол machen значит «причинять, доставлять»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Und",
-       "ru": "И"
-      },
-      {
-       "de": "jetzo",
-       "ru": "теперь"
-      },
-      {
-       "de": "er",
-       "ru": "он"
-      },
-      {
-       "de": "wird... kommen",
-       "ru": "придёт,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "jetzo — старая форма наречия jetzt («теперь»): к XIX веку она из живой речи ушла и осталась только в стихах."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Wirst sehen",
-       "ru": "Увидишь"
-      },
-      {
-       "de": "sicherlich",
-       "ru": "наверняка,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Und",
-       "ru": "И"
-      },
-      {
-       "de": "wird... begehren",
-       "ru": "будет просить"
-      },
-      {
-       "de": "von",
-       "ru": "у"
-      },
-      {
-       "de": "dir",
-       "ru": "тебя…"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "begehren — «желать, требовать»; в свадебном обиходе это просьба о руке: просить у матери дочь."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "In Ehren",
-       "ru": "«…Честь честью»"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Эхо подхватывает конец слова begehren — in Ehren, застывший оборот «честь честью, как положено», — и сватовство выходит вполне приличным."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "mich",
-       "ru": "Меня"
-      },
-      {
-       "de": "seinem",
-       "ru": "себе"
-      },
-      {
-       "de": "Zu",
-       "ru": "в"
-      },
-      {
-       "de": "Weibe",
-       "ru": "жёны."
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "Weib около 1800 года — нейтральное «жена, женщина», без нынешнего пренебрежительного оттенка; Weibe — старая форма дательного падежа."
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "Ist dir der Hans lieb, Mutter,",
-    "Nicht recht zu meinem Mann,",
-    "So sag' dass ihm das Echo",
-    "Den bösen Streich gethan;",
-    "Doch glaubst du, dass wir passen",
-    "Zu einem Paar,",
-    "Dann musst du ihn nicht kränken,",
-    "Magst denken,",
-    "Dass ich das Echo war,",
-    "Dass ich das Echo war!"
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "de": "Ist",
-       "ru": "Если"
-      },
-      {
-       "de": "der Hans",
-       "ru": "Ганс"
-      },
-      {
-       "de": "dir",
-       "ru": "тебе"
-      },
-      {
-       "de": "lieb",
-       "ru": "мил,"
-      },
-      {
-       "de": "Mutter",
-       "ru": "мать,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Глагол на первом месте без союза — обычное в немецком бессоюзное условие: «если Ганс тебе мил…»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Nicht",
-       "ru": "Не"
-      },
-      {
-       "de": "recht",
-       "ru": "совсем"
-      },
-      {
-       "de": "zu",
-       "ru": "в"
-      },
-      {
-       "de": "Mann",
-       "ru": "мужья"
-      },
-      {
-       "de": "meinem",
-       "ru": "мне,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        4
-       ],
-       "text": "nicht recht — «не совсем, не вполне». zu meinem Mann буквально «в мои мужья»; по-русски притяжательное уходит в дательный: «мне в мужья»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "So",
-       "ru": "То"
-      },
-      {
-       "de": "sag'",
-       "ru": "скажи,"
-      },
-      {
-       "de": "dass",
-       "ru": "что"
-      },
-      {
-       "de": "ihm",
-       "ru": "ему"
-      },
-      {
-       "de": "das Echo",
-       "ru": "эхо"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "gethan",
-       "ru": "Сыграло"
-      },
-      {
-       "de": "Den bösen",
-       "ru": "злую"
-      },
-      {
-       "de": "Streich",
-       "ru": "шутку;"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        2
-       ],
-       "text": "einen Streich tun — «сыграть шутку, устроить проделку»; сам Streich исходно «удар». gethan — написание эпохи, нынешнее getan."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Doch",
-       "ru": "Но"
-      },
-      {
-       "de": "",
-       "ru": "если"
-      },
-      {
-       "de": "du",
-       "ru": "ты"
-      },
-      {
-       "de": "glaubst",
-       "ru": "думаешь,"
-      },
-      {
-       "de": "dass",
-       "ru": "что"
-      },
-      {
-       "de": "wir",
-       "ru": "мы"
-      },
-      {
-       "de": "passen",
-       "ru": "подходим"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        3
-       ],
-       "text": "И здесь условие без союза: glaubst du… — «если ты считаешь…». По-русски «если» приходится добавить, иначе строка читается как вопрос."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Zu",
-       "ru": "В"
-      },
-      {
-       "de": "einem Paar",
-       "ru": "пару,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Dann",
-       "ru": "То"
-      },
-      {
-       "de": "du",
-       "ru": "ты"
-      },
-      {
-       "de": "nicht",
-       "ru": "не"
-      },
-      {
-       "de": "musst",
-       "ru": "должна"
-      },
-      {
-       "de": "ihn",
-       "ru": "его"
-      },
-      {
-       "de": "kränken",
-       "ru": "обижать,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Magst",
-       "ru": "Можешь"
-      },
-      {
-       "de": "denken",
-       "ru": "думать,"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "de": "Dass",
-       "ru": "Что"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "war",
-       "ru": "была"
-      },
-      {
-       "de": "das Echo",
-       "ru": "эхом,"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "meaning",
-       "segment_range": [
-        0,
-        3
-       ],
-       "text": "Малколм Рен напоминает: до звукозаписи услышать собственный голос со стороны человек мог только одним способом — эхом; отсюда и зазор между тем, что человек говорит внутри себя, и тем, что слышно снаружи."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "de": "Dass",
-       "ru": "Что"
-      },
-      {
-       "de": "ich",
-       "ru": "я"
-      },
-      {
-       "de": "war",
-       "ru": "была"
-      },
-      {
-       "de": "das Echo",
-       "ru": "эхом!"
-      }
-     ],
-     "annotations": []
-    }
-   ]
-  }
- ],
- "about": [
-  {
-   "title": "Вероятно, 1828 год",
-   "text": "Точной даты у песни нет. Справочник schubertsong.uk датирует её предположительно 1828 годом — последним в жизни Шуберта. День и месяц сочинения неизвестны."
-  },
-  {
-   "title": "Публикация и автограф",
-   "text": "Прежде песня числилась в каталоге Дойча под номером D 868; нынешний номер D 990C она получила позже, и в буклете антологии Hyperion до сих пор стоит пояснение «formerly D868» («прежде D 868»). Кто и когда её переставил, установить не удалось.\nОб автографе и о том, где впервые вышла сама музыка, сведений найти не удалось."
-  },
-  {
-   "title": "Игнац Франц Кастелли",
-   "text": "Слова принадлежат Игнацу Францу Кастелли. «Эхо» вошло в его собрание «Gedichte» («Стихотворения»), выходившее в шести томах: стихотворение стоит в шестом томе, изданном в Берлине у Дункера и Гумблота в 1835 году, на страницах 99–102."
-  },
-  {
-   "title": "Стихотворение",
-   "text": "Написано оно, по сведениям того же справочника, предположительно в 1825 году, тогда же и напечатано впервые. Источник, которым пользовался Шуберт, установил исследователь Питер Растль: это венский альманах «Aglaja. Taschenbuch für das Jahr 1826» («Аглая. Карманная книжка на 1826 год»), выпущенный издателем Иоганном Баптистом Валлисхаузером, страницы 157–159.\nЗаглавие «Das Echo» стоит уже у Кастелли — Шуберт его не менял. Имя парня в альманахе писалось Hanns, с двумя n; в модернизированном тексте, каким песня печатается сегодня, — Hans."
-  },
-  {
-   "title": "Музыка",
-   "text": "Сведений о тональности, темпе и фортепианной партии найти не удалось. Видно лишь, как скроен текст: семь строф; в пяти из них, со второй по шестую, последнее слово героя договаривает эхо: то хвост последнего слова, то само слово целиком."
-  },
-  {
-   "title": "Виновато эхо",
-   "text": "Малколм Рен, автор комментариев к песенным текстам на справочном сайте schubertsong.uk, читает «Эхо» как сцену притворного самооправдания: вина за поцелуй перекладывается на голос за холмом. Образный состав текста тот же справочник сводит к четырём мотивам: эхо, холмы и горы, поцелуй, мать и дитя."
-  },
-  {
-   "title": "Судьба и наследие",
-   "text": "Песню записывали редко. Прославленные шубертовские певцы — Томас Квастхофф, Элизабет Шварцкопф, Дитрих Фишер-Дискау — за неё не брались; Фишер-Дискау, певший Шуберта десятилетиями, песен от женского лица и «домашних» номеров на стихи Кастелли не исполнял."
-  },
-  {
-   "title": "Как это поют",
-   "text": "Первой в подборке стоит концертная запись 1968 года: сопрано Мартина Арройо и пианист Леонард Хоканзон на Швецингенском фестивале, в Охотничьем зале Швецингенского дворца. Издана она под маркой SWR Classic / Hänssler в серии «Edition Schwetzinger SWR Festspiele» (℗ 2012). Арройо был тогда тридцать один год.\nВторая запись — сопрано Кристин Шефер и Грэм Джонсон, пианист и автор статей к антологии Hyperion Schubert Edition. Запись сделана в феврале 1996 года и вышла в сентябре того же года двадцать шестым томом антологии под названием «An 1826 Schubertiad» («Шубертиада 1826 года», CDJ33026). По каталожным сведениям, тому достались Editor's Choice журнала Gramophone и звание «Song Record of the Year» журнала Classic CD.\nТретья — Юлиана Зиндрам и пианист Уве Айзенлор: двадцать третий том серии Naxos Deutsche Schubert-Lied-Edition, «Austrian Contemporaries, Vol. 3» («Австрийские современники», 8.557833), вышедший 27 марта 2007 года. Достойной записи 2015 года и позже не нашлось."
-  }
- ],
- "source": "OpenScore Lieder Corpus (CC0)"
+  ],
+  "source": "OpenScore Lieder Corpus (CC0)"
 }

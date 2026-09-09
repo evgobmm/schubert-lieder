@@ -1,21 +1,37 @@
 // Пословные тайминги под конкретные записи: app/src/data/timings/d<D>-<videoId>.json
 // (формат — docs/rules/word-sync.md). Ключ — пара (D-номер, videoId): тайминги
 // действительны только для той записи, по которой считались.
-const modules = import.meta.glob('../data/timings/*.json', { eager: true })
+// Файлы грузятся лениво (по одному, когда запись выбрана в плеере): их 2400+, ~22 МБ, и жадный
+// import.meta.glob вкладывал их все в бандл (17 МБ на каждого посетителя, сборка падала по памяти).
+const loaders = import.meta.glob('../data/timings/*.json')
 
-const byKey = new Map()
-const byD = new Map()
-for (const mod of Object.values(modules)) {
-  const t = mod.default || mod
-  if (!t || !t.d || !t.videoId || !Array.isArray(t.route)) continue
-  byKey.set(`${t.d}|${t.videoId}`, t)
-  if (!byD.has(t.d)) byD.set(t.d, [])
-  byD.get(t.d).push(t.videoId)
+// Индекс по имени файла: d<prefix>-<videoId>.json, videoId — всегда 11 знаков; в prefix дефис = «/» в D-номере
+const byKey = new Map()   // `${d}|${videoId}` -> путь модуля
+const byD = new Map()     // d -> [videoId…] в порядке файлов
+for (const path of Object.keys(loaders).sort()) {
+  const name = path.slice(path.lastIndexOf('/') + 1, -'.json'.length)
+  if (name.length < 13 || name[name.length - 12] !== '-') continue
+  const videoId = name.slice(-11)
+  const d = name.slice(1, -12).replace(/-/g, '/')
+  byKey.set(`${d}|${videoId}`, path)
+  if (!byD.has(d)) byD.set(d, [])
+  byD.get(d).push(videoId)
 }
 
+const cache = new Map()
+// Тайминги записи (Promise; null — файла нет или он невалиден)
 export function getTiming(d, videoId) {
-  if (!d || !videoId) return null
-  return byKey.get(`${d}|${videoId}`) || null
+  if (!d || !videoId) return Promise.resolve(null)
+  const key = `${d}|${videoId}`
+  const path = byKey.get(key)
+  if (!path) return Promise.resolve(null)
+  if (!cache.has(key)) {
+    cache.set(key, loaders[path]().then((mod) => {
+      const t = mod.default || mod
+      return t && t.d && t.videoId && Array.isArray(t.route) ? t : null
+    }).catch(() => null))
+  }
+  return cache.get(key)
 }
 
 // Записи песни, для которых есть тайминги (в порядке файлов)

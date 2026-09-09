@@ -73,6 +73,9 @@ for w in W:
 if dropped: print("отброшено галлюцинаций Whisper:",len(dropped),"—"," ".join(f"{w['w']}@{w['start']:.1f}" for w in dropped))
 W=kept
 END_SING=(_ph[-1][1] if _ph else _n/100)+0.5
+# мягкий конец пения: тихая последняя нота ниже порога фраз (D 399, Хольцмайр: «Ruh.» тянется до 255 с, фразы кончались на 253,9) —
+# до последнего кадра с огибающей > 0.08 опорной в пределах 6 с после END_SING; только для конца последнего слова
+_se=int(END_SING*100); _tl=np.where(_V[_se:min(_n,_se+600)]>0.08)[0]; SOFT_END=min(_n/100,END_SING+(_tl.max()/100+0.15 if len(_tl) else 0.0))
 def _passes(seq):
     ps=[]; prev=None
     for k,s_ in enumerate(seq):
@@ -327,10 +330,24 @@ for s_ in sung:
         core=re.sub(r'^[^\w]+|[^\w]+$','',s_['var']); tail=re.search(r'[^\w]*$',TW[s_['t']]).group(0); s_['var']=core+tail
 last_t=max(s_['t'] for s_ in sung) if sung else -1
 if 0<N-1-last_t and not any(s_['t']==N-1 for s_ in sung):
-    tail=list(range(last_t+1,N)); last_anch=[_anch(s_) for s_ in sung if s_['wi'] is not None]
-    if _fits(tail,last_anch[-1][1] if last_anch else 0.0,END_SING):
+    tail=list(range(last_t+1,N)); last_anch=[_anch(s_) for s_ in sung if s_['wi'] is not None]; a0=last_anch[-1][1] if last_anch else 0.0
+    if _fits(tail,a0,END_SING):
         for t in tail: sung.append({"t":t,"wi":None,"var":None})
         print(f"хвост текста без якорей дописан: {len(tail)} слов")
+    else:
+        # по строкам: остаток строки последнего спетого слова, затем целые строки — пока буквенной массы до конца пения хватает
+        # (D 399, Фишер-Дискау: Whisper услышал одно «auf Blumen lag», второй повтор в конце строки оставался без разметки)
+        groups=[]
+        for t in tail:
+            if groups and TIDX[t][:2]==TIDX[groups[-1][-1]][:2]: groups[-1].append(t)
+            else: groups.append([t])
+        got=[]
+        for g in groups:
+            if sung_evidence(a0-0.1,END_SING+0.1,sum(len(TL[t]) for t in got+g)): got=got+g
+            else: break
+        if got:
+            for t in got: sung.append({"t":t,"wi":None,"var":None})
+            print(f"хвост дописан по строкам: {len(got)} слов ({' '.join(TW[t] for t in got)!r})")
 words=[TW[s_['t']] for s_ in sung]; li=[f"{TIDX[s_['t']][0]}:{TIDX[s_['t']][1]}" for s_ in sung]; slots=[TIDX[s_['t']][2] for s_ in sung]
 json.dump(words,open('words.json','w'),ensure_ascii=False); json.dump(li,open('lineidx.json','w')); json.dump(slots,open('slots.json','w'))
 print(f"Whisper-слов {M}, спето слов {len(sung)}, вставок {sum(1 for _,_,k in path if k=='i')}, без якоря {sum(1 for s_ in sung if s_['wi'] is None)}, вариантов {sum(1 for s_ in sung if s_['var'])}: "+", ".join(f"{TW[s_['t']]}→{s_['var']}" for s_ in sung if s_['var']))
@@ -438,7 +455,8 @@ for k,r in enumerate(ts):
     r['start']=round(s,2); r['end']=max(r['end'],r['start'])
 for k in range(K):
     if ts[k]['start']>END_SING: ts[k]['start']=round(END_SING,2)
-    if ts[k]['end']>END_SING+0.5: ts[k]['end']=round(END_SING+0.5,2)
+    if ts[k]['end']>END_SING+0.5 and k<K-1: ts[k]['end']=round(END_SING+0.5,2)
+    if k==K-1 and ts[k]['end']>SOFT_END: ts[k]['end']=round(SOFT_END,2)
 for k in range(1,K):
     if ts[k]['start']<ts[k-1]['start']+0.02: ts[k]['start']=round(ts[k-1]['start']+0.02,2)
     if ts[k]['end']<ts[k]['start']: ts[k]['end']=ts[k]['start']
@@ -452,9 +470,10 @@ def _chain_end(t,phr):
     while idx+1<len(phr) and phr[idx+1][0]-phr[idx][1]<1.0: idx+=1
     return phr[idx][1]
 for k,r in enumerate(ts):
-    nxt=ts[k+1]['start'] if k+1<K else END_SING; b=r['end']
+    nxt=ts[k+1]['start'] if k+1<K else SOFT_END; b=r['end']
     ce=_chain_end(b,_ph)
     end=b if ce is None else max(b,min(ce+0.1,b+12.0))
+    if k==K-1 and anch[k]: end=max(end,anch[k][1])   # последнее слово — не короче якоря Whisper (тихая последняя нота)
     r['end']=round(min(max(end,b),nxt),2)
 for k in range(K-1):
     if ts[k]['end']>ts[k+1]['start']: ts[k]['end']=ts[k+1]['start']

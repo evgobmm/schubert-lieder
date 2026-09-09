@@ -1,3888 +1,3888 @@
 {
- "d": "990",
- "title_de": "Der Graf von Habsburg",
- "title_ru": "Граф Габсбургский",
- "poet_de": "Friedrich Schiller",
- "poet_ru": "Фридрих Шиллер",
- "year": "1818",
- "title_annotations": [
-  {
-   "type": "meaning",
-   "text": "Граф из заглавия — Рудольф I Габсбург (1218–1291). Историю о том, как он уступил священнику коня, Шиллер нашёл в «Chronicon Helveticum» («Швейцарской хронике») Эгидия Чуди."
-  }
- ],
- "stanzas": [
-  {
-   "lines_de": [
-    "Zu Aachen in seiner Kaiserpracht,",
-    "Im alterthümlichen Saale,",
-    "Saß König Rudolphs heilige Macht",
-    "Beim festlichen Krönungsmahle.",
-    "Die Speisen trug der Pfalzgraf des Rheins,",
-    "Es schenkte der Böhme des perlenden Weins,",
-    "Und alle die Wähler, die sieben,",
-    "Wie der Sterne Chor um die Sonne sich stellt,",
-    "Umstanden geschäftig den Herrscher der Welt,",
-    "Die Würde des Amtes zu üben."
-   ],
-   "lines_ru": [
+  "d": "990",
+  "title_de": "Der Graf von Habsburg",
+  "title_ru": "Граф Габсбургский",
+  "poet_de": "Friedrich Schiller",
+  "poet_ru": "Фридрих Шиллер",
+  "year": "1818",
+  "title_annotations": [
     {
-     "segments": [
-      {
-       "ru": "В",
-       "de": "Zu"
-      },
-      {
-       "ru": "Ахене,",
-       "de": "Aachen"
-      },
-      {
-       "ru": "в",
-       "de": "in"
-      },
-      {
-       "ru": "своей",
-       "de": "seiner"
-      },
-      {
-       "ru": "императорской пышности,",
-       "de": "Kaiserpracht"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "Kaiserpracht — сложное слово из Kaiser («император») и Pracht («пышность, блеск»). Словарь Гриммов называет его «dichterwort» («поэтическое слово») и в подтверждение приводит именно эту строку Шиллера."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "В",
-       "de": "Im"
-      },
-      {
-       "ru": "старинном",
-       "de": "alterthümlichen"
-      },
-      {
-       "ru": "зале,",
-       "de": "Saale"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "alterthümlichen — старое написание нынешнего altertümlich («старинный»). Th вместо t держится в тексте повсюду: Demuth («смирение»), Thränen («слёзы»), gethan («содеянное»), Athem («дыхание») — так печатали и Шиллера, и песни Шуберта."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Восседала",
-       "de": "Saß"
-      },
-      {
-       "ru": "святая",
-       "de": "heilige"
-      },
-      {
-       "ru": "власть",
-       "de": "Macht"
-      },
-      {
-       "ru": "короля",
-       "de": "König"
-      },
-      {
-       "ru": "Рудольфа",
-       "de": "Rudolphs"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        4
-       ],
-       "text": "Вместо самого короля названа его «святая власть» — König Rudolphs heilige Macht. Родительный падеж стоит перед своим словом (König Rudolphs … Macht): такой порядок в балладе повторяется десятки раз, и по-русски его почти всегда приходится разворачивать."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "За",
-       "de": "Beim"
-      },
-      {
-       "ru": "праздничным",
-       "de": "festlichen"
-      },
-      {
-       "ru": "коронационным пиром.",
-       "de": "Krönungsmahle"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Яства",
-       "de": "Die Speisen"
-      },
-      {
-       "ru": "нёс",
-       "de": "trug"
-      },
-      {
-       "ru": "пфальцграф",
-       "de": "der Pfalzgraf"
-      },
-      {
-       "ru": "Рейнский,",
-       "de": "des Rheins"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "meaning",
-       "segment_range": [
-        2,
-        3
-       ],
-       "text": "Пфальцграф Рейнский и король Богемии — двое из семи курфюрстов, избиравших императора."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Наливал",
-       "de": "Es schenkte"
-      },
-      {
-       "ru": "богемец",
-       "de": "der Böhme"
-      },
-      {
-       "ru": "искристого",
-       "de": "des perlenden"
-      },
-      {
-       "ru": "вина,",
-       "de": "Weins"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Es здесь — пустое «оно», которое только занимает первое место в строке, чтобы глагол остался вторым; по-русски ему ничего не соответствует. Настоящее подлежащее — der Böhme («богемец»)."
-      },
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        3
-       ],
-       "text": "schenken в старом языке — «наливать, подносить питьё» (отсюда Schenke — «трактир»); у Гриммов это разливание названо службой, причитавшейся королю Богемии. Родительный des perlenden Weins — «вина», а не «вино»: часть налитого."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "все",
-       "de": "alle"
-      },
-      {
-       "ru": "курфюрсты,",
-       "de": "die Wähler"
-      },
-      {
-       "ru": "семеро,",
-       "de": "die sieben"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "Wähler буквально — «выбирающие»; словарь Гриммов даёт это слово как немецкое соответствие латинскому elector, то есть «курфюрст», выборщик императора."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Как",
-       "de": "Wie"
-      },
-      {
-       "ru": "звёзд",
-       "de": "der Sterne"
-      },
-      {
-       "ru": "сонм",
-       "de": "Chor"
-      },
-      {
-       "ru": "вокруг",
-       "de": "um"
-      },
-      {
-       "ru": "солнца",
-       "de": "die Sonne"
-      },
-      {
-       "ru": "становится,",
-       "de": "sich stellt"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "Chor в эпоху не обязательно поющий: у Гриммов отдельно выделено значение «круг, вереница, множество» без всякой связи с пением. Звёзды здесь стоят кругом — как курфюрсты вокруг императора."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Обступили",
-       "de": "Umstanden"
-      },
-      {
-       "ru": "усердно",
-       "de": "geschäftig"
-      },
-      {
-       "ru": "властителя",
-       "de": "den Herrscher"
-      },
-      {
-       "ru": "мира,",
-       "de": "der Welt"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Чтобы",
-       "de": ""
-      },
-      {
-       "ru": "достоинство",
-       "de": "Die Würde"
-      },
-      {
-       "ru": "должности",
-       "de": "des Amtes"
-      },
-      {
-       "ru": "исполнять.",
-       "de": "zu üben"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "zu üben — инфинитив цели, по-русски он требует союза «чтобы», которого в немецком нет. Сам глагол üben около 1800 года значил «отправлять, исполнять» службу или обязанность, а не «упражняться»."
-      }
-     ]
+      "type": "meaning",
+      "text": "Граф из заглавия — Рудольф I Габсбург (1218–1291). Историю о том, как он уступил священнику коня, Шиллер нашёл в «Chronicon Helveticum» («Швейцарской хронике») Эгидия Чуди."
     }
-   ]
-  },
-  {
-   "lines_de": [
-    "Und rings erfüllte den hohen Balcon",
-    "Das Volk in freud&#039;gem Gedränge;",
-    "Laut mischte sich in der Posaunen Ton",
-    "Das jauchzende Rufen der Menge;",
-    "Denn geendigt nach langem verderblichen Streit",
-    "War die kaiserlose, die schreckliche Zeit,",
-    "Und ein Richter war wieder auf Erden.",
-    "Nicht blind mehr waltet der eiserne Speer,",
-    "Nicht fürchtet der Schwache, der Friedliche mehr,",
-    "Des Mächtigen Beute zu werden."
-   ],
-   "lines_ru": [
+  ],
+  "stanzas": [
     {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "кругом",
-       "de": "rings"
-      },
-      {
-       "ru": "наполнял",
-       "de": "erfüllte"
-      },
-      {
-       "ru": "высокий",
-       "de": "den hohen"
-      },
-      {
-       "ru": "балкон",
-       "de": "Balcon"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "Zu Aachen in seiner Kaiserpracht,",
+        "Im alterthümlichen Saale,",
+        "Saß König Rudolphs heilige Macht",
+        "Beim festlichen Krönungsmahle.",
+        "Die Speisen trug der Pfalzgraf des Rheins,",
+        "Es schenkte der Böhme des perlenden Weins,",
+        "Und alle die Wähler, die sieben,",
+        "Wie der Sterne Chor um die Sonne sich stellt,",
+        "Umstanden geschäftig den Herrscher der Welt,",
+        "Die Würde des Amtes zu üben."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "В",
+              "de": "Zu"
+            },
+            {
+              "ru": "Ахене,",
+              "de": "Aachen"
+            },
+            {
+              "ru": "в",
+              "de": "in"
+            },
+            {
+              "ru": "своей",
+              "de": "seiner"
+            },
+            {
+              "ru": "императорской пышности,",
+              "de": "Kaiserpracht"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "Kaiserpracht — сложное слово из Kaiser («император») и Pracht («пышность, блеск»). Словарь Гриммов называет его «dichterwort» («поэтическое слово») и в подтверждение приводит именно эту строку Шиллера."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "В",
+              "de": "Im"
+            },
+            {
+              "ru": "старинном",
+              "de": "alterthümlichen"
+            },
+            {
+              "ru": "зале,",
+              "de": "Saale"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "alterthümlichen — старое написание нынешнего altertümlich («старинный»). Th вместо t держится в тексте повсюду: Demuth («смирение»), Thränen («слёзы»), gethan («содеянное»), Athem («дыхание») — так печатали и Шиллера, и песни Шуберта."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Восседала",
+              "de": "Saß"
+            },
+            {
+              "ru": "святая",
+              "de": "heilige"
+            },
+            {
+              "ru": "власть",
+              "de": "Macht"
+            },
+            {
+              "ru": "короля",
+              "de": "König"
+            },
+            {
+              "ru": "Рудольфа",
+              "de": "Rudolphs"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                4
+              ],
+              "text": "Вместо самого короля названа его «святая власть» — König Rudolphs heilige Macht. Родительный падеж стоит перед своим словом (König Rudolphs … Macht): такой порядок в балладе повторяется десятки раз, и по-русски его почти всегда приходится разворачивать."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "За",
+              "de": "Beim"
+            },
+            {
+              "ru": "праздничным",
+              "de": "festlichen"
+            },
+            {
+              "ru": "коронационным пиром.",
+              "de": "Krönungsmahle"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Яства",
+              "de": "Die Speisen"
+            },
+            {
+              "ru": "нёс",
+              "de": "trug"
+            },
+            {
+              "ru": "пфальцграф",
+              "de": "der Pfalzgraf"
+            },
+            {
+              "ru": "Рейнский,",
+              "de": "des Rheins"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [
+                2,
+                3
+              ],
+              "text": "Пфальцграф Рейнский и король Богемии — двое из семи курфюрстов, избиравших императора."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Наливал",
+              "de": "Es schenkte"
+            },
+            {
+              "ru": "богемец",
+              "de": "der Böhme"
+            },
+            {
+              "ru": "искристого",
+              "de": "des perlenden"
+            },
+            {
+              "ru": "вина,",
+              "de": "Weins"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Es здесь — пустое «оно», которое только занимает первое место в строке, чтобы глагол остался вторым; по-русски ему ничего не соответствует. Настоящее подлежащее — der Böhme («богемец»)."
+            },
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                3
+              ],
+              "text": "schenken в старом языке — «наливать, подносить питьё» (отсюда Schenke — «трактир»); у Гриммов это разливание названо службой, причитавшейся королю Богемии. Родительный des perlenden Weins — «вина», а не «вино»: часть налитого."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "все",
+              "de": "alle"
+            },
+            {
+              "ru": "курфюрсты,",
+              "de": "die Wähler"
+            },
+            {
+              "ru": "семеро,",
+              "de": "die sieben"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "Wähler буквально — «выбирающие»; словарь Гриммов даёт это слово как немецкое соответствие латинскому elector, то есть «курфюрст», выборщик императора."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Как",
+              "de": "Wie"
+            },
+            {
+              "ru": "звёзд",
+              "de": "der Sterne"
+            },
+            {
+              "ru": "сонм",
+              "de": "Chor"
+            },
+            {
+              "ru": "вокруг",
+              "de": "um"
+            },
+            {
+              "ru": "солнца",
+              "de": "die Sonne"
+            },
+            {
+              "ru": "становится,",
+              "de": "sich stellt"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "Chor в эпоху не обязательно поющий: у Гриммов отдельно выделено значение «круг, вереница, множество» без всякой связи с пением. Звёзды здесь стоят кругом — как курфюрсты вокруг императора."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Обступили",
+              "de": "Umstanden"
+            },
+            {
+              "ru": "усердно",
+              "de": "geschäftig"
+            },
+            {
+              "ru": "властителя",
+              "de": "den Herrscher"
+            },
+            {
+              "ru": "мира,",
+              "de": "der Welt"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Чтобы",
+              "de": ""
+            },
+            {
+              "ru": "достоинство",
+              "de": "Die Würde"
+            },
+            {
+              "ru": "должности",
+              "de": "des Amtes"
+            },
+            {
+              "ru": "исполнять.",
+              "de": "zu üben"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "zu üben — инфинитив цели, по-русски он требует союза «чтобы», которого в немецком нет. Сам глагол üben около 1800 года значил «отправлять, исполнять» службу или обязанность, а не «упражняться»."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Народ",
-       "de": "Das Volk"
-      },
-      {
-       "ru": "в",
-       "de": "in"
-      },
-      {
-       "ru": "радостной",
-       "de": "freud&#039;gem"
-      },
-      {
-       "ru": "давке;",
-       "de": "Gedränge"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "freud'gem — это freudigem («радостном») с выпавшим слогом: апостроф отмечает букву, выброшенную ради размера. Такие стяжения в балладе на каждом шагу — werd', hab', mög', dächt'."
-      }
-     ]
+      "lines_de": [
+        "Und rings erfüllte den hohen Balcon",
+        "Das Volk in freud&#039;gem Gedränge;",
+        "Laut mischte sich in der Posaunen Ton",
+        "Das jauchzende Rufen der Menge;",
+        "Denn geendigt nach langem verderblichen Streit",
+        "War die kaiserlose, die schreckliche Zeit,",
+        "Und ein Richter war wieder auf Erden.",
+        "Nicht blind mehr waltet der eiserne Speer,",
+        "Nicht fürchtet der Schwache, der Friedliche mehr,",
+        "Des Mächtigen Beute zu werden."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "кругом",
+              "de": "rings"
+            },
+            {
+              "ru": "наполнял",
+              "de": "erfüllte"
+            },
+            {
+              "ru": "высокий",
+              "de": "den hohen"
+            },
+            {
+              "ru": "балкон",
+              "de": "Balcon"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Народ",
+              "de": "Das Volk"
+            },
+            {
+              "ru": "в",
+              "de": "in"
+            },
+            {
+              "ru": "радостной",
+              "de": "freud&#039;gem"
+            },
+            {
+              "ru": "давке;",
+              "de": "Gedränge"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "freud'gem — это freudigem («радостном») с выпавшим слогом: апостроф отмечает букву, выброшенную ради размера. Такие стяжения в балладе на каждом шагу — werd', hab', mög', dächt'."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Громко",
+              "de": "Laut"
+            },
+            {
+              "ru": "примешивался",
+              "de": "mischte sich"
+            },
+            {
+              "ru": "к",
+              "de": "in"
+            },
+            {
+              "ru": "звуку",
+              "de": "Ton"
+            },
+            {
+              "ru": "труб",
+              "de": "der Posaunen"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Ликующий",
+              "de": "Das jauchzende"
+            },
+            {
+              "ru": "клич",
+              "de": "Rufen"
+            },
+            {
+              "ru": "толпы;",
+              "de": "der Menge"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Ибо",
+              "de": "Denn"
+            },
+            {
+              "ru": "окончено",
+              "de": "geendigt"
+            },
+            {
+              "ru": "после",
+              "de": "nach"
+            },
+            {
+              "ru": "долгой",
+              "de": "langem"
+            },
+            {
+              "ru": "губительной",
+              "de": "verderblichen"
+            },
+            {
+              "ru": "распри",
+              "de": "Streit"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                5,
+                5
+              ],
+              "text": "Streit здесь не «спор»: в старом языке слово значило вооружённую борьбу, войну. Словарь DWDS помечает это значение как устаревшее — у Шиллера речь идёт о десятилетиях междоусобицы."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Было",
+              "de": "War"
+            },
+            {
+              "ru": "безымператорское,",
+              "de": "die kaiserlose"
+            },
+            {
+              "ru": "страшное",
+              "de": "die schreckliche"
+            },
+            {
+              "ru": "время,",
+              "de": "Zeit"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Глагольная рамка разорвана концом строки: причастие geendigt стоит в предыдущем стихе, а вспомогательное war — в этом. По-русски то же самое: «окончено … было»."
+            },
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "kaiserlos — «без императора». Слово редкое настолько, что словарь Гриммов иллюстрирует его этой самой строкой: die kaiserlose, die schreckliche zeit."
+            },
+            {
+              "type": "meaning",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "«Безымператорское, страшное время» — междуцарствие: как поясняет справочник schubertsong.uk, примерно с 1246 по 1273 год империей правили слабые и оспариваемые государи, и коронование Рудольфа положило этому конец."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "судья",
+              "de": "ein Richter"
+            },
+            {
+              "ru": "был",
+              "de": "war"
+            },
+            {
+              "ru": "снова",
+              "de": "wieder"
+            },
+            {
+              "ru": "на",
+              "de": "auf"
+            },
+            {
+              "ru": "земле.",
+              "de": "Erden"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Уже не",
+              "de": "Nicht... mehr"
+            },
+            {
+              "ru": "слепо",
+              "de": "blind"
+            },
+            {
+              "ru": "правит",
+              "de": "waltet"
+            },
+            {
+              "ru": "железное",
+              "de": "der eiserne"
+            },
+            {
+              "ru": "копьё,",
+              "de": "Speer"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "nicht … mehr значит «уже не»: связку приходится переводить целиком, отдельного русского слова у mehr тут нет. В следующей строке Шиллер повторяет тот же оборот."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Уже не",
+              "de": "Nicht... mehr"
+            },
+            {
+              "ru": "боится",
+              "de": "fürchtet"
+            },
+            {
+              "ru": "слабый,",
+              "de": "der Schwache"
+            },
+            {
+              "ru": "мирный,",
+              "de": "der Friedliche"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Добычей",
+              "de": "Beute"
+            },
+            {
+              "ru": "могущественного",
+              "de": "Des Mächtigen"
+            },
+            {
+              "ru": "стать.",
+              "de": "zu werden"
+            }
+          ],
+          "annotations": []
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Громко",
-       "de": "Laut"
-      },
-      {
-       "ru": "примешивался",
-       "de": "mischte sich"
-      },
-      {
-       "ru": "к",
-       "de": "in"
-      },
-      {
-       "ru": "звуку",
-       "de": "Ton"
-      },
-      {
-       "ru": "труб",
-       "de": "der Posaunen"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "Und der Kaiser ergreift den goldnen Pokal",
+        "Und spricht mit zufriedenen Blicken:",
+        "»Wohl glänzet das Fest, wohl pranget das Mahl,",
+        "Mein königlich Herz zu entzücken;",
+        "Doch den Sänger vermiss&#039; ich, den Bringer der Lust,",
+        "Der mit süßem Klang mir bewege die Brust",
+        "Und mit göttlich erhabenen Lehren.",
+        "So hab&#039; ich&#039;s gehalten von Jugend an,",
+        "Und was ich als Ritter gepflegt und gethan,",
+        "Nicht will ich&#039;s als Kaiser entbehren.«"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "император",
+              "de": "der Kaiser"
+            },
+            {
+              "ru": "берёт",
+              "de": "ergreift"
+            },
+            {
+              "ru": "золотой",
+              "de": "den goldnen"
+            },
+            {
+              "ru": "кубок",
+              "de": "Pokal"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "говорит",
+              "de": "spricht"
+            },
+            {
+              "ru": "с",
+              "de": "mit"
+            },
+            {
+              "ru": "довольными",
+              "de": "zufriedenen"
+            },
+            {
+              "ru": "взорами:",
+              "de": "Blicken"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "«Славно",
+              "de": "»Wohl"
+            },
+            {
+              "ru": "сияет",
+              "de": "glänzet"
+            },
+            {
+              "ru": "праздник,",
+              "de": "das Fest"
+            },
+            {
+              "ru": "славно",
+              "de": "wohl"
+            },
+            {
+              "ru": "блистает",
+              "de": "pranget"
+            },
+            {
+              "ru": "пир,",
+              "de": "das Mahl"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Чтобы",
+              "de": ""
+            },
+            {
+              "ru": "моё",
+              "de": "Mein"
+            },
+            {
+              "ru": "королевское",
+              "de": "königlich"
+            },
+            {
+              "ru": "сердце",
+              "de": "Herz"
+            },
+            {
+              "ru": "восхитить;",
+              "de": "zu entzücken"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "entzücken в эпоху сильнее нынешнего салонного «прелестно»: исходно глагол значил «вырвать, похитить», у мистиков — восхищение души из тела. Император просит потрясения."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Но",
+              "de": "Doch"
+            },
+            {
+              "ru": "певца",
+              "de": "den Sänger"
+            },
+            {
+              "ru": "мне",
+              "de": "ich"
+            },
+            {
+              "ru": "недостаёт,",
+              "de": "vermiss&#039;"
+            },
+            {
+              "ru": "подателя",
+              "de": "den Bringer"
+            },
+            {
+              "ru": "отрады,",
+              "de": "der Lust"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "vermissen управляет винительным падежом: буквально «я недосчитываюсь певца». По-русски естественнее безличное «мне недостаёт», поэтому ich стало «мне»."
+            },
+            {
+              "type": "lang",
+              "segment_range": [
+                5,
+                5
+              ],
+              "text": "Lust около 1800 года — прежде всего «радость, отрада», и лишь во вторую очередь «желание». Сегодняшний крен слова в сторону вожделения к этим текстам не относится."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Кто",
+              "de": "Der"
+            },
+            {
+              "ru": "сладостным",
+              "de": "mit süßem"
+            },
+            {
+              "ru": "звуком",
+              "de": "Klang"
+            },
+            {
+              "ru": "мне",
+              "de": "mir"
+            },
+            {
+              "ru": "тронул бы",
+              "de": "bewege"
+            },
+            {
+              "ru": "грудь",
+              "de": "die Brust"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "bewege — конъюнктив желания: певец, который тронул бы. Такое наклонение в придаточном после «мне недостаёт» описывает желаемое, которого пока нет."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "божественно",
+              "de": "mit göttlich"
+            },
+            {
+              "ru": "возвышенными",
+              "de": "erhabenen"
+            },
+            {
+              "ru": "поучениями.",
+              "de": "Lehren"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Так",
+              "de": "So"
+            },
+            {
+              "ru": "держался",
+              "de": "hab&#039;... gehalten"
+            },
+            {
+              "ru": "я этого",
+              "de": "ich&#039;s"
+            },
+            {
+              "ru": "с юности,",
+              "de": "von Jugend an"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                2
+              ],
+              "text": "hab' … gehalten — разорванная глагольная рамка: вспомогательный глагол в начале, смысловое причастие в конце. Между ними втиснуто ich's, то есть ich es («я этого»)."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "что",
+              "de": "was"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "как",
+              "de": "als"
+            },
+            {
+              "ru": "рыцарь",
+              "de": "Ritter"
+            },
+            {
+              "ru": "блюл",
+              "de": "gepflegt"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "делал,",
+              "de": "gethan"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Того я",
+              "de": "ich&#039;s"
+            },
+            {
+              "ru": "не",
+              "de": "Nicht"
+            },
+            {
+              "ru": "хочу",
+              "de": "will"
+            },
+            {
+              "ru": "как император",
+              "de": "als Kaiser"
+            },
+            {
+              "ru": "лишиться.»",
+              "de": "entbehren"
+            }
+          ],
+          "annotations": []
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Ликующий",
-       "de": "Das jauchzende"
-      },
-      {
-       "ru": "клич",
-       "de": "Rufen"
-      },
-      {
-       "ru": "толпы;",
-       "de": "der Menge"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "Und sieh! in der Fürsten umgebenden Kreis",
+        "Trat der Sänger im langen Talare;",
+        "Ihm glänzte die Locke silberweiß,",
+        "Gebleicht von der Fülle der Jahre.",
+        "»Süßer Wohllaut schläft in der Saiten Gold,",
+        "Der Sänger singt von der Minne Sold,",
+        "Er preiset das Höchste, das Beste,",
+        "Was das Herz sich wünscht, was der Sinn begehrt;",
+        "Doch sage, was ist des Kaisers werth",
+        "An seinem herrlichsten Feste?« –"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "гляди!",
+              "de": "sieh"
+            },
+            {
+              "ru": "в",
+              "de": "in"
+            },
+            {
+              "ru": "окружающий",
+              "de": "umgebenden"
+            },
+            {
+              "ru": "круг",
+              "de": "Kreis"
+            },
+            {
+              "ru": "князей",
+              "de": "der Fürsten"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                5
+              ],
+              "text": "der Fürsten umgebenden Kreis — «круг, который образуют обступившие князья». Родительный der Fürsten вынесен вперёд и оторван от своего слова: по-русски порядок приходится собирать заново."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Вступил",
+              "de": "Trat"
+            },
+            {
+              "ru": "певец",
+              "de": "der Sänger"
+            },
+            {
+              "ru": "в",
+              "de": "im"
+            },
+            {
+              "ru": "длинной",
+              "de": "langen"
+            },
+            {
+              "ru": "мантии;",
+              "de": "Talare"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "Talar — долгополое торжественное одеяние, какое носили учёные, судьи, священники. Словарь Гриммов поясняет слово именно этой строкой Шиллера."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Локон",
+              "de": "die Locke"
+            },
+            {
+              "ru": "у него",
+              "de": "Ihm"
+            },
+            {
+              "ru": "сиял",
+              "de": "glänzte"
+            },
+            {
+              "ru": "серебристо-белый,",
+              "de": "silberweiß"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "Ihm — дательный принадлежности: «у него сиял локон». Русский в таких случаях выбирает «у него» или притяжательное «его»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Побелевший",
+              "de": "Gebleicht"
+            },
+            {
+              "ru": "от обилия",
+              "de": "von der Fülle"
+            },
+            {
+              "ru": "лет.",
+              "de": "der Jahre"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "«Сладостное",
+              "de": "»Süßer"
+            },
+            {
+              "ru": "благозвучие",
+              "de": "Wohllaut"
+            },
+            {
+              "ru": "спит",
+              "de": "schläft"
+            },
+            {
+              "ru": "в",
+              "de": "in"
+            },
+            {
+              "ru": "золоте",
+              "de": "Gold"
+            },
+            {
+              "ru": "струн,",
+              "de": "der Saiten"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "süß о звуке и чувстве — «сладостный»: расширение вкусового слова на музыку немецкий проделал задолго до Шиллера. Нынешнее süß («милый, симпатичный») к этим строкам отношения не имеет."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Певец",
+              "de": "Der Sänger"
+            },
+            {
+              "ru": "поёт",
+              "de": "singt"
+            },
+            {
+              "ru": "о",
+              "de": "von"
+            },
+            {
+              "ru": "награде",
+              "de": "Sold"
+            },
+            {
+              "ru": "любви,",
+              "de": "der Minne"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                4
+              ],
+              "text": "Minne — куртуазная любовь миннезингеров, слово уже во времена Шиллера архаичное. Sold — жалованье воину; вместе выходит «плата за служение любви», рыцарский оборот, а не бытовая награда."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Он",
+              "de": "Er"
+            },
+            {
+              "ru": "славит",
+              "de": "preiset"
+            },
+            {
+              "ru": "высшее,",
+              "de": "das Höchste"
+            },
+            {
+              "ru": "лучшее,",
+              "de": "das Beste"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Чего",
+              "de": "Was"
+            },
+            {
+              "ru": "сердце",
+              "de": "das Herz"
+            },
+            {
+              "ru": "себе",
+              "de": "sich"
+            },
+            {
+              "ru": "желает,",
+              "de": "wünscht"
+            },
+            {
+              "ru": "чего",
+              "de": "was"
+            },
+            {
+              "ru": "рассудок",
+              "de": "der Sinn"
+            },
+            {
+              "ru": "жаждет;",
+              "de": "begehrt"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Но",
+              "de": "Doch"
+            },
+            {
+              "ru": "скажи,",
+              "de": "sage"
+            },
+            {
+              "ru": "что",
+              "de": "was"
+            },
+            {
+              "ru": "достойно",
+              "de": "ist... werth"
+            },
+            {
+              "ru": "императора",
+              "de": "des Kaisers"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                4
+              ],
+              "text": "werth (нынешнее wert) управляет родительным падежом: des Kaisers werth — «достойно императора». Речь о том, что подобает государю на его празднике."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "На",
+              "de": "An"
+            },
+            {
+              "ru": "его",
+              "de": "seinem"
+            },
+            {
+              "ru": "великолепнейшем",
+              "de": "herrlichsten"
+            },
+            {
+              "ru": "празднике?» —",
+              "de": "Feste"
+            }
+          ],
+          "annotations": []
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Ибо",
-       "de": "Denn"
-      },
-      {
-       "ru": "окончено",
-       "de": "geendigt"
-      },
-      {
-       "ru": "после",
-       "de": "nach"
-      },
-      {
-       "ru": "долгой",
-       "de": "langem"
-      },
-      {
-       "ru": "губительной",
-       "de": "verderblichen"
-      },
-      {
-       "ru": "распри",
-       "de": "Streit"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        5,
-        5
-       ],
-       "text": "Streit здесь не «спор»: в старом языке слово значило вооружённую борьбу, войну. Словарь DWDS помечает это значение как устаревшее — у Шиллера речь идёт о десятилетиях междоусобицы."
-      }
-     ]
+      "lines_de": [
+        "»Nicht gebieten werd&#039; ich dem Sänger,« spricht",
+        "Der Herrscher mit lächelndem Munde,",
+        "»Er steht in des größeren Herren Pflicht,",
+        "Er gehorcht der gebiethenden Stunde.",
+        "Wie in den Lüften der Sturmwind saust,",
+        "Man weiß nicht, von wannen er kommt und braust,",
+        "Wie der Quell aus verborgenen Tiefen,",
+        "So des Sängers Lied aus dem Innern schallt",
+        "Und wecket der dunkeln Gefühle Gewalt,",
+        "Die im Herzen wunderbar schliefen.«"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "«Не",
+              "de": "»Nicht"
+            },
+            {
+              "ru": "стану",
+              "de": "werd&#039;"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "повелевать",
+              "de": "gebieten"
+            },
+            {
+              "ru": "певцу»,",
+              "de": "dem Sänger"
+            },
+            {
+              "ru": "— говорит",
+              "de": "spricht"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "werd' — усечённое werde: будущее время, которое немецкий строит из werden и инфинитива. По-русски выходит «стану повелевать»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Властитель",
+              "de": "Der Herrscher"
+            },
+            {
+              "ru": "с",
+              "de": "mit"
+            },
+            {
+              "ru": "улыбающимися",
+              "de": "lächelndem"
+            },
+            {
+              "ru": "устами,",
+              "de": "Munde"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "«Он",
+              "de": "»Er"
+            },
+            {
+              "ru": "состоит",
+              "de": "steht"
+            },
+            {
+              "ru": "в",
+              "de": "in"
+            },
+            {
+              "ru": "долгу",
+              "de": "Pflicht"
+            },
+            {
+              "ru": "у высшего",
+              "de": "des größeren"
+            },
+            {
+              "ru": "Господина,",
+              "de": "Herren"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                5
+              ],
+              "text": "des größeren Herren — сравнительная степень: господин, который больше самого императора, то есть Бог. Herr в религиозном чтении по-русски требует прописной буквы — «Господин», «Господь»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Он",
+              "de": "Er"
+            },
+            {
+              "ru": "повинуется",
+              "de": "gehorcht"
+            },
+            {
+              "ru": "повелевающему",
+              "de": "der gebiethenden"
+            },
+            {
+              "ru": "часу.",
+              "de": "Stunde"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "Stunde в поэзии эпохи — «пора, срок», шире шестидесяти минут: у Гриммов это прямо «zeitpunkt, zeitraum, zeit» («миг, отрезок времени, время вообще»)."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Как",
+              "de": "Wie"
+            },
+            {
+              "ru": "в",
+              "de": "in"
+            },
+            {
+              "ru": "воздухе",
+              "de": "den Lüften"
+            },
+            {
+              "ru": "буря",
+              "de": "der Sturmwind"
+            },
+            {
+              "ru": "шумит,",
+              "de": "saust"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Не",
+              "de": "nicht"
+            },
+            {
+              "ru": "знаешь,",
+              "de": "Man weiß"
+            },
+            {
+              "ru": "откуда",
+              "de": "von wannen"
+            },
+            {
+              "ru": "она",
+              "de": "er"
+            },
+            {
+              "ru": "приходит",
+              "de": "kommt"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "бушует,",
+              "de": "braust"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                2
+              ],
+              "text": "man weiß nicht — неопределённо-личное «не знаешь, неведомо»; слова «человек» тут нет. von wannen — старое «откуда» (нынешнее woher), к временам Шиллера уже архаизм высокого слога."
+            },
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "er — это Sturmwind, буря; немецкое слово мужского рода, русское женского, поэтому местоимение меняет род."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Как",
+              "de": "Wie"
+            },
+            {
+              "ru": "источник",
+              "de": "der Quell"
+            },
+            {
+              "ru": "из",
+              "de": "aus"
+            },
+            {
+              "ru": "сокровенных",
+              "de": "verborgenen"
+            },
+            {
+              "ru": "глубин,",
+              "de": "Tiefen"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "der Quell — поэтический мужской двойник обычного die Quelle («источник»). Род обманчив, но это примета высокого слога."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Так",
+              "de": "So"
+            },
+            {
+              "ru": "песнь",
+              "de": "Lied"
+            },
+            {
+              "ru": "певца",
+              "de": "des Sängers"
+            },
+            {
+              "ru": "изнутри",
+              "de": "aus dem Innern"
+            },
+            {
+              "ru": "звучит",
+              "de": "schallt"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "пробуждает",
+              "de": "wecket"
+            },
+            {
+              "ru": "тёмных",
+              "de": "der dunkeln"
+            },
+            {
+              "ru": "чувств",
+              "de": "Gefühle"
+            },
+            {
+              "ru": "власть,",
+              "de": "Gewalt"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "Gewalt — «власть, превосходящая сила», а не «насилие»: этот сдвиг слово пережило позже. У Аделунга первое значение — «Überlegene Macht» («превосходящая сила»)."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Что",
+              "de": "Die"
+            },
+            {
+              "ru": "в сердце",
+              "de": "im Herzen"
+            },
+            {
+              "ru": "чудесно",
+              "de": "wunderbar"
+            },
+            {
+              "ru": "спали.»",
+              "de": "schliefen"
+            }
+          ],
+          "annotations": []
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Было",
-       "de": "War"
-      },
-      {
-       "ru": "безымператорское,",
-       "de": "die kaiserlose"
-      },
-      {
-       "ru": "страшное",
-       "de": "die schreckliche"
-      },
-      {
-       "ru": "время,",
-       "de": "Zeit"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Глагольная рамка разорвана концом строки: причастие geendigt стоит в предыдущем стихе, а вспомогательное war — в этом. По-русски то же самое: «окончено … было»."
-      },
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "kaiserlos — «без императора». Слово редкое настолько, что словарь Гриммов иллюстрирует его этой самой строкой: die kaiserlose, die schreckliche zeit."
-      },
-      {
-       "type": "meaning",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "«Безымператорское, страшное время» — междуцарствие: как поясняет справочник schubertsong.uk, примерно с 1246 по 1273 год империей правили слабые и оспариваемые государи, и коронование Рудольфа положило этому конец."
-      }
-     ]
+      "lines_de": [
+        "Und der Sänger rasch in die Saiten fällt",
+        "Und beginnt sie mächtig zu schlagen:",
+        "»Aufs Waidwerk hinaus ritt ein edler Held,",
+        "Den flüchtigen Gemsbock zu jagen.",
+        "Ihm folgte der Knapp mit dem Jägergeschoß,",
+        "Und als er auf seinem stattlichen Roß",
+        "In eine Au kommt geritten,",
+        "Ein Glöcklein hört er erklingen fern;",
+        "Ein Priester war&#039;s mit dem Leib des Herrn,",
+        "Voran kam der Meßner geschritten."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "певец",
+              "de": "der Sänger"
+            },
+            {
+              "ru": "стремительно",
+              "de": "rasch"
+            },
+            {
+              "ru": "по струнам",
+              "de": "in die Saiten"
+            },
+            {
+              "ru": "ударяет",
+              "de": "fällt"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                4
+              ],
+              "text": "in die Saiten fallen — устойчивый оборот «ударить по струнам», а не «упасть». Глагол падения передаёт резкость первого аккорда."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "начинает",
+              "de": "beginnt"
+            },
+            {
+              "ru": "по ним",
+              "de": "sie"
+            },
+            {
+              "ru": "мощно",
+              "de": "mächtig"
+            },
+            {
+              "ru": "бить:",
+              "de": "zu schlagen"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "«На",
+              "de": "»Aufs"
+            },
+            {
+              "ru": "охоту",
+              "de": "Waidwerk"
+            },
+            {
+              "ru": "выехал",
+              "de": "hinaus... ritt"
+            },
+            {
+              "ru": "благородный",
+              "de": "ein edler"
+            },
+            {
+              "ru": "витязь,",
+              "de": "Held"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                2
+              ],
+              "text": "Waidwerk (нынешнее Weidwerk) — охотничье ремесло, охота как занятие. hinaus … ritt — рамка: «выехал наружу», прочь от замка, в поля."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Чтобы",
+              "de": ""
+            },
+            {
+              "ru": "гнать",
+              "de": "zu jagen"
+            },
+            {
+              "ru": "быстроногую",
+              "de": "Den flüchtigen"
+            },
+            {
+              "ru": "серну.",
+              "de": "Gemsbock"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "Gemsbock — самец серны, добыча горной охоты; flüchtig о звере — «спасающийся бегством, быстроногий». jagen с прямым дополнением значит «гнать, травить» вот этого зверя."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "За ним",
+              "de": "Ihm"
+            },
+            {
+              "ru": "следовал",
+              "de": "folgte"
+            },
+            {
+              "ru": "оруженосец",
+              "de": "der Knapp"
+            },
+            {
+              "ru": "с",
+              "de": "mit"
+            },
+            {
+              "ru": "охотничьим оружием,",
+              "de": "dem Jägergeschoß"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "Knapp — усечённое Knappe, оруженосец, юноша при рыцаре. Не путать с прилагательным knapp («скудный, тесный»), которое пишется так же."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "когда",
+              "de": "als"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "на",
+              "de": "auf"
+            },
+            {
+              "ru": "своём",
+              "de": "seinem"
+            },
+            {
+              "ru": "статном",
+              "de": "stattlichen"
+            },
+            {
+              "ru": "коне",
+              "de": "Roß"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                6,
+                6
+              ],
+              "text": "Roß — возвышенное слово для коня, в противоположность прозаическому Pferd. Через несколько строф Шиллер назовёт лошадь оруженосца просто Thier («животное») — разница сословная."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "В",
+              "de": "In"
+            },
+            {
+              "ru": "луг",
+              "de": "eine Au"
+            },
+            {
+              "ru": "въезжает верхом,",
+              "de": "kommt geritten"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                2
+              ],
+              "text": "Au — поэтическое усечение от Aue, пойменный луг у воды. kommen с причастием (kommt geritten) обозначает способ появления: «приезжает верхом»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Слышит",
+              "de": "hört"
+            },
+            {
+              "ru": "он,",
+              "de": "er"
+            },
+            {
+              "ru": "как звенит",
+              "de": "erklingen"
+            },
+            {
+              "ru": "колокольчик",
+              "de": "Ein Glöcklein"
+            },
+            {
+              "ru": "вдали;",
+              "de": "fern"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "hören с чистым инфинитивом (hört … erklingen) — конструкция восприятия: по-русски она разворачивается в придаточное «слышит, как звенит»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Это был",
+              "de": "war&#039;s"
+            },
+            {
+              "ru": "священник",
+              "de": "Ein Priester"
+            },
+            {
+              "ru": "с",
+              "de": "mit"
+            },
+            {
+              "ru": "телом",
+              "de": "dem Leib"
+            },
+            {
+              "ru": "Господним,",
+              "de": "des Herrn"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                4
+              ],
+              "text": "der Leib des Herrn — Тело Господне, то есть святые дары, которые священник несёт умирающему. Leib здесь именно «тело», не бытовой «живот» нынешнего немецкого."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Впереди",
+              "de": "Voran"
+            },
+            {
+              "ru": "шествовал",
+              "de": "kam... geschritten"
+            },
+            {
+              "ru": "пономарь.",
+              "de": "der Meßner"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "Meßner — южнонемецкое слово для причётника, пономаря, церковного служки."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "судья",
-       "de": "ein Richter"
-      },
-      {
-       "ru": "был",
-       "de": "war"
-      },
-      {
-       "ru": "снова",
-       "de": "wieder"
-      },
-      {
-       "ru": "на",
-       "de": "auf"
-      },
-      {
-       "ru": "земле.",
-       "de": "Erden"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "»Und der Graf zur Erde sich neiget hin,",
+        "Das Haupt mit Demuth entblößet,",
+        "Zu verehren mit gläubigem Christensinn,",
+        "Was alle Menschen erlöset.",
+        "Ein Bächlein aber rauschte durchs Feld,",
+        "Von des Gießbachs reißenden Fluthen geschwellt,",
+        "Das hemmte der Wanderer Tritte;",
+        "Und beiseit legt Jener das Sacrament,",
+        "Von den Füßen zieht er die Schuhe behend",
+        "Damit er das Bächlein durchschritte."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "«И",
+              "de": "»Und"
+            },
+            {
+              "ru": "граф",
+              "de": "der Graf"
+            },
+            {
+              "ru": "к земле",
+              "de": "zur Erde"
+            },
+            {
+              "ru": "склоняется,",
+              "de": "sich neiget hin"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Главу",
+              "de": "Das Haupt"
+            },
+            {
+              "ru": "со",
+              "de": "mit"
+            },
+            {
+              "ru": "смирением",
+              "de": "Demuth"
+            },
+            {
+              "ru": "обнажив,",
+              "de": "entblößet"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                0
+              ],
+              "text": "Haupt — высокое слово для головы рядом с обиходным Kopf; Гриммы прямо отмечают, что для одного латинского caput у немецкого есть два слова. Русское «глава» держит тот же уровень слога."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Чтобы",
+              "de": ""
+            },
+            {
+              "ru": "чтить",
+              "de": "Zu verehren"
+            },
+            {
+              "ru": "с",
+              "de": "mit"
+            },
+            {
+              "ru": "благочестивым",
+              "de": "gläubigem"
+            },
+            {
+              "ru": "христианским духом",
+              "de": "Christensinn"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "То, что",
+              "de": "Was"
+            },
+            {
+              "ru": "всех",
+              "de": "alle"
+            },
+            {
+              "ru": "людей",
+              "de": "Menschen"
+            },
+            {
+              "ru": "искупает.",
+              "de": "erlöset"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "erlösen — «искупить, освободить от греха», слово церковного обихода. Подлежащее «то, что искупает всех людей» — святые дары в руках священника."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Ручеёк",
+              "de": "Ein Bächlein"
+            },
+            {
+              "ru": "же",
+              "de": "aber"
+            },
+            {
+              "ru": "шумел",
+              "de": "rauschte"
+            },
+            {
+              "ru": "через",
+              "de": "durchs"
+            },
+            {
+              "ru": "поле,",
+              "de": "Feld"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Вздутый",
+              "de": "geschwellt"
+            },
+            {
+              "ru": "бурными",
+              "de": "Von... reißenden"
+            },
+            {
+              "ru": "водами",
+              "de": "Fluthen"
+            },
+            {
+              "ru": "горного потока,",
+              "de": "des Gießbachs"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "Gießbach — горный поток, который вздувается после дождя; Fluthen (нынешнее Fluten) — его прибывающие воды. Причастие geschwellt по-немецки стоит в конце строки, по-русски выходит вперёд."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Это",
+              "de": "Das"
+            },
+            {
+              "ru": "сдерживало",
+              "de": "hemmte"
+            },
+            {
+              "ru": "шаги",
+              "de": "Tritte"
+            },
+            {
+              "ru": "путников;",
+              "de": "der Wanderer"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "der Wanderer — родительный падеж множественного числа: путников двое, священник и пономарь."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "в сторону",
+              "de": "beiseit"
+            },
+            {
+              "ru": "кладёт",
+              "de": "legt"
+            },
+            {
+              "ru": "тот",
+              "de": "Jener"
+            },
+            {
+              "ru": "святые дары,",
+              "de": "das Sacrament"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "Sacrament (нынешнее Sakrament) — таинство, здесь конкретно святые дары, которые несут причастить умирающего."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "С ног",
+              "de": "Von den Füßen"
+            },
+            {
+              "ru": "снимает",
+              "de": "zieht"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "башмаки",
+              "de": "die Schuhe"
+            },
+            {
+              "ru": "проворно",
+              "de": "behend"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Чтобы",
+              "de": "Damit"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "ручеёк",
+              "de": "das Bächlein"
+            },
+            {
+              "ru": "перешёл вброд.",
+              "de": "durchschritte"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "durchschritte — конъюнктив в придаточном цели с damit: «чтобы перешёл». Глагол durchschreiten буквально — «пройти шагом сквозь»."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Уже не",
-       "de": "Nicht... mehr"
-      },
-      {
-       "ru": "слепо",
-       "de": "blind"
-      },
-      {
-       "ru": "правит",
-       "de": "waltet"
-      },
-      {
-       "ru": "железное",
-       "de": "der eiserne"
-      },
-      {
-       "ru": "копьё,",
-       "de": "Speer"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "nicht … mehr значит «уже не»: связку приходится переводить целиком, отдельного русского слова у mehr тут нет. В следующей строке Шиллер повторяет тот же оборот."
-      }
-     ]
+      "lines_de": [
+        "»Was schaffst du? redet der Graf ihn an,",
+        "Der ihn verwundert betrachtet.",
+        "Herr, ich walle zu einem sterbenden Mann,",
+        "Der nach der Himmelskost schmachtet;",
+        "Und da ich mich nahe des Baches Steg,",
+        "Da hat ihn der strömende Gießbach hinweg",
+        "Im Strudel der Wellen gerissen.",
+        "Drum daß dem Lechzenden werde sein Heil,",
+        "So will ich das Wässerlein jetzt in Eil",
+        "Durchwaten mit nackenden Füßen."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "«Что",
+              "de": "»Was"
+            },
+            {
+              "ru": "ты",
+              "de": "du"
+            },
+            {
+              "ru": "затеваешь?",
+              "de": "schaffst"
+            },
+            {
+              "ru": "— обращается",
+              "de": "redet... an"
+            },
+            {
+              "ru": "граф",
+              "de": "der Graf"
+            },
+            {
+              "ru": "к нему,",
+              "de": "ihn"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                3
+              ],
+              "text": "schaffen на юге Германии и в Австрии — просто «делать, затевать»: «что ты делаешь?». redet … an — рамка глагола anreden («обращаться к кому-либо»), разорванная всей серединой строки."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Который",
+              "de": "Der"
+            },
+            {
+              "ru": "его",
+              "de": "ihn"
+            },
+            {
+              "ru": "удивлённо",
+              "de": "verwundert"
+            },
+            {
+              "ru": "разглядывает.",
+              "de": "betrachtet"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Господин,",
+              "de": "Herr"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "бреду",
+              "de": "walle"
+            },
+            {
+              "ru": "к",
+              "de": "zu"
+            },
+            {
+              "ru": "умирающему",
+              "de": "einem sterbenden"
+            },
+            {
+              "ru": "человеку,",
+              "de": "Mann"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "wallen здесь — старое «идти, странствовать», движение паломника, а не «струиться волнами», как то же слово значит в других песнях. Священник идёт пешком со святыми дарами."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Который",
+              "de": "Der"
+            },
+            {
+              "ru": "по",
+              "de": "nach"
+            },
+            {
+              "ru": "небесной пище",
+              "de": "der Himmelskost"
+            },
+            {
+              "ru": "томится;",
+              "de": "schmachtet"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "Himmelskost — «небесная пища», причастие. Словарь Гриммов даёт это слово с примером о том, чтобы «снабдить бедных небесной пищей»; schmachten — томиться голодом и жаждой."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "когда",
+              "de": "da"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "подхожу",
+              "de": "mich nahe"
+            },
+            {
+              "ru": "к мосткам",
+              "de": "Steg"
+            },
+            {
+              "ru": "через ручей,",
+              "de": "des Baches"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "sich nahen управляет родительным падежом: des Baches Steg — «к мосткам через ручей». Steg — узкая кладка, доска через воду."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Тут",
+              "de": "Da"
+            },
+            {
+              "ru": "его",
+              "de": "ihn"
+            },
+            {
+              "ru": "стремительный",
+              "de": "der strömende"
+            },
+            {
+              "ru": "горный поток",
+              "de": "Gießbach"
+            },
+            {
+              "ru": "прочь",
+              "de": "hinweg"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "В",
+              "de": "Im"
+            },
+            {
+              "ru": "водовороте",
+              "de": "Strudel"
+            },
+            {
+              "ru": "волн",
+              "de": "der Wellen"
+            },
+            {
+              "ru": "унёс.",
+              "de": "hat... gerissen"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "Рамка hat … gerissen растянута на две строки: вспомогательный глагол стоит в предыдущем стихе, причастие — в самом конце этого. Поток сорвал и унёс мостки."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Потому,",
+              "de": "Drum"
+            },
+            {
+              "ru": "чтобы",
+              "de": "daß"
+            },
+            {
+              "ru": "изнывающему",
+              "de": "dem Lechzenden"
+            },
+            {
+              "ru": "досталось",
+              "de": "werde"
+            },
+            {
+              "ru": "его",
+              "de": "sein"
+            },
+            {
+              "ru": "спасение,",
+              "de": "Heil"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                5
+              ],
+              "text": "werde — конъюнктив со значением «да будет»: «чтобы досталось». Heil около 1800 года — «спасение души», без всякой позднейшей окраски; lechzen — изнывать от жажды."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Так",
+              "de": "So"
+            },
+            {
+              "ru": "хочу",
+              "de": "will"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "ручеёк",
+              "de": "das Wässerlein"
+            },
+            {
+              "ru": "теперь",
+              "de": "jetzt"
+            },
+            {
+              "ru": "поспешно",
+              "de": "in Eil"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Перейти вброд",
+              "de": "Durchwaten"
+            },
+            {
+              "ru": "босыми",
+              "de": "mit nackenden"
+            },
+            {
+              "ru": "ногами.",
+              "de": "Füßen"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "nackenden — старая форма нынешнего nackt («нагой»); mit nackenden Füßen значит «босиком». Священник снимает башмаки, чтобы перейти воду."
+            }
+          ]
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Уже не",
-       "de": "Nicht... mehr"
-      },
-      {
-       "ru": "боится",
-       "de": "fürchtet"
-      },
-      {
-       "ru": "слабый,",
-       "de": "der Schwache"
-      },
-      {
-       "ru": "мирный,",
-       "de": "der Friedliche"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "»Da setzt ihn der Graf auf sein ritterlich Pferd",
+        "Und reicht ihm die prächtigen Zäume,",
+        "Daß er labe den Kranken, der sein begehrt,",
+        "Und die heilige Pflicht nicht versäume.",
+        "Und er selber auf seines Knappen Thier",
+        "Vergnüget noch weiter des Jagens Begier;",
+        "Der Andre die Reise vollführet,",
+        "Und am nächsten Morgen, mit dankendem Blick,",
+        "Da bringt er dem Grafen das Roß zurück,",
+        "Bescheiden am Zügel geführet."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "«Тут",
+              "de": "»Da"
+            },
+            {
+              "ru": "сажает",
+              "de": "setzt"
+            },
+            {
+              "ru": "его",
+              "de": "ihn"
+            },
+            {
+              "ru": "граф",
+              "de": "der Graf"
+            },
+            {
+              "ru": "на",
+              "de": "auf"
+            },
+            {
+              "ru": "своего",
+              "de": "sein"
+            },
+            {
+              "ru": "рыцарского",
+              "de": "ritterlich"
+            },
+            {
+              "ru": "коня",
+              "de": "Pferd"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "протягивает",
+              "de": "reicht"
+            },
+            {
+              "ru": "ему",
+              "de": "ihm"
+            },
+            {
+              "ru": "великолепную",
+              "de": "die prächtigen"
+            },
+            {
+              "ru": "узду,",
+              "de": "Zäume"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Чтобы",
+              "de": "Daß"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "подкрепил",
+              "de": "labe"
+            },
+            {
+              "ru": "больного,",
+              "de": "den Kranken"
+            },
+            {
+              "ru": "который",
+              "de": "der"
+            },
+            {
+              "ru": "его",
+              "de": "sein"
+            },
+            {
+              "ru": "жаждет,",
+              "de": "begehrt"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "laben — «подкрепить, оживить»: у Гриммов почти то же, что erquicken («освежить»). Здесь речь о причастии, которого ждёт умирающий."
+            },
+            {
+              "type": "lang",
+              "segment_range": [
+                5,
+                6
+              ],
+              "text": "begehren управляет родительным падежом; sein здесь — старая форма родительного падежа от er («его жаждет»), притяжательное «свой» тут ни при чём."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "святым",
+              "de": "die heilige"
+            },
+            {
+              "ru": "долгом",
+              "de": "Pflicht"
+            },
+            {
+              "ru": "не",
+              "de": "nicht"
+            },
+            {
+              "ru": "пренебрёг.",
+              "de": "versäume"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "сам",
+              "de": "selber"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "на",
+              "de": "auf"
+            },
+            {
+              "ru": "животном",
+              "de": "Thier"
+            },
+            {
+              "ru": "своего",
+              "de": "seines"
+            },
+            {
+              "ru": "оруженосца",
+              "de": "Knappen"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                4,
+                4
+              ],
+              "text": "Thier (нынешнее Tier) — «животное»: конь графа назван благородным Roß, лошадь оруженосца — просто скотиной. Граф пересаживается на неё, отдав своего коня священнику."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Утоляет",
+              "de": "Vergnüget"
+            },
+            {
+              "ru": "ещё",
+              "de": "noch"
+            },
+            {
+              "ru": "дальше",
+              "de": "weiter"
+            },
+            {
+              "ru": "охотничью",
+              "de": "des Jagens"
+            },
+            {
+              "ru": "страсть;",
+              "de": "Begier"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Другой",
+              "de": "Der Andre"
+            },
+            {
+              "ru": "путь",
+              "de": "die Reise"
+            },
+            {
+              "ru": "совершает,",
+              "de": "vollführet"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "на",
+              "de": "am"
+            },
+            {
+              "ru": "следующее",
+              "de": "nächsten"
+            },
+            {
+              "ru": "утро,",
+              "de": "Morgen"
+            },
+            {
+              "ru": "с",
+              "de": "mit"
+            },
+            {
+              "ru": "благодарным",
+              "de": "dankendem"
+            },
+            {
+              "ru": "взглядом,",
+              "de": "Blick"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Тут",
+              "de": "Da"
+            },
+            {
+              "ru": "приводит",
+              "de": "bringt"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "графу",
+              "de": "dem Grafen"
+            },
+            {
+              "ru": "коня",
+              "de": "das Roß"
+            },
+            {
+              "ru": "обратно,",
+              "de": "zurück"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Скромно",
+              "de": "Bescheiden"
+            },
+            {
+              "ru": "за",
+              "de": "am"
+            },
+            {
+              "ru": "поводья",
+              "de": "Zügel"
+            },
+            {
+              "ru": "ведомого.",
+              "de": "geführet"
+            }
+          ],
+          "annotations": []
+        }
+      ]
     },
     {
-     "segments": [
-      {
-       "ru": "Добычей",
-       "de": "Beute"
-      },
-      {
-       "ru": "могущественного",
-       "de": "Des Mächtigen"
-      },
-      {
-       "ru": "стать.",
-       "de": "zu werden"
-      }
-     ],
-     "annotations": []
+      "lines_de": [
+        "»Nicht wolle das Gott, rief mit Demuthsinn",
+        "Der Graf, daß zum Streiten und Jagen",
+        "Das Roß ich beschritte fürderhin,",
+        "Das meinen Schöpfer getragen!",
+        "Und magst du&#039;s nicht haben zu eignem Gewinnst,",
+        "So bleib&#039; es gewidmet dem göttlichen Dienst!",
+        "Denn ich hab&#039; es Dem ja gegeben,",
+        "Von dem ich Ehre und irdisches Gut",
+        "Zu Lehen trage und Leib und Blut",
+        "Und Seele und Athem und Leben."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "«Не",
+              "de": "»Nicht"
+            },
+            {
+              "ru": "дай",
+              "de": "wolle"
+            },
+            {
+              "ru": "того",
+              "de": "das"
+            },
+            {
+              "ru": "Бог,",
+              "de": "Gott"
+            },
+            {
+              "ru": "— воскликнул",
+              "de": "rief"
+            },
+            {
+              "ru": "со смиренным духом",
+              "de": "mit Demuthsinn"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "wolle — конъюнктив пожелания: буквально «да не захочет того Бог». Русское «не дай Бог» отвечает и по смыслу, и по обиходности оборота."
+            },
+            {
+              "type": "lang",
+              "segment_range": [
+                5,
+                5
+              ],
+              "text": "Demuthsinn — сложное слово из Demuth («смирение») и Sinn («дух, склад души»). Оно настолько редкое, что словарь Гриммов приводит его с этой самой строкой Шиллера."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Граф,",
+              "de": "Der Graf"
+            },
+            {
+              "ru": "чтобы",
+              "de": "daß"
+            },
+            {
+              "ru": "для",
+              "de": "zum"
+            },
+            {
+              "ru": "сражений",
+              "de": "Streiten"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "охоты",
+              "de": "Jagen"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "На коня",
+              "de": "Das Roß"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "впредь",
+              "de": "fürderhin"
+            },
+            {
+              "ru": "садился,",
+              "de": "beschritte"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "beschreiten — «садиться верхом», причём конь стоит в винительном падеже без предлога. Словарь Гриммов поясняет глагол этой самой строкой баллады."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Который",
+              "de": "Das"
+            },
+            {
+              "ru": "моего",
+              "de": "meinen"
+            },
+            {
+              "ru": "Творца",
+              "de": "Schöpfer"
+            },
+            {
+              "ru": "носил!",
+              "de": "getragen"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "А",
+              "de": "Und"
+            },
+            {
+              "ru": "если ты его",
+              "de": "du&#039;s"
+            },
+            {
+              "ru": "не",
+              "de": "nicht"
+            },
+            {
+              "ru": "можешь",
+              "de": "magst"
+            },
+            {
+              "ru": "взять",
+              "de": "haben"
+            },
+            {
+              "ru": "для собственной",
+              "de": "zu eignem"
+            },
+            {
+              "ru": "выгоды,",
+              "de": "Gewinnst"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                3
+              ],
+              "text": "mögen в эпоху ещё держит старое значение «мочь, быть в силах», а не «любить»: magst du's nicht haben — «если тебе нельзя взять его себе»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "То",
+              "de": "So"
+            },
+            {
+              "ru": "пусть остаётся",
+              "de": "bleib&#039;"
+            },
+            {
+              "ru": "он",
+              "de": "es"
+            },
+            {
+              "ru": "посвящённым",
+              "de": "gewidmet"
+            },
+            {
+              "ru": "божественному",
+              "de": "dem göttlichen"
+            },
+            {
+              "ru": "служению!",
+              "de": "Dienst"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Ибо",
+              "de": "Denn"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "ведь",
+              "de": "ja"
+            },
+            {
+              "ru": "отдал",
+              "de": "hab&#039;... gegeben"
+            },
+            {
+              "ru": "его",
+              "de": "es"
+            },
+            {
+              "ru": "Тому,",
+              "de": "Dem"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                5,
+                5
+              ],
+              "text": "Dem напечатано с прописной буквы: указательное местоимение здесь означает Бога, и следующие две строки объясняют, что именно граф от Него держит."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "От Кого",
+              "de": "Von dem"
+            },
+            {
+              "ru": "я",
+              "de": "ich"
+            },
+            {
+              "ru": "честь",
+              "de": "Ehre"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "земное",
+              "de": "irdisches"
+            },
+            {
+              "ru": "добро",
+              "de": "Gut"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "В лен",
+              "de": "Zu Lehen"
+            },
+            {
+              "ru": "несу,",
+              "de": "trage"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "тело",
+              "de": "Leib"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "кровь",
+              "de": "Blut"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                1
+              ],
+              "text": "zu Lehen tragen — держать в лен: получать землю, честь и права от сеньора за службу. Граф выстраивает всю свою жизнь как феодальное владение, полученное от Бога."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "душу,",
+              "de": "Seele"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "дыхание,",
+              "de": "Athem"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "жизнь.",
+              "de": "Leben"
+            }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "»So mög&#039; Euch Gott, der allmächtige Hort,",
+        "Der das Flehen der Schwachen erhöret,",
+        "Zu Ehren Euch bringen hier und dort,",
+        "So wie Ihr ihn jetzt geehret.",
+        "Ihr seid ein mächtiger Graf, bekannt",
+        "Durch ritterlich Walten im Schweizerland;",
+        "Euch blühn sechs liebliche Töchter.",
+        "So mögen sie, rief er begeistert aus,",
+        "Sechs Kronen Euch bringen in Euer Haus,",
+        "Und glänzen die spätsten Geschlechter!«"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "«Так",
+              "de": "»So"
+            },
+            {
+              "ru": "пусть",
+              "de": "mög&#039;"
+            },
+            {
+              "ru": "вас",
+              "de": "Euch"
+            },
+            {
+              "ru": "Бог,",
+              "de": "Gott"
+            },
+            {
+              "ru": "всемогущий",
+              "de": "der allmächtige"
+            },
+            {
+              "ru": "оплот,",
+              "de": "Hort"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                5,
+                5
+              ],
+              "text": "Hort — поэтическое слово: и «сокровище», и «оплот, защита». У Гриммов в нём заложено значение оберегания, охраны — потому оно и стоит рядом с «всемогущий»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Который",
+              "de": "Der"
+            },
+            {
+              "ru": "мольбе",
+              "de": "das Flehen"
+            },
+            {
+              "ru": "слабых",
+              "de": "der Schwachen"
+            },
+            {
+              "ru": "внемлет,",
+              "de": "erhöret"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "К чести",
+              "de": "Zu Ehren"
+            },
+            {
+              "ru": "вас",
+              "de": "Euch"
+            },
+            {
+              "ru": "приведёт",
+              "de": "bringen"
+            },
+            {
+              "ru": "здесь",
+              "de": "hier"
+            },
+            {
+              "ru": "и",
+              "de": "und"
+            },
+            {
+              "ru": "там,",
+              "de": "dort"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                2,
+                2
+              ],
+              "text": "Рамка mög' … bringen растянута на три строки: пожелание начинается словом «пусть» в первом стихе, а глагол приходит только здесь. «Здесь и там» — на земле и на небе."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Так, как",
+              "de": "So wie"
+            },
+            {
+              "ru": "вы",
+              "de": "Ihr"
+            },
+            {
+              "ru": "Его",
+              "de": "ihn"
+            },
+            {
+              "ru": "теперь",
+              "de": "jetzt"
+            },
+            {
+              "ru": "почтили.",
+              "de": "geehret"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Вы",
+              "de": "Ihr"
+            },
+            {
+              "ru": "—",
+              "de": "seid"
+            },
+            {
+              "ru": "могущественный",
+              "de": "ein mächtiger"
+            },
+            {
+              "ru": "граф,",
+              "de": "Graf"
+            },
+            {
+              "ru": "известный",
+              "de": "bekannt"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Рыцарским",
+              "de": "Durch ritterlich"
+            },
+            {
+              "ru": "правлением",
+              "de": "Walten"
+            },
+            {
+              "ru": "в",
+              "de": "im"
+            },
+            {
+              "ru": "Швейцарии;",
+              "de": "Schweizerland"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "У вас",
+              "de": "Euch"
+            },
+            {
+              "ru": "цветут",
+              "de": "blühn"
+            },
+            {
+              "ru": "шесть",
+              "de": "sechs"
+            },
+            {
+              "ru": "прелестных",
+              "de": "liebliche"
+            },
+            {
+              "ru": "дочерей.",
+              "de": "Töchter"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                0,
+                1
+              ],
+              "text": "Euch blühn — дательный принадлежности: «у вас цветут». Оборот blühen с дательным в эпоху означал именно «цвести кому-то, на радость кому-то»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Так",
+              "de": "So"
+            },
+            {
+              "ru": "пусть",
+              "de": "mögen"
+            },
+            {
+              "ru": "они,",
+              "de": "sie"
+            },
+            {
+              "ru": "— воскликнул",
+              "de": "rief... aus"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "воодушевлённо, —",
+              "de": "begeistert"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Шесть",
+              "de": "Sechs"
+            },
+            {
+              "ru": "корон",
+              "de": "Kronen"
+            },
+            {
+              "ru": "вам",
+              "de": "Euch"
+            },
+            {
+              "ru": "принесут",
+              "de": "bringen"
+            },
+            {
+              "ru": "в",
+              "de": "in"
+            },
+            {
+              "ru": "ваш",
+              "de": "Euer"
+            },
+            {
+              "ru": "дом,",
+              "de": "Haus"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [
+                0,
+                3
+              ],
+              "text": "Шесть дочерей — шесть корон: певец предсказывает роду графа императорское будущее. Как пишет справочник schubertsong.uk, баллада писалась в последние месяцы существования Священной Римской империи, распавшейся в 1806 году, и подводила основание под права дома Габсбургов на престол."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "да сияют",
+              "de": "glänzen"
+            },
+            {
+              "ru": "грядущие",
+              "de": "die spätsten"
+            },
+            {
+              "ru": "поколения!»",
+              "de": "Geschlechter"
+            }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und mit sinnendem Haupt saß der Kaiser da,",
+        "Als dächt&#039; er vergangener Zeiten;",
+        "Jetzt, da er dem Sänger ins Auge sah,",
+        "Da ergreift ihn der Worte Bedeuten.",
+        "Die Züge des Priesters erkennt er schnell",
+        "Und verbirgt der Thränen stürzenden Quell",
+        "In des Mantels purpurnen Falten.",
+        "Und Alles blickte den Kaiser an",
+        "Und erkannte den Grafen, der das gethan,",
+        "Und verehrte das göttliche Walten."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "с",
+              "de": "mit"
+            },
+            {
+              "ru": "задумчивой",
+              "de": "sinnendem"
+            },
+            {
+              "ru": "главой",
+              "de": "Haupt"
+            },
+            {
+              "ru": "сидел",
+              "de": "saß"
+            },
+            {
+              "ru": "там",
+              "de": "da"
+            },
+            {
+              "ru": "император,",
+              "de": "der Kaiser"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Словно",
+              "de": "Als"
+            },
+            {
+              "ru": "думал",
+              "de": "dächt&#039;"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "о минувших",
+              "de": "vergangener"
+            },
+            {
+              "ru": "временах;",
+              "de": "Zeiten"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                3,
+                4
+              ],
+              "text": "denken в старом языке управляло родительным падежом: vergangener Zeiten — «о минувших временах». dächt' — конъюнктив после als («словно»), сравнение с несбывшимся."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Теперь,",
+              "de": "Jetzt"
+            },
+            {
+              "ru": "когда",
+              "de": "da"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "певцу",
+              "de": "dem Sänger"
+            },
+            {
+              "ru": "в",
+              "de": "ins"
+            },
+            {
+              "ru": "глаза",
+              "de": "Auge"
+            },
+            {
+              "ru": "взглянул,",
+              "de": "sah"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "Тут",
+              "de": "Da"
+            },
+            {
+              "ru": "охватывает",
+              "de": "ergreift"
+            },
+            {
+              "ru": "его",
+              "de": "ihn"
+            },
+            {
+              "ru": "смысл",
+              "de": "Bedeuten"
+            },
+            {
+              "ru": "слов.",
+              "de": "der Worte"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "ergreifen — то самое слово, которым в третьей строфе император «берёт» золотой кубок. Там оно значит взять рукой, здесь — смысл слов охватывает человека."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "Черты",
+              "de": "Die Züge"
+            },
+            {
+              "ru": "священника",
+              "de": "des Priesters"
+            },
+            {
+              "ru": "узнаёт",
+              "de": "erkennt"
+            },
+            {
+              "ru": "он",
+              "de": "er"
+            },
+            {
+              "ru": "быстро",
+              "de": "schnell"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "скрывает",
+              "de": "verbirgt"
+            },
+            {
+              "ru": "слёз",
+              "de": "der Thränen"
+            },
+            {
+              "ru": "хлынувший",
+              "de": "stürzenden"
+            },
+            {
+              "ru": "источник",
+              "de": "Quell"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "В",
+              "de": "In"
+            },
+            {
+              "ru": "пурпурных",
+              "de": "purpurnen"
+            },
+            {
+              "ru": "складках",
+              "de": "Falten"
+            },
+            {
+              "ru": "плаща.",
+              "de": "des Mantels"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "все",
+              "de": "Alles"
+            },
+            {
+              "ru": "глядели",
+              "de": "blickte... an"
+            },
+            {
+              "ru": "на императора",
+              "de": "den Kaiser"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [
+                1,
+                1
+              ],
+              "text": "Alles — собирательное «всё» о людях, весь зал; глагол при нём стоит в единственном числе. По-русски естественнее множественное «все глядели»."
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "узнали",
+              "de": "erkannte"
+            },
+            {
+              "ru": "графа,",
+              "de": "den Grafen"
+            },
+            {
+              "ru": "который",
+              "de": "der"
+            },
+            {
+              "ru": "это",
+              "de": "das"
+            },
+            {
+              "ru": "содеял,",
+              "de": "gethan"
+            }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            {
+              "ru": "И",
+              "de": "Und"
+            },
+            {
+              "ru": "чтили",
+              "de": "verehrte"
+            },
+            {
+              "ru": "божественное",
+              "de": "das göttliche"
+            },
+            {
+              "ru": "правление.",
+              "de": "Walten"
+            }
+          ],
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [
+                2,
+                3
+              ],
+              "text": "«Божественное правление» замыкает балладу: тот, кто уступил коня священнику, и тот, кто сидит на троне, — одно лицо. По прочтению справочника schubertsong.uk, поступок благочестия у Шиллера служит знаком того, что курфюрсты выбрали верно, а Рудольф соединяет в себе церковь и государство."
+            }
+          ]
+        }
+      ]
     }
-   ]
-  },
-  {
-   "lines_de": [
-    "Und der Kaiser ergreift den goldnen Pokal",
-    "Und spricht mit zufriedenen Blicken:",
-    "»Wohl glänzet das Fest, wohl pranget das Mahl,",
-    "Mein königlich Herz zu entzücken;",
-    "Doch den Sänger vermiss&#039; ich, den Bringer der Lust,",
-    "Der mit süßem Klang mir bewege die Brust",
-    "Und mit göttlich erhabenen Lehren.",
-    "So hab&#039; ich&#039;s gehalten von Jugend an,",
-    "Und was ich als Ritter gepflegt und gethan,",
-    "Nicht will ich&#039;s als Kaiser entbehren.«"
-   ],
-   "lines_ru": [
+  ],
+  "about": [
     {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "император",
-       "de": "der Kaiser"
-      },
-      {
-       "ru": "берёт",
-       "de": "ergreift"
-      },
-      {
-       "ru": "золотой",
-       "de": "den goldnen"
-      },
-      {
-       "ru": "кубок",
-       "de": "Pokal"
-      }
-     ],
-     "annotations": []
+      "title": "Около 1818 года",
+      "text": "Точной даты у песни нет: справочник schubertsong.uk датирует её «около 1818 года», месяц работы неизвестен. Если год верен, Шуберту, родившемуся в январе 1797 года, был двадцать один год."
     },
     {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "говорит",
-       "de": "spricht"
-      },
-      {
-       "ru": "с",
-       "de": "mit"
-      },
-      {
-       "ru": "довольными",
-       "de": "zufriedenen"
-      },
-      {
-       "ru": "взорами:",
-       "de": "Blicken"
-      }
-     ],
-     "annotations": []
+      "title": "Публикация и автограф",
+      "text": "При жизни Шуберта «Граф Габсбургский» не печатался. Песня вышла только в 1853 году — в венском песеннике его старшего брата Фердинанда Шуберта «Der kleine Sänger» («Маленький певец»).\nСведений о судьбе автографа найти не удалось."
     },
     {
-     "segments": [
-      {
-       "ru": "«Славно",
-       "de": "»Wohl"
-      },
-      {
-       "ru": "сияет",
-       "de": "glänzet"
-      },
-      {
-       "ru": "праздник,",
-       "de": "das Fest"
-      },
-      {
-       "ru": "славно",
-       "de": "wohl"
-      },
-      {
-       "ru": "блистает",
-       "de": "pranget"
-      },
-      {
-       "ru": "пир,",
-       "de": "das Mahl"
-      }
-     ],
-     "annotations": []
+      "title": "Фридрих Шиллер",
+      "text": "Драматург, поэт и историк, вместе с Гёте определивший облик веймарской классики, Шиллер был для Шуберта главным поэтом отрочества. Личного знакомства быть не могло: Шиллер умер, когда будущему композитору не исполнилось и девяти лет. Но именно на его стихах Шуберт-подросток учился писать песню-балладу — по каталогу Отто Дойча, между 1811 и 1817 годами он положил на музыку 66 шиллеровских текстов, а за всю жизнь — около сорока стихотворений почти в восьми десятках редакций и набросков.\nМногое из этого осталось черновиками пятнадцатилетнего мальчика, подражавшего своему кумиру Иоганну Рудольфу Цумштегу. Но там же выросли «Gruppe aus dem Tartarus» («Группа из Тартара»), «Der Taucher» («Ныряльщик»), «Der Pilgrim» («Пилигрим»), выдержавшие сравнение со зрелыми шедеврами. Шиллер писал крупные, риторически выстроенные баллады — материал для драматической сцены, а не для камерного романса, и вкус к монологу, контрасту и театру в фортепианной партии остался у Шуберта на всю жизнь. Шиллеровские песни укладываются в 1811–1817 годы; «Граф Габсбургский» написан уже после них и датируется примерно 1818-м."
     },
     {
-     "segments": [
-      {
-       "ru": "Чтобы",
-       "de": ""
-      },
-      {
-       "ru": "моё",
-       "de": "Mein"
-      },
-      {
-       "ru": "королевское",
-       "de": "königlich"
-      },
-      {
-       "ru": "сердце",
-       "de": "Herz"
-      },
-      {
-       "ru": "восхитить;",
-       "de": "zu entzücken"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "entzücken в эпоху сильнее нынешнего салонного «прелестно»: исходно глагол значил «вырвать, похитить», у мистиков — восхищение души из тела. Император просит потрясения."
-      }
-     ]
+      "title": "Стихотворение",
+      "text": "Балладу Шиллер написал в апреле 1803 года и в конце того же года напечатал. Сюжет он взял из «Chronicon Helveticum» («Швейцарской хроники») Эгидия Чуди: этот свод попался ему, когда он готовил «Вильгельма Телля», и там нашёлся анекдот о графе-короле Рудольфе I Германском (1218–1291), коронованном в Ахене 24 октября 1273 года.\nТекст, по которому сделан подстрочник, сверен Петером Растлем, выверяющим слова шубертовских песен по прижизненным изданиям поэтов, с двумя книгами: венским собранием сочинений Шиллера 1810 года (том 10, «Gedichte, Zweyter Theil», с. 194–198) и лейпцигским изданием стихотворений у Зигфрида Лебрехта Крузиуса 1805 года (с. 316–322).\nОт шиллеровского оригинала, как его приводит schubertsong.uk, текст песни расходится в мелочах. Там, где у Шиллера «Königsmahle» («королевский пир»), в песне стоит «festlichen Krönungsmahle» («праздничный коронационный пир»); «Herrn der Welt» («господина мира») стало «Herrscher der Welt» («властителем мира»), «Volk mit frohem Gedränge» («народ в весёлой давке») — «Volk in freud'gem Gedränge» («народ в радостной давке»); «An seinem herrlichen Feste» («на его великолепном празднике») превратилось в «herrlichsten» («великолепнейшем»), а «in des größern Herrn Pflicht» — в «in des größeren Herren Pflicht»."
     },
     {
-     "segments": [
-      {
-       "ru": "Но",
-       "de": "Doch"
-      },
-      {
-       "ru": "певца",
-       "de": "den Sänger"
-      },
-      {
-       "ru": "мне",
-       "de": "ich"
-      },
-      {
-       "ru": "недостаёт,",
-       "de": "vermiss&#039;"
-      },
-      {
-       "ru": "подателя",
-       "de": "den Bringer"
-      },
-      {
-       "ru": "отрады,",
-       "de": "der Lust"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "vermissen управляет винительным падежом: буквально «я недосчитываюсь певца». По-русски естественнее безличное «мне недостаёт», поэтому ich стало «мне»."
-      },
-      {
-       "type": "lang",
-       "segment_range": [
-        5,
-        5
-       ],
-       "text": "Lust около 1800 года — прежде всего «радость, отрада», и лишь во вторую очередь «желание». Сегодняшний крен слова в сторону вожделения к этим текстам не относится."
-      }
-     ]
+      "title": "Музыка",
+      "text": "Разбора этой музыки найти не удалось: надёжных сведений о тональности, форме и складе фортепианной партии нет."
     },
     {
-     "segments": [
-      {
-       "ru": "Кто",
-       "de": "Der"
-      },
-      {
-       "ru": "сладостным",
-       "de": "mit süßem"
-      },
-      {
-       "ru": "звуком",
-       "de": "Klang"
-      },
-      {
-       "ru": "мне",
-       "de": "mir"
-      },
-      {
-       "ru": "тронул бы",
-       "de": "bewege"
-      },
-      {
-       "ru": "грудь",
-       "de": "die Brust"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "bewege — конъюнктив желания: певец, который тронул бы. Такое наклонение в придаточном после «мне недостаёт» описывает желаемое, которого пока нет."
-      }
-     ]
+      "title": "Рассказ в рассказе",
+      "text": "Баллада сложена из двух половин, и вторая спрятана внутри первой. Сначала — коронационный пир в Ахене, где новый император просит песни. Потом седой певец в длинной мантии поёт о графе, который на охоте уступил священнику боевого коня, чтобы тот успел причастить умирающего. Последняя строфа сводит обе истории в одну: слушатель узнаёт в графе себя, а в чертах певца — того самого священника, и прячет слёзы в складках пурпурного плаща.\nПрямая речь занимает строфы с третьей по одиннадцатую: сначала говорит император, потом певец, потом внутри его песни — граф и священник. Кавычки в тексте показывают, как один голос вложен в другой."
     },
     {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "божественно",
-       "de": "mit göttlich"
-      },
-      {
-       "ru": "возвышенными",
-       "de": "erhabenen"
-      },
-      {
-       "ru": "поучениями.",
-       "de": "Lehren"
-      }
-     ],
-     "annotations": []
+      "title": "Семь курфюрстов",
+      "text": "Императорская должность по наследству не переходила: государя выбирали семеро курфюрстов — архиепископы Кёльна, Майнца и Трира, король Богемии, пфальцграф Рейнский, герцог Саксонский и маркграф Бранденбургский. Порядок выборов закрепила Золотая булла XIV века, записавшая уже сложившийся обычай.\nКак это выглядело, показывает миниатюра из «Codex Balduini Trevirensis» около 1340 года: семеро курфюрстов на избрании графа Генриха Люксембургского в Ахене. Лист хранится в земельном архиве Кобленца (Landeshauptarchiv Koblenz, Best. 1 C Nr. 1 fol. 3b)."
     },
     {
-     "segments": [
-      {
-       "ru": "Так",
-       "de": "So"
-      },
-      {
-       "ru": "держался",
-       "de": "hab&#039;... gehalten"
-      },
-      {
-       "ru": "я этого",
-       "de": "ich&#039;s"
-      },
-      {
-       "ru": "с юности,",
-       "de": "von Jugend an"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        2
-       ],
-       "text": "hab' … gehalten — разорванная глагольная рамка: вспомогательный глагол в начале, смысловое причастие в конце. Между ними втиснуто ich's, то есть ich es («я этого»)."
-      }
-     ]
+      "title": "Судьба и наследие",
+      "text": "Откликов современников на саму песню — в отличие от стихотворения, которое читали и переиздавали, — найти не удалось; о первых исполнениях сведений нет.\nПод соседним каталожным номером стоит другая вещь: D 990A — набросок на стихи Генриха фон Коллина «Kaiser Maximilian auf der Martinswand» («Император Максимилиан на Мартиновой стене»). Как пишет Грэм Джонсон, автор комментариев к антологии Hyperion Schubert Edition, музыки там написано слишком мало, чтобы вещь можно было исполнить."
     },
     {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "что",
-       "de": "was"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "как",
-       "de": "als"
-      },
-      {
-       "ru": "рыцарь",
-       "de": "Ritter"
-      },
-      {
-       "ru": "блюл",
-       "de": "gepflegt"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "делал,",
-       "de": "gethan"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Того я",
-       "de": "ich&#039;s"
-      },
-      {
-       "ru": "не",
-       "de": "Nicht"
-      },
-      {
-       "ru": "хочу",
-       "de": "will"
-      },
-      {
-       "ru": "как император",
-       "de": "als Kaiser"
-      },
-      {
-       "ru": "лишиться.»",
-       "de": "entbehren"
-      }
-     ],
-     "annotations": []
+      "title": "Как это поют",
+      "text": "Записей у баллады мало, и на полную пятёрку их не набирается: ни у старых мастеров, ни у знаменитых шубертовских баритонов этой песни нет.\nПервая — тенор Лотар Одиниус и пианист Айзенлор, 2005 год. Она вошла в шиллеровский том антологии Naxos («Schiller, Vols. 3 & 4», 8.557369-70, издание мая 2005 года), где песни собраны по поэтам.\nВторая — Яспер Схвеппе и Рико Фукуда за историческим фортепиано, десятый том голландской серии песен Шуберта («Schubert: Lieder, Vol. 10: D. 919 – D. 990A», издание 2026 года); год самой сессии не документирован, продюсером выступил сам певец.\nЕщё одну запись под тем же названием — Романа Трекеля и Корда Гарбена — легко принять за шубертовскую. На деле это «Der Graf von Habsburg» соч. 98 Карла Лёве из полного собрания его песен и баллад (cpo, 1996).\n\nЗапись Odinius — Eisenlohr (2005) неполная: спеты строфы 1–2 из 12."
     }
-   ]
-  },
-  {
-   "lines_de": [
-    "Und sieh! in der Fürsten umgebenden Kreis",
-    "Trat der Sänger im langen Talare;",
-    "Ihm glänzte die Locke silberweiß,",
-    "Gebleicht von der Fülle der Jahre.",
-    "»Süßer Wohllaut schläft in der Saiten Gold,",
-    "Der Sänger singt von der Minne Sold,",
-    "Er preiset das Höchste, das Beste,",
-    "Was das Herz sich wünscht, was der Sinn begehrt;",
-    "Doch sage, was ist des Kaisers werth",
-    "An seinem herrlichsten Feste?« –"
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "гляди!",
-       "de": "sieh"
-      },
-      {
-       "ru": "в",
-       "de": "in"
-      },
-      {
-       "ru": "окружающий",
-       "de": "umgebenden"
-      },
-      {
-       "ru": "круг",
-       "de": "Kreis"
-      },
-      {
-       "ru": "князей",
-       "de": "der Fürsten"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        5
-       ],
-       "text": "der Fürsten umgebenden Kreis — «круг, который образуют обступившие князья». Родительный der Fürsten вынесен вперёд и оторван от своего слова: по-русски порядок приходится собирать заново."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Вступил",
-       "de": "Trat"
-      },
-      {
-       "ru": "певец",
-       "de": "der Sänger"
-      },
-      {
-       "ru": "в",
-       "de": "im"
-      },
-      {
-       "ru": "длинной",
-       "de": "langen"
-      },
-      {
-       "ru": "мантии;",
-       "de": "Talare"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "Talar — долгополое торжественное одеяние, какое носили учёные, судьи, священники. Словарь Гриммов поясняет слово именно этой строкой Шиллера."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Локон",
-       "de": "die Locke"
-      },
-      {
-       "ru": "у него",
-       "de": "Ihm"
-      },
-      {
-       "ru": "сиял",
-       "de": "glänzte"
-      },
-      {
-       "ru": "серебристо-белый,",
-       "de": "silberweiß"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "Ihm — дательный принадлежности: «у него сиял локон». Русский в таких случаях выбирает «у него» или притяжательное «его»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Побелевший",
-       "de": "Gebleicht"
-      },
-      {
-       "ru": "от обилия",
-       "de": "von der Fülle"
-      },
-      {
-       "ru": "лет.",
-       "de": "der Jahre"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "«Сладостное",
-       "de": "»Süßer"
-      },
-      {
-       "ru": "благозвучие",
-       "de": "Wohllaut"
-      },
-      {
-       "ru": "спит",
-       "de": "schläft"
-      },
-      {
-       "ru": "в",
-       "de": "in"
-      },
-      {
-       "ru": "золоте",
-       "de": "Gold"
-      },
-      {
-       "ru": "струн,",
-       "de": "der Saiten"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "süß о звуке и чувстве — «сладостный»: расширение вкусового слова на музыку немецкий проделал задолго до Шиллера. Нынешнее süß («милый, симпатичный») к этим строкам отношения не имеет."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Певец",
-       "de": "Der Sänger"
-      },
-      {
-       "ru": "поёт",
-       "de": "singt"
-      },
-      {
-       "ru": "о",
-       "de": "von"
-      },
-      {
-       "ru": "награде",
-       "de": "Sold"
-      },
-      {
-       "ru": "любви,",
-       "de": "der Minne"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        4
-       ],
-       "text": "Minne — куртуазная любовь миннезингеров, слово уже во времена Шиллера архаичное. Sold — жалованье воину; вместе выходит «плата за служение любви», рыцарский оборот, а не бытовая награда."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Он",
-       "de": "Er"
-      },
-      {
-       "ru": "славит",
-       "de": "preiset"
-      },
-      {
-       "ru": "высшее,",
-       "de": "das Höchste"
-      },
-      {
-       "ru": "лучшее,",
-       "de": "das Beste"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Чего",
-       "de": "Was"
-      },
-      {
-       "ru": "сердце",
-       "de": "das Herz"
-      },
-      {
-       "ru": "себе",
-       "de": "sich"
-      },
-      {
-       "ru": "желает,",
-       "de": "wünscht"
-      },
-      {
-       "ru": "чего",
-       "de": "was"
-      },
-      {
-       "ru": "рассудок",
-       "de": "der Sinn"
-      },
-      {
-       "ru": "жаждет;",
-       "de": "begehrt"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Но",
-       "de": "Doch"
-      },
-      {
-       "ru": "скажи,",
-       "de": "sage"
-      },
-      {
-       "ru": "что",
-       "de": "was"
-      },
-      {
-       "ru": "достойно",
-       "de": "ist... werth"
-      },
-      {
-       "ru": "императора",
-       "de": "des Kaisers"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        4
-       ],
-       "text": "werth (нынешнее wert) управляет родительным падежом: des Kaisers werth — «достойно императора». Речь о том, что подобает государю на его празднике."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "На",
-       "de": "An"
-      },
-      {
-       "ru": "его",
-       "de": "seinem"
-      },
-      {
-       "ru": "великолепнейшем",
-       "de": "herrlichsten"
-      },
-      {
-       "ru": "празднике?» —",
-       "de": "Feste"
-      }
-     ],
-     "annotations": []
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "»Nicht gebieten werd&#039; ich dem Sänger,« spricht",
-    "Der Herrscher mit lächelndem Munde,",
-    "»Er steht in des größeren Herren Pflicht,",
-    "Er gehorcht der gebiethenden Stunde.",
-    "Wie in den Lüften der Sturmwind saust,",
-    "Man weiß nicht, von wannen er kommt und braust,",
-    "Wie der Quell aus verborgenen Tiefen,",
-    "So des Sängers Lied aus dem Innern schallt",
-    "Und wecket der dunkeln Gefühle Gewalt,",
-    "Die im Herzen wunderbar schliefen.«"
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "«Не",
-       "de": "»Nicht"
-      },
-      {
-       "ru": "стану",
-       "de": "werd&#039;"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "повелевать",
-       "de": "gebieten"
-      },
-      {
-       "ru": "певцу»,",
-       "de": "dem Sänger"
-      },
-      {
-       "ru": "— говорит",
-       "de": "spricht"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "werd' — усечённое werde: будущее время, которое немецкий строит из werden и инфинитива. По-русски выходит «стану повелевать»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Властитель",
-       "de": "Der Herrscher"
-      },
-      {
-       "ru": "с",
-       "de": "mit"
-      },
-      {
-       "ru": "улыбающимися",
-       "de": "lächelndem"
-      },
-      {
-       "ru": "устами,",
-       "de": "Munde"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "«Он",
-       "de": "»Er"
-      },
-      {
-       "ru": "состоит",
-       "de": "steht"
-      },
-      {
-       "ru": "в",
-       "de": "in"
-      },
-      {
-       "ru": "долгу",
-       "de": "Pflicht"
-      },
-      {
-       "ru": "у высшего",
-       "de": "des größeren"
-      },
-      {
-       "ru": "Господина,",
-       "de": "Herren"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        5
-       ],
-       "text": "des größeren Herren — сравнительная степень: господин, который больше самого императора, то есть Бог. Herr в религиозном чтении по-русски требует прописной буквы — «Господин», «Господь»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Он",
-       "de": "Er"
-      },
-      {
-       "ru": "повинуется",
-       "de": "gehorcht"
-      },
-      {
-       "ru": "повелевающему",
-       "de": "der gebiethenden"
-      },
-      {
-       "ru": "часу.",
-       "de": "Stunde"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "Stunde в поэзии эпохи — «пора, срок», шире шестидесяти минут: у Гриммов это прямо «zeitpunkt, zeitraum, zeit» («миг, отрезок времени, время вообще»)."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Как",
-       "de": "Wie"
-      },
-      {
-       "ru": "в",
-       "de": "in"
-      },
-      {
-       "ru": "воздухе",
-       "de": "den Lüften"
-      },
-      {
-       "ru": "буря",
-       "de": "der Sturmwind"
-      },
-      {
-       "ru": "шумит,",
-       "de": "saust"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Не",
-       "de": "nicht"
-      },
-      {
-       "ru": "знаешь,",
-       "de": "Man weiß"
-      },
-      {
-       "ru": "откуда",
-       "de": "von wannen"
-      },
-      {
-       "ru": "она",
-       "de": "er"
-      },
-      {
-       "ru": "приходит",
-       "de": "kommt"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "бушует,",
-       "de": "braust"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        2
-       ],
-       "text": "man weiß nicht — неопределённо-личное «не знаешь, неведомо»; слова «человек» тут нет. von wannen — старое «откуда» (нынешнее woher), к временам Шиллера уже архаизм высокого слога."
-      },
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "er — это Sturmwind, буря; немецкое слово мужского рода, русское женского, поэтому местоимение меняет род."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Как",
-       "de": "Wie"
-      },
-      {
-       "ru": "источник",
-       "de": "der Quell"
-      },
-      {
-       "ru": "из",
-       "de": "aus"
-      },
-      {
-       "ru": "сокровенных",
-       "de": "verborgenen"
-      },
-      {
-       "ru": "глубин,",
-       "de": "Tiefen"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "der Quell — поэтический мужской двойник обычного die Quelle («источник»). Род обманчив, но это примета высокого слога."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Так",
-       "de": "So"
-      },
-      {
-       "ru": "песнь",
-       "de": "Lied"
-      },
-      {
-       "ru": "певца",
-       "de": "des Sängers"
-      },
-      {
-       "ru": "изнутри",
-       "de": "aus dem Innern"
-      },
-      {
-       "ru": "звучит",
-       "de": "schallt"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "пробуждает",
-       "de": "wecket"
-      },
-      {
-       "ru": "тёмных",
-       "de": "der dunkeln"
-      },
-      {
-       "ru": "чувств",
-       "de": "Gefühle"
-      },
-      {
-       "ru": "власть,",
-       "de": "Gewalt"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "Gewalt — «власть, превосходящая сила», а не «насилие»: этот сдвиг слово пережило позже. У Аделунга первое значение — «Überlegene Macht» («превосходящая сила»)."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Что",
-       "de": "Die"
-      },
-      {
-       "ru": "в сердце",
-       "de": "im Herzen"
-      },
-      {
-       "ru": "чудесно",
-       "de": "wunderbar"
-      },
-      {
-       "ru": "спали.»",
-       "de": "schliefen"
-      }
-     ],
-     "annotations": []
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "Und der Sänger rasch in die Saiten fällt",
-    "Und beginnt sie mächtig zu schlagen:",
-    "»Aufs Waidwerk hinaus ritt ein edler Held,",
-    "Den flüchtigen Gemsbock zu jagen.",
-    "Ihm folgte der Knapp mit dem Jägergeschoß,",
-    "Und als er auf seinem stattlichen Roß",
-    "In eine Au kommt geritten,",
-    "Ein Glöcklein hört er erklingen fern;",
-    "Ein Priester war&#039;s mit dem Leib des Herrn,",
-    "Voran kam der Meßner geschritten."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "певец",
-       "de": "der Sänger"
-      },
-      {
-       "ru": "стремительно",
-       "de": "rasch"
-      },
-      {
-       "ru": "по струнам",
-       "de": "in die Saiten"
-      },
-      {
-       "ru": "ударяет",
-       "de": "fällt"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        4
-       ],
-       "text": "in die Saiten fallen — устойчивый оборот «ударить по струнам», а не «упасть». Глагол падения передаёт резкость первого аккорда."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "начинает",
-       "de": "beginnt"
-      },
-      {
-       "ru": "по ним",
-       "de": "sie"
-      },
-      {
-       "ru": "мощно",
-       "de": "mächtig"
-      },
-      {
-       "ru": "бить:",
-       "de": "zu schlagen"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "«На",
-       "de": "»Aufs"
-      },
-      {
-       "ru": "охоту",
-       "de": "Waidwerk"
-      },
-      {
-       "ru": "выехал",
-       "de": "hinaus... ritt"
-      },
-      {
-       "ru": "благородный",
-       "de": "ein edler"
-      },
-      {
-       "ru": "витязь,",
-       "de": "Held"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        2
-       ],
-       "text": "Waidwerk (нынешнее Weidwerk) — охотничье ремесло, охота как занятие. hinaus … ritt — рамка: «выехал наружу», прочь от замка, в поля."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Чтобы",
-       "de": ""
-      },
-      {
-       "ru": "гнать",
-       "de": "zu jagen"
-      },
-      {
-       "ru": "быстроногую",
-       "de": "Den flüchtigen"
-      },
-      {
-       "ru": "серну.",
-       "de": "Gemsbock"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "Gemsbock — самец серны, добыча горной охоты; flüchtig о звере — «спасающийся бегством, быстроногий». jagen с прямым дополнением значит «гнать, травить» вот этого зверя."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "За ним",
-       "de": "Ihm"
-      },
-      {
-       "ru": "следовал",
-       "de": "folgte"
-      },
-      {
-       "ru": "оруженосец",
-       "de": "der Knapp"
-      },
-      {
-       "ru": "с",
-       "de": "mit"
-      },
-      {
-       "ru": "охотничьим оружием,",
-       "de": "dem Jägergeschoß"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "Knapp — усечённое Knappe, оруженосец, юноша при рыцаре. Не путать с прилагательным knapp («скудный, тесный»), которое пишется так же."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "когда",
-       "de": "als"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "на",
-       "de": "auf"
-      },
-      {
-       "ru": "своём",
-       "de": "seinem"
-      },
-      {
-       "ru": "статном",
-       "de": "stattlichen"
-      },
-      {
-       "ru": "коне",
-       "de": "Roß"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        6,
-        6
-       ],
-       "text": "Roß — возвышенное слово для коня, в противоположность прозаическому Pferd. Через несколько строф Шиллер назовёт лошадь оруженосца просто Thier («животное») — разница сословная."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "В",
-       "de": "In"
-      },
-      {
-       "ru": "луг",
-       "de": "eine Au"
-      },
-      {
-       "ru": "въезжает верхом,",
-       "de": "kommt geritten"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        2
-       ],
-       "text": "Au — поэтическое усечение от Aue, пойменный луг у воды. kommen с причастием (kommt geritten) обозначает способ появления: «приезжает верхом»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Слышит",
-       "de": "hört"
-      },
-      {
-       "ru": "он,",
-       "de": "er"
-      },
-      {
-       "ru": "как звенит",
-       "de": "erklingen"
-      },
-      {
-       "ru": "колокольчик",
-       "de": "Ein Glöcklein"
-      },
-      {
-       "ru": "вдали;",
-       "de": "fern"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "hören с чистым инфинитивом (hört … erklingen) — конструкция восприятия: по-русски она разворачивается в придаточное «слышит, как звенит»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Это был",
-       "de": "war&#039;s"
-      },
-      {
-       "ru": "священник",
-       "de": "Ein Priester"
-      },
-      {
-       "ru": "с",
-       "de": "mit"
-      },
-      {
-       "ru": "телом",
-       "de": "dem Leib"
-      },
-      {
-       "ru": "Господним,",
-       "de": "des Herrn"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        4
-       ],
-       "text": "der Leib des Herrn — Тело Господне, то есть святые дары, которые священник несёт умирающему. Leib здесь именно «тело», не бытовой «живот» нынешнего немецкого."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Впереди",
-       "de": "Voran"
-      },
-      {
-       "ru": "шествовал",
-       "de": "kam... geschritten"
-      },
-      {
-       "ru": "пономарь.",
-       "de": "der Meßner"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "Meßner — южнонемецкое слово для причётника, пономаря, церковного служки."
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "»Und der Graf zur Erde sich neiget hin,",
-    "Das Haupt mit Demuth entblößet,",
-    "Zu verehren mit gläubigem Christensinn,",
-    "Was alle Menschen erlöset.",
-    "Ein Bächlein aber rauschte durchs Feld,",
-    "Von des Gießbachs reißenden Fluthen geschwellt,",
-    "Das hemmte der Wanderer Tritte;",
-    "Und beiseit legt Jener das Sacrament,",
-    "Von den Füßen zieht er die Schuhe behend",
-    "Damit er das Bächlein durchschritte."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "«И",
-       "de": "»Und"
-      },
-      {
-       "ru": "граф",
-       "de": "der Graf"
-      },
-      {
-       "ru": "к земле",
-       "de": "zur Erde"
-      },
-      {
-       "ru": "склоняется,",
-       "de": "sich neiget hin"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Главу",
-       "de": "Das Haupt"
-      },
-      {
-       "ru": "со",
-       "de": "mit"
-      },
-      {
-       "ru": "смирением",
-       "de": "Demuth"
-      },
-      {
-       "ru": "обнажив,",
-       "de": "entblößet"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        0
-       ],
-       "text": "Haupt — высокое слово для головы рядом с обиходным Kopf; Гриммы прямо отмечают, что для одного латинского caput у немецкого есть два слова. Русское «глава» держит тот же уровень слога."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Чтобы",
-       "de": ""
-      },
-      {
-       "ru": "чтить",
-       "de": "Zu verehren"
-      },
-      {
-       "ru": "с",
-       "de": "mit"
-      },
-      {
-       "ru": "благочестивым",
-       "de": "gläubigem"
-      },
-      {
-       "ru": "христианским духом",
-       "de": "Christensinn"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "То, что",
-       "de": "Was"
-      },
-      {
-       "ru": "всех",
-       "de": "alle"
-      },
-      {
-       "ru": "людей",
-       "de": "Menschen"
-      },
-      {
-       "ru": "искупает.",
-       "de": "erlöset"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "erlösen — «искупить, освободить от греха», слово церковного обихода. Подлежащее «то, что искупает всех людей» — святые дары в руках священника."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Ручеёк",
-       "de": "Ein Bächlein"
-      },
-      {
-       "ru": "же",
-       "de": "aber"
-      },
-      {
-       "ru": "шумел",
-       "de": "rauschte"
-      },
-      {
-       "ru": "через",
-       "de": "durchs"
-      },
-      {
-       "ru": "поле,",
-       "de": "Feld"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Вздутый",
-       "de": "geschwellt"
-      },
-      {
-       "ru": "бурными",
-       "de": "Von... reißenden"
-      },
-      {
-       "ru": "водами",
-       "de": "Fluthen"
-      },
-      {
-       "ru": "горного потока,",
-       "de": "des Gießbachs"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "Gießbach — горный поток, который вздувается после дождя; Fluthen (нынешнее Fluten) — его прибывающие воды. Причастие geschwellt по-немецки стоит в конце строки, по-русски выходит вперёд."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Это",
-       "de": "Das"
-      },
-      {
-       "ru": "сдерживало",
-       "de": "hemmte"
-      },
-      {
-       "ru": "шаги",
-       "de": "Tritte"
-      },
-      {
-       "ru": "путников;",
-       "de": "der Wanderer"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "der Wanderer — родительный падеж множественного числа: путников двое, священник и пономарь."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "в сторону",
-       "de": "beiseit"
-      },
-      {
-       "ru": "кладёт",
-       "de": "legt"
-      },
-      {
-       "ru": "тот",
-       "de": "Jener"
-      },
-      {
-       "ru": "святые дары,",
-       "de": "das Sacrament"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "Sacrament (нынешнее Sakrament) — таинство, здесь конкретно святые дары, которые несут причастить умирающего."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "С ног",
-       "de": "Von den Füßen"
-      },
-      {
-       "ru": "снимает",
-       "de": "zieht"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "башмаки",
-       "de": "die Schuhe"
-      },
-      {
-       "ru": "проворно",
-       "de": "behend"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Чтобы",
-       "de": "Damit"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "ручеёк",
-       "de": "das Bächlein"
-      },
-      {
-       "ru": "перешёл вброд.",
-       "de": "durchschritte"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "durchschritte — конъюнктив в придаточном цели с damit: «чтобы перешёл». Глагол durchschreiten буквально — «пройти шагом сквозь»."
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "»Was schaffst du? redet der Graf ihn an,",
-    "Der ihn verwundert betrachtet.",
-    "Herr, ich walle zu einem sterbenden Mann,",
-    "Der nach der Himmelskost schmachtet;",
-    "Und da ich mich nahe des Baches Steg,",
-    "Da hat ihn der strömende Gießbach hinweg",
-    "Im Strudel der Wellen gerissen.",
-    "Drum daß dem Lechzenden werde sein Heil,",
-    "So will ich das Wässerlein jetzt in Eil",
-    "Durchwaten mit nackenden Füßen."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "«Что",
-       "de": "»Was"
-      },
-      {
-       "ru": "ты",
-       "de": "du"
-      },
-      {
-       "ru": "затеваешь?",
-       "de": "schaffst"
-      },
-      {
-       "ru": "— обращается",
-       "de": "redet... an"
-      },
-      {
-       "ru": "граф",
-       "de": "der Graf"
-      },
-      {
-       "ru": "к нему,",
-       "de": "ihn"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        3
-       ],
-       "text": "schaffen на юге Германии и в Австрии — просто «делать, затевать»: «что ты делаешь?». redet … an — рамка глагола anreden («обращаться к кому-либо»), разорванная всей серединой строки."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Который",
-       "de": "Der"
-      },
-      {
-       "ru": "его",
-       "de": "ihn"
-      },
-      {
-       "ru": "удивлённо",
-       "de": "verwundert"
-      },
-      {
-       "ru": "разглядывает.",
-       "de": "betrachtet"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Господин,",
-       "de": "Herr"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "бреду",
-       "de": "walle"
-      },
-      {
-       "ru": "к",
-       "de": "zu"
-      },
-      {
-       "ru": "умирающему",
-       "de": "einem sterbenden"
-      },
-      {
-       "ru": "человеку,",
-       "de": "Mann"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "wallen здесь — старое «идти, странствовать», движение паломника, а не «струиться волнами», как то же слово значит в других песнях. Священник идёт пешком со святыми дарами."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Который",
-       "de": "Der"
-      },
-      {
-       "ru": "по",
-       "de": "nach"
-      },
-      {
-       "ru": "небесной пище",
-       "de": "der Himmelskost"
-      },
-      {
-       "ru": "томится;",
-       "de": "schmachtet"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "Himmelskost — «небесная пища», причастие. Словарь Гриммов даёт это слово с примером о том, чтобы «снабдить бедных небесной пищей»; schmachten — томиться голодом и жаждой."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "когда",
-       "de": "da"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "подхожу",
-       "de": "mich nahe"
-      },
-      {
-       "ru": "к мосткам",
-       "de": "Steg"
-      },
-      {
-       "ru": "через ручей,",
-       "de": "des Baches"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "sich nahen управляет родительным падежом: des Baches Steg — «к мосткам через ручей». Steg — узкая кладка, доска через воду."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Тут",
-       "de": "Da"
-      },
-      {
-       "ru": "его",
-       "de": "ihn"
-      },
-      {
-       "ru": "стремительный",
-       "de": "der strömende"
-      },
-      {
-       "ru": "горный поток",
-       "de": "Gießbach"
-      },
-      {
-       "ru": "прочь",
-       "de": "hinweg"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "В",
-       "de": "Im"
-      },
-      {
-       "ru": "водовороте",
-       "de": "Strudel"
-      },
-      {
-       "ru": "волн",
-       "de": "der Wellen"
-      },
-      {
-       "ru": "унёс.",
-       "de": "hat... gerissen"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "Рамка hat … gerissen растянута на две строки: вспомогательный глагол стоит в предыдущем стихе, причастие — в самом конце этого. Поток сорвал и унёс мостки."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Потому,",
-       "de": "Drum"
-      },
-      {
-       "ru": "чтобы",
-       "de": "daß"
-      },
-      {
-       "ru": "изнывающему",
-       "de": "dem Lechzenden"
-      },
-      {
-       "ru": "досталось",
-       "de": "werde"
-      },
-      {
-       "ru": "его",
-       "de": "sein"
-      },
-      {
-       "ru": "спасение,",
-       "de": "Heil"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        5
-       ],
-       "text": "werde — конъюнктив со значением «да будет»: «чтобы досталось». Heil около 1800 года — «спасение души», без всякой позднейшей окраски; lechzen — изнывать от жажды."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Так",
-       "de": "So"
-      },
-      {
-       "ru": "хочу",
-       "de": "will"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "ручеёк",
-       "de": "das Wässerlein"
-      },
-      {
-       "ru": "теперь",
-       "de": "jetzt"
-      },
-      {
-       "ru": "поспешно",
-       "de": "in Eil"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Перейти вброд",
-       "de": "Durchwaten"
-      },
-      {
-       "ru": "босыми",
-       "de": "mit nackenden"
-      },
-      {
-       "ru": "ногами.",
-       "de": "Füßen"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "nackenden — старая форма нынешнего nackt («нагой»); mit nackenden Füßen значит «босиком». Священник снимает башмаки, чтобы перейти воду."
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "»Da setzt ihn der Graf auf sein ritterlich Pferd",
-    "Und reicht ihm die prächtigen Zäume,",
-    "Daß er labe den Kranken, der sein begehrt,",
-    "Und die heilige Pflicht nicht versäume.",
-    "Und er selber auf seines Knappen Thier",
-    "Vergnüget noch weiter des Jagens Begier;",
-    "Der Andre die Reise vollführet,",
-    "Und am nächsten Morgen, mit dankendem Blick,",
-    "Da bringt er dem Grafen das Roß zurück,",
-    "Bescheiden am Zügel geführet."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "«Тут",
-       "de": "»Da"
-      },
-      {
-       "ru": "сажает",
-       "de": "setzt"
-      },
-      {
-       "ru": "его",
-       "de": "ihn"
-      },
-      {
-       "ru": "граф",
-       "de": "der Graf"
-      },
-      {
-       "ru": "на",
-       "de": "auf"
-      },
-      {
-       "ru": "своего",
-       "de": "sein"
-      },
-      {
-       "ru": "рыцарского",
-       "de": "ritterlich"
-      },
-      {
-       "ru": "коня",
-       "de": "Pferd"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "протягивает",
-       "de": "reicht"
-      },
-      {
-       "ru": "ему",
-       "de": "ihm"
-      },
-      {
-       "ru": "великолепную",
-       "de": "die prächtigen"
-      },
-      {
-       "ru": "узду,",
-       "de": "Zäume"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Чтобы",
-       "de": "Daß"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "подкрепил",
-       "de": "labe"
-      },
-      {
-       "ru": "больного,",
-       "de": "den Kranken"
-      },
-      {
-       "ru": "который",
-       "de": "der"
-      },
-      {
-       "ru": "его",
-       "de": "sein"
-      },
-      {
-       "ru": "жаждет,",
-       "de": "begehrt"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "laben — «подкрепить, оживить»: у Гриммов почти то же, что erquicken («освежить»). Здесь речь о причастии, которого ждёт умирающий."
-      },
-      {
-       "type": "lang",
-       "segment_range": [
-        5,
-        6
-       ],
-       "text": "begehren управляет родительным падежом; sein здесь — старая форма родительного падежа от er («его жаждет»), притяжательное «свой» тут ни при чём."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "святым",
-       "de": "die heilige"
-      },
-      {
-       "ru": "долгом",
-       "de": "Pflicht"
-      },
-      {
-       "ru": "не",
-       "de": "nicht"
-      },
-      {
-       "ru": "пренебрёг.",
-       "de": "versäume"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "сам",
-       "de": "selber"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "на",
-       "de": "auf"
-      },
-      {
-       "ru": "животном",
-       "de": "Thier"
-      },
-      {
-       "ru": "своего",
-       "de": "seines"
-      },
-      {
-       "ru": "оруженосца",
-       "de": "Knappen"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        4,
-        4
-       ],
-       "text": "Thier (нынешнее Tier) — «животное»: конь графа назван благородным Roß, лошадь оруженосца — просто скотиной. Граф пересаживается на неё, отдав своего коня священнику."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Утоляет",
-       "de": "Vergnüget"
-      },
-      {
-       "ru": "ещё",
-       "de": "noch"
-      },
-      {
-       "ru": "дальше",
-       "de": "weiter"
-      },
-      {
-       "ru": "охотничью",
-       "de": "des Jagens"
-      },
-      {
-       "ru": "страсть;",
-       "de": "Begier"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Другой",
-       "de": "Der Andre"
-      },
-      {
-       "ru": "путь",
-       "de": "die Reise"
-      },
-      {
-       "ru": "совершает,",
-       "de": "vollführet"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "на",
-       "de": "am"
-      },
-      {
-       "ru": "следующее",
-       "de": "nächsten"
-      },
-      {
-       "ru": "утро,",
-       "de": "Morgen"
-      },
-      {
-       "ru": "с",
-       "de": "mit"
-      },
-      {
-       "ru": "благодарным",
-       "de": "dankendem"
-      },
-      {
-       "ru": "взглядом,",
-       "de": "Blick"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Тут",
-       "de": "Da"
-      },
-      {
-       "ru": "приводит",
-       "de": "bringt"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "графу",
-       "de": "dem Grafen"
-      },
-      {
-       "ru": "коня",
-       "de": "das Roß"
-      },
-      {
-       "ru": "обратно,",
-       "de": "zurück"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Скромно",
-       "de": "Bescheiden"
-      },
-      {
-       "ru": "за",
-       "de": "am"
-      },
-      {
-       "ru": "поводья",
-       "de": "Zügel"
-      },
-      {
-       "ru": "ведомого.",
-       "de": "geführet"
-      }
-     ],
-     "annotations": []
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "»Nicht wolle das Gott, rief mit Demuthsinn",
-    "Der Graf, daß zum Streiten und Jagen",
-    "Das Roß ich beschritte fürderhin,",
-    "Das meinen Schöpfer getragen!",
-    "Und magst du&#039;s nicht haben zu eignem Gewinnst,",
-    "So bleib&#039; es gewidmet dem göttlichen Dienst!",
-    "Denn ich hab&#039; es Dem ja gegeben,",
-    "Von dem ich Ehre und irdisches Gut",
-    "Zu Lehen trage und Leib und Blut",
-    "Und Seele und Athem und Leben."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "«Не",
-       "de": "»Nicht"
-      },
-      {
-       "ru": "дай",
-       "de": "wolle"
-      },
-      {
-       "ru": "того",
-       "de": "das"
-      },
-      {
-       "ru": "Бог,",
-       "de": "Gott"
-      },
-      {
-       "ru": "— воскликнул",
-       "de": "rief"
-      },
-      {
-       "ru": "со смиренным духом",
-       "de": "mit Demuthsinn"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "wolle — конъюнктив пожелания: буквально «да не захочет того Бог». Русское «не дай Бог» отвечает и по смыслу, и по обиходности оборота."
-      },
-      {
-       "type": "lang",
-       "segment_range": [
-        5,
-        5
-       ],
-       "text": "Demuthsinn — сложное слово из Demuth («смирение») и Sinn («дух, склад души»). Оно настолько редкое, что словарь Гриммов приводит его с этой самой строкой Шиллера."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Граф,",
-       "de": "Der Graf"
-      },
-      {
-       "ru": "чтобы",
-       "de": "daß"
-      },
-      {
-       "ru": "для",
-       "de": "zum"
-      },
-      {
-       "ru": "сражений",
-       "de": "Streiten"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "охоты",
-       "de": "Jagen"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "На коня",
-       "de": "Das Roß"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "впредь",
-       "de": "fürderhin"
-      },
-      {
-       "ru": "садился,",
-       "de": "beschritte"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "beschreiten — «садиться верхом», причём конь стоит в винительном падеже без предлога. Словарь Гриммов поясняет глагол этой самой строкой баллады."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Который",
-       "de": "Das"
-      },
-      {
-       "ru": "моего",
-       "de": "meinen"
-      },
-      {
-       "ru": "Творца",
-       "de": "Schöpfer"
-      },
-      {
-       "ru": "носил!",
-       "de": "getragen"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "А",
-       "de": "Und"
-      },
-      {
-       "ru": "если ты его",
-       "de": "du&#039;s"
-      },
-      {
-       "ru": "не",
-       "de": "nicht"
-      },
-      {
-       "ru": "можешь",
-       "de": "magst"
-      },
-      {
-       "ru": "взять",
-       "de": "haben"
-      },
-      {
-       "ru": "для собственной",
-       "de": "zu eignem"
-      },
-      {
-       "ru": "выгоды,",
-       "de": "Gewinnst"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        3
-       ],
-       "text": "mögen в эпоху ещё держит старое значение «мочь, быть в силах», а не «любить»: magst du's nicht haben — «если тебе нельзя взять его себе»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "То",
-       "de": "So"
-      },
-      {
-       "ru": "пусть остаётся",
-       "de": "bleib&#039;"
-      },
-      {
-       "ru": "он",
-       "de": "es"
-      },
-      {
-       "ru": "посвящённым",
-       "de": "gewidmet"
-      },
-      {
-       "ru": "божественному",
-       "de": "dem göttlichen"
-      },
-      {
-       "ru": "служению!",
-       "de": "Dienst"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Ибо",
-       "de": "Denn"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "ведь",
-       "de": "ja"
-      },
-      {
-       "ru": "отдал",
-       "de": "hab&#039;... gegeben"
-      },
-      {
-       "ru": "его",
-       "de": "es"
-      },
-      {
-       "ru": "Тому,",
-       "de": "Dem"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        5,
-        5
-       ],
-       "text": "Dem напечатано с прописной буквы: указательное местоимение здесь означает Бога, и следующие две строки объясняют, что именно граф от Него держит."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "От Кого",
-       "de": "Von dem"
-      },
-      {
-       "ru": "я",
-       "de": "ich"
-      },
-      {
-       "ru": "честь",
-       "de": "Ehre"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "земное",
-       "de": "irdisches"
-      },
-      {
-       "ru": "добро",
-       "de": "Gut"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "В лен",
-       "de": "Zu Lehen"
-      },
-      {
-       "ru": "несу,",
-       "de": "trage"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "тело",
-       "de": "Leib"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "кровь",
-       "de": "Blut"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        1
-       ],
-       "text": "zu Lehen tragen — держать в лен: получать землю, честь и права от сеньора за службу. Граф выстраивает всю свою жизнь как феодальное владение, полученное от Бога."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "душу,",
-       "de": "Seele"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "дыхание,",
-       "de": "Athem"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "жизнь.",
-       "de": "Leben"
-      }
-     ],
-     "annotations": []
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "»So mög&#039; Euch Gott, der allmächtige Hort,",
-    "Der das Flehen der Schwachen erhöret,",
-    "Zu Ehren Euch bringen hier und dort,",
-    "So wie Ihr ihn jetzt geehret.",
-    "Ihr seid ein mächtiger Graf, bekannt",
-    "Durch ritterlich Walten im Schweizerland;",
-    "Euch blühn sechs liebliche Töchter.",
-    "So mögen sie, rief er begeistert aus,",
-    "Sechs Kronen Euch bringen in Euer Haus,",
-    "Und glänzen die spätsten Geschlechter!«"
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "«Так",
-       "de": "»So"
-      },
-      {
-       "ru": "пусть",
-       "de": "mög&#039;"
-      },
-      {
-       "ru": "вас",
-       "de": "Euch"
-      },
-      {
-       "ru": "Бог,",
-       "de": "Gott"
-      },
-      {
-       "ru": "всемогущий",
-       "de": "der allmächtige"
-      },
-      {
-       "ru": "оплот,",
-       "de": "Hort"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        5,
-        5
-       ],
-       "text": "Hort — поэтическое слово: и «сокровище», и «оплот, защита». У Гриммов в нём заложено значение оберегания, охраны — потому оно и стоит рядом с «всемогущий»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Который",
-       "de": "Der"
-      },
-      {
-       "ru": "мольбе",
-       "de": "das Flehen"
-      },
-      {
-       "ru": "слабых",
-       "de": "der Schwachen"
-      },
-      {
-       "ru": "внемлет,",
-       "de": "erhöret"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "К чести",
-       "de": "Zu Ehren"
-      },
-      {
-       "ru": "вас",
-       "de": "Euch"
-      },
-      {
-       "ru": "приведёт",
-       "de": "bringen"
-      },
-      {
-       "ru": "здесь",
-       "de": "hier"
-      },
-      {
-       "ru": "и",
-       "de": "und"
-      },
-      {
-       "ru": "там,",
-       "de": "dort"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        2,
-        2
-       ],
-       "text": "Рамка mög' … bringen растянута на три строки: пожелание начинается словом «пусть» в первом стихе, а глагол приходит только здесь. «Здесь и там» — на земле и на небе."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Так, как",
-       "de": "So wie"
-      },
-      {
-       "ru": "вы",
-       "de": "Ihr"
-      },
-      {
-       "ru": "Его",
-       "de": "ihn"
-      },
-      {
-       "ru": "теперь",
-       "de": "jetzt"
-      },
-      {
-       "ru": "почтили.",
-       "de": "geehret"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Вы",
-       "de": "Ihr"
-      },
-      {
-       "ru": "—",
-       "de": "seid"
-      },
-      {
-       "ru": "могущественный",
-       "de": "ein mächtiger"
-      },
-      {
-       "ru": "граф,",
-       "de": "Graf"
-      },
-      {
-       "ru": "известный",
-       "de": "bekannt"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Рыцарским",
-       "de": "Durch ritterlich"
-      },
-      {
-       "ru": "правлением",
-       "de": "Walten"
-      },
-      {
-       "ru": "в",
-       "de": "im"
-      },
-      {
-       "ru": "Швейцарии;",
-       "de": "Schweizerland"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "У вас",
-       "de": "Euch"
-      },
-      {
-       "ru": "цветут",
-       "de": "blühn"
-      },
-      {
-       "ru": "шесть",
-       "de": "sechs"
-      },
-      {
-       "ru": "прелестных",
-       "de": "liebliche"
-      },
-      {
-       "ru": "дочерей.",
-       "de": "Töchter"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        0,
-        1
-       ],
-       "text": "Euch blühn — дательный принадлежности: «у вас цветут». Оборот blühen с дательным в эпоху означал именно «цвести кому-то, на радость кому-то»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Так",
-       "de": "So"
-      },
-      {
-       "ru": "пусть",
-       "de": "mögen"
-      },
-      {
-       "ru": "они,",
-       "de": "sie"
-      },
-      {
-       "ru": "— воскликнул",
-       "de": "rief... aus"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "воодушевлённо, —",
-       "de": "begeistert"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Шесть",
-       "de": "Sechs"
-      },
-      {
-       "ru": "корон",
-       "de": "Kronen"
-      },
-      {
-       "ru": "вам",
-       "de": "Euch"
-      },
-      {
-       "ru": "принесут",
-       "de": "bringen"
-      },
-      {
-       "ru": "в",
-       "de": "in"
-      },
-      {
-       "ru": "ваш",
-       "de": "Euer"
-      },
-      {
-       "ru": "дом,",
-       "de": "Haus"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "meaning",
-       "segment_range": [
-        0,
-        3
-       ],
-       "text": "Шесть дочерей — шесть корон: певец предсказывает роду графа императорское будущее. Как пишет справочник schubertsong.uk, баллада писалась в последние месяцы существования Священной Римской империи, распавшейся в 1806 году, и подводила основание под права дома Габсбургов на престол."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "да сияют",
-       "de": "glänzen"
-      },
-      {
-       "ru": "грядущие",
-       "de": "die spätsten"
-      },
-      {
-       "ru": "поколения!»",
-       "de": "Geschlechter"
-      }
-     ],
-     "annotations": []
-    }
-   ]
-  },
-  {
-   "lines_de": [
-    "Und mit sinnendem Haupt saß der Kaiser da,",
-    "Als dächt&#039; er vergangener Zeiten;",
-    "Jetzt, da er dem Sänger ins Auge sah,",
-    "Da ergreift ihn der Worte Bedeuten.",
-    "Die Züge des Priesters erkennt er schnell",
-    "Und verbirgt der Thränen stürzenden Quell",
-    "In des Mantels purpurnen Falten.",
-    "Und Alles blickte den Kaiser an",
-    "Und erkannte den Grafen, der das gethan,",
-    "Und verehrte das göttliche Walten."
-   ],
-   "lines_ru": [
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "с",
-       "de": "mit"
-      },
-      {
-       "ru": "задумчивой",
-       "de": "sinnendem"
-      },
-      {
-       "ru": "главой",
-       "de": "Haupt"
-      },
-      {
-       "ru": "сидел",
-       "de": "saß"
-      },
-      {
-       "ru": "там",
-       "de": "da"
-      },
-      {
-       "ru": "император,",
-       "de": "der Kaiser"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Словно",
-       "de": "Als"
-      },
-      {
-       "ru": "думал",
-       "de": "dächt&#039;"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "о минувших",
-       "de": "vergangener"
-      },
-      {
-       "ru": "временах;",
-       "de": "Zeiten"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        3,
-        4
-       ],
-       "text": "denken в старом языке управляло родительным падежом: vergangener Zeiten — «о минувших временах». dächt' — конъюнктив после als («словно»), сравнение с несбывшимся."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Теперь,",
-       "de": "Jetzt"
-      },
-      {
-       "ru": "когда",
-       "de": "da"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "певцу",
-       "de": "dem Sänger"
-      },
-      {
-       "ru": "в",
-       "de": "ins"
-      },
-      {
-       "ru": "глаза",
-       "de": "Auge"
-      },
-      {
-       "ru": "взглянул,",
-       "de": "sah"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "Тут",
-       "de": "Da"
-      },
-      {
-       "ru": "охватывает",
-       "de": "ergreift"
-      },
-      {
-       "ru": "его",
-       "de": "ihn"
-      },
-      {
-       "ru": "смысл",
-       "de": "Bedeuten"
-      },
-      {
-       "ru": "слов.",
-       "de": "der Worte"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "ergreifen — то самое слово, которым в третьей строфе император «берёт» золотой кубок. Там оно значит взять рукой, здесь — смысл слов охватывает человека."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "Черты",
-       "de": "Die Züge"
-      },
-      {
-       "ru": "священника",
-       "de": "des Priesters"
-      },
-      {
-       "ru": "узнаёт",
-       "de": "erkennt"
-      },
-      {
-       "ru": "он",
-       "de": "er"
-      },
-      {
-       "ru": "быстро",
-       "de": "schnell"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "скрывает",
-       "de": "verbirgt"
-      },
-      {
-       "ru": "слёз",
-       "de": "der Thränen"
-      },
-      {
-       "ru": "хлынувший",
-       "de": "stürzenden"
-      },
-      {
-       "ru": "источник",
-       "de": "Quell"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "В",
-       "de": "In"
-      },
-      {
-       "ru": "пурпурных",
-       "de": "purpurnen"
-      },
-      {
-       "ru": "складках",
-       "de": "Falten"
-      },
-      {
-       "ru": "плаща.",
-       "de": "des Mantels"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "все",
-       "de": "Alles"
-      },
-      {
-       "ru": "глядели",
-       "de": "blickte... an"
-      },
-      {
-       "ru": "на императора",
-       "de": "den Kaiser"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "lang",
-       "segment_range": [
-        1,
-        1
-       ],
-       "text": "Alles — собирательное «всё» о людях, весь зал; глагол при нём стоит в единственном числе. По-русски естественнее множественное «все глядели»."
-      }
-     ]
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "узнали",
-       "de": "erkannte"
-      },
-      {
-       "ru": "графа,",
-       "de": "den Grafen"
-      },
-      {
-       "ru": "который",
-       "de": "der"
-      },
-      {
-       "ru": "это",
-       "de": "das"
-      },
-      {
-       "ru": "содеял,",
-       "de": "gethan"
-      }
-     ],
-     "annotations": []
-    },
-    {
-     "segments": [
-      {
-       "ru": "И",
-       "de": "Und"
-      },
-      {
-       "ru": "чтили",
-       "de": "verehrte"
-      },
-      {
-       "ru": "божественное",
-       "de": "das göttliche"
-      },
-      {
-       "ru": "правление.",
-       "de": "Walten"
-      }
-     ],
-     "annotations": [
-      {
-       "type": "meaning",
-       "segment_range": [
-        2,
-        3
-       ],
-       "text": "«Божественное правление» замыкает балладу: тот, кто уступил коня священнику, и тот, кто сидит на троне, — одно лицо. По прочтению справочника schubertsong.uk, поступок благочестия у Шиллера служит знаком того, что курфюрсты выбрали верно, а Рудольф соединяет в себе церковь и государство."
-      }
-     ]
-    }
-   ]
-  }
- ],
- "about": [
-  {
-   "title": "Около 1818 года",
-   "text": "Точной даты у песни нет: справочник schubertsong.uk датирует её «около 1818 года», месяц работы неизвестен. Если год верен, Шуберту, родившемуся в январе 1797 года, был двадцать один год."
-  },
-  {
-   "title": "Публикация и автограф",
-   "text": "При жизни Шуберта «Граф Габсбургский» не печатался. Песня вышла только в 1853 году — в венском песеннике его старшего брата Фердинанда Шуберта «Der kleine Sänger» («Маленький певец»).\nСведений о судьбе автографа найти не удалось."
-  },
-  {
-   "title": "Фридрих Шиллер",
-   "text": "Драматург, поэт и историк, вместе с Гёте определивший облик веймарской классики, Шиллер был для Шуберта главным поэтом отрочества. Личного знакомства быть не могло: Шиллер умер, когда будущему композитору не исполнилось и девяти лет. Но именно на его стихах Шуберт-подросток учился писать песню-балладу — по каталогу Отто Дойча, между 1811 и 1817 годами он положил на музыку 66 шиллеровских текстов, а за всю жизнь — около сорока стихотворений почти в восьми десятках редакций и набросков.\nМногое из этого осталось черновиками пятнадцатилетнего мальчика, подражавшего своему кумиру Иоганну Рудольфу Цумштегу. Но там же выросли «Gruppe aus dem Tartarus» («Группа из Тартара»), «Der Taucher» («Ныряльщик»), «Der Pilgrim» («Пилигрим»), выдержавшие сравнение со зрелыми шедеврами. Шиллер писал крупные, риторически выстроенные баллады — материал для драматической сцены, а не для камерного романса, и вкус к монологу, контрасту и театру в фортепианной партии остался у Шуберта на всю жизнь. Шиллеровские песни укладываются в 1811–1817 годы; «Граф Габсбургский» написан уже после них и датируется примерно 1818-м."
-  },
-  {
-   "title": "Стихотворение",
-   "text": "Балладу Шиллер написал в апреле 1803 года и в конце того же года напечатал. Сюжет он взял из «Chronicon Helveticum» («Швейцарской хроники») Эгидия Чуди: этот свод попался ему, когда он готовил «Вильгельма Телля», и там нашёлся анекдот о графе-короле Рудольфе I Германском (1218–1291), коронованном в Ахене 24 октября 1273 года.\nТекст, по которому сделан подстрочник, сверен Петером Растлем, выверяющим слова шубертовских песен по прижизненным изданиям поэтов, с двумя книгами: венским собранием сочинений Шиллера 1810 года (том 10, «Gedichte, Zweyter Theil», с. 194–198) и лейпцигским изданием стихотворений у Зигфрида Лебрехта Крузиуса 1805 года (с. 316–322).\nОт шиллеровского оригинала, как его приводит schubertsong.uk, текст песни расходится в мелочах. Там, где у Шиллера «Königsmahle» («королевский пир»), в песне стоит «festlichen Krönungsmahle» («праздничный коронационный пир»); «Herrn der Welt» («господина мира») стало «Herrscher der Welt» («властителем мира»), «Volk mit frohem Gedränge» («народ в весёлой давке») — «Volk in freud'gem Gedränge» («народ в радостной давке»); «An seinem herrlichen Feste» («на его великолепном празднике») превратилось в «herrlichsten» («великолепнейшем»), а «in des größern Herrn Pflicht» — в «in des größeren Herren Pflicht»."
-  },
-  {
-   "title": "Музыка",
-   "text": "Разбора этой музыки найти не удалось: надёжных сведений о тональности, форме и складе фортепианной партии нет."
-  },
-  {
-   "title": "Рассказ в рассказе",
-   "text": "Баллада сложена из двух половин, и вторая спрятана внутри первой. Сначала — коронационный пир в Ахене, где новый император просит песни. Потом седой певец в длинной мантии поёт о графе, который на охоте уступил священнику боевого коня, чтобы тот успел причастить умирающего. Последняя строфа сводит обе истории в одну: слушатель узнаёт в графе себя, а в чертах певца — того самого священника, и прячет слёзы в складках пурпурного плаща.\nПрямая речь занимает строфы с третьей по одиннадцатую: сначала говорит император, потом певец, потом внутри его песни — граф и священник. Кавычки в тексте показывают, как один голос вложен в другой."
-  },
-  {
-   "title": "Семь курфюрстов",
-   "text": "Императорская должность по наследству не переходила: государя выбирали семеро курфюрстов — архиепископы Кёльна, Майнца и Трира, король Богемии, пфальцграф Рейнский, герцог Саксонский и маркграф Бранденбургский. Порядок выборов закрепила Золотая булла XIV века, записавшая уже сложившийся обычай.\nКак это выглядело, показывает миниатюра из «Codex Balduini Trevirensis» около 1340 года: семеро курфюрстов на избрании графа Генриха Люксембургского в Ахене. Лист хранится в земельном архиве Кобленца (Landeshauptarchiv Koblenz, Best. 1 C Nr. 1 fol. 3b)."
-  },
-  {
-   "title": "Судьба и наследие",
-   "text": "Откликов современников на саму песню — в отличие от стихотворения, которое читали и переиздавали, — найти не удалось; о первых исполнениях сведений нет.\nПод соседним каталожным номером стоит другая вещь: D 990A — набросок на стихи Генриха фон Коллина «Kaiser Maximilian auf der Martinswand» («Император Максимилиан на Мартиновой стене»). Как пишет Грэм Джонсон, автор комментариев к антологии Hyperion Schubert Edition, музыки там написано слишком мало, чтобы вещь можно было исполнить."
-  },
-  {
-   "title": "Как это поют",
-   "text": "Записей у баллады мало, и на полную пятёрку их не набирается: ни у старых мастеров, ни у знаменитых шубертовских баритонов этой песни нет.\nПервая — тенор Лотар Одиниус и пианист Айзенлор, 2005 год. Она вошла в шиллеровский том антологии Naxos («Schiller, Vols. 3 & 4», 8.557369-70, издание мая 2005 года), где песни собраны по поэтам.\nВторая — Яспер Схвеппе и Рико Фукуда за историческим фортепиано, десятый том голландской серии песен Шуберта («Schubert: Lieder, Vol. 10: D. 919 – D. 990A», издание 2026 года); год самой сессии не документирован, продюсером выступил сам певец.\nЕщё одну запись под тем же названием — Романа Трекеля и Корда Гарбена — легко принять за шубертовскую. На деле это «Der Graf von Habsburg» соч. 98 Карла Лёве из полного собрания его песен и баллад (cpo, 1996)."
-  }
- ],
- "source": "OpenScore Lieder Corpus (CC0)"
+  ],
+  "source": "OpenScore Lieder Corpus (CC0)"
 }

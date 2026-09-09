@@ -9,7 +9,7 @@ PREFIX=$(python3 -c "import json;print(json.load(open('spec.json'))['prefix'])")
 echo "=== 1. свои маршруты (Whisper каждой записи) ==="; $SCRIPTS/test_run.sh spec.json own $VIDS 2>&1 | grep -a -v "^  проход" | grep -a -v "сдвигом\|варианты те же\|ВАРИАНТЫ\|ИЗМЕНИЛСЯ"
 echo "=== 2. консенсус по строфам и решения ==="; $PY $SCRIPTS/consensus.py "$SONG" own "$PREFIX" $VIDS
 echo "=== 3. файлы сайта ==="; FB=""
-while read v d; do
+while read v d rest; do   # решение — второе поле; после него может идти пояснение («свой фрагмент: спето N из M слов»)
   case "$d" in
     свой) cp "own/$PREFIX-$v.json" "$APP/"; echo "$v: свой маршрут -> сайт";;
     починка) echo "$v: починка по консенсусу"; (cd "own/wh_$v" && CONSENSUS=$RUNDIR/route_consensus.json nice -n 15 $PY $SCRIPTS/wh_pipeline.py $RUNDIR/spec.json $v $SP/align/wh_$v.json $SP/audio/${v}_voc.wav $SP/align/em_mms_$v.pt $SP/align/em_de_$v.pt 2>&1 | grep -a -v Warn | grep -a -E "дополнен|консенсус предлагает|вне консенсуса|спето|Traceback|Error|File " | cut -c1-220);;
