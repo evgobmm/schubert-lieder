@@ -207,10 +207,13 @@ body {
   text-align: left;
 }
 
-/* Письмо — кружок ниже «Печати», на одной вертикали с месяцем */
+/* Ряд круглых кнопок под «Печатью»: письмо справа, на одной вертикали с месяцем;
+   «Наверх» слева, центром под значком принтера (значок 20 px при внутреннем отступе
+   кнопки 10 px → центр в 20 px от левого края «Печати») */
 .feedback-row {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   padding-right: calc(var(--round-col-right) - var(--round-btn) / 2 - 20px);
 }
 
@@ -520,25 +523,24 @@ body {
   display: none;
 }
 
-/* Круглая кнопка «Наверх» — в правом нижнем углу, в ряду круглых кнопок сайта (тема, письмо) */
+/* Круглая кнопка «Наверх» — в правой колонке, в ряду письма; место занимает всегда,
+   видна только когда страница прокручена вниз */
 .to-top {
-  position: fixed;
-  right: calc(var(--round-col-right) - var(--round-btn) / 2);
-  bottom: 28px;
-  z-index: 70;
+  position: relative;
+  margin-left: calc(20px - var(--round-btn) / 2);
   width: var(--round-btn);
   height: var(--round-btn);
+  flex: none;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--border);
   border-radius: 50%;
-  background: var(--bg);
+  background: none;
   color: var(--accent);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
   cursor: pointer;
   opacity: 0;
-  transform: translateY(8px);
+  transform: translateY(6px);
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease, background 0.15s;
 }

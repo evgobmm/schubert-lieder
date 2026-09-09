@@ -295,8 +295,23 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
           <span class="press-label">Печать</span>
         </button>
       </div>
-      <!-- Письмо -->
+      <!-- Ряд круглых кнопок: слева «Наверх» (под значком принтера, появляется при прокрутке),
+           справа письмо (на вертикали месяца) -->
       <div class="feedback-row">
+        <button
+          class="to-top"
+          :class="{ visible: toTopVisible }"
+          type="button"
+          aria-label="Наверх"
+          data-tip="Наверх"
+          :tabindex="toTopVisible ? 0 : -1"
+          @click="quickScrollTop"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m17 11-5-5-5 5" />
+            <path d="m17 18-5-5-5 5" />
+          </svg>
+        </button>
         <button class="letter-btn" title="Письмо" aria-label="Письмо" @click="feedbackOpen = true">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="5" width="18" height="14" rx="0.8" />
@@ -315,21 +330,6 @@ const currentSongFile = computed(() => currentSong.value ? currentSong.value.fil
       @close="printMenuOpen = false"
     />
     <FeedbackMenu v-if="feedbackOpen" @close="feedbackOpen = false" />
-    <!-- Кнопка «Наверх» (только компьютерная раскладка): появляется при прокрутке вниз -->
-    <button
-      class="to-top"
-      :class="{ visible: toTopVisible }"
-      type="button"
-      aria-label="Наверх"
-      data-tip="Наверх"
-      :tabindex="toTopVisible ? 0 : -1"
-      @click="quickScrollTop"
-    >
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="m17 11-5-5-5 5" />
-        <path d="m17 18-5-5-5 5" />
-      </svg>
-    </button>
     <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям / письмо -->
     <div class="quick-nav" :class="{ 'qn-visible': quickNavVisible }">
       <button class="qn-btn" aria-label="Наверх" @click="quickScrollTop">
