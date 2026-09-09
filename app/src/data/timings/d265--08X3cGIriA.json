@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 2,
-   "l": 3,
-   "k": 4,
-   "w": "sehn,",
-   "heard": "scheint,",
-   "start": 51.7
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 1,
@@ -428,12 +419,14 @@
   }
  ],
  "anchored": 58,
- "holes": [
+ "variant_candidates": [
   {
-   "a": 62.0,
-   "b": 68.9,
-   "sec": 6.9,
-   "why": "растянутое слово под 2"
+   "s": 2,
+   "l": 3,
+   "k": 4,
+   "w": "sehn,",
+   "heard": "scheint,",
+   "start": 51.7
   }
  ]
 }

@@ -6,24 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 2,
-   "l": 4,
-   "k": 2,
-   "w": "mohnbekränzten",
-   "heard": "unbegrenzten",
-   "start": 319.18
-  },
-  {
-   "s": 3,
-   "l": 2,
-   "k": 6,
-   "w": "sah’s",
-   "heard": "saß",
-   "start": 361.67
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -1235,11 +1218,32 @@
     ],
     [
      390.78,
-     392.4
+     391.54
     ],
-    null
+    [
+     391.54,
+     392.66
+    ]
    ]
   }
  ],
- "anchored": 218
+ "anchored": 218,
+ "variant_candidates": [
+  {
+   "s": 2,
+   "l": 4,
+   "k": 2,
+   "w": "mohnbekränzten",
+   "heard": "unbegrenzten",
+   "start": 319.18
+  },
+  {
+   "s": 3,
+   "l": 2,
+   "k": 6,
+   "w": "sah’s",
+   "heard": "saß",
+   "start": 361.67
+  }
+ ]
 }

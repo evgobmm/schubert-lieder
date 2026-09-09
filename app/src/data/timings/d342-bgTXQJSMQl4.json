@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 1,
-   "l": 0,
-   "k": 4,
-   "w": "tändelnd",
-   "heard": "Tenden",
-   "start": 47.17
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -425,12 +416,14 @@
   }
  ],
  "anchored": 67,
- "holes": [
+ "variant_candidates": [
   {
-   "a": 147.1,
-   "b": 154.7,
-   "sec": 7.7,
-   "why": "между словами между 3"
+   "s": 1,
+   "l": 0,
+   "k": 4,
+   "w": "tändelnd",
+   "heard": "Tenden",
+   "start": 47.17
   }
  ]
 }

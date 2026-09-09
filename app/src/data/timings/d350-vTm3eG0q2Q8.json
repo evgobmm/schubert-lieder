@@ -9,22 +9,6 @@
  "variants": [
   {
    "s": 3,
-   "l": 1,
-   "k": 3,
-   "w": "trennt,",
-   "heard": "getrennt,",
-   "start": 52.86
-  },
-  {
-   "s": 3,
-   "l": 2,
-   "k": 3,
-   "w": "Laut",
-   "heard": "lauter",
-   "start": 56.72
-  },
-  {
-   "s": 3,
    "l": 2,
    "k": 4,
    "w": "herüber,",
@@ -468,5 +452,23 @@
    ]
   }
  ],
- "anchored": 79
+ "anchored": 79,
+ "variant_candidates": [
+  {
+   "s": 3,
+   "l": 1,
+   "k": 3,
+   "w": "trennt,",
+   "heard": "getrennt,",
+   "start": 52.86
+  },
+  {
+   "s": 3,
+   "l": 2,
+   "k": 3,
+   "w": "Laut",
+   "heard": "lauter",
+   "start": 56.72
+  }
+ ]
 }

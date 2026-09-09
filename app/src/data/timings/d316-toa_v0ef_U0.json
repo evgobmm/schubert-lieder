@@ -8,14 +8,6 @@
  "extra_lines": [],
  "variants": [
   {
-   "s": 1,
-   "l": 1,
-   "k": 5,
-   "w": "reget",
-   "heard": "riecht",
-   "start": 30.16
-  },
-  {
    "s": 2,
    "l": 0,
    "k": 1,
@@ -317,5 +309,15 @@
    ]
   }
  ],
- "anchored": 57
+ "anchored": 57,
+ "variant_candidates": [
+  {
+   "s": 1,
+   "l": 1,
+   "k": 5,
+   "w": "reget",
+   "heard": "riecht",
+   "start": 30.16
+  }
+ ]
 }

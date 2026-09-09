@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 0,
-   "l": 3,
-   "k": 2,
-   "w": "Krönungsmahle.",
-   "heard": "Königsmahne.",
-   "start": 16.3
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -610,5 +601,15 @@
    ]
   }
  ],
- "anchored": 118
+ "anchored": 118,
+ "variant_candidates": [
+  {
+   "s": 0,
+   "l": 3,
+   "k": 2,
+   "w": "Krönungsmahle.",
+   "heard": "Königsmahne.",
+   "start": 16.3
+  }
+ ]
 }

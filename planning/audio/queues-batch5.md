@@ -4,11 +4,11 @@
 
 ## D 39 — Lebenstraum
 
-### Varcoe — Johnson 1999 (`zC_peOBU6hE`) — свой; проходов 44; в очереди 19 слов
-1.4 – @49.8, 1.4 und @50.0, 2.1 lange, @81.9, 2.2 Das @86.4, 2.2 Haupt @87.2, 2.2 meine @89.1, 2.4 Tron @136.3, 2.7 An @188.1, 2.7 noch @193.9, 2.7 die @201.1, 2.8 Tot, @219.7, 2.8 unbemerkt, @224.1, 2.8 und @227.8, 2.8 längst @228.3, 2.8 vergessen @229.5, 2.8 schliefen @232.1, 3.1 jenem @283.2, 3.3 Jetzt @297.6, 5.2 Ein @389.4
+### Roth — Eisenlohr 2010 (`eZ8wbBNniMs`) — свой; проходов 76; в очереди 32 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 343.7–352.8 (9.1 с) под 2:0·Tale,; 348.9–352.8 (3.9 с) между 2:0·Tale, и 2:1·Entstiegen, 1.1 Tempelhalle @27.8, 1.2 vom @38.3, 1.2 nahen @38.5, 1.4 – @62.2, 1.4 und @62.4, 1.4 die @66.0, 1.4 die @66.2, 1.5 Vergüldete @70.7, 1.5 die @82.3, 1.5 matten @83.0, 2.1 lange, @102.2, 2.2 Haupt @108.2, 2.3 Zukunft @135.6, 2.5 Den @188.2, 2.5 Den @196.1, 2.5 vom @198.8, 2.5 heiligen @199.2, 2.6 Der @218.3, 2.6 alt’ @221.1, 2.8 Tot, @268.4, 2.9 dunkeln @283.4, 3.3 Jetzt @359.6, 3.3 daher, @366.8, 4.1 wollt’ @402.1, 5.9 für @485.9, 5.13 Beglückt @497.5, 6.1 feierlichste @503.0, 6.3 ich’s @509.3, 6.7 die @525.7, 7.3 und @570.2, 7.3 fröhlich @570.3
 
-### Roth — Eisenlohr 2010 (`eZ8wbBNniMs`) — свой; проходов 76; в очереди 33 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 343.7–352.8 (9.1 с) под 2:0·Tale,; 348.9–352.8 (3.9 с) между 2:0·Tale, и 2:1·Entstiegen, 1.1 Tempelhalle @27.8, 1.2 vom @38.3, 1.2 nahen @38.5, 1.4 – @62.2, 1.4 und @62.4, 1.4 die @66.0, 1.4 die @66.2, 1.5 Vergüldete @70.7, 1.5 die @82.3, 1.5 matten @83.0, 2.1 lange, @102.2, 2.2 Haupt @108.2, 2.3 Zukunft @135.6, 2.5 Den @188.2, 2.5 Den @196.1, 2.5 vom @198.8, 2.5 heiligen @199.2, 2.6 Der @218.3, 2.6 alt’ @221.1, 2.8 Tot, @268.4, 2.9 dunkeln @283.4, 3.3 Jetzt @359.6, 3.3 daher, @366.8, 4.1 wollt’ @402.1, 5.9 für @485.9, 5.13 Beglückt @497.5, 6.1 feierlichste @503.0, 6.3 ich’s @509.3, 6.7 die @525.7, 7.3 und @570.2, 7.3 fröhlich @570.3, 7.3 wieder. @570.6
+### Varcoe — Johnson 1999 (`zC_peOBU6hE`) — свой; проходов 44; в очереди 21 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 3.5 «mohnbekränzten» → «unbegrenzten» @319с; 4.3 «sah’s» → «saß» @362с, 1.4 – @49.8, 1.4 und @50.0, 2.1 lange, @81.9, 2.2 Das @86.4, 2.2 Haupt @87.2, 2.2 meine @89.1, 2.4 Tron @136.3, 2.7 An @188.1, 2.7 noch @193.9, 2.7 die @201.1, 2.8 Tot, @219.7, 2.8 unbemerkt, @224.1, 2.8 und @227.8, 2.8 längst @228.3, 2.8 vergessen @229.5, 2.8 schliefen @232.1, 3.1 jenem @283.2, 3.3 Jetzt @297.6, 5.2 Ein @389.4, 5.2 gesprungen @391.5
 
 ## D 5 — Hagars Klage
 
@@ -23,8 +23,8 @@
 
 ## D 7 — Leichenfantasie
 
-### Fischer-Dieskau — Moore 1969 (`suRiQJwB7AY`) — починка; проходов 107; в очереди 65 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 7.2 «Vater!» → «Fager!» @663с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 464.8–466.5 (1.8 с) под 4:0·Menschen,; (растянутое слово) 756.4–795.4 (39.0 с) под 6:6·zu,; (до первого слова) буквенная масса 59 до 48.3 — пение до первого размеченного слова; 254.4–257.4 (3.0 с) между 1:7·Lippe?" и 1:8·Nasse, 1.2 der @55.9, 1.7 herab @109.5, 1.8 hager, @123.2, 1.9 Zieht @127.2, 1.11 Schauerflor @146.7, 2.6 nach? @228.2, 2.11 Silberhaare @272.2, 3.1 Feuerwunde @288.0, 3.3 es @313.2, 3.6 Und @333.0, 3.6 einst @337.5, 3.8 Eiskalt, @348.2, 4.1 von @382.8, 4.4 Florens @404.3, 4.4 hüpft, @411.7, 4.7 den @436.0, 5.1 er @461.7, 5.2 im @478.3, 5.6 Hoch @509.5, 5.6 wie @510.2, 5.6 der @510.4, 5.6 Adler @510.9, 5.6 in @513.3, 5.6 wolkigter @514.5, 5.6 Höh. @515.8, 5.6 in @516.0, 5.6 wolkigter @517.2, 5.6 Höh. @521.4, 5.7 sich @526.0, 6.4 Schmerzen @592.8, 6.4 Schmerzen @594.2, 6.8 Jungen, @638.1, 7.1 — @663.2, 7.6 geh @741.5, 7.6 im @742.1, 8.2 Wiedersehn! @807.7, 8.2 Wiedersehn! @810.3, 8.4 Edens @818.4, 8.4 Thor!" @819.6, 8.5 der @825.4, 8.5 der @828.1, 8.5 versinkt @829.4, 8.6 Wimmernd @839.0, 8.6 das @840.2, 8.6 das @843.0, 8.8 Lippen @860.8, 8.8 schwiegen, @862.5, 8.10 wärmer, @878.8, 8.10 wärmer @879.1, 8.10 wärmer, @887.3, 8.10 wärmer @887.4, 8.10 nach." @890.0, 9.1 Mit @942.1, 9.6 Sterne @999.9, 9.12 einen @1049.0, 9.13 einen @1054.4, 9.15 Überm @1100.8, 9.15 Sarg @1102.2, 9.15 zum @1110.7, 9.16 Nimmer @1119.7, 9.17 Das @1137.3, 9.17 Grab @1139.2, 9.17 zurück. @1140.7
+### Fischer-Dieskau — Moore 1969 (`suRiQJwB7AY`) — починка; проходов 107; в очереди 75 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 7.2 «Vater!» → «Fager!» @663с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 464.8–466.5 (1.8 с) под 4:0·Menschen,; (растянутое слово) 756.4–795.4 (39.0 с) под 6:6·zu,; (до первого слова) буквенная масса 59 до 48.3 — пение до первого размеченного слова; 254.4–257.4 (3.0 с) между 1:7·Lippe?" и 1:8·Nasse, 1.2 der @55.9, 1.7 herab @109.5, 1.8 hager, @123.2, 1.9 Zieht @127.2, 1.11 Schauerflor @146.7, 2.6 nach? @228.2, 2.11 Silberhaare @272.2, 3.1 Feuerwunde @288.0, 3.3 es @313.2, 3.6 Und @333.0, 3.6 einst @337.5, 3.8 Eiskalt, @348.2, 4.1 von @382.8, 4.4 Florens @404.3, 4.4 hüpft, @411.7, 4.7 den @436.0, 5.1 er @461.7, 5.2 im @478.3, 5.6 Hoch @509.5, 5.6 wie @510.2, 5.6 der @510.4, 5.6 Adler @510.9, 5.6 in @513.3, 5.6 wolkigter @514.5, 5.6 Höh. @515.8, 5.6 in @516.0, 5.6 wolkigter @517.2, 5.6 Höh. @521.4, 5.7 sich @526.0, 6.4 Schmerzen @592.8, 6.4 Schmerzen @594.2, 6.8 Jungen, @638.1, 7.1 — @663.2, 7.6 geh @741.5, 7.6 im @742.1, 8.2 Wiedersehn! @807.7, 8.2 Wiedersehn! @810.3, 8.4 Edens @818.4, 8.4 Thor!" @819.6, 8.5 der @825.4, 8.5 der @828.1, 8.5 versinkt @829.4, 8.6 Wimmernd @839.0, 8.6 das @840.2, 8.6 das @843.0, 8.8 Lippen @860.8, 8.8 schwiegen, @862.5, 8.10 wärmer, @878.8, 8.10 wärmer @879.1, 8.10 wärmer, @887.3, 8.10 wärmer @887.4, 8.10 nach." @890.0, 9.1 Mit @942.1, 9.6 Sterne @999.9, 9.12 einen @1049.0, 9.13 einen @1054.4, 9.15 Überm @1100.8, 9.15 Sarg @1102.2, 9.15 zum @1110.7, 9.16 Nimmer @1119.7, 9.17 Das @1137.3, 9.17 Grab @1139.2, 9.17 zurück. @1140.0, 9.18 Liegt @1140.1, 9.18 er @1140.2, 9.18 hier @1140.4, 9.18 im @1140.4, 9.18 Tuche, @1140.6, 9.19 Liegt @1140.7, 9.19 er @1141.1, 9.19 hier @1141.3, 9.19 im @1141.7, 9.19 Tuche, @1142.4
 
 ### Odinius — Eisenlohr 2005 (`rgOubrZbIEs`) — запасной; проходов 108; в очереди 1 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 441.6–443.9 (2.3 с) под 4:3·Wie; (растянутое слово) 453.5–466.6 (13.1 с) под 4:4·schweifenden; (растянутое слово) 468.6–469.8 (1.2 с) под 4:5·wie; (растянутое слово) 861.9–919.4 (57.5 с) под 7:9·nach."; (растянутое слово) 1055.8–1058.5 (2.7 с) под 8:13·und; (до первого слова) буквенная масса 130 до 42.8 — пение до первого размеченного слова; 843.9–847.8 (3.9 с) между 7:8·grollten, и 7:9·Thränen
@@ -61,8 +61,8 @@
 
 ## D 15A — Der Geistertanz
 
-### Thompson — Johnson 1991 (`I0t9mSy_sok`) — свой; проходов 8; в очереди 5 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 65.7–99.2 (33.5 с) под 0:3·die, 1.3 bretterne @42.8, 1.3 der @46.1, 1.4 Wenn @56.2, 1.4 Mitternacht @66.6
+### Thompson — Johnson 1991 (`I0t9mSy_sok`) — запасной; проходов 8; в очереди 1 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 65.7–99.2 (33.5 с) под 0:3·die
 
 ### Bauer — Eisenlohr 2005 (`kHiV9l8iR2E`) — свой; проходов 9; в очереди 6 слов
 1.4 Mitternacht @44.5, 1.4 hebt. @47.6, 2.1 um @62.1, 2.1 Gebein @64.5, 2.3 luftigen @79.5, 3.1 die @97.8
@@ -72,8 +72,8 @@
 ### Janowitz — Gage 1977 (`ScgLEHn-CkU`) — свой; проходов 23; в очереди 30 слов
 1.3 meine @26.0, 1.3 Ruh @26.1, 1.3 ist @26.8, 1.3 entflohn, @28.5, 1.5 Bachs @39.7, 1.6 Klagton @42.6, 1.6 nur, @47.8, 1.7 nur, @54.2, 1.7 Klage. @54.7, 2.1 Wort @69.8, 2.1 Wort @80.0, 2.5 widerstand! @102.4, 2.5 widerstand! @108.6, 3.1 Wenn @119.9, 3.1 ich @120.4, 3.1 ihn @125.0, 3.1 seh, @125.3, 3.2 Will @128.4, 3.2 ihn @129.5, 3.2 ziehn; @133.0, 3.1 von @136.8, 3.1 fern @137.9, 3.1 ihn @138.4, 3.1 seh, @139.0, 3.4 Kaum @151.1, 3.4 er @154.4, 3.5 Möcht @157.7, 3.5 mein @163.2, 3.5 ich @169.3, 3.5 mein @169.9
 
-### Hendricks — Lupu 1993 (`IHdUmPejHXU`) — свой; проходов 7; в очереди 1 слов
-1.5 Bachs @42.4
+### Hendricks — Lupu 1993 (`IHdUmPejHXU`) — запасной; проходов 23; в очереди 56 слов
+1.7 Klagton @52.8, 1.7 nur, @53.3, 2.2 Und @58.5, 2.1 Seinem @60.0, 2.1 Wort @60.4, 2.2 Und @60.5, 2.2 dem @60.6, 2.2 Druck @60.6, 2.3 Seinem @61.1, 2.4 Kuss, @62.1, 2.5 Weh @62.2, 2.5 mir, @62.2, 2.5 dass @62.3, 2.5 ich @62.4, 2.5 nicht @62.4, 2.5 dass @62.8, 2.5 ich @62.9, 2.5 nicht @62.9, 3.1 Wenn @63.3, 3.1 ich @63.4, 3.1 von @63.4, 3.1 fern @63.5, 3.1 ihn @63.6, 3.1 seh, @63.6, 3.2 Will @63.7, 3.2 ich @63.8, 3.2 ihn @63.9, 3.2 zu @63.9, 3.2 mir @64.0, 3.2 ziehn; @64.0, 3.1 ich @64.1, 3.1 von @64.2, 3.1 fern @64.2, 3.1 ihn @64.3, 3.1 seh, @64.4, 3.2 Will @64.4, 3.2 ich @64.5, 3.2 ihn @64.6, 3.2 zu @64.7, 3.2 mir @64.7, 3.3 Kaum @64.9, 3.3 mich @65.2, 3.3 sein @65.3, 3.3 Auge, @65.4, 3.4 Kaum @65.4, 3.4 näher @65.6, 3.4 er @65.7, 3.4 mir, @65.8, 3.5 ich @66.0, 3.5 gern @66.1, 3.5 in @66.2, 3.5 mein @66.3, 3.5 ich @66.9, 3.5 gern @66.9, 3.5 in @67.0, 3.5 Grab @67.2
 
 ### McLaughlin — Johnson 1999 (`JSvkvVimtjU`) — свой; проходов 14; в очереди 8 слов
 1.1 dahin, @9.8, 1.2 Freud @13.8, 1.3 Freud @20.5, 1.4 der @33.8, 1.4 Lüfte, @34.1, 1.6 nur, @48.5, 2.1 Wort @77.7, 2.5 Weh @108.1
@@ -153,8 +153,8 @@
 
 ## D 42 — Misero pargoletto
 
-### Schwarzkopf — Raucheisen 1958 (`UUjj4sb8bhg`) — свой; проходов 10; в очереди 9 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 109.4–114.5 (5.1 с) под 0:1·sai:; (растянутое слово) 123.1–124.7 (1.6 с) под 0:1·destin; (до первого слова) буквенная масса 317 до 39.1 — пение до первого размеченного слова; 59.4–63.4 (4.0 с) между 0:1·destin и 0:1·non, 1.1 pargoletto, @50.2, 1.2 Il @50.8, 1.2 tuo @50.9, 1.3 Ah, @61.5, 1.3 non @61.7, 2.2 d'aspetto: @98.6, 1.3 gli @166.2, 1.4 era @171.5
+### Schwarzkopf — Raucheisen 1958 (`UUjj4sb8bhg`) — запасной; проходов 10; в очереди 2 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 109.4–114.5 (5.1 с) под 0:1·sai:; (растянутое слово) 123.1–124.7 (1.6 с) под 0:1·destin; (до первого слова) буквенная масса 317 до 39.1 — пение до первого размеченного слова; 59.4–63.4 (4.0 с) между 0:1·destin и 0:1·non, 1.3 Ah, @61.5
 
 ### Augér — Johnson 1989 (`bwIVjledyq0`) — починка; проходов 16; в очереди 28 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 4.5–10.5 (5.9 с) под 0:0·Misero; (растянутое слово) 88.5–103.3 (14.8 с) под 1:3·terror.; (до первого слова) буквенная масса 42 до 4.5 — пение до первого размеченного слова, 1.1 Misero @4.5, 1.1 pargoletto, @10.5, 1.2 Il @12.5, 1.2 tuo @13.5, 1.2 destin @15.7, 1.2 non @16.1, 1.1 Misero @27.8, 1.1 pargoletto, @30.1, 1.3 Ah, @39.9, 1.3 non @40.6, 1.3 gli @43.8, 2.1 in @63.6, 2.1 un @63.9, 2.1 punto, @64.2, 2.1 oh @65.6, 2.1 Dio, @66.0, 2.2 Tutto @66.5, 2.2 cangiò @68.0, 1.1 Misero @103.3, 1.1 pargoletto, @107.5, 1.2 Il @108.5, 1.2 tuo @108.7, 1.3 Ah, @113.3, 1.3 non @113.5, 1.3 gli @114.1, 1.3 mai @116.4, 1.4 era @117.9
@@ -236,14 +236,14 @@
 ### Fischer-Dieskau — Moore 1969 (`E_X6kBlcPvA`) — свой; проходов 30; в очереди 0 слов
 —
 
-### Thompson — Johnson 1991 (`1m9WoI6h_JM`) — свой; проходов 21; в очереди 14 слов
-3.2 Pein, @41.8, 3.5 Wie @48.7, 4.4 In @64.9, 4.4 jeder @65.2, 4.4 Ferne @66.3, 4.5 Denk @74.0, 4.5 ich @74.7, 4.5 Denk @74.9, 4.5 nur @75.5, 4.5 nur @76.8, 4.5 nur @86.8, 4.5 dein! @87.5, 4.5 nur @89.1, 4.5 dein! @89.7
-
 ### Bauer — Eisenlohr 2005 (`9gIw8aLTleE`) — запасной; проходов 30; в очереди 0 слов
 —
 
 ### Jansen — Grier 2014 (`m8JqoPgHrHM`) — починка; проходов 29; в очереди 22 слов
 1.4 schallen! @14.1, 1.5 Wann @16.0, 1.6 Denkst @16.4, 2.3 Der @25.2, 2.3 Abendhelle @25.6, 2.4 Am @27.3, 2.4 Schattenquelle! @27.5, 2.5 Wo @29.1, 4.2 zum @52.8, 4.5 nur @60.9, 4.4 jeder @62.3, 4.4 Ferne @63.5, 4.5 ich @67.3, 4.5 dein! @69.3, 4.5 nur @70.5, 4.5 dein! @73.2, 4.5 nur @75.7, 4.5 dein! @76.3, 4.5 nur @77.7, 4.5 dein! @78.3, 4.5 nur @79.7, 4.5 dein! @80.3
+
+### Thompson — Johnson 1991 (`1m9WoI6h_JM`) — запасной; проходов 30; в очереди 0 слов
+—
 
 ## D 100 — Geisternähe
 
@@ -278,7 +278,7 @@
 
 ## D 104 — Die Befreier Europas in Paris
 
-### Koningsberger — Johnson 1999 (`Nx-OdR_uY1s`) — починка; проходов 16; в очереди 6 слов
+### Koningsberger — Johnson 1999 (`Nx-OdR_uY1s`) — свой; проходов 16; в очереди 6 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 1.4 «tapfren» → «Töpferen» @94с, 1.5 Das @30.5, 1.5 war @33.8, 1.1 Paris, @77.9, 1.5 Das @102.5, 1.5 war @105.9
 
 ### Roth — Eisenlohr 2004 (`x1KOJNCJucY`) — починка; проходов 34; в очереди 17 слов
@@ -308,16 +308,13 @@
 
 ## D 107 — Lied aus der Ferne
 
-### Fischer-Dieskau — Moore 1969 (`WY5_B4ECWzY`) — свой; проходов 13; в очереди 3 слов
-1.3 Rasensitz @13.6, 1.5 Freundes @26.2, 2.7 Das @73.9
-
 ### Thompson — Johnson 1991 (`_BOo3XFErG0`) — свой; проходов 24; в очереди 18 слов
 2.5 Busen @60.1, 3.1 Fühlst @78.2, 3.4 Hand, @94.2, 3.5 flatternd @100.0, 3.7 ist @103.9, 4.1 der @122.5, 4.3 Gleich @128.1, 4.3 Aeolsharfen @128.7, 4.3 aus @131.1, 4.3 der @131.8, 4.3 Ferne, @132.3, 4.4 Das @134.1, 4.4 Bundeswort: @134.6, 4.4 auf @137.1, 4.4 ewig @137.7, 4.4 dein! @140.0, 4.5 Dann @144.4, 4.5 schlummre @144.7
 
-## D 108 — Der Abend
+### Fischer-Dieskau — Moore 1969 (`WY5_B4ECWzY`) — свой; проходов 13; в очереди 3 слов
+1.3 Rasensitz @13.6, 1.5 Freundes @26.2, 2.7 Das @73.9
 
-### Fischer-Dieskau — Moore 1969 (`sfGNnd-OxWM`) — починка; проходов 14; в очереди 9 слов
-1.3 Nur @16.5, 1.3 dein @16.6, 1.3 Abendlied, @16.7, 1.3 o @19.9, 1.3 Grille, @20.0, 1.5 Lieblich @21.2, 3.4 Süsse @31.6, 3.4 Trauermelodien. @31.6, 4.2 Grab, @48.8
+## D 108 — Der Abend
 
 ### D. Norman — Johnson 1999 (`Rur4FBrSVj4`) — запасной; проходов 21; в очереди 3 слов
 ДЫРЫ НА ПРОВЕРКУ: 52.9–56.8 (4.0 с) между 1:1·Pappelweidenhain; и 1:2·Unter, 1.3 dein @18.4, 1.3 o @19.6
@@ -325,16 +322,19 @@
 ### Nold — Eisenlohr 2005 (`r45NRnVYynk`) — починка; проходов 22; в очереди 29 слов
 ДЫРЫ НА ПРОВЕРКУ: 48.7–52.2 (3.4 с) между 1:1·Pappelweidenhain; и 1:2·Unter, 1.1 Purpur @5.5, 1.1 malt @6.1, 1.1 die @6.4, 1.1 Tannenhügel, @6.7, 1.2 Nach @7.4, 1.2 der @7.6, 1.2 Sonne @8.0, 1.2 Scheideblick; @8.8, 1.3 Nur @10.5, 1.3 dein @10.9, 1.3 Abendlied, @11.1, 1.3 o @11.8, 1.3 Grille, @12.1, 1.4 Tönt @12.5, 1.4 noch @12.8, 1.4 aus @12.9, 1.4 bethautem @13.4, 1.4 Grün. @13.8, 1.5 Lieblich @14.0, 1.7 Hespers @23.3, 2.1 Wie @38.4, 3.1 o @75.5, 4.1 im @104.7, 5.1 dir @130.3, 5.1 lauschen, @130.7, 5.2 er @133.7, 5.2 dir @134.8, 5.2 lauscht, @135.1
 
-## D 109 — Lied der Liebe
+### Fischer-Dieskau — Moore 1969 (`sfGNnd-OxWM`) — свой; проходов 13; в очереди 5 слов
+ДЫРЫ НА ПРОВЕРКУ: 18.3–21.2 (2.9 с) между 0:1·Scheideblick; и 0:4·Lieblich, 1.5 Lieblich @21.2, 3.4 Süsse @31.6, 3.4 Trauermelodien. @31.6, 4.2 Grab, @48.8
 
-### Fischer-Dieskau — Moore 1969 (`dfXiXRr9QO4`) — починка; проходов 14; в очереди 4 слов
-1.6 Gleich @19.1, 1.6 freundlichem @19.4, 4.1 heiliger @53.4, 5.1 Freude, @82.5
+## D 109 — Lied der Liebe
 
 ### Thompson — Johnson 1991 (`0d-frm25I3M`) — свой; проходов 22; в очереди 27 слов
 1.2 Folgt @9.6, 1.4 Ruh; @19.0, 1.6 Gleich @19.1, 1.3 Den @30.0, 1.3 Gartens @32.9, 1.4 Es @40.2, 2.1 Oft @55.9, 2.1 hab @56.4, 2.1 ich @57.0, 2.1 im @57.3, 2.1 Traume @57.5, 2.1 als @58.5, 2.1 die @58.6, 2.1 schönste @58.9, 2.1 der @59.9, 2.1 Feen @60.3, 2.3 entzückt @70.9, 2.4 Als @72.1, 2.4 Hebe @72.5, 2.4 dich @73.5, 2.4 unter @74.1, 2.4 den @74.9, 2.4 Göttern @75.3, 2.4 erblickt. @76.2, 3.4 Von @98.9, 4.1 heiliger @110.6, 4.2 winkt @129.7
 
 ### Poplutz — Dumno 2017 (`1qVsWl_SNCk`) — починка; проходов 23; в очереди 14 слов
 1.1 Durch @5.0, 1.6 Gleich @19.9, 1.3 holde @38.0, 1.4 Es @40.2, 2.1 die @58.0, 2.1 Feen @59.6, 2.3 hab @66.5, 2.3 ich @67.2, 3.1 hallt @80.7, 3.2 Dein @84.9, 3.3 wähne @90.6, 4.1 heiliger @106.2, 4.1 Gefilde @114.2, 5.1 Freude, @137.4
+
+### Fischer-Dieskau — Moore 1969 (`dfXiXRr9QO4`) — свой; проходов 14; в очереди 4 слов
+1.6 Gleich @19.1, 1.6 freundlichem @19.4, 4.1 heiliger @53.4, 5.1 Freude, @82.5
 
 ## D 114 — Romanze
 
@@ -349,11 +349,11 @@
 
 ## D 98 — Erinnerungen
 
-### Fischer-Dieskau — Moore 1969 (`3EMWeli8wKg`) — свой; проходов 16; в очереди 8 слов
-1.1 Seegestad', @4.7, 1.1 Vollmondsnächten, @8.8, 4.1 Am @30.5, 4.2 Umflossen @47.4, 4.2 von @48.6, 4.2 Abendgluth, @49.1, 5.1 Felsenstücken, @64.8, 5.3 Entzücken: @71.8
-
 ### Langridge — Johnson 1999 (`99Qq6woYHl4`) — свой; проходов 31; в очереди 14 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 88.0–101.7 (13.6 с) под 3:0·Am, 1.1 Seegestad', @2.4, 1.4 sich. @28.0, 2.1 Wildnissglänzt @33.5, 3.1 wo @69.6, 3.4 Vorüberbebt, @85.5, 4.4 Den @115.5, 5.2 Feeen @124.9, 5.2 da @125.6, 5.2 Tänze @125.8, 5.2 webten, @126.3, 5.3 voll @129.0, 6.1 Wohin @146.4, 6.4 sahn, @169.1
+
+### Fischer-Dieskau — Moore 1969 (`3EMWeli8wKg`) — свой; проходов 16; в очереди 8 слов
+1.1 Seegestad', @4.7, 1.1 Vollmondsnächten, @8.8, 4.1 Am @30.5, 4.2 Umflossen @47.4, 4.2 von @48.6, 4.2 Abendgluth, @49.1, 5.1 Felsenstücken, @64.8, 5.3 Entzücken: @71.8
 
 ## D 113 — An Emma
 
@@ -391,22 +391,22 @@
 
 ## D 102 — Die Betende
 
-### Fischer-Dieskau — Moore 1969 (`qkoihDUy0C4`) — починка; проходов 16; в очереди 7 слов
+### Fischer-Dieskau — Moore 1969 (`qkoihDUy0C4`) — свой; проходов 16; в очереди 7 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 1.5 «Seufzer» → «seuchter» @46с, 1.2 Herz, @23.3, 2.2 wie @75.4, 2.5 Der @103.1, 4.1 von @129.0, 4.5 in @170.1, 4.5 Welt. @174.9
 
 ### Thompson — Johnson 1991 (`ojPUmeaHscc`) — запасной; проходов 20; в очереди 0 слов
 —
 
-### Nold — Eisenlohr 2005 (`q5sA4q227Y4`) — свой; проходов 20; в очереди 58 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 61.4–87.9 (26.5 с) под 1:2·Vom; 65.7–87.9 (22.2 с) между 1:2·Vom и 1:2·Verklärungsglanze, 1.1 Laura @1.1, 1.1 betet! @4.0, 1.1 Engelharfen @7.3, 1.1 hallen @12.3, 1.2 ihr @20.6, 1.2 Herz, @26.8, 1.3 Und @26.9, 1.3 wie @27.7, 1.3 abels @28.2, 1.3 Opferdüfte @29.4, 1.3 wallen @30.2, 1.4 Ihre @30.7, 1.4 Seufzer @31.7, 1.4 himmelwärts, @33.9, 1.5 Ihre @35.4, 1.5 Seufzer @35.9, 1.5 himmelwärts. @40.2, 2.1 Wie @43.3, 2.1 sie @43.8, 2.1 kniet @44.0, 2.1 in @44.2, 2.1 Andacht @44.3, 2.1 hingegossen, @44.4, 2.2 Schön @46.2, 2.2 wie @46.4, 2.2 Raphael @46.6, 2.2 die @46.8, 2.2 Unschuld @46.9, 2.2 malt, @51.6, 2.3 Vom @61.4, 2.3 Verklärungsglanze @87.9, 2.4 um @94.1, 3.1 fühlt @124.1, 3.1 im @126.2, 3.1 leisen @126.8, 3.1 linden @131.0, 3.2 Froh @132.2, 3.2 des @134.4, 3.2 Hocherhabnen @137.3, 3.2 Gegenwart, @139.6, 3.5 Wo @162.0, 4.1 So @180.1, 4.1 Gottvertrauen @188.7, 4.2 Ihre @195.6, 4.2 engelreine @197.4, 4.2 Brust @199.8, 4.2 geschwellt, @201.7, 4.3 Betend @205.3, 4.3 diese @205.5, 4.3 Heilige @206.8, 4.4 in @215.3, 4.5 Ist @223.2, 4.5 ein @224.4, 4.5 Blick @224.7, 4.5 in @226.0, 4.5 jene @226.4, 4.5 Welt. @226.9
+### Nold — Eisenlohr 2005 (`q5sA4q227Y4`) — запасной; проходов 20; в очереди 7 слов
+ДЫРЫ НА ПРОВЕРКУ: (до первого слова) буквенная масса 31 до 22.6 — пение до первого размеченного слова; (до первого слова) голос 2.0 с до 22.6 — начало без разметки, 1.1 Laura @22.6, 1.1 betet! @22.6, 1.2 Gottes @23.4, 1.2 in @23.4, 1.2 ihr @23.4, 2.4 Der @94.0
 
 ## D 115 — An Laura (als sie Klopstocks Auferstehungslied sang)
 
-### Fischer-Dieskau — Moore 1969 (`ib21rPBi9W4`) — починка; проходов 18; в очереди 6 слов
-1.1 Herzen @1.7, 1.1 die @4.9, 1.4 mit @33.9, 1.4 Andachtsgluth @34.6, 3.1 Mit @73.6, 4.6 Geist. @167.3
-
 ### Thompson — Johnson 1991 (`IO9hfWfHWC0`) — запасной; проходов 25; в очереди 0 слов
 —
+
+### Fischer-Dieskau — Moore 1969 (`ib21rPBi9W4`) — свой; проходов 18; в очереди 6 слов
+1.1 Herzen @1.7, 1.1 die @4.9, 1.4 mit @33.9, 1.4 Andachtsgluth @34.6, 3.1 Mit @73.6, 4.6 Geist. @167.3
 
 ## D 117 — Das Mädchen aus der Fremde
 
@@ -424,14 +424,14 @@
 ### Fischer-Dieskau — Moore 1969 (`8qbQhW0SfA4`) — свой; проходов 20; в очереди 7 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 2.2 «Heer» → «hier» @55с, 1.1 O @7.2, 3.2 hoch @87.7, 4.4 willst @138.4, 5.1 Kühle, @160.4, 5.3 Pfühle, @173.6, 5.4 willst @188.3
 
-### Goerne — Haefliger 1996 (`9VEnXtddQDc`) — свой; проходов 12; в очереди 2 слов
-2.1 Bei @59.3, 2.4 mehr, @96.5
-
 ### Thompson — Johnson 1991 (`bw80Bca4Jvk`) — запасной; проходов 20; в очереди 0 слов
 —
 
 ### Kalpers — Kehring 2004 (`Q32JEqpljM4`) — запасной; проходов 20; в очереди 1 слов
 1.4 mehr, @37.6
+
+### Goerne — Haefliger 1996 (`9VEnXtddQDc`) — свой; проходов 12; в очереди 2 слов
+2.1 Bei @59.3, 2.4 mehr, @96.5
 
 ## D 120 — Trost in Tränen
 
@@ -441,8 +441,8 @@
 ### Prégardien — Staier 1994 (`91gApAxnJnU`) — свой; проходов 44; в очереди 23 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 2.2 «eigner» → «eigen» @24с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 58.3–59.7 (1.4 с) под 2:2·verloren, 1.1 kommt's, @2.6, 1.4 geweint. @15.0, 2.1 hab @19.2, 2.3 Und @26.7, 2.4 Herz, @32.8, 2.3 fliessen @35.8, 2.5 das @45.1, 3.1 Freunde @50.7, 6.3 blinkt @120.4, 6.3 schön, @121.3, 6.5 droben @133.6, 7.1 Die @139.5, 8.4 So @175.1, 8.4 lang' @175.5, 8.4 ich @176.2, 8.4 weinen @176.5, 8.4 mag, @177.5, 8.5 So @179.2, 8.5 lang' @179.5, 8.5 ich @180.7, 8.5 weinen @181.1
 
-### Goerne — Schneider 2014 (`ChfOondY1-Q`) — свой; проходов 34; в очереди 29 слов
-2.1 hab @21.2, 2.3 gar @32.6, 2.4 Erleichtern @34.8, 2.4 Herz, @37.4, 2.3 gar @41.8, 2.5 Herz. @51.7, 4.1 Ihr @86.9, 4.5 es @88.1, 4.5 mir @89.1, 4.5 auch @89.7, 4.5 fehlt. @98.2, 6.3 Es @144.6, 6.3 weilt @145.1, 6.3 so @146.1, 6.3 hoch, @146.4, 6.3 es @147.3, 6.3 blinkt @147.5, 6.3 so @148.4, 6.3 schön, @149.0, 6.4 Wie @149.8, 6.4 droben @150.1, 6.4 jener @152.2, 6.4 Stern, @152.9, 7.2 freut @171.9, 7.4 In @173.2, 7.4 jeder @173.7, 7.4 heitern @178.2, 7.4 Nacht. @181.8, 8.2 Tag; @198.9
+### Goerne — Schneider 2014 (`ChfOondY1-Q`) — запасной; проходов 44; в очереди 1 слов
+2.5 Herz. @57.0
 
 ### Thompson — Johnson 1991 (`VINKLk4h50w`) — свой; проходов 44; в очереди 16 слов
 1.4 hast @11.3, 2.4 mir @30.2, 2.4 mir @39.2, 2.4 Herz, @40.5, 2.5 Herz. @45.2, 3.1 frohen @50.8, 3.2 an @54.8, 4.3 hab @78.0, 4.4 fehlt, @91.2, 6.4 Wie @139.3, 6.4 droben @139.5, 7.2 freut @159.8, 7.2 Pracht, @161.8, 8.2 lieben @181.9, 8.3 Verweinen @184.9, 8.5 weinen @208.4
@@ -503,8 +503,8 @@
 ### Seefried — Werba 1957 (`7qoEgODMgrE`) — запасной; проходов 59; в очереди 3 слов
 ДЫРЫ НА ПРОВЕРКУ: 300.9–303.4 (2.5 с) между 9:1·rogaturus, и 9:2·Cum, 3.2 ich @131.3, 3.2 der @131.3
 
-### McLaughlin и Hampson — Johnson 1991 (`DW3_2MG9jOo`) — починка; проходов 57; в очереди 56 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 342.5–355.6 (13.1 с) под 8:3·dir!; 162.3–170.3 (8.0 с) между 1:6·Gegenwart? и 2:0·Weh!; 343.8–355.6 (11.8 с) между 8:3·dir! и 9:0·Quid, 1.3 Hier @23.3, 1.4 dem @31.7, 1.4 vergriffnen @32.7, 1.8 Gretchen! @69.4, 1.11 Welche @82.0, 2.3 wessen @126.4, 2.6 Und @154.3, 2.6 ängstigt @154.8, 2.6 dich @155.5, 2.6 und @155.8, 2.6 sich @155.9, 3.1 Weh! @170.3, 3.1 weh! @170.4, 3.2 Wär @170.7, 3.2 ich @171.4, 3.4 Wider @176.3, 3.4 mich! @176.7, 4.1 Dies @179.6, 4.1 illa @192.5, 4.2 Solvet @196.1, 4.2 saeclum @198.3, 4.2 in @201.5, 4.2 favilla. @201.9, 5.1 fasst @222.8, 5.2 Posaune @224.8, 7.1 ergo @270.3, 7.1 cum @273.8, 7.1 sedebit, @275.2, 7.2 Quidquid @279.8, 7.2 latet, @282.4, 7.2 adparebit, @284.1, 7.3 Nil @289.9, 7.3 inultum @292.0, 7.3 remanebit. @294.3, 8.1 Mir @298.3, 9.1 Verbirg @329.9, 9.3 Luft? @338.1, 9.3 Licht? @339.8, 10.1 sum @355.7, 10.1 miser @356.1, 10.1 tunc @356.5, 10.1 dicturus? @356.8, 10.2 Quem @357.8, 10.2 patronum @358.0, 10.2 rogaturus, @359.7, 10.3 Cum @365.7, 10.3 vix @367.6, 10.3 justus, @368.5, 10.3 cum @372.8, 10.3 vix @374.5, 10.3 justus @375.5, 10.3 sit @377.3, 10.3 securus? @378.2, 11.2 von @397.7, 11.3 Die @400.9
+### McLaughlin и Hampson — Johnson 1991 (`DW3_2MG9jOo`) — починка; проходов 58; в очереди 61 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 342.5–355.6 (13.1 с) под 8:3·dir!; 162.3–170.3 (8.0 с) между 1:6·Gegenwart? и 2:0·Weh!; 343.8–355.6 (11.8 с) между 8:3·dir! и 9:0·Quid, 1.3 Hier @23.3, 1.4 dem @31.7, 1.4 vergriffnen @32.7, 1.8 Gretchen! @69.4, 1.11 Welche @82.0, 2.3 wessen @126.4, 2.6 Und @154.3, 2.6 ängstigt @154.8, 2.6 dich @155.5, 2.6 und @155.8, 2.6 sich @155.9, 3.1 Weh! @170.3, 3.1 weh! @170.4, 3.2 Wär @170.7, 3.2 ich @171.4, 3.4 Wider @176.3, 3.4 mich! @176.7, 4.1 Dies @179.6, 4.1 illa @192.5, 4.2 Solvet @196.1, 4.2 saeclum @198.3, 4.2 in @201.5, 4.2 favilla. @201.9, 5.1 fasst @222.8, 5.2 Posaune @224.8, 7.1 ergo @270.3, 7.1 cum @273.8, 7.1 sedebit, @275.2, 7.2 Quidquid @279.8, 7.2 latet, @282.4, 7.2 adparebit, @284.1, 7.3 Nil @289.9, 7.3 inultum @292.0, 7.3 remanebit. @294.3, 8.1 Mir @298.3, 9.1 Verbirg @329.9, 9.3 Luft? @338.1, 9.3 Licht? @339.8, 10.1 sum @355.7, 10.1 miser @356.1, 10.1 tunc @356.5, 10.1 dicturus? @356.8, 10.2 Quem @357.8, 10.2 patronum @358.0, 10.2 rogaturus, @359.7, 10.3 Cum @365.7, 10.3 vix @367.6, 10.3 justus, @368.5, 10.3 cum @372.8, 10.3 vix @374.5, 10.3 justus @375.5, 10.3 sit @377.3, 10.3 securus? @378.2, 11.2 von @397.7, 11.3 Die @400.9, 12.1 Quid @416.4, 12.1 sum @420.0, 12.1 miser @422.2, 12.1 tunc @427.8, 12.1 dicturus? @430.6
 
 ### Ziesak и Elsner — Eisenlohr 2003 (`Ybio5qz1wDY`) — свой; проходов 59; в очереди 69 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 129.2–163.5 (34.3 с) под 3:1·favilla.; 131.2–163.5 (32.4 с) между 3:1·favilla. и 4:0·Grimm, 1.8 Gretchen! @49.7, 2.5 schon @106.4, 2.6 sich @110.9, 2.7 Mit @111.6, 2.7 ahnungsvoller @112.0, 2.7 Gegenwart? @113.8, 3.1 Weh! @120.0, 3.1 weh! @121.3, 3.2 Wär @121.5, 3.2 ich @122.3, 3.2 der @123.4, 3.2 Gedanken @123.6, 3.2 los, @123.9, 3.3 Die @124.0, 3.3 mir @124.2, 3.3 herüber @124.2, 3.3 und @124.5, 3.3 hinüber @124.6, 3.3 gehen @124.8, 3.4 Wider @124.9, 3.4 mich! @125.0, 4.1 Dies @125.2, 4.1 irae, @125.2, 4.1 dies @125.3, 7.1 ergo @204.0, 7.1 cum @206.6, 7.1 sedebit, @207.8, 7.2 Quidquid @210.8, 7.2 latet, @212.7, 7.2 adparebit, @213.9, 7.3 Nil @217.7, 7.3 inultum @218.9, 7.3 remanebit. @220.0, 8.1 Mir @221.3, 8.1 wird @221.4, 8.1 so @221.5, 8.1 eng! @221.5, 8.2 Die @221.7, 8.2 Mauerpfeiler @222.8, 8.3 Befangen @224.4, 8.3 mich! @224.6, 8.4 Das @224.7, 8.4 Gewölbe @225.6, 8.5 Drängt @236.5, 10.1 Quid @265.0, 10.1 sum @266.4, 10.1 miser @267.0, 10.1 tunc @268.3, 10.1 dicturus? @268.9, 10.2 Quem @272.5, 10.2 patronum @273.8, 10.2 rogaturus, @275.8, 10.3 Cum @280.2, 10.3 vix @281.3, 10.3 justus, @281.9, 10.3 cum @285.1, 10.3 vix @286.1, 10.3 justus @286.9, 10.3 sit @288.0, 10.3 securus? @288.5, 12.1 Quid @311.9, 12.1 sum @313.0, 12.1 miser @313.7, 12.1 tunc @315.1, 12.1 dicturus? @315.6, 12.2 Quem @319.8, 12.2 patronum @320.5, 12.2 rogaturus? @322.4
@@ -522,14 +522,8 @@
 
 ## D 343 — Am Tage Aller Seelen
 
-### Fischer-Dieskau — Moore 1965 (`RMCiryLYqNU`) — свой; проходов 9; в очереди 5 слов
-1.1 Seelen, @18.8, 1.3 vollendet @37.0, 1.5 schieden: @65.6, 1.6 ruh'n @74.3, 2.1 sich @126.6
-
 ### Schwarzkopf — Moore 1952–54? (`9QQPC-ecxqU`) — запасной; проходов 20; в очереди 3 слов
 ДЫРЫ НА ПРОВЕРКУ: 257.1–259.5 (2.4 с) между 5:2·Himmelslicht, и 5:3·Einst, 2.1 Die @86.1, 6.3 Gott, @249.3
-
-### Schumann — Moore 1936 (`n8qH3zkJuzw`) — свой; проходов 12; в очереди 8 слов
-ДЫРЫ НА ПРОВЕРКУ: 148.1–156.9 (8.8 с) между 4:4·hinnen и 4:4·schieden:, 1.1 in @13.7, 6.1 lachten, @107.9, 6.4 zu @133.4, 6.4 sehn @133.8, 6.5 von @141.7, 6.5 hinnen @142.2, 6.6 Seelen @153.2
 
 ### Ludwig — Parsons 1961 (`MpTTka8_pJc`) — починка; проходов 20; в очереди 25 слов
 1.2 Die @26.5, 1.4 Lebenssatt, @58.4, 2.1 sich @131.0, 2.1 hier @131.3, 2.1 Gespielen @131.5, 2.1 suchten, @134.6, 3.1 Liebevoller @135.0, 3.1 Mädchen @138.3, 3.1 Seelen, @138.8, 3.2 Thränen @146.6, 3.2 zu @152.7, 3.3 Freund @160.1, 5.5 die @176.7, 5.6 Alle @186.7, 6.1 nie @236.6, 6.1 der @238.5, 6.1 Sonne @240.3, 6.1 lachten, @244.5, 6.2 Unterm @249.3, 6.2 auf @255.2, 6.3 Himmelslicht, @268.3, 6.4 Einst @275.4, 6.4 zu @277.0, 6.4 sehn @277.5, 6.5 die @286.0
@@ -537,21 +531,24 @@
 ### Popp — Johnson 1992 (`P17HItYcGeM`) — запасной; проходов 20; в очереди 0 слов
 —
 
+### Fischer-Dieskau — Moore 1965 (`RMCiryLYqNU`) — запасной; проходов 20; в очереди 2 слов
+6.3 im @177.4, 6.4 von @178.5
+
+### Schumann — Moore 1936 (`n8qH3zkJuzw`) — запасной; проходов 12; в очереди 1 слов
+ДЫРЫ НА ПРОВЕРКУ: 148.1–156.9 (8.8 с) между 4:4·hinnen и 4:4·schieden:
+
 ## D 462 — An Chloen
 
 ### Fischer-Dieskau — Moore 1969 (`r7pxaLS2-bU`) — починка; проходов 12; в очереди 5 слов
 1.3 sind @9.7, 1.3 wir @9.8, 1.4 wach. @14.6, 5.1 Freuden, @25.1, 5.2 und @27.8
 
-### Walker — Johnson 1989 (`E9QnNbKzsig`) — свой; проходов 14; в очереди 15 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 51.3–52.7 (1.4 с) под 4:0·Freuden,, 1.1 Bei @0.4, 1.3 wir @9.5, 1.4 Liebchen, @11.6, 2.3 klopfendes @33.6, 2.4 Wenn @36.9, 2.4 der @37.3, 2.4 Abend @37.4, 2.4 niederthaut. @38.9, 5.2 und @53.6, 5.2 Sternenglanz, @54.5, 6.3 wir @82.3, 6.3 zusammen, @82.8, 6.4 Liebchen, @84.0, 6.4 auf! @87.6
-
 ### Wolff — Eisenlohr 2009 (`yz3WfGAatww`) — свой; проходов 16; в очереди 3 слов
 1.3 sind @10.0, 1.3 wir @10.3, 6.4 auf! @91.3
 
-## D 463 — Hochzeit-Lied
+### Walker — Johnson 1989 (`E9QnNbKzsig`) — свой; проходов 14; в очереди 15 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 51.3–52.7 (1.4 с) под 4:0·Freuden,, 1.1 Bei @0.4, 1.3 wir @9.5, 1.4 Liebchen, @11.6, 2.3 klopfendes @33.6, 2.4 Wenn @36.9, 2.4 der @37.3, 2.4 Abend @37.4, 2.4 niederthaut. @38.9, 5.2 und @53.6, 5.2 Sternenglanz, @54.5, 6.3 wir @82.3, 6.3 zusammen, @82.8, 6.4 Liebchen, @84.0, 6.4 auf! @87.6
 
-### Fischer-Dieskau — Moore 1969 (`OuUmQT3My7Y`) — свой; проходов 4; в очереди 5 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 35.9–37.8 (1.8 с) под 4:2·Kummer, 1.1 Treu, @8.3, 1.2 kann @29.4, 1.2 freudenvoll, @33.7, 1.2 kann @41.7
+## D 463 — Hochzeit-Lied
 
 ### Walker — Johnson 1989 (`7icCqMm8VHU`) — починка; проходов 20; в очереди 24 слов
 1.1 Lieb @6.4, 1.1 und @6.7, 1.3 Treu @7.5, 1.3 Väter @11.5, 1.3 schon, @12.0, 1.2 kann @29.2, 2.2 die @55.2, 2.4 nützt. @64.6, 3.1 im @76.3, 3.1 Felde @76.4, 3.1 schlägt, @77.5, 3.3 der @83.3, 3.3 Acker @83.7, 5.1 Und @98.2, 5.1 doppelt @98.6, 5.4 Tod. @113.1, 6.1 Dann @123.3, 6.1 fühlt @123.9, 6.1 er @124.9, 6.1 noch @125.1, 6.1 die @125.9, 6.1 kalte @126.2, 6.1 Hand @127.0, 6.2 ihrer @128.0
@@ -559,16 +556,19 @@
 ### Melzer — Eisenlohr 2009 (`dRaTdMLCWQY`) — свой; проходов 19; в очереди 13 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 87.1–100.1 (13.0 с) под 2:2·trägt,, 1.1 und @7.3, 1.3 Treu @8.5, 1.4 nichts @34.8, 1.4 soll, @37.9, 3.1 wenn @76.0, 3.1 Lerch @77.1, 3.1 im @77.9, 3.1 Felde @78.0, 3.3 wenn @84.1, 3.3 der @84.9, 5.4 Gelinder @113.1, 6.3 sich @127.3
 
-## D 464 — In der Mitternacht
+### Fischer-Dieskau — Moore 1969 (`OuUmQT3My7Y`) — запасной; проходов 19; в очереди 42 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 35.9–37.8 (1.8 с) под 4:2·Kummer, 1.3 unsre @9.7, 1.3 Väter @9.8, 1.3 doch @10.0, 1.3 neu, @10.9, 1.2 Im @11.0, 1.2 Glücke @11.1, 1.2 macht @11.2, 1.2 es @11.3, 1.2 in @12.1, 1.2 der @12.1, 1.4 die @12.7, 1.4 scheiden @13.6, 1.4 soll, @13.8, 1.4 als @14.3, 1.4 der @14.4, 1.4 Tod. @14.5, 2.1 Dass @14.6, 2.2 Der @15.7, 2.3 opfert @25.7, 3.2 Weib @30.1, 3.3 Ihm @30.9, 5.1 Und @34.1, 5.1 Ruhe @34.8, 5.1 Lust, @34.9, 5.3 Den @35.8, 5.3 an @38.1, 5.4 Tod. @39.2, 6.1 fühlt @39.5, 6.1 er @39.5, 6.1 kalte @40.0, 6.1 Hand @40.1, 6.2 Von @40.2, 6.2 ihrer @40.2, 6.2 Hand @40.4, 6.3 Und @40.7, 6.3 sich @40.8, 6.3 in's @40.9, 6.3 neue @40.9, 6.4 Aus @41.2, 6.4 ihrem @41.2, 6.4 Arm @41.4
 
-### Fischer-Dieskau — Moore 1969 (`gPa5ZO3_Imk`) — свой; проходов 10; в очереди 14 слов
-1.1 das @10.9, 1.2 falbem @18.3, 1.2 Strahl; @18.8, 1.3 Leiser, @19.5, 1.3 dumpfer @19.9, 1.3 tönt @21.3, 1.3 es @21.4, 1.3 hier @21.5, 1.4 In @21.6, 1.4 der @21.7, 1.4 bangen @21.7, 1.4 Seele @27.6, 1.4 mir. @27.7, 2.2 Nachtgesang; @68.3
+## D 464 — In der Mitternacht
 
 ### Walker — Johnson 1989 (`hHtMYo8acVs`) — починка; проходов 27; в очереди 61 слов
 ДЫРЫ НА ПРОВЕРКУ: 177.9–180.9 (3.0 с) между 3:1·kund; и 3:2·Senken, 1.1 Todesstille @0.4, 1.1 deckt @6.2, 1.1 das @8.5, 1.1 Thal, @9.2, 1.2 Bei @10.9, 1.2 des @11.7, 1.2 Mondes @12.5, 1.2 falbem @15.2, 1.2 Strahl; @18.2, 1.3 Leiser, @21.1, 1.3 dumpfer @22.3, 1.3 tönt @22.6, 1.3 es @22.8, 1.3 hier @22.9, 1.4 In @22.9, 1.4 der @23.0, 1.4 bangen @23.2, 1.4 Seele @23.5, 1.4 mir. @23.7, 1.3 Leiser, @23.8, 1.3 dumpfer @24.7, 1.3 tönt @25.0, 1.3 es @25.1, 1.3 hier @25.2, 1.4 In @25.3, 1.4 der @25.7, 1.4 bangen @25.9, 1.4 Seele @26.3, 1.4 mir. @26.5, 2.2 Wächters @37.2, 1.3 es @60.0, 1.3 hier @60.5, 1.4 In @60.8, 1.4 der @60.9, 1.4 bangen @62.0, 1.4 Seele @62.2, 1.4 mir. @62.4, 2.1 Winde @62.5, 2.1 flüstern @63.6, 2.1 dumpf @64.3, 2.1 und @64.6, 2.1 bang, @64.9, 2.2 In @65.1, 2.2 des @65.2, 2.2 Wächters @65.8, 2.2 Nachtgesang; @67.8, 2.3 Mir @72.9, 2.3 fort, @83.4, 3.1 Schein, @112.8, 3.2 ein! @120.3, 3.3 Vor @127.0, 4.1 Mund, @165.6, 4.3 soll @182.9, 4.3 man @184.4, 4.3 hinab, @187.3, 6.1 An @210.3, 6.1 Hand @218.9, 6.2 Vaterland; @224.8, 6.4 werd' @247.4, 6.4 ich @247.5
 
 ### Wolff — Eisenlohr 2009 (`QJSQKcardwo`) — починка; проходов 22; в очереди 12 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 201.6–202.9 (1.3 с) под 5:1·Weg; (до первого слова) буквенная масса 14 до 6.1 — пение до первого размеченного слова, 1.3 Leiser, @12.7, 1.3 dumpfer @13.3, 1.3 tönt @14.1, 1.3 es @14.9, 1.3 hier @15.8, 1.4 In @17.5, 1.4 der @18.5, 1.4 bangen @18.9, 1.4 Seele @24.3, 1.4 mir. @25.7, 2.3 Mir @69.6
+
+### Fischer-Dieskau — Moore 1969 (`gPa5ZO3_Imk`) — свой; проходов 10; в очереди 14 слов
+1.1 das @10.9, 1.2 falbem @18.3, 1.2 Strahl; @18.8, 1.3 Leiser, @19.5, 1.3 dumpfer @19.9, 1.3 tönt @21.3, 1.3 es @21.4, 1.3 hier @21.5, 1.4 In @21.6, 1.4 der @21.7, 1.4 bangen @21.7, 1.4 Seele @27.6, 1.4 mir. @27.7, 2.2 Nachtgesang; @68.3
 
 ## D 465 — Trauer der Liebe
 
@@ -583,17 +583,17 @@
 
 ## D 466 — Die Perle
 
+### Melzer — Eisenlohr 2009 (`3vIFXQ8aD1s`) — запасной; проходов 30; в очереди 2 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 169.8–172.0 (2.2 с) под 5:5·endet, 4.5 ach, @129.8
+
+### Walker — Johnson 1989 (`1B-ByeluULc`) — свой; проходов 25; в очереди 26 слов
+1.5 er @24.7, 1.5 nicht, @24.8, 1.6 Er @25.5, 2.6 Dem @59.6, 2.6 Räuber @60.3, 2.6 abgestritten. @62.5, 3.1 Die @63.6, 4.1 Der @72.3, 4.3 Erle. @83.5, 4.4 Maies @86.0, 6.3 im @116.5, 6.3 treuen @116.7, 6.3 Herzen. @118.3, 6.4 Vergebens @120.0, 6.4 wall' @121.6, 6.4 ich @122.2, 6.4 auf @122.7, 6.4 und @123.5, 6.4 ab, @123.8, 6.5 Doch @124.5, 6.5 find' @124.8, 6.5 ich @125.7, 6.5 einst @126.0, 6.5 ein @126.5, 6.5 kühles @127.0, 6.5 Grab, @128.0
+
 ### Fischer-Dieskau — Moore 1969 (`vEKNHeVTIYE`) — свой; проходов 12; в очереди 4 слов
 1.2 Felder @9.5, 1.2 und @11.1, 1.3 Erle; @14.1, 1.5 er @22.4
 
-### Walker — Johnson 1989 (`1B-ByeluULc`) — починка; проходов 25; в очереди 26 слов
-1.5 er @24.7, 1.5 nicht, @24.8, 1.6 Er @25.5, 2.6 Dem @59.6, 2.6 Räuber @60.3, 2.6 abgestritten. @62.5, 3.1 Die @63.6, 4.1 Der @72.3, 4.3 Erle. @83.5, 4.4 Maies @86.0, 6.3 im @116.5, 6.3 treuen @116.7, 6.3 Herzen. @118.3, 6.4 Vergebens @120.0, 6.4 wall' @121.6, 6.4 ich @122.2, 6.4 auf @122.7, 6.4 und @123.5, 6.4 ab, @123.8, 6.5 Doch @124.5, 6.5 find' @124.8, 6.5 ich @125.7, 6.5 einst @126.0, 6.5 ein @126.5, 6.5 kühles @127.0, 6.5 Grab, @128.0
-
-### Lorenz — Shetler 1975–85? (`pNeuJerciL4`) — свой; проходов 18; в очереди 6 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 51.4–56.1 (4.8 с) под 2:4·Im, 1.2 Durch @10.4, 4.1 er, @52.5, 6.1 verlor, @96.2, 6.2 ich @98.1, 6.5 find' @114.6
-
-### Melzer — Eisenlohr 2009 (`3vIFXQ8aD1s`) — запасной; проходов 30; в очереди 2 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 169.8–172.0 (2.2 с) под 5:5·endet, 4.5 ach, @129.8
+### Lorenz — Shetler 1975–85? (`pNeuJerciL4`) — свой; проходов 18; в очереди 5 слов
+1.2 Durch @10.4, 4.1 er, @52.5, 6.1 verlor, @96.2, 6.2 ich @98.1, 6.5 find' @114.6
 
 ## D 467 — Pflicht und Liebe
 
@@ -602,14 +602,14 @@
 
 ## D 469 — Mignon
 
+### Rubens — Eisenlohr 2010 (`U5lTj7gbwTw`) — свой; проходов 6; в очереди 10 слов
+1.1 mich @3.9, 1.2 nicht @19.9, 2.2 Dann @32.3, 2.2 frische @55.0, 2.3 Ich @56.3, 2.3 lasse @59.0, 2.3 dann @59.4, 2.3 die @60.1, 2.3 reine @60.2, 2.3 Hülle, @61.5
+
 ### C. Schäfer — Johnson 1994 (`bM41SCjiCjA`) — свой; проходов 2; в очереди 2 слов
 1.1 scheinen, @3.6, 1.2 weiße @14.5
 
 ### C. Schäfer — Johnson 1994 (`OfjxrRvUGj0`) — свой; проходов 3; в очереди 1 слов
 2.2 öffnet @9.7
-
-### Rubens — Eisenlohr 2010 (`U5lTj7gbwTw`) — свой; проходов 5; в очереди 3 слов
-1.1 mich @3.9, 1.2 nicht @19.9, 2.2 Dann @32.3
 
 ## D 473 — Liedesend
 
@@ -658,9 +658,6 @@
 ### Fischer-Dieskau — Moore 1969 (`cnAagoZoXY4`) — починка; проходов 18; в очереди 11 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 42.0–50.6 (8.6 с) под 1:3·nicken; (растянутое слово) 71.1–73.2 (2.1 с) под 0:6·unerreicht, 1.1 Kaiserstadt @10.9, 2.2 ihnen @33.6, 2.2 Fluss; @35.1, 2.3 Kühe @36.1, 2.4 Gruss, @50.6, 2.6 nicken @74.1, 2.6 Gruss. @74.8, 3.1 und @81.9, 3.3 schwillt @90.1, 3.5 Frucht @95.0
 
-### Goerne — Schneider 2008 (`O3cSTTPBFuU`) — свой; проходов 15; в очереди 9 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 51.4–63.8 (12.5 с) под 1:2·Der, 1.2 ich @29.5, 1.2 in @29.8, 1.2 Bangigkeit, @30.0, 1.3 Was @62.7, 1.4 Fern? @68.8, 1.7 Dorten @72.0, 3.1 Wo @78.4, 3.1 gilt, @87.1
-
 ### Holzmair — Wyss 1992 (`ghoKXg-3eZo`) — починка; проходов 19; в очереди 18 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 3.4 «strebet» → «schrebet» @99с; 3.6 «strebet» → «schrebet» @108с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 21.4–29.5 (8.1 с) под 1:0·Die; (растянутое слово) 42.9–52.0 (9.1 с) под 1:3·nicken, 1.1 Kaiserstadt @10.8, 1.2 Geh @12.4, 1.2 ich @12.8, 1.2 in @13.4, 1.2 Bangigkeit, @13.7, 1.3 Was @14.7, 1.5 hat @20.1, 2.1 Die @21.4, 2.1 Berge @29.5, 2.1 schwinden @30.3, 2.3 nach @40.0, 2.4 Und @41.7, 2.4 Hütten @42.0, 2.4 nicken @42.9, 3.1 Wo @85.6, 3.1 gilt, @89.0
 
@@ -670,16 +667,19 @@
 ### Hauptmann — Laux 2000 (`1h7Gv6lLpTo`) — починка; проходов 19; в очереди 8 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 72.8–82.0 (9.3 с) под 0:6·unerreicht, 1.1 Donaustrom @8.8, 2.4 Hütten @41.5, 2.4 Gruss, @43.3, 2.6 Gruss. @50.9, 1.3 thränenfeucht @62.7, 1.7 Dorten @70.1, 3.1 gilt, @85.3
 
-## D 477 — Alte Liebe rostet nie
+### Goerne — Schneider 2008 (`O3cSTTPBFuU`) — свой; проходов 15; в очереди 9 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 51.4–63.8 (12.5 с) под 1:2·Der, 1.2 ich @29.5, 1.2 in @29.8, 1.2 Bangigkeit, @30.0, 1.3 Was @62.7, 1.4 Fern? @68.8, 1.7 Dorten @72.0, 3.1 Wo @78.4, 3.1 gilt, @87.1
 
-### Fischer-Dieskau — Moore 1969 (`WzOVIefQvvc`) — свой; проходов 13; в очереди 5 слов
-1.2 Mutter @6.0, 3.3 Vor @40.5, 4.1 aus @57.5, 4.2 mit @62.9, 4.2 ihnen, @63.4
+## D 477 — Alte Liebe rostet nie
 
 ### Langridge — Johnson 1988 (`G8VXSwK6Fwo`) — свой; проходов 20; в очереди 19 слов
 1.1 Alte @0.7, 2.1 Wie @32.2, 2.3 ich @47.4, 3.1 Holde @67.5, 3.2 Meer @71.7, 5.1 Haus, @138.6, 5.2 Wo @139.7, 5.3 Seh @153.4, 5.3 ich @154.2, 5.3 recht? @154.6, 5.3 Sie @155.4, 5.3 schwebt @155.8, 5.3 heraus @157.8, 5.3 — @159.5, 5.4 Wird @159.6, 5.4 die @160.3, 5.4 alte @160.9, 5.4 Liebe @161.9, 5.4 rosten? @163.2
 
 ### Hauptmann — Laux 2000 (`7ULLL-xwGc0`) — свой; проходов 20; в очереди 21 слов
 2.1 die @32.9, 2.4 Die @52.0, 2.4 Ferne @54.1, 3.3 Vor @80.2, 3.3 der @80.8, 3.3 schönsten @81.2, 3.3 Frauen @82.2, 3.3 Flor @84.1, 3.4 Durft @85.3, 3.4 ich @85.9, 3.4 unerschüttert @86.4, 3.4 stehen. @88.4, 4.1 Denn @99.1, 4.1 aus @99.8, 4.1 mir @100.2, 4.1 ihr @100.9, 4.1 Bildnis @101.3, 4.1 trat, @102.1, 4.2 Zürnend @103.3, 5.4 Wird @154.6, 5.4 Liebe @156.8
+
+### Fischer-Dieskau — Moore 1969 (`WzOVIefQvvc`) — свой; проходов 13; в очереди 5 слов
+1.2 Mutter @6.0, 3.3 Vor @40.5, 4.1 aus @57.5, 4.2 mit @62.9, 4.2 ihnen, @63.4
 
 ## D 481 — Sehnsucht
 
@@ -694,31 +694,31 @@
 
 ## D 482 — Der Sänger am Felsen
 
+### Augér — Johnson 1989 (`ePRLmSdlrT8`) — свой; проходов 20; в очереди 11 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 105.8–136.6 (30.7 с) под 0:12·Nacht., 1.2 Die @20.6, 1.2 entschwundnen @21.7, 1.4 verwelkten @34.1, 1.4 Fluren, @36.3, 1.5 Wo @37.9, 1.10 zu @85.7, 2.8 Klage, @136.6, 2.8 Flöte, @138.9, 2.10 Bald @146.8, 2.10 der @147.1
+
+### Gerhaher — Huber 2014 (`rs2tvaxtDAU`) — свой; проходов 21; в очереди 5 слов
+1.10 spät @30.3, 1.12 Nur @39.2, 1.13 Nacht. @53.9, 2.6 vertrug. @110.7, 2.11 sing @149.5
+
+### Tilling — Rivinius 2012 (`tCOz_jbmn38`) — свой; проходов 21; в очереди 13 слов
+ДЫРЫ НА ПРОВЕРКУ: 40.1–41.6 (1.4 с) между 0:4·Wo и 0:4·mein, 1.3 Flucht, @33.4, 1.5 Wo @39.4, 1.9 rufest @82.9, 1.10 Der @87.0, 1.10 dem @87.8, 1.11 Einsam @94.3, 2.6 Und @112.8, 2.6 den @114.3, 2.6 kleinsten @115.3, 2.6 Laut @116.9, 2.11 Matten @159.7, 2.13 Meine @174.8
+
 ### Fischer-Dieskau — Moore 1969 (`QH0JCtNzr-U`) — свой; проходов 14; в очереди 4 слов
 1.3 Frühlings @32.2, 1.3 Flucht, @35.2, 1.10 zu @100.9, 1.13 Durch @124.6
-
-### Augér — Johnson 1989 (`ePRLmSdlrT8`) — починка; проходов 20; в очереди 11 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 105.8–136.6 (30.7 с) под 0:12·Nacht., 1.2 Die @20.6, 1.2 entschwundnen @21.7, 1.4 verwelkten @34.1, 1.4 Fluren, @36.3, 1.5 Wo @37.9, 1.10 zu @85.7, 2.8 Klage, @136.6, 2.8 Flöte, @138.9, 2.10 Bald @146.8, 2.10 der @147.1
 
 ### Goerne — Deutsch 2007 (`U5eJi0M_JiQ`) — свой; проходов 14; в очереди 3 слов
 1.1 Klage, @16.8, 1.6 Freuden @47.9, 1.12 wieder @89.5
 
-### Gerhaher — Huber 2014 (`rs2tvaxtDAU`) — починка; проходов 21; в очереди 5 слов
-1.10 spät @30.3, 1.12 Nur @39.2, 1.13 Nacht. @53.9, 2.6 vertrug. @110.7, 2.11 sing @149.5
-
-### Tilling — Rivinius 2012 (`tCOz_jbmn38`) — починка; проходов 21; в очереди 13 слов
-ДЫРЫ НА ПРОВЕРКУ: 40.1–41.6 (1.4 с) между 0:4·Wo и 0:4·mein, 1.3 Flucht, @33.4, 1.5 Wo @39.4, 1.9 rufest @82.9, 1.10 Der @87.0, 1.10 dem @87.8, 1.11 Einsam @94.3, 2.6 Und @112.8, 2.6 den @114.3, 2.6 kleinsten @115.3, 2.6 Laut @116.9, 2.11 Matten @159.7, 2.13 Meine @174.8
-
 ## D 483 — Ferne von der großen Stadt
+
+### Roth — Eisenlohr 2004 (`-bJV2-zjb1c`) — починка; проходов 34; в очереди 23 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 34.3–46.6 (12.3 с) под 0:10·Himmel; (растянутое слово) 104.2–105.9 (1.7 с) под 2:10·erblicket, 1.1 von @3.4, 1.2 Thal! @11.9, 1.5 Hier, @12.7, 1.6 Die @16.5, 1.6 Natur @16.7, 1.6 geschmücket @17.0, 1.6 hat. @17.4, 1.7 Wo @17.6, 1.7 Bäume @17.8, 1.7 mich @18.0, 1.7 bedecken, @18.1, 1.8 Und @18.4, 1.8 die @18.6, 1.8 Linde @19.1, 1.8 Duft @19.5, 1.8 verstreut, @19.7, 1.9 Wo @22.1, 1.3 Freuden, @46.6, 1.8 verstreut, @64.0, 1.16 Kanapee. @81.5, 3.19 Felder @148.8, 3.22 Freundschaft @159.7
 
 ### Fischer-Dieskau — Moore 1969 (`-4jwCLWeh3g`) — свой; проходов 10; в очереди 10 слов
 1.2 Thal! @12.5, 1.5 das @12.6, 1.9 Wo @25.1, 1.10 kürzer @31.8, 1.10 macht, @33.2, 1.12 Über @39.8, 1.12 seligen @40.2, 1.12 Fluren @40.4, 1.12 lacht. @41.3, 1.13 Diese @41.6
 
 ### Connell — Johnson 1988 (`G8qZJP7PEVI`) — свой; проходов 25; в очереди 22 слов
 1.2 Nimm @9.7, 1.2 Thal! @16.3, 1.5 Hier, @16.6, 1.5 Frühlings @19.6, 1.6 hat. @27.5, 1.10 macht, @39.4, 1.11 ewig @43.0, 1.12 Über @47.3, 1.12 seligen @47.7, 1.3 Freuden, @64.1, 1.3 beut, @68.1, 1.4 hier @74.3, 1.14 Klee, @100.7, 1.16 Sei @108.7, 2.2 Gesetz, @133.4, 2.3 gebrochen, @143.6, 2.4 Will @145.9, 2.4 folgen, @147.2, 2.4 Natur! @150.5, 2.7 Blume @168.2, 2.8 mir @173.8, 2.8 erblühn. @174.3
-
-### Roth — Eisenlohr 2004 (`-bJV2-zjb1c`) — починка; проходов 34; в очереди 23 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 34.3–46.6 (12.3 с) под 0:10·Himmel; (растянутое слово) 104.2–105.9 (1.7 с) под 2:10·erblicket, 1.1 von @3.4, 1.2 Thal! @11.9, 1.5 Hier, @12.7, 1.6 Die @16.5, 1.6 Natur @16.7, 1.6 geschmücket @17.0, 1.6 hat. @17.4, 1.7 Wo @17.6, 1.7 Bäume @17.8, 1.7 mich @18.0, 1.7 bedecken, @18.1, 1.8 Und @18.4, 1.8 die @18.6, 1.8 Linde @19.1, 1.8 Duft @19.5, 1.8 verstreut, @19.7, 1.9 Wo @22.1, 1.3 Freuden, @46.6, 1.8 verstreut, @64.0, 1.16 Kanapee. @81.5, 3.19 Felder @148.8, 3.22 Freundschaft @159.7
 
 ## D 484 — Gesang der Geister über den Wassern
 
@@ -798,20 +798,20 @@
 
 ## D 490 — Der Hirt
 
-### Fischer-Dieskau — Moore 1969 (`8Dx1EaxkfrI`) — починка; проходов 15; в очереди 11 слов
-1.3 Und @23.9, 1.3 mahnest @24.3, 1.3 grausam @25.2, 1.8 Immer @26.2, 1.8 an @27.4, 1.8 das, @27.8, 1.8 was @28.9, 1.9 Immer @30.8, 1.9 verlor. @35.5, 2.3 sah @62.1, 2.3 der @62.7
+### Fischer-Dieskau — Moore 1969 (`8Dx1EaxkfrI`) — свой; проходов 15; в очереди 15 слов
+1.2 hoch @19.4, 1.8 Immer @26.2, 1.8 an @27.4, 1.8 das, @27.8, 1.8 was @28.9, 1.9 Immer @30.8, 1.9 verlor. @35.5, 2.3 sah @62.1, 2.3 der @62.7, 3.4 ihr. @111.0, 3.5 Wohin @111.2, 3.5 ich @111.7, 3.5 mich @112.3, 3.5 nun @112.6, 3.5 wende, @112.7
 
 ### Prégardien — Johnson 1994 (`UpkqwCusJRw`) — свой; проходов 20; в очереди 6 слов
 1.2 hoch @16.8, 1.9 Immer @32.4, 1.9 verlor. @36.2, 1.7 Vom @70.7, 2.2 War @94.9, 3.1 Wohin @135.8
 
-### Goerne — Metzmacher 2009 (`QBaYEA6DFh4`) — починка; проходов 17; в очереди 15 слов
-1.1 Du @9.8, 1.2 du @15.2, 1.2 so @16.3, 1.3 Immer, @24.7, 1.9 Immer @30.5, 1.5 Weiler @52.4, 1.7 Vom @61.4, 1.7 Pfeil @63.4, 1.7 Vom @66.2, 1.8 Immer @69.9, 3.2 mir; @90.7, 3.4 ihr. @102.3, 3.4 Was @103.3, 3.4 vernichtet, @104.5, 3.4 ihr. @107.5
-
-### Gerhaher — Huber 2014 (`WZHihDpytB4`) — починка; проходов 15; в очереди 9 слов
-1.1 Du @10.3, 1.3 Immer, @26.1, 1.8 an @27.0, 1.9 Immer @31.2, 1.9 verlor. @36.2, 1.4 hängt @48.9, 1.5 Weiler @55.6, 3.1 Wohin @89.0, 3.3 O @103.7
-
 ### Hauptmann — Laux 2000 (`hw-OCbdMZ2Q`) — запасной; проходов 20; в очереди 0 слов
 —
+
+### Goerne — Metzmacher 2009 (`QBaYEA6DFh4`) — свой; проходов 17; в очереди 14 слов
+1.1 Du @9.8, 1.2 du @15.2, 1.2 so @16.3, 1.3 Immer, @24.7, 1.9 Immer @30.5, 1.5 Weiler @52.4, 1.7 Vom @61.4, 1.7 Pfeil @63.4, 1.7 Vom @66.2, 1.8 Immer @69.9, 3.2 mir; @90.7, 3.4 ihr. @102.3, 3.4 Was @103.3, 3.4 vernichtet, @104.5
+
+### Gerhaher — Huber 2014 (`WZHihDpytB4`) — свой; проходов 15; в очереди 9 слов
+1.1 Du @10.3, 1.3 Immer, @26.1, 1.8 an @27.0, 1.9 Immer @31.2, 1.9 verlor. @36.2, 1.4 hängt @48.9, 1.5 Weiler @55.6, 3.1 Wohin @89.0, 3.3 O @103.7
 
 ## D 491 — Geheimnis
 
@@ -863,14 +863,14 @@
 
 ## D 344 — Am ersten Maimorgen
 
-### Prégardien — Johnson 1994 (`mNw-YawCdog`) — свой; проходов 14; в очереди 10 слов
-1.2 und @20.8, 2.2 Heute @45.9, 2.2 aus @46.4, 2.2 der @46.9, 2.2 Morgenröte @47.2, 2.2 Hallen, @48.9, 2.1 Denn @58.1, 2.1 er @74.4, 2.1 kommt @74.5, 2.1 Freuden @76.7
-
 ### Holzmair — Eisenlohr 2006 (`dTvcZogN2Zg`) — запасной; проходов 21; в очереди 4 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 15.5–19.9 (4.4 с) под 0:0·sein,, 1.1 ich @15.1, 1.1 fröhlich @15.4, 2.3 Haar @58.5
 
 ### Jansen — Grier 2014 (`sOSpte8B2wI`) — свой; проходов 21; в очереди 19 слов
 1.3 mich @13.5, 1.3 für @17.3, 1.3 Freude @18.3, 1.1 Heute @21.2, 1.4 König @29.6, 1.4 soll @30.5, 2.1 Denn @48.0, 2.3 um @59.4, 2.4 Und @72.2, 2.4 Schulter @73.4, 2.4 Schulter @79.4, 3.2 von @95.8, 3.2 Tau @96.0, 3.2 und @97.0, 3.2 Duft @97.4, 3.2 er @111.3, 3.2 Segen @114.0, 3.2 — @114.6, 3.4 Freund @123.6
+
+### Prégardien — Johnson 1994 (`mNw-YawCdog`) — свой; проходов 14; в очереди 10 слов
+1.2 und @20.8, 2.2 Heute @45.9, 2.2 aus @46.4, 2.2 der @46.9, 2.2 Morgenröte @47.2, 2.2 Hallen, @48.9, 2.1 Denn @58.1, 2.1 er @74.4, 2.1 kommt @74.5, 2.1 Freuden @76.7
 
 ## D 495 — Abendlied der Fürstin
 
@@ -885,22 +885,22 @@
 
 ## D 496 — Bei dem Grabe meines Vaters
 
-### Fischer-Dieskau — Moore 1969 (`AO1iT24YRxc`) — свой; проходов 15; в очереди 6 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 119.6–124.0 (4.4 с) под 2:7·Wecken, 3.7 Bis @94.9, 3.8 wird. @124.0, 4.2 guten @143.8, 4.3 er @151.5, 4.3 mehr! @164.2
-
 ### Prégardien — Johnson 1994 (`pRrU3o1SqTA`) — свой; проходов 20; в очереди 8 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 3.3 «entschlief,» → «Schlief,» @99с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 132.2–139.0 (6.8 с) под 2:7·wird., 3.2 was @59.8, 3.2 kann's @68.1, 3.3 entschlief, @98.6, 3.4 Ein @104.3, 3.4 Gott @109.7, 4.1 Ach, @163.7
 
 ### Rubens — Eisenlohr 2010 (`AwUNNUKAu1I`) — запасной; проходов 20; в очереди 1 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 59.8–61.4 (1.6 с) под 2:1·mir
 
-## D 496A — Klage um Ali Bey
+### Fischer-Dieskau — Moore 1969 (`AO1iT24YRxc`) — свой; проходов 15; в очереди 6 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 119.6–124.0 (4.4 с) под 2:7·Wecken, 3.7 Bis @94.9, 3.8 wird. @124.0, 4.2 guten @143.8, 4.3 er @151.5, 4.3 mehr! @164.2
 
-### Popp — Johnson 1992 (`EBd1J3fwtQM`) — свой; проходов 23; в очереди 11 слов
-1.2 Fröhlich @9.4, 1.3 hat @15.7, 3.2 Ging @57.0, 3.3 für @66.1, 4.4 War @73.4, 4.4 Bey @75.8, 4.4 wie @76.2, 5.1 Jedermann @78.7, 5.2 fiel!« @91.0, 5.3 klaget @96.4, 5.4 Krokodil. @103.9
+## D 496A — Klage um Ali Bey
 
 ### Holzmair — Eisenlohr 2006 (`XBqh75HGlBY`) — свой; проходов 30; в очереди 10 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 120.3–126.7 (6.3 с) под 3:2·allen, 1.1 klagen, @6.0, 1.2 Fröhlich @9.2, 1.4 Heer. @31.7, 2.4 Haut' @57.9, 3.2 Ging @78.7, 4.4 kein @131.9, 4.4 wie @133.3, 4.4 er. @134.1, 5.2 fiel!« @152.7
+
+### Popp — Johnson 1992 (`EBd1J3fwtQM`) — запасной; проходов 30; в очереди 5 слов
+3.4 Mann. @72.7, 4.1 Aber, @72.8, 4.1 nun @72.9, 4.1 ist @73.0, 4.4 War @79.5
 
 ## D 497 — An die Nachtigall
 
@@ -949,8 +949,8 @@
 
 ## D 500 — Phidile
 
-### Popp — Johnson 1992 (`KWhjj2SCl2w`) — починка; проходов 41; в очереди 9 слов
-1.7 und @60.5, 3.3 O! @94.3, 5.7 er @225.7, 5.7 flohe @225.9, 5.7 fort; @225.9, 5.7 und @225.9, 5.7 er @225.9, 5.7 flohe @226.0, 5.7 fort; @227.6
+### Popp — Johnson 1992 (`KWhjj2SCl2w`) — свой; проходов 40; в очереди 8 слов
+3.3 O! @94.3, 5.7 er @225.7, 5.7 flohe @225.9, 5.7 fort; @225.9, 5.7 und @225.9, 5.7 er @225.9, 5.7 flohe @226.0, 5.7 fort; @227.6
 
 ### Steinberger — Eisenlohr 2006 (`mEaaoMH3YoA`) — починка; проходов 50; в очереди 77 слов
 1.1 war @1.8, 1.1 sechszehn @3.0, 1.6 noch @51.3, 1.6 her, @51.8, 1.6 noch @61.9, 1.6 her, @62.3, 1.7 Der @63.9, 1.7 Lieben. @67.8, 5.1 Milch @80.7, 5.4 Nur @92.7, 5.4 nicht @94.1, 5.4 Nur @103.1, 5.4 konnt' @103.4, 5.4 nicht @104.4, 5.4 verstehen. @105.2, 3.2 Und @120.9, 3.2 Hände @123.4, 3.2 Hände @133.8, 3.3 Und @136.6, 4.2 was @160.7, 4.3 fiel @164.4, 4.3 Mann @167.1, 4.4 weinte. @172.2, 5.1 Und @173.8, 5.1 sein @174.0, 5.1 Gesicht @174.7, 5.1 wie @174.9, 5.1 Milch @175.2, 5.1 und @175.4, 5.1 Blut, @175.5, 5.2 Ich @175.6, 5.2 hab's @175.7, 5.2 nie @176.5, 5.2 so @176.6, 5.2 gesehen. @177.3, 5.3 Auch @178.5, 5.3 was @178.6, 5.3 er @178.8, 5.3 sagte, @179.0, 5.3 war @179.8, 5.3 sehr @179.9, 5.3 gut, @180.1, 5.4 Nur @180.1, 5.4 konnt' @180.2, 5.4 ich's @180.3, 5.4 nicht @180.6, 5.4 verstehen. @180.7, 5.5 Ich @181.3, 5.5 sagt' @181.5, 5.5 ihm @181.9, 5.5 nicht @182.1, 5.5 ein @182.4, 5.5 einzig @182.7, 5.5 Wort, @182.8, 5.6 Als @183.9, 5.6 ob @184.4, 5.6 ich's @185.2, 5.6 übel @185.8, 5.6 nähme; @186.1, 5.7 Kein @187.5, 5.7 einzig's, @191.3, 5.7 und @191.8, 5.7 er @191.9, 5.7 flohe @192.1, 5.7 fort; @192.1, 5.8 Wenn @192.3, 5.8 er @192.3, 5.8 doch @192.3, 5.8 wieder @192.5, 5.8 käme! @193.9, 6.2 war's @198.7, 6.4 nieder. @209.5, 6.3 beiden @214.2, 5.7 flohe @244.4, 5.8 Wenn @247.4, 5.7 flohe @255.7, 5.7 fort; @257.0
@@ -960,28 +960,28 @@
 ### Varcoe — Johnson 1998 (`vCcXNm8pcOE`) — починка; проходов 24; в очереди 3 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 2.4 «Mond» → «Mund» @70с; 3.2 «hülf» → «hilft» @111с, 1.1 im @18.6, 5.4 Freude @159.1
 
-### Holzmair — Eisenlohr 2006 (`dxNvXlEhvk4`) — свой; проходов 18; в очереди 5 слов
-2.3 Herr @66.4, 2.6 drob @84.0, 2.6 fällt @84.5, 3.3 hab', @117.9, 3.4 sehr. @125.0
-
 ### Jansen — Grier 2014 (`lEnoMWL9JW4`) — запасной; проходов 30; в очереди 0 слов
 —
 
-## D 502 — Herbstlied
+### Holzmair — Eisenlohr 2006 (`dxNvXlEhvk4`) — свой; проходов 18; в очереди 5 слов
+2.3 Herr @66.4, 2.6 drob @84.0, 2.6 fällt @84.5, 3.3 hab', @117.9, 3.4 sehr. @125.0
 
-### Fischer-Dieskau — Moore 1969 (`pojpYlpmLJo`) — свой; проходов 21; в очереди 6 слов
-1.5 Graue @16.1, 1.6 Kühler @19.3, 1.7 Wind. @29.1, 2.3 Purpurfarbig @36.7, 2.5 Streifen @46.0, 5.3 im @66.7
+## D 502 — Herbstlied
 
 ### Popp — Johnson 1992 (`ixNuXc6oN5s`) — починка; проходов 28; в очереди 16 слов
 1.1 sind @0.9, 1.1 die @1.4, 1.1 Wälder, @1.5, 1.2 Gelb @3.0, 1.5 wallen, @14.4, 1.6 Wind, @19.5, 1.7 Wind. @24.9, 2.7 Roth @47.3, 2.7 bemalt. @51.4, 3.1 wie @54.5, 3.1 hier @54.8, 3.2 Birne @57.7, 3.3 In @58.3, 3.3 ihr @58.5, 4.1 Träger @80.5, 4.3 Alles @85.5
 
-### Lorenz — Shetler 1985 (`yFdwEU_VEcU`) — свой; проходов 21; в очереди 10 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 84.8–86.1 (1.3 с) под 4:3·Junge, 1.3 beginnt. @12.0, 1.6 Kühler @21.5, 1.6 der @25.8, 1.7 Kühler @28.4, 1.7 weht @32.1, 4.6 von @60.4, 4.7 Auf @63.4, 5.3 Und @78.9, 5.4 Junge @84.8
-
 ### Sampson — Middleton 2025 (`wkr8sb7L9NQ`) — свой; проходов 35; в очереди 17 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 5.7 «Deutschen» → «deuten» @112с, 1.4 Blätter @11.2, 1.4 fallen, @11.5, 1.6 Kühler @15.2, 1.7 Wind. @23.2, 2.1 volle @25.6, 2.3 Purpurfarbig @29.5, 2.3 strahlt! @32.7, 2.7 Roth @42.9, 3.1 Sieh, @48.1, 3.4 Dort @57.2, 4.3 Alles @74.9, 4.3 jubelt @75.2, 4.4 Bunte @80.0, 4.4 Bänder @80.5, 5.3 Und @97.1, 5.3 im @97.2
 
-### Kobow — Eisenlohr 2009 (`ODlNC6EEj9A`) — починка; проходов 28; в очереди 8 слов
+### Kobow — Eisenlohr 2009 (`ODlNC6EEj9A`) — свой; проходов 28; в очереди 8 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 5.3 «Mondenglanz;» → «Morgenglitz;» @73с, 1.5 Nebel @12.2, 1.5 wallen, @12.7, 2.5 Pfirsiche, @33.5, 2.6 weiss @38.0, 2.7 und @42.1, 3.2 Pflaum' @47.9, 5.3 Und @71.2
+
+### Fischer-Dieskau — Moore 1969 (`pojpYlpmLJo`) — свой; проходов 21; в очереди 6 слов
+1.5 Graue @16.1, 1.6 Kühler @19.3, 1.7 Wind. @29.1, 2.3 Purpurfarbig @36.7, 2.5 Streifen @46.0, 5.3 im @66.7
+
+### Lorenz — Shetler 1985 (`yFdwEU_VEcU`) — свой; проходов 21; в очереди 9 слов
+1.3 beginnt. @12.0, 1.6 Kühler @21.5, 1.6 der @25.8, 1.7 Kühler @28.4, 1.7 weht @32.1, 4.6 von @60.4, 4.7 Auf @63.4, 5.3 Und @78.9, 5.4 Junge @84.8
 
 ## D 503 — Mailied
 
@@ -996,20 +996,20 @@
 
 ## D 342 — An mein Klavier
 
-### Fischer-Dieskau — Moore 1969 (`K8QHYhUBea8`) — починка; проходов 24; в очереди 16 слов
-2.3 dir, @55.0, 2.3 Clavier, @58.2, 2.2 Spiele, @96.5, 2.3 Weih @101.0, 2.4 aus @114.5, 2.4 dir, @114.6, 2.4 trautes @114.7, 2.4 Clavier. @114.8, 3.1 Trautes @116.6, 3.1 Clavier! @118.2, 3.2 sanftes @140.2, 3.2 Clavier, @141.3, 3.5 Clavier. @156.0, 4.1 Thränen @156.2, 4.2 Sorgen @162.5, 4.2 umschweben, @162.6
-
 ### Schwarzkopf — Parsons 1966 (`G048E09py6g`) — свой; проходов 20; в очереди 21 слов
 1.1 Entzückungen @10.4, 2.3 Weih @34.4, 2.3 ich @35.0, 2.4 Clavier. @77.2, 3.5 Lispelst @94.7, 5.4 Töne @117.3, 6.1 Sing' @122.0, 6.1 ich @123.3, 6.1 dazu, @123.6, 6.2 Lispelst @123.8, 6.2 mir @125.3, 6.2 du! @127.9, 6.3 Thränen @128.2, 6.3 der @131.2, 6.3 Freude @134.4, 6.4 Netzen @135.7, 6.4 die @136.1, 6.4 Saite! @136.5, 6.5 Trägt @136.6, 6.5 den @137.7, 6.5 Gesang. @137.9
-
-### Schumann — Moore 1946 (`bgTXQJSMQl4`) — свой; проходов 16; в очереди 21 слов
-ДЫРЫ НА ПРОВЕРКУ: 147.2–154.4 (7.2 с) между 3:4·Gesang, и 4:0·Goldnes, 1.1 sanftes @20.2, 1.2 sanftes @38.2, 2.1 Wenn @42.8, 2.1 Schönen @44.8, 2.1 verwöhnen, @48.4, 2.3 Weih @51.3, 2.3 Weih @56.0, 3.2 dazu, @100.4, 3.2 sanftes @100.5, 3.2 Clavier, @101.2, 3.3 Goldener @103.1, 3.3 himmlische @108.3, 3.3 Ruh, @110.2, 3.5 du, @120.2, 3.5 goldnes @121.7, 3.5 Clavier. @123.0, 4.1 Thränen @123.2, 4.1 Freude, @124.7, 4.2 Saite, @129.4, 4.4 Silberner @137.1
 
 ### Popp — Johnson 1992 (`H80Ck1dvnhU`) — запасной; проходов 34; в очереди 5 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 33.1–37.0 (3.9 с) под 0:3·dir, 3.2 Sing @138.2, 3.3 Ruh, @149.8, 6.2 mir @256.1, 6.2 du! @256.2
 
 ### Price — Sawallisch 1981 (`ndeaMG4hSZE`) — запасной; проходов 34; в очереди 2 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 164.6–166.0 (1.4 с) под 5:4·den, 1.4 bin @16.3
+
+### Fischer-Dieskau — Moore 1969 (`K8QHYhUBea8`) — свой; проходов 24; в очереди 16 слов
+2.3 dir, @55.0, 2.3 Clavier, @58.2, 2.2 Spiele, @96.5, 2.3 Weih @101.0, 2.4 aus @114.5, 2.4 dir, @114.6, 2.4 trautes @114.7, 2.4 Clavier. @114.8, 3.1 Trautes @116.6, 3.1 Clavier! @118.2, 3.2 sanftes @140.2, 3.2 Clavier, @141.3, 3.5 Clavier. @156.0, 4.1 Thränen @156.2, 4.2 Sorgen @162.5, 4.2 umschweben, @162.6
+
+### Schumann — Moore 1946 (`bgTXQJSMQl4`) — свой; проходов 16; в очереди 22 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 2.1 «tändelnd» → «Tenden» @47с, ДЫРЫ НА ПРОВЕРКУ: 147.1–154.7 (7.7 с) между 3:4·Gesang, и 3:4·Trägt, 1.1 sanftes @20.2, 1.2 sanftes @38.2, 2.1 Wenn @42.8, 2.1 Schönen @44.8, 2.1 verwöhnen, @48.4, 2.3 Weih @51.3, 2.3 Weih @56.0, 3.2 dazu, @100.4, 3.2 sanftes @100.5, 3.2 Clavier, @101.2, 3.3 Goldener @103.1, 3.3 himmlische @108.3, 3.3 Ruh, @110.2, 3.5 du, @120.2, 3.5 goldnes @121.7, 3.5 Clavier. @123.0, 4.1 Thränen @123.2, 4.1 Freude, @124.7, 4.2 Saite, @129.4, 4.4 Silberner @137.1
 
 ## D 457 — An die untergehende Sonne
 
@@ -1044,20 +1044,20 @@
 
 ## D 508 — Lebenslied
 
+### Popp — Johnson 1992 (`-TEYE1RbuAU`) — починка; проходов 28; в очереди 14 слов
+1.1 Kommen @0.8, 1.3 Fürchten @6.6, 2.3 Wechseln @18.8, 2.3 Wechseln @25.1, 2.3 wie @27.7, 1.5 Fruchtlos @37.4, 2.1 und @48.3, 2.1 Fülle, @48.9, 2.5 Wahns. @59.8, 3.5 Dort @86.0, 3.6 Frieden, @93.9, 3.6 Verein @101.6, 4.1 Günstige @111.7, 4.5 Lied @128.2
+
+### Bauer — Eisenlohr 2005 (`v02pu7le4mg`) — починка; проходов 21; в очереди 13 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 3.9–5.1 (1.2 с) под 0:1·Suchen, 2.3 wie @23.2, 1.5 du @33.8, 1.6 Täuschende @35.4, 2.1 und @39.2, 2.1 Fülle, @39.4, 2.5 Wahns. @48.6, 3.5 Band, @72.5, 3.6 Wahrheit @73.8, 3.6 und @77.6, 3.6 und @80.5, 3.6 Verein @81.6, 3.6 und @82.6
+
 ### Fischer-Dieskau — Moore 1969 (`NxjKzwNH0A0`) — свой; проходов 14; в очереди 5 слов
 2.3 Wechseln @14.8, 1.5 Frieden, @31.7, 2.1 und @36.9, 2.1 Fülle, @37.4, 2.5 die @47.8
 
 ### Hotter — Raucheisen 1942–45? (`lwA8RPuFQ3Q`) — свой; проходов 22; в очереди 6 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 79.1–82.3 (3.2 с) под 3:4·verklingendes; (растянутое слово) 86.3–88.8 (2.4 с) под 3:5·Leben, 3.3 Blicke @42.5, 3.6 Frieden, @59.6, 5.3 verachten, @78.1, 5.5 unser @80.5, 5.6 Uns @92.5
 
-### Popp — Johnson 1992 (`-TEYE1RbuAU`) — починка; проходов 28; в очереди 14 слов
-1.1 Kommen @0.8, 1.3 Fürchten @6.6, 2.3 Wechseln @18.8, 2.3 Wechseln @25.1, 2.3 wie @27.7, 1.5 Fruchtlos @37.4, 2.1 und @48.3, 2.1 Fülle, @48.9, 2.5 Wahns. @59.8, 3.5 Dort @86.0, 3.6 Frieden, @93.9, 3.6 Verein @101.6, 4.1 Günstige @111.7, 4.5 Lied @128.2
-
 ### Lorenz — Shetler 1985 (`KNadEDJMdaU`) — свой; проходов 21; в очереди 5 слов
 3.1 Auf @38.7, 3.5 Dort @49.0, 3.6 Verein @56.8, 5.3 verachten, @77.3, 5.6 Willens @89.9
-
-### Bauer — Eisenlohr 2005 (`v02pu7le4mg`) — починка; проходов 21; в очереди 13 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 3.9–5.1 (1.2 с) под 0:1·Suchen, 2.3 wie @23.2, 1.5 du @33.8, 1.6 Täuschende @35.4, 2.1 und @39.2, 2.1 Fülle, @39.4, 2.5 Wahns. @48.6, 3.5 Band, @72.5, 3.6 Wahrheit @73.8, 3.6 und @77.6, 3.6 und @80.5, 3.6 Verein @81.6, 3.6 und @82.6
 
 ## D 509 — Leiden der Trennung
 
@@ -1075,8 +1075,8 @@
 
 ## D 510 — Vedi quanto adoro
 
-### Schwarzkopf — Raucheisen 1958 (`q7vLAABSKx4`) — свой; проходов 37; в очереди 20 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 117.9–122.8 (4.9 с) под 2:6·viver; (растянутое слово) 177.4–183.1 (5.6 с) под 2:3·affanni,; (растянутое слово) 183.1–195.8 (12.7 с) под 2:3·Fra; (растянутое слово) 195.8–198.7 (2.9 с) под 2:3·tanti; (растянутое слово) 202.5–204.4 (1.9 с) под 2:3·tanti; (растянутое слово) 229.2–231.2 (2.0 с) под 5:2·viver, 1.4 hai @64.3, 1.4 cor @64.4, 1.4 di @64.7, 1.4 tradirmi? @64.9, 2.3 chi @81.0, 2.3 mi @81.5, 2.3 fiderò @81.7, 4.1 Ah, @141.2, 4.1 non @141.9, 4.1 lasciarmi, @142.0, 4.3 Ah, @147.2, 4.3 non @147.4, 4.3 lasciarmi, @148.5, 4.4 Bell'idol @150.0, 4.4 mio, @151.9, 5.3 Che @158.3, 5.4 tanti @162.1, 5.4 affanni, @163.2, 5.1 Di @200.9
+### Schwarzkopf — Raucheisen 1958 (`q7vLAABSKx4`) — свой; проходов 37; в очереди 24 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 77.0–79.4 (2.5 с) под 1:1·Bell'idol; (растянутое слово) 106.1–108.4 (2.4 с) под 2:2·potrei; (растянутое слово) 121.5–123.2 (1.7 с) под 2:7·affanni,; (растянутое слово) 163.2–195.8 (32.6 с) под 4:3·affanni,; (растянутое слово) 234.4–236.6 (2.2 с) под 5:6·Che; 189.7–195.8 (6.1 с) между 4:3·affanni, и 4:3·fra, 1.4 hai @64.3, 1.4 cor @64.4, 1.4 di @64.7, 1.4 tradirmi? @64.9, 2.3 chi @81.0, 2.3 mi @81.5, 2.3 fiderò @81.7, 4.1 Ah, @141.2, 4.1 non @141.9, 4.1 lasciarmi, @142.0, 4.3 Ah, @147.2, 4.3 non @147.4, 4.3 lasciarmi, @148.5, 4.4 Bell'idol @150.0, 4.4 mio, @151.9, 5.3 Che @158.3, 5.4 tanti @162.1, 5.4 affanni, @163.2, 5.1 Di @200.9, 6.7 Che @234.4, 6.7 viver @236.6, 6.7 non @237.5, 6.7 potrei @237.8
 
 ### Augér — Johnson 1989 (`qwotjzpSg5U`) — запасной; проходов 52; в очереди 7 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 202.8–207.4 (4.6 с) под 3:3·Bell'idol; (растянутое слово) 239.8–243.3 (3.5 с) под 5:3·tanti; (до первого слова) буквенная масса 426 до 28.0 — пение до первого размеченного слова, 2.6 chi @87.8, 2.2 mio, @93.1, 2.3 Di @93.2, 2.3 mi @93.5, 2.5 Ah, @96.6, 3.1 Di @162.1
@@ -1084,8 +1084,8 @@
 ### Bartoli — Schiff 1993 (`b0gQo8Kfaho`) — починка; проходов 52; в очереди 62 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 64.9–79.3 (14.4 с) под 0:2·disarmi.; (растянутое слово) 167.9–170.1 (2.2 с) под 3:0·lasciarmi,; (растянутое слово) 189.8–205.0 (15.2 с) под 2:3·affanni,; (растянутое слово) 273.1–274.3 (1.2 с) под 5:2·Che; (до первого слова) буквенная масса 301 до 33.7 — пение до первого размеченного слова, 2.1 Ah, @92.7, 2.1 non @93.1, 2.1 lasciarmi, @93.3, 2.2 Bell'idol @96.5, 2.2 mio, @97.6, 3.8 Fra @146.4, 4.1 Ah, @167.2, 4.3 Ah, @173.5, 4.3 non @173.8, 4.4 Bell'idol @176.5, 2.6 m'inganni, @230.1, 2.6 se @231.1, 2.6 tu @231.3, 2.6 m'inganni? @231.4, 3.1 Di @231.8, 3.3 Che @239.5, 3.4 Fra @242.2, 5.1 Di @260.9, 5.1 vita @261.0, 5.1 mancherei @261.3, 5.2 Nel @262.9, 5.2 dirti @263.0, 5.2 addio, @263.4, 5.3 Che @264.5, 5.3 viver @264.8, 5.3 non @265.5, 5.3 potrei @265.8, 5.4 Fra @267.1, 5.4 tanti @267.2, 5.4 affanni, @267.6, 5.4 fra @267.9, 5.4 tanti @268.1, 5.4 affanni. @268.6, 6.1 Che @269.7, 6.1 viver @269.9, 6.1 non @270.6, 6.1 potrei @270.9, 6.2 Fra @271.1, 6.2 tanti @271.5, 6.2 affanni, @272.4, 6.3 Che @273.1, 6.3 viver @274.3, 6.3 non @274.7, 6.3 potrei @275.9, 6.4 Fra @276.8, 6.4 tanti @276.9, 6.4 affanni, @278.4, 6.5 Che @279.1, 6.5 viver @279.2, 6.5 non @279.4, 6.5 potrei @279.7, 6.6 Fra @280.4, 6.6 tanti @280.6, 6.6 affanni, @280.8, 6.7 Che @281.1, 6.7 viver @281.3, 6.7 non @281.7, 6.7 potrei @282.0, 6.8 Fra @282.3, 6.8 tanti @282.8, 6.8 affanni. @283.3
 
-### Bevan — Middleton 2020 (`dv5A2gF2cKs`) — свой; проходов 39; в очереди 32 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 247.7–249.9 (2.2 с) под 5:5·affanni,; (до первого слова) буквенная масса 362 до 25.7 — пение до первого размеченного слова, 1.2 Con @43.1, 1.4 Ed @65.3, 1.4 hai @65.4, 1.4 cor @65.8, 1.4 di @66.5, 1.4 tradirmi? @66.8, 1.4 E @68.8, 1.4 puoi @69.0, 2.1 Ah, @77.0, 2.1 lasciarmi, @77.3, 2.2 Bell'idol @79.3, 2.2 mio, @80.8, 2.3 Di @82.0, 2.3 chi @82.2, 2.3 mi @82.4, 2.3 fiderò @83.1, 2.4 Se @84.8, 2.4 tu @85.2, 2.4 m'inganni? @86.4, 2.5 Ah, @88.1, 2.5 non @88.5, 2.5 lasciarmi, @88.8, 2.5 bell'idol @89.6, 2.5 mio, @91.5, 2.6 Di @92.8, 4.2 Bell'idol @146.0, 4.2 mio, @149.0, 4.3 Ah, @149.6, 5.3 non @183.0, 5.3 potrei @185.5, 6.8 affanni. @253.6
+### Bevan — Middleton 2020 (`dv5A2gF2cKs`) — запасной; проходов 52; в очереди 9 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 247.7–249.9 (2.2 с) под 5:5·affanni,; (до первого слова) буквенная масса 362 до 25.7 — пение до первого размеченного слова, 1.3 Mi @29.4, 1.3 e @30.5, 1.3 mi @30.6, 1.4 di @31.5, 1.4 E @31.8, 1.4 puoi @31.9, 2.1 Ah, @32.2, 3.4 tanti @165.6
 
 ## D 518 — An den Tod
 
@@ -1109,16 +1109,13 @@
 ### Fischer-Dieskau — Moore 1969 (`YYDcTTH89DI`) — свой; проходов 7; в очереди 0 слов
 —
 
-### Loges — Johnson 1999 (`UscJyOCwOww`) — свой; проходов 19; в очереди 6 слов
-1.6 mir @42.8, 1.6 die @42.9, 1.6 Tage, @43.0, 1.1 bin @81.4, 1.1 von @81.5, 1.1 Schlage, @81.7
+### Loges — Johnson 1999 (`UscJyOCwOww`) — запасной; проходов 26; в очереди 6 слов
+1.7 ich @51.8, 1.7 zum @51.9, 1.6 mir @58.8, 1.7 ich @61.0, 1.7 zum @61.1, 1.1 Ich @61.6
 
 ### Roth — Eisenlohr 2004 (`W6lD5Qtt4KU`) — запасной; проходов 26; в очереди 2 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 26.2–31.0 (4.9 с) под 0:6·mir; (растянутое слово) 34.0–35.2 (1.2 с) под 0:5·Frohsinn; (растянутое слово) 39.4–40.9 (1.5 с) под 0:6·hab'; (растянутое слово) 41.0–43.3 (2.3 с) под 0:6·zum; (растянутое слово) 47.5–50.5 (3.0 с) под 0:5·Mein; (растянутое слово) 63.3–65.2 (1.9 с) под 0:6·ich; (растянутое слово) 65.5–68.3 (2.8 с) под 0:6·Schild; (растянутое слово) 70.2–71.4 (1.2 с) под 0:6·zum; (растянутое слово) 73.3–74.8 (1.5 с) под 0:6·gewählt.; (растянутое слово) 79.0–81.1 (2.1 с) под 0:5·die; (растянутое слово) 81.1–83.1 (2.0 с) под 0:5·Tage,; (растянутое слово) 93.4–96.7 (3.3 с) под 0:1·Trübsinn; (растянутое слово) 108.5–111.4 (2.9 с) под 0:2·Schmerz,; (растянутое слово) 118.1–121.1 (3.0 с) под 0:3·Frohsinn; (растянутое слово) 125.1–126.6 (1.5 с) под 0:3·Frohsinn, 1.5 ich @43.6
 
 ## D 522 — Die Liebe
-
-### Fischer-Dieskau — Moore 1969 (`2fk6Mx-R-QU`) — свой; проходов 15; в очереди 4 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 23.4–26.3 (2.9 с) под 0:3·Erdenraum,, 1.7 Wo @27.1, 1.7 Bienen, @27.3, 1.7 wo @27.4
 
 ### Mathis — Johnson 1992 (`taPXaekEofs`) — починка; проходов 31; в очереди 41 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 55.4–56.4 (1.0 с) под 0:5·weht; (растянутое слово) 56.4–64.8 (8.4 с) под 0:5·im; (растянутое слово) 71.3–74.4 (3.1 с) под 0:5·Sternenkranz,, 1.2 Wo @7.7, 1.2 der @8.7, 1.2 Liebe @9.3, 1.2 hoher @9.9, 1.6 weht @70.4, 1.8 Und @74.5, 1.8 wo @74.6, 1.8 die @74.7, 1.8 Blümlein @75.1, 1.8 sich @75.9, 1.8 entfalten, @76.0, 1.10 die @86.6, 1.10 Turteltauben @86.9, 1.10 girren, @89.5, 1.14 Wo @90.2, 1.14 hoher @105.4, 1.14 Geist? @105.6, 1.14 weht @106.0, 1.14 der @106.5, 1.14 Liebe @106.8, 1.14 hoher @107.1, 1.14 Geist? @107.8, 2.1 weht @113.9, 2.3 In @118.7, 2.6 Wenn @134.6, 2.6 schallen, @138.3, 1.14 der @153.7, 1.14 hoher @154.1, 1.14 Geist? @154.3, 2.1 Er @154.5, 2.1 weht @154.6, 2.1 bei @154.9, 2.1 Freud @155.0, 2.1 und @155.4, 2.1 Schmerz, @155.6, 2.2 In @156.0, 2.2 Wasser, @156.1, 2.2 Feuer, @156.5, 2.2 Luft, @156.7, 2.8 ein @187.1
@@ -1126,10 +1123,13 @@
 ### Sindram — Eisenlohr 2007 (`I1hINC01tpE`) — запасной; проходов 31; в очереди 1 слов
 1.6 weht @61.4
 
+### Fischer-Dieskau — Moore 1969 (`2fk6Mx-R-QU`) — свой; проходов 15; в очереди 4 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 23.4–26.3 (2.9 с) под 0:3·Erdenraum,, 1.7 Wo @27.1, 1.7 Bienen, @27.3, 1.7 wo @27.4
+
 ## D 523 — Trost
 
-### Fischer-Dieskau — Moore 1969 (`vjZ5n8sMdss`) — свой; проходов 10; в очереди 8 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 18.7–26.3 (7.5 с) под 0:7·dir!, 2.1 fühl @23.1, 2.1 in @25.6, 2.2 hier; @38.6, 2.1 fühl @102.2, 3.1 Innern @120.4, 3.1 hier, @122.9, 3.2 Tief @125.1
+### Fischer-Dieskau — Moore 1969 (`vjZ5n8sMdss`) — запасной; проходов 22; в очереди 9 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 18.7–26.3 (7.5 с) под 0:7·dir!, 1.10 bald @98.9, 2.1 in @103.2, 2.1 mir, @117.1, 2.1 Tief @117.2, 2.1 mir, @119.5, 2.1 und @120.2, 2.2 lange @124.2, 2.2 weil @124.3
 
 ### Mathis — Johnson 1992 (`U5uI9O6NXhA`) — починка; проходов 20; в очереди 14 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 46.2–50.8 (4.6 с) под 0:9·dir!; (растянутое слово) 102.4–105.4 (3.0 с) под 1:0·mir,, 2.1 Tief @15.2, 2.1 in @20.8, 1.8 dir! @21.3, 1.9 Nimmer @23.4, 1.9 hier, @31.2, 1.6 für @50.8, 1.7 Wüthen @56.4, 1.7 den @59.9, 2.1 fühl @109.9, 2.1 ich's @110.6, 1.9 hier, @128.0, 2.1 ich's @142.1, 2.2 hier; @155.3
@@ -1199,8 +1199,8 @@
 ### Mathis — Johnson 1992 (`bnoSRe3eOA8`) — починка; проходов 16; в очереди 14 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 55.4–57.5 (2.1 с) под 0:5·jedem; (растянутое слово) 90.9–92.4 (1.5 с) под 1:3·Erglänzt; (растянутое слово) 99.6–101.7 (2.1 с) под 1:4·Erglänzt; (растянутое слово) 102.1–104.2 (2.1 с) под 1:4·Himmels; (растянутое слово) 117.5–119.1 (1.7 с) под 2:0·er, 1.1 Es @19.2, 1.1 der @19.7, 1.1 Wald, @20.1, 1.3 "Du @28.1, 1.4 kommt, @38.5, 1.4 und @41.9, 2.1 Mit @66.7, 2.1 Tag, @73.0, 2.4 Himmels @92.7, 3.1 frische @112.9, 3.2 Wolken @126.1, 3.4 Traumgott @140.1, 3.5 Hat @147.3
 
-### Fink — Huber 2007 (`QDoSzzWt1C8`) — свой; проходов 15; в очереди 9 слов
-1.4 und @33.1, 1.5 geheilt, @42.8, 1.6 Und @44.8, 2.2 Büschen @56.6, 2.4 feuchter @81.6, 3.1 frische @96.6, 3.1 hin, @102.3, 3.2 über @104.1, 3.3 seine @111.4
+### Fink — Huber 2007 (`QDoSzzWt1C8`) — запасной; проходов 17; в очереди 1 слов
+4.1 komm!" @130.8
 
 ## D 528 — La pastorella al prato
 
@@ -1252,20 +1252,20 @@
 
 ## D 532 — Das Lied vom Reifen
 
-### Fischer-Dieskau — Moore 1969 (`YOvTFQ_26Ng`) — свой; проходов 6; в очереди 9 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 85.3–88.6 (3.3 с) под 4:0·viel, 1.1 Seht @2.0, 1.4 allen @14.1, 1.4 Zweigen @15.6, 1.5 und @109.2, 1.5 kraus, @111.9, 1.6 mit @115.7, 1.6 mit @121.5, 1.6 Reifen @123.6
+### Mathis — Johnson 1992 (`CSeZiK6fcbA`) — починка; проходов 32; в очереди 18 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 96.0–98.0 (1.9 с) под 4:2·Baumgestalt; (растянутое слово) 99.1–101.9 (2.8 с) под 4:3·Sonnenstrahl., 1.4 allen @11.1, 1.4 Zweigen @11.3, 1.4 angethan @11.6, 1.5 Mit @34.9, 1.5 Reifelein @35.3, 3.1 Und @76.2, 3.1 sie @76.3, 3.1 beäugeln @76.4, 3.1 und @76.5, 3.1 besehn, @84.8, 5.4 vollen @98.2, 6.1 Auch @105.0, 9.3 wie @124.7, 9.3 er @125.8, 9.4 sei. @128.8, 9.4 kommen @128.9, 9.4 sei. @129.8
+
+### Fischer-Dieskau — Moore 1969 (`YOvTFQ_26Ng`) — запасной; проходов 32; в очереди 38 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 85.3–88.6 (3.3 с) под 4:0·viel, 1.4 Auf @40.1, 2.2 weit @72.4, 2.3 gleicher @76.9, 2.4 gleicher @79.3, 3.1 Und @82.7, 5.1 Wald, @103.9, 5.4 Im @109.0, 7.3 aller @123.5, 7.3 sei @123.8, 7.4 So @123.9, 7.4 und @124.1, 7.4 so @124.2, 7.4 rein. @124.2, 7.4 So @124.3, 7.4 und @124.5, 7.4 so @124.6, 7.4 rein. @124.6, 9.1 Wir @124.7, 9.1 sehn @124.8, 9.1 das @124.8, 9.1 an, @124.9, 9.1 und @125.0, 9.1 noch @125.2, 9.2 dabei, @125.5, 9.3 Woher @125.6, 9.3 der @125.7, 9.3 Reif @125.8, 9.3 und @125.9, 9.3 wie @126.0, 9.3 er @126.0, 9.3 doch @126.1, 9.4 Zu @126.2, 9.4 kommen @126.4, 9.4 sei. @126.5, 9.4 sei. @126.7, 9.4 kommen @127.0, 9.4 sei. @127.5
+
+### Breedt — N. Schumann 2012 (`WJoYCF88KLE`) — запасной; проходов 32; в очереди 13 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 3.5–4.8 (1.4 с) под 0:0·Bäume, 5.4 Im @107.7, 7.2 Und @114.5, 7.4 So @119.8, 9.1 sehn @121.6, 9.3 Woher @124.6, 9.3 der @124.7, 9.3 Reif @124.8, 9.3 und @124.8, 9.3 wie @124.9, 9.3 er @125.0, 9.3 doch @125.0, 9.4 Zu @125.1
 
 ### Lorenz — Shetler 1985 (`fXK0k-exvko`) — свой; проходов 14; в очереди 14 слов
 1.1 meine @1.4, 1.2 so @7.0, 1.4 Zweigen, @11.1, 1.4 allen @11.3, 1.4 Zweigen @12.2, 1.4 angethan @13.6, 1.6 mit @20.4, 1.4 Auf @39.6, 1.4 allen @39.7, 1.4 Zweigen, @39.8, 1.4 allen @40.4, 1.4 Zweigen @41.3, 1.4 angethan @42.4, 2.3 da @79.7
 
-### Mathis — Johnson 1992 (`CSeZiK6fcbA`) — починка; проходов 32; в очереди 18 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 96.0–98.0 (1.9 с) под 4:2·Baumgestalt; (растянутое слово) 99.1–101.9 (2.8 с) под 4:3·Sonnenstrahl., 1.4 allen @11.1, 1.4 Zweigen @11.3, 1.4 angethan @11.6, 1.5 Mit @34.9, 1.5 Reifelein @35.3, 3.1 Und @76.2, 3.1 sie @76.3, 3.1 beäugeln @76.4, 3.1 und @76.5, 3.1 besehn, @84.8, 5.4 vollen @98.2, 6.1 Auch @105.0, 9.3 wie @124.7, 9.3 er @125.8, 9.4 sei. @128.8, 9.4 kommen @128.9, 9.4 sei. @129.8
-
-### Steinberger — Eisenlohr 2006 (`IhvO-rpz-QY`) — свой; проходов 13; в очереди 6 слов
-1.1 lieben @3.0, 1.2 stehn! @9.8, 1.3 Von @38.3, 1.5 zierlich, @50.0, 2.2 All, @79.9, 2.2 und @82.2
-
-### Breedt — N. Schumann 2012 (`WJoYCF88KLE`) — свой; проходов 11; в очереди 10 слов
-1.4 allen @12.5, 1.4 Zweigen @12.7, 1.4 angethan @13.1, 1.6 mit @15.1, 1.6 Reifen @15.6, 1.6 mit @36.0, 1.6 Reifen @55.9, 1.6 wunderschön, @69.2, 1.7 und @70.9, 2.2 alle, @109.1
+### Steinberger — Eisenlohr 2006 (`IhvO-rpz-QY`) — свой; проходов 13; в очереди 7 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 14.6–38.3 (23.7 с) под 0:1·stehn!, 1.1 lieben @3.0, 1.2 stehn! @9.8, 1.3 Von @38.3, 1.5 zierlich, @50.0, 2.2 All, @79.9, 2.2 und @82.2
 
 ## D 533 — Täglich zu singen
 
@@ -1502,19 +1502,16 @@
 
 ## D 551 — Pax vobiscum
 
-### Fischer-Dieskau — Moore 1969 (`oPmk_Wu2jJo`) — свой; проходов 9; в очереди 1 слов
-1.4 Flogst @28.6
-
 ### Murray — Johnson 1988 (`5o49U43UGzE`) — свой; проходов 27; в очереди 27 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 291.2–295.2 (4.0 с) под 2:8·dich,; 182.0–183.3 (1.3 с) между 1:7·Gott, и 1:8·Ich; 285.5–287.1 (1.6 с) между 2:7·Gott, и 2:8·Ich, 1.1 das @8.5, 1.3 Siegesstrahl @23.5, 1.4 Flogst @31.5, 1.5 kam @45.8, 1.7 sie @62.6, 1.8 dich, @72.3, 1.9 dich, @86.1, 2.1 euch! @107.5, 2.5 Wen @144.1, 2.6 Wo @151.9, 2.6 Himmel @153.6, 2.7 alles @161.0, 2.7 des @164.3, 2.7 Winters @164.7, 2.8 Ich @169.3, 2.9 auf @184.0, 2.9 Gott! @193.0, 3.2 an @217.9, 3.3 Wenn @224.1, 3.3 Wesen @227.1, 3.3 erwünschten @228.5, 3.3 Ruh @230.7, 3.8 du @279.8, 3.8 guter @279.9, 3.9 liebe @290.2, 3.9 dich, @291.2
 
 ### Groop — Jansen 1996 (`DPrbei6eW1U`) — запасной; проходов 27; в очереди 1 слов
 3.8 du @263.4
 
-## D 552 — Hänflings Liebeswerbung
+### Fischer-Dieskau — Moore 1969 (`oPmk_Wu2jJo`) — свой; проходов 9; в очереди 1 слов
+1.4 Flogst @28.6
 
-### Fischer-Dieskau — Moore 1969 (`3ua34wkqXEk`) — свой; проходов 17; в очереди 0 слов
-—
+## D 552 — Hänflings Liebeswerbung
 
 ### Schwarzkopf — Parsons 1971 (`zVSUG57-Zc4`) — починка; проходов 32; в очереди 33 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 3.1 «Ahidi,» → «Hedi,» @89с; 3.3 «grüssen,» → «vergrüßen,» @97с, 1.1 Ahidi, @9.9, 1.1 ich @11.1, 1.1 liebe! @11.2, 1.1 ich @11.6, 1.1 liebe! @11.9, 1.1 ich @13.2, 1.1 liebe! @13.5, 1.1 ich @14.9, 1.1 liebe! @15.2, 1.2 Mild @16.6, 1.5 — @29.4, 2.1 Ahidi, @36.4, 2.1 ich @47.7, 2.5 — @67.3, 3.1 Ahidi, @71.1, 3.1 Ahidi, @74.1, 3.1 ich @85.6, 3.1 ich @88.9, 3.5 mich @103.6, 3.5 — @104.2, 3.6 liebe, @107.5, 5.1 Ahidi, @108.5, 5.1 ich @109.2, 5.1 liebe! @110.0, 5.2 Ich @110.6, 5.2 liebe, @110.7, 6.1 Ahidi, @111.3, 6.1 ich @111.8, 6.1 liebe! @111.9, 6.2 Ich @112.4, 6.2 liebe, @112.8, 6.2 Ahidi! @113.2
@@ -1522,8 +1519,11 @@
 ### Mathis — Johnson 1992 (`FZ-cXUsrIgU`) — починка; проходов 44; в очереди 48 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 11.1–12.4 (1.3 с) под 0:0·liebe!; (растянутое слово) 12.4–13.8 (1.5 с) под 0:0·Ahidi,; (растянутое слово) 14.6–15.8 (1.2 с) под 0:1·Mild; (растянутое слово) 28.5–31.1 (2.6 с) под 1:0·liebe!; (растянутое слово) 31.1–43.0 (11.9 с) под 1:1·Dich; (растянутое слово) 63.0–64.4 (1.4 с) под 2:0·Ahidi,; (растянутое слово) 66.8–75.8 (9.0 с) под 2:1·sieh,; (растянутое слово) 112.4–113.9 (1.5 с) под 3:0·ich; (растянутое слово) 113.9–115.2 (1.4 с) под 3:0·liebe!; (растянутое слово) 130.8–132.6 (1.8 с) под 5:0·Ahidi,; (растянутое слово) 134.0–135.7 (1.8 с) под 5:1·Ahidi!, 1.2 lächelt @15.8, 1.2 Sonne, @16.9, 1.2 mild, @18.1, 1.3 Wehen @18.4, 2.1 Ahidi, @28.2, 2.1 ich @28.4, 2.1 liebe! @28.5, 2.1 liebe! @44.5, 2.2 mit @48.3, 2.3 Seidenem @48.5, 2.3 Gefieder, @49.4, 2.3 Seidenem @51.4, 2.3 Gefieder, @52.5, 2.4 Mit @53.5, 2.4 strahlenden @54.2, 2.4 Äuglein @55.8, 2.4 dich, @56.4, 2.5 — @61.4, 3.2 sieh, @66.8, 3.2 O @78.4, 3.1 ich @79.7, 3.1 liebe! @79.9, 3.2 wie @81.7, 3.2 die @82.2, 4.1 ich @97.5, 4.1 Ahidi, @110.1, 4.1 ich @110.5, 4.1 liebe! @110.6, 4.1 Ahidi, @111.1, 4.5 mich @122.6, 4.5 wieder @122.9, 4.5 — @124.4, 4.6 Ich @124.6, 4.6 liebe, @125.3, 4.6 ahidi, @125.8, 4.6 ich @126.3, 4.6 liebe! @126.9, 5.1 Ahidi, @127.3, 5.2 Ich @129.4, 5.2 liebe, @129.8, 5.2 Ahidi! @130.3, 6.1 Ahidi, @130.8, 6.1 ich @132.6, 6.1 liebe! @132.8, 6.2 Ich @133.3, 6.2 liebe, @133.6, 6.2 Ahidi! @134.0
 
-### M. Schäfer — Eisenlohr 2007 (`6PUkI7bAr48`) — починка; проходов 36; в очереди 10 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 58.5–60.5 (2.0 с) под 2:0·ich, 1.1 ich @10.4, 1.2 lächelt @11.8, 1.5 Duften @18.3, 3.1 liebe! @60.5, 3.2 sieh, @61.7, 3.2 wie @62.2, 3.3 Sich @63.6, 4.4 umschlinget, @91.4, 4.6 Ich @96.0
+### M. Schäfer — Eisenlohr 2007 (`6PUkI7bAr48`) — починка; проходов 36; в очереди 12 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 58.5–60.5 (2.0 с) под 2:0·ich, 1.1 ich @10.4, 1.2 lächelt @11.8, 1.5 Duften @18.3, 3.1 liebe! @60.5, 3.2 sieh, @61.7, 3.2 wie @62.2, 3.3 Sich @63.6, 4.4 umschlinget, @91.4, 4.6 Ich @96.0, 5.1 ich @99.8, 5.1 liebe! @99.9
+
+### Fischer-Dieskau — Moore 1969 (`3ua34wkqXEk`) — запасной; проходов 39; в очереди 50 слов
+2.6 liebe, @73.2, 3.1 ich @73.4, 3.1 liebe! @73.5, 3.1 Ahidi, @73.6, 3.1 Ahidi, @74.0, 3.1 ich @74.2, 3.2 O @74.5, 3.2 sieh, @74.5, 3.2 die @74.7, 3.2 Blumen @74.8, 3.3 Sich @74.9, 3.3 liebevoll @75.0, 3.4 Sich @75.4, 3.4 liebevoll @75.5, 3.5 O @75.6, 3.5 liebe @75.6, 3.5 mich @75.7, 3.6 Ich @75.9, 4.1 ich @76.4, 4.1 liebe! @76.5, 4.1 Ahidi, @76.6, 4.1 ich @76.8, 4.1 Ahidi, @77.0, 4.1 liebe! @77.4, 4.2 O @77.5, 4.2 sieh, @77.5, 4.2 wie @77.6, 4.2 der @77.7, 4.2 Epheu @77.7, 4.3 Mit @77.8, 4.3 Armen @78.0, 4.4 Die @78.2, 4.4 Eiche @78.2, 4.5 O @78.5, 4.5 liebe @78.7, 4.5 mich @78.7, 4.5 wieder @78.8, 4.6 Ich @78.8, 4.6 ich @79.2, 4.6 liebe! @79.2, 5.1 ich @79.4, 5.1 liebe! @79.5, 5.2 Ich @79.6, 5.2 liebe, @79.7, 5.2 Ahidi! @79.8, 6.1 ich @80.0, 6.1 liebe! @80.0, 6.2 Ich @80.2, 6.2 liebe, @80.3, 6.2 Ahidi! @80.9
 
 ## D 554 — Uraniens Flucht
 
@@ -1555,20 +1555,20 @@
 
 ## D 558 — Liebhaber in allen Gestalten
 
-### Schwarzkopf — Moore 1948 (`BLsOLaRKUHo`) — починка; проходов 24; в очереди 29 слов
-1.1 Ein @5.7, 1.3 zu @10.0, 3.2 im @29.2, 3.3 thätst @30.5, 3.4 wieder @33.5, 3.5 Ich @39.0, 3.5 wollt, @39.3, 3.5 ich @39.6, 3.5 wäre @39.8, 3.5 Gold, @40.4, 3.6 Dir @41.2, 3.6 immer @41.5, 3.6 im @42.3, 3.6 Sold. @42.6, 9.1 ich @48.5, 9.3 du @52.0, 9.5 nun @56.6, 9.6 hin. @59.6, 9.5 Ich @60.2, 9.5 bin @60.7, 9.5 nun @61.0, 9.5 wie @61.2, 9.5 ich @61.6, 9.5 bin, @61.8, 9.6 So @62.7, 9.6 nimm @63.0, 9.6 mich @63.8, 9.6 nur @64.1, 9.6 hin. @64.5
-
-### Schumann — Reeves 1933 (`pGzcS9BOCnE`) — починка; проходов 24; в очереди 32 слов
-1.1 Ich @4.9, 1.2 frisch, @8.1, 1.3 kämst @9.1, 1.5 ich @14.4, 1.7 Ich @18.7, 1.7 wollt, @19.0, 1.7 ich @19.6, 1.7 wär @19.8, 1.7 ein @20.1, 1.7 Fisch, @20.4, 1.8 So @21.3, 1.8 hurtig @21.7, 1.8 und @23.0, 1.8 frisch. @23.4, 3.3 thätst @33.0, 3.3 du @33.5, 3.3 was @33.7, 3.4 wieder @35.2, 3.5 Ich @37.3, 3.6 im @46.8, 9.1 ich @54.1, 9.3 du @57.9, 9.3 bess're @58.0, 9.5 nun @63.2, 9.6 So @65.3, 9.6 nur @70.6, 9.6 hin. @71.1, 9.6 So @71.9, 9.6 nimm @72.4, 9.6 mich @73.7, 9.6 nur @74.4, 9.6 hin. @75.2
-
-### Wunderlich — Giesen 1966 (`9wRINDiadSM`) — починка; проходов 22; в очереди 7 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 9.2 «nimm» → «nehm» @55с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 36.9–42.8 (5.8 с) под 2:3·gelaufen., 1.7 ich @19.8, 3.4 wieder @36.6, 9.3 du @57.3, 9.6 nimm @69.5, 9.6 hin. @70.8
-
-### Ameling — Baldwin 1972 (`GH5DIv9V5tA`) — починка; проходов 25; в очереди 19 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 3.6 «Sold.» → «sollt.» @42с, 1.2 frisch, @9.7, 1.5 Fisch, @16.4, 1.6 frisch, @18.7, 3.2 im @33.2, 3.4 Käm @36.3, 3.4 ich @36.4, 3.4 wieder @36.5, 3.4 gelaufen. @36.8, 3.5 Ich @38.8, 3.5 Gold, @40.1, 9.1 bin @54.8, 9.2 hin! @58.3, 9.3 Willst @58.4, 9.5 Ich @63.7, 9.5 nun @64.1, 9.5 bin @68.7, 9.5 nun @69.0, 9.6 hin. @73.5
+### Schwarzkopf — Moore 1948 (`BLsOLaRKUHo`) — запасной; проходов 32; в очереди 33 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 39.8–41.2 (1.4 с) под 4:4·wär, 1.3 zu @10.0, 3.3 was @31.3, 3.4 ich @31.8, 3.5 Ich @32.3, 3.5 ich @32.6, 3.5 wäre @32.6, 3.6 Dir @32.9, 3.6 immer @33.0, 3.6 im @33.1, 3.6 Sold. @33.1, 3.5 Ich @33.2, 3.5 ich @33.4, 3.5 wäre @33.4, 3.6 Dir @33.7, 3.6 immer @33.7, 3.6 im @33.9, 3.6 Sold. @33.9, 5.1 Ich @34.0, 5.1 wollt, @34.1, 5.1 ich @34.2, 5.1 wär @34.2, 5.1 treu, @34.3, 5.2 Mein @34.4, 5.2 stets @34.7, 5.2 neu, @34.8, 5.3 Ich @34.8, 5.5 Ich @37.2, 5.5 ich @37.6, 5.5 wär @37.7, 5.5 treu, @37.8, 5.6 Mein @37.8, 5.6 neu. @47.1
 
 ### Bonney — Parsons 1994 (`oVuZXKW2pvo`) — свой; проходов 32; в очереди 14 слов
 1.1 ich @6.2, 1.6 und @19.4, 1.8 frisch. @25.1, 3.2 im @35.1, 3.4 wieder @39.7, 3.5 Ich @42.3, 3.6 Sold. @53.5, 5.1 wollt, @61.5, 5.4 Wollt @70.0, 5.4 nimmer @70.6, 5.5 Ich @80.3, 5.6 Mein @83.9, 9.3 du @98.6, 9.6 hin. @114.4
+
+### Schumann — Reeves 1933 (`pGzcS9BOCnE`) — свой; проходов 24; в очереди 32 слов
+1.1 Ich @4.9, 1.2 frisch, @8.1, 1.3 kämst @9.1, 1.5 ich @14.4, 1.7 Ich @18.7, 1.7 wollt, @19.0, 1.7 ich @19.6, 1.7 wär @19.8, 1.7 ein @20.1, 1.7 Fisch, @20.4, 1.8 So @21.3, 1.8 hurtig @21.7, 1.8 und @23.0, 1.8 frisch. @23.4, 3.3 thätst @33.0, 3.3 du @33.5, 3.3 was @33.7, 3.4 wieder @35.2, 3.5 Ich @37.3, 3.6 im @46.8, 9.1 ich @54.1, 9.3 du @57.9, 9.3 bess're @58.0, 9.5 nun @63.2, 9.6 So @65.3, 9.6 nur @70.6, 9.6 hin. @71.1, 9.6 So @71.9, 9.6 nimm @72.4, 9.6 mich @73.7, 9.6 nur @74.4, 9.6 hin. @75.2
+
+### Wunderlich — Giesen 1966 (`9wRINDiadSM`) — свой; проходов 22; в очереди 7 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 9.2 «nimm» → «nehm» @55с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 36.9–42.8 (5.8 с) под 2:3·gelaufen., 1.7 ich @19.8, 3.4 wieder @36.6, 9.3 du @57.3, 9.6 nimm @69.5, 9.6 hin. @70.8
+
+### Ameling — Baldwin 1972 (`GH5DIv9V5tA`) — свой; проходов 25; в очереди 19 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 3.6 «Sold.» → «sollt.» @42с, 1.2 frisch, @9.7, 1.5 Fisch, @16.4, 1.6 frisch, @18.7, 3.2 im @33.2, 3.4 Käm @36.3, 3.4 ich @36.4, 3.4 wieder @36.5, 3.4 gelaufen. @36.8, 3.5 Ich @38.8, 3.5 Gold, @40.1, 9.1 bin @54.8, 9.2 hin! @58.3, 9.3 Willst @58.4, 9.5 Ich @63.7, 9.5 nun @64.1, 9.5 bin @68.7, 9.5 nun @69.0, 9.6 hin. @73.5
 
 ## D 559 — Schweizerlied
 
@@ -1620,14 +1620,14 @@
 
 ## D 562 — Fischerlied
 
-### Fischer-Dieskau — Moore 1969 (`vZ2GhxsLbAk`) — свой; проходов 17; в очереди 10 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 61.0–63.6 (2.6 с) под 1:6·Matten,; (растянутое слово) 104.9–108.9 (4.0 с) под 8:15·Hügel,, 2.4 Fang. @54.3, 3.1 Mit @95.3, 3.1 rothen @100.7, 3.1 Korallen @103.2, 3.2 Prangt @104.5, 3.2 Spiegel @104.9, 3.2 und @105.9, 3.2 Wand, @106.1, 3.3 Den @106.2
-
 ### Varcoe — Johnson 1987 (`DQBWAvTqFlk`) — починка; проходов 38; в очереди 12 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 61.7–74.6 (12.9 с) под 1:2·Schleusen,, 1.1 Fischergewerbe @2.3, 1.7 Wir @25.9, 2.1 Wir @51.2, 2.1 heben @51.7, 2.1 die @53.3, 2.1 Reusen @53.8, 3.8 Baste @134.6, 3.8 vereint, @136.1, 9.11 kennt, @168.5, 9.16 Rasengruft @191.6, 9.17 Fluth. @198.2
 
 ### Kobow — Eisenlohr 2009 (`rZtLfN2LnB0`) — свой; проходов 39; в очереди 11 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 3.2 «Wand,» → «Pfand,» @84с, 1.1 Fischergewerbe @1.3, 1.6 Feld, @18.1, 1.8 Geld, @24.6, 1.9 Wir @25.8, 1.10 Geld. @30.8, 3.7 Von @97.2, 3.8 vereint, @101.9, 3.10 Baste @107.2, 9.10 Vermag @124.0, 9.16 Hügel, @145.3
+
+### Fischer-Dieskau — Moore 1969 (`vZ2GhxsLbAk`) — свой; проходов 17; в очереди 10 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 61.0–63.6 (2.6 с) под 1:6·Matten,; (растянутое слово) 104.9–108.9 (4.0 с) под 8:15·Hügel,, 2.4 Fang. @54.3, 3.1 Mit @95.3, 3.1 rothen @100.7, 3.1 Korallen @103.2, 3.2 Prangt @104.5, 3.2 Spiegel @104.9, 3.2 und @105.9, 3.2 Wand, @106.1, 3.3 Den @106.2
 
 ## D 563 — Die Einsiedelei
 
@@ -1729,8 +1729,8 @@
 ### Fischer-Dieskau — Moore 1969 (`JkAcJ5w3174`) — свой; проходов 16; в очереди 16 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 2.2 «Beben,» → «blieben,» @31с, 1.2 Es @12.1, 2.1 Thal, @25.5, 2.3 Ruh @31.9, 3.1 was @55.2, 3.5 Unmuthig @73.4, 3.5 rollt's @74.6, 3.5 auf @75.1, 3.5 steter @75.4, 3.5 Flucht, @76.4, 3.6 Wird @77.0, 3.6 nimmer @77.5, 3.6 froh, @78.8, 3.6 wird @78.9, 3.6 nimmer @79.5, 3.6 heiter. @80.5
 
-### Moll — Garben 1982 (`OaPFFksBl58`) — свой; проходов 12; в очереди 17 слов
-1.1 fort, @9.1, 1.2 und @10.7, 1.2 fällt @10.8, 1.2 in @11.4, 1.2 krausen @11.5, 1.2 Wogen, @12.3, 1.3 Hier @13.0, 1.3 bäumt @13.1, 1.3 es @13.6, 1.3 sich, @13.9, 1.3 jagt @14.5, 1.3 nieder @15.1, 2.6 es @38.5, 3.3 rollt's @56.2, 3.3 Flucht, @57.7, 3.4 Wird @58.1, 3.6 froh, @66.4
+### Moll — Garben 1982 (`OaPFFksBl58`) — запасной; проходов 16; в очереди 2 слов
+1.2 in @11.4, 2.6 es @38.5
 
 ### Gerhaher — Huber 2014 (`cFp2RZhd7Rs`) — свой; проходов 16; в очереди 11 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 2.5 «ruhige» → «ruge» @40с, 1.1 sich @7.9, 1.1 fort, @9.3, 1.4 In @17.3, 2.2 Durchrauscht @25.3, 2.2 nun @26.7, 2.5 ruhige @40.0, 3.1 es @52.2, 3.3 steter @63.0, 3.4 heiter, @67.3, 3.5 rollt's @70.3
@@ -1748,14 +1748,14 @@
 
 ## D 578 — Abschied
 
-### Fischer-Dieskau — Moore 1969 (`el_AfAc_RLs`) — свой; проходов 13; в очереди 3 слов
-4.3 Freundes @70.9, 4.5 du @87.6, 4.5 lieber @88.1
-
 ### Mathis — Johnson 1992 (`-bwqiLjIjF0`) — починка; проходов 25; в очереди 25 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 17.8–19.3 (1.5 с) под 0:1·hin; (растянутое слово) 71.7–73.6 (1.9 с) под 1:2·Herzens; (растянутое слово) 172.5–174.7 (2.2 с) под 3:2·schweift,, 1.3 trautes @25.1, 1.4 bewahr's @28.7, 1.5 Lebe @34.5, 1.5 wohl, @35.1, 1.6 Lebe @37.3, 1.6 wohl, @38.0, 1.6 du @40.5, 1.6 lieber @41.4, 2.5 Freund! @94.5, 2.6 wohl, @104.1, 2.6 du @105.9, 2.6 Freund! @106.8, 3.1 Lebe @107.3, 3.1 wohl, @107.6, 3.1 du @109.0, 3.5 wohl, @133.8, 3.5 du @139.2, 4.1 Lebe @151.7, 4.1 lieber @158.2, 4.1 Freund! @161.5, 4.2 Wenn @163.3, 4.2 dies @164.0, 4.2 dein @165.6, 4.3 Freundes @168.9
 
 ### Trost — Eisenlohr 2008 (`R_ZzKHaV2dU`) — починка; проходов 20; в очереди 11 слов
 1.2 Ziehe @16.2, 1.2 fernes @18.7, 2.6 du @36.6, 3.1 Lebe @49.9, 3.2 Scheiden @57.6, 3.4 Hin @67.3, 3.4 an @67.6, 3.4 den @67.9, 3.4 Bestimmungsort. @69.1, 4.2 Lied @102.3, 4.5 du @121.7
+
+### Fischer-Dieskau — Moore 1969 (`el_AfAc_RLs`) — свой; проходов 13; в очереди 3 слов
+4.3 Freundes @70.9, 4.5 du @87.6, 4.5 lieber @88.1
 
 ## D 583 — Gruppe aus dem Tartarus
 
@@ -1824,11 +1824,11 @@
 
 ## D 579 — Der Knabe in der Wiege
 
-### Fischer-Dieskau — Moore 1969 (`3vWDp54Q2sw`) — свой; проходов 14; в очереди 4 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 50.0–58.6 (8.6 с) под 0:3·Herzen; 101.2–104.1 (2.9 с) между 1:3·ausgestreckt. и 1:1·versteckt,, 1.4 unterm @37.6, 2.2 versteckt, @83.7, 2.3 herunterziehen, @111.7
-
 ### Rolfe Johnson — G. Johnson 1989 (`kkXZVp0Ncm0`) — починка; проходов 28; в очереди 8 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 34.6–46.7 (12.1 с) под 0:3·trug., 1.1 Blicke @11.7, 2.2 halb @69.1, 2.2 versteckt, @70.6, 2.3 herunterziehen, @77.1, 2.4 sich @80.1, 2.4 sich @105.3, 3.4 Auge @141.4
+
+### Fischer-Dieskau — Moore 1969 (`3vWDp54Q2sw`) — свой; проходов 14; в очереди 4 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 50.0–58.6 (8.6 с) под 0:3·Herzen; 101.2–104.1 (2.9 с) между 1:3·ausgestreckt. и 1:1·versteckt,, 1.4 unterm @37.6, 2.2 versteckt, @83.7, 2.3 herunterziehen, @111.7
 
 ### Geller — Eisenlohr 2003 (`KX5_dS7tyDY`) — свой; проходов 12; в очереди 24 слов
 1.1 Er @8.0, 1.1 schläft @8.5, 1.1 so @9.9, 1.1 hangen @14.1, 1.2 An @15.7, 1.2 ihres @16.1, 1.2 Lieblings @17.1, 1.2 leisem @18.1, 1.2 Athemzug, @20.0, 1.3 Den @23.6, 1.3 sie @24.0, 1.3 mit @25.6, 1.3 stillem, @26.0, 1.3 sehnsuchtsvollem @27.9, 1.3 Bangen @29.8, 1.4 So @31.5, 1.4 lange @47.2, 1.4 unterm @49.7, 1.4 Herzen @51.4, 1.4 trug. @53.3, 2.1 sieht @63.9, 2.2 versteckt, @76.3, 2.3 will @78.7, 2.2 versteckt, @93.8
@@ -1880,14 +1880,14 @@
 ### Prey — Moore 1960 (`L9KN0Gtv2Uk`) — свой; проходов 52; в очереди 17 слов
 1.3 von @29.6, 3.1 du @69.2, 4.2 auf @106.7, 5.1 warten, @127.3, 5.3 Draussen @135.6, 7.2 es @180.3, 7.5 Vor @187.4, 8.1 Rippen @199.0, 8.3 Klippen @203.9, 10.2 sie @239.5, 10.3 zu @243.3, 10.5 Plötzlich @248.6, 10.5 Felsenspalte @251.5, 11.1 Götterhänden @271.4, 11.4 herauf @296.3, 11.5 Erde, @308.5, 11.6 du @315.5
 
-### Baker — Johnson 1987 (`Mu9OQ6iR_2U`) — свой; проходов 37; в очереди 33 слов
-1.3 sich @25.3, 2.2 nach @48.4, 2.2 des @49.1, 2.2 Berges @50.3, 2.2 Höhn! @51.3, 3.2 muntern @72.4, 3.2 Klang? @74.0, 5.1 Willst @101.8, 5.1 du @102.1, 7.3 mit @120.9, 7.5 mit @126.4, 8.1 Auf @136.4, 8.3 Riss @142.4, 8.3 gespaltner @142.7, 8.6 er @150.9, 9.1 Jetzo @159.0, 9.1 auf @159.4, 9.1 den @159.9, 9.1 schroffen @160.0, 9.1 Zinken @160.8, 10.2 zu @162.2, 10.3 Fleht @164.3, 10.3 denn @165.4, 10.3 los @165.7, 10.5 Plötzlich @173.0, 10.6 alte, @189.2, 11.1 Und @194.7, 11.1 seinen @195.6, 11.3 Tod @212.0, 11.3 Jammer @214.3, 11.5 Erde, @239.4, 11.7 meine @263.2, 11.7 Heerde?“ @264.2
-
 ### Prégardien — Staier 1993 (`i6uJAOHikck`) — запасной; проходов 52; в очереди 0 слов
 —
 
 ### Bruns — Eisenlohr 2001 (`ZQwi3qyFw68`) — запасной; проходов 52; в очереди 1 слов
 6.1 die @150.9
+
+### Baker — Johnson 1987 (`Mu9OQ6iR_2U`) — запасной; проходов 52; в очереди 25 слов
+4.2 auf @96.1, 4.2 den @96.1, 4.2 wilden @96.2, 4.2 Höhn! @96.3, 5.1 du @96.6, 5.2 Die @97.5, 5.2 im @97.6, 5.3 ladet @98.8, 5.3 dich @98.9, 5.4 Wild @99.3, 5.4 auf @99.5, 5.4 den @99.6, 5.4 Höhn. @99.8, 6.1 blühen! @101.9, 6.2 Mutter, @102.2, 6.2 mich @114.2, 8.1 Auf @136.1, 8.1 Felsen @136.4, 8.2 sie @137.2, 8.2 mit @137.3, 8.5 ihr @141.9, 8.6 er @142.4, 9.1 auf @144.2, 9.5 sich @150.9, 11.2 Schützt @202.8
 
 ## D 519 — Die Blumensprache
 
@@ -1931,11 +1931,11 @@
 ### Augér — Johnson 1989 (`eT0lAsSdmiI`) — запасной; проходов 24; в очереди 0 слов
 —
 
-### Anderson — Rupp 1949–50? (`BoG6BDEEh9s`) — свой; проходов 17; в очереди 16 слов
-1.1 Wo @18.6, 1.2 flücht'ger @31.3, 1.3 nicht @43.9, 2.1 Willst @71.0, 2.1 nach @73.3, 2.1 nach @74.1, 2.4 sie. @120.9, 5.1 Und @130.7, 5.1 er @132.7, 5.1 fühlt, @133.5, 5.1 dass @135.6, 5.2 zu @149.5, 5.4 Heil'ge @178.6, 6.2 schönen @204.8, 6.4 Hoher @230.0, 6.4 kindschem @239.8
-
 ### Watts — Vignoles 2008 (`KTAlwdvTTGo`) — запасной; проходов 24; в очереди 1 слов
 ДЫРЫ НА ПРОВЕРКУ: 295.1–299.1 (4.0 с) между 5:0·Räumen и 5:1·Jedem
+
+### Anderson — Rupp 1949–50? (`BoG6BDEEh9s`) — свой; проходов 17; в очереди 16 слов
+1.1 Wo @18.6, 1.2 flücht'ger @31.3, 1.3 nicht @43.9, 2.1 Willst @71.0, 2.1 nach @73.3, 2.1 nach @74.1, 2.4 sie. @120.9, 5.1 Und @130.7, 5.1 er @132.7, 5.1 fühlt, @133.5, 5.1 dass @135.6, 5.2 zu @149.5, 5.4 Heil'ge @178.6, 6.2 schönen @204.8, 6.4 Hoher @230.0, 6.4 kindschem @239.8
 
 ## D 596 — Lied eines Kindes
 
@@ -1992,25 +1992,25 @@
 
 ## D 711 — Lob der Tränen
 
-### Fischer-Dieskau — Moore 1969 (`WVoRioV1UTg`) — свой; проходов 26; в очереди 5 слов
-1.3 Lenz- @23.9, 1.3 und @24.9, 2.7 Wie @108.9, 2.7 erquicklich, @109.6, 2.12 Hebet @127.4
-
 ### Mathis — Johnson 1992 (`FNWl3jJYta8`) — запасной; проходов 52; в очереди 2 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 17.2–20.6 (3.4 с) под 0:1·Blumendüfte,; (растянутое слово) 26.9–28.9 (1.9 с) под 0:3·Lippen; (растянутое слово) 78.6–80.2 (1.5 с) под 1:0·feuchten; (растянутое слово) 140.2–141.9 (1.7 с) под 2:0·süssen; (растянутое слово) 146.6–147.8 (1.2 с) под 2:2·unsern; (растянутое слово) 184.0–188.4 (4.5 с) под 3:0·Ewges; (растянутое слово) 188.4–204.5 (16.0 с) под 3:0·Sehnen; (растянутое слово) 236.7–238.6 (1.9 с) под 3:9·Weinen, 3.12 In @180.2
-
-### Goerne — Johnson 1995 (`a62XU3HIoHY`) — свой; проходов 26; в очереди 11 слов
-1.10 Was @53.6, 2.3 Von @94.1, 2.4 Dann @100.1, 2.4 entsiegelt, @101.0, 2.7 Wie @112.4, 2.7 erquicklich, @112.9, 2.10 Wie @124.1, 2.10 vom @124.9, 2.10 Regen @125.3, 2.11 Blumen @127.1, 2.13 Muth. @143.7
 
 ### Rubens — Eisenlohr 2008 (`obhwJEVr6ig`) — починка; проходов 52; в очереди 39 слов
 1.5 nippen, @28.5, 1.6 an @32.0, 1.7 Dann @35.8, 1.7 der @36.3, 1.7 Trauben @36.6, 1.8 Nektar @38.7, 1.12 je @54.8, 1.13 je @60.7, 1.13 Herz? @61.9, 2.1 feuchten @75.9, 2.3 Wehmuth @81.8, 2.6 Sich @92.5, 2.6 Himmelsau, @94.5, 2.7 Wie @97.4, 2.7 erquicklich, @98.3, 2.12 Hebet @116.5, 2.13 Hebet @122.1, 2.13 sich @123.3, 2.13 der @124.7, 2.13 matte @125.2, 2.13 Muth. @125.9, 3.1 Nicht @139.1, 3.9 Sinn, @170.7, 3.12 hin. @181.8, 3.12 In @184.7, 4.1 Ewges @187.7, 4.1 Sehnen @202.5, 4.2 Floss @204.2, 4.2 in @205.1, 4.2 Thränen @205.3, 4.4 Die @211.2, 4.4 in @213.1, 4.6 umfluthend @220.5, 4.7 Soll @225.2, 4.7 dein @226.0, 4.7 Wesen @226.6, 4.10 Weinen @239.3, 4.12 Wasser @246.0, 4.12 Wasser @252.9
 
-## D 990 — Der Graf von Habsburg
+### Fischer-Dieskau — Moore 1969 (`WVoRioV1UTg`) — свой; проходов 26; в очереди 5 слов
+1.3 Lenz- @23.9, 1.3 und @24.9, 2.7 Wie @108.9, 2.7 erquicklich, @109.6, 2.12 Hebet @127.4
 
-### Odinius — Eisenlohr 2005 (`Gjt-ZBiVJIM`) — свой; проходов 20; в очереди 5 слов
-1.1 Kaiserpracht, @4.2, 1.9 der @40.2, 2.2 in @60.0, 2.6 kaiserlose, @76.5, 2.10 werden. @96.6
+### Goerne — Johnson 1995 (`a62XU3HIoHY`) — свой; проходов 26; в очереди 11 слов
+1.10 Was @53.6, 2.3 Von @94.1, 2.4 Dann @100.1, 2.4 entsiegelt, @101.0, 2.7 Wie @112.4, 2.7 erquicklich, @112.9, 2.10 Wie @124.1, 2.10 vom @124.9, 2.10 Regen @125.3, 2.11 Blumen @127.1, 2.13 Muth. @143.7
+
+## D 990 — Der Graf von Habsburg
 
 ### Schweppe — Fukuda 2026 (`3wnBb9bzCvQ`) — свой; проходов 124; в очереди 33 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 4.3 «Locke» → «lockere» @177с; 8.5 «Baches» → «Spache» @398с; 9.7 «Andre» → «Ander» @459с; 12.2 «dächt&#039;» → «recht;» @598с, ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 495.5–499.8 (4.2 с) под 9:5·bleib&#039;; (растянутое слово) 502.1–504.0 (1.8 с) под 9:5·dem, 1.3 Saß @18.7, 1.5 des @30.6, 1.5 Rheins, @30.8, 5.2 Der @227.0, 5.2 Herrscher @227.2, 5.2 mit @227.3, 6.7 kommt @300.9, 7.6 Von @346.7, 7.6 des @346.9, 7.6 Gießbachs @347.2, 7.6 reißenden @348.2, 7.6 Fluthen @349.2, 7.6 geschwellt, @349.5, 8.10 Durchwaten @417.5, 9.6 weiter @455.4, 9.6 des @455.9, 9.6 Jagens @456.2, 9.6 Begier; @457.0, 10.6 So @494.8, 10.6 bleib&#039; @495.5, 10.8 irdisches @518.6, 10.8 Gut @519.6, 11.4 ihn @552.8, 11.4 jetzt @553.9, 11.4 geehret. @554.2, 11.5 bekannt @559.8, 11.6 Durch @560.9, 11.6 ritterlich @561.3, 11.6 Walten @562.2, 11.6 im @563.1, 11.6 Schweizerland; @563.3
+
+### Odinius — Eisenlohr 2005 (`Gjt-ZBiVJIM`) — свой; проходов 20; в очереди 6 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 1.4 «Krönungsmahle.» → «Königsmahne.» @16с, 1.1 Kaiserpracht, @4.2, 1.9 der @40.2, 2.2 in @60.0, 2.6 kaiserlose, @76.5, 2.10 werden. @96.6
 
 ## D 990A — Kaiser Maximilian auf der Martinswand
 
@@ -2156,9 +2156,6 @@
 
 ## D 632 — Vom Mitleiden Mariä
 
-### Fischer-Dieskau — Moore 1969 (`DeHqKU4BeIU`) — починка; проходов 12; в очереди 4 слов
-ВАРИАНТЫ НА ПРОВЕРКУ: 1.2 «empfand» → «fand» @17с, 1.1 bei @2.6, 2.5 Zu @105.0, 2.5 gehen, @110.3
-
 ### Janowitz — Gage 1977 (`ESamcgR2P_s`) — запасной; проходов 18; в очереди 1 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 96.6–116.6 (20.0 с) под 0:5·Herzen.; (до первого слова) буквенная масса 9 до 4.3 — пение до первого размеченного слова
 
@@ -2170,6 +2167,9 @@
 
 ### C. Schäfer — Gage 1997 (`pjVDv8hbns8`) — починка; проходов 20; в очереди 14 слов
 ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 126.3–131.1 (4.8 с) под 1:4·gehen,; (растянутое слово) 137.0–150.6 (13.5 с) под 1:5·gehen., 1.2 Weh @11.9, 1.2 Herz @17.2, 1.5 Gedruckt @47.6, 2.1 Sohn @78.6, 2.2 von @90.5, 2.2 Wunden @91.1, 2.4 Denk', @109.3, 2.4 wie @111.5, 2.5 ihr @125.1, 3.2 Durch @160.7, 3.3 Viel @170.3, 3.6 Herz @207.4, 3.6 Mutter @209.9
+
+### Fischer-Dieskau — Moore 1969 (`DeHqKU4BeIU`) — свой; проходов 12; в очереди 4 слов
+ВАРИАНТЫ НА ПРОВЕРКУ: 1.2 «empfand» → «fand» @17с, 1.1 bei @2.6, 2.5 Zu @105.0, 2.5 gehen, @110.3
 
 ## D 646 — Die Gebüsche
 
@@ -2223,17 +2223,17 @@
 
 ## D 651 — Himmelsfunken
 
+### Brewer — Johnson 1996 (`6onwdsZ7x2E`) — запасной; проходов 31; в очереди 14 слов
+2.2 zu @146.6, 2.2 den @146.6, 2.4 Es, @150.2, 2.4 ach, @150.2, 2.4 so @150.3, 2.4 ach, @155.4, 2.4 so @155.4, 3.4 Vater, @187.4, 3.4 der @187.5, 3.4 es @187.5, 4.3 Winkt @197.1, 4.3 Winkt @200.3, 4.4 Hoch @200.8, 4.4 aus @200.9
+
 ### Fischer-Dieskau — Moore 1969 (`O9tRhSC7RSo`) — свой; проходов 12; в очереди 7 слов
 1.4 wunder @69.1, 1.5 sich @89.4, 1.7 Die @110.5, 1.7 heilge @111.7, 1.7 Thräne @113.8, 1.7 quillt, @116.5, 1.7 Die @129.9
 
-### Moser — Hokanson 1984 (`Ya4jvufRJ6E`) — свой; проходов 13; в очереди 17 слов
-ДЫРЫ НА ПРОВЕРКУ: 116.1–120.3 (4.3 с) между 2:3·Vater, и 2:3·der, 1.1 weht, @14.2, 1.2 Sehnsucht @24.6, 1.2 wach, @29.3, 1.4 wunder @44.5, 1.4 Ach. @50.0, 1.2 wach, @50.2, 1.4 wunder @63.9, 1.4 Ach. @69.6, 3.2 Vernimmt @91.8, 3.2 stillen @97.5, 3.2 Ruf, @103.4, 3.4 Zum @117.1, 3.4 Vater, @117.8, 3.3 sich @129.2, 3.4 der @139.7, 3.4 schuf, @142.8
+### Moser — Hokanson 1984 (`Ya4jvufRJ6E`) — свой; проходов 14; в очереди 20 слов
+1.1 weht, @14.2, 1.2 Sehnsucht @24.6, 1.2 wach, @29.3, 1.4 wunder @44.5, 1.4 Ach. @50.0, 1.2 wach, @50.2, 1.4 wunder @63.9, 1.4 Ach. @69.6, 3.2 Vernimmt @91.8, 3.2 stillen @97.5, 3.2 Ruf, @103.4, 3.4 Zum @117.1, 3.4 Vater, @117.8, 3.3 sich @129.2, 3.4 es @140.3, 3.5 Zum @140.7, 3.5 Vater, @140.8, 3.5 der @141.1, 3.5 es @141.9, 3.5 schuf! @142.8
 
 ### Gerhaher — Huber 2005 (`nnxGMg-TK3M`) — свой; проходов 19; в очереди 14 слов
 1.1 weht, @16.5, 1.2 Still @20.7, 1.3 Das @36.8, 1.2 wach, @53.1, 1.3 Herz @59.8, 1.3 vergeht @61.8, 1.4 Ach. @72.4, 2.2 Höhn! @109.9, 2.3 süssem @138.7, 2.4 ach, @147.3, 2.4 vergehn, @151.3, 4.1 O @170.0, 4.1 süsser @170.9, 4.3 Winkt @216.3
-
-### Brewer — Johnson 1996 (`6onwdsZ7x2E`) — свой; проходов 18; в очереди 16 слов
-ДЫРЫ НА ПРОВЕРКУ: 81.9–97.0 (15.1 с) между 0:5·Band. и 0:6·Die, 1.2 Still @16.6, 1.4 süssem @40.2, 1.3 vergeht @50.2, 1.7 Die @97.0, 1.8 Himmels @127.9, 3.2 den @159.9, 3.2 Ruf, @165.1, 3.3 sehnt @170.0, 3.3 sich @171.2, 3.4 Zum @176.6, 3.4 der @179.7, 3.3 sehnt @186.0, 3.3 sich @187.1, 3.3 heimathwärts @187.8, 3.4 Vater, @193.7
 
 ### Lipovšek — Johnson 1996 (`RS83Ifwjr7k`) — свой; проходов 18; в очереди 8 слов
 1.4 In @33.9, 1.4 In @50.4, 1.7 heilge @89.1, 1.7 Die @104.3, 3.2 Vernimmt @139.5, 3.3 heimathwärts @153.0, 3.4 Vater, @158.7, 3.3 heimathwärts @168.9
@@ -2336,25 +2336,25 @@
 
 ## D 660 — Geistliches Lied
 
-### Fischer-Dieskau — Moore 1969 (`bK87369S-2U`) — свой; проходов 18; в очереди 24 слов
-2.4 Treugesinnt @48.7, 2.4 nur @49.5, 2.4 meinem @49.7, 2.4 Herrn; @50.1, 2.5 Lasse @50.3, 2.5 Andern @51.1, 4.6 Kann @51.7, 4.6 mir @54.0, 4.6 vor @54.1, 4.6 dem @54.8, 4.6 Irdischen @55.2, 4.6 nicht @56.9, 5.3 Und @81.3, 5.3 es @81.6, 5.3 fällt @81.8, 5.3 mir @82.7, 5.3 jede @82.9, 5.3 Gabe @84.1, 5.4 Wie @85.7, 5.4 ein @86.1, 5.4 Erbtheil @86.5, 5.4 in @88.0, 5.4 die @88.2, 5.4 Hand: @88.9
-
 ### Lipovšek — Johnson 1996 (`D1XDUX0UwOw`) — починка; проходов 25; в очереди 7 слов
 1.1 Wenn @0.9, 1.5 von @20.3, 1.6 Fühle @22.9, 3.4 Herzens @90.5, 4.1 Wenn @106.3, 5.6 Find' @137.9, 5.6 wieder. @142.3
 
 ### Rubens — Eisenlohr 2008 (`03IDsSbs8xU`) — починка; проходов 31; в очереди 17 слов
 1.2 nur @9.4, 1.2 ist, @9.8, 1.6 nichts, @30.7, 2.1 nur @51.8, 2.2 Lass' @54.6, 2.5 Lasse @72.1, 3.1 nur @99.6, 3.4 Fluth @116.7, 3.4 sein, @117.9, 3.5 Die @121.7, 3.6 und @131.9, 4.3 ein @158.6, 4.6 Kann @174.5, 4.6 vor @175.8, 5.3 fällt @204.9, 5.4 Erbtheil @211.3, 5.5 vermisste @217.9
 
+### Fischer-Dieskau — Moore 1969 (`bK87369S-2U`) — свой; проходов 18; в очереди 24 слов
+2.4 Treugesinnt @48.7, 2.4 nur @49.5, 2.4 meinem @49.7, 2.4 Herrn; @50.1, 2.5 Lasse @50.3, 2.5 Andern @51.1, 4.6 Kann @51.7, 4.6 mir @54.0, 4.6 vor @54.1, 4.6 dem @54.8, 4.6 Irdischen @55.2, 4.6 nicht @56.9, 5.3 Und @81.3, 5.3 es @81.6, 5.3 fällt @81.8, 5.3 mir @82.7, 5.3 jede @82.9, 5.3 Gabe @84.1, 5.4 Wie @85.7, 5.4 ein @86.1, 5.4 Erbtheil @86.5, 5.4 in @88.0, 5.4 die @88.2, 5.4 Hand: @88.9
+
 ## D 661 — Geistliches Lied
-
-### Fischer-Dieskau — Moore 1969 (`2XufUTpUM6w`) — свой; проходов 20; в очереди 6 слов
-1.5 Für @18.1, 1.7 Freuden @30.2, 2.8 keiner @82.9, 2.8 daran. @84.6, 2.10 keiner @91.0, 2.10 daran. @92.8
-
-### Lipovšek — Johnson 1996 (`zEGe5OsoCsc`) — починка; проходов 32; в очереди 7 слов
-ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 56.7–60.6 (3.9 с) под 1:2·mancher, 2.3 den @61.4, 2.3 Und @61.6, 2.3 von @61.8, 2.3 den @61.9, 2.3 Deinen @61.9, 2.4 Dich @61.9
 
 ### Rubens — Eisenlohr 2008 (`QPKVVIbeUpM`) — свой; проходов 41; в очереди 30 слов
 ВАРИАНТЫ НА ПРОВЕРКУ: 3.2 «Noch» → «doch» @136с, 1.1 Wenn @1.2, 1.1 untreu @3.5, 1.2 So @7.3, 1.3 Dass @13.3, 1.6 Vergingst @30.1, 1.7 Drum @35.9, 1.7 dir @38.0, 2.3 von @77.9, 2.8 daran. @107.3, 3.1 Du @130.4, 3.2 Noch @136.4, 3.2 jedem @138.7, 3.3 wenn @143.3, 3.4 du @150.4, 3.4 dennoch @150.8, 3.7 bitterlich @167.0, 3.8 Knie. @174.8, 3.9 schmieget @179.6, 3.10 an @184.1, 4.1 Ich @196.8, 4.1 habe @197.2, 4.1 dich @198.6, 4.1 empfunden, @198.9, 4.2 von @205.4, 4.3 Lass @208.6, 4.4 sein @216.7, 4.5 schauen @221.6, 4.10 fallen @249.2, 4.10 dir @250.8
+
+### Lipovšek — Johnson 1996 (`zEGe5OsoCsc`) — свой; проходов 32; в очереди 7 слов
+ДЫРЫ НА ПРОВЕРКУ: (растянутое слово) 56.7–60.6 (3.9 с) под 1:2·mancher, 2.3 den @61.4, 2.3 Und @61.6, 2.3 von @61.8, 2.3 den @61.9, 2.3 Deinen @61.9, 2.4 Dich @61.9
+
+### Fischer-Dieskau — Moore 1969 (`2XufUTpUM6w`) — свой; проходов 20; в очереди 6 слов
+1.5 Für @18.1, 1.7 Freuden @30.2, 2.8 keiner @82.9, 2.8 daran. @84.6, 2.10 keiner @91.0, 2.10 daran. @92.8
 
 ## D 662 — Geistliches Lied
 

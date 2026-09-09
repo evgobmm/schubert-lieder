@@ -6,16 +6,7 @@
  "verified_by_ear": false,
  "note": "Маршрут и варианты — по распознаванию Whisper; на слух не проверено.",
  "extra_lines": [],
- "variants": [
-  {
-   "s": 1,
-   "l": 0,
-   "k": 6,
-   "w": "stillt?",
-   "heard": "steht?",
-   "start": 55.72
-  }
- ],
+ "variants": [],
  "route": [
   {
    "s": 0,
@@ -549,5 +540,15 @@
    ]
   }
  ],
- "anchored": 94
+ "anchored": 94,
+ "variant_candidates": [
+  {
+   "s": 1,
+   "l": 0,
+   "k": 6,
+   "w": "stillt?",
+   "heard": "steht?",
+   "start": 55.72
+  }
+ ]
 }
