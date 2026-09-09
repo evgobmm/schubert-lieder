@@ -134,8 +134,14 @@ for (const d of ds) {
   };
   const ov = SLUG_OVERRIDE[String(d)] || {};
   const ovUrl = (site) => (ov[site] ? [`https://www.${site === 'schubertsong.uk' ? 'schubertsong.uk/text' : 'schubertlied.de/die-lieder'}/${ov[site]}/`] : []);
+  // Песни циклов ходят как D 911/1, а на schubertlied.de адрес строится от БАЗОВОГО номера: gute-nacht-d911.
+  // Прежний код подставлял «d911/1» и получал 404 у всех песен D 795, D 911 и D 957 (отсюда сквозной
+  // пробел «schubertlied.de недоступен» в их файлах фактов). Указатель для таких песен тоже бесполезен:
+  // все 24 номера «Зимнего пути» лежат в нём под одним ключом 911, и побеждает последняя страница.
+  const dBase = String(d).split('/')[0];
+  const slUrls = [`https://www.schubertlied.de/die-lieder/${kebabPlain(title)}-d${dBase}`, `https://www.schubertlied.de/die-lieder/${kebab(title)}-d${dBase}`];
   const candidates = {
-    'schubertlied.de': [...fromIndex, `https://www.schubertlied.de/die-lieder/${kebabPlain(title)}-d${d}`, `https://www.schubertlied.de/die-lieder/${kebab(title)}-d${d}`],
+    'schubertlied.de': String(d).includes('/') ? [...slUrls, ...fromIndex] : [...fromIndex, ...slUrls],
     'schubertsong.uk': [...ovUrl('schubertsong.uk'), `https://www.schubertsong.uk/text/${kebabPlain(title)}/`, `https://www.schubertsong.uk/text/${kebab(title)}/`],
   };
   if (!ONLY || ONLY === 'web') for (const [name, urls] of Object.entries(candidates)) {
