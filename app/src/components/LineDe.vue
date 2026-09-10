@@ -40,7 +40,7 @@ function onClick(word) {
 </script>
 
 <template>
-  <p class="line-de" :class="{ 'sync-clickable': clickable, 'has-tier': hasTier }">
+  <p class="line-de" lang="de" :class="{ 'sync-clickable': clickable, 'has-tier': hasTier }">
     <template v-for="(t, i) in tokens" :key="i">
       <span
         v-if="t.word >= 0"

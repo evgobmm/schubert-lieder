@@ -177,7 +177,7 @@ const segmentInfo = computed(() => {
           @click.stop="onTap(info, false)"
         />
       </span>
-      <span class="de-gloss">
+      <span class="de-gloss" lang="de">
         <template v-if="info.seg.variant_de">{{ info.seg.de }} / {{ info.seg.variant_de }}</template>
         <template v-else>{{ info.seg.de || '\u00A0' }}</template>
       </span>
