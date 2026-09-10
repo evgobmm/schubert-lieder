@@ -2058,14 +2058,30 @@
     },
     {
       "lines_de": [
-        "[Strophe 2: Anfang und Schluss wie in Strophe 1, nur der Mittelteil ist anders]"
+        "[Strophe 2: Anfang und Schluss wie in Strophe 1, nur der Mittelteil ist anders, s. unten]"
       ],
       "lines_ru": [
         {
           "segments": [
             {
-              "ru": "[Куплет 2: начало и конец те же, что в куплете 1, отличается только средняя часть, приведённая ниже]",
-              "de": "[Strophe 2: Anfang und Schluss wie in Strophe 1, nur der Mittelteil ist anders]"
+              "ru": "[Куплет 2:",
+              "de": "[Strophe 2:"
+            },
+            {
+              "ru": "начало и конец",
+              "de": "Anfang und Schluss"
+            },
+            {
+              "ru": "как в куплете 1,",
+              "de": "wie in Strophe 1,"
+            },
+            {
+              "ru": "иная только середина,",
+              "de": "nur der Mittelteil ist anders,"
+            },
+            {
+              "ru": "она ниже]",
+              "de": "s. unten]"
             }
           ]
         }
