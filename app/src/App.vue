@@ -213,7 +213,7 @@ const playActive = computed(() =>
         />
         <div v-if="mobSearching" class="mob-search-results">
           <p v-if="!mobResult.hits.length && mobResult.pending" class="mob-search-note">Ищу в тексте песен…</p>
-          <p v-else-if="!mobResult.hits.length" class="mob-search-note">Ничего не найдено</p>
+          <p v-else-if="!mobResult.hits.length && mobResult.mode !== null" class="mob-search-note">Ничего не найдено</p>
           <p v-else-if="mobResult.mode === 'text'" class="mob-search-note">В названиях нет — найдено в тексте песен:</p>
           <button
             v-for="hit in mobResult.hits"

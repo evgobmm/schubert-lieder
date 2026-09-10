@@ -135,6 +135,7 @@ const statusText = computed(() => {
   if (!searching.value) return ''
   const n = hits.value.length
   if (!n && searchResult.value.pending) return 'Ищу в тексте песен…'
+  if (!n && searchResult.value.mode === null) return ''   // запрос набран, поиск ещё не запущен (пауза 80 мс)
   if (!n) return 'Ничего не найдено'
   if (searchResult.value.mode === 'text') return `В названиях нет · в тексте: ${plural(n, 'песня', 'песни', 'песен')}`
   return plural(n, 'песня', 'песни', 'песен')
