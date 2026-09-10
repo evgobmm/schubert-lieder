@@ -1,7 +1,7 @@
 {
  "d": "839",
  "videoId": "09hBH9anXKo",
- "performance": "Anderson — Vehanen, 1936",
+ "performance": "M. Anderson — Vehanen, 1936",
  "method": "demucs -> MMS_FA + wav2vec2-xlsr-53 (язык песни); маршрут — консенсус записей песни по строфам (Whisper этой записи потерял или переврал проходы); привязка слов к фразам по декоду; ДП, атаки, концы",
  "verified_by_ear": false,
  "note": "Запасной путь: маршрут-консенсус, без Whisper-якорей; на слух не проверено.",

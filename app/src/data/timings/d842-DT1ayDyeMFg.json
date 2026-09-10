@@ -1,7 +1,7 @@
 {
  "d": "842",
  "videoId": "DT1ayDyeMFg",
- "performance": "Fischer-Dieskau — Richter, 1977",
+ "performance": "Fischer-Dieskau — S. Richter, 1977",
  "method": "demucs -> MMS_FA + wav2vec2-xlsr-53 (язык песни); маршрут — консенсус записей песни по строфам (Whisper этой записи потерял или переврал проходы); привязка слов к фразам по декоду; ДП, атаки, концы",
  "verified_by_ear": false,
  "note": "Запасной путь: маршрут-консенсус, без Whisper-якорей; на слух не проверено.",
@@ -662,10 +662,10 @@
     ],
     [
      165.44,
-     166.0
+     166
     ],
     [
-     166.0,
+     166,
      168.59
     ],
     [
