@@ -121,10 +121,61 @@ for (const [d, arr] of Object.entries(perf)) {
   if (fi >= 0 && fi > (qi >= 0 ? 1 : 0)) add('WARN', `performances[${d}]`, 'Fischer-Dieskau ниже ожидаемой позиции: ' + fi);
 }
 
+// ---------- согласованность индекса, разделов и файлов песен (2026-09-10) ----------
+const sections = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/src/data/sections.json'), 'utf8'));
+const secById = new Map(sections.map((s) => [s.id, s]));
+const secRange = (title) => { const m = String(title).match(/(1[78]\d\d)(?:[–-](1[78]\d\d|\d\d))?/); if (!m) return null; const a = +m[1]; const b = m[2] ? (m[2].length === 2 ? +(m[1].slice(0, 2) + m[2]) : +m[2]) : a; return [a, b]; };
+const songByD = new Map();
+const poetForms = new Map();
+for (const e of index) {
+  if (!e.file) continue;
+  const song = JSON.parse(fs.readFileSync(path.join(SONGS, e.file), 'utf8'));
+  songByD.set(String(e.d), song);
+  for (const k of ['title_de', 'title_ru', 'poet_de', 'poet_ru', 'year']) {
+    if (String(e[k] ?? '') !== String(song[k] ?? '')) add('ERROR', `index d${e.d}`, `${k} расходится с файлом песни: индекс «${e[k]}», файл «${song[k]}»`);
+  }
+  const r = secRange((secById.get(e.section) || {}).title);
+  const y = String(e.year).match(/(1[78]\d\d)(?:–(\d\d|1[78]\d\d))?/);
+  if (r && y) { const y1 = +y[1]; const y2 = y[2] ? (y[2].length === 2 ? +(y[1].slice(0, 2) + y[2]) : +y[2]) : y1; if (y2 < r[0] || y1 > r[1]) add('ERROR', `index d${e.d}`, `год «${e.year}» вне раздела «${secById.get(e.section).title}»`); }
+  if (song.poet_de) { if (!poetForms.has(song.poet_de)) poetForms.set(song.poet_de, new Map()); const m = poetForms.get(song.poet_de); m.set(song.poet_ru || '', (m.get(song.poet_ru || '') || 0) + 1); }
+}
+for (const [de, forms] of poetForms) if (forms.size > 1) add('WARN', `poet «${de}»`, 'русское имя пишется по-разному: ' + [...forms.keys()].join(' | '));
+if (sections.reduce((n, s) => n + s.count, 0) !== index.length) add('ERROR', 'sections.json', 'сумма count разделов не равна числу песен индекса');
+
+// ---------- тайминги: ссылки маршрутов, число слов, варианты (2026-09-10) ----------
+const TIMINGS = path.join(ROOT, 'app/src/data/timings');
+const nTok = (s) => String(s || '').split(/\s+/).filter(Boolean).length;
+let timingFiles = 0;
+for (const f of fs.readdirSync(TIMINGS)) {
+  if (!f.endsWith('.json')) continue;
+  timingFiles++;
+  let t;
+  try { t = JSON.parse(fs.readFileSync(path.join(TIMINGS, f), 'utf8')); } catch (e) { add('ERROR', `timings/${f}`, 'невалидный JSON'); continue; }
+  const song = songByD.get(String(t.d));
+  if (!song) { add('ERROR', `timings/${f}`, `нет песни d${t.d}`); continue; }
+  const extra = new Set((t.extra_lines || []).map((x) => x.id));
+  const perLine = new Map();
+  t.route.forEach((r, i) => {
+    if (r.x) { if (!extra.has(r.x)) add('ERROR', `timings/${f} #${i}`, `ссылка на несуществующую extra_line ${r.x}`); return; }
+    const line = song.stanzas[r.s] && song.stanzas[r.s].lines_de[r.l];
+    if (line === undefined) { add('ERROR', `timings/${f} #${i}`, `маршрут ссылается на строку ${r.s}:${r.l}, которой нет`); return; }
+    if (r.w.length !== nTok(line)) add('ERROR', `timings/${f} #${i}`, `слов в строке ${r.s}:${r.l}: ${nTok(line)}, интервалов: ${r.w.length}`);
+    for (const w of r.w) if (w !== null && (!Array.isArray(w) || w.length !== 2 || !(w[0] >= 0) || !(w[1] >= w[0]))) add('ERROR', `timings/${f} #${i}`, 'битый интервал ' + JSON.stringify(w));
+  });
+  for (const v of t.variants || []) {
+    const line = song.stanzas[v.s] && song.stanzas[v.s].lines_de[v.l];
+    const words = line ? line.split(/\s+/).filter(Boolean) : [];
+    if (!words[v.k]) { add('ERROR', `timings/${f}`, `variant ${v.s}:${v.l}#${v.k} вне строки`); continue; }
+    const key = `${v.s}:${v.l}`; perLine.set(key, (perLine.get(key) || 0) + 1);
+    if (words[v.k].toLowerCase().replace(/[^a-zäöüß']/g, '') !== String(v.w).toLowerCase().replace(/[^a-zäöüß']/g, '')) add('WARN', `timings/${f}`, `variant ${key}#${v.k}: в тексте «${words[v.k]}», в записи варианта «${v.w}»`);
+  }
+  for (const [key, n] of perLine) if (n >= 2) add('WARN', `timings/${f}`, `в строке ${key} ${n} подмены — похоже на ошибку выравнивания, а не исполнение`);
+}
+
 // ---------- итог ----------
 const errs = findings.filter((f) => f.level === 'ERROR');
 const warns = findings.filter((f) => f.level === 'WARN');
-console.log(`Проверено песен: ${index.filter((e) => e.file).length}; performances: ${Object.keys(perf).length} песен / ${Object.values(perf).reduce((a, b) => a + b.length, 0)} видео`);
+console.log(`Проверено песен: ${index.filter((e) => e.file).length}; таймингов: ${timingFiles}; performances: ${Object.keys(perf).length} песен / ${Object.values(perf).reduce((a, b) => a + b.length, 0)} видео`);
 console.log(`ERROR: ${errs.length}, WARN: ${warns.length}`);
 for (const f of errs) console.log(`[ERROR] ${f.where}: ${f.what}`);
 const byKind = {};
