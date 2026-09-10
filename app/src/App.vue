@@ -207,7 +207,7 @@ const playActive = computed(() =>
           v-model="mobSearch"
           class="mob-search-input"
           type="search"
-          placeholder="Название, D-номер, поэт, исполнитель, текст"
+          placeholder="Название, D-номер, поэт, исполнитель…"
           aria-label="Поиск по песням"
           @keydown.enter.prevent="mobGoTo(mobResult.hits[0])"
         />
