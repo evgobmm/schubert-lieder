@@ -76,7 +76,7 @@ function dQuery(raw) {
   return m[2] ? `${m[1]}/${m[2]}` : m[1]
 }
 
-// Ранг совпадения в названии: 0 — целиком, 1 — с начала, 2 — с начала слова, 3 — внутри слова
+// Ранг совпадения в названии: 0 — целиком, 1 — с начала, 2 — с начала слова, 3 — внутри слова; 4 — совпало имя поэта
 function titleScore(folded, q) {
   const at = folded.indexOf(q)
   if (at < 0) return null
@@ -106,6 +106,8 @@ export function searchSongs(songsIndex, query) {
       const sd = titleScore(fold(song.title_de), q)
       const sr = song.title_ru ? titleScore(fold(song.title_ru), q) : null
       for (const s of [sd, sr]) if (s !== null && (score === null || s < score)) score = s
+      // Имя поэта (русское или немецкое) — после всех совпадений в названиях: «Шиллер» показывает его песни
+      if (score === null && [song.poet_ru, song.poet_de].some(p => p && fold(p).includes(q))) score = 4
     }
     if (score === null) continue
     hits.push({
