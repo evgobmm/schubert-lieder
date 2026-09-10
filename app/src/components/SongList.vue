@@ -1,6 +1,6 @@
 <script setup>
 import { ref, reactive, computed, watch, nextTick, onMounted, onUnmounted } from 'vue'
-import { searchSongs, plural } from '../utils/searchIndex.js'
+import { searchSongs, plural, textIndexReady } from '../utils/searchIndex.js'
 import MatchText from './MatchText.vue'
 
 const props = defineProps({
@@ -121,6 +121,9 @@ function runSearch() {
   activeIdx.value = 0
 }
 
+// Индекс текста песен пришёл (первый поиск по тексту) — повторить текущий запрос
+watch(textIndexReady, () => { if (searching.value) runSearch() })
+
 // Ввод подхватывается сразу; короткая пауза лишь склеивает быстрые нажатия
 watch(searchInput, (q) => {
   clearTimeout(searchTimer)
@@ -131,6 +134,7 @@ watch(searchInput, (q) => {
 const statusText = computed(() => {
   if (!searching.value) return ''
   const n = hits.value.length
+  if (!n && searchResult.value.pending) return 'Ищу в тексте песен…'
   if (!n) return 'Ничего не найдено'
   if (searchResult.value.mode === 'text') return `В названиях нет · в тексте: ${plural(n, 'песня', 'песни', 'песен')}`
   return plural(n, 'песня', 'песни', 'песен')

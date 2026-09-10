@@ -10,7 +10,7 @@ import AcknowledgementsMenu from './components/AcknowledgementsMenu.vue'
 import MatchText from './components/MatchText.vue'
 import songsIndex from './data/index.json'
 import sectionsIndex from './data/sections.json'
-import { searchSongs } from './utils/searchIndex.js'
+import { searchSongs, textIndexReady } from './utils/searchIndex.js'
 import { playback, togglePlay } from './utils/playback.js'
 
 // Выключатель собственных заходов (задел под статистику): ?stats=off / ?stats=on
@@ -70,6 +70,7 @@ watch(mobSearch, (q) => {
   clearTimeout(mobTimer)
   mobTimer = setTimeout(() => { mobResult.value = searchSongs(songsIndex, q) }, 80)
 })
+watch(textIndexReady, () => { if (mobSearch.value) mobResult.value = searchSongs(songsIndex, mobSearch.value) })
 const mobSearching = computed(() => mobSearch.value.trim().length >= 2 || /^d?\s*\d+/i.test(mobSearch.value.trim()))
 function mobGoTo(hit) {
   if (!hit || !hit.song.file) return
@@ -211,7 +212,8 @@ const playActive = computed(() =>
           @keydown.enter.prevent="mobGoTo(mobResult.hits[0])"
         />
         <div v-if="mobSearching" class="mob-search-results">
-          <p v-if="!mobResult.hits.length" class="mob-search-note">Ничего не найдено</p>
+          <p v-if="!mobResult.hits.length && mobResult.pending" class="mob-search-note">Ищу в тексте песен…</p>
+          <p v-else-if="!mobResult.hits.length" class="mob-search-note">Ничего не найдено</p>
           <p v-else-if="mobResult.mode === 'text'" class="mob-search-note">В названиях нет — найдено в тексте песен:</p>
           <button
             v-for="hit in mobResult.hits"

@@ -3,6 +3,10 @@ import { ref, computed, nextTick, onMounted, onUnmounted } from 'vue'
 import SongView from './SongView.vue'
 import songsIndex from '../data/index.json'
 
+// Песни грузятся по требованию (см. SongView); перед печатью выбранные подгружаем заранее,
+// чтобы печатный лист собрался полностью
+const songLoaders = import.meta.glob('../data/songs/*.json')
+
 const props = defineProps({
   currentSongNumber: { type: Number, required: true },
   showAnnotations: Boolean,
@@ -268,7 +272,9 @@ function autoFitPrint() {
 async function doPrint() {
   if (!selectedSongs.value.length) return
   printing.value = true
+  await Promise.all(selectedSongs.value.map(s => { const load = songLoaders[`../data/songs/${s.file}`]; return load ? load() : null }))
   document.body.classList.add('printing-songs')
+  await nextTick()
   await nextTick()
   if (document.fonts && document.fonts.ready) await document.fonts.ready
   autoFitPrint()

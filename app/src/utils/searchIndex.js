@@ -1,6 +1,23 @@
-// Поисковый индекс: названия из каталога и строки текста каждой песни.
-// Файлы песен уже входят в бандл (eager-глоб в SongView) — дублирования нет.
-const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
+import { ref } from 'vue'
+
+// Поисковый индекс: названия из каталога (index.json, в бандле) и строки текста каждой песни.
+// Строки текста живут в отдельном модуле virtual:search-text (его собирает vite.config.js
+// из файлов песен) и подгружаются только при первом поиске по тексту: файлы песен в
+// основной бандл больше не входят. Пока модуль не пришёл, поиск по тексту отвечает
+// { pending: true }; textIndexReady переключается, и вызывающие перезапускают поиск.
+let textMap = null
+let textLoading = null
+export const textIndexReady = ref(false)
+
+function loadTextIndex() {
+  if (!textLoading) {
+    textLoading = import('virtual:search-text').then(m => {
+      textMap = m.default
+      textIndexReady.value = true
+    })
+  }
+  return textLoading
+}
 
 // Нормализация для поиска: регистр, немецкие умляуты/ß, ударения,
 // типографские апострофы — чтобы «trane» находило «Träne», а «hab'» — «hab’»
@@ -44,18 +61,9 @@ const textCache = new Map()
 
 // Все строки песни (немецкие; для переведённых — и русские) одним массивом
 export function songLines(file) {
+  if (!textMap) return []
   if (textCache.has(file)) return textCache.get(file)
-  const mod = songModules[`../data/songs/${file}`]
-  const lines = []
-  if (mod) {
-    const song = mod.default
-    for (const stanza of song.stanzas || []) {
-      for (const de of stanza.lines_de || []) lines.push(de)
-      for (const ru of stanza.lines_ru || []) {
-        if (ru && ru.segments) lines.push(ru.segments.map(s => s.ru).join(' '))
-      }
-    }
-  }
+  const lines = textMap[file] || []
   const entry = lines.map(text => ({ text, folded: fold(text) }))
   textCache.set(file, entry)
   return entry
@@ -113,6 +121,10 @@ export function searchSongs(songsIndex, query) {
     return { mode: 'title', hits }
   }
   if (!byTitle) return { mode: 'title', hits: [] }
+  if (!textMap) {
+    loadTextIndex()
+    return { mode: 'text', hits: [], pending: true }
+  }
 
   const textHits = []
   for (const song of songsIndex) {

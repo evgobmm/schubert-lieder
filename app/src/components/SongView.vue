@@ -11,7 +11,9 @@ import { playback, seekTo } from '../utils/playback.js'
 import { getTiming, buildWordIndex, findWordAt, findWordStart } from '../utils/timings.js'
 import { mapWordsToSegments, normWord } from '../utils/lineTokens.js'
 
-const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
+// Песни грузятся по требованию: в бандл входит только код и каталог, файл песни —
+// отдельным куском при открытии (иначе 618 песен = 17 МБ на каждого посетителя)
+const songLoaders = import.meta.glob('../data/songs/*.json')
 
 const props = defineProps({
   songFile: String,
@@ -27,12 +29,17 @@ const props = defineProps({
   continuousNumbering: { type: Boolean, default: false }
 })
 
-const song = computed(() => {
-  if (!props.songFile) return null
-  const key = `../data/songs/${props.songFile}`
-  const mod = songModules[key]
-  return mod ? mod.default : null
-})
+const song = ref(null)
+let songLoadSeq = 0
+watch(() => props.songFile, async (file) => {
+  const seq = ++songLoadSeq
+  if (!file) { song.value = null; return }
+  const loader = songLoaders[`../data/songs/${file}`]
+  if (!loader) { song.value = null; return }
+  const mod = await loader()
+  // пока грузится новая песня, на экране остаётся прежняя; поздний ответ отброшен
+  if (seq === songLoadSeq) song.value = mod.default
+}, { immediate: true })
 
 // Узкая колонка метаданных в шапке: первая строка — «1816, D 399», ниже — «стихи — поэт»
 const metaLine = computed(() => {
