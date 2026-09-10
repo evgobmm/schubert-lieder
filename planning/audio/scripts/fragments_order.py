@@ -51,7 +51,7 @@ for d, lst in perf.items():
             lines = []
             for x in part:
                 st = x['fragment'].get('stanzas'); who = f"{x['name']} ({x['year']})"
-                what = ('спета ' + st) if st and st.startswith('строфа ') else (('спеты ' + st) if st else f"спето {x['fragment']['sung']} из {x['fragment']['text']} слов")
+                what = st if x['fragment'].get('abridged') else (('спета ' + st) if st and st.startswith('строфа ') else (('спеты ' + st) if st else f"спето {x['fragment']['sung']} из {x['fragment']['text']} слов"))
                 lines.append(f"Запись {who} неполная: {what}.")
             para = ' '.join(lines)
             txt = re.sub(r'\n+Запись [^\n]*неполная:[^\n]*$', '', sec['text'].rstrip())   # прежняя автопометка — заменить
