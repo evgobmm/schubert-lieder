@@ -647,6 +647,7 @@ watch(() => [props.songFile, playback.videoId], () => { lastLineKey = null })
     <header class="song-header">
       <div class="col-de">
         <h2
+          lang="de"
           :class="{
             'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === highlightKey && fn.type === 'lang'),
             'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === highlightKey && fn.type === 'meaning')

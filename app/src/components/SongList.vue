@@ -305,14 +305,14 @@ onUnmounted(() => {
               tabindex="-1"
               @click.exact.prevent="goToHit(hit)"
             >
-              <span class="hit-title"><MatchText :text="hit.song.title_de" :range="hit.de" /></span>
+              <span class="hit-title" lang="de"><MatchText :text="hit.song.title_de" :range="hit.de" /></span>
               <span class="hit-meta">
                 <MatchText :text="`D ${hit.song.d}`" :range="hit.d ? [0, 2 + hit.song.d.length] : null" /><template v-if="hit.song.year"> · {{ hit.song.year }}</template><template v-if="hit.song.title_ru"> · <MatchText :text="hit.song.title_ru" :range="hit.ru" /></template>
               </span>
               <span v-if="hit.line" class="hit-line"><MatchText :text="hit.line.text" :range="hit.line.range" /></span>
             </a>
             <span v-else class="hit">
-              <span class="hit-title">{{ hit.song.title_de }}</span>
+              <span class="hit-title" lang="de">{{ hit.song.title_de }}</span>
               <span class="hit-meta">страница готовится</span>
             </span>
           </li>
@@ -354,11 +354,11 @@ onUnmounted(() => {
                   :aria-current="song.number === current ? 'page' : null"
                   @click.exact.prevent="$emit('select', song.number)"
                 >
-                  <span class="song-title">{{ song.title_de }}</span>
+                  <span class="song-title" lang="de">{{ song.title_de }}</span>
                   <span v-if="group.dups.has(song.title_de)" class="song-d">D {{ song.d }}</span>
                 </a>
                 <span v-else class="song-link">
-                  <span class="song-title">{{ song.title_de }}</span>
+                  <span class="song-title" lang="de">{{ song.title_de }}</span>
                   <span v-if="group.dups.has(song.title_de)" class="song-d">D {{ song.d }}</span>
                 </span>
               </li>
