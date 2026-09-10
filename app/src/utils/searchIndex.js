@@ -1,4 +1,5 @@
 import { ref } from 'vue'
+import performances from '../data/performances.json'
 
 // Поисковый индекс: названия из каталога (index.json, в бандле) и строки текста каждой песни.
 // Строки текста живут в отдельном модуле virtual:search-text (его собирает vite.config.js
@@ -109,13 +110,20 @@ export function searchSongs(songsIndex, query) {
       // Имя поэта (русское или немецкое) — после всех совпадений в названиях: «Шиллер» показывает его песни
       if (score === null && [song.poet_ru, song.poet_de].some(p => p && fold(p).includes(q))) score = 4
     }
+    // Исполнитель или пианист из списка записей — последним рангом; под названием показывается сама запись
+    let perfLine = null
+    if (byTitle && score === null) {
+      const rec = (performances[song.d] || []).find(p => fold(p.name).includes(q))
+      if (rec) { score = 5; const text = `запись: ${rec.name}, ${rec.year}`; perfLine = { text, range: findRange(text, q) } }
+    }
     if (score === null) continue
     hits.push({
       song,
       score,
       d,
       de: byTitle ? findRange(song.title_de, q) : null,
-      ru: byTitle && song.title_ru ? findRange(song.title_ru, q) : null
+      ru: byTitle && song.title_ru ? findRange(song.title_ru, q) : null,
+      line: perfLine
     })
   }
   if (hits.length) {
