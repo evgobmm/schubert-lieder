@@ -64,7 +64,6 @@ function loadApi() {
 
 const frameRef = ref(null)
 const apiFailed = ref(false)
-const reloadCount = ref(0)
 let player = null          // экземпляр YT.Player
 let playerReady = false
 let loadedVideoId = null   // запись, загруженная в плеер
@@ -235,13 +234,6 @@ function destroyPlayer() {
   playback.status = 'idle'
 }
 
-// После входа в отдельной вкладке заново создать плеер с текущей записью.
-function reloadPlayer() {
-  destroyPlayer()
-  reloadCount.value += 1
-  if (!apiFailed.value) mountPlayer()
-}
-
 // Панель закрыли или записи не стало — разрушить плеер до того, как Vue уберёт его DOM
 watch([expanded, videoId], ([exp, id]) => {
   if (!exp || !id) destroyPlayer()
@@ -311,7 +303,7 @@ const highlightOn = computed({
         <div v-show="!apiFailed" ref="frameRef" class="perf-frame"></div>
         <div v-if="apiFailed" class="perf-frame">
           <iframe
-            :key="`${videoId}-${reloadCount}`"
+            :key="videoId"
             :src="fallbackSrc"
             title="Исполнение"
             loading="lazy"
@@ -319,15 +311,6 @@ const highlightOn = computed({
             allowfullscreen
           ></iframe>
         </div>
-        <div class="perf-actions">
-          <a
-            :href="`https://www.youtube.com/watch?v=${videoId}`"
-            target="_blank"
-            rel="noopener"
-          >Открыть на YouTube</a>
-          <button type="button" @click="reloadPlayer">Обновить плеер</button>
-        </div>
-        <p class="perf-hint">Если YouTube просит войти, откройте запись на YouTube. После входа обновите плеер.</p>
         <div v-if="currentSynced && !apiFailed" class="perf-hint">
           <p>Если нажать на слово в тексте, исполнение перейдёт на соответствующее место.</p>
           <label class="perf-check">
@@ -495,27 +478,6 @@ const highlightOn = computed({
   height: 100%;
   border: 0;
   display: block;
-}
-
-.perf-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 16px;
-  font-size: 0.8rem;
-}
-
-.perf-actions a,
-.perf-actions button {
-  font: inherit;
-  color: var(--accent);
-  text-decoration: underline;
-}
-
-.perf-actions button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
 }
 
 .perf-hint {
